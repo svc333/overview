@@ -3,7 +3,7 @@
 
 copyright:
   years: 2016, 2017
-lastupdated: "2017-05-4"
+lastupdated: "2017-01-10"
 
 ---
 
@@ -70,24 +70,3 @@ The Infrastructure dashboard provides various services to fit your cloud infrast
 {{site.data.keyword.Bluemix_notm}} infrastructure offers powerful bare metal servers and flexible virtual servers in a single seamless platform. All are provided on demand and billed on monthly or hourly terms. Bare metal servers provide the raw horsepower for your processor-intensive and disk I/O-intensive workloads and can be configured to your exact specifications. Virtual servers allow for high speed of deployment, flexible scalability, and pay-as-you-go billing. For high performance computing, give your cloud a boost with graphics processing unit (GPU) servers, available by the hour or monthly.
 
 {{site.data.keyword.Bluemix_notm}} infrastructure offerings are connected to a three-tiered network, segmenting public, private, and management traffic. Infrastructure on a customer's {{site.data.keyword.Bluemix_notm}} account might transfer data between such infrastructure across the private network at no cost. Infrastructure offerings, such as bare metal servers, virtual servers, and cloud storage, connect to other applications and services in the {{site.data.keyword.Bluemix_notm}} catalog, such as Watson services, containers, or runtimes, across the public network. Data transfer between those two types of offerings is metered and charged at standard public network bandwidth rates.
-
-## Security
-{: #bluemixoverviewsecurity}
-
-Designed with secure engineering practices, the {{site.data.keyword.Bluemix_notm}} platform has layered security controls across network and infrastructure. {{site.data.keyword.Bluemix_notm}} provides a group of security services that can be used by application developers to secure their mobile and web apps. These elements combine to make {{site.data.keyword.Bluemix_notm}} a platform with clear choices for secure application development.
-
-{{site.data.keyword.Bluemix_notm}} ensures security readiness by adhering to security policies that are driven by best practices in IBM for systems, networking, and secure engineering. These policies include practices such as source code scanning, dynamic scanning, threat modeling, and penetration testing. {{site.data.keyword.Bluemix_notm}} follows the IBM Product Security Incident Response Team (PSIRT) process for security incident management. See the [IBM Security Vulnerability Management (PSIRT) ![External link icon](../icons/launch-glyph.svg "External link icon")](http://www-03.ibm.com/security/secure-engineering/process.html){: new_window} site for details.
-
-{{site.data.keyword.Bluemix_notm}} Public and Dedicated use {{site.data.keyword.BluSoftlayer}} infrastructure-as-a-service (IaaS) cloud services and take full advantage of its security architecture. {{site.data.keyword.BluSoftlayer}} IaaS provides multiple, overlapping tiers of protection for your applications and data. For {{site.data.keyword.Bluemix_notm}} Local, you own the physical security and provide the infrastructure by hosting {{site.data.keyword.Bluemix_notm}} Local in your own data center behind a company firewall. In addition, {{site.data.keyword.Bluemix_notm}} adds security capabilities at the platform as a service (PaaS) layer in different categories: platform, data, and application. For further security details on the PaaS solution, see [Securing workloads on IBM Cloud ![External link icon](../icons/launch-glyph.svg "External link icon")](https://developer.ibm.com/cloudarchitecture/docs/security/securing-workloads-ibm-cloud/){: new_window}.
-
-The {{site.data.keyword.Bluemix_notm}} environment on {{site.data.keyword.BluSoftlayer}} is compliant with the most restrictive IBM information technology (IT) security standards, which meet or exceed the industry standards. These standards include the following:
-Network, data encryption, and access control
- * Application ACLs, permissions, and penetration testing
- * Identification, authentication, and authorization
- * Information and data protection
- * Service integrity and availability
- * Vulnerability and fix management
- * Denial of service and systematic attacks detection
- * Security incident response
-
-For further security compliance details, see the [Bluemix Trust Center ![External link icon](../icons/launch-glyph.svg "External link icon")](https://www.ibm.com/cloud-computing/bluemix/compliance){: new_window}.
