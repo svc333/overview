@@ -1,4 +1,0 @@
-[submodule "glossary"]
-	path = glossary
-	url = git@github.ibm.com:Bluemix-Docs/glossary.git
-	branch = master
