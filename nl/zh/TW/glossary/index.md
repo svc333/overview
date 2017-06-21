@@ -184,7 +184,7 @@ text between these comment tags.-->
 ### 可用性區域 (availability zone)
 {: #x7018171}
 
-地區內 IBM Containers 在其中執行的位置。
+地區內 {{site.data.keyword.containerlong}} 在其中執行的位置。
 
 
 ## B
@@ -540,7 +540,7 @@ Cloud Foundry 中的保存檔，其中包含應用程式及其運行環境和架
 ### 檔案共用 (file share)
 {: #x2022902}
 
-在 IBM Cloud 環境中，使用者在其中儲存及共用檔案的持續性儲存空間系統。在 IBM Containers 中，使用者可以在檔案共用上裝載 Docker 磁區。
+在 IBM Cloud 環境中，使用者在其中儲存及共用檔案的持續性儲存空間系統。在 {{site.data.keyword.containerlong}} 中，使用者可以在檔案共用上裝載 Docker 磁區。
 
 ### 發動 (fire)
 {: #x2239904}

@@ -1119,7 +1119,7 @@ Collection de scripts permettant de préparer le code à exécuter sur Bluemix. 
 ### partage de fichiers
 {: #x2022902}
 
-Dans l'environnement de cloud IBM, système de stockage de persistance où les utilisateurs stockent et partagent des fichiers. Dans IBM Containers,
+Dans l'environnement de cloud IBM, système de stockage de persistance où les utilisateurs stockent et partagent des fichiers. Dans {{site.data.keyword.containerlong}},
 les utilisateurs peuvent monter des volumes Docker sur des partages de fichiers.
 
 ### participant
@@ -1579,6 +1579,6 @@ Rappel HTTP personnalisé qui modifie le comportement d'une page ou d'une applic
 ### zone de disponibilité
 {: #x7018171}
 
-Emplacement dans une région, où IBM Containers s'exécute.
+Emplacement dans une région, où {{site.data.keyword.containerlong}} s'exécute.
 
 

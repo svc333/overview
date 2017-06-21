@@ -3,7 +3,7 @@
 
 copyright:
   years: 2016, 2017
-lastupdated: "2017-03-20"
+lastupdated: "2017-05-22"
 
 ---
 
@@ -72,14 +72,21 @@ lastupdated: "2017-03-20"
 
 圖 2. 多地區應用程式部署
 
-
 ## 地區
 {: #ov_intro_reg}
 
 {{site.data.keyword.Bluemix_notm}} 地區是您可以在其中部署應用程式的已定義地理區。您可以在不同地區建立應用程式及服務實例，使用相同
-{{site.data.keyword.Bluemix_notm}} 基礎架構以進行應用程式管理，以及使用相同的用量詳細資料視圖來處理計費。您可以選取最接近客戶的地區，並將應用程式部署至此地區，以縮短應用程式的延遲時間。您也可以選取您要保留應用程式資料以處理安全問題的地區。在多個地區中建置應用程式時，如果某個地區變成無法使用，則位於其他地區中的應用程式會繼續執行。您使用的每個地區的資源額度都相同。
+{{site.data.keyword.Bluemix_notm}} 基礎架構以進行應用程式管理，以及使用相同的用量詳細資料視圖來處理計費。您可以將應用程式部署至最接近客戶的地區，以縮短應用程式的延遲時間。若要處理安全問題，您也可以選取您要保留應用程式資料的地區。在多個地區中建置應用程式時，如果某個地區變成無法使用，則位於其他地區中的應用程式會繼續執行。您使用的每個地區的資源額度都相同。
 
-如果您使用 {{site.data.keyword.Bluemix_notm}} 使用者介面，則可以切換至不同地區，以使用該地區中的空間。按一下使用者帳戶喜好設定鏈結，展開**地區**選取器，然後從清單中選取您需要的地區。
+如果您使用 {{site.data.keyword.Bluemix_notm}} 主控台，會自動顯示最近健全地區的資訊。主控台的廣域負載平衡，確保如果基於某個原因而關閉最近地區，您的主控台將會顯示下一個最接近地區的資訊。透過這種方式，您一律可以存取主控台，而不需要採取任何動作來存取所需的資訊。
+
+在主控台中使用地區選取器，以過濾視圖。例如，如果您要在美國達拉斯地區存取應用程式及服務，但要檢視倫敦地區的應用程式及服務，則可以使用地區選取器來變更視圖：
+
+1. 按一下使用者帳戶喜好設定鏈結。
+2. 展開**地區**功能表。
+3. 從清單中，選取您需要的地區。
+
+根據地區過濾視圖，也可讓您快速切換視圖來處理指派給不同地區的組織、空間及使用者。
 
 如果您使用 cf 指令行介面連接至要使用的 {{site.data.keyword.Bluemix_notm}} 地區，請使用 cf api 指令，並指定地區的 API 端點。例如，輸入下列指令以連接至 {{site.data.keyword.Bluemix_notm}} 歐洲英國地區：
 
@@ -89,17 +96,13 @@ cf api https://api.eu-gb.{{site.data.keyword.Bluemix_notm}}.net
 
 唯一字首會指派給每一個地區。{{site.data.keyword.Bluemix_notm}} 提供下列地區及地區字首。
 
-<!-- PRODUCTION ONLY: Ensure that URLs are production URLs, not stage1-->
-
-| **地區名稱** | **地理位置** | **地區字首** | **cf API 端點** | **使用者介面主控台** |
-|-----------------|-------------------------|-------------------|---------------------|----------------|
-| 美國南部地區 | 美國達拉斯 | ng | api.ng.bluemix.net | console.ng.bluemix.net |
-| 英國地區 | 英國倫敦 | eu-gb | api.eu-gb.bluemix.net | console.eu-gb.bluemix.net |
-| 雪梨地區 | 澳洲雪梨 | au-syd | api.au-syd.bluemix.net | console.au-syd.bluemix.net |
-| 德國地區 | 德國法蘭克福 | eu-de | api.eu-de.bluemix.net | console.eu-de.bluemix.net |
-{: caption="表 1. Bluemix 地區清單" caption-side="top"}
-
-
+| **地區名稱** | **地理位置** | **cf API 端點** |
+|-----------------|-------------------------|-------------------|
+| 美國南部地區 | 美國達拉斯 | api.ng.bluemix.net | 
+| 英國地區 | 英國倫敦 | api.eu-gb.bluemix.net | 
+| 雪梨地區 | 澳洲雪梨 | api.au-syd.bluemix.net | 
+| 德國地區 | 德國法蘭克福 | api.eu-de.bluemix.net | 
+{: caption="表 1. {{site.data.keyword.Bluemix_notm}} 地區清單" caption-side="top"}
 
 ## {{site.data.keyword.Bluemix_notm}} 備援
 {: #resiliency}

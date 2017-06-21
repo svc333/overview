@@ -3,7 +3,7 @@
 
 copyright:
   years: 2016, 2017
-lastupdated: "2017-03-20"
+lastupdated: "2017-05-22"
 
 ---
 
@@ -88,22 +88,26 @@ kann entweder in einer Region oder in mehreren Regionen stattfinden.
 
 Abbildung 2. Anwendungsbereitstellung in mehreren Regionen
 
-
 ## Regionen
 {: #ov_intro_reg}
 
 Eine {{site.data.keyword.Bluemix_notm}}-Region ist ein definiertes geografisches Gebiet, in dem Sie Ihre Apps bereitstellen können. Sie können Apps und
 Serviceinstanzen in unterschiedlichen Regionen mit
 derselben {{site.data.keyword.Bluemix_notm}}-Infrastruktur
-für das Anwendungsmanagement und dieselbe Ansicht mit den Nutzungsdetails zur Gebührenabrechnung erstellen. Sie können die Region auswählen, die Ihren Kunden am nächsten ist, und Ihre
-Apps in dieser Region bereitstellen, um so eine geringe Anwendungslatenz zu erreichen. Es ist auch möglich,
-die Region, in der Sie die Anwendungsdaten aufbewahren möchten, auszuwählen, um Sicherheitsproblemen
-Rechnung zu tragen. Wenn Sie Apps in mehreren Regionen erstellen, werden die Apps in den anderen Regionen weiter ausgeführt, falls eine Region nicht mehr verfügbar ist. Die verfügbaren Ressourcen
+für das Anwendungsmanagement und dieselbe Ansicht mit den Nutzungsdetails zur Gebührenabrechnung erstellen. Sie können Ihre Apps in der Region bereitstellen, die Ihren Kunden am nächsten ist, um eine geringe Latenzzeit zu erreichen. Zum Beheben von Sicherheitsproblemen können Sie auch die Region auswählen, in der die Anwendungsdaten aufbewahrt werden sollen. Wenn Sie Apps in mehreren Regionen erstellen, werden die Apps in den anderen Regionen weiter ausgeführt, falls eine Region nicht mehr verfügbar ist. Die verfügbaren Ressourcen
 sind für jede verwendete Region gleich.
 
-Wenn Sie mit der {{site.data.keyword.Bluemix_notm}}-Benutzerschnittstelle arbeiten, können Sie in eine andere Region wechseln, um mit den Bereichen in dieser Region zu arbeiten. Klicken Sie auf den Link zu den Benutzerkontovorgaben, erweitern Sie den Selektor **Region** und wählen Sie die geforderte Region aus der Liste aus.
+Wenn Sie die {{site.data.keyword.Bluemix_notm}}-Konsole verwenden, werden Ihnen automatisch die Informationen für die am nächsten gelegene geografische Region angezeigt, die sich in einwandfreiem Zustand befindet. Der globale Lastausgleich für die Konsole stellt sicher, dass in dem Fall, dass Ihre nächste geografische Region aus irgendeinem Grund inaktiv ist, Ihre Konsole die Informationen für die nächstgelegene Region anzeigt. Auf diese Weise haben Sie immer Zugriff auf die Konsole, ohne Maßnahmen ergreifen zu müssen, um auf die benötigten Informationen zugreifen zu können. 
 
-Wenn Sie mit der cf-Befehlszeilenschnittstelle arbeiten, müssen Sie eine Verbindung zu der {{site.data.keyword.Bluemix_notm}}-Region herstellen, mit der Sie arbeiten möchten. Verwenden Sie hierzu den Befehl 'cf api' und geben Sie den API-Endpunkt der Region ein. Geben Sie beispielsweise den folgenden Befehl ein, um eine Verbindung zu der
+Verwenden Sie die Regionenauswahl in der Konsole, um Ihre Ansicht zu filtern. Wenn Sie beispielsweise in Ihrer Region Dallas, USA, auf Ihre Apps und Services zugreifen, aber Ihre Apps und Services für die Region London anzeigen möchten, können Sie mit der Regionenauswahl Ihre Ansicht ändern:
+
+1. Klicken Sie auf den Link für Benutzerkontovorgaben.
+2. Erweitern Sie das Menü **Region**.
+3. Wählen Sie die erforderliche Region aus der Liste aus.
+
+Durch Filtern Ihrer Ansicht nach Region können Sie auch schnell zwischen Ansichten wechseln, um mit Organisationen, Bereichen und Benutzern zu arbeiten, die den verschiedenen Regionen zugeordnet sind.
+
+Wenn Sie die Befehlszeilenschnittstelle 'cf' verwenden, um eine Verbindung zu der {{site.data.keyword.Bluemix_notm}}-Region herzustellen, mit der Sie arbeiten möchten, verwenden Sie den Befehl 'cf api' und geben Sie den API-Endpunkt der Region an. Geben Sie beispielsweise den folgenden Befehl ein, um eine Verbindung zu der
 {{site.data.keyword.Bluemix_notm}}-Region 'Europe
 United Kingdom' herzustellen:
 
@@ -114,17 +118,13 @@ cf api https://api.eu-gb.{{site.data.keyword.Bluemix_notm}}.net
 Jeder Region wird ein eindeutiges Präfix zugewiesen. Für {{site.data.keyword.Bluemix_notm}}
 stehen die folgenden Regionen und Regionspräfixe zur Verfügung.
 
-<!-- PRODUCTION ONLY: Ensure that URLs are production URLs, not stage1-->
-
-| **Regionsname** | **Standort** | **Regionspräfix** | **cf-API-Endpunkt** | **Benutzerschnittstellenkonsole** |
-|-----------------|-------------------------|-------------------|---------------------|----------------|
-| Region 'Vereinigte Staaten (Süden)' | Dallas, US | ng | api.ng.bluemix.net | console.ng.bluemix.net |
-| Region 'United Kingdom' | London, England | eu-gb | api.eu-gb.bluemix.net | console.eu-gb.bluemix.net |
-| Region 'Sydney' | Sydney, Australia | au-syd | api.au-syd.bluemix.net | console.au-syd.bluemix.net |
-| Region 'Deutschland' | Frankfurt, Deutschland | eu-de | api.eu-de.bluemix.net | console.eu-de.bluemix.net |
-{: caption="Tabelle 1. Liste der Bluemix-Regionen" caption-side="top"}
-
-
+| **Regionsname** | **Standort** | **cf-API-Endpunkt** |
+|-----------------|-------------------------|-------------------|
+| Region 'Vereinigte Staaten (Süden)' | Dallas, US | api.ng.bluemix.net | 
+| Region 'United Kingdom' | London, England | api.eu-gb.bluemix.net | 
+| Region 'Sydney' | Sydney, Australia | api.au-syd.bluemix.net | 
+| Region 'Deutschland' | Frankfurt, Deutschland | api.eu-de.bluemix.net | 
+{: caption="Tabelle 1. Liste der {{site.data.keyword.Bluemix_notm}}-Regionen" caption-side="top"}
 
 ## Ausfallsicherheit von {{site.data.keyword.Bluemix_notm}}
 {: #resiliency}

@@ -88,7 +88,7 @@ text between these comment tags.-->
 ### 가용성 구역(availability zone)
 {: #x7018171}
 
-IBM Containers가 실행되는 지역 내의 위치입니다. 
+{{site.data.keyword.containerlong}}가 실행되는 지역 내의 위치입니다. 
 
 
 ### 개인 서비스(private service)
@@ -888,7 +888,7 @@ Agile 개발에서 특정 작업 부분을 정의하는 작업 항목입니다.
 ### 파일 공유(file share)
 {: #x2022902}
 
-IBM 클라우드 환경에서 사용자가 파일을 저장하고 공유하는 지속적 스토리지 시스템입니다. IBM Containers에서 사용자는 파일 공유에 Docker 볼륨을 마운트할 수 있습니다. 
+IBM 클라우드 환경에서 사용자가 파일을 저장하고 공유하는 지속적 스토리지 시스템입니다. {{site.data.keyword.containerlong}}에서 사용자는 파일 공유에 Docker 볼륨을 마운트할 수 있습니다. 
 
 ### 퍼블릭 클라우드(public cloud)
 {: #x4585370}

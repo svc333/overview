@@ -3,7 +3,7 @@
 
 copyright:
   years: 2016, 2017
-lastupdated: "2017-03-20"
+lastupdated: "2017-05-22"
 
 ---
 
@@ -72,15 +72,22 @@ Vous pouvez déployer vos applications dans différentes régions {{site.data.ke
 
 Figure 2. Déploiement d'applications dans plusieurs régions
 
-
 ## Régions
 {: #ov_intro_reg}
 
-Une région {{site.data.keyword.Bluemix_notm}} est un territoire géographique défini sur lequel vous pouvez déployer vos applications. Vous pouvez créer des instances d'application et de service dans différentes régions avec la même infrastructure {{site.data.keyword.Bluemix_notm}} pour la gestion des applications et la même vue de détails de l'utilisation pour la facturation. Vous pouvez sélectionner la région la plus proche de vos clients et y déployer vos applications pour avoir un temps d'attente faible. Vous pouvez également sélectionner la région où vous voulez garder les données d'application permettant d'adresser les problèmes de sécurité. Lorsque vous construisez des applications dans plusieurs régions et que l'une des régions devient indisponible, les applications des autres régions continuent de fonctionner. La franchise de ressources est la même dans toutes les régions que vous utilisez.
+Une région {{site.data.keyword.Bluemix_notm}} est un territoire géographique défini sur lequel vous pouvez déployer vos applications. Vous pouvez créer des instances d'application et de service dans différentes régions avec la même infrastructure {{site.data.keyword.Bluemix_notm}} pour la gestion des applications et la même vue de détails de l'utilisation pour la facturation. Vous pouvez déployer vos applications dans la région la plus proche de vos clients pour réduire les temps d'attente de votre application. Pour répondre aux considérations de sécurité, vous pouvez également sélectionner la région dans laquelle conserver vos données d'application. Lorsque vous construisez des applications dans plusieurs régions et que l'une des régions devient indisponible, les applications des autres régions continuent de fonctionner. La franchise de ressources est la même dans toutes les régions que vous utilisez.
 
-Si vous employez l'interface utilisateur {{site.data.keyword.Bluemix_notm}}, vous pouvez basculer vers une région différente et utiliser les espaces de cette région. Cliquez sur le lien des préférences de compte utilisateur, développez le sélecteur **Région**, puis sélectionnez la région de votre choix dans la liste.
+Si vous utilisez la console {{site.data.keyword.Bluemix_notm}}, les informations sur la plus proche région géographique viable sont automatiquement affichées. L'équilibrage de charge global pour la console garantit que, si pour une raison quelconque, la région géographique la plus proche est indisponible, votre console affichera les informations de la suivante. De la sorte, vous avez toujours accès à la console sans avoir à effectuer une action quelconque pour obtenir les informations dont vous avez besoin.
 
-Si vous vous servez de l'interface de ligne de commande cf, pour vous connecter à la région {{site.data.keyword.Bluemix_notm}} que vous voulez utiliser, entrez la commande cf api et spécifiez le noeud final d'API de la région. Par exemple, entrez la commande suivante pour vous connecter à la région {{site.data.keyword.Bluemix_notm}} Europe et Royaume-Uni :
+Utilisez le sélecteur de région dans la console pour filtrer votre vue. Par exemple, si vous accédez à vos applications et à vos services dans votre région Dallas - Etats-Unis, mais désirez examiner ceux de la région Londres, vous pouvez utiliser le sélecteur de région pour changer de vue :
+
+1. Cliquez sur le lien des préférences de compte utilisateur.
+2. Développez le menu **Région**.
+3. Sélectionnez la région voulue dans la liste.
+
+Le filtrage de votre vue par région vous permet également de basculer rapidement entre les vues pour travailler avec des organisations, des espaces, et des utilisateurs affectés à des régions différentes.
+
+Si vous utilisez l'interface de ligne de commande cf pour vous connecter à la région {{site.data.keyword.Bluemix_notm}} dans laquelle vous désirez travailler, utilisez la commande d'API cf et spécifiez le noeud final d'API de la région. Par exemple, entrez la commande suivante pour vous connecter à la région {{site.data.keyword.Bluemix_notm}} Europe et Royaume-Uni :
 
 ```
 cf api https://api.eu-gb.{{site.data.keyword.Bluemix_notm}}.net
@@ -88,17 +95,13 @@ cf api https://api.eu-gb.{{site.data.keyword.Bluemix_notm}}.net
 
 Un préfixe unique est affecté à chaque région. {{site.data.keyword.Bluemix_notm}} fournit les régions et les préfixes suivants :
 
-<!-- PRODUCTION ONLY: Ensure that URLs are production URLs, not stage1-->
-
-| **Nom de région** | **Zone géographique** | **Préfixe de région** | **Noeud final d'API cf** | **Console d'interface utilisateur** |
-|-----------------|-------------------------|-------------------|---------------------|----------------|
-| Région Sud des Etats-Unis | Dallas, US | ng | api.ng.bluemix.net | console.ng.bluemix.net |
-| Région Royaume-Uni | Londres, Angleterre | eu-gb | api.eu-gb.bluemix.net | console.eu-gb.bluemix.net |
-| Région Sydney | Sydney, Australie | au-syd | api.au-syd.bluemix.net | console.au-syd.bluemix.net |
-| Région Allemagne | Francfort, Allemagne | eu-de | api.eu-de.bluemix.net | console.eu-de.bluemix.net |
-{: caption="Tableau 1. Liste des régions Bluemix" caption-side="top"}
-
-
+| **Nom de région** | **Zone géographique** | **Noeud final d'API cf** |
+|-----------------|-------------------------|-------------------|
+| Région Sud des Etats-Unis | Dallas, US | api.ng.bluemix.net | 
+| Région Royaume-Uni | Londres, Angleterre | api.eu-gb.bluemix.net | 
+| Région Sydney | Sydney, Australie | api.au-syd.bluemix.net | 
+| Région Allemagne | Francfort, Allemagne | api.eu-de.bluemix.net | 
+{: caption="Tableau 1. Liste des régions {{site.data.keyword.Bluemix_notm}}" caption-side="top"}
 
 ## Résilience de {{site.data.keyword.Bluemix_notm}}
 {: #resiliency}

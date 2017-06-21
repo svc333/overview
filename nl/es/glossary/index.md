@@ -337,7 +337,7 @@ Perteneciente al software cuyo código fuente se ha hecho público para su uso o
 ### compartición de archivo
 {: #x2022902}
 
-En un entorno de IBM, un sistema de almacenamiento persistente donde los usuarios almacenan y comparten archivos. En IBM Containers, los usuarios pueden montar volúmenes de Docker en comparticiones de archivo.
+En un entorno de IBM, un sistema de almacenamiento persistente donde los usuarios almacenan y comparten archivos. En {{site.data.keyword.containerlong}}, los usuarios pueden montar volúmenes de Docker en comparticiones de archivo. 
 
 ### compilador
 {: #x2197543}
@@ -461,10 +461,10 @@ Un mecanismo que inicia acciones. Los desencadenantes se pueden activar de forma
 - Recuperar y empaquetar automáticamente salida de compilación y a continuación mover dicha salida a otra ubicación para que los usuarios puedan ejecutarla o probarla.
 - Proceso automatizado que recupera y empaqueta salida de compilación y a continuación mueve dicha salida a otra ubicación para que los usuarios puedan ejecutarla o probarla.
 
-### despliegue Blue-Green
+### despliegue azul-verde
 {: #x7807335}
 
-Técnica de despliegue que habilita la entrega continua y minimiza el tiempo de inactividad mediante la ejecución de dos entornos de producción prácticamente idénticos llamados Blue y Green. Mientras uno de los entornos (por ejemplo, Blue) es el entorno de producción, el otro (por ejemplo, Green) podrá usarse para las pruebas finales y el despliegue. Una vez la app se haya desplegado en Green, éste se convertirá en el entorno de producción y Blue se quedará desocupado. Véase también [despliegue Red-Black](#x8439181).
+Técnica de despliegue que habilita la entrega continua y minimiza el tiempo de inactividad mediante la ejecución de dos entornos de producción prácticamente idénticos llamados Azul y Verde. Mientras uno de los entornos (por ejemplo, Azul) es el entorno de producción, el otro (por ejemplo, Verde) podrá usarse para las pruebas finales y el despliegue. Una vez la app se haya desplegado en Verde, éste se convertirá en el entorno de producción y Azul se quedará desocupado. Véase también [despliegue rojo-negro](#x8439181).
 
 ### despliegue rojo-negro
 {: #x8439181}
@@ -1490,6 +1490,6 @@ En IBM DevOps Services, IDE basado en navegador para el desarrollo de web y de n
 ### zona de disponibilidad
 {: #x7018171}
 
-Ubicación dentro de una región en la que se ejecuta IBM Containers.
+Ubicación con una región en la que se ejecuta {{site.data.keyword.containerlong}}. 
 
 

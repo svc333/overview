@@ -187,7 +187,7 @@ Consulte [conclusão de código](#x7344030).
 ### Zona de disponibilidade
 {: #x7018171}
 
-Um local dentro de uma região no qual o IBM Containers é executado.
+Um local dentro de uma região em que o {{site.data.keyword.containerlong}} é executado.
 
 
 ## B
@@ -546,8 +546,7 @@ Uma parte de código que configura uma origem de eventos externos para disparar 
 ### compartilhamento de arquivos
 {: #x2022902}
 
-No ambiente de nuvem da IBM, um sistema de armazenamento persistente no qual os usuários armazenam e compartilham arquivos. No IBM Containers, os usuários podem montar volumes do Docker em
-compartilhamentos de arquivo.
+No ambiente de nuvem da IBM, um sistema de armazenamento persistente no qual os usuários armazenam e compartilham arquivos. No {{site.data.keyword.containerlong}}, os usuários podem montar volumes do Docker em compartilhamentos de arquivo.
 
 ### fogo
 {: #x2239904}

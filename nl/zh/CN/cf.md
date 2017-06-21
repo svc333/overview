@@ -3,7 +3,7 @@
 
 copyright:
   years: 2016, 2017
-lastupdated: "2017-03-20"
+lastupdated: "2017-05-22"
 
 ---
 
@@ -72,15 +72,22 @@ lastupdated: "2017-03-20"
 
 图 2. 多区域应用程序部署
 
-
 ## 区域
 {: #ov_intro_reg}
 
-{{site.data.keyword.Bluemix_notm}} 区域是可将您应用程序部署到的已定义地理地域。您可以在不同的区域中创建应用程序和服务实例，但前提是这些区域使用相同的 {{site.data.keyword.Bluemix_notm}} 基础架构来进行应用程序管理，并使用相同的使用情况详细信息视图来进行记帐。您可以选择离客户最近的区域，并将应用程序部署到此区域以缩短应用程序等待时间。还可选择希望在其中保留应用程序数据以解决安全问题的区域。在多个区域中构建应用程序后，如果一个区域变为不可用，其他区域中的应用程序会继续运行。您的资源限额对于您使用的每个区域都是相同的。
+{{site.data.keyword.Bluemix_notm}} 区域是可将您应用程序部署到的已定义地理地域。您可以在不同的区域中创建应用程序和服务实例，但前提是这些区域使用相同的 {{site.data.keyword.Bluemix_notm}} 基础架构来进行应用程序管理，并使用相同的使用情况详细信息视图来进行记帐。您可以将应用程序部署至离客户最近的区域，以缩短应用程序等待时间。要解决安全问题，还可选择希望在其中保留应用程序数据的区域。在多个区域中构建应用程序后，如果一个区域变为不可用，其他区域中的应用程序会继续运行。您的资源限额对于您使用的每个区域都是相同的。
 
-如果您使用的是 {{site.data.keyword.Bluemix_notm}} 用户界面，那么可以切换到其他区域来使用该区域中的空间。单击用户帐户首选项链接，展开**区域**选择器，然后从列表中选择所需的区域。
+如果您使用 {{site.data.keyword.Bluemix_notm}} 控制台，那么系统会自动向您显示最近运行状况良好的地理区域的信息。控制台的全局负载均衡可确保如果基于某种原因，最近的地理区域关闭，那么您的控制台将显示下一个最近区域的信息。通过此方法，您始终有权访问控制台，而无需采取任何操作，就可访问所需信息。
 
-如果您使用的是 cf 命令行界面，那么要连接到希望使用的 {{site.data.keyword.Bluemix_notm}} 区域，请使用 cf api 命令并指定该区域的 API 端点。例如，输入以下命令来连接到 {{site.data.keyword.Bluemix_notm}} 欧洲英国区域：
+在控制台中使用区域选择器来过滤视图。例如，如果您在访问美国区域达拉斯的应用程序和服务，但是您想要查看伦敦区域的应用程序和服务，那么您可以使用区域选择器来更改视图：
+
+1. 单击用户帐户首选项链接。
+2. 展开**区域**菜单。
+3. 从列表中选择所需区域。
+
+按区域过滤视图还使得您可以快速切换视图，以使用分配给不同区域的组织、空间和用户。
+
+如果您使用的是 cf 命令行界面，来连接到希望使用的 {{site.data.keyword.Bluemix_notm}} 区域，请使用 cf api 命令并指定该区域的 API 端点。例如，输入以下命令来连接到 {{site.data.keyword.Bluemix_notm}} 欧洲英国区域：
 
 ```
 cf api https://api.eu-gb.{{site.data.keyword.Bluemix_notm}}.net
@@ -88,17 +95,13 @@ cf api https://api.eu-gb.{{site.data.keyword.Bluemix_notm}}.net
 
 每个区域都分配有唯一前缀。{{site.data.keyword.Bluemix_notm}} 提供了以下区域和区域前缀。
 
-<!-- PRODUCTION ONLY: Ensure that URLs are production URLs, not stage1-->
-
-| **区域名称** | **地理位置** | **区域前缀** | **cf API 端点** | **UI 控制台** |
-|-----------------|-------------------------|-------------------|---------------------|----------------|
-| 美国南部区域 | 美国达拉斯 | ng | api.ng.bluemix.net | console.ng.bluemix.net |
-| 英国区域 | 英国伦敦 | eu-gb | api.eu-gb.bluemix.net | console.eu-gb.bluemix.net |
-| 悉尼区域 | 澳大利亚悉尼 | au-syd | api.au-syd.bluemix.net | console.au-syd.bluemix.net |
-| 德国区域 | 德国法兰克福 | eu-de | api.eu-de.bluemix.net | console.eu-de.bluemix.net |
-{: caption="表 1. Bluemix 区域列表" caption-side="top"}
-
-
+| **区域名称** | **地理位置** | **cf API 端点** |
+|-----------------|-------------------------|-------------------|
+| 美国南部区域 | 美国达拉斯 | api.ng.bluemix.net | 
+| 英国区域 | 英国伦敦 | api.eu-gb.bluemix.net | 
+| 悉尼区域 | 澳大利亚悉尼 | api.au-syd.bluemix.net | 
+| 德国区域 | 德国法兰克福 | api.eu-de.bluemix.net | 
+{: caption="表 1. {{site.data.keyword.Bluemix_notm}} 区域列表" caption-side="top"}
 
 ## {{site.data.keyword.Bluemix_notm}} 弹性
 {: #resiliency}

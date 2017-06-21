@@ -183,7 +183,7 @@ text between these comment tags.-->
 ### 可用性专区 (availability zone)
 {: #x7018171}
 
-运行 IBM Containers 的区域中的位置。
+运行 {{site.data.keyword.containerlong}} 的区域中的位置。
 
 
 ## B
@@ -532,7 +532,7 @@ Cloud Foundry 中的归档，用于包含应用程序及其运行时和框架依
 ### 文件共享 (file share)
 {: #x2022902}
 
-在 IBM 云环境中，供用户存储和共享文件的持久存储系统。在 IBM Containers 中，用户可以在文件共享上安装 Docker 卷。
+在 IBM 云环境中，供用户存储和共享文件的持久存储系统。在 {{site.data.keyword.containerlong}} 中，用户可以在文件共享上安装 Docker 卷。
 
 ### 触发 (fire)
 {: #x2239904}

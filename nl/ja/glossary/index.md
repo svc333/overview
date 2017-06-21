@@ -187,7 +187,7 @@ HTTP コンテキストでは、成果物には URI があり、リソースと�
 ### アベイラビリティー・ゾーン (availability zone)
 {: #x7018171}
 
-IBM Containers が稼働する地域内の場所。
+{{site.data.keyword.containerlong}} が稼働する地域内の場所。
 
 
 ## B
@@ -547,7 +547,7 @@ root)」](#x2042234)も参照。
 ### ファイル共用 (file share)
 {: #x2022902}
 
-ユーザーがファイルを保管して共有する、IBM クラウド環境内の永続的ストレージ・システム。IBM Containers では、ユーザーはファイル共有に Docker ボリュームをマウントできる。
+ユーザーがファイルを保管して共有する、IBM クラウド環境内の永続的ストレージ・システム。{{site.data.keyword.containerlong}} では、ユーザーはファイル共有に Docker ボリュームをマウントできる。
 
 ### 発生 (fire)
 {: #x2239904}
