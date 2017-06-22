@@ -3,7 +3,7 @@
 
 copyright:
   years: 2016, 2017
-lastupdated: "2017-03-20"
+lastupdated: "2017-05-22"
 
 ---
 
@@ -78,15 +78,22 @@ considerazioni di sicurezza o di latenza. Puoi scegliere di effettuare la distri
 
 Figura 2. Distribuzione di applicazioni a più regioni
 
-
 ## Regioni
 {: #ov_intro_reg}
 
-Una regione {{site.data.keyword.Bluemix_notm}} è un territorio geografico definito a cui puoi distribuire le applicazioni. Puoi creare applicazioni e istanze di servizio in regioni differenti con la stessa infrastruttura {{site.data.keyword.Bluemix_notm}} per la gestione di applicazioni e la stessa vista dei dettagli di utilizzo per la fatturazione. Puoi selezionare la regione più vicina ai tuoi clienti e distribuire le tue applicazioni a tale regione per ottenere una bassa latenza di applicazione. Puoi anche selezionare la regione dove desideri conservare i dati delle applicazioni per far fronte ai problemi di sicurezza. Quando crei applicazioni in più regioni, se una regione non è più disponibile, le applicazioni che si trovano nelle altre regioni continuano a essere eseguite. La disponibilità di risorse è la stessa per ogni regione che usi.
+Una regione {{site.data.keyword.Bluemix_notm}} è un territorio geografico definito a cui puoi distribuire le applicazioni. Puoi creare applicazioni e istanze di servizio in regioni differenti con la stessa infrastruttura {{site.data.keyword.Bluemix_notm}} per la gestione di applicazioni e la stessa vista dei dettagli di utilizzo per la fatturazione. Puoi distribuire le tue applicazioni alla regione più vicina ai tuoi clienti per ottenere una bassa latenza dell'applicazione. Per far fronte ai problemi di sicurezza puoi anche selezionare la regione dove desideri conservare i dati delle applicazioni. Quando crei applicazioni in più regioni, se una regione non è più disponibile, le applicazioni che si trovano nelle altre regioni continuano a essere eseguite. La disponibilità di risorse è la stessa per ogni regione che usi.
 
-Se utilizzi l'interfaccia utente {{site.data.keyword.Bluemix_notm}}, puoi passare a una regione differente per lavorare con gli spazi in tale regione. Fai clic sul link delle preferenze dell'account utente, espandi il selettore **Regione** e seleziona la regione richiesta dall'elenco.
+Se utilizzi la console {{site.data.keyword.Bluemix_notm}}, ti vengono automaticamente presentate le informazioni per la regione geografica integra più prossima. Il bilanciamento del carico globale per la console garantisce che, se per qualche motivo la regione geografica a te più prossima è inattiva, la tua console visualizzerà le informazioni per la successiva regione più prossima. In questo modo, avrai sempre accesso alla console senza dover eseguire alcuna azione per accedere alle informazioni di cui hai bisogno.
 
-Se utilizzi l'interfaccia riga di comando cf, per connetterti alla regione {{site.data.keyword.Bluemix_notm}} con cui vuoi lavorare, utilizza il comando cf api e specifica l'endpoint API della regione. Ad esempio, immetti il seguente comando per stabilire una connessione alla regione {{site.data.keyword.Bluemix_notm}} Europa Regno Unito:
+Utilizza il selettore della regione nella console per filtrare la tua vista. Ad esempio, se stai accedendo alle tue applicazioni e ai tuoi servizi nella tua regione Dallas, Stati Uniti, ma vuoi visualizzare le tue applicazioni e i tuoi servizi per la regione Londra, puoi utilizzare il selettore della regione per cambiare la tua vista:
+
+1. Fai clic sul link delle preferenze dell'account utente.
+2. Espandi il menu **Regione**.
+3. Seleziona la regione da te richiesta dall'elenco.
+
+Filtrare la tua vista in base alla regione ti consente anche di passare rapidamente da una vista a un'altra per lavorare con organizzazioni, spazi e utenti assegnati a regioni differenti.
+
+Se utilizzi l'interfaccia riga di comando cf per connetterti alla regione {{site.data.keyword.Bluemix_notm}} con cui vuoi lavorare, usa il comando cf api e specifica l'endpoint API della regione. Ad esempio, immetti il seguente comando per stabilire una connessione alla regione {{site.data.keyword.Bluemix_notm}} Europa Regno Unito:
 
 ```
 cf api https://api.eu-gb.{{site.data.keyword.Bluemix_notm}}.net
@@ -96,17 +103,13 @@ A
 ciascuna regione viene assegnato un prefisso univoco. {{site.data.keyword.Bluemix_notm}} fornisce le
 seguenti regioni e i seguenti prefissi di regione.
 
-<!-- PRODUCTION ONLY: Ensure that URLs are production URLs, not stage1-->
-
-| **Nome della regione** | **Ubicazione geografica** | **Prefisso della regione** | **Endpoint API cf** | **Console Interfaccia grafica** |
-|-----------------|-------------------------|-------------------|---------------------|----------------|
-| Regione Stati Uniti Sud | Dallas, Stati Uniti | ng | api.ng.bluemix.net | console.ng.bluemix.net |
-| Regione Regno Unito | Londra, Inghilterra | eu-gb | api.eu-gb.bluemix.net | console.eu-gb.bluemix.net |
-| Regione Sydney | Sydney, Australia | au-syd | api.au-syd.bluemix.net | console.au-syd.bluemix.net |
-| Regione Germania | Francoforte, Germania | eu-de | api.eu-de.bluemix.net | console.eu-de.bluemix.net |
-{: caption="Tabella 1. Elenco regioni Bluemix" caption-side="top"}
-
-
+| **Nome della regione** | **Ubicazione geografica** | **Endpoint API cf** |
+|-----------------|-------------------------|-------------------|
+| Regione Stati Uniti Sud | Dallas, Stati Uniti | api.ng.bluemix.net | 
+| Regione Regno Unito | Londra, Inghilterra | api.eu-gb.bluemix.net | 
+| Regione Sydney | Sydney, Australia | api.au-syd.bluemix.net | 
+| Regione Germania | Francoforte, Germania | api.eu-de.bluemix.net | 
+{: caption="Tabella 1. Elenco di regioni {{site.data.keyword.Bluemix_notm}}" caption-side="top"}
 
 ## Resilienza {{site.data.keyword.Bluemix_notm}}
 {: #resiliency}
@@ -142,7 +145,7 @@ Per integrare un system of record con le applicazioni che hai creato in {{site.d
 <dl>
 <dt>API Cloud Integration</dt>
     <dd>Una API Cloud Integration fornisce un accesso protetto ai system of record che si trovano dietro un firewall tramite le API web. Quando
-crei la API Cloud Integration, scegli la risorsa a cui si desideri accedere tramite la API web, specifichi le operazioni consentite e includi SDK ed esempi per accedere alla API. Per ulteriori informazioni su come creare una API Cloud Integration, consulta [Introduzione a Cloud Integration](/docs/services/CloudIntegration/CldInt_GetStart.html).</dd>
+crei la API Cloud Integration, scegli la risorsa a cui si desideri accedere tramite la API web, specifichi le operazioni consentite e includi SDK ed esempi per accedere alla API. Per ulteriori informazioni su come creare una API Cloud Integration, vedi [Introduzione a Cloud Integration](/docs/services/CloudIntegration/CldInt_GetStart.html).</dd>
 <dt>Servizio privato</dt>
     <dd>Un servizio privato consiste in una API Cloud Integration, degli SDK e delle politiche di titolarità. Il servizio privato può inoltre contenere della documentazione o altri elementi dal provider di servizi. Solo il gestore dell'organizzazione può pubblicare una API Cloud Integration come un servizio privato. Per visualizzare i servizi privati a tua disposizione, seleziona la casella di spunta Privato nel catalogo {{site.data.keyword.Bluemix_notm}}. Puoi selezionare un servizio privato ed eseguire il bind a un'applicazione senza stabilire una connessione al servizio Cloud Integration. Puoi eseguire il bind di servizi privati alla tua applicazione nello stesso modo che adotti per altri servizi {{site.data.keyword.Bluemix_notm}}. Per informazioni su come pubblicare una API come un servizio privato, vedi Pubblicazione di una API come un servizio privato.</dd>
 </dl>
@@ -157,8 +160,8 @@ creare un'applicazione mobile per interagire con il tuo sistema di gestione dell
 
 Innanzitutto, il tuo sviluppatore dell'integrazione crea l'applicazione di back-end mobile in {{site.data.keyword.Bluemix_notm}}. Viene usato il contenitore tipo Mobile Cloud che utilizza il più noto runtime Node.js.
 
-Quindi, utilizzando il servizio Cloud Integration nell'interfaccia utente {{site.data.keyword.Bluemix_notm}}, espone un'API tramite un connettore sicuro. Il tuo sviluppatore dell'integrazione scarica il
-connettore sicuro e lo installa in loco per abilitare le comunicazioni protette tra la sua API e il database. Dopo che ha creato l'endpoint database, consulta tutti gli schemi ed estrae le tabelle che intende esporre come API all'applicazione.
+Quindi, utilizzando il servizio Cloud Integration nell'interfaccia utente {{site.data.keyword.Bluemix_notm}}, espone una API tramite un connettore sicuro. Il tuo sviluppatore dell'integrazione scarica il
+connettore sicuro e lo installa in loco per abilitare le comunicazioni protette tra la sua API e il database. Dopo che ha creato l'endpoint database, vedi tutti gli schemi ed estrae le tabelle che intende esporre come API all'applicazione.
 
 Lo sviluppatore dell'integrazione aggiunge il servizio Push per offrire notifiche mobili agli utenti interessati. Aggiunge anche un servizio di business partner per generare un tweet quando viene creato un nuovo record cliente con una API Twitter.
 
