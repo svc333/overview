@@ -42,7 +42,7 @@ Web アプリの場合、クラウドで実行されるコードは、開発者�
 
 アプリがデプロイされた時、そのアプリに Web インターフェース (Java Web アプリ用など)、またはその他の REST ベースのサービス (モバイル・アプリに公開されているモバイル・サービスなど) が含まれている場合、そのアプリのユーザーは、通常の HTTP 要求を使用してそのインターフェースまたはサービスと通信することができます。
 
-![{{site.data.keyword.Bluemix_notm}} アプリの呼び出し](images/execute-diego.png)
+![{{site.data.keyword.Bluemix_notm}} アプリの起動](images/execute-diego.png)
 
 図 5. {{site.data.keyword.Bluemix_notm}} アプリの呼び出し
 
@@ -106,10 +106,10 @@ cf api https://api.eu-gb.{{site.data.keyword.Bluemix_notm}}.net
 
 | **地域名** | **地理的位置** | **cf API エンドポイント** |
 |-----------------|-------------------------|-------------------|
-| 米国南部地域 | ダラス、米国 | api.ng.bluemix.net | 
-| 英国地域 | ロンドン、イングランド | api.eu-gb.bluemix.net | 
-| シドニー地域 | シドニー、オーストラリア | api.au-syd.bluemix.net | 
-| ドイツ地域 | フランクフルト、ドイツ | api.eu-de.bluemix.net | 
+| 米国南部地域| ダラス、米国| api.ng.bluemix.net| 
+| 英国地域| ロンドン、イングランド| api.eu-gb.bluemix.net| 
+| シドニー地域| シドニー、オーストラリア| api.au-syd.bluemix.net| 
+| ドイツ地域| フランクフルト、ドイツ| api.eu-de.bluemix.net| 
 {: caption="表 1. {{site.data.keyword.Bluemix_notm}} 地域リスト" caption-side="top"}
 
 ## {{site.data.keyword.Bluemix_notm}} の回復力

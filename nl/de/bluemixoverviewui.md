@@ -10,7 +10,7 @@ lastupdated: "2017-05-23"
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
 
-# Funtkionsweise der {{site.data.keyword.Bluemix_notm}}-Konsole
+# Funktionsweise der {{site.data.keyword.Bluemix_notm}}-Konsole
 {: #bluemixoverviewui}
 
 Wenn Sie auf die {{site.data.keyword.Bluemix_notm}}-Konsole zugreifen, werden in der Menüleiste Links oder Schaltflächen für die Registrierung, Anmeldung, Zugriffsdokumentation und den Zugriff auf den Katalog angezeigt. Nachdem Sie sich angemeldet haben, enthält die Menüleiste ein Menüsymbol ![Symbol 'Menü'](../icons/icon_hamburger.svg) und zusätzliche Links, abhängig von Ihrem Accounttyp.
@@ -30,7 +30,7 @@ Die folgenden Optionen stehen in der Menüleiste zur Verfügung:
 ## Regionen wechseln 
 {: #regionselector}
 
-Wenn Sie die {{site.data.keyword.Bluemix_notm}}-Konsole verwenden, werden Ihnen automatisch die Informationen für die nächstgelegene geografische Region in einwandfreiem Zustand angezeigt. Der globale Lastausgleich für die Konsole stellt sicher, dass in dem Fall, dass Ihre nächste geografische Region aus irgendeinem Grund inaktiv ist, Ihre Konsole die Informationen für die nächstgelegene Region anzeigt. Auf diese Weise haben Sie immer Zugriff auf die Konsole, ohne Maßnahmen ergreifen zu müssen, um auf die benötigten Informationen zugreifen zu können. 
+Wenn Sie die {{site.data.keyword.Bluemix_notm}}-Konsole verwenden, werden Ihnen automatisch die Informationen für die nächstgelegene geografische Region in einwandfreiem Zustand angezeigt. Der globale Lastausgleich für die Konsole stellt sicher, dass in dem Fall, dass Ihre nächste geografische Region aus irgendeinem Grund inaktiv ist, Ihre Konsole die Informationen für die nächstgelegene Region anzeigt. Auf diese Weise haben Sie immer Zugriff auf die Konsole, ohne Maßnahmen ergreifen zu müssen, um auf die benötigten Informationen zugreifen zu können.
 
 Verwenden Sie die Regionenauswahl in der Konsole, um Ihre Ansicht zu filtern. Wenn Sie beispielsweise in Ihrer Region Dallas, USA, auf Ihre Apps und Services zugreifen, aber Ihre Apps und Services für die Region London anzeigen möchten, können Sie mit der Regionenauswahl Ihre Ansicht ändern:
 

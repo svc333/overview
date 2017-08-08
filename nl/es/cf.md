@@ -42,7 +42,7 @@ En cada servidor virtual, un gestor de apps se comunica con el resto de la infra
 
 Cuando se despliega la app, si tiene una interfaz web (como por ejemplo una app web Java) y otros servicios basados en REST (como por ejemplo servicios móviles expuestos públicamente para la app para móvil), los usuarios de la app pueden comunicarse con la misma mediante solicitudes HTTP normales.
 
-![Invocación de una app de {{site.data.keyword.Bluemix_notm}}](images/execute-diego.png)
+![Invocación de una app {{site.data.keyword.Bluemix_notm}}](images/execute-diego.png)
 
 Figura 5. Invocación de una app de {{site.data.keyword.Bluemix_notm}}
 
@@ -78,15 +78,15 @@ Figura 2. Despliegue de apps en varias regiones
 
 Una región de {{site.data.keyword.Bluemix_notm}} es un territorio geográfico definido en el que puede desplegar sus apps. Puede crear apps e instancias de servicios en distintas regiones con la misma infraestructura de {{site.data.keyword.Bluemix_notm}} para la gestión de apps y la misma vista de detalles de uso para la facturación. Tiene la posibilidad de desplegar sus apps en la región más cercana a sus clientes para conseguir una latencia de aplicación baja. Para solventar problemas de seguridad, también puede seleccionar la región en la que desea conservar los datos de app. Cuando crea apps en varias regiones, si una región queda fuera de servicio, las apps que están en las otras regiones seguirán funcionando. Su concesión de recursos es la misma para cada región que utilice.
 
-Si utiliza la consola de {{site.data.keyword.Bluemix_notm}}, automáticamente se muestra la información de la región geográfica en buen estado más cercana. El equilibrio de carga global de la consola permite asegurar que si por alguna razón la región geográfica más próxima no está disponible, la consola visualizará la información de la siguiente región más próxima. De esta forma, siempre tendrá acceso a la consola sin necesidad de acción alguna para acceder a la información que necesita. 
+Si utiliza la consola de {{site.data.keyword.Bluemix_notm}}, automáticamente se muestra la información de la región geográfica en buen estado más cercana. El equilibrio de carga global de la consola permite asegurar que si por alguna razón la región geográfica más próxima no está disponible, la consola visualizará la información de la siguiente región más próxima. De esta forma, siempre tendrá acceso a la consola sin necesidad de acción alguna para acceder a la información que necesita.
 
-Utilice el selector de región en la consola para filtrar la vista. Por ejemplo, si está accediendo a sus apps y servicios desde Dallas, región de EE.UU., y desea ver las apps y servicios de la región de Londres, utilice el selector de región para cambiar la vista: 
+Utilice el selector de región en la consola para filtrar la vista. Por ejemplo, si está accediendo a sus apps y servicios desde Dallas, región de EE.UU., y desea ver las apps y servicios de la región de Londres, utilice el selector de región para cambiar la vista:
 
-1. Pulse en el enlace de preferencias de cuenta. 
-2. Amplíe el menú **Región**. 
-3. Seleccione en la lista la región que desee. 
+1. Pulse en el enlace de preferencias de cuenta.
+2. Amplíe el menú **Región**.
+3. Seleccione en la lista la región que desee.
 
-Si filtra la vista según la región podrá cambiar entre vistas con rapidez para trabajar con organizaciones, espacios y usuarios asignados a las distintas regiones. 
+Si filtra la vista según la región podrá cambiar entre vistas con rapidez para trabajar con organizaciones, espacios y usuarios asignados a las distintas regiones.
 
 Si utiliza la interfaz de línea de mandatos cf para conectarse a la región de {{site.data.keyword.Bluemix_notm}} con la que desea trabajar, utilice el mandato cf api y especifique el punto final de la API de la región. Por ejemplo, escriba el siguiente mandato para conectarse a la región de
 {{site.data.keyword.Bluemix_notm}} de Europa - Reino Unido:
@@ -103,7 +103,7 @@ Cada región tienen asignado un prefijo exclusivo. {{site.data.keyword.Bluemix_n
 | Región Reino Unido | Londres, Inglaterra | api.eu-gb.bluemix.net | 
 | Región Sídney | Sídney, Australia | api.au-syd.bluemix.net | 
 | Región Alemania | Frankfurt, Alemania | api.eu-de.bluemix.net | 
-{: caption="Tabla 1. Lista de regiones de {{site.data.keyword.Bluemix_notm}} " caption-side="top"}
+{: caption="Tabla 1. Lista de regiones de {{site.data.keyword.Bluemix_notm}}" caption-side="top"}
 
 ## Resiliencia de {{site.data.keyword.Bluemix_notm}}
 {: #resiliency}

@@ -95,12 +95,12 @@ cf api https://api.eu-gb.{{site.data.keyword.Bluemix_notm}}.net
 
 每个区域都分配有唯一前缀。{{site.data.keyword.Bluemix_notm}} 提供了以下区域和区域前缀。
 
-| **区域名称** | **地理位置** | **cf API 端点** |
+| **区域名称**| **地理位置**| **cf API 端点**|
 |-----------------|-------------------------|-------------------|
-| 美国南部区域 | 美国达拉斯 | api.ng.bluemix.net | 
-| 英国区域 | 英国伦敦 | api.eu-gb.bluemix.net | 
-| 悉尼区域 | 澳大利亚悉尼 | api.au-syd.bluemix.net | 
-| 德国区域 | 德国法兰克福 | api.eu-de.bluemix.net | 
+| 美国南部区域| 美国达拉斯| api.ng.bluemix.net| 
+| 英国区域| 英国伦敦| api.eu-gb.bluemix.net| 
+| 悉尼区域| 澳大利亚悉尼| api.au-syd.bluemix.net| 
+| 德国区域| 德国法兰克福| api.eu-de.bluemix.net| 
 {: caption="表 1. {{site.data.keyword.Bluemix_notm}} 区域列表" caption-side="top"}
 
 ## {{site.data.keyword.Bluemix_notm}} 弹性

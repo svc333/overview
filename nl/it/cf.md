@@ -41,7 +41,7 @@ In ciascun server virtuale, un gestore dell'applicazione comunica con il resto d
 
 Quando l'applicazione viene distribuita, se ha un'interfaccia web (come per un'applicazione web Java), o altri servizi basati su REST (come i servizi mobili presentati pubblicamente all'applicazione mobile), gli utenti dell'applicazione possono comunicare con essa utilizzando normali richieste HTTP.
 
-![Richiamo di un'applicazione {{site.data.keyword.Bluemix_notm}}](images/execute-diego.png)
+![Richiamo di un'applicazione {{site.data.keyword.Bluemix_notm}} ](images/execute-diego.png)
 
 Figura 5. Richiamo di un'applicazione {{site.data.keyword.Bluemix_notm}}
 
@@ -65,7 +65,7 @@ I client, che possono essere applicazioni mobili, applicazioni che vengono esegu
 
 La seguente figura mostra l'architettura {{site.data.keyword.Bluemix_notm}} Cloud Foundry di alto livello.
 
-![Architettura {{site.data.keyword.Bluemix_notm}}](images/arch-diego.png)
+![{{site.data.keyword.Bluemix_notm}} architettura](images/arch-diego.png)
 
 Figure 1. Architettura {{site.data.keyword.Bluemix_notm}} Cloud Foundry
 
@@ -103,7 +103,7 @@ A
 ciascuna regione viene assegnato un prefisso univoco. {{site.data.keyword.Bluemix_notm}} fornisce le
 seguenti regioni e i seguenti prefissi di regione.
 
-| **Nome della regione** | **Ubicazione geografica** | **Endpoint API cf** |
+| **Nome regione** | **Ubicazione geografica** | **Endpoint API cf** |
 |-----------------|-------------------------|-------------------|
 | Regione Stati Uniti Sud | Dallas, Stati Uniti | api.ng.bluemix.net | 
 | Regione Regno Unito | Londra, Inghilterra | api.eu-gb.bluemix.net | 

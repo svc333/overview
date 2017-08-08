@@ -41,7 +41,7 @@ Sur chaque serveur virtuel, un gestionnaire d'application communique avec le res
 
 Si l'application déployée dispose d'une interface Web (par exemple, une application Web Java) ou de services REST (par exemple, des services mobiles exposés publiquement à l'application mobile), les utilisateurs de cette application peuvent communiquer avec elle via des demandes HTTP normales.
 
-![Appel d'une application {{site.data.keyword.Bluemix_notm}}](images/execute-diego.png)
+![Appel d'application {{site.data.keyword.Bluemix_notm}}](images/execute-diego.png)
 
 Figure 5. Appel d'une application {{site.data.keyword.Bluemix_notm}}
 
@@ -61,7 +61,7 @@ Les clients, qui peuvent être des applications mobiles, des applications exécu
 
 La figure ci-dessous présente l'architecture générale de {{site.data.keyword.Bluemix_notm}} Cloud Foundry.
 
-![Architecture {{site.data.keyword.Bluemix_notm}}](images/arch-diego.png)
+Architecture ![{{site.data.keyword.Bluemix_notm}}](images/arch-diego.png)
 
 Figure 1. Architecture de {{site.data.keyword.Bluemix_notm}} Cloud Foundry
 
@@ -95,7 +95,7 @@ cf api https://api.eu-gb.{{site.data.keyword.Bluemix_notm}}.net
 
 Un préfixe unique est affecté à chaque région. {{site.data.keyword.Bluemix_notm}} fournit les régions et les préfixes suivants :
 
-| **Nom de région** | **Zone géographique** | **Noeud final d'API cf** |
+| **Nom de région** | **Emplacement géographique** | **Noeud final de l'API cf** |
 |-----------------|-------------------------|-------------------|
 | Région Sud des Etats-Unis | Dallas, US | api.ng.bluemix.net | 
 | Région Royaume-Uni | Londres, Angleterre | api.eu-gb.bluemix.net | 

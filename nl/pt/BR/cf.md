@@ -23,8 +23,7 @@ Cada ambiente de execução, incluindo o ambiente móvel e
 o ambiente da web, é isolado do ambiente de execução de outros apps. Os ambientes de execução são isolados embora esses apps estejam
 na mesma máquina física. A figura a seguir mostra o fluxo básico de como o {{site.data.keyword.Bluemix_notm}} Cloud Foundry gerencia a implementação de apps:
 
-![Implementando um
-app](images/deploy-diego.png)
+![Implementando um app](images/deploy-diego.png)
 
 Figura 3. Implementando um app
 
@@ -49,7 +48,7 @@ Quando o app for implementado, se ele tiver uma interface da web
 (como um app da web Java) ou outros serviços baseados em REST (como
 serviços móveis expostos publicamente para o app móvel), os usuários do app poderão se comunicar com ele usando solicitações normais de HTTP.
 
-![Chamando um app {{site.data.keyword.Bluemix_notm}}](images/execute-diego.png)
+![Chamando um app do {{site.data.keyword.Bluemix_notm}}](images/execute-diego.png)
 
 Figura 5. Chamando um app do {{site.data.keyword.Bluemix_notm}}
 
@@ -75,15 +74,14 @@ uma das instâncias do app ou para os serviços compostos.
 
 A figura a seguir mostra a arquitetura de alto nível do {{site.data.keyword.Bluemix_notm}} Cloud Foundry.
 
-![Arquitetura do {{site.data.keyword.Bluemix_notm}}](images/arch-diego.png)
+Arquitetura do ![{{site.data.keyword.Bluemix_notm}}](images/arch-diego.png)
 
 Figura 1. Arquitetura do {{site.data.keyword.Bluemix_notm}} Cloud Foundry
 
 É possível implementar seus apps em diferentes regiões do {{site.data.keyword.Bluemix_notm}}, para considerações de latência ou segurança. É possível optar por implementar para uma região ou entre várias regiões.
 
 
-![Desenvolvimento de
-aplicativo multiregion](images/multi-region.png)
+![Desenvolvimento de aplicativo multiregion](images/multi-region.png)
 
 Figura 2. Implementação do aplicativo multiregion
 
@@ -117,9 +115,7 @@ cf api https://api.eu-gb.{{site.data.keyword.Bluemix_notm}}.net
 Um prefixo exclusivo é designado a cada região. O {{site.data.keyword.Bluemix_notm}} fornece
 as regiões e os prefixos de regiões a seguir.
 
-| **Nome da região** | **Localização geográfica
-** | **Terminal
-de API cf** |
+| **Nome da região** | **Local geográfico** | **Terminal de API do cf** |
 |-----------------|-------------------------|-------------------|
 | Região Sul dos EUA | Dallas, EUA | api.ng.bluemix.net | 
 | Região do Reino Unido | Londres, Inglaterra | api.eu-gb.bluemix.net | 

@@ -33,7 +33,7 @@ opções de faturamento de nível de infraestrutura.
   * Quando você está no painel de Infraestrutura, a barra de menus exibe links para recursos de nível
 de infraestrutura, como ajuda do KnowledgeLayer, opções de contato, notificações, chamados abertos e opções
 de gerenciamento de suporte e de conta.
-* Se você for um usuário existente com uma conta do {{site.data.keyword.BluSoftlayer}} que não está vinculada ao {{site.data.keyword.Bluemix_notm}}, será possível usar o ícone de Menu ![Ícone de menu](../icons/icon_hamburger.svg) para acessar o painel Infraestrutura e o link **Catálogo** para acessar serviços de infraestrutura. A barra de menus também inclui links para ajuda do KnowledgeLayer, opções de contato,
+* Se você for um usuário existente com uma conta do {{site.data.keyword.BluSoftlayer}} que não está vinculada ao {{site.data.keyword.Bluemix_notm}}, será possível usar o ícone Menu ![Ícone Menu](../icons/icon_hamburger.svg) para acessar o painel Infraestrutura e o link **Catálogo** para acessar os serviços de infraestrutura. A barra de menus também inclui links para ajuda do KnowledgeLayer, opções de contato,
 notificações, chamados abertos e opções de suporte e de conta.
 
 ## Alternando regiões 

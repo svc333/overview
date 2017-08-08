@@ -97,10 +97,10 @@ cf api https://api.eu-gb.{{site.data.keyword.Bluemix_notm}}.net
 
 | **지역 이름** | **지리적 위치** | **cf API 엔드포인트** |
 |-----------------|-------------------------|-------------------|
-| 미국 남부 지역 | 댈러스, 미국 | api.ng.bluemix.net | 
-| 영국 지역 | 런던, 영국 | api.eu-gb.bluemix.net | 
-| 시드니 지역 | 시드니, 호주 | api.au-syd.bluemix.net | 
-| 독일 지역 | 프랑크푸르트, 독일 | api.eu-de.bluemix.net | 
+| 미국 남부 지역| 댈러스, 미국| api.ng.bluemix.net| 
+| 영국 지역| 런던, 영국| api.eu-gb.bluemix.net| 
+| 시드니 지역| 시드니, 호주| api.au-syd.bluemix.net| 
+| 독일 지역| 프랑크푸르트, 독일| api.eu-de.bluemix.net| 
 {: caption="표 1. {{site.data.keyword.Bluemix_notm}} 지역 목록" caption-side="top"}
 
 ## {{site.data.keyword.Bluemix_notm}} 복원성
