@@ -42,5 +42,10 @@ Filtering your view per region also enables you to quickly switch views to work 
 
 If you want to learn more about regions and how to connect to a specific region by using the CLI, see [Regions](/docs/overview/cf.html#ov_intro_reg).  
 
+## Working in the catalog
+
+In the console, you can select a region and filter your dashboard to view infrastructure, apps, and services that you already have created within your account. However, from the catalog, you can see all of the available options regardless of the region you currently have selected for your console. Click the **Catalog** link from the menu bar to see the infrastructure, apps, and services that are available to you.
+
+When you select a tile from the catalog, you can see where the resource is available. Not every resource in the catalog is available in every region. After you click the catalog tile, you can quickly select which region you want to deploy in and which organization and space you want to assign it to before it's created. After you select your deployment options and click **Create**, you're automatically switched to the region, organization, and space within your console where you just deployed.
 
 
