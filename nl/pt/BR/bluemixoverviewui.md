@@ -51,5 +51,10 @@ Filtrar a visualização por região também permite alternar rapidamente as vis
 
 Se você desejar aprender mais sobre regiões e como se conectar a uma região específica usando a CLI, veja [Regiões](/docs/overview/cf.html#ov_intro_reg).  
 
+## Trabalhando no catálogo
+
+No console, é possível selecionar uma região e filtrar o painel para visualizar a infraestrutura, os apps e os serviços que você já criou na conta. No entanto, no catálogo, é possível ver todas as opções disponíveis, independentemente da região atualmente selecionada para o seu console. Clique no link para o **Catálogo** na barra de menus para ver a infraestrutura, os apps e os serviços que estão disponíveis para você.
+
+Ao selecionar um tile do catálogo, será possível ver onde o recurso estará disponível. Nem todos os recursos no catálogo estão disponíveis em todas as regiões. Depois de clicar no tile do catálogo, será possível selecionar rapidamente em qual região você deseja implementar e a qual organização e espaço você deseja designar antes que ele seja criado. Depois de selecionar suas opções de implementação e clicar em **Criar**, você alternará automaticamente para a região, a organização e o espaço no console em que você acabou de implementar.
 
 

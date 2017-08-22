@@ -42,5 +42,10 @@ Le filtrage de votre vue par région vous permet également de basculer rapideme
 
 Pour en savoir plus sur les régions et sur la manière de vous connecter à une région spécifique à l'aide de l'interface CLI, reportez-vous à la rubrique [Régions](/docs/overview/cf.html#ov_intro_reg).  
 
+## Utilisation du catalogue
+
+Dans la console, vous pouvez sélectionner une région et filtrer votre tableau de bord afin d'afficher l'infrastructure, les applications et les services que vous avez déjà créés dans votre compte. Par contre, depuis le catalogue, vous pouvez visualiser toutes les options disponibles, sans considération de la région actuellement sélectionnée pour votre console. Cliquez sur le lien **Catalogue** dans la barre de menu pour examiner l'infrastructure, les applications et les services disponibles.
+
+Lorsque vous sélectionnez une vignette dans le catalogue, vous pouvez déterminer où la ressource est disponible. Les ressources du catalogue ne sont pas nécessairement disponibles dans toutes les régions. Après avoir cliqué sur la vignette dans le catalogue, vous pouvez sélectionner rapidement avant sa création la région dans laquelle la déployer et l'organisation et l'espace auxquels l'affecter. Après avoir sélectionné vos options de déploiement et cliqué sur **Créer**, vous êtes automatiquement basculé dans votre console vers la région, l'organisation et l'espace où vous l'avez déployée.
 
 

@@ -42,5 +42,10 @@ Si filtra la vista según la región podrá cambiar entre vistas con rapidez par
 
 Si desea obtener más información sobre las regiones y cómo conectarse a una región específica utilizando la interfaz de línea de mandatos, consulte [Regiones](/docs/overview/cf.html#ov_intro_reg).  
 
+## Cómo trabajar en el catálogo
+
+En la consola, puede seleccionar una región y filtrar el panel de control para ver la infraestructura, apps, y servicios que ya tiene creados dentro de su cuenta. Sin embargo, desde el catálogo puede ver todas las opciones disponibles, independientemente de la región que actualmente haya seleccionado para su consola. Pulse el enlace **Catálogo** de la barra de menús para ver la infraestructura, apps y servicios que tiene disponibles.
+
+Al seleccionar un mosaico del catálogo, puede ver dónde está disponible el recurso. No todos los recursos del catálogo están disponibles en todas las regiones. Tras pulsar el mosaico del catálogo, puede seleccionar rápidamente en qué región desea desplegarlo y en qué organización y espacio desea asignarlo antes de crearlo. Tras seleccionar las opciones de despliegue y pulsar **Crear**, cambiará automáticamente a la región, organización y espacio de su consola donde acaba de desplegarlo.
 
 

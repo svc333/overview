@@ -42,5 +42,10 @@ Durch Filtern Ihrer Ansicht nach Region können Sie auch schnell zwischen Ansich
 
 Weitere Informationen zu Regionen wünschen und dazu, wie eine Verbindung zu einer bestimmten Region über die CLI hergestellt werden kann, finden Sie unter [Regionen](/docs/overview/cf.html#ov_intro_reg).  
 
+## Im Katalog arbeiten
+
+In der Konsole können Sie eine Region auswählen und das Dashboard filtern, um die Infrastruktur, Apps und Services anzuzeigen, die Sie bereits in Ihrem Konto erstellt haben. Über den Katalog können jedoch alle verfügbaren Optionen angezeigt werden, unabhängig von der Region, die momentan für die Konsole ausgewählt ist. Klicken Sie auf den Link **Katalog** in der Menüleiste, um die Infrastruktur, Apps und Services anzuzeigen, die Ihnen zur Verfügung stehen.
+
+Wenn Sie eine Kachel im Katalog auswählen, sehen Sie, wo die Ressource verfügbar ist. Nicht jede Ressource im Katalog ist in jeder Region verfügbar. Nachdem Sie auf die Katalogkachel geklickt haben, können Sie ohne großen Zeitaufwand die Region auswählen, in der die Bereitstellung erfolgen soll, sowie die Organisation und den Bereich, denen sie zugewiesen werden soll, bevor sie erstellt wird. Nachdem Sie die Bereitstellungsoptionen ausgewählt und auf **Erstellen** geklickt haben, wechseln Sie automatisch zu der Region, der Organisation und dem Bereich in der Konsole, in der bzw. dem Sie die Bereitstellung soeben durchgeführt haben. 
 
 
