@@ -44,8 +44,8 @@ Se vuoi ulteriori informazioni sulle regione e su come stabilire una connessione
 
 ## Lavorando nel catalogo
 
-Nella console, puoi selezionare una regione e filtrare il tuo dashboard per visualizzare l'infrastruttura, le applicazioni e i servizi che hai già creato nell'account. Tuttavia, dal catalogo, puoi visualizzare tutte le opzioni disponibili indipendentemente dalla regione in cui hai al momento selezionato la console. Fai clic sul link **Catalogo** dalla barra del menu per visualizzare l'infrastruttura, le applicazioni e i servizi disponibili. 
+Nella console, puoi selezionare una regione e filtrare il tuo dashboard per visualizzare l'infrastruttura, le applicazioni e i servizi che hai già creato nell'account. Tuttavia, dal catalogo, puoi visualizzare tutte le opzioni disponibili indipendentemente dalla regione in cui hai al momento selezionato la console. Fai clic sul link **Catalogo** dalla barra del menu per visualizzare l'infrastruttura, le applicazioni e i servizi disponibili.
 
-Quando selezioni un tile dal catalogo, puoi visualizzare dove la risorsa è disponibile. Non tutte le risorse nel catalogo sono disponibili in ogni regione. Dopo aver fatto clic sul tile del catalogo, puoi velocemente selezionare in quale regione desideri eseguire la distribuzione e quale organizzazione e spazio assegnare ad essa prima di crearla. Dopo aver selezionato le tue opzioni di distribuzione e fatto clic su **Crea**, vieni trasferito automaticamente alla regione, organizzazione e spazio nella tua console in cui hai appena eseguito la distribuzione. 
+Quando selezioni un tile dal catalogo, puoi visualizzare dove la risorsa è disponibile. Non tutte le risorse nel catalogo sono disponibili in ogni regione. Dopo aver fatto clic sul tile del catalogo, puoi velocemente selezionare in quale regione desideri eseguire la distribuzione e quale organizzazione e spazio assegnare ad essa prima di crearla. Dopo aver selezionato le tue opzioni di distribuzione e fatto clic su **Crea**, vieni trasferito automaticamente alla regione, organizzazione e spazio nella tua console in cui hai appena eseguito la distribuzione.
 
 
