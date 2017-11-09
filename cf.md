@@ -20,7 +20,7 @@ When you deploy an app to Cloud Foundry, you must configure {{site.data.keyword.
 
 Each execution environment, including both mobile and web, is isolated from the execution environment of other apps. The execution environments are isolated even though these apps are on the same physical machine. The following figure shows the basic flow of how Cloud Foundry manages the deployment of apps in {{site.data.keyword.Bluemix_notm}}:
 
-![Deploying an app](images/deploy-diego.png)
+![Deploying an app](images/deploy.png)
 
 Figure 3. Deploying an app
 
@@ -41,7 +41,7 @@ In each virtual server, an application manager communicates with the rest of the
 
 When the app is deployed, if it has a web interface (as for a Java web app), or other REST-based services (such as mobile services exposed publicly to the mobile app), users of the app can communicate with it by using normal HTTP requests.
 
-![Invoking a {{site.data.keyword.Bluemix_notm}} app](images/execute-diego.png)
+![Invoking a {{site.data.keyword.Bluemix_notm}} app](images/execute.png)
 
 Figure 5. Invoking a {{site.data.keyword.Bluemix_notm}} app
 
@@ -61,7 +61,7 @@ Clients--which can be mobile apps, apps that run externally, apps that are built
 
 The following figure shows the high-level Cloud Foundry architecture on {{site.data.keyword.Bluemix_notm}}.
 
-![{{site.data.keyword.Bluemix_notm}} architecture](images/arch-diego.png)
+![{{site.data.keyword.Bluemix_notm}} architecture](images/arch.png)
 
 Figure 1. Cloud Foundry architecture on {{site.data.keyword.Bluemix_notm}}
 
