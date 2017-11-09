@@ -10,21 +10,21 @@ lastupdated: "2017-05-22"
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
 
-# How Bluemix Cloud Foundry works
+# How Cloud Foundry works with {{site.data.keyword.Bluemix_notm}}
 {: #howwork}
 
-When you deploy an app to {{site.data.keyword.Bluemix_notm}} Cloud Foundry, you must configure {{site.data.keyword.Bluemix_notm}} with enough information to support the app.
+When you deploy an app to Cloud Foundry, you must configure {{site.data.keyword.Bluemix_notm}} with enough information to support the app.
 
 * For a mobile app, {{site.data.keyword.Bluemix_notm}} contains an artifact that represents the mobile app's back end, such as the services that the mobile app uses to communicate with a server.
 * For a web app, you must ensure that information about the runtime and framework is communicated to {{site.data.keyword.Bluemix_notm}}, so that {{site.data.keyword.Bluemix_notm}} can set up the appropriate execution environment to run the app.
 
-Each execution environment, including both mobile and web, is isolated from the execution environment of other apps. The execution environments are isolated even though these apps are on the same physical machine. The following figure shows the basic flow of how {{site.data.keyword.Bluemix_notm}} Cloud Foundry manages the deployment of apps:
+Each execution environment, including both mobile and web, is isolated from the execution environment of other apps. The execution environments are isolated even though these apps are on the same physical machine. The following figure shows the basic flow of how Cloud Foundry manages the deployment of apps in {{site.data.keyword.Bluemix_notm}}:
 
 ![Deploying an app](images/deploy-diego.png)
 
 Figure 3. Deploying an app
 
-When you create an app and deploy it to {{site.data.keyword.Bluemix_notm}} Cloud Foundry, the {{site.data.keyword.Bluemix_notm}} environment determines an appropriate virtual server to send the app, or the artifacts that the app represents, to. For a mobile app, a mobile back-end projection is created on {{site.data.keyword.Bluemix_notm}}. Any code for the mobile app running in the cloud eventually runs in the {{site.data.keyword.Bluemix_notm}} environment. For a web app, the code running in the cloud is the app itself that the developer deploys to {{site.data.keyword.Bluemix_notm}}. The determination of the virtual server is based on several factors, including:
+When you create an app and deploy it to Cloud Foundry, the {{site.data.keyword.Bluemix_notm}} environment determines an appropriate virtual server to send the app, or the artifacts that the app represents, to. For a mobile app, a mobile back-end projection is created on {{site.data.keyword.Bluemix_notm}}. Any code for the mobile app running in the cloud eventually runs in the {{site.data.keyword.Bluemix_notm}} environment. For a web app, the code running in the cloud is the app itself that the developer deploys to {{site.data.keyword.Bluemix_notm}}. The determination of the virtual server is based on several factors, including:
 
 * The load already on the machine
 * Runtimes or frameworks supported by that virtual server.
@@ -48,7 +48,7 @@ Figure 5. Invoking a {{site.data.keyword.Bluemix_notm}} app
 Each app can have one or more URLs associated with it, but they must all point to the {{site.data.keyword.Bluemix_notm}} endpoint. When a request comes in, {{site.data.keyword.Bluemix_notm}} examines the request, determines which app it is intended for, then selects an instance of the app to receive the request.
 
 
-## {{site.data.keyword.Bluemix_notm}} Cloud Foundry architecture
+## Cloud Foundry architecture in {{site.data.keyword.Bluemix_notm}}
 {: #architecture}
 
 In general, you don't have to worry about the operating system and infrastructure layers when running apps on {{site.data.keyword.Bluemix_notm}} in Cloud Foundry. Layers such as root filesystems and middleware components are abstracted so that you can focus on your application code. However, you can learn more about these layers if you need specifics on where your app is running.
@@ -59,11 +59,11 @@ As a developer, you can interact with the {{site.data.keyword.Bluemix_notm}} inf
 
 Clients--which can be mobile apps, apps that run externally, apps that are built on {{site.data.keyword.Bluemix_notm}}, or developers that are using browsers--interact with the {{site.data.keyword.Bluemix_notm}}-hosted apps. Clients use REST or HTTP APIs to route requests through {{site.data.keyword.Bluemix_notm}} to one of the app instances or the composite services.
 
-The following figure shows the high-level {{site.data.keyword.Bluemix_notm}} Cloud Foundry architecture.
+The following figure shows the high-level Cloud Foundry architecture on {{site.data.keyword.Bluemix_notm}}.
 
 ![{{site.data.keyword.Bluemix_notm}} architecture](images/arch-diego.png)
 
-Figure 1. {{site.data.keyword.Bluemix_notm}} Cloud Foundry architecture
+Figure 1. Cloud Foundry architecture on {{site.data.keyword.Bluemix_notm}}
 
 You can deploy your apps to different {{site.data.keyword.Bluemix_notm}} regions, for latency or security considerations. You can choose to deploy either to one region or across multiple regions.
 
