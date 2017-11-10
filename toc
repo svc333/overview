@@ -2,7 +2,7 @@
 {:topicgroup: .topicgroup}
 
 {: .toc subcollection="bluemix-overview" audience="platform" href="/docs/overview/whatisbluemix.html"}
-What is Bluemix
+What is IBM Cloud
   
     {: .navgroup id="learn"}
     whatisbluemix.md
