@@ -9,6 +9,7 @@ What is IBM Cloud
     What is IBM Cloud?
         ibm-cloud.md
         prereqs.md
+        catalog.md
         manageaccess.md
         resource-groups.md
     ui.md
