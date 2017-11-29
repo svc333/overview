@@ -22,6 +22,6 @@ Do you want more control over what gets displayed in the catalog? Would you like
 
 For more information, see the following topics.
 
-* If you're a administrator for the account, you can choose to [hide](/docs/admin/exclude.html) a public resource for everyone in your account.
-* If you're a administrator for the account, you can choose who can see your resource by [adding](/docs/admin/include.html) them to an include list.
+* If you're an administrator for the account, you can choose to [hide](/docs/admin/exclude.html) a public resource for everyone in your account.
+* If you're an administrator for the account, you can choose who can see your resource by [adding](/docs/admin/include.html) them to an include list.
 * You can [change account ownership](/docs/admin/owners.html) with the command line interface.
