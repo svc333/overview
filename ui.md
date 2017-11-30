@@ -3,7 +3,7 @@
 
 copyright:
   years: 2016, 2017
-lastupdated: "2017-11-15"
+lastupdated: "2017-11-30"
 
 ---
 
@@ -26,7 +26,7 @@ If you are an existing user with an {{site.data.keyword.cloud_notm}} account, yo
   * From the **Support** menu, you can access information about what's new in {{site.data.keyword.cloud_notm}}, the Support Center, options for adding and viewing tickets, and the Status page.
   * From the **Manage** menu, you can access your account, billing and usage, and security options.
 
-If you linked your {{site.data.keyword.cloud_notm}} and your SoftLayer accounts, you have the same options as a non-linked account owner, plus you can navigate to the customer portal by clicking the **Menu icon  ![Menu icon](../icons/icon_hamburger.svg)  > Infrastructure** option. From here, you can view your account summary, order storage and devices, and manage access for VPN-only users and devices. 
+If you linked your {{site.data.keyword.cloud_notm}} and your SoftLayer accounts, you have the same options as a non-linked account owner, plus you can navigate to the customer portal by selecting the **Menu icon  ![Menu icon](../icons/icon_hamburger.svg)  > Infrastructure** option. From here, you can view your account summary, order storage and devices, and manage access for VPN-only users and devices. 
 
 ## Managing resources on the dashboard
 {: #dashboardview}
