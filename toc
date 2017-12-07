@@ -26,5 +26,6 @@ What is IBM Cloud
     {: .navgroup id="reference"}
     crn.md
     glossary/index.md
+    nls.md
     ../navigation/
     {: .navgroup-end}
