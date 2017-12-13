@@ -1,24 +1,29 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="bluemix-overview" audience="platform" href="/docs/overview/whatisbluemix.html"}
-Bluemix 是什么
-  
+{: .toc subcollection="overview" audience="platform" href="/docs/overview/ibm-cloud.html"}
+什么是 IBM Cloud
+
     {: .navgroup id="learn"}
-    whatisbluemix.md
-    bluemixoverviewui.md
+    {: .topicgroup}
+    什么是 IBM Cloud？
+        ibm-cloud.md
+        prereqs.md
+        manageaccess.md
+        resource-groups.md
+    ui.md
+    security.md
     cf.md
-    prereqs.md
-    
+    ../whatsnew/
+
     {: .topicgroup}
     相关链接
-        [Bluemix 是什么?](http://www.ibm.com/cloud-computing/bluemix/what-is-bluemix/){: new_window}
-        [入门](http://www.ibm.com/cloud-computing/bluemix/getting-started/){: new_window}
-        [了解有关混合模型的信息](http://www.ibm.com/cloud-computing/bluemix/hybrid/){: new_window}
+        [为什么选择 IBM Cloud？](https://www.ibm.com/cloud-computing/learn-more/why-ibm-cloud/){: new_window}
+        [了解有关私有云选项的信息](https://www.ibm.com/cloud-computing/solutions/private-cloud/){: new_window}
     {: .navgroup-end}
-    
+
     {: .navgroup id="reference"}
-    ../navigation/
+    crn.md
     glossary/index.md
-    ../whatsnew/
+    ../navigation/
     {: .navgroup-end}

@@ -1,24 +1,29 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="bluemix-overview" audience="platform" href="/docs/overview/whatisbluemix.html"}
-Bluemix의 개념
-  
+{: .toc subcollection="overview" audience="platform" href="/docs/overview/ibm-cloud.html"}
+IBM Cloud 개념
+
     {: .navgroup id="learn"}
-    whatisbluemix.md
-    bluemixoverviewui.md
+    {: .topicgroup}
+    IBM Cloud 개념
+        ibm-cloud.md
+        prereqs.md
+        manageaccess.md
+        resource-groups.md
+    ui.md
+    security.md
     cf.md
-    prereqs.md
-    
+    ../whatsnew/
+
     {: .topicgroup}
     관련 링크
-        [Bluemix의 개념](http://www.ibm.com/cloud-computing/bluemix/what-is-bluemix/){: new_window}
-        [시작하기](http://www.ibm.com/cloud-computing/bluemix/getting-started/){: new_window}
-        [하이브리드 모델 알아보기](http://www.ibm.com/cloud-computing/bluemix/hybrid/){: new_window}
+        [왜 IBM Cloud인가?](https://www.ibm.com/cloud-computing/learn-more/why-ibm-cloud/){: new_window}
+        [프라이빗 클라우드 선택에 대해 알아보기](https://www.ibm.com/cloud-computing/solutions/private-cloud/){: new_window}
     {: .navgroup-end}
-    
+
     {: .navgroup id="reference"}
-    ../navigation/
+    crn.md
     glossary/index.md
-    ../whatsnew/
+    ../navigation/
     {: .navgroup-end}

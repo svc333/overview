@@ -1,24 +1,29 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="bluemix-overview" audience="platform" href="/docs/overview/whatisbluemix.html"}
-Qué es Bluemix
-  
+{: .toc subcollection="overview" audience="platform" href="/docs/overview/ibm-cloud.html"}
+¿Qué es IBM Cloud?
+
     {: .navgroup id="learn"}
-    whatisbluemix.md
-    bluemixoverviewui.md
+    {: .topicgroup}
+    ¿Qué es IBM Cloud?
+        ibm-cloud.md
+        prereqs.md
+        manageaccess.md
+        resource-groups.md
+    ui.md
+    security.md
     cf.md
-    prereqs.md
-    
+    ../whatsnew/
+
     {: .topicgroup}
     Enlaces relacionados
-        [¿Qué es Bluemix?](http://www.ibm.com/cloud-computing/bluemix/what-is-bluemix/){: new_window}
-        [Cómo empezar](http://www.ibm.com/cloud-computing/bluemix/getting-started/){: new_window}
-        [Información sobre el modelo híbrido](http://www.ibm.com/cloud-computing/bluemix/hybrid/){: new_window}
+        [¿Por qué IBM Cloud?](https://www.ibm.com/cloud-computing/learn-more/why-ibm-cloud/){: new_window}
+        [Obtener más información acerca de las opciones de nube privada](https://www.ibm.com/cloud-computing/solutions/private-cloud/){: new_window}
     {: .navgroup-end}
-    
+
     {: .navgroup id="reference"}
-    ../navigation/
+    crn.md
     glossary/index.md
-    ../whatsnew/
+    ../navigation/
     {: .navgroup-end}
