@@ -3,7 +3,7 @@
 
 copyright:
   years: 2016, 2017
-lastupdated: "2017-09-16"
+lastupdated: "2017-12-15"
 
 ---
 
@@ -98,6 +98,7 @@ A unique prefix is assigned to each region. {{site.data.keyword.cloud_notm}} pro
 | **Region name** | **Geographic location** | **cf API endpoint** |
 |-----------------|-------------------------|-------------------|
 | US South region | Dallas, US | api.ng.bluemix.net | 
+| US East region | Washington, DC, US | api.us-east.bluemix.net |
 | United Kingdom region | London, England | api.eu-gb.bluemix.net | 
 | Sydney region | Sydney, Australia | api.au-syd.bluemix.net | 
 | Germany region | Frankfurt, Germany | api.eu-de.bluemix.net | 
