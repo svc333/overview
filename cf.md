@@ -2,8 +2,8 @@
 
 
 copyright:
-  years: 2016, 2017
-lastupdated: "2017-12-15"
+  years: 2016, 2018
+lastupdated: "2018-01-04"
 
 ---
 
@@ -75,7 +75,7 @@ Figure 5. Multi-region application deployment
 ## Regions
 {: #ov_intro_reg}
 
-An {{site.data.keyword.cloud_notm}} region is a defined geographical territory that you can deploy your apps to. You can create apps and service instances in different regions with the same {{site.data.keyword.cloud_notm}} infrastructure for application management and the same usage details view for billing. You can deploy your apps to the region that is nearest to your customers to get low application latency. To address security issues, you can also select the region where you want to keep the application data. When you build apps in multiple regions, if one region becomes unavailable, the apps that are in the other regions continue to run. Your resource allowance is the same for each region that you use.
+An {{site.data.keyword.cloud_notm}} Foundry Service region is a defined geographical territory that you can deploy your apps to. You can create apps and service instances in different regions with the same {{site.data.keyword.cloud_notm}} infrastructure for application management and the same usage details view for billing. You can deploy your apps to the region that is nearest to your customers to get low application latency. To address security issues, you can also select the region where you want to keep the application data. When you build apps in multiple regions, if one region becomes unavailable, the apps that are in the other regions continue to run. Your resource allowance is the same for each region that you use.
 
 If you use the {{site.data.keyword.cloud_notm}} console, you are automatically shown the information for the nearest healthy geographical region. Global load balancing for the console ensures that if for some reason the nearest geographical region for you is down, your console will display the information for the next closest region. This way, you always have access to the console without having to take any action to access the information you need.
 
