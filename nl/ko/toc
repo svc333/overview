@@ -9,6 +9,7 @@ IBM Cloud 개념
     IBM Cloud 개념
         ibm-cloud.md
         prereqs.md
+        catalog.md
         manageaccess.md
         resource-groups.md
     ui.md
@@ -25,5 +26,6 @@ IBM Cloud 개념
     {: .navgroup id="reference"}
     crn.md
     glossary/index.md
+    nls.md
     ../navigation/
     {: .navgroup-end}

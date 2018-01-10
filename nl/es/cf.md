@@ -3,7 +3,7 @@
 
 copyright:
   years: 2016, 2017
-lastupdated: "2017-09-16"
+lastupdated: "2017-12-15"
 
 ---
 
@@ -100,6 +100,7 @@ Cada región tienen asignado un prefijo exclusivo. {{site.data.keyword.cloud_not
 | **Nombre de la región** | **Ubicación geográfica** | **Punto final cf API** |
 |-----------------|-------------------------|-------------------|
 | Región EE.UU. sur | Dallas, EE.UU. | api.ng.bluemix.net | 
+| Región EE.UU. este | Washington, DC, EE.UU. | api.us-east.bluemix.net |
 | Región Reino Unido | Londres, Inglaterra | api.eu-gb.bluemix.net | 
 | Región Sídney | Sídney, Australia | api.au-syd.bluemix.net | 
 | Región Alemania | Frankfurt, Alemania | api.eu-de.bluemix.net | 

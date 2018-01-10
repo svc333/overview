@@ -3,7 +3,7 @@
 
 copyright:
   years: 2016, 2017
-lastupdated: "2017-09-16"
+lastupdated: "2017-12-15"
 
 ---
 
@@ -98,6 +98,7 @@ Un préfixe unique est affecté à chaque région. {{site.data.keyword.cloud_not
 | **Nom de région** | **Emplacement géographique** | **Noeud final de l'API cf** |
 |-----------------|-------------------------|-------------------|
 | Région Sud des Etats-Unis | Dallas, US | api.ng.bluemix.net | 
+| Région Est des Etats-Unis | Washington, DC, US | api.us-east.bluemix.net |
 | Région Royaume-Uni | Londres, Angleterre | api.eu-gb.bluemix.net | 
 | Région Sydney | Sydney, Australie | api.au-syd.bluemix.net | 
 | Région Allemagne | Francfort, Allemagne | api.eu-de.bluemix.net | 

@@ -6,8 +6,10 @@ IBM Cloud とは
 
     {: .navgroup id="learn"}
     {: .topicgroup}
-IBM Cloud とはibm-cloud.md
+    IBM Cloud とは
+        ibm-cloud.md
         prereqs.md
+        catalog.md
         manageaccess.md
         resource-groups.md
     ui.md
@@ -24,5 +26,6 @@ IBM Cloud とはibm-cloud.md
     {: .navgroup id="reference"}
     crn.md
     glossary/index.md
+    nls.md
     ../navigation/
     {: .navgroup-end}

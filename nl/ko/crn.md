@@ -4,7 +4,7 @@ copyright:
 
   years: 2017
 
-lastupdated: "2017-11-17"
+lastupdated: "2017-12-15"
 
 ---
 
@@ -84,6 +84,7 @@ CRN의 기본적인 표준 형식은 다음과 같습니다.
 ### 지역
 
  * `us-south`
+ * `us-east`
  * `au-syd`
  * `eu-gb`
  * `eu-de`

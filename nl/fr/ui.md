@@ -3,7 +3,7 @@
 
 copyright:
   years: 2016, 2017
-lastupdated: "2017-11-15"
+lastupdated: "2017-11-30"
 
 ---
 
@@ -26,7 +26,7 @@ Si vous êtes un utilisateur existant qui dispose d'un compte {{site.data.keywor
   * A partir du menu **Support**, vous pouvez accéder à des informations concernant les nouveautés de {{site.data.keyword.cloud_notm}}, le centre de support, les options d'ajout et d'affichage des tickets et la page Statut.
   * A partir du menu **Gérer**, vous pouvez accéder à votre compte, à la facturation et l'utilisation et aux options de sécurité.
 
-Si vous avez lié vos comptes {{site.data.keyword.cloud_notm}} et SoftLayer, vous disposez des mêmes options qu'un propriétaire de compte non lié et vous pouvez de plus accéder au portail client en cliquant sur l'**icône de menu ![Icône de menu](../icons/icon_hamburger.svg)  > option Infrastructure**. A partir de là, vous pouvez afficher le récapitulatif de votre compte, commander de l'espace de stockage et des périphériques, et gérer les accès des utilisateurs et périphériques du réseau privé virtuel uniquement. 
+Si vous avez lié vos comptes {{site.data.keyword.cloud_notm}} et SoftLayer,  vous disposez des mêmes options qu'un propriétaire de compte non lié et vous pouvez de plus accéder au portail client en sélectionnant l'**icône Menu  ![Icône Menu](../icons/icon_hamburger.svg)  > option Infrastructure**. A partir de là, vous pouvez afficher le récapitulatif de votre compte, commander de l'espace de stockage et des périphériques, et gérer les accès des utilisateurs et périphériques du réseau privé virtuel uniquement. 
 
 ## Gestion des ressources sur le tableau de bord
 {: #dashboardview}

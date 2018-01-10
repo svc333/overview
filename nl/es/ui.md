@@ -3,7 +3,7 @@
 
 copyright:
   years: 2016, 2017
-lastupdated: "2017-11-15"
+lastupdated: "2017-11-30"
 
 ---
 
@@ -26,7 +26,7 @@ Si es un usuario existente con una cuenta de {{site.data.keyword.cloud_notm}}, p
   * Desde el menú **Soporte**, puede acceder a información sobre las novedades en {{site.data.keyword.cloud_notm}}, el Centro de soporte, opciones para añadir y ver incidencias y la página de Estado.
   * Desde el menú **Gestionar**, puede acceder a las opciones de su cuenta, de facturación y uso y de seguridad.
 
-Si ha enlazado sus cuentas de {{site.data.keyword.cloud_notm}} y SoftLayer, tiene las mismas opciones que el propietario de una cuenta no enlazada, pero además puede navegar al portal de cliente pulsando el **icono de Menú ![Icono de menú](../icons/icon_hamburger.svg)  > opción Infraestructura**. Desde aquí, puede ver su resumen de cuenta, pedir almacenamiento y dispositivos y gestionar el acceso para usuarios y dispositivos de solo VPN. 
+Si ha enlazado sus cuentas de {{site.data.keyword.cloud_notm}} y SoftLayer, tiene las mismas opciones que el propietario de una cuenta no enlazada, pero además puede navegar al portal de cliente seleccionando el **icono de Menú ![Icono de menú](../icons/icon_hamburger.svg)  > opción Infraestructura**. Desde aquí, puede ver su resumen de cuenta, pedir almacenamiento y dispositivos y gestionar el acceso para usuarios y dispositivos de solo VPN. 
 
 ## Gestión de recursos en el panel de control
 {: #dashboardview}

@@ -9,6 +9,7 @@
     ¿Qué es IBM Cloud?
         ibm-cloud.md
         prereqs.md
+        catalog.md
         manageaccess.md
         resource-groups.md
     ui.md
@@ -25,5 +26,6 @@
     {: .navgroup id="reference"}
     crn.md
     glossary/index.md
+    nls.md
     ../navigation/
     {: .navgroup-end}
