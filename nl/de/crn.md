@@ -4,7 +4,7 @@ copyright:
 
   years: 2017
 
-lastupdated: "2017-11-17"
+lastupdated: "2017-12-15"
 
 ---
 
@@ -84,6 +84,7 @@ Das Segment `position` muss einer der folgenden Werte sein:
 ### Regionen
 
  * `us-south`
+ * `us-east`
  * `au-syd`
  * `eu-gb`
  * `eu-de`
@@ -113,7 +114,7 @@ Das Segment `umfang` gibt die Abgrenzung oder den Eigner der Ressource an. Für 
 
 Der Wert des Segments `umfang` muss als `{scopePrefix}`/`{id}` formatiert werden. `scopePrefix` stellt das Format dar, das zur Angabe des Eigners oder der Abgrenzung verwendet wird. `id` stellt die Identität des Eigners oder der Abgrenzung in einem Format dar, das für `scopePrefix` spezifisch ist.
 
-| Umfangstyp | Umfangspräfix| Verwendung | Beispiel |
+| Umfangstyp | Umfangspräfix | Verwendung | Beispiel |
 | --- | --- | --- | --- |
 | Konto | a/`{account id}` | Das Konto, in dem die Ressource erstellt wurde. | a/292558 |
 | Organisation | o/`{org guid}` | Die {{site.data.keyword.Bluemix_notm}}-Organisation, der die Ressource zugeordnet wurde. | o/4716e2d1-35b7-431f-891a-b552bf0b3c66 |
@@ -126,7 +127,7 @@ Der Wert des Segments `umfang` muss als `{scopePrefix}`/`{id}` formatiert werden
 ## serviceinstanz
 {: #service-instance}
 
-Das Segment `serviceinstanz` gibt die Serviceinstanz eindeutig an. Das Format des Segments `serviceinstanz` ist vom Service abhängig. Jeder Service muss das Format seines Segments `serviceinstanz` als Teil der Servicemetadaten dokumentieren. Manche Services haben keine Instanzen, weil die Instanz global ist. In diesem Fall ist das Feld `serviceinstanz` leer. 
+Das Segment `serviceinstanz` gibt die Serviceinstanz eindeutig an. Das Format des Segments `serviceinstanz` ist vom Service abhängig. Jeder Service muss das Format seines Segments `serviceinstanz` als Teil der Servicemetadaten dokumentieren. Manche Services haben keine Instanzen, weil die Instanz global ist. In diesem Fall ist das Feld `serviceinstanz` leer.
 
 Das Segment `serviceinstanz` muss alphanumerisch und kleingeschrieben sein, es darf keine Leerzeichen oder Sonderzeichen (mit Ausnahme von '-' und '/') enthalten.
 

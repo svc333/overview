@@ -3,7 +3,7 @@
 
 copyright:
   years: 2016, 2017
-lastupdated: "2017-11-15"
+lastupdated: "2017-11-30"
 
 ---
 
@@ -26,7 +26,7 @@ Wenn Sie ein bereits bestehender Benutzer mit einem {{site.data.keyword.cloud_no
   * Über das Menü **Support** können Sie auf Informationen zu den Neuerungen in {{site.data.keyword.cloud_notm}}, das Support Center, Optionen zum Hinzufügen und Anzeigen von Tickets und auf die Seite 'Status' zugreifen.
   * Über das Menü **Verwalten** können Sie auf Ihre Konto-, Abrechnungs- und Nutzungs- sowie Sicherheitsoptionen zugreifen.
 
-Wenn Sie Ihre {{site.data.keyword.cloud_notm}}- und SoftLayer-Konten verknüpft haben, haben Sie dieselben Optionen, die auch ein Eigner von nicht verknüpften Konten hat. Außerdem können Sie zum Kundenportal navigieren, indem Sie auf die Option **Menüsymbol![Menüsymbol](../icons/icon_hamburger.svg) > Infrastruktur** klicken. Von hier aus können Sie Ihre Kontozusammenfassung anzeigen, Speicher und Geräte bestellen und den Zugriff für Benutzer und Geräte verwalten, die nur VPN nutzen. 
+Wenn Sie Ihre {{site.data.keyword.cloud_notm}}- und SoftLayer-Konten verknüpft haben, haben Sie dieselben Optionen, die auch ein Eigner von nicht verknüpften Konten hat. Außerdem können Sie zum Kundenportal navigieren, indem Sie die Option **Menüsymbol![Menüsymbol](../icons/icon_hamburger.svg) > Infrastruktur** auswählen. Von hier aus können Sie Ihre Kontozusammenfassung anzeigen, Speicher und Geräte bestellen und den Zugriff für Benutzer und Geräte verwalten, die nur VPN nutzen. 
 
 ## Ressourcen im Dashboard verwalten
 {: #dashboardview}
@@ -55,7 +55,7 @@ Sie können über das Dashboard auf unterschiedliche Art und Weise mit Ihren Res
 ## Im Katalog arbeiten
 {: #catalogcreate}
 
-Wenn Sie eine neue Ressource erstellen möchten, klicken Sie in Ihrem Dashboard auf **Ressource erstellen**. Sie werden dann zu dem Katalog geleitet. Wenn Sie eine Kachel im Katalog auswählen, sehen Sie, wo die Ressource verfügbar ist. Nicht jede im Katalog aufgelistete Ressource ist in jeder Region verfügbar.  
+Wenn Sie eine neue Ressource erstellen möchten, klicken Sie in Ihrem Dashboard auf **Ressource erstellen**. Sie werden dann zu dem Katalog geleitet. Wenn Sie eine Kachel im Katalog auswählen, sehen Sie, wo die Ressource verfügbar ist. Nicht jede im Katalog aufgelistete Ressource ist in jeder Region verfügbar. 
 
 Nachdem Sie auf die Kachel für die Ressource geklickt haben, die Sie erstellen möchten, können Sie die Position auswählen, an der die Bereitstellung erfolgen soll. 
 

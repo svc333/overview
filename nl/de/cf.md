@@ -3,7 +3,7 @@
 
 copyright:
   years: 2016, 2017
-lastupdated: "2017-09-16"
+lastupdated: "2017-12-15"
 
 ---
 
@@ -120,8 +120,9 @@ stehen die folgenden Regionen und Regionspräfixe zur Verfügung.
 | **Regionsname** | **Standort** | **cf-API-Endpunkt** |
 |-----------------|-------------------------|-------------------|
 | Region 'Vereinigte Staaten (Süden)' | Dallas, US | api.ng.bluemix.net | 
-| Region 'United Kingdom' | London, England | api.eu-gb.bluemix.net | 
-| Region 'Sydney' | Sydney, Australia | api.au-syd.bluemix.net | 
+| Region 'Vereinigte Staaten (Osten)' | Washington, DC, US | api.us-east.bluemix.net |
+| Region 'Vereinigtes Königreich' | London, England | api.eu-gb.bluemix.net | 
+| Region 'Sydney' | Sydney, Australien | api.au-syd.bluemix.net | 
 | Region 'Deutschland' | Frankfurt, Deutschland | api.eu-de.bluemix.net | 
 {: caption="Tabelle 1. Liste der {{site.data.keyword.cloud_notm}}-Regionen" caption-side="top"}
 
