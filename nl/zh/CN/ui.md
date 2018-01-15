@@ -3,7 +3,7 @@
 
 copyright:
   years: 2016, 2017
-lastupdated: "2017-11-15"
+lastupdated: "2017-11-30"
 
 ---
 
@@ -26,7 +26,7 @@ lastupdated: "2017-11-15"
   * 在**支持**菜单中，可以访问有关 {{site.data.keyword.cloud_notm}} 新增功能、支持中心、用于添加和查看凭单的选项以及“状态”页面的信息。
   * 在**管理**菜单中，可以访问帐户、计费和使用情况以及安全性选项。
 
-如果链接了 {{site.data.keyword.cloud_notm}} 和 SoftLayer 帐户，那么您除了具有与非链接帐户所有者相同的选项外，还可以通过单击**“菜单”图标 ![“菜单”图标](../icons/icon_hamburger.svg) > 基础架构**选项来导航至客户门户网站。在其中，可以查看帐户汇总，订购存储器和设备，以及管理针对仅使用 VPN 的用户和设备的访问权。 
+如果链接了 {{site.data.keyword.cloud_notm}} 和 SoftLayer 帐户，那么您除了具有与非链接帐户所有者相同的选项外，还可以通过选择**“菜单”图标 ![“菜单”图标](../icons/icon_hamburger.svg) > 基础架构**选项来导航至客户门户网站。在其中，可以查看帐户汇总，订购存储器和设备，以及管理针对仅使用 VPN 的用户和设备的访问权。 
 
 ## 在仪表板上管理资源
 {: #dashboardview}

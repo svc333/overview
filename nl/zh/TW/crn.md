@@ -4,7 +4,7 @@ copyright:
 
   years: 2017
 
-lastupdated: "2017-11-17"
+lastupdated: "2017-12-15"
 
 ---
 
@@ -84,6 +84,7 @@ CRN 的基本標準格式為：
 ### 地區
 
  * `us-south`
+ * `us-east`
  * `au-syd`
  * `eu-gb`
  * `eu-de`

@@ -3,7 +3,7 @@
 
 copyright:
   years: 2016, 2017
-lastupdated: "2017-09-16"
+lastupdated: "2017-12-15"
 
 ---
 
@@ -99,6 +99,7 @@ cf api https://api.eu-gb.bluemix.net
 | **地區名稱** | **地理位置** | **cf API 端點** |
 |-----------------|-------------------------|-------------------|
 | 美國南部地區| 美國達拉斯| api.ng.bluemix.net| 
+| 美國東部地區| 美國華盛頓特區| api.us-east.bluemix.net|
 | 英國地區| 英國倫敦| api.eu-gb.bluemix.net| 
 | 雪梨地區| 澳洲雪梨| api.au-syd.bluemix.net| 
 | 德國地區| 德國法蘭克福| api.eu-de.bluemix.net| 
