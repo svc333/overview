@@ -3,7 +3,7 @@
 
 copyright:
   years: 2016, 2017
-lastupdated: "2017-09-16"
+lastupdated: "2017-12-15"
 
 ---
 
@@ -116,6 +116,7 @@ as regiões e os prefixos de regiões a seguir.
 | **Nome da região** | **Local geográfico** | **Terminal de API do cf** |
 |-----------------|-------------------------|-------------------|
 | Região Sul dos EUA | Dallas, EUA | api.ng.bluemix.net | 
+| Região Leste dos EUA | Washington, DC, EUA | api.us-east.bluemix.net |
 | Região do Reino Unido | Londres, Inglaterra | api.eu-gb.bluemix.net | 
 | Região de Sydney | Sydney, Austrália | api.au-syd.bluemix.net | 
 | Região da Alemanha | Frankfurt, Alemanha | api.eu-de.bluemix.net | 

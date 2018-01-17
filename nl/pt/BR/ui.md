@@ -3,7 +3,7 @@
 
 copyright:
   years: 2016, 2017
-lastupdated: "2017-11-15"
+lastupdated: "2017-11-30"
 
 ---
 
@@ -26,7 +26,7 @@ Se você for um usuário existente com uma conta do {{site.data.keyword.cloud_no
   * No menu **Suporte**, é possível acessar informações sobre o que há de novo no {{site.data.keyword.cloud_notm}}, o Centro de suporte, as opções para incluir e visualizar chamados e a página Status.
   * No menu **Gerenciar**, é possível acessar sua conta, faturamento e uso e as opções de segurança.
 
-Se você vinculou as suas contas do {{site.data.keyword.cloud_notm}} e do SoftLayer, terá as mesmas opções que um proprietário da conta não vinculada, além de poder navegar para o portal do cliente clicando na opção **Ícone Menu ![Menu icon](../icons/icon_hamburger.svg) > Infraestrutura**. Desse ponto, é possível visualizar seu resumo de conta, pedir armazenamento e dispositivos e gerenciar o acesso para usuários e dispositivos somente de VPN. 
+Se as suas contas do {{site.data.keyword.cloud_notm}} e do SoftLayer foram vinculadas, você tem as mesmas opções que um proprietário da conta não vinculada, além de poder navegar para o portal do cliente selecionando a opção **Ícone Menu ![Menu icon](../icons/icon_hamburger.svg) > Infraestrutura**. Desse ponto, é possível visualizar seu resumo de conta, pedir armazenamento e dispositivos e gerenciar o acesso para usuários e dispositivos somente de VPN. 
 
 ## Gerenciando recursos no painel
 {: #dashboardview}
