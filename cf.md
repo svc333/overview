@@ -3,7 +3,7 @@
 
 copyright:
   years: 2016, 2018
-lastupdated: "2018-01-04"
+lastupdated: "2018-01-16"
 
 ---
 
@@ -53,7 +53,7 @@ Each app can have one or more URLs associated with it, but they must all point t
 
 In general, you don't have to worry about the operating system and infrastructure layers when running apps on {{site.data.keyword.cloud_notm}} in Cloud Foundry. Layers such as root filesystems and middleware components are abstracted so that you can focus on your application code. However, you can learn more about these layers if you need specifics on where your app is running.
 
-See [Viewing {{site.data.keyword.cloud_notm}} infrastructure layers](/docs/manageapps/infra.html#viewinfra) for details.
+See [Viewing {{site.data.keyword.cloud_notm}} infrastructure layers](cf.html#infralayers) for details.
 
 As a developer, you can interact with the {{site.data.keyword.cloud_notm}} infrastructure by using a browser-based user interface. You can also use a Cloud Foundry command line interface, called cf, to deploy web apps.
 
@@ -71,6 +71,28 @@ You can deploy your apps to different {{site.data.keyword.cloud_notm}} regions, 
 ![Multi-region application development](images/multi-region.png)
 
 Figure 5. Multi-region application deployment
+
+{{site.data.keyword.Bluemix_notm}} infrastructure layers
+{: #infralayers}
+
+
+{{site.data.keyword.Bluemix_notm}} abstracts and hides operating system and infrastructure layers, so that you don't need to manage them. However, sometimes you might want to know more about the operating system and middleware for your app.
+{:shortdesc}
+
+### Viewing {{site.data.keyword.Bluemix_notm}} infrastructure layers
+{: #viewinfra}
+
+You can run the **bluemix app stacks** command to show the available stacks, or root filesystems, that your apps are to be deployed to. You can also specify the stack when you use the **bluemix app push** command with the *-s* option and the *stack_name*, where the stack_name is the root filesystem, such as `lucid64` or `cflinuxfs2`:
+
+```
+bluemix app push appName -s stack_name
+```
+
+You can use the `cf buildpacks` command to show the middleware components, such as WebSphere Liberty profile and SDK for Node.js, that are available as runtimes for your app to run in. And you can specify the runtime environment for your app by using the following command:
+
+```
+bluemix app push appName -b buildpackname
+```
 
 ## Regions
 {: #ov_intro_reg}

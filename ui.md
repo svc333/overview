@@ -3,7 +3,7 @@
 
 copyright:
   years: 2016, 2018
-lastupdated: "2017-11-30"
+lastupdated: "2018-01-16"
 
 ---
 
@@ -50,7 +50,7 @@ Then, based on the items you select, you can filter by the following options:
 You can work with your resources in various ways from the dashboard:
 
   * Each resource is displayed in its own row and a More Actions icon  ![More Actions icon](../icons/overflow-menu.svg)  is included at the end of the row. Click the More Actions icon to start, stop, rename, or delete a resource.
-  * To set up credentials or connections for a resource, click the name of the resource to navigate to the resource details page. For more information, see [Adding a new credential](/docs/services/service_credentials.html) and [Managing connections](/docs/manageapps/connecting_apps.html).
+  * To set up credentials or connections for a resource, click the name of the resource to navigate to the resource details page. For more information, see [Adding a new credential](/docs/services/service_credentials.html) and [Managing connections](/docs/cfapps/connecting_apps.html#connect_app).
 
 ## Working in the catalog
 {: #catalogcreate}
@@ -61,3 +61,4 @@ After you click the tile for the resource that you want create, you can select w
 
   * For Cloud Foundry resources, you can select a specific region and then select the org and space for the service instance to be assigned to.
   * For resources managed by {{site.data.keyword.cloud_notm}} Identity and Access Management (IAM), you select a location to deploy in. Then, you select a resource group to assign the service instance to.
+
