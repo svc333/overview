@@ -2,7 +2,7 @@
 
 copyright:
 
-  years: 2017
+  years: 2017, 2018
 
 lastupdated: "2017-12-15"
 
@@ -141,7 +141,7 @@ CRN の基本正規フォーマットは、次のとおりです。
 
 `resource-type` セグメントおよび `resource` セグメントの値は、サービスによって異なります。 各サービスは、サービス・メタデータの一部として、サポートされる `resource type` と、`resource` のフォーマットを文書化する必要があります。
 
-例えば、Object Storage サービス内のカスタマー領収書コンテナー中のイメージの `resource-type` が `object`、`resource_ value` が `CustomerReceipts/clientdinner.png` であるといった例が考えられます。 
+例えば、Object Storage サービス内のカスタマー領収書コンテナー中のイメージの `resource-type` が `object`、`resource_ value` が `CustomerReceipts/clientdinner.png` であるといった例が考えられます。
 
 `resource-type` には、小文字の英数字を使用しなければならず、スペースも「-」以外の特殊文字も使用できません。 サービスは `resource-type` がオプションであると決定することができ、その場合は空白のままになります。
 
@@ -158,5 +158,3 @@ CRN の基本正規フォーマットは、次のとおりです。
 | サービス・インスタンス | `crn:v1:bluemix:public:cloud-object-storage:global:a/59bcbfa6ea2f006b4ed7094c1a08dcdd:1a0ec336-f391-4091-a6fb-5e084a4c56f4::` |
 | バケット | `crn:v1:bluemix:public:cloud-object-storage:global:a/59bcbfa6ea2f006b4ed7094c1a08dcdd:1a0ec336-f391-4091-a6fb-5e084a4c56f4:bucket:mybucket` |
 {: caption="表 3. CRN の例" caption-side="top"}
-
-

@@ -15,7 +15,7 @@ O que é IBM Cloud?
     ui.md
     security.md
     cf.md
-    ../whatsnew/
+    whats-new/index.md
 
     {: .topicgroup}
     Links relacionados
@@ -27,5 +27,5 @@ O que é IBM Cloud?
     crn.md
     glossary/index.md
     nls.md
-    ../navigation/
+    terms-of-use/notices.md
     {: .navgroup-end}

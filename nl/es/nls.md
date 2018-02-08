@@ -2,7 +2,7 @@
 
 
 copyright:
-  years: 2014, 2017
+  years: 2014, 2018
 lastupdated: "2017-12-06"
 
 ---
@@ -20,7 +20,7 @@ La siguiente tabla lista los idiomas nacionales soportados y los códigos de idi
 
 | Idioma nacional | Código de idioma |
 |----------|---------|
-| Portugués de Brasil | pt_BR | 
+| Portugués de Brasil | pt_BR |
 | Inglés | en |
 | Francés | fr |
 | Alemán | de |
@@ -28,6 +28,6 @@ La siguiente tabla lista los idiomas nacionales soportados y los códigos de idi
 | Coreano | ko |
 | Italiano | it |
 | Español | es |
-| Chino simplificado | zh_CN | 
+| Chino simplificado | zh_CN |
 | Chino tradicional | zh_TW |
-{: caption="Tabla 1. Idiomas nacionales soportados y códigos de idioma" caption-side="top"} 
+{: caption="Tabla 1. Idiomas nacionales soportados y códigos de idioma" caption-side="top"}

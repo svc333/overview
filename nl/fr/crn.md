@@ -2,7 +2,7 @@
 
 copyright:
 
-  years: 2017
+  years: 2017, 2018
 
 lastupdated: "2017-12-15"
 
@@ -141,7 +141,7 @@ Par exemple, un outil DevOps de suivi et de planification d'éléments de travai
 
 La valeur des segments `resource-type` et `resource` varie en fonction du service. Un service doit documenter les `types de ressource` pris en charge et le format de `resource` dans le cadre de ses métadonnées de service.
 
-Par exemple, une image dans le conteneur de réception client d'un service Object Storage peut avoir un segment `resource-type` avec la valeur `object` et un segment `resource_ value` avec la valeur `CustomerReceipts/clientdinner.png`. 
+Par exemple, une image dans le conteneur de réception client d'un service Object Storage peut avoir un segment `resource-type` avec la valeur `object` et un segment `resource_ value` avec la valeur `CustomerReceipts/clientdinner.png`.
 
 `resource-type` doit être composé de caractères alphanumériques minuscules, sans espaces ou caractères spéciaux autres que '-'. Un service peut décider que le segment `resource-type` est facultatif et, auquel cas, le segment sera vide.
 
@@ -158,5 +158,3 @@ Voici une liste d'exemple de nom de ressource de cloud.
 | Instance de service | `crn:v1:bluemix:public:cloud-object-storage:global:a/59bcbfa6ea2f006b4ed7094c1a08dcdd:1a0ec336-f391-4091-a6fb-5e084a4c56f4::` |
 | Compartiment | `crn:v1:bluemix:public:cloud-object-storage:global:a/59bcbfa6ea2f006b4ed7094c1a08dcdd:1a0ec336-f391-4091-a6fb-5e084a4c56f4:bucket:mybucket` |
 {: caption="Tableau 3. Exemples de nom de ressource de cloud" caption-side="top"}
-
-

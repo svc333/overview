@@ -2,7 +2,7 @@
 
 
 copyright:
-  years: 2014, 2017
+  years: 2014, 2018
 lastupdated: "2017-12-06"
 
 ---
@@ -18,16 +18,16 @@ lastupdated: "2017-12-06"
 
 Le tableau suivant répertorie les langues nationales prises en charge et les codes de langue pour {{site.data.keyword.cloud_notm}}.
 
-| Langue nationale| Code de langue|
+| Langue nationale | Code de langue |
 |----------|---------|
-| Code de langue| pt_BR | 
+| Code de langue | pt_BR |
 | Anglais | en |
 | Français | fr |
 | Allemand | de |
 | Japonais | ja |
-| Coréen| ko |
+| Coréen | ko |
 | Italien | it |
 | Espagnol | es |
-| Chinois simplifié | zh_CN | 
+| Chinois simplifié | zh_CN |
 | Chinois traditionnel | zh_TW |
-{: caption="Tableau 1. Langues nationales prises en charge et codes de langue" caption-side="top"} 
+{: caption="Tableau 1. Langues nationales prises en charge et codes de langue" caption-side="top"}

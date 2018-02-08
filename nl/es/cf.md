@@ -2,8 +2,8 @@
 
 
 copyright:
-  years: 2016, 2017
-lastupdated: "2017-12-15"
+  years: 2016, 2018
+lastupdated: "2018-01-16"
 
 ---
 
@@ -29,7 +29,7 @@ Cuando crea una app y la despliega en Cloud Foundry, el entorno de {{site.data.k
 * La carga que ya soporta la máquina
 * Los tiempos de ejecución o infraestructuras que soporta dicho servidor virtual.
 
-Después de seleccionar un servidor virtual, un gestor de apps de cada servidor virtual instala la infraestructura y el tiempo de ejecución adecuados para la app. Luego la app se puede desplegar en esta infraestructura. Cuando se completa el despliegue, se inician los artefactos de la app.
+Después de seleccionar un servidor virtual, un gestor de aplicaciones de cada servidor virtual instala la infraestructura y el tiempo de ejecución apropiados para la app. A continuación, la app se puede desplegar en dicha infraestructura. Cuando se completa el despliegue, se inician los artefactos de la app.
 
 La siguiente figura
 muestra la estructura de un servidor virtual, también conocido como agente de ejecución de gotas (DEA), en el que se han desplegado varias apps:
@@ -54,7 +54,7 @@ Cada app puede tener uno o varios URL asociados, pero todos deben apuntar al pun
 
 En general, no debe preocuparse de las capas de sistema operativo y de infraestructura cuando ejecute apps en {{site.data.keyword.cloud_notm}} en Cloud Foundry. Las capas de tipo sistemas de archivos raíz y componentes de middleware se abstraen para que se pueda centrar en el código de la app. Sin embargo, puede obtener más información sobre estas capas y necesita datos específicos sobre dónde se ejecuta la app.
 
-Consulte [Visualización de las capas de la infraestructura de {{site.data.keyword.cloud_notm}}](/docs/manageapps/infra.html#viewinfra) para obtener detalles.
+Consulte [Visualización de las capas de infraestructura de {{site.data.keyword.cloud_notm}}](cf.html#infralayers) para obtener detalles.
 
 Como desarrollador, puede interactuar con la infraestructura de {{site.data.keyword.cloud_notm}} mediante una interfaz de usuario basada en navegador. También puede utilizar una interfaz de línea de mandatos de Cloud Foundry, denominada cf, para desplegar apps web.
 
@@ -73,10 +73,32 @@ Puede desplegar sus apps en distintas regiones de {{site.data.keyword.cloud_notm
 
 Figura 5. Despliegue de apps en varias regiones
 
+Capas de la infraestructura de {{site.data.keyword.Bluemix_notm}}
+{: #infralayers}
+
+
+{{site.data.keyword.Bluemix_notm}} abstrae y oculta las capas de sistema operativo y de infraestructura para que el usuario no tenga que gestionarlas. Sin embargo, es posible que en alguna ocasión desee obtener más información sobre el sistema operativo y el middleware de la app.
+{:shortdesc}
+
+### Visualización de las capas de la infraestructura de {{site.data.keyword.Bluemix_notm}}
+{: #viewinfra}
+
+Puede ejecutar el mandato **bluemix app stacks** para mostrar las pilas disponibles o los sistemas de archivo raíz en los que están desplegadas las apps. También puede especificar la pila cuando utilice el mandato **bluemix app push** con la opción *-s* y el *nombre_pila*, donde el nombre_pila es el sistema de archivos raíz, como `lucid64` o `cflinuxfs2`:
+
+```
+bluemix app push appName -s stack_name
+```
+
+Puede utilizar el mandato `cf buildpacks` para mostrar los componentes de middleware, como Perfil de WebSphere Liberty y SDK para Node.js, disponibles como tiempos de ejecución en los que se puede ejecutar la app. También puede especificar el entorno de tiempo de ejecución de la app con el siguiente mandato:
+
+```
+bluemix app push appName -b buildpackname
+```
+
 ## Regiones
 {: #ov_intro_reg}
 
-Una región de {{site.data.keyword.cloud_notm}} es un territorio geográfico definido en el que puede desplegar sus apps. Puede crear apps e instancias de servicios en distintas regiones con la misma infraestructura de {{site.data.keyword.cloud_notm}} para la gestión de apps y la misma vista de detalles de uso para la facturación. Tiene la posibilidad de desplegar sus apps en la región más cercana a sus clientes para conseguir una latencia de aplicación baja. Para solventar problemas de seguridad, también puede seleccionar la región en la que desea conservar los datos de app. Cuando crea apps en varias regiones, si una región queda fuera de servicio, las apps que están en las otras regiones seguirán funcionando. Su concesión de recursos es la misma para cada región que utilice.
+Una región de Servicio de {{site.data.keyword.cloud_notm}} Foundry es un territorio geográfico definido en el que puede desplegar sus apps. Puede crear apps e instancias de servicios en distintas regiones con la misma infraestructura de {{site.data.keyword.cloud_notm}} para la gestión de apps y la misma vista de detalles de uso para la facturación. Tiene la posibilidad de desplegar sus apps en la región más cercana a sus clientes para conseguir una latencia de aplicación baja. Para solventar problemas de seguridad, también puede seleccionar la región en la que desea conservar los datos de app. Cuando crea apps en varias regiones, si una región queda fuera de servicio, las apps que están en las otras regiones seguirán funcionando. Su concesión de recursos es la misma para cada región que utilice.
 
 Si utiliza la consola de {{site.data.keyword.cloud_notm}}, automáticamente se muestra la información de la región geográfica en buen estado más cercana. El equilibrio de carga global de la consola permite asegurar que si por alguna razón la región geográfica más próxima no está disponible, la consola visualizará la información de la siguiente región más próxima. De esta forma, siempre tendrá acceso a la consola sin necesidad de acción alguna para acceder a la información que necesita.
 
@@ -116,7 +138,7 @@ y una recuperación rápida de problemas. {{site.data.keyword.cloud_notm}} separ
 de los que no (sin estado). Esta separación permite que {{site.data.keyword.cloud_notm}} pueda
 trasladar apps de forma flexible según convenga para lograr escalabilidad y resiliencia.
 
-Puede tener una o varias instancias en ejecución para la app. Para varias instancias de una única app, la app sólo se cargará una vez. Sin embargo, {{site.data.keyword.cloud_notm}} despliega
+Puede tener una o varias instancias en ejecución para la app. Para varias instancias de una única app, la app solo se carga una vez. Sin embargo, {{site.data.keyword.cloud_notm}} despliega
 el número de instancias de la app solicitada y las distribuye
 a través del mayor número posible de servidores virtuales.
 

@@ -2,8 +2,8 @@
 
 
 copyright:
-  years: 2016, 2017
-lastupdated: "2017-12-15"
+  years: 2016, 2018
+lastupdated: "2018-01-16"
 
 ---
 
@@ -60,7 +60,7 @@ Middlewarekomponenten sind so abstrahiert, dass Sie sich auf Ihren Anwendungscod
 konzentrieren können. Es gibt jedoch noch weitere Informationen zu diesen Ebenen, wenn Sie
 spezielle Angaben dazu benötigen, wo Ihre App ausgeführt wird.
 
-Details finden Sie im Abschnitt zum [Anzeigen von {{site.data.keyword.cloud_notm}}-Infrastrukturebenen](/docs/manageapps/infra.html#viewinfra).
+Details finden Sie im Abschnitt zum [Anzeigen von {{site.data.keyword.cloud_notm}}-Infrastrukturebenen](cf.html#infralayers).
 
 Als Entwickler haben Sie die Möglichkeit, über eine browserbasierte Benutzerschnittstelle mit der
 {{site.data.keyword.cloud_notm}}-Infrastruktur zu interagieren. Zum
@@ -87,13 +87,33 @@ kann entweder in einer Region oder in mehreren Regionen stattfinden.
 
 Abbildung 5. Anwendungsbereitstellung in mehreren Regionen
 
+{{site.data.keyword.Bluemix_notm}}-Infrastrukturebenen
+{: #infralayers}
+
+
+{{site.data.keyword.Bluemix_notm}} abstrahiert und verdeckt Betriebssystem- und Infrastrukturebenen, damit diese von Ihnen nicht verwaltet werden müssen. Manchmal kann es jedoch wünschenswert sein, mehr über das Betriebssystem und die Middleware für Ihre App zu wissen.
+{:shortdesc}
+
+### {{site.data.keyword.Bluemix_notm}}-Infrastrukturebenen anzeigen
+{: #viewinfra}
+
+Sie können den Befehl **bluemix app stacks** ausführen, um die verfügbaren Stacks bzw. Rootdateisysteme anzuzeigen, auf denen Ihre Apps bereitgestellt werden sollen. Sie können bei der Verwendung des Befehls **bluemix app push** mit der Option *-s* und dem Stacknamen in *stack_name* auch den Stack angeben; dabei ist der 'stack_name' das Stammdateisystem, zum Beispiel `lucid64` oder `cflinuxfs2`:
+
+```
+bluemix app push appName -s stack_name
+```
+
+Mithilfe des Befehls `cf buildpacks` können Sie die Middlewarekomponenten anzeigen, z. B. WebSphere Liberty Profile und SDK for Node.js; diese sind als Laufzeiten für die Ausführung Ihrer App verfügbar. Des Weiteren können Sie mithilfe des folgenden Befehls
+die Laufzeitumgebung für Ihre App angeben:
+
+```
+bluemix app push appName -b buildpackname
+```
+
 ## Regionen
 {: #ov_intro_reg}
 
-Eine {{site.data.keyword.cloud_notm}}-Region ist ein definiertes geografisches Gebiet, in dem Sie Ihre Apps bereitstellen können. Sie können Apps und
-Serviceinstanzen in unterschiedlichen Regionen mit
-derselben {{site.data.keyword.cloud_notm}}-Infrastruktur
-für das Anwendungsmanagement und dieselbe Ansicht mit den Nutzungsdetails zur Gebührenabrechnung erstellen. Sie können Ihre Apps in der Region bereitstellen, die Ihren Kunden am nächsten ist, um eine geringe Latenzzeit zu erreichen. Zum Beheben von Sicherheitsproblemen können Sie auch die Region auswählen, in der die Anwendungsdaten aufbewahrt werden sollen. Wenn Sie Apps in mehreren Regionen erstellen, werden die Apps in den anderen Regionen weiter ausgeführt, falls eine Region nicht mehr verfügbar ist. Die verfügbaren Ressourcen
+Eine {{site.data.keyword.cloud_notm}} Foundry Service-Region ist ein definiertes geografisches Gebiet, in dem Sie Ihre Apps bereitstellen können. Sie können Apps und Serviceinstanzen in unterschiedlichen Regionen mit derselben {{site.data.keyword.cloud_notm}}-Infrastruktur für das Anwendungsmanagement und dieselbe Ansicht mit den Nutzungsdetails zur Gebührenabrechnung erstellen. Sie können Ihre Apps in der Region bereitstellen, die Ihren Kunden am nächsten ist, um eine geringe Latenzzeit zu erreichen. Zum Beheben von Sicherheitsproblemen können Sie auch die Region auswählen, in der die Anwendungsdaten aufbewahrt werden sollen. Wenn Sie Apps in mehreren Regionen erstellen, werden die Apps in den anderen Regionen weiter ausgeführt, falls eine Region nicht mehr verfügbar ist. Die verfügbaren Ressourcen
 sind für jede verwendete Region gleich.
 
 Wenn Sie die {{site.data.keyword.cloud_notm}}-Konsole verwenden, werden Ihnen automatisch die Informationen für die am nächsten gelegene geografische Region angezeigt, die sich in einwandfreiem Zustand befindet. Der globale Lastausgleich für die Konsole stellt sicher, dass in dem Fall, dass Ihre nächste geografische Region aus irgendeinem Grund inaktiv ist, Ihre Konsole die Informationen für die nächstgelegene Region anzeigt. Auf diese Weise haben Sie immer Zugriff auf die Konsole, ohne Maßnahmen ergreifen zu müssen, um auf die benötigten Informationen zugreifen zu können.

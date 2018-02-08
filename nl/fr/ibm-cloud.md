@@ -2,7 +2,7 @@
 
 
 copyright:
-  years: 2016, 2017
+  years: 2016, 2018
 lastupdated: "2017-11-09"
 
 ---
@@ -20,13 +20,13 @@ lastupdated: "2017-11-09"
 
 Avec {{site.data.keyword.cloud_notm}}, il n'est plus nécessaire d'effectuer des investissements importants en termes de matériel pour tester ou exécuter une nouvelle application. A la place, nous gérons tout pour vous et ne vous facturons que ce que vous utilisez. {{site.data.keyword.cloud_notm}} met à disposition des modèles de déploiement intégrés publics, [dédiés](/docs/dedicated/index.html) et [locaux](/docs/local/index.html).
 
-Vous pouvez mener une idée de la création au bac à sable de développement, dans un environnement de production distribué globalement avec une infrastructure de traitement et de stockage, des services de plateforme open source et des conteneurs, ainsi que des services logiciels et des outils mis à disposition par {{site.data.keyword.IBM_notm}}, Watson, etc. Au-delà des capacités de la plateforme elle-même, {{site.data.keyword.cloud}} permet un déploiement souple. Mettez à disposition des ressources {{site.data.keyword.cloud}} sur site, dans des environnements de cloud privés dédiés, ou dans le cloud public, et gérez les ressources des trois types d'environnement dans un tableau de bord unique.
+Vous pouvez mener une idée de la création au bac à sable de développement, dans un environnement de production distribué globalement avec une infrastructure de calcul et de stockage, des services de plateforme open source et des conteneurs, ainsi que des services logiciels et des outils mis à disposition par {{site.data.keyword.IBM_notm}}, Watson, etc. Au-delà des capacités de la plateforme elle-même, {{site.data.keyword.cloud}} permet un déploiement souple. Mettez à disposition des ressources {{site.data.keyword.cloud}} sur site, dans des environnements de cloud privés dédiés, ou dans le cloud public, et gérez les ressources des trois types d'environnement dans un tableau de bord unique.
 
 Toutes les ressources de cloud {{site.data.keyword.IBM_notm}} qui sont déployées dans des environnements publics et dédiés sont hébergées à l'emplacement de votre choix parmi divers emplacements {{site.data.keyword.CloudDataCent}} dans le monde. Les {{site.data.keyword.CloudDataCents_notm}} permettent une redondance régionale, un réseau central global qui se connecte à tous les centres de données et points de présence, ainsi que des contrôles de sécurité stricts et la génération de rapports. Par le biais de {{site.data.keyword.CloudDataCents_notm}}, {{site.data.keyword.IBM_notm}} peut répondre à vos besoins les plus exigeants en matière d'expansion, de sécurité, de conformité et d'hébergement de données.
 
 {{site.data.keyword.IBM_notm}} vous permet :
 
-* De déployer une infrastructure de traitement et de stockage dont les performances sont élevées dans des {{site.data.keyword.CloudDataCents_notm}} sécurisés au niveau mondial.
+* De déployer une infrastructure de calcul et de stockage dont les performances sont élevées dans des {{site.data.keyword.CloudDataCents_notm}} sécurisés au niveau mondial.
 * De tester et d'adopter un large éventail de services de cloud et de capacités proposés par {{site.data.keyword.IBM_notm}}, des communautés open source et des développeurs tiers.
 * De vous connecter à vos systèmes et applications existants depuis une plateforme cloud unique et évolutive via un réseau privé et des capacités d'API.
 * D'utiliser ou non des ressources en temps réel en fonction de l'évolution de vos besoins métier ou des demandes imposées par la charge de travail.

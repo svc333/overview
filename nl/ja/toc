@@ -15,7 +15,7 @@ IBM Cloud とは
     ui.md
     security.md
     cf.md
-    ../whatsnew/
+    whats-new/index.md
 
     {: .topicgroup}
     関連リンク
@@ -27,5 +27,5 @@ IBM Cloud とは
     crn.md
     glossary/index.md
     nls.md
-    ../navigation/
+    terms-of-use/notices.md
     {: .navgroup-end}

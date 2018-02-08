@@ -2,7 +2,7 @@
 
 copyright:
 
-  years: 2017
+  years: 2017, 2018
 
 lastupdated: "2017-12-15"
 
@@ -141,7 +141,7 @@ Como um exemplo, uma ferramenta DevOps para rastrear e planejar itens de trabalh
 
 O valor dos segmentos `resource-type` e `resource` variam por serviço. Um serviço é necessário para documentar seus `resource types` suportados e o formato do `resource` como parte de seus metadados de serviço.
 
-Como um exemplo, uma imagem no contêiner de recibos do cliente em um serviço de Armazenamento de objeto pode ter um `resource-type` de `object` e um `resource_ value` de `CustomerReceipts/clientdinner.png`. 
+Como um exemplo, uma imagem no contêiner de recibos do cliente em um serviço de Armazenamento de objeto pode ter um `resource-type` de `object` e um `resource_ value` de `CustomerReceipts/clientdinner.png`.
 
 O `resource-type` deve ser alfanumérico, em minúsculas, sem espaços ou caracteres especiais diferentes de '-'. Um serviço pode decidir que o `resource-type` é opcional, em cujo caso ele seria deixado em branco.
 
@@ -158,5 +158,3 @@ A seguir está uma lista de exemplos de CRN.
 | Instância de Serviço | `crn:v1:bluemix:public:cloud-object-storage:global:a/59bcbfa6ea2f006b4ed7094c1a08dcdd:1a0ec336-f391-4091-a6fb-5e084a4c56f4::` |
 | Depósito | `crn:v1:bluemix:public:cloud-object-storage:global:a/59bcbfa6ea2f006b4ed7094c1a08dcdd:1a0ec336-f391-4091-a6fb-5e084a4c56f4:bucket:mybucket` |
 {: caption="Tabela 3. Exemplos de CRN" caption-side="top"}
-
-

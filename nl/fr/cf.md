@@ -2,8 +2,8 @@
 
 
 copyright:
-  years: 2016, 2017
-lastupdated: "2017-12-15"
+  years: 2016, 2018
+lastupdated: "2018-01-16"
 
 ---
 
@@ -29,7 +29,7 @@ Lorsque vous créez une application et la déployez dans Cloud Foundry, l'enviro
 * La charge actuelle de la machine
 * Les environnements d'exécution ou les infrastructures pris en charge par le serveur virtuel
 
-Une fois le serveur virtuel choisi, un gestionnaire d'application sur chaque serveur virtuel installe l'infrastructure appropriée et l'environnement d'exécution requis pour l'application. Celle-ci peut alors être déployée dans cette infrastructure. Ensuite, les artefacts d'application sont démarrés.
+Une fois le serveur virtuel choisi, un gestionnaire d'application sur chaque serveur virtuel installe l'infrastructure et l'environnement d'exécution appropriés pour l'application. Celle-ci peut alors être déployée dans cette infrastructure. Ensuite, les artefacts d'application sont démarrés.
 
 La figure suivante présente la structure d'un serveur virtuel, aussi appelé agent DEA (Droplet Execution Agent), sur lequel plusieurs applications sont déployées :
 
@@ -53,7 +53,7 @@ Chaque application peut être associée à une ou plusieurs adresses URL, mais e
 
 En général, il est inutile de se préoccuper des couches du système d'exploitation et de l'infrastructure lorsque vous exécutez des applications dans {{site.data.keyword.cloud_notm}}, dans Cloud Foundry. Les couches, telles que les systèmes de fichiers racine et les composants de middleware, sont masquées pour que vous puissiez vous concentrer sur le code de votre application. Cependant, vous pouvez obtenir plus de détails sur ces couches si vous avez besoin d'informations spécifiques sur l'emplacement d'exécution de votre application.
 
-Pour plus d'informations, voir [Affichage des couches de l'infrastructure {{site.data.keyword.cloud_notm}}](/docs/manageapps/infra.html#viewinfra).
+Pour plus d'informations, voir [Affichage des couches de l'infrastructure {{site.data.keyword.cloud_notm}}](cf.html#infralayers).
 
 En tant que développeur, vous pouvez interagir avec l'infrastructure {{site.data.keyword.cloud_notm}} via une interface utilisateur basée sur un navigateur. Vous pouvez également utiliser une interface de ligne de commande Cloud Foundry, appelée cf, pour déployer des applications Web.
 
@@ -72,10 +72,35 @@ Vous pouvez déployer vos applications dans différentes régions {{site.data.ke
 
 Figure 5. Déploiement d'applications dans plusieurs régions
 
+Couches de l'infrastructure {{site.data.keyword.Bluemix_notm}}
+{: #infralayers}
+
+
+{{site.data.keyword.Bluemix_notm}} fait abstraction des couches du système d'exploitation et de
+l'infrastructure et les masque pour que vous n'ayez pas à les gérer. Toutefois, il se peut que vous souhaitiez en savoir plus sur le système d'exploitation et le
+middleware utilisés pour votre application.
+{:shortdesc}
+
+### Affichage des couches de l'infrastructure {{site.data.keyword.Bluemix_notm}}
+{: #viewinfra}
+
+Vous pouvez exécuter la commande **bluemix app stacks** pour afficher les piles, ou systèmes de fichiers racine, disponibles dans lesquelles vos applications seront déployées. Vous pouvez aussi spécifier la pile lorsque vous utilisez la commande **bluemix app push** avec l'option *-s* et l'argument *stack_name*, où stack_name est le système de fichiers racine, par exemple `lucid64` ou `cflinuxfs2` :
+
+```
+bluemix app push appName -s stack_name
+```
+
+Vous pouvez utiliser la commande `cf buildpacks` pour afficher les composants de middleware, par exemple le profil WebSphere Liberty et SDK for Node.js, qui sont disponibles en tant que contextes d'exécution dans lesquels votre application peut s'exécuter. De plus, vous pouvez spécifier l'environnement d'exécution pour votre application avec la commande
+suivante :
+
+```
+bluemix app push appName -b buildpackname
+```
+
 ## Régions
 {: #ov_intro_reg}
 
-Une région {{site.data.keyword.cloud_notm}} est un territoire géographique défini sur lequel vous pouvez déployer vos applications. Vous pouvez créer des instances d'application et de service dans différentes régions avec la même infrastructure {{site.data.keyword.cloud_notm}} pour la gestion des applications et la même vue de détails de l'utilisation pour la facturation. Vous pouvez déployer vos applications dans la région la plus proche de vos clients pour réduire les temps d'attente de votre application. Pour répondre aux considérations de sécurité, vous pouvez également sélectionner la région dans laquelle conserver vos données d'application. Lorsque vous construisez des applications dans plusieurs régions et que l'une des régions devient indisponible, les applications des autres régions continuent de fonctionner. La franchise de ressources est la même dans toutes les régions que vous utilisez.
+Une région de service {{site.data.keyword.cloud_notm}} Foundry est un territoire géographique défini sur lequel vous pouvez déployer vos applications. Vous pouvez créer des instances d'application et de service dans différentes régions avec la même infrastructure {{site.data.keyword.cloud_notm}} pour la gestion des applications et la même vue de détails de l'utilisation pour la facturation. Vous pouvez déployer vos applications dans la région la plus proche de vos clients pour réduire les temps d'attente de votre application. Pour répondre aux considérations de sécurité, vous pouvez également sélectionner la région dans laquelle conserver vos données d'application. Lorsque vous construisez des applications dans plusieurs régions et que l'une des régions devient indisponible, les applications des autres régions continuent de fonctionner. La franchise de ressources est la même dans toutes les régions que vous utilisez.
 
 Si vous utilisez la console {{site.data.keyword.cloud_notm}}, les informations sur la plus proche région géographique viable sont automatiquement affichées. L'équilibrage de charge global pour la console garantit que, si pour une raison quelconque, la région géographique la plus proche est indisponible, votre console affichera les informations de la suivante. De la sorte, vous avez toujours accès à la console sans avoir à effectuer une action quelconque pour obtenir les informations dont vous avez besoin.
 

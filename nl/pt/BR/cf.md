@@ -2,8 +2,8 @@
 
 
 copyright:
-  years: 2016, 2017
-lastupdated: "2017-12-15"
+  years: 2016, 2018
+lastupdated: "2018-01-16"
 
 ---
 
@@ -48,7 +48,7 @@ Quando o app for implementado, se ele tiver uma interface da web
 (como um app da web Java) ou outros serviços baseados em REST (como
 serviços móveis expostos publicamente para o app móvel), os usuários do app poderão se comunicar com ele usando solicitações normais de HTTP.
 
-![Invoking an {{site.data.keyword.cloud_notm}} app](images/execute.png)
+![Chamando um aplicativo {{site.data.keyword.cloud_notm}}](images/execute.png)
 
 Figura 3. Chamando um app {{site.data.keyword.cloud_notm}}
 
@@ -63,18 +63,18 @@ como sistemas de arquivos raiz e componentes de middleware são abstraídas para
 código do aplicativo. No entanto, é possível saber mais sobre estas camadas se precisar de informações específicas sobre onde seu
 app está sendo executado.
 
-Veja [Visualizando camadas de infraestrutura do {{site.data.keyword.cloud_notm}}](/docs/manageapps/infra.html#viewinfra) para obter detalhes.
+Consulte [Visualizando camadas de infraestrutura do {{site.data.keyword.cloud_notm}}](cf.html#infralayers) para obter detalhes.
 
 Como desenvolvedor, é possível interagir com a infraestrutura do {{site.data.keyword.cloud_notm}},
 usando uma interface com o usuário baseada no navegador. Também é possível usar uma interface de linha de comandos Cloud Foundry, chamada cf, para implementar apps da web.
 
 Os clientes, que podem ser apps móveis, apps executados externamente, apps que são construídos no {{site.data.keyword.cloud_notm}} ou desenvolvedores que
-estão usando navegadores, interagem com os aplicativos hospedados no {{site.data.keyword.cloud_notm}}. Os clientes usam APIs REST ou HTTP para rotear solicitações por meio do {{site.data.keyword.cloud_notm}} para
+estão usando navegadores, interagem com os aplicativos hospedados no {{site.data.keyword.cloud_notm}}. Os clientes usam APIs de REST ou HTTP para rotear solicitações por meio do {{site.data.keyword.cloud_notm}} para
 uma das instâncias do app ou para os serviços compostos.
 
 A figura a seguir mostra a arquitetura de alto nível do Cloud Foundry no {{site.data.keyword.cloud_notm}}.
 
-![{{site.data.keyword.cloud_notm}} architecture](images/arch.png)
+![Arquitetura do {{site.data.keyword.cloud_notm}}](images/arch.png)
 
 Figura 4. Arquitetura Cloud Foundry no {{site.data.keyword.cloud_notm}}
 
@@ -85,10 +85,34 @@ Figura 4. Arquitetura Cloud Foundry no {{site.data.keyword.cloud_notm}}
 
 Figura 5. Implementação do aplicativo multiregion
 
+Camadas de infraestrutura do {{site.data.keyword.Bluemix_notm}}
+{: #infralayers}
+
+
+O {{site.data.keyword.Bluemix_notm}} abstrai e oculta
+camadas do sistema operacional e da infraestrutura, para que você não precise gerenciá-las. No entanto, às vezes
+você pode desejar saber mais sobre o sistema operacional e o middleware para seu app.
+{:shortdesc}
+
+### Visualizando camadas de infraestrutura do {{site.data.keyword.Bluemix_notm}}
+{: #viewinfra}
+
+É possível executar o comando **bluemix app stacks** para mostrar as pilhas disponíveis ou os sistemas de arquivos raiz nos quais seus apps devem ser implementados. Também é possível especificar a pilha ao usar o comando **bluemix app push** com a opção *-s* e o *stack_name*, em que o stack_name é o sistema de arquivos raiz, como `lucid64` ou `cflinuxfs2`:
+
+```
+bluemix app push appName -s stack_name
+```
+
+É possível usar o comando `cf buildpacks` para mostrar os componentes de middleware, como o perfil WebSphere Liberty e o SDK para Node.js, que estão disponíveis como tempos de execução para seu app ser executado. E você pode especificar o ambiente de tempo de execução para seu app usando o comando a seguir:
+
+```
+bluemix app push appName -b buildpackname
+```
+
 ## Regiões
 {: #ov_intro_reg}
 
-Uma região do {{site.data.keyword.cloud_notm}} é um território geográfico definido no qual é possível implementar seus apps. Você pode criar apps e instâncias de serviço em diferentes
+Uma região do {{site.data.keyword.cloud_notm}} Foundry Service é um território geográfico definido no qual é possível implementar seus aplicativos. Você pode criar apps e instâncias de serviço em diferentes
 regiões com a mesma infraestrutura do
 {{site.data.keyword.cloud_notm}} para gerenciamento de
 aplicativos e a mesma visualização de detalhes de uso para faturamento. É possível implementar seus apps para a região que está mais próxima de seus clientes para obter baixa latência do aplicativo. Para direcionar problemas de segurança, também é possível selecionar a região na qual você deseja manter os dados do aplicativo. Ao construir apps em diversas regiões, se uma região se tornar indisponível, os apps que estão nas outras regiões continuarão executando. A concessão de seu recurso é a mesma para cada região que você usa.

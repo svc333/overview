@@ -2,8 +2,8 @@
 
 
 copyright:
-  years: 2016, 2017
-lastupdated: "2017-12-15"
+  years: 2016, 2018
+lastupdated: "2018-01-16"
 
 ---
 
@@ -53,7 +53,7 @@ lastupdated: "2017-12-15"
 
 一般に、Cloud Foundry で {{site.data.keyword.cloud_notm}} 上のアプリを実行する際にオペレーティング・システムやインフラストラクチャー層について気にする必要はありません。 ルート・ファイル・システムやミドルウェア・コンポーネントなどの層は抽象化されているため、ユーザーはアプリケーション・コードに集中できます。 ただし、アプリケーションがどこで実行されているか詳細を知る必要がある場合は、これらの層について詳しく学ぶことができます。
 
-詳しくは、[{{site.data.keyword.cloud_notm}} インフラストラクチャー・レイヤーの表示](/docs/manageapps/infra.html#viewinfra)を参照してください。
+詳しくは、[{{site.data.keyword.cloud_notm}} インフラストラクチャー・レイヤーの表示](cf.html#infralayers)を参照してください。
 
 開発者は、ブラウザー・ベースのユーザー・インターフェースを使用して {{site.data.keyword.cloud_notm}} のインフラストラクチャーと対話することができます。 また、cf という、Cloud Foundry コマンド・ライン・インターフェースを使用して、Web アプリをデプロイすることもできます。
 
@@ -72,10 +72,32 @@ lastupdated: "2017-12-15"
 
 図 5. 複数地域のアプリケーション・デプロイメント
 
+{{site.data.keyword.Bluemix_notm}} インフラストラクチャー・レイヤー
+{: #infralayers}
+
+
+{{site.data.keyword.Bluemix_notm}} は、オペレーティング・システムおよびインフラストラクチャーのレイヤーを管理する必要がなくなるように、それらを要約するか非表示にします。 ただし、オペレーティング・システムやアプリのミドルウェアについて詳細に知る必要がある状況が発生する場合もあります。
+{:shortdesc}
+
+### {{site.data.keyword.Bluemix_notm}} インフラストラクチャー・レイヤーの表示
+{: #viewinfra}
+
+**bluemix app stacks** コマンドを実行して、アプリがデプロイされる先の使用可能なスタック (つまり、ルート・ファイル・システム) を表示することができます。 また、*-s* オプションと *stack_name* を指定して **bluemix app push** コマンドを使用する場合もスタックを指定できます。ここで、stack_name は、`lucid64` や `cflinuxfs2` などのルート・ファイル・システムです。
+
+```
+bluemix app push appName -s stack_name
+```
+
+`cf buildpacks` コマンドを使用して、WebSphere Liberty profile や SDK for Node.js など、アプリを実行するランタイムとして使用可能なミドルウェア・コンポーネントを表示できます。 また、次のコマンドを使用して、アプリのランタイム環境を指定できます。
+
+```
+bluemix app push appName -b buildpackname
+```
+
 ## 地域
 {: #ov_intro_reg}
 
-{{site.data.keyword.cloud_notm}} の地域は、アプリをデプロイ可能な定義済みの地理上の区域です。 異なる地域で、
+{{site.data.keyword.cloud_notm}} Foundry サービスの地域は、アプリをデプロイ可能な定義済みの地理上の区域です。異なる地域で、
 アプリケーション管理に同じ {{site.data.keyword.cloud_notm}} インフラストラクチャー、
 課金に同じ使用量詳細ビューを使用して、アプリおよびサービス・インスタンスを作成できます。 顧客に最も近い地域にアプリをデプロイすることで、アプリケーションの待ち時間を短くすることができます。 また、セキュリティー問題に対応するために、アプリケーション・データを保存しておく地域を選択することもできます。 複数地域でアプリを構築すると、1 つの地域が使用不可になっても、別の地域にあるアプリが稼働し続けます。 使用する各地域で、リソースの割当量は同じです。
 
@@ -139,7 +161,7 @@ SoRを {{site.data.keyword.cloud_notm}} で作成するアプリと統合する�
 
 <dl>
 <dt>Cloud Integration API</dt>
-    <dd>Cloud Integration API により、Web API を通してファイアウォールの後ろにある SoR への保護されたアクセスが提供されます。 Cloud Integration API を作成する際には、Web API を通してアクセスしたいリソースを選択し、許可されたオペレーションを指定し、API にアクセスするための SDK とサンプルを組み込みます。 Cloud Integration API の作成方法について詳しくは、『[Cloud Integration 入門](/docs/services/CloudIntegration/CldInt_GetStart.html)』を参照してください。</dd>
+    <dd>Cloud Integration API により、Web API を通してファイアウォールの後ろにある SoR への保護されたアクセスが提供されます。 Cloud Integration API を作成する際には、Web API を通してアクセスしたいリソースを選択し、許可されたオペレーションを指定し、API にアクセスするための SDK とサンプルを組み込みます。 Cloud Integration API の作成方法について詳しくは、『[Cloud Integration の概説](/docs/services/CloudIntegration/CldInt_GetStart.html)』を参照してください。</dd>
 <dt>プライベート・サービス</dt>
     <dd>プライベート・サービスは、 Cloud Integration API、SDK、およびライセンス・ポリシーから構成されます。 また、サービス・プロバイダーからのドキュメンテーションや他の項目がプライベート・サービスに含まれる場合もあります。 Cloud Integration API をプライベート・サービスとして公開できるのは、組織管理者のみです。 自分が利用できるプライベート・サービスを表示するには、{{site.data.keyword.cloud_notm}} カタログで「プライベート (Private)」チェック・ボックスを選択します。 Cloud Integration サービスに接続せずに、プライベート・サービスを選択してアプリにバインドすることができます。 プライベート・サービスのアプリへのバインドは、他の {{site.data.keyword.cloud_notm}} サービスの場合と同じ方法で行います。 プライベート・サービスとして API を公開する方法については、プライベート・サービスとしての API の公開を参照してください。</dd>
 </dl>
