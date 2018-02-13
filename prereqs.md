@@ -22,7 +22,8 @@ The prerequisites for using the {{site.data.keyword.Bluemix_notm}} platform are 
 The following list specifies the minimum required browser software for {{site.data.keyword.Bluemix_notm}}:
 
  * Chrome: latest version for your operating system
- * Firefox: latest regular and ESR versions for your operating system
+ * Firefox: latest regular and ESR versions for your operating system, see [Mozilla Firefox
+Extended Support Release](https://www.mozilla.org/firefox/organizations/) for more details
  * Internet Explorer: version 11
  * Safari: latest version for Mac
 
