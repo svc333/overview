@@ -3,7 +3,7 @@
 
 copyright:
   years: 2016, 2018
-lastupdated: "2017-11-09"
+lastupdated: "2018-02-13"
 
 ---
 
@@ -20,7 +20,7 @@ lastupdated: "2017-11-09"
 
 With {{site.data.keyword.cloud_notm}}, you no longer have to make large investments in hardware to test out or run a new app. Instead, we manage it all for you and only charge for what you use. {{site.data.keyword.cloud_notm}} provides public, [dedicated](/docs/dedicated/index.html), and [local](/docs/local/index.html) integrated deployment models.
 
-You can take an idea from inception, to development sandbox, to a globally distributed production environment with compute and storage infrastructure, open source platform services and containers, and software services and tools from {{site.data.keyword.IBM_notm}}, Watson, and more. Beyond the capabilities of the platform itself, {{site.data.keyword.cloud}} also provides flexible deployment. Provision {{site.data.keyword.cloud}} resources on-premises, in dedicated private cloud environments, or in the public cloud, and manage the resources from all three types of environments in a single dashboard.
+You can take an idea from inception, to development sandbox, to a globally distributed production environment with compute and storage infrastructure, open source platform services and containers, and software services and tools from {{site.data.keyword.IBM_notm}}, Watson, and more. Beyond the capabilities of the platform itself, {{site.data.keyword.cloud}} also provides flexible deployment. Provision {{site.data.keyword.cloud}} resources on-premises, in dedicated private cloud environments, or in the public cloud.
 
 All {{site.data.keyword.IBM_notm}} cloud resources that are deployed in public and dedicated environments are hosted from your choice of {{site.data.keyword.CloudDataCent}} locations around the world. {{site.data.keyword.CloudDataCents_notm}} provide regional redundancy, a global network backbone connecting all data centers and points of presence, and stringent security controls and reporting. Through {{site.data.keyword.CloudDataCents_notm}}, {{site.data.keyword.IBM_notm}} can meet your most demanding expansion, security, compliance, and data residency needs.
 
