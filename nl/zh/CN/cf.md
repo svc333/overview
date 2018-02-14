@@ -2,8 +2,8 @@
 
 
 copyright:
-  years: 2016, 2017
-lastupdated: "2017-12-15"
+  years: 2016, 2018
+lastupdated: "2018-01-16"
 
 ---
 
@@ -53,7 +53,7 @@ lastupdated: "2017-12-15"
 
 一般而言，在 {{site.data.keyword.cloud_notm}} Cloud Foundry 中运行应用程序时，您不必担心操作系统和基础架构层。诸如根文件系统和中间件组件这样的层已进行抽象化，以便您可以重点关注自己的应用程序代码。但是，如果需要有关应用程序运行位置的具体信息，可以了解有关这些层的更多信息。
 
-有关详细信息，请参阅[查看 {{site.data.keyword.cloud_notm}} 基础架构层](/docs/manageapps/infra.html#viewinfra)。
+有关详细信息，请参阅[查看 {{site.data.keyword.cloud_notm}} 基础架构层](cf.html#infralayers)。
 
 作为开发者，您可以使用基于浏览器的用户界面与 {{site.data.keyword.cloud_notm}} 基础架构进行交互。还可以使用名为 cf 的 Cloud Foundry 命令行界面来部署 Web 应用程序。
 
@@ -72,10 +72,34 @@ lastupdated: "2017-12-15"
 
 图 5. 多区域应用程序部署
 
+{{site.data.keyword.Bluemix_notm}} 基础架构层
+{: #infralayers}
+
+
+{{site.data.keyword.Bluemix_notm}} 抽象化并隐藏操作系统和基础架构层，这样您就无需对这些内容进行管理。但是，有时您可能希望了解有关应用程序的操作系统和中间件的更多信息。
+{:shortdesc}
+
+### 查看 {{site.data.keyword.Bluemix_notm}} 基础架构层
+{: #viewinfra}
+
+可以运行 **bluemix app stacks** 命令来显示要将应用程序部署到其中的可用堆栈或根文件系统。还可以指定堆栈，方法是在运行 **bluemix app push** 命令时使用 *-s* 选项和 *stack_name*，其中 stack_name 是根文件系统，例如 `lucid64` 或 `cflinuxfs2`：
+
+
+```
+bluemix app push appName -s stack_name
+```
+
+可以使用 `cf buildpacks` 命令来显示作为运行时提供的供应用程序在其中运行的中间件组件，例如 WebSphere Liberty 概要文件和 SDK for Node.js。此外，可以使用以下命令来指定应用程序的运行时环境：
+
+
+```
+bluemix app push appName -b buildpackname
+```
+
 ## 区域
 {: #ov_intro_reg}
 
-{{site.data.keyword.cloud_notm}} 区域是可将应用程序部署到的已定义地理地域。您可以在不同的区域中创建应用程序和服务实例，但前提是这些区域使用相同的 {{site.data.keyword.cloud_notm}} 基础架构来进行应用程序管理，并使用相同的使用情况详细信息视图来进行记帐。您可以将应用程序部署至离客户最近的区域，以缩短应用程序等待时间。要解决安全问题，还可选择希望在其中保留应用程序数据的区域。在多个区域中构建应用程序后，如果一个区域变为不可用，其他区域中的应用程序会继续运行。您的资源限额对于您使用的每个区域都是相同的。
+{{site.data.keyword.cloud_notm}} Foundry 服务区域是可将应用程序部署到的已定义地理地域。您可以在不同的区域中创建应用程序和服务实例，但前提是这些区域使用相同的 {{site.data.keyword.cloud_notm}} 基础架构来进行应用程序管理，并使用相同的使用情况详细信息视图来进行记帐。您可以将应用程序部署至离客户最近的区域，以缩短应用程序等待时间。要解决安全问题，还可选择希望在其中保留应用程序数据的区域。在多个区域中构建应用程序后，如果一个区域变为不可用，其他区域中的应用程序会继续运行。您的资源限额对于您使用的每个区域都是相同的。
 
 如果您使用 {{site.data.keyword.cloud_notm}} 控制台，那么系统会自动向您显示最近运行状况良好的地理区域的信息。控制台的全局负载均衡可确保如果基于某种原因，最近的地理区域关闭，那么您的控制台将显示下一个最近区域的信息。通过此方法，您始终有权访问控制台，而无需采取任何操作，就可访问所需信息。
 
@@ -87,7 +111,7 @@ lastupdated: "2017-12-15"
 
 按区域过滤视图还使得您可以快速切换视图，以使用分配给不同区域的组织、空间和用户。
 
-如果您使用的是 cf 命令行界面，来连接到希望使用的 {{site.data.keyword.cloud_notm}} 区域，请使用 cf api 命令并指定该区域的 API 端点。例如，输入以下命令来连接到 {{site.data.keyword.cloud_notm}} 欧洲英国区域：
+如果您使用 cf 命令行界面连接到希望使用的 {{site.data.keyword.cloud_notm}} 区域，应使用 cf api 命令并指定该区域的 API 端点。例如，输入以下命令来连接到 {{site.data.keyword.cloud_notm}} 欧洲英国区域：
 
 ```
 cf api https://api.eu-gb.bluemix.net

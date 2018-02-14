@@ -2,7 +2,7 @@
 
 
 copyright:
-  years: 2016, 2017
+  years: 2016, 2018
 lastupdated: "2017-01-10"
 
 ---
@@ -19,7 +19,7 @@ lastupdated: "2017-01-10"
 ## 브라우저
 {: #browsers}
 
-다음 목록은 {{site.data.keyword.Bluemix_notm}}에 필요한 최소한의 브라우저 소프트웨어입니다. 
+다음 목록은 {{site.data.keyword.Bluemix_notm}}에 필요한 최소한의 브라우저 소프트웨어입니다.
 
  * Chrome: 운영 체제용 최신 버전
  * Firefox: 운영 체제 및 ESR 45용 최신 버전

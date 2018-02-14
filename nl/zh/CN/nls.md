@@ -2,7 +2,7 @@
 
 
 copyright:
-  years: 2014, 2017
+  years: 2014, 2018
 lastupdated: "2017-12-06"
 
 ---
@@ -20,7 +20,7 @@ lastupdated: "2017-12-06"
 
 | 本地语言| 语言代码|
 |----------|---------|
-| 巴西葡萄牙语| pt_BR| 
+| 巴西葡萄牙语| pt_BR|
 | 英语| en|
 | 法语| fr|
 | 德语| de|
@@ -28,6 +28,6 @@ lastupdated: "2017-12-06"
 | 朝鲜语| ko|
 | 意大利语| it|
 | 西班牙语| es|
-| 简体中文| zh_CN| 
+| 简体中文| zh_CN|
 | 繁体中文| zh_TW|
-{: caption="表 1. 支持的本地语言和语言代码" caption-side="top"} 
+{: caption="表 1. 支持的本地语言和语言代码" caption-side="top"}

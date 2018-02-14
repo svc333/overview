@@ -2,8 +2,8 @@
 
 
 copyright:
-  years: 2016, 2017
-lastupdated: "2017-12-15"
+  years: 2016, 2018
+lastupdated: "2018-01-16"
 
 ---
 
@@ -53,7 +53,7 @@ lastupdated: "2017-12-15"
 
 一般而言，您在 {{site.data.keyword.cloud_notm}} 的 Cloud Foundry 中執行應用程式時，不需要擔心作業系統及基礎架構層。例如根檔案系統及中介軟體元件等層會抽象化，因此您可以專注於應用程式碼。不過，如果您需要應用程式執行位置的明確資訊，可以進一步瞭解這些層。
 
-如需詳細資料，請參閱[檢視 {{site.data.keyword.cloud_notm}} 基礎架構層](/docs/manageapps/infra.html#viewinfra)。
+如需詳細資料，請參閱[檢視 {{site.data.keyword.cloud_notm}} 基礎架構層](cf.html#infralayers)。
 
 身為開發人員，您可以利用以瀏覽器為基礎的使用者介面，來與 {{site.data.keyword.cloud_notm}} 基礎架構互動。您也可以使用 Cloud Foundry 指令行介面（稱為 cf）來部署 Web 應用程式。
 
@@ -72,11 +72,33 @@ lastupdated: "2017-12-15"
 
 圖 5. 多地區應用程式部署
 
+{{site.data.keyword.Bluemix_notm}} 基礎架構層
+{: #infralayers}
+
+
+{{site.data.keyword.Bluemix_notm}} 會抽象化並隱藏作業系統與基礎架構層，因此您不需要管理它們。不過，您有時可能會想要更瞭解適用於您應用程式的作業系統及中介軟體。
+{:shortdesc}
+
+### 檢視 {{site.data.keyword.Bluemix_notm}} 基礎架構層
+{: #viewinfra}
+
+您可以執行 **bluemix app stacks** 指令，顯示要部署應用程式的可用堆疊（或根檔案系統）。您也可以在使用 **bluemix app push** 指令時，以 *-s* 選項和 *stack_name* 指定堆疊，其中 stack_name 是根檔案系統，例如 `lucid64` 或 `cflinuxfs2`：
+
+```
+bluemix app push appName -s stack_name
+```
+
+您可以使用 `cf buildpacks` 指令來顯示中介軟體元件，例如 WebSphere Liberty 設定檔和 SDK for Node.js，這些可用來作為您應用程式執行所在的運行環境。您也可以使用下列指令為您的應用程式指定運行環境：
+
+
+```
+bluemix app push appName -b buildpackname
+```
+
 ## 地區
 {: #ov_intro_reg}
 
-{{site.data.keyword.cloud_notm}} 地區是您可以在其中部署應用程式的已定義地理區。您可以在不同地區建立應用程式及服務實例，使用相同
-{{site.data.keyword.cloud_notm}} 基礎架構以進行應用程式管理，以及使用相同的用量詳細資料視圖來處理計費。您可以將應用程式部署至最接近客戶的地區，以縮短應用程式的延遲時間。若要處理安全問題，您也可以選取您要保留應用程式資料的地區。在多個地區中建置應用程式時，如果某個地區變成無法使用，則位於其他地區中的應用程式會繼續執行。您使用的每個地區的資源額度都相同。
+{{site.data.keyword.cloud_notm}} Foundry Service 地區是您可以在其中部署應用程式的已定義地理區。您可以在不同地區建立應用程式及服務實例，使用相同 {{site.data.keyword.cloud_notm}} 基礎架構以進行應用程式管理，以及使用相同的用量詳細資料視圖來處理計費。您可以將應用程式部署至最接近客戶的地區，以縮短應用程式的延遲時間。若要處理安全問題，您也可以選取您要保留應用程式資料的地區。在多個地區中建置應用程式時，如果某個地區變成無法使用，則位於其他地區中的應用程式會繼續執行。您使用的每個地區的資源額度都相同。
 
 如果您使用 {{site.data.keyword.cloud_notm}} 主控台，會自動顯示最近健全地理區域的資訊。主控台的廣域負載平衡，確保如果因故而關閉最接近的地理區域，則您的主控台將會顯示下一個最接近地區的資訊。透過這種方式，您一律可以存取主控台，而不需要採取任何動作來存取所需的資訊。
 

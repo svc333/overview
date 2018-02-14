@@ -15,7 +15,7 @@ IBM Cloud 개념
     ui.md
     security.md
     cf.md
-    ../whatsnew/
+    whats-new/index.md
 
     {: .topicgroup}
     관련 링크
@@ -27,5 +27,5 @@ IBM Cloud 개념
     crn.md
     glossary/index.md
     nls.md
-    ../navigation/
+    terms-of-use/notices.md
     {: .navgroup-end}

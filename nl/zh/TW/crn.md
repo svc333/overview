@@ -2,7 +2,7 @@
 
 copyright:
 
-  years: 2017
+  years: 2017, 2018
 
 lastupdated: "2017-12-15"
 
@@ -141,7 +141,7 @@ CRN 的基本標準格式為：
 
 `resource-type` 及 `resource` 區段的值會因服務而改變。需要有服務，才能將其支援的 `resource types` 以及 `resource` 的格式記載為其服務 meta 資料的一部分。
 
-例如，Object Storage 服務中客戶收據容器內的映像檔的 `resource-type` 可以是 `object`，而 `resource_value` 可以是 `CustomerReceipts/clientdinner.png`。 
+例如，Object Storage 服務中客戶收據容器內的映像檔的 `resource-type` 可以是 `object`，而 `resource_value` 可以是 `CustomerReceipts/clientdinner.png`。
 
 `resource-type` 必須是英數、小寫、沒有空格，或 '-' 以外的特殊字元。服務可以決定 `resource-type` 是選用的，在此情況下，它會保留空白。
 
@@ -158,5 +158,3 @@ CRN 的基本標準格式為：
 | 服務實例| `crn:v1:bluemix:public:cloud-object-storage:global:a/59bcbfa6ea2f006b4ed7094c1a08dcdd:1a0ec336-f391-4091-a6fb-5e084a4c56f4::` |
 | 儲存區| `crn:v1:bluemix:public:cloud-object-storage:global:a/59bcbfa6ea2f006b4ed7094c1a08dcdd:1a0ec336-f391-4091-a6fb-5e084a4c56f4:bucket:mybucket` |
 {: caption="表 3. CRN 範例" caption-side="top"}
-
-

@@ -2,7 +2,7 @@
 
 
 copyright:
-  years: 2014, 2017
+  years: 2014, 2018
 lastupdated: "2017-12-06"
 
 ---
@@ -19,7 +19,7 @@ lastupdated: "2017-12-06"
 
 | 國家語言| 語言碼|
 |----------|---------|
-| 巴西葡萄牙文| pt_BR| 
+| 巴西葡萄牙文| pt_BR|
 | 英文| en|
 | 法文| fr|
 | 德文| de|
@@ -27,6 +27,6 @@ lastupdated: "2017-12-06"
 | 韓文| ko|
 | 義大利文| it|
 | 西班牙文| es|
-| 簡體中文| zh_CN| 
+| 簡體中文| zh_CN|
 | 繁體中文| zh_TW|
-{: caption="表 1. 支援的國家語言及語言碼" caption-side="top"} 
+{: caption="表 1. 支援的國家語言及語言碼" caption-side="top"}
