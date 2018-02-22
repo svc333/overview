@@ -22,7 +22,7 @@ lastupdated: "2017-01-10"
 以下のリストに、{{site.data.keyword.Bluemix_notm}} に最小限必要なブラウザー・ソフトウェアを指定します。
 
  * Chrome: ご使用のオペレーティング・システムの最新バージョン
- * Firefox: ご使用のオペレーティング・システムの最新バージョンおよび ESR 45
+ * Firefox: ご使用のオペレーティング・システム用の最新の通常バージョンおよび ESR バージョン。詳しくは、『[Mozilla Firefox Extended Support Release](https://www.mozilla.org/firefox/organizations/)』を参照してください。
  * Internet Explorer: バージョン 11
  * Safari: Mac の最新バージョン
 
