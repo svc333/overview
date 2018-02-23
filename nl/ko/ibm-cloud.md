@@ -3,7 +3,7 @@
 
 copyright:
   years: 2016, 2018
-lastupdated: "2017-11-09"
+lastupdated: "2018-02-13"
 
 ---
 
@@ -20,7 +20,7 @@ lastupdated: "2017-11-09"
 
 {{site.data.keyword.cloud_notm}}를 사용하면 더 이상 하드웨어에 막대한 금액을 투자하여 새로운 앱을 테스트하거나 실행할 필요가 없습니다. 대신에 IBM이 모든 것을 관리하며 실제 사용량에 대해서만 금액을 청구합니다. {{site.data.keyword.cloud_notm}}는 퍼블릭, [데디케이티드](/docs/dedicated/index.html) 및 [로컬](/docs/local/index.html) 통합 배치 모델을 제공합니다.
 
-도입/인식(Inception)에서부터 개발 샌드박스, 글로벌하게 분배된 환경까지 {{site.data.keyword.IBM_notm}}, Watson 등에서 제공하는 컴퓨팅 및 스토리지 인프라, 오픈 소스 플랫폼 및 컨테이너 및 소프트웨어 서비스 및 도구를 사용하여 의견을 제시할 수 있습니다. 플랫폼 자체의 기능을 넘어 {{site.data.keyword.cloud}}는 유연한 배치를 제공합니다. 데디케이티드 프라이빗 클라우드 환경 또는 퍼블릭 클라우드에서 온프레미스 {{site.data.keyword.cloud}} 리소스를 프로비저닝하고 단일 대시보드의 세 가지 환경 모두에서 리소스를 관리하십시오.
+도입/인식(Inception)에서부터 개발 샌드박스, 글로벌하게 분배된 환경까지 {{site.data.keyword.IBM_notm}}, Watson 등에서 제공하는 컴퓨팅 및 스토리지 인프라, 오픈 소스 플랫폼 및 컨테이너 및 소프트웨어 서비스 및 도구를 사용하여 의견을 제시할 수 있습니다. 플랫폼 자체의 기능을 넘어 {{site.data.keyword.cloud}}는 유연한 배치를 제공합니다. 데디케이티드 프라이빗 클라우드 환경 또는 퍼블릭 클라우드에서 {{site.data.keyword.cloud}} 리소스 온프레미스를 프로비저닝합니다. 
 
 퍼블릭 및 데디케이티드 환경에 배치되는 모든 {{site.data.keyword.IBM_notm}} 클라우드 리소스는 사용자가 원하는 전세계의 {{site.data.keyword.CloudDataCent}} 위치에서 호스팅됩니다. {{site.data.keyword.CloudDataCents_notm}}는 지역 중복성, 모든 데이터 센터 및 PoP(Point of Presence)를 연결하는 글로벌 네트워크 백본, 엄격한 보안 제어 및 보고를 제공합니다. {{site.data.keyword.CloudDataCents_notm}}를 통해 {{site.data.keyword.IBM_notm}}은 가장 까다로운 확장, 보안, 규제 준수 및 데이터 주거성(residency) 요구사항을 충족시킬 수 있습니다.
 

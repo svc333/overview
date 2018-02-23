@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2018
-lastupdated: "2017-11-21"
+lastupdated: "2018-01-29"
 
 ---
 
@@ -22,6 +22,6 @@ lastupdated: "2017-11-21"
 
 자세한 정보는 다음 주제를 참조하십시오.
 
-* 계정 관리자는 계정의 모든 사용자를 위한 공용 리소스를 [숨기도록](/docs/admin/exclude.html) 선택할 수 있습니다.
-* 계정 관리자는 포함 목록에 [추가](/docs/admin/include.html)하여 리소스를 볼 수 있는 사용자를 선택할 수 있습니다.
-* 명령 인터페이스를 사용하여 [계정 소유권을 변경](/docs/admin/owners.html)할 수 있습니다.
+* 계정 관리자는 계정의 모든 사용자를 위한 공용 리소스를 [숨기도록](/docs/account/exclude.html) 선택할 수 있습니다.
+* 계정 관리자는 포함 목록에 [추가](/docs/account/include.html)하여 리소스를 볼 수 있는 사용자를 선택할 수 있습니다.
+* 명령행 인터페이스를 사용하여 [계정 소유권을 변경](/docs/account/owners.html)할 수 있습니다.
