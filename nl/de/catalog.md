@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2018
-lastupdated: "2017-11-21"
+lastupdated: "2018-01-29"
 
 ---
 
@@ -22,6 +22,6 @@ Möchten Sie differenzierter steuern, was im Katalog angezeigt wird? Sollen best
 
 Weitere Informationen finden Sie in den folgenden Abschnitten:
 
-* Als Administrator des Kontos können Sie festlegen, dass eine öffentliche Ressource für die Benutzer in Ihrem Konto [ausgeblendet](/docs/admin/exclude.html) wird.
-* Als Administrator des Kontos können Sie die Benutzer auswählen, denen Ihre Ressource angezeigt wird, indem Sie diese Benutzer zu einer Einschlussliste [hinzufügen](/docs/admin/include.html).
-* Über die Befehlszeilenschnittstelle können Sie das [Eigentumsrecht für ein Konto ändern](/docs/admin/owners.html).
+* Als Administrator des Kontos können Sie festlegen, dass eine öffentliche Ressource für die Benutzer in Ihrem Konto [ausgeblendet](/docs/account/exclude.html) wird.
+* Als Administrator des Kontos können Sie die Benutzer auswählen, denen Ihre Ressource angezeigt wird, indem Sie diese Benutzer zu einer Einschlussliste [hinzufügen](/docs/account/include.html).
+* Über die Befehlszeilenschnittstelle können Sie das [Eigentumsrecht für ein Konto ändern](/docs/account/owners.html).

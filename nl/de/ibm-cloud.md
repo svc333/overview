@@ -3,7 +3,7 @@
 
 copyright:
   years: 2016, 2018
-lastupdated: "2017-11-09"
+lastupdated: "2018-02-13"
 
 ---
 
@@ -20,7 +20,7 @@ Die innovative {{site.data.keyword.IBM_notm}} Plattform für Cloud-Computing, di
 
 Mit {{site.data.keyword.cloud_notm}} müssen Sie keine hohen Investitionen mehr in die Hardware tätigen, um eine neue App zu testen oder auszuführen. Stattdessen verwalten wir alles für Sie und berechnen nur das, wovon Sie Gebrauch machen. {{site.data.keyword.cloud_notm}} bietet öffentliche, [dedizierte](/docs/dedicated/index.html) und [lokale](/docs/local/index.html) integrierte Bereitstellungsmodelle.
 
-Sie können eine Idee von der Konzeption über die Sandbox zur Entwicklung bis hin zu einer globalen verteilten Produktionsumgebung führen, die Rechen- und Speicherinfrastruktur, Open-Source-Plattform-Services und -Container sowie Software-Services und Tools von {{site.data.keyword.IBM_notm}}, Watson und anderen bietet. Neben den Funktionen der Plattform selbst bietet {{site.data.keyword.cloud}} auch eine flexible Bereitstellung. Sie können {{site.data.keyword.cloud}}-Ressourcen lokal, in dedizierten privaten Cloud-Umgebungen oder in der öffentlichen Cloud bereitstellen und die Ressourcen aller drei Umgebungstypen über nur ein Dashboard verwalten.
+Sie können eine Idee von der Konzeption über die Sandbox zur Entwicklung bis hin zu einer globalen verteilten Produktionsumgebung führen, die Rechen- und Speicherinfrastruktur, Open-Source-Plattform-Services und -Container sowie Software-Services und Tools von {{site.data.keyword.IBM_notm}}, Watson und anderen bietet. Neben den Funktionen der Plattform selbst bietet {{site.data.keyword.cloud}} auch eine flexible Bereitstellung. Sie können {{site.data.keyword.cloud}}-Ressourcen lokal, in dedizierten privaten Cloud-Umgebungen oder in der öffentlichen Cloud bereitstellen.
 
 Alle {{site.data.keyword.IBM_notm}} Cloudressourcen, die in öffentlichen und dedizierten Umgebungen bereitgestellt werden, werden von {{site.data.keyword.CloudDataCent}}-Standorten Ihrer Wahl in der ganzen Welt gehostet. {{site.data.keyword.CloudDataCents_notm}} bieten regionale Redundanz, eine Zentralverbindung für das globale Netz, die alle Rechenzentren und Bereitstellungspunkte miteinander verbindet, sowie strenge Sicherheitskontrollen und Berichterstellungsfunktionen. Über die {{site.data.keyword.CloudDataCents_notm}} kann {{site.data.keyword.IBM_notm}} Ihren anspruchsvollsten Bedarf hinsichtlich Erweiterungen, Sicherheit, Konformität und Datenspeicherorten erfüllen.
 
