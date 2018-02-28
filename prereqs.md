@@ -25,8 +25,8 @@ The following list specifies the minimum required browser software for {{site.da
  * Firefox: latest regular and ESR versions for your operating system, see [Mozilla Firefox
 Extended Support Release](https://www.mozilla.org/firefox/organizations/) for more details
  * Internet Explorer: version 11
+ * Edge: latest version for Windows
  * Safari: latest version for Mac
- * Edge: Latest for Windows
 
 ## Cloud Foundry
 {: #cf}
