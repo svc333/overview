@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2018
-lastupdated: "2017-11-21"
+lastupdated: "2018-01-29"
 
 ---
 
@@ -22,6 +22,6 @@ Voulez-vous avoir plus de contrôle sur ce qui est affiché dans le catalogue ? 
 
 Pour plus d'informations, reportez-vous aux rubriques suivantes.
 
-* Si vous êtes administrateur d'un compte, vous pouvez choisir de [masquer](/docs/admin/exclude.html) une ressource publique dans votre compte pour tous les utilisateurs de votre compte.
-* Si vous êtes administrateur d'un compte, vous pouvez choisir les personnes qui peuvent voir votre ressource en [ajoutant](/docs/admin/include.html) ces dernières à une liste d'inclusions.
-* Vous pouvez [modifier la propriété d'un compte](/docs/admin/owners.html) avec l'interface de ligne de commande.
+* Si vous êtes administrateur d'un compte, vous pouvez choisir de [masquer](/docs/account/exclude.html) une ressource publique dans votre compte pour tous les utilisateurs de votre compte.
+* Si vous êtes administrateur d'un compte, vous pouvez choisir les personnes qui peuvent voir votre ressource en [ajoutant](/docs/account/include.html) ces dernières à une liste d'inclusions.
+* Vous pouvez [modifier la propriété d'un compte](/docs/account/owners.html) avec l'interface de ligne de commande.

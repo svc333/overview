@@ -23,7 +23,7 @@ tout de même quelques-uns.
 La liste suivante spécifie les versions minimales requises des logiciels de navigateur pour {{site.data.keyword.Bluemix_notm}} :
 
  * Chrome : version la plus récente pour votre système d'exploitation
- * Firefox : version la plus récente pour votre système d'exploitation et ESR 45
+ * Firefox : versions ESR et normales les plus récentes pour votre système d'exploitation ; pour plus de détails, voir [Mozilla Firefox Extended Support Release](https://www.mozilla.org/firefox/organizations/)
  * Internet Explorer : version 11
  * Safari : version la plus récente pour Mac
 
