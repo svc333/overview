@@ -3,7 +3,7 @@
 
 copyright:
   years: 2016, 2018
-lastupdated: "2017-11-09"
+lastupdated: "2018-02-13"
 
 ---
 
@@ -20,7 +20,7 @@ lastupdated: "2017-11-09"
 
 借助 {{site.data.keyword.cloud_notm}}，您不必再对硬件进行大笔投资来测试或运行新应用程序。我们可以代您管理一切，并只按您使用的内容收取费用。{{site.data.keyword.cloud_notm}} 提供了公共、[专用](/docs/dedicated/index.html)和[本地](/docs/local/index.html)集成部署模型。
 
-您可以将一开始的构想变成开发沙箱，再变成具有计算和存储基础架构的全球分布式生产环境、开放式源代码平台服务和容器，以及来自 {{site.data.keyword.IBM_notm}}、Watson 等的软件服务和工具。除了平台自身的能力外，{{site.data.keyword.cloud}} 还可提供灵活的部署。您可在内部部署、专用私有云环境或公共云中供应 {{site.data.keyword.cloud}} 资源，并在单个仪表板中管理所有这三种类型环境中的资源。
+您可以将一开始的构想变成开发沙箱，再变成具有计算和存储基础架构的全球分布式生产环境、开放式源代码平台服务和容器，以及来自 {{site.data.keyword.IBM_notm}}、Watson 等的软件服务和工具。除了平台自身的能力外，{{site.data.keyword.cloud}} 还可提供灵活的部署。您可在内部部署、专用私有云环境或公共云中供应 {{site.data.keyword.cloud}} 资源。
 
 在公共和专用环境中部署的所有 {{site.data.keyword.IBM_notm}} 云资源都在您选择的全球 {{site.data.keyword.CloudDataCent}} 位置进行托管。{{site.data.keyword.CloudDataCents_notm}} 提供了区域冗余性，用于连接所有数据中心和接入点的全球网络主干，以及严格的安全控制和报告功能。通过 {{site.data.keyword.CloudDataCents_notm}}，{{site.data.keyword.IBM_notm}} 可以满足您最高要求的扩展、安全性、合规性和数据存储位置需求。
 

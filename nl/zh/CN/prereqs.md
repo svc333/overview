@@ -22,7 +22,8 @@ lastupdated: "2017-01-10"
 以下列表指定了 {{site.data.keyword.Bluemix_notm}} 的最低必需浏览器软件：
 
  * Chrome：适用于操作系统的最新版本
- * Firefox：适用于操作系统的最新版本和 ESR 45
+ * Firefox：适用于操作系统的最新定期版本和 ESR 版本，请参阅 [Mozilla Firefox
+Extended Support Release](https://www.mozilla.org/firefox/organizations/) 以获取更多详细信息
  * Internet Explorer：V11
  * Safari：适用于 Mac 的最新版本
 

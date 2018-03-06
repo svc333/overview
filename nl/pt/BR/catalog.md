@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2018
-lastupdated: "2017-11-21"
+lastupdated: "2018-01-29"
 
 ---
 
@@ -23,6 +23,6 @@ Deseja mais controle sobre o que é exibido no catálogo? Gostaria de ocultar re
 Para obter mais informações,
 consulte os tópicos a seguir.
 
-* Se você é um administrador para a conta, é possível escolher [ocultar](/docs/admin/exclude.html) um recurso público para todos em sua conta.
-* Se você é um administrador para a conta, é possível escolher quem pode ver o recurso [incluindo-o](/docs/admin/include.html) em uma lista de inclusão.
-* É possível [mudar a propriedade da conta](/docs/admin/owners.html) com a interface da linha de comandos.
+* Se você é um administrador para a conta, é possível escolher [ocultar](/docs/account/exclude.html) um recurso público para todos em sua conta.
+* Se você é um administrador para a conta, é possível escolher quem pode ver o recurso [incluindo-o](/docs/account/include.html) em uma lista de inclusão.
+* É possível [mudar a propriedade da conta](/docs/account/owners.html) com a interface da linha de comandos.

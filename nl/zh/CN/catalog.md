@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2018
-lastupdated: "2017-11-21"
+lastupdated: "2018-01-29"
 
 ---
 
@@ -22,6 +22,6 @@ lastupdated: "2017-11-21"
 
 有关更多信息，请参阅以下主题。
 
-* 如果您是帐户的管理员，那么可以选择对帐户中的所有人[隐藏](/docs/admin/exclude.html)公共资源。
-* 如果您是帐户的管理员，那么可以通过向包含列表[添加](/docs/admin/include.html)资源来选择谁可以查看您的资源。
-* 可以使用命令行界面来[更改帐户所有权](/docs/admin/owners.html)。
+* 如果您是帐户的管理员，那么可以选择对帐户中的所有人[隐藏](/docs/account/exclude.html)公共资源。
+* 如果您是帐户的管理员，那么可以通过向包含列表[添加](/docs/account/include.html)资源来选择谁可以查看您的资源。
+* 可以使用命令行界面来[更改帐户所有权](/docs/account/owners.html)。

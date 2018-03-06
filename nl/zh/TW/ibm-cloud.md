@@ -3,7 +3,7 @@
 
 copyright:
   years: 2016, 2018
-lastupdated: "2017-11-09"
+lastupdated: "2018-02-13"
 
 ---
 
@@ -20,7 +20,7 @@ lastupdated: "2017-11-09"
 
 使用 {{site.data.keyword.cloud_notm}}，就不再需要對測試或執行新應用程式的硬體進行大量投資。相反地，我們會為您進行所有管理，但只向您收取所使用部分的費用。{{site.data.keyword.cloud_notm}} 提供公用、[專用](/docs/dedicated/index.html)及[本端](/docs/local/index.html)整合式部署模型。
 
-您可以從頭開始構想、到開發沙盤推演，再到具有運算及儲存基礎架構、開放程式碼平台服務和容器以及 {{site.data.keyword.IBM_notm}}、Watson 等軟體服務及工具的廣域分散式正式作業環境。除了平台本身的功能之外，{{site.data.keyword.cloud}} 也提供彈性部署。在內部部署、專用的專用雲端環境或公用雲端中佈建 {{site.data.keyword.cloud}} 資源，以及在單一儀表板中管理來自這三種類型環境的資源。
+您可以從頭開始構想、到開發沙盤推演，再到具有運算及儲存基礎架構、開放程式碼平台服務和容器以及 {{site.data.keyword.IBM_notm}}、Watson 等軟體服務及工具的廣域分散式正式作業環境。除了平台本身的功能之外，{{site.data.keyword.cloud}} 也提供彈性部署。在內部部署、專用雲端環境或公用雲端中佈建 {{site.data.keyword.cloud}} 資源。
 
 部署在公用及專用環境中的所有 {{site.data.keyword.IBM_notm}} 雲端資源都是在您選擇的全球 {{site.data.keyword.CloudDataCent}} 位置進行管理。{{site.data.keyword.CloudDataCents_notm}} 提供地理備援（連接所有資料中心與存在點的廣域網路骨幹），以及嚴格安全控制和報告。透過 {{site.data.keyword.CloudDataCents_notm}}，{{site.data.keyword.IBM_notm}} 可以符合您的大部分需求擴充、安全、規範及資料落地 (data residency) 需求。
 
