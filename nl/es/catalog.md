@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2018
-lastupdated: "2017-11-21"
+lastupdated: "2018-01-29"
 
 ---
 
@@ -22,6 +22,6 @@ Para crear recursos del catálogo, consulte [Cómo trabajar en el catálogo](/do
 
 Para obtener más información, consulte los siguientes temas.
 
-* Si es un administrador de la cuenta, puede [ocultar](/docs/admin/exclude.html) un recurso público a todos los usuarios de la cuenta.
-* Si es un administrador de la cuenta, puede decidir quién puede ver su recurso [añadiéndolo](/docs/admin/include.html) a una lista de inclusión.
-* Puede [cambiar la propiedad de la cuenta](/docs/admin/owners.html) con la interfaz de línea de mandatos.
+* Si es un administrador de la cuenta, puede [ocultar](/docs/account/exclude.html) un recurso público a todos los usuarios de la cuenta.
+* Si es un administrador de la cuenta, puede decidir quién puede ver su recurso [añadiéndolo](/docs/account/include.html) a una lista de inclusión.
+* Puede [cambiar la propiedad de la cuenta](/docs/account/owners.html) con la interfaz de línea de mandatos.

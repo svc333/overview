@@ -3,7 +3,7 @@
 
 copyright:
   years: 2016, 2018
-lastupdated: "2017-11-09"
+lastupdated: "2018-02-13"
 
 ---
 
@@ -22,7 +22,7 @@ en una nube sin límites, donde puede conectar sus servicios privados a los serv
 
 Con {{site.data.keyword.cloud_notm}}, ya no tiene que hacer grandes inversiones en hardware para probar o ejecutar una nueva app. En su lugar, se gestiona todo y sólo se le cobrará por lo que utilice. {{site.data.keyword.cloud_notm}} proporciona modelos de despliegue integrados públicos, [dedicados](/docs/dedicated/index.html) y [locales](/docs/local/index.html).
 
-Puede tomar una idea desde el inicio al recinto de seguridad de desarrollo, a un entorno de producción distribuido globalmente con infraestructura de cálculo y de almacenamiento, a servicios y contenedores de plataforma de código abierto, y a servicios y herramientas de software desde {{site.data.keyword.IBM_notm}}, Watson, etc. Más allá de las posibilidades de la plataforma en sí, {{site.data.keyword.cloud}} también proporciona el despliegue flexible. Suministre recursos de {{site.data.keyword.cloud}} locales, en entornos de nubes privadas dedicados, o en la nube pública, y gestione los recursos desde los tres tipos de entornos en un único panel de control.
+Puede tomar una idea desde el inicio al recinto de seguridad de desarrollo, a un entorno de producción distribuido globalmente con infraestructura de cálculo y de almacenamiento, a servicios y contenedores de plataforma de código abierto, y a servicios y herramientas de software desde {{site.data.keyword.IBM_notm}}, Watson, etc. Más allá de las posibilidades de la plataforma en sí, {{site.data.keyword.cloud}} también proporciona el despliegue flexible. Suministre recursos de {{site.data.keyword.cloud}} locales, en entornos de nubes privadas dedicados o en la nube pública.
 
 Todos los recursos de nube de {{site.data.keyword.IBM_notm}} desplegados en entornos públicos y dedicados se alojan desde la elección de ubicaciones de {{site.data.keyword.CloudDataCent}} de todo el mundo. {{site.data.keyword.CloudDataCents_notm}} proporciona redundancia regional, una red principal céntrica global que conecta todos los centros de datos y los puntos de presencia, y los rigurosos controles de seguridad y creación de informes. Mediante {{site.data.keyword.CloudDataCents_notm}}, {{site.data.keyword.IBM_notm}} puede cumplir sus necesidades más exigentes de expansión, seguridad, conformidad y residencia de datos.
 

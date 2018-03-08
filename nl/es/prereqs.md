@@ -22,7 +22,8 @@ Los requisitos previos para utilizar la plataforma de {{site.data.keyword.Bluemi
 La lista siguiente especifica el software de navegador mínimo requerido para {{site.data.keyword.Bluemix_notm}}:
 
  * Chrome: versión más reciente para el sistema operativo
- * Firefox: versión más reciente para su sistema operativo y ESR 45
+ * Firefox: versiones normal y ESR más recientes para el sistema operativo, consulte [Mozilla Firefox
+Extended Support Release](https://www.mozilla.org/firefox/organizations/) para obtener más detalles
  * Internet Explorer: versión 11
  * Safari: versión más reciente para Mac
 
