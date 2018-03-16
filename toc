@@ -15,7 +15,6 @@ What is IBM Cloud
     ui.md
     security.md
     dev-journey.md
-    cf.md
     whats-new/index.md
 
     {: .topicgroup}
