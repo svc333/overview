@@ -33,4 +33,4 @@ If you have Cloud Foundry services in your account, you can assign another user 
 
 Go to **Manage** &gt; **Security** &gt; **Identity and Access**, and then select **Users** to start managing access for users in your account. Select a user from the list to get started. You only see the access management options that you have permission to manage. For example, if you are not the account owner and you are not an organization or space manager, you do not see the option to manage Cloud Foundry access.
 
-Access roles can also be assigned to apps and services by using service IDs. Go to the **Service IDs** page to get started. For more information on how to get up and running quickly with Cloud IAM follow the steps in the [Getting started tutorial](/docs/iam/quickstart.html#iambestpractice).
+Access roles can also be assigned to apps and services by using service IDs. Go to the **Service IDs** page to get started. For more information on how to get up and running quickly with Cloud IAM follow the steps in the [Getting started tutorial](/docs/iam/quickstart.html#getstarted).
