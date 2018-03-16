@@ -70,3 +70,86 @@ The dashboard provides various services to fit your cloud infrastructure needs.
 {{site.data.keyword.cloud_notm}} infrastructure offers powerful bare metal servers and flexible virtual servers in a single seamless platform. All are provided on demand and billed on monthly or hourly terms. Bare metal servers provide the raw horsepower for your processor-intensive and disk I/O-intensive workloads and can be configured to your exact specifications. Virtual servers allow for high speed of deployment, flexible scalability, and pay-as-you-go billing. For high performance computing, give your cloud a boost with graphics processing unit (GPU) servers, available by the hour or monthly.
 
 {{site.data.keyword.cloud_notm}} infrastructure offerings are connected to a three-tiered network, segmenting public, private, and management traffic. Infrastructure on a customer's {{site.data.keyword.cloud_notm}} account might transfer data between such infrastructure across the private network at no cost. Infrastructure offerings, such as bare metal servers, virtual servers, and cloud storage, connect to other applications and services in the {{site.data.keyword.cloud_notm}} catalog, such as Watson services, containers, or runtimes, across the public network. Data transfer between those two types of offerings is metered and charged at standard public network bandwidth rates.
+
+## Regions
+{: #ov_intro_reg}
+
+An {{site.data.keyword.cloud_notm}} region is a defined geographical territory that you can deploy your apps to. You can create apps and service instances in different regions with the same {{site.data.keyword.cloud_notm}} infrastructure for application management and the same usage details view for billing. You can deploy your apps to the region that is nearest to your customers to get low application latency. To address security issues, you can also select the region where you want to keep the application data. When you build apps in multiple regions, if one region becomes unavailable, the apps that are in the other regions continue to run. Your resource allowance is the same for each region that you use.
+
+If you use the {{site.data.keyword.cloud_notm}} console, you are automatically shown the information for the nearest healthy geographical region. Global load balancing for the console ensures that if for some reason the nearest geographical region for you is down, your console will display the information for the next closest region. This way, you always have access to the console without having to take any action to access the information you need.
+
+Use the region selector in the console to filter your view. For example, if you are accessing your apps and services in your Dallas, US region, but you want to view your apps and services for the London region, you can use the region selector to change your view:
+
+1. Click the user account preferences link.
+2. Expand the **Region** menu.
+3. Select the region you require from the list.
+
+Filtering your view per region also enables you to quickly switch views to work with orgs, spaces, and users assigned to the different regions.
+
+You can use the command line interface to connect to the {{site.data.keyword.cloud_notm}} region that you want to work with by using the bx api command and specify the API endpoint of the region. For example, enter the following command to connect to {{site.data.keyword.cloud_notm}} Europe United Kingdom region:
+
+```
+bx api https://api.eu-gb.bluemix.net
+```
+
+A unique prefix is assigned to each region. {{site.data.keyword.cloud_notm}} provides the following regions and region prefixes.
+
+| **Region name** | **Geographic location** | **cf API endpoint** |
+|-----------------|-------------------------|-------------------|
+| US South region | Dallas, US | api.ng.bluemix.net | 
+| US East region | Washington, DC, US | api.us-east.bluemix.net |
+| United Kingdom region | London, England | api.eu-gb.bluemix.net | 
+| Sydney region | Sydney, Australia | api.au-syd.bluemix.net | 
+| Germany region | Frankfurt, Germany | api.eu-de.bluemix.net | 
+{: caption="Table 1. {{site.data.keyword.cloud_notm}} region list" caption-side="top"}
+
+## {{site.data.keyword.cloud_notm}} resilience
+{: #resiliency}
+
+{{site.data.keyword.cloud_notm}} is designed to host scalable resilient apps and application artifacts that can scale to meet your needs, remain highly available, and be quick to recover from problems. {{site.data.keyword.cloud_notm}} separates components that track the state of interactions (stateful) from components that do not (stateless). This separation allows {{site.data.keyword.cloud_notm}} to move apps flexibly as needed to achieve scalability and resilience.
+
+You can have one or more instances running for your app. For multiple instances of a single app, the app is uploaded only once. However, {{site.data.keyword.cloud_notm}} deploys the requested number of instances of the app, and distributes them across as many virtual servers as possible.
+
+You must save all persistent data in a stateful data store that is outside of your app, such as on one of the data store services that {{site.data.keyword.cloud_notm}} provides. Because anything cached in memory or on disk might not be available even after a restart, you can use the memory space or file system of a single {{site.data.keyword.cloud_notm}} instance as a brief single-transaction cache. With a single instance setup, the request to your app might be interrupted because of the stateless nature of {{site.data.keyword.cloud_notm}}. A best practice is to use at least three instances for each app to ensure its availability.
+
+All {{site.data.keyword.cloud_notm}} infrastructure, Cloud Foundry components, and {{site.data.keyword.cloud_notm}}-specific management components are highly available. Multiple instances of the infrastructure are used to balance the load.
+
+## Integration with systems of record
+{: #sor}
+
+{{site.data.keyword.cloud_notm}} can help developers by connecting two broad categories of systems in a cloud environment:
+
+* *Systems of record* include apps and databases that store business records and automate standardized processes.
+* *Systems of engagement* are capabilities that expand the usefulness of systems of record and make them more engaging to users.
+
+By integrating a system of record with the app that you create in {{site.data.keyword.cloud_notm}}, you can perform the following actions:
+
+ * Enable secure communication between the app and the back-end database by downloading and installing a secure connector on premise.
+ * Invoke a database in a secure way.
+ * Create APIs from integration flows with databases and back-end systems, such as customer relationship management system.
+ * Expose only the schemas and tables that you want to be exposed to the app.
+ * As a {{site.data.keyword.cloud_notm}} organization manager, publish an API as a private service that is visible only to your organization members.
+
+To integrate a system of record with the app that you create in {{site.data.keyword.cloud_notm}}, use the Cloud Integration service. By using the Cloud Integration service, you can create a Cloud Integration API and publish the API as a private service for your organization.
+
+<dl>
+<dt>Cloud Integration API</dt>
+    <dd>A Cloud Integration API provides secured access to the systems of record that reside behind a firewall through web APIs. When you create the Cloud Integration API, you choose the resource that you want to access through the web API, specify the operations that are permitted, and include SDKs and samples to access the API. For more information about how to create a Cloud Integration API, see [Getting started with Cloud Integration](/docs/services/CloudIntegration/CldInt_GetStart.html).</dd>
+<dt>Private service</dt>
+    <dd>A private service consists of a Cloud Integration API, SDKs, and entitlement policies. The private service might also  contain documentation or other items from the service provider. Only the organization manager can publish a Cloud Integration API as a private service. To see the private services that are available to you, select the Private checkbox in the {{site.data.keyword.cloud_notm}} catalog. You can select and bind a private service to an app without connecting to the Cloud Integration service. You bind private services to your app in the same way as you do for other {{site.data.keyword.cloud_notm}} services. For information about how to publish an API as a private service, see Publishing an API as a private service.</dd>
+</dl>
+
+### Scenario: Creating a rich mobile app to connect with your system of record
+{: #scenario}
+
+{{site.data.keyword.cloud_notm}} provides a platform where you can integrate your mobile app, cloud services, and enterprise systems of record to provide an app that interacts with your on-premises data.
+
+For example, you can build a mobile app to interact with your customer relationship management system that resides on-premises behind a firewall. You can invoke the system of record in a secure way and leverage the mobile services in {{site.data.keyword.cloud_notm}} so that you can build a rich mobile app.
+
+First, your integration developer creates the mobile back-end app in {{site.data.keyword.cloud_notm}}. They use the Mobile Cloud boilerplate that uses the Node.js runtime that they are most familiar with.
+
+Then, by using the Cloud Integration service in the {{site.data.keyword.cloud_notm}} user interface, they expose an API through a secure connector. Your integration developer downloads the secure connector and installs it on-premises to enable secure communication between his API and the database. After they create the database endpoint, they can look at all the schemas and extract the tables that they want to expose as APIs to the app.
+
+The integration developer adds the Push service to deliver mobile notifications to interested consumers. They also add a business partner service to tweet when a new customer record is created with a Twitter API.
+
+Next, as the application developer, you can log in to {{site.data.keyword.cloud_notm}}, download the Android development toolkit, and develop code that invokes the APIs that your integration developer created. You can develop a mobile app that enables users to enter their information on their mobile device. The mobile app then creates a customer record in the customer management system. When the record is created, the app pushes a notification to a mobile device and initiates a tweet about the new record.
