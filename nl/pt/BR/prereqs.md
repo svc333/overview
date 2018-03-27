@@ -24,6 +24,7 @@ A lista a seguir especifica o software do navegador mínimo necessário para o {
  * Chrome: versão mais recente para seu sistema operacional
  * Firefox: versões regulares e ESR mais recentes para seu sistema operacional, consulte [Mozilla Firefox Extended Support Release](https://www.mozilla.org/firefox/organizations/) para obter mais detalhes
  * Internet Explorer: versão 11
+ * Edge: versão mais recente para Windows
  * Safari: versão mais recente para Mac
 
 ## Cloud

@@ -33,4 +33,4 @@ Se você tiver serviços do Cloud Foundry em sua conta, será possível designar
 
 Acesse **Gerenciar** &gt; **Segurança** &gt; **Identity and Access** e, em seguida, selecione **Usuários** para iniciar o gerenciamento de acesso para usuários em sua conta. Selecione um usuário da lista para começar. Você vê somente as opções de gerenciamento de acesso para as quais tem permissão para gerenciar. Por exemplo, se você não for o proprietário da conta e não for um gerenciador de organização ou espaço, não verá a opção para gerenciar o acesso ao Cloud Foundry.
 
-As funções de acesso também podem ser designadas a apps e serviços usando IDs de serviço. Acesse a página **IDs de serviço** para começar. Para obter mais informações sobre como deixar o Cloud IAM funcionando rapidamente, siga as etapas no [Tutorial de introdução](/docs/iam/quickstart.html#iambestpractice).
+As funções de acesso também podem ser designadas a apps e serviços usando IDs de serviço. Acesse a página **IDs de serviço** para começar. Para obter mais informações sobre como deixar o Cloud IAM funcionando rapidamente, siga as etapas no [Tutorial de introdução](/docs/iam/quickstart.html#getstarted).
