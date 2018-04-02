@@ -139,6 +139,7 @@ You can also obtain a CRN from an {{site.data.keyword.Bluemix_notm}} resource by
 ```
 bluemix resource service-instance
 ```
+{: codeblock}
 
 
 ## resource-type, resource
