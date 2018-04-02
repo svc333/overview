@@ -4,7 +4,7 @@ copyright:
 
   years: 2017, 2018
 
-lastupdated: "2017-12-15"
+lastupdated: "2018-04-02"
 
 ---
 
@@ -134,6 +134,11 @@ The `service-instance` must be alphanumeric, lower case, no spaces or special ch
 As an example, a devops tool to track and plan work items can have a simple `GUID` instance id ("1234-5678-9012-3456") where the policy component of an autoscale group service can use a hierarchical naming convention and have a `service-id` segment of:
 
 >`c7a27f55-d35e-4153-b044-8ca9155fc467/my-test-asg1/my-scaleout-policy`
+
+You can also obtain a CRN from an {{site.data.keyword.Bluemix_notm}} resource by using the following CLI command:
+```
+bluemix resource service-instance
+```
 
 
 ## resource-type, resource
