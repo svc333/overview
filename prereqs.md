@@ -3,7 +3,7 @@
 
 copyright:
   years: 2016, 2018
-lastupdated: "2017-01-10"
+lastupdated: "2018-04-02"
 
 ---
 
@@ -28,7 +28,7 @@ Extended Support Release](https://www.mozilla.org/firefox/organizations/) for mo
  * Edge: latest version for Windows
  * Safari: latest version for Mac
 
-## Cloud Foundry
-{: #cf}
+## Command Line Interface (CLI)
+{: #cli}
 
-Cloud Foundry command line interface, Version 6.5.1 or later
+The `bluemix cli` is constantly changing so it is recommended to use the [latest version](/docs/cli/reference/bluemix_cli/all_versions.html) which also bundles the Cloud Foundry `cf cli`. 
