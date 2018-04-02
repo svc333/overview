@@ -24,6 +24,7 @@ lastupdated: "2017-01-10"
  * Chrome: ご使用のオペレーティング・システムの最新バージョン
  * Firefox: ご使用のオペレーティング・システム用の最新の通常バージョンおよび ESR バージョン。詳しくは、『[Mozilla Firefox Extended Support Release](https://www.mozilla.org/firefox/organizations/)』を参照してください。
  * Internet Explorer: バージョン 11
+ * Edge: Windows の最新バージョン
  * Safari: Mac の最新バージョン
 
 ## Cloud Foundry
