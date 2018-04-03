@@ -28,4 +28,5 @@ What is IBM Cloud
     glossary/index.md
     nls.md
     terms-of-use/notices.md
+    accessibility/accessibility_features.md
     {: .navgroup-end}
