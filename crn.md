@@ -101,7 +101,7 @@ The `location` must be one of the following values:
 | PAR01  | SJC01  | SJC03  | SAO01  |  SEA01  |
 | SEO01  | SNG01  | SYD01  | TOK02  |  TOR01  |
 | WDC01  | WDC04  | WDC06  | WDC07  |
-{: caption="Table 1. Valid `Data Center` values" caption-side="top"}
+{: caption="Table 1. Valid Data Center values" caption-side="top"}
 
 Some resources do not require a region (they can be considered `global`). In this case, the `region` segment is set to `global`.
 {: tip}
