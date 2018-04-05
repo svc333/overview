@@ -25,6 +25,7 @@ Die folgende Liste enthält die für {{site.data.keyword.Bluemix_notm}} mindeste
  * Firefox: Aktuelle reguläre Version und ESR-Version für Ihr Betriebssystem. Detaillierte Informationen finden Sie unter [Mozilla Firefox
 Extended Support Release](https://www.mozilla.org/firefox/organizations/)
  * Internet Explorer: Version 11
+ * Edge: Aktuelle Version für Windows
  * Safari: Aktuelle Version für Mac
 
 ## Cloud Foundry
