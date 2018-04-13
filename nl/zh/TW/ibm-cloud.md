@@ -70,3 +70,86 @@ lastupdated: "2018-02-13"
 {{site.data.keyword.cloud_notm}} 基礎架構透過單一無縫式平台提供功能強大的裸機伺服器及彈性的虛擬伺服器。全部都是視需求提供，並按月或小時計費。裸機伺服器提供處理器密集及磁碟 I/O 密集工作負載的原始處理能力，而且可以配置成您的確切規格。虛擬伺服器則容許高速部署、彈性可擴充性及隨收隨付制計費。針對高效能運算，使用圖形處理裝置 (GPU) 伺服器來提高雲端的運算能力，頻率為每小時或每月。
 
 {{site.data.keyword.cloud_notm}} 基礎架構供應項目是連接至分成公用、專用及管理資料流量的三層網路。客戶 {{site.data.keyword.cloud_notm}} 帳戶的基礎架構可能會跨專用網路在這類基礎架構之間傳送資料，而無需任何成本。基礎架構供應項目（例如裸機伺服器、虛擬伺服器及雲端儲存空間）會跨公用網路連接至 {{site.data.keyword.cloud_notm}} 型錄中的其他應用程式及服務（例如 Watson 服務、容器或運行環境）。這兩種類型供應項目之間的資料傳送是依標準公用網路頻寬速率進行計量及收費。
+
+## 地區
+{: #ov_intro_reg}
+
+{{site.data.keyword.cloud_notm}} 地區是您可以在其中部署應用程式的已定義地理區。您可以在不同地區建立應用程式及服務實例，使用相同 {{site.data.keyword.cloud_notm}} 基礎架構以進行應用程式管理，以及使用相同的用量詳細資料視圖來處理計費。您可以將應用程式部署至最接近客戶的地區，以縮短應用程式的延遲時間。若要處理安全問題，您也可以選取您要保留應用程式資料的地區。在多個地區中建置應用程式時，如果某個地區變成無法使用，則位於其他地區中的應用程式會繼續執行。您使用的每個地區的資源額度都相同。
+
+如果您使用 {{site.data.keyword.cloud_notm}} 主控台，會自動顯示最近健全地理區域的資訊。主控台的廣域負載平衡，確保如果因故而關閉最接近的地理區域，則您的主控台將會顯示下一個最接近地區的資訊。透過這種方式，您一律可以存取主控台，而不需要採取任何動作來存取所需的資訊。
+
+在主控台中使用地區選取器，以過濾視圖。例如，如果您是在美國達拉斯地區存取應用程式及服務，但要檢視倫敦地區的應用程式及服務，則可以使用地區選取器來變更視圖：
+
+1. 按一下使用者帳戶喜好設定鏈結。
+2. 展開**地區**功能表。
+3. 從清單中，選取您需要的地區。
+
+根據地區過濾視圖，也可讓您快速切換視圖來處理指派給不同地區的組織、空間及使用者。
+
+您可以使用指令行介面來連接至要使用的 {{site.data.keyword.cloud_notm}} 地區，方法是使用 bx api 指令，並指定地區的 API 端點。例如，輸入下列指令以連接至 {{site.data.keyword.cloud_notm}} 歐洲英國地區：
+
+```
+bx api https://api.eu-gb.bluemix.net
+```
+
+唯一字首會指派給每一個地區。{{site.data.keyword.cloud_notm}} 提供下列地區及地區字首。
+
+| **地區名稱** | **地理位置** | **cf API 端點** |
+|-----------------|-------------------------|-------------------|
+| 美國南部地區| 美國達拉斯| api.ng.bluemix.net| 
+| 美國東部地區| 美國華盛頓特區| api.us-east.bluemix.net|
+| 英國地區| 英國倫敦| api.eu-gb.bluemix.net| 
+| 雪梨地區| 澳洲雪梨| api.au-syd.bluemix.net| 
+| 德國地區| 德國法蘭克福| api.eu-de.bluemix.net| 
+{: caption="表 1. {{site.data.keyword.cloud_notm}} 地區清單" caption-side="top"}
+
+## {{site.data.keyword.cloud_notm}} 備援
+{: #resiliency}
+
+{{site.data.keyword.cloud_notm}} 的設計旨在於管理可擴充且具復原力的應用程式及應用程式構件，這些應用程式與應用程式構件可擴充以符合您的需要、維持高度可用性，而且可以快速從問題回復。{{site.data.keyword.cloud_notm}} 會隔開追蹤互動狀態的元件（有狀態）與不追蹤互動狀態的元件（無狀態）。這項分隔容許 {{site.data.keyword.cloud_notm}} 視需要彈性地移動應用程式，以達到可擴充性與備援。
+
+您的應用程式可以有一個以上的實例處於執行中狀態。如果單一應用程式有多個實例，則該應用程式只會上傳一次。不過，{{site.data.keyword.cloud_notm}} 會部署所要求的應用程式實例數，並將它們盡可能地分散至眾多虛擬伺服器。
+
+您必須將所有持續性資料儲存在應用程式之外的有狀態資料儲存庫，例如 {{site.data.keyword.cloud_notm}} 所提供的其中一個資料儲存庫服務上。因為記憶體中或磁碟上快取的任何內容即使在重新啟動之後可能還是無法使用，所以您可以使用單一 {{site.data.keyword.cloud_notm}} 實例的記憶體空間或檔案系統，作為簡要的單一交易快取。使用單一實例設定，對您應用程式的要求可能會因為 {{site.data.keyword.cloud_notm}} 的無狀態本質而受到中斷。最佳作法是針對每一個應用程式至少使用三個實例，以確保其可用性。
+
+所有 {{site.data.keyword.cloud_notm}} 基礎架構、Cloud Foundry 元件及 {{site.data.keyword.cloud_notm}} 特有的管理元件都具有高可用性。使用基礎架構的多個實例來平衡負載。
+
+## 與記錄系統整合
+{: #sor}
+
+在雲端環境中，{{site.data.keyword.cloud_notm}} 可以透過連接以下兩個廣義種類的系統來協助開發人員：
+
+* *記錄系統* 包括用於儲存商業記錄及自動執行標準化處理程序的應用程式及資料庫。
+* *參與系統* 是指延伸記錄系統的實用性並使其更吸引使用者的功能。
+
+透過整合記錄系統與在 {{site.data.keyword.cloud_notm}} 中建立的應用程式，您可以執行下列動作：
+
+ * 透過下載並安裝內部部署的安全連接器，讓應用程式與後端資料庫之間能安全地通訊。
+ * 以安全的方式呼叫資料庫。
+ * 從含有資料庫及後端系統（例如客戶關係管理系統）的整合流程中建立 API。
+ * 僅公開要向應用程式公開的綱目及表格。
+ * {{site.data.keyword.cloud_notm}} 組織管理員可以將 API 發佈為只有組織成員才能看到的專用服務。
+
+若要整合記錄系統與在 {{site.data.keyword.cloud_notm}} 中建立的應用程式，請使用 Cloud Integration 服務。利用 Cloud Integration 服務，您可以建立 Cloud Integration API 並將 API 發佈為組織的專用服務。
+
+<dl>
+<dt>Cloud Integration API</dt>
+    <dd>使用 Cloud Integration API，可以透過 Web API 對位於防火牆後方的記錄系統進行安全存取。建立 Cloud Integration API 時，您可以選擇要透過 Web API 存取的資源、指定允許的作業，並包含 SDK 和範例來存取 API。如需如何建立 Cloud Integration API 的相關資訊，請參閱[開始使用 Cloud Integration](/docs/services/CloudIntegration/CldInt_GetStart.html)。</dd>
+<dt>專用服務</dt>
+    <dd>專用服務包含 Cloud Integration API、SDK 及授權原則。專用服務也可能包含來自服務提供者的文件或其他項目。只有組織管理員才能將 Cloud Integration API 發佈為專用服務。若要查看您可以使用的專用服務，請選取 {{site.data.keyword.cloud_notm}}「型錄」中的「專用」勾選框。您可以選取專用服務，並將其連結至應用程式，而不需要連接至 Cloud Integration 服務。將專用服務連結至應用程式的方式與其他 {{site.data.keyword.cloud_notm}} 服務相同。如需如何將 API 發佈為專用服務的相關資訊，請參閱「將 API 發佈為專用服務」。</dd>
+</dl>
+
+### 情境：建立複合的行動應用程式以與記錄系統相連接
+{: #scenario}
+
+{{site.data.keyword.cloud_notm}} 提供了一個平台，您可以在該平台中整合行動應用程式、雲端服務及企業記錄系統，以提供與內部部署資料互動的應用程式。
+
+例如，您可以建置行動應用程式，與位於防火牆後內部部署的客戶關係管理系統互動。您可以透過安全的方式呼叫記錄系統，並運用 {{site.data.keyword.cloud_notm}} 中的行動服務，以建置複合的行動應用程式。
+
+首先，整合開發人員會在 {{site.data.keyword.cloud_notm}} 中建立行動後端應用程式。他們會使用「行動雲」樣板，該樣板使用他們最熟悉的 Node.js 運行環境。
+
+然後，在 {{site.data.keyword.cloud_notm}} 使用者介面中利用 Cloud Integration 服務，透過安全連接器公開 API。整合開發人員會下載安全連接器，並以內部部署方式安裝它，以啟用其 API 與資料庫之間的安全通訊。建立資料庫端點之後，即可查看所有綱目，並擷取要以 API 形式向應用程式公開的表格。
+
+整合開發人員會新增 Push 服務，以將行動通知提供給感興趣的客戶。此外，他們還會新增事業合作夥伴服務，以在使用 Twitter API 建立新的客戶記錄後發佈推文。
+
+接著，身為應用程式開發人員，您可以登入 {{site.data.keyword.cloud_notm}}，下載 Android 開發工具箱，然後開發用於呼叫整合開發人員所建立 API 的程式碼。您可以開發一個行動應用程式，讓使用者可以在其行動裝置上輸入資訊。接著，行動應用程式會在客戶管理系統中建立客戶記錄。建立記錄後，該應用程式會向行動裝置推送通知，並開始一則關於新記錄的推文。

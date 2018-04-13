@@ -25,6 +25,7 @@ lastupdated: "2017-01-10"
  * Firefox：如需適用於您作業系統的最新一般及 ESR 版本的其他詳細資料，請參閱 [Mozilla Firefox
 Extended Support Release](https://www.mozilla.org/firefox/organizations/)
  * Internet Explorer：第 11 版
+ * Edge：適用於 Windows 的最新版本
  * Safari：適用於 Mac 的最新版本
 
 ## Cloud Foundry
