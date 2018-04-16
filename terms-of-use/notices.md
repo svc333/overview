@@ -1,7 +1,5 @@
 ---
 
-
-
 copyright:
 
   years: 2015, 2018
@@ -23,7 +21,7 @@ This information was developed for products and services offered in the US. This
 IBM may not offer the products, services, or features discussed in this document in other countries. Consult your local IBM representative for information on the products and services currently available in your area. Any reference to an IBM product, program, or service is not intended to state or imply that only that IBM product, program, or service may be used. Any functionally equivalent product, program, or service that does not infringe any IBM intellectual property right may be used instead. However, it is the user's responsibility to evaluate and verify the operation of any non-IBM product, program, or service.
 
 IBM may have patents or pending patent applications covering subject matter described in this document. The furnishing of this document does not grant you any license to these patents. You can send license inquiries, in writing, to:
-  
+
   *IBM Director of Licensing*
   *IBM Corporation*
   *North Castle Drive, MD-NC119*
@@ -31,7 +29,7 @@ IBM may have patents or pending patent applications covering subject matter desc
   *US*
 
 For license inquiries regarding double-byte character set (DBCS) information, contact the IBM Intellectual Property Department in your country or send inquiries, in writing, to:
-  
+
   *Intellectual Property Licensing*
   *Legal and Intellectual Property Law*
   *IBM Japan Ltd.*
@@ -47,7 +45,7 @@ Any references in this information to non-IBM websites are provided for convenie
 IBM may use or distribute any of the information you provide in any way it believes appropriate without incurring any obligation to you.
 
 Licensees of this program who wish to have information about it for the purpose of enabling: (i) the exchange of information between independently created programs and other programs (including this one) and (ii) the mutual use of the information which has been exchanged, should contact:
- 
+
   *IBM Director of Licensing*
   *IBM Corporation*
   *North Castle Drive, MD-NC119*
@@ -74,10 +72,10 @@ COPYRIGHT LICENSE:
 
 This information contains sample application programs in source language, which illustrate programming techniques on various operating platforms. You may copy, modify, and distribute these sample programs in any form without payment to IBM, for the purposes of developing, using, marketing or distributing application programs conforming to the application programming interface for the operating platform for which the sample programs are written. These examples have not been thoroughly tested under all conditions. IBM, therefore, cannot guarantee or imply reliability, serviceability, or function of these programs. The sample programs are provided "AS IS", without warranty of any kind. IBM shall not be liable for any damages arising out of your use of the sample programs.
 
-Each copy or any portion of these sample programs or any derivative work must include a copyright notice as follows: 
-  
-  © (your company name) (year). 
-  Portions of this code are derived from IBM Corp. Sample Programs. 
+Each copy or any portion of these sample programs or any derivative work must include a copyright notice as follows:
+
+  © (your company name) (year).
+  Portions of this code are derived from IBM Corp. Sample Programs.
   © Copyright IBM Corp. 2015.
 
 ## Trademarks
@@ -104,12 +102,12 @@ Other company, product, and service names may be trademarks or service marks of 
 ## {{site.data.keyword.Bluemix_notm}} Terms
 {: #terms}
 
-Your IBM Cloud Account and any services ordered from the IBM Cloud are provided under the term of: 
-  
+Your IBM Cloud Account and any services ordered from the IBM Cloud are provided under the term of:
+
   * Base Agreement Cloud Terms applicable to you as follows:
     * SoftLayer Cloud Service Agreement for US Dollar credit card billing, available at [http://www.softlayer.com/legal](http://www.softlayer.com/legal){: new_window} ![External link icon](../../icons/launch-glyph.svg)
     * IBM Cloud Services Agreement (local country version*) for non-US Dollar credit card billing, or if you select invoicing from IBM, available at [https://www.ibm.com/terms](https://www.ibm.com/terms){: new_window} ![External link icon](../../icons/launch-glyph.svg) (select your country);
-    * IBM Passport Advantage Agreement you accepted and the General Terms for Cloud Offerings TOU for IBM Passport Advantage Clients, available at [http://www-03.ibm.com/software/sla/sladb.nsf/sla/tou](http://www-03.ibm.com/software/sla/sladb.nsf/sla/tou){: new_window} ![External link icon](../../icons/launch-glyph.svg); or 
+    * IBM Passport Advantage Agreement you accepted and the General Terms for Cloud Offerings TOU for IBM Passport Advantage Clients, available at [http://www-03.ibm.com/software/sla/sladb.nsf/sla/tou](http://www-03.ibm.com/software/sla/sladb.nsf/sla/tou){: new_window} ![External link icon](../../icons/launch-glyph.svg); or
     * equivalent cloud service base agreement terms between you and IBM;
   * Service Description for IBM Cloud available at [http://www-03.ibm.com/software/sla/sladb.nsf/sla/bm](http://www-03.ibm.com/software/sla/sladb.nsf/sla/bm){: new_window} ![External link icon](../../icons/launch-glyph.svg);
   * Applicable Additional SDs for any service ordered using your IBM Cloud Account available at [http://www-03.ibm.com/software/sla/sladb.nsf/sla/bm](http://www-03.ibm.com/software/sla/sladb.nsf/sla/bm){: new_window} ![External link icon](../../icons/launch-glyph.svg); and
