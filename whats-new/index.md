@@ -1,17 +1,15 @@
 ---
 
- 
-
 copyright:
 
   years: 2015, 2018
 
-lastupdated: "2018-04-04" 
+lastupdated: "2018-04-04"
 
 ---
 
 
-{:shortdesc: .shortdesc} 
+{:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
 
 # What's new in {{site.data.keyword.Bluemix_notm}}
@@ -28,7 +26,7 @@ New as of: 03 April 2018
 
 Do you want to be able to assign access quickly by using the least amount of policies possible? Now you can with access groups. Access groups enable you to group a set of users and service IDs together and assign a single policy that applies to all members of the group. By using access groups, you can limit the time you spend managing access to the users and service IDs in your account. Check out the blog post [New feature: Access groups](https://www.ibm.com/blogs/bluemix/2018/04/access-groups/){: new_window} ![External link icon](../../icons/launch-glyph.svg "External link icon") for more details.
 
-### SoftLayer and {{site.data.keyword.Bluemix_notm}} account linking 
+### SoftLayer and {{site.data.keyword.Bluemix_notm}} account linking
 New as of:  01 March 2018
 
 You can link your SoftLayer account to your {{site.data.keyword.Bluemix_notm}} account to log in to a single location, the {{site.data.keyword.Bluemix_notm}} console, and access both infrastructure as a service (IaaS) and platform as a service (PaaS) resources. If you're new to {{site.data.keyword.Bluemix_notm}}, create and link an account to get a free {{site.data.keyword.Bluemix_notm}} trial. Or, if you already have an {{site.data.keyword.Bluemix_notm}} account with PaaS resources, link your accounts to receive a single bill for both your IaaS and PaaS resources. Check out [Steps to Link your IaaS and PaaS Accounts](https://www.ibm.com/blogs/bluemix/2018/03/follow-steps-link-iaas-paas-accounts/){: new_window} ![External link icon](../../icons/launch-glyph.svg "External link icon") to quickly link your accounts.
@@ -52,7 +50,7 @@ On 01 March 2018 {{site.data.keyword.Bluemix_notm}} will withdraw support for TL
 ### A new way to organize resources within your account
 New as of: 16 November 2017
 
-Resource groups are a new way for you to create customizable groupings of account resources, and access to the group and the resources within it are managed by using Identity and Access Management (IAM). Everyone starts out with a default resource group. You can rename this resource group and add new service intances to it as you create them from the catalog. 
+Resource groups are a new way for you to create customizable groupings of account resources, and access to the group and the resources within it are managed by using Identity and Access Management (IAM). Everyone starts out with a default resource group. You can rename this resource group and add new service intances to it as you create them from the catalog.
 
 For users with a Pay-As-You-Go or Subscription account, you can create additional resource groups to make managing quota and viewing billing usage for a set of resources easier. You can also group resources to make it easier for you to assign users access to more than one service at a time. To learn more about working with resource groups for your account, see [Managing resource groups](/docs/account/resourcegroups.html#rgs).
 
@@ -60,10 +58,10 @@ For users with a Pay-As-You-Go or Subscription account, you can create additiona
 New as of: 16 November 2017
 
 The introduction of [resource groups](/docs/overview/resource-groups.html#whatis) within your {{site.data.keyword.Bluemix_notm}} account has opened up a new way for you to assign access. Users and service IDs can be assigned access to all services within a resource group enabling you to quickly assign access to more than one resource at a time. You can also customize access for each user or service ID by assigning access to just some services within a resource group, or you just choose to assign access to individual resources down to the service instance level.
- 
+
 For more information about the features that you can take advantage of by using IAM, see [What features does IAM provide?](/docs/iam/index.html#features)
 
-### Customize your dashboard view 
+### Customize your dashboard view
 New as of: 16 November 2017
 
 You can view and manage all the resources in your account from your dashboard in the {{site.data.keyword.Bluemix_notm}} console. And now, you can set filters to customize your view. For example, you can filter by resource group to view the specific resources in a resource group. You can also filter by region or Cloud Foundry space. For more details, see [Managing resources on the dashboard](/docs/overview/ui.html#dashboardview).
@@ -72,7 +70,7 @@ You can view and manage all the resources in your account from your dashboard in
 ### Support Center
 New as of: 2 November 2017
 
-We now have the new Support Center where you can search for information, post questions to our developer community, and manage tickets. Go to **Support > Support Center** in the {{site.data.keyword.Bluemix_notm}} console menu bar. 
+We now have the new Support Center where you can search for information, post questions to our developer community, and manage tickets. Go to **Support > Support Center** in the {{site.data.keyword.Bluemix_notm}} console menu bar.
 
 ### Introducing IBM Cloud
 New as of: 31 October 2017
@@ -89,9 +87,9 @@ New as of: 6 October 2017
 
 Identity and Access Management (IAM) now provides the ability to create a Service ID, which you can think of as an identity that can be used for apps to authenticate with your {{site.data.keyword.Bluemix_notm}} services. Instead of using individual user credentials, a Service ID can be created with an associated API key and access permissions in the form of a service policy that is assigned to the Service ID in order for you to control the level of access for any application authenticating with that ID.
 
-For more information about the benefits of this feature and how to get started, see the [Introducing IBM Cloud IAM Service IDs and API Keys](https://www.ibm.com/blogs/bluemix/2017/10/introducing-ibm-cloud-iam-service-ids-api-keys/){: new_window} ![External link icon](../../icons/launch-glyph.svg "External link icon"). 
+For more information about the benefits of this feature and how to get started, see the [Introducing IBM Cloud IAM Service IDs and API Keys](https://www.ibm.com/blogs/bluemix/2017/10/introducing-ibm-cloud-iam-service-ids-api-keys/){: new_window} ![External link icon](../../icons/launch-glyph.svg "External link icon").
 
-### {{site.data.keyword.Bluemix_notm}} global catalog 
+### {{site.data.keyword.Bluemix_notm}} global catalog
 New as of: 27 July 2017
 
 Expanding on the last console update to manage your public regions from a single location in the console, {{site.data.keyword.Bluemix_notm}} now has a global catalog making the process of selecting and deploying items you select from the catalog a more streamlined process. Regardless of the region you have selected in the console, you can now see all services that are available across all public regions from your catalog. Once you select a tile from the catalog, you can see which regions the service is available in, and select where you want to deploy it.
@@ -137,7 +135,7 @@ With the latest update from February 2018, you can use the following new feature
 
 A new user permission has been introduced to specifically allow users to approve and reschedule maintenance updates, as well as to set up maintenance update windows that stipulate when maintenance updates can be deployed into a dedicated environment.
 See the [video demonstration](https://youtu.be/7c7jyp_JJWU){: new_window} ![External link icon](../../icons/launch-glyph.svg "External link icon") for more information.
- 
+
 ### December updates for the administration console
 {: #decemberadminconsole}
 New as of: 14 December 2017
@@ -148,10 +146,10 @@ With the latest updates and improvements from December, you can use the followin
 
 Average CPU has been added as a threshold type in notification subscriptions. You can now receive notifications when CPU usage (averaged across all DEA's and Diego Cells) goes above or below a certain threshold.
 
-#### Control access to cloud systems in the European Union 
+#### Control access to cloud systems in the European Union
 
 Combined with the new capability in the European Union to support cloud resources (starting with Frankfurt), the administration console now has the capability to define policies that control access by IBM personnel. You can manage access control policies, view access requests, take action on the requests, and track the history.
-  
+
 #### Enhanced information in security reports
 
 Security reports now include user-friendly names in addition to unique IDs for users and organizations.
@@ -165,11 +163,11 @@ With the latest updates and improvements from August, you can use the following 
 #### Updates to {{site.data.keyword.cloudant_short_notm}} service usage metrics
 
   * The computation of usage metrics for {{site.data.keyword.cloudant_short_notm}} has been updated to reflect the total amount of GBs used and available across all nodes in a {{site.data.keyword.cloudant_short_notm}} cluster. Typically, a {{site.data.keyword.cloudant_short_notm}} cluster contains 3 nodes, and a document in the database is replicated across all the nodes in the cluster for high-availability and disaster recovery. With the August updates, the capacity metric in the {{site.data.keyword.cloudant_short_notm}} dial (available in the _Resource Usage > Services_ view) indicates the space across all the nodes in the cluster. For example, if a single {{site.data.keyword.cloudant_short_notm}} cluster contains 3 nodes, each with 1000 GB capacity, the capacity limit will be 3000 GB. If 1500 GBs of that capacity have been used, the {{site.data.keyword.cloudant_short_notm}} usage metric will be 50%.
- 
+
 #### Updates to the scheduling of maintenance updates
-  
+
   * In {{site.data.keyword.Bluemix_dedicated_notm}}, customers can manage the dates and times when their dedicated environments are available for deployment of system updates. Customers can define availability windows representing dates and times when maintenance updates can and cannot be deployed to their Dedicated environment. In the August update, _Available Update Windows_ have been renamed _Update Windows_, and _Unavailable Update Windows_ have been renamed _Blackout Windows_. Beyond the terminology changes, customers now have more flexibility and margin for defining blackout (unavailable) dates. Once requested, blackout dates will require IBM approval, and the time it takes to gain approval will vary. When the requested blackout dates are approved, IBM will cancel any existing updates that are currently scheduled during the unavailable window. IBM will also create new records for these updates and schedule them outside the approved blackout dates.
-  
+
 See the [video demonstration](https://bit.ly/2eCQNvu){: new_window} ![External link icon](../../icons/launch-glyph.svg "External link icon") for more information.
 
 ### July updates for the administration console
@@ -182,7 +180,7 @@ With the latest updates and improvements from July, you can use the following ne
 
   * In the previous update (June), the History view for memory and disk usage had introduced display of usage data over the last 48 hours, 30 days, and 5 mohths. In this latest July update, the resource usage history functionality has been expanded to allow customization of the time span for which to show resource usage data. Hourly, daily and monthly views remain, but users can now specify a start day/time and duration for which to display memory and disk usage metrics (for example, showing memory usage for 15 days starting on July 1st 2017).
   * A new CLI command has been introduced to display resource metrics history in the CLI. The parameters of the command, as well as usage examples can be found by typing the following: `_cf ba resource-metrics-history -help_`
- 
+
 See the [video demonstration](https://youtu.be/QBij0jB5qAk){: new_window} ![External link icon](../../icons/launch-glyph.svg "External link icon") for more information.
 
 ### June updates for the administration console
@@ -195,19 +193,19 @@ With the latest updates and improvements from June, you can use the following ne
 
   * System resources
     * The History view for memory and disk has been updated to display data over 48 hours, 30 days, and 5 months
-    * A Learn More link is provided, showing how the administration console metrics api is used to generate the History views 
+    * A Learn More link is provided, showing how the administration console metrics api is used to generate the History views
   * Applications
     * Provides usage information for all applications in the environment
-    * Sort by application name, physical memory, reserved memory, physical disk, reserved disk, physical CPU, or Organization name 
+    * Sort by application name, physical memory, reserved memory, physical disk, reserved disk, physical CPU, or Organization name
     * Search is provided to filter results by application name and Organization name
     * A Learn More link is provided, showing how the administration console metrics api is used to generate the Applications view
- 
+
 See [Resource usage](/docs/hybrid/index.html#resourceusage) for more information.
 
 #### Updates to API for Metrics
 
   * Environment statistics have been added, providing averages by day or month for memory and disk consumption
-  
+
 See [API for Metrics](/docs/hybrid/index.html#envappmetricsapi) for more information.
 
 
@@ -219,8 +217,8 @@ With the latest updates and improvements from May, you can use the following new
 
  * Improvements on the Status page including more granular diagnostics on incidents affecting the {{site.data.keyword.Bluemix_notm}} platform and runtimes.
  * Improvements to the security Reports and Logs page:
-   * Reports are now displayed in a table format, simplifying the browsing and searching of reports, including the ability to sort by report category, file name, or creation date. 
-   * Enhanced filtering including simultaneous filtering of multiple categories 
+   * Reports are now displayed in a table format, simplifying the browsing and searching of reports, including the ability to sort by report category, file name, or creation date.
+   * Enhanced filtering including simultaneous filtering of multiple categories
    * Full screen mode for displaying the contents of a report
    * Capability to delete reports for admin users with "report write" permission
    * Faster display of report lists, progressively loading on-demand through continuous scrolling, resulting in better overall performance.
@@ -285,7 +283,7 @@ With [{{site.data.keyword.iva_full}}](https://console.bluemix.net/catalog/servic
 
 This beta release introduces the following key features:
 
-* Get started more easily than ever by creating a voice agent and all required Watson services in a single step. 
+* Get started more easily than ever by creating a voice agent and all required Watson services in a single step.
 * Transfer calls from your voice agent, such as to a human contact center agent or other destination.
 * Collect and analyze call data by configuring your voice agent to forward call detail record, transcription, and {{site.data.keyword.conversationshort}} turn events to a {{site.data.keyword.cloudant_short_notm}} database.
 * Monitor service usage and view call logs on the new _Usage_ page. You can view quick stats for the current month, find and filter call logs, and view system messages for each individual call.
@@ -302,13 +300,13 @@ The {{site.data.keyword.visualrecognitionfull}} service has been updated so that
 Presently, existing custom classifiers can continue to be updated and retrained and will not be updated to this new deep learning machine model format.
 
 ### {{site.data.keyword.streaminganalyticsshort}} updates
-New as of: 14 February 2018 
+New as of: 14 February 2018
 
 The [Beta - Entry and Beta- Enhanced plans](/docs/services/StreamingAnalytics/beta_plans.html#beta_plans) for the console in the [{{site.data.keyword.streaminganalyticsshort}} service](https://console.bluemix.net/catalog/services/streaming-analytics){: new_window} ![External link icon](../../icons/launch-glyph.svg "External link icon") includes several enhancements:
- 
-* [New IBM Streams QSE for Docker](https://www-01.ibm.com/marketing/iwm/iwm/web/preLogin.do?source=swg-ibmistvi){: new_window} ![External link icon](../../icons/launch-glyph.svg "External link icon"): Check out the [Beta Development Guide](https://developer.ibm.com/streamsdev/docs/cloud-beta-devguide/){: new_window} ![External link icon](../../icons/launch-glyph.svg "External link icon") to learn how to use the new Streams QSE with RHEL 7 running in a Docker environment to compile and deploy your applications with the new {{site.data.keyword.streaminganalyticsshort}} beta plans. 
+
+* [New IBM Streams QSE for Docker](https://www-01.ibm.com/marketing/iwm/iwm/web/preLogin.do?source=swg-ibmistvi){: new_window} ![External link icon](../../icons/launch-glyph.svg "External link icon"): Check out the [Beta Development Guide](https://developer.ibm.com/streamsdev/docs/cloud-beta-devguide/){: new_window} ![External link icon](../../icons/launch-glyph.svg "External link icon") to learn how to use the new Streams QSE with RHEL 7 running in a Docker environment to compile and deploy your applications with the new {{site.data.keyword.streaminganalyticsshort}} beta plans.
 * [{{site.data.keyword.streaminganalyticsshort}} v2 REST API](https://console.bluemix.net/apidocs/1939-streaming-analytics-v2#introduction){: new_window} ![External link icon](../../icons/launch-glyph.svg "External link icon")
-* [New starter and sample applications](https://developer.ibm.com/streamsdev/docs/cloud-beta-samples/) 
+* [New starter and sample applications](https://developer.ibm.com/streamsdev/docs/cloud-beta-samples/)
 * [High-availability enhancements in the {{site.data.keyword.streaminganalyticsshort}} service](/docs/services/StreamingAnalytics/consistentregions.html#consistentregions)
 * [New problem determination features in the beta version of the {{site.data.keyword.streaminganalyticsshort}} service](https://developer.ibm.com/streamsdev/2018/02/15/streaming-analytics-console-gives-ways-find-fix-errors-beta-plans/){: new_window} ![External link icon](../../icons/launch-glyph.svg "External link icon")
 * [Monitoring how operators behave and guaranteed tuple processing in the cloud](https://developer.ibm.com/streamsdev/2018/02/15/monitor-operators-behave-ensure-resource-optimization/){: new_window} ![External link icon](../../icons/launch-glyph.svg "External link icon")
@@ -372,7 +370,7 @@ Additional details can be found in the [Rich Media notifications](/docs/services
 #### APNS HTTP/2 support
 Apple introduced support for HTTP protocol for Apple Notifications. {{site.data.keyword.mobilepushshort}} service now supports HTTP/2 protocol. With this support, notification payloads can be 4KB with increased throughput and provides instant feedback feature. Support for Universal Certificate allows the app to connect to both sandbox and production environments.
 
-#### New Lite plan 
+#### New Lite plan
 Lite Plan for {{site.data.keyword.mobilepushshort}} service provides the ability to send 100K notifications free for every month. For more information, see the [Lite Plan For Push Notifications Service on Bluemix](https://www.ibm.com/blogs/bluemix/2017/06/lite-plan-push-notifications-service-bluemix/){: new_window} ![External link icon](../../icons/launch-glyph.svg "External link icon") blog post.
 
 
@@ -440,15 +438,15 @@ To get started, see the [Getting started with {{site.data.keyword.iva_short}}](/
 
 ### {{site.data.keyword.streaminganalyticsshort}} service update: The console includes new ways to pinpoint problems in your applications
 New as of: 14 August 2017
- 
-For Python and Java applications, the source file location is displayed based on your @spl_note annotations. 
- 
+
+For Python and Java applications, the source file location is displayed based on your @spl_note annotations.
+
 For details, see [Latest improvements to the {{site.data.keyword.streaminganalyticsshort}}](https://developer.ibm.com/streamsdev/2017/08/14/latest-improvements-streaming-analytics-console/){: new_window} ![External link icon](../../icons/launch-glyph.svg "External link icon").
 
 ### IBM Cloud Monitoring is now also available in the United Kingdom region
 New as of: 01 August 2017
 
-Use the {{site.data.keyword.monitoringlong}} service to expand your collection, retention, and analysis capabilities in {{site.data.keyword.Bluemix_notm}} when working with metrics. 
+Use the {{site.data.keyword.monitoringlong}} service to expand your collection, retention, and analysis capabilities in {{site.data.keyword.Bluemix_notm}} when working with metrics.
 
 * Alert into action! {{site.data.keyword.monitoringlong}} offers an API that you can use to set performance thresholds, and to be notified when those thresholds are breached. Define alert rules for a single service instance or app instance, and alert rules that report on a set of instances. When an alert is triggered, get a notification through an e-mail, a PagerDuty event, a webhook notification, or any combination of the three.
 
@@ -473,14 +471,14 @@ The {{site.data.keyword.loganalysisfull}} service provides log collection and lo
 * Retain logs as long as you require.  
 
     Logs are stored on IBM Cloud storage.  You can download logs when you need them.
-	
+
 * Manage your retained logs, and send log data from outside the {{site.data.keyword.IBM_notm}} Cloud by using the new API.
 
 * Choose the amount of logs that you can search per day.  
 
     Different plans are available that you can use to search up to 500MB,  2GB, 5GB, and 10GB of logs per day.
 
-* Build reusable dashboards and make them interactive. 
+* Build reusable dashboards and make them interactive.
 
     {{site.data.keyword.loganalysisshort}}’s hosted Kibana provides support for building custom dashboards.
 
@@ -499,13 +497,13 @@ The following table summarizes the new name:
 |-----------------------------|----------------------------|----------------|
 | IBM dashDB for Analytics    | IBM Db2 Warehouse on Cloud | July 18, 2017  |
 {: caption="Table 1. Service name change" caption-side="top"}
- 
-For a cumulative list of updates for Db2 Warehouse on Cloud and Db2 on Cloud, see: [What's New in Db2 Warehouse on Cloud and Db2 on Cloud](http://www.ibm.com/support/docview.wss?uid=swg21961758){: new_window} ![External link icon](../../icons/launch-glyph.svg "External link icon"). 
+
+For a cumulative list of updates for Db2 Warehouse on Cloud and Db2 on Cloud, see: [What's New in Db2 Warehouse on Cloud and Db2 on Cloud](http://www.ibm.com/support/docview.wss?uid=swg21961758){: new_window} ![External link icon](../../icons/launch-glyph.svg "External link icon").
 
 ### IBM Cloud Monitoring is now available in the US South region
 New as of: 17 July 2017
 
-Use the {{site.data.keyword.monitoringlong}} service to expand your collection, retention, and analysis capabilities in {{site.data.keyword.Bluemix_notm}} when working with metrics. 
+Use the {{site.data.keyword.monitoringlong}} service to expand your collection, retention, and analysis capabilities in {{site.data.keyword.Bluemix_notm}} when working with metrics.
 
 * Alert into action! {{site.data.keyword.monitoringlong}} offers an API that you can use to set performance thresholds, and to be notified when those thresholds are breached. Define alert rules for a single service instance or app instance, and alert rules that report on a set of instances. When an alert is triggered, get a notification through an e-mail, a PagerDuty event, a webhook notification, or any combination of the three.
 
@@ -534,7 +532,7 @@ Benefits of the upgrade include bug fixes, performance improvements, and refinem
 <li>Support for UI themes in the Orion Web IDE.</li>
 </ul>
 
-### {{site.data.keyword.uccr_short}} beta 
+### {{site.data.keyword.uccr_short}} beta
 New as of: 23 June 2017
 
 {{site.data.keyword.uccr_short}} is an enterprise-scale release management solution that supports both cloud-native and on-prem deployment tools.
@@ -599,7 +597,7 @@ New as of: 21 April 2017
 
 {{site.data.keyword.sparkl}} is introducing the support for Apache Spark 2.1 to create algorithms that harness insights from complex data. Apache Spark 2.1 will help significantly around structured streaming with added support for event time watermarks and Kafka 0.10. Apache Spark 2.1 also focused on increasing stability and usability in Spark SQL, SparkR and the MLlib modules. For more details on Spark 2.1, see [Spark Release 2.1.0](http://spark.apache.org/releases/spark-release-2-1-0.html).
 
-We are happy to answer any questions related to {{site.data.keyword.sparkl}} or the newer version of Apache Spark 2.1 and are reachable at sparksrv@us.ibm.com. 
+We are happy to answer any questions related to {{site.data.keyword.sparkl}} or the newer version of Apache Spark 2.1 and are reachable at sparksrv@us.ibm.com.
 
 ### {{site.data.keyword.macm_short}} is being deprecated
 New as of: 18 April 2017
@@ -613,7 +611,7 @@ In the past, you had to install a local version of IBM Streams to develop Python
 
 You can use the STREAMING_ANALYTICS_SERVICE context to submit a Python application to the {{site.data.keyword.streaminganalyticsshort}} service. The {{site.data.keyword.streaminganalyticsshort}} service requires Python 3.5.
 
-Check out the sample stream-processing Python applications in notebooks on the [community page of IBM Data Science Experience](http://datascience.ibm.com){: new_window} ![External link icon](../../icons/launch-glyph.svg "External link icon"). 
+Check out the sample stream-processing Python applications in notebooks on the [community page of IBM Data Science Experience](http://datascience.ibm.com){: new_window} ![External link icon](../../icons/launch-glyph.svg "External link icon").
 
 ### {{site.data.keyword.sparks}} updates: Notebook support now in Data Science Experience
 New as of: 11 April 2017
