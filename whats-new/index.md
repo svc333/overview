@@ -618,3 +618,4 @@ New as of: 11 April 2017
 Your new platform to work with notebooks and Spark is Data Science Experience. Sign up to [Data Science Experience](http://datascience.ibm.com/), and start creating notebooks and sharing your expertise with other data scientists.
 
 If you worked with notebooks in {{site.data.keyword.sparks}}, you can migrate your notebooks to Data Science Experience. For more information, see the [Migrating notebooks documentation](/docs/services/AnalyticsforApacheSpark/index-gentopic2.html#migration_to_dsx).
+
