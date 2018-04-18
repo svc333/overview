@@ -235,6 +235,12 @@ With the latest updates and improvements from April, you can use the following n
 ## Compute
 {: #compute_category}
 
+### Kubernetes Dashboard access comes to the {{site.data.keyword.containerlong_notm}}
+
+{{site.data.keyword.containerlong_notm}} now supports direct access to the Kubernetes Dashboard through the {{site.data.keyword.Bluemix_notm}} console. This simplified path to the dashboard offers an enchanced user experience for cluster management and resource visualization. Find out more details on the [{{site.data.keyword.Bluemix_notm}} blog](https://www.ibm.com/blogs/bluemix/2018/04/kubernetes-dashboard-access/).
+
+[See the documentation for information about getting started with the native Kubernetes environment on {{site.data.keyword.Bluemix_notm}}](/docs/containers/container_index.html). If you have questions, you can post them in the Slack at https://ibm-container-service.slack.com/.
+
 ### Latest updates for buildpacks
 
 Visit the following pages for a cumulative list of the latest updates:
