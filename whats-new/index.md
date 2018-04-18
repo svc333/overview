@@ -8,7 +8,6 @@ lastupdated: "2018-04-04"
 
 ---
 
-
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
 
@@ -45,7 +44,7 @@ If your services and data centers are located in Europe, {{site.data.keyword.Blu
 ### Withdrawal of support for TLS 1.0 and 1.1
 New as of: 28 November 2017
 
-On 01 March 2018 {{site.data.keyword.Bluemix_notm}} will withdraw support for TLS 1.0 and TLS 1.1 across many of our cloud products and services as part of our commitment to offering a cloud that is secure to the core and in alignment with industry best practices for security and data privacy. To learn more about how this change affects you and what actions you might need to take, see [Withdrawal of support for TLS 1.0 and 1.1](/docs/troubleshoot/appsectls.html).
+On 1 March 2018 {{site.data.keyword.Bluemix_notm}} will withdraw support for TLS 1.0 and TLS 1.1 across many of our cloud products and services as part of our commitment to offering a cloud that is secure to the core and in alignment with industry best practices for security and data privacy. To learn more about how this change affects you and what actions you might need to take, see [Withdrawal of support for TLS 1.0 and 1.1](/docs/troubleshoot/appsectls.html).
 
 ### A new way to organize resources within your account
 New as of: 16 November 2017
