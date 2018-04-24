@@ -4,7 +4,7 @@ copyright:
 
   years: 2015, 2018
 
-lastupdated: "2018-04-04"
+lastupdated: "2018-04-24"
 
 ---
 
@@ -278,6 +278,20 @@ The Liberty buildpack v3.9 provides new monthly Liberty runtime version and cont
 
 ## Services
 {: #services_category}
+
+### {{site.data.keyword.streaminganalyticsshort}} introduces new service plans with container-based infrastructure
+New as of: 20 April 2018
+
+{{site.data.keyword.streaminganalyticsshort}} is now running on a Kubernetes container-based infrastructure that provides security and availability advantages to the service.
+ 
+You can access this new container-based infrastructure using the [v2 service plans](/docs/services/StreamingAnalytics/service_plans.html#service_plans). You can choose the {{site.data.keyword.streaminganalyticsshort}} plan that is best suited for the work that you need to do. The v2 service plans include the following enhancements:
+ 
+* [IBM Streams QSE with Docker](https://www-01.ibm.com/marketing/iwm/iwm/web/preLogin.do?source=swg-ibmistvi)![External link icon](../../icons/launch-glyph.svg "External link icon"): Check out the [ Development Guide](https://developer.ibm.com/streamsdev/docs/cloud-beta-devguide/)![External link icon](../../icons/launch-glyph.svg "External link icon") to learn how to use the new Streams QSE with RHEL 7 running in a Docker environment to compile and deploy your applications with the new {{site.data.keyword.streaminganalyticsshort}} v2 plans. 
+* [{{site.data.keyword.streaminganalyticsshort}} v2 REST API](https://console.bluemix.net/apidocs/1939-streaming-analytics-v2#introduction)![External link icon](../../icons/launch-glyph.svg "External link icon")
+* [New starter and sample applications](https://developer.ibm.com/streamsdev/docs/cloud-beta-samples/) ![External link icon](../../icons/launch-glyph.svg "External link icon")
+* [High-availability enhancements in the {{site.data.keyword.streaminganalyticsshort}} service](/docs/services/StreamingAnalytics/c_ha.html#consistent-regions)
+* [Problem determination features in the {{site.data.keyword.streaminganalyticsshort}} service](https://developer.ibm.com/streamsdev/2018/02/15/streaming-analytics-console-gives-ways-find-fix-errors-beta-plans/)![External link icon](../../icons/launch-glyph.svg "External link icon")
+* [Monitoring how operators behave and guaranteed tuple processing in the cloud](https://developer.ibm.com/streamsdev/2018/02/15/monitor-operators-behave-ensure-resource-optimization/)![External link icon](../../icons/launch-glyph.svg "External link icon")
 
 ### {{site.data.keyword.iva_full_notm}} is now beta!
 New as of: 16 March 2018
