@@ -4,7 +4,7 @@ copyright:
 
   years: 2017, 2018
 
-lastupdated: "2017-11-10"
+lastupdated: "2018-04-12"
 
 ---
 
@@ -20,7 +20,7 @@ lastupdated: "2017-11-10"
 
 アクセス管理によって、どのユーザーがアカウント内のリソースを表示、作成、使用、および管理できるのかを制御することができます。 アクセスを認可するために、役割を割り当てることができます。役割は、プラットフォーム管理タスクの実行およびアカウント・リソースへのアクセスを行うためのアクセス・レベルをユーザーに許可します。
 
-{{site.data.keyword.Bluemix_notm}} でのアクセス管理の方法は、アクセス権限を割り当てたいリソースのタイプによって異なります。 {{site.data.keyword.Bluemix_notm}} Identity and Access Management (IAM) は、{{site.data.keyword.Bluemix_notm}} プラットフォーム全体で一環してリソースを管理するためのアクセス管理システムです。 {{site.data.keyword.Bluemix_notm}} インフラストラクチャー・リソースおよび Cloud Foundry リソースは、Cloud IAM を使用して管理されません。 これらのリソース・タイプには独自のアクセス管理システムがあります。 複数のリソース・タイプを組み合わせて使用する場合は、各タイプを別々に管理します。 インフラストラクチャー・リソースへのアクセス権限を割り当てるには、SoftLayer アカウント内で許可を設定します。 Cloud Foundry リソースへのアクセス権限を割り当てるには、コンソールの「ID およびアクセス」セクションで「Cloud Foundry を使用した割り当て (Assign by using Cloud Foundry)」オプションを使用します。
+{{site.data.keyword.Bluemix_notm}} でのアクセス管理の方法は、アクセス権限を割り当てたいリソースのタイプによって異なります。 {{site.data.keyword.Bluemix_notm}} Identity and Access Management (IAM) は、{{site.data.keyword.Bluemix_notm}} プラットフォーム全体で一環してリソースを管理するためのアクセス管理システムです。 {{site.data.keyword.Bluemix_notm}} インフラストラクチャー・リソースおよび Cloud Foundry リソースは、Cloud IAM を使用して管理されません。 これらのリソース・タイプには独自のアクセス管理システムがあります。 複数のリソース・タイプを組み合わせて使用する場合は、各タイプを別々に管理します。 [インフラストラクチャー・リソースへのアクセス権限を割り当てる](/docs/iam/infrastructureaccess.html#infrapermission)には、SoftLayer アカウント内で許可を設定します。 [Cloud Foundry リソースへのアクセス権限を割り当てる](/docs/iam/cfaccess.html#cfaccess)には、コンソールの「ID およびアクセス」セクションで「Cloud Foundry を使用した割り当て (Assign by using Cloud Foundry)」オプションを使用します。
 
 ## アクセス管理を行う許可を持っているユーザー
 

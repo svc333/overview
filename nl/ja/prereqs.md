@@ -3,7 +3,7 @@
 
 copyright:
   years: 2016, 2018
-lastupdated: "2017-01-10"
+lastupdated: "2018-04-02"
 
 ---
 
@@ -27,7 +27,7 @@ lastupdated: "2017-01-10"
  * Edge: Windows の最新バージョン
  * Safari: Mac の最新バージョン
 
-## Cloud Foundry
-{: #cf}
+## コマンド・ライン・インターフェース (CLI)
+{: #cli}
 
-バージョン 6.5.1 以降の Cloud Foundry コマンド・ライン・インターフェース
+`bluemix cli` は絶えず変更されるため、Cloud Foundry `cf cli` もバンドルする[最新バージョン](/docs/cli/reference/bluemix_cli/all_versions.html)を使用することをお勧めします。 

@@ -1,17 +1,14 @@
 ---
 
- 
-
 copyright:
 
   years: 2015, 2018
 
-lastupdated: "2018-03-15" 
+lastupdated: "2018-04-04"
 
 ---
 
-
-{:shortdesc: .shortdesc} 
+{:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
 
 # {{site.data.keyword.Bluemix_notm}} の新機能
@@ -23,10 +20,15 @@ lastupdated: "2018-03-15"
 ## {{site.data.keyword.Bluemix_notm}} プラットフォーム
 {: #platform_category}
 
-### SoftLayer アカウントと {{site.data.keyword.Bluemix_notm}} アカウントのリンク 
+### アクセス・グループを使用した迅速なアクセス権限の割り当て
+最新情報: 2018 年 4 月 3 日
+
+可能な限り最小限のポリシーを使用してアクセス権限を素早く割り当てたい場合、アクセス・グループを使用して行うことができるようになりました。アクセス・グループを使用すると、ユーザーとサービス ID のセットをグループ化して、グループのすべてのメンバーに適用される単一のポリシーを割り当てることができます。アクセス・グループを使用することで、アカウント内のユーザーとサービス ID へのアクセス権限の管理に費やす時間を抑えることができます。詳しくは、「[New feature: Access groups](https://www.ibm.com/blogs/bluemix/2018/04/access-groups/){: new_window} ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")」のブログ投稿を確認してください。
+
+### SoftLayer アカウントと {{site.data.keyword.Bluemix_notm}} アカウントのリンク
 最新情報: 2018 年 3 月 1 日
 
-SoftLayer アカウントを {{site.data.keyword.Bluemix_notm}} アカウントとリンクして、単一のロケーションである {{site.data.keyword.Bluemix_notm}} コンソールにログインし、Infrastructure as a Service (IaaS) および Platform as a Service (PaaS) の両方のリソースにアクセスできます。{{site.data.keyword.Bluemix_notm}} を初めて使用する場合、アカウントを作成してリンクすると、{{site.data.keyword.Bluemix_notm}} の無料トライアルを入手できます。Paas リソースを含む {{site.data.keyword.Bluemix_notm}} アカウントをすでにお持ちの場合は、アカウントをリンクすることで、IaaS リソースおよび PaaS リソースの両方に関する請求を 1 つにまとめることができます。アカウントを素早くリンクするには、[IaaS アカウントと PaaS アカウントをリンクする手順](https://www.ibm.com/blogs/bluemix/2018/03/follow-steps-link-iaas-paas-accounts/){: new_window} ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")を確認してください。
+SoftLayer アカウントを {{site.data.keyword.Bluemix_notm}} アカウントとリンクして、単一のロケーションである {{site.data.keyword.Bluemix_notm}} コンソールにログインし、Infrastructure as a Service (IaaS) および Platform as a Service (PaaS) の両方のリソースにアクセスできます。 {{site.data.keyword.Bluemix_notm}} を初めて使用する場合、アカウントを作成してリンクすると、{{site.data.keyword.Bluemix_notm}} の無料トライアルを入手できます。 Paas リソースを含む {{site.data.keyword.Bluemix_notm}} アカウントをすでにお持ちの場合は、アカウントをリンクすることで、IaaS リソースおよび PaaS リソースの両方に関する請求を 1 つにまとめることができます。 アカウントを素早くリンクするには、[IaaS アカウントと PaaS アカウントをリンクする手順](https://www.ibm.com/blogs/bluemix/2018/03/follow-steps-link-iaas-paas-accounts/){: new_window} ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")を確認してください。
 
 
 ### {{site.data.keyword.Bluemix_notm}} Foundry Service 米国東部地域が使用可能になりました。
@@ -47,7 +49,7 @@ SoftLayer アカウントを {{site.data.keyword.Bluemix_notm}} アカウント�
 ### アカウント内でリソースを編成する新しい方法
 最新情報: 2017 年 11 月 16 日
 
-リソース・グループは、アカウント・リソースのカスタマイズ可能なグループを作成するための新しい方法です。グループとその内部のリソースへのアクセスは、Identity and Access Management (IAM) を使用して管理されます。 すべてのユーザーがデフォルトのリソース・グループから作業を始めます。 このリソース・グループの名前を変更した上で、新規サービス・インスタンスをカタログから作成したときに、そのインスタンスをリソース・グループに追加できます。 
+リソース・グループは、アカウント・リソースのカスタマイズ可能なグループを作成するための新しい方法です。グループとその内部のリソースへのアクセスは、Identity and Access Management (IAM) を使用して管理されます。 すべてのユーザーがデフォルトのリソース・グループから作業を始めます。 このリソース・グループの名前を変更した上で、新規サービス・インスタンスをカタログから作成したときに、そのインスタンスをリソース・グループに追加できます。
 
 従量課金 (PAYG) またはサブスクリプションのアカウントを持つユーザーの場合、追加のリソース・グループを作成して、 割り当て量の管理とリソース・セットの課金使用量の表示をさらに簡単に行うことができます。 また、リソースをグループにまとめて、複数サービスへのアクセス権限を一度に簡単にユーザーに割り当てられるようにすることも可能です。 自分のアカウント用のリソース・グループの処理について詳しくは、『[リソース・グループの管理](/docs/account/resourcegroups.html#rgs)』を参照してください。
 
@@ -55,10 +57,10 @@ SoftLayer アカウントを {{site.data.keyword.Bluemix_notm}} アカウント�
 最新情報: 2017 年 11 月 16 日
 
 自分の {{site.data.keyword.Bluemix_notm}} アカウント内に[リソース・グループ](/docs/overview/resource-groups.html#whatis)を導入することで、アクセス権限を割り当てるための新しい方法を利用できるようになりました。 複数のユーザーおよびサービス ID にリソース・グループ内のすべてのサービスへのアクセス権を割り当てることができるため、複数リソースへのアクセス権限を一度に素早く割り当てることができます。 リソース・グループ内の一部のサービスのみへのアクセス権限を割り当てることによって、ユーザーまたはサービス ID ごとにアクセス権限をカスタマイズすることもできます。あるいは単に、サービス・インスタンス・レベルで個別のリソースへのアクセス権限を割り当てることを選択します。
- 
+
 IAM を使用して活用できる機能について詳しくは、『[Cloud IAM の機能にはどのようなものがありますか?](/docs/iam/index.html#features)』を参照してください。
 
-### ダッシュボード・ビューのカスタマイズ 
+### ダッシュボード・ビューのカスタマイズ
 最新情報: 2017 年 11 月 16 日
 
 アカウント内のすべてのリソースを {{site.data.keyword.Bluemix_notm}} コンソール内のダッシュボードから表示および管理できます。 また、フィルターを設定してビューをカスタマイズできるようになりました。 例えば、リソース・グループを基準にフィルター操作して、リソース・グループ内の特定のリソースを表示できます。 地域または Cloud Foundry スペースを基準にフィルター操作することもできます。 詳しくは、『[ダッシュボードでのリソースの管理](/docs/overview/ui.html#dashboardview)』を参照してください。
@@ -67,7 +69,7 @@ IAM を使用して活用できる機能について詳しくは、『[Cloud IAM
 ### サポート・センター
 最新情報: 2017 年 11 月 2 日
 
-情報を検索したり、開発者コミュニティーに質問を投稿したり、チケットを管理したりすることができる新しいサポート・センターができました。 {{site.data.keyword.Bluemix_notm}} コンソールのメニュー・バーで**「サポート」>「サポート・センター」**にアクセスしてください。 
+情報を検索したり、開発者コミュニティーに質問を投稿したり、チケットを管理したりすることができる新しいサポート・センターができました。 {{site.data.keyword.Bluemix_notm}} コンソールのメニュー・バーで**「サポート」>「サポート・センター」**にアクセスしてください。
 
 ### IBM Cloud の導入
 最新情報: 2017 年 10 月 31 日
@@ -84,9 +86,9 @@ Bluemix は IBM Cloud になりました。 新しい名前の発表のみで、
 
 Identity and Access Management (IAM) では、サービス ID を作成する機能を提供するようになりました。サービス ID は、アプリが {{site.data.keyword.Bluemix_notm}} サービスでの認証に使用できる ID と考えることができます。 個人ユーザーの資格情報を使用する代わりに、関連付けられた API キーとアクセス許可を持つサービス ID を作成できます。API キーとアクセス許可は、その ID によって認証を行う任意のアプリケーションのアクセスのレベルを制御するためにサービス ID に割り当てられたサービス・ポリシーの形式となっています。
 
-この機能のメリットと、使用を開始する方法について詳しくは、[Introducing IBM Cloud IAM Service IDs and API Keys](https://www.ibm.com/blogs/bluemix/2017/10/introducing-ibm-cloud-iam-service-ids-api-keys/){: new_window} ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン") を参照してください。 
+この機能のメリットと、使用を開始する方法について詳しくは、[Introducing IBM Cloud IAM Service IDs and API Keys](https://www.ibm.com/blogs/bluemix/2017/10/introducing-ibm-cloud-iam-service-ids-api-keys/){: new_window} ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン") を参照してください。
 
-### {{site.data.keyword.Bluemix_notm}} グローバル・カタログ 
+### {{site.data.keyword.Bluemix_notm}} グローバル・カタログ
 最新情報: 2017 年 7 月 27 日
 
 {{site.data.keyword.Bluemix_notm}} は、コンソールの前回の更新でコンソール内の単一のロケーションからパブリック地域を管理するように拡張され、カタログから選択するアイテムの選択とデプロイのプロセスをさらに合理化するグローバル・カタログを含むようになりました。 コンソールで選択した地域にかかわらず、すべてのパブリック地域にわたって使用可能なすべてのサービスをカタログから表示できるようになりました。 カタログからタイルを選択すると、サービスを使用可能な地域を確認し、それをデプロイする場所を選択することができます。
@@ -132,7 +134,7 @@ Identity and Access Management (IAM) では、サービス ID を作成する機
 
 保守更新の承認およびスケジュール変更、さらには、専用環境に保守更新をデプロイできる期間を指定する保守更新期間のセットアップをユーザーが行えるようにするために、新しいユーザー権限が導入されました。
 詳しくは、[ビデオ・デモンストレーション](https://youtu.be/7c7jyp_JJWU){: new_window} ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン") を参照してください。
- 
+
 ### 管理コンソールについての 12 月の更新
 {: #decemberadminconsole}
 最新情報: 2017 年 12 月 14 日
@@ -143,10 +145,10 @@ Identity and Access Management (IAM) では、サービス ID を作成する機
 
 通知サブスクリプションで、しきい値のタイプとして「平均 CPU」が追加されました。 CPU 使用量 (すべての DEA および Diego セルでの平均) が特定のしきい値を超えたかまたは下回ったときに通知を受け取ることができるようになりました。
 
-#### EU 内のクラウド・システムへのアクセスの制御 
+#### EU 内のクラウド・システムへのアクセスの制御
 
 管理コンソールは、クラウド・リソースをサポートする EU における新機能 (フランクフルトから始まる) と結合して、IBM 担当者によるアクセスを制御するポリシーを定義する機能を持つようになりました。 アクセス制御ポリシーを管理したり、アクセス要求を表示したり、要求に対してアクションを実行したり、履歴を追跡したりすることができます。
-  
+
 #### セキュリティー・レポート内の情報の拡張
 
 セキュリティー・レポートには、ユーザーおよび組織の固有 ID に加えて、分かりやすい名前も含まれるようになりました。
@@ -160,11 +162,11 @@ Identity and Access Management (IAM) では、サービス ID を作成する機
 #### {{site.data.keyword.cloudant_short_notm}} サービス使用メトリックに対する更新
 
   * {{site.data.keyword.cloudant_short_notm}} の使用メトリックの計算が、{{site.data.keyword.cloudant_short_notm}} クラスター内のすべてのノードにわたる使用 GB および使用可能 GB の合計量を反映するように更新されました。 通常、{{site.data.keyword.cloudant_short_notm}} クラスターには 3 つのノードが含まれ、高可用性および災害復旧のためにデータベース内の文書がクラスター内のすべてのノードで複製されます。 8 月の更新では、{{site.data.keyword.cloudant_short_notm}} ダイヤル (_「リソース使用量」>「サービス」_ビューで使用可能) 内の容量メトリックは、クラスター内のすべてのノードにわたるスペースを示します。 例えば、1 つの {{site.data.keyword.cloudant_short_notm}} クラスターが 3 つのノードで構成されていて、それぞれの容量が 1000 GB の場合、容量限度は 3000 GB となります。 その容量のうち 1500 GB が使用されている場合、{{site.data.keyword.cloudant_short_notm}} 使用メトリックは 50% になります。
- 
+
 #### 保守更新のスケジューリングに対する更新
-  
+
   * {{site.data.keyword.Bluemix_dedicated_notm}} では、ご使用の専用環境をシステム更新のデプロイメントのために使用できる日時をお客様が管理できます。 お客様は、保守更新を専用環境にデプロイ可能な日時とデプロイ不可能な日時を表す、使用可能な時間枠を定義できます。 8 月の更新では、「_使用可能な更新ウィンドウ (Available Update Windows)_」は「_更新ウィンドウ_」という名前に変更され、「_使用不可の更新ウィンドウ (Unavailable Update Windows)_」は「_ブラックアウト・ウィンドウ_」という名前に変更されました。 用語が変更されただけではなく、お客様がブラックアウト (使用不可) の日付を定義する際の柔軟性とマージンが大きくなりました。 要求されたブラックアウト日は IBM の承認が必要であり、承認を得るために要する時間は変動します。 要求したブラックアウト日が承認された場合、IBM は選択不可の期間中に現在スケジュールされている既存の更新を取り消します。 さらに IBM は、これらの更新用に新たなレコードを作成し、承認されたブラックアウト日以外の期間に更新をスケジュールします。
-  
+
 詳しくは、[ビデオ・デモンストレーション](https://bit.ly/2eCQNvu){: new_window} ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン") を参照してください。
 
 ### 管理コンソールについての 7 月の更新
@@ -177,7 +179,7 @@ Identity and Access Management (IAM) では、サービス ID を作成する機
 
   * 前回の更新 (6 月) では、メモリーおよびディスクの使用量の「履歴」ビューで、直近の 48 時間、30 日間、および 5 カ月間の使用量データの表示を導入しました。 この最新の 7 月の更新では、リソース使用量データを表示する対象期間をカスタマイズできるように、リソース使用量履歴機能が拡張されました。 毎時、日時、月次のビューは残りますが、メモリーとディスクの使用量メトリックを表示する開始日時と期間をユーザーが指定できるようになりました (例えば、2017 年 7 月 1 日からの 15 日間のメモリー使用量を表示します)。
   * CLI でリソース・メトリック履歴を表示する新規 CLI コマンドが導入されました。 `_cf ba resource-metrics-history -help_` と入力すると、このコマンドのパラメーターと使用法の例が表示されます。
- 
+
 詳しくは、[ビデオ・デモンストレーション](https://youtu.be/QBij0jB5qAk){: new_window} ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン") を参照してください。
 
 ### 管理コンソールについての 6 月の更新
@@ -190,19 +192,19 @@ Identity and Access Management (IAM) では、サービス ID を作成する機
 
   * システム・リソース
     * メモリーおよびディスクの使用量の「履歴」ビューは、48 時間、30 日間、および 5 カ月間のデータを表示するように更新されました。
-    * 「履歴」ビューを生成するために管理コンソールのメトリック API がどのように使用されるかを示す「詳細はこちら」リンクが用意されています。 
+    * 「履歴」ビューを生成するために管理コンソールのメトリック API がどのように使用されるかを示す「詳細はこちら」リンクが用意されています。
   * アプリケーション
     * 環境内のすべてのアプリケーションの使用量情報を提供します。
-    * アプリケーション名、物理メモリー、予約済みメモリー、物理ディスク、予約済みディスク、物理 CPU、または組織名によってソートします。 
+    * アプリケーション名、物理メモリー、予約済みメモリー、物理ディスク、予約済みディスク、物理 CPU、または組織名によってソートします。
     * アプリケーション名および組織名によって結果をフィルター操作するための検索機能が提供されています。
     * 「アプリケーション」ビューを生成するために管理コンソールのメトリック API がどのように使用されるかを示す「詳細はこちら」リンクが用意されています。
- 
+
 詳しくは、『[リソース使用量](/docs/hybrid/index.html#resourceusage)』を参照してください。
 
 #### メトリックの API に対する更新
 
   * 環境統計が追加されました。メモリーおよびディスクの消費量について日ごとまたは月ごとの平均を提供します。
-  
+
 詳しくは、『[メトリックの API](/docs/hybrid/index.html#envappmetricsapi)』を参照してください。
 
 
@@ -214,8 +216,8 @@ Identity and Access Management (IAM) では、サービス ID を作成する機
 
  * 「状況」ページが改善され、{{site.data.keyword.Bluemix_notm}} プラットフォームおよびランタイムに影響するインシデントに関してよりきめ細かい診断が含まれるようになりました。
  * セキュリティーの「レポートおよびログ」ページの改善:
-   * レポートは表形式で表示されるようになりました。レポートの表示と検索を単純化し、レポート・カテゴリー、ファイル名、または作成日によってソートできるようになっています。 
-   * フィルター操作が機能拡張され、複数のカテゴリーの同時フィルター操作が含まれるようになりました。 
+   * レポートは表形式で表示されるようになりました。レポートの表示と検索を単純化し、レポート・カテゴリー、ファイル名、または作成日によってソートできるようになっています。
+   * フィルター操作が機能拡張され、複数のカテゴリーの同時フィルター操作が含まれるようになりました。
    * レポートの内容を表示するためのフルスクリーン・モード。
    * 「レポート書き込み」権限を持つ管理ユーザーのためのレポートを削除する機能。
    * レポート・リストの表示を高速化。連続スクロールによってオンデマンドで順次ロードし、全体的なパフォーマンスを向上させます。
@@ -273,30 +275,37 @@ Liberty ビルドパック v3.9 は、新規の月次の Liberty ランタイム
 ## サービス
 {: #services_category}
 
-### {{site.data.keyword.iva_full}} は、現在ベータになりました。
+### {{site.data.keyword.iva_full_notm}} は、現在ベータになりました。
 最新情報: 2018 年 3 月 16 日
 
-[{{site.data.keyword.iva_full}}](https://console.bluemix.net/catalog/services/voice-agent-with-watson)![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン") を使用すると、顧客が電話で通話したり話しかけたりすることができる、Watson サービスをベースとするコグニティブ・ボイス・エージェントを作成できます。バックボーンに Watson の人工知能があるため、ボイス・エージェントは会話のようにコミュニケーションすることができ、ボイス・エージェント内で複雑な対話を処理したり顧客の通話を解決したりすることができます。
+[{{site.data.keyword.iva_full}}](https://console.bluemix.net/catalog/services/voice-agent-with-watson)![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン") を使用すると、顧客が電話で通話したり話しかけたりすることができる、Watson サービスをベースとするコグニティブ・ボイス・エージェントを作成できます。 バックボーンに Watson の人工知能があるため、ボイス・エージェントは会話のようにコミュニケーションすることができ、ボイス・エージェント内で複雑な対話を処理したり顧客の通話を解決したりすることができます。
 
 このベータ版には、以下の主要機能が用意されています。
 
-* ボイス・エージェントと必要なすべての Watson サービスを単一ステップで作成し、今まで以上に簡単に開始する。 
+* ボイス・エージェントと必要なすべての Watson サービスを単一ステップで作成し、今まで以上に簡単に開始する。
 * ボイス・エージェントから人間のコンタクト・センター・エージェントまたはその他の宛先にコールを転送する。
 * 発着信詳細記録、転記、および {{site.data.keyword.conversationshort}} によって {{site.data.keyword.cloudant_short_notm}} データベースに変換されたイベントを転送するようにボイス・エージェントを構成し、コール・データを収集および分析する。
-* 新しい「_使用量_」ページでサービス使用量をモニターし、コール・ログを表示する。今月の簡単な統計の表示、コール・ログの検索とフィルター、個々のコールのシステム・メッセージの表示などを行うことができます。
+* 新しい「_使用量_」ページでサービス使用量をモニターし、コール・ログを表示する。 今月の簡単な統計の表示、コール・ログの検索とフィルター、個々のコールのシステム・メッセージの表示などを行うことができます。
 * ポート 5061 上で SIP TLS (SIP URI)、および Secure Real-Time Transport Protocol (SRTP) を使用して、メディア暗号化でセキュアなコールを確立する。
 * より高い柔軟性を得るために、他の {{site.data.keyword.cloud_notm}} スペース内の {{site.data.keyword.speechtotextfull}} サービス・インスタンスおよび {{site.data.keyword.texttospeechfull}} サービス・インスタンスに接続する。
 
 まず、『[{{site.data.keyword.iva_short}}](/docs/services/voice-agent/getting-started.html)』の資料を参照してください。
 
+### {{site.data.keyword.visualrecognitionshort}} に対する更新
+最新情報: 2018 年 3 月 14 日
+
+ディープラーニングのニューラル・ネット・ベースの種別として、新規の「カスタム種別」モデル・トレーニングが生成されるように、{{site.data.keyword.visualrecognitionfull}} サービスは更新されました。これらのディープラーニング・モデルを生成するために必要な追加の計算では、新規モデルのトレーニングのために追加の時間が必要になることがあります。
+
+現在、既存のカスタム種別を引き続き更新およびリトレーニングすることができ、このディープラーニングの新しいマシン・モデル・フォーマットに対しては更新されません。
+
 ### {{site.data.keyword.streaminganalyticsshort}} の更新
-最新情報: 2018 年 2 月 14 日 
+最新情報: 2018 年 2 月 14 日
 
 [{{site.data.keyword.streaminganalyticsshort}} サービス](https://console.bluemix.net/catalog/services/streaming-analytics){: new_window}![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")内のコンソールの [ベータ - エントリー・プランおよびベータ - エンハンスト・プラン](/docs/services/StreamingAnalytics/beta_plans.html#beta_plans)には、いくつかの機能拡張が含まれています。
- 
-* [新しい IBM Streams QSE for Docker](https://www-01.ibm.com/marketing/iwm/iwm/web/preLogin.do?source=swg-ibmistvi){: new_window} ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン"): 新しい Streams QSE を、 Docker 環境で稼働する RHEL 7 と共に使用し、新しい {{site.data.keyword.streaminganalyticsshort}} ベータ・プランでアプリケーションをコンパイルおよびデプロイする方法については、『[Beta Development Guide](https://developer.ibm.com/streamsdev/docs/cloud-beta-devguide/){: new_window} ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")』を確認してください。 
+
+* [新しい IBM Streams QSE for Docker](https://www-01.ibm.com/marketing/iwm/iwm/web/preLogin.do?source=swg-ibmistvi){: new_window} ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン"): 新しい Streams QSE を、 Docker 環境で稼働する RHEL 7 と共に使用し、新しい {{site.data.keyword.streaminganalyticsshort}} ベータ・プランでアプリケーションをコンパイルおよびデプロイする方法については、『[Beta Development Guide](https://developer.ibm.com/streamsdev/docs/cloud-beta-devguide/){: new_window} ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")』を確認してください。
 * [{{site.data.keyword.streaminganalyticsshort}} v2 REST API](https://console.bluemix.net/apidocs/1939-streaming-analytics-v2#introduction){: new_window} ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")
-* [新しいスターターおよびサンプル・アプリケーション](https://developer.ibm.com/streamsdev/docs/cloud-beta-samples/) 
+* [新しいスターターおよびサンプル・アプリケーション](https://developer.ibm.com/streamsdev/docs/cloud-beta-samples/)
 * [{{site.data.keyword.streaminganalyticsshort}} サービスへのハイ・アベイラビリティー機能拡張](/docs/services/StreamingAnalytics/consistentregions.html#consistentregions)
 * [New problem determination features in the beta version of the {{site.data.keyword.streaminganalyticsshort}} service](https://developer.ibm.com/streamsdev/2018/02/15/streaming-analytics-console-gives-ways-find-fix-errors-beta-plans/){: new_window} ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")
 * [Monitoring how operators behave and guaranteed tuple processing in the cloud](https://developer.ibm.com/streamsdev/2018/02/15/monitor-operators-behave-ensure-resource-optimization/){: new_window} ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")
@@ -304,11 +313,11 @@ Liberty ビルドパック v3.9 は、新規の月次の Liberty ランタイム
 ### {{site.data.keyword.keymanagementservicelong_notm}} をシドニー地域に拡張
 最新情報: 2018 年 1 月 31 日
 
-本日付けで、{{site.data.keyword.keymanagementserviceshort}} 暗号鍵管理サービスは、シドニー地域で利用可能になります。シドニーは、{{site.data.keyword.keymanagementserviceshort}} ユーザーに GA ステータスを提供する、米国南部 (ダラス) およびロンドンに次いで 3 つ目の地域です。
+本日付けで、{{site.data.keyword.keymanagementserviceshort}} 暗号鍵管理サービスは、シドニー地域で利用可能になります。 シドニーは、{{site.data.keyword.keymanagementserviceshort}} ユーザーに GA ステータスを提供する、米国南部 (ダラス) およびロンドンに次いで 3 つ目の地域です。
 
-{{site.data.keyword.keymanagementserviceshort}} は、{{site.data.keyword.Bluemix_notm}} に保管されているデータの暗号化に使用される鍵を管理するためのシンプルで経済的な鍵管理ソリューションを提供する暗号鍵管理サービスです。{{site.data.keyword.keymanagementserviceshort}} は、鍵の作成から、アプリケーションの使用、鍵のアーカイブ、および鍵の破壊に至るまでの鍵の全ライフサイクルを管理し、同時に、データ管理と鍵管理の職務の分離を実施します。
+{{site.data.keyword.keymanagementserviceshort}} は、{{site.data.keyword.Bluemix_notm}} に保管されているデータの暗号化に使用される鍵を管理するためのシンプルで経済的な鍵管理ソリューションを提供する暗号鍵管理サービスです。 {{site.data.keyword.keymanagementserviceshort}} は、鍵の作成から、アプリケーションの使用、鍵のアーカイブ、および鍵の破壊に至るまでの鍵の全ライフサイクルを管理し、同時に、データ管理と鍵管理の職務の分離を実施します。
 
-{{site.data.keyword.keymanagementserviceshort}} は、利用可能な IBM データ・サービスで、BYOK (Bring-Your-Own-Key – お客様が管理する暗号化) をサポートしています。BYOK によって、内部で作成されたマスター・ルートオブトラスト暗号鍵をユーザーがインポートできるようにし、{{site.data.keyword.Bluemix_notm}} に保存されている Data at Rest のセキュリティーを管理しやすくします。
+{{site.data.keyword.keymanagementserviceshort}} は、利用可能な IBM データ・サービスで、BYOK (Bring-Your-Own-Key – お客様が管理する暗号化) をサポートしています。 BYOK によって、内部で作成されたマスター・ルートオブトラスト暗号鍵をユーザーがインポートできるようにし、{{site.data.keyword.Bluemix_notm}} に保存されている Data at Rest のセキュリティーを管理しやすくします。
 
 
 ### {{site.data.keyword.containershort_notm}}: Kubernetes 1.8.x のサポート
@@ -360,7 +369,7 @@ iOS 11 通知のサポートがあります。 また、iOS10 および Android 
 #### APNS HTTP/2 のサポート
 Apple は、Apple 通知用に HTTP プロトコルのサポートを導入しました。 {{site.data.keyword.mobilepushshort}} サービスは、HTTP/2 プロトコルをサポートするようになりました。 このサポートにより、通知のペイロードを 4 KB とすることができ、スループットが向上します。また、即時フィードバック機能を提供します。 ユニバーサル証明書のサポートにより、アプリがサンドボックスと実稼働環境の両方に接続できます。
 
-#### 新規ライト・プラン 
+#### 新規ライト・プラン
 {{site.data.keyword.mobilepushshort}} サービスのライト・プランでは、毎月 10 万件の通知を無料で送信できます。 詳しくは、[Lite Plan For Push Notifications Service on Bluemix](https://www.ibm.com/blogs/bluemix/2017/06/lite-plan-push-notifications-service-bluemix/){: new_window} ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン") というブログ投稿を参照してください。
 
 
@@ -428,15 +437,15 @@ IBM App Launch for {{site.data.keyword.Bluemix_notm}} Services は、オーデ�
 
 ### {{site.data.keyword.streaminganalyticsshort}} サービスの更新: コンソールには、アプリケーション内の問題を特定するための新しい方法が含まれています。
 最新情報: 2017 年 8 月 14 日
- 
-Python および Java アプリケーションの場合、ソース・ファイルのロケーションは @spl_note アノテーションに基づいて表示されます。 
- 
+
+Python および Java アプリケーションの場合、ソース・ファイルのロケーションは @spl_note アノテーションに基づいて表示されます。
+
 詳細については、[Latest improvements to the {{site.data.keyword.streaminganalyticsshort}}](https://developer.ibm.com/streamsdev/2017/08/14/latest-improvements-streaming-analytics-console/){: new_window} ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン") を参照してください。
 
 ### IBM Cloud Monitoring が英国地域でも使用可能になりました
 最新情報: 2017 年 8 月 1 日
 
-{{site.data.keyword.monitoringlong}} サービスを使用して、メトリックを処理する際の {{site.data.keyword.Bluemix_notm}} での収集、保存、および分析の各機能を拡張します。 
+{{site.data.keyword.monitoringlong}} サービスを使用して、メトリックを処理する際の {{site.data.keyword.Bluemix_notm}} での収集、保存、および分析の各機能を拡張します。
 
 * アラートの実行。 {{site.data.keyword.monitoringlong}} は、パフォーマンスしきい値を設定し、それらのしきい値を超えたら通知を送信するために使用できる API を提供しています。 単一のサービス・インスタンスまたはアプリ・インスタンスのアラート・ルール、および一連のインスタンスについて報告するアラート・ルールを定義します。 アラートがトリガーされると、E メール、PagerDuty イベント、Web フック通知、またはそれら 3 つの任意の組み合わせで通知を受け取ります。
 
@@ -461,14 +470,14 @@ Python および Java アプリケーションの場合、ソース・ファイ�
 * 必要とする限りログを保持する。  
 
     ログは IBM クラウド・ストレージに保管されます。  ログは、必要に応じてダウンロードできます。
-	
+
 * 新規 API を使用して、保持されたログを管理し、{{site.data.keyword.IBM_notm}} クラウドの外部からログ・データを送信する。
 
 * 1 日当たりに検索可能なログの量を選択する。  
 
     1 日当たり最大 500MB、2GB、5GB、および 10GB のログ検索に使用できるさまざまなプランがあります。
 
-* 再使用可能なダッシュボードを構築し、それらを対話式にする。 
+* 再使用可能なダッシュボードを構築し、それらを対話式にする。
 
     {{site.data.keyword.loganalysisshort}} がホストする Kibana は、カスタム・ダッシュボード作成のサポートを提供します。
 
@@ -487,13 +496,13 @@ Python および Java アプリケーションの場合、ソース・ファイ�
 |-----------------------------|----------------------------|----------------|
 | IBM dashDB for Analytics    | IBM Db2 Warehouse on Cloud | 2017 年 7 月 18 日  |
 {: caption="表 1. サービス名の変更" caption-side="top"}
- 
-Db2 Warehouse on Cloud および Db2 on Cloud の更新の累積リストについては、 [What's New in Db2 Warehouse on Cloud and Db2 on Cloud](http://www.ibm.com/support/docview.wss?uid=swg21961758){: new_window} ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン") を参照してください。 
+
+Db2 Warehouse on Cloud および Db2 on Cloud の更新の累積リストについては、 [What's New in Db2 Warehouse on Cloud and Db2 on Cloud](http://www.ibm.com/support/docview.wss?uid=swg21961758){: new_window} ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン") を参照してください。
 
 ### IBM Cloud Monitoring が米国南部地域で使用可能になりました
 最新情報: 2017 年 7 月 17 日
 
-{{site.data.keyword.monitoringlong}} サービスを使用して、メトリックを処理する際の {{site.data.keyword.Bluemix_notm}} での収集、保存、および分析の各機能を拡張します。 
+{{site.data.keyword.monitoringlong}} サービスを使用して、メトリックを処理する際の {{site.data.keyword.Bluemix_notm}} での収集、保存、および分析の各機能を拡張します。
 
 * アラートの実行。 {{site.data.keyword.monitoringlong}} は、パフォーマンスしきい値を設定し、それらのしきい値を超えたら通知を送信するために使用できる API を提供しています。 単一のサービス・インスタンスまたはアプリ・インスタンスのアラート・ルール、および一連のインスタンスについて報告するアラート・ルールを定義します。 アラートがトリガーされると、E メール、PagerDuty イベント、Web フック通知、またはそれら 3 つの任意の組み合わせで通知を受け取ります。
 
@@ -522,7 +531,7 @@ Db2 Warehouse on Cloud および Db2 on Cloud の更新の累積リストにつ�
 <li>Orion Web IDE 内の UI テーマのサポート。</li>
 </ul>
 
-### {{site.data.keyword.uccr_short}} ベータ 
+### {{site.data.keyword.uccr_short}} ベータ
 最新情報: 2017 年 6 月 23 日
 
 {{site.data.keyword.uccr_short}} は、クラウド・ネイティブおよびオンプレミスの両方のデプロイメント・ツールをサポートするエンタープライズ規模のリリース管理ソリューションです。
@@ -560,7 +569,7 @@ Apache Spark は、Stocator テクノロジーに基づいたストレージ・�
 
 {{site.data.keyword.Bluemix_notm}} 上の {{site.data.keyword.mobilepush}} サービスに使用可能な新規の更新を以下に示します。
 
-**ライト・プラン**: {{site.data.keyword.mobilepush}}サービス用に、既存のベーシック・プランに加えて、新たにライト・プランを導入しました。 この新しいプランでは、ユーザーが 1 カ月当たり最大 10 万件のデジタル・メッセージを無料で送信できます。 ライト・プランからベーシック・プランにアップグレードした場合、ユーザーは、100 万件のデジタル・メッセージを送ると料金を請求されます。100 万件のメッセージのカウントは、ライト・プランがベーシック・プランにアップグレードされたときに開始されます。
+**ライト・プラン**: {{site.data.keyword.mobilepush}}サービス用に、既存のベーシック・プランに加えて、新たにライト・プランを導入しました。 この新しいプランでは、ユーザーが 1 カ月当たり最大 10 万件のデジタル・メッセージを無料で送信できます。 ライト・プランからベーシック・プランにアップグレードした場合、ユーザーは、100 万件のデジタル・メッセージを送ると料金を請求されます。 100 万件のメッセージのカウントは、ライト・プランがベーシック・プランにアップグレードされたときに開始されます。
 
 **モニタリング**: 送信された通知と {{site.data.keyword.mobilepush}} サービス・コンソールで登録されたデバイスに関する洞察を得ることができるようになりました。 メッセージ・レベルのトラッキングに REST API を使用することもできます。 メッセージ配信から、メッセージのディスパッチングおよびメッセージ受信まで、Web フックを構成することによって詳細を取得できます。  『[{{site.data.keyword.mobilepush}}のモニタリング (Monitoring for {{site.data.keyword.mobilepush}})](/docs/services/mobilepush/t_push_monitoring.html#monitor-notifications)』を参照してください。
 
@@ -587,7 +596,7 @@ IBM Data Science Experience (DSX) 内で Jupyter ノートブックを使用し�
 
 {{site.data.keyword.sparkl}} は、複雑なデータからの洞察を利用するアルゴリズムを作成するための Apache Spark 2.1 のサポートを導入しています。 Apache Spark 2.1 は、イベント時間ウォーターマークおよび Kafka 0.10 のサポートが追加されたため、構造化ストリーミングに大いに役立ちます。 Apache Spark 2.1 はまた、Spark SQL、SparkR、および MLlib モジュールでの安定度と使いやすさを向上させることにも重点を置いています。 Spark 2.1 について詳しくは、[Spark Release 2.1.0](http://spark.apache.org/releases/spark-release-2-1-0.html) を参照してください。
 
-{{site.data.keyword.sparkl}} または新しいバージョンの Apache Spark 2.1 に関連したどのようなご質問にも回答いたします。sparksrv@us.ibm.com にお問い合わせください。 
+{{site.data.keyword.sparkl}} または新しいバージョンの Apache Spark 2.1 に関連したどのようなご質問にも回答いたします。sparksrv@us.ibm.com にお問い合わせください。
 
 ### {{site.data.keyword.macm_short}} は非推奨となります
 最新情報: 2017 年 4 月 18 日
@@ -601,7 +610,7 @@ IBM Data Science Experience (DSX) 内で Jupyter ノートブックを使用し�
 
 STREAMING_ANALYTICS_SERVICE コンテキストを使用して、Python アプリケーションを {{site.data.keyword.streaminganalyticsshort}} サービスに送信できます。 {{site.data.keyword.streaminganalyticsshort}} サービスでは、Python 3.5 が必要です。
 
-[IBM Data Science Experience のコミュニティー・ページ](http://datascience.ibm.com){: new_window} ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン") で、ノートブック内のサンプル・ストリーム処理 Python アプリケーションを確認してください。 
+[IBM Data Science Experience のコミュニティー・ページ](http://datascience.ibm.com){: new_window} ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン") で、ノートブック内のサンプル・ストリーム処理 Python アプリケーションを確認してください。
 
 ### {{site.data.keyword.sparks}} の更新: Data Science Experience でノートブックがサポートされるようになりました
 最新情報: 2017 年 4 月 11 日
@@ -609,3 +618,4 @@ STREAMING_ANALYTICS_SERVICE コンテキストを使用して、Python アプリ
 ノートブックおよび Spark で作業するための新しいプラットフォームは Data Science Experience です。 [Data Science Experience](http://datascience.ibm.com/) に登録し、ノートブックの作成と、他のデータ・サイエンティストとの専門知識の共有を開始してください。
 
 {{site.data.keyword.sparks}} でノートブックを操作していた場合、ノートブックを Data Science Experience にマイグレーションできます。 詳しくは、[ノートブックのマイグレーションの資料](/docs/services/AnalyticsforApacheSpark/index-gentopic2.html#migration_to_dsx)を参照してください。
+

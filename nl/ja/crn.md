@@ -4,7 +4,7 @@ copyright:
 
   years: 2017, 2018
 
-lastupdated: "2017-12-15"
+lastupdated: "2018-04-02"
 
 ---
 
@@ -134,6 +134,12 @@ CRN の基本正規フォーマットは、次のとおりです。
 例えば、作業項目を追跡および計画する DevOps ツールでは単純な `GUID` インスタンス ID ("1234-5678-9012-3456") になり、autoscale グループ・サービスのポリシー・コンポーネントは階層的命名規則を使用でき、`service-id` セグメントは次のようになるといった例が考えられます。
 
 >`c7a27f55-d35e-4153-b044-8ca9155fc467/my-test-asg1/my-scaleout-policy`
+
+以下の CLI コマンドを使用して {{site.data.keyword.Bluemix_notm}} リソースから CRN を取得することもできます。
+```
+bluemix resource service-instance
+```
+{: codeblock}
 
 
 ## resource-type、resource
