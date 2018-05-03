@@ -2,7 +2,7 @@
 
 copyright:
   years: 2016, 2017, 2018
-lastupdated: "2018-03-16"
+lastupdated: "2018-05-02"
 
 ---
 {:new_window: target="_blank"}
@@ -18,9 +18,9 @@ lastupdated: "2018-03-16"
 As a developer, {{site.data.keyword.cloud}} has a set of capabilities that gets you started building apps in minutes. Within our developer dashboards you can:
 
 * Select starter kits that are use-case-specific and produce production-ready starter apps in a variety of programming languages and architectural patterns
-* Provision services automatically as part of the project creation of your starter kit
-* Use a portable app project structure that allows you manage components of your app
-* One-click creation of a [DevOps toolchain](../services/ContinuousDelivery/index.html#cd_getting_started).
+* See and manage resources that were automatically provisioned from your starter kit, or that you manually added to your app
+* Get portable app code that allows you deploy to various cloud environments
+* Create a [DevOps toolchain](../services/ContinuousDelivery/index.html#cd_getting_started) in a few clicks.
 * Use a [command line interface](/docs/cli/idt/index.html) for local development
 
 To understand how the {{site.data.keyword.cloud_notm}} developer experience can help you rapidly build high-quality production-ready apps, let's look at these elements in more detail.
@@ -32,14 +32,14 @@ The {{site.data.keyword.cloud_notm}} has developer dashboards in different areas
 
 Each developer dashboard provides starter kits relevant to the dashboard's focus area and offers a consistent, intuitive workflow then enables you to create a working production-ready app in minutes.
 
-## App projects
+## Apps
 {: #app-projects}
 
-A project is the association of code, data, services, and toolchains that comprise your app. For example, the {{site.data.keyword.cloud_notm}} mobile project contains code for application and back-end logic, data storage, analytics and security services, and is set up for continuous delivery.
+An app comprises code, data, services, and toolchains. For example, the {{site.data.keyword.cloud_notm}} mobile app contains device code along with back-end logic, data storage, analytics and security services, and is set up for continuous delivery.
 
 ![Reuse](images/garage_reuse2.png "Developer Experience lets you reuse and avoid reinventing")
 
-You can create and manage a project by using any {{site.data.keyword.cloud_notm}} developer dashboard or the {{site.data.keyword.dev_cli_notm}}.
+You can create and manage an app by using any {{site.data.keyword.cloud_notm}} developer dashboard or the {{site.data.keyword.dev_cli_notm}}.
 
 ## Starter kits
 {: #starter-kits}
@@ -57,7 +57,7 @@ Starter kits are production-ready and focus on demonstrating a key pattern imple
 ## Auto-provisioned resources
 {: #auto-provision}
 
-If a starter kit specifies required resources, {{site.data.keyword.cloud_notm}} automatically creates instances of those resources when you create your project. Note that you can also manually provision resources or select existing resource instances to add to your project after it’s created. You can see a list of service instances associated with your project in the Project Details view along with credentials in case you need them.
+If a starter kit specifies required resources, {{site.data.keyword.cloud_notm}} automatically creates instances of those resources when you create your app. Note that you can also manually provision resources or select existing resource instances to add to your app after it’s created. You can see a list of service instances associated with your app in the App Details view along with credentials in case you need them.
 
 ## Portable code
 {: #portable-code}
@@ -69,12 +69,12 @@ The code created from an {{site.data.keyword.cloud_notm}} starter kit has four f
 
 * **Use case logic** provides functions for the core function of a particular use case. Examples might be code for a Watson Conversation chat bot, or code for a mobile visual recognition app.
 * **Language components** are code components and files specific to the programming language you select for your starter kit. For example, node.js programmers will need a package.json file for dependency management, and this file is automatically created for you.
-* **Service enablement** is code that enables your app to connect to and use the services you add to your project. Credential management, initialization code, and service-specific SDKs are examples of service enablement items.
+* **Service enablement** is code that enables your app to connect to and use the services you add. Credential management, initialization code, and service-specific SDKs are examples of service enablement items.
 * **Cloud enablement** is code that enables your app to run on {{site.data.keyword.cloud_notm}}. For example, Helm charts that enable your app to run on an {{site.data.keyword.cloud_notm}} Kubernetes cluster.
 
-The app produced by {{site.data.keyword.cloud_notm}} isn’t only architecturally proven, but it also reflects best practices for the language you chose for your project.  
+The app produced by {{site.data.keyword.cloud_notm}} isn’t only architecturally proven, but it also reflects best practices for the language you selected.  
 
-The project includes a readme file that contains technical details of the project and explains what is needed to get your app running if it doesn’t run out-of-the-box.
+Each app includes a readme file that contains technical details of the app and explains what is needed to get your app running if it doesn’t run out-of-the-box.
 {: tip}
 
 ## DevOps Toolchain
@@ -84,16 +84,16 @@ DevOps comprises procedures and tools for accessing, developing, deploying, and 
 
 The core component of a DevOps toolchain is a code version control repository like GitHub. Additional tools might include backlog tracking, delivery pipeline, IDE, and monitoring service like [{{site.data.keyword.cloud_notm}}DevOps Insights](../services/DevOpsInsights/index.html#gettingstarted).
 
-If you have created a project by using a starter kit, you can create a new toolchain and deploy your app simply by clicking **Deploy to Cloud** in the Project Details view. A toolchain that has a code repo, issues repo, delivery pipeline, and web IDE is created.
+If you have created an app by using a starter kit, you can create a new toolchain and deploy your app simply by clicking **Deploy to Cloud** in the App Details view. A toolchain that has a code repo, issues repo, delivery pipeline, and web IDE is created.
 
 You can then build on this toolchain to accommodate multiple teams and deploy to separate environments for development, test, and production and establish an enterprise-class collaborative continuous delivery model for your app.  
 
 ![Continuous delivery](images/garage_continuous_delivery2.png "Developer experience sets up continuous delivery into your development branch")
 
-You can also get a quick look at your project code by clicking the **Download** button on the project overview page of the developer dashboard. Your code is downloaded as a `.zip` file containing the complete project structure. You can easily extract the file and run the code locally by using the {{site.data.keyword.dev_cli_notm}}, or add it to your code management repository.
+You can also get a quick look at your app code by clicking the **Download** button on the app overview page of the developer dashboard. Your code is downloaded as a `.zip` file containing the complete app code structure. You can easily extract the file and run the code locally by using the {{site.data.keyword.dev_cli_notm}}, or add it to your code management repository.
 
 ## Command line interface
-{{site.data.keyword.dev_cli_notm}} enables you to code, build and run your project locally.  A common pattern is to create your project through a developer dashboard, use {{site.data.keyword.dev_cli_notm}} to develop locally, and then push the updates to your repo and merge to start your deployment toolchain.
+{{site.data.keyword.dev_cli_notm}} enables you to code, build and run your app locally.  A common pattern is to create your app through a developer dashboard, use {{site.data.keyword.dev_cli_notm}} to develop locally, and then push the updates to your repo and merge to start your deployment toolchain.
 
 ## Garage Method development
 {: #developer_concepts}
