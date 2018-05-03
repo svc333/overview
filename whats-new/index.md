@@ -190,7 +190,7 @@ With the latest updates and improvements from July, you can use the following ne
 See the [video demonstration](https://youtu.be/QBij0jB5qAk){: new_window} ![External link icon](../../icons/launch-glyph.svg "External link icon") for more information.
 
 ### June updates for the administration console
-{: #mayadminconsole}
+{: #juneadminconsole}
 New as of: 26 June 2017
 
 With the latest updates and improvements from June, you can use the following new features:
@@ -628,14 +628,6 @@ New as of: 18 April 2017
 
 As of March 30th, 2017, {{site.data.keyword.macm_long}} service tile will be removed from the {{site.data.keyword.Bluemix_notm}} Catalog and you will no longer be able to provision new MACM instances. However, existing instances will continue to be supported. The End of Support Date is 30 March 2018. Please delete your {{site.data.keyword.macm_short}} (MACM) service instances before the End of Support Date. We encourage users to migrate to the IBM Watson Content Hub. Watson Content Hub is available on IBM Marketplace and provides users with a 30-day free trial. IBM Watson Content Hub provides similar functionality to MACM with added new capabilities such as asset management, cognitive tagging using IBM Watson services, and included content delivery network (CDN) to ensure an optimal experience for your customers. IBM offers service engagments to migrate content from MACM to Watson Content Hub.
 
-### {{site.data.keyword.streaminganalyticsshort}} service updates: Develop Streams applications in your Python development environment
-New as of: 13 April 2017
-
-In the past, you had to install a local version of IBM Streams to develop Python applications. That’s no longer the case. Now you can develop applications with Python in your favorite  development environment or in a Jupyter interactive notebook.
-
-You can use the STREAMING_ANALYTICS_SERVICE context to submit a Python application to the {{site.data.keyword.streaminganalyticsshort}} service. The {{site.data.keyword.streaminganalyticsshort}} service requires Python 3.5.
-
-Check out the sample stream-processing Python applications in notebooks on the [community page of IBM Data Science Experience](http://datascience.ibm.com){: new_window} ![External link icon](../../icons/launch-glyph.svg "External link icon").
 
 ### {{site.data.keyword.sparks}} updates: Notebook support now in Data Science Experience
 New as of: 11 April 2017
