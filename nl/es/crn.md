@@ -4,7 +4,7 @@ copyright:
 
   years: 2017, 2018
 
-lastupdated: "2017-12-15"
+lastupdated: "2018-04-02"
 
 ---
 
@@ -101,7 +101,7 @@ La `location` debe ser uno de los siguientes valores:
 | PAR01  | SJC01  | SJC03  | SAO01  |  SEA01  |
 | SEO01  | SNG01  | SYD01  | TOK02  |  TOR01  |
 | WDC01  | WDC04  | WDC06  | WDC07  |
-{: caption="Tabla 1. Valores de `Centro de datos` válidos" caption-side="top"}
+{: caption="Tabla 1. Valores de centro de datos válidos" caption-side="top"}
 
 Algunos recursos no requieren una región (pueden considerarse `global`). En este caso, el segmento `region` se establece en `global`.
 {: tip}
@@ -134,6 +134,12 @@ El `service-instance` debe ser alfanumérico, en minúsculas, sin espacios o car
 Como ejemplo, una herramienta DevOps para realizar el seguimiento y planificar elementos de trabajo puede tener un ID de instancia `GUID` simple ("1234-5678-9012-3456"), donde el componente de política de un servicio de grupo de autoscale puede utilizar un convenio de denominación jerárquica y tener un segmento `service-id` de:
 
 >`c7a27f55-d35e-4153-b044-8ca9155fc467/my-test-asg1/my-scaleout-policy`
+
+También puede obtener un CRN de un recurso de {{site.data.keyword.Bluemix_notm}} utilizando el mandato de CLI siguiente:
+```
+bluemix resource service-instance
+```
+{: codeblock}
 
 
 ## resource-type, resource
