@@ -1,17 +1,14 @@
 ---
 
- 
-
 copyright:
 
   years: 2015, 2018
 
-lastupdated: "2018-03-15" 
+lastupdated: "2018-04-04"
 
 ---
 
-
-{:shortdesc: .shortdesc} 
+{:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
 
 # {{site.data.keyword.Bluemix_notm}} 的新增功能
@@ -23,10 +20,15 @@ lastupdated: "2018-03-15"
 ## {{site.data.keyword.Bluemix_notm}} 平台
 {: #platform_category}
 
-### SoftLayer 和 {{site.data.keyword.Bluemix_notm}} 帳戶鏈結 
+### 使用存取群組來快速指派存取權
+文件日期：2018 年 4 月 3 日
+
+您想要儘可能使用最少量的原則來快速指派存取權嗎？現在，您可以使用存取群組來做到這點。存取群組可讓您將一組使用者和服務 ID 分組在一起，並指派適用於群組所有成員的單一原則。透過使用存取群組，您可以限制花在管理帳戶中使用者和服務 ID 存取權的時間。如需詳細資料，請參閱部落格文章 [New feature: Access groups](https://www.ibm.com/blogs/bluemix/2018/04/access-groups/){: new_window} ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")。
+
+### SoftLayer 和 {{site.data.keyword.Bluemix_notm}} 帳戶鏈結
 文件日期：2018 年 3 月 1 日
 
-您可以將 SoftLayer 帳戶鏈結至 {{site.data.keyword.Bluemix_notm}} 帳戶，以便登入單一位置（{{site.data.keyword.Bluemix_notm}} 主控台），然後同時存取基礎架構即服務 (IaaS) 和平台即服務 (PaaS) 資源。如果您剛開始使用 {{site.data.keyword.Bluemix_notm}}，請建立並鏈結帳戶，以便免費試用 {{site.data.keyword.Bluemix_notm}}。或者，如果您已有一個具有 PaaS 資源的 {{site.data.keyword.Bluemix_notm}} 帳戶，請鏈結您的帳戶以便收到 IaaS 和 PaaS 資源的單一帳單。請參閱 [Steps to Link your IaaS and PaaS Accounts](https://www.ibm.com/blogs/bluemix/2018/03/follow-steps-link-iaas-paas-accounts/){: new_window} ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")，以快速鏈結您的帳戶。
+您可以將 SoftLayer 帳戶鏈結至 {{site.data.keyword.Bluemix_notm}} 帳戶，以便登入單一位置（{{site.data.keyword.Bluemix_notm}} 主控台），然後同時存取基礎架構即服務 (IaaS) 和平台即服務 (PaaS) 資源。如果您剛開始使用 {{site.data.keyword.Bluemix_notm}}，請建立並鏈結帳戶，以便免費試用 {{site.data.keyword.Bluemix_notm}}。或者，如果您已有一個具有 PaaS 資源的 {{site.data.keyword.Bluemix_notm}} 帳戶，請鏈結您的帳戶以便收到 IaaS 和 PaaS 資源的單一帳單。請參閱[鏈結您的 IaaS 和 PaaS 帳戶的步驟](https://www.ibm.com/blogs/bluemix/2018/03/follow-steps-link-iaas-paas-accounts/){: new_window} ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")，以快速鏈結您的帳戶。
 
 
 ### 現已推出 {{site.data.keyword.Bluemix_notm}} Foundry 服務美國東部地區
@@ -37,7 +39,7 @@ lastupdated: "2018-03-15"
 ### 歐盟資源的支援
 文件日期：2017 年 12 月 14 日
 
-如果您的服務及資料中心位在歐洲，則 {{site.data.keyword.Bluemix_notm}} 現在提供其他功能來保護歐盟中的資料。您可以要求位在歐洲的客戶成功團隊提供支援。我們將 24 小時全年無休地提供這項支援。如需相關資訊，請參閱[啟用支援歐盟選項](/docs/billing-usage/eusupported.html#bill_eusupported)及[要求歐盟資源的支援](/docs/get-support/howtogetsupport.html#eusupported)。
+如果您的服務及資料中心位在歐洲，則 {{site.data.keyword.Bluemix_notm}} 現在提供其他功能來保護歐盟中的資料。您可以要求位在歐洲的客戶成功團隊提供支援。我們將 24 小時全年無休地提供這項支援。如需相關資訊，請參閱[啟用歐盟支援選項](/docs/billing-usage/eusupported.html#bill_eusupported)及[要求歐盟資源的支援](/docs/get-support/howtogetsupport.html#eusupported)。
 
 ### 撤銷 TLS 1.0 及 1.1 支援
 文件日期：2017 年 11 月 28 日
@@ -47,7 +49,7 @@ lastupdated: "2018-03-15"
 ### 組織帳戶內資源的新方式
 文件日期：2017 年 11 月 16 日
 
-資源群組是一種新方式，可讓您建立可自訂的帳戶資源分組，對於其內群組及資源的存取是使用「身分及存取管理 (IAM)」進行管理。每個人都從一個預設資源群組開始進行。您可以重新命名此資源群組，並在其中新增從型錄建立的服務實例。 
+資源群組是一種新方式，可讓您建立可自訂的帳戶資源分組，對於其內群組及資源的存取是使用 Identity and Access Management (IAM) 進行管理。每個人都從一個預設資源群組開始進行。您可以重新命名此資源群組，並在其中新增從型錄建立的服務實例。
 
 對於具有「隨收隨付制」或「訂閱」帳戶的使用者，您可以建立其他資源群組，以更輕鬆地管理配額以及檢視一組資源的計費使用情形。您也可以將資源分組，以更輕鬆地同時指派使用者存取多個服務。若要進一步瞭解如何使用您帳戶的資源群組，請參閱[管理資源群組](/docs/account/resourcegroups.html#rgs)。
 
@@ -55,10 +57,10 @@ lastupdated: "2018-03-15"
 文件日期：2017 年 11 月 16 日
 
 在 {{site.data.keyword.Bluemix_notm}} 帳戶內引進[資源群組](/docs/overview/resource-groups.html#whatis)開啟了指派存取權的新方式。使用者及服務 ID 可以獲指派資源群組內所有服務的存取權，讓您可以同時快速地指派多個資源的存取權。您也可以僅指派資源群組內部分服務的存取權來自訂每一個使用者或服務 ID 的存取權，或僅選擇將個別資源的存取權往下指派給服務實例層次。
- 
+
 如需您可以使用 IAM 充分運用之特性的相關資訊，請參閱 [IAM 所提供的功能為何？](/docs/iam/index.html#features)
 
-### 自訂儀表板視圖 
+### 自訂儀表板視圖
 文件日期：2017 年 11 月 16 日
 
 您可以從 {{site.data.keyword.Bluemix_notm}} 主控台的儀表板中，檢視及管理帳戶中的所有資源。現在，您可以設定過濾器來自訂視圖。例如，您可以根據資源群組進行過濾，以檢視資源群組中的特定資源。您也可以根據地區或 Cloud Foundry 空間進行過濾。如需詳細資料，請參閱[在儀表板上管理資源](/docs/overview/ui.html#dashboardview)。
@@ -67,7 +69,7 @@ lastupdated: "2018-03-15"
 ### 支援中心
 文件日期：2017 年 11 月 2 日
 
-我們現在有新的「支援中心」，您可以在其中搜尋資訊、將問題張貼至開發人員社群，以及管理問題單。請移至 {{site.data.keyword.Bluemix_notm}} 主控台功能表列中的**支援 > 支援中心**。 
+我們現在有新的「支援中心」，您可以在其中搜尋資訊、將問題張貼至開發人員社群，以及管理問題單。請移至 {{site.data.keyword.Bluemix_notm}} 主控台功能表列中的**支援 > 支援中心**。
 
 ### IBM Cloud 簡介
 文件日期：2017 年 10 月 31 日
@@ -79,14 +81,14 @@ Bluemix 現在是 IBM Cloud。除了推出新名稱之外，未變更任何項�
 
 「精簡」帳戶是新的帳戶類型，可讓您免費試用精選服務，沒有時間限制。這個新的帳戶也包括用量追蹤及效率特性，以協助您更恰當地管理資源。若要進一步瞭解可用項目，請參閱[帳戶類型](/docs/account/index.html#liteaccount)。
 
-### 身分及存取管理應用程式鑑別特性
+### Identity and Access Management 應用程式鑑別特性
 文件日期：2017 年 10 月 6 日
 
-「身分及存取管理 (IAM)」現在可讓您建立「服務 ID」，您可以將它視為用於應用程式以向 {{site.data.keyword.Bluemix_notm}} 服務進行鑑別的身分。可以透過指派給「服務 ID」的服務原則形式使用關聯 API 金鑰及存取許可權來建立「服務 ID」，以讓您控制使用該 ID 進行鑑別之任何應用程式的存取層次，而不是使用個別使用者認證。
+Identity and Access Management (IAM) 現在可讓您建立「服務 ID」，您可以將它視為用於應用程式以向 {{site.data.keyword.Bluemix_notm}} 服務進行鑑別的身分。可以透過指派給「服務 ID」的服務原則形式使用關聯 API 金鑰及存取許可權來建立「服務 ID」，以讓您控制使用該 ID 進行鑑別之任何應用程式的存取層次，而不是使用個別使用者認證。
 
-如需此特性優點以及如何開始使用的相關資訊，請參閱 [IBM Cloud IAM 服務 ID 及 API 金鑰簡介](https://www.ibm.com/blogs/bluemix/2017/10/introducing-ibm-cloud-iam-service-ids-api-keys/){: new_window} ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")。 
+如需此特性優點以及如何開始使用的相關資訊，請參閱 [IBM Cloud IAM 服務 ID 及 API 金鑰簡介](https://www.ibm.com/blogs/bluemix/2017/10/introducing-ibm-cloud-iam-service-ids-api-keys/){: new_window} ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")。
 
-### {{site.data.keyword.Bluemix_notm}} 廣域型錄 
+### {{site.data.keyword.Bluemix_notm}} 廣域型錄
 文件日期：2017 年 7 月 27 日
 
 擴充前次主控台更新以從主控台的單一位置管理公用地區，{{site.data.keyword.Bluemix_notm}} 現在具有廣域型錄，可讓選取及部署從型錄中所選取項目的處理程序成為更簡化的處理程序。不論您在主控台中選取的地區為何，您現在都可以看到可跨型錄中所有公用地區取得的所有服務。從型錄中選取磚之後，即可看到其中可使用的地區及服務，以及選取您要在其中進行部署的位置。
@@ -111,7 +113,7 @@ Bluemix 現在是 IBM Cloud。除了推出新名稱之外，未變更任何項�
 
 最後，我們已加強統一使用者管理功能，確保在已鏈結的 IaaS-PaaS 帳戶中，透過統一方式管理使用者，而不需要在「SoftLayer 客戶入口網站」或 {{site.data.keyword.Bluemix_notm}} 主控台中分別新增使用者。
 
-如需最近更新的相關資訊，請參閱[身分及存取管理簡介](https://www.ibm.com/blogs/bluemix/2017/05/introducing-identity-access-management/){: new_window} ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示") 部落格文章。
+如需最近更新的相關資訊，請參閱 [Introducing Identity & Access Management](https://www.ibm.com/blogs/bluemix/2017/05/introducing-identity-access-management/){: new_window} ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示") 部落格文章。
 
 ### {{site.data.keyword.Bluemix_notm}} 文件的導覽設計變更
 文件日期：2017 年 4 月 13 日
@@ -132,7 +134,7 @@ Bluemix 現在是 IBM Cloud。除了推出新名稱之外，未變更任何項�
 
 引進新的使用者許可權，特別容許使用者核准及重新排定維護更新，以及設定維護更新時間範圍，而這些維護更新時間範圍規定何時將維護更新部署至專用環境。
 如需相關資訊，請參閱[視訊示範](https://youtu.be/7c7jyp_JJWU){: new_window} ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")。
- 
+
 ### 管理主控台的十二月更新
 {: #decemberadminconsole}
 文件日期：2017 年 12 月 14 日
@@ -143,10 +145,10 @@ Bluemix 現在是 IBM Cloud。除了推出新名稱之外，未變更任何項�
 
 平均 CPU 已新增為通知訂閱中的臨界值類型。您現在於 CPU 使用率（所有 DEA 及 Diego Cell 的平均）高於或低於特定臨界值時可以收到通知。
 
-#### 控制歐盟的雲端系統存取 
+#### 控制歐盟的雲端系統存取
 
 與歐盟的新功能結合以支援雲端資源（從法蘭克福開始），管理主控台現在有能力可定義由 IBM 人員控制存取的原則。您可以管理存取控制原則、檢視存取要求、對要求採取動作，以及追蹤歷程。
-  
+
 #### 安全報告中的加強型資訊
 
 除了使用者及組織的唯一 ID 之外，安全報告現在還包括對使用者友善的名稱。
@@ -162,9 +164,9 @@ Bluemix 現在是 IBM Cloud。除了推出新名稱之外，未變更任何項�
   * 已更新 {{site.data.keyword.cloudant_short_notm}} 的用量度量值運算，以反映 {{site.data.keyword.cloudant_short_notm}} 叢集中所有節點的已使用及可用總 GB 量。一般而言，{{site.data.keyword.cloudant_short_notm}} 叢集包含 3 個節點，而且資料庫中的文件會在叢集的所有節點之間抄寫以提供高可用性及災難回復。使用八月更新，{{site.data.keyword.cloudant_short_notm}} 撥號中的容量度量值（於_資源用量 > 服務_ 視圖中提供）指出叢集的所有節點中的空間。例如，如果單一 {{site.data.keyword.cloudant_short_notm}} 叢集包含 3 個節點，每一個都有 1000 GB 的容量，則容量限制會是 3000 GB。如果已使用該容量的 1500 GB，則 {{site.data.keyword.cloudant_short_notm}} 用量度量值會是 50%。
 
 #### 維護更新排定更新
-  
+
   * 在 {{site.data.keyword.Bluemix_dedicated_notm}} 中，客戶可以管理其專用環境可用於部署系統更新的日期和時間。客戶可以定義可用性時間範圍，代表維護更新可以及無法部署至其「專用」環境的日期和時間。在八月更新中，_可用更新時間範圍_ 已重新命名為_更新時間範圍_，而且_無法使用更新時間範圍_ 已重新命名為_管制時間範圍_。除了術語變更之外，客戶現在有更多的彈性及限度可以定義管制（無法使用）日期。在要求之後，管制日期即需要 IBM 核准，且獲得核准所需要的時間將有所不同。所要求的管制日期經過核准後，IBM 會取消目前排定在無法進行更新之時間範圍內的任何現有更新。IBM 也會為這些更新建立新的記錄，並將它們排定在已核准的管制日期之外。
-  
+
 如需相關資訊，請參閱[視訊示範](https://bit.ly/2eCQNvu){: new_window} ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")。
 
 ### 管理主控台的七月更新
@@ -177,7 +179,7 @@ Bluemix 現在是 IBM Cloud。除了推出新名稱之外，未變更任何項�
 
   * 在前一個更新（六月）中，記憶體及磁碟用量的「歷程」視圖已引進顯示過去 48 小時、30 天及 5 個月的用量資料。在這個最新的「七月」更新中，已擴充資源用量歷程功能，容許自訂用於顯示資源用量資料的時間跨距。每小時、每日及每月視圖都會保持，但使用者現在可以指定開始日期/時間以及顯示記憶體及磁碟用量度量值的持續時間（例如，顯示從 2017 年 7 月 1 日算起的 15 天的記憶體用量）。
   * 已引進新的 CLI 指令，以在 CLI 中顯示資源度量值歷程。鍵入下列指令，即可找到指令參數以及用量範例：`_cf ba resource-metrics-history -help_`
- 
+
 如需相關資訊，請參閱[視訊示範](https://youtu.be/QBij0jB5qAk){: new_window} ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")。
 
 ### 管理主控台的六月更新
@@ -190,19 +192,19 @@ Bluemix 現在是 IBM Cloud。除了推出新名稱之外，未變更任何項�
 
   * 系統資源
     * 記憶體及磁碟的「歷程」視圖已更新成顯示過去 48 小時、30 天及 5 個月的資料
-    * 提供「進一步瞭解」鏈結，顯示如何使用管理主控台度量值 API 來產生「歷程」視圖 
+    * 提供「進一步瞭解」鏈結，顯示如何使用管理主控台度量值 API 來產生「歷程」視圖
   * 應用程式
     * 提供環境中所有應用程式的用量資訊
-    * 依應用程式名稱、實體記憶體、保留記憶體、實體磁碟、保留磁碟、實體 CPU 或組織名稱進行排序 
+    * 依應用程式名稱、實體記憶體、保留記憶體、實體磁碟、保留磁碟、實體 CPU 或組織名稱進行排序
     * 提供搜尋，以依應用程式名稱及組織名稱來過濾結果
     * 提供「進一步瞭解」鏈結，顯示如何使用管理主控台度量值 API 來產生「應用程式」視圖
- 
+
 如需相關資訊，請參閱[資源用量](/docs/hybrid/index.html#resourceusage)。
 
 #### 度量值的 API 的更新
 
   * 已新增環境統計資料，提供依日或月的記憶體及磁碟耗用量平均值
-  
+
 如需相關資訊，請參閱[度量值的 API](/docs/hybrid/index.html#envappmetricsapi)。
 
 
@@ -214,8 +216,8 @@ Bluemix 現在是 IBM Cloud。除了推出新名稱之外，未變更任何項�
 
  * 「狀態」頁面上的增進功能，包括對影響 {{site.data.keyword.Bluemix_notm}} 平台及運行環境的突發事件進行更精細地診斷。
  * 「安全報告及日誌」頁面的增進功能：
-   * 現在會以表格格式顯示報告，以簡化報告的瀏覽及搜尋（包括依報告種類、檔名或建立日期進行排序的能力）。 
-   * 加強型過濾（包括同時過濾多個種類） 
+   * 現在會以表格格式顯示報告，以簡化報告的瀏覽及搜尋（包括依報告種類、檔名或建立日期進行排序的能力）。
+   * 加強型過濾（包括同時過濾多個種類）
    * 顯示報告內容的全螢幕模式
    * 讓具有「報告寫入」許可權的管理使用者可刪除報告
    * 更快速地顯示報告清單，並透過連續捲動漸進式地依需求載入，產生較佳的整體效能。
@@ -273,30 +275,37 @@ Liberty 建置套件 3.9 版提供新的每月 Liberty 運行環境版本，並�
 ## 服務
 {: #services_category}
 
-### {{site.data.keyword.iva_full}} 現在是測試版！
+### {{site.data.keyword.iva_full_notm}} 現在是測試版！
 文件日期：2018 年 3 月 16 日
 
-使用 [{{site.data.keyword.iva_full}}](https://console.bluemix.net/catalog/services/voice-agent-with-watson)![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")，您可以建立 Watson 服務所內建且客戶可通話並透過電話交談的認知語音代理程式。以 Watson 人工智慧為骨幹，您的語音代理程式可以透過交談方式進行通訊，處理複雜互動，以及解決語音代理程式內的客戶通話。
+使用 [{{site.data.keyword.iva_full}}](https://console.bluemix.net/catalog/services/voice-agent-with-watson)![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")，您可以建立 Watson 服務所建置且客戶可通話並透過電話交談的認知語音代理程式。以 Watson 人工智慧為骨幹，您的語音代理程式可以透過交談方式進行通訊，處理複雜互動，以及解決語音代理程式內的客戶通話。
 
 此測試版引進下列主要特性：
 
-* 比之前更輕鬆地開始使用，方法是使用單一步驟來建立語音代理程式及所有必要 Watson 服務。 
+* 比之前更輕鬆地開始使用，方法是使用單一步驟來建立語音代理程式及所有必要 Watson 服務。
 * 轉接來自語音代理程式的通話，例如人力客服中心客服人員或其他目的地。
-* 收集及分析通話資料，方法是配置語音代理程式將通話詳細記錄、謄本及 {{site.data.keyword.conversationshort}} 各回交談事件轉遞給 {{site.data.keyword.cloudant_short_notm}} 資料庫。
+* 收集及分析通話資料，方法是配置語音代理程式將通話詳細記錄、轉錄及 {{site.data.keyword.conversationshort}} 各回交談事件轉遞給 {{site.data.keyword.cloudant_short_notm}} 資料庫。
 * 在新的_使用情形_ 頁面上，監視服務使用情形，以及檢視通話日誌。您可以檢視現行月份的快速統計資料、尋找及過濾通話日誌，以及檢視每個個別通話的系統訊息。
 * 透過埠 5061 及「安全即時傳輸通訊協定 (SRTP)」使用 SIP TLS (sips URI)，以建立具有媒體加密的安全通話。
 * 在其他 {{site.data.keyword.cloud_notm}} 空間中連接至 {{site.data.keyword.speechtotextfull}} 及 {{site.data.keyword.texttospeechfull}} 服務實例，以增加彈性。
 
 若要開始使用，請參閱 [{{site.data.keyword.iva_short}}](/docs/services/voice-agent/getting-started.html) 文件。
 
+### {{site.data.keyword.visualrecognitionshort}} 的更新
+文件日期：2018 年 3 月 14 日
+
+{{site.data.keyword.visualrecognitionfull}} 服務已更新，因此新的「自訂分類器」模型訓練現在會以深度學習神經網路型的分類器形式產生。產生這些深度學習模型所需的額外運算，可能需要額外的時間，以便新模型進行訓練。
+
+目前，現有的自訂分類器可以繼續進行更新及重新訓練，不會更新為這個新的深度學習機器模型格式。
+
 ### {{site.data.keyword.streaminganalyticsshort}} 更新項目
-文件日期：2018 年 2 月 14 日 
+文件日期：2018 年 2 月 14 日
 
 [{{site.data.keyword.streaminganalyticsshort}} 服務](https://console.bluemix.net/catalog/services/streaming-analytics){: new_window} 中主控台的[測試版 - 入門及測試版 - 增強方案](/docs/services/StreamingAnalytics/beta_plans.html#beta_plans) ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示") 包括數個加強功能：
- 
-* [新的 IBM Streams QSE for Docker](https://www-01.ibm.com/marketing/iwm/iwm/web/preLogin.do?source=swg-ibmistvi){: new_window} ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")：查看[測試版開發手冊](https://developer.ibm.com/streamsdev/docs/cloud-beta-devguide/){: new_window} ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")，以瞭解如何搭配使用新的 Streams QSE 與在 Docker 環境中執行的 RHEL 7，以透過新的 {{site.data.keyword.streaminganalyticsshort}} 測試版方案來編譯及部署應用程式。 
+
+* [新的 IBM Streams QSE for Docker](https://www-01.ibm.com/marketing/iwm/iwm/web/preLogin.do?source=swg-ibmistvi){: new_window} ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")：查看[測試版開發手冊](https://developer.ibm.com/streamsdev/docs/cloud-beta-devguide/){: new_window} ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")，以瞭解如何搭配使用新的 Streams QSE 與在 Docker 環境中執行的 RHEL 7，以透過新的 {{site.data.keyword.streaminganalyticsshort}} 測試版方案來編譯及部署應用程式。
 * [{{site.data.keyword.streaminganalyticsshort}} 第 2 版 REST API](https://console.bluemix.net/apidocs/1939-streaming-analytics-v2#introduction){: new_window} ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")
-* [新的入門範本及範例應用程式](https://developer.ibm.com/streamsdev/docs/cloud-beta-samples/) 
+* [新的入門範本及範例應用程式](https://developer.ibm.com/streamsdev/docs/cloud-beta-samples/)
 * [{{site.data.keyword.streaminganalyticsshort}} 服務中的高可用性加強功能](/docs/services/StreamingAnalytics/consistentregions.html#consistentregions)
 * [{{site.data.keyword.streaminganalyticsshort}} 服務測試版中的新問題判斷特性](https://developer.ibm.com/streamsdev/2018/02/15/streaming-analytics-console-gives-ways-find-fix-errors-beta-plans/){: new_window} ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")
 * [監視操作員如何作業及雲端中的保證值組處理](https://developer.ibm.com/streamsdev/2018/02/15/monitor-operators-behave-ensure-resource-optimization/){: new_window} ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")
@@ -308,7 +317,7 @@ Liberty 建置套件 3.9 版提供新的每月 Liberty 運行環境版本，並�
 
 {{site.data.keyword.keymanagementserviceshort}} 是一種加密金鑰管理服務，提供簡單且經濟的金鑰管理解決方案來管理用來加密 {{site.data.keyword.Bluemix_notm}} 中所儲存資料的金鑰。{{site.data.keyword.keymanagementserviceshort}} 管理金鑰的整個生命週期（從金鑰建立到應用程式使用、金鑰保存及金鑰毀損），同時在資料管理與金鑰管理之間強制執行權責區分。
 
-{{site.data.keyword.keymanagementserviceshort}} 支援具有適用 IBM 資料服務的 BYOK（自帶金鑰 - 客戶受管理加密）。BYOK 可讓使用者匯入內部建立的主要信任根加密金鑰，以更充分地管理它們透過 data-at-rest 儲存在 {{site.data.keyword.Bluemix_notm}} 中的安全。
+{{site.data.keyword.keymanagementserviceshort}} 支援具有適用 IBM 資料服務的 BYOK（自帶金鑰 - 客戶受管理加密）。BYOK 可讓使用者匯入內部建立的主要信任根加密金鑰，以更充分地管理處於靜止狀態時之資料 (data-at-rest) 儲存在 {{site.data.keyword.Bluemix_notm}} 中的安全。
 
 
 ### {{site.data.keyword.containershort_notm}}：Kubernetes 1.8.x 支援
@@ -360,7 +369,7 @@ Liberty 建置套件 3.9 版提供新的每月 Liberty 運行環境版本，並�
 #### APNS HTTP/2 支援
 Apple 已為 Apple Notifications 建立 HTTP 通訊協定支援。{{site.data.keyword.mobilepushshort}} 服務現在支援 HTTP/2 通訊協定。使用這項支援，通知有效負載可以是已提高傳輸量的 4KB，並提供即時回饋特性。「通用憑證」支援容許應用程式連接至沙盤推演及正式作業環境。
 
-#### 新的精簡方案 
+#### 新的精簡方案
 {{site.data.keyword.mobilepushshort}} 服務的精簡方案每個月可以免費傳送 100K 通知。如需相關資訊，請參閱 [Bluemix 上 Push Notifications 服務的精簡方案](https://www.ibm.com/blogs/bluemix/2017/06/lite-plan-push-notifications-service-bluemix/){: new_window} ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示") 部落格文章。
 
 
@@ -414,7 +423,7 @@ IBM App Launch for {{site.data.keyword.Bluemix_notm}} 服務是一個實驗性�
 ### 含有 Watson 實驗性服務的新 IBM Voice Agent
 文件日期：2017 年 9 月 15 日
 
-使用新的 {{site.data.keyword.iva_full}} 實驗性服務，您可以建立 Watson 服務所內建且客戶可通話並透過電話交談的認知語音代理程式。以 Watson 人工智慧為骨幹，您的語音代理程式可以透過交談方式進行通訊，處理複雜互動，以及解決語音代理程式內的客戶通話。
+使用新的 {{site.data.keyword.iva_full}} 實驗性服務，您可以建立以 Watson 服務為建置基礎且客戶可通話並透過電話交談的認知語音代理程式。以 Watson 人工智慧為骨幹，您的語音代理程式可以透過交談方式進行通訊，處理複雜互動，以及解決語音代理程式內的客戶通話。
 
 {{site.data.keyword.iva_short}} 會緊密地連接及編排 Watson {{site.data.keyword.speechtotextshort}}、{{site.data.keyword.conversationshort}} 及 {{site.data.keyword.texttospeechshort}} 服務，以模擬自然語言交談。每一個語音代理程式都會自動調整，以同時處理多個通話。在此實驗性版本中，您可以使用下列主要特性來自訂語音代理程式：
 
@@ -428,15 +437,15 @@ IBM App Launch for {{site.data.keyword.Bluemix_notm}} 服務是一個實驗性�
 
 ### {{site.data.keyword.streaminganalyticsshort}} 服務更新：主控台包括新的方式來精確找出應用程式中的問題
 文件日期：2017 年 8 月 14 日
- 
-針對 Python 及 Java 應用程式，會根據 @spl_note 註釋來顯示原始檔位置。 
- 
+
+針對 Python 及 Java 應用程式，會根據 @spl_note 註釋來顯示原始檔位置。
+
 如需詳細資料，請參閱 [{{site.data.keyword.streaminganalyticsshort}} 的最新增進功能](https://developer.ibm.com/streamsdev/2017/08/14/latest-improvements-streaming-analytics-console/){: new_window} ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")。
 
 ### IBM Cloud Monitoring 現在也可用於英國地區
 文件日期：2017 年 8 月 1 日
 
-使用 {{site.data.keyword.monitoringlong}} 服務可以擴充您在使用度量值時，{{site.data.keyword.Bluemix_notm}} 中的收集、保留和分析功能。 
+使用 {{site.data.keyword.monitoringlong}} 服務可以擴充您在使用度量值時，{{site.data.keyword.Bluemix_notm}} 中的收集、保留和分析功能。
 
 * 將警示化為行動！{{site.data.keyword.monitoringlong}} 提供一個 API，您可以使用該 API 來設定效能臨界值，並在違反那些臨界值時收到通知。定義單一服務實例或應用程式實例的警示規則，以及用來對一組實例進行報告的警示規則。觸發警示時，透過電子郵件、PagerDuty 事件、Webhook 通知或這三者的任意組合來接收通知。
 
@@ -461,14 +470,14 @@ IBM App Launch for {{site.data.keyword.Bluemix_notm}} 服務是一個實驗性�
 * 依需要保留日誌。  
 
     日誌儲存在 IBM Cloud 儲存空間。您可以在需要時下載日誌。
-	
+
 * 管理已保留的日誌，以及使用新的 API 從 {{site.data.keyword.IBM_notm}} Cloud 外部傳送日誌資料。
 
 * 選擇每天可搜尋的日誌數量。  
 
     有不同的方案可用，您可以用來搜尋每天最多 500 MB、2 GB、5 GB 和 10 GB 的日誌。
 
-* 建置可重複使用的儀表板，並使它們成為互動式。 
+* 建置可重複使用的儀表板，並使它們成為互動式。
 
     {{site.data.keyword.loganalysisshort}} 的受管理 Kibana 支援建置自訂儀表板。
 
@@ -487,13 +496,13 @@ IBM App Launch for {{site.data.keyword.Bluemix_notm}} 服務是一個實驗性�
 |-----------------------------|----------------------------|----------------|
 | IBM dashDB for Analytics    | IBM Db2 Warehouse on Cloud | 2017 年 7 月 18 日|
 {: caption="表 1. 服務名稱變更" caption-side="top"}
- 
-如需 Db2 Warehouse on Cloud 及 Db2 on Cloud 的累加更新清單，請參閱：[Db2 Warehouse on Cloud 及 Db2 on Cloud 的新增功能](http://www.ibm.com/support/docview.wss?uid=swg21961758){: new_window} ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")。 
+
+如需 Db2 Warehouse on Cloud 及 Db2 on Cloud 的累加更新清單，請參閱：[Db2 Warehouse on Cloud 及 Db2 on Cloud 的新增功能](http://www.ibm.com/support/docview.wss?uid=swg21961758){: new_window} ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")。
 
 ### IBM Cloud Monitoring 現在可用於美國南部地區
 文件日期：2017 年 7 月 17 日
 
-使用 {{site.data.keyword.monitoringlong}} 服務可以擴充您在使用度量值時，{{site.data.keyword.Bluemix_notm}} 中的收集、保留和分析功能。 
+使用 {{site.data.keyword.monitoringlong}} 服務可以擴充您在使用度量值時，{{site.data.keyword.Bluemix_notm}} 中的收集、保留和分析功能。
 
 * 將警示化為行動！{{site.data.keyword.monitoringlong}} 提供一個 API，您可以使用該 API 來設定效能臨界值，並在違反那些臨界值時收到通知。定義單一服務實例或應用程式實例的警示規則，以及用來對一組實例進行報告的警示規則。觸發警示時，透過電子郵件、PagerDuty 事件、Webhook 通知或這三者的任意組合來接收通知。
 
@@ -522,7 +531,7 @@ IBM App Launch for {{site.data.keyword.Bluemix_notm}} 服務是一個實驗性�
 <li>Orion Web IDE 中的使用者介面佈景主題支援。</li>
 </ul>
 
-### {{site.data.keyword.uccr_short}} 測試版 
+### {{site.data.keyword.uccr_short}} 測試版
 文件日期：2017 年 6 月 23 日
 
 {{site.data.keyword.uccr_short}} 是一個企業級版本管理解決方案，同時支援雲端原生及內部部署工具。
@@ -587,7 +596,7 @@ Apache Spark 透過根據 Stocator 技術的儲存空間連接器來存取 IBM C
 
 {{site.data.keyword.sparkl}} 將引進 Apache Spark 2.1 支援，以建立可加強複雜資料瞭解的演算法。Apache Spark 2.1 將協助已新增事件時間臨界值及 Kafka 0.10 支援的明顯結構化串流。Apache Spark 2.1 也聚焦於提高 Spark SQL、SparkR 及 MLlib 模組中的穩定性及可用性。如需 Spark 2.1 的詳細資料，請參閱 [Spark 2.1.0 版](http://spark.apache.org/releases/spark-release-2-1-0.html)。
 
-我們很樂意回答任何有關 {{site.data.keyword.sparkl}} 或新版 Apache Spark 2.1 的問題，且可透過 sparksrv@us.ibm.com 進行聯繫。 
+我們很樂意回答任何有關 {{site.data.keyword.sparkl}} 或新版 Apache Spark 2.1 的問題，且可透過 sparksrv@us.ibm.com 進行聯繫。
 
 ### {{site.data.keyword.macm_short}} 即將淘汰
 文件日期：2017 年 4 月 18 日
@@ -601,7 +610,7 @@ Apache Spark 透過根據 Stocator 技術的儲存空間連接器來存取 IBM C
 
 您可以使用 STREAMING_ANALYTICS_SERVICE 環境定義，將 Python 應用程式提交給 {{site.data.keyword.streaminganalyticsshort}} 服務。{{site.data.keyword.streaminganalyticsshort}} 服務需要 Python 3.5。
 
-請在 [IBM Data Science Experience 社群頁面](http://datascience.ibm.com){: new_window} ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示") 上查看記事本中的範例串流處理 Python 應用程式。 
+請在 [IBM Data Science Experience 社群頁面](http://datascience.ibm.com){: new_window} ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示") 上查看記事本中的範例串流處理 Python 應用程式。
 
 ### {{site.data.keyword.sparks}} 更新：現在提供 Data Science Experience 記事本支援
 文件日期：2017 年 4 月 11 日
@@ -609,3 +618,4 @@ Apache Spark 透過根據 Stocator 技術的儲存空間連接器來存取 IBM C
 使用記事本及 Spark 的新平台是 Data Science Experience。請註冊 [Data Science Experience](http://datascience.ibm.com/)，開始建立記事本並且與其他資料科學家共用專門知識。
 
 如果您是在 {{site.data.keyword.sparks}} 中使用記事本，則可以將記事本移轉至 Data Science Experience。如需相關資訊，請參閱[移轉記事本文件](/docs/services/AnalyticsforApacheSpark/index-gentopic2.html#migration_to_dsx)。
+

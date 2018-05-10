@@ -13,7 +13,8 @@ lastupdated: "2017-12-06"
 # {{site.data.keyword.cloud_notm}} 的國家語言支援
 {: #language-support}
 
-{{site.data.keyword.cloud}} 支援英文以外的國家語言。不過，{{site.data.keyword.cloud_notm}} 隨附的所有內容並未全部翻譯。{:shortdesc}
+{{site.data.keyword.cloud}} 支援英文以外的國家語言。不過，{{site.data.keyword.cloud_notm}} 隨附的所有內容並未全部翻譯。
+{:shortdesc}
 
 下表列出 {{site.data.keyword.cloud_notm}} 支援的國家語言及語言碼。
 

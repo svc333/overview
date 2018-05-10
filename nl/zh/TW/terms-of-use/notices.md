@@ -1,12 +1,9 @@
 ---
 
-
-
 copyright:
 
   years: 2015, 2018
 lastupdated: "2018-03-01"
-
 
 ---
 
@@ -23,7 +20,7 @@ lastupdated: "2018-03-01"
 在其他國家或地區中，IBM 可能未提供本文件所提及的各項產品、服務或功能。請洽詢當地的 IBM 業務代表，以取得當地目前提供的產品和服務之相關資訊。本文件在提及 IBM 的產品、程式或服務時，不表示或暗示只能使用 IBM 的產品、程式或服務。只要未侵犯 IBM 的智慧財產權，任何功能相當的產品、程式或服務皆可取代 IBM 的產品、程式或服務。不過，任何非 IBM 產品、程式或服務，使用者必須自行負責作業的評估和驗證責任。
 
 本文件說明的主題內容，IBM 可能擁有其專利或專利申請案。本文件使用者並不享有前述專利之任何授權。您可以書面提出授權查詢，來函請寄到：
-  
+
   *IBM Director of Licensing*
   *IBM Corporation*
   *North Castle Drive, MD-NC119*
@@ -31,7 +28,7 @@ lastupdated: "2018-03-01"
   *US*
 
 若要查詢有關雙位元組 (DBCS) 資訊的授權事宜，請洽詢所在國家或地區的 IBM 智慧財產部門，或書面提出授權查詢，來函請寄到：
-  
+
   *Intellectual Property Licensing*
   *Legal and Intellectual Property Law*
   *IBM Japan Ltd.*
@@ -49,7 +46,7 @@ IBM 得以各種 IBM 認為適當的方式使用或散佈  貴客戶提供的任
 
 本程式之獲授權者若希望取得本程式之相關資訊，以便達到下列目的：(i) 在個別建立的程式與其他程式（包括本程式）之間交換資訊；以及 (ii) 相互使用所交換之資訊，則請洽詢：
 
- 
+
   *IBM Director of Licensing*
   *IBM Corporation*
   *North Castle Drive, MD-NC119*
@@ -76,8 +73,8 @@ IBM 基於雙方之 IBM 客戶合約、IBM 國際程式授權合約或任何同�
 
 本資訊包含程式碼語言的範例應用程式，用以說明各種作業平台上的程式設計技術。基於開發、使用、行銷或散布應用程式的用途，只要符合程式範例撰寫之作業平台的應用程式設計介面，您得以任何形式來複製、修改及散布這些程式範例，不必向 IBM 付費。這些範例尚未完整地經過所有條件的測試。因此，IBM 不保證或暗示這些程式的可靠性、服務性或功能。這些範例程式係以「現狀」提供，且無任何保證。IBM 不負擔任何因範例程式之使用而產生的任何損害。
 
-這些範例程式或是任何衍生著作的每一份拷貝或任何部分，都必須具有下列的著作權聲明： 
-  
+這些範例程式或是任何衍生著作的每一份拷貝或任何部分，都必須具有下列的著作權聲明：
+
   ©（  貴客戶公司名稱）（年度）。
   本程式碼之若干部分係衍生自 IBM 公司的範例程式。
   © Copyright IBM Corp. 2015.
@@ -106,12 +103,12 @@ Java™ 及所有 Java 型商標和標誌是 Oracle 及（或）其子公司的�
 ## {{site.data.keyword.Bluemix_notm}} 條款
 {: #terms}
 
-您的 IBM Cloud 帳戶與從 IBM Cloud 訂購的任何服務，係依下列條款提供： 
-  
+您的 IBM Cloud 帳戶與從 IBM Cloud 訂購的任何服務，係依下列條款提供：
+
   * 您適用的基本合約雲端條款如下：
     * 適用於美元信用卡計費的 SoftLayer 雲端服務合約，可從 [http://www.softlayer.com/legal](http://www.softlayer.com/legal){: new_window} ![外部鏈結圖示](../../icons/launch-glyph.svg) 取得
     * 適用於非美元信用卡計費的 IBM 雲端服務合約（當地國家/地區版本*），或是如果您選取從 IBM 開立發票，則提供於 [https://www.ibm.com/terms](https://www.ibm.com/terms){: new_window} ![外部鏈結圖示](../../icons/launch-glyph.svg)（請選取您的國家/地區）；
-    * 您已接受之 IBM Passport Advantage 合約及 IBM Passport Advantage Client 之「雲端產品使用條款」的一般條款，可從 [http://www-03.ibm.com/software/sla/sladb.nsf/sla/tou](http://www-03.ibm.com/software/sla/sladb.nsf/sla/tou){: new_window}![外部鏈結圖示](../../icons/launch-glyph.svg) 取得；或 
+    * 您已接受之 IBM Passport Advantage 合約及 IBM Passport Advantage Client 之「雲端產品使用條款」的一般條款，可從 [http://www-03.ibm.com/software/sla/sladb.nsf/sla/tou](http://www-03.ibm.com/software/sla/sladb.nsf/sla/tou){: new_window}![外部鏈結圖示](../../icons/launch-glyph.svg) 取得；或
     * 與 IBM 之間的同等雲端服務基本合約條款；
   * IBM Cloud 的服務說明，可從 [http://www-03.ibm.com/software/sla/sladb.nsf/sla/bm](http://www-03.ibm.com/software/sla/sladb.nsf/sla/bm){: new_window} ![外部鏈結圖示](../../icons/launch-glyph.svg) 取得；
   * 適用於使用貴客戶 IBM Cloud 帳戶進行訂購之任何服務的其他適用 SDK，可從 [http://www-03.ibm.com/software/sla/sladb.nsf/sla/bm](http://www-03.ibm.com/software/sla/sladb.nsf/sla/bm){: new_window} ![外部鏈結圖示](../../icons/launch-glyph.svg) 取得；以及

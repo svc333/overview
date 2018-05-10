@@ -26,7 +26,7 @@ lastupdated: "2018-01-16"
   * 從**支援**功能表中，您可以存取 {{site.data.keyword.cloud_notm}} 新增功能、「支援中心」、新增和檢視問題單的選項以及「狀態」頁面的相關資訊。
   * 從**管理**功能表中，您可以存取帳戶、計費和用量，以及安全選項。
 
-如果您已鏈結 {{site.data.keyword.cloud_notm}} 及 SoftLayer 帳戶，則選項會與非已鏈結帳戶擁有者相同，而且您可以選取**功能表圖示 ![「功能表」圖示](../icons/icon_hamburger.svg) > 基礎架構**選項來導覽至客戶入口網站。從這裡，您可以檢視帳戶摘要、訂購儲存空間和裝置，以及管理僅限 VPN 使用者和裝置的存取權。
+如果您已鏈結 {{site.data.keyword.cloud_notm}} 及 SoftLayer 帳戶，則選項會與未鏈結帳戶擁有者相同，而且您可以選取**功能表圖示 ![「功能表」圖示](../icons/icon_hamburger.svg) > 基礎架構**選項來導覽至客戶入口網站。從這裡，您可以檢視帳戶摘要、訂購儲存空間和裝置，以及管理僅限 VPN 使用者和裝置的存取權。
 
 ## 在儀表板上管理資源
 {: #dashboardview}
@@ -60,5 +60,5 @@ lastupdated: "2018-01-16"
 在您按一下要建立的資源磚之後，即可選取要在其中部署的位置。
 
   * 對於 Cloud Foundry 資源，您可以選取特定地區，然後選取要指派服務實例的組織及空間。
-  * 對於「{{site.data.keyword.cloud_notm}} 身分及存取管理 (IAM)」所管理的資源，您可以選取要在其中部署的位置。然後，您可以選取要指派服務實例的資源群組。
+  * 對於 {{site.data.keyword.cloud_notm}} Identity and Access Management (IAM) 所管理的資源，您可以選取要在其中部署的位置。然後，您可以選取要指派服務實例的資源群組。
 

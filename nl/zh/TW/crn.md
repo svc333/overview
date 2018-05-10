@@ -4,7 +4,7 @@ copyright:
 
   years: 2017, 2018
 
-lastupdated: "2017-12-15"
+lastupdated: "2018-04-02"
 
 ---
 
@@ -17,7 +17,7 @@ lastupdated: "2017-12-15"
 # 雲端資源名稱
 {: #crn}
 
-「雲端資源名稱 (CRN)」可唯一識別 {{site.data.keyword.Bluemix_notm}} 資源。CRN 用來以明確且保證為廣域唯一的方式來指定資源（例如在雲端型錄中所列出的「{{site.data.keyword.Bluemix_notm}} 身分及存取管理 (IAM)」原則及服務）。
+「雲端資源名稱 (CRN)」可唯一識別 {{site.data.keyword.Bluemix_notm}} 資源。CRN 用來以明確且保證為廣域唯一的方式來指定資源（例如在雲端型錄中所列出的 {{site.data.keyword.Bluemix_notm}} Identity and Access Management (IAM) 原則及服務）。
 
 CRN 是由階層式識別資源、其位置及其所屬服務的「區段」連結所組成。區段定界字元設為 ':'（亦即，冒號字元）。所有 CRN 的開頭都是區段 ID 'crn'。
 
@@ -134,6 +134,12 @@ CRN 的基本標準格式為：
 例如，追蹤及計劃工作項目的 DevOps 工具可以具有簡單 `GUID` 實例 ID ("1234-5678-9012-3456")，其中自動調整群組服務的原則元件可以使用階層式命名慣例，並且具有下列項目的 `service-id` 區段：
 
 >`c7a27f55-d35e-4153-b044-8ca9155fc467/my-test-asg1/my-scaleout-policy`
+
+您也可以使用下列 CLI 指令，從 {{site.data.keyword.Bluemix_notm}} 資源取得 CRN：
+```
+bluemix resource service-instance
+```
+{: codeblock}
 
 
 ## resource-type、resource

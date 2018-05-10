@@ -3,7 +3,7 @@
 
 copyright:
   years: 2016, 2018
-lastupdated: "2017-01-10"
+lastupdated: "2018-04-02"
 
 ---
 
@@ -28,7 +28,7 @@ Extended Support Release](https://www.mozilla.org/firefox/organizations/)
  * Edge：適用於 Windows 的最新版本
  * Safari：適用於 Mac 的最新版本
 
-## Cloud Foundry
-{: #cf}
+## 指令行介面 (CLI)
+{: #cli}
 
-Cloud Foundry 指令行介面 6.5.1 版或更新版本
+`bluemix cli` 不斷變更，因此建議使用[最新版本](/docs/cli/reference/bluemix_cli/all_versions.html)，它也搭載了 Cloud Foundry `cf cli`。 

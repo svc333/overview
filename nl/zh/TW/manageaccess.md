@@ -4,7 +4,7 @@ copyright:
 
   years: 2017, 2018
 
-lastupdated: "2017-11-10"
+lastupdated: "2018-04-12"
 
 ---
 
@@ -20,7 +20,7 @@ lastupdated: "2017-11-10"
 
 存取管理可讓您控制哪些使用者可以查看、建立、使用及管理您帳戶中的資源。若要授與存取權，您可以指派角色，以容許使用者完成平台管理作業以及存取帳戶資源的存取層次。
 
-您在 {{site.data.keyword.Bluemix_notm}} 中管理存取權的方式，取決於要指派存取權的資源類型。「{{site.data.keyword.Bluemix_notm}} 身分及存取管理 (IAM)」是跨 {{site.data.keyword.Bluemix_notm}} 平台一致地管理資源的存取管理系統。{{site.data.keyword.Bluemix_notm}} 基礎架構及 Cloud Foundry 資源不是使用 Cloud IAM 進行管理。這些資源類型具有自己的存取管理系統。如果您有資源類型的組合，則可以個別管理每一種類型。若要指派對基礎架構資源的存取權，請在 SoftLayer 帳戶內設定許可權。若要指派對 Cloud Foundry 資源的存取權，請使用主控台之「身分及存取」區段中的「使用 Cloud Foundry 指派」選項。
+您在 {{site.data.keyword.Bluemix_notm}} 中管理存取權的方式，取決於要指派存取權的資源類型。{{site.data.keyword.Bluemix_notm}} Identity and Access Management (IAM) 是跨 {{site.data.keyword.Bluemix_notm}} 平台一致地管理資源的存取管理系統。{{site.data.keyword.Bluemix_notm}} 基礎架構及 Cloud Foundry 資源不是使用 Cloud IAM 進行管理。這些資源類型具有自己的存取管理系統。如果您有資源類型的組合，則可以個別管理每一種類型。若要[指派對基礎架構資源的存取權](/docs/iam/infrastructureaccess.html#infrapermission)，請在 SoftLayer 帳戶內設定許可權。若要[指派對 Cloud Foundry 資源的存取權](/docs/iam/cfaccess.html#cfaccess)，請使用主控台之「身分及存取」區段中的「使用 Cloud Foundry 指派」選項。
 
 ## 誰有權管理存取權？
 
