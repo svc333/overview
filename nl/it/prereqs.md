@@ -3,7 +3,7 @@
 
 copyright:
   years: 2016, 2018
-lastupdated: "2017-01-10"
+lastupdated: "2018-04-02"
 
 ---
 
@@ -25,10 +25,10 @@ Il seguente elenco indica il software browser minimo richiesto per {{site.data.k
  * Firefox: le versioni regolari ed ESR più recenti per il tuo sistema operativo; per ulteriori dettagli, vedi [Mozilla Firefox
 Extended Support Release](https://www.mozilla.org/firefox/organizations/)
  * Internet Explorer: versione 11
- * Edge: la versione più recente per Windows 
+ * Edge: la versione più recente per Windows
  * Safari: la versione più recente per Mac
 
-## Cloud Foundry
-{: #cf}
+## CLI (Command Line Interface)
+{: #cli}
 
-Interfaccia riga di comando Cloud Foundry, Versione 6.5.1 o successive
+La `bluemix cli` viene costantemente modificata, per cui si consiglia di utilizzare l'[ultima versione](/docs/cli/reference/bluemix_cli/all_versions.html) che raggruppa anche la `cf cli` Cloud Foundry. 

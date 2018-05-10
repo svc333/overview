@@ -1,12 +1,9 @@
 ---
 
-
-
 copyright:
 
   years: 2015, 2018
 lastupdated: "2018-03-01"
-
 
 ---
 
@@ -23,7 +20,7 @@ Queste informazioni sono state sviluppate per prodotti e servizi offerti negli S
 IBM può non offrire i prodotti, i servizi o le funzioni presentati in questo documento in altri paesi. Per le informazioni sui prodotti ed i servizi attualmente disponibili nel proprio paese, rivolgersi al rivenditore IBM locale. Qualunque riferimento relativo a prodotti, programmi o servizi IBM non implica che solo quei prodotti, programmi o servizi IBM possano essere utilizzati. In sostituzione a quelli forniti dall'IBM, possono essere utilizzati prodotti, programmi o servizi funzionalmente equivalenti che non comportino la violazione dei diritti di proprietà intellettuale IBM. È comunque responsabilità dell'utente valutare e verificare la  possibilità di utilizzare altri prodotti, programmi o servizi non IBM.
 
 IBM può avere brevetti o domande di brevetto in corso relativi a quanto trattato nella presente pubblicazione. La fornitura di questa pubblicazione non garantisce la concessione di alcuna licenza su di essi. Chi desiderasse ricevere informazioni relative alle licenze può rivolgersi per iscritto a:
-  
+
   *IBM Director of Licensing*
   *IBM Corporation*
   *North Castle Drive, MD-NC119*
@@ -31,7 +28,7 @@ IBM può avere brevetti o domande di brevetto in corso relativi a quanto trattat
   *US*
 
 Per domande su licenze relative ad informazioni su DBCS (double-byte character set), contattare il Dipartimento di Proprietà Intellettuale IBM nel proprio paese o inviare richieste per iscritto a:
-  
+
   *Intellectual Property Licensing*
   *Legal and Intellectual Property Law*
   *IBM Japan Ltd.*
@@ -47,7 +44,7 @@ Tutti i riferimenti a siti Web non dell'IBM contenuti in questo documento sono f
 IBM può utilizzare o distribuire le informazioni fornite in qualsiasi modo ritenga appropriato senza incorrere in alcun obbligo verso l'utente.
 
 Coloro che detengono la licenza su questo programma e desiderano avere informazioni su di esso allo scopo di consentire (i) uno scambio di informazioni tra programmi indipendenti ed altri (compreso questo) e (ii) l'uso reciproco di tali informazioni, dovrebbero rivolgersi a:
- 
+
   *IBM Director of Licensing*
   *IBM Corporation*
   *North Castle Drive, MD-NC119*
@@ -74,10 +71,10 @@ LICENZA SUL DIRITTO D'AUTORE:
 
 Queste informazioni contengono programmi campione di applicazione nella lingua di origine, i quali illustrano le tecniche di programmazione su varie piattaforme operative. È possibile copiare, modificare, e distribuire questi programmi campione in qualsiasi forma senza pagare IBM, a scopo di sviluppo, utilizzazione, commercializzazione o distribuzione di programmi applicativi conformi all'interfaccia di programmazione di applicazioni per la piattaforma operativa, per la quale sono stati scritti i programmi campione. Questi esempi non sono stati testati in maniera approfondita e tenendo conto di tutte le possibili condizioni. IBM, non può quindi garantire né dichiararne implicitamente l'affidabilità, l'utilità o il funzionamento di tali programmi. I programmi di esempio sono forniti "NELLO STATO IN CUI SI TROVANO", senza alcun tipo di garanzia. IBM non intende essere responsabile per alcun danno derivante dall'uso dei programmi di esempio.
 
-Ogni copia o copia parziale  dei programmi di esempio o di qualsiasi loro modifica deve includere il seguente avviso relativo alle leggi sul diritto d'autore: 
-  
-  © (nome dell'azienda) (anno). 
-  Parti di questo codice derivano dai Programmi di Esempio di IBM Corp. 
+Ogni copia o copia parziale  dei programmi di esempio o di qualsiasi loro modifica deve includere il seguente avviso relativo alle leggi sul diritto d'autore:
+
+  © (nome dell'azienda) (anno).
+  Parti di questo codice derivano dai Programmi di Esempio di IBM Corp.
   © Copyright IBM Corp. 2015.
 
 ## Marchi
@@ -104,12 +101,12 @@ I nomi di altre società, prodotti e servizi potrebbero essere marchi di altre s
 ## Termini di {{site.data.keyword.Bluemix_notm}}
 {: #terms}
 
-Il tuo account IBM Cloud e tutti i servizi ordinati da IBM Cloud sono forniti sotto i termini di: 
-  
+Il tuo account IBM Cloud e tutti i servizi ordinati da IBM Cloud sono forniti sotto i termini di:
+
   * I termini dell'accordo di base cloud sono applicabili a te nel seguente modo:
     * L'accordo del servizio cloud SoftLayer per la fatturazione con carta di credito in dollari US, disponibile all'indirizzo [http://www.softlayer.com/legal](http://www.softlayer.com/legal){: new_window} ![Icona link esterno](../../icons/launch-glyph.svg)
     * L'accordo del servizio IBM Cloud (versione paese locale*) per la fatturazione con carta di credito non in dollari US o se selezioni la fatturazione da IBM, disponibile all'indirizzo [https://www.ibm.com/terms](https://www.ibm.com/terms){: new_window} ![Icona link esterno](../../icons/launch-glyph.svg) (seleziona il tuo paese);
-    * L'accordo di IBM Passport Advantage che hai accettato e i termini generali dell'offerta cloud TOU per i client IBM Passport Advantage, disponibile all'indirizzo [http://www-03.ibm.com/software/sla/sladb.nsf/sla/tou](http://www-03.ibm.com/software/sla/sladb.nsf/sla/tou){: new_window} ![Icona link esterno](../../icons/launch-glyph.svg); or 
+    * L'accordo di IBM Passport Advantage che hai accettato e i termini generali dell'offerta cloud TOU per i client IBM Passport Advantage, disponibile all'indirizzo [http://www-03.ibm.com/software/sla/sladb.nsf/sla/tou](http://www-03.ibm.com/software/sla/sladb.nsf/sla/tou){: new_window} ![Icona link esterno](../../icons/launch-glyph.svg); or
     * i termini dell'accordo di base del servizio cloud tra te e IBM
   * Descrizione del servizio IBM Cloud disponibile all'indirizzo [http://www-03.ibm.com/software/sla/sladb.nsf/sla/bm](http://www-03.ibm.com/software/sla/sladb.nsf/sla/bm){: new_window} ![Icona link esterno](../../icons/launch-glyph.svg);
   * Ulteriori SD applicabili per tutti i servizi ordinati utilizzando il tuo account IBM Cloud disponibile all'indirizzo [http://www-03.ibm.com/software/sla/sladb.nsf/sla/bm](http://www-03.ibm.com/software/sla/sladb.nsf/sla/bm){: new_window} ![Icona link esterno](../../icons/launch-glyph.svg); e

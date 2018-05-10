@@ -4,7 +4,7 @@ copyright:
 
   years: 2017, 2018
 
-lastupdated: "2017-11-10"
+lastupdated: "2018-04-12"
 
 ---
 
@@ -20,7 +20,7 @@ lastupdated: "2017-11-10"
 
 La gestione dell'accesso ti consente di controllare quali utenti vedono, creano, utilizzano e gestiscono le risorse nel tuo account. Per concedere l'accesso, puoi assegnare ruoli che offrano agli utenti dei livelli di accesso per completare le attività di gestione della piattaforma e accedere alle risorse dell'account.
 
-Il modo in cui gestisci l'accesso in {{site.data.keyword.Bluemix_notm}} dipende dal tipo di risorsa a cui vuoi assegnare l'accesso. {{site.data.keyword.Bluemix_notm}} Identity and Access Management (IAM) è il sistema di gestione degli accessi per gestire in modo coerente le risorse attraverso la piattaforma {{site.data.keyword.Bluemix_notm}}. L'infrastruttura {{site.data.keyword.Bluemix_notm}} e le risorse Cloud Foundry non vengono gestite mediante Cloud IAM. Questi tipi di risorse hanno i loro propri sistemi di gestione degli accessi. Se hai una combinazione di tipi di risorse, gestisci ciascun tipo separatamente. Per assegnare l'accesso alle tue risorse dell'infrastruttura, imposta le autorizzazioni all'interno del tuo account SoftLayer. Per assegnare l'accesso alle risorse Cloud Foundry, utilizza l'opzione Assegna utilizzando Cloud Foundry nella sezione Identità e eccesso della console.
+Il modo in cui gestisci l'accesso in {{site.data.keyword.Bluemix_notm}} dipende dal tipo di risorsa a cui vuoi assegnare l'accesso. {{site.data.keyword.Bluemix_notm}} Identity and Access Management (IAM) è il sistema di gestione degli accessi per gestire in modo coerente le risorse attraverso la piattaforma {{site.data.keyword.Bluemix_notm}}. L'infrastruttura {{site.data.keyword.Bluemix_notm}} e le risorse Cloud Foundry non vengono gestite mediante Cloud IAM. Questi tipi di risorse hanno i loro propri sistemi di gestione degli accessi. Se hai una combinazione di tipi di risorse, gestisci ciascun tipo separatamente. Per [assegnare l'accesso alle tue risorse dell'infrastruttura](/docs/iam/infrastructureaccess.html#infrapermission), imposta le autorizzazioni all'interno del tuo account SoftLayer. Per [assegnare l'accesso alle risorse Cloud Foundry](/docs/iam/cfaccess.html#cfaccess), utilizza l'opzione Assegna utilizzando Cloud Foundry nella sezione Identità e eccesso della console.
 
 ## Chi ha l'autorizzazione per gestire l'accesso?
 
