@@ -1,12 +1,9 @@
 ﻿---
 
-
-
 copyright:
 
   years: 2015, 2018
 lastupdated: "2018-03-01"
-
 
 ---
 
@@ -38,7 +35,7 @@ ce document ne vous donne aucun droit de licence sur ces brevets ou
 demandes de brevet. Si vous désirez recevoir des informations
 concernant l'acquisition de licences, veuillez en faire la demande
 par écrit à l'adresse suivante :
-  
+
   *IBM Director of Licensing*
   *IBM Corporation*
   *North Castle Drive, MD-NC119*
@@ -55,7 +52,7 @@ Pour le Canada, veuillez adresser votre courrier à :
 
 Les informations sur les licences concernant les produits utilisant un jeu de caractères double octet
 peuvent être obtenues en écrivant à l'adresse suivante :
-  
+
   *Intellectual Property Licensing*
   *Legal and Intellectual Property Law*
   *IBM Japan Ltd.*
@@ -77,7 +74,7 @@ Les références à des sites Web non IBM sont fournies à titre d'information u
 IBM pourra utiliser ou diffuser, de toute manière qu'elle jugera appropriée et sans aucune obligation de sa part, tout ou partie des informations qui lui seront fournies.
 
 Les licenciés souhaitant obtenir des informations permettant : (i) l'échange des données entre des logiciels créés de façon indépendante et d'autres logiciels (dont celui-ci), et (ii) l'utilisation mutuelle des données ainsi échangées, doivent adresser leur demande à :
- 
+
   *IBM Director of Licensing*
   *IBM Corporation*
   *North Castle Drive, MD-NC119*
@@ -130,11 +127,11 @@ toutes les conditions. Par conséquent, IBM ne peut garantir expressément ou im
 fiabilité, la maintenabilité ou le fonctionnement de ces programmes. Les exemples de programmes sont fournis "EN L'ÉTAT", sans garantie d'aucune sorte. IBM n'est en aucun cas responsable des dommages liés à l'utilisation de ces exemples de programmes.
 
 Toute copie totale ou partielle de ces programmes exemples et des
-oeuvres qui en sont dérivées doit comprendre une notice de copyright, libellée comme suit : 
-  
-  © (nom de votre société) (année). 
+oeuvres qui en sont dérivées doit comprendre une notice de copyright, libellée comme suit :
+
+  © (nom de votre société) (année).
   Des segments de code sont dérivés des Programmes exemples
-d'IBM Corp. 
+d'IBM Corp.
   © Copyright IBM Corp. 2015.
 
 ## Marques
@@ -161,12 +158,12 @@ Les autres noms de sociétés, de produits et de services peuvent appartenir à 
 ## Conditions d'utilisation de {{site.data.keyword.Bluemix_notm}}
 {: #terms}
 
-Votre compte IBM Cloud et les services offerts dans le cadre d'IBM Cloud sont fournis dans les conditions fixées par : 
-  
+Votre compte IBM Cloud et les services offerts dans le cadre d'IBM Cloud sont fournis dans les conditions fixées par :
+
   * Les dispositions du contrat de base Cloud qui s'appliquent à vous comme suit :
     * Le contrat relatif au service SoftLayer Cloud pour la facturation des cartes de crédit en dollars américains, disponible à l'adresse[http://www.softlayer.com/legal](http://www.softlayer.com/legal){: new_window} ![Icône de lien externe](../../icons/launch-glyph.svg)
     * Le contrat relatif aux services IBM Cloud (version du pays local*) pour la facturation des cartes de crédit autre qu'en dollars américains, ou si vous sélectionnez un mode de facturation à partir d'IBM, disponible à l'adresse [https://www.ibm.com/terms](https://www.ibm.com/terms){: new_window} ![Icône de lien externe](../../icons/launch-glyph.svg) (sélectionnez votre pays) ;
-    * Le contrat IBM Passport Advantage que vous avez accepté et les dispositions générales des présentes conditions d'utilisation des offres Cloud pour les clients IBM Passport Advantage, disponibles à l'adresse [http://www-03.ibm.com/software/sla/sladb.nsf/sla/tou](http://www-03.ibm.com/software/sla/sladb.nsf/sla/tou){: new_window} ![Icône de lien externe](../../icons/launch-glyph.svg) ; ou 
+    * Le contrat IBM Passport Advantage que vous avez accepté et les dispositions générales des présentes conditions d'utilisation des offres Cloud pour les clients IBM Passport Advantage, disponibles à l'adresse [http://www-03.ibm.com/software/sla/sladb.nsf/sla/tou](http://www-03.ibm.com/software/sla/sladb.nsf/sla/tou){: new_window} ![Icône de lien externe](../../icons/launch-glyph.svg) ; ou
     * Les dispositions équivalentes du contrat de base relatif au service Cloud entre vous et IBM ;
   * Une description de service pour IBM Cloud disponible à l'adresse [http://www-03.ibm.com/software/sla/sladb.nsf/sla/bm](http://www-03.ibm.com/software/sla/sladb.nsf/sla/bm){: new_window} ![Icône de lien externe](../../icons/launch-glyph.svg) ;
   * Des descriptions de service supplémentaires qui s'appliquent à n'importe quel service commandé à l'aide de votre compte IBM Cloud, disponibles à l'adresse [http://www-03.ibm.com/software/sla/sladb.nsf/sla/bm](http://www-03.ibm.com/software/sla/sladb.nsf/sla/bm){: new_window} ![Icône de lien externe](../../icons/launch-glyph.svg) ; et

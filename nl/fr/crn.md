@@ -4,7 +4,7 @@ copyright:
 
   years: 2017, 2018
 
-lastupdated: "2017-12-15"
+lastupdated: "2018-04-02"
 
 ---
 
@@ -134,6 +134,12 @@ Le segment `service-instance` identifie l'instance de service de manière unique
 Par exemple, un outil DevOps de suivi et de planification d'éléments de travail peut avoir un simple ID d'instance `GUID` ("1234-5678-9012-3456") tandis que le composant de règle d'un service de groupe de mise à l'échelle automatique peut utiliser une convention de dénomination hiérarchique et avoir un segment `service-id` comme suit :
 
 >`c7a27f55-d35e-4153-b044-8ca9155fc467/my-test-asg1/my-scaleout-policy`
+
+Vous pouvez également vous procurer un nom de ressource de cloud à partir d'une ressource {{site.data.keyword.Bluemix_notm}} à l'aide de la commande d'interface de ligne de commande suivante :
+```
+bluemix resource service-instance
+```
+{: codeblock}
 
 
 ## resource-type, resource

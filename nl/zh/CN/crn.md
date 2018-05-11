@@ -4,7 +4,7 @@ copyright:
 
   years: 2017, 2018
 
-lastupdated: "2017-12-15"
+lastupdated: "2018-04-02"
 
 ---
 
@@ -101,7 +101,7 @@ CRN 的基本规范格式为：
 | PAR01  | SJC01  | SJC03  | SAO01  |  SEA01  |
 | SEO01  | SNG01  | SYD01  | TOK02  |  TOR01  |
 | WDC01  | WDC04  | WDC06  | WDC07  |
-{: caption="表 1. 有效的`数据中心`值" caption-side="top"}
+{: caption="表 1. 有效的数据中心值" caption-side="top"}
 
 某些资源不需要区域（这些资源可以视为 `global`）。在这种情况下，`region` 分段设置为 `global`。
 {: tip}
@@ -134,6 +134,12 @@ CRN 的基本规范格式为：
 例如，用于跟踪和规划工作项的 DevOps 工具可以有简单的 `GUID` 实例标识（“1234-5678-9012-3456”），其中自动扩展组服务的策略组件可以使用分层命名约定，并且其 `service-id` 分段如下：
 
 >`c7a27f55-d35e-4153-b044-8ca9155fc467/my-test-asg1/my-scaleout-policy`
+
+您还可以使用以下 CLI 命令从 {{site.data.keyword.Bluemix_notm}} 资源中获取 CRN：
+```
+bluemix resource service-instance
+```
+{: codeblock}
 
 
 ## resource-type 和 resource

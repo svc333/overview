@@ -4,7 +4,7 @@ copyright:
 
   years: 2017, 2018
 
-lastupdated: "2017-11-10"
+lastupdated: "2018-04-12"
 
 ---
 
@@ -20,7 +20,7 @@ lastupdated: "2017-11-10"
 
 通过访问权管理，可以控制哪些用户可以查看、创建、使用和管理帐户中的资源。要授予访问权，可以分配角色以允许用户拥有完成平台管理任务和访问帐户资源所需的访问级别。
 
-在 {{site.data.keyword.Bluemix_notm}} 中管理访问权的方式取决于要分配其访问权的资源的类型。{{site.data.keyword.Bluemix_notm}} Identity and Access Management (IAM) 是一种访问权管理系统，用于在整个 {{site.data.keyword.Bluemix_notm}} 平台上以一致的方式管理资源。{{site.data.keyword.Bluemix_notm}} 基础架构和 Cloud Foundry 资源不使用 Cloud IAM 进行管理。这些资源类型有自己的访问权管理系统。如果您具有资源类型的组合，请分别管理每种类型。要分配对基础架构资源的访问权，请在 SoftLayer 帐户内设置许可权。要分配对 Cloud Foundry 资源的访问权，请使用控制台的“身份和访问权”部分中的“使用 Cloud Foundry 进行分配”选项。
+在 {{site.data.keyword.Bluemix_notm}} 中管理访问权的方式取决于要分配其访问权的资源的类型。{{site.data.keyword.Bluemix_notm}} Identity and Access Management (IAM) 是一种访问权管理系统，用于在整个 {{site.data.keyword.Bluemix_notm}} 平台上以一致的方式管理资源。{{site.data.keyword.Bluemix_notm}} 基础架构和 Cloud Foundry 资源不使用 Cloud IAM 进行管理。这些资源类型有自己的访问权管理系统。如果您具有资源类型的组合，请分别管理每种类型。要[分配对基础架构资源的访问权](/docs/iam/infrastructureaccess.html#infrapermission)，请在 SoftLayer 帐户内设置许可权。要[分配对 Cloud Foundry 资源的访问权](/docs/iam/cfaccess.html#cfaccess)，请使用控制台的“身份和访问权”部分中的“使用 Cloud Foundry 进行分配”选项。
 
 ## 谁有权管理访问权？
 

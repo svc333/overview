@@ -3,7 +3,7 @@
 
 copyright:
   years: 2016, 2018
-lastupdated: "2017-01-10"
+lastupdated: "2018-04-02"
 
 ---
 
@@ -28,7 +28,7 @@ Extended Support Release](https://www.mozilla.org/firefox/organizations/)
  * Edge: Aktuelle Version für Windows
  * Safari: Aktuelle Version für Mac
 
-## Cloud Foundry
-{: #cf}
+## Befehlszeilenschnittstelle (Command Line Interface, CLI)
+{: #cli}
 
-Cloud Foundry-Befehlszeilenschnittstelle, Version 6.5.1 oder höher
+Da die `Bluemix-CLI` kontinuierlich geändert wird, empfiehlt es sich, die [neueste Version](/docs/cli/reference/bluemix_cli/all_versions.html) zu verwenden, die auch die Cloud Foundry-CLI `Befehlszeilenschnittstelle 'cf'` beinhaltet. 

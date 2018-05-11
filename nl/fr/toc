@@ -16,6 +16,7 @@ Qu'est-ce qu'IBM Cloud ?
     security.md
     dev-journey.md
     whats-new/index.md
+    feedback.md
 
     {: .topicgroup}
     Liens connexes
@@ -28,4 +29,5 @@ Qu'est-ce qu'IBM Cloud ?
     glossary/index.md
     nls.md
     terms-of-use/notices.md
+    accessibility/accessibility_features.md
     {: .navgroup-end}

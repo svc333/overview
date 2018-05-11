@@ -1,12 +1,9 @@
 ---
 
-
-
 copyright:
 
   years: 2015, 2018
 lastupdated: "2018-03-01"
-
 
 ---
 
@@ -24,7 +21,7 @@ IBM 可能在其他国家或地区不提供本文档中讨论的产品、服务�
 IBM 代表咨询。任何对 IBM 产品、程序或服务的引用并非意在明示或暗示只能使用 IBM 的产品、程序或服务。只要不侵犯 IBM 的知识产权，任何同等功能的产品、程序或服务，都可以代替 IBM 产品、程序或服务。但是，评估和验证任何非 IBM 产品、程序或服务，则由用户自行负责。
 
 IBM 公司可能已拥有或正在申请与本文档内容有关的各项专利。提供本文档并未授予用户使用这些专利的任何许可。您可以用书面方式将许可查询寄往：
-  
+
   *IBM Director of Licensing*
   *IBM Corporation*
   *North Castle Drive, MD-NC119*
@@ -32,7 +29,7 @@ IBM 公司可能已拥有或正在申请与本文档内容有关的各项专利�
   *US*
 
 有关双字节字符集 (DBCS) 信息的许可查询，请与您所在国家或地区的 IBM 知识产权部门联系，或用书面方式将查询寄往：
-  
+
   *Intellectual Property Licensing*
   *Legal and Intellectual Property Law*
   *IBM Japan Ltd.*
@@ -49,7 +46,7 @@ INTERNATIONAL BUSINESS MACHINES CORPORATION“按现状”提供本出版物，�
 IBM 可以按它认为适当的任何方式使用或分发您所提供的任何信息而无须对您承担任何责任。
 
 本程序的被许可方如果要了解有关程序的信息以达到如下目的：(i) 允许在独立创建的程序和其他程序（包括本程序）之间进行信息交换，以及 (ii) 允许对已经交换的信息进行相互使用，请与下列地址联系：
- 
+
   *IBM Director of Licensing*
   *IBM Corporation*
   *North Castle Drive, MD-NC119*
@@ -77,8 +74,8 @@ IBM 可以按它认为适当的任何方式使用或分发您所提供的任何�
 
 本信息包括源语言形式的样本应用程序，这些样本说明不同操作平台上的编程方法。如果是为按照在编写样本程序的操作平台上的应用程序编程接口（API）进行应用程序的开发、使用、经销或分发为目的，您可以任何形式对这些样本程序进行复制、修改、分发，而无须向 IBM 付费。这些示例并未在所有条件下作全面测试。因此，IBM 不能担保或暗示这些程序的可靠性、可维护性或功能。此样本程序“按现状”提供，且不附有任何种类的保证。对于使用此样本程序所引起的任何损坏，IBM 将不承担责任。
 
-凡这些样本程序的每份拷贝或其任何部分或任何演绎作品，都必须包括如下版权声明： 
-  
+凡这些样本程序的每份拷贝或其任何部分或任何演绎作品，都必须包括如下版权声明：
+
   ©（贵公司的名称）（年）。此部分代码是根据 IBM 公司的样本程序衍生出来的。Copyright IBM Corp. 2015.
 
 ## 商标
@@ -105,12 +102,12 @@ Java™ 和所有基于 Java 的商标和徽标是 Oracle 和/或其分公司的
 ## {{site.data.keyword.Bluemix_notm}} 条款
 {: #terms}
 
-您的 IBM Cloud 帐户以及从 IBM Cloud 订购的任何服务根据以下条款提供： 
-  
+您的 IBM Cloud 帐户以及从 IBM Cloud 订购的任何服务根据以下条款提供：
+
   * 适用于您的“基本协议云条款”如下：
     * 有关美元信用卡帐单的“SoftLayer 云服务协议”：[http://www.softlayer.com/legal](http://www.softlayer.com/legal){: new_window} ![外部链接图标](../../icons/launch-glyph.svg)
     * 有关非美元信用卡帐单的“IBM Cloud 服务协议”（本地国家/地区版本*），或者如果您选择由 IBM 开票，请访问：[https://www.ibm.com/terms](https://www.ibm.com/terms){: new_window} ![外部链接图标](../../icons/launch-glyph.svg)（选择您所在国家/地区）；
-    * 您接受的“IBM Passport Advantage 协议”以及“IBM Passport Advantage 客户机云产品 TOU 的通用条款”：[http://www-03.ibm.com/software/sla/sladb.nsf/sla/tou](http://www-03.ibm.com/software/sla/sladb.nsf/sla/tou){: new_window} ![外部链接图标](../../icons/launch-glyph.svg)；或者 
+    * 您接受的“IBM Passport Advantage 协议”以及“IBM Passport Advantage 客户机云产品 TOU 的通用条款”：[http://www-03.ibm.com/software/sla/sladb.nsf/sla/tou](http://www-03.ibm.com/software/sla/sladb.nsf/sla/tou){: new_window} ![外部链接图标](../../icons/launch-glyph.svg)；或者
     * 您与 IBM 之间达成的效力等同的云服务基本协议条款；
   * IBM Cloud 服务描述：[http://www-03.ibm.com/software/sla/sladb.nsf/sla/bm](http://www-03.ibm.com/software/sla/sladb.nsf/sla/bm){: new_window} ![外部链接图标](../../icons/launch-glyph.svg)；
   * 使用 IBM Cloud 帐户订购的任何服务的适用附加服务描述：[http://www-03.ibm.com/software/sla/sladb.nsf/sla/bm](http://www-03.ibm.com/software/sla/sladb.nsf/sla/bm){: new_window} ![外部链接图标](../../icons/launch-glyph.svg)；以及

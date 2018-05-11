@@ -1,17 +1,14 @@
 ---
 
- 
-
 copyright:
 
   years: 2015, 2018
 
-lastupdated: "2018-03-15" 
+lastupdated: "2018-04-04"
 
 ---
 
-
-{:shortdesc: .shortdesc} 
+{:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
 
 # {{site.data.keyword.Bluemix_notm}} 中的新增功能
@@ -23,7 +20,13 @@ lastupdated: "2018-03-15"
 ## {{site.data.keyword.Bluemix_notm}} 平台
 {: #platform_category}
 
-### SoftLayer 与 {{site.data.keyword.Bluemix_notm}} 帐户链接 
+### 使用访问组快速分配访问权
+最新更新日期：2018 年 4 月 3 日
+
+您是否希望能够尽可能使用最少量的策略来快速分配访问权？现在，您可以使用访问组。访问组支持将一组用户和服务标识分组到一起，然后分配应用于该组中所有成员的单个策略。通过使用访问组，可以限制管理帐户中用户和服务标识访问权所花费的时间。有关更多详细信息，请查看博客帖子[新功能：访问组](https://www.ibm.com/blogs/bluemix/2018/04/access-groups/){: new_window}
+![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")。
+
+### SoftLayer 与 {{site.data.keyword.Bluemix_notm}} 帐户链接
 最新更新日期：2018 年 3 月 1 日
 
 您可以将 SoftLayer 帐户链接到 {{site.data.keyword.Bluemix_notm}} 帐户，以登录到单个位置（即 {{site.data.keyword.Bluemix_notm}} 控制台），然后可同时访问基础架构即服务 (IaaS) 和平台即服务 (PaaS) 资源。如果您是 {{site.data.keyword.Bluemix_notm}} 的新用户，请创建并链接帐户以获取免费 {{site.data.keyword.Bluemix_notm}} 试用。或者，如果您已经有可访问 PaaS 资源的 {{site.data.keyword.Bluemix_notm}} 帐户，请链接您的帐户以接收含有 IaaS 和 PaaS 资源的单个帐单。请查看[链接 IaaS 和 PaaS 帐户的步骤](https://www.ibm.com/blogs/bluemix/2018/03/follow-steps-link-iaas-paas-accounts/){: new_window} ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标") 以快速链接帐户。
@@ -42,12 +45,12 @@ lastupdated: "2018-03-15"
 ### 撤销对 TLS 1.0 和 1.1 的支持
 最新更新日期：2017 年 11 月 28 日
 
-2018 年 3 月 1 日，{{site.data.keyword.Bluemix_notm}} 将撤销对许多云产品和服务上 TLS 1.0 和 TLS 1.1 的支持；我们致力于提供高度安全且符合关于安全和数据隐私的业界最佳实践的云，此更改正是这一工作的一部分。要了解有关此更改如何影响您以及您可能需要采取的措施的更多信息，请参阅[撤销对 TLS 1.0 和 1.1 的支持](/docs/troubleshoot/appsectls.html)。
+2018 年 3 月 1 日，{{site.data.keyword.Bluemix_notm}} 将撤销对许多云产品和服务上 TLS 1.0 和 TLS 1.1 的支持；我们致力于提供高度安全且符合安全和数据隐私业界最佳实践的云，此更改正是这一工作的一部分。要了解有关此更改如何影响您以及您可能需要采取的措施的更多信息，请参阅[撤销对 TLS 1.0 和 1.1 的支持](/docs/troubleshoot/appsectls.html)。
 
 ### 新增组织帐户中资源的方法
 最新更新日期：2017 年 11 月 16 日
 
-资源组是供您创建可定制帐户资源分组的新方法，并且对组的访问权以及组内的资源均使用 Identity and Access Management (IAM) 进行管理。所有人一开始只有缺省资源组。您可以重命名此资源组，并且可以在目录中创建新服务实例时，向此资源组添加这些服务实例。 
+资源组是供您创建可定制帐户资源分组的新方法，并且对组的访问权以及组内的资源均使用 Identity and Access Management (IAM) 进行管理。所有人一开始只有缺省资源组。您可以重命名此资源组，并且可以在目录中创建新服务实例时，向此资源组添加这些服务实例。
 
 如果您是使用现买现付或预订帐户的用户，那么可以创建其他资源组，以便更轻松地管理配额以及查看一组资源的计费使用情况。您还可以对资源进行分组，从而更轻松地为用户一次性分配对多个服务的访问权。要了解有关使用帐户的资源组的更多信息，请参阅[管理资源组](/docs/account/resourcegroups.html#rgs)。
 
@@ -55,10 +58,10 @@ lastupdated: "2018-03-15"
 最新更新日期：2017 年 11 月 16 日
 
 在 {{site.data.keyword.Bluemix_notm}} 帐户内引入的[资源组](/docs/overview/resource-groups.html#whatis)为您分配访问权开辟了一条新的道路。可以为用户和服务标识分配对资源组内所有服务的访问权，从而使您可以一次性快速分配对多个资源的访问权。您还可以通过为每个用户或服务标识只分配对资源组内某些服务的访问权来定制访问权，或者仅选择分配对向下一直到服务实例级别的单个资源的访问权。
- 
+
 有关可以通过 IAM 来利用的功能的更多信息，请参阅 [IAM 提供了哪些功能？](/docs/iam/index.html#features)
 
-### 定制仪表板视图 
+### 定制仪表板视图
 最新更新日期：2017 年 11 月 16 日
 
 可以在 {{site.data.keyword.Bluemix_notm}} 控制台的仪表板中，查看和管理帐户中的所有资源。现在，可以设置过滤器来定制视图。例如，可以按资源组进行过滤，以查看资源组中的特定资源。还可以按区域或按 Cloud Foundry 空间进行过滤。有关更多详细信息，请参阅[在仪表板上管理资源](/docs/overview/ui.html#dashboardview)。
@@ -67,7 +70,7 @@ lastupdated: "2018-03-15"
 ### 支持中心
 最新更新日期：2017 年 11 月 2 日
 
-现在，我们有了新的支持中心，在其中可以搜索信息，向开发者社区发布问题以及管理凭单。在 {{site.data.keyword.Bluemix_notm}} 控制台菜单栏中，转至**支持 > 支持中心**。 
+现在，我们有了新的支持中心，在其中可以搜索信息，向开发者社区发布问题以及管理凭单。在 {{site.data.keyword.Bluemix_notm}} 控制台菜单栏中，转至**支持 > 支持中心**。
 
 ### 推出 IBM Cloud
 最新更新日期：2017 年 10 月 31 日
@@ -84,9 +87,9 @@ Bluemix 现已更名为 IBM Cloud。除了推出新名称外，没有更改其�
 
 现在，Identity and Access Management (IAM) 提供了创建服务标识的功能，您可以将其视为可供应用程序用于向 {{site.data.keyword.Bluemix_notm}} 服务进行认证的身份。服务标识可以使用以服务策略形式分配给服务标识的关联 API 密钥和访问许可权（而不使用个人用户凭证）进行创建，以便您可控制使用该标识进行认证的任何应用程序的访问级别。
 
-有关此功能的优点以及如何开始使用的更多信息，请参阅 [Introducing IBM Cloud IAM Service IDs and API Keys](https://www.ibm.com/blogs/bluemix/2017/10/introducing-ibm-cloud-iam-service-ids-api-keys/){: new_window} ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")。 
+有关此功能的优点以及如何开始使用的更多信息，请参阅 [Introducing IBM Cloud IAM Service IDs and API Keys](https://www.ibm.com/blogs/bluemix/2017/10/introducing-ibm-cloud-iam-service-ids-api-keys/){: new_window} ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")。
 
-### {{site.data.keyword.Bluemix_notm}} 全局目录 
+### {{site.data.keyword.Bluemix_notm}} 全局目录
 最新更新日期：2017 年 7 月 27 日
 
 上一次控制台更新后可在控制台中从单个位置管理公共区域，基于此更新进行扩展，{{site.data.keyword.Bluemix_notm}} 现在拥有全局目录，进一步简化了从目录中选择和部署项的过程。不管您在控制台中选择了哪个区域，现在都可以在目录中查看所有公共区域中可用的所有服务。在目录中选择一个磁贴后，即可以看到在其中该服务可用的区域，然后选择要在其中部署该服务的区域。
@@ -131,7 +134,7 @@ Bluemix 现已更名为 IBM Cloud。除了推出新名称外，没有更改其�
 #### 用于管理维护更新的新许可权
 
 引入了新的用户许可权，专门允许用户批准和重新安排维护更新，还允许用户设置维护更新时段，以规定何时可将维护更新部署到专用环境中。有关更多信息，请参阅[视频演示](https://youtu.be/7c7jyp_JJWU){: new_window} ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")。
- 
+
 ### 管理控制台 12 月更新
 {: #decemberadminconsole}
 最新更新日期：2017 年 12 月 14 日
@@ -142,10 +145,10 @@ Bluemix 现已更名为 IBM Cloud。除了推出新名称外，没有更改其�
 
 平均 CPU 已添加为通知预订中的阈值类型。现在，您可以在 CPU 使用率（在所有 DEA 和 Diego 单元上的平均值）高于或低于特定阈值时收到通知。
 
-#### 控制对欧盟云系统的访问 
+#### 控制对欧盟云系统的访问
 
 现在，管理控制台合并了在欧盟地区（首先是法兰克福）支持云资源的新功能，能够定义用于控制 IBM 人员访问权的策略。您可以管理访问控制策略，查看访问请求，对请求执行操作以及跟踪历史记录。
-  
+
 #### 增强了安全报告中的信息
 
 现在，安全报告中除了用户和组织的唯一标识外，还包含用户友好的名称。
@@ -161,9 +164,9 @@ Bluemix 现已更名为 IBM Cloud。除了推出新名称外，没有更改其�
   * 更新了对 {{site.data.keyword.cloudant_short_notm}} 使用情况度量值的计算，以反映出 {{site.data.keyword.cloudant_short_notm}} 集群中所有节点上的已用 GB 和可用 GB 总量。通常，{{site.data.keyword.cloudant_short_notm}} 集群包含 3 个节点，并且数据库中的文档将在集群中的所有节点上进行复制，以实现高可用性和灾难恢复。通过 8 月更新，{{site.data.keyword.cloudant_short_notm}} 对话框（在_资源使用情况 > 服务_视图中提供）中的容量度量值指示集群中所有节点上的空间。例如，如果单个 {{site.data.keyword.cloudant_short_notm}} 集群中包含 3 个节点，每个节点的容量是 1000 GB，那么容量限制将为 3000 GB。如果已使用该容量中的 1500 GB，那么 {{site.data.keyword.cloudant_short_notm}} 使用情况度量值将为 50%。
 
 #### 维护安排更新
-  
+
   * 在 {{site.data.keyword.Bluemix_dedicated_notm}} 中，客户可以管理其专用环境可用于部署系统更新的日期和时间。客户可以定义可用时段，这表示维护更新可以和不可以部署到其专用环境的日期和时间。在 8 月更新中，_可用更新时段_已重命名为_更新时段_，_不可用更新时段_已重命名为_中断时段_。除了术语变化外，现在客户在定义中断（不可用）日期时有更大的灵活性和余地。中断日期在请求后需要 IBM 批准，多长时间能获得批准不一定。IBM 在批准了请求的中断日期之后，会取消当前安排在不可用时段中的所有现有更新。IBM 还会为这些更新创建新记录，并将其安排在批准的中断日期以外的时间。
-  
+
 有关更多信息，请参阅[视频演示](https://bit.ly/2eCQNvu){: new_window} ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")。
 
 ### 管理控制台 7 月更新
@@ -176,7 +179,7 @@ Bluemix 现已更名为 IBM Cloud。除了推出新名称外，没有更改其�
 
   * 在之前的更新（6 月）中，内存和磁盘使用情况的“历史记录”视图引入了显示过去 48 小时、30 天和 5 个月使用情况数据的功能。在这次最新的 7 月更新中，资源使用情况历史记录功能经过扩展，允许定制显示其资源使用数据的时间范围。每小时、每天和每月视图仍然保留，但现在用户可以指定显示其内存和磁盘使用情况度量值的开始日期/时间和持续时间（例如，显示自 2017 年 7 月 1 日起 15 天的内存使用情况）。
   * 引入了新的 CLI 命令，用于在 CLI 中显示资源度量值历史记录。该命令的参数以及用法示例可以通过输入以下命令找到：`_cf ba resource-metrics-history -help_`
- 
+
 有关更多信息，请参阅[视频演示](https://youtu.be/QBij0jB5qAk){: new_window} ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")。
 
 ### 管理控制台 6 月更新
@@ -189,19 +192,19 @@ Bluemix 现已更名为 IBM Cloud。除了推出新名称外，没有更改其�
 
   * 系统资源
     * 内存和磁盘的“历史记录”视图已更新为显示 48 小时、30 天和 5 个月的数据
-    * 提供了“了解更多”链接，用于显示管理控制台度量值 API 如何用于生成“历史记录”视图 
+    * 提供了“了解更多”链接，用于显示管理控制台度量值 API 如何用于生成“历史记录”视图
   * 应用程序
     * 提供环境中所有应用程序的使用情况信息
-    * 按应用程序名称、物理内存、保留内存、物理磁盘、保留磁盘、物理 CPU 或组织名称排序 
+    * 按应用程序名称、物理内存、保留内存、物理磁盘、保留磁盘、物理 CPU 或组织名称排序
     * 提供了搜索功能，用于按应用程序名称和组织名称过滤结果
     * 提供了“了解更多”链接，用于显示管理控制台度量值 API 如何用于生成“应用程序”视图
- 
+
 有关更多信息，请参阅[资源使用情况](/docs/hybrid/index.html#resourceusage)。
 
 #### 用于度量值的 API 更新
 
   * 添加了环境统计信息，可按天或按月提供内存和磁盘消耗量的平均值
-  
+
 有关更多信息，请参阅[用于度量值的 API](/docs/hybrid/index.html#envappmetricsapi)。
 
 
@@ -213,8 +216,8 @@ Bluemix 现已更名为 IBM Cloud。除了推出新名称外，没有更改其�
 
  * 改进了“状态”页面，包含对影响 {{site.data.keyword.Bluemix_notm}} 平台和运行时的事件进行更详细的诊断。
  * 改进了安全性“报告和日志”页面：
-   * 现在，报告以表格式显示，简化了报告浏览和搜索，包括按报告类别、文件名或创建日期排序的功能。 
-   * 增强了过滤功能，包含同时过滤多个类别的功能 
+   * 现在，报告以表格式显示，简化了报告浏览和搜索，包括按报告类别、文件名或创建日期排序的功能。
+   * 增强了过滤功能，包含同时过滤多个类别的功能
    * 全屏方式显示报告内容
    * 具有“报告写入”许可权的管理员用户可以删除报告
    * 报告列表显示速度更快，可通过连续滚动以渐进方式按需装入，从而提高了总体性能。
@@ -272,14 +275,14 @@ Liberty buildpack V3.9 提供了新的每月 Liberty 运行时版本，并包含
 ## 服务
 {: #services_category}
 
-### {{site.data.keyword.iva_full}} Beta 现在可用！
+### {{site.data.keyword.iva_full_notm}} Beta 现在可用！
 最新更新日期：2018 年 3 月 16 日
 
 通过 [{{site.data.keyword.iva_full}}](https://console.bluemix.net/catalog/services/voice-agent-with-watson) ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")，您可以创建基于 Watson 服务构建的认知语音代理程序，客户可以通过电话呼叫该代理程序并与之通话。通过将 Watson 人工智能应用于主干，语音代理程序能以对话方式进行通信，并在语音代理程序内处理复杂的交互和处理客户呼叫。
 
 此 Beta 发行版引入了以下关键功能：
 
-* 通过在单个步骤中创建语音代理程序和所有必需的 Watson 服务，前所未有地轻松入门。 
+* 通过在单个步骤中创建语音代理程序和所有必需的 Watson 服务，前所未有地轻松入门。
 * 通过语音代理程序转接呼叫，例如转接到人工联系中心代理或其他目标。
 * 通过将语音代理程序配置为转发呼叫详细记录和转录，以收集和分析呼叫数据，然后 {{site.data.keyword.conversationshort}} 会将事件转到 {{site.data.keyword.cloudant_short_notm}} 数据库。
 * 在新的_使用情况_页面上，监视服务使用情况和查看呼叫日志。您可以查看当月的快速统计信息，查找和过滤呼叫日志，以及查看每个单独呼叫的系统消息。
@@ -288,14 +291,21 @@ Liberty buildpack V3.9 提供了新的每月 Liberty 运行时版本，并包含
 
 首先，请参阅 [{{site.data.keyword.iva_short}}](/docs/services/voice-agent/getting-started.html) 文档。
 
+### {{site.data.keyword.visualrecognitionshort}} 更新
+最新更新日期：2018 年 3 月 14 日
+
+更新了 {{site.data.keyword.visualrecognitionfull}} 服务，现在会生成新的“定制分类器”模型培训作为基于深度学习神经网络的分类器。生成这些深度学习模型需要额外计算，因此对新模型进行培训可能需要更长时间。
+
+目前，现有定制分类器可以继续进行更新和重新培训，但不会更新为这种新的深度学习机器模型格式。
+
 ### {{site.data.keyword.streaminganalyticsshort}} 更新
-最新更新日期：2018 年 2 月 14 日 
+最新更新日期：2018 年 2 月 14 日
 
 [{{site.data.keyword.streaminganalyticsshort}} 服务](https://console.bluemix.net/catalog/services/streaming-analytics){: new_window} ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标") 中的 [Beta-Entry 和 Beta-Enhanced 套餐](/docs/services/StreamingAnalytics/beta_plans.html#beta_plans)包含多项增强功能：
- 
-* [新的 IBM Streams QSE for Docker](https://www-01.ibm.com/marketing/iwm/iwm/web/preLogin.do?source=swg-ibmistvi){: new_window} ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")：查看 [Beta 开发指南](https://developer.ibm.com/streamsdev/docs/cloud-beta-devguide/){: new_window} ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")，了解如何将新的 Streams QSE 与在 Docker 环境中运行的 RHEL 7 配合使用，以使用新的 {{site.data.keyword.streaminganalyticsshort}} Beta 套餐来编译和部署应用程序。 
+
+* [新的 IBM Streams QSE for Docker](https://www-01.ibm.com/marketing/iwm/iwm/web/preLogin.do?source=swg-ibmistvi){: new_window} ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")：查看 [Beta 开发指南](https://developer.ibm.com/streamsdev/docs/cloud-beta-devguide/){: new_window} ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")，了解如何将新的 Streams QSE 与在 Docker 环境中运行的 RHEL 7 配合使用，以使用新的 {{site.data.keyword.streaminganalyticsshort}} Beta 套餐来编译和部署应用程序。
 * [{{site.data.keyword.streaminganalyticsshort}} V2 REST API](https://console.bluemix.net/apidocs/1939-streaming-analytics-v2#introduction){: new_window} ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")
-* [新的入门模板和样本应用程序](https://developer.ibm.com/streamsdev/docs/cloud-beta-samples/) 
+* [新的入门模板和样本应用程序](https://developer.ibm.com/streamsdev/docs/cloud-beta-samples/)
 * [{{site.data.keyword.streaminganalyticsshort}} 服务中的高可用性增强功能](/docs/services/StreamingAnalytics/consistentregions.html#consistentregions)
 * [{{site.data.keyword.streaminganalyticsshort}} Beta 版服务中新的问题确定功能](https://developer.ibm.com/streamsdev/2018/02/15/streaming-analytics-console-gives-ways-find-fix-errors-beta-plans/){: new_window} ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")
 * [监视操作员在云中的行为和有保证的元组处理](https://developer.ibm.com/streamsdev/2018/02/15/monitor-operators-behave-ensure-resource-optimization/){: new_window} ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")
@@ -359,7 +369,7 @@ Liberty buildpack V3.9 提供了新的每月 Liberty 运行时版本，并包含
 #### APNS HTTP/2 支持
 Apple 推出了对 Apple 通知的 HTTP 协议的支持。现在，{{site.data.keyword.mobilepushshort}} 服务支持 HTTP/2 协议。有了这种支持，通知有效内容可以随着吞吐量上升而达到 4 KB，另外还提供了即时反馈功能。通过支持通用证书，允许应用程序连接到沙箱和生产环境。
 
-#### 新增轻量套餐 
+#### 新增轻量套餐
 {{site.data.keyword.mobilepushshort}} 服务的轻量套餐提供了每月免费发送 10 万条通知的能力。有关更多信息，请参阅 [Lite Plan For Push Notifications Service on Bluemix](https://www.ibm.com/blogs/bluemix/2017/06/lite-plan-push-notifications-service-bluemix/){: new_window} ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标") 博客帖子。
 
 
@@ -427,15 +437,15 @@ IBM App Launch for {{site.data.keyword.Bluemix_notm}} Services 是一个试验�
 
 ### {{site.data.keyword.streaminganalyticsshort}} 服务更新：控制台包含用于查明应用程序中问题的新方法
 最新更新日期：2017 年 8 月 14 日
- 
-对于 Python 和 Java 应用程序，源文件位置根据 @spl_note 注释显示。 
- 
+
+对于 Python 和 Java 应用程序，源文件位置根据 @spl_note 注释显示。
+
 有关详细信息，请参阅 [{{site.data.keyword.streaminganalyticsshort}} 的最新改进](https://developer.ibm.com/streamsdev/2017/08/14/latest-improvements-streaming-analytics-console/){: new_window} ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")。
 
 ### 现在，IBM Cloud Monitoring 还在英国区域可用
 最新更新日期：2017 年 8 月 1 日
 
-使用 {{site.data.keyword.monitoringlong}} 服务可在 {{site.data.keyword.Bluemix_notm}} 中使用度量值时，扩展收集、保留和分析功能。 
+使用 {{site.data.keyword.monitoringlong}} 服务可在 {{site.data.keyword.Bluemix_notm}} 中使用度量值时，扩展收集、保留和分析功能。
 
 * 提醒执行操作！{{site.data.keyword.monitoringlong}} 提供了一个可用于设置性能阈值并在违反这些阈值时收到通知的 API。定义针对单个服务实例或应用程序实例的警报规则，也可定义针对一组实例进行报告的警报规则。触发警报时，可通过电子邮件、PagerDuty 事件、Webhook 通知或这三者的任意组合来获得通知。
 
@@ -460,14 +470,14 @@ IBM App Launch for {{site.data.keyword.Bluemix_notm}} Services 是一个试验�
 * 根据需要使日志保留任意长的时间。  
 
     日志存储在 IBM Cloud 存储器中。您可以在需要时下载日志。
-	
+
 * 使用新的 API 来管理保留的日志，以及从 {{site.data.keyword.IBM_notm}} Cloud 外部发送日志数据。
 
 * 选择每天可以搜索的日志量。  
 
     提供了不同的套餐，分别可用于每天搜索最多 500MB、2GB、5GB 和 10GB 的日志。
 
-* 构建可复用的仪表板并将其设置为交互式。 
+* 构建可复用的仪表板并将其设置为交互式。
 
     {{site.data.keyword.loganalysisshort}} 的托管 Kibana 支持构建定制仪表板。
 
@@ -486,13 +496,13 @@ IBM App Launch for {{site.data.keyword.Bluemix_notm}} Services 是一个试验�
 |-----------------------------|----------------------------|----------------|
 | IBM dashDB for Analytics    | IBM Db2 Warehouse on Cloud | 2017 年 7 月 18 日|
 {: caption="表 1. 服务名称更改" caption-side="top"}
- 
-有关 Db2 Warehouse on Cloud 和 Db2 on Cloud 更新的累积列表，请参阅：[What's New in Db2 Warehouse on Cloud and Db2 on Cloud](http://www.ibm.com/support/docview.wss?uid=swg21961758){: new_window} ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")。 
+
+有关 Db2 Warehouse on Cloud 和 Db2 on Cloud 更新的累积列表，请参阅：[What's New in Db2 Warehouse on Cloud and Db2 on Cloud](http://www.ibm.com/support/docview.wss?uid=swg21961758){: new_window} ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")。
 
 ### 现在，IBM Cloud Monitoring 在美国南部区域可用
 最新更新日期：2017 年 7 月 17 日
 
-使用 {{site.data.keyword.monitoringlong}} 服务可在 {{site.data.keyword.Bluemix_notm}} 中使用度量值时，扩展收集、保留和分析功能。 
+使用 {{site.data.keyword.monitoringlong}} 服务可在 {{site.data.keyword.Bluemix_notm}} 中使用度量值时，扩展收集、保留和分析功能。
 
 * 提醒执行操作！{{site.data.keyword.monitoringlong}} 提供了一个可用于设置性能阈值并在违反这些阈值时收到通知的 API。定义针对单个服务实例或应用程序实例的警报规则，也可定义针对一组实例进行报告的警报规则。触发警报时，可通过电子邮件、PagerDuty 事件、Webhook 通知或这三者的任意组合来获得通知。
 
@@ -521,7 +531,7 @@ IBM App Launch for {{site.data.keyword.Bluemix_notm}} Services 是一个试验�
 <li>支持 Orion Web IDE 中的 UI 主题。</li>
 </ul>
 
-### {{site.data.keyword.uccr_short}} Beta 
+### {{site.data.keyword.uccr_short}} Beta
 最新更新日期：2017 年 6 月 23 日
 
 {{site.data.keyword.uccr_short}} 是一种企业级发布管理解决方案，同时支持云本机和内部部署工具。
@@ -586,7 +596,7 @@ Apache Spark 通过基于 Stocator 技术的存储连接器来访问 IBM Cloud O
 
 {{site.data.keyword.sparkl}} 将引入对 Apache Spark 2.1 的支持，以创建利用基于复杂数据的洞察的算法。Apache Spark 2.1 增加了对事件时间水印和 Kafka 0.10 的支持，将对结构化流处理十分有利。Apache Spark 2.1 还专注于提高 Spark SQL、SparkR 和 MLlib 模块的稳定性和可用性。有关 Spark 2.1 的更多详细信息，请参阅 [Spark R2.1.0](http://spark.apache.org/releases/spark-release-2-1-0.html)。
 
-我们很乐意回答与 {{site.data.keyword.sparkl}} 或 Apache Spark 2.1 更高版本相关的任何问题，您可通过 sparksrv@us.ibm.com 与我们联系。 
+我们很乐意回答与 {{site.data.keyword.sparkl}} 或 Apache Spark 2.1 更高版本相关的任何问题，您可通过 sparksrv@us.ibm.com 与我们联系。
 
 ### 不推荐使用 {{site.data.keyword.macm_short}}
 最新更新日期：2017 年 4 月 18 日
@@ -600,7 +610,7 @@ Apache Spark 通过基于 Stocator 技术的存储连接器来访问 IBM Cloud O
 
 您可以使用 STREAMING_ANALYTICS_SERVICE 上下文将 Python 应用程序提交给 {{site.data.keyword.streaminganalyticsshort}} 服务。{{site.data.keyword.streaminganalyticsshort}} 服务需要 Python 3.5。
 
-请在 [IBM Data Science Experience 社区页面](http://datascience.ibm.com){: new_window} ![外部链接图标](../../icons/launch-glyph.svg " 外部链接图标 ") 上查看配置页中的样本流处理 Python 应用程序。 
+请在 [IBM Data Science Experience 社区页面](http://datascience.ibm.com){: new_window} ![外部链接图标](../../icons/launch-glyph.svg " 外部链接图标 ") 上查看配置页中的样本流处理 Python 应用程序。
 
 ### {{site.data.keyword.sparks}} 更新：Data Science Experience 中现在支持配置页
 最新更新日期：2017 年 4 月 11 日
@@ -608,3 +618,4 @@ Apache Spark 通过基于 Stocator 技术的存储连接器来访问 IBM Cloud O
 您的新平台可使用配置页，并且 Spark 已更名为 Data Science Experience。注册 [Data Science Experience](http://datascience.ibm.com/)，然后开始创建配置页，并与其他数据研究员共享您的专业知识。
 
 如果使用的是 {{site.data.keyword.sparks}} 中的配置页，那么可以将配置页迁移到 Data Science Experience。有关更多信息，请参阅[迁移配置页文档](/docs/services/AnalyticsforApacheSpark/index-gentopic2.html#migration_to_dsx)。
+

@@ -3,7 +3,7 @@
 
 copyright:
   years: 2016, 2018
-lastupdated: "2017-01-10"
+lastupdated: "2018-04-02"
 
 ---
 
@@ -28,7 +28,7 @@ La liste suivante spécifie les versions minimales requises des logiciels de nav
  * Edge : version la plus récente pour Windows
  * Safari : version la plus récente pour Mac
 
-## Cloud Foundry
-{: #cf}
+## Interface de ligne de commande
+{: #cli}
 
-Interface de ligne de commande Cloud Foundry, version 6.5.1 ou ultérieure
+L'interface de ligne de commande `bluemix cli` change constamment, par conséquent, il est recommandé d'utiliser la [dernière version](/docs/cli/reference/bluemix_cli/all_versions.html) qui regroupe également l'interface de ligne de commande Cloud Foundry `cf cli`. 

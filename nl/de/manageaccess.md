@@ -4,7 +4,7 @@ copyright:
 
   years: 2017, 2018
 
-lastupdated: "2017-11-10"
+lastupdated: "2018-04-12"
 
 ---
 
@@ -20,7 +20,7 @@ lastupdated: "2017-11-10"
 
 Über das Zugriffsmanagement können Sie steuern, welche Benutzer Ressourcen in Ihrem Konto anzeigen, erstellen, verwenden und verwalten können. Um Zugriff zu erteilen, können Sie Rollen zuordnen, die den Benutzern auf verschiedenen Ebenen Zugriff für die Ausführung von Plattformverwaltungstasks und Zugriff auf Kontoressourcen ermöglichen.
 
-Die Art und Weise, wie der Zugriff in {{site.data.keyword.Bluemix_notm}} verwaltet wird, hängt vom Typ der Ressource ab, für die Sie den Zugriff zuordnen möchten. {{site.data.keyword.Bluemix_notm}} Identity and Access Management (IAM) ist das Zugriffsmanagementsystem für die konsistente Verwaltung von Ressourcen über die gesamte {{site.data.keyword.Bluemix_notm}}-Plattform. {{site.data.keyword.Bluemix_notm}}-Infrastruktur- und Cloud Foundry-Ressourcen werden nicht mit Cloud IAM verwaltet. Diese Ressourcentypen verfügen über eigene Zugriffsmanagementsysteme. Wenn Sie eine Kombination verschiedener Ressourcentypen haben, verwalten Sie jeden Typ separat. Um den Zugriff auf Ihre Infrastrukturressourcen zu ermöglichen, legen Sie Berechtigungen in Ihrem SoftLayer-Konto fest. Um den Zugriff auf Cloud Foundry-Ressourcen zu ermöglichen, verwenden Sie die Option "Anhand Cloud Foundry zuweisen" im Abschnitt "Identität und Zugriff" der Konsole.
+Die Art und Weise, wie der Zugriff in {{site.data.keyword.Bluemix_notm}} verwaltet wird, hängt vom Typ der Ressource ab, für die Sie den Zugriff zuordnen möchten. {{site.data.keyword.Bluemix_notm}} Identity and Access Management (IAM) ist das Zugriffsmanagementsystem für die konsistente Verwaltung von Ressourcen über die gesamte {{site.data.keyword.Bluemix_notm}}-Plattform. {{site.data.keyword.Bluemix_notm}}-Infrastruktur- und Cloud Foundry-Ressourcen werden nicht mit Cloud IAM verwaltet. Diese Ressourcentypen verfügen über eigene Zugriffsmanagementsysteme. Wenn Sie eine Kombination verschiedener Ressourcentypen haben, verwalten Sie jeden Typ separat. Um den [Zugriff auf Ihre Infrastrukturressourcen zu ermöglichen](/docs/iam/infrastructureaccess.html#infrapermission), legen Sie Berechtigungen in Ihrem SoftLayer-Konto fest. Um den [Zugriff auf Cloud Foundry-Ressourcen zu ermöglichen](/docs/iam/cfaccess.html#cfaccess), verwenden Sie die Option "Anhand Cloud Foundry zuweisen" im Abschnitt "Identität und Zugriff" der Konsole.
 
 ## Wer ist für das Zugriffsmanagement berechtigt?
 

@@ -4,7 +4,7 @@ copyright:
 
   years: 2017, 2018
 
-lastupdated: "2017-12-15"
+lastupdated: "2018-04-02"
 
 ---
 
@@ -134,6 +134,12 @@ Das Segment `serviceinstanz` muss alphanumerisch und kleingeschrieben sein, es d
 Beispiel: Ein Tool 'devops' könnte zum Verfolgen und Planen von Arbeitselementen eine einfache `GUID`-Instanz-ID ("1234-5678-9012-3456") haben, in der die Richtlinienkomponente eines Service für die automatische Gruppenskalierung eine hierarchische Namenskonvention verwenden kann und folgendes Segment `service-id` hat:
 
 >`c7a27f55-d35e-4153-b044-8ca9155fc467/my-test-asg1/my-scaleout-policy`
+
+Sie können CRNs auch mit dem folgenden CLI-Befehl von einer {{site.data.keyword.Bluemix_notm}}-Ressource abrufen:
+```
+bluemix resource service-instance
+```
+{: codeblock}
 
 
 ## ressourcentyp, ressource

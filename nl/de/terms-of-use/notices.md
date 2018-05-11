@@ -1,12 +1,9 @@
 ---
 
-
-
 copyright:
 
   years: 2015, 2018
 lastupdated: "2018-03-01"
-
 
 ---
 
@@ -23,7 +20,7 @@ Die vorliegenden Informationen wurden für Produkte und Services entwickelt, die
 Möglicherweise bietet IBM die in dieser Dokumentation beschriebenen Produkte, Services oder Funktionen in anderen Ländern nicht an. Informationen über die gegenwärtig im jeweiligen Land verfügbaren Produkte und Services sind beim zuständigen IBM Ansprechpartner erhältlich. Hinweise auf IBM Lizenzprogramme oder andere IBM Produkte bedeuten nicht, dass nur Programme, Produkte oder Services von IBM verwendet werden können. Anstelle der IBM Produkte, Programme oder Services können auch andere, ihnen äquivalente Produkte, Programme oder Services verwendet werden, solange diese keine gewerblichen oder anderen Schutzrechte von IBM verletzen. Die Verantwortung für den Betrieb von Produkten, Programmen und Services anderer Anbieter liegt beim Kunden.
 
 Für die in diesem Handbuch beschriebenen Erzeugnisse und Verfahren kann es IBM Patente oder Patentanmeldungen geben. Mit der Auslieferung dieses Handbuchs ist keine Lizenzierung dieser Patente verbunden. Lizenzanforderungen sind schriftlich an folgende Adresse zu richten (Anfragen an diese Adresse müssen auf Englisch formuliert werden):
-  
+
   *IBM Director of Licensing*
   *IBM Corporation*
   *Tour Descartes2, avenue Gambetta*
@@ -31,7 +28,7 @@ Für die in diesem Handbuch beschriebenen Erzeugnisse und Verfahren kann es IBM 
   *France*
 
 For license inquiries regarding double-byte character set (DBCS) information, contact the IBM Intellectual Property Department in your country or send inquiries, in writing, to:
-  
+
   *Intellectual Property Licensing*
   *Legal and Intellectual Property Law*
   *IBM Japan Ltd.*
@@ -47,7 +44,7 @@ Verweise in diesen Informationen auf Websites anderer Anbieter werden lediglich 
 Werden an IBM Informationen eingesandt, können diese beliebig verwendet werden, ohne dass eine Verpflichtung gegenüber dem Einsender entsteht.
 
 Lizenznehmer des Programms, die Informationen zu diesem Produkt wünschen mit der Zielsetzung: (i) den Austausch von Informationen zwischen unabhängig voneinander erstellten Programmen und anderen Programmen (einschließlich des vorliegenden Programms) sowie (ii) die gemeinsame Nutzung der ausgetauschten Informationen zu ermöglichen, wenden sich an folgende Adresse:
- 
+
   *IBM Director of Licensing*
   *IBM Corporation*
   *Tour Descartes2, avenue Gambetta*
@@ -74,10 +71,10 @@ COPYRIGHTLIZENZ:
 
 Diese Veröffentlichung enthält Beispielanwendungsprogramme, die in Quellensprache geschrieben sind und Programmiertechniken in verschiedenen Betriebsumgebungen veranschaulichen. Sie dürfen diese Beispielprogramme kostenlos kopieren, ändern und verteilen, wenn dies zu dem Zweck geschieht, Anwendungsprogramme zu entwickeln, zu verwenden, zu vermarkten oder zu verteilen, die mit der Anwendungsprogrammierschnittstelle für die Betriebsumgebung konform sind, für die diese Beispielprogramme geschrieben werden. Diese Beispiele wurden nicht unter allen denkbaren Bedingungen getestet. Daher kann IBM die Zuverlässigkeit, Wartungsfreundlichkeit oder Funktion dieser Programme weder zusagen noch gewährleisten. Die Beispielprogramme werden ohne Wartung (auf "as-is"-Basis) und ohne jegliche Gewährleistung zur Verfügung gestellt. IBM übernimmt keine Haftung für Schäden, die durch die Verwendung der Beispielprogramme entstehen.
 
-Kopien oder Teile der Beispielprogramme bzw. daraus abgeleiteter Code müssen folgenden Copyrightvermerk beinhalten: 
-  
-  © (Name Ihrer Firma) (Jahr). 
-  Teile des vorliegenden Codes wurden aus Beispielprogrammen der IBM Corporation abgeleitet. 
+Kopien oder Teile der Beispielprogramme bzw. daraus abgeleiteter Code müssen folgenden Copyrightvermerk beinhalten:
+
+  © (Name Ihrer Firma) (Jahr).
+  Teile des vorliegenden Codes wurden aus Beispielprogrammen der IBM Corporation abgeleitet.
   © Copyright IBM Corp. 2015.
 
 ## Marken
@@ -104,12 +101,12 @@ Weitere Unternehmens-, Produkt- oder Servicenamen können Marken oder Servicemar
 ## {{site.data.keyword.Bluemix_notm}}-Nutzungsbedingungen
 {: #terms}
 
-Ihr IBM Cloud-Konto und alle Services, die von IBM Cloud angefordert werden, werden unter den folgenden Bedingungen bereitgestellt:  
-  
-  * Basisvereinbarungen bezüglich Cloud-Bedingungen: 
+Ihr IBM Cloud-Konto und alle Services, die von IBM Cloud angefordert werden, werden unter den folgenden Bedingungen bereitgestellt:
+
+  * Basisvereinbarungen bezüglich Cloud-Bedingungen:
     * SoftLayer Cloud Service Agreement bezüglich der Kreditkartenabrechnung in US-Dollar, verfügbar unter [http://www.softlayer.com/legal](http://www.softlayer.com/legal){: new_window} ![Symbol für externen Link](../../icons/launch-glyph.svg)
     * IBM Cloud Services Agreement (in der Version des jeweiligen Landes*) bezüglich der Kreditkartenabrechnung in einer anderen Währung als US-Dollar oder bei Auswahl der IBM Rechnungsstellung, verfügbar unter [https://www.ibm.com/terms](https://www.ibm.com/terms){: new_window} ![Symbol für externen Link](../../icons/launch-glyph.svg) (wählen Sie Ihr Land aus)
-    * IBM Passport Advantage Agreement, das Sie akzeptiert haben, und die General Terms for Cloud Offerings TOU für IBM Passport Advantage-Kunden, verfügbar unter [http://www-03.ibm.com/software/sla/sladb.nsf/sla/tou](http://www-03.ibm.com/software/sla/sladb.nsf/sla/tou){: new_window} ![Symbol für externen Link](../../icons/launch-glyph.svg) 
+    * IBM Passport Advantage Agreement, das Sie akzeptiert haben, und die General Terms for Cloud Offerings TOU für IBM Passport Advantage-Kunden, verfügbar unter [http://www-03.ibm.com/software/sla/sladb.nsf/sla/tou](http://www-03.ibm.com/software/sla/sladb.nsf/sla/tou){: new_window} ![Symbol für externen Link](../../icons/launch-glyph.svg)
     * Äquivalente Basisvereinbarung für Cloud-Services zwischen Ihnen und IBM
   * Servicebeschreibung für IBM Cloud, verfügbar unter [http://www-03.ibm.com/software/sla/sladb.nsf/sla/bm](http://www-03.ibm.com/software/sla/sladb.nsf/sla/bm){: new_window} ![Symbol für externen Link](../../icons/launch-glyph.svg)
   * Zusätzliche anwendbare Servicebeschreibungen für alle Services, die über Ihr IBM Cloud-Konto angefordert wurden, verfügbar unter [http://www-03.ibm.com/software/sla/sladb.nsf/sla/bm](http://www-03.ibm.com/software/sla/sladb.nsf/sla/bm){: new_window} ![Symbol für externen Link](../../icons/launch-glyph.svg)
