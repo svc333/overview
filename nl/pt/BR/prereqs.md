@@ -3,7 +3,7 @@
 
 copyright:
   years: 2016, 2018
-lastupdated: "2017-01-10"
+lastupdated: "2018-04-02"
 
 ---
 
@@ -27,8 +27,9 @@ A lista a seguir especifica o software do navegador mínimo necessário para o {
  * Edge: versão mais recente para Windows
  * Safari: versão mais recente para Mac
 
-## Cloud
-Foundry
-{: #cf}
+## Interface da Linha de Comandos (CLI)
+{: #cli}
 
-Interface da linha de comandos do Cloud Foundry, Versão 6.5.1 ou mais recente
+Como o `bluemix cli` está em constante mudança, é recomendado usar a
+[versão mais recente](/docs/cli/reference/bluemix_cli/all_versions.html), que também
+inclui o `cf cli` no pacote configurável do Cloud Foundry. 

@@ -1,12 +1,9 @@
 ---
 
-
-
 copyright:
 
   years: 2015, 2018
 lastupdated: "2018-03-01"
-
 
 ---
 
@@ -30,7 +27,7 @@ direito de propriedade intelectual da IBM, poderá ser utilizado em substituiç�
 A IBM pode
 ter patentes ou solicitações de patentes pendentes relativas a assuntos tratados
 nesta publicação. O fornecimento dessa publicação não concede ao Cliente nenhuma licença para essas patentes. Pedidos de licença devem ser enviados, por escrito, para:
-  
+
   *IBM Director of Licensing*
   *IBM Corporation*
   *North Castle Drive, MD-NC119*
@@ -38,7 +35,7 @@ nesta publicação. O fornecimento dessa publicação não concede ao Cliente ne
   *US*
 
 Para consultas sobre licença relacionadas a informações do conjunto de caracteres de byte duplo (DBCS), entre em contato com o Departamento de Propriedade Intelectual da IBM em seu país ou envie consultas, por escrito, para:
-  
+
   *Licença de Propriedade Intelectual*
   *Legalidade e Lei de Propriedade Intelectual*
   *IBM Japan Ltd.*
@@ -61,7 +58,7 @@ produto IBM e a utilização desses websites é de inteira responsabilidade do C
 A IBM pode usar ou distribuir as informações fornecidas da forma que julgar apropriada sem incorrer em qualquer obrigação para com o Cliente.
 
 Licenciados deste programa que desejam obter informações sobre este assunto com objetivo de permitir: (i) a troca de informações entre programas criados independentemente e outros programas (incluindo este) e (ii) a utilização mútua das informações trocadas, devem entrar em contato com:
- 
+
   *IBM Director of Licensing*
   *IBM Corporation*
   *North Castle Drive, MD-NC119*
@@ -107,10 +104,10 @@ para a plataforma operacional para a qual os programas de exemplo são criados. 
 pode garantir ou implicar a confiabilidade, manutenção ou função destes
 programas. Os programas de amostra são fornecidos "NO ESTADO EM QUE SE ENCONTRAM", sem garantia de nenhum tipo. A IBM não deve ser responsabilizado por quaisquer danos oriundos do uso dos programas de amostra.
 
-Cada cópia ou parte desses programas de amostra ou qualquer trabalho derivado deve incluir um aviso de copyright com os dizeres: 
-  
-  © (nome de sua empresa) (ano). 
-  Partes deste código são derivadas dos Programas de Amostra da IBM Corp. 
+Cada cópia ou parte desses programas de amostra ou qualquer trabalho derivado deve incluir um aviso de copyright com os dizeres:
+
+  © (nome de sua empresa) (ano).
+  Partes deste código são derivadas dos Programas de Amostra da IBM Corp.
   © Copyright
 IBM Corp. 2015.
 
@@ -142,12 +139,12 @@ Outros nomes de empresas, produtos e serviços podem ser marcas registradas ou m
 ## {{site.data.keyword.Bluemix_notm}} Termos
 {: #terms}
 
-Sua Conta do IBM Cloud e quaisquer serviços pedidos do IBM Cloud são fornecidos sob o termo de: 
-  
+Sua Conta do IBM Cloud e quaisquer serviços pedidos do IBM Cloud são fornecidos sob o termo de:
+
   * Termos de nuvem do acordo base aplicáveis a você, como a seguir:
     * Contrato de prestação de serviços de nuvem do SoftLayer para faturamento por cartão de crédito em dólar americano, disponível em [http://www.softlayer.com/legal](http://www.softlayer.com/legal){: new_window} ![Ícone de link externo](../../icons/launch-glyph.svg)
     * Contrato de prestação de serviços do IBM Cloud (local país versão*) para faturamento por cartão de crédito que não seja em dólar americano ou se você selecionar o faturamento por meio da IBM, disponível em [https://www.ibm.com/terms](https://www.ibm.com/terms){: new_window} ![Ícone de link externo](../../icons/launch-glyph.svg) (selecione seu país);
-    * O Contrato do IBM Passport Advantage que você aceitou e os Termos gerais para o TOU de ofertas de nuvem para clientes do IBM Passport Advantage, disponível em [http://www-03.ibm.com/software/sla/sladb.nsf/sla/tou](http://www-03.ibm.com/software/sla/sladb.nsf/sla/tou){: new_window} ![Ícone de link externo](../../icons/launch-glyph.svg); ou 
+    * O Contrato do IBM Passport Advantage que você aceitou e os Termos gerais para o TOU de ofertas de nuvem para clientes do IBM Passport Advantage, disponível em [http://www-03.ibm.com/software/sla/sladb.nsf/sla/tou](http://www-03.ibm.com/software/sla/sladb.nsf/sla/tou){: new_window} ![Ícone de link externo](../../icons/launch-glyph.svg); ou
     * termos do acordo base de serviço de nuvem equivalentes entre você e a IBM;
   * Descrição do serviço para o IBM Cloud disponível em [http://www-03.ibm.com/software/sla/sladb.nsf/sla/bm](http://www-03.ibm.com/software/sla/sladb.nsf/sla/bm){: new_window} ![Ícone de link externo](../../icons/launch-glyph.svg);
   * SDs adicionais aplicáveis para qualquer serviço pedido usando sua Conta do IBM Cloud disponível em [http://www-03.ibm.com/software/sla/sladb.nsf/sla/bm](http://www-03.ibm.com/software/sla/sladb.nsf/sla/bm){: new_window} ![Ícone de link externo](../../icons/launch-glyph.svg); e

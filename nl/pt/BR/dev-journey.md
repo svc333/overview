@@ -93,7 +93,7 @@ Se você criou um projeto usando um kit do iniciador, é possível criar uma nov
 Também é possível dar uma olhada rápida no seu código do projeto, clicando no botão **Download** na página de visão geral do projeto do painel do desenvolvedor. Seu código é transferido por download como um arquivo `.zip` que contém a estrutura do projeto completo. É possível extrair facilmente o arquivo e executar o código localmente usando o {{site.data.keyword.dev_cli_notm}} ou incluí-lo em seu repositório de gerenciamento de código.
 
 ## Interface da linha de comandos
-O {{site.data.keyword.dev_cli_notm}} permite codificar, construir e executar seu projeto localmente. Um padrão comum é criar seu projeto por meio de um painel do desenvolvedor, usar o {{site.data.keyword.dev_cli_notm}} para desenvolver localmente e, em seguida, enviar por push as atualizações para seu repositório e mesclar para iniciar sua cadeia de ferramentas de implementação.
+O {{site.data.keyword.dev_cli_notm}} permite codificar, construir e executar seu projeto localmente.  Um padrão comum é criar seu projeto por meio de um painel do desenvolvedor, usar o {{site.data.keyword.dev_cli_notm}} para desenvolver localmente e, em seguida, enviar por push as atualizações para seu repositório e mesclar para iniciar sua cadeia de ferramentas de implementação.
 
 ## Desenvolvimento do método Garage
 {: #developer_concepts}
