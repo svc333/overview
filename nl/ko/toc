@@ -16,6 +16,7 @@ IBM Cloud 개념
     security.md
     dev-journey.md
     whats-new/index.md
+    feedback.md
 
     {: .topicgroup}
     관련 링크
@@ -28,4 +29,5 @@ IBM Cloud 개념
     glossary/index.md
     nls.md
     terms-of-use/notices.md
+    accessibility/accessibility_features.md
     {: .navgroup-end}

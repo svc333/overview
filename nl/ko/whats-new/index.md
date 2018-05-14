@@ -1,17 +1,14 @@
 ---
 
- 
-
 copyright:
 
   years: 2015, 2018
 
-lastupdated: "2018-03-15" 
+lastupdated: "2018-04-04"
 
 ---
 
-
-{:shortdesc: .shortdesc} 
+{:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
 
 # {{site.data.keyword.Bluemix_notm}}의 새로운 기능
@@ -23,10 +20,15 @@ lastupdated: "2018-03-15"
 ## {{site.data.keyword.Bluemix_notm}} 플랫폼
 {: #platform_category}
 
-### SoftLayer와 {{site.data.keyword.Bluemix_notm}} 계정 연결 
+### 액세스 그룹을 사용하여 신속하게 액세스 지정
+신규 기준일: 2018년 4월 3일
+
+가능한 한 가장 적은 정책을 사용하여 신속하게 액세스를 지정할 수 있습니까? 이제 액세스 그룹으로 이를 수행할 수 있습니다. 액세스 그룹을 사용하면 사용자 및 서비스 ID 세트를 그룹화하고 그룹의 모든 구성원에 적용하는 단일 정책을 지정할 수 있습니다. 액세스 그룹을 사용하면 액세스 관리에 사용하는 시간을 계정의 사용자와 서비스 ID로 제한할 수 있습니다. 세부사항은 블로그 게시물 [새 기능: 액세스 그룹](https://www.ibm.com/blogs/bluemix/2018/04/access-groups/){: new_window} ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")을 확인하십시오.
+
+### SoftLayer와 {{site.data.keyword.Bluemix_notm}} 계정 연결
 신규 기준일:  2018년 3월 1일
 
-단일 위치, {{site.data.keyword.Bluemix_notm}} 콘솔에 로그인하기 위해 SoftLayer 계정을 {{site.data.keyword.Bluemix_notm}} 계정에 연결하고 IaaS(infrastructure as a service) 및 PaaS(platform as a service) 리소스 모두에 액세스할 수 있습니다. {{site.data.keyword.Bluemix_notm}}의 신규 사용자인 경우 무료 {{site.data.keyword.Bluemix_notm}} 평가판을 얻으려면 계정을 연결하십시오. 또는 이미 PaaS 리소스가 있는 {{site.data.keyword.Bluemix_notm}} 계정을 보유하는 경우 IaaS와 PaaS 리소스에 대해 단일 청구를 받도록 계정을 연결하십시오. 계정을 빠르게 연결하려면 [IaaS 및 PaaS 계정에 연결하기 위한 단계](https://www.ibm.com/blogs/bluemix/2018/03/follow-steps-link-iaas-paas-accounts/){: new_window} ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")를 확인하십시오. 
+단일 위치, {{site.data.keyword.Bluemix_notm}} 콘솔에 로그인하기 위해 SoftLayer 계정을 {{site.data.keyword.Bluemix_notm}} 계정에 연결하고 IaaS(infrastructure as a service) 및 PaaS(platform as a service) 리소스 모두에 액세스할 수 있습니다. {{site.data.keyword.Bluemix_notm}}의 신규 사용자인 경우 무료 {{site.data.keyword.Bluemix_notm}} 평가판을 얻으려면 계정을 연결하십시오. 또는 이미 PaaS 리소스가 있는 {{site.data.keyword.Bluemix_notm}} 계정을 보유하는 경우 IaaS와 PaaS 리소스에 대해 단일 청구를 받도록 계정을 연결하십시오. 계정을 빠르게 연결하려면 [IaaS 및 PaaS 계정에 연결하기 위한 단계](https://www.ibm.com/blogs/bluemix/2018/03/follow-steps-link-iaas-paas-accounts/){: new_window} ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")를 확인하십시오.
 
 
 ### {{site.data.keyword.Bluemix_notm}} Foundry Service 미국 동부 지역은 지금 사용 가능
@@ -42,12 +44,12 @@ lastupdated: "2018-03-15"
 ### TLS 1.0 및 1.1에 대한 지원 중단
 신규 기준일: 2017년 11월 28일
 
-2018년 3월 1일부로 {{site.data.keyword.Bluemix_notm}}는 보안 및 데이터 개인정보 보호정책에 대한 업계의 우수 사례에 따라 철저하게 보안되는 클라우드를 제공하고자 하는 노력의 일부로 여러 클라우드 제품 및 서비스에서 TLS 1.0 및 TLS 1.1에 대한 지원을 중단합니다. 이 변경사항이 적용되는 방법과 수행해야 하는 조치에 대해 자세히 알아보려면 [LS 1.0 및 1.1에 대한 지원 중단](/docs/troubleshoot/appsectls.html)을 참조하십시오.
+2018년 3월 1일부로 {{site.data.keyword.Bluemix_notm}}는 보안 및 데이터 개인정보 보호에 대한 업계의 우수 사례에 따라 철저하게 보안되는 클라우드를 제공하고자 하는 노력의 일부로 여러 클라우드 제품 및 서비스에서 TLS 1.0 및 TLS 1.1에 대한 지원을 중단합니다. 이 변경사항이 적용되는 방법과 수행해야 하는 조치에 대해 자세히 알아보려면 [LS 1.0 및 1.1에 대한 지원 중단](/docs/troubleshoot/appsectls.html)을 참조하십시오.
 
 ### 계정에서 리소스를 구성하는 새로운 방법
 신규 기준일: 2017년 11월 16일
 
-리소스 그룹은 사용자가 계정 리소스의 사용자 정의할 수 있는 그룹화를 작성하고 IAM(Identity and Access Management)을 사용하여 관리되는 계정에서 그룹 및 리소스에 대한 액세스를 작성하기 위한 새로운 방법입니다. 모든 사용자는 기본 리소스 그룹을 사용하여 시작합니다. 이 리소스 그룹의 이름을 변경하고 카탈로그에서 새 서비스 인스턴스를 작성할 때 새 서비스 인스턴스를 리소스 그룹에 추가할 수 있습니다. 
+리소스 그룹은 사용자가 계정 리소스의 사용자 정의할 수 있는 그룹화를 작성하고 IAM(Identity and Access Management)을 사용하여 관리되는 계정에서 그룹 및 리소스에 대한 액세스를 작성하기 위한 새로운 방법입니다. 모든 사용자는 기본 리소스 그룹을 사용하여 시작합니다. 이 리소스 그룹의 이름을 변경하고 카탈로그에서 새 서비스 인스턴스를 작성할 때 새 서비스 인스턴스를 리소스 그룹에 추가할 수 있습니다.
 
 종량과금제 또는 구독 계정이 있는 사용자는 추가 리소스 그룹을 작성하여 할당량을 관리하고 리소스 세트에 대한 청구 사용량을 볼 수 있도록 합니다. 한 번에 둘 이상의 서비스에 대한 사용자 액세스를 보다 쉽게 지정할 수 있도록 리소스를 그룹화할 수도 있습니다. 계정에 대한 리소스 그룹 관련 작업에 대해 자세히 알아보려면 [리소스 그룹 관리](/docs/account/resourcegroups.html#rgs)를 참조하십시오.
 
@@ -55,10 +57,10 @@ lastupdated: "2018-03-15"
 신규 기준일: 2017년 11월 16일
 
 {{site.data.keyword.Bluemix_notm}} 계정 내 [리소스 그룹](/docs/overview/resource-groups.html#whatis)의 도입은 액세스 권한을 지정할 수 있는 새로운 방법을 제시했습니다. 사용자 및 서비스 ID는 한 번에 둘 이상의 리소스에 대한 액세스를 신속하게 지정할 수 있도록 리소스 그룹 내에 모든 서비스에게 액세스 권한을 지정할 수 있습니다. 또한 리소스 그룹 내 일부 서비스에만 액세스 권한을 지정하여 각 사용자 또는 서비스 ID에 대한 액세스 그룹을 사용자 정의하거나 서비스 인스턴스 레벨로 개별 리소스에 대한 액세스 권한만 지정하도록 선택합니다.
- 
+
 IAM을 사용하여 활용할 수 있는 기능에 대한 자세한 정보는 [IAM에서 제공하는 기능](/docs/iam/index.html#features)을 참조하십시오.
 
-### 대시보드 보기 사용자 정의 
+### 대시보드 보기 사용자 정의
 신규 기준일: 2017년 11월 16일
 
 {{site.data.keyword.Bluemix_notm}} 콘솔의 대시보드에서 계정의 모든 리소스를 보고 관리할 수 있습니다. 이제 필터를 설정하여 보기를 사용자 정의할 수 있습니다. 예를 들어, 리소스 그룹별로 필터링하여 리소스 그룹의 특정 리소스를 볼 수 있습니다. 또한 지역 또는 Cloud Foundry 영역별로 필터링할 수도 있습니다. 추가 세부사항은 [대시보드에서 리소스 관리](/docs/overview/ui.html#dashboardview)를 참조하십시오.
@@ -67,7 +69,7 @@ IAM을 사용하여 활용할 수 있는 기능에 대한 자세한 정보는 [I
 ### 지원 센터
 신규 기준일: 2017년 11월 2일
 
-이제 정보를 검색하고, 개발자 커뮤니티에 질문을 게시하고, 티켓을 관리할 수 있는 새 지원 센터가 제공됩니다. {{site.data.keyword.Bluemix_notm}} 콘솔 메뉴 표시줄에서 **지원 > 지원 센터**로 이동하십시오. 
+이제 정보를 검색하고, 개발자 커뮤니티에 질문을 게시하고, 티켓을 관리할 수 있는 새 지원 센터가 제공됩니다. {{site.data.keyword.Bluemix_notm}} 콘솔 메뉴 표시줄에서 **지원 > 지원 센터**로 이동하십시오.
 
 ### IBM Cloud 소개
 신규 기준일: 2017년 10월 31일
@@ -84,9 +86,9 @@ Bluemix는 이제 IBM Cloud입니다. 새로운 이름 사용 외에는 변경�
 
 IAM(Identity and Access Management)은 이제 서비스 ID를 작성할 수 있는 기능을 제공하여 {{site.data.keyword.Bluemix_notm}} 서비스로 인증하도록 앱에 사용할 수 있는 ID로 간주할 수 있습니다. 개별 사용자 신임 정보를 사용하는 대신 서비스 ID는 해당 ID를 사용하여 애플리케이션 인증에 대한 액세스 권한의 레벨을 제어할 수 있도록 서비스 ID에 지정되는 서비스 정책의 양식으로 인증된 API 키 및 액세스 권한을 사용하여 작성될 수 있습니다.
 
-이 기능의 장점 및 시작하는 방법에 대한 자세한 정보는 [Introducing IBM Cloud IAM Service IDs and API Keys](https://www.ibm.com/blogs/bluemix/2017/10/introducing-ibm-cloud-iam-service-ids-api-keys/){: new_window} ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")를 참조하십시오. 
+이 기능의 장점 및 시작하는 방법에 대한 자세한 정보는 [Introducing IBM Cloud IAM Service IDs and API Keys](https://www.ibm.com/blogs/bluemix/2017/10/introducing-ibm-cloud-iam-service-ids-api-keys/){: new_window} ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")를 참조하십시오.
 
-### {{site.data.keyword.Bluemix_notm}} 글로벌 카탈로그 
+### {{site.data.keyword.Bluemix_notm}} 글로벌 카탈로그
 신규 기준일: 2017년 7월 27일
 
 콘솔의 단일 위치에서 퍼블릭 지역을 관리하도록 최근 콘솔 업데이트를 확장하여 {{site.data.keyword.Bluemix_notm}}은 이제 카탈로그에서 좀 더 간소화된 프로세스를 선택하는 항목을 선택하고 배치하는 프로세스를 작성하는 글로벌 카탈로그를 보유하게 되었습니다. 콘솔에서 선택한 지역에 관계없이 이제 카탈로그의 모든 퍼블릭 지역에서 사용 가능한 모든 서비스를 볼 수 있습니다. 카탈로그에서 파일만 선택하면 서비스를 사용할 수 있는 지역을 볼 수 있고 서비스를 배치할 위치를 선택할 수 있습니다.
@@ -130,8 +132,9 @@ IAM(Identity and Access Management)은 이제 서비스 ID를 작성할 수 있�
 
 #### 유지보수 업데이트 관리를 위한 새로운 권한
 
-새 사용자 권한은 유지보수 업데이트를 전용 환경에 배치할 수 있는 시점을 지정하는 유지보수 업데이트 창의 설정 및 유지보수 업데이트 승인과 재스케줄링을 할 수 있도록 특별히 도입되었습니다. 자세한 정보는 [동영상 데모](https://youtu.be/7c7jyp_JJWU){: new_window} ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")를 참조하십시오.
- 
+새 사용자 권한은 유지보수 업데이트를 전용 환경에 배치할 수 있는 시점을 지정하는 유지보수 업데이트 창의 설정 및 유지보수 업데이트 승인과 재스케줄링을 할 수 있도록 특별히 도입되었습니다.
+자세한 정보는 [동영상 데모](https://youtu.be/7c7jyp_JJWU){: new_window} ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")를 참조하십시오.
+
 ### 관리 콘솔에 대한 12월 업데이트
 {: #decemberadminconsole}
 신규 기준일: 2017년 12월 14일
@@ -142,10 +145,10 @@ IAM(Identity and Access Management)은 이제 서비스 ID를 작성할 수 있�
 
 평균 CPU는 알림 구독에서 임계값 유형으로 추가되었습니다. 이제 CPU 사용량(모든 DEA 셀 및 Diego 셀)이 특정 임계값 이상으로 증가하거나 이하로 감소할 때 알림을 받을 수 있습니다.
 
-#### EU에서 클라우드 시스템에 대한 액세스 제어 
+#### EU에서 클라우드 시스템에 대한 액세스 제어
 
 클라우드 리소스를 지원하기 위해 EU의 새 기능과 결합하여(프랑크프루트부터 시작) 관리 콘솔은 이제 IBM 담당자를 통해 액세스를 제어하는 정책을 정의할 수 있는 기능을 갖게 됩니다. 액세스 제어 정책을 관리하고, 액세스 요청을 보고, 요청에 대한 조치를 취하고, 히스토리를 추적할 수 있습니다.
-  
+
 #### 보안 보고서의 향상된 정보
 
 보안 보고서에는 이제 사용자 및 조직의 고유 ID 외에도 사용자에게 익숙한 이름도 포함됩니다.
@@ -159,11 +162,11 @@ IAM(Identity and Access Management)은 이제 서비스 ID를 작성할 수 있�
 #### {{site.data.keyword.cloudant_short_notm}} 서비스 사용량 메트릭에 대한 업데이트
 
   * {{site.data.keyword.cloudant_short_notm}}에 대한 사용량 메트릭의 계산은 사용된 총량(GB)을 반영하고 {{site.data.keyword.cloudant_short_notm}} 클러스터의 모든 노드에 사용 가능하도록 업데이트되었습니다. 일반적으로, {{site.data.keyword.cloudant_short_notm}} 클러스터에는 3개의 노드가 포함되고 데이터베이스의 문서는 고가용성 및 재해 복구를 위해 클러스터의 모든 노드 간에 복제됩니다. 8월 업데이트를 사용하면 {{site.data.keyword.cloudant_short_notm}} 다이얼(_Resource Usage > Services_ 보기에서 사용 가능)의 용량 메트릭은 클러스터의 모든 노드 전반에 영역을 표시합니다. 예를 들어, 단일 {{site.data.keyword.cloudant_short_notm}} 클러스터에 3개의 노드가 포함되어 있으며, 각각 1000GB의 용량이 있으면 용량 한계가 3000GB로 표시됩니다. 해당 용량의 1500GB가 사용되면 {{site.data.keyword.cloudant_short_notm}} 사용량 메트릭은 50%가 됩니다.
- 
+
 #### 유지보수 업데이트의 스케줄링에 대한 업데이트
-  
+
   * 전용 환경이 시스템 업데이트의 개발에 사용 가능할 때 {{site.data.keyword.Bluemix_dedicated_notm}}에서 고객이 날짜 및 시간을 관리할 수 있습니다. 전용 환경에 유지보수 업데이트를 배치할 수 있고 배치할 수 없는 경우 고객은 날짜와 시간을 표시하는 가용성 창을 정의할 수 있습니다. 8월 업데이트에서는 _Available Update Windows_가 _Update Windows_로 이름이 바뀌고 _Unavailable Update Windows_가 _Blackout Windows_로 이름이 바뀝니다. 용어 변경 이상으로, 고객에게 이제 블랙아웃(사용 불가능) 날짜를 정의하기 위해 더 많은 유연성과 여유가 제공됩니다. 요청되면 블랙아웃 날짜는 IBM에서 승인해야 하며, 승인을 받는 데 걸리는 시간은 경우에 따라 다릅니다. 요청한 블랙아웃 날짜가 승인되면 IBM에서는 사용 불가능한 기간 동안의 현재 스케줄링된 기존 업데이트를 모두 취소합니다. IBM에서는 이러한 업데이트에 대한 새 레코드를 작성한 다음 승인된 블랙아웃 날짜를 제외한 날짜로 스케줄링합니다.
-  
+
 자세한 정보는 [동영상 데모](https://bit.ly/2eCQNvu){: new_window} ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")를 참조하십시오.
 
 ### 관리 콘솔에 대한 7월 업데이트
@@ -176,7 +179,7 @@ IAM(Identity and Access Management)은 이제 서비스 ID를 작성할 수 있�
 
   * 이전 업데이트(6월)에서 메모리 및 디스크 사용량에 대한 히스토리 보기는 지난 48시간, 30일 및 5개월 동안의 데이터 사용량의 표시를 도입했습니다. 최근 6월 업데이트에서 리소스 사용량 히스토리 기능은 리소스 사용량 데이터를 표시하기 위해 시간 범위의 사용자 정의를 허용하도록 확장되었습니다. 시간별, 일별 및 월별 보기는 계속 표시되지만, 사용자는 이제 메모리 및 디스크 사용량 메트릭을 표시하기 위해(예: 2017년 7월 1일부터 15일 동안 메모리 사용량 표시) 시작 일/시간 및 지속 기간을 지정할 수 있습니다.
   * 새 CLI 명령이 CLI에 리소스 메트릭 히스토리를 표시하도록 도입되었습니다. 명령의 매개변수 및 사용량 예제는 `_cf ba resource-metrics-history -help_`를 입력하여 확인할 수 있습니다.
- 
+
 자세한 정보는 [동영상 데모](https://youtu.be/QBij0jB5qAk){: new_window} ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")를 참조하십시오.
 
 ### 관리 콘솔에 대한 6월 업데이트
@@ -189,19 +192,19 @@ IAM(Identity and Access Management)은 이제 서비스 ID를 작성할 수 있�
 
   * 시스템 리소스
     * 메모리 및 디스크의 히스토리 보기는 48시간, 30일 및 5개월 동안의 데이터를 표시하도록 업데이트되었습니다.
-    * 히스토리 보기를 생성하기 위해 관리 콘솔 메트릭 API를 사용하는 방법을 표시하는 자세히 보기 링크가 제공됩니다. 
+    * 히스토리 보기를 생성하기 위해 관리 콘솔 메트릭 API를 사용하는 방법을 표시하는 자세히 보기 링크가 제공됩니다.
   * 애플리케이션
     * 환경에서 모든 애플리케이션에 대한 사용량 정보를 제공합니다.
-    * 애플리케이션 이름, 실제 메모리, 예약된 메모리, 실제 디스크, 예약된 디스크, 실제 CPU 또는 조직 이름으로 정렬합니다. 
+    * 애플리케이션 이름, 실제 메모리, 예약된 메모리, 실제 디스크, 예약된 디스크, 실제 CPU 또는 조직 이름으로 정렬합니다.
     * 검색은 애플리케이션 이름 및 조직 이름별로 결과를 필터링하도록 제공됩니다.
     * 애플리케이션 보기를 생성하기 위해 관리 콘솔 메트릭 API를 사용하는 방법을 표시하는 자세히 보기 링크가 제공됩니다.
- 
+
 자세한 정보는 [리소스 사용량](/docs/hybrid/index.html#resourceusage)을 참조하십시오.
 
 #### 메트릭용 API에 대한 업데이트
 
   * 메모리 및 디스크 이용에 대한 일 또는 월별 평균을 제공하여 환경 통계가 추가됩니다.
-  
+
 자세한 정보는 [메트릭용 API](/docs/hybrid/index.html#envappmetricsapi)를 참조하십시오.
 
 
@@ -213,8 +216,8 @@ IAM(Identity and Access Management)은 이제 서비스 ID를 작성할 수 있�
 
  * 상태 페이지에 대한 개선사항으로 {{site.data.keyword.Bluemix_notm}} 플랫폼 및 런타임에 영향을 주는 인시던트에 대한 좀 더 세부적인 진단이 포함됩니다.
  * 보안 보고서 및 로그 페이지에 대한 개선사항:
-   * 보고서는 이제 테이블 형식으로 표시되며, 보고서 카테고리, 파일 이름 또는 작성 날짜별로 정렬하는 기능을 포함하여 보고서 찾아보기 및 검색이 단순화됩니다. 
-   * 다중 카테고리의 동시 필터링을 포함한 향상된 필터링 
+   * 보고서는 이제 테이블 형식으로 표시되며, 보고서 카테고리, 파일 이름 또는 작성 날짜별로 정렬하는 기능을 포함하여 보고서 찾아보기 및 검색이 단순화됩니다.
+   * 다중 카테고리의 동시 필터링을 포함한 향상된 필터링
    * 보고서의 컨텐츠를 표시하기 위한 전체 화면 모드
    * "보고서 쓰기" 권한이 있는 관리 사용자를 위한 보고서 삭제 기능
    * 지속적인 스크롤을 통해 요청 시 계속해서 로딩하여 보고서 목록을 좀 더 빠르게 표시(결과적으로 전체 성능이 향상됨)
@@ -250,7 +253,7 @@ IAM(Identity and Access Management)은 이제 서비스 ID를 작성할 수 있�
 ### 새로운 Liberty for Java 빌드팩 v3.11
 신규 기준일: 2017년 7월 17일
 
-Liberty 빌드팩 v3.11은 새 월별 Liberty 런타임 버전을 제공하고 기타 개선사항을 포함합니다. 월별 Liberty 런타임 버전은 [2017.7.0.0](https://developer.ibm.com/wasdev/blog/2017/07/07/beta-websphere-liberty-tools-july-2017/) 릴리스로 업데이트되었습니다. IBM JDK는 8.0.4.7 및 7.1.4.5 버전으로 업데이트되었습니다. 빌드팩은 App Management 유틸리티 및 Auto-Scaling 에이전트의 업데이트된 버전도 제공합니다. 기본 Cloudant Library는 이제 공식 [java-cloudant](https://github.com/cloudant/java-cloudant)이며, [Ektorp library](https://github.com/helun/Ektorp)는 계속해서 옵션으로 사용 가능합니다. 이 변경에 대한 세부사항은 [블로그 게시물](https://www.ibm.com/blogs/bluemix/2017/05/default-library-change-cloudant-auto-wiring-liberty-buildpack/)을 참조하십시오. 애플리케이션의 메모리가 512MB 미만이면 이제 기본 힙 크기 비율은 50%가 되고, 512MB를 초과하면 기본 힙 크기 비율은 75%가 됩니다. 이제 새 스테이징 태스크 로그가 생성되어 스테이징 오류를 더 쉽게 디버그할 수 있습니다. 자세한 정보는 [최신 업데이트](https://console.ng.bluemix.net/docs/runtimes/liberty/updates.html) 문서를 참조하십시오.
+Liberty 빌드팩 v3.11은 새 월별 Liberty 런타임 버전을 제공하고 기타 개선사항을 포함합니다. 월별 Liberty 런타임 버전은 [2017.7.0.0](https://developer.ibm.com/wasdev/blog/2017/07/07/beta-websphere-liberty-tools-july-2017/) 릴리스로 업데이트되었습니다. IBM JDK는 8.0.4.7 및 7.1.4.5 버전으로 업데이트되었습니다. 빌드팩은 App Management 유틸리티 및 Auto-Scaling 에이전트의 업데이트된 버전도 제공합니다. 기본 Cloudant Library는 이제 공식 [java-cloudant](https://github.com/cloudant/java-cloudant)이며, [Ektorp library](https://github.com/helun/Ektorp)는 계속해서 옵션으로 사용 가능합니다. 이 변경사항에 대한 세부사항은 [블로그 게시물](https://www.ibm.com/blogs/bluemix/2017/05/default-library-change-cloudant-auto-wiring-liberty-buildpack/)을 참조하십시오. 애플리케이션의 메모리가 512MB 미만이면 이제 기본 힙 크기 비율은 50%가 되고, 512MB를 초과하면 기본 힙 크기 비율은 75%가 됩니다. 이제 새 스테이징 태스크 로그가 생성되어 스테이징 오류를 더 쉽게 디버그할 수 있습니다. 자세한 정보는 [최신 업데이트](https://console.ng.bluemix.net/docs/runtimes/liberty/updates.html) 문서를 참조하십시오.
 
 ### 새로운 Liberty for Java 빌드팩 v3.10
 신규 기준일: 2017년 6월 12일
@@ -272,30 +275,37 @@ Liberty 빌드팩 v3.9는 새 월별 Liberty 런타임 버전을 제공하고 �
 ## 서비스
 {: #services_category}
 
-### {{site.data.keyword.iva_full}}은 현재 베타입니다!
+### {{site.data.keyword.iva_full_notm}}은 현재 베타입니다!
 신규 기준일: 2018년 3월 16일
 
 [{{site.data.keyword.iva_full}}](https://console.bluemix.net/catalog/services/voice-agent-with-watson)![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")을 사용하여 고객이 호출하고 전화를 통해 대화할 수 있는 Watson 서비스에서 빌드된 코그너티브 음성 에이전트를 작성할 수 있습니다. 백본에서 Watson 인공 지능을 사용하면 음성 에이전트는 복잡한 상호작용을 처리하고 음성 에이전트 내의 고객 호출을 해결하여 대화식으로 통신할 수 있습니다.
 
-이 베타 릴리스는 다음과 같은 주요 기능을 제공합니다. 
+이 베타 릴리스는 다음과 같은 주요 기능을 제공합니다.
 
-* 단일 단계에서 음성 에이전트 및 모든 필수 Watson 서비스를 작성하여 이전보다 더욱 쉽게 시작할 수 있습니다. 
-* 음성 에이전트에서 상담원 문의 센터 에이전트 또는 기타 대상에 호출을 전송합니다. 
-* 호출 세부사항 레코드, 대본 및 {{site.data.keyword.conversationshort}} 전환 이벤트를 {{site.data.keyword.cloudant_short_notm}} 데이터베이스로 전달하도록 음성 에이전트를 구성하여 호출 데이터를 수집하고 분석합니다. 
-* 새 _사용량_ 페이지에서 서비스 사용량을 모니터하고 호출 로그를 봅니다. 현재 달의 상태를 빠르게 보고, 호출 로그를 찾고 필터링하고 각 개별 호출에 대해 시스템 메시지를 볼 수 있습니다. 
+* 단일 단계에서 음성 에이전트 및 모든 필수 Watson 서비스를 작성하여 이전보다 더욱 쉽게 시작할 수 있습니다.
+* 음성 에이전트에서 상담원 문의 센터 에이전트 또는 기타 대상에 호출을 전송합니다.
+* 호출 세부사항 레코드, 대본 및 {{site.data.keyword.conversationshort}} 전환 이벤트를 {{site.data.keyword.cloudant_short_notm}} 데이터베이스로 전달하도록 음성 에이전트를 구성하여 호출 데이터를 수집하고 분석합니다.
+* 새 _사용량_ 페이지에서 서비스 사용량을 모니터하고 호출 로그를 봅니다. 현재 달의 상태를 빠르게 보고, 호출 로그를 찾고 필터링하고 각 개별 호출에 대해 시스템 메시지를 볼 수 있습니다.
 * 포트 5061을 통한 SIP TLS(sips URl) 및 SRTP(Secure Real-time Transport Protocol)를 사용하여 매체 암호화로 안전한 호출을 설정합니다.
-* 유연성을 높이기 위해 다른 {{site.data.keyword.cloud_notm}} 영역에서 {{site.data.keyword.speechtotextfull}} 및 {{site.data.keyword.texttospeechfull}} 서비스 인스턴스에 연결합니다. 
+* 유연성을 높이기 위해 다른 {{site.data.keyword.cloud_notm}} 영역에서 {{site.data.keyword.speechtotextfull}} 및 {{site.data.keyword.texttospeechfull}} 서비스 인스턴스에 연결합니다.
 
 시작하려면 [{{site.data.keyword.iva_short}}](/docs/services/voice-agent/getting-started.html) 문서를 참조하십시오.
 
-### {{site.data.keyword.streaminganalyticsshort}} 업데이트
-신규 기준일: 2018년 2월 14일 
+### {{site.data.keyword.visualrecognitionshort}}에 대한 업데이트
+신규 기준일: 2018년 3월 14일
 
- [{{site.data.keyword.streaminganalyticsshort}} 서비스](https://console.bluemix.net/catalog/services/streaming-analytics){: new_window} ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")의 콘솔에 대한 [베타 - 엔트리 및 베타 - 고급 플랜](/docs/services/StreamingAnalytics/beta_plans.html#beta_plans)에는 여러 개선사항이 포함되어 있습니다. 
- 
-* [새 IBM Streams QSE for Docker](https://www-01.ibm.com/marketing/iwm/iwm/web/preLogin.do?source=swg-ibmistvi){: new_window} ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘"): [베타 개발 안내서](https://developer.ibm.com/streamsdev/docs/cloud-beta-devguide/){: new_window} ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")를 확인하여 Docker 환경에서 실행되는 새 Streams QSE with RHEL 7을 사용하여 새 {{site.data.keyword.streaminganalyticsshort}} 베타 플랜으로 애플리케이션을 컴파일하고 배치하는 방법을 알아보십시오.  
+{{site.data.keyword.visualrecognitionfull}} 서비스는 새 사용자 정의 클래스류 모델 훈련이 클래스류를 기반으로 한 딥 러닝 신경 회로망으로 생성되도록 업데이트되었습니다. 이러한 딥 러닝 모델 생성에 필요한 추가 계산에는 새 모델을 훈련하기 위한 추가 시간이 필요할 수 있습니다.
+
+현재 기존 사용자 정의 클래스류는 계속 업데이트하고 재훈련할 수 있으며 새 딥 러닝 머신 모델 형식으로 업데이트하지 않습니다.
+
+### {{site.data.keyword.streaminganalyticsshort}} 업데이트
+신규 기준일: 2018년 2월 14일
+
+ [{{site.data.keyword.streaminganalyticsshort}} 서비스](https://console.bluemix.net/catalog/services/streaming-analytics){: new_window} ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")의 콘솔에 대한 [베타 - 엔트리 및 베타 - 고급 플랜](/docs/services/StreamingAnalytics/beta_plans.html#beta_plans)에는 여러 개선사항이 포함되어 있습니다.
+
+* [새 IBM Streams QSE for Docker](https://www-01.ibm.com/marketing/iwm/iwm/web/preLogin.do?source=swg-ibmistvi){: new_window} ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘"): [베타 개발 안내서](https://developer.ibm.com/streamsdev/docs/cloud-beta-devguide/){: new_window} ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")를 확인하여 Docker 환경에서 실행되는 새 Streams QSE with RHEL 7을 사용하여 새 {{site.data.keyword.streaminganalyticsshort}} 베타 플랜으로 애플리케이션을 컴파일하고 배치하는 방법을 알아보십시오.
 * [{{site.data.keyword.streaminganalyticsshort}} v2 REST API](https://console.bluemix.net/apidocs/1939-streaming-analytics-v2#introduction){: new_window} ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")
-* [새 스타터 및 샘플 애플리케이션](https://developer.ibm.com/streamsdev/docs/cloud-beta-samples/) 
+* [새 스타터 및 샘플 애플리케이션](https://developer.ibm.com/streamsdev/docs/cloud-beta-samples/)
 * [{{site.data.keyword.streaminganalyticsshort}} 서비스에서 고가용성 개선사항](/docs/services/StreamingAnalytics/consistentregions.html#consistentregions)
 * [{{site.data.keyword.streaminganalyticsshort}} 서비스](https://developer.ibm.com/streamsdev/2018/02/15/streaming-analytics-console-gives-ways-find-fix-errors-beta-plans/){: new_window} ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")의 베타 버전에서 새로운 문제점 판별 기능
 * [운영자의 작업 방식 및 클라우드의 보증된 튜플 처리의 모니터링](https://developer.ibm.com/streamsdev/2018/02/15/monitor-operators-behave-ensure-resource-optimization/){: new_window} ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")
@@ -303,11 +313,11 @@ Liberty 빌드팩 v3.9는 새 월별 Liberty 런타임 버전을 제공하고 �
 ### {{site.data.keyword.keymanagementservicelong_notm}}가 시드니 지역으로 확대됨
 신규 기준일: 2018년 1월 31일
 
-오늘부터 {{site.data.keyword.keymanagementserviceshort}} 암호화 키 관리 서비스를 시드니 지역에서 이용할 수 있습니다. 시드니는 미국 남부(달라스) 및 런던 이후 {{site.data.keyword.keymanagementserviceshort}} 사용자에게 GA 상태를 제공하는 세 번째 지역입니다. 
+오늘부터 {{site.data.keyword.keymanagementserviceshort}} 암호화 키 관리 서비스를 시드니 지역에서 이용할 수 있습니다. 시드니는 미국 남부(달라스) 및 런던 이후 {{site.data.keyword.keymanagementserviceshort}} 사용자에게 GA 상태를 제공하는 세 번째 지역입니다.
 
-{{site.data.keyword.keymanagementserviceshort}}는 {{site.data.keyword.Bluemix_notm}}에 저장된 데이터의 암호화에 사용되는 키를 관리하는 간단하고 경제적인 키 관리 솔루션을 제공하는 암호화 키 관리 서비스입니다. {{site.data.keyword.keymanagementserviceshort}}는 키 작성부터 애플리케이션 사용, 키 보관 및 키 삭제까지 키의 전체 라이프사이클을 관리함과 동시에 데이터 관리와 키 관리 사이의 업무 분리를 적용합니다. 
+{{site.data.keyword.keymanagementserviceshort}}는 {{site.data.keyword.Bluemix_notm}}에 저장된 데이터의 암호화에 사용되는 키를 관리하는 간단하고 경제적인 키 관리 솔루션을 제공하는 암호화 키 관리 서비스입니다. {{site.data.keyword.keymanagementserviceshort}}는 키 작성부터 애플리케이션 사용, 키 보관 및 키 삭제까지 키의 전체 라이프사이클을 관리함과 동시에 데이터 관리와 키 관리 사이의 업무 분리를 적용합니다.
 
-{{site.data.keyword.keymanagementserviceshort}}는 BYOK(Bring-Your-Own-Key – 고객 관리형 암호화)를 적용 가능 IBM 데이터 서비스와 함께 지원합니다.BYOK는 {{site.data.keyword.Bluemix_notm}}에 저장된 저장 데이터의 보안 관리를 향상할 수 있도록 내부적으로 작성된 마스터 신뢰점 암호화 키를 가져올 수 있게 합니다. 
+{{site.data.keyword.keymanagementserviceshort}}는 BYOK(Bring-Your-Own-Key – 고객 관리형 암호화)를 적용 가능 IBM 데이터 서비스와 함께 지원합니다. BYOK는 {{site.data.keyword.Bluemix_notm}}에 저장된 저장 데이터의 보안 관리를 향상할 수 있도록 내부적으로 작성된 마스터 신뢰점 암호화 키를 가져올 수 있게 합니다.
 
 
 ### {{site.data.keyword.containershort_notm}}: Kubernetes 1.8.x 지원
@@ -359,7 +369,7 @@ Liberty 빌드팩 v3.9는 새 월별 Liberty 런타임 버전을 제공하고 �
 #### APNS HTTP/2 지원
 Apple은 Apple 알림을 위한 HTTP 프로토콜 지원을 도입했습니다. {{site.data.keyword.mobilepushshort}} 서비스는 이제 HTTP/2 프로토콜을 지원합니다. 이 지원을 사용하면 알림 페이로드가 증가된 처리량과 함께 4KB가 될 수 있고 즉각적인 피드백 기능을 제공합니다. Universal Certificate에 대한 지원을 통해 앱이 샌드박스 및 제품 환경 모두에 연결할 수 있습니다.
 
-#### 새 라이트 플랜 
+#### 새 라이트 플랜
 {{site.data.keyword.mobilepushshort}} 서비스의 라이트 플랜은 매달 무료로 100K 알림을 전송할 수 있는 기능을 제공합니다. 자세한 정보는 [Lite Plan For Push Notifications Service on Bluemix](https://www.ibm.com/blogs/bluemix/2017/06/lite-plan-push-notifications-service-bluemix/){: new_window} ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘") 블로그 게시물을 참조하십시오.
 
 
@@ -427,15 +437,15 @@ IBM App Launch for {{site.data.keyword.Bluemix_notm}} Services는 고객의 여�
 
 ### {{site.data.keyword.streaminganalyticsshort}} 서비스 업데이트: 콘솔에 애플리케이션에서 문제점을 정확히 찾을 수 있는 새로운 방법이 포함됨
 신규 기준일: 2017년 8월 14일
- 
-Python 및 Java 애플리케이션의 경우 소스 파일 위치는 @spl_note 어노테이션에 따라 표시됩니다. 
- 
+
+Python 및 Java 애플리케이션의 경우 소스 파일 위치는 @spl_note 어노테이션에 따라 표시됩니다.
+
 자세한 정보는 [Latest improvements to the {{site.data.keyword.streaminganalyticsshort}}](https://developer.ibm.com/streamsdev/2017/08/14/latest-improvements-streaming-analytics-console/){: new_window} ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")를 참조하십시오.
 
 ### IBM Cloud Monitoring은 영국 지역에서도 사용 가능함
 신규 기준일: 2017년 8월 01일
 
-{{site.data.keyword.monitoringlong}} 서비스를 사용하여 메트릭에 대한 작업을 할 때 {{site.data.keyword.Bluemix_notm}}에서 콜렉션, 보존 및 분석 기능을 확장합니다. 
+{{site.data.keyword.monitoringlong}} 서비스를 사용하여 메트릭에 대한 작업을 할 때 {{site.data.keyword.Bluemix_notm}}에서 콜렉션, 보존 및 분석 기능을 확장합니다.
 
 * 조치에 대한 경보를 전송합니다! {{site.data.keyword.monitoringlong}}에서는 성능 임계값을 설정하고 그 임계값을 초과하는 경우 알림을 전송하는 데 사용할 수 있는 API를 제공합니다. 단일 서비스 인스턴스 또는 앱 인스턴스에 대한 경보 규칙 및 인스턴스 세트에서 보고하는 경보 규칙을 정의하십시오. 경보가 트리거되면 이메일, PagerDuty 이벤트, 웹훅 알림 또는 이 세 가지의 조합을 통해 알림을 받습니다.
 
@@ -460,14 +470,14 @@ Python 및 Java 애플리케이션의 경우 소스 파일 위치는 @spl_note �
 * 필요한 기간 동안 로그를 보존하십시오.  
 
     로그는 IBM Cloud 스토리지에 저장됩니다.  필요할 때 해당 로그를 다운로드할 수 있습니다.
-	
+
 * 보존된 로그를 관리하고 새 API를 사용하여 {{site.data.keyword.IBM_notm}} Cloud 외부에서 로그 데이터를 전송하십시오.
 
 * 하루에 검색할 수 있는 로그의 크기를 선택하십시오.  
 
     하루에 최대 500MB, 2GB, 5GB, 10GB의 로그를 검색할 수 있는 여러 가지 플랜이 사용 가능합니다.
 
-* 재사용가능 대시보드를 빌드해서 대화식으로 만듭니다. 
+* 재사용가능 대시보드를 빌드해서 대화식으로 만듭니다.
 
     {{site.data.keyword.loganalysisshort}}의 호스팅된 Kibana는 사용자 정의 대시보드를 빌드하기 위한 지원을 제공합니다.
 
@@ -486,13 +496,13 @@ Python 및 Java 애플리케이션의 경우 소스 파일 위치는 @spl_note �
 |-----------------------------|----------------------------|----------------|
 | IBM dashDB for Analytics    | IBM DB2 Warehouse on Cloud | 2017년 7월 18일  |
 {: caption="표 1. 서비스 이름 변경" caption-side="top"}
- 
-DB2 Warehouse on Cloud 및 DB2 on Cloud에 대한 업데이트의 누적 목록의 경우 [What's New in Db2 Warehouse on Cloud and Db2 on Cloud](http://www.ibm.com/support/docview.wss?uid=swg21961758){: new_window} ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")를 참조하십시오. 
+
+DB2 Warehouse on Cloud 및 DB2 on Cloud에 대한 업데이트의 누적 목록의 경우 [What's New in Db2 Warehouse on Cloud and Db2 on Cloud](http://www.ibm.com/support/docview.wss?uid=swg21961758){: new_window} ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")를 참조하십시오.
 
 ### IBM Cloud Monitoring은 이제 미국 남부 지역에서 사용 가능함
 신규 기준일: 2017년 7월 17일
 
-{{site.data.keyword.monitoringlong}} 서비스를 사용하여 메트릭에 대한 작업을 할 때 {{site.data.keyword.Bluemix_notm}}에서 콜렉션, 보존 및 분석 기능을 확장합니다. 
+{{site.data.keyword.monitoringlong}} 서비스를 사용하여 메트릭에 대한 작업을 할 때 {{site.data.keyword.Bluemix_notm}}에서 콜렉션, 보존 및 분석 기능을 확장합니다.
 
 * 조치에 대한 경보를 전송합니다! {{site.data.keyword.monitoringlong}}에서는 성능 임계값을 설정하고 그 임계값을 초과하는 경우 알림을 전송하는 데 사용할 수 있는 API를 제공합니다. 단일 서비스 인스턴스 또는 앱 인스턴스에 대한 경보 규칙 및 인스턴스 세트에서 보고하는 경보 규칙을 정의하십시오. 경보가 트리거되면 이메일, PagerDuty 이벤트, 웹훅 알림 또는 이 세 가지의 조합을 통해 알림을 받습니다.
 
@@ -521,7 +531,7 @@ DB2 Warehouse on Cloud 및 DB2 on Cloud에 대한 업데이트의 누적 목록�
 <li>Orion Web IDE에서 UI 테마에 대한 지원</li>
 </ul>
 
-### {{site.data.keyword.uccr_short}} 베타 
+### {{site.data.keyword.uccr_short}} 베타
 신규 기준일: 2017년 6월 23일
 
 {{site.data.keyword.uccr_short}}는 클라우드 원시 개발 도구 및 온프레미스 개발 도구를 모두 지원하는 엔터프라이즈 규모의 릴리스 관리 솔루션입니다.
@@ -559,7 +569,7 @@ Apache Spark는 Stocator 기술에 기반한 스토리지 커넥터를 통해 IB
 
 다음은 {{site.data.keyword.Bluemix_notm}}의 {{site.data.keyword.mobilepush}} 서비스에 사용 가능한 새 업데이트입니다.
 
-**라이트 플랜**: {{site.data.keyword.mobilepush}} Service를 위한 기존 기본 플랜 외에도 새 라이트 플랜을 도입하였습니다. 새 플랜에 따라 사용자는 매달 최대 100000개의 디지털 메시지를 무료로 보낼 수 있습니다. 라이트 플랜에서 기본 플랜으로 업그레이드하는 동안 백만 개의 디지털 메시지 후에 사용자에게 청구됩니다. 백만 개 메시지 계수는 라이트 계획이 기본 계획으로 업그레이드될 때 시작합니다. 
+**라이트 플랜**: {{site.data.keyword.mobilepush}} Service를 위한 기존 기본 플랜 외에도 새 라이트 플랜을 도입하였습니다. 새 플랜에 따라 사용자는 매달 최대 100000개의 디지털 메시지를 무료로 보낼 수 있습니다. 라이트 플랜에서 기본 플랜으로 업그레이드하는 동안 백만 개의 디지털 메시지 후에 사용자에게 청구됩니다. 백만 개 메시지 계수는 라이트 계획이 기본 계획으로 업그레이드될 때 시작합니다.
 
 **모니터링**: 이제 {{site.data.keyword.mobilepush}} Service Console에서 받은 알림 및 등록된 디바이스에 대한 인사이트를 얻을 수 있습니다. 또한 메시지 레벨 추적을 위해 REST API를 사용할 수도 있습니다. 메시지 전송에서 메시지 수신인으로 디스패치하는 메시지까지 구성 웹훅으로 세부사항을 가져올 수 있습니다.  [{{site.data.keyword.mobilepush}} 모니터링](/docs/services/mobilepush/t_push_monitoring.html#monitor-notifications)을 참조하십시오.
 
@@ -586,7 +596,7 @@ IBM Data Science Experience(DSX)에서 Jupyter 노트북을 사용하여 샘플 
 
 {{site.data.keyword.sparkl}}는 Apache Spark 2.1에 대한 지원을 도입하여 복잡한 데이터에서 인사이트를 구현하는 알고리즘을 작성합니다. Apache Spark 2.1은 이벤트 시간 워터마크 및 Kafka 0.10에 대한 추가된 지원과 함께 구조화된 스트리밍 주변에 큰 도움을 줍니다. Apache Spark 2.1은 또한 Spark SQL, SparkR 및 MLlib 모듈의 안정성 및 편리성 증가에 중점을 두었습니다. Spark 2.1에 대한 추가 세부사항은 [Spark Release 2.1.0](http://spark.apache.org/releases/spark-release-2-1-0.html)을 참조하십시오.
 
-{{site.data.keyword.sparkl}} 또는 Apache Spark 2.1의 최신 버전에 대한 질문이 있으면 기꺼이 답변해 드리며 질문은 sparksrv@us.ibm.com으로 보내 주십시오. 
+{{site.data.keyword.sparkl}} 또는 Apache Spark 2.1의 최신 버전에 대한 질문이 있으면 기꺼이 답변해 드리며 질문은 sparksrv@us.ibm.com으로 보내 주십시오.
 
 ### {{site.data.keyword.macm_short}}는 더 이상 사용되지 않음
 신규 기준일: 2017년 4월 18일
@@ -600,7 +610,7 @@ IBM Data Science Experience(DSX)에서 Jupyter 노트북을 사용하여 샘플 
 
 STREAMING_ANALYTICS_SERVICE 컨텍스트를 사용하여 {{site.data.keyword.streaminganalyticsshort}} 서비스에 Python 애플리케이션을 제출할 수 있습니다. {{site.data.keyword.streaminganalyticsshort}} 서비스에는 Python 3.5 이상이 필요합니다.
 
-[IBM Data Science Experience 커뮤니티 페이지](http://datascience.ibm.com){: new_window} ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")의 노트북에서 샘플 스트림 처리 Python 애플리케이션을 확인하십시오. 
+[IBM Data Science Experience 커뮤니티 페이지](http://datascience.ibm.com){: new_window} ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")의 노트북에서 샘플 스트림 처리 Python 애플리케이션을 확인하십시오.
 
 ### {{site.data.keyword.sparks}}업데이트: 이제 Data Science Experience에서 노트북이 지원됨
 신규 기준일: 2017년 4월 11일
@@ -608,3 +618,4 @@ STREAMING_ANALYTICS_SERVICE 컨텍스트를 사용하여 {{site.data.keyword.str
 노트북 및 Spark에 대해 작업할 새 플랫폼은 Data Science Experience입니다. [Data Science Experience](http://datascience.ibm.com/)에 등록하여 노트북을 작성하고 기타 데이터 과학자들과 경험을 공유해 보십시오.
 
 {{site.data.keyword.sparks}}에서 노트북에 대해 작업한 경우 노트북을 Data Science Experience에 마이그레이션할 수 있습니다. 자세한 정보는 [노트북 문서 마이그레이션](/docs/services/AnalyticsforApacheSpark/index-gentopic2.html#migration_to_dsx)을 참조하십시오.
+

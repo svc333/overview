@@ -4,7 +4,7 @@ copyright:
 
   years: 2017, 2018
 
-lastupdated: "2017-12-15"
+lastupdated: "2018-04-02"
 
 ---
 
@@ -17,7 +17,7 @@ lastupdated: "2017-12-15"
 # 클라우드 리소스 이름
 {: #crn}
 
-CRN(Cloud Resource Name)은 {{site.data.keyword.Bluemix_notm}} 리소스를 고유하게 식별합니다. CRN을 사용하면 클라우드 카탈로그에 나열된 {{site.data.keyword.Bluemix_notm}} Identity and Access Management(IAM) 정책 및 서비스에서와 같이 명료하고 글로벌한 고유성이 보장된 방식으로 리소스를 지정할 수 있습니다.
+클라우드 리소스 이름(CRN)은 {{site.data.keyword.Bluemix_notm}} 리소스를 고유하게 식별합니다. CRN을 사용하면 클라우드 카탈로그에 나열된 {{site.data.keyword.Bluemix_notm}} Identity and Access Management(IAM) 정책 및 서비스에서와 같이 명료하고 글로벌한 고유성이 보장된 방식으로 리소스를 지정할 수 있습니다.
 
 CRN은 리소스, 해당 위치 및 속해 있는 서비스를 계층 구조로 식별하는 "세그먼트"의 연결을 통해 구성됩니다. 세그먼트 구분 기호는 ':'(콜론) 문자로 설정됩니다. 모든 CRN은 세그먼트 ID 'crn'으로 시작됩니다.
 
@@ -101,7 +101,7 @@ CRN의 기본적인 표준 형식은 다음과 같습니다.
 | PAR01  | SJC01  | SJC03  | SAO01  |  SEA01  |
 | SEO01  | SNG01  | SYD01  | TOK02  |  TOR01  |
 | WDC01  | WDC04  | WDC06  | WDC07  |
-{: caption="표 1. 올바른 `데이터 센터` 값" caption-side="top"}
+{: caption="표 1. 올바른 데이터 센터 값" caption-side="top"}
 
 일부 리소스에서는 지역이 필요하지 않습니다(`global`로 간주될 수 있음). 이 경우에는 `region` 세그먼트가 `global`로 설정됩니다.
 {: tip}
@@ -134,6 +134,12 @@ CRN의 기본적인 표준 형식은 다음과 같습니다.
 예를 들어, 작업 항목을 추적하고 계획하기 위한 DevOps 도구는 단순 `GUID` 인스턴스 id("1234-5678-9012-3456")를 보유할 수 있습니다. 여기서 오토스케일 그룹 서비스의 정책 컴포넌트는 계층 구조의 이름 지정 규칙을 사용할 수 있으며 다음의 `service-id` 세그먼트를 보유할 수 있습니다.
 
 >`c7a27f55-d35e-4153-b044-8ca9155fc467/my-test-asg1/my-scaleout-policy`
+
+다음 CLI 명령을 사용하여 {{site.data.keyword.Bluemix_notm}} 리소스에서 CRN을 얻을 수 있습니다.
+```
+bluemix resource service-instance
+```
+{: codeblock}
 
 
 ## resource-type, resource
