@@ -4,7 +4,7 @@ copyright:
 
   years: 2017, 2018
 
-lastupdated: "2018-04-02"
+lastupdated: "2018-05-22"
 
 ---
 
@@ -60,7 +60,7 @@ The `service-name` segment uniquely identifies a capability (service, component,
 
 The `service-name` indicates the service that the resource belongs to, and {{site.data.keyword.Bluemix_notm}} enforces global uniqueness of service names. The `service-name` must be alphanumeric, lowercase, no spaces or special characters other than '-'.
 
-For services that are registered into the {{site.data.keyword.Bluemix_notm}} Catalog the `service-name` must correspond to one of the services registered to the {{site.data.keyword.Bluemix_notm}} Global Catalog service. It is the `name` property returned by the {{site.data.keyword.Bluemix_notm}} Global Catalog service API `GET https://resource-catalog.bluemix.net/api/v1/{id}` for the corresponding resource instance or the `service-name` displayed by the command line interface: `bx service offerings` in the column `service`.
+For services that are registered into the {{site.data.keyword.Bluemix_notm}} Catalog the `service-name` must correspond to one of the services registered to the {{site.data.keyword.Bluemix_notm}} Global Catalog service. It is the `name` property returned by the {{site.data.keyword.Bluemix_notm}} Global Catalog service API `GET https://resource-catalog.bluemix.net/api/v1/{id}` for the corresponding resource instance or the `service-name` displayed by the command line interface: `ibmcloud service offerings` in the column `service`.
 
 
 ## location
@@ -137,7 +137,7 @@ As an example, a devops tool to track and plan work items can have a simple `GUI
 
 You can also obtain a CRN from an {{site.data.keyword.Bluemix_notm}} resource by using the following CLI command:
 ```
-bluemix resource service-instance
+ibmcloud resource service-instance
 ```
 {: codeblock}
 
