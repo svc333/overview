@@ -3,7 +3,7 @@
 
 copyright:
   years: 2016, 2018
-lastupdated: "2018-02-13"
+lastupdated: "2018-05-22"
 
 ---
 
@@ -86,10 +86,10 @@ Use the region selector in the console to filter your view. For example, if you 
 
 Filtering your view per region also enables you to quickly switch views to work with orgs, spaces, and users assigned to the different regions.
 
-You can use the command line interface to connect to the {{site.data.keyword.cloud_notm}} region that you want to work with by using the bx api command and specify the API endpoint of the region. For example, enter the following command to connect to {{site.data.keyword.cloud_notm}} Europe United Kingdom region:
+You can use the command line interface to connect to the {{site.data.keyword.cloud_notm}} region that you want to work with by using the ibmcloud api command and specify the API endpoint of the region. For example, enter the following command to connect to {{site.data.keyword.cloud_notm}} Europe United Kingdom region:
 
 ```
-bx api https://api.eu-gb.bluemix.net
+ibmcloud api https://api.eu-gb.bluemix.net
 ```
 
 A unique prefix is assigned to each region. {{site.data.keyword.cloud_notm}} provides the following regions and region prefixes.
