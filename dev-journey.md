@@ -72,7 +72,7 @@ The code created from an {{site.data.keyword.cloud_notm}} starter kit has four f
 * **Service enablement** is code that enables your app to connect to and use the services you add. Credential management, initialization code, and service-specific SDKs are examples of service enablement items.
 * **Cloud enablement** is code that enables your app to run on {{site.data.keyword.cloud_notm}}. For example, Helm charts that enable your app to run on an {{site.data.keyword.cloud_notm}} Kubernetes cluster.
 
-The app produced by {{site.data.keyword.cloud_notm}} isn’t only architecturally proven, but it also reflects best practices for the language you selected.  
+When you create an app from a {{site.data.keyword.cloud_notm}} starter kit, your app starts with proven architecture that also reflects best practices for the language you selected.
 
 Each app includes a readme file that contains technical details of the app and explains what is needed to get your app running if it doesn’t run out-of-the-box.
 {: tip}
