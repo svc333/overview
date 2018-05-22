@@ -53,4 +53,4 @@ TTY service
 
 ## IBM and accessibility
 
-For more information about the commitment that IBM has to accessibility, see [IBM Accessibility ![External link icon](../../icons/launch-glyph.svg "External link icon")](www.ibm.com/able){: new_window}.
+For more information about the commitment that IBM has to accessibility, see [IBM Accessibility ![External link icon](../../icons/launch-glyph.svg "External link icon")](http://www.ibm.com/able){: new_window}.
