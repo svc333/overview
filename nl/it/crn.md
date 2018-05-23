@@ -101,7 +101,7 @@ La `location` deve essere uno dei seguenti valori:
 | PAR01  | SJC01  | SJC03  | SAO01  |  SEA01  |
 | SEO01  | SNG01  | SYD01  | TOK02  |  TOR01  |
 | WDC01  | WDC04  | WDC06  | WDC07  |
-{: caption="Tabella 1. Valori data center validi " caption-side="top"}
+{: caption="Tabella 1. Valori data center validi" caption-side="top"}
 
 Alcune risorse non richiedono una regione (possono essere considerate `global`). In questo caso, il segmento `region` è impostato su `global`.
 {: tip}
@@ -147,7 +147,7 @@ bluemix resource service-instance
 
 Il valore dei segmenti `resource-type` e `resource` varia in base al servizio. È richiesto un servizio per documentare i `resource types` supportati e il formato di `resource` come parte dei metadati di servizio.
 
-Ad esempio, un'immagine nel contenitore di incassi del cliente in un servizio di Archiviazione oggetti può avere un `resource-type` di  `object` e un `resource_ value` di `CustomerReceipts/clientdinner.png`.
+Ad esempio, un'immagine nel contenitore di incassi del cliente in un servizio di Object Storage può avere un `resource-type` di  `object` e un `resource_ value` di `CustomerReceipts/clientdinner.png`.
 
 Il `resource-type` deve essere alfanumerico, in minuscolo, senza spazi o caratteri speciali diversi da '-'. Un servizio può decidere che il `resource-type` sia facoltativo, nel qual caso verrà lasciato vuoto.
 

@@ -4,7 +4,7 @@ copyright:
 
   years: 2015, 2018
 
-lastupdated: "2018-04-04"
+lastupdated: "2018-05-02"
 
 ---
 
@@ -20,8 +20,15 @@ Rimani aggiornato con le nuove funzioni e i nuovi servizi disponibili in {{site.
 ## Piattaforma {{site.data.keyword.Bluemix_notm}}
 {: #platform_category}
 
-### Assegna l'accesso velocemente utilizzando i gruppi di accesso 
-Novità a partire dal 03 aprile 2018 
+### Autenticazione multifattore per il tuo account {{site.data.keyword.Bluemix_notm}}
+Novità a partire dal: 02 maggio 2018
+
+L'autenticazione multifattore (MFA, multi-factor authentication) aggiunge un ulteriore livello di sicurezza al tuo account richiedendo che tutti gli utenti forniscano un passcode monouso con scadenza oltre ai loro ID IBM e password standard durante l'accesso. Questa è anche comunemente nota come autenticazione a due fattori (2FA, two-factor authentication). La MFA viene abilitata per ogni singolo account e, una volta attivata, tutti gli utenti nell'account devono eseguire l'accesso utilizzando la misura di sicurezza aggiuntiva.
+
+Per ulteriori informazioni, consulta [IBM Cloud Platform now adds support for Multi-Factor Authentication}](https://www.ibm.com/blogs/bluemix/2018/05/ibm-cloud-platform-now-adds-support-multi-factor-authentication/){: new_window} ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno") blog post.
+
+### Assegna l'accesso velocemente utilizzando i gruppi di accesso
+Novità a partire dal 03 aprile 2018
 
 Vuoi essere in grado di assegnare l'accesso velocemente utilizzando la quantità minima di politiche possibile? Ora puoi con i gruppi di accesso. I gruppi di accesso consentono di raggruppare una serie di utenti e ID servizio tra loro e assegnare una sola politica che si applica a tutti i membri del gruppo. Utilizzando i gruppi di accesso, puoi limitare il tempo che utilizzi per gestire l'accesso degli utenti e degli ID servizio nel tuo account. Controlla il post di blog [New feature: Access groups](https://www.ibm.com/blogs/bluemix/2018/04/access-groups/){: new_window} ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno") per ulteriori dettagli.
 
@@ -106,12 +113,12 @@ Per ulteriori informazioni su questo aggiornamento, consulta [New Global Bluemix
 Novità a partire dal 1° maggio 2017
 
 Con gli ultimi aggiornamenti e miglioramenti, i proprietari di account o gli amministratori di {{site.data.keyword.Bluemix_notm}} possono ora utilizzare una nuova interfaccia utente di controllo dell'accesso unificata per sfruttare le seguenti funzionalità:
- * Gestire l'accesso specifico degli utenti ai servizi Kubernetes e ad altri servizi man mano che adottano le nuove funzioni di controllo dell'accesso
+ * Gestire l'accesso dettagliato degli utenti ai servizi Kubernetes e ad altri servizi man mano che adottano le nuove funzioni di controllo dell'accesso
  * Assegnare politiche di servizio e ruoli Cloud Foundry agli utenti nelle proprie organizzazioni
 
 Inoltre, gli utenti della piattaforma {{site.data.keyword.Bluemix_notm}} possono creare, eliminare ed elencare le chiavi API associate ai loro ID utente. Possono inoltre utilizzare queste chiavi API per autenticarsi quando utilizzano le API o le CLI.
 
-Infine, abbiamo migliorato la funzionalità di gestione degli utenti unificata per garantire che in un account IaaS-PaaS collegato, gli utenti siano gestiti in modo unificato senza la necessità di aggiungere utenti separatamente nel Portale del cliente SoftLayer o nella console {{site.data.keyword.Bluemix_notm}}.
+Infine, abbiamo migliorato la funzionalità di gestione degli utenti unificata per garantire che in un account IaaS-PaaS collegato, gli utenti siano gestiti in modo unificato senza la necessità di aggiungere utenti separatamente nel Portale clienti SoftLayer o nella console {{site.data.keyword.Bluemix_notm}}.
 
 Per ulteriori informazioni sul recente aggiornamento, consulta il post del blog [Introducing Identity & Access Management](https://www.ibm.com/blogs/bluemix/2017/05/introducing-identity-access-management/){: new_window} ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno").
 
@@ -183,7 +190,7 @@ Con gli ultimi aggiornamenti e miglioramenti di luglio, puoi utilizzare le segue
 Per ulteriori informazioni, vedi la [dimostrazione video](https://youtu.be/QBij0jB5qAk){: new_window} ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno").
 
 ### Aggiornamenti di giugno per la console di gestione
-{: #mayadminconsole}
+{: #juneadminconsole}
 Novità a partire dal 26 giugno 2017
 
 Con gli ultimi aggiornamenti e miglioramenti di giugno, puoi utilizzare le seguenti nuove funzioni:
@@ -235,6 +242,10 @@ Con gli ultimi aggiornamenti e miglioramenti di aprile, puoi utilizzare le segue
 ## Calcola
 {: #compute_category}
 
+### {{site.data.keyword.containerlong_notm}} fornisce l'accesso al dashboard Kubernetes
+
+{{site.data.keyword.containerlong_notm}} ora supporta l'accesso diretto al dashboard Kubernetes tramite la console {{site.data.keyword.Bluemix_notm}}. Questo percorso semplificato al dashboard offre un'esperienza utente migliorata per la gestione dei cluster e la visualizzazione delle risorse. Scopri ulteriori dettagli nel [blog di {{site.data.keyword.Bluemix_notm}}](https://www.ibm.com/blogs/bluemix/2018/04/kubernetes-dashboard-access/){: new_window} ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno").
+
 ### Ultimi aggiornamenti per i pacchetti di build
 
 Visita le seguenti pagine per un elenco cumulativo degli ultimi aggiornamenti:
@@ -275,6 +286,20 @@ Il pacchetto di build Liberty v3.9 fornisce una nuova versione di runtime Libert
 ## Servizi
 {: #services_category}
 
+### {{site.data.keyword.streaminganalyticsshort}} introduce dei nuovi piani di servizio con un'infrastruttura basata sui contenitori
+Novità a partire dal: 20 aprile 2018 
+
+{{site.data.keyword.streaminganalyticsshort}} è ora in esecuzione su un'infrastruttura basata sui contenitori Kubernetes che fornisce al servizio vantaggi da un punto di vista di sicurezza e disponibilità.
+ 
+Puoi accedere a questa nuova infrastruttura basata sui contenitori utilizzando i [piani di servizio v2](/docs/services/StreamingAnalytics/service_plans.html#service_plans). Puoi scegliere il piano {{site.data.keyword.streaminganalyticsshort}} che meglio si adatta al lavoro che devi eseguire. I piani di servizio v2 includono i seguenti miglioramenti:
+ 
+* [IBM Streams QSE with Docker](https://www-01.ibm.com/marketing/iwm/iwm/web/preLogin.do?source=swg-ibmistvi)![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno"): Consulta il manuale [ Development Guide](https://developer.ibm.com/streamsdev/docs/cloud-beta-devguide/)![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno") per informazioni su come utilizzare il nuovo Streams QSE con RHEL 7 in esecuzione in un ambiente Docker per compilare e distribuire le tue applicazioni con i nuovi piani {{site.data.keyword.streaminganalyticsshort}} v2. 
+* [{{site.data.keyword.streaminganalyticsshort}} v2 REST API](https://console.bluemix.net/apidocs/1939-streaming-analytics-v2#introduction)![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")
+* [New starter and sample applications](https://developer.ibm.com/streamsdev/docs/cloud-beta-samples/) ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")
+* [High-availability enhancements in the {{site.data.keyword.streaminganalyticsshort}} service](/docs/services/StreamingAnalytics/c_ha.html#consistent-regions)
+* [Problem determination features in the {{site.data.keyword.streaminganalyticsshort}} service](https://developer.ibm.com/streamsdev/2018/02/15/streaming-analytics-console-gives-ways-find-fix-errors-beta-plans/)![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")
+* [Monitoring how operators behave and guaranteed tuple processing in the cloud](https://developer.ibm.com/streamsdev/2018/02/15/monitor-operators-behave-ensure-resource-optimization/)![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")
+
 ### {{site.data.keyword.iva_full_notm}} è ora beta!
 Novità a partire dal 16 marzo 2018
 
@@ -294,7 +319,7 @@ Per iniziare, vedi la documentazione [{{site.data.keyword.iva_short}}](/docs/ser
 ### Aggiornamenti a {{site.data.keyword.visualrecognitionshort}}
 Novità a partire dal 14 marzo 2018
 
-Il servizio {{site.data.keyword.visualrecognitionfull}} è stato aggiornato per cui le nuove formazioni del modello del classificatore personalizzato sono ora generate come classificatori basati sull'apprendimento approfondito della rete neurale. Il calcolo aggiuntivo richiesto per generare questi modelli di apprendimento approfondito potrebbe richiedere ulteriore tempo per la formazione dei nuovi modelli. 
+Il servizio {{site.data.keyword.visualrecognitionfull}} è stato aggiornato per cui le nuove formazioni del modello del classificatore personalizzato sono ora generate come classificatori basati sull'apprendimento approfondito della rete neurale. Il calcolo aggiuntivo richiesto per generare questi modelli di apprendimento approfondito potrebbe richiedere ulteriore tempo per la formazione dei nuovi modelli.
 
 Al momento, i classificatori personalizzati esistenti possono continuare ad essere aggiornati e riaggiornati e non verranno aggiornati a questo nuovo formato del modello automatico di apprendimento approfondito.
 
@@ -603,14 +628,6 @@ Novità a partire dal 18 aprile 2017
 
 A partire dal 30 marzo 2017, il tile del servizio {{site.data.keyword.macm_long}} verrà rimosso dal catalogo {{site.data.keyword.Bluemix_notm}} e non potrai più eseguire il provisioning di nuove istanze MACM. Tuttavia, le istanze esistenti continueranno a essere supportate. La data di fine del supporto è il 30 marzo 2018. Elimina le tue istanze del servizio {{site.data.keyword.macm_short}} (MACM) prima della data di fine del supporto. Incoraggiamo gli utenti a migrare a IBM Watson Content Hub. Watson Content Hub è disponibile in IBM Marketplace e offre agli utenti una versione di prova gratuita di 30 giorni. IBM Watson Content Hub fornisce funzionalità simili a MACM con nuove funzionalità aggiuntive come la gestione delle risorse, l'acquisizione di tag cognitiva tramite i servizi IBM Watson e la CDN (content delivery network) per garantire ai clienti un'esperienza ottimale. IBM offre servizi per la migrazione dei contenuti da MACM a Watson Content Hub.
 
-### Aggiornamenti del servizio {{site.data.keyword.streaminganalyticsshort}}: sviluppo di applicazioni Streams nel tuo ambiente di sviluppo Python
-Novità a partire dal 13 aprile 2017
-
-In passato, per sviluppare le applicazioni Python dovevi installare una versione locale di IBM Streams. Le cose sono cambiate. Adesso puoi sviluppare applicazioni con Python nel tuo ambiente di sviluppo preferito o in un notebook interattivo Jupyter.
-
-Puoi utilizzare il contesto STREAMING_ANALYTICS_SERVICE per inviare un'applicazione Python al servizio {{site.data.keyword.streaminganalyticsshort}}. Il servizio {{site.data.keyword.streaminganalyticsshort}} richiede Python 3.5.
-
-Guarda le applicazioni Python per l'elaborazione dei flussi di esempio nei notebook sulla [pagina della community di IBM Data Science Experience](http://datascience.ibm.com){: new_window} ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno").
 
 ### Aggiornamenti di {{site.data.keyword.sparks}}: supporto per notebook ora in Data Science Experience
 Novità a partire dall'11 aprile 2017

@@ -26,7 +26,7 @@ Se sei un utente esistente con un account {{site.data.keyword.cloud_notm}}, puoi
   * Dal menu **Supporto**, puoi accedere alle informazioni sulle novità per {{site.data.keyword.cloud_notm}}, al centro di supporto, alle opzioni per aggiungere e visualizzare i ticket e alla pagina Stato.
   * Dal menu **Gestisci**, puoi accedere alle opzioni per il tuo account, per la fatturazione e l'utilizzo e per la sicurezza.
 
-Se hai collegato i tuoi account {{site.data.keyword.cloud_notm}} e SoftLayer, hai le stesse opzioni di un proprietario di account non collegato e inoltre puoi accedere al portale del cliente selezionando l'opzione dell'**icona Menu  ![Icona Menu](../icons/icon_hamburger.svg)  > Infrastruttura**. Da qui, puoi visualizzare il riepilogo del tuo account, ordinare archiviazione e dispositivi e gestire l'accesso per utenti e dispositivi solo VPN.
+Se hai collegato i tuoi account {{site.data.keyword.cloud_notm}} e SoftLayer, hai le stesse opzioni di un proprietario di account non collegato e inoltre puoi accedere al portale clienti selezionando l'opzione dell'**icona Menu  ![Icona Menu](../icons/icon_hamburger.svg)  > Infrastruttura**. Da qui, puoi visualizzare il riepilogo del tuo account, ordinare archiviazione e dispositivi e gestire l'accesso per utenti e dispositivi solo VPN.
 
 ## Gestione delle risorse sul dashboard
 {: #dashboardview}

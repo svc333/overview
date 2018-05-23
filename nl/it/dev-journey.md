@@ -2,7 +2,7 @@
 
 copyright:
   years: 2016, 2017, 2018
-lastupdated: "2018-03-16"
+lastupdated: "2018-05-02"
 
 ---
 {:new_window: target="_blank"}
@@ -18,9 +18,9 @@ lastupdated: "2018-03-16"
 Come sviluppatore, {{site.data.keyword.cloud}} hai una serie di funzionalità per iniziare a creare le applicazioni in pochi minuti. Nei nostri dashboard di sviluppo puoi:
 
 * Selezionare i kit starter che sono specifici per il caso di utilizzo e creare le applicazioni starter pronte per la produzione in diversi linguaggi di programmazione e modelli architetturali
-* Eseguire il provisioning dei servizi automaticamente come parte della creazione del progetto del tuo kit starter
-* Utilizzare una struttura del progetto dell'applicazione portatile che ti consente di gestire i componenti della tua applicazione
-* Creazione con un solo clic di una [toolchain DevOps](../services/ContinuousDelivery/index.html#cd_getting_started).
+* Visualizzare e gestire le risorse di cui era stato eseguito automaticamente il provisioning dal tuo kit starter o che hai manualmente aggiunto alla tua applicazione
+* Ottenere il codice dell'applicazione portatile che ti consente di eseguire la distribuzione a diversi ambienti cloud
+* Creare una [toolchain DevOps](../services/ContinuousDelivery/index.html#cd_getting_started) in pochi clic.
 * Utilizzare un'[interfaccia riga di comando](/docs/cli/idt/index.html) per lo sviluppo locale
 
 Per comprendere come l'esperienza di sviluppo {{site.data.keyword.cloud_notm}} può aiutarti a creare rapidamente applicazioni di alta qualità pronte per la produzione, diamo un'occhiata a questi elementi in modo più dettagliato.
@@ -32,14 +32,14 @@ Per comprendere come l'esperienza di sviluppo {{site.data.keyword.cloud_notm}} p
 
 Ogni dashboard di sviluppo fornisce kit starter rilevanti per l'area specifica del dashboard e offre un flusso di lavoro coerente e intuitivo che ti consente di creare un'applicazione pronta per la produzione da utilizzare in pochi minuti.
 
-## Progetti applicazione
+## Applicazioni
 {: #app-projects}
 
-Un progetto è l'associazione di codice, dati, servizi e toolchain che compongono la tua applicazione. Ad esempio, il progetto mobile {{site.data.keyword.cloud_notm}} contiene il codice per l'applicazione e la logica di backend, l'archiviazione dei dati, i servizi di analisi e di sicurezza ed è configurato per la fornitura continua.
+Un'applicazione comprende codice, dati, servizi e toolchain. Ad esempio, l'applicazione mobile {{site.data.keyword.cloud_notm}} contiene il codice dispositivo, insieme alla logica di backend, all'archiviazione dei dati e ai servizi di analisi e di sicurezza ed è configurata per la fornitura continua.
 
 ![Riutilizzo](images/garage_reuse2.png "L'esperienza di sviluppo ti consente il riutilizzo e di evitare di reinventare")
 
-Puoi creare e gestire un progetto utilizzando qualsiasi dashboard di sviluppo {{site.data.keyword.cloud_notm}} o {{site.data.keyword.dev_cli_notm}}.
+Puoi creare e gestire un'applicazione utilizzando qualsiasi dashboard di sviluppo {{site.data.keyword.cloud_notm}} o {{site.data.keyword.dev_cli_notm}}.
 
 ## Kit starter
 {: #starter-kits}
@@ -57,7 +57,7 @@ I kit starter sono pronti per la produzione e si focalizzano sulla dimostrazione
 ## Risorse di provisioning automatico
 {: #auto-provision}
 
-Se un kit starter specifica le risorse necessarie, {{site.data.keyword.cloud_notm}} crea automaticamente le istanze per quelle risorse quando crei il tuo progetto. Tieni presente che puoi anche eseguire il provisioning manualmente delle risorse o selezionare le istanze della risorsa esistente da aggiungere al tuo progetto dopo averlo creato. Puoi vedere un elenco di istanze del servizio associate al tuo progetto nella vista dei dettagli del progetto insieme alle credenziali nel caso ne avessi bisogno.
+Se un kit starter specifica le risorse necessarie, {{site.data.keyword.cloud_notm}} crea automaticamente le istanze per quelle risorse quando crei la tua applicazione. Tieni presente che puoi anche eseguire il provisioning manualmente delle risorse o selezionare le istanze della risorsa esistente da aggiungere alla tua applicazione dopo averne eseguito la creazione. Puoi vedere un elenco di istanze del servizio associate alla tua applicazione nella vista dei dettagli dell'applicazione insieme alle credenziali, nel caso ne avessi bisogno.
 
 ## Codice portatile
 {: #portable-code}
@@ -69,12 +69,12 @@ Il codice creato da un kit starter {{site.data.keyword.cloud_notm}} ha quattro c
 
 * **Logica del caso di utilizzo** fornisce funzioni per la funzione principale di un caso di utilizzo particolare. Gli esempi potrebbero essere il codice per un servizio chat di Watson Conversation o il codice per un'applicazione Visual recognition mobile.
 * **Componenti del linguaggio** sono file e componenti del codice specifici per il linguaggio di programmazione che selezioni per il tuo kit starter. Ad esempio, i programmatori node.js avranno bisogno di un file package.json per la gestione della dipendenza e questo file viene automaticamente creato per te.
-* **Abilitazione del servizio** è il codice che consente alla tua applicazione di collegarsi e utilizzare i servizi che aggiungi al tuo progetto. Gestione delle credenziali, codice di inizializzazione e SDK specifici del servizio sono esempi di elementi di abilitazione del servizio.
+* **Abilitazione del servizio** è il codice che consente alla tua applicazione di collegarsi e utilizzare i servizi che aggiungi. Gestione delle credenziali, codice di inizializzazione e SDK specifici del servizio sono esempi di elementi di abilitazione del servizio.
 * **Abilitazione cloud** è il codice che consente alla tua applicazione l'esecuzione su {{site.data.keyword.cloud_notm}}. Ad esempio, i grafici Helm che consentono alla tua applicazione l'esecuzione su un cluster Kubernetes {{site.data.keyword.cloud_notm}}.
 
-L'applicazione prodotta da {{site.data.keyword.cloud_notm}} non dispone solo dell'architettura, ma riflette anche le pratiche migliori per il linguaggio che hai scelto per il tuo progetto.  
+L'applicazione prodotta da {{site.data.keyword.cloud_notm}} non dispone solo di un'architettura comprovata, ma riflette anche le procedure ottimali per il linguaggio da te selezionato.  
 
-Il progetto include un file readme che contiene i dettagli tecnici del progetto e spiega cosa è necessario per avere la tua applicazione in esecuzione se non lo è immediatamente.
+Ogni applicazione include un file readme che contiene i dettagli tecnici dell'applicazione e spiega cosa è necessario perché la tua applicazione sia in esecuzione se non lo è immediatamente.
 {: tip}
 
 ## Toolchain DevOps
@@ -84,16 +84,16 @@ DevOps comprende le procedure e gli strumenti per l'accesso, lo sviluppo, la dis
 
 Il componente principale di una toolchain DevOps è un repository di controllo della versione del codice come GitHub. Strumenti aggiuntivi possono includere la traccia di backlog, la pipeline di fornitura, l'IDE e il servizio di monitoraggio come [{{site.data.keyword.cloud_notm}}DevOps Insights](../services/DevOpsInsights/index.html#gettingstarted).
 
-Se hai creato un progetto utilizzando un kit starter, puoi creare una nuova toolchain e distribuire la tua applicazione semplicemente facendo clic su **Distribuisci al cloud** nella vista dei dettagli del progetto. È stata creata una toolchain che dispone di un repository del codice, un repository dei problemi, la pipeline di fornitura e l'IDE web.
+Se hai creato un'applicazione utilizzando un kit starter, puoi creare una nuova toolchain e distribuire la tua applicazione semplicemente facendo clic su **Distribuisci al cloud** nella vista dei dettagli dell'applicazione. È stata creata una toolchain che dispone di un repository del codice, un repository dei problemi, la pipeline di fornitura e l'IDE web.
 
 Puoi quindi utilizzare questa toolchain per ospitare più team e distribuire ad ambienti separati per lo sviluppo, il test e la produzione e stabilire un modello di fornitura continua collaborativo a livello aziendale per la tua applicazione.  
 
 ![Fornitura continua](images/garage_continuous_delivery2.png "L'esperienza di sviluppo configura la fornitura continua nel tuo ramo di sviluppo")
 
-Puoi anche dare una rapida occhiata al tuo codice del progetto facendo clic sul pulsante **Download** nella pagina della panoramica progetto del dashboard di sviluppo. Il tuo codice viene scaricato come un file `.zip` contenente la struttura del progetto completa. Puoi facilmente estrarre il file ed eseguire il codice localmente utilizzando la {{site.data.keyword.dev_cli_notm}} o aggiungerlo al tuo repository di gestione del codice.
+Puoi anche dare una rapida occhiata al tuo codice dell'applicazione facendo clic sul pulsante **Download** nella pagina della panoramica dell'applicazione del dashboard di sviluppo. Il tuo codice viene scaricato come un file `.zip` contenente la struttura dell'applicazione completa. Puoi facilmente estrarre il file ed eseguire il codice localmente utilizzando la {{site.data.keyword.dev_cli_notm}} o aggiungerlo al tuo repository di gestione del codice.
 
 ## Interfaccia riga di comando
-{{site.data.keyword.dev_cli_notm}} ti abilita a codificare, creare ed eseguire il tuo progetto localmente.  Un modello comune è di creare il tuo progetto tramite un dashboard di sviluppo, utilizza {{site.data.keyword.dev_cli_notm}} per sviluppare localmente e poi trasmetti gli aggiornamenti al tuo repository e uniscili per avviare la tua toolchain di distribuzione.
+{{site.data.keyword.dev_cli_notm}} ti abilita a codificare, creare ed eseguire la tua applicazione localmente. Un modello comune consiste nel creare la tua applicazione tramite un dashboard di sviluppo, utilizzare {{site.data.keyword.dev_cli_notm}} per sviluppare localmente e poi trasmettere gli aggiornamenti al tuo repository e unirli per avviare la tua toolchain di distribuzione.
 
 ## Sviluppo del metodo Garage
 {: #developer_concepts}
