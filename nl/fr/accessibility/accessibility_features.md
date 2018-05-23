@@ -26,7 +26,7 @@ Les fonctions d'accessibilité permettent aux utilisateurs souffrant d'un handic
 
 {{site.data.keyword.Bluemix_notm}} utilise la dernière norme W3C, [WAI-ARIA 1.0](http://www.w3.org/TR/wai-aria/){: new_window}, pour assurer la conformité à [US Section 508 ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](https://www.access-board.gov/guidelines-and-standards/communications-and-it/about-the-section-508-standards/section-508-standards){: new_window} et à [Web Content Accessibility Guidelines (WCAG) 2.0 ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](http://www.w3.org/TR/WCAG20/){: new_window}. Pour bénéficier des fonctions d'accessibilité, utilisez la version la plus récente de votre lecteur d'écran conjointement avec le dernier niveau de navigateur Web Internet Explorer pris en charge par ce produit.
 
-La documentation en ligne du produit {{site.data.keyword.Bluemix_notm}} et l'infrastructure d'interface utilisateur {{site.data.keyword.Bluemix_notm}} sont activées pour l'accessibilité.  
+La documentation en ligne du produit {{site.data.keyword.Bluemix_notm}} et l'infrastructure d'interface utilisateur {{site.data.keyword.Bluemix_notm}} sont activées pour l'accessibilité. 
 
 
 ## Informations sur l'interface

@@ -4,7 +4,7 @@ copyright:
 
   years: 2015, 2018
 
-lastupdated: "2018-04-04"
+lastupdated: "2018-05-02"
 
 ---
 
@@ -20,15 +20,22 @@ Restez à jour avec les nouvelles fonctions et les nouveaux services disponibles
 ## Plateforme {{site.data.keyword.Bluemix_notm}}
 {: #platform_category}
 
+### Authentification multi-facteur pour votre compte {{site.data.keyword.Bluemix_notm}}
+Nouveau à compter du : 2 mai 2018
+
+L'authentification multi-facteur ajoute une couche supplémentaire de sécurité à votre compte en demandant à tous les utilisateurs de fournir un code d'accès à usage unique et durée définie en plus de leur IBMid et mot de passe associé standard lors de la connexion. Ce type d'authentification est également communément appelé authentification à deux facteurs (2FA). L'authentification multi-facteur est activée par compte, et une fois activée, tous les utilisateurs du compte doivent se connecter à l'aide de la mesure de sécurité supplémentaire. 
+
+Pour plus d'informations, voir l'article de blogue [IBM Cloud Platform now adds support for Multi-Factor Authentication}](https://www.ibm.com/blogs/bluemix/2018/05/ibm-cloud-platform-now-adds-support-multi-factor-authentication/){: new_window} ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe"). 
+
 ### Affectation rapide d'un accès à l'aide de groupes d'accès
 Nouveau à compter du : 3 avril 2018
 
-Vous souhaitez pouvoir affecter rapidement un accès en utilisant le moins de règles possible ? Désormais, vous pouvez. Les groupes d'accès vous permettent de regrouper un ensemble d'utilisateurs et d'ID de service et d'affecter une seule règle qui s'applique à tous les membres de ce groupe. L'utilisation de groupes d'accès vous permet de limiter le temps nécessaire à la gestion des accès aux utilisateurs et aux ID de service de votre compte. Pour plus d'informations, consultez l'article de blogue[New feature: Access groups](https://www.ibm.com/blogs/bluemix/2018/04/access-groups/){: new_window} ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe"). 
+Vous souhaitez pouvoir affecter rapidement un accès en utilisant le moins de règles possible ? Désormais, vous pouvez. Les groupes d'accès vous permettent de regrouper un ensemble d'utilisateurs et d'ID de service et d'affecter une seule règle qui s'applique à tous les membres de ce groupe. L'utilisation de groupes d'accès vous permet de limiter le temps nécessaire à la gestion des accès aux utilisateurs et aux ID de service de votre compte. Pour plus d'informations, consultez l'article de blogue[New feature: Access groups](https://www.ibm.com/blogs/bluemix/2018/04/access-groups/){: new_window} ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe").
 
 ### Liaison des comptes SoftLayer et {{site.data.keyword.Bluemix_notm}}
 Nouveau à compter du : 01 mars 2018
 
-Vous pouvez lier votre compte SoftLayer à votre compte {{site.data.keyword.Bluemix_notm}} pour vous connecter à un seul emplacement, la console {{site.data.keyword.Bluemix_notm}}, et accéder aux ressources IaaS (infrastructure sous forme de services) et PaaS (plateforme sous forme de services). Si vous ne connaissez pas l'environnement {{site.data.keyword.Bluemix_notm}}, créez et liez un compte afin d'obtenir gratuitement un compte d'essai {{site.data.keyword.Bluemix_notm}}. Ou, si vous avez déjà un compte {{site.data.keyword.Bluemix_notm}} avecd des ressources PaaS, liez vos comptes afin de recevoir une seule facture pour vos ressources IaaS et PaaS. Consultez le site [Steps to Link your IaaS and PaaS Accounts](https://www.ibm.com/blogs/bluemix/2018/03/follow-steps-link-iaas-paas-accounts/){: new_window} ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe") pour savoir comment lier rapidement vos comptes.
+Vous pouvez lier votre compte SoftLayer à votre compte {{site.data.keyword.Bluemix_notm}} pour vous connecter à un seul emplacement, la console {{site.data.keyword.Bluemix_notm}}, et accéder aux ressources IaaS (infrastructure sous forme de services) et PaaS (plateforme sous forme de services). Si vous ne connaissez pas l'environnement {{site.data.keyword.Bluemix_notm}}, créez et liez un compte afin d'obtenir gratuitement un compte d'essai {{site.data.keyword.Bluemix_notm}}. Ou, si vous avez déjà un compte {{site.data.keyword.Bluemix_notm}} avec des ressources PaaS, liez vos comptes afin de recevoir une seule facture pour vos ressources IaaS et PaaS. Consultez le site [Steps to Link your IaaS and PaaS Accounts](https://www.ibm.com/blogs/bluemix/2018/03/follow-steps-link-iaas-paas-accounts/){: new_window} ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe") pour savoir comment lier rapidement vos comptes.
 
 
 ### {{site.data.keyword.Bluemix_notm}} Foundry Service région Est des Etats-Unis désormais disponible
@@ -183,7 +190,7 @@ Avec les toutes dernières mises à jour et améliorations de juillet, vous pour
 Pour plus d'informations, voir la [vidéo de démonstration](https://youtu.be/QBij0jB5qAk){: new_window} ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe").
 
 ### Mises à jour de juin pour la console d'administration
-{: #mayadminconsole}
+{: #juneadminconsole}
 Nouveau à compter du : 26 juin 2017
 
 Avec les toutes dernières mises à jour et améliorations de juin, vous pourrez utiliser les nouvelles fonctions suivantes :
@@ -236,6 +243,10 @@ plus d'informations, voir l'article de blogue sur la [nouvelle page de statut {{
 ## Calcul
 {: #compute_category}
 
+### L'accès au tableau de bord Kubernetes est désormais disponible dans {{site.data.keyword.containerlong_notm}}
+
+{{site.data.keyword.containerlong_notm}} prend désormais en charge l'accès direct au tableau de bord Kubernetes via la console {{site.data.keyword.Bluemix_notm}}. Ce chemin d'accès simplifié au tableau de bord améliore l'expérience utilisateur pour la gestion de cluster et la visualisation des ressources. Pour plus d'informations, voir le [blogue {{site.data.keyword.Bluemix_notm}} ](https://www.ibm.com/blogs/bluemix/2018/04/kubernetes-dashboard-access/){: new_window} ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe").
+
 ### Dernières mises à jour pour les packs de construction
 
 Visitez les pages suivantes pour avoir la liste cumulée des mises à jour les plus récentes :
@@ -276,6 +287,20 @@ Le pack de construction Liberty version 3.9 fournit chaque mois une nouvelle ver
 ## Services
 {: #services_category}
 
+### {{site.data.keyword.streaminganalyticsshort}} offre de nouveaux plans de service avec une infrastructure reposant sur un conteneur
+Nouveau à compter du : 20 avril 2018
+
+{{site.data.keyword.streaminganalyticsshort}} s'exécute désormais sur une infrastructure Kubernetes reposant sur un conteneur qui fournit des bénéfices en termes de sécurité et de disponibilité au service. 
+ 
+Vous pouvez accéder à cette nouvelle infrastructure reposant sur un conteneur à l'aide des [plans de service v2](/docs/services/StreamingAnalytics/service_plans.html#service_plans). Vous pouvez choisir le plan {{site.data.keyword.streaminganalyticsshort}} qui correspond le mieux à vos activités. Les plans de service v2 offrent les améliorations suivantes : 
+ 
+* [IBM Streams QSE with Docker](https://www-01.ibm.com/marketing/iwm/iwm/web/preLogin.do?source=swg-ibmistvi)![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe") : consultez le document [ Development Guide](https://developer.ibm.com/streamsdev/docs/cloud-beta-devguide/)![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe") pour apprendre à utiliser la nouvelle fonction Streams QSE avec RHEL 7 qui s'exécute dans un environnement Docker afin de compiler et déployer vos applications avec les nouveaux plans {{site.data.keyword.streaminganalyticsshort}} v2.  
+* [API REST {{site.data.keyword.streaminganalyticsshort}} v2](https://console.bluemix.net/apidocs/1939-streaming-analytics-v2#introduction)![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")
+* [Nouvelles applications de démarrage et nouveaux exemples d'application](https://developer.ibm.com/streamsdev/docs/cloud-beta-samples/) ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")
+* [Améliorations relatives à la haute disponibilité dans le service {{site.data.keyword.streaminganalyticsshort}}](/docs/services/StreamingAnalytics/c_ha.html#consistent-regions)
+* [Fonctions d'identification de problème dans le service {{site.data.keyword.streaminganalyticsshort}} ](https://developer.ibm.com/streamsdev/2018/02/15/streaming-analytics-console-gives-ways-find-fix-errors-beta-plans/)![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")
+* [Surveillance du comportement des opérateurs et traitement de n-uplet garanti dans le cloud](https://developer.ibm.com/streamsdev/2018/02/15/monitor-operators-behave-ensure-resource-optimization/)![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")
+
 ### {{site.data.keyword.iva_full_notm}} est à présent disponible en version bêta !
 Nouveau à compter du : 16 mars 2018
 
@@ -285,7 +310,7 @@ Cette version bêta offre les fonctions principales suivantes :
 
 * Commencer plus facilement que jamais en créant un agent vocal et tous les services Watson requis en une seule étape.
 * Transférer des appels à partir de votre agent vocal vers, par exemple, un agent du centre d'appel ou une toute autre destination.
-* Collecter et analyser des données d'appel en configurant votre agent vocal pour qu'il transfère des événements d'enregistrement de détail d'appel, de transcription, ainsi que des événements de transformation {{site.data.keyword.conversationshort}} vers une base de donneés {{site.data.keyword.cloudant_short_notm}}.
+* Collecter et analyser des données d'appel en configurant votre agent vocal pour qu'il transfère des événements d'enregistrement de détail d'appel, de transcription, ainsi que des événements de transformation {{site.data.keyword.conversationshort}} vers une base de données {{site.data.keyword.cloudant_short_notm}}.
 * Surveiller l'utilisation du service et visualiser les journaux d'appels sur la nouvelle page _Utilisation_. Vous pouvez visualiser des statistiques rapides pour le mois en cours, rechercher et filtrer des journaux d'appels et afficher des messages système pour chaque appel individuel.
 * Etablir des appels sécurisés avec chiffrement de support en utilisant SIP TLS (URI SIPS) sur le port 5061 et le protocole SRTP (Secure Real-time Transport Protocol).
 * Se connecter aux instances de service {{site.data.keyword.speechtotextfull}} et {{site.data.keyword.texttospeechfull}} dans d'autres espaces {{site.data.keyword.cloud_notm}} pour plus de flexibilité.
@@ -295,9 +320,9 @@ Pour commencer, consultez la documentation [{{site.data.keyword.iva_short}}](/do
 ### Mises à jour apportées à {{site.data.keyword.visualrecognitionshort}}
 Nouveau à compter du : 14 mars 2018
 
-Le service {{site.data.keyword.visualrecognitionfull}} a été mis à jour et de nouveaux entraînements de modèle de classifieur personnalisé sont à présent générés sous forme de classifieurs basés sur un réseau de neurones d'apprentissage en profondeur. En raison du calcul supplémentaire requis pour générer ces modèles d'apprentissage en profondeur, les nouveaux modèles auront peut-être besoin de plus de temps pour s'entraîner. 
+Le service {{site.data.keyword.visualrecognitionfull}} a été mis à jour et de nouveaux entraînements de modèle de classifieur personnalisé sont à présent générés sous forme de discriminants basés sur un réseau de neurones d'apprentissage en profondeur. En raison du calcul supplémentaire requis pour générer ces modèles d'apprentissage en profondeur, les nouveaux modèles auront peut-être besoin de plus de temps pour s'entraîner.
 
-Actuellement, les classifieurs personnalisés existants peuvent continuer à être mis à jour et entraînés à nouveau et ils ne seront pas mis à jour vers ce nouveau format de modèle de machine d'apprentissage en profondeur. 
+Actuellement, les discriminants personnalisés existants peuvent continuer à être mis à jour et entraînés à nouveau et ils ne seront pas mis à jour vers ce nouveau format de modèle de machine d'apprentissage en profondeur.
 
 ### Mises à jour de {{site.data.keyword.streaminganalyticsshort}}
 Nouveau à compter du : 14 février 2018
@@ -604,14 +629,6 @@ Nouveau à compter du : 18 avril 2017
 
 A compter du 30 mars 2017, le service {{site.data.keyword.macm_long}} sera retiré du catalogue {{site.data.keyword.Bluemix_notm}} et vous ne pourrez plus mettre à disposition de nouvelles instances MACM. Cependant, les instances existantes continueront à être prises en charge. Date de fin de support : 30 mars 2018. Supprimez vos instances de service {{site.data.keyword.macm_short}} (MACM) avant cette date. Nous encourageons les utilisateurs à migrer vers le concentrateur de contenu IBM Watson Content Hub. Watson Content Hub est disponible sur IBM Marketplace et offre aux utilisateurs une période d'essai gratuit de 30 jours. IBM Watson Content Hub fournit une fonctionnalité similaire à MACM avec de nouvelles fonctions supplémentaires telles que la gestion d'actifs, le balisage cognitif à l'aide des services IBM Watson, ainsi que le réseau de diffusion de contenu (CDN) afin de garantir une expérience optimale pour vos clients. IBM propose des engagements de service pour migrer du contenu depuis MACM vers Watson Content Hub.
 
-### Mises à jour du service {{site.data.keyword.streaminganalyticsshort}} : Développez des applications Streams dans votre environnement de développement Python
-Nouveau à compter du : 13 avril 2017
-
-Auparavant, vous deviez installer une version locale d'IBM Streams pour développer des applications Python. Ce n'est plus le cas. Désormais, vous pouvez développer des applications avec Python dans votre environnement de développement préféré ou dans un bloc-notes interactif Jupyter.
-
-Vous pouvez utiliser le contexte STREAMING_ANALYTICS_SERVICE pour soumettre une application Python au service {{site.data.keyword.streaminganalyticsshort}}. Le service {{site.data.keyword.streaminganalyticsshort}} requiert Python 3.5.
-
-Consultez les exemples d'applications Python de traitement de flux dans des blocs-notes sur la page de la [communauté IBM Data Science Experience](http://datascience.ibm.com){: new_window} ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe").
 
 ### Mises à jour {{site.data.keyword.sparks}} : Bloc-notes désormais pris en charge dans Data Science Experience
 Nouveau à compter du : 11 avril 2017
