@@ -95,7 +95,7 @@ Verwenden Sie die Regionenauswahl in der Konsole, um Ihre Ansicht zu filtern. We
 Durch Filtern Ihrer Ansicht nach Region können Sie auch schnell zwischen Ansichten wechseln, um mit Organisationen, Bereichen und Benutzern zu arbeiten, die den verschiedenen Regionen zugeordnet sind.
 
 Sie können die Befehlszeilenschnittstelle verwenden, um eine Verbindung zu der {{site.data.keyword.cloud_notm}}-Region herzustellen, mit der Sie arbeiten möchten, indem Sie den Befehl 'bx api' verwenden und den API-Endpunkt der Region angeben. Geben Sie beispielsweise den folgenden Befehl ein, um eine Verbindung zu der
-{{site.data.keyword.cloud_notm}}-Region 'Europa - Vereinigtes Königreich' herzustellen:
+{{site.data.keyword.cloud_notm}}-Region 'Europa - Vereintes Königreich' herzustellen:
 
 ```
 bx api https://api.eu-gb.bluemix.net
@@ -108,7 +108,7 @@ stehen die folgenden Regionen und Regionspräfixe zur Verfügung.
 |-----------------|-------------------------|-------------------|
 | Region 'Vereinigte Staaten (Süden)' | Dallas, US | api.ng.bluemix.net | 
 | Region 'Vereinigte Staaten (Osten)' | Washington, DC, US | api.us-east.bluemix.net |
-| Region 'Vereinigtes Königreich' | London, England | api.eu-gb.bluemix.net | 
+| Region 'Vereintes Königreich' | London, England | api.eu-gb.bluemix.net | 
 | Region 'Sydney' | Sydney, Australien | api.au-syd.bluemix.net | 
 | Region 'Deutschland' | Frankfurt, Deutschland | api.eu-de.bluemix.net | 
 {: caption="Tabelle 1. Liste der {{site.data.keyword.cloud_notm}}-Regionen" caption-side="top"}

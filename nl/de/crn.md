@@ -17,7 +17,7 @@ lastupdated: "2018-04-02"
 # Cloudressourcennamen
 {: #crn}
 
-Mit Cloudressourcennamen (CRNs) können {{site.data.keyword.Bluemix_notm}}-Ressourcen eindeutig identifiziert werden. Ein CRN wird verwendet, um eine Ressource in einer Weise anzugeben, die garantiert global eindeutig ist, z. B. in  {{site.data.keyword.Bluemix_notm}}-IAM-Richtlinien und -Services, die im Cloud-Katalog aufgelistet sind (IAM = Identity and Access Management).
+Mit Cloudressourcennamen (CRNs) können {{site.data.keyword.Bluemix_notm}}-Ressourcen eindeutig identifiziert werden. Ein CRN wird verwendet, um eine Ressource in einer Weise anzugeben, die garantiert global eindeutig ist, z. B. in  {{site.data.keyword.Bluemix_notm}} IAM-Richtlinien und -Services, die im Cloud-Katalog aufgelistet sind (IAM = Identity and Access Management).
 
 Ein CRN wird aus einer Kette von "Segmenten" gebildet, die die Ressource, ihre Position und den Service, zu dem sie gehört, hierarchisch angeben. Der Segmentbegrenzer wird auf ':' (d. h. den Doppelpunkt) gesetzt. Alle CRNs beginnen mit der Segmentkennung 'crn'.
 

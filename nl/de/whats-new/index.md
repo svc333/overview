@@ -4,7 +4,7 @@ copyright:
 
   years: 2015, 2018
 
-lastupdated: "2018-04-04"
+lastupdated: "2018-05-02"
 
 ---
 
@@ -20,6 +20,13 @@ Wenn Sie stets auf dem aktuellen Stand über die neuen Features und Services ble
 ## {{site.data.keyword.Bluemix_notm}}-Plattform
 {: #platform_category}
 
+### Mehrfaktorauthentifizierung für Ihr {{site.data.keyword.Bluemix_notm}}-Konto
+Datum der Neuerung: 02. Mai 2018
+
+Die Mehrfaktorauthentifizierung (MFA) fügt eine zusätzliche Sicherheitsebene zu Ihrem Konto hinzu, indem alle Benutzer neben ihrer Standard-IBMid und Ihrem Kennwort während der Anmeldung einen zeitbasierten einmaligen Kenncode eingeben müssen. Dies wird gängigerweise auch als Zwei-Faktor-Authentifizierung (2FA) bezeichnet. Mehrfaktorauthentifizierung wird pro Konto aktiviert und alle Benutzer in dem Konto müssen sich unter Verwendung einer zusätzlichen Sicherheitsmaßnahme anmelden. 
+
+Weitere Informationen finden Sie im Blog-Artikel [IBM Cloud Platform now adds support for Multi-Factor Authentication}](https://www.ibm.com/blogs/bluemix/2018/05/ibm-cloud-platform-now-adds-support-multi-factor-authentication/){: new_window} ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link"). 
+
 ### Mit Zugriffsgruppen schnellen Zugriff zuweisen
 Datum der Neuerung: 03. April 2018
 
@@ -28,13 +35,13 @@ Wollen Sie in der Lage sein, schnell den Zugriff zuzuweisen, indem Sie die klein
 ### SoftLayer- und {{site.data.keyword.Bluemix_notm}}-Konto verknüpfen
 Datum der Neuerung: 1. März 2018
 
-Sie können Ihr SoftLayer-Konto mit Ihrem {{site.data.keyword.Bluemix_notm}}-Konto verknüpfen, umzentral anzumelden, bei der {{site.data.keyword.Bluemix_notm}}-Konsole, und sowohl auf die Infrastructure as a Service- (IaaS) als auch auf die and Platform as a Service-Ressourcen (PaaS) zuzugreifen. Wenn Sie neu bei {{site.data.keyword.Bluemix_notm}} sind, erstellen und verknüpfen Sie ein Konto, um einen kostenlosen {{site.data.keyword.Bluemix_notm}}-Test zu erhalten. Oder, wenn Sie bereits über ein {{site.data.keyword.Bluemix_notm}}-Konto mit PaaS-Ressourcen verfügen, verknüpfen Sie Ihre Konten, um eine gemeinsame Rechnung für Ihre IaaS- und PaaS-Ressourcen zu erhalten. Weitere Informationen zum schnellen Verknüpfen Ihrer Konten finden Sie in den [Schritten zum Verknüpfen Ihrer IaaS- und PaaS-Konten](https://www.ibm.com/blogs/bluemix/2018/03/follow-steps-link-iaas-paas-accounts/){: new_window} ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link").
+Sie können Ihr SoftLayer-Konto mit Ihrem {{site.data.keyword.Bluemix_notm}}-Konto verknüpfen, um sich zentral anzumelden, bei der {{site.data.keyword.Bluemix_notm}}-Konsole, und sowohl auf die Infrastructure as a Service- (IaaS) als auch auf die Platform as a Service-Ressourcen (PaaS) zuzugreifen. Wenn Sie neu bei {{site.data.keyword.Bluemix_notm}} sind, erstellen und verknüpfen Sie ein Konto, um einen kostenlosen {{site.data.keyword.Bluemix_notm}}-Test zu erhalten. Oder, wenn Sie bereits über ein {{site.data.keyword.Bluemix_notm}}-Konto mit PaaS-Ressourcen verfügen, verknüpfen Sie Ihre Konten, um eine gemeinsame Rechnung für Ihre IaaS- und PaaS-Ressourcen zu erhalten. Weitere Informationen zum schnellen Verknüpfen Ihrer Konten finden Sie in den [Schritten zum Verknüpfen Ihrer IaaS- und PaaS-Konten](https://www.ibm.com/blogs/bluemix/2018/03/follow-steps-link-iaas-paas-accounts/){: new_window} ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link").
 
 
-### {{site.data.keyword.Bluemix_notm}} Foundry-Service jetzt für Region 'US East' verfügbar
+### {{site.data.keyword.Bluemix_notm}} Foundry-Service jetzt für Region 'Vereinigte Staaten (Osten)' verfügbar
 Datum der Neuerung: 15. Dezember 2017
 
-In Washington, DCm ist jetzt ein neues Rechenzentrum für die Region 'US East' verfügbar. Diese neue Region ist über den Endpunkt `us-east.bluemix.net` erreichbar. Details über die gebührenpflichtigen Services, die in dieser neuen Region angeboten werden, finden Sie unter [Services nach Region](/docs/services/services_region.html#services_region).
+In Washington, DCm ist jetzt ein neues Rechenzentrum für die Region 'Vereinigte Staaten (Osten)' verfügbar. Diese neue Region ist über den Endpunkt `us-east.bluemix.net` erreichbar. Details über die gebührenpflichtigen Services, die in dieser neuen Region angeboten werden, finden Sie unter [Services nach Region](/docs/services/services_region.html#services_region).
 
 ### Unterstützung für Ressourcen in der Europäischen Union
 Datum der Neuerung: 14. Dezember 2017
@@ -183,7 +190,7 @@ Durch die neuesten Aktualisierungen und Verbesserungen im Juli können Sie die f
 Weitere Informationen können Sie dem [Video](https://youtu.be/QBij0jB5qAk){: new_window} ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link") entnehmen.
 
 ### Aktualisierungen für die Administrationskonsole im Juni
-{: #mayadminconsole}
+{: #juneadminconsole}
 Datum der Neuerung: 26. Juni 2017
 
 Durch die neuesten Aktualisierungen und Verbesserungen im Juni können Sie die folgenden neuen Features nutzen:
@@ -235,6 +242,10 @@ Durch die neuesten Aktualisierungen und Verbesserungen im April können Sie die 
 ## Infrastruktur und Ressourcen
 {: #compute_category}
 
+### Kubernetes-Dashboard-Zugriff für {{site.data.keyword.containerlong_notm}}
+
+{{site.data.keyword.containerlong_notm}} unterstützt jetzt direkten Zugriff auf das Kubernetes-Dashboard über die {{site.data.keyword.Bluemix_notm}}-Konsole. Dieser vereinfachte Pfad zum Dashboard bietet eine verbesserte Benutzererfahrung für das Cluster-Management und die Darstellung von Ressourcen. Weitere Details finden Sie im [{{site.data.keyword.Bluemix_notm}}-Blog](https://www.ibm.com/blogs/bluemix/2018/04/kubernetes-dashboard-access/){: new_window} ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link"). 
+
 ### Neueste Aktualisierungen für Buildpacks
 
 Auf den folgenden Seiten finden Sie eine kumulative Liste der neuesten Aktualisierungen:
@@ -274,6 +285,20 @@ Das Liberty Buildpack v3.9 bietet eine neue monatliche Liberty-Laufzeitversion u
 
 ## Services
 {: #services_category}
+
+### {{site.data.keyword.streaminganalyticsshort}} führt neue Servicepläne mit einer containerbasierten Infrastruktur ein
+Datum der Neuerung: 20. April 2018
+
+{{site.data.keyword.streaminganalyticsshort}} wird jetzt in einer containerbasierten Kubernetes-Infrastruktur ausgeführt, die den Serivce mit Sicherheits- und Verfügbarkeitsvorteilen ausstattet. 
+ 
+Sie können auf diese neue containerbasierte Infrastruktur mithilfe von [Serviceplänen der Version 2](/docs/services/StreamingAnalytics/service_plans.html#service_plans) zugreifen. Sie können den {{site.data.keyword.streaminganalyticsshort}}-Plan wählen, der sich am besten für Ihre Arbeit eignet. Die Servicepläne der Version 2 umfassen die folgenden Verbesserungen: 
+ 
+* [IBM Streams-QSE mit Docker](https://www-01.ibm.com/marketing/iwm/iwm/web/preLogin.do?source=swg-ibmistvi)![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link"): Im [ Development Guide](https://developer.ibm.com/streamsdev/docs/cloud-beta-devguide/)![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link") erfahren Sie, wie Sie die neue Streams-QSE mit RHEL 7 in einer Docker-Umgebung verwenden können, um Ihre Anwendungen mit den neuen {{site.data.keyword.streaminganalyticsshort}}-Plänen der Version 2 zu kompilieren und bereitzustellen.  
+* [{{site.data.keyword.streaminganalyticsshort}} v2-REST-API](https://console.bluemix.net/apidocs/1939-streaming-analytics-v2#introduction)![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")
+* [Neue Starter- und Beispielanwendungen ](https://developer.ibm.com/streamsdev/docs/cloud-beta-samples/) ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")
+* [Erweiterungen für hohe Verfügbarkeit im {{site.data.keyword.streaminganalyticsshort}}-Service](/docs/services/StreamingAnalytics/c_ha.html#consistent-regions)
+* [Problembestimmungsfeatures im {{site.data.keyword.streaminganalyticsshort}}-Service ](https://developer.ibm.com/streamsdev/2018/02/15/streaming-analytics-console-gives-ways-find-fix-errors-beta-plans/)![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")
+* [Überwachung des Verhaltens von Operatoren und garantierte Tupelverarbeitung in der Cloud](https://developer.ibm.com/streamsdev/2018/02/15/monitor-operators-behave-ensure-resource-optimization/)![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")
 
 ### {{site.data.keyword.iva_full_notm}} gibt es jetzt in einer Betaversion!
 Datum der Neuerung: 16. März 2018
@@ -442,7 +467,7 @@ Für Python- und Java-Anwendungen wird die Position der Quellendatei basierend a
 
 Details finden Sie im Artikel [Latest improvements to the {{site.data.keyword.streaminganalyticsshort}}](https://developer.ibm.com/streamsdev/2017/08/14/latest-improvements-streaming-analytics-console/){: new_window} ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link").
 
-### IBM Cloud Monitoring nun auch in der Region 'United Kingdom' verfügbar
+### IBM Cloud Monitoring nun auch in der Region 'Vereintes Königreich' verfügbar
 Datum der Neuerung: 1. August 2017
 
 Mit dem {{site.data.keyword.monitoringlong}}-Service können Sie Ihre Datensammlungs-, Aufbewahrungs- und Analysekapazitäten in {{site.data.keyword.Bluemix_notm}} erweitern, wenn Sie mit Metriken arbeiten.
@@ -462,7 +487,7 @@ Vom traditionellen {{site.data.keyword.monitoringshort}}-Service wurden Metriken
 Weitere Informationen zum {{site.data.keyword.monitoringlong}}-Service finden Sie in der Dokumentation unter [Einführung in Monitoring-Service](/docs/services/cloud-monitoring/index.html#getting-started-with-ibm-cloud-monitoring) oder im Blogbeitrag [IBM Cloud Monitoring – Service Refresh with New Features![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](https://www.ibm.com/blogs/bluemix/2017/07/ibm-cloud-monitoring-service-refresh-new-features/).
 
 
-### IBM Cloud Log Analysis jetzt in Region 'US South' verfügbar
+### IBM Cloud Log Analysis jetzt in Region 'Vereinigte Staaten (Süden)' verfügbar
 Datum der Neuerung: 31. Juli 2017
 
 Der {{site.data.keyword.loganalysisfull}}-Service umfasst Protokollerfassungs- und Protokollsuchservices für die {{site.data.keyword.Bluemix_notm}}-Plattform zur automatischen Erfassung von Anwendungs- und {{site.data.keyword.Bluemix_notm}}-Servicedaten von ausgewählten {{site.data.keyword.Bluemix_notm}}-Services. Mit dem {{site.data.keyword.loganalysisshort}}-Service können Sie Folgendes ausführen:
@@ -499,7 +524,7 @@ Die folgende Tabelle gibt Aufschluss über den neuen Namen:
 
 Eine kumulative Liste der Aktualisierungen für Db2 Warehouse on Cloud und Db2 on Cloud finden Sie unter [What's New in Db2 Warehouse on Cloud and Db2 on Cloud](http://www.ibm.com/support/docview.wss?uid=swg21961758){: new_window} ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link").
 
-### IBM Cloud Monitoring jetzt in Region 'US South' verfügbar
+### IBM Cloud Monitoring jetzt in Region 'Vereinigte Staaten (Süden)' verfügbar
 Datum der Neuerung: 17. Juli 2017
 
 Mit dem {{site.data.keyword.monitoringlong}}-Service können Sie Ihre Datensammlungs-, Aufbewahrungs- und Analysekapazitäten in {{site.data.keyword.Bluemix_notm}} erweitern, wenn Sie mit Metriken arbeiten.
@@ -603,14 +628,6 @@ Datum der Neuerung: 18. April 2017
 
 Mit Wirkung zum 30. März 2017 wird die Kachel für den {{site.data.keyword.macm_long}}-Service aus dem {{site.data.keyword.Bluemix_notm}}-Katalog entfernt; Sie können dann keine neuen MACM-Instanzen mehr bereitstellen. Vorhandene Instanzen werden jedoch weiterhin unterstützt. Die Unterstützung endet am 30. März 2018. Bitte löschen Sie Ihre Serviceinstanzen für {{site.data.keyword.macm_short}} (MACM) vor dem Ende der Unterstützung. Benutzern wird die Migration auf IBM Watson Content Hub empfohlen. Watson Content Hub ist bei IBM Marketplace verfügbar und wird Benutzern im Rahmen eines 30-tägigen kostenlosen Tests zur Verfügung gestellt. IBM Watson Content Hub bietet eine ähnliche Funktionalität wie MACM, die durch neue Funktionen wie das Asset-Management, das kognitive Tagging mithilfe von IBM Watson-Services und einem integrierten Netz zur Bereitstellung von Inhalten (Content Delivery Network, CDN) ergänzt wird, um eine optimale Funktionalität für Ihre Kunden zu gewährleisten. IBM bietet Services, die zur Migration von Inhalt aus MACM auf Watson Content Hub eingesetzt werden können.
 
-### Aktualisierungen für den {{site.data.keyword.streaminganalyticsshort}}-Service: Entwicklung von Streams-Anwendungen in der Python-Entwicklungsumgebung
-Datum der Neuerung: 13. April 2017
-
-Früher mussten Sie eine lokale Version von IBM Streams installieren, um Python-Anwendungen entwickeln zu können. Dies ist nun nicht mehr erforderlich. Jetzt können Sie Anwendungen mit Python in Ihrer bevorzugten Entwicklungsumgebung oder in einem interaktiven Jupyter-Notizbuch entwickeln.
-
-Mit dem Kontext STREAMING_ANALYTICS_SERVICE können Sie eine Python-Anwendung an den {{site.data.keyword.streaminganalyticsshort}}-Service übergeben. Der {{site.data.keyword.streaminganalyticsshort}}-Service erfordert Python 3.5.
-
-Probieren Sie die Python-Beispielanwendungen für die Streamverarbeitung in Notizbüchern auf der [Seite der Community von IBM Data Science Experience](http://datascience.ibm.com){: new_window} ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link") aus.
 
 ### Aktualisierungen für {{site.data.keyword.sparks}}: Unterstützung von Notizbüchern in Data Science Experience jetzt verfügbar
 Datum der Neuerung: 11. April 2017
