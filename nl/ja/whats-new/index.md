@@ -4,7 +4,7 @@ copyright:
 
   years: 2015, 2018
 
-lastupdated: "2018-04-04"
+lastupdated: "2018-05-02"
 
 ---
 
@@ -20,10 +20,17 @@ lastupdated: "2018-04-04"
 ## {{site.data.keyword.Bluemix_notm}} プラットフォーム
 {: #platform_category}
 
+### {{site.data.keyword.Bluemix_notm}} アカウントでの多要素認証
+最新情報: 2018 年 5 月 2 日
+
+多要素認証 (MFA) ではセキュリティーに層が 1 つ追加されて、すべてのユーザーが、ログイン中に標準 IBM ID およびパスワードに加えて、時間ベースのワンタイム・パスコードも入力することが必要になります。これは、一般的に 2 要素認証 (2FA) とも呼ばれています。 MFA はアカウント単位で有効にされ、いったんオンにされると、そのアカウント内のすべてのユーザーは、追加セキュリティー手段を使用してログインすることが必要になります。
+
+詳しくは、[IBM Cloud Platform now adds support for Multi-Factor Authentication}](https://www.ibm.com/blogs/bluemix/2018/05/ibm-cloud-platform-now-adds-support-multi-factor-authentication/){: new_window} ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン") ブログ投稿を参照してください。
+
 ### アクセス・グループを使用した迅速なアクセス権限の割り当て
 最新情報: 2018 年 4 月 3 日
 
-可能な限り最小限のポリシーを使用してアクセス権限を素早く割り当てたい場合、アクセス・グループを使用して行うことができるようになりました。アクセス・グループを使用すると、ユーザーとサービス ID のセットをグループ化して、グループのすべてのメンバーに適用される単一のポリシーを割り当てることができます。アクセス・グループを使用することで、アカウント内のユーザーとサービス ID へのアクセス権限の管理に費やす時間を抑えることができます。詳しくは、「[New feature: Access groups](https://www.ibm.com/blogs/bluemix/2018/04/access-groups/){: new_window} ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")」のブログ投稿を確認してください。
+可能な限り最小限のポリシーを使用してアクセス権限を素早く割り当てたい場合、 アクセス・グループを使用して行うことができるようになりました。 アクセス・グループを使用すると、ユーザーとサービス ID のセットをグループ化して、グループのすべてのメンバーに適用される単一のポリシーを割り当てることができます。 アクセス・グループを使用することで、アカウント内のユーザーとサービス ID へのアクセス権限の管理に費やす時間を抑えることができます。 詳しくは、「[New feature: Access groups](https://www.ibm.com/blogs/bluemix/2018/04/access-groups/){: new_window} ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")」のブログ投稿を確認してください。
 
 ### SoftLayer アカウントと {{site.data.keyword.Bluemix_notm}} アカウントのリンク
 最新情報: 2018 年 3 月 1 日
@@ -147,7 +154,7 @@ Identity and Access Management (IAM) では、サービス ID を作成する機
 
 #### EU 内のクラウド・システムへのアクセスの制御
 
-管理コンソールは、クラウド・リソースをサポートする EU における新機能 (フランクフルトから始まる) と結合して、IBM 担当者によるアクセスを制御するポリシーを定義する機能を持つようになりました。 アクセス制御ポリシーを管理したり、アクセス要求を表示したり、要求に対してアクションを実行したり、履歴を追跡したりすることができます。
+管理コンソールは、クラウド・リソースをサポートする EU における新機能 (フランクフルトから始まる) と結合して、IBM 担当者によるアクセスを制御するポリシーを定義する機能を持つようになりました。 アクセス制御ポリシーを管理したり、アクセス要求を表示したり、要求に対してアクションをそれらを実行したり、履歴を追跡したりすることができます。
 
 #### セキュリティー・レポート内の情報の拡張
 
@@ -183,7 +190,7 @@ Identity and Access Management (IAM) では、サービス ID を作成する機
 詳しくは、[ビデオ・デモンストレーション](https://youtu.be/QBij0jB5qAk){: new_window} ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン") を参照してください。
 
 ### 管理コンソールについての 6 月の更新
-{: #mayadminconsole}
+{: #juneadminconsole}
 最新情報: 2017 年 6 月 26 日
 
 6 月の最新の更新および改善により、以下の新しいフィーチャーを使用できるようになりました。
@@ -235,6 +242,10 @@ Identity and Access Management (IAM) では、サービス ID を作成する機
 ## コンピュート
 {: #compute_category}
 
+### {{site.data.keyword.containerlong_notm}} での Kubernetes Dashboard アクセス
+
+{{site.data.keyword.Bluemix_notm}} コンソールを介した Kubernetes Dashboard への直接アクセスが {{site.data.keyword.containerlong_notm}} でサポートされるようになりました。ダッシュボードへのパスがこのように単純になったことにより、クラスター管理およびリソース可視化についてのユーザー・エクスペリエンスが強化されます。詳しくは、[{{site.data.keyword.Bluemix_notm}} ブログ ](https://www.ibm.com/blogs/bluemix/2018/04/kubernetes-dashboard-access/){: new_window} ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン") を参照してください。
+
 ### ビルドパックの最新の更新
 
 最新の更新の累積リストについては、以下のページにアクセスしてください。
@@ -275,6 +286,20 @@ Liberty ビルドパック v3.9 は、新規の月次の Liberty ランタイム
 ## サービス
 {: #services_category}
 
+### {{site.data.keyword.streaminganalyticsshort}} で、コンテナー・ベースのインフラストラクチャーを使用する新しいサービス・プランが導入されました
+最新情報: 2018 年 4 月 20 日
+
+{{site.data.keyword.streaminganalyticsshort}} は、Kubernetes コンテナー・ベースのインフラストラクチャーで稼働するようになり、これによって、このサービスのセキュリティーおよび可用性が高まります。
+ 
+この新しいコンテナー・ベースのインフラストラクチャーには [v2 サービス・プラン](/docs/services/StreamingAnalytics/service_plans.html#service_plans)を使用してアクセスできます。行う必要のある作業に最も適した {{site.data.keyword.streaminganalyticsshort}} プランを選択できます。v2 サービス・プランに含まれる機能拡張を以下に示します。
+ 
+* [IBM Streams QSE with Docker](https://www-01.ibm.com/marketing/iwm/iwm/web/preLogin.do?source=swg-ibmistvi)![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン"): Docker 環境で稼働する新しい Streams QSE (RHEL 7 上) を使用して、新しい {{site.data.keyword.streaminganalyticsshort}} v2 プランでアプリケーションをコンパイルおよびデプロイする方法については、[ Development Guide](https://developer.ibm.com/streamsdev/docs/cloud-beta-devguide/)![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン") を参照してください。 
+* [{{site.data.keyword.streaminganalyticsshort}} v2 REST API](https://console.bluemix.net/apidocs/1939-streaming-analytics-v2#introduction)![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")
+* [新しいスターターおよびサンプル・アプリケーション](https://developer.ibm.com/streamsdev/docs/cloud-beta-samples/) ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")
+* [{{site.data.keyword.streaminganalyticsshort}} サービスへのハイ・アベイラビリティー機能拡張](/docs/services/StreamingAnalytics/c_ha.html#consistent-regions)
+* [Problem determination features in the {{site.data.keyword.streaminganalyticsshort}} service](https://developer.ibm.com/streamsdev/2018/02/15/streaming-analytics-console-gives-ways-find-fix-errors-beta-plans/)![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")
+* [Monitoring how operators behave and guaranteed tuple processing in the cloud](https://developer.ibm.com/streamsdev/2018/02/15/monitor-operators-behave-ensure-resource-optimization/)![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")
+
 ### {{site.data.keyword.iva_full_notm}} は、現在ベータになりました。
 最新情報: 2018 年 3 月 16 日
 
@@ -294,7 +319,7 @@ Liberty ビルドパック v3.9 は、新規の月次の Liberty ランタイム
 ### {{site.data.keyword.visualrecognitionshort}} に対する更新
 最新情報: 2018 年 3 月 14 日
 
-ディープラーニングのニューラル・ネット・ベースの種別として、新規の「カスタム種別」モデル・トレーニングが生成されるように、{{site.data.keyword.visualrecognitionfull}} サービスは更新されました。これらのディープラーニング・モデルを生成するために必要な追加の計算では、新規モデルのトレーニングのために追加の時間が必要になることがあります。
+ディープラーニングのニューラル・ネット・ベースの種別として、新規の「カスタム種別」モデル・トレーニングが生成されるように、{{site.data.keyword.visualrecognitionfull}} サービスは更新されました。 これらのディープラーニング・モデルを生成するために必要な追加の計算では、新規モデルのトレーニングのために追加の時間が必要になることがあります。
 
 現在、既存のカスタム種別を引き続き更新およびリトレーニングすることができ、このディープラーニングの新しいマシン・モデル・フォーマットに対しては更新されません。
 
@@ -603,14 +628,6 @@ IBM Data Science Experience (DSX) 内で Jupyter ノートブックを使用し�
 
 2017 年 3 月 30 日時点で、{{site.data.keyword.macm_long}} サービス・タイルは {{site.data.keyword.Bluemix_notm}} カタログから削除され、新規 MACM インスタンスをプロビジョンすることはできなくなります。 ただし、既存のインスタンスは引き続きサポートされます。 サポート終了日は 2018 年 3 月 30 日です。 サポート終了日の前に {{site.data.keyword.macm_short}} (MACM) サービス・インスタンスを削除してください。 IBM Watson Content Hub にマイグレーションすることをお勧めします。 Watson Content Hub は、IBM Marketplace で入手可能であり、30 日間の無料トライアルが提供されています。 IBM Watson Content Hub は、MACM と同様の機能を提供し、資産管理、IBM Watson サービスを使用したコグニティブなタグ付けなどの新機能が追加されています。また、お客様に最良のエクスペリエンスを保証するためにコンテンツ配信ネットワーク (CDN) を組み込みました。 IBM は、コンテンツを MACM から Watson Content Hub にマイグレーションするためのサービス・エンゲージメントを提供します。
 
-### {{site.data.keyword.streaminganalyticsshort}} サービスの更新: Python 開発環境での Streams アプリケーションの開発
-最新情報: 2017 年 4 月 13 日
-
-これまでは、Python アプリケーションを開発するには IBM Streams のローカル・バージョンをインストールする必要がありました。 もうその必要はありません。 任意の開発環境または Jupyter 対話式ノートブックで、Python によってアプリケーションを開発できるようになりました。
-
-STREAMING_ANALYTICS_SERVICE コンテキストを使用して、Python アプリケーションを {{site.data.keyword.streaminganalyticsshort}} サービスに送信できます。 {{site.data.keyword.streaminganalyticsshort}} サービスでは、Python 3.5 が必要です。
-
-[IBM Data Science Experience のコミュニティー・ページ](http://datascience.ibm.com){: new_window} ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン") で、ノートブック内のサンプル・ストリーム処理 Python アプリケーションを確認してください。
 
 ### {{site.data.keyword.sparks}} の更新: Data Science Experience でノートブックがサポートされるようになりました
 最新情報: 2017 年 4 月 11 日

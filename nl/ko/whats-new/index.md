@@ -4,7 +4,7 @@ copyright:
 
   years: 2015, 2018
 
-lastupdated: "2018-04-04"
+lastupdated: "2018-05-02"
 
 ---
 
@@ -19,6 +19,13 @@ lastupdated: "2018-04-04"
 
 ## {{site.data.keyword.Bluemix_notm}} 플랫폼
 {: #platform_category}
+
+### {{site.data.keyword.Bluemix_notm}} 계정에 대한 다중 요소 인증
+신규 기준일: 2018년 5월 02일
+
+다중 요소 인증(MFA)은 로그인 중에 모든 사용자가 IBM ID와 비밀번호뿐만 아니라 시간 기반의 일회성 패스코드를 제공하도록 요구하여 사용자 계정에 추가 보안 계층을 추가합니다. 일반적으로 이중 인증(2FA)이라고도 합니다. MFA는 계정별로 사용으로 설정되며 일단 설정되고 나면 계정의 모든 사용자들은 추가적인 보안 방법을 사용하여 로그인해야 합니다. 
+
+자세한 정보는 [IBM Cloud Platform now adds support for Multi-Factor Authentication](https://www.ibm.com/blogs/bluemix/2018/05/ibm-cloud-platform-now-adds-support-multi-factor-authentication/){: new_window} ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘") 블로그 게시물을 참조하십시오.
 
 ### 액세스 그룹을 사용하여 신속하게 액세스 지정
 신규 기준일: 2018년 4월 3일
@@ -183,7 +190,7 @@ IAM(Identity and Access Management)은 이제 서비스 ID를 작성할 수 있�
 자세한 정보는 [동영상 데모](https://youtu.be/QBij0jB5qAk){: new_window} ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")를 참조하십시오.
 
 ### 관리 콘솔에 대한 6월 업데이트
-{: #mayadminconsole}
+{: #juneadminconsole}
 신규 기준일: 2017년 6월 26일
 
 6월의 최신 업데이트 및 개선을 통해 다음과 같은 새 기능을 사용할 수 있습니다.
@@ -235,6 +242,10 @@ IAM(Identity and Access Management)은 이제 서비스 ID를 작성할 수 있�
 ## 컴퓨팅
 {: #compute_category}
 
+### {{site.data.keyword.containerlong_notm}}에 대한 Kubernetes 대시보드 액세스
+
+{{site.data.keyword.containerlong_notm}}는 이제 {{site.data.keyword.Bluemix_notm}} 콘솔을 통해 Kubernetes 대시보드에 대한 직접 액세스를 지원합니다. 이러한 대시보드에 대한 간소화된 접근 방식을 통해 클러스터 관리 및 리소스 시각화에 사용자의 경험을 향상시켜 줍니다. [{{site.data.keyword.Bluemix_notm}} 블로그](https://www.ibm.com/blogs/bluemix/2018/04/kubernetes-dashboard-access/){: new_window} ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")에서 자세한 정보를 확인하십시오.
+
 ### 빌드팩의 최신 업데이트
 
 최신 업데이트의 누적 목록을 보려면 다음 페이지를 방문하십시오.
@@ -274,6 +285,20 @@ Liberty 빌드팩 v3.9는 새 월별 Liberty 런타임 버전을 제공하고 �
 
 ## 서비스
 {: #services_category}
+
+### {{site.data.keyword.streaminganalyticsshort}}에서는 컨테이너 기반 인프라와 함께 새로운 서비스 플랜을 소개합니다.
+신규 기준일: 2018년 4월 20일
+
+이제 {{site.data.keyword.streaminganalyticsshort}}는 서비스에 보안 및 가용성 혜택을 제공하는 Kubernetes 컨테이너 기반 인프라에서 실행됩니다.
+ 
+[v2 서비스 플랜](/docs/services/StreamingAnalytics/service_plans.html#service_plans)을 사용하여 이 새로운 컨테이너 기반 인프라에 액세스할 수 있습니다. 수행해야 하는 작업에 가장 적합한 {{site.data.keyword.streaminganalyticsshort}} 플랜을 선택할 수 있습니다. v2 서비스 플랜에는 다음 개선사항이 포함되어 있습니다.
+ 
+* [IBM Streams QSE with Docker](https://www-01.ibm.com/marketing/iwm/iwm/web/preLogin.do?source=swg-ibmistvi)![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘"): [ 개발 안내서](https://developer.ibm.com/streamsdev/docs/cloud-beta-devguide/)![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")를 확인하여 Docker 환경에서 실행되는 새 Streams QSE with RHEL 7을 사용하여 새 {{site.data.keyword.streaminganalyticsshort}} v2 플랜으로 애플리케이션을 컴파일하고 배치하는 방법을 알아보십시오.  
+* [{{site.data.keyword.streaminganalyticsshort}} v2 REST API](https://console.bluemix.net/apidocs/1939-streaming-analytics-v2#introduction)![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")
+* [새 스타터 및 샘플 애플리케이션](https://developer.ibm.com/streamsdev/docs/cloud-beta-samples/) ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")
+* [{{site.data.keyword.streaminganalyticsshort}} 서비스의 고가용성 개선사항](/docs/services/StreamingAnalytics/c_ha.html#consistent-regions)
+* [{{site.data.keyword.streaminganalyticsshort}} 서비스의 문제점 판별 기능](https://developer.ibm.com/streamsdev/2018/02/15/streaming-analytics-console-gives-ways-find-fix-errors-beta-plans/)![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")
+* [운영자의 작업 방식 및 클라우드의 보증된 튜플 처리의 모니터링](https://developer.ibm.com/streamsdev/2018/02/15/monitor-operators-behave-ensure-resource-optimization/)![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")
 
 ### {{site.data.keyword.iva_full_notm}}은 현재 베타입니다!
 신규 기준일: 2018년 3월 16일
@@ -449,7 +474,7 @@ Python 및 Java 애플리케이션의 경우 소스 파일 위치는 @spl_note �
 
 * 조치에 대한 경보를 전송합니다! {{site.data.keyword.monitoringlong}}에서는 성능 임계값을 설정하고 그 임계값을 초과하는 경우 알림을 전송하는 데 사용할 수 있는 API를 제공합니다. 단일 서비스 인스턴스 또는 앱 인스턴스에 대한 경보 규칙 및 인스턴스 세트에서 보고하는 경보 규칙을 정의하십시오. 경보가 트리거되면 이메일, PagerDuty 이벤트, 웹훅 알림 또는 이 세 가지의 조합을 통해 알림을 받습니다.
 
-* 사용자 정의 메트릭을 추가합니다. {{site.data.keyword.monitoringlong}} 프리미엄 플랜에서는 클라우드 모니터링 데이터에 관련 애플리케이션 및 비즈니스 메트릭을 추가하기 위해 사용할 수 있는 API를 제공합니다. 또한, 이를 이용하여 메트릭 데이터를 {{site.data.keyword.IBM_notm}} 클라우드 외부에서 {{site.data.keyword.monitoringlong}} 서비스로 전송할 수 있습니다.
+* 사용자 정의 메트릭을 추가합니다. {{site.data.keyword.monitoringlong}} 프리미엄 플랜에서는 클라우드 모니터링 데이터에 관련 애플리케이션 및 비즈니스 메트릭을 추가하기 위해 사용할 수 있는 API를 제공합니다. 또한, 이를 이용하여 메트릭 데이터를 {{site.data.keyword.IBM_notm}} Cloud 외부에서 {{site.data.keyword.monitoringlong}} 서비스로 전송할 수 있습니다.
 
 * 재사용가능 대시보드를 빌드해서 대화식으로 만듭니다. {{site.data.keyword.monitoringlong}}의 호스팅된 Grafana에서는 기호에 맞는 시각화 옵션으로 사용자 정의 대시보드를 빌드하기 위한 지원을 제공합니다.  변수가 있는 메트릭 조회를 사용하여 템플리트로 대시보드를 동적으로 구성하십시오.
 
@@ -506,7 +531,7 @@ DB2 Warehouse on Cloud 및 DB2 on Cloud에 대한 업데이트의 누적 목록�
 
 * 조치에 대한 경보를 전송합니다! {{site.data.keyword.monitoringlong}}에서는 성능 임계값을 설정하고 그 임계값을 초과하는 경우 알림을 전송하는 데 사용할 수 있는 API를 제공합니다. 단일 서비스 인스턴스 또는 앱 인스턴스에 대한 경보 규칙 및 인스턴스 세트에서 보고하는 경보 규칙을 정의하십시오. 경보가 트리거되면 이메일, PagerDuty 이벤트, 웹훅 알림 또는 이 세 가지의 조합을 통해 알림을 받습니다.
 
-* 사용자 정의 메트릭을 추가합니다. {{site.data.keyword.monitoringlong}} 프리미엄 플랜에서는 클라우드 모니터링 데이터에 관련 애플리케이션 및 비즈니스 메트릭을 추가하기 위해 사용할 수 있는 API를 제공합니다. 또한, 이를 이용하여 메트릭 데이터를 {{site.data.keyword.IBM_notm}} 클라우드 외부에서 {{site.data.keyword.monitoringlong}} 서비스로 전송할 수 있습니다.
+* 사용자 정의 메트릭을 추가합니다. {{site.data.keyword.monitoringlong}} 프리미엄 플랜에서는 클라우드 모니터링 데이터에 관련 애플리케이션 및 비즈니스 메트릭을 추가하기 위해 사용할 수 있는 API를 제공합니다. 또한, 이를 이용하여 메트릭 데이터를 {{site.data.keyword.IBM_notm}} Cloud 외부에서 {{site.data.keyword.monitoringlong}} 서비스로 전송할 수 있습니다.
 
 * 재사용가능 대시보드를 빌드해서 대화식으로 만듭니다. {{site.data.keyword.monitoringlong}}의 호스팅된 Grafana에서는 기호에 맞는 시각화 옵션으로 사용자 정의 대시보드를 빌드하기 위한 지원을 제공합니다.  변수가 있는 메트릭 조회를 사용하여 템플리트로 대시보드를 동적으로 구성하십시오.
 
@@ -526,7 +551,7 @@ DB2 Warehouse on Cloud 및 DB2 on Cloud에 대한 업데이트의 누적 목록�
 <li>극제화 및 접근성에 대한 수정사항 및 개선사항</li>
 <li>도구 체인 액세스 제어(도구 체인의 관리 탭에서 사용 가능)</li>
 <li>Continuous Delivery 도구 카탈로그에서 새 도구 통합</li>
-<li>Orion Web IDE에서 다중 작업 공간의 개선된 그룹화</li>
+<li>Orion Web IDE에서 다중 작업공간의 개선된 그룹화</li>
 <li>Orion Web IDE에서 다중 편집기 탭에 대한 지원</li>
 <li>Orion Web IDE에서 UI 테마에 대한 지원</li>
 </ul>
@@ -569,7 +594,7 @@ Apache Spark는 Stocator 기술에 기반한 스토리지 커넥터를 통해 IB
 
 다음은 {{site.data.keyword.Bluemix_notm}}의 {{site.data.keyword.mobilepush}} 서비스에 사용 가능한 새 업데이트입니다.
 
-**라이트 플랜**: {{site.data.keyword.mobilepush}} Service를 위한 기존 기본 플랜 외에도 새 라이트 플랜을 도입하였습니다. 새 플랜에 따라 사용자는 매달 최대 100000개의 디지털 메시지를 무료로 보낼 수 있습니다. 라이트 플랜에서 기본 플랜으로 업그레이드하는 동안 백만 개의 디지털 메시지 후에 사용자에게 청구됩니다. 백만 개 메시지 계수는 라이트 계획이 기본 계획으로 업그레이드될 때 시작합니다.
+**라이트 플랜**: {{site.data.keyword.mobilepush}} 서비스를 위한 기존 기본 플랜 외에도 새 라이트 플랜을 도입하였습니다. 새 플랜에 따라 사용자는 매달 최대 100000개의 디지털 메시지를 무료로 보낼 수 있습니다. 라이트 플랜에서 기본 플랜으로 업그레이드하는 동안 백만 개의 디지털 메시지 후에 사용자에게 청구됩니다. 백만 개 메시지 계수는 라이트 계획이 기본 계획으로 업그레이드될 때 시작합니다.
 
 **모니터링**: 이제 {{site.data.keyword.mobilepush}} Service Console에서 받은 알림 및 등록된 디바이스에 대한 인사이트를 얻을 수 있습니다. 또한 메시지 레벨 추적을 위해 REST API를 사용할 수도 있습니다. 메시지 전송에서 메시지 수신인으로 디스패치하는 메시지까지 구성 웹훅으로 세부사항을 가져올 수 있습니다.  [{{site.data.keyword.mobilepush}} 모니터링](/docs/services/mobilepush/t_push_monitoring.html#monitor-notifications)을 참조하십시오.
 
@@ -603,14 +628,6 @@ IBM Data Science Experience(DSX)에서 Jupyter 노트북을 사용하여 샘플 
 
 2017년 3월 30일부로 {{site.data.keyword.macm_long}} 서비스 타일이 {{site.data.keyword.Bluemix_notm}} 카탈로그에서 제거되며 새 MACM 인스턴스를 더 이상 프로비저닝할 수 없습니다. 그러나 기존 인스턴스는 계속 지원됩니다. 지원 종료 날짜는 2018년 3월 30일입니다. 지원 종료 날짜 전에 {{site.data.keyword.macm_short}}(MACM) 서비스 인스턴스를 삭제하십시오. 사용자에게 IBM Watson Content Hub로의 마이그레이션을 권장합니다. Watson Content는 IBM Marketplace에서 사용 가능하며 30일 무료 평가판을 사용자에게 제공합니다. IBM Watson Content Hub는 자산 관리, IBM Watson 서비스를 사용한 코그너티브 태그 지정 및 고객을 위해 최적의 경험을 보장하도록 포함된 CDN(Content Delivery Network)과 같이 추가된 새 기능을 포함하여 MACM과 유사한 기능을 제공합니다. IBM은 MACM에서 Watson Content Hub로 마이그레이션할 서비스 계약을 제공합니다.
 
-### {{site.data.keyword.streaminganalyticsshort}} 서비스 업데이트: Python 개발 환경에서 스트림 애플리케이션 개발
-신규 기준일: 2017년 4월 13일
-
-이전에는 IBM Streams의 로컬 버전을 설치하여 Python 애플리케이션을 개발해야 했습니다. 이제 더 이상 해당 경우는 없습니다. 이제 원하는 개발 환경 또는 Jupyter 대화식 노트북에서 Python을 사용하여 애플리케이션을 개발할 수 있습니다.
-
-STREAMING_ANALYTICS_SERVICE 컨텍스트를 사용하여 {{site.data.keyword.streaminganalyticsshort}} 서비스에 Python 애플리케이션을 제출할 수 있습니다. {{site.data.keyword.streaminganalyticsshort}} 서비스에는 Python 3.5 이상이 필요합니다.
-
-[IBM Data Science Experience 커뮤니티 페이지](http://datascience.ibm.com){: new_window} ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")의 노트북에서 샘플 스트림 처리 Python 애플리케이션을 확인하십시오.
 
 ### {{site.data.keyword.sparks}}업데이트: 이제 Data Science Experience에서 노트북이 지원됨
 신규 기준일: 2017년 4월 11일

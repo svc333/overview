@@ -4,7 +4,7 @@ copyright:
 
   years: 2015, 2018
 
-lastupdated: "2018-04-04"
+lastupdated: "2018-05-02"
 
 ---
 
@@ -19,6 +19,13 @@ lastupdated: "2018-04-04"
 
 ## {{site.data.keyword.Bluemix_notm}} 平台
 {: #platform_category}
+
+### {{site.data.keyword.Bluemix_notm}} 帳戶的多因子鑑別
+文件日期：2018 年 5 月 2 日
+
+多因子鑑別 (MFA) 會要求所有使用者在登入期間，除了標準 IBM ID 和密碼，還需要提供以時間為基礎的一次性密碼，為您的帳戶新增額外的安全層。這通常也稱為雙因子鑑別 (2FA)。MFA 是根據帳戶而啟用，在開啟之後，帳戶中的所有使用者都需要使用額外的安全措施來登入。
+
+如需相關資訊，請參閱 [IBM Cloud Platform now adds support for Multi-Factor Authentication](https://www.ibm.com/blogs/bluemix/2018/05/ibm-cloud-platform-now-adds-support-multi-factor-authentication/){: new_window} ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示") 部落格文章。
 
 ### 使用存取群組來快速指派存取權
 文件日期：2018 年 4 月 3 日
@@ -183,7 +190,7 @@ Identity and Access Management (IAM) 現在可讓您建立「服務 ID」，您�
 如需相關資訊，請參閱[視訊示範](https://youtu.be/QBij0jB5qAk){: new_window} ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")。
 
 ### 管理主控台的六月更新
-{: #mayadminconsole}
+{: #juneadminconsole}
 文件日期：2017 年 6 月 26 日
 
 使用六月的最新更新及增進功能，您可以使用下列新增特性：
@@ -229,11 +236,15 @@ Identity and Access Management (IAM) 現在可讓您建立「服務 ID」，您�
 
 使用四月的最新更新及增進功能，您可以使用下列新增特性：
 
- * 針對「{{site.data.keyword.Bluemix_notm}} 專用」及「本端」環境最新設計的狀態應用程式。您可以依元件名稱或張貼日期進行快速搜尋。您也可以切換元件狀態張貼視圖與您環境特定的通知。如需相關資訊，請參閱[新 {{site.data.keyword.Bluemix_notm}} 狀態頁面](https://www.ibm.com/blogs/bluemix/2017/05/new-bluemix-status-page/){: new_window} ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示") 部落格文章。
+ * 針對 {{site.data.keyword.Bluemix_notm}} Dedicated 及 Bluemix Local 環境最新設計的狀態應用程式。您可以依元件名稱或張貼日期進行快速搜尋。您也可以切換元件狀態張貼視圖與您環境特定的通知。如需相關資訊，請參閱[新 {{site.data.keyword.Bluemix_notm}} 狀態頁面](https://www.ibm.com/blogs/bluemix/2017/05/new-bluemix-status-page/){: new_window} ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示") 部落格文章。
  * 「資源用量」磚中精選服務的服務用量資料。如需所支援服務及新視圖中預期內容的相關資訊，請參閱[服務用量詳細資料](/docs/hybrid/index.html#servicesresourceusage)。
 
 ## 運算
 {: #compute_category}
+
+### {{site.data.keyword.containerlong_notm}} 有了 Kubernetes 儀表板存取權
+
+{{site.data.keyword.containerlong_notm}} 現在支援透過 {{site.data.keyword.Bluemix_notm}} 主控台直接存取 Kubernetes 儀表板。這個簡化的儀表板路徑讓叢集管理與資源視覺化的使用者體驗得到加強。如需詳細資料，請參閱 [{{site.data.keyword.Bluemix_notm}} 部落格](https://www.ibm.com/blogs/bluemix/2018/04/kubernetes-dashboard-access/){: new_window} ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")。
 
 ### 建置套件的最新更新
 
@@ -274,6 +285,20 @@ Liberty 建置套件 3.9 版提供新的每月 Liberty 運行環境版本，並�
 
 ## 服務
 {: #services_category}
+
+### {{site.data.keyword.streaminganalyticsshort}} 引進具有容器基礎架構的新服務方案
+文件日期：2018 年 4 月 20 日
+
+{{site.data.keyword.streaminganalyticsshort}} 現在會在 Kubernet 容器基礎架構上執行，可為服務提供安全性和可用性優點。
+ 
+您可以使用[第 2 版服務方案](/docs/services/StreamingAnalytics/service_plans.html#service_plans)，來存取這個新的容器基礎架構。您可以選擇最適合您需要進行之工作的 {{site.data.keyword.streaminganalyticsshort}} 方案。第 2 版服務方案包含下列加強功能：
+ 
+* [IBM Streams QSE 與 Docker](https://www-01.ibm.com/marketing/iwm/iwm/web/preLogin.do?source=swg-ibmistvi)![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")：查看[開發手冊](https://developer.ibm.com/streamsdev/docs/cloud-beta-devguide/) ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")，以瞭解如何搭配使用新的 Streams QSE 與在 Docker 環境中執行的 RHEL 7，以透過新的 {{site.data.keyword.streaminganalyticsshort}} 第 2 版方案來編譯及部署應用程式。 
+* [{{site.data.keyword.streaminganalyticsshort}} 第 2 版 REST API](https://console.bluemix.net/apidocs/1939-streaming-analytics-v2#introduction)![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")
+* [新的入門範本及範例應用程式](https://developer.ibm.com/streamsdev/docs/cloud-beta-samples/) ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")
+* [{{site.data.keyword.streaminganalyticsshort}} 服務中的高可用性加強功能](/docs/services/StreamingAnalytics/c_ha.html#consistent-regions)
+* [{{site.data.keyword.streaminganalyticsshort}} 服務中的新問題判斷特性](https://developer.ibm.com/streamsdev/2018/02/15/streaming-analytics-console-gives-ways-find-fix-errors-beta-plans/) ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")
+* [監視操作員如何作業及雲端中的保證值組處理](https://developer.ibm.com/streamsdev/2018/02/15/monitor-operators-behave-ensure-resource-optimization/)![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")
 
 ### {{site.data.keyword.iva_full_notm}} 現在是測試版！
 文件日期：2018 年 3 月 16 日
@@ -603,14 +628,6 @@ Apache Spark 透過根據 Stocator 技術的儲存空間連接器來存取 IBM C
 
 自 2017 年 5 月 30 日開始，將從「{{site.data.keyword.Bluemix_notm}} 型錄」中移除 {{site.data.keyword.macm_long}} 服務磚，而且您無法再佈建新的 MACM 實例。不過，將繼續支援現有實例。支援結束日期是 2018 年 3 月 30 日。請在「支援結束日期」之前刪除 {{site.data.keyword.macm_short}} (MACM) 服務實例。我們鼓勵使用者移轉至 IBM Watson Content Hub。Watson Content Hub 可在 IBM Marketplace 取得，並提供使用者免費試用 30 天。IBM Watson Content Hub 透過已新增功能提供與 MACM 類似的功能（例如資產管理、使用 IBM Watson 服務的認知標記，以及包括的內容遞送網路 (CDN)），以確保最佳客戶體驗。IBM 提供服務參與，以將內容從 MACM 移轉至 Watson Content Hub。
 
-### {{site.data.keyword.streaminganalyticsshort}} 服務更新：在 Python 開發環境中開發 Streams 應用程式
-文件日期：2017 年 4 月 13 日
-
-過去，您必須安裝 IBM Streams 的本端版本，才能開發 Python 應用程式。不再是這樣了。現在，您可以在慣用的開發環境或 Jupyter 互動式記事本中使用 Python 來開發應用程式。
-
-您可以使用 STREAMING_ANALYTICS_SERVICE 環境定義，將 Python 應用程式提交給 {{site.data.keyword.streaminganalyticsshort}} 服務。{{site.data.keyword.streaminganalyticsshort}} 服務需要 Python 3.5。
-
-請在 [IBM Data Science Experience 社群頁面](http://datascience.ibm.com){: new_window} ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示") 上查看記事本中的範例串流處理 Python 應用程式。
 
 ### {{site.data.keyword.sparks}} 更新：現在提供 Data Science Experience 記事本支援
 文件日期：2017 年 4 月 11 日

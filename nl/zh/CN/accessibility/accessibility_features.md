@@ -45,7 +45,7 @@ lastupdated: "2018-04-12"
 
 {{site.data.keyword.Bluemix_notm}} 文档辅助功能选项合规性专用于 {{site.data.keyword.Bluemix_notm}} 核心平台信息，不会扩展到任何服务。在主页中，内容分成两个部分：“{{site.data.keyword.Bluemix_notm}}”和“计算和服务”。{{site.data.keyword.Bluemix_notm}} 的可用文档在请求时即提供的 IBM Bluemix Continuous Delivery 产品辅助功能信息中进行管理和报告。要获取任何服务的合规性状态，您必须请求[产品辅助功能信息 ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](http://www-03.ibm.com/able/product_accessibility/index.html){: new_window}。
 
-除了标准 IBM 帮助热线和支持 Web 站点之外，IBM 还设立了 TTY 电话服务，供耳聋客户或听力困难的客户访问销售和支持服务：
+除了标准 IBM 帮助台和支持 Web 站点之外，IBM 还设立了 TTY 电话服务，供耳聋客户或听力困难的客户访问销售和支持服务：
 
 TTY 服务 800-IBM-3383 (800-426-3383)（在北美地区）
 

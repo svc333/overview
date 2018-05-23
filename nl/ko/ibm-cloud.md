@@ -22,7 +22,7 @@ lastupdated: "2018-02-13"
 
 도입/인식(Inception)에서부터 개발 샌드박스, 글로벌하게 분배된 환경까지 {{site.data.keyword.IBM_notm}}, Watson 등에서 제공하는 컴퓨팅 및 스토리지 인프라, 오픈 소스 플랫폼 및 컨테이너 및 소프트웨어 서비스 및 도구를 사용하여 의견을 제시할 수 있습니다. 플랫폼 자체의 기능을 넘어 {{site.data.keyword.cloud}}는 유연한 배치를 제공합니다. 데디케이티드 프라이빗 클라우드 환경 또는 퍼블릭 클라우드에서 {{site.data.keyword.cloud}} 리소스 온프레미스를 프로비저닝합니다.
 
-퍼블릭 및 데디케이티드 환경에 배치되는 모든 {{site.data.keyword.IBM_notm}} 클라우드 리소스는 사용자가 원하는 전세계의 {{site.data.keyword.CloudDataCent}} 위치에서 호스팅됩니다. {{site.data.keyword.CloudDataCents_notm}}는 지역 중복성, 모든 데이터 센터 및 PoP(Point of Presence)를 연결하는 글로벌 네트워크 백본, 엄격한 보안 제어 및 보고를 제공합니다. {{site.data.keyword.CloudDataCents_notm}}를 통해 {{site.data.keyword.IBM_notm}}은 가장 까다로운 확장, 보안, 규제 준수 및 데이터 주거성(residency) 요구사항을 충족시킬 수 있습니다.
+퍼블릭 및 데디케이티드 환경에 배치되는 모든 {{site.data.keyword.IBM_notm}} Cloud 리소스는 사용자가 원하는 전세계의 {{site.data.keyword.CloudDataCent}} 위치에서 호스팅됩니다. {{site.data.keyword.CloudDataCents_notm}}는 지역 중복성, 모든 데이터 센터 및 PoP(Point of Presence)를 연결하는 글로벌 네트워크 백본, 엄격한 보안 제어 및 보고를 제공합니다. {{site.data.keyword.CloudDataCents_notm}}를 통해 {{site.data.keyword.IBM_notm}}은 가장 까다로운 확장, 보안, 규제 준수 및 데이터 주거성(residency) 요구사항을 충족시킬 수 있습니다.
 
 {{site.data.keyword.IBM_notm}}를 사용하면 다음을 수행할 수 있습니다.
 
@@ -51,7 +51,7 @@ lastupdated: "2018-02-13"
 대시보드는 {{site.data.keyword.IBM}} 및 써드파티 제공업체에서 사용 가능한 {{site.data.keyword.cloud_notm}} 서비스에 대한 액세스를 제공합니다. Watson, Internet of Things, Analytics, Mobile 및 DevOps 서비스가 여기에 해당됩니다.
 
 * {{site.data.keyword.IBM_notm}} DevOps 서비스 및 IBM Cloud Garage Method를 사용하여 최적의 기능이 포함된 혁신적인 새 애플리케이션을 더 빠르고 저렴하게 제공합니다. DevOps 사례를 채택하고 혁신과 민첩성이 요구되는 문화를 조성하는 경우 반복적으로 시행하여 시장 상황에 따라 방향을 바꿀 수 있습니다.
-* 블록체인은 비즈니스 프로세스를 간소화하면서 신뢰, 책임 및 투명성을 확립하는 차세대 트랜잭션 애플리케이션을 위한 피어 투 피어 분산 원장 기술입니다.  
+* Blockchain은 비즈니스 프로세스를 간소화하면서 신뢰, 책임 및 투명성을 확립하는 차세대 트랜잭션 애플리케이션을 위한 피어 투 피어 분산 원장 기술입니다.  
 * Watson은 사용자의 앱에 음성, 영상 및 데이터 API의 전체 세트로 코그너티브 컴퓨팅의 강력함을 제공합니다.  Watson 서비스를 통해 코그너티브 플랫폼을 배치하여 가장 복잡한 비즈니스 문제점을 해결하십시오.
 * {{site.data.keyword.IBM_notm}}를 통해 풍부한 통합 클라우드 데이터베이스, Data & Analytics 서비스로 더 많은 작업을 수행할 수 있습니다.
 * {{site.data.keyword.IBM_notm}} Internet of Things 서비스를 사용하여 앱은 연결된 디바이스, 센서 및 게이트웨이와 통신하고 여기서 수집한 데이터를 이용할 수 있습니다. IBM이 제안하는 방법을 사용하여 Internet of Things 클라우드에 연결된 디바이스를 쉽게 얻을 수 있습니다. 그러면 앱에서 실시간 및 REST API를 사용하여 디바이스와 통신하고 수집하도록 설정된 데이터를 이용할 수 있습니다.

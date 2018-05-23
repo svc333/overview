@@ -4,7 +4,7 @@ copyright:
 
   years: 2015, 2018
 
-lastupdated: "2018-04-04"
+lastupdated: "2018-05-02"
 
 ---
 
@@ -19,6 +19,13 @@ lastupdated: "2018-04-04"
 
 ## {{site.data.keyword.Bluemix_notm}} 平台
 {: #platform_category}
+
+### {{site.data.keyword.Bluemix_notm}} 帐户的多因子认证
+最新更新日期：2018 年 5 月 2 日
+
+多因子认证 (MFA) 可为帐户提供额外一层的安全保护，因为它会要求所有用户在登录期间除了提供标准 IBM 标识和密码外，还要提供基于时间的一次性密码。通常，这也称为双因子认证 (2FA)。MFA 是按帐户启用的，一旦启用后，帐户中的所有用户都必须采用这个额外的安全措施进行登录。
+
+有关更多信息，请参阅 [IBM Cloud Platform now adds support for Multi-Factor Authentication ](https://www.ibm.com/blogs/bluemix/2018/05/ibm-cloud-platform-now-adds-support-multi-factor-authentication/){: new_window}![外部链接图标](../../icons/launch-glyph.svg "外部链接图标") 博客帖子。
 
 ### 使用访问组快速分配访问权
 最新更新日期：2018 年 4 月 3 日
@@ -40,7 +47,7 @@ lastupdated: "2018-04-04"
 ### 支持欧盟中的资源
 最新更新日期：2017 年 12 月 14 日
 
-如果您的服务和数据中心位于欧洲，现在 {{site.data.keyword.Bluemix_notm}} 提供了额外的功能来保护您在欧盟的数据。您可以请求位于欧洲的客户成功团队提供支持。此支持全天候可用。有关更多信息，请参阅[启用支持 EU 选项](/docs/billing-usage/eusupported.html#bill_eusupported)和[请求对欧盟中资源的支持](/docs/get-support/howtogetsupport.html#eusupported)。
+如果您的服务和数据中心位于欧洲，现在 {{site.data.keyword.Bluemix_notm}} 提供了额外的功能来保护您在欧盟的数据。您可以请求位于欧洲的客户成功团队提供支持。此支持全天候可用。有关更多信息，请参阅[启用欧盟支持选项](/docs/billing-usage/eusupported.html#bill_eusupported)和[请求对欧盟中资源的支持](/docs/get-support/howtogetsupport.html#eusupported)。
 
 ### 撤销对 TLS 1.0 和 1.1 的支持
 最新更新日期：2017 年 11 月 28 日
@@ -183,7 +190,7 @@ Bluemix 现已更名为 IBM Cloud。除了推出新名称外，没有更改其�
 有关更多信息，请参阅[视频演示](https://youtu.be/QBij0jB5qAk){: new_window} ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")。
 
 ### 管理控制台 6 月更新
-{: #mayadminconsole}
+{: #juneadminconsole}
 最新更新日期：2017 年 6 月 26 日
 
 通过 6 月的最新更新和改进，您可以使用以下新功能：
@@ -235,6 +242,10 @@ Bluemix 现已更名为 IBM Cloud。除了推出新名称外，没有更改其�
 ## 计算
 {: #compute_category}
 
+### Kubernetes 仪表板访问涉及 {{site.data.keyword.containerlong_notm}}
+
+现在，{{site.data.keyword.containerlong_notm}} 支持通过 {{site.data.keyword.Bluemix_notm}} 控制台直接访问 Kubernetes 仪表板。这简化了访问仪表板的路径，并增强了集群管理和资源可视化方面的用户体验。有关更多详细信息，可以查阅 [{{site.data.keyword.Bluemix_notm}} 博客 ](https://www.ibm.com/blogs/bluemix/2018/04/kubernetes-dashboard-access/){: new_window}![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")。
+
 ### buildpack 的最新更新
 
 请访问以下页面获取最新更新的累积列表：
@@ -274,6 +285,20 @@ Liberty buildpack V3.9 提供了新的每月 Liberty 运行时版本，并包含
 
 ## 服务
 {: #services_category}
+
+### {{site.data.keyword.streaminganalyticsshort}} 引入了具有基于容器的基础架构的新服务套餐
+最新更新日期：2018 年 4 月 20 日
+
+现在，{{site.data.keyword.streaminganalyticsshort}} 在 Kubernetes 基于容器的基础架构上运行，这种基础架构能够为服务提供更高的安全性和可用性。
+ 
+可以使用 [V2 服务套餐](/docs/services/StreamingAnalytics/service_plans.html#service_plans)来访问这个基于容器的新基础架构。您可以选择最适合您的工作需求的 {{site.data.keyword.streaminganalyticsshort}} 套餐。V2 服务套餐包含以下增强功能：
+ 
+* [IBM Streams QSE with Docker](https://www-01.ibm.com/marketing/iwm/iwm/web/preLogin.do?source=swg-ibmistvi) ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")：查看 [开发指南](https://developer.ibm.com/streamsdev/docs/cloud-beta-devguide/) ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")，了解如何将新的 Streams QSE 与在 Docker 环境中运行的 RHEL 7 配合使用，以使用新的 {{site.data.keyword.streaminganalyticsshort}} V2 套餐来编译和部署应用程序。 
+* [{{site.data.keyword.streaminganalyticsshort}} V2 REST API](https://console.bluemix.net/apidocs/1939-streaming-analytics-v2#introduction)![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")
+* [新的入门模板和样本应用程序](https://developer.ibm.com/streamsdev/docs/cloud-beta-samples/) ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")
+* [{{site.data.keyword.streaminganalyticsshort}} 服务中的高可用性增强功能](/docs/services/StreamingAnalytics/c_ha.html#consistent-regions)
+* [{{site.data.keyword.streaminganalyticsshort}} 服务中的问题确定功能](https://developer.ibm.com/streamsdev/2018/02/15/streaming-analytics-console-gives-ways-find-fix-errors-beta-plans/) ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")
+* [监视操作员在云中的行为和有保证的元组处理](https://developer.ibm.com/streamsdev/2018/02/15/monitor-operators-behave-ensure-resource-optimization/)![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")
 
 ### {{site.data.keyword.iva_full_notm}} Beta 现在可用！
 最新更新日期：2018 年 3 月 16 日
@@ -603,14 +628,6 @@ Apache Spark 通过基于 Stocator 技术的存储连接器来访问 IBM Cloud O
 
 自 2017 年 3 月 30 日开始，{{site.data.keyword.macm_long}} 服务磁贴将从 {{site.data.keyword.Bluemix_notm}}“目录”中除去，您无法再供应新的 MACM 实例。不过，仍将继续支持现有实例。支持结束日期为 2018 年 3 月 30 日。请在支持结束日期前删除 {{site.data.keyword.macm_short}} (MACM) 服务实例。我们鼓励用户迁移到 IBM Watson Content Hub。Watson Content Hub 在 IBM Marketplace 上提供，为用户提供 30 天的免费试用。IBM Watson Content Hub 将提供与 MACM 类似的功能，但新增了资产管理、使用 IBM Watson 服务的认知标记以及随附内容交付网络 (CDN) 等新功能，以确保为您的客户提供最佳体验。IBM 提供了服务互动，可将内容从 MACM 迁移到 Watson Content Hub。
 
-### {{site.data.keyword.streaminganalyticsshort}} 服务更新：在 Python 开发环境中开发 Streams 应用程序
-最新更新日期：2017 年 4 月 13 日
-
-过去，您必须安装本地版本的 IBM Streams 来开发 Python 应用程序。现在不必再如此。您现在可以在自己最喜爱的开发环境或 Jupyter 交互式配置页中使用 Python 来开发应用程序。
-
-您可以使用 STREAMING_ANALYTICS_SERVICE 上下文将 Python 应用程序提交给 {{site.data.keyword.streaminganalyticsshort}} 服务。{{site.data.keyword.streaminganalyticsshort}} 服务需要 Python 3.5。
-
-请在 [IBM Data Science Experience 社区页面](http://datascience.ibm.com){: new_window} ![外部链接图标](../../icons/launch-glyph.svg " 外部链接图标 ") 上查看配置页中的样本流处理 Python 应用程序。
 
 ### {{site.data.keyword.sparks}} 更新：Data Science Experience 中现在支持配置页
 最新更新日期：2017 年 4 月 11 日

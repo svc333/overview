@@ -147,7 +147,7 @@ bluemix resource service-instance
 
 `resource-type` 및 `resource` 세그먼트의 값은 서비스별로 다양합니다. 서비스는 자체 서비스 메타데이터의 일부로서 자체 지원되는 `resource types` 및 `resource`의 형식을 문서화해야 합니다.
 
-예를 들어, 오브젝트 스토리지 서비스에서 고객 인수 컨테이너의 이미지는 `object`의 `resource-type` 및 `CustomerReceipts/clientdinner.png`의 `resource_ value`를 보유할 수 있습니다.
+예를 들어, Object Storage 서비스에서 고객 인수 컨테이너의 이미지는 `object`의 `resource-type` 및 `CustomerReceipts/clientdinner.png`의 `resource_ value`를 보유할 수 있습니다.
 
 `resource-type`은 영숫자, 소문자여야 하며 공백 또는 '-' 이외의 특수 문자는 사용될 수 없습니다. 서비스는 `resource-type`이 선택적인지 결정할 수 있으며, 이 경우에 이는 공백을 유지합니다.
 

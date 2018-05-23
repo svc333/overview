@@ -2,7 +2,7 @@
 
 copyright:
   years: 2016, 2017, 2018
-lastupdated: "2018-03-16"
+lastupdated: "2018-05-02"
 
 ---
 {:new_window: target="_blank"}
@@ -18,9 +18,9 @@ lastupdated: "2018-03-16"
 {{site.data.keyword.cloud}} 有一组功能，可供开发者在几分钟内开始构建应用程序。在开发者仪表板中，可以实现：
 
 * 选择特定于用例的初学者工具包，并使用各种编程语言和体系结构模式生成生产就绪型入门模板应用程序
-* 在初学者工具包的项目创建过程中自动供应服务
-* 使用支持管理应用程序组件的可移植应用程序项目结构
-* 通过一次单击，创建 [DevOps 工具链](../services/ContinuousDelivery/index.html#cd_getting_started)
+* 查看和管理初学者工具包中自动供应的资源或您手动添加到应用程序中的资源
+* 获取可部署到各种云环境的可移植应用程序代码
+* 通过几次单击来创建 [DevOps 工具链](../services/ContinuousDelivery/index.html#cd_getting_started)。
 * 使用[命令行界面](/docs/cli/idt/index.html)进行本地开发
 
 要了解 {{site.data.keyword.cloud_notm}} 开发者体验可以如何帮助您快速构建高质量的生产就绪型应用程序，下面我们来更详细地了解一下这些元素。
@@ -32,14 +32,14 @@ lastupdated: "2018-03-16"
 
 每个开发者仪表板都提供与仪表板的焦点区域相关的初学者工具包，并提供一致的直观工作流程，支持您在几分钟内创建有效的生产就绪型应用程序。
 
-## 应用程序项目
+## 应用程序
 {: #app-projects}
 
-项目是构成应用程序的代码、数据、服务和工具链的关联。例如，{{site.data.keyword.cloud_notm}} 移动项目包含应用程序和后端逻辑、数据存储、分析和安全服务的代码，并设置用于持续交付。
+应用程序由代码、数据、服务和工具链构成。例如，{{site.data.keyword.cloud_notm}} 移动应用程序包含设备代码以及后端逻辑、数据存储、分析和安全服务，并且设置为持续交付。
 
 ![复用](images/garage_reuse2.png "通过“开发者体验”，可以复用而避免重新创作")
 
-您可以使用任何 {{site.data.keyword.cloud_notm}} 开发者仪表板或 {{site.data.keyword.dev_cli_notm}} 来创建和管理项目。
+您可以使用任何 {{site.data.keyword.cloud_notm}} 开发者仪表板或 {{site.data.keyword.dev_cli_notm}} 来创建和管理应用程序。
 
 ## 初学者工具包
 {: #starter-kits}
@@ -57,7 +57,7 @@ lastupdated: "2018-03-16"
 ## 自动供应的资源
 {: #auto-provision}
 
-如果初学者工具包指定了所需资源，那么在创建项目时，{{site.data.keyword.cloud_notm}} 会自动创建这些资源的实例。请注意，在创建项目后，还可以向项目手动供应资源或选择现有资源实例以添加到项目。您可以在“项目详细信息”视图中查看与项目关联的服务实例列表，还可在需要时在其中查看凭证。
+如果初学者工具包指定了所需资源，那么当您创建应用程序时，{{site.data.keyword.cloud_notm}} 会自动创建这些资源的实例。请注意，在创建应用程序后，您也可以手动供应资源或选择现有资源实例以添加到应用程序中。您可以在“应用程序详细信息”视图中查看与应用程序相关联的服务实例以及可用凭证的列表。
 
 ## 可移植代码
 {: #portable-code}
@@ -69,12 +69,12 @@ lastupdated: "2018-03-16"
 
 * **用例逻辑**提供了特定用例核心功能的代码。例如，Watson Conversation 聊天机器人的代码或移动可视识别应用程序的代码。
 * **语言组件**是特定于为初学者工具包选择的编程语言的代码组件和文件。例如，node.js 程序员需要 package.json 文件进行依赖关系管理，并且会自动创建此文件。
-* **服务支持**是支持应用程序连接到并使用向项目添加的服务的代码。服务支持项的示例包括凭证管理、初始化代码和特定于服务的 SDK。
-* **云支持**是支持应用程序在 {{site.data.keyword.cloud_notm}} 上运行的代码。例如，用于支持应用程序在 {{site.data.keyword.cloud_notm}} Kubernetes 集群上运行的 Helm 图表。
+* **服务支持**是让应用程序能够连接和使用所添加服务的代码。服务支持项的示例包括凭证管理、初始化代码和特定于服务的 SDK。
+* **云支持**是让应用程序能够在 {{site.data.keyword.cloud_notm}} 上运行的代码。例如，用于支持应用程序在 {{site.data.keyword.cloud_notm}} Kubernetes 集群上运行的 Helm 图表。
 
-{{site.data.keyword.cloud_notm}} 生成的应用程序不仅在体系结构上成熟可靠，还反映了为项目所选语言的最佳实践。  
+{{site.data.keyword.cloud_notm}} 生成的应用程序不仅具有经过验证的体系结构，而且还能反映出所选语言的最佳做法。  
 
-项目包含一个自述文件，其中包含项目的技术详细信息，并说明了应用程序未自动运行时，需要做什么来使应用程序运行。
+每个应用程序都含有一个自述文件，其中包含应用程序的技术详细信息，以及当应用程序无法即装即用时运行应用程序所需的条件。
 {: tip}
 
 ## DevOps 工具链
@@ -84,16 +84,16 @@ DevOps 包含用于访问、开发、部署和操作应用程序的过程和工�
 
 DevOps 工具链的核心组件是代码版本控制存储库，例如 GitHub。其他工具可能包括待办事项跟踪、Delivery Pipeline、IDE 和监视服务，例如 [{{site.data.keyword.cloud_notm}}DevOps Insights](../services/DevOpsInsights/index.html#gettingstarted)。
 
-如果已使用初学者工具包创建了项目，那么只需通过单击“项目详细信息”视图中的**部署到云**，就可创建新工具链并部署应用程序。这将创建一个包含代码存储库、问题存储库、Delivery Pipeline 和 Web IDE 的工具链。
+如果已使用初学者工具包创建了应用程序，那么只需通过单击“应用程序详细信息”视图中的**部署到云**，即可创建新的工具链并部署应用程序。这将创建一个包含代码存储库、问题存储库、Delivery Pipeline 和 Web IDE 的工具链。
 
 然后，可以在此工具链上进行构建，以容纳多个团队，部署到单独的环境进行开发、测试和生产，以及为应用程序建立企业级协作式持续交付模型。  
 
 ![持续交付](images/garage_continuous_delivery2.png "开发者体验用于将持续交付设置到开发分支中")
 
-您还可以通过单击开发者仪表板的“项目概述”页面上的**下载**按钮来快速查看项目代码。代码会下载为包含完整项目结构的 `.zip` 文件。您可以使用 {{site.data.keyword.dev_cli_notm}} 轻松解压缩该文件并在本地运行代码，或者将其添加到代码管理存储库。
+您还可以通过单击开发者仪表板的应用程序概述页面上的**下载**按钮来快速查看应用程序代码。所下载的代码是一个 `.zip` 文件，其中包含完整的应用程序代码结构。您可以使用 {{site.data.keyword.dev_cli_notm}} 轻松解压缩该文件并在本地运行代码，或者将其添加到代码管理存储库。
 
 ## 命令行界面
-通过 {{site.data.keyword.dev_cli_notm}}，可以在本地编码、构建和运行项目。常用的模式是通过开发者仪表板创建项目，使用 {{site.data.keyword.dev_cli_notm}} 在本地进行开发，然后将更新推送到存储库并合并以启动部署工具链。
+使用 {{site.data.keyword.dev_cli_notm}}，可以在本地编码、构建和运行应用程序。常用的模式是通过开发者仪表板创建应用程序，使用 {{site.data.keyword.dev_cli_notm}} 在本地进行开发，然后将更新推送到存储库并加以合并来启动部署工具链。
 
 ## Garage Method 开发
 {: #developer_concepts}
