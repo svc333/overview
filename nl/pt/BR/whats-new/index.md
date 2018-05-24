@@ -4,7 +4,7 @@ copyright:
 
   years: 2015, 2018
 
-lastupdated: "2018-04-04"
+lastupdated: "2018-05-02"
 
 ---
 
@@ -19,6 +19,13 @@ Mantenha-se atualizado com os novos recursos e serviços que estão disponíveis
 
 ## Plataforma {{site.data.keyword.Bluemix_notm}}
 {: #platform_category}
+
+### Autenticação de diversos fatores para sua conta do {{site.data.keyword.Bluemix_notm}}
+Novo a partir de: 02 de maio de 2018
+
+A autenticação de diversos fatores (MFA) inclui uma camada extra de segurança em sua conta solicitando que todos os usuários forneçam uma senha descartável baseada em tempo, além de seu IBMid e da senha padrão durante o login. Isso também é conhecido geralmente como autenticação de dois fatores (2FA). A MFA é ativada por conta e, após ser ativada, todos os usuários na conta precisam efetuar login usando a medida de segurança adicional.
+
+Para obter mais informações, veja a postagem do blog [O IBM Cloud Platform agora inclui suporte para a autenticação de diversos fatores}](https://www.ibm.com/blogs/bluemix/2018/05/ibm-cloud-platform-now-adds-support-multi-factor-authentication/){: new_window} ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo").
 
 ### Designar acesso rapidamente usando grupos de acesso
 Novo a partir de: 03 de abril de 2018
@@ -183,7 +190,7 @@ Com as atualizações e melhorias mais recentes de julho, é possível usar os n
 Consulte o [vídeo de demonstração](https://youtu.be/QBij0jB5qAk){: new_window} ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo") para obter mais informações.
 
 ### Atualizações de junho para o console de administração
-{: #mayadminconsole}
+{: #juneadminconsole}
 Novo a partir de: 26 de junho de 2017
 
 Com as atualizações e melhorias mais recentes de junho, é possível usar os novos recursos a seguir:
@@ -235,6 +242,10 @@ Com as atualizações e melhorias mais recentes de abril, é possível usar os n
 ## Cálculo
 {: #compute_category}
 
+### O acesso ao Painel do Kubernetes vem para o {{site.data.keyword.containerlong_notm}}
+
+O {{site.data.keyword.containerlong_notm}} agora suporta acesso direto ao Painel do Kubernetes por meio do console do {{site.data.keyword.Bluemix_notm}}. Esse caminho simplificado para o painel oferece uma experiência do usuário aprimorada para gerenciamento de cluster e visualização de recursos. Descubra mais detalhes no [blog do {{site.data.keyword.Bluemix_notm}}](https://www.ibm.com/blogs/bluemix/2018/04/kubernetes-dashboard-access/){: new_window} ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo").
+
 ### Atualizações mais recentes para buildpacks
 
 Visite as páginas a seguir para obter uma lista acumulativa das atualizações mais recentes:
@@ -274,6 +285,20 @@ O buildpack do Liberty v3.9 fornece uma nova versão de runtime mensal do Libert
 
 ## Serviços
 {: #services_category}
+
+### O {{site.data.keyword.streaminganalyticsshort}} introduz novos planos de serviços com infraestrutura baseada em contêiner
+Novo a partir de: 20 de abril de 2018
+
+O {{site.data.keyword.streaminganalyticsshort}} agora está em execução em uma infraestrutura baseada em contêiner do Kubernetes que fornece vantagens de segurança e disponibilidade para o serviço.
+ 
+É possível acessar essa nova infraestrutura baseada em contêiner usando os [planos de serviços v2](/docs/services/StreamingAnalytics/service_plans.html#service_plans). É possível escolher o plano do {{site.data.keyword.streaminganalyticsshort}} que é mais adequado para o trabalho que você precisa executar. Os planos de serviços v2 incluem os aprimoramentos a seguir:
+ 
+* [IBM Streams QSE com Docker](https://www-01.ibm.com/marketing/iwm/iwm/web/preLogin.do?source=swg-ibmistvi)![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo"): verifique o Guia de desenvolvimento do [ ](https://developer.ibm.com/streamsdev/docs/cloud-beta-devguide/)![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo") para saber como usar o novo Streams QSE com RHEL 7 em execução em um ambiente do Docker para compilar e implementar seus aplicativos com os novos planos v2 do {{site.data.keyword.streaminganalyticsshort}}. 
+* [API de REST do {{site.data.keyword.streaminganalyticsshort}} v2](https://console.bluemix.net/apidocs/1939-streaming-analytics-v2#introduction)![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")
+* [Novos aplicativos iniciadores e de amostra](https://developer.ibm.com/streamsdev/docs/cloud-beta-samples/) ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")
+* [Aprimoramentos de alta disponibilidade no serviço {{site.data.keyword.streaminganalyticsshort}}](/docs/services/StreamingAnalytics/c_ha.html#consistent-regions)
+* [Recursos de determinação de problema no serviço {{site.data.keyword.streaminganalyticsshort}}](https://developer.ibm.com/streamsdev/2018/02/15/streaming-analytics-console-gives-ways-find-fix-errors-beta-plans/)![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")
+* [Monitorando como os operadores se comportam e processamento de tupla garantido na nuvem](https://developer.ibm.com/streamsdev/2018/02/15/monitor-operators-behave-ensure-resource-optimization/)![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")
 
 ### {{site.data.keyword.iva_full_notm}} é agora beta!
 Novo a partir de: 16 de março de 2018
@@ -607,14 +632,6 @@ Novo a partir de: 18 de abril de 2017
 
 A partir de 30 de março de 2017, o ladrilho de serviço do {{site.data.keyword.macm_long}} será removido do Catálogo do {{site.data.keyword.Bluemix_notm}} e não será mais possível provisionar novas instâncias do MACM. No entanto, instâncias existentes continuarão sendo suportadas. O Fim da Data de Suporte é 30 de março de 2018. Exclua suas instâncias de serviço do {{site.data.keyword.macm_short}} (MACM) antes do Fim da Data de Suporte. Incentivamos os usuários a migrarem para o IBM Watson Content Hub. O Watson Content Hub está disponível no IBM Marketplace e fornece aos usuários uma avaliação grátis de 30 dias. O IBM Watson Content Hub fornece funcionalidade semelhante ao MACM com novos recursos incluídos, tais como o gerenciamento de ativos, a identificação cognitiva usando serviços do IBM Watson e a rede de entrega de conteúdo (CDN) incluída para assegurar uma experiência ideal para seus clientes. A IBM oferece engajamentos de serviço para migrar o conteúdo do MACM para o Watson Content Hub.
 
-### Atualizações de serviço do {{site.data.keyword.streaminganalyticsshort}}: desenvolver aplicativos Streams em seu ambiente de desenvolvimento do Python
-Novo a partir de: 13 de abril de 2017
-
-No passado, você tinha que instalar uma versão local do IBM Streams para desenvolver aplicativos Python. Esse não é mais o caso. Agora é possível desenvolver aplicativos com Python em seu ambiente de desenvolvimento favorito ou em um bloco de notas interativo do Jupyter.
-
-É possível usar o contexto do STREAMING_ANALYTICS_SERVICE para enviar um aplicativo Python para o serviço do {{site.data.keyword.streaminganalyticsshort}}. O serviço {{site.data.keyword.streaminganalyticsshort}} requer o Python 3.5.
-
-Confira os aplicativos Python de processamento de fluxo de amostra nos blocos de notas na [página da comunidade do IBM Data Science Experience](http://datascience.ibm.com){: new_window} ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo").
 
 ### Atualizações do {{site.data.keyword.sparks}}: suporte de bloco de notas agora em Data Science Experience
 Novo a partir de: 11 de abril de 2017

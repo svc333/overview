@@ -2,7 +2,7 @@
 
 copyright:
   years: 2016, 2017, 2018
-lastupdated: "2018-03-16"
+lastupdated: "2018-05-02"
 
 ---
 {:new_window: target="_blank"}
@@ -18,9 +18,9 @@ lastupdated: "2018-03-16"
 Como um desenvolvedor, o {{site.data.keyword.cloud}} tem um conjunto de recursos que permite iniciar a construção de apps em minutos. Em nossos painéis de desenvolvedor, é possível:
 
 * Selecionar kits do iniciador que são específicos do caso de uso e produzir apps de iniciador prontos para produção em uma variedade de linguagens de programação e padrões arquiteturais
-* Provisionar serviços automaticamente como parte da criação do projeto de seu kit do iniciador
-* Usar uma estrutura do projeto de app móvel que permite gerenciar componentes de seu app
-* Criação em um clique de uma [cadeia de ferramentas do DevOps](../services/ContinuousDelivery/index.html#cd_getting_started).
+* Ver e gerenciar recursos que foram provisionados automaticamente de seu kit do iniciador ou que você incluiu manualmente em seu app
+* Obter código de app móvel que permite implementar vários ambientes de nuvem
+* Criar uma [cadeia de ferramentas do DevOps](../services/ContinuousDelivery/index.html#cd_getting_started) com alguns cliques.
 * Use uma [interface da linha de comandos](/docs/cli/idt/index.html) para desenvolvimento local
 
 Para entender como a experiência do desenvolvedor do {{site.data.keyword.cloud_notm}} pode ajudá-lo a construir rapidamente apps prontos para produção de alta qualidade, vamos ver esses elementos em mais detalhes.
@@ -32,14 +32,14 @@ O {{site.data.keyword.cloud_notm}} tem painéis do desenvolvedor em diferentes �
 
 Cada painel do desenvolvedor fornece kits do iniciador relevantes para área de foco do painel e oferece um fluxo de trabalho consistente e intuitivo que permite criar um app pronto para produção de trabalho em funcionamento em minutos.
 
-## Projetos de app
+## Apps
 {: #app-projects}
 
-Um projeto é a associação de código, dados, serviços e cadeias de ferramentas que compõem seu app. Por exemplo, o projeto móvel do {{site.data.keyword.cloud_notm}} contém código para o aplicativo e a lógica de backend, armazenamento de dados, analítica e serviços de segurança e é configurado para entrega contínua.
+Um app inclui código, dados, serviços e cadeias de ferramentas. Por exemplo, o app móvel do {{site.data.keyword.cloud_notm}} contém código de dispositivo junto com a lógica de backend, armazenamento de dados, analítica e serviços de segurança e é configurado para entrega contínua.
 
 ![Reutilizar](images/garage_reuse2.png "A experiência do desenvolvedor permite reutilizar e evitar a reinvenção")
 
-É possível criar e gerenciar um projeto usando qualquer painel do desenvolvedor do {{site.data.keyword.cloud_notm}} ou o {{site.data.keyword.dev_cli_notm}}.
+É possível criar e gerenciar um app usando qualquer painel do desenvolvedor do {{site.data.keyword.cloud_notm}} ou o {{site.data.keyword.dev_cli_notm}}.
 
 ## Kits iniciadores
 {: #starter-kits}
@@ -57,7 +57,7 @@ Os kits do iniciador estão prontos para produção e focam em demonstrar uma im
 ## Recursos autoprovisionados
 {: #auto-provision}
 
-Se um kit do iniciador especifica os recursos necessários, o {{site.data.keyword.cloud_notm}} cria automaticamente as instâncias desses recursos quando você cria seu projeto. Observe que também é possível provisionar os recursos manualmente ou selecionar instâncias de recursos existentes para incluir em seu projeto após ele ser criado. É possível ver uma lista de instâncias de serviço associadas ao seu projeto na visualização Detalhes do projeto juntamente com as credenciais, caso você precise delas.
+Se um kit do iniciador especifica os recursos necessários, o {{site.data.keyword.cloud_notm}} cria automaticamente as instâncias desses recursos quando você cria seu app. Observe que também é possível provisionar os recursos manualmente ou selecionar instâncias de recursos existentes para incluir em seu app após ele ser criado. É possível ver uma lista de instâncias de serviço associadas ao seu app na visualização Detalhes do app juntamente com as credenciais, no caso de precisar delas.
 
 ## Código móvel
 {: #portable-code}
@@ -69,12 +69,12 @@ O código criado em um kit do iniciador do {{site.data.keyword.cloud_notm}} tem 
 
 * **Lógica de caso de uso** fornece funções para a função principal de um caso de uso específico. Os exemplos podem ser código para um robô de bate-papo do Watson Conversation ou código para um app de reconhecimento visual móvel.
 * **Componentes de linguagem** são componentes de código e arquivos específicos para a linguagem de programação que você seleciona para o seu kit do iniciador. Por exemplo, os programadores do node.js precisarão de um arquivo package.json para gerenciamento de dependência e esse arquivo é criado automaticamente para você.
-* **Ativação de serviço** é o código que permite que seu app se conecte e use os serviços que você inclui em seu projeto. O gerenciamento de credencial, o código de inicialização e os SDKs específicos do serviço são exemplos de itens de ativação de serviço.
+* **Ativação de serviço** é o código que permite que seu app se conecte e use os serviços que você inclui. O gerenciamento de credencial, o código de inicialização e os SDKs específicos do serviço são exemplos de itens de ativação de serviço.
 * **Ativação de nuvem** é o código que permite que seu app seja executado no {{site.data.keyword.cloud_notm}}. Por exemplo, os gráficos Helm que permitem que seu app seja executado em um cluster do Kubernetes do {{site.data.keyword.cloud_notm}}.
 
-O app produzido pelo {{site.data.keyword.cloud_notm}} não é somente arquiteturalmente comprovado, mas também reflete as melhores práticas para a linguagem que você escolheu para seu projeto.  
+O app produzido pelo {{site.data.keyword.cloud_notm}} não é somente comprovado com relação à arquitetura, mas também reflete as melhores práticas para a linguagem selecionada.  
 
-O projeto inclui um arquivo leia-me que contém detalhes técnicos do projeto e explica o que é necessário para que seu app seja executado se ele não for executado pronto para utilização.
+Cada aplicativo inclui um arquivo leia-me que contém detalhes técnicos do app e explica o que é necessário para deixar seu app em execução caso ele não seja executado pronto para utilização.
 {: tip}
 
 ## Cadeia de ferramentas do DevOps
@@ -84,16 +84,16 @@ O DevOps inclui procedimentos e ferramentas para acessar, desenvolver, implement
 
 O componente principal de uma cadeia de ferramentas do DevOps é um repositório de controle de versão do código como o GitHub. As ferramentas adicionais podem incluir rastreamento de lista não processada, pipeline de entrega, IDE e serviço de monitoramento como o [{{site.data.keyword.cloud_notm}}DevOps Insights](../services/DevOpsInsights/index.html#gettingstarted).
 
-Se você criou um projeto usando um kit do iniciador, é possível criar uma nova cadeia de ferramentas e implementar seu app simplesmente clicando em **Implementar no Cloud** na visualização Detalhes do projeto. Uma cadeia de ferramentas que tem um repositório de código, repositório de problemas, pipeline de entrega e IDE da web é criada.
+Se você criou um app usando um kit do iniciador, é possível criar uma nova cadeia de ferramentas e implementar seu app simplesmente clicando em **Implementar no Cloud** na visualização Detalhes do app. Uma cadeia de ferramentas que tem um repositório de código, repositório de problemas, pipeline de entrega e IDE da web é criada.
 
 É possível então construir essa cadeia de ferramentas para acomodar múltiplas equipes e implementar em ambientes separados para desenvolvimento, teste e produção e estabelecer um modelo de entrega contínua colaborativa de classe corporativa para seu app.  
 
 ![Entrega contínua](images/garage_continuous_delivery2.png "A experiência do desenvolvedor configura a entrega contínua para sua ramificação de desenvolvimento")
 
-Também é possível dar uma olhada rápida no seu código do projeto, clicando no botão **Download** na página de visão geral do projeto do painel do desenvolvedor. Seu código é transferido por download como um arquivo `.zip` que contém a estrutura do projeto completo. É possível extrair facilmente o arquivo e executar o código localmente usando o {{site.data.keyword.dev_cli_notm}} ou incluí-lo em seu repositório de gerenciamento de código.
+Também é possível dar uma olhada rápida no seu código de app clicando no botão **Download** na página de visão geral do app do painel do desenvolvedor. Seu código é transferido por download como um arquivo `.zip` que contém a estrutura do código de app completa. É possível extrair facilmente o arquivo e executar o código localmente usando o {{site.data.keyword.dev_cli_notm}} ou incluí-lo em seu repositório de gerenciamento de código.
 
 ## Interface da linha de comandos
-O {{site.data.keyword.dev_cli_notm}} permite codificar, construir e executar seu projeto localmente.  Um padrão comum é criar seu projeto por meio de um painel do desenvolvedor, usar o {{site.data.keyword.dev_cli_notm}} para desenvolver localmente e, em seguida, enviar por push as atualizações para seu repositório e mesclar para iniciar sua cadeia de ferramentas de implementação.
+O {{site.data.keyword.dev_cli_notm}} permite codificar, construir e executar seu app localmente. Um padrão comum é criar seu app por meio de um painel do desenvolvedor, usar o {{site.data.keyword.dev_cli_notm}} para desenvolver localmente e, em seguida, enviar por push as atualizações para seu repositório e mesclar para iniciar sua cadeia de ferramentas de implementação.
 
 ## Desenvolvimento do método Garage
 {: #developer_concepts}

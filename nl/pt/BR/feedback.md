@@ -79,8 +79,7 @@ Para abrir um problema de uma página da documentação, conclua as etapas a seg
 5. Clique em **Enviar novo problema**. 
 
 A equipe de conteúdo recebe os problemas que você abre e trabalha para resolver o feedback. É possível
-monitorar o problema salvando o link depois que você clica em **Enviar novo problema**. 
-Conforme o problema é resolvido, a equipe de conteúdo fornece atualizações de status como um comentário sobre
+monitorar o problema salvando o link depois que você clica em **Enviar novo problema**. Conforme o problema é resolvido, a equipe de conteúdo fornece atualizações de status como um comentário sobre
 o problema.
 
 ## Enviando ideias para melhorias no produto

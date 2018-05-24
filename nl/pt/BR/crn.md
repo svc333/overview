@@ -148,7 +148,7 @@ bluemix resource service-instance
 
 O valor dos segmentos `resource-type` e `resource` variam por serviço. Um serviço é necessário para documentar seus `resource types` suportados e o formato do `resource` como parte de seus metadados de serviço.
 
-Como um exemplo, uma imagem no contêiner de recibos do cliente em um serviço de Armazenamento de objeto pode ter um `resource-type` de `object` e um `resource_ value` de `CustomerReceipts/clientdinner.png`.
+Como um exemplo, uma imagem no contêiner de recibos do cliente em um serviço Object Storage pode ter um `resource-type` de `object` e um `resource_ value` de `CustomerReceipts/clientdinner.png`.
 
 O `resource-type` deve ser alfanumérico, em minúsculas, sem espaços ou caracteres especiais diferentes de '-'. Um serviço pode decidir que o `resource-type` é opcional, em cujo caso ele seria deixado em branco.
 
