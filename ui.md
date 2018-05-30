@@ -3,7 +3,7 @@
 
 copyright:
   years: 2016, 2018
-lastupdated: "2018-01-16"
+lastupdated: "2018-05-30"
 
 ---
 
@@ -50,7 +50,7 @@ Then, based on the items you select, you can filter by the following options:
 You can work with your resources in various ways from the dashboard:
 
   * Each resource is displayed in its own row and a More Actions icon  ![More Actions icon](../icons/overflow-menu.svg)  is included at the end of the row. Click the More Actions icon to start, stop, rename, or delete a resource.
-  * To set up credentials or connections for a resource, click the name of the resource to navigate to the resource details page. For more information, see [Adding a new credential](/docs/services/service_credentials.html) and [Managing connections](/docs/cfapps/connecting_apps.html#connect_app).
+  * To set up credentials or connections for a resource, click the name of the resource to navigate to the resource details page. For more information, see [Adding a new credential](/docs/services/service_credentials.html) and [Managing connections](/docs/resources/connecting_apps.html).
 
 ## Working in the catalog
 {: #catalogcreate}
