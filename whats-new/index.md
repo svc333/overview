@@ -4,7 +4,7 @@ copyright:
 
   years: 2015, 2018
 
-lastupdated: "2018-05-30"
+lastupdated: "2018-05-31"
 
 ---
 
@@ -20,7 +20,12 @@ Stay up-to-date with the new features and services that are available in {{site.
 ## {{site.data.keyword.Bluemix_notm}} platform
 {: #platform_category}
 
-### {{site.data.keyword.Bluemix_notm}} CLI rebrand
+### Upgrade your Lite account to a Subscription account
+New as of: 31 May 2018
+
+You can now upgrade your Lite account to a Subscription account directly from the {{site.data.keyword.Bluemix_notm}} console. With a Subscription account, you can use both platform and infrastructure offerings, and take advantage of discounted pricing by making a monthly spending and term commitment. You can also avoid surprises with fixed billing on a monthly payment schedule, but with the flexibility to order more or less based on your needs. For more information, see [Subscription account FAQS](/docs/billing-usage/billing-faq.html#subscription-faqs). 
+
+### {{site.data.keyword.Bluemix_notm}} CLI rebranding
 New as of: 15 May 2018
 
 The {{site.data.keyword.Bluemix_notm}} CLI commands have changed from `bluemix` and `bx` to **ibmcloud**. However, you can still use the `bluemix` and `bx` CLI commands until they are removed at a later date. There is no short name at this time, just the full name **ibmcloud**. 
@@ -40,7 +45,7 @@ Do you want to be able to assign access quickly by using the least amount of pol
 ### SoftLayer and {{site.data.keyword.Bluemix_notm}} account linking
 New as of:  01 March 2018
 
-You can link your SoftLayer account to your {{site.data.keyword.Bluemix_notm}} account to log in to a single location, the {{site.data.keyword.Bluemix_notm}} console, and access both infrastructure as a service (IaaS) and platform as a service (PaaS) resources. If you're new to {{site.data.keyword.Bluemix_notm}}, create and link an account to get a free {{site.data.keyword.Bluemix_notm}} trial. Or, if you already have an {{site.data.keyword.Bluemix_notm}} account with PaaS resources, link your accounts to receive a single bill for both your IaaS and PaaS resources. Check out [Steps to Link your IaaS and PaaS Accounts](https://www.ibm.com/blogs/bluemix/2018/03/follow-steps-link-iaas-paas-accounts/){: new_window} ![External link icon](../../icons/launch-glyph.svg "External link icon") to quickly link your accounts.
+You can link your SoftLayer account to your {{site.data.keyword.Bluemix_notm}} account to log in to a single location, the {{site.data.keyword.Bluemix_notm}} console, and access both infrastructure as a service (IaaS) and platform as a service (PaaS) resources. If you're new to {{site.data.keyword.Bluemix_notm}}, create and link an account to get a free {{site.data.keyword.Bluemix_notm}} Lite account. Or, if you already have an {{site.data.keyword.Bluemix_notm}} account with PaaS resources, link your accounts to receive a single bill for both your IaaS and PaaS resources. Check out [Steps to Link your IaaS and PaaS Accounts](https://www.ibm.com/blogs/bluemix/2018/03/follow-steps-link-iaas-paas-accounts/){: new_window} ![External link icon](../../icons/launch-glyph.svg "External link icon") to quickly link your accounts.
 
 
 ### {{site.data.keyword.Bluemix_notm}} Foundry Service US East region is now available
