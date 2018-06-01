@@ -3,7 +3,7 @@
 
 copyright:
   years: 2016, 2018
-lastupdated: "2018-04-02"
+lastupdated: "2018-05-22"
 
 ---
 
@@ -30,4 +30,4 @@ lastupdated: "2018-04-02"
 ## コマンド・ライン・インターフェース (CLI)
 {: #cli}
 
-`bluemix cli` は絶えず変更されるため、Cloud Foundry `cf cli` もバンドルする[最新バージョン](/docs/cli/reference/bluemix_cli/all_versions.html)を使用することをお勧めします。 
+{{site.data.keyword.Bluemix_notm}} CLI は絶えず変更されるため、Cloud Foundry `cf cli` もバンドルする[最新バージョン](/docs/cli/reference/bluemix_cli/all_versions.html)を使用することをお勧めします。 

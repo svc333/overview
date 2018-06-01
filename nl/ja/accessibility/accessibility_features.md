@@ -53,4 +53,4 @@ TTY サービス
 
 ## IBM におけるアクセシビリティー
 
-IBM のアクセシビリティーに対する取り組みについて詳しくは、[IBM アクセシビリティー ![「外部リンク」アイコン](../../icons/launch-glyph.svg "「外部リンク」アイコン")](www.ibm.com/able){: new_window}を参照してください。
+IBM のアクセシビリティーに対する取り組みについて詳しくは、[IBM アクセシビリティー ![「外部リンク」アイコン](../../icons/launch-glyph.svg "「外部リンク」アイコン")](http://www.ibm.com/able){: new_window}を参照してください。

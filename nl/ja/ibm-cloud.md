@@ -3,7 +3,7 @@
 
 copyright:
   years: 2016, 2018
-lastupdated: "2018-02-13"
+lastupdated: "2018-05-22"
 
 ---
 
@@ -89,11 +89,11 @@ lastupdated: "2018-02-13"
 
 地域ごとにビューをフィルター操作することで、ビューを素早く切り替え、異なる地域に割り当てられている組織、スペース、およびユーザーと連携して作業することも可能になります。
 
-コマンド・ライン・インターフェースを使用して、作業する {{site.data.keyword.cloud_notm}} 地域に接続するには、bx api コマンドを使用して地域の API エンドポイントを指定します。 例えば、
+コマンド・ライン・インターフェースを使用して、作業する {{site.data.keyword.cloud_notm}} 地域に接続するには、ibmcloud api コマンドを使用して地域の API エンドポイントを指定します。 例えば、
 {{site.data.keyword.cloud_notm}} ヨーロッパ・英国地域に接続するには、次のコマンドを入力します。
 
 ```
-bx api https://api.eu-gb.bluemix.net
+ibmcloud api https://api.eu-gb.bluemix.net
 ```
 
 各地域に固有の接頭部が割り当てられています。 {{site.data.keyword.cloud_notm}} には、次の地域と、地域接頭部が用意されています。

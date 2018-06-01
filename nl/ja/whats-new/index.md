@@ -23,7 +23,7 @@ lastupdated: "2018-05-02"
 ### {{site.data.keyword.Bluemix_notm}} アカウントでの多要素認証
 最新情報: 2018 年 5 月 2 日
 
-多要素認証 (MFA) ではセキュリティーに層が 1 つ追加されて、すべてのユーザーが、ログイン中に標準 IBM ID およびパスワードに加えて、時間ベースのワンタイム・パスコードも入力することが必要になります。これは、一般的に 2 要素認証 (2FA) とも呼ばれています。 MFA はアカウント単位で有効にされ、いったんオンにされると、そのアカウント内のすべてのユーザーは、追加セキュリティー手段を使用してログインすることが必要になります。
+多要素認証 (MFA) ではセキュリティーに層が 1 つ追加されて、すべてのユーザーが、ログイン中に標準 IBM ID およびパスワードに加えて、時間ベースのワンタイム・パスコードも入力することが必要になります。 これは、一般的に 2 要素認証 (2FA) とも呼ばれています。 MFA はアカウント単位で有効にされ、いったんオンにされると、そのアカウント内のすべてのユーザーは、追加セキュリティー手段を使用してログインすることが必要になります。
 
 詳しくは、[IBM Cloud Platform now adds support for Multi-Factor Authentication}](https://www.ibm.com/blogs/bluemix/2018/05/ibm-cloud-platform-now-adds-support-multi-factor-authentication/){: new_window} ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン") ブログ投稿を参照してください。
 
@@ -244,7 +244,7 @@ Identity and Access Management (IAM) では、サービス ID を作成する機
 
 ### {{site.data.keyword.containerlong_notm}} での Kubernetes Dashboard アクセス
 
-{{site.data.keyword.Bluemix_notm}} コンソールを介した Kubernetes Dashboard への直接アクセスが {{site.data.keyword.containerlong_notm}} でサポートされるようになりました。ダッシュボードへのパスがこのように単純になったことにより、クラスター管理およびリソース可視化についてのユーザー・エクスペリエンスが強化されます。詳しくは、[{{site.data.keyword.Bluemix_notm}} ブログ ](https://www.ibm.com/blogs/bluemix/2018/04/kubernetes-dashboard-access/){: new_window} ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン") を参照してください。
+{{site.data.keyword.Bluemix_notm}} コンソールを介した Kubernetes Dashboard への直接アクセスが {{site.data.keyword.containerlong_notm}} でサポートされるようになりました。 ダッシュボードへのパスがこのように単純になったことにより、クラスター管理およびリソース可視化についてのユーザー・エクスペリエンスが強化されます。 詳しくは、[{{site.data.keyword.Bluemix_notm}} ブログ ](https://www.ibm.com/blogs/bluemix/2018/04/kubernetes-dashboard-access/){: new_window} ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン") を参照してください。
 
 ### ビルドパックの最新の更新
 
@@ -291,7 +291,7 @@ Liberty ビルドパック v3.9 は、新規の月次の Liberty ランタイム
 
 {{site.data.keyword.streaminganalyticsshort}} は、Kubernetes コンテナー・ベースのインフラストラクチャーで稼働するようになり、これによって、このサービスのセキュリティーおよび可用性が高まります。
  
-この新しいコンテナー・ベースのインフラストラクチャーには [v2 サービス・プラン](/docs/services/StreamingAnalytics/service_plans.html#service_plans)を使用してアクセスできます。行う必要のある作業に最も適した {{site.data.keyword.streaminganalyticsshort}} プランを選択できます。v2 サービス・プランに含まれる機能拡張を以下に示します。
+この新しいコンテナー・ベースのインフラストラクチャーには [v2 サービス・プラン](/docs/services/StreamingAnalytics/service_plans.html#service_plans)を使用してアクセスできます。 行う必要のある作業に最も適した {{site.data.keyword.streaminganalyticsshort}} プランを選択できます。 v2 サービス・プランに含まれる機能拡張を以下に示します。
  
 * [IBM Streams QSE with Docker](https://www-01.ibm.com/marketing/iwm/iwm/web/preLogin.do?source=swg-ibmistvi)![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン"): Docker 環境で稼働する新しい Streams QSE (RHEL 7 上) を使用して、新しい {{site.data.keyword.streaminganalyticsshort}} v2 プランでアプリケーションをコンパイルおよびデプロイする方法については、[ Development Guide](https://developer.ibm.com/streamsdev/docs/cloud-beta-devguide/)![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン") を参照してください。 
 * [{{site.data.keyword.streaminganalyticsshort}} v2 REST API](https://console.bluemix.net/apidocs/1939-streaming-analytics-v2#introduction)![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")
@@ -517,7 +517,7 @@ Python および Java アプリケーションの場合、ソース・ファイ�
 
 以下の表に、新しい名前をまとめています。
 
-| 以前の名前               | 新規名                   | 発効日 |
+| 以前の名前                  | 新しい名前                 | 発効日 |
 |-----------------------------|----------------------------|----------------|
 | IBM dashDB for Analytics    | IBM Db2 Warehouse on Cloud | 2017 年 7 月 18 日  |
 {: caption="表 1. サービス名の変更" caption-side="top"}

@@ -4,7 +4,7 @@ copyright:
 
   years: 2017, 2018
 
-lastupdated: "2018-04-02"
+lastupdated: "2018-05-22"
 
 ---
 
@@ -60,7 +60,7 @@ CRN の基本正規フォーマットは、次のとおりです。
 
 `service-name` はリソースが属しているサービスを識別し、{{site.data.keyword.Bluemix_notm}} はサービス名がグローバルに固有であるようにします。 `service-name` には、小文字の英数字を使用しなければならず、スペースも「-」以外の特殊文字も使用できません。
 
-{{site.data.keyword.Bluemix_notm}} カタログに登録済みのサービスの場合、`service-name` は、{{site.data.keyword.Bluemix_notm}} グローバル・カタログ・サービスに登録されたサービスの 1 つに対応していなければなりません。 それは、対応するリソース・インスタンスに対して {{site.data.keyword.Bluemix_notm}} グローバル・カタログ・サービス API `GET https://resource-catalog.bluemix.net/api/v1/{id}` によって返される `name` プロパティーであるか、または、コマンド・ライン・インターフェース `bx service offerings` によって列 `service` に表示される `service-name` です。
+{{site.data.keyword.Bluemix_notm}} カタログに登録済みのサービスの場合、`service-name` は、{{site.data.keyword.Bluemix_notm}} グローバル・カタログ・サービスに登録されたサービスの 1 つに対応していなければなりません。 それは、対応するリソース・インスタンスに対して {{site.data.keyword.Bluemix_notm}} グローバル・カタログ・サービス API `GET https://resource-catalog.bluemix.net/api/v1/{id}` によって返される `name` プロパティーであるか、または、コマンド・ライン・インターフェース `ibmcloud service offerings` によって列 `service` に表示される `service-name` です。
 
 
 ## location
@@ -137,7 +137,7 @@ CRN の基本正規フォーマットは、次のとおりです。
 
 以下の CLI コマンドを使用して {{site.data.keyword.Bluemix_notm}} リソースから CRN を取得することもできます。
 ```
-bluemix resource service-instance
+ibmcloud resource service-instance
 ```
 {: codeblock}
 
