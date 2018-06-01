@@ -23,7 +23,7 @@ Stay up-to-date with the new features and services that are available in {{site.
 ### Protect your service IDs and API keys
 New as of: 1 June 2018
 
-To avoid a situation where your service ID or API key is deleted causing an outage or disruption, you have the option to lock service IDs and API keys by using the UI or CLI. Locking a service ID or API key also prevents any access policies from being changed, deleted, or assigned. For more information, see [Locking a service ID](/docs/iam/serviceid.html#locking-a-service-id) and [Locking an API key](/docs/iam/userid_keys.html#locking-an-api-key).
+To avoid a situation where your service ID or API key is deleted causing an outage or disruption, you have the option to lock service IDs and API keys by using the UI or CLI. Locking a service ID also prevents any access policies from being changed, deleted, or assigned. For more information, see [Locking a service ID](/docs/iam/serviceid.html#locking-a-service-id) and [Locking an API key](/docs/iam/userid_keys.html#locking-an-api-key).
 
 ### Upgrade your Lite account to a Subscription account
 New as of: 31 May 2018
