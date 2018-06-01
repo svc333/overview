@@ -40,7 +40,7 @@ New as of: 02 May 2018
 
 Multi-factor authentication (MFA) adds an extra layer of security to your account by requiring all users to provide a time-based one-time passcode in addition to their standard IBMid and password during log in. This is also commonly known as two-factor authentication (2FA). MFA is enabled per account, and once it is turned on, all users in the account are required to log in using the additional security measure.
 
-For more information, see the [IBM Cloud Platform now adds support for Multi-Factor Authentication}](https://www.ibm.com/blogs/bluemix/2018/05/ibm-cloud-platform-now-adds-support-multi-factor-authentication/){: new_window} ![External link icon](../../icons/launch-glyph.svg "External link icon") blog post.
+For more information, see the [IBM Cloud Platform now adds support for Multi-Factor Authentication](https://www.ibm.com/blogs/bluemix/2018/05/ibm-cloud-platform-now-adds-support-multi-factor-authentication/){: new_window} ![External link icon](../../icons/launch-glyph.svg "External link icon") blog post.
 
 ### Assign access quickly by using access groups
 New as of: 03 April 2018
