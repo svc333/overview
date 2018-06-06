@@ -11,7 +11,7 @@ lastupdated: "2018-03-19"
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
 
-# Termini del glossario per {{site.data.keyword.cloud_notm}} 
+# Termini del glossario per {{site.data.keyword.cloud_notm}}
 {: #glossary}
 
 Questo glossario fornisce termini e definizioni per {{site.data.keyword.cloud_notm}}.
@@ -25,7 +25,7 @@ In questo glossario vengono utilizzati i seguenti riferimenti incrociati:
 
 Per altri termini e definizioni, vedere il [sito Web della terminologia IBM](http://www-01.ibm.com/software/globalization/terminology/){: new_window}.
 
-<!--If you do not want letter links at the top of your 
+<!--If you do not want letter links at the top of your
 glossary, delete the text between these comment tags.
 [A](#glossa)
 [B](#glossb)
@@ -132,8 +132,8 @@ Un'immagine che non ha alcuna immagine principale. Vedi anche [immagine](#x20249
 ### servizio beta
 {: #x7470455}
 
-Un servizio che non è pronto per la produzione
-ed è a una fase di sviluppo di prova. Vedi anche [servizio
+Un servizio che non è pronto per la produzione ed è a una
+fase di sviluppo di prova. Vedi anche [servizio
 sperimentale](#x7470450).
 
 ### eseguire il bind
@@ -286,7 +286,7 @@ Un processo che richiama l'output di una build, impacchetta l'output con le prop
 ### DevOps
 {: #x5784896}
 
-Una metodologia software che integra lo sviluppo delle applicazioni e le operazioni IT in modo che i team possano distribuire il codice più velocemente per la produzione e interagire in modo continuo in base al feedback del mercato. 
+Una metodologia software che integra lo sviluppo delle applicazioni e le operazioni IT in modo che i team possano distribuire il codice più velocemente per la produzione e interagire in modo continuo in base al feedback del mercato.
 
 ### dominio
 {: #x2021210}
@@ -650,7 +650,7 @@ Inviare le informazioni da un server ad un client. Quando un server esegue il pu
 ### notifica di push
 {: #x5599582}
 
-Un avviso che indica una modifica o un aggiornamento su un'icona dell'applicazione mobile. 
+Un avviso che indica una modifica o un aggiornamento su un'icona dell'applicazione mobile.
 
 
 ## R
@@ -692,7 +692,7 @@ o che può essere riservato, per un'istanza di servizio o applicazione.  Esempi 
 ### gruppo di risorse
 {: #x2161955}
 
-L'ambiente e i vincoli che vengono rispettati delle istanze della risorsa contenute. Un utente può essere associato a un gruppo di risorse per abilitare la collaborazione. 
+L'ambiente e i vincoli che vengono rispettati delle istanze della risorsa contenute. Un utente può essere associato a un gruppo di risorse per abilitare la collaborazione.
 
 ### REST
 {: #x3220987}
@@ -749,7 +749,8 @@ le applicazioni client/server possono comunicare in un modo progettato per evita
 {: #x2038343}
 
 Un'estensione cloud che fornisce una funzionalità pronta per l'uso, come ad esempio
-software web, di messaggistica e database per l'esecuzione di codice o funzionalità di monitoraggio o gestione delle applicazioni. I servizi di norma non richiedono installazione o manutenzione e possono essere combinati per creare delle applicazioni.
+software web, di messaggistica e database per l'esecuzione di codice o funzionalità di monitoraggio o gestione delle applicazioni. I servizi di norma non richiedono installazione o manutenzione
+e possono essere combinati per creare delle applicazioni.
 
 ### sessione
 {: #x2004539}
@@ -950,3 +951,4 @@ Un formato file compresso, definito dallo standard Java EE, per la memorizzazion
 {: #x2096037}
 
 Un contesto che contiene una raccolta di risorse utente che possono essere modificate da un utente con autorizzazioni appropriate.
+

@@ -3,7 +3,7 @@
 
 copyright:
   years: 2016, 2018
-lastupdated: "2018-02-13"
+lastupdated: "2018-05-22"
 
 ---
 
@@ -86,10 +86,10 @@ Utilizza il selettore della regione nella console per filtrare la tua vista. Ad 
 
 Filtrare la tua vista in base alla regione ti consente anche di passare rapidamente da una vista a un'altra per lavorare con organizzazioni, spazi e utenti assegnati a regioni differenti.
 
-Puoi utilizzare l'interfaccia riga di comando per connetterti alla regione {{site.data.keyword.cloud_notm}} con cui vuoi lavorare utilizzando il comando bx api e specificando l'endpoint API della regione. Ad esempio, immetti il seguente comando per stabilire una connessione alla regione {{site.data.keyword.cloud_notm}} Europa Regno Unito:
+Puoi utilizzare l'interfaccia riga di comando per connetterti alla regione {{site.data.keyword.cloud_notm}} con cui vuoi lavorare utilizzando il comando ibmcloud api e specificando l'endpoint API della regione. Ad esempio, immetti il seguente comando per stabilire una connessione alla regione {{site.data.keyword.cloud_notm}} Europa Regno Unito:
 
 ```
-bx api https://api.eu-gb.bluemix.net
+ibmcloud api https://api.eu-gb.bluemix.net
 ```
 
 A

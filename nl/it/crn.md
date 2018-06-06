@@ -4,7 +4,7 @@ copyright:
 
   years: 2017, 2018
 
-lastupdated: "2018-04-02"
+lastupdated: "2018-05-22"
 
 ---
 
@@ -60,7 +60,7 @@ Il segmento `service-name` identifica in modo univoco una capacità (servizio, c
 
 Il `service-name` indica il servizio a cui appartiene la risorsa e {{site.data.keyword.Bluemix_notm}} applica l'unicità globale dei nomi dei servizi. Il `service-name` deve essere alfanumerico, in minuscolo, senza spazi o caratteri speciali diversi da '-'.
 
-Per i servizi registrati nel catalogo {{site.data.keyword.Bluemix_notm}}, il `service-name` deve corrispondere a uno dei servizi registrati nel servizio del Catalogo globale di {{site.data.keyword.Bluemix_notm}}. È la proprietà `name` restituita dall'API del servizio Catalogo globale di {{site.data.keyword.Bluemix_notm}} `GET https://resource-catalog.bluemix.net/api/v1/{id}` per l'istanza della risorsa corrispondente o il `service-name` visualizzato dall'interfaccia della riga di comando: `bx service offerings` nella colonna `service`.
+Per i servizi registrati nel catalogo {{site.data.keyword.Bluemix_notm}}, il `service-name` deve corrispondere a uno dei servizi registrati nel servizio del Catalogo globale di {{site.data.keyword.Bluemix_notm}}. È la proprietà `name` restituita dall'API del servizio Catalogo globale di {{site.data.keyword.Bluemix_notm}} `GET https://resource-catalog.bluemix.net/api/v1/{id}` per l'istanza della risorsa corrispondente o il `service-name` visualizzato dall'interfaccia della riga di comando: `ibmcloud service offerings` nella colonna `service`.
 
 
 ## location
@@ -119,7 +119,7 @@ Il valore del segmento `scope` deve essere formattato come `{scopePrefix}`/`{id}
 | Account | a/`{account id}` | L'account in cui è stata creata la risorsa. | a/292558 |
 | Organizzazione | o/`{org guid}` | L'organizzazione {{site.data.keyword.Bluemix_notm}} a cui è stata assegnata la risorsa. | o/4716e2d1-35b7-431f-891a-b552bf0b3c66 |
 | Spazio | s/`{space guid}` | Lo spazio {{site.data.keyword.Bluemix_notm}} a cui è stata assegnata la risorsa. | s/48b3cdcd-e804-4398-9032-73065863ad7c |
-{: caption="Tabella 2. Utilizzo di scope" caption-side="top"}
+{: caption="Tabella 2. Utilizzo di `scope` " caption-side="top"}
 
 L'`account id` deve essere l'ID account IBM (account collegati {{site.data.keyword.Bluemix_notm}} e Softlayer).
 
@@ -137,7 +137,7 @@ Ad esempio, uno strumento DevOps per tracciare e pianificare gli elementi di lav
 
 Puoi anche ottenere un CRN da una risorsa {{site.data.keyword.Bluemix_notm}} utilizzando il seguente comando CLI:
 ```
-bluemix resource service-instance
+ibmcloud resource service-instance
 ```
 {: codeblock}
 

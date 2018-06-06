@@ -3,7 +3,7 @@
 
 copyright:
   years: 2016, 2018
-lastupdated: "2018-04-02"
+lastupdated: "2018-05-22"
 
 ---
 
@@ -31,4 +31,4 @@ Extended Support Release](https://www.mozilla.org/firefox/organizations/)
 ## CLI (Command Line Interface)
 {: #cli}
 
-La `bluemix cli` viene costantemente modificata, per cui si consiglia di utilizzare l'[ultima versione](/docs/cli/reference/bluemix_cli/all_versions.html) che raggruppa anche la `cf cli` Cloud Foundry. 
+La CLI {{site.data.keyword.Bluemix_notm}} è in continua evoluzione, pertanto si consiglia di utilizzare la [versione più recente](/docs/cli/reference/bluemix_cli/all_versions.html) che raggruppa anche la `cf cli` Cloud Foundry. 

@@ -287,7 +287,7 @@ Il pacchetto di build Liberty v3.9 fornisce una nuova versione di runtime Libert
 {: #services_category}
 
 ### {{site.data.keyword.streaminganalyticsshort}} introduce dei nuovi piani di servizio con un'infrastruttura basata sui contenitori
-Novità a partire dal: 20 aprile 2018 
+Novità a partire dal: 20 aprile 2018
 
 {{site.data.keyword.streaminganalyticsshort}} è ora in esecuzione su un'infrastruttura basata sui contenitori Kubernetes che fornisce al servizio vantaggi da un punto di vista di sicurezza e disponibilità.
  

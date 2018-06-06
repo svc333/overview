@@ -53,4 +53,4 @@ Servizio TTY
 
 ## IBM e l'accesso facilitato
 
-Per ulteriori informazioni sull'impegno di IBM riguardo all'accesso facilito, vedi [IBM Accessibility ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")](www.ibm.com/able){: new_window}.
+Per ulteriori informazioni sull'impegno di IBM riguardo all'accesso facilito, vedi [IBM Accessibility ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")](http://www.ibm.com/able){: new_window}.

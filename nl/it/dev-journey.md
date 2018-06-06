@@ -72,7 +72,7 @@ Il codice creato da un kit starter {{site.data.keyword.cloud_notm}} ha quattro c
 * **Abilitazione del servizio** è il codice che consente alla tua applicazione di collegarsi e utilizzare i servizi che aggiungi. Gestione delle credenziali, codice di inizializzazione e SDK specifici del servizio sono esempi di elementi di abilitazione del servizio.
 * **Abilitazione cloud** è il codice che consente alla tua applicazione l'esecuzione su {{site.data.keyword.cloud_notm}}. Ad esempio, i grafici Helm che consentono alla tua applicazione l'esecuzione su un cluster Kubernetes {{site.data.keyword.cloud_notm}}.
 
-L'applicazione prodotta da {{site.data.keyword.cloud_notm}} non dispone solo di un'architettura comprovata, ma riflette anche le procedure ottimali per il linguaggio da te selezionato.  
+Quando crei un'applicazione dal kit starter {{site.data.keyword.cloud_notm}}, la tua applicazione viene avviata con un'architettura comprovata che riflette anche le procedure ottimali per il linguaggio che hai selezionato.
 
 Ogni applicazione include un file readme che contiene i dettagli tecnici dell'applicazione e spiega cosa è necessario perché la tua applicazione sia in esecuzione se non lo è immediatamente.
 {: tip}
@@ -93,7 +93,7 @@ Puoi quindi utilizzare questa toolchain per ospitare più team e distribuire ad 
 Puoi anche dare una rapida occhiata al tuo codice dell'applicazione facendo clic sul pulsante **Download** nella pagina della panoramica dell'applicazione del dashboard di sviluppo. Il tuo codice viene scaricato come un file `.zip` contenente la struttura dell'applicazione completa. Puoi facilmente estrarre il file ed eseguire il codice localmente utilizzando la {{site.data.keyword.dev_cli_notm}} o aggiungerlo al tuo repository di gestione del codice.
 
 ## Interfaccia riga di comando
-{{site.data.keyword.dev_cli_notm}} ti abilita a codificare, creare ed eseguire la tua applicazione localmente. Un modello comune consiste nel creare la tua applicazione tramite un dashboard di sviluppo, utilizzare {{site.data.keyword.dev_cli_notm}} per sviluppare localmente e poi trasmettere gli aggiornamenti al tuo repository e unirli per avviare la tua toolchain di distribuzione.
+{{site.data.keyword.dev_cli_notm}} ti abilita a codificare, creare ed eseguire la tua applicazione localmente.  Un modello comune consiste nel creare la tua applicazione tramite un dashboard di sviluppo, utilizzare {{site.data.keyword.dev_cli_notm}} per sviluppare localmente e poi trasmettere gli aggiornamenti al tuo repository e unirli per avviare la tua toolchain di distribuzione.
 
 ## Sviluppo del metodo Garage
 {: #developer_concepts}
