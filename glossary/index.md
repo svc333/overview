@@ -3,7 +3,7 @@
 
 copyright:
   years: 2016, 2018
-lastupdated: "2018-03-19"
+lastupdated: "2018-06-07"
 
 
 ---
@@ -21,9 +21,6 @@ The following cross-references are used in this glossary:
 
 - *See* refers you from a nonpreferred term to the preferred term or from an abbreviation to the spelled-out form.
 - *See also* refers you to a related or contrasting term.
-
-
-For other terms and definitions, see the [IBM Terminology website](http://www-01.ibm.com/software/globalization/terminology/){: new_window}.
 
 <!--If you do not want letter links at the top of your
 glossary, delete the text between these comment tags.
