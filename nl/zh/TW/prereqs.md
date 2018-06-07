@@ -3,7 +3,7 @@
 
 copyright:
   years: 2016, 2018
-lastupdated: "2018-04-02"
+lastupdated: "2018-05-22"
 
 ---
 
@@ -31,4 +31,4 @@ Extended Support Release](https://www.mozilla.org/firefox/organizations/)
 ## 指令行介面 (CLI)
 {: #cli}
 
-`bluemix cli` 不斷變更，因此建議使用[最新版本](/docs/cli/reference/bluemix_cli/all_versions.html)，它也搭載了 Cloud Foundry `cf cli`。 
+{{site.data.keyword.Bluemix_notm}} CLI 不斷變更，因此建議使用[最新版本](/docs/cli/reference/bluemix_cli/all_versions.html)，它也搭載了 Cloud Foundry `cf cli`。 

@@ -53,4 +53,4 @@ TTY 服務
 
 ## IBM 與協助工具
 
-如需 IBM 對協助工具之承諾的相關資訊，請參閱 [IBM 協助工具 ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](www.ibm.com/able){: new_window}。
+如需 IBM 對協助工具之承諾的相關資訊，請參閱 [IBM 協助工具 ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](http://www.ibm.com/able){: new_window}。

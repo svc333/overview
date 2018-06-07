@@ -4,7 +4,7 @@ copyright:
 
   years: 2017, 2018
 
-lastupdated: "2018-04-02"
+lastupdated: "2018-05-22"
 
 ---
 
@@ -60,7 +60,7 @@ CRN 的基本標準格式為：
 
 `service-name` 指出資源所屬的服務，而 {{site.data.keyword.Bluemix_notm}} 會強制服務名稱的廣域唯一性。`service-name` 必須是英數、小寫、沒有空格，或 '-' 以外的特殊字元。
 
-對於登錄至「{{site.data.keyword.Bluemix_notm}} 型錄」的服務，`service-name` 必須對應至登錄至「{{site.data.keyword.Bluemix_notm}} 廣域型錄」服務的其中一個服務。它是「{{site.data.keyword.Bluemix_notm}} 廣域型錄」服務 API `GET https://resource-catalog.bluemix.net/api/v1/{id}` 針對對應資源實例所傳回的 `name` 內容，或指令行介面 `bx service offerings` 在直欄 `service` 中顯示的 `service-name`。
+對於登錄至「{{site.data.keyword.Bluemix_notm}} 型錄」的服務，`service-name` 必須對應至登錄至「{{site.data.keyword.Bluemix_notm}} 廣域型錄」服務的其中一個服務。它是「{{site.data.keyword.Bluemix_notm}} 廣域型錄」服務 API `GET https://resource-catalog.bluemix.net/api/v1/{id}` 針對對應資源實例所傳回的 `name` 內容，或指令行介面 `ibmcloud service offerings` 在直欄 `service` 中顯示的 `service-name`。
 
 
 ## 位置 (location)
@@ -94,13 +94,13 @@ CRN 的基本標準格式為：
 
 | | | | | |
 |---|---|---|---|---|
-| AMS01  | AMS03  | CHE01  | DAL01  |  DAL05  |
-| DAL06  | DAL07  | DAL09  | DAL10  |  DAL12  |
-| DAL13  | FRA02  | HKG02  | HOU02  |  LON02  |
-| MEL01  | MEX01  | MIL01  | MON01  |  OSL01  |
-| PAR01  | SJC01  | SJC03  | SAO01  |  SEA01  |
-| SEO01  | SNG01  | SYD01  | TOK02  |  TOR01  |
-| WDC01  | WDC04  | WDC06  | WDC07  |
+|AMS01  |AMS03  |CHE01  |DAL01  |DAL05  |
+|DAL06  |DAL07  |DAL09  |DAL10  |DAL12  |
+|DAL13  |FRA02  |HKG02  |HOU02  |LON02  |
+|MEL01  |MEX01  |MIL01  |MON01  |OSL01  |
+|PAR01  |SJC01  |SJC03  |SAO01  |SEA01  |
+|SEO01  |SNG01  |SYD01  |TOK02  |TOR01  |
+|WDC01  |WDC04  |WDC06  |WDC07  |
 {: caption="表 1. 有效的「資料中心」值" caption-side="top"}
 
 部分資源不需要地區（它們可視為 `global`）。在此情況下，`region` 區段設為 `global`。
@@ -114,11 +114,11 @@ CRN 的基本標準格式為：
 
 `scope` 區段的值必須格式化為 `{scopePrefix}`/`{id}`。`scopePrefix` 代表用來識別擁有者或包含關係的格式。`id` 會以 `scopePrefix` 特有的格式來代表擁有者或包含關係的身分。
 
-| 範圍類型| 範圍字首| 用法| 範例|
+|範圍類型|範圍字首|用法|範例|
 | --- | --- | --- | --- |
-| 帳戶| a/`{account id}` | 已用來建立資源的帳戶。| a/292558 |
-| 組織| o/`{org guid}` | 已獲指派資源的「{{site.data.keyword.Bluemix_notm}} 組織」。| o/4716e2d1-35b7-431f-891a-b552bf0b3c66 |
-| 空間| s/`{space guid}` | 已獲指派資源的「{{site.data.keyword.Bluemix_notm}} 空間」。| s/48b3cdcd-e804-4398-9032-73065863ad7c |
+|帳戶|a/`{account id}` |已用來建立資源的帳戶。|a/292558 |
+|組織|o/`{org guid}` |已獲指派資源的「{{site.data.keyword.Bluemix_notm}} 組織」。|o/4716e2d1-35b7-431f-891a-b552bf0b3c66 |
+|空間|s/`{space guid}` |已獲指派資源的「{{site.data.keyword.Bluemix_notm}} 空間」。|s/48b3cdcd-e804-4398-9032-73065863ad7c |
 {: caption="表 2. `scope` 用法" caption-side="top"}
 
 `account id` 必須是 IBM 帳戶 ID（{{site.data.keyword.Bluemix_notm}} 及 Softlayer 的已鏈結帳戶）。
@@ -137,7 +137,7 @@ CRN 的基本標準格式為：
 
 您也可以使用下列 CLI 指令，從 {{site.data.keyword.Bluemix_notm}} 資源取得 CRN：
 ```
-bluemix resource service-instance
+ibmcloud resource service-instance
 ```
 {: codeblock}
 
@@ -157,10 +157,10 @@ bluemix resource service-instance
 
 下列是 CRN 範例清單。
 
-| 範例| 值|
+|範例|值|
 | --- | --- |
-| 容器| `crn:v1:bluemix:public:containers-kubernetes:us-south:a/59bcbfa6ea2f006b4ed7094c1a08dcdd:8042b2a8af6a4a5cbf6dbe09e07311d2:worker:kube-hou02-pa8042b2a8af6a4a5cbf6dbe09e07311d2-w1:`|
-| 資源群組| `crn:v1:bluemix:public:resource-controller: global:a/59bcbfa6ea2f006b4ed7094c1a08dcdd:resource-group:59bcbfa6ea2f006b4ed7094c1a08dcdd` |
-| 服務實例| `crn:v1:bluemix:public:cloud-object-storage:global:a/59bcbfa6ea2f006b4ed7094c1a08dcdd:1a0ec336-f391-4091-a6fb-5e084a4c56f4::` |
-| 儲存區| `crn:v1:bluemix:public:cloud-object-storage:global:a/59bcbfa6ea2f006b4ed7094c1a08dcdd:1a0ec336-f391-4091-a6fb-5e084a4c56f4:bucket:mybucket` |
+|容器|`crn:v1:bluemix:public:containers-kubernetes:us-south:a/59bcbfa6ea2f006b4ed7094c1a08dcdd:8042b2a8af6a4a5cbf6dbe09e07311d2:worker:kube-hou02-pa8042b2a8af6a4a5cbf6dbe09e07311d2-w1:`|
+|資源群組|`crn:v1:bluemix:public:resource-controller: global:a/59bcbfa6ea2f006b4ed7094c1a08dcdd:resource-group:59bcbfa6ea2f006b4ed7094c1a08dcdd` |
+|服務實例|`crn:v1:bluemix:public:cloud-object-storage:global:a/59bcbfa6ea2f006b4ed7094c1a08dcdd:1a0ec336-f391-4091-a6fb-5e084a4c56f4::` |
+|儲存區|`crn:v1:bluemix:public:cloud-object-storage:global:a/59bcbfa6ea2f006b4ed7094c1a08dcdd:1a0ec336-f391-4091-a6fb-5e084a4c56f4:bucket:mybucket` |
 {: caption="表 3. CRN 範例" caption-side="top"}

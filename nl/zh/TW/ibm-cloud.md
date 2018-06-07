@@ -3,7 +3,7 @@
 
 copyright:
   years: 2016, 2018
-lastupdated: "2018-02-13"
+lastupdated: "2018-05-22"
 
 ---
 
@@ -86,21 +86,21 @@ lastupdated: "2018-02-13"
 
 根據地區過濾視圖，也可讓您快速切換視圖來處理指派給不同地區的組織、空間及使用者。
 
-您可以使用指令行介面來連接至要使用的 {{site.data.keyword.cloud_notm}} 地區，方法是使用 bx api 指令，並指定地區的 API 端點。例如，輸入下列指令以連接至 {{site.data.keyword.cloud_notm}} 歐洲英國地區：
+您可以使用指令行介面來連接至要使用的 {{site.data.keyword.cloud_notm}} 地區，方法是使用 ibmcloud api 指令，並指定地區的 API 端點。例如，輸入下列指令以連接至 {{site.data.keyword.cloud_notm}} 歐洲英國地區：
 
 ```
-bx api https://api.eu-gb.bluemix.net
+ibmcloud api https://api.eu-gb.bluemix.net
 ```
 
 唯一字首會指派給每一個地區。{{site.data.keyword.cloud_notm}} 提供下列地區及地區字首。
 
-| **地區名稱** | **地理位置** | **cf API 端點** |
+|**地區名稱** |**地理位置** |**cf API 端點** |
 |-----------------|-------------------------|-------------------|
-| 美國南部地區| 美國達拉斯| api.ng.bluemix.net| 
-| 美國東部地區| 美國華盛頓特區| api.us-east.bluemix.net|
-| 英國地區| 英國倫敦| api.eu-gb.bluemix.net| 
-| 雪梨地區| 澳洲雪梨| api.au-syd.bluemix.net| 
-| 德國地區| 德國法蘭克福| api.eu-de.bluemix.net| 
+|美國南部地區|美國達拉斯|api.ng.bluemix.net| 
+|美國東部地區|美國華盛頓特區|api.us-east.bluemix.net|
+|英國地區|英國倫敦|api.eu-gb.bluemix.net| 
+|雪梨地區|澳洲雪梨|api.au-syd.bluemix.net| 
+|德國地區|德國法蘭克福|api.eu-de.bluemix.net| 
 {: caption="表 1. {{site.data.keyword.cloud_notm}} 地區清單" caption-side="top"}
 
 ## {{site.data.keyword.cloud_notm}} 備援
