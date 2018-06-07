@@ -57,4 +57,4 @@ Servicio de teletipo
 
 ## IBM y la accesibilidad
 
-Para obtener más información acerca del compromiso que IBM tiene con la accesibilidad, consulte [Accesibilidad de IBM ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](www.ibm.com/able){: new_window}.
+Para obtener más información acerca del compromiso que IBM tiene con la accesibilidad, consulte [Accesibilidad de IBM ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](http://www.ibm.com/able){: new_window}.

@@ -72,7 +72,7 @@ El código creado a partir de un kit de iniciación de {{site.data.keyword.cloud
 * **Habilitación del servicio** es el código que permite que su app se conecte y utilice los servicios que añade. La gestión de credenciales, el código de inicialización y SDK específicos de servicio son ejemplos de elementos de habilitación del servicio.
 * La **habilitación en la nube** se corresponde con el código que permite ejecutar la app en {{site.data.keyword.cloud_notm}}. Por ejemplo, diagramas de Helm que permiten la ejecución de una app en un clúster Kubernetes de {{site.data.keyword.cloud_notm}}.
 
-La app que {{site.data.keyword.cloud_notm}} crea, no solo está probada de forma arquitectónica, sino que también refleja las prácticas recomendadas para el idioma que ha seleccionado.  
+Cuando se crea una app a partir de un kit de iniciación de {{site.data.keyword.cloud_notm}}, la app se inicia con la arquitectura probada que también refleja las mejores prácticas para el idioma seleccionado.
 
 Cada app incluye un archivo readme que contiene detalles técnicos de la app y explica lo que se necesita para ejecutar la app si no se ejecuta desde un principio.
 {: tip}

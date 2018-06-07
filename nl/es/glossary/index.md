@@ -11,7 +11,7 @@ lastupdated: "2018-03-19"
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
 
-# Términos del glosario de {{site.data.keyword.cloud_notm}} 
+# Términos del glosario de {{site.data.keyword.cloud_notm}}
 {: #glossary}
 
 Este glosario contiene términos y definiciones correspondientes a {{site.data.keyword.cloud_notm}}.
@@ -26,7 +26,7 @@ término preferido o desde una abreviatura a la forma completa.
 
 Para ver otros términos y definiciones, consulte el [sitio web de terminología de IBM](http://www-01.ibm.com/software/globalization/terminology/){: new_window}.
 
-<!--If you do not want letter links at the top of your 
+<!--If you do not want letter links at the top of your
 glossary, delete the text between these comment tags.
 [A](#glossa)
 [B](#glossb)
@@ -935,3 +935,4 @@ Formato de archivo comprimido, definido por el estándar Java EE, para almacenar
 {: #x2096037}
 
 Contexto que contiene un conjunto de artefactos que un usuario con el permiso adecuado puede modificar.
+
