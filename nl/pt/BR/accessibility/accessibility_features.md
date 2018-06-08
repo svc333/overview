@@ -53,4 +53,4 @@ Serviço de TTY (teletipo)
 
 ## IBM e a acessibilidade
 
-Para obter mais informações sobre o compromisso que a IBM tem para com a acessibilidade, consulte [Acessibilidade IBM![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")](www.ibm.com/able){: new_window}.
+Para obter mais informações sobre o compromisso que a IBM tem para com a acessibilidade, consulte [Acessibilidade IBM![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")](http://www.ibm.com/able){: new_window}.

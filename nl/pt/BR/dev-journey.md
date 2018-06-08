@@ -72,7 +72,7 @@ O código criado em um kit do iniciador do {{site.data.keyword.cloud_notm}} tem 
 * **Ativação de serviço** é o código que permite que seu app se conecte e use os serviços que você inclui. O gerenciamento de credencial, o código de inicialização e os SDKs específicos do serviço são exemplos de itens de ativação de serviço.
 * **Ativação de nuvem** é o código que permite que seu app seja executado no {{site.data.keyword.cloud_notm}}. Por exemplo, os gráficos Helm que permitem que seu app seja executado em um cluster do Kubernetes do {{site.data.keyword.cloud_notm}}.
 
-O app produzido pelo {{site.data.keyword.cloud_notm}} não é somente comprovado com relação à arquitetura, mas também reflete as melhores práticas para a linguagem selecionada.  
+Ao criar um app por meio de um kit do iniciador do {{site.data.keyword.cloud_notm}}, seu app iniciará com arquitetura comprovada que também reflete as melhores práticas para a linguagem selecionada.
 
 Cada aplicativo inclui um arquivo leia-me que contém detalhes técnicos do app e explica o que é necessário para deixar seu app em execução caso ele não seja executado pronto para utilização.
 {: tip}
@@ -93,7 +93,7 @@ Se você criou um app usando um kit do iniciador, é possível criar uma nova ca
 Também é possível dar uma olhada rápida no seu código de app clicando no botão **Download** na página de visão geral do app do painel do desenvolvedor. Seu código é transferido por download como um arquivo `.zip` que contém a estrutura do código de app completa. É possível extrair facilmente o arquivo e executar o código localmente usando o {{site.data.keyword.dev_cli_notm}} ou incluí-lo em seu repositório de gerenciamento de código.
 
 ## Interface da linha de comandos
-O {{site.data.keyword.dev_cli_notm}} permite codificar, construir e executar seu app localmente. Um padrão comum é criar seu app por meio de um painel do desenvolvedor, usar o {{site.data.keyword.dev_cli_notm}} para desenvolver localmente e, em seguida, enviar por push as atualizações para seu repositório e mesclar para iniciar sua cadeia de ferramentas de implementação.
+O {{site.data.keyword.dev_cli_notm}} permite codificar, construir e executar seu app localmente.  Um padrão comum é criar seu app por meio de um painel do desenvolvedor, usar o {{site.data.keyword.dev_cli_notm}} para desenvolver localmente e, em seguida, enviar por push as atualizações para seu repositório e mesclar para iniciar sua cadeia de ferramentas de implementação.
 
 ## Desenvolvimento do método Garage
 {: #developer_concepts}

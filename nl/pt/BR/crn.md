@@ -4,7 +4,7 @@ copyright:
 
   years: 2017, 2018
 
-lastupdated: "2018-04-02"
+lastupdated: "2018-05-22"
 
 ---
 
@@ -60,7 +60,7 @@ O segmento `service-name` identifica exclusivamente uma capacidade (serviço, co
 
 O `service-name` indica o serviço ao qual o recurso pertence e o {{site.data.keyword.Bluemix_notm}} cumpre a exclusividade global de nomes de serviços. O `service-name` deve ser alfanumérico, em minúsculas, sem espaços ou caracteres especiais diferentes de '-'.
 
-Para serviços que são registrados no Catálogo do {{site.data.keyword.Bluemix_notm}}, o `service-name` deve corresponder a um dos serviços registrados para o serviço de Catálogo global do {{site.data.keyword.Bluemix_notm}}. É a propriedade `name` retornada pela API do serviço de Catálogo global do {{site.data.keyword.Bluemix_notm}} `GET https://resource-catalog.bluemix.net/api/v1/{id}` para a instância de recurso correspondente ou o `service-name` exibido pela interface da linha de comandos: `bx service offerings` na coluna `service`.
+Para serviços que são registrados no Catálogo do {{site.data.keyword.Bluemix_notm}}, o `service-name` deve corresponder a um dos serviços registrados para o serviço de Catálogo global do {{site.data.keyword.Bluemix_notm}}. É a propriedade `name` retornada pela API do serviço de Catálogo global do {{site.data.keyword.Bluemix_notm}} `GET https://resource-catalog.bluemix.net/api/v1/{id}` para a instância de recurso correspondente ou o `service-name` exibido pela interface da linha de comandos: `ibmcloud service offerings` na coluna `service`.
 
 
 ## localização
@@ -138,7 +138,7 @@ Como um exemplo, uma ferramenta DevOps para rastrear e planejar itens de trabalh
 Também é possível obter uma CRN por meio de um recurso do {{site.data.keyword.Bluemix_notm}}
 usando o comando da CLI a seguir:
 ```
-bluemix resource service-instance
+ibmcloud resource service-instance
 ```
 {: codeblock}
 

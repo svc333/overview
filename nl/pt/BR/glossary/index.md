@@ -11,7 +11,7 @@ lastupdated: "2018-03-19"
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
 
-# Termos do glossário para {{site.data.keyword.cloud_notm}} 
+# Termos do glossário para {{site.data.keyword.cloud_notm}}
 {: #glossary}
 
 Este glossário fornece termos e definições para o {{site.data.keyword.cloud_notm}}.
@@ -25,7 +25,7 @@ As referências cruzadas a seguir são usadas nesse glossário:
 
 Para obter outros termos e definições, consulte o [Website de terminologia da IBM](http://www-01.ibm.com/software/globalization/terminology/){: new_window}.
 
-<!--If you do not want letter links at the top of your 
+<!--If you do not want letter links at the top of your
 glossary, delete the text between these comment tags.
 [A](#glossa)
 [B](#glossb)
@@ -312,8 +312,7 @@ O componente Cloud Foundry que é responsável por implementar aplicativos.
 ### terminal
 {: #x2026820}
 
-O endereço de uma API ou um serviço em um ambiente. Uma API expõe um terminal e, ao mesmo tempo, chama os terminais de outros serviços. 
-Consulte também [rota](#x2037338).
+O endereço de uma API ou um serviço em um ambiente. Uma API expõe um terminal e, ao mesmo tempo, chama os terminais de outros serviços. Consulte também [rota](#x2037338).
 
 ### serviço experimental
 {: #x7470450}
@@ -854,8 +853,7 @@ Um certificado assinado por uma autoridade de certificação (CA) confiável. Co
 ### Identificador Uniforme de Recursos (URI)
 {: #x2116436}
 
-Um endereço exclusivo que é usado para identificar o conteúdo na web. A forma mais comum de URI é o endereço de página da web, que é uma forma ou um subconjunto específico de URI denominado Localizador Uniforme de Recursos (URL). 
-Um URI geralmente descreve como acessar o recurso, o computador que contém o recurso e o local do recurso
+Um endereço exclusivo que é usado para identificar o conteúdo na web. A forma mais comum de URI é o endereço de página da web, que é uma forma ou um subconjunto específico de URI denominado Localizador Uniforme de Recursos (URL). Um URI geralmente descreve como acessar o recurso, o computador que contém o recurso e o local do recurso
 naquele computador.
 
 ### Localizador Uniforme de Recursos (URL)
@@ -943,3 +941,4 @@ Um formato de arquivo compactado, definido pelo padrão Java EE, para armazenar 
 {: #x2096037}
 
 Um contexto que contém uma coleção de artefatos que um usuário com a permissão apropriada pode modificar.
+
