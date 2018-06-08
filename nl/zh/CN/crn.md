@@ -4,7 +4,7 @@ copyright:
 
   years: 2017, 2018
 
-lastupdated: "2018-04-02"
+lastupdated: "2018-05-22"
 
 ---
 
@@ -60,7 +60,7 @@ CRN 的基本规范格式为：
 
 `service-name` 指示资源所属的服务，并且 {{site.data.keyword.Bluemix_notm}} 强制实施服务名称的全局唯一性。`service-name` 必须为字母数字、小写，并且不得包含空格或除“-”之外的特殊字符。
 
-对于注册到 {{site.data.keyword.Bluemix_notm}}“目录”的服务，`service-name` 必须对应于注册到 {{site.data.keyword.Bluemix_notm}}“全局目录”服务的其中一个服务。这是 {{site.data.keyword.Bluemix_notm}}“全局目录”服务 API `GET https://resource-catalog.bluemix.net/api/v1/{id}` 为对应的资源实例返回的 `name` 属性，或者是命令行界面 `bx service offerings` 在 `service` 列中显示的 `service-name`。
+对于注册到 {{site.data.keyword.Bluemix_notm}}“目录”的服务，`service-name` 必须对应于注册到 {{site.data.keyword.Bluemix_notm}}“全局目录”服务的其中一个服务。这是 {{site.data.keyword.Bluemix_notm}}“全局目录”服务 API `GET https://resource-catalog.bluemix.net/api/v1/{id}` 为对应的资源实例返回的 `name` 属性，或者是命令行界面 `ibmcloud service offerings` 在 `service` 列中显示的 `service-name`。
 
 
 ## location
@@ -94,13 +94,13 @@ CRN 的基本规范格式为：
 
 | | | | | |
 |---|---|---|---|---|
-| AMS01  | AMS03  | CHE01  | DAL01  |  DAL05  |
-| DAL06  | DAL07  | DAL09  | DAL10  |  DAL12  |
-| DAL13  | FRA02  | HKG02  | HOU02  |  LON02  |
-| MEL01  | MEX01  | MIL01  | MON01  |  OSL01  |
-| PAR01  | SJC01  | SJC03  | SAO01  |  SEA01  |
-| SEO01  | SNG01  | SYD01  | TOK02  |  TOR01  |
-| WDC01  | WDC04  | WDC06  | WDC07  |
+|AMS01  |AMS03  |CHE01  |DAL01  |DAL05  |
+|DAL06  |DAL07  |DAL09  |DAL10  |DAL12  |
+|DAL13  |FRA02  |HKG02  |HOU02  |LON02  |
+|MEL01  |MEX01  |MIL01  |MON01  |OSL01  |
+|PAR01  |SJC01  |SJC03  |SAO01  |SEA01  |
+|SEO01  |SNG01  |SYD01  |TOK02  |TOR01  |
+|WDC01  |WDC04  |WDC06  |WDC07  |
 {: caption="表 1. 有效的数据中心值" caption-side="top"}
 
 某些资源不需要区域（这些资源可以视为 `global`）。在这种情况下，`region` 分段设置为 `global`。
@@ -114,11 +114,11 @@ CRN 的基本规范格式为：
 
 `scope` 分段值的格式必须设置为 `{scopePrefix}`/`{id}`。`scopePrefix` 表示用于标识所有者或包含范围的格式。`id` 表示所有者或包含范围的身份，其格式特定于 `scopePrefix`。
 
-| 作用域类型| 作用域前缀| 用法| 示例|
+|作用域类型|作用域前缀|用法|示例|
 | --- | --- | --- | --- |
-| 帐户| a/`{account id}`| 已在其中创建资源的帐户。| a/292558|
-| 组织| o/`{org guid}`| 分配有该资源的 {{site.data.keyword.Bluemix_notm}} 组织。| o/4716e2d1-35b7-431f-891a-b552bf0b3c66|
-| 空间| s/`{space guid}`| 分配有该资源的 {{site.data.keyword.Bluemix_notm}} 空间。| s/48b3cdcd-e804-4398-9032-73065863ad7c|
+|帐户|a/`{account id}`|已在其中创建资源的帐户。|a/292558|
+|组织|o/`{org guid}`|分配有该资源的 {{site.data.keyword.Bluemix_notm}} 组织。|o/4716e2d1-35b7-431f-891a-b552bf0b3c66|
+|空间|s/`{space guid}`|分配有该资源的 {{site.data.keyword.Bluemix_notm}} 空间。|s/48b3cdcd-e804-4398-9032-73065863ad7c|
 {: caption="表 2. `scope` 用法" caption-side="top"}
 
 `account id` 必须是 IBM 帐户标识（{{site.data.keyword.Bluemix_notm}} 和 Softlayer 链接帐户）。
@@ -137,7 +137,7 @@ CRN 的基本规范格式为：
 
 您还可以使用以下 CLI 命令从 {{site.data.keyword.Bluemix_notm}} 资源中获取 CRN：
 ```
-bluemix resource service-instance
+ibmcloud resource service-instance
 ```
 {: codeblock}
 
@@ -157,10 +157,10 @@ bluemix resource service-instance
 
 下面是 CRN 示例的列表。
 
-| 示例| 值|
+|示例|值|
 | --- | --- |
-| 容器| `crn:v1:bluemix:public:containers-kubernetes:us-south:a/59bcbfa6ea2f006b4ed7094c1a08dcdd:8042b2a8af6a4a5cbf6dbe09e07311d2:worker:kube-hou02-pa8042b2a8af6a4a5cbf6dbe09e07311d2-w1:`|
-| 资源组| `crn:v1:bluemix:public:resource-controller: global:a/59bcbfa6ea2f006b4ed7094c1a08dcdd:resource-group:59bcbfa6ea2f006b4ed7094c1a08dcdd` |
-| 服务实例| `crn:v1:bluemix:public:cloud-object-storage:global:a/59bcbfa6ea2f006b4ed7094c1a08dcdd:1a0ec336-f391-4091-a6fb-5e084a4c56f4::` |
-| 存储区| `crn:v1:bluemix:public:cloud-object-storage:global:a/59bcbfa6ea2f006b4ed7094c1a08dcdd:1a0ec336-f391-4091-a6fb-5e084a4c56f4:bucket:mybucket` |
+|容器|`crn:v1:bluemix:public:containers-kubernetes:us-south:a/59bcbfa6ea2f006b4ed7094c1a08dcdd:8042b2a8af6a4a5cbf6dbe09e07311d2:worker:kube-hou02-pa8042b2a8af6a4a5cbf6dbe09e07311d2-w1:`|
+|资源组|`crn:v1:bluemix:public:resource-controller: global:a/59bcbfa6ea2f006b4ed7094c1a08dcdd:resource-group:59bcbfa6ea2f006b4ed7094c1a08dcdd` |
+|服务实例|`crn:v1:bluemix:public:cloud-object-storage:global:a/59bcbfa6ea2f006b4ed7094c1a08dcdd:1a0ec336-f391-4091-a6fb-5e084a4c56f4::` |
+|存储区|`crn:v1:bluemix:public:cloud-object-storage:global:a/59bcbfa6ea2f006b4ed7094c1a08dcdd:1a0ec336-f391-4091-a6fb-5e084a4c56f4:bucket:mybucket` |
 {: caption="表 3. CRN 示例" caption-side="top"}

@@ -53,4 +53,4 @@ TTY 서비스
 
 ## IBM 및 접근성
 
-접근성을 위한 IBM의 노력에 대한 자세한 정보는 [IBM 접근성 ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")](www.ibm.com/able){: new_window}을 참조하십시오.
+접근성을 위한 IBM의 노력에 대한 자세한 정보는 [IBM 접근성 ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")](http://www.ibm.com/able){: new_window}을 참조하십시오.

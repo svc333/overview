@@ -4,7 +4,7 @@ copyright:
 
   years: 2017, 2018
 
-lastupdated: "2018-04-02"
+lastupdated: "2018-05-22"
 
 ---
 
@@ -60,7 +60,7 @@ CRN의 기본적인 표준 형식은 다음과 같습니다.
 
 `service-name`은 리소스가 속하는 서비스를 표시하며 {{site.data.keyword.Bluemix_notm}}는 서비스 이름의 글로벌 고유성을 적용합니다. `service-name`은 영숫자, 소문자여야 하며 공백 또는 '-' 이외의 특수 문자는 사용될 수 없습니다.
 
-{{site.data.keyword.Bluemix_notm}} 카탈로그에 등록된 서비스의 경우, `service-name`은 {{site.data.keyword.Bluemix_notm}} 글로벌 카탈로그 서비스에 등록된 서비스 중 하나에 대응해야 합니다. 이는 `service` 열에서 명령행 인터페이스 `bx service offerings`에 의해 표시된 `service-name` 또는 대응되는 리소스 인스턴스에 대해 {{site.data.keyword.Bluemix_notm}} 글로벌 카탈로그 서비스 API `GET https://resource-catalog.bluemix.net/api/v1/{id}`에 의해 리턴된 `name` 특성입니다.
+{{site.data.keyword.Bluemix_notm}} 카탈로그에 등록된 서비스의 경우, `service-name`은 {{site.data.keyword.Bluemix_notm}} 글로벌 카탈로그 서비스에 등록된 서비스 중 하나에 대응해야 합니다. 이는 해당 리소스 인스턴스에 대해 {{site.data.keyword.Bluemix_notm}} 글로벌 카탈로그 서비스 API `GET https://resource-catalog.bluemix.net/api/v1/{id}`에서 리턴한 `name` 특성이거나, 명령행 인터페이스에서 `ibmcloud service offerings`를 실행했을 때 열 `service`에 표시되는 `service-name`입니다. 
 
 
 ## location
@@ -137,7 +137,7 @@ CRN의 기본적인 표준 형식은 다음과 같습니다.
 
 다음 CLI 명령을 사용하여 {{site.data.keyword.Bluemix_notm}} 리소스에서 CRN을 얻을 수 있습니다.
 ```
-bluemix resource service-instance
+ibmcloud resource service-instance
 ```
 {: codeblock}
 

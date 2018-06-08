@@ -23,7 +23,7 @@ lastupdated: "2018-05-02"
 ### {{site.data.keyword.Bluemix_notm}} 계정에 대한 다중 요소 인증
 신규 기준일: 2018년 5월 02일
 
-다중 요소 인증(MFA)은 로그인 중에 모든 사용자가 IBM ID와 비밀번호뿐만 아니라 시간 기반의 일회성 패스코드를 제공하도록 요구하여 사용자 계정에 추가 보안 계층을 추가합니다. 일반적으로 이중 인증(2FA)이라고도 합니다. MFA는 계정별로 사용으로 설정되며 일단 설정되고 나면 계정의 모든 사용자들은 추가적인 보안 방법을 사용하여 로그인해야 합니다. 
+다중 요소 인증(MFA)은 로그인 중에 모든 사용자가 IBM ID와 비밀번호뿐만 아니라 시간 기반의 일회성 패스코드를 제공하도록 요구하여 사용자 계정에 추가 보안 계층을 추가합니다. 일반적으로 이중 인증(2FA)이라고도 합니다. MFA는 계정별로 사용으로 설정되며 일단 설정되고 나면 계정의 모든 사용자들은 추가적인 보안 방법을 사용하여 로그인해야 합니다.
 
 자세한 정보는 [IBM Cloud Platform now adds support for Multi-Factor Authentication](https://www.ibm.com/blogs/bluemix/2018/05/ibm-cloud-platform-now-adds-support-multi-factor-authentication/){: new_window} ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘") 블로그 게시물을 참조하십시오.
 
@@ -293,7 +293,7 @@ Liberty 빌드팩 v3.9는 새 월별 Liberty 런타임 버전을 제공하고 �
  
 [v2 서비스 플랜](/docs/services/StreamingAnalytics/service_plans.html#service_plans)을 사용하여 이 새로운 컨테이너 기반 인프라에 액세스할 수 있습니다. 수행해야 하는 작업에 가장 적합한 {{site.data.keyword.streaminganalyticsshort}} 플랜을 선택할 수 있습니다. v2 서비스 플랜에는 다음 개선사항이 포함되어 있습니다.
  
-* [IBM Streams QSE with Docker](https://www-01.ibm.com/marketing/iwm/iwm/web/preLogin.do?source=swg-ibmistvi)![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘"): [ 개발 안내서](https://developer.ibm.com/streamsdev/docs/cloud-beta-devguide/)![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")를 확인하여 Docker 환경에서 실행되는 새 Streams QSE with RHEL 7을 사용하여 새 {{site.data.keyword.streaminganalyticsshort}} v2 플랜으로 애플리케이션을 컴파일하고 배치하는 방법을 알아보십시오.  
+* [IBM Streams QSE with Docker](https://www-01.ibm.com/marketing/iwm/iwm/web/preLogin.do?source=swg-ibmistvi)![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘"): [ 개발 안내서](https://developer.ibm.com/streamsdev/docs/cloud-beta-devguide/)![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")를 확인하여 Docker 환경에서 실행되는 새 Streams QSE with RHEL 7을 사용하여 새 {{site.data.keyword.streaminganalyticsshort}} v2 플랜으로 애플리케이션을 컴파일하고 배치하는 방법을 알아보십시오. 
 * [{{site.data.keyword.streaminganalyticsshort}} v2 REST API](https://console.bluemix.net/apidocs/1939-streaming-analytics-v2#introduction)![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")
 * [새 스타터 및 샘플 애플리케이션](https://developer.ibm.com/streamsdev/docs/cloud-beta-samples/) ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")
 * [{{site.data.keyword.streaminganalyticsshort}} 서비스의 고가용성 개선사항](/docs/services/StreamingAnalytics/c_ha.html#consistent-regions)

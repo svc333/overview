@@ -3,7 +3,7 @@
 
 copyright:
   years: 2016, 2018
-lastupdated: "2018-04-02"
+lastupdated: "2018-05-22"
 
 ---
 
@@ -30,4 +30,4 @@ lastupdated: "2018-04-02"
 ## 명령행 인터페이스(CLI)
 {: #cli}
 
-Cloud Foundry `cf cli`를 번들화하는 [최신 버전](/docs/cli/reference/bluemix_cli/all_versions.html)을 사용하도록 권장되므로 `bluemix cli`는 계속 변화합니다. 
+{{site.data.keyword.Bluemix_notm}} CLI는 지속적으로 변경되므로 Cloud Foundry `cf cli`도 포함하는 [최신 버전](/docs/cli/reference/bluemix_cli/all_versions.html)을 사용하는 것이 좋습니다.  

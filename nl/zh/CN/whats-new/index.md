@@ -517,9 +517,9 @@ IBM App Launch for {{site.data.keyword.Bluemix_notm}} Services 是一个试验�
 
 下表汇总了新名称：
 
-| 先前名称                    | 新名称                     | 生效日期       |
+|先前名称                    |新名称                     |生效日期       |
 |-----------------------------|----------------------------|----------------|
-| IBM dashDB for Analytics    | IBM Db2 Warehouse on Cloud | 2017 年 7 月 18 日|
+|IBM dashDB for Analytics    |IBM Db2 Warehouse on Cloud |2017 年 7 月 18 日|
 {: caption="表 1. 服务名称更改" caption-side="top"}
 
 有关 Db2 Warehouse on Cloud 和 Db2 on Cloud 更新的累积列表，请参阅：[What's New in Db2 Warehouse on Cloud and Db2 on Cloud](http://www.ibm.com/support/docview.wss?uid=swg21961758){: new_window} ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")。

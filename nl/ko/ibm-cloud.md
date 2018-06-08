@@ -3,7 +3,7 @@
 
 copyright:
   years: 2016, 2018
-lastupdated: "2018-02-13"
+lastupdated: "2018-05-22"
 
 ---
 
@@ -86,10 +86,10 @@ lastupdated: "2018-02-13"
 
 또한 지역으로 보기를 필터링하면 다른 지역에 지정된 조직, 영역 및 사용자에 대해 작업을 수행하기 위해 보기를 빠르게 전환할 수 있습니다.
 
-명령행 인터페이스에서 bx api 명령을 사용하여 작업할 {{site.data.keyword.cloud_notm}} 지역에 연결하고 지역의 API 엔드포인트를 지정할 수 있습니다. 예를 들어, {{site.data.keyword.cloud_notm}} 유럽 영국 지역에 연결하려면 다음 명령을 입력하십시오.
+명령행 인터페이스에서 ibmcloud api 명령을 사용하고 지역의 API 엔드포인트를 지정하여 작업할 {{site.data.keyword.cloud_notm}} 지역에 연결할 수 있습니다. 예를 들어, {{site.data.keyword.cloud_notm}} 유럽 영국 지역에 연결하려면 다음 명령을 입력하십시오.
 
 ```
-bx api https://api.eu-gb.bluemix.net
+ibmcloud api https://api.eu-gb.bluemix.net
 ```
 
 각 지역에 고유한 접두부가 지정됩니다. {{site.data.keyword.cloud_notm}}는 다음과 같은 지역 및 지역 접두부를 제공합니다.

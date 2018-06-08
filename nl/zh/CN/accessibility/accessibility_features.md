@@ -51,4 +51,4 @@ TTY 服务 800-IBM-3383 (800-426-3383)（在北美地区）
 
 ## IBM 与辅助功能选项
 
-有关 IBM 对辅助功能的承诺的更多信息，请参阅 [IBM 辅助功能 ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](www.ibm.com/able){: new_window}。
+有关 IBM 对辅助功能的承诺的更多信息，请参阅 [IBM 辅助功能 ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](http://www.ibm.com/able){: new_window}。
