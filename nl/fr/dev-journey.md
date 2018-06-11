@@ -19,8 +19,8 @@ En tant que développeur, {{site.data.keyword.cloud}} comprend un ensemble de fo
 
 * Sélectionner des kits de démarrage qui sont propres aux cas d'utilisation et produisent des applications de démarrage prêtes pour la production dans une grande variété de langages de programmation et de modèles d'architecture.
 * Afficher et gérer les ressources qui ont été automatiquement mises à disposition à partir de votre kit de démarrage ou que vous avez ajoutées manuellement à votre application.
-* Obtenir un code d'application portable vous permettant d'effectuer un déploiement vers différents environnements de cloud. 
-* Créer une [chaîne d'outils DevOps](../services/ContinuousDelivery/index.html#cd_getting_started) en quelques clics. 
+* Obtenir un code d'application portable vous permettant d'effectuer un déploiement vers différents environnements de cloud.
+* Créer une [chaîne d'outils DevOps](../services/ContinuousDelivery/index.html#cd_getting_started) en quelques clics.
 * Utiliser une [interface de ligne de commande](/docs/cli/idt/index.html) à des fins de développement local.
 
 Pour comprendre comment l'aide au développement {{site.data.keyword.cloud_notm}} peut vous permettre de générer rapidement des applications prêtes pour la production de grande qualité, examinons ces éléments de façon plus détaillée.
@@ -72,7 +72,7 @@ Le code créé à partir d'un kit de démarrage {{site.data.keyword.cloud_notm}}
 * L'**activation de service** est un code qui permet à votre application de se connecter aux services que vous ajoutez et de les utiliser. La gestion des données d'identification, le code d'initialisation et les SDK propres aux services sont des exemples d'éléments d'activation de service.
 * L'**activation du cloud** est un code qui permet à votre application de s'exécuter sur {{site.data.keyword.cloud_notm}}. Par exemple, les graphiques Helm qui permettent à votre application de s'exécuter sur un cluster Kubernetes {{site.data.keyword.cloud_notm}}.
 
-Non seulement, l'application produite par {{site.data.keyword.cloud_notm}} est éprouvée d'un point de vue architectural, mais elle reflète également les meilleures pratiques relatives au langage que vous choisissez.   
+Lorsque vous créez une application à partir d'un kit de démarrage {{site.data.keyword.cloud_notm}}, votre application démarre avec une architecture qui a fait ses preuves et reflète également les meilleures pratiques pour le langage sélectionné.
 
 Chaque application inclut un fichier Readme contenant les détails techniques de l'application et expliquant ce qui est nécessaire pour que votre application soit active si elle n'est pas prête à l'emploi.
 {: tip}
@@ -93,7 +93,7 @@ Vous pouvez ensuite générer sur cette chaîne d'outils afin de satisfaire plus
 Vous pouvez également jeter un coup d'oeil rapide à votre code d'application en cliquant sur le bouton **Télécharger** sur la page de présentation de l'application du tableau de bord de développeur. Votre code est téléchargé en tant que fichier `.zip` contenant l'ensemble de la structure du code d'application. Vous pouvez facilement extraire le fichier et exécuter le code localement à l'aide du plug-in {{site.data.keyword.dev_cli_notm}} ou l'ajouter à votre référentiel de gestion de code.
 
 ## Interface de ligne de commande
-Le plug-in {{site.data.keyword.dev_cli_notm}} vous permet de coder, de générer et d'exécuter votre application localement. La pratique courante consiste à créer une application via un tableau de bord de développeur, utiliser le plug-in {{site.data.keyword.dev_cli_notm}} pour développer localement, puis envoyer les mises à jour au référentiel et fusionner afin de démarrer votre chaîne d'outils de déploiement.
+Le plug-in {{site.data.keyword.dev_cli_notm}} vous permet de coder, de générer et d'exécuter votre application localement.  La pratique courante consiste à créer une application via un tableau de bord de développeur, utiliser le plug-in {{site.data.keyword.dev_cli_notm}} pour développer localement, puis envoyer les mises à jour au référentiel et fusionner afin de démarrer votre chaîne d'outils de déploiement.
 
 ## Développement à l'aide de la méthode Garage
 {: #developer_concepts}

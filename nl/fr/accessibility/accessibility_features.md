@@ -57,4 +57,4 @@ Service de téléscripteur
 
 ## IBM et l'accessibilité
 
-Pour plus d'informations sur l'engagement d'IBM envers l'accessibilité, voir [IBM Accessibility ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](www.ibm.com/able){: new_window}.
+Pour plus d'informations sur l'engagement d'IBM envers l'accessibilité, voir [IBM Accessibility ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](http://www.ibm.com/able){: new_window}.

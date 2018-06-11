@@ -4,7 +4,7 @@ copyright:
 
   years: 2017, 2018
 
-lastupdated: "2018-04-02"
+lastupdated: "2018-05-22"
 
 ---
 
@@ -60,7 +60,7 @@ Le segment `service-name` identifie de manière unique une capacité (service, c
 
 `service-name` indique le service auquel appartient la ressource et {{site.data.keyword.Bluemix_notm}} applique l'unicité globale des noms de service. `service-name` doit être composé de caractères alphanumériques, sans espaces ou caractères spéciaux autres que '-'.
 
-Pour les services enregistrés dans le catalogue {{site.data.keyword.Bluemix_notm}}, `service-name` doit correspondre à l'un des services enregistrés dans le service de catalogue global{{site.data.keyword.Bluemix_notm}}. Il s'agit de la propriété `name` renvoyée par l'API du service de catalogue global {{site.data.keyword.Bluemix_notm}} `GET https://resource-catalog.bluemix.net/api/v1/{id}` pour l'instance de ressource correspondante ou le `service-name` affiché par l'interface de ligne de commande : `bx service offerings` dans la colonne `service`.
+Pour les services enregistrés dans le catalogue {{site.data.keyword.Bluemix_notm}}, `service-name` doit correspondre à l'un des services enregistrés dans le service de catalogue global{{site.data.keyword.Bluemix_notm}}. Il s'agit de la propriété `name` renvoyée par l'API du service de catalogue global {{site.data.keyword.Bluemix_notm}} `GET https://resource-catalog.bluemix.net/api/v1/{id}` pour l'instance de ressource correspondante ou le `service-name` affiché par l'interface de ligne de commande : `ibmcloud service offerings` dans la colonne `service`.
 
 
 ## location
@@ -137,7 +137,7 @@ Par exemple, un outil DevOps de suivi et de planification d'éléments de travai
 
 Vous pouvez également vous procurer un nom de ressource de cloud à partir d'une ressource {{site.data.keyword.Bluemix_notm}} à l'aide de la commande d'interface de ligne de commande suivante :
 ```
-bluemix resource service-instance
+ibmcloud resource service-instance
 ```
 {: codeblock}
 
