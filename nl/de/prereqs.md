@@ -3,7 +3,7 @@
 
 copyright:
   years: 2016, 2018
-lastupdated: "2018-04-02"
+lastupdated: "2018-05-22"
 
 ---
 
@@ -31,4 +31,4 @@ Extended Support Release](https://www.mozilla.org/firefox/organizations/)
 ## Befehlszeilenschnittstelle (Command Line Interface, CLI)
 {: #cli}
 
-Da die `Bluemix-CLI` kontinuierlich geändert wird, empfiehlt es sich, die [neueste Version](/docs/cli/reference/bluemix_cli/all_versions.html) zu verwenden, die auch die Cloud Foundry-CLI `Befehlszeilenschnittstelle 'cf'` beinhaltet. 
+Da die {{site.data.keyword.Bluemix_notm}}-CLI kontinuierlich geändert wird, empfiehlt es sich, die [neueste Version](/docs/cli/reference/bluemix_cli/all_versions.html) zu verwenden, die auch die Cloud Foundry-Befehlszeilenschnittstelle `cf cli` beinhaltet. 

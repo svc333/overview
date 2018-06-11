@@ -3,7 +3,7 @@
 
 copyright:
   years: 2016, 2018
-lastupdated: "2018-02-13"
+lastupdated: "2018-05-22"
 
 ---
 
@@ -94,11 +94,11 @@ Verwenden Sie die Regionenauswahl in der Konsole, um Ihre Ansicht zu filtern. We
 
 Durch Filtern Ihrer Ansicht nach Region können Sie auch schnell zwischen Ansichten wechseln, um mit Organisationen, Bereichen und Benutzern zu arbeiten, die den verschiedenen Regionen zugeordnet sind.
 
-Sie können die Befehlszeilenschnittstelle verwenden, um eine Verbindung zu der {{site.data.keyword.cloud_notm}}-Region herzustellen, mit der Sie arbeiten möchten, indem Sie den Befehl 'bx api' verwenden und den API-Endpunkt der Region angeben. Geben Sie beispielsweise den folgenden Befehl ein, um eine Verbindung zu der
+Sie können die Befehlszeilenschnittstelle verwenden, um eine Verbindung zu der {{site.data.keyword.cloud_notm}}-Region herzustellen, mit der Sie arbeiten möchten, indem Sie den Befehl 'ibmcloud api' verwenden und den API-Endpunkt der Region angeben. Geben Sie beispielsweise den folgenden Befehl ein, um eine Verbindung zu der
 {{site.data.keyword.cloud_notm}}-Region 'Europa - Vereintes Königreich' herzustellen:
 
 ```
-bx api https://api.eu-gb.bluemix.net
+ibmcloud api https://api.eu-gb.bluemix.net
 ```
 
 Jeder Region wird ein eindeutiges Präfix zugewiesen. Für {{site.data.keyword.cloud_notm}}

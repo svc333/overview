@@ -23,9 +23,9 @@ Wenn Sie stets auf dem aktuellen Stand über die neuen Features und Services ble
 ### Mehrfaktorauthentifizierung für Ihr {{site.data.keyword.Bluemix_notm}}-Konto
 Datum der Neuerung: 02. Mai 2018
 
-Die Mehrfaktorauthentifizierung (MFA) fügt eine zusätzliche Sicherheitsebene zu Ihrem Konto hinzu, indem alle Benutzer neben ihrer Standard-IBMid und Ihrem Kennwort während der Anmeldung einen zeitbasierten einmaligen Kenncode eingeben müssen. Dies wird gängigerweise auch als Zwei-Faktor-Authentifizierung (2FA) bezeichnet. Mehrfaktorauthentifizierung wird pro Konto aktiviert und alle Benutzer in dem Konto müssen sich unter Verwendung einer zusätzlichen Sicherheitsmaßnahme anmelden. 
+Die Mehrfaktorauthentifizierung (MFA) fügt eine zusätzliche Sicherheitsebene zu Ihrem Konto hinzu, indem alle Benutzer neben ihrer Standard-IBMid und Ihrem Kennwort während der Anmeldung einen zeitbasierten einmaligen Kenncode eingeben müssen. Dies wird gängigerweise auch als Zwei-Faktor-Authentifizierung (2FA) bezeichnet. Mehrfaktorauthentifizierung wird pro Konto aktiviert und alle Benutzer in dem Konto müssen sich unter Verwendung einer zusätzlichen Sicherheitsmaßnahme anmelden.
 
-Weitere Informationen finden Sie im Blog-Artikel [IBM Cloud Platform now adds support for Multi-Factor Authentication}](https://www.ibm.com/blogs/bluemix/2018/05/ibm-cloud-platform-now-adds-support-multi-factor-authentication/){: new_window} ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link"). 
+Weitere Informationen finden Sie im Blog-Artikel [IBM Cloud Platform now adds support for Multi-Factor Authentication}](https://www.ibm.com/blogs/bluemix/2018/05/ibm-cloud-platform-now-adds-support-multi-factor-authentication/){: new_window} ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link").
 
 ### Mit Zugriffsgruppen schnellen Zugriff zuweisen
 Datum der Neuerung: 03. April 2018
@@ -244,7 +244,7 @@ Durch die neuesten Aktualisierungen und Verbesserungen im April können Sie die 
 
 ### Kubernetes-Dashboard-Zugriff für {{site.data.keyword.containerlong_notm}}
 
-{{site.data.keyword.containerlong_notm}} unterstützt jetzt direkten Zugriff auf das Kubernetes-Dashboard über die {{site.data.keyword.Bluemix_notm}}-Konsole. Dieser vereinfachte Pfad zum Dashboard bietet eine verbesserte Benutzererfahrung für das Cluster-Management und die Darstellung von Ressourcen. Weitere Details finden Sie im [{{site.data.keyword.Bluemix_notm}}-Blog](https://www.ibm.com/blogs/bluemix/2018/04/kubernetes-dashboard-access/){: new_window} ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link"). 
+{{site.data.keyword.containerlong_notm}} unterstützt jetzt direkten Zugriff auf das Kubernetes-Dashboard über die {{site.data.keyword.Bluemix_notm}}-Konsole. Dieser vereinfachte Pfad zum Dashboard bietet eine verbesserte Benutzererfahrung für das Cluster-Management und die Darstellung von Ressourcen. Weitere Details finden Sie im [{{site.data.keyword.Bluemix_notm}}-Blog](https://www.ibm.com/blogs/bluemix/2018/04/kubernetes-dashboard-access/){: new_window} ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link").
 
 ### Neueste Aktualisierungen für Buildpacks
 
@@ -289,11 +289,11 @@ Das Liberty Buildpack v3.9 bietet eine neue monatliche Liberty-Laufzeitversion u
 ### {{site.data.keyword.streaminganalyticsshort}} führt neue Servicepläne mit einer containerbasierten Infrastruktur ein
 Datum der Neuerung: 20. April 2018
 
-{{site.data.keyword.streaminganalyticsshort}} wird jetzt in einer containerbasierten Kubernetes-Infrastruktur ausgeführt, die den Serivce mit Sicherheits- und Verfügbarkeitsvorteilen ausstattet. 
+{{site.data.keyword.streaminganalyticsshort}} wird jetzt in einer containerbasierten Kubernetes-Infrastruktur ausgeführt, die den Serivce mit Sicherheits- und Verfügbarkeitsvorteilen ausstattet.
  
-Sie können auf diese neue containerbasierte Infrastruktur mithilfe von [Serviceplänen der Version 2](/docs/services/StreamingAnalytics/service_plans.html#service_plans) zugreifen. Sie können den {{site.data.keyword.streaminganalyticsshort}}-Plan wählen, der sich am besten für Ihre Arbeit eignet. Die Servicepläne der Version 2 umfassen die folgenden Verbesserungen: 
+Sie können auf diese neue containerbasierte Infrastruktur mithilfe von [Serviceplänen der Version 2](/docs/services/StreamingAnalytics/service_plans.html#service_plans) zugreifen. Sie können den {{site.data.keyword.streaminganalyticsshort}}-Plan wählen, der sich am besten für Ihre Arbeit eignet. Die Servicepläne der Version 2 umfassen die folgenden Verbesserungen:
  
-* [IBM Streams-QSE mit Docker](https://www-01.ibm.com/marketing/iwm/iwm/web/preLogin.do?source=swg-ibmistvi)![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link"): Im [ Development Guide](https://developer.ibm.com/streamsdev/docs/cloud-beta-devguide/)![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link") erfahren Sie, wie Sie die neue Streams-QSE mit RHEL 7 in einer Docker-Umgebung verwenden können, um Ihre Anwendungen mit den neuen {{site.data.keyword.streaminganalyticsshort}}-Plänen der Version 2 zu kompilieren und bereitzustellen.  
+* [IBM Streams-QSE mit Docker](https://www-01.ibm.com/marketing/iwm/iwm/web/preLogin.do?source=swg-ibmistvi)![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link"): Im [ Development Guide](https://developer.ibm.com/streamsdev/docs/cloud-beta-devguide/)![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link") erfahren Sie, wie Sie die neue Streams-QSE mit RHEL 7 in einer Docker-Umgebung verwenden können, um Ihre Anwendungen mit den neuen {{site.data.keyword.streaminganalyticsshort}}-Plänen der Version 2 zu kompilieren und bereitzustellen. 
 * [{{site.data.keyword.streaminganalyticsshort}} v2-REST-API](https://console.bluemix.net/apidocs/1939-streaming-analytics-v2#introduction)![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")
 * [Neue Starter- und Beispielanwendungen ](https://developer.ibm.com/streamsdev/docs/cloud-beta-samples/) ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")
 * [Erweiterungen für hohe Verfügbarkeit im {{site.data.keyword.streaminganalyticsshort}}-Service](/docs/services/StreamingAnalytics/c_ha.html#consistent-regions)

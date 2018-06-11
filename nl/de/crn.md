@@ -4,7 +4,7 @@ copyright:
 
   years: 2017, 2018
 
-lastupdated: "2018-04-02"
+lastupdated: "2018-05-22"
 
 ---
 
@@ -60,7 +60,7 @@ Das Segment `servicename` gibt eindeutig eine Funktion (Service, Komponente, Pro
 
 Das Segment `servicename` gibt den Service an, zu dem die Ressource gehört, und {{site.data.keyword.Bluemix_notm}} erzwingt die globale Eindeutigkeit von Servicenamen. Das Segment `servicename` muss alphanumerisch und kleingeschrieben sein, es darf keine Leerzeichen oder Sonderzeichen (mit Ausnahme von '-') enthalten.
 
-Bei Services, die im {{site.data.keyword.Bluemix_notm}}-Katalog registriert sind, muss das Segment `servicename` einem der Services entsprechen, die für den {{site.data.keyword.Bluemix_notm}} Global Catalog-Service registriert sind. Es handelt sich um die Eigenschaft `name`, die von der {{site.data.keyword.Bluemix_notm}} Global Catalog-Service-API `GET https://resource-catalog.bluemix.net/api/v1/{` für die entsprechende Ressourceninstanz oder das Segment `servicename` zurückgegeben wurde, das von der Befehlszeilenschnittstelle angezeigt wird: `bx service offerings` in der Spalte `service`.
+Bei Services, die im {{site.data.keyword.Bluemix_notm}}-Katalog registriert sind, muss das Segment `servicename` einem der Services entsprechen, die für den {{site.data.keyword.Bluemix_notm}} Global Catalog-Service registriert sind. Es handelt sich um die Eigenschaft `name`, die von der {{site.data.keyword.Bluemix_notm}} Global Catalog-Service-API `GET https://resource-catalog.bluemix.net/api/v1/{` für die entsprechende Ressourceninstanz oder das Segment `servicename` zurückgegeben wurde, das von der Befehlszeilenschnittstelle angezeigt wird: `ibmcloud service offerings` in der Spalte `service`.
 
 
 ## position
@@ -137,7 +137,7 @@ Beispiel: Ein Tool 'devops' könnte zum Verfolgen und Planen von Arbeitselemente
 
 Sie können CRNs auch mit dem folgenden CLI-Befehl von einer {{site.data.keyword.Bluemix_notm}}-Ressource abrufen:
 ```
-bluemix resource service-instance
+ibmcloud resource service-instance
 ```
 {: codeblock}
 

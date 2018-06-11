@@ -53,4 +53,4 @@ TTY-Service
 
 ## IBM und barrierefreie Bedienung
 
-Weitere Informationen zu den Bestrebungen seitens IBM in Bezug auf die barrierefreie Bedienung finden Sie auf der Seite [IBM Accessibility ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](www.ibm.com/able){: new_window}.
+Weitere Informationen zu den Bestrebungen seitens IBM in Bezug auf die barrierefreie Bedienung finden Sie auf der Seite [IBM Accessibility ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](http://www.ibm.com/able){: new_window}.

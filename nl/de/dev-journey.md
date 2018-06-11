@@ -18,9 +18,9 @@ lastupdated: "2018-05-02"
 Für Entwickler bietet {{site.data.keyword.cloud}} eine Reihe von Funktionalitäten, mit denen Apps in wenigen Minuten erstellt werden können. In unseren Entwicklerdashboards können Sie Folgendes tun:
 
 * Starter-Kits auswählen, die anwendungsfallspezifisch sind, und einsatzbereite Starter-Apps in einer Vielzahl von Programmiersprachen und Architekturmustern erzeugen.
-* Ressourcen anzeigen und verwalten, die automatisch von Ihrem Starter-Kit bereitgestellt wurden bzw. die Sie Ihrer App manuell hinzugefügt haben. 
-* Portierbaren App-Code abrufen, mit dem Sie in verschiedenen Cloudumgebungen bereitstellen können. 
-* In wenigen Klicks eine [DevOps-Toolchain](../services/ContinuousDelivery/index.html#cd_getting_started) erstellen. 
+* Ressourcen anzeigen und verwalten, die automatisch von Ihrem Starter-Kit bereitgestellt wurden bzw. die Sie Ihrer App manuell hinzugefügt haben.
+* Portierbaren App-Code abrufen, mit dem Sie in verschiedenen Cloudumgebungen bereitstellen können.
+* In wenigen Klicks eine [DevOps-Toolchain](../services/ContinuousDelivery/index.html#cd_getting_started) erstellen.
 * Eine [Befehlszeilenschnittstelle](/docs/cli/idt/index.html) für die lokale Entwicklung verwenden.
 
 Um zu verstehen, wie die {{site.data.keyword.cloud_notm}}-Entwicklungsumgebung Ihnen helfen kann, schnell qualitativ hochwertige, einsatzbereite Apps zu erstellen, gehen wir auf diese Elemente im Detail ein.
@@ -35,11 +35,11 @@ Jedes Entwicklerdashboard stellt Starter-Kits mit Bezug auf den Schwerpunktberei
 ## Apps
 {: #app-projects}
 
-Eine App umfasst Code, Daten, Services und Toolchains. Beispielsweise enthält die {{site.data.keyword.cloud_notm}} Mobile-App Gerätecode und Back-End-Logik, Datenspeicher, Analyse- und Sicherheitsservices und ist für Continuous Delivery konzipiert. 
+Eine App umfasst Code, Daten, Services und Toolchains. Beispielsweise enthält die {{site.data.keyword.cloud_notm}} Mobile-App Gerätecode und Back-End-Logik, Datenspeicher, Analyse- und Sicherheitsservices und ist für Continuous Delivery konzipiert.
 
 ![Wiederverwenden](images/garage_reuse2.png "Die Entwicklungsumgebung lässt Sie Elemente wiederverwenden und Sie müssen das Rad nicht jedes mal neu erfinden.")
 
-Sie können eine App mithilfe eines beliebigen {{site.data.keyword.cloud_notm}}-Entwicklerdashboards oder der {{site.data.keyword.dev_cli_notm}} erstellen und verwalten. 
+Sie können eine App mithilfe eines beliebigen {{site.data.keyword.cloud_notm}}-Entwicklerdashboards oder der {{site.data.keyword.dev_cli_notm}} erstellen und verwalten.
 
 ## Starter-Kits
 {: #starter-kits}
@@ -57,7 +57,7 @@ Starter-Kits sind sofort einsatzbereit und veranschaulichen in erster Linie die 
 ## Automatisch bereitgestellte Ressourcen
 {: #auto-provision}
 
-Falls ein Starter-Kit erforderliche Ressourcen angibt, erstellt {{site.data.keyword.cloud_notm}} automatisch Instanzen dieser Ressourcen, wenn Sie Ihre App erstellen. Denken Sie daran, dass Sie auch manuell Ressourcen bereitstellen oder vorhandene Ressourceninstanzen auswählen können, die Ihrer App hinzugefügt werden, nachdem sie erstellt wurde. In der Ansicht 'App-Details' können Sie eine Liste von Serviceinstanzen anzeigen, die Ihrer App zugeordnet sind, zusammen mit den ggf. erforderlichen Berechtigungsnachweisen. 
+Falls ein Starter-Kit erforderliche Ressourcen angibt, erstellt {{site.data.keyword.cloud_notm}} automatisch Instanzen dieser Ressourcen, wenn Sie Ihre App erstellen. Denken Sie daran, dass Sie auch manuell Ressourcen bereitstellen oder vorhandene Ressourceninstanzen auswählen können, die Ihrer App hinzugefügt werden, nachdem sie erstellt wurde. In der Ansicht 'App-Details' können Sie eine Liste von Serviceinstanzen anzeigen, die Ihrer App zugeordnet sind, zusammen mit den ggf. erforderlichen Berechtigungsnachweisen.
 
 ## Portierbarer Code
 {: #portable-code}
@@ -72,7 +72,7 @@ Der aus einem {{site.data.keyword.cloud_notm}}-Starter-Kit erstellte Code hat vi
 * **Serviceaktivierung** ist Code, der Ihrer App ermöglicht, die Services, die Sie hinzufügen, zu verbinden und zu verwenden. Verwaltung von Berechtigungsnachweisen, Initialisierungscode und servicespezifische SDKs sind Beispiele für Serviceaktivierungskomponenten.
 * **Cloudaktivierung** ist Code, der Ihre App befähigt, unter {{site.data.keyword.cloud_notm}} ausgeführt zu werden. Beispielsweise Helm-Diagramme, die Ihre App befähigen, in einem {{site.data.keyword.cloud_notm}}-Kubernetes-Cluster ausgeführt zu werden.
 
-Die von {{site.data.keyword.cloud_notm}} erzeugte App hat sich nicht nur architektonisch bewährt, sondern spiegelt auch die Best Practices für die ausgewählte Sprache wider.   
+Wenn Sie eine App auf der Grundlage eines {{site.data.keyword.cloud_notm}}-Starter-Kits erstellen, so baut diese App auf bewährter Architektur auf, die außerdem die bewährten Verfahren (Best Practices) für die von Ihnen ausgewählte Sprache widerspiegelt.
 
 Jede App enthält eine Readme-Datei mit den technischen Details des Projekts und erläutert, welche Schritte ausgeführt werden müssen, wenn Ihre App nicht sofort einsatzbereit ist.
 {: tip}
@@ -93,7 +93,7 @@ Sie können auf der Grundlage dieser Toolchain weiter entwickeln, um mehrere Tea
 Sie können auch einen schnellen Blick auf Ihren App-Code werfen, indem Sie auf der App-Übersichtsseite des Entwicklerdashboards auf die Schaltfläche **Download** klicken. Ihr Code wird in Form einer `.zip`-Datei heruntergeladen, die die vollständige App-Codestruktur enthält. Sie können die Datei einfach erstellen und den Code lokal mithilfe der {{site.data.keyword.dev_cli_notm}} ausführen oder Sie können ihn zu Ihrem Code-Management-Repository hinzufügen.
 
 ## Befehlszeilenschnittstelle
-Mit {{site.data.keyword.dev_cli_notm}} können Sie Ihre App lokal codieren, erstellen und ausführen.  Eine gängige Vorgehensweise besteht darin, Ihre App mithilfe eines Entwicklerdashboards zu erstellen, in {{site.data.keyword.dev_cli_notm}} lokal zu entwickeln und dann die Aktualisierungen per Push-Operation in Ihr Repository zu übertragen und dort zusammenzuführen, um Ihre Toolchain für Bereitstellung zu starten. 
+Mit {{site.data.keyword.dev_cli_notm}} können Sie Ihre App lokal codieren, erstellen und ausführen.  Eine gängige Vorgehensweise besteht darin, Ihre App mithilfe eines Entwicklerdashboards zu erstellen, in {{site.data.keyword.dev_cli_notm}} lokal zu entwickeln und dann die Aktualisierungen per Push-Operation in Ihr Repository zu übertragen und dort zusammenzuführen, um Ihre Toolchain für Bereitstellung zu starten.
 
 ## Garage Method-Entwicklung
 {: #developer_concepts}
