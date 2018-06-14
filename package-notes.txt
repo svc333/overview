@@ -1,3 +1,1 @@
-There are several files that have moved since the last translation shipment.
-
-docs/glossary will move to docs/overview/glossary
+docs/glossary moved to docs/overview/glossary
