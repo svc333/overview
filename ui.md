@@ -3,7 +3,7 @@
 
 copyright:
   years: 2016, 2018
-lastupdated: "2018-05-23"
+lastupdated: "2018-06-14"
 
 ---
 
@@ -27,6 +27,11 @@ If you are an existing user with an {{site.data.keyword.cloud_notm}} account, yo
   * From the **Manage** menu, you can access your account, billing and usage, and security options.
 
 If you linked your {{site.data.keyword.cloud_notm}} and your SoftLayer accounts, you have the same options as a non-linked account owner, plus you can navigate to the customer portal by selecting the **Menu icon  ![Menu icon](../icons/icon_hamburger.svg)  > Infrastructure** option. From here, you can view your account summary, order storage and devices, and manage access for VPN-only users and devices.
+
+## Switching regions
+{: #switchregion}
+
+From the dashboard, you can view all resources across all regions by default. If you want to view and work with resources in a specific region, expand the **LOCATION** menu, and select a region from the list. 
 
 ## Managing resources on the dashboard
 {: #dashboardview}
