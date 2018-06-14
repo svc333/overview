@@ -3,7 +3,7 @@
 
 copyright:
   years: 2016, 2018
-lastupdated: "2018-05-22"
+lastupdated: "2018-06-14"
 
 ---
 
@@ -76,17 +76,11 @@ The dashboard provides various services to fit your cloud infrastructure needs.
 
 An {{site.data.keyword.cloud_notm}} region is a defined geographical territory that you can deploy your apps to. You can create apps and service instances in different regions with the same {{site.data.keyword.cloud_notm}} infrastructure for application management and the same usage details view for billing. You can deploy your apps to the region that is nearest to your customers to get low application latency. To address security issues, you can also select the region where you want to keep the application data. When you build apps in multiple regions, if one region becomes unavailable, the apps that are in the other regions continue to run. Your resource allowance is the same for each region that you use.
 
-If you use the {{site.data.keyword.cloud_notm}} console, you are automatically shown the information for the nearest healthy geographical region. Global load balancing for the console ensures that if for some reason the nearest geographical region for you is down, your console will display the information for the next closest region. This way, you always have access to the console without having to take any action to access the information you need.
+Global load balancing for the console ensures that if for some reason the nearest geographical region for you is down, the console displays the information for the next closest region. This way, you can always access the console without taking any action to access the information you need.
 
-Use the region selector in the console to filter your view. For example, if you are accessing your apps and services in your Dallas, US region, but you want to view your apps and services for the London region, you can use the region selector to change your view:
+From the dashboard, you can view all resources across all regions by default. If you want to view and work with resources in a specific region, expand the **LOCATION** menu, and select a region from the list. 
 
-1. Click the user account preferences link.
-2. Expand the **Region** menu.
-3. Select the region you require from the list.
-
-Filtering your view per region also enables you to quickly switch views to work with orgs, spaces, and users assigned to the different regions.
-
-You can use the command line interface to connect to the {{site.data.keyword.cloud_notm}} region that you want to work with by using the ibmcloud api command and specify the API endpoint of the region. For example, enter the following command to connect to {{site.data.keyword.cloud_notm}} Europe United Kingdom region:
+You can also use the command line interface to connect to the {{site.data.keyword.cloud_notm}} region that you want to work with by using the `ibmcloud api` command and specify the API endpoint of the region. For example, enter the following command to connect to {{site.data.keyword.cloud_notm}} Europe United Kingdom region:
 
 ```
 ibmcloud api https://api.eu-gb.bluemix.net
