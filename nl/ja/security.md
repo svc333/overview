@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2018
-lastupdated: "2017-10-25"
+lastupdated: "2018-06-08"
 
 ---
 
@@ -15,4 +15,4 @@ lastupdated: "2017-10-25"
 
 {{site.data.keyword.cloud_notm}} は、システム、ネットワーキング、およびセキュア・エンジニアリングに関する IBM のベスト・プラクティスに基づいたセキュリティー・ポリシーに準拠することで、セキュリティーが確保されている状態にします。 これらのポリシーには、ソース・コード・スキャン、動的スキャン、脅威のモデル化、侵入テストなどのプラクティスが含まれます。 {{site.data.keyword.cloud_notm}} は、セキュリティー・インシデントの管理について、IBM Product Security Incident Response Team (PSIRT) プロセスに従います。 詳しくは、[IBM Security Vulnerability Management (PSIRT) ![外部リンク・アイコン](../icons/launch-glyph.svg "外部リンク・アイコン")](http://www-03.ibm.com/security/secure-engineering/process.html){: new_window} のサイトを参照してください。
 
-{{site.data.keyword.cloud_notm}} Public および Dedicated では、{{site.data.keyword.BluSoftlayer}} infrastructure-as-a-service (IaaS) クラウド・サービスを使用し、そのセキュリティー・アーキテクチャーを最大限に活用します。 {{site.data.keyword.BluSoftlayer}} IaaS は、ご使用のアプリケーションとデータに対して何重にも重ねた層の保護を提供します。 {{site.data.keyword.cloud_notm}} Local の場合、企業ファイアウォールの背後にあるお客様自身のデータ・センターに {{site.data.keyword.cloud_notm}} Local をホストすることで、お客様が物理的セキュリティーを所有し、インフラストラクチャーを提供します。 さらに、{{site.data.keyword.cloud_notm}} は、Platform as a Service 層で各種カテゴリー (プラットフォーム、データ、およびアプリケーション) のセキュリティー機能を追加します。 PaaS ソリューションのセキュリティー詳細については、[Securing workloads on IBM Cloud  ![外部リンク・アイコン](../icons/launch-glyph.svg "外部リンク・アイコン")](https://developer.ibm.com/cloudarchitecture/docs/security/securing-workloads-ibm-cloud/){: new_window} を参照してください。
+{{site.data.keyword.cloud_notm}} Public および Dedicated では、{{site.data.keyword.BluSoftlayer}} infrastructure-as-a-service (IaaS) クラウド・サービスを使用し、そのセキュリティー・アーキテクチャーを最大限に活用します。 {{site.data.keyword.BluSoftlayer}} IaaS は、ご使用のアプリケーションとデータに対して何重にも重ねた層の保護を提供します。 {{site.data.keyword.cloud_notm}} Local の場合、企業ファイアウォールの背後にあるお客様自身のデータ・センターに {{site.data.keyword.cloud_notm}} Local をホストすることで、お客様が物理的セキュリティーを所有し、インフラストラクチャーを提供します。 さらに、{{site.data.keyword.cloud_notm}} は、Platform as a Service 層で各種カテゴリー (プラットフォーム、データ、およびアプリケーション) のセキュリティー機能を追加します。 PaaS ソリューションのセキュリティー詳細については、[Securing workloads on IBM Cloud  ![外部リンク・アイコン](../icons/launch-glyph.svg "外部リンク・アイコン")](https://www.ibm.com/cloud/garage/architectures/securityArchitecture){: new_window} を参照してください。

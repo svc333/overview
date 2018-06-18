@@ -3,7 +3,7 @@
 
 copyright:
   years: 2016, 2018
-lastupdated: "2018-03-19"
+lastupdated: "2018-06-07"
 
 
 ---
@@ -21,9 +21,6 @@ lastupdated: "2018-03-19"
 
 - *「を参照」*という表記は、非優先用語の場合は優先用語を、省略語の場合は正式な用語を参照するように促すための表記です。
 - *「も参照」*は、関連する用語または対比される用語を示します。
-
-
-その他の用語と定義については、[IBM Terminology Web サイト](http://www-01.ibm.com/software/globalization/terminology/){: new_window}を参照してください。
 
 <!--If you do not want letter links at the top of your
 glossary, delete the text between these comment tags.
@@ -399,7 +396,7 @@ Hypertext Transfer Protocol (HTTP) によって使用されるアクション。
 
 [「Infrastructure as a Service」](#x4585332)を参照。
 
-### IBM クラウド
+### IBM クラウド (IBM Cloud) 
 {: #x7301758}
 
 Web、モバイル、ビッグデータ、スマート・デバイスなど、すべてのタイプのアプリをビルド、管理、および実行するための、クラウド・ベースのオープン・スタンダード・プラットフォームです。 提供する機能には、Java、モバイル・バックエンド開発、アプリケーション・モニターに加え、エコシステム・パートナーやオープン・ソースが提供する機能も含まれ、それらすべてがクラウド内の「サービス」として提供されます。

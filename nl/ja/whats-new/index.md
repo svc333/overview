@@ -4,7 +4,7 @@ copyright:
 
   years: 2015, 2018
 
-lastupdated: "2018-05-02"
+lastupdated: "2018-06-01"
 
 ---
 
@@ -20,12 +20,27 @@ lastupdated: "2018-05-02"
 ## {{site.data.keyword.Bluemix_notm}} プラットフォーム
 {: #platform_category}
 
+### サービス ID および API キーの保護
+最新情報: 2018 年 6 月 1 日
+
+サービス ID または API キーの削除が原因で停止または破壊が発生する状態を回避できるように、UI または CLI を使用してサービス ID および API キーをロックできるオプションがあります。サービス ID をロックすることにより、アクセス・ポリシーの変更、削除、割り当てを防止することもでき、さらに、サービス ID と関連付けられた API キーの作成または削除を防止することもできます。詳しくは、『[サービス ID のロック](/docs/iam/serviceid.html#locking-a-service-id)』および『[API キーのロック](/docs/iam/userid_keys.html#locking-an-api-key)』を参照してください。
+
+### ライト・アカウントからサブスクリプション・アカウントへのアップグレード
+最新情報: 2018 年 5 月 31 日
+
+{{site.data.keyword.Bluemix_notm}} コンソールから直接、ライト・アカウントをサブスクリプション・アカウントにアップグレードできるようになりました。サブスクリプション・アカウントを使用すると、プラットフォームとインフラストラクチャーの両方のオファリングを使用でき、月次支出額および期間を確約することによって割引価格を利用できます。また、月次支払いスケジュールに基づく固定された請求処理によって予期しない請求を回避できる一方、ニーズに合わせて注文量を増減できる柔軟性もあります。詳しくは、『[サブスクリプション・アカウントについての FAQ](/docs/billing-usage/billing-faq.html#subscription-faqs)』を参照してください。 
+
+### {{site.data.keyword.Bluemix_notm}} CLI リブランディング
+最新情報: 2018 年 5 月 15 日
+
+{{site.data.keyword.Bluemix_notm}} CLI コマンドは `bluemix` および `bx` から **ibmcloud** に変更されました。 ただし、後日削除されるまで、`bluemix` および `bx` CLI コマンドを引き続き使用できます。 現時点では短縮名はなく、完全な名前 **ibmcloud** のみです。 
+
 ### {{site.data.keyword.Bluemix_notm}} アカウントでの多要素認証
 最新情報: 2018 年 5 月 2 日
 
 多要素認証 (MFA) ではセキュリティーに層が 1 つ追加されて、すべてのユーザーが、ログイン中に標準 IBM ID およびパスワードに加えて、時間ベースのワンタイム・パスコードも入力することが必要になります。 これは、一般的に 2 要素認証 (2FA) とも呼ばれています。 MFA はアカウント単位で有効にされ、いったんオンにされると、そのアカウント内のすべてのユーザーは、追加セキュリティー手段を使用してログインすることが必要になります。
 
-詳しくは、[IBM Cloud Platform now adds support for Multi-Factor Authentication}](https://www.ibm.com/blogs/bluemix/2018/05/ibm-cloud-platform-now-adds-support-multi-factor-authentication/){: new_window} ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン") ブログ投稿を参照してください。
+詳しくは、[IBM Cloud Platform now adds support for Multi-Factor Authentication](https://www.ibm.com/blogs/bluemix/2018/05/ibm-cloud-platform-now-adds-support-multi-factor-authentication/){: new_window} ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン") ブログ投稿を参照してください。
 
 ### アクセス・グループを使用した迅速なアクセス権限の割り当て
 最新情報: 2018 年 4 月 3 日
@@ -35,7 +50,7 @@ lastupdated: "2018-05-02"
 ### SoftLayer アカウントと {{site.data.keyword.Bluemix_notm}} アカウントのリンク
 最新情報: 2018 年 3 月 1 日
 
-SoftLayer アカウントを {{site.data.keyword.Bluemix_notm}} アカウントとリンクして、単一のロケーションである {{site.data.keyword.Bluemix_notm}} コンソールにログインし、Infrastructure as a Service (IaaS) および Platform as a Service (PaaS) の両方のリソースにアクセスできます。 {{site.data.keyword.Bluemix_notm}} を初めて使用する場合、アカウントを作成してリンクすると、{{site.data.keyword.Bluemix_notm}} の無料トライアルを入手できます。 Paas リソースを含む {{site.data.keyword.Bluemix_notm}} アカウントをすでにお持ちの場合は、アカウントをリンクすることで、IaaS リソースおよび PaaS リソースの両方に関する請求を 1 つにまとめることができます。 アカウントを素早くリンクするには、[IaaS アカウントと PaaS アカウントをリンクする手順](https://www.ibm.com/blogs/bluemix/2018/03/follow-steps-link-iaas-paas-accounts/){: new_window} ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")を確認してください。
+SoftLayer アカウントを {{site.data.keyword.Bluemix_notm}} アカウントとリンクして、単一のロケーションである {{site.data.keyword.Bluemix_notm}} コンソールにログインし、Infrastructure as a Service (IaaS) および Platform as a Service (PaaS) の両方のリソースにアクセスできます。 {{site.data.keyword.Bluemix_notm}} を初めて使用する場合、アカウントを作成してリンクすると、無料の {{site.data.keyword.Bluemix_notm}} ライト・アカウントを取得できます。Paas リソースを含む {{site.data.keyword.Bluemix_notm}} アカウントをすでにお持ちの場合は、アカウントをリンクすることで、IaaS リソースおよび PaaS リソースの両方に関する請求を 1 つにまとめることができます。 アカウントを素早くリンクするには、[IaaS アカウントと PaaS アカウントをリンクする手順](https://www.ibm.com/blogs/bluemix/2018/03/follow-steps-link-iaas-paas-accounts/){: new_window} ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")を確認してください。
 
 
 ### {{site.data.keyword.Bluemix_notm}} Foundry Service 米国東部地域が使用可能になりました。
@@ -517,7 +532,7 @@ Python および Java アプリケーションの場合、ソース・ファイ�
 
 以下の表に、新しい名前をまとめています。
 
-| 以前の名前                  | 新しい名前                 | 発効日 |
+| 以前の名前               | 新しい名前                   | 発効日 |
 |-----------------------------|----------------------------|----------------|
 | IBM dashDB for Analytics    | IBM Db2 Warehouse on Cloud | 2017 年 7 月 18 日  |
 {: caption="表 1. サービス名の変更" caption-side="top"}

@@ -3,7 +3,7 @@
 
 copyright:
   years: 2016, 2018
-lastupdated: "2018-01-16"
+lastupdated: "2018-05-23"
 
 ---
 
@@ -31,7 +31,7 @@ lastupdated: "2018-01-16"
 ## ダッシュボードでのリソースの管理
 {: #dashboardview}
 
-ダッシュボードを使用して、{{site.data.keyword.cloud_notm}} リソースの表示および処理を行うことができます。 *リソース* は、サービスからアカウントまで、あらゆるものをカバーする幅広い用語です。 簡潔な定義については、[{{site.data.keyword.cloud_notm}} 用語集](/docs/overview/glossary/index.html#glossr)を参照してください。
+ダッシュボードを使用して、{{site.data.keyword.cloud_notm}} リソースおよび Cloud Foundry サービス・インスタンスの表示および処理を行うことができます。 リソースについて詳しくは、『[リソースとは](/docs/resources/acct_resources.html#resource)』を参照してください。
 
 ### リソースの表示
 
@@ -50,7 +50,7 @@ lastupdated: "2018-01-16"
 リソースに関するさまざまな処理をダッシュボードから行うことができます。
 
   * 各リソースはそれぞれ別の行に表示され、行の最後には「その他のアクション」アイコン ![「その他のアクション」アイコン](../icons/overflow-menu.svg) が組み込まれます。 「その他のアクション」アイコンをクリックして、リソースの開始、停止、名前の変更、または削除を行うことができます。
-  * リソースに対して資格情報または接続をセットアップするには、リソースの名前をクリックして、リソース詳細ページに移動します。 詳しくは、[新しい資格情報の追加](/docs/services/service_credentials.html)および[接続の管理](/docs/cfapps/connecting_apps.html#connect_app)を参照してください。
+  * リソースに対して資格情報または接続をセットアップするには、リソースの名前をクリックして、リソース詳細ページに移動します。 詳しくは、[新しい資格情報の追加](/docs/resources/service_credentials.html)および[接続の管理](/docs/resources/connecting_apps.html#connect_app)を参照してください。
 
 ## カタログでの作業
 {: #catalogcreate}
@@ -61,4 +61,3 @@ lastupdated: "2018-01-16"
 
   * Cloud Foundry リソースの場合、特定の地域を選択してから、サービス・インスタンスが割り当てられる先の組織およびスペースを選択できます。
   * {{site.data.keyword.cloud_notm}} Identity and Access Management (IAM) によって管理されるリソースの場合、デプロイする場所を選択します。 次に、サービス・インスタンスを割り当てる先のリソース・グループを選択します。
-
