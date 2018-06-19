@@ -3,7 +3,7 @@
 
 copyright:
   years: 2016, 2018
-lastupdated: "2018-03-19"
+lastupdated: "2018-06-07"
 
 
 ---
@@ -22,9 +22,6 @@ En este glosario se utilizan las siguientes referencias cruzadas:
 - *Véase* le remite desde un término no preferido al
 término preferido o desde una abreviatura a la forma completa.
 - *Véase también* le remite a un término relacionado u opuesto.
-
-
-Para ver otros términos y definiciones, consulte el [sitio web de terminología de IBM](http://www-01.ibm.com/software/globalization/terminology/){: new_window}.
 
 <!--If you do not want letter links at the top of your
 glossary, delete the text between these comment tags.

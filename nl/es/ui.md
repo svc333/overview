@@ -3,7 +3,7 @@
 
 copyright:
   years: 2016, 2018
-lastupdated: "2018-01-16"
+lastupdated: "2018-05-23"
 
 ---
 
@@ -31,7 +31,7 @@ Si ha enlazado sus cuentas de {{site.data.keyword.cloud_notm}} y SoftLayer, tien
 ## Gestión de recursos en el panel de control
 {: #dashboardview}
 
-Puede utilizar el panel de control para ver y trabajar con los recursos de {{site.data.keyword.cloud_notm}}. *Recursos* es un término amplio que cubre cualquier cosa desde un servicio hasta una cuenta. Para obtener una definición sucinta, consulte el [Glosario de {{site.data.keyword.cloud_notm}}](/docs/overview/glossary/index.html#glossr).
+Puede utilizar el panel de control para ver y trabajar con los recursos de {{site.data.keyword.cloud_notm}} y con las instancias de servicio de Cloud Foundry. Para obtener más información sobre recursos, consulte [¿Qué es un recurso?](/docs/resources/acct_resources.html#resource).
 
 ### Visualización de recursos
 
@@ -50,7 +50,7 @@ A continuación, en función de los elementos que haya seleccionado, puede filtr
 Puede trabajar con sus recursos de varias formas desde el panel de control:
 
   * Cada recurso se visualiza en su propia fila y se incluye un icono de Más acciones ![Icono de Más acciones](../icons/overflow-menu.svg) al final de la fila. Pulse el icono Más acciones para iniciar, detener, renombrar o suprimir un recurso.
-  * Para configurar credenciales o conexiones para un recurso, pulse el nombre del recurso para navegar a la página de detalles del recurso. Para obtener más información, consulte [Adición de una nueva credencial](/docs/services/service_credentials.html) y [Gestión de conexiones](/docs/cfapps/connecting_apps.html#connect_app).
+  * Para configurar credenciales o conexiones para un recurso, pulse el nombre del recurso para navegar a la página de detalles del recurso. Para obtener más información, consulte [Adición de una nueva credencial](/docs/resources/service_credentials.html) y [Gestión de conexiones](/docs/resources/connecting_apps.html#connect_app).
 
 ## Cómo trabajar en el catálogo
 {: #catalogcreate}
@@ -61,4 +61,3 @@ Después de pulsar en el mosaico del recurso que desea crear, puede seleccionar 
 
   * Para los recursos de Cloud Foundry, puede seleccionar una región específica y luego seleccionar la organización o espacio al que asignar la instancia de servicio.
   * Para los recursos gestionados por {{site.data.keyword.cloud_notm}} IAM, seleccione la ubicación en la que desplegarlos. A continuación, seleccione un grupo de recursos al que asignar la instancia de servicio.
-
