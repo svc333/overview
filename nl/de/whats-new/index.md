@@ -4,7 +4,7 @@ copyright:
 
   years: 2015, 2018
 
-lastupdated: "2018-05-02"
+lastupdated: "2018-06-01"
 
 ---
 
@@ -20,12 +20,27 @@ Wenn Sie stets auf dem aktuellen Stand über die neuen Features und Services ble
 ## {{site.data.keyword.Bluemix_notm}}-Plattform
 {: #platform_category}
 
+### Service-IDs und API-Schlüssel schützen
+Datum der Neuerung: 01 Juni 2018
+
+Damit eine Situation vermieden werden kann, in der die Service-ID oder der API-Schlüssel gelöscht und so ein Ausfall oder eine Unterbrechung verursacht wird, können Sie Service-IDs und API-Schlüssel über die Benutzerschnittstelle oder die Befehlszeilenschnittstelle sperren. Das Sperren einer Service-ID verhindert darüber hinaus, dass Zugriffsrichtlinien geändert, gelöscht oder zugewiesen werden und dass API-Schlüssel, die der Service-ID zugewiesen sind, erstellt oder gelöscht werden. Weitere Informationen finden Sie in [Service-ID sperren](/docs/iam/serviceid.html#locking-a-service-id) und [API-Schlüssel sperren](/docs/iam/userid_keys.html#locking-an-api-key).
+
+### Upgrade für das Lite-Konto auf ein Abonnementkonto durchführen
+Datum der Neuerung: 31. Mai 2018
+
+Sie können nun direkt über die {{site.data.keyword.Bluemix_notm}}-Konsole ein Upgrade für Ihr Lite-Konto auf ein Abonnementkonto durchführen. Mit einem Abonnementkonto können Sie sowohl Plattform- als auch Infrastrukturangebote verwenden und Preisnachlässe nutzen, indem Sie eine monatliche Ausgabe- und Laufzeitverpflichtung vereinbaren. Darüber hinaus lassen sich durch festgelegte Abrechnungen im Rahmen eines monatlichen Zahlungsplans Überraschungen vermeiden, während Ihnen gleichzeitig die Flexibilität zur Verfügung steht, das Bestellvolumen nach Bedarf zu erhöhen oder zu reduzieren. Weitere Informationen finden Sie in [Häufig gestellte Fragen zu Abonnementkonten](/docs/billing-usage/billing-faq.html#subscription-faqs). 
+
+### Neuer Markenname in der {{site.data.keyword.Bluemix_notm}}-Befehlszeilenschnittstelle
+Datum der Neuerung: 15. Mai 2018
+
+Die Befehle der {{site.data.keyword.Bluemix_notm}}-Befehlszeilenschnittstelle (CLI) wurden von `bluemix` und `bx` in **ibmcloud** geändert. Sie können die CLI-Befehle `bluemix` und `bx` jedoch weiterhin verwenden, bis sie zu einem späteren Zeitpunkt entfernt werden. Eine Abkürzung des neuen Befehls ist nicht verfügbar, der vollständige Name **ibmcloud** muss verwendet werden. 
+
 ### Mehrfaktorauthentifizierung für Ihr {{site.data.keyword.Bluemix_notm}}-Konto
 Datum der Neuerung: 02. Mai 2018
 
 Die Mehrfaktorauthentifizierung (MFA) fügt eine zusätzliche Sicherheitsebene zu Ihrem Konto hinzu, indem alle Benutzer neben ihrer Standard-IBMid und Ihrem Kennwort während der Anmeldung einen zeitbasierten einmaligen Kenncode eingeben müssen. Dies wird gängigerweise auch als Zwei-Faktor-Authentifizierung (2FA) bezeichnet. Mehrfaktorauthentifizierung wird pro Konto aktiviert und alle Benutzer in dem Konto müssen sich unter Verwendung einer zusätzlichen Sicherheitsmaßnahme anmelden.
 
-Weitere Informationen finden Sie im Blog-Artikel [IBM Cloud Platform now adds support for Multi-Factor Authentication}](https://www.ibm.com/blogs/bluemix/2018/05/ibm-cloud-platform-now-adds-support-multi-factor-authentication/){: new_window} ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link").
+Weitere Informationen finden Sie im Blog-Artikel [IBM Cloud Platform nun mit Unterstützung für die Mehrfaktorauthentifizierung](https://www.ibm.com/blogs/bluemix/2018/05/ibm-cloud-platform-now-adds-support-multi-factor-authentication/){: new_window} ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link").
 
 ### Mit Zugriffsgruppen schnellen Zugriff zuweisen
 Datum der Neuerung: 03. April 2018
@@ -35,7 +50,7 @@ Wollen Sie in der Lage sein, schnell den Zugriff zuzuweisen, indem Sie die klein
 ### SoftLayer- und {{site.data.keyword.Bluemix_notm}}-Konto verknüpfen
 Datum der Neuerung: 1. März 2018
 
-Sie können Ihr SoftLayer-Konto mit Ihrem {{site.data.keyword.Bluemix_notm}}-Konto verknüpfen, um sich zentral anzumelden, bei der {{site.data.keyword.Bluemix_notm}}-Konsole, und sowohl auf die Infrastructure as a Service- (IaaS) als auch auf die Platform as a Service-Ressourcen (PaaS) zuzugreifen. Wenn Sie neu bei {{site.data.keyword.Bluemix_notm}} sind, erstellen und verknüpfen Sie ein Konto, um einen kostenlosen {{site.data.keyword.Bluemix_notm}}-Test zu erhalten. Oder, wenn Sie bereits über ein {{site.data.keyword.Bluemix_notm}}-Konto mit PaaS-Ressourcen verfügen, verknüpfen Sie Ihre Konten, um eine gemeinsame Rechnung für Ihre IaaS- und PaaS-Ressourcen zu erhalten. Weitere Informationen zum schnellen Verknüpfen Ihrer Konten finden Sie in den [Schritten zum Verknüpfen Ihrer IaaS- und PaaS-Konten](https://www.ibm.com/blogs/bluemix/2018/03/follow-steps-link-iaas-paas-accounts/){: new_window} ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link").
+Sie können Ihr SoftLayer-Konto mit Ihrem {{site.data.keyword.Bluemix_notm}}-Konto verknüpfen, um sich zentral anzumelden, bei der {{site.data.keyword.Bluemix_notm}}-Konsole, und sowohl auf die Infrastructure as a Service- (IaaS) als auch auf die Platform as a Service-Ressourcen (PaaS) zuzugreifen. Wenn Sie neu bei {{site.data.keyword.Bluemix_notm}} sind, erstellen und verknüpfen Sie ein Konto, um ein kostenfreies {{site.data.keyword.Bluemix_notm}}-Lite-Konto zu erhalten. Oder, wenn Sie bereits über ein {{site.data.keyword.Bluemix_notm}}-Konto mit PaaS-Ressourcen verfügen, verknüpfen Sie Ihre Konten, um eine gemeinsame Rechnung für Ihre IaaS- und PaaS-Ressourcen zu erhalten. Weitere Informationen zum schnellen Verknüpfen Ihrer Konten finden Sie in den [Schritten zum Verknüpfen Ihrer IaaS- und PaaS-Konten](https://www.ibm.com/blogs/bluemix/2018/03/follow-steps-link-iaas-paas-accounts/){: new_window} ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link").
 
 
 ### {{site.data.keyword.Bluemix_notm}} Foundry-Service jetzt für Region 'Vereinigte Staaten (Osten)' verfügbar

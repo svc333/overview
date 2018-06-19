@@ -3,7 +3,7 @@
 
 copyright:
   years: 2016, 2018
-lastupdated: "2018-03-19"
+lastupdated: "2018-06-07"
 
 
 ---
@@ -11,7 +11,7 @@ lastupdated: "2018-03-19"
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
 
-# Glossareinträge für {{site.data.keyword.cloud_notm}} 
+# Glossareinträge für {{site.data.keyword.cloud_notm}}
 {: #glossary}
 
 In diesem Glossar werden Begriffe und Definitionen für {{site.data.keyword.cloud_notm}} bereitgestellt.
@@ -22,10 +22,7 @@ Folgende Querverweise werden in diesem Glossar verwendet:
 - *Siehe* verweist Sie von einem wenig verwendeten Begriff zu dem bevorzugten Begriff oder von einer Abkürzung auf die ausgeschriebene Form.
 - *Siehe auch* verweist auf einen verwandten oder gegensätzlichen Begriff.
 
-
-Weitere Begriffe und Definitionen finden Sie auf der [Website für IBM Terminologie](http://www-01.ibm.com/software/globalization/terminology/){: new_window}.
-
-<!--If you do not want letter links at the top of your 
+<!--If you do not want letter links at the top of your
 glossary, delete the text between these comment tags.
 [A](#glossa)
 [B](#glossb)
@@ -98,6 +95,7 @@ Eine Webanwendung oder Anwendung für mobile Geräte. Siehe auch [Mobile Anwendu
 {: #x2096037}
 
 Ein Kontext, der eine Sammlung von Artefakten enthält, die von Benutzern mit entsprechender Berechtigung geändert werden können.
+
 ### Artefakt
 {: #x2262995}
 

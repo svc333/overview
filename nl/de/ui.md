@@ -3,7 +3,7 @@
 
 copyright:
   years: 2016, 2018
-lastupdated: "2018-01-16"
+lastupdated: "2018-05-23"
 
 ---
 
@@ -31,7 +31,7 @@ Wenn Sie Ihre {{site.data.keyword.cloud_notm}}- und SoftLayer-Konten verknüpft 
 ## Ressourcen im Dashboard verwalten
 {: #dashboardview}
 
-Sie können das Dashboard verwenden, um {{site.data.keyword.cloud_notm}}-Ressourcen anzuzeigen und mit ihnen zu arbeiten. *Ressourcen* ist eine umfassende Bezeichnung, der von Services bis hin zu Konten alles abdeckt. Eine kurze Definition finden Sie im [ {{site.data.keyword.cloud_notm}}-Glossar](/docs/overview/glossary/index.html#glossr).
+Sie können das Dashboard verwenden, um {{site.data.keyword.cloud_notm}}-Ressourcen und Cloud Foundry-Serviceinstanzen anzuzeigen und mit ihnen zu arbeiten. Weitere Informationen zu Ressourcen finden Sie in [Was ist eine Ressource?](/docs/resources/acct_resources.html#resource).
 
 ### Ressourcen anzeigen
 
@@ -50,7 +50,7 @@ Anschließend können Sie basierend auf den von Ihnen ausgewählten Elementen na
 Sie können über das Dashboard auf unterschiedliche Art und Weise mit Ihren Ressourcen arbeiten:
 
   * Jede Ressource wird in einer eigenen Zeile angezeigt und am Ende der Zeile befindet sich ein Symbol 'Weitere Aktionen' ![Symbol 'Weitere Aktionen'](../icons/overflow-menu.svg). Klicken Sie auf das Symbol 'Weitere Aktionen', um eine Ressource zu starten, zu stoppen, umzubenennen oder zu löschen.
-  * Wenn Sie Berechtigungsnachweise oder Verbindungen für eine Ressource konfigurieren möchten, klicken Sie auf den Namen der Ressource, um zur Seite mit den Ressourcendetails zu navigieren. Weitere Informationen finden Sie unter [Neuen Berechtigungsnachweis hinzufügen](/docs/services/service_credentials.html) und [Verbindungen verwalten](/docs/cfapps/connecting_apps.html#connect_app).
+  * Wenn Sie Berechtigungsnachweise oder Verbindungen für eine Ressource konfigurieren möchten, klicken Sie auf den Namen der Ressource, um zur Seite mit den Ressourcendetails zu navigieren. Weitere Informationen finden Sie unter [Neuen Berechtigungsnachweis hinzufügen](/docs/resources/service_credentials.html) und [Verbindungen verwalten](/docs/resources/connecting_apps.html#connect_app).
 
 ## Im Katalog arbeiten
 {: #catalogcreate}
@@ -61,4 +61,3 @@ Nachdem Sie auf die Kachel für die Ressource geklickt haben, die Sie erstellen 
 
   * Bei Cloud Foundry-Ressourcen können Sie eine bestimmte Region auswählen und dann die Organisation und den Bereich für die Serviceinstanz auswählen, die zugeordnet werden soll.
   * Für Ressourcen, die von {{site.data.keyword.cloud_notm}} Identity and Access Management (IAM) verwaltet werden, wählen Sie eine Position aus, an der die Bereitstellung durchgeführt werden soll. Anschließend wählen Sie eine Ressourcengruppe aus, der die Serviceinstanz zugeordnet werden soll.
-
