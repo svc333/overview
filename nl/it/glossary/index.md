@@ -3,7 +3,7 @@
 
 copyright:
   years: 2016, 2018
-lastupdated: "2018-03-19"
+lastupdated: "2018-06-07"
 
 
 ---
@@ -21,9 +21,6 @@ In questo glossario vengono utilizzati i seguenti riferimenti incrociati:
 
 - *Vedere* rimanda il lettore da un termine non preferenziale a uno preferenziale oppure da un'abbreviazione a una forma estesa del termine.
 - *Vedi anche* ti rimanda a termini correlati o contrari.
-
-
-Per altri termini e definizioni, vedere il [sito Web della terminologia IBM](http://www-01.ibm.com/software/globalization/terminology/){: new_window}.
 
 <!--If you do not want letter links at the top of your
 glossary, delete the text between these comment tags.

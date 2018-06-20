@@ -3,7 +3,7 @@
 
 copyright:
   years: 2016, 2018
-lastupdated: "2018-03-19"
+lastupdated: "2018-06-07"
 
 
 ---
@@ -23,7 +23,6 @@ lastupdated: "2018-03-19"
 - *도 참조하십시오*는 관련되거나 대조적인 용어를 포괄합니다.
 
 
-기타 용어 및 정의는 [IBM 용어 웹 사이트](http://www-01.ibm.com/software/globalization/terminology/){: new_window}를 참조하십시오.
 
 <!--If you do not want letter links at the top of your 
 glossary, delete the text between these comment tags.

@@ -4,7 +4,7 @@ copyright:
 
   years: 2015, 2018
 
-lastupdated: "2018-05-02"
+lastupdated: "2018-06-01"
 
 ---
 
@@ -19,6 +19,21 @@ lastupdated: "2018-05-02"
 
 ## {{site.data.keyword.Bluemix_notm}} 플랫폼
 {: #platform_category}
+
+### 서비스 ID 및 API 키 보호
+신규 기준일: 2018년 6월 1일
+
+서비스 ID 또는 API 키가 삭제되어 중단이 발생하는 상황을 방지하기 위해 UI 또는 CLI를 사용하여 서비스 ID 및 API 키를 잠그는 옵션이 있어야 합니다. 서비스 ID를 잠그면 액세스 정책 변경, 삭제 또는 지정뿐만 아니라 서비스 ID와 연관된 API 키 작성 또는 삭제를 수행할 수 없습니다. 자세한 정보는 [서비스 ID 잠금](/docs/iam/serviceid.html#locking-a-service-id) 및 [API 키 잠금](/docs/iam/userid_keys.html#locking-an-api-key)을 참조하십시오.
+
+### 라이트 계정을 구독 계정으로 업그레이드
+신규 기준일: 2018년 5월 31일
+
+이제 {{site.data.keyword.Bluemix_notm}} 콘솔에서 직접 라이트 계정을 구독 계정으로 업그레이드할 수 있습니다. 구독 계정을 사용하면 플랫폼과 인프라 오퍼링을 둘 다 사용하고 월별 지출 및 기간 약정을 통해 할인 가격을 이용할 수 있습니다. 월별 지불 스케줄에 따라 고정 비용을 청구하지만, 필요에 따라 주문 양을 조정하는 유연성도 제공합니다. 자세한 정보는 [구독 계정 FAQ](/docs/billing-usage/billing-faq.html#subscription-faqs)를 참조하십시오. 
+
+### {{site.data.keyword.Bluemix_notm}} CLI 리브랜딩
+신규 기준일: 2018년 5월 15일
+
+{{site.data.keyword.Bluemix_notm}} CLI 명령은 `bluemix` 및 `bx`에서 **ibmcloud**로 변경되었습니다. 하지만 `bluemix` 및 `bx` CLI 명령은 나중에 제거할 때까지 사용할 수 있습니다. 이제 단축 이름은 없으며 전체 이름 **ibmcloud**만 사용됩니다. 
 
 ### {{site.data.keyword.Bluemix_notm}} 계정에 대한 다중 요소 인증
 신규 기준일: 2018년 5월 02일
@@ -35,7 +50,7 @@ lastupdated: "2018-05-02"
 ### SoftLayer와 {{site.data.keyword.Bluemix_notm}} 계정 연결
 신규 기준일:  2018년 3월 1일
 
-단일 위치, {{site.data.keyword.Bluemix_notm}} 콘솔에 로그인하기 위해 SoftLayer 계정을 {{site.data.keyword.Bluemix_notm}} 계정에 연결하고 IaaS(infrastructure as a service) 및 PaaS(platform as a service) 리소스 모두에 액세스할 수 있습니다. {{site.data.keyword.Bluemix_notm}}의 신규 사용자인 경우 무료 {{site.data.keyword.Bluemix_notm}} 평가판을 얻으려면 계정을 연결하십시오. 또는 이미 PaaS 리소스가 있는 {{site.data.keyword.Bluemix_notm}} 계정을 보유하는 경우 IaaS와 PaaS 리소스에 대해 단일 청구를 받도록 계정을 연결하십시오. 계정을 빠르게 연결하려면 [IaaS 및 PaaS 계정에 연결하기 위한 단계](https://www.ibm.com/blogs/bluemix/2018/03/follow-steps-link-iaas-paas-accounts/){: new_window} ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")를 확인하십시오.
+단일 위치, {{site.data.keyword.Bluemix_notm}} 콘솔에 로그인하기 위해 SoftLayer 계정을 {{site.data.keyword.Bluemix_notm}} 계정에 연결하고 IaaS(infrastructure as a service) 및 PaaS(platform as a service) 리소스 모두에 액세스할 수 있습니다. {{site.data.keyword.Bluemix_notm}}를 처음 사용하는 경우 무료 {{site.data.keyword.Bluemix_notm}} 라이트 계정을 얻으려면 계정을 작성하여 연결하십시오. 또는 이미 PaaS 리소스가 있는 {{site.data.keyword.Bluemix_notm}} 계정을 보유하는 경우 IaaS와 PaaS 리소스에 대해 단일 청구를 받도록 계정을 연결하십시오. 계정을 빠르게 연결하려면 [IaaS 및 PaaS 계정에 연결하기 위한 단계](https://www.ibm.com/blogs/bluemix/2018/03/follow-steps-link-iaas-paas-accounts/){: new_window} ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")를 확인하십시오.
 
 
 ### {{site.data.keyword.Bluemix_notm}} Foundry Service 미국 동부 지역은 지금 사용 가능
@@ -517,9 +532,9 @@ Python 및 Java 애플리케이션의 경우 소스 파일 위치는 @spl_note �
 
 다음 표에서는 새 이름을 요약합니다.
 
-| 이전 이름               | 새 이름                   | 유효 날짜 |
+|이전 이름               |새 이름                   |유효 날짜 |
 |-----------------------------|----------------------------|----------------|
-| IBM dashDB for Analytics    | IBM DB2 Warehouse on Cloud | 2017년 7월 18일  |
+|IBM dashDB for Analytics    |IBM DB2 Warehouse on Cloud |2017년 7월 18일  |
 {: caption="표 1. 서비스 이름 변경" caption-side="top"}
 
 DB2 Warehouse on Cloud 및 DB2 on Cloud에 대한 업데이트의 누적 목록의 경우 [What's New in Db2 Warehouse on Cloud and Db2 on Cloud](http://www.ibm.com/support/docview.wss?uid=swg21961758){: new_window} ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")를 참조하십시오.

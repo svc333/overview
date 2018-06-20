@@ -3,7 +3,7 @@
 
 copyright:
   years: 2016, 2018
-lastupdated: "2018-01-16"
+lastupdated: "2018-05-23"
 
 ---
 
@@ -31,7 +31,7 @@ lastupdated: "2018-01-16"
 ## 在儀表板上管理資源
 {: #dashboardview}
 
-您可以使用儀表板來檢視及使用 {{site.data.keyword.cloud_notm}} 資源。*資源* 是一個廣泛術語，涵蓋從服務到帳戶的任何項目。如需簡潔的定義，請參閱 [{{site.data.keyword.cloud_notm}} 名詞解釋](/docs/overview/glossary/index.html#glossr)。
+您可以使用儀表板，來檢視及使用 {{site.data.keyword.cloud_notm}} 資源與 Cloud Foundry 服務實例。如需資源的相關資訊，請參閱[何謂資源？](/docs/resources/acct_resources.html#resource)。
 
 ### 檢視資源
 
@@ -50,7 +50,7 @@ lastupdated: "2018-01-16"
 您可以從儀表板以各種方式來使用資源：
 
   * 每一個資源都會顯示在它自己的列中，並在列尾端包括「其他動作」圖示 ![「其他動作」圖示](../icons/overflow-menu.svg)。按一下「其他動作」圖示，以啟動、停止、重新命名或刪除資源。
-  * 若要設定資源的認證或連線，請按一下資源的名稱以導覽至資源詳細資料頁面。如需相關資訊，請參閱[新增認證](/docs/services/service_credentials.html)及[管理連線](/docs/cfapps/connecting_apps.html#connect_app)。
+  * 若要設定資源的認證或連線，請按一下資源的名稱以導覽至資源詳細資料頁面。如需相關資訊，請參閱[新增認證](/docs/resources/service_credentials.html)及[管理連線](/docs/resources/connecting_apps.html#connect_app)。
 
 ## 使用型錄
 {: #catalogcreate}
@@ -61,4 +61,3 @@ lastupdated: "2018-01-16"
 
   * 對於 Cloud Foundry 資源，您可以選取特定地區，然後選取要指派服務實例的組織及空間。
   * 對於 {{site.data.keyword.cloud_notm}} Identity and Access Management (IAM) 所管理的資源，您可以選取要在其中部署的位置。然後，您可以選取要指派服務實例的資源群組。
-

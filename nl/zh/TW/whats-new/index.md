@@ -4,7 +4,7 @@ copyright:
 
   years: 2015, 2018
 
-lastupdated: "2018-05-02"
+lastupdated: "2018-06-01"
 
 ---
 
@@ -19,6 +19,21 @@ lastupdated: "2018-05-02"
 
 ## {{site.data.keyword.Bluemix_notm}} 平台
 {: #platform_category}
+
+### 保護您的服務 ID 及 API 金鑰
+文件日期：2018 年 6 月 1 日
+
+若要避免刪除服務 ID 或 API 金鑰導致中斷或毀壞的狀況，您可以選擇使用 CLI 或使用者介面來鎖定服務 ID 及 API 金鑰。鎖定服務 ID 也可防止變更、刪除或指派任何存取原則，以及防止建立或刪除任何與服務 ID 相關聯的 API 金鑰。如需相關資訊，請參閱[鎖定服務 ID](/docs/iam/serviceid.html#locking-a-service-id) 及[鎖定 API 金鑰](/docs/iam/userid_keys.html#locking-an-api-key)。
+
+### 將您的「精簡」帳戶升級至「訂閱」帳戶
+文件日期：2018 年 5 月 31 日
+
+您現在可以直接從 {{site.data.keyword.Bluemix_notm}} 主控台將「精簡」帳戶升級至「訂閱」帳戶。搭配「訂閱」帳戶，您可以同時使用平台及基礎架構供應項目，並做出每月消費及期限承諾來善用折扣定價。以每月付款排程固定計費也可以避免意外驚訝，但仍具有根據所需增減訂購的彈性。如需相關資訊，請參閱[訂閱帳戶常見問題](/docs/billing-usage/billing-faq.html#subscription-faqs)。 
+
+### {{site.data.keyword.Bluemix_notm}} CLI 品牌再造
+文件日期：2018 年 5 月 15 日
+
+{{site.data.keyword.Bluemix_notm}} CLI 指令已從 `bluemix` 和 `bx` 變更為 **ibmcloud**。不過，您仍然可以使用 `bluemix` 和 `bx` CLI 指令，直到未來移除它們為止。目前沒有簡稱，只有完整名稱 **ibmcloud**。 
 
 ### {{site.data.keyword.Bluemix_notm}} 帳戶的多因子鑑別
 文件日期：2018 年 5 月 2 日
@@ -35,7 +50,7 @@ lastupdated: "2018-05-02"
 ### SoftLayer 和 {{site.data.keyword.Bluemix_notm}} 帳戶鏈結
 文件日期：2018 年 3 月 1 日
 
-您可以將 SoftLayer 帳戶鏈結至 {{site.data.keyword.Bluemix_notm}} 帳戶，以便登入單一位置（{{site.data.keyword.Bluemix_notm}} 主控台），然後同時存取基礎架構即服務 (IaaS) 和平台即服務 (PaaS) 資源。如果您剛開始使用 {{site.data.keyword.Bluemix_notm}}，請建立並鏈結帳戶，以便免費試用 {{site.data.keyword.Bluemix_notm}}。或者，如果您已有一個具有 PaaS 資源的 {{site.data.keyword.Bluemix_notm}} 帳戶，請鏈結您的帳戶以便收到 IaaS 和 PaaS 資源的單一帳單。請參閱[鏈結您的 IaaS 和 PaaS 帳戶的步驟](https://www.ibm.com/blogs/bluemix/2018/03/follow-steps-link-iaas-paas-accounts/){: new_window} ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")，以快速鏈結您的帳戶。
+您可以將 SoftLayer 帳戶鏈結至 {{site.data.keyword.Bluemix_notm}} 帳戶，以便登入單一位置（{{site.data.keyword.Bluemix_notm}} 主控台），然後同時存取基礎架構即服務 (IaaS) 和平台即服務 (PaaS) 資源。如果您剛開始使用 {{site.data.keyword.Bluemix_notm}}，請建立並鏈結帳戶，以取得免費的 {{site.data.keyword.Bluemix_notm}}「精簡」帳戶。或者，如果您已有一個具有 PaaS 資源的 {{site.data.keyword.Bluemix_notm}} 帳戶，請鏈結您的帳戶以便收到 IaaS 和 PaaS 資源的單一帳單。請參閱[鏈結您的 IaaS 和 PaaS 帳戶的步驟](https://www.ibm.com/blogs/bluemix/2018/03/follow-steps-link-iaas-paas-accounts/){: new_window} ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")，以快速鏈結您的帳戶。
 
 
 ### 現已推出 {{site.data.keyword.Bluemix_notm}} Foundry 服務美國東部地區
@@ -109,7 +124,7 @@ Identity and Access Management (IAM) 現在可讓您建立「服務 ID」，您�
 
 如需此更新的相關資訊，請參閱[新廣域 Bluemix 使用者介面的更高可用性及其他功能](https://www.ibm.com/blogs/bluemix/2017/05/new-global-bluemix-ui-higher-availability/){: new_window} ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")。
 
-### 身分及存取管理
+### Identity and Access Management
 文件日期：2017 年 5 月 1 日
 
 使用最新更新及增進功能，{{site.data.keyword.Bluemix_notm}} 帳戶擁有者或管理者現在可以使用新的統一存取控制使用者介面，以充分運用下列功能：
@@ -450,7 +465,7 @@ IBM App Launch for {{site.data.keyword.Bluemix_notm}} 服務是一個實驗性�
 
 使用新的 {{site.data.keyword.iva_full}} 實驗性服務，您可以建立以 Watson 服務為建置基礎且客戶可通話並透過電話交談的認知語音代理程式。以 Watson 人工智慧為骨幹，您的語音代理程式可以透過交談方式進行通訊，處理複雜互動，以及解決語音代理程式內的客戶通話。
 
-{{site.data.keyword.iva_short}} 會緊密地連接及編排 Watson {{site.data.keyword.speechtotextshort}}、{{site.data.keyword.conversationshort}} 及 {{site.data.keyword.texttospeechshort}} 服務，以模擬自然語言交談。每一個語音代理程式都會自動調整，以同時處理多個通話。在此實驗性版本中，您可以使用下列主要特性來自訂語音代理程式：
+{{site.data.keyword.iva_short}} 會緊密地連接及編排 Watson {{site.data.keyword.speechtotextshort}}、{{site.data.keyword.conversationshort}} 及 {{site.data.keyword.texttospeechshort}} 服務，以模擬自然語言交談。每一個語音代理程式都會自動擴充，以同時處理多個通話。在此實驗性版本中，您可以使用下列主要特性來自訂語音代理程式：
 
 * 匯入範例 {{site.data.keyword.conversationshort}} 對話以開始使用，然後建立自己的對話以符合公司的需求。
 * {{site.data.keyword.conversationshort}} 服務內使用 API 的程式語音代理程式行為。您可以控制從打擾行為到掛斷對話中任何節點的通話的所有項目。
@@ -582,7 +597,7 @@ Apache Spark 透過根據 Stocator 技術的儲存空間連接器來存取 IBM C
 
 [存取及分析 IBM Cross Region Cloud Object Storage 中的資料](https://www.ibm.com/blogs/bluemix/2017/06/access-analyze-data-ibm-cross-region-cloud-object-storage/){: new_window} ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示") 部落格文章說明如何搭配使用 IBM Cloud Object Storage 資料與 {{site.data.keyword.sparks}} on {{site.data.keyword.Bluemix_notm}} 及 IBM Data Science Experience (DSx)。
 
-如果您有任何疑問或評論，請透過 [sparksrv@us.ibm.com](sparksrv@us.ibm.com) 連絡我們。您的意見非常重要！
+如果您有任何疑問或評論，請透過 [sparksrv@us.ibm.com](sparksrv@us.ibm.com) 與我們聯絡。您的意見非常重要！
 
 ### 可用於 {{site.data.keyword.dashdbshort_notm}} for Transactions 的新可擴充方案
 文件日期：2017 年 5 月 31 日

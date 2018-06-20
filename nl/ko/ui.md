@@ -3,7 +3,7 @@
 
 copyright:
   years: 2016, 2018
-lastupdated: "2018-01-16"
+lastupdated: "2018-05-23"
 
 ---
 
@@ -31,7 +31,7 @@ lastupdated: "2018-01-16"
 ## 대시보드에서 리소스 관리
 {: #dashboardview}
 
-대시보드를 사용하여 {{site.data.keyword.cloud_notm}} 리소스를 보고 관련 작업을 수행할 수 있습니다. *리소스*는 서비스에서 계정에 이르기까지 모두가 포함된 포괄적인 용어입니다. 간략한 정의를 보려면 [{{site.data.keyword.cloud_notm}} 용어집](/docs/overview/glossary/index.html#glossr)을 참조하십시오.
+대시보드를 사용하여 {{site.data.keyword.cloud_notm}} 리소스 및 Cloud Foundry 서비스 인스턴스를 보고 관련 작업을 수행할 수 있습니다. 리소스에 대한 자세한 정보는 [리소스 개념](/docs/resources/acct_resources.html#resource)을 참조하십시오.
 
 ### 리소스 보기
 
@@ -50,7 +50,7 @@ lastupdated: "2018-01-16"
 대시보드에서 다양한 방법으로 리소스 관련 작업을 수행할 수 있습니다.
 
   * 각각의 리소스는 자체 행에 표시되며 추가 조치 아이콘 ![추가 조치 아이콘](../icons/overflow-menu.svg)은 행의 끝에 포함됩니다. 추가 조치 아이콘을 클릭하면 리소스를 시작, 중지하고 해당 이름을 바꾸거나 이를 삭제할 수 있습니다.
-  * 리소스에 대한 신임 정보 또는 연결을 설정하려면 리소스의 이름을 클릭하여 리소스 세부사항 페이지로 이동하십시오. 자세한 정보는 [새 신임 정보 추가](/docs/services/service_credentials.html) 및 [연결 관리](/docs/cfapps/connecting_apps.html#connect_app)를 참조하십시오.
+  * 리소스에 대한 신임 정보 또는 연결을 설정하려면 리소스의 이름을 클릭하여 리소스 세부사항 페이지로 이동하십시오. 자세한 정보는 [새 신임 정보 추가](/docs/resources/service_credentials.html) 및 [연결 관리](/docs/resources/connecting_apps.html#connect_app)를 참조하십시오.
 
 ## 카탈로그에서 작업
 {: #catalogcreate}
@@ -61,4 +61,3 @@ lastupdated: "2018-01-16"
 
   * Cloud Foundry 리소스의 경우, 특정 지역을 선택한 후에 지정될 서비스 인스턴스에 대한 조직과 지역을 선택할 수 있습니다.
   * {{site.data.keyword.cloud_notm}} Identity and Access Management(IAM)에서 관리하는 리소스의 경우, 배치될 위치를 선택하십시오. 그리고 서비스 인스턴스가 지정될 리소스 그룹을 선택하십시오.
-

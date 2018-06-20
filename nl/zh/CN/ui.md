@@ -3,7 +3,7 @@
 
 copyright:
   years: 2016, 2018
-lastupdated: "2018-01-16"
+lastupdated: "2018-05-23"
 
 ---
 
@@ -31,7 +31,7 @@ lastupdated: "2018-01-16"
 ## 在仪表板上管理资源
 {: #dashboardview}
 
-可以使用仪表板来查看和使用 {{site.data.keyword.cloud_notm}} 资源。*资源*是一个宽泛的术语，涵盖从服务到帐户的一切内容。有关简明定义，请参阅 [{{site.data.keyword.cloud_notm}} 词汇表](/docs/overview/glossary/index.html#glossr)。
+可以使用仪表板来查看和使用 {{site.data.keyword.cloud_notm}} 资源和 Cloud Foundry 服务实例。有关资源的更多信息，请参阅[什么是资源？](/docs/resources/acct_resources.html#resource)。
 
 ### 查看资源
 
@@ -50,7 +50,7 @@ lastupdated: "2018-01-16"
 可以在仪表板中以多种方式使用资源：
 
   * 每个资源都会单独显示一行，并且在行末包含“更多操作”图标 ![“更多操作”图标](../icons/overflow-menu.svg)。单击“更多操作”图标可启动、停止、重命名或删除资源。
-  * 要为资源设置凭证或连接，请单击资源的名称以导航至资源详细信息页面。有关更多信息，请参阅[添加新凭证](/docs/services/service_credentials.html)和[管理连接](/docs/cfapps/connecting_apps.html#connect_app)。
+  * 要为资源设置凭证或连接，请单击资源的名称以导航至资源详细信息页面。有关更多信息，请参阅[添加新凭证](/docs/resources/service_credentials.html)和[管理连接](/docs/resources/connecting_apps.html#connect_app)。
 
 ## 在目录中工作
 {: #catalogcreate}
@@ -61,4 +61,3 @@ lastupdated: "2018-01-16"
 
   * 对于 Cloud Foundry 资源，可以选择特定区域，然后选择要将服务实例分配到的组织和空间。
   * 对于 {{site.data.keyword.cloud_notm}} Identity and Access Management (IAM) 管理的资源，请选择要部署的位置。然后，选择要将服务实例分配到的资源组。
-

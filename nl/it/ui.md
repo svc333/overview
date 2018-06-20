@@ -3,7 +3,7 @@
 
 copyright:
   years: 2016, 2018
-lastupdated: "2018-01-16"
+lastupdated: "2018-05-23"
 
 ---
 
@@ -31,7 +31,7 @@ Se hai collegato i tuoi account {{site.data.keyword.cloud_notm}} e SoftLayer, ha
 ## Gestione delle risorse sul dashboard
 {: #dashboardview}
 
-Puoi utilizzare il dashboard per visualizzare e gestire le risorse {{site.data.keyword.cloud_notm}}. *Risorse* è un termine generico che comprende qualsiasi cosa, da un servizio a un account. Per una definizione sintetica, consulta il [glossario {{site.data.keyword.cloud_notm}}](/docs/overview/glossary/index.html#glossr).
+Puoi utilizzare il dashboard per visualizzare e gestire le risorse {{site.data.keyword.cloud_notm}} e le istanze del servizio Cloud Foundry. Per ulteriori informazioni sulle risorse, vedi [Cos'è è una risorsa?](/docs/resources/acct_resources.html#resource).
 
 ### Visualizzazione delle risorse
 
@@ -50,7 +50,7 @@ Quindi, in base agli elementi selezionati, puoi filtrare in base alle seguenti o
 Puoi gestire le tue risorse in vari modi utilizzando il dashboard:
 
   * Ogni risorsa viene visualizzata nella relativa riga e un'icona Altre azioni  ![Icona Altre azioni](../icons/overflow-menu.svg)  è inclusa alla fine della riga. Fai clic sull'icona Altre azioni per avviare, arrestare, ridenominare o eliminare una risorsa.
-  * Per impostare credenziali o connessioni per una risorsa, fai clic sul nome della risorsa per accedere alla sua pagina dei dettagli. Per ulteriori informazioni, vedi [Aggiunta di una nuova credenziale](/docs/services/service_credentials.html) e [Gestione delle connessioni](/docs/cfapps/connecting_apps.html#connect_app).
+  * Per impostare credenziali o connessioni per una risorsa, fai clic sul nome della risorsa per accedere alla sua pagina dei dettagli. Per ulteriori informazioni, vedi [Aggiunta di una nuova credenziale](/docs/resources/service_credentials.html) e [Gestione delle connessioni](/docs/resources/connecting_apps.html#connect_app).
 
 ## Lavorare nel catalogo
 {: #catalogcreate}
@@ -61,4 +61,3 @@ Dopo aver fatto clic sul tile per la risorsa che vuoi creare, puoi selezionare l
 
   * Per le risorse Cloud Foundry, puoi selezionare una regione specifica e quindi selezionare l'organizzazione e lo spazio a cui assegnare l'istanza di servizio.
   * Per le risorse gestite da {{site.data.keyword.cloud_notm}} Identity and Access Management (IAM), seleziona la posizione in cui eseguire la distribuzione. Quindi, seleziona un gruppo di risorse a cui assegnare l'istanza del servizio.
-

@@ -119,7 +119,7 @@ Il valore del segmento `scope` deve essere formattato come `{scopePrefix}`/`{id}
 | Account | a/`{account id}` | L'account in cui è stata creata la risorsa. | a/292558 |
 | Organizzazione | o/`{org guid}` | L'organizzazione {{site.data.keyword.Bluemix_notm}} a cui è stata assegnata la risorsa. | o/4716e2d1-35b7-431f-891a-b552bf0b3c66 |
 | Spazio | s/`{space guid}` | Lo spazio {{site.data.keyword.Bluemix_notm}} a cui è stata assegnata la risorsa. | s/48b3cdcd-e804-4398-9032-73065863ad7c |
-{: caption="Tabella 2. Utilizzo di `scope` " caption-side="top"}
+{: caption="Tabella 2. Utilizzo di `scope`" caption-side="top"}
 
 L'`account id` deve essere l'ID account IBM (account collegati {{site.data.keyword.Bluemix_notm}} e Softlayer).
 
@@ -159,7 +159,7 @@ Di seguito è riportato un elenco di esempi di CRN.
 
 | Esempio | Valore |
 | --- | --- |
-| Contenitore | `crn:v1:bluemix:public:containers-kubernetes:us-south:a/59bcbfa6ea2f006b4ed7094c1a08dcdd:8042b2a8af6a4a5cbf6dbe09e07311d2:worker:kube-hou02-pa8042b2a8af6a4a5cbf6dbe09e07311d2-w1:`|
+| Nodo di lavoro Kubernetes | `crn:v1:bluemix:public:containers-kubernetes:us-south:a/59bcbfa6ea2f006b4ed7094c1a08dcdd:8042b2a8af6a4a5cbf6dbe09e07311d2:worker:kube-hou02-pa8042b2a8af6a4a5cbf6dbe09e07311d2-w1`|
 | Gruppo di risorse | `crn:v1:bluemix:public:resource-controller: global:a/59bcbfa6ea2f006b4ed7094c1a08dcdd:resource-group:59bcbfa6ea2f006b4ed7094c1a08dcdd` |
 | Istanza del servizio | `crn:v1:bluemix:public:cloud-object-storage:global:a/59bcbfa6ea2f006b4ed7094c1a08dcdd:1a0ec336-f391-4091-a6fb-5e084a4c56f4::` |
 | Bucket | `crn:v1:bluemix:public:cloud-object-storage:global:a/59bcbfa6ea2f006b4ed7094c1a08dcdd:1a0ec336-f391-4091-a6fb-5e084a4c56f4:bucket:mybucket` |

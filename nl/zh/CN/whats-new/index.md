@@ -4,7 +4,7 @@ copyright:
 
   years: 2015, 2018
 
-lastupdated: "2018-05-02"
+lastupdated: "2018-06-01"
 
 ---
 
@@ -19,6 +19,22 @@ lastupdated: "2018-05-02"
 
 ## {{site.data.keyword.Bluemix_notm}} 平台
 {: #platform_category}
+
+### 保护服务标识和 API 密钥
+最新更新日期：2018 年 6 月 1 日
+
+为了避免因删除服务标识或 API 密钥而导致停机或中断的情况，您可以选择使用 UI 或 CLI 锁定服务标识和 API 密钥。锁定服务标识还可以防止变更、删除或分配任何访问策略，以及创建或删除与服务标识相关联的任何 API 密钥。有关更多信息，请参阅[锁定服务标识](/docs/iam/serviceid.html#locking-a-service-id)和[锁定 API 密钥](/docs/iam/userid_keys.html#locking-an-api-key)。
+
+### 将轻量帐户升级为预订帐户
+最新更新日期：2018 年 5 月 31 日
+
+您现在可以直接从 {{site.data.keyword.Bluemix_notm}} 控制台将轻量帐户升级到预订帐户。有了预订帐户，您可以同时使用平台和基础架构产品，并通过做出每月开支和期限承诺来享受折扣定价。通过每月付款安排支付固定结算费用，还可避免意外，同时又可以根据需求灵活地选择多订购或少订购。有关更多信息，请参阅[预订帐户常见问题解答](/docs/billing-usage/billing-faq.html#subscription-faqs)。 
+
+### {{site.data.keyword.Bluemix_notm}} CLI 更名
+最新更新日期：2018 年 5 月 15 日
+
+{{site.data.keyword.Bluemix_notm}} CLI 命令已从 `bluemix` 和 `bx` 更改为 **ibmcloud**。但是，您仍然可以使用 `bluemix` 和 `bx` CLI 命令，直到未来某个日期这些命令被除去为止。
+此时没有短名称，只有全名 **ibmcloud**。 
 
 ### {{site.data.keyword.Bluemix_notm}} 帐户的多因子认证
 最新更新日期：2018 年 5 月 2 日
@@ -36,7 +52,7 @@ lastupdated: "2018-05-02"
 ### SoftLayer 与 {{site.data.keyword.Bluemix_notm}} 帐户链接
 最新更新日期：2018 年 3 月 1 日
 
-您可以将 SoftLayer 帐户链接到 {{site.data.keyword.Bluemix_notm}} 帐户，以登录到单个位置（即 {{site.data.keyword.Bluemix_notm}} 控制台），然后可同时访问基础架构即服务 (IaaS) 和平台即服务 (PaaS) 资源。如果您是 {{site.data.keyword.Bluemix_notm}} 的新用户，请创建并链接帐户以获取免费 {{site.data.keyword.Bluemix_notm}} 试用。或者，如果您已经有可访问 PaaS 资源的 {{site.data.keyword.Bluemix_notm}} 帐户，请链接您的帐户以接收含有 IaaS 和 PaaS 资源的单个帐单。请查看[链接 IaaS 和 PaaS 帐户的步骤](https://www.ibm.com/blogs/bluemix/2018/03/follow-steps-link-iaas-paas-accounts/){: new_window} ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标") 以快速链接帐户。
+您可以将 SoftLayer 帐户链接到 {{site.data.keyword.Bluemix_notm}} 帐户，以登录到单个位置（即 {{site.data.keyword.Bluemix_notm}} 控制台），然后可同时访问基础架构即服务 (IaaS) 和平台即服务 (PaaS) 资源。如果您还不熟悉 {{site.data.keyword.Bluemix_notm}}，请创建并链接帐户以获取免费 {{site.data.keyword.Bluemix_notm}} 轻量帐户。或者，如果您已经有可访问 PaaS 资源的 {{site.data.keyword.Bluemix_notm}} 帐户，请链接您的帐户以接收含有 IaaS 和 PaaS 资源的单个帐单。请查看[链接 IaaS 和 PaaS 帐户的步骤](https://www.ibm.com/blogs/bluemix/2018/03/follow-steps-link-iaas-paas-accounts/){: new_window} ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标") 以快速链接帐户。
 
 
 ### 现在，{{site.data.keyword.Bluemix_notm}} Foundry 服务在美国东部区域可用
