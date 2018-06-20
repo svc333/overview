@@ -4,7 +4,7 @@ copyright:
 
   years: 2015, 2018
 
-lastupdated: "2018-05-02"
+lastupdated: "2018-06-01"
 
 ---
 
@@ -20,12 +20,42 @@ Mantenha-se atualizado com os novos recursos e serviços que estão disponíveis
 ## Plataforma {{site.data.keyword.Bluemix_notm}}
 {: #platform_category}
 
+### Proteja os seus IDs de serviço e as chaves API
+Novo a partir de: 1 de junho de 2018
+
+Para evitar uma situação em que o seu ID de serviço ou chave API seja excluído causando uma indisponibilidade ou interrupção,
+você tem a opção de bloquear IDs de serviço e chaves API usando a UI ou a CLI. Bloquear um ID de serviço também evita que quaisquer
+políticas de acesso sejam mudadas, excluídas ou designadas, bem como quaisquer chaves API associadas com o ID de serviço de
+ser criado ou excluído. Para obter informações adicionais, consulte
+[Bloqueando
+um ID de serviço](/docs/iam/serviceid.html#locking-a-service-id) e [Bloqueando uma chave API](/docs/iam/userid_keys.html#locking-an-api-key).
+
+### Faça upgrade de sua conta Lite para uma conta da assinatura. 
+Novo a partir de: 31 de maio de 2018
+
+Agora é possível fazer upgrade da sua conta Lite para uma conta da assinatura diretamente do console do {{site.data.keyword.Bluemix_notm}}. 
+Com uma conta da assinatura, é possível usar as ofertas de plataforma e de infraestrutura e aproveitar a precificação com desconto criando
+um gasto mensal e um termo de compromisso. Também é possível evitar surpresas com faturamento fixo em um planejamento de pagamento
+mensal, mas com a flexibilidade para pedir mais ou menos com base nas suas necessidades. Para obter informações adicionais, consulte
+as [FAQs de conta da assinatura](/docs/billing-usage/billing-faq.html#subscription-faqs). 
+
+### {{site.data.keyword.Bluemix_notm}} CLI Redenominando
+Novo a partir de: 15 de maio de 2018
+
+Os comandos da CLI do {{site.data.keyword.Bluemix_notm}} mudaram de `bluemix` e
+`bx` para **ibmcloud**. No entanto, você ainda pode usar os comandos da CLI do `bluemix` e
+do `bx` até que sejam removidos em uma data posterior. Não há nenhum nome abreviado nesse momento, apenas o nome
+completo **ibmcloud**. 
+
 ### Autenticação de diversos fatores para sua conta do {{site.data.keyword.Bluemix_notm}}
 Novo a partir de: 02 de maio de 2018
 
 A autenticação de diversos fatores (MFA) inclui uma camada extra de segurança em sua conta solicitando que todos os usuários forneçam uma senha descartável baseada em tempo, além de seu IBMid e da senha padrão durante o login. Isso também é conhecido geralmente como autenticação de dois fatores (2FA). A MFA é ativada por conta e, após ser ativada, todos os usuários na conta precisam efetuar login usando a medida de segurança adicional.
 
-Para obter mais informações, veja a postagem do blog [O IBM Cloud Platform agora inclui suporte para a autenticação de diversos fatores}](https://www.ibm.com/blogs/bluemix/2018/05/ibm-cloud-platform-now-adds-support-multi-factor-authentication/){: new_window} ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo").
+Para obter informações adicionais, consulte a postagem do blog
+[O IBM Cloud
+Platform agora inclui suporte para a autenticação de diversos fatores](https://www.ibm.com/blogs/bluemix/2018/05/ibm-cloud-platform-now-adds-support-multi-factor-authentication/){: new_window}
+![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo").
 
 ### Designar acesso rapidamente usando grupos de acesso
 Novo a partir de: 03 de abril de 2018
@@ -35,7 +65,9 @@ Você deseja designar acesso rapidamente usando a menor quantia de políticas po
 ### Vinculação de conta do SoftLayer e do {{site.data.keyword.Bluemix_notm}}
 Novo a partir de: 1º de março de 2018
 
-É possível vincular sua conta do SoftLayer à sua conta do {{site.data.keyword.Bluemix_notm}} para efetuar login em um único local, o console do {{site.data.keyword.Bluemix_notm}}, e acessar os recursos infraestrutura como serviço (IaaS) e plataforma como serviço (PaaS). Se você é novo no {{site.data.keyword.Bluemix_notm}}, crie e vincule uma conta para obter uma avaliação grátis do {{site.data.keyword.Bluemix_notm}}. Ou, se você já tem uma conta do {{site.data.keyword.Bluemix_notm}} com recursos PaaS, vincule suas contas para receber uma nota única para os seus recursos IaaS e PaaS. Veja [Etapas para vincular suas contas IaaS e PaaS](https://www.ibm.com/blogs/bluemix/2018/03/follow-steps-link-iaas-paas-accounts/){: new_window} ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo") para vincular suas contas rapidamente.
+É possível vincular sua conta do SoftLayer à sua conta do {{site.data.keyword.Bluemix_notm}} para efetuar login em um único local, o console do {{site.data.keyword.Bluemix_notm}}, e acessar os recursos infraestrutura como serviço (IaaS) e plataforma como serviço (PaaS). 
+Se você é novo no {{site.data.keyword.Bluemix_notm}}, crie e vincule uma conta para obter uma conta Lite do
+{{site.data.keyword.Bluemix_notm}} gratuita. Ou, se você já tem uma conta do {{site.data.keyword.Bluemix_notm}} com recursos PaaS, vincule suas contas para receber uma nota única para os seus recursos IaaS e PaaS. Veja [Etapas para vincular suas contas IaaS e PaaS](https://www.ibm.com/blogs/bluemix/2018/03/follow-steps-link-iaas-paas-accounts/){: new_window} ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo") para vincular suas contas rapidamente.
 
 
 ### A região Leste dos EUA do {{site.data.keyword.Bluemix_notm}} Foundry Service agora está disponível

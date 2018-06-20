@@ -3,7 +3,7 @@
 
 copyright:
   years: 2016, 2018
-lastupdated: "2018-03-19"
+lastupdated: "2018-06-07"
 
 
 ---
@@ -21,9 +21,6 @@ As referências cruzadas a seguir são usadas nesse glossário:
 
 - *Consulte* o encaminha de um termo não preferencial para um termo preferencial ou de uma abreviação para a sua forma por extenso.
 - *Consulte também* o encaminha para um termo relacionado ou contrastante.
-
-
-Para obter outros termos e definições, consulte o [Website de terminologia da IBM](http://www-01.ibm.com/software/globalization/terminology/){: new_window}.
 
 <!--If you do not want letter links at the top of your
 glossary, delete the text between these comment tags.

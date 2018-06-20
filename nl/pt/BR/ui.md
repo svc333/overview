@@ -3,7 +3,7 @@
 
 copyright:
   years: 2016, 2018
-lastupdated: "2018-01-16"
+lastupdated: "2018-05-23"
 
 ---
 
@@ -31,7 +31,9 @@ Se as suas contas do {{site.data.keyword.cloud_notm}} e do SoftLayer foram vincu
 ## Gerenciando recursos no painel
 {: #dashboardview}
 
-É possível usar o painel para visualizar e trabalhar com recursos do {{site.data.keyword.cloud_notm}}. *Recursos* é um termo amplo que abrange qualquer coisa, de um serviço a uma conta. Para uma definição sucinta, veja o [Glossário do {{site.data.keyword.cloud_notm}}](/docs/overview/glossary/index.html#glossr).
+É possível usar o painel para visualizar e trabalhar com os recursos do {{site.data.keyword.cloud_notm}} e as
+instâncias de serviço do Cloud Foundry. Para obter informações adicionais sobre os recursos, consulte
+[O que é um recurso?](/docs/resources/acct_resources.html#resource).
 
 ### Visualizando recursos
 
@@ -50,7 +52,7 @@ Em seguida, com base nos itens selecionados, é possível filtrar pelas opções
 É possível trabalhar com seus recursos de várias maneiras no painel:
 
   * Cada recurso é exibido em sua própria linha e um ícone Mais ações ![More Actions icon](../icons/overflow-menu.svg) é incluído no término da linha. Clique no ícone Mais ações para iniciar, parar, renomear ou excluir um recurso.
-  * Para configurar credenciais ou conexões para um recurso, clique no nome do recurso para navegar para a página de detalhes do recurso. Para obter mais informações, veja [Incluindo uma nova credencial](/docs/services/service_credentials.html) e [Gerenciando conexões](/docs/cfapps/connecting_apps.html#connect_app).
+  * Para configurar credenciais ou conexões para um recurso, clique no nome do recurso para navegar para a página de detalhes do recurso. Para obter mais informações, veja [Incluindo uma nova credencial](/docs/resources/service_credentials.html) e [Gerenciando conexões](/docs/resources/connecting_apps.html#connect_app).
 
 ## Trabalhando no catálogo
 {: #catalogcreate}
@@ -61,4 +63,3 @@ Depois que você clica no tile para o recurso que deseja criar, é possível sel
 
   * Para recursos do Cloud Foundry, é possível selecionar uma região específica e depois selecionar a organização e o espaço aos quais designar a instância de serviço.
   * Para recursos gerenciados pelo {{site.data.keyword.cloud_notm}} Identity and Access Management (IAM), você seleciona um local no qual implementar. Em seguida, você seleciona um grupo de recursos ao qual designar a instância de serviço.
-
