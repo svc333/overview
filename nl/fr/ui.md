@@ -3,7 +3,7 @@
 
 copyright:
   years: 2016, 2018
-lastupdated: "2018-01-16"
+lastupdated: "2018-05-23"
 
 ---
 
@@ -31,7 +31,7 @@ Si vous avez lié vos comptes {{site.data.keyword.cloud_notm}} et SoftLayer,  vo
 ## Gestion des ressources sur le tableau de bord
 {: #dashboardview}
 
-Vous pouvez utiliser le tableau de bord pour afficher et utiliser des ressources {{site.data.keyword.cloud_notm}}. Le terme *ressource* désigne un large éventail d'éléments qui va d'un service à un compte. Pour une définition plus succincte, voir le [{{site.data.keyword.cloud_notm}} glossaire](/docs/overview/glossary/index.html#glossr).
+Vous pouvez utiliser le tableau de bord pour afficher et utiliser des ressources {{site.data.keyword.cloud_notm}} et des instances de service Cloud Foundry. Pour plus d'informations sur les ressources, voir [What is a resource?](/docs/resources/acct_resources.html#resource).
 
 ### Affichage des ressources
 
@@ -50,15 +50,14 @@ Ensuite, sur la base des éléments sélectionnés, vous pouvez filtrer à l'aid
 Vous pouvez utiliser vos ressources de différentes manières à partir du tableau de bord :
 
   * Chaque ressource est affichée sur sa propre ligne avec une icône Plus d'actions ![Icône Plus d'actions](../icons/overflow-menu.svg) en fin de ligne. Cliquez sur l'icône Plus d'actions pour démarrer, arrêter, renommer ou supprimer une ressource.
-  * Pour définir des données d'identification ou des connexions pour une ressource, cliquez sur le nom de la ressource afin d'accéder à la page des détails de la ressource. Pour plus d'informations, voir [Ajout de nouvelles données d'identification](/docs/services/service_credentials.html) et [Gestion des connexions](/docs/cfapps/connecting_apps.html#connect_app).
+  * Pour définir des données d'identification ou des connexions pour une ressource, cliquez sur le nom de la ressource afin d'accéder à la page des détails de la ressource. Pour plus d'informations, voir [Ajout de nouvelles données d'identification](/docs/resources/service_credentials.html) et [Gestion des connexions](/docs/resources/connecting_apps.html#connect_app).
 
 ## Utilisation du catalogue
 {: #catalogcreate}
 
-Pour créer une nouvelle ressource, cliquez sur **Create resource** dans le tableau de bord. Vous êtes alors dirigé vers le catalogue. Lorsque vous sélectionnez une vignette dans le catalogue, vous pouvez déterminer où la ressource est disponible. Les ressources du catalogue ne sont pas nécessairement disponibles dans toutes les régions.
+Pour créer une nouvelle ressource, cliquez sur **Créer une ressource** dans le tableau de bord. Vous êtes alors dirigé vers le catalogue. Lorsque vous sélectionnez une vignette dans le catalogue, vous pouvez déterminer où la ressource est disponible. Les ressources du catalogue ne sont pas nécessairement disponibles dans toutes les régions.
 
 Après avoir cliqué sur la vignette de la ressource que vous voulez créer, vous pouvez sélectionner l'emplacement où vous voulez la déployer.
 
   * Pour les ressources Cloud Foundry, vous pouvez sélectionner une région spécifique, puis sélectionner l'organisation et l'espace auxquels l'instance de service doit être affectée.
   * Pour les ressources gérées par {{site.data.keyword.cloud_notm}} Identity and Access Management (IAM), vous sélectionnez un emplacement pour le déploiement. Ensuite, vous sélectionnez un groupe de ressources auquel affecter l'instance de service.
-

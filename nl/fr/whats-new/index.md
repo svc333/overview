@@ -4,7 +4,7 @@ copyright:
 
   years: 2015, 2018
 
-lastupdated: "2018-05-02"
+lastupdated: "2018-06-01"
 
 ---
 
@@ -20,12 +20,27 @@ Restez à jour avec les nouvelles fonctions et les nouveaux services disponibles
 ## Plateforme {{site.data.keyword.Bluemix_notm}}
 {: #platform_category}
 
+### Protection des ID de service et des clés d'API
+Nouveau à compter du : 1 juin 2018
+
+Pour éviter que la suppression de votre ID de service ou de votre clé d'API ne provoque une indisponibilité ou une interruption, vous pouvez verrouiller les ID de service et les clés d'API en utilisant l'interface utilisateur ou l'interface CLI. Le verrouillage d'un ID de service empêche que les règles d'accès soient changées, modifiées ou affectées et que les clés d'API associées à l'ID de service soient créées ou supprimées. Pour plus d'informations, voir [Locking a service ID](/docs/iam/serviceid.html#locking-a-service-id) et [Locking an API key](/docs/iam/userid_keys.html#locking-an-api-key).
+
+### Mise à jour de votre compte Lite vers un compte Abonnement
+Nouveau à compter du : 31 mai 2018
+
+Vous pouvez désormais mettre à niveau votre compte Lite vers un compte Abonnement directement à partir de la console {{site.data.keyword.Bluemix_notm}}. Avec un compte Abonnement, vous pouvez utiliser les offres de plateforme et d'infrastructure et tirer le meilleur parti de la remise tarifaire en optant pour un engagement mensuel. Vous pouvez éviter les surprises en choisissant une facturation fixe basée sur un calendrier de paiements mensuels, mais avec la flexibilité de commander plus ou moins selon vos besoins. Pour plus d'informations, voir [FAQ sur les comptes Abonnement](/docs/billing-usage/billing-faq.html#subscription-faqs). 
+
+### {{site.data.keyword.Bluemix_notm}} Modification de l'interface CLI
+Nouveau à compter du : 15 mai 2018
+
+Les commandes de l'interface CLI d'{{site.data.keyword.Bluemix_notm}} `bluemix` et `bx` ont été modifiées en **ibmcloud**. Vous pouvez toutefois continuer à utiliser les commandes de l'interface CLI `bluemix` et `bx` jusqu'à ce qu'elles soient retirées. Il n'existe actuellement aucun nom abrégé, uniquement le nom complet **ibmcloud**. 
+
 ### Authentification multi-facteur pour votre compte {{site.data.keyword.Bluemix_notm}}
 Nouveau à compter du : 2 mai 2018
 
 L'authentification multi-facteur ajoute une couche supplémentaire de sécurité à votre compte en demandant à tous les utilisateurs de fournir un code d'accès à usage unique et durée définie en plus de leur IBMid et mot de passe associé standard lors de la connexion. Ce type d'authentification est également communément appelé authentification à deux facteurs (2FA). L'authentification multi-facteur est activée par compte, et une fois activée, tous les utilisateurs du compte doivent se connecter à l'aide de la mesure de sécurité supplémentaire.
 
-Pour plus d'informations, voir l'article de blogue [IBM Cloud Platform now adds support for Multi-Factor Authentication}](https://www.ibm.com/blogs/bluemix/2018/05/ibm-cloud-platform-now-adds-support-multi-factor-authentication/){: new_window} ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe").
+Pour plus d'informations, voir l'article de blogue [IBM Cloud Platform now adds support for Multi-Factor Authentication](https://www.ibm.com/blogs/bluemix/2018/05/ibm-cloud-platform-now-adds-support-multi-factor-authentication/){: new_window} ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe").
 
 ### Affectation rapide d'un accès à l'aide de groupes d'accès
 Nouveau à compter du : 3 avril 2018
@@ -35,7 +50,7 @@ Vous souhaitez pouvoir affecter rapidement un accès en utilisant le moins de r�
 ### Liaison des comptes SoftLayer et {{site.data.keyword.Bluemix_notm}}
 Nouveau à compter du : 01 mars 2018
 
-Vous pouvez lier votre compte SoftLayer à votre compte {{site.data.keyword.Bluemix_notm}} pour vous connecter à un seul emplacement, la console {{site.data.keyword.Bluemix_notm}}, et accéder aux ressources IaaS (infrastructure sous forme de services) et PaaS (plateforme sous forme de services). Si vous ne connaissez pas l'environnement {{site.data.keyword.Bluemix_notm}}, créez et liez un compte afin d'obtenir gratuitement un compte d'essai {{site.data.keyword.Bluemix_notm}}. Ou, si vous avez déjà un compte {{site.data.keyword.Bluemix_notm}} avec des ressources PaaS, liez vos comptes afin de recevoir une seule facture pour vos ressources IaaS et PaaS. Consultez le site [Steps to Link your IaaS and PaaS Accounts](https://www.ibm.com/blogs/bluemix/2018/03/follow-steps-link-iaas-paas-accounts/){: new_window} ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe") pour savoir comment lier rapidement vos comptes.
+Vous pouvez lier votre compte SoftLayer à votre compte {{site.data.keyword.Bluemix_notm}} pour vous connecter à un seul emplacement, la console {{site.data.keyword.Bluemix_notm}}, et accéder aux ressources IaaS (infrastructure sous forme de services) et PaaS (plateforme sous forme de services). Si vous ne connaissez pas l'environnement {{site.data.keyword.Bluemix_notm}}, créez et liez un compte afin d'obtenir gratuitement un compte Lite {{site.data.keyword.Bluemix_notm}}. Ou, si vous avez déjà un compte {{site.data.keyword.Bluemix_notm}} avec des ressources PaaS, liez vos comptes afin de recevoir une seule facture pour vos ressources IaaS et PaaS. Consultez le site [Steps to Link your IaaS and PaaS Accounts](https://www.ibm.com/blogs/bluemix/2018/03/follow-steps-link-iaas-paas-accounts/){: new_window} ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe") pour savoir comment lier rapidement vos comptes.
 
 
 ### {{site.data.keyword.Bluemix_notm}} Foundry Service région Est des Etats-Unis désormais disponible
@@ -154,7 +169,7 @@ L'UC moyenne a été ajoutée en tant que type de seuil aux abonnements aux noti
 
 #### Contrôle d'accès aux systèmes cloud de l'Union européenne
 
-Combinée à la nouvelle fonction de prise en charge de ressources cloud dans l'Untion européenne (en commençant par Francfort), la console d'administration permet désormais de définir des règles de contrôle d'accès par le personnel IBM. Vous pouvez gérer les règles de contrôle d'accès, afficher les demandes d'accès,  effectuer des actions sur les demandes et procéder au suivi de l'historique.
+Combinée à la nouvelle fonction de prise en charge de ressources cloud dans l'Union européenne (en commençant par Francfort), la console d'administration permet désormais de définir des règles de contrôle d'accès par le personnel IBM. Vous pouvez gérer les règles de contrôle d'accès, afficher les demandes d'accès,  effectuer des actions sur les demandes et procéder au suivi de l'historique.
 
 #### Informations améliorées dans les rapports de sécurité
 
@@ -236,8 +251,7 @@ Nouveau à compter du : 2 mai 2017
 
 Avec les toutes dernières mises à jour et améliorations d'avril, vous pourrez utiliser les nouvelles fonctions suivantes :
 
- * Nouvelle conception de l'application de statut pour les environnements {{site.data.keyword.Bluemix_notm}} dédié et local. Vous pouvez rapidement rechercher par nom de composant ou date d'envoi. Vous pouvez également basculer entre les envois de statut de composant et les notifications spécifiques à votre environnement. Pour
-plus d'informations, voir l'article de blogue sur la [nouvelle page de statut {{site.data.keyword.Bluemix_notm}}](https://www.ibm.com/blogs/bluemix/2017/05/new-bluemix-status-page/){: new_window} ![External link icon](../../icons/launch-glyph.svg "External link icon").
+ * Nouvelle conception de l'application de statut pour les environnements {{site.data.keyword.Bluemix_notm}} dédié et local. Vous pouvez rapidement rechercher par nom de composant ou date d'envoi. Vous pouvez également basculer entre les envois de statut de composant et les notifications spécifiques à votre environnement. Pour plus d'informations, voir l'article de blogue sur la [nouvelle page de statut {{site.data.keyword.Bluemix_notm}}](https://www.ibm.com/blogs/bluemix/2017/05/new-bluemix-status-page/){: new_window} ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe").
  * Données d'utilisation de service pour les services sélectionnés depuis la vignette Utilisation des ressources. Voir [Détails sur l'utilisation du service](/docs/hybrid/index.html#servicesresourceusage) pour plus d'informations sur les services pris en charge et ce que vous offre la nouvelle vue.
 
 ## Calcul

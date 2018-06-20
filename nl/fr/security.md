@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2018
-lastupdated: "2017-10-25"
+lastupdated: "2018-06-08"
 
 ---
 
@@ -23,4 +23,4 @@ Les environnements {{site.data.keyword.cloud_notm}} public et dédié utilisent 
 sous forme de services {{site.data.keyword.BluSoftlayer}} fournit des niveaux de protection
 multiples qui se chevauchent pour vos applications et vos données. Pour l'environnement {{site.data.keyword.cloud_notm}} local, vous êtes en charge de la sécurité physique et
 fournissez l'infrastructure en hébergeant l'environnement {{site.data.keyword.cloud_notm}} local dans votre
-propre centre de données situé derrière le pare-feu de la société. De plus, {{site.data.keyword.cloud_notm}} ajoute des fonctions de sécurité au niveau de la couche plateforme sous forme de services (PaaS) dans différentes catégories : plateforme, données et application. Pour plus d'informations sur la solution PaaS, voir [Securing workloads on IBM Cloud ![Icône de lien externe](../icons/launch-glyph.svg "Icône de lien externe")](https://developer.ibm.com/cloudarchitecture/docs/security/securing-workloads-ibm-cloud/){: new_window}.
+propre centre de données situé derrière le pare-feu de la société. De plus, {{site.data.keyword.cloud_notm}} ajoute des fonctions de sécurité au niveau de la couche plateforme sous forme de services (PaaS) dans différentes catégories : plateforme, données et application. Pour plus d'informations sur la solution PaaS, voir [Securing workloads on IBM Cloud ![Icône de lien externe](../icons/launch-glyph.svg "Icône de lien externe")](https://www.ibm.com/cloud/garage/architectures/securityArchitecture){: new_window}.

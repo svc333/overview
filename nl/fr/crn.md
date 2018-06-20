@@ -56,7 +56,7 @@ Le segment `ctype` identifie le type d'instance cloud représentée par le segme
 ## service-name
 {: #service-name}
 
-Le segment `service-name` identifie de manière unique une capacité (service, composant, produit) offerte par le cloud. Cette capacité peut être un service fourni par un utilisateur, tels lesservices répertoriés dans le catalogue {{site.data.keyword.Bluemix_notm}}, ou un composant d'architecture interne critique pour la fonctionnalité {{site.data.keyword.Bluemix_notm}}.
+Le segment `service-name` identifie de manière unique une capacité (service, composant, produit) offerte par le cloud. Cette capacité peut être un service fourni par un utilisateur, tels les services répertoriés dans le catalogue {{site.data.keyword.Bluemix_notm}}, ou un composant d'architecture interne critique pour la fonctionnalité {{site.data.keyword.Bluemix_notm}}.
 
 `service-name` indique le service auquel appartient la ressource et {{site.data.keyword.Bluemix_notm}} applique l'unicité globale des noms de service. `service-name` doit être composé de caractères alphanumériques, sans espaces ou caractères spéciaux autres que '-'.
 
@@ -159,7 +159,7 @@ Voici une liste d'exemple de nom de ressource de cloud.
 
 | Exemple | Valeur |
 | --- | --- |
-| Conteneur | `crn:v1:bluemix:public:containers-kubernetes:us-south:a/59bcbfa6ea2f006b4ed7094c1a08dcdd:8042b2a8af6a4a5cbf6dbe09e07311d2:worker:kube-hou02-pa8042b2a8af6a4a5cbf6dbe09e07311d2-w1:`|
+| Agent Kubernetes | `crn:v1:bluemix:public:containers-kubernetes:us-south:a/59bcbfa6ea2f006b4ed7094c1a08dcdd:8042b2a8af6a4a5cbf6dbe09e07311d2:worker:kube-hou02-pa8042b2a8af6a4a5cbf6dbe09e07311d2-w1`|
 | Groupe de ressources | `crn:v1:bluemix:public:resource-controller: global:a/59bcbfa6ea2f006b4ed7094c1a08dcdd:resource-group:59bcbfa6ea2f006b4ed7094c1a08dcdd` |
 | Instance de service | `crn:v1:bluemix:public:cloud-object-storage:global:a/59bcbfa6ea2f006b4ed7094c1a08dcdd:1a0ec336-f391-4091-a6fb-5e084a4c56f4::` |
 | Compartiment | `crn:v1:bluemix:public:cloud-object-storage:global:a/59bcbfa6ea2f006b4ed7094c1a08dcdd:1a0ec336-f391-4091-a6fb-5e084a4c56f4:bucket:mybucket` |
