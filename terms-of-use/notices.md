@@ -1,9 +1,12 @@
 ---
 
+
+
 copyright:
 
   years: 2015, 2018
-lastupdated: "2018-03-01"
+lastupdated: "2018-06-21"
+
 
 ---
 
@@ -12,10 +15,59 @@ lastupdated: "2018-03-01"
 {:screen: .screen}
 {:new_window: target="_blank"}
 
-# Notices
+# {{site.data.keyword.Bluemix_notm}} Terms and Notices
+{: #terms}
 
-This information was developed for products and services offered in the US. This material might be available from IBM in other languages. However, you may be required to own a copy of the product or product version in that language in order to access it.
-{:shortdesc}
+## {{site.data.keyword.Bluemix_notm}} Terms
+{: #terms_details}
+
+Your IBM Cloud Account and any services ordered from the IBM Cloud are provided under the term of:
+
+  * Base Agreement Cloud Terms applicable to you as follows:
+    * SoftLayer Cloud Service Agreement for US Dollar credit card billing, available at [http://www.softlayer.com/legal](http://www.softlayer.com/legal){: new_window} ![External link icon](../../icons/launch-glyph.svg)
+    * IBM Cloud Services Agreement (local country version*) for non-US Dollar credit card billing, or if you select invoicing from IBM, available at [https://www.ibm.com/terms](https://www.ibm.com/terms){: new_window} ![External link icon](../../icons/launch-glyph.svg) (select your country);
+    * IBM Passport Advantage Agreement you accepted and the General Terms for Cloud Offerings TOU for IBM Passport Advantage Clients, available at [http://www-03.ibm.com/software/sla/sladb.nsf/sla/tou](http://www-03.ibm.com/software/sla/sladb.nsf/sla/tou){: new_window} ![External link icon](../../icons/launch-glyph.svg); or
+    * equivalent cloud service base agreement terms between you and IBM;
+  * Service Description for IBM Cloud available at [http://www-03.ibm.com/software/sla/sladb.nsf/sla/bm](http://www-03.ibm.com/software/sla/sladb.nsf/sla/bm){: new_window} ![External link icon](../../icons/launch-glyph.svg);
+  * Applicable Additional SDs for any service ordered using your IBM Cloud Account available at [http://www-03.ibm.com/software/sla/sladb.nsf/sla/bm](http://www-03.ibm.com/software/sla/sladb.nsf/sla/bm){: new_window} ![External link icon](../../icons/launch-glyph.svg); and
+  * Applicable Data Sheets as referenced in applicable Additional SDs or from the "Terms" link for a service in the IBM Cloud UI available at [http://www-03.ibm.com/software/sla/sladb.nsf/sla/csdsp](http://www-03.ibm.com/software/sla/sladb.nsf/sla/csdsp){: new_window} ![External link icon](../../icons/launch-glyph.svg).
+
+### License for the IBM WebSphere Application Server Liberty Profile image
+{: #license_liberty_image}
+
+The Dockerfile and associated scripts are licensed under the Apache License 2.0. The IBM JRE and IBM WebSphere® Application Server for Developers are licensed under the IBM International License Agreement for Non-Warranted Programs. You can view these licenses from the image by using the LICENSE=view environment variable as described previously, or you can find them online for IBM JRE and IBM WebSphere Application Server for Developers. This license does not permit further distribution.
+
+## {{site.data.keyword.Bluemix_notm}} privacy policy
+{: #privacy_policy}
+
+IBM Online Privacy Statement can be found at [https://www.ibm.com/privacy/details/us/en ![External link icon](../../icons/launch-glyph.svg)](https://www.ibm.com/privacy/details/us/en){: new_window}. This Statement provides information about what personal information IBM collects, how it uses, and what choices Client has with regard to such personal information.
+
+## IP Address Policy
+{: #ip_address_policy}
+
+### 1. IP Address Ownership
+{: #ip_address_ownership}
+
+International Business Machines Corporation or its subsidiaries (IBM) own any IP addresses assigned to Client, which are to be used only with the Cloud Services. Use of the IP addresses terminates upon expiration or termination of a service, at which time the IP addresses will be reclaimed and may be re-issued to other customers in the future. 
+
+### 2. Client-Provided IP Addresses
+{: #client_provided_ips}
+
+Clients may provide their own Regional Internet Registry (RIR) issued IP addresses, subject to certain technical limitations and verification of ownership, by submitting a support ticket and providing a Letter of Authority to specify Client-owned IP prefixes. If IBM approves a request those IP addresses will be announced via Border Gateway Protocol (BGP) on the Client's behalf and routed to identified Client servers. Client retains ownership of those IP addresses. At Client's request, or upon cancellation of the services, IBM will cease to announce and route those IP addresses. While IBM will make reasonable efforts to ensure BGP prefixes are accepted by all upstream ISPs, we cannot guarantee global reachability for Client-owned IPs. 
+
+### 3. Review / Justification / Efficiency Guidelines
+{: #review_justification_efficiency}
+
+Because IPv4 addresses are a scarce resource, RIRs require ISPs to document that they are efficiently utilizing existing assigned addresses and are planning efficient utilization of any addresses being requested. RIR policies and RFC2050 promote conservation and deter wasteful use or stockpiling of IP space. IBM is required to abide by these policies when IBM requests additional IP addresses to allocate. Therefore, when requested by IBM, Client will provide information necessary to enable IBM to obtain RIR-issued IP addresses to support the Cloud Services. 
+
+All Client IP address requests are subjected to review by IBM to ensure efficient utilization and are not guaranteed to be approved. During the review, Client will be required to provide details about how each IP address will be utilized and technical justification as to why additional IP addresses are needed. IBM may take steps to validate such information, including network scanning and server configuration inspection. 
+
+An initial review may take up to 2 business days, and depending on size and complexity, may require additional time for completion. Accounts with open abuse tickets will have their IP requests held for processing until all abuse issues have been resolved. 
+
+## Notices
+{: #notices}
+
+This information was developed for products and services offered in the US. This material might be available from IBM in other languages. However, you might be required to own a copy of the product or product version in that language in order to access it.
 
 IBM may not offer the products, services, or features discussed in this document in other countries. Consult your local IBM representative for information on the products and services currently available in your area. Any reference to an IBM product, program, or service is not intended to state or imply that only that IBM product, program, or service may be used. Any functionally equivalent product, program, or service that does not infringe any IBM intellectual property right may be used instead. However, it is the user's responsibility to evaluate and verify the operation of any non-IBM product, program, or service.
 
@@ -97,25 +149,3 @@ UNIX is a registered trademark of The Open Group in the United States and other 
 Java™ and all Java-based trademarks and logos are trademarks or registered trademarks of Oracle and/or its affiliates.
 
 Other company, product, and service names may be trademarks or service marks of others.
-
-## {{site.data.keyword.Bluemix_notm}} Terms
-{: #terms}
-
-Your IBM Cloud Account and any services ordered from the IBM Cloud are provided under the term of:
-
-  * Base Agreement Cloud Terms applicable to you as follows:
-    * SoftLayer Cloud Service Agreement for US Dollar credit card billing, available at [http://www.softlayer.com/legal](http://www.softlayer.com/legal){: new_window} ![External link icon](../../icons/launch-glyph.svg)
-    * IBM Cloud Services Agreement (local country version*) for non-US Dollar credit card billing, or if you select invoicing from IBM, available at [https://www.ibm.com/terms](https://www.ibm.com/terms){: new_window} ![External link icon](../../icons/launch-glyph.svg) (select your country);
-    * IBM Passport Advantage Agreement you accepted and the General Terms for Cloud Offerings TOU for IBM Passport Advantage Clients, available at [http://www-03.ibm.com/software/sla/sladb.nsf/sla/tou](http://www-03.ibm.com/software/sla/sladb.nsf/sla/tou){: new_window} ![External link icon](../../icons/launch-glyph.svg); or
-    * equivalent cloud service base agreement terms between you and IBM;
-  * Service Description for IBM Cloud available at [http://www-03.ibm.com/software/sla/sladb.nsf/sla/bm](http://www-03.ibm.com/software/sla/sladb.nsf/sla/bm){: new_window} ![External link icon](../../icons/launch-glyph.svg);
-  * Applicable Additional SDs for any service ordered using your IBM Cloud Account available at [http://www-03.ibm.com/software/sla/sladb.nsf/sla/bm](http://www-03.ibm.com/software/sla/sladb.nsf/sla/bm){: new_window} ![External link icon](../../icons/launch-glyph.svg); and
-  * Applicable Data Sheets as referenced in applicable Additional SDs or from the "Terms" link for a service in the IBM Cloud UI available at [http://www-03.ibm.com/software/sla/sladb.nsf/sla/csdsp](http://www-03.ibm.com/software/sla/sladb.nsf/sla/csdsp){: new_window} ![External link icon](../../icons/launch-glyph.svg).
-
-### License for the IBM WebSphere Application Server Liberty Profile image
-The Dockerfile and associated scripts are licensed under the Apache License 2.0. The IBM JRE and IBM WebSphere® Application Server for Developers are licensed under the IBM International License Agreement for Non-Warranted Programs. You can view these licenses from the image by using the LICENSE=view environment variable as described previously, or you can find them online for IBM JRE and IBM WebSphere Application Server for Developers. This license does not permit further distribution.
-
-## {{site.data.keyword.Bluemix_notm}} privacy policy
-{: #privacy_policy}
-
-IBM Online Privacy Statement can be found at [https://www.ibm.com/privacy/details/us/en ![External link icon](../../icons/launch-glyph.svg)](https://www.ibm.com/privacy/details/us/en){: new_window}. This Statement provides information about what personal information IBM collects, how it uses, and what choices Client has with regard to such personal information.
