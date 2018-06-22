@@ -3,7 +3,7 @@
 
 copyright:
   years: 2016, 2018
-lastupdated: "2018-05-23"
+lastupdated: "2018-06-14"
 
 ---
 
@@ -27,6 +27,11 @@ Se você for um usuário existente com uma conta do {{site.data.keyword.cloud_no
   * No menu **Gerenciar**, é possível acessar sua conta, faturamento e uso e as opções de segurança.
 
 Se as suas contas do {{site.data.keyword.cloud_notm}} e do SoftLayer foram vinculadas, você tem as mesmas opções que um proprietário da conta não vinculada, além de poder navegar para o portal do cliente selecionando a opção **Ícone Menu ![Menu icon](../icons/icon_hamburger.svg) > Infraestrutura**. Desse ponto, é possível visualizar seu resumo de conta, pedir armazenamento e dispositivos e gerenciar o acesso para usuários e dispositivos somente de VPN.
+
+## Alternando regiões
+{: #switchregion}
+
+No painel, é possível visualizar todos os recursos em todas as regiões por padrão. Se você deseja visualizar e trabalhar com recursos em uma região específica, expanda o menu **LOCAL** e selecione uma região na lista. 
 
 ## Gerenciando recursos no painel
 {: #dashboardview}
