@@ -3,7 +3,7 @@
 
 copyright:
   years: 2016, 2018
-lastupdated: "2018-05-23"
+lastupdated: "2018-06-14"
 
 ---
 
@@ -28,10 +28,15 @@ lastupdated: "2018-05-23"
 
 如果您已鏈結 {{site.data.keyword.cloud_notm}} 及 SoftLayer 帳戶，則選項會與未鏈結帳戶擁有者相同，而且您可以選取**功能表圖示 ![「功能表」圖示](../icons/icon_hamburger.svg) > 基礎架構**選項來導覽至客戶入口網站。從這裡，您可以檢視帳戶摘要、訂購儲存空間和裝置，以及管理僅限 VPN 使用者和裝置的存取權。
 
+## 切換地區
+{: #switchregion}
+
+依預設，您可以從儀表板檢視所有地區的所有資源。如果您想要檢視及使用特定地區的資源，請展開**位置**功能表，並從清單中選取地區。 
+
 ## 在儀表板上管理資源
 {: #dashboardview}
 
-您可以使用儀表板，來檢視及使用 {{site.data.keyword.cloud_notm}} 資源與 Cloud Foundry 服務實例。如需資源的相關資訊，請參閱[何謂資源？](/docs/resources/acct_resources.html#resource)。
+您可以使用儀表板來檢視及使用 {{site.data.keyword.cloud_notm}} 資源和 Cloud Foundry 服務實例。如需資源的相關資訊，請參閱[何謂資源？](/docs/resources/acct_resources.html#resource)。
 
 ### 檢視資源
 
