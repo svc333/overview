@@ -3,7 +3,7 @@
 
 copyright:
   years: 2016, 2018
-lastupdated: "2018-05-23"
+lastupdated: "2018-06-14"
 
 ---
 
@@ -27,6 +27,11 @@ Wenn Sie ein bereits bestehender Benutzer mit einem {{site.data.keyword.cloud_no
   * Über das Menü **Verwalten** können Sie auf Ihre Konto-, Abrechnungs- und Nutzungs- sowie Sicherheitsoptionen zugreifen.
 
 Wenn Sie Ihre {{site.data.keyword.cloud_notm}}- und SoftLayer-Konten verknüpft haben, haben Sie dieselben Optionen, die auch ein Eigner von nicht verknüpften Konten hat. Außerdem können Sie zum Kundenportal navigieren, indem Sie die Option **Menüsymbol![Menüsymbol](../icons/icon_hamburger.svg) > Infrastruktur** auswählen. Von hier aus können Sie Ihre Kontozusammenfassung anzeigen, Speicher und Geräte bestellen und den Zugriff für Benutzer und Geräte verwalten, die nur VPN nutzen.
+
+## Regionen wechseln
+{: #switchregion}
+
+Über das Dashboard können Sie standardmäßig alle Ressourcen in allen Regionen anzeigen. Wenn Sie Ressourcen in einer bestimmten Region anzeigen und mit diesen arbeiten möchten, erweitern Sie das Menü **Standort** und wählen Sie eine Region in der Liste aus. 
 
 ## Ressourcen im Dashboard verwalten
 {: #dashboardview}

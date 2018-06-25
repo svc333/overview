@@ -3,7 +3,7 @@
 
 copyright:
   years: 2016, 2018
-lastupdated: "2018-05-22"
+lastupdated: "2018-06-14"
 
 ---
 
@@ -84,17 +84,11 @@ werden. Infrastrukturangebote, z. B. Bare-Metal-Server, virtuelle Server und Clo
 Eine {{site.data.keyword.cloud_notm}}-Region ist ein definiertes geografisches Gebiet, in dem Sie Ihre Apps bereitstellen können. Sie können Apps und Serviceinstanzen in unterschiedlichen Regionen mit derselben {{site.data.keyword.cloud_notm}}-Infrastruktur für das Anwendungsmanagement und dieselbe Ansicht mit den Nutzungsdetails zur Gebührenabrechnung erstellen. Sie können Ihre Apps in der Region bereitstellen, die Ihren Kunden am nächsten ist, um eine geringe Latenzzeit zu erreichen. Zum Beheben von Sicherheitsproblemen können Sie auch die Region auswählen, in der die Anwendungsdaten aufbewahrt werden sollen. Wenn Sie Apps in mehreren Regionen erstellen, werden die Apps in den anderen Regionen weiter ausgeführt, falls eine Region nicht mehr verfügbar ist. Die verfügbaren Ressourcen
 sind für jede verwendete Region gleich.
 
-Wenn Sie die {{site.data.keyword.cloud_notm}}-Konsole verwenden, werden Ihnen automatisch die Informationen für die am nächsten gelegene geografische Region angezeigt, die sich in einwandfreiem Zustand befindet. Der globale Lastausgleich für die Konsole stellt sicher, dass in dem Fall, dass Ihre nächste geografische Region aus irgendeinem Grund inaktiv ist, Ihre Konsole die Informationen für die nächstgelegene Region anzeigt. Auf diese Weise haben Sie immer Zugriff auf die Konsole, ohne Maßnahmen ergreifen zu müssen, um auf die benötigten Informationen zugreifen zu können.
+Der globale Lastausgleich für die Konsole stellt sicher, dass in dem Fall, dass Ihre nächste geografische Region aus irgendeinem Grund inaktiv ist, die Konsole die Informationen für die nächstgelegene Region anzeigt. Auf diese Weise verfügen Sie stets über Zugriff auf die Konsole, ohne dass Aktionen erforderlich sind, um auf die benötigten Informationen zuzugreifen.
 
-Verwenden Sie die Regionenauswahl in der Konsole, um Ihre Ansicht zu filtern. Wenn Sie beispielsweise in Ihrer Region Dallas, USA, auf Ihre Apps und Services zugreifen, aber Ihre Apps und Services für die Region London anzeigen möchten, können Sie mit der Regionenauswahl Ihre Ansicht ändern:
+Über das Dashboard können Sie standardmäßig alle Ressourcen in allen Regionen anzeigen. Wenn Sie Ressourcen in einer bestimmten Region anzeigen und mit diesen arbeiten möchten, erweitern Sie das Menü **Standort** und wählen Sie eine Region in der Liste aus. 
 
-1. Klicken Sie auf den Link für Benutzerkontovorgaben.
-2. Erweitern Sie das Menü **Region**.
-3. Wählen Sie die erforderliche Region aus der Liste aus.
-
-Durch Filtern Ihrer Ansicht nach Region können Sie auch schnell zwischen Ansichten wechseln, um mit Organisationen, Bereichen und Benutzern zu arbeiten, die den verschiedenen Regionen zugeordnet sind.
-
-Sie können die Befehlszeilenschnittstelle verwenden, um eine Verbindung zu der {{site.data.keyword.cloud_notm}}-Region herzustellen, mit der Sie arbeiten möchten, indem Sie den Befehl 'ibmcloud api' verwenden und den API-Endpunkt der Region angeben. Geben Sie beispielsweise den folgenden Befehl ein, um eine Verbindung zu der
+Sie können auch die Befehlszeilenschnittstelle verwenden, um eine Verbindung zu der {{site.data.keyword.cloud_notm}}-Region herzustellen, mit der Sie arbeiten möchten, indem Sie den Befehl `ibmcloud api` verwenden und den API-Endpunkt der Region angeben. Geben Sie beispielsweise den folgenden Befehl ein, um eine Verbindung zu der
 {{site.data.keyword.cloud_notm}}-Region 'Europa - Vereintes Königreich' herzustellen:
 
 ```
