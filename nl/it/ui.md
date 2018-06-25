@@ -3,7 +3,7 @@
 
 copyright:
   years: 2016, 2018
-lastupdated: "2018-05-23"
+lastupdated: "2018-06-14"
 
 ---
 
@@ -28,10 +28,15 @@ Se sei un utente esistente con un account {{site.data.keyword.cloud_notm}}, puoi
 
 Se hai collegato i tuoi account {{site.data.keyword.cloud_notm}} e SoftLayer, hai le stesse opzioni di un proprietario di account non collegato e inoltre puoi accedere al portale clienti selezionando l'opzione dell'**icona Menu  ![Icona Menu](../icons/icon_hamburger.svg)  > Infrastruttura**. Da qui, puoi visualizzare il riepilogo del tuo account, ordinare archiviazione e dispositivi e gestire l'accesso per utenti e dispositivi solo VPN.
 
+## Cambio di regioni
+{: #switchregion}
+
+Dal dashboard, puoi visualizzare tutte le risorse in tutte le regioni per impostazione predefinita. Se vuoi visualizzare e utilizzare le risorse in una regione specifica, espandi il menu **UBICAZIONE** e seleziona una regione dall'elenco. 
+
 ## Gestione delle risorse sul dashboard
 {: #dashboardview}
 
-Puoi utilizzare il dashboard per visualizzare e gestire le risorse {{site.data.keyword.cloud_notm}} e le istanze del servizio Cloud Foundry. Per ulteriori informazioni sulle risorse, vedi [Cos'è è una risorsa?](/docs/resources/acct_resources.html#resource).
+Puoi utilizzare il dashboard per visualizzare e gestire le risorse {{site.data.keyword.cloud_notm}} e le istanze del servizio Cloud Foundry. Per ulteriori informazioni sulle risorse, vedi [Cos'è una risorsa?](/docs/resources/acct_resources.html#resource).
 
 ### Visualizzazione delle risorse
 

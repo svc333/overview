@@ -3,7 +3,7 @@
 
 copyright:
   years: 2016, 2018
-lastupdated: "2018-05-22"
+lastupdated: "2018-06-14"
 
 ---
 
@@ -76,17 +76,11 @@ Le offerte dell'infrastruttura {{site.data.keyword.cloud_notm}} sono collegate a
 
 Una regione {{site.data.keyword.cloud_notm}} è un territorio geografico definito a cui puoi distribuire le applicazioni. Puoi creare applicazioni e istanze di servizio in regioni differenti con la stessa infrastruttura {{site.data.keyword.cloud_notm}} per la gestione di applicazioni e la stessa vista dei dettagli di utilizzo per la fatturazione. Puoi distribuire le tue applicazioni alla regione più vicina ai tuoi clienti per ottenere una bassa latenza dell'applicazione. Per far fronte ai problemi di sicurezza puoi anche selezionare la regione dove desideri conservare i dati delle applicazioni. Quando crei applicazioni in più regioni, se una regione non è più disponibile, le applicazioni che si trovano nelle altre regioni continuano a essere eseguite. La disponibilità di risorse è la stessa per ogni regione che usi.
 
-Se utilizzi la console {{site.data.keyword.cloud_notm}}, ti vengono automaticamente presentate le informazioni per la regione geografica integra più prossima. Il bilanciamento del carico globale per la console garantisce che, se per qualche motivo la regione geografica a te più prossima è inattiva, la tua console visualizzerà le informazioni per la successiva regione più prossima. In questo modo, avrai sempre accesso alla console senza dover eseguire alcuna azione per accedere alle informazioni di cui hai bisogno.
+Il bilanciamento del carico globale per la console garantisce che, se per qualche motivo la regione geografica a te più prossima è inattiva, la console visualizza le informazioni per la successiva regione più prossima. In questo modo, puoi sempre accedere alla console senza eseguire alcuna azione per accedere alle informazioni di cui hai bisogno. 
 
-Utilizza il selettore della regione nella console per filtrare la tua vista. Ad esempio, se stai accedendo alle tue applicazioni e ai tuoi servizi nella tua regione Dallas, Stati Uniti, ma vuoi visualizzare le tue applicazioni e i tuoi servizi per la regione Londra, puoi utilizzare il selettore della regione per cambiare la tua vista:
+Dal dashboard, puoi visualizzare tutte le risorse in tutte le regioni per impostazione predefinita. Se vuoi visualizzare e utilizzare le risorse in una regione specifica, espandi il menu **UBICAZIONE** e seleziona una regione dall'elenco. 
 
-1. Fai clic sul link delle preferenze dell'account utente.
-2. Espandi il menu **Regione**.
-3. Seleziona la regione da te richiesta dall'elenco.
-
-Filtrare la tua vista in base alla regione ti consente anche di passare rapidamente da una vista a un'altra per lavorare con organizzazioni, spazi e utenti assegnati a regioni differenti.
-
-Puoi utilizzare l'interfaccia riga di comando per connetterti alla regione {{site.data.keyword.cloud_notm}} con cui vuoi lavorare utilizzando il comando ibmcloud api e specificando l'endpoint API della regione. Ad esempio, immetti il seguente comando per stabilire una connessione alla regione {{site.data.keyword.cloud_notm}} Europa Regno Unito:
+Puoi inoltre utilizzare l'interfaccia riga di comando per connetterti alla regione {{site.data.keyword.cloud_notm}} con cui vuoi lavorare utilizzando il comando `ibmcloud api` e specificando l'endpoint API della regione. Ad esempio, immetti il seguente comando per stabilire una connessione alla regione {{site.data.keyword.cloud_notm}} Europa Regno Unito:
 
 ```
 ibmcloud api https://api.eu-gb.bluemix.net
