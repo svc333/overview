@@ -3,7 +3,7 @@
 
 copyright:
   years: 2016, 2018
-lastupdated: "2018-05-23"
+lastupdated: "2018-06-14"
 
 ---
 
@@ -28,10 +28,15 @@ Si vous êtes un utilisateur existant qui dispose d'un compte {{site.data.keywor
 
 Si vous avez lié vos comptes {{site.data.keyword.cloud_notm}} et SoftLayer,  vous disposez des mêmes options qu'un propriétaire de compte non lié et vous pouvez de plus accéder au portail client en sélectionnant l'**icône Menu  ![Icône Menu](../icons/icon_hamburger.svg)  > option Infrastructure**. A partir de là, vous pouvez afficher le récapitulatif de votre compte, commander de l'espace de stockage et des périphériques, et gérer les accès des utilisateurs et périphériques du réseau privé virtuel uniquement.
 
+## Changement de région
+{: #switchregion}
+
+Dans le tableau de bord, vous pouvez afficher par défaut toutes les ressources de toutes les régions. Si vous souhaitez afficher et utiliser les ressources d'une région spécifique, développez le menu **EMPLACEMENT** puis sélectionnez une région dans la liste. 
+
 ## Gestion des ressources sur le tableau de bord
 {: #dashboardview}
 
-Vous pouvez utiliser le tableau de bord pour afficher et utiliser des ressources {{site.data.keyword.cloud_notm}} et des instances de service Cloud Foundry. Pour plus d'informations sur les ressources, voir [What is a resource?](/docs/resources/acct_resources.html#resource).
+Vous pouvez utiliser le tableau de bord pour afficher et utiliser des ressources {{site.data.keyword.cloud_notm}} et des instances de service Cloud Foundry. Pour plus d'informations sur les ressources, voir [Qu'est-ce qu'une ressource ?](/docs/resources/acct_resources.html#resource).
 
 ### Affichage des ressources
 

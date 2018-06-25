@@ -3,7 +3,7 @@
 
 copyright:
   years: 2016, 2018
-lastupdated: "2018-05-22"
+lastupdated: "2018-06-14"
 
 ---
 
@@ -76,17 +76,11 @@ Les offres d'infrastructure {{site.data.keyword.cloud_notm}} sont connectées à
 
 Une région {{site.data.keyword.cloud_notm}} est un territoire géographique défini sur lequel vous pouvez déployer vos applications. Vous pouvez créer des instances d'application et de service dans différentes régions avec la même infrastructure {{site.data.keyword.cloud_notm}} pour la gestion des applications et la même vue de détails de l'utilisation pour la facturation. Vous pouvez déployer vos applications dans la région la plus proche de vos clients pour réduire les temps d'attente de votre application. Pour répondre aux considérations de sécurité, vous pouvez également sélectionner la région dans laquelle conserver vos données d'application. Lorsque vous construisez des applications dans plusieurs régions et que l'une des régions devient indisponible, les applications des autres régions continuent de fonctionner. La franchise de ressources est la même dans toutes les régions que vous utilisez.
 
-Si vous utilisez la console {{site.data.keyword.cloud_notm}}, les informations sur la plus proche région géographique viable sont automatiquement affichées. L'équilibrage de charge global pour la console garantit que, si pour une raison quelconque, la région géographique la plus proche est indisponible, votre console affichera les informations de la suivante. De la sorte, vous avez toujours accès à la console sans avoir à effectuer une action quelconque pour obtenir les informations dont vous avez besoin.
+L'équilibrage de charge global pour la console garantit que, si pour une raison quelconque, la région géographique la plus proche est indisponible, la console affiche les informations de la suivante. De la sorte, vous pouvez toujours accéder à la console sans avoir à effectuer d'action pour obtenir les informations dont vous avez besoin.
 
-Utilisez le sélecteur de région dans la console pour filtrer votre vue. Par exemple, si vous accédez à vos applications et à vos services dans votre région Dallas - Etats-Unis, mais désirez examiner ceux de la région Londres, vous pouvez utiliser le sélecteur de région pour changer de vue :
+Dans le tableau de bord, vous pouvez afficher par défaut toutes les ressources de toutes les régions. Si vous souhaitez afficher et utiliser les ressources d'une région spécifique, développez le menu **EMPLACEMENT** puis sélectionnez une région dans la liste. 
 
-1. Cliquez sur le lien des préférences de compte utilisateur.
-2. Développez le menu **Région**.
-3. Sélectionnez la région voulue dans la liste.
-
-Le filtrage de votre vue par région vous permet également de basculer rapidement entre les vues pour travailler avec des organisations, des espaces, et des utilisateurs affectés à des régions différentes.
-
-Vous pouvez utiliser l'interface de ligne de commande pour vous connecter à la région {{site.data.keyword.cloud_notm}} dans laquelle vous désirez travailler en exécutant la commande ibmcloud api et en spécifiant le noeud final d'API de la région. Par exemple, entrez la commande suivante pour vous connecter à la région {{site.data.keyword.cloud_notm}} Europe et Royaume-Uni :
+Vous pouvez également utiliser l'interface de ligne de commande pour vous connecter à la région {{site.data.keyword.cloud_notm}} souhaitée en utilisant la commande `ibmcloud api` et en spécifiant le noeud final d'API de la région. Par exemple, entrez la commande suivante pour vous connecter à la région {{site.data.keyword.cloud_notm}} Europe et Royaume-Uni :
 
 ```
 ibmcloud api https://api.eu-gb.bluemix.net
@@ -156,8 +150,7 @@ Tout d'abord, votre développeur d'intégration crée l'application de back end 
 conteneur boilerplate Mobile Cloud utilisant le contexte d'exécution Node.js qu'il connaît le mieux.
 
 Puis, en utilisant le service Cloud Integration dans l'interface utilisateur {{site.data.keyword.cloud_notm}}, il expose une API via un
-connecteur sécurisé. Le développeur d'application télécharge le connecteur sécurisé et l'installe sur site, afin d'activer la communication sécurisée entre son  interface de programme d'application et la base de données. Après avoir créé le noeud final de base de données, il peut consulter tous les schémas et extraire les tables qu'il veut exposer à l'application en tant
-qu'API pour l'application.
+connecteur sécurisé. Le développeur d'application télécharge le connecteur sécurisé et l'installe sur site, afin d'activer la communication sécurisée entre son  interface de programme d'application et la base de données. Après avoir créé le noeud final de base de données, il peut consulter tous les schémas et extraire les tables qu'il veut exposer à l'application en tant qu'API pour l'application.
 
 Il ajoute ensuite le service Push pour distribuer des notifications mobiles aux clients intéressés. Il ajoute également un service de partenaire
 commercial pour écrire un tweet lorsqu'un nouvel enregistrement client est créé avec une interface de programme d'application Twitter.

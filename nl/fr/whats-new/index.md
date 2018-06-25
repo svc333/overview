@@ -23,7 +23,7 @@ Restez à jour avec les nouvelles fonctions et les nouveaux services disponibles
 ### Protection des ID de service et des clés d'API
 Nouveau à compter du : 1 juin 2018
 
-Pour éviter que la suppression de votre ID de service ou de votre clé d'API ne provoque une indisponibilité ou une interruption, vous pouvez verrouiller les ID de service et les clés d'API en utilisant l'interface utilisateur ou l'interface CLI. Le verrouillage d'un ID de service empêche que les règles d'accès soient changées, modifiées ou affectées et que les clés d'API associées à l'ID de service soient créées ou supprimées. Pour plus d'informations, voir [Locking a service ID](/docs/iam/serviceid.html#locking-a-service-id) et [Locking an API key](/docs/iam/userid_keys.html#locking-an-api-key).
+Pour éviter que la suppression de votre ID de service ou de votre clé d'API ne provoque une indisponibilité ou une interruption, vous pouvez verrouiller les ID de service et les clés d'API en utilisant l'interface utilisateur ou l'interface CLI. Le verrouillage d'un ID de service empêche que les règles d'accès soient changées, modifiées ou affectées et que les clés d'API associées à l'ID de service soient créées ou supprimées. Pour plus d'informations, voir [Verrouillage d'un ID de service](/docs/iam/serviceid.html#locking-a-service-id) et [Verrouillage d'une clé d'API](/docs/iam/userid_keys.html#locking-an-api-key).
 
 ### Mise à jour de votre compte Lite vers un compte Abonnement
 Nouveau à compter du : 31 mai 2018
