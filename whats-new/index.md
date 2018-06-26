@@ -4,7 +4,7 @@ copyright:
 
   years: 2015, 2018
 
-lastupdated: "2018-06-01"
+lastupdated: "2018-06-26"
 
 ---
 
@@ -300,6 +300,20 @@ The Liberty buildpack v3.9 provides new monthly Liberty runtime version and cont
 
 ## Services
 {: #services_category}
+
+### Introducing {{site.data.keyword.iva_full_notm}} general availability
+New as of: 26 June 2018
+
+The [{{site.data.keyword.iva_full}}](https://console.bluemix.net/catalog/services/voice-agent-with-watson)![External link icon](../../icons/launch-glyph.svg "External link icon") is now generally available! You can create a cognitive voice agent built on Watson services that customers can call and speak to over the phone. With Watson artificial intelligence at its backbone, your voice agent can communicate in a conversational manner, handling complex interactions and solving customer calls within the voice agent.
+
+This release introduces the following new features:
+
+* Add redundant Watson service locations for disaster recovery. 
+* Edit advanced configuration options to customize how your voice agents transfer calls, play prerecorded messages to callers, and interact with Watson services.
+* Configure the number of maximum concurrent connections in your Standard service plan.
+* Connect your voice agents to SIP trunking providers like NetFoundry, Twilio, AT&T, and other service providers or peer with {{site.data.keyword.iva_short}}.
+
+To get started, see the [{{site.data.keyword.iva_short}}](/docs/services/voice-agent/getting-started.html) documentation.
 
 ### {{site.data.keyword.streaminganalyticsshort}} introduces new service plans with container-based infrastructure
 New as of: 20 April 2018
