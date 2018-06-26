@@ -3,7 +3,7 @@
 
 copyright:
   years: 2016, 2018
-lastupdated: "2018-05-22"
+lastupdated: "2018-06-14"
 
 ---
 
@@ -78,17 +78,11 @@ Las ofertas de infraestructura de {{site.data.keyword.cloud_notm}} están conect
 
 Una región de {{site.data.keyword.cloud_notm}} es un territorio geográfico definido en el que puede desplegar sus apps. Puede crear apps e instancias de servicios en distintas regiones con la misma infraestructura de {{site.data.keyword.cloud_notm}} para la gestión de apps y la misma vista de detalles de uso para la facturación. Tiene la posibilidad de desplegar sus apps en la región más cercana a sus clientes para conseguir una latencia de aplicación baja. Para solventar problemas de seguridad, también puede seleccionar la región en la que desea conservar los datos de app. Cuando crea apps en varias regiones, si una región queda fuera de servicio, las apps que están en las otras regiones seguirán funcionando. Su concesión de recursos es la misma para cada región que utilice.
 
-Si utiliza la consola de {{site.data.keyword.cloud_notm}}, automáticamente se muestra la información de la región geográfica en buen estado más cercana. El equilibrio de carga global de la consola permite asegurar que si por alguna razón la región geográfica más próxima no está disponible, la consola visualizará la información de la siguiente región más próxima. De esta forma, siempre tendrá acceso a la consola sin necesidad de acción alguna para acceder a la información que necesita.
+El equilibrio de carga global de la consola permite asegurar que si por alguna razón la región geográfica más próxima no está disponible, la consola visualiza la información de la siguiente región más próxima. De esta forma, siempre podrá acceder a la consola sin realizar acción alguna para acceder a la información que necesita.
 
-Utilice el selector de región en la consola para filtrar la vista. Por ejemplo, si está accediendo a sus apps y servicios desde Dallas, región de EE.UU., y desea ver las apps y servicios de la región de Londres, utilice el selector de región para cambiar la vista:
+Desde el panel de control, puede ver todos los recursos en todas las regiones de forma predeterminada. Si desea ver y trabajar con recursos en una región específica, expanda el menú **LOCATION** y seleccione una región de la lista. 
 
-1. Pulse en el enlace de preferencias de cuenta.
-2. Amplíe el menú **Región**.
-3. Seleccione en la lista la región que desee.
-
-Si filtra la vista según la región podrá cambiar entre vistas con rapidez para trabajar con organizaciones, espacios y usuarios asignados a las distintas regiones.
-
-Utilice la interfaz de línea de mandatos para conectarse a la región de {{site.data.keyword.cloud_notm}} en la que desee trabajar. Utilice el mandato ibmcloud api y especifique el punto final API de la región. Por ejemplo, escriba el siguiente mandato para conectarse a la región de
+También puede utilizar la interfaz de línea de mandatos para conectarse a la región de {{site.data.keyword.cloud_notm}} con la que desee trabajar utilizando el mandato `ibmcloud api` y especificando el punto final de API de la región. Por ejemplo, escriba el siguiente mandato para conectarse a la región de
 {{site.data.keyword.cloud_notm}} de Europa - Reino Unido:
 
 ```

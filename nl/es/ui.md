@@ -3,7 +3,7 @@
 
 copyright:
   years: 2016, 2018
-lastupdated: "2018-05-23"
+lastupdated: "2018-06-14"
 
 ---
 
@@ -27,6 +27,11 @@ Si es un usuario existente con una cuenta de {{site.data.keyword.cloud_notm}}, p
   * Desde el menú **Gestionar**, puede acceder a las opciones de su cuenta, de facturación y uso y de seguridad.
 
 Si ha enlazado sus cuentas de {{site.data.keyword.cloud_notm}} y SoftLayer, tiene las mismas opciones que el propietario de una cuenta no enlazada, pero además puede navegar al portal de cliente seleccionando el **icono de Menú ![Icono de menú](../icons/icon_hamburger.svg)  > opción Infraestructura**. Desde aquí, puede ver su resumen de cuenta, pedir almacenamiento y dispositivos y gestionar el acceso para usuarios y dispositivos de solo VPN.
+
+## Cómo conmutar entre regiones
+{: #switchregion}
+
+Desde el panel de control, puede ver todos los recursos en todas las regiones de forma predeterminada. Si desea ver y trabajar con recursos en una región específica, expanda el menú **LOCATION** y seleccione una región de la lista. 
 
 ## Gestión de recursos en el panel de control
 {: #dashboardview}
