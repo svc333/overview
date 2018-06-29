@@ -1,7 +1,7 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="overview" audience="platform" href="/docs/overview/ibm-cloud.html"}
+{: .toc subcollection="overview" audience="platform" arm="3816100" href="/docs/overview/ibm-cloud.html"}
 何謂 IBM Cloud
 
     {: .navgroup id="learn"}
@@ -20,8 +20,8 @@
 
     {: .topicgroup}
     相關鏈結
-        [為何選擇 IBM Cloud？](https://www.ibm.com/cloud-computing/learn-more/why-ibm-cloud/){: new_window}
-        [瞭解專用雲端選項](https://www.ibm.com/cloud-computing/solutions/private-cloud/){: new_window}
+        [Why IBM Cloud?](https://www.ibm.com/cloud-computing/learn-more/why-ibm-cloud/){: new_window}
+        [Learn about private cloud choices](https://www.ibm.com/cloud-computing/solutions/private-cloud/){: new_window}
     {: .navgroup-end}
 
     {: .navgroup id="reference"}
