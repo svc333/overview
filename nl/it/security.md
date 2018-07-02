@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2018
-lastupdated: "2018-06-08"
+lastupdated: "2018-06-20"
 
 ---
 
@@ -20,4 +20,4 @@ procedure quali, ad esempio, scansione del codice sorgente, scansione dinamica, 
 incidenti di sicurezza. Per i dettagli, vedi il sito [IBM Security Vulnerability Management (PSIRT) ![Icona link esterno](../icons/launch-glyph.svg "Icona link esterno")](http://www-03.ibm.com/security/secure-engineering/process.html){: new_window}.
 
 {{site.data.keyword.cloud_notm}} pubblico e dedicato utilizzano i servizi del cloud {{site.data.keyword.BluSoftlayer}} IaaS (infrastructure-as-a-service) e sfruttano al massimo la sua architettura di sicurezza. Per le tue applicazioni e i tuoi dati, {{site.data.keyword.BluSoftlayer}} IaaS fornisce molteplici livelli di protezione che si sovrappongono tra di loro. Per {{site.data.keyword.cloud_notm}} locale, la sicurezza fisica è di tua competenza e fornisci l'infrastruttura
-ospitando {{site.data.keyword.cloud_notm}} locale nel tuo data center dietro un firewall aziendale. Inoltre, {{site.data.keyword.cloud_notm}} aggiunge funzionalità di sicurezza a livello di PaaS (Platform as a Service) in diverse categorie: piattaforma, dati e applicazione. Per ulteriori dettagli di sicurezza sulla soluzione PaaS, vedi [Protezione dei carichi di lavoro su IBM Cloud ![Icona link esterno](../icons/launch-glyph.svg "Icona link esterno")](https://www.ibm.com/cloud/garage/architectures/securityArchitecture){: new_window}.
+ospitando {{site.data.keyword.cloud_notm}} locale nel tuo data center dietro un firewall aziendale. Inoltre, {{site.data.keyword.cloud_notm}} aggiunge funzionalità di sicurezza a livello di PaaS (Platform as a Service) in diverse categorie: piattaforma, dati e applicazione. Per ulteriori dettagli sulla sicurezza del tuo ambiente e delle applicazioni in {{site.data.keyword.Bluemix_notm}}, vedi [Securing applications and environments on cloud ![Icona link esterno](../icons/launch-glyph.svg "Icona link esterno")](https://www.ibm.com/cloud/garage/architectures/securityArchitecture){: new_window}.

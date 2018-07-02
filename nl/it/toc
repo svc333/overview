@@ -1,7 +1,7 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="overview" audience="platform" href="/docs/overview/ibm-cloud.html"}
+{: .toc subcollection="overview" audience="platform" arm="3816100" href="/docs/overview/ibm-cloud.html"}
 Cos'è IBM Cloud
 
     {: .navgroup id="learn"}
