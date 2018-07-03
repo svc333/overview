@@ -4,7 +4,7 @@ copyright:
 
   years: 2015, 2018
 
-lastupdated: "2018-06-01"
+lastupdated: "2018-06-26"
 
 ---
 
@@ -23,12 +23,12 @@ lastupdated: "2018-06-01"
 ### サービス ID および API キーの保護
 最新情報: 2018 年 6 月 1 日
 
-サービス ID または API キーの削除が原因で停止または破壊が発生する状態を回避できるように、UI または CLI を使用してサービス ID および API キーをロックできるオプションがあります。サービス ID をロックすることにより、アクセス・ポリシーの変更、削除、割り当てを防止することもでき、さらに、サービス ID と関連付けられた API キーの作成または削除を防止することもできます。詳しくは、『[サービス ID のロック](/docs/iam/serviceid.html#locking-a-service-id)』および『[API キーのロック](/docs/iam/userid_keys.html#locking-an-api-key)』を参照してください。
+サービス ID または API キーの削除が原因で停止または破壊が発生する状態を回避できるように、UI または CLI を使用してサービス ID および API キーをロックできるオプションがあります。 サービス ID をロックすることにより、アクセス・ポリシーの変更、削除、割り当てを防止することもでき、さらに、サービス ID と関連付けられた API キーの作成または削除を防止することもできます。 詳しくは、『[サービス ID のロック](/docs/iam/serviceid.html#locking-a-service-id)』および『[API キーのロック](/docs/iam/userid_keys.html#locking-an-api-key)』を参照してください。
 
 ### ライト・アカウントからサブスクリプション・アカウントへのアップグレード
 最新情報: 2018 年 5 月 31 日
 
-{{site.data.keyword.Bluemix_notm}} コンソールから直接、ライト・アカウントをサブスクリプション・アカウントにアップグレードできるようになりました。サブスクリプション・アカウントを使用すると、プラットフォームとインフラストラクチャーの両方のオファリングを使用でき、月次支出額および期間を確約することによって割引価格を利用できます。また、月次支払いスケジュールに基づく固定された請求処理によって予期しない請求を回避できる一方、ニーズに合わせて注文量を増減できる柔軟性もあります。詳しくは、『[サブスクリプション・アカウントについての FAQ](/docs/billing-usage/billing-faq.html#subscription-faqs)』を参照してください。 
+{{site.data.keyword.Bluemix_notm}} コンソールから直接、ライト・アカウントをサブスクリプション・アカウントにアップグレードできるようになりました。 サブスクリプション・アカウントを使用すると、プラットフォームとインフラストラクチャーの両方のオファリングを使用でき、月次支出額および期間を確約することによって割引価格を利用できます。 また、月次支払いスケジュールに基づく固定された請求処理によって予期しない請求を回避できる一方、ニーズに合わせて注文量を増減できる柔軟性もあります。 詳しくは、『[サブスクリプション・アカウントについての FAQ](/docs/billing-usage/billing-faq.html#subscription-faqs)』を参照してください。 
 
 ### {{site.data.keyword.Bluemix_notm}} CLI リブランディング
 最新情報: 2018 年 5 月 15 日
@@ -38,7 +38,7 @@ lastupdated: "2018-06-01"
 ### {{site.data.keyword.Bluemix_notm}} アカウントでの多要素認証
 最新情報: 2018 年 5 月 2 日
 
-多要素認証 (MFA) ではセキュリティーに層が 1 つ追加されて、すべてのユーザーが、ログイン中に標準 IBM ID およびパスワードに加えて、時間ベースのワンタイム・パスコードも入力することが必要になります。 これは、一般的に 2 要素認証 (2FA) とも呼ばれています。 MFA はアカウント単位で有効にされ、いったんオンにされると、そのアカウント内のすべてのユーザーは、追加セキュリティー手段を使用してログインすることが必要になります。
+多要素認証 (MFA) ではアカウントにセキュリティーの層が 1 つ追加されて、すべてのユーザーが、ログイン中に標準 IBM ID およびパスワードに加えて、時間ベースのワンタイム・パスコードも入力することが必要になります。 これは、一般的に 2 要素認証 (2FA) とも呼ばれています。 MFA はアカウント単位で有効にされ、いったんオンにされると、そのアカウント内のすべてのユーザーは、追加セキュリティー手段を使用してログインすることが必要になります。
 
 詳しくは、[IBM Cloud Platform now adds support for Multi-Factor Authentication](https://www.ibm.com/blogs/bluemix/2018/05/ibm-cloud-platform-now-adds-support-multi-factor-authentication/){: new_window} ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン") ブログ投稿を参照してください。
 
@@ -50,7 +50,7 @@ lastupdated: "2018-06-01"
 ### SoftLayer アカウントと {{site.data.keyword.Bluemix_notm}} アカウントのリンク
 最新情報: 2018 年 3 月 1 日
 
-SoftLayer アカウントを {{site.data.keyword.Bluemix_notm}} アカウントとリンクして、単一のロケーションである {{site.data.keyword.Bluemix_notm}} コンソールにログインし、Infrastructure as a Service (IaaS) および Platform as a Service (PaaS) の両方のリソースにアクセスできます。 {{site.data.keyword.Bluemix_notm}} を初めて使用する場合、アカウントを作成してリンクすると、無料の {{site.data.keyword.Bluemix_notm}} ライト・アカウントを取得できます。Paas リソースを含む {{site.data.keyword.Bluemix_notm}} アカウントをすでにお持ちの場合は、アカウントをリンクすることで、IaaS リソースおよび PaaS リソースの両方に関する請求を 1 つにまとめることができます。 アカウントを素早くリンクするには、[IaaS アカウントと PaaS アカウントをリンクする手順](https://www.ibm.com/blogs/bluemix/2018/03/follow-steps-link-iaas-paas-accounts/){: new_window} ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")を確認してください。
+SoftLayer アカウントを {{site.data.keyword.Bluemix_notm}} アカウントとリンクして、単一のロケーションである {{site.data.keyword.Bluemix_notm}} コンソールにログインし、Infrastructure as a Service (IaaS) および Platform as a Service (PaaS) の両方のリソースにアクセスできます。 {{site.data.keyword.Bluemix_notm}} を初めて使用する場合、アカウントを作成してリンクすると、無料の {{site.data.keyword.Bluemix_notm}} ライト・アカウントを取得できます。 Paas リソースを含む {{site.data.keyword.Bluemix_notm}} アカウントをすでにお持ちの場合は、アカウントをリンクすることで、IaaS リソースおよび PaaS リソースの両方に関する請求を 1 つにまとめることができます。 アカウントを素早くリンクするには、[IaaS アカウントと PaaS アカウントをリンクする手順](https://www.ibm.com/blogs/bluemix/2018/03/follow-steps-link-iaas-paas-accounts/){: new_window} ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")を確認してください。
 
 
 ### {{site.data.keyword.Bluemix_notm}} Foundry Service 米国東部地域が使用可能になりました。
@@ -300,6 +300,20 @@ Liberty ビルドパック v3.9 は、新規の月次の Liberty ランタイム
 
 ## サービス
 {: #services_category}
+
+### {{site.data.keyword.iva_full_notm}} 一般出荷可能日の紹介
+最新情報: 2018 年 6 月 26 日
+
+[{{site.data.keyword.iva_full}}](https://console.bluemix.net/catalog/services/voice-agent-with-watson)![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン") が一般出荷可能になりました。顧客が電話で通話したり話しかけたりすることができる、Watson サービスをベースとするコグニティブ・ボイス・エージェントを作成できます。 バックボーンに Watson の人工知能があるため、ボイス・エージェントは会話のようにコミュニケーションすることができ、ボイス・エージェント内で複雑な対話を処理したり顧客の通話を解決したりすることができます。
+
+このリリースでは、以下の新機能が導入されています。
+
+* 災害復旧のために予備の Watson サービス・ロケーションを追加する。 
+* ボイス・エージェントによる通話の転送、事前録音された発信者へのメッセージの再生、Watson サービスとの対話を行う方法をカスタマイズするために、拡張構成オプションを編集する。
+* 標準サービス・プランで最大同時接続の数を構成する。
+* NetFoundry、Twilio、AT&T などの SIP トランキング・プロバイダーやその他のサービス・プロバイダーにボイス・エージェントを接続したり、{{site.data.keyword.iva_short}} とのピアを行ったりする。
+
+まず、『[{{site.data.keyword.iva_short}}](/docs/services/voice-agent/getting-started.html)』の資料を参照してください。
 
 ### {{site.data.keyword.streaminganalyticsshort}} で、コンテナー・ベースのインフラストラクチャーを使用する新しいサービス・プランが導入されました
 最新情報: 2018 年 4 月 20 日

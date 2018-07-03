@@ -1,9 +1,12 @@
 ---
 
+
+
 copyright:
 
   years: 2015, 2018
-lastupdated: "2018-03-01"
+lastupdated: "2018-06-21"
+
 
 ---
 
@@ -12,10 +15,59 @@ lastupdated: "2018-03-01"
 {:screen: .screen}
 {:new_window: target="_blank"}
 
-# 特記事項
+# {{site.data.keyword.Bluemix_notm}} ご利用条件
+{: #terms}
+
+## {{site.data.keyword.Bluemix_notm}} ご利用条件
+{: #terms_details}
+
+IBM Cloud アカウントおよび IBM Cloud から注文されたすべてのサービスは以下のご使用条件に基づいて使用許諾されます。
+
+  * 基本ご使用条件のクラウドご利用条件は、以下の通り適用されます。
+    * 米ドル・クレジット・カード請求の場合の SoftLayer クラウド・サービスご使用条件、 [http://www.softlayer.com/legal](http://www.softlayer.com/legal){: new_window} ![外部リンク・アイコン](../../icons/launch-glyph.svg) を参照
+    * 非米ドル・クレジット・カード請求または IBM からの請求を選択した場合の IBM クラウド・サービス契約書 (ローカル国バージョン*)、[https://www.ibm.com/terms](https://www.ibm.com/terms){: new_window} ![外部リンク・アイコン](../../icons/launch-glyph.svg) (国を選択) を参照、
+    * 受け入れ済みの IBM パスポート・アドバンテージご使用条件および IBM パスポート・アドバンテージ・クライアント用の Cloud Offerings ご利用条件の共通事項、[http://www-03.ibm.com/software/sla/sladb.nsf/sla/tou](http://www-03.ibm.com/software/sla/sladb.nsf/sla/tou){: new_window} ![外部リンク・アイコン](../../icons/launch-glyph.svg)を参照、または
+    * お客様と IBM との間の同等のクラウド・サービス基本ご使用条件、
+  * IBM クラウドのサービス記述書、[http://www-03.ibm.com/software/sla/sladb.nsf/sla/bm](http://www-03.ibm.com/software/sla/sladb.nsf/sla/bm){: new_window} ![外部リンク・アイコン](../../icons/launch-glyph.svg)を参照、
+  * IBM クラウド・アカウントを使用して注文したサービスに対して適用される追加のサービス記述書、[http://www-03.ibm.com/software/sla/sladb.nsf/sla/bm](http://www-03.ibm.com/software/sla/sladb.nsf/sla/bm){: new_window} ![外部リンク・アイコン](../../icons/launch-glyph.svg) を参照、および
+  * 該当する追加サービス記述書または IBM クラウド UI 内のサービスの「ご利用条件」リンクから参照されている、適用可能なデータ・シート、[http://www-03.ibm.com/software/sla/sladb.nsf/sla/csdsp](http://www-03.ibm.com/software/sla/sladb.nsf/sla/csdsp){: new_window} ![外部リンク・アイコン](../../icons/launch-glyph.svg) を参照。
+
+### IBM WebSphere Application Server Liberty Profile イメージのライセンス
+{: #license_liberty_image}
+
+Dockerfile と関連スクリプトは、Apache License 2.0 に基づいて使用許諾されます。 IBM JRE および IBM WebSphere® Application Server for Developers は、「IBM プログラムのご使用条件 (保証適用外プログラム用)」に基づいて使用許諾されます。 これらのライセンスは、前述のとおり LICENSE=view 環境変数を使用してイメージから表示するか、IBM JRE と IBM WebSphere Application Server for Developers でオンライン検索して入手できます。 このライセンスを再配布することは禁止されています。
+
+## {{site.data.keyword.Bluemix_notm}} プライバシー・ポリシー
+{: #privacy_policy}
+
+IBM オンライン・プライバシー・ステートメントは、[https://www.ibm.com/privacy/details/us/en ![外部リンク・アイコン](../../icons/launch-glyph.svg)](https://www.ibm.com/privacy/details/us/en){: new_window} にあります。 このステートメントには、IBM ではどのような個人情報を収集するか、それをどのように使用するか、およびこのような個人情報に関してお客様にはどのような選択肢があるかについての情報が記載されています。
+
+## IP アドレス・ポリシー
+{: #ip_address_policy}
+
+### 1. IP アドレスの所有権
+{: #ip_address_ownership}
+
+IBM およびその子会社は、お客様に割り当てられた IP アドレスを所有し、この IP アドレスは Cloud サービスでのみ使用されます。IP アドレスの使用は、サービスの有効期限が切れるかサービスが終了したときに終了します。この時点で、IP アドレスは再利用され、将来他の顧客に再発行されることがあります。 
+
+### 2. お客様提供の IP アドレス
+{: #client_provided_ips}
+
+お客様が、独自の地域インターネット・レジストリー (RIR) 発行の IP アドレスを提供する場合があります。これは、サポート・チケットを送信して、お客様所有の IP 接頭部を指定するための授権書を提供することで、特定の技術的な制限と所有権の検証の対象となります。IBM が要求を承認した場合、このような IP アドレスは、お客様の代わりにボーダー・ゲートウェイ・プロトコル (BGP) 経由で通知され、示されているお客様のサーバーに経路指定されます。お客様は、これらの IP アドレスの所有権を保持します。お客様の要求時、またはサービスの取り消し時に、IBM はこれらの IP アドレスの通知および経路指定を停止します。IBM は、BGP 接頭部がすべてのアップストリームの ISP で受け入れられるように合理的な努力を尽くしますが、お客様が所有する IP の全世界にわたる到達性を保証することはできません。 
+
+### 3. 審査/正当性/効率性のガイドライン
+{: #review_justification_efficiency}
+
+IPv4 アドレスは枯渇が心配される資源であるため、RIR は ISP に対して、既に割り当てられたアドレスを効率的に利用していること、および要求されているアドレスについての効率的な利用を計画していることを文書化するように要求しています。RIR のポリシーおよび RFC2050 では、IP スペースの保全管理を促進し、その無駄な使用や備蓄を戒めています。IBM は、割り振る追加の IP アドレスを要求する際には、これらのポリシーに従う必要があります。そのため、IBM によって要求された場合、お客様は、IBM が RIR 発行の IP アドレスを取得して Cloud サービスをサポートできるようにするために必要な情報を提供します。 
+
+IBM は、お客様からの IP アドレスのすべての要求について、効率的な利用が行われるよう審査しますが、承認は保証されません。審査の間に、お客様は、各 IP アドレスがどのように利用されるか、および追加の IP アドレスが必要であることの技術的な正当性に関する詳細を提出するよう要求されます。IBM は、ネットワーク・スキャンやサーバー構成の検査を含め、そのような情報を審査するために追加の手順を行う場合があります。 
+
+初回の審査は最大 2 営業日を要しますが、規模と複雑性に応じて完了までにさらに多くの時間を要する場合があります。濫用チケットがオープンになっているアカウントでは、IP の要求の処理は、濫用の問題がすべて解決するまで保留にされます。 
+
+## 特記事項
+{: #notices}
 
 本書は米国 IBM が提供する製品およびサービスについて作成したものです。 この資料の他の言語版を IBM から入手できる場合があります。 ただし、これを入手するには、本製品または当該言語版製品を所有している必要がある場合があります。
-{:shortdesc}
 
 本書に記載の製品、サービス、または機能が日本においては提供されていない場合があります。 日本で利用可能な製品、サービス、および機能については、日本 IBM の営業担当員にお尋ねください。 本書で IBM 製品、プログラム、またはサービスに言及していても、その IBM 製品、プログラム、またはサービスのみが使用可能であることを意味するものではありません。 これらに代えて、IBM の知的所有権を侵害することのない、機能的に同等の製品、プログラム、またはサービスを使用することができます。 ただし、IBM 以外の製品とプログラムの操作またはサービスの評価および検証は、お客様の責任で行っていただきます。
 
@@ -101,25 +153,3 @@ UNIX は The Open Group の米国およびその他の国における登録商�
 Java™ およびすべての Java 関連の商標およびロゴは Oracle やその関連会社の米国およびその他の国における商標または登録商標です。
 
 他の会社名、製品名、およびサービス名は、それぞれ各社の商標または登録商標です。
-
-## {{site.data.keyword.Bluemix_notm}} ご利用条件
-{: #terms}
-
-IBM Cloud アカウントおよび IBM Cloud から注文されたすべてのサービスは以下のご使用条件に基づいて使用許諾されます。
-
-  * 基本ご使用条件のクラウドご利用条件は、以下の通り適用されます。
-    * 米ドル・クレジット・カード請求の場合の SoftLayer クラウド・サービスご使用条件、 [http://www.softlayer.com/legal](http://www.softlayer.com/legal){: new_window} ![外部リンク・アイコン](../../icons/launch-glyph.svg) を参照
-    * 非米ドル・クレジット・カード請求または IBM からの請求を選択した場合の IBM クラウド・サービス契約書 (ローカル国バージョン*)、[https://www.ibm.com/terms](https://www.ibm.com/terms){: new_window} ![外部リンク・アイコン](../../icons/launch-glyph.svg) (国を選択) を参照、
-    * 受け入れ済みの IBM パスポート・アドバンテージご使用条件および IBM パスポート・アドバンテージ・クライアント用の Cloud Offerings ご利用条件の共通事項、[http://www-03.ibm.com/software/sla/sladb.nsf/sla/tou](http://www-03.ibm.com/software/sla/sladb.nsf/sla/tou){: new_window} ![外部リンク・アイコン](../../icons/launch-glyph.svg)を参照、または
-    * お客様と IBM との間の同等のクラウド・サービス基本ご使用条件、
-  * IBM クラウドのサービス記述書、[http://www-03.ibm.com/software/sla/sladb.nsf/sla/bm](http://www-03.ibm.com/software/sla/sladb.nsf/sla/bm){: new_window} ![外部リンク・アイコン](../../icons/launch-glyph.svg)を参照、
-  * IBM クラウド・アカウントを使用して注文したサービスに対して適用される追加のサービス記述書、[http://www-03.ibm.com/software/sla/sladb.nsf/sla/bm](http://www-03.ibm.com/software/sla/sladb.nsf/sla/bm){: new_window} ![外部リンク・アイコン](../../icons/launch-glyph.svg) を参照、および
-  * 該当する追加サービス記述書または IBM クラウド UI 内のサービスの「ご利用条件」リンクから参照されている、適用可能なデータ・シート、[http://www-03.ibm.com/software/sla/sladb.nsf/sla/csdsp](http://www-03.ibm.com/software/sla/sladb.nsf/sla/csdsp){: new_window} ![外部リンク・アイコン](../../icons/launch-glyph.svg) を参照。
-
-### IBM WebSphere Application Server Liberty Profile イメージのライセンス
-Dockerfile と関連スクリプトは、Apache License 2.0 に基づいて使用許諾されます。 IBM JRE および IBM WebSphere® Application Server for Developers は、「IBM プログラムのご使用条件 (保証適用外プログラム用)」に基づいて使用許諾されます。 これらのライセンスは、前述のとおり LICENSE=view 環境変数を使用してイメージから表示するか、IBM JRE と IBM WebSphere Application Server for Developers でオンライン検索して入手できます。 このライセンスを再配布することは禁止されています。
-
-## {{site.data.keyword.Bluemix_notm}} プライバシー・ポリシー
-{: #privacy_policy}
-
-IBM オンライン・プライバシー・ステートメントは、[https://www.ibm.com/privacy/details/us/en ![外部リンク・アイコン](../../icons/launch-glyph.svg)](https://www.ibm.com/privacy/details/us/en){: new_window} にあります。 このステートメントには、IBM ではどのような個人情報を収集するか、それをどのように使用するか、およびこのような個人情報に関してお客様にはどのような選択肢があるかについての情報が記載されています。
