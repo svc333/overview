@@ -4,7 +4,7 @@ copyright:
 
   years: 2015, 2018
 
-lastupdated: "2018-06-01"
+lastupdated: "2018-06-26"
 
 ---
 
@@ -30,11 +30,10 @@ ser criado ou excluído. Para obter informações adicionais, consulte
 [Bloqueando
 um ID de serviço](/docs/iam/serviceid.html#locking-a-service-id) e [Bloqueando uma chave API](/docs/iam/userid_keys.html#locking-an-api-key).
 
-### Faça upgrade de sua conta Lite para uma conta da assinatura. 
+### Faça upgrade de sua conta Lite para uma conta da assinatura.
 Novo a partir de: 31 de maio de 2018
 
-Agora é possível fazer upgrade da sua conta Lite para uma conta da assinatura diretamente do console do {{site.data.keyword.Bluemix_notm}}. 
-Com uma conta da assinatura, é possível usar as ofertas de plataforma e de infraestrutura e aproveitar a precificação com desconto criando
+Agora é possível fazer upgrade da sua conta Lite para uma conta da assinatura diretamente do console do {{site.data.keyword.Bluemix_notm}}. Com uma conta da assinatura, é possível usar as ofertas de plataforma e de infraestrutura e aproveitar a precificação com desconto criando
 um gasto mensal e um termo de compromisso. Também é possível evitar surpresas com faturamento fixo em um planejamento de pagamento
 mensal, mas com a flexibilidade para pedir mais ou menos com base nas suas necessidades. Para obter informações adicionais, consulte
 as [FAQs de conta da assinatura](/docs/billing-usage/billing-faq.html#subscription-faqs). 
@@ -65,8 +64,7 @@ Você deseja designar acesso rapidamente usando a menor quantia de políticas po
 ### Vinculação de conta do SoftLayer e do {{site.data.keyword.Bluemix_notm}}
 Novo a partir de: 1º de março de 2018
 
-É possível vincular sua conta do SoftLayer à sua conta do {{site.data.keyword.Bluemix_notm}} para efetuar login em um único local, o console do {{site.data.keyword.Bluemix_notm}}, e acessar os recursos infraestrutura como serviço (IaaS) e plataforma como serviço (PaaS). 
-Se você é novo no {{site.data.keyword.Bluemix_notm}}, crie e vincule uma conta para obter uma conta Lite do
+É possível vincular sua conta do SoftLayer à sua conta do {{site.data.keyword.Bluemix_notm}} para efetuar login em um único local, o console do {{site.data.keyword.Bluemix_notm}}, e acessar os recursos infraestrutura como serviço (IaaS) e plataforma como serviço (PaaS). Se você é novo no {{site.data.keyword.Bluemix_notm}}, crie e vincule uma conta para obter uma conta Lite do
 {{site.data.keyword.Bluemix_notm}} gratuita. Ou, se você já tem uma conta do {{site.data.keyword.Bluemix_notm}} com recursos PaaS, vincule suas contas para receber uma nota única para os seus recursos IaaS e PaaS. Veja [Etapas para vincular suas contas IaaS e PaaS](https://www.ibm.com/blogs/bluemix/2018/03/follow-steps-link-iaas-paas-accounts/){: new_window} ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo") para vincular suas contas rapidamente.
 
 
@@ -317,6 +315,25 @@ O buildpack do Liberty v3.9 fornece uma nova versão de runtime mensal do Libert
 
 ## Serviços
 {: #services_category}
+
+### Introdução à disponibilidade geral do {{site.data.keyword.iva_full_notm}}
+Novo a partir de: 26 de junho de 2018
+
+O
+[{{site.data.keyword.iva_full}}](https://console.bluemix.net/catalog/services/voice-agent-with-watson)![Ícone de link externo](../../icons/launch-glyph.svg "Íconede link externo") agora está disponível no geral! É possível criar um agente de voz cognitiva
+
+construído em serviços do Watson que os clientes podem chamar e falar por telefone. Com a inteligência artificial do Watson em seu backbone, seu agente de voz pode se comunicar como em uma conversação, manipulando interações complexas e resolvendo chamadas de clientes dentro do agente de voz.
+
+Esta liberação introduz os novos recursos a seguir:
+
+* Incluir locais do serviço Watson redundante para recuperação de desastre. 
+* Editar opções de configuração avançadas para customizar como os agentes de voz transferem chamadas, reproduzem
+mensagens previamente gravadas para os responsáveis pela chamada e interagem com os serviços do Watson.
+* Configurar o número máximo de conexões simultâneas em seu plano de serviço padrão.
+* Conectar os seus agentes de voz a provedores de entroncamento do SIP como NetFoundry, Twilio, AT&T e outros
+provedores de serviços ou peer com {{site.data.keyword.iva_short}}.
+
+Para iniciar, veja a documentação do [{{site.data.keyword.iva_short}}](/docs/services/voice-agent/getting-started.html).
 
 ### O {{site.data.keyword.streaminganalyticsshort}} introduz novos planos de serviços com infraestrutura baseada em contêiner
 Novo a partir de: 20 de abril de 2018

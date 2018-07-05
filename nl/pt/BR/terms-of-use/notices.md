@@ -1,9 +1,12 @@
 ---
 
+
+
 copyright:
 
   years: 2015, 2018
-lastupdated: "2018-03-01"
+lastupdated: "2018-06-21"
+
 
 ---
 
@@ -12,10 +15,77 @@ lastupdated: "2018-03-01"
 {:screen: .screen}
 {:new_window: target="_blank"}
 
-# Aviso
+# Termos e avisos do {{site.data.keyword.Bluemix_notm}} 
+{: #terms}
 
-Estas informações foram desenvolvidas para produtos e serviços oferecidos nos EUA. Este material pode estar disponível na IBM em outros idiomas. Entretanto, pode ser necessário possuir uma cópia do produto ou da versão do produto nesse idioma a fim de acessá-lo.
-{:shortdesc}
+## {{site.data.keyword.Bluemix_notm}} Termos
+{: #terms_details}
+
+Sua Conta do IBM Cloud e quaisquer serviços pedidos do IBM Cloud são fornecidos sob o termo de:
+
+  * Termos de nuvem do acordo base aplicáveis a você, como a seguir:
+    * Contrato de prestação de serviços de nuvem do SoftLayer para faturamento por cartão de crédito em dólar americano, disponível em [http://www.softlayer.com/legal](http://www.softlayer.com/legal){: new_window} ![Ícone de link externo](../../icons/launch-glyph.svg)
+    * Contrato de prestação de serviços do IBM Cloud (local país versão*) para faturamento por cartão de crédito que não seja em dólar americano ou se você selecionar o faturamento por meio da IBM, disponível em [https://www.ibm.com/terms](https://www.ibm.com/terms){: new_window} ![Ícone de link externo](../../icons/launch-glyph.svg) (selecione seu país);
+    * O Contrato do IBM Passport Advantage que você aceitou e os Termos gerais para o TOU de ofertas de nuvem para clientes do IBM Passport Advantage, disponível em [http://www-03.ibm.com/software/sla/sladb.nsf/sla/tou](http://www-03.ibm.com/software/sla/sladb.nsf/sla/tou){: new_window} ![Ícone de link externo](../../icons/launch-glyph.svg); ou
+    * termos do acordo base de serviço de nuvem equivalentes entre você e a IBM;
+  * Descrição do serviço para o IBM Cloud disponível em [http://www-03.ibm.com/software/sla/sladb.nsf/sla/bm](http://www-03.ibm.com/software/sla/sladb.nsf/sla/bm){: new_window} ![Ícone de link externo](../../icons/launch-glyph.svg);
+  * SDs adicionais aplicáveis para qualquer serviço pedido usando sua Conta do IBM Cloud disponível em [http://www-03.ibm.com/software/sla/sladb.nsf/sla/bm](http://www-03.ibm.com/software/sla/sladb.nsf/sla/bm){: new_window} ![Ícone de link externo](../../icons/launch-glyph.svg); e
+  * Planilhas de dados aplicáveis conforme referenciadas em SDs adicionais aplicáveis ou do link "Termos" para um serviço na UI do IBM Cloud disponível em [http://www-03.ibm.com/software/sla/sladb.nsf/sla/csdsp](http://www-03.ibm.com/software/sla/sladb.nsf/sla/csdsp){: new_window} ![Ícone de link externo](../../icons/launch-glyph.svg).
+
+### Licença para a imagem do perfil Liberty do IBM WebSphere Application Server
+{: #license_liberty_image}
+
+O Dockerfile e os scripts associados são licenciados sob o Apache License 2.0. O IBM JRE e o IBM WebSphere® Application Server for Developers são licenciados sob o Contrato de Licença Internacional da IBM para Programas sem Garantia. É possível visualizar essas licenças por meio da imagem usando a variável de ambiente LICENSE=view conforme descrito anteriormente ou é possível localizá-las on-line para o IBM JRE e o IBM WebSphere Application Server for Developers. Esta licença não permite distribuição adicional.
+
+## Política de privacidade do {{site.data.keyword.Bluemix_notm}}
+{: #privacy_policy}
+
+A Declaração de Privacidade On-line da IBM pode ser localizada em [https://www.ibm.com/privacy/details/us/en ![Ícone de link externo](../../icons/launch-glyph.svg)](https://www.ibm.com/privacy/details/us/en){: new_window}. Essa Declaração fornece informações sobre quais informações pessoais a IBM coleta, como as usa e quais opções o Cliente tem com relação a essas informações pessoais.
+
+## Política de endereço IP
+{: #ip_address_policy}
+
+### 1. Propriedade de endereço IP
+{: #ip_address_ownership}
+
+A International Business Machines Corporation ou suas subsidiárias (IBM) possui quaisquer endereços IP designados ao Cliente,
+que devem ser usados somente com os serviços de nuvem. O uso dos endereços IP é finalizado após a expiração ou rescisão de um
+serviço, tempo no qual os endereços IP serão recuperados e podem ser reemitidos para outros Clientes no futuro. 
+
+### 2. Endereços IP fornecidos pelo Cliente
+{: #client_provided_ips}
+
+Os clientes podem fornecer seus próprios endereços IP emitidos pelo Regional Internet Registry (RIR), sujeitos a algumas limitações
+técnicas e verificação de propriedade, enviando um chamado de suporte e fornecendo uma carta de autoridade para especificar prefixos
+IP de propriedade do Cliente. Se a IBM aprovar uma solicitação, esses endereços IP serão anunciados via Border Gateway Protocol
+(BGP) em nome do Cliente e roteados para os servidores identificados do Cliente. O Cliente retém a propriedade desses endereços IP. 
+Mediante a solicitação do Cliente ou após o cancelamento dos serviços, a IBM parará de anunciar e rotear esses endereços IP. A IBM
+fará esforços razoáveis para garantir que os prefixos BGP sejam aceitos por todos os ISPs de envio de dados, porém não
+podemos garantir alcance global para IPs de propriedade do Cliente. 
+
+### 3. Revisão/justificação/diretrizes de eficiência
+{: #review_justification_efficiency}
+
+Como os endereços do Protocolo da Internet versão 4 são um recurso escasso, os RIRs requerem ISPs para documentar se eles estão
+utilizando os endereços designados existentes de maneira eficiente e estão planejando a utilização eficiente de quaisquer endereços que estejam sendo
+solicitados. As políticas de RIR e o RFC2050 promovem a conservação e detêm o desperdício ou o acúmulo de espaço IP. A IBM obriga-se
+a cumprir essas políticas ao solicitar endereços IP adicionais para alocar. Portanto, quando solicitado pela IBM, o Cliente fornecerá
+informações necessárias para permitir que a IBM obtenha endereços IP emitidos por RIR para suportar os serviços em nuvem. 
+
+Todas as solicitações de endereço IP do Cliente estão sujeitas à revisão pela IBM para assegurar a utilização eficiente
+e não têm aprovação garantida. Durante a revisão, o Cliente deverá fornecer detalhes sobre como cada
+endereço IP será utilizado e uma justificação técnica para a necessidade dos endereços IP adicionais. A IBM pode executar etapas
+para validar tais informações, incluindo varredura de rede e inspeção de configuração do servidor. 
+
+Uma revisão inicial pode levar até dois dias úteis e, dependendo do tamanho e da complexidade, pode requerer tempo adicional
+para a conclusão. As contas com chamados de abuso abertos terão suas solicitações de IP suspensas para processamento até que todos os
+problemas de abuso tenham sido resolvidos. 
+
+## Aviso
+{: #notices}
+
+Estas informações foram desenvolvidas para produtos e serviços oferecidos nos EUA. Este material pode estar disponível na IBM em outros idiomas. 
+No entanto, pode ser necessário possuir uma cópia do produto ou da versão do produto nesse idioma para acessá-lo.
 
 É possível que a IBM não ofereça os produtos, serviços ou recursos
 discutidos nesta publicação em outros países. Consulte um representante IBM
@@ -135,25 +205,3 @@ UNIX é uma marca registrada de The Open nos Estados Unidos e em outros países.
 Java™ e todas as marcas comerciais e logotipos baseados em Java são marcas comerciais ou marcas registradas da Oracle e/ou suas afiliadas.
 
 Outros nomes de empresas, produtos e serviços podem ser marcas registradas ou marcas de serviços de terceiros.
-
-## {{site.data.keyword.Bluemix_notm}} Termos
-{: #terms}
-
-Sua Conta do IBM Cloud e quaisquer serviços pedidos do IBM Cloud são fornecidos sob o termo de:
-
-  * Termos de nuvem do acordo base aplicáveis a você, como a seguir:
-    * Contrato de prestação de serviços de nuvem do SoftLayer para faturamento por cartão de crédito em dólar americano, disponível em [http://www.softlayer.com/legal](http://www.softlayer.com/legal){: new_window} ![Ícone de link externo](../../icons/launch-glyph.svg)
-    * Contrato de prestação de serviços do IBM Cloud (local país versão*) para faturamento por cartão de crédito que não seja em dólar americano ou se você selecionar o faturamento por meio da IBM, disponível em [https://www.ibm.com/terms](https://www.ibm.com/terms){: new_window} ![Ícone de link externo](../../icons/launch-glyph.svg) (selecione seu país);
-    * O Contrato do IBM Passport Advantage que você aceitou e os Termos gerais para o TOU de ofertas de nuvem para clientes do IBM Passport Advantage, disponível em [http://www-03.ibm.com/software/sla/sladb.nsf/sla/tou](http://www-03.ibm.com/software/sla/sladb.nsf/sla/tou){: new_window} ![Ícone de link externo](../../icons/launch-glyph.svg); ou
-    * termos do acordo base de serviço de nuvem equivalentes entre você e a IBM;
-  * Descrição do serviço para o IBM Cloud disponível em [http://www-03.ibm.com/software/sla/sladb.nsf/sla/bm](http://www-03.ibm.com/software/sla/sladb.nsf/sla/bm){: new_window} ![Ícone de link externo](../../icons/launch-glyph.svg);
-  * SDs adicionais aplicáveis para qualquer serviço pedido usando sua Conta do IBM Cloud disponível em [http://www-03.ibm.com/software/sla/sladb.nsf/sla/bm](http://www-03.ibm.com/software/sla/sladb.nsf/sla/bm){: new_window} ![Ícone de link externo](../../icons/launch-glyph.svg); e
-  * Planilhas de dados aplicáveis conforme referenciadas em SDs adicionais aplicáveis ou do link "Termos" para um serviço na UI do IBM Cloud disponível em [http://www-03.ibm.com/software/sla/sladb.nsf/sla/csdsp](http://www-03.ibm.com/software/sla/sladb.nsf/sla/csdsp){: new_window} ![Ícone de link externo](../../icons/launch-glyph.svg).
-
-### Licença para a imagem do perfil Liberty do IBM WebSphere Application Server
-O Dockerfile e os scripts associados são licenciados sob o Apache License 2.0. O IBM JRE e o IBM WebSphere® Application Server for Developers são licenciados sob o Contrato de Licença Internacional da IBM para Programas sem Garantia. É possível visualizar essas licenças por meio da imagem usando a variável de ambiente LICENSE=view conforme descrito anteriormente ou é possível localizá-las on-line para o IBM JRE e o IBM WebSphere Application Server for Developers. Esta licença não permite distribuição adicional.
-
-## Política de privacidade do {{site.data.keyword.Bluemix_notm}}
-{: #privacy_policy}
-
-A Declaração de Privacidade On-line da IBM pode ser localizada em [https://www.ibm.com/privacy/details/us/en ![Ícone de link externo](../../icons/launch-glyph.svg)](https://www.ibm.com/privacy/details/us/en){: new_window}. Essa Declaração fornece informações sobre quais informações pessoais a IBM coleta, como as usa e quais opções o Cliente tem com relação a essas informações pessoais.
