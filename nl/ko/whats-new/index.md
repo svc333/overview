@@ -4,7 +4,7 @@ copyright:
 
   years: 2015, 2018
 
-lastupdated: "2018-06-01"
+lastupdated: "2018-06-26"
 
 ---
 
@@ -300,6 +300,20 @@ Liberty 빌드팩 v3.9는 새 월별 Liberty 런타임 버전을 제공하고 �
 
 ## 서비스
 {: #services_category}
+
+### {{site.data.keyword.iva_full_notm}} GA(General Availability) 소개
+신규 기준일: 2018년 6월 26일
+
+[{{site.data.keyword.iva_full}}](https://console.bluemix.net/catalog/services/voice-agent-with-watson)![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")이 이제 GA(Generally Available)되었습니다! 고객이 전화를 통해 호출하고 대화할 수 있는 Watson 서비스에 빌드된 코그너티브 음성 에이전트를 작성할 수 있습니다. 백본에서 Watson 인공 지능을 사용하면 음성 에이전트는 복잡한 상호작용을 처리하고 음성 에이전트 내의 고객 호출을 해결하여 대화식으로 통신할 수 있습니다.
+
+이 릴리스는 다음과 같은 새로운 기능을 제공합니다. 
+
+* 재해 복구를 위해 중복 Watson 서비스 위치를 추가할 수 있습니다. 
+* 음성 에이전트가 호출을 전송하고, 사전에 녹음된 메시지를 호출자에게 재생하며, Watson 서비스와 상호작용하는 방법을 사용자 정의하기 위한 고급 구성 옵션을 편집할 수 있습니다.
+* 표준 서비스 플랜에서 최대 동시 연결 수를 구성할 수 있습니다.
+* 음성 에이전트를 SIP 트렁킹 제공자(예: NetFoundry, Twilio, AT&T) 및 기타 서비스 제공자에 연결하거나 {{site.data.keyword.iva_short}}과의 피어링을 수행할 수 있습니다.
+
+시작하려면 [{{site.data.keyword.iva_short}}](/docs/services/voice-agent/getting-started.html) 문서를 참조하십시오.
 
 ### {{site.data.keyword.streaminganalyticsshort}}에서는 컨테이너 기반 인프라와 함께 새로운 서비스 플랜을 소개합니다.
 신규 기준일: 2018년 4월 20일

@@ -1,9 +1,12 @@
 ---
 
+
+
 copyright:
 
   years: 2015, 2018
-lastupdated: "2018-03-01"
+lastupdated: "2018-06-21"
+
 
 ---
 
@@ -12,10 +15,59 @@ lastupdated: "2018-03-01"
 {:screen: .screen}
 {:new_window: target="_blank"}
 
-# 주의사항
+# {{site.data.keyword.Bluemix_notm}} 조건 및 주의사항
+{: #terms}
 
-이 정보는 미국에서 제공되는 제품 및 서비스용으로 작성된 것입니다. 본 자료는 다른 언어로도 제공될 수 있습니다. 그러나 자료에 접근하기 위해서는 해당 언어로 된 제품 또는 제품 버전의 사본이 필요할 수 있습니다.
-{:shortdesc}
+## {{site.data.keyword.Bluemix_notm}} 조항
+{: #terms_details}
+
+귀하의 IBM Cloud 계정과 IBM Cloud에서 주문된 서비스는 다음 조건에 의거해서 제공됩니다.
+
+  * 다음과 같이 귀하에게 적용되는 기본 계약 Cloud 조건들:
+    * 미화 달러(US Dollar) 신용 카드 청구에 관한 SoftLayer 클라우드 서비스 계약([http://www.softlayer.com/legal](http://www.softlayer.com/legal){: new_window} ![외부 링크 아이콘](../../icons/launch-glyph.svg) 참조)
+    * 미화 달러 외(non-US Dollar) 신용 카드 청구, 또는 귀하가 IBM 발행 청구서를 선택한 경우에 관한 IBM 클라우드 서비스 계약(현지 국가 버전*)([https://www.ibm.com/terms](https://www.ibm.com/terms){: new_window} ![외부 링크 아이콘](../../icons/launch-glyph.svg) 참조)(귀하의 국가 선택),
+    * 귀하가 동의한 IBM Passport Advantage 계약 및 IBM Passport Advantage 고객을 위한 클라우드 오퍼링 이용 약관(TOU)의 일반 조건들([http://www-03.ibm.com/software/sla/sladb.nsf/sla/tou](http://www-03.ibm.com/software/sla/sladb.nsf/sla/tou){: new_window} ![외부 링크 아이콘](../../icons/launch-glyph.svg) 참조) 또는
+    * 귀하와 IBM 간의 동등한 클라우드 서비스 기본 계약 조항,
+  * IBM Cloud 서비스 명세서([http://www-03.ibm.com/software/sla/sladb.nsf/sla/bm](http://www-03.ibm.com/software/sla/sladb.nsf/sla/bm){: new_window} ![외부 링크 아이콘](../../icons/launch-glyph.svg) 참조),
+  * 귀하의 IBM Cloud 계정으로 주문한 서비스에 적용되는 추가 서비스 명세서([http://www-03.ibm.com/software/sla/sladb.nsf/sla/bm](http://www-03.ibm.com/software/sla/sladb.nsf/sla/bm){: new_window} ![외부 링크 아이콘](../../icons/launch-glyph.svg) 참조) 및
+  * 관련 추가 서비스 명세서에서 참조하거나 IBM Cloud UI의 서비스에 관한 "조건들(Terms)" 링크에서 언급한 관련 데이터 시트(Data Sheets)([http://www-03.ibm.com/software/sla/sladb.nsf/sla/csdsp](http://www-03.ibm.com/software/sla/sladb.nsf/sla/csdsp){: new_window} ![외부 링크 아이콘](../../icons/launch-glyph.svg) 참조).
+
+### IBM WebSphere Application Server Liberty Profile 이미지에 대한 라이센스
+{: #license_liberty_image}
+
+Dockerfile 및 관련 스크립트는 Apache License 2.0에 의거해서 라이센스가 부여됩니다. IBM JRE 및 IBM WebSphere® Application Server for Developers는 무보증 프로그램에 관한 IBM 국제 라이센스 계약에 의거해서 라이센스가 부여됩니다. 기존에 설명한 바와 같이 LICENSE=view 환경 변수를 사용하여 이미지를 통해서 또는 IBM JRE 및 IBM WebSphere Application Server for Developers에 대해 온라인을 통해서 해당 라이센스를 확인할 수 있습니다. 본 라이센스에서는 더 이상의 추가 배포는 허용하지 않습니다.
+
+## {{site.data.keyword.Bluemix_notm}} 개인정보처리방침
+{: #privacy_policy}
+
+IBM 온라인 개인정보처리방침은 [https://www.ibm.com/privacy/details/kr/ko ![외부 링크 아이콘](../../icons/launch-glyph.svg)](https://www.ibm.com/privacy/details/kr/ko){: new_window}에서 확인할 수 있습니다. IBM 온라인 개인정보처리방침은 IBM이 수집하는 개인정보, 해당 개인정보의 사용 방법, 해당 개인정보와 관련한 고객의 선택사항에 대한 정보를 제공합니다.
+
+## IP 주소 정책
+{: #ip_address_policy}
+
+### 1. IP 주소 소유권
+{: #ip_address_ownership}
+
+고객에게 지정된 IP 주소는 IBM Corporation 또는 그 계열사(IBM)의 소유이며 본 클라우드 서비스에만 사용됩니다. 해당 IP 주소는 서비스가 만료되거나 종료되면 사용이 종료되며 이후 회수되어 추후 다른 고객에게 재발행될 수 있습니다.  
+
+### 2. 고객이 제공하는 IP 주소
+{: #client_provided_ips}
+
+고객은 특정 기술 제한사항과 소유권 확인을 조건으로, 지원 티켓을 제출하고 고객 소유의 IP 접두부를 지정하는 승인서(Letter of Authority)를 제출함으로써, RIR(Regional Internet Registry)이 발행한 자체 IP 주소를 제공할 수 있습니다. IBM에 의해 요청이 승인되면 해당 IP 주소가 BGP(Border Gateway Protocol)를 통해 공지되고 식별된 고객의 서버로 라우팅됩니다. 해당 IP 주소의 소유권은 고객이 보유합니다. 고객 요청 시, 또는 서비스가 취소되면 해당 IP 주소의 공지와 라우팅은 중지됩니다. IBM은 모든 업스트림 ISP에서 BGP 접두부를 승인하도록 합리적인 노력을 기울일 것이나 고객 소유 IP의 전세계적인 채택 가능성을 보장할 수 없습니다.  
+
+### 3. 검토/정당성/효율성 가이드라인
+{: #review_justification_efficiency}
+
+IPv4 주소는 부족한 자원이므로, RIR은 기존에 지정된 주소를 효율적으로 활용하고 있고 요청할 주소의 효율적인 이용을 계획하고 있다는 점을 문서화하도록 ISP에게 요구합니다. RIR 정책과 RFC2050을 통해 IP 공간의 보존을 촉진하고 낭비적인 사용이나 비축을 방지합니다. 추가 IP 주소의 지정을 요청하는 경우 IBM은 이들 정책을 준수해야 합니다. 이에 따라, 고객은 IBM 요청 시 본 클라우드 서비스를 지원하기 위해 RIR이 발행한 IP 주소를 얻는 데 필요한 정보를 IBM에게 제공합니다.  
+
+고객이 IP 주소를 요청하면 IBM이 효율적인 활용 여부를 검토하게 되며 IBM의 승인은 보장되지 않습니다. 고객은 검토 과정에서 각 IP 주소의 활용 방안 및 추가 IP 주소가 필요한 이유의 기술적 정당성에 대한 상세사항을 제공해야 합니다. IBM은 네트워크 스캔닝, 서버 구성 검사를 비롯하여 관련 정보를 검증하기 위한 조치를 수행할 수 있습니다.  
+
+초기 검토에 최대 2 영업일이 소요될 수 있으며, 규모와 복잡도에 따라 추가로 시간이 소요될 수 있습니다. 악용 티켓이 공개된 계정은 악용 사례가 모두 해결될 때까지 IP 요청의 처리가 보류됩니다.  
+
+## 주의사항
+{: #notices}
+
+이 정보는 미국에서 제공되는 제품 및 서비스용으로 작성된 것입니다. 본 자료는 다른 언어로도 제공될 수 있습니다. 그러나 자료에 접근하기 위해서는 해당 언어로 된 제품 또는 제품 버전의 사본이 필요할 수 있습니다. 
 
 IBM은 다른 국가에서 이 책에 기술된 제품, 서비스 또는 기능을 제공하지 않을 수도 있습니다. 현재 사용할 수 있는 제품 및 서비스에 대한 정보는 한국 IBM 담당자에게 문의하십시오. 이 책에서 IBM 제품, 프로그램 또는 서비스를 언급했다고 해서 해당 IBM 제품, 프로그램 또는 서비스만을 사용할 수 있다는 것을 의미하지는 않습니다. IBM의 지적 재산권을 침해하지 않는 한, 기능상으로 동등한 제품, 프로그램 또는 서비스를 대신 사용할 수도 있습니다. 그러나 비IBM 제품, 프로그램 또는 서비스의 운영에 대한 평가 및 검증은 사용자의 책임입니다.
 
@@ -97,25 +149,3 @@ UNIX는 미국 및 기타 국가에서 사용되는 The Open Group의 등록상�
 Java™ 및 모든 Java 기반 상표와 로고는 Oracle 및/또는 그 계열사의 상표 또는 등록상표입니다.
 
 기타 회사, 제품 및 서비스 이름은 타사의 상표 또는 서비스표입니다.
-
-## {{site.data.keyword.Bluemix_notm}} 조항
-{: #terms}
-
-귀하의 IBM Cloud 계정과 IBM Cloud에서 주문된 서비스는 다음 조건에 의거해서 제공됩니다.
-
-  * 다음과 같이 귀하에게 적용되는 기본 계약 Cloud 조건들:
-    * 미화 달러(US Dollar) 신용 카드 청구에 관한 SoftLayer 클라우드 서비스 계약([http://www.softlayer.com/legal](http://www.softlayer.com/legal){: new_window} ![외부 링크 아이콘](../../icons/launch-glyph.svg) 참조)
-    * 미화 달러 외(non-US Dollar) 신용 카드 청구, 또는 귀하가 IBM 발행 청구서를 선택한 경우에 관한 IBM 클라우드 서비스 계약(현지 국가 버전*)([https://www.ibm.com/terms](https://www.ibm.com/terms){: new_window} ![외부 링크 아이콘](../../icons/launch-glyph.svg) 참조)(귀하의 국가 선택),
-    * 귀하가 동의한 IBM Passport Advantage 계약 및 IBM Passport Advantage 고객을 위한 클라우드 오퍼링 이용 약관(TOU)의 일반 조건들([http://www-03.ibm.com/software/sla/sladb.nsf/sla/tou](http://www-03.ibm.com/software/sla/sladb.nsf/sla/tou){: new_window} ![외부 링크 아이콘](../../icons/launch-glyph.svg) 참조) 또는
-    * 귀하와 IBM 간의 동등한 클라우드 서비스 기본 계약 조항,
-  * IBM Cloud 서비스 명세서([http://www-03.ibm.com/software/sla/sladb.nsf/sla/bm](http://www-03.ibm.com/software/sla/sladb.nsf/sla/bm){: new_window} ![외부 링크 아이콘](../../icons/launch-glyph.svg) 참조),
-  * 귀하의 IBM Cloud 계정으로 주문한 서비스에 적용되는 추가 서비스 명세서([http://www-03.ibm.com/software/sla/sladb.nsf/sla/bm](http://www-03.ibm.com/software/sla/sladb.nsf/sla/bm){: new_window} ![외부 링크 아이콘](../../icons/launch-glyph.svg) 참조) 및
-  * 관련 추가 서비스 명세서에서 참조하거나 IBM Cloud UI의 서비스에 관한 "조건들(Terms)" 링크에서 언급한 관련 데이터 시트(Data Sheets)([http://www-03.ibm.com/software/sla/sladb.nsf/sla/csdsp](http://www-03.ibm.com/software/sla/sladb.nsf/sla/csdsp){: new_window} ![외부 링크 아이콘](../../icons/launch-glyph.svg) 참조).
-
-### IBM WebSphere Application Server Liberty Profile 이미지에 대한 라이센스
-Dockerfile 및 관련 스크립트는 Apache License 2.0에 의거해서 라이센스가 부여됩니다. IBM JRE 및 IBM WebSphere® Application Server for Developers는 무보증 프로그램에 관한 IBM 국제 라이센스 계약에 의거해서 라이센스가 부여됩니다. 기존에 설명한 바와 같이 LICENSE=view 환경 변수를 사용하여 이미지를 통해서 또는 IBM JRE 및 IBM WebSphere Application Server for Developers에 대해 온라인을 통해서 해당 라이센스를 확인할 수 있습니다. 본 라이센스에서는 더 이상의 추가 배포는 허용하지 않습니다.
-
-## {{site.data.keyword.Bluemix_notm}} 개인정보처리방침
-{: #privacy_policy}
-
-IBM 온라인 개인정보처리방침은 [https://www.ibm.com/privacy/details/kr/ko ![외부 링크 아이콘](../../icons/launch-glyph.svg)](https://www.ibm.com/privacy/details/kr/ko){: new_window}에서 확인할 수 있습니다. IBM 온라인 개인정보처리방침은 IBM이 수집하는 개인정보, 해당 개인정보의 사용 방법, 해당 개인정보와 관련한 고객의 선택사항에 대한 정보를 제공합니다.
