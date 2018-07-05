@@ -4,7 +4,7 @@ copyright:
 
   years: 2015, 2018
 
-lastupdated: "2018-06-01"
+lastupdated: "2018-06-26"
 
 ---
 
@@ -301,6 +301,20 @@ Liberty buildpack V3.9 提供了新的每月 Liberty 运行时版本，并包含
 
 ## 服务
 {: #services_category}
+
+### 推出 {{site.data.keyword.iva_full_notm}} 一般可用性
+最新更新日期：2018 年 6 月 26 日
+
+现在，[{{site.data.keyword.iva_full}}](https://console.bluemix.net/catalog/services/voice-agent-with-watson) ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标") 已一般可用！您可以创建基于 Watson 服务构建的认知语音代理程序，客户可以通过电话呼叫该代理程序并与之通话。通过将 Watson 人工智能应用于主干，语音代理程序能以对话方式进行通信，并在语音代理程序内处理复杂的交互和处理客户呼叫。
+
+此发行版引入了以下新功能：
+
+* 添加了冗余 Watson 服务位置以用于灾难恢复。 
+* 可编辑高级配置选项以定制语音代理如何转移呼叫，如何向呼叫者播放预先录制的消息，以及如何与 Watson 服务进行交互。
+* 在标准服务套餐中可配置最大并发连接数。
+* 可将语音代理连接到 SIP 中继提供者（例如，NetFoundry、Twilio、AT&T）及其他服务提供者，或连接到使用 {{site.data.keyword.iva_short}} 的同级。
+
+首先，请参阅 [{{site.data.keyword.iva_short}}](/docs/services/voice-agent/getting-started.html) 文档。
 
 ### {{site.data.keyword.streaminganalyticsshort}} 引入了具有基于容器的基础架构的新服务套餐
 最新更新日期：2018 年 4 月 20 日
