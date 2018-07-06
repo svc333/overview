@@ -4,7 +4,7 @@ copyright:
 
   years: 2015, 2018
 
-lastupdated: "2018-06-01"
+lastupdated: "2018-06-26"
 
 ---
 
@@ -20,27 +20,27 @@ Rimani aggiornato con le nuove funzioni e i nuovi servizi disponibili in {{site.
 ## Piattaforma {{site.data.keyword.Bluemix_notm}}
 {: #platform_category}
 
-### Proteggi il tuo ID servizio e le tue chiavi API
-Novità a partire dal 1 giugno 2018
+### Proteggi i tuoi ID servizio e chiavi API
+Novità a partire dal: 1° giugno 2018
 
-Per evitare una situazione in cui il tuo ID servizio o la tua chiave API vengono eliminati causando delle interruzioni, disponi dell'opzione di bloccare gli ID servizio e le chiavi API utilizzando l'IU o la CLI. Bloccare un ID servizio impedisce anche che si apportino modifiche o assegnazioni delle politiche di accesso ed evita anche che vengano create o eliminate le chiavi API associate all'ID servizio. Per ulteriori informazioni, vedi [Blocco di un ID servizio](/docs/iam/serviceid.html#locking-a-service-id) e [Blocco di una chiave API](/docs/iam/userid_keys.html#locking-an-api-key).
+Per evitare situazioni in cui l'ID servizio o la chiave API vengono eliminati causando interruzioni, hai la possibilità di bloccare gli ID servizio e le chiavi API utilizzando l'interfaccia utente o la CLI. Il blocco di un ID servizio impedisce inoltre la modifica, l'eliminazione o l'assegnazione di eventuali politiche di accesso e la creazione o l'eliminazione di qualsiasi chiave API associata all'ID servizio. Per ulteriori informazioni, vedi [Blocco di un ID servizio](/docs/iam/serviceid.html#locking-a-service-id) e [Blocco di una chiave API](/docs/iam/userid_keys.html#locking-an-api-key).
 
-### Esegui l'upgrade del tuo account Lite a un account Sottoscrizione
+### Aggiorna il tuo account Lite a un account Sottoscrizione
 Novità a partire dal: 31 maggio 2018
 
-Puoi ora eseguire l'upgrade del tuo account Lite a un account Sottoscrizione direttamente dalla console {{site.data.keyword.Bluemix_notm}}. Con un account Sottoscrizione, puoi utilizzare entrambe le offerte di piattaforma e infrastruttura e avvalerti di prezzi scontati effettuando una spesa mensile e con un impegno a termine. Puoi anche evitare sorprese con una fatturazione fissa in base a una pianificazione di pagamento mensile ma con la flessibilità di ordinare di più o di meno, in base alle tue esigenze. Per ulteriori informazioni, vedi [Domande frequenti sull'account Sottoscrizione](/docs/billing-usage/billing-faq.html#subscription-faqs). 
+Puoi ora aggiornare il tuo account Lite a un account Sottoscrizione direttamente dalla console {{site.data.keyword.Bluemix_notm}}. Con un account Sottoscrizione, puoi utilizzare sia le offerte di piattaforma che di infrastruttura e usufruire dei prezzi scontati effettuando una spesa mensile e un impegno a termine. Puoi anche evitare sorprese con la fatturazione fissa su una pianificazione di pagamento mensile ma con la flessibilità di ordinare più o meno in base alle tue esigenze. Per ulteriori informazioni, vedi [Domande frequenti sull'account Sottoscrizione](/docs/billing-usage/billing-faq.html#subscription-faqs). 
 
 ### Cambiamento di marchio della CLI {{site.data.keyword.Bluemix_notm}}
 Novità a partire dal: 15 maggio 2018
 
-I comandi della CLI {{site.data.keyword.Bluemix_notm}} sono stati modificati da `bluemix` e `bx` a **ibmcloud**. Tuttavia, puoi ancora utilizzare i comandi della CLI `bluemix` e `bx` finché non vengono rimossi in una data successiva. Non c'è attualmente alcun nome breve, solo il nome completo **ibmcloud**. 
+I comandi della CLI {{site.data.keyword.Bluemix_notm}} sono stati modificati da `bluemix` e `bx` in **ibmcloud**. Tuttavia, puoi ancora utilizzare i comandi della CLI `bluemix` e `bx` finché non vengono rimossi in una data successiva. Al momento non esiste un nome breve, ma solo il nome completo **ibmcloud**. 
 
 ### Autenticazione multifattore per il tuo account {{site.data.keyword.Bluemix_notm}}
 Novità a partire dal: 02 maggio 2018
 
 L'autenticazione multifattore (MFA, multi-factor authentication) aggiunge un ulteriore livello di sicurezza al tuo account richiedendo che tutti gli utenti forniscano un passcode monouso con scadenza oltre ai loro ID IBM e password standard durante l'accesso. Questa è anche comunemente nota come autenticazione a due fattori (2FA, two-factor authentication). La MFA viene abilitata per ogni singolo account e, una volta attivata, tutti gli utenti nell'account devono eseguire l'accesso utilizzando la misura di sicurezza aggiuntiva.
 
-Per ulteriori informazioni, consulta il post del blog [IBM Cloud Platform now adds support for Multi-Factor](https://www.ibm.com/blogs/bluemix/2018/05/ibm-cloud-platform-now-adds-support-multi-factor-authentication/){: new_window} ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno").
+Per ulteriori informazioni, consulta il post del blog [IBM Cloud Platform now adds support for Multi-Factor Authentication](https://www.ibm.com/blogs/bluemix/2018/05/ibm-cloud-platform-now-adds-support-multi-factor-authentication/){: new_window} ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno").
 
 ### Assegna l'accesso velocemente utilizzando i gruppi di accesso
 Novità a partire dal 03 aprile 2018
@@ -50,7 +50,7 @@ Vuoi essere in grado di assegnare l'accesso velocemente utilizzando la quantità
 ### Collegamento account SoftLayer e {{site.data.keyword.Bluemix_notm}}
 Novità a partire dal 01 marzo 2018
 
-Puoi collegare il tuo account SoftLayer al tuo account {{site.data.keyword.Bluemix_notm}} per accedere a una singola ubicazione, la console {{site.data.keyword.Bluemix_notm}} e l'accesso alle risorse IaaS (infrastructure as a service) e PaaS (platform as a service). Se non hai dimestichezza con {{site.data.keyword.Bluemix_notm}}, crea e collega un account per ottenere un account {{site.data.keyword.Bluemix_notm}} Lite gratuito. Se hai già un account {{site.data.keyword.Bluemix_notm}} con le risorse PaaS, collega i tuoi account per ricevere una sola fattura per entrambe le risorse IaaS e PaaS. Controlla [Steps to Link your IaaS and PaaS Accounts](https://www.ibm.com/blogs/bluemix/2018/03/follow-steps-link-iaas-paas-accounts/){: new_window} ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno") per collegare velocemente i tuoi account.
+Puoi collegare il tuo account SoftLayer al tuo account {{site.data.keyword.Bluemix_notm}} per accedere a una singola ubicazione, la console {{site.data.keyword.Bluemix_notm}} e l'accesso alle risorse IaaS (infrastructure as a service) e PaaS (platform as a service). Se non hai molta familiarità con {{site.data.keyword.Bluemix_notm}}, crea e collega un account per ottenere un account Lite {{site.data.keyword.Bluemix_notm}} gratuito. Se hai già un account {{site.data.keyword.Bluemix_notm}} con le risorse PaaS, collega i tuoi account per ricevere una sola fattura per entrambe le risorse IaaS e PaaS. Controlla [Steps to Link your IaaS and PaaS Accounts](https://www.ibm.com/blogs/bluemix/2018/03/follow-steps-link-iaas-paas-accounts/){: new_window} ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno") per collegare velocemente i tuoi account.
 
 
 ### È ora disponibile la regione Stati Uniti Est per il servizio {{site.data.keyword.Bluemix_notm}} Foundry
@@ -301,6 +301,20 @@ Il pacchetto di build Liberty v3.9 fornisce una nuova versione di runtime Libert
 ## Servizi
 {: #services_category}
 
+### Introduzione alla disponibilità generale di {{site.data.keyword.iva_full_notm}}
+Novità a partire dal: 26 giugno 2018
+
+[{{site.data.keyword.iva_full}}](https://console.bluemix.net/catalog/services/voice-agent-with-watson)![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno") è ora generalmente disponibile. Puoi creare un agent vocale cognitivo basato sui servizi Watson con cui i clienti possono parlare al telefono. Con l'intelligenza artificiale Watson nella sua dorsale, il tuo agent vocale può comunicare in modo colloquiale, gestendo interazioni complesse e risolvendo le chiamate dei clienti all'interno dell'agent vocale.
+
+Questa release introduce le seguenti nuove funzioni:
+
+* Aggiungere posizioni del servizio Watson ridondanti per il ripristino di emergenza. 
+* Modificare le opzioni di configurazione avanzate per personalizzare il modo in cui i tuoi agent vocali trasferiscono le chiamate, riproducono messaggi preregistrati ai chiamanti e interagiscono con i servizi Watson.
+* Configurare il numero massimo di connessioni simultanee nel tuo piano di servizio Standard.
+* Connettere i tuoi agent vocali a provider di trunking SIP come NetFoundry, Twilio, AT&T, e altri provider di servizi o peer con {{site.data.keyword.iva_short}}.
+
+Per iniziare, vedi la documentazione [{{site.data.keyword.iva_short}}](/docs/services/voice-agent/getting-started.html).
+
 ### {{site.data.keyword.streaminganalyticsshort}} introduce dei nuovi piani di servizio con un'infrastruttura basata sui contenitori
 Novità a partire dal: 20 aprile 2018
 
@@ -468,7 +482,7 @@ Con il nuovo servizio sperimentale {{site.data.keyword.iva_full}}, puoi creare u
 {{site.data.keyword.iva_short}} orchestra e si connette perfettamente ai servizi Watson {{site.data.keyword.speechtotextshort}}, {{site.data.keyword.conversationshort}} e {{site.data.keyword.texttospeechshort}} per simulare la conversazione in linguaggio naturale. Ogni agent vocale viene automaticamente ridimensionato per gestire più chiamate contemporaneamente. In questa release sperimentale, puoi personalizzare il tuo agent vocale utilizzando le seguenti funzioni principali:
 
 * Importa il dialogo di esempio {{site.data.keyword.conversationshort}} per iniziare, quindi crea il tuo proprio dialogo per soddisfare le esigenze della tua azienda.
-* Programma il comportamento degli agent vocali all'interno del servizio {{site.data.keyword.conversationshort}} utilizzando le tue API. Puoi controllare qualsiasi cosa, dal comportamento di interruzione alla riaggancio della chiamata per qualsiasi nodo nel tuo dialogo.
+* Programma il comportamento degli agent vocali all'interno del servizio {{site.data.keyword.conversationshort}} utilizzando le tue API. Puoi controllare qualsiasi cosa, dal comportamento di interruzione alla riaggancio della chiamata per qualsiasi nodo nel tuo nodo.
 * Crea e gestisci facilmente più agent vocali se desideri collegare numeri di telefono diversi ad agent cognitivi specializzati per diversi argomenti.
 * Espandi le funzionalità del servizio collegando un motore di orchestrazione del servizio (SOE) in modo da poter utilizzare API di terze parti. Ad esempio, il SOE può ascoltare i trigger dal servizio {{site.data.keyword.conversationshort}} e quindi utilizzare le API fornite per cercare informazioni nei sistemi esistenti o fornire altre analisi.
 

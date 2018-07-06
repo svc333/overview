@@ -4,7 +4,7 @@ copyright:
 
   years: 2015, 2018
 
-lastupdated: "2018-06-01"
+lastupdated: "2018-06-26"
 
 ---
 
@@ -301,10 +301,24 @@ Das Liberty Buildpack v3.9 bietet eine neue monatliche Liberty-Laufzeitversion u
 ## Services
 {: #services_category}
 
+### Einführung der allgemeinen Verfügbarkeit von {{site.data.keyword.iva_full_notm}}
+Datum der Neuerung: 26 Juni 2018
+
+Der [{{site.data.keyword.iva_full}}](https://console.bluemix.net/catalog/services/voice-agent-with-watson)![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link") ist jetzt allgemein verfügbar! Sie können auf der Basis von Watson-Services einen kognitiven Sprachunterstützungsagenten erstellen, mit dem Kunden telefonieren und sprechen können. Da sich der Sprachunterstützungsagent auf die künstliche Intelligenz von Watson stützt, kann er dialogorientiert kommunizieren, komplexe Interaktionen abwickeln und Kundenanrufe innerhalb des Sprachunterstützungsagenten lösen.
+
+Dieses Release führt die folgenden neuen Funktionen ein: 
+
+* Hinzufügen redundanter Watson-Servicepositionen für ein Disaster-Recovery.  
+* Bearbeiten erweiterter Konfigurationsoptionen, um die Art und Weise anzupassen, mit der Ihre Sprachunterstützungsagenten Gespräche übergeben, zuvor aufgenommene Nachrichten für Anrufer abspielen und mit Watson-Services interagieren.
+* Die maximale Anzahl für gleichzeitige Verbindungen in Ihrem Standardserviceplan konfigurieren. 
+* Verbinden Sie Ihre Sprachunterstützungsagenten mit SIP-Trunking-Providern wie NetFoundry, Twilio, AT&T und anderen Service-Providern oder erwägen Sie den Einsatz mit {{site.data.keyword.iva_short}}.
+
+Lesen Sie zum Einstieg die [{{site.data.keyword.iva_short}}](/docs/services/voice-agent/getting-started.html)-Dokumentation.
+
 ### {{site.data.keyword.streaminganalyticsshort}} führt neue Servicepläne mit einer containerbasierten Infrastruktur ein
 Datum der Neuerung: 20. April 2018
 
-{{site.data.keyword.streaminganalyticsshort}} wird jetzt in einer containerbasierten Kubernetes-Infrastruktur ausgeführt, die den Serivce mit Sicherheits- und Verfügbarkeitsvorteilen ausstattet.
+{{site.data.keyword.streaminganalyticsshort}} wird jetzt in einer containerbasierten Kubernetes-Infrastruktur ausgeführt, die den Service mit Sicherheits- und Verfügbarkeitsvorteilen ausstattet.
  
 Sie können auf diese neue containerbasierte Infrastruktur mithilfe von [Serviceplänen der Version 2](/docs/services/StreamingAnalytics/service_plans.html#service_plans) zugreifen. Sie können den {{site.data.keyword.streaminganalyticsshort}}-Plan wählen, der sich am besten für Ihre Arbeit eignet. Die Servicepläne der Version 2 umfassen die folgenden Verbesserungen:
  

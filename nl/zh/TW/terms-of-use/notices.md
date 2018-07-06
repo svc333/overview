@@ -1,9 +1,12 @@
 ---
 
+
+
 copyright:
 
   years: 2015, 2018
-lastupdated: "2018-03-01"
+lastupdated: "2018-06-21"
+
 
 ---
 
@@ -12,10 +15,59 @@ lastupdated: "2018-03-01"
 {:screen: .screen}
 {:new_window: target="_blank"}
 
-# 注意事項
+# {{site.data.keyword.Bluemix_notm}} 條款與注意事項
+{: #terms}
+
+## {{site.data.keyword.Bluemix_notm}} 條款
+{: #terms_details}
+
+您的 IBM Cloud 帳戶與從 IBM Cloud 訂購的任何服務，係依下列條款提供：
+
+  * 您適用的基本合約雲端條款如下：
+    * 適用於美元信用卡計費的 SoftLayer 雲端服務合約，可從 [http://www.softlayer.com/legal](http://www.softlayer.com/legal){: new_window} ![外部鏈結圖示](../../icons/launch-glyph.svg) 取得
+    * 適用於非美元信用卡計費的 IBM 雲端服務合約（當地國家/地區版本*），或是如果您選取從 IBM 開立發票，則提供於 [https://www.ibm.com/terms](https://www.ibm.com/terms){: new_window} ![外部鏈結圖示](../../icons/launch-glyph.svg)（請選取您的國家/地區）；
+    * 您已接受之 IBM Passport Advantage 合約及 IBM Passport Advantage Client 之「雲端產品使用條款」的一般條款，可從 [http://www-03.ibm.com/software/sla/sladb.nsf/sla/tou](http://www-03.ibm.com/software/sla/sladb.nsf/sla/tou){: new_window}![外部鏈結圖示](../../icons/launch-glyph.svg) 取得；或
+    * 與 IBM 之間的同等雲端服務基本合約條款；
+  * IBM Cloud 的服務說明，可從 [http://www-03.ibm.com/software/sla/sladb.nsf/sla/bm](http://www-03.ibm.com/software/sla/sladb.nsf/sla/bm){: new_window} ![外部鏈結圖示](../../icons/launch-glyph.svg) 取得；
+  * 適用於使用貴客戶 IBM Cloud 帳戶進行訂購之任何服務的其他適用 SDK，可從 [http://www-03.ibm.com/software/sla/sladb.nsf/sla/bm](http://www-03.ibm.com/software/sla/sladb.nsf/sla/bm){: new_window} ![外部鏈結圖示](../../icons/launch-glyph.svg) 取得；以及
+  * 其他適用 SD 中參照之適用資料表，或來自 IBM Cloud 使用者介面中之服務「條款」鏈結的適用資料表，可從 [http://www-03.ibm.com/software/sla/sladb.nsf/sla/csdsp](http://www-03.ibm.com/software/sla/sladb.nsf/sla/csdsp){: new_window} ![外部鏈結圖示](../../icons/launch-glyph.svg) 取得。
+
+### IBM WebSphere Application Server Liberty Profile 映像檔授權
+{: #license_liberty_image}
+
+Dockerfile 及關聯的 Script 是根據 Apache License 2.0 授權。IBM JRE 及 IBM WebSphere® Application Server for Developers 是根據「IBM 不保證程式國際授權合約」授權。您可以如前面所述使用 LICENSE=view 環境變數來檢視這些授權，或是在線上找到 IBM JRE 及 IBM WebSphere Application Server for Developers 的授權。本授權不允許進一步散布。
+
+## {{site.data.keyword.Bluemix_notm}} 隱私權原則
+{: #privacy_policy}
+
+「IBM 線上隱私權聲明」位於 [https://www.ibm.com/privacy/details/us/en ![外部鏈結圖示](../../icons/launch-glyph.svg)](https://www.ibm.com/privacy/details/us/en){: new_window}。此「聲明」提供關於 IBM 蒐集之個人資訊內容、用途及「客戶」對於此等個人資訊有何選擇的相關資訊。
+
+## IP 位址原則
+{: #ip_address_policy}
+
+### 1. IP 位址所有權
+{: #ip_address_ownership}
+
+International Business Machines Corporation 或其子公司 (IBM) 擁有指派予「客戶」之任何 IP 位址，這些 IP 位址僅限搭配「雲端服務」使用。IP 位址的使用於服務到期或終止時終止，屆時將收回 IP 位址，且未來可能會將 IP 位址重新發出至其他客戶。 
+
+### 2. 客戶提供的 IP 位址
+{: #client_provided_ips}
+
+「客戶」可透過提交支援問題單並提供「授權書」以指定「客戶」擁有之 IP 字首，提供由「區域網際網路登錄 (RIR)」發出的自有 IP 位址，惟受特定技術限制及所有權之驗證。若 IBM 核准要求，該等 IP 位址將透過「客戶」之「邊界閘道通訊協定 (BGP)」，代替「客戶」公告，並遞送至所識別之「客戶」伺服器。「客戶」保留那些 IP 位址的所有權。於「客戶」要求或取消服務時，IBM 將停止公告及遞送這些 IP 位址。IBM 將盡合理的努力，確保 BGP 字首為所有上游 ISP 所接受，但不保證「客戶」擁有之 IP 的全球可達性。 
+
+### 3. 審查 / 理由 / 效率準則
+{: #review_justification_efficiency}
+
+由於 IPv4 位址為稀少資源，RIR 需要 ISP 記載其有效利用現有的指派位址，以及任何被要求的位址將來能有效使用。RIR 原則和 RFC2050 可促進 IP 空間的使用或儲存管理並防止浪費。當 IBM 要求額外 IP 位址以進行配置時，IBM 必須遵守這些原則。因此，IBM 提出要求時，「客戶」應提供必要資訊，以讓 IBM 取得 RIR 發出之 IP 位址，以支援「雲端服務」。 
+
+所有「客戶」IP 位址要求必須由 IBM 審查，以確保有效率的使用，且不保證核准。審查期間，「客戶」應提供有關每個 IP 位址之使用方式的詳細資料，以及為何需要額外 IP 位址的技術性理由。IBM 可能採取措施以驗證這類資訊，包括網路掃描及伺服器配置檢驗。 
+
+初次審查可能需要最多 2 個營業日，視大小及複雜性而定，且可能需要額外的時間才能完成。有待解決濫用檢舉單的帳戶將暫停其 IP 要求，直到所有濫用問題獲得解決為止。 
+
+## 注意事項
+{: #notices}
 
 本資訊係針對 IBM 在美國所提供之產品與服務所開發。IBM 可能有提供此資料的其他語言版本。然而，  貴客戶可能需要擁有該語言的產品或產品版本副本，才能進行存取。
-{:shortdesc}
 
 在其他國家或地區中，IBM 可能未提供本文件所提及的各項產品、服務或功能。請洽詢當地的 IBM 業務代表，以取得當地目前提供的產品和服務之相關資訊。本文件在提及 IBM 的產品、程式或服務時，不表示或暗示只能使用 IBM 的產品、程式或服務。只要未侵犯 IBM 的智慧財產權，任何功能相當的產品、程式或服務皆可取代 IBM 的產品、程式或服務。不過，任何非 IBM 產品、程式或服務，使用者必須自行負責作業的評估和驗證責任。
 
@@ -99,25 +151,3 @@ UNIX 是 The Open Group 在美國及其他國家或地區的註冊商標。
 Java™ 及所有 Java 型商標和標誌是 Oracle 及（或）其子公司的商標或註冊商標。
 
 其他公司、產品及服務名稱可能是其他公司的商標或服務標誌。
-
-## {{site.data.keyword.Bluemix_notm}} 條款
-{: #terms}
-
-您的 IBM Cloud 帳戶與從 IBM Cloud 訂購的任何服務，係依下列條款提供：
-
-  * 您適用的基本合約雲端條款如下：
-    * 適用於美元信用卡計費的 SoftLayer 雲端服務合約，可從 [http://www.softlayer.com/legal](http://www.softlayer.com/legal){: new_window} ![外部鏈結圖示](../../icons/launch-glyph.svg) 取得
-    * 適用於非美元信用卡計費的 IBM 雲端服務合約（當地國家/地區版本*），或是如果您選取從 IBM 開立發票，則提供於 [https://www.ibm.com/terms](https://www.ibm.com/terms){: new_window} ![外部鏈結圖示](../../icons/launch-glyph.svg)（請選取您的國家/地區）；
-    * 您已接受之 IBM Passport Advantage 合約及 IBM Passport Advantage Client 之「雲端產品使用條款」的一般條款，可從 [http://www-03.ibm.com/software/sla/sladb.nsf/sla/tou](http://www-03.ibm.com/software/sla/sladb.nsf/sla/tou){: new_window}![外部鏈結圖示](../../icons/launch-glyph.svg) 取得；或
-    * 與 IBM 之間的同等雲端服務基本合約條款；
-  * IBM Cloud 的服務說明，可從 [http://www-03.ibm.com/software/sla/sladb.nsf/sla/bm](http://www-03.ibm.com/software/sla/sladb.nsf/sla/bm){: new_window} ![外部鏈結圖示](../../icons/launch-glyph.svg) 取得；
-  * 適用於使用貴客戶 IBM Cloud 帳戶進行訂購之任何服務的其他適用 SDK，可從 [http://www-03.ibm.com/software/sla/sladb.nsf/sla/bm](http://www-03.ibm.com/software/sla/sladb.nsf/sla/bm){: new_window} ![外部鏈結圖示](../../icons/launch-glyph.svg) 取得；以及
-  * 其他適用 SD 中參照之適用資料表，或來自 IBM Cloud 使用者介面中之服務「條款」鏈結的適用資料表，可從 [http://www-03.ibm.com/software/sla/sladb.nsf/sla/csdsp](http://www-03.ibm.com/software/sla/sladb.nsf/sla/csdsp){: new_window} ![外部鏈結圖示](../../icons/launch-glyph.svg) 取得。
-
-### IBM WebSphere Application Server Liberty Profile 映像檔授權
-Dockerfile 及關聯的 Script 是根據 Apache License 2.0 授權。IBM JRE 及 IBM WebSphere® Application Server for Developers 是根據「IBM 不保證程式國際授權合約」授權。您可以如前面所述使用 LICENSE=view 環境變數來檢視這些授權，或是在線上找到 IBM JRE 及 IBM WebSphere Application Server for Developers 的授權。本授權不允許進一步散布。
-
-## {{site.data.keyword.Bluemix_notm}} 隱私權原則
-{: #privacy_policy}
-
-「IBM 線上隱私權聲明」位於 [https://www.ibm.com/privacy/details/us/en ![外部鏈結圖示](../../icons/launch-glyph.svg)](https://www.ibm.com/privacy/details/us/en){: new_window}。此「聲明」提供關於 IBM 蒐集之個人資訊內容、用途及「客戶」對於此等個人資訊有何選擇的相關資訊。

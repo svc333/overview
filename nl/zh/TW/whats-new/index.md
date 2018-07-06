@@ -4,7 +4,7 @@ copyright:
 
   years: 2015, 2018
 
-lastupdated: "2018-06-01"
+lastupdated: "2018-06-26"
 
 ---
 
@@ -300,6 +300,20 @@ Liberty 建置套件 3.9 版提供新的每月 Liberty 運行環境版本，並�
 
 ## 服務
 {: #services_category}
+
+### {{site.data.keyword.iva_full_notm}} 通用版簡介
+文件日期：2018 年 6 月 26 日
+
+現在已提供 [{{site.data.keyword.iva_full}}](https://console.bluemix.net/catalog/services/voice-agent-with-watson)![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示") 通用版！您可以建立 Watson 服務所建置且客戶可通話並透過電話交談的認知語音代理程式。以 Watson 人工智慧為骨幹，您的語音代理程式可以透過交談方式進行通訊，處理複雜互動，以及解決語音代理程式內的客戶通話。
+
+此版本引進下列新特性：
+
+* 新增災難回復用的備用 Watson 服務位置。 
+* 編輯進階配置選項，以自訂您的語音代理程式如何轉接通話、播放預先錄製的訊息給來電者，以及與 Watson 服務互動。
+* 配置 Standard 服務方案中的並行連線數上限。
+* 將您的語音代理程式連接到 NetFoundry、Twilio、AT&T 等 SIP 幹線提供者及其他服務提供者，或與 {{site.data.keyword.iva_short}} 進行對等通訊。
+
+若要開始使用，請參閱 [{{site.data.keyword.iva_short}}](/docs/services/voice-agent/getting-started.html) 文件。
 
 ### {{site.data.keyword.streaminganalyticsshort}} 引進具有容器基礎架構的新服務方案
 文件日期：2018 年 4 月 20 日
