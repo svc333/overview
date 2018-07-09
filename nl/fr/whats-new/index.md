@@ -4,7 +4,7 @@ copyright:
 
   years: 2015, 2018
 
-lastupdated: "2018-06-01"
+lastupdated: "2018-06-26"
 
 ---
 
@@ -300,6 +300,21 @@ Le pack de construction Liberty version 3.9 fournit chaque mois une nouvelle ver
 
 ## Services
 {: #services_category}
+
+### Présentation d'{{site.data.keyword.iva_full_notm}} (disponibilité générale)
+Nouveau à compter du : 26 juin 2018
+
+[{{site.data.keyword.iva_full}}](https://console.bluemix.net/catalog/services/voice-agent-with-watson)![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe") est désormais disponible. Vous pouvez
+créer un agent vocal cognitif construit sur les services Watson que les clients peuvent appeler par téléphone. Avec l'intelligence artificielle Watson au niveau du réseau principal, votre agent vocal est capable de communiquer sur un mode conversationnel, gérant des interactions complexes et résolvant les appels client au sein de l'agent.
+
+Cette version offre les nouvelles fonctions suivantes :
+
+* Ajout d'emplacements de service Watson redondants pour la reprise après incident. 
+* Modification des options de configuration avancées afin de personnaliser la façon dont vos agents vocaux transfèrent les appels, lisent les messages préenregistrés lors des appels et interagissent avec les services Watson.
+* Configuration du nombre maximal de connexions simultanées dans votre plan de service standard.
+* Connexion de vos agents vocaux aux fournisseurs de commutation automatique de canaux SIP, tels NetFoundry, Twilio, AT&T et d'autres fournisseurs de services ou homologues de {{site.data.keyword.iva_short}}.
+
+Pour commencer, consultez la documentation [{{site.data.keyword.iva_short}}](/docs/services/voice-agent/getting-started.html).
 
 ### {{site.data.keyword.streaminganalyticsshort}} offre de nouveaux plans de service avec une infrastructure reposant sur un conteneur
 Nouveau à compter du : 20 avril 2018

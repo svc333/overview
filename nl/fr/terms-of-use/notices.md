@@ -1,9 +1,12 @@
 ﻿---
 
+
+
 copyright:
 
   years: 2015, 2018
-lastupdated: "2018-03-01"
+lastupdated: "2018-06-21"
+
 
 ---
 
@@ -12,10 +15,60 @@ lastupdated: "2018-03-01"
 {:screen: .screen}
 {:new_window: target="_blank"}
 
-# Remarques
+# Conditions et remarques s'appliquant à {{site.data.keyword.Bluemix_notm}}
+{: #terms}
+
+## Conditions d'utilisation d'{{site.data.keyword.Bluemix_notm}}
+{: #terms_details}
+
+Votre compte IBM Cloud et les services offerts dans le cadre d'IBM Cloud sont fournis dans les conditions fixées par :
+
+  * Les dispositions du contrat de base Cloud qui s'appliquent à vous comme suit :
+    * Le contrat relatif au service SoftLayer Cloud pour la facturation des cartes de crédit en dollars américains, disponible à l'adresse [http://www.softlayer.com/legal](http://www.softlayer.com/legal){: new_window} ![Icône de lien externe](../../icons/launch-glyph.svg)
+    * Le contrat relatif aux services IBM Cloud (version du pays local*) pour la facturation des cartes de crédit autre qu'en dollars américains, ou si vous sélectionnez un mode de facturation à partir d'IBM, disponible à l'adresse [https://www.ibm.com/terms](https://www.ibm.com/terms){: new_window} ![Icône de lien externe](../../icons/launch-glyph.svg) (sélectionnez votre pays) ;
+    * Le contrat IBM Passport Advantage que vous avez accepté et les dispositions générales des présentes conditions d'utilisation des offres Cloud pour les clients IBM Passport Advantage, disponibles à l'adresse [http://www-03.ibm.com/software/sla/sladb.nsf/sla/tou](http://www-03.ibm.com/software/sla/sladb.nsf/sla/tou){: new_window} ![Icône de lien externe](../../icons/launch-glyph.svg) ; ou
+    * Les dispositions équivalentes du contrat de base relatif au service Cloud entre vous et IBM ;
+  * Une description de service pour IBM Cloud disponible à l'adresse [http://www-03.ibm.com/software/sla/sladb.nsf/sla/bm](http://www-03.ibm.com/software/sla/sladb.nsf/sla/bm){: new_window} ![Icône de lien externe](../../icons/launch-glyph.svg) ;
+  * Des descriptions de service supplémentaires qui s'appliquent à n'importe quel service commandé à l'aide de votre compte IBM Cloud, disponibles à l'adresse [http://www-03.ibm.com/software/sla/sladb.nsf/sla/bm](http://www-03.ibm.com/software/sla/sladb.nsf/sla/bm){: new_window} ![Icône de lien externe](../../icons/launch-glyph.svg) ; et
+  * Des fiches techniques applicables référencées dans des descriptions de service supplémentaires applicables ou disponibles à partir du lien "Terms" pour un service dans l'interface utilisateur IBM Cloud, disponibles à l'adresse [http://www-03.ibm.com/software/sla/sladb.nsf/sla/csdsp](http://www-03.ibm.com/software/sla/sladb.nsf/sla/csdsp){: new_window} ![Icône de lien externe](../../icons/launch-glyph.svg).
+
+### Licence pour l'image IBM WebSphere Application Server Liberty Profile
+{: #license_liberty_image}
+
+Dockerfile et les scripts associés sont concédés sous licence selon les conditions Apache License 2.0. IBM JRE (environnement d'exécution Java) et IBM WebSphere Application Server for Developers sont concédés sous licence selon les Conditions Internationales d'Utilisation des Logiciels non-garantis IBM. Vous pouvez consulter ces licences depuis l'image en utilisant la variable d'environnement LICENSE=view comme décrit précédemment, ou les rechercher en ligne pour IBM JRE et IBM WebSphere Application Server for Developers. Cette licence n'autorise aucune distribution.
+
+## Politique de confidentialité {{site.data.keyword.Bluemix_notm}}
+{: #privacy_policy}
+
+Le document Déclaration IBM de confidentialité sur Internet se trouve sur [https://www.ibm.com/privacy/details/fr/fr![Icône de lien externe](../../icons/launch-glyph.svg)](https://www.ibm.com/privacy/details/fr/fr){: new_window}. Il indique le type d'informations personnelles qui sont collectées par IBM, comment elles sont utilisées et les choix dont dispose le client par rapport à ces informations personnelles.
+
+## Politique relative aux adresses IP
+{: #ip_address_policy}
+
+### 1. Propriétaire des adresses IP
+{: #ip_address_ownership}
+
+International Business Machines Corporation (IBM) ou ses filiales est propriétaire des adresses IP affectées au client et devant être utilisées uniquement avec les services Cloud. L'utilisation des adresses IP s'arrête à la fin d'un service ou lorsque ce dernier arrive à expiration. Elles sont alors réclamées et peuvent être à nouveau émises pour d'autres clients. 
+
+### 2. Adresses IP fournies par le client
+{: #client_provided_ips}
+
+Le client peut fournir ses propres adresses IP émises par le registre Internet régional (RIR), soumises à certaines limitations techniques et à la vérification de propriété, en envoyant un ticket de support et en transmettant une lettre d'autorisation afin de spécifier des préfixes IP lui appartenant. Lorsque IBM approuve une demande, ces adresses IP sont annoncées par l'intermédiaire du protocole BGP (Border Gateway Protocol) au nom du client et acheminées vers les serveurs identifiés. Le client reste propriétaire de ces adresses IP. A la demande de ce dernier ou lors de l'annulation des services, IBM cesse d'annoncer et d'acheminer ces adresses. Même si IBM fait son possible pour s'assurer que les préfixes BGP sont acceptés par tous les fournisseurs d'accès, nous ne garantissons pas l'accessibilité globale pour les IP appartenant au client. 
+
+### 3. Instructions de révision, de justification et d'efficacité 
+{: #review_justification_efficiency}
+
+Les adresses IPv4 étant des ressources rares, les registres RIR exigent que les fournisseurs d'accès Internet indiquent qu'ils utilisent de manière efficace les adresses affectées existantes et qu'ils planifient une utilisation efficace des adresses demandées. Les règles de registre RIR ainsi que le document RFC 2050 encouragent la conservation d'espace IP tout en en dissuadant le gaspillage ou l'accumulation. IBM est tenue de se conformer à ces règles lors de demandes d'adresses IP supplémentaires à allouer. Par conséquent, à la demande d'IBM, le client fournit les informations nécessaires pour qu'IBM puisse disposer d'adresses IP émises par le registre RIR afin de prendre en charge les services cloud. 
+
+Toutes les demandes d'adresses IP du client sont susceptibles d'être examinées par IBM afin de garantir une utilisation efficace, mais leur approbation n'est pas garantie. Lors de cet examen, il sera demandé au client de fournir des informations précisant de manière détaillée comment chaque adresse IP sera utilisée et il devra également justifier son besoin d'adresses IP supplémentaires. IBM peut effectuer différentes opérations pour valider de telles informations, notamment l'examen du réseau et l'inspection de la configuration du serveur. 
+
+Le premier examen peut durer jusqu'à deux jours ouvrés, voire plus en fonction de sa taille et de sa complexité. Le traitement des demandes d'adresses IP des comptes ayant des tickets d'abus ouverts est mis en attente jusqu'à ce que tous les problèmes d'abus soient résolus. 
+
+## Remarques
+{: #notices}
 
 Le présent document a été développé pour des produits et des services proposés aux Etats-Unis et peut être mis à disposition par IBM dans d'autres langues. Toutefois, il peut être nécessaire de posséder une copie du produit ou de la version du produit dans cette langue pour pouvoir y accéder.
-{:shortdesc}
+
 
 Le présent document peut contenir des informations ou des
 références concernant certains produits, logiciels ou services IBM
@@ -154,25 +207,3 @@ UNIX est une marque enregistrée de The Open Group aux Etats-Unis et/ou dans cer
 Java™, ainsi que tous les logos et toutes les marques incluant Java, sont des marques d'Oracle et/ou de ses sociétés affiliées.
 
 Les autres noms de sociétés, de produits et de services peuvent appartenir à des tiers.
-
-## Conditions d'utilisation de {{site.data.keyword.Bluemix_notm}}
-{: #terms}
-
-Votre compte IBM Cloud et les services offerts dans le cadre d'IBM Cloud sont fournis dans les conditions fixées par :
-
-  * Les dispositions du contrat de base Cloud qui s'appliquent à vous comme suit :
-    * Le contrat relatif au service SoftLayer Cloud pour la facturation des cartes de crédit en dollars américains, disponible à l'adresse[http://www.softlayer.com/legal](http://www.softlayer.com/legal){: new_window} ![Icône de lien externe](../../icons/launch-glyph.svg)
-    * Le contrat relatif aux services IBM Cloud (version du pays local*) pour la facturation des cartes de crédit autre qu'en dollars américains, ou si vous sélectionnez un mode de facturation à partir d'IBM, disponible à l'adresse [https://www.ibm.com/terms](https://www.ibm.com/terms){: new_window} ![Icône de lien externe](../../icons/launch-glyph.svg) (sélectionnez votre pays) ;
-    * Le contrat IBM Passport Advantage que vous avez accepté et les dispositions générales des présentes conditions d'utilisation des offres Cloud pour les clients IBM Passport Advantage, disponibles à l'adresse [http://www-03.ibm.com/software/sla/sladb.nsf/sla/tou](http://www-03.ibm.com/software/sla/sladb.nsf/sla/tou){: new_window} ![Icône de lien externe](../../icons/launch-glyph.svg) ; ou
-    * Les dispositions équivalentes du contrat de base relatif au service Cloud entre vous et IBM ;
-  * Une description de service pour IBM Cloud disponible à l'adresse [http://www-03.ibm.com/software/sla/sladb.nsf/sla/bm](http://www-03.ibm.com/software/sla/sladb.nsf/sla/bm){: new_window} ![Icône de lien externe](../../icons/launch-glyph.svg) ;
-  * Des descriptions de service supplémentaires qui s'appliquent à n'importe quel service commandé à l'aide de votre compte IBM Cloud, disponibles à l'adresse [http://www-03.ibm.com/software/sla/sladb.nsf/sla/bm](http://www-03.ibm.com/software/sla/sladb.nsf/sla/bm){: new_window} ![Icône de lien externe](../../icons/launch-glyph.svg) ; et
-  * Des fiches techniques applicables référencées dans des descriptions de service supplémentaires applicables ou disponibles à partir du lien "Terms" pour un service dans l'interface utilisateur IBM Cloud, disponibles à l'adresse [http://www-03.ibm.com/software/sla/sladb.nsf/sla/csdsp](http://www-03.ibm.com/software/sla/sladb.nsf/sla/csdsp){: new_window} ![Icône de lien externe](../../icons/launch-glyph.svg).
-
-### Licence pour l'image IBM WebSphere Application Server Liberty Profile
-Dockerfile et les scripts associés sont concédés sous licence selon les conditions Apache License 2.0. IBM JRE ( environnement d'exécution Java ) et IBM WebSphere Application Server for Developers sont concédés sous licence selon les Conditions Internationales d'Utilisation des Logiciels non-garantis IBM. Vous pouvez consulter ces licences depuis l'image en utilisant la variable d'environnement LICENSE=view comme décrit précédemment, ou les rechercher en ligne pour IBM JRE et IBM WebSphere Application Server for Developers. Cette licence n'autorise aucune distribution.
-
-## Politique de confidentialité {{site.data.keyword.Bluemix_notm}}
-{: #privacy_policy}
-
-Le document Déclaration IBM de confidentialité sur Internet se trouve sur [https://www.ibm.com/privacy/details/fr/fr![Icône de lien externe](../../icons/launch-glyph.svg)](https://www.ibm.com/privacy/details/fr/fr){: new_window}. Il indique le type d'informations personnelles qui sont collectées par IBM, comment elles sont utilisées et les choix dont dispose le client par rapport à ces informations personnelles.
