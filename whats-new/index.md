@@ -4,7 +4,7 @@ copyright:
 
   years: 2015, 2018
 
-lastupdated: "2018-06-26"
+lastupdated: "2018-07-10"
 
 ---
 
@@ -256,6 +256,11 @@ With the latest updates and improvements from April, you can use the following n
 
 ## Compute
 {: #compute_category}
+
+### Create multizone clusters in {{site.data.keyword.containerlong_notm}}
+New as of: 10 July 2018
+
+Want to improve cluster and app availability? Now you can span your cluster across multiple zones in select metro areas. For more information, see [Creating multizone clusters in {{site.data.keyword.containershort_notm}}](cs_clusters.html#multizone).
 
 ### Kubernetes Dashboard access comes to the {{site.data.keyword.containerlong_notm}}
 
