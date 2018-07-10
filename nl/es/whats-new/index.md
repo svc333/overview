@@ -4,7 +4,7 @@ copyright:
 
   years: 2015, 2018
 
-lastupdated: "2018-06-01"
+lastupdated: "2018-06-26"
 
 ---
 
@@ -33,7 +33,7 @@ Ahora puede actualizar su cuenta Lite a una cuenta de Suscripción directamente 
 ### Cambio de imagen corporativa de la CLI de {{site.data.keyword.Bluemix_notm}}
 Novedad desde: 15 de mayo de 2018
 
-Los mandatos de la CLI de {{site.data.keyword.Bluemix_notm}} han cambiado de `bluemix` y `bx` a **ibmcloud**. Sin embargo, puede seguir utilizando los mandatos de CLI `bluemix` y `bx` hasta que se eliminen en una fecha posterior. No hay ningún nombre abreviado en este momento, solo el nombre completo **ibmcloud**. 
+Los mandatos de CLI de {{site.data.keyword.Bluemix_notm}} han cambiado de `bluemix` y `bx` a **ibmcloud**. Sin embargo, puede seguir utilizando los mandatos de CLI `bluemix` y `bx` hasta que se eliminen en una fecha posterior. No hay ningún nombre abreviado en este momento, solo el nombre completo **ibmcloud**. 
 
 ### Autenticación de multifactores para su cuenta de {{site.data.keyword.Bluemix_notm}}
 Novedad desde: 2 de mayo de 2018
@@ -53,7 +53,7 @@ Novedad desde: 1 de marzo de 2018
 Ahora es posible enlazar su cuenta de SoftLayer con su cuenta de {{site.data.keyword.Bluemix_notm}} para iniciar una sesión desde una única ubicación, la consola de {{site.data.keyword.Bluemix_notm}}, y acceder a los recursos de ambas infraestructuras como un servicio (IaaS) y plataformas como un servicio (PaaS). Si empieza ahora con {{site.data.keyword.Bluemix_notm}}, cree y enlace una cuenta para obtener una cuenta Lite de {{site.data.keyword.Bluemix_notm}} gratuita. O bien, si ya tiene una cuenta de {{site.data.keyword.Bluemix_notm}} con recursos de PaaS, enlace sus cuentas para recibir una única factura para todos sus recursos de IaaS y PaaS. Consulte [Pasos para enlazar sus cuentas IaaS y PaaS](https://www.ibm.com/blogs/bluemix/2018/03/follow-steps-link-iaas-paas-accounts/){: new_window} ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo") para enlazar con rapidez sus cuentas.
 
 
-### Ya está disponible el Servicio de {{site.data.keyword.Bluemix_notm}} Foundry de la región EE.UU. este
+### Ya está disponible el servicio {{site.data.keyword.Bluemix_notm}} Foundry de la región EE.UU. este
 Novedad desde: 15 de diciembre de 2017
 
 Ya está disponible un nuevo centro de datos de EE.UU. este en Washington, DC. Se puede llegar a esta nueva región mediante el punto final `us-east.bluemix.net`. Para obtener detalles sobre los servicios disponibles para su adquisición en esta nueva región, consulte [Servicios por región](/docs/services/services_region.html#services_region).
@@ -181,7 +181,7 @@ Novedad desde: 31 de agosto de 2017
 
 Con las últimas actualizaciones y mejoras de agosto, puede utilizar las siguientes nuevas características:
 
-#### Actualizaciones en las métricas de uso de servicio de {{site.data.keyword.cloudant_short_notm}}
+#### Actualizaciones en las métricas de uso del servicio {{site.data.keyword.cloudant_short_notm}}
 
   * El cálculo de las métricas de uso de {{site.data.keyword.cloudant_short_notm}} se ha actualizado para reflejar la cantidad total de GB utilizados y disponibles en todos los nodos en un clúster de {{site.data.keyword.cloudant_short_notm}}. Normalmente, un clúster de {{site.data.keyword.cloudant_short_notm}} contiene 3 nodos, y un documento de la base de datos se replica en todos los nodos en el clúster la obtener alta disponibilidad y recuperación tras desastre. Con las actualizaciones de agosto, la métrica de capacidad en el marcador de {{site.data.keyword.cloudant_short_notm}} (disponible en la vista _Uso de recursos > Servicios_) indica el espacio en todos los nodos del clúster. Por ejemplo, si un único clúster de {{site.data.keyword.cloudant_short_notm}} contiene 3 nodos, cada uno de ellos con 1000 GB de capacidad, el límite de capacidad será de 3000 GB. Si se han utilizado 1500 GB de dicha capacidad, la métrica de uso de {{site.data.keyword.cloudant_short_notm}} será 50%.
 
@@ -301,6 +301,20 @@ El paquete de compilación de Liberty v3.9 proporciona una nueva versión de tie
 ## Servicios
 {: #services_category}
 
+### Introducción a la disponibilidad general de {{site.data.keyword.iva_full_notm}}
+Novedad desde: 26 de junio de 2018
+
+[{{site.data.keyword.iva_full}}](https://console.bluemix.net/catalog/services/voice-agent-with-watson)![External link icon](../../icons/launch-glyph.svg "Icono de enlace externo") ahora está disponible a nivel general. Puede crear un agente de voz cognitivo que se base en los servicios de Watson. Los clientes podrán hablar y llamar a este agente por teléfono. Con la inteligencia artificial de Watson como eje central, el agente de voz puede comunicarse de forma conversacional, manejando interacciones complejas y resolviendo las llamadas de clientes dentro del agente de voz.
+
+En este release se presentan las siguientes características nuevas:
+
+* Añada ubicaciones de servicio redundantes de Watson para los casos de recuperación tras desastre. 
+* Edite las opciones de configuración avanzadas para personalizar cómo los agentes de voz transfieren las llamadas, reproducen mensajes pregrabados a los que llaman e interactúan con los servicios de Watson.
+* Configure el número máximo de conexiones simultáneas en su plan de servicios estándar.
+* Conecte los agentes de voz a los proveedores de conexión troncal como NetFoundry, Twilio, AT&T, y otros proveedores de servicios con {{site.data.keyword.iva_short}}.
+
+Para empezar, consulte la documentación de [{{site.data.keyword.iva_short}}](/docs/services/voice-agent/getting-started.html).
+
 ### {{site.data.keyword.streaminganalyticsshort}} introduce nuevos planes de servicio con una infraestructura basada en contenedores
 Novedad desde: 20 de abril de 2018
 
@@ -311,8 +325,8 @@ Puede acceder a esta nueva infraestructura basada en contenedores utilizando los
 * [ IBM Streams QSE with Docker](https://www-01.ibm.com/marketing/iwm/iwm/web/preLogin.do?source=swg-ibmistvi)![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo"): Consulte la [Development Guide](https://developer.ibm.com/streamsdev/docs/cloud-beta-devguide/)![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo") para aprender a utilizar las nuevas instancias de Streams QSE con RHEL 7 ejecutándose en un entorno Docker para compilar y desplegar sus aplicaciones con los nuevos planes v2 de {{site.data.keyword.streaminganalyticsshort}}. 
 * [{{site.data.keyword.streaminganalyticsshort}} v2 REST API](https://console.bluemix.net/apidocs/1939-streaming-analytics-v2#introduction)![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")
 * [Nuevas aplicaciones de punto de partida y de ejemplo](https://developer.ibm.com/streamsdev/docs/cloud-beta-samples/) ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")
-* [Mejoras de alta disponibilidad en el servicio de {{site.data.keyword.streaminganalyticsshort}}](/docs/services/StreamingAnalytics/c_ha.html#consistent-regions)
-* Servicio de [Características de determinación de problemas {{site.data.keyword.streaminganalyticsshort}}](https://developer.ibm.com/streamsdev/2018/02/15/streaming-analytics-console-gives-ways-find-fix-errors-beta-plans/)![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")
+* [Mejoras de alta disponibilidad en el servicio {{site.data.keyword.streaminganalyticsshort}}](/docs/services/StreamingAnalytics/c_ha.html#consistent-regions)
+* [Características de determinación de problemas del servicio {{site.data.keyword.streaminganalyticsshort}}](https://developer.ibm.com/streamsdev/2018/02/15/streaming-analytics-console-gives-ways-find-fix-errors-beta-plans/)![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")
 * [Supervisión del comportamiento de operadores y proceso de tuplas garantizado en la nube](https://developer.ibm.com/streamsdev/2018/02/15/monitor-operators-behave-ensure-resource-optimization/)![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")
 
 ### {{site.data.keyword.iva_full_notm}} ahora en versión Beta
@@ -341,7 +355,7 @@ Actualmente, los clasificadores personalizados existentes pueden seguir actualiz
 ### Actualizaciones de {{site.data.keyword.streaminganalyticsshort}}
 Novedad desde: 14 de febrero de 2018
 
-Los [planes Beta-Entry y Beta-Enhanced](/docs/services/StreamingAnalytics/beta_plans.html#beta_plans) para la consola en el [servicio de {{site.data.keyword.streaminganalyticsshort}} ](https://console.bluemix.net/catalog/services/streaming-analytics){: new_window} ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo") incluyen varias mejoras:
+Los [planes Beta-Entry y Beta-Enhanced](/docs/services/StreamingAnalytics/beta_plans.html#beta_plans) para la consola en el [servicio {{site.data.keyword.streaminganalyticsshort}} ](https://console.bluemix.net/catalog/services/streaming-analytics){: new_window} ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo") incluyen varias mejoras:
 
 * [Nuevo: IBM Streams QSE for Docker](https://www-01.ibm.com/marketing/iwm/iwm/web/preLogin.do?source=swg-ibmistvi){: new_window} ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo"): Consulte la [Beta Development Guide](https://developer.ibm.com/streamsdev/docs/cloud-beta-devguide/){: new_window} ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo") para aprender a utilizar las nuevas instancias de Streams QSE con RHEL 7 ejecutándose en un entorno Docker para compilar y desplegar sus aplicaciones con los nuevos planes beta de {{site.data.keyword.streaminganalyticsshort}}.
 * [{{site.data.keyword.streaminganalyticsshort}} v2 REST API](https://console.bluemix.net/apidocs/1939-streaming-analytics-v2#introduction){: new_window} ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")
@@ -387,7 +401,7 @@ Para empezar, consulte [Iniciación a IBM Cloud Managed Database Server](/docs/s
 ### Novedades en {{site.data.keyword.mobilepushshort}}
 Novedad desde: 26 de octubre de 2017
 
-Hemos hecho varias mejoras para el servicio de {{site.data.keyword.mobilepushshort}} en los últimos meses. El servicio ya está disponible en la región de Frankfurt junto con Dallas, Londres y Sídney. A continuación ofrecemos los detalles de las mejoras:
+Hemos hecho varias mejoras para el servicio {{site.data.keyword.mobilepushshort}} en los últimos meses. El servicio ya está disponible en la región de Frankfurt junto con Dallas, Londres y Sídney. A continuación ofrecemos los detalles de las mejoras:
 
 #### Supervisión
 Ahora puede rastrear el rendimiento de las notificaciones push para periodos de tiempo específicos, rastrear el número de notificaciones enviadas y el número total de dispositivos registrados. También puede registrar ganchos (hooks) para estar informado de todos los sucesos del ciclo de vida de una notificación. Se pueden encontrar más detalles en los siguientes enlaces de documentación y publicación de blog:
@@ -407,36 +421,36 @@ Tenemos soporte de divisas para las notificaciones de iOS 11. También hemos inc
 Se pueden encontrar detalles adicionales en la documentación de [Notificaciones de Rich Media](/docs/services/mobilepush/push_step_4_nf_rich.html#interactive-notifications), en la documentación de [Notificaciones interactivas y silenciosas](/docs/services/mobilepush/push_step_4_nf_interactive.html#interactive-notifications), y en la documentación de [Habilitación de notificaciones push avanzadas](/docs/services/mobilepush/push_step_4_nf_adv.html#enabling-advanced-push-notifications).
 
 #### Soporte de APNS HTTP/2
-Apple ha introducido el soporte para el protocolo HTTP para Apple Notifications. El servicio de {{site.data.keyword.mobilepushshort}} ahora da soporte al protocolo HTTP/2. Con este soporte, las cargas útiles de notificación pueden ser de 4 KB con mayor rendimiento y proporciona la característica de comentarios instantánea. El soporte para Certificado universal permite a la app conectarse a entornos de recinto de pruebas y de producción.
+Apple ha introducido el soporte para el protocolo HTTP para Apple Notifications. El servicio {{site.data.keyword.mobilepushshort}} ahora da soporte al protocolo HTTP/2. Con este soporte, las cargas útiles de notificación pueden ser de 4 KB con mayor rendimiento y proporciona la característica de comentarios instantánea. El soporte para Certificado universal permite a la app conectarse a entornos de recinto de pruebas y de producción.
 
 #### Nuevo plan Lite
-El plan Lite para el servicio de {{site.data.keyword.mobilepushshort}} proporciona la capacidad de enviar 100.000 notificaciones gratuitas cada mes. Para obtener más información, consulte la publicación de blog [Plan Lite para el servicio de notificaciones push en Bluemix](https://www.ibm.com/blogs/bluemix/2017/06/lite-plan-push-notifications-service-bluemix/){: new_window} ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo").
+El plan Lite para el servicio {{site.data.keyword.mobilepushshort}} proporciona la capacidad de enviar 100.000 notificaciones gratuitas cada mes. Para obtener más información, consulte la publicación de blog [Plan Lite para el servicio de notificaciones push en Bluemix](https://www.ibm.com/blogs/bluemix/2017/06/lite-plan-push-notifications-service-bluemix/){: new_window} ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo").
 
 
 
 ### Novedades en Mobile Analytics
 Novedad desde: 26 de octubre de 2017
 
-Hemos realizado mejoras para el servicio de {{site.data.keyword.mobileanalytics_short}} en los últimos meses. El servicio ya está disponible en las regiones de Frankfurt y Sídney junto con Dallas y Londres. A continuación ofrecemos los detalles de las mejoras:
+Hemos realizado mejoras para el servicio {{site.data.keyword.mobileanalytics_short}} en los últimos meses. El servicio ya está disponible en las regiones de Frankfurt y Sídney junto con Dallas y Londres. A continuación ofrecemos los detalles de las mejoras:
 
 #### Soporte de SDK web
 {{site.data.keyword.mobileanalytics_short}} es ahora el servicio de canal de Omni con la adición de soporte para análisis de app web. Se pueden encontrar más detalles en [https://github.com/ibm-bluemix-mobile-services/bms-clientsdk-web-analytics/](https://github.com/ibm-bluemix-mobile-services/bms-clientsdk-web-analytics/){: new_window} ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo").
 
-#### Integración con el servicio de {{site.data.keyword.mobilefoundation_short}}
-El servicio de {{site.data.keyword.mobilefoundation_short}} aprovecha ahora el servicio de {{site.data.keyword.mobileanalytics_short}} para el análisis de app, usuario y rendimiento. Los usuarios pueden aprovechar la exportación a la opción de almacén de DB2 para crear análisis de adaptador y diagramas personalizados. Puede encontrar detalles adicionales en las siguientes publicaciones de blog:
+#### Integración con el servicio {{site.data.keyword.mobilefoundation_short}}
+El servicio {{site.data.keyword.mobilefoundation_short}} aprovecha ahora el servicio {{site.data.keyword.mobileanalytics_short}} para el análisis de app, usuario y rendimiento. Los usuarios pueden aprovechar la exportación a la opción de almacén de DB2 para crear análisis de adaptador y diagramas personalizados. Puede encontrar detalles adicionales en las siguientes publicaciones de blog:
 
 * [Integración de Mobile Foundation Service con Mobile Analytics Service](https://www.ibm.com/blogs/bluemix/2017/08/mobile-foundation-service-integration-mobile-analytics-service-2/){: new_window} ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")
-* [Creación de diagramas personalizados utilizando el servicio de IBM Bluemix Mobile Analytics y de IBM Mobile Foundation Service](https://mobilefirstplatform.ibmcloud.com/blog/2017/04/26/custom-charts-using-analytics-and-dashdb-analytics-service/){: new_window} ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")
-* [Creación de diagramas para el análisis de Adaptador mediante los servicios de IBM Bluemix Mobile Analytics y de IBM Mobile Foundation Service](https://mobilefirstplatform.ibmcloud.com/blog/2017/04/26/adapter-analytics-using-analytics-and-dashdb-analytics-service/){: new_window} ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")
+* [Creación de diagramas personalizados utilizando los servicios IBM Bluemix Mobile Analytics y el servicio IBM Mobile Foundation](https://mobilefirstplatform.ibmcloud.com/blog/2017/04/26/custom-charts-using-analytics-and-dashdb-analytics-service/){: new_window} ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")
+* [Creación de diagramas para el análisis de Adaptador utilizando los servicios IBM Bluemix Mobile Analytics e IBM Mobile Foundation](https://mobilefirstplatform.ibmcloud.com/blog/2017/04/26/adapter-analytics-using-analytics-and-dashdb-analytics-service/){: new_window} ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")
 
 #### El contenedor modelo de {{site.data.keyword.mobilefirst_notm}} ahora incluye {{site.data.keyword.mobileanalytics_short}}
-Mobile Services Boilerplate es una plantilla que proporciona un conjunto de servicios móviles para que los usuarios empiecen rápidamente. El servicio de {{site.data.keyword.mobileanalytics_short}} ahora forma parte del contenedor modelo disponible en el [catálogo](https://console.bluemix.net/catalog/starters/mobilefirst-services-starter){: new_window} ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo").
+Mobile Services Boilerplate es una plantilla que proporciona un conjunto de servicios móviles para que los usuarios empiecen rápidamente. El servicio {{site.data.keyword.mobileanalytics_short}} ahora forma parte del contenedor modelo disponible en el [catálogo](https://console.bluemix.net/catalog/starters/mobilefirst-services-starter){: new_window} ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo").
 
 
 ### Actualizaciones de {{site.data.keyword.streaminganalyticsshort}}
 Novedad desde: 20 de octubre de 2017
 
-* IBM Streams Runner for Apache Beam: Ahora puede desarrollar aplicaciones de Beam localmente en su entorno de desarrollo de Streams y enviar estas apps al servicio de {{site.data.keyword.streaminganalyticsshort}} en {{site.data.keyword.Bluemix_notm}}. IBM Streams Runner for Apache Beam ejecuta conductos de Beam en un entorno de Streams. Una aplicación de Beam que se inicia con Streams Runner se traduce a un archivo SAB (Streams Application Bundle) que podrá desplegar en {{site.data.keyword.streaminganalyticsshort}}. Consulte [IBM Streams Runner for Apache Beam in Streaming Analytics](/docs/services/StreamingAnalytics/gs_beamrunner.html) para obtener más detalles.
+* IBM Streams Runner for Apache Beam: Ahora puede desarrollar aplicaciones de Beam localmente en su entorno de desarrollo de Streams y enviar estas apps al servicio {{site.data.keyword.streaminganalyticsshort}} en {{site.data.keyword.Bluemix_notm}}. IBM Streams Runner for Apache Beam ejecuta conductos de Beam en un entorno de Streams. Una aplicación de Beam que se inicia con Streams Runner se traduce a un archivo SAB (Streams Application Bundle) que podrá desplegar en {{site.data.keyword.streaminganalyticsshort}}. Consulte [IBM Streams Runner for Apache Beam in Streaming Analytics](/docs/services/StreamingAnalytics/gs_beamrunner.html) para obtener más detalles.
 * Puede encontrar información de los archivos de registro aún más rápido. La consola se ha actualizado para mejorar la visualización de los gráficos de aplicaciones para las topologías de Python o Java. Consulte [Mejoras en la consola](https://developer.ibm.com/streamsdev/2017/10/13/enhancements-to-the-console/){: new_window} ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo").
 
 ### IBM App Launch for {{site.data.keyword.Bluemix_notm}} Services
@@ -465,17 +479,17 @@ Novedad desde: 15 de septiembre de 2017
 
 Con el nuevo servicio experimental de {{site.data.keyword.iva_full}}, puede crear un agente de voz cognitiva basado en servicios de Watson que los clientes pueden llamar y con el que pueden hablar por teléfono. Con la inteligencia artificial de Watson como eje central, el agente de voz puede comunicarse de forma conversacional, manejando interacciones complejas y resolviendo las llamadas de clientes dentro del agente de voz.
 
-{{site.data.keyword.iva_short}} conecta y coordina sin interrupciones los servicios de {{site.data.keyword.speechtotextshort}}, {{site.data.keyword.conversationshort}} y {{site.data.keyword.texttospeechshort}} de Watson para simular la conversación de lenguaje natural. Cada agente de voz escala automáticamente para manejar varias llamadas a la vez. En este release experimental, puede personalizar el agente de voz utilizando las siguientes características principales:
+{{site.data.keyword.iva_short}} conecta y coordina sin interrupciones los servicios {{site.data.keyword.speechtotextshort}}, {{site.data.keyword.conversationshort}} y {{site.data.keyword.texttospeechshort}} de Watson para simular la conversación de lenguaje natural. Cada agente de voz escala automáticamente para manejar varias llamadas a la vez. En este release experimental, puede personalizar el agente de voz utilizando las siguientes características principales:
 
 * Importe el diálogo de ejemplo de {{site.data.keyword.conversationshort}} para empezar y, a continuación, cree su propio diálogo para satisfacer las necesidades de su empresa.
-* Programe el comportamiento del agente de voz desde el servicio de {{site.data.keyword.conversationshort}} utilizando las API. Controle todo, desde el comportamiento invasivo hasta colgar la llamada para cualquier nodo del diálogo.
+* Programe el comportamiento del agente de voz desde el servicio {{site.data.keyword.conversationshort}} utilizando las API. Controle todo, desde el comportamiento invasivo hasta colgar la llamada para cualquier nodo del diálogo.
 * Cree y gestione fácilmente varios agentes de voz si desea conectar distintos números de teléfono a agentes cognitivos especializados para distintos temas.
-* Expanda las prestaciones del servicio conectando un motor de orquestación de servicios (SOE) para poder utilizar API de terceros. Por ejemplo, el SOE puede escuchar desencadenantes desde el servicio de {{site.data.keyword.conversationshort}} y, a continuación, utilizar las API proporcionadas para buscar información en sistemas anteriores o para proporcionar otros análisis.
+* Expanda las prestaciones del servicio conectando un motor de orquestación de servicios (SOE) para poder utilizar API de terceros. Por ejemplo, el SOE puede escuchar desencadenantes desde el servicio {{site.data.keyword.conversationshort}} y, a continuación, utilizar las API proporcionadas para buscar información en sistemas anteriores o para proporcionar otros análisis.
 
 Para empezar, consulte la documentación de [Iniciación a {{site.data.keyword.iva_short}}](/docs/services/voice-agent/getting-started.html).
 
 
-### Actualización del servicio de {{site.data.keyword.streaminganalyticsshort}}: La consola incluye formas nuevas de detección de problemas en sus aplicaciones
+### Actualización del servicio {{site.data.keyword.streaminganalyticsshort}}: La consola incluye formas nuevas de detección de problemas en sus aplicaciones
 Novedad desde: 14 de agosto de 2017
 
 Para las aplicaciones de Python y Java, se mostrará la ubicación del archivo de origen en función de las anotaciones de @spl_note.
@@ -485,27 +499,27 @@ Para obtener detalles, consulte [Últimas mejoras en {{site.data.keyword.streami
 ### IBM Cloud Monitoring ahora está disponible también en la región Reino Unido
 Novedad desde: 1 de agosto de 2017
 
-Utilice el servicio de {{site.data.keyword.monitoringlong}} para ampliar las prestaciones de recopilación, de retención y de análisis en {{site.data.keyword.Bluemix_notm}} cuando trabaje con métricas.
+Utilice el servicio {{site.data.keyword.monitoringlong}} para ampliar las prestaciones de recopilación, de retención y de análisis en {{site.data.keyword.Bluemix_notm}} cuando trabaje con métricas.
 
-* Alerta en acción {{site.data.keyword.monitoringlong}} ofrece una API que se puede utilizar para establecer umbrales de rendimiento y para recibir notificaciones cuando se rebasen dichos umbrales. Defina reglas de alerta para una única instancia de servicio o de app, y reglas de alerta que informen sobre un conjunto de instancias. Cuando se active una alerta, reciba una notificación a través de un correo electrónico, un suceso de PagerDuty, una notificación de webhook o cualquier combinación de las tres opciones.
+* De alerta a acción: {{site.data.keyword.monitoringlong}} ofrece una API que se puede utilizar para establecer umbrales de rendimiento y para recibir notificaciones cuando se rebasen dichos umbrales. Defina reglas de alerta para una única instancia de servicio o de app, y reglas de alerta que informen sobre un conjunto de instancias. Cuando se active una alerta, reciba una notificación a través de un correo electrónico, un suceso de PagerDuty, una notificación de webhook o cualquier combinación de las tres opciones.
 
-* Añadir métricas personalizadas. El plan premium de {{site.data.keyword.monitoringlong}} ofrece API que puede utilizar para añadir métricas empresariales y de aplicación relevantes a los datos de supervisión de la nube. También puede utilizarlas para enviar datos de métricas desde fuera de {{site.data.keyword.IBM_notm}} Cloud en el servicio de {{site.data.keyword.monitoringlong}}.
+* Añadir métricas personalizadas. El plan premium de {{site.data.keyword.monitoringlong}} ofrece API que puede utilizar para añadir métricas empresariales y de aplicación relevantes a los datos de supervisión de la nube. También puede utilizarlas para enviar datos de métricas desde fuera de {{site.data.keyword.IBM_notm}} Cloud en el servicio {{site.data.keyword.monitoringlong}}.
 
 * Cree paneles control reutilizables y haga que sean interactivos. Grafana alojado de {{site.data.keyword.monitoringlong}} proporciona soporte para crear paneles de control personalizados con un gran abanico de opciones de visualización.  Haga que los paneles de control sean dinámicos con plantillas utilizando consultas de métricas con variables.
 
-* Acceda al servicio mediante el catálogo de {{site.data.keyword.Bluemix_notm}}. {{site.data.keyword.monitoringlong}} está disponible como un mosaico de servicio en la sección DevOps del catálogo de {{site.data.keyword.Bluemix_notm}}.  Para el servicio de {{site.data.keyword.containershort}} con contenedores únicos y de grupo, puede acceder al servicio desde la IU de {{site.data.keyword.Bluemix_notm}}.
+* Acceda al servicio mediante el catálogo de {{site.data.keyword.Bluemix_notm}}. {{site.data.keyword.monitoringlong}} está disponible como un mosaico de servicio en la sección DevOps del catálogo de {{site.data.keyword.Bluemix_notm}}.  Para el servicio {{site.data.keyword.containershort}} con contenedores únicos y de grupo, puede acceder al servicio desde la IU de {{site.data.keyword.Bluemix_notm}}.
 
-* Elija el plan de servicio que se adapte a sus necesidades. Puede elegir el plan de servicio Lite o el plan de servicio Premium para cubrir sus necesidades de uso. El plan Lite ofrece recopilación de métricas a la vez por minuto, retención durante 15 días, y alertas complementarias.  Como alternativa, puede seleccionar el plan Premium para permitir un mayor consumo, una retención de métricas más larga, y para obtener acceso a las API de servicio, por ejemplo, para enviar o recuperar métricas desde el servicio de {{site.data.keyword.monitoringlong}}. {{site.data.keyword.monitoringlong}} ofrece la recopilación de métricas a la vez por minuto.  El plan Lite retiene métricas a resolución completa durante 15 días. El plan Premium retiene métricas a resolución completa durante 45 días.
+* Elija el plan de servicio que se adapte a sus necesidades. Puede elegir el plan de servicio Lite o el plan de servicio Premium para cubrir sus necesidades de uso. El plan Lite ofrece recopilación de métricas a la vez por minuto, retención durante 15 días, y alertas complementarias.  Como alternativa, puede seleccionar el plan Premium para permitir un mayor consumo, una retención de métricas más larga, y para obtener acceso a las API de servicio, por ejemplo, para enviar o recuperar métricas desde el servicio {{site.data.keyword.monitoringlong}}. {{site.data.keyword.monitoringlong}} ofrece la recopilación de métricas a la vez por minuto.  El plan Lite retiene métricas a resolución completa durante 15 días. El plan Premium retiene métricas a resolución completa durante 45 días.
 
-El servicio existente de {{site.data.keyword.monitoringshort}} ha recopilado métricas en frecuencias definidas por el servicio a partir de 30 segundos, y resumidas en frecuencias de 1 hora a lo largo del tiempo. {{site.data.keyword.monitoringlong}} ahora ofrece recopilación de resolución completa en 1 minuto.  El plan Lite conserva métricas durante 15 días.  El plan Premium conserva métricas durante 45 días.
+El servicio {{site.data.keyword.monitoringshort}} antiguo recopilaba métricas en frecuencias definidas por el servicio a partir de 30 segundos, y resumidas en frecuencias de 1 hora a lo largo del tiempo. {{site.data.keyword.monitoringlong}} ahora ofrece recopilación de resolución completa en 1 minuto.  El plan Lite conserva métricas durante 15 días.  El plan Premium conserva métricas durante 45 días.
 
-Para obtener más información sobre el servicio de {{site.data.keyword.monitoringlong}}, consulte [la documentación de Iniciación a la supervisión](/docs/services/cloud-monitoring/index.html#getting-started-with-ibm-cloud-monitoring) o [IBM Cloud Monitoring – Renovación de servicio con nuevas características![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](https://www.ibm.com/blogs/bluemix/2017/07/ibm-cloud-monitoring-service-refresh-new-features/).
+Para obtener más información sobre el servicio {{site.data.keyword.monitoringlong}}, consulte [la documentación de Iniciación a la supervisión](/docs/services/cloud-monitoring/index.html#getting-started-with-ibm-cloud-monitoring) o [IBM Cloud Monitoring – Renovación de servicio con nuevas características![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](https://www.ibm.com/blogs/bluemix/2017/07/ibm-cloud-monitoring-service-refresh-new-features/).
 
 
 ### IBM Cloud Log Analysis ahora está disponible en la región EE.UU. sur
 Novedad desde: 31 de julio de 2017
 
-El servicio de {{site.data.keyword.loganalysisfull}} proporciona los servicios de recopilación y de búsqueda de registros para la plataforma de {{site.data.keyword.Bluemix_notm}}, recopilando automáticamente los datos de servicios de {{site.data.keyword.Bluemix_notm}} y de aplicaciones desde los servicios de selección de {{site.data.keyword.Bluemix_notm}}. Utilice el servicio de {{site.data.keyword.loganalysisshort}} para:
+El servicio {{site.data.keyword.loganalysisfull}} proporciona los servicios de recopilación y de búsqueda de registros para la plataforma de {{site.data.keyword.Bluemix_notm}}, recopilando automáticamente los datos de servicios de {{site.data.keyword.Bluemix_notm}} y de aplicaciones desde los servicios de selección de {{site.data.keyword.Bluemix_notm}}. Utilice el servicio {{site.data.keyword.loganalysisshort}} para:
 
 * Conservar registros tanto tiempo como desee.  
 
@@ -523,9 +537,9 @@ El servicio de {{site.data.keyword.loganalysisfull}} proporciona los servicios d
 
 * Acceda al servicio mediante el catálogo de {{site.data.keyword.Bluemix_notm}}.  
 
-    Para el servicio de {{site.data.keyword.loganalysisshort}} con contenedores únicos y grupos, y los servicios de {{site.data.keyword.IBM_notm}} Cloud Foundry, puede acceder al servicio desde la IU de {{site.data.keyword.Bluemix_notm}}.
+    Para el servicio {{site.data.keyword.loganalysisshort}} con contenedores únicos y grupos, y los servicios de {{site.data.keyword.IBM_notm}} Cloud Foundry, puede acceder al servicio desde la IU de {{site.data.keyword.Bluemix_notm}}.
 
-Para obtener más información sobre el servicio de {{site.data.keyword.loganalysisshort}}, consulte [Iniciación a {{site.data.keyword.loganalysisfull}}](/docs/services/CloudLogAnalysis/index.html#getting-started-with-ibm-cloud-log-analysis) y la [Visión general de {{site.data.keyword.loganalysisshort}}](/docs/services/CloudLogAnalysis/log_analysis_ov.html#log_analysis_ov).
+Para obtener más información sobre el servicio {{site.data.keyword.loganalysisshort}}, consulte [Iniciación a {{site.data.keyword.loganalysisfull}}](/docs/services/CloudLogAnalysis/index.html#getting-started-with-ibm-cloud-log-analysis) y la [Visión general de {{site.data.keyword.loganalysisshort}}](/docs/services/CloudLogAnalysis/log_analysis_ov.html#log_analysis_ov).
 
 ### Se ha cambiado el nombre de IBM dashDB for Analytics
 Novedad desde: 18 de julio de 2017
@@ -542,21 +556,21 @@ Para ver una lista acumulativa de actualizaciones para Db2 Warehouse on Cloud y 
 ### IBM Cloud Monitoring ahora está disponible en la región EE.UU. sur
 Novedad desde: 17 de julio de 2017
 
-Utilice el servicio de {{site.data.keyword.monitoringlong}} para ampliar las prestaciones de recopilación, de retención y de análisis en {{site.data.keyword.Bluemix_notm}} cuando trabaje con métricas.
+Utilice el servicio {{site.data.keyword.monitoringlong}} para ampliar las prestaciones de recopilación, de retención y de análisis en {{site.data.keyword.Bluemix_notm}} cuando trabaje con métricas.
 
-* Alerta en acción {{site.data.keyword.monitoringlong}} ofrece una API que se puede utilizar para establecer umbrales de rendimiento y para recibir notificaciones cuando se rebasen dichos umbrales. Defina reglas de alerta para una única instancia de servicio o de app, y reglas de alerta que informen sobre un conjunto de instancias. Cuando se active una alerta, reciba una notificación a través de un correo electrónico, un suceso de PagerDuty, una notificación de webhook o cualquier combinación de las tres opciones.
+* De alerta a acción: {{site.data.keyword.monitoringlong}} ofrece una API que se puede utilizar para establecer umbrales de rendimiento y para recibir notificaciones cuando se rebasen dichos umbrales. Defina reglas de alerta para una única instancia de servicio o de app, y reglas de alerta que informen sobre un conjunto de instancias. Cuando se active una alerta, reciba una notificación a través de un correo electrónico, un suceso de PagerDuty, una notificación de webhook o cualquier combinación de las tres opciones.
 
-* Añadir métricas personalizadas. El plan premium de {{site.data.keyword.monitoringlong}} ofrece API que puede utilizar para añadir métricas empresariales y de aplicación relevantes a los datos de supervisión de la nube. También puede utilizarlas para enviar datos de métricas desde fuera de {{site.data.keyword.IBM_notm}} Cloud en el servicio de {{site.data.keyword.monitoringlong}}.
+* Añadir métricas personalizadas. El plan premium de {{site.data.keyword.monitoringlong}} ofrece API que puede utilizar para añadir métricas empresariales y de aplicación relevantes a los datos de supervisión de la nube. También puede utilizarlas para enviar datos de métricas desde fuera de {{site.data.keyword.IBM_notm}} Cloud en el servicio {{site.data.keyword.monitoringlong}}.
 
 * Cree paneles control reutilizables y haga que sean interactivos. Grafana alojado de {{site.data.keyword.monitoringlong}} proporciona soporte para crear paneles de control personalizados con un gran abanico de opciones de visualización.  Haga que los paneles de control sean dinámicos con plantillas utilizando consultas de métricas con variables.
 
-* Acceda al servicio mediante el catálogo de {{site.data.keyword.Bluemix_notm}}. {{site.data.keyword.monitoringlong}} está disponible como un mosaico de servicio en la sección DevOps del catálogo de {{site.data.keyword.Bluemix_notm}}.  Para el servicio de {{site.data.keyword.containershort}} con contenedores únicos y de grupo, puede acceder al servicio desde la IU de {{site.data.keyword.Bluemix_notm}}.
+* Acceda al servicio mediante el catálogo de {{site.data.keyword.Bluemix_notm}}. {{site.data.keyword.monitoringlong}} está disponible como un mosaico de servicio en la sección DevOps del catálogo de {{site.data.keyword.Bluemix_notm}}.  Para el servicio {{site.data.keyword.containershort}} con contenedores únicos y de grupo, puede acceder al servicio desde la IU de {{site.data.keyword.Bluemix_notm}}.
 
-* Elija el plan de servicio que se adapte a sus necesidades. Puede elegir el plan de servicio Lite o el plan de servicio Premium para cubrir sus necesidades de uso. El plan Lite ofrece recopilación de métricas a la vez por minuto, retención durante 15 días, y alertas complementarias.  Como alternativa, puede seleccionar el plan Premium para permitir un mayor consumo, una retención de métricas más larga, y para obtener acceso a las API de servicio, por ejemplo, para enviar o recuperar métricas desde el servicio de {{site.data.keyword.monitoringlong}}. {{site.data.keyword.monitoringlong}} ofrece la recopilación de métricas a la vez por minuto.  El plan Lite retiene métricas a resolución completa durante 15 días. El plan Premium retiene métricas a resolución completa durante 45 días.
+* Elija el plan de servicio que se adapte a sus necesidades. Puede elegir el plan de servicio Lite o el plan de servicio Premium para cubrir sus necesidades de uso. El plan Lite ofrece recopilación de métricas a la vez por minuto, retención durante 15 días, y alertas complementarias.  Como alternativa, puede seleccionar el plan Premium para permitir un mayor consumo, una retención de métricas más larga, y para obtener acceso a las API de servicio, por ejemplo, para enviar o recuperar métricas desde el servicio {{site.data.keyword.monitoringlong}}. {{site.data.keyword.monitoringlong}} ofrece la recopilación de métricas a la vez por minuto.  El plan Lite retiene métricas a resolución completa durante 15 días. El plan Premium retiene métricas a resolución completa durante 45 días.
 
-El servicio existente de {{site.data.keyword.monitoringshort}} ha recopilado métricas en frecuencias definidas por el servicio a partir de 30 segundos, y resumidas en frecuencias de 1 hora a lo largo del tiempo. {{site.data.keyword.monitoringlong}} ahora ofrece recopilación de resolución completa en 1 minuto.  El plan Lite conserva métricas durante 15 días.  El plan Premium conserva métricas durante 45 días.
+El servicio {{site.data.keyword.monitoringshort}} antiguo recopilaba métricas en frecuencias definidas por el servicio a partir de 30 segundos, y resumidas en frecuencias de 1 hora a lo largo del tiempo. {{site.data.keyword.monitoringlong}} ahora ofrece recopilación de resolución completa en 1 minuto.  El plan Lite conserva métricas durante 15 días.  El plan Premium conserva métricas durante 45 días.
 
-Para obtener más información sobre el servicio de {{site.data.keyword.monitoringlong}}, consulte [la documentación de Iniciación a la supervisión](/docs/services/cloud-monitoring/index.html#getting-started-with-ibm-cloud-monitoring) o [IBM Cloud Monitoring – Renovación de servicio con nuevas características![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](https://www.ibm.com/blogs/bluemix/2017/07/ibm-cloud-monitoring-service-refresh-new-features/).
+Para obtener más información sobre el servicio {{site.data.keyword.monitoringlong}}, consulte [la documentación de Iniciación a la supervisión](/docs/services/cloud-monitoring/index.html#getting-started-with-ibm-cloud-monitoring) o [IBM Cloud Monitoring – Renovación de servicio con nuevas características![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](https://www.ibm.com/blogs/bluemix/2017/07/ibm-cloud-monitoring-service-refresh-new-features/).
 
 ### Actualización de {{site.data.keyword.contdelivery_short}}
 Novedad desde: 11 de julio de 2017
@@ -588,10 +602,10 @@ Novedad desde: 14 de junio de 2017
 
 IBM {{site.data.keyword.DB2OnCloud_short}} es el nombre nuevo para dashDB for Transactions. Como parte de este cambio de nombre, el servicio autogestionado del anterior IBM {{site.data.keyword.DB2OnCloud_short}} cambiará su nombre a IBM Db2 Hosted. En este momento, solo se actualizarán los nombres de visualización, por lo que cualquier API o interfaz de línea de mandatos permanecerá sin cambios.
 
-### Actualizaciones de {{site.data.keyword.sparks}}: el conector de Stocator-S3 incluye soporte para el servicio de IBM Cloud Object Storage entre regiones (Beta)
+### Actualizaciones de {{site.data.keyword.sparks}}: el conector de Stocator-S3 incluye soporte para el servicio IBM Cloud Object Storage entre regiones (Beta)
 Novedad desde: 5 de junio de 2017
 
-Los usuarios de {{site.data.keyword.sparks}} ahora pueden acceder y realizar análisis sobre los datos almacenados en el servicio de IBM Cloud Object Storage entre regiones. Esta capacidad se ofrece como Beta. IBM Cloud Object Storage ofrece almacenamiento de alta capacidad y rentable para el análisis y otras aplicaciones que es escalable, flexible y fácil de utilizar.
+Los usuarios de {{site.data.keyword.sparks}} ahora pueden acceder y realizar análisis sobre los datos almacenados en el servicio IBM Cloud Object Storage entre regiones. Esta capacidad se ofrece como Beta. IBM Cloud Object Storage ofrece almacenamiento de alta capacidad y rentable para el análisis y otras aplicaciones que es escalable, flexible y fácil de utilizar.
 
 Apache Spark accede a los datos de IBM Cloud Object Storage a través de un conector de almacenamiento basado en la tecnología de Stocator, que está implícitamente diseñado para el almacenamiento de objetos y que, por tanto, es más rápido que los conectores de almacenamiento de objetos existentes. Como usuario, no necesita cambiar ni volver a compilar el código de Apache Spark.
 
@@ -604,12 +618,12 @@ Novedad desde: 31 de mayo de 2017
 
 Hay disponible un plan nuevo para {{site.data.keyword.dashdbshort}} for Transactions que puede crecer con las necesidades de base de datos. El nuevo plan Flex le permite empezar con un sistema pequeño y hacer crecer la potencia y la capacidad de almacenamiento de dicho sistema de forma fácil y rápida. {{site.data.keyword.dashdbshort}} for Transactions es compatible al 100% con DB2 y proporciona un SLA del 99,95% en los planes de alta disponibilidad.
 
-### Nuevas actualizaciones en el servicio de {{site.data.keyword.mobilepush}} en {{site.data.keyword.Bluemix_notm}}
+### Nuevas actualizaciones en el servicio {{site.data.keyword.mobilepush}} en {{site.data.keyword.Bluemix_notm}}
 Novedad desde: 24 de mayo de 2017
 
-Las siguientes son las nuevas actualizaciones disponibles para el servicio de {{site.data.keyword.mobilepush}} en {{site.data.keyword.Bluemix_notm}}
+Las siguientes son las nuevas actualizaciones disponibles para el servicio {{site.data.keyword.mobilepush}} en {{site.data.keyword.Bluemix_notm}}
 
-**Plan Lite**: Estamos introduciendo un nuevo Plan Lite además del Plan Básico anterior para el Servicio de {{site.data.keyword.mobilepush}}. De acuerdo con el nuevo plan, los usuarios pueden enviar hasta cien mil mensajes digitales gratis al mes. Al actualizar del plan Lite al plan básico, al usuario se le cobrará a partir de un millón de mensajes digitales. El recuento a un millón de mensajes se inicia al actualizar el plan Lite al plan básico.
+**Plan Lite**: Estamos introduciendo un nuevo Plan Lite además del Plan Básico anterior para el servicio {{site.data.keyword.mobilepush}}. De acuerdo con el nuevo plan, los usuarios pueden enviar hasta cien mil mensajes digitales gratis al mes. Al actualizar del plan Lite al plan básico, al usuario se le cobrará a partir de un millón de mensajes digitales. El recuento a un millón de mensajes se inicia al actualizar el plan Lite al plan básico.
 
 **Supervisión**: Ahora puede obtener información sobre las notificaciones enviadas y los dispositivos registrados en la Consola de servicio de {{site.data.keyword.mobilepush}}. También puede utilizar las API REST para el seguimiento de nivel de mensaje. Desde la entrega de mensajes hasta su envío y recepción, los detalles se pueden obtener configurando webhooks.  Consulte [Supervisión para {{site.data.keyword.mobilepush}}](/docs/services/mobilepush/t_push_monitoring.html#monitor-notifications).
 
@@ -620,16 +634,16 @@ Novedad desde: 24 de mayo de 2017
 
 La última actualización de mantenimiento de Secure Gateway incluye arreglos menores de errores en el gestor de IU y de API, documentación actualizada y la actualización del cliente a la versión 1.7.1. El cliente de Secure Gateway ahora está disponible en AIX 7.1+ y admite la conexión de salida mediante un proxy squid.
 
-### Actualizaciones del servicio de {{site.data.keyword.streaminganalyticsshort}}: Desarrolle aplicaciones de Streams en el entorno de desarrollo de Python
+### Actualizaciones del servicio {{site.data.keyword.streaminganalyticsshort}}: Desarrolle aplicaciones de Streams en el entorno de desarrollo de Python
 Novedad desde: 13 de abril de 2017
 
 En el pasado, instaló una versión local de IBM Streams para desarrollar aplicaciones de Python. Eso ya no es así. Ahora puede desarrollar aplicaciones con Python en su entorno de desarrollo favorito o en un cuaderno interactivo de Jupyter.
 
-Puede utilizar el contexto de STREAMING_ANALYTICS_SERVICE para enviar una aplicación de Python al servicio de {{site.data.keyword.streaminganalyticsshort}}. El servicio de {{site.data.keyword.streaminganalyticsshort}} requiere Python 3.5.
+Puede utilizar el contexto de STREAMING_ANALYTICS_SERVICE para enviar una aplicación de Python al servicio {{site.data.keyword.streaminganalyticsshort}}. El servicio {{site.data.keyword.streaminganalyticsshort}} requiere Python 3.5.
 
 Puede crear aplicaciones de Python de ejemplo mediante cuadernos de Jupyter en IBM Data Science Experience (DSX), y enviar estas aplicaciones a la instancia de {{site.data.keyword.streaminganalyticsshort}} directamente desde DSX. Consulte las aplicaciones de Python de proceso de secuencias de ejemplo en los cuadernos de la [página de la comunidad de DSX](https://datascience.ibm.com/){: new_window} ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo").
 
-Para obtener más información sobre las actualizaciones de servicio de {{site.data.keyword.streaminganalyticsshort}}, consulte [Actualizaciones de {{site.data.keyword.streaminganalyticsshort}}: integración de DSX y desarrollo más sencillo de Python](https://www.ibm.com/blogs/bluemix/2017/05/streaming-analytics-updates-dsx-integration-easier-python-development/){: new_window} ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo").
+Para obtener más información sobre las actualizaciones del servicio {{site.data.keyword.streaminganalyticsshort}}, consulte [Actualizaciones de {{site.data.keyword.streaminganalyticsshort}}: integración de DSX y desarrollo más sencillo de Python](https://www.ibm.com/blogs/bluemix/2017/05/streaming-analytics-updates-dsx-integration-easier-python-development/){: new_window} ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo").
 
 ### Actualizaciones de {{site.data.keyword.sparks}}: ahora se da soporte a Apache Spark 2.1
 Novedad desde: 21 de abril de 2017
@@ -641,7 +655,7 @@ Nos complace responder a preguntas relacionadas con {{site.data.keyword.sparkl}}
 ### {{site.data.keyword.macm_short}} está en desuso
 Novedad desde: 18 de abril de 2017
 
-A partir del 30 de marzo de 2017, se eliminará el mosaico de servicio de {{site.data.keyword.macm_long}} del Catálogo de {{site.data.keyword.Bluemix_notm}} y ya no podrá proporcionar instancias nuevas de MACM. Sin embargo, se seguirá dando soporte a las instancias existentes. La fecha de finalización de soporte es el 30 de marzo de 2018. Suprima sus instancias de servicio de {{site.data.keyword.macm_short}} (MACM) antes de la fecha de finalización de soporte. Animamos a los usuarios a migrar a IBM Watson Content Hub. Watson Content Hub está disponible en IBM Marketplace y proporciona a los usuarios una prueba gratuita de 30 días. IBM Watson Content Hub proporciona una funcionalidad similar a MACM con nuevas funciones añadidas como la gestión de activos, el etiquetado cognitivo mediante los servicios de IBM Watson, y red de entrega de contenido (CDN, content delivery network) incluida para garantizar una experiencia óptima para sus clientes. IBM ofrece compromisos de servicio para migrar el contenido de MACM a Watson Content Hub.
+A partir del 30 de marzo de 2017, se eliminará el mosaico de servicio {{site.data.keyword.macm_long}} del Catálogo de {{site.data.keyword.Bluemix_notm}} y ya no podrá proporcionar instancias nuevas de MACM. Sin embargo, se seguirá dando soporte a las instancias existentes. La fecha de finalización de soporte es el 30 de marzo de 2018. Suprima sus instancias de servicio {{site.data.keyword.macm_short}} (MACM) antes de la fecha de finalización de soporte. Animamos a los usuarios a migrar a IBM Watson Content Hub. Watson Content Hub está disponible en IBM Marketplace y proporciona a los usuarios una prueba gratuita de 30 días. IBM Watson Content Hub proporciona una funcionalidad similar a MACM con nuevas funciones añadidas como la gestión de activos, el etiquetado cognitivo mediante los servicios de IBM Watson, y red de entrega de contenido (CDN, content delivery network) incluida para garantizar una experiencia óptima para sus clientes. IBM ofrece compromisos de servicio para migrar el contenido de MACM a Watson Content Hub.
 
 
 ### Actualizaciones de {{site.data.keyword.sparks}}: ahora se da soporte a Notebook en Data Science Experience
