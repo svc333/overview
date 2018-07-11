@@ -18,29 +18,29 @@ lastupdated: "2018-06-21"
 # {{site.data.keyword.Bluemix_notm}}Bedingungen und Bemerkungen
 {: #terms}
 
-## {{site.data.keyword.Bluemix_notm}}-Nutzungsbedingungen
+## {{site.data.keyword.Bluemix_notm}} - Nutzungsbedingungen
 {: #terms_details}
 
 Ihr IBM Cloud-Konto und alle Services, die von IBM Cloud angefordert werden, werden unter den folgenden Bedingungen bereitgestellt:
 
   * Basisvereinbarungen bezüglich Cloud-Bedingungen:
-    * SoftLayer Cloud Service Agreement bezüglich der Kreditkartenabrechnung in US-Dollar, verfügbar unter [http://www.softlayer.com/legal](http://www.softlayer.com/legal){: new_window} ![Symbol für externen Link](../../icons/launch-glyph.svg)
-    * IBM Cloud Services Agreement (in der Version des jeweiligen Landes*) bezüglich der Kreditkartenabrechnung in einer anderen Währung als US-Dollar oder bei Auswahl der IBM Rechnungsstellung, verfügbar unter [https://www.ibm.com/terms](https://www.ibm.com/terms){: new_window} ![Symbol für externen Link](../../icons/launch-glyph.svg) (wählen Sie Ihr Land aus)
-    * IBM Passport Advantage Agreement, das Sie akzeptiert haben, und die General Terms for Cloud Offerings TOU für IBM Passport Advantage-Kunden, verfügbar unter [http://www-03.ibm.com/software/sla/sladb.nsf/sla/tou](http://www-03.ibm.com/software/sla/sladb.nsf/sla/tou){: new_window} ![Symbol für externen Link](../../icons/launch-glyph.svg)
-    * Äquivalente Basisvereinbarung für Cloud-Services zwischen Ihnen und IBM
+    * Vereinbarung für Cloud-Services von SoftLayer bezüglich der Kreditkartenabrechnung in US-Dollar, verfügbar unter [http://www.softlayer.com/legal](http://www.softlayer.com/legal){: new_window} ![Symbol für externen Link](../../icons/launch-glyph.svg)
+    * IBM Vereinbarung für Cloud-Services (in der Version des jeweiligen Landes*) bezüglich der Kreditkartenabrechnung in einer anderen Währung als US-Dollar oder bei Auswahl der IBM Rechnungsstellung, verfügbar unter [https://www.ibm.com/terms](https://www.ibm.com/terms){: new_window} ![Symbol für externen Link](../../icons/launch-glyph.svg) (wählen Sie Ihr Land aus)
+    * Von Ihnen akzeptierter IBM Passport Advantage Vertrag und die allgemeinen Bedingungen zu den Nutzungsbedingungen für Cloud-Angebote für IBM Passport Advantage-Kunden, verfügbar unter [http://www-03.ibm.com/software/sla/sladb.nsf/sla/tou](http://www-03.ibm.com/software/sla/sladb.nsf/sla/tou){: new_window} ![Symbol für externen Link](../../icons/launch-glyph.svg)
+    * Äquivalente Bedingungen der Basisvereinbarung für Cloud-Services zwischen Ihnen und IBM
   * Servicebeschreibung für IBM Cloud, verfügbar unter [http://www-03.ibm.com/software/sla/sladb.nsf/sla/bm](http://www-03.ibm.com/software/sla/sladb.nsf/sla/bm){: new_window} ![Symbol für externen Link](../../icons/launch-glyph.svg)
   * Zusätzliche anwendbare Servicebeschreibungen für alle Services, die über Ihr IBM Cloud-Konto angefordert wurden, verfügbar unter [http://www-03.ibm.com/software/sla/sladb.nsf/sla/bm](http://www-03.ibm.com/software/sla/sladb.nsf/sla/bm){: new_window} ![Symbol für externen Link](../../icons/launch-glyph.svg)
-  * Anwendbare Datenblätter, wie in den zusätzlichen anwendbaren Servicebeschreibungen oder über den Link 'Bedingungen' für einen Service in der IBM Cloud-Benutzerschnittstelle referenziert, verfügbar unter [http://www-03.ibm.com/software/sla/sladb.nsf/sla/csdsp](http://www-03.ibm.com/software/sla/sladb.nsf/sla/csdsp){: new_window} ![Symbol für externen Link](../../icons/launch-glyph.svg)
+  * Anwendbare Datenblätter, auf die in den zusätzlichen anwendbaren Servicebeschreibungen oder über den Link 'Bedingungen' für einen Service in der IBM Cloud-Benutzerschnittstelle verwiesen wird, verfügbar unter [http://www-03.ibm.com/software/sla/sladb.nsf/sla/csdsp](http://www-03.ibm.com/software/sla/sladb.nsf/sla/csdsp){: new_window} ![Symbol für externen Link](../../icons/launch-glyph.svg)
 
 ### Lizenz für das IBM WebSphere Application Server Liberty Profile-Image
 {: #license_liberty_image}
 
-Die Dockerfile und zugehörige Scripts werden unter der Lizenz für Apache 2.0 lizenziert. Die Lizenzierung von IBM JRE und IBM WebSphere® Application Server for Developers erfolgt unter dem IBM International License Agreement für Programme ohne Gewährleistung. Sie können diese Lizenzen aus dem Image anzeigen, indem Sie die Umgebungsvariable LICENSE=view wie zuvor beschrieben verwenden, oder Sie finden sie online für IBM JRE und IBM WebSphere Application Server for Developers. Diese Lizenz berechtigt nicht zur weiteren Verteilung.
+Die Dockerfile und zugehörige Scripts unterliegen den Bedingungen der Lizenz für Apache 2.0. IBM JRE und IBM WebSphere® Application Server for Developers unterliegen den Internationalen Nutzungsbedingungen von IBM für Programme ohne Gewährleistung. Sie können diese Lizenzen im Image anzeigen, indem Sie die Umgebungsvariable LICENSE=view wie zuvor beschrieben verwenden, oder Sie finden sie online für IBM JRE und IBM WebSphere Application Server for Developers. Diese Lizenz berechtigt nicht zur weiteren Verteilung.
 
-## {{site.data.keyword.Bluemix_notm}}-Datenschutzrichtlinie
+## {{site.data.keyword.Bluemix_notm}} - Datenschutzrichtlinie
 {: #privacy_policy}
 
-Die IBM Online-Datenschutzerklärung finden Sie unter [https://www.ibm.com/privacy/details/de/de ![Symbol für externen Link](../../icons/launch-glyph.svg)](https://www.ibm.com/privacy/details/us/en){: new_window}. Diese Erklärung enthält Informationen zu den von IBM erfassten persönlichen Daten, zur Verwendung dieser Daten und zu den Optionen des Kunden hinsichtlich dieser persönlichen Daten.
+Die IBM Online-Datenschutzerklärung finden Sie unter [https://www.ibm.com/privacy/details/de/de ![Symbol für externen Link](../../icons/launch-glyph.svg)](https://www.ibm.com/privacy/details/de/de){: new_window}. Diese Erklärung enthält Informationen zu den von IBM erfassten personenbezogenen Daten, zur Verwendung dieser Daten und zu den Optionen des Kunden hinsichtlich dieser personenbezogenen Daten.
 
 ## IP-Adressenrichtlinie
 {: #ip_address_policy}
@@ -143,7 +143,7 @@ Linux ist eine eingetragene Marke von Linus Torvalds in den USA und/oder anderen
 
 Microsoft, Windows und Windows NT sind Marken der Microsoft Corporation in den USA und/oder anderen Ländern.
 
-Node.js ist eine Marke von Joyent Inc. und wird mit Genehmigung dieses Unternehmens verwendet. Diese Dokumentation wird von Joyent nicht formal gebilligt und ist auch nicht formal mit Joyent verbunden.
+Node.js ist eine Marke von Joyent, Inc. und wird mit Genehmigung von Joyent verwendet. Diese Dokumentation gehört formal nicht zu Joyent und wird von Joyent nicht unterstützt.
 
 UNIX ist eine eingetragene Marke von The Open Group in den USA und anderen Ländern.
 
