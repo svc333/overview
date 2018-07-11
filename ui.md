@@ -2,8 +2,8 @@
 
 
 copyright:
-  years: 2016, 2018
-lastupdated: "2018-06-14"
+  years: 2015, 2018
+lastupdated: "2018-07-11"
 
 ---
 
@@ -14,7 +14,7 @@ lastupdated: "2018-06-14"
 # How the {{site.data.keyword.cloud_notm}} console works
 {: #ui}
 
-The {{site.data.keyword.cloud}} console is a user interface that helps you manage all your {{site.data.keyword.cloud_notm}} resources. When you access the [console](https://console.bluemix.net){: new_window} ![External link icon](../icons/launch-glyph.svg "External link icon"), you can create a free account, log in, access documentation, access the catalog, view pricing information, get support, or check on the status of all the {{site.data.keyword.cloud_notm}} components. After you log in, the menu bar contains a Menu icon  ![Menu icon](../icons/icon_hamburger.svg)  and additional links, depending on your account type.
+The {{site.data.keyword.cloud}} console is a user interface that helps you manage all your {{site.data.keyword.cloud_notm}} resources. When you access the [console](https://console.bluemix.net){: new_window} ![External link icon](../icons/launch-glyph.svg "External link icon"), you can create a free account, log in, access documentation, access the catalog, view pricing information, get support, or check the status of {{site.data.keyword.cloud_notm}} components. After you log in, the menu bar contains a Menu icon  ![Menu icon](../icons/icon_hamburger.svg)  and additional links, depending on your account type.
 {: shortdesc}
 
 ## Using the console
