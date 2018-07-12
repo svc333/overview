@@ -147,7 +147,7 @@ ibmcloud resource service-instance
 
 El valor de los segmentos `resource-type` y `resource` varía en función del servicio. Es necesario un servicio para documentar sus `resource types` soportados y el formato del `resource` como parte de sus metadatos.
 
-Como ejemplo, una imagen en el contenedor de recepción del cliente en un servicio de almacenamiento de objetos puede tener un `resource-type` de `object` y un `resource_ value` de `CustomerReceipts/clientdinner.png`.
+Como ejemplo, una imagen en el contenedor de recepción del cliente en un servicio Object Storage puede tener un `resource-type` de `object` y un `resource_ value` de `CustomerReceipts/clientdinner.png`.
 
 El `resource-type` debe ser alfanumérico, en minúsculas, sin espacios o caracteres especiales que no sean '-' y '/'. Un servicio puede decidir que el `resource-type` sea opcional, en cuyo caso se dejará en blanco.
 

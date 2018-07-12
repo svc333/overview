@@ -304,7 +304,7 @@ El paquete de compilación de Liberty v3.9 proporciona una nueva versión de tie
 ### Introducción a la disponibilidad general de {{site.data.keyword.iva_full_notm}}
 Novedad desde: 26 de junio de 2018
 
-[{{site.data.keyword.iva_full}}](https://console.bluemix.net/catalog/services/voice-agent-with-watson)![External link icon](../../icons/launch-glyph.svg "Icono de enlace externo") ahora está disponible a nivel general. Puede crear un agente de voz cognitivo que se base en los servicios de Watson. Los clientes podrán hablar y llamar a este agente por teléfono. Con la inteligencia artificial de Watson como eje central, el agente de voz puede comunicarse de forma conversacional, manejando interacciones complejas y resolviendo las llamadas de clientes dentro del agente de voz.
+[{{site.data.keyword.iva_full}}](https://console.bluemix.net/catalog/services/voice-agent-with-watson)![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo") ahora está disponible a nivel general. Puede crear un agente de voz cognitivo que se base en los servicios de Watson. Los clientes podrán hablar y llamar a este agente por teléfono. Con la inteligencia artificial de Watson como eje central, el agente de voz puede comunicarse de forma conversacional, manejando interacciones complejas y resolviendo las llamadas de clientes dentro del agente de voz.
 
 En este release se presentan las siguientes características nuevas:
 
