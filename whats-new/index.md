@@ -4,7 +4,7 @@ copyright:
 
   years: 2015, 2018
 
-lastupdated: "2018-07-10"
+lastupdated: "2018-07-12"
 
 ---
 
@@ -19,6 +19,11 @@ Stay up-to-date with the new features and services that are available in {{site.
 
 ## {{site.data.keyword.Bluemix_notm}} platform
 {: #platform_category}
+
+### Dynamically add federated users to access groups
+New as of: 12 July 2018
+
+You can create dynamic rules to automatically add federated users to access groups based on specific identity attributes. When your users log in with a federated ID, the data from the identity provider dynamically maps your users to an access group based on the rules that you set. For more information, see [Creating dyanmic rules for access groups](/docs/iam/accessgroup_rules.html#creating-dynamic-rules-for-access-groups).
 
 ### Protect your service IDs and API keys
 New as of: 1 June 2018
