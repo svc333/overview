@@ -3,7 +3,7 @@
 
 copyright:
   years: 2015, 2018
-lastupdated: "2018-07-11"
+lastupdated: "2018-07-17"
 
 ---
 
@@ -36,7 +36,7 @@ From the dashboard, you can view all resources across all regions by default. If
 ## Managing resources on the dashboard
 {: #dashboardview}
 
-You can use the dashboard to view and work with {{site.data.keyword.cloud_notm}} resources and Cloud Foundry service instances. For more information about resources, see [What is a resource?](/docs/resources/acct_resources.html#resource).
+You can use the dashboard to view and work with {{site.data.keyword.cloud_notm}} resources and Cloud Foundry service instances. See [What is a resource?](/docs/resources/acct_resources.html#resource) for more information.
 
 ### Viewing resources
 
