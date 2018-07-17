@@ -26,12 +26,15 @@ If you are an existing user with an {{site.data.keyword.cloud_notm}} account, yo
   * From the **Support** menu, you can access information about what's new in {{site.data.keyword.cloud_notm}}, the Support Center, options for adding and viewing tickets, and the Status page.
   * From the **Manage** menu, you can access your account, billing and usage, and security options.
 
-If you linked your {{site.data.keyword.cloud_notm}} and your SoftLayer accounts, you have the same options as a non-linked account owner, plus you can navigate to the customer portal by selecting the **Menu icon  ![Menu icon](../icons/icon_hamburger.svg)  > Infrastructure** option. From here, you can view your account summary, order storage and devices, and manage access for VPN-only users and devices.
+If you linked your {{site.data.keyword.cloud_notm}} and your SoftLayer accounts, you have the same options as a non-linked account owner, plus you can navigate to the customer portal by selecting the **Menu icon  ![Menu icon](../icons/icon_hamburger.svg) > Infrastructure** option. From here, you can view your account summary, order storage and devices, and manage access for VPN-only users and devices.
 
-## Switching regions
-{: #switchregion}
+## Searching for resources
+{: #search}
 
-From the dashboard, you can view all resources across all regions by default. If you want to view and work with resources in a specific region, expand the **LOCATION** menu, and select a region from the list. 
+You can search for resources from anywhere in the {{site.data.keyword.cloud_notm}} console. Type the name of a resource in the search field in the console menu bar. You can also search the catalog and docs from the search field.
+
+Type the `/` key on your keyboard to navigate your cursor to the search field.
+{: tip}
 
 ## Managing resources on the dashboard
 {: #dashboardview}
@@ -40,21 +43,23 @@ You can use the dashboard to view and work with {{site.data.keyword.cloud_notm}}
 
 ### Viewing resources
 
-You can view all the resources in your account from the dashboard. To customize your view, use the following options:
+You can view all the resources in your account across all regions from the dashboard. To customize your view, use the following options:
 
   * To view resources in a specific resource group, select a resource group from the **Resource Group** list.
   * To view resources in a specific Cloud Foundry org, select an org from the **Cloud Foundry Org** list.
 
 Then, based on the items you select, you can filter by the following options:
 
-  * Region
+  * Location
   * Cloud Foundry Space
+  
+If you want to view and work with resources in a specific region, expand the **LOCATION** menu, and select a region from the list.
 
 ### Working with resources
 
 You can work with your resources in various ways from the dashboard:
 
-  * Each resource is displayed in its own row and a More Actions icon  ![More Actions icon](../icons/overflow-menu.svg)  is included at the end of the row. Click the More Actions icon to start, stop, rename, or delete a resource.
+  * Each resource is displayed in its own row and a More Actions icon  ![More Actions icon](../icons/overflow-menu.svg)  is included at the end of the row. Click the **More Actions** icon to start, stop, rename, or delete a resource.
   * To set up credentials or connections for a resource, click the name of the resource to navigate to the resource details page. For more information, see [Adding a new credential](/docs/resources/service_credentials.html) and [Managing connections](/docs/resources/connecting_apps.html#connect_app).
 
 ## Working in the catalog
