@@ -4,7 +4,7 @@ copyright:
 
   years: 2015, 2018
 
-lastupdated: "2018-07-12"
+lastupdated: "2018-07-18"
 
 ---
 
@@ -19,6 +19,11 @@ Stay up-to-date with the new features and services that are available in {{site.
 
 ## {{site.data.keyword.Bluemix_notm}} platform
 {: #platform_category}
+
+### Searching for resources
+New as of: 17 July 2018
+
+You can search for resources from anywhere in the {{site.data.keyword.cloud_notm}} console. Type the name of a resource in the search field in the console menu bar.
 
 ### Dynamically add federated users to access groups
 New as of: 12 July 2018
