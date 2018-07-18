@@ -31,7 +31,7 @@ If you linked your {{site.data.keyword.cloud_notm}} and your SoftLayer accounts,
 ## Searching for resources
 {: #search}
 
-You can search for resources from anywhere in the {{site.data.keyword.cloud_notm}} console. Type the name of a resource in the search field in the console menu bar. You can also search the catalog and docs from the search field.
+You can search for resources from anywhere in the {{site.data.keyword.cloud_notm}} console. Type the name of a resource in the search field in the console menu bar.
 
 Type the `/` key on your keyboard to navigate your cursor to the search field.
 {: tip}
