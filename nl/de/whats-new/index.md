@@ -4,7 +4,7 @@ copyright:
 
   years: 2015, 2018
 
-lastupdated: "2018-06-26"
+lastupdated: "2018-07-18"
 
 ---
 
@@ -19,6 +19,16 @@ Wenn Sie stets auf dem aktuellen Stand über die neuen Features und Services ble
 
 ## {{site.data.keyword.Bluemix_notm}}-Plattform
 {: #platform_category}
+
+### Nach Ressourcen suchen
+Datum der Neuerung: 17. Juli 2018
+
+Sie können von der gesamten {{site.data.keyword.cloud_notm}}-Konsole aus nach Ressourcen suchen. Geben Sie den Namen einer Ressource in das Suchfeld in der Menüleiste der Konsole ein.
+
+### Föderierte Benutzer dynamisch zu Zugriffsgruppen hinzufügen
+Datum der Neuerung: 12. Juli 2018
+
+Sie können dynamische Regeln erstellen, um föderierte Benutzer auf der Basis bestimmter Identitätsattribute automatisch zu Zugriffsgruppen hinzuzufügen. Wenn sich Benutzer mit einer föderierten IUD anmelden, werden die vom Identitätsprovider bereitgestellten Daten dazu verwendet, die Benutzer auf der Basis der von Ihnen festgelegten Regeln dynamisch einer Zugriffsgruppe zuzuordnen. Weitere Informationen finden Sie in [Dynamische Regeln für Zugriffsgruppe erstellen](/docs/iam/accessgroup_rules.html#creating-dynamic-rules-for-access-groups).
 
 ### Service-IDs und API-Schlüssel schützen
 Datum der Neuerung: 01 Juni 2018
@@ -56,7 +66,7 @@ Sie können Ihr SoftLayer-Konto mit Ihrem {{site.data.keyword.Bluemix_notm}}-Kon
 ### {{site.data.keyword.Bluemix_notm}} Foundry-Service jetzt für Region 'Vereinigte Staaten (Osten)' verfügbar
 Datum der Neuerung: 15. Dezember 2017
 
-In Washington, DCm ist jetzt ein neues Rechenzentrum für die Region 'Vereinigte Staaten (Osten)' verfügbar. Diese neue Region ist über den Endpunkt `us-east.bluemix.net` erreichbar. Details über die gebührenpflichtigen Services, die in dieser neuen Region angeboten werden, finden Sie unter [Services nach Region](/docs/services/services_region.html#services_region).
+In Washington, D.C. ist jetzt ein neues Rechenzentrum für die Region 'Vereinigte Staaten (Osten)' verfügbar. Diese neue Region ist über den Endpunkt `us-east.bluemix.net` erreichbar. Details über die gebührenpflichtigen Services, die in dieser neuen Region angeboten werden, finden Sie unter [Services nach Region](/docs/services/services_region.html#services_region).
 
 ### Unterstützung für Ressourcen in der Europäischen Union
 Datum der Neuerung: 14. Dezember 2017
@@ -257,6 +267,11 @@ Durch die neuesten Aktualisierungen und Verbesserungen im April können Sie die 
 ## Infrastruktur und Ressourcen
 {: #compute_category}
 
+### Mehrzonencluster in {{site.data.keyword.containerlong_notm}} erstellen
+Datum der Neuerung: 10. Juli 2018
+
+Soll die Cluster- und App-Verfügbarkeit verbessert werden? Cluster können nun mehrere Zonen in bestimmten Metrobereichen umfassen. Weitere Informationen finden Sie in [Mehrzonencluster in {{site.data.keyword.containershort_notm}} erstellen](cs_clusters.html#multizone).
+
 ### Kubernetes-Dashboard-Zugriff für {{site.data.keyword.containerlong_notm}}
 
 {{site.data.keyword.containerlong_notm}} unterstützt jetzt direkten Zugriff auf das Kubernetes-Dashboard über die {{site.data.keyword.Bluemix_notm}}-Konsole. Dieser vereinfachte Pfad zum Dashboard bietet eine verbesserte Benutzererfahrung für das Cluster-Management und die Darstellung von Ressourcen. Weitere Details finden Sie im [{{site.data.keyword.Bluemix_notm}}-Blog](https://www.ibm.com/blogs/bluemix/2018/04/kubernetes-dashboard-access/){: new_window} ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link").
@@ -306,11 +321,11 @@ Datum der Neuerung: 26 Juni 2018
 
 Der [{{site.data.keyword.iva_full}}](https://console.bluemix.net/catalog/services/voice-agent-with-watson)![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link") ist jetzt allgemein verfügbar! Sie können auf der Basis von Watson-Services einen kognitiven Sprachunterstützungsagenten erstellen, mit dem Kunden telefonieren und sprechen können. Da sich der Sprachunterstützungsagent auf die künstliche Intelligenz von Watson stützt, kann er dialogorientiert kommunizieren, komplexe Interaktionen abwickeln und Kundenanrufe innerhalb des Sprachunterstützungsagenten lösen.
 
-Dieses Release führt die folgenden neuen Funktionen ein: 
+Dieses Release führt die folgenden neuen Funktionen ein:
 
-* Hinzufügen redundanter Watson-Servicepositionen für ein Disaster-Recovery.  
+* Hinzufügen redundanter Watson-Servicepositionen für ein Disaster-Recovery. 
 * Bearbeiten erweiterter Konfigurationsoptionen, um die Art und Weise anzupassen, mit der Ihre Sprachunterstützungsagenten Gespräche übergeben, zuvor aufgenommene Nachrichten für Anrufer abspielen und mit Watson-Services interagieren.
-* Die maximale Anzahl für gleichzeitige Verbindungen in Ihrem Standardserviceplan konfigurieren. 
+* Die maximale Anzahl für gleichzeitige Verbindungen in Ihrem Standardserviceplan konfigurieren.
 * Verbinden Sie Ihre Sprachunterstützungsagenten mit SIP-Trunking-Providern wie NetFoundry, Twilio, AT&T und anderen Service-Providern oder erwägen Sie den Einsatz mit {{site.data.keyword.iva_short}}.
 
 Lesen Sie zum Einstieg die [{{site.data.keyword.iva_short}}](/docs/services/voice-agent/getting-started.html)-Dokumentation.

@@ -2,8 +2,8 @@
 
 
 copyright:
-  years: 2016, 2018
-lastupdated: "2018-06-14"
+  years: 2015, 2018
+lastupdated: "2018-07-17"
 
 ---
 
@@ -14,7 +14,7 @@ lastupdated: "2018-06-14"
 # Funktionsweise der {{site.data.keyword.cloud_notm}}-Konsole
 {: #ui}
 
-Die {{site.data.keyword.cloud}}-Konsole ist eine Benutzerschnittstelle, mit der Sie alle Ihre {{site.data.keyword.cloud_notm}}-Ressourcen verwalten können. Wenn Sie auf die [-Konsole](https://console.bluemix.net){: new_window}  ![Symbol für externen Link](../icons/launch-glyph.svg "Symbol für externen Link") zugreifen, können Sie ein kostenloses Konto erstellen, sich anmelden, auf die Dokumentation und den Katalog zugreifen, Preisinformationen anzeigen, Unterstützung anfordern oder den Status aller {{site.data.keyword.cloud_notm}}-Komponenten überprüfen. Nachdem Sie sich angemeldet haben, enthält die Menüleiste ein Menüsymbol ![Menüsymbol](../icons/icon_hamburger.svg) und zusätzliche Links, abhängig von Ihrem Kontotyp.
+Die {{site.data.keyword.cloud}}-Konsole ist eine Benutzerschnittstelle, mit der Sie alle Ihre {{site.data.keyword.cloud_notm}}-Ressourcen verwalten können. Wenn Sie auf die [-Konsole](https://console.bluemix.net){: new_window}  ![Symbol für externen Link](../icons/launch-glyph.svg "Symbol für externen Link") zugreifen, können Sie ein kostenloses Konto erstellen, sich anmelden, auf die Dokumentation und den Katalog zugreifen, Preisinformationen anzeigen, Unterstützung anfordern oder den Status von {{site.data.keyword.cloud_notm}}-Komponenten überprüfen. Nachdem Sie sich angemeldet haben, enthält die Menüleiste ein Menüsymbol ![Menüsymbol](../icons/icon_hamburger.svg) und zusätzliche Links, abhängig von Ihrem Kontotyp.
 {: shortdesc}
 
 ## Verwendung der Konsole
@@ -28,33 +28,38 @@ Wenn Sie ein bereits bestehender Benutzer mit einem {{site.data.keyword.cloud_no
 
 Wenn Sie Ihre {{site.data.keyword.cloud_notm}}- und SoftLayer-Konten verknüpft haben, haben Sie dieselben Optionen, die auch ein Eigner von nicht verknüpften Konten hat. Außerdem können Sie zum Kundenportal navigieren, indem Sie die Option **Menüsymbol![Menüsymbol](../icons/icon_hamburger.svg) > Infrastruktur** auswählen. Von hier aus können Sie Ihre Kontozusammenfassung anzeigen, Speicher und Geräte bestellen und den Zugriff für Benutzer und Geräte verwalten, die nur VPN nutzen.
 
-## Regionen wechseln
-{: #switchregion}
+## Nach Ressourcen suchen
+{: #search}
 
-Über das Dashboard können Sie standardmäßig alle Ressourcen in allen Regionen anzeigen. Wenn Sie Ressourcen in einer bestimmten Region anzeigen und mit diesen arbeiten möchten, erweitern Sie das Menü **Standort** und wählen Sie eine Region in der Liste aus. 
+Sie können von der gesamten {{site.data.keyword.cloud_notm}}-Konsole aus nach Ressourcen suchen. Geben Sie den Namen einer Ressource in das Suchfeld in der Menüleiste der Konsole ein.
+
+Geben Sie `/` ein, um mit dem Cursor in das Suchfeld zu navigieren.
+{: tip}
 
 ## Ressourcen im Dashboard verwalten
 {: #dashboardview}
 
-Sie können das Dashboard verwenden, um {{site.data.keyword.cloud_notm}}-Ressourcen und Cloud Foundry-Serviceinstanzen anzuzeigen und mit ihnen zu arbeiten. Weitere Informationen zu Ressourcen finden Sie in [Was ist eine Ressource?](/docs/resources/acct_resources.html#resource).
+Sie können das Dashboard verwenden, um {{site.data.keyword.cloud_notm}}-Ressourcen und Cloud Foundry-Serviceinstanzen anzuzeigen und mit ihnen zu arbeiten. Weitere Informationen finden Sie in [Was ist eine Ressource?](/docs/resources/acct_resources.html#resource).
 
 ### Ressourcen anzeigen
 
-Sie können alle Ressourcen in Ihrem Konto im Dashboard anzeigen. Verwenden Sie die folgenden Optionen, um Ihre Ansicht anzupassen:
+Über das Dashboard können Sie alle Ressourcen Ihres Kontos für alle Regionen anzeigen. Verwenden Sie die folgenden Optionen, um Ihre Ansicht anzupassen:
 
   * Wenn Sie Ressourcen in einer bestimmten Ressourcengruppe anzeigen möchten, wählen Sie in der Liste **Ressourcengruppe** eine Ressourcengruppe aus.
   * Wenn Sie Ressourcen in einer bestimmten Cloud Foundry-Organisation anzeigen möchten, wählen Sie in der Liste **Cloud Foundry-Organisation** eine Organisation aus.
 
 Anschließend können Sie basierend auf den von Ihnen ausgewählten Elementen nach den folgenden Optionen filtern:
 
-  * Region
+  * Standort
   * Cloud Foundry-Bereich
+  
+Wenn Sie Ressourcen in einer bestimmten Region anzeigen und mit diesen arbeiten möchten, erweitern Sie das Menü **Standort** und wählen Sie eine Region in der Liste aus.
 
 ### Mit Ressourcen arbeiten
 
 Sie können über das Dashboard auf unterschiedliche Art und Weise mit Ihren Ressourcen arbeiten:
 
-  * Jede Ressource wird in einer eigenen Zeile angezeigt und am Ende der Zeile befindet sich ein Symbol 'Weitere Aktionen' ![Symbol 'Weitere Aktionen'](../icons/overflow-menu.svg). Klicken Sie auf das Symbol 'Weitere Aktionen', um eine Ressource zu starten, zu stoppen, umzubenennen oder zu löschen.
+  * Jede Ressource wird in einer eigenen Zeile angezeigt und am Ende der Zeile befindet sich ein Symbol 'Weitere Aktionen' ![Symbol 'Weitere Aktionen'](../icons/overflow-menu.svg). Klicken Sie auf das Symbol **Weitere Aktionen**, um eine Ressource zu starten, zu stoppen, umzubenennen oder zu löschen.
   * Wenn Sie Berechtigungsnachweise oder Verbindungen für eine Ressource konfigurieren möchten, klicken Sie auf den Namen der Ressource, um zur Seite mit den Ressourcendetails zu navigieren. Weitere Informationen finden Sie unter [Neuen Berechtigungsnachweis hinzufügen](/docs/resources/service_credentials.html) und [Verbindungen verwalten](/docs/resources/connecting_apps.html#connect_app).
 
 ## Im Katalog arbeiten
