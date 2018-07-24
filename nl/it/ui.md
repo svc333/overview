@@ -2,8 +2,8 @@
 
 
 copyright:
-  years: 2016, 2018
-lastupdated: "2018-06-14"
+  years: 2015, 2018
+lastupdated: "2018-07-17"
 
 ---
 
@@ -14,7 +14,7 @@ lastupdated: "2018-06-14"
 # Come funziona la console {{site.data.keyword.cloud_notm}}
 {: #ui}
 
-La console {{site.data.keyword.cloud}} è un'interfaccia utente che ti aiuta a gestire tutte le tue risorse {{site.data.keyword.cloud_notm}}. Quando accedi alla [console](https://console.bluemix.net){: new_window} ![Icona link esterno](../icons/launch-glyph.svg "Icona link esterno"), puoi creare un account gratuito, effettuare l'accesso, visualizzare la documentazione, accedere al catalogo, consultare le informazioni sui prezzi, ottenere supporto o controllare lo stato di tutti i componenti {{site.data.keyword.cloud_notm}}. Dopo aver eseguito l'accesso, la barra dei menu contiene un'icona Menu ![icona Menu](../icons/icon_hamburger.svg) e ulteriori link, a seconda del tuo tipo di account.
+La console {{site.data.keyword.cloud}} è un'interfaccia utente che ti aiuta a gestire tutte le tue risorse {{site.data.keyword.cloud_notm}}. Quando accedi alla [console](https://console.bluemix.net){: new_window} ![Icona link esterno](../icons/launch-glyph.svg "Icona link esterno"), puoi creare un account gratuito, effettuare l'accesso, accedere alla documentazione, accedere al catalogo, consultare le informazioni sui prezzi, ottenere supporto o controllare lo stato dei componenti {{site.data.keyword.cloud_notm}}. Dopo aver eseguito l'accesso, la barra dei menu contiene un'icona Menu ![icona Menu](../icons/icon_hamburger.svg) e ulteriori link, a seconda del tuo tipo di account.
 {: shortdesc}
 
 ## Utilizzo della console
@@ -28,33 +28,38 @@ Se sei un utente esistente con un account {{site.data.keyword.cloud_notm}}, puoi
 
 Se hai collegato i tuoi account {{site.data.keyword.cloud_notm}} e SoftLayer, hai le stesse opzioni di un proprietario di account non collegato e inoltre puoi accedere al portale clienti selezionando l'opzione dell'**icona Menu  ![Icona Menu](../icons/icon_hamburger.svg)  > Infrastruttura**. Da qui, puoi visualizzare il riepilogo del tuo account, ordinare archiviazione e dispositivi e gestire l'accesso per utenti e dispositivi solo VPN.
 
-## Cambio di regioni
-{: #switchregion}
+## Ricerca delle risorse
+{: #search}
 
-Dal dashboard, puoi visualizzare tutte le risorse in tutte le regioni per impostazione predefinita. Se vuoi visualizzare e utilizzare le risorse in una regione specifica, espandi il menu **UBICAZIONE** e seleziona una regione dall'elenco. 
+Puoi cercare le risorse da qualsiasi punto nella console {{site.data.keyword.cloud_notm}}. Immetti il nome di una risorsa nel campo di ricerca nella barra dei menu della console.
+
+Digita il tasto `/` sulla tua tastiera per portare il tuo cursore al campo di ricerca.
+{: tip}
 
 ## Gestione delle risorse sul dashboard
 {: #dashboardview}
 
-Puoi utilizzare il dashboard per visualizzare e gestire le risorse {{site.data.keyword.cloud_notm}} e le istanze del servizio Cloud Foundry. Per ulteriori informazioni sulle risorse, vedi [Cos'è una risorsa?](/docs/resources/acct_resources.html#resource).
+Puoi utilizzare il dashboard per visualizzare e gestire le risorse {{site.data.keyword.cloud_notm}} e le istanze del servizio Cloud Foundry. Vedi [Che cos'è una risorsa? ](/docs/resources/acct_resources.html#resource) per ulteriori informazioni,
 
 ### Visualizzazione delle risorse
 
-Puoi visualizzare tutte le risorse presenti nel tuo account dal dashboard. Per personalizzare la tua vista, utilizza le seguenti opzioni:
+Puoi visualizzare tutte le risorse presenti nel tuo account nell'ambito di tutte le regioni dal dashboard. Per personalizzare la tua vista, utilizza le seguenti opzioni:
 
   * Per visualizzare le risorse in uno specifico gruppo, seleziona un gruppo di risorse dall'elenco **Gruppo di risorse**.
   * Per visualizzare le risorse in una specifica organizzazione Cloud Foundry, seleziona un'organizzazione dall'elenco **Organizzazione Cloud Foundry**.
 
 Quindi, in base agli elementi selezionati, puoi filtrare in base alle seguenti opzioni:
 
-  * Regione
+  * Ubicazione
   * Spazio Cloud Foundry
+  
+Se vuoi visualizzare e gestire le risorse in una specifica regione, espandi il menu **UBICAZIONE** e seleziona una regione dall'elenco.
 
 ### Gestione delle risorse
 
 Puoi gestire le tue risorse in vari modi utilizzando il dashboard:
 
-  * Ogni risorsa viene visualizzata nella relativa riga e un'icona Altre azioni  ![Icona Altre azioni](../icons/overflow-menu.svg)  è inclusa alla fine della riga. Fai clic sull'icona Altre azioni per avviare, arrestare, ridenominare o eliminare una risorsa.
+  * Ogni risorsa viene visualizzata nella relativa riga e un'icona Altre azioni  ![Icona Altre azioni](../icons/overflow-menu.svg) è inclusa alla fine della riga. Fai clic sull'icona **Ulteriori azioni** per avviare, arrestare, ridenominare o eliminare una risorsa.
   * Per impostare credenziali o connessioni per una risorsa, fai clic sul nome della risorsa per accedere alla sua pagina dei dettagli. Per ulteriori informazioni, vedi [Aggiunta di una nuova credenziale](/docs/resources/service_credentials.html) e [Gestione delle connessioni](/docs/resources/connecting_apps.html#connect_app).
 
 ## Lavorare nel catalogo

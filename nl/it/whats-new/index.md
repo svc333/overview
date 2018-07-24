@@ -4,7 +4,7 @@ copyright:
 
   years: 2015, 2018
 
-lastupdated: "2018-06-26"
+lastupdated: "2018-07-18"
 
 ---
 
@@ -19,6 +19,16 @@ Rimani aggiornato con le nuove funzioni e i nuovi servizi disponibili in {{site.
 
 ## Piattaforma {{site.data.keyword.Bluemix_notm}}
 {: #platform_category}
+
+### Ricerca delle risorse
+Novità a partire dal 17 luglio 2018
+
+Puoi cercare le risorse da qualsiasi punto nella console {{site.data.keyword.cloud_notm}}. Immetti il nome di una risorsa nel campo di ricerca nella barra dei menu della console.
+
+### Aggiungi dinamicamente gli utenti federati ai gruppi di accesso
+Novità a partire dal 12 luglio 2018
+
+Puoi creare delle regole dinamiche per aggiungere automaticamente gli utenti federati ai gruppi di accesso in base a specifici attributi di identità. Quando i tuoi utenti eseguono l'accesso con un ID federato, i dati dal provider di identità associano dinamicamente i tuoi utenti a un gruppo di accesso in base alle regole da te impostate. Per ulteriori informazioni, vedi [Creazione di regole dinamiche per i gruppi di accesso](/docs/iam/accessgroup_rules.html#creating-dynamic-rules-for-access-groups).
 
 ### Proteggi i tuoi ID servizio e chiavi API
 Novità a partire dal: 1° giugno 2018
@@ -256,6 +266,11 @@ Con gli ultimi aggiornamenti e miglioramenti di aprile, puoi utilizzare le segue
 
 ## Calcola
 {: #compute_category}
+
+### Crea cluster multizona in {{site.data.keyword.containerlong_notm}}
+Novità a partire dal 10 luglio 2018
+
+Vuoi migliorare la disponibilità di cluster e applicazioni? Ora puoi estendere il tuo cluster su più zone in aree metropolitane selezionate. per ulteriori informazioni, vedi [Creazione di cluster multizona in {{site.data.keyword.containershort_notm}}](cs_clusters.html#multizone).
 
 ### {{site.data.keyword.containerlong_notm}} fornisce l'accesso al dashboard Kubernetes
 
