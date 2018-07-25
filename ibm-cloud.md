@@ -13,7 +13,7 @@ lastupdated: "2018-06-14"
 # Platform overview
 {: #overview}
 
-{{site.data.keyword.IBM_notm}}'s innovative cloud computing platform combines platform as a service (PaaS) with infrastructure as a service (IaaS) and includes a rich catalog of cloud services that can be easily integrated with PaaS and IaaS to build business applications rapidly.
+{{site.data.keyword.IBM_notm}}'s innovative cloud computing platform combines platform as a service (PaaS) with infrastructure as a service (IaaS) and includes a catalog of cloud services that can be integrated with PaaS and IaaS to build business applications.
 {:shortdesc}
 
 {{site.data.keyword.cloud_notm}} (formerly Bluemix) has deployments that fit your needs whether you are a small business that plans to scale, or a large enterprise that requires additional isolation. You can develop in a cloud without borders, where you can connect your private services to the public {{site.data.keyword.cloud_notm}} services available from {{site.data.keyword.IBM_notm}}. You and your team can access the apps, services, and infrastructure in {{site.data.keyword.cloud_notm}} and use existing data, systems, processes, PaaS tools, and IaaS tools. Developers can tap into the rapidly growing ecosystem of available services and runtime frameworks to build applications using polyglot programming approaches.
