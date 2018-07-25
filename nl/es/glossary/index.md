@@ -77,17 +77,17 @@ Dos o más instancias de grupo de contenedores que se ejecutan en distintos nodo
 ### API
 {: #x2008805}
 
-Véase [interfaz de programación de apps](#x2000186).
+Véase [interfaz de programación de aplicaciones](#x2000186).
 
 ### app
 {: #x4281528}
 
-Aplicación de dispositivo móvil o web. Véase también [app móvil](#x4258535), [app web](#x2116500).
+Aplicación de dispositivo móvil o web. Véase también [aplicación móvil](#x4258535), [aplicación web](#x2116500).
 
-### interfaz de programación de apps (API)
+### interfaz de programación de aplicaciones (API)
 {: #x2000186}
 
-Interfaz que permite que un programa de app que está escrito en un lenguaje de alto nivel utilizar datos o funciones específicos del sistema operativo o de otro programa.
+Interfaz que permite que un programa de aplicación que está escrito en un lenguaje de alto nivel utilizar datos o funciones específicos del sistema operativo o de otro programa.
 
 ### artefacto
 {: #x2262995}
@@ -149,12 +149,12 @@ Colección de tecnologías de IBM Db2 diseñadas para trabajar principalmente co
 ### despliegue azul-verde
 {: #x7807335}
 
-Técnica de despliegue que habilita la entrega continua y minimiza el tiempo de inactividad mediante la ejecución de dos entornos de producción prácticamente idénticos llamados Azul y Verde. Mientras uno de los entornos (por ejemplo, Azul) es el entorno de producción, el otro (por ejemplo, Verde) podrá usarse para las pruebas finales y el despliegue. Una vez la app se haya desplegado en Verde, éste se convertirá en el entorno de producción y Azul se quedará desocupado. Véase también [despliegue rojo-negro](#x8439181).
+Técnica de despliegue que habilita la entrega continua y minimiza el tiempo de inactividad mediante la ejecución de dos entornos de producción prácticamente idénticos llamados Azul y Verde. Mientras uno de los entornos (por ejemplo, Azul) es el entorno de producción, el otro (por ejemplo, Verde) podrá usarse para las pruebas finales y el despliegue. Una vez la aplicación se haya desplegado en Verde, éste se convertirá en el entorno de producción y Azul se quedará desocupado. Véase también [despliegue rojo-negro](#x8439181).
 
 ### contenedor modelo
 {: #x7233930}
 
-Plantilla que incluye una app y su entorno de tiempo de ejecución y servicios predefinidos asociados para un determinado dominio.
+Plantilla que incluye una aplicación y su entorno de tiempo de ejecución y servicios predefinidos asociados para un determinado dominio.
 
 ### sin borde
 {: #x8439189}
@@ -164,7 +164,7 @@ Relativo a una plataforma de desarrollo de no propiedad abierta que incluye mode
 ### paquete de compilación
 {: #x7233925}
 
-Colección de scripts que preparan el código para que se ejecute en IBM Cloud. Los paquetes de compilación examinan las apps desplegadas y descargan y configuran las apps dependientes.
+Colección de scripts que preparan el código para que se ejecute en IBM Cloud. Los paquetes de compilación examinan las aplicaciones desplegadas y descargan y configuran las aplicaciones dependientes.
 
 
 ## C
@@ -198,14 +198,14 @@ Programa de software o sistema que solicita servicios a un servidor. Véase tamb
 ### computación en la nube
 {: #x3877850}
 
-Plataforma informática en la que los usuarios pueden acceder a las apps o recursos informáticos, como servicios, desde cualquier lugar a
-través de sus dispositivos conectados. Una interfaz de usuario simplificada o una interfaz de programación de apps (API) hacen que la
+Plataforma informática en la que los usuarios pueden acceder a las aplicaciones o recursos informáticos, como servicios, desde cualquier lugar a
+través de sus dispositivos conectados. Una interfaz de usuario simplificada o una interfaz de programación de aplicaciones (API) hacen que la
 infraestructura que da soporte a tales servicios sea transparente para los usuarios.
 
 ### portabilidad en la nube
 {: #x4585297}
 
-La capacidad para mover apps y servicios entre entornos de computación en la nube públicos o privados, o desde distintos proveedores de nube.
+La capacidad para mover aplicaciones y servicios entre entornos de computación en la nube públicos o privados, o desde distintos proveedores de nube.
 
 ### interfaz de línea de mandatos (CLI)
 {: #x2051424}
@@ -243,7 +243,7 @@ Véase [solicitud de firma de certificado](#x3530521).
 ### dominio personalizado
 {: #x5728384}
 
-Parte personalizada de un URL seleccionado por el usuario para que dirija solicitudes a la app. Un dominio personalizado forma parte de una ruta. Un dominio personalizado puede ser un dominio compartido, un subdominio compartido o un dominio compartido y un host. Véase también [dominio](#x2021210), [host](#x2002243), [ruta](#x2037338), [subdominio](#x2040080), [Localizador uniforme de recursos](#x2042491).
+Parte personalizada de un URL seleccionado por el usuario para que dirija solicitudes a la aplicación. Un dominio personalizado forma parte de una ruta. Un dominio personalizado puede ser un dominio compartido, un subdominio compartido o un dominio compartido y un host. Véase también [dominio](#x2021210), [host](#x2002243), [ruta](#x2037338), [subdominio](#x2040080), [Localizador uniforme de recursos](#x2042491).
 
 
 ## D
@@ -282,7 +282,7 @@ Proceso que recupera el resultado de una creación, empaqueta el resultado con p
 ### DevOps
 {: #x5784896}
 
-Metodología de software que integra el desarrollo de apps y operaciones de TI para que los equipos entreguen el código a la producción más rápido e iteren de forma continua en función de los comentarios del mercado.
+Metodología de software que integra el desarrollo de aplicaciones y operaciones de TI para que los equipos entreguen el código a la producción más rápido e iteren de forma continua en función de los comentarios del mercado.
 
 ### dominio
 {: #x2021210}
@@ -292,12 +292,12 @@ Parte de una jerarquía de denominación que especifica la ruta. Por ejemplo, ex
 ### droplet
 {: #x7470343}
 
-Un archivo de Cloud Foundry que contiene una app y sus dependencias de infraestructura y tiempo de ejecución, ante del despliegue en la nube.
+Un archivo de Cloud Foundry que contiene una aplicación y sus dependencias de infraestructura y tiempo de ejecución, ante del despliegue en la nube.
 
 ### Droplet Execution Agent (DEA)
 {: #x7470348}
 
-Componente de Cloud Foundry responsable de desplegar apps.
+Componente de Cloud Foundry responsable de desplegar aplicaciones.
 
 
 ## E
@@ -343,7 +343,7 @@ Activar un desencadenante.
 ### infraestructura
 {: #x2023472}
 
-Arquitectura para una app que proporciona un estándar estructura para una app y funciones generales y extensibles.  Una infraestructura habilita y simplifica una implementación coherente de tecnologías complejas para el desarrollo de apps.
+Arquitectura para una aplicación que proporciona un estándar estructura para una aplicación y funciones generales y extensibles.  Una infraestructura habilita y simplifica una implementación coherente de tecnologías complejas para el desarrollo de aplicaciones.
 
 
 ## G
@@ -352,7 +352,7 @@ Arquitectura para una app que proporciona un estándar estructura para una app y
 ### GB por hora
 {: #x7470477}
 
-Cantidad acumulada de memoria (en gigabytes) que se está ejecutando para todas las instancias de una app para un determinado paquete de compilación por hora.
+Cantidad acumulada de memoria (en gigabytes) que se está ejecutando para todas las instancias de una aplicación para un determinado paquete de compilación por hora.
 
 ### identificador exclusivo global (GUID)
 {: #x2390455}
@@ -418,7 +418,7 @@ Plataforma de estándares abiertos basada en la nube para crear, gestionar y eje
 ### imagen
 {: #x2024928}
 
-Un tiempo de ejecución completo que puede utilizarse para ejecutar apps. Las imágenes se utilizan para crear contenedores y pueden contener varias imágenes padre (capas). Véase también [imagen base](#x5366487), [contenedor](#x2010901), [capa](#x2028320), [espacio de nombres](#x2031005), [imagen padre](#x8439210), [repositorio de imágenes privadas](#x8439215), [registro](#x2064940).
+Un tiempo de ejecución completo que puede utilizarse para ejecutar aplicaciones. Las imágenes se utilizan para crear contenedores y pueden contener varias imágenes padre (capas). Véase también [imagen base](#x5366487), [contenedor](#x2010901), [capa](#x2028320), [espacio de nombres](#x2031005), [imagen padre](#x8439210), [repositorio de imágenes privadas](#x8439215), [registro](#x2064940).
 
 ### infraestructura como servicio (IaaS)
 {: #x4585332}
@@ -428,7 +428,7 @@ Distribución de una infraestructura de sistemas, que incluye funcionalidad de s
 ### instancia
 {: #x2002531}
 
-Entidad que consta de recursos que están reservados para una determinada app o servicio.
+Entidad que consta de recursos que están reservados para una determinada aplicación o servicio.
 
 ### certificado intermedio
 {: #x3753781}
@@ -510,25 +510,25 @@ Un entorno de computación en la nube dentro del centro de datos del cliente. La
 
 Véase [programa de fondo móvil como servicio](#x7044858).
 
-### app para móvil
+### app móvil
 {: #x7636517}
 
-Véase [app móvil](#x4258535).
+Véase [aplicación móvil](#x4258535).
 
-### app móvil (app para móvil)
+### aplicación móvil (app móvil)
 {: #x4258535}
 
-Aplicación que se ha diseñado para una plataforma móvil. Similares a las apps web, las apps para móvil proporcionan más funciones que la visualización estática de información; por ejemplo, permiten al usuario filtrar noticias en tiempo real. Véase también [app](#x4281528).
+Aplicación que se ha diseñado para una plataforma móvil. Similares a las aplicaciones web, las apps móviles proporcionan más funciones que la visualización estática de información; por ejemplo, permiten al usuario filtrar noticias en tiempo real. Véase también [app](#x4281528).
 
 ### programa de fondo móvil como servicio (MBaaS)
 {: #x7044858}
 
-Modelo de cálculo que conecta apps móviles a servicios de computación en la nube y proporciona características como, por ejemplo, gestión de usuarios, envío de notificaciones e integración con redes sociales a través de una API y SDK unificados.
+Modelo de cálculo que conecta aplicaciones móviles a servicios de computación en la nube y proporciona características como, por ejemplo, gestión de usuarios, envío de notificaciones e integración con redes sociales a través de una API y SDK unificados.
 
 ### nube móvil
 {: #x4585344}
 
-Infraestructura en la que el almacenamiento y el proceso de datos para las apps se descarga desde un dispositivo móvil en la nube. Con la computación en la nube móvil, las apps no están limitadas a un operador específico, sino que se accede a las mismas a través de la web.
+Infraestructura en la que el almacenamiento y el proceso de datos para las aplicaciones se descarga desde un dispositivo móvil en la nube. Con la computación en la nube móvil, las aplicaciones no están limitadas a un operador específico, sino que se accede a las mismas a través de la web.
 
 
 ## N
@@ -546,7 +546,7 @@ Un nombre exclusivo que identifica el repositorio de imagen de la organización 
 ### OAuth
 {: #x6013335}
 
-Protocolo de autorización basado en HTTP que proporciona a las apps acceso de ámbito a un recurso protegido en nombre del propietario del recurso,
+Protocolo de autorización basado en HTTP que proporciona a las aplicaciones acceso de ámbito a un recurso protegido en nombre del propietario del recurso,
 creando una interacción de aprobación entre el propietario del recurso, el cliente
 y el servidor de recursos.
 
@@ -587,7 +587,7 @@ Una imagen que proporciona una base para otra imagen. Por ejemplo, Ubuntu Linux 
 ### plataforma como servicio (PaaS)
 {: #x2029786}
 
-Distribución de una plataforma informática, que incluye apps, middleware optimizado, herramientas de desarrollo y los entornos de tiempo de ejecución Java y Web 2.0 en un entorno basado en la nube.
+Distribución de una plataforma informática, que incluye aplicaciones, middleware optimizado, herramientas de desarrollo y los entornos de tiempo de ejecución Java y Web 2.0 en un entorno basado en la nube.
 
 ### nube privada
 {: #x4585362}
@@ -634,7 +634,7 @@ Enviar información desde un servidor a un cliente. Cuando un usuario envía con
 ### notificación push
 {: #x5599582}
 
-Alerta que indica un cambio o actualización de un icono de app para móvil.
+Alerta que indica un cambio o actualización de un icono de app móvil.
 
 
 ## R
@@ -671,7 +671,7 @@ Estilo de arquitectura de software para sistemas hipermedia distribuidos, como l
 ### recurso
 {: #x2004267}
 
-Componente físico o lógico que se pueden suministrar o reservar para una app o instancia de servicio.  Los ejemplos de recursos incluyen base de datos, cuentas y límites de procesador, memoria, y almacenamiento.
+Componente físico o lógico que se pueden suministrar o reservar para una aplicación o instancia de servicio.  Los ejemplos de recursos incluyen base de datos, cuentas y límites de procesador, memoria, y almacenamiento.
 
 ### grupo de recursos
 {: #x2161955}
@@ -686,7 +686,7 @@ Véase [Representational State Transfer](#x3220976).
 ### ruta
 {: #x2037338}
 
-URL utilizada para dirigir solicitudes a una app. Una ruta está formada por un host (o subdominio) opcional y un dominio que se especifican cuando se envía una app mediante push. Por ejemplo, en la ruta myapp.example.com, myapp es el host y example.com es el dominio. Una ruta puede estar asociada a una o varias apps. A menos que se especifique un dominio personalizado, IBM Cloud utiliza un dominio compartido por defecto en la ruta de la app. Véase también [dominio personalizado](#x5728384), [dominio](#x2021210), [punto final](#x2026820), [host](#x2002243), [subdominio](#x2040080), [Localizador uniforme de recursos](#x2042491).
+URL utilizada para dirigir solicitudes a una aplicación. Una ruta está formada por un host (o subdominio) opcional y un dominio que se especifican cuando se envía una aplicación mediante push. Por ejemplo, en la ruta myapp.example.com, myapp es el host y example.com es el dominio. Una ruta puede estar asociada a una o varias aplicaciones. A menos que se especifique un dominio personalizado, IBM Cloud utiliza un dominio compartido por defecto en la ruta de la aplicación. Véase también [dominio personalizado](#x5728384), [dominio](#x2021210), [punto final](#x2026820), [host](#x2002243), [subdominio](#x2040080), [Localizador uniforme de recursos](#x2042491).
 
 ### regla
 {: #x2037526}
@@ -698,7 +698,7 @@ correspondiente con un suceso de desencadenante como entrada.
 ### tiempo de ejecución
 {: #x2391929}
 
-Conjunto de recursos utilizados para ejecutar la app. Véase también [iniciador](#x7470511).
+Conjunto de recursos utilizados para ejecutar la aplicación. Véase también [iniciador](#x7470511).
 
 
 ## S
@@ -712,7 +712,7 @@ Véase [software como servicio](#x4585386).
 ### escalar
 {: #x2004442}
 
-Aumentar la capacidad de la plataforma (o sistema) añadiendo más apps o instancias de servicio.
+Aumentar la capacidad de la plataforma (o sistema) añadiendo más aplicaciones o instancias de servicio.
 
 ### ámbito
 {: #x2037763}
@@ -725,14 +725,14 @@ En gestión de identidades, conjunto de entidades a las que puede afectar una po
 
 Protocolo de seguridad que proporciona
 privacidad en las comunicaciones. Con SSL,
-las apps cliente/servidor pueden comunicarse de una forma diseñada
+las aplicaciones cliente/servidor pueden comunicarse de una forma diseñada
 para impedir las escuchas no deseadas, la manipulación indebida y la
 falsificación. Véase también [entidad emisora de certificados](#x2016383).
 
 ### servicio
 {: #x2038343}
 
-Extensión en la nube que ofrece funcionalidad lista para utilizarse, como base de datos, mensajería, software de web para ejecutar código, o gestión de apps o capacidades de supervisión. Los servicios no suelen requerir instalación ni mantenimiento y se pueden combinar para crear apps.
+Extensión en la nube que ofrece funcionalidad lista para utilizarse, como base de datos, mensajería, software de web para ejecutar código, o gestión de aplicaciones o capacidades de supervisión. Los servicios no suelen requerir instalación ni mantenimiento y se pueden combinar para crear aplicaciones.
 
 ### sesión
 {: #x2004539}
@@ -742,12 +742,12 @@ Periodo de tiempo que transcurre entre que se inicia una app en un dispositivo m
 ### inicio de sesión único (SSO)
 {: #x2213318}
 
-Proceso de autenticación por el cual un usuario puede acceder a más de un sistema o app entrando un único ID de usuario y contraseña.
+Proceso de autenticación por el cual un usuario puede acceder a más de un sistema o aplicación entrando un único ID de usuario y contraseña.
 
 ### software como servicio (SaaS)
 {: #x4585386}
 
-Modelo de despliegue de software mediante el cual el software, incluidos los procesos empresariales, las apps de empresa y las herramientas de colaboración, se proporcionan como un servicio a los clientes a través de la nube.
+Modelo de despliegue de software mediante el cual el software, incluidos los procesos empresariales, las aplicaciones de empresa y las herramientas de colaboración, se proporcionan como un servicio a los clientes a través de la nube.
 
 ### SOR
 {: #x2214822}
@@ -774,7 +774,7 @@ Véase [inicio de sesión
 ### organizar
 {: #x2067189}
 
-Desplegar una app, servicio o instancia en una ubicación predefinida para ejecutarlo o probarlo antes de desplegarlo en un entorno de producción. Véase también [etapa](#x2104544).
+Desplegar una aplicación, servicio o instancia en una ubicación predefinida para ejecutarlo o probarlo antes de desplegarlo en un entorno de producción. Véase también [etapa](#x2104544).
 
 ### stanza
 {: #x2094743}
@@ -784,7 +784,7 @@ Sección de un paquete de software que define una acción específica que se deb
 ### iniciador
 {: #x7470511}
 
-Plantilla que incluye servicios predefinidos y código de app configurado con un determinado paquete de compilación.Un iniciador puede ser código de app que se escribe en un lenguaje de programación específico, o una combinación de código de app y conjunto de servicios. Véase también [tiempo de ejecución](#x2391929).
+Plantilla que incluye servicios predefinidos y código de aplicación configurado con un determinado paquete de compilación.Un iniciador puede ser código de aplicación que se escribe en un lenguaje de programación específico, o una combinación de código de aplicación y conjunto de servicios. Véase también [tiempo de ejecución](#x2391929).
 
 ### subdominio
 {: #x2040080}
@@ -799,7 +799,7 @@ En tecnología de la información (TI), sistema que incorpora tecnologías que a
 ### sistema de registros (SOR)
 {: #x6735061}
 
-Sistema de almacenamiento de información (como, por ejemplo, una base de datos o una app) que almacena registros empresariales y automatiza los procesos estándares. Véase también [sistema colaborativo](#x6528306).
+Sistema de almacenamiento de información (como, por ejemplo, una base de datos o una aplicación) que almacena registros empresariales y automatiza los procesos estándares. Véase también [sistema colaborativo](#x6528306).
 
 
 ## T
@@ -818,7 +818,7 @@ Perteneciente a un producto o servicio que está proporcionado por una empresa q
 ### mosaico
 {: #x2092493}
 
-Representación visual de una app en ejecución que proporciona el estado en un panel de control.
+Representación visual de una aplicación en ejecución que proporciona el estado en un panel de control.
 
 ### desencadenante
 {: #x2005384}
@@ -914,19 +914,19 @@ Véase [archivo web](#x2116506).
 ### app web
 {: #x7636628}
 
-Véase [app web](#x2116500).
+Véase [aplicación web](#x2116500).
 
-### app web (app web)
+### aplicación web (app web)
 {: #x2116500}
 
 Aplicación a la que puede accederse mediante un navegador web y que proporciona otras funciones aparte de la visualización estática de la información,
-permitiendo, por ejemplo, que el usuario realice una consulta a una base de datos. Los componentes comunes de una app web incluyen páginas HTML,
+permitiendo, por ejemplo, que el usuario realice una consulta a una base de datos. Los componentes comunes de una aplicación web incluyen páginas HTML,
 páginas JSP y servlets. Véase también [app](#x4281528).
 
 ### archivo web (WAR)
 {: #x2116506}
 
-Formato de archivo comprimido, definido por el estándar Java EE, para almacenar todos los recursos necesarios para instalar y ejecutar una app web en un único archivo.
+Formato de archivo comprimido, definido por el estándar Java EE, para almacenar todos los recursos necesarios para instalar y ejecutar una aplicación web en un único archivo.
 
 ### espacio de trabajo
 {: #x2096037}

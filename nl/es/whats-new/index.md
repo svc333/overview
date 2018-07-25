@@ -133,7 +133,7 @@ Con las últimas actualizaciones y mejoras, los propietarios o los administrador
 
 Además, los usuarios de la plataforma de {{site.data.keyword.Bluemix_notm}} pueden crear, suprimir y listar claves de API asociadas con sus ID de usuario. Y los usuarios de la plataforma pueden utilizar dichas claves de API para autenticarse al utilizar API o CLI.
 
-Por último, hemos mejorado nuestra capacidad de gestión de usuarios unificada para garantizar que en una cuenta IaaS-PaaS enlazada, los usuarios se gestionen de forma unificada sin necesidad de añadir usuarios por separado en el Portal de cliente de SoftLayer o en la consola de {{site.data.keyword.Bluemix_notm}}.
+Por último, hemos mejorado nuestra capacidad de gestión de usuarios unificada para garantizar que en una cuenta IaaS-PaaS enlazada, los usuarios se gestionen de forma unificada sin necesidad de añadir usuarios por separado en el Portal de clientes de SoftLayer o en la consola de {{site.data.keyword.Bluemix_notm}}.
 
 Para obtener más información sobre la actualización reciente, consulte la publicación de blog [Introducción a Identity & Access Management](https://www.ibm.com/blogs/bluemix/2017/05/introducing-identity-access-management/){: new_window} ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo").
 
