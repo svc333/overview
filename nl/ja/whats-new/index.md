@@ -4,7 +4,7 @@ copyright:
 
   years: 2015, 2018
 
-lastupdated: "2018-06-26"
+lastupdated: "2018-07-18"
 
 ---
 
@@ -19,6 +19,16 @@ lastupdated: "2018-06-26"
 
 ## {{site.data.keyword.Bluemix_notm}} プラットフォーム
 {: #platform_category}
+
+### リソースの検索
+最新情報: 2018 年 7 月 17 日
+
+{{site.data.keyword.cloud_notm}} コンソール内の任意の場所からリソースを検索できます。コンソールのメニュー・バーで検索フィールドにリソースの名前を入力します。
+
+### フェデレーテッド・ユーザーをアクセス・グループに動的に追加
+最新情報: 2018 年 7 月 12 日
+
+動的ルールを作成して、特定の ID 属性に基づいてフェデレーテッド・ユーザーをアクセス・グループに自動的に追加することができます。ユーザーがフェデレーテッド ID を使用してログインすると、ID プロバイダーからのデータは、設定されたルールに基づいてユーザーをアクセス・グループに動的にマップします。詳しくは、『[アクセス・グループの動的ルールの作成 (Creating dyanmic rules for access groups)](/docs/iam/accessgroup_rules.html#creating-dynamic-rules-for-access-groups)』を参照してください。
 
 ### サービス ID および API キーの保護
 最新情報: 2018 年 6 月 1 日
@@ -257,6 +267,11 @@ Identity and Access Management (IAM) では、サービス ID を作成する機
 ## コンピュート
 {: #compute_category}
 
+### {{site.data.keyword.containerlong_notm}} でのマルチゾーン・クラスターの作成
+最新情報: 2018 年 7 月 10 日
+
+クラスターとアプリの可用性を改善したい場合、選択したメトロ領域内の複数のゾーンにクラスターを広げることができるようになりました。詳しくは、『[IBM Bluemix Container Service でのマルチゾーン・クラスターの作成 (Creating multizone clusters in {{site.data.keyword.containershort_notm}})](cs_clusters.html#multizone)』を参照してください。
+
 ### {{site.data.keyword.containerlong_notm}} での Kubernetes Dashboard アクセス
 
 {{site.data.keyword.Bluemix_notm}} コンソールを介した Kubernetes Dashboard への直接アクセスが {{site.data.keyword.containerlong_notm}} でサポートされるようになりました。 ダッシュボードへのパスがこのように単純になったことにより、クラスター管理およびリソース可視化についてのユーザー・エクスペリエンスが強化されます。 詳しくは、[{{site.data.keyword.Bluemix_notm}} ブログ ](https://www.ibm.com/blogs/bluemix/2018/04/kubernetes-dashboard-access/){: new_window} ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン") を参照してください。
@@ -304,7 +319,7 @@ Liberty ビルドパック v3.9 は、新規の月次の Liberty ランタイム
 ### {{site.data.keyword.iva_full_notm}} 一般出荷可能日の紹介
 最新情報: 2018 年 6 月 26 日
 
-[{{site.data.keyword.iva_full}}](https://console.bluemix.net/catalog/services/voice-agent-with-watson)![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン") が一般出荷可能になりました。顧客が電話で通話したり話しかけたりすることができる、Watson サービスをベースとするコグニティブ・ボイス・エージェントを作成できます。 バックボーンに Watson の人工知能があるため、ボイス・エージェントは会話のようにコミュニケーションすることができ、ボイス・エージェント内で複雑な対話を処理したり顧客の通話を解決したりすることができます。
+[{{site.data.keyword.iva_full}}](https://console.bluemix.net/catalog/services/voice-agent-with-watson)![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン") が一般出荷可能になりました。 顧客が電話で通話したり話しかけたりすることができる、Watson サービスをベースとするコグニティブ・ボイス・エージェントを作成できます。 バックボーンに Watson の人工知能があるため、ボイス・エージェントは会話のようにコミュニケーションすることができ、ボイス・エージェント内で複雑な対話を処理したり顧客の通話を解決したりすることができます。
 
 このリリースでは、以下の新機能が導入されています。
 
