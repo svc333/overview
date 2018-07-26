@@ -2,8 +2,8 @@
 
 
 copyright:
-  years: 2016, 2018
-lastupdated: "2018-06-14"
+  years: 2015, 2018
+lastupdated: "2018-07-17"
 
 ---
 
@@ -14,7 +14,7 @@ lastupdated: "2018-06-14"
 # Como o {{site.data.keyword.cloud_notm}} console funciona
 {: #ui}
 
-O console do {{site.data.keyword.cloud}} é uma interface com o usuário que ajuda a gerenciar todos os recursos do {{site.data.keyword.cloud_notm}}. Ao acessar o [console](https://console.bluemix.net){: new_window} ![Ícone de link externo](../icons/launch-glyph.svg "Ícone de link externo"), é possível criar uma conta grátis, efetuar login, acessar a documentação, acessar o catálogo, visualizar informações de precificação, obter suporte ou verificar o status de todos os componentes do {{site.data.keyword.cloud_notm}}. Depois de efetuar login, a barra de menus contém um ícone Menu ![ícone Menu](../icons/icon_hamburger.svg) e links adicionais, dependendo de seu tipo de conta.
+O console do {{site.data.keyword.cloud}} é uma interface com o usuário que ajuda a gerenciar todos os recursos do {{site.data.keyword.cloud_notm}}. Quando você acessa o [console](https://console.bluemix.net){: new_window} ![Ícone de link externo](../icons/launch-glyph.svg "Ícone de link externo"), é possível criar uma conta grátis, efetuar login, acessar a documentação, acessar o catálogo, visualizar informações de precificação, obter suporte ou verificar o status dos componentes do {{site.data.keyword.cloud_notm}}. Depois de efetuar login, a barra de menus contém um ícone Menu ![ícone Menu](../icons/icon_hamburger.svg) e links adicionais, dependendo de seu tipo de conta.
 {: shortdesc}
 
 ## Utilizando o Console
@@ -28,35 +28,39 @@ Se você for um usuário existente com uma conta do {{site.data.keyword.cloud_no
 
 Se as suas contas do {{site.data.keyword.cloud_notm}} e do SoftLayer foram vinculadas, você tem as mesmas opções que um proprietário da conta não vinculada, além de poder navegar para o portal do cliente selecionando a opção **Ícone Menu ![Menu icon](../icons/icon_hamburger.svg) > Infraestrutura**. Desse ponto, é possível visualizar seu resumo de conta, pedir armazenamento e dispositivos e gerenciar o acesso para usuários e dispositivos somente de VPN.
 
-## Alternando regiões
-{: #switchregion}
+## Procurando Recursos
+{: #search}
 
-No painel, é possível visualizar todos os recursos em todas as regiões por padrão. Se você deseja visualizar e trabalhar com recursos em uma região específica, expanda o menu **LOCAL** e selecione uma região na lista. 
+É possível procurar recursos de qualquer lugar no console do {{site.data.keyword.cloud_notm}}. Digite o nome de um recurso no campo de procura na barra de menus do console.
+
+Digite a tecla `/` em seu teclado para navegar seu cursor até o campo de procura.
+{: tip}
 
 ## Gerenciando recursos no painel
 {: #dashboardview}
 
 É possível usar o painel para visualizar e trabalhar com os recursos do {{site.data.keyword.cloud_notm}} e as
-instâncias de serviço do Cloud Foundry. Para obter informações adicionais sobre os recursos, consulte
-[O que é um recurso?](/docs/resources/acct_resources.html#resource).
+instâncias de serviço do Cloud Foundry. Veja [O que é um recurso?](/docs/resources/acct_resources.html#resource) para obter mais informações.
 
 ### Visualizando recursos
 
-É possível visualizar todos os recursos em sua conta no painel. Para customizar sua visualização, use as opções a seguir:
+É possível visualizar todos os recursos em sua conta em todas as regiões no painel. Para customizar sua visualização, use as opções a seguir:
 
   * Para visualizar recursos em um grupo de recursos específico, selecione um grupo de recursos na lista **Grupo de recursos**.
   * Para visualizar recursos em uma organização específica do Cloud Foundry, selecione uma organização na lista **Organização do Cloud Foundry**.
 
 Em seguida, com base nos itens selecionados, é possível filtrar pelas opções a seguir:
 
-  * Região
+  * Localização
   * Espaço do Cloud Foundry
+  
+Se você deseja visualizar e trabalhar com recursos em uma região específica, expanda o menu **LOCAL** e selecione uma região na lista.
 
 ### Trabalhando com recursos
 
 É possível trabalhar com seus recursos de várias maneiras no painel:
 
-  * Cada recurso é exibido em sua própria linha e um ícone Mais ações ![More Actions icon](../icons/overflow-menu.svg) é incluído no término da linha. Clique no ícone Mais ações para iniciar, parar, renomear ou excluir um recurso.
+  * Cada recurso é exibido em sua própria linha e um ícone Mais ações ![More Actions icon](../icons/overflow-menu.svg) é incluído no término da linha. Clique no ícone **Mais ações** para iniciar, parar, renomear ou excluir um recurso.
   * Para configurar credenciais ou conexões para um recurso, clique no nome do recurso para navegar para a página de detalhes do recurso. Para obter mais informações, veja [Incluindo uma nova credencial](/docs/resources/service_credentials.html) e [Gerenciando conexões](/docs/resources/connecting_apps.html#connect_app).
 
 ## Trabalhando no catálogo
