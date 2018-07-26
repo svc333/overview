@@ -4,7 +4,7 @@ copyright:
 
   years: 2015, 2018
 
-lastupdated: "2018-06-26"
+lastupdated: "2018-07-18"
 
 ---
 
@@ -20,10 +20,20 @@ lastupdated: "2018-06-26"
 ## {{site.data.keyword.Bluemix_notm}} 平台
 {: #platform_category}
 
+### 搜尋資源
+文件日期：2018 年 7 月 17 日
+
+您可以從 {{site.data.keyword.cloud_notm}} 主控台任意處搜尋資源。在主控台功能表列的搜尋欄位中，鍵入資源的名稱。
+
+### 將聯合使用者動態地新增至存取群組
+文件日期：2018 年 7 月 12 日
+
+您可以建立動態規則，以根據特定的身分屬性，自動將聯合使用者新增至存取群組。當您的使用者使用聯合 ID 登入時，來自身分提供者的資料會根據您設定的規則，動態地將使用者對映到存取群組。如需相關資訊，請參閱[建立存取群組的動態規則](/docs/iam/accessgroup_rules.html#creating-dynamic-rules-for-access-groups)。
+
 ### 保護您的服務 ID 及 API 金鑰
 文件日期：2018 年 6 月 1 日
 
-若要避免刪除服務 ID 或 API 金鑰導致中斷或毀壞的狀況，您可以選擇使用 CLI 或使用者介面來鎖定服務 ID 及 API 金鑰。鎖定服務 ID 也可防止變更、刪除或指派任何存取原則，以及防止建立或刪除任何與服務 ID 相關聯的 API 金鑰。如需相關資訊，請參閱[鎖定服務 ID](/docs/iam/serviceid.html#locking-a-service-id) 及[鎖定 API 金鑰](/docs/iam/userid_keys.html#locking-an-api-key)。
+若要避免刪除服務 ID 或 API 金鑰導致中斷或毀壞的狀況，您可以選擇使用 CLI 或使用者介面來鎖定服務 ID 及 API 金鑰。鎖定服務 ID 也可以防止變更、刪除或指派任何存取原則，以及防止建立或刪除與服務 ID 相關聯的任何 API 金鑰。如需相關資訊，請參閱[鎖定服務 ID](/docs/iam/serviceid.html#locking-a-service-id) 及[鎖定 API 金鑰](/docs/iam/userid_keys.html#locking-an-api-key)。
 
 ### 將您的「精簡」帳戶升級至「訂閱」帳戶
 文件日期：2018 年 5 月 31 日
@@ -256,6 +266,11 @@ Identity and Access Management (IAM) 現在可讓您建立「服務 ID」，您�
 
 ## 運算
 {: #compute_category}
+
+### 在 {{site.data.keyword.containerlong_notm}} 中建立多區域叢集
+文件日期：2018 年 7 月 10 日
+
+想要改善叢集和應用程式可用性嗎？現在您可以將叢集橫跨在精選都會區的多個區域之間。如需相關資訊，請參閱[在 {{site.data.keyword.containershort_notm}} 中建立多區域叢集](cs_clusters.html#multizone)。
 
 ### {{site.data.keyword.containerlong_notm}} 有了 Kubernetes 儀表板存取權
 

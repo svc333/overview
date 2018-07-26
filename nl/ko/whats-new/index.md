@@ -4,7 +4,7 @@ copyright:
 
   years: 2015, 2018
 
-lastupdated: "2018-06-26"
+lastupdated: "2018-07-18"
 
 ---
 
@@ -19,6 +19,16 @@ lastupdated: "2018-06-26"
 
 ## {{site.data.keyword.Bluemix_notm}} 플랫폼
 {: #platform_category}
+
+### 리소스 검색
+신규 기준일: 2018년 7월 17일
+
+{{site.data.keyword.cloud_notm}} 콘솔의 어느 위치에서나 리소스를 검색할 수 있습니다. 콘솔 메뉴 표시줄의 검색 필드에 리소스의 이름을 입력하십시오.
+
+### 동적으로 액세스 그룹에 연합 사용자 추가
+신규 기준일: 2018년 7월 12일
+
+특정 ID 속성을 기반으로 액세스 그룹에 연합 사용자를 자동으로 추가하기 위한 동적 규칙을 작성할 수 있습니다. 사용자가 연합 ID를 사용하여 로그인하면 사용자가 설정한 규칙에 따라 ID 제공자의 데이터가 동적으로 사용자를 액세스 그룹에 맵핑합니다. 자세한 정보는 [액세스 그룹에 대한 동적 규칙 작성](/docs/iam/accessgroup_rules.html#creating-dynamic-rules-for-access-groups)을 참조하십시오.
 
 ### 서비스 ID 및 API 키 보호
 신규 기준일: 2018년 6월 1일
@@ -35,10 +45,10 @@ lastupdated: "2018-06-26"
 
 {{site.data.keyword.Bluemix_notm}} CLI 명령은 `bluemix` 및 `bx`에서 **ibmcloud**로 변경되었습니다. 하지만 `bluemix` 및 `bx` CLI 명령은 나중에 제거할 때까지 사용할 수 있습니다. 이제 단축 이름은 없으며 전체 이름 **ibmcloud**만 사용됩니다. 
 
-### {{site.data.keyword.Bluemix_notm}} 계정에 대한 다중 요소 인증
+### {{site.data.keyword.Bluemix_notm}} 계정에 대한 다단계 인증
 신규 기준일: 2018년 5월 02일
 
-다중 요소 인증(MFA)은 로그인 중에 모든 사용자가 IBM ID와 비밀번호뿐만 아니라 시간 기반의 일회성 패스코드를 제공하도록 요구하여 사용자 계정에 추가 보안 계층을 추가합니다. 일반적으로 이중 인증(2FA)이라고도 합니다. MFA는 계정별로 사용으로 설정되며 일단 설정되고 나면 계정의 모든 사용자들은 추가적인 보안 방법을 사용하여 로그인해야 합니다.
+다단계 인증(MFA)은 로그인 중에 모든 사용자가 IBM ID와 비밀번호뿐만 아니라 시간 기반의 일회성 패스코드를 제공하도록 요구하여 사용자 계정에 추가 보안 계층을 추가합니다. 일반적으로 이중 인증(2FA)이라고도 합니다. MFA는 계정별로 사용으로 설정되며 일단 설정되고 나면 계정의 모든 사용자들은 추가적인 보안 방법을 사용하여 로그인해야 합니다.
 
 자세한 정보는 [IBM Cloud Platform now adds support for Multi-Factor Authentication](https://www.ibm.com/blogs/bluemix/2018/05/ibm-cloud-platform-now-adds-support-multi-factor-authentication/){: new_window} ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘") 블로그 게시물을 참조하십시오.
 
@@ -257,6 +267,11 @@ IAM(Identity and Access Management)은 이제 서비스 ID를 작성할 수 있�
 ## 컴퓨팅
 {: #compute_category}
 
+### {{site.data.keyword.containerlong_notm}}에서 다중 구역 클러스터 작성
+신규 기준일: 2018년 7월 10일
+
+클러스터 및 앱 가용성을 향상시키고 싶으십니까? 이제 클러스터가 특정 메트로 영역의 다중 구역에 걸쳐 있을 수 있습니다. 자세한 정보는 [{{site.data.keyword.containershort_notm}}에서 다중 구역 클러스터 작성](cs_clusters.html#multizone)을 참조하십시오.
+
 ### {{site.data.keyword.containerlong_notm}}에 대한 Kubernetes 대시보드 액세스
 
 {{site.data.keyword.containerlong_notm}}는 이제 {{site.data.keyword.Bluemix_notm}} 콘솔을 통해 Kubernetes 대시보드에 대한 직접 액세스를 지원합니다. 이러한 대시보드에 대한 간소화된 접근 방식을 통해 클러스터 관리 및 리소스 시각화에 사용자의 경험을 향상시켜 줍니다. [{{site.data.keyword.Bluemix_notm}} 블로그](https://www.ibm.com/blogs/bluemix/2018/04/kubernetes-dashboard-access/){: new_window} ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")에서 자세한 정보를 확인하십시오.
@@ -274,7 +289,7 @@ IAM(Identity and Access Management)은 이제 서비스 ID를 작성할 수 있�
 
 {{site.data.keyword.containerlong_notm}}는 2017년 5월에 Kubernetes 아키텍처를 발표했습니다. 단일 확장 가능한 컨테이너 그룹의 이전 아키텍처는 이제 [2017년 12월 5일부로 더 이상 완전히 사용되지 않습니다.](https://www.ibm.com/blogs/bluemix/2017/07/deprecation-single-scalable-group-container-service-bluemix-public/){: new_window} ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")  
 
-[{{site.data.keyword.Bluemix_notm}}](/docs/containers/container_index.html)에서 원시 Kubernetes 환경을 시작하기에 대한 자세한 정보는 문서를 참조하십시오. 질문이 있는 경우 Slack(https://ibm-container-service.slack.com/)에 질문을 게시할 수 있습니다.
+[{{site.data.keyword.Bluemix_notm}}](/docs/containers/container_index.html)에서 원시 Kubernetes 환경을 시작하기에 대한 자세한 정보는 문서를 참조하십시오. 질문이 있는 경우 Slack(https://ibm-container-service.slack.com/) 사이트에 질문을 게시할 수 있습니다.
 
 ### 새로운 Liberty for Java 빌드팩 v3.11
 신규 기준일: 2017년 7월 17일
@@ -306,7 +321,7 @@ Liberty 빌드팩 v3.9는 새 월별 Liberty 런타임 버전을 제공하고 �
 
 [{{site.data.keyword.iva_full}}](https://console.bluemix.net/catalog/services/voice-agent-with-watson)![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")이 이제 GA(Generally Available)되었습니다! 고객이 전화를 통해 호출하고 대화할 수 있는 Watson 서비스에 빌드된 코그너티브 음성 에이전트를 작성할 수 있습니다. 백본에서 Watson 인공 지능을 사용하면 음성 에이전트는 복잡한 상호작용을 처리하고 음성 에이전트 내의 고객 호출을 해결하여 대화식으로 통신할 수 있습니다.
 
-이 릴리스는 다음과 같은 새로운 기능을 제공합니다. 
+이 릴리스는 다음과 같은 새로운 기능을 제공합니다.
 
 * 재해 복구를 위해 중복 Watson 서비스 위치를 추가할 수 있습니다. 
 * 음성 에이전트가 호출을 전송하고, 사전에 녹음된 메시지를 호출자에게 재생하며, Watson 서비스와 상호작용하는 방법을 사용자 정의하기 위한 고급 구성 옵션을 편집할 수 있습니다.
@@ -481,7 +496,7 @@ IBM App Launch for {{site.data.keyword.Bluemix_notm}} Services는 고객의 여�
 
 {{site.data.keyword.iva_short}}은 원활하게 Watson {{site.data.keyword.speechtotextshort}}, {{site.data.keyword.conversationshort}} 및 {{site.data.keyword.texttospeechshort}} 서비스에 연결하고 구성하여 자연어 대화를 시뮬레이션합니다. 각 음성 에이전트는 자동으로 스케일링하여 동시에 여러 호출을 처리합니다. 이 시범 릴리스에서 다음 주요 기능을 사용하여 음성 에이전트를 사용자 정의할 수 있습니다.
 
-* 샘플 {{site.data.keyword.conversationshort}} 대화 상자를 가져와서 시작한 후 회사 요구에 적합한 자체 대화를 작성합니다.
+* 샘플 {{site.data.keyword.conversationshort}} 대화 상자를 가져와서 시작한 후 회사 요구에 적합한 고유 대화를 작성합니다.
 * API를 사용하여 {{site.data.keyword.conversationshort}} 서비스 내에서 음성 에이전트 작동을 프로그래밍합니다. 예정되지 않은 작동으로부터 모든 것을 제어하여 대화 상자의 모든 노드에 대한 호출을 중지할 수 있습니다.
 * 다른 주제에 대해 전문화된 코그너티브 에이전트에 다른 전화번호를 연결하려는 경우 다중 음성 에이전트를 쉽게 작성하고 관리합니다.
 * SOE(Service Orchestration Engine)에 연결하여 서비스 기능을 확장하면 써드파티 API를 사용할 수 있습니다. 예를 들어, SOE는 {{site.data.keyword.conversationshort}} 서비스에서 트리거에 대해 청취한 후 기존 시스템에서 제공된 API를 사용하여 정보를 찾거나 기타 분석을 제공할 수 있습니다.

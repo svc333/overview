@@ -2,8 +2,8 @@
 
 
 copyright:
-  years: 2016, 2018
-lastupdated: "2018-06-14"
+  years: 2015, 2018
+lastupdated: "2018-07-17"
 
 ---
 
@@ -14,7 +14,7 @@ lastupdated: "2018-06-14"
 # {{site.data.keyword.cloud_notm}} 主控台的運作方式
 {: #ui}
 
-{{site.data.keyword.cloud}} 主控台是一個使用者介面，可協助您管理所有 {{site.data.keyword.cloud_notm}} 資源。當您存取[主控台](https://console.bluemix.net){: new_window} ![外部鏈結圖示](../icons/launch-glyph.svg "外部鏈結圖示") 時，可以建立免費帳戶、登入、存取文件、存取型錄、檢視計價資訊、取得支援，或檢查所有 {{site.data.keyword.cloud_notm}} 元件的狀態。登入之後，功能表列會包含「功能表」圖示 ![「功能表」圖示](../icons/icon_hamburger.svg) 及其他鏈結（視帳戶類型而定）。
+{{site.data.keyword.cloud}} 主控台是一個使用者介面，可協助您管理所有 {{site.data.keyword.cloud_notm}} 資源。當您存取[主控台](https://console.bluemix.net){: new_window} ![外部鏈結圖示](../icons/launch-glyph.svg "外部鏈結圖示") 時，可以建立免費帳戶、登入、存取文件、存取型錄、檢視計價資訊、取得支援，或檢查 {{site.data.keyword.cloud_notm}} 元件的狀態。登入之後，功能表列會包含「功能表」圖示 ![「功能表」圖示](../icons/icon_hamburger.svg) 及其他鏈結（視帳戶類型而定）。
 {: shortdesc}
 
 ## 使用主控台
@@ -28,33 +28,38 @@ lastupdated: "2018-06-14"
 
 如果您已鏈結 {{site.data.keyword.cloud_notm}} 及 SoftLayer 帳戶，則選項會與未鏈結帳戶擁有者相同，而且您可以選取**功能表圖示 ![「功能表」圖示](../icons/icon_hamburger.svg) > 基礎架構**選項來導覽至客戶入口網站。從這裡，您可以檢視帳戶摘要、訂購儲存空間和裝置，以及管理僅限 VPN 使用者和裝置的存取權。
 
-## 切換地區
-{: #switchregion}
+## 搜尋資源
+{: #search}
 
-依預設，您可以從儀表板檢視所有地區的所有資源。如果您想要檢視及使用特定地區的資源，請展開**位置**功能表，並從清單中選取地區。 
+您可以從 {{site.data.keyword.cloud_notm}} 主控台任意處搜尋資源。在主控台功能表列的搜尋欄位中，鍵入資源的名稱。
+
+按下鍵盤上的 `/` 鍵，將游標導覽至搜尋欄位。
+{: tip}
 
 ## 在儀表板上管理資源
 {: #dashboardview}
 
-您可以使用儀表板來檢視及使用 {{site.data.keyword.cloud_notm}} 資源和 Cloud Foundry 服務實例。如需資源的相關資訊，請參閱[何謂資源？](/docs/resources/acct_resources.html#resource)。
+您可以使用儀表板來檢視及使用 {{site.data.keyword.cloud_notm}} 資源和 Cloud Foundry 服務實例。如需相關資訊，請參閱[何謂資源？](/docs/resources/acct_resources.html#resource)。
 
 ### 檢視資源
 
-您可以從儀表板中檢視帳戶中的所有資源。若要自訂視圖，請使用下列選項：
+您可以從儀表板中檢視帳戶中所有地區的所有資源。若要自訂視圖，請使用下列選項：
 
   * 若要檢視特定資源群組中的資源，請從**資源群組**清單中選取資源群組。
   * 若要檢視特定 Cloud Foundry 組織中的資源，請從 **Cloud Foundry 組織**清單中選取組織。
 
 然後，根據您選取的項目，依下列選項進行過濾：
 
-  * 地區
+  * 位置
   * Cloud Foundry 空間
+  
+如果您想要檢視及使用特定地區的資源，請展開**位置**功能表，並從清單中選取地區。
 
 ### 使用資源
 
 您可以從儀表板以各種方式來使用資源：
 
-  * 每一個資源都會顯示在它自己的列中，並在列尾端包括「其他動作」圖示 ![「其他動作」圖示](../icons/overflow-menu.svg)。按一下「其他動作」圖示，以啟動、停止、重新命名或刪除資源。
+  * 每一個資源都會顯示在它自己的列中，並在列尾端包括「其他動作」圖示 ![「其他動作」圖示](../icons/overflow-menu.svg)。按一下**其他動作**圖示，以啟動、停止、重新命名或刪除資源。
   * 若要設定資源的認證或連線，請按一下資源的名稱以導覽至資源詳細資料頁面。如需相關資訊，請參閱[新增認證](/docs/resources/service_credentials.html)及[管理連線](/docs/resources/connecting_apps.html#connect_app)。
 
 ## 使用型錄
