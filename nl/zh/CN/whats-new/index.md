@@ -4,7 +4,7 @@ copyright:
 
   years: 2015, 2018
 
-lastupdated: "2018-06-26"
+lastupdated: "2018-07-18"
 
 ---
 
@@ -19,6 +19,16 @@ lastupdated: "2018-06-26"
 
 ## {{site.data.keyword.Bluemix_notm}} 平台
 {: #platform_category}
+
+### 搜索资源
+最新更新日期：2018 年 7 月 17 日
+
+您可以在 {{site.data.keyword.cloud_notm}} 控制台中的任何位置搜索资源。在控制台菜单栏的搜索字段中输入资源的名称。
+
+### 将联合用户动态添加到访问组
+最新更新日期：2018 年 7 月 12 日
+
+您可以创建动态规则，以根据特定身份属性自动将联合用户添加到访问组。当用户使用联合标识登录时，身份提供者中的数据会根据设置的规则，将用户动态映射到访问组。有关更多信息，请参阅[为访问组创建动态规则](/docs/iam/accessgroup_rules.html#creating-dynamic-rules-for-access-groups)。
 
 ### 保护服务标识和 API 密钥
 最新更新日期：2018 年 6 月 1 日
@@ -257,6 +267,11 @@ Bluemix 现已更名为 IBM Cloud。除了推出新名称外，没有更改其�
 
 ## 计算
 {: #compute_category}
+
+### 在 {{site.data.keyword.containerlong_notm}} 中创建多专区集群
+最新更新日期：2018 年 7 月 10 日
+
+想要提高集群和应用程序的可用性？现在，您可以使集群跨所选大都会区域中的多个专区分布。有关更多信息，请参阅[在 {{site.data.keyword.containershort_notm}} 中创建多专区集群](cs_clusters.html#multizone)。
 
 ### Kubernetes 仪表板访问涉及 {{site.data.keyword.containerlong_notm}}
 
