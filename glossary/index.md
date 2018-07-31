@@ -3,7 +3,7 @@
 
 copyright:
   years: 2016, 2018
-lastupdated: "2018-06-07"
+lastupdated: "2018-07-31"
 
 
 ---
@@ -11,10 +11,10 @@ lastupdated: "2018-06-07"
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
 
-# Glossary terms for {{site.data.keyword.cloud_notm}}
+# Glossary terms for {{site.data.keyword.cloud_notm}} 
 {: #glossary}
 
-This glossary provides terms and definitions for {{site.data.keyword.cloud_notm}}.
+This glossary provides terms and definitions for {{site.data.keyword.cloud}}.
 {:shortdesc}
 
 The following cross-references are used in this glossary:
@@ -22,7 +22,7 @@ The following cross-references are used in this glossary:
 - *See* refers you from a nonpreferred term to the preferred term or from an abbreviation to the spelled-out form.
 - *See also* refers you to a related or contrasting term.
 
-<!--If you do not want letter links at the top of your
+<!--If you do not want letter links at the top of your 
 glossary, delete the text between these comment tags.
 [A](#glossa)
 [B](#glossb)
@@ -158,7 +158,7 @@ Pertaining to an open, non-proprietary development platform that includes public
 ### buildpack
 {: #x7233925}
 
-A collection of scripts that prepare your code to run on IBM Cloud. Buildpacks examine deployed applications, then download and configure any dependent applications.
+A collection of scripts that prepare your code to run on {{site.data.keyword.cloud_notm}}. Buildpacks examine deployed applications, then download and configure any dependent applications.
 
 
 ## C
@@ -276,7 +276,7 @@ A software methodology that integrates application development and IT operations
 ### domain
 {: #x2021210}
 
-Part of a naming hierarchy that specifies the route. For example, example.com. In IBM Cloud, domains are associated with orgs. Domain objects are not directly bound to apps. See also [custom domain](#x5728384), [host](#x2002243), [organization](#x2032585), [route](#x2037338), [subdomain](#x2040080), [Uniform Resource Locator](#x2042491).
+Part of a naming hierarchy that specifies the route. For example, example.com. In {{site.data.keyword.cloud_notm}}, domains are associated with orgs. Domain objects are not directly bound to apps. See also [custom domain](#x5728384), [host](#x2002243), [organization](#x2032585), [route](#x2037338), [subdomain](#x2040080), [Uniform Resource Locator](#x2042491).
 
 ### droplet
 {: #x7470343}
@@ -319,7 +319,7 @@ A piece of code that configures an external event source to fire trigger events.
 ### file share
 {: #x2022902}
 
-In the IBM cloud environment, a persistent storage system where users store and share files. In IBM Containers, users can mount Docker volumes on file shares.
+In the {{site.data.keyword.cloud_notm}} environment, a persistent storage system where users store and share files. In IBM Containers, users can mount Docker volumes on file shares.
 
 ### fire
 {: #x2239904}
@@ -393,15 +393,25 @@ An Internet protocol that is used by web servers and web browsers to transfer an
 
 See [infrastructure as a service](#x4585332).
 
-### IBM Cloud
+### IAM
+{: #x2193801}
+
+See [identity and access management](#x7547040).
+
+### {{site.data.keyword.cloud_notm}}
 {: #x7301758}
 
 An open-standards, cloud-based platform for building, managing, and running apps of all types, such as web, mobile, big data, and smart devices. Capabilities include Java, mobile back-end development, and application monitoring, as well as features from ecosystem partners and open source&mdash;all provided as-a-service in the cloud.
 
+### identity and access management (IAM)
+{: #x7547040}
+
+The process of controlling access of authorized users to data and applications, while helping companies comply with various regulatory requirements.
+
 ### image
 {: #x2024928}
 
-A complete runtime that can be used to run applications. Images are used to create containers and can contain multiple parent images (layers). See also [base image](#x5366487), [container](#x2010901), [layer](#x2028320), [namespace](#x2031005), [parent image](#x8439210), [private image repository](#x8439215), [registry](#x2064940).
+A file system and its execution parameters that are used within a container runtime to create a container. The file system consists of a series of layers, combined at runtime, that are created as the image is built by successive updates. The image does not retain state as the container executes. See also [base image](#x5366487), [container](#x2010901), [layer](#x2028320), [namespace](#x2031005), [parent image](#x8439210), [private image repository](#x8439215), [registry](#x2064940).
 
 ### infrastructure as a service (IaaS)
 {: #x4585332}
@@ -517,7 +527,7 @@ An infrastructure in which the storage and processing of data for applications i
 ### namespace
 {: #x2031005}
 
-A unique name that identifies your organization's image repository within the IBM Cloud registry. See also [image](#x2024928), [private image repository](#x8439215).
+A unique name that identifies your organization's image repository within the {{site.data.keyword.cloud_notm}} registry. See also [image](#x2024928), [private image repository](#x8439215).
 
 
 ## O
@@ -546,7 +556,7 @@ See [organization](#x2032585).
 ### organization (org)
 {: #x2032585}
 
-The grouping methodology for users in IBM Cloud. Orgs are used to manage quotas. Users in an org share memory and service instance quotas. See also [domain](#x2021210), [space](#x2039442).
+The grouping methodology for users in {{site.data.keyword.cloud_notm}}. Orgs are used to manage quotas. Users in an org share memory and service instance quotas. See also [domain](#x2021210), [space](#x2039442).
 
 
 ## P
@@ -575,7 +585,7 @@ A cloud computing environment in which access is limited to members of an enterp
 ### private image repository
 {: #x8439215}
 
-The combination of an organization's IBM Cloud registry and its namespace. The private image repository is used when referencing an image in a command. See also [image](#x2024928), [namespace](#x2031005).
+The combination of an organization's {{site.data.keyword.cloud_notm}} registry and its namespace. The private image repository is used when referencing an image in a command. See also [image](#x2024928), [namespace](#x2031005).
 
 ### private key
 {: #x2034701}
@@ -590,7 +600,7 @@ An entry that is visible only to account owners and their included accounts. Whe
 ### private service
 {: #x7690456}
 
-A service that is visible only to members of a specified IBM Cloud organization.
+A service that is visible only to members of a specified {{site.data.keyword.cloud_notm}} organization.
 
 ### public cloud
 {: #x4585370}
@@ -600,7 +610,7 @@ A cloud computing environment in which access to standardized resources, such as
 ### public resource
 {: #x9439040}
 
-An entry that is visible to everyone in the IBM Cloud catalog. Public resources can be built by any provider (IBM or third party providers). See also [private resource](#x9439035).
+An entry that is visible to everyone in the {{site.data.keyword.cloud_notm}} catalog. Public resources can be built by any provider (IBM or third party providers). See also [private resource](#x9439035).
 
 ### push
 {: #x2035465}
@@ -659,7 +669,7 @@ See [Representational State Transfer](#x3220976).
 ### route
 {: #x2037338}
 
-The URL used to direct requests to an application. A route is made up of an optional host (or subdomain) and a domain that are specified when an application is pushed. For example, in the route myapp.example.com, myapp is the host and example.com is the domain. A route can be associated with one or more applications. Unless a custom domain is specified, IBM Cloud uses a default shared domain in the route to your application. See also [custom domain](#x5728384), [domain](#x2021210), [endpoint](#x2026820), [host](#x2002243), [subdomain](#x2040080), [Uniform Resource Locator](#x2042491).
+The URL used to direct requests to an application. A route is made up of an optional host (or subdomain) and a domain that are specified when an application is pushed. For example, in the route myapp.example.com, myapp is the host and example.com is the domain. A route can be associated with one or more applications. Unless a custom domain is specified, {{site.data.keyword.cloud_notm}} uses a default shared domain in the route to your application. See also [custom domain](#x5728384), [domain](#x2021210), [endpoint](#x2026820), [host](#x2002243), [subdomain](#x2040080), [Uniform Resource Locator](#x2042491).
 
 ### rule
 {: #x2037526}
@@ -724,7 +734,7 @@ See [system of record](#x6735061).
 ### space
 {: #x2039442}
 
-A sub-group within an IBM Cloud org. Users who are members of an org are given access to one or more of its spaces, with permissions associated with a particular role (such as developer, manager, or auditor). Any member of the space can view apps, but only members with the developer role can create apps and add service instances to the space. Apps and service instances are associated with spaces. See also [organization](#x2032585).
+A sub-group within an {{site.data.keyword.cloud_notm}} org. Users who are members of an org are given access to one or more of its spaces, with permissions associated with a particular role (such as developer, manager, or auditor). Any member of the space can view apps, but only members with the developer role can create apps and add service instances to the space. Apps and service instances are associated with spaces. See also [organization](#x2032585).
 
 ### SSL
 {: #x2483907}
@@ -887,4 +897,3 @@ A compressed file format, defined by the Java EE standard, for storing all the r
 {: #x2096037}
 
 A context that contains a collection of artifacts that a user with appropriate permission can modify.
-
