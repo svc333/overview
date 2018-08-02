@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2018
-lastupdated: "2018-01-29"
+lastupdated: "2018-08-02"
 
 ---
 
@@ -18,7 +18,7 @@ To create resources from the catalog, see [Working in the catalog](/docs/overvie
 ## Managing visibility
 {: #manage-vis}
 
-Do you want more control over what gets displayed in the catalog? Would you like to hide individual resources for some users, and display them to others? With the proper administrator authority, you can view and set visibility on catalog resources by using the {{site.data.keyword.Bluemix_notm}} [CLI](/docs/cli/reference/bluemix_cli/get_started.html#getting-started).
+Do you want more control over what gets displayed in the catalog? Would you like to hide individual resources for some users, and display them to others? With the proper administrator authority, you can view and set visibility on catalog resources by using the {{site.data.keyword.Bluemix_notm}} [CLI](/docs/cli/index.html#overview).
 
 For more information, see the following topics.
 
