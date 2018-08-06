@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2018
-lastupdated: "2018-01-29"
+lastupdated: "2018-08-02"
 
 ---
 
@@ -18,7 +18,7 @@ Informationen zum Erstellen von Ressourcen über den Katalog finden Sie unter [I
 ## Sichtbarkeit verwalten
 {: #manage-vis}
 
-Möchten Sie differenzierter steuern, was im Katalog angezeigt wird? Sollen bestimmte Ressourcen für einige Benutzer ausgeblendet und für andere Benutzer eingeblendet werden? Mit der entsprechenden Administratorberechtigung können Sie die Sichtbarkeit von Katalogressourcen über die {{site.data.keyword.Bluemix_notm}}-[Befehlszeilenschnittstelle](/docs/cli/reference/bluemix_cli/get_started.html#getting-started) ermitteln und festlegen.
+Möchten Sie differenzierter steuern, was im Katalog angezeigt wird? Sollen bestimmte Ressourcen für einige Benutzer ausgeblendet und für andere Benutzer eingeblendet werden? Mit der entsprechenden Administratorberechtigung können Sie die Sichtbarkeit von Katalogressourcen über die {{site.data.keyword.Bluemix_notm}} [-Befehlszeilenschnittstelle](/docs/cli/index.html#overview) anzeigen und festlegen.
 
 Weitere Informationen finden Sie in den folgenden Abschnitten:
 

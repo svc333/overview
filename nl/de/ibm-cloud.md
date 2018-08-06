@@ -13,7 +13,7 @@ lastupdated: "2018-06-14"
 # Übersicht über die Plattform
 {: #overview}
 
-Die innovative {{site.data.keyword.IBM_notm}} Plattform für Cloud-Computing, die eine "Platform as a Service" (PaaS) mit einer "Infrastructure as a Service" (IaaS) kombiniert, bietet einen umfassenden Katalog von Cloud-Services, die leicht mit PaaS und IaaS integriert werden können, um Geschäftsanwendungen in kurzer Zeit erstellen zu können.
+Die innovative {{site.data.keyword.IBM_notm}} Plattform für Cloud-Computing, die eine "Platform as a Service" (PaaS) mit einer "Infrastructure as a Service" (IaaS) kombiniert, bietet einen Katalog von Cloud-Services, die mit PaaS und IaaS integriert werden können, um Geschäftsanwendungen zu erstellen.
 {:shortdesc}
 
 {{site.data.keyword.cloud_notm}} (zuvor Bluemix) verfügt über Cloudbereitstellungen, die Ihre Anforderungen erfüllen, unabhängig davon, ob Sie eine Skalierung für Ihr Kleinunternehmen planen oder ob Sie für Ihr großes Unternehmen eine zusätzliche Schutzisolierung benötigen. Sie können in einer Cloud praktisch grenzenlos entwickeln und Ihre privaten Services mit den öffentlichen {{site.data.keyword.cloud_notm}}-Services von {{site.data.keyword.IBM_notm}} verbinden. Sie und Ihr Team können auf die Apps, Services und Infrastrukturen in {{site.data.keyword.cloud_notm}} zugreifen und vorhandene Daten, Systeme und Prozesse sowie PaaS-Tools und IaaS-Tools verwenden. Entwickler können das schnell wachsende Ökosystem von verfügbaren Services und Laufzeit-Frameworks nutzen, um Anwendungen mit Ansätzen der polyglotten Programmierung zu erstellen.
@@ -74,7 +74,7 @@ können. Die Standorte sind über das fortgeschrittenste Network-within-a-Networ
 Die {{site.data.keyword.cloud_notm}}-Infrastruktur bietet leistungsfähige Bare-Metal-Server und flexible virtuelle Server in einer einzigen übergangslosen Plattform. Alle werden bedarfsgerecht bereitgestellt und monats- bzw. stundenweise berechnet. Bare-Metal-Server bieten die reine Leistung für Ihre prozessorintensiven und Platten-E/A-intensiven Workloads und können nach Ihren genauen Spezifikationen konfiguriert werden. Virtuelle Server ermöglichen eine hohe Geschwindigkeit bei der Bereitstellung, eine flexible Skalierbarkeit und nutzungsabhängige Rechnungsstellung. Um eine hoch leistungsfähige Datenverarbeitung zu erhalten, werten Sie Ihre Cloud mit GPU-Servern auf (GPU - Grafik-Verarbeitungseinheit), die stunden- oder monatsweise zur Verfügung gestellt werden.
 
 Die Angebote der {{site.data.keyword.cloud_notm}}-Infrastruktur sind mit einem dreischichtigen Netz verbunden, das den Datenverkehr in öffentlichen, privaten und Managementdatenverkehr segmentiert. Mit der Infrastruktur auf dem {{site.data.keyword.cloud_notm}}-Konto
-eines Kunden könnten Daten in einer solchen Infrastruktur kostenlos über das
+eines Kunden könnten Daten in einer solchen Infrastruktur kostenfrei über das
 private Netz übertragen
 werden. Infrastrukturangebote, z. B. Bare-Metal-Server, virtuelle Server und Cloudspeicherung, stellen Verbindungen zu anderen Anwendungen und Services im {{site.data.keyword.cloud_notm}}-Katalog her, z. B. Watson-Services, Container oder Laufzeiten im ganzen öffentlichen Netz. Die Datenübertragung zwischen diesen zwei Angebotstypen wird gemessen und zu Standardpreisen für die öffentliche Netzbandbreite berechnet.
 

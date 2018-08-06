@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2018
-lastupdated: "2018-01-29"
+lastupdated: "2018-08-02"
 
 ---
 
@@ -18,7 +18,7 @@ lastupdated: "2018-01-29"
 ## 管理可見性
 {: #manage-vis}
 
-您要進一步控制型錄中顯示的內容嗎？您要隱藏某些使用者的個別資源，但向其他使用者顯示它們嗎？具有適當的管理者權限，即可使用 {{site.data.keyword.Bluemix_notm}} [CLI](/docs/cli/reference/bluemix_cli/get_started.html#getting-started) 來檢視及設定型錄資源的可見性。
+您要進一步控制型錄中顯示的內容嗎？您要隱藏某些使用者的個別資源，但向其他使用者顯示它們嗎？具有適當的管理者權限，即可使用 {{site.data.keyword.Bluemix_notm}} [CLI](/docs/cli/index.html#overview) 來檢視及設定型錄資源的可見性。
 
 如需相關資訊，請參閱下列主題。
 

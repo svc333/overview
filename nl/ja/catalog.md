@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2018
-lastupdated: "2018-01-29"
+lastupdated: "2018-08-02"
 
 ---
 
@@ -18,7 +18,7 @@ lastupdated: "2018-01-29"
 ## 可視性の管理
 {: #manage-vis}
 
-カタログに表示される内容をより細かく管理したいですか? 一部のユーザーには個別リソースを隠し、それと同じリソースを他のユーザーには表示するようにしたいですか? 適切な管理者権限があれば、{{site.data.keyword.Bluemix_notm}} [CLI](/docs/cli/reference/bluemix_cli/get_started.html#getting-started) を使用してカタログ・リソースの可視性を表示したり、設定したりできます。
+カタログに表示される内容をより細かく管理したいですか? 一部のユーザーには個別リソースを隠し、それと同じリソースを他のユーザーには表示するようにしたいですか? 適切な管理者権限があれば、{{site.data.keyword.Bluemix_notm}} [CLI](/docs/cli/index.html#overview) を使用してカタログ・リソースの可視性を表示したり、設定したりできます。
 
 詳しくは、以下のトピックを参照してください。
 

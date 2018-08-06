@@ -3,7 +3,7 @@
 
 copyright:
   years: 2016, 2018
-lastupdated: "2018-06-07"
+lastupdated: "2018-07-31"
 
 
 ---
@@ -11,10 +11,10 @@ lastupdated: "2018-06-07"
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
 
-# Glossareinträge für {{site.data.keyword.cloud_notm}}
+# Glossareinträge für {{site.data.keyword.cloud_notm}} 
 {: #glossary}
 
-In diesem Glossar werden Begriffe und Definitionen für {{site.data.keyword.cloud_notm}} bereitgestellt.
+In diesem Glossar werden Begriffe und Definitionen für {{site.data.keyword.cloud}} bereitgestellt.
 {:shortdesc}
 
 Folgende Querverweise werden in diesem Glossar verwendet:
@@ -22,7 +22,7 @@ Folgende Querverweise werden in diesem Glossar verwendet:
 - *Siehe* verweist Sie von einem wenig verwendeten Begriff zu dem bevorzugten Begriff oder von einer Abkürzung auf die ausgeschriebene Form.
 - *Siehe auch* verweist auf einen verwandten oder gegensätzlichen Begriff.
 
-<!--If you do not want letter links at the top of your
+<!--If you do not want letter links at the top of your 
 glossary, delete the text between these comment tags.
 [A](#glossa)
 [B](#glossb)
@@ -64,9 +64,7 @@ Ein Code-Snippet kann explizit aufgerufen oder als Reaktion auf ein Ereignis aus
 ### Angepasste Domäne
 {: #x5728384}
 
-Der angepasste Teil der URL, die der Benutzer zum Übertragen von Anforderungen an die
-Anwendung auswählt. Die Route besteht aus einer angepassten Domäne. Eine angepasste Domäne kann eine gemeinsame Domäne, eine gemeinsame Unterdomäne oder eine
-gemeinsame Domäne und ein gemeinsamer Host sein. Siehe auch [Domäne](#x2021210), [Host](#x2002243), [Route](#x2037338), [Unterdomäne](#x2040080) und [Uniform Resource Locator](#x2042491).
+Der angepasste Teil der URL, die der Benutzer zum Übertragen von Anforderungen an die Anwendung auswählt. Die Route besteht aus einer angepassten Domäne. Eine angepasste Domäne kann eine gemeinsame Domäne, eine gemeinsame Unterdomäne oder eine gemeinsame Domäne und ein gemeinsamer Host sein. Siehe auch [Domäne](#x2021210), [Host](#x2002243), [Route](#x2037338), [Unterdomäne](#x2040080) und [Uniform Resource Locator](#x2042491).
 
 
 ### Anti-Affinität
@@ -77,9 +75,7 @@ Zwei oder mehr Containergruppeninstanzen werden auf verschiedenen Netzwerkknoten
 ### Anwendungsprogrammierschnittstelle (API)
 {: #x2000186}
 
-Eine Schnittstelle, die es einem in einer höheren Programmiersprache geschriebenen
-Anwendungsprogramm ermöglicht, bestimmte Daten oder Funktionen des Betriebssystems oder
-eines anderen Programms zu verwenden.
+Eine Schnittstelle, die es einem in einer höheren Programmiersprache geschriebenen Anwendungsprogramm ermöglicht, bestimmte Daten oder Funktionen des Betriebssystems oder eines anderen Programms zu verwenden.
 
 ### API
 {: #x2008805}
@@ -95,20 +91,17 @@ Eine Webanwendung oder Anwendung für mobile Geräte. Siehe auch [Mobile Anwendu
 {: #x2096037}
 
 Ein Kontext, der eine Sammlung von Artefakten enthält, die von Benutzern mit entsprechender Berechtigung geändert werden können.
-
 ### Artefakt
 {: #x2262995}
 
-Eine Entität, die von einem Software- oder einen Systementwicklungsprozess verwendet oder erstellt wird. Beispiele sind Entwürfe, Anforderungen, Quellendateien, Pläne, Scripts,
-Simulationen, Modelle, Testpläne und binäre ausführbare Dateien. In einem HTTP-Kontext
-haben Artefakte eine URI und werden Ressourcen genannt.
+Eine Entität, die von einem Software- oder einen Systementwicklungsprozess verwendet oder erstellt wird. Beispiele sind Entwürfe, Anforderungen, Quellendateien, Pläne, Scripts, Simulationen, Modelle, Testpläne und binäre ausführbare Dateien. In einem HTTP-Kontext haben Artefakte eine URI und werden Ressourcen genannt.
 
 ### Aufrufen
 {: #x2057232}
 
 Das Aktivieren einer Aktion. Siehe auch [Aktion](#x2012974).
 
-### auslösen
+### Auslösen
 {: #x2239904}
 
 Das Aktivieren eines Auslösers.
@@ -151,23 +144,25 @@ Ein Image, das nicht über ein übergeordnetes Image verfügt. Siehe auch [Image
 
 Eine Computerschnittstelle mit textbasierter Ein- und Ausgabe.
 
+### Berechnung
+{: #x3723424}
+
+Infrastruktur oder Ressourcen, die als Basis für die Erstellung von Apps in der Cloud dienen.
+
 ### Berechtigungsnachweis
 {: #x2018813}
 
-Während der Authentifizierung angeforderte Informationen, die einen Benutzer, Gruppenzuordnungen oder
-andere sicherheitsrelevante Identitätsattribute beschreiben und die für die Ausführung von Services wie z. B. Berechtigung,
-Prüfung oder Delegierung verwendet werden. Eine Benutzer-ID und ein Kennwort sind beispielsweise Berechtigungsnachweise, durch die der Zugriff auf ein Netz und auf Systemressourcen gewährt wird.
+Während der Authentifizierung angeforderte Informationen, die einen Benutzer, Gruppenzuordnungen oder andere sicherheitsrelevante Identitätsattribute beschreiben und die für die Ausführung von Services wie z. B. Berechtigung, Prüfung oder Delegierung verwendet werden. Eine Benutzer-ID und ein Kennwort sind beispielsweise Berechtigungsnachweise, durch die der Zugriff auf ein Netz und auf Systemressourcen gewährt wird.
 
 ### Bereich
 {: #x2039442}
 
-Eine Untergruppe innerhalb einer IBM Cloud-Organisation. Benutzer, die Mitglieder einer Organisation sind, erhalten Zugriff auf einen oder mehrere ihrer Bereiche, wobei die Berechtigungen einer bestimmten Rolle zugeordnet sind (z. B. Entwickler, Manager oder Prüfer). Jedes Mitglied des Bereichs kann Apps anzeigen, aber nur Mitglieder mit der Rolle des Entwicklers können Apps erstellen und dem Bereich Serviceinstanzen hinzufügen. Apps und Serviceinstanzen werden den Bereichen zugeordnet. Siehe auch [Organisation](#x2032585).
+Eine Untergruppe innerhalb einer {{site.data.keyword.cloud_notm}}-Organisation. Benutzer, die Mitglieder einer Organisation sind, erhalten Zugriff auf einen oder mehrere ihrer Bereiche, wobei die Berechtigungen einer bestimmten Rolle zugeordnet sind (z. B. Entwickler, Manager oder Prüfer). Jedes Mitglied des Bereichs kann Apps anzeigen, aber nur Mitglieder mit der Rolle des Entwicklers können Apps erstellen und dem Bereich Serviceinstanzen hinzufügen. Apps und Serviceinstanzen werden den Bereichen zugeordnet. Siehe auch [Organisation](#x2032585).
 
 ### Bereitstellung
 {: #x2104544}
 
-Ein Prozess, durch den die Ausgabe eines Builds abgerufen, die Ausgabe mit Konfigurationseigenschafen
-paketiert und dieses Paket zum Testen oder Ausführen in einer vordefinierten Position installiert wird. Siehe auch [Staging](#x2067189).
+Ein Prozess, durch den die Ausgabe eines Builds abgerufen, die Ausgabe mit Konfigurationseigenschafen paketiert und dieses Paket zum Testen oder Ausführen in einer vordefinierten Position installiert wird. Siehe auch [Staging](#x2067189).
 
 ### Betaservice
 {: #x7470455}
@@ -177,40 +172,27 @@ Ein Service, der für die Produktionsumgebung noch nicht einsatzfähig ist und s
 ### Binden
 {: #x2000361}
 
-Das Herstellen einer Verbindung zwischen Softwarekomponenten in einem Netz mithilfe eines vereinbarten Protokolls. Bei Web-Services findet die
-Bindeoperation statt, wenn der Serviceanforderer (Requestor) zur Laufzeit eine Interaktion mit einem Service aufruft oder einleitet und dabei die in
-der Servicebeschreibung zur Verfügung stehenden Bindungsdetails verwendet, um den Service zu suchen, zu kontaktieren und aufzurufen.
+Das Herstellen einer Verbindung zwischen Softwarekomponenten in einem Netz mithilfe eines vereinbarten Protokolls. Bei Web-Services findet die Bindeoperation statt, wenn der Serviceanforderer (Requestor) zur Laufzeit eine Interaktion mit einem Service aufruft oder einleitet und dabei die in der Servicebeschreibung zur Verfügung stehenden Bindungsdetails verwendet, um den Service zu suchen, zu kontaktieren und aufzurufen.
 
 ### BLU Acceleration
 {: #x7470463}
 
-Eine Sammlung von IBM Db2-Technologien, die vorrangig für den Gebrauch in der Abfrageverarbeitung von
-Read-mostly-Business-Intelligence-Daten konzipiert sind. BLU Acceleration enthält vier bedeutende
-Verbesserungen in der Datenbankgestaltung: dynamische speicherinterne Spaltenverarbeitung, verlässliche
-Komprimierung, parallele Vektorverarbeitung sowie das Überspringen von Daten.
+Eine Sammlung von IBM Db2-Technologien, die vorrangig für den Gebrauch in der Abfrageverarbeitung von Read-mostly-Business-Intelligence-Daten konzipiert sind. BLU Acceleration enthält vier bedeutende Verbesserungen in der Datenbankgestaltung: dynamische speicherinterne Spaltenverarbeitung, verlässliche Komprimierung, parallele Vektorverarbeitung sowie das Überspringen von Daten.
 
 ### Blue-Green-Implementierung (Bereitstellung)
 {: #x7807335}
 
-Hierbei handelt es sich um ein Implementierungsverfahren, das eine Continuous Delivery ermöglicht und
-Ausfallzeiten durch die Ausführung von zwei beinahe identischen Produktionsumgebungen
-reduziert, die 'Blue' und 'Green' genannt werden. Dabei ist die eine Umgebung (z. B. die Umgebung 'Blue')
-die Live-Produktionsumgebung und die andere Umgebung (z. B. die Umgebung 'Green')
-kann für finale Test- und Implementierungszwecke verwendet werden. Nach der Implementierung
-der Anwendung in 'Green' wird 'Green' zur Produktionsumgebung und
-'Blue' wird inaktiviert. Siehe auch [Rollierende Bereitstellung (Red-Black)](#x8439181).
+Hierbei handelt es sich um ein Implementierungsverfahren, das eine Continuous Delivery ermöglicht und Ausfallzeiten durch die Ausführung von zwei beinahe identischen Produktionsumgebungen reduziert, die 'Blue' und 'Green' genannt werden. Dabei ist die eine Umgebung (z. B. die Umgebung 'Blue') die Live-Produktionsumgebung und die andere Umgebung (z. B. die Umgebung 'Green') kann für finale Test- und Implementierungszwecke verwendet werden. Nach der Implementierung der Anwendung in 'Green' wird 'Green' zur Produktionsumgebung und 'Blue' wird inaktiviert. Siehe auch [Rollierende Bereitstellung (Red-Black)](#x8439181).
 
-### boilerplate
+### Boilerplate
 {: #x7233930}
 
-Eine Vorlage, die genau eine Anwendung und die zugehörige Laufzeitumgebung sowie vordefinierte Services für
-eine bestimmte Domäne umfasst.
+Eine Vorlage, die genau eine Anwendung und die zugehörige Laufzeitumgebung sowie vordefinierte Services für eine bestimmte Domäne umfasst.
 
 ### Buildpack
 {: #x7233925}
 
-Eine Sammlung von Scripts zur Vorbereitung Ihres Codes für die Ausführung in IBM Cloud. Buildpacks prüfen
-bereitgestellte Anwendungen und laden anschließend abhängige Anwendungen herunter und konfigurieren diese.
+Eine Sammlung von Scripts zur Vorbereitung Ihres Codes für die Ausführung in {{site.data.keyword.cloud_notm}}. Buildpacks prüfen bereitgestellte Anwendungen und laden anschließend abhängige Anwendungen herunter und konfigurieren diese.
 
 
 ## C
@@ -241,11 +223,6 @@ Eine Datenverarbeitungsplattform, auf der Benutzer über ihre verbundenen Gerät
 
 Die Fähigkeit zum Verschieben von Anwendungen und Services in öffentlichen oder privaten Cloud-Computing-Umgebungen oder von unterschiedlichen Cloud-Anbietern.
 
-### compute
-{: #x3723424}
-
-Infrastruktur oder Ressourcen, die als Basis für die Erstellung von Apps in der Cloud dienen.
-
 ### Container
 {: #x2010901}
 
@@ -262,8 +239,7 @@ Siehe [Zertifikatssignieranforderung](#x3530521).
 ### Dämon
 {: #x2019215}
 
-Ein Programm, das unbeaufsichtigt aktiv ist und kontinuierliche oder wiederkehrende Funktionen wie zum
-Beispiel Funktionen der Netzsteuerung ausführt.
+Ein Programm, das unbeaufsichtigt aktiv ist und kontinuierliche oder wiederkehrende Funktionen wie zum Beispiel Funktionen der Netzsteuerung ausführt.
 
 ### Dashboard
 {: #x2363941}
@@ -273,7 +249,7 @@ Eine Komponente in einer Benutzerschnittstelle, die für den Benutzer eine umfas
 ### Dateifreigabe
 {: #x2022902}
 
-Ein persistentes Speichersystem in der IBM Cloudumgebung, in dem Benutzer Dateien speichern und freigeben. Benutzer können in IBM Containern Docker-Datenträger für die Dateifreigabe anhängen.
+Ein persistentes Speichersystem in der {{site.data.keyword.cloud_notm}}-Umgebung, in dem Benutzer Dateien speichern und freigeben. Benutzer können in IBM Containern Docker-Datenträger für die Dateifreigabe anhängen.
 
 ### Datenspeicher
 {: #x2052849}
@@ -298,13 +274,12 @@ Eine Software-Methodik, durch die Anwendungsentwicklung und IT-Betrieb so integr
 ### Domäne
 {: #x2021210}
 
-Teil einer Benennungshierarchie, mit dem eine Route angegeben wird. Beispiel: example.com. In IBM Cloud werden Domänen Organisationen zugeordnet. Domänenobjekte werden nicht direkt an Apps gebunden. Siehe auch [Angepasste Domäne](#x5728384), [Host](#x2002243), [Organisation](#x2032585), [Route](#x2037338), [Unterdomäne](#x2040080) und [Uniform Resource Locator](#x2042491).
+Teil einer Benennungshierarchie, mit dem eine Route angegeben wird. Beispiel: example.com. In {{site.data.keyword.cloud_notm}} werden Domänen Organisationen zugeordnet. Domänenobjekte werden nicht direkt an Apps gebunden. Siehe auch [Angepasste Domäne](#x5728384), [Host](#x2002243), [Organisation](#x2032585), [Route](#x2037338), [Unterdomäne](#x2040080) und [Uniform Resource Locator](#x2042491).
 
 ### Drittanbieter
 {: #x2877945}
 
-Bezieht sich auf ein Produkt oder einen Service, das/der von einem anderen Unternehmen als
-IBM bereitgestellt wird.
+Bezieht sich auf ein Produkt oder einen Service, das/der von einem anderen Unternehmen als IBM bereitgestellt wird.
 
 ### Droplet
 {: #x7470343}
@@ -323,15 +298,12 @@ Die Komponente in Cloud Foundry, die für die Bereitstellung von Anwendungen zus
 ### Ebene
 {: #x2028320}
 
-Eine geänderte Version des übergeordneten Image. Images bestehen aus Ebenen, wobei die geänderte Version oberhalb des übergeordneten Image zum Erstellen eines neuen Image geschichtet wird. Siehe auch
-[Container](#x2010901), [Image](#x2024928).
+Eine geänderte Version des übergeordneten Image. Images bestehen aus Ebenen, wobei die geänderte Version oberhalb des übergeordneten Image zum Erstellen eines neuen Image geschichtet wird. Siehe auch [Container](#x2010901), [Image](#x2024928).
 
 ### Einfacher API-Aufruf
 {: #x7690463}
 
-Eine Clientoperation, bei der nur Daten gelesen werden. Einfache API-Aufrufe
-beanspruchen weniger Ressourcen als komplexe API-Aufrufe, da sie nur eine einzige Funktion
-haben. Siehe auch [Komplexer API-Aufruf](#x7690468).
+Eine Clientoperation, bei der nur Daten gelesen werden. Einfache API-Aufrufe beanspruchen weniger Ressourcen als komplexe API-Aufrufe, da sie nur eine einzige Funktion haben. Siehe auch [Komplexer API-Aufruf](#x7690468).
 
 ### Endpunkt
 {: #x2026820}
@@ -352,7 +324,7 @@ Ein Service, der nicht produktionsreif ist und jederzeit aus der Produktion entf
 
 Ein Codeabschnitt, der eine externe Ereignisquelle zum Auslösen von Auslöserereignissen konfiguriert. Siehe auch [Aktion](#x2012974).
 
-### föderieren
+### Föderieren
 {: #x2763229}
 
 Das Zusammenfügen von zwei oder mehreren Entitäten. Zum Beispiel kann die registrierte Domäne eines Unternehmens mit einer IBMid föderiert werden.
@@ -413,8 +385,7 @@ Eine Cloud-Computing-Umgebung, die aus mehreren öffentlichen und privaten Resso
 ### Hypertext Transfer Protocol Secure (HTTPS)
 {: #x2237225}
 
-Ein Internetprotokoll, das von Webservern und Web-Browsern benutzt wird, um Hypermediadokumente sicher über das Internet zu übertragen und
-anzuzeigen.
+Ein Internetprotokoll, das von Webservern und Web-Browsern benutzt wird, um Hypermediadokumente sicher über das Internet zu übertragen und anzuzeigen.
 
 
 ## I
@@ -425,19 +396,20 @@ anzuzeigen.
 
 Siehe [Infrastructure as a Service](#x4585332).
 
-### IBM Cloud
-{: #x7301758}
+### IAM
+{: #x2193801}
 
-Eine cloudbasierte Plattform mit offenen Standards für die Erstellung, Verwaltung und Ausführung von
-Apps aller Typen, z. B. Web- oder mobile Geräte sowie Big Data- oder intelligente mobile Endgeräte. Das Leistungsspektrum
-umfasst Java, Back-End-Entwicklung für mobile Anwendungen und Anwendungsüberwachung sowie Funktionen von
-Ökosystempartnern und Open Source. Alle Funktionen werden als Service ('as-a-Service') in der Cloud
-zur Verfügung gestellt.
+Siehe [Identity and Access Management](#x7547040).
+
+### Identity and Access Management (IAM)
+{: #x7547040}
+
+Das Steuern des Zugriffs berechtigter Benutzer auf Daten und Anwendungen und die Unterstützung von Unternehmen bei der Einhaltung gesetzlicher Bestimmungen.
 
 ### Image
 {: #x2024928}
 
-Eine vollständige Laufzeit, die zum Ausführen von Anwendungen verwendet werden kann. Images werden zum Erstellen von Containern verwendet und enthalten mehrere übergeordnete Images (Ebenen). Siehe auch [Basisimage](#x5366487), [Container](#x2010901), [Ebene](#x2028320), [Namensbereich](#x2031005), [Übergeordnetes Image](#x8439210), [Privates Image-Repository](#x8439215) und [Registry](#x2064940).
+Ein Dateisystem und die zugehörigen Ausführungsparameter, die in einer Containerlaufzeit verwendet werden, um einen Container zu erstellen. Das Dateisystem besteht aus einer Reihe von Ebenen, die zur Laufzeit kombiniert und beim Build des Images anhand aufeinanderfolgender Aktualisierungen erstellt werden. Das Image behält bei der Ausführung des Containers den Status nicht. Siehe auch [Basisimage](#x5366487), [Container](#x2010901), [Ebene](#x2028320), [Namensbereich](#x2031005), [Übergeordnetes Image](#x8439210), [Privates Image-Repository](#x8439215) und [Registry](#x2064940).
 
 ### Infrastructure as a Service (IaaS)
 {: #x4585332}
@@ -487,9 +459,7 @@ Die visuelle Darstellung einer aktiven Anwendung, die auf einem Dashboard den St
 ### Komplexer API-Aufruf
 {: #x7690468}
 
-Eine Clientoperation, bei der Daten geschrieben, gelöscht oder eingefügt werden. Bei komplexen
-API-Aufrufen werden mehr Ressourcen als bei einfachen API-Aufrufen beansprucht, da
-sie sich auf die Daten auswirken. Siehe auch [Einfacher API-Aufruf](#x7690463).
+Eine Clientoperation, bei der Daten geschrieben, gelöscht oder eingefügt werden. Bei komplexen API-Aufrufen werden mehr Ressourcen als bei einfachen API-Aufrufen beansprucht, da sie sich auf die Daten auswirken. Siehe auch [Einfacher API-Aufruf](#x7690463).
 
 ### Komponente
 {: #x2017871}
@@ -513,10 +483,7 @@ Siehe [Lightweight Directory Access Protocol](#x2028538).
 ### Lightweight Directory Access Protocol (LDAP)
 {: #x2028538}
 
-Ein offenes Protokoll, das über TCP/IP Zugriff auf Verzeichnisse ermöglicht, die ein X.500-Modell unterstützen und
-nicht den Ressourcenbedarf des komplexeren X.500 Directory Access Protocol (DAP) haben. LDAP kann zum
-Beispiel zur Suche von Personen, Organisationen und anderen Ressourcen in einem Internet- oder
-Intranet-Verzeichnis verwendet werden.
+Ein offenes Protokoll, das über TCP/IP Zugriff auf Verzeichnisse ermöglicht, die ein X.500-Modell unterstützen und nicht den Ressourcenbedarf des komplexeren X.500 Directory Access Protocol (DAP) haben. LDAP kann zum Beispiel zur Suche von Personen, Organisationen und anderen Ressourcen in einem Internet- oder Intranet-Verzeichnis verwendet werden.
 
 ### Lokale Cloud
 {: #x8439194}
@@ -540,10 +507,7 @@ Siehe [Mobile Backend as a Service](#x7044858).
 ### Mobile Anwendung (mobile App)
 {: #x4258535}
 
-Eine Anwendung, die für eine mobile Plattform entworfen wurde. Ähnlich wie bei
-Webanwendungen weisen mobile Anwendungen (oder Apps) einige Funktionen
-auf, die über die statische Informationsanzeige hinausgehen. Der Benutzer kann z. B. News
-echtzeitnah filtern. Siehe auch [Anwendung (App)](#x4281528).
+Eine Anwendung, die für eine mobile Plattform entworfen wurde. Ähnlich wie bei Webanwendungen weisen mobile Anwendungen (oder Apps) einige Funktionen auf, die über die statische Informationsanzeige hinausgehen. Der Benutzer kann z. B. News echtzeitnah filtern. Siehe auch [Anwendung (App)](#x4281528).
 
 ### Mobile App
 {: #x7636517}
@@ -553,8 +517,7 @@ Siehe [Mobile Anwendung](#x4258535).
 ### Mobile Backend as a Service (MBaaS)
 {: #x7044858}
 
-Ein Datenverarbeitungsmodell, das mobile Anwendungen mit Cloud-Computing-Services verbindet und Funktionen wie Benutzermanagement,
-Push-Benachrichtigungen und Integration mit sozialen Netzwerken über eine vereinheitlichte API und ein einheitliches SDK bereitstellt.
+Ein Datenverarbeitungsmodell, das mobile Anwendungen mit Cloud-Computing-Services verbindet und Funktionen wie Benutzermanagement, Push-Benachrichtigungen und Integration mit sozialen Netzwerken über eine vereinheitlichte API und ein einheitliches SDK bereitstellt.
 
 ### Mobile Cloud
 {: #x4585344}
@@ -568,7 +531,7 @@ Eine Infrastruktur, in der die Speicherung und Verarbeitung von Daten für Anwen
 ### Namensbereich
 {: #x2031005}
 
-Ein eindeutiger Name, mit dem das Image-Repository der Organisation im IBM Cloud-Repository identifiziert werden kann. Siehe auch [Image](#x2024928) und [Privates Image-Repository](#x8439215).
+Ein eindeutiger Name, mit dem das Image-Repository der Organisation in der {{site.data.keyword.cloud_notm}}-Registry identifiziert werden kann. Siehe auch [Image](#x2024928) und [Privates Image-Repository](#x8439215).
 
 
 ## O
@@ -587,7 +550,7 @@ Eine Cloud-Computing-Umgebung, in der der Zugriff auf standardisierte Ressourcen
 ### Öffentliche Ressource
 {: #x9439040}
 
-Ein Eintrag, der für jeden im IBM Cloud-Katalog sichtbar ist. Öffentliche Ressourcen können von jedem Anbieter (von IBM oder von anderen Anbietern) erstellt werden. Siehe auch [Private Ressource](#x9439035).
+Ein Eintrag, der für jeden im {{site.data.keyword.cloud_notm}}-Katalog sichtbar ist. Öffentliche Ressourcen können von jedem Anbieter (von IBM oder von anderen Anbietern) erstellt werden. Siehe auch [Private Ressource](#x9439035).
 
 ### On-Premise
 {: #x6969434}
@@ -602,7 +565,7 @@ Siehe [Organisation](#x2032585).
 ### Organisation (Org)
 {: #x2032585}
 
-Die Gruppierungsmethodik für Benutzer in IBM Cloud. Organisationen werden zum Verwalten von Kontingenten verwendet. Die Benutzer einer Organisation nutzen Speicher und Serviceinstanzen gemeinsam. Siehe auch [Domäne](#x2021210), [Bereich](#x2039442).
+Die Gruppierungsmethodik für Benutzer in {{site.data.keyword.cloud_notm}}. Organisationen werden zum Verwalten von Kontingenten verwendet. Die Benutzer einer Organisation nutzen Speicher und Serviceinstanzen gemeinsam. Siehe auch [Domäne](#x2021210), [Bereich](#x2039442).
 
 
 ## P
@@ -636,12 +599,12 @@ Ein algorithmisches Muster, das verwendet wird, um Nachrichten zu verschlüsseln
 ### Privater Service
 {: #x7690456}
 
-Ein Service, der nur für Mitglieder einer bestimmten IBM Cloud-Organisation sichtbar ist.
+Ein Service, der nur für Mitglieder einer bestimmten {{site.data.keyword.cloud_notm}}-Organisation sichtbar ist.
 
 ### Privates Image-Repository
 {: #x8439215}
 
-Die Kombination aus der IBM Cloud-Registry einer Organisation und ihrem Namensbereich. Ein privates Image-Repository wird verwendet, wenn in einem Befehl auf eine Image verwiesen wird. Siehe auch [Image](#x2024928) und [Namensbereich](#x2031005).
+Die Kombination aus der {{site.data.keyword.cloud_notm}}-Registry einer Organisation und ihrem Namensbereich. Ein privates Image-Repository wird verwendet, wenn in einem Befehl auf eine Image verwiesen wird. Siehe auch [Image](#x2024928) und [Namensbereich](#x2031005).
 
 ### Push-Benachrichtigung
 {: #x5599582}
@@ -652,8 +615,7 @@ Ein Alert, der auf dem Symbol einer mobilen App auf eine Änderung oder ein Upda
 ### Push-Operation
 {: #x2035465}
 
-Das Senden von Informationen von einem Server an einen Client. Wenn ein Server Inhalte mit einer Push-Operation sendet, wird die Transaktion vom
-Server selbst und nicht nach einer Aufforderung durch den Client eingeleitet.
+Das Senden von Informationen von einem Server an einen Client. Wenn ein Server Inhalte mit einer Push-Operation sendet, wird die Transaktion vom Server selbst und nicht nach einer Aufforderung durch den Client eingeleitet.
 
 ## R
 {: #glossr}
@@ -667,29 +629,22 @@ Bezeichnet Daten, die dynamischen Änderungen unterliegen.
 {: #x2037526}
 
 - Ein Kriterium ordnet genau einen Auslöser genau einer Aktion zu, wobei jede Aktivierung des Auslösers zur Folge hat, dass die entsprechende Aktion mit dem Auslöserereignis als Eingabe aufgerufen wird.
-- Eine Gruppe bedingter Anweisungen, mit deren Hilfe Computersysteme Beziehungen identifizieren und entsprechend automatisierte Antworten ausführen
-können.
+- Eine Gruppe bedingter Anweisungen, mit deren Hilfe Computersysteme Beziehungen identifizieren und entsprechend automatisierte Antworten ausführen können.
 
 ### Region
 {: #x2091391}
 
-Ein definiertes geografisches Gebiet. Bei einer Region kann es sich um einen bestimmten Postleitzahlenbereich, einen Ort, ein Bundesland/Kanton,
-eine Gruppe von Bundesländern/Kantonen oder auch eine Gruppe von Ländern handeln. Eine Region kann auch eine Reihe anderer Regionen oder eine Reihe
-von Postleitzahlen umfassen, die diese Region bilden.
+Ein definiertes geografisches Gebiet. Bei einer Region kann es sich um einen bestimmten Postleitzahlenbereich, einen Ort, ein Bundesland/Kanton, eine Gruppe von Bundesländern/Kantonen oder auch eine Gruppe von Ländern handeln. Eine Region kann auch eine Reihe anderer Regionen oder eine Reihe von Postleitzahlen umfassen, die diese Region bilden.
 
 ### Registry
 {: #x2064940}
 
-Ein öffentliches oder nicht öffentliches Repository, das Images enthält, die für die Erstellung von
-Containern verwendet werden. Siehe auch
-[Container](#x2010901), [Image](#x2024928).
+Ein öffentliches oder nicht öffentliches Repository, das Images enthält, die für die Erstellung von Containern verwendet werden. Siehe auch [Container](#x2010901), [Image](#x2024928).
 
 ### Representational State Transfer (REST)
 {: #x3220976}
 
-Ein Softwarearchitekturstil für verteilte Hypermediasysteme wie das World Wide Web. Dieser Begriff wird auch häufig verwendet, um eine einfache
-Schnittstelle zu beschreiben, die XML (oder YAML, JSON, einfacher Text) über HTTP verwendet und dabei ohne eine zusätzliche Messaging-Ebene wie zum
-Beispiel SOAP auskommt.
+Ein Softwarearchitekturstil für verteilte Hypermediasysteme wie das World Wide Web. Dieser Begriff wird auch häufig verwendet, um eine einfache Schnittstelle zu beschreiben, die XML (oder YAML, JSON, einfacher Text) über HTTP verwendet und dabei ohne eine zusätzliche Messaging-Ebene wie zum Beispiel SOAP auskommt.
 
 ### Ressource
 {: #x2004267}
@@ -714,9 +669,7 @@ Ein Bereitstellungsverfahren, bei dem Continuous Delivery aufgrund synchronisier
 ### Route
 {: #x2037338}
 
-Die verwendete URL, um Anforderungen an eine Anwendung zu senden. Eine Route besteht aus einem
-optionalen Host (oder einer Unterdomäne) und einer Domäne, die bei der Push-Operation für eine Anwendung angegeben werden.  Beispiel: In der
-Route 'myapp.example.com' ist 'myapp' der Host und 'example.com' ist die Domäne. Eine Route kann einer oder mehreren Anwendungen zugeordnet sein. Wenn keine angepasste Domäne angegeben ist, arbeitet IBM Cloud mit einer gemeinsamen Standarddomäne in der Route für Ihre Anwendung. Siehe auch [Angepasste Domäne](#x5728384), [Domäne](#x2021210), [Endpunkt](#x2026820), [Host](#x2002243), [Unterdomäne](#x2040080), [Uniform Resource Locator](#x2042491).
+Die verwendete URL, um Anforderungen an eine Anwendung zu senden. Eine Route besteht aus einem optionalen Host (oder einer Unterdomäne) und einer Domäne, die bei der Push-Operation für eine Anwendung angegeben werden.  Beispiel: In der Route 'myapp.example.com' ist 'myapp' der Host und 'example.com' ist die Domäne. Eine Route kann einer oder mehreren Anwendungen zugeordnet sein. Wenn keine angepasste Domäne angegeben ist, arbeitet {{site.data.keyword.cloud_notm}} mit einer gemeinsamen Standarddomäne in der Route für Ihre Anwendung. Siehe auch [Angepasste Domäne](#x5728384), [Domäne](#x2021210), [Endpunkt](#x2026820), [Host](#x2002243), [Unterdomäne](#x2040080), [Uniform Resource Locator](#x2042491).
 
 ## S
 {: #glosss}
@@ -729,28 +682,27 @@ Siehe [Software as a Service](#x4585386).
 ### Secure Sockets Layer (SSL)
 {: #x2038004}
 
-Ein Sicherheitsprotokoll, das die Vertraulichkeit der Kommunikation gewährleistet. Mit SSL können Client/Server-Anwendungen so kommunizieren,
-dass kein Abhören, kein Vortäuschen einer anderen Identität und keine Nachrichtenfälschung möglich ist. Siehe auch [Zertifizierungsstelle (CA, Certificate Authority)](#x2016383).
+Ein Sicherheitsprotokoll, das die Vertraulichkeit der Kommunikation gewährleistet. Mit SSL können Client/Server-Anwendungen so kommunizieren, dass kein Abhören, kein Vortäuschen einer anderen Identität und keine Nachrichtenfälschung möglich ist. Siehe auch [Zertifizierungsstelle (CA, Certificate Authority)](#x2016383).
 
 ### Service
 {: #x2038343}
 
-Eine Cloud-Erweiterung, die sofort einsetzbare Funktionen wie z. B. Datenbanken, Nachrichtenübermittlung
-und Web-Software für die Ausführung von Code oder Anwendungsmanagement oder Überwachungsfunktionen bereitstellt. Services
-erfordern gewöhnlich keine Installation oder Wartung und könnten miteinander kombiniert werden, um Anwendungen zu erstellen.
+Eine Cloud-Erweiterung, die sofort einsetzbare Funktionen wie z. B. Datenbanken, Nachrichtenübermittlung und Web-Software für die Ausführung von Code oder Anwendungsmanagement oder Überwachungsfunktionen bereitstellt. Services erfordern gewöhnlich keine Installation oder Wartung und könnten miteinander kombiniert werden, um Anwendungen zu erstellen.
 
 ### Single Sign-on (SSO)
 {: #x2213318}
 
-Ein Authentifizierungsprozess, bei dem ein Benutzer durch Eingabe nur einer Benutzer-ID mit Kennwort auf
-mehrere Systeme oder Anwendungen zugreifen kann.
+Ein Authentifizierungsprozess, bei dem ein Benutzer durch Eingabe nur einer Benutzer-ID mit Kennwort auf mehrere Systeme oder Anwendungen zugreifen kann.
+
+### {{site.data.keyword.cloud_notm}}
+{: #x7301758}
+
+Eine cloudbasierte Plattform mit offenen Standards für die Erstellung, Verwaltung und Ausführung von Apps aller Typen, z. B. Web- oder mobile Geräte sowie Big Data- oder intelligente mobile Endgeräte. Das Leistungsspektrum umfasst Java, Back-End-Entwicklung für mobile Anwendungen und Anwendungsüberwachung sowie Funktionen von Ökosystempartnern und Open Source. Alle Funktionen werden als Service ('as-a-Service') in der Cloud zur Verfügung gestellt.
 
 ### Sitzung
 {: #x2004539}
 
-Der Zeitraum, nachdem eine App auf einem mobilen Gerät gestartet und das Qualitätssicherungsprodukt
-benachrichtigt wurde, dass es mit der Erfassung von Informationen zum Appverhalten sowie von Problemen und
-Fehlern beginnen kann.
+Der Zeitraum, nachdem eine App auf einem mobilen Gerät gestartet und das Qualitätssicherungsprodukt benachrichtigt wurde, dass es mit der Erfassung von Informationen zum Appverhalten sowie von Problemen und Fehlern beginnen kann.
 
 ### Skalieren
 {: #x2004442}
@@ -760,9 +712,7 @@ Das Vergrößern der Plattform- oder Systemkapazität durch Hinzufügen weiterer
 ### Software as a Service (SaaS)
 {: #x4585386}
 
-Ein Modell der Softwarebereitstellung, bei dem Software, einschließlich Geschäftsprozessen,
-Unternehmensanwendungen und Tools, für die Onlinezusammenarbeit über die Cloud in Form eines Service
-für Kunden verfügbar gemacht wird.
+Ein Modell der Softwarebereitstellung, bei dem Software, einschließlich Geschäftsprozessen, Unternehmensanwendungen und Tools, für die Onlinezusammenarbeit über die Cloud in Form eines Service für Kunden verfügbar gemacht wird.
 
 ### SOR
 {: #x2214822}
@@ -782,29 +732,22 @@ Siehe [Single Sign-on](#x2213318).
 ### Staging
 {: #x2067189}
 
-Das Bereitstellen einer Anwendung, eines Service oder einer Instanz in einer vordefinierten Position zum
-Ausführen oder Testen vor der Bereitstellung in einer Produktionsumgebung. Siehe auch
-[Bereitstellung](#x2104544).
+Das Bereitstellen einer Anwendung, eines Service oder einer Instanz in einer vordefinierten Position zum Ausführen oder Testen vor der Bereitstellung in einer Produktionsumgebung. Siehe auch [Bereitstellung](#x2104544).
 
 ### Starter
 {: #x7470511}
 
-Eine Vorlage, die vordefinierte Services sowie Anwendungscode enthält, der mit einem bestimmten Buildpack konfiguriert ist. Ein Starter kann
-Anwendungscode sein, der in einer bestimmten Programmiersprache geschrieben ist, oder eine Kombination aus Anwendungscode und einer Gruppe von
-Services. Siehe auch [Laufzeit](#x2391929).
+Eine Vorlage, die vordefinierte Services sowie Anwendungscode enthält, der mit einem bestimmten Buildpack konfiguriert ist. Ein Starter kann Anwendungscode sein, der in einer bestimmten Programmiersprache geschrieben ist, oder eine Kombination aus Anwendungscode und einer Gruppe von Services. Siehe auch [Laufzeit](#x2391929).
 
 ### System of Engagement
 {: #x6528306}
 
-Ein IT-System (IT - Informationstechnologie), das Technologien beinhaltet, die die Benutzerinteraktion durch
-E-Mails, Onlinezusammenarbeit und Netzwerke fördern.  Ein System of Engagement verwendet oft
-Cloud-Technologien, um den Nutzen von Systems of Record (Kerndatensystemen) zu erweitern. Siehe auch [System of Record (SOR, Kerndatensystem)](#x6735061).
+Ein IT-System (IT - Informationstechnologie), das Technologien beinhaltet, die die Benutzerinteraktion durch E-Mails, Onlinezusammenarbeit und Netzwerke fördern.  Ein System of Engagement verwendet oft Cloud-Technologien, um den Nutzen von Systems of Record (Kerndatensystemen) zu erweitern. Siehe auch [System of Record (SOR, Kerndatensystem)](#x6735061).
 
 ### System of Record (SOR, Kerndatensystem)
 {: #x6735061}
 
-Ein Informationsspeichersystem (z. B. eine Datenbank oder eine Anwendung), das Geschäftsberichte
-speichert und Standardprozesse automatisiert. Siehe auch [System of Engagement](#x6528306).
+Ein Informationsspeichersystem (z. B. eine Datenbank oder eine Anwendung), das Geschäftsberichte speichert und Standardprozesse automatisiert. Siehe auch [System of Engagement](#x6528306).
 
 
 ## T
@@ -813,8 +756,7 @@ speichert und Standardprozesse automatisiert. Siehe auch [System of Engagement](
 ### Trusted-Root-Zertifikat
 {: #x2042234}
 
-Ein von einer anerkannten Zertifizierungsstelle (CA) signiertes Zertifikat. Siehe auch
-[Zertifizierungsstelle](#x2016383), [Zwischenzertifikat](#x3753781).
+Ein von einer anerkannten Zertifizierungsstelle (CA) signiertes Zertifikat. Siehe auch [Zertifizierungsstelle](#x2016383), [Zwischenzertifikat](#x3753781).
 
 
 ## U
@@ -828,21 +770,17 @@ Ein Image, das eine Grundlage für andere Images darstellt. Beispiel: Ubuntu Lin
 ### umfang
 {: #x2037763}
 
-Im Identitätsmanagement die Gruppe von Entitäten, auf die sich eine Richtlinie oder ein ACI (Access Control Item, Zugriffssteuerungselement)
-auswirken kann.
+Im Identitätsmanagement die Gruppe von Entitäten, auf die sich eine Richtlinie oder ein ACI (Access Control Item, Zugriffssteuerungselement) auswirken kann.
 
 ### Uniform Resource Identifier (URI)
 {: #x2116436}
 
-Eine eindeutige Adresse, die zur Identifizierung von Inhalt im Web verwendet wird. Die häufigste Form von URI ist die Adresse einer Webseite, die eine
-Sonderform oder eine Untergruppe der URI darstellt und Uniform Resource Locator (URL) genannt wird. Ein URI beschreibt in der Regel, wie auf die Ressource, den Computer mit der Ressource und die Position der Ressource auf diesem Computer zugegriffen wird.
+Eine eindeutige Adresse, die zur Identifizierung von Inhalt im Web verwendet wird. Die häufigste Form von URI ist die Adresse einer Webseite, die eine Sonderform oder eine Untergruppe der URI darstellt und Uniform Resource Locator (URL) genannt wird. Ein URI beschreibt in der Regel, wie auf die Ressource, den Computer mit der Ressource und die Position der Ressource auf diesem Computer zugegriffen wird.
 
 ### Uniform Resource Locator (URL)
 {: #x2042491}
 
-Die eindeutige Adresse einer Informationsressource, die in einem Netz wie dem Internet zugänglich ist. Die URL enthält das Namenskürzel für das
-Protokoll, mit dem auf die Informationsressource zugegriffen wird, und die Informationen, mit deren Hilfe das Protokoll die Informationsressource
-lokalisiert. Siehe auch [Angepasste Domäne](#x5728384), [Domäne](#x2021210), [Host](#x2002243), [Route](#x2037338), [Unterdomäne](#x2040080).
+Die eindeutige Adresse einer Informationsressource, die in einem Netz wie dem Internet zugänglich ist. Die URL enthält das Namenskürzel für das Protokoll, mit dem auf die Informationsressource zugegriffen wird, und die Informationen, mit deren Hilfe das Protokoll die Informationsressource lokalisiert. Siehe auch [Angepasste Domäne](#x5728384), [Domäne](#x2021210), [Host](#x2002243), [Route](#x2037338), [Unterdomäne](#x2040080).
 
 ### Unterdomäne
 {: #x2040080}
@@ -887,8 +825,7 @@ Ein Server, dessen Ressourcen zum Zweck der Anwendungsunterstützung für die ge
 ### Virtuelles Privates Netz (Virtual Private Network, VPN)
 {: #x2043188}
 
-Eine Erweiterung eines Intranets über das vorhandene Framework eines öffentlichen oder privaten Netzes. Ein VPN
-gewährleistet den Schutz der Daten, die zwischen den beiden Endpunkten seiner Verbindung gesendet werden.
+Eine Erweiterung eines Intranets über das vorhandene Framework eines öffentlichen oder privaten Netzes. Ein VPN gewährleistet den Schutz der Daten, die zwischen den beiden Endpunkten seiner Verbindung gesendet werden.
 
 ### VM
 {: #x2043253}
@@ -923,9 +860,7 @@ Siehe [Webarchiv](#x2116506).
 ### Webanwendung (Web-App)
 {: #x2116500}
 
-Eine Anwendung, auf die über einen Webbrowser zugegriffen werden kann und die über die statische Informationsanzeige hinausgehende Funktionen
-bereitstellt. Sie kann dem Benutzer beispielsweise ermöglichen, eine Datenbank abzufragen. Zu den allgemeinen Komponenten einer Webanwendung gehören
-HTML-Seiten, JSP-Seiten und Servlets. Siehe auch [Anwendung (App)](#x4281528).
+Eine Anwendung, auf die über einen Webbrowser zugegriffen werden kann und die über die statische Informationsanzeige hinausgehende Funktionen bereitstellt. Sie kann dem Benutzer beispielsweise ermöglichen, eine Datenbank abzufragen. Zu den allgemeinen Komponenten einer Webanwendung gehören HTML-Seiten, JSP-Seiten und Servlets. Siehe auch [Anwendung (App)](#x4281528).
 
 ### Web-App
 {: #x7636628}
@@ -935,15 +870,12 @@ Siehe [Webanwendung](#x2116500).
 ### Webarchiv (WAR)
 {: #x2116506}
 
-Ein durch den Java EE-Standard definiertes, komprimiertes Dateiformat zum Speichern aller zum Installieren und Ausführen einer Webanwendung
-erforderlichen Ressourcen in einer einzelnen Datei.
+Ein durch den Java EE-Standard definiertes, komprimiertes Dateiformat zum Speichern aller zum Installieren und Ausführen einer Webanwendung erforderlichen Ressourcen in einer einzelnen Datei.
 
 ### Zeilengruppe
 {: #x2094743}
 
-Ein Abschnitt eines Softwarepakets, in dem entweder eine bestimmte Aktion, die für das Softwarepaket ausgeführt werden soll, oder eine Reihe von
-Bedingungen, unter denen Aktionen für das Softwarepaket ausgeführt werden sollen, definiert wird. Das vollständige Softwarepaket ist eine
-Zeilengruppe, die eine Hierarchie vieler verschiedener Zeilengruppen enthält.
+Ein Abschnitt eines Softwarepakets, in dem entweder eine bestimmte Aktion, die für das Softwarepaket ausgeführt werden soll, oder eine Reihe von Bedingungen, unter denen Aktionen für das Softwarepaket ausgeführt werden sollen, definiert wird. Das vollständige Softwarepaket ist eine Zeilengruppe, die eine Hierarchie vieler verschiedener Zeilengruppen enthält.
 
 ### Zertifikatssignieranforderung (Certificate Signing Request, CSR)
 {: #x3530521}
@@ -953,19 +885,15 @@ Eine elektronische Nachricht, die von einer Organisation an eine Zertifizierungs
 ### Zertifizierungsstelle (CA, Certificate Authority)
 {: #x2016383}
 
-Eine anerkannte Drittorganisation oder ein anerkanntes Drittunternehmen, das die digitalen Zertifikate ausgibt. Die
-Zertifizierungsstelle überprüft standardmäßig die Identität der Einzelpersonen, denen das
-eindeutige Zertifikat gewährt wird. Siehe auch [Zwischenzertifikat](#x3753781), [Secure Sockets Layer](#x2038004), [Trusted Root](#x2042234).
+Eine anerkannte Drittorganisation oder ein anerkanntes Drittunternehmen, das die digitalen Zertifikate ausgibt. Die Zertifizierungsstelle überprüft standardmäßig die Identität der Einzelpersonen, denen das eindeutige Zertifikat gewährt wird. Siehe auch [Zwischenzertifikat](#x3753781), [Secure Sockets Layer](#x2038004), [Trusted Root](#x2042234).
 
 ### Zugriffstoken
 {: #x2113001}
 
-Ein Wert, der vom Konsumenten stellvertretend für den Benutzer für den Zugriff auf die geschützten Ressourcen verwendet wird. Er wird anstelle
-der Service-Provider-Berechtigungsnachweise des Benutzers verwendet.
+Ein Wert, der vom Konsumenten stellvertretend für den Benutzer für den Zugriff auf die geschützten Ressourcen verwendet wird. Er wird anstelle der Service-Provider-Berechtigungsnachweise des Benutzers verwendet.
 
 ### Zwischenzertifikat
 {: #x3753781}
 
-Ein untergeordnetes Zertifikat, das von der Zertifizierungsstelle für Trusted Roots speziell dafür ausgegeben wird, Serverzertifikate für End-Entitäten auszugeben. Im Ergebnis erhält man eine Zertifikatskette, die mit der Zertifizierungsstelle für Trusted Roots beginnt und über das Zwischenzertifikat zum SSL-Zertifikat gelangt, das für die Organisation ausgegeben wird. Siehe auch
-[Zertifizierungsstelle](#x2016383), [Trusted Root](#x2042234).
+Ein untergeordnetes Zertifikat, das von der Zertifizierungsstelle für Trusted Roots speziell dafür ausgegeben wird, Serverzertifikate für End-Entitäten auszugeben. Im Ergebnis erhält man eine Zertifikatskette, die mit der Zertifizierungsstelle für Trusted Roots beginnt und über das Zwischenzertifikat zum SSL-Zertifikat gelangt, das für die Organisation ausgegeben wird. Siehe auch [Zertifizierungsstelle](#x2016383), [Trusted Root](#x2042234).
 

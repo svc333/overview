@@ -13,7 +13,7 @@ lastupdated: "2018-06-14"
 # 平台概觀
 {: #overview}
 
-{{site.data.keyword.IBM_notm}} 的創新雲端運算平台可結合平台即服務 (PaaS) 與基礎架構即服務 (IaaS)，並包括豐富的雲端服務型錄，可輕鬆地與 PaaS 及 IaaS 整合，以快速地建置商業應用程式。
+{{site.data.keyword.IBM_notm}} 的創新雲端運算平台可結合平台即服務 (PaaS) 與基礎架構即服務 (IaaS)，並包括雲端服務型錄，可與 PaaS 及 IaaS 整合，以建置商業應用程式。
 {:shortdesc}
 
 不論您是計劃擴充的小型企業，還是需要額外隔離的大型企業，{{site.data.keyword.cloud_notm}}（早期稱為 Bluemix）都有符合您需求的部署。您可以自由地在雲端中進行開發，在雲端中，您可以將專用服務連接至 {{site.data.keyword.IBM_notm}} 所提供的公用 {{site.data.keyword.cloud_notm}} 服務。您及您的團隊可以存取 {{site.data.keyword.cloud_notm}} 中的應用程式、服務及基礎架構，以及使用現有資料、系統、程序、PaaS 工具及 IaaS 工具。開發人員可以點選快速成長的可用服務及運行環境架構生態系統，以使用多國語言進行程式設計方式來建置應用程式。
