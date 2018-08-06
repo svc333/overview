@@ -13,7 +13,7 @@ lastupdated: "2018-06-14"
 # Visión general de la plataforma
 {: #overview}
 
-La plataforma informática de nube innovadora de {{site.data.keyword.IBM_notm}} combina la plataforma como servicio (PaaS) con la infraestructura como servicio (IaaS) e incluye un catálogo enriquecido de servicios en la nube que se pueden integrar fácilmente con PaaS e IaaS para compilar aplicaciones empresariales rápidamente.
+La plataforma informática de nube innovadora de {{site.data.keyword.IBM_notm}} combina la plataforma como servicio (PaaS) con la infraestructura como servicio (IaaS) e incluye un catálogo de servicios en la nube que se pueden integrar con PaaS e IaaS para compilar aplicaciones empresariales.
 {:shortdesc}
 
 {{site.data.keyword.cloud_notm}} (anteriormente Bluemix) tiene despliegues que se ajustan a sus necesidades tanto si se trata de un pequeño negocio
