@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2018
-lastupdated: "2018-01-29"
+lastupdated: "2018-08-02"
 
 ---
 
@@ -18,7 +18,7 @@ Per creare risorse dal catalogo, vedi [Lavorare nel catalogo](/docs/overview/ui.
 ## Gestione della visibilità
 {: #manage-vis}
 
-Vuoi un maggiore controllo su ciò che viene visualizzato nel catalogo? Vorresti nascondere singole risorse per alcuni utenti e mostrarle ad altri? Con l'autorizzazione di amministratore appropriata, puoi visualizzare e impostare la visibilità sulle risorse del catalogo utilizzando la [CLI](/docs/cli/reference/bluemix_cli/get_started.html#getting-started) {{site.data.keyword.Bluemix_notm}}.
+Vuoi un maggiore controllo su ciò che viene visualizzato nel catalogo? Vorresti nascondere singole risorse per alcuni utenti e mostrarle ad altri? Con l'autorizzazione di amministratore appropriata, puoi visualizzare e impostare la visibilità sulle risorse del catalogo utilizzando la [CLI](/docs/cli/index.html#overview) {{site.data.keyword.Bluemix_notm}}.
 
 Per ulteriori informazioni, vedi i seguenti argomenti.
 

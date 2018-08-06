@@ -13,7 +13,7 @@ lastupdated: "2018-06-14"
 # Panoramica della piattaforma
 {: #overview}
 
-L'innovativa piattaforma di elaborazione cloud di {{site.data.keyword.IBM_notm}} combina la soluzione PaaS (Platform as a Service) con la soluzione IaaS (Infrastructure as a Service) e include un ricco catalogo di servizi cloud che possono essere facilmente integrati con PaaS e IaaS per creare rapidamente delle applicazioni di business.
+L'innovativa piattaforma di elaborazione cloud di {{site.data.keyword.IBM_notm}} combina la soluzione PaaS (Platform as a Service) con la soluzione IaaS (Infrastructure as a Service) e include un catalogo di servizi cloud che possono essere integrati con PaaS e IaaS per creare delle applicazioni di business.
 {:shortdesc}
 
 {{site.data.keyword.cloud_notm}} (precedentemente Bluemix) dispone di distribuzioni adatte alle tue esigenze, a prescindere che tu rappresenti una piccola attività che intende ingrandirsi o una grande azienda che richiede un ulteriore isolamento. Puoi sviluppare in un cloud senza confini, dove collegare i tuoi servizi privati ai servizi pubblici {{site.data.keyword.cloud_notm}} disponibili da {{site.data.keyword.IBM_notm}}. Tu e il tuo team potete accedere alle applicazioni, ai servizi e all'infrastruttura in {{site.data.keyword.cloud_notm}} e utilizzare dati, sistemi, processi e strumenti PaaS e IaaS esistenti. Gli sviluppatori possono attingere all'ecosistema in continua espansione di servizi e framework di runtime disponibili per creare applicazioni che utilizzano metodi di programmazione poliglotta.
@@ -76,9 +76,9 @@ Le offerte dell'infrastruttura {{site.data.keyword.cloud_notm}} sono collegate a
 
 Una regione {{site.data.keyword.cloud_notm}} è un territorio geografico definito a cui puoi distribuire le applicazioni. Puoi creare applicazioni e istanze di servizio in regioni differenti con la stessa infrastruttura {{site.data.keyword.cloud_notm}} per la gestione di applicazioni e la stessa vista dei dettagli di utilizzo per la fatturazione. Puoi distribuire le tue applicazioni alla regione più vicina ai tuoi clienti per ottenere una bassa latenza dell'applicazione. Per far fronte ai problemi di sicurezza puoi anche selezionare la regione dove desideri conservare i dati delle applicazioni. Quando crei applicazioni in più regioni, se una regione non è più disponibile, le applicazioni che si trovano nelle altre regioni continuano a essere eseguite. La disponibilità di risorse è la stessa per ogni regione che usi.
 
-Il bilanciamento del carico globale per la console garantisce che, se per qualche motivo la regione geografica a te più prossima è inattiva, la console visualizza le informazioni per la successiva regione più prossima. In questo modo, puoi sempre accedere alla console senza eseguire alcuna azione per accedere alle informazioni di cui hai bisogno. 
+Il bilanciamento del carico globale per la console garantisce che, se per qualche motivo la regione geografica a te più prossima è inattiva, la console visualizzerà le informazioni per la successiva regione più prossima. In questo modo, avrai sempre accesso alla console senza dover eseguire alcuna azione per accedere alle informazioni di cui hai bisogno.
 
-Dal dashboard, puoi visualizzare tutte le risorse in tutte le regioni per impostazione predefinita. Se vuoi visualizzare e utilizzare le risorse in una regione specifica, espandi il menu **UBICAZIONE** e seleziona una regione dall'elenco. 
+Dal dashboard, puoi visualizzare tutte le risorse in tutte le regioni per impostazione predefinita. Se vuoi visualizzare e gestire le risorse in una specifica regione, espandi il menu **UBICAZIONE** e seleziona una regione dall'elenco. 
 
 Puoi inoltre utilizzare l'interfaccia riga di comando per connetterti alla regione {{site.data.keyword.cloud_notm}} con cui vuoi lavorare utilizzando il comando `ibmcloud api` e specificando l'endpoint API della regione. Ad esempio, immetti il seguente comando per stabilire una connessione alla regione {{site.data.keyword.cloud_notm}} Europa Regno Unito:
 

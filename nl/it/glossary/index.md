@@ -3,7 +3,7 @@
 
 copyright:
   years: 2016, 2018
-lastupdated: "2018-06-07"
+lastupdated: "2018-07-31"
 
 
 ---
@@ -11,10 +11,10 @@ lastupdated: "2018-06-07"
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
 
-# Termini del glossario per {{site.data.keyword.cloud_notm}}
+# Termini del glossario per {{site.data.keyword.cloud_notm}} 
 {: #glossary}
 
-Questo glossario fornisce termini e definizioni per {{site.data.keyword.cloud_notm}}.
+Questo glossario fornisce termini e definizioni per {{site.data.keyword.cloud}}.
 {:shortdesc}
 
 In questo glossario vengono utilizzati i seguenti riferimenti incrociati:
@@ -22,7 +22,7 @@ In questo glossario vengono utilizzati i seguenti riferimenti incrociati:
 - *Vedere* rimanda il lettore da un termine non preferenziale a uno preferenziale oppure da un'abbreviazione a una forma estesa del termine.
 - *Vedi anche* ti rimanda a termini correlati o contrari.
 
-<!--If you do not want letter links at the top of your
+<!--If you do not want letter links at the top of your 
 glossary, delete the text between these comment tags.
 [A](#glossa)
 [B](#glossb)
@@ -167,7 +167,7 @@ Relativo a una piattaforma di sviluppo aperta e non proprietaria che include mod
 ### pacchetto di build
 {: #x7233925}
 
-Una raccolta di script che preparano il tuo codice all'esecuzione su IBM Cloud. I pacchetti di build esaminano le applicazioni distribuite e scaricano e configurano quindi le eventuali applicazioni dipendenti.
+Una raccolta di script che preparano il tuo codice all'esecuzione su {{site.data.keyword.cloud_notm}}. I pacchetti di build esaminano le applicazioni distribuite e scaricano e configurano quindi le eventuali applicazioni dipendenti.
 
 
 ## C
@@ -289,7 +289,7 @@ Una metodologia software che integra lo sviluppo delle applicazioni e le operazi
 {: #x2021210}
 
 Parte della gerarchia di denominazione che specifica la rotta. Ad esempio,
-esempio.com. In IBM Cloud, i domini sono associati alle organizzazioni. Gli oggetti di dominio
+esempio.com. In {{site.data.keyword.cloud_notm}}, i domini sono associati alle organizzazioni. Gli oggetti di dominio
 non sono associati direttamente alle applicazioni. Vedi anche [dominio personalizzato](#x5728384), [host](#x2002243), [organizzazione](#x2032585), [rotta](#x2037338), [dominio secondario](#x2040080), [Uniform Resource Locator](#x2042491).
 
 ### droplet
@@ -336,7 +336,7 @@ Un pezzo di codice che configura un'origine eventi esterna per l'attivazione di 
 ### condivisione file
 {: #x2022902}
 
-Nell'ambiente cloud IBM, un sistema di archiviazione permanente in cui gli utenti archiviano e condividono i file. In IBM Containers, gli utenti possono montare i volumi Docker sulle condivisioni file.
+Nell'ambiente {{site.data.keyword.cloud_notm}}, un sistema di archiviazione permanente in cui gli utenti archiviano e condividono i file. In IBM Containers, gli utenti possono montare i volumi Docker sulle condivisioni file.
 
 ### attiva
 {: #x2239904}
@@ -416,15 +416,25 @@ Un protocollo Internet utilizzato da browser e server Web per trasferire e visua
 
 Vedi [infrastructure as a service](#x4585332).
 
-### IBM Cloud
+### IAM
+{: #x2193801}
+
+Consulta [Identity and Access Management](#x7547040).
+
+### {{site.data.keyword.cloud_notm}}
 {: #x7301758}
 
 Una piattaforma a standard aperti e basata sul cloud per sviluppare, gestire ed eseguire app di tutti i tipi, come ad esempio dispositivi smart, Big Data, mobili e web. Le funzionalità includono Java, lo sviluppo back-end mobile e il monitoraggio di applicazioni, oltre a funzioni dai partner di ecosistema e open source&mdash;il tutto fornito come un servizio nel cloud.
 
+### Identity and Access Management (IAM)
+{: #x7547040}
+
+Il processo di controllo dell'accesso di utenti autorizzati ai dati e alle applicazioni, mentre si aiutano le aziende a rispettare vari requisiti normativi.
+
 ### immagine
 {: #x2024928}
 
-Un runtime completo che può essere utilizzato per eseguire le applicazioni. Le immagini vengono utilizzate per creare contenitori e possono contenere più immagini principali (livelli). Vedi anche [immagine di base](#x5366487), [contenitore](#x2010901), [livello](#x2028320), [spazio dei nomi](#x2031005), [immagine principale](#x8439210), [repository di immagini privato](#x8439215), [registro](#x2064940).
+Un file system e i relativi parametri di esecuzione che vengono utilizzati all'interno di un runtime del contenitore per creare un contenitore. Il file system è costituito da una serie di livelli, combinati in fase di runtime, creati come l'immagine viene creata dai successivi aggiornamenti. L'immagine non conserva lo stato quando viene eseguito il contenitore. Vedi anche [immagine di base](#x5366487), [contenitore](#x2010901), [livello](#x2028320), [spazio dei nomi](#x2031005), [immagine principale](#x8439210), [repository di immagini privato](#x8439215), [registro](#x2064940).
 
 ### infrastructure as a service (IaaS)
 {: #x4585332}
@@ -552,7 +562,7 @@ Un'infrastruttura in cui l'archiviazione e l'elaborazione dei dati per le applic
 ### spazio dei nomi
 {: #x2031005}
 
-Un nome univoco che identifica il repository di immagini della tua organizzazione nel registro IBM Cloud. Vedi anche [immagine](#x2024928), [repository di immagini privato](#x8439215).
+Un nome univoco che identifica il repository di immagini della tua organizzazione nel registro {{site.data.keyword.cloud_notm}}. Vedi anche [immagine](#x2024928), [repository di immagini privato](#x8439215).
 
 
 ## O
@@ -581,7 +591,7 @@ Vedi [organizzazione](#x2032585).
 ### organizzazione (org)
 {: #x2032585}
 
-La metodologia di raggruppamento per gli utenti in IBM Cloud. Le org sono utilizzate per
+La metodologia di raggruppamento per gli utenti in {{site.data.keyword.cloud_notm}}. Le org sono utilizzate per
 gestire le quote. Gli utenti in un'organizzazione condividono le quote di istanze di servizi e memoria. Vedi anche [dominio](#x2021210), [spazio](#x2039442).
 
 
@@ -611,7 +621,7 @@ Un ambiente di elaborazione cloud in cui l'accesso è limitato ai membri delle r
 ### repository di immagini privato
 {: #x8439215}
 
-La combinazione del registro IBM Cloud di un'organizzazione e il relativo spazio dei nomi. Il repository di immagini privato viene utilizzato quando si fa riferimento a un'immagine in un comando. Vedi anche [immagine](#x2024928), [spazio dei nomi](#x2031005).
+La combinazione del registro {{site.data.keyword.cloud_notm}} di un'organizzazione e il relativo spazio dei nomi. Il repository di immagini privato viene utilizzato quando si fa riferimento a un'immagine in un comando. Vedi anche [immagine](#x2024928), [spazio dei nomi](#x2031005).
 
 ### chiave privata
 {: #x2034701}
@@ -627,7 +637,7 @@ Una voce che è visibile solo ai proprietari dell'account e ai rispettivi accoun
 ### servizio privato
 {: #x7690456}
 
-Un servizio visibile solo ai membri di una specifica organizzazione IBM Cloud.
+Un servizio visibile solo ai membri di una specifica organizzazione {{site.data.keyword.cloud_notm}}.
 
 ### cloud pubblico
 {: #x4585370}
@@ -637,7 +647,7 @@ Un ambiente di elaborazione cloud in cui l'accesso a risorse standardizzate, qua
 ### risorsa pubblica
 {: #x9439040}
 
-Una voce visibile a chiunque nel catalogo IBM Cloud. Le risorse pubbliche possono essere create da qualsiasi provider (IBM o di terze parti). Vedi anche [risorsa privata](#x9439035).
+Una voce visibile a chiunque nel catalogo {{site.data.keyword.cloud_notm}}. Le risorse pubbliche possono essere create da qualsiasi provider (IBM o di terze parti). Vedi anche [risorsa privata](#x9439035).
 
 ### push (eseguire il)
 {: #x2035465}
@@ -703,8 +713,7 @@ L'URL utilizzato per indirizzare le richieste a un'applicazione. Una rotta è
 formata da un host (o dominio secondario) facoltativo e un dominio
 specificati quando si distribuisce un'applicazione. Ad esempio, nell'instradamento myapp.example.com,
 myapp è l'host ed example.com è il dominio. Una
-rotta può essere associata a una o più applicazioni. A meno che non venga specificato un dominio personalizzato,
-nell'instradamento alla tua applicazione, IBM Cloud utilizza un dominio condiviso predefinito. Consulta anche [dominio personalizzato](#x5728384), [dominio](#x2021210), [endpoint](#x2026820), [host](#x2002243), [dominio secondario](#x2040080), [Uniform Resource Locator](#x2042491).
+rotta può essere associata a una o più applicazioni. A meno che non venga specificato un dominio personalizzato, nell'instradamento alla tua applicazione, {{site.data.keyword.cloud_notm}} utilizza un dominio condiviso predefinito. Consulta anche [dominio personalizzato](#x5728384), [dominio](#x2021210), [endpoint](#x2026820), [host](#x2002243), [dominio secondario](#x2040080), [Uniform Resource Locator](#x2042491).
 
 ### regola
 {: #x2037526}
@@ -772,7 +781,7 @@ Vedi [system of record](#x6735061).
 ### spazio
 {: #x2039442}
 
-Un sottogruppo all'interno di un'organizzazione IBM Cloud. Agli utenti membri di un'organizzazione viene dato accesso a uno o più dei suoi spazi, con le autorizzazioni associate a uno specifico ruolo (come sviluppatore, responsabile o revisore). Qualsiasi membro dello spazio può visualizzare le applicazioni ma solo i membri con il ruolo di sviluppatore possono creare applicazioni e aggiungere istanze di servizio allo spazio. Le applicazioni e le istanze di servizio sono associate agli spazi. Vedere anche [organizzazione](#x2032585).
+Un sottogruppo all'interno di un'organizzazione {{site.data.keyword.cloud_notm}}. Agli utenti membri di un'organizzazione viene dato accesso a uno o più dei suoi spazi, con le autorizzazioni associate a uno specifico ruolo (come sviluppatore, responsabile o revisore). Qualsiasi membro dello spazio può visualizzare le applicazioni ma solo i membri con il ruolo di sviluppatore possono creare applicazioni e aggiungere istanze di servizio allo spazio. Le applicazioni e le istanze di servizio sono associate agli spazi. Vedere anche [organizzazione](#x2032585).
 
 ### SSL
 {: #x2483907}
@@ -948,4 +957,3 @@ Un formato file compresso, definito dallo standard Java EE, per la memorizzazion
 {: #x2096037}
 
 Un contesto che contiene una raccolta di risorse utente che possono essere modificate da un utente con autorizzazioni appropriate.
-
