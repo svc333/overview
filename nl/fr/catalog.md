@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2018
-lastupdated: "2018-01-29"
+lastupdated: "2018-08-02"
 
 ---
 
@@ -18,7 +18,7 @@ Pour créer des ressources depuis le catalogue, voir [Utilisation du catalogue](
 ## Gestion de la visibilité
 {: #manage-vis}
 
-Voulez-vous avoir plus de contrôle sur ce qui est affiché dans le catalogue ? Voulez-vous masquer des ressources individuelles pour certains utilisateurs et les afficher pour d'autres ? Avec des droits d'administrateur adéquats, vous pouvez afficher et définir la visibilité sur les ressources de catalogue en utilisant l'interface de ligne de commande {{site.data.keyword.Bluemix_notm}} [](/docs/cli/reference/bluemix_cli/get_started.html#getting-started).
+Voulez-vous avoir plus de contrôle sur ce qui est affiché dans le catalogue ? Voulez-vous masquer des ressources individuelles pour certains utilisateurs et les afficher pour d'autres ? Avec des droits d'administrateur appropriés, vous pouvez afficher et définir la visibilité sur les ressources de catalogue en utilisant l'[interface CLI](/docs/cli/index.html#overview) {{site.data.keyword.Bluemix_notm}}.
 
 Pour plus d'informations, reportez-vous aux rubriques suivantes.
 
