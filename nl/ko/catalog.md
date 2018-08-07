@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2018
-lastupdated: "2018-01-29"
+lastupdated: "2018-08-02"
 
 ---
 
@@ -18,7 +18,7 @@ lastupdated: "2018-01-29"
 ## 가시성 관리
 {: #manage-vis}
 
-카탈로그에 표시되는 내용을 더 많이 제어하시겠습니까? 일부 사용자의 개별 리소스를 숨기시겠습니까, 아니면 다른 사용자에게 표시하시겠습니까? 올바른 관리자 권한을 사용하면 {{site.data.keyword.Bluemix_notm}} [CLI](/docs/cli/reference/bluemix_cli/get_started.html#getting-started)를 사용하여 카탈로그 리소스에 대한 가시성을 보고 설정할 수 있습니다.
+카탈로그에 표시되는 내용을 더 많이 제어하시겠습니까? 일부 사용자의 개별 리소스를 숨기시겠습니까, 아니면 다른 사용자에게 표시하시겠습니까? 올바른 관리자 권한을 사용하면 {{site.data.keyword.Bluemix_notm}} [CLI](/docs/cli/index.html#overview)를 사용하여 카탈로그 리소스에 대한 가시성을 보고 설정할 수 있습니다.
 
 자세한 정보는 다음 주제를 참조하십시오.
 

@@ -13,7 +13,7 @@ lastupdated: "2018-06-14"
 # 平台概述
 {: #overview}
 
-{{site.data.keyword.IBM_notm}} 的创新云计算平台集平台即服务 (PaaS) 与基础架构即服务 (IaaS) 于一体，具有包含丰富云服务的目录，这些服务可以轻松与 PaaS 和 IaaS 相集成，用于迅速构建业务应用程序。
+{{site.data.keyword.IBM_notm}} 的创新云计算平台集平台即服务 (PaaS) 与基础架构即服务 (IaaS) 于一体，包含云服务的目录，这些服务可以与 PaaS 和 IaaS 相集成，用于构建业务应用程序。
 {:shortdesc}
 
 {{site.data.keyword.cloud_notm}}（原先称为 Bluemix）具有多种部署，无论您是计划扩大规模的小企业，还是需要额外隔离机制的大企业，都能满足您的需求。您可以在云中进行无边界开发，在这里您可以将私有服务连接到 {{site.data.keyword.IBM_notm}} 中提供的公共 {{site.data.keyword.cloud_notm}} 服务。您和您的团队可以访问 {{site.data.keyword.cloud_notm}} 中的应用程序、服务和基础架构，并使用现有数据、系统、过程、PaaS 工具和 IaaS 工具。由可用服务和运行时框架构成的生态系统在飞速成长，开发者可以利用此生态系统通过混合语言编程方法来构建应用程序。

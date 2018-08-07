@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2018
-lastupdated: "2018-01-29"
+lastupdated: "2018-08-02"
 
 ---
 
@@ -18,7 +18,7 @@ lastupdated: "2018-01-29"
 ## 管理可视性
 {: #manage-vis}
 
-您想对“目录”中显示哪些内容有更大的控制权吗？您希望个别资源对某些用户隐藏，而向其他用户显示吗？通过适当的管理员权限，您可以使用 {{site.data.keyword.Bluemix_notm}} [CLI](/docs/cli/reference/bluemix_cli/get_started.html#getting-started) 来查看目录资源并设置对目录资源的可视性。
+您想对“目录”中显示哪些内容有更大的控制权吗？您希望个别资源对某些用户隐藏，而向其他用户显示吗？通过适当的管理员权限，您可以使用 {{site.data.keyword.Bluemix_notm}} [CLI](/docs/cli/index.html#overview) 来查看目录资源并设置对目录资源的可视性。
 
 有关更多信息，请参阅以下主题。
 

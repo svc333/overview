@@ -13,7 +13,7 @@ lastupdated: "2018-06-14"
 # 플랫폼 개요
 {: #overview}
 
-{{site.data.keyword.IBM_notm}}의 혁신적 클라우드 컴퓨팅 플랫폼은 PaaS(Platform as a Service)를 IaaS(Infrastructure as a Service)와 결합하며, 이에는 비즈니스 애플리케이션의 신속한 빌드를 위해 PaaS 및 IaaS와 손쉽게 통합될 수 있는 클라우드 서비스의 리치 카탈로그가 포함되어 있습니다.
+{{site.data.keyword.IBM_notm}}의 혁신적 클라우드 컴퓨팅 플랫폼은 PaaS(Platform as a Service)를 IaaS(Infrastructure as a Service)와 결합하며, 여기에는 비즈니스 애플리케이션의 빌드를 위해 PaaS 및 IaaS와 통합될 수 있는 클라우드 서비스의 카탈로그가 포함되어 있습니다.
 {:shortdesc}
 
 {{site.data.keyword.cloud_notm}}(이전의 Bluemix)에는 확장을 계획 중인 중소기업인지 또는 추가적인 격리가 필요한 대기업인지 여부와 무관하게 요구사항에 맞는 배치가 있습니다. 경계 없이 클라우드에서 개발이 가능하며, 여기서 개인 서비스를 {{site.data.keyword.IBM_notm}}에서 사용 가능한 공용 {{site.data.keyword.cloud_notm}} 서비스에 연결할 수 있습니다. 사용자 및 사용자의 팀은 {{site.data.keyword.cloud_notm}}의 앱, 서비스 및 인프라에 액세스할 수 있으며 기존 데이터, 시스템, 프로세스, PaaS 도구 및 IaaS 도구를 사용할 수 있습니다. 개발자는 사용 가능한 서비스 및 런타임 프레임워크의 빠르게 성장하는 에코시스템을 활용하여 여러 언어로 쓰인 프로그래밍 접근을 통해 애플리케이션을 빌드할 수 있습니다.
