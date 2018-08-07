@@ -13,7 +13,7 @@ lastupdated: "2018-06-14"
 # Visão geral da plataforma
 {: #overview}
 
-A inovadora plataforma computacional em nuvem do {{site.data.keyword.IBM_notm}} combina a plataforma como serviço (PaaS) com a infraestrutura como serviço (IaaS) e inclui um rico catálogo de serviços de nuvem que pode ser facilmente integrado ao PaaS e IaaS para construir aplicativos de negócios rapidamente.
+A plataforma de computação em nuvem inovadora da {{site.data.keyword.IBM_notm}} combina a plataforma como serviço (PaaS) com a infraestrutura como serviço (IaaS) e inclui um catálogo de serviços de nuvem que podem ser integrados ao PaaS e IaaS para construir aplicativos de negócios.
 {:shortdesc}
 
 O {{site.data.keyword.cloud_notm}} (anteriormente Bluemix) tem implementações que se ajustam às suas necessidades se você é uma empresa pequena que planeja escalar ou uma empresa grande que requer isolamento adicional. É possível desenvolver em uma nuvem sem fronteiras, na qual é possível conectar seus serviços privados aos serviços públicos do {{site.data.keyword.cloud_notm}} disponíveis a partir {{site.data.keyword.IBM_notm}}. Você e sua equipe podem acessar os aplicativos, serviços e infraestrutura no {{site.data.keyword.cloud_notm}} e usar dados existentes, sistemas, processos, ferramentas PaaS e ferramentas IaaS. Os desenvolvedores podem acessar o ecossistema de rápido crescimento de serviços e estruturas de tempo de execução disponíveis para construir aplicativos usando abordagens de programação poliglota.

@@ -3,7 +3,7 @@
 
 copyright:
   years: 2016, 2018
-lastupdated: "2018-06-07"
+lastupdated: "2018-07-31"
 
 
 ---
@@ -11,10 +11,10 @@ lastupdated: "2018-06-07"
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
 
-# Termos do glossário para {{site.data.keyword.cloud_notm}}
+# Termos do glossário para {{site.data.keyword.cloud_notm}} 
 {: #glossary}
 
-Este glossário fornece termos e definições para o {{site.data.keyword.cloud_notm}}.
+Este glossário fornece termos e definições para o {{site.data.keyword.cloud}}.
 {:shortdesc}
 
 As referências cruzadas a seguir são usadas nesse glossário:
@@ -22,7 +22,7 @@ As referências cruzadas a seguir são usadas nesse glossário:
 - *Consulte* o encaminha de um termo não preferencial para um termo preferencial ou de uma abreviação para a sua forma por extenso.
 - *Consulte também* o encaminha para um termo relacionado ou contrastante.
 
-<!--If you do not want letter links at the top of your
+<!--If you do not want letter links at the top of your 
 glossary, delete the text between these comment tags.
 [A](#glossa)
 [B](#glossb)
@@ -162,7 +162,7 @@ Pertencente a uma plataforma de desenvolvimento aberta sem proprietário que inc
 ### buildpack
 {: #x7233925}
 
-Uma coleção de scripts que preparam seu código para execução no IBM Cloud. Os buildpacks examinam aplicativos implementados e, em seguida, fazem o download e configuram quaisquer aplicativos dependentes.
+Uma coleção de scripts que preparam seu código para execução no {{site.data.keyword.cloud_notm}}. Os buildpacks examinam aplicativos implementados e, em seguida, fazem o download e configuram quaisquer aplicativos dependentes.
 
 
 ## C
@@ -289,8 +289,7 @@ mercado.
 ### domínio
 {: #x2021210}
 
-Parte de uma hierarquia de nomenclatura que especifica a rota. Por exemplo, example.com. No IBM Cloud,
-os domínios são associados a organizações. Os objetos de domínio não são ligados diretamente a apps. Veja também [domínio customizado](#x5728384), [host](#x2002243), [organização](#x2032585), [rota](#x2037338), [subdomínio](#x2040080), [Localizador Uniforme de Recursos](#x2042491).
+Parte de uma hierarquia de nomenclatura que especifica a rota. Por exemplo, example.com. No  {{site.data.keyword.cloud_notm}}, os domínios são associados a orgs. Os objetos de domínio não são ligados diretamente a apps. Veja também [domínio customizado](#x5728384), [host](#x2002243), [organização](#x2032585), [rota](#x2037338), [subdomínio](#x2040080), [Localizador Uniforme de Recursos](#x2042491).
 
 ### droplet
 {: #x7470343}
@@ -333,7 +332,7 @@ Uma parte de código que configura uma origem de eventos externos para disparar 
 ### compartilhamento de arquivos
 {: #x2022902}
 
-No ambiente de nuvem da IBM, um sistema de armazenamento persistente no qual os usuários armazenam e compartilham arquivos. No IBM Containers, os usuários podem montar volumes do Docker em
+No ambiente do {{site.data.keyword.cloud_notm}}, um sistema de armazenamento persistente no qual os usuários armazenam e compartilham arquivos. No IBM Containers, os usuários podem montar volumes do Docker em
 compartilhamentos de arquivo.
 
 ### fogo
@@ -410,15 +409,25 @@ Um protocolo da Internet usado por servidores e navegadores da web para transfer
 
 Consulte [infraestrutura como serviço](#x4585332).
 
-### IBM Cloud
+### IAM
+{: #x2193801}
+
+Consulte  [ identidade e gerenciamento de acesso ](#x7547040).
+
+### {{site.data.keyword.cloud_notm}}
 {: #x7301758}
 
 Uma plataforma de padrões abertos baseada em nuvem para construir, gerenciar e executar apps de todos os tipos, como web, móveis, big data e dispositivos inteligentes. Os recursos incluem Java, desenvolvimento de backend móvel e monitoramento de aplicativos, bem como recursos de parceiros de ecossistema e software livre&mdash;todos fornecidos como serviço na nuvem.
 
+### identidade e gerenciamento de acesso (IAM)
+{: #x7547040}
+
+O processo de controlar o acesso de usuários autorizados a dados e aplicativos, enquanto ajuda as empresas a obedecerem vários requisitos regulamentares.
+
 ### imagem
 {: #x2024928}
 
-Um tempo de execução completo que pode ser usado para executar aplicativos. As imagens são usadas para criar contêineres e podem conter várias imagens pai (camadas). Veja também [imagem base](#x5366487), [contêiner](#x2010901), [camada](#x2028320), [namespace](#x2031005), [imagem pai](#x8439210), [repositório de imagem privada](#x8439215), [registro](#x2064940).
+Um sistema de arquivos e seus parâmetros de execução que são usados dentro de um tempo de execução de contêiner para criar um contêiner. O sistema de arquivos consiste em uma série de camadas, combinadas no tempo de execução, que são criadas à medida que a imagem é construída por atualizações sucessivas. A imagem não retém o estado à medida que o contêiner é executado. Veja também [imagem base](#x5366487), [contêiner](#x2010901), [camada](#x2028320), [namespace](#x2031005), [imagem pai](#x8439210), [repositório de imagem privada](#x8439215), [registro](#x2064940).
 
 ### infraestrutura como serviço (IaaS)
 {: #x4585332}
@@ -545,7 +554,7 @@ Uma infraestrutura na qual o armazenamento e o processamento de dados para aplic
 ### Namespace
 {: #x2031005}
 
-Um nome exclusivo que identifica o repositório de imagem de sua organização no registro do IBM Cloud. Veja também [imagem](#x2024928), [repositório de imagem privada](#x8439215).
+Um nome exclusivo que identifica o repositório de imagem de sua organização dentro do registro do {{site.data.keyword.cloud_notm}}. Veja também [imagem](#x2024928), [repositório de imagem privada](#x8439215).
 
 
 ## O
@@ -577,7 +586,7 @@ Consulte [organização](#x2032585).
 ### organização (org)
 {: #x2032585}
 
-A metodologia de agrupamento para usuários no IBM Cloud. Organizações são usadas para gerenciar cotas. Usuários em uma organização compartilham memória e cotas de instância de serviço. Consulte também [domínio](#x2021210), [espaço](#x2039442).
+A metodologia de agrupamento para usuários no  {{site.data.keyword.cloud_notm}}. Organizações são usadas para gerenciar cotas. Usuários em uma organização compartilham memória e cotas de instância de serviço. Consulte também [domínio](#x2021210), [espaço](#x2039442).
 
 
 ## P
@@ -606,7 +615,7 @@ Um ambiente de computação em nuvem no qual o acesso é limitado a membros de u
 ### repositório privado de imagem
 {: #x8439215}
 
-A combinação entre o registro do IBM Cloud de uma organização e seu namespace. O repositório de imagens privada é usado ao referenciar uma imagem em um comando. Veja também [imagem](#x2024928), [namespace](#x2031005).
+A combinação de um registro do {{site.data.keyword.cloud_notm}} de uma organização e seu namespace. O repositório de imagens privada é usado ao referenciar uma imagem em um comando. Veja também [imagem](#x2024928), [namespace](#x2031005).
 
 ### chave privada
 {: #x2034701}
@@ -623,7 +632,8 @@ são criados, eles são privados por padrão. Consulte também [recurso público
 ### serviço privado
 {: #x7690456}
 
-Um serviço que é visível somente aos membros de uma organização do IBM Cloud especificada.
+Um serviço que é visível somente para membros de uma
+organização especificada do {{site.data.keyword.cloud_notm}}.
 
 ### nuvem pública
 {: #x4585370}
@@ -633,7 +643,7 @@ Um ambiente de computação em nuvem no qual o acesso a recursos padronizados, c
 ### recurso público
 {: #x9439040}
 
-Uma entrada que é visível para todos no catálogo do IBM Cloud. Os recursos públicos podem ser
+Uma entrada que é visível a todos no catálogo do {{site.data.keyword.cloud_notm}}. Os recursos públicos podem ser
 construídos por qualquer provedor (provedores IBM ou de terceiros). Consulte também
 [recurso privado](#x9439035).
 
@@ -696,9 +706,7 @@ Consulte [Representational State Transfer](#x3220976).
 {: #x2037338}
 
 A URL usada para direcionar solicitações para um aplicativo. Uma rota é composta de um host (ou subdomínio) opcional e um domínio que são especificados quando um aplicativo é enviado por push. Por exemplo, na rota myapp.example.com,
-myapp é o host e example.com é o domínio. Uma rota pode ser associada com um ou mais aplicativos. A menos que
-um domínio customizado seja especificado, o IBM Cloud usa um domínio compartilhado padrão na rota para seu
-aplicativo. Consulte também [domínio customizado](#x5728384),
+myapp é o host e example.com é o domínio. Uma rota pode ser associada com um ou mais aplicativos. A menos que um domínio customizado seja especificado, o {{site.data.keyword.cloud_notm}} usará um domínio compartilhado padrão na rota para seu aplicativo. Consulte também [domínio customizado](#x5728384),
 [domínio](#x2021210), [terminal](#x2026820),
 [host](#x2002243), [subdomínio](#x2040080),
 [Localizador Uniforme de Recursos](#x2042491).
@@ -768,9 +776,7 @@ Consulte [sistema de registro](#x6735061).
 ### espaço
 {: #x2039442}
 
-Um subgrupo dentro de uma organização do IBM Cloud. Os usuários que são membros de uma organização
-recebem acesso a um ou mais de seus espaços, com permissões associadas a uma determinada função (como desenvolvedor,
-gerenciador ou auditor). Qualquer membro do espaço pode visualizar apps, mas somente membros com a função de desenvolvedor podem criar apps e incluir instâncias de serviço no espaço. Apps e instâncias de serviço são associados a espaços. Consulte também [organização](#x2032585).
+Um subgrupo dentro de uma organização do {{site.data.keyword.cloud_notm}}. Usuários que são membros de uma organização recebem acesso a um ou mais de seus espaços, com permissões associadas a uma função específica (como desenvolvedor, gerenciador ou auditor). Qualquer membro do espaço pode visualizar apps, mas somente membros com a função de desenvolvedor podem criar apps e incluir instâncias de serviço no espaço. Apps e instâncias de serviço são associados a espaços. Consulte também [organização](#x2032585).
 
 ### SSL
 {: #x2483907}
@@ -938,4 +944,3 @@ Um formato de arquivo compactado, definido pelo padrão Java EE, para armazenar 
 {: #x2096037}
 
 Um contexto que contém uma coleção de artefatos que um usuário com a permissão apropriada pode modificar.
-

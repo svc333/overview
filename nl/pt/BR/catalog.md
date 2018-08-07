@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2018
-lastupdated: "2018-01-29"
+lastupdated: "2018-08-02"
 
 ---
 
@@ -18,7 +18,7 @@ Para criar recursos do catálogo, veja [Trabalhando no catálogo](/docs/overview
 ## Gerenciando visibilidade
 {: #manage-vis}
 
-Deseja mais controle sobre o que é exibido no catálogo? Gostaria de ocultar recursos individuais para alguns usuários e exibi-los para outros? Com a autoridade do administrador adequada, é possível visualizar e configurar a visibilidade em recursos do catálogo usando a [CLI](/docs/cli/reference/bluemix_cli/get_started.html#getting-started) do {{site.data.keyword.Bluemix_notm}}.
+Deseja mais controle sobre o que é exibido no catálogo? Gostaria de ocultar recursos individuais para alguns usuários e exibi-los para outros? Com a autoridade de administrador adequada, é possível visualizar e configurar a visibilidade em recursos do catálogo usando a [CLI](/docs/cli/index.html#overview) do {{site.data.keyword.Bluemix_notm}}.
 
 Para obter mais informações,
 consulte os tópicos a seguir.
