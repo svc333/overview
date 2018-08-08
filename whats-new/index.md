@@ -23,7 +23,7 @@ Stay up-to-date with the new features and services that are available in {{site.
 ### Searching for resources
 New as of: 17 July 2018
 
-You can search for resources from anywhere in the {{site.data.keyword.cloud_notm}} console. Type the name of a resource in the search field in the console menu bar.
+You can search for resources from anywhere in the {{site.data.keyword.cloud_notm}} console. Type the name of a resource in the search field in the console menu bar. Press the Forward Slash key (/) to activate the search.
 
 ### Dynamically add federated users to access groups
 New as of: 12 July 2018
