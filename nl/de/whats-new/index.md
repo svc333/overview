@@ -23,7 +23,7 @@ Wenn Sie stets auf dem aktuellen Stand über die neuen Features und Services ble
 ### Nach Ressourcen suchen
 Datum der Neuerung: 17. Juli 2018
 
-Sie können von der gesamten {{site.data.keyword.cloud_notm}}-Konsole aus nach Ressourcen suchen. Geben Sie den Namen einer Ressource in das Suchfeld in der Menüleiste der Konsole ein.
+Sie können von der gesamten {{site.data.keyword.cloud_notm}}-Konsole aus nach Ressourcen suchen. Geben Sie den Namen einer Ressource in das Suchfeld in der Menüleiste der Konsole ein. Aktivieren Sie die Suche durch Drücken der Schrägstrichtaste (/). 
 
 ### Föderierte Benutzer dynamisch zu Zugriffsgruppen hinzufügen
 Datum der Neuerung: 12. Juli 2018
@@ -111,7 +111,7 @@ Bluemix heißt jetzt IBM Cloud. Außer dem Namen ändert sich nichts. Sie könne
 ### Lite-Konto
 Datum der Neuerung: 31. Oktober 2017
 
-Mit dem neuen Typ des Lite-Kontos können Sie ausgewählte Services kostenlos und ohne Zeitbegrenzung ausprobieren. Dieses neue Konto umfasst darüber hinaus Nutzungsüberwachungs- und Effizienzfunktionen, die eine bessere Verwaltung Ihrer Ressourcen fördern. Mehr über die verfügbaren Funktionen finden Sie unter [Kontotypen](/docs/account/index.html#liteaccount).
+Mit dem neuen Typ des Lite-Kontos können Sie ausgewählte Services kostenfrei und ohne Zeitbegrenzung ausprobieren. Dieses neue Konto umfasst darüber hinaus Nutzungsüberwachungs- und Effizienzfunktionen, die eine bessere Verwaltung Ihrer Ressourcen fördern. Mehr über die verfügbaren Funktionen finden Sie unter [Kontotypen](/docs/account/index.html#liteaccount).
 
 ### Funktion 'Identity and Access Management' für Anwendungsauthentifizierung
 Datum der Neuerung: 6. Oktober 2017
@@ -439,7 +439,7 @@ Zusätzliche Details finden Sie in der Dokumentation unter [Rich-Media-Benachric
 Apple hat eine Unterstützung des HTTP-Protokolls für Apple Notifications eingeführt. Der {{site.data.keyword.mobilepushshort}}-Service unterstützt jetzt das HTTP/2-Protokoll. Durch diese Unterstützung können Benachrichtigungen Nutzdaten in einer Größe von 4 KB enthalten; gleichzeitig wird der Durchsatz gesteigert und es gibt eine Funktion für ein Sofortfeedback. Die Unterstützung von Universal Certificate ermöglicht der App Verbindungen sowohl zur Sandbox- als auch zur Produktionsumgebung.
 
 #### Neuer Lite-Plan
-Der Lite-Plan für den {{site.data.keyword.mobilepushshort}}-Service ermöglicht das kostenlose Senden von Benachrichtigungen mit einer Größe von 100 K monatlich. Weitere Informationen enthält der Blogbeitrag [Lite Plan For Push Notifications Service on Bluemix](https://www.ibm.com/blogs/bluemix/2017/06/lite-plan-push-notifications-service-bluemix/){: new_window} ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link").
+Der Lite-Plan für den {{site.data.keyword.mobilepushshort}}-Service ermöglicht das kostenfreie Senden von Benachrichtigungen mit einer Größe von 100 K monatlich. Weitere Informationen enthält der Blogbeitrag [Lite Plan For Push Notifications Service on Bluemix](https://www.ibm.com/blogs/bluemix/2017/06/lite-plan-push-notifications-service-bluemix/){: new_window} ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link").
 
 
 
@@ -638,7 +638,7 @@ Datum der Neuerung: 24. Mai 2017
 
 Die folgenden neuen Aktualisierungen sind für den {{site.data.keyword.mobilepush}}-Service bei {{site.data.keyword.Bluemix_notm}} verfügbar:
 
-**Lite-Plan**: Neben dem bestehenden Basic-Plan für den {{site.data.keyword.mobilepush}}-Service wird ein Lite-Plan eingeführt. Mit dem neuen Plan können Benutzer bis zu einhunderttausend digitale Nachrichten pro Monat kostenlos senden. Bei einem Upgrade vom Lite-Plan auf den Basic-Plan werden für den Benutzer nach einer Million digitalen Nachrichten Gebühren fällig. Die Zählung beginnt zu dem Zeitpunkt, an dem das Upgrade des Lite-Plans auf den Basic-Plan erfolgt.
+**Lite-Plan**: Neben dem bestehenden Basic-Plan für den {{site.data.keyword.mobilepush}}-Service wird ein Lite-Plan eingeführt. Mit dem neuen Plan können Benutzer bis zu einhunderttausend digitale Nachrichten pro Monat kostenfrei senden. Bei einem Upgrade vom Lite-Plan auf den Basic-Plan werden für den Benutzer nach einer Million digitalen Nachrichten Gebühren fällig. Die Zählung beginnt zu dem Zeitpunkt, an dem das Upgrade des Lite-Plans auf den Basic-Plan erfolgt.
 
 **Überwachung**: Sie können jetzt Informationen zu gesendeten Nachrichten und registrierten Geräten in der Konsole des {{site.data.keyword.mobilepush}}-Service einsehen. Außerdem können Sie REST-APIs für die Überwachung auf Nachrichtenebene einsetzen. Von der Nachrichtenübermittlung über die Nachrichtenzuteilung bis zum Nachrichtenempfang können Details durch die Konfiguration von Web-Hooks abgerufen werden.  Weitere Informationen finden Sie unter [Überwachung für {{site.data.keyword.mobilepush}}](/docs/services/mobilepush/t_push_monitoring.html#monitor-notifications).
 
@@ -670,7 +670,7 @@ Ihre Fragen zu {{site.data.keyword.sparkl}} oder zur neueren Version Apache Spar
 ### {{site.data.keyword.macm_short}} wird nicht weiterentwickelt
 Datum der Neuerung: 18. April 2017
 
-Mit Wirkung zum 30. März 2017 wird die Kachel für den {{site.data.keyword.macm_long}}-Service aus dem {{site.data.keyword.Bluemix_notm}}-Katalog entfernt; Sie können dann keine neuen MACM-Instanzen mehr bereitstellen. Vorhandene Instanzen werden jedoch weiterhin unterstützt. Die Unterstützung endet am 30. März 2018. Bitte löschen Sie Ihre Serviceinstanzen für {{site.data.keyword.macm_short}} (MACM) vor dem Ende der Unterstützung. Benutzern wird die Migration auf IBM Watson Content Hub empfohlen. Watson Content Hub ist bei IBM Marketplace verfügbar und wird Benutzern im Rahmen eines 30-tägigen kostenlosen Tests zur Verfügung gestellt. IBM Watson Content Hub bietet eine ähnliche Funktionalität wie MACM, die durch neue Funktionen wie das Asset-Management, das kognitive Tagging mithilfe von IBM Watson-Services und einem integrierten Netz zur Bereitstellung von Inhalten (Content Delivery Network, CDN) ergänzt wird, um eine optimale Funktionalität für Ihre Kunden zu gewährleisten. IBM bietet Services, die zur Migration von Inhalt aus MACM auf Watson Content Hub eingesetzt werden können.
+Mit Wirkung zum 30. März 2017 wird die Kachel für den {{site.data.keyword.macm_long}}-Service aus dem {{site.data.keyword.Bluemix_notm}}-Katalog entfernt; Sie können dann keine neuen MACM-Instanzen mehr bereitstellen. Vorhandene Instanzen werden jedoch weiterhin unterstützt. Die Unterstützung endet am 30. März 2018. Bitte löschen Sie Ihre Serviceinstanzen für {{site.data.keyword.macm_short}} (MACM) vor dem Ende der Unterstützung. Benutzern wird die Migration auf IBM Watson Content Hub empfohlen. Watson Content Hub ist bei IBM Marketplace verfügbar und wird Benutzern im Rahmen eines 30-tägigen kostenfreien Tests zur Verfügung gestellt. IBM Watson Content Hub bietet eine ähnliche Funktionalität wie MACM, die durch neue Funktionen wie das Asset-Management, das kognitive Tagging mithilfe von IBM Watson-Services und einem integrierten Netz zur Bereitstellung von Inhalten (Content Delivery Network, CDN) ergänzt wird, um eine optimale Funktionalität für Ihre Kunden zu gewährleisten. IBM bietet Services, die zur Migration von Inhalt aus MACM auf Watson Content Hub eingesetzt werden können.
 
 
 ### Aktualisierungen für {{site.data.keyword.sparks}}: Unterstützung von Notizbüchern in Data Science Experience jetzt verfügbar
