@@ -23,7 +23,7 @@ Rimani aggiornato con le nuove funzioni e i nuovi servizi disponibili in {{site.
 ### Ricerca delle risorse
 Novità a partire dal 17 luglio 2018
 
-Puoi cercare le risorse da qualsiasi punto nella console {{site.data.keyword.cloud_notm}}. Immetti il nome di una risorsa nel campo di ricerca nella barra dei menu della console.
+Puoi cercare le risorse da qualsiasi punto nella console {{site.data.keyword.cloud_notm}}. Immetti il nome di una risorsa nel campo di ricerca nella barra dei menu della console. Premi il tasto barra (/) per attivare la ricerca.
 
 ### Aggiungi dinamicamente gli utenti federati ai gruppi di accesso
 Novità a partire dal 12 luglio 2018
@@ -267,7 +267,7 @@ Con gli ultimi aggiornamenti e miglioramenti di aprile, puoi utilizzare le segue
 ## Calcola
 {: #compute_category}
 
-### Crea cluster multizona in {{site.data.keyword.containerlong_notm}}
+### Crea cluster a più zone in {{site.data.keyword.containerlong_notm}}
 Novità a partire dal 10 luglio 2018
 
 Vuoi migliorare la disponibilità di cluster e applicazioni? Ora puoi estendere il tuo cluster su più zone in aree metropolitane selezionate. per ulteriori informazioni, vedi [Creazione di cluster multizona in {{site.data.keyword.containershort_notm}}](cs_clusters.html#multizone).
