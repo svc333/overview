@@ -23,7 +23,7 @@ Mantenha-se atualizado com os novos recursos e serviços que estão disponíveis
 ### Procurando Recursos
 Novo a partir de: 17 de julho de 2018
 
-É possível procurar recursos de qualquer lugar no console do {{site.data.keyword.cloud_notm}}. Digite o nome de um recurso no campo de procura na barra de menus do console.
+É possível procurar recursos de qualquer lugar no console do {{site.data.keyword.cloud_notm}}. Digite o nome de um recurso no campo de procura na barra de menus do console. Pressione a tecla de barra (/) para ativar a procura.
 
 ### Incluir dinamicamente usuários federados nos grupos de acesso
 Novo desde: 12 de julho de 2018

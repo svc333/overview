@@ -3,7 +3,7 @@
 
 copyright:
   years: 2016, 2018
-lastupdated: "2018-05-22"
+lastupdated: "2018-08-08"
 
 ---
 
@@ -30,4 +30,4 @@ A lista a seguir especifica o software do navegador mínimo necessário para o {
 ## Interface da Linha de Comandos (CLI)
 {: #cli}
 
-O {{site.data.keyword.Bluemix_notm}} CLI está em constante mudança, portanto, recomenda-se usar a [versão mais recente](/docs/cli/reference/bluemix_cli/all_versions.html) que também empacota o `cf cli` do Cloud Foundry. 
+A CLI do {{site.data.keyword.Bluemix_notm}} está em constante mudança, por isso é recomendável acessar a página [Instalando a CLI do {{site.data.keyword.Bluemix_notm}} independente](docs/cli/reference/ibmcloud/download_cli.html), que sempre aponta para a versão mais recente para download e instalação.
