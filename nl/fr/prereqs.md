@@ -3,7 +3,7 @@
 
 copyright:
   years: 2016, 2018
-lastupdated: "2018-05-22"
+lastupdated: "2018-08-08"
 
 ---
 
@@ -31,4 +31,4 @@ La liste suivante spécifie les versions minimales requises des logiciels de nav
 ## Interface de ligne de commande
 {: #cli}
 
-L'interface de ligne de commande {{site.data.keyword.Bluemix_notm}} changeant constamment, il est donc recommandé d'utiliser la [version la plus récente](/docs/cli/reference/bluemix_cli/all_versions.html), laquelle comporte également `l'interface de ligne de commande cf` de Cloud Foundry. 
+L'interface de ligne de commande {{site.data.keyword.Bluemix_notm}} changeant constamment, il est donc recommandé de consulter la page [Installation de l'interface de ligne de commande {{site.data.keyword.Bluemix_notm}} autonome](docs/cli/reference/ibmcloud/download_cli.html), laquelle pointe toujours vers la version la plus récente disponible pour téléchargement et installation.

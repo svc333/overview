@@ -23,7 +23,7 @@ Restez à jour avec les nouvelles fonctions et les nouveaux services disponibles
 ### Recherche de ressources
 Nouveau à compter du : 17 juillet 2018
 
-Vous pouvez rechercher des ressources à tout emplacement de la console {{site.data.keyword.cloud_notm}}. Entrez le nom d'une ressource dans la zone de recherche de la barre de menu de la console.
+Vous pouvez rechercher des ressources à tout emplacement de la console {{site.data.keyword.cloud_notm}}. Entrez le nom d'une ressource dans la zone de recherche de la barre de menu de la console. Appuyez sur la touche Barre oblique (/) pour activer la recherche.
 
 ### Ajout de manière dynamique d'utilisateurs fédérés à des groupes d'accès
 Nouveau à compter du : 12 juillet 2018

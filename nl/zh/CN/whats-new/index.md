@@ -23,7 +23,7 @@ lastupdated: "2018-07-18"
 ### 搜索资源
 最新更新日期：2018 年 7 月 17 日
 
-您可以在 {{site.data.keyword.cloud_notm}} 控制台中的任何位置搜索资源。在控制台菜单栏的搜索字段中输入资源的名称。
+您可以在 {{site.data.keyword.cloud_notm}} 控制台中的任何位置搜索资源。在控制台菜单栏的搜索字段中输入资源的名称。请按正斜杠键 (/) 以激活搜索。
 
 ### 将联合用户动态添加到访问组
 最新更新日期：2018 年 7 月 12 日
@@ -271,7 +271,7 @@ Bluemix 现已更名为 IBM Cloud。除了推出新名称外，没有更改其�
 ### 在 {{site.data.keyword.containerlong_notm}} 中创建多专区集群
 最新更新日期：2018 年 7 月 10 日
 
-想要提高集群和应用程序的可用性？现在，您可以使集群跨所选大都会区域中的多个专区分布。有关更多信息，请参阅[在 {{site.data.keyword.containershort_notm}} 中创建多专区集群](cs_clusters.html#multizone)。
+想要提高集群和应用程序的可用性？现在，您可以使集群跨精选城区中的多个专区分布。有关更多信息，请参阅[在 {{site.data.keyword.containershort_notm}} 中创建多专区集群](cs_clusters.html#multizone)。
 
 ### Kubernetes 仪表板访问涉及 {{site.data.keyword.containerlong_notm}}
 

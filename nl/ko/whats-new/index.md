@@ -23,7 +23,7 @@ lastupdated: "2018-07-18"
 ### 리소스 검색
 신규 기준일: 2018년 7월 17일
 
-{{site.data.keyword.cloud_notm}} 콘솔의 어느 위치에서나 리소스를 검색할 수 있습니다. 콘솔 메뉴 표시줄의 검색 필드에 리소스의 이름을 입력하십시오.
+{{site.data.keyword.cloud_notm}} 콘솔의 어느 위치에서나 리소스를 검색할 수 있습니다. 콘솔 메뉴 표시줄의 검색 필드에 리소스의 이름을 입력하십시오. 검색을 활성화하려면 슬래시 키(/)를 누르십시오. 
 
 ### 동적으로 액세스 그룹에 연합 사용자 추가
 신규 기준일: 2018년 7월 12일
@@ -270,7 +270,7 @@ IAM(Identity and Access Management)은 이제 서비스 ID를 작성할 수 있�
 ### {{site.data.keyword.containerlong_notm}}에서 다중 구역 클러스터 작성
 신규 기준일: 2018년 7월 10일
 
-클러스터 및 앱 가용성을 향상시키고 싶으십니까? 이제 클러스터가 특정 메트로 영역의 다중 구역에 걸쳐 있을 수 있습니다. 자세한 정보는 [{{site.data.keyword.containershort_notm}}에서 다중 구역 클러스터 작성](cs_clusters.html#multizone)을 참조하십시오.
+클러스터 및 앱 가용성을 향상시키고 싶으십니까? 이제 클러스터를 대도시 지역의 여러 구역에서 확장할 수 있습니다. 자세한 정보는 [{{site.data.keyword.containershort_notm}}에서 다중 구역 클러스터 작성](cs_clusters.html#multizone)을 참조하십시오.
 
 ### {{site.data.keyword.containerlong_notm}}에 대한 Kubernetes 대시보드 액세스
 
@@ -638,7 +638,7 @@ Apache Spark는 Stocator 기술에 기반한 스토리지 커넥터를 통해 IB
 
 다음은 {{site.data.keyword.Bluemix_notm}}의 {{site.data.keyword.mobilepush}} 서비스에 사용 가능한 새 업데이트입니다.
 
-**라이트 플랜**: {{site.data.keyword.mobilepush}} 서비스를 위한 기존 기본 플랜 외에도 새 라이트 플랜을 도입하였습니다. 새 플랜에 따라 사용자는 매달 최대 100000개의 디지털 메시지를 무료로 보낼 수 있습니다. 라이트 플랜에서 기본 플랜으로 업그레이드하는 동안 백만 개의 디지털 메시지 후에 사용자에게 청구됩니다. 백만 개 메시지 계수는 라이트 계획이 기본 계획으로 업그레이드될 때 시작합니다.
+**라이트 플랜**: {{site.data.keyword.mobilepush}} 서비스를 위한 기존 기본 플랜 외에도 새 라이트 플랜을 도입하였습니다. 새 플랜에 따라 사용자는 매달 최대 100000개의 디지털 메시지를 무료로 보낼 수 있습니다. 라이트 플랜에서 기본 플랜으로 업그레이드하는 동안 백만 개의 디지털 메시지 후에 사용자에게 청구됩니다. 백만 개 메시지 계수는 라이트 플랜이 기본 플랜으로 업그레이드될 때 시작합니다.
 
 **모니터링**: 이제 {{site.data.keyword.mobilepush}} Service Console에서 받은 알림 및 등록된 디바이스에 대한 인사이트를 얻을 수 있습니다. 또한 메시지 레벨 추적을 위해 REST API를 사용할 수도 있습니다. 메시지 전송에서 메시지 수신인으로 디스패치하는 메시지까지 구성 웹훅으로 세부사항을 가져올 수 있습니다.  [{{site.data.keyword.mobilepush}} 모니터링](/docs/services/mobilepush/t_push_monitoring.html#monitor-notifications)을 참조하십시오.
 
