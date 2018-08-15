@@ -3,7 +3,7 @@
 
 copyright:
   years: 2016, 2018
-lastupdated: "2018-08-08"
+lastupdated: "2018-08-15"
 
 ---
 
@@ -31,4 +31,4 @@ Extended Support Release](https://www.mozilla.org/firefox/organizations/) for mo
 ## Command Line Interface (CLI)
 {: #cli}
 
-The {{site.data.keyword.Bluemix_notm}} CLI is constantly changing so it is recommended to go to [Installing the stand-alone {{site.data.keyword.Bluemix_notm}} CLI](docs/cli/reference/ibmcloud/download_cli.html) page, which always points to the latest version for download and install.
+The {{site.data.keyword.Bluemix_notm}} CLI is constantly changing so it is recommended to go to [Installing the stand-alone {{site.data.keyword.Bluemix_notm}} CLI](/docs/cli/reference/ibmcloud/download_cli.html) page, which always points to the latest version for download and install.
