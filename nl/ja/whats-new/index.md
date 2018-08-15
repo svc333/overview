@@ -23,12 +23,12 @@ lastupdated: "2018-07-18"
 ### リソースの検索
 最新情報: 2018 年 7 月 17 日
 
-{{site.data.keyword.cloud_notm}} コンソール内の任意の場所からリソースを検索できます。コンソールのメニュー・バーで検索フィールドにリソースの名前を入力します。
+{{site.data.keyword.cloud_notm}} コンソール内の任意の場所からリソースを検索できます。 コンソールのメニュー・バーで検索フィールドにリソースの名前を入力します。スラッシュ・キー (/) を押して、検索を有効にします。
 
 ### フェデレーテッド・ユーザーをアクセス・グループに動的に追加
 最新情報: 2018 年 7 月 12 日
 
-動的ルールを作成して、特定の ID 属性に基づいてフェデレーテッド・ユーザーをアクセス・グループに自動的に追加することができます。ユーザーがフェデレーテッド ID を使用してログインすると、ID プロバイダーからのデータは、設定されたルールに基づいてユーザーをアクセス・グループに動的にマップします。詳しくは、『[アクセス・グループの動的ルールの作成 (Creating dyanmic rules for access groups)](/docs/iam/accessgroup_rules.html#creating-dynamic-rules-for-access-groups)』を参照してください。
+動的ルールを作成して、特定の ID 属性に基づいてフェデレーテッド・ユーザーをアクセス・グループに自動的に追加することができます。 ユーザーがフェデレーテッド ID を使用してログインすると、ID プロバイダーからのデータは、設定されたルールに基づいてユーザーをアクセス・グループに動的にマップします。 詳しくは、『[アクセス・グループの動的ルールの作成 (Creating dyanmic rules for access groups)](/docs/iam/accessgroup_rules.html#creating-dynamic-rules-for-access-groups)』を参照してください。
 
 ### サービス ID および API キーの保護
 最新情報: 2018 年 6 月 1 日
@@ -270,7 +270,7 @@ Identity and Access Management (IAM) では、サービス ID を作成する機
 ### {{site.data.keyword.containerlong_notm}} でのマルチゾーン・クラスターの作成
 最新情報: 2018 年 7 月 10 日
 
-クラスターとアプリの可用性を改善したい場合、選択したメトロ領域内の複数のゾーンにクラスターを広げることができるようになりました。詳しくは、『[IBM Bluemix Container Service でのマルチゾーン・クラスターの作成 (Creating multizone clusters in {{site.data.keyword.containershort_notm}})](cs_clusters.html#multizone)』を参照してください。
+クラスターとアプリの可用性を改善したい場合、 選択したメトロ領域内の複数のゾーンにクラスターを広げることができるようになりました。 詳しくは、『[IBM Bluemix Container Service でのマルチゾーン・クラスターの作成 (Creating multizone clusters in {{site.data.keyword.containershort_notm}})](cs_clusters.html#multizone)』を参照してください。
 
 ### {{site.data.keyword.containerlong_notm}} での Kubernetes Dashboard アクセス
 
