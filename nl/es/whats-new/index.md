@@ -23,7 +23,7 @@ Consulte información actualizada sobre las nuevas características y servicios 
 ### Búsqueda de recursos
 Novedad desde: 17 de julio de 2018
 
-Puede buscar recursos desde cualquier lugar de la consola de {{site.data.keyword.cloud_notm}}. Escriba el nombre de un recurso en el campo de búsqueda de la barra de menús de la consola.
+Puede buscar recursos desde cualquier lugar de la consola de {{site.data.keyword.cloud_notm}}. Escriba el nombre de un recurso en el campo de búsqueda de la barra de menús de la consola. Pulse la tecla de barra inclinada (/) para activar la búsqueda.
 
 ### Adición dinámica de usuarios federados a grupos de acceso
 Novedad desde: 12 de julio de 2018

@@ -3,7 +3,7 @@
 
 copyright:
   years: 2016, 2018
-lastupdated: "2018-05-22"
+lastupdated: "2018-08-08"
 
 ---
 
@@ -31,4 +31,4 @@ Extended Support Release](https://www.mozilla.org/firefox/organizations/) para o
 ## Interfaz de la línea de mandatos (CLI)
 {: #cli}
 
-La CLI de {{site.data.keyword.Bluemix_notm}} cambia constantemente, por lo que se recomienda utilizar la [versión más reciente](/docs/cli/reference/bluemix_cli/all_versions.html) que también empaqueta la `cf cli` de Cloud Foundry. 
+La CLI de {{site.data.keyword.Bluemix_notm}} cambia constantemente, por lo que se recomienda que visite la página [Instalación de la CLI de {{site.data.keyword.Bluemix_notm}} autónoma](docs/cli/reference/ibmcloud/download_cli.html), que siempre incluye la última versión para descargar e instalar.
