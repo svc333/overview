@@ -3,7 +3,7 @@
 
 copyright:
   years: 2016, 2018
-lastupdated: "2018-08-08"
+lastupdated: "2018-08-15"
 
 ---
 
@@ -31,4 +31,4 @@ Extended Support Release](https://www.mozilla.org/firefox/organizations/)
 ## Befehlszeilenschnittstelle (Command Line Interface, CLI)
 {: #cli}
 
-Da die {{site.data.keyword.Bluemix_notm}}-Befehlszeilenschnittstelle kontinuierlich geändert wird, wird empfohlen, den Download und die Installation über die Seite [Eigenständige {{site.data.keyword.Bluemix_notm}}-Befehlszeilenschnittstelle installieren](docs/cli/reference/ibmcloud/download_cli.html) durchzuführen, die stets auf die neueste Version verweist.
+Da die {{site.data.keyword.Bluemix_notm}}-Befehlszeilenschnittstelle kontinuierlich geändert wird, wird empfohlen, den Download und die Installation über die Seite [Eigenständige {{site.data.keyword.Bluemix_notm}}-Befehlszeilenschnittstelle installieren](/docs/cli/reference/ibmcloud/download_cli.html) durchzuführen, die stets auf die neueste Version verweist.

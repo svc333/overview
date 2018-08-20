@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2018
-lastupdated: "2018-06-20"
+lastupdated: "2018-08-15"
 
 ---
 
@@ -15,4 +15,13 @@ Die Plattform {{site.data.keyword.cloud_notm}} wurde mit Verfahren für sichere 
 
 In {{site.data.keyword.cloud_notm}} wird eine Sicherheitsbereitschaft sichergestellt, indem Sicherheitsrichtlinien mit Verfahren eingehalten werden, die sich bei IBM in Hinblick auf Systeme, den Netzbetrieb und sichere Entwicklung bewährt haben. Diese Richtlinien umfassen Verfahren wie das Scannen von Quellcode, dynamisches Scannen, Bedrohungsmodellierung und Penetrationstests. {{site.data.keyword.cloud_notm}} befolgt den IBM Product Security Incident Response Team-Prozess (PSIRT-Prozess) für das Management von Sicherheitsvorfällen. Einzelheiten finden Sie auf der Webseite zu [IBM Security Vulnerability Management (PSIRT) ![Symbol für externen Link](../icons/launch-glyph.svg "Symbol für externen Link")](http://www-03.ibm.com/security/secure-engineering/process.html){: new_window}.
 
-{{site.data.keyword.cloud_notm}} Public und Dedicated verwenden die Cloud-Services der {{site.data.keyword.BluSoftlayer}} Infrastructure as a Service (IaaS) und nutzen deren Sicherheitsarchitektur optimal aus. {{site.data.keyword.BluSoftlayer}} IaaS stellt mehrere überschneidende Schutzebenen für Ihre Anwendungen und Daten bereit. Bei {{site.data.keyword.cloud_notm}} Local entscheiden Sie über die physische Sicherheit und stellen die Infrastruktur bereit, indem Sie {{site.data.keyword.cloud_notm}} Local in Ihrem eigenen Rechenzentrum hinter einer Unternehmensfirewall hosten. Darüber hinaus fügt {{site.data.keyword.cloud_notm}} Sicherheitsfunktionen auf der Platform as a Service-Ebene (PaaS) in unterschiedlichen Kategorien hinzu: Plattform, Daten und Anwendung. Weitere Informationen zu Sicherheitsdetails Ihrer Umgebung und Apps in {{site.data.keyword.Bluemix_notm}} finden Sie im Thema zum [Schützen von Anwendungen und Umgebungen in der Cloud ![Symbol für externen Link](../icons/launch-glyph.svg "Symbol für externen Link")](https://www.ibm.com/cloud/garage/architectures/securityArchitecture){: new_window}. 
+{{site.data.keyword.cloud_notm}} Public und Dedicated verwenden die Cloud-Services der {{site.data.keyword.BluSoftlayer}} Infrastructure as a Service (IaaS) und nutzen deren Sicherheitsarchitektur optimal aus. {{site.data.keyword.BluSoftlayer}} IaaS stellt mehrere überschneidende Schutzebenen für Ihre Anwendungen und Daten bereit. Bei {{site.data.keyword.cloud_notm}} Local entscheiden Sie über die physische Sicherheit und stellen die Infrastruktur bereit, indem Sie {{site.data.keyword.cloud_notm}} Local in Ihrem eigenen Rechenzentrum hinter einer Unternehmensfirewall hosten. Darüber hinaus fügt {{site.data.keyword.cloud_notm}} Sicherheitsfunktionen auf der Platform as a Service-Ebene (PaaS) in unterschiedlichen Kategorien hinzu: Plattform, Daten und Anwendung. Weitere Informationen zu Sicherheitsdetails Ihrer Umgebung und Apps in {{site.data.keyword.Bluemix_notm}} finden Sie im Thema zum [Schützen von Anwendungen und Umgebungen in der Cloud ![Symbol für externen Link](../icons/launch-glyph.svg "Symbol für externen Link")](https://www.ibm.com/cloud/garage/architectures/securityArchitecture){: new_window}.
+
+## Datenschutz-Grundverordnung (DSGVO)
+{: #gdpr}
+
+Mit der DSGVO (Datenschutz-Grundverordnung) soll in der gesamten EU ein harmonisierter Rechtsrahmen für den Datenschutz geschaffen werden, in dem Bürger wieder die Kontrolle über ihre personenbezogenen Daten übernehmen, während gleichzeitig denen, die diese Daten an einem beliebigen Standort weltweit hosten und verarbeiten, strikte Regeln auferlegt werden. 
+
+{{site.data.keyword.IBM_notm}} ist bestrebt, seinen Kunden und {{site.data.keyword.IBM_notm}} Business Partners innovative Datenschutz-, Sicherheits- und Governance-Lösungen zur Verfügung zu stellen, die sie bei der Umsetzung der DSGVO unterstützen. Daten und ihr Schutz werden für Einzelpersonen wie auch die Gesellschaft immer wichtiger. Unternehmen müssen sich das Vertrauen des Kunden in ihre Fähigkeit zum verantwortungsvollen Umgang mit Informationen verdienen. 
+
+{{site.data.keyword.Bluemix_notm}} ist agil und mit integrierten Datensicherheits- und Datenschutzservices sowie mit Lösungen skalierbar, die lokal oder über die öffentliche Cloud genutzt werden können. Unsere umfassende Datensicherheitsplattform hilft dabei, vertrauliche Daten an ihrem jeweiligen Standort zu schützen, und bietet eine umfassende Palette an Datenschutzfunktionen.
