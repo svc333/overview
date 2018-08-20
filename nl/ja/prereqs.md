@@ -3,7 +3,7 @@
 
 copyright:
   years: 2016, 2018
-lastupdated: "2018-08-08"
+lastupdated: "2018-08-15"
 
 ---
 
@@ -30,4 +30,4 @@ lastupdated: "2018-08-08"
 ## コマンド・ライン・インターフェース (CLI)
 {: #cli}
 
-{{site.data.keyword.Bluemix_notm}} CLI は絶えず変更されるため、常に[スタンドアロン {{site.data.keyword.Bluemix_notm}} CLI](docs/cli/reference/ibmcloud/download_cli.html) のインストールのページにアクセスすることをお勧めします。このページには、ダウンロードしてインストールできる最新バージョンが明示されています。
+{{site.data.keyword.Bluemix_notm}} CLI は絶えず変更されるため、常に[スタンドアロン {{site.data.keyword.Bluemix_notm}} CLI](/docs/cli/reference/ibmcloud/download_cli.html) のインストールのページにアクセスすることをお勧めします。このページには、ダウンロードしてインストールできる最新バージョンが明示されています。

@@ -3,7 +3,7 @@
 
 copyright:
   years: 2016, 2018
-lastupdated: "2018-08-08"
+lastupdated: "2018-08-15"
 
 ---
 
@@ -31,4 +31,4 @@ Extended Support Release](https://www.mozilla.org/firefox/organizations/)
 ## 指令行介面 (CLI)
 {: #cli}
 
-{{site.data.keyword.Bluemix_notm}} CLI 不斷變更，因此建議前往[安裝獨立式 {{site.data.keyword.Bluemix_notm}} CLI](docs/cli/reference/ibmcloud/download_cli.html) 頁面，它一律會指向可下載及安裝的最新版本。
+{{site.data.keyword.Bluemix_notm}} CLI 不斷變更，因此建議前往[安裝獨立式 {{site.data.keyword.Bluemix_notm}} CLI](/docs/cli/reference/ibmcloud/download_cli.html) 頁面，它一律會指向可下載及安裝的最新版本。
