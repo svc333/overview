@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2018
-lastupdated: "2018-06-20"
+lastupdated: "2018-08-15"
 
 ---
 
@@ -17,3 +17,12 @@ Diseñada con prácticas de ingeniería seguras, la plataforma {{site.data.keywo
 
 {{site.data.keyword.cloud_notm}} público y dedicado utiliza los servicios de nube de {{site.data.keyword.BluSoftlayer}} infrastructure-as-a-service (IaaS) y aprovecha su arquitectura de seguridad. {{site.data.keyword.BluSoftlayer}} IaaS proporciona varias capas de protección solapadas para sus aplicaciones y datos. En {{site.data.keyword.cloud_notm}} local, usted es el propietario de la seguridad física y proporciona
 la infraestructura alojando {{site.data.keyword.cloud_notm}} local en su propio centro de datos detrás de un cortafuegos de la empresa. Además, {{site.data.keyword.cloud_notm}} incorpora funciones de seguridad en la capa de Plataforma como servicio en distintas categorías: plataforma, datos y aplicación. Para obtener más detalles sobre la seguridad en el entorno y las apps en {{site.data.keyword.Bluemix_notm}}, consulte [Protección de aplicaciones y entornos de nube ![Icono de enlace externo](../icons/launch-glyph.svg "Icono de enlace externo")](https://www.ibm.com/cloud/garage/architectures/securityArchitecture){: new_window}.
+
+## Reglamento General de Protección de Datos (GDPR)
+{: #gdpr}
+
+La GDPR busca crear un marco de ley de protección de datos unificado en la Unión Europea y trata de devolver a los ciudadanos el control de sus datos personales, mientras impone reglas estrictas a quienes alojan y procesan los datos, en cualquier parte del mundo. 
+
+{{site.data.keyword.IBM_notm}} está comprometido con ofrecer a nuestros clientes y Business Partners de {{site.data.keyword.IBM_notm}} soluciones innovadoras de privacidad, seguridad y control de los datos para ayudarles en la implantación de GDPR. Los datos y su protección son cada vez más importantes para las personas y la sociedad. Las empresas deben ganarse la confianza del cliente en su capacidad para administrar la información. 
+
+{{site.data.keyword.Bluemix_notm}} es ágil y escalable con servicios y soluciones de privacidad y seguridad de datos incorporados que se pueden consumir de forma local o a través de la nube pública. Nuestra plataforma de seguridad de datos completa ayuda a proteger los datos confidenciales residan donde residan y proporciona una amplia gama de funciones de protección de datos.
