@@ -3,7 +3,7 @@
 
 copyright:
   years: 2018
-lastupdated: "2018-04-02"
+lastupdated: "2018-09-04"
 
 ---
 
@@ -31,6 +31,8 @@ When you are reading a page of documentation or completing a task within the con
 4. Enter a short subject line about your feedback and a longer description about what you want to share with the {{site.data.keyword.Bluemix_notm}} team.
 5. Then, leave your email address if you want to receive progress from the team addressing the feedback that you submitted.
 
+Common ad blockers block Usabilla and hide the **Feedback** button. Disable any ad blockers to use the **Feedback** button to submit your comments.
+{: tip}
 
 ## Providing a content update with a pull request
 
