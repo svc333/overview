@@ -4,7 +4,7 @@ copyright:
 
   years: 2015, 2018
 
-lastupdated: "2018-07-18"
+lastupdated: "2018-09-05"
 
 ---
 
@@ -66,7 +66,7 @@ You can link your SoftLayer account to your {{site.data.keyword.Bluemix_notm}} a
 ### {{site.data.keyword.Bluemix_notm}} Foundry Service US East region is now available
 New as of:  15 December 2017
 
-A new US East data center is now available in Washington, DC. This new region can be reached using the `us-east.bluemix.net` endpoint. For details on the services that are available for purchase in this new region, see [Services by region](/docs/services/services_region.html#services_region).
+A new US East data center is now available in Washington, DC. This new region can be reached using the `us-east.bluemix.net` endpoint. For details on the services that are available for purchase in this new region, see [Services by region](/docs/resources/services_region.html#services_region).
 
 ### Support for resources in the European Union
 New as of: 14 December 2017
