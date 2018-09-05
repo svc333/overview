@@ -316,6 +316,22 @@ The Liberty buildpack v3.9 provides new monthly Liberty runtime version and cont
 ## Services
 {: #services_category}
 
+### {{site.data.keyword.security-advisor_long_notm}} is now Beta!
+New as of: 5 September 2018
+
+{{site.data.keyword.security-advisor_short}} has added new capabilities and is now available as a beta service.  {{site.data.keyword.security-advisor_short}} centralizes your {{site.data.keyword.Bluemix_notm}} security into one dashboard. In addition to centralizing information, the service summarizes critical security information across easy to navigate tiles to clearly show when a security issue is detected. Clicking on a tile enables a drill down to investigate prioritized issues, history, and the details behind the alert. To fix the issue just drill down once more to get all of the details as well as suggested fixes to remove the threat and ensure your environment stays secure.
+
+{{site.data.keyword.security-advisor_short}} will quickly become your go to console to enable you to centralize, view, and manage security in your {{site.data.keyword.Bluemix_notm}} environment.
+
+With this release we are implementing:
+* A Findings API
+* The ability to bring your own provider
+* Updates to the dashboard experience
+
+And so much more!
+
+To get started, see the [{{site.data.keyword.security-advisor_short}} documentation](/docs/services/security-advisor/index.html).
+
 ### Introducing {{site.data.keyword.iva_full_notm}} general availability
 New as of: 26 June 2018
 
