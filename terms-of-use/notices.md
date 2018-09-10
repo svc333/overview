@@ -5,7 +5,7 @@
 copyright:
 
   years: 2015, 2018
-lastupdated: "2018-06-21"
+lastupdated: "2018-09-10"
 
 
 ---
@@ -147,5 +147,9 @@ Node.js is a trademark of Joyent, Inc. and is used with its permission. This doc
 UNIX is a registered trademark of The Open Group in the United States and other countries.
 
 Java™ and all Java-based trademarks and logos are trademarks or registered trademarks of Oracle and/or its affiliates.
+
+Salesforce is a trademark of Salesforce.com, Inc.
+
+Box is a trademark of Box, Inc. 
 
 Other company, product, and service names may be trademarks or service marks of others.
