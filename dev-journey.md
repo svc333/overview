@@ -2,7 +2,7 @@
 
 copyright:
   years: 2016, 2017, 2018
-lastupdated: "2018-05-02"
+lastupdated: "2018-09-12"
 
 ---
 {:new_window: target="_blank"}
@@ -30,7 +30,7 @@ To understand how the {{site.data.keyword.cloud_notm}} developer experience can 
 
 The {{site.data.keyword.cloud_notm}} has developer dashboards in different areas of interest (like Watson, Security, or Finance) or a digital channel (like Mobile or Web Apps). You can access these dashboards from the **Menu icon**  ![Menu icon](../icons/icon_hamburger.svg).
 
-Each developer dashboard provides starter kits relevant to the dashboard's focus area and offers a consistent, intuitive workflow then enables you to create a working production-ready app in minutes.
+Each developer dashboard provides starter kits relevant to the dashboard's focus area and offers a consistent, intuitive workflow which then enables you to create a working production-ready app in minutes.
 
 ## Apps
 {: #app-projects}
