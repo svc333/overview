@@ -4,7 +4,7 @@ copyright:
 
   years: 2015, 2018
 
-lastupdated: "2018-07-18"
+lastupdated: "2018-09-05"
 
 ---
 
@@ -23,7 +23,7 @@ lastupdated: "2018-07-18"
 ### リソースの検索
 最新情報: 2018 年 7 月 17 日
 
-{{site.data.keyword.cloud_notm}} コンソール内の任意の場所からリソースを検索できます。 コンソールのメニュー・バーで検索フィールドにリソースの名前を入力します。スラッシュ・キー (/) を押して、検索を有効にします。
+{{site.data.keyword.cloud_notm}} コンソール内の任意の場所からリソースを検索できます。 コンソールのメニュー・バーで検索フィールドにリソースの名前を入力します。 スラッシュ・キー (/) を押して、検索を有効にします。
 
 ### フェデレーテッド・ユーザーをアクセス・グループに動的に追加
 最新情報: 2018 年 7 月 12 日
@@ -66,7 +66,7 @@ SoftLayer アカウントを {{site.data.keyword.Bluemix_notm}} アカウント�
 ### {{site.data.keyword.Bluemix_notm}} Foundry Service 米国東部地域が使用可能になりました。
 最新情報: 2017 年 12 月 15 日
 
-ワシントン D.C. で新しい米国東部データ・センターが使用可能になりました。 この新規の地域には、`us-east.bluemix.net` エンドポイント使用して到達できます。 この新規の地域で購入可能なサービスについて詳しくは、『[地域別のサービス](/docs/services/services_region.html#services_region)』を参照してください。
+ワシントン D.C. で新しい米国東部データ・センターが使用可能になりました。 この新規の地域には、`us-east.bluemix.net` エンドポイント使用して到達できます。 この新規の地域で購入可能なサービスについて詳しくは、『[地域別のサービス](/docs/resources/services_region.html#services_region)』を参照してください。
 
 ### EU 内のリソースに関するサポート
 最新情報: 2017 年 12 月 14 日
@@ -315,6 +315,22 @@ Liberty ビルドパック v3.9 は、新規の月次の Liberty ランタイム
 
 ## サービス
 {: #services_category}
+
+### {{site.data.keyword.security-advisor_long_notm}} は、ベータ版になりました。
+最新情報: 2018 年 9 月 5 日
+
+{{site.data.keyword.security-advisor_short}} に新しい機能が追加され、ベータ版サービスとして使用できるようになりました。{{site.data.keyword.security-advisor_short}} は、{{site.data.keyword.Bluemix_notm}} のセキュリティーを 1 つのダッシュボードに一元化します。情報の一元化に加えて、サービスにより、セキュリティー問題が検出されたときに重要なセキュリティー情報をナビゲートしやすいタイルに要約して明確に表示されます。タイルをクリックしてドリルダウンすると、優先順位付けの問題、履歴、および警告の背後にある詳細を調べることができます。問題を修正するには、単にもう一度ドリルダウンして詳細を確認し、脅威を取り除くために推奨されるフィックスをすべて取得して、環境が安全に保たれるようにします。
+
+{{site.data.keyword.security-advisor_short}} は即座に制御をコンソールに移し、セキュリティーを {{site.data.keyword.Bluemix_notm}} 環境で一元的に表示および管理できるようにします。
+
+このリリースでは、以下が実装されています。
+* 検索 API
+* 独自のプロバイダーを持ち込む能力
+* ダッシュボード・エクスペリエンスの更新
+
+まだ他にもあります。
+
+開始するには、[{{site.data.keyword.security-advisor_short}} 資料](/docs/services/security-advisor/index.html)を参照してください。
 
 ### {{site.data.keyword.iva_full_notm}} 一般出荷可能日の紹介
 最新情報: 2018 年 6 月 26 日
