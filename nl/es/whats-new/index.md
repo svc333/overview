@@ -382,7 +382,7 @@ Los [planes Beta-Entry y Beta-Enhanced](/docs/services/StreamingAnalytics/beta_p
 ### {{site.data.keyword.keymanagementservicelong_notm}} se amplía a la región de Sídney
 Novedad desde: 31 de enero de 2018
 
-A partir de hoy el servicio de gestión de claves de cifrado de {{site.data.keyword.keymanagementserviceshort}} está disponible en la región de Sídney. Sídney es la tercera región después de EE.UU. Sur (Dallas) y Londres en ofrecer estado de disponibilidad general (GA) para los usuarios de {{site.data.keyword.keymanagementserviceshort}}.
+A partir de hoy el servicio de gestión de claves de cifrado de {{site.data.keyword.keymanagementserviceshort}} está disponible en la región de Sídney. Sídney es la tercera región después de EE.UU. sur (Dallas) y Londres en ofrecer estado de disponibilidad general (GA) para los usuarios de {{site.data.keyword.keymanagementserviceshort}}.
 
 {{site.data.keyword.keymanagementserviceshort}} es un servicio de gestión de claves de cifrado que ofrece una solución sencilla y económica para la gestión de las claves que se utilizan para cifrar datos almacenados en {{site.data.keyword.Bluemix_notm}}. {{site.data.keyword.keymanagementserviceshort}} gestiona todo el ciclo vital de las claves, desde la creación de la clave hasta el uso de la aplicación, el archivado de claves y la destrucción de claves, a la vez que impone una separación de tareas entre la gestión de datos y la gestión de claves.
 
