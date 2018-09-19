@@ -3,7 +3,7 @@
 
 copyright:
   years: 2018
-lastupdated: "2018-04-02"
+lastupdated: "2018-09-04"
 
 ---
 
@@ -31,6 +31,8 @@ Quando stai leggendo una pagina di documentazione o completando un'attività nel
 4. Immetti una breve riga dell'oggetto nel tuo feedback e una descrizione più lunga su cosa vuoi condividere con il team {{site.data.keyword.Bluemix_notm}}.
 5. Quindi, lascia il tuo indirizzo email se vuoi ricevere l'andamento sulla risoluzione del feedback che hai inviato da parte del team.
 
+I blocchi degli annunci comuni bloccano Usabilla e nascondono il pulsante **Feedback**. Disabilita i blocchi degli annunci per utilizzare il pulsante **Feedback** per inviare i tuoi commenti.
+{: tip}
 
 ## Fornire un aggiornamento del contenuto con una richiesta di importazione
 

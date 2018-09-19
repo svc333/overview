@@ -4,7 +4,7 @@ copyright:
 
   years: 2015, 2018
 
-lastupdated: "2018-07-18"
+lastupdated: "2018-09-05"
 
 ---
 
@@ -66,7 +66,7 @@ Puoi collegare il tuo account SoftLayer al tuo account {{site.data.keyword.Bluem
 ### È ora disponibile la regione Stati Uniti Est per il servizio {{site.data.keyword.Bluemix_notm}} Foundry
 Novità a partire dal 15 dicembre 2017
 
-Un nuovo data center Stati Uniti Est è ora disponibile presso Washington, DC. Questa nuova regione può essere raggiunta utilizzando l'endpoint `us-east.bluemix.net`. Per i dettagli sui servizi disponibili per l'acquisto in questa nuova regione, vedi [Servizi per regione](/docs/services/services_region.html#services_region).
+Un nuovo data center Stati Uniti Est è ora disponibile presso Washington, DC. Questa nuova regione può essere raggiunta utilizzando l'endpoint `us-east.bluemix.net`. Per i dettagli sui servizi disponibili per l'acquisto in questa nuova regione, vedi [Servizi per regione](/docs/resources/services_region.html#services_region).
 
 ### Supporto per le risorse nell'Unione Europea
 Novità a partire dal 14 dicembre 2017
@@ -315,6 +315,22 @@ Il pacchetto di build Liberty v3.9 fornisce una nuova versione di runtime Libert
 
 ## Servizi
 {: #services_category}
+
+### {{site.data.keyword.security-advisor_long_notm}} è ora Beta!
+Novità a partire dal 5 settembre 2018
+
+{{site.data.keyword.security-advisor_short}} ha aggiunto nuove funzionalità ed è ora disponibile come un servizio beta.  {{site.data.keyword.security-advisor_short}} centralizza la tua sicurezza {{site.data.keyword.Bluemix_notm}} in un dashboard. In aggiunta alla centralizzazione delle informazioni, il servizio riepiloga le informazioni di sicurezza critiche in modo semplice per navigare tra i tile e per visualizzare in modo chiaro quando viene riscontrato un problema di sicurezza. Facendo clic su un tile si abilita un drill down per investigare sui problemi prioritari, sulla cronologia e sui dettagli dietro l'avviso. Per risolvere il problema, esegui il drill down ancora una volta per ottenere tutti i dettagli e le correzioni suggerite per rimuovere la minaccia e assicurarti che il tuo ambiente rimanga protetto.
+
+{{site.data.keyword.security-advisor_short}} diventerà velocemente la tua console principale per consentirti di centralizzare, visualizzare e gestire la sicurezza nel tuo ambiente {{site.data.keyword.Bluemix_notm}}.
+
+Con questa release stiamo implementando:
+* Un'API per le ricerche
+* La possibilità di utilizzare il tuo provider
+* Gli aggiornamenti all'esperienza del dashboard
+
+E molto altro ancora!
+
+Per iniziare, vedi la [documentazione {{site.data.keyword.security-advisor_short}}](/docs/services/security-advisor/index.html).
 
 ### Introduzione alla disponibilità generale di {{site.data.keyword.iva_full_notm}}
 Novità a partire dal: 26 giugno 2018
