@@ -3,7 +3,7 @@
 
 copyright:
   years: 2018
-lastupdated: "2018-04-02"
+lastupdated: "2018-09-04"
 
 ---
 
@@ -31,6 +31,8 @@ Lorsque vous lisez une page de documentation ou exécutez une tâche à l'aide d
 4. Entrez une brève ligne Objet au sujet de votre commentaire et une description plus détaillée de ce que vous voulez partager avec l'équipe {{site.data.keyword.Bluemix_notm}}.
 5. Ensuite, laissez votre adresse électronique si vous souhaitez être informé par l'équipe de l'avancement de la résolution du problème que vous avez soumis.
 
+Les bloqueurs de publicité les plus répandus bloquent Usabilla et masquent le bouton **Envoyer un commentaire**. Pour pouvoir envoyer des commentaires, désactivez les bloqueurs de publicité****.
+{: tip}
 
 ## Procédure visant à fournir une mise à jour de contenu via une demande d'extraction
 

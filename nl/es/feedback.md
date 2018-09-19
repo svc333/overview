@@ -3,7 +3,7 @@
 
 copyright:
   years: 2018
-lastupdated: "2018-04-02"
+lastupdated: "2018-09-04"
 
 ---
 
@@ -31,6 +31,8 @@ Cuando lea una página de la documentación o complete una tarea de la consola, 
 4. Especifique una línea de asunto breve sobre el comentario y una descripción larga sobre lo que desea compartir con el equipo de {{site.data.keyword.Bluemix_notm}}.
 5. A continuación, indique su dirección de correo electrónico si desea recibir información del equipo acerca del progreso de los comentarios que nos ha proporcionado.
 
+Los bloqueos de publicidad comunes bloquean Usabilla y ocultan el botón **Comentarios**. Inhabilite cualquier bloqueo de publicidad para poder utilizar el botón **Comentarios** y enviar sus comentarios.
+{: tip}
 
 ## Proporcionar una actualización de contenido con una solicitud de extracción
 

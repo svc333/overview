@@ -4,14 +4,14 @@ copyright:
 
   years: 2015, 2018
 
-lastupdated: "2018-07-18"
+lastupdated: "2018-09-05"
 
 ---
 
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
 
-# Nouveautés de {{site.data.keyword.Bluemix_notm}}
+# Nouveautés d'{{site.data.keyword.Bluemix_notm}}
 {: #whatsnew}
 
 Restez à jour avec les nouvelles fonctions et les nouveaux services disponibles dans {{site.data.keyword.Bluemix}}, afin d'optimiser l'utilisation de votre expérience {{site.data.keyword.Bluemix_notm}}. Les mises à jour sont classées en fonction des catégories suivantes : [Plateforme {{site.data.keyword.Bluemix_notm}}](index.html#platform_category), [{{site.data.keyword.Bluemix_local_notm}} et {{site.data.keyword.Bluemix_dedicated_notm}}](index.html#dedicatedandlocal), [Calcul](index.html#compute_category), et [Services](index.html#services_category).
@@ -66,7 +66,7 @@ Vous pouvez lier votre compte SoftLayer à votre compte {{site.data.keyword.Blue
 ### {{site.data.keyword.Bluemix_notm}} Foundry Service région Est des Etats-Unis désormais disponible
 Nouveau à compter du :  15 décembre 2017
 
-Un nouveau centre de données pour la région Est des Etats-Unis est désormais disponible à Washington, DC. Cette nouvelle région est accessible via le noeud final `us-east.bluemix.net`. Pour plus de détails sur les services disponibles à l'achat dans cette nouvelle région, voir [Services par région](/docs/services/services_region.html#services_region).
+Un nouveau centre de données pour la région Est des Etats-Unis est désormais disponible à Washington, DC. Cette nouvelle région est accessible via le noeud final `us-east.bluemix.net`. Pour plus de détails sur les services disponibles à l'achat dans cette nouvelle région, voir [Services par région](/docs/resources/services_region.html#services_region).
 
 ### Support pour des ressources dans l'Union européenne
 Nouveau à compter du :  14 décembre 2017
@@ -315,6 +315,22 @@ Le pack de construction Liberty version 3.9 fournit chaque mois une nouvelle ver
 
 ## Services
 {: #services_category}
+
+### {{site.data.keyword.security-advisor_long_notm}} est à présent disponible en version bêta !
+Nouveau à compter du : 5 septembre 2018
+
+De nouvelles fonctions ont été ajoutées à {{site.data.keyword.security-advisor_short}} qui est désormais disponible en tant que service bêta. {{site.data.keyword.security-advisor_short}} centralise votre sécurité dans un tableau de bord {{site.data.keyword.Bluemix_notm}}. Outre la centralisation des informations, le service rassemble les informations de sécurité essentielles réparties sur des vignettes simples d'utilisation afin de signaler aisément les problèmes de sécurité. Le fait de cliquer sur une vignette active l'exploration en aval afin d'examiner les problèmes classés par priorité, l'historique et les détails liés à l'alerte. Pour résoudre le problème, effectuez une nouvelle exploration en aval pour obtenir tous les détails ainsi que des correctifs suggérés pour supprimer la menace et garantir la sécurité de votre environnement.
+
+{{site.data.keyword.security-advisor_short}} devient rapidement votre console de référence vous permettant de centraliser, consulter et gérer les informations de sécurité dans votre environnement {{site.data.keyword.Bluemix_notm}}.
+
+Dans cette version, nous implémentons les éléments suivants :
+* Une API Findings
+* La possibilité d'utiliser votre propre fournisseur
+* Des mises à jour pour l'utilisation du tableau de bord
+
+Et bien plus encore !
+
+Pour commencer, consultez la documentation [{{site.data.keyword.security-advisor_short}}](/docs/services/security-advisor/index.html).
 
 ### Présentation d'{{site.data.keyword.iva_full_notm}} (disponibilité générale)
 Nouveau à compter du : 26 juin 2018
