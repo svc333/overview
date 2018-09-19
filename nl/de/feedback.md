@@ -3,7 +3,7 @@
 
 copyright:
   years: 2018
-lastupdated: "2018-04-02"
+lastupdated: "2018-09-04"
 
 ---
 
@@ -31,6 +31,8 @@ Wenn Sie eine Seite der Dokumentation lesen oder eine Aufgabe in der Konsole aus
 4. Geben Sie eine kurze Betreffzeile zu Ihrem Feedback und eine längere Beschreibung ein, die Sie dem {{site.data.keyword.Bluemix_notm}}-Team mitteilen möchten.
 5. Geben Sie dann Ihre E-Mail-Adresse ein, wenn Sie von dem Team, das sich mit Ihrem Feedback befasst, Informationen zum Fortschritt erhalten wollen.
 
+Gängige Anzeigenblocker blockieren Usabilla und blenden die Schaltfläche für **Feedback** aus. Inaktivieren Sie alle Anzeigenblocker, damit Sie die Schaltfläche für **Feedback** zum Übergeben Ihrer Kommentare verwenden können.
+{: tip}
 
 ## Inhaltliche Aktualisierung mit Pull-Anforderung bereitstellen
 

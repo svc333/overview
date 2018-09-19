@@ -4,7 +4,7 @@ copyright:
 
   years: 2015, 2018
 
-lastupdated: "2018-07-18"
+lastupdated: "2018-09-05"
 
 ---
 
@@ -68,7 +68,7 @@ lastupdated: "2018-07-18"
 ### 现在，{{site.data.keyword.Bluemix_notm}} Foundry 服务在美国东部区域可用
 最新更新日期：2017 年 12 月 15 日
 
-现在，新的美国东部数据中心在华盛顿可用。此新区域可以使用 `us-east.bluemix.net` 端点进行访问。有关在此新区域中可购买的服务的详细信息，请参阅[按区域列出的服务](/docs/services/services_region.html#services_region)。
+现在，新的美国东部数据中心在华盛顿可用。此新区域可以使用 `us-east.bluemix.net` 端点进行访问。有关在此新区域中可购买的服务的详细信息，请参阅[按区域列出的服务](/docs/resources/services_region.html#services_region)。
 
 ### 支持欧盟中的资源
 最新更新日期：2017 年 12 月 14 日
@@ -317,6 +317,22 @@ Liberty buildpack V3.9 提供了新的每月 Liberty 运行时版本，并包含
 ## 服务
 {: #services_category}
 
+### {{site.data.keyword.security-advisor_long_notm}} Beta 版现在可用！
+最新更新日期：2018 年 9 月 5 日
+
+{{site.data.keyword.security-advisor_short}} 中添加了新功能，现在作为 Beta 服务提供。{{site.data.keyword.security-advisor_short}} 将您的 {{site.data.keyword.Bluemix_notm}} 安全性集中到一个仪表板中。除了将信息集中在一起之外，该服务还使用易于导航的磁贴来汇总关键安全信息，以清晰地显示何时检测到安全问题。单击磁贴可以深入查看优先级问题、历史记录以及警报背后的详细信息。要解决问题，请再深入一层查看所有详细信息以及建议的修复方法，从而消除威胁并确保您的环境处于安全状态。
+
+{{site.data.keyword.security-advisor_short}} 将帮助您快速访问控制台，使您能够集中查看和管理 {{site.data.keyword.Bluemix_notm}} 环境中的安全性。
+
+在此版本中，我们提供了：
+* 一个发现结果 API
+* 自带提供程序的能力
+* 对仪表板体验的更新
+
+还有更多精彩呈现！
+
+有关使用入门信息，请参阅 [{{site.data.keyword.security-advisor_short}} 文档](/docs/services/security-advisor/index.html)。
+
 ### 推出 {{site.data.keyword.iva_full_notm}} 一般可用性
 最新更新日期：2018 年 6 月 26 日
 
@@ -329,7 +345,7 @@ Liberty buildpack V3.9 提供了新的每月 Liberty 运行时版本，并包含
 * 在标准服务套餐中可配置最大并发连接数。
 * 可将语音代理连接到 SIP 中继提供者（例如，NetFoundry、Twilio、AT&T）及其他服务提供者，或连接到使用 {{site.data.keyword.iva_short}} 的同级。
 
-首先，请参阅 [{{site.data.keyword.iva_short}}](/docs/services/voice-agent/getting-started.html) 文档。
+有关使用入门信息，请参阅 [{{site.data.keyword.iva_short}}](/docs/services/voice-agent/getting-started.html) 文档。
 
 ### {{site.data.keyword.streaminganalyticsshort}} 引入了具有基于容器的基础架构的新服务套餐
 最新更新日期：2018 年 4 月 20 日
@@ -359,7 +375,7 @@ Liberty buildpack V3.9 提供了新的每月 Liberty 运行时版本，并包含
 * 通过使用基于端口 5061 的 SIP TLS (sips URI) 和安全实时传送协议 (SRTP)，建立使用媒体加密的安全呼叫。
 * 连接到其他 {{site.data.keyword.cloud_notm}} 空间中的 {{site.data.keyword.speechtotextfull}} 和 {{site.data.keyword.texttospeechfull}} 服务实例以提高灵活性。
 
-首先，请参阅 [{{site.data.keyword.iva_short}}](/docs/services/voice-agent/getting-started.html) 文档。
+有关使用入门信息，请参阅 [{{site.data.keyword.iva_short}}](/docs/services/voice-agent/getting-started.html) 文档。
 
 ### {{site.data.keyword.visualrecognitionshort}} 更新
 最新更新日期：2018 年 3 月 14 日
@@ -412,7 +428,7 @@ Liberty buildpack V3.9 提供了新的每月 Liberty 运行时版本，并包含
 * 有各种预定义配置或大小，可满足应用程序工作负载需求
 * 由 IBM 完全管理，包括监视、打补丁、备份和报告
 
-首先，请参阅 [IBM Cloud Managed Database Server 入门](/docs/services/managed-sql-server/getting-started.html)。
+有关使用入门信息，请参阅 [IBM Cloud Managed Database Server 入门](/docs/services/managed-sql-server/getting-started.html)。
 
 ### {{site.data.keyword.mobilepushshort}} 中的新增内容
 最新更新日期：2017 年 10 月 26 日
@@ -502,7 +518,7 @@ IBM App Launch for {{site.data.keyword.Bluemix_notm}} Services 是一个试验�
 * 如果要将不同的电话号码连接到针对不同主题专门设计的认知代理程序，可轻松创建和管理多个语音代理程序。
 * 通过连接服务编排引擎 (SOE) 来扩展服务的功能，以便可以使用第三方 API。例如，SOE 可以侦听来自 {{site.data.keyword.conversationshort}} 服务的触发器，然后使用您提供的 API 在现有系统中查找信息或提供其他分析。
 
-首先，请参阅 [{{site.data.keyword.iva_short}} 入门](/docs/services/voice-agent/getting-started.html)文档。
+有关使用入门信息，请参阅 [{{site.data.keyword.iva_short}} 入门](/docs/services/voice-agent/getting-started.html)文档。
 
 
 ### {{site.data.keyword.streaminganalyticsshort}} 服务更新：控制台包含用于查明应用程序中问题的新方法

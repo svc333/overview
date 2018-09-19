@@ -4,7 +4,7 @@ copyright:
 
   years: 2015, 2018
 
-lastupdated: "2018-07-18"
+lastupdated: "2018-09-05"
 
 ---
 
@@ -23,7 +23,7 @@ Wenn Sie stets auf dem aktuellen Stand über die neuen Features und Services ble
 ### Nach Ressourcen suchen
 Datum der Neuerung: 17. Juli 2018
 
-Sie können von der gesamten {{site.data.keyword.cloud_notm}}-Konsole aus nach Ressourcen suchen. Geben Sie den Namen einer Ressource in das Suchfeld in der Menüleiste der Konsole ein. Aktivieren Sie die Suche durch Drücken der Schrägstrichtaste (/). 
+Sie können von der gesamten {{site.data.keyword.cloud_notm}}-Konsole aus nach Ressourcen suchen. Geben Sie den Namen einer Ressource in das Suchfeld in der Menüleiste der Konsole ein. Aktivieren Sie die Suche durch Drücken der Schrägstrichtaste (/).
 
 ### Föderierte Benutzer dynamisch zu Zugriffsgruppen hinzufügen
 Datum der Neuerung: 12. Juli 2018
@@ -60,13 +60,13 @@ Wollen Sie in der Lage sein, schnell den Zugriff zuzuweisen, indem Sie die klein
 ### SoftLayer- und {{site.data.keyword.Bluemix_notm}}-Konto verknüpfen
 Datum der Neuerung: 1. März 2018
 
-Sie können Ihr SoftLayer-Konto mit Ihrem {{site.data.keyword.Bluemix_notm}}-Konto verknüpfen, um sich zentral anzumelden, bei der {{site.data.keyword.Bluemix_notm}}-Konsole, und sowohl auf die Infrastructure as a Service- (IaaS) als auch auf die Platform as a Service-Ressourcen (PaaS) zuzugreifen. Wenn Sie neu bei {{site.data.keyword.Bluemix_notm}} sind, erstellen und verknüpfen Sie ein Konto, um ein kostenfreies {{site.data.keyword.Bluemix_notm}}-Lite-Konto zu erhalten. Oder, wenn Sie bereits über ein {{site.data.keyword.Bluemix_notm}}-Konto mit PaaS-Ressourcen verfügen, verknüpfen Sie Ihre Konten, um eine gemeinsame Rechnung für Ihre IaaS- und PaaS-Ressourcen zu erhalten. Weitere Informationen zum schnellen Verknüpfen Ihrer Konten finden Sie in den [Schritten zum Verknüpfen Ihrer IaaS- und PaaS-Konten](https://www.ibm.com/blogs/bluemix/2018/03/follow-steps-link-iaas-paas-accounts/){: new_window} ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link").
+Sie können Ihr SoftLayer-Konto mit Ihrem {{site.data.keyword.Bluemix_notm}}-Konto verknüpfen, um die Anmeldung bei einer einzigen zentralen Stelle (der {{site.data.keyword.Bluemix_notm}}-Konsole) durchzuführen, und sowohl auf die Infrastructure as a Service- (IaaS) als auch auf die Platform as a Service-Ressourcen (PaaS) zuzugreifen. Wenn Sie neu bei {{site.data.keyword.Bluemix_notm}} sind, erstellen und verknüpfen Sie ein Konto, um ein kostenfreies {{site.data.keyword.Bluemix_notm}}-Lite-Konto zu erhalten. Oder, wenn Sie bereits über ein {{site.data.keyword.Bluemix_notm}}-Konto mit PaaS-Ressourcen verfügen, verknüpfen Sie Ihre Konten, um eine gemeinsame Rechnung für Ihre IaaS- und PaaS-Ressourcen zu erhalten. Weitere Informationen zum schnellen Verknüpfen Ihrer Konten finden Sie in den [Schritten zum Verknüpfen Ihrer IaaS- und PaaS-Konten](https://www.ibm.com/blogs/bluemix/2018/03/follow-steps-link-iaas-paas-accounts/){: new_window} ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link").
 
 
 ### {{site.data.keyword.Bluemix_notm}} Foundry-Service jetzt für Region 'Vereinigte Staaten (Osten)' verfügbar
 Datum der Neuerung: 15. Dezember 2017
 
-In Washington, D.C. ist jetzt ein neues Rechenzentrum für die Region 'Vereinigte Staaten (Osten)' verfügbar. Diese neue Region ist über den Endpunkt `us-east.bluemix.net` erreichbar. Details über die gebührenpflichtigen Services, die in dieser neuen Region angeboten werden, finden Sie unter [Services nach Region](/docs/services/services_region.html#services_region).
+In Washington, D.C. ist jetzt ein neues Rechenzentrum für die Region 'Vereinigte Staaten (Osten)' verfügbar. Diese neue Region ist über den Endpunkt `us-east.bluemix.net` erreichbar. Details über die gebührenpflichtigen Services, die in dieser neuen Region angeboten werden, finden Sie unter [Services nach Region](/docs/resources/services_region.html#services_region).
 
 ### Unterstützung für Ressourcen in der Europäischen Union
 Datum der Neuerung: 14. Dezember 2017
@@ -315,6 +315,22 @@ Das Liberty Buildpack v3.9 bietet eine neue monatliche Liberty-Laufzeitversion u
 
 ## Services
 {: #services_category}
+
+### {{site.data.keyword.security-advisor_long_notm}} gibt es jetzt in einer Betaversion:
+Datum der Neuerung: 5. September 2018
+
+{{site.data.keyword.security-advisor_short}} wurde mit neuen Funktionen ausgestattet und ist jetzt als Betaservice verfügbar.{{site.data.keyword.security-advisor_short}} zentralisiert die {{site.data.keyword.Bluemix_notm}}-Sicherheit in einem Dashboard. Neben der Zentralisierung von Informationen fasst der Service über leicht zu navigierende Kacheln auch kritische Sicherheitsinformationen zusammen, um deutlich anzuzeigen, dass ein Sicherheitsproblem erkannt wurde. Wenn Sie auf eine Kachel klicken, wird ein Drilldown ausgeführt, mit dem priorisierte Probleme, das Protokoll und die zu einem Alert führenden Details untersucht werden können. Zum Beheben des Problems führen Sie einfach einen weiteren Drilldown durch, um alle Details sowie die vorgeschlagenen Fixes abzurufen, damit die Bedrohung entfernt werden und sichergestellt werden kann, dass Ihre Umgebung weiterhin sicher ist.
+
+{{site.data.keyword.security-advisor_short}} wird schnell die Konsole werden, an die Sie sich wenden, wenn Sie die Sicherheit in Ihrer {{site.data.keyword.Bluemix_notm}}-Umgebung zentralisieren, anzeigen und verwalten möchten.
+
+Mit diesem Release wird Folgendes implementiert:
+* API für Ergebnisse
+* Die Möglichkeit, einen eigenen Provider zu verwenden
+* Aktualisierungen für die Dashboarderfahrung
+
+Und so vieles mehr!
+
+Lesen Sie zum Einstieg die [{{site.data.keyword.security-advisor_short}}-Dokumentation](/docs/services/security-advisor/index.html).
 
 ### Einführung der allgemeinen Verfügbarkeit von {{site.data.keyword.iva_full_notm}}
 Datum der Neuerung: 26 Juni 2018
