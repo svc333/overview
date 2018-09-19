@@ -5,7 +5,7 @@
 copyright:
 
   years: 2015, 2018
-lastupdated: "2018-06-21"
+lastupdated: "2018-09-10"
 
 
 ---
@@ -148,5 +148,9 @@ Node.js 是 Joyent, Inc. 的商标，经其许可方可使用。本文档未由 
 UNIX 是 The Open Group 在美国和其他国家或地区的注册商标。
 
 Java™ 和所有基于 Java 的商标和徽标是 Oracle 和/或其分公司的商标或注册商标。
+
+Salesforce 是 Salesforce.com, Inc. 的商标。
+
+Box 是 Box, Inc. 的商标。 
 
 其他公司、产品和服务名称可能是其他公司的商标或服务标记。
