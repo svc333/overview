@@ -3,7 +3,7 @@
 
 copyright:
   years: 2018
-lastupdated: "2018-04-02"
+lastupdated: "2018-09-04"
 
 ---
 
@@ -43,6 +43,8 @@ deseja compartilhar com a equipe do {{site.data.keyword.Bluemix_notm}}.
 5. Em seguida, deixe seu endereço de e-mail se você deseja receber o progresso da equipe que está
 resolvendo o feedback que você enviou.
 
+Os bloqueadores de anúncios comuns bloqueiam o Usabilla e ocultam o botão **Feedback**. Desative quaisquer bloqueadores de anúncios para usar o botão **Feedback** para enviar seus comentários.
+{: tip}
 
 ## Fornecendo uma atualização de conteúdo com uma solicitação pull
 

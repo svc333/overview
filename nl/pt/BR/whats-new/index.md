@@ -4,7 +4,7 @@ copyright:
 
   years: 2015, 2018
 
-lastupdated: "2018-07-18"
+lastupdated: "2018-09-05"
 
 ---
 
@@ -81,7 +81,7 @@ Novo a partir de: 1º de março de 2018
 ### A região Leste dos EUA do {{site.data.keyword.Bluemix_notm}} Foundry Service agora está disponível
 Novo a partir de: 15 de dezembro de 2017
 
-Um novo datacenter Leste dos EUA agora está disponível em Washington, DC. Essa nova região pode ser acessada usando o terminal `us-east.bluemix.net`. Para obter detalhes sobre os serviços disponíveis para compra nessa nova região, consulte [Serviços por região](/docs/services/services_region.html#services_region).
+Um novo datacenter Leste dos EUA agora está disponível em Washington, DC. Essa nova região pode ser acessada usando o terminal `us-east.bluemix.net`. Para obter detalhes sobre os serviços disponíveis para compra nessa nova região, consulte [Serviços por região](/docs/resources/services_region.html#services_region).
 
 ### Suporte para recursos na União Europeia
 Novo a partir de: 14 de dezembro de 2017
@@ -330,6 +330,22 @@ O buildpack do Liberty v3.9 fornece uma nova versão de runtime mensal do Libert
 
 ## Serviços
 {: #services_category}
+
+### {{site.data.keyword.security-advisor_long_notm}}  agora é Beta!
+Novo a partir de: 5 de setembro de 2018
+
+O {{site.data.keyword.security-advisor_short}} incluiu novos recursos e agora está disponível como um serviço beta.  O {{site.data.keyword.security-advisor_short}} centraliza sua segurança do {{site.data.keyword.Bluemix_notm}} em um painel. Além de centralizar as informações, o serviço resume informações críticas de segurança em blocos fáceis de navegar para mostrar claramente quando um problema de segurança é detectado. Clicar em um bloco permite realizar drill down para investigar os problemas priorizados, o histórico e os detalhes por trás do alerta. Para corrigir o problema, basta realizar drill down mais uma vez para obter todos os detalhes, bem como as correções sugeridas para remover a ameaça e assegurar que seu ambiente permaneça seguro.
+
+O {{site.data.keyword.security-advisor_short}} se tornará rapidamente seu console de apoio, permitindo que você centralize, visualize e gerencie a segurança em seu ambiente do {{site.data.keyword.Bluemix_notm}}.
+
+Com esta liberação estamos implementando:
+* Uma API de provas
+* A capacidade de trazer seu próprio provedor
+* Atualizações para a Experiência do Painel
+
+E muito mais!
+
+Para iniciar, consulte a  [ {{site.data.keyword.security-advisor_short}}  documentação ](/docs/services/security-advisor/index.html).
 
 ### Introdução à disponibilidade geral do {{site.data.keyword.iva_full_notm}}
 Novo a partir de: 26 de junho de 2018
