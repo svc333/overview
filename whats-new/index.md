@@ -4,7 +4,7 @@ copyright:
 
   years: 2015, 2018
 
-lastupdated: "2018-09-05"
+lastupdated: "2018-09-20"
 
 ---
 
@@ -315,6 +315,17 @@ The Liberty buildpack v3.9 provides new monthly Liberty runtime version and cont
 
 ## Services
 {: #services_category}
+
+### Introducing {{site.data.keyword.IBM_notm}} {{site.data.keyword.DRA_short}} general availability
+New as of: 20 September 2018
+
+The {{site.data.keyword.DRA_short}} service is now generally available in the US South, Germany, and United Kingdom regions.
+
+{{site.data.keyword.DRA_short}} helps teams to improve their productivity, efficiencies, and time-to-market, and to use the data from DevOps tools to easily measure success or improve the quality of their code. This service provides the single tool for businesses to understand their DevOps activities across all of their codebases and teams.
+
+* **Speed**: {{site.data.keyword.DRA_short}} shows all of your analytics, across all of your applications, in a single dashboard.
+* **Quality**: Mitigate risky releases by implementing gates deployment policies. For example, if you have a policy for Code Coverage, at a selected tolerance, {{site.data.keyword.DRA_short}} always gates against a release of code that does not meet defined tolerances. Over time, these policies help to improve the overall quality of the deployment process. 
+* **Control**: Measure results over time as teams react to the trends in their DevOps practices by using code coverage, unit tests, and other tools. These trends help teams to better govern their DevOps practices.
 
 ### {{site.data.keyword.security-advisor_long_notm}} is now Beta!
 New as of: 5 September 2018
