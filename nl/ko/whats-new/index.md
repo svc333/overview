@@ -4,7 +4,7 @@ copyright:
 
   years: 2015, 2018
 
-lastupdated: "2018-07-18"
+lastupdated: "2018-09-05"
 
 ---
 
@@ -23,7 +23,7 @@ lastupdated: "2018-07-18"
 ### 리소스 검색
 신규 기준일: 2018년 7월 17일
 
-{{site.data.keyword.cloud_notm}} 콘솔의 어느 위치에서나 리소스를 검색할 수 있습니다. 콘솔 메뉴 표시줄의 검색 필드에 리소스의 이름을 입력하십시오. 검색을 활성화하려면 슬래시 키(/)를 누르십시오. 
+{{site.data.keyword.cloud_notm}} 콘솔의 어느 위치에서나 리소스를 검색할 수 있습니다. 콘솔 메뉴 표시줄의 검색 필드에 리소스의 이름을 입력하십시오. 검색을 활성화하려면 슬래시 키(/)를 누르십시오.
 
 ### 동적으로 액세스 그룹에 연합 사용자 추가
 신규 기준일: 2018년 7월 12일
@@ -35,10 +35,10 @@ lastupdated: "2018-07-18"
 
 서비스 ID 또는 API 키가 삭제되어 중단이 발생하는 상황을 방지하기 위해 UI 또는 CLI를 사용하여 서비스 ID 및 API 키를 잠그는 옵션이 있어야 합니다. 서비스 ID를 잠그면 액세스 정책 변경, 삭제 또는 지정뿐만 아니라 서비스 ID와 연관된 API 키 작성 또는 삭제를 수행할 수 없습니다. 자세한 정보는 [서비스 ID 잠금](/docs/iam/serviceid.html#locking-a-service-id) 및 [API 키 잠금](/docs/iam/userid_keys.html#locking-an-api-key)을 참조하십시오.
 
-### 라이트 계정을 구독 계정으로 업그레이드
+### Lite 계정을 구독 계정으로 업그레이드
 신규 기준일: 2018년 5월 31일
 
-이제 {{site.data.keyword.Bluemix_notm}} 콘솔에서 직접 라이트 계정을 구독 계정으로 업그레이드할 수 있습니다. 구독 계정을 사용하면 플랫폼과 인프라 오퍼링을 둘 다 사용하고 월별 지출 및 기간 약정을 통해 할인 가격을 이용할 수 있습니다. 월별 지불 스케줄에 따라 고정 비용을 청구하지만, 필요에 따라 주문 양을 조정하는 유연성도 제공합니다. 자세한 정보는 [구독 계정 FAQ](/docs/billing-usage/billing-faq.html#subscription-faqs)를 참조하십시오. 
+이제 {{site.data.keyword.Bluemix_notm}} 콘솔에서 직접 Lite 계정을 구독 계정으로 업그레이드할 수 있습니다. 구독 계정을 사용하면 플랫폼과 인프라 오퍼링을 둘 다 사용하고 월별 지출 및 기간 약정을 통해 할인 가격을 이용할 수 있습니다. 월별 지불 스케줄에 따라 고정 비용을 청구하지만, 필요에 따라 주문 양을 조정하는 유연성도 제공합니다. 자세한 정보는 [구독 계정 FAQ](/docs/billing-usage/billing-faq.html#subscription-faqs)를 참조하십시오. 
 
 ### {{site.data.keyword.Bluemix_notm}} CLI 리브랜딩
 신규 기준일: 2018년 5월 15일
@@ -60,13 +60,13 @@ lastupdated: "2018-07-18"
 ### SoftLayer와 {{site.data.keyword.Bluemix_notm}} 계정 연결
 신규 기준일:  2018년 3월 1일
 
-단일 위치, {{site.data.keyword.Bluemix_notm}} 콘솔에 로그인하기 위해 SoftLayer 계정을 {{site.data.keyword.Bluemix_notm}} 계정에 연결하고 IaaS(infrastructure as a service) 및 PaaS(platform as a service) 리소스 모두에 액세스할 수 있습니다. {{site.data.keyword.Bluemix_notm}}를 처음 사용하는 경우 무료 {{site.data.keyword.Bluemix_notm}} 라이트 계정을 얻으려면 계정을 작성하여 연결하십시오. 또는 이미 PaaS 리소스가 있는 {{site.data.keyword.Bluemix_notm}} 계정을 보유하는 경우 IaaS와 PaaS 리소스에 대해 단일 청구를 받도록 계정을 연결하십시오. 계정을 빠르게 연결하려면 [IaaS 및 PaaS 계정에 연결하기 위한 단계](https://www.ibm.com/blogs/bluemix/2018/03/follow-steps-link-iaas-paas-accounts/){: new_window} ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")를 확인하십시오.
+단일 위치, {{site.data.keyword.Bluemix_notm}} 콘솔에 로그인하기 위해 SoftLayer 계정을 {{site.data.keyword.Bluemix_notm}} 계정에 연결하고 IaaS(infrastructure as a service) 및 PaaS(platform as a service) 리소스 모두에 액세스할 수 있습니다. {{site.data.keyword.Bluemix_notm}}를 처음 사용하는 경우 무료 {{site.data.keyword.Bluemix_notm}} Lite 계정을 얻으려면 계정을 작성하여 연결하십시오. 또는 이미 PaaS 리소스가 있는 {{site.data.keyword.Bluemix_notm}} 계정을 보유하는 경우 IaaS와 PaaS 리소스에 대해 단일 청구를 받도록 계정을 연결하십시오. 계정을 빠르게 연결하려면 [IaaS 및 PaaS 계정에 연결하기 위한 단계](https://www.ibm.com/blogs/bluemix/2018/03/follow-steps-link-iaas-paas-accounts/){: new_window} ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")를 확인하십시오.
 
 
 ### {{site.data.keyword.Bluemix_notm}} Foundry Service 미국 동부 지역은 지금 사용 가능
 신규 기준일: 2017년 12월 15일
 
-새로운 미국 동부 데이터 센터가 워싱턴, DC에 있습니다. 이 새 지역은 `us-east.bluemix.net` 엔드포인트를 사용하여 도달할 수 있습니다. 이 새 지역에서 구매할 수 있는 서비스에 대한 자세한 정보는 [지역별 서비스](/docs/services/services_region.html#services_region)를 참조하십시오.
+새로운 미국 동부 데이터 센터가 워싱턴, DC에 있습니다. 이 새 지역은 `us-east.bluemix.net` 엔드포인트를 사용하여 도달할 수 있습니다. 이 새 지역에서 구매할 수 있는 서비스에 대한 자세한 정보는 [지역별 서비스](/docs/resources/services_region.html#services_region)를 참조하십시오.
 
 ### EU의 리소스에 대한 지원
 신규 기준일: 2017년 12월 14일
@@ -108,15 +108,15 @@ IAM을 사용하여 활용할 수 있는 기능에 대한 자세한 정보는 [I
 
 Bluemix는 이제 IBM Cloud입니다. 새로운 이름 사용 외에는 변경사항이 없습니다. 계속해서 쉽게 앱과 서비스를 빌드하고 실행할 수 있습니다. 추가 세부사항은 [IBM Cloud Blog](https://www.ibm.com/blogs/bluemix/2017/10/bluemix-is-now-ibm-cloud/){: new_window} ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")를 참조하십시오.
 
-### 라이트 계정
+### Lite 계정
 신규 기준일: 2017년 10월 31일
 
-라이트 계정은 시간 제한 없이 무료로 서비스를 선택해 볼 수 있는 액세스 권한을 제공하는 새 계정 유형입니다. 이 새 계정에 사용량 추적과 효율성 기능도 포함하여 리소스를 보다 잘 관리할 수 있도록 합니다. 사용 가능한 항목에 대해 자세히 알아보려면 [계정 유형](/docs/account/index.html#liteaccount)을 참조하십시오.
+Lite 계정은 시간 제한 없이 무료로 서비스를 선택해 볼 수 있는 액세스 권한을 제공하는 새 계정 유형입니다. 이 새 계정에 사용량 추적과 효율성 기능도 포함하여 리소스를 보다 잘 관리할 수 있도록 합니다. 사용 가능한 항목에 대해 자세히 알아보려면 [계정 유형](/docs/account/index.html#liteaccount)을 참조하십시오.
 
 ### Identity and Access Management 애플리케이션 인증 기능
 신규 기준일: 2017년 10월 6일
 
-IAM(Identity and Access Management)은 이제 서비스 ID를 작성할 수 있는 기능을 제공하여 {{site.data.keyword.Bluemix_notm}} 서비스로 인증하도록 앱에 사용할 수 있는 ID로 간주할 수 있습니다. 개별 사용자 신임 정보를 사용하는 대신 서비스 ID는 해당 ID를 사용하여 애플리케이션 인증에 대한 액세스 권한의 레벨을 제어할 수 있도록 서비스 ID에 지정되는 서비스 정책의 양식으로 인증된 API 키 및 액세스 권한을 사용하여 작성될 수 있습니다.
+IAM(Identity and Access Management)은 이제 서비스 ID를 작성할 수 있는 기능을 제공하여 {{site.data.keyword.Bluemix_notm}} 서비스로 인증하도록 앱에 사용할 수 있는 ID로 간주할 수 있습니다. 개별 사용자 인증 정보를 사용하는 대신 서비스 ID는 해당 ID를 사용하여 애플리케이션 인증에 대한 액세스 권한의 레벨을 제어할 수 있도록 서비스 ID에 지정되는 서비스 정책의 양식으로 인증된 API 키 및 액세스 권한을 사용하여 작성될 수 있습니다.
 
 이 기능의 장점 및 시작하는 방법에 대한 자세한 정보는 [Introducing IBM Cloud IAM Service IDs and API Keys](https://www.ibm.com/blogs/bluemix/2017/10/introducing-ibm-cloud-iam-service-ids-api-keys/){: new_window} ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")를 참조하십시오.
 
@@ -253,7 +253,7 @@ IAM(Identity and Access Management)은 이제 서비스 ID를 작성할 수 있�
    * 보고서의 컨텐츠를 표시하기 위한 전체 화면 모드
    * "보고서 쓰기" 권한이 있는 관리 사용자를 위한 보고서 삭제 기능
    * 지속적인 스크롤을 통해 요청 시 계속해서 로딩하여 보고서 목록을 좀 더 빠르게 표시(결과적으로 전체 성능이 향상됨)
- * 보안 보고서는 요청 시간의 최대 3개월 이전부터 최대 1주일의 시간 범위 내에서 요청 시 보안 보고서를 요청할 수 있습니다. 관리 사용자가 기능을 사용하기 전에 일부 환경에 특정한 구성이 필요합니다. 관리 사용자는 이 기능에 대한 "보고서 쓰기" 권한이 필요합니다.
+ * 요청 시간의 최대 3개월 이전부터 최대 1주일의 시간 범위 내에서 요청 시 보안 보고서를 요청할 수 있습니다. 관리 사용자가 기능을 사용하기 전에 일부 환경에 특정한 구성이 필요합니다. 관리 사용자는 이 기능에 대한 "보고서 쓰기" 권한이 필요합니다.
 
 ### 관리 콘솔에 대한 4월 업데이트
 {: #apriladminconsole}
@@ -315,6 +315,22 @@ Liberty 빌드팩 v3.9는 새 월별 Liberty 런타임 버전을 제공하고 �
 
 ## 서비스
 {: #services_category}
+
+### {{site.data.keyword.security-advisor_long_notm}}은 현재 베타입니다!
+신규 기준일: 2018년 9월 5일
+
+{{site.data.keyword.security-advisor_short}}에서 새 기능을 추가했으며 이제 베타 서비스로 사용 가능합니다. {{site.data.keyword.security-advisor_short}}에서는 한 대시보드를 통해 중앙에서 {{site.data.keyword.Bluemix_notm}} 보안을 관리합니다. 정보의 중앙 집중화 외에도 이 서비스에서는 쉽게 이동할 수 있는 타일에 중요한 보안 정보를 요약하므로 보안 문제가 발견된 시기를 명확하게 표시할 수 있습니다. 타일을 클릭하면 우선순위화된 문제, 히스토리 및 경보 세부정보를 드릴다운할 수 있습니다. 문제를 수정하려면 한 번 더 드릴다운하기만 하면 됩니다. 그러면 모든 세부사항 외에도 위협을 제거하고 환경을 안전하게 유지하기 위한 추천 수정사항을 얻을 수 있습니다. 
+
+{{site.data.keyword.security-advisor_short}}는 {{site.data.keyword.Bluemix_notm}} 환경에서 보안을 중앙 집중화하고 보고 관리할 수 있는 지원 콘솔이 됩니다.
+
+이 릴리스에서는 다음과 같은 사항이 구현됩니다.
+* 찾은 결과 API
+* 고유 제공업체를 가져오는 기능
+* 대시보드 환경 업데이트
+
+그 외에도 여러가지가 있습니다!
+
+시작하려면 [{{site.data.keyword.security-advisor_short}} 문서를 참조하십시오.](/docs/services/security-advisor/index.html)
 
 ### {{site.data.keyword.iva_full_notm}} GA(General Availability) 소개
 신규 기준일: 2018년 6월 26일
@@ -399,7 +415,7 @@ Liberty 빌드팩 v3.9는 새 월별 Liberty 런타임 버전을 제공하고 �
 
 엔티티, 관계, 개념 등과 같이 텍스트에서 발견된 시맨틱 요소의 {{site.data.keyword.discoveryshort}}를 이해하여 구현된 연결을 시각적으로 탐색하십시오.
 
-즉시 {{site.data.keyword.discoveryshort}} News 콜렉션을 사용하여 전세계의 뉴스 탐색을 시작하십시오. 또는 {{site.data.keyword.discoveryshort}}에서 고유한 문서 콜렉션을 탐색하십시오. {{site.data.keyword.Bluemix_notm}} 신임 정보로 로그인하면 됩니다. 자세한 정보는 [Visual insights experimental](https://visual-insights.bluemix.net){: new_window} ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")을 참조하십시오.
+즉시 {{site.data.keyword.discoveryshort}} News 콜렉션을 사용하여 전세계의 뉴스 탐색을 시작하십시오. 또는 {{site.data.keyword.discoveryshort}}에서 고유한 문서 콜렉션을 탐색하십시오. {{site.data.keyword.Bluemix_notm}} 인증 정보로 로그인하면 됩니다. 자세한 정보는 [Visual insights experimental](https://visual-insights.bluemix.net){: new_window} ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")을 참조하십시오.
 
 ### 새 IBM Cloud Managed Database Server Beta 서비스
 신규 기준일: 2017년 11월 30일
@@ -438,8 +454,8 @@ Liberty 빌드팩 v3.9는 새 월별 Liberty 런타임 버전을 제공하고 �
 #### APNS HTTP/2 지원
 Apple은 Apple 알림을 위한 HTTP 프로토콜 지원을 도입했습니다. {{site.data.keyword.mobilepushshort}} 서비스는 이제 HTTP/2 프로토콜을 지원합니다. 이 지원을 사용하면 알림 페이로드가 증가된 처리량과 함께 4KB가 될 수 있고 즉각적인 피드백 기능을 제공합니다. Universal Certificate에 대한 지원을 통해 앱이 샌드박스 및 제품 환경 모두에 연결할 수 있습니다.
 
-#### 새 라이트 플랜
-{{site.data.keyword.mobilepushshort}} 서비스의 라이트 플랜은 매달 무료로 100K 알림을 전송할 수 있는 기능을 제공합니다. 자세한 정보는 [Lite Plan For Push Notifications Service on Bluemix](https://www.ibm.com/blogs/bluemix/2017/06/lite-plan-push-notifications-service-bluemix/){: new_window} ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘") 블로그 게시물을 참조하십시오.
+#### 새 Lite 플랜
+{{site.data.keyword.mobilepushshort}} 서비스의 Lite 플랜은 매달 무료로 100K 알림을 전송할 수 있는 기능을 제공합니다. 자세한 정보는 [Lite Plan For Push Notifications Service on Bluemix](https://www.ibm.com/blogs/bluemix/2017/06/lite-plan-push-notifications-service-bluemix/){: new_window} ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘") 블로그 게시물을 참조하십시오.
 
 
 
@@ -499,7 +515,7 @@ IBM App Launch for {{site.data.keyword.Bluemix_notm}} Services는 고객의 여�
 * 샘플 {{site.data.keyword.conversationshort}} 대화 상자를 가져와서 시작한 후 회사 요구에 적합한 고유 대화를 작성합니다.
 * API를 사용하여 {{site.data.keyword.conversationshort}} 서비스 내에서 음성 에이전트 작동을 프로그래밍합니다. 예정되지 않은 작동으로부터 모든 것을 제어하여 대화 상자의 모든 노드에 대한 호출을 중지할 수 있습니다.
 * 다른 주제에 대해 전문화된 코그너티브 에이전트에 다른 전화번호를 연결하려는 경우 다중 음성 에이전트를 쉽게 작성하고 관리합니다.
-* SOE(Service Orchestration Engine)에 연결하여 서비스 기능을 확장하면 써드파티 API를 사용할 수 있습니다. 예를 들어, SOE는 {{site.data.keyword.conversationshort}} 서비스에서 트리거에 대해 청취한 후 기존 시스템에서 제공된 API를 사용하여 정보를 찾거나 기타 분석을 제공할 수 있습니다.
+* SOE(Service Orchestration Engine)에 연결하여 서비스 기능을 확장하면 서드파티 API를 사용할 수 있습니다. 예를 들어, SOE는 {{site.data.keyword.conversationshort}} 서비스에서 트리거에 대해 청취한 후 기존 시스템에서 제공된 API를 사용하여 정보를 찾거나 기타 분석을 제공할 수 있습니다.
 
 시작하려면 [{{site.data.keyword.iva_short}}](/docs/services/voice-agent/getting-started.html) 시작하기 문서를 참조하십시오.
 
@@ -524,9 +540,9 @@ Python 및 Java 애플리케이션의 경우 소스 파일 위치는 @spl_note �
 
 * {{site.data.keyword.Bluemix_notm}} 카탈로그를 통해 서비스에 액세스합니다. {{site.data.keyword.monitoringlong}}은 {{site.data.keyword.Bluemix_notm}} 카탈로그의 DevOps 섹션에서 서비스 타일로 사용 가능합니다.  단일 및 그룹 컨테이너가 있는 {{site.data.keyword.containershort}} 서비스의 경우, {{site.data.keyword.Bluemix_notm}} UI에서 서비스에 액세스할 수 있습니다.
 
-* 사용자의 요구사항에 맞는 서비스 플랜을 선택합니다. 사용량 요구사항과 일치하도록 라이트 서비스 플랜 또는 프리미엄 서비스 플랜을 선택할 수 있습니다. 라이트 플랜에서는 분당 한 번씩 메트릭 콜렉션, 15일 동안 보존 및 보완 경보를 제공합니다.  또는 더 많은 양의 이용, 더 긴 메트릭 보존을 사용 가능하게 하고, 예를 들면, {{site.data.keyword.monitoringlong}} 서비스에서 메트릭을 전송하거나 검색하도록 서비스 API에 대한 액세스 권한을 확보하기 위해 프리미엄 플랜을 선택할 수 있습니다. {{site.data.keyword.monitoringlong}}에서는 분당 한 번씩 메트릭 콜렉션을 제공합니다.  라이트 플랜은 15일 동안 고해상도로 메트릭을 보존합니다. 프리미엄 플랜은 45일 동안 고해상도로 메트릭을 보존합니다.
+* 사용자의 요구사항에 맞는 서비스 플랜을 선택합니다. 사용량 요구사항과 일치하도록 Lite 서비스 플랜 또는 프리미엄 서비스 플랜을 선택할 수 있습니다. Lite 플랜에서는 분당 한 번씩 메트릭 콜렉션, 15일 동안 보존 및 보완 경보를 제공합니다.  또는 더 많은 양의 이용, 더 긴 메트릭 보존을 사용 가능하게 하고, 예를 들면, {{site.data.keyword.monitoringlong}} 서비스에서 메트릭을 전송하거나 검색하도록 서비스 API에 대한 액세스 권한을 확보하기 위해 프리미엄 플랜을 선택할 수 있습니다. {{site.data.keyword.monitoringlong}}에서는 분당 한 번씩 메트릭 콜렉션을 제공합니다.  Lite 플랜은 15일 동안 고해상도로 메트릭을 보존합니다. 프리미엄 플랜은 45일 동안 고해상도로 메트릭을 보존합니다.
 
-레거시 {{site.data.keyword.monitoringshort}} 서비스는 30초부터 시작한 서비스 정의 빈도로 메트릭을 수집하고 시간 경과에 따라 1시간 빈도로 요약합니다. {{site.data.keyword.monitoringlong}}은 이제 1분 간 전체 분석 콜렉션을 제공합니다.  라이트 플랜은 15일 동안 메트릭을 보존합니다.  프리미엄 플랜은 45일 동안 메트릭을 보존합니다.
+레거시 {{site.data.keyword.monitoringshort}} 서비스는 30초부터 시작한 서비스 정의 빈도로 메트릭을 수집하고 시간 경과에 따라 1시간 빈도로 요약합니다. {{site.data.keyword.monitoringlong}}은 이제 1분 간 전체 분석 콜렉션을 제공합니다.  Lite 플랜은 15일 동안 메트릭을 보존합니다.  프리미엄 플랜은 45일 동안 메트릭을 보존합니다.
 
 {{site.data.keyword.monitoringlong}} 서비스에 대한 자세한 정보는 [모니터링 문서 시작하기](/docs/services/cloud-monitoring/index.html#getting-started-with-ibm-cloud-monitoring) 또는 [IBM Cloud Monitoring – Service Refresh with New Features ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")](https://www.ibm.com/blogs/bluemix/2017/07/ibm-cloud-monitoring-service-refresh-new-features/)를 참조하십시오.
 
@@ -581,9 +597,9 @@ DB2 Warehouse on Cloud 및 DB2 on Cloud에 대한 업데이트의 누적 목록�
 
 * {{site.data.keyword.Bluemix_notm}} 카탈로그를 통해 서비스에 액세스합니다. {{site.data.keyword.monitoringlong}}은 {{site.data.keyword.Bluemix_notm}} 카탈로그의 DevOps 섹션에서 서비스 타일로 사용 가능합니다.  단일 및 그룹 컨테이너가 있는 {{site.data.keyword.containershort}} 서비스의 경우, {{site.data.keyword.Bluemix_notm}} UI에서 서비스에 액세스할 수 있습니다.
 
-* 사용자의 요구사항에 맞는 서비스 플랜을 선택합니다. 사용량 요구사항과 일치하도록 라이트 서비스 플랜 또는 프리미엄 서비스 플랜을 선택할 수 있습니다. 라이트 플랜에서는 분당 한 번씩 메트릭 콜렉션, 15일 동안 보존 및 보완 경보를 제공합니다.  또는 더 많은 양의 이용, 더 긴 메트릭 보존을 사용 가능하게 하고, 예를 들면, {{site.data.keyword.monitoringlong}} 서비스에서 메트릭을 전송하거나 검색하도록 서비스 API에 대한 액세스 권한을 확보하기 위해 프리미엄 플랜을 선택할 수 있습니다. {{site.data.keyword.monitoringlong}}에서는 분당 한 번씩 메트릭 콜렉션을 제공합니다.  라이트 플랜은 15일 동안 고해상도로 메트릭을 보존합니다. 프리미엄 플랜은 45일 동안 고해상도로 메트릭을 보존합니다.
+* 사용자의 요구사항에 맞는 서비스 플랜을 선택합니다. 사용량 요구사항과 일치하도록 Lite 서비스 플랜 또는 프리미엄 서비스 플랜을 선택할 수 있습니다. Lite 플랜에서는 분당 한 번씩 메트릭 콜렉션, 15일 동안 보존 및 보완 경보를 제공합니다.  또는 더 많은 양의 이용, 더 긴 메트릭 보존을 사용 가능하게 하고, 예를 들면, {{site.data.keyword.monitoringlong}} 서비스에서 메트릭을 전송하거나 검색하도록 서비스 API에 대한 액세스 권한을 확보하기 위해 프리미엄 플랜을 선택할 수 있습니다. {{site.data.keyword.monitoringlong}}에서는 분당 한 번씩 메트릭 콜렉션을 제공합니다.  Lite 플랜은 15일 동안 고해상도로 메트릭을 보존합니다. 프리미엄 플랜은 45일 동안 고해상도로 메트릭을 보존합니다.
 
-레거시 {{site.data.keyword.monitoringshort}} 서비스는 30초부터 시작한 서비스 정의 빈도로 메트릭을 수집하고 시간 경과에 따라 1시간 빈도로 요약합니다. {{site.data.keyword.monitoringlong}}은 이제 1분 간 전체 분석 콜렉션을 제공합니다.  라이트 플랜은 15일 동안 메트릭을 보존합니다.  프리미엄 플랜은 45일 동안 메트릭을 보존합니다.
+레거시 {{site.data.keyword.monitoringshort}} 서비스는 30초부터 시작한 서비스 정의 빈도로 메트릭을 수집하고 시간 경과에 따라 1시간 빈도로 요약합니다. {{site.data.keyword.monitoringlong}}은 이제 1분 간 전체 분석 콜렉션을 제공합니다.  Lite 플랜은 15일 동안 메트릭을 보존합니다.  프리미엄 플랜은 45일 동안 메트릭을 보존합니다.
 
 {{site.data.keyword.monitoringlong}} 서비스에 대한 자세한 정보는 [모니터링 문서 시작하기](/docs/services/cloud-monitoring/index.html#getting-started-with-ibm-cloud-monitoring) 또는 [IBM Cloud Monitoring – Service Refresh with New Features ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")](https://www.ibm.com/blogs/bluemix/2017/07/ibm-cloud-monitoring-service-refresh-new-features/)를 참조하십시오.
 
@@ -638,7 +654,7 @@ Apache Spark는 Stocator 기술에 기반한 스토리지 커넥터를 통해 IB
 
 다음은 {{site.data.keyword.Bluemix_notm}}의 {{site.data.keyword.mobilepush}} 서비스에 사용 가능한 새 업데이트입니다.
 
-**라이트 플랜**: {{site.data.keyword.mobilepush}} 서비스를 위한 기존 기본 플랜 외에도 새 라이트 플랜을 도입하였습니다. 새 플랜에 따라 사용자는 매달 최대 100000개의 디지털 메시지를 무료로 보낼 수 있습니다. 라이트 플랜에서 기본 플랜으로 업그레이드하는 동안 백만 개의 디지털 메시지 후에 사용자에게 청구됩니다. 백만 개 메시지 계수는 라이트 플랜이 기본 플랜으로 업그레이드될 때 시작합니다.
+**Lite 플랜**: {{site.data.keyword.mobilepush}} 서비스를 위한 기존 기본 플랜 외에도 새 Lite 플랜을 도입하였습니다. 새 플랜에 따라 사용자는 매달 최대 100000개의 디지털 메시지를 무료로 보낼 수 있습니다. Lite 플랜에서 기본 플랜으로 업그레이드하는 동안 백만 개의 디지털 메시지 후에 사용자에게 청구됩니다. 백만 개 메시지 계수는 Lite 플랜이 기본 플랜으로 업그레이드될 때 시작합니다.
 
 **모니터링**: 이제 {{site.data.keyword.mobilepush}} Service Console에서 받은 알림 및 등록된 디바이스에 대한 인사이트를 얻을 수 있습니다. 또한 메시지 레벨 추적을 위해 REST API를 사용할 수도 있습니다. 메시지 전송에서 메시지 수신인으로 디스패치하는 메시지까지 구성 웹훅으로 세부사항을 가져올 수 있습니다.  [{{site.data.keyword.mobilepush}} 모니터링](/docs/services/mobilepush/t_push_monitoring.html#monitor-notifications)을 참조하십시오.
 
