@@ -5,7 +5,7 @@
 copyright:
 
   years: 2015, 2018
-lastupdated: "2018-06-21"
+lastupdated: "2018-09-10"
 
 
 ---
@@ -15,7 +15,7 @@ lastupdated: "2018-06-21"
 {:screen: .screen}
 {:new_window: target="_blank"}
 
-# Termos e avisos do {{site.data.keyword.Bluemix_notm}} 
+# Termos e avisos do {{site.data.keyword.Bluemix_notm}}
 {: #terms}
 
 ## {{site.data.keyword.Bluemix_notm}} Termos
@@ -58,8 +58,7 @@ serviço, tempo no qual os endereços IP serão recuperados e podem ser reemitid
 Os clientes podem fornecer seus próprios endereços IP emitidos pelo Regional Internet Registry (RIR), sujeitos a algumas limitações
 técnicas e verificação de propriedade, enviando um chamado de suporte e fornecendo uma carta de autoridade para especificar prefixos
 IP de propriedade do Cliente. Se a IBM aprovar uma solicitação, esses endereços IP serão anunciados via Border Gateway Protocol
-(BGP) em nome do Cliente e roteados para os servidores identificados do Cliente. O Cliente retém a propriedade desses endereços IP. 
-Mediante a solicitação do Cliente ou após o cancelamento dos serviços, a IBM parará de anunciar e rotear esses endereços IP. A IBM
+(BGP) em nome do Cliente e roteados para os servidores identificados do Cliente. O Cliente retém a propriedade desses endereços IP. Mediante a solicitação do Cliente ou após o cancelamento dos serviços, a IBM parará de anunciar e rotear esses endereços IP. A IBM
 fará esforços razoáveis para garantir que os prefixos BGP sejam aceitos por todos os ISPs de envio de dados, porém não
 podemos garantir alcance global para IPs de propriedade do Cliente. 
 
@@ -84,8 +83,7 @@ problemas de abuso tenham sido resolvidos.
 ## Aviso
 {: #notices}
 
-Estas informações foram desenvolvidas para produtos e serviços oferecidos nos EUA. Este material pode estar disponível na IBM em outros idiomas. 
-No entanto, pode ser necessário possuir uma cópia do produto ou da versão do produto nesse idioma para acessá-lo.
+Estas informações foram desenvolvidas para produtos e serviços oferecidos nos EUA. Este material pode estar disponível na IBM em outros idiomas. No entanto, pode ser necessário possuir uma cópia do produto ou da versão do produto nesse idioma para acessá-lo.
 
 É possível que a IBM não ofereça os produtos, serviços ou recursos
 discutidos nesta publicação em outros países. Consulte um representante IBM
@@ -203,5 +201,9 @@ Joyent.
 UNIX é uma marca registrada de The Open nos Estados Unidos e em outros países.
 
 Java™ e todas as marcas comerciais e logotipos baseados em Java são marcas comerciais ou marcas registradas da Oracle e/ou suas afiliadas.
+
+Salesforce é uma marca comercial da Salesforce.com, Inc.
+
+Box é uma marca comercial da Box, Inc. 
 
 Outros nomes de empresas, produtos e serviços podem ser marcas registradas ou marcas de serviços de terceiros.

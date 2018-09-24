@@ -2,7 +2,7 @@
 
 copyright:
   years: 2016, 2017, 2018
-lastupdated: "2018-05-02"
+lastupdated: "2018-09-12"
 
 ---
 {:new_window: target="_blank"}
@@ -30,7 +30,9 @@ Para entender como a experiência do desenvolvedor do {{site.data.keyword.cloud_
 
 O {{site.data.keyword.cloud_notm}} tem painéis do desenvolvedor em diferentes áreas de interesse (como Watson, Segurança ou Finanças) ou um canal digital (como Dispositivo móvel ou aplicativos da web). É possível acessar esses painéis no **Ícone Menu** ![Ícone Menu](../icons/icon_hamburger.svg).
 
-Cada painel do desenvolvedor fornece kits do iniciador relevantes para área de foco do painel e oferece um fluxo de trabalho consistente e intuitivo que permite criar um app pronto para produção de trabalho em funcionamento em minutos.
+Cada painel do desenvolvedor fornece kits do iniciador relevantes para a área de foco do painel
+e oferece um fluxo de trabalho consistente e intuitivo que, então, permite que você crie um app pronto
+para produção de trabalho em minutos.
 
 ## Apps
 {: #app-projects}
