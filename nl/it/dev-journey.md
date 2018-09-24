@@ -2,7 +2,7 @@
 
 copyright:
   years: 2016, 2017, 2018
-lastupdated: "2018-05-02"
+lastupdated: "2018-09-12"
 
 ---
 {:new_window: target="_blank"}
@@ -30,7 +30,7 @@ Per comprendere come l'esperienza di sviluppo {{site.data.keyword.cloud_notm}} p
 
 {{site.data.keyword.cloud_notm}} ha dashboard di sviluppo in diverse aree di interesse (come Watson, Security o Finance) o un canale digitale (come Mobile o Applicazioni Web). Puoi accedere a questi dashboard dall'**icona Menu**  ![icona Menu](../icons/icon_hamburger.svg).
 
-Ogni dashboard di sviluppo fornisce kit starter rilevanti per l'area specifica del dashboard e offre un flusso di lavoro coerente e intuitivo che ti consente di creare un'applicazione pronta per la produzione da utilizzare in pochi minuti.
+Ogni dashboard di sviluppo fornisce kit starter rilevanti per l'area specifica del dashboard e offre un flusso di lavoro congruente e intuitivo che ti consente quindi di creare un'applicazione funzionante pronta per la produzione in pochi minuti.
 
 ## Applicazioni
 {: #app-projects}

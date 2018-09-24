@@ -5,7 +5,7 @@
 copyright:
 
   years: 2015, 2018
-lastupdated: "2018-06-21"
+lastupdated: "2018-09-10"
 
 
 ---
@@ -69,7 +69,7 @@ Una revisione iniziale può richiedere fino a 2 giorni lavorativi e, a seconda d
 
 Queste informazioni sono state sviluppate per prodotti e servizi offerti negli Stati Uniti. Questo materiale può essere disponibile da IBM in altre lingue. Tuttavia, per potervi accedere, potrebbe essere richiesto di possedere una copia del prodotto o una versione del prodotto in tale lingua.
 
-IBM può non offrire i prodotti, i servizi o le funzioni presentati in questo documento in altri paesi. Per le informazioni sui prodotti ed i servizi attualmente disponibili nel proprio paese, rivolgersi al rivenditore IBM locale. Qualunque riferimento relativo a prodotti, programmi o servizi IBM non implica che solo quei prodotti, programmi o servizi IBM possano essere utilizzati. In sostituzione a quelli forniti dall'IBM, possono essere utilizzati prodotti, programmi o servizi funzionalmente equivalenti che non comportino la violazione dei diritti di proprietà intellettuale IBM. È comunque responsabilità dell'utente valutare e verificare la  possibilità di utilizzare altri prodotti, programmi o servizi non IBM.
+IBM può non offrire i prodotti, i servizi o le funzioni presentati in questo documento in altri paesi. Per le informazioni sui prodotti ed i servizi attualmente disponibili nel proprio paese, rivolgersi al rivenditore IBM locale. Qualunque riferimento relativo a prodotti, programmi o servizi IBM non implica che solo quei prodotti, programmi o servizi IBM possano essere utilizzati. In sostituzione a quelli forniti dall'IBM, possono essere utilizzati prodotti, programmi o servizi funzionalmente equivalenti che non comportino la violazione dei diritti di proprietà intellettuale IBM. È comunque responsabilità dell'utente valutare e verificare la possibilità di utilizzare altri prodotti, programmi o servizi non IBM.
 
 IBM può avere brevetti o domande di brevetto in corso relativi a quanto trattato nella presente pubblicazione. La fornitura di questa pubblicazione non garantisce la concessione di alcuna licenza su di essi. Chi desiderasse ricevere informazioni relative alle licenze può rivolgersi per iscritto a:
 
@@ -123,7 +123,7 @@ LICENZA SUL DIRITTO D'AUTORE:
 
 Queste informazioni contengono programmi campione di applicazione nella lingua di origine, i quali illustrano le tecniche di programmazione su varie piattaforme operative. È possibile copiare, modificare, e distribuire questi programmi campione in qualsiasi forma senza pagare IBM, a scopo di sviluppo, utilizzazione, commercializzazione o distribuzione di programmi applicativi conformi all'interfaccia di programmazione di applicazioni per la piattaforma operativa, per la quale sono stati scritti i programmi campione. Questi esempi non sono stati testati in maniera approfondita e tenendo conto di tutte le possibili condizioni. IBM, non può quindi garantire né dichiararne implicitamente l'affidabilità, l'utilità o il funzionamento di tali programmi. I programmi di esempio sono forniti "NELLO STATO IN CUI SI TROVANO", senza alcun tipo di garanzia. IBM non intende essere responsabile per alcun danno derivante dall'uso dei programmi di esempio.
 
-Ogni copia o copia parziale  dei programmi di esempio o di qualsiasi loro modifica deve includere il seguente avviso relativo alle leggi sul diritto d'autore:
+Ogni copia o copia parziale dei programmi di esempio o di qualsiasi loro modifica deve includere il seguente avviso relativo alle leggi sul diritto d'autore:
 
   © (nome dell'azienda) (anno).
   Parti di questo codice derivano dai Programmi di Esempio di IBM Corp.
@@ -147,5 +147,9 @@ Node.js è un marchio di Joyent, Inc. e viene utilizzato con la loro autorizzazi
 UNIX è un marchio registrato di Open Group negli Stati Uniti e in altri paesi.
 
 Java™ e tutti i marchi e i logo basati su Java sono marchi o marchi registrati di Oracle e delle società affiliate.
+
+Salesforce è un marchio di Salesforce.com, Inc.
+
+Box è un marchio di Box, Inc. 
 
 I nomi di altre società, prodotti e servizi potrebbero essere marchi di altre società.
