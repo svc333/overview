@@ -2,7 +2,7 @@
 
 copyright:
   years: 2016, 2017, 2018
-lastupdated: "2018-05-02"
+lastupdated: "2018-09-12"
 
 ---
 {:new_window: target="_blank"}
@@ -37,7 +37,7 @@ Chaque tableau de bord de développeur fournit des kits de démarrage approprié
 
 Une application est composée de code, de données, de services et de chaînes d'outils. Par exemple, l'application mobile {{site.data.keyword.cloud_notm}} contient du code d'unité ainsi qu'une logique de back end, le stockage de données, les services d'analyse et de sécurité, et est configuré pour la distribution continue.
 
-![Reuse](images/garage_reuse2.png "L'aide au développement vous permet de réutiliser et d'éviter d'avoir à réinventer")
+![Réutiliser](images/garage_reuse2.png "L'aide au développement vous permet de réutiliser et d'éviter d'avoir à réinventer")
 
 Vous pouvez créer et gérer une application à l'aide de n'importe quel tableau de bord de développeur {{site.data.keyword.cloud_notm}} ou du plug-in {{site.data.keyword.dev_cli_notm}}.
 

@@ -5,7 +5,7 @@
 copyright:
 
   years: 2015, 2018
-lastupdated: "2018-06-21"
+lastupdated: "2018-09-10"
 
 
 ---
@@ -55,7 +55,7 @@ International Business Machines Corporation (IBM) ou ses filiales est propriéta
 
 Le client peut fournir ses propres adresses IP émises par le registre Internet régional (RIR), soumises à certaines limitations techniques et à la vérification de propriété, en envoyant un ticket de support et en transmettant une lettre d'autorisation afin de spécifier des préfixes IP lui appartenant. Lorsque IBM approuve une demande, ces adresses IP sont annoncées par l'intermédiaire du protocole BGP (Border Gateway Protocol) au nom du client et acheminées vers les serveurs identifiés. Le client reste propriétaire de ces adresses IP. A la demande de ce dernier ou lors de l'annulation des services, IBM cesse d'annoncer et d'acheminer ces adresses. Même si IBM fait son possible pour s'assurer que les préfixes BGP sont acceptés par tous les fournisseurs d'accès, nous ne garantissons pas l'accessibilité globale pour les IP appartenant au client. 
 
-### 3. Instructions de révision, de justification et d'efficacité 
+### 3. Instructions de révision, de justification et d'efficacité
 {: #review_justification_efficiency}
 
 Les adresses IPv4 étant des ressources rares, les registres RIR exigent que les fournisseurs d'accès Internet indiquent qu'ils utilisent de manière efficace les adresses affectées existantes et qu'ils planifient une utilisation efficace des adresses demandées. Les règles de registre RIR ainsi que le document RFC 2050 encouragent la conservation d'espace IP tout en en dissuadant le gaspillage ou l'accumulation. IBM est tenue de se conformer à ces règles lors de demandes d'adresses IP supplémentaires à allouer. Par conséquent, à la demande d'IBM, le client fournit les informations nécessaires pour qu'IBM puisse disposer d'adresses IP émises par le registre RIR afin de prendre en charge les services cloud. 
@@ -68,7 +68,6 @@ Le premier examen peut durer jusqu'à deux jours ouvrés, voire plus en fonction
 {: #notices}
 
 Le présent document a été développé pour des produits et des services proposés aux Etats-Unis et peut être mis à disposition par IBM dans d'autres langues. Toutefois, il peut être nécessaire de posséder une copie du produit ou de la version du produit dans cette langue pour pouvoir y accéder.
-
 
 Le présent document peut contenir des informations ou des
 références concernant certains produits, logiciels ou services IBM
@@ -205,5 +204,9 @@ Node.js est une marque de Joyent, Inc., utilisée avec la permission de cette so
 UNIX est une marque enregistrée de The Open Group aux Etats-Unis et/ou dans certains autres pays.
 
 Java™, ainsi que tous les logos et toutes les marques incluant Java, sont des marques d'Oracle et/ou de ses sociétés affiliées.
+
+Salesforce est une marque de Salesforce.com, Inc.
+
+Box est une marque de Box, Inc. 
 
 Les autres noms de sociétés, de produits et de services peuvent appartenir à des tiers.
