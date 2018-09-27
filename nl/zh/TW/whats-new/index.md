@@ -4,7 +4,7 @@ copyright:
 
   years: 2015, 2018
 
-lastupdated: "2018-07-18"
+lastupdated: "2018-09-05"
 
 ---
 
@@ -66,7 +66,7 @@ lastupdated: "2018-07-18"
 ### 現已推出 {{site.data.keyword.Bluemix_notm}} Foundry 服務美國東部地區
 文件日期：2017 年 12 月 15 日
 
-華盛頓特區現已推出新的美國東部資料中心。使用 `us-east.bluemix.net` 端點可以到達這個新地區。如需這個新地區中可購買之服務的詳細資料，請參閱[各地區的服務](/docs/services/services_region.html#services_region)。
+華盛頓特區現已推出新的美國東部資料中心。使用 `us-east.bluemix.net` 端點可以到達這個新地區。如需這個新地區中可購買之服務的詳細資料，請參閱[各地區的服務](/docs/resources/services_region.html#services_region)。
 
 ### 歐盟資源的支援
 文件日期：2017 年 12 月 14 日
@@ -315,6 +315,22 @@ Liberty 建置套件 3.9 版提供新的每月 Liberty 運行環境版本，並�
 
 ## 服務
 {: #services_category}
+
+### {{site.data.keyword.security-advisor_long_notm}} 現在是測試版！
+文件日期：2018 年 9 月 5 日
+
+{{site.data.keyword.security-advisor_short}} 增加了新的功能，現在以測試版服務提供使用。{{site.data.keyword.security-advisor_short}} 將您的 {{site.data.keyword.Bluemix_notm}} 安全設定集中在一個儀表板中。除了資訊集中化之外，此服務還將重要的安全資訊彙總成可輕鬆導覽的資訊磚，以清楚顯示所偵測到的安全問題。按一下資訊磚即可往下探查，以調查需優先處理的問題、歷程，以及警示背後的詳細資料。若要修正問題，只要再次往下探查，即可取得所有詳細資料及建議的修正程式，以移除威脅並確保您的環境維持安全狀態。
+
+{{site.data.keyword.security-advisor_short}} 很快就會變成您的常用主控台，可讓您集中化、檢視及管理 {{site.data.keyword.Bluemix_notm}} 環境的安全。
+
+我們在此版本中實作了下列各項：
+* Findings API
+* 可讓您帶入自己的提供者
+* 更新儀表板體驗
+
+還有好多功能！
+
+若要開始使用，請參閱 [{{site.data.keyword.security-advisor_short}} 文件](/docs/services/security-advisor/index.html)。
 
 ### {{site.data.keyword.iva_full_notm}} 通用版簡介
 文件日期：2018 年 6 月 26 日
