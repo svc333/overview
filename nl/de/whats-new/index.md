@@ -4,7 +4,7 @@ copyright:
 
   years: 2015, 2018
 
-lastupdated: "2018-09-05"
+lastupdated: "2018-09-20"
 
 ---
 
@@ -316,10 +316,21 @@ Das Liberty Buildpack v3.9 bietet eine neue monatliche Liberty-Laufzeitversion u
 ## Services
 {: #services_category}
 
+### Einführung der allgemeinen Verfügbarkeit von {{site.data.keyword.IBM_notm}} {{site.data.keyword.DRA_short}}
+Datum der Neuerung: 20. September 2018
+
+Der Service {{site.data.keyword.DRA_short}} ist nun in den Regionen Vereinigte Staaten (Süden) (US South), Deutschland (Germany) und Vereintes Königreich (United Kingdom) allgemein verfügbar. 
+
+{{site.data.keyword.DRA_short}} unterstützt Teams dabei, ihre Produktivität, ihre Effizienz und ihre Markteinführungszeit zu verbessern und die Daten der DevOps-Tools zu verwenden, um ihren Erfolg einfach zu quantifizieren oder um die Qualität ihres Codes zu verbessern. Dieser Service stellt ein einzelnes Tool bereit, mit dem Unternehmen ihre DevOps-Aktivitäten in allen Codebasen und Teams verstehen können. 
+
+* **Geschwindigkeit**: {{site.data.keyword.DRA_short}} zeigt alle Analysen für alle Anwendungen in einem einzelnen Dashboard an. 
+* **Qualität**: Begrenzen Sie das Risiko von Releases, indem Sie Bereitstellungsrichtlinien mit Schutzmechanismen implementieren. Wenn Sie beispielsweise eine Richtlinie mit einer festgelegten Toleranz für die Codeabdeckung verwenden, verhindert {{site.data.keyword.DRA_short}} die Freigabe von Code, der die definierten Toleranzen nicht einhält. Im Zeitverlauf tragen diese Richtlinien dazu bei, die Gesamtqualität des Bereitstellungsprozesses zu verbessern.  
+* **Steuerung**: Messen Sie Ergebnisse im Zeitverlauf, während Ihre Teams auf die Trends der DevOps-Verfahren reagieren, indem sie Codeabdeckung, Komponententests und andere Tools verwenden. Mit diesen Tools können die Teams ihre DevOps-Verfahren besser steuern. 
+
 ### {{site.data.keyword.security-advisor_long_notm}} gibt es jetzt in einer Betaversion:
 Datum der Neuerung: 5. September 2018
 
-{{site.data.keyword.security-advisor_short}} wurde mit neuen Funktionen ausgestattet und ist jetzt als Betaservice verfügbar.{{site.data.keyword.security-advisor_short}} zentralisiert die {{site.data.keyword.Bluemix_notm}}-Sicherheit in einem Dashboard. Neben der Zentralisierung von Informationen fasst der Service über leicht zu navigierende Kacheln auch kritische Sicherheitsinformationen zusammen, um deutlich anzuzeigen, dass ein Sicherheitsproblem erkannt wurde. Wenn Sie auf eine Kachel klicken, wird ein Drilldown ausgeführt, mit dem priorisierte Probleme, das Protokoll und die zu einem Alert führenden Details untersucht werden können. Zum Beheben des Problems führen Sie einfach einen weiteren Drilldown durch, um alle Details sowie die vorgeschlagenen Fixes abzurufen, damit die Bedrohung entfernt werden und sichergestellt werden kann, dass Ihre Umgebung weiterhin sicher ist.
+{{site.data.keyword.security-advisor_short}} wurde mit neuen Funktionen ausgestattet und ist jetzt als Betaservice verfügbar.  {{site.data.keyword.security-advisor_short}} zentralisiert die {{site.data.keyword.Bluemix_notm}}-Sicherheit in einem Dashboard. Neben der Zentralisierung von Informationen fasst der Service über leicht zu navigierende Kacheln auch kritische Sicherheitsinformationen zusammen, um deutlich anzuzeigen, dass ein Sicherheitsproblem erkannt wurde. Wenn Sie auf eine Kachel klicken, wird ein Drilldown ausgeführt, mit dem priorisierte Probleme, das Protokoll und die zu einem Alert führenden Details untersucht werden können. Zum Beheben des Problems führen Sie einfach einen weiteren Drilldown durch, um alle Details sowie die vorgeschlagenen Fixes abzurufen, damit die Bedrohung entfernt werden und sichergestellt werden kann, dass Ihre Umgebung weiterhin sicher ist.
 
 {{site.data.keyword.security-advisor_short}} wird schnell die Konsole werden, an die Sie sich wenden, wenn Sie die Sicherheit in Ihrer {{site.data.keyword.Bluemix_notm}}-Umgebung zentralisieren, anzeigen und verwalten möchten.
 
