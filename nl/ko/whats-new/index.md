@@ -4,7 +4,7 @@ copyright:
 
   years: 2015, 2018
 
-lastupdated: "2018-09-05"
+lastupdated: "2018-09-20"
 
 ---
 
@@ -316,10 +316,21 @@ Liberty 빌드팩 v3.9는 새 월별 Liberty 런타임 버전을 제공하고 �
 ## 서비스
 {: #services_category}
 
+### {{site.data.keyword.IBM_notm}} {{site.data.keyword.DRA_short}} GA(General Availability) 소개
+신규 기준일: 2018년 9월 20일
+
+{{site.data.keyword.DRA_short}} 서비스가 미국 남부, 독일 및 영국 지역에서 출시되었습니다. 
+
+{{site.data.keyword.DRA_short}}는 팀이 생산성, 효율성 및 제품 출시 소요 시간을 향상시키는 데 도옴을 주며, DevOps 도구의 데이터를 사용하여 성공 여부를 쉽게 판단하고 코드 품질을 개선하는 데 도움을 줍니다. 이 서비스는 기업이 자신의 모든 코드베이스 및 팀 전체의 DevOps 활동을 파악할 수 있는 단일 도구를 제공합니다. 
+
+* **속도**: {{site.data.keyword.DRA_short}}에서는 모든 애플리케이션에 대한 모든 분석을 하나의 대시보드에서 보여줍니다. 
+* **품질**: 게이트 배치 정책을 구현하여 위험한 릴리스를 줄이십시오. 예를 들어 선택된 허용 한계가 있는, 코드 적용 범위에 대한 정책이 있는 경우 {{site.data.keyword.DRA_short}}는 정의된 허용 한계를 만족시키지 못하는 코드의 릴리스를 차단합니다. 이러한 정책은 시간이 경과함에 따라 배치 프로세스의 전체적인 품질을 향상시킵니다.  
+* **제어**: 코드 적용 범위, 단위 테스트 및 기타 도구를 사용하여 팀의 DevOps 사용 (상태)동향에 대한 팀의 대응 결과를 시간 경과에 따라 측정하십시오. 이러한 (상태)동향은 DevOps 사용을 더 효과적으로 관리하는 데 도움을 줍니다. 
+
 ### {{site.data.keyword.security-advisor_long_notm}}은 현재 베타입니다!
 신규 기준일: 2018년 9월 5일
 
-{{site.data.keyword.security-advisor_short}}에서 새 기능을 추가했으며 이제 베타 서비스로 사용 가능합니다. {{site.data.keyword.security-advisor_short}}에서는 한 대시보드를 통해 중앙에서 {{site.data.keyword.Bluemix_notm}} 보안을 관리합니다. 정보의 중앙 집중화 외에도 이 서비스에서는 쉽게 이동할 수 있는 타일에 중요한 보안 정보를 요약하므로 보안 문제가 발견된 시기를 명확하게 표시할 수 있습니다. 타일을 클릭하면 우선순위화된 문제, 히스토리 및 경보 세부정보를 드릴다운할 수 있습니다. 문제를 수정하려면 한 번 더 드릴다운하기만 하면 됩니다. 그러면 모든 세부사항 외에도 위협을 제거하고 환경을 안전하게 유지하기 위한 추천 수정사항을 얻을 수 있습니다. 
+{{site.data.keyword.security-advisor_short}}에서 새 기능을 추가했으며 이제 베타 서비스로 사용 가능합니다.  {{site.data.keyword.security-advisor_short}}에서는 한 대시보드를 통해 중앙에서 {{site.data.keyword.Bluemix_notm}} 보안을 관리합니다. 정보의 중앙 집중화 외에도 이 서비스에서는 쉽게 이동할 수 있는 타일에 중요한 보안 정보를 요약하므로 보안 문제가 발견된 시기를 명확하게 표시할 수 있습니다. 타일을 클릭하면 우선순위화된 문제, 히스토리 및 경보 세부정보를 드릴다운할 수 있습니다. 문제를 수정하려면 한 번 더 드릴다운하기만 하면 됩니다. 그러면 모든 세부사항 외에도 위협을 제거하고 환경을 안전하게 유지하기 위한 추천 수정사항을 얻을 수 있습니다.
 
 {{site.data.keyword.security-advisor_short}}는 {{site.data.keyword.Bluemix_notm}} 환경에서 보안을 중앙 집중화하고 보고 관리할 수 있는 지원 콘솔이 됩니다.
 

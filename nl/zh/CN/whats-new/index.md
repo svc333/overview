@@ -4,7 +4,7 @@ copyright:
 
   years: 2015, 2018
 
-lastupdated: "2018-09-05"
+lastupdated: "2018-09-20"
 
 ---
 
@@ -316,6 +316,17 @@ Liberty buildpack V3.9 提供了新的每月 Liberty 运行时版本，并包含
 
 ## 服务
 {: #services_category}
+
+### 推出 {{site.data.keyword.IBM_notm}} {{site.data.keyword.DRA_short}} 一般可用性
+最新更新日期：2018 年 9 月 20 日
+
+目前，已在美国南部、德国和英国地区普遍提供 {{site.data.keyword.DRA_short}} 服务。
+
+{{site.data.keyword.DRA_short}} 可帮助团队提高生产力和效率，缩短产品上市时间，还可帮助他们使用 DevOps 工具中的数据轻松地衡量成功与否，或提高代码质量。此服务为企业提供了一个工具，可帮助他们了解所有代码库和团队中的 DevOps 活动。
+
+* **速度**：{{site.data.keyword.DRA_short}} 在单个仪表板中显示所有应用程序的所有分析。
+* **质量**：通过实施门限部署策略来降低发布风险。例如，如果有一个关于代码覆盖的策略，那么在选定的容错范围内，{{site.data.keyword.DRA_short}} 会始终防止不符合容错定义的代码发布。随着时间的推移，这些策略会有助于提高部署过程的总体质量。 
+* **控制**：通过使用代码覆盖、单元测试和其他工具，测量随着时间的推移团队对其 DevOps 做法中的趋势做出反应时的结果。这些趋势可帮助团队更好地管理他们的 DevOps 做法。
 
 ### {{site.data.keyword.security-advisor_long_notm}} Beta 版现在可用！
 最新更新日期：2018 年 9 月 5 日
