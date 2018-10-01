@@ -4,7 +4,7 @@ copyright:
 
   years: 2015, 2018
 
-lastupdated: "2018-09-05"
+lastupdated: "2018-09-20"
 
 ---
 
@@ -315,6 +315,17 @@ Liberty 建置套件 3.9 版提供新的每月 Liberty 運行環境版本，並�
 
 ## 服務
 {: #services_category}
+
+### {{site.data.keyword.IBM_notm}} {{site.data.keyword.DRA_short}} 通用版簡介
+文件日期：2018 年 9 月 20 日
+
+{{site.data.keyword.DRA_short}} 服務現在已在美國南部、德國和英國地區正式發行。
+
+{{site.data.keyword.DRA_short}} 有助於團隊改善生產力、效率及上市時間，團隊也能使用來自 DevOps 工具的資料輕鬆測量成功，或是改善程式碼的品質。本服務提供單一工具，讓企業瞭解他們在所有程式碼庫和團隊之間的 DevOps 活動。
+
+* **速度**：{{site.data.keyword.DRA_short}} 會在單一儀表板裡顯示您所有應用程式之間的所有分析。
+* **品質**：藉由實作關卡部署原則，減輕具風險之版本的危害。例如，若您有「程式碼涵蓋面」的原則，在選取的容忍度下，{{site.data.keyword.DRA_short}} 一律會阻擋不符合已定義容忍度的程式碼版本。一段時間後，這些原則會有助於改善部署程序的整體品質。 
+* **控制**：藉由使用程式碼涵蓋面、單元測試及其他工具，在團隊應對 DevOps 作法的趨勢時，測量一段時間的結果。這些趨勢有助於團隊更妥善控管他們的 DevOps 作法。
 
 ### {{site.data.keyword.security-advisor_long_notm}} 現在是測試版！
 文件日期：2018 年 9 月 5 日

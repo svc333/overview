@@ -4,7 +4,7 @@ copyright:
 
   years: 2015, 2018
 
-lastupdated: "2018-09-05"
+lastupdated: "2018-09-20"
 
 ---
 
@@ -316,10 +316,21 @@ Le pack de construction Liberty version 3.9 fournit chaque mois une nouvelle ver
 ## Services
 {: #services_category}
 
+### Présentation d'{{site.data.keyword.IBM_notm}} {{site.data.keyword.DRA_short}} (disponibilité générale)
+Nouveau à compter du : 20 septembre 2018
+
+Le service {{site.data.keyword.DRA_short}} est désormais disponible dans les régions Sud des Etats-Unis, Allemagne et Royaume-Uni.
+
+{{site.data.keyword.DRA_short}} permet aux différentes équipes d'améliorer leur productivité, leur efficacité et d'accélérer la commercialisation. De plus, elles peuvent utiliser les données des outils DevOps pour évaluer facilement la réussite ou améliorer la qualité du code. Ce service constitue l'outil idéal permettant aux entreprises de comprendre leurs activités DevOpsdans dans leurs bases de code et leurs équipes.
+
+* **Vitesse** : {{site.data.keyword.DRA_short}} affiche toutes les données d'analyse de vos applications dans un seul tableau de bord.
+* **Qualité** : réduisez le nombre de versions à risque en implémentant des règles de déploiement de blocage. Par exemple, si vous avez une règle pour la couverture du code impliquant une tolérance sélectionnée, {{site.data.keyword.DRA_short}} bloque toujours les versions de code ne respectant pas les tolérances définies. Ces règles vous permettent d'améliorer la qualité du processus de déploiement. 
+* **Contrôle** : mesurez les résultats au fur et à mesure que les équipes réagissent aux différentes tendances dans leurs pratiques DevOps en utilisant la couverture du code, des tests d'unité et d'autres outils. Ces tendances permettent aux équipes de mieux réglementer leurs pratiques DevOps.
+
 ### {{site.data.keyword.security-advisor_long_notm}} est à présent disponible en version bêta !
 Nouveau à compter du : 5 septembre 2018
 
-De nouvelles fonctions ont été ajoutées à {{site.data.keyword.security-advisor_short}} qui est désormais disponible en tant que service bêta. {{site.data.keyword.security-advisor_short}} centralise votre sécurité dans un tableau de bord {{site.data.keyword.Bluemix_notm}}. Outre la centralisation des informations, le service rassemble les informations de sécurité essentielles réparties sur des vignettes simples d'utilisation afin de signaler aisément les problèmes de sécurité. Le fait de cliquer sur une vignette active l'exploration en aval afin d'examiner les problèmes classés par priorité, l'historique et les détails liés à l'alerte. Pour résoudre le problème, effectuez une nouvelle exploration en aval pour obtenir tous les détails ainsi que des correctifs suggérés pour supprimer la menace et garantir la sécurité de votre environnement.
+De nouvelles fonctions ont été ajoutées à {{site.data.keyword.security-advisor_short}} qui est désormais disponible en tant que service bêta.  {{site.data.keyword.security-advisor_short}} centralise votre sécurité dans un tableau de bord {{site.data.keyword.Bluemix_notm}}. Outre la centralisation des informations, le service rassemble les informations de sécurité essentielles réparties sur des vignettes simples d'utilisation afin de signaler aisément les problèmes de sécurité. Le fait de cliquer sur une vignette active l'exploration en aval afin d'examiner les problèmes classés par priorité, l'historique et les détails liés à l'alerte. Pour résoudre le problème, effectuez une nouvelle exploration en aval pour obtenir tous les détails ainsi que des correctifs suggérés pour supprimer la menace et garantir la sécurité de votre environnement.
 
 {{site.data.keyword.security-advisor_short}} devient rapidement votre console de référence vous permettant de centraliser, consulter et gérer les informations de sécurité dans votre environnement {{site.data.keyword.Bluemix_notm}}.
 
