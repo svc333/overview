@@ -4,7 +4,7 @@ copyright:
 
   years: 2015, 2018
 
-lastupdated: "2018-09-05"
+lastupdated: "2018-09-20"
 
 ---
 
@@ -330,6 +330,17 @@ O buildpack do Liberty v3.9 fornece uma nova versão de runtime mensal do Libert
 
 ## Serviços
 {: #services_category}
+
+### Introdução à disponibilidade geral do {{site.data.keyword.IBM_notm}} {{site.data.keyword.DRA_short}}
+Novo a partir de: 20 de setembro de 2018
+
+O serviço {{site.data.keyword.DRA_short}} agora está disponível ao público em geral nas regiões sul dos EUA, Alemanha e Reino Unido.
+
+O {{site.data.keyword.DRA_short}} ajuda as equipes a melhorar sua produtividade, eficiência e prazo de lançamento no mercado, e a usar os dados das ferramentas do DevOps para, com facilidade, medir o sucesso ou melhorar a qualidade de seu código. Esse serviço fornece a ferramenta ideal para que as empresas entendam suas atividades do DevOps em todas as suas bases de código e equipes.
+
+* **Velocidade**: o {{site.data.keyword.DRA_short}} mostra todas as suas análises, em todos os seus aplicativos, em um único painel.
+* **Qualidade**: minimize liberações arriscadas implementando política de implementação de portas. Por exemplo, se você tem uma política de cobertura de código, em um nível de tolerância selecionado, o {{site.data.keyword.DRA_short}} sempre barra uma liberação de código que não atende a níveis de tolerância definidos. Ao longo do tempo, essas políticas ajudam a melhorar a qualidade geral do processo de implementação. 
+* **Controle**: mede os resultados ao longo do tempo, à medida que as equipes reagem às tendências em suas práticas do DevOps usando cobertura de código, testes de unidade e outras ferramentas. Essas tendências ajudam as equipes a governar melhor suas práticas do DevOps.
 
 ### {{site.data.keyword.security-advisor_long_notm}}  agora é Beta!
 Novo a partir de: 5 de setembro de 2018
