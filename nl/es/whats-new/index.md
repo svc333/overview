@@ -4,7 +4,7 @@ copyright:
 
   years: 2015, 2018
 
-lastupdated: "2018-09-05"
+lastupdated: "2018-09-20"
 
 ---
 
@@ -316,10 +316,21 @@ El paquete de compilación de Liberty v3.9 proporciona una nueva versión de tie
 ## Servicios
 {: #services_category}
 
+### Introducción a la disponibilidad general de {{site.data.keyword.IBM_notm}} {{site.data.keyword.DRA_short}}
+Novedad desde: 20 de septiembre de 2018
+
+El servicio {{site.data.keyword.DRA_short}} ahora tiene disponibilidad general en las regiones de EE.UU. sur, Alemania y Reino Unido.
+
+{{site.data.keyword.DRA_short}} ayuda a los equipos a mejorar su productividad, eficiencia y tiempo de salida al mercado, y a utilizar los datos de herramientas de DevOps para medir fácilmente el éxito o mejorar la calidad del código. Este servicio proporciona una única herramienta para que las empresas entiendan sus actividades de DevOps por todas sus bases de código y equipos.
+
+* **Velocidad**: {{site.data.keyword.DRA_short}} muestra todas las analíticas, de todas sus aplicaciones, en un solo panel de control.
+* **Calidad**: Mitigue los releases arriesgados implementando políticas de puertas de despliegue. Por ejemplo, si tiene una política para la cobertura de código, con una tolerancia seleccionada, {{site.data.keyword.DRA_short}} siempre impide el lanzamiento de código que no cumple con las tolerancias definidas. A lo largo del tiempo, estas políticas ayudan a mejorar la calidad general del proceso de desarrollo. 
+* **Control**: Mida los resultados a lo largo del tiempo a medida que los equipos reaccionan a las tendencias en sus prácticas de DevOps utilizando cobertura de código, pruebas de unidad y otras herramientas. Estas tendencias ayudan a los equipos a controlar mejor sus prácticas de DevOps.
+
 ### {{site.data.keyword.security-advisor_long_notm}} ahora en versión Beta
 Novedad desde: 5 de septiembre de 2018
 
-{{site.data.keyword.security-advisor_short}} ha añadido nuevas prestaciones y está disponible como servicio beta. {{site.data.keyword.security-advisor_short}} centraliza la seguridad de {{site.data.keyword.Bluemix_notm}} en un panel de control. Además de centralizar la información, el servicio resume la información de seguridad crítica en mosaicos fáciles de navegar para que se muestren con claridad cuando se detecte un problema de seguridad. Al pulsar en un mosaico, se habilita una obtención de detalles que le permite investigar los problemas de alta prioridad, el historial y los detalles de la alerta. Para solucionar el problema, descienda a un mayor nivel de detalles una vez más para obtener todos los detalles además de sugerencias de soluciones y eliminar la amenaza y garantizar la seguridad del entorno.
+{{site.data.keyword.security-advisor_short}} ha añadido nuevas prestaciones y está disponible como servicio beta.  {{site.data.keyword.security-advisor_short}} centraliza la seguridad de {{site.data.keyword.Bluemix_notm}} en un panel de control. Además de centralizar la información, el servicio resume la información de seguridad crítica en mosaicos fáciles de navegar para que se muestren con claridad cuando se detecte un problema de seguridad. Al pulsar en un mosaico, se habilita una obtención de detalles que le permite investigar los problemas de alta prioridad, el historial y los detalles de la alerta. Para solucionar el problema, descienda a un mayor nivel de detalles una vez más para obtener todos los detalles además de sugerencias de soluciones y eliminar la amenaza y garantizar la seguridad del entorno.
 
 {{site.data.keyword.security-advisor_short}} se convertirá rápidamente en su consola y le permitirá centralizar, visualizar y gestionar la seguridad en su entorno de {{site.data.keyword.Bluemix_notm}}.
 
