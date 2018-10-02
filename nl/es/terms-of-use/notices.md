@@ -5,7 +5,7 @@
 copyright:
 
   years: 2015, 2018
-lastupdated: "2018-06-21"
+lastupdated: "2018-09-10"
 
 
 ---
@@ -147,5 +147,9 @@ Node.js es una marca registrada de Joyent, Inc. y se utiliza con su permiso. Joy
 UNIX es una marca registrada de The Open Group en Estados Unidos y en otros países.
 
 Javay todas las marcas registradas y los logotipos basados en Java son marcas registradas de Oracle o de sus filiales.
+
+Salesforce es una marca registrada de Salesforce.com, Inc.
+
+Box es una marca registrada de Box, Inc. 
 
 Otros nombres de empresas, productos y servicios pueden ser marcas registradas o de servicio de terceros.
