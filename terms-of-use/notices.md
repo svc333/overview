@@ -5,7 +5,7 @@
 copyright:
 
   years: 2015, 2018
-lastupdated: "2018-09-10"
+lastupdated: "2018-10-04"
 
 
 ---
@@ -31,6 +31,7 @@ Your IBM Cloud Account and any services ordered from the IBM Cloud are provided 
   * Service Description for IBM Cloud available at [http://www-03.ibm.com/software/sla/sladb.nsf/sla/bm](http://www-03.ibm.com/software/sla/sladb.nsf/sla/bm){: new_window} ![External link icon](../../icons/launch-glyph.svg);
   * Applicable Additional SDs for any service ordered using your IBM Cloud Account available at [http://www-03.ibm.com/software/sla/sladb.nsf/sla/bm](http://www-03.ibm.com/software/sla/sladb.nsf/sla/bm){: new_window} ![External link icon](../../icons/launch-glyph.svg); and
   * Applicable Data Sheets as referenced in applicable Additional SDs or from the "Terms" link for a service in the IBM Cloud UI available at [http://www-03.ibm.com/software/sla/sladb.nsf/sla/csdsp](http://www-03.ibm.com/software/sla/sladb.nsf/sla/csdsp){: new_window} ![External link icon](../../icons/launch-glyph.svg).
+  * A Reserved Capacity is for a fixed term as set forth in an Order, and cannot be terminated by Client prior to the end of that term. A Reserved Capacity may be eligible for renewal at the conclusion of a term by mutual agreement between Client and SoftLayer. Reserved Capacities that are neither renewed nor terminated prior to the end of their terms will convert into monthly Cloud Services subject to the terms of the then-current Cloud Services Agreement and Service Description and at the then-current retail pricing.
 
 ### License for the IBM WebSphere Application Server Liberty Profile image
 {: #license_liberty_image}
