@@ -3,7 +3,7 @@
 
 copyright:
   years: 2016, 2018
-lastupdated: "2018-07-31"
+lastupdated: "2018-10-05"
 
 
 ---
@@ -527,7 +527,12 @@ An infrastructure in which the storage and processing of data for applications i
 ### namespace
 {: #x2031005}
 
-A unique name that identifies your organization's image repository within the {{site.data.keyword.cloud_notm}} registry. See also [image](#x2024928), [private image repository](#x8439215).
+A unique name that identifies your organization's image repository within the IBM Cloud registry. See also [image](#x2024928), [private image repository](#x8439215).
+
+### network address translation
+{: #x2031199}
+
+An addressing method that is used to enable one IP address to communicate with several other IP addresses, such as those on a private subnet, by means of a lookup table. Network address translation has two main types: 1-to-1 and many-to-1.
 
 
 ## O
@@ -606,6 +611,11 @@ A service that is visible only to members of a specified {{site.data.keyword.clo
 {: #x4585370}
 
 A cloud computing environment in which access to standardized resources, such as infrastructure, multi-tenant hardware, and services, is available to subscribers on a pay-per-use basis. See also [borderless](#x8439189), [private cloud](#x4585362).
+
+### public gateway
+{: #x9594389}
+
+The connection of a subnet, with all virtual server instances attached, to the internet. A public gateway uses a many-to-1 network address translation (NAT), which means that thousands of virtual server instances with private addresses can use one public IP address to talk to the public internet.
 
 ### public resource
 {: #x9439040}
@@ -897,3 +907,11 @@ A compressed file format, defined by the Java EE standard, for storing all the r
 {: #x2096037}
 
 A context that contains a collection of artifacts that a user with appropriate permission can modify.
+
+## Z
+{: #glossz}
+
+### zone
+{: #x2070723}
+
+An independent fault domain. A zone is an abstraction designed to assist with improved fault tolerance and decreased latency.
