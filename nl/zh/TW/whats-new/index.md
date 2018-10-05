@@ -4,7 +4,7 @@ copyright:
 
   years: 2015, 2018
 
-lastupdated: "2018-09-20"
+lastupdated: "2018-09-28"
 
 ---
 
@@ -261,7 +261,7 @@ Identity and Access Management (IAM) 現在可讓您建立「服務 ID」，您�
 
 使用四月的最新更新及增進功能，您可以使用下列新增特性：
 
- * 針對 {{site.data.keyword.Bluemix_notm}} Dedicated 及 Bluemix Local 環境最新設計的狀態應用程式。您可以依元件名稱或張貼日期進行快速搜尋。您也可以切換元件狀態張貼視圖與您環境特定的通知。如需相關資訊，請參閱[新 {{site.data.keyword.Bluemix_notm}} 狀態頁面](https://www.ibm.com/blogs/bluemix/2017/05/new-bluemix-status-page/){: new_window} ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示") 部落格文章。
+ * 針對 {{site.data.keyword.Bluemix_notm}} Dedicated 及 Local 環境最新設計的狀態應用程式。您可以依元件名稱或張貼日期進行快速搜尋。您也可以切換元件狀態張貼視圖與您環境特定的通知。如需相關資訊，請參閱[新 {{site.data.keyword.Bluemix_notm}} 狀態頁面](https://www.ibm.com/blogs/bluemix/2017/05/new-bluemix-status-page/){: new_window} ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示") 部落格文章。
  * 「資源用量」磚中精選服務的服務用量資料。如需所支援服務及新視圖中預期內容的相關資訊，請參閱[服務用量詳細資料](/docs/hybrid/index.html#servicesresourceusage)。
 
 ## 運算
@@ -315,6 +315,11 @@ Liberty 建置套件 3.9 版提供新的每月 Liberty 運行環境版本，並�
 
 ## 服務
 {: #services_category}
+
+### {{site.data.keyword.cloudant_short_notm}} 的最新更新
+文件日期：2018 年 9 月 28 日
+
+請造訪下列頁面以取得 {{site.data.keyword.cloudant_short_notm}} [最新更新 ![外部鏈結圖示](../images/launch-glyph.svg "外部鏈結圖示")](../release_info/release_notes.html#release-notes){:new_window} 的綜合性清單。
 
 ### {{site.data.keyword.IBM_notm}} {{site.data.keyword.DRA_short}} 通用版簡介
 文件日期：2018 年 9 月 20 日

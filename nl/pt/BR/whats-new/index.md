@@ -4,7 +4,7 @@ copyright:
 
   years: 2015, 2018
 
-lastupdated: "2018-09-20"
+lastupdated: "2018-09-28"
 
 ---
 
@@ -330,6 +330,11 @@ O buildpack do Liberty v3.9 fornece uma nova versão de runtime mensal do Libert
 
 ## Serviços
 {: #services_category}
+
+### Atualizações mais recentes do {{site.data.keyword.cloudant_short_notm}}
+Novo a partir de: 28 de setembro de 2018
+
+Visite a página a seguir para ver uma lista abrangente das [atualizações mais recentes![Ícone de link externo](../images/launch-glyph.svg "Ícone de link externo")](../release_info/release_notes.html#release-notes){:new_window} para {{site.data.keyword.cloudant_short_notm}}.
 
 ### Introdução à disponibilidade geral do {{site.data.keyword.IBM_notm}} {{site.data.keyword.DRA_short}}
 Novo a partir de: 20 de setembro de 2018

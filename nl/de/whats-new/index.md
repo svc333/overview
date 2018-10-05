@@ -4,7 +4,7 @@ copyright:
 
   years: 2015, 2018
 
-lastupdated: "2018-09-20"
+lastupdated: "2018-09-28"
 
 ---
 
@@ -316,16 +316,21 @@ Das Liberty Buildpack v3.9 bietet eine neue monatliche Liberty-Laufzeitversion u
 ## Services
 {: #services_category}
 
+### Neueste Aktualisierungen für {{site.data.keyword.cloudant_short_notm}}
+Datum der Neuerung: 28. September 2018
+
+Auf der folgenden Seite finden Sie eine umfassende Liste der [neuesten Aktualisierungen![Symbol für externen Link](../images/launch-glyph.svg "Symbol für externen Link")](../release_info/release_notes.html#release-notes){:new_window} für {{site.data.keyword.cloudant_short_notm}}.
+
 ### Einführung der allgemeinen Verfügbarkeit von {{site.data.keyword.IBM_notm}} {{site.data.keyword.DRA_short}}
 Datum der Neuerung: 20. September 2018
 
-Der Service {{site.data.keyword.DRA_short}} ist nun in den Regionen Vereinigte Staaten (Süden) (US South), Deutschland (Germany) und Vereintes Königreich (United Kingdom) allgemein verfügbar. 
+Der Service {{site.data.keyword.DRA_short}} ist nun in den Regionen Vereinigte Staaten (Süden) (US South), Deutschland (Germany) und Vereintes Königreich (United Kingdom) allgemein verfügbar.
 
-{{site.data.keyword.DRA_short}} unterstützt Teams dabei, ihre Produktivität, ihre Effizienz und ihre Markteinführungszeit zu verbessern und die Daten der DevOps-Tools zu verwenden, um ihren Erfolg einfach zu quantifizieren oder um die Qualität ihres Codes zu verbessern. Dieser Service stellt ein einzelnes Tool bereit, mit dem Unternehmen ihre DevOps-Aktivitäten in allen Codebasen und Teams verstehen können. 
+{{site.data.keyword.DRA_short}} unterstützt Teams dabei, ihre Produktivität, ihre Effizienz und ihre Markteinführungszeit zu verbessern und die Daten der DevOps-Tools zu verwenden, um ihren Erfolg einfach zu quantifizieren oder um die Qualität ihres Codes zu verbessern. Dieser Service stellt ein einzelnes Tool bereit, mit dem Unternehmen ihre DevOps-Aktivitäten in allen Codebasen und Teams verstehen können.
 
-* **Geschwindigkeit**: {{site.data.keyword.DRA_short}} zeigt alle Analysen für alle Anwendungen in einem einzelnen Dashboard an. 
-* **Qualität**: Begrenzen Sie das Risiko von Releases, indem Sie Bereitstellungsrichtlinien mit Schutzmechanismen implementieren. Wenn Sie beispielsweise eine Richtlinie mit einer festgelegten Toleranz für die Codeabdeckung verwenden, verhindert {{site.data.keyword.DRA_short}} die Freigabe von Code, der die definierten Toleranzen nicht einhält. Im Zeitverlauf tragen diese Richtlinien dazu bei, die Gesamtqualität des Bereitstellungsprozesses zu verbessern.  
-* **Steuerung**: Messen Sie Ergebnisse im Zeitverlauf, während Ihre Teams auf die Trends der DevOps-Verfahren reagieren, indem sie Codeabdeckung, Komponententests und andere Tools verwenden. Mit diesen Tools können die Teams ihre DevOps-Verfahren besser steuern. 
+* **Geschwindigkeit**: {{site.data.keyword.DRA_short}} zeigt alle Analysen für alle Anwendungen in einem einzelnen Dashboard an.
+* **Qualität**: Begrenzen Sie das Risiko von Releases, indem Sie Bereitstellungsrichtlinien mit Schutzmechanismen implementieren. Wenn Sie beispielsweise eine Richtlinie mit einer festgelegten Toleranz für die Codeabdeckung verwenden, verhindert {{site.data.keyword.DRA_short}} die Freigabe von Code, der die definierten Toleranzen nicht einhält. Im Zeitverlauf tragen diese Richtlinien dazu bei, die Gesamtqualität des Bereitstellungsprozesses zu verbessern. 
+* **Steuerung**: Messen Sie Ergebnisse im Zeitverlauf, während Ihre Teams auf die Trends der DevOps-Verfahren reagieren, indem sie Codeabdeckung, Komponententests und andere Tools verwenden. Mit diesen Tools können die Teams ihre DevOps-Verfahren besser steuern.
 
 ### {{site.data.keyword.security-advisor_long_notm}} gibt es jetzt in einer Betaversion:
 Datum der Neuerung: 5. September 2018

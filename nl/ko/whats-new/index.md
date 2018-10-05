@@ -4,7 +4,7 @@ copyright:
 
   years: 2015, 2018
 
-lastupdated: "2018-09-20"
+lastupdated: "2018-09-28"
 
 ---
 
@@ -291,12 +291,12 @@ IAM(Identity and Access Management)은 이제 서비스 ID를 작성할 수 있�
 
 [{{site.data.keyword.Bluemix_notm}}](/docs/containers/container_index.html)에서 원시 Kubernetes 환경을 시작하기에 대한 자세한 정보는 문서를 참조하십시오. 질문이 있는 경우 Slack(https://ibm-container-service.slack.com/) 사이트에 질문을 게시할 수 있습니다.
 
-### 새로운 Liberty for Java 빌드팩 v3.11
+### 새 Liberty for Java 빌드팩 v3.11
 신규 기준일: 2017년 7월 17일
 
 Liberty 빌드팩 v3.11은 새 월별 Liberty 런타임 버전을 제공하고 기타 개선사항을 포함합니다. 월별 Liberty 런타임 버전은 [2017.7.0.0](https://developer.ibm.com/wasdev/blog/2017/07/07/beta-websphere-liberty-tools-july-2017/) 릴리스로 업데이트되었습니다. IBM JDK는 8.0.4.7 및 7.1.4.5 버전으로 업데이트되었습니다. 빌드팩은 App Management 유틸리티 및 Auto-Scaling 에이전트의 업데이트된 버전도 제공합니다. 기본 Cloudant Library는 이제 공식 [java-cloudant](https://github.com/cloudant/java-cloudant)이며, [Ektorp library](https://github.com/helun/Ektorp)는 계속해서 옵션으로 사용 가능합니다. 이 변경사항에 대한 세부사항은 [블로그 게시물](https://www.ibm.com/blogs/bluemix/2017/05/default-library-change-cloudant-auto-wiring-liberty-buildpack/)을 참조하십시오. 애플리케이션의 메모리가 512MB 미만이면 이제 기본 힙 크기 비율은 50%가 되고, 512MB를 초과하면 기본 힙 크기 비율은 75%가 됩니다. 이제 새 스테이징 태스크 로그가 생성되어 스테이징 오류를 더 쉽게 디버그할 수 있습니다. 자세한 정보는 [최신 업데이트](https://console.ng.bluemix.net/docs/runtimes/liberty/updates.html) 문서를 참조하십시오.
 
-### 새로운 Liberty for Java 빌드팩 v3.10
+### 새 Liberty for Java 빌드팩 v3.10
 신규 기준일: 2017년 6월 12일
 
 Liberty 빌드팩 v3.10은 새 분기별 및 월별 Liberty 런타임 버전을 제공하고 기타 개선사항을 포함합니다. 기본 Liberty 런타임 버전이 17.0.0.2로 업데이트되었습니다. 월별 Liberty 런타임 버전이 [2017.5.0.0](https://developer.ibm.com/wasdev/blog/2017/05/12/beta-websphere-liberty-tools-may-2017/){: new_window} ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘") 릴리스로 업데이트되었습니다. 빌드팩은 App Management 유틸리티 및 Extreme Scale Client의 업데이트된 버전도 제공합니다. 추가 정보는 [최신 업데이트](/docs/runtimes/liberty/updates.html) 문서를 참조하십시오.
@@ -308,7 +308,7 @@ SDK for Node.js 빌드팩 v3.12는 IBM SDK for Node.js 버전 0.12.17, 0.12.18, 
 
 새 런타임 외에도, 이 릴리스에는 App Management Health Center 핸들러와 Node.js 버전 6.9.5 및 6.10.0의 문제에 대한 빌드팩 버그 수정사항이 포함되어 있습니다.
 
-### 새로운 Liberty for Java 빌드팩 v3.9
+### 새 Liberty for Java 빌드팩 v3.9
 신규 기준일: 2017년 4월 27일
 
 Liberty 빌드팩 v3.9는 새 월별 Liberty 런타임 버전을 제공하고 기타 개선사항을 포함합니다. 기본 Liberty 런타임 버전은 PI77770, PI77605, IFPI77438 및 IFPI79275 iFixes를 포함하도록 업데이트되었습니다. 월별 Liberty 런타임 버전은 [2017.3.0.0](https://developer.ibm.com/wasdev/blog/2017/03/14/beta-websphere-liberty-tools-march-2017/){: new_window} ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘") 릴리스로 업데이트되었습니다. 애플리케이션을 다시 시작하여 힙 메모리를 좀 더 쉽게 변경할 수 있도록 메모리 계산이 스테이징에서 시작 프로세스로 이동되었습니다. 빌드팩은 Auto-Scaling 서비스 에이전트 및 Extreme Scale Client의 업데이트된 버전도 제공합니다. 추가 정보는 [최신 업데이트](/docs/runtimes/liberty/updates.html) 문서를 참조하십시오.
@@ -316,16 +316,21 @@ Liberty 빌드팩 v3.9는 새 월별 Liberty 런타임 버전을 제공하고 �
 ## 서비스
 {: #services_category}
 
+### {{site.data.keyword.cloudant_short_notm}}의 최신 업데이트
+신규 기준일: 2018년 9월 28일
+
+{{site.data.keyword.cloudant_short_notm}}에 대한 [최신 업데이트 ![외부 링크 아이콘](../images/launch-glyph.svg "외부 링크 아이콘")](../release_info/release_notes.html#release-notes){:new_window}의 전체 목록을 보려면 다음 페이지를 방문하십시오. 
+
 ### {{site.data.keyword.IBM_notm}} {{site.data.keyword.DRA_short}} GA(General Availability) 소개
 신규 기준일: 2018년 9월 20일
 
-{{site.data.keyword.DRA_short}} 서비스가 미국 남부, 독일 및 영국 지역에서 출시되었습니다. 
+{{site.data.keyword.DRA_short}} 서비스가 미국 남부, 독일 및 영국 지역에서 출시되었습니다.
 
-{{site.data.keyword.DRA_short}}는 팀이 생산성, 효율성 및 제품 출시 소요 시간을 향상시키는 데 도옴을 주며, DevOps 도구의 데이터를 사용하여 성공 여부를 쉽게 판단하고 코드 품질을 개선하는 데 도움을 줍니다. 이 서비스는 기업이 자신의 모든 코드베이스 및 팀 전체의 DevOps 활동을 파악할 수 있는 단일 도구를 제공합니다. 
+{{site.data.keyword.DRA_short}}는 팀이 생산성, 효율성 및 제품 출시 소요 시간을 향상시키는 데 도옴을 주며, DevOps 도구의 데이터를 사용하여 성공 여부를 쉽게 판단하고 코드 품질을 개선하는 데 도움을 줍니다. 이 서비스는 기업이 자신의 모든 코드베이스 및 팀 전체의 DevOps 활동을 파악할 수 있는 단일 도구를 제공합니다.
 
-* **속도**: {{site.data.keyword.DRA_short}}에서는 모든 애플리케이션에 대한 모든 분석을 하나의 대시보드에서 보여줍니다. 
-* **품질**: 게이트 배치 정책을 구현하여 위험한 릴리스를 줄이십시오. 예를 들어 선택된 허용 한계가 있는, 코드 적용 범위에 대한 정책이 있는 경우 {{site.data.keyword.DRA_short}}는 정의된 허용 한계를 만족시키지 못하는 코드의 릴리스를 차단합니다. 이러한 정책은 시간이 경과함에 따라 배치 프로세스의 전체적인 품질을 향상시킵니다.  
-* **제어**: 코드 적용 범위, 단위 테스트 및 기타 도구를 사용하여 팀의 DevOps 사용 (상태)동향에 대한 팀의 대응 결과를 시간 경과에 따라 측정하십시오. 이러한 (상태)동향은 DevOps 사용을 더 효과적으로 관리하는 데 도움을 줍니다. 
+* **속도**: {{site.data.keyword.DRA_short}}에서는 모든 애플리케이션에 대한 모든 분석을 하나의 대시보드에서 보여줍니다.
+* **품질**: 게이트 배치 정책을 구현하여 위험한 릴리스를 줄이십시오. 예를 들어 선택된 허용 한계가 있는, 코드 적용 범위에 대한 정책이 있는 경우 {{site.data.keyword.DRA_short}}는 정의된 허용 한계를 만족시키지 못하는 코드의 릴리스를 차단합니다. 이러한 정책은 시간이 경과함에 따라 배치 프로세스의 전체적인 품질을 향상시킵니다. 
+* **제어**: 코드 적용 범위, 단위 테스트 및 기타 도구를 사용하여 팀의 DevOps 사용 (상태)동향에 대한 팀의 대응 결과를 시간 경과에 따라 측정하십시오. 이러한 (상태)동향은 DevOps 사용을 더 효과적으로 관리하는 데 도움을 줍니다.
 
 ### {{site.data.keyword.security-advisor_long_notm}}은 현재 베타입니다!
 신규 기준일: 2018년 9월 5일
@@ -341,7 +346,7 @@ Liberty 빌드팩 v3.9는 새 월별 Liberty 런타임 버전을 제공하고 �
 
 그 외에도 여러가지가 있습니다!
 
-시작하려면 [{{site.data.keyword.security-advisor_short}} 문서를 참조하십시오.](/docs/services/security-advisor/index.html)
+시작하려면 [{{site.data.keyword.security-advisor_short}} 문서](/docs/services/security-advisor/index.html)를 참조하십시오.
 
 ### {{site.data.keyword.iva_full_notm}} GA(General Availability) 소개
 신규 기준일: 2018년 6월 26일
@@ -357,7 +362,7 @@ Liberty 빌드팩 v3.9는 새 월별 Liberty 런타임 버전을 제공하고 �
 
 시작하려면 [{{site.data.keyword.iva_short}}](/docs/services/voice-agent/getting-started.html) 문서를 참조하십시오.
 
-### {{site.data.keyword.streaminganalyticsshort}}에서는 컨테이너 기반 인프라와 함께 새로운 서비스 플랜을 소개합니다.
+### {{site.data.keyword.streaminganalyticsshort}}에서는 컨테이너 기반 인프라와 함께 새로운 서비스 플랜을 소개함
 신규 기준일: 2018년 4월 20일
 
 이제 {{site.data.keyword.streaminganalyticsshort}}는 서비스에 보안 및 가용성 혜택을 제공하는 Kubernetes 컨테이너 기반 인프라에서 실행됩니다.
@@ -700,7 +705,7 @@ IBM Data Science Experience(DSX)에서 Jupyter 노트북을 사용하여 샘플 
 2017년 3월 30일부로 {{site.data.keyword.macm_long}} 서비스 타일이 {{site.data.keyword.Bluemix_notm}} 카탈로그에서 제거되며 새 MACM 인스턴스를 더 이상 프로비저닝할 수 없습니다. 그러나 기존 인스턴스는 계속 지원됩니다. 지원 종료 날짜는 2018년 3월 30일입니다. 지원 종료 날짜 전에 {{site.data.keyword.macm_short}}(MACM) 서비스 인스턴스를 삭제하십시오. 사용자에게 IBM Watson Content Hub로의 마이그레이션을 권장합니다. Watson Content는 IBM Marketplace에서 사용 가능하며 30일 무료 평가판을 사용자에게 제공합니다. IBM Watson Content Hub는 자산 관리, IBM Watson 서비스를 사용한 코그너티브 태그 지정 및 고객을 위해 최적의 경험을 보장하도록 포함된 CDN(Content Delivery Network)과 같이 추가된 새 기능을 포함하여 MACM과 유사한 기능을 제공합니다. IBM은 MACM에서 Watson Content Hub로 마이그레이션할 서비스 계약을 제공합니다.
 
 
-### {{site.data.keyword.sparks}}업데이트: 이제 Data Science Experience에서 노트북이 지원됨
+### {{site.data.keyword.sparks}} 업데이트: 이제 Data Science Experience에서 노트북이 지원됨
 신규 기준일: 2017년 4월 11일
 
 노트북 및 Spark에 대해 작업할 새 플랫폼은 Data Science Experience입니다. [Data Science Experience](http://datascience.ibm.com/)에 등록하여 노트북을 작성하고 기타 데이터 과학자들과 경험을 공유해 보십시오.
