@@ -2,7 +2,7 @@
 
 copyright:
   years: 2016, 2017, 2018
-lastupdated: "2018-05-02"
+lastupdated: "2018-09-12"
 
 ---
 {:new_window: target="_blank"}
@@ -30,7 +30,7 @@ Um zu verstehen, wie die {{site.data.keyword.cloud_notm}}-Entwicklungsumgebung I
 
 {{site.data.keyword.cloud_notm}} verfügt über Entwicklerdashboards für verschiedene Interessensbereiche (wie Watson, Sicherheit, oder Finanzen) bzw. digitale Kanäle (wie Mobile oder Web-Apps). Sie können auf diese Dashboards über das **Menüsymbol** ![Menüsymbol](../icons/icon_hamburger.svg) zugreifen.
 
-Jedes Entwicklerdashboard stellt Starter-Kits mit Bezug auf den Schwerpunktbereich des Dashboards bereit und bietet einen konsistenten, intuitiven Workflow, mit dem Sie eine funktionstüchtige, einsatzbereite App in wenigen Minuten erstellen können.
+Jedes Entwicklerdashboard stellt Starter-Kits mit Bezug auf den Schwerpunktbereich des Dashboards bereit und bietet einen konsistenten, intuitiven Workflow, mit dem Sie in wenigen Minuten eine funktionstüchtige, einsatzbereite App erstellen können.
 
 ## Apps
 {: #app-projects}
@@ -72,7 +72,7 @@ Der aus einem {{site.data.keyword.cloud_notm}}-Starter-Kit erstellte Code hat vi
 * **Serviceaktivierung** ist Code, der Ihrer App ermöglicht, die Services, die Sie hinzufügen, zu verbinden und zu verwenden. Verwaltung von Berechtigungsnachweisen, Initialisierungscode und servicespezifische SDKs sind Beispiele für Serviceaktivierungskomponenten.
 * **Cloudaktivierung** ist Code, der Ihre App befähigt, unter {{site.data.keyword.cloud_notm}} ausgeführt zu werden. Beispielsweise Helm-Diagramme, die Ihre App befähigen, in einem {{site.data.keyword.cloud_notm}}-Kubernetes-Cluster ausgeführt zu werden.
 
-Wenn Sie eine App auf der Grundlage eines {{site.data.keyword.cloud_notm}}-Starter-Kits erstellen, so baut diese App auf bewährter Architektur auf, die außerdem die bewährten Verfahren (Best Practices) für die von Ihnen ausgewählte Sprache widerspiegelt.
+Wenn Sie eine App auf der Grundlage eines {{site.data.keyword.cloud_notm}}-Starter-Kits erstellen, baut diese App auf bewährter Architektur auf, die außerdem die bewährten Verfahren (Best Practices) für die von Ihnen ausgewählte Sprache widerspiegelt.
 
 Jede App enthält eine Readme-Datei mit den technischen Details des Projekts und erläutert, welche Schritte ausgeführt werden müssen, wenn Ihre App nicht sofort einsatzbereit ist.
 {: tip}
@@ -82,7 +82,7 @@ Jede App enthält eine Readme-Datei mit den technischen Details des Projekts und
 
 DevOps umfasst Prozeduren und Tools für den Zugriff, die Entwicklung, die Bereitstellung und den Betrieb Ihrer App. Eine DevOps-Toolchain ist ein Satz verknüpfter Services zur Automatisierung Ihrer DevOps-Tasks. Es ist möglich, DevOps mithilfe von sehr einfachen Apps manuell auszuführen, aber der Bedarf an Automatisierung nimmt mit der Komplexität von Apps schnell zu und die Toolchain-Automatisierung ist ein Must-Have für eine Continuous Delivery.
 
-Die zentrale Komponente einer DevOps-Toolchain ist ein Repository für die Steuerung von Coderversionen wie GitHub. Zusätzliche Tools können ein Rückstandtracking, eine Delivery Pipeline, eine IDE und einen Überwachungsservice wie [{{site.data.keyword.cloud_notm}}DevOps Insights](../services/DevOpsInsights/index.html#gettingstarted) enthalten.
+Die zentrale Komponente einer DevOps-Toolchain ist ein Repository für die Steuerung von Codeversionen wie GitHub. Zusätzliche Tools können ein Rückstandtracking, eine Delivery Pipeline, eine IDE und einen Überwachungsservice wie [{{site.data.keyword.cloud_notm}}DevOps Insights](../services/DevOpsInsights/index.html#gettingstarted) enthalten.
 
 Wenn Sie eine App mithilfe eines Starter-Kits erstellt haben, können Sie eine neue Toolchain erstellen und Ihre App einfach durch Klicken auf **In Cloud bereitstellen** in der Ansicht 'App-Details' bereitstellen. Es wird eine Toolchain mit einem Coderepository, einer Delivery Pipeline und einer Web-IDE erstellt.
 

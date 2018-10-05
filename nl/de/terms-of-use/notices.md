@@ -5,7 +5,7 @@
 copyright:
 
   years: 2015, 2018
-lastupdated: "2018-06-21"
+lastupdated: "2018-09-10"
 
 
 ---
@@ -48,21 +48,21 @@ Die IBM Online-Datenschutzerklärung finden Sie unter [https://www.ibm.com/priva
 ### 1. Eigentumsrecht für IP-Adressen
 {: #ip_address_ownership}
 
-International Business Machines Corporation oder Tochtergesellschaften von IBM sind Eigner bestimmter IP-Adressen, die dem Kunden zugeordnet sind und nur in Zusammenhang mit dem Cloud-Service verwendet werden. Die Verwendung dieser IP-Adressen endet mit Ablauf oder Beendigung des jeweiligen Service. Zu diesem Zeitpunkt werden die IP-Adressen zurückgefordert und können in Zukunft für andere Kunden erneut vergeben werden.  
+International Business Machines Corporation oder Tochtergesellschaften von IBM sind Eigner bestimmter IP-Adressen, die dem Kunden zugeordnet sind und nur in Zusammenhang mit dem Cloud-Service verwendet werden. Die Verwendung dieser IP-Adressen endet mit Ablauf oder Beendigung des jeweiligen Service. Zu diesem Zeitpunkt werden die IP-Adressen zurückgefordert und können in Zukunft für andere Kunden erneut vergeben werden. 
 
 ### 2. Vom Kunden bereitgestellte IP-Adressen
 {: #client_provided_ips}
 
-Kunden können ihre eigenen von RIR (Regional Internet Registry) ausgegebenen IP-Adressen verwenden, die bestimmten technischen Beschränkungen und Verifizierungen der Eigentumsrechte unterliegen, indem Sie ein Support-Ticket übergeben und ein entsprechendes Berechtigungsdokument bereitstellen, um die kundeneigenen IP-Präfixe anzugeben. Falls IBM die Anforderung zur Verwendung dieser IP-Adressen genehmigt, werden diese IP-Adressen über BGP (Border Gateway Protocol) im Namen des Kunden bekanntgegeben und an die angegebenen Client-Server weitergeleitet. Der Kunde behält das Eigentumsrecht an diesen IP-Adressen. Auf Anforderung des Kunden oder bei Beendigung des Services wird IBM die Bekanntgabe und Weiterleitung dieser IP-Adressen einstellen. Während IBM große Anstrengungen unternimmt, zu gewährleisten, dass BGP-Präfixe von allen vorgeschalteten ISPs akzeptiert werden, können wir jedoch nicht die globale Erreichbarkeit von kundeneigenen IPs garantieren.  
+Kunden können ihre eigenen von RIR (Regional Internet Registry) ausgegebenen IP-Adressen verwenden, die bestimmten technischen Beschränkungen und Verifizierungen der Eigentumsrechte unterliegen, indem Sie ein Support-Ticket übergeben und ein entsprechendes Berechtigungsdokument bereitstellen, um die kundeneigenen IP-Präfixe anzugeben. Falls IBM die Anforderung zur Verwendung dieser IP-Adressen genehmigt, werden diese IP-Adressen über BGP (Border Gateway Protocol) im Namen des Kunden bekanntgegeben und an die angegebenen Client-Server weitergeleitet. Der Kunde behält das Eigentumsrecht an diesen IP-Adressen. Auf Anforderung des Kunden oder bei Beendigung des Services wird IBM die Bekanntgabe und Weiterleitung dieser IP-Adressen einstellen. Während IBM große Anstrengungen unternimmt, zu gewährleisten, dass BGP-Präfixe von allen vorgeschalteten ISPs akzeptiert werden, können wir jedoch nicht die globale Erreichbarkeit von kundeneigenen IPs garantieren. 
 
-### 3. Richtlinien zu Prüfung / Begründung / Effizienz 
+### 3. Richtlinien zu Prüfung / Begründung / Effizienz
 {: #review_justification_efficiency}
 
-Da IPv4-Adressen eine rare Ressource sind, erfordern RIRs, dass ISPs dokumentieren, dass sie vorhandene zugeordnete Adressen effizient verwenden und eine effiziente Verwendung aller angeforderter Adressen planen. RIR-Richtlinien und RFC2050 legen Wert auf die Einhaltung dieses Grundsatzes und verhindern die verschwenderische Nutzung oder Bevorratung von IP-Bereichen. IBM muss diese Richtlinien einhalten, wenn IBM die Zuordnung weiterer IP-Adressen anfordert. Daher muss der Kunde auf Verlangen von IBM die erforderlichen Informationen bereitstellen, damit IBM von RIR ausgegebene IP-Adressen erhalten kann, um die Cloud-Services zu unterstützten.  
+Da IPv4-Adressen eine rare Ressource sind, erfordern RIRs, dass ISPs dokumentieren, dass sie vorhandene zugeordnete Adressen effizient verwenden und eine effiziente Verwendung aller angeforderter Adressen planen. RIR-Richtlinien und RFC2050 legen Wert auf die Einhaltung dieses Grundsatzes und verhindern die verschwenderische Nutzung oder Bevorratung von IP-Bereichen. IBM muss diese Richtlinien einhalten, wenn IBM die Zuordnung weiterer IP-Adressen anfordert. Daher muss der Kunde auf Verlangen von IBM die erforderlichen Informationen bereitstellen, damit IBM von RIR ausgegebene IP-Adressen erhalten kann, um die Cloud-Services zu unterstützten. 
 
-Alle Anforderungen von Kunden für IP-Adressen werden von IBM überprüft, um eine effiziente Verwendung sicherzustellen. Eine Genehmigung der Anforderung kann nicht garantiert werden. Während der Überprüfung muss der Kunde Details dazu bereitstellen, wie die IP-Adresse genutzt werden soll, sowie eine technische Begründung dafür liefern, warum weitere IP-Adressen erforderlich sind. IBM kann Maßnahmen ergreifen, um diese Informationen zu überprüfen. Diese Maßnahmen schließen Netzscanning und Überprüfung der Serverkonfiguration ein.  
+Alle Anforderungen von Kunden für IP-Adressen werden von IBM überprüft, um eine effiziente Verwendung sicherzustellen. Eine Genehmigung der Anforderung kann nicht garantiert werden. Während der Überprüfung muss der Kunde Details dazu bereitstellen, wie die IP-Adresse genutzt werden soll, sowie eine technische Begründung dafür liefern, warum weitere IP-Adressen erforderlich sind. IBM kann Maßnahmen ergreifen, um diese Informationen zu überprüfen. Diese Maßnahmen schließen Netzscanning und Überprüfung der Serverkonfiguration ein. 
 
-Eine erste Überprüfung kann bis zu 2 Arbeitstage in Anspruch nehmen und abhängig von Umfang und Komplexität kann ein längerer Zeitraum für die vollständige Überprüfung erforderlich sein. Bei Konten mit offenen Missbrauchstickets wird die Verarbeitung von IP-Anforderungen blockiert, bis alle Missbrauchsprobleme gelöst wurden.  
+Eine erste Überprüfung kann bis zu 2 Arbeitstage in Anspruch nehmen und abhängig von Umfang und Komplexität kann ein längerer Zeitraum für die vollständige Überprüfung erforderlich sein. Bei Konten mit offenen Missbrauchstickets wird die Verarbeitung von IP-Anforderungen blockiert, bis alle Missbrauchsprobleme gelöst wurden. 
 
 ## Bemerkungen
 {: #notices}
@@ -122,7 +122,7 @@ Diese Veröffentlichung enthält Beispiele für Daten und Berichte des alltägli
 
 COPYRIGHTLIZENZ:
 
-Diese Veröffentlichung enthält Beispielanwendungsprogramme, die in Quellensprache geschrieben sind und Programmiertechniken in verschiedenen Betriebsumgebungen veranschaulichen. Sie dürfen diese Beispielprogramme kostenlos kopieren, ändern und verteilen, wenn dies zu dem Zweck geschieht, Anwendungsprogramme zu entwickeln, zu verwenden, zu vermarkten oder zu verteilen, die mit der Anwendungsprogrammierschnittstelle für die Betriebsumgebung konform sind, für die diese Beispielprogramme geschrieben werden. Diese Beispiele wurden nicht unter allen denkbaren Bedingungen getestet. Daher kann IBM die Zuverlässigkeit, Wartungsfreundlichkeit oder Funktion dieser Programme weder zusagen noch gewährleisten. Die Beispielprogramme werden ohne Wartung (auf "as-is"-Basis) und ohne jegliche Gewährleistung zur Verfügung gestellt. IBM übernimmt keine Haftung für Schäden, die durch die Verwendung der Beispielprogramme entstehen.
+Diese Veröffentlichung enthält Beispielanwendungsprogramme, die in Quellensprache geschrieben sind und Programmiertechniken in verschiedenen Betriebsumgebungen veranschaulichen. Sie dürfen diese Beispielprogramme kostenfrei kopieren, ändern und verteilen, wenn dies zu dem Zweck geschieht, Anwendungsprogramme zu entwickeln, zu verwenden, zu vermarkten oder zu verteilen, die mit der Anwendungsprogrammierschnittstelle für die Betriebsumgebung konform sind, für die diese Beispielprogramme geschrieben werden. Diese Beispiele wurden nicht unter allen denkbaren Bedingungen getestet. Daher kann IBM die Zuverlässigkeit, Wartungsfreundlichkeit oder Funktion dieser Programme weder zusagen noch gewährleisten. Die Beispielprogramme werden ohne Wartung (auf "as-is"-Basis) und ohne jegliche Gewährleistung zur Verfügung gestellt. IBM übernimmt keine Haftung für Schäden, die durch die Verwendung der Beispielprogramme entstehen.
 
 Kopien oder Teile der Beispielprogramme bzw. daraus abgeleiteter Code müssen folgenden Copyrightvermerk beinhalten:
 
@@ -148,5 +148,9 @@ Node.js ist eine Marke von Joyent, Inc. und wird mit Genehmigung von Joyent verw
 UNIX ist eine eingetragene Marke von The Open Group in den USA und anderen Ländern.
 
 Java™ und alle auf Java basierenden Marken und Logos sind Marken oder eingetragene Marken der Oracle Corporation und/oder ihrer verbundenen Unternehmen.
+
+Salesforce ist eine Marke von Salesforce.com, Inc.
+
+Box ist eine Marke von Box, Inc. 
 
 Weitere Unternehmens-, Produkt- oder Servicenamen können Marken oder Servicemarken anderer Hersteller sein.
