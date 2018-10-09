@@ -4,7 +4,7 @@ copyright:
 
   years: 2015, 2018
 
-lastupdated: "2018-09-20"
+lastupdated: "2018-09-28"
 
 ---
 
@@ -315,6 +315,11 @@ Il pacchetto di build Liberty v3.9 fornisce una nuova versione di runtime Libert
 
 ## Servizi
 {: #services_category}
+
+### Ultimi aggiornamenti per {{site.data.keyword.cloudant_short_notm}}
+Novità a partire dal 28 settembre 2018
+
+Visita la seguente pagina per un elenco completo degli [ultimi aggiornamenti ![Icona link esterno](../images/launch-glyph.svg "Icona link esterno")](../release_info/release_notes.html#release-notes){:new_window} per {{site.data.keyword.cloudant_short_notm}}.
 
 ### Introduzione alla disponibilità generale di {{site.data.keyword.IBM_notm}} {{site.data.keyword.DRA_short}}
 Novità a partire dal 20 settembre 2018
