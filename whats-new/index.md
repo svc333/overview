@@ -319,7 +319,7 @@ The Liberty buildpack v3.9 provides new monthly Liberty runtime version and cont
 ### Latest updates for {{site.data.keyword.cloudant_short_notm}}
 New as of: 28 September 2018
 
-Visit the following page for a comprehensive list of the [latest updates ![External link icon](../images/launch-glyph.svg "External link icon")](../release_info/release_notes.html#release-notes){:new_window} to {{site.data.keyword.cloudant_short_notm}}.
+Visit the following page for a comprehensive list of the [latest updates](/docs/services/Cloudant/release_info/release_notes.html#release-notes){:new_window} ![External link icon](../../icons/launch-glyph.svg "External link icon") to {{site.data.keyword.cloudant_short_notm}}.
 
 ### Introducing {{site.data.keyword.IBM_notm}} {{site.data.keyword.DRA_short}} general availability
 New as of: 20 September 2018
