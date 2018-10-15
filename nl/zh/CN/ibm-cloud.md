@@ -108,9 +108,9 @@ ibmcloud api https://api.eu-gb.bluemix.net
 
 所有 {{site.data.keyword.cloud_notm}} 基础架构、Cloud Foundry 组件和特定于 {{site.data.keyword.cloud_notm}} 的管理组件都具有高可用性。通过使用多个基础架构实例来平衡负载。
 
+
 ## 与记录系统集成
 {: #sor}
-
 在云环境中，{{site.data.keyword.cloud_notm}} 可以通过连接以下两大类别的系统来为开发者提供帮助：
 
 * *记录系统*包含用于存储业务记录和自动执行标准化过程的应用程序和数据库。
@@ -123,27 +123,19 @@ ibmcloud api https://api.eu-gb.bluemix.net
  * 根据包含数据库和后端系统（例如客户关系管理系统）的集成流创建 API。
  * 仅公开要向应用程序公开的模式和表。
  * 以 {{site.data.keyword.cloud_notm}} 组织管理员身份，将 API 发布为仅供您的组织成员查看的私有服务。
-
-要将记录系统与在 {{site.data.keyword.cloud_notm}} 中创建的应用程序集成，请使用 Cloud Integration 服务。通过使用 Cloud Integration 服务，您可以创建 Cloud Integration API，并将 API 发布为您组织的私有服务。
-
+ 
+<!-- To integrate a system of record with the app that you create in {{site.data.keyword.cloud_notm}}, use the Cloud Integration service. By using the Cloud Integration service, you can create a Cloud Integration API and publish the API as a private service for your organization.
 <dl>
 <dt>Cloud Integration API</dt>
-    <dd>通过 Cloud Integration API，可以经由 Web API 安全访问位于防火墙后的记录系统。创建 Cloud Integration API 时，请选择要通过 Web API 访问的资源，指定允许的操作，并包括用于访问 API 的 SDK 和样本。有关如何创建 Cloud Integration API 的更多信息，请参阅 [Cloud Integration 入门](/docs/services/CloudIntegration/CldInt_GetStart.html)。</dd>
-<dt>私有服务</dt>
-    <dd>私有服务由 Cloud Integration API、SDK 和权利政策构成。私有服务还可能包含来自服务提供者的文档或其他项。只有组织管理员可以将 Cloud Integration API 发布为私有服务。要查看可供您使用的私有服务，请选中 {{site.data.keyword.cloud_notm}}“目录”中的“私有”复选框。您可以选择私有服务，并将其绑定到应用程序，而无需连接 Cloud Integration 服务。您可以使用与其他 {{site.data.keyword.cloud_notm}} 服务相同的方式，将私有服务绑定到应用程序。有关如何将 API 发布为私有服务的信息，请参阅“将 API 发布为私有服务”。</dd>
+    <dd>A Cloud Integration API provides secured access to the systems of record that reside behind a firewall through web APIs. When you create the Cloud Integration API, you choose the resource that you want to access through the web API, specify the operations that are permitted, and include SDKs and samples to access the API. For more information about how to create a Cloud Integration API, see [Getting started with Cloud Integration](/docs/services/CloudIntegration/CldInt_GetStart.html).</dd>
+<dt>Private service</dt>
+    <dd>A private service consists of a Cloud Integration API, SDKs, and entitlement policies. The private service might also  contain documentation or other items from the service provider. Only the organization manager can publish a Cloud Integration API as a private service. To see the private services that are available to you, select the Private checkbox in the {{site.data.keyword.cloud_notm}} catalog. You can select and bind a private service to an app without connecting to the Cloud Integration service. You bind private services to your app in the same way as you do for other {{site.data.keyword.cloud_notm}} services. For information about how to publish an API as a private service, see Publishing an API as a private service.</dd>
 </dl>
-
-### 场景：创建富移动应用程序以与记录系统相连接
+### Scenario: Creating a rich mobile app to connect with your system of record
 {: #scenario}
-
-{{site.data.keyword.cloud_notm}} 提供了一个平台，在该平台中可以集成移动应用程序、云服务和企业记录系统，从而提供可与内部部署数据进行交互的应用程序。
-
-例如，可以构建移动应用程序来与客户关系管理系统进行交互，该系统位于防火墙后的内部部署中。您可以通过安全方式调用记录系统，并利用 {{site.data.keyword.cloud_notm}} 中的移动服务来构建富移动应用程序。
-
-首先，集成开发者会在 {{site.data.keyword.cloud_notm}} 中创建移动后端应用程序。开发者会使用“移动云”样板，该样板使用的是其最熟悉的 Node.js 运行时。
-
-接着，开发者会在 {{site.data.keyword.cloud_notm}} 用户界面中使用 Cloud Integration 服务，通过安全连接器公开 API。集成开发者会下载安全连接器，并将其安装在内部部署中，以实现其 API 与数据库之间的安全通信。创建数据库端点后，开发者可以查看所有模式，并抽取要作为 API 向应用程序公开的表。
-
-集成开发者会添加 Push 服务，用于向相关使用者发送移动通知。他们还会添加业务合作伙伴服务，用于在使用 Twitter API 创建新的客户记录后发布推特。
-
-接着，作为应用程序开发者，您可以登录到 {{site.data.keyword.cloud_notm}}，下载 Android 开发工具箱，然后开发用于调用集成开发者所创建 API 的代码。您可以开发一个移动应用程序，使用户能够在其移动设备上输入信息。然后，该移动应用程序会在客户管理系统中创建客户记录。创建记录后，该应用程序会向移动设备推送通知，然后发布有关新记录的推特。
+{{site.data.keyword.cloud_notm}} provides a platform where you can integrate your mobile app, cloud services, and enterprise systems of record to provide an app that interacts with your on-premises data.
+For example, you can build a mobile app to interact with your customer relationship management system that resides on-premises behind a firewall. You can invoke the system of record in a secure way and leverage the mobile services in {{site.data.keyword.cloud_notm}} so that you can build a rich mobile app.
+First, your integration developer creates the mobile back-end app in {{site.data.keyword.cloud_notm}}. They use the Mobile Cloud boilerplate that uses the Node.js runtime that they are most familiar with.
+Then, by using the Cloud Integration service in the {{site.data.keyword.cloud_notm}} user interface, they expose an API through a secure connector. Your integration developer downloads the secure connector and installs it on-premises to enable secure communication between his API and the database. After they create the database endpoint, they can look at all the schemas and extract the tables that they want to expose as APIs to the app.
+The integration developer adds the Push service to deliver mobile notifications to interested consumers. They also add a business partner service to tweet when a new customer record is created with a Twitter API.
+Next, as the application developer, you can log in to {{site.data.keyword.cloud_notm}}, download the Android development toolkit, and develop code that invokes the APIs that your integration developer created. You can develop a mobile app that enables users to enter their information on their mobile device. The mobile app then creates a customer record in the customer management system. When the record is created, the app pushes a notification to a mobile device and initiates a tweet about the new record. -->

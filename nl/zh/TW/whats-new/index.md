@@ -319,7 +319,7 @@ Liberty 建置套件 3.9 版提供新的每月 Liberty 運行環境版本，並�
 ### {{site.data.keyword.cloudant_short_notm}} 的最新更新
 文件日期：2018 年 9 月 28 日
 
-請造訪下列頁面以取得 {{site.data.keyword.cloudant_short_notm}} [最新更新 ![外部鏈結圖示](../images/launch-glyph.svg "外部鏈結圖示")](../release_info/release_notes.html#release-notes){:new_window} 的綜合性清單。
+請造訪下列頁面以取得 {{site.data.keyword.cloudant_short_notm}} [最新更新](/docs/services/Cloudant/release_info/release_notes.html#release-notes){:new_window} ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示") 的清單。
 
 ### {{site.data.keyword.IBM_notm}} {{site.data.keyword.DRA_short}} 通用版簡介
 文件日期：2018 年 9 月 20 日

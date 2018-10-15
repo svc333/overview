@@ -69,14 +69,14 @@ Das Dashboard bietet für Ihren Bedarf an einer Cloudinfrastruktur verschiedene 
 
 Die {{site.data.keyword.cloud_notm}}-Infrastruktur bietet eine der leistungsfähigsten Cloudinfrastrukturen überhaupt. Die {{site.data.keyword.cloud_notm}}-Infrastruktur ist eine einzige Plattform, die Rechenzentren in der ganzen Welt mit dem größtmöglichen Spektrum an Cloud-Computing-Optionen nutzt, diese Optionen einbindet und automatisiert. {{site.data.keyword.CloudDataCents_notm}} bieten eine riesige Menge an erstklassiger Ausrüstung für Datenverarbeitung, Speicherung und Vernetzung. Jeder Standort wird auf gleiche Weise erbaut, ausgestattet und betrieben,
 sodass Sie immer exakt dieselben Funktionen und Verfügbarkeiten erwarten
-können. Die Standorte sind über das fortgeschrittenste Network-within-a-Network der Branche miteinander verbunden, das eigenständige öffentliche, private und interne Managementnetze zur Senkung der Gesamtnetzkosten, für besseren Zugriff und höhere Geschwindigkeiten integriert. Zudem teilen die Rechenzentren und das Netz ein proprietäres Managementsystem. Über nur ein Verwaltungstool können Sie alles steuern, jeden Bare-Metal-Server, virtuellen Server und jede Speichereinheit, die alle über API-, Portal- und mobile Anwendungen zugänglich sind.
+können. Die Standorte sind über das fortgeschrittenste Network-within-a-Network der Branche miteinander verbunden, das eigenständige öffentliche, private und interne Managementnetze zur Senkung der Gesamtnetzkosten, für besseren Zugriff und höhere Geschwindigkeiten integriert. Zudem teilen die Rechenzentren und das Netz ein proprietäres Managementsystem. Über nur ein Verwaltungstool können Sie alles steuern, jede Bare Metal Server- oder Virtual Server-Instanz und jede Speichereinheit, die alle über API-, Portal- und mobile Anwendungen zugänglich sind.
 
-Die {{site.data.keyword.cloud_notm}}-Infrastruktur bietet leistungsfähige Bare-Metal-Server und flexible virtuelle Server in einer einzigen übergangslosen Plattform. Alle werden bedarfsgerecht bereitgestellt und monats- bzw. stundenweise berechnet. Bare-Metal-Server bieten die reine Leistung für Ihre prozessorintensiven und Platten-E/A-intensiven Workloads und können nach Ihren genauen Spezifikationen konfiguriert werden. Virtuelle Server ermöglichen eine hohe Geschwindigkeit bei der Bereitstellung, eine flexible Skalierbarkeit und nutzungsabhängige Rechnungsstellung. Um eine hoch leistungsfähige Datenverarbeitung zu erhalten, werten Sie Ihre Cloud mit GPU-Servern auf (GPU - Grafik-Verarbeitungseinheit), die stunden- oder monatsweise zur Verfügung gestellt werden.
+Die {{site.data.keyword.cloud_notm}}-Infrastruktur bietet leistungsfähige Bare Metal Server- und flexible Virtual Server-Lösungen auf einer einzigen übergangslosen Plattform. Alle werden bedarfsgerecht bereitgestellt und monats- bzw. stundenweise berechnet. Bare Metal Server-Systeme bieten die reine Leistung für Ihre prozessorintensiven und Platten-E/A-intensiven Workloads und können nach Ihren genauen Spezifikationen konfiguriert werden. Virtuelle Server ermöglichen eine hohe Geschwindigkeit bei der Bereitstellung, eine flexible Skalierbarkeit und nutzungsabhängige Rechnungsstellung. Um eine hoch leistungsfähige Datenverarbeitung zu erhalten, werten Sie Ihre Cloud mit GPU-Servern auf (GPU - Grafik-Verarbeitungseinheit), die stunden- oder monatsweise zur Verfügung gestellt werden.
 
 Die Angebote der {{site.data.keyword.cloud_notm}}-Infrastruktur sind mit einem dreischichtigen Netz verbunden, das den Datenverkehr in öffentlichen, privaten und Managementdatenverkehr segmentiert. Mit der Infrastruktur auf dem {{site.data.keyword.cloud_notm}}-Konto
 eines Kunden könnten Daten in einer solchen Infrastruktur kostenfrei über das
 private Netz übertragen
-werden. Infrastrukturangebote, z. B. Bare-Metal-Server, virtuelle Server und Cloudspeicherung, stellen Verbindungen zu anderen Anwendungen und Services im {{site.data.keyword.cloud_notm}}-Katalog her, z. B. Watson-Services, Container oder Laufzeiten im ganzen öffentlichen Netz. Die Datenübertragung zwischen diesen zwei Angebotstypen wird gemessen und zu Standardpreisen für die öffentliche Netzbandbreite berechnet.
+werden. Infrastrukturangebote, z. B. Bare Metal Server, Virtual Server und Cloudspeicherung, stellen Verbindungen zu anderen Anwendungen und Services im {{site.data.keyword.cloud_notm}}-Katalog her, z. B. Watson-Services, Container oder Laufzeiten im ganzen öffentlichen Netz. Die Datenübertragung zwischen diesen zwei Angebotstypen wird gemessen und zu Standardpreisen für die öffentliche Netzbandbreite berechnet.
 
 ## Regionen
 {: #ov_intro_reg}
@@ -123,9 +123,9 @@ Die gesamte
 Foundry-Komponenten und für {{site.data.keyword.cloud_notm}} spezifische Verwaltungskomponenten stellen eine hohe Verfügbarkeit sicher. Zum Lastausgleich
 werden mehrere Instanzen der Infrastruktur verwendet.
 
+
 ## Integration mit Systems of Record (Kerndatensystemen)
 {: #sor}
-
 {{site.data.keyword.cloud_notm}} kann Entwicklern durch die Verbindung zweier allgemeiner Systemkategorien in einer Cloudumgebung Hilfestellung leisten:
 
 * *Systems of Record* umfassen Apps und Datenbanken, die Geschäftsberichte speichern und
@@ -143,56 +143,19 @@ können Sie die folgenden Aktionen durchführen:
  * Zugänglichmachen nur derjenigen Schemas und Tabellen, die Sie der App zugänglich machen wollen
  * Als {{site.data.keyword.cloud_notm}}-Organisationsmanager:
 Veröffentlichen einer API als privaten Service, der nur für die Mitglieder Ihrer Organisation sichtbar ist
-
-Um ein System of Record in die App zu integrieren, die Sie in {{site.data.keyword.cloud_notm}} erstellen,
-können Sie den Cloud Integration-Service verwenden. Wenn Sie den Cloud Integration-Service
-verwenden, können Sie eine Cloud Integration-API erstellen
-und die API als privaten Service für Ihre Organisation veröffentlichen.
-
+ 
+<!-- To integrate a system of record with the app that you create in {{site.data.keyword.cloud_notm}}, use the Cloud Integration service. By using the Cloud Integration service, you can create a Cloud Integration API and publish the API as a private service for your organization.
 <dl>
-<dt>Cloud Integration-API</dt>
-    <dd>Mit einer Cloud Integration-API haben Sie über Web-APIs sicheren Zugriff auf die Systems of Record, die sich hinter einer Firewall befinden. Bei der Erstellung der
-Cloud Integration-API wählen Sie die Ressource aus,
-auf die Sie über die Web-API zugreifen möchten, geben die zulässigen Operationen
-an und beziehen die SDKs und Beispiele für den Zugriff auf die API ein. Weitere Informationen zur Erstellung
-einer Cloud Integration-API finden sie unter
-[Erste Schritte mit Cloud Integration](/docs/services/CloudIntegration/CldInt_GetStart.html).</dd>
-<dt>Privater Service</dt>
-    <dd>Ein privater Service besteht aus einer Cloud Integration-API,
-SDKs und Berechtigungsrichtlinien. Der private Service kann außerdem Dokumentation oder andere Elemente des Service-Providers enthalten. Eine Cloud Integration-API kann nur vom Organisationsmanager als privater Service veröffentlicht werden. Wenn Sie die
-für Sie zur Verfügung stehenden privaten Services anzeigen möchten, wählen Sie
-im {{site.data.keyword.cloud_notm}}-Katalog das Kontrollkästchen 'Privat' aus. Sie können einen privaten Service auswählen und ihn an eine App binden, ohne dass eine Verbindung zum
-Cloud Integration-Service erforderlich wäre. Private Services werden wie andere
-{{site.data.keyword.cloud_notm}}-Services auch
-an Ihre App gebunden. Weitere Informationen zur Veröffentlichung einer API als privaten Service finden Sie im Thema zur Veröffentlichung einer API als privaten Service.</dd>
+<dt>Cloud Integration API</dt>
+    <dd>A Cloud Integration API provides secured access to the systems of record that reside behind a firewall through web APIs. When you create the Cloud Integration API, you choose the resource that you want to access through the web API, specify the operations that are permitted, and include SDKs and samples to access the API. For more information about how to create a Cloud Integration API, see [Getting started with Cloud Integration](/docs/services/CloudIntegration/CldInt_GetStart.html).</dd>
+<dt>Private service</dt>
+    <dd>A private service consists of a Cloud Integration API, SDKs, and entitlement policies. The private service might also  contain documentation or other items from the service provider. Only the organization manager can publish a Cloud Integration API as a private service. To see the private services that are available to you, select the Private checkbox in the {{site.data.keyword.cloud_notm}} catalog. You can select and bind a private service to an app without connecting to the Cloud Integration service. You bind private services to your app in the same way as you do for other {{site.data.keyword.cloud_notm}} services. For information about how to publish an API as a private service, see Publishing an API as a private service.</dd>
 </dl>
-
-### Szenario: Erstellen einer umfangreichen mobilen App, die mit Ihrem System of Record verbunden werden soll
+### Scenario: Creating a rich mobile app to connect with your system of record
 {: #scenario}
-
-{{site.data.keyword.cloud_notm}} bietet eine Plattform,
-auf der Sie ihre mobile App, Cloud-Services und Systems of Record von Unternehmen integrieren können, um eine App einzurichten,
-die mit Ihren lokalen Daten interagiert.
-
-Sie können beispielsweise eine mobile App aufbauen, die
-mit Ihrem Customer-Relationship-Managementsystem interagiert, welches sich lokal hinter einer Firewall
-befindet. Sie können auf sicherem Weg ein System of Record aufrufen und die mobilen Services in
-{{site.data.keyword.cloud_notm}} zum Aufbau
-einer umfangreichen mobilen App nutzen.
-
-Zunächst erstellt Ihr Integrationsentwickler in {{site.data.keyword.cloud_notm}} die mobile Back-End-App. Er verwendet die Boilerplate aus Mobile Cloud mit der Node.js-Laufzeit, mit der er am besten vertraut ist.
-
-Unter Verwendung des Cloud Integration-Service in der {{site.data.keyword.cloud_notm}}-Benutzerschnittstelle macht er über einen sicheren Connector eine API zugänglich. Ihr Integrationsentwickler lädt den sicheren
-Connector herunter und installiert ihn lokal, um eine sichere Kommunikation zwischen seiner API und der
-Datenbank zu ermöglichen. Nachdem er den Datenbankendpunkt erstellt hat, kann er sich alle Schemas ansehen und diejenigen Tabellen extrahieren, die er der App als APIs zugänglich machen will.
-
-Um interessierten Kunden mobile Benachrichtigungen senden zu können, fügt der Integrationsentwickler den Push-Service hinzu. Außerdem nimmt er einen Geschäftspartnerservice auf, der über eine Twitter-API einen Tweet versendet, sobald ein neuer Satz von Kundenstammdaten erstellt wird.
-
-Als Nächstes können Sie sich als Anwendungsentwickler bei
-{{site.data.keyword.cloud_notm}} anmelden,
-das Android-Entwicklungstoolkit herunterladen und Code entwickeln, mit dem die APIs aufgerufen werden, die
-Ihr Integrationsentwickler eingerichtet hat. Sie können eine mobile App entwickeln, die es dem Benutzer
-ermöglicht, über sein mobiles Gerät Informationen einzugeben. Die mobile App erstellt daraufhin im
-Customer-Managementsystem einen Kundenstammdatensatz. Nachdem der Datensatz erstellt ist, übermittelt die
-App per Push-Operation eine Benachrichtigung an ein mobiles Gerät und leitet einen Tweet zu dem neuen
-Datensatz ein.
+{{site.data.keyword.cloud_notm}} provides a platform where you can integrate your mobile app, cloud services, and enterprise systems of record to provide an app that interacts with your on-premises data.
+For example, you can build a mobile app to interact with your customer relationship management system that resides on-premises behind a firewall. You can invoke the system of record in a secure way and leverage the mobile services in {{site.data.keyword.cloud_notm}} so that you can build a rich mobile app.
+First, your integration developer creates the mobile back-end app in {{site.data.keyword.cloud_notm}}. They use the Mobile Cloud boilerplate that uses the Node.js runtime that they are most familiar with.
+Then, by using the Cloud Integration service in the {{site.data.keyword.cloud_notm}} user interface, they expose an API through a secure connector. Your integration developer downloads the secure connector and installs it on-premises to enable secure communication between his API and the database. After they create the database endpoint, they can look at all the schemas and extract the tables that they want to expose as APIs to the app.
+The integration developer adds the Push service to deliver mobile notifications to interested consumers. They also add a business partner service to tweet when a new customer record is created with a Twitter API.
+Next, as the application developer, you can log in to {{site.data.keyword.cloud_notm}}, download the Android development toolkit, and develop code that invokes the APIs that your integration developer created. You can develop a mobile app that enables users to enter their information on their mobile device. The mobile app then creates a customer record in the customer management system. When the record is created, the app pushes a notification to a mobile device and initiates a tweet about the new record. -->

@@ -5,7 +5,7 @@
 copyright:
 
   years: 2015, 2018
-lastupdated: "2018-09-10"
+lastupdated: "2018-10-04"
 
 
 ---
@@ -15,7 +15,7 @@ lastupdated: "2018-09-10"
 {:screen: .screen}
 {:new_window: target="_blank"}
 
-# {{site.data.keyword.Bluemix_notm}}Bedingungen und Bemerkungen
+# {{site.data.keyword.Bluemix_notm}}Nutzungsbedingungen und Bemerkungen
 {: #terms}
 
 ## {{site.data.keyword.Bluemix_notm}} - Nutzungsbedingungen
@@ -31,6 +31,7 @@ Ihr IBM Cloud-Konto und alle Services, die von IBM Cloud angefordert werden, wer
   * Servicebeschreibung für IBM Cloud, verfügbar unter [http://www-03.ibm.com/software/sla/sladb.nsf/sla/bm](http://www-03.ibm.com/software/sla/sladb.nsf/sla/bm){: new_window} ![Symbol für externen Link](../../icons/launch-glyph.svg)
   * Zusätzliche anwendbare Servicebeschreibungen für alle Services, die über Ihr IBM Cloud-Konto angefordert wurden, verfügbar unter [http://www-03.ibm.com/software/sla/sladb.nsf/sla/bm](http://www-03.ibm.com/software/sla/sladb.nsf/sla/bm){: new_window} ![Symbol für externen Link](../../icons/launch-glyph.svg)
   * Anwendbare Datenblätter, auf die in den zusätzlichen anwendbaren Servicebeschreibungen oder über den Link 'Bedingungen' für einen Service in der IBM Cloud-Benutzerschnittstelle verwiesen wird, verfügbar unter [http://www-03.ibm.com/software/sla/sladb.nsf/sla/csdsp](http://www-03.ibm.com/software/sla/sladb.nsf/sla/csdsp){: new_window} ![Symbol für externen Link](../../icons/launch-glyph.svg)
+  * Eine reservierte Kapazität bezieht sich auf einen festen, in einer Bestellung definierten Zeitraum; sie kann vor dem Ende dieses Zeitraums nicht durch den Kunden beendet werden. Eine reservierte Kapazität kann gegebenenfalls zum Ende der Laufzeit für eine Verlängerung infrage kommen, wenn dies zwischen dem Kunden SoftLayer so vereinbart wird. Reservierte Kapazitäten, die weder verlängert noch vor dem Ende der Laufzeit beendet werden, werden in monatliche Cloud-Services konvertiert und unterliegen den Bedingungen des zu diesem Zeitpunkt aktuellen Cloud Service Agreement und der entsprechenden Servicebeschreibung sowie den zu diesem Zeitpunkt aktuellen Einzelhandelspreisen.
 
 ### Lizenz für das IBM WebSphere Application Server Liberty Profile-Image
 {: #license_liberty_image}
@@ -79,7 +80,6 @@ Für die in diesem Handbuch beschriebenen Erzeugnisse und Verfahren kann es IBM 
   *2, avenue Gambetta*
   *92066 Paris La Defense*
   *France*
-
 <!-- For license inquiries regarding double-byte character set (DBCS) information, contact the IBM Intellectual Property Department in your country or send inquiries, in writing, to: -->
 
   <!-- *Intellectual Property Licensing* -->

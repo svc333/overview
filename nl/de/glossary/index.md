@@ -3,7 +3,7 @@
 
 copyright:
   years: 2016, 2018
-lastupdated: "2018-07-31"
+lastupdated: "2018-10-05"
 
 
 ---
@@ -91,6 +91,7 @@ Eine Webanwendung oder Anwendung für mobile Geräte. Siehe auch [Mobile Anwendu
 {: #x2096037}
 
 Ein Kontext, der eine Sammlung von Artefakten enthält, die von Benutzern mit entsprechender Berechtigung geändert werden können.
+
 ### Artefakt
 {: #x2262995}
 
@@ -162,7 +163,7 @@ Eine Untergruppe innerhalb einer {{site.data.keyword.cloud_notm}}-Organisation. 
 ### Bereitstellung
 {: #x2104544}
 
-Ein Prozess, durch den die Ausgabe eines Builds abgerufen, die Ausgabe mit Konfigurationseigenschafen paketiert und dieses Paket zum Testen oder Ausführen in einer vordefinierten Position installiert wird. Siehe auch [Staging](#x2067189).
+Ein Prozess, durch den die Ausgabe eines Builds abgerufen, die Ausgabe mit Konfigurationseigenschaften paketiert und dieses Paket zum Testen oder Ausführen in einer vordefinierten Position installiert wird. Siehe auch [Staging](#x2067189).
 
 ### Betaservice
 {: #x7470455}
@@ -531,7 +532,12 @@ Eine Infrastruktur, in der die Speicherung und Verarbeitung von Daten für Anwen
 ### Namensbereich
 {: #x2031005}
 
-Ein eindeutiger Name, mit dem das Image-Repository der Organisation in der {{site.data.keyword.cloud_notm}}-Registry identifiziert werden kann. Siehe auch [Image](#x2024928) und [Privates Image-Repository](#x8439215).
+Ein eindeutiger Name, mit dem das Image-Repository der Organisation im IBM Cloud-Repository identifiziert werden kann. Siehe auch [Image](#x2024928) und [Privates Image-Repository](#x8439215).
+
+### Netzadressumsetzung
+{: #x2031199}
+
+Eine Adressierungsmethode, die es ermöglicht, dass eine einzelne IP-Adresse mit mehreren anderen IP-Adressen, z. B. in einem privaten Teilnetz, über eine Referenztabelle kommuniziert. Bei der Netzadressumsetzung gibt es zwei Haupttypen: Eins-zu-eins und Viele-zu-eins.
 
 
 ## O
@@ -551,6 +557,11 @@ Eine Cloud-Computing-Umgebung, in der der Zugriff auf standardisierte Ressourcen
 {: #x9439040}
 
 Ein Eintrag, der für jeden im {{site.data.keyword.cloud_notm}}-Katalog sichtbar ist. Öffentliche Ressourcen können von jedem Anbieter (von IBM oder von anderen Anbietern) erstellt werden. Siehe auch [Private Ressource](#x9439035).
+
+### Öffentliches Gateway
+{: #x9594389}
+
+Die Verbindung eines Teilnetzes mit allen zugeordneten virtuellen Serverinstanzen zum Internet. Ein öffentliches Gateway verwendet eine Netzadressumsetzung (Network Address Translation, NAT) des Typs 'Viele-zu-eins'. Dies bedeutet, dass mehrere Tausend virtueller Serverinstanzen mit privaten Adressen eine einzelne öffentliche IP-Adresse für die Kommunikation mit dem öffentlichen Internet verwewnden können.
 
 ### On-Premise
 {: #x6969434}
@@ -767,7 +778,7 @@ Ein von einer anerkannten Zertifizierungsstelle (CA) signiertes Zertifikat. Sieh
 
 Ein Image, das eine Grundlage für andere Images darstellt. Beispiel: Ubuntu Linux ist das übergeordnete Image für das IBM Liberty-Image. Siehe auch [Basisimage](#x5366487) und [Image](#x2024928).
 
-### umfang
+### Umfang
 {: #x2037763}
 
 Im Identitätsmanagement die Gruppe von Entitäten, auf die sich eine Richtlinie oder ein ACI (Access Control Item, Zugriffssteuerungselement) auswirken kann.
@@ -872,6 +883,9 @@ Siehe [Webanwendung](#x2116500).
 
 Ein durch den Java EE-Standard definiertes, komprimiertes Dateiformat zum Speichern aller zum Installieren und Ausführen einer Webanwendung erforderlichen Ressourcen in einer einzelnen Datei.
 
+## Z
+{: #glossz}
+
 ### Zeilengruppe
 {: #x2094743}
 
@@ -887,6 +901,10 @@ Eine elektronische Nachricht, die von einer Organisation an eine Zertifizierungs
 
 Eine anerkannte Drittorganisation oder ein anerkanntes Drittunternehmen, das die digitalen Zertifikate ausgibt. Die Zertifizierungsstelle überprüft standardmäßig die Identität der Einzelpersonen, denen das eindeutige Zertifikat gewährt wird. Siehe auch [Zwischenzertifikat](#x3753781), [Secure Sockets Layer](#x2038004), [Trusted Root](#x2042234).
 
+### Zone
+{: #x2070723}
+
+Eine unabhängige Fehlerdomäne. Bei einer Zone handelt es sich um eine Abstraktion zur Unterstützung einer verbesserten Fehlertoleranz und einer reduzierten Latenz.
 ### Zugriffstoken
 {: #x2113001}
 

@@ -320,7 +320,7 @@ Liberty buildpack V3.9 提供了新的每月 Liberty 运行时版本，并包含
 ### {{site.data.keyword.cloudant_short_notm}} 的最新更新
 最新更新日期：2018 年 9 月 28 日
 
-访问以下页面可获取 {{site.data.keyword.cloudant_short_notm}} [最新更新 ![外部链接图标](../images/launch-glyph.svg "外部链接图标")](../release_info/release_notes.html#release-notes){:new_window} 的综合列表。
+访问以下页面可获取 {{site.data.keyword.cloudant_short_notm}} [最新更新](/docs/services/Cloudant/release_info/release_notes.html#release-notes){:new_window} ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标") 的综合列表。
 
 ### 推出 {{site.data.keyword.IBM_notm}} {{site.data.keyword.DRA_short}} 一般可用性
 最新更新日期：2018 年 9 月 20 日

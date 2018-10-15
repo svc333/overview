@@ -319,7 +319,7 @@ Das Liberty Buildpack v3.9 bietet eine neue monatliche Liberty-Laufzeitversion u
 ### Neueste Aktualisierungen für {{site.data.keyword.cloudant_short_notm}}
 Datum der Neuerung: 28. September 2018
 
-Auf der folgenden Seite finden Sie eine umfassende Liste der [neuesten Aktualisierungen![Symbol für externen Link](../images/launch-glyph.svg "Symbol für externen Link")](../release_info/release_notes.html#release-notes){:new_window} für {{site.data.keyword.cloudant_short_notm}}.
+Auf der folgenden Seite finden Sie eine umfassende Liste der [neuesten Aktualisierungen](/docs/services/Cloudant/release_info/release_notes.html#release-notes){:new_window} ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link") für {{site.data.keyword.cloudant_short_notm}}.
 
 ### Einführung der allgemeinen Verfügbarkeit von {{site.data.keyword.IBM_notm}} {{site.data.keyword.DRA_short}}
 Datum der Neuerung: 20. September 2018

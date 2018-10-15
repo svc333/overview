@@ -5,7 +5,7 @@
 copyright:
 
   years: 2015, 2018
-lastupdated: "2018-09-10"
+lastupdated: "2018-10-04"
 
 
 ---
@@ -31,6 +31,7 @@ lastupdated: "2018-09-10"
   * IBM Cloud 服务描述：[http://www-03.ibm.com/software/sla/sladb.nsf/sla/bm](http://www-03.ibm.com/software/sla/sladb.nsf/sla/bm){: new_window} ![外部链接图标](../../icons/launch-glyph.svg)；
   * 使用 IBM Cloud 帐户订购的任何服务的适用附加服务描述：[http://www-03.ibm.com/software/sla/sladb.nsf/sla/bm](http://www-03.ibm.com/software/sla/sladb.nsf/sla/bm){: new_window} ![外部链接图标](../../icons/launch-glyph.svg)；以及
   * 适用的附加服务描述中引用的适用数据表或通过 IBM Cloud UI 中服务的“条款”链接提供的适用数据表：[http://www-03.ibm.com/software/sla/sladb.nsf/sla/csdsp](http://www-03.ibm.com/software/sla/sladb.nsf/sla/csdsp){: new_window} ![外部链接图标](../../icons/launch-glyph.svg)。
+  * 预留容量具有订单中规定的固定期限，客户不得在该期限结束前终止预留容量。根据客户与 SoftLayer 之间的共同协议，预留容量可能有资格在期限结束时更新。在期限结束之前既未更新也未终止的预留容量将转换为每月云服务，并受制于当时最新的云服务协议和服务描述的条款以及当时最新的零售价格。
 
 ### IBM WebSphere Application Server Liberty Profile 映像许可证
 {: #license_liberty_image}

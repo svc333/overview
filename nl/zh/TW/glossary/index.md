@@ -3,7 +3,7 @@
 
 copyright:
   years: 2016, 2018
-lastupdated: "2018-07-31"
+lastupdated: "2018-10-05"
 
 
 ---
@@ -71,7 +71,6 @@ glossary, delete the text between these comment tags.
 
 ## 四劃
 {: #gloss4}
-
 ### 中繼憑證 (intermediate certificate)
 {: #x3753781}
 
@@ -101,6 +100,11 @@ glossary, delete the text between these comment tags.
 {: #x9439040}
 
 {{site.data.keyword.cloud_notm}} 型錄中每個人都能看到的項目。公用資源可由任何提供者（IBM 或協力廠商提供者）建置。另請參閱[專用資源 (private resource)](#x9439035)。
+
+### 公用閘道 (public gateway)
+{: #x9594389}
+
+子網路對網際網路的連線，並已連接所有虛擬伺服器實例。公用閘道使用多對一的網址轉換 (NAT)，這表示數以千計具有專用位址的虛擬伺服器實例，可以使用一個公用 IP 位址與公用網際網路通訊。
 
 ### 反親緣性 (anti-affinity)
 {: #x8888040}
@@ -153,8 +157,7 @@ glossary, delete the text between these comment tags.
 ### 名稱空間 (namespace)
 {: #x2031005}
 
-唯一名稱，可識別 {{site.data.keyword.cloud_notm}} 登錄內貴組織的映像檔儲存庫。另請參閱[映像檔 (image)](#x2024928)、[專用映像檔儲存庫 (private image repository)](#x8439215)。
-
+唯一名稱，可識別 IBM Cloud 登錄內貴組織的映像檔儲存庫。另請參閱[映像檔 (image)](#x2024928)、[專用映像檔儲存庫 (private image repository)](#x8439215)。
 
 ### 地區 (region)
 {: #x2091391}
@@ -295,6 +298,11 @@ Script 的集合，用於準備好程式碼以便在 {{site.data.keyword.cloud_n
 {: #x2012974}
 
 可以明確地呼叫或因回應事件而執行的程式碼 Snippet。另請參閱[資訊來源 (feed)](#x3129185)、[呼叫 (invoke)](#x2057232)。
+
+### 區域 (zone)
+{: #x2070723}
+
+獨立的錯誤網域。區域是一種抽象化，其設計是要藉由改善容錯及縮短延遲而提供協助。
 
 ### 參與系統 (system of engagement)
 {: #x6528306}
@@ -541,6 +549,12 @@ Script 的集合，用於準備好程式碼以便在 {{site.data.keyword.cloud_n
 {: #x2026820}
 
 環境中的 API 或服務的位址。API 會公開端點，同時呼叫其他服務的端點。另請參閱[路徑 (route)](#x2037338)。
+
+### 網址轉換 (network address translation)
+{: #x2031199}
+
+用來讓一個 IP 位址能藉由參考表，與數個其他 IP 位址通訊（例如專用子網路上的 IP 位址）的定址方法。網址轉換有兩種主要的類型：一對一，和多對一。
+
 
 ### 網域 (domain)
 {: #x2021210}
@@ -942,5 +956,4 @@ Java 保存檔。
 {: #x2116500}
 
 可供 Web 瀏覽器存取的應用程式，除了靜態顯示資訊，還提供一些功能，例如可讓使用者查詢資料庫。Web 應用程式的常見元件包括 HTML 頁面、JSP 頁面及 Servlet。另請參閱[應用程式 (app)](#x4281528)。
-
 
