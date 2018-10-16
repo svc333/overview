@@ -3,7 +3,7 @@
 
 copyright:
   years: 2016, 2018
-lastupdated: "2018-10-05"
+lastupdated: "2018-10-16"
 
 
 ---
@@ -14,7 +14,7 @@ lastupdated: "2018-10-05"
 # Glossary terms for {{site.data.keyword.cloud_notm}} 
 {: #glossary}
 
-This glossary provides terms and definitions for {{site.data.keyword.cloud}}.
+This glossary provides terms and definitions for {{site.data.keyword.cloud_notm}}.
 {:shortdesc}
 
 The following cross-references are used in this glossary:
@@ -50,6 +50,11 @@ glossary, delete the text between these comment tags.
 
 ## A
 {: #glossa}
+
+### access control list
+{: #x2012793}
+
+A list that statelessly manages inbound and outbound traffic for a subnet through the use of rules. An access control list helps provide security at the subnet level.
 
 ### access token
 {: #x2113001}
@@ -158,7 +163,7 @@ Pertaining to an open, non-proprietary development platform that includes public
 ### buildpack
 {: #x7233925}
 
-A collection of scripts that prepare your code to run on {{site.data.keyword.cloud_notm}}. Buildpacks examine deployed applications, then download and configure any dependent applications.
+A collection of scripts that prepare your code to run on IBM Cloud. Buildpacks examine deployed applications, then download and configure any dependent applications.
 
 
 ## C
@@ -276,7 +281,7 @@ A software methodology that integrates application development and IT operations
 ### domain
 {: #x2021210}
 
-Part of a naming hierarchy that specifies the route. For example, example.com. In {{site.data.keyword.cloud_notm}}, domains are associated with orgs. Domain objects are not directly bound to apps. See also [custom domain](#x5728384), [host](#x2002243), [organization](#x2032585), [route](#x2037338), [subdomain](#x2040080), [Uniform Resource Locator](#x2042491).
+Part of a naming hierarchy that specifies the route. For example, example.com. In IBM Cloud, domains are associated with orgs. Domain objects are not directly bound to apps. See also [custom domain](#x5728384), [host](#x2002243), [organization](#x2032585), [route](#x2037338), [subdomain](#x2040080), [Uniform Resource Locator](#x2042491).
 
 ### droplet
 {: #x7470343}
@@ -319,12 +324,17 @@ A piece of code that configures an external event source to fire trigger events.
 ### file share
 {: #x2022902}
 
-In the {{site.data.keyword.cloud_notm}} environment, a persistent storage system where users store and share files. In IBM Containers, users can mount Docker volumes on file shares.
+In the IBM cloud environment, a persistent storage system where users store and share files. In IBM Containers, users can mount Docker volumes on file shares.
 
 ### fire
 {: #x2239904}
 
 To activate a trigger.
+
+### floating IP address
+{: #x6326428}
+
+A public, routable IP address that makes use of 1-to-1 network address translation (NAT) so that a server can communicate with the public internet and private subnet within a cloud environment. Floating IP addresses are associated to an instance, for example, a virtual server instance, a load balancer, or a VPN gateway, by means of a virtual network interface card (vNIC).
 
 ### framework
 {: #x2023472}
@@ -398,7 +408,7 @@ See [infrastructure as a service](#x4585332).
 
 See [identity and access management](#x7547040).
 
-### {{site.data.keyword.cloud_notm}}
+### IBM Cloud
 {: #x7301758}
 
 An open-standards, cloud-based platform for building, managing, and running apps of all types, such as web, mobile, big data, and smart devices. Capabilities include Java, mobile back-end development, and application monitoring, as well as features from ecosystem partners and open source&mdash;all provided as-a-service in the cloud.
@@ -561,7 +571,7 @@ See [organization](#x2032585).
 ### organization (org)
 {: #x2032585}
 
-The grouping methodology for users in {{site.data.keyword.cloud_notm}}. Orgs are used to manage quotas. Users in an org share memory and service instance quotas. See also [domain](#x2021210), [space](#x2039442).
+The grouping methodology for users in IBM Cloud. Orgs are used to manage quotas. Users in an org share memory and service instance quotas. See also [domain](#x2021210), [space](#x2039442).
 
 
 ## P
@@ -590,7 +600,7 @@ A cloud computing environment in which access is limited to members of an enterp
 ### private image repository
 {: #x8439215}
 
-The combination of an organization's {{site.data.keyword.cloud_notm}} registry and its namespace. The private image repository is used when referencing an image in a command. See also [image](#x2024928), [namespace](#x2031005).
+The combination of an organization's IBM Cloud registry and its namespace. The private image repository is used when referencing an image in a command. See also [image](#x2024928), [namespace](#x2031005).
 
 ### private key
 {: #x2034701}
@@ -605,7 +615,7 @@ An entry that is visible only to account owners and their included accounts. Whe
 ### private service
 {: #x7690456}
 
-A service that is visible only to members of a specified {{site.data.keyword.cloud_notm}} organization.
+A service that is visible only to members of a specified IBM Cloud organization.
 
 ### public cloud
 {: #x4585370}
@@ -620,7 +630,7 @@ The connection of a subnet, with all virtual server instances attached, to the i
 ### public resource
 {: #x9439040}
 
-An entry that is visible to everyone in the {{site.data.keyword.cloud_notm}} catalog. Public resources can be built by any provider (IBM or third party providers). See also [private resource](#x9439035).
+An entry that is visible to everyone in the IBM Cloud catalog. Public resources can be built by any provider (IBM or third party providers). See also [private resource](#x9439035).
 
 ### push
 {: #x2035465}
@@ -679,7 +689,7 @@ See [Representational State Transfer](#x3220976).
 ### route
 {: #x2037338}
 
-The URL used to direct requests to an application. A route is made up of an optional host (or subdomain) and a domain that are specified when an application is pushed. For example, in the route myapp.example.com, myapp is the host and example.com is the domain. A route can be associated with one or more applications. Unless a custom domain is specified, {{site.data.keyword.cloud_notm}} uses a default shared domain in the route to your application. See also [custom domain](#x5728384), [domain](#x2021210), [endpoint](#x2026820), [host](#x2002243), [subdomain](#x2040080), [Uniform Resource Locator](#x2042491).
+The URL used to direct requests to an application. A route is made up of an optional host (or subdomain) and a domain that are specified when an application is pushed. For example, in the route myapp.example.com, myapp is the host and example.com is the domain. A route can be associated with one or more applications. Unless a custom domain is specified, IBM Cloud uses a default shared domain in the route to your application. See also [custom domain](#x5728384), [domain](#x2021210), [endpoint](#x2026820), [host](#x2002243), [subdomain](#x2040080), [Uniform Resource Locator](#x2042491).
 
 ### rule
 {: #x2037526}
@@ -744,7 +754,7 @@ See [system of record](#x6735061).
 ### space
 {: #x2039442}
 
-A sub-group within an {{site.data.keyword.cloud_notm}} org. Users who are members of an org are given access to one or more of its spaces, with permissions associated with a particular role (such as developer, manager, or auditor). Any member of the space can view apps, but only members with the developer role can create apps and add service instances to the space. Apps and service instances are associated with spaces. See also [organization](#x2032585).
+A sub-group within an IBM Cloud org. Users who are members of an org are given access to one or more of its spaces, with permissions associated with a particular role (such as developer, manager, or auditor). Any member of the space can view apps, but only members with the developer role can create apps and add service instances to the space. Apps and service instances are associated with spaces. See also [organization](#x2032585).
 
 ### SSL
 {: #x2483907}
@@ -775,6 +785,16 @@ A template that includes predefined services and application code that is config
 {: #x2040080}
 
 A domain that makes up a part of a larger domain. See also [custom domain](#x5728384), [domain](#x2021210), [host](#x2002243), [route](#x2037338), [Uniform Resource Locator](#x2042491).
+
+### subnet
+{: #x4282974}
+
+See [subnetwork](#x2040149).
+
+### subnetwork (subnet)
+{: #x2040149}
+
+A network that is divided into smaller independent subgroups, which still are interconnected.
 
 ### system of engagement
 {: #x6528306}
