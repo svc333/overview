@@ -3,7 +3,7 @@
 
 copyright:
   years: 2016, 2018
-lastupdated: "2018-07-31"
+lastupdated: "2018-10-05"
 
 
 ---
@@ -562,7 +562,12 @@ Un'infrastruttura in cui l'archiviazione e l'elaborazione dei dati per le applic
 ### spazio dei nomi
 {: #x2031005}
 
-Un nome univoco che identifica il repository di immagini della tua organizzazione nel registro {{site.data.keyword.cloud_notm}}. Vedi anche [immagine](#x2024928), [repository di immagini privato](#x8439215).
+Un nome univoco che identifica il repository di immagini della tua organizzazione nel registro IBM Cloud. Vedi anche [immagine](#x2024928), [repository di immagini privato](#x8439215).
+
+### NAT (Network Address Translation)
+{: #x2031199}
+
+Un metodo di indirizzamento utilizzato per abilitare un indirizzo IP a comunicare con molti altri indirizzi IP, come quelli su una sottorete privata tramite una tabella di ricerca. NAT (Network address translation) ha due tipi principali: 1-to-1 e many-to-1.
 
 
 ## O
@@ -643,6 +648,11 @@ Un servizio visibile solo ai membri di una specifica organizzazione {{site.data.
 {: #x4585370}
 
 Un ambiente di elaborazione cloud in cui l'accesso a risorse standardizzate, quali l'infrastruttura, l'hardware a più tenant e i servizi, è disponibile ai sottoscrittori in base a un criterio di pagamento basato sull'utilizzo. Vedi anche [illimitato](#x8439189), [cloud privato](#x4585362).
+
+### gateway pubblico
+{: #x9594389}
+
+La connessione di una sottorete, con tutte le istanze del server virtuale collegate, a internet. Un gateway pubblico utilizza una NAT (network address translation) many-to-1, il che significa che migliaia di istanze del server virtuale con indirizzi privati possono utilizzare un indirizzo IP pubblico per comunicare pubblicamente su internet.
 
 ### risorsa pubblica
 {: #x9439040}
@@ -957,3 +967,11 @@ Un formato file compresso, definito dallo standard Java EE, per la memorizzazion
 {: #x2096037}
 
 Un contesto che contiene una raccolta di risorse utente che possono essere modificate da un utente con autorizzazioni appropriate.
+
+## Z
+{: #glossz}
+
+### zona
+{: #x2070723}
+
+Un dominio di errore indipendente. Una zona è un'astrazione concepita per aiutare con una tolleranza di errore migliorata e una riduzione della latenza.

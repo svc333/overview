@@ -108,9 +108,9 @@ Vous devez sauvegarder toutes les données persistantes dans un magasin de donn�
 
 L'ensemble de l'infrastructure {{site.data.keyword.cloud_notm}}, les composants Cloud Foundry et les composants de gestion propres à {{site.data.keyword.cloud_notm}} sont hautement disponibles. Plusieurs instances de l'infrastructure sont utilisées pour équilibrer la charge.
 
+
 ## Intégration avec les systèmes d'enregistrement
 {: #sor}
-
 {{site.data.keyword.cloud_notm}} peut aider les développeurs en connectant deux grandes catégories de systèmes dans un environnement de cloud :
 
 * Les *systèmes d'enregistrement* incluent les applications et les bases de données qui stockent des enregistrements métier et automatisent des processus standardisés.
@@ -123,36 +123,19 @@ En intégrant un système d'enregistrement à l'application que vous créez dans
  * Créer des API à partir des flux d'intégration avec les bases de données et les systèmes de back end, par exemple, un système de gestion de la relation client.
  * Exposer uniquement les schémas et les tables de votre choix à l'application.
  * En tant que responsable d'organisation {{site.data.keyword.cloud_notm}}, publier une interface de programme d'application sous forme de service privé, visible uniquement des membres de votre organisation.
-
-Utiliser le service Cloud Integration pour intégrer un système d'enregistrement à l'application que vous créez dans {{site.data.keyword.cloud_notm}}. Le service Cloud Integration permet de créer et de publier une API Cloud Integration en tant que service privé pour votre organisation.
-
+ 
+<!-- To integrate a system of record with the app that you create in {{site.data.keyword.cloud_notm}}, use the Cloud Integration service. By using the Cloud Integration service, you can create a Cloud Integration API and publish the API as a private service for your organization.
 <dl>
-<dt>API Cloud Integration</dt>
-    <dd>Une API Cloud Integration fournit un accès sécurisé aux systèmes d'enregistrement résidant derrière un pare-feu via des API Web. Lorsque vous créez l'API Cloud Integration, vous choisissez la ressource à laquelle vous voulez accéder via l'API Web, spécifiez les opérations qui sont autorisées et incluez les logiciels SDK et les exemples pour accéder à l'API. Pour plus d'informations sur la création d'une API Cloud Integration, voir [Initiation à Cloud Integration](/docs/services/CloudIntegration/CldInt_GetStart.html).</dd>
-<dt>Service privé</dt>
-    <dd>Un service privé est composé d'une API Cloud Integration, de logiciels SDK et de règles de droits. Le service privé peut également contenir de la
-documentation ou d'autres éléments appartenant au fournisseur de services. Seul le responsable de l'organisation peut publier une API Cloud Integration en tant que service privé. Pour connaître les services privés à votre
-disposition, cochez la case Privé dans le catalogue {{site.data.keyword.cloud_notm}}. Vous pouvez sélectionner et lier un service privé à une application sans vous connecter au service Cloud Integration. Pour lier un service privé à votre
-application, procédez de la même façon que pour les services {{site.data.keyword.cloud_notm}}. Pour des informations sur la publication d'une API en tant que service privé, voir Publication d'une API en tant que service privé.</dd>
+<dt>Cloud Integration API</dt>
+    <dd>A Cloud Integration API provides secured access to the systems of record that reside behind a firewall through web APIs. When you create the Cloud Integration API, you choose the resource that you want to access through the web API, specify the operations that are permitted, and include SDKs and samples to access the API. For more information about how to create a Cloud Integration API, see [Getting started with Cloud Integration](/docs/services/CloudIntegration/CldInt_GetStart.html).</dd>
+<dt>Private service</dt>
+    <dd>A private service consists of a Cloud Integration API, SDKs, and entitlement policies. The private service might also  contain documentation or other items from the service provider. Only the organization manager can publish a Cloud Integration API as a private service. To see the private services that are available to you, select the Private checkbox in the {{site.data.keyword.cloud_notm}} catalog. You can select and bind a private service to an app without connecting to the Cloud Integration service. You bind private services to your app in the same way as you do for other {{site.data.keyword.cloud_notm}} services. For information about how to publish an API as a private service, see Publishing an API as a private service.</dd>
 </dl>
-
-### Scénario : Création d'une application mobile riche pour la connexion avec votre système d'enregistrement
+### Scenario: Creating a rich mobile app to connect with your system of record
 {: #scenario}
-
-{{site.data.keyword.cloud_notm}} fournit une plateforme dans laquelle vous pouvez intégrer votre application mobile, des services de cloud et
-des
-systèmes d'entreprise d'enregistrement pour générer une application qui interagit avec vos données sur site.
-
-Par exemple, vous pouvez concevoir une application mobile pour interagir avec votre système de gestion de la relation client résidant sur site, derrière un pare-feu. Vous pouvez appeler le système d'enregistrement de manière sécurisée et optimiser les services mobiles dans {{site.data.keyword.cloud_notm}} afin
-de générer une application mobile riche.
-
-Tout d'abord, votre développeur d'intégration crée l'application de back end mobile dans {{site.data.keyword.cloud_notm}}. Il fait appel au
-conteneur boilerplate Mobile Cloud utilisant le contexte d'exécution Node.js qu'il connaît le mieux.
-
-Puis, en utilisant le service Cloud Integration dans l'interface utilisateur {{site.data.keyword.cloud_notm}}, il expose une API via un
-connecteur sécurisé. Le développeur d'application télécharge le connecteur sécurisé et l'installe sur site, afin d'activer la communication sécurisée entre son  interface de programme d'application et la base de données. Après avoir créé le noeud final de base de données, il peut consulter tous les schémas et extraire les tables qu'il veut exposer à l'application en tant qu'API pour l'application.
-
-Il ajoute ensuite le service Push pour distribuer des notifications mobiles aux clients intéressés. Il ajoute également un service de partenaire
-commercial pour écrire un tweet lorsqu'un nouvel enregistrement client est créé avec une interface de programme d'application Twitter.
-
-En tant que développeur d'application, vous pouvez ensuite vous connecter à {{site.data.keyword.cloud_notm}}, télécharger le kit d'outils de développement Android et développer le code appelant les interfaces de programme d'application créées par le développeur d'intégration. Vous pouvez développer une application mobile qui permet aux utilisateurs d'entrer des informations sur leur périphérique mobile. Cette application crée alors un enregistrement client dans le système de gestion client. Lorsque l'enregistrement est créé, l'application crée une notification push pour périphérique mobile et un tweet pour signaler le nouvel enregistrement.
+{{site.data.keyword.cloud_notm}} provides a platform where you can integrate your mobile app, cloud services, and enterprise systems of record to provide an app that interacts with your on-premises data.
+For example, you can build a mobile app to interact with your customer relationship management system that resides on-premises behind a firewall. You can invoke the system of record in a secure way and leverage the mobile services in {{site.data.keyword.cloud_notm}} so that you can build a rich mobile app.
+First, your integration developer creates the mobile back-end app in {{site.data.keyword.cloud_notm}}. They use the Mobile Cloud boilerplate that uses the Node.js runtime that they are most familiar with.
+Then, by using the Cloud Integration service in the {{site.data.keyword.cloud_notm}} user interface, they expose an API through a secure connector. Your integration developer downloads the secure connector and installs it on-premises to enable secure communication between his API and the database. After they create the database endpoint, they can look at all the schemas and extract the tables that they want to expose as APIs to the app.
+The integration developer adds the Push service to deliver mobile notifications to interested consumers. They also add a business partner service to tweet when a new customer record is created with a Twitter API.
+Next, as the application developer, you can log in to {{site.data.keyword.cloud_notm}}, download the Android development toolkit, and develop code that invokes the APIs that your integration developer created. You can develop a mobile app that enables users to enter their information on their mobile device. The mobile app then creates a customer record in the customer management system. When the record is created, the app pushes a notification to a mobile device and initiates a tweet about the new record. -->

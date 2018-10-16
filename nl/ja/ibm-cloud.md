@@ -112,9 +112,9 @@ ibmcloud api https://api.eu-gb.bluemix.net
 
 すべての {{site.data.keyword.cloud_notm}} インフラストラクチャー、Cloud Foundry コンポーネント、および {{site.data.keyword.cloud_notm}} 固有の管理コンポーネントが高い可用性を持っています。 インフラストラクチャーの複数インスタンスを使用して、負荷のバランスが保たれます。
 
+
 ## SoR との統合
 {: #sor}
-
 {{site.data.keyword.cloud_notm}} は、クラウド環境内にある、以下の 2 つの広範なカテゴリーのシステムを接続することで、開発者を支援できます。
 
 * *SoR* にはビジネス・レコードを保管するアプリとデータベースが含まれており、標準化されたプロセスを自動化します。
@@ -128,27 +128,19 @@ ibmcloud api https://api.eu-gb.bluemix.net
  * アプリに対して公開したいスキーマおよびテーブルのみを公開する。
  * {{site.data.keyword.cloud_notm}} 組織管理者として、
 自分の組織メンバーのみに表示されるプライベート・サービスとして API を公開する。
-
-SoRを {{site.data.keyword.cloud_notm}} で作成するアプリと統合するには、Cloud Integration サービスを使用します。 Cloud Integration サービスを使用すれば、Cloud Integration API を作成し、その API を組織のプライベート・サービスとして公開できます。
-
+ 
+<!-- To integrate a system of record with the app that you create in {{site.data.keyword.cloud_notm}}, use the Cloud Integration service. By using the Cloud Integration service, you can create a Cloud Integration API and publish the API as a private service for your organization.
 <dl>
 <dt>Cloud Integration API</dt>
-    <dd>Cloud Integration API により、Web API を通してファイアウォールの後ろにある SoR への保護されたアクセスが提供されます。 Cloud Integration API を作成する際には、Web API を通してアクセスしたいリソースを選択し、許可されたオペレーションを指定し、API にアクセスするための SDK とサンプルを組み込みます。 Cloud Integration API の作成方法について詳しくは、『[Cloud Integration の概説](/docs/services/CloudIntegration/CldInt_GetStart.html)』を参照してください。</dd>
-<dt>プライベート・サービス</dt>
-    <dd>プライベート・サービスは、 Cloud Integration API、SDK、およびライセンス・ポリシーから構成されます。 また、サービス・プロバイダーからのドキュメンテーションや他の項目がプライベート・サービスに含まれる場合もあります。 Cloud Integration API をプライベート・サービスとして公開できるのは、組織管理者のみです。 自分が利用できるプライベート・サービスを表示するには、{{site.data.keyword.cloud_notm}} カタログで「プライベート (Private)」チェック・ボックスを選択します。 Cloud Integration サービスに接続せずに、プライベート・サービスを選択してアプリにバインドすることができます。 プライベート・サービスのアプリへのバインドは、他の {{site.data.keyword.cloud_notm}} サービスの場合と同じ方法で行います。 プライベート・サービスとして API を公開する方法については、プライベート・サービスとしての API の公開を参照してください。</dd>
+    <dd>A Cloud Integration API provides secured access to the systems of record that reside behind a firewall through web APIs. When you create the Cloud Integration API, you choose the resource that you want to access through the web API, specify the operations that are permitted, and include SDKs and samples to access the API. For more information about how to create a Cloud Integration API, see [Getting started with Cloud Integration](/docs/services/CloudIntegration/CldInt_GetStart.html).</dd>
+<dt>Private service</dt>
+    <dd>A private service consists of a Cloud Integration API, SDKs, and entitlement policies. The private service might also  contain documentation or other items from the service provider. Only the organization manager can publish a Cloud Integration API as a private service. To see the private services that are available to you, select the Private checkbox in the {{site.data.keyword.cloud_notm}} catalog. You can select and bind a private service to an app without connecting to the Cloud Integration service. You bind private services to your app in the same way as you do for other {{site.data.keyword.cloud_notm}} services. For information about how to publish an API as a private service, see Publishing an API as a private service.</dd>
 </dl>
-
-### シナリオ: SoR と接続するための機能豊富なモバイル・アプリを作成する
+### Scenario: Creating a rich mobile app to connect with your system of record
 {: #scenario}
-
-{{site.data.keyword.cloud_notm}} は、オンプレミス・データをやりとりするアプリを提供するために、モバイル・アプリ、クラウド・サービス、およびエンタープライズ SoR を統合できるプラットフォームを提供します。
-
-例えば、ファイアウォールの背後のオンプレミスに存在するカスタマー・リレーションシップ・マネジメント・システムと対話するモバイル・アプリを作成することができます。 ユーザーは、機能豊富なモバイル・アプリを作成できるように、SoR をセキュアな方法で呼び出して、{{site.data.keyword.cloud_notm}} のモバイル・サービスを活用することができます。
-
-まず、統合開発者が、モバイル・バックエンド・アプリを {{site.data.keyword.cloud_notm}} で作成します。 自分が一番熟知している Node.js ランタイムを使用するモバイル・クラウド・ボイラープレートを使用します。
-
-次に、{{site.data.keyword.cloud_notm}} ユーザー・インターフェース内で Cloud Integration サービスを使用し、セキュア・コネクターを介して API を公開します。 統合開発者はセキュア・コネクターをダウンロードし、オンプレミスにインストールして、API とデータベースとの間のセキュアな通信を可能にします。 データベース・エンドポイントの作成後、すべてのスキーマを調べて、API としてアプリに公開するテーブルを抽出することができます。
-
-統合開発者は、関心のある利用者にモバイル通知を送信するために  プッシュ・サービスを追加します。 また、Twitter API で新規顧客のレコードが作成された際にツイートするために、ビジネス・パートナー・サービスも追加します。
-
-次に、アプリケーション開発者が {{site.data.keyword.cloud_notm}} にログインし、Android 開発ツールキットをダウンロードして、統合開発者が作成した API を呼び出すコードを作成します。 ユーザーが自分のモバイル・デバイスに情報を入力できるようにするモバイル・アプリを開発できます。 その後、そのモバイル・アプリは顧客管理システムで顧客のレコードを作成します。 レコードの作成時に、アプリはモバイル・デバイスに対して通知をプッシュし、その新規レコードに関するツイートを開始します。
+{{site.data.keyword.cloud_notm}} provides a platform where you can integrate your mobile app, cloud services, and enterprise systems of record to provide an app that interacts with your on-premises data.
+For example, you can build a mobile app to interact with your customer relationship management system that resides on-premises behind a firewall. You can invoke the system of record in a secure way and leverage the mobile services in {{site.data.keyword.cloud_notm}} so that you can build a rich mobile app.
+First, your integration developer creates the mobile back-end app in {{site.data.keyword.cloud_notm}}. They use the Mobile Cloud boilerplate that uses the Node.js runtime that they are most familiar with.
+Then, by using the Cloud Integration service in the {{site.data.keyword.cloud_notm}} user interface, they expose an API through a secure connector. Your integration developer downloads the secure connector and installs it on-premises to enable secure communication between his API and the database. After they create the database endpoint, they can look at all the schemas and extract the tables that they want to expose as APIs to the app.
+The integration developer adds the Push service to deliver mobile notifications to interested consumers. They also add a business partner service to tweet when a new customer record is created with a Twitter API.
+Next, as the application developer, you can log in to {{site.data.keyword.cloud_notm}}, download the Android development toolkit, and develop code that invokes the APIs that your integration developer created. You can develop a mobile app that enables users to enter their information on their mobile device. The mobile app then creates a customer record in the customer management system. When the record is created, the app pushes a notification to a mobile device and initiates a tweet about the new record. -->

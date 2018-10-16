@@ -27,7 +27,7 @@ lastupdated: "2018-06-14"
 {{site.data.keyword.IBM_notm}}를 사용하면 다음을 수행할 수 있습니다.
 
 * 전세계의 보안 {{site.data.keyword.CloudDataCents_notm}}에서 고성능 컴퓨팅 및 스토리지 인프라를 배치합니다.
-* {{site.data.keyword.IBM_notm}}, 오픈 소스 커뮤니티 및 써드파티 개발자로부터 광범위한 클라우드 서비스 및 기능을 테스트하고 채택합니다.
+* {{site.data.keyword.IBM_notm}}, 오픈 소스 커뮤니티 및 서드파티 개발자로부터 광범위한 클라우드 서비스 및 기능을 테스트하고 채택합니다.
 * 사설 네트워크 및 API 기능을 통해 단일, 확장, 클라우드 플랫폼에서 모든 레거시 시스템 및 앱에 연결합니다.
 * 비즈니스 또는 워크로드 요구사항이 변화하는 데 따라 실시간으로 리소스를 강화하거나 약화시킬 수 있습니다.
 
@@ -48,7 +48,7 @@ lastupdated: "2018-06-14"
 ## 서비스
 {: #bluemixoverviewservices}
 
-대시보드는 {{site.data.keyword.IBM}} 및 써드파티 제공업체에서 사용 가능한 {{site.data.keyword.cloud_notm}} 서비스에 대한 액세스를 제공합니다. Watson, Internet of Things, Analytics, Mobile 및 DevOps 서비스가 여기에 해당됩니다.
+대시보드는 {{site.data.keyword.IBM}} 및 서드파티 제공업체에서 사용 가능한 {{site.data.keyword.cloud_notm}} 서비스에 대한 액세스를 제공합니다. Watson, Internet of Things, Analytics, Mobile 및 DevOps 서비스가 여기에 해당됩니다.
 
 * {{site.data.keyword.IBM_notm}} DevOps 서비스 및 IBM Cloud Garage Method를 사용하여 최적의 기능이 포함된 혁신적인 새 애플리케이션을 더 빠르고 저렴하게 제공합니다. DevOps 사례를 채택하고 혁신과 민첩성이 요구되는 문화를 조성하는 경우 반복적으로 시행하여 시장 상황에 따라 방향을 바꿀 수 있습니다.
 * Blockchain은 비즈니스 프로세스를 간소화하면서 신뢰, 책임 및 투명성을 확립하는 차세대 트랜잭션 애플리케이션을 위한 피어 투 피어 분산 원장 기술입니다.  
@@ -109,9 +109,9 @@ ibmcloud api https://api.eu-gb.bluemix.net
 
 모든 {{site.data.keyword.cloud_notm}} 인프라, Cloud Foundry 컴포넌트 및 {{site.data.keyword.cloud_notm}} 특정 관리 컴포넌트는 가용성이 높습니다. 인프라의 여러 인스턴스는 로드의 균형을 유지하는 데 사용됩니다.
 
+
 ## SOR(System of Record)과 통합
 {: #sor}
-
 {{site.data.keyword.cloud_notm}}는 클라우드 환경의 두 가지 광범위한 시스템 카테고리를 연결함으로써 개발자를 지원할 수 있습니다.
 
 * *SOR(System of Record)*에는 비즈니스 레코드를 저장하고 표준화된 프로세스를 자동화하는 앱 및 데이터베이스가 포함됩니다.
@@ -124,27 +124,19 @@ ibmcloud api https://api.eu-gb.bluemix.net
  * 고객 관계 관리 시스템과 같은 데이터베이스와 백엔드 시스템이 있는 통합 플로우에서 API를 작성합니다.
  * 앱에 노출할 스키마 및 테이블만 노출합니다.
  * {{site.data.keyword.cloud_notm}} 조직 관리자로서 조직 구성원에게만 표시되는 개인 서비스로 API를 공개합니다.
-
-{{site.data.keyword.cloud_notm}}에서 작성한 앱과 SOR(System of Record)을 통합하려면 클라우드 통합 서비스를 사용합니다. 클라우드 통합 서비스를 사용하여 Cloud Integration API를 작성하고 API를 조직의 개인 서비스로 공개할 수 있습니다.
-
+ 
+<!-- To integrate a system of record with the app that you create in {{site.data.keyword.cloud_notm}}, use the Cloud Integration service. By using the Cloud Integration service, you can create a Cloud Integration API and publish the API as a private service for your organization.
 <dl>
 <dt>Cloud Integration API</dt>
-    <dd>Cloud Integration API는 웹 API를 통해 방화벽 뒤에 있는 SOR(System of Record)에 대한 보안 액세스를 제공합니다. Cloud Integration API를 작성할 때 웹 API를 통해 액세스하려는 리소스를 선택하고 허용되는 오퍼레이션을 지정하고 API에 액세스하기 위해 SDK와 샘플을 포함합니다. Cloud Integration API 작성 방법에 대한 자세한 정보는 [클라우드 통합 시작하기](/docs/services/CloudIntegration/CldInt_GetStart.html)를 참조하십시오.</dd>
-<dt>개인 서비스</dt>
-    <dd>개인 서비스는 Cloud Integration API, SDK 및 자격부여 정책으로 구성됩니다. 개인 서비스에는 서비스 제공업체가 제공하는 문서 또는 기타 항목도 포함될 수 있습니다. 조직 관리자만 Cloud Integration API를 개인 서비스로 공개할 수 있습니다. 사용자에게 제공되는 개인 서비스를 보려면 {{site.data.keyword.cloud_notm}} 카탈로그에서 개인 선택란을 선택하십시오. 클라우드 통합 서비스에 연결하지 않고 개인 서비스를 선택하고 앱에 바인딩할 수 있습니다. 다른 {{site.data.keyword.cloud_notm}} 서비스에서와 동일한 방식으로 개인 서비스를 앱에 바인딩합니다. API를 개인 서비스로 공개하는 방법에 대한 자세한 정보는 API를 개인 서비스로 공개를 참조하십시오.</dd>
+    <dd>A Cloud Integration API provides secured access to the systems of record that reside behind a firewall through web APIs. When you create the Cloud Integration API, you choose the resource that you want to access through the web API, specify the operations that are permitted, and include SDKs and samples to access the API. For more information about how to create a Cloud Integration API, see [Getting started with Cloud Integration](/docs/services/CloudIntegration/CldInt_GetStart.html).</dd>
+<dt>Private service</dt>
+    <dd>A private service consists of a Cloud Integration API, SDKs, and entitlement policies. The private service might also  contain documentation or other items from the service provider. Only the organization manager can publish a Cloud Integration API as a private service. To see the private services that are available to you, select the Private checkbox in the {{site.data.keyword.cloud_notm}} catalog. You can select and bind a private service to an app without connecting to the Cloud Integration service. You bind private services to your app in the same way as you do for other {{site.data.keyword.cloud_notm}} services. For information about how to publish an API as a private service, see Publishing an API as a private service.</dd>
 </dl>
-
-### 시나리오: SOR(System of Record)에 연결할 RMA(Rich Mobile Application) 작성
+### Scenario: Creating a rich mobile app to connect with your system of record
 {: #scenario}
-
-{{site.data.keyword.cloud_notm}}는 온프레미스 데이터와 상호 작용하는 앱을 제공하기 위해 엔터프라이즈 SOR(System of Record), 모바일 앱 및 클라우드 서비스를 통합할 수 있는 플랫폼을 제공합니다.
-
-예를 들어, 방화벽 뒤의 온프레미스에 있는 고객 관계 관리 시스템과 상호 작용하는 모바일 앱을 빌드할 수 있습니다. SOR(System of Record)을 안전한 방식으로 호출하고 RMA(Rich Mobile Application)를 빌드할 수 있도록 {{site.data.keyword.cloud_notm}}에서 모바일 서비스를 활용할 수 있습니다.
-
-먼저 통합 개발자가 {{site.data.keyword.cloud_notm}}에서 모바일 백엔드 앱을 작성합니다. 가장 친숙한 Node.js 런타임을 사용하는 모바일 클라우드 표준 유형을 사용합니다.
-
-그런 다음 {{site.data.keyword.cloud_notm}} 사용자 인터페이스에서 클라우드 통합 서비스를 사용하여 보안 커넥터를 통해 API를 노출합니다. 통합 개발자는 보안 커넥터를 다운로드하고 이를 온프레미스로 설치하여 API와 데이터베이스 사이의 보안 통신을 지원합니다. 데이터베이스 엔드포인트를 작성한 후 모든 스키마를 보고 앱에 API로 노출할 테이블을 추출할 수 있습니다.
-
-통합 개발자는 푸시 서비스를 추가하여 모바일 알림을 관심 있는 이용자에게 제공합니다. 또한 새 고객 레코드가 Twitter API를 사용하여 작성된 경우 비즈니스 파트너 서비스도 트윗에 추가합니다.
-
-그런 다음 애플리케이션 개발자가 {{site.data.keyword.cloud_notm}}에 로그인하고 Android 개발 툴킷을 다운로드하고 통합 개발자가 작성한 API를 호출하는 코드를 개발할 수 있습니다. 사용자가 모바일 디바이스에 관련 정보를 입력할 수 있는 모바일 앱을 개발할 수 있습니다. 그런 다음 모바일 앱이 고객 관리 시스템에서 고객 레코드를 작성합니다. 레코드가 작성되면 앱이 알림을 모바일 디바이스로 푸시하고 새 레코드에 대해 트윗을 시작합니다.
+{{site.data.keyword.cloud_notm}} provides a platform where you can integrate your mobile app, cloud services, and enterprise systems of record to provide an app that interacts with your on-premises data.
+For example, you can build a mobile app to interact with your customer relationship management system that resides on-premises behind a firewall. You can invoke the system of record in a secure way and leverage the mobile services in {{site.data.keyword.cloud_notm}} so that you can build a rich mobile app.
+First, your integration developer creates the mobile back-end app in {{site.data.keyword.cloud_notm}}. They use the Mobile Cloud boilerplate that uses the Node.js runtime that they are most familiar with.
+Then, by using the Cloud Integration service in the {{site.data.keyword.cloud_notm}} user interface, they expose an API through a secure connector. Your integration developer downloads the secure connector and installs it on-premises to enable secure communication between his API and the database. After they create the database endpoint, they can look at all the schemas and extract the tables that they want to expose as APIs to the app.
+The integration developer adds the Push service to deliver mobile notifications to interested consumers. They also add a business partner service to tweet when a new customer record is created with a Twitter API.
+Next, as the application developer, you can log in to {{site.data.keyword.cloud_notm}}, download the Android development toolkit, and develop code that invokes the APIs that your integration developer created. You can develop a mobile app that enables users to enter their information on their mobile device. The mobile app then creates a customer record in the customer management system. When the record is created, the app pushes a notification to a mobile device and initiates a tweet about the new record. -->

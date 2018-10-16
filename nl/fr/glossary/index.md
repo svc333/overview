@@ -3,7 +3,7 @@
 
 copyright:
   years: 2016, 2018
-lastupdated: "2018-07-31"
+lastupdated: "2018-10-05"
 
 
 ---
@@ -251,6 +251,11 @@ Construction système qui permet aux utilisateurs d'exécuter simultanément des
 
 Modèle qui inclut une application, son environnement d'exécution et ses services prédéfinis associés, pour un domaine particulier.
 
+### conversion d'adresses réseau
+{: #x2031199}
+
+Méthode d'adressage utilisée pour activer une adresse IP afin qu'elle puisse communiquer avec plusieurs autres (par exemple, celles se trouvant sur un sous-réseau privé) via une table de correspondance. 2 principaux types de conversion d'adresses réseau existent : 1 adresse vers 1 adresse et plusieurs adresses vers 1 adresse.
+
 ### couche
 {: #x2028320}
 
@@ -351,7 +356,7 @@ Sous-groupe dans une organisation {{site.data.keyword.cloud_notm}}. Les membres 
 ### espace de nom
 {: #x2031005}
 
-Nom unique qui identifie le référentiel d'images de votre organisation dans le registre {{site.data.keyword.cloud_notm}}. Voir aussi [image](#x2024928), [référentiel d'images privé](#x8439215).
+Nom unique qui identifie le référentiel d'images de votre organisation dans le registre IBM Cloud. Voir aussi [image](#x2024928), [référentiel d'images privé](#x8439215).
 
 ### espace de travail
 {: #x2096037}
@@ -644,6 +649,11 @@ Collection de scripts permettant de préparer le code à une exécution sur {{si
 
 Dans l'environnement {{site.data.keyword.cloud_notm}}, système de stockage de persistance où les utilisateurs stockent et partagent des fichiers. Dans IBM Containers, les utilisateurs peuvent monter des volumes Docker sur des partages de fichiers.
 
+### passerelle publique
+{: #x9594389}
+
+Connexion d'un sous-réseau, y compris de toutes les instances de serveur virtuel associées, à l'Internet. Une passerelle publique utilise une conversion d'adresses réseau de type plusieurs adresses vers 1 adresse, ce qui signifie que des milliers d'instances de serveur virtuel possédant des adresses privées peuvent utiliser une adresse IP publique pour communiquer avec l'Internet public.
+
 ### plateforme sous forme de services (PaaS)
 {: #x2029786}
 
@@ -890,6 +900,11 @@ Voir [fichier d'archive Web](#x2116506).
 
 ## Z
 {: #glossz}
+
+### zone
+{: #x2070723}
+
+Domaine de faute indépendant. Une zone est une abstraction conçue pour aider grâce à une tolérance aux pannes améliorée et des temps d'attente réduits.
 
 ### zone de disponibilité
 {: #x7018171}

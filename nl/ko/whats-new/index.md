@@ -319,7 +319,7 @@ Liberty 빌드팩 v3.9는 새 월별 Liberty 런타임 버전을 제공하고 �
 ### {{site.data.keyword.cloudant_short_notm}}의 최신 업데이트
 신규 기준일: 2018년 9월 28일
 
-{{site.data.keyword.cloudant_short_notm}}에 대한 [최신 업데이트 ![외부 링크 아이콘](../images/launch-glyph.svg "외부 링크 아이콘")](../release_info/release_notes.html#release-notes){:new_window}의 전체 목록을 보려면 다음 페이지를 방문하십시오. 
+{{site.data.keyword.cloudant_short_notm}}에 대한 [최신 업데이트 ](/docs/services/Cloudant/release_info/release_notes.html#release-notes){:new_window} ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")의 전체 목록을 보려면 다음 페이지를 방문하십시오.
 
 ### {{site.data.keyword.IBM_notm}} {{site.data.keyword.DRA_short}} GA(General Availability) 소개
 신규 기준일: 2018년 9월 20일

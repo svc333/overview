@@ -319,7 +319,7 @@ Il pacchetto di build Liberty v3.9 fornisce una nuova versione di runtime Libert
 ### Ultimi aggiornamenti per {{site.data.keyword.cloudant_short_notm}}
 Novità a partire dal 28 settembre 2018
 
-Visita la seguente pagina per un elenco completo degli [ultimi aggiornamenti ![Icona link esterno](../images/launch-glyph.svg "Icona link esterno")](../release_info/release_notes.html#release-notes){:new_window} per {{site.data.keyword.cloudant_short_notm}}.
+Visita la seguente pagina per un elenco completo degli [ultimi aggiornamenti ](/docs/services/Cloudant/release_info/release_notes.html#release-notes){:new_window} ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno") per {{site.data.keyword.cloudant_short_notm}}.
 
 ### Introduzione alla disponibilità generale di {{site.data.keyword.IBM_notm}} {{site.data.keyword.DRA_short}}
 Novità a partire dal 20 settembre 2018
@@ -663,7 +663,7 @@ Per domande o commenti, puoi contattarci all'indirizzo [sparksrv@us.ibm.com](spa
 ### Nuovo piano scalabile per {{site.data.keyword.dashdbshort_notm}} for Transactions
 Novità a partire dal 31 maggio 2017
 
-Per {{site.data.keyword.dashdbshort}} for Transactions è disponibile un nuovo piano che può espandersi in base alle esigenze del tuo database. Il nuovo piano Flex ti consente di iniziare con un piccolo sistema e di aumentare la potenza e la capacità di archiviazione di tale sistema in modo facile e veloce. {{site.data.keyword.dashdbshort}} for Transactions è compatibile al 100%  con DB2 e fornisce uno SLA del 99,95%  sui piani ad alta disponibilità.
+Per {{site.data.keyword.dashdbshort}} for Transactions è disponibile un nuovo piano che può espandersi in base alle esigenze del tuo database. Il nuovo piano Flex ti consente di iniziare con un piccolo sistema e di aumentare la potenza e la capacità di archiviazione di tale sistema in modo facile e veloce. {{site.data.keyword.dashdbshort}} for Transactions è compatibile al 100% con DB2 e fornisce uno SLA del 99,95% sui piani ad alta disponibilità.
 
 ### Nuovi aggiornamenti al servizio {{site.data.keyword.mobilepush}} su {{site.data.keyword.Bluemix_notm}}
 Novità a partire dal 24 maggio 2017

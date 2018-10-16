@@ -5,7 +5,7 @@
 copyright:
 
   years: 2015, 2018
-lastupdated: "2018-09-10"
+lastupdated: "2018-10-04"
 
 
 ---
@@ -31,6 +31,7 @@ Il tuo account IBM Cloud e tutti i servizi ordinati da IBM Cloud sono forniti so
   * Descrizione del servizio IBM Cloud disponibile all'indirizzo [http://www-03.ibm.com/software/sla/sladb.nsf/sla/bm](http://www-03.ibm.com/software/sla/sladb.nsf/sla/bm){: new_window} ![Icona link esterno](../../icons/launch-glyph.svg);
   * Ulteriori SD applicabili per tutti i servizi ordinati utilizzando il tuo account IBM Cloud disponibile all'indirizzo [http://www-03.ibm.com/software/sla/sladb.nsf/sla/bm](http://www-03.ibm.com/software/sla/sladb.nsf/sla/bm){: new_window} ![Icona link esterno](../../icons/launch-glyph.svg); e
   * Le schede dati applicabili come viene fatto riferimento nelle ulteriori SD applicabili o dal link "Terms" di un servizio nella IU IBM Cloud disponibile all'indirizzo [http://www-03.ibm.com/software/sla/sladb.nsf/sla/csdsp](http://www-03.ibm.com/software/sla/sladb.nsf/sla/csdsp){: new_window} ![Icona link esterno](../../icons/launch-glyph.svg).
+  * Una capacità riservata è per un termine fisso come stabilito in un ordine e non può essere terminata dal client prima della fine di tale termine. Una capacità riservata può essere idonea per il rinnovo alla conclusione di un termine di comune accordo tra il client e SoftLayer. Le capacità riservate che non sono né rinnovate né terminate prima della fine dei loro termini si convertiranno in servizi cloud mensili soggetti ai termini dell'attuale accordo sui servizi cloud e della descrizione del servizio e al prezzo al dettaglio in corso.
 
 ### Licenza per l'immagine di IBM WebSphere Application Server Liberty Profile
 {: #license_liberty_image}

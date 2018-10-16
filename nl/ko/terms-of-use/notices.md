@@ -5,7 +5,7 @@
 copyright:
 
   years: 2015, 2018
-lastupdated: "2018-09-10"
+lastupdated: "2018-10-04"
 
 
 ---
@@ -31,6 +31,7 @@ lastupdated: "2018-09-10"
   * IBM Cloud 서비스 명세서([http://www-03.ibm.com/software/sla/sladb.nsf/sla/bm](http://www-03.ibm.com/software/sla/sladb.nsf/sla/bm){: new_window} ![외부 링크 아이콘](../../icons/launch-glyph.svg) 참조),
   * 귀하의 IBM Cloud 계정으로 주문한 서비스에 적용되는 추가 서비스 명세서([http://www-03.ibm.com/software/sla/sladb.nsf/sla/bm](http://www-03.ibm.com/software/sla/sladb.nsf/sla/bm){: new_window} ![외부 링크 아이콘](../../icons/launch-glyph.svg) 참조) 및
   * 관련 추가 서비스 명세서에서 참조하거나 IBM Cloud UI의 서비스에 관한 "조건들(Terms)" 링크에서 언급한 관련 데이터 시트(Data Sheets)([http://www-03.ibm.com/software/sla/sladb.nsf/sla/csdsp](http://www-03.ibm.com/software/sla/sladb.nsf/sla/csdsp){: new_window} ![외부 링크 아이콘](../../icons/launch-glyph.svg) 참조).
+  * 예약된 용량(Reserved Capacity)은 주문에 명시된 특정기간 동안 제공되며 해당 기간이 만료하기전에 고객이 해지할 수 없습니다. 기간 종료 시 고객과 SoftLayer 간에 상호 합의하여 예약된 용량을 갱신할 수 있습니다. 기간 종료 전에 갱신되거나 종료되지 않은 예약된 용량은 해당 시점의 클라우드 서비스 계약 및 서비스 명세서 조건에 따라 해당 시점의 소매가(retail pricing)에 따른 월별 클라우드 서비스로 전환됩니다.
 
 ### IBM WebSphere Application Server Liberty Profile 이미지에 대한 라이센스
 {: #license_liberty_image}
@@ -148,8 +149,8 @@ UNIX는 미국 및 기타 국가에서 사용되는 The Open Group의 등록상�
 
 Java™ 및 모든 Java 기반 상표와 로고는 Oracle 및/또는 그 계열사의 상표 또는 등록상표입니다.
 
-Salesforce는 Salesforce.com, Inc.의 상표입니다. 
+Salesforce는 Salesforce.com, Inc.의 상표입니다.
 
-Box는 Box, Inc.의 상표입니다.  
+Box는 Box, Inc.의 상표입니다. 
 
 기타 회사, 제품 및 서비스 이름은 타사의 상표 또는 서비스표입니다.

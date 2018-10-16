@@ -5,7 +5,7 @@
 copyright:
 
   years: 2015, 2018
-lastupdated: "2018-09-10"
+lastupdated: "2018-10-04"
 
 
 ---
@@ -31,6 +31,7 @@ Votre compte IBM Cloud et les services offerts dans le cadre d'IBM Cloud sont fo
   * Une description de service pour IBM Cloud disponible à l'adresse [http://www-03.ibm.com/software/sla/sladb.nsf/sla/bm](http://www-03.ibm.com/software/sla/sladb.nsf/sla/bm){: new_window} ![Icône de lien externe](../../icons/launch-glyph.svg) ;
   * Des descriptions de service supplémentaires qui s'appliquent à n'importe quel service commandé à l'aide de votre compte IBM Cloud, disponibles à l'adresse [http://www-03.ibm.com/software/sla/sladb.nsf/sla/bm](http://www-03.ibm.com/software/sla/sladb.nsf/sla/bm){: new_window} ![Icône de lien externe](../../icons/launch-glyph.svg) ; et
   * Des fiches techniques applicables référencées dans des descriptions de service supplémentaires applicables ou disponibles à partir du lien "Terms" pour un service dans l'interface utilisateur IBM Cloud, disponibles à l'adresse [http://www-03.ibm.com/software/sla/sladb.nsf/sla/csdsp](http://www-03.ibm.com/software/sla/sladb.nsf/sla/csdsp){: new_window} ![Icône de lien externe](../../icons/launch-glyph.svg).
+  * Une capacité réservée s'applique à une condition fixe définie dans une commande et ne peut pas être interrompue par le client avant la fin. Une capacité réservée peut être éligible pour un renouvellement à la fin d'une condition par entente mutuelle entre le client et SoftLayer. Les capacités réservées qui ne sont ni renouvelées ni interrompues avant la fin de leurs conditions seront converties en services Cloud mensuels soumis aux dispositions du contrat et à la description des services Cloud en vigueur, ainsi qu'au prix de distribution en vigueur. 
 
 ### Licence pour l'image IBM WebSphere Application Server Liberty Profile
 {: #license_liberty_image}

@@ -319,7 +319,7 @@ Liberty ビルドパック v3.9 は、新規の月次の Liberty ランタイム
 ### {{site.data.keyword.cloudant_short_notm}} の最新の更新
 最新情報: 2018 年 9 月 28 日
 
-[「最新の更新」![外部リンク・アイコン](../images/launch-glyph.svg "外部リンク・アイコン")](../release_info/release_notes.html#release-notes){:new_window}の包括的リストについては、次のページ {{site.data.keyword.cloudant_short_notm}} にアクセスしてください。
+{{site.data.keyword.cloudant_short_notm}} に対する[最新の更新](/docs/services/Cloudant/release_info/release_notes.html#release-notes){:new_window} ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")の包括的なリストについては、以下のページにアクセスしてください。
 
 ### {{site.data.keyword.IBM_notm}} {{site.data.keyword.DRA_short}} 一般出荷可能日の紹介
 最新情報: 2018 年 9 月 20 日

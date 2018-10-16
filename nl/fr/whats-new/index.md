@@ -319,7 +319,7 @@ Le pack de construction Liberty version 3.9 fournit chaque mois une nouvelle ver
 ### Dernières mises à jour pour {{site.data.keyword.cloudant_short_notm}}
 Nouveau à compter du : 28 septembre 2018
 
-Visitez la page suivante pour afficher la liste complète des [dernières mises à jour ![Icône de lien externe](../images/launch-glyph.svg "Icône de lien externe")](../release_info/release_notes.html#release-notes){:new_window} sur {{site.data.keyword.cloudant_short_notm}}.
+Visitez la page suivante pour afficher la liste complète des [dernières mises à jour ](/docs/services/Cloudant/release_info/release_notes.html#release-notes){:new_window} ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe") sur {{site.data.keyword.cloudant_short_notm}}.
 
 ### Présentation d'{{site.data.keyword.IBM_notm}} {{site.data.keyword.DRA_short}} (disponibilité générale)
 Nouveau à compter du : 20 septembre 2018
