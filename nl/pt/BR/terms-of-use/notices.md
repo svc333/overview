@@ -5,7 +5,7 @@
 copyright:
 
   years: 2015, 2018
-lastupdated: "2018-09-10"
+lastupdated: "2018-10-04"
 
 
 ---
@@ -31,6 +31,7 @@ Sua Conta do IBM Cloud e quaisquer serviços pedidos do IBM Cloud são fornecido
   * Descrição do serviço para o IBM Cloud disponível em [http://www-03.ibm.com/software/sla/sladb.nsf/sla/bm](http://www-03.ibm.com/software/sla/sladb.nsf/sla/bm){: new_window} ![Ícone de link externo](../../icons/launch-glyph.svg);
   * SDs adicionais aplicáveis para qualquer serviço pedido usando sua Conta do IBM Cloud disponível em [http://www-03.ibm.com/software/sla/sladb.nsf/sla/bm](http://www-03.ibm.com/software/sla/sladb.nsf/sla/bm){: new_window} ![Ícone de link externo](../../icons/launch-glyph.svg); e
   * Planilhas de dados aplicáveis conforme referenciadas em SDs adicionais aplicáveis ou do link "Termos" para um serviço na UI do IBM Cloud disponível em [http://www-03.ibm.com/software/sla/sladb.nsf/sla/csdsp](http://www-03.ibm.com/software/sla/sladb.nsf/sla/csdsp){: new_window} ![Ícone de link externo](../../icons/launch-glyph.svg).
+  * Uma Capacidade reservada é para um prazo fixo, conforme estabelecido em um Pedido, e não pode ser finalizada pelo Cliente antes do término desse prazo. Uma Capacidade reservada pode ser elegível para renovação na conclusão de um prazo por concordância mútua entre o Cliente e a SoftLayer. As Capacidades reservadas que não forem renovadas nem finalizadas antes do término de seus prazos serão convertidas em Serviços de nuvem mensais sujeitos aos termos do Contrato de Prestação de Serviços de Nuvem e da Descrição do Serviço em vigor no momento e aos preços de varejo atuais.
 
 ### Licença para a imagem do perfil Liberty do IBM WebSphere Application Server
 {: #license_liberty_image}

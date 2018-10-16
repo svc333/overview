@@ -3,7 +3,7 @@
 
 copyright:
   years: 2016, 2018
-lastupdated: "2018-07-31"
+lastupdated: "2018-10-05"
 
 
 ---
@@ -554,7 +554,12 @@ Uma infraestrutura na qual o armazenamento e o processamento de dados para aplic
 ### Namespace
 {: #x2031005}
 
-Um nome exclusivo que identifica o repositório de imagem de sua organização dentro do registro do {{site.data.keyword.cloud_notm}}. Veja também [imagem](#x2024928), [repositório de imagem privada](#x8439215).
+Um nome exclusivo que identifica o repositório de imagem de sua organização no registro do IBM Cloud. Veja também [imagem](#x2024928), [repositório de imagem privada](#x8439215).
+
+### conversão de endereço de rede
+{: #x2031199}
+
+Um método de endereçamento usado para ativar um endereço IP para se comunicar com vários outros endereços IP, como aqueles em uma sub-rede privada, por meio de uma tabela de consulta. A conversão de endereço de rede tem dois tipos principais: um para um e vários para um.
 
 
 ## O
@@ -639,6 +644,11 @@ organização especificada do {{site.data.keyword.cloud_notm}}.
 {: #x4585370}
 
 Um ambiente de computação em nuvem no qual o acesso a recursos padronizados, como infraestrutura, hardware de diversos locatários e serviços, está disponível aos assinantes em uma base de pagamento por uso. Veja também [sem fronteiras](#x8439189), [nuvem particular](#x4585362).
+
+### gateway público
+{: #x9594389}
+
+A conexão de uma sub-rede com a Internet, com todas as instâncias de servidor virtual conectadas. Um gateway público usa uma conversão de endereço de rede (NAT) de vários para um, o que significa que milhares de instâncias de servidor virtual com endereços privados podem usar um endereço IP público para conversar com a Internet pública.
 
 ### recurso público
 {: #x9439040}
@@ -944,3 +954,11 @@ Um formato de arquivo compactado, definido pelo padrão Java EE, para armazenar 
 {: #x2096037}
 
 Um contexto que contém uma coleção de artefatos que um usuário com a permissão apropriada pode modificar.
+
+## Z
+{: #glossz}
+
+### zona
+{: #x2070723}
+
+Um domínio de falha independente. Uma zona é uma abstração projetada para ajudar a melhorar a tolerância a falhas e a diminuir a latência.

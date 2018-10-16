@@ -123,9 +123,9 @@ específicos da {{site.data.keyword.cloud_notm}} são altamente
 disponíveis. Várias instâncias da infraestrutura são usadas
 para equilibrar a carga.
 
+
 ## Integração com sistemas de registro
 {: #sor}
-
 O {{site.data.keyword.cloud_notm}} pode ajudar os desenvolvedores, conectando duas categorias amplas de sistemas em um ambiente de nuvem:
 
 * *Sistemas de registro* inclui apps e bancos de dados que armazenam registros de negócios e automatizam processos padronizados.
@@ -146,52 +146,19 @@ backend, como o sistema de gerenciamento de relacionamento com o cliente.
 sejam expostos ao app.
  * Como gerente da organização {{site.data.keyword.cloud_notm}},
 publique uma API como um serviço privado que seja visível somente aos membros de sua organização.
-
-Para integrar um sistema de registro com o app que você cria no
-{{site.data.keyword.cloud_notm}}, use o serviço Cloud
-Integration. Com o serviço Cloud Integration, é possível criar uma API de Cloud Integration e publicar a API como um serviço privado para sua organização.
-
+ 
+<!-- To integrate a system of record with the app that you create in {{site.data.keyword.cloud_notm}}, use the Cloud Integration service. By using the Cloud Integration service, you can create a Cloud Integration API and publish the API as a private service for your organization.
 <dl>
-<dt>API de Cloud Integration</dt>
-    <dd>Uma API de Cloud Integration fornece acesso seguro para os sistemas de registro que residem por trás de um firewall por meio das APIs da web. Ao criar a API de Cloud Integration, escolha o recurso que deseja acessar por meio da API da web, especifique as operações que são permitidas e inclua SDKs e amostras para acessar a API. Para obter mais informações sobre como criar uma API de Cloud Integration, veja [Introdução ao Cloud Integration](/docs/services/CloudIntegration/CldInt_GetStart.html).</dd>
-<dt>Serviço privado</dt>
-    <dd>Um serviço privado consiste em uma API de Cloud Integration, SDKs e políticas de autorização. O serviço privado também pode conter documentação ou outros itens do provedor de serviços. Somente o gerenciador de organização pode publicar uma API de Cloud Integration como um serviço privado. Para
-ver os serviços privados que estão disponíveis para você,
-marque a caixa de seção Privado no catálogo do {{site.data.keyword.cloud_notm}}. É
-possível selecionar e ligar um serviço privado a um app sem se conectar ao serviço Cloud Integration. Você
-liga serviços privados ao seu app da mesma maneira que faz com outros
-serviços {{site.data.keyword.cloud_notm}}. Para obter informações sobre como publicar uma API como um serviço privado,
-consulte Publicando uma API como um serviço privado.</dd>
+<dt>Cloud Integration API</dt>
+    <dd>A Cloud Integration API provides secured access to the systems of record that reside behind a firewall through web APIs. When you create the Cloud Integration API, you choose the resource that you want to access through the web API, specify the operations that are permitted, and include SDKs and samples to access the API. For more information about how to create a Cloud Integration API, see [Getting started with Cloud Integration](/docs/services/CloudIntegration/CldInt_GetStart.html).</dd>
+<dt>Private service</dt>
+    <dd>A private service consists of a Cloud Integration API, SDKs, and entitlement policies. The private service might also  contain documentation or other items from the service provider. Only the organization manager can publish a Cloud Integration API as a private service. To see the private services that are available to you, select the Private checkbox in the {{site.data.keyword.cloud_notm}} catalog. You can select and bind a private service to an app without connecting to the Cloud Integration service. You bind private services to your app in the same way as you do for other {{site.data.keyword.cloud_notm}} services. For information about how to publish an API as a private service, see Publishing an API as a private service.</dd>
 </dl>
-
-### Cenário: Criando um app móvel avançado para conexão
-com o sistema de registro
+### Scenario: Creating a rich mobile app to connect with your system of record
 {: #scenario}
-
-O {{site.data.keyword.cloud_notm}} fornece uma
-plataforma na qual é possível integrar seu app móvel, os serviços de
-nuvem e os sistemas corporativos de registro para fornecer um app que interaja com os dados no local.
-
-Por exemplo, é possível construir um app
-móvel para interagir com o sistema de gerenciamento de relacionamento com o cliente
-que reside no local protegido por um firewall. É possível chamar o
-sistema de registro de uma maneira segura e alavancar os serviços móveis no {{site.data.keyword.cloud_notm}} para que seja possível construir um app móvel avançado.
-
-Primeiro, seu desenvolvedor de integração cria o app de backend
-móvel no {{site.data.keyword.cloud_notm}}. Eles usam o modelo de Nuvem para dispositivo móvel que usa o tempo de execução Node.js com o qual estão mais familiarizados.
-
-Em seguida, usando o serviço Cloud Integration na interface com o usuário do {{site.data.keyword.cloud_notm}}, eles expõem uma API por meio de um conector seguro. Seu desenvolvedor de
-integração faz o download do conector seguro e instala-o no local
-para permitir uma comunicação segura entre sua API e o banco de dados. Após criar o terminal de banco de dados, podem examinar todos os esquemas e extrair as tabelas que desejam expor como APIs para o app.
-
-O desenvolvedor de integração inclui o serviço de push para entregar notificações móveis aos consumidores interessados. Eles também incluem um serviço de parceiro de negócios para publicar um tweet quando um novo registro de cliente é criado com uma API do Twitter.
-
-Em seguida, como desenvolvedor de aplicativos,
-é possível efetuar login no {{site.data.keyword.cloud_notm}},
-fazer o download do kit de ferramentas de desenvolvimento do Android e desenvolver código que chame
-as APIs criadas pelo desenvolvedor de integração. É possível
-desenvolver um app móvel que permita aos usuários inserir suas
-informações em seus dispositivos móveis. O app móvel cria então um registro do cliente
-no sistema de gerenciamento do cliente. Quando o registro é criado, o
-app envia uma notificação para um dispositivo móvel e inicia
-um tweet sobre o novo registro.
+{{site.data.keyword.cloud_notm}} provides a platform where you can integrate your mobile app, cloud services, and enterprise systems of record to provide an app that interacts with your on-premises data.
+For example, you can build a mobile app to interact with your customer relationship management system that resides on-premises behind a firewall. You can invoke the system of record in a secure way and leverage the mobile services in {{site.data.keyword.cloud_notm}} so that you can build a rich mobile app.
+First, your integration developer creates the mobile back-end app in {{site.data.keyword.cloud_notm}}. They use the Mobile Cloud boilerplate that uses the Node.js runtime that they are most familiar with.
+Then, by using the Cloud Integration service in the {{site.data.keyword.cloud_notm}} user interface, they expose an API through a secure connector. Your integration developer downloads the secure connector and installs it on-premises to enable secure communication between his API and the database. After they create the database endpoint, they can look at all the schemas and extract the tables that they want to expose as APIs to the app.
+The integration developer adds the Push service to deliver mobile notifications to interested consumers. They also add a business partner service to tweet when a new customer record is created with a Twitter API.
+Next, as the application developer, you can log in to {{site.data.keyword.cloud_notm}}, download the Android development toolkit, and develop code that invokes the APIs that your integration developer created. You can develop a mobile app that enables users to enter their information on their mobile device. The mobile app then creates a customer record in the customer management system. When the record is created, the app pushes a notification to a mobile device and initiates a tweet about the new record. -->
