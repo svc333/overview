@@ -319,7 +319,7 @@ El paquete de compilación de Liberty v3.9 proporciona una nueva versión de tie
 ### Actualizaciones más recientes para {{site.data.keyword.cloudant_short_notm}}
 Novedad desde: 28 de septiembre de 2018
 
-Visite la página siguiente para obtener una lista completa de las [últimas actualizaciones ![Icono de enlace externo](../images/launch-glyph.svg "Icono de enlace externo")](../release_info/release_notes.html#release-notes){:new_window} de {{site.data.keyword.cloudant_short_notm}}.
+Visite la página siguiente para obtener una lista completa de las [últimas actualizaciones ](/docs/services/Cloudant/release_info/release_notes.html#release-notes){:new_window} ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo") de {{site.data.keyword.cloudant_short_notm}}.
 
 ### Introducción a la disponibilidad general de {{site.data.keyword.IBM_notm}} {{site.data.keyword.DRA_short}}
 Novedad desde: 20 de septiembre de 2018

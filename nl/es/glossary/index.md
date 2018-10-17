@@ -3,7 +3,7 @@
 
 copyright:
   years: 2016, 2018
-lastupdated: "2018-07-31"
+lastupdated: "2018-10-05"
 
 
 ---
@@ -547,7 +547,12 @@ Infraestructura en la que el almacenamiento y el proceso de datos para las aplic
 ### espacio de nombres
 {: #x2031005}
 
-Un nombre exclusivo que identifica el repositorio de imagen de la organización dentro del registro de {{site.data.keyword.cloud_notm}}. Véase también [imagen](#x2024928), [repositorio de imagen privada](#x8439215).
+Un nombre exclusivo que identifica el repositorio de imagen de la organización dentro del registro de IBM Cloud. Véase también [imagen](#x2024928), [repositorio de imagen privada](#x8439215).
+
+### conversión de direcciones de red
+{: #x2031199}
+
+Método de direccionamiento que se utiliza para permitir que una dirección IP se comunique con otras direcciones IP, como las de una subred privada, mediante una tabla de búsqueda. La conversión de direcciones de red (NAT) tiene dos tipos principales: de 1 a 1 y de muchas a 1.
 
 
 ## O
@@ -630,6 +635,11 @@ Un servicio que sólo está visible para miembros de una determinada {{site.data
 {: #x4585370}
 
 Un entorno de computación en la nube en el que el acceso a los recursos estandarizados, como por ejemplo la infraestructura, el hardware de varios arrendatarios y los servicios, está disponible a los suscriptores en base a pago por uso. Véase también [sin borde](#x8439189), [nube privada](#x4585362).
+
+### pasarela pública
+{: #x9594389}
+
+La conexión de una subred a Internet, con todas las instancias de servidor virtual conectadas. Una pasarela pública utiliza la conversión de direcciones de red (NAT) de muchas a 1, que significa que miles de instancias de servidor virtual con direcciones privadas pueden utilizar una dirección IP pública para comunicarse con la Internet pública.
 
 ### recurso público
 {: #x9439040}
@@ -942,3 +952,11 @@ Formato de archivo comprimido, definido por el estándar Java EE, para almacenar
 {: #x2096037}
 
 Contexto que contiene un conjunto de artefactos que un usuario con el permiso adecuado puede modificar.
+
+## Z
+{: #glossz}
+
+### zona
+{: #x2070723}
+
+Un dominio independiente de tolerancia a errores. Una zona es una abstracción diseñada para aumentar la tolerancia a errores y reducir la latencia.
