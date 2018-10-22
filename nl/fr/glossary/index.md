@@ -3,7 +3,7 @@
 
 copyright:
   years: 2016, 2018
-lastupdated: "2018-10-05"
+lastupdated: "2018-10-16"
 
 
 ---
@@ -14,7 +14,7 @@ lastupdated: "2018-10-05"
 # Termes du glossaire de {{site.data.keyword.cloud_notm}} 
 {: #glossary}
 
-Ce glossaire comporte des termes et des définitions pour {{site.data.keyword.cloud}}.
+Ce glossaire comporte des termes et des définitions pour {{site.data.keyword.cloud_notm}}.
 {:shortdesc}
 
 Les références croisées suivantes sont employées dans ce glossaire :
@@ -60,6 +60,11 @@ Collection de technologies IBM Db2 conçue pour fonctionner en priorité avec un
 {: #x2012974}
 
 Un fragment de code peut être appelé explicitement ou exécuté en réponse à un événement. Voir aussi [flux](#x3129185), [appeler](#x2057232).
+
+### adresse IP flottante
+{: #x6326428}
+
+Adresse IP routable publique qui utilise la conversion d'adresses réseau 1 à 1 de manière à permettre à un serveur de communiquer avec l'Internet public et le sous-réseau privé au sein d'un environnement de cloud. Les adresses IP flottantes sont associées à une instance, par exemple, une instance de serveur virtuel, un équilibreur de charge ou une passerelle VPN, au moyen d'une carte d'interface réseau virtuel (vNIC).
 
 ### adresse URL (Uniform Resource Locator)
 {: #x2042491}
@@ -351,7 +356,7 @@ Ensemble des ressources utilisées pour exécuter l'application. Voir aussi [mod
 ### espace
 {: #x2039442}
 
-Sous-groupe dans une organisation {{site.data.keyword.cloud_notm}}. Les membres d'une organisation ont accès à un ou plusieurs de ses espaces, avec les droits associés à un rôle particulier (par exemple, développeur, responsable ou auditeur). Tout membre d'un espace peut voir les applis, mais seuls les membres disposant des droits de développeur peuvent créer des applis et ajouter des instances de service à l'espace. Les applis et les instances de service sont associées aux espaces. Voir aussi [organisation](#x2032585).
+Sous-groupe dans une organisation IBM Cloud. Les membres d'une organisation ont accès à un ou plusieurs de ses espaces, avec les droits associés à un rôle particulier (par exemple, développeur, responsable ou auditeur). Tout membre d'un espace peut voir les applis, mais seuls les membres disposant des droits de développeur peuvent créer des applis et ajouter des instances de service à l'espace. Les applis et les instances de service sont associées aux espaces. Voir aussi [organisation](#x2032585).
 
 ### espace de nom
 {: #x2031005}
@@ -448,6 +453,11 @@ Voir [infrastructure sous forme de services (IaaS)](#x4585332).
 {: #x2193801}
 
 Voir [Identity and Access Management](#x7547040).
+
+### IBM Cloud
+{: #x7301758}
+
+Plateforme à norme ouverte reposant sur le cloud qui permet de construire, de gérer et d'exécuter des applications de tout type, comme des périphériques Web, mobiles, de big data et intelligents. Ses capacités incluent Java, développement de back-end mobile, surveillance d'applications, ainsi que des fonctions de partenaires écosystème et open source &mdash; tous fournis en tant que service dans le cloud.
 
 ### identificateur global unique (GUID)
 {: #x2390455}
@@ -557,6 +567,11 @@ Etablir une connexion entre des composants logiciels à travers un réseau au mo
 
 Protocole ouvert utilisant TCP/IP pour fournir l'accès aux annuaires qui prennent en charge un modèle X.500 et pour lequel les ressources exigées par le protocole X.500 DAP (Directory Access Protocol) plus complexe ne sont pas requises. Par exemple, le protocole LDAP peut être utilisé pour localiser des personnes, des organisations et d'autres ressources dans un annuaire Internet ou Intranet.
 
+### liste de contrôle d'accès
+{: #x2012793}
+
+Liste qui gère, sans état, le trafic entrant et le trafic sortant pour un sous-réseau via l'utilisation de règles. Une liste de contrôle d'accès permet de fournir de la sécurité au niveau sous-réseau. 
+
 ### local
 {: #x4561212}
 
@@ -627,7 +642,7 @@ Alerte signalant une modification ou une mise à jour au niveau d'une icône d'a
 ### organisation
 {: #x2032585}
 
-Méthodologie de regroupement pour les utilisateurs dans {{site.data.keyword.cloud_notm}}. Les organisations permettent de gérer les quotas. Les utilisateurs d'une organisation partagent les quotas d'instances de service et de mémoire. Voir aussi [domaine](#x2021210), [espace](#x2039442).
+Méthodologie de regroupement pour les utilisateurs dans IBM Cloud. Les organisations permettent de gérer les quotas. Les utilisateurs d'une organisation partagent les quotas d'instances de service et de mémoire. Voir aussi [domaine](#x2021210), [espace](#x2039442).
 
 
 ## P
@@ -641,13 +656,13 @@ Voir [plateforme sous forme de services](#x2029786).
 ### pack de construction
 {: #x7233925}
 
-Collection de scripts permettant de préparer le code à une exécution sur {{site.data.keyword.cloud_notm}}. Les packs de construction examinent les applications déployées, puis téléchargent et configurent les applications dépendantes.
+Collection de scripts permettant de préparer le code à une exécution sur IBM Cloud. Les packs de construction examinent les applications déployées, puis téléchargent et configurent les applications dépendantes.
 
 
 ### partage de fichiers
 {: #x2022902}
 
-Dans l'environnement {{site.data.keyword.cloud_notm}}, système de stockage de persistance où les utilisateurs stockent et partagent des fichiers. Dans IBM Containers, les utilisateurs peuvent monter des volumes Docker sur des partages de fichiers.
+Dans l'environnement IBM Cloud, système de stockage de persistance où les utilisateurs stockent et partagent des fichiers. Dans IBM Containers, les utilisateurs peuvent monter des volumes Docker sur des partages de fichiers.
 
 ### passerelle publique
 {: #x9594389}
@@ -686,7 +701,7 @@ Envoyer des informations d'un serveur vers un client. Lorsqu'un serveur envoie d
 ### référentiel d'images privé
 {: #x8439215}
 
-Combinaison du registre {{site.data.keyword.cloud_notm}} d'une organisation et de son espace de nom. Le référentiel d'images privé est utilisé lors du référencement d'une image dans une commande. Voir aussi [image](#x2024928), [espace de nom](#x2031005).
+Combinaison du registre IBM Cloud d'une organisation et de son espace de nom. Le référentiel d'images privé est utilisé lors du référencement d'une image dans une commande. Voir aussi [image](#x2024928), [espace de nom](#x2031005).
 
 ### région
 {: #x2091391}
@@ -719,7 +734,7 @@ Voir [VPN](#x2043188).
 ### ressource
 {: #x2004267}
 
-Composant physique ou logique pouvant être mis à disposition ou réservé pour une application ou une instance de service.  Exemples de ressources : base de données,  comptes, limites de processeur, de mémoire ou de stockage.
+Composant physique ou logique pouvant être mis à disposition ou réservé pour une application ou une instance de service.  Exemples de ressources : base de données, comptes, limites de processeur, de mémoire ou de stockage.
 
 ### ressource privée
 {: #x9439035}
@@ -729,7 +744,7 @@ Entrée visible seulement des propriétaires de compte et des comptes qui leur s
 ### ressource publique
 {: #x9439040}
 
-Entrée visible de tout le monde dans le catalogue {{site.data.keyword.cloud_notm}}. Des ressources publiques peuvent être créées par n'importe quel fournisseur (IBM ou fournisseurs tiers). Voir aussi  [ressource privée](#x9439035).
+Entrée visible de tout le monde dans le catalogue IBM Cloud. Des ressources publiques peuvent être créées par n'importe quel fournisseur (IBM ou fournisseurs tiers). Voir aussi [ressource privée](#x9439035).
 
 ### REST
 {: #x3220987}
@@ -739,7 +754,7 @@ Voir [Representational State Transfer (REST)](#x3220976).
 ### route
 {: #x2037338}
 
-Adresse URL utilisée pour diriger les demandes vers une application. Une route est composée d'un hôte facultatif (ou sous-domaine) et d'un domaine, spécifiés lorsqu'une application est déployée. Par exemple, dans la route monapp.exemple.com, monapp est l'hôte et exemple.com est le domaine. Une route peut être associée à une ou plusieurs applications. A moins qu'un domaine personnalisé ne soit spécifié, {{site.data.keyword.cloud_notm}} utilise un domaine partagé par défaut dans la route vers votre application. Voir aussi [domaine personnalisé](#x5728384), [domaine](#x2021210), [noeud final](#x2026820), [hôte](#x2002243), [sous-domaine](#x2040080), [adresse URL](#x2042491).
+Adresse URL utilisée pour diriger les demandes vers une application. Une route est composée d'un hôte facultatif (ou sous-domaine) et d'un domaine, spécifiés lorsqu'une application est déployée. Par exemple, dans la route monapp.exemple.com, monapp est l'hôte et exemple.com est le domaine. Une route peut être associée à une ou plusieurs applications. A moins qu'un domaine personnalisé ne soit spécifié, IBM Cloud utilise un domaine partagé par défaut dans la route vers votre application. Voir aussi [domaine personnalisé](#x5728384), [domaine](#x2021210), [noeud final](#x2026820), [hôte](#x2002243), [sous-domaine](#x2040080), [adresse URL](#x2042491).
 
 
 ## S
@@ -789,17 +804,12 @@ Service qui n'est pas prêt pour la production et qui peut être retiré à tout
 ### service privé
 {: #x7690456}
 
-Service que seuls les membres d'une organisation {{site.data.keyword.cloud_notm}} spécifiée peuvent voir.
+Service que seuls les membres d'une organisation IBM Cloud spécifiée peuvent voir.
 
 ### session
 {: #x2004539}
 
 Temps entre le démarrage d'une appli sur un périphérique mobile et le moment où le produit d'assurance qualité est notifié pour commencer à collectionner le comportement de l'appli, les incidents et les problèmes.
-
-### {{site.data.keyword.cloud_notm}}
-{: #x7301758}
-
-Plateforme à norme ouverte reposant sur le cloud qui permet de construire, de gérer et d'exécuter des applications de tout type, comme des périphériques Web, mobiles, de mégadonnées et intelligents. Ses capacités incluent Java, développement de back-end mobile, surveillance d'applications, ainsi que des fonctions de partenaires écosystème et open source &mdash; tous fournis en tant que service dans le cloud.
 
 ### SOR
 {: #x2214822}
@@ -810,6 +820,11 @@ Voir [système d'enregistrement](#x6735061).
 {: #x2040080}
 
 Domaine intégré à un domaine de dimension supérieure. Voir aussi [domaine personnalisé](#x5728384), [domaine](#x2021210), [hôte](#x2002243), [route](#x2037338), [adresse URL](#x2042491).
+
+### sous-réseau
+{: #x2040149}
+
+Réseau divisé en plusieurs sous-groupes indépendants de plus petite taille interconnectés.
 
 ### SSL
 {: #x2483907}
