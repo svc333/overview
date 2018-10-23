@@ -3,7 +3,7 @@
 
 copyright:
   years: 2016, 2018
-lastupdated: "2018-10-05"
+lastupdated: "2018-10-16"
 
 
 ---
@@ -14,7 +14,7 @@ lastupdated: "2018-10-05"
 # {{site.data.keyword.cloud_notm}} 的名詞解釋 
 {: #glossary}
 
-本名詞解釋提供 {{site.data.keyword.cloud}} 的術語和定義。
+本名詞解釋提供 {{site.data.keyword.cloud_notm}} 的術語和定義。
 {:shortdesc}
 
 本名詞解釋使用下列交互參照：
@@ -64,6 +64,16 @@ glossary, delete the text between these comment tags.
 
 構成更大網域一部分的網域。另請參閱[自訂網域 (custom domain)](#x5728384)、[網域 (domain)](#x2021210)、[主機 (host)](#x2002243)、[路徑 (route)](#x2037338)、[統一資源定位器 (Uniform Resource Locator)](#x2042491)。
 
+### 子網路 (subnet)
+{: #x4282974}
+
+請參閱[子網路 (subnetwork, subnet)](#x2040149)。
+
+### 子網路 (subnetwork, subnet)
+{: #x2040149}
+
+分成較小獨立子群組的網路，彼此之間仍然交互連接。
+
 ### 工作區 (workspace)
 {: #x2096037}
 
@@ -71,6 +81,7 @@ glossary, delete the text between these comment tags.
 
 ## 四劃
 {: #gloss4}
+
 ### 中繼憑證 (intermediate certificate)
 {: #x3753781}
 
@@ -99,7 +110,7 @@ glossary, delete the text between these comment tags.
 ### 公用資源 (public resource)
 {: #x9439040}
 
-{{site.data.keyword.cloud_notm}} 型錄中每個人都能看到的項目。公用資源可由任何提供者（IBM 或協力廠商提供者）建置。另請參閱[專用資源 (private resource)](#x9439035)。
+IBM Cloud 型錄中每個人都能看到的項目。公用資源可由任何提供者（IBM 或協力廠商提供者）建置。另請參閱[專用資源 (private resource)](#x9439035)。
 
 ### 公用閘道 (public gateway)
 {: #x9594389}
@@ -169,6 +180,11 @@ glossary, delete the text between these comment tags.
 
 消費者使用的值，用於代表使用者取得受保護資源的存取權，而不是利用使用者的服務提供者認證。
 
+### 存取控制清單 (access control list)
+{: #x2012793}
+
+透過使用規則，以無狀態方式管理子網路入埠及出埠資料流量的清單。存取控制清單能協助提供子網路層次的安全。
+
 ### 自訂網域 (custom domain)
 {: #x5728384}
 
@@ -235,7 +251,7 @@ glossary, delete the text between these comment tags.
 ### 空間 (space)
 {: #x2039442}
 
-{{site.data.keyword.cloud_notm}} 組織內的子群組。身為組織成員的使用者會被授與一個以上組織空間的存取權，以及與特定角色（例如，開發人員、管理員或審核員）相關聯的權限。空間的任何成員都可以檢視應用程式，但只有具有開發人員角色的成員才能建立應用程式，以及將服務實例新增至該空間。應用程式和服務實例與空間相關聯。另請參閱[組織 (organization)](#x2032585)。
+IBM Cloud 組織中的子群組。身為組織成員的使用者會被授與一個以上組織空間的存取權，以及與特定角色（例如，開發人員、管理員或審核員）相關聯的權限。空間的任何成員都可以檢視應用程式，但只有具有開發人員角色的成員才能建立應用程式，以及將服務實例新增至該空間。應用程式和服務實例與空間相關聯。另請參閱[組織 (organization)](#x2032585)。
 
 ## 九劃
 {: #gloss9}
@@ -243,7 +259,7 @@ glossary, delete the text between these comment tags.
 ### 建置套件 (buildpack)
 {: #x7233925}
 
-Script 的集合，用於準備好程式碼以便在 {{site.data.keyword.cloud_notm}} 上執行。建置套件會檢查已部署的應用程式，然後下載並配置所有相依應用程式。
+Script 的集合，用於準備好程式碼以便在 IBM Cloud 上執行。建置套件會檢查已部署的應用程式，然後下載並配置所有相依應用程式。
 
 
 ### 指令行介面 (command-line interface, CLI)
@@ -285,6 +301,11 @@ Script 的集合，用於準備好程式碼以便在 {{site.data.keyword.cloud_n
 
 一種系統建構，容許使用者同步執行個別邏輯作業系統實例。容器使用檔案系統各層來最小化映像檔大小，並推動重複使用。另請參閱[映像檔 (image)](#x2024928)、[層 (layer)](#x2028320)、[登錄 (registry)](#x2064940)。
 
+### 浮動 IP 位址 (floating IP address)
+{: #x6326428}
+
+公用且可路由的 IP 位址，它利用一對一的網址轉換 (NAT)，以便伺服器能與公用網際網路和雲端環境內的專用子網路通訊。浮動 IP 位址藉由虛擬網路介面卡 (vNIC) 與實例相關聯，例如虛擬伺服器實例、負載平衡器或 VPN 閘道。
+
 ### 記錄系統 (system of record, SOR)
 {: #x6735061}
 
@@ -303,7 +324,6 @@ Script 的集合，用於準備好程式碼以便在 {{site.data.keyword.cloud_n
 {: #x2070723}
 
 獨立的錯誤網域。區域是一種抽象化，其設計是要藉由改善容錯及縮短延遲而提供協助。
-
 ### 參與系統 (system of engagement)
 {: #x6528306}
 
@@ -322,12 +342,12 @@ Script 的集合，用於準備好程式碼以便在 {{site.data.keyword.cloud_n
 ### 專用服務 (private service)
 {: #x7690456}
 
-只有所指定 {{site.data.keyword.cloud_notm}} 組織的成員才能看到的服務。
+只有所指定 IBM Cloud 組織的成員才能看到的服務。
 
 ### 專用映像檔儲存庫 (private image repository)
 {: #x8439215}
 
-組織的 {{site.data.keyword.cloud_notm}} 登錄及其名稱空間的組合。在指令中參照映像檔時，會使用專用映像檔儲存庫。另請參閱[映像檔 (image)](#x2024928)、[名稱空間 (namespace)](#x2031005)。
+組織的 IBM Cloud 登錄及其名稱空間的組合。在指令中參照映像檔時，會使用專用映像檔儲存庫。另請參閱[映像檔 (image)](#x2024928)、[名稱空間 (namespace)](#x2031005)。
 
 ### 專用雲端 (dedicated cloud)
 {: #x8439199}
@@ -394,7 +414,7 @@ Script 的集合，用於準備好程式碼以便在 {{site.data.keyword.cloud_n
 ### 組織 (organization, org)
 {: #x2032585}
 
-這是指 {{site.data.keyword.cloud_notm}} 中對使用者進行分組的方法。組織可用於管理配額。組織中的使用者會共用記憶體和服務實例配額。另請參閱[網域 (domain)](#x2021210)、[空間 (space)](#x2039442)。
+這是指 IBM Cloud 中對使用者進行分組的方法。組織可用於管理配額。組織中的使用者會共用記憶體和服務實例配額。另請參閱[網域 (domain)](#x2021210)、[空間 (space)](#x2039442)。
 
 
 ### 規則 (rule)
@@ -513,7 +533,7 @@ Script 的集合，用於準備好程式碼以便在 {{site.data.keyword.cloud_n
 ### 路徑 (route)
 {: #x2037338}
 
-用來將要求導向至應用程式的 URL。路徑包含在推送應用程式時所指定的選用性主機（或子網域）和網域。例如，在路徑 myapp.example.com 中，myapp 是主機，而 example.com 是網域。路徑可與一個以上的應用程式相關聯。除非指定自訂網域，否則 {{site.data.keyword.cloud_notm}} 會在您的應用程式路徑中使用預設的共用網域。另請參閱[自訂網域 (custom domain)](#x5728384)、[網域 (domain)](#x2021210)、[端點 (endpoint)](#x2026820)、[主機 (host)](#x2002243)、[子網域 (subdomain)](#x2040080)、[統一資源定位器 (Uniform Resource Locator)](#x2042491)。
+用來將要求導向至應用程式的 URL。路徑包含在推送應用程式時所指定的選用性主機（或子網域）和網域。例如，在路徑 myapp.example.com 中，myapp 是主機，而 example.com 是網域。路徑可與一個以上的應用程式相關聯。除非指定自訂網域，否則 IBM Cloud 會在您的應用程式路徑中使用預設的共用網域。另請參閱[自訂網域 (custom domain)](#x5728384)、[網域 (domain)](#x2021210)、[端點 (endpoint)](#x2026820)、[主機 (host)](#x2002243)、[子網域 (subdomain)](#x2040080)、[統一資源定位器 (Uniform Resource Locator)](#x2042491)。
 
 ### 運行環境 (runtime)
 {: #x2391929}
@@ -559,7 +579,7 @@ Script 的集合，用於準備好程式碼以便在 {{site.data.keyword.cloud_n
 ### 網域 (domain)
 {: #x2021210}
 
-命名階層的一部分，用於指定路徑。例如，example.com。在 {{site.data.keyword.cloud_notm}} 中，網域與組織相關聯。網域物件並不直接連結至應用程式。另請參閱[自訂網域 (custom domain)](#x5728384)、[主機 (host)](#x2002243)、[組織 (organization)](#x2032585)、[路徑 (route)](#x2037338)、[子網域 (subdomain)](#x2040080)、[統一資源定位器 (Uniform Resource Locator)](#x2042491)。
+命名階層的一部分，用於指定路徑。例如，example.com。在 IBM Cloud 中，網域與組織相關聯。網域物件並不直接連結至應用程式。另請參閱[自訂網域 (custom domain)](#x5728384)、[主機 (host)](#x2002243)、[組織 (organization)](#x2032585)、[路徑 (route)](#x2037338)、[子網域 (subdomain)](#x2040080)、[統一資源定位器 (Uniform Resource Locator)](#x2042491)。
 
 ### 認證 (credential)
 {: #x2018813}
@@ -653,7 +673,7 @@ Script 的集合，用於準備好程式碼以便在 {{site.data.keyword.cloud_n
 ### 檔案共用 (file share)
 {: #x2022902}
 
-在 {{site.data.keyword.cloud_notm}} 環境中，使用者在其中儲存及共用檔案的持續性儲存空間系統。在 IBM Containers 中，使用者可以在檔案共用上裝載 Docker 磁區。
+在 IBM Cloud 環境中，使用者在其中儲存及共用檔案的持續性儲存空間系統。在 IBM Containers 中，使用者可以在檔案共用上裝載 Docker 磁區。
 
 ### 聯合 (federate)
 {: #x2763229}
@@ -797,7 +817,7 @@ Cloud Foundry 中的保存檔，其中包含應用程式及其運行環境和架
 
 請參閱 [Identity and Access Management](#x7547040)。
 
-### {{site.data.keyword.cloud_notm}}
+### IBM Cloud
 {: #x7301758}
 
 一種以雲端為基礎的開放標準平台，用於建置、管理和執行所有類型的應用程式（例如，Web、行動、海量資料和智慧型裝置）。功能包括 Java、行動後端開發、應用程式監視，以及來自生態系統合作夥伴和開放原始碼的特性；全都提供為雲端中的服務。

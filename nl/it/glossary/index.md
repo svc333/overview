@@ -3,7 +3,7 @@
 
 copyright:
   years: 2016, 2018
-lastupdated: "2018-10-05"
+lastupdated: "2018-10-16"
 
 
 ---
@@ -14,7 +14,7 @@ lastupdated: "2018-10-05"
 # Termini del glossario per {{site.data.keyword.cloud_notm}} 
 {: #glossary}
 
-Questo glossario fornisce termini e definizioni per {{site.data.keyword.cloud}}.
+Questo glossario fornisce termini e definizioni per {{site.data.keyword.cloud_notm}}.
 {:shortdesc}
 
 In questo glossario vengono utilizzati i seguenti riferimenti incrociati:
@@ -50,6 +50,11 @@ glossary, delete the text between these comment tags.
 
 ## A
 {: #glossa}
+
+### access control list
+{: #x2012793}
+
+Un elenco che gestisce, in un modo che non prevede l'utilizzo di stati, il traffico in entrata e in uscita per un sottoinsieme tramite l'utilizzo di regole. Un ACL (access control list) aiuta a fornire la sicurezza a livello di sottorete.
 
 ### token di accesso
 {: #x2113001}
@@ -167,7 +172,7 @@ Relativo a una piattaforma di sviluppo aperta e non proprietaria che include mod
 ### pacchetto di build
 {: #x7233925}
 
-Una raccolta di script che preparano il tuo codice all'esecuzione su {{site.data.keyword.cloud_notm}}. I pacchetti di build esaminano le applicazioni distribuite e scaricano e configurano quindi le eventuali applicazioni dipendenti.
+Una raccolta di script che preparano il tuo codice all'esecuzione su IBM Cloud. I pacchetti di build esaminano le applicazioni distribuite e scaricano e configurano quindi le eventuali applicazioni dipendenti.
 
 
 ## C
@@ -289,7 +294,7 @@ Una metodologia software che integra lo sviluppo delle applicazioni e le operazi
 {: #x2021210}
 
 Parte della gerarchia di denominazione che specifica la rotta. Ad esempio,
-esempio.com. In {{site.data.keyword.cloud_notm}}, i domini sono associati alle organizzazioni. Gli oggetti di dominio
+esempio.com. In IBM Cloud, i domini sono associati alle organizzazioni. Gli oggetti di dominio
 non sono associati direttamente alle applicazioni. Vedi anche [dominio personalizzato](#x5728384), [host](#x2002243), [organizzazione](#x2032585), [rotta](#x2037338), [dominio secondario](#x2040080), [Uniform Resource Locator](#x2042491).
 
 ### droplet
@@ -336,12 +341,17 @@ Un pezzo di codice che configura un'origine eventi esterna per l'attivazione di 
 ### condivisione file
 {: #x2022902}
 
-Nell'ambiente {{site.data.keyword.cloud_notm}}, un sistema di archiviazione permanente in cui gli utenti archiviano e condividono i file. In IBM Containers, gli utenti possono montare i volumi Docker sulle condivisioni file.
+Nell'ambiente cloud IBM, un sistema di archiviazione permanente in cui gli utenti archiviano e condividono i file. In IBM Containers, gli utenti possono montare i volumi Docker sulle condivisioni file.
 
 ### attiva
 {: #x2239904}
 
 Consente di attivare un trigger.
+
+### Indirizzo IP mobile
+{: #x6326428}
+
+Un indirizzo IP pubblico e instradabile che utilizza la NAT (network address translation) 1-a-1 in modo che un server possa comunicare con internet pubblico e sottorete privata in un ambiente cloud. Gli indirizzi IP mobili sono associati a un'istanza, ad esempio un'istanza del server virtuale, un programma di bilanciamento del carico oppure un gateway VPN, mediante una vNIC (virtual network interface card).
 
 ### framework
 {: #x2023472}
@@ -421,7 +431,7 @@ Vedi [infrastructure as a service](#x4585332).
 
 Consulta [Identity and Access Management](#x7547040).
 
-### {{site.data.keyword.cloud_notm}}
+### IBM Cloud
 {: #x7301758}
 
 Una piattaforma a standard aperti e basata sul cloud per sviluppare, gestire ed eseguire app di tutti i tipi, come ad esempio dispositivi smart, Big Data, mobili e web. Le funzionalità includono Java, lo sviluppo back-end mobile e il monitoraggio di applicazioni, oltre a funzioni dai partner di ecosistema e open source&mdash;il tutto fornito come un servizio nel cloud.
@@ -596,7 +606,7 @@ Vedi [organizzazione](#x2032585).
 ### organizzazione (org)
 {: #x2032585}
 
-La metodologia di raggruppamento per gli utenti in {{site.data.keyword.cloud_notm}}. Le org sono utilizzate per
+La metodologia di raggruppamento per gli utenti in IBM Cloud. Le org sono utilizzate per
 gestire le quote. Gli utenti in un'organizzazione condividono le quote di istanze di servizi e memoria. Vedi anche [dominio](#x2021210), [spazio](#x2039442).
 
 
@@ -626,7 +636,7 @@ Un ambiente di elaborazione cloud in cui l'accesso è limitato ai membri delle r
 ### repository di immagini privato
 {: #x8439215}
 
-La combinazione del registro {{site.data.keyword.cloud_notm}} di un'organizzazione e il relativo spazio dei nomi. Il repository di immagini privato viene utilizzato quando si fa riferimento a un'immagine in un comando. Vedi anche [immagine](#x2024928), [spazio dei nomi](#x2031005).
+La combinazione del registro IBM Cloud di un'organizzazione e il relativo spazio dei nomi. Il repository di immagini privato viene utilizzato quando si fa riferimento a un'immagine in un comando. Vedi anche [immagine](#x2024928), [spazio dei nomi](#x2031005).
 
 ### chiave privata
 {: #x2034701}
@@ -642,7 +652,7 @@ Una voce che è visibile solo ai proprietari dell'account e ai rispettivi accoun
 ### servizio privato
 {: #x7690456}
 
-Un servizio visibile solo ai membri di una specifica organizzazione {{site.data.keyword.cloud_notm}}.
+Un servizio visibile solo ai membri di una specifica organizzazione IBM Cloud.
 
 ### cloud pubblico
 {: #x4585370}
@@ -657,7 +667,7 @@ La connessione di una sottorete, con tutte le istanze del server virtuale colleg
 ### risorsa pubblica
 {: #x9439040}
 
-Una voce visibile a chiunque nel catalogo {{site.data.keyword.cloud_notm}}. Le risorse pubbliche possono essere create da qualsiasi provider (IBM o di terze parti). Vedi anche [risorsa privata](#x9439035).
+Una voce visibile a chiunque nel catalogo IBM Cloud. Le risorse pubbliche possono essere create da qualsiasi provider (IBM o di terze parti). Vedi anche [risorsa privata](#x9439035).
 
 ### push (eseguire il)
 {: #x2035465}
@@ -723,7 +733,8 @@ L'URL utilizzato per indirizzare le richieste a un'applicazione. Una rotta è
 formata da un host (o dominio secondario) facoltativo e un dominio
 specificati quando si distribuisce un'applicazione. Ad esempio, nell'instradamento myapp.example.com,
 myapp è l'host ed example.com è il dominio. Una
-rotta può essere associata a una o più applicazioni. A meno che non venga specificato un dominio personalizzato, nell'instradamento alla tua applicazione, {{site.data.keyword.cloud_notm}} utilizza un dominio condiviso predefinito. Consulta anche [dominio personalizzato](#x5728384), [dominio](#x2021210), [endpoint](#x2026820), [host](#x2002243), [dominio secondario](#x2040080), [Uniform Resource Locator](#x2042491).
+rotta può essere associata a una o più applicazioni. A meno che non venga specificato un dominio personalizzato,
+nell'instradamento alla tua applicazione, IBM Cloud utilizza un dominio condiviso predefinito. Consulta anche [dominio personalizzato](#x5728384), [dominio](#x2021210), [endpoint](#x2026820), [host](#x2002243), [dominio secondario](#x2040080), [Uniform Resource Locator](#x2042491).
 
 ### regola
 {: #x2037526}
@@ -791,7 +802,7 @@ Vedi [system of record](#x6735061).
 ### spazio
 {: #x2039442}
 
-Un sottogruppo all'interno di un'organizzazione {{site.data.keyword.cloud_notm}}. Agli utenti membri di un'organizzazione viene dato accesso a uno o più dei suoi spazi, con le autorizzazioni associate a uno specifico ruolo (come sviluppatore, responsabile o revisore). Qualsiasi membro dello spazio può visualizzare le applicazioni ma solo i membri con il ruolo di sviluppatore possono creare applicazioni e aggiungere istanze di servizio allo spazio. Le applicazioni e le istanze di servizio sono associate agli spazi. Vedere anche [organizzazione](#x2032585).
+Un sottogruppo all'interno di un'organizzazione IBM Cloud. Agli utenti membri di un'organizzazione viene dato accesso a uno o più dei suoi spazi, con le autorizzazioni associate a uno specifico ruolo (come sviluppatore, responsabile o revisore). Qualsiasi membro dello spazio può visualizzare le applicazioni ma solo i membri con il ruolo di sviluppatore possono creare applicazioni e aggiungere istanze di servizio allo spazio. Le applicazioni e le istanze di servizio sono associate agli spazi. Vedere anche [organizzazione](#x2032585).
 
 ### SSL
 {: #x2483907}
@@ -827,6 +838,16 @@ specifico linguaggio di programmazione oppure una combinazione di codice applica
 
 Un dominio che rappresenta una parte di un dominio più ampio. Vedi anche [dominio personalizzato](#x5728384), [dominio](#x2021210), [host](#x2002243), [rotta](#x2037338), [Uniform Resource Locator](#x2042491).
 
+### sottorete
+{: #x4282974}
+
+Vedi [rete secondaria](#x2040149).
+
+### rete secondaria (sottorete)
+{: #x2040149}
+
+Una rete divisa in sottogruppi indipendenti più piccoli che continuano ad essere interconnessi.
+
 ### system of engagement
 {: #x6528306}
 
@@ -841,7 +862,7 @@ Un sistema di archiviazione delle informazioni (come un database o un'applicazio
 anche [system of engagement](#x6528306).
 
 
-## Ma
+## T
 {: #glosst}
 
 ### template

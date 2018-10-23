@@ -3,7 +3,7 @@
 
 copyright:
   years: 2016, 2018
-lastupdated: "2018-10-05"
+lastupdated: "2018-10-16"
 
 
 ---
@@ -14,7 +14,7 @@ lastupdated: "2018-10-05"
 # {{site.data.keyword.cloud_notm}} 的词汇表术语 
 {: #glossary}
 
-本词汇表提供了 {{site.data.keyword.cloud}} 的术语和定义。
+本词汇表提供了 {{site.data.keyword.cloud_notm}} 的术语和定义。
 {:shortdesc}
 
 本词汇表中使用了以下交叉引用：
@@ -50,6 +50,11 @@ glossary, delete the text between these comment tags.
 
 ## A
 {: #glossa}
+
+### 访问控制表
+{: #x2012793}
+
+通过使用规则以无状态方式管理子网的入站和出站流量的列表。访问控制表有助于在子网级别提供安全性。
 
 ### 访问令牌 (access token)
 {: #x2113001}
@@ -158,7 +163,7 @@ IBM Db2 技术的集合，主要用于主读商业智能查询处理。BLU 加�
 ### buildpack
 {: #x7233925}
 
-脚本的集合，用于准备好代码以便在 {{site.data.keyword.cloud_notm}} 上运行。buildpack 会检查所部署的应用程序，然后下载并配置所有从属应用程序。
+脚本的集合，用于准备好代码以便在 IBM Cloud 上运行。buildpack 会检查所部署的应用程序，然后下载并配置所有从属应用程序。
 
 
 ## C
@@ -276,7 +281,7 @@ IBM Db2 技术的集合，主要用于主读商业智能查询处理。BLU 加�
 ### 域 (domain)
 {: #x2021210}
 
-命名层次结构的一部分，用于指定路径。例如，example.com。在 {{site.data.keyword.cloud_notm}} 中，域与组织相关联。域对象并不直接与应用程序绑定。另请参阅[定制域 (custom domain)](#x5728384)、[主机 (host)](#x2002243)、[组织 (organization)](#x2032585)、[路径 (route)](#x2037338)、[子域 (subdomain)](#x2040080) 和[统一资源定位符 (Uniform Resource Locator)](#x2042491)。
+命名层次结构的一部分，用于指定路径。例如，example.com。在 IBM Cloud 中，域与组织相关联。域对象并不直接与应用程序绑定。另请参阅[定制域 (custom domain)](#x5728384)、[主机 (host)](#x2002243)、[组织 (organization)](#x2032585)、[路径 (route)](#x2037338)、[子域 (subdomain)](#x2040080) 和[统一资源定位符 (Uniform Resource Locator)](#x2042491)。
 
 ### Droplet
 {: #x7470343}
@@ -319,12 +324,17 @@ Cloud Foundry 中的归档，用于包含应用程序及其运行时和框架依
 ### 文件共享 (file share)
 {: #x2022902}
 
-在 {{site.data.keyword.cloud_notm}} 环境中，供用户存储和共享文件的持久存储系统。在 IBM Containers 中，用户可以在文件共享上安装 Docker 卷。
+在 IBM 云环境中，供用户存储和共享文件的持久存储系统。在 IBM Containers 中，用户可以在文件共享上安装 Docker 卷。
 
 ### 触发 (fire)
 {: #x2239904}
 
 激活触发器。
+
+### 浮动 IP 地址 (floating IP address)
+{: #x6326428}
+
+一种可路由的公共 IP 地址，使用一对一网络地址转换 (NAT)，以便服务器可以与云环境中的公用因特网和专用子网通信。浮动 IP 地址通过虚拟网络接口卡 (vNIC) 与实例（例如，虚拟服务器实例、负载均衡器或 VPN 网关）相关联。
 
 ### 框架 (framework)
 {: #x2023472}
@@ -398,7 +408,7 @@ Cloud Foundry 中的归档，用于包含应用程序及其运行时和框架依
 
 请参阅[身份和访问权管理 (Identity and Access Management)](#x7547040)。
 
-### {{site.data.keyword.cloud_notm}}
+### IBM Cloud
 {: #x7301758}
 
 一种基于云的开放标准平台，用于构建、管理和运行所有类型的应用程序，例如 Web、移动、大数据和智能设备。所具有的功能包括 Java、移动后端开发和应用程序监视，以及来自生态系统合作伙伴和开放式源代码的功能，所有这些在云中均以“即服务”形式提供。
@@ -561,7 +571,7 @@ Java 归档文件。
 ### 组织 (organization, org)
 {: #x2032585}
 
-在 {{site.data.keyword.cloud_notm}} 中对用户进行分组的方法。组织用于管理配额。组织中的用户将共享内存和服务实例配额。另请参阅[域 (domain)](#x2021210) 和[空间 (space)](#x2039442)。
+在 IBM Cloud 中对用户进行分组的方法。组织用于管理配额。组织中的用户将共享内存和服务实例配额。另请参阅[域 (domain)](#x2021210) 和[空间 (space)](#x2039442)。
 
 
 ## P
@@ -590,7 +600,7 @@ Java 归档文件。
 ### 专用映像存储库 (private image repository)
 {: #x8439215}
 
-组织的 {{site.data.keyword.cloud_notm}} 注册表及其名称空间的组合。在命令中引用映像时，会使用专用映像存储库。另请参阅[映像 (image)](#x2024928) 和[名称空间 (namespace)](#x2031005)。
+组织的 IBM Cloud 注册表及其名称空间的组合。在命令中引用映像时，会使用专用映像存储库。另请参阅[映像 (image)](#x2024928) 和[名称空间 (namespace)](#x2031005)。
 
 ### 专用密钥 (private key)
 {: #x2034701}
@@ -605,7 +615,7 @@ Java 归档文件。
 ### 私有服务 (private service)
 {: #x7690456}
 
-仅对指定 {{site.data.keyword.cloud_notm}} 组织的成员可视的服务。
+仅对指定 IBM Cloud 组织的成员可视的服务。
 
 ### 公共云 (public cloud)
 {: #x4585370}
@@ -620,7 +630,7 @@ Java 归档文件。
 ### 公共资源 (public resource)
 {: #x9439040}
 
-在 {{site.data.keyword.cloud_notm}}“目录”中对所有人可视的条目。公共资源可以由任何提供者（IBM 或第三方提供者）构建。另请参阅[专用资源 (private resource)](#x9439035)。
+对 IBM Cloud 目录中的所有人可视的条目。公共资源可以由任何提供者（IBM 或第三方提供者）构建。另请参阅[专用资源 (private resource)](#x9439035)。
 
 ### 推送 (push)
 {: #x2035465}
@@ -679,7 +689,7 @@ Java 归档文件。
 ### 路径 (route)
 {: #x2037338}
 
-用于将请求定向到应用程序的 URL。路径由推送应用程序时指定的可选主机（或子域）以及域构成。例如，在路径 myapp.example.com 中，myapp 是主机，example.com 是域。路径可以与一个或多个应用程序相关联。除非指定了定制域，否则 {{site.data.keyword.cloud_notm}} 会使用您应用程序路径中的缺省共享域。另请参阅[定制域 (custom domain)](#x5728384)、[域 (domain)](#x2021210)、[端点 (endpoint)](#x2026820)、[主机 (host)](#x2002243)、[子域 (subdomain)](#x2040080) 和[统一资源定位符 (Uniform Resource Locator)](#x2042491)。
+用于将请求定向到应用程序的 URL。路径由推送应用程序时指定的可选主机（或子域）以及域构成。例如，在路径 myapp.example.com 中，myapp 是主机，example.com 是域。路径可以与一个或多个应用程序相关联。除非指定了定制域，否则 IBM Cloud 会使用您应用程序的路径中的缺省共享域。另请参阅[定制域 (custom domain)](#x5728384)、[域 (domain)](#x2021210)、[端点 (endpoint)](#x2026820)、[主机 (host)](#x2002243)、[子域 (subdomain)](#x2040080) 和[统一资源定位符 (Uniform Resource Locator)](#x2042491)。
 
 ### 规则 (rule)
 {: #x2037526}
@@ -744,7 +754,7 @@ Java 归档文件。
 ### 空间 (space)
 {: #x2039442}
 
-{{site.data.keyword.cloud_notm}} 组织内的子组。作为组织成员的用户有权访问该组织的一个或多个空间，具体的许可权与特定角色（例如开发者、管理员或审计员）相关联。空间的任何成员都可以查看应用程序，但只有角色为开发者的成员才能创建应用程序和向空间添加服务实例。应用程序和服务实例与空间相关联。另请参阅[组织 (organization)](#x2032585)。
+IBM Cloud 组织内的子组。作为组织成员的用户有权访问该组织的一个或多个空间，具体的许可权与特定角色（例如开发者、管理员或审计员）相关联。空间的任何成员都可以查看应用程序，但只有角色为开发者的成员才能创建应用程序和向空间添加服务实例。应用程序和服务实例与空间相关联。另请参阅[组织 (organization)](#x2032585)。
 
 ### SSL
 {: #x2483907}
@@ -775,6 +785,16 @@ Java 归档文件。
 {: #x2040080}
 
 一种域，用于构成更大的域。另请参阅[定制域 (custom domain)](#x5728384)、[域 (domain)](#x2021210)、[主机 (host)](#x2002243)、[路径 (route)](#x2037338) 和[统一资源定位符 (Uniform Resource Locator)](#x2042491)。
+
+### 子网 (subnet)
+{: #x4282974}
+
+请参阅[子网 (subnetwork)](#x2040149)。
+
+### 子网 (subnetwork, subnet)
+{: #x2040149}
+
+划分为较小的独立子组但这些子组仍互连的网络。
 
 ### 全接触系统 (system of engagement)
 {: #x6528306}
