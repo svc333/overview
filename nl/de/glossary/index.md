@@ -3,7 +3,7 @@
 
 copyright:
   years: 2016, 2018
-lastupdated: "2018-10-05"
+lastupdated: "2018-10-16"
 
 
 ---
@@ -14,7 +14,7 @@ lastupdated: "2018-10-05"
 # Glossareinträge für {{site.data.keyword.cloud_notm}} 
 {: #glossary}
 
-In diesem Glossar werden Begriffe und Definitionen für {{site.data.keyword.cloud}} bereitgestellt.
+In diesem Glossar werden Begriffe und Definitionen für {{site.data.keyword.cloud_notm}} bereitgestellt.
 {:shortdesc}
 
 Folgende Querverweise werden in diesem Glossar verwendet:
@@ -158,7 +158,7 @@ Während der Authentifizierung angeforderte Informationen, die einen Benutzer, G
 ### Bereich
 {: #x2039442}
 
-Eine Untergruppe innerhalb einer {{site.data.keyword.cloud_notm}}-Organisation. Benutzer, die Mitglieder einer Organisation sind, erhalten Zugriff auf einen oder mehrere ihrer Bereiche, wobei die Berechtigungen einer bestimmten Rolle zugeordnet sind (z. B. Entwickler, Manager oder Prüfer). Jedes Mitglied des Bereichs kann Apps anzeigen, aber nur Mitglieder mit der Rolle des Entwicklers können Apps erstellen und dem Bereich Serviceinstanzen hinzufügen. Apps und Serviceinstanzen werden den Bereichen zugeordnet. Siehe auch [Organisation](#x2032585).
+Eine Untergruppe innerhalb einer IBM Cloud-Organisation. Benutzer, die Mitglieder einer Organisation sind, erhalten Zugriff auf einen oder mehrere ihrer Bereiche, wobei die Berechtigungen einer bestimmten Rolle zugeordnet sind (z. B. Entwickler, Manager oder Prüfer). Jedes Mitglied des Bereichs kann Apps anzeigen, aber nur Mitglieder mit der Rolle des Entwicklers können Apps erstellen und dem Bereich Serviceinstanzen hinzufügen. Apps und Serviceinstanzen werden den Bereichen zugeordnet. Siehe auch [Organisation](#x2032585).
 
 ### Bereitstellung
 {: #x2104544}
@@ -193,7 +193,7 @@ Eine Vorlage, die genau eine Anwendung und die zugehörige Laufzeitumgebung sowi
 ### Buildpack
 {: #x7233925}
 
-Eine Sammlung von Scripts zur Vorbereitung Ihres Codes für die Ausführung in {{site.data.keyword.cloud_notm}}. Buildpacks prüfen bereitgestellte Anwendungen und laden anschließend abhängige Anwendungen herunter und konfigurieren diese.
+Eine Sammlung von Scripts zur Vorbereitung Ihres Codes für die Ausführung in IBM Cloud. Buildpacks prüfen bereitgestellte Anwendungen und laden anschließend abhängige Anwendungen herunter und konfigurieren diese.
 
 
 ## C
@@ -250,7 +250,7 @@ Eine Komponente in einer Benutzerschnittstelle, die für den Benutzer eine umfas
 ### Dateifreigabe
 {: #x2022902}
 
-Ein persistentes Speichersystem in der {{site.data.keyword.cloud_notm}}-Umgebung, in dem Benutzer Dateien speichern und freigeben. Benutzer können in IBM Containern Docker-Datenträger für die Dateifreigabe anhängen.
+Ein persistentes Speichersystem in der IBM Cloudumgebung, in dem Benutzer Dateien speichern und freigeben. Benutzer können in IBM Containern Docker-Datenträger für die Dateifreigabe anhängen.
 
 ### Datenspeicher
 {: #x2052849}
@@ -275,7 +275,7 @@ Eine Software-Methodik, durch die Anwendungsentwicklung und IT-Betrieb so integr
 ### Domäne
 {: #x2021210}
 
-Teil einer Benennungshierarchie, mit dem eine Route angegeben wird. Beispiel: example.com. In {{site.data.keyword.cloud_notm}} werden Domänen Organisationen zugeordnet. Domänenobjekte werden nicht direkt an Apps gebunden. Siehe auch [Angepasste Domäne](#x5728384), [Host](#x2002243), [Organisation](#x2032585), [Route](#x2037338), [Unterdomäne](#x2040080) und [Uniform Resource Locator](#x2042491).
+Teil einer Benennungshierarchie, mit dem eine Route angegeben wird. Beispiel: example.com. In IBM Cloud werden Domänen Organisationen zugeordnet. Domänenobjekte werden nicht direkt an Apps gebunden. Siehe auch [Angepasste Domäne](#x5728384), [Host](#x2002243), [Organisation](#x2032585), [Route](#x2037338), [Unterdomäne](#x2040080) und [Uniform Resource Locator](#x2042491).
 
 ### Drittanbieter
 {: #x2877945}
@@ -401,6 +401,11 @@ Siehe [Infrastructure as a Service](#x4585332).
 {: #x2193801}
 
 Siehe [Identity and Access Management](#x7547040).
+
+### IBM Cloud
+{: #x7301758}
+
+Eine cloudbasierte Plattform mit offenen Standards für die Erstellung, Verwaltung und Ausführung von Apps aller Typen, z. B. Web- oder mobile Geräte sowie Big Data- oder intelligente mobile Endgeräte. Das Leistungsspektrum umfasst Java, Back-End-Entwicklung für mobile Anwendungen und Anwendungsüberwachung sowie Funktionen von Ökosystempartnern und Open Source. Alle Funktionen werden als Service ('as-a-Service') in der Cloud zur Verfügung gestellt.
 
 ### Identity and Access Management (IAM)
 {: #x7547040}
@@ -556,7 +561,7 @@ Eine Cloud-Computing-Umgebung, in der der Zugriff auf standardisierte Ressourcen
 ### Öffentliche Ressource
 {: #x9439040}
 
-Ein Eintrag, der für jeden im {{site.data.keyword.cloud_notm}}-Katalog sichtbar ist. Öffentliche Ressourcen können von jedem Anbieter (von IBM oder von anderen Anbietern) erstellt werden. Siehe auch [Private Ressource](#x9439035).
+Ein Eintrag, der für jeden im IBM Cloud-Katalog sichtbar ist. Öffentliche Ressourcen können von jedem Anbieter (von IBM oder von anderen Anbietern) erstellt werden. Siehe auch [Private Ressource](#x9439035).
 
 ### Öffentliches Gateway
 {: #x9594389}
@@ -576,7 +581,7 @@ Siehe [Organisation](#x2032585).
 ### Organisation (Org)
 {: #x2032585}
 
-Die Gruppierungsmethodik für Benutzer in {{site.data.keyword.cloud_notm}}. Organisationen werden zum Verwalten von Kontingenten verwendet. Die Benutzer einer Organisation nutzen Speicher und Serviceinstanzen gemeinsam. Siehe auch [Domäne](#x2021210), [Bereich](#x2039442).
+Die Gruppierungsmethodik für Benutzer in IBM Cloud. Organisationen werden zum Verwalten von Kontingenten verwendet. Die Benutzer einer Organisation nutzen Speicher und Serviceinstanzen gemeinsam. Siehe auch [Domäne](#x2021210), [Bereich](#x2039442).
 
 
 ## P
@@ -610,12 +615,12 @@ Ein algorithmisches Muster, das verwendet wird, um Nachrichten zu verschlüsseln
 ### Privater Service
 {: #x7690456}
 
-Ein Service, der nur für Mitglieder einer bestimmten {{site.data.keyword.cloud_notm}}-Organisation sichtbar ist.
+Ein Service, der nur für Mitglieder einer bestimmten IBM Cloud-Organisation sichtbar ist.
 
 ### Privates Image-Repository
 {: #x8439215}
 
-Die Kombination aus der {{site.data.keyword.cloud_notm}}-Registry einer Organisation und ihrem Namensbereich. Ein privates Image-Repository wird verwendet, wenn in einem Befehl auf eine Image verwiesen wird. Siehe auch [Image](#x2024928) und [Namensbereich](#x2031005).
+Die Kombination aus der IBM Cloud-Registry einer Organisation und ihrem Namensbereich. Ein privates Image-Repository wird verwendet, wenn in einem Befehl auf eine Image verwiesen wird. Siehe auch [Image](#x2024928) und [Namensbereich](#x2031005).
 
 ### Push-Benachrichtigung
 {: #x5599582}
@@ -680,7 +685,7 @@ Ein Bereitstellungsverfahren, bei dem Continuous Delivery aufgrund synchronisier
 ### Route
 {: #x2037338}
 
-Die verwendete URL, um Anforderungen an eine Anwendung zu senden. Eine Route besteht aus einem optionalen Host (oder einer Unterdomäne) und einer Domäne, die bei der Push-Operation für eine Anwendung angegeben werden.  Beispiel: In der Route 'myapp.example.com' ist 'myapp' der Host und 'example.com' ist die Domäne. Eine Route kann einer oder mehreren Anwendungen zugeordnet sein. Wenn keine angepasste Domäne angegeben ist, arbeitet {{site.data.keyword.cloud_notm}} mit einer gemeinsamen Standarddomäne in der Route für Ihre Anwendung. Siehe auch [Angepasste Domäne](#x5728384), [Domäne](#x2021210), [Endpunkt](#x2026820), [Host](#x2002243), [Unterdomäne](#x2040080), [Uniform Resource Locator](#x2042491).
+Die verwendete URL, um Anforderungen an eine Anwendung zu senden. Eine Route besteht aus einem optionalen Host (oder einer Unterdomäne) und einer Domäne, die bei der Push-Operation für eine Anwendung angegeben werden.  Beispiel: In der Route 'myapp.example.com' ist 'myapp' der Host und 'example.com' ist die Domäne. Eine Route kann einer oder mehreren Anwendungen zugeordnet sein. Wenn keine angepasste Domäne angegeben ist, arbeitet IBM Cloud mit einer gemeinsamen Standarddomäne in der Route für Ihre Anwendung. Siehe auch [Angepasste Domäne](#x5728384), [Domäne](#x2021210), [Endpunkt](#x2026820), [Host](#x2002243), [Unterdomäne](#x2040080), [Uniform Resource Locator](#x2042491).
 
 ## S
 {: #glosss}
@@ -704,11 +709,6 @@ Eine Cloud-Erweiterung, die sofort einsetzbare Funktionen wie z. B. Datenbanken,
 {: #x2213318}
 
 Ein Authentifizierungsprozess, bei dem ein Benutzer durch Eingabe nur einer Benutzer-ID mit Kennwort auf mehrere Systeme oder Anwendungen zugreifen kann.
-
-### {{site.data.keyword.cloud_notm}}
-{: #x7301758}
-
-Eine cloudbasierte Plattform mit offenen Standards für die Erstellung, Verwaltung und Ausführung von Apps aller Typen, z. B. Web- oder mobile Geräte sowie Big Data- oder intelligente mobile Endgeräte. Das Leistungsspektrum umfasst Java, Back-End-Entwicklung für mobile Anwendungen und Anwendungsüberwachung sowie Funktionen von Ökosystempartnern und Open Source. Alle Funktionen werden als Service ('as-a-Service') in der Cloud zur Verfügung gestellt.
 
 ### Sitzung
 {: #x2004539}
@@ -764,6 +764,16 @@ Ein Informationsspeichersystem (z. B. eine Datenbank oder eine Anwendung), das G
 ## T
 {: #glosst}
 
+### Teilnetz
+{: #x4282974}
+
+Informationen hierzu finden Sie unter [Teilnetz](#x2040149).
+
+### Teilnetz (Teilnetz)
+{: #x2040149}
+
+Ein Netz, das in kleinere unabhängige Untergruppen unterteilt ist, die noch miteinander verbunden sind.
+
 ### Trusted-Root-Zertifikat
 {: #x2042234}
 
@@ -811,6 +821,11 @@ Siehe [Uniform Resource Locator](#x2042491).
 
 ## V
 {: #glossv}
+
+### Variable IP-Adresse
+{: #x6326428}
+
+Eine öffentliche, weiterleitbare IP-Adresse, von der eine Eins-zu-eins-Netzadressumsetzung (NAT) verwendet wird, sodass ein Server mit dem öffentlichen Internet und dem privaten Teilnetz in einer Cloud-Umgebung kommunizieren kann. Variable IP-Adressen werden über eine virtuelle Netzschnittstellenkarte (vNIC) einer Instanz (zum Beispiel einer Instanz eines virtuellen Servers), einer Lastausgleichsfunktion oder einem VPN-Gateway zugeordnet.
 
 ### Verfügbarkeitszone
 {: #x7018171}
@@ -905,6 +920,11 @@ Eine anerkannte Drittorganisation oder ein anerkanntes Drittunternehmen, das die
 {: #x2070723}
 
 Eine unabhängige Fehlerdomäne. Bei einer Zone handelt es sich um eine Abstraktion zur Unterstützung einer verbesserten Fehlertoleranz und einer reduzierten Latenz.
+### Zugriffssteuerungsliste
+{: #x2012793}
+
+Eine Liste, von der der eingehende und ausgehende Datenverkehr für ein Teilnetz mithilfe von Regeln ohne Zustandsüberwachung verwaltet wird. Eine Zugriffssteuerungsliste dient zur Gewährleistung der Sicherheit auf Teilnetzebene.
+
 ### Zugriffstoken
 {: #x2113001}
 
