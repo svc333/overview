@@ -3,7 +3,7 @@
 
 copyright:
   years: 2015, 2018
-lastupdated: "2018-07-17"
+lastupdated: "2018-10-25"
 
 ---
 
@@ -33,7 +33,7 @@ If you linked your {{site.data.keyword.cloud_notm}} and your SoftLayer accounts,
 
 You can search for resources from anywhere in the {{site.data.keyword.cloud_notm}} console. Type the name of a resource in the search field in the console menu bar.
 
-Type the `/` key on your keyboard to navigate your cursor to the search field.
+Press the Forward Slash key (/) on your keyboard to navigate your cursor to the search field.
 {: tip}
 
 ## Managing resources on the dashboard
