@@ -23,7 +23,7 @@ Stay up-to-date with the new features and services that are available in {{site.
 ### Assign account management access to others
 New as of: 30 October 2018
 
-With {{site.data.keyword.cloud_notm}} Identity and Access Management (IAM), you can delegate common tasks that you complete as an account administrator to another user in your account. By creating an access policy on one or all of the available account management services, you can easily delegate responsibilities such as inviting and removing users, managing access groups, managing service IDs, maintaining private catalog services, and even monitoring billing and tracking usage. There are four individual account management services and an all services option that you can use to set up access policies:
+With {{site.data.keyword.cloud_notm}} Identity and Access Management (IAM), you can enable other useres in your account the ability to perform common account management tasks. By creating an access policy on one or all of the available account management services, you can easily delegate responsibilities such as inviting and removing users, managing access groups, managing service IDs, maintaining private catalog services, and even monitoring billing and tracking usage. There are four individual account management services and an all services option that you can use to set up access policies:
 
 * User Management for inviting and removing users
 * IAM Access Groups for creating, editing, deleting, updating, and assigning access 
