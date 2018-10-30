@@ -4,7 +4,7 @@ copyright:
 
   years: 2015, 2018
 
-lastupdated: "2018-09-28"
+lastupdated: "2018-10-30"
 
 ---
 
@@ -19,6 +19,19 @@ Stay up-to-date with the new features and services that are available in {{site.
 
 ## {{site.data.keyword.Bluemix_notm}} platform
 {: #platform_category}
+
+### Assign account management access to others
+New as of: 30 October 2018
+
+With {{site.data.keyword.cloud_notm}} Identity and Access Management (IAM), you can delegate common tasks that you complete as an account administrator to another user in your account. By creating an access policy on one or all of the available account management services, you can easily delegate responsibilities such as inviting and removing users, managing access groups, managing service IDs, maintaining private catalog services, and even monitoring billing and tracking usage. There are four individual account management services and an all services option that you can use to set up access policies:
+
+* User Management for inviting and removing users
+* IAM Access Groups for creating, editing, deleting, updating, and assigning access 
+* IAM Identity Service for viewing, creating, deleting, and assigning access to service IDs and associated API keys across the account
+* Global resource catalog for viewing private catalog offerings and updating the metadata and visibility for the offerings
+* All account management services for access to each of the individual account management service options based on the assigned role as well as access to billing and usage tracking.
+
+For more information on the tasks that a user can do based on which account management service they have a policy on and which role they are assigned, see [Example platform management roles and actions for account management services](/docs/iam/users_roles.html#platformrolestable2).
 
 ### Searching for resources
 New as of: 17 July 2018
