@@ -3,7 +3,7 @@
 
 copyright:
   years: 2016, 2018
-lastupdated: "2018-06-14"
+lastupdated: "2018-11-01"
 
 ---
 
@@ -70,32 +70,6 @@ The dashboard provides various services to fit your cloud infrastructure needs.
 {{site.data.keyword.cloud_notm}} infrastructure offers powerful bare metal servers and flexible virtual servers in a single seamless platform. All are provided on demand and billed on monthly or hourly terms. Bare metal servers provide the raw horsepower for your processor-intensive and disk I/O-intensive workloads and can be configured to your exact specifications. Virtual servers allow for high speed of deployment, flexible scalability, and pay-as-you-go billing. For high performance computing, give your cloud a boost with graphics processing unit (GPU) servers, available by the hour or monthly.
 
 {{site.data.keyword.cloud_notm}} infrastructure offerings are connected to a three-tiered network, segmenting public, private, and management traffic. Infrastructure on a customer's {{site.data.keyword.cloud_notm}} account might transfer data between such infrastructure across the private network at no cost. Infrastructure offerings, such as bare metal servers, virtual servers, and cloud storage, connect to other applications and services in the {{site.data.keyword.cloud_notm}} catalog, such as Watson services, containers, or runtimes, across the public network. Data transfer between those two types of offerings is metered and charged at standard public network bandwidth rates.
-
-## Regions
-{: #ov_intro_reg}
-
-An {{site.data.keyword.cloud_notm}} region is a defined geographical territory that you can deploy your apps to. You can create apps and service instances in different regions with the same {{site.data.keyword.cloud_notm}} infrastructure for application management and the same usage details view for billing. You can deploy your apps to the region that is nearest to your customers to get low application latency. To address security issues, you can also select the region where you want to keep the application data. When you build apps in multiple regions, if one region becomes unavailable, the apps that are in the other regions continue to run. Your resource allowance is the same for each region that you use.
-
-Global load balancing for the console ensures that if for some reason the nearest geographical region for you is down, the console displays the information for the next closest region. This way, you can always access the console without taking any action to access the information you need.
-
-From the dashboard, you can view all resources across all regions by default. If you want to view and work with resources in a specific region, expand the **LOCATION** menu, and select a region from the list. 
-
-You can also use the command line interface to connect to the {{site.data.keyword.cloud_notm}} region that you want to work with by using the `ibmcloud api` command and specify the API endpoint of the region. For example, enter the following command to connect to {{site.data.keyword.cloud_notm}} Europe United Kingdom region:
-
-```
-ibmcloud api https://api.eu-gb.bluemix.net
-```
-
-A unique prefix is assigned to each region. {{site.data.keyword.cloud_notm}} provides the following regions and region prefixes.
-
-| **Region name** | **Geographic location** | **cf API endpoint** |
-|-----------------|-------------------------|-------------------|
-| US South region | Dallas, US | api.ng.bluemix.net | 
-| US East region | Washington, DC, US | api.us-east.bluemix.net |
-| United Kingdom region | London, England | api.eu-gb.bluemix.net | 
-| Sydney region | Sydney, Australia | api.au-syd.bluemix.net | 
-| Germany region | Frankfurt, Germany | api.eu-de.bluemix.net | 
-{: caption="Table 1. {{site.data.keyword.cloud_notm}} region list" caption-side="top"}
 
 ## {{site.data.keyword.cloud_notm}} resilience
 {: #resiliency}

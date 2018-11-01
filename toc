@@ -16,6 +16,7 @@ What is IBM Cloud
     security.md
     dev-journey.md
     whats-new/index.md
+    ha-regions.md
     feedback.md
 
     {: .topicgroup}
@@ -25,6 +26,7 @@ What is IBM Cloud
     {: .navgroup-end}
 
     {: .navgroup id="reference"}
+    data-centers.md
     crn.md
     glossary/index.md
     nls.md
