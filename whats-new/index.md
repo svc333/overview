@@ -4,7 +4,7 @@ copyright:
 
   years: 2015, 2018
 
-lastupdated: "2018-10-30"
+lastupdated: "2018-11-01"
 
 ---
 
@@ -19,6 +19,23 @@ Stay up-to-date with the new features and services that are available in {{site.
 
 ## {{site.data.keyword.Bluemix_notm}} platform
 {: #platform_category}
+
+### Updated global location names for {{site.data.keyword.cloud_notm}}
+New as of: 1 November 2018
+
+As {{site.data.keyword.cloud_notm}} continues to expand our global availability footprint, we’re updating our location naming structure to better support an understandable, consistent hierarchy of geographies, regions, and data centers around the world. If you’re familiar with our current global regions, you’ll recognize names like US South and Sydney. We’re aligning these location names to the names of the city in which the data centers physically exist.
+
+For now, the programmatic IDs are not changing, so there’s no impact from an API perspective. Here is a table that shows the old and new location names. For more information and a comprehensive list of data centers and regions, see [Service availability](docs/resources/services_region.html).
+
+| Previous location display name | New location display name | Code |
+|----------|---------|---------|
+| US South | Dallas | us-south | 
+| US East | Washington DC | us-east |
+| United Kingdom | London | eu-gb |
+| Germany | Frankfurt | eu-de |
+| Sydney | Sydney | au-syd |
+| AP North | Tokyo | jp-tok |
+{: caption="Table 1. New location names" caption-side="top"}
 
 ### Assign account management access to others
 New as of: 30 October 2018
