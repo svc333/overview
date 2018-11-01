@@ -43,4 +43,4 @@ A unique prefix is assigned to each location. {{site.data.keyword.cloud_notm}} p
 | Washington DC | api.us-east.bluemix.net |
 {: caption="Table 1. {{site.data.keyword.cloud_notm}} location list" caption-side="top"}
 
-When you deploy infrastructure resources, you have more choice about where your content is located. You can select a location, or you can select from a list of the data centers in {{site.data.keyword.Bluemix_notm}}. For more information, see [{{site.data.keyword.cloud_notm}} data centers](data-centers.html)
+When you deploy infrastructure resources, you have more choice about where your content is located. You can select a location, or you can select from a list of the data centers in {{site.data.keyword.Bluemix_notm}}. For more information, see [{{site.data.keyword.cloud_notm}} data centers](data-centers.html).
