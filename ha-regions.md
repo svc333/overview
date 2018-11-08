@@ -23,7 +23,6 @@ To address security issues, you can also select the location where you want to k
 
 Global load balancing for the console ensures that if the nearest geographical location for you is down, the console displays the information for the next closest location. This way, you can always access the console without taking any action to access the information you need.
 
-<!---This is a pre-pup topic. Post pup, the dashboard will have a Location status widget, which will show geographies as a summary. This paragraph will change and we need to add a paragraph to explain the continents are a summary in the widget.-->
 From the dashboard, you can view all resources across all locations by default. If you want to view and work with resources in a specific location, expand the **LOCATION** menu, and select a location from the list. 
 
 You can also use the command line interface to connect to the {{site.data.keyword.cloud_notm}} location that you want to work with by using the `ibmcloud api` command and specify the API endpoint of the location. For example, enter the following command to connect to {{site.data.keyword.cloud_notm}} London:
