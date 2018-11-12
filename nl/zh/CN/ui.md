@@ -3,7 +3,7 @@
 
 copyright:
   years: 2015, 2018
-lastupdated: "2018-07-17"
+lastupdated: "2018-10-25"
 
 ---
 
@@ -33,10 +33,10 @@ lastupdated: "2018-07-17"
 
 您可以在 {{site.data.keyword.cloud_notm}} 控制台中的任何位置搜索资源。在控制台菜单栏的搜索字段中输入资源的名称。
 
-输入键盘上的 `/` 键可使光标导航至搜索字段。
+按键盘上的“正斜杠”键 (/) 可将光标移动到搜索字段。
 {: tip}
 
-## 在仪表板上管理资源
+## 使用仪表板管理资源
 {: #dashboardview}
 
 可以使用仪表板来查看和使用 {{site.data.keyword.cloud_notm}} 资源和 Cloud Foundry 服务实例。请参阅[什么是资源？](/docs/resources/acct_resources.html#resource)。

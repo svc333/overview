@@ -4,7 +4,7 @@ copyright:
 
   years: 2015, 2018
 
-lastupdated: "2018-09-28"
+lastupdated: "2018-11-02"
 
 ---
 
@@ -19,6 +19,37 @@ lastupdated: "2018-09-28"
 
 ## {{site.data.keyword.Bluemix_notm}} 平台
 {: #platform_category}
+
+### 已更新 {{site.data.keyword.cloud_notm}} 的全球位置名稱
+文件日期：2018 年 11 月 1 日
+
+隨著 {{site.data.keyword.cloud_notm}} 持續擴展廣域可用性覆蓋範圍，我們更新了位置命名結構，以更適當地支援世界各地的地理位置、地區及資料中心之可理解的一致性階層。如果您熟悉我們目前的全球地區，您將會認出像美國南部和雪梨這類名稱。我們會使這些位置名稱與資料中心實際所在的城市名稱一致。
+
+目前，程式化 ID 不變，因此從 API 角度來看沒有任何影響。以下表格顯示新舊位置名稱。如需相關資訊及資料中心和地區的完整清單，請參閱[服務可用性](docs/resources/services_region.html)。
+
+| 先前的位置顯示名稱 | 新的位置顯示名稱 | 代碼 |
+|----------|---------|---------|
+|美國南部 | 達拉斯 | us-south | 
+|美國東部 | 華盛頓特區 | us-east |
+|英國 | 倫敦 | eu-gb |
+|德國 | 法蘭克福 | eu-de |
+|雪梨 | 雪梨 | au-syd |
+|亞太地區北部 | 東京 | jp-tok |
+{: caption="表 1. 新的位置名稱" caption-side="top"}
+
+### 將帳戶管理存取權指派給其他人
+文件日期：2018 年 10 月 30 日
+
+使用 {{site.data.keyword.cloud_notm}} Identity and Access Management (IAM)，您可以讓帳戶中的其他使用者能夠執行一般帳戶管理作業。藉由在一個或所有可用帳戶管理服務上建立存取原則，您可以輕鬆地委派責任，例如，邀請及移除使用者、管理存取群組、管理服務 ID、維護專用型錄服務，甚至是監視計費及追蹤用量。您可以使用以下四個個別的帳戶管理服務及所有服務選項，來設定存取原則：
+
+* 使用者管理：用於邀請及移除使用者
+* IAM 存取群組：用於建立、編輯、刪除、更新及指派存取權 
+* IAM 身分服務：用於檢視、建立、刪除及指派帳戶中服務 ID 與相關聯 API 金鑰的存取權
+* 廣域資源型錄：用於檢視專用型錄供應項目，以及更新供應項目的 meta 資料和可見性
+* 所有帳戶管理服務：用於根據指派的角色存取每一個個別的帳戶管理服務選項，以及存取計費和用量追蹤。
+
+如需使用者可以根據其具有原則的帳戶管理服務以及其獲指派的角色而執行之作業的相關資訊，請參閱[帳戶管理服務的平台管理角色及動作範例](/docs/iam/users_roles.html#platformrolestable2)。
+
 
 ### 搜尋資源
 文件日期：2018 年 7 月 17 日
@@ -90,7 +121,7 @@ lastupdated: "2018-09-28"
 
 在 {{site.data.keyword.Bluemix_notm}} 帳戶內引進[資源群組](/docs/overview/resource-groups.html#whatis)開啟了指派存取權的新方式。使用者及服務 ID 可以獲指派資源群組內所有服務的存取權，讓您可以同時快速地指派多個資源的存取權。您也可以僅指派資源群組內部分服務的存取權來自訂每一個使用者或服務 ID 的存取權，或僅選擇將個別資源的存取權往下指派給服務實例層次。
 
-如需您可以使用 IAM 充分運用之特性的相關資訊，請參閱 [IAM 所提供的功能為何？](/docs/iam/index.html#features)
+如需您可以使用 IAM 充分運用之特性的相關資訊，請參閱 [IAM 所提供的特性為何？](/docs/iam/index.html#features)
 
 ### 自訂儀表板視圖
 文件日期：2017 年 11 月 16 日
@@ -644,7 +675,7 @@ IBM App Launch for {{site.data.keyword.Bluemix_notm}} 服務是一個實驗性�
 * 自訂行事曆事件，以符合您的組織。
 * 使用電子郵件及 Slack 類型作業進行版本通知。
 
-### dashDB for Transactions 已重新命名為 {{site.data.keyword.DB2_on_Cloud_short}}
+### dashDB for Transactions 已重新命名為 {{site.data.keyword.DB2OnCloud_short}}
 文件日期：2017 年 6 月 14 日
 
 IBM {{site.data.keyword.DB2OnCloud_short}} 是 dashDB for Transactions 的新名稱。進行這項重新命名時，先前的自我管理 IBM {{site.data.keyword.DB2OnCloud_short}} 服務也會重新命名為 IBM Db2 Hosted。此時只會更新顯示名稱，因此任何 API 或指令行介面都會保持不變。

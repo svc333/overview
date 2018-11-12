@@ -4,7 +4,7 @@ copyright:
 
   years: 2015, 2018
 
-lastupdated: "2018-09-28"
+lastupdated: "2018-11-02"
 
 ---
 
@@ -19,6 +19,37 @@ lastupdated: "2018-09-28"
 
 ## {{site.data.keyword.Bluemix_notm}} 平台
 {: #platform_category}
+
+### 已更新 {{site.data.keyword.cloud_notm}} 的全球位置名
+最新更新日期：2018 年 11 月 1 日
+
+{{site.data.keyword.cloud_notm}} 继续扩展我们的全球可用性占用量，我们将更新位置命名结构，以便更好地支持全球各地地理区域、区域和数据中心的可理解、一致的层次结构。如果您熟悉我们当前的全球区域，那么将会识别像美国南部和悉尼这样的名称。我们正在将这些位置名称与数据中心实际存在的城市的名称对应。
+
+现在，程序化标识未更改，所以从 API 的角度来看没有影响。下表显示新旧位置名称。有关更多信息以及数据中心与区域的完整列表，请参阅[服务可用性](docs/resources/services_region.html)。
+
+|原位置显示名称| 新位置显示名称| 代码|
+|----------|---------|---------|
+|美国南部|达拉斯| us-south | 
+|美国东部|华盛顿特区| us-east |
+|英国|伦敦| eu-gb |
+|德国| 法兰克福| eu-de |
+|悉尼|悉尼| au-syd |
+|亚太地区北部|东京| jp-tok |
+{: caption="表 1. 新位置名称" caption-side="top"}
+
+### 将帐户管理访问权分配给其他人
+最新更新日期：2018 年 10 月 30 日
+
+对于 {{site.data.keyword.cloud_notm}} Identity and Access Management (IAM)，您可以使帐户中其他用户具有执行公共帐户管理任务的能力。通过在一个或所有可用帐户管理服务上创建访问权策略，您可以轻松委派责任，如邀请和除去用户，管理访问组，管理服务标识，维护私有目录服务，甚至监视计费和跟踪使用情况。有四个单独的帐户管理服务和一个可用于设置访问策略的“所有服务”选项：
+
+* 用于邀请和除去用户的用户管理
+* 用于创建、编辑、删除、更新和分配访问权的 IAM 访问组 
+* IAM 身份服务，用于查看、创建、删除和分配对整个帐户中的服务标识和关联的 API 密钥的访问权
+* 用于查看私有目录产品并更新这些产品的元数据和可视性的全球资源目录
+* 所有帐户管理服务，用于根据分配的角色访问每个帐户管理服务选项，以及访问计费和使用情况跟踪。
+
+有关用户基于对其拥有策略的帐户管理服务和为其分配的角色而可以执行的任务的更多信息，请参阅[帐户管理服务的平台管理角色和操作示例](/docs/iam/users_roles.html#platformrolestable2)。
+
 
 ### 搜索资源
 最新更新日期：2018 年 7 月 17 日
@@ -73,7 +104,7 @@ lastupdated: "2018-09-28"
 ### 支持欧盟中的资源
 最新更新日期：2017 年 12 月 14 日
 
-如果您的服务和数据中心位于欧洲，现在 {{site.data.keyword.Bluemix_notm}} 提供了额外的功能来保护您在欧盟的数据。您可以请求位于欧洲的客户成功团队提供支持。此支持全天候可用。有关更多信息，请参阅[启用欧盟支持选项](/docs/billing-usage/eusupported.html#bill_eusupported)和[请求对欧盟中资源的支持](/docs/get-support/howtogetsupport.html#eusupported)。
+如果您的服务和数据中心位于欧洲，现在 {{site.data.keyword.Bluemix_notm}} 提供了额外的功能来保护您在欧盟的数据。您可以请求位于欧洲的客户成功团队提供支持。此支持全天候可用。有关更多信息，请参阅[启用“欧盟支持”选项](/docs/billing-usage/eusupported.html#bill_eusupported)和[请求对欧盟中资源的支持](/docs/get-support/howtogetsupport.html#eusupported)。
 
 ### 撤销对 TLS 1.0 和 1.1 的支持
 最新更新日期：2017 年 11 月 28 日
@@ -645,7 +676,7 @@ Beta 版本的 {{site.data.keyword.uccr_short}} 提供以下主要功能：
 * 定制日历事件以满足您组织的需求。
 * 将电子邮件和 Slack 类型的任务用于发布通知。
 
-### dashDB for Transactions 已重命名为 {{site.data.keyword.DB2_on_Cloud_short}}
+### dashDB for Transactions 已重命名为 {{site.data.keyword.DB2OnCloud_short}}
 最新更新日期：2017 年 6 月 14 日
 
 IBM {{site.data.keyword.DB2OnCloud_short}} 是 dashDB for Transactions 的新名称。作为此重命名的一部分，原先自行管理的 IBM {{site.data.keyword.DB2OnCloud_short}} 服务还将重命名为 IBM Db2 Hosted。目前只更新了显示名称，所以任何 API 或命令行界面均保持不变。
