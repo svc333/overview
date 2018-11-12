@@ -3,7 +3,7 @@
 
 copyright:
   years: 2015, 2018
-lastupdated: "2018-07-17"
+lastupdated: "2018-10-25"
 
 ---
 
@@ -33,7 +33,7 @@ Se as suas contas do {{site.data.keyword.cloud_notm}} e do SoftLayer foram vincu
 
 É possível procurar recursos de qualquer lugar no console do {{site.data.keyword.cloud_notm}}. Digite o nome de um recurso no campo de procura na barra de menus do console.
 
-Digite a tecla `/` em seu teclado para navegar seu cursor até o campo de procura.
+Pressione a tecla de barra (/) no teclado para navegar o cursor para o campo de procura.
 {: tip}
 
 ## Gerenciando recursos no painel
