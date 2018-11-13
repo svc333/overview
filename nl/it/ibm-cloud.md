@@ -3,7 +3,7 @@
 
 copyright:
   years: 2016, 2018
-lastupdated: "2018-06-14"
+lastupdated: "2018-11-01"
 
 ---
 
@@ -70,34 +70,6 @@ L'infrastruttura {{site.data.keyword.cloud_notm}} fornisce l'infrastruttura clou
 L'infrastruttura {{site.data.keyword.cloud_notm}} offre potenti server bare metal e server virtuali flessibili in un'unica piattaforma senza soluzione di continuità. Ogni server viene fornito su richiesta e fatturato su base mensile o oraria. I server bare metal forniscono una potenza pura per i tuoi carichi di lavoro che richiedono un uso intensivo del processore e dell'I/O del disco e possono essere configurati in base alle tue specifiche esatte. I server virtuale consentono un'alta velocità di distribuzione, scalabilità flessibile e fatturazione a consumo. Per l'elaborazione ad alte prestazioni, dai una spinta al tuo cloud con i server GPU (graphics processing unit), disponibili per uso orario o mensile.
 
 Le offerte dell'infrastruttura {{site.data.keyword.cloud_notm}} sono collegate a una rete a tre livelli, segmentando il traffico pubblico, privato e di gestione. L'infrastruttura sull'account {{site.data.keyword.cloud_notm}} di un cliente potrebbe trasferire i dati in questa infrastruttura attraverso la rete privata a costo zero. Le offerte dell'infrastruttura, quali i server bare metal, i server virtuali e l'archiviazione cloud, si collegano ad altre applicazioni e altri servizi nel catalogo {{site.data.keyword.cloud_notm}}, ad esempio i servizi Watson, contenitori o runtime, attraverso al rete pubblica. Il trasferimento dati tra questi due tipi di offerte viene misurato e addebitato a tariffe di larghezza di banda della rete pubblica standard.
-
-## Regioni
-{: #ov_intro_reg}
-
-Una regione {{site.data.keyword.cloud_notm}} è un territorio geografico definito a cui puoi distribuire le applicazioni. Puoi creare applicazioni e istanze di servizio in regioni differenti con la stessa infrastruttura {{site.data.keyword.cloud_notm}} per la gestione di applicazioni e la stessa vista dei dettagli di utilizzo per la fatturazione. Puoi distribuire le tue applicazioni alla regione più vicina ai tuoi clienti per ottenere una bassa latenza dell'applicazione. Per far fronte ai problemi di sicurezza puoi anche selezionare la regione dove desideri conservare i dati delle applicazioni. Quando crei applicazioni in più regioni, se una regione non è più disponibile, le applicazioni che si trovano nelle altre regioni continuano a essere eseguite. La disponibilità di risorse è la stessa per ogni regione che usi.
-
-Il bilanciamento del carico globale per la console garantisce che, se per qualche motivo la regione geografica a te più prossima è inattiva, la console visualizzerà le informazioni per la successiva regione più prossima. In questo modo, avrai sempre accesso alla console senza dover eseguire alcuna azione per accedere alle informazioni di cui hai bisogno.
-
-Dal dashboard, puoi visualizzare tutte le risorse in tutte le regioni per impostazione predefinita. Se vuoi visualizzare e gestire le risorse in una specifica regione, espandi il menu **UBICAZIONE** e seleziona una regione dall'elenco. 
-
-Puoi inoltre utilizzare l'interfaccia riga di comando per connetterti alla regione {{site.data.keyword.cloud_notm}} con cui vuoi lavorare utilizzando il comando `ibmcloud api` e specificando l'endpoint API della regione. Ad esempio, immetti il seguente comando per stabilire una connessione alla regione {{site.data.keyword.cloud_notm}} Europa Regno Unito:
-
-```
-ibmcloud api https://api.eu-gb.bluemix.net
-```
-
-A
-ciascuna regione viene assegnato un prefisso univoco. {{site.data.keyword.cloud_notm}} fornisce le
-seguenti regioni e i seguenti prefissi di regione.
-
-| **Nome regione** | **Ubicazione geografica** | **Endpoint API cf** |
-|-----------------|-------------------------|-------------------|
-| Regione Stati Uniti Sud | Dallas, Stati Uniti | api.ng.bluemix.net | 
-| Regione Stati Uniti Est | Washington, DC, Stati Uniti | api.us-east.bluemix.net |
-| Regione Regno Unito | Londra, Inghilterra | api.eu-gb.bluemix.net | 
-| Regione Sydney | Sydney, Australia | api.au-syd.bluemix.net | 
-| Regione Germania | Francoforte, Germania | api.eu-de.bluemix.net | 
-{: caption="Tabella 1. Elenco di regioni {{site.data.keyword.cloud_notm}}" caption-side="top"}
 
 ## Resilienza {{site.data.keyword.cloud_notm}}
 {: #resiliency}

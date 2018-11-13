@@ -3,7 +3,7 @@
 
 copyright:
   years: 2015, 2018
-lastupdated: "2018-07-17"
+lastupdated: "2018-10-25"
 
 ---
 
@@ -33,7 +33,7 @@ Se hai collegato i tuoi account {{site.data.keyword.cloud_notm}} e SoftLayer, ha
 
 Puoi cercare le risorse da qualsiasi punto nella console {{site.data.keyword.cloud_notm}}. Immetti il nome di una risorsa nel campo di ricerca nella barra dei menu della console.
 
-Digita il tasto `/` sulla tua tastiera per portare il tuo cursore al campo di ricerca.
+Premi il tasto barra (/) sulla tua tastiera per portare il tuo cursore al campo di ricerca.
 {: tip}
 
 ## Gestione delle risorse sul dashboard
