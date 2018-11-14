@@ -4,7 +4,7 @@ copyright:
 
   years: 2015, 2018
 
-lastupdated: "2018-09-28"
+lastupdated: "2018-11-02"
 
 ---
 
@@ -19,6 +19,37 @@ lastupdated: "2018-09-28"
 
 ## {{site.data.keyword.Bluemix_notm}} 플랫폼
 {: #platform_category}
+
+### {{site.data.keyword.cloud_notm}}에 대한 글로벌 위치 이름 업데이트함
+신규 기준일: 2018년 11월 1일
+
+{{site.data.keyword.cloud_notm}}에서는 지속적으로 글로벌 가용성 풋프린트를 확장하면서 전 세계적으로 분포된 지형, 지역, 데이터 센터의 이해 가능하고 일관된 계층 구조를 더 잘 지원하도록 위치 이름 지정 구조를 업데이트하고 있습니다. 현재 글로벌 지역에 친숙하다면 미국 남부 및 시드니와 같은 이름을 이해할 수 있습니다. 이러한 위치 이름을 실제로 데이터 센터가 존재하는 도시의 이름에 맞추고 있습니다.
+
+현재 프로그래밍 ID는 변경되지 않았으므로, API 퍼스펙티브에서는 영향을 받지 않습니다. 다음에 이전 위치 이름과 새 위치 이름을 보여주는 표가 있습니다. 데이터 센터 및 지역에 대한 전체 목록과 자세한 정보는 [서비스 가용성](docs/resources/services_region.html)을 참조하십시오.
+
+| 이전 위치 표시 이름 | 새 위치 표시 이름 | 코드 |
+|----------|---------|---------|
+|미국 남부 | 댈러스 | us-south | 
+|미국 동부 | 워싱턴 DC | us-east |
+|영국 | 런던 | eu-gb |
+|독일 | 프랑크푸르트 | eu-de |
+|시드니 |시드니 | au-syd |
+| AP 북부 | 도쿄 | jp-tok |
+{: caption="표 1. 새 위치 이름" caption-side="top"}
+
+### 다른 사용자에게 계정 관리 서비스 지정
+신규 기준일: 2018년 10월 30일
+
+{{site.data.keyword.cloud_notm}} IAM(Identity and Access Management)을 통해 공통 계정 관리 태스크를 수행하는 기능을 계정의 다른 사용자에게 허용할 수 있습니다. 하나 또는 모든 사용 가능 계정 관리 서비스에서 액세스 정책을 작성하면 사용자 초대 및 제거, 액세스 그룹 관리, 서비스 ID 관리, 사설 카탈로그 서비스 유지보수, 청구 모니터링 및 사용량 추적과 같은 책임을 쉽게 위임할 수 있습니다. 액세스 정책을 설정하는 데 사용할 수 있는 네 개의 개별 계정 관리 서비스 및 모든 서비스 옵션이 있습니다.
+
+* 사용자를 초대 및 제거하기 위한 사용자 관리
+* 액세스 권한 작성, 편집, 삭제, 업데이트, 지정을 위한 IAM 액세스 그룹 
+* 계정에서 서비스 ID 및 연관된 API 키에 대한 액세스 권한 보기, 작성, 삭제, 지정을 위한 IAM ID 서비스
+* 사설 카탈로그 오퍼링을 보고 오퍼링에 대한 메타데이터 및 가시성을 업데이트하기 위한 글로벌 리소스 카탈로그
+* 청구 및 사용량 추적에 대한 액세스는 물론, 지정된 역할에 기반하여 각 개별 계정 관리 서비스 옵션에 대한 액세스를 위한 모든 계정 관리 서비스.
+
+지정된 역할 및 관련 정책을 보유하고 있는 관련 계정 관리 서비스에 기반하여 사용자가 수행할 수 있는 태스크에 대한 자세한 정보는 [계정 관리 서비스에 대한 예제 플랫폼 관리 역할 및 조치](/docs/iam/users_roles.html#platformrolestable2)를 참조하십시오.
+
 
 ### 리소스 검색
 신규 기준일: 2018년 7월 17일
@@ -48,7 +79,7 @@ lastupdated: "2018-09-28"
 ### {{site.data.keyword.Bluemix_notm}} 계정에 대한 다단계 인증
 신규 기준일: 2018년 5월 02일
 
-다단계 인증(MFA)은 로그인 중에 모든 사용자가 IBM ID와 비밀번호뿐만 아니라 시간 기반의 일회성 패스코드를 제공하도록 요구하여 사용자 계정에 추가 보안 계층을 추가합니다. 일반적으로 이중 인증(2FA)이라고도 합니다. MFA는 계정별로 사용으로 설정되며 일단 설정되고 나면 계정의 모든 사용자들은 추가적인 보안 방법을 사용하여 로그인해야 합니다.
+다단계 인증(MFA)은 로그인 중에 모든 사용자가 IBM ID와 비밀번호뿐만 아니라 시간 기반의 일회성 패스코드를 제공하도록 요구하여 사용자 계정에 추가 보안 계층을 추가합니다. 일반적으로 2단계 인증(2FA)이라고도 합니다. MFA는 계정별로 사용으로 설정되며 일단 설정되고 나면 계정의 모든 사용자들은 추가적인 보안 방법을 사용하여 로그인해야 합니다.
 
 자세한 정보는 [IBM Cloud Platform now adds support for Multi-Factor Authentication](https://www.ibm.com/blogs/bluemix/2018/05/ibm-cloud-platform-now-adds-support-multi-factor-authentication/){: new_window} ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘") 블로그 게시물을 참조하십시오.
 
@@ -644,7 +675,7 @@ DB2 Warehouse on Cloud 및 DB2 on Cloud에 대한 업데이트의 누적 목록�
 * 조직에 적합한 달력 이벤트를 사용자 정의합니다.
 * 릴리스 알림을 위해 이메일 및 슬랙 유형 태스크를 사용합니다.
 
-### dashDB for Transactions가 {{site.data.keyword.DB2_on_Cloud_short}}로 이름이 바뀜
+### dashDB for Transactions가 {{site.data.keyword.DB2OnCloud_short}}로 이름이 바뀜
 신규 기준일: 2017년 6월 14일
 
 IBM {{site.data.keyword.DB2OnCloud_short}}는 dashDB for Transactions의 새 이름입니다. 이름 바꾸기의 일부로 이전에 자체 관리된 {{site.data.keyword.DB2OnCloud_short}} 서비스도 IBM DB2 Hosted로 이름이 바뀝니다. 표시 이름이 업데이트되는 시점에서만 모든 API 또는 명령행 인터페이스가 그대로 유지됩니다.

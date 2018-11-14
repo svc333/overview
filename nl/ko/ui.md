@@ -3,7 +3,7 @@
 
 copyright:
   years: 2015, 2018
-lastupdated: "2018-07-17"
+lastupdated: "2018-10-25"
 
 ---
 
@@ -14,7 +14,7 @@ lastupdated: "2018-07-17"
 # {{site.data.keyword.cloud_notm}} 콘솔의 작동 방식
 {: #ui}
 
-{{site.data.keyword.cloud}} 콘솔은 모든 {{site.data.keyword.cloud_notm}} 리소스를 관리하는 데 도움이 되는 사용자 인터페이스입니다. [콘솔](https://console.bluemix.net){: new_window} ![외부 링크 아이콘](../icons/launch-glyph.svg "외부 링크 아이콘")에 액세스하면 무료 계정 작성, 로그인, 문서에 액세스, 카탈로그에 액세스, 가격 책정 정보 보기, 지원 받기 또는 {{site.data.keyword.cloud_notm}} 컴포넌트의 상태 확인 등을 수행할 수 있습니다. 로그인하면 사용자의 계정 유형에 따라 메뉴 표시줄에 메뉴 아이콘 ![메뉴 아이콘](../icons/icon_hamburger.svg) 및 추가 링크가 포함되어 있습니다.
+{{site.data.keyword.cloud}} 콘솔은 모든 {{site.data.keyword.cloud_notm}} 리소스를 관리하는 데 도움이 되는 사용자 인터페이스입니다. [콘솔](https://console.bluemix.net){: new_window} ![외부 링크 아이콘](../icons/launch-glyph.svg "외부 링크 아이콘")에 액세스하면 무료 계정 작성, 로그인, 문서에 액세스, 카탈로그에 액세스, 가격 정보 보기, 지원 받기 또는 {{site.data.keyword.cloud_notm}} 컴포넌트의 상태 확인 등을 수행할 수 있습니다. 로그인하면 사용자의 계정 유형에 따라 메뉴 표시줄에 메뉴 아이콘 ![메뉴 아이콘](../icons/icon_hamburger.svg) 및 추가 링크가 포함되어 있습니다.
 {: shortdesc}
 
 ## 콘솔 사용
@@ -33,7 +33,7 @@ lastupdated: "2018-07-17"
 
 {{site.data.keyword.cloud_notm}} 콘솔의 어느 위치에서나 리소스를 검색할 수 있습니다. 콘솔 메뉴 표시줄의 검색 필드에 리소스의 이름을 입력하십시오.
 
-커서를 검색 필드로 이동하려면 키보드의 `/` 키를 입력하십시오.
+키보드에서 슬래시 키(/)를 눌러 검색 필드로 커서를 이동하십시오.
 {: tip}
 
 ## 대시보드에서 리소스 관리
@@ -60,7 +60,7 @@ lastupdated: "2018-07-17"
 대시보드에서 다양한 방법으로 리소스 관련 작업을 수행할 수 있습니다.
 
   * 각각의 리소스는 고유 행에 표시되며 추가 조치 아이콘 ![추가 조치 아이콘](../icons/overflow-menu.svg)은 행의 끝에 포함됩니다. **추가 조치** 아이콘을 클릭하면 리소스를 시작, 중지하고 해당 이름을 바꾸거나 이를 삭제할 수 있습니다.
-  * 리소스에 대한 신임 정보 또는 연결을 설정하려면 리소스의 이름을 클릭하여 리소스 세부사항 페이지로 이동하십시오. 자세한 정보는 [새 신임 정보 추가](/docs/resources/service_credentials.html) 및 [연결 관리](/docs/resources/connecting_apps.html#connect_app)를 참조하십시오.
+  * 리소스에 대한 인증 정보 또는 연결을 설정하려면 리소스의 이름을 클릭하여 리소스 세부사항 페이지로 이동하십시오. 자세한 정보는 [새 인증 정보 추가](/docs/resources/service_credentials.html) 및 [연결 관리](/docs/resources/connecting_apps.html#connect_app)를 참조하십시오.
 
 ## 카탈로그에서 작업
 {: #catalogcreate}

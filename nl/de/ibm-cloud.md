@@ -3,7 +3,7 @@
 
 copyright:
   years: 2016, 2018
-lastupdated: "2018-06-14"
+lastupdated: "2018-11-01"
 
 ---
 
@@ -77,35 +77,6 @@ Die Angebote der {{site.data.keyword.cloud_notm}}-Infrastruktur sind mit einem d
 eines Kunden könnten Daten in einer solchen Infrastruktur kostenfrei über das
 private Netz übertragen
 werden. Infrastrukturangebote, z. B. Bare Metal Server, Virtual Server und Cloudspeicherung, stellen Verbindungen zu anderen Anwendungen und Services im {{site.data.keyword.cloud_notm}}-Katalog her, z. B. Watson-Services, Container oder Laufzeiten im ganzen öffentlichen Netz. Die Datenübertragung zwischen diesen zwei Angebotstypen wird gemessen und zu Standardpreisen für die öffentliche Netzbandbreite berechnet.
-
-## Regionen
-{: #ov_intro_reg}
-
-Eine {{site.data.keyword.cloud_notm}}-Region ist ein definiertes geografisches Gebiet, in dem Sie Ihre Apps bereitstellen können. Sie können Apps und Serviceinstanzen in unterschiedlichen Regionen mit derselben {{site.data.keyword.cloud_notm}}-Infrastruktur für das Anwendungsmanagement und dieselbe Ansicht mit den Nutzungsdetails zur Gebührenabrechnung erstellen. Sie können Ihre Apps in der Region bereitstellen, die Ihren Kunden am nächsten ist, um eine geringe Latenzzeit zu erreichen. Zum Beheben von Sicherheitsproblemen können Sie auch die Region auswählen, in der die Anwendungsdaten aufbewahrt werden sollen. Wenn Sie Apps in mehreren Regionen erstellen, werden die Apps in den anderen Regionen weiter ausgeführt, falls eine Region nicht mehr verfügbar ist. Die verfügbaren Ressourcen
-sind für jede verwendete Region gleich.
-
-Der globale Lastausgleich für die Konsole stellt sicher, dass in dem Fall, dass Ihre nächste geografische Region aus irgendeinem Grund inaktiv ist, die Konsole die Informationen für die nächstgelegene Region anzeigt. Auf diese Weise verfügen Sie stets über Zugriff auf die Konsole, ohne dass Aktionen erforderlich sind, um auf die benötigten Informationen zuzugreifen.
-
-Über das Dashboard können Sie standardmäßig alle Ressourcen in allen Regionen anzeigen. Wenn Sie Ressourcen in einer bestimmten Region anzeigen und mit diesen arbeiten möchten, erweitern Sie das Menü **Standort** und wählen Sie eine Region in der Liste aus. 
-
-Sie können auch die Befehlszeilenschnittstelle verwenden, um eine Verbindung zu der {{site.data.keyword.cloud_notm}}-Region herzustellen, mit der Sie arbeiten möchten, indem Sie den Befehl `ibmcloud api` verwenden und den API-Endpunkt der Region angeben. Geben Sie beispielsweise den folgenden Befehl ein, um eine Verbindung zu der
-{{site.data.keyword.cloud_notm}}-Region 'Europa - Vereintes Königreich' herzustellen:
-
-```
-ibmcloud api https://api.eu-gb.bluemix.net
-```
-
-Jeder Region wird ein eindeutiges Präfix zugewiesen. Für {{site.data.keyword.cloud_notm}}
-stehen die folgenden Regionen und Regionspräfixe zur Verfügung.
-
-| **Regionsname** | **Standort** | **cf-API-Endpunkt** |
-|-----------------|-------------------------|-------------------|
-| Region 'Vereinigte Staaten (Süden)' | Dallas, US | api.ng.bluemix.net | 
-| Region 'Vereinigte Staaten (Osten)' | Washington, DC, US | api.us-east.bluemix.net |
-| Region 'Vereintes Königreich' | London, England | api.eu-gb.bluemix.net | 
-| Region 'Sydney' | Sydney, Australien | api.au-syd.bluemix.net | 
-| Region 'Deutschland' | Frankfurt, Deutschland | api.eu-de.bluemix.net | 
-{: caption="Tabelle 1. Liste der {{site.data.keyword.cloud_notm}}-Regionen" caption-side="top"}
 
 ## Ausfallsicherheit von {{site.data.keyword.cloud_notm}}
 {: #resiliency}

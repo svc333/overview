@@ -4,7 +4,7 @@ copyright:
 
   years: 2015, 2018
 
-lastupdated: "2018-09-28"
+lastupdated: "2018-11-02"
 
 ---
 
@@ -19,6 +19,37 @@ Wenn Sie stets auf dem aktuellen Stand über die neuen Features und Services ble
 
 ## {{site.data.keyword.Bluemix_notm}}-Plattform
 {: #platform_category}
+
+### Aktualisierte globale Standortnamen für {{site.data.keyword.cloud_notm}}
+Datum der Neuerung: 1. November 2018
+
+Im Zuge der weiteren Ausdehnung unserer globalen Verfügbarkeit durch {{site.data.keyword.cloud_notm}} aktualisieren wir unsere Standort-Benennungsstruktur, um eine verständliche, konsistente Hierarchie von Geografien, Regionen und Rechenzentren weltweit zu unterstützen. Wenn Sie mit unseren aktuellen globalen Regionen vertraut sind, werden Sie Namen wie "US South" und "Sydney" wiedererkennen. Wir richten diese Standortnamen an den Namen der Städte aus, in denen die Rechenzentren physisch existieren.
+
+Die programmgesteuerten IDs ändern sich vorerst nicht, sodass es aus API-Perspektive keine Beeinträchtigungen gibt. Nachstehend eine Tabelle, in der die alten und neuen Standortnamen aufgeführt sind. Weitere Informationen und eine umfassende Liste der Rechenzentren und Regionen finden Sie unter [Serviceverfügbarkeit](docs/resources/services_region.html).
+
+|Bisheriger angezeigter Standortname |Neuer angezeigter Standortname | Code |
+|----------|---------|---------|
+| Vereinigte Staaten (Süden) | Dallas | us-south | 
+| Vereinigte Staaten (Osten) | Washington DC | us-east |
+| Vereintes Königreich | London | eu-gb |
+| Deutschland | Frankfurt | eu-de |
+| Sydney | Sydney | au-syd |
+| Asiatisch-pazifischer Raum (Norden) | Tokio | jp-tok |
+{: caption="Tabelle 1. Neue Standortnamen" caption-side="top"}
+
+### Zugriff auf Kontoverwaltung zuweisen
+Datum der Neuerung: 30. Oktober 2018
+
+Mit {{site.data.keyword.cloud_notm}} Identity and Access Management (IAM) können Sie anderen Benutzern in Ihrem Konto die Möglichkeit geben, allgemeine Kontoverwaltungsaufgaben auszuführen. Indem Sie eine Zugriffsrichtlinie für einen oder alle verfügbaren Kontoverwaltungsservices erstellen, können Sie ohne großen Aufwand Verantwortlichkeiten wie das Einladen und Entfernen von Benutzern, die Verwaltung von Zugriffsgruppen und von Service-IDs, die Pflege privater Katalogservices und auch die Überwachung von Abrechnungen und Aufzeichnung der Nutzung delegieren. Es gibt vier verschiedene Kontoverwaltungsservices sowie eine Option für alle Services, die Sie zum Festlegen von Zugriffsrichtlinien verwenden können:
+
+* Benutzerverwaltung zum Einladen und Entfernen von Benutzern
+* IAM-Zugriffsgruppen zum Erstellen, Bearbeiten, Löschen, Aktualisieren und Zuweisen des Zugriffs 
+* IAM-Identitätsservice zum Anzeigen, Erstellen, Löschen und Zuweisen des Zugriffs auf Service-IDs und zugeordnete API-Schlüssel im ganzen Konto
+* Globaler Ressourcenkatalog zum Anzeigen von privaten Katalogangeboten und Aktualisieren der Metadaten und Sichtbarkeit für die Angebote
+* Alle Kontoverwaltungsservices für den Zugriff auf die einzelnen Kontoverwaltungsserviceoptionen, je nach zugewiesener Rolle, sowie Zugriff auf die Abrechnungs- und Nutzungsverfolgung.
+
+Weitere Informationen zu den Tasks, die ein Benutzer ausführen kann, je nachdem, für welchen Kontoverwaltungsservice er eine Richtlinie besitzt und welche Rolle ihm zugewiesen ist, finden Sie im Abschnitt [Beispiele zu Plattformmanagementrollen und Aktionen für Kontoverwaltungsservices](/docs/iam/users_roles.html#platformrolestable2).
+
 
 ### Nach Ressourcen suchen
 Datum der Neuerung: 17. Juli 2018
@@ -644,7 +675,7 @@ Die Betaversion von {{site.data.keyword.uccr_short}} bietet die folgenden Schlü
 * Sie können Kalenderereignisse für Ihre Organisation anpassen.
 * Sie können E-Mail- und Slack-Tasks für Releasebenachrichtigungen verwenden.
 
-### dashDB for Transactions in {{site.data.keyword.DB2_on_Cloud_short}} umbenannt
+### dashDB for Transactions in {{site.data.keyword.DB2OnCloud_short}} umbenannt
 Datum der Neuerung: 14. Juni 2017
 
 IBM {{site.data.keyword.DB2OnCloud_short}} ist der neue Name für dashDB for Transactions. Im Rahmen dieser Umbenennung wird auch der vormalige selbstverwaltete Service '{{site.data.keyword.DB2OnCloud_short}}' in 'IBM Db2 Hosted' umbenannt. Derzeit werden lediglich die Anzeigenamen aktualisiert; APIs oder Befehlszeilenschnittstellen bleiben somit unverändert.

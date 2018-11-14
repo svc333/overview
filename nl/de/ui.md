@@ -3,7 +3,7 @@
 
 copyright:
   years: 2015, 2018
-lastupdated: "2018-07-17"
+lastupdated: "2018-10-25"
 
 ---
 
@@ -14,7 +14,7 @@ lastupdated: "2018-07-17"
 # Funktionsweise der {{site.data.keyword.cloud_notm}}-Konsole
 {: #ui}
 
-Die {{site.data.keyword.cloud}}-Konsole ist eine Benutzerschnittstelle, mit der Sie alle Ihre {{site.data.keyword.cloud_notm}}-Ressourcen verwalten können. Wenn Sie auf die [-Konsole](https://console.bluemix.net){: new_window}  ![Symbol für externen Link](../icons/launch-glyph.svg "Symbol für externen Link") zugreifen, können Sie ein kostenloses Konto erstellen, sich anmelden, auf die Dokumentation und den Katalog zugreifen, Preisinformationen anzeigen, Unterstützung anfordern oder den Status von {{site.data.keyword.cloud_notm}}-Komponenten überprüfen. Nachdem Sie sich angemeldet haben, enthält die Menüleiste ein Menüsymbol ![Menüsymbol](../icons/icon_hamburger.svg) und zusätzliche Links, abhängig von Ihrem Kontotyp.
+Die {{site.data.keyword.cloud}}-Konsole ist eine Benutzerschnittstelle, mit der Sie alle Ihre {{site.data.keyword.cloud_notm}}-Ressourcen verwalten können. Wenn Sie auf die [-Konsole](https://console.bluemix.net){: new_window}  ![Symbol für externen Link](../icons/launch-glyph.svg "Symbol für externen Link") zugreifen, können Sie ein kostenfreies Konto erstellen, sich anmelden, auf die Dokumentation und den Katalog zugreifen, Preisinformationen anzeigen, Unterstützung anfordern oder den Status von {{site.data.keyword.cloud_notm}}-Komponenten überprüfen. Nachdem Sie sich angemeldet haben, enthält die Menüleiste ein Menüsymbol ![Menüsymbol](../icons/icon_hamburger.svg) und zusätzliche Links, abhängig von Ihrem Kontotyp.
 {: shortdesc}
 
 ## Verwendung der Konsole
@@ -33,7 +33,7 @@ Wenn Sie Ihre {{site.data.keyword.cloud_notm}}- und SoftLayer-Konten verknüpft 
 
 Sie können von der gesamten {{site.data.keyword.cloud_notm}}-Konsole aus nach Ressourcen suchen. Geben Sie den Namen einer Ressource in das Suchfeld in der Menüleiste der Konsole ein.
 
-Geben Sie `/` ein, um mit dem Cursor in das Suchfeld zu navigieren.
+Drücken Sie auf der Tastatur die Taste mit dem Schrägstrich (/), um mit dem Cursor zum Suchfeld zu navigieren.
 {: tip}
 
 ## Ressourcen im Dashboard verwalten
