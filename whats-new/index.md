@@ -4,7 +4,7 @@ copyright:
 
   years: 2015, 2018
 
-lastupdated: "2018-11-07"
+lastupdated: "2018-11-13"
 
 ---
 
@@ -347,6 +347,16 @@ The Liberty buildpack v3.9 provides new monthly Liberty runtime version and cont
 
 ## Services
 {: #services_category}
+
+
+### Automate infrastructure and app deployments with Terraform and Ansible
+New as of: 2 November 2018
+
+Terraform and Ansible are Open Source software that you can use to automate the deployment of your cloud solution from beginning to end. With Terraform, you can specify your {{site.data.keyword.Bluemix_notm}} infrastructure components and rapidly build complex, multitier cloud environments to enable Infrastructure as Code (IaC). Then, use Ansible to connect to your compute hosts over the private network to deploy your app, build services, execute scripts, or define configurations. 
+
+To get started and learn about the basics of each Open Source product, see our tutorials: 
+* [Deploying RedHat OpenShift Container Platform on {{site.data.keyword.Bluemix_notm}} with Terraform](/docs/terraform/tutorials/install_redhat_openshift.html#redhat){: new_window} ![External link icon](../../icons/launch-glyph.svg "External link icon")
+* [Deploying WordPress on IBM Cloud infrastructure with Terraform and Ansible](/docs/terraform/tutorials/wordpress_with_terraform_and_ansible.html#deploy_wordpress){: new_window} ![External link icon](../../icons/launch-glyph.svg "External link icon"). 
 
 ### Latest updates for {{site.data.keyword.cloudant_short_notm}}
 New as of: 28 September 2018
