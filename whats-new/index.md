@@ -299,20 +299,6 @@ With the latest updates and improvements from April, you can use the following n
 ## Compute
 {: #compute_category}
 
-### {{site.data.keyword.containerlong_notm}} now comes with highly available Kubernetes masters
-New as of: 7 November 2018
-
-Get even more availability for your cluster with the new highly available Kubernetes master feature. Highly available Kubernetes masters are set up with multiple replicas for your Kubernetes API server, etcd, Kubernetes scheduler, and controller that are all spread across separate physical hosts. When you create a cluster that runs Kubernetes version 1.12, 1.11, or 1.10, your Kubernetes master is set up highly available by default. To enable this feature in existing clusters that run one of those Kubernetes versions, you must complete the [preparation steps](/docs/containers/cs_versions.html#110_ha-masters).
-
-### Create multizone clusters in {{site.data.keyword.containerlong_notm}}
-New as of: 10 July 2018
-
-Want to improve cluster and app availability? Now you can span your cluster across multiple zones in select metro areas. For more information, see [Creating multizone clusters in {{site.data.keyword.containershort_notm}}](cs_clusters.html#multizone).
-
-### Kubernetes Dashboard access comes to the {{site.data.keyword.containerlong_notm}}
-
-{{site.data.keyword.containerlong_notm}} now supports direct access to the Kubernetes Dashboard through the {{site.data.keyword.Bluemix_notm}} console. This simplified path to the dashboard offers an enchanced user experience for cluster management and resource visualization. Find out more details on the [{{site.data.keyword.Bluemix_notm}} blog](https://www.ibm.com/blogs/bluemix/2018/04/kubernetes-dashboard-access/){: new_window} ![External link icon](../../icons/launch-glyph.svg "External link icon").
-
 ### Latest updates for buildpacks
 
 Visit the following pages for a cumulative list of the latest updates:
@@ -327,6 +313,22 @@ Visit the following pages for a cumulative list of the latest updates:
 {{site.data.keyword.containerlong_notm}} launched its Kubernetes architecture in May 2017. The previous architecture for single and scalable container groups is now [fully deprecated as of December 5, 2017](https://www.ibm.com/blogs/bluemix/2017/07/deprecation-single-scalable-group-container-service-bluemix-public/){: new_window} ![External link icon](../../icons/launch-glyph.svg "External link icon").  
 
 [See the documentation for information about getting started with the native Kubernetes environment on {{site.data.keyword.Bluemix_notm}}](/docs/containers/container_index.html). If you have questions, you can post them in the Slack at https://ibm-container-service.slack.com/.
+
+### {{site.data.keyword.containerlong_notm}} now comes with highly available Kubernetes masters
+New as of: 7 November 2018
+
+Get even more availability for your cluster with the new highly available Kubernetes master feature. Highly available Kubernetes masters are set up with multiple replicas for your Kubernetes API server, etcd, Kubernetes scheduler, and controller that are all spread across separate physical hosts. When you create a cluster that runs Kubernetes version 1.12, 1.11, or 1.10, your Kubernetes master is set up highly available by default. To enable this feature in existing clusters that run one of those Kubernetes versions, you must complete the [preparation steps](/docs/containers/cs_versions.html#110_ha-masters).
+
+### Create multizone clusters in {{site.data.keyword.containerlong_notm}}
+New as of: 10 July 2018
+
+Want to improve cluster and app availability? Now you can span your cluster across multiple zones in select metro areas. For more information, see [Creating multizone clusters in {{site.data.keyword.containershort_notm}}](cs_clusters.html#multizone).
+
+### Kubernetes Dashboard access comes to the {{site.data.keyword.containerlong_notm}}
+New as of: 18 April 2018
+
+{{site.data.keyword.containerlong_notm}} now supports direct access to the Kubernetes Dashboard through the {{site.data.keyword.Bluemix_notm}} console. This simplified path to the dashboard offers an enchanced user experience for cluster management and resource visualization. Find out more details on the [{{site.data.keyword.Bluemix_notm}} blog](https://www.ibm.com/blogs/bluemix/2018/04/kubernetes-dashboard-access/){: new_window} ![External link icon](../../icons/launch-glyph.svg "External link icon").
+
 
 ### New Liberty for Java buildpack v3.11
 New as of: 17 July 2017
