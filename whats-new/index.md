@@ -4,7 +4,7 @@ copyright:
 
   years: 2015, 2018
 
-lastupdated: "2018-11-13"
+lastupdated: "2018-11-15"
 
 ---
 
@@ -298,6 +298,11 @@ With the latest updates and improvements from April, you can use the following n
 
 ## Compute
 {: #compute_category}
+
+### {{site.data.keyword.containerlong_notm}} now comes with highly available Kubernetes masters
+New as of: 7 November 2018
+
+Get even more availability for your cluster with the new highly available Kubernetes master feature. Highly available Kubernetes masters are set up with multiple replicas for your Kubernetes API server, etcd, Kubernetes scheduler, and controller that are all spread across separate physical hosts. When you create a cluster that runs Kubernetes version 1.12, 1.11, or 1.10, your Kubernetes master is set up highly available by default. To enable this feature in existing clusters that run one of those Kubernetes versions, you must complete the [preparation steps](/docs/containers/cs_versions.html#110_ha-masters).
 
 ### Create multizone clusters in {{site.data.keyword.containerlong_notm}}
 New as of: 10 July 2018
