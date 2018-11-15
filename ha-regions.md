@@ -35,7 +35,7 @@ A unique prefix is assigned to each location. {{site.data.keyword.cloud_notm}} p
 
 | **Location** | **API endpoint** |
 |-----------------|-------------------|
-| Dallas | api.us-south.bluemix.net |
+| Dallas | api.na.bluemix.net |
 | Sydney | api.au-syd.bluemix.net |
 | Frankfurt | api.eu-de.bluemix.net |
 | London | api.eu-gb.bluemix.net |
