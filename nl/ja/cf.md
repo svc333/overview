@@ -163,7 +163,7 @@ SoRを {{site.data.keyword.cloud_notm}} で作成するアプリと統合する�
 <dt>Cloud Integration API</dt>
     <dd>Cloud Integration API により、Web API を通してファイアウォールの後ろにある SoR への保護されたアクセスが提供されます。 Cloud Integration API を作成する際には、Web API を通してアクセスしたいリソースを選択し、許可されたオペレーションを指定し、API にアクセスするための SDK とサンプルを組み込みます。 Cloud Integration API の作成方法について詳しくは、『[Cloud Integration の概説](/docs/services/CloudIntegration/CldInt_GetStart.html)』を参照してください。</dd>
 <dt>プライベート・サービス</dt>
-    <dd>プライベート・サービスは、 Cloud Integration API、SDK、およびライセンス・ポリシーから構成されます。 また、サービス・プロバイダーからのドキュメンテーションや他の項目がプライベート・サービスに含まれる場合もあります。 Cloud Integration API をプライベート・サービスとして公開できるのは、組織管理者のみです。 自分が利用できるプライベート・サービスを表示するには、{{site.data.keyword.cloud_notm}} カタログで「プライベート (Private)」チェック・ボックスを選択します。 Cloud Integration サービスに接続せずに、プライベート・サービスを選択してアプリにバインドすることができます。 プライベート・サービスのアプリへのバインドは、他の {{site.data.keyword.cloud_notm}} サービスの場合と同じ方法で行います。 プライベート・サービスとして API を公開する方法については、プライベート・サービスとしての API の公開を参照してください。</dd>
+    <dd>プライベート・サービスには、 Cloud Integration API、SDK、および適用されるサービスの使用権が含まれます。また、サービス・プロバイダーからのドキュメンテーションや他の項目がプライベート・サービスに含まれる場合もあります。 Cloud Integration API をプライベート・サービスとして公開できるのは、組織管理者のみです。 自分が利用できるプライベート・サービスを表示するには、{{site.data.keyword.cloud_notm}} カタログで「プライベート (Private)」チェック・ボックスを選択します。 Cloud Integration サービスに接続せずに、プライベート・サービスを選択してアプリにバインドすることができます。 プライベート・サービスのアプリへのバインドは、他の {{site.data.keyword.cloud_notm}} サービスの場合と同じ方法で行います。 プライベート・サービスとして API を公開する方法については、プライベート・サービスとしての API の公開を参照してください。</dd>
 </dl>
 
 ### シナリオ: SoR と接続するための機能豊富なモバイル・アプリを作成する
