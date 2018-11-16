@@ -355,6 +355,11 @@ The Liberty buildpack v3.9 provides new monthly Liberty runtime version and cont
 ## Services
 {: #services_category}
 
+### Major {{site.data.keyword.conversationshort}} update
+New as of: 9 November 2018
+
+{{site.data.keyword.conversationshort}} has a new look and added features. The artifact known as a *workspace*, which is a container for the machine learning model training data that powers your chat bot, has been replaced by a *dialog skill*. It is now easier to deploy by adding your dialog skill to an assistant. The new assistant layer manages the orchestration of messages between the user and your skill. You can add built-in integrations to the assistant to publish your dialog skill to popular messaging channels with minimal effort. The documentation for {{site.data.keyword.conversationshort}} moved to a new location. See the [product documentation](/docs/services/assistant/index.html) for more information.
+
 
 ### Automate infrastructure and app deployments with Terraform and Ansible
 New as of: 2 November 2018
