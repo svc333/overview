@@ -299,6 +299,23 @@ With the latest updates and improvements from April, you can use the following n
 ## Compute
 {: #compute_category}
 
+### Virtual server features
+New as of: 16 November 2018
+
+The following features are currently available for the {{site.data.keyword.BluVirtServers_full}} offering.
+
+#### Suspend billing when you're not using instances
+Want to pay only for what you use? You can now suspend billing on virtual server instances. The suspend billing feature is available on virtual server instances that have hourly public flavor sizes with SAN-backed storage. When you power off a virtual server that supports the suspend billing feature, you don't accrue costs for certain compute resources. Billing stops automatically when the server is powered off. The suspend billing feature helps you reduce cost and prevents you from having to reprovision a virtual server when you need its resources again. For more information, see [About suspend billing](/docs/vsi/vsi_about_suspend.html) or the {{site.data.keyword.cloud_notm}} [blog post ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://www.ibm.com/blogs/bluemix/2018/10/suspend-billing-1-minute-granularity-virtual-servers/){: new_window}.
+
+#### Reserve resources for future virtual server instances
+{{site.data.keyword.BluVirtServers_full}} reserved instances offering is now available. This is a great option if you want guaranteed resources for future deployments and cost savings. You choose between either a one or three year contract term for your reserved capacity. Within that reserved capacity, you can reserve a set of up to 20 virtual server instances of a specific size and provision those instances when you need them. You are guaranteed this capacity within the POD and data center of your choice for the life of the contract term. For more information, see [Reserved virtual servers](/docs/vsi/vsi_about_reserved.html).
+
+#### Import images from {{site.data.keyword.cos_full_notm}} service instance to {{site.data.keyword.cloud_notm}} infrastructure
+{{site.data.keyword.cloud_notm}} infrastructure now interacts with the {{site.data.keyword.cos_full_notm}} service that's provisioned on the {{site.data.keyword.cloud_notm}} console. {{site.data.keyword.cos_full_notm}} offers the Aspera high-speed transfer plug-in that massively decreases the amount of time needed to upload a large image. After images are uploaded to {{site.data.keyword.cos_full_notm}}, you can [import images](/docs/infrastructure/image-templates/import-image.html) to {{site.data.keyword.cloud_notm}} infrastructure from {{site.data.keyword.cos_full_notm}}. You can also [export images](/docs/infrastructure/image-templates/export-image-ibm-cos.html) from {{site.data.keyword.cloud_notm}} infrastructure to {{site.data.keyword.cos_full_notm}}.
+
+#### Placement groups for virtual server instances
+Placement groups are now available for {{site.data.keyword.BluVirtServers_full}}. With placement groups, you can use public instances to build for high availability within a data center, or provide an additional level of fault tolerance within a larger deployment. For more information, see [Placement groups](/docs/vsi/vsi_placegroup.html). 
+
 ### Latest updates for buildpacks
 
 Visit the following pages for a cumulative list of the latest updates:
