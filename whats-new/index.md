@@ -300,6 +300,7 @@ With the latest updates and improvements from April, you can use the following n
 {: #compute_category}
 
 ### Virtual server features
+New as of: 16 November 2018
 
 The following features are now available for the {{site.data.keyword.BluVirtServers_full}} offering.
 
