@@ -300,7 +300,7 @@ With the latest updates and improvements from April, you can use the following n
 {: #compute_category}
 
 ### New virtual server features
-New as of: Nov 2018
+New as of: 15 Nov 2018
 
 The following features are new to the {{site.data.keyword.cloud_notm}} Virtual Servers offering.
 
