@@ -299,10 +299,9 @@ With the latest updates and improvements from April, you can use the following n
 ## Compute
 {: #compute_category}
 
-### New virtual server features
-New as of: 15 Nov 2018
+### Virtual server features
 
-The following features are new to the {{site.data.keyword.BluVirtServers_full}} offering.
+The following features are now available for the {{site.data.keyword.BluVirtServers_full}} offering.
 
 #### Suspend billing when you're not using instances
 Want to pay only for what you use? You can now suspend billing on virtual server instances. The suspend billing feature is available on virtual server instances that have hourly public flavor sizes with SAN-backed storage. When you power off a virtual server that supports the suspend billing feature, you don't accrue costs for certain compute resources. Billing stops automatically when the server is powered off. The suspend billing feature helps you reduce cost and prevents you from having to reprovision a virtual server when you need its resources again. For more information, see [About suspend billing](/docs/vsi/vsi_about_suspend.html) or the {{site.data.keyword.cloud_notm}} [blog post ![External link icon](../../icons/launch-glyph.svg “External link icon”)](https://www.ibm.com/blogs/bluemix/2018/10/suspend-billing-1-minute-granularity-virtual-servers/){: new_window}.
