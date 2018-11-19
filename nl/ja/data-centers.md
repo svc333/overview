@@ -4,7 +4,7 @@ copyright:
 
   years: 2018
 
-lastupdated: "2018-11-01"
+lastupdated: "2018-11-07"
 
 ---
 
@@ -17,7 +17,7 @@ lastupdated: "2018-11-01"
 # {{site.data.keyword.cloud_notm}} データ・センター
 {: #dc}
 
-{{site.data.keyword.Bluemix_notm}} は、世界中の多くのロケーションにデータ・センターを提供しています。 インフラストラクチャー・リソースをデプロイするとき、{{site.data.keyword.Bluemix_notm}} のデータ・センターのリストから選択できます。詳しくは、[リソース・デプロイメントのロケーション](ha-regions.html)を参照してください。
+{{site.data.keyword.Bluemix_notm}} は、世界中の多くの場所でデータ・センターを提供しています。インフラストラクチャー・リソースをデプロイするときに、{{site.data.keyword.Bluemix_notm}} のデータ・センターのリストから選択できます。詳しくは、『[リソースをデプロイするロケーション](ha-regions.html)』を参照してください。
 
 ## 北アメリカ
 {: #na}
@@ -71,7 +71,7 @@ lastupdated: "2018-11-01"
 |アムステルダム 03|ams03|
 |パリ 01|par01|
 |オスロ 01|osl01|
-{: caption="表 3.ヨーロッパのデータ・センター" caption-side="top"}
+{: caption="表 3. ヨーロッパのデータ・センター" caption-side="top"}
 
 ## アジア太平洋
 {: #ap}
