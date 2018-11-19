@@ -4,7 +4,7 @@ copyright:
 
   years: 2015, 2018
 
-lastupdated: "2018-09-28"
+lastupdated: "2018-11-02"
 
 ---
 
@@ -19,6 +19,37 @@ Restez à jour avec les nouvelles fonctions et les nouveaux services disponibles
 
 ## Plateforme {{site.data.keyword.Bluemix_notm}}
 {: #platform_category}
+
+### Mise à jour des noms d'emplacement globaux pour {{site.data.keyword.cloud_notm}}
+Nouveau à compter du 1er novembre 2018
+
+Au fur et à mesure qu'{{site.data.keyword.cloud_notm}} continue à développer son empreinte de disponibilité globale, nous mettons à jour la structure de dénomination de nos emplacements pour proposer une hiérarchie plus compréhensible et cohérente des géographies, régions et centres de données à travers le monde. Si vous êtes familiers avec les régions globales actuelles, vous reconnaîtrez des noms tels que Sud des Etats-Unis et Sydney. Nous alignons ces noms d'emplacement avec le nom de la ville où résident physiquement les centres de données.
+
+Pour l'instant, les ID de programmation sont sans changement, de sorte qu'aucun impact n'est prévisible depuis une perspective d'API. Le tableau ci-après présente les anciens et les nouveaux noms des emplacements. Pour plus d'informations et une liste exhaustive des centres de données et des régions, voir [Disponibilité des services](docs/resources/services_region.html).
+
+| Ancien nom d'affichage de l'emplacement | Nouveau nom d'affichage de l'emplacement | Code |
+|----------|---------|---------|
+| Sud des Etats-Unis | Dallas | us-south | 
+| Est des Etats-Unis | Washington DC | us-east |
+| Royaume-Uni | Londres | eu-gb |
+| Allemagne | Frankfort | eu-de |
+| Sydney | Sydney | au-syd |
+| Asie-Pacifique nord | Tokyo | jp-tok |
+{: caption="Tableau 1. Nouveaux noms d'emplacement" caption-side="top"}
+
+### Affectation à d'autres d'un accès pour gestion de compte
+Nouveau à compter du 30 octobre 2018
+
+Avec {{site.data.keyword.cloud_notm}} IAM (Identity and Access Management), vous pouvez permettre à d'autres utilisateurs de votre compte d'effectuer des tâches de gestion de compte courantes. En créant une règle d'accès sur l'un ou tous les services de gestion de compte disponibles; vous pouvez sans difficulté déléguer des responsabilités comme l'invitation ou la suppression d'utilisateurs, la gestion de groupes d'accès, d'ID de service, la maintenance de services de catalogue privé et même le suivi de la facturation et de l'utilisation. Vous pouvez utiliser quatre services individuels de gestion de compte ainsi qu'une option tous services pour configurer les règles d'accès :
+
+* Gestion d'utilisateur pour inviter et supprimer des utilisateurs
+* Groupes d'accès IAM pour créer, éditer, supprimer, mettre à jour et affecter des accès 
+* Service d'identité IAM pour afficher, créer, supprimer et affecter des accès aux ID de service et aux clés d'API associées à travers le compte
+* Catalogue de ressources globales pour affichage d'offres de catalogue privé et mise à jour des métadonnées et de la visibilité pour les offres
+* Tous les services de gestion des comptes pour accès à chacune des options individuelles de gestion de compte en fonction du rôle affecté, ainsi qu'accès à la facturation et au suivi de l'utilisation .
+
+Pour plus d'informations sur les tâches que peut effectuer un utilisateur compte tenu du service de gestion de compte auquel il est rattaché et du rôle qui lui est affecté, voir [Exemple d'actions et de rôles de gestion de plateforme pour les services de gestion de compte](/docs/iam/users_roles.html#platformrolestable2).
+
 
 ### Recherche de ressources
 Nouveau à compter du : 17 juillet 2018
@@ -645,7 +676,7 @@ La version bêta de {{site.data.keyword.uccr_short}} fournit les fonctions clé 
 * Personnalisation des événements de calendrier en fonction de votre organisation.
 * Utilisation des tâches de type e-mail et Slack pour les notifications de mise en production.
 
-### dashDB for Transactions a été renommé en {{site.data.keyword.DB2_on_Cloud_short}}
+### dashDB for Transactions a été renommé en {{site.data.keyword.Db2Hosted_notm}}
 Nouveau à compter du : 14 juin 2017
 
 IBM {{site.data.keyword.DB2OnCloud_short}} est le nouveau nom de dashDB for Transactions. Dans le cadre de ce renommage l'ancien service auto-géré IBM {{site.data.keyword.DB2OnCloud_short}} sera également renommé, en IBM Db2 Hosted. Pour le moment, seuls les noms d'affichage sont mis à jour, les API et interfaces de ligne de commande restent inchangées.
