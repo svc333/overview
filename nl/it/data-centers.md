@@ -4,7 +4,7 @@ copyright:
 
   years: 2018
 
-lastupdated: "2018-11-07"
+lastupdated: "2018-11-01"
 
 ---
 
@@ -14,7 +14,7 @@ lastupdated: "2018-11-07"
 {:pre: .pre}
 {:tip: .tip}
 
-# Data center {{site.data.keyword.cloud_notm}}
+# Data center {{site.data.keyword.cloud_notm}} 
 {: #dc}
 
 {{site.data.keyword.Bluemix_notm}} offre data center in molte ubicazioni in tutto il mondo. Quando distribuisci le risorse dell'infrastruttura, puoi effettuare la selezione in un elenco di data center in {{site.data.keyword.Bluemix_notm}}. Per ulteriori informazioni, consulta [Ubicazioni per la distribuzione della risorsa](ha-regions.html).
@@ -31,7 +31,7 @@ lastupdated: "2018-11-07"
 |Dallas 09|dal09|
 |Dallas 10|dal10|
 |Dallas 12|dal12|
-|Dallas 13|dal13|
+|dal13|Dallas 13|
 |Washington DC 01|wdc01|
 |Washington DC 04|wdc04|
 |Washington DC 06|wdc06|

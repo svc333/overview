@@ -3,7 +3,7 @@
 
 copyright:
   years: 2016, 2018
-lastupdated: "2018-06-14"
+lastupdated: "2018-11-01"
 
 ---
 
@@ -72,33 +72,6 @@ La infraestructura de {{site.data.keyword.cloud_notm}} proporciona la infraestru
 La infraestructura de {{site.data.keyword.cloud_notm}} ofrece potentes servidores nativos y flexibles servidores virtuales en una única plataforma. Todos se proporcionan bajo demanda y se facturan en términos mensuales o por hora. Los servidores nativos proporcionan la potencia bruta para las cargas de trabajo que utilizan mucho procesador y E/S y pueden configurarse exactamente según sus especificaciones. Los servidores virtuales le permiten una alta velocidad de despliegue, una escalabilidad flexible y una facturación de pago según uso. Para la informática de alto rendimiento, mejore su nube con servidores GPU (Graphics Processing Unit), disponibles por hora o por mes.
 
 Las ofertas de infraestructura de {{site.data.keyword.cloud_notm}} están conectadas a una red de tres capas, que segmenta tráfico público, privado y de gestión. La infraestructura de una cuenta de {{site.data.keyword.cloud_notm}} del cliente puede transferir datos entre esta infraestructura mediante la red privada sin coste adicional. Las ofertas de infraestructura, como los servidores nativos, los servidores virtuales y el almacenamiento en nube, se conectan con otras aplicaciones y servicios del catálogo de {{site.data.keyword.cloud_notm}}, como por ejemplo servicios, contenedores o tiempos de ejecución de Watson, en la red pública. La transferencia de datos entre estos dos tipos de ofertas se mide y se carga en tasas estándares de ancho de banda de red públicas.
-
-## Regiones
-{: #ov_intro_reg}
-
-Una región de {{site.data.keyword.cloud_notm}} es un territorio geográfico definido en el que puede desplegar sus apps. Puede crear apps e instancias de servicios en distintas regiones con la misma infraestructura de {{site.data.keyword.cloud_notm}} para la gestión de aplicaciones y la misma vista de detalles de uso para la facturación. Tiene la posibilidad de desplegar sus apps en la región más cercana a sus clientes para conseguir una latencia de aplicación baja. Para solventar problemas de seguridad, también puede seleccionar la región en la que desea conservar los datos de aplicación. Cuando crea apps en varias regiones, si una región queda fuera de servicio, las apps que están en las otras regiones seguirán funcionando. Su concesión de recursos es la misma para cada región que utilice.
-
-El equilibrio de carga global de la consola permite asegurar que si por alguna razón la región geográfica más próxima no está disponible, la consola visualiza la información de la siguiente región más próxima. De esta forma, siempre podrá acceder a la consola sin realizar acción alguna para acceder a la información que necesita.
-
-Desde el panel de control, puede ver todos los recursos en todas las regiones de forma predeterminada. Si desea ver y trabajar con recursos en una región específica, expanda el menú **LOCATION** y seleccione una región de la lista. 
-
-También puede utilizar la interfaz de línea de mandatos para conectarse a la región de {{site.data.keyword.cloud_notm}} con la que desee trabajar utilizando el mandato `ibmcloud api` y especificando el punto final de API de la región. Por ejemplo, escriba el siguiente mandato para conectarse a la región de
-{{site.data.keyword.cloud_notm}} de Europa - Reino Unido:
-
-```
-ibmcloud api https://api.eu-gb.bluemix.net
-```
-
-Cada región tienen asignado un prefijo exclusivo. {{site.data.keyword.cloud_notm}} proporciona las siguientes regiones y prefijos.
-
-| **Nombre de la región** | **Ubicación geográfica** | **Punto final cf API** |
-|-----------------|-------------------------|-------------------|
-| Región EE.UU. sur | Dallas, EE.UU. | api.ng.bluemix.net | 
-| Región EE.UU. este | Washington, DC, EE.UU. | api.us-east.bluemix.net |
-| Región Reino Unido | Londres, Inglaterra | api.eu-gb.bluemix.net | 
-| Región Sídney | Sídney, Australia | api.au-syd.bluemix.net | 
-| Región Alemania | Frankfurt, Alemania | api.eu-de.bluemix.net | 
-{: caption="Tabla 1. Lista de regiones de {{site.data.keyword.cloud_notm}}" caption-side="top"}
 
 ## Resiliencia de {{site.data.keyword.cloud_notm}}
 {: #resiliency}

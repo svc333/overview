@@ -4,7 +4,7 @@ copyright:
 
   years: 2018
 
-lastupdated: "2018-11-07"
+lastupdated: "2018-11-01"
 
 ---
 
@@ -31,7 +31,7 @@ lastupdated: "2018-11-07"
 |Dallas 09|dal09|
 |Dallas 10|dal10|
 |Dallas 12|dal12|
-|Dallas 13|dal13|
+|dal13|Dallas 13|
 |Washington DC 01|wdc01|
 |Washington DC 04|wdc04|
 |Washington DC 06|wdc06|

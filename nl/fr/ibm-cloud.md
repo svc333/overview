@@ -3,7 +3,7 @@
 
 copyright:
   years: 2016, 2018
-lastupdated: "2018-06-14"
+lastupdated: "2018-11-01"
 
 ---
 
@@ -70,32 +70,6 @@ L'infrastructure {{site.data.keyword.cloud_notm}} met à disposition l'infrastru
 L'infrastructure {{site.data.keyword.cloud_notm}} met à disposition des serveurs Bare Metal puissants ainsi que des serveurs virtuels souples sur une seule plateforme transparente. Ils sont tous fournis à la demande et facturés sur une base mensuelle ou horaire. Les serveurs Bare Metal fournissent la puissance brute nécessaire à vos charges de travail dont la consommation de processeur et d'E-S de disque est intensive et peuvent être configurés en fonction de spécifications précises. Les serveurs virtuels assurent une vitesse de déploiement élevée, une évolutivité souple et une facturation de type Paiement à la carte. Pour un traitement à performance élevée, dopez votre cloud avec des serveurs de processeur graphique (GPU), disponibles à l'heure ou mensuellement.
 
 Les offres d'infrastructure {{site.data.keyword.cloud_notm}} sont connectées à un réseau à trois niveaux qui segmente le trafic public, privé et de gestion. L'infrastructure sur un compte {{site.data.keyword.cloud_notm}} de client peut transférer les données dans une infrastructure de ce type sur le réseau privé gratuitement. Les offres d'infrastructure, telles que les serveurs Bare Metal, les serveurs virtuels et le stockage en cloud se connectent à d'autres applications et services figurant dans le catalogue {{site.data.keyword.cloud_notm}}, comme des services Watson, des conteneurs ou des contextes d'exécution, sur le réseau public. Le transfert de données entre ces deux types d'offre est mesuré et facturé en fonction des tarifs de bande passante de réseau public standard.
-
-## Régions
-{: #ov_intro_reg}
-
-Une région {{site.data.keyword.cloud_notm}} est un territoire géographique défini sur lequel vous pouvez déployer vos applications. Vous pouvez créer des instances d'application et de service dans différentes régions avec la même infrastructure {{site.data.keyword.cloud_notm}} pour la gestion des applications et la même vue de détails de l'utilisation pour la facturation. Vous pouvez déployer vos applications dans la région la plus proche de vos clients pour réduire les temps d'attente de votre application. Pour répondre aux considérations de sécurité, vous pouvez également sélectionner la région dans laquelle conserver vos données d'application. Lorsque vous construisez des applications dans plusieurs régions et que l'une des régions devient indisponible, les applications des autres régions continuent de fonctionner. La franchise de ressources est la même dans toutes les régions que vous utilisez.
-
-L'équilibrage de charge global pour la console garantit que, si pour une raison quelconque, la région géographique la plus proche est indisponible, la console affiche les informations de la suivante. De la sorte, vous pouvez toujours accéder à la console sans avoir à effectuer d'action pour obtenir les informations dont vous avez besoin.
-
-Dans le tableau de bord, vous pouvez afficher par défaut toutes les ressources de toutes les régions. Si vous souhaitez afficher et utiliser les ressources d'une région spécifique, développez le menu **EMPLACEMENT** puis sélectionnez une région dans la liste. 
-
-Vous pouvez également utiliser l'interface de ligne de commande pour vous connecter à la région {{site.data.keyword.cloud_notm}} souhaitée en utilisant la commande `ibmcloud api` et en spécifiant le noeud final d'API de la région. Par exemple, entrez la commande suivante pour vous connecter à la région {{site.data.keyword.cloud_notm}} Europe et Royaume-Uni :
-
-```
-ibmcloud api https://api.eu-gb.bluemix.net
-```
-
-Un préfixe unique est affecté à chaque région. {{site.data.keyword.cloud_notm}} fournit les régions et les préfixes suivants :
-
-| **Nom de région** | **Emplacement géographique** | **Noeud final de l'API cf** |
-|-----------------|-------------------------|-------------------|
-| Région Sud des Etats-Unis | Dallas, US | api.ng.bluemix.net | 
-| Région Est des Etats-Unis | Washington, DC, US | api.us-east.bluemix.net |
-| Région Royaume-Uni | Londres, Angleterre | api.eu-gb.bluemix.net | 
-| Région Sydney | Sydney, Australie | api.au-syd.bluemix.net | 
-| Région Allemagne | Francfort, Allemagne | api.eu-de.bluemix.net | 
-{: caption="Tableau 1. Liste des régions {{site.data.keyword.cloud_notm}}" caption-side="top"}
 
 ## Résilience de {{site.data.keyword.cloud_notm}}
 {: #resiliency}

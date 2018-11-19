@@ -3,7 +3,7 @@
 
 copyright:
   years: 2015, 2018
-lastupdated: "2018-07-17"
+lastupdated: "2018-10-25"
 
 ---
 
@@ -33,7 +33,7 @@ Si vous avez lié vos comptes {{site.data.keyword.cloud_notm}} et SoftLayer,  vo
 
 Vous pouvez rechercher des ressources à tout emplacement de la console {{site.data.keyword.cloud_notm}}. Entrez le nom d'une ressource dans la zone de recherche de la barre de menu de la console.
 
-Appuyez sur la touche `/` pour placer votre curseur dans la zone de recherche.
+Appuyez sur la touche Barre oblique (/) sur votre clavier pour positionner votre curseur dans la zone de recherche.
 {: tip}
 
 ## Gestion des ressources sur le tableau de bord

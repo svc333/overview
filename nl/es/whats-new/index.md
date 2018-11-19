@@ -4,7 +4,7 @@ copyright:
 
   years: 2015, 2018
 
-lastupdated: "2018-09-28"
+lastupdated: "2018-11-02"
 
 ---
 
@@ -19,6 +19,37 @@ Consulte información actualizada sobre las nuevas características y servicios 
 
 ## Plataforma {{site.data.keyword.Bluemix_notm}}
 {: #platform_category}
+
+### Nombres de ubicaciones globales actualizados para {{site.data.keyword.cloud_notm}}
+Novedad desde: 1 de noviembre de 2018
+
+A medida que {{site.data.keyword.cloud_notm}} continúa expandiendo su disponibilidad global, se va actualizando la estructura de nombres de ubicaciones para dar un mejor soporte a una jerarquía coherente y comprensible de geografías, regiones y centros de datos en todo el mundo. Si está familiarizado con nuestras regiones globales actuales, reconocerá nombres como EE.UU. sur y Sídney. Estamos alineando estos nombres de ubicaciones con los nombres de las ciudades en las que ser encuentran físicamente los centros de datos.
+
+Por ahora no se están modificando los ID programáticos, de modo que esto no afecta desde una perspectiva de API. A continuación encontrará una tabla en la que se muestran los nombres de ubicación antiguos y nuevos. Para obtener más información y ver una lista completa de centros de datos y regiones, consulte [Disponibilidad de servicios](docs/resources/services_region.html).
+
+| Nombre ubicación anterior | Nuevo nombre ubicación | Código |
+|----------|---------|---------|
+| EE.UU. sur | Dallas | us-south | 
+| EE.UU. este | Washington DC | us-east |
+| Reino Unido | Londres | eu-gb |
+| Alemania | Frankfurt | eu-de |
+| Sídney | Sídney | au-syd |
+| AP norte | Tokio | jp-tok |
+{: caption="Tabla 1. Nuevos nombres de ubicación" caption-side="top"}
+
+### Asignación de acceso de gestión de cuenta a otros
+Novedad desde: 30 de octubre de 2018
+
+Con {{site.data.keyword.cloud_notm}} Identity and Access Management (IAM), puede permitir que otros usuarios de la cuenta puedan realizar tareas comunes de gestión de la cuenta. Mediante la creación de una política de acceso en uno o en todos los servicios de gestión de cuenta disponibles, puede delegar fácilmente responsabilidades, como invitar y eliminar usuarios, gestionar grupos de accesos, gestionar ID de servicios, mantener servicios de catálogos privados e incluso supervisar la facturación y realizar un seguimiento del uso. Hay cuatro servicios individuales de gestión de cuentas y una opción para todos los servicios que puede utilizar para configurar políticas de acceso. 
+
+* Gestión de usuarios para invitar y eliminar usuarios
+* Grupos de acceso IAM para crear, editar, suprimir, actualizar y asignar acceso 
+* IAM Identity Service para ver, crear, suprimir y asignar acceso a ID de servicio y claves de API asociadas en la cuenta
+* Catálogo global de recursos para ver ofertas del catálogo privado y actualizar los metadatos y la visibilidad de las ofertas
+* Todos los servicios de gestión de cuentas para acceder a cada una de las opciones de los servicios de gestión de cuentas individuales en función del rol asignado, así como acceso a facturación y seguimiento del uso. 
+
+Para obtener más información sobre las tareas que puede realizar un usuario en función del servicio de gestión de cuentas en el que tienen una política y del rol asignado, consulte [Roles y acciones de gestión de plataforma de ejemplo para los servicios de gestión de cuentas](/docs/iam/users_roles.html#platformrolestable2).
+
 
 ### Búsqueda de recursos
 Novedad desde: 17 de julio de 2018
@@ -644,7 +675,7 @@ La versión beta de {{site.data.keyword.uccr_short}} proporciona las siguientes 
 * Personalizar los sucesos de calendario para que se ajusten a su organización.
 * Utilizar las tareas de correo electrónico y de tipo Slack para las notificaciones del release.
 
-### dashDB for Transactions ha cambiado su nombre a {{site.data.keyword.DB2_on_Cloud_short}}
+### dashDB for Transactions ha cambiado su nombre a {{site.data.keyword.DB2OnCloud_short}}
 Novedad desde: 14 de junio de 2017
 
 IBM {{site.data.keyword.DB2OnCloud_short}} es el nombre nuevo para dashDB for Transactions. Como parte de este cambio de nombre, el servicio autogestionado del anterior IBM {{site.data.keyword.DB2OnCloud_short}} cambiará su nombre a IBM Db2 Hosted. En este momento, solo se actualizarán los nombres de visualización, por lo que cualquier API o interfaz de línea de mandatos permanecerá sin cambios.
