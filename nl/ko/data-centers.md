@@ -4,7 +4,7 @@ copyright:
 
   years: 2018
 
-lastupdated: "2018-11-01"
+lastupdated: "2018-11-07"
 
 ---
 
@@ -31,7 +31,7 @@ lastupdated: "2018-11-01"
 |댈러스 09|dal09|
 |댈러스 10|dal10|
 |댈러스 12|dal12|
-|dal13|댈러스 13|
+|댈러스 13|dal13|
 |워싱턴 DC 01|wdc01|
 |워싱턴 DC 04|wdc04|
 |워싱턴 DC 06|wdc06|

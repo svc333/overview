@@ -23,7 +23,6 @@ lastupdated: "2018-11-01"
 
 控制台的全局负载均衡可确保如果您最接近的地理位置关闭，那么控制台将显示下一个最接近位置的信息。这样一来，您无需执行任何操作来访问所需信息，始终可以访问控制台。
 
-<!---This is a pre-pup topic. Post pup, the dashboard will have a Location status widget, which will show geographies as a summary. This paragraph will change and we need to add a paragraph to explain the continents are a summary in the widget.-->
 在仪表板中，缺省情况下可以查看所有位置的所有资源。如果要查看和使用特定位置中的资源，请展开**位置**菜单，然后从列表中选择一个位置。 
 
 您还可以使用命令行界面，通过 `ibmcloud api` 命令并指定要使用的 {{site.data.keyword.cloud_notm}} 位置的 API 端点来连接到该位置。例如，输入以下命令来连接到 {{site.data.keyword.cloud_notm}} 伦敦：

@@ -675,7 +675,7 @@ DB2 Warehouse on Cloud 및 DB2 on Cloud에 대한 업데이트의 누적 목록�
 * 조직에 적합한 달력 이벤트를 사용자 정의합니다.
 * 릴리스 알림을 위해 이메일 및 슬랙 유형 태스크를 사용합니다.
 
-### dashDB for Transactions가 {{site.data.keyword.DB2OnCloud_short}}로 이름이 바뀜
+### dashDB for Transactions가 {{site.data.keyword.Db2Hosted_notm}}로 이름이 바뀜
 신규 기준일: 2017년 6월 14일
 
 IBM {{site.data.keyword.DB2OnCloud_short}}는 dashDB for Transactions의 새 이름입니다. 이름 바꾸기의 일부로 이전에 자체 관리된 {{site.data.keyword.DB2OnCloud_short}} 서비스도 IBM DB2 Hosted로 이름이 바뀝니다. 표시 이름이 업데이트되는 시점에서만 모든 API 또는 명령행 인터페이스가 그대로 유지됩니다.

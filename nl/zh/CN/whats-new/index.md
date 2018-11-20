@@ -676,7 +676,7 @@ Beta 版本的 {{site.data.keyword.uccr_short}} 提供以下主要功能：
 * 定制日历事件以满足您组织的需求。
 * 将电子邮件和 Slack 类型的任务用于发布通知。
 
-### dashDB for Transactions 已重命名为 {{site.data.keyword.DB2OnCloud_short}}
+### dashDB for Transactions 已重命名为 {{site.data.keyword.Db2Hosted_notm}}
 最新更新日期：2017 年 6 月 14 日
 
 IBM {{site.data.keyword.DB2OnCloud_short}} 是 dashDB for Transactions 的新名称。作为此重命名的一部分，原先自行管理的 IBM {{site.data.keyword.DB2OnCloud_short}} 服务还将重命名为 IBM Db2 Hosted。目前只更新了显示名称，所以任何 API 或命令行界面均保持不变。

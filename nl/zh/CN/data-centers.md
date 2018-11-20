@@ -4,7 +4,7 @@ copyright:
 
   years: 2018
 
-lastupdated: "2018-11-01"
+lastupdated: "2018-11-07"
 
 ---
 
@@ -32,7 +32,7 @@ lastupdated: "2018-11-01"
 |达拉斯 09|dal09|
 |达拉斯 10|dal10|
 |达拉斯 12|dal12|
-|dal13|达拉斯 13|
+|达拉斯 13|dal13|
 |华盛顿特区 01|wdc01|
 |华盛顿特区 04|wdc04|
 |华盛顿特区 06|wdc06|
