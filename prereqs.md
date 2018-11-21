@@ -29,7 +29,7 @@ Extended Support Release](https://www.mozilla.org/firefox/organizations/) for mo
  * Safari: latest version for Mac
  
  You can report issues about Internet Explorer 11 through our **Feedback** button.
- {: .note}
+ {:note}
 
 ## Command Line Interface (CLI)
 {: #cli}
