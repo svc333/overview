@@ -8,6 +8,7 @@ lastupdated: "2018-08-15"
 ---
 
 {:shortdesc: .shortdesc}
+{:note: .note}
 {:new_window: target="_blank"}
 
 # Prerequisites
@@ -24,9 +25,11 @@ The following list specifies the minimum required browser software for {{site.da
  * Chrome: latest version for your operating system
  * Firefox: latest regular and ESR versions for your operating system, see [Mozilla Firefox
 Extended Support Release](https://www.mozilla.org/firefox/organizations/) for more details
- * Internet Explorer: version 11
  * Edge: latest version for Windows
  * Safari: latest version for Mac
+ 
+ You can report issues about Internet Explorer 11 through our **Feedback** button.
+ {: .note}
 
 ## Command Line Interface (CLI)
 {: #cli}
