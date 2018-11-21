@@ -8,6 +8,7 @@ lastupdated: "2018-08-15"
 ---
 
 {:shortdesc: .shortdesc}
+{:note: .note}
 {:new_window: target="_blank"}
 
 # Prerequisites
@@ -27,7 +28,8 @@ Extended Support Release](https://www.mozilla.org/firefox/organizations/) for mo
  * Edge: latest version for Windows
  * Safari: latest version for Mac
  
- **Note:** We will fix reported issues on Internet Explorer 11.
+ You can report issues about Internet Explorer 11 through our **Feedback** button.
+ {: .note}
 
 ## Command Line Interface (CLI)
 {: #cli}
