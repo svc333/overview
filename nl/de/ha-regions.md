@@ -23,7 +23,6 @@ Zum Beheben von Sicherheitsproblemen können Sie auch den Standort auswählen, i
 
 Der globale Lastausgleich für die Konsole stellt sicher, dass bei einer Inaktivität Ihres nächsten geografischen Standorts die Konsole die Informationen für den nächstgelegenen Standort anzeigt. Auf diese Weise verfügen Sie stets über Zugriff auf die Konsole, ohne dass Aktionen erforderlich sind, um auf die benötigten Informationen zuzugreifen.
 
-<!---This is a pre-pup topic. Post pup, the dashboard will have a Location status widget, which will show geographies as a summary. This paragraph will change and we need to add a paragraph to explain the continents are a summary in the widget.-->
 Über das Dashboard können Sie standardmäßig alle Ressourcen an allen Standorten anzeigen. Wenn Sie Ressourcen an einem bestimmten Standort anzeigen und mit diesen arbeiten möchten, erweitern Sie das Menü **Standort** und wählen Sie einen Standort aus der Liste aus. 
 
 Sie können auch die Befehlszeilenschnittstelle verwenden, um eine Verbindung zu dem {{site.data.keyword.cloud_notm}}-Standort herzustellen, mit dem Sie arbeiten möchten, indem Sie den Befehl `ibmcloud api` verwenden und den API-Endpunkt des Standorts angeben. Geben Sie beispielsweise den folgenden Befehl ein, um eine Verbindung zum {{site.data.keyword.cloud_notm}}-Standort London herzustellen:

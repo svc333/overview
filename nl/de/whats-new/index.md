@@ -27,7 +27,7 @@ Im Zuge der weiteren Ausdehnung unserer globalen Verfügbarkeit durch {{site.dat
 
 Die programmgesteuerten IDs ändern sich vorerst nicht, sodass es aus API-Perspektive keine Beeinträchtigungen gibt. Nachstehend eine Tabelle, in der die alten und neuen Standortnamen aufgeführt sind. Weitere Informationen und eine umfassende Liste der Rechenzentren und Regionen finden Sie unter [Serviceverfügbarkeit](docs/resources/services_region.html).
 
-|Bisheriger angezeigter Standortname |Neuer angezeigter Standortname | Code |
+| Bisheriger angezeigter Standortname | Neuer angezeigter Standortname | Code |
 |----------|---------|---------|
 | Vereinigte Staaten (Süden) | Dallas | us-south | 
 | Vereinigte Staaten (Osten) | Washington DC | us-east |
@@ -675,7 +675,7 @@ Die Betaversion von {{site.data.keyword.uccr_short}} bietet die folgenden Schlü
 * Sie können Kalenderereignisse für Ihre Organisation anpassen.
 * Sie können E-Mail- und Slack-Tasks für Releasebenachrichtigungen verwenden.
 
-### dashDB for Transactions in {{site.data.keyword.DB2OnCloud_short}} umbenannt
+### dashDB for Transactions in {{site.data.keyword.Db2Hosted_notm}} umbenannt
 Datum der Neuerung: 14. Juni 2017
 
 IBM {{site.data.keyword.DB2OnCloud_short}} ist der neue Name für dashDB for Transactions. Im Rahmen dieser Umbenennung wird auch der vormalige selbstverwaltete Service '{{site.data.keyword.DB2OnCloud_short}}' in 'IBM Db2 Hosted' umbenannt. Derzeit werden lediglich die Anzeigenamen aktualisiert; APIs oder Befehlszeilenschnittstellen bleiben somit unverändert.

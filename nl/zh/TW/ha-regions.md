@@ -23,7 +23,6 @@ lastupdated: "2018-11-01"
 
 主控台的廣域負載平衡可確保如果離您最近的地理位置關閉，主控台會顯示下一個最近位置的資訊。如此一來，您隨時都可以存取主控台，而不需要採取任何動作來存取所需的資訊。
 
-<!---This is a pre-pup topic. Post pup, the dashboard will have a Location status widget, which will show geographies as a summary. This paragraph will change and we need to add a paragraph to explain the continents are a summary in the widget.-->
 依預設，您可以從儀表板檢視所有位置的所有資源。如果您要檢視及使用特定位置的資源，請展開**位置**功能表，並從清單中選取某個位置。 
 
 您也可以使用指令行介面來連接至所要使用的 {{site.data.keyword.cloud_notm}} 位置，方法是使用 `ibmcloud api` 指令，並指定位置的 API 端點。例如，輸入下列指令以連接至 {{site.data.keyword.cloud_notm}} 倫敦：

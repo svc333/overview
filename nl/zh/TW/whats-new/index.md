@@ -675,7 +675,7 @@ IBM App Launch for {{site.data.keyword.Bluemix_notm}} 服務是一個實驗性�
 * 自訂行事曆事件，以符合您的組織。
 * 使用電子郵件及 Slack 類型作業進行版本通知。
 
-### dashDB for Transactions 已重新命名為 {{site.data.keyword.DB2OnCloud_short}}
+### dashDB for Transactions 已重新命名為 {{site.data.keyword.Db2Hosted_notm}}
 文件日期：2017 年 6 月 14 日
 
 IBM {{site.data.keyword.DB2OnCloud_short}} 是 dashDB for Transactions 的新名稱。進行這項重新命名時，先前的自我管理 IBM {{site.data.keyword.DB2OnCloud_short}} 服務也會重新命名為 IBM Db2 Hosted。此時只會更新顯示名稱，因此任何 API 或指令行介面都會保持不變。
