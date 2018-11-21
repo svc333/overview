@@ -4,7 +4,7 @@ copyright:
 
   years: 2018
 
-lastupdated: "2018-11-01"
+lastupdated: "2018-11-07"
 
 ---
 
@@ -31,7 +31,7 @@ lastupdated: "2018-11-01"
 |Dallas 09|dal09|
 |Dallas 10|dal10|
 |Dallas 12|dal12|
-|dal13|Dallas 13|
+|Dallas 13|dal13|
 |Washington DC 01|wdc01|
 |Washington DC 04|wdc04|
 |Washington DC 06|wdc06|
@@ -81,9 +81,9 @@ lastupdated: "2018-11-01"
 |Tokio 01|tok02|
 |Tokio 04|tok04|
 |Tokio 05|tok05|
-|Seúl 01 |seo01|
+|Seúl 01|seo01|
 |Hong Kong 02|hkg02|
-|Singapur 01 |sng01|
+|Singapur 01|sng01|
 |Sídney 01|syd01|
 |Sídney 04|syd04|
 |Sídney 05|syd05|

@@ -40,13 +40,13 @@ Por ahora no se están modificando los ID programáticos, de modo que esto no af
 ### Asignación de acceso de gestión de cuenta a otros
 Novedad desde: 30 de octubre de 2018
 
-Con {{site.data.keyword.cloud_notm}} Identity and Access Management (IAM), puede permitir que otros usuarios de la cuenta puedan realizar tareas comunes de gestión de la cuenta. Mediante la creación de una política de acceso en uno o en todos los servicios de gestión de cuenta disponibles, puede delegar fácilmente responsabilidades, como invitar y eliminar usuarios, gestionar grupos de accesos, gestionar ID de servicios, mantener servicios de catálogos privados e incluso supervisar la facturación y realizar un seguimiento del uso. Hay cuatro servicios individuales de gestión de cuentas y una opción para todos los servicios que puede utilizar para configurar políticas de acceso. 
+Con {{site.data.keyword.cloud_notm}} Identity and Access Management (IAM), puede permitir que otros usuarios de la cuenta puedan realizar tareas comunes de gestión de la cuenta. Mediante la creación de una política de acceso en uno o en todos los servicios de gestión de cuenta disponibles, puede delegar fácilmente responsabilidades, como invitar y eliminar usuarios, gestionar grupos de accesos, gestionar ID de servicios, mantener servicios de catálogos privados e incluso supervisar la facturación y realizar un seguimiento del uso. Hay cuatro servicios individuales de gestión de cuentas y una opción para todos los servicios que puede utilizar para configurar políticas de acceso.
 
 * Gestión de usuarios para invitar y eliminar usuarios
 * Grupos de acceso IAM para crear, editar, suprimir, actualizar y asignar acceso 
 * IAM Identity Service para ver, crear, suprimir y asignar acceso a ID de servicio y claves de API asociadas en la cuenta
 * Catálogo global de recursos para ver ofertas del catálogo privado y actualizar los metadatos y la visibilidad de las ofertas
-* Todos los servicios de gestión de cuentas para acceder a cada una de las opciones de los servicios de gestión de cuentas individuales en función del rol asignado, así como acceso a facturación y seguimiento del uso. 
+* Todos los servicios de gestión de cuentas para acceder a cada una de las opciones de los servicios de gestión de cuentas individuales en función del rol asignado, así como acceso a facturación y seguimiento del uso.
 
 Para obtener más información sobre las tareas que puede realizar un usuario en función del servicio de gestión de cuentas en el que tienen una política y del rol asignado, consulte [Roles y acciones de gestión de plataforma de ejemplo para los servicios de gestión de cuentas](/docs/iam/users_roles.html#platformrolestable2).
 
@@ -675,7 +675,7 @@ La versión beta de {{site.data.keyword.uccr_short}} proporciona las siguientes 
 * Personalizar los sucesos de calendario para que se ajusten a su organización.
 * Utilizar las tareas de correo electrónico y de tipo Slack para las notificaciones del release.
 
-### dashDB for Transactions ha cambiado su nombre a {{site.data.keyword.DB2OnCloud_short}}
+### dashDB for Transactions ha cambiado su nombre a {{site.data.keyword.Db2Hosted_notm}}
 Novedad desde: 14 de junio de 2017
 
 IBM {{site.data.keyword.DB2OnCloud_short}} es el nombre nuevo para dashDB for Transactions. Como parte de este cambio de nombre, el servicio autogestionado del anterior IBM {{site.data.keyword.DB2OnCloud_short}} cambiará su nombre a IBM Db2 Hosted. En este momento, solo se actualizarán los nombres de visualización, por lo que cualquier API o interfaz de línea de mandatos permanecerá sin cambios.
