@@ -31,7 +31,6 @@ disponíveis, consulte [Disponibilidade de serviço](/docs/resources/service_reg
 O balanceamento de carga global para o console assegura que se a localização geográfica mais próxima de você
 estiver inativa, o console exibirá as informações para a localização mais próxima seguinte. Dessa forma, é possível sempre acessar o console sem tomar qualquer ação para acessar as informações de que você precisa.
 
-<!---This is a pre-pup topic. Post pup, the dashboard will have a Location status widget, which will show geographies as a summary. This paragraph will change and we need to add a paragraph to explain the continents are a summary in the widget.-->
 Por meio do painel, é possível visualizar todos os recursos em todas as localizações por padrão. Se você desejar
 visualizar e trabalhar com os recursos em uma localização específica, expanda o menu **LOCALIZAÇÃO** e
 selecione uma localização na lista. 

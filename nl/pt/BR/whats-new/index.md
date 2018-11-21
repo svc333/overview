@@ -716,7 +716,7 @@ A versão beta do {{site.data.keyword.uccr_short}} fornece os recursos-chave a s
 * Customize os eventos de calendário para se ajustarem à sua organização.
 * Use e-mail e tarefas do tipo Slack para notificações de liberação.
 
-### O DashDB for Transactions foi renomeado para {{site.data.keyword.DB2OnCloud_short}}
+### O DashDB for Transactions foi renomeado para {{site.data.keyword.Db2Hosted_notm}}
 Novo a partir de: 14 de junho de 2017
 
 IBM {{site.data.keyword.DB2OnCloud_short}} é o novo nome para dashDB for Transactions. Como parte dessa renomeação, antigo serviço autogerenciado do IBM {{site.data.keyword.DB2OnCloud_short}} também será renomeado para IBM Db2 Hosted. Nesse momento, apenas os nomes de exibição foram atualizados, portanto, quaisquer APIs ou interfaces de linha de comandos permanecem sem mudanças.
