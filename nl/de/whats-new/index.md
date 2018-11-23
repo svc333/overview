@@ -4,7 +4,7 @@ copyright:
 
   years: 2015, 2018
 
-lastupdated: "2018-11-02"
+lastupdated: "2018-11-13"
 
 ---
 
@@ -40,7 +40,7 @@ Die programmgesteuerten IDs ändern sich vorerst nicht, sodass es aus API-Perspe
 ### Zugriff auf Kontoverwaltung zuweisen
 Datum der Neuerung: 30. Oktober 2018
 
-Mit {{site.data.keyword.cloud_notm}} Identity and Access Management (IAM) können Sie anderen Benutzern in Ihrem Konto die Möglichkeit geben, allgemeine Kontoverwaltungsaufgaben auszuführen. Indem Sie eine Zugriffsrichtlinie für einen oder alle verfügbaren Kontoverwaltungsservices erstellen, können Sie ohne großen Aufwand Verantwortlichkeiten wie das Einladen und Entfernen von Benutzern, die Verwaltung von Zugriffsgruppen und von Service-IDs, die Pflege privater Katalogservices und auch die Überwachung von Abrechnungen und Aufzeichnung der Nutzung delegieren. Es gibt vier verschiedene Kontoverwaltungsservices sowie eine Option für alle Services, die Sie zum Festlegen von Zugriffsrichtlinien verwenden können:
+Mit {{site.data.keyword.cloud_notm}} Identity and Access Management (IAM) können Sie allgemeine Tasks, die Sie als Kontoadministrator auszuführen haben, an andere Benutzer in Ihrem Konto delegieren. Indem Sie eine Zugriffsrichtlinie für einen oder alle verfügbaren Kontoverwaltungsservices erstellen, können Sie ohne großen Aufwand Verantwortlichkeiten wie das Einladen und Entfernen von Benutzern, die Verwaltung von Zugriffsgruppen und von Service-IDs, die Pflege privater Katalogservices und auch die Überwachung von Abrechnungen und Aufzeichnung der Nutzung delegieren. Es gibt vier verschiedene Kontoverwaltungsservices sowie eine Option für alle Services, die Sie zum Festlegen von Zugriffsrichtlinien verwenden können:
 
 * Benutzerverwaltung zum Einladen und Entfernen von Benutzern
 * IAM-Zugriffsgruppen zum Erstellen, Bearbeiten, Löschen, Aktualisieren und Zuweisen des Zugriffs 
@@ -48,7 +48,8 @@ Mit {{site.data.keyword.cloud_notm}} Identity and Access Management (IAM) könne
 * Globaler Ressourcenkatalog zum Anzeigen von privaten Katalogangeboten und Aktualisieren der Metadaten und Sichtbarkeit für die Angebote
 * Alle Kontoverwaltungsservices für den Zugriff auf die einzelnen Kontoverwaltungsserviceoptionen, je nach zugewiesener Rolle, sowie Zugriff auf die Abrechnungs- und Nutzungsverfolgung.
 
-Weitere Informationen zu den Tasks, die ein Benutzer ausführen kann, je nachdem, für welchen Kontoverwaltungsservice er eine Richtlinie besitzt und welche Rolle ihm zugewiesen ist, finden Sie im Abschnitt [Beispiele zu Plattformmanagementrollen und Aktionen für Kontoverwaltungsservices](/docs/iam/users_roles.html#platformrolestable2).
+
+Weitere Informationen zu den Tasks, die ein Benutzer ausführen kann, je nachdem, für welchen Kontoverwaltungsservice er eine Richtlinie besitzt und welche Rolle ihm zugewiesen ist, finden Sie im Abschnitt [Beispiele zu Plattformmanagementrollen und Aktionen für Kontoverwaltungsservices](/docs/iam/users_roles.html#platformrolestable2). Weitere Informationen zu diesem neuen Feature finden Sie unter dem Blogbeitrag [Introducing More Flexibility and Control for IBM Cloud Account Management Services Access](https://www.ibm.com/blogs/bluemix/2018/11/introducing-more-flexibility-and-control-for-ibm-cloud-account-management-services-access/){: new_window} ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für exterernen Link").  
 
 
 ### Nach Ressourcen suchen
@@ -347,6 +348,16 @@ Das Liberty Buildpack v3.9 bietet eine neue monatliche Liberty-Laufzeitversion u
 ## Services
 {: #services_category}
 
+
+### Automatisieren von Infrastruktur- und App-Bereitstellungen mit Terraform und Ansible
+Datum der Neuerung: 2. November 2018
+
+Terraform und Ansible sind Open-Source-Software, die Sie verwenden können, um die gesamte Bereitstellung Ihrer Cloudlösung vom Anfang bis zum Ende zu automatisieren. Mit Terraform können Sie Ihre {{site.data.keyword.Bluemix_notm}}-Infrastrukturkomponenten angeben und schnell komplexe, mehrstufige Cloudumgebungen erstellen, um IaC (Infrastructure as Code) zu aktivieren. Verwenden Sie anschließend Ansible, um Ihre Rechenhosts über das private Netz zu verbinden und Ihre App bereitzustellen, Services zu erstellen, Scripts auszuführen oder Konfigurationen zu definieren.  
+
+In den Lernprogrammen finden Sie Informationen zum Starten und zu den Grundlagen jedes Open-Source-Produkts:  
+* [Deploying RedHat OpenShift Container Platform on {{site.data.keyword.Bluemix_notm}} with Terraform](/docs/terraform/tutorials/install_redhat_openshift.html#redhat){: new_window} ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")
+* [Deploying WordPress on IBM Cloud infrastructure with Terraform and Ansible](/docs/terraform/tutorials/wordpress_with_terraform_and_ansible.html#deploy_wordpress){: new_window} ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link"). 
+
 ### Neueste Aktualisierungen für {{site.data.keyword.cloudant_short_notm}}
 Datum der Neuerung: 28. September 2018
 
@@ -515,7 +526,7 @@ In den letzten Monaten wurden Erweiterungen am {{site.data.keyword.mobileanalyti
 {{site.data.keyword.mobileanalytics_short}} ist jetzt ein Omni-Channel-Service und bietet zusätzlich Unterstützung für Web-App-Analysen. Weitere Details finden Sie unter der Adresse [https://github.com/ibm-bluemix-mobile-services/bms-clientsdk-web-analytics/](https://github.com/ibm-bluemix-mobile-services/bms-clientsdk-web-analytics/){: new_window} ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link").
 
 #### Integration mit {{site.data.keyword.mobilefoundation_short}}-Service
-Der {{site.data.keyword.mobilefoundation_short}}-Service nutzt jetzt den {{site.data.keyword.mobileanalytics_short}}-Service zur App-, Benutzer- und Leistungsanalyse. Benutzer können die Option 'In DB2-Data-Warehouse exportieren' nutzen, um eine Adapteranalyse und benutzerdefinierte Diagramme zu erstellen. Zusätzliche Details enthalten die folgenden Blogbeiträge:
+Der {{site.data.keyword.mobilefoundation_short}}-Service nutzt jetzt den {{site.data.keyword.mobileanalytics_short}}-Service zur App-, Benutzer- und Leistungsanalyse. Benutzer können die Option 'In Db2-Data-Warehouse exportieren' nutzen, um eine Adapteranalyse und benutzerdefinierte Diagramme zu erstellen. Zusätzliche Details enthalten die folgenden Blogbeiträge:
 
 * [Mobile Foundation Service integration with Mobile Analytics Service](https://www.ibm.com/blogs/bluemix/2017/08/mobile-foundation-service-integration-mobile-analytics-service-2/){: new_window} ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")
 * [Building custom charts using IBM Bluemix Mobile Analytics service and IBM Mobile Foundation Service](https://mobilefirstplatform.ibmcloud.com/blog/2017/04/26/custom-charts-using-analytics-and-dashdb-analytics-service/){: new_window} ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")
