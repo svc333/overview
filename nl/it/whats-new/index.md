@@ -4,7 +4,7 @@ copyright:
 
   years: 2015, 2018
 
-lastupdated: "2018-11-02"
+lastupdated: "2018-11-13"
 
 ---
 
@@ -40,7 +40,7 @@ Per ora gli ID programmatici non stanno cambiando, quindi non c'è un impatto da
 ### Assegna l'accesso di gestione dell'account ad altri
 Novità a partire dal: 30 ottobre 2018
 
-Con {{site.data.keyword.cloud_notm}} Identity and Access Management (IAM), puoi concedere ad altri utenti nel tuo account la capacità di eseguire le attività di gestione dell'account comuni. Creando una politica di accesso per uno o per tutti i servizi di gestione dell'account disponibili, puoi facilmente delegare responsabilità come invito e rimozione di utenti, gestione dei gruppi di accesso, gestione degli ID servizio, manutenzione dei servizi del catalogo privati e anche il monitoraggio della fatturazione e la traccia dell'utilizzo. Ci sono quattro singoli servizi di gestione dell'account e un'opzione per tutti i servizi che puoi utilizzare per impostare le politiche di accesso:
+Con {{site.data.keyword.cloud_notm}} IAM (Identity and Access Management), puoi delegare le attività comuni che completi in quanto amministratore dell'account a un altro utente nel tuo account. Creando una politica di accesso per uno o per tutti i servizi di gestione dell'account disponibili, puoi facilmente delegare responsabilità come invito e rimozione di utenti, gestione dei gruppi di accesso, gestione degli ID servizio, manutenzione dei servizi del catalogo privati e anche il monitoraggio della fatturazione e la traccia dell'utilizzo. Ci sono quattro singoli servizi di gestione dell'account e un'opzione per tutti i servizi che puoi utilizzare per impostare le politiche di accesso:
 
 * Gestione utenti per l'invito e la rimozione degli utenti
 * Gruppi di accesso IAM per la creazione, la modifica, l'eliminazione, l'aggiornamento e l'assegnazione dell'accesso 
@@ -48,7 +48,8 @@ Con {{site.data.keyword.cloud_notm}} Identity and Access Management (IAM), puoi 
 * Catalogo delle risorse globali per la visualizzazione delle offerte del catalogo private e l'aggiornamento dei metadati e della visibilità delle offerte
 * Tutti i servizi di gestione dell'account per l'accesso a ciascuna delle opzioni del servizio di gestione dell'account individuali in base al ruolo assegnato e all'accesso alla fatturazione e alla traccia dell'utilizzo.
 
-Per ulteriori informazioni sulle attività che un utente può effettuare in base al servizio di gestione dell'account di cui hanno una politica e quale ruolo viene loro assegnato, consulta [Ruoli e azioni di gestione di esempio per i servizi di gestione dell'account](/docs/iam/users_roles.html#platformrolestable2).
+
+Per ulteriori informazioni sulle attività che un utente può effettuare in base al servizio di gestione dell'account di cui hanno una politica e quale ruolo viene loro assegnato, consulta [Ruoli e azioni di gestione di esempio per i servizi di gestione dell'account](/docs/iam/users_roles.html#platformrolestable2). Per ulteriori informazioni su questa nuova funzione, vedi il post del blog [Introducing More Flexibility and Control for IBM Cloud Account Management Services Access](https://www.ibm.com/blogs/bluemix/2018/11/introducing-more-flexibility-and-control-for-ibm-cloud-account-management-services-access/){: new_window} ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno"). 
 
 
 ### Ricerca delle risorse
@@ -346,6 +347,16 @@ Il pacchetto di build Liberty v3.9 fornisce una nuova versione di runtime Libert
 
 ## Servizi
 {: #services_category}
+
+
+### Automatizza le distribuzioni di infrastruttura e applicazioni con Terraform e Ansible
+Novità a partire dal: 2 novembre 2018
+
+Terraform e Ansible sono software open source che puoi utilizzare per automatizzare la distribuzione della tua soluzione cloud dall'inizio alla fine. Con Terraform, puoi specificare i componenti della tua infrastruttura {{site.data.keyword.Bluemix_notm}} e creare rapidamente ambienti cloud complessi e a più livelli per abilitare IaC (Infrastructure as Code). Usa quindi Ansible per connetterti ai tuoi host di elaborazione sulla rete privata per distribuire la tua applicazione, creare servizi, eseguire script o definire configurazioni. 
+
+Come introduzione, e per saperne di più sugli elementi di base di ciascun prodotto open source, vedi le nostre esercitazioni. 
+* [Distribuzione della piattaforma del contenitore RedHat OpenShift su {{site.data.keyword.Bluemix_notm}} con Terraform](/docs/terraform/tutorials/install_redhat_openshift.html#redhat){: new_window} ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")
+* [Distribuzione di WordPress sull'infrastruttura IBM Cloud con Terraform e Ansible](/docs/terraform/tutorials/wordpress_with_terraform_and_ansible.html#deploy_wordpress){: new_window} ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno"). 
 
 ### Ultimi aggiornamenti per {{site.data.keyword.cloudant_short_notm}}
 Novità a partire dal 28 settembre 2018
