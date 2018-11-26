@@ -4,7 +4,7 @@ copyright:
 
   years: 2015, 2018
 
-lastupdated: "2018-11-02"
+lastupdated: "2018-11-13"
 
 ---
 
@@ -40,7 +40,7 @@ Por ahora no se están modificando los ID programáticos, de modo que esto no af
 ### Asignación de acceso de gestión de cuenta a otros
 Novedad desde: 30 de octubre de 2018
 
-Con {{site.data.keyword.cloud_notm}} Identity and Access Management (IAM), puede permitir que otros usuarios de la cuenta puedan realizar tareas comunes de gestión de la cuenta. Mediante la creación de una política de acceso en uno o en todos los servicios de gestión de cuenta disponibles, puede delegar fácilmente responsabilidades, como invitar y eliminar usuarios, gestionar grupos de accesos, gestionar ID de servicios, mantener servicios de catálogos privados e incluso supervisar la facturación y realizar un seguimiento del uso. Hay cuatro servicios individuales de gestión de cuentas y una opción para todos los servicios que puede utilizar para configurar políticas de acceso.
+Con {{site.data.keyword.cloud_notm}} Identity and Access Management (IAM), puede delegar tareas comunes que haya completado como administrador de la cuenta a otro usuario de la cuenta. Mediante la creación de una política de acceso en uno o en todos los servicios de gestión de cuenta disponibles, puede delegar fácilmente responsabilidades, como invitar y eliminar usuarios, gestionar grupos de accesos, gestionar ID de servicios, mantener servicios de catálogos privados e incluso supervisar la facturación y realizar un seguimiento del uso. Hay cuatro servicios individuales de gestión de cuentas y una opción para todos los servicios que puede utilizar para configurar políticas de acceso.
 
 * Gestión de usuarios para invitar y eliminar usuarios
 * Grupos de acceso IAM para crear, editar, suprimir, actualizar y asignar acceso 
@@ -48,7 +48,8 @@ Con {{site.data.keyword.cloud_notm}} Identity and Access Management (IAM), puede
 * Catálogo global de recursos para ver ofertas del catálogo privado y actualizar los metadatos y la visibilidad de las ofertas
 * Todos los servicios de gestión de cuentas para acceder a cada una de las opciones de los servicios de gestión de cuentas individuales en función del rol asignado, así como acceso a facturación y seguimiento del uso.
 
-Para obtener más información sobre las tareas que puede realizar un usuario en función del servicio de gestión de cuentas en el que tienen una política y del rol asignado, consulte [Roles y acciones de gestión de plataforma de ejemplo para los servicios de gestión de cuentas](/docs/iam/users_roles.html#platformrolestable2).
+
+Para obtener más información sobre las tareas que puede realizar un usuario en función del servicio de gestión de cuentas en el que tienen una política y del rol asignado, consulte [Roles y acciones de gestión de plataforma de ejemplo para los servicios de gestión de cuentas](/docs/iam/users_roles.html#platformrolestable2). Para obtener más información sobre esta nueva característica, consulte la publicación del blog sobre [Cómo incorporar más flexibilidad y control para el acceso a los servicios de gestión de cuentas de IBM Cloud](https://www.ibm.com/blogs/bluemix/2018/11/introducing-more-flexibility-and-control-for-ibm-cloud-account-management-services-access/){: new_window} ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo").  
 
 
 ### Búsqueda de recursos
@@ -346,6 +347,16 @@ El paquete de compilación de Liberty v3.9 proporciona una nueva versión de tie
 
 ## Servicios
 {: #services_category}
+
+
+### Automatización de despliegues de infraestructura y de apps con Terraform y Ansible
+Novedad desde: 2 de noviembre de 2018
+
+Terraform y Ansible son software de código abierto que puede utilizar para automatizar el despliegue de la solución de nube desde el principio hasta el final. Con Terraform, puede especificar los componentes de la infraestructura de {{site.data.keyword.Bluemix_notm}} y crear rápidamente entornos de nube de varios niveles para habilitar la infraestructura como código (IaC). Luego utilice Ansible para conectarse a los hosts de cálculo a través de la red privada para desplegar la app, crear servicios, ejecutar scripts o definir configuraciones. 
+
+Para empezar a conocer los conceptos básicos de cada producto de código abierto, consulte las siguientes guías de aprendizaje:  
+* [Despliegue de RedHat OpenShift Container Platform en {{site.data.keyword.Bluemix_notm}} con Terraform](/docs/terraform/tutorials/install_redhat_openshift.html#redhat){: new_window} ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")
+* [Despliegue de WordPress en la infraestructura de IBM Cloud con Terraform y Ansible](/docs/terraform/tutorials/wordpress_with_terraform_and_ansible.html#deploy_wordpress){: new_window} ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo"). 
 
 ### Actualizaciones más recientes para {{site.data.keyword.cloudant_short_notm}}
 Novedad desde: 28 de septiembre de 2018
