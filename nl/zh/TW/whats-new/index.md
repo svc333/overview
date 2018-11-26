@@ -4,7 +4,7 @@ copyright:
 
   years: 2015, 2018
 
-lastupdated: "2018-11-02"
+lastupdated: "2018-11-13"
 
 ---
 
@@ -40,7 +40,7 @@ lastupdated: "2018-11-02"
 ### 將帳戶管理存取權指派給其他人
 文件日期：2018 年 10 月 30 日
 
-使用 {{site.data.keyword.cloud_notm}} Identity and Access Management (IAM)，您可以讓帳戶中的其他使用者能夠執行一般帳戶管理作業。藉由在一個或所有可用帳戶管理服務上建立存取原則，您可以輕鬆地委派責任，例如，邀請及移除使用者、管理存取群組、管理服務 ID、維護專用型錄服務，甚至是監視計費及追蹤用量。您可以使用以下四個個別的帳戶管理服務及所有服務選項，來設定存取原則：
+使用 {{site.data.keyword.cloud_notm}} Identity and Access Management (IAM)，您可以將以帳戶管理者身分完成的一般作業委派給帳戶中的另一位使用者。藉由在一個或所有可用帳戶管理服務上建立存取原則，您可以輕鬆地委派責任，例如，邀請及移除使用者、管理存取群組、管理服務 ID、維護專用型錄服務，甚至是監視計費及追蹤用量。您可以使用以下四個個別的帳戶管理服務及所有服務選項，來設定存取原則：
 
 * 使用者管理：用於邀請及移除使用者
 * IAM 存取群組：用於建立、編輯、刪除、更新及指派存取權 
@@ -48,7 +48,8 @@ lastupdated: "2018-11-02"
 * 廣域資源型錄：用於檢視專用型錄供應項目，以及更新供應項目的 meta 資料和可見性
 * 所有帳戶管理服務：用於根據指派的角色存取每一個個別的帳戶管理服務選項，以及存取計費和用量追蹤。
 
-如需使用者可以根據其具有原則的帳戶管理服務以及其獲指派的角色而執行之作業的相關資訊，請參閱[帳戶管理服務的平台管理角色及動作範例](/docs/iam/users_roles.html#platformrolestable2)。
+
+如需使用者可以根據其具有原則的帳戶管理服務以及其獲指派的角色而執行之作業的相關資訊，請參閱[帳戶管理服務的平台管理角色及動作範例](/docs/iam/users_roles.html#platformrolestable2)。如需此新特性的相關資訊，請參閱 [Introducing More Flexibility and Control for IBM Cloud Account Management Services Access](https://www.ibm.com/blogs/bluemix/2018/11/introducing-more-flexibility-and-control-for-ibm-cloud-account-management-services-access/){: new_window} ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示") 部落格文章。 
 
 
 ### 搜尋資源
@@ -346,6 +347,16 @@ Liberty 建置套件 3.9 版提供新的每月 Liberty 運行環境版本，並�
 
 ## 服務
 {: #services_category}
+
+
+### 使用 Terraform 和 Ansible 自動進行基礎架構及應用程式部署
+文件日期：2018 年 11 月 2 日
+
+Terraform 及 Ansible 是開放程式碼軟體，您可以用它們來從頭到尾自動部署雲端解決方案。使用 Terraform，您可以指定 {{site.data.keyword.Bluemix_notm}} 基礎架構元件並快速建置複雜的多層式雲端環境，以便促成 Infrastructure as Code (IaC)。接著，使用 Ansible 連接至專用網路上的運算主機，以便部署應用程式、建置服務、執行 Script 或定義配置。 
+
+若要開始瞭解每個開放程式碼產品的基本概念，請參閱我們的指導教學： 
+* [在 {{site.data.keyword.Bluemix_notm}} 上使用 Terraform 部署 RedHat OpenShift Container Platform](/docs/terraform/tutorials/install_redhat_openshift.html#redhat){: new_window} ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")
+* [在 IBM Cloud 基礎架構上使用 Terraform 和 Ansible 部署 WordPress](/docs/terraform/tutorials/wordpress_with_terraform_and_ansible.html#deploy_wordpress){: new_window} ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")。 
 
 ### {{site.data.keyword.cloudant_short_notm}} 的最新更新
 文件日期：2018 年 9 月 28 日

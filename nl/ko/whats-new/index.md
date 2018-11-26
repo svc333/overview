@@ -4,7 +4,7 @@ copyright:
 
   years: 2015, 2018
 
-lastupdated: "2018-11-02"
+lastupdated: "2018-11-13"
 
 ---
 
@@ -40,7 +40,7 @@ lastupdated: "2018-11-02"
 ### 다른 사용자에게 계정 관리 서비스 지정
 신규 기준일: 2018년 10월 30일
 
-{{site.data.keyword.cloud_notm}} IAM(Identity and Access Management)을 통해 공통 계정 관리 태스크를 수행하는 기능을 계정의 다른 사용자에게 허용할 수 있습니다. 하나 또는 모든 사용 가능 계정 관리 서비스에서 액세스 정책을 작성하면 사용자 초대 및 제거, 액세스 그룹 관리, 서비스 ID 관리, 사설 카탈로그 서비스 유지보수, 청구 모니터링 및 사용량 추적과 같은 책임을 쉽게 위임할 수 있습니다. 액세스 정책을 설정하는 데 사용할 수 있는 네 개의 개별 계정 관리 서비스 및 모든 서비스 옵션이 있습니다.
+{{site.data.keyword.cloud_notm}} IAM(Identity and Access Management)을 통해 계정 관리자로 완료하는 공통 태스크를 사용자 계정의 다른 사용자에게 위임할 수 있습니다. 하나 또는 모든 사용 가능 계정 관리 서비스에서 액세스 정책을 작성하면 사용자 초대 및 제거, 액세스 그룹 관리, 서비스 ID 관리, 사설 카탈로그 서비스 유지보수, 청구 모니터링 및 사용량 추적과 같은 책임을 쉽게 위임할 수 있습니다. 액세스 정책을 설정하는 데 사용할 수 있는 네 개의 개별 계정 관리 서비스 및 모든 서비스 옵션이 있습니다.
 
 * 사용자를 초대 및 제거하기 위한 사용자 관리
 * 액세스 권한 작성, 편집, 삭제, 업데이트, 지정을 위한 IAM 액세스 그룹 
@@ -48,7 +48,8 @@ lastupdated: "2018-11-02"
 * 사설 카탈로그 오퍼링을 보고 오퍼링에 대한 메타데이터 및 가시성을 업데이트하기 위한 글로벌 리소스 카탈로그
 * 청구 및 사용량 추적에 대한 액세스는 물론, 지정된 역할에 기반하여 각 개별 계정 관리 서비스 옵션에 대한 액세스를 위한 모든 계정 관리 서비스.
 
-지정된 역할 및 관련 정책을 보유하고 있는 관련 계정 관리 서비스에 기반하여 사용자가 수행할 수 있는 태스크에 대한 자세한 정보는 [계정 관리 서비스에 대한 예제 플랫폼 관리 역할 및 조치](/docs/iam/users_roles.html#platformrolestable2)를 참조하십시오.
+
+지정된 역할 및 관련 정책을 보유하고 있는 관련 계정 관리 서비스에 기반하여 사용자가 수행할 수 있는 태스크에 대한 자세한 정보는 [계정 관리 서비스에 대한 예제 플랫폼 관리 역할 및 조치](/docs/iam/users_roles.html#platformrolestable2)를 참조하십시오. 이 새 기능에 대한 자세한 정보는 [Introducing More Flexibility and Control for IBM Cloud Account Management Services Access](https://www.ibm.com/blogs/bluemix/2018/11/introducing-more-flexibility-and-control-for-ibm-cloud-account-management-services-access/){: new_window} ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘") 블로그 게시물을 참조하십시오. 
 
 
 ### 리소스 검색
@@ -346,6 +347,16 @@ Liberty 빌드팩 v3.9는 새 월별 Liberty 런타임 버전을 제공하고 �
 
 ## 서비스
 {: #services_category}
+
+
+### Terraform 및 Ansible을 사용하여 인프라 및 앱 배치 자동화
+신규 기준일: 2018년 11월 2일
+
+Terraform 및 Ansible은 클라우드 솔루션 배치의 시작부터 끝까지를 자동화하는 데 사용할 수 있는 오픈 소스 소프트웨어입니다. Terraform을 사용하여 {{site.data.keyword.Bluemix_notm}} 인프라 컴포넌트를 지정하고, IaC(Infrastructure as Code)를 사용할 수 있는 여러 계층으로 구성된 복잡한 클라우드 환경을 신속하게 구축할 수 있습니다. 그런 다음 Ansible로 사설 네트워크를 통해 컴퓨팅 호스트에 연결하여 앱을 배치하거나 서비스를 빌드하거나 스크립트를 실행하거나 구성을 정의할 수 있습니다.  
+
+각 오픈 소스 제품을 시작하고 기본 사항을 알아보려면 다음 튜토리얼을 참조하십시오. 
+* [Terraform을 사용하여 {{site.data.keyword.Bluemix_notm}}에 RedHat OpenShift Container Platform 배치](/docs/terraform/tutorials/install_redhat_openshift.html#redhat){: new_window} ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")
+* [Terraform 및 Ansible을 사용하여 IBM Cloud 인프라에 WordPress 배치](/docs/terraform/tutorials/wordpress_with_terraform_and_ansible.html#deploy_wordpress){: new_window} ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘"). 
 
 ### {{site.data.keyword.cloudant_short_notm}}의 최신 업데이트
 신규 기준일: 2018년 9월 28일

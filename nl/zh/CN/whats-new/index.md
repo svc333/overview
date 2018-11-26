@@ -4,7 +4,7 @@ copyright:
 
   years: 2015, 2018
 
-lastupdated: "2018-11-02"
+lastupdated: "2018-11-13"
 
 ---
 
@@ -40,7 +40,7 @@ lastupdated: "2018-11-02"
 ### 将帐户管理访问权分配给其他人
 最新更新日期：2018 年 10 月 30 日
 
-对于 {{site.data.keyword.cloud_notm}} Identity and Access Management (IAM)，您可以使帐户中其他用户具有执行公共帐户管理任务的能力。通过在一个或所有可用帐户管理服务上创建访问权策略，您可以轻松委派责任，如邀请和除去用户，管理访问组，管理服务标识，维护私有目录服务，甚至监视计费和跟踪使用情况。有四个单独的帐户管理服务和一个可用于设置访问策略的“所有服务”选项：
+使用 {{site.data.keyword.cloud_notm}} Identity and Access Management (IAM)，您可以将作为帐户管理员完成的常见任务委派给帐户中的其他用户。通过在一个或所有可用帐户管理服务上创建访问策略，您可以轻松委派责任，如邀请和除去用户，管理访问组，管理服务标识，维护私有目录服务，甚至监视计费和跟踪使用情况。有四个单独的帐户管理服务和一个可用于设置访问策略的“所有服务”选项：
 
 * 用于邀请和除去用户的用户管理
 * 用于创建、编辑、删除、更新和分配访问权的 IAM 访问组 
@@ -48,7 +48,8 @@ lastupdated: "2018-11-02"
 * 用于查看私有目录产品并更新这些产品的元数据和可视性的全球资源目录
 * 所有帐户管理服务，用于根据分配的角色访问每个帐户管理服务选项，以及访问计费和使用情况跟踪。
 
-有关用户基于对其拥有策略的帐户管理服务和为其分配的角色而可以执行的任务的更多信息，请参阅[帐户管理服务的平台管理角色和操作示例](/docs/iam/users_roles.html#platformrolestable2)。
+
+有关用户基于对其拥有策略的帐户管理服务和为其分配的角色而可以执行的任务的更多信息，请参阅[帐户管理服务的平台管理角色和操作示例](/docs/iam/users_roles.html#platformrolestable2)。有关这个新功能的更多信息，请参阅 [Introducing More Flexibility and Control for IBM Cloud Account Management Services Access](https://www.ibm.com/blogs/bluemix/2018/11/introducing-more-flexibility-and-control-for-ibm-cloud-account-management-services-access/){: new_window} ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标") 博客帖子。 
 
 
 ### 搜索资源
@@ -347,6 +348,16 @@ Liberty buildpack V3.9 提供了新的每月 Liberty 运行时版本，并包含
 
 ## 服务
 {: #services_category}
+
+
+### 使用 Terraform 和 Ansible 自动部署基础架构和应用程序
+最新更新日期：2018 年 11 月 2 日
+
+Terraform 和 Ansible 都是开放式源代码软件，可用于自动化云解决方案的整个部署过程。您可以使用 Terraform 来指定 {{site.data.keyword.Bluemix_notm}} 基础架构组件，快速地构建复杂的多层云环境，从而实现“基础架构即代码”(IaC)。然后，可以使用 Ansible 通过专用网络连接到您的计算主机来部署应用程序，构建服务，执行脚本或定义配置。 
+
+要开始学习这两款开放式源代码产品的基础知识，请参阅我们的教程： 
+* [使用 Terraform 在 {{site.data.keyword.Bluemix_notm}} 上部署 RedHat OpenShift Container Platform](/docs/terraform/tutorials/install_redhat_openshift.html#redhat){: new_window} ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")
+* [使用 Terraform 和 Ansible 在 IBM Cloud 基础架构上部署 WordPress](/docs/terraform/tutorials/wordpress_with_terraform_and_ansible.html#deploy_wordpress){: new_window} ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")。 
 
 ### {{site.data.keyword.cloudant_short_notm}} 的最新更新
 最新更新日期：2018 年 9 月 28 日
