@@ -4,7 +4,7 @@ copyright:
 
   years: 2015, 2018
 
-lastupdated: "2018-11-02"
+lastupdated: "2018-11-13"
 
 ---
 
@@ -46,8 +46,8 @@ de data centers e regiões, consulte [Disponibilidade de serviço](docs/resource
 ### Designar acesso de gerenciamento de conta para outros
 Novo a partir de: 30 de outubro de 2018
 
-Com o {{site.data.keyword.cloud_notm}} Identity and Access Management (IAM), é possível permitir aos outros
-usuários em sua conta a capacidade de executar tarefas comuns de gerenciamento de conta. Ao criar uma política de acesso
+Com o {{site.data.keyword.cloud_notm}}Identity and Access Management (IAM), é possível delegar as tarefas
+comuns que você conclui como um administrador de conta para outro usuário na conta. Ao criar uma política de acesso
 em um ou todos os serviços de gerenciamento de conta disponíveis, é possível facilmente delegar responsabilidades,
 como convidar e remover usuários, gerenciar grupos de acesso, gerenciar IDs de serviço, manter os
 serviços do catálogo privado e até mesmo monitorar o faturamento e rastrear o uso. Há quatro serviços de gerenciamento
@@ -62,10 +62,16 @@ visibilidade para as ofertas
 * Todos os serviços de gerenciamento de conta para o acesso a cada uma das opções de serviço de gerenciamento de
 conta individuais com base na função designada, assim como o acesso ao faturamento e ao rastreamento de uso.
 
+
 Para obter mais informações sobre as tarefas que um usuário pode executar com base no serviço de
 gerenciamento de conta no qual ele tem uma política e qual a função designada a ele, consulte
 [Exemplo de funções de gerenciamento da plataforma e as ações
-para os serviços de gerenciamento de conta](/docs/iam/users_roles.html#platformrolestable2).
+para os serviços de gerenciamento de conta](/docs/iam/users_roles.html#platformrolestable2). Para obter informações adicionais sobre esse novo recurso,
+consulte a postagem do blog
+[Introduzindo
+mais flexibilidade e controle para o acesso aos serviços de gerenciamento de conta do IBM Cloud](https://www.ibm.com/blogs/bluemix/2018/11/introducing-more-flexibility-and-control-for-ibm-cloud-account-management-services-access/){: new_window}
+![Ícone de linkexterno](../../icons/launch-glyph.svg "Ícone de link externo"). 
+
 
 
 ### Procurando Recursos
@@ -378,6 +384,24 @@ O buildpack do Liberty v3.9 fornece uma nova versão de runtime mensal do Libert
 
 ## Serviços
 {: #services_category}
+
+
+### Automatize a infraestrutura e as implementações de aplicativo com o Terraform e o Ansible
+Novo a partir de: 2 de novembro de 2018
+
+Terraform e Ansible são softwares livres que podem ser usados para automatizar a implementação da
+solução de nuvem do início ao fim. Com o Terraform, é possível especificar os componentes de infraestrutura do
+{{site.data.keyword.Bluemix_notm}} e construir rapidamente ambientes de nuvem complexos com múltiplas camadas para
+ativar o Infrastructure as Code (IaC). Em seguida, use o Ansible para se conectar aos hosts de cálculo por meio da
+rede privada para implementar o aplicativo, construir os serviços, executar os scripts ou definir as configurações. 
+
+Para iniciar e conhecer o básico de cada produto de software livre, consulte os tutoriais: 
+* [Implementando o RedHat
+OpenShift Container Platform no {{site.data.keyword.Bluemix_notm}} com o Terraform](/docs/terraform/tutorials/install_redhat_openshift.html#redhat){: new_window}
+![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")
+* [Implementando
+o WordPress na infraestrutura do IBM Cloud com o Terraform e o Ansible](/docs/terraform/tutorials/wordpress_with_terraform_and_ansible.html#deploy_wordpress){: new_window}
+![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo"). 
 
 ### Atualizações mais recentes do {{site.data.keyword.cloudant_short_notm}}
 Novo a partir de: 28 de setembro de 2018
