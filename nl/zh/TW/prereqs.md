@@ -8,6 +8,7 @@ lastupdated: "2018-08-15"
 ---
 
 {:shortdesc: .shortdesc}
+{:note: .note}
 {:new_window: target="_blank"}
 
 # 必要條件
@@ -22,11 +23,12 @@ lastupdated: "2018-08-15"
 下列清單指定 {{site.data.keyword.Bluemix_notm}} 所需的最低瀏覽器軟體：
 
  * Chrome：適用於您作業系統的最新版本
- * Firefox：如需適用於您作業系統的最新一般及 ESR 版本的其他詳細資料，請參閱 [Mozilla Firefox
-Extended Support Release](https://www.mozilla.org/firefox/organizations/)
- * Internet Explorer：第 11 版
+ * Firefox：如需適用於您作業系統的最新一般及 ESR 版本的其他詳細資料，請參閱 [Mozilla Firefox Extended Support Release](https://www.mozilla.org/firefox/organizations/)
  * Edge：適用於 Windows 的最新版本
  * Safari：適用於 Mac 的最新版本
+ 
+ 您可以透過我們的**意見**按鈕回報 Internet Explorer 11 的相關問題。
+ {:note}
 
 ## 指令行介面 (CLI)
 {: #cli}

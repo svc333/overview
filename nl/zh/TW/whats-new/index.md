@@ -4,7 +4,7 @@ copyright:
 
   years: 2015, 2018
 
-lastupdated: "2018-11-13"
+lastupdated: "2018-11-16"
 
 ---
 
@@ -299,14 +299,22 @@ Identity and Access Management (IAM) 現在可讓您建立「服務 ID」，您�
 ## 運算
 {: #compute_category}
 
-### 在 {{site.data.keyword.containerlong_notm}} 中建立多區域叢集
-文件日期：2018 年 7 月 10 日
+### 虛擬伺服器特性
+文件日期：2018 年 11 月 16 日
 
-想要改善叢集和應用程式可用性嗎？現在您可以將叢集橫跨在精選都會區的多個區域之間。如需相關資訊，請參閱[在 {{site.data.keyword.containershort_notm}} 中建立多區域叢集](cs_clusters.html#multizone)。
+下列特性目前適用於 {{site.data.keyword.BluVirtServers_full}} 供應項目。
 
-### {{site.data.keyword.containerlong_notm}} 有了 Kubernetes 儀表板存取權
+#### 未實例時暫停計費
+想要只為您使用超過的部分付費？您現在可以暫停虛擬伺服器實例的計費。暫停計費特性適用於具有按小時計費之公用特性大小與 SAN 支援儲存空間的虛擬伺服器實例。當您關閉支援暫停計費特性之虛擬伺服器的電源時，並不會增加特定運算資源的成本。關閉伺服器電源時，就會自動停止計費。暫停計費特性可協助您降低成本，並且讓您於再次需要虛擬伺服器的資源時，不需要重新佈建虛擬伺服器。如需相關資訊，請參閱[關於暫停計費](/docs/vsi/vsi_about_suspend.html)或 {{site.data.keyword.cloud_notm}} [部落格文章 ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](https://www.ibm.com/blogs/bluemix/2018/10/suspend-billing-1-minute-granularity-virtual-servers/){: new_window}。
 
-{{site.data.keyword.containerlong_notm}} 現在支援透過 {{site.data.keyword.Bluemix_notm}} 主控台直接存取 Kubernetes 儀表板。這個簡化的儀表板路徑讓叢集管理與資源視覺化的使用者體驗得到加強。如需詳細資料，請參閱 [{{site.data.keyword.Bluemix_notm}} 部落格](https://www.ibm.com/blogs/bluemix/2018/04/kubernetes-dashboard-access/){: new_window} ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")。
+#### 針對未來虛擬伺服器實例保留資源
+現在可以使用 {{site.data.keyword.BluVirtServers_full}} 保留實例供應項目。這很適合您想要為未來部署保證資源以及節省成本之用。您可以針對保留容量選擇一年或三年的合約期間。在該保留容量內，您可以保留一組特定大小且最多 20 個的虛擬伺服器實例，然後在需要這些實例時進行佈建。在合約期間的期限內，會保證您在選擇的 POD 及資料中心內擁有此容量。如需相關資訊，請參閱[保留虛擬伺服器](/docs/vsi/vsi_about_reserved.html)。
+
+#### 將映像檔從 {{site.data.keyword.cos_full_notm}} 服務實例匯入到 {{site.data.keyword.cloud_notm}} 基礎架構
+{{site.data.keyword.cloud_notm}} 基礎架構現在會與 {{site.data.keyword.cloud_notm}} 主控台上佈建的 {{site.data.keyword.cos_full_notm}} 服務互動。{{site.data.keyword.cos_full_notm}} 提供 Aspera 高速傳輸外掛程式，能大幅縮短上傳大型映像檔所需的時間量。映像檔上傳至 {{site.data.keyword.cos_full_notm}} 之後，您可以從 {{site.data.keyword.cos_full_notm}} [匯入映像檔](/docs/infrastructure/image-templates/import-image.html)至 {{site.data.keyword.cloud_notm}} 基礎架構。您也可以從 {{site.data.keyword.cloud_notm}} 基礎架構[匯出映像檔](/docs/infrastructure/image-templates/export-image-ibm-cos.html)至 {{site.data.keyword.cos_full_notm}}。
+
+#### 虛擬伺服器實例的放置群組
+放置群組現在適用於 {{site.data.keyword.BluVirtServers_full}}。使用放置群組，您可以使用公用實例在資料中心內建置高可用性，或在較大型的部署內提供額外的容錯層次。如需相關資訊，請參閱[放置群組](/docs/vsi/vsi_placegroup.html)。 
 
 ### 建置套件的最新更新
 
@@ -322,6 +330,23 @@ Identity and Access Management (IAM) 現在可讓您建立「服務 ID」，您�
 {{site.data.keyword.containerlong_notm}} 已在 2017 年 5 月啟動其 Kubernetes 架構。單一及可擴充容器群組的前一個架構現在[自 2017 年 12 月 5 日開始完全淘汰](https://www.ibm.com/blogs/bluemix/2017/07/deprecation-single-scalable-group-container-service-bluemix-public/){: new_window} ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")。  
 
 [請參閱文件，以取得在 {{site.data.keyword.Bluemix_notm}}](/docs/containers/container_index.html) 上開始使用原生 Kubernetes 環境的相關資訊。如果有問題，您可以將它們張貼到 Slack：https://ibm-container-service.slack.com/。
+
+
+### {{site.data.keyword.containerlong_notm}} 現在有高可用性的 Kubernetes
+文件日期：2018 年 11 月 7 日
+
+使用新的高可用性 Kubernetes 主節點特性，提高您的叢集可用性。高可用性 Kubernetes 主節點會設定多個抄本以供 Kubernetes API 伺服器、etcd、Kubernetes 排程器和控制器使用，這些全都分散在不同的實體主機。當您建立執行 Kubernetes 1.12、1.11 或 1.10 版的叢集時，您的 Kubernetes 主節點會依預設設定高可用性。若要在執行上述其中一個 Kubernetes 版本的現有叢集中啟用此特性，您必須完成[準備步驟](/docs/containers/cs_versions.html#110_ha-masters)。
+
+### 在 {{site.data.keyword.containerlong_notm}} 中建立多區域叢集
+文件日期：2018 年 7 月 10 日
+
+想要改善叢集和應用程式可用性嗎？現在您可以將叢集橫跨在精選都會區的多個區域之間。如需相關資訊，請參閱[在 {{site.data.keyword.containershort_notm}} 中建立多區域叢集](cs_clusters.html#multizone)。
+
+### {{site.data.keyword.containerlong_notm}} 有了 Kubernetes 儀表板存取權
+文件日期：2018 年 4 月 18 日
+
+{{site.data.keyword.containerlong_notm}} 現在支援透過 {{site.data.keyword.Bluemix_notm}} 主控台直接存取 Kubernetes 儀表板。這個簡化的儀表板路徑讓叢集管理與資源視覺化的使用者體驗得到加強。如需詳細資料，請參閱 [{{site.data.keyword.Bluemix_notm}} 部落格](https://www.ibm.com/blogs/bluemix/2018/04/kubernetes-dashboard-access/){: new_window} ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")。
+
 
 ### 新的 Liberty for Java 建置套件 3.11 版
 文件日期：2017 年 7 月 17 日
@@ -347,6 +372,11 @@ Liberty 建置套件 3.9 版提供新的每月 Liberty 運行環境版本，並�
 
 ## 服務
 {: #services_category}
+
+### 重大的 {{site.data.keyword.conversationshort}} 更新
+文件日期：2018 年 11 月 9 日
+
+{{site.data.keyword.conversationshort}} 有新的外觀，並新增了特性。稱為*工作區* 的構件（這是強化聊天機器人之機器學習模型訓練資料的容器），已取代為*對話技能*。現在可以藉由為助理新增對話技能而比較輕鬆地進行部署。新的助理層會管理使用者與您技能之間的訊息編排。您可以在助理新增內建整合，以便花最少的功夫將對話技能發佈到熱門的傳訊頻道。{{site.data.keyword.conversationshort}} 的文件已移至新的位置。如需相關資訊，請參閱[產品文件](/docs/services/assistant/index.html)。
 
 
 ### 使用 Terraform 和 Ansible 自動進行基礎架構及應用程式部署
@@ -629,6 +659,24 @@ IBM App Launch for {{site.data.keyword.Bluemix_notm}} 服務是一個實驗性�
     對於具有單一及群組容器的 {{site.data.keyword.loganalysisshort}} 服務以及 {{site.data.keyword.IBM_notm}} Cloud Foundry 服務，您可以從 {{site.data.keyword.Bluemix_notm}} 使用者介面存取服務。
 
 如需 {{site.data.keyword.loganalysisshort}} 服務的相關資訊，請參閱[開始使用 {{site.data.keyword.loganalysisfull}}](/docs/services/CloudLogAnalysis/index.html#getting-started-with-ibm-cloud-log-analysis) 及 [{{site.data.keyword.loganalysisshort}} 概觀](/docs/services/CloudLogAnalysis/log_analysis_ov.html#log_analysis_ov)。
+
+### Virtual Router Appliance 的 Brocade 作業系統 18.x 版
+文件日期：2018 年 7 月 25 日
+
+Brocade OS 的 18.x 版現在適用於 Virtual Router Appliance。在所有新特性中，最值得一提的是此版本提供 Spectre 安全侵害的補救。 
+
+18.x VRA 的新特性討論於下列主題：
+
+* [如何設定使用區域防火牆的 IPsec 通道](/docs/infrastructure/virtual-router-appliance/vra-ipsec.html)
+* [配置與 IPsec 和區域防火牆的 VFP 介面](/docs/infrastructure/virtual-router-appliance/vra-vfp.html)
+* [以字首為基礎的 IPsec 使用 NAT](/docs/infrastructure/virtual-router-appliance/vra-nat.html)
+* [疑難排解您的 VFP 介面](/docs/infrastructure/virtual-router-appliance/vra-vfp-troubleshooting.html)
+
+如果您從 Vyatta 5400 移轉，升級至 18.x 的最好方法是透過完整 OS 重新載入的[正常程序](/docs/infrastructure/virtual-router-appliance/upgrade-os.html)。
+
+由於 Vyatta 5400 與 Virtual Router Appliance 之間沒有簡單的一對一功能對映，因此為 VRA 建立基準配置會有所助益。IBM 合作夥伴 WanClouds 可以協助您完成此程序，並提供在您的 VRA 上建立類似於 Vyatta 5400 之功能的指引。
+
+如需在此升級進行過程中遇到之常見問題的相關資訊，請參閱我們的[其他文件](/docs/infrastructure/virtual-router-appliance/migration-issues.html#vyatta-5400-common-migration-issues)。
 
 ### 已重新命名 IBM dashDB for Analytics
 文件日期：2017 年 7 月 18 日
