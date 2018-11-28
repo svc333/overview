@@ -4,7 +4,7 @@ copyright:
 
   years: 2018
 
-lastupdated: "2018-11-01"
+lastupdated: "2018-11-15"
 
 ---
 
@@ -35,9 +35,9 @@ Un préfixe unique est affecté à chaque emplacement. {{site.data.keyword.cloud
 
 | **Emplacement** | **Noeud final d'API** |
 |-----------------|-------------------|
-| Dallas | api.us-south.bluemix.net |
+| Dallas | api.ng.bluemix.net |
 | Sydney | api.au-syd.bluemix.net |
-| Frankfort | api.eu-de.bluemix.net |
+| Francfort | api.eu-de.bluemix.net |
 | Londres | api.eu-gb.bluemix.net |
 | Washington DC | api.us-east.bluemix.net |
 | Tokyo | api.jp-tok.bluemix.net |

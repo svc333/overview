@@ -8,6 +8,7 @@ lastupdated: "2018-08-15"
 ---
 
 {:shortdesc: .shortdesc}
+{:note: .note}
 {:new_window: target="_blank"}
 
 # Prérequis
@@ -24,9 +25,11 @@ La liste suivante spécifie les versions minimales requises des logiciels de nav
 
  * Chrome : version la plus récente pour votre système d'exploitation
  * Firefox : versions ESR et normales les plus récentes pour votre système d'exploitation ; pour plus de détails, voir [Mozilla Firefox Extended Support Release](https://www.mozilla.org/firefox/organizations/)
- * Internet Explorer : version 11
  * Edge : version la plus récente pour Windows
  * Safari : version la plus récente pour Mac
+ 
+ Vous pouvez signaler tout problème en relation avec Internet Explorer 11 à l'aide du bouton **Commentaire**.
+ {:note}
 
 ## Interface de ligne de commande
 {: #cli}

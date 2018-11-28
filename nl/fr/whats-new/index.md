@@ -4,7 +4,7 @@ copyright:
 
   years: 2015, 2018
 
-lastupdated: "2018-11-13"
+lastupdated: "2018-11-16"
 
 ---
 
@@ -32,7 +32,7 @@ Pour l'instant, les ID de programmation sont sans changement, de sorte qu'aucun 
 | Sud des Etats-Unis | Dallas | us-south | 
 | Est des Etats-Unis | Washington DC | us-east |
 | Royaume-Uni | Londres | eu-gb |
-| Allemagne | Frankfort | eu-de |
+| Allemagne | Francfort | eu-de |
 | Sydney | Sydney | au-syd |
 | Asie-Pacifique nord | Tokyo | jp-tok |
 {: caption="Tableau 1. Nouveaux noms d'emplacement" caption-side="top"}
@@ -49,7 +49,7 @@ Avec {{site.data.keyword.cloud_notm}} IAM (Identity and Access Management), vous
 * Tous les services de gestion des comptes pour accès à chacune des options individuelles de gestion de compte en fonction du rôle affecté, ainsi qu'accès à la facturation et au suivi de l'utilisation .
 
 
-Pour plus d'informations sur les tâches que peut effectuer un utilisateur compte tenu du service de gestion de compte auquel il est rattaché et du rôle qui lui est affecté, voir [Exemple d'actions et de rôles de gestion de plateforme pour les services de gestion de compte](/docs/iam/users_roles.html#platformrolestable2). Pour plus d'informations sur cette nouvelle fonction, voir l'article de blogue [Introducing More Flexibility and Control for IBM Cloud Account Management Services Access](https://www.ibm.com/blogs/bluemix/2018/11/introducing-more-flexibility-and-control-for-ibm-cloud-account-management-services-access/){: new_window} ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe").  
+Pour plus d'informations sur les tâches que peut effectuer un utilisateur compte tenu du service de gestion de compte auquel il est rattaché et du rôle qui lui est affecté, voir [Exemple d'actions et de rôles de gestion de plateforme pour les services de gestion de compte](/docs/iam/users_roles.html#platformrolestable2). Pour plus d'informations sur cette nouvelle fonction, voir l'article de blogue [Introducing More Flexibility and Control for IBM Cloud Account Management Services Access](https://www.ibm.com/blogs/bluemix/2018/11/introducing-more-flexibility-and-control-for-ibm-cloud-account-management-services-access/){: new_window} ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe"). 
 
 
 ### Recherche de ressources
@@ -101,7 +101,7 @@ Nouveau à compter du :  15 décembre 2017
 Un nouveau centre de données pour la région Est des Etats-Unis est désormais disponible à Washington, DC. Cette nouvelle région est accessible via le noeud final `us-east.bluemix.net`. Pour plus de détails sur les services disponibles à l'achat dans cette nouvelle région, voir [Services par région](/docs/resources/services_region.html#services_region).
 
 ### Support pour des ressources dans l'Union européenne
-Nouveau à compter du :  14 décembre 2017
+Nouveau à compter du : 14 décembre 2017
 
 Si vos services et centres de données se trouvent en Europe, {{site.data.keyword.Bluemix_notm}} propose désormais des fonctions supplémentaires destinées à protéger vos données dans l'Union européenne. vous pouvez demander que le support soit fourni par des équipes de cas client situées en Europe. Ce support est disponible 24 heures sur 24, 7 jours sur 7. Voir [Activation de l'option Support dans l'Union européenne](/docs/billing-usage/eusupported.html#bill_eusupported) et [Demande de support pour des ressources dans l'Union européenne](/docs/get-support/howtogetsupport.html#eusupported) pour plus d'informations.
 
@@ -201,7 +201,7 @@ Pour plus d'informations, voir la [vidéo de démonstration](https://youtu.be/7c
 
 ### Mises à jour de décembre pour la console d'administration
 {: #decemberadminconsole}
-Nouveau à compter du :  14 décembre 2017
+Nouveau à compter du : 14 décembre 2017
 
 Avec les toutes dernières mises à jour et améliorations de décembre, vous pourrez utiliser les nouvelles fonctions suivantes :
 
@@ -211,7 +211,7 @@ L'UC moyenne a été ajoutée en tant que type de seuil aux abonnements aux noti
 
 #### Contrôle d'accès aux systèmes cloud de l'Union européenne
 
-Combinée à la nouvelle fonction de prise en charge de ressources cloud dans l'Union européenne (en commençant par Francfort), la console d'administration permet désormais de définir des règles de contrôle d'accès par le personnel IBM. Vous pouvez gérer les règles de contrôle d'accès, afficher les demandes d'accès,  effectuer des actions sur les demandes et procéder au suivi de l'historique.
+Combinée à la nouvelle fonction de prise en charge de ressources cloud dans l'Union européenne (en commençant par Francfort), la console d'administration permet désormais de définir des règles de contrôle d'accès par le personnel IBM. Vous pouvez gérer les règles de contrôle d'accès, afficher les demandes d'accès, effectuer des actions sur les demandes et procéder au suivi de l'historique.
 
 #### Informations améliorées dans les rapports de sécurité
 
@@ -299,14 +299,22 @@ Avec les toutes dernières mises à jour et améliorations d'avril, vous pourrez
 ## Calcul
 {: #compute_category}
 
-### Création de clusters comportant plusieurs zones dans {{site.data.keyword.containerlong_notm}}
-Nouveau à compter du : 10 juillet 2018
+### Fonctions du serveur virtuel
+Nouveau à compter du : 16 novembre 2018
 
-Vous souhaitez améliorer la disponibilité des clusters et des applications ? Vous pouvez désormais étendre votre cluster dans plusieurs zones de certaines régions métropolitaines. Pour plus d'informations, voir [Création de clusters à zones multiples dans {{site.data.keyword.containershort_notm}}](cs_clusters.html#multizone).
+Les fonctions suivantes sont actuellement disponibles pour l'offre {{site.data.keyword.BluVirtServers_full}}.
 
-### L'accès au tableau de bord Kubernetes est désormais disponible dans {{site.data.keyword.containerlong_notm}}
+#### Interruption de la facturation en cas de non-utilisation des instances
+Vous voulez payer en fonction de ce que vous utilisez ? Vous pouvez désormais interrompre la facturation sur les instances de serveur virtuel. La fonction d'interruption de la facturation est disponible sur les instances de serveur virtuel qui ont des volumes horaires publics avec un stockage SAN. Lorsque vous mettez hors tension un serveur virtuel prenant en charge la fonction d'interruption de la facturation, vous ne payez pas les coûts relatifs à certaines ressources de calcul. La facturation s'arrête automatiquement lorsque le serveur est mis hors tension. La fonction d'interruption de la facturation vous permet de réduire les coûts et vous évite d'avoir à remettre à disposition un serveur virtuel quand vous avez à nouveau besoin de ses ressources. Pour plus d'informations, voir [About suspend billing](/docs/vsi/vsi_about_suspend.html) ou l'article de blogue {{site.data.keyword.cloud_notm}} [![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](https://www.ibm.com/blogs/bluemix/2018/10/suspend-billing-1-minute-granularity-virtual-servers/){: new_window}.
 
-{{site.data.keyword.containerlong_notm}} prend désormais en charge l'accès direct au tableau de bord Kubernetes via la console {{site.data.keyword.Bluemix_notm}}. Ce chemin d'accès simplifié au tableau de bord améliore l'expérience utilisateur pour la gestion de cluster et la visualisation des ressources. Pour plus d'informations, voir le [blogue {{site.data.keyword.Bluemix_notm}} ](https://www.ibm.com/blogs/bluemix/2018/04/kubernetes-dashboard-access/){: new_window} ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe").
+#### Réservation de ressources pour les futures instances de serveur virtuel
+L'offre d'instances réservées {{site.data.keyword.BluVirtServers_full}} est maintenant disponible. Il s'agit d'une option idéale si vous souhaitez des ressources garanties pour des développements futurs et pour réaliser des économies. Vous avez le choix entre un contrat d'une durée d'un ou de trois ans pour votre capacité réservée. Dans le cadre de cette capacité réservée, vous pouvez réserver un maximum de 20 instances de serveur virtuel d'une taille spécifique et mettre ces instances à disposition lorsque vous en avez besoin. Cette capacité vous est garantie au sein du POD et du centre de données de votre choix pendant toute la durée du contrat. Pour plus d'informations, voir [Reserved virtual servers](/docs/vsi/vsi_about_reserved.html).
+
+#### Importation des images d'une instance de service {{site.data.keyword.cos_full_notm}} vers une infrastructure {{site.data.keyword.cloud_notm}} 
+L'infrastructure {{site.data.keyword.cloud_notm}} interagit désormais avec le service {{site.data.keyword.cos_full_notm}} mis à disposition sur la console {{site.data.keyword.cloud_notm}}. {{site.data.keyword.cos_full_notm}} offre le plug-in de transfert à haut débit Aspera qui réduit considérablement la durée nécessaire pour télécharger une image volumineuse. Une fois que les images ont été téléchargées dans {{site.data.keyword.cos_full_notm}}, vous pouvez [importer les images](/docs/infrastructure/image-templates/import-image.html) dans l'infrastructure {{site.data.keyword.cloud_notm}} depuis {{site.data.keyword.cos_full_notm}}. Vous pouvez également [exporter les images](/docs/infrastructure/image-templates/export-image-ibm-cos.html) de l'infrastructure {{site.data.keyword.cloud_notm}} vers {{site.data.keyword.cos_full_notm}}.
+
+#### Groupes de placement pour instances de serveur virtuel
+Des groupes de placement sont maintenant disponibles pour {{site.data.keyword.BluVirtServers_full}}. Grâce aux groupes de placement, vous pouvez utiliser des instances publiques pour créer une haute disponibilité au sein d'un centre de données ou fournir un niveau de tolérance aux pannes additionnel dans un déploiement plus large. Pour plus d'informations, voir [Groupes de placement](/docs/vsi/vsi_placegroup.html). 
 
 ### Dernières mises à jour pour les packs de construction
 
@@ -323,6 +331,23 @@ Visitez les pages suivantes pour avoir la liste cumulée des mises à jour les p
 
 [Pour obtenir des informations sur l'initiation à l'environnement Kubernetes natif sur {{site.data.keyword.Bluemix_notm}}](/docs/containers/container_index.html), voir la documentation. Si vous avez des questions, vous pouvez les poster sur le site Slack à l'adresse https://ibm-container-service.slack.com/.
 
+
+### {{site.data.keyword.containerlong_notm}} est maintenant livré avec des maîtres Kubernetes hautement disponibles
+Nouveau à compter du : 7 novembre 2018
+
+Obtenez une disponibilité supérieure pour votre cluster grâce à la fonction de maître Kubernetes à haute disponibilité. Les maîtres Kubernetes à haute disponibilité sont configurés avec plusieurs répliques de votre serveur d'API Kubernetes, etcd, planificateur Kubernetes et contrôleur qui sont distribuées sur divers hôtes physiques. Lorsque vous créez un cluster qui exécute la version 1.12, 1.11 ou 1.10 de Kubernetes, votre maître Kubernetes est défini par défaut pour la haute disponibilité. Pour activer cette fonction dans des clusters existants utilisant l'une de ces versions Kubernetes, vous devez suivre la [procédure de préparation](/docs/containers/cs_versions.html#110_ha-masters).
+
+### Création de clusters comportant plusieurs zones dans {{site.data.keyword.containerlong_notm}}
+Nouveau à compter du : 10 juillet 2018
+
+Vous souhaitez améliorer la disponibilité des clusters et des applications ? Vous pouvez désormais étendre votre cluster dans plusieurs zones de certaines régions métropolitaines. Pour plus d'informations, voir [Création de clusters à zones multiples dans {{site.data.keyword.containershort_notm}}](cs_clusters.html#multizone).
+
+### L'accès au tableau de bord Kubernetes est désormais disponible dans {{site.data.keyword.containerlong_notm}}
+Nouveau à compter du : 18 avril 2018
+
+{{site.data.keyword.containerlong_notm}} prend désormais en charge l'accès direct au tableau de bord Kubernetes via la console {{site.data.keyword.Bluemix_notm}}. Ce chemin d'accès simplifié au tableau de bord améliore l'expérience utilisateur pour la gestion de cluster et la visualisation des ressources. Pour plus d'informations, voir le [blogue {{site.data.keyword.Bluemix_notm}} ](https://www.ibm.com/blogs/bluemix/2018/04/kubernetes-dashboard-access/){: new_window} ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe").
+
+
 ### Nouveau pack de construction Liberty for Java version 3.11
 Nouveau à compter du : 17 juillet 2017
 
@@ -338,7 +363,7 @@ Nouveau à compter du : 16 mai 2017
 
 Le pack de construction SDK for Node.js v3.12 fournit les versions 0.12.17, 0.12.18, 4.8.0, 4.8.2, 6.10.0 et 6.10.2 d'IBM SDK Node.js. La valeur par défaut est passée de la dernière version 4.x à la dernière version 6.x, et est actuellement la version 6.10.2. S'agissant d'un changement de version principale, cela peut affecter les applications qui dépendent de la valeur par défaut. Voir [Node.js version long-term support and the SDK for Node.js buildpack](https://www.ibm.com/blogs/bluemix/2016/11/node-version-support-and-sdk-buildpack/){: new_window} ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe") pour plus d'informations sur les moyens d'éviter les problèmes.
 
-En plus de nouveaux environnements d'exécution, cette édition contient une correction d'erreur concernant l'utilitaire App Management Health Center et les versions  6.9.5 et 6.10.0 de Node.js.
+En plus de nouveaux environnements d'exécution, cette édition contient une correction d'erreur concernant l'utilitaire App Management Health Center et les versions 6.9.5 et 6.10.0 de Node.js.
 
 ### Nouveau pack de construction Liberty for Java version 3.9
 Nouveau à compter du : 27 avril 2017
@@ -347,6 +372,11 @@ Le pack de construction Liberty version 3.9 fournit chaque mois une nouvelle ver
 
 ## Services
 {: #services_category}
+
+### Mise à jour majeure de {{site.data.keyword.conversationshort}}
+Nouveau à compter du : 9 novembre 2018
+
+{{site.data.keyword.conversationshort}} a une nouvelle apparence et des fonctionnalités supplémentaires. L'artefact connu comme *espace de travail*, qui est un conteneur pour les données de formation du modèle d'apprentissage automatique qui alimente votre agent conversationnel, a été remplacé par une *compétence de dialogue*. Vos déploiements seront désormais plus simples grâce à la possibilité d'ajouter votre compétence de dialogue à un assistant. Le nouveau niveau d'assistant gère l'orchestration des messages entre l'utilisateur et votre compétence. Vous pouvez ajouter des intégrations incorporées à l'assistant pour publier votre compétence de dialogue dans des canaux de transmission de messages populaires avec un minimum d'effort. La documentation de {{site.data.keyword.conversationshort}} a été déplacée. Voir la [documentation du produit](/docs/services/assistant/index.html) pour plus d'informations.
 
 
 ### Automatisation de déploiements d'infrastructure et d'application à l'aide de Terraform et d'Ansible
@@ -630,6 +660,24 @@ Nouveau à compter du : 31 juillet 2017
     Pour le service {{site.data.keyword.loganalysisshort}} avec des conteneurs uniques et de groupe, ainsi que les services {{site.data.keyword.IBM_notm}} Cloud Foundry, vous pouvez accéder au service depuis l'interface utilisateur de {{site.data.keyword.Bluemix_notm}}.
 
 Pour plus d'informations sur le service {{site.data.keyword.loganalysisshort}}, reportez-vous à l'[initiation à {{site.data.keyword.loganalysisfull}}](/docs/services/CloudLogAnalysis/index.html#getting-started-with-ibm-cloud-log-analysis) et la [présentation de {{site.data.keyword.loganalysisshort}}](/docs/services/CloudLogAnalysis/log_analysis_ov.html#log_analysis_ov).
+
+### Système d'exploitation Brocade version 18.x pour le dispositif de routeur virtuel
+Nouveau à compte du : 25 juillet 2018
+
+La version 18.x du système d'exploitation Brocade est maintenant disponible pour le dispositif de routeur virtuel. Parmi les nouvelles fonctions, cette version apporte des correctifs à la brèche de sécurité de Spectre. 
+
+Les nouvelles fonctions du dispositif de routeur virtuel de version 18.x sont exposées dans les rubriques suivantes :
+
+* [How to Set up an IPsec Tunnel that Works with Zone Firewalls](/docs/infrastructure/virtual-router-appliance/vra-ipsec.html)
+* [Configuring a VFP interface with IPsec and Zone Firewalls](/docs/infrastructure/virtual-router-appliance/vra-vfp.html)
+* [Using NAT with prefix based IPsec](/docs/infrastructure/virtual-router-appliance/vra-nat.html)
+* [Troubleshooting Your VFP Interface](/docs/infrastructure/virtual-router-appliance/vra-vfp-troubleshooting.html)
+
+Si vous réalisez une migration depuis Vyatta 5400, la meilleure façon d'effectuer une mise à niveau vers la version 18.x est de le faire à travers la [procédure normale](/docs/infrastructure/virtual-router-appliance/upgrade-os.html) du rechargement complet du système d'exploitation.
+
+Dans la mesure où il n'y a pas de mappage simple et individuel des fonctionnalités entre Vyatta 5400 et le dispositif de routeur virtuel, il est utile de créer une configuration de base pour le dispositif de routeur virtuel. WanClouds, un partenaire IBM, peut vous aider dans ce processus et vous guider dans la création d'une fonctionnalité similaire à celle de Vyatta 5400 sur votre dispositif de routeur virtuel. 
+
+Pour en savoir plus sur les problèmes communs rencontrés lors de ce processus de mise à niveau, veuillez vous reporter à votre [documentation additionnelle](/docs/infrastructure/virtual-router-appliance/migration-issues.html#vyatta-5400-common-migration-issues).
 
 ### IBM dashDB for Analytics a été renommé
 Nouveau à compter du : 18 juillet 2017
