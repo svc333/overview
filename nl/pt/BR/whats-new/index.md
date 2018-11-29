@@ -4,7 +4,7 @@ copyright:
 
   years: 2015, 2018
 
-lastupdated: "2018-11-13"
+lastupdated: "2018-11-16"
 
 ---
 
@@ -336,14 +336,25 @@ Com as atualizações e melhorias mais recentes de abril, é possível usar os n
 ## Cálculo
 {: #compute_category}
 
-### Criar clusters multizone no  {{site.data.keyword.containerlong_notm}}
-Novo a partir de: 10 de julho de 2018
+### Recursos do servidor virtual
+Novo a partir de: 16 de novembro de 2018
 
-Deseja melhorar a disponibilidade do cluster e do app? Agora, é possível estender seu cluster em múltiplas zonas em áreas metro selecionadas. Para obter mais informações, veja [Criando clusters multizona no {{site.data.keyword.containershort_notm}}](cs_clusters.html#multizone).
+Os recursos a seguir estão atualmente disponíveis para a oferta {{site.data.keyword.BluVirtServers_full}}.
 
-### O acesso ao Painel do Kubernetes vem para o {{site.data.keyword.containerlong_notm}}
+#### Suspenda o faturamento quando não estiver usando as instâncias
+Deseja pagar somente pelo que você usa? Agora é possível suspender o faturamento em instâncias de servidor virtual. O recurso de suspensão de faturamento está disponível em instâncias de servidor virtual que têm tamanhos de tipo público por hora com armazenamento suportado por SAN. Ao desligar um servidor virtual que suporta o recurso de suspensão de faturamento, os custos
+para determinados recursos de cálculo não são acumulados. O faturamento é interrompido automaticamente quando o servidor é desligado. O recurso de suspensão de faturamento ajuda a reduzir custos e impede que você precise reprovisionar um servidor virtual quando precisar dos recursos novamente. Para obter mais informações, consulte [Sobre a suspensão de faturamento](/docs/vsi/vsi_about_suspend.html) ou a postagem do blog do {{site.data.keyword.cloud_notm}} [ ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")](https://www.ibm.com/blogs/bluemix/2018/10/suspend-billing-1-minute-granularity-virtual-servers/){: new_window}.
 
-O {{site.data.keyword.containerlong_notm}} agora suporta acesso direto ao Painel do Kubernetes por meio do console do {{site.data.keyword.Bluemix_notm}}. Esse caminho simplificado para o painel oferece uma experiência do usuário aprimorada para gerenciamento de cluster e visualização de recursos. Descubra mais detalhes no [blog do {{site.data.keyword.Bluemix_notm}}](https://www.ibm.com/blogs/bluemix/2018/04/kubernetes-dashboard-access/){: new_window} ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo").
+#### Reserve recursos para as futuras instâncias de servidor virtual
+Agora, a oferta de instâncias reservadas do {{site.data.keyword.BluVirtServers_full}} está disponível. Essa é uma ótima opção se você deseja recursos garantidos para implementações futuras e economia de custo. Você escolhe entre um prazo de contrato de um ou
+três anos para a capacidade reservada. Dentro dessa capacidade reservada, é possível reservar um conjunto de até 20
+instâncias de servidor virtual de um tamanho específico e fornecer essas instâncias quando precisar delas. Essa capacidade é garantida dentro do POD e do data center de sua escolha durante o prazo do contrato. Para obter mais informações, consulte [Servidores virtuais reservados](/docs/vsi/vsi_about_reserved.html).
+
+#### Importe imagens da instância de serviço do {{site.data.keyword.cos_full_notm}} para a infraestrutura do {{site.data.keyword.cloud_notm}}
+Agora, a infraestrutura do {{site.data.keyword.cloud_notm}} interage com o serviço do {{site.data.keyword.cos_full_notm}} que é fornecido no console do {{site.data.keyword.cloud_notm}}. O {{site.data.keyword.cos_full_notm}} oferece o plug-in de transferência de alta velocidade Aspera que diminui consideravelmente a quantia de tempo necessária para fazer upload de uma imagem grande. Depois que as imagens são transferidas por upload para o {{site.data.keyword.cos_full_notm}}, é possível [importar imagens](/docs/infrastructure/image-templates/import-image.html) para a infraestrutura do {{site.data.keyword.cloud_notm}} do {{site.data.keyword.cos_full_notm}}. Também é possível [exportar imagens](/docs/infrastructure/image-templates/export-image-ibm-cos.html) da infraestrutura do {{site.data.keyword.cloud_notm}} para o {{site.data.keyword.cos_full_notm}}.
+
+#### Grupos de posicionamento para as instâncias de servidor virtual
+Agora, os grupos de posicionamento estão disponíveis para o {{site.data.keyword.BluVirtServers_full}}. Com os grupos de posicionamento, é possível usar as instâncias públicas para construir alta disponibilidade em um data center ou fornecer um nível adicional de tolerância a falhas dentro de uma implementação maior. Para obter mais informações, consulte [Grupos de posicionamento](/docs/vsi/vsi_placegroup.html). 
 
 ### Atualizações mais recentes para buildpacks
 
@@ -359,6 +370,23 @@ Visite as páginas a seguir para obter uma lista acumulativa das atualizações 
 O {{site.data.keyword.containerlong_notm}} lançou sua arquitetura do Kubernetes em maio de 2017. A arquitetura anterior para grupos de contêineres únicos e escaláveis agora estará [totalmente descontinuada a partir de 5 de dezembro de 2017](https://www.ibm.com/blogs/bluemix/2017/07/deprecation-single-scalable-group-container-service-bluemix-public/){: new_window} ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo").  
 
 [Consulte a documentação para obter informações sobre como iniciar a utilização do ambiente nativo do Kubernetes no {{site.data.keyword.Bluemix_notm}}](/docs/containers/container_index.html). Se você tiver perguntas, será possível postá-las no Slack em https://ibm-container-service.slack.com/.
+
+
+### Agora, o {{site.data.keyword.containerlong_notm}} vem com mestres Kubernetes altamente disponíveis
+Novo a partir de: 7 de novembro de 2018
+
+Obtenha ainda mais disponibilidade para o cluster com o novo recurso de mestre Kubernetes altamente disponível. Os mestres Kubernetes altamente disponíveis são configurados com múltiplas réplicas para o servidor da API do Kubernetes, o etcd, o planejador do Kubernetes e o controlador, que estão todos espalhados por hosts físicos separados. Ao criar um cluster que executa o Kubernetes versão 1.12, 1.11 ou 1.10, o seu mestre Kubernetes é configurado como altamente disponível por padrão. Para ativar esse recurso em clusters existentes que executam uma dessas versões do Kubernetes, deve-se concluir as [etapas de preparação](/docs/containers/cs_versions.html#110_ha-masters).
+
+### Criar clusters multizone no  {{site.data.keyword.containerlong_notm}}
+Novo a partir de: 10 de julho de 2018
+
+Deseja melhorar a disponibilidade do cluster e do app? Agora, é possível estender seu cluster em múltiplas zonas em áreas metro selecionadas. Para obter mais informações, veja [Criando clusters multizona no {{site.data.keyword.containershort_notm}}](cs_clusters.html#multizone).
+
+### O acesso ao Painel do Kubernetes vem para o {{site.data.keyword.containerlong_notm}}
+Novo a partir de: 18 de abril de 2018
+
+O {{site.data.keyword.containerlong_notm}} agora suporta acesso direto ao Painel do Kubernetes por meio do console do {{site.data.keyword.Bluemix_notm}}. Esse caminho simplificado para o painel oferece uma experiência do usuário aprimorada para gerenciamento de cluster e visualização de recursos. Descubra mais detalhes no [blog do {{site.data.keyword.Bluemix_notm}}](https://www.ibm.com/blogs/bluemix/2018/04/kubernetes-dashboard-access/){: new_window} ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo").
+
 
 ### Novo buildpack do Liberty for Java v3.11
 Novo a partir de: 17 de julho de 2017
@@ -384,6 +412,11 @@ O buildpack do Liberty v3.9 fornece uma nova versão de runtime mensal do Libert
 
 ## Serviços
 {: #services_category}
+
+### Atualização principal do {{site.data.keyword.conversationshort}}
+Novo a partir de: 9 de novembro de 2018
+
+O {{site.data.keyword.conversationshort}} tem uma nova aparência e recursos incluídos. O artefato conhecido como uma *área de trabalho*, que é um contêiner para os dados de treinamento do modelo de aprendizado de máquina que liga o seu robô de bate-papo, foi substituído por uma *habilidade de diálogo*. Agora é mais fácil implementar incluindo a habilidade de diálogo em um assistente. A nova camada do assistente gerencia a orquestração das mensagens entre o usuário e a sua habilidade. É possível incluir integrações embutidas no assistente para publicar a sua habilidade de diálogo em canais de sistema de mensagens populares com esforço mínimo. A documentação para o {{site.data.keyword.conversationshort}} foi movida para uma nova localização. Consulte a [documentação do produto](/docs/services/assistant/index.html) para obter mais informações.
 
 
 ### Automatize a infraestrutura e as implementações de aplicativo com o Terraform e o Ansible
@@ -683,6 +716,24 @@ O serviço {{site.data.keyword.loganalysisfull}} fornece serviços de coleção 
     Para o serviço do {{site.data.keyword.loganalysisshort}} com contêineres únicos e de grupo e os serviços do {{site.data.keyword.IBM_notm}} Cloud Foundry, é possível acessar o serviço na UI do {{site.data.keyword.Bluemix_notm}}.
 
 Para obter mais informações sobre o serviço do {{site.data.keyword.loganalysisshort}}, consulte a [Introdução ao {{site.data.keyword.loganalysisfull}}](/docs/services/CloudLogAnalysis/index.html#getting-started-with-ibm-cloud-log-analysis) e a visão geral do [{{site.data.keyword.loganalysisshort}}](/docs/services/CloudLogAnalysis/log_analysis_ov.html#log_analysis_ov).
+
+### Sistema operacional Brocade versão 18.x para o Virtual Router Appliance
+Novo a partir de: 25 de julho de 2018
+
+Agora, a versão 18.x do S.O. Brocade está disponível para o Virtual Router Appliance. Entre outros novos recursos, essa versão fornece correção para a violação de segurança do Spectre. 
+
+Novos recursos do VRA 18.x são discutidos nos tópicos a seguir:
+
+* [Como configurar um túnel IPsec que funciona com os firewalls Zone](/docs/infrastructure/virtual-router-appliance/vra-ipsec.html)
+* [Configurando uma interface do VFP com os firewalls IPsec e Zone](/docs/infrastructure/virtual-router-appliance/vra-vfp.html)
+* [Usando o NAT com IPsec baseado em prefixo](/docs/infrastructure/virtual-router-appliance/vra-nat.html)
+* [Resolução de problemas da interface do VFP](/docs/infrastructure/virtual-router-appliance/vra-vfp-troubleshooting.html)
+
+Se você estiver migrando do Vyatta 5400, a melhor maneira de fazer upgrade para a 18.x é por meio do [procedimento normal](/docs/infrastructure/virtual-router-appliance/upgrade-os.html) de um recarregamento de S.O. completo.
+
+Como não há um mapeamento de funcionalidade um-para-um simples entre o Vyatta 5400 e o Virtual Router Appliance, a criação de uma configuração de linha de base para o VRA é útil. Um Parceiro IBM, WanClouds, pode ajudá-lo com esse processo e fornecer orientação sobre a criação de funcionalidade semelhante à do Vyatta 5400 em seu VRA.
+
+Para obter mais informações sobre problemas comuns encontrados durante esse processo de upgrade, consulte a [documentação adicional](/docs/infrastructure/virtual-router-appliance/migration-issues.html#vyatta-5400-common-migration-issues).
 
 ### O IBM dashDB for Analytics foi renomeado
 Novo a partir de: 18 de julho de 2017

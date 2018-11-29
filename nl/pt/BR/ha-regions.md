@@ -4,7 +4,7 @@ copyright:
 
   years: 2018
 
-lastupdated: "2018-11-01"
+lastupdated: "2018-11-15"
 
 ---
 
@@ -49,7 +49,7 @@ localizações e os prefixos de localização a seguir.
 
 | **Localização** | **Endpoint da API** |
 |-----------------|-------------------|
-| Dallas | api.us-south.bluemix.net |
+| Dallas | api.ng.bluemix.net |
 | Sydney | api.au-syd.bluemix.net |
 | Frankfurt | api.eu-de.bluemix.net |
 | Londres | api.eu-gb.bluemix.net |
