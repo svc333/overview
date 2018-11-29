@@ -4,7 +4,7 @@ copyright:
 
   years: 2015, 2018
 
-lastupdated: "2018-11-13"
+lastupdated: "2018-11-16"
 
 ---
 
@@ -40,7 +40,7 @@ lastupdated: "2018-11-13"
 ### 他のユーザーへのアカウント管理アクセス権限の割り当て
 最新情報: 2018 年 10 月 30 日
 
-{{site.data.keyword.cloud_notm}} ID およびアクセス管理 (IAM) を使用して、アカウント管理者として実行する一般的な作業をアカウント内の別のユーザーに委任できます。使用可能なアカウント管理サービスの 1 つまたはすべてに関するアクセス・ポリシーを作成することによって、ユーザーの招待と削除、アクセス・グループの管理、サービス ID の管理、プライベート・カタログ・サービスの保守、請求のモニターと使用量の追跡などの作業を簡単に委任できます。 以下のように、4 つの個別アカウント管理サービス・オプションと、すべてのサービスという 1 つのオプションがあり、これらをアクセス・ポリシーのセットアップに使用できます。
+{{site.data.keyword.cloud_notm}} ID およびアクセス管理 (IAM) を使用して、アカウント管理者として実行する一般的な作業をアカウント内の別のユーザーに委任できます。 使用可能なアカウント管理サービスの 1 つまたはすべてに関するアクセス・ポリシーを作成することによって、ユーザーの招待と削除、アクセス・グループの管理、サービス ID の管理、プライベート・カタログ・サービスの保守、請求のモニターと使用量の追跡などの作業を簡単に委任できます。 以下のように、4 つの個別アカウント管理サービス・オプションと、すべてのサービスという 1 つのオプションがあり、これらをアクセス・ポリシーのセットアップに使用できます。
 
 * ユーザーの招待と削除のためのユーザー管理
 * アクセス権限の作成、編集、削除、更新、および割り当てのための IAM アクセス・グループ 
@@ -49,7 +49,7 @@ lastupdated: "2018-11-13"
 * 割り当てられた役割に基づいた個別アカウント管理サービス・オプションのそれぞれへのアクセス権限、および請求および使用量追跡へのアクセス権限のためのすべてのアカウント管理サービス
 
 
-どのアカウント管理サービスについてのポリシーを持っているのか、およびどの役割が割り当てられているのかに応じてユーザーが実行できるタスクについて詳しくは、『[プラットフォーム管理の役割とアカウント管理サービスに対するアクションの例](/docs/iam/users_roles.html#platformrolestable2)』を参照してください。この新機能について詳しくは、[Introducing More Flexibility and Control for IBM Cloud Account Management Services Access](https://www.ibm.com/blogs/bluemix/2018/11/introducing-more-flexibility-and-control-for-ibm-cloud-account-management-services-access/){: new_window} ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン") ブログ投稿を参照してください。 
+どのアカウント管理サービスについてのポリシーを持っているのか、およびどの役割が割り当てられているのかに応じてユーザーが実行できるタスクについて詳しくは、『[プラットフォーム管理の役割とアカウント管理サービスに対するアクションの例](/docs/iam/users_roles.html#platformrolestable2)』を参照してください。 この新機能について詳しくは、[Introducing More Flexibility and Control for IBM Cloud Account Management Services Access](https://www.ibm.com/blogs/bluemix/2018/11/introducing-more-flexibility-and-control-for-ibm-cloud-account-management-services-access/){: new_window} ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン") ブログ投稿を参照してください。 
 
 
 ### リソースの検索
@@ -299,14 +299,22 @@ Identity and Access Management (IAM) では、サービス ID を作成する機
 ## コンピュート
 {: #compute_category}
 
-### {{site.data.keyword.containerlong_notm}} でのマルチゾーン・クラスターの作成
-最新情報: 2018 年 7 月 10 日
+### 仮想サーバーのフィーチャー
+最新情報: 2018 年 11 月 16 日
 
-クラスターとアプリの可用性を改善したい場合、 選択したメトロ領域内の複数のゾーンにクラスターを広げることができるようになりました。 詳しくは、『[IBM Bluemix Container Service でのマルチゾーン・クラスターの作成 (Creating multizone clusters in {{site.data.keyword.containershort_notm}})](cs_clusters.html#multizone)』を参照してください。
+{{site.data.keyword.BluVirtServers_full}} オファリングでは、現在、以下のフィーチャーが使用可能です。
 
-### {{site.data.keyword.containerlong_notm}} での Kubernetes Dashboard アクセス
+#### インスタンスを使用していないときの請求一時停止
+使用した分のみの支払いを希望する場合、仮想サーバー・インスタンスに対する請求を一時停止できるようになりました。 請求一時停止フィーチャーは、SAN バッキング・ストレージを使用する、時間単位のパブリック・フレーバー・サイズを持つ仮想サーバー・インスタンスで使用可能です。 請求一時停止フィーチャーがサポートされている仮想サーバーの電源を切ると、一定のコンピュート・リソースについてはコストが発生しません。 サーバーの電源が切られると請求は自動的に停止します。 請求一時停止フィーチャーにより、コストが削減され、仮想サーバーのリソースが再び必要になったときに仮想サーバーを再プロビジョンする必要がなくなります。 詳しくは、『[請求一時停止について](/docs/vsi/vsi_about_suspend.html)』または {{site.data.keyword.cloud_notm}} [ブログ投稿![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](https://www.ibm.com/blogs/bluemix/2018/10/suspend-billing-1-minute-granularity-virtual-servers/){: new_window}を参照してください。
 
-{{site.data.keyword.Bluemix_notm}} コンソールを介した Kubernetes Dashboard への直接アクセスが {{site.data.keyword.containerlong_notm}} でサポートされるようになりました。 ダッシュボードへのパスがこのように単純になったことにより、クラスター管理およびリソース可視化についてのユーザー・エクスペリエンスが強化されます。 詳しくは、[{{site.data.keyword.Bluemix_notm}} ブログ ](https://www.ibm.com/blogs/bluemix/2018/04/kubernetes-dashboard-access/){: new_window} ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン") を参照してください。
+#### 将来の仮想サーバー・インスタンス用のリソースの予約
+{{site.data.keyword.BluVirtServers_full}} の予約済みインスタンス・オファリングが利用可能になりました。 これは、将来のデプロイメントおよびコスト削減のために保証されたリソースが必要な場合に適しています。予約済み容量の 1 年または 3 年の契約条件のいずれかを選択します。 その予約済み容量内で、特定のサイズの最大 20 個の仮想サーバー・インスタンスのセットを予約し、必要に応じてそれらのインスタンスをプロビジョンすることができます。 この容量は、契約条件の有効期間中、選択した POD およびデータ・センター内で保証されます。詳しくは、『[予約済み仮想サーバー](/docs/vsi/vsi_about_reserved.html)』を参照してください。
+
+#### {{site.data.keyword.cos_full_notm}} サービス・インスタンスから {{site.data.keyword.cloud_notm}} インフラストラクチャーへのイメージのインポート
+{{site.data.keyword.cloud_notm}} インフラストラクチャーは、{{site.data.keyword.cloud_notm}} コンソールでプロビジョンされた {{site.data.keyword.cos_full_notm}} サービスと対話するようになりました。 {{site.data.keyword.cos_full_notm}} は、大容量のイメージのアップロードに必要な時間を大幅に短縮する Aspera 高速転送プラグインを提供します。 イメージが {{site.data.keyword.cos_full_notm}} にアップロードされたら、{{site.data.keyword.cos_full_notm}} から {{site.data.keyword.cloud_notm}} インフラストラクチャーに[イメージをインポート](/docs/infrastructure/image-templates/import-image.html)できます。 {{site.data.keyword.cloud_notm}} インフラストラクチャーから {{site.data.keyword.cos_full_notm}} に[イメージをエクスポート](/docs/infrastructure/image-templates/export-image-ibm-cos.html)することもできます。 
+
+#### 仮想サーバー・インスタンスの配置グループ
+{{site.data.keyword.BluVirtServers_full}} で配置グループが使用可能になりました。 配置グループがあれば、パブリック・インスタンスを使用してデータ・センター内で高可用性を構築したり、より大規模なデプロイメント内で追加レベルのフォールト・トレランスを提供したりできます。 詳しくは、『[配置グループ](/docs/vsi/vsi_placegroup.html)』を参照してください。 
 
 ### ビルドパックの最新の更新
 
@@ -322,6 +330,23 @@ Identity and Access Management (IAM) では、サービス ID を作成する機
 {{site.data.keyword.containerlong_notm}} は、2017 年 5 月に Kubernetes アーキテクチャーを立ち上げました。 単一およびスケーラブルなコンテナー・グループの以前のアーキテクチャーは、[2017年 12 月 5 日の時点で完全に非推奨](https://www.ibm.com/blogs/bluemix/2017/07/deprecation-single-scalable-group-container-service-bluemix-public/){: new_window} ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン") になりました。  
 
 [{{site.data.keyword.Bluemix_notm}}](/docs/containers/container_index.html) でのネイティブ Kubernetes 環境の使用開始については、資料を参照してください。 質問がある場合は、Slack (https://ibm-container-service.slack.com/) に投稿することができます。
+
+
+### {{site.data.keyword.containerlong_notm}} に高可用性 Kubernetes マスターが付属するようになりました
+最新情報: 2018 年 11 月 7 日
+
+新しい高可用性 Kubernetes マスターのフィーチャーを使用して、クラスターの可用性をさらに高めることができます。 高可用性 Kubernetes マスターは、Kubernetes API サーバー、etcd、Kubernetes スケジューラー、およびコントローラーの複数のレプリカを使用してセットアップされ、すべて別々の物理ホストに分散されます。 Kubernetes バージョン 1.12、1.11、または 1.10 を実行するクラスターを作成すると、Kubernetes マスターはデフォルトで高可用性にセットアップされます。 これらの Kubernetes バージョンのいずれかを実行する既存のクラスターでこのフィーチャーを有効にするには、[準備ステップ](/docs/containers/cs_versions.html#110_ha-masters)を実行する必要があります。
+
+### {{site.data.keyword.containerlong_notm}} でのマルチゾーン・クラスターの作成
+最新情報: 2018 年 7 月 10 日
+
+クラスターとアプリの可用性を改善したい場合、 選択したメトロ領域内の複数のゾーンにクラスターを広げることができるようになりました。 詳しくは、『[IBM Bluemix Container Service でのマルチゾーン・クラスターの作成 (Creating multizone clusters in {{site.data.keyword.containershort_notm}})](cs_clusters.html#multizone)』を参照してください。
+
+### {{site.data.keyword.containerlong_notm}} での Kubernetes Dashboard アクセス
+最新情報: 2018 年 4 月 18 日
+
+{{site.data.keyword.Bluemix_notm}} コンソールを介した Kubernetes Dashboard への直接アクセスが {{site.data.keyword.containerlong_notm}} でサポートされるようになりました。 ダッシュボードへのパスがこのように単純になったことにより、クラスター管理およびリソース可視化についてのユーザー・エクスペリエンスが強化されます。 詳しくは、[{{site.data.keyword.Bluemix_notm}} ブログ ](https://www.ibm.com/blogs/bluemix/2018/04/kubernetes-dashboard-access/){: new_window} ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン") を参照してください。
+
 
 ### 新しい Liberty for Java ビルドパック v3.11
 最新情報: 2017 年 7 月 17 日
@@ -348,11 +373,16 @@ Liberty ビルドパック v3.9 は、新規の月次の Liberty ランタイム
 ## サービス
 {: #services_category}
 
+### {{site.data.keyword.conversationshort}} の主要な更新
+最新情報: 2018 年 11 月 9 日
+
+{{site.data.keyword.conversationshort}} の外観が新しくなり、フィーチャーが追加されました。 *ワークスペース*と呼ばれる成果物 (チャット・ボットを強化する機械学習モデルのトレーニング・データのコンテナー) は、*ダイアログ・スキル*に置き換えられました。 ダイアログ・スキルをアシスタントに追加することで、デプロイが容易になりました。 新しいアシスタント層は、ユーザーとスキルの間のメッセージのオーケストレーションを管理します。 組み込み統合をアシスタントに追加して、最小限の労力で一般的なメッセージング・チャネルにダイアログ・スキルを公開できます。 {{site.data.keyword.conversationshort}} の資料は、新しい場所に移動しました。 詳しくは、[製品資料](/docs/services/assistant/index.html)を参照してください。
+
 
 ### Terraform および Ansible を使用したインフラストラクチャーおよびアプリのデプロイメントの自動化
 最新情報: 2018 年 11 月 2 日
 
-Terraform および Ansible は、クラウド・ソリューションのデプロイメントを最初から最後まで自動化するために使用できるオープン・ソース・ソフトウェアです。Terraform を使用すると、{{site.data.keyword.Bluemix_notm}} インフラストラクチャー・コンポーネントを指定することができ、層が複数ある複雑なクラウド環境を素早く構築して Infrastructure as Code (IaC) を使用可能にすることができます。その後、Ansible を使用して、プライベート・ネットワークを介してコンピュート・ホストに接続し、アプリのデプロイ、サービスのビルド、スクリプトの実行、または構成の定義を行います。 
+Terraform および Ansible は、クラウド・ソリューションのデプロイメントを最初から最後まで自動化するために使用できるオープン・ソース・ソフトウェアです。 Terraform を使用すると、{{site.data.keyword.Bluemix_notm}} インフラストラクチャー・コンポーネントを指定することができ、層が複数ある複雑なクラウド環境を素早く構築して Infrastructure as Code (IaC) を使用可能にすることができます。 その後、Ansible を使用して、プライベート・ネットワークを介してコンピュート・ホストに接続し、アプリのデプロイ、サービスのビルド、スクリプトの実行、または構成の定義を行います。 
 
 まず各オープン・ソース製品の基本について学習するために、以下のチュートリアルを参照してください。 
 * [Deploying RedHat OpenShift Container Platform on {{site.data.keyword.Bluemix_notm}} with Terraform](/docs/terraform/tutorials/install_redhat_openshift.html#redhat){: new_window} ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")
@@ -629,6 +659,24 @@ Python および Java アプリケーションの場合、ソース・ファイ�
     単一コンテナーおよびグループ・コンテナーを持つ {{site.data.keyword.loganalysisshort}} サービスと、{{site.data.keyword.IBM_notm}} Cloud Foundry サービスの場合、{{site.data.keyword.Bluemix_notm}} UI からサービスにアクセスできます。
 
 {{site.data.keyword.loganalysisshort}} サービスについて詳しくは、『[{{site.data.keyword.loganalysisfull}} の概説 (Getting started with {{site.data.keyword.loganalysisfull}})](/docs/services/CloudLogAnalysis/index.html#getting-started-with-ibm-cloud-log-analysis)』および 『[{{site.data.keyword.loganalysisshort}}の概要 ({{site.data.keyword.loganalysisshort}} overview)](/docs/services/CloudLogAnalysis/log_analysis_ov.html#log_analysis_ov)』を参照してください。
+
+### Virtual Router Appliance 用の Brocade オペレーティング・システムのバージョン 18.x
+最新情報: 2018 年 7 月 25 日
+
+Brocade OS のバージョン 18.x が Virtual Router Appliance で使用可能になりました。 数ある新しいフィーチャーの中で、このバージョンは Spectre セキュリティー・ブリーチの修復を提供します。 
+
+18.x VRA の新しいフィーチャーは、以下のトピックで説明されています。
+
+* [ゾーン・ファイアウォールと連動する IPsec トンネルのセットアップ方法 (How to Set up an IPsec Tunnel that Works with Zone Firewalls)](/docs/infrastructure/virtual-router-appliance/vra-ipsec.html)
+* [IPsec およびゾーン・ファイアウォールを使用した VFP インターフェースの構成 (Configuring a VFP interface with IPsec and Zone Firewalls)](/docs/infrastructure/virtual-router-appliance/vra-vfp.html)
+* [接頭部ベースの IPsec での NAT の使用 (Using NAT with prefix based IPsec)](/docs/infrastructure/virtual-router-appliance/vra-nat.html)
+* [VFP インターフェースのトラブルシューティング (Troubleshooting Your VFP Interface)](/docs/infrastructure/virtual-router-appliance/vra-vfp-troubleshooting.html)
+
+Vyatta 5400 からマイグレーションする場合、18.x にアップグレードする最良の方法は、完全な OS 再ロードの[通常の手順](/docs/infrastructure/virtual-router-appliance/upgrade-os.html)を実行することです。
+
+Vyatta 5400 と Virtual Router Appliance の間には、機能の単純な 1 対 1 のマッピングがないため、VRA 用のベースライン構成を作成すると役立ちます。 IBM のパートナーである WanClouds から、このプロセスに関する支援を受けることができ、VRA での Vyatta 5400 に類似した機能の作成についての案内も受けられます。
+
+このアップグレード・プロセス中に発生する一般的な問題について詳しくは、[追加資料](/docs/infrastructure/virtual-router-appliance/migration-issues.html#vyatta-5400-common-migration-issues)を参照してください。
 
 ### IBM dashDB for Analytics の名前が変更されました
 最新情報: 2017 年 7 月 18 日

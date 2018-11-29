@@ -4,7 +4,7 @@ copyright:
 
   years: 2018
 
-lastupdated: "2018-11-01"
+lastupdated: "2018-11-15"
 
 ---
 
@@ -35,7 +35,7 @@ Jedem Standort wird ein eindeutiges Präfix zugewiesen. {{site.data.keyword.clou
 
 | **Standort** | **API-Endpunkt** |
 |-----------------|-------------------|
-| Dallas | api.us-south.bluemix.net |
+| Dallas | api.ng.bluemix.net |
 | Sydney | api.au-syd.bluemix.net |
 | Frankfurt | api.eu-de.bluemix.net |
 | London | api.eu-gb.bluemix.net |

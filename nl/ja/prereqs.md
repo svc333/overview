@@ -8,6 +8,7 @@ lastupdated: "2018-08-15"
 ---
 
 {:shortdesc: .shortdesc}
+{:note: .note}
 {:new_window: target="_blank"}
 
 # 前提条件
@@ -23,9 +24,11 @@ lastupdated: "2018-08-15"
 
  * Chrome: ご使用のオペレーティング・システムの最新バージョン
  * Firefox: ご使用のオペレーティング・システム用の最新の通常バージョンおよび ESR バージョン。詳しくは、『[Mozilla Firefox Extended Support Release](https://www.mozilla.org/firefox/organizations/)』を参照してください。
- * Internet Explorer: バージョン 11
  * Edge: Windows の最新バージョン
  * Safari: Mac の最新バージョン
+ 
+ **「フィードバック (Feedback)」**ボタンを使用して、Internet Explorer 11 に関する問題を報告できます。
+ {:note}
 
 ## コマンド・ライン・インターフェース (CLI)
 {: #cli}

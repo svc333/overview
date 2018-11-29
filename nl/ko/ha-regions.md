@@ -4,7 +4,7 @@ copyright:
 
   years: 2018
 
-lastupdated: "2018-11-01"
+lastupdated: "2018-11-15"
 
 ---
 
@@ -35,7 +35,7 @@ ibmcloud api https://api.eu-gb.bluemix.net
 
 | **위치** | **API 엔드포인트** |
 |-----------------|-------------------|
-| 댈러스 | api.us-south.bluemix.net |
+| 댈러스 |api.ng.bluemix.net |
 |시드니 |api.au-syd.bluemix.net |
 | 프랑크푸르트 |api.eu-de.bluemix.net |
 | 런던 |api.eu-gb.bluemix.net |

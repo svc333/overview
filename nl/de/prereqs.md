@@ -8,6 +8,7 @@ lastupdated: "2018-08-15"
 ---
 
 {:shortdesc: .shortdesc}
+{:note: .note}
 {:new_window: target="_blank"}
 
 # Voraussetzungen
@@ -24,9 +25,11 @@ Die folgende Liste enthält die für {{site.data.keyword.Bluemix_notm}} mindeste
  * Chrome: Aktuelle Version für Ihr Betriebssystem
  * Firefox: Aktuelle reguläre Version und ESR-Version für Ihr Betriebssystem. Detaillierte Informationen finden Sie unter [Mozilla Firefox
 Extended Support Release](https://www.mozilla.org/firefox/organizations/)
- * Internet Explorer: Version 11
  * Edge: Aktuelle Version für Windows
  * Safari: Aktuelle Version für Mac
+ 
+ Probleme mit Internet Explorer 11 können Sie über die Schaltfläche **Feedback** melden.
+ {:note}
 
 ## Befehlszeilenschnittstelle (Command Line Interface, CLI)
 {: #cli}

@@ -4,7 +4,7 @@ copyright:
 
   years: 2015, 2018
 
-lastupdated: "2018-11-13"
+lastupdated: "2018-11-16"
 
 ---
 
@@ -49,7 +49,7 @@ Mit {{site.data.keyword.cloud_notm}} Identity and Access Management (IAM) könne
 * Alle Kontoverwaltungsservices für den Zugriff auf die einzelnen Kontoverwaltungsserviceoptionen, je nach zugewiesener Rolle, sowie Zugriff auf die Abrechnungs- und Nutzungsverfolgung.
 
 
-Weitere Informationen zu den Tasks, die ein Benutzer ausführen kann, je nachdem, für welchen Kontoverwaltungsservice er eine Richtlinie besitzt und welche Rolle ihm zugewiesen ist, finden Sie im Abschnitt [Beispiele zu Plattformmanagementrollen und Aktionen für Kontoverwaltungsservices](/docs/iam/users_roles.html#platformrolestable2). Weitere Informationen zu diesem neuen Feature finden Sie unter dem Blogbeitrag [Introducing More Flexibility and Control for IBM Cloud Account Management Services Access](https://www.ibm.com/blogs/bluemix/2018/11/introducing-more-flexibility-and-control-for-ibm-cloud-account-management-services-access/){: new_window} ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für exterernen Link").  
+Weitere Informationen zu den Tasks, die ein Benutzer ausführen kann, je nachdem, für welchen Kontoverwaltungsservice er eine Richtlinie besitzt und welche Rolle ihm zugewiesen ist, finden Sie im Abschnitt [Beispiele zu Plattformmanagementrollen und Aktionen für Kontoverwaltungsservices](/docs/iam/users_roles.html#platformrolestable2). Weitere Informationen zu diesem neuen Feature finden Sie unter dem Blogbeitrag [Introducing More Flexibility and Control for IBM Cloud Account Management Services Access](https://www.ibm.com/blogs/bluemix/2018/11/introducing-more-flexibility-and-control-for-ibm-cloud-account-management-services-access/){: new_window} ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link"). 
 
 
 ### Nach Ressourcen suchen
@@ -299,14 +299,22 @@ Durch die neuesten Aktualisierungen und Verbesserungen im April können Sie die 
 ## Infrastruktur und Ressourcen
 {: #compute_category}
 
-### Mehrzonencluster in {{site.data.keyword.containerlong_notm}} erstellen
-Datum der Neuerung: 10. Juli 2018
+### Virtual Server-Features
+Datum der Neuerung: 16. November 2018
 
-Soll die Cluster- und App-Verfügbarkeit verbessert werden? Cluster können nun mehrere Zonen in bestimmten Metrobereichen umfassen. Weitere Informationen finden Sie in [Mehrzonencluster in {{site.data.keyword.containershort_notm}} erstellen](cs_clusters.html#multizone).
+Die folgenden Features sind derzeit für das Angebot '{{site.data.keyword.BluVirtServers_full}}' verfügbar.
 
-### Kubernetes-Dashboard-Zugriff für {{site.data.keyword.containerlong_notm}}
+#### Abrechnung aussetzen, wenn Sie Instanzen nicht verwenden
+Wollen Sie nur das bezahlen, was Sie verwenden? Sie können jetzt die Abrechnung für Virtual Server-Instanzen aussetzen. Das Feature für das Aussetzen der Abrechnung steht auf Virtual Server-Instanzen zur Verfügung, die über öffentliche Versionsgrößen auf Stundenbasis mit SAN-gestütztem Speicher verfügen. Wenn Sie eine Virtual Server-Instanz ausschalten, die das Feature für das Aussetzen der Abrechnung unterstützt, fallen für bestimmte Rechenressourcen keine Kosten an. Die Abrechnung stoppt bei Ausschalten des Servers automatisch. Das Feature für das Aussetzen der Abrechnung unterstützt Sie bei der Kostenreduzierung und sorgt dafür, dass Sie einen virtuellen Server nicht erneut bereitstellen müssen, wenn Sie seine Ressourcen wieder benötigen. Weitere Informationen finden Sie im Abschnitt [Informationen zur ausgesetzten Abrechnung](/docs/vsi/vsi_about_suspend.html) oder im {{site.data.keyword.cloud_notm}}-[Blogbeitrag ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](https://www.ibm.com/blogs/bluemix/2018/10/suspend-billing-1-minute-granularity-virtual-servers/){: new_window}.
 
-{{site.data.keyword.containerlong_notm}} unterstützt jetzt direkten Zugriff auf das Kubernetes-Dashboard über die {{site.data.keyword.Bluemix_notm}}-Konsole. Dieser vereinfachte Pfad zum Dashboard bietet eine verbesserte Benutzererfahrung für das Cluster-Management und die Darstellung von Ressourcen. Weitere Details finden Sie im [{{site.data.keyword.Bluemix_notm}}-Blog](https://www.ibm.com/blogs/bluemix/2018/04/kubernetes-dashboard-access/){: new_window} ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link").
+#### Ressourcen für zukünftige Virtual Server-Instanzen reservieren
+Das {{site.data.keyword.BluVirtServers_full}}-Angebot für reservierte Instanzen ist jetzt verfügbar. Dieses Angebot ist eine hervorragende Option für alle, die nach garantierten Ressourcen für spätere Bereitstellungen und Kosteneinsparungen suchen. Sie können eine 1- oder 3-jährige Vertragslaufzeit für die reservierte Kapazität wählen. Im Rahmen dieser reservierten Kapazität können Sie eine Gruppe von bis zu 20 Virtual Server-Instanzen einer bestimmten Größe wählen und diese Instanzen bereitstellen, sobald sie benötigt werden. Diese Kapazität wird Ihnen über die Laufzeit Ihres Vertrags im POD und Rechenzentrum Ihrer Wahl garantiert. Weitere Informationen finden Sie im Abschnitt [Reservierte virtuelle Server](/docs/vsi/vsi_about_reserved.html).
+
+#### Images aus {{site.data.keyword.cos_full_notm}}-Serviceinstanz in {{site.data.keyword.cloud_notm}}-Infrastruktur importieren
+Die {{site.data.keyword.cloud_notm}}-Infrastruktur interagiert jetzt mit dem Service {{site.data.keyword.cos_full_notm}}, der in der {{site.data.keyword.cloud_notm}}-Konsole bereitgestellt wird. {{site.data.keyword.cos_full_notm}} verfügt über das Plug-in für Aspera-Hochgeschwindigkeitsübertragung, mit dem die erforderliche Zeit zum Hochladen großer Images erheblich verkürzt wird. Sobald Images in {{site.data.keyword.cos_full_notm}} hochgeladen wurden, können Sie Images aus {{site.data.keyword.cos_full_notm}} in die {{site.data.keyword.cloud_notm}}-Infrastruktur [importieren](/docs/infrastructure/image-templates/import-image.html). Sie können auch Images aus der {{site.data.keyword.cloud_notm}}-Infrastruktur nach {{site.data.keyword.cos_full_notm}} [exportieren](/docs/infrastructure/image-templates/export-image-ibm-cos.html).
+
+#### Platzierungsgruppen für Virtual Server-Instanzen
+Platzierungsgruppen sind jetzt für {{site.data.keyword.BluVirtServers_full}} verfügbar. Mit Platzierungsgruppen können Sie öffentliche Instanzen für einen Build mit hoher Verfügbarkeit in einem Rechenzentrum verwenden oder eine zusätzliche Fehlertoleranzebene innerhalb einer größeren Bereitstellung einrichten. Weitere Informationen finden Sie im Abschnitt [Platzierungsgruppen](/docs/vsi/vsi_placegroup.html). 
 
 ### Neueste Aktualisierungen für Buildpacks
 
@@ -322,6 +330,23 @@ Auf den folgenden Seiten finden Sie eine kumulative Liste der neuesten Aktualisi
 {{site.data.keyword.containerlong_notm}} verwendet ab Mai 2017 die Kubernetes-Architektur. Die vorherige Architektur für einzelne und skalierbare Containergruppen wird [ab dem 5. Dezember 2017 nicht mehr unterstützt](https://www.ibm.com/blogs/bluemix/2017/07/deprecation-single-scalable-group-container-service-bluemix-public/){: new_window} ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link").  
 
 [Informationen zum Einstieg in die native Kubernetes-Umgebung bei {{site.data.keyword.Bluemix_notm}}](/docs/containers/container_index.html) finden Sie in der Dokumentation. Etwaige Fragen können Sie in Slack unter der Adresse 'https://ibm-container-service.slack.com/' posten.
+
+
+### {{site.data.keyword.containerlong_notm}} jetzt mit hoch verfügbaren Kubernetes-Masterknoten
+Datum der Neuerung: 7. November 2018
+
+Mit dem neuen Hochverfügbarkeitsfeature des Kubernetes-Masterknotens können Sie die Verfügbarkeit Ihres Clusters noch weiter steigern. Hoch verfügbare Kubernetes-Masterknoten werden mit mehreren Replikaten für Ihren Kubernetes-API-Server, etcd, Kubernetes-Scheduler und -Controller eingerichtet, die alle auf separaten physischen Hosts verteilt sind. Wenn Sie einen Cluster erstellen, in dem Kubernetes Version 1.12, 1.11 oder 1.10 ausgeführt wird, wird der Kubernetes-Master standardmäßig mit Hochverfügbarkeit eingerichtet. Um dieses Feature in vorhandenen Clustern, in denen eine dieser Kubernetes-Versionen ausgeführt wird, aktivieren zu können, müssen Sie die [Vorbereitungsschritte](/docs/containers/cs_versions.html#110_ha-masters) ausführen.
+
+### Mehrzonencluster in {{site.data.keyword.containerlong_notm}} erstellen
+Datum der Neuerung: 10. Juli 2018
+
+Soll die Cluster- und App-Verfügbarkeit verbessert werden? Cluster können nun mehrere Zonen in bestimmten Metrobereichen umfassen. Weitere Informationen finden Sie in [Mehrzonencluster in {{site.data.keyword.containershort_notm}} erstellen](cs_clusters.html#multizone).
+
+### Kubernetes-Dashboard-Zugriff für {{site.data.keyword.containerlong_notm}}
+Datum der Neuerung: 18. April 2018
+
+{{site.data.keyword.containerlong_notm}} unterstützt jetzt direkten Zugriff auf das Kubernetes-Dashboard über die {{site.data.keyword.Bluemix_notm}}-Konsole. Dieser vereinfachte Pfad zum Dashboard bietet eine verbesserte Benutzererfahrung für das Cluster-Management und die Darstellung von Ressourcen. Weitere Details finden Sie im [{{site.data.keyword.Bluemix_notm}}-Blog](https://www.ibm.com/blogs/bluemix/2018/04/kubernetes-dashboard-access/){: new_window} ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link").
+
 
 ### Neues Liberty Buildpack für Java v3.11
 Datum der Neuerung: 17. Juli 2017
@@ -348,13 +373,18 @@ Das Liberty Buildpack v3.9 bietet eine neue monatliche Liberty-Laufzeitversion u
 ## Services
 {: #services_category}
 
+### Größere Aktualisierung für {{site.data.keyword.conversationshort}}
+Datum der Neuerung: 9. November 2018
+
+{{site.data.keyword.conversationshort}} hat jetzt ein neues Erscheinungsbild und zusätzliche Features. Das als *Arbeitsbereich* bezeichnete Artefakt, bei dem es sich um einen Container für die Trainingsdaten des Modells für maschinelles Lernen handelt, der Ihren Chat-Bot betreibt, wurde durch einen *Dialogskill* ersetzt. Die Bereitstellung durch Hinzufügen eines Dialogskills in einem Assistenten ist jetzt einfacher. Die neue Assistentenebene steuert die Koordination der Nachrichten zwischen dem Benutzer und Ihrem Skill. Sie können dem Assistenten Standardintegrationen hinzufügen, damit Sie Ihren Dialogskill mit minimalem Aufwand in gängigen Messaging-Kanälen veröffentlichen können. Die Dokumentation für {{site.data.keyword.conversationshort}} befindet sich jetzt an einer anderen Position. Weitere Informationen finden Sie in der [Produktdokumentation](/docs/services/assistant/index.html).
+
 
 ### Automatisieren von Infrastruktur- und App-Bereitstellungen mit Terraform und Ansible
 Datum der Neuerung: 2. November 2018
 
-Terraform und Ansible sind Open-Source-Software, die Sie verwenden können, um die gesamte Bereitstellung Ihrer Cloudlösung vom Anfang bis zum Ende zu automatisieren. Mit Terraform können Sie Ihre {{site.data.keyword.Bluemix_notm}}-Infrastrukturkomponenten angeben und schnell komplexe, mehrstufige Cloudumgebungen erstellen, um IaC (Infrastructure as Code) zu aktivieren. Verwenden Sie anschließend Ansible, um Ihre Rechenhosts über das private Netz zu verbinden und Ihre App bereitzustellen, Services zu erstellen, Scripts auszuführen oder Konfigurationen zu definieren.  
+Terraform und Ansible sind Open-Source-Software, die Sie verwenden können, um die gesamte Bereitstellung Ihrer Cloudlösung vom Anfang bis zum Ende zu automatisieren. Mit Terraform können Sie Ihre {{site.data.keyword.Bluemix_notm}}-Infrastrukturkomponenten angeben und schnell komplexe, mehrstufige Cloudumgebungen erstellen, um IaC (Infrastructure as Code) zu aktivieren. Verwenden Sie anschließend Ansible, um Ihre Rechenhosts über das private Netz zu verbinden und Ihre App bereitzustellen, Services zu erstellen, Scripts auszuführen oder Konfigurationen zu definieren. 
 
-In den Lernprogrammen finden Sie Informationen zum Starten und zu den Grundlagen jedes Open-Source-Produkts:  
+In den Lernprogrammen finden Sie Informationen zum Starten und zu den Grundlagen jedes Open-Source-Produkts: 
 * [Deploying RedHat OpenShift Container Platform on {{site.data.keyword.Bluemix_notm}} with Terraform](/docs/terraform/tutorials/install_redhat_openshift.html#redhat){: new_window} ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")
 * [Deploying WordPress on IBM Cloud infrastructure with Terraform and Ansible](/docs/terraform/tutorials/wordpress_with_terraform_and_ansible.html#deploy_wordpress){: new_window} ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link"). 
 
@@ -629,6 +659,24 @@ Der {{site.data.keyword.loganalysisfull}}-Service umfasst Protokollerfassungs- u
     Für den {{site.data.keyword.loganalysisshort}}-Service mit Einzel- und Gruppencontainern und für {{site.data.keyword.IBM_notm}} Cloud Foundry-Services ist der Zugriff über die {{site.data.keyword.Bluemix_notm}}-Benutzerschnittstelle möglich.
 
 Weitere Informationen zum {{site.data.keyword.loganalysisshort}}-Service enthalten die Abschnitte [Einführung in {{site.data.keyword.loganalysisfull}}](/docs/services/CloudLogAnalysis/index.html#getting-started-with-ibm-cloud-log-analysis) und [Übersicht über {{site.data.keyword.loganalysisshort}}](/docs/services/CloudLogAnalysis/log_analysis_ov.html#log_analysis_ov).
+
+### Brocade-Betriebssystemversion 18.x für Virtual Router Appliance
+Datum der Neuerung: 25. Juli 2018
+
+Version 18.x des Brocade-Betriebssystems steht jetzt für Virtual Router Appliance zur Verfügung. Neben anderen neuen Features stellt diese Version u. a. eine Korrektur der Spectre-Sicherheitsverletzung bereit. 
+
+Neue Features von VRA mit Version 18.x werden in den folgenden Abschnitten beschrieben:
+
+* [Vorgehensweise bei der Einrichtung eines IPsec-Tunnels, der mit Zonenfirewalls arbeitet](/docs/infrastructure/virtual-router-appliance/vra-ipsec.html)
+* [VFP-Schnittstelle mit IPsec und Zonenfirewalls konfigurieren](/docs/infrastructure/virtual-router-appliance/vra-vfp.html)
+* [NAT mit präfixbasiertem IPsec verwenden](/docs/infrastructure/virtual-router-appliance/vra-nat.html)
+* [Fehler der VFP-Schnittstelle beheben](/docs/infrastructure/virtual-router-appliance/vra-vfp-troubleshooting.html)
+
+Bei einer Migration von Vyatta 5400 wird das Upgrade auf Version 18.x am besten mit der [normalen Prozedur](/docs/infrastructure/virtual-router-appliance/upgrade-os.html) eines erneuten Ladens des Betriebssystems durchgeführt.
+
+Da es keine einfache Eins-zu-eins-Zuordnung der Funktionalität zwischen Vyatta 5400 und Virtual Router Appliance gibt, empfiehlt sich die Erstellung einer Baselinekonfiguration für VRA. Dabei kann Ihnen der IBM Partner WanClouds helfen. Hier finden Sie Anleitungen zur Erstellung einer Vyatta 5400-ähnlichen Funktionalität in VRA.
+
+Weitere Informationen zu Problemen, die während dieses Upgradeprozesses häufig auftreten, finden Sie in der [Zusatzdokumentation](/docs/infrastructure/virtual-router-appliance/migration-issues.html#vyatta-5400-common-migration-issues).
 
 ### Umbenennung von IBM dashDB for Analytics
 Datum der Neuerung: 18. Juli 2017

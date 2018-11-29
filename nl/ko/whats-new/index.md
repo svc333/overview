@@ -4,7 +4,7 @@ copyright:
 
   years: 2015, 2018
 
-lastupdated: "2018-11-13"
+lastupdated: "2018-11-16"
 
 ---
 
@@ -299,14 +299,22 @@ IAM(Identity and Access Management)은 이제 서비스 ID를 작성할 수 있�
 ## 컴퓨팅
 {: #compute_category}
 
-### {{site.data.keyword.containerlong_notm}}에서 다중 구역 클러스터 작성
-신규 기준일: 2018년 7월 10일
+### 가상 서버 기능
+신규 기준일: 2018년 11월 16일
 
-클러스터 및 앱 가용성을 향상시키고 싶으십니까? 이제 클러스터를 대도시 지역의 여러 구역에서 확장할 수 있습니다. 자세한 정보는 [{{site.data.keyword.containershort_notm}}에서 다중 구역 클러스터 작성](cs_clusters.html#multizone)을 참조하십시오.
+다음 기능은 현재 {{site.data.keyword.BluVirtServers_full}} 오퍼링에 사용 가능합니다. 
 
-### {{site.data.keyword.containerlong_notm}}에 대한 Kubernetes 대시보드 액세스
+#### 인스턴스를 사용하지 않을 때 비용 청구를 일시중단하십시오.
+사용량에 대해서만 지불하시겠습니까? 이제 가상 서버 인스턴스에 대한 비용 청구를 일시중단할 수 있습니다. 비용 청구 일시중단 기능은 SAN 지원 스토리지를 포함하여 시간별 공용 특성 크기가 있는 가상 서버 인스턴스에서 사용 가능합니다. 비용 청구 일시중단 기능을 지원하는 가상 서버의 작동을 중단할 때 특정 컴퓨팅 리소스에 대한 비용을 축적하지 않습니다. 서버의 작동이 중단되면 비용 청구가 자동으로 중지됩니다. 비용 청구 일시 중단 기능을 사용하면 비용이 절감되고 리소스가 다시 필요할 때 가상 서버를 다시 프로비저닝할 필요가 없게 됩니다. 자세한 정보는 [비용 청구 일시중단 정보](/docs/vsi/vsi_about_suspend.html) 또는 {{site.data.keyword.cloud_notm}} [블로그 게시물 ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")](https://www.ibm.com/blogs/bluemix/2018/10/suspend-billing-1-minute-granularity-virtual-servers/){: new_window}을 참조하십시오.
 
-{{site.data.keyword.containerlong_notm}}는 이제 {{site.data.keyword.Bluemix_notm}} 콘솔을 통해 Kubernetes 대시보드에 대한 직접 액세스를 지원합니다. 이러한 대시보드에 대한 간소화된 접근 방식을 통해 클러스터 관리 및 리소스 시각화에 사용자의 경험을 향상시켜 줍니다. [{{site.data.keyword.Bluemix_notm}} 블로그](https://www.ibm.com/blogs/bluemix/2018/04/kubernetes-dashboard-access/){: new_window} ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")에서 자세한 정보를 확인하십시오.
+#### 이후 가상 서버 인스턴스에 대한 리소스 예약
+{{site.data.keyword.BluVirtServers_full}} 예약 인스턴스 오퍼링은 이제 사용 가능합니다. 이후 배치 및 비용 절감을 위해 보증된 리소스를 원하는 경우 이 옵션은 매우 유용합니다. 예약된 용량은 1년 또는 3년 계약 기간 중에서 선택할 수 있습니다. 해당 예약된 용량 내에서 특정 크기의 최대 20개의 가상 서버 인스턴스 세트를 예약하고 필요 시 해당 인스턴스를 프로비저닝할 수 있습니다. 계약 기간 동안 팟(Pod) 내의 이 용량 및 원하는 데이터 센터가 보장됩니다. 자세한 정보는 [예약된 가상 서버](/docs/vsi/vsi_about_reserved.html)를 참조하십시오.
+
+#### {{site.data.keyword.cos_full_notm}} 서비스에서 {{site.data.keyword.cloud_notm}} 인프라로 이미지 가져오기
+{{site.data.keyword.cloud_notm}} 인프라는 이제 {{site.data.keyword.cloud_notm}} 콘솔에 프로비저닝된 {{site.data.keyword.cos_full_notm}} 서비스와 상호작용합니다. {{site.data.keyword.cos_full_notm}}는 대형 이미지를 업로드하는 데 필요한 시간을 크게 줄이는 Aspera 고속 전송 플러그인을 제공합니다. 이미지를 {{site.data.keyword.cos_full_notm}}에 업로드한 후 {{site.data.keyword.cos_full_notm}}에서 {{site.data.keyword.cloud_notm}} 인프라로 [이미지를 가져올](/docs/infrastructure/image-templates/import-image.html) 수 있습니다. 또한 {{site.data.keyword.cloud_notm}} 인프라에서 {{site.data.keyword.cos_full_notm}}로 [이미지를 내보낼](/docs/infrastructure/image-templates/export-image-ibm-cos.html) 수도 있습니다.
+
+#### 가상 서버 인스턴스에 대한 배치 그룹
+배치 그룹은 이제 {{site.data.keyword.BluVirtServers_full}}에서 사용 가능합니다. 배치 그룹으로 데이터 센터 내에 고가용성을 위해 빌드하도록 공용 인스턴스를 사용하거나 대형 배치 내에 결함 허용의 추가 레벨을 제공할 수 있습니다. 자세한 정보는 [배치 그룹](/docs/vsi/vsi_placegroup.html)을 참조하십시오. 
 
 ### 빌드팩의 최신 업데이트
 
@@ -322,6 +330,23 @@ IAM(Identity and Access Management)은 이제 서비스 ID를 작성할 수 있�
 {{site.data.keyword.containerlong_notm}}는 2017년 5월에 Kubernetes 아키텍처를 발표했습니다. 단일 확장 가능한 컨테이너 그룹의 이전 아키텍처는 이제 [2017년 12월 5일부로 더 이상 완전히 사용되지 않습니다.](https://www.ibm.com/blogs/bluemix/2017/07/deprecation-single-scalable-group-container-service-bluemix-public/){: new_window} ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")  
 
 [{{site.data.keyword.Bluemix_notm}}](/docs/containers/container_index.html)에서 원시 Kubernetes 환경을 시작하기에 대한 자세한 정보는 문서를 참조하십시오. 질문이 있는 경우 Slack(https://ibm-container-service.slack.com/) 사이트에 질문을 게시할 수 있습니다.
+
+
+### {{site.data.keyword.containerlong_notm}}는 이제 고가용성 Kubernetes 마스터와 함께 제공됨
+신규 기준일: 2018년 11월 7일
+
+새 고가용성 Kubernetes 마스터 기능과 함께 클러스터에 대한 추가 가용성을 가져오십시오. 고가용성 Kubernetes 마스터는 개별 실제 호스트에 모두 분산된 Kubernetes API 서버, etcd, Kubernetes 스케줄러 및 제어기에 대한 다중 복제본으로 설정됩니다. Kubernetes 버전 1.12, 1.11 또는 1.10을 실행하는 클러스터를 작성할 때 기본적으로 Kubernetes 마스터는 고가용성으로 설정됩니다. 해당 Kubernetes 버전 중 하나를 실행하는 기존 클러스터에서 이 기능을 사용으로 설정하려면 [준비 단계](/docs/containers/cs_versions.html#110_ha-masters)를 완료해야 합니다.
+
+### {{site.data.keyword.containerlong_notm}}에서 다중 구역 클러스터 작성
+신규 기준일: 2018년 7월 10일
+
+클러스터 및 앱 가용성을 향상시키고 싶으십니까? 이제 클러스터를 대도시 지역의 여러 구역에서 확장할 수 있습니다. 자세한 정보는 [{{site.data.keyword.containershort_notm}}에서 다중 구역 클러스터 작성](cs_clusters.html#multizone)을 참조하십시오.
+
+### {{site.data.keyword.containerlong_notm}}에 대한 Kubernetes 대시보드 액세스
+신규 기준일: 2018년 4월 18일
+
+{{site.data.keyword.containerlong_notm}}는 이제 {{site.data.keyword.Bluemix_notm}} 콘솔을 통해 Kubernetes 대시보드에 대한 직접 액세스를 지원합니다. 이러한 대시보드에 대한 간소화된 접근 방식을 통해 클러스터 관리 및 리소스 시각화에 사용자의 경험을 향상시켜 줍니다. [{{site.data.keyword.Bluemix_notm}} 블로그](https://www.ibm.com/blogs/bluemix/2018/04/kubernetes-dashboard-access/){: new_window} ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")에서 자세한 정보를 확인하십시오.
+
 
 ### 새 Liberty for Java 빌드팩 v3.11
 신규 기준일: 2017년 7월 17일
@@ -348,11 +373,16 @@ Liberty 빌드팩 v3.9는 새 월별 Liberty 런타임 버전을 제공하고 �
 ## 서비스
 {: #services_category}
 
+### 주요 {{site.data.keyword.conversationshort}} 업데이트
+신규 기준일: 2018년 11월 9일
+
+{{site.data.keyword.conversationshort}}에는 새로운 외양과 추가된 기능이 있습니다. 챗봇을 작동시키는 기계 학습 모델 훈련 데이터를 위한 컨테이너인 *작업공간*이라고 하는 아티팩트는 *대화 상자 스킬*로 대체되었습니다. 이제 대화 상자 스킬을 보조자에 추가하여 좀 더 쉽게 배치할 수 있습니다. 새 보조자 계층은 사용자와 스킬 간의 메시지 구성을 관리합니다. 최소한의 노력으로 인기 있는 메시징 채널에 대한 대화 상자 스킬을 공개하기 위해 기본 제공 통합을 보조자에 추가할 수 있습니다. {{site.data.keyword.conversationshort}}의 문서는 새 위치로 이동했습니다. 자세한 정보는 [제품 문서](/docs/services/assistant/index.html)를 참조하십시오. 
+
 
 ### Terraform 및 Ansible을 사용하여 인프라 및 앱 배치 자동화
 신규 기준일: 2018년 11월 2일
 
-Terraform 및 Ansible은 클라우드 솔루션 배치의 시작부터 끝까지를 자동화하는 데 사용할 수 있는 오픈 소스 소프트웨어입니다. Terraform을 사용하여 {{site.data.keyword.Bluemix_notm}} 인프라 컴포넌트를 지정하고, IaC(Infrastructure as Code)를 사용할 수 있는 여러 계층으로 구성된 복잡한 클라우드 환경을 신속하게 구축할 수 있습니다. 그런 다음 Ansible로 사설 네트워크를 통해 컴퓨팅 호스트에 연결하여 앱을 배치하거나 서비스를 빌드하거나 스크립트를 실행하거나 구성을 정의할 수 있습니다.  
+Terraform 및 Ansible은 클라우드 솔루션 배치의 시작부터 끝까지를 자동화하는 데 사용할 수 있는 오픈 소스 소프트웨어입니다. Terraform을 사용하여 {{site.data.keyword.Bluemix_notm}} 인프라 컴포넌트를 지정하고, IaC(Infrastructure as Code)를 사용할 수 있는 여러 계층으로 구성된 복잡한 클라우드 환경을 신속하게 구축할 수 있습니다. 그런 다음 Ansible로 사설 네트워크를 통해 컴퓨팅 호스트에 연결하여 앱을 배치하거나 서비스를 빌드하거나 스크립트를 실행하거나 구성을 정의할 수 있습니다. 
 
 각 오픈 소스 제품을 시작하고 기본 사항을 알아보려면 다음 튜토리얼을 참조하십시오. 
 * [Terraform을 사용하여 {{site.data.keyword.Bluemix_notm}}에 RedHat OpenShift Container Platform 배치](/docs/terraform/tutorials/install_redhat_openshift.html#redhat){: new_window} ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")
@@ -629,6 +659,24 @@ Python 및 Java 애플리케이션의 경우 소스 파일 위치는 @spl_note �
     단일 및 그룹 컨테이너와 {{site.data.keyword.IBM_notm}} Cloud Foundry를 사용하는 {{site.data.keyword.loganalysisshort}} 서비스의 경우 {{site.data.keyword.Bluemix_notm}} UI에서 서비스에 액세스할 수 있습니다.
 
 {{site.data.keyword.loganalysisshort}} 서비스에 대한 자세한 정보는 [{{site.data.keyword.loganalysisfull}} 시작하기](/docs/services/CloudLogAnalysis/index.html#getting-started-with-ibm-cloud-log-analysis) 및 [{{site.data.keyword.loganalysisshort}} 개요](/docs/services/CloudLogAnalysis/log_analysis_ov.html#log_analysis_ov)를 참조하십시오.
+
+### Virtual Router Appliance를 위한 Brocade 운영 체제 버전 18.x
+신규 기준일: 2018년 7월 25일
+
+이제 Brocade OS의 버전 18.x는 Virtual Router Appliance에서 사용 가능합니다. 기타 새 기능 중에서 이 버전은 Spectre 보안 위반에 대한 조치방안을 제공합니다.  
+
+18.x VRA의 새 기능은 다음 주제에서 설명됩니다.
+
+* [구역 방화벽에서 작동하는 IPsec 터널 설정 방법](/docs/infrastructure/virtual-router-appliance/vra-ipsec.html)
+* [IPsec 및 구역 방화벽으로 VFP 인터페이스 구성](/docs/infrastructure/virtual-router-appliance/vra-vfp.html)
+* [접두부 기반 IPsec으로 NAT 사용](/docs/infrastructure/virtual-router-appliance/vra-nat.html)
+* [VFP 인터페이스 문제점 해결](/docs/infrastructure/virtual-router-appliance/vra-vfp-troubleshooting.html)
+
+Vyatta 5400에서 마이그레이션하는 경우 전체 OS 다시 로드의 [일반 프로시저](/docs/infrastructure/virtual-router-appliance/upgrade-os.html)를 통해 18.x로 업그레이드하는 것이 가장 좋습니다. 
+
+Vyatta 5400과 Virtual Router Appliance 간에 기능의 단순 일대일 맵핑이 없으므로 VRA를 위한 기준선 구성 작성이 도움이 됩니다. IBM 파트너인 WanClouds는 이 프로세스에 도움을 줄 수 있고 VRA의 Vyatta 5400과 유사한 기능 작성에 대한 지시사항을 제공합니다.
+
+이 업그레이드 프로세스 중에 발생되는 공통 문제에 대한 자세한 정보는 [추가 문서](/docs/infrastructure/virtual-router-appliance/migration-issues.html#vyatta-5400-common-migration-issues)를 참조하십시오.
 
 ### IBM dashDB for Analytics의 이름이 바뀜
 신규 기준일: 2017년 7월 18일
