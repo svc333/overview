@@ -4,7 +4,7 @@ copyright:
 
   years: 2015, 2018
 
-lastupdated: "2018-11-13"
+lastupdated: "2018-11-16"
 
 ---
 
@@ -300,14 +300,22 @@ Bluemix 现已更名为 IBM Cloud。除了推出新名称外，没有更改其�
 ## 计算
 {: #compute_category}
 
-### 在 {{site.data.keyword.containerlong_notm}} 中创建多专区集群
-最新更新日期：2018 年 7 月 10 日
+### 虚拟服务器功能
+最新更新日期：2018 年 11 月 16 日
 
-想要提高集群和应用程序的可用性？现在，您可以使集群跨精选城区中的多个专区分布。有关更多信息，请参阅[在 {{site.data.keyword.containershort_notm}} 中创建多专区集群](cs_clusters.html#multizone)。
+以下功能目前可用于 {{site.data.keyword.BluVirtServers_full}} 产品。
 
-### Kubernetes 仪表板访问涉及 {{site.data.keyword.containerlong_notm}}
+#### 不使用实例时暂停计费
+想要仅为您使用的功能付费吗？您现在可以暂停对虚拟服务器实例的计费。暂停计费功能适用于具有每小时公共类型模板大小和 SAN 支持的存储器的虚拟服务器实例。当您将支持暂停计费功能的虚拟服务器电源关闭时，某些计算资源将不会产生费用。计费会在您关闭服务器电源时自动停止。暂停计费功能可帮助您降低成本，而且当您需要使用虚拟服务器的资源时，也不必重新供应虚拟服务器。有关更多信息，请参阅[关于暂停计费](/docs/vsi/vsi_about_suspend.html)或 {{site.data.keyword.cloud_notm}} [博客帖子 ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](https://www.ibm.com/blogs/bluemix/2018/10/suspend-billing-1-minute-granularity-virtual-servers/){: new_window}。
 
-现在，{{site.data.keyword.containerlong_notm}} 支持通过 {{site.data.keyword.Bluemix_notm}} 控制台直接访问 Kubernetes 仪表板。这简化了访问仪表板的路径，并增强了集群管理和资源可视化方面的用户体验。有关更多详细信息，可以查阅 [{{site.data.keyword.Bluemix_notm}} 博客 ](https://www.ibm.com/blogs/bluemix/2018/04/kubernetes-dashboard-access/){: new_window}![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")。
+#### 保留资源以供将来的虚拟服务器实例使用
+{{site.data.keyword.BluVirtServers_full}} 保留实例功能现在可供您使用。如果您想要为将来的部署提供可靠的资源以及节省成本，那么这是一个不错的选择。您可以选择一年或三年合同期的保留容量。在保留容量内，您最多可以保留一组 20 个具有特定大小的虚拟服务器实例，以便在需要时进行供应。在合同期限内，您可以在所选 POD 和数据中心内获得此保证容量。有关更多信息，请参阅[保留的虚拟服务器](/docs/vsi/vsi_about_reserved.html)。
+
+#### 将映像从 {{site.data.keyword.cos_full_notm}} 服务实例导入到 {{site.data.keyword.cloud_notm}} 基础架构中
+{{site.data.keyword.cloud_notm}} 基础架构现在可与 {{site.data.keyword.cloud_notm}} 控制台上供应的 {{site.data.keyword.cos_full_notm}} 服务进行交互。{{site.data.keyword.cos_full_notm}} 提供了 Aspera 高速传输插件，可大幅减少上传大映像所需的时间量。将映像上传到 {{site.data.keyword.cos_full_notm}} 后，您可以从 {{site.data.keyword.cos_full_notm}} 将[映像导入](/docs/infrastructure/image-templates/import-image.html)到 {{site.data.keyword.cloud_notm}} 基础架构中。也可以从 {{site.data.keyword.cloud_notm}} 基础架构将[映像导出](/docs/infrastructure/image-templates/export-image-ibm-cos.html)到 {{site.data.keyword.cos_full_notm}} 中。
+
+#### 虚拟服务器实例放置组
+放置组现在可用于 {{site.data.keyword.BluVirtServers_full}}。有了放置组，您就可以使用公共实例在数据中心内实现高可用性，或在更大的部署中提供额外级别的容错。有关更多信息，请参阅[放置组](/docs/vsi/vsi_placegroup.html)。 
 
 ### buildpack 的最新更新
 
@@ -323,6 +331,23 @@ Bluemix 现已更名为 IBM Cloud。除了推出新名称外，没有更改其�
 {{site.data.keyword.containerlong_notm}} 于 2017 年 5 月推出了其 Kubernetes 体系结构。先前的单个和可扩展容器组体系结构现已[完全弃用（自 2017 年 12 月 5 日开始）](https://www.ibm.com/blogs/bluemix/2017/07/deprecation-single-scalable-group-container-service-bluemix-public/){: new_window} ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")。  
 
 [有关 {{site.data.keyword.Bluemix_notm}} 上本机 Kubernetes 环境入门的信息，请参阅相关文档](/docs/containers/container_index.html)。如果您有任何疑问，可以将问题发布到 Slack：https://ibm-container-service.slack.com/。
+
+
+### {{site.data.keyword.containerlong_notm}} 现在配备了高度可用的 Kubernetes 主节点
+最新更新日期：2018 年 11 月 7 日
+
+通过新的高度可用 Kubernetes 主节点功能，您可以获得更高的集群可用性。高度可用的 Kubernetes 主节点上设置有 Kubernetes API 服务器、etcd、Kubernetes 调度程序和控制器的多个副本，这些副本都分布在不同的物理主机上。当您创建一个运行 Kubernetes V1.12、1.11 或 1.10 的新集群时，缺省情况下会将 Kubernetes 主节点设置为高度可用。要在运行上述某个 Kubernetes 版本的现有集群中启用此功能，您必须完成[准备步骤](/docs/containers/cs_versions.html#110_ha-masters)。
+
+### 在 {{site.data.keyword.containerlong_notm}} 中创建多专区集群
+最新更新日期：2018 年 7 月 10 日
+
+想要提高集群和应用程序的可用性？现在，您可以使集群跨精选城区中的多个专区分布。有关更多信息，请参阅[在 {{site.data.keyword.containershort_notm}} 中创建多专区集群](cs_clusters.html#multizone)。
+
+### Kubernetes 仪表板访问涉及 {{site.data.keyword.containerlong_notm}}
+最新更新日期：2018 年 4 月 18 日
+
+现在，{{site.data.keyword.containerlong_notm}} 支持通过 {{site.data.keyword.Bluemix_notm}} 控制台直接访问 Kubernetes 仪表板。这简化了访问仪表板的路径，并增强了集群管理和资源可视化方面的用户体验。有关更多详细信息，可以查阅 [{{site.data.keyword.Bluemix_notm}} 博客 ](https://www.ibm.com/blogs/bluemix/2018/04/kubernetes-dashboard-access/){: new_window}![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")。
+
 
 ### 新增 Liberty for Java buildpack V3.11
 最新更新日期：2017 年 7 月 17 日
@@ -348,6 +373,11 @@ Liberty buildpack V3.9 提供了新的每月 Liberty 运行时版本，并包含
 
 ## 服务
 {: #services_category}
+
+### 主要 {{site.data.keyword.conversationshort}} 更新
+最新更新日期：2018 年 11 月 9 日
+
+{{site.data.keyword.conversationshort}} 拥有新外观和新增功能。名为*工作空间*的工件是用于为聊天机器人提供支持的机器学习模型培训数据的容器，现已被*对话技能*所取代。现在，通过为助手添加对话技能，即可更轻松地进行部署。新的助手层会管理用户与您的技能之间的消息编排。您可以向助手添加内置集成，以便轻松地将对话技能发布到常用消息传递通道。{{site.data.keyword.conversationshort}} 文档已移至新位置。有关更多信息，请参阅[产品文档](/docs/services/assistant/index.html)。
 
 
 ### 使用 Terraform 和 Ansible 自动部署基础架构和应用程序
@@ -630,6 +660,24 @@ IBM App Launch for {{site.data.keyword.Bluemix_notm}} Services 是一个试验�
     对于使用单个容器和容器组的 {{site.data.keyword.loganalysisshort}} 服务以及对于 {{site.data.keyword.IBM_notm}} Cloud Foundry 服务，可以通过 {{site.data.keyword.Bluemix_notm}} UI 访问服务。
 
 有关 {{site.data.keyword.loganalysisshort}} 服务的更多信息，请参阅 [{{site.data.keyword.loganalysisfull}} 入门](/docs/services/CloudLogAnalysis/index.html#getting-started-with-ibm-cloud-log-analysis)和 [{{site.data.keyword.loganalysisshort}} 概述](/docs/services/CloudLogAnalysis/log_analysis_ov.html#log_analysis_ov)。
+
+### Brocade 操作系统 V18.x 可用于 Virtual Router Appliance
+最新更新日期：2018 年 7 月 25 日
+
+Brocade 操作系统 V18.x 现在可用于 Virtual Router Appliance。除其他新功能外，此版本还提供了对 Spectre 安全漏洞的修正。 
+
+以下主题讨论了 18.x VRA 的新功能：
+
+* [如何设置适用于区域防火墙的 IPSec 隧道](/docs/infrastructure/virtual-router-appliance/vra-ipsec.html)
+* [使用 IPSec 和区域防火墙配置 VFP 接口](/docs/infrastructure/virtual-router-appliance/vra-vfp.html)
+* [将 NAT 与基于前缀的 IPSec 配合使用](/docs/infrastructure/virtual-router-appliance/vra-nat.html)
+* [对 VFP 接口进行故障诊断](/docs/infrastructure/virtual-router-appliance/vra-vfp-troubleshooting.html)
+
+如果要从 Vyatta 5400 进行迁移，那么升级到 18.x 的最佳方法是执行重新装入完整操作系统的[正常操作步骤](/docs/infrastructure/virtual-router-appliance/upgrade-os.html)。
+
+由于 Vyatta 5400 与 Virtual Router Appliance 之间没有简单的一对一功能映射，因此为 VRA 创建基准配置会很有帮助。WanClouds 是 IBM 的合作伙伴，他们可以帮助您完成此过程，并提供有关在 VRA 上创建类似 Vyatta 5400 的功能的指导。
+
+有关此升级过程中遇到的常见问题的更多信息，请参阅我们的[其他文档](/docs/infrastructure/virtual-router-appliance/migration-issues.html#vyatta-5400-common-migration-issues)。
 
 ### IBM dashDB for Analytics 已重命名
 最新更新日期：2017 年 7 月 18 日

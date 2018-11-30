@@ -4,7 +4,7 @@ copyright:
 
   years: 2018
 
-lastupdated: "2018-11-01"
+lastupdated: "2018-11-15"
 
 ---
 
@@ -35,10 +35,10 @@ ibmcloud api https://api.eu-gb.bluemix.net
 
 | **位置** | **API 端点** |
 |-----------------|-------------------|
-|达拉斯| api.us-south.bluemix.net |
+|达拉斯|api.ng.bluemix.net|
 |悉尼|api.au-syd.bluemix.net|
 | 法兰克福|api.eu-de.bluemix.net|
-|伦敦 |api.eu-gb.bluemix.net|
+|伦敦|api.eu-gb.bluemix.net|
 |华盛顿特区|api.us-east.bluemix.net|
 |东京| api.jp-tok.bluemix.net |
 {: caption="表 1. {{site.data.keyword.cloud_notm}} 位置列表" caption-side="top"}
