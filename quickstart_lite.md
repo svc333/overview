@@ -24,7 +24,7 @@ Looking to try out {{site.data.keyword.Bluemix}}? A Lite account is really great
 ## Before you begin
 {: #prereqs}
 
-Go to [{DomainName}]({DomainName}) and create a Lite account. It's free and never expires.
+Go to [{{site.data.keyword.Bluemix_notm}}](https://{DomainName}) and create a Lite account. It's free and never expires.
 
 ## Quick start steps
 {: #steps}
