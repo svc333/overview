@@ -11,7 +11,7 @@ lastupdated: "2018-11-30"
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
 
-# What's new in {{site.data.keyword.Bluemix_notm}}
+# What's new in {{site.data.keyword.Bluemix_notm}}?
 {: #whatsnew}
 
 Stay up-to-date with the new features and services that are available in {{site.data.keyword.Bluemix}}, so that you get the most out of your {{site.data.keyword.Bluemix_notm}} experience. The updates are organized into these categories: [{{site.data.keyword.Bluemix_notm}} platform](index.html#platform_category), [{{site.data.keyword.Bluemix_local_notm}} and {{site.data.keyword.Bluemix_dedicated_notm}}](index.html#dedicatedandlocal), [Compute](index.html#compute_category), and [Services](index.html#services_category).
@@ -33,7 +33,7 @@ You can also find the [Status page](https://cloud.ibm.com/status){: new_window} 
 New as of: 30 November 2018
 {: #useraccess}
 
-With our latest updates, you can take advantage of a simplified secure login that is available for all users regardless of your ID type. Whether you have an IBMid or a SoftLayer ID, you can quickly log in to the {{site.data.keyword.Bluemix_notm}} console from our enhanced login page. You can also make secure API calls across {{site.data.keyword.Bluemix_notm}} and automate your CLI login by using an IAM API key or an IAM access token. 
+With our latest updates, you can take advantage of a simplified secure login that is available for all users regardless of your ID type. Whether you have an IBMid or a SoftLayer ID, you can quickly log in to the {{site.data.keyword.Bluemix_notm}} console from our enhanced login page. You can also make secure API calls across {{site.data.keyword.Bluemix_notm}} and automate your CLI login by using an IAM API key or an IAM access token. 
 
 After you're logged in, you'll find that you can now see all users including platform and classic infrastructure users from your Users page in the Access (IAM) UI. Depending on your access to view other users in the account, you can filter your view quickly by account users, classic infrastructure users, or Cloud Foundry org. You can also use the filters to find users quickly by name, email, or status.
 
@@ -54,7 +54,7 @@ With our latest update, you can now see all your platform and infrastructure ser
 * The dashboard has been redesigned so that you can view a summary your resources, maintenance, staus, apps, support, usage, and users.
 * You can find more details about your resources in the resource list. You can tag your resources to organize them, or select them to make changes on the details page.
 * Now that you can see all of your resources in one place, we've added a global search so that you can quickly find resources that you created and expect to appear on the Resource list page. 
-* You can also search for catalog results, so you can quickly find resources to add to your account.  
+* You can also search for catalog results, so you can quickly find resources to add to your account.  
 
 ### Unified account, billing, and user profile information for platform and infrastructure services
 New as of: 30 November 2018
@@ -884,4 +884,3 @@ New as of: 11 April 2017
 Your new platform to work with notebooks and Spark is Data Science Experience. Sign up to [Data Science Experience](http://datascience.ibm.com/), and start creating notebooks and sharing your expertise with other data scientists.
 
 If you worked with notebooks in {{site.data.keyword.sparks}}, you can migrate your notebooks to Data Science Experience. For more information, see the [Migrating notebooks documentation](/docs/services/AnalyticsforApacheSpark/index-gentopic2.html#migration_to_dsx).
-

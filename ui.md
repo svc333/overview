@@ -3,7 +3,7 @@
 
 copyright:
   years: 2015, 2018
-lastupdated: "2018-10-25"
+lastupdated: "2018-11-28"
 
 ---
 
@@ -11,61 +11,51 @@ lastupdated: "2018-10-25"
 {:tip: .tip}
 {:new_window: target="_blank"}
 
-# How the {{site.data.keyword.cloud_notm}} console works
+# Navigating the {{site.data.keyword.cloud_notm}} console 
 {: #ui}
 
-The {{site.data.keyword.cloud}} console is a user interface that helps you manage all your {{site.data.keyword.cloud_notm}} resources. When you access the [console](https://console.bluemix.net){: new_window} ![External link icon](../icons/launch-glyph.svg "External link icon"), you can create a free account, log in, access documentation, access the catalog, view pricing information, get support, or check the status of {{site.data.keyword.cloud_notm}} components. After you log in, the menu bar contains a Menu icon  ![Menu icon](../icons/icon_hamburger.svg)  and additional links, depending on your account type.
+The {{site.data.keyword.cloud}} console is a user interface that helps you manage all your {{site.data.keyword.cloud_notm}} resources. When you access the [console](https://cloud.ibm.com){: new_window} ![External link icon](../icons/launch-glyph.svg "External link icon"), you can create a free account, log in, access documentation, access the catalog, view pricing information, get support, or check the status of {{site.data.keyword.cloud_notm}} components. After you log in, the menu bar contains a Menu icon ![Menu icon](../icons/icon_hamburger.svg) and more links.
 {: shortdesc}
+
 
 ## Using the console
 {: #consoleoptions}
 
-If you are an existing user with an {{site.data.keyword.cloud_notm}} account, you can use the Menu icon  ![Menu icon](../icons/icon_hamburger.svg)  to access all existing resources on your dashboard.
+When you log in to {{site.data.keyword.cloud_notm}}, the first page you can view is the dashboard, which shows widgets that summarize the status of your account. Next, you can manage your resources. Go to the Menu icon ![Menu icon](../icons/icon_hamburger.svg) &gt; **Resource List** to view all existing resources in your account.
+
   * Use the **Catalog** link to create new resources.
   * Use the **Docs** link to access useful information about {{site.data.keyword.cloud_notm}}.
-  * From the **Support** menu, you can access information about what's new in {{site.data.keyword.cloud_notm}}, the Support Center, options for adding and viewing tickets, and the Status page.
-  * From the **Manage** menu, you can access your account, billing and usage, and security options.
-
-If you linked your {{site.data.keyword.cloud_notm}} and your SoftLayer accounts, you have the same options as a non-linked account owner, plus you can navigate to the customer portal by selecting the **Menu icon  ![Menu icon](../icons/icon_hamburger.svg) > Infrastructure** option. From here, you can view your account summary, order storage and devices, and manage access for VPN-only users and devices.
+  * Use the **Support** link to access the Support Center.  
+  * From the **Manage** menu, you can access your account, billing and usage, and Identity and Access Management options.
+  * Click the Cost estimator icon ![Cost estimator icon](../icons/Estimator.svg) to open the cost estimator.
+  * Click the Notifications icon ![Notifications icon](../icons/Notification.svg) to access announcements and planned and unplanned events.
 
 ## Searching for resources
 {: #search}
 
-You can search for resources from anywhere in the {{site.data.keyword.cloud_notm}} console. Type the name of a resource in the search field in the console menu bar.
+You can search for resources by name or by tag from anywhere in the {{site.data.keyword.cloud_notm}} console for resources that you expect to find in the resource list. Type the name of a resource or tag in the search field in the console menu bar.
 
-Press the Forward Slash key (/) on your keyboard to navigate your cursor to the search field.
-{: tip}
+For more information, see [Searching for resources](/docs/resources/searching.html#searching-for-resources). 
 
-## Managing resources on the dashboard
+## Managing resources in the resource list
 {: #dashboardview}
 
-You can use the dashboard to view and work with {{site.data.keyword.cloud_notm}} resources and Cloud Foundry service instances. See [What is a resource?](/docs/resources/acct_resources.html#resource) for more information.
+Go to the Menu icon ![Menu icon](../icons/icon_hamburger.svg) &gt; **Resource List** to access your list of account resources. You can use the resource list to view and work with {{site.data.keyword.cloud_notm}} resources and Cloud Foundry service instances. For more information about the different types of resources, see [What is a resource?](/docs/resources/acct_resources.html#resource).
 
 ### Viewing resources
-
-You can view all the resources in your account across all regions from the dashboard. To customize your view, use the following options:
-
-  * To view resources in a specific resource group, select a resource group from the **Resource Group** list.
-  * To view resources in a specific Cloud Foundry org, select an org from the **Cloud Foundry Org** list.
-
-Then, based on the items you select, you can filter by the following options:
-
-  * Location
-  * Cloud Foundry Space
-  
-If you want to view and work with resources in a specific region, expand the **LOCATION** menu, and select a region from the list.
+You can view all the resources in your account across all regions from the resource list. To see the items that are important to you, filter your list with the filters for each column header. For example, if you want to view and work with resources in a specific location, expand the **Location** filter, and select a location from the list.
 
 ### Working with resources
+You can work with your resources in various ways from the resource list:
 
-You can work with your resources in various ways from the dashboard:
+  * Each resource is displayed in its own row and an Actions icon ![More Actions icon](../icons/action-menu-icon.svg) is included at the end of the row. Click the Actions icon ![More Actions icon](../icons/action-menu-icon.svg) to start, stop, rename, or delete a resource.
+  * To set up credentials or connections for a resource, click the name of the resource to navigate to the resource details page. Then, select **Service credentials** or **Connections**. For more information, see [Adding a credential](/docs/resources/service_credentials.html) and [Managing connections](/docs/resources/connecting_apps.html#connect_app).
 
-  * Each resource is displayed in its own row and a More Actions icon  ![More Actions icon](../icons/overflow-menu.svg)  is included at the end of the row. Click the **More Actions** icon to start, stop, rename, or delete a resource.
-  * To set up credentials or connections for a resource, click the name of the resource to navigate to the resource details page. For more information, see [Adding a new credential](/docs/resources/service_credentials.html) and [Managing connections](/docs/resources/connecting_apps.html#connect_app).
 
 ## Working in the catalog
 {: #catalogcreate}
 
-To create a new resource, click **Create resource** from your dashboard. You're then directed to the catalog. When you select a tile from the catalog, you can see where the resource is available. Not every resource listed in the catalog is available in every region.
+To create a resource, click **Create** from your resource list. You're then directed to the catalog. When you select a tile from the catalog, you can see where the resource is available. Not every resource listed in the catalog is available in every region.
 
 After you click the tile for the resource that you want create, you can select which location you want to deploy in.
 
