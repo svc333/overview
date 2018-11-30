@@ -11,7 +11,7 @@ lastupdated: "2018-11-30"
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
 
-# What's new in {{site.data.keyword.Bluemix_notm}}
+# What's new in {{site.data.keyword.Bluemix_notm}}?
 {: #whatsnew}
 
 Stay up-to-date with the new features and services that are available in {{site.data.keyword.Bluemix}}, so that you get the most out of your {{site.data.keyword.Bluemix_notm}} experience. The updates are organized into these categories: [{{site.data.keyword.Bluemix_notm}} platform](index.html#platform_category), [{{site.data.keyword.Bluemix_local_notm}} and {{site.data.keyword.Bluemix_dedicated_notm}}](index.html#dedicatedandlocal), [Compute](index.html#compute_category), and [Services](index.html#services_category).
@@ -41,13 +41,12 @@ Now that all of your users are in a single console, you can manage their access 
 
 ### Find all {{site.data.keyword.Bluemix_notm}} CLI plug-in documentation in one place
 New as of: 30 November 2018
-{: #cli}
 
 You can now access all of the {{site.data.keyword.Bluemix_notm}} CLI plug-in documentation in one location making it easier for you to find any CLI command that you are looking for on the {{site.data.keyword.Bluemix_notm}} platform. Check out the References section of the [CLI documentation](/docs/cli/index.html#overview).
 
 ### Check out the new dashboard and resource list
-New as of: 30 November 2018
 {: #dash}
+New as of: 30 November 2018
 
 With our latest update, you can now see all your platform and infrastructure services in the same place. When you log in, you can check out the new dashboard right away. Once you have resources added to your account from the catalog, you can use the resource list to get a full view of your account resources. Here are some of the details around the changes that you will see:
 
@@ -57,8 +56,8 @@ With our latest update, you can now see all your platform and infrastructure ser
 * You can also search for catalog results, so you can quickly find resources to add to your account.  
 
 ### Unified account, billing, and user profile information for platform and infrastructure services
-New as of: 30 November 2018
 {: #profile}
+New as of: 30 November 2018
 
 Your account, billing, and profile information has been simplified. You can now see your account information for all of your platform and infrastruture resources in a unified console. 
 
@@ -67,23 +66,24 @@ Your account, billing, and profile information has been simplified. You can now 
 * Your billing and usage area of your account helps you understand your bill, make payments, monitor subscriptions, get quotes, track orders, and set spending notifications.
 
 ### Organize your resources with tags
-New as of: 30 November 2018
 {: #tag}
+New as of: 30 November 2018
 
 Tags are now available for you to add to your resources, like Cloud Object Storage, to help you manage resources and find the resources that are the most relevant to you. For example, if you have hundreds of resources and you want to differentiate between a couple that are paid the same way, you could tag them with "costcenter:location01". Or, if you have a team working on a couple of resources repeatedly, you can use something like "team-blue". You can also filter your resource list by tags to quickly organize and find the resources that you need. For more information, see [Working with tags](/docs/resources/tagging_resources.html#tag).
 
 ### Find accurate monthly costs with the cost estimator
-New as of: 30 November 2018
 {: #cost-estimator}
+New as of: 30 November 2018
 
 To help you decide and analyze what services you'd like to purchase, you can use the cost estimator. Now, you can go through the console and select each service you'd like to have, and add all of the costs in an easy to use tool. You can even enter projected data usages, lookups per second, writes per second, and queries per second to get a more accurate estimation of your monthly ependentures. You can use the cost estimator with each catalog service you select, or you can click the cost estimator icon ![Estimator icon](../../icons/Estimator.svg) in the console menu to get a summary of your estimated costs. For more information, see [Estimating your costs](/docs/billing-usage/estimating_costs.html#cost).
+
 
 ### Updated global location names for {{site.data.keyword.cloud_notm}}
 New as of: 1 November 2018
 
 As {{site.data.keyword.cloud_notm}} continues to expand our global availability footprint, we’re updating our location naming structure to better support an understandable, consistent hierarchy of geographies, regions, and data centers around the world. If you’re familiar with our current global regions, you’ll recognize names like US South and Sydney. We’re aligning these location names to the names of the city in which the data centers physically exist.
 
-For now, the programmatic IDs are not changing, so there’s no impact from an API perspective. Here is a table that shows the old and new location names. For more information and a comprehensive list of data centers and regions, see [Service availability](/docs/resources/services_region.html).
+For now, the programmatic IDs are not changing, so there’s no impact from an API perspective. Here is a table that shows the old and new location names. For more information and a comprehensive list of data centers and regions, see [Service availability](docs/resources/services_region.html).
 
 | Previous location display name | New location display name | Code |
 |----------|---------|---------|
@@ -109,21 +109,38 @@ With {{site.data.keyword.cloud_notm}} Identity and Access Management (IAM), you 
 
 For more information on the tasks that a user can do based on which account management service they have a policy on and which role they are assigned, see [Example platform management roles and actions for account management services](/docs/iam/users_roles.html#platformrolestable2). For more information about this new feature, see the [Introducing More Flexibility and Control for IBM Cloud Account Management Services Access](https://www.ibm.com/blogs/bluemix/2018/11/introducing-more-flexibility-and-control-for-ibm-cloud-account-management-services-access/){: new_window} ![External link icon](../../icons/launch-glyph.svg "External link icon") blog post. 
 
+### Brocade Operating System Version 18.x for Virtual Router Appliance
+New as of: 25 July 2018
+
+Version 18.x of the Brocade OS is now available for the Virtual Router Appliance. Among other new features, this version provides remediation for the Spectre security breach. 
+
+New features of the 18.x VRA are discussed in the following topics:
+
+* [How to Set up an IPsec Tunnel that Works with Zone Firewalls](/docs/infrastructure/virtual-router-appliance/vra-ipsec.html)
+* [Configuring a VFP interface with IPsec and Zone Firewalls](/docs/infrastructure/virtual-router-appliance/vra-vfp.html)
+* [Using NAT with prefix based IPsec](/docs/infrastructure/virtual-router-appliance/vra-nat.html)
+* [Troubleshooting Your VFP Interface](/docs/infrastructure/virtual-router-appliance/vra-vfp-troubleshooting.html)
+
+If you are migrating from Vyatta 5400, the best way to upgrade to 18.x is through the [normal procedure](/docs/infrastructure/virtual-router-appliance/upgrade-os.html) of a full OS reload.
+
+Because there is no simple one-to-one mapping of functionality between Vyatta 5400 and the Virtual Router Appliance, creating a baseline configuration for the VRA is helpful. An IBM Partner, WanClouds, can help you with this process, and provide guidance on creating functionality similar to the Vyatta 5400 on your VRA.
+
+For more information about common issues encountered during this upgrade proces, please refer to our [additional documentation](/docs/infrastructure/virtual-router-appliance/migration-issues.html#vyatta-5400-common-migration-issues).
 
 ### Searching for resources
 New as of: 17 July 2018
 
-You can search for resources from anywhere in the {{site.data.keyword.cloud_notm}} console. Type the name of a resource in the search field in the console menu bar. Press the Forward Slash key (/) to activate the search.
+You can search for resources from anywhere in the {{site.data.keyword.cloud_notm}} console. Type the name of a resource in the search field in the console menu bar. Press the Forward Slash key (/) to activate the search. 
 
 ### Dynamically add federated users to access groups
 New as of: 12 July 2018
 
-You can create dynamic rules to automatically add federated users to access groups based on specific identity attributes. When your users log in with a federated ID, the data from the identity provider dynamically maps your users to an access group based on the rules that you set. For more information, see [Creating dyanmic rules for access groups](/docs/iam/accessgroup_rules.html#creating-dynamic-rules-for-access-groups).
+You can create dynamic rules to automatically add federated users to access groups based on specific identity attributes. When your users log in with a federated ID, the data from the identity provider dynamically maps your users to an access group based on the rules that you set. For more information, see [Creating dynamic rules for access groups](/docs/iam/accessgroup_rules.html#creating-dynamic-rules-for-access-groups).
 
 ### Protect your service IDs and API keys
 New as of: 1 June 2018
 
-To avoid a situation where your service ID or API key is deleted causing an outage or disruption, you have the option to lock service IDs and API keys by using the UI or CLI. Locking a service ID also prevents any access policies from being changed, deleted, or assigned as well as any API keys associated with the service ID from being created or deleted. For more information, see [Locking a service ID](/docs/iam/serviceid.html#locking-a-service-id) and [Locking an API key](/docs/iam/userid_keys.html#locking-an-api-key).
+To avoid a situation where your service ID or API key is deleted causing an outage or disruption, you have the option to lock service IDs and API keys by using the UI or CLI. Locking a service ID or API key also prevents any access policies from being changed, deleted, or assigned. For more information, see [Locking a service ID](/docs/iam/serviceid.html#locking-a-service-id) and [Locking an API key](/docs/iam/userid_keys.html#locking-an-api-key).
 
 ### Upgrade your Lite account to a Subscription account
 New as of: 31 May 2018
@@ -133,7 +150,7 @@ You can now upgrade your Lite account to a Subscription account directly from th
 ### {{site.data.keyword.Bluemix_notm}} CLI rebranding
 New as of: 15 May 2018
 
-The {{site.data.keyword.Bluemix_notm}} CLI commands have changed from `bluemix` and `bx` to **ibmcloud**. However, you can still use the `bluemix` and `bx` CLI commands until they are removed at a later date. There is no short name at this time, just the full name **ibmcloud**. 
+The {{site.data.keyword.Bluemix_notm}} CLI commands have changed from `bluemix` and `bx` to **ibmcloud**. However, you can still use the `bluemix` and `bx` CLI commands until they are removed at a later date. There is no short name at this time, just the full name `ibmcloud`. 
 
 ### Multi-factor authentication for your {{site.data.keyword.Bluemix_notm}} account
 New as of: 02 May 2018
@@ -187,11 +204,6 @@ New as of: 16 November 2017
 
 You can view and manage all the resources in your account from your dashboard in the {{site.data.keyword.Bluemix_notm}} console. And now, you can set filters to customize your view. For example, you can filter by resource group to view the specific resources in a resource group. You can also filter by region or Cloud Foundry space. For more details, see [Managing resources on the dashboard](/docs/overview/ui.html#dashboardview).
 
-
-### Support Center
-New as of: 2 November 2017
-
-We now have the new Support Center where you can search for information, post questions to our developer community, and manage tickets. Go to **Support > Support Center** in the {{site.data.keyword.Bluemix_notm}} console menu bar.
 
 ### Introducing IBM Cloud
 New as of: 31 October 2017
@@ -360,7 +372,7 @@ With the latest updates and improvements from April, you can use the following n
 ### Virtual server features
 New as of: 16 November 2018
 
-The following features are currently available for the {{site.data.keyword.BluVirtServers_full}} offering.
+The following features are now available for the {{site.data.keyword.BluVirtServers_full}} offering.
 
 #### Suspend billing when you're not using instances
 Want to pay only for what you use? You can now suspend billing on virtual server instances. The suspend billing feature is available on virtual server instances that have hourly public flavor sizes with SAN-backed storage. When you power off a virtual server that supports the suspend billing feature, you don't accrue costs for certain compute resources. Billing stops automatically when the server is powered off. The suspend billing feature helps you reduce cost and prevents you from having to reprovision a virtual server when you need its resources again. For more information, see [About suspend billing](/docs/vsi/vsi_about_suspend.html) or the {{site.data.keyword.cloud_notm}} [blog post ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://www.ibm.com/blogs/bluemix/2018/10/suspend-billing-1-minute-granularity-virtual-servers/){: new_window}.
@@ -373,6 +385,19 @@ Want to pay only for what you use? You can now suspend billing on virtual server
 
 #### Placement groups for virtual server instances
 Placement groups are now available for {{site.data.keyword.BluVirtServers_full}}. With placement groups, you can use public instances to build for high availability within a data center, or provide an additional level of fault tolerance within a larger deployment. For more information, see [Placement groups](/docs/vsi/vsi_placegroup.html). 
+
+### {{site.data.keyword.containerlong_notm}} now comes with highly available Kubernetes masters
+New as of: 7 November 2018
+
+Get even more availability for your cluster with the new highly available Kubernetes master feature. Highly available Kubernetes masters are set up with multiple replicas for your Kubernetes API server, etcd, Kubernetes scheduler, and controller that are all spread across separate physical hosts. When you create a cluster that runs Kubernetes version 1.12, 1.11, or 1.10, your Kubernetes master is set up highly available by default. To enable this feature in existing clusters that run one of those Kubernetes versions, you must complete the [preparation steps](/docs/containers/cs_versions.html#110_ha-masters).
+
+### Create multizone clusters in {{site.data.keyword.containerlong_notm}}
+
+Want to improve cluster and app availability? Now you can span your cluster across multiple zones in select metro areas. For more information, see [Creating multizone clusters in {{site.data.keyword.containershort_notm}}](/docs/containers/cs_regions.html#multizone).
+
+### Kubernetes Dashboard access comes to the {{site.data.keyword.containerlong_notm}}
+
+{{site.data.keyword.containerlong_notm}} now supports direct access to the Kubernetes Dashboard through the {{site.data.keyword.Bluemix_notm}} console. This simplified path to the dashboard offers an enchanced user experience for cluster management and resource visualization. Find out more details on the [{{site.data.keyword.Bluemix_notm}} blog](https://www.ibm.com/blogs/bluemix/2018/04/kubernetes-dashboard-access/){: new_window} ![External link icon](../../icons/launch-glyph.svg "External link icon").
 
 ### Latest updates for buildpacks
 
@@ -389,27 +414,10 @@ Visit the following pages for a cumulative list of the latest updates:
 
 [See the documentation for information about getting started with the native Kubernetes environment on {{site.data.keyword.Bluemix_notm}}](/docs/containers/container_index.html). If you have questions, you can post them in the Slack at https://ibm-container-service.slack.com/.
 
-
-### {{site.data.keyword.containerlong_notm}} now comes with highly available Kubernetes masters
-New as of: 7 November 2018
-
-Get even more availability for your cluster with the new highly available Kubernetes master feature. Highly available Kubernetes masters are set up with multiple replicas for your Kubernetes API server, etcd, Kubernetes scheduler, and controller that are all spread across separate physical hosts. When you create a cluster that runs Kubernetes version 1.12, 1.11, or 1.10, your Kubernetes master is set up highly available by default. To enable this feature in existing clusters that run one of those Kubernetes versions, you must complete the [preparation steps](/docs/containers/cs_versions.html#110_ha-masters).
-
-### Create multizone clusters in {{site.data.keyword.containerlong_notm}}
-New as of: 10 July 2018
-
-Want to improve cluster and app availability? Now you can span your cluster across multiple zones in select metro areas. For more information, see [Creating multizone clusters in {{site.data.keyword.containershort_notm}}](cs_clusters.html#multizone).
-
-### Kubernetes Dashboard access comes to the {{site.data.keyword.containerlong_notm}}
-New as of: 18 April 2018
-
-{{site.data.keyword.containerlong_notm}} now supports direct access to the Kubernetes Dashboard through the {{site.data.keyword.Bluemix_notm}} console. This simplified path to the dashboard offers an enchanced user experience for cluster management and resource visualization. Find out more details on the [{{site.data.keyword.Bluemix_notm}} blog](https://www.ibm.com/blogs/bluemix/2018/04/kubernetes-dashboard-access/){: new_window} ![External link icon](../../icons/launch-glyph.svg "External link icon").
-
-
 ### New Liberty for Java buildpack v3.11
 New as of: 17 July 2017
 
-The Liberty buildpack v3.11 provides new monthly Liberty runtime version and contains other improvements. The monthly Liberty runtime version was updated to the  [2017.7.0.0](https://developer.ibm.com/wasdev/blog/2017/07/07/beta-websphere-liberty-tools-july-2017/) release. The IBM JDK has been updated to the 8.0.4.7 and 7.1.4.5 versions. The buildpack also provides updated versions of the App Management utility and Auto-Scaling agent. The default Cloudant Library is now the official [java-cloudant](https://github.com/cloudant/java-cloudant), the [Ektorp library](https://github.com/helun/Ektorp) is still available as an option, for details on this change see the [blog post](https://www.ibm.com/blogs/bluemix/2017/05/default-library-change-cloudant-auto-wiring-liberty-buildpack/). The default heap size ratio is now 50% when your application has less than 512mb of memory, if it has more than 512mb it will still be 75%. A new staging task log is now generated, which allows for easier debugging of staging errors.See the [latest updates](https://console.ng.bluemix.net/docs/runtimes/liberty/updates.html) documentation for additional information.
+The Liberty buildpack v3.11 provides new monthly Liberty runtime version and contains other improvements. The monthly Liberty runtime version was updated to the  [2017.7.0.0](https://developer.ibm.com/wasdev/blog/2017/07/07/beta-websphere-liberty-tools-july-2017/) release. The IBM JDK has been updated to the 8.0.4.7 and 7.1.4.5 versions. The buildpack also provides updated versions of the App Management utility and Auto-Scaling agent. The default Cloudant Library is now the official [java-cloudant](https://github.com/cloudant/java-cloudant), the [Ektorp library](https://github.com/helun/Ektorp) is still available as an option, for details on this change see the [blog post](https://www.ibm.com/blogs/bluemix/2017/05/default-library-change-cloudant-auto-wiring-liberty-buildpack/). The default heap size ratio is now 50% when your application has less than 512mb of memory, if it has more than 512mb it will still be 75%. A new staging task log is now generated, which allows for easier debugging of staging errors.See the [latest updates](/docs/runtimes/liberty/updates.html) documentation for additional information.
 
 ### New Liberty for Java buildpack v3.10
 New as of: 12 June 2017
@@ -455,7 +463,6 @@ You can now configure IP address-based service groups, domain-name-based service
 
 For more information about GSLB service groups, see the Citrix article [Configuring a GSLB service group ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://docs.citrix.com/en-us/netscaler/12/global-server-load-balancing/configure/configuring-a-gslb-service-group.html){: new_window}.
 
-
 ### Major {{site.data.keyword.conversationshort}} update
 New as of: 9 November 2018
 
@@ -477,6 +484,17 @@ New as of: 28 September 2018
 Visit the following page for a comprehensive list of the [latest updates](/docs/services/Cloudant/release_info/release_notes.html#release-notes){:new_window} ![External link icon](../../icons/launch-glyph.svg "External link icon") to {{site.data.keyword.cloudant_short_notm}}.
 
 ### Introducing {{site.data.keyword.IBM_notm}} {{site.data.keyword.DRA_short}} general availability
+New as of: 20 September 2018
+
+The {{site.data.keyword.DRA_short}} service is now generally available in the US South, Germany, and United Kingdom regions.
+
+{{site.data.keyword.DRA_short}} helps teams to improve their productivity, efficiencies, and time-to-market, and to use the data from DevOps tools to easily measure success or improve the quality of their code. This service provides the single tool for businesses to understand their DevOps activities across all of their codebases and teams.
+
+* **Speed**: {{site.data.keyword.DRA_short}} shows all of your analytics, across all of your applications, in a single dashboard.
+* **Quality**: Mitigate risky releases by implementing gates deployment policies. For example, if you have a policy for Code Coverage, at a selected tolerance, {{site.data.keyword.DRA_short}} always gates against a release of code that does not meet defined tolerances. Over time, these policies help to improve the overall quality of the deployment process.
+* **Control**: Measure results over time as teams react to the trends in their DevOps practices by using code coverage, unit tests, and other tools. These trends help teams to better govern their DevOps practices.
+
+### Introducing {{site.data.keyword.DRA_short}} general availability
 New as of: 20 September 2018
 
 The {{site.data.keyword.DRA_short}} service is now generally available in the US South, Germany, and United Kingdom regions.
@@ -521,10 +539,10 @@ To get started, see the [{{site.data.keyword.iva_short}}](/docs/services/voice-a
 New as of: 20 April 2018
 
 {{site.data.keyword.streaminganalyticsshort}} is now running on a Kubernetes container-based infrastructure that provides security and availability advantages to the service.
- 
+
 You can access this new container-based infrastructure using the [v2 service plans](/docs/services/StreamingAnalytics/service_plans.html#service_plans). You can choose the {{site.data.keyword.streaminganalyticsshort}} plan that is best suited for the work that you need to do. The v2 service plans include the following enhancements:
- 
-* [IBM Streams QSE with Docker](https://www-01.ibm.com/marketing/iwm/iwm/web/preLogin.do?source=swg-ibmistvi)![External link icon](../../icons/launch-glyph.svg "External link icon"): Check out the [ Development Guide](https://developer.ibm.com/streamsdev/docs/cloud-beta-devguide/)![External link icon](../../icons/launch-glyph.svg "External link icon") to learn how to use the new Streams QSE with RHEL 7 running in a Docker environment to compile and deploy your applications with the new {{site.data.keyword.streaminganalyticsshort}} v2 plans. 
+
+* [IBM Streams QSE with Docker](https://www-01.ibm.com/marketing/iwm/iwm/web/preLogin.do?source=swg-ibmistvi)![External link icon](../../icons/launch-glyph.svg "External link icon"): Check out the [ Development Guide](https://developer.ibm.com/streamsdev/docs/cloud-beta-devguide/)![External link icon](../../icons/launch-glyph.svg "External link icon") to learn how to use the new Streams QSE with RHEL 7 running in a Docker environment to compile and deploy your applications with the new {{site.data.keyword.streaminganalyticsshort}} v2 plans.
 * [{{site.data.keyword.streaminganalyticsshort}} v2 REST API](https://console.bluemix.net/apidocs/1939-streaming-analytics-v2#introduction)![External link icon](../../icons/launch-glyph.svg "External link icon")
 * [New starter and sample applications](https://developer.ibm.com/streamsdev/docs/cloud-beta-samples/) ![External link icon](../../icons/launch-glyph.svg "External link icon")
 * [High-availability enhancements in the {{site.data.keyword.streaminganalyticsshort}} service](/docs/services/StreamingAnalytics/c_ha.html#consistent-regions)
@@ -742,24 +760,6 @@ The {{site.data.keyword.loganalysisfull}} service provides log collection and lo
     For the  {{site.data.keyword.loganalysisshort}} service with single and group containers, and {{site.data.keyword.IBM_notm}} Cloud Foundry services, you can access the service from the {{site.data.keyword.Bluemix_notm}} UI.
 
 For more information about the {{site.data.keyword.loganalysisshort}} service, refer to the [Getting started with {{site.data.keyword.loganalysisfull}}](/docs/services/CloudLogAnalysis/index.html#getting-started-with-ibm-cloud-log-analysis) and the [{{site.data.keyword.loganalysisshort}} overview](/docs/services/CloudLogAnalysis/log_analysis_ov.html#log_analysis_ov).
-
-### Brocade Operating System Version 18.x for Virtual Router Appliance
-New as of: 25 July 2018
-
-Version 18.x of the Brocade OS is now available for the Virtual Router Appliance. Among other new features, this version provides remediation for the Spectre security breach. 
-
-New features of the 18.x VRA are discussed in the following topics:
-
-* [How to Set up an IPsec Tunnel that Works with Zone Firewalls](/docs/infrastructure/virtual-router-appliance/vra-ipsec.html)
-* [Configuring a VFP interface with IPsec and Zone Firewalls](/docs/infrastructure/virtual-router-appliance/vra-vfp.html)
-* [Using NAT with prefix based IPsec](/docs/infrastructure/virtual-router-appliance/vra-nat.html)
-* [Troubleshooting Your VFP Interface](/docs/infrastructure/virtual-router-appliance/vra-vfp-troubleshooting.html)
-
-If you are migrating from Vyatta 5400, the best way to upgrade to 18.x is through the [normal procedure](/docs/infrastructure/virtual-router-appliance/upgrade-os.html) of a full OS reload.
-
-Because there is no simple one-to-one mapping of functionality between Vyatta 5400 and the Virtual Router Appliance, creating a baseline configuration for the VRA is helpful. An IBM Partner, WanClouds, can help you with this process, and provide guidance on creating functionality similar to the Vyatta 5400 on your VRA.
-
-For more information about common issues encountered during this upgrade proces, please refer to our [additional documentation](/docs/infrastructure/virtual-router-appliance/migration-issues.html#vyatta-5400-common-migration-issues).
 
 ### IBM dashDB for Analytics has been renamed
 New as of: 18 July 2017

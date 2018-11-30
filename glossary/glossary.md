@@ -3,7 +3,7 @@
 
 copyright:
   years: 2016, 2018
-lastupdated: "2018-10-16"
+lastupdated: "2018-11-15"
 
 
 ---
@@ -858,6 +858,11 @@ See [Uniform Resource Identifier](#x2116436).
 {: #x2042718}
 
 See [Uniform Resource Locator](#x2042491).
+
+### user hierarchy
+{: #userhierarchy}
+
+A user management relationship for classic infrastructure users who invite other users to an account. Those users then invite other users to the account and so on. When a classic infrastructure user invites another user to the account, the classic infrastructure user becomes the parent user. When a child user of the parent user invites other users to the account, those users become descendants of the original parent, who is now considered their ancestor.
 
 
 ## V
