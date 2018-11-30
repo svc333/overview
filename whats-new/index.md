@@ -4,7 +4,7 @@ copyright:
 
   years: 2015, 2018
 
-lastupdated: "2018-11-21"
+lastupdated: "2018-11-30"
 
 ---
 
@@ -19,6 +19,64 @@ Stay up-to-date with the new features and services that are available in {{site.
 
 ## {{site.data.keyword.Bluemix_notm}} platform
 {: #platform_category}
+
+
+### New support experience for {{site.data.keyword.Bluemix_notm}}
+New as of: 30 November 2018 
+{: #support}
+
+With the Support Center, you can work to resolve all {{site.data.keyword.Bluemix_notm}} related issues. The landing page provides you FAQs, so you can find the answer to your question without even contacting {{site.data.keyword.Bluemix_notm}}. You also have the option to chat with a live support rep. Your cases can now be managed in from a single location. Go to **Support** &gt; **Manage cases** to create, view, or edit cases.
+
+You can also find the [Status page](https://cloud.ibm.com/status){: new_window} ![External link icon](../../icons/launch-glyph.svg "External link icon") from the Support Center. It has been enhanced to include all unplanned incidents, planned maintenance, announcements, and security bulletin notifications about key events that affect the {{site.data.keyword.Bluemix_notm}} platform, infrastructure and major services. Click **View cloud status** from the Support Center. To check out the new experience, log in and go to the [Support Center](https://cloud.ibm.com/unifiedsupport/supportcenter){: new_window} ![External link icon](../../icons/launch-glyph.svg "External link icon"). 
+
+### Unified login, API keys, and user and access management in {{site.data.keyword.Bluemix_notm}}
+New as of: 30 November 2018
+{: #useraccess}
+
+With our latest updates, you can take advantage of a simplified secure login that is available for all users regardless of your ID type. Whether you have an IBMid or a SoftLayer ID, you can quickly log in to the {{site.data.keyword.Bluemix_notm}} console from our enhanced login page. You can also make secure API calls across {{site.data.keyword.Bluemix_notm}} and automate your CLI login by using an IAM API key or an IAM access token. 
+
+After you're logged in, you'll find that you can now see all users including platform and classic infrastructure users from your Users page in the Access (IAM) UI. Depending on your access to view other users in the account, you can filter your view quickly by account users, classic infrastructure users, or Cloud Foundry org. You can also use the filters to find users quickly by name, email, or status.
+
+Now that all of your users are in a single console, you can manage their access to all types of resources from the same place. Access starts with the user, so just start by selecting a user from your list. Then, depending on which type of resource that you want to assign access to, you can choose from IAM access policies, Cloud Foundry access, or classic infrastructure permissions. If you're just looking to assign IAM access policies, try creating an access group to streamline your access management process by adding all users to the same access group that need the same policies assigned.
+
+### Find all {{site.data.keyword.Bluemix_notm}} CLI plug-in documentation in one place
+New as of: 30 November 2018
+{: #cli}
+
+You can now access all of the {{site.data.keyword.Bluemix_notm}} CLI plug-in documentation in one location making it easier for you to find any CLI command that you are looking for on the {{site.data.keyword.Bluemix_notm}} platform. Check out the References section of the [CLI documentation]/docs/cli/index.html#overview).
+
+### Check out the new dashboard and resource list
+New as of: 30 November 2018
+{: #dash}
+
+With our latest update, you can now see all your platform and infrastructure services in the same place. When you log in, you can check out the new dashboard right away. Once you have resources added to your account from the catalog, you can use the resource list to get a full view of your account resources. Here are some of the details around the changes that you will see:
+
+* The dashboard has been redesigned so that you can view a summary your resources, maintenance, staus, apps, support, usage, and users.
+* You can find more details about your resources in the resource list. You can tag your resources to organize them, or select them to make changes on the details page.
+* Now that you can see all of your resources in one place, we've added a global search so that you can quickly find resources that you created and expect to appear on the Resource list page. 
+* You can also search for catalog results, so you can quickly find resources to add to your account.  
+
+### Unified account, billing, and user profile information for platform and infrastructure services
+New as of: 30 November 2018
+{: #profile}
+
+Your account, billing, and profile information has been simplified. You can now see your account information for all of your platform and infrastruture resources in a unified console. 
+
+* Your profile and settings area contains information about you as well as your email notification preferences for all resource types. 
+* Your account information area contains information about your company or organization, account settings, and quick access for working with resource groups and Cloud Foundry orgs. You can even find best practices to help you get up and running quickly!
+* Your billing and usage area of your account helps you understand your bill, make payments, monitor subscriptions, get quotes, track orders, and set spending notifications.
+
+### Organize your resources with tags
+New as of: 30 November 2018
+{: #tag}
+
+Tags are now available for you to add to your resources, like Cloud Object Storage, to help you manage resources and find the resources that are the most relevant to you. For example, if you have hundreds of resources and you want to differentiate between a couple that are paid the same way, you could tag them with "costcenter:location01". Or, if you have a team working on a couple of resources repeatedly, you can use something like "team-blue". You can also filter your resource list by tags to quickly organize and find the resources that you need. For more information, see [Working with tags](/docs/resources/tagging_resources.html#tag).
+
+### Find accurate monthly costs with the cost estimator
+New as of: 30 November 2018
+{: #cost-estimator}
+
+To help you decide and analyze what services you'd like to purchase, you can use the cost estimator. Now, you can go through the console and select each service you'd like to have, and add all of the costs in an easy to use tool. You can even enter projected data usages, lookups per second, writes per second, and queries per second to get a more accurate estimation of your monthly ependentures. You can use the cost estimator with each catalog service you select, or you can click the cost estimator icon ![Estimator icon](../../icons/Estimator.svg) in the console menu to get a summary of your estimated costs. For more information, see [Estimating your costs](/docs/billing-usage/estimating_costs.html#cost).
 
 ### Updated global location names for {{site.data.keyword.cloud_notm}}
 New as of: 1 November 2018
