@@ -8,6 +8,7 @@ lastupdated: "2018-08-15"
 ---
 
 {:shortdesc: .shortdesc}
+{:note: .note}
 {:new_window: target="_blank"}
 
 # Requisitos previos
@@ -24,9 +25,11 @@ La lista siguiente especifica el software de navegador mínimo requerido para {{
  * Chrome: versión más reciente para el sistema operativo
  * Firefox: versiones normal y ESR más recientes para el sistema operativo, consulte [Mozilla Firefox
 Extended Support Release](https://www.mozilla.org/firefox/organizations/) para obtener más detalles
- * Internet Explorer: versión 11
  * Edge: última versión para Windows
  * Safari: versión más reciente para Mac
+ 
+ Puede notificar problemas sobre Internet Explorer 11 con el botón **Comentarios**.
+ {:note}
 
 ## Interfaz de la línea de mandatos (CLI)
 {: #cli}

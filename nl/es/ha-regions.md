@@ -4,7 +4,7 @@ copyright:
 
   years: 2018
 
-lastupdated: "2018-11-01"
+lastupdated: "2018-11-15"
 
 ---
 
@@ -35,7 +35,7 @@ Cada ubicación tienen asignado un prefijo exclusivo. {{site.data.keyword.cloud_
 
 | **Ubicación** | **Punto final de API** |
 |-----------------|-------------------|
-| Dallas | api.us-south.bluemix.net |
+| Dallas | api.ng.bluemix.net |
 | Sídney | api.au-syd.bluemix.net |
 | Frankfurt | api.eu-de.bluemix.net |
 | Londres | api.eu-gb.bluemix.net |
