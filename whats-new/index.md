@@ -43,7 +43,7 @@ Now that all of your users are in a single console, you can manage their access 
 New as of: 30 November 2018
 {: #cli}
 
-You can now access all of the {{site.data.keyword.Bluemix_notm}} CLI plug-in documentation in one location making it easier for you to find any CLI command that you are looking for on the {{site.data.keyword.Bluemix_notm}} platform. Check out the References section of the [CLI documentation]/docs/cli/index.html#overview).
+You can now access all of the {{site.data.keyword.Bluemix_notm}} CLI plug-in documentation in one location making it easier for you to find any CLI command that you are looking for on the {{site.data.keyword.Bluemix_notm}} platform. Check out the References section of the [CLI documentation](/docs/cli/index.html#overview).
 
 ### Check out the new dashboard and resource list
 New as of: 30 November 2018
