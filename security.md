@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2018
-lastupdated: "2018-11-16"
+lastupdated: "2018-11-30"
 
 ---
 
@@ -64,6 +64,28 @@ In particular, ISO 27018:2014 specifies guidelines that are based on ISO 27002. 
 ![Cloud Security Alliance – STAR Registrant](images/icon_CSA.png) The Cloud Security Alliance is a not-for-profit organization with a mission to promote the use of best practices for providing security assurance within cloud computing. One of the mechanisms the Cloud Security Alliance uses in pursuit of its mission is the Security, Trust, and Assurance Registry (STAR). STAR is a free, publicly accessible registry that documents the security controls provided by various cloud computing offerings.
 
 ![CJIS Standards](images/icon_CJIS.png) The Criminal Justice Information Systems (CJIS) Division is a division of the United States Department of Justice Federal Bureau of Investigation. CJIS Division created and published a Security Policy (CJISD-ITS-DOC-08140-5.4). This Security Policy contains minimum information security requirements, guidelines, and agreements that reflect the will of law enforcement and criminal justice agencies for protecting the sources, transmission, storage, and generation of Criminal Justice Information (CJI).
+
+## Platform and service compliance
+{: #compliancetable}
+
+The following table displays which services in {{site.data.keyword.Bluemix_notm}} are compliant for each of the standards.
+
+|{{site.data.keyword.Bluemix_notm}} components		|FISC		|ISO 27001	|PCI |SOC 2 Type 1		|
+|:----------------------|:---------:|:---------:|:---------:|:---------:|
+|{{site.data.keyword.Bluemix_notm}} platform		|Y			|Y	|Y	|Y	|
+|{{site.data.keyword.openwhisk_short}}    |  |Y | | |
+|{{site.data.keyword.APIM}}			|Y	|Y |Y	|			|
+|{{site.data.keyword.autoscaling}}			|Y	|Y |Y	|			|
+|{{site.data.keyword.bigicloudst}}			|Y |Y |	|Y |
+|{{site.data.keyword.cloudant}}				|Y |Y |	|Y	|
+|{{site.data.keyword.dashdbshort}}			|Y	|Y	|	|Y	|
+|{{site.data.keyword.dataworks_short}}				|	|	|	|Y	 		|
+|{{site.data.keyword.contdelivery_short}}					|Y	|Y	|	|			|
+|{{site.data.keyword.containerlong}}			|Y		|Y	|	|			|
+|{{site.data.keyword.dwl_short}}				|	|	|	|Y	 		|
+|{{site.data.keyword.mql}}				|Y	|Y	|Y	|	 		|
+|{{site.data.keyword.SecureGateway}}			|Y	|Y |	|	 		|
+{: caption="Table 1. Platform and service compliance" caption-side="top"}
 
 ## General Data Protection Regulation (GDPR)
 {: #gdpr}
