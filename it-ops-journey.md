@@ -141,6 +141,7 @@ Check out the following table for a summary of your networking options.
 After you build your infrastructure and environment, you're ready to start managing it.
 
 | Task | Description |
+|--------|---------------|
 | [Monitor system events](/docs/account/audit_log.html) | View the actions that have been performed on your infrastructure resources. |
 | [Set email preferences](/docs/account/email.html) | Set up {{site.data.keyword.cloud_notm}} infrastructure email notifications about unplanned events, maintenance, and announcements.  |
 | [Understand how your data is safe](/docs/overview/security.html) | The {{site.data.keyword.cloud_notm}} platform has layered security controls across network and infrastructure. |
