@@ -51,7 +51,7 @@ You can now access all of the {{site.data.keyword.Bluemix_notm}} CLI plug-in doc
 New as of: 30 November 2018
 {: #dash}
 
-With our latest update, you can now see all your platform and infrastructure services in the same place. When you log in, you can check out the new dashboard right away. Once you have resources added to your account from the catalog, you can use the resource list to get a full view of your account resources. Here are some of the details around the changes that you will see:
+With our latest update, you can now view all your platform and infrastructure services from one location. When you log in, you can check out the new dashboard right away. After you have resources added to your account from the catalog, you can use the resource list to get a full view of your account resources. :
 
 * The dashboard has been redesigned so that you can view a summary your resources, maintenance, staus, apps, support, usage, and users.
 * You can find more details about your resources in the resource list. You can tag your resources to organize them, or select them to make changes on the details page.
