@@ -5,7 +5,7 @@
 copyright:
 
   years: 2015, 2018
-lastupdated: "2018-10-04"
+lastupdated: "2018-12-04"
 
 
 ---
@@ -24,7 +24,7 @@ lastupdated: "2018-10-04"
 Your IBM Cloud Account and any services ordered from the IBM Cloud are provided under the term of:
 
   * Base Agreement Cloud Terms applicable to you as follows:
-    * SoftLayer Cloud Service Agreement for US Dollar credit card billing, available at [http://www.softlayer.com/legal](http://www.softlayer.com/legal){: new_window} ![External link icon](../../icons/launch-glyph.svg)
+    * SoftLayer Cloud Service Agreement for US Dollar credit card billing, available at [https://www.ibm.com/terms/softlayer](https://www.ibm.com/terms/softlayer){: new_window} ![External link icon](../../icons/launch-glyph.svg)
     * IBM Cloud Services Agreement (local country version*) for non-US Dollar credit card billing, or if you select invoicing from IBM, available at [https://www.ibm.com/terms](https://www.ibm.com/terms){: new_window} ![External link icon](../../icons/launch-glyph.svg) (select your country);
     * IBM Passport Advantage Agreement you accepted and the General Terms for Cloud Offerings TOU for IBM Passport Advantage Clients, available at [http://www-03.ibm.com/software/sla/sladb.nsf/sla/tou](http://www-03.ibm.com/software/sla/sladb.nsf/sla/tou){: new_window} ![External link icon](../../icons/launch-glyph.svg); or
     * equivalent cloud service base agreement terms between you and IBM;
@@ -54,7 +54,7 @@ International Business Machines Corporation or its subsidiaries (IBM) own any IP
 ### 2. Client-Provided IP Addresses
 {: #client_provided_ips}
 
-Clients may provide their own Regional Internet Registry (RIR) issued IP addresses, subject to certain technical limitations and verification of ownership, by submitting a support ticket and providing a Letter of Authority to specify Client-owned IP prefixes. If IBM approves a request those IP addresses will be announced via Border Gateway Protocol (BGP) on the Client's behalf and routed to identified Client servers. Client retains ownership of those IP addresses. At Client's request, or upon cancellation of the services, IBM will cease to announce and route those IP addresses. While IBM will make reasonable efforts to ensure BGP prefixes are accepted by all upstream ISPs, we cannot guarantee global reachability for Client-owned IPs. 
+Clients may provide their own Regional Internet Registry (RIR) issued IP addresses, subject to certain technical limitations and verification of ownership, by submitting a support case and providing a Letter of Authority to specify Client-owned IP prefixes. If IBM approves a request those IP addresses will be announced via Border Gateway Protocol (BGP) on the Client's behalf and routed to identified Client servers. Client retains ownership of those IP addresses. At Client's request, or upon cancellation of the services, IBM will cease to announce and route those IP addresses. While IBM will make reasonable efforts to ensure BGP prefixes are accepted by all upstream ISPs, we cannot guarantee global reachability for Client-owned IPs. 
 
 ### 3. Review / Justification / Efficiency Guidelines
 {: #review_justification_efficiency}
