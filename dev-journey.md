@@ -2,7 +2,7 @@
 
 copyright:
   years: 2016, 2017, 2018
-lastupdated: "2018-11-28"
+lastupdated: "2018-12-06"
 
 ---
 {:new_window: target="_blank"}
@@ -22,7 +22,7 @@ As a developer, you decide the best entry point for your code. You can choose to
  * {{site.data.keyword.cloud_notm}} web console (developer portals)
  * {{site.data.keyword.cloud_notm}} command-line interface (CLI)
 
-Within the {{site.data.keyword.cloud_notm}} developer portals, you can:
+With the {{site.data.keyword.cloud_notm}}, you can:
 
 * Select starter kits that are use-case-specific, and produce production-ready apps in various programming languages and architectural patterns.
 * See and manage resources that are automatically provisioned from your starter kit, or that you manually add to your app.
@@ -30,6 +30,7 @@ Within the {{site.data.keyword.cloud_notm}} developer portals, you can:
 * With portable app code, you can deploy to various cloud environments.
 * Create a [DevOps toolchain](../services/ContinuousDelivery/index.html#cd_getting_started) in a few clicks.
 * Use a [command-line interface](/docs/cli/index.html#overview) for local development.
+* Browse or search the [IBM Catalog ![External link icon](../icons/launch-glyph.svg "External link icon")](https://{DomainName}/catalog){: new_window} for apps and services that you can create and start using today.
 
 To better understand how our experience can help you rapidly build high-quality production-ready apps, let’s look at these elements in more detail.
 
@@ -45,7 +46,7 @@ Each developer portal provides starter kits that are relevant to the portals's f
 
 An app comprises code, data, services, and toolchains. For example, the {{site.data.keyword.cloud_notm}} mobile app contains device code, along with back-end logic, data storage, analytics and security services, and is set up for continuous delivery.
 
-![Reuse](images/garage_reuse2.png "Developer Experience lets you reuse and avoid reinventing")
+![Reuse](images/garage_reuse2.png "With Developer Experience, you can reuse and avoid reinventing")
 
 You can create and manage an app by using any {{site.data.keyword.cloud_notm}} developer portal or the {{site.data.keyword.dev_cli_notm}}.
 
@@ -55,7 +56,7 @@ You can create simple blank apps directly, or create more complex apps by using 
 ## Starter kits
 {: #starter-kits}
 
-With starter kits, we want your experience to be easy to use and customizable. The starter kits assemble a skeleton production app in the language of your choice, ready for cloud deployment. Each starter kit includes a language, a framework, and a pattern for a specific use case and for reusing code.
+With starter kits, your experience should be easy to use and customizable. The starter kits assemble a skeleton production app in the language of your choice, ready for cloud deployment. Each starter kit includes a language, a framework, and a pattern for a specific use case and for reusing code.
 
 If a starter kit requires specific resources, no problem. With auto-provisioned resources, {{site.data.keyword.cloud_notm}} automatically creates instances for those resources when you create your app. You can access starter kits from the developer portal or command-line interface for instructions that are relevant to your focus area and workflow!
 
@@ -63,8 +64,8 @@ If a starter kit requires specific resources, no problem. With auto-provisioned 
 Starter kits are production-ready and focus on demonstrating a key pattern implementation by using a runtime (for example, Node.js and Express). In some cases, starter kits offer a simple user experience to highlight the integration of the service. In other cases, starter kits represent a customizable implementation of a sophisticated use case.
 
 * A **snippet** is a few lines of code that is often presented in an IDE. Snippets help a developer integrate with a programming language syntax or support integration with a defined API.
-* A **demonstration** is usually high in quality and fidelity and uses a range of services and integration points. It often requires setup time and is used to prove a business problem or demonstrate a platform feature. You can use it for evaluating stages of cloud adoption. Sometimes it's code that's included in production code.
-* A **sample** is a small example of a specific feature, function, service, or user journey. A sample can be reused or included in a production application. It’s typically used to show technical capabilities and a possible approach to solving a technical problem.
+* A **demonstration** is usually high in quality and fidelity and uses a range of services and integration points. It often requires setup time and is used to prove a business problem or demonstrate a platform feature. You can use it for evaluating stages of cloud adoption. Sometimes it's code that is included in production code.
+* A **sample** is a small example of a specific feature, function, service, or user journey. You can reuse a sample or include it in a production application. It's typically used to show technical capabilities and a possible approach to solving a technical problem.
 * A **starter kit** is a production-ready pattern that can be integrated with a set of services to generate a production-ready asset that can be deployed directly into a DevOps pipeline and a Kubernetes cluster. A starter kit contains descriptive metadata providing the user with enough information to know what the kit is and does. It also contains instructions that tell {{site.data.keyword.cloud_notm}} what to produce. The output is production-ready out of the box, and can be iterated on for further enhancements, based on IBM best practices. Starter kit content isn’t as complex as a demonstration and not as trivial as a snippet or sample. They are dynamically created based on the developer’s requirements.
 
 ## Auto-provisioned resources
@@ -82,7 +83,7 @@ You can get a quick look at your app code by clicking **Download code** on the *
 ### What code is created?
 
 When you create an app directly or with help from a starter kit, the app contains portable code. Portable code contains cloud enablement code for multiple cloud environments. You can then produce code in four foundational areas:
-* Code that follows best practices for a given language
+* Code that follows best practices for a specific language
 * Code that enables the app to run on the cloud
 * Code that's initialized to connect to cloud services
 * Code that's specific to a use case
@@ -150,6 +151,6 @@ Users expect more from their applications than ever before. They want apps to de
 * **Data scientists** use analytics and machine learning to produce predictive models. These models are used in business metrics and provide deep insights to application users.
 * **DevOps specialists** are experts in resolving deployment and toolchain issues. For simple apps, dedicated specialists are usually not needed as development team members manage DevOps with the squad. But for complex enterprise applications, with many dependencies, DevOps specialists are essential in keeping your production app running smoothly.
 
-The developer capabilities that are built in to {{site.data.keyword.cloud_notm}} align to these skill sets and allow your team to use one platform to produce, deliver, run, and manage your app. For example, a digital developer that creates a mobile app might use the {{site.data.keyword.cloud_notm}} [Mobile developer portal](https://{DomainName}/developer/mobile/dashboard){: new_window} ![External link icon](../icons/launch-glyph.svg "External link icon"), a cognitive app builder might use the [Watson developer portal](https://{DomainName}/developer/watson/dashboard){: new_window} ![External link icon](../icons/launch-glyph.svg "External link icon") along with [Watson Studio](https://{DomainName}/catalog/services/watson-studio){: new_window} ![External link icon](../icons/launch-glyph.svg "External link icon"), a streams developer can use [IBM Real-Time Analytics](/docs/services/StreamingAnalytics/index.html), and the [{{site.data.keyword.cloud_notm}} Continuous Delivery service](/docs/services/ContinuousDelivery/index.html) simplifies the job of a DevOps specialist.
+The developer capabilities that are built in to {{site.data.keyword.cloud_notm}} align to these skill sets and allow your team to use one platform to produce, deliver, run, and manage your app. For example, a digital developer that creates a mobile app might use the {{site.data.keyword.cloud_notm}} [Mobile developer portal](https://{DomainName}/developer/mobile/dashboard){: new_window} ![External link icon](../icons/launch-glyph.svg "External link icon"). A cognitive app builder might use the [Watson developer portal](https://{DomainName}/developer/watson/dashboard){: new_window} ![External link icon](../icons/launch-glyph.svg "External link icon") along with [Watson Studio](https://{DomainName}/catalog/services/watson-studio){: new_window} ![External link icon](../icons/launch-glyph.svg "External link icon"). A streams developer can use [IBM Real-Time Analytics](/docs/services/StreamingAnalytics/index.html). The [{{site.data.keyword.cloud_notm}} Continuous Delivery service](/docs/services/ContinuousDelivery/index.html) simplifies the job of a DevOps specialist.
 
-Ready to get started building high-quality, production-ready apps? [Click here](/docs/apps/tutorials/tutorial_web.html) to build an app on {{site.data.keyword.cloud_notm}} now!
+[Ready to get started building high-quality, production-ready apps?](/docs/apps/tutorials/tutorial_web.html)
