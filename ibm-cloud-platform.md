@@ -105,12 +105,11 @@ With usage metering, service providers can submit metrics that are collected for
 
 Usage reports return the summary for the account for the specified month. Account billing managers are authorized to access the reports.
 
-<!-- begin staging only -->
+<!-- staging only 
 ### Order management
 {: #order}
 
-Order management manages the lifecycle of Orders and Line Items. It is responsible for processing Orders and Line Item from different billing systems such as DSW, GAIA, and IMS. It also fuels `whiskey`, which is Operation Dashboard for {{site.data.keyword.Bluemix_notm}} Orders.
-<!-- end staging only -->
+Order management manages the lifecycle of Orders and Line Items. It is responsible for processing Orders and Line Item from different billing systems such as DSW, GAIA, and IMS. It also fuels `whiskey`, which is Operation Dashboard for {{site.data.keyword.Bluemix_notm}} Orders. -->
 
 ## {{site.data.keyword.Bluemix_notm}} catalog
 {: #catalog}
