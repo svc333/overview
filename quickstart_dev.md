@@ -4,7 +4,7 @@ copyright:
 
   years: 2018
 
-lastupdated: "2018-11-28"
+lastupdated: "2018-12-19"
 
 ---
 
@@ -42,9 +42,9 @@ Create a Pay-As-You-Go or Subscription account to get full access to all offerin
 ## Next steps
 {: #nextsteps}
 
-* Explore the offerings in the [catalog](https://{DomainName}/catalog){: new_window} ![External link icon](../icons/launch-glyph.svg) that you can use to build or enhance your app.
+* Explore the offerings in the [catalog](https://{DomainName} /catalog){: new_window} ![External link icon](../icons/launch-glyph.svg) that you can use to build or enhance your app.
 * If you're interested in a specific service or implementation, check out the [solution tutorials](/docs/tutorials/index.html#tutorials) that are available to get you up and running.
-* Jump start your process by downloading ready-to-use [code patterns](https://developer.ibm.com/patterns/){: new_window} ![External link icon](../icons/launch-glyph.svg "External link icon") for specific solutions.
+* Jump start your process by downloading ready-to-use [code patterns](https://developer.ibm.com/patterns/){: new_window} ![External link icon](../icons/launch-glyph.svg "External link icon") for specific solutions. For more information, see [Creating an app with a code pattern](/docs/apps/tutorials/tutorial_code-pattern.html).
 
 
 

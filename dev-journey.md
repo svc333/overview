@@ -2,7 +2,7 @@
 
 copyright:
   years: 2016, 2017, 2018
-lastupdated: "2018-12-06"
+lastupdated: "2018-12-19"
 
 ---
 {:new_window: target="_blank"}
@@ -25,12 +25,13 @@ As a developer, you decide the best entry point for your code. You can choose to
 With the {{site.data.keyword.cloud_notm}}, you can:
 
 * Select starter kits that are use-case-specific, and produce production-ready apps in various programming languages and architectural patterns.
+* Use an [IBM Developer code pattern ![External link icon](../icons/launch-glyph.svg "External link icon")](https://developer.ibm.com/patterns/){:new_window} to quickly create your app and deploy it to {{site.data.keyword.cloud_notm}}.
 * See and manage resources that are automatically provisioned from your starter kit, or that you manually add to your app.
 * If you have an app in an existing repository, you can use a blank starter kit to create an app record and connect it to your source repository and a DevOps toolchain.
 * With portable app code, you can deploy to various cloud environments.
 * Create a [DevOps toolchain](../services/ContinuousDelivery/index.html#cd_getting_started) in a few clicks.
-* Use a [command-line interface](/docs/cli/index.html#overview) for local development.
-* Browse or search the [IBM Catalog ![External link icon](../icons/launch-glyph.svg "External link icon")](https://{DomainName}/catalog){: new_window} for apps and services that you can create and start using today.
+* Use the [command-line interface](/docs/cli/index.html#overview) for local development.
+* Browse or search the [{{site.data.keyword.cloud_notm}} catalog ![External link icon](../icons/launch-glyph.svg "External link icon")](https://{DomainName}/catalog){: new_window} for apps and services that you can create and start using today.
 
 To better understand how our experience can help you rapidly build high-quality production-ready apps, let’s look at these elements in more detail.
 
@@ -51,6 +52,8 @@ An app comprises code, data, services, and toolchains. For example, the {{site.d
 You can create and manage an app by using any {{site.data.keyword.cloud_notm}} developer portal or the {{site.data.keyword.dev_cli_notm}}.
 
 You can create simple blank apps directly, or create more complex apps by using our starter kits. If you choose to create blank apps without the help of a starter kit, you can do so from the [{{site.data.keyword.cloud_notm}} dashboard ![External link icon](../icons/launch-glyph.svg "External link icon")](https://{DomainName}){: new_window} without visiting a portal!
+
+You can use a code pattern to quickly create your app and deploy it to {{site.data.keyword.cloud_notm}}. From the [IBM Developer website ![External link icon](../icons/launch-glyph.svg "External link icon")](https://developer.ibm.com/patterns/){:new_window}, choose a code pattern. You can either view the code in GitHub or create and build an app on {{site.data.keyword.cloud_notm}}, where you can use a DevOps toolchain to automatically deploy your app.
 
 
 ## Starter kits
