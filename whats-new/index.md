@@ -4,7 +4,7 @@ copyright:
 
   years: 2015, 2018
 
-lastupdated: "2018-12-02"
+lastupdated: "2018-12-20"
 
 ---
 
@@ -437,6 +437,11 @@ The Liberty buildpack v3.9 provides new monthly Liberty runtime version and cont
 ## Services
 {: #services_category}
 
+### Introducing {{site.data.keyword.backup_notm}}
+New as of 20 December 2018.
+
+The {{site.data.keyword.BluSoftlayer_full}} storage infrastructure team is proud to announce the new {{site.data.keyword.backup_full}}, which includes a free-forever 10-GB tier. Also, all plugins are now free. Consequently, your implementation of specific application use-cases like MSSQL, Oracle DB, Exchange or even Bare Metal Restore incurs no extra costs. The new {{site.data.keyword.backup_notm}} is the best solution to enable your backup needs at any scale. For more information, see the [IBM Cloud Blog](https://www.ibm.com/blogs/bluemix/2018/12/introducing-a-new-cloud-backup-service-ibm-cloud-backup/){: new_window}![External link icon].
+
 ### Citrix NetScaler VPX Version 12.1
 New as of 21 November 2018
 {: #vpx121}
@@ -577,7 +582,7 @@ New as of: 31 January 2018
 
 Effective today the {{site.data.keyword.keymanagementserviceshort}} encryption key management service is available in the Sydney region. Sydney is the third region after US South (Dallas) and London to offer GA status for {{site.data.keyword.keymanagementserviceshort}} users.
 
-{{site.data.keyword.keymanagementserviceshort}} is an encryption key management service that offers a simple and economical key management solution for managing keys that are used to encrypt data stored in the {{site.data.keyword.Bluemix_notm}}. {{site.data.keyword.keymanagementserviceshort}} manages the entire life-cycle of keys from key creation through application use, key archival, and key destruction, while also enforcing separation of duties between data management and key management.
+{{site.data.keyword.keymanagementserviceshort}} is an encryption key management service that offers a simple and economical key management solution for managing keys that are used to encrypt data that is stored in the {{site.data.keyword.Bluemix_notm}}. {{site.data.keyword.keymanagementserviceshort}} manages the entire life-cycle of keys from key creation through application use, key archival, and key destruction, while also enforcing separation of duties between data management and key management.
 
 {{site.data.keyword.keymanagementserviceshort}} supports BYOK (Bring-Your-Own-Key – customer managed encryption) with applicable IBM data services. BYOK allows users to import master root-of-trust encryption keys created internally to better manage the security of their data-at-rest saved in the {{site.data.keyword.Bluemix_notm}}.
 
@@ -629,7 +634,7 @@ We have currency support for iOS 11 notifications. We have also incorporated sev
 Additional details can be found in the [Rich Media notifications](/docs/services/mobilepush/push_step_4_nf_rich.html#interactive-notifications) documentation, [Interactive and silent notifications](/docs/services/mobilepush/push_step_4_nf_interactive.html#interactive-notifications) documentation, and the [Enabling advanced push notifications](/docs/services/mobilepush/push_step_4_nf_adv.html#enabling-advanced-push-notifications) documentation.
 
 #### APNS HTTP/2 support
-Apple introduced support for HTTP protocol for Apple Notifications. {{site.data.keyword.mobilepushshort}} service now supports HTTP/2 protocol. With this support, notification payloads can be 4KB with increased throughput and provides instant feedback feature. Support for Universal Certificate allows the app to connect to both sandbox and production environments.
+Apple introduced support for HTTP protocol for Apple Notifications. {{site.data.keyword.mobilepushshort}} service now supports HTTP/2 protocol. With this support, notification payloads can be 4 KB with increased throughput and provides instant feedback feature. Support for Universal Certificate allows the app to connect to both sandbox and production environments.
 
 #### New Lite plan
 Lite Plan for {{site.data.keyword.mobilepushshort}} service provides the ability to send 100K notifications free for every month. For more information, see the [Lite Plan For Push Notifications Service on Bluemix](https://www.ibm.com/blogs/bluemix/2017/06/lite-plan-push-notifications-service-bluemix/){: new_window} ![External link icon](../../icons/launch-glyph.svg "External link icon") blog post.
@@ -645,11 +650,11 @@ We have made enhancements for {{site.data.keyword.mobileanalytics_short}} servic
 {{site.data.keyword.mobileanalytics_short}} is now Omni channel service with the addition of support for Web app analytics. More details can be found at [https://github.com/ibm-bluemix-mobile-services/bms-clientsdk-web-analytics/](https://github.com/ibm-bluemix-mobile-services/bms-clientsdk-web-analytics/){: new_window} ![External link icon](../../icons/launch-glyph.svg "External link icon").
 
 #### Integration with {{site.data.keyword.mobilefoundation_short}} service
-{{site.data.keyword.mobilefoundation_short}} service now leverages {{site.data.keyword.mobileanalytics_short}} service for app, user and performance analytics. Users can leverage the export to DB2 warehouse option to build adapter analytics and custom charts. You can find additional details in the following blog posts:
+{{site.data.keyword.mobilefoundation_short}} service now leverages {{site.data.keyword.mobileanalytics_short}} service for app, user, and performance analytics. Users can leverage the export to Db2 warehouse option to build adapter analytics and custom charts. You can find more details in the following blog posts:
 
 * [Mobile Foundation Service integration with Mobile Analytics Service](https://www.ibm.com/blogs/bluemix/2017/08/mobile-foundation-service-integration-mobile-analytics-service-2/){: new_window} ![External link icon](../../icons/launch-glyph.svg "External link icon")
-* [Building custom charts using IBM Bluemix Mobile Analytics service and IBM Mobile Foundation Service](https://mobilefirstplatform.ibmcloud.com/blog/2017/04/26/custom-charts-using-analytics-and-dashdb-analytics-service/){: new_window} ![External link icon](../../icons/launch-glyph.svg "External link icon")
-* [Building charts for Adapter analytics using IBM Bluemix Mobile Analytics service and IBM Mobile Foundation Service](https://mobilefirstplatform.ibmcloud.com/blog/2017/04/26/adapter-analytics-using-analytics-and-dashdb-analytics-service/){: new_window} ![External link icon](../../icons/launch-glyph.svg "External link icon")
+* [Building custom charts by using IBM Bluemix Mobile Analytics service and IBM Mobile Foundation Service](https://mobilefirstplatform.ibmcloud.com/blog/2017/04/26/custom-charts-using-analytics-and-dashdb-analytics-service/){: new_window} ![External link icon](../../icons/launch-glyph.svg "External link icon")
+* [Building charts for Adapter analytics by using IBM Bluemix Mobile Analytics service and IBM Mobile Foundation Service](https://mobilefirstplatform.ibmcloud.com/blog/2017/04/26/adapter-analytics-using-analytics-and-dashdb-analytics-service/){: new_window} ![External link icon](../../icons/launch-glyph.svg "External link icon")
 
 #### {{site.data.keyword.mobilefirst_notm}} boilerplate now includes {{site.data.keyword.mobileanalytics_short}}
 Mobile Services Boilerplate is a template that provides a set of mobile services for users to quickly get started. {{site.data.keyword.mobileanalytics_short}} service is now a part of the boiler plate available in the [catalog](https://console.bluemix.net/catalog/starters/mobilefirst-services-starter){: new_window} ![External link icon](../../icons/launch-glyph.svg "External link icon").
@@ -737,7 +742,7 @@ The {{site.data.keyword.loganalysisfull}} service provides log collection and lo
 
 * Choose the amount of logs that you can search per day.  
 
-    Different plans are available that you can use to search up to 500MB,  2GB, 5GB, and 10GB of logs per day.
+    Different plans are available that you can use to search up to 500 MB, 2 GB, 5 GB, and 10 GB of logs per day.
 
 * Build reusable dashboards and make them interactive.
 
@@ -756,9 +761,9 @@ Version 18.x of the Brocade OS is now available for the Virtual Router Appliance
 
 New features of the 18.x VRA are discussed in the following topics:
 
-* [How to Set up an IPsec Tunnel that Works with Zone Firewalls](/docs/infrastructure/virtual-router-appliance/vra-ipsec.html)
-* [Configuring a VFP interface with IPsec and Zone Firewalls](/docs/infrastructure/virtual-router-appliance/vra-vfp.html)
-* [Using NAT with prefix based IPsec](/docs/infrastructure/virtual-router-appliance/vra-nat.html)
+* [How to Set up an IPSec Tunnel that Works with Zone Firewalls](/docs/infrastructure/virtual-router-appliance/vra-ipsec.html)
+* [Configuring a VFP interface with IPSec and Zone Firewalls](/docs/infrastructure/virtual-router-appliance/vra-vfp.html)
+* [Using NAT with prefix based IPSec](/docs/infrastructure/virtual-router-appliance/vra-nat.html)
 * [Troubleshooting Your VFP Interface](/docs/infrastructure/virtual-router-appliance/vra-vfp-troubleshooting.html)
 
 If you are migrating from Vyatta 5400, the best way to upgrade to 18.x is through the [normal procedure](/docs/infrastructure/virtual-router-appliance/upgrade-os.html) of a full OS reload.
@@ -777,7 +782,7 @@ The following table summarizes the new name:
 | IBM dashDB for Analytics    | IBM Db2 Warehouse on Cloud | July 18, 2017  |
 {: caption="Table 1. Service name change" caption-side="top"}
 
-For a cumulative list of updates for Db2 Warehouse on Cloud and Db2 on Cloud, see: [What's New in Db2 Warehouse on Cloud and Db2 on Cloud](http://www.ibm.com/support/docview.wss?uid=swg21961758){: new_window} ![External link icon](../../icons/launch-glyph.svg "External link icon").
+For a cumulative list of updates for IBM Db2 Warehouse on Cloud and Db2 on Cloud, see: [What's New in Db2 Warehouse on Cloud and Db2 on Cloud](http://www.ibm.com/support/docview.wss?uid=swg21961758){: new_window} ![External link icon](../../icons/launch-glyph.svg "External link icon").
 
 ### IBM Cloud Monitoring is now available in the US South region
 New as of: 17 July 2017
@@ -794,7 +799,7 @@ Use the {{site.data.keyword.monitoringlong}} service to expand your collection, 
 
 * Choose the service plan that fits your needs. You may choose the Lite service plan or the Premium service plan to match your usage needs. The Lite plan offers metric collection at once per minute, retention for 15 days, and complementary alerting.  Alternatively, you can select the Premium plan to enable greater consumption, longer metrics retention, and to gain access to the service APIs, for example, to send or retrieve metrics from the {{site.data.keyword.monitoringlong}} service. {{site.data.keyword.monitoringlong}} offers metric collection at once per minute.  The Lite plan retains metrics at full resolution for 15 days. The Premium plan retains metrics at full resolution for 45 days.
 
-The legacy {{site.data.keyword.monitoringshort}} service collected metrics at service defined frequencies starting at 30 seconds, and summarized to 1 hour frequencies over time. {{site.data.keyword.monitoringlong}} now offers full resolution collection at 1 minute.  The Lite plan retains metrics for 15 days.  The Premium plan retains metrics for 45 days.
+The legacy {{site.data.keyword.monitoringshort}} service collected metrics at service defined frequencies starting at 30 seconds, and summarized to 1-hour frequencies over time. {{site.data.keyword.monitoringlong}} now offers full resolution collection at 1 minute.  The Lite plan retains metrics for 15 days.  The Premium plan retains metrics for 45 days.
 
 For more information about the {{site.data.keyword.monitoringlong}} service, refer to [the Getting started with Monitoring documentation](/docs/services/cloud-monitoring/index.html#getting-started-with-ibm-cloud-monitoring) or [the IBM Cloud Monitoring – Service Refresh with New Features![External link icon](../../icons/launch-glyph.svg "External link icon")](https://www.ibm.com/blogs/bluemix/2017/07/ibm-cloud-monitoring-service-refresh-new-features/).
 
@@ -826,16 +831,16 @@ The beta version of {{site.data.keyword.uccr_short}} provides the following key 
 ### dashDB for Transactions has been renamed to {{site.data.keyword.Db2Hosted_notm}}
 New as of: 14 June 2017
 
-IBM {{site.data.keyword.DB2OnCloud_short}} is the new name for dashDB for Transactions. As part of this renaming the former self-managed IBM {{site.data.keyword.DB2OnCloud_short}} service will also be renamed to IBM Db2 Hosted. At this time only display names are updated, so any APIs or command line interfaces remain unchanged.
+IBM {{site.data.keyword.DB2OnCloud_short}} is the new name for dashDB for Transactions. As part of this renaming the former self-managed IBM {{site.data.keyword.DB2OnCloud_short}} service will also be renamed to IBM Db2 Hosted. At this time only display names are updated, so any APIs or command-line interfaces remain unchanged.
 
-### {{site.data.keyword.sparks}} updates: Stocator-S3 connector includes support for IBM Cloud Object Storage Cross Region service (Beta)
+### {{site.data.keyword.sparks}} updates: Stocator-S3 connector includes support for {{site.data.keyword.cos_full_notm}} Cross Region service (Beta)
 New as of: 05 June 2017
 
-{{site.data.keyword.sparks}} users can now access and do analytics on data stored in the IBM Cloud Object Storage Cross Region service. This capability is offered as a Beta. IBM Cloud Object Storage offers high-capacity, cost-effective storage for analytics and other applications that is scalable, flexible and simple to use.
+{{site.data.keyword.sparks}} users can now access and do analytics on data stored in the {{site.data.keyword.cos_full_notm}} Cross Region service. This capability is offered as a Beta. {{site.data.keyword.cos_full_notm}} offers high-capacity, cost-effective storage for analytics and other applications that is scalable, flexible and simple to use.
 
-The Apache Spark accesses IBM Cloud Object Storage data through a storage connector based on Stocator technology, which is implicitly designed for object storage and thus faster than legacy object storage connectors. As a user, you do not need to change or recompile Apache Spark code.
+The Apache Spark accesses {{site.data.keyword.cos_full_notm}} data through a storage connector based on Stocator technology, which is implicitly designed for {{site.data.keyword.objectstorageshort}}  and thus faster than legacy {{site.data.keyword.objectstorageshort}}  connectors. As a user, you do not need to change or recompile Apache Spark code.
 
-[Access and Analyze data in IBM Cross Region Cloud Object Storage](https://www.ibm.com/blogs/bluemix/2017/06/access-analyze-data-ibm-cross-region-cloud-object-storage/){: new_window} ![External link icon](../../icons/launch-glyph.svg "External link icon") blog post describes usage of IBM Cloud Object Storage data with {{site.data.keyword.sparks}} on {{site.data.keyword.Bluemix_notm}} and the IBM Data Science Experience (DSx).
+[Access and Analyze data in IBM Cross Region Cloud Object Storage](https://www.ibm.com/blogs/bluemix/2017/06/access-analyze-data-ibm-cross-region-cloud-object-storage/){: new_window} ![External link icon](../../icons/launch-glyph.svg "External link icon") blog post describes usage of {{site.data.keyword.cos_full_notm}} data with {{site.data.keyword.sparks}} on {{site.data.keyword.Bluemix_notm}} and the IBM Data Science Experience (DSx).
 
 Please reach out to us at [sparksrv@us.ibm.com](sparksrv@us.ibm.com), if you have any questions or comments. Your input is greatly appreciated!
 
@@ -849,7 +854,7 @@ New as of: 24 May 2017
 
 The following are the new updates available for {{site.data.keyword.mobilepush}} service on {{site.data.keyword.Bluemix_notm}}
 
-**Lite Plan**: We are introducing a new Lite Plan in addition to the existing Basic Plan for {{site.data.keyword.mobilepush}} Service. As per the new plan the users can send upto hundred thousand digital messages for free per month. While upgrading from Lite plan to basic plan, the user is charged after one million digital messages. The count to one million messages starts when the Lite plan is upgraded to the basic plan.
+**Lite Plan**: We are introducing a new Lite Plan in addition to the existing Basic Plan for {{site.data.keyword.mobilepush}} Service. As per the new plan the users can send up to hundred thousand digital messages for free per month. While upgrading from Lite plan to basic plan, the user is charged after one million digital messages. The count to one million messages starts when the Lite plan is upgraded to the basic plan.
 
 **Monitoring**: You can now get insights on notifications sent and devices registered in the {{site.data.keyword.mobilepush}} Service Console. You can also use REST API's for message level tracking. From message delivery to message dispatching to message receipt, the details can be obtained by configuring webhooks.  See [Monitoring for {{site.data.keyword.mobilepush}}](/docs/services/mobilepush/t_push_monitoring.html#monitor-notifications).
 
@@ -867,14 +872,14 @@ In the past, you had to install a local version of IBM Streams to develop Python
 
 You can use the STREAMING_ANALYTICS_SERVICE context to submit a Python application to the {{site.data.keyword.streaminganalyticsshort}} service. The {{site.data.keyword.streaminganalyticsshort}} service requires Python 3.5.
 
-You can create sample Python applications using Jupyter notebooks in IBM Data Science Experience (DSX), and submit these applications to the {{site.data.keyword.streaminganalyticsshort}} instance directly from DSX. Check out the sample stream-processing Python applications in notebooks on the [DSX community page](https://datascience.ibm.com/){: new_window} ![External link icon](../../icons/launch-glyph.svg "External link icon").
+You can create sample Python applications using Jupyter Notebooks in IBM Data Science Experience (DSX), and submit these applications to the {{site.data.keyword.streaminganalyticsshort}} instance directly from DSX. Check out the sample stream-processing Python applications in notebooks on the [DSX community page](https://datascience.ibm.com/){: new_window} ![External link icon](../../icons/launch-glyph.svg "External link icon").
 
 For more information about the {{site.data.keyword.streaminganalyticsshort}} service updates, see [{{site.data.keyword.streaminganalyticsshort}} updates: DSX integration and easier Python development](https://www.ibm.com/blogs/bluemix/2017/05/streaming-analytics-updates-dsx-integration-easier-python-development/){: new_window} ![External link icon](../../icons/launch-glyph.svg "External link icon").
 
 ### {{site.data.keyword.sparks}} updates: Apache Spark 2.1 is supported now
 New as of: 21 April 2017
 
-{{site.data.keyword.sparkl}} is introducing the support for Apache Spark 2.1 to create algorithms that harness insights from complex data. Apache Spark 2.1 will help significantly around structured streaming with added support for event time watermarks and Kafka 0.10. Apache Spark 2.1 also focused on increasing stability and usability in Spark SQL, SparkR and the MLlib modules. For more details on Spark 2.1, see [Spark Release 2.1.0](http://spark.apache.org/releases/spark-release-2-1-0.html).
+{{site.data.keyword.sparkl}} is introducing the support for Apache Spark 2.1 to create algorithms that harness insights from complex data. Apache Spark 2.1 will help significantly around structured streaming with added support for event time watermarks and Kafka 0.10. Apache Spark 2.1 also focused on increasing stability and usability in Spark SQL, SparkR, and the MLlib modules. For more details on Spark 2.1, see [Spark Release 2.1.0](http://spark.apache.org/releases/spark-release-2-1-0.html).
 
 We are happy to answer any questions related to {{site.data.keyword.sparkl}} or the newer version of Apache Spark 2.1 and are reachable at sparksrv@us.ibm.com.
 
