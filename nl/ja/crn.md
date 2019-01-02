@@ -4,7 +4,7 @@ copyright:
 
   years: 2017, 2018
 
-lastupdated: "2018-05-22"
+lastupdated: "2018-11-05"
 
 ---
 
@@ -121,7 +121,6 @@ CRN の基本正規フォーマットは、次のとおりです。
 | スペース | s/`{space guid}` | リソースが割り当てられた {{site.data.keyword.Bluemix_notm}} スペース。 | s/48b3cdcd-e804-4398-9032-73065863ad7c |
 {: caption="表 2. scope の使用法" caption-side="top"}
 
-`account id` は、IBM アカウント ID ({{site.data.keyword.Bluemix_notm}} および Softlayer のリンクされたアカウント) でなければなりません。
 
 
 ## service-instance
@@ -141,7 +140,6 @@ ibmcloud resource service-instance
 ```
 {: codeblock}
 
-
 ## resource-type、resource
 {: #resource-type}
 
@@ -159,7 +157,7 @@ ibmcloud resource service-instance
 
 | 例 | 値 |
 | --- | --- |
-| Kubernetes ワーカー | `crn:v1:bluemix:public:containers-kubernetes:us-south:a/59bcbfa6ea2f006b4ed7094c1a08dcdd:8042b2a8af6a4a5cbf6dbe09e07311d2:worker:kube-hou02-pa8042b2a8af6a4a5cbf6dbe09e07311d2-w1`|
+| Kubernetes ワーカー | `crn:v1:bluemix:public:containers-kubernetes:us-south:a/59bcbfa6ea2f006b4ed7094c1a08dcdd:8042b2a8af6a4a5cbf6dbe09e07311d2:worker:kube-hou02-pa8042b2a8af6a4a5cbf6dbe09e07311d2-w1` |
 | リソース・グループ | `crn:v1:bluemix:public:resource-controller: global:a/59bcbfa6ea2f006b4ed7094c1a08dcdd:resource-group:59bcbfa6ea2f006b4ed7094c1a08dcdd` |
 | サービス・インスタンス | `crn:v1:bluemix:public:cloud-object-storage:global:a/59bcbfa6ea2f006b4ed7094c1a08dcdd:1a0ec336-f391-4091-a6fb-5e084a4c56f4::` |
 | バケット | `crn:v1:bluemix:public:cloud-object-storage:global:a/59bcbfa6ea2f006b4ed7094c1a08dcdd:1a0ec336-f391-4091-a6fb-5e084a4c56f4:bucket:mybucket` |

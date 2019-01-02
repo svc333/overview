@@ -3,7 +3,7 @@
 
 copyright:
   years: 2015, 2018
-lastupdated: "2018-10-25"
+lastupdated: "2018-11-28"
 
 ---
 
@@ -11,62 +11,64 @@ lastupdated: "2018-10-25"
 {:tip: .tip}
 {:new_window: target="_blank"}
 
-# Como o {{site.data.keyword.cloud_notm}} console funciona
+# Navegando no console do {{site.data.keyword.cloud_notm}} 
 {: #ui}
 
-O console do {{site.data.keyword.cloud}} é uma interface com o usuário que ajuda a gerenciar todos os recursos do {{site.data.keyword.cloud_notm}}. Quando você acessa o [console](https://console.bluemix.net){: new_window} ![Ícone de link externo](../icons/launch-glyph.svg "Ícone de link externo"), é possível criar uma conta grátis, efetuar login, acessar a documentação, acessar o catálogo, visualizar informações de precificação, obter suporte ou verificar o status dos componentes do {{site.data.keyword.cloud_notm}}. Depois de efetuar login, a barra de menus contém um ícone Menu ![ícone Menu](../icons/icon_hamburger.svg) e links adicionais, dependendo de seu tipo de conta.
+O console do {{site.data.keyword.cloud}} é uma interface com o usuário que ajuda a gerenciar todos os recursos do {{site.data.keyword.cloud_notm}}. Quando
+você acessa o [console](https://cloud.ibm.com){: new_window}
+![Ícone de link externo](../icons/launch-glyph.svg "Ícone de link externo"), é possível
+criar uma conta gratuita, efetuar login, acessar a documentação, acessar o catálogo, visualizar as informações de precificação, obter suporte ou verificar o status dos componentes do {{site.data.keyword.cloud_notm}}. Depois
+de efetuar login, a barra de menus conterá um ícone Menu ![Ícone Menu](../icons/icon_hamburger.svg) e mais links.
 {: shortdesc}
+
 
 ## Utilizando o Console
 {: #consoleoptions}
 
-Se você for um usuário existente com uma conta do {{site.data.keyword.cloud_notm}}, será possível usar o ícone de Menu ![Menu icon](../icons/icon_hamburger.svg) para acessar todos os recursos existentes em seu painel.
+Ao efetuar login no {{site.data.keyword.cloud_notm}}, a primeira página que pode ser visualizada é o painel, que
+mostra os widgets que resumem o status da sua conta. Em seguida, é possível gerenciar seus recursos. Acesse o ícone Menu ![Ícone Menu](../icons/icon_hamburger.svg) &gt; **Lista de recursos** para visualizar todos os recursos existentes em sua conta.
+
   * Use o link **Catálogo** para criar novos recursos.
   * Use o link **Docs** para acessar informações úteis sobre o {{site.data.keyword.cloud_notm}}.
-  * No menu **Suporte**, é possível acessar informações sobre o que há de novo no {{site.data.keyword.cloud_notm}}, o Centro de suporte, as opções para incluir e visualizar chamados e a página Status.
-  * No menu **Gerenciar**, é possível acessar sua conta, faturamento e uso e as opções de segurança.
-
-Se as suas contas do {{site.data.keyword.cloud_notm}} e do SoftLayer foram vinculadas, você tem as mesmas opções que um proprietário da conta não vinculada, além de poder navegar para o portal do cliente selecionando a opção **Ícone Menu ![Menu icon](../icons/icon_hamburger.svg) > Infraestrutura**. Desse ponto, é possível visualizar seu resumo de conta, pedir armazenamento e dispositivos e gerenciar o acesso para usuários e dispositivos somente de VPN.
+  * Use o link **Suporte** para acessar o centro de suporte.  
+  * No menu **Gerenciar**, é possível acessar a sua conta, o faturamento e uso e as opções de
+gerenciamento de acesso e identidade.
+  * Clique no ícone Estimador de custo ![Ícone Estimador de custo](../icons/Estimator.svg) para
+abrir o estimador de custo.
+  * Clique no ícone Notificações ![Ícone Notificações](../icons/Notification.svg) para acessar
+comunicados e eventos planejados e não planejados.
 
 ## Procurando Recursos
 {: #search}
 
-É possível procurar recursos de qualquer lugar no console do {{site.data.keyword.cloud_notm}}. Digite o nome de um recurso no campo de procura na barra de menus do console.
+É possível procurar recursos por nome ou por tag de qualquer lugar no console do {{site.data.keyword.cloud_notm}} para recursos que você espera localizar na lista de recursos. Digite o nome de um recurso ou uma tag no campo de procura na barra de menus do console.
 
-Pressione a tecla de barra (/) no teclado para navegar o cursor para o campo de procura.
-{: tip}
+Para obter mais informações, consulte [Procurando recursos](/docs/resources/searching.html#searching-for-resources). 
 
-## Gerenciando recursos no painel
+## Gerenciando recursos na lista de recursos
 {: #dashboardview}
 
-É possível usar o painel para visualizar e trabalhar com os recursos do {{site.data.keyword.cloud_notm}} e as
-instâncias de serviço do Cloud Foundry. Veja [O que é um recurso?](/docs/resources/acct_resources.html#resource) para obter mais informações.
+Acesse o ícone Menu ![Ícone Menu](../icons/icon_hamburger.svg) &gt; **Lista de
+recursos** para acessar a sua lista de recursos da conta. É possível usar a lista de recursos para visualizar
+e trabalhar com os recursos do {{site.data.keyword.cloud_notm}} e as instâncias de serviço do Cloud Foundry. Para obter mais informações sobre os diferentes tipos de recursos, consulte [ O que é um recurso?](/docs/resources/acct_resources.html#resource).
 
 ### Visualizando recursos
-
-É possível visualizar todos os recursos em sua conta em todas as regiões no painel. Para customizar sua visualização, use as opções a seguir:
-
-  * Para visualizar recursos em um grupo de recursos específico, selecione um grupo de recursos na lista **Grupo de recursos**.
-  * Para visualizar recursos em uma organização específica do Cloud Foundry, selecione uma organização na lista **Organização do Cloud Foundry**.
-
-Em seguida, com base nos itens selecionados, é possível filtrar pelas opções a seguir:
-
-  * Localização
-  * Espaço do Cloud Foundry
-  
-Se você deseja visualizar e trabalhar com recursos em uma região específica, expanda o menu **LOCAL** e selecione uma região na lista.
+É possível visualizar todos os recursos em sua conta em todas as regiões por meio da lista de recursos. Para ver os
+itens que são importantes para você, filtre a sua lista com os filtros para cada cabeçalho da coluna. Por exemplo, se
+você desejar visualizar e trabalhar com recursos em uma localização específica, expanda o filtro
+**Localização** e selecione uma localização na lista.
 
 ### Trabalhando com recursos
+É possível trabalhar com os recursos de várias maneiras por meio da lista de recursos:
 
-É possível trabalhar com seus recursos de várias maneiras no painel:
+  * Cada recurso é exibido em sua própria linha e um ícone Ações ![Ícone Mais ações](../icons/action-menu-icon.svg) é incluído no término da linha. Clique no ícone Ações ![Ícone Mais ações](../icons/action-menu-icon.svg) para iniciar, parar, renomear ou excluir um recurso.
+  * Para configurar credenciais ou conexões para um recurso, clique no nome do recurso para navegar para a página de detalhes do recurso. Em seguida, selecione **Credenciais de serviço** ou **Conexões**. Para obter mais informações, consulte [Incluindo uma credencial](/docs/resources/service_credentials.html) e [Gerenciando conexões](/docs/resources/connecting_apps.html#connect_app).
 
-  * Cada recurso é exibido em sua própria linha e um ícone Mais ações ![More Actions icon](../icons/overflow-menu.svg) é incluído no término da linha. Clique no ícone **Mais ações** para iniciar, parar, renomear ou excluir um recurso.
-  * Para configurar credenciais ou conexões para um recurso, clique no nome do recurso para navegar para a página de detalhes do recurso. Para obter mais informações, veja [Incluindo uma nova credencial](/docs/resources/service_credentials.html) e [Gerenciando conexões](/docs/resources/connecting_apps.html#connect_app).
 
 ## Trabalhando no catálogo
 {: #catalogcreate}
 
-Para criar um novo recurso, clique em **Criar recurso** em seu painel. Você é então direcionado para o catálogo. Ao selecionar um tile do catálogo, será possível ver onde o recurso estará disponível. Nem todos os recursos listados no catálogo estão disponíveis em todas as regiões.
+Para criar um recurso, clique em **Criar** na lista de recursos. Você é então direcionado para o catálogo. Ao selecionar um tile do catálogo, será possível ver onde o recurso estará disponível. Nem todos os recursos listados no catálogo estão disponíveis em todas as regiões.
 
 Depois que você clica no tile para o recurso que deseja criar, é possível selecionar em qual local você deseja implementar.
 

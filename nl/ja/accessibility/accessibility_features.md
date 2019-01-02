@@ -4,7 +4,7 @@
 
 copyright:
   years: 2018
-lastupdated: "2018-04-12"
+lastupdated: "2018-11-30"
 
 
 ---
@@ -43,7 +43,7 @@ lastupdated: "2018-04-12"
 
 {{site.data.keyword.Bluemix_notm}} Web ユーザー・インターフェースのアクセシビリティーの準拠性状況は、{{site.data.keyword.Bluemix_notm}} 製品プラットフォームのみを対象としています。 ユーザー・インターフェースには、プラットフォーム内のコンテンツをホストするサード・パーティーの製品またはサービスが所有する部分があります。これらの部分については、{{site.data.keyword.Bluemix_notm}} 準拠性レコードで、アクセシビリティーの準拠性状況が保持されることも所有されることもありません。 つまり、サービスのユーザー・インターフェースまたは資料にアクセスする場合には、そのサービスの準拠表明を要求する必要があります。 例えば、IBM Containers のインターフェース、ローカルまたは専用環境の管理コンソール、あるいは IoT サービスを使用する場合には、そのインターフェースまたは資料の[製品アクセシビリティー情報![「外部リンク」アイコン](../../icons/launch-glyph.svg "「外部リンク」アイコン")](http://www-03.ibm.com/able/product_accessibility/index.html){: new_window}を要求してください。
 
-{{site.data.keyword.Bluemix_notm}} の資料のアクセシビリティー準拠性は、{{site.data.keyword.Bluemix_notm}} コア・プラットフォームの情報のみを対象としており、サービスには及びません。 ホーム・ページでは、コンテンツは「{{site.data.keyword.Bluemix_notm}}」と「計算およびサービス (Compute and Services)」の 2 つのセクションに分かれています。 {{site.data.keyword.Bluemix_notm}} の利用可能な資料は、要求時に提供される IBM Bluemix Continuous Delivery 製品アクセシビリティー情報で管理および報告されています。 サービスの準拠性状況については、[製品アクセシビリティー情報 ![「外部リンク」アイコン](../../icons/launch-glyph.svg "「外部リンク」アイコン")](http://www-03.ibm.com/able/product_accessibility/index.html){: new_window}を要求してください。
+{{site.data.keyword.Bluemix_notm}} の資料のアクセシビリティー準拠性は、{{site.data.keyword.Bluemix_notm}} コア・プラットフォームの情報のみを対象としており、サービスには及びません。 ホーム・ページから、コンテンツはタブに分離され、「すべての文書」タブは、サービス・チームによって個別に保守されるコンテンツになります。{{site.data.keyword.Bluemix_notm}} の利用可能な資料は、要求時に提供される IBM Bluemix Continuous Delivery 製品アクセシビリティー情報で管理および報告されています。 サービスの準拠性状況については、[製品アクセシビリティー情報 ![「外部リンク」アイコン](../../icons/launch-glyph.svg "「外部リンク」アイコン")](http://www-03.ibm.com/able/product_accessibility/index.html){: new_window}を要求してください。
 
 標準の IBM ヘルプ・デスクとサポート Web サイトに加え、IBM は、耳の不自由なお客様が営業やサポート・サービスにアクセスするために使用できる TTY 電話サービスを立ち上げました。
 

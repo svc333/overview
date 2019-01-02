@@ -1,35 +1,52 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
+{:download: .download}
 
 {: .toc subcollection="overview" audience="platform" arm="3816100" href="/docs/overview/ibm-cloud.html" path="overview"}
-IBM Cloud 개념
+IBM Cloud 시작하기
 
     {: .navgroup id="learn"}
-    {: .topicgroup}
-    IBM Cloud 개념
-        ibm-cloud.md
-        prereqs.md
-        catalog.md
-        manageaccess.md
-        resource-groups.md
+    ibm-cloud-platform.md
     ui.md
-    security.md
     dev-journey.md
+    it-ops-journey.md
     whats-new/index.md
-    ha-regions.md
-    feedback.md
 
     {: .topicgroup}
     관련 링크
         [왜 IBM Cloud인가?](https://www.ibm.com/cloud-computing/learn-more/why-ibm-cloud/){: new_window}
-        [프라이빗 클라우드 선택에 대해 알아보기](https://www.ibm.com/cloud-computing/solutions/private-cloud/){: new_window}
+        [클라우드의 보안](https://www.ibm.com/cloud/security){: new_window}
+    {: .navgroup-end}
+
+    {: .navgroup id="howto"}
+    {: .topicgroup}
+    빠른 시작 안내서
+        quickstart_dev.md
+        quickstart_cloud_admin.md
+        quickstart_ea.md
+        quickstart_lite.md
+        quickstart_acc_ad.md
+
+    catalog.md
+    manageaccess.md
+    resource-groups.md
     {: .navgroup-end}
 
     {: .navgroup id="reference"}
-    data-centers.md
-    crn.md
-    glossary/index.md
-    nls.md
-    terms-of-use/notices.md
-    accessibility/accessibility_features.md
+    platform-cli-api.md
+    security.md
+    zero_downtime.md
+
+    {: .topicgroup}
+    일반 리소스
+        prereqs.md
+        crn.md
+        nls.md
+        glossary/glossary.md
+        accessibility/accessibility_features.md
+        terms-of-use/notices.md
+    {: .navgroup-end}
+
+    {: .navgroup id="help"}
+    feedback.md
     {: .navgroup-end}
