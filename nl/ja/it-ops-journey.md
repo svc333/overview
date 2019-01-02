@@ -78,7 +78,7 @@ SaaS モデルでは、プロバイダーは実際のアプリケーションを
 
 ### {{site.data.keyword.cloud_notm}} サービスとコンプライアンス
 
-アーキテクチャーと同様に、インフラストラクチャーをサイジングする際、ソリューションに追加する可能性のある {{site.data.keyword.cloud_notm}} リソースを考慮する必要があります。詳しくは、『[SaaS applications for business and IT ![外部リンク・アイコン](../icons/launch-glyph.svg "外部リンク・アイコン")](https://www.ibm.com/cloud/saas) {: new_window}』を参照して、特定のサービスを検索してください。アーキテクチャーの構築時に考慮する必要がある規則についても検討する必要があります。例えば、ワークロードが機密と見なされているか、または規制されているかなどを検討する必要があります。詳しくは、『[Compliance ![外部リンク・アイコン](../icons/launch-glyph.svg "外部リンク・アイコン")](https://www.ibm.com/cloud/compliance){: new_window}』を参照してください。
+アーキテクチャーと同様に、インフラストラクチャーをサイジングする際、ソリューションに追加する可能性のある {{site.data.keyword.cloud_notm}} リソースを考慮する必要があります。詳しくは、『[SaaS applications for business and IT ![外部リンク・アイコン](../icons/launch-glyph.svg "外部リンク・アイコン")](https://www.ibm.com/cloud/saas) {: new_window}』を参照して、特定のサービスを検索してください。アーキテクチャーの構築時に考慮する必要がある規則についても検討してください。例えば、ワークロードが機密と見なされているか、または規制されているかなどを検討してください。詳しくは、『[Compliance ![外部リンク・アイコン](../icons/launch-glyph.svg "外部リンク・アイコン")](https://www.ibm.com/cloud/compliance){: new_window}』を参照してください。
 
 ## インフラストラクチャーの構築
 {: #build}
