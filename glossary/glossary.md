@@ -11,7 +11,7 @@ lastupdated: "2018-11-15"
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
 
-# Glossary terms for {{site.data.keyword.cloud_notm}} 
+# Glossary terms for {{site.data.keyword.cloud_notm}}
 {: #glossary}
 
 This glossary provides terms and definitions for {{site.data.keyword.cloud_notm}}.
@@ -22,7 +22,7 @@ The following cross-references are used in this glossary:
 - *See* refers you from a nonpreferred term to the preferred term or from an abbreviation to the spelled-out form.
 - *See also* refers you to a related or contrasting term.
 
-<!--If you do not want letter links at the top of your 
+<!--If you do not want letter links at the top of your
 glossary, delete the text between these comment tags.
 [A](#glossa)
 [B](#glossb)
@@ -664,7 +664,7 @@ A defined geographic territory. A region could be a specific postal code area, a
 ### registry
 {: #x2064940}
 
-A public or private repository that contains images used to create containers. See also [container](#x2010901), [image](#x2024928).
+A public or private container image storage and distribution service. See also [container](#x2010901), [image](#x2024928).
 
 ### Representational State Transfer (REST)
 {: #x3220976}
