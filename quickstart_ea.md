@@ -2,9 +2,9 @@
 
 copyright:
 
-  years: 2018
+  years: 2018, 2019
 
-lastupdated: "2018-11-13"
+lastupdated: "2019-01-02"
 
 ---
 
@@ -34,7 +34,7 @@ Create a Pay-As-You-Go or Subscription account to get full access to all offerin
     * Check out the reference architectures for {{site.data.keyword.Bluemix_notm}}. See the [Architecture center](https://www.ibm.com/cloud/garage/architectures){: new_window} ![External link icon](../icons/launch-glyph.svg) for more information. 
     * Review case studies to learn how other companies use {{site.data.keyword.Bluemix_notm}} to achieve their business goals. See [{{site.data.keyword.Bluemix_notm}} case studies](https://www.ibm.com/cloud-computing/bluemix/case-studies){: new_window} ![External link icon](../icons/launch-glyph.svg) for more information. 
 2. Learn about the various options for hosting your applications, giving you as much control over the infrastructure as you want or need. See [Choosing your hosting environment](/docs/overview/ibm-cloud-platform.html#choose-compute) for more information.
-3. Explore the offerings in the [catalog](https://console.cloud.ibm.com/catalog){: new_window} ![External link icon](../icons/launch-glyph.svg) that you can use to build your solution.
+3. Explore the offerings in the [catalog](https://cloud.ibm.com/catalog){: new_window} ![External link icon](../icons/launch-glyph.svg) that you can use to build your solution.
 
 ## Next steps
 {: #next-steps}
