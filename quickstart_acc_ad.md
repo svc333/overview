@@ -2,9 +2,9 @@
 
 copyright:
 
-  years: 2018
+  years: 2018, 2019
 
-lastupdated: "2018-11-14"
+lastupdated: "2019-01-02"
 
 ---
 
@@ -32,7 +32,7 @@ This quick start guide is intended to help account admins set up their {{site.da
 6. Use the cost estimator to get an idea of how much your environment might cost. Click the Cost estimator icon ![Estimator icon](../icons/Estimator.svg) in the console menu bar. 
 7. Use the cost estimator to get an idea of how much your infrastructure might cost. 
   
-  a. Start by selecting an offering from the [catalog](https://console.cloud.ibm.com/catalog){: new_window} ![External link icon](../icons/launch-glyph.svg). 
+  a. Start by selecting an offering from the [catalog](https://cloud.ibm.com/catalog){: new_window} ![External link icon](../icons/launch-glyph.svg). 
   
   b. Enter the configuration details, select your pricing plan, and click **Add to estimate**.
 
