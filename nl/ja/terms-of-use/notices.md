@@ -25,12 +25,12 @@ IBM Cloud アカウントおよび IBM Cloud から注文されたすべての�
 
   * 基本ご使用条件のクラウドご利用条件は、以下の通り適用されます。
     * 米ドル・クレジット・カード請求の場合の SoftLayer クラウド・サービスご使用条件、 [http://www.softlayer.com/legal](http://www.softlayer.com/legal){: new_window} ![外部リンク・アイコン](../../icons/launch-glyph.svg) を参照
-    * 非米ドル・クレジット・カード請求または IBM からの請求を選択した場合の IBM クラウド・サービス契約書 (ローカル国バージョン*)、[https://www.ibm.com/terms](https://www.ibm.com/terms){: new_window} ![外部リンク・アイコン](../../icons/launch-glyph.svg) (国を選択) を参照、
+    * 非米ドル・クレジット・カード請求または IBM からの請求を選択した場合の IBM Cloud サービス契約書 (ローカル国バージョン*)、[https://www.ibm.com/terms](https://www.ibm.com/terms){: new_window} ![外部リンク・アイコン](../../icons/launch-glyph.svg) (国を選択) を参照、
     * 受け入れ済みの IBM パスポート・アドバンテージご使用条件および IBM パスポート・アドバンテージ・クライアント用の Cloud Offerings ご利用条件の共通事項、[http://www-03.ibm.com/software/sla/sladb.nsf/sla/tou](http://www-03.ibm.com/software/sla/sladb.nsf/sla/tou){: new_window} ![外部リンク・アイコン](../../icons/launch-glyph.svg)を参照、または
     * お客様と IBM との間の同等のクラウド・サービス基本ご使用条件、
-  * IBM クラウドのサービス記述書、[http://www-03.ibm.com/software/sla/sladb.nsf/sla/bm](http://www-03.ibm.com/software/sla/sladb.nsf/sla/bm){: new_window} ![外部リンク・アイコン](../../icons/launch-glyph.svg)を参照、
-  * IBM クラウド・アカウントを使用して注文したサービスに対して適用される追加のサービス記述書、[http://www-03.ibm.com/software/sla/sladb.nsf/sla/bm](http://www-03.ibm.com/software/sla/sladb.nsf/sla/bm){: new_window} ![外部リンク・アイコン](../../icons/launch-glyph.svg) を参照、および
-  * 該当する追加サービス記述書または IBM クラウド UI 内のサービスの「ご利用条件」リンクから参照されている、適用可能なデータ・シート、[http://www-03.ibm.com/software/sla/sladb.nsf/sla/csdsp](http://www-03.ibm.com/software/sla/sladb.nsf/sla/csdsp){: new_window} ![外部リンク・アイコン](../../icons/launch-glyph.svg) を参照。
+  * IBM Cloud のサービス記述書、[http://www-03.ibm.com/software/sla/sladb.nsf/sla/bm](http://www-03.ibm.com/software/sla/sladb.nsf/sla/bm){: new_window} ![外部リンク・アイコン](../../icons/launch-glyph.svg)を参照、
+  * IBM Cloud アカウントを使用して注文したサービスに対して適用される追加のサービス記述書、[http://www-03.ibm.com/software/sla/sladb.nsf/sla/bm](http://www-03.ibm.com/software/sla/sladb.nsf/sla/bm){: new_window} ![外部リンク・アイコン](../../icons/launch-glyph.svg) を参照、および
+  * 該当する追加サービス記述書または IBM Cloud UI 内のサービスの「ご利用条件」リンクから参照されている、適用可能なデータ・シート、[http://www-03.ibm.com/software/sla/sladb.nsf/sla/csdsp](http://www-03.ibm.com/software/sla/sladb.nsf/sla/csdsp){: new_window} ![外部リンク・アイコン](../../icons/launch-glyph.svg) を参照。
   * 予約済み容量は、注文に定められた固定期間にわたるものであり、その期間の終了前にお客様が終了することはできません。 予約済み容量は、お客様と SoftLayer との間での相互の合意により、期間の終了時に更新を適用することができます。 期間の終了前に更新も終了もされていない予約済み容量は、現行のクラウド・サービス契約書とサービス記述書の条件、および現行の小売り価格設定に従って、月次クラウド・サービスに変換されます。
 
 ### IBM WebSphere Application Server Liberty Profile イメージのライセンス

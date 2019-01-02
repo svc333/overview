@@ -22,7 +22,7 @@ lastupdated: "2018-11-01"
 
 アイデアを方向付けから、開発サンドボックス、そしてグローバル分散実稼働環境に移行させることができます。グローバル分散実稼働環境では、計算およびストレージ・インフラストラクチャー、オープン・ソース・プラットフォームのサービスとコンテナー、{{site.data.keyword.IBM_notm}}、Watson などからのソフトウェア・サービスとツールを備えることができます。 {{site.data.keyword.cloud}} は、プラットフォーム自体の能力を超えて、柔軟なデプロイメントも提供します。 {{site.data.keyword.cloud}} リソースをオンプレミス、専用プライベート・クラウド環境、またはパブリック・クラウドでプロビジョンします。
 
-パブリック環境および専用環境にデプロイされたすべての {{site.data.keyword.IBM_notm}} クラウド・リソースは、世界中にある {{site.data.keyword.CloudDataCent}} ロケーションからお客様が選択した場所でホストされます。 {{site.data.keyword.CloudDataCents_notm}} は、地域的冗長性、すべてのデータ・センターおよび PoP を接続するグローバル・ネットワーク・バックボーン、および厳格なセキュリティー管理とレポート作成を備えています。 {{site.data.keyword.CloudDataCents_notm}}を使用することで、
+パブリック環境および専用環境にデプロイされたすべての {{site.data.keyword.IBM_notm}} Cloud リソースは、世界中にある {{site.data.keyword.CloudDataCent}} ロケーションからお客様が選択した場所でホストされます。 {{site.data.keyword.CloudDataCents_notm}} は、地域的冗長性、すべてのデータ・センターおよび PoP を接続するグローバル・ネットワーク・バックボーン、および厳格なセキュリティー管理とレポート作成を備えています。 {{site.data.keyword.CloudDataCents_notm}}を使用することで、
 {{site.data.keyword.IBM_notm}} は、最も要求の高い拡張、セキュリティー、コンプライアンス、およびデータ常駐のニーズを満たすことができます。
 
 {{site.data.keyword.IBM_notm}} では、以下を可能にします。
