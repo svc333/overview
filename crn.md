@@ -2,9 +2,9 @@
 
 copyright:
 
-  years: 2017, 2018
+  years: 2017, 2019
 
-lastupdated: "2018-11-05"
+lastupdated: "2019-01-04"
 
 ---
 
@@ -128,9 +128,9 @@ The value of the `scope` segment must be formatted as `{scopePrefix}`/`{id}`. Th
 
 The `service-instance` segment identifies the service instance uniquely. The format of the `service-instance` segment varies by service. Each service must document the format of their `service_instance` as part of their service metadata. Some services do not have instances because the instance is global and in this case the `service-instance` field will be blank.
 
-The `service-instance` must be alphanumeric, lower case, no spaces, or special characters other than '-' and '/'.
+The `service-instance` must be alphanumeric, lowercase, no spaces, or special characters other than '-' and '/'.
 
-As an example, a devops tool to track and plan work items can have a simple `GUID` instance id ("1234-5678-9012-3456") where the policy component of an autoscale group service can use a hierarchical naming convention and have a `service-id` segment of:
+As an example, a DevOps tool to track and plan work items can have a simple `GUID` instance ID ("1234-5678-9012-3456") where the policy component of an autoscale group service can use a hierarchical naming convention and have a `service-id` segment of:
 
 >`c7a27f55-d35e-4153-b044-8ca9155fc467/my-test-asg1/my-scaleout-policy`
 
@@ -147,7 +147,7 @@ The value of the `resource-type` and `resource` segments vary by service. A serv
 
 As an example, an image in the customer receipts container in an Object Storage service can have a `resource-type` of  `object` and a `resource_ value` of `CustomerReceipts/clientdinner.png`.
 
-The `resource-type` must be alphanumeric, lower case, no spaces or special characters other than '-'. A service can decide that the `resource-type` is optional, in which case it would be left blank.
+The `resource-type` must be alphanumeric, lowercase, no spaces or special characters other than '-'. A service can decide that the `resource-type` is optional, in which case it would be left blank.
 
 
 ## CRN Examples
