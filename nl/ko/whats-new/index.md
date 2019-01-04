@@ -4,7 +4,7 @@ copyright:
 
   years: 2015, 2018
 
-lastupdated: "2018-11-30"
+lastupdated: "2018-11-16"
 
 ---
 
@@ -20,70 +20,12 @@ lastupdated: "2018-11-30"
 ## {{site.data.keyword.Bluemix_notm}} 플랫폼
 {: #platform_category}
 
-
-### {{site.data.keyword.Bluemix_notm}}에 대한 새로운 지원 경험
-신규 기준일: 2018년 11월 30일
-{: #support}
-
-지원 센터를 통해 모든 {{site.data.keyword.Bluemix_notm}} 관련 문제를 해결할 수 있습니다. 랜딩 페이지에서 FAQ를 제공하므로 {{site.data.keyword.Bluemix_notm}}에 문의하지 않고도 질문에 대한 답변을 찾을 수 있습니다. 지원 담당자와 실시간으로 채팅할 수 있는 옵션도 있습니다. 이제 단일 위치에서 케이스를 관리할 수 있습니다. 케이스를 작성하거나 보거나 편집하려면 **지원** &gt; **케이스 관리**로 이동하십시오.
-
-지원 센터에서 [상태 페이지](https://cloud.ibm.com/status){: new_window} ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")를 찾을 수도 있습니다. {{site.data.keyword.Bluemix_notm}} 플랫폼, 인프라 및 주요 서비스에 영향을 미치는 주요 이벤트에 대한 모든 계획되지 않은 인시던트, 계획된 유지보수, 공지사항 및 보안 게시판 알림을 포함하도록 개선되었습니다. 지원 센터에서 **클라우드 상태 보기**를 클릭하십시오. 새로운 환경을 확인하려면 로그인한 후 [지원 센터](https://cloud.ibm.com/unifiedsupport/supportcenter){: new_window} ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")로 이동하십시오. 
-
-### {{site.data.keyword.Bluemix_notm}}의 통합 로그인, API 키, 사용자 및 액세스 관리
-신규 기준일: 2018년 11월 30일
-{: #useraccess}
-
-최신 업데이트를 통해 ID 유형에 관계없이 모든 사용자가 사용할 수 있는 단순화된 보안 로그인을 활용할 수 있습니다. IBM ID 또는 SoftLayer ID가 있는지에 관계없이 개선된 로그인 페이지에서 {{site.data.keyword.Bluemix_notm}} 콘솔에 빠르게 로그인할 수 있습니다. 또한 {{site.data.keyword.Bluemix_notm}}에서 보안 API 호출을 작성하고 IAM API 키 또는 IAM 액세스 토큰을 사용하여 CLI 로그인을 자동화할 수 있습니다. 
-
-이제 로그인하면 액세스(IAM) 페이지의 사용자 페이지에서 플랫폼 및 클래식 인프라 사용자를 포함한 모든 사용자를 볼 수 있습니다. 계정의 다른 사용자를 볼 수 있는 액세스 권한에 따라 계정 사용자, 클래식 인프라 사용자 또는 Cloud Foundry 조직별로 보기를 빠르게 필터링할 수 있습니다. 필터를 사용하여 이름, 이메일 또는 상태별로 사용자를 빠르게 찾을 수도 있습니다.
-
-이제 모든 사용자가 단일 콘솔에 있으므로 동일한 위치에서 모든 유형의 리소스에 대한 액세스를 관리할 수 있습니다. 액세스는 사용자로 시작하므로 목록에서 사용자를 선택하여 시작하십시오. 그런 다음, 액세스를 지정할 리소스의 유형에 따라 IAM 액세스 정책, Cloud Foundry 액세스 또는 클래식 인프라 권한 중에서 선택할 수 있습니다. IAM 액세스 정책을 지정하려는 경우 액세스 그룹을 작성하고 동일한 정책이 지정되어야 하는 모든 사용자를 동일한 액세스 그룹에 추가하여 액세스 관리 프로세스를 간소화하십시오.
-
-### 한 곳에서 모든 {{site.data.keyword.Bluemix_notm}} CLI 플러그인 문서 찾기
-신규 기준일: 2018년 11월 30일
-{: #cli}
-
-이제 한 위치에서 모든 {{site.data.keyword.Bluemix_notm}} CLI 플러그인 문서에 액세스하여 {{site.data.keyword.Bluemix_notm}} 플랫폼에서 검색 중인 CLI 명령을 더 쉽게 찾을 수 있습니다. [CLI 문서](/docs/cli/index.html#overview)의 참조 절을 확인하십시오.
-
-### 새 대시보드 및 리소스 목록 확인
-신규 기준일: 2018년 11월 30일
-{: #dash}
-
-최신 업데이트를 통해 모든 플랫폼 및 인프라 서비스를 한 곳에서 볼 수 있습니다. 로그인하면 새 대시보드를 즉시 확인할 수 있습니다. 카탈로그에서 계정에 리소스를 추가한 경우 리소스 목록을 사용하여 계정 리소스를 전체적으로 볼 수 있습니다. 다음은 표시되는 변경사항에 대한 몇 가지 세부사항입니다. 
-
-* 리소스, 유지보수, 상태, 앱, 지원, 사용량 및 사용자에 대한 요약을 볼 수 있도록 대시보드가 다시 디자인되었습니다.
-* 리소스 목록에서 리소스에 대한 세부사항을 찾을 수 있습니다. 리소스를 구성하기 위해 리소스에 태그를 지정하거나 세부사항 페이지에서 변경할 리소스를 선택할 수 있습니다.
-* 이제 모든 리소스를 한 곳에서 볼 수 있으므로 작성했고 리소스 목록 페이지에 표시될 것으로 예상하는 리소스를 빠르게 찾을 수 있도록 글로벌 검색을 추가했습니다. 
-* 카탈로그 결과도 검색할 수 있으므로 계정에 추가할 리소스를 빠르게 찾을 수 있습니다.  
-
-### 플랫폼 및 인프라 서비스에 대한 통합 계정, 청구 및 사용자 프로파일 정보
-신규 기준일: 2018년 11월 30일
-{: #profile}
-
-계정, 청구 및 프로파일 정보가 단순화되었습니다. 이제 통합 콘솔에서 모든 플랫폼 및 인프라 리소스에 대한 계정 정보를 볼 수 있습니다. 
-
-* 프로파일 및 설정 영역에는 모든 리소스 유형의 사용자 및 사용자의 이메일 알림 환경 설정에 대한 정보가 포함되어 있습니다. 
-* 계정 정보 영역에는 회사 또는 조직에 대한 정보, 계정 설정 및 리소스 그룹과 Cloud Foundry 조직에 대해 작업하기 위한 빠른 액세스가 포함되어 있습니다. 빠르게 시작하고 실행하는 데 도움이 되는 우수 사례를 찾을 수도 있습니다.
-* 계정의 청구 및 사용량 영역은 청구를 이해하고, 결제하고, 구독을 모니터하고, 견적서를 받고, 주문을 추적하고, 지출 알림을 설정하는 데 도움이 됩니다.
-
-### 태그를 사용하여 리소스 구성
-신규 기준일: 2018년 11월 30일
-{: #tag}
-
-이제 리소스를 관리하고 가장 관련성이 높은 리소스를 찾는 데 도움이 되도록 Cloud Object Storage와 같은 리소스에 태그를 추가할 수 있습니다. 예를 들어, 수백 개의 리소스가 있고 동일한 방식으로 결제되는 몇 개의 리소스를 구별하려는 경우 해당 리소스에 "costcenter:location01" 태그를 지정할 수 있습니다. 또는 반복적으로 몇 개의 리소스에 대해 작업하는 팀이 있는 경우 "team-blue"와 같은 태그를 사용할 수 있습니다. 리소스 목록을 태그별로 필터링하여 필요한 리소스를 빠르게 구성하고 찾을 수도 있습니다. 자세한 정보는 [태그에 대한 작업](/docs/resources/tagging_resources.html#tag)을 참조하십시오.
-
-### 비용 추정기를 사용하여 정확한 월별 비용 찾기
-신규 기준일: 2018년 11월 30일
-{: #cost-estimator}
-
-구매할 서비스를 결정하고 분석하는 데 도움이 되도록 비용 추정기를 사용할 수 있습니다. 이제 콘솔을 통해 보유하려는 각 서비스를 선택하고 사용하기 쉬운 도구로 모든 비용을 추가할 수 있습니다. 예상 데이터 사용량, 초당 검색 수, 초당 쓰기 수 및 초당 조회 수를 입력하여 월별 비용을 보다 정확하게 추정할 수 있습니다. 선택하는 각 카탈로그 서비스에 비용 추정기를 사용할 수 있습니다. 또는 콘솔 메뉴에서 비용 추정기 아이콘 ![추정기 아이콘](../../icons/Estimator.svg)을 클릭하여 예상 비용에 대한 요약을 가져올 수 있습니다. 자세한 정보는 [비용 추정](/docs/billing-usage/estimating_costs.html#cost)을 참조하십시오.
-
 ### {{site.data.keyword.cloud_notm}}에 대한 글로벌 위치 이름 업데이트함
 신규 기준일: 2018년 11월 1일
 
 {{site.data.keyword.cloud_notm}}에서는 지속적으로 글로벌 가용성 풋프린트를 확장하면서 전 세계적으로 분포된 지형, 지역, 데이터 센터의 이해 가능하고 일관된 계층 구조를 더 잘 지원하도록 위치 이름 지정 구조를 업데이트하고 있습니다. 현재 글로벌 지역에 친숙하다면 미국 남부 및 시드니와 같은 이름을 이해할 수 있습니다. 이러한 위치 이름을 실제로 데이터 센터가 존재하는 도시의 이름에 맞추고 있습니다.
 
-현재 프로그래밍 ID는 변경되지 않았으므로, API 퍼스펙티브에서는 영향을 받지 않습니다. 다음에 이전 위치 이름과 새 위치 이름을 보여주는 표가 있습니다. 데이터 센터 및 지역에 대한 전체 목록과 자세한 정보는 [서비스 가용성](/docs/resources/services_region.html)을 참조하십시오.
+현재 프로그래밍 ID는 변경되지 않았으므로, API 퍼스펙티브에서는 영향을 받지 않습니다. 다음에 이전 위치 이름과 새 위치 이름을 보여주는 표가 있습니다. 데이터 센터 및 지역에 대한 전체 목록과 자세한 정보는 [서비스 가용성](docs/resources/services_region.html)을 참조하십시오.
 
 | 이전 위치 표시 이름 | 새 위치 표시 이름 | 코드 |
 |----------|---------|---------|
@@ -360,7 +302,7 @@ IAM(Identity and Access Management)은 이제 서비스 ID를 작성할 수 있�
 ### 가상 서버 기능
 신규 기준일: 2018년 11월 16일
 
-다음 기능은 현재 {{site.data.keyword.BluVirtServers_full}} 오퍼링에 사용 가능합니다.
+다음 기능은 현재 {{site.data.keyword.BluVirtServers_full}} 오퍼링에 사용 가능합니다. 
 
 #### 인스턴스를 사용하지 않을 때 비용 청구를 일시중단하십시오.
 사용량에 대해서만 지불하시겠습니까? 이제 가상 서버 인스턴스에 대한 비용 청구를 일시중단할 수 있습니다. 비용 청구 일시중단 기능은 SAN 지원 스토리지를 포함하여 시간별 공용 특성 크기가 있는 가상 서버 인스턴스에서 사용 가능합니다. 비용 청구 일시중단 기능을 지원하는 가상 서버의 작동을 중단할 때 특정 컴퓨팅 리소스에 대한 비용을 축적하지 않습니다. 서버의 작동이 중단되면 비용 청구가 자동으로 중지됩니다. 비용 청구 일시 중단 기능을 사용하면 비용이 절감되고 리소스가 다시 필요할 때 가상 서버를 다시 프로비저닝할 필요가 없게 됩니다. 자세한 정보는 [비용 청구 일시중단 정보](/docs/vsi/vsi_about_suspend.html) 또는 {{site.data.keyword.cloud_notm}} [블로그 게시물 ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")](https://www.ibm.com/blogs/bluemix/2018/10/suspend-billing-1-minute-granularity-virtual-servers/){: new_window}을 참조하십시오.
@@ -431,35 +373,10 @@ Liberty 빌드팩 v3.9는 새 월별 Liberty 런타임 버전을 제공하고 �
 ## 서비스
 {: #services_category}
 
-### Citrix NetScaler VPX 버전 12.1
-신규 기준일: 2018년 11월 21일
-{: #vpx121}
-
-#### 여러 IP 주소가 있는 가상 서버
-이제 여러 개의 비연속/연속 VIP IPv4 및 IPv6 주소가 있는 단일 로드 밸런싱 가상 서버를 작성할 수 있습니다. 가상 서버에 바인드된 각 VIP 주소는 개별 가상 서버로 처리됩니다.
-
-이 기능에 대한 자세한 정보는 Citrix 문서 [Multiple IP virtual servers ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")](https://docs.citrix.com/en-us/netscaler/12-1/load-balancing/load-balancing-customizing/multi-ip-virtual-servers.html){: new_window}를 참조하십시오.
-
-#### SSL
-SSL 연결에 대해 다음 업데이트가 적용되었습니다.
- 
-* DEFAULT_BACKEND 암호 그룹에서 취약한 암호 제거 
-* Thales nShield® 외부 HSM의 프론트 엔드에서 ECDHE 암호 지원
-* SafeNet 네트워크 외부 HSM에서 ECDHE 암호 지원
-* SSLv2 제거: NetScaler VPX 어플라이언스는 릴리스 12.1부터 SSLv2를 지원하지 않습니다.
-
-12.1 SSL 업데이트에 대한 세부사항은 [Citrix 12.1 릴리스 정보 ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")](https://docs.citrix.com/en-us/netscaler/12-1/downloads/release-notes-12-1-48-13.html){: new_window}를 참조하십시오.
-
-#### GSLB에 대한 서비스 그룹 지원
-이제 GSLB에 대한 IP 주소 기반 서비스 그룹, 도메인 이름 기반 서비스 그룹 또는 도메인 이름 기반 오토스케일 서비스 그룹을 구성할 수 있습니다. 이제 서비스 그룹을 단일 서비스처럼 쉽게 관리하고 서비스 그룹을 가상 서버에 바인드하며 서비스를 그룹에 추가할 수도 있습니다.
-
-GSLB 서비스 그룹에 대한 자세한 정보는 Citrix 문서 [Configuring a GSLB service group ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")](https://docs.citrix.com/en-us/netscaler/12/global-server-load-balancing/configure/configuring-a-gslb-service-group.html){: new_window}을 참조하십시오.
-
-
 ### 주요 {{site.data.keyword.conversationshort}} 업데이트
 신규 기준일: 2018년 11월 9일
 
-{{site.data.keyword.conversationshort}}에는 새로운 외양과 추가된 기능이 있습니다. 챗봇을 작동시키는 기계 학습 모델 훈련 데이터를 위한 컨테이너인 *작업공간*이라고 하는 아티팩트는 *대화 상자 스킬*로 대체되었습니다. 이제 대화 상자 스킬을 보조자에 추가하여 좀 더 쉽게 배치할 수 있습니다. 새 보조자 계층은 사용자와 스킬 간의 메시지 구성을 관리합니다. 최소한의 노력으로 인기 있는 메시징 채널에 대한 대화 상자 스킬을 공개하기 위해 기본 제공 통합을 보조자에 추가할 수 있습니다. {{site.data.keyword.conversationshort}}의 문서는 새 위치로 이동했습니다. 자세한 정보는 [제품 문서](/docs/services/assistant/index.html)를 참조하십시오.
+{{site.data.keyword.conversationshort}}에는 새로운 외양과 추가된 기능이 있습니다. 챗봇을 작동시키는 기계 학습 모델 훈련 데이터를 위한 컨테이너인 *작업공간*이라고 하는 아티팩트는 *대화 상자 스킬*로 대체되었습니다. 이제 대화 상자 스킬을 보조자에 추가하여 좀 더 쉽게 배치할 수 있습니다. 새 보조자 계층은 사용자와 스킬 간의 메시지 구성을 관리합니다. 최소한의 노력으로 인기 있는 메시징 채널에 대한 대화 상자 스킬을 공개하기 위해 기본 제공 통합을 보조자에 추가할 수 있습니다. {{site.data.keyword.conversationshort}}의 문서는 새 위치로 이동했습니다. 자세한 정보는 [제품 문서](/docs/services/assistant/index.html)를 참조하십시오. 
 
 
 ### Terraform 및 Ansible을 사용하여 인프라 및 앱 배치 자동화
@@ -746,7 +663,7 @@ Python 및 Java 애플리케이션의 경우 소스 파일 위치는 @spl_note �
 ### Virtual Router Appliance를 위한 Brocade 운영 체제 버전 18.x
 신규 기준일: 2018년 7월 25일
 
-이제 Brocade OS의 버전 18.x는 Virtual Router Appliance에서 사용 가능합니다. 기타 새 기능 중에서 이 버전은 Spectre 보안 위반에 대한 조치방안을 제공합니다. 
+이제 Brocade OS의 버전 18.x는 Virtual Router Appliance에서 사용 가능합니다. 기타 새 기능 중에서 이 버전은 Spectre 보안 위반에 대한 조치방안을 제공합니다.  
 
 18.x VRA의 새 기능은 다음 주제에서 설명됩니다.
 
@@ -755,7 +672,7 @@ Python 및 Java 애플리케이션의 경우 소스 파일 위치는 @spl_note �
 * [접두부 기반 IPsec으로 NAT 사용](/docs/infrastructure/virtual-router-appliance/vra-nat.html)
 * [VFP 인터페이스 문제점 해결](/docs/infrastructure/virtual-router-appliance/vra-vfp-troubleshooting.html)
 
-Vyatta 5400에서 마이그레이션하는 경우 전체 OS 다시 로드의 [일반 프로시저](/docs/infrastructure/virtual-router-appliance/upgrade-os.html)를 통해 18.x로 업그레이드하는 것이 가장 좋습니다.
+Vyatta 5400에서 마이그레이션하는 경우 전체 OS 다시 로드의 [일반 프로시저](/docs/infrastructure/virtual-router-appliance/upgrade-os.html)를 통해 18.x로 업그레이드하는 것이 가장 좋습니다. 
 
 Vyatta 5400과 Virtual Router Appliance 간에 기능의 단순 일대일 맵핑이 없으므로 VRA를 위한 기준선 구성 작성이 도움이 됩니다. IBM 파트너인 WanClouds는 이 프로세스에 도움을 줄 수 있고 VRA의 Vyatta 5400과 유사한 기능 작성에 대한 지시사항을 제공합니다.
 
@@ -884,3 +801,4 @@ IBM Data Science Experience(DSX)에서 Jupyter 노트북을 사용하여 샘플 
 노트북 및 Spark에 대해 작업할 새 플랫폼은 Data Science Experience입니다. [Data Science Experience](http://datascience.ibm.com/)에 등록하여 노트북을 작성하고 기타 데이터 과학자들과 경험을 공유해 보십시오.
 
 {{site.data.keyword.sparks}}에서 노트북에 대해 작업한 경우 노트북을 Data Science Experience에 마이그레이션할 수 있습니다. 자세한 정보는 [노트북 문서 마이그레이션](/docs/services/AnalyticsforApacheSpark/index-gentopic2.html#migration_to_dsx)을 참조하십시오.
+

@@ -4,7 +4,7 @@ copyright:
 
   years: 2018
 
-lastupdated: "2018-11-01"
+lastupdated: "2018-11-15"
 
 ---
 
@@ -35,10 +35,10 @@ A ciascuna ubicazione viene assegnato un prefisso univoco. {{site.data.keyword.c
 
 | **Ubicazione** | **Endpoint API** |
 |-----------------|-------------------|
-| Dallas | api.us-south.bluemix.net |
+| Dallas | api.ng.bluemix.net |
 | Sydney | api.au-syd.bluemix.net |
-| Frankfurt | api.eu-de.bluemix.net |
-| London | api.eu-gb.bluemix.net |
+| Francoforte | api.eu-de.bluemix.net |
+| Londra | api.eu-gb.bluemix.net |
 | Washington DC | api.us-east.bluemix.net |
 | Tokyo | api.jp-tok.bluemix.net |
 {: caption="Tabella 1. Elenco di ubicazioni {{site.data.keyword.cloud_notm}}" caption-side="top"}

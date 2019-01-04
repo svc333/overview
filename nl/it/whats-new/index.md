@@ -4,7 +4,7 @@ copyright:
 
   years: 2015, 2018
 
-lastupdated: "2018-11-13"
+lastupdated: "2018-11-16"
 
 ---
 
@@ -21,7 +21,7 @@ Rimani aggiornato con le nuove funzioni e i nuovi servizi disponibili in {{site.
 {: #platform_category}
 
 ### Nomi di ubicazioni globali aggiornati per {{site.data.keyword.cloud_notm}}
-Novità a partire dal: 1° novembre 2018
+Novità a partire dal 1° novembre 2018
 
 Poiché {{site.data.keyword.cloud_notm}} continua ad espandere il nostro mercato di disponibilità globale, stiamo aggiornando la nostra struttura di denominazione dell'ubicazione per supportare in modo migliore una gerarchia comprensibile, coerente di geografie, regioni e data center di tutto il mondo. Se hai familiarità con le nostre regioni globali correnti, riconoscerai nomi come Stati Uniti Sud e Sydney. Stiamo allineando questi nomi di ubicazione ai nomi della città in cui i data center si trovano fisicamente.
 
@@ -31,14 +31,14 @@ Per ora gli ID programmatici non stanno cambiando, quindi non c'è un impatto da
 |----------|---------|---------|
 | Stati Uniti Sud | Dallas | us-south | 
 | Stati Uniti Est | Washington DC | us-east |
-| Regno Unito | London | eu-gb |
-| Germania | Frankfurt | eu-de |
+| Regno Unito | Londra | eu-gb |
+| Germania | Francoforte | eu-de |
 | Sydney | Sydney | au-syd |
 | Asia Pacifico Nord | Tokyo | jp-tok |
 {: caption="Tabella 1. Nuovi nomi ubicazione" caption-side="top"}
 
 ### Assegna l'accesso di gestione dell'account ad altri
-Novità a partire dal: 30 ottobre 2018
+Novità a partire dal 30 ottobre 2018
 
 Con {{site.data.keyword.cloud_notm}} IAM (Identity and Access Management), puoi delegare le attività comuni che completi in quanto amministratore dell'account a un altro utente nel tuo account. Creando una politica di accesso per uno o per tutti i servizi di gestione dell'account disponibili, puoi facilmente delegare responsabilità come invito e rimozione di utenti, gestione dei gruppi di accesso, gestione degli ID servizio, manutenzione dei servizi del catalogo privati e anche il monitoraggio della fatturazione e la traccia dell'utilizzo. Ci sono quattro singoli servizi di gestione dell'account e un'opzione per tutti i servizi che puoi utilizzare per impostare le politiche di accesso:
 
@@ -63,22 +63,22 @@ Novità a partire dal 12 luglio 2018
 Puoi creare delle regole dinamiche per aggiungere automaticamente gli utenti federati ai gruppi di accesso in base a specifici attributi di identità. Quando i tuoi utenti eseguono l'accesso con un ID federato, i dati dal provider di identità associano dinamicamente i tuoi utenti a un gruppo di accesso in base alle regole da te impostate. Per ulteriori informazioni, vedi [Creazione di regole dinamiche per i gruppi di accesso](/docs/iam/accessgroup_rules.html#creating-dynamic-rules-for-access-groups).
 
 ### Proteggi i tuoi ID servizio e chiavi API
-Novità a partire dal: 1° giugno 2018
+Novità a partire dal 1° giugno 2018
 
 Per evitare situazioni in cui l'ID servizio o la chiave API vengono eliminati causando interruzioni, hai la possibilità di bloccare gli ID servizio e le chiavi API utilizzando l'interfaccia utente o la CLI. Il blocco di un ID servizio impedisce inoltre la modifica, l'eliminazione o l'assegnazione di eventuali politiche di accesso e la creazione o l'eliminazione di qualsiasi chiave API associata all'ID servizio. Per ulteriori informazioni, vedi [Blocco di un ID servizio](/docs/iam/serviceid.html#locking-a-service-id) e [Blocco di una chiave API](/docs/iam/userid_keys.html#locking-an-api-key).
 
 ### Aggiorna il tuo account Lite a un account Sottoscrizione
-Novità a partire dal: 31 maggio 2018
+Novità a partire dal 31 maggio 2018
 
 Puoi ora aggiornare il tuo account Lite a un account Sottoscrizione direttamente dalla console {{site.data.keyword.Bluemix_notm}}. Con un account Sottoscrizione, puoi utilizzare sia le offerte di piattaforma che di infrastruttura e usufruire dei prezzi scontati effettuando una spesa mensile e un impegno a termine. Puoi anche evitare sorprese con la fatturazione fissa su una pianificazione di pagamento mensile ma con la flessibilità di ordinare più o meno in base alle tue esigenze. Per ulteriori informazioni, vedi [Domande frequenti sull'account Sottoscrizione](/docs/billing-usage/billing-faq.html#subscription-faqs). 
 
 ### Cambiamento di marchio della CLI {{site.data.keyword.Bluemix_notm}}
-Novità a partire dal: 15 maggio 2018
+Novità a partire dal 15 maggio 2018
 
 I comandi della CLI {{site.data.keyword.Bluemix_notm}} sono stati modificati da `bluemix` e `bx` in **ibmcloud**. Tuttavia, puoi ancora utilizzare i comandi della CLI `bluemix` e `bx` finché non vengono rimossi in una data successiva. Al momento non esiste un nome breve, ma solo il nome completo **ibmcloud**. 
 
 ### Autenticazione multifattore per il tuo account {{site.data.keyword.Bluemix_notm}}
-Novità a partire dal: 02 maggio 2018
+Novità a partire dal 02 maggio 2018
 
 L'autenticazione multifattore (MFA, multi-factor authentication) aggiunge un ulteriore livello di sicurezza al tuo account richiedendo che tutti gli utenti forniscano un passcode monouso con scadenza oltre ai loro ID IBM e password standard durante l'accesso. Questa è anche comunemente nota come autenticazione a due fattori (2FA, two-factor authentication). La MFA viene abilitata per ogni singolo account e, una volta attivata, tutti gli utenti nell'account devono eseguire l'accesso utilizzando la misura di sicurezza aggiuntiva.
 
@@ -299,14 +299,22 @@ Con gli ultimi aggiornamenti e miglioramenti di aprile, puoi utilizzare le segue
 ## Calcola
 {: #compute_category}
 
-### Crea cluster a più zone in {{site.data.keyword.containerlong_notm}}
-Novità a partire dal 10 luglio 2018
+### Funzioni del server virtuale
+Novità a partire dal 16 novembre 2018
 
-Vuoi migliorare la disponibilità di cluster e applicazioni? Ora puoi estendere il tuo cluster su più zone in aree metropolitane selezionate. per ulteriori informazioni, vedi [Creazione di cluster multizona in {{site.data.keyword.containershort_notm}}](cs_clusters.html#multizone).
+Le seguenti funzioni sono attualmente disponibili per l'offerta {{site.data.keyword.BluVirtServers_full}}.
 
-### {{site.data.keyword.containerlong_notm}} fornisce l'accesso al dashboard Kubernetes
+#### Sospendi la fatturazione quando non utilizzi le istanze
+Vuoi pagare solo per quello che usi? Puoi ora sospendere la fatturazione sulle istanze del server virtuale. La funzione di sospensione della fatturazione è disponibile sulle istanze del server virtuale che hanno dimensioni di carattere pubblico orario con archiviazione supportata da SAN. Quando spegni un server virtuale che supporta la funzione di sospensione della fatturazione, non accumuli costi per determinate risorse di calcolo. La fatturazione si interrompe automaticamente quando il server viene spento. La funzione di sospensione della fatturazione ti aiuta a ridurre i costi e ti evita di dover rieseguire il provisioning di un server virtuale quando hai di nuovo bisogno delle sue risorse. Per ulteriori informazioni, vedi [About suspend billing](/docs/vsi/vsi_about_suspend.html) o il [post del blog ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")](https://www.ibm.com/blogs/bluemix/2018/10/suspend-billing-1-minute-granularity-virtual-servers/){: new_window} {{site.data.keyword.cloud_notm}}.
 
-{{site.data.keyword.containerlong_notm}} ora supporta l'accesso diretto al dashboard Kubernetes tramite la console {{site.data.keyword.Bluemix_notm}}. Questo percorso semplificato al dashboard offre un'esperienza utente migliorata per la gestione dei cluster e la visualizzazione delle risorse. Scopri ulteriori dettagli nel [blog di {{site.data.keyword.Bluemix_notm}}](https://www.ibm.com/blogs/bluemix/2018/04/kubernetes-dashboard-access/){: new_window} ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno").
+#### Riserva le risorse per future istanze del server virtuale
+È ora disponibile l'offerta di istanze riservate di {{site.data.keyword.BluVirtServers_full}}. Questa è un'ottima opzione se vuoi risorse garantite per le distribuzioni future e risparmi sui costi. Puoi scegliere tra una durata del contratto di uno o tre anni per la tua capacità riservata. All'interno di tale capacità riservata, puoi riservare fino a 20 istanze del server virtuale di una dimensione specifica ed eseguire il provisioning di tali istanze quando ti servono. Ti viene garantita questa capacità all'interno del POD e del data center di tua scelta per tutta la durata del contratto. Per ulteriori informazioni, vedi [Reserved virtual servers](/docs/vsi/vsi_about_reserved.html).
+
+#### Importa immagini dall'istanza del servizio {{site.data.keyword.cos_full_notm}} all'infrastruttura {{site.data.keyword.cloud_notm}}
+L'infrastruttura {{site.data.keyword.cloud_notm}} ora interagisce con il servizio {{site.data.keyword.cos_full_notm}} fornito sulla console {{site.data.keyword.cloud_notm}}. {{site.data.keyword.cos_full_notm}} offre il plug-in di trasferimento ad alta velocità Aspera che riduce notevolmente la quantità di tempo necessario per caricare un'immagine di grandi dimensioni. Dopo che le immagini vengono caricate in {{site.data.keyword.cos_full_notm}}, puoi [importare le immagini](/docs/infrastructure/image-templates/import-image.html) nell'infrastruttura {{site.data.keyword.cloud_notm}} da {{site.data.keyword.cos_full_notm}}. Puoi anche [esportare le immagini](/docs/infrastructure/image-templates/export-image-ibm-cos.html) dall'infrastruttura {{site.data.keyword.cloud_notm}} in {{site.data.keyword.cos_full_notm}}.
+
+#### Gruppi di posizionamento per le istanze del server virtuale
+I gruppi di posizionamento sono ora disponibili per {{site.data.keyword.BluVirtServers_full}}. Con i gruppi di posizionamento, puoi utilizzare istanze pubbliche per creare un'elevata disponibilità all'interno di un data center o fornire un ulteriore livello di tolleranza agli errori all'interno di una distribuzione più ampia. Per ulteriori informazioni, vedi [Placement groups](/docs/vsi/vsi_placegroup.html). 
 
 ### Ultimi aggiornamenti per i pacchetti di build
 
@@ -322,6 +330,23 @@ Visita le seguenti pagine per un elenco cumulativo degli ultimi aggiornamenti:
 {{site.data.keyword.containerlong_notm}} ha lanciato la sua architettura Kubernetes nel maggio 2017. L'architettura precedente per i gruppi di contenitori singoli e scalabili è ora [completamente obsoleta dal 5 dicembre 2017](https://www.ibm.com/blogs/bluemix/2017/07/deprecation-single-scalable-group-container-service-bluemix-public/){: new_window} ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno").  
 
 [Consulta la documentazione per informazioni su come iniziare con l'ambiente nativo di Kubernetes su {{site.data.keyword.Bluemix_notm}}](/docs/containers/container_index.html). Se hai delle domande, puoi pubblicarle in Slack all'indirizzo https://ibm-container-service.slack.com/.
+
+
+### {{site.data.keyword.containerlong_notm}} viene ora fornito con master Kubernetes altamente disponibili
+Novità a partire dal 7 novembre 2018
+
+Ottieni ancora più disponibilità per il tuo cluster con la nuova funzione di master Kubernetes altamente disponibili. I master Kubernetes altamente disponibili sono configurati con più repliche per il server API Kubernetes, etcd, il programma di pianificazione (scheduler) di Kubernetes e il controller distribuiti su host fisici separati. Quando crei un cluster che esegue Kubernetes versione 1.12, 1.11 o 1.10, il tuo master Kubernetes viene configurato come altamente disponibile per impostazione predefinita. Per abilitare questa funzione nei cluster esistenti che eseguono una di queste versioni Kubernetes, devi completare la [procedura di preparazione](/docs/containers/cs_versions.html#110_ha-masters).
+
+### Crea cluster a più zone in {{site.data.keyword.containerlong_notm}}
+Novità a partire dal 10 luglio 2018
+
+Vuoi migliorare la disponibilità di cluster e applicazioni? Ora puoi estendere il tuo cluster su più zone in aree metropolitane selezionate. per ulteriori informazioni, vedi [Creazione di cluster multizona in {{site.data.keyword.containershort_notm}}](cs_clusters.html#multizone).
+
+### {{site.data.keyword.containerlong_notm}} fornisce l'accesso al dashboard Kubernetes
+Novità a partire dal 18 aprile 2018
+
+{{site.data.keyword.containerlong_notm}} ora supporta l'accesso diretto al dashboard Kubernetes tramite la console {{site.data.keyword.Bluemix_notm}}. Questo percorso semplificato al dashboard offre un'esperienza utente migliorata per la gestione dei cluster e la visualizzazione delle risorse. Scopri ulteriori dettagli nel [blog di {{site.data.keyword.Bluemix_notm}}](https://www.ibm.com/blogs/bluemix/2018/04/kubernetes-dashboard-access/){: new_window} ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno").
+
 
 ### Nuovo pacchetto di build Liberty for Java v3.11
 Novità a partire dal 17 luglio 2017
@@ -348,9 +373,14 @@ Il pacchetto di build Liberty v3.9 fornisce una nuova versione di runtime Libert
 ## Servizi
 {: #services_category}
 
+### Aggiornamento principale di {{site.data.keyword.conversationshort}}
+Novità a partire dal 9 novembre 2018
+
+{{site.data.keyword.conversationshort}} ha un nuovo aspetto e funzioni aggiunte. La risorsa nota come *spazio di lavoro*, che è un contenitore per i dati di training del modello di machine learning che alimentano il tuo chatbot, è stata sostituita da una *capacità di dialogo*. Ora è più facile da distribuire aggiungendo la tua capacità di dialogo a un assistente. Il nuovo livello di assistente gestisce l'orchestrazione dei messaggi tra l'utente e la tua capacità. Puoi aggiungere integrazioni integrate all'assistente per pubblicare la tua capacità di dialogo sui popolari canali di messaggistica con il minimo sforzo. La documentazione di {{site.data.keyword.conversationshort}} è stata spostata in una nuova posizione. Per ulteriori informazioni, consulta la [documentazione del prodotto](/docs/services/assistant/index.html).
+
 
 ### Automatizza le distribuzioni di infrastruttura e applicazioni con Terraform e Ansible
-Novità a partire dal: 2 novembre 2018
+Novità a partire dal 2 novembre 2018
 
 Terraform e Ansible sono software open source che puoi utilizzare per automatizzare la distribuzione della tua soluzione cloud dall'inizio alla fine. Con Terraform, puoi specificare i componenti della tua infrastruttura {{site.data.keyword.Bluemix_notm}} e creare rapidamente ambienti cloud complessi e a più livelli per abilitare IaC (Infrastructure as Code). Usa quindi Ansible per connetterti ai tuoi host di elaborazione sulla rete privata per distribuire la tua applicazione, creare servizi, eseguire script o definire configurazioni. 
 
@@ -391,7 +421,7 @@ E molto altro ancora!
 Per iniziare, vedi la [documentazione {{site.data.keyword.security-advisor_short}}](/docs/services/security-advisor/index.html).
 
 ### Introduzione alla disponibilità generale di {{site.data.keyword.iva_full_notm}}
-Novità a partire dal: 26 giugno 2018
+Novità a partire dal 26 giugno 2018
 
 [{{site.data.keyword.iva_full}}](https://console.bluemix.net/catalog/services/voice-agent-with-watson)![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno") è ora generalmente disponibile. Puoi creare un agent vocale cognitivo basato sui servizi Watson con cui i clienti possono parlare al telefono. Con l'intelligenza artificiale Watson nella sua dorsale, il tuo agent vocale può comunicare in modo colloquiale, gestendo interazioni complesse e risolvendo le chiamate dei clienti all'interno dell'agent vocale.
 
@@ -405,7 +435,7 @@ Questa release introduce le seguenti nuove funzioni:
 Per iniziare, vedi la documentazione [{{site.data.keyword.iva_short}}](/docs/services/voice-agent/getting-started.html).
 
 ### {{site.data.keyword.streaminganalyticsshort}} introduce dei nuovi piani di servizio con un'infrastruttura basata sui contenitori
-Novità a partire dal: 20 aprile 2018
+Novità a partire dal 20 aprile 2018
 
 {{site.data.keyword.streaminganalyticsshort}} è ora in esecuzione su un'infrastruttura basata sui contenitori Kubernetes che fornisce al servizio vantaggi da un punto di vista di sicurezza e disponibilità.
  
@@ -618,7 +648,7 @@ Il servizio {{site.data.keyword.loganalysisfull}} fornisce i servizi di raccolta
 
 * Scegli la quantità di log che puoi ricercare al giorno.  
 
-    Sono disponibili diversi piani che puoi utilizzare per ricercare fino a 500MB,  2GB, 5GB e 10GB di log al giorno.
+    Sono disponibili diversi piani che puoi utilizzare per ricercare fino a 500 MB, 2 GB, 5 GB e 10 GB di log al giorno.
 
 * Crea dashboard riutilizzabili e rendili interattivi.
 
@@ -629,6 +659,24 @@ Il servizio {{site.data.keyword.loganalysisfull}} fornisce i servizi di raccolta
     Per il servizio {{site.data.keyword.loganalysisshort}} con contenitori singoli e a gruppi e i per servizi {{site.data.keyword.IBM_notm}} Cloud Foundry, puoi accedere al servizio dall'interfaccia utente di {{site.data.keyword.Bluemix_notm}}.
 
 Per ulteriori informazioni sul servizio {{site.data.keyword.loganalysisshort}}, vedi [Getting started with {{site.data.keyword.loganalysisfull}}](/docs/services/CloudLogAnalysis/index.html#getting-started-with-ibm-cloud-log-analysis) e [{{site.data.keyword.loganalysisshort}} overview](/docs/services/CloudLogAnalysis/log_analysis_ov.html#log_analysis_ov).
+
+### Sistema operativo Brocade versione 18.x per Virtual Router Appliance
+Novità a partire dal 25 luglio 2018
+
+La versione 18.x del sistema operativo Brocade è ora disponibile per Virtual Router Appliance. Tra le altre nuove funzioni, questa versione fornisce una correzione per la violazione della sicurezza Spectre. 
+
+Le nuove funzioni di VRA 18.x sono discusse nei seguenti argomenti:
+
+* [How to Set up an IPsec Tunnel that Works with Zone Firewalls](/docs/infrastructure/virtual-router-appliance/vra-ipsec.html)
+* [Configuring a VFP interface with IPsec and Zone Firewalls](/docs/infrastructure/virtual-router-appliance/vra-vfp.html)
+* [Using NAT with prefix based IPsec](/docs/infrastructure/virtual-router-appliance/vra-nat.html)
+* [Troubleshooting Your VFP Interface](/docs/infrastructure/virtual-router-appliance/vra-vfp-troubleshooting.html)
+
+Se stai eseguendo la migrazione da Vyatta 5400, il modo migliore per eseguire l'aggiornamento a 18.x è la [normale procedura](/docs/infrastructure/virtual-router-appliance/upgrade-os.html) di ricaricamento completo del sistema operativo.
+
+Poiché non esiste una semplice associazione uno a uno delle funzionalità tra Vyatta 5400 e Virtual Router Appliance, è utile creare una configurazione di base per VRA. Un partner IBM, WanClouds, può aiutarti in questo processo e fornire indicazioni sulla creazione di funzionalità simili a Vyatta 5400 sul tuo VRA.
+
+Per ulteriori informazioni sui problemi comuni riscontrati durante questo processo di aggiornamento, fai riferimento alla nostra [documentazione aggiuntiva](/docs/infrastructure/virtual-router-appliance/migration-issues.html#vyatta-5400-common-migration-issues).
 
 ### IBM dashDB for Analytics è stato rinominato
 Novità a partire dal 18 luglio 2017

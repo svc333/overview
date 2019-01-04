@@ -4,14 +4,14 @@ copyright:
 
   years: 2015, 2018
 
-lastupdated: "2018-11-30"
+lastupdated: "2018-11-16"
 
 ---
 
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
 
-# O que há de novo no {{site.data.keyword.Bluemix_notm}}?
+# O que há de novo no {{site.data.keyword.Bluemix_notm}}
 {: #whatsnew}
 
 Mantenha-se atualizado com os novos recursos e serviços que estão disponíveis no {{site.data.keyword.Bluemix}}, para que você aproveite ao máximo sua experiência com o {{site.data.keyword.Bluemix_notm}}. As atualizações são organizadas nestas categorias: [Plataforma do {{site.data.keyword.Bluemix_notm}}](index.html#platform_category), [{{site.data.keyword.Bluemix_local_notm}}, {{site.data.keyword.Bluemix_dedicated_notm}}](index.html#dedicatedandlocal), [Cálculo](index.html#compute_category) e [Serviços](index.html#services_category).
@@ -19,103 +19,6 @@ Mantenha-se atualizado com os novos recursos e serviços que estão disponíveis
 
 ## Plataforma {{site.data.keyword.Bluemix_notm}}
 {: #platform_category}
-
-
-### Nova experiência de suporte para o {{site.data.keyword.Bluemix_notm}}
-Novo a partir de: 30 de novembro de 2018
-{: #support}
-
-Com o centro de suporte, é possível trabalhar para resolver todos os problemas relacionados ao {{site.data.keyword.Bluemix_notm}}. A
-página de entrada fornece as perguntas mais frequentes, portanto, é possível localizar a resposta para a sua pergunta
-sem mesmo entrar em contato com o {{site.data.keyword.Bluemix_notm}}. Você também tem a opção de bate-papo em
-tempo real com um representante do suporte. Agora, os seus casos podem ser gerenciados por meio de uma única localização. Acesse **Suporte** &gt; **Gerenciar casos** para criar, visualizar ou editar os casos.
-
-Também é possível localizar a [página Status](https://cloud.ibm.com/status){: new_window}
-![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo") por meio do centro de suporte. Ela
-foi aprimorada para incluir todos os incidentes não planejados, a manutenção planejada, os comunicados e as notificações
-de boletim de segurança sobre os principais eventos que afetam a plataforma, a infraestrutura e os principais serviços do {{site.data.keyword.Bluemix_notm}}. Clique
-em **Visualizar status da nuvem** por meio do centro de suporte. Para conferir a nova experiência,
-efetue login e acesse o [Centro de suporte](https://cloud.ibm.com/unifiedsupport/supportcenter){: new_window} ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo"). 
-
-### Login unificado, chaves de API e gerenciamento de usuário e de acesso no {{site.data.keyword.Bluemix_notm}}
-Novo a partir de: 30 de novembro de 2018
-{: #useraccess}
-
-Com nossas atualizações mais recentes, é possível tirar proveito de um login seguro simplificado que está disponível para todos os usuários, independentemente do seu tipo de ID. Se
-você tiver um IBMid ou um ID do SoftLayer, será possível efetuar login rapidamente no console do {{site.data.keyword.Bluemix_notm}} por meio de nossa página de login aprimorada. Também
-é possível fazer chamadas de API seguras no {{site.data.keyword.Bluemix_notm}} e automatizar seu login da CLI usando uma chave de API do IAM ou um token de acesso do IAM. 
-
-Depois de ter efetuado login, você verá que agora é possível ver todos os usuários, incluindo os usuários da plataforma
-e da infraestrutura clássica por meio da página Usuários na IU de Acessar (IAM). Dependendo de seu acesso para
-visualizar outros usuários na conta, será possível filtrar a sua visualização rapidamente por usuários da conta, usuários
-da infraestrutura clássica ou organização do Cloud Foundry. Também é possível usar os filtros para localizar usuários rapidamente por nome, e-mail ou status.
-
-Agora que todos os seus usuários estão em um único console, é possível gerenciar seu acesso a todos os tipos de recursos
-da mesma localização. O acesso começa com o usuário, portanto, basta iniciar selecionando um usuário em sua lista. Em seguida, dependendo de qual tipo de recurso ao qual você deseja designar acesso, é possível escolher entre as políticas de acesso do IAM, o acesso do Cloud Foundry ou as permissões de infraestrutura clássica. Se
-você quer apenas designar políticas de acesso do IAM, tente criar um grupo de acesso para simplificar
-o processo de gerenciamento de acesso incluindo todos os usuários no mesmo grupo de acesso que precisa das mesmas políticas designadas.
-
-### Localize toda a documentação do plug-in da CLI do {{site.data.keyword.Bluemix_notm}} em um lugar
-Novo a partir de: 30 de novembro de 2018
-{: #cli}
-
-Agora é possível acessar toda a documentação do plug-in da CLI do {{site.data.keyword.Bluemix_notm}} em um
-lugar, facilitando a localização de qualquer comando da CLI que você esteja procurando na plataforma {{site.data.keyword.Bluemix_notm}}. Verifique a seção Referências da [documentação da CLI](/docs/cli/index.html#overview).
-
-### Verifique o novo painel e a lista de recursos
-Novo a partir de: 30 de novembro de 2018
-{: #dash}
-
-Com a nossa atualização mais recente, agora é possível ver todos os serviços de plataforma e infraestrutura no mesmo local. Ao
-efetuar login, é possível verificar o novo painel imediatamente. Depois de ter os recursos incluídos em sua conta por
-meio do catálogo, é possível usar a lista de recursos para obter uma visualização completa dos recursos da conta. Aqui
-estão alguns detalhes quanto às mudanças que você verá:
-
-* O painel foi projetado novamente para que seja possível visualizar um resumo de seus recursos, manutenção, status, apps,
-suporte, uso e usuários.
-* É possível localizar mais detalhes sobre os recursos na lista de recursos. É possível identificar seus recursos para organizá-los ou selecioná-los para fazer mudanças na página de detalhes.
-* Agora que é possível ver todos os seus recursos em um local, incluímos uma procura global para que seja possível
-localizar rapidamente os recursos que você criou e esperar que apareçam na página Lista de recursos. 
-* Também é possível procurar os resultados do catálogo para que você possa localizar rapidamente os recursos
-para incluir em sua conta.  
-
-### Informações de conta unificada, faturamento e perfil do usuário para os serviços de plataforma e infraestrutura
-Novo a partir de: 30 de novembro de 2018
-{: #profile}
-
-Suas informações de conta, de faturamento e de perfil foram simplificadas. Agora é possível ver as informações de sua
-conta para todos os recursos de plataforma e de infraestrutura em um console unificado. 
-
-* A sua área de perfil e de configurações contém informações sobre você, bem como as preferências de notificação por e-mail
-para todos os tipos de recursos. 
-* A área de informações da conta contém informações sobre a sua empresa ou organização, as configurações da conta e o acesso
-rápido para trabalhar com grupos de recursos e organizações do Cloud Foundry. É possível até localizar as
-melhores práticas para ajudá-lo a começar rapidamente.
-* A área de faturamento e uso da conta ajuda a entender a sua fatura, efetuar pagamentos, monitorar assinaturas, obter
-cotações, rastrear pedidos e configurar as notificações de gastos.
-
-### Organize seus recursos com tags
-Novo a partir de: 30 de novembro de 2018
-{: #tag}
-
-Agora, as tags estão disponíveis para inclusão nos recursos, como o Cloud Object Storage, para ajudá-lo
-a gerenciar e localizar os recursos que são mais relevantes para você. Por exemplo, se você tiver centenas de recursos e
-desejar diferenciá-los entre alguns que são pagos da mesma maneira, será possível identificá-los com
-"costcenter:location01". Ou, se você tiver uma equipe que trabalha em alguns recursos repetidamente, será possível usar
-algo como "team-blue". Também é possível filtrar a sua lista de recursos por tags para organizar e localizar
-os recursos que você precisa rapidamente. Para obter mais informações, consulte [Trabalhando com tags](/docs/resources/tagging_resources.html#tag).
-
-### Localize os custos mensais precisos com o estimador de custo
-Novo a partir de: 30 de novembro de 2018
-{: #cost-estimator}
-
-Para ajudá-lo a decidir e analisar quais serviços você gostaria de comprar, é possível usar o estimador de custo. Agora,
-é possível acessar o console e selecionar cada serviço que você gostaria de ter e incluir todos os custos em uma
-ferramenta fácil de usar. É possível até mesmo inserir usos de dados projetados, consultas por segundo, gravações por
-segundo e consultas por segundo para obter uma estimativa mais precisa de suas despesas mensais. É possível usar o
-estimador de custo com cada serviço de catálogo selecionado ou clicar no ícone do estimador de custo
-![Ícone Estimador](../../icons/Estimator.svg) no menu do console para obter um
-resumo dos custos estimados. Para obter mais informações, consulte [Estimando os custos](/docs/billing-usage/estimating_costs.html#cost).
 
 ### Nomes de locais globais atualizados para o  {{site.data.keyword.cloud_notm}}
 Novo a partir de: 1 de novembro de 2018
@@ -128,7 +31,7 @@ nomes de cidade nas quais os data centers existem fisicamente.
 
 Por enquanto, os IDs programáticos não estão mudando, portanto, não há impacto da perspectiva de uma API. Aqui
 está uma tabela que mostra os nomes de localização antigos e novos. Para obter mais informações e uma lista abrangente
-de data centers e regiões, consulte [Disponibilidade de serviço](/docs/resources/services_region.html).
+de data centers e regiões, consulte [Disponibilidade de serviço](docs/resources/services_region.html).
 
 | Nome de exibição da localização prévia | Novo nome de exibição do local | Código |
 |----------|---------|---------|
@@ -427,11 +330,7 @@ Novo a partir de: 2 de maio de 2017
 
 Com as atualizações e melhorias mais recentes de abril, é possível usar os novos recursos a seguir:
 
- * O status do aplicativo recém projetado para ambientes Dedicado e Local do {{site.data.keyword.Bluemix_notm}}. É possível procurar rapidamente por nome de componente ou data de postagem. Também é possível alternar entre a visualização de posts de status do componente e as notificações específicas para seu ambiente. Consulte
-a postagem do blog [Nova Página de Status
-do {{site.data.keyword.Bluemix_notm}}](https://www.ibm.com/blogs/bluemix/2017/05/new-bluemix-status-page/){: new_window}
-![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo") para
-obter mais informações.
+ * O status do aplicativo recém projetado para ambientes Dedicado e Local do {{site.data.keyword.Bluemix_notm}}. É possível procurar rapidamente por nome de componente ou data de postagem. Também é possível alternar entre a visualização de posts de status do componente e as notificações específicas para seu ambiente. Consulte a postagem do blog [Nova Página de Status do {{site.data.keyword.Bluemix_notm}}](https://www.ibm.com/blogs/bluemix/2017/05/new-bluemix-status-page/){: new_window} ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo") para obter informações adicionais.
  * Dados de uso de serviço para selecionar serviços no ladrilho Uso de Recursos. Consulte [Detalhes de uso do serviço](/docs/hybrid/index.html#servicesresourceusage) para obter mais informações sobre quais serviços são suportados e o que você pode esperar da nova visualização.
 
 ## Cálculo
@@ -513,35 +412,6 @@ O buildpack do Liberty v3.9 fornece uma nova versão de runtime mensal do Libert
 
 ## Serviços
 {: #services_category}
-
-### Citrix NetScaler VPX Versão 12.1
-Novo a partir de 21 de novembro de 2018
-{: #vpx121}
-
-#### Servidores virtuais com múltiplos endereços IP
-Agora é possível criar um único servidor virtual de balanceamento de carga com múltiplos endereços VIP IPv4 e IPv6
-consecutivos/não consecutivos. Cada endereço VIP ligado a um servidor virtual é tratado como um servidor virtual individual.
-
-Para obter mais informações sobre esse recurso, consulte o artigo do Citrix [Múltiplos servidores virtuais IP ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")](https://docs.citrix.com/en-us/netscaler/12-1/load-balancing/load-balancing-customizing/multi-ip-virtual-servers.html){: new_window}.
-
-#### SSL
-As seguintes atualizações foram aplicadas para as conexões SSL:
- 
-* Remoção de cifras fracas do grupo de cifras DEFAULT_BACKEND. 
-* Suporte para as cifras ECDHE no front-end do HSM externo da Thales nShield®
-* Suporte para as cifras ECDHE no front-end do HSM externo da rede SafeNet
-* Remoção do SSLv2: o dispositivo NetScaler VPX não suporta SSLv2 a partir da liberação 12.1.
-
-Para obter mais detalhes sobre as atualizações do SSL 12.1, consulte as
-[Notas sobre a
-liberação do Citrix 12.1 ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")](https://docs.citrix.com/en-us/netscaler/12-1/downloads/release-notes-12-1-48-13.html){: new_window}.
-
-#### Suporte de grupos de serviços para o GSLB
-Agora é possível configurar grupos de serviços baseados em endereço IP, grupos de serviços baseados em nome de domínio ou
-grupos de serviços de escala automática baseados em nome de domínio para o GSLB. Também é possível gerenciar um grupo de serviços tão facilmente como um serviço único e ligar um grupo de serviços a um servidor virtual, assim como incluir serviços no grupo.
-
-Para obter mais informações sobre os grupos de serviços GSLB, consulte o artigo do Citrix [Configurando um grupo de serviços GSLB ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")](https://docs.citrix.com/en-us/netscaler/12/global-server-load-balancing/configure/configuring-a-gslb-service-group.html){: new_window}.
-
 
 ### Atualização principal do {{site.data.keyword.conversationshort}}
 Novo a partir de: 9 de novembro de 2018
@@ -988,3 +858,4 @@ Novo a partir de: 11 de abril de 2017
 A sua nova plataforma para trabalhar com blocos de notas e Spark é o Data Science Experience. Inscreva-se para o [Data Science Experience](http://datascience.ibm.com/) e comece a criar blocos de notas e a compartilhar seus conhecimentos com outros cientistas de dados.
 
 Se você trabalhou com blocos de notas no {{site.data.keyword.sparks}}, poderá migrar seus blocos de notas para o Data Science Experience. Para obter mais informações, consulte [Migrando a documentação de blocos de notas](/docs/services/AnalyticsforApacheSpark/index-gentopic2.html#migration_to_dsx).
+
