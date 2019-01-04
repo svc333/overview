@@ -18,7 +18,7 @@ lastupdated: "2018-11-14"
 # Try out {{site.data.keyword.Bluemix_notm}}, for free
 {: #quickstart_lite}
 
-Looking to try out {{site.data.keyword.Bluemix}}? A Lite account is really great for learning about working in the cloud, using Watson, and so on. It’s also perfect for building proof of concepts (POCs) with the many components available in {{site.data.keyword.Bluemix_notm}}. This quick start guide is intended to help you get up and running with our Lite account.  
+Looking to try out {{site.data.keyword.Bluemix}}? A Lite account is great for learning about working in the cloud, using Watson, and so on. It’s also perfect for building proof of concepts (POCs) with the many components available in {{site.data.keyword.Bluemix_notm}}. This quick start guide is intended to help you get up and running with our Lite account.  
 {:shortdesc}  
 
 ## Before you begin
