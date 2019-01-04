@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2016, 2017, 2018
-lastupdated: "2018-12-19"
+  years: 2016, 2019
+lastupdated: "2019-01-03"
 
 ---
 {:new_window: target="_blank"}
@@ -32,6 +32,8 @@ With the {{site.data.keyword.cloud_notm}}, you can:
 * Create a [DevOps toolchain](../services/ContinuousDelivery/index.html#cd_getting_started) in a few clicks.
 * Use the [command-line interface](/docs/cli/index.html#overview) for local development.
 * Browse or search the [{{site.data.keyword.cloud_notm}} catalog ![External link icon](../icons/launch-glyph.svg "External link icon")](https://{DomainName}/catalog){: new_window} for apps and services that you can create and start using today.
+
+![Developer experience overview](images/dev-journey.png "Developer experience overview")
 
 To better understand how our experience can help you rapidly build high-quality production-ready apps, let’s look at these elements in more detail.
 
@@ -98,7 +100,7 @@ Generating these components saves you valuable time and ensures that you’re us
 * **Service enablement** is code that enables your app to connect to and use the services you add. Credential management, initialization code, and service-specific SDKs are examples of service enablement items.
 * **Cloud enablement** is code that enables your app to run on {{site.data.keyword.cloud_notm}}. For example, Helm charts that enable your app to run on an {{site.data.keyword.cloud_notm}} Kubernetes cluster.
 
-When you create an app from a {{site.data.keyword.cloud_notm}} starter kit, your app starts with proven architecture that also reflects best practices for the language you selected.
+When you create an app from an {{site.data.keyword.cloud_notm}} starter kit, your app starts with proven architecture that also reflects best practices for the language you selected.
 
 Each app includes a readme file that contains technical details of the app and explains what is needed to get your app running if it doesn’t run out-of-the-box.
 {: tip}
@@ -137,7 +139,7 @@ Use the command-line interface to code, build, and run your app locally. A commo
 
 If you’re looking for a place where you can experiment with big ideas and emerging technologies, be sure to check out [Garage Method](https://www.ibm.com/cloud/garage/){: new_window} ![External link icon](../icons/launch-glyph.svg "External link icon") deployments. You can learn how IBM can help you develop apps in your organization. 
 
-![Garage Method phases overview](images/garage_phases_overview2.png "Garage Method phases overview")*Garage Method phases overview*
+![Garage Method phases overview](images/garage_phases_overview2.png "Garage Method phases overview") *Garage Method phases overview*
 
 {{site.data.keyword.cloud_notm}} helps you produce successful enterprise-class production apps by using the Garage Method or whatever method you prefer. To better understand what {{site.data.keyword.cloud_notm}} offers to developers, let's take a quick look at the skills that are required to build a modern app.
 
