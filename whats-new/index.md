@@ -14,7 +14,7 @@ lastupdated: "2018-12-20"
 # What's new in {{site.data.keyword.Bluemix_notm}}?
 {: #whatsnew}
 
-Stay up-to-date with the new features and services that are available in {{site.data.keyword.Bluemix}}, so that you get the most out of your {{site.data.keyword.Bluemix_notm}} experience. The updates are organized into these categories: [{{site.data.keyword.Bluemix_notm}} platform](index.html#platform_category), [{{site.data.keyword.Bluemix_local_notm}} and {{site.data.keyword.Bluemix_dedicated_notm}}](index.html#dedicatedandlocal), [Compute](index.html#compute_category), and [Services](index.html#services_category).
+Stay up-to-date with the new features and services that are available in {{site.data.keyword.Bluemix}} so that you get the most out of your {{site.data.keyword.Bluemix_notm}} experience. The updates are organized into these categories: [{{site.data.keyword.Bluemix_notm}} platform](index.html#platform_category), [{{site.data.keyword.Bluemix_local_notm}} and {{site.data.keyword.Bluemix_dedicated_notm}}](index.html#dedicatedandlocal), [Compute](index.html#compute_category), and [Services](index.html#services_category).
 {:shortdesc}
 
 ## {{site.data.keyword.Bluemix_notm}} platform
@@ -25,9 +25,9 @@ Stay up-to-date with the new features and services that are available in {{site.
 New as of: 30 November 2018 
 {: #support}
 
-With the Support Center, you can work to resolve all {{site.data.keyword.Bluemix_notm}} related issues. The landing page provides you FAQs, so you can find the answer to your question without even contacting {{site.data.keyword.Bluemix_notm}}. You also have the option to chat with a live support rep. Your cases can now be managed in from a single location. Go to **Support** &gt; **Manage cases** to create, view, or edit cases.
+With the Support Center, you can work to resolve all {{site.data.keyword.Bluemix_notm}}-related issues. The landing page provides you FAQs, so you can find the answer to your question without even contacting {{site.data.keyword.Bluemix_notm}}. You can also chat with a live support rep. Your cases can now be managed in from a single location. Go to **Support** &gt; **Manage cases** to create, view, or edit cases.
 
-You can also find the [Status page](https://cloud.ibm.com/status){: new_window} ![External link icon](../../icons/launch-glyph.svg "External link icon") from the Support Center. It has been enhanced to include all unplanned incidents, planned maintenance, announcements, and security bulletin notifications about key events that affect the {{site.data.keyword.Bluemix_notm}} platform, infrastructure and major services. Click **View cloud status** from the Support Center. To check out the new experience, log in and go to the [Support Center](https://cloud.ibm.com/unifiedsupport/supportcenter){: new_window} ![External link icon](../../icons/launch-glyph.svg "External link icon"). 
+You can also find the [Status page](https://cloud.ibm.com/status){: new_window} ![External link icon](../../icons/launch-glyph.svg "External link icon") from the Support Center. It has been enhanced to include all unplanned incidents, planned maintenance, announcements, and security bulletin notifications about key events that affect the {{site.data.keyword.Bluemix_notm}} platform, infrastructure, and major services. Click **View cloud status** from the Support Center. To check out the new experience, log in and go to the [Support Center](https://cloud.ibm.com/unifiedsupport/supportcenter){: new_window} ![External link icon](../../icons/launch-glyph.svg "External link icon"). 
 
 ### Unified login, API keys, and user and access management in {{site.data.keyword.Bluemix_notm}}
 New as of: 30 November 2018
@@ -37,7 +37,7 @@ With our latest updates, you can take advantage of a simplified secure login tha
 
 After you log in, you can now see all users including platform and classic infrastructure users from your Users page in the Access (IAM) UI. Depending on your access to view other users in the account, you can filter your view quickly by account users, classic infrastructure users, or Cloud Foundry org. You can also use the filters to find users quickly by name, email, or status.
 
-Now that all of your users are in a single console, you can manage their access to all types of resources from the same place. Access starts with the user, so just start by selecting a user from your list. Then, depending on which type of resource that you want to assign access to, you can choose from IAM access policies, Cloud Foundry access, or classic infrastructure permissions. If you're just looking to assign IAM access policies, try creating an access group to streamline your access management process by adding all users to the same access group that need the same policies assigned.
+Now that all of your users are in a single console, you can manage their access to all types of resources from the same place. Access starts with the user, so start by selecting a user from your list. Then, depending on which type of resource that you want to assign access to, you can choose from IAM access policies, Cloud Foundry access, or classic infrastructure permissions. If you're just looking to assign IAM access policies, try creating an access group to streamline your access management process by adding all users to the same access group that need the same policies assigned.
 
 For more details, check out [Outstanding User Access Improvements Help Deliver a Unified {{site.data.keyword.Bluemix_notm}} Platform](https://www.ibm.com/blogs/bluemix/2018/11/ibm-cloud-access-management){: new_window} ![External link icon](../../icons/launch-glyph.svg "External link icon"). 
 
@@ -53,7 +53,7 @@ New as of: 30 November 2018
 
 With our latest update, you can now view all your platform and infrastructure services from one location. When you log in, you can check out the new dashboard right away. After you have resources added to your account from the catalog, you can use the resource list to get a full view of your account resources. :
 
-* The dashboard has been redesigned so that you can view a summary your resources, maintenance, staus, apps, support, usage, and users.
+* The dashboard has been redesigned so that you can view a summary your resources, maintenance, status, apps, support, usage, and users.
 * You can find more details about your resources in the resource list. You can tag your resources to organize them, or select them to make changes on the details page.
 * Now that you can see all of your resources in one place, we've added a global search so that you can quickly find resources that you created and expect to appear on the Resource list page. 
 * You can also search for catalog results, so you can quickly find resources to add to your account.  
@@ -64,7 +64,7 @@ See [Manage All Your Cloud Resources on the Enhanced {{site.data.keyword.Bluemix
 New as of: 30 November 2018
 {: #profile}
 
-Your account, billing, and profile information has been simplified. You can now view your account information for all of your platform and infrastruture resources in a unified console. 
+Your account, billing, and profile information is now simplified. You can view your account information for all of your platform and infrastructure resources in a unified console. 
 
 * Your profile and settings area contains information about you as well as your email notification preferences for all resource types. 
 * Your account information area contains information about your company or organization, account settings, and quick access for working with resource groups and Cloud Foundry orgs. You can even find best practices to help you get up and running quickly!
@@ -76,20 +76,20 @@ Check out [Bringing It All Together: A Single Account and Billing Management Exp
 New as of: 30 November 2018
 {: #tag}
 
-Tags are now available for you to add to your resources, like Cloud Object Storage, to help you manage resources and find the resources that are the most relevant to you. For example, if you have hundreds of resources and you want to differentiate between a couple that are paid the same way, you could tag them with `costcenter:location01`. Or, if you have a team working on a couple of resources repeatedly, you can use something like `team-blue`. You can also filter your resource list by tags to quickly organize and find the resources that you need. For more information, see [Working with tags](/docs/resources/tagging_resources.html#tag) and [Platform Tagging on the Enhanced {{site.data.keyword.Bluemix_notm}} Platform](https://www.ibm.com/blogs/bluemix/2018/11/platform-tagging-on-the-enhanced-ibm-cloud-platform/){: new_window} ![External link icon](../../icons/launch-glyph.svg "External link icon"). 
+Tags are now available for you to add to your resources, like Cloud Object Storage, to help you manage resources and find the resources that are the most relevant to you. For example, if you have hundreds of resources and you want to differentiate between a couple that are paid the same way, you could tag them with `costcenter:location01`. Or, if you have a team that is working on a couple of resources repeatedly, you can use something like `team-blue`. You can also filter your resource list by tags to quickly organize and find the resources that you need. For more information, see [Working with tags](/docs/resources/tagging_resources.html#tag) and [Platform Tagging on the Enhanced {{site.data.keyword.Bluemix_notm}} Platform](https://www.ibm.com/blogs/bluemix/2018/11/platform-tagging-on-the-enhanced-ibm-cloud-platform/){: new_window} ![External link icon](../../icons/launch-glyph.svg "External link icon"). 
 
 ### Find accurate monthly costs with the cost estimator
 New as of: 30 November 2018
 {: #cost-estimator}
 
-To help you decide and analyze what services you'd like to purchase, you can use the cost estimator. Now, you can go through the console and select each service you'd like to have, and add all of the costs in an easy to use tool. You can even enter projected data usages, lookups per second, writes per second, and queries per second to get a more accurate estimation of your monthly ependentures. You can use the cost estimator with each catalog service you select, or you can click the cost estimator icon ![Estimator icon](../../icons/Estimator.svg) in the console menu to get a summary of your estimated costs. For more information, see [Estimating your costs](/docs/billing-usage/estimating_costs.html#cost).
+To help you decide and analyze what services you'd like to purchase, you can use the cost estimator. Now, you can go through the console and select each service you'd like to have, and add all of the costs in an easy to use tool. You can even enter projected data usages, lookups per second, writes per second, and queries per second to get a more accurate estimation of your monthly expendentures. You can use the cost estimator with each catalog service you select, or you can click the cost estimator icon ![Estimator icon](../../icons/Estimator.svg) in the console menu to get a summary of your estimated costs. For more information, see [Estimating your costs](/docs/billing-usage/estimating_costs.html#cost).
 
 ### Updated global location names for {{site.data.keyword.cloud_notm}}
 New as of: 1 November 2018
 
 As {{site.data.keyword.cloud_notm}} continues to expand our global availability footprint, we’re updating our location naming structure to better support an understandable, consistent hierarchy of geographies, regions, and data centers around the world. If you’re familiar with our current global regions, you’ll recognize names like US South and Sydney. We’re aligning these location names to the names of the city in which the data centers physically exist.
 
-For now, the programmatic IDs are not changing, so there’s no impact from an API perspective. Here is a table that shows the old and new location names. For more information and a comprehensive list of data centers and regions, see [Service availability](/docs/resources/services_region.html).
+For now, the programmatic IDs are not changing, so there’s no impact from an API perspective. The following table shows the old and new location names. For more information and a comprehensive list of data centers and regions, see [Service availability](/docs/resources/services_region.html).
 
 | Previous location display name | New location display name | Code |
 |----------|---------|---------|
@@ -124,12 +124,12 @@ You can search for resources from anywhere in the {{site.data.keyword.cloud_notm
 ### Dynamically add federated users to access groups
 New as of: 12 July 2018
 
-You can create dynamic rules to automatically add federated users to access groups based on specific identity attributes. When your users log in with a federated ID, the data from the identity provider dynamically maps your users to an access group based on the rules that you set. For more information, see [Creating dyanmic rules for access groups](/docs/iam/accessgroup_rules.html#creating-dynamic-rules-for-access-groups).
+You can create dynamic rules to automatically add federated users to access groups based on specific identity attributes. When your users log in with a federated ID, the data from the identity provider dynamically maps your users to an access group based on the rules that you set. For more information, see [Creating dynamic rules for access groups](/docs/iam/accessgroup_rules.html#creating-dynamic-rules-for-access-groups).
 
 ### Protect your service IDs and API keys
 New as of: 1 June 2018
 
-To avoid a situation where your service ID or API key is deleted causing an outage or disruption, you have the option to lock service IDs and API keys by using the UI or CLI. Locking a service ID also prevents any access policies from being changed, deleted, or assigned as well as any API keys associated with the service ID from being created or deleted. For more information, see [Locking a service ID](/docs/iam/serviceid.html#locking-a-service-id) and [Locking an API key](/docs/iam/userid_keys.html#locking-an-api-key).
+To avoid a situation where your service ID or API key is deleted causing an outage or disruption, you can lock service IDs and API keys by using the UI or CLI. Locking a service ID also prevents any access policies from being changed, deleted, or assigned as well as any API keys associated with the service ID from being created or deleted. For more information, see [Locking a service ID](/docs/iam/serviceid.html#locking-a-service-id) and [Locking an API key](/docs/iam/userid_keys.html#locking-an-api-key).
 
 ### Upgrade your Lite account to a Subscription account
 New as of: 31 May 2018
@@ -139,19 +139,19 @@ You can now upgrade your Lite account to a Subscription account directly from th
 ### {{site.data.keyword.Bluemix_notm}} CLI rebranding
 New as of: 15 May 2018
 
-The {{site.data.keyword.Bluemix_notm}} CLI commands have changed from `bluemix` and `bx` to **ibmcloud**. However, you can still use the `bluemix` and `bx` CLI commands until they are removed at a later date. There is no short name at this time, just the full name **ibmcloud**. 
+The {{site.data.keyword.Bluemix_notm}} CLI commands have changed from `bluemix` and `bx` to **ibmcloud**. However, you can still use the `bluemix` and `bx` CLI commands until they are removed later. There is no short name now, just the full name **ibmcloud**. 
 
 ### Multi-factor authentication for your {{site.data.keyword.Bluemix_notm}} account
 New as of: 02 May 2018
 
-Multi-factor authentication (MFA) adds an extra layer of security to your account by requiring all users to provide a time-based one-time passcode in addition to their standard IBMid and password during log in. This is also commonly known as two-factor authentication (2FA). MFA is enabled per account, and once it is turned on, all users in the account are required to log in using the additional security measure.
+Multi-factor authentication (MFA) adds an extra layer of security to your account by requiring all users to provide a time-based one-time passcode in addition to their standard IBMid and password during login. This is also commonly known as two-factor authentication (2FA). MFA is enabled per account, and once it is turned on, all users in the account are required to log in by using the extra security measure.
 
 For more information, see the [IBM Cloud Platform now adds support for Multi-Factor Authentication](https://www.ibm.com/blogs/bluemix/2018/05/ibm-cloud-platform-now-adds-support-multi-factor-authentication/){: new_window} ![External link icon](../../icons/launch-glyph.svg "External link icon") blog post.
 
 ### Assign access quickly by using access groups
 New as of: 03 April 2018
 
-Do you want to be able to assign access quickly by using the least amount of policies possible? Now you can with access groups. Access groups enable you to group a set of users and service IDs together and assign a single policy that applies to all members of the group. By using access groups, you can limit the time you spend managing access to the users and service IDs in your account. Check out the blog post [New feature: Access groups](https://www.ibm.com/blogs/bluemix/2018/04/access-groups/){: new_window} ![External link icon](../../icons/launch-glyph.svg "External link icon") for more details.
+Do you want to be able to assign access quickly by using the least number of policies possible? Now you can with access groups. Access groups enable you to group a set of users and service IDs together and assign a single policy that applies to all members of the group. By using access groups, you can limit the time that you spend managing access to the users and service IDs in your account. Check out the blog post [New feature: Access groups](https://www.ibm.com/blogs/bluemix/2018/04/access-groups/){: new_window} ![External link icon](../../icons/launch-glyph.svg "External link icon") for more details.
 
 ### SoftLayer and {{site.data.keyword.Bluemix_notm}} account linking
 New as of:  01 March 2018
@@ -167,7 +167,7 @@ A new US East data center is now available in Washington, DC. This new region ca
 ### Support for resources in the European Union
 New as of: 14 December 2017
 
-If your services and data centers are located in Europe, {{site.data.keyword.Bluemix_notm}} now offers additional capabilities to protect your data in the European Union. You can request support be provided by customer success teams that are located in Europe. This support is available 24 hours a day, 7 days a week. See [Enabling the EU supported option](/docs/billing-usage/eusupported.html#bill_eusupported) and [Requesting support for resources in the European Union](/docs/get-support/howtogetsupport.html#eusupported) for more information.
+If your services and data centers are located in Europe, {{site.data.keyword.Bluemix_notm}} now offers extra capabilities to protect your data in the European Union. You can request that support is provided by customer success teams that are located in Europe. This support is available 24 hours a day, 7 days a week. See [Enabling the EU supported option](/docs/billing-usage/eusupported.html#bill_eusupported) and [Requesting support for resources in the European Union](/docs/get-support/howtogetsupport.html#eusupported) for more information.
 
 ### Withdrawal of support for TLS 1.0 and 1.1
 New as of: 28 November 2017
@@ -177,14 +177,14 @@ On 1 March 2018 {{site.data.keyword.Bluemix_notm}} will withdraw support for TLS
 ### A new way to organize resources within your account
 New as of: 16 November 2017
 
-Resource groups are a new way for you to create customizable groupings of account resources, and access to the group and the resources within it are managed by using Identity and Access Management (IAM). Everyone starts out with a default resource group. You can rename this resource group and add new service intances to it as you create them from the catalog.
+Resource groups are a new way for you to create customizable groupings of account resources, and access to the group and the resources within it are managed by using Identity and Access Management (IAM). Everyone starts out with a default resource group. You can rename this resource group and add new service instances to it as you create them from the catalog.
 
 For users with a Pay-As-You-Go or Subscription account, you can create additional resource groups to make managing quota and viewing billing usage for a set of resources easier. You can also group resources to make it easier for you to assign users access to more than one service at a time. To learn more about working with resource groups for your account, see [Managing resource groups](/docs/account/resourcegroups.html#rgs).
 
 ### Updates for {{site.data.keyword.Bluemix_notm}} IAM
 New as of: 16 November 2017
 
-The introduction of [resource groups](/docs/overview/resource-groups.html#whatis) within your {{site.data.keyword.Bluemix_notm}} account has opened up a new way for you to assign access. Users and service IDs can be assigned access to all services within a resource group enabling you to quickly assign access to more than one resource at a time. You can also customize access for each user or service ID by assigning access to just some services within a resource group, or you just choose to assign access to individual resources down to the service instance level.
+The introduction of [resource groups](/docs/overview/resource-groups.html#whatis) within your {{site.data.keyword.Bluemix_notm}} account has opened up a new way for you to assign access. Users and service IDs can be assigned access to all services within a resource group enabling you to quickly assign access to more than one resource at a time. You can also customize access for each user or service ID by assigning access to just some services within a resource group, or you choose to assign access to individual resources down to the service instance level.
 
 For more information about the features that you can take advantage of by using IAM, see [What features does IAM provide?](/docs/iam/index.html#features)
 
@@ -219,7 +219,7 @@ For more information about the benefits of this feature and how to get started, 
 ### {{site.data.keyword.Bluemix_notm}} global catalog
 New as of: 27 July 2017
 
-Expanding on the last console update to manage your public regions from a single location in the console, {{site.data.keyword.Bluemix_notm}} now has a global catalog making the process of selecting and deploying items you select from the catalog a more streamlined process. Regardless of the region you have selected in the console, you can now see all services that are available across all public regions from your catalog. Once you select a tile from the catalog, you can see which regions the service is available in, and select where you want to deploy it.
+Expanding on the last console update to manage your public regions from a single location in the console, {{site.data.keyword.Bluemix_notm}} now has a global catalog making the process of selecting and deploying items that you select from the catalog a more streamlined process. Regardless of the region you have selected in the console, you can now see all services that are available across all public regions from your catalog. Once you select a tile from the catalog, you can see which regions the service is available in, and select where you want to deploy it.
 
 For more information about the latest updates to the catalog, see [A global {{site.data.keyword.Bluemix_notm}} catalog makes building things easier](https://www.ibm.com/blogs/bluemix/2017/07/global-bluemix-catalog-makes-building-things-easier/){: new_window} ![External link icon](../../icons/launch-glyph.svg "External link icon").
 
@@ -289,11 +289,11 @@ With the latest updates and improvements from August, you can use the following 
 
 #### Updates to {{site.data.keyword.cloudant_short_notm}} service usage metrics
 
-  * The computation of usage metrics for {{site.data.keyword.cloudant_short_notm}} has been updated to reflect the total amount of GBs used and available across all nodes in a {{site.data.keyword.cloudant_short_notm}} cluster. Typically, a {{site.data.keyword.cloudant_short_notm}} cluster contains 3 nodes, and a document in the database is replicated across all the nodes in the cluster for high-availability and disaster recovery. With the August updates, the capacity metric in the {{site.data.keyword.cloudant_short_notm}} dial (available in the _Resource Usage > Services_ view) indicates the space across all the nodes in the cluster. For example, if a single {{site.data.keyword.cloudant_short_notm}} cluster contains 3 nodes, each with 1000 GB capacity, the capacity limit will be 3000 GB. If 1500 GBs of that capacity have been used, the {{site.data.keyword.cloudant_short_notm}} usage metric will be 50%.
+  * The computation of usage metrics for {{site.data.keyword.cloudant_short_notm}} has been updated to reflect the total number of GBs used and available across all nodes in a {{site.data.keyword.cloudant_short_notm}} cluster. Typically, a {{site.data.keyword.cloudant_short_notm}} cluster contains three nodes, and a document in the database is replicated across all the nodes in the cluster for high-availability and disaster recovery. With the August updates, the capacity metric in the {{site.data.keyword.cloudant_short_notm}} dial (available in the _Resource Usage > Services_ view) indicates the space across all the nodes in the cluster. For example, if a single {{site.data.keyword.cloudant_short_notm}} cluster contains three nodes, each with 1000-GB capacity, the capacity limit is 3000 GB. If 1500 GBs of that capacity have been used, the {{site.data.keyword.cloudant_short_notm}} usage metric is 50%.
 
 #### Updates to the scheduling of maintenance updates
 
-  * In {{site.data.keyword.Bluemix_dedicated_notm}}, customers can manage the dates and times when their dedicated environments are available for deployment of system updates. Customers can define availability windows representing dates and times when maintenance updates can and cannot be deployed to their Dedicated environment. In the August update, _Available Update Windows_ have been renamed _Update Windows_, and _Unavailable Update Windows_ have been renamed _Blackout Windows_. Beyond the terminology changes, customers now have more flexibility and margin for defining blackout (unavailable) dates. Once requested, blackout dates will require IBM approval, and the time it takes to gain approval will vary. When the requested blackout dates are approved, IBM will cancel any existing updates that are currently scheduled during the unavailable window. IBM will also create new records for these updates and schedule them outside the approved blackout dates.
+  * In {{site.data.keyword.Bluemix_dedicated_notm}}, customers can manage the dates and times when their dedicated environments are available for deployment of system updates. Customers can define availability windows representing dates and times when maintenance updates can and cannot be deployed to their Dedicated environment. In the August update, _Available Update Windows_ have been renamed _Update Windows_, and _Unavailable Update Windows_ have been renamed _Blackout Windows_. Beyond the terminology changes, customers now have more flexibility and margin for defining blackout (unavailable) dates. Once requested, blackout dates require IBM approval, and the time it takes to gain approval will vary. When the requested blackout dates are approved, IBM will cancel any existing updates that are currently scheduled during the unavailable window. IBM will also create new records for these updates and schedule them outside the approved blackout dates.
 
 See the [video demonstration](https://bit.ly/2eCQNvu){: new_window} ![External link icon](../../icons/launch-glyph.svg "External link icon") for more information.
 
@@ -305,7 +305,7 @@ With the latest updates and improvements from July, you can use the following ne
 
 #### Updates to resource usage history capabilities
 
-  * In the previous update (June), the History view for memory and disk usage had introduced display of usage data over the last 48 hours, 30 days, and 5 mohths. In this latest July update, the resource usage history functionality has been expanded to allow customization of the time span for which to show resource usage data. Hourly, daily and monthly views remain, but users can now specify a start day/time and duration for which to display memory and disk usage metrics (for example, showing memory usage for 15 days starting on July 1st 2017).
+  * In the previous update (June), the History view for memory and disk usage had introduced display of usage data over the last 48 hours, 30 days, and 5 months. In this latest July update, the resource usage history functionality has been expanded to allow customization of the time span for which to show resource usage data. Hourly, daily, and monthly views remain, but users can now specify a start day/time and duration for which to display memory and disk usage metrics (for example, showing memory usage for 15 days starting on July 1st 2017).
   * A new CLI command has been introduced to display resource metrics history in the CLI. The parameters of the command, as well as usage examples can be found by typing the following: `_cf ba resource-metrics-history -help_`
 
 See the [video demonstration](https://youtu.be/QBij0jB5qAk){: new_window} ![External link icon](../../icons/launch-glyph.svg "External link icon") for more information.
@@ -375,7 +375,7 @@ Want to pay only for what you use? You can now suspend billing on virtual server
 {{site.data.keyword.BluVirtServers_full}} reserved instances offering is now available. This is a great option if you want guaranteed resources for future deployments and cost savings. You choose between either a one or three year contract term for your reserved capacity. Within that reserved capacity, you can reserve a set of up to 20 virtual server instances of a specific size and provision those instances when you need them. You are guaranteed this capacity within the POD and data center of your choice for the life of the contract term. For more information, see [Reserved virtual servers](/docs/vsi/vsi_about_reserved.html).
 
 #### Import images from {{site.data.keyword.cos_full_notm}} service instance to {{site.data.keyword.cloud_notm}} infrastructure
-{{site.data.keyword.cloud_notm}} infrastructure now interacts with the {{site.data.keyword.cos_full_notm}} service that's provisioned on the {{site.data.keyword.cloud_notm}} console. {{site.data.keyword.cos_full_notm}} offers the Aspera high-speed transfer plug-in that massively decreases the amount of time needed to upload a large image. After images are uploaded to {{site.data.keyword.cos_full_notm}}, you can [import images](/docs/infrastructure/image-templates/import-image.html) to {{site.data.keyword.cloud_notm}} infrastructure from {{site.data.keyword.cos_full_notm}}. You can also [export images](/docs/infrastructure/image-templates/export-image-ibm-cos.html) from {{site.data.keyword.cloud_notm}} infrastructure to {{site.data.keyword.cos_full_notm}}.
+{{site.data.keyword.cloud_notm}} infrastructure now interacts with the {{site.data.keyword.cos_full_notm}} service that's provisioned on the {{site.data.keyword.cloud_notm}} console. {{site.data.keyword.cos_full_notm}} offers the Aspera high-speed transfer plug-in that massively decreases the amount of time that is needed to upload a large image. After images are uploaded to {{site.data.keyword.cos_full_notm}}, you can [import images](/docs/infrastructure/image-templates/import-image.html) to {{site.data.keyword.cloud_notm}} infrastructure from {{site.data.keyword.cos_full_notm}}. You can also [export images](/docs/infrastructure/image-templates/export-image-ibm-cos.html) from {{site.data.keyword.cloud_notm}} infrastructure to {{site.data.keyword.cos_full_notm}}.
 
 #### Placement groups for virtual server instances
 Placement groups are now available for {{site.data.keyword.BluVirtServers_full}}. With placement groups, you can use public instances to build for high availability within a data center, or provide an additional level of fault tolerance within a larger deployment. For more information, see [Placement groups](/docs/vsi/vsi_placegroup.html). 
@@ -415,7 +415,7 @@ New as of: 18 April 2018
 ### New Liberty for Java buildpack v3.11
 New as of: 17 July 2017
 
-The Liberty buildpack v3.11 provides new monthly Liberty runtime version and contains other improvements. The monthly Liberty runtime version was updated to the  [2017.7.0.0](https://developer.ibm.com/wasdev/blog/2017/07/07/beta-websphere-liberty-tools-july-2017/) release. The IBM JDK has been updated to the 8.0.4.7 and 7.1.4.5 versions. The buildpack also provides updated versions of the App Management utility and Auto-Scaling agent. The default Cloudant Library is now the official [java-cloudant](https://github.com/cloudant/java-cloudant), the [Ektorp library](https://github.com/helun/Ektorp) is still available as an option, for details on this change see the [blog post](https://www.ibm.com/blogs/bluemix/2017/05/default-library-change-cloudant-auto-wiring-liberty-buildpack/). The default heap size ratio is now 50% when your application has less than 512mb of memory, if it has more than 512mb it will still be 75%. A new staging task log is now generated, which allows for easier debugging of staging errors.See the [latest updates](https://console.ng.bluemix.net/docs/runtimes/liberty/updates.html) documentation for additional information.
+The Liberty buildpack v3.11 provides new monthly Liberty runtime version and contains other improvements. The monthly Liberty runtime version was updated to the  [2017.7.0.0](https://developer.ibm.com/wasdev/blog/2017/07/07/beta-websphere-liberty-tools-july-2017/) release. The IBM JDK has been updated to the 8.0.4.7 and 7.1.4.5 versions. The buildpack also provides updated versions of the App Management utility and Auto-Scaling agent. The default Cloudant Library is now the official [java-cloudant](https://github.com/cloudant/java-cloudant), the [Ektorp library](https://github.com/helun/Ektorp) is still available as an option, for details on this change see the [blog post](https://www.ibm.com/blogs/bluemix/2017/05/default-library-change-cloudant-auto-wiring-liberty-buildpack/). The default heap size ratio is now 50% when your application has less than 512mb of memory, if it has more than 512mb it will still be 75%. A new staging task log is now generated, which allows for easier debugging of staging errors. For additional information, see the [latest updates](https://console.ng.bluemix.net/docs/runtimes/liberty/updates.html) documentation.
 
 ### New Liberty for Java buildpack v3.10
 New as of: 12 June 2017
@@ -440,14 +440,14 @@ The Liberty buildpack v3.9 provides new monthly Liberty runtime version and cont
 ### Introducing {{site.data.keyword.backup_notm}}
 New as of 20 December 2018
 
-The {{site.data.keyword.BluSoftlayer_full}} storage infrastructure team is proud to announce the new {{site.data.keyword.backup_full}}, which includes a free-forever 10-GB tier. Also, all plugins are now free. Consequently, your implementation of specific application use-cases like MSSQL, Oracle DB, Exchange or even Bare Metal Restore incurs no extra costs. The new {{site.data.keyword.backup_notm}} is the best solution to enable your backup needs at any scale. For more information, see the [IBM Cloud Blog](https://www.ibm.com/blogs/bluemix/2018/12/introducing-a-new-cloud-backup-service-ibm-cloud-backup/){: new_window}![External link icon].
+The {{site.data.keyword.BluSoftlayer_full}} storage infrastructure team is proud to announce the new {{site.data.keyword.backup_full}}, which includes a free-forever 10-GB tier. Also, all plug-ins are now free. Consequently, your implementation of specific application use-cases like MSSQL, Oracle DB, Exchange or even Bare Metal Restore incurs no extra costs. The new {{site.data.keyword.backup_notm}} is the best solution to enable your backup needs at any scale. For more information, see the [IBM Cloud Blog](https://www.ibm.com/blogs/bluemix/2018/12/introducing-a-new-cloud-backup-service-ibm-cloud-backup/){: new_window}![External link icon].
 
 ### Citrix NetScaler VPX Version 12.1
 New as of 21 November 2018
 {: #vpx121}
 
 #### Virtual servers with multiple IP addresses
-You can now create a single load balancing virtual server with multiple non-consecutive/consecutive VIP IPv4 and IPv6 addresses. Each VIP address bound to a virtual server is treated as an individual virtual server.
+You can now create a single load-balancing virtual server with multiple non-consecutive/consecutive VIP IPv4 and IPv6 addresses. Each VIP address bound to a virtual server is treated as an individual virtual server.
 
 For more information about this feature, see the Citrix article [Multiple IP virtual servers ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://docs.citrix.com/en-us/netscaler/12-1/load-balancing/load-balancing-customizing/multi-ip-virtual-servers.html){: new_window}.
 
@@ -501,7 +501,7 @@ The {{site.data.keyword.DRA_short}} service is now generally available in the US
 ### {{site.data.keyword.security-advisor_long_notm}} is now Beta!
 New as of: 5 September 2018
 
-{{site.data.keyword.security-advisor_short}} has added new capabilities and is now available as a beta service.  {{site.data.keyword.security-advisor_short}} centralizes your {{site.data.keyword.Bluemix_notm}} security into one dashboard. In addition to centralizing information, the service summarizes critical security information across easy to navigate tiles to clearly show when a security issue is detected. Clicking on a tile enables a drill down to investigate prioritized issues, history, and the details behind the alert. To fix the issue just drill down once more to get all of the details as well as suggested fixes to remove the threat and ensure your environment stays secure.
+{{site.data.keyword.security-advisor_short}} has added new capabilities and is now available as a beta service.  {{site.data.keyword.security-advisor_short}} centralizes your {{site.data.keyword.Bluemix_notm}} security into one dashboard. In addition to centralizing information, the service summarizes critical security information across easy to navigate tiles to clearly show when a security issue is detected. Clicking on a tile enables a drill-down to investigate prioritized issues, history, and the details behind the alert. To fix the issue just drill-down once more to get all of the details as well as suggested fixes to remove the threat and ensure your environment stays secure.
 
 {{site.data.keyword.security-advisor_short}} will quickly become your go to console to enable you to centralize, view, and manage security in your {{site.data.keyword.Bluemix_notm}} environment.
 
@@ -535,7 +535,7 @@ New as of: 20 April 2018
  
 You can access this new container-based infrastructure using the [v2 service plans](/docs/services/StreamingAnalytics/service_plans.html#service_plans). You can choose the {{site.data.keyword.streaminganalyticsshort}} plan that is best suited for the work that you need to do. The v2 service plans include the following enhancements:
  
-* [IBM Streams QSE with Docker](https://www-01.ibm.com/marketing/iwm/iwm/web/preLogin.do?source=swg-ibmistvi)![External link icon](../../icons/launch-glyph.svg "External link icon"): Check out the [ Development Guide](https://developer.ibm.com/streamsdev/docs/cloud-beta-devguide/)![External link icon](../../icons/launch-glyph.svg "External link icon") to learn how to use the new Streams QSE with RHEL 7 running in a Docker environment to compile and deploy your applications with the new {{site.data.keyword.streaminganalyticsshort}} v2 plans. 
+* [IBM Streams QSE with Docker](https://www-01.ibm.com/marketing/iwm/iwm/web/preLogin.do?source=swg-ibmistvi)![External link icon](../../icons/launch-glyph.svg "External link icon"): Check out the [Development Guide](https://developer.ibm.com/streamsdev/docs/cloud-beta-devguide/)![External link icon](../../icons/launch-glyph.svg "External link icon") to learn how to use the new Streams QSE with RHEL 7 running in a Docker environment to compile and deploy your applications with the new {{site.data.keyword.streaminganalyticsshort}} v2 plans. 
 * [{{site.data.keyword.streaminganalyticsshort}} v2 REST API](https://console.bluemix.net/apidocs/1939-streaming-analytics-v2#introduction)![External link icon](../../icons/launch-glyph.svg "External link icon")
 * [New starter and sample applications](https://developer.ibm.com/streamsdev/docs/cloud-beta-samples/) ![External link icon](../../icons/launch-glyph.svg "External link icon")
 * [High-availability enhancements in the {{site.data.keyword.streaminganalyticsshort}} service](/docs/services/StreamingAnalytics/c_ha.html#consistent-regions)
@@ -582,7 +582,7 @@ New as of: 31 January 2018
 
 Effective today the {{site.data.keyword.keymanagementserviceshort}} encryption key management service is available in the Sydney region. Sydney is the third region after US South (Dallas) and London to offer GA status for {{site.data.keyword.keymanagementserviceshort}} users.
 
-{{site.data.keyword.keymanagementserviceshort}} is an encryption key management service that offers a simple and economical key management solution for managing keys that are used to encrypt data that is stored in the {{site.data.keyword.Bluemix_notm}}. {{site.data.keyword.keymanagementserviceshort}} manages the entire life-cycle of keys from key creation through application use, key archival, and key destruction, while also enforcing separation of duties between data management and key management.
+{{site.data.keyword.keymanagementserviceshort}} is an encryption key management service that offers a simple and economical key management solution for managing keys that are used to encrypt data that is stored in the {{site.data.keyword.Bluemix_notm}}. {{site.data.keyword.keymanagementserviceshort}} manages the entire lifecycle of keys from key creation through application use, key archival, and key destruction, while also enforcing separation of duties between data management and key management.
 
 {{site.data.keyword.keymanagementserviceshort}} supports BYOK (Bring-Your-Own-Key – customer managed encryption) with applicable IBM data services. BYOK allows users to import master root-of-trust encryption keys created internally to better manage the security of their data-at-rest saved in the {{site.data.keyword.Bluemix_notm}}.
 
@@ -626,7 +626,7 @@ You can now track push notification performance for specific time periods, track
 We now support Safari web browser for web notifications along with Firefox, Chrome, Chrome App and Extensions. Web SDK’s and related information can be found at [IBM Bluemix Push Notifications Web SDK](https://github.com/ibm-bluemix-mobile-services/bms-clientsdk-javascript-webpush/blob/Doc/README.md){: new_window} ![External link icon](../../icons/launch-glyph.svg "External link icon").
 
 #### Latest Android and iOS notifications
-We have currency support for iOS 11 notifications. We have also incorporated several new notification related enhancements from iOS10 and Android N.
+We have currency support for iOS 11 notifications. We have also incorporated several new notification-related enhancements from iOS10 and Android N.
 
 * iOS10 –Rich Media Notifications, images, button and maps in interactive notifications, localized string support
 * Android N – Expandable notifications, interactive and silent notifications, LED light settings
@@ -714,7 +714,7 @@ New as of: 01 August 2017
 
 Use the {{site.data.keyword.monitoringlong}} service to expand your collection, retention, and analysis capabilities in {{site.data.keyword.Bluemix_notm}} when working with metrics.
 
-* Alert into action! {{site.data.keyword.monitoringlong}} offers an API that you can use to set performance thresholds, and to be notified when those thresholds are breached. Define alert rules for a single service instance or app instance, and alert rules that report on a set of instances. When an alert is triggered, get a notification through an e-mail, a PagerDuty event, a webhook notification, or any combination of the three.
+* Alert into action! {{site.data.keyword.monitoringlong}} offers an API that you can use to set performance thresholds, and to be notified when those thresholds are breached. Define alert rules for a single service instance or app instance, and alert rules that report on a set of instances. When an alert is triggered, get a notification through an email, a PagerDuty event, a webhook notification, or any combination of the three.
 
 * Add custom metrics. {{site.data.keyword.monitoringlong}} premium plan offers APIs that you can use to add relevant application and business metrics to your Cloud Monitoring data. You can also use them to send metric data from outside the {{site.data.keyword.IBM_notm}} Cloud into the {{site.data.keyword.monitoringlong}} service.
 
@@ -740,7 +740,7 @@ The {{site.data.keyword.loganalysisfull}} service provides log collection and lo
 
 * Manage your retained logs, and send log data from outside the {{site.data.keyword.IBM_notm}} Cloud by using the new API.
 
-* Choose the amount of logs that you can search per day.  
+* Choose the number of logs that you can search per day.  
 
     Different plans are available that you can use to search up to 500 MB, 2 GB, 5 GB, and 10 GB of logs per day.
 
@@ -763,14 +763,14 @@ New features of the 18.x VRA are discussed in the following topics:
 
 * [How to Set up an IPSec Tunnel that Works with Zone Firewalls](/docs/infrastructure/virtual-router-appliance/vra-ipsec.html)
 * [Configuring a VFP interface with IPSec and Zone Firewalls](/docs/infrastructure/virtual-router-appliance/vra-vfp.html)
-* [Using NAT with prefix based IPSec](/docs/infrastructure/virtual-router-appliance/vra-nat.html)
+* [Using NAT with prefix-based IPSec](/docs/infrastructure/virtual-router-appliance/vra-nat.html)
 * [Troubleshooting Your VFP Interface](/docs/infrastructure/virtual-router-appliance/vra-vfp-troubleshooting.html)
 
 If you are migrating from Vyatta 5400, the best way to upgrade to 18.x is through the [normal procedure](/docs/infrastructure/virtual-router-appliance/upgrade-os.html) of a full OS reload.
 
 Because there is no simple one-to-one mapping of functionality between Vyatta 5400 and the Virtual Router Appliance, creating a baseline configuration for the VRA is helpful. An IBM Partner, WanClouds, can help you with this process, and provide guidance on creating functionality similar to the Vyatta 5400 on your VRA.
 
-For more information about common issues encountered during this upgrade proces, please refer to our [additional documentation](/docs/infrastructure/virtual-router-appliance/migration-issues.html#vyatta-5400-common-migration-issues).
+For more information about common issues encountered during this upgrade process, please refer to our [additional documentation](/docs/infrastructure/virtual-router-appliance/migration-issues.html#vyatta-5400-common-migration-issues).
 
 ### IBM dashDB for Analytics has been renamed
 New as of: 18 July 2017
@@ -789,7 +789,7 @@ New as of: 17 July 2017
 
 Use the {{site.data.keyword.monitoringlong}} service to expand your collection, retention, and analysis capabilities in {{site.data.keyword.Bluemix_notm}} when working with metrics.
 
-* Alert into action! {{site.data.keyword.monitoringlong}} offers an API that you can use to set performance thresholds, and to be notified when those thresholds are breached. Define alert rules for a single service instance or app instance, and alert rules that report on a set of instances. When an alert is triggered, get a notification through an e-mail, a PagerDuty event, a webhook notification, or any combination of the three.
+* Alert into action! {{site.data.keyword.monitoringlong}} offers an API that you can use to set performance thresholds, and to be notified when those thresholds are breached. Define alert rules for a single service instance or app instance, and alert rules that report on a set of instances. When an alert is triggered, get a notification through an email, a PagerDuty event, a webhook notification, or any combination of the three.
 
 * Add custom metrics. {{site.data.keyword.monitoringlong}} premium plan offers APIs that you can use to add relevant application and business metrics to your Cloud Monitoring data. You can also use them to send metric data from outside the {{site.data.keyword.IBM_notm}} Cloud into the {{site.data.keyword.monitoringlong}} service.
 
@@ -819,7 +819,7 @@ Benefits of the upgrade include bug fixes, performance improvements, and refinem
 ### {{site.data.keyword.uccr_short}} beta
 New as of: 23 June 2017
 
-{{site.data.keyword.uccr_short}} is an enterprise-scale release management solution that supports both cloud-native and on-prem deployment tools.
+{{site.data.keyword.uccr_short}} is an enterprise-scale release management solution that supports both cloud-native and on-premises deployment tools.
 
 The beta version of {{site.data.keyword.uccr_short}} provides the following key features:
 * Use releases to manage multiple deployment plans and events, and collaborate on multi-team release efforts.
@@ -886,7 +886,7 @@ We are happy to answer any questions related to {{site.data.keyword.sparkl}} or 
 ### {{site.data.keyword.macm_short}} is being deprecated
 New as of: 18 April 2017
 
-As of March 30th, 2017, {{site.data.keyword.macm_long}} service tile will be removed from the {{site.data.keyword.Bluemix_notm}} Catalog and you will no longer be able to provision new MACM instances. However, existing instances will continue to be supported. The End of Support Date is 30 March 2018. Please delete your {{site.data.keyword.macm_short}} (MACM) service instances before the End of Support Date. We encourage users to migrate to the IBM Watson Content Hub. Watson Content Hub is available on IBM Marketplace and provides users with a 30-day free trial. IBM Watson Content Hub provides similar functionality to MACM with added new capabilities such as asset management, cognitive tagging using IBM Watson services, and included content delivery network (CDN) to ensure an optimal experience for your customers. IBM offers service engagments to migrate content from MACM to Watson Content Hub.
+As of March 30th, 2017, {{site.data.keyword.macm_long}} service tile will be removed from the {{site.data.keyword.Bluemix_notm}} Catalog and you will no longer be able to provision new MACM instances. However, existing instances will continue to be supported. The End of Support Date is 30 March 2018. Please delete your {{site.data.keyword.macm_short}} (MACM) service instances before the End of Support Date. We encourage users to migrate to the IBM Watson Content Hub. Watson Content Hub is available on IBM Marketplace and provides users with a 30-day free trial. IBM Watson Content Hub provides similar functionality to MACM with added new capabilities such as asset management, cognitive tagging using IBM Watson services, and included content delivery network (CDN) to ensure an optimal experience for your customers. IBM offers service engagements to migrate content from MACM to Watson Content Hub.
 
 
 ### {{site.data.keyword.sparks}} updates: Notebook support now in Data Science Experience
