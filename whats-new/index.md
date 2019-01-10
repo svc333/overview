@@ -440,7 +440,7 @@ The Liberty buildpack v3.9 provides new monthly Liberty runtime version and cont
 ### Introducing {{site.data.keyword.backup_notm}}
 New as of 20 December 2018
 
-The {{site.data.keyword.BluSoftlayer_full}} storage infrastructure team is proud to announce the new {{site.data.keyword.backup_full}}, which includes a free-forever 10-GB tier. Also, all plug-ins are now free. Consequently, your implementation of specific application use-cases like MSSQL, Oracle DB, Exchange or even Bare Metal Restore incurs no extra costs. The new {{site.data.keyword.backup_notm}} is the best solution to enable your backup needs at any scale. For more information, see the [IBM Cloud Blog](https://www.ibm.com/blogs/bluemix/2018/12/introducing-a-new-cloud-backup-service-ibm-cloud-backup/){: new_window}![External link icon].
+The {{site.data.keyword.BluSoftlayer_full}} storage infrastructure team is proud to announce the new {{site.data.keyword.backup_full}}, which includes a free-forever 10-GB tier. Also, all plug-ins are now free. Consequently, your implementation of specific application use-cases like MSSQL, Oracle DB, Exchange or even Bare Metal Restore incurs no extra costs. The new {{site.data.keyword.backup_notm}} is the best solution to enable your backup needs at any scale. For more information, see the [IBM Cloud Blog ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://www.ibm.com/blogs/bluemix/2018/12/introducing-a-new-cloud-backup-service-ibm-cloud-backup/){: new_window}.
 
 ### Citrix NetScaler VPX Version 12.1
 New as of 21 November 2018
