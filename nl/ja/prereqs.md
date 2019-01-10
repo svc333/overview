@@ -3,7 +3,7 @@
 
 copyright:
   years: 2016, 2018
-lastupdated: "2018-08-15"
+lastupdated: "2018-11-28"
 
 ---
 
@@ -23,12 +23,13 @@ lastupdated: "2018-08-15"
 以下のリストに、{{site.data.keyword.Bluemix_notm}} に最小限必要なブラウザー・ソフトウェアを指定します。
 
  * Chrome: ご使用のオペレーティング・システムの最新バージョン
- * Firefox: ご使用のオペレーティング・システム用の最新の通常バージョンおよび ESR バージョン。詳しくは、『[Mozilla Firefox Extended Support Release](https://www.mozilla.org/firefox/organizations/)』を参照してください。
+ * Firefox: ご使用のオペレーティング・システム用の最新の通常バージョンおよび ESR バージョン。詳しくは、『[Mozilla Firefox
+Extended Support Release](https://www.mozilla.org/firefox/organizations/){: new_window} ![外部リンク・アイコン](../icons/launch-glyph.svg "外部リンク・アイコン")』を参照してください。
  * Edge: Windows の最新バージョン
  * Safari: Mac の最新バージョン
  
- **「フィードバック (Feedback)」**ボタンを使用して、Internet Explorer 11 に関する問題を報告できます。
- {:note}
+**「フィードバック (Feedback)」**ボタンを使用して、Internet Explorer 11 に関する問題を報告できます。
+{:note}
 
 ## コマンド・ライン・インターフェース (CLI)
 {: #cli}

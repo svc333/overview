@@ -3,7 +3,7 @@
 
 copyright:
   years: 2016, 2018
-lastupdated: "2018-08-15"
+lastupdated: "2018-11-28"
 
 ---
 
@@ -23,12 +23,13 @@ Os pré-requisitos para usar a plataforma do {{site.data.keyword.Bluemix_notm}} 
 A lista a seguir especifica o software do navegador mínimo necessário para o {{site.data.keyword.Bluemix_notm}}:
 
  * Chrome: versão mais recente para seu sistema operacional
- * Firefox: versões regulares e ESR mais recentes para seu sistema operacional, consulte [Mozilla Firefox Extended Support Release](https://www.mozilla.org/firefox/organizations/) para obter mais detalhes
+ * Firefox: versões ESR e regular mais recentes para o sistema operacional, consulte
+[Liberação de suporte estendido do Mozilla Firefox](https://www.mozilla.org/firefox/organizations/){: new_window} ![Ícone de link externo](../icons/launch-glyph.svg "Ícone de link externo") para obter mais detalhes
  * Edge: versão mais recente para Windows
  * Safari: versão mais recente para Mac
  
- É possível relatar problemas sobre o Internet Explorer 11 por meio do botão **Feedback**.
- {:note}
+É possível relatar problemas sobre o Internet Explorer 11 por meio do botão **Feedback**.
+{:note}
 
 ## Interface da Linha de Comandos (CLI)
 {: #cli}

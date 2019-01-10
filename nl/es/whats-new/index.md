@@ -4,14 +4,14 @@ copyright:
 
   years: 2015, 2018
 
-lastupdated: "2018-11-16"
+lastupdated: "2018-11-30"
 
 ---
 
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
 
-# Novedades de {{site.data.keyword.Bluemix_notm}}
+# Novedades en {{site.data.keyword.Bluemix_notm}}
 {: #whatsnew}
 
 Consulte información actualizada sobre las nuevas características y servicios disponibles en {{site.data.keyword.Bluemix}} para sacar el máximo provecho de {{site.data.keyword.Bluemix_notm}}. Las actualizaciones están organizadas en las siguientes categorías: [plataforma de {{site.data.keyword.Bluemix_notm}}](index.html#platform_category), [{{site.data.keyword.Bluemix_local_notm}} y {{site.data.keyword.Bluemix_dedicated_notm}}](index.html#dedicatedandlocal), [Compute](index.html#compute_category), y [Servicios](index.html#services_category).
@@ -20,12 +20,70 @@ Consulte información actualizada sobre las nuevas características y servicios 
 ## Plataforma {{site.data.keyword.Bluemix_notm}}
 {: #platform_category}
 
+
+### Nueva experiencia de soporte de {{site.data.keyword.Bluemix_notm}}
+Novedad desde: 30 de noviembre de 2018 
+{: #support}
+
+Con el centro de soporte, puede trabajar para resolver todos los problemas relacionados con {{site.data.keyword.Bluemix_notm}}. La página de destino proporciona preguntas frecuentes para poder encontrar la respuesta a su pregunta sin tener que ponerse en contacto con {{site.data.keyword.Bluemix_notm}}. También tiene la opción de chatear con un representante de soporte en directo. Ahora sus casos se pueden gestionar desde una única ubicación. Vaya a **Soporte** &gt; **Gestionar casos** para crear, visualizar o editar casos.
+
+También encontrará la [página de estado](https://cloud.ibm.com/status){: new_window} ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo") en el Centro de soporte. Se ha mejorado para incluir todas las incidencias no planificadas, mantenimiento planificado, anuncios y notificaciones de seguridad sobre sucesos clave que afectan a la plataforma, la infraestructura y los servicios principales de {{site.data.keyword.Bluemix_notm}}. Pulse **Ver estado de la nube** desde el Centro de soporte. Para ver la nueva experiencia, inicie sesión y vaya al [Centro de soporte](https://cloud.ibm.com/unifiedsupport/supportcenter){: new_window} ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo"). 
+
+### Inicio de sesión unificado, claves de API y gestión de acceso y usuario en {{site.data.keyword.Bluemix_notm}}
+Novedad desde: 30 de noviembre de 2018
+{: #useraccess}
+
+Con las últimas actualizaciones, puede aprovechar un inicio de sesión seguro simplificado que esté disponible para todos los usuarios independientemente del tipo de ID. Si tiene un IBMid o un ID de SoftLayer, puede iniciar sesión rápidamente en la consola de {{site.data.keyword.Bluemix_notm}} desde nuestra página de inicio de sesión mejorada. También puede realizar llamadas API en {{site.data.keyword.Bluemix_notm}} y automatizar el inicio de sesión de CLI utilizando una clave de API de IAM o una señal de acceso de IAM. 
+
+Una vez haya iniciado sesión, verá que ahora puede ver todos los usuarios, incluidos los usuarios de la infraestructura clásica y la plataforma de la página Usuarios en la IU de acceso (IAM). En función del acceso del que disponga para ver otros usuarios de la cuenta, podrá filtrar la vista por usuarios de cuenta, usuarios de infraestructura clásica o según la organización Cloud Foundry. También puede utilizar los filtros para buscar usuarios rápidamente por nombre, correo electrónico o estado.
+
+Ahora que todos los usuarios se encuentran en una sola consola, podrá gestionar el acceso a todos los tipos de recursos desde el mismo lugar. El primer paso para obtener el acceso es el usuario, por lo que lo primero que tiene que hacer es seleccionar un usuario de la lista. A continuación, en función del tipo de recurso al que desee asignarle acceso, puede eligir entre las políticas de acceso de IAM, el acceso de Cloud Foundry o los permisos de infraestructura clásicos. Si solo desea asignar políticas de acceso de IAM, intente crear un grupo de acceso para agilizar el proceso de gestión de accesos añadiendo todos los usuarios al mismo grupo de acceso que necesita que se le asignen las mismas políticas.
+
+### Busque toda la documentación del plugin de la CLI de {{site.data.keyword.Bluemix_notm}} en el mismo lugar
+Novedad desde: 30 de noviembre de 2018
+{: #cli}
+
+Ahora puede acceder a toda la documentación del plugin de la CLI de {{site.data.keyword.Bluemix_notm}} en una misma ubicación, lo que facilita la búsqueda de mandatos de CLI en la plataforma {{site.data.keyword.Bluemix_notm}}. Consulte la sección Referencias de la [documentación de CLI](/docs/cli/index.html#overview).
+
+### Consulte el panel de control y la lista de recursos nuevos
+Novedad desde: 30 de noviembre de 2018
+{: #dash}
+
+Con nuestra última actualización, ahora podrá ver todos los servicios de infraestructura y plataforma en el mismo lugar. Cuando inicie sesión, podrá consultar el nuevo panel de control de inmediato. Una vez haya añadido los recursos a su cuenta desde el catálogo, podrá utilizar la lista de recursos para obtener una vista completa de los recursos de la cuenta. A continuación, se muestran algunos detalles de los cambios que verá:
+
+* El panel de control se ha rediseñado para que pueda ver un resumen de los recursos, mantenimiento, estado, apps, soporte, uso y usuarios.
+* Encontrará más detalles sobre sus recursos en la lista de recursos. Puede etiquetar los recursos para organizarlos o seleccionarlos para realizar cambios en la página de detalles.
+* Ahora que puede ver todos los recursos en un mismo lugar, hemos añadido una búsqueda global para que pueda encontrar rápidamente los recursos que ha creado y esperar que aparezcan en la página Lista de recursos. 
+* También puede buscar resultados de catálogo, para poder encontrar rápidamente recursos y añadirlos a su cuenta.  
+
+### Información de perfil de usuario, facturación y cuenta para servicios de plataforma e infraestructura
+Novedad desde: 30 de noviembre de 2018
+{: #profile}
+
+La información de cuenta, facturación y perfil se ha simplificado. Ahora puede ver la información de cuenta para todos los recursos de plataforma e infraestructura en una consola unificada. 
+
+* El área de valores y perfil contiene información sobre usted, además de preferencias de notificación de correo electrónico para todos los tipos de recursos. 
+* El área de información de cuenta contiene información sobre la empresa u organización, los valores de cuenta y el acceso rápido para trabajar con grupos de recursos y organizaciones de Cloud Foundry. Incluso puede encontrar prácticas recomendadas para ayudarle a empezar a trabajar rápidamente.
+* El área de uso y facturación de su cuenta le ayuda a comprender la factura, a realizar pagos, a supervisar suscripciones, a obtener presupuestos, a realizar un seguimiento de los pedidos y a establecer notificaciones de gastos.
+
+### Organizar los recursos con etiquetas
+Novedad desde: 30 de noviembre de 2018
+{: #tag}
+
+Ahora puede añadir etiquetas a sus recursos como, por ejemplo, Cloud Object Storage, para que le ayuden a gestionar recursos y a buscar los que sean más relevantes para usted. Por ejemplo, si tiene cientos de recursos y desea diferenciar entre un par de ellos que se pagan de la misma manera, puede etiquetarlos como "centrocoste:ubicación01". O, si tiene un equipo que trabaja en un par de recursos de manera constante, puede utilizar una etiqueta como "equipo-azul". También puede filtrar la lista de recursos por etiquetas para organizar y encontrar rápidamente los recursos que necesita. Para obtener más información, consulte [Cómo trabajar con etiquetas](/docs/resources/tagging_resources.html#tag).
+
+### Buscar costes mensuales precisos con el estimador de costes
+Novedad desde: 30 de noviembre de 2018
+{: #cost-estimator}
+
+Para ayudarle a decidir y analizar qué servicios comprar, puede utilizar el estimador de costes. Ahora, puede examinar la consola y seleccionar los servicios que desee tener y añadir todos los costes en una herramienta fácil de utilizar. Incluso puede especificar los usos de datos proyectados, las búsquedas, escrituras y consultas por segundo para obtener una estimación más precisa de sus gastos mensuales. Puede utilizar el estimador de costes con cada servicio de catálogo que seleccione o puede pulsar en el icono del estimador de costes ![Icono Estimador](../../icons/Estimator.svg) del menú de la consola para obtener un coste estimado. Para obtener más información, consulte [Estimación de los costes](/docs/billing-usage/estimating_costs.html#cost).
+
 ### Nombres de ubicaciones globales actualizados para {{site.data.keyword.cloud_notm}}
 Novedad desde: 1 de noviembre de 2018
 
 A medida que {{site.data.keyword.cloud_notm}} continúa expandiendo su disponibilidad global, se va actualizando la estructura de nombres de ubicaciones para dar un mejor soporte a una jerarquía coherente y comprensible de geografías, regiones y centros de datos en todo el mundo. Si está familiarizado con nuestras regiones globales actuales, reconocerá nombres como EE.UU. sur y Sídney. Estamos alineando estos nombres de ubicaciones con los nombres de las ciudades en las que ser encuentran físicamente los centros de datos.
 
-Por ahora no se están modificando los ID programáticos, de modo que esto no afecta desde una perspectiva de API. A continuación encontrará una tabla en la que se muestran los nombres de ubicación antiguos y nuevos. Para obtener más información y ver una lista completa de centros de datos y regiones, consulte [Disponibilidad de servicios](docs/resources/services_region.html).
+Por ahora no se están modificando los ID programáticos, de modo que esto no afecta desde una perspectiva de API. A continuación encontrará una tabla en la que se muestran los nombres de ubicación antiguos y nuevos. Para obtener más información y ver una lista completa de centros de datos y regiones, consulte [Disponibilidad de servicios](/docs/resources/services_region.html).
 
 | Nombre ubicación anterior | Nuevo nombre ubicación | Código |
 |----------|---------|---------|
@@ -373,6 +431,31 @@ El paquete de compilación de Liberty v3.9 proporciona una nueva versión de tie
 ## Servicios
 {: #services_category}
 
+### Citrix NetScaler VPX versión 12.1
+Novedad desde el 21 de noviembre de 2018
+{: #vpx121}
+
+#### Servidores virtuales con varias direcciones IP
+Ahora puede crear un servidor virtual de equilibrio de carga con varias direcciones VIP, IPv4 e IPv6 consecutivas/no consecutivas. Cada dirección VIP enlazada a un servidor virtual se trata como un servidor virtual individual.
+
+Para obtener más información sobre esta característica, consulte el artículo Citrix [Varios servidores virtuales de IP ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](https://docs.citrix.com/en-us/netscaler/12-1/load-balancing/load-balancing-customizing/multi-ip-virtual-servers.html){: new_window}.
+
+#### SSL
+Se han aplicado las actualizaciones siguientes para las conexiones SSL:
+ 
+* Eliminación de cifrados débiles desde el grupo de cifrado DEFAULT_BACKEND. 
+* Soporte para cifrados ECDHE en el frontal del HSM externo de Thales nShield®
+* Soporte para cifrados ECDHE en el frontal del HSM externo de la red de SafeNet
+* Eliminación de SSLv2: El dispositivo de NetScaler VPX no ofrece soporte a SSLv2 a partir del release 12.1.
+
+Para obtener más detalles sobre las actualizaciones de SSL 12.1, consulte las [notas del release de Citrix 12.1 ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](https://docs.citrix.com/en-us/netscaler/12-1/downloads/release-notes-12-1-48-13.html){: new_window}.
+
+#### Soporte de grupos de servicio para GSLB
+Ahora puede configurar grupos de servicio basados en direcciones IP, grupos de servicio basados en nombres de dominio o grupos de servicios de escalado automático basados en nombres de dominio para GSLB. También puede gestionar un grupo de servicios de forma tan sencilla como un único servicio y enlazar un grupo de servicios a un servidor virtual, así como añadir servicios al grupo.
+
+Para obtener más información sobre los grupos de servicio de GSLB, consulte el artículo de Citrix [Configuración de un grupo de servicios GSLB ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](https://docs.citrix.com/en-us/netscaler/12/global-server-load-balancing/configure/configuring-a-gslb-service-group.html){: new_window}.
+
+
 ### Actualización principal de {{site.data.keyword.conversationshort}}
 Novedad desde: 9 de noviembre de 2018
 
@@ -391,7 +474,7 @@ Para empezar a conocer los conceptos básicos de cada producto de código abiert
 ### Actualizaciones más recientes para {{site.data.keyword.cloudant_short_notm}}
 Novedad desde: 28 de septiembre de 2018
 
-Visite la página siguiente para obtener una lista completa de las [últimas actualizaciones ](/docs/services/Cloudant/release_info/release_notes.html#release-notes){:new_window} ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo") de {{site.data.keyword.cloudant_short_notm}}.
+Visite la página siguiente para obtener una lista completa de las [últimas actualizaciones](/docs/services/Cloudant/release_info/release_notes.html#release-notes){:new_window} ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo") de {{site.data.keyword.cloudant_short_notm}}.
 
 ### Introducción a la disponibilidad general de {{site.data.keyword.IBM_notm}} {{site.data.keyword.DRA_short}}
 Novedad desde: 20 de septiembre de 2018
@@ -441,7 +524,7 @@ Novedad desde: 20 de abril de 2018
  
 Puede acceder a esta nueva infraestructura basada en contenedores utilizando los [planes de servicio de v2](/docs/services/StreamingAnalytics/service_plans.html#service_plans). Puede elegir el plan de {{site.data.keyword.streaminganalyticsshort}} que se adapta mejor a la labor que debe realizar. Los planes de servicio de v2 incluyen las mejoras siguientes:
  
-* [ IBM Streams QSE with Docker](https://www-01.ibm.com/marketing/iwm/iwm/web/preLogin.do?source=swg-ibmistvi)![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo"): Consulte la [Development Guide](https://developer.ibm.com/streamsdev/docs/cloud-beta-devguide/)![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo") para aprender a utilizar las nuevas instancias de Streams QSE con RHEL 7 ejecutándose en un entorno Docker para compilar y desplegar sus aplicaciones con los nuevos planes v2 de {{site.data.keyword.streaminganalyticsshort}}. 
+* [IBM Streams QSE with Docker](https://www-01.ibm.com/marketing/iwm/iwm/web/preLogin.do?source=swg-ibmistvi)![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo"): Consulte la [Development Guide](https://developer.ibm.com/streamsdev/docs/cloud-beta-devguide/)![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo") para aprender a utilizar las nuevas instancias de Streams QSE con RHEL 7 ejecutándose en un entorno Docker para compilar y desplegar sus aplicaciones con los nuevos planes v2 de {{site.data.keyword.streaminganalyticsshort}}. 
 * [{{site.data.keyword.streaminganalyticsshort}} v2 REST API](https://console.bluemix.net/apidocs/1939-streaming-analytics-v2#introduction)![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")
 * [Nuevas aplicaciones de punto de partida y de ejemplo](https://developer.ibm.com/streamsdev/docs/cloud-beta-samples/) ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")
 * [Mejoras de alta disponibilidad en el servicio {{site.data.keyword.streaminganalyticsshort}}](/docs/services/StreamingAnalytics/c_ha.html#consistent-regions)
@@ -474,7 +557,7 @@ Actualmente, los clasificadores personalizados existentes pueden seguir actualiz
 ### Actualizaciones de {{site.data.keyword.streaminganalyticsshort}}
 Novedad desde: 14 de febrero de 2018
 
-Los [planes Beta-Entry y Beta-Enhanced](/docs/services/StreamingAnalytics/beta_plans.html#beta_plans) para la consola en el [servicio {{site.data.keyword.streaminganalyticsshort}} ](https://console.bluemix.net/catalog/services/streaming-analytics){: new_window} ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo") incluyen varias mejoras:
+Los [planes Beta-Entry y Beta-Enhanced](/docs/services/StreamingAnalytics/beta_plans.html#beta_plans) para la consola en el [servicio {{site.data.keyword.streaminganalyticsshort}}](https://console.bluemix.net/catalog/services/streaming-analytics){: new_window} ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo") incluyen varias mejoras:
 
 * [Nuevo: IBM Streams QSE for Docker](https://www-01.ibm.com/marketing/iwm/iwm/web/preLogin.do?source=swg-ibmistvi){: new_window} ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo"): Consulte la [Beta Development Guide](https://developer.ibm.com/streamsdev/docs/cloud-beta-devguide/){: new_window} ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo") para aprender a utilizar las nuevas instancias de Streams QSE con RHEL 7 ejecutándose en un entorno Docker para compilar y desplegar sus aplicaciones con los nuevos planes beta de {{site.data.keyword.streaminganalyticsshort}}.
 * [{{site.data.keyword.streaminganalyticsshort}} v2 REST API](https://console.bluemix.net/apidocs/1939-streaming-analytics-v2#introduction){: new_window} ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")
@@ -801,4 +884,3 @@ Novedad desde: 11 de abril de 2017
 La nueva plataforma para trabajar con cuadernos y Spark es Data Science Experience. Regístrese en [Data Science Experience](http://datascience.ibm.com/), y empiece a crear cuadernos y a compartir su experiencia con otros científicos de datos.
 
 Si ha trabajado con cuadernos en {{site.data.keyword.sparks}}, podrá migrarlos a Data Science Experience. Para obtener más información, consulte [Migración de la documentación de cuadernos](/docs/services/AnalyticsforApacheSpark/index-gentopic2.html#migration_to_dsx).
-

@@ -40,7 +40,7 @@ IBM のクラウド・プラットフォームは、Platform as a Service (PaaS)
 
 {{site.data.keyword.baremetal_short}}は、単一の顧客専用のシングル・テナントの物理サーバーです。サーバー・ホストから RAM およびストレージ・デバイスまで、ほとんどすべてを制御します。これらのサーバーは、数カ月などの長期間にわたってコンピュート能力を必要とするワークロードで使用されます。 
 
-{{site.data.keyword.baremetal_short}} は、パブリック・インスタンスまたは専用インスタンスとしてデプロイできます。パブリック・インスタンスでは、サーバーのリソースは他のお客様と共有されます。これはマルチテナント環境とも呼ばれます。専用インスタンスでは、物理サーバーのリソースは、同じサーバー上に 1 つ以上の仮想マシンを持つことができる 1 人のお客様専用になります。これらのサーバーは、数週間など、限られた期間実行されるワークロードに最適です。ワークロードの例としては、開発とテスト、バックアップとリカバリー、および災害復旧などがあります。サーバー・オプションについて詳しくは、『[Bare metal servers vs. virtual servers: Choosing the best option for you](https://www.ibm.com/blogs/bluemix/2018/06/bare-metal-virtual-servers-works/){: new_window} ![外部リンク・アイコン](../icons/launch-glyph.svg "外部リンク・アイコン")』を参照してください。
+{{site.data.keyword.BluVirtServers_short}} は、パブリック・インスタンスまたは専用インスタンスとしてデプロイできます。パブリック・インスタンスでは、サーバーのリソースは他のお客様と共有されます。これはマルチテナント環境とも呼ばれます。専用インスタンスでは、物理サーバーのリソースは、同じサーバー上に 1 つ以上の仮想マシンを持つことができる 1 人のお客様専用になります。これらのサーバーは、数週間など、限られた期間実行されるワークロードに最適です。ワークロードの例としては、開発とテスト、バックアップとリカバリー、および災害復旧などがあります。サーバー・オプションについて詳しくは、『[Bare metal servers vs. virtual servers: Choosing the best option for you](https://www.ibm.com/blogs/bluemix/2018/06/bare-metal-virtual-servers-works/){: new_window} ![外部リンク・アイコン](../icons/launch-glyph.svg "外部リンク・アイコン")』を参照してください。
 
 コンピュート・オプションの要約については、以下の表を確認してください。
 

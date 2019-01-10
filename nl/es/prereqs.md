@@ -3,7 +3,7 @@
 
 copyright:
   years: 2016, 2018
-lastupdated: "2018-08-15"
+lastupdated: "2018-11-28"
 
 ---
 
@@ -24,12 +24,12 @@ La lista siguiente especifica el software de navegador mínimo requerido para {{
 
  * Chrome: versión más reciente para el sistema operativo
  * Firefox: versiones normal y ESR más recientes para el sistema operativo, consulte [Mozilla Firefox
-Extended Support Release](https://www.mozilla.org/firefox/organizations/) para obtener más detalles
+Extended Support Release](https://www.mozilla.org/firefox/organizations/){: new_window} ![Icono de enlace externo](../icons/launch-glyph.svg "Icono de enlace externo") para obtener más detalles
  * Edge: última versión para Windows
  * Safari: versión más reciente para Mac
  
- Puede notificar problemas sobre Internet Explorer 11 con el botón **Comentarios**.
- {:note}
+Puede notificar problemas sobre Internet Explorer 11 con el botón **Comentarios**.
+{:note}
 
 ## Interfaz de la línea de mandatos (CLI)
 {: #cli}

@@ -4,7 +4,7 @@ copyright:
 
   years: 2017, 2018
 
-lastupdated: "2018-05-22"
+lastupdated: "2018-11-05"
 
 ---
 
@@ -19,7 +19,7 @@ lastupdated: "2018-05-22"
 
 Los nombres de recursos de nube (CRN) identifican exclusivamente recursos de {{site.data.keyword.Bluemix_notm}}. Un CRN se utiliza para especificar un recurso de forma inequívoca y con garantía de que es globalmente exclusivo, como en las políticas y servicios de Gestión de identidad y acceso de {{site.data.keyword.Bluemix_notm}} (IAM) listadas en el catálogo de nube.
 
-Un CRN se forma a partir de una concatenación de "segmentos" que identifican jerárquicamente el recurso, su ubicación y el servicio al que pertenece. El delimitador de segmento se establece en ':' (p.ej. el carácter de dos puntos). Todos los CRN empiezan con el identificador de segmento 'crn'.
+Un CRN se forma a partir de una concatenación de "segmentos" que identifican jerárquicamente el recurso, su ubicación y el servicio al que pertenece. El delimitador de segmento se establece en ':' (el carácter de dos puntos). Todos los CRN empiezan con el identificador de segmento 'crn'.
 
 
 ## Formato de CRN
@@ -33,7 +33,7 @@ El formato canónico base de un CRN es:
 ## version
 {: #version}
 
-El segmento `version` identifica la versión del formato de CRN. Actualmente el único valor de segmento de versión válido es **v1**.
+El segmento `version` identifica la versión del formato de CRN. Actualmente, el único valor de segmento de versión válido es **v1**.
 
 
 ## cname
@@ -101,7 +101,7 @@ La `location` debe ser uno de los siguientes valores:
 | PAR01  | SJC01  | SJC03  | SAO01  |  SEA01  |
 | SEO01  | SNG01  | SYD01  | TOK02  |  TOR01  |
 | WDC01  | WDC04  | WDC06  | WDC07  |
-{: caption="Tabla 1. Valores de centro de datos válidos" caption-side="top"}
+{: caption="Tabla 1. Valores de `Centro de datos` válidos" caption-side="top"}
 
 Algunos recursos no requieren una región (pueden considerarse `global`). En este caso, el segmento `region` se establece en `global`.
 {: tip}
@@ -121,7 +121,6 @@ El valor del segmento `scope` debe tener el formato `{scopePrefix}`/`{id}`. El `
 | Espacio | s/`{space guid}` | El espacio de {{site.data.keyword.Bluemix_notm}} al que se ha asignado el recurso. | s/48b3cdcd-e804-4398-9032-73065863ad7c |
 {: caption="Tabla 2. Uso del `ámbito`" caption-side="top"}
 
-El `account id` debe ser el ID de cuenta de IBM (cuentas enlazadas e {{site.data.keyword.Bluemix_notm}} y Softlayer).
 
 
 ## service-instance
@@ -141,7 +140,6 @@ ibmcloud resource service-instance
 ```
 {: codeblock}
 
-
 ## resource-type, resource
 {: #resource-type}
 
@@ -159,7 +157,7 @@ Lo siguiente es una lista de ejemplos de CRN.
 
 | Ejemplo | Valor |
 | --- | --- |
-| Trabajador de Kubernetes | `crn:v1:bluemix:public:containers-kubernetes:us-south:a/59bcbfa6ea2f006b4ed7094c1a08dcdd:8042b2a8af6a4a5cbf6dbe09e07311d2:worker:kube-hou02-pa8042b2a8af6a4a5cbf6dbe09e07311d2-w1`|
+| Trabajador de Kubernetes | `crn:v1:bluemix:public:containers-kubernetes:us-south:a/59bcbfa6ea2f006b4ed7094c1a08dcdd:8042b2a8af6a4a5cbf6dbe09e07311d2:worker:kube-hou02-pa8042b2a8af6a4a5cbf6dbe09e07311d2-w1` |
 | Grupo de recursos | `crn:v1:bluemix:public:resource-controller: global:a/59bcbfa6ea2f006b4ed7094c1a08dcdd:resource-group:59bcbfa6ea2f006b4ed7094c1a08dcdd` |
 | Instancia de servicio | `crn:v1:bluemix:public:cloud-object-storage:global:a/59bcbfa6ea2f006b4ed7094c1a08dcdd:1a0ec336-f391-4091-a6fb-5e084a4c56f4::` |
 | Grupo | `crn:v1:bluemix:public:cloud-object-storage:global:a/59bcbfa6ea2f006b4ed7094c1a08dcdd:1a0ec336-f391-4091-a6fb-5e084a4c56f4:bucket:mybucket` |
