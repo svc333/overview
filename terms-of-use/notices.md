@@ -4,8 +4,8 @@
 
 copyright:
 
-  years: 2015, 2018
-lastupdated: "2018-12-04"
+  years: 2015, 2019
+lastupdated: "2019-01-14"
 
 
 ---
@@ -24,7 +24,7 @@ lastupdated: "2018-12-04"
 Your IBM Cloud Account and any services ordered from the IBM Cloud are provided under the term of:
 
   * Base Agreement Cloud Terms applicable to you as follows:
-    * SoftLayer Cloud Service Agreement for US Dollar credit card billing, available at [https://www.ibm.com/terms/softlayer](https://www.ibm.com/terms/softlayer){: new_window} ![External link icon](../../icons/launch-glyph.svg)
+    * SoftLayer Cloud Service Agreement for US Dollar credit card billing, available at [https://www.ibm.com/support/customer/zz/en/softlayer.html](https://www.ibm.com/support/customer/zz/en/softlayer.html){: new_window} ![External link icon](../../icons/launch-glyph.svg)
     * IBM Cloud Services Agreement (local country version*) for non-US Dollar credit card billing, or if you select invoicing from IBM, available at [https://www.ibm.com/terms](https://www.ibm.com/terms){: new_window} ![External link icon](../../icons/launch-glyph.svg) (select your country);
     * IBM Passport Advantage Agreement you accepted and the General Terms for Cloud Offerings TOU for IBM Passport Advantage Clients, available at [http://www-03.ibm.com/software/sla/sladb.nsf/sla/tou](http://www-03.ibm.com/software/sla/sladb.nsf/sla/tou){: new_window} ![External link icon](../../icons/launch-glyph.svg); or
     * equivalent cloud service base agreement terms between you and IBM;
