@@ -4,7 +4,7 @@
 
 copyright:
   years: 2018
-lastupdated: "2018-04-12"
+lastupdated: "2018-11-30"
 
 
 ---
@@ -43,7 +43,7 @@ Riesamina le seguenti informazioni relative all'interfaccia utente {{site.data.k
 
 Lo stato di conformità di accesso facilitato dell'interfaccia utente Web {{site.data.keyword.Bluemix_notm}} è specifico per la piattaforma del prodotto {{site.data.keyword.Bluemix_notm}}. Esistono delle sezioni secondarie dell'interfaccia utente che appartengono a prodotti o servizi di terze parti che ospitano contenuti all'interno della piattaforma, per cui il record di conformità {{site.data.keyword.Bluemix_notm}} non mantiene o possiede lo stato di conformità dell'accesso facilitato. Ciò significa che se accedi a un'interfaccia utente o documentazione per un servizio, devi richiedere le dichiarazioni di conformità per tale servizio. Ad esempio, se utilizzi un'interfaccia per IBM Containers, la console di gestione per un ambiente locale o dedicato oppure un servizio IoT, devi richiedere le [informazioni sull'accesso facilitato del prodotto ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")](http://www-03.ibm.com/able/product_accessibility/index.html){: new_window} per tale interfaccia o documentazione.
 
-La conformità di accesso facilitato della documentazione {{site.data.keyword.Bluemix_notm}} è specifica per le informazioni della piattaforma principale {{site.data.keyword.Bluemix_notm}} e non si estende ad alcun servizio. Dalla homepage, il contenuto viene suddiviso in due sezioni: "{{site.data.keyword.Bluemix_notm}}" e "Calcolo e servizi." La documentazione per {{site.data.keyword.Bluemix_notm}} viene gestita e riportata nelle informazioni sull'accesso facilitato del prodotto IBM Bluemix Continuous Delivery disponibili su richiesta. Per lo stato di conformità di un qualsiasi servizio, devi richiedere le [informazioni sull'accesso facilitato del prodotto ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")](http://www-03.ibm.com/able/product_accessibility/index.html){: new_window}.
+La conformità di accesso facilitato della documentazione {{site.data.keyword.Bluemix_notm}} è specifica per le informazioni della piattaforma principale {{site.data.keyword.Bluemix_notm}} e non si estende ad alcun servizio. Dalla homepage, il contenuto viene suddiviso in schede e la scheda Tutti i documenti è il contenuto che viene gestito separatamente dai team del servizio. La documentazione per {{site.data.keyword.Bluemix_notm}} viene gestita e riportata nelle informazioni sull'accesso facilitato del prodotto IBM Bluemix Continuous Delivery disponibili su richiesta. Per lo stato di conformità di un qualsiasi servizio, devi richiedere le [informazioni sull'accesso facilitato del prodotto ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")](http://www-03.ibm.com/able/product_accessibility/index.html){: new_window}.
 
 Oltre all'help desk IBM standard e ai siti web di supporto, IBM ha stabilito un servizio telefonico TTY che può essere utilizzato da persone sorde o con problemi di udito per accedere alle vendite e ai servizi di supporto:
 
