@@ -70,14 +70,13 @@ ibmcloud api https://api.eu-gb.bluemix.net
 
 A unique prefix is assigned to each location. {{site.data.keyword.cloud_notm}} provides the following locations and location prefixes.
 
-| **Location** | **API endpoint** |
-|-----------------|-------------------|
-| Dallas | api.ng.bluemix.net |
-| Sydney | api.au-syd.bluemix.net |
-| Frankfurt | api.eu-de.bluemix.net |
-| London | api.eu-gb.bluemix.net |
+| **Location**  | **API endpoint**        |
+|---------------|-------------------------|
+| Dallas        | api.ng.bluemix.net      |
+| Sydney        | api.au-syd.bluemix.net  |
+| Frankfurt     | api.eu-de.bluemix.net   |
+| London        | api.eu-gb.bluemix.net   |
 | Washington DC | api.us-east.bluemix.net |
-| Tokyo | api.jp-tok.bluemix.net |
 {: caption="Table 1. {{site.data.keyword.cloud_notm}} location list" caption-side="top"}
 
 When you deploy infrastructure resources, you have more options about where your data is located. You can select a location, or you can select from a list of the data centers in {{site.data.keyword.Bluemix_notm}}. 
@@ -95,72 +94,72 @@ A data center is the physical location that hosts the power, cooling, compute, n
 ### North America
 {: #na}
 
-| Data center name | Code |
-|----------|---------|
-|Dallas 01|dal01|
-|Dallas 05|dal05|
-|Dallas 06|dal06|
-|Dallas 07|dal07|
-|Dallas 09|dal09|
-|Dallas 10|dal10|
-|Dallas 12|dal12|
-|Dallas 13|dal13|
-|Washington DC 01|wdc01|
-|Washington DC 04|wdc04|
-|Washington DC 06|wdc06|
-|Washington DC 07|wdc07|
-|San Jose 01|sjc01|
-|San Jose 03|sjc03|
-|San Jose 04|sjc04|
-|Seattle 01|sea01|
-|Houston 01|hou01|
-|Montreal 01|mon01|
-|Toronto 01|tor01|
-|Mexico 01|mex01|
+| Data center name | Code  |
+|------------------|-------|
+| Dallas 01        | dal01 |
+| Dallas 05        | dal05 |
+| Dallas 06        | dal06 |
+| Dallas 07        | dal07 |
+| Dallas 09        | dal09 |
+| Dallas 10        | dal10 |
+| Dallas 12        | dal12 |
+| Dallas 13        | dal13 |
+| Washington DC 01 | wdc01 |
+| Washington DC 04 | wdc04 |
+| Washington DC 06 | wdc06 |
+| Washington DC 07 | wdc07 |
+| San Jose 01      | sjc01 |
+| San Jose 03      | sjc03 |
+| San Jose 04      | sjc04 |
+| Seattle 01       | sea01 |
+| Houston 01       | hou01 |
+| Montreal 01      | mon01 |
+| Toronto 01       | tor01 |
+| Mexico 01        | mex01 |
 {: caption="Table 2. Data centers in North America" caption-side="top"}
 
 ### South America
 {: #sa}
 
-| Data center name | Code |
-|----------|---------|
-|Sao Paulo 01|sao01|
+| Data center name | Code    |
+|------------------|---------|
+| Sao Paulo 01     | sao01   |
 {: caption="Table 3. Data centers in South America" caption-side="top"}
 
 ### Europe
 {: #eu}
 
-| Data center name | Code |
-|----------|---------|
-|London 02|lon02|
-|London 04|lon04|
-|London 05|lon05|
-|London 06|lon06|
-|Frankfurt 02|fra02|
-|Frankfurt 04|fra04|
-|Frankfurt 05|fra05|
-|Milan 01|mil01|
-|Amsterdam 01|ams01|
-|Amsterdam 03|ams03|
-|Paris 01|par01|
-|Oslo 01|osl01|
+| Data center name | Code  |
+|------------------|-------|
+| London 02        | lon02 |
+| London 04        | lon04 |
+| London 05        | lon05 |
+| London 06        | lon06 |
+| Frankfurt 02     | fra02 |
+| Frankfurt 04     | fra04 |
+| Frankfurt 05     | fra05 |
+| Milan 01         | mil01 |
+| Amsterdam 01     | ams01 |
+| Amsterdam 03     | ams03 |
+| Paris 01         | par01 |
+| Oslo 01          | osl01 |
 {: caption="Table 4. Data centers in Europe" caption-side="top"}
 
 ### Asia Pacific
 {: #ap}
 
-| Data center name | Code |
-|----------|---------|
-|Tokyo 01|tok02|
-|Tokyo 04|tok04|
-|Tokyo 05|tok05|
-|Seoul 01|seo01|
-|Hong Kong 02|hkg02|
-|Singapore 01|sng01|
-|Sydney 01|syd01|
-|Sydney 04|syd04|
-|Sydney 05|syd05|
-|Melbourne 01|mel01|
+| Data center name | Code  |
+|------------------|-------|
+| Tokyo 01         | tok02 | 
+| Tokyo 04         | tok04 |
+| Tokyo 05         | tok05 |
+| Seoul 01         | seo01 |
+| Hong Kong 02     | hkg02 |
+| Singapore 01     | sng01 |
+| Sydney 01        | syd01 |
+| Sydney 04        | syd04 |
+| Sydney 05        | syd05 |
+| Melbourne 01     | mel01 |
 {: caption="Table 5. Data centers in Asia Pacific" caption-side="top"}
 
 
@@ -185,11 +184,11 @@ You're eligible for a credit toward your account if you experience downtime less
 - Cloud services in the public environment that are configured for high availability as described in the catalog details for each service. 
 - Cloud services across several dedicated or local environments in geographically separated data centers. 
 
-|Type	|Description	|Support Details|
-|-----|-------------|---------------|
-|High Availability Public Environment or Multiple Dedicated/Local Environments |Other Environments |Credit |
-|<99.95% |<99.5% |10% |
-|<99.90% |<99.0% |25% |
+| Type	                                                                        | Description	       | Support Details|
+|-------------------------------------------------------------------------------|--------------------|----------------|
+| High Availability Public Environment or Multiple Dedicated/Local Environments | Other Environments | Credit         |
+| <99.95%                                                                       |<99.5%              |10%             |
+| <99.90%                                                                       |<99.0%              |25%             |
 {: caption="Table 6. Monthly availability service level" caption-side="top"}
 
 Availability percentage is calculated as the total number of minutes in a contracted month minus the total number of downtime minutes in that month divided by the total number of minutes in that month. 
@@ -224,15 +223,15 @@ Downtime doesn't include time for scheduled or announced maintenance. For each 3
 
 Service level time periods exclude any time that is required to reload the operating system or applications or the time performance might be degraded. You're eligible for a credit based on the monthly charge for the service that is affected by the hardware replacement or upgrade if {{site.data.keyword.Bluemix_notm}} fails to meet a specified service level time period.
 
-|Type	|Description	|
-|-----|-------------|
-|Service Level Time Period |Credit Percent |
-|≤ 2 hours |None |
-|> 2 hours |20% |
-|> 6 hours |40% |
-|> 10 hours |60% |
-|> 14 hours |80% |
-|> 18 hours |80% |
+| Type	                    | Description	   |
+|---------------------------|----------------|
+| Service Level Time Period | Credit Percent |
+| ≤ 2 hours                 | None           |
+| > 2 hours                 | 20%            |
+| > 6 hours                 | 40%            |
+| > 10 hours                | 60%            |
+| > 14 hours                | 80%            |
+| > 18 hours                | 80%            |
 {: caption="Table 7. Credit based on the monthly charge for the service that is affected by the hardware replacement or upgrade" caption-side="top"}
 
 ### Claims
