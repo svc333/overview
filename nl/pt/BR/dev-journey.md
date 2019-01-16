@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2016, 2019
-lastupdated: "2019-01-03"
+  years: 2016, 2017, 2018
+lastupdated: "2018-11-28"
 
 ---
 {:new_window: target="_blank"}
@@ -24,18 +24,14 @@ para que você se torne funcional. Duas ferramentas principais são oferecidas p
  * Console da web do {{site.data.keyword.cloud_notm}} (Portais do desenvolvedor)
  * {{site.data.keyword.cloud_notm}}interface de linha de comandos (CLI)
 
-Com o {{site.data.keyword.cloud_notm}}, é possível:
+Dentro dos Portais do desenvolvedor do {{site.data.keyword.cloud_notm}}, é possível:
 
 * Selecionar os kits do iniciador que são específicos do caso de uso e produzir apps prontos para produção em várias linguagens de programação e padrões arquiteturais.
-* Usar um [Padrão de código do IBM Developer ![Ícone de link externo](../icons/launch-glyph.svg "Ícone de link externo")](https://developer.ibm.com/patterns/){:new_window} para criar rapidamente o app e implementá-lo no {{site.data.keyword.cloud_notm}}.
 * Consultar e gerenciar os recursos fornecidos automaticamente por meio do kit do iniciador ou incluí-los manualmente no app.
 * Se você tiver um app em um repositório existente, será possível usar um kit do iniciador em branco para criar um registro de app e conectá-lo ao repositório de origem e à cadeia de ferramentas do DevOps.
 * Com o código de app móvel, é possível implementar em vários ambientes de nuvem.
 * Criar uma [cadeia de ferramentas do DevOps](../services/ContinuousDelivery/index.html#cd_getting_started) com alguns cliques.
-* Usar a [interface da linha de comandos](/docs/cli/index.html#overview) para desenvolvimento local.
-* Navegar ou procurar o [catálogo do {{site.data.keyword.cloud_notm}} ![Ícone de link externo](../icons/launch-glyph.svg "Ícone de link externo")](https://{DomainName}/catalog){: new_window} para apps e serviços que você pode criar e começar a usar hoje.
-
-![Visão geral da experiência do desenvolvedor](images/dev-journey.png "Visão geral da experiência do desenvolvedor")
+* Use uma [interface da linha de comandos](/docs/cli/index.html#overview) para o desenvolvimento local.
 
 Para entender melhor como a nossa experiência pode ajudá-lo a construir rapidamente apps prontos para produção de alta qualidade, vamos examinar esses elementos com mais detalhes.
 
@@ -52,19 +48,17 @@ Cada Portal do Desenvolvedor fornece kits do iniciador relevantes à área de fo
 Um app inclui código, dados, serviços e cadeias de ferramentas. Por exemplo, o app móvel do {{site.data.keyword.cloud_notm}} contém o código de dispositivo, com a lógica de back-end,
 o armazenamento de dados, a análise de dados e os serviços de segurança, e é configurado para entrega contínua.
 
-![Reutilizar](images/garage_reuse2.png "Com a Experiência do desenvolvedor, é possível reutilizar e evitar a reinvenção")
+![Reutilizar](images/garage_reuse2.png "A experiência do desenvolvedor permite reutilizar e evitar a reinvenção")
 
 É possível criar e gerenciar um app usando qualquer Portal do Desenvolvedor do {{site.data.keyword.cloud_notm}} ou o {{site.data.keyword.dev_cli_notm}}.
 
 É possível criar diretamente apps simples em branco ou criar apps mais complexos usando os kits do iniciador. Se você optar por criar apps em branco sem a ajuda de um kit do iniciador, será possível fazer isso por meio do [Painel do {{site.data.keyword.cloud_notm}} ![Ícone de link externo](../icons/launch-glyph.svg "Ícone de link externo")](https://{DomainName}){: new_window} sem visitar um portal.
 
-É possível usar um padrão de código para criar rapidamente seu app e implementá-lo no {{site.data.keyword.cloud_notm}}. No [website do IBM Developer ![Ícone de link externo](../icons/launch-glyph.svg "Ícone de link externo")](https://developer.ibm.com/patterns/){:new_window}, escolha um padrão de código. É possível visualizar o código no GitHub ou criar e construir um app no {{site.data.keyword.cloud_notm}}, no qual é possível usar uma cadeia de ferramentas do DevOps para implementar automaticamente seu app.
-
 
 ## Kits iniciadores
 {: #starter-kits}
 
-Com os kits do iniciador, sua experiência deve ser fácil de usar e customizável. Os kits do iniciador montam um app de produção de estrutura básica, na linguagem de sua escolha, pronto para implementação na nuvem. Cada kit
+Com os kits do iniciador, queremos que a sua experiência seja fácil de usar e customizável. Os kits do iniciador montam um app de produção de estrutura básica, na linguagem de sua escolha, pronto para implementação na nuvem. Cada kit
 do iniciador inclui uma linguagem, uma estrutura e um padrão para um caso de uso específico e para a reutilização do
 código.
 
@@ -76,8 +70,9 @@ as instruções relevantes para a sua área e fluxo de trabalho de foco.
 Os kits do iniciador são prontos para produção e focam em demonstrar uma implementação padrão de chave usando um tempo de execução (por exemplo, Node.js e Express). Em alguns casos, os kits do iniciador oferecem uma experiência do usuário simples para destacar a integração do serviço. Em outros casos, os kits do iniciador representam uma implementação customizável de um caso de uso sofisticado.
 
 * Um **fragmento** consiste em algumas linhas de código frequentemente apresentadas em um IDE. Os fragmentos ajudam um desenvolvedor a integrar-se a uma sintaxe de linguagem de programação ou a suportar a integração com uma API definida.
-* Uma **demonstração** geralmente tem alta qualidade e fidelidade e usa uma gama de serviços e pontos de integração. Ela geralmente requer tempo de configuração e é usada para provar um problema de negócios ou demonstrar um recurso de plataforma. É possível usá-la para avaliar os estágios de adoção de nuvem. Às vezes, esse é o código incluído no código de produção.
-* Uma **amostra** é um pequeno exemplo de um recurso específico, uma função, um serviço ou uma jornada do usuário. É possível reutilizar uma amostra ou incluí-la em um aplicativo de produção. Ela é usada geralmente para mostrar recursos técnicos e uma possível abordagem para solucionar um problema técnico.
+* Uma **demonstração** geralmente tem alta qualidade e fidelidade e usa uma gama de serviços e pontos de integração. Ela geralmente requer tempo de configuração e é usada para provar um problema de negócios ou demonstrar um recurso de plataforma. É possível usá-la para avaliar os estágios de adoção de nuvem. Às
+vezes, seu código é incluído no código de produção.
+* Uma **amostra** é um pequeno exemplo de um recurso específico, uma função, um serviço ou uma jornada do usuário. Uma amostra pode ser reutilizada ou incluída em um aplicativo de produção. Ela é geralmente usada para mostrar recursos técnicos e uma abordagem possível para solucionar um problema técnico.
 * Um **kit do iniciador** é um padrão pronto para produção que pode ser integrado a um conjunto de serviços para gerar um ativo pronto para produção que pode ser implementado diretamente em um pipeline do
 DevOps e em um cluster do Kubernetes. Um kit do iniciador contém metadados descritivos que fornecem ao usuário informações suficientes para saber o que o kit é ou faz. Ele também contém instruções que indicam ao {{site.data.keyword.cloud_notm}} o que produzir. A saída está pronta para produção e pronta para utilização e pode ser iterada por aprimoramentos adicionais, com base nas melhores práticas da IBM. O conteúdo do kit do iniciador não é tão complexo como uma demonstração e não tão trivial como um fragmento ou amostra. Ele é criado dinamicamente com base nos requisitos do desenvolvedor.
 
@@ -100,7 +95,7 @@ na página **Detalhes do app** do seu app. O código é transferido por download
 
 Quando você cria um app diretamente ou com a ajuda de um kit do iniciador, o app contém um código móvel. O código móvel contém o código de ativação de nuvem para múltiplos ambientes de nuvem. Então, é possível produzir o código
 em quatro áreas fundamentais:
-* Código que segue as melhores práticas de um idioma específico
+* Código que segue as melhores práticas para uma determinada linguagem
 * Código que permite que o app seja executado na nuvem
 * Código que é inicializado para se conectar aos serviços de nuvem
 * Código que é específico para um caso de uso
@@ -112,7 +107,7 @@ Gerar esses componentes economiza tempo valioso e assegura que você esteja usan
 * **Ativação de serviço** é o código que permite que seu app se conecte e use os serviços que você inclui. O gerenciamento de credencial, o código de inicialização e os SDKs específicos do serviço são exemplos de itens de ativação de serviço.
 * **Ativação de nuvem** é o código que permite que seu app seja executado no {{site.data.keyword.cloud_notm}}. Por exemplo, os gráficos Helm que permitem que seu app seja executado em um cluster do Kubernetes do {{site.data.keyword.cloud_notm}}.
 
-Ao criar um app por meio de um kit do iniciador do {{site.data.keyword.cloud_notm}}, ele é iniciado com arquitetura comprovada que também reflete as melhores práticas do idioma selecionado.
+Ao criar um app por meio de um kit do iniciador do {{site.data.keyword.cloud_notm}}, seu app iniciará com arquitetura comprovada que também reflete as melhores práticas para a linguagem selecionada.
 
 Cada aplicativo inclui um arquivo leia-me que contém detalhes técnicos do app e explica o que é necessário para deixar seu app em execução caso ele não seja executado pronto para utilização.
 {: tip}
@@ -158,7 +153,7 @@ Use a interface da linha de comandos para codificar, construir e executar o app 
 
 Se você está procurando um local no qual seja possível experimentar com grandes ideias e tecnologias emergentes, certifique-se de verificar as implementações do [Método Garage](https://www.ibm.com/cloud/garage/){: new_window} ![Ícone de link externo](../icons/launch-glyph.svg "Ícone de link externo"). É possível saber como a IBM pode ajudá-lo a desenvolver apps em sua organização. 
 
-![Visão geral de fases do Método Garage](images/garage_phases_overview2.png "Visão geral de fases do Método Garage") *Visão geral de fases do Método Garage*
+![Visão geral de fases do Método Garage](images/garage_phases_overview2.png "Visão geral de fases do Método Garage")*Visão geral de fases do Método Garage*
 
 O {{site.data.keyword.cloud_notm}} ajuda a produzir apps de produção de classificação corporativa bem-sucedidos usando o método Garage ou o seu método preferido. Para entender melhor o que o {{site.data.keyword.cloud_notm}} oferece aos desenvolvedores, vamos dar uma olhada rápida nas qualificações necessárias para construir um app moderno.
 
@@ -175,6 +170,6 @@ Os usuários esperam mais de seus aplicativos do que antes. Eles desejam que seu
 * Os **Cientistas de dados** usam analítica e aprendizado de máquina para produzir modelos preditivos. Esses modelos são usados em métricas de negócios e fornecem percepções profundas aos usuários do aplicativo.
 * Os **Especialistas do DevOps** são especialistas em resolver problemas de implementação e cadeia de ferramentas. Para apps simples, especialistas dedicados geralmente não são necessários porque os membros da equipe de desenvolvimento gerenciam o DevOps com a equipe. Mas para aplicativos corporativos complexos, com muitas dependências, os especialistas do DevOps são essenciais para manter seu app de produção em execução sem problemas.
 
-Os recursos do desenvolvedor integrados no {{site.data.keyword.cloud_notm}} se alinham a esses conjuntos de habilidades e permitem que a sua equipe use uma plataforma para produzir, entregar, executar e gerenciar o app. Por exemplo, um desenvolvedor digital que cria um app móvel pode usar o [Portal do desenvolvedor móvel](https://{DomainName}/developer/mobile/dashboard){: new_window} do {{site.data.keyword.cloud_notm}} ![Ícone de link externo](../icons/launch-glyph.svg "Ícone de link externo"). Um construtor de app cognitivo pode usar o [portal do desenvolvedor do Watson](https://{DomainName}/developer/watson/dashboard){: new_window} ![Ícone de link externo](../icons/launch-glyph.svg "Ícone de link externo") com o [Watson Studio](https://{DomainName}/catalog/services/watson-studio){: new_window} ![Ícone de link externo](../icons/launch-glyph.svg "Ícone de link externo"). Um desenvolvedor de fluxo pode usar o [IBM Real-Time Analytics](/docs/services/StreamingAnalytics/index.html). O [serviço {{site.data.keyword.cloud_notm}} Continuous Delivery](/docs/services/ContinuousDelivery/index.html) simplifica a tarefa de um especialista do DevOps.
+Os recursos do desenvolvedor integrados no {{site.data.keyword.cloud_notm}} se alinham a esses conjuntos de habilidades e permitem que a sua equipe use uma plataforma para produzir, entregar, executar e gerenciar o app. Por exemplo, um desenvolvedor digital que cria um app móvel pode usar o {{site.data.keyword.cloud_notm}}Portal do Desenvolvedor móvel do [](https://{DomainName}/developer/mobile/dashboard){: new_window} ![Ícone de link externo](../icons/launch-glyph.svg "Ícone de link externo"), um construtor de app cognitivo pode usar o [Portal do Desenvolvedor do Watson](https://{DomainName}/developer/watson/dashboard){: new_window} ![Ícone de link externo](../icons/launch-glyph.svg "Ícone de link externo") juntamente com o [Watson Studio](https://{DomainName}/catalog/services/watson-studio){: new_window} ![Ícone de link externo](../icons/launch-glyph.svg "Ícone de link externo"), um desenvolvedor de fluxos pode usar o [IBM Real-Time Analytics](/docs/services/StreamingAnalytics/index.html) e o serviço [{{site.data.keyword.cloud_notm}} Continuous Delivery](/docs/services/ContinuousDelivery/index.html) simplifica a tarefa de um especialista do DevOps.
 
-[Pronto para começar a construir apps de alta qualidade prontos para produção? ](/docs/apps/tutorials/tutorial_web.html)
+Pronto para começar a construir apps de alta qualidade prontos para produção? [Clique aqui](/docs/apps/tutorials/tutorial_web.html) para construir um app no {{site.data.keyword.cloud_notm}} agora!

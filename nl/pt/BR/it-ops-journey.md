@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2018, 2019
-lastupdated: "2019-01-04"
+  years: 2018
+lastupdated: "2018-11-30"
 
 
 ---
@@ -17,7 +17,7 @@ lastupdated: "2019-01-04"
 # Explore a jornada de administração de operações de TI no {{site.data.keyword.cloud_notm}}
 {: #it-ops}
 
-À medida que muitas organizações se movem para um ambiente de nuvem, no local ou hospedado em data centers, a função do administrador de operações de TI (administração de operações de TI) está sendo redefinida. O escopo e a complexidade dessa mudança aumentam significativamente com base no tipo de ambiente que sua organização deseja implementar.
+À medida que muitas organizações se movem para um ambiente de nuvem, no local ou hospedado em data centers, a função do administrador de operações de TI (administração de operações de TI) está sendo redefinida. O escopo e a complexidade dessa mudança aumentam significativamente com base no tipo de ambiente que sua organização está procurando implementar.
 {: .shortdesc}
 
 Antes de mover para a nuvem, você trabalhou com um ambiente inerentemente seguro com sistemas conectados à sua LAN privada ou intranet. Agora,
@@ -38,7 +38,8 @@ a sua jornada.
 ### Modelos de serviço de nuvem
 {: #cloud-svc-models}
 
-Existem três tipos de modelos de serviço de nuvem: Infraestrutura como Serviço (IaaS), Plataforma como Serviço (PaaS) e Software como Serviço (SaaS). A Figura 1 explica quem faz o que em cada modelo de serviço. Para obter mais informações, consulte [IaaS, PaaS e SaaS - Modelos de serviço do IBM Cloud](https://www.ibm.com/cloud/learn/iaas-paas-saas){: new_window} ![Ícone de link externo](../icons/launch-glyph.svg "Ícone de link externo").
+Há três tipos de modelos de serviço de nuvem: infraestrutura como serviço (IaaS), plataforma como serviço (PaaS) e
+software como serviço (SaaS). A Figura 1 explica quem faz o que em cada modelo de serviço. Para obter mais informações, consulte [IaaS, PaaS e SaaS - Modelos de serviço do IBM Cloud](https://www.ibm.com/cloud/learn/iaas-paas-saas){: new_window} ![Ícone de link externo](../icons/launch-glyph.svg "Ícone de link externo").
 
 ![Figura 1. Modelos de serviço denuvem](images/cloud-svc-models.png "Modelos de serviço de nuvem")
 
@@ -53,7 +54,8 @@ da infraestrutura, que inclui as correções de S.O., os reparos de hardware e a
 mantém o aplicativo e você ou o provedor pode instalar o middleware, incluindo bancos de dados ou outros tipos. Esse modelo é usado para desenvolver e testar o software. Para
 obter mais informações, consulte [Um guia prático para a plataforma como serviço: o que é PaaS ![Ícone de link externo](../icons/launch-glyph.svg "Ícone de link externo")](https://www.ibm.com/blogs/cloud-computing/2016/08/10/practical-guide-paas/){: new_window}.
 
-Com o modelo SaaS, o provedor mantém os sistemas por meio do aplicativo real. O aplicativo reconhece a nuvem e os usuários podem usar diferentes terminais, dependendo do provedor de software, para usar o software. O provedor em
+Com o modelo SaaS, o provedor mantém os sistemas por meio do aplicativo real. O aplicativo é ciente da nuvem e os
+usuários finais podem usar diferentes terminais, dependendo do provedor de software, para usar o software. O provedor em
 nuvem é responsável por todo o gerenciamento da infraestrutura e do aplicativo, que inclui as atualizações de software,
 os reparos de hardware e as configurações de rede. Geralmente, esse modelo é usado em modelos de licenciamento de
 software pré-pagos. Para obter mais informações, consulte [Aplicativos SaaS para negócios e TI](https://www.ibm.com/cloud/saas){: new_window} ![Ícone de link externo](../icons/launch-glyph.svg "Ícone de link externo").
@@ -70,7 +72,7 @@ Uma nuvem híbrida inclui recursos que combinam os aspectos das nuvens públicas
 ## Planejando a infraestrutura
 {: #planning}
 
-Você deseja planejar a sua infraestrutura antes de provisioná-la para certificar-se de dimensioná-la corretamente para a sua carga de trabalho. O
+Você desejará planejar a infraestrutura antes de realmente fornecê-la para certificar-se de tê-la dimensionado corretamente para a carga de trabalho. O
 {{site.data.keyword.cloud_notm}} tem várias ferramentas e sites para ajudá-lo a projetar e dimensionar a infraestrutura. 
 
 ### Arquitetura de infraestrutura
@@ -79,7 +81,8 @@ Inicie com a [arquitetura de infraestrutura ![Ícone de link externo](../icons/l
 
 ### {{site.data.keyword.cloud_notm}} Design Decision Tool
 
-A [{{site.data.keyword.cloud_notm}} Design Decision Tool ![Ícone de link externo](../icons/launch-glyph.svg "Ícone de link externo")](https://github.com/ibm-cloud-architecture/infrastructure-design-decision-tool/){: new_window} ajuda a comparar alternativas quando você projeta e constrói sua solução customizada. Cada componente de infraestrutura apresenta descrição, considerações e advertências, além de comparações lado a lado. Também é possível localizar um exemplo de como usar a ferramenta.
+O [{{site.data.keyword.cloud_notm}} Design Decision Tool ![Ícone de link externo](../icons/launch-glyph.svg "Ícone de link externo")](https://github.com/ibm-cloud-architecture/infrastructure-design-decision-tool/){: new_window} ajuda a comparar alternativas ao projetar e construir sua solução customizada. Cada
+componente de infraestrutura apresenta descrições, considerações, advertências e comparações lado a lado. Também é possível localizar um exemplo de como usar a ferramenta.
 
 ### {{site.data.keyword.cloud_notm}} Stencils
 
@@ -87,11 +90,11 @@ O [{{site.data.keyword.cloud_notm}} Stencils ![Ícone de link externo](../icons/
 
 ### Opções de servidor bare metal
 
-Use a [ferramenta de procura do {{site.data.keyword.cloud_notm}}{{site.data.keyword.baremetal_short}}![Ícone de link externo](../icons/launch-glyph.svg "Ícone de link externo")](https://www.ibm.com/cloud-computing/bluemix/bare-metal-search){: new_window} para dimensionar e estimar as opções do servidor bare metal, incluindo servidores certificados para suportar cargas de trabalho do SAP HANA e do SAP NetWeaver.
+Use o [{{site.data.keyword.cloud_notm}} {{site.data.keyword.baremetal_short}} Search Tool ![Ícone de link externo](../icons/launch-glyph.svg "Ícone de link externo")](https://www.ibm.com/cloud-computing/bluemix/bare-metal-search){: new_window} para dimensionar e estimar as opções de servidor bare metal, incluindo os servidores que foram certificados para suportar cargas de trabalho do SAP HANA e do SAP NetWeaver.
 
 ### Serviços e conformidade do {{site.data.keyword.cloud_notm}}
 
-Como com qualquer arquitetura, é necessário considerar os recursos do {{site.data.keyword.cloud_notm}} que podem ser incluídos na solução conforme você dimensiona a sua infraestrutura. Para obter mais informações, consulte [Aplicativos SaaS para negócios e TI ![Ícone de link externo](../icons/launch-glyph.svg "Ícone de link externo")](https://www.ibm.com/cloud/saas) {: new_window} e procure um serviço específico. Também é necessário pensar em quaisquer regulamentações que devem ser consideradas ao construir sua arquitetura. Por exemplo: a sua carga de trabalho é considerada sensível ou está regulamentada? Para obter mais informações, consulte [Conformidade ![Ícone de link externo](../icons/launch-glyph.svg "Ícone de link externo")](https://www.ibm.com/cloud/compliance){: new_window}.
+Como com qualquer arquitetura, é necessário considerar os recursos do {{site.data.keyword.cloud_notm}} que podem ser incluídos na solução conforme você dimensiona a sua infraestrutura. Para obter mais informações, consulte [Aplicativos SaaS para negócios e TI ![Ícone de link externo](../icons/launch-glyph.svg "Ícone de link externo")](https://www.ibm.com/cloud/saas) {: new_window} e procure um serviço específico. Também é necessário pensar em quaisquer regulamentações que você tenha que considerar ao construir sua arquitetura. Por exemplo: a sua carga de trabalho é considerada sensível ou está regulamentada? Para obter mais informações, consulte [Conformidade ![Ícone de link externo](../icons/launch-glyph.svg "Ícone de link externo")](https://www.ibm.com/cloud/compliance){: new_window}.
 
 ## Construindo a infraestrutura
 {: #build}
@@ -117,9 +120,10 @@ Seu servidor é a base de sua infraestrutura. Há várias opções dependendo de
 {: #storage}
 
 O {{site.data.keyword.baremetal_short}} e o {{site.data.keyword.BluVirtServers_short}} são fornecidos com armazenamento padrão. O {{site.data.keyword.baremetal_short}} tem um espaço em disco SATA mínimo de 1 TB e
-o {{site.data.keyword.BluVirtServers_short}} tem um armazenamento SAN mínimo de 25 GB. A exceção a isso é o {{site.data.keyword.baremetal_short}} certificado para SAP do {{site.data.keyword.cloud_notm}}. Para obter mais informações sobre o armazenamento padrão disponível com esses servidores, consulte a [Infraestrutura certificada para SAP do {{site.data.keyword.cloud_notm}}](/docs/bare-metal/bare-metal-sap-applications.html#ibm-cloud-sap-certified-infrastructure).
+o {{site.data.keyword.BluVirtServers_short}} tem um armazenamento SAN mínimo de 25 GB. A exceção a isso são os
+{{site.data.keyword.baremetal_short}} certificados para SAP do {{site.data.keyword.cloud_notm}}. Para obter mais informações sobre o armazenamento padrão disponível com esses servidores, consulte a [Infraestrutura certificada para SAP do {{site.data.keyword.cloud_notm}}](/docs/bare-metal/bare-metal-sap-applications.html#ibm-cloud-sap-certified-infrastructure).
 
-É possível comprar armazenamento extra com base em suas necessidades. Consulte a tabela a seguir para obter um resumo de suas opções de cálculo.
+É possível comprar armazenamento adicional com base em suas necessidades. Consulte a tabela a seguir para obter um resumo de suas opções de cálculo.
 
 | Opção | Descrição |
 |--------|---------------|
@@ -128,8 +132,10 @@ cálculo. Os LUNs do
 Block Storage baseados em iSCSI são conectados aos dispositivos autorizados por meio de conexões redundantes de
 E/S de múltiplos caminhos (MPIO). |
 | [{{site.data.keyword.filestorage_short}}](/docs/infrastructure/FileStorage/index.html) | File Storage baseado em NFS, conectado à rede, persistente, rápido e flexível. Nesse ambiente de armazenamento conectado à rede (NAS), você tem controle total sobre sua função de compartilhamentos de arquivo e sobre o desempenho. Os compartilhamentos do File Storage podem ser conectados a até 64 dispositivos autorizados por meio de conexões TCP/IP roteadas para resiliência. |
-| [{{site.data.keyword.cos_full_notm}}](/docs/services/cloud-object-storage/about-cos.html) | As informações armazenadas com o IBM Cloud Object Storage são criptografadas e dispersas em vários locais geográficos e acessadas por meio de HTTP usando uma API de REST. Esse serviço usa as tecnologias de armazenamento distribuídas que são fornecidas pelo IBM Cloud Object Storage System (anteriormente Cleversafe). |
-| [{{site.data.keyword.cloud_notm}} Migração de dados em massa](/docs/infrastructure/mass-data-migration/index.html) | Transfira grandes quantidades de dados do data center no local para o depósito do Cloud Object Storage. |
+| [{{site.data.keyword.cos_full_notm}}](/docs/services/cloud-object-storage/about-cos.html) | As informações armazenadas com o IBM Cloud Object Storage são criptografadas e dispersas entre múltiplas
+localizações geográficas e acessadas por meio de HTTP usando uma API de REST. Esse serviço usa as tecnologias de armazenamento distribuído fornecidas pelo IBM Cloud Object Storage System (anteriormente Cleversafe). |
+| [{{site.data.keyword.cloud_notm}} Migração de dados em massa](/docs/infrastructure/mass-data-migration/index.html) |
+Transfira grandes quantidades de dados do data center no local para o depósito do Cloud Object Storage. |
 | [EVault](/docs/infrastructure/Backup/index.html) | Um sistema de backup automatizado baseado em
 agente que é gerenciado por meio do utilitário de gerenciamento baseado em navegador EVault WebCC somente para servidores
 virtuais. Faça backup de dados entre servidores em um ou mais data centers na rede do IBM Cloud. |
@@ -146,7 +152,8 @@ Consulte a tabela a seguir para obter um resumo das opções de rede.
 
 | Opção | Descrição | 
 |--------|---------------|
-| [Content Delivery Network](/docs/infrastructure/CDN/about.html) | Usado para várias soluções para segmentos do mercado, incluindo mídia, entretenimento, software, jogos, financeiro e e-commerce, para atender às necessidades de seus negócios. |
+| [Content Delivery Network](/docs/infrastructure/CDN/about.html) | Usado para uma variedade de
+soluções do segmento de mercado, incluindo mídia, entretenimento, software, jogos, banco e e-commerce, para atender às necessidades de seus negócios. |
 | [Domain Name Service](/docs/cli/reference/ibmcloud/cli_dns.html) | Fornece uma localização
 central para visualizar e gerenciar seus domínios por meio da interface de gerenciamento DNS básica e também fornece a opção de
 gerenciar DNS reverso e secundário na mesma localização gratuitamente. |
@@ -155,8 +162,12 @@ permite deslocar cargas de trabalho entre servidores, mesmo em data centers geog
 | [Balanceamento de carga](/docs/infrastructure/local-load-balancer/about.html) | Distribui o
 processamento e as comunicações uniformemente em múltiplos servidores em um data center para que um único dispositivo
 não carregue uma carga inteira. |
-| [Virtual Router Appliance](/docs/infrastructure/virtual-router-appliance/about.html) | Roteia seletivamente o tráfego de rede privada e pública por meio de um roteador corporativo repleto de recursos com firewall, modelagem de tráfego, roteamento baseado em política, VPN e vários outros recursos. |
-| [VPN IPSec](/docs/infrastructure/iaas-vpn/set-up-ipsec-vpn.html) | Um conjunto de protocolos projetados para autenticar e criptografar todo o tráfego de IP entre dois locais usando um modo de túnel que fornece uma rede criptografada de site para site. |
+| [Virtual Router Appliance](/docs/infrastructure/virtual-router-appliance/about.html) | Roteia
+seletivamente o tráfego de rede privada e pública por meio de um roteador corporativo completo com firewall, formatação
+de tráfego, roteamento baseado em política, VPN e uma gama de outros recursos. |
+| [VPN IPSec](/docs/infrastructure/iaas-vpn/set-up-ipsec-vpn.html) | Um conjunto de protocolos
+projetados para autenticar e criptografar todo o tráfego de IP entre duas localizações, usando um modo de túnel que
+fornece uma rede criptografada, de site para site. |
 | {{site.data.keyword.cloud_notm}} Direct Link | Aproveita um provedor do Cloud Exchange para entregar
 conectividade às localizações da infraestrutura do {{site.data.keyword.cloud_notm}}. |
 {: caption="Tabela 3. Opções de rede" caption-side="top"}
@@ -175,5 +186,6 @@ executadas nos recursos da infraestrutura. |
 da infraestrutura {{site.data.keyword.cloud_notm}} sobre eventos não planejados, manutenção e comunicados.  |
 | [Entender como os seus dados estão seguros](/docs/overview/security.html) | A plataforma
 {{site.data.keyword.cloud_notm}} tem controles de segurança em camadas na rede e na infraestrutura. |
-| [Entender como é possível assegurar tempo de inatividade zero](/docs/overview/zero_downtime.html) | Todos os recursos do {{site.data.keyword.cloud_notm}} são hospedados em localizações de data center ao redor do mundo. |
+| [Entender como é possível assegurar tempo de inatividade zero](/docs/overview/zero_downtime.html) |
+Todos os recursos do {{site.data.keyword.cloud_notm}} são hospedados em localizações de data center ao redor do mundo. |
 {: caption="Tabela 4. Tarefas de gerenciamento" caption-side="top"}
