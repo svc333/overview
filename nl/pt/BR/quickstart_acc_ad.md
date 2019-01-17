@@ -2,9 +2,9 @@
 
 copyright:
 
-  years: 2018, 2019
+  years: 2018
 
-lastupdated: "2019-01-02"
+lastupdated: "2018-11-14"
 
 ---
 
@@ -17,7 +17,7 @@ lastupdated: "2019-01-02"
 # Configurando sua conta
 {: #quickstart_acc_ad}
 
-Esse guia de iniciação rápida destina-se a ajudar os administradores de conta a configurar o ambiente {{site.data.keyword.Bluemix}}. 
+Esse guia de iniciação rápida destina-se a ajudar os administradores de conta a configurar o ambiente {{site.data.keyword.Bluemix}}.
 {:shortdesc}
 
 1. Crie grupos de recursos para usar na organização dos recursos criados por meio do catálogo do {{site.data.keyword.Bluemix_notm}}. Para obter mais informações, consulte [Melhores práticas para organizar recursos em grupos de recursos](/docs/resources/bestpractice_rgs.html#bp_resourcegroups).
@@ -36,7 +36,7 @@ usuários da conta possam construir. Para obter mais informações, consulte o
 6. Use o estimador de custo para obter uma ideia de quanto seu ambiente pode custar. Clique no ícone Estimador de custo ![Ícone Estimador](../icons/Estimator.svg) na barra de menus do console. 
 7. Use o estimador de custo para obter uma ideia de quanto sua infraestrutura pode custar. 
   
-  a. Inicie selecionando uma oferta no [catálogo](https://cloud.ibm.com/catalog){: new_window} ![Ícone de link externo](../icons/launch-glyph.svg). 
+  a. Inicie selecionando uma oferta por meio do catálogo do [](https://console.cloud.ibm.com/catalog){: new_window} ![Ícone de link externo](../icons/launch-glyph.svg). 
   
   b. Insira os detalhes de configuração, selecione seu plano de precificação e clique em **Incluir para
 estimativa**.

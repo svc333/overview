@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2018
-lastupdated: "2018-08-02"
+lastupdated: "2018-10-22"
 
 ---
 
@@ -23,5 +23,5 @@ lastupdated: "2018-08-02"
 如需相關資訊，請參閱下列主題。
 
 * 如果您是帳戶的管理者，則可以選擇向帳戶中的每個人[隱藏](/docs/account/exclude.html)公用資源。
-* 如果您是帳戶的管理者，則可以選擇誰可以看到您的資源，方法是將他們[新增](/docs/account/include.html)至 includes 清單。
+* 如果您是帳戶的管理者，則可以選擇誰可以看到您的資源，方法是將他們[新增](/docs/account/include.html)至包含清單。
 * 您可以使用指令行介面來[變更帳戶所有權](/docs/account/owners.html)。

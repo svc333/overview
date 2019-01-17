@@ -4,7 +4,7 @@ copyright:
 
   years: 2015, 2018
 
-lastupdated: "2018-11-16"
+lastupdated: "2018-11-30"
 
 ---
 
@@ -20,12 +20,70 @@ lastupdated: "2018-11-16"
 ## {{site.data.keyword.Bluemix_notm}} 平台
 {: #platform_category}
 
+
+### {{site.data.keyword.Bluemix_notm}} 的新支援體驗
+文件日期：2018 年 11 月 30 日
+{: #support}
+
+透過「支援中心」，您可以解決所有 {{site.data.keyword.Bluemix_notm}} 相關問題。登入頁面提供常見問題 (FAQ)，讓您在不需要聯絡 {{site.data.keyword.Bluemix_notm}} 的情況下即可找到問題的答案。您也可以選擇與即時支援代表人員進行會談。現在，可以從單一位置管理您的案例。請移至**支援** &gt; **管理案例**，來建立、檢視或編輯案例。
+
+您也可以從「支援中心」找到[狀態頁面](https://cloud.ibm.com/status){: new_window} ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")。它已加強，包括了所有非計劃性突發事件、計劃性維護、公告以及關於會影響到 {{site.data.keyword.Bluemix_notm}} 平台、基礎架構及主要服務之重大事件的安全公告通知。從「支援中心」按一下**檢視雲端狀態**。若要參閱新的體驗，請登入並移至[支援中心](https://cloud.ibm.com/unifiedsupport/supportcenter){: new_window} ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")。 
+
+### {{site.data.keyword.Bluemix_notm}} 中的統一登入、API 金鑰和使用者及存取管理
+文件日期：2018 年 11 月 30 日
+{: #useraccess}
+
+透過最新的更新項目，不論您的 ID 類型是什麼，您都可以充分運用適用於所有使用者的簡化安全登入。無論您具有 IBM ID 還是 SoftLayer ID，都可以從我們的加強登入頁面快速登入 {{site.data.keyword.Bluemix_notm}} 主控台。您也可以透過 {{site.data.keyword.Bluemix_notm}} 進行安全 API 呼叫，並使用 IAM API 金鑰或 IAM 存取記號來自動執行 CLI 登入。 
+
+登入之後您會發現，您可以從 Access (IAM) 使用者介面的「使用者」頁面中看到包括平台及標準基礎架構使用者在內的所有使用者。視您在帳戶中檢視其他使用者的存取權而定，您可以依帳戶使用者、標準基礎架構使用者或 Cloud Foundry 組織快速過濾視圖。您也可以使用過濾器，依名稱、電子郵件或狀態來快速尋找使用者。
+
+既然，您的所有使用者都在單一主控台中，您就可以從相同位置管理所有類型資源的存取權。存取是從使用者開始，因此您只要從清單中選取一位使用者即可開始。然後，視您要指派存取權的資源類型而定，您可以從 IAM 存取原則、Cloud Foundry 存取或標準基礎架構許可權中進行選擇。如果您只想要指派 IAM 存取原則，請試著建立存取群組來簡化存取管理程序，方法是將所有使用者新增至需要指派相同原則的相同存取群組中。
+
+### 在同一位置尋找所有 {{site.data.keyword.Bluemix_notm}} CLI 外掛程式文件
+文件日期：2018 年 11 月 30 日
+{: #cli}
+
+您現在可以存取一個位置中的所有 {{site.data.keyword.Bluemix_notm}} CLI 外掛程式文件，讓您輕鬆地找到您想在 {{site.data.keyword.Bluemix_notm}} 平台上尋找的任何 CLI 指令。請參閱 [CLI 文件](/docs/cli/index.html#overview)的「參考資料」一節。
+
+### 參閱新儀表板和資源清單
+文件日期：2018 年 11 月 30 日
+{: #dash}
+
+透過最新的更新項目，您現在可以在同一位置看到所有平台和基礎架構服務。當您登入時，您可以立即查看新的儀表板。在資源從型錄新增至帳戶之後，您就可以使用資源清單來取得帳戶資源的完整視圖。以下是您將看到之變更的部分詳細資料：
+
+* 儀表板已重新設計，因此您可以檢視資源、維護、狀態、應用程式、支援、用量及使用者的摘要。
+* 您可以在資源清單中找到資源的相關詳細資料。您可以標記資源以組織資源，或選取資源以在詳細資料頁面上進行變更。
+* 現在，您可以在同一位置看到所有資源，我們已新增廣域搜尋，讓您可以快速尋找所建立的資源，並預期它們會出現在「資源」清單頁面上。 
+* 您也可以搜尋型錄結果，以快速尋找要新增至帳戶的資源。  
+
+### 平台與基礎架構服務的統一帳戶、計費和使用者設定檔資訊
+文件日期：2018 年 11 月 30 日
+{: #profile}
+
+已簡化您的帳戶、計費和設定檔資訊。您現在可以在統一的主控台中，查看所有平台及基礎架構資源的帳戶資訊。 
+
+* 設定檔及設定區域包含您的相關資訊，以及所有資源類型的電子郵件通知喜好設定。 
+* 您的帳戶資訊區域包含您的公司或組織、帳戶設定以及使用資源群組和 Cloud Foundry 組織之快速存取的相關資訊。您甚至可以找到最佳作法來協助您快速開始進行！
+* 您帳戶的計費及用量區域可協助您瞭解帳單、進行付款、監視訂閱、取得報價、追蹤訂單，以及設定消費通知。
+
+### 使用標籤組織資源
+文件日期：2018 年 11 月 30 日
+{: #tag}
+
+現在有標籤可讓您新增至資源，例如 Cloud Object Storage，以協助您管理資源及尋找與您最相關的資源。例如，如果您有數百個資源，您想要區分一些以相同方式付款的資源，您可以使用 "costcenter:location01" 來標記它們。或者，如果您的團隊反覆處理一些資源，您可以使用類似 "team-blue" 的標籤。您也可以依標籤來過濾資源清單，以快速組織及尋找您需要的資源。如需相關資訊，請參閱[使用標籤](/docs/resources/tagging_resources.html#tag)。
+
+### 使用成本預估器尋找正確的每月成本
+文件日期：2018 年 11 月 30 日
+{: #cost-estimator}
+
+為協助您決定及分析想要購買的服務，您可以使用成本預估器。現在，您可以瀏覽主控台，選取您要擁有的每一項服務，然後使用一個簡單的工具新增所有成本。您甚至可以輸入預測的資料用量、每秒查閱數、每秒寫入數，以及每秒查詢數，以得到更精確的每月支出預估。您可以使用成本預估器與您選取的每一個型錄服務，或者按一下主控台功能表中的「成本預估器」圖示 ![「預估器」圖示](../../icons/Estimator.svg)，以取得預估成本的摘要。如需相關資訊，請參閱[預估成本](/docs/billing-usage/estimating_costs.html#cost)。
+
 ### 已更新 {{site.data.keyword.cloud_notm}} 的全球位置名稱
 文件日期：2018 年 11 月 1 日
 
 隨著 {{site.data.keyword.cloud_notm}} 持續擴展廣域可用性覆蓋範圍，我們更新了位置命名結構，以更適當地支援世界各地的地理位置、地區及資料中心之可理解的一致性階層。如果您熟悉我們目前的全球地區，您將會認出像美國南部和雪梨這類名稱。我們會使這些位置名稱與資料中心實際所在的城市名稱一致。
 
-目前，程式化 ID 不變，因此從 API 角度來看沒有任何影響。以下表格顯示新舊位置名稱。如需相關資訊及資料中心和地區的完整清單，請參閱[服務可用性](docs/resources/services_region.html)。
+目前，程式化 ID 不變，因此從 API 角度來看沒有任何影響。以下表格顯示新舊位置名稱。如需相關資訊及資料中心和地區的完整清單，請參閱[服務可用性](/docs/resources/services_region.html)。
 
 | 先前的位置顯示名稱 | 新的位置顯示名稱 | 代碼 |
 |----------|---------|---------|
@@ -33,7 +91,7 @@ lastupdated: "2018-11-16"
 |美國東部 | 華盛頓特區 | us-east |
 |英國 | 倫敦 | eu-gb |
 |德國 | 法蘭克福 | eu-de |
-|雪梨 | 雪梨 | au-syd |
+|雪梨 |雪梨 | au-syd |
 |亞太地區北部 | 東京 | jp-tok |
 {: caption="表 1. 新的位置名稱" caption-side="top"}
 
@@ -113,9 +171,9 @@ lastupdated: "2018-11-16"
 ### 組織帳戶內資源的新方式
 文件日期：2017 年 11 月 16 日
 
-資源群組是一種新方式，可讓您建立可自訂的帳戶資源分組，對於其內群組及資源的存取是使用 Identity and Access Management (IAM) 進行管理。每個人都從一個預設資源群組開始進行。您可以重新命名此資源群組，並在其中新增從型錄建立的服務實例。
+資源群組是一種新方式，可讓您建立可自訂的帳戶資源分組，對於其內群組及資源的存取是使用 Identity and Access Management (IAM) 進行管理。每個人都從 default 資源群組開始進行。您可以重新命名此資源群組，並在其中新增從型錄建立的服務實例。
 
-對於具有「隨收隨付制」或「訂閱」帳戶的使用者，您可以建立其他資源群組，以更輕鬆地管理配額以及檢視一組資源的計費使用情形。您也可以將資源分組，以更輕鬆地同時指派使用者存取多個服務。若要進一步瞭解如何使用您帳戶的資源群組，請參閱[管理資源群組](/docs/account/resourcegroups.html#rgs)。
+對於具有「隨收隨付制」或「訂閱」帳戶的使用者，您可以建立其他資源群組，以更輕鬆地管理配額以及檢視一組資源的計費用量。您也可以將資源分組，以更輕鬆地同時指派使用者存取多個服務。若要進一步瞭解如何使用您帳戶的資源群組，請參閱[管理資源群組](/docs/account/resourcegroups.html#rgs)。
 
 ### {{site.data.keyword.Bluemix_notm}} IAM 的更新
 文件日期：2017 年 11 月 16 日
@@ -152,10 +210,10 @@ Identity and Access Management (IAM) 現在可讓您建立「服務 ID」，您�
 
 如需此特性優點以及如何開始使用的相關資訊，請參閱 [IBM Cloud IAM 服務 ID 及 API 金鑰簡介](https://www.ibm.com/blogs/bluemix/2017/10/introducing-ibm-cloud-iam-service-ids-api-keys/){: new_window} ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")。
 
-### {{site.data.keyword.Bluemix_notm}} 廣域型錄
+### {{site.data.keyword.Bluemix_notm}} 全球型錄
 文件日期：2017 年 7 月 27 日
 
-擴充前次主控台更新以從主控台的單一位置管理公用地區，{{site.data.keyword.Bluemix_notm}} 現在具有廣域型錄，可讓選取及部署從型錄中所選取項目的處理程序成為更簡化的處理程序。不論您在主控台中選取的地區為何，您現在都可以看到可跨型錄中所有公用地區取得的所有服務。從型錄中選取磚之後，即可看到其中可使用的地區及服務，以及選取您要在其中進行部署的位置。
+擴充前次主控台更新以從主控台的單一位置管理公用地區，{{site.data.keyword.Bluemix_notm}} 現在具有全球型錄，可讓選取及部署從型錄中所選取項目的處理程序成為更簡化的處理程序。不論您在主控台中選取的地區為何，您現在都可以看到可跨型錄中所有公用地區取得的所有服務。從型錄中選取磚之後，即可看到其中可使用的地區及服務，以及選取您要在其中進行部署的位置。
 
 如需最新型錄更新的相關資訊，請參閱[廣域 {{site.data.keyword.Bluemix_notm}} 型錄讓建置更為輕鬆](https://www.ibm.com/blogs/bluemix/2017/07/global-bluemix-catalog-makes-building-things-easier/){: new_window} ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")。
 
@@ -225,7 +283,7 @@ Identity and Access Management (IAM) 現在可讓您建立「服務 ID」，您�
 
 #### {{site.data.keyword.cloudant_short_notm}} 服務用量度量值的更新
 
-  * 已更新 {{site.data.keyword.cloudant_short_notm}} 的用量度量值運算，以反映 {{site.data.keyword.cloudant_short_notm}} 叢集中所有節點的已使用及可用總 GB 量。一般而言，{{site.data.keyword.cloudant_short_notm}} 叢集包含 3 個節點，而且資料庫中的文件會在叢集的所有節點之間抄寫以提供高可用性及災難回復。使用八月更新，{{site.data.keyword.cloudant_short_notm}} 撥號中的容量度量值（於_資源用量 > 服務_ 視圖中提供）指出叢集的所有節點中的空間。例如，如果單一 {{site.data.keyword.cloudant_short_notm}} 叢集包含 3 個節點，每一個都有 1000 GB 的容量，則容量限制會是 3000 GB。如果已使用該容量的 1500 GB，則 {{site.data.keyword.cloudant_short_notm}} 用量度量值會是 50%。
+  * 已更新 {{site.data.keyword.cloudant_short_notm}} 的用量度量值運算，以反映 {{site.data.keyword.cloudant_short_notm}} 叢集裡所有節點的已使用及可用總 GB 量。一般而言，{{site.data.keyword.cloudant_short_notm}} 叢集包含 3 個節點，而且資料庫中的文件會在叢集的所有節點之間抄寫以提供高可用性及災難回復。使用八月更新，{{site.data.keyword.cloudant_short_notm}} 撥號中的容量度量值（於_資源用量 > 服務_ 視圖中提供）指出叢集的所有節點中的空間。例如，如果單一 {{site.data.keyword.cloudant_short_notm}} 叢集包含 3 個節點，每一個都有 1000 GB 的容量，則容量限制會是 3000 GB。如果已使用該容量的 1500 GB，則 {{site.data.keyword.cloudant_short_notm}} 用量度量值會是 50%。
 
 #### 維護更新排定更新
 
@@ -335,7 +393,7 @@ Identity and Access Management (IAM) 現在可讓您建立「服務 ID」，您�
 ### {{site.data.keyword.containerlong_notm}} 現在有高可用性的 Kubernetes
 文件日期：2018 年 11 月 7 日
 
-使用新的高可用性 Kubernetes 主節點特性，提高您的叢集可用性。高可用性 Kubernetes 主節點會設定多個抄本以供 Kubernetes API 伺服器、etcd、Kubernetes 排程器和控制器使用，這些全都分散在不同的實體主機。當您建立執行 Kubernetes 1.12、1.11 或 1.10 版的叢集時，您的 Kubernetes 主節點會依預設設定高可用性。若要在執行上述其中一個 Kubernetes 版本的現有叢集中啟用此特性，您必須完成[準備步驟](/docs/containers/cs_versions.html#110_ha-masters)。
+使用新的高可用性 Kubernetes 主節點特性，提高您的叢集可用性。高可用性 Kubernetes 主節點會設定多個抄本以供 Kubernetes API 伺服器、etcd、Kubernetes 排程器和控制器使用，這些全都分散在不同的實體主機。當您建立執行 Kubernetes 1.12、1.11 或 1.10 版的叢集時，您的 Kubernetes 主節點會依預設設定高可用性。若要在執行上述其中一個 Kubernetes 版本的現有叢集裡啟用此特性，您必須完成[準備步驟](/docs/containers/cs_versions.html#110_ha-masters)。
 
 ### 在 {{site.data.keyword.containerlong_notm}} 中建立多區域叢集
 文件日期：2018 年 7 月 10 日
@@ -372,6 +430,31 @@ Liberty 建置套件 3.9 版提供新的每月 Liberty 運行環境版本，並�
 
 ## 服務
 {: #services_category}
+
+### Citrix NetScaler VPX 12.1 版
+文件日期：2018 年 11 月 21 日
+{: #vpx121}
+
+#### 具有多個 IP 位址的虛擬伺服器
+您現在可以使用多個非連續/連續 VIP IPv4 及 IPv6 位址來建立單一負載平衡虛擬伺服器。連結至虛擬伺服器的每一個 VIP 位址，都被視為個別虛擬伺服器。
+
+如需此特性的相關資訊，請參閱 Citrix 文章[多個 IP 虛擬伺服器 ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](https://docs.citrix.com/en-us/netscaler/12-1/load-balancing/load-balancing-customizing/multi-ip-virtual-servers.html){: new_window}。
+
+#### SSL
+已針對 SSL 連線套用下列更新項目：
+ 
+* 從 DEFAULT_BACKEND 密碼群組中移除低保護性密碼。 
+* 支援 Thales nShield® 外部 HSM 前端系統使用 ECDHE 密碼
+* 支援 SafeNet 網路外部 HSM 前端系統使用 ECDHE 密碼
+* 移除 SSLv2：從 12.1 版開始，NetScaler VPX 應用裝置不支援 SSLv2。
+
+如需有關 12.1 SSL 更新項目的詳細資料，請參閱 [Citrix 12.1 版本注意事項 ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](https://docs.citrix.com/en-us/netscaler/12-1/downloads/release-notes-12-1-48-13.html){: new_window}。
+
+#### GSLB 的服務群組支援
+您現在可以配置 IP 位址型服務群組、網域名稱型服務群組或 GSLB 的網域名稱型自動擴充服務群組。您也可以像單一服務一樣輕鬆地管理一個服務群組，並將服務群組連結至虛擬伺服器，以及將服務新增至群組。
+
+如需 GSLB 服務群組的相關資訊，請參閱 Citrix 文章[配置 GSLB 服務群組 ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](https://docs.citrix.com/en-us/netscaler/12/global-server-load-balancing/configure/configuring-a-gslb-service-group.html){: new_window}。
+
 
 ### 重大的 {{site.data.keyword.conversationshort}} 更新
 文件日期：2018 年 11 月 9 日
@@ -437,7 +520,7 @@ Terraform 及 Ansible 是開放程式碼軟體，您可以用它們來從頭到�
 ### {{site.data.keyword.streaminganalyticsshort}} 引進具有容器基礎架構的新服務方案
 文件日期：2018 年 4 月 20 日
 
-{{site.data.keyword.streaminganalyticsshort}} 現在會在 Kubernet 容器基礎架構上執行，可為服務提供安全性和可用性優點。
+{{site.data.keyword.streaminganalyticsshort}} 現在會在 Kubernetes 容器基礎架構上執行，可為服務提供安全性和可用性優點。
  
 您可以使用[第 2 版服務方案](/docs/services/StreamingAnalytics/service_plans.html#service_plans)，來存取這個新的容器基礎架構。您可以選擇最適合您需要進行之工作的 {{site.data.keyword.streaminganalyticsshort}} 方案。第 2 版服務方案包含下列加強功能：
  
@@ -458,7 +541,7 @@ Terraform 及 Ansible 是開放程式碼軟體，您可以用它們來從頭到�
 * 比之前更輕鬆地開始使用，方法是使用單一步驟來建立語音代理程式及所有必要 Watson 服務。
 * 轉接來自語音代理程式的通話，例如人力客服中心客服人員或其他目的地。
 * 收集及分析通話資料，方法是配置語音代理程式將通話詳細記錄、轉錄及 {{site.data.keyword.conversationshort}} 各回交談事件轉遞給 {{site.data.keyword.cloudant_short_notm}} 資料庫。
-* 在新的_使用情形_ 頁面上，監視服務使用情形，以及檢視通話日誌。您可以檢視現行月份的快速統計資料、尋找及過濾通話日誌，以及檢視每個個別通話的系統訊息。
+* 在新的_用量_ 頁面上，監視服務用量，以及檢視通話日誌。您可以檢視現行月份的快速統計資料、尋找及過濾通話日誌，以及檢視每個個別通話的系統訊息。
 * 透過埠 5061 及「安全即時傳輸通訊協定 (SRTP)」使用 SIP TLS (sips URI)，以建立具有媒體加密的安全通話。
 * 在其他 {{site.data.keyword.cloud_notm}} 空間中連接至 {{site.data.keyword.speechtotextfull}} 及 {{site.data.keyword.texttospeechfull}} 服務實例，以增加彈性。
 
@@ -520,7 +603,7 @@ Terraform 及 Ansible 是開放程式碼軟體，您可以用它們來從頭到�
 ### {{site.data.keyword.mobilepushshort}} 的新增功能
 文件日期：2017 年 10 月 26 日
 
-我們已在最後幾個月對 {{site.data.keyword.mobilepushshort}} 服務進行數項加強。此服務現在可用於法蘭克福地區，以及達拉斯、倫敦和雪梨。下列是加強功能的詳細資料：
+我們已在最後幾個月對 {{site.data.keyword.mobilepushshort}} 服務進行數項加強。此服務現在可用於法蘭克福地區，以及達拉斯、倫敦和雪梨。以下是加強功能的詳細資料：
 
 #### 監視
 您現在可以追蹤特定時段的推送通知效能、追蹤送出的通知數目，以及已登錄裝置總數。您也可以登錄 Web 連結鉤，以收到生命週期中所有事件的通知。在下列文件鏈結及部落格文章中，可以找到更多詳細資料：
@@ -550,7 +633,7 @@ Apple 已為 Apple Notifications 建立 HTTP 通訊協定支援。{{site.data.ke
 ### Mobile Analytics 的新增功能
 文件日期：2017 年 10 月 26 日
 
-我們已在最後幾個月對 {{site.data.keyword.mobileanalytics_short}} 服務進行加強。此服務現在可用於法蘭克福及雪梨地區，以及達拉斯和倫敦。下列是加強功能的詳細資料：
+我們已在最後幾個月對 {{site.data.keyword.mobileanalytics_short}} 服務進行加強。此服務現在可用於法蘭克福及雪梨地區，以及達拉斯和倫敦。以下是加強功能的詳細資料：
 
 #### Web SDK 支援
 {{site.data.keyword.mobileanalytics_short}} 現在除了支援 Web 應用程式分析之外，也是 Omni 通道服務。在 [https://github.com/ibm-bluemix-mobile-services/bms-clientsdk-web-analytics/](https://github.com/ibm-bluemix-mobile-services/bms-clientsdk-web-analytics/){: new_window} ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示") 中，可以找到更多詳細資料。
@@ -758,11 +841,11 @@ Apache Spark 透過根據 Stocator 技術的儲存空間連接器來存取 IBM C
 ### {{site.data.keyword.Bluemix_notm}} 上 {{site.data.keyword.mobilepush}} 服務的新更新
 文件日期：2017 年 5 月 24 日
 
-下列是可用於 {{site.data.keyword.Bluemix_notm}} 上 {{site.data.keyword.mobilepush}} 服務的新更新
+以下是可用於 {{site.data.keyword.Bluemix_notm}} 上 {{site.data.keyword.mobilepush}} 服務的新更新
 
 **精簡方案**：除了 {{site.data.keyword.mobilepush}} 服務的現有「基本方案」之外，我們還引進了新的「精簡方案」。根據新的方案，使用者每個月可以免費傳送十萬則數位訊息。從「精簡」方案升級至基本方案時，會在一百萬則數位訊息之後向使用者收費。將「精簡」方案升級至基本方案時，會開始計算一百萬則訊息。
 
-**監視**：您現在可以瞭解所傳送的通知以及在「{{site.data.keyword.mobilepush}} 服務主控台」中所登錄的裝置。您也可以使用 REST API 進行訊息層次追蹤。配置 Webhook，即可取得從訊息遞送到訊息分派再到訊息接收的詳細資料。請參閱 [{{site.data.keyword.mobilepush}} 的監視](/docs/services/mobilepush/t_push_monitoring.html#monitor-notifications)。
+**監視**：您現在可以瞭解所傳送的通知以及在「{{site.data.keyword.mobilepush}} 服務主控台」中所登錄的裝置。您也可以使用 REST API 進行訊息層次追蹤。配置 Webhook，即可取得從訊息遞送到訊息分派再到訊息接收的詳細資料。請參閱 [{{site.data.keyword.mobilepush}} 的監視功能](/docs/services/mobilepush/t_push_monitoring.html#monitor-notifications)。
 
 **Web 通知**：您現在可以將通知傳送至 Safari Web 瀏覽器。
 
@@ -801,4 +884,3 @@ Apache Spark 透過根據 Stocator 技術的儲存空間連接器來存取 IBM C
 使用記事本及 Spark 的新平台是 Data Science Experience。請註冊 [Data Science Experience](http://datascience.ibm.com/)，開始建立記事本並且與其他資料科學家共用專門知識。
 
 如果您是在 {{site.data.keyword.sparks}} 中使用記事本，則可以將記事本移轉至 Data Science Experience。如需相關資訊，請參閱[移轉記事本文件](/docs/services/AnalyticsforApacheSpark/index-gentopic2.html#migration_to_dsx)。
-
