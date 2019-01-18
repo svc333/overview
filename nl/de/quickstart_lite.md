@@ -1,0 +1,46 @@
+---
+
+copyright:
+
+  years: 2018
+
+lastupdated: "2018-11-14"
+
+---
+
+{:shortdesc: .shortdesc}
+{:codeblock: .codeblock}
+{:screen: .screen}
+{:new_window: target="_blank"}
+{:tip: .tip}
+
+
+# Testen Sie {{site.data.keyword.Bluemix_notm}} kostenlos
+{: #quickstart_lite}
+
+Sie möchten {{site.data.keyword.Bluemix}} testen? Ein Lite-Konto eignet sich hervorragend, um zu erfahren, wie Sie in der Cloud arbeiten, Watson verwenden usw. Es eignet sich auch perfekt für die Erstellung von Machbarkeitsnachweisen mit den zahlreichen in {{site.data.keyword.Bluemix_notm}} verfügbaren Komponenten. Dieser Leitfaden für den Schnelleinstieg soll Ihnen dabei helfen, sich möglichst rasch mit dem Lite-Konto vertraut zu machen.  
+{:shortdesc}  
+
+## Vorbereitende Schritte
+{: #prereqs}
+
+Wechseln Sie zu [{{site.data.keyword.Bluemix_notm}}](https://{DomainName}) und erstellen Sei ein Lite-Konto. Das Konto ist kostenlos und läuft nicht ab.
+
+## Schritte für den Schnelleinstieg
+{: #steps}
+
+1. Durchsuchen Sie den Katalog nach Angeboten, die kostenlose [Lite-Servicepläne ![Symbol für externen Link](../icons/launch-glyph.svg "Symbol für externen Link")](https://{DomainName}/catalog/?search=label:lite){: new_window} enthalten.
+  
+  Beachten Sie, dass der Filter `label:lite` enthält.
+  {:tip}
+
+2. Erstellen Sie eine Instanz eines Angebots, das einen kostenlosen Lite-Plan enthält.
+3. Die [Lernprogramme für Lösungen](/docs/tutorials/index.html) enthalten detaillierte Schritte zur Verwendung von {{site.data.keyword.Bluemix_notm}} für die Implementierung von allgemeinen Mustern auf der Basis von bewährten Verfahren (Best Practices) und bewährten Technologien. 
+
+
+## Nächste Schritte
+{: #nextsteps}
+
+Erfahren Sie, was es bedeutet, ein Entwickler in {{site.data.keyword.Bluemix_notm}} zu sein. Lesen Sie dazu [Developer Journey in {{site.data.keyword.cloud_notm}} erkunden](/docs/overview/dev-journey.html#dev-journey). 
+
+

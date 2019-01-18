@@ -4,7 +4,7 @@ copyright:
 
   years: 2017, 2018
 
-lastupdated: "2018-05-22"
+lastupdated: "2018-11-05"
 
 ---
 
@@ -19,7 +19,7 @@ lastupdated: "2018-05-22"
 
 Mit Cloudressourcennamen (CRNs) können {{site.data.keyword.Bluemix_notm}}-Ressourcen eindeutig identifiziert werden. Ein CRN wird verwendet, um eine Ressource in einer Weise anzugeben, die garantiert global eindeutig ist, z. B. in  {{site.data.keyword.Bluemix_notm}} IAM-Richtlinien und -Services, die im Cloud-Katalog aufgelistet sind (IAM = Identity and Access Management).
 
-Ein CRN wird aus einer Kette von "Segmenten" gebildet, die die Ressource, ihre Position und den Service, zu dem sie gehört, hierarchisch angeben. Der Segmentbegrenzer wird auf ':' (d. h. den Doppelpunkt) gesetzt. Alle CRNs beginnen mit der Segmentkennung 'crn'.
+Ein CRN wird aus einer Kette von 'Segmenten' gebildet, die die Ressource, ihre Position und den Service, zu dem sie gehört, hierarchisch angeben. Als Segmentbegrenzer ist ':' (Doppelpunkt) festgelegt. Alle CRNs beginnen mit der Segmentkennung 'crn'.
 
 
 ## CRN-Format
@@ -33,7 +33,7 @@ Das kanonische Basisformat einer CRN lautet wie folgt:
 ## version
 {: #version}
 
-Das Segment `version` gibt die Version des CRN-Formats an. Derzeit ist **v1** der einzige gültige Wert für das Versionssegment.
+Das Segment `version` gibt die Version des CRN-Formats an. Derzeit ist die Angabe **v1** der einzige gültige Wert für das Versionssegment.
 
 
 ## cname
@@ -101,7 +101,7 @@ Das Segment `position` muss einer der folgenden Werte sein:
 | PAR01  | SJC01  | SJC03  | SAO01  |  SEA01  |
 | SEO01  | SNG01  | SYD01  | TOK02  |  TOR01  |
 | WDC01  | WDC04  | WDC06  | WDC07  |
-{: caption="Tabelle 1. Gültige Werte für Rechenzentren" caption-side="top"}
+{: caption="Tabelle 1. Gültige Werte für das Rechenzentrum" caption-side="top"}
 
 Für einige Ressourcen ist keine Region erforderlich (sie können als `global` betrachtet werden). In diesem Fall wird das Segment `region` auf `global` gesetzt.
 {: tip}
@@ -121,7 +121,6 @@ Der Wert des Segments `umfang` muss als `{scopePrefix}`/`{id}` formatiert werden
 | Bereich | s/`{space guid}` | Der {{site.data.keyword.Bluemix_notm}}-Bereich, dem die Ressource zugeordnet wurde. | s/48b3cdcd-e804-4398-9032-73065863ad7c |
 {: caption="Tabelle 2. Verwendung von 'umfang'" caption-side="top"}
 
-`account id` muss die ID des IBM Kontos sein (verknüpfte {{site.data.keyword.Bluemix_notm}}- und Softlayer-Konten)
 
 
 ## serviceinstanz
@@ -129,7 +128,7 @@ Der Wert des Segments `umfang` muss als `{scopePrefix}`/`{id}` formatiert werden
 
 Das Segment `serviceinstanz` gibt die Serviceinstanz eindeutig an. Das Format des Segments `serviceinstanz` ist vom Service abhängig. Jeder Service muss das Format seines Segments `serviceinstanz` als Teil der Servicemetadaten dokumentieren. Manche Services haben keine Instanzen, weil die Instanz global ist. In diesem Fall ist das Feld `serviceinstanz` leer.
 
-Das Segment `serviceinstanz` muss alphanumerisch und kleingeschrieben sein, es darf keine Leerzeichen oder Sonderzeichen (mit Ausnahme von '-' und '/') enthalten.
+Das Segment `serviceinstanz` muss alphanumerisch und kleingeschrieben sein und es darf keine Leerzeichen oder Sonderzeichen (mit Ausnahme von '-' und '/') enthalten.
 
 Beispiel: Ein Tool 'devops' könnte zum Verfolgen und Planen von Arbeitselementen eine einfache `GUID`-Instanz-ID ("1234-5678-9012-3456") haben, in der die Richtlinienkomponente eines Service für die automatische Gruppenskalierung eine hierarchische Namenskonvention verwenden kann und folgendes Segment `service-id` hat:
 
@@ -140,7 +139,6 @@ Sie können CRNs auch mit dem folgenden CLI-Befehl von einer {{site.data.keyword
 ibmcloud resource service-instance
 ```
 {: codeblock}
-
 
 ## ressourcentyp, ressource
 {: #resource-type}
@@ -159,7 +157,7 @@ Im Folgenden finden Sie eine Liste mit CRN-Beispielen.
 
 | Beispiel | Wert |
 | --- | --- |
-| Kubernetes-Worker | `crn:v1:bluemix:public:containers-kubernetes:us-south:a/59bcbfa6ea2f006b4ed7094c1a08dcdd:8042b2a8af6a4a5cbf6dbe09e07311d2:worker:kube-hou02-pa8042b2a8af6a4a5cbf6dbe09e07311d2-w1`|
+| Kubernetes-Worker | `crn:v1:bluemix:public:containers-kubernetes:us-south:a/59bcbfa6ea2f006b4ed7094c1a08dcdd:8042b2a8af6a4a5cbf6dbe09e07311d2:worker:kube-hou02-pa8042b2a8af6a4a5cbf6dbe09e07311d2-w1` |
 | Ressourcengruppe | `crn:v1:bluemix:public:resource-controller: global:a/59bcbfa6ea2f006b4ed7094c1a08dcdd:resource-group:59bcbfa6ea2f006b4ed7094c1a08dcdd` |
 | Serviceinstanz | `crn:v1:bluemix:public:cloud-object-storage:global:a/59bcbfa6ea2f006b4ed7094c1a08dcdd:1a0ec336-f391-4091-a6fb-5e084a4c56f4::` |
 | Bucket | `crn:v1:bluemix:public:cloud-object-storage:global:a/59bcbfa6ea2f006b4ed7094c1a08dcdd:1a0ec336-f391-4091-a6fb-5e084a4c56f4:bucket:mybucket` |

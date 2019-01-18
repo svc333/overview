@@ -18,7 +18,8 @@ lastupdated: "2018-11-14"
 # Experimente gratuitamente o {{site.data.keyword.Bluemix_notm}}
 {: #quickstart_lite}
 
-Quer experimentar o {{site.data.keyword.Bluemix}}? Uma conta Lite é ótima para aprender a trabalhar na nuvem, usar o Watson e assim por diante. Também é perfeita para construir provas de conceitos (POCs) com os vários componentes disponíveis no {{site.data.keyword.Bluemix_notm}}. Esse
+Quer experimentar o {{site.data.keyword.Bluemix}}? Uma conta Lite é realmente excelente para aprender sobre
+o trabalho na nuvem, o uso do Watson e assim por diante. Também é perfeita para construir provas de conceitos (POCs) com os vários componentes disponíveis no {{site.data.keyword.Bluemix_notm}}. Esse
 guia de iniciação rápida destina-se a ajudá-lo a começar a usar a nossa conta Lite.  
 {:shortdesc}  
 

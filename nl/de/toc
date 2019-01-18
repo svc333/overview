@@ -1,35 +1,52 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
+{:download: .download}
 
 {: .toc subcollection="overview" audience="platform" arm="3816100" href="/docs/overview/ibm-cloud.html" path="overview"}
-Was ist IBM Cloud?
+Einführung ein IBM Cloud
 
     {: .navgroup id="learn"}
-    {: .topicgroup}
-    Was ist IBM Cloud?
-        ibm-cloud.md
-        prereqs.md
-        catalog.md
-        manageaccess.md
-        resource-groups.md
+    ibm-cloud-platform.md
     ui.md
-    security.md
     dev-journey.md
+    it-ops-journey.md
     whats-new/index.md
-    ha-regions.md
-    feedback.md
 
     {: .topicgroup}
     Zugehörige Links
         [Warum IBM Cloud?](https://www.ibm.com/cloud-computing/learn-more/why-ibm-cloud/){: new_window}
-        [Informationen zu Optionen für die private Cloud](https://www.ibm.com/cloud-computing/solutions/private-cloud/){: new_window}
+        [Sicherheit in der Cloud](https://www.ibm.com/cloud/security){: new_window}
+    {: .navgroup-end}
+
+    {: .navgroup id="howto"}
+    {: .topicgroup}
+    Leitfäden für den Schnelleinstieg
+        quickstart_dev.md
+        quickstart_cloud_admin.md
+        quickstart_ea.md
+        quickstart_lite.md
+        quickstart_acc_ad.md
+
+    catalog.md
+    manageaccess.md
+    resource-groups.md
     {: .navgroup-end}
 
     {: .navgroup id="reference"}
-    data-centers.md
-    crn.md
-    glossary/index.md
-    nls.md
-    terms-of-use/notices.md
-    accessibility/accessibility_features.md
+    platform-cli-api.md
+    security.md
+    zero_downtime.md
+
+    {: .topicgroup}
+    Allgemeine Ressourcen
+        prereqs.md
+        crn.md
+        nls.md
+        glossary/glossary.md
+        accessibility/accessibility_features.md
+        terms-of-use/notices.md
+    {: .navgroup-end}
+
+    {: .navgroup id="help"}
+    feedback.md
     {: .navgroup-end}

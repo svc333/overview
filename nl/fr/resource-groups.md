@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2018
-lastupdated: "2018-05-31"
+lastupdated: "2018-10-11"
 
 ---
 
@@ -11,8 +11,8 @@ lastupdated: "2018-05-31"
 # Organisation des ressources dans des groupes de ressources
 {: #whatis}
 
-Un groupe de ressources permet d'organiser vos [ressources](/docs/resources/acct_resources.html#resource) de compte en regroupements personnalisables de manière à pouvoir affecter rapidement des accès utilisateur à plusieurs ressources à la fois. Chaque ressource de compte gérée à l'aide du contrôle d'accès {{site.data.keyword.Bluemix}} Identity and Access Management (IAM) appartient à un groupe de ressources au sein de votre compte. Lorsque vous ajoutez une ressource à votre compte à partir du catalogue, vous pouvez l'affecter à un groupe de ressources.
+Un groupe de ressources permet d'organiser vos [ressources](/docs/resources/acct_resources.html#resource) de compte en regroupements personnalisables de manière à pouvoir affecter rapidement des accès utilisateur à plusieurs ressources à la fois. Chaque ressource de compte gérée à l'aide du contrôle d'accès {{site.data.keyword.Bluemix}} Identity and Access Management (IAM) appartient à un groupe de ressources au sein de votre compte. Lorsque vous ajoutez une ressource à votre compte à partir du catalogue, vous pouvez l'affecter à un groupe de ressources. Seul Kubernetes ne vous invite pas à définir une affectation de groupe de ressources. Cependant, l'accès au service est contrôlé en utilisant des rôles IAM.
 
-Les services gérés avec {{site.data.keyword.Bluemix}} IAM et qui appartiennent à un groupe de ressources en tirent plusieurs avantages, notamment la possibilité de se connecter à des applications et des services dans n'importe quel espace Cloud Foundry, ce qui vous permet de vous connecter à des applications et des services à partir de différentes régions. Etant donné que la portée des groupes de ressources n'est pas établie par région, vous pouvez mettre à disposition des applications et des services issus de différentes régions dans un même groupe de ressources. Vous avez également la possibilité d'utiliser le contrôle d'accès à granularité fine jusqu'au niveau d'une instance individuelle d'un groupe de ressources.
+Les services gérés avec {{site.data.keyword.Bluemix}} IAM et qui appartiennent à un groupe de ressources offrent plusieurs avantages, notamment la possibilité de se connecter à des applications et des services dans n'importe quel espace Cloud Foundry, ce qui vous permet de vous connecter à des applications et des services à partir de différents emplacements. Etant donné que la portée des groupes de ressources n'est pas établie par emplacement, vous pouvez mettre à disposition des applications et des services issus de différents emplacements dans un même groupe de ressources. Vous avez également la possibilité d'utiliser le contrôle d'accès à granularité fine jusqu'au niveau d'une instance individuelle d'un groupe de ressources.
 
-Pour plus d'informations sur l'utilisation des groupes de ressources, voir [Gestion des groupes de ressources](/docs/resources/resourcegroups.html). Si vous n'avez pas l'habitude d'utiliser des groupes de ressources, voir [Meilleures pratiques en matière d'organisation des ressources dans un groupe de ressources](/docs/resources/bestpractice_rgs.html#bp_resourcegroups).
+Pour plus d'informations sur l'utilisation des groupes de ressources, voir [Gestion des groupes de ressources](/docs/resources/resourcegroups.html). Si vous n'avez pas l'habitude d'utiliser des groupes de ressources, voir [Meilleures pratiques pour l'organisation des ressources dans un groupe de ressources](/docs/resources/bestpractice_rgs.html#bp_resourcegroups).

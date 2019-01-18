@@ -4,14 +4,14 @@ copyright:
 
   years: 2015, 2018
 
-lastupdated: "2018-11-16"
+lastupdated: "2018-11-30"
 
 ---
 
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
 
-# Nouveautés d'{{site.data.keyword.Bluemix_notm}}
+# Nouveautés d'{{site.data.keyword.Bluemix_notm}}?
 {: #whatsnew}
 
 Restez à jour avec les nouvelles fonctions et les nouveaux services disponibles dans {{site.data.keyword.Bluemix}}, afin d'optimiser l'utilisation de votre expérience {{site.data.keyword.Bluemix_notm}}. Les mises à jour sont classées en fonction des catégories suivantes : [Plateforme {{site.data.keyword.Bluemix_notm}}](index.html#platform_category), [{{site.data.keyword.Bluemix_local_notm}} et {{site.data.keyword.Bluemix_dedicated_notm}}](index.html#dedicatedandlocal), [Calcul](index.html#compute_category), et [Services](index.html#services_category).
@@ -20,12 +20,70 @@ Restez à jour avec les nouvelles fonctions et les nouveaux services disponibles
 ## Plateforme {{site.data.keyword.Bluemix_notm}}
 {: #platform_category}
 
+
+### Nouvelle expérience de support pour {{site.data.keyword.Bluemix_notm}}
+Nouveau à compter du 30 novembre 2018
+{: #support}
+
+En collaboration avec le centre de support, vous pouvez essayer de résoudre les problèmes liés à {{site.data.keyword.Bluemix_notm}}. La page d'arrivée inclut des FAQ. Vous pouvez donc trouver les réponses à vos questions sans même contacter {{site.data.keyword.Bluemix_notm}}. Vous avez également la possibilité de discuter en direct avec un représentant de l'équipe de support. Vos cas peuvent désormais être gérés à partir d'un seul emplacement. Accédez à **Support** &gt; **Gérer les cas** pour créer, afficher ou éditer les cas.
+
+Le centre de support inclut également la [page Statut](https://cloud.ibm.com/status){: new_window} ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe"). De plus, il a été amélioré afin d'inclure les incidents imprévus, la maintenance planifiée, les annonces et les notifications de bulletin de sécurité relatives aux événements clés affectant la plateforme, l'infrastructure et les principaux services {{site.data.keyword.Bluemix_notm}}. Cliquez sur **Afficher le statut du cloud** dans le centre de support. Pour découvrir cette nouvelle expérience, connectez-vous et accédez au [centre de support](https://cloud.ibm.com/unifiedsupport/supportcenter){: new_window} ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe"). 
+
+### Connexion unifiée, clés d'API et gestion de l'accès et des utilisateurs dans {{site.data.keyword.Bluemix_notm}}
+Nouveau à compter du 30 novembre 2018
+{: #useraccess}
+
+Avec nos dernières mises à jour, vous pouvez bénéficier d'une connexion sécurisée simplifiée disponible pour tous les utilisateurs, quel que soit le type d'ID. Que vous ayez un IBMid ou un ID SoftLayer, vous pouvez rapidement vous connecter à la console {{site.data.keyword.Bluemix_notm}} à partir de notre page de connexion améliorée. Vous pouvez également effectuer des appels d'API sécurisés dans {{site.data.keyword.Bluemix_notm}} et automatiser votre connexion à l'interface CLI en utilisant une clé d'API IAM ou un jeton d'accès IAM. 
+
+Une fois que vous êtes connecté, vous pouvez voir tous les utilisateurs, notamment ceux de l'infrastructure classique et de la plateforme sur votre page Utilisateurs dans l'interface utilisateur Accès (IAM). En fonction de l'accès dont vous disposez pour voir les autres utilisateurs du compte, vous pouvez filtrer votre vue rapidement par utilisateurs de compte, utilisateurs d'infrastructure classique ou par organisation Cloud Foundry. Vous pouvez également utiliser les filtres pour trouver rapidement des utilisateurs par nom, adresse électronique ou statut.
+
+Maintenant que tous vos utilisateurs se trouvent dans une seule console, vous pouvez gérer leur accès à tous les types de ressources à partir du même emplacement. L'accès commence par l'utilisateur, commencez donc pas sélectionner un utilisateur dans votre liste. Puis, en fonction du type de ressource auquel vous souhaitez affecter l'accès, vous pouvez effectuer une sélection parmi les règles d'accès IAM, l'accès Cloud Foundry ou les droits de l'infrastructure classique. Si vous souhaitez affecter des règles d'accès IAM, essayez de créer un groupe d'accès pour rationaliser votre processus de gestion d'accès en ajoutant tous les utilisateurs au même groupe d'accès ayant besoin des mêmes règles affectées.
+
+### Recherche de toute la documentation du plug-in {{site.data.keyword.Bluemix_notm}} CLI à un seul emplacement
+Nouveau à compter du 30 novembre 2018
+{: #cli}
+
+Vous pouvez désormais accéder à l'ensemble de la documentation du plug-in {{site.data.keyword.Bluemix_notm}} CLI à un seul emplacement. Ainsi, il est plus facile pour vous de trouver la commande de l'interface CLI que vous recherchez sur la plateforme {{site.data.keyword.Bluemix_notm}}. Consultez la section des références dans la [documentation de l'interface CLI](/docs/cli/index.html#overview).
+
+### Nouveau tableau de bord et nouvelle liste de ressources
+Nouveau à compter du 30 novembre 2018
+{: #dash}
+
+Avec notre dernière mise à jour, vous pouvez désormais voir tous vos services d'infrastructure et de plateforme au même emplacement. Lorsque vous vous connectez, vous pouvez désormais accéder immédiatement au nouveau tableau de bord. Une fois que des ressources sont ajoutées à votre compte à partir du catalogue, vous pouvez utiliser la liste de ressources pour avoir une vue complète de vos ressources de compte. Vous trouverez ci-dessous une présentation des modifications :
+
+* Le tableau de bord a été reconçu afin que vous puissiez voir un récapitulatif de vos ressources, de la maintenance, du statut, des applications, du support, de l'utilisation et des utilisateurs.
+* Des informations supplémentaires sur vos ressources sont disponibles dans la liste de ressources. Vous pouvez étiqueter vos ressources pour les organiser ou les sélectionner pour effectuer des modifications sur la page des détails.
+* Maintenant que vous pouvez voir toutes vos ressources à un seul emplacement, nous avons ajouté une recherche globale afin que vous puissiez rapidement trouver les ressources que vous avez créées et devant apparaître sur la page Liste de ressources. 
+* Vous pouvez également rechercher des résultats de catalogue afin que vous puissiez rapidement trouver les ressources à ajouter à votre compte.  
+
+### Informations de profil utilisateur, de facturation et de compte unifié pour les services d'infrastructure et de plateforme
+Nouveau à compter du 30 novembre 2018
+{: #profile}
+
+Vos informations de compte, de facturation et de profil ont été simplifiées. Vous pouvez désormais voir vos informations de compte pour toutes vos ressources de plateforme et d'infrastructure dans une console unifiée. 
+
+* La zone de profil et de paramètres contient des informations vous concernant ainsi que les préférences de notification par courrier électronique pour tous les types de ressource. 
+* La zone d'informations de compte contient des informations sur votre entreprise, des paramètres de compte et un accès rapide pour l'utilisation de groupes de ressources et d'organisations Cloud Foundry. Elle inclut également les meilleures pratiques vous permettant d'être rapidement opérationnel. 
+* La zone de facturation et d'utilisation de votre compte vous permet de comprendre votre facture, d'effectuer des paiements, de surveiller les abonnements, d'obtenir des devis, d'effectuer le suivi des commandes et de définir des notifications de dépense.
+
+### Organisation de vos ressources à l'aide d'étiquettes
+Nouveau à compter du 30 novembre 2018
+{: #tag}
+
+Vous disposez désormais d'étiquettes que vous pouvez ajouter à vos ressources, comme Cloud Object Storage. Elles vous permettent de gérer les ressources et de trouver celles qui vous intéressent. Par exemple, si vous avez des centaines de ressources et que vous souhaitez différencier deux ressources payées le même jour, vous pouvez les étiqueter en indiquant "costcenter:location01". Ou, si une équipe utilise à plusieurs reprises deux ressources, vous pouvez utiliser une étiquette du type "team-blue". Vous pouvez également filtrer votre liste de ressources par étiquettes pour les organiser rapidement et trouver les ressources dont vous avez besoin. Pour plus d'informations, voir [Utilisation d'étiquettes](/docs/resources/tagging_resources.html#tag).
+
+### Recherche des coûts mensuels précis avec l'estimateur de coût
+Nouveau à compter du 30 novembre 2018
+{: #cost-estimator}
+
+Pour vous aider à choisir les services à acheter, vous pouvez utiliser l'estimateur de coût. Vous pouvez désormais parcourir la console et sélectionner chaque service dont vous souhaitez disposer et ajouter l'ensemble des coûts dans un outil facile à utiliser. Vous pouvez même entrer les utilisations de données projetées, les recherches par seconde, les écritures par seconde ainsi que les requêtes par seconde pour obtenir une estimation plus précise de vos dépenses mensuelles. Vous pouvez utiliser l'estimateur de coût avec chaque service de catalogue sélectionné ou vous pouvez cliquer sur l'icône d'estimateur de coût ![Icône Estimateur](../../icons/Estimator.svg) dans le menu de la console pour obtenir un récapitulatif de vos coûts estimés. Pour plus d'informations, voir [Estimation de vos coûts](/docs/billing-usage/estimating_costs.html#cost).
+
 ### Mise à jour des noms d'emplacement globaux pour {{site.data.keyword.cloud_notm}}
 Nouveau à compter du 1er novembre 2018
 
 Au fur et à mesure qu'{{site.data.keyword.cloud_notm}} continue à développer son empreinte de disponibilité globale, nous mettons à jour la structure de dénomination de nos emplacements pour proposer une hiérarchie plus compréhensible et cohérente des géographies, régions et centres de données à travers le monde. Si vous êtes familiers avec les régions globales actuelles, vous reconnaîtrez des noms tels que Sud des Etats-Unis et Sydney. Nous alignons ces noms d'emplacement avec le nom de la ville où résident physiquement les centres de données.
 
-Pour l'instant, les ID de programmation sont sans changement, de sorte qu'aucun impact n'est prévisible depuis une perspective d'API. Le tableau ci-après présente les anciens et les nouveaux noms des emplacements. Pour plus d'informations et une liste exhaustive des centres de données et des régions, voir [Disponibilité des services](docs/resources/services_region.html).
+Pour l'instant, les ID de programmation sont sans changement, de sorte qu'aucun impact n'est prévisible depuis une perspective d'API. Le tableau ci-après présente les anciens et les nouveaux noms des emplacements. Pour plus d'informations et une liste exhaustive des centres de données et des régions, voir [Disponibilité des services](/docs/resources/services_region.html).
 
 | Ancien nom d'affichage de l'emplacement | Nouveau nom d'affichage de l'emplacement | Code |
 |----------|---------|---------|
@@ -310,7 +368,7 @@ Vous voulez payer en fonction de ce que vous utilisez ? Vous pouvez désormais i
 #### Réservation de ressources pour les futures instances de serveur virtuel
 L'offre d'instances réservées {{site.data.keyword.BluVirtServers_full}} est maintenant disponible. Il s'agit d'une option idéale si vous souhaitez des ressources garanties pour des développements futurs et pour réaliser des économies. Vous avez le choix entre un contrat d'une durée d'un ou de trois ans pour votre capacité réservée. Dans le cadre de cette capacité réservée, vous pouvez réserver un maximum de 20 instances de serveur virtuel d'une taille spécifique et mettre ces instances à disposition lorsque vous en avez besoin. Cette capacité vous est garantie au sein du POD et du centre de données de votre choix pendant toute la durée du contrat. Pour plus d'informations, voir [Reserved virtual servers](/docs/vsi/vsi_about_reserved.html).
 
-#### Importation des images d'une instance de service {{site.data.keyword.cos_full_notm}} vers une infrastructure {{site.data.keyword.cloud_notm}} 
+#### Importation des images d'une instance de service {{site.data.keyword.cos_full_notm}} vers une infrastructure {{site.data.keyword.cloud_notm}}
 L'infrastructure {{site.data.keyword.cloud_notm}} interagit désormais avec le service {{site.data.keyword.cos_full_notm}} mis à disposition sur la console {{site.data.keyword.cloud_notm}}. {{site.data.keyword.cos_full_notm}} offre le plug-in de transfert à haut débit Aspera qui réduit considérablement la durée nécessaire pour télécharger une image volumineuse. Une fois que les images ont été téléchargées dans {{site.data.keyword.cos_full_notm}}, vous pouvez [importer les images](/docs/infrastructure/image-templates/import-image.html) dans l'infrastructure {{site.data.keyword.cloud_notm}} depuis {{site.data.keyword.cos_full_notm}}. Vous pouvez également [exporter les images](/docs/infrastructure/image-templates/export-image-ibm-cos.html) de l'infrastructure {{site.data.keyword.cloud_notm}} vers {{site.data.keyword.cos_full_notm}}.
 
 #### Groupes de placement pour instances de serveur virtuel
@@ -372,6 +430,31 @@ Le pack de construction Liberty version 3.9 fournit chaque mois une nouvelle ver
 
 ## Services
 {: #services_category}
+
+### Citrix NetScaler VPX Version 12.1
+Nouveau à compter du 21 novembre 2018
+{: #vpx121}
+
+#### Serveurs virtuels avec plusieurs adresses IP
+Vous pouvez désormais créer un serveur virtuel d'équilibrage de charge avec plusieurs adresses IPv4 et IPv6 VIP consécutives et non consécutives. Chaque adresse VIP liée à un serveur virtuel est considérée comme un serveur virtuel individuel.
+
+Pour plus d'informations sur cette fonction, voir l'article Citrix [Multiple IP virtual servers ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](https://docs.citrix.com/en-us/netscaler/12-1/load-balancing/load-balancing-customizing/multi-ip-virtual-servers.html){: new_window}.
+
+#### SSL
+Les mises à jour suivantes ont été appliquées pour les connexions SSL :
+ 
+* Suppression des chiffrements faibles du groupe de chiffrements DEFAULT_BACKEND 
+* Prise en charge des chiffrements ECDHE sur le serveur frontal du module de sécurité matérielle externe Thales nShield®
+* Prise en charge des chiffrements ECDHE sur le serveur frontal du module de sécurité matérielle du réseau SafeNet
+* Suppression de SSLv2 : Le périphérique NetScaler VPX ne prend plus en charge SSLv2 depuis la version 12.1.
+
+Pour plus de détails sur les mises à jour de SSL 12.1, voir [Citrix 12.1 Release Notes ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](https://docs.citrix.com/en-us/netscaler/12-1/downloads/release-notes-12-1-48-13.html){: new_window}.
+
+#### Prise en charge des groupes de services pour GSLB
+Vous pouvez désormais configurer des groupes de services basés sur des adresses IP, des groupes de services basés sur des noms de domaine ou des groupes de services de mise à l'échelle automatique basés sur des noms de domaine pour GSLB. Vous pouvez également gérer un groupe de services aussi facilement qu'un seul service, et lier un groupe de services à un serveur virtuel ainsi qu'ajouter des services au groupe.
+
+Pour plus d'informations sur les groupes de services GSLB, voir l'article Citrix [Configuring a GSLB service group ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](https://docs.citrix.com/en-us/netscaler/12/global-server-load-balancing/configure/configuring-a-gslb-service-group.html){: new_window}.
+
 
 ### Mise à jour majeure de {{site.data.keyword.conversationshort}}
 Nouveau à compter du : 9 novembre 2018
@@ -675,7 +758,7 @@ Les nouvelles fonctions du dispositif de routeur virtuel de version 18.x sont ex
 
 Si vous réalisez une migration depuis Vyatta 5400, la meilleure façon d'effectuer une mise à niveau vers la version 18.x est de le faire à travers la [procédure normale](/docs/infrastructure/virtual-router-appliance/upgrade-os.html) du rechargement complet du système d'exploitation.
 
-Dans la mesure où il n'y a pas de mappage simple et individuel des fonctionnalités entre Vyatta 5400 et le dispositif de routeur virtuel, il est utile de créer une configuration de base pour le dispositif de routeur virtuel. WanClouds, un partenaire IBM, peut vous aider dans ce processus et vous guider dans la création d'une fonctionnalité similaire à celle de Vyatta 5400 sur votre dispositif de routeur virtuel. 
+Dans la mesure où il n'y a pas de mappage simple et individuel des fonctionnalités entre Vyatta 5400 et le dispositif de routeur virtuel, il est utile de créer une configuration de base pour le dispositif de routeur virtuel. WanClouds, un partenaire IBM, peut vous aider dans ce processus et vous guider dans la création d'une fonctionnalité similaire à celle de Vyatta 5400 sur votre dispositif de routeur virtuel.
 
 Pour en savoir plus sur les problèmes communs rencontrés lors de ce processus de mise à niveau, veuillez vous reporter à votre [documentation additionnelle](/docs/infrastructure/virtual-router-appliance/migration-issues.html#vyatta-5400-common-migration-issues).
 
@@ -802,4 +885,3 @@ Nouveau à compter du : 11 avril 2017
 Votre nouvelle plateforme pour utiliser des blocs-notes et Spark : Data Science Experience. Connectez-vous à [Data Science Experience](http://datascience.ibm.com/) et commencez à créer des blocs-notes et à partager votre expertise avec d'autres spécialistes des données.
 
 Si vous utilisiez des blocs-notes dans {{site.data.keyword.sparks}}, vous pouvez les migrer vers Data Science Experience. Pour plus d'informations, voir la [documentation sur la migration des blocs-notes](/docs/services/AnalyticsforApacheSpark/index-gentopic2.html#migration_to_dsx).
-

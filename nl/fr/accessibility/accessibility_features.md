@@ -4,7 +4,7 @@
 
 copyright:
   years: 2018
-lastupdated: "2018-04-12"
+lastupdated: "2018-11-30"
 
 
 ---
@@ -12,7 +12,7 @@ lastupdated: "2018-04-12"
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
 
-# Fonctions d'accessibilité de {{site.data.keyword.Bluemix_notm}}
+# Fonctions d'accessibilité d'{{site.data.keyword.Bluemix_notm}}
 
 Les fonctions d'accessibilité permettent aux utilisateurs souffrant d'un handicap physique, comme une mobilité réduite ou une déficience visuelle, d'utiliser correctement les contenus informatiques.
 {:shortdesc}
@@ -45,7 +45,7 @@ L'état de conformité pour l'accessibilité de l'interface utilisateur Web {{si
 ou un service IoT, vous devez demander les [informations
 relatives à l'accessibilité du produit ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](http://www-03.ibm.com/able/product_accessibility/index.html){: new_window} pour cette interface ou documentation.
 
-L'état de conformité pour l'accessibilité de la documentation {{site.data.keyword.Bluemix_notm}} concerne spécifiquement les informations de la plateforme principale{{site.data.keyword.Bluemix_notm}} et ne s'applique pas aux services. Sur la page d'accueil, le contenu est présenté dans deux sections intitulées "{{site.data.keyword.Bluemix_notm}}" et "Compute and Services". La documentation disponible pour la plateforme {{site.data.keyword.Bluemix_notm}} est gérée et signalée dans les informations d'accessibilité relatives au produit IBM Bluemix Continuous Delivery disponibles sur demande. Pour
+L'état de conformité pour l'accessibilité de la documentation {{site.data.keyword.Bluemix_notm}} concerne spécifiquement les informations de la plateforme principale{{site.data.keyword.Bluemix_notm}} et ne s'applique pas aux services. Sur la page d'accueil, le contenu est réparti sur différents onglets. Le contenu de l'onglet Intégralité de la documentation est géré par les équipes de maintenance. La documentation disponible pour la plateforme {{site.data.keyword.Bluemix_notm}} est gérée et signalée dans les informations d'accessibilité relatives au produit IBM Bluemix Continuous Delivery disponibles sur demande. Pour
 connaître l'état de conformité d'un service, vous devez demander les [informations
 relatives à l'accessibilité du produit ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](http://www-03.ibm.com/able/product_accessibility/index.html){: new_window}.
 

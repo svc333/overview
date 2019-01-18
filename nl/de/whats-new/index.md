@@ -4,7 +4,7 @@ copyright:
 
   years: 2015, 2018
 
-lastupdated: "2018-11-16"
+lastupdated: "2018-11-30"
 
 ---
 
@@ -20,12 +20,73 @@ Wenn Sie stets auf dem aktuellen Stand über die neuen Features und Services ble
 ## {{site.data.keyword.Bluemix_notm}}-Plattform
 {: #platform_category}
 
+
+### Neues Unterstützungserlebnis für {{site.data.keyword.Bluemix_notm}}
+Datum der Neuerung: 30. November 2018
+{: #support}
+
+Mit dem Support Center können Sie alle Probleme in Bezug auf {{site.data.keyword.Bluemix_notm}} lösen. Auf der Zielseite finden Sie häufig gestellte Fragen (FAQs), sodass Sie die Antwort auf Ihre Frage finden können, ohne sich dazu überhaupt mit {{site.data.keyword.Bluemix_notm}} in Verbindung setzen zu müssen. Ihnen steht auch die Option offen, mit einem Live-Supportmitarbeiter zu chatten. Ihre Fälle können jetzt von einem einzigen Ort aus verwaltet werden. Rufen Sie **Support** &gt; **Fälle verwalten** auf, um Fälle zu erstellen, anzuzeigen, oder zu bearbeiten.
+
+Sie können die [Statusseite](https://cloud.ibm.com/status){: new_window} ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link") ebenfalls über das Support Center suchen. Die Seite wurde funktional so erweitert, dass sie alle ungeplanten Vorfälle, geplante Wartungsmaßnahmen, Ankündigungen und Sicherheitsbulletinbenachrichtigungen in Bezug auf bedeutende Ereignisse enthält, die die {{site.data.keyword.Bluemix_notm}}-Plattform, ihr Infrastruktur und die wichtigsten Services betreffen.
+Klicken Sie im Support Center auf **Cloudstatus anzeigen**. Um herauszufinden, wie das neue Erlebnis aussieht, melden Sie sisch an und wechseln Sie zum [Support-Center](https://cloud.ibm.com/unifiedsupport/supportcenter){: new_window} ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link"). 
+
+### Einheitliche Anmeldung, API-Schlüssel sowie Benutzer-und Zugriffsverwaltung in {{site.data.keyword.Bluemix_notm}}
+Datum der Neuerung: 30. November 2018
+{: #useraccess}
+
+Mit unseren neuesten Aktualisierungen können Sie die Vorteile einer vereinfachten sicheren Anmeldung nutzen, die allen Benutzern unabhängig von ihrem ID-Typ zur Verfügung ist. Unabhängig davon, ob Sie über eine IBMid oder eine SoftLayer-ID verfügen, können Sie sich von der funktional erweiterten Anmeldeseite schnell bei der {{site.data.keyword.Bluemix_notm}}-Konsole anmelden. Sie können auch sichere API-Aufrufe in {{site.data.keyword.Bluemix_notm}} tätigen und Ihre CLI-Anmeldung durch die Verwendung eines IAM-API-Schlüssels oder eines IAM-Zugriffstokens automatisieren. 
+
+Nachdem Sie sich angemeldet haben, werden Sie feststellen, dass auf Ihrer Benutzerseite in der IAM-Benutzerschnittstelle (UI) jetzt alle Benutzer einschließlich der Benutzer der Plattform und der klassischen Infrastruktur angezeigt werden. Abhängig von Ihrem Zugriff für die Anzeige anderer Benutzer im Konto können Sie Ihre Ansicht rasch nach Kontobenutzern, Benutzern der klassischen Infrastruktur oder Cloud Foundry-Organisation filtern. Mit diesen Filtern können Sie Benutzer auch schnell nach Name, E-Mail-Adresse oder Status suchen.
+
+
+Nachdem sich nun alle Ihre Benutzer in einer einzigen Konsole befinden, können Sie ihren Zugriff auf alle Typen von Ressourcen von demselben Ort aus verwalten. Der Zugriff beginnt beim Benutzer. Beginnen Sie also einfach mit der Auswahl eines Benutzers aus Ihrer Liste. Abhängig von der Art der Ressource, der Sie Zugriff zuweisen wollen, können Sie zwischen IAM-Zugriffsrichtlinien, Cloud Foundry-Zugriff oder klassischen Infrastrukturberechtigungen auswählen. Wenn Sie einfach nur IAM-Zugriffsrichtlinien zuweisen möchten, erstellen Sie eine Zugriffsgruppe, um Ihren Zugriffsverwaltungsprozess zu optimieren, indem Sie alle Benutzer, denen dieselben Richtlinien zugewiesen werden müssen, zu derselben Zugriffsgruppe hinzufügen.
+
+### Gesamte Dokumentation für das Plug-in der {{site.data.keyword.Bluemix_notm}}-CLI an einem Ort suchen
+Datum der Neuerung: 30. November 2018
+{: #cli}
+
+Sie können jetzt an einem Ort auf die gesamte Dokumentation des Plug-ins für die {{site.data.keyword.Bluemix_notm}}-CLI zugreifen, wodurch es einfacher wird, einen beliebigen CLI-Befehl, den Sie suchn, auf der {{site.data.keyword.Bluemix_notm}}-Plattform zu finden. Lesen Sie hierzu in der [CLI-Dokumentation](/docs/cli/index.html#overview) den Abschnitt 'Referenzen'.
+
+### Sehen Sie sich das neue Dashboard und die neue Ressourcenliste an
+Datum der Neuerung: 30. November 2018
+{: #dash}
+
+Mit der neuesten Aktualisierung können Sie jetzt alle Ihre Plattform- und Infrastrukturservices von einem zentralen Ort aus anzeigen. Wenn Sie sich anmelden, können Sie das neue Dashboard sofort genauer in Augenschein nehmen. Sobald Sie Ressourcen aus dem Katalog zu Ihrem Konto hinzugefügt haben, können Sie anhand der Ressourcenliste eine vollständige Ansicht der Kontoressourcen abrufen. Im Folgenden werden einige Details im Zusammenhang mit den Änderungen genannt, die Sie feststellen werden:
+
+* Das Dashboard wurde neu gestaltet, sodass Sie eine Zusammenfassung Ihrer Ressourcen, Ihrer Wartung, des Status, der Apps, des Supports, der Nutzung (Belegung) und der Benutzer anzeigen können.
+* Weitere Details zu Ihren Ressourcen finden Sie in der Ressourcenliste. Sie können Ihre Ressourcen mit Tags kennzeichnen, um sie zu organisieren, oder Sie können sie auswählen, um auf der Detailseite Änderungen vorzunehmen.
+* Da alle Ihre Ressourcen nun an einem Ort angezeigt werden, wurde eine globale Suche hinzugefügt, sodass Sie Ressourcen, die Sie erstellt haben und die auf der Seite 'Ressourcenliste' erwartungsgemäß angezeigt werden müssten, rasch ausfindig machen können. 
+* Sie können auch nach Katalogergebnissen suchen, um rasch Ressourcen zu finden, die Sie zu Ihrem Konto hinzufügen können.  
+
+### Vereinheitlichte Konto-, Abrechnungs- und Benutzerprofilinformationen für Plattform- und Infrastrukturservices
+Datum der Neuerung: 30. November 2018
+{: #profile}
+
+Ihre Konto-, Abrechnungs- und Profilinformationen wurden vereinfacht. Sie können die Kontoinformationen für alle Ihre Plattform- und Infrastrukturressourcen jetzt in einer vereinheitlichten Konsole anzeigen. 
+
+* Ihr Profil- und Einstellungsbereich enthält Informationen zu Ihnen sowie Ihre Vorgaben für E-Mail-Benachrichtigungen für alle Ressourcentypen. 
+* Ihr Kontoinformationsbereich enthält Informationen zu Ihrem Unternehmen oder Ihrer Organisation, Kontoeinstellungen und Schnellzugriff für das Arbeiten mit Ressourcengruppen und Cloud Foundry-Organisationen. Hier finden Sie sogar Leitfäden für den Schnelleinstieg, die Ihnen dabei helfen sollen, möglichst rasch durchzustarten.
+* Der Abrechnungs- und Nutzungsbereich Ihres Kontos hilft Ihnen, Ihre Rechnung zu verstehen, Zahlungen vorzunehmen, Abonnements zu überwachen, Angebote einzuholen, Bestellungen zu verfolgen und Benachrichtigungen über Ausgaben festzulegen.
+
+
+### Organisieren von Ressourcen mit Tags
+Datum der Neuerung: 30. November 2018
+{: #tag}
+
+Es stehen jetzt Tags zur Verfügung, die Sie zu Ihren Ressourcen hinzufügen können, wie z. B. Cloud Object Storage. Diese Tags helfen Ihnen bei der Verwaltung von Ressourcen und vereinfachen die Suche nach denjenigen, die für Sie die höchste Relevanz besitzen. Wenn Sie zum Beispiel über Hunderte von Ressourcen verfügen und zwischen einigen wenigen unterscheiden möchten, die auf dieselbe Weise bezahlt werden, könnten Sie sie mit 'kostenstelle:standort01' kennzeichnen. Wenn ein Team wiederholt an einigen Ressourcen arbeitet, könnten Sie beispielsweise etwas wie 'blaues-team' verwenden. Sie können Ihre Ressourcenliste auch nach Tags filtern, um die benötigten Ressourcen rasch zu organisieren und zu finden. Weitere Informationen finden Sie in [Mit Tags arbeiten](/docs/resources/tagging_resources.html#tag).
+
+### Genaue monatliche Kosten mit dem Kostenschätzer suchen
+Datum der Neuerung: 30. November 2018
+{: #cost-estimator}
+
+Um zu entscheiden und zu analysieren, welche Services Sie kaufen möchten, können Sie den Kostenschätzer verwenden. Sie können jetzt über die Konsole jeweils die Services auswählen, die Sie gerne nutzen würden, und alle Kosten in einem benutzerfreundlichen Tool hinzufügen. Es ist sogar möglich, projizierte Datennutzungen, Suchvorgänge pro Sekunde, Schreibvorgänge pro Sekunde und Abfragen pro Sekunde einzugeben, um eine genauere Schätzung Ihrer monatlichen Ausgaben zu erhalten. Sie können den Kostenschätzer mit jedem von Ihnen ausgewählten Katalogservice verwenden. Sie können aber auch in der Konsole auf das Symbol für den Kostenschätzer ![Symbol für Kostenschätzer](../../icons/Estimator.svg) klicken, um eine Zusammenfassung der geschätzten Kosten zu erhalten. Weitere Informationen enthält [Kosten schätzen](/docs/billing-usage/estimating_costs.html#cost).
+
 ### Aktualisierte globale Standortnamen für {{site.data.keyword.cloud_notm}}
 Datum der Neuerung: 1. November 2018
 
 Im Zuge der weiteren Ausdehnung unserer globalen Verfügbarkeit durch {{site.data.keyword.cloud_notm}} aktualisieren wir unsere Standort-Benennungsstruktur, um eine verständliche, konsistente Hierarchie von Geografien, Regionen und Rechenzentren weltweit zu unterstützen. Wenn Sie mit unseren aktuellen globalen Regionen vertraut sind, werden Sie Namen wie "US South" und "Sydney" wiedererkennen. Wir richten diese Standortnamen an den Namen der Städte aus, in denen die Rechenzentren physisch existieren.
 
-Die programmgesteuerten IDs ändern sich vorerst nicht, sodass es aus API-Perspektive keine Beeinträchtigungen gibt. Nachstehend eine Tabelle, in der die alten und neuen Standortnamen aufgeführt sind. Weitere Informationen und eine umfassende Liste der Rechenzentren und Regionen finden Sie unter [Serviceverfügbarkeit](docs/resources/services_region.html).
+Die programmgesteuerten IDs ändern sich vorerst nicht, sodass es aus API-Perspektive keine Beeinträchtigungen gibt. Nachstehend eine Tabelle, in der die alten und neuen Standortnamen aufgeführt sind. Weitere Informationen und eine umfassende Liste der Rechenzentren und Regionen finden Sie unter [Serviceverfügbarkeit](/docs/resources/services_region.html).
 
 | Bisheriger angezeigter Standortname | Neuer angezeigter Standortname | Code |
 |----------|---------|---------|
@@ -92,7 +153,7 @@ Wollen Sie in der Lage sein, schnell den Zugriff zuzuweisen, indem Sie die klein
 ### SoftLayer- und {{site.data.keyword.Bluemix_notm}}-Konto verknüpfen
 Datum der Neuerung: 1. März 2018
 
-Sie können Ihr SoftLayer-Konto mit Ihrem {{site.data.keyword.Bluemix_notm}}-Konto verknüpfen, um die Anmeldung bei einer einzigen zentralen Stelle (der {{site.data.keyword.Bluemix_notm}}-Konsole) durchzuführen, und sowohl auf die Infrastructure as a Service- (IaaS) als auch auf die Platform as a Service-Ressourcen (PaaS) zuzugreifen. Wenn Sie neu bei {{site.data.keyword.Bluemix_notm}} sind, erstellen und verknüpfen Sie ein Konto, um ein kostenfreies {{site.data.keyword.Bluemix_notm}}-Lite-Konto zu erhalten. Oder, wenn Sie bereits über ein {{site.data.keyword.Bluemix_notm}}-Konto mit PaaS-Ressourcen verfügen, verknüpfen Sie Ihre Konten, um eine gemeinsame Rechnung für Ihre IaaS- und PaaS-Ressourcen zu erhalten. Weitere Informationen zum schnellen Verknüpfen Ihrer Konten finden Sie in den [Schritten zum Verknüpfen Ihrer IaaS- und PaaS-Konten](https://www.ibm.com/blogs/bluemix/2018/03/follow-steps-link-iaas-paas-accounts/){: new_window} ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link").
+Sie können Ihr SoftLayer-Konto mit Ihrem {{site.data.keyword.Bluemix_notm}}-Konto verknüpfen, um sich an der {{site.data.keyword.Bluemix_notm}}-Konsole zentral bei einer einzigen Stelle anzumelden, und haben dann Zugriff sowohl auf Infrastructure as a Service- (IaaS) als auch auf Platform as a Service-Ressourcen (PaaS). Wenn Sie neu bei {{site.data.keyword.Bluemix_notm}} sind, erstellen und verknüpfen Sie ein Konto, um ein kostenfreies {{site.data.keyword.Bluemix_notm}}-Lite-Konto zu erhalten. Oder, wenn Sie bereits über ein {{site.data.keyword.Bluemix_notm}}-Konto mit PaaS-Ressourcen verfügen, verknüpfen Sie Ihre Konten, um eine gemeinsame Rechnung für Ihre IaaS- und PaaS-Ressourcen zu erhalten. Weitere Informationen zum schnellen Verknüpfen Ihrer Konten finden Sie in den [Schritten zum Verknüpfen Ihrer IaaS- und PaaS-Konten](https://www.ibm.com/blogs/bluemix/2018/03/follow-steps-link-iaas-paas-accounts/){: new_window} ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link").
 
 
 ### {{site.data.keyword.Bluemix_notm}} Foundry-Service jetzt für Region 'Vereinigte Staaten (Osten)' verfügbar
@@ -192,7 +253,7 @@ Diese aktualisierte Navigation verfolgt den Zweck, die Organisation des Inhalts 
 {: #febadminconsole}
 Datum der Neuerung: 28. Februar 2018
 
-Durch die neueste Aktualisierung im Februar können Sie das folgende neue Feature nutzen:
+Durch die neueste Aktualisierung im Februar 2018 können Sie das folgende neue Feature nutzen:
 
 #### Neue Berechtigung für das Verwalten von Wartungsaktualisierungen
 
@@ -372,6 +433,31 @@ Das Liberty Buildpack v3.9 bietet eine neue monatliche Liberty-Laufzeitversion u
 
 ## Services
 {: #services_category}
+
+### Citrix NetScaler VPX, Version 12.1
+Datum der Neuerung: 21. November 2018
+{: #vpx121}
+
+#### Virtuelle Server mit mehreren IP-Adressen
+Sie können jetzt einen einzelnen virtuellen Lastausgleichsserver mit mehreren nicht konsekutiven/konsekutiven VIP-IPv4- und -IPv6-Adressen erstellen. Jede VIP-Adresse, die an einen virtuellen Server gebunden ist, wird als einzelner virtueller Server behandelt.
+
+Weitere Informationen zu diesem Feature enthält der Citrix-Artikel [Virtuelle Server mit mehreren IPs ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](https://docs.citrix.com/en-us/netscaler/12-1/load-balancing/load-balancing-customizing/multi-ip-virtual-servers.html){: new_window}.
+
+#### SSL
+Die folgenden Aktualisierungen wurden für SSL-Verbindungen angewendet:
+ 
+* Entfernung schwacher Chiffrierwerte aus der Chiffrierwertgruppe DEFAULT_BACKEND. 
+* Unterstützung für ECDHE-Chiffren am Front-End des externen HSM von Thales nShield®.
+* Unterstützung für ECDHE-Chiffrierwerte an Front-End des externen HSM des SafeNet-Netzes.
+* Entfernen von SSLv2: Die NetScaler VPX-Appliance unterstützt SSLv2 ab Version 12.1 nicht.
+
+Weitere Informationen zu den Updates in der SSL-Version 12.1 enthalten die [Releaseinformationen zu Citrix 12.1 ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](https://docs.citrix.com/en-us/netscaler/12-1/downloads/release-notes-12-1-48-13.html){: new_window}.
+
+#### Servicegruppenunterstützung für GSLB
+Es ist jetzt möglich, auf IP-Adressen basierende Servicegruppen, auf Domänennamen basierende Servicegruppen oder auf Domänennamen basierende Servicegruppen mit automatischer Skalierung (Autoscale-Gruppen) für GSLB zu konfigurieren. Sie können auch eine Gruppe von Services so einfach wie einen einzelnen Service verwalten und eine Servicegruppe an einen virtuellen Server binden sowie Services zu der Gruppe hinzufügen.
+
+Weitere Informationen zu GSLB-Servicegruppen können Sie dem Citrix-Artikel zum [Konfigurieren einer GSLB-Servicegruppe ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](https://docs.citrix.com/en-us/netscaler/12/global-server-load-balancing/configure/configuring-a-gslb-service-group.html){: new_window} entnehmen.
+
 
 ### Größere Aktualisierung für {{site.data.keyword.conversationshort}}
 Datum der Neuerung: 9. November 2018
@@ -579,7 +665,7 @@ IBM App Launch for {{site.data.keyword.Bluemix_notm}} Services ist ein experimen
 
 App-Eigner können nun die Bereitstellung von Innovationen für mobile Apps beschleunigen, da komplexe Releasezyklen vermieden werden. Der App Launch-Service versetzt App-Eigner in die Lage, Features für mobile Apps kurzfristig zur Verfügung zu stellen und die Wirkung durch eine Kontrolle der Zielgruppe zu messen. Der App-Eigner kann zusammen mit dem App-Entwickler die KPIs (Key Performance Indicator, wesentliche Leistungsindikatoren) für die Features definieren, die Wirkung messen und anhand des Echtzeitfeedbacks Entscheidungen über ihr Rollout oder Rollback treffen. Außerdem ermöglicht der Service das Testen verschiedener Varianten von Anwendungsfeatures, Benutzerschnittstellenkomponenten sowie Nachrichten und anschließend Entscheidungen, die auf dem Feedback basieren.
 
-Weitere Informationen enthält das [Lernprogramm - Einführung](/docs/services/app-launch/index.html#gettingstartedtemplate).
+Weitere Informationen enthält das [Lernprogramm 'Einführung'](/docs/services/app-launch/index.html#gettingstartedtemplate).
 
 ### Aktualisierungen für {{site.data.keyword.ibmwatson_notm}} {{site.data.keyword.relationshipextractionshort}}
 Datum der Neuerung: 4. Oktober 2017
@@ -801,4 +887,3 @@ Datum der Neuerung: 11. April 2017
 Ihre neue Plattform arbeitet mit Notizbüchern; Spark verwendet Data Science Experience. Wenn Sie sich für [Data Science Experience](http://datascience.ibm.com/) registrieren, können Sie eigene Notizbücher erstellen und Ihre Erfahrungen mit anderen Data-Scientists austauschen.
 
 Falls Sie in {{site.data.keyword.sparks}} bereits mit Notizbüchern gearbeitet haben, können Sie Ihre Notizbücher auf Data Science Experience migrieren. Weitere Informationen finden Sie unter [Dokumentation in Notizbüchern migrieren](/docs/services/AnalyticsforApacheSpark/index-gentopic2.html#migration_to_dsx).
-
