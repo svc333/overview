@@ -3,7 +3,7 @@
 
 copyright:
   years: 2016, 2018
-lastupdated: "2018-08-15"
+lastupdated: "2018-11-28"
 
 ---
 
@@ -24,11 +24,11 @@ lastupdated: "2018-08-15"
 
  * Chrome：适用于操作系统的最新版本
  * Firefox：适用于操作系统的最新定期版本和 ESR 版本，请参阅 [Mozilla Firefox
-Extended Support Release](https://www.mozilla.org/firefox/organizations/) 以获取更多详细信息
+Extended Support Release](https://www.mozilla.org/firefox/organizations/){: new_window} ![外部链接图标](../icons/launch-glyph.svg "外部链接图标") 以获取更多详细信息
  * Edge：适用于 Windows 的最新版本
  * Safari：适用于 Mac 的最新版本
  
- 您可以通过我们的**反馈**按钮报告有关 Internet Explorer 11 的问题。
+您可以通过我们的**反馈**按钮报告有关 Internet Explorer 11 的问题。
 {:note}
 
 ## 命令行界面 (CLI)

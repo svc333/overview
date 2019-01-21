@@ -4,14 +4,14 @@ copyright:
 
   years: 2015, 2018
 
-lastupdated: "2018-11-16"
+lastupdated: "2018-11-30"
 
 ---
 
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
 
-# {{site.data.keyword.Bluemix_notm}} 中的新增功能
+# {{site.data.keyword.Bluemix_notm}} 中的新增内容
 {: #whatsnew}
 
 及时获取 {{site.data.keyword.Bluemix}} 中提供的新功能和服务，以便最充分地利用 {{site.data.keyword.Bluemix_notm}} 体验。我们将更新组织为以下类别：[{{site.data.keyword.Bluemix_notm}} 平台](index.html#platform_category)、[{{site.data.keyword.Bluemix_local_notm}} 和 {{site.data.keyword.Bluemix_dedicated_notm}}](index.html#dedicatedandlocal)、[计算](index.html#compute_category)和[服务](index.html#services_category)。
@@ -20,12 +20,70 @@ lastupdated: "2018-11-16"
 ## {{site.data.keyword.Bluemix_notm}} 平台
 {: #platform_category}
 
+
+### 新的 {{site.data.keyword.Bluemix_notm}} 支持体验
+最新更新日期：2018 年 11 月 30 日
+{: #support}
+
+通过支持中心，您可以设法解决所有与 {{site.data.keyword.Bluemix_notm}} 相关的问题。此登录页面提供有常见问题，因此您可以找到问题的答案，甚至无需联系 {{site.data.keyword.Bluemix_notm}}。您还可以选择与实时支持代表交谈。现在，可以从单个位置管理您的案例。转至**支持** &gt; **管理案例**可创建、查看或编辑案例。
+
+您还可以在支持中心找到 [Status 页面](https://cloud.ibm.com/status){: new_window} ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")。此页面经过增强，包含与影响 {{site.data.keyword.Bluemix_notm}} 平台、基础架构和主要服务的关键事件相关的所有计划外事件、计划维护、声明和安全公告通知。在支持中心，单击**查看云状态**。要查看新体验，请登录并转至[支持中心](https://cloud.ibm.com/unifiedsupport/supportcenter){: new_window} ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")。 
+
+### {{site.data.keyword.Bluemix_notm}} 中的统一登录、API 密钥以及用户和访问权管理
+最新更新日期：2018 年 11 月 30 日
+{: #useraccess}
+
+通过最新更新，您可以利用所有用户都可用的简化安全登录，而不管您的标识是什么类型。无论您拥有的是 IBM 标识还是 SoftLayer 标识，都可以从增强的登录页面快速登录到 {{site.data.keyword.Bluemix_notm}} 控制台。您还可以在 {{site.data.keyword.Bluemix_notm}} 中进行安全 API 调用，并使用 IAM API 密钥或 IAM 访问令牌自动执行 CLI 登录。 
+
+登录后，您会发现现在可以在“访问权 (IAM)”UI 中的“用户”页面中查看所有用户，包括平台和经典基础架构用户。根据您用于查看帐户中其他用户的访问权，可以按帐户用户、经典基础架构用户或 Cloud Foundry 组织快速过滤视图。您还可以使用这些过滤器按名称、电子邮件或状态来快速查找用户。
+
+既然您的所有用户都在一个控制台中，就可以在同一位置管理他们对所有类型资源的访问权。访问权从用户开始，因此首先需要从列表中选择用户。然后，根据要分配其访问权的资源类型，可以从 IAM 访问策略、Cloud Foundry 访问权或经典基础架构许可权中进行选择。如果您只想分配 IAM 访问策略，请尝试创建访问组，然后将需要分配相同策略的所有用户添加到同一访问组，从而简化访问权管理过程。
+
+### 在一个位置查找所有 {{site.data.keyword.Bluemix_notm}} CLI 插件文档
+最新更新日期：2018 年 11 月 30 日
+{: #cli}
+
+现在，您可以在一个位置访问所有 {{site.data.keyword.Bluemix_notm}} CLI 插件文档，能更轻松地找到要在 {{site.data.keyword.Bluemix_notm}} 平台上查找的任何 CLI 命令。请查看 [CLI 文档](/docs/cli/index.html#overview)的“参考”部分。
+
+### 查看新仪表板和资源列表
+最新更新日期：2018 年 11 月 30 日
+{: #dash}
+
+通过最新更新，现在您可以在同一位置查看所有平台和基础架构服务。登录后，您可以立即查看新仪表板。将资源从目录添加到帐户后，可以使用资源列表来获取帐户资源的完整视图。下面是您将看到的有关更改的一些详细信息：
+
+* 仪表板已重新设计，以便您可以查看资源、维护、状态、应用程序、支持、使用情况和用户的摘要。
+* 可以在资源列表中找到有关资源的更多详细信息。您可以标记资源以对其进行组织，或者选择资源以在详细信息页面上对其进行更改。
+* 既然您可以在一个位置查看所有资源，我们添加了全局搜索，以便您可以快速找到已创建并期望显示在“资源列表”页面上的资源。 
+* 还可以搜索目录结果，以便快速找到要添加到帐户的资源。  
+
+### 针对平台和基础架构服务的统一帐户、计费和用户概要文件信息
+最新更新日期：2018 年 11 月 30 日
+{: #profile}
+
+简化了帐户、计费和概要文件信息。现在，您可以在统一控制台中查看所有平台和基础架构资源的帐户信息。 
+
+* 概要文件和设置区域，包含有关您的信息以及所有资源类型的电子邮件通知首选项。 
+* 帐户信息区域，包含有关您的公司或组织的信息、帐户设置以及使用资源组和 Cloud Foundry 组织的快速访问权。您甚至可以找到最佳实践来帮助您快速入门并熟练运用！
+* 帐户的计费和使用情况区域，可帮助您了解帐单，付款，监视预订，获取报价，跟踪订单以及设置花费通知。
+
+### 使用标记来组织资源
+最新更新日期：2018 年 11 月 30 日
+{: #tag}
+
+现在，您可以向资源（如 Cloud Object Storage）添加标记，以帮助管理资源，以及查找与您最相关的资源。例如，如果您有数百个资源，而您希望区分其付费方式相同的两个资源，那么可以使用“costcenter:location01”对其进行标记。或者，如果您有团队在重复使用两个资源，那么可以使用类似“team-blue”的标记。您还可以按标记过滤资源列表，以快速组织和查找所需的资源。有关更多信息，请参阅[使用标记](/docs/resources/tagging_resources.html#tag)。
+
+### 利用成本估算工具了解准确的每月成本
+最新更新日期：2018 年 11 月 30 日
+{: #cost-estimator}
+
+为了帮助您决定并分析要购买的服务，您可以使用成本估算工具。现在，您可以浏览控制台并选择希望拥有的每个服务，然后在一个易用工具中加总所有成本。您甚至可以输入预测数据使用量、每秒查找次数、每秒写入次数和每秒查询次数，从而更准确地估算每月支出。对于所选的每个目录服务，可以使用成本估算工具，也可以单击控制台菜单中的“成本估算工具”图标 ![“成本估算工具”图标](../../icons/Estimator.svg) 来获取估算成本的摘要。有关更多信息，请参阅[估算成本](/docs/billing-usage/estimating_costs.html#cost)。
+
 ### 已更新 {{site.data.keyword.cloud_notm}} 的全球位置名
 最新更新日期：2018 年 11 月 1 日
 
 {{site.data.keyword.cloud_notm}} 继续扩展我们的全球可用性占用量，我们将更新位置命名结构，以便更好地支持全球各地地理区域、区域和数据中心的可理解、一致的层次结构。如果您熟悉我们当前的全球区域，那么将会识别像美国南部和悉尼这样的名称。我们正在将这些位置名称与数据中心实际存在的城市的名称对应。
 
-现在，程序化标识未更改，所以从 API 的角度来看没有影响。下表显示新旧位置名称。有关更多信息以及数据中心与区域的完整列表，请参阅[服务可用性](docs/resources/services_region.html)。
+现在，程序化标识未更改，所以从 API 的角度来看没有影响。下表显示新旧位置名称。有关更多信息以及数据中心与区域的完整列表，请参阅[服务可用性](/docs/resources/services_region.html)。
 
 |原位置显示名称| 新位置显示名称| 代码|
 |----------|---------|---------|
@@ -373,6 +431,31 @@ Liberty buildpack V3.9 提供了新的每月 Liberty 运行时版本，并包含
 
 ## 服务
 {: #services_category}
+
+### Citrix NetScaler VPX V12.1
+最新更新日期：2018 年 11 月 21 日
+{: #vpx121}
+
+#### 具有多个 IP 地址的虚拟服务器
+现在，您可以创建具有多个非连续/连续 VIP IPv4 和 IPv6 地址的单个负载均衡虚拟服务器。与虚拟服务器绑定的每个 VIP 地址都会被视为单个虚拟服务器。
+
+有关此功能的更多信息，请参阅 Citrix 文章 [Multiple IP virtual servers ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](https://docs.citrix.com/en-us/netscaler/12-1/load-balancing/load-balancing-customizing/multi-ip-virtual-servers.html){: new_window}。
+
+#### SSL
+对 SSL 连接应用了以下更新：
+ 
+* 从 DEFAULT_BACKEND 密码组中除去了低强度密码。 
+* 支持 Thales nShield® 外部 HSM 的前端上使用 ECDHE 密码
+* 支持 SafeNet 网络外部 HSM 的前端上使用 ECDHE 密码
+* 除去了 SSLv2：从 R12.1 开始，NetScaler VPX 设备不再支持 SSLv2。
+
+有关 12.1 SSL 更新的更多详细信息，请参阅 [Citrix 12.1 Release Notes ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](https://docs.citrix.com/en-us/netscaler/12-1/downloads/release-notes-12-1-48-13.html){: new_window}。
+
+#### GSLB 支持服务组
+现在，您可以为 GSLB 配置基于 IP 地址的服务组、基于域名的服务组或基于域名的自动扩展服务组。您还可以像管理单个服务一样轻松地管理一组服务，也可以将服务组绑定到虚拟服务器，以及向组添加服务。
+
+有关 GSLB 服务组的更多信息，请参阅 Citrix 文章 [Configuring a GSLB service group ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](https://docs.citrix.com/en-us/netscaler/12/global-server-load-balancing/configure/configuring-a-gslb-service-group.html){: new_window}。
+
 
 ### 主要 {{site.data.keyword.conversationshort}} 更新
 最新更新日期：2018 年 11 月 9 日
@@ -754,7 +837,7 @@ Apache Spark 通过基于 Stocator 技术的存储连接器来访问 IBM Cloud O
 ### 新增可用于 {{site.data.keyword.dashdbshort_notm}} for Transactions 的可扩展套餐
 最新更新日期：2017 年 5 月 31 日
 
-针对 {{site.data.keyword.dashdbshort}} for Transactions 提供了新套餐，此套餐可以随您的数据库需求而增长。新的 Flex 套餐支持您一开始使用小型系统，然后轻松、快速地增加该系统的能力和存储容量。在高可用性套餐上，{{site.data.keyword.dashdbshort}} for Transactions 与 Db2 100% 兼容并提供 99.95% 的 SLA。
+针对 {{site.data.keyword.dashdbshort}} for Transactions 提供了新套餐，此套餐可以随您的数据库需求而增长。新的 Flex 套餐支持您一开始使用小型系统，然后轻松、快速地增加该系统的能力和存储容量。在高可用性套餐上，{{site.data.keyword.dashdbshort}} for Transactions 与 DB2 100% 兼容并提供 99.95% 的 SLA。
 
 ### {{site.data.keyword.Bluemix_notm}} 上 {{site.data.keyword.mobilepush}} 服务的新更新
 最新更新日期：2017 年 5 月 24 日
@@ -802,4 +885,3 @@ Apache Spark 通过基于 Stocator 技术的存储连接器来访问 IBM Cloud O
 您的新平台可使用配置页，并且 Spark 已更名为 Data Science Experience。注册 [Data Science Experience](http://datascience.ibm.com/)，然后开始创建配置页，并与其他数据研究员共享您的专业知识。
 
 如果使用的是 {{site.data.keyword.sparks}} 中的配置页，那么可以将配置页迁移到 Data Science Experience。有关更多信息，请参阅[迁移配置页文档](/docs/services/AnalyticsforApacheSpark/index-gentopic2.html#migration_to_dsx)。
-

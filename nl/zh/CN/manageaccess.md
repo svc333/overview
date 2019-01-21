@@ -4,7 +4,7 @@ copyright:
 
   years: 2017, 2018
 
-lastupdated: "2018-04-12"
+lastupdated: "2018-11-05"
 
 ---
 
@@ -16,21 +16,23 @@ lastupdated: "2018-04-12"
 # 在 {{site.data.keyword.Bluemix_notm}} 中管理访问权
 {: #cloudaccess}
 
-## 什么是访问权管理？
+通过访问权管理，您可以控制哪些用户可以查看、创建、使用和管理帐户中的资源。要授予访问权，可以为用户分配角色，使其具有相应的访问级别，以便完成平台管理任务和访问帐户资源。
+{: shortdesc}
 
-通过访问权管理，可以控制哪些用户可以查看、创建、使用和管理帐户中的资源。要授予访问权，可以分配角色以允许用户拥有完成平台管理任务和访问帐户资源所需的访问级别。
+在 {{site.data.keyword.Bluemix_notm}} 中管理访问权的方式取决于您要分配对何种类型的资源的访问权。{{site.data.keyword.Bluemix_notm}} Identity and Access Management (IAM) 是一种访问权管理系统，用于在整个 {{site.data.keyword.Bluemix_notm}} 平台上以一致的方式管理组织为资源组的资源。经典基础架构和 Cloud Foundry 资源不使用 Cloud IAM 进行管理。这些资源类型都有自己的访问权管理系统。 
 
-在 {{site.data.keyword.Bluemix_notm}} 中管理访问权的方式取决于要分配其访问权的资源的类型。{{site.data.keyword.Bluemix_notm}} Identity and Access Management (IAM) 是一种访问权管理系统，用于在整个 {{site.data.keyword.Bluemix_notm}} 平台上以一致的方式管理资源。{{site.data.keyword.Bluemix_notm}} 基础架构和 Cloud Foundry 资源不使用 Cloud IAM 进行管理。这些资源类型有自己的访问权管理系统。如果您具有资源类型的组合，请分别管理每种类型。要[分配对基础架构资源的访问权](/docs/iam/infrastructureaccess.html#infrapermission)，请在 SoftLayer 帐户内设置许可权。要[分配对 Cloud Foundry 资源的访问权](/docs/iam/cfaccess.html#cfaccess)，请使用控制台的“身份和访问权”部分中的“使用 Cloud Foundry 进行分配”选项。
+如果您拥有多种资源类型的组合，那么需要分别管理每种类型。要分配对[经典基础架构资源](/docs/iam/infrastructureaccess.html#infrapermission)的访问权，请在“经典基础架构”选项卡上的**管理** > **访问权 (IAM)** 中，为要对其分配访问权的用户设置许可权。要分配对 [Cloud Foundry 资源](/docs/iam/cfaccess.html#cfaccess)的访问权，请在 Cloud Foundry 选项卡上的**管理** > **访问权 (IAM)** 中，为要对其分配访问权的用户分配组织，并设置 Cloud Foundry 组织和空间访问权角色。
 
-## 谁有权管理访问权？
+## 用于管理访问权的许可权
 
-作为帐户所有者，您可以管理对帐户中所有资源的访问权。此外，还可以通过在帐户内为用户分配对所有服务的管理员角色，以委派管理平台资源访问权的任务。
-
-如果帐户中有 Cloud Foundry 服务，那么可以将组织或空间管理员角色分配给其他用户，以便该用户可添加用户并分配 Cloud Foundry 用户角色来访问其所管理的组织或空间中的实例。
+帐户所有者可以管理对帐户中所有资源的访问权。此外，还可以通过以下方式向帐户中用户委派管理平台资源访问权的任务：针对希望用户管理的所有服务、仅特定服务，或资源组，为用户分配管理员角色。
 
 
-## 如何开始管理访问权？
+如果帐户中有 Cloud Foundry 服务，那么可以将组织或空间管理者角色分配给其他用户，以便该用户可添加自己的用户并分配 Cloud Foundry 角色来访问其所管理的组织或空间中的实例。
 
-转至**管理** &gt; **安全性** &gt; **身份和访问权**，然后选择**用户**以开始管理您帐户中用户的访问权。请从列表中选择用户以开始。您只会看到您有权管理的访问权管理选项。例如，如果您不是帐户所有者，也不是组织或空间管理员，那么不会看到用于管理 Cloud Foundry 访问权的选项。
 
-还可以使用服务标识将访问角色分配给应用程序和服务。请转至**服务标识**页面以开始。有关如何快速入门和熟悉运用 Cloud IAM 的更多信息，请遵循[入门教程](/docs/iam/quickstart.html#getstarted)中的步骤。
+## 入门
+
+转至**管理** &gt; **访问权 (IAM)**，然后选择**用户**以开始管理您帐户中用户的访问权。要完成此操作，需要先从列表中选择一个用户。您只能看到您有权管理的访问权管理选项。例如，如果您既不是帐户所有者，也不是组织或空间管理员，那么将看不到用于管理 Cloud Foundry 访问权的选项。
+
+还可以使用服务标识将访问角色分配给应用程序和服务。要完成此操作，需要先转至**服务标识**页面。有关如何快速入门并熟练运用 Cloud IAM 的更多信息，请参阅[入门教程](/docs/iam/quickstart.html#getstarted)。

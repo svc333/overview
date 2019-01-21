@@ -1,35 +1,52 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
+{:download: .download}
 
 {: .toc subcollection="overview" audience="platform" arm="3816100" href="/docs/overview/ibm-cloud.html" path="overview"}
-什么是 IBM Cloud
+IBM Cloud 入门
 
     {: .navgroup id="learn"}
-    {: .topicgroup}
-    什么是 IBM Cloud？
-        ibm-cloud.md
-        prereqs.md
-        catalog.md
-        manageaccess.md
-        resource-groups.md
+    ibm-cloud-platform.md
     ui.md
-    security.md
     dev-journey.md
+    it-ops-journey.md
     whats-new/index.md
-    ha-regions.md
-    feedback.md
 
     {: .topicgroup}
     相关链接
         [为什么选择 IBM Cloud？](https://www.ibm.com/cloud-computing/learn-more/why-ibm-cloud/){: new_window}
-        [了解有关私有云选项的信息](https://www.ibm.com/cloud-computing/solutions/private-cloud/){: new_window}
+        [Security in the cloud](https://www.ibm.com/cloud/security){: new_window}
+    {: .navgroup-end}
+
+    {: .navgroup id="howto"}
+    {: .topicgroup}
+    快速入门指南
+        quickstart_dev.md
+        quickstart_cloud_admin.md
+        quickstart_ea.md
+        quickstart_lite.md
+        quickstart_acc_ad.md
+
+    catalog.md
+    manageaccess.md
+    resource-groups.md
     {: .navgroup-end}
 
     {: .navgroup id="reference"}
-    data-centers.md
-    crn.md
-    glossary/index.md
-    nls.md
-    terms-of-use/notices.md
-    accessibility/accessibility_features.md
+    platform-cli-api.md
+    security.md
+    zero_downtime.md
+
+    {: .topicgroup}
+    常规资源
+        prereqs.md
+        crn.md
+        nls.md
+        glossary/glossary.md
+        accessibility/accessibility_features.md
+        terms-of-use/notices.md
+    {: .navgroup-end}
+
+    {: .navgroup id="help"}
+    feedback.md
     {: .navgroup-end}
