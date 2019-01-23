@@ -2,9 +2,9 @@
 
 copyright:
 
-  years: 2015, 2018
+  years: 2015, 2019
 
-lastupdated: "2018-12-20"
+lastupdated: "2019-01-22"
 
 ---
 
@@ -363,6 +363,27 @@ With the latest updates and improvements from April, you can use the following n
 ## Compute
 {: #compute_category}
 
+### IBM Cloud SAP-Certified Infrastructure features
+New as of: 22 January 2019
+
+New features are now available with the {{site.data.keyword.cloud_notm}} SAP-Certified Infrastructure offering for both SAP HANA and SAP NetWeaver.
+
+#### Multi-node storage
+SAP HANA multi-node storage for online analytical processing (OLAP) workloads, such as SAP Business Warehouse (SAP BW) and SAP BW/4HANA. The {{site.data.keyword.cloud_notm}} solution for SAP HANA multi-node consists of up to 15+1 nodes (15 worker nodes, plus one standby) for up to 30 TB of memory used for one system. To get started, see [Configuring your {{site.data.keyword.cloud_notm}} infrastructure to support SAP HANA multi-node](/docs/infrastructure/sap-hana/hana-multi-node.html#multi-node-storage)
+
+
+#### High avaialability
+High-availability (HA) solutions are supported for both SAP HANA and SAP NetWeaver. The solution is based on the supported OS version, and is restricted to the ordered OS licenses that comes with your deployment, or third-party licenses, such as bring your own license (BYOL). To get started, click [here](/docs/infrastructure/sap-hana/hana-ha.html#ha) for SAP HANA and [here](/docs/infrastructure/sap-netweaver/sap-ha.html#ha) for SAP NetWeaver.
+  
+#### SAP Content Server
+The SAP Content Server is a stand-alone component for the storing of large quantities of electronic documents in any format and with any content. To use the SAP Content Server, your SAP applications must support its use. To get started, see [SAP Content Server](/docs/infrastructure/sap-netweaver/sap-content-server.html#content-server).
+
+#### SAP MaxDB
+SAP MaxDB is available for SAP NetWeaver. To get started, see [About {{site.data.keyword.cloud_notm}} SAP-Certified Infrastructure](/docs/infrastructure/sap-netweaver/sap-about.html#about_ibmcloud_for_sap).
+
+#### SAP Business One
+SAP Business One is enterprise resource planning (ERP) software especially designed for small-to-medium enterprises. It integrates your core business functions - accounting and financials, purchasing and inventory, sales and customer relationships, and project management and operations - into one application. For more information, see [Getting started](/docs/infrastructure/sap-b1/b1-index.html#getting-started).
+
 ### Virtual server features
 New as of: 16 November 2018
 
@@ -436,6 +457,20 @@ The Liberty buildpack v3.9 provides new monthly Liberty runtime version and cont
 
 ## Services
 {: #services_category}
+
+### New features available in {{site.data.keyword.appid_short_notm}}
+New as of: 22 December 2018
+
+The {{site.data.keyword.appid_short_notm}} service has introduced new advanced features that strengthen the security of your authentications and apps.
+
+{{site.data.keyword.appid_short_notm}} helps you to add different types of user authentication to their mobile and web apps. You can add authentication with a few lines of code and forget about managing infrastructure to scale with your user base.  Check out the following enhancements and then go try the service out for yourself!
+
+Multi-factor authentication: You can now use email-based MFA for Cloud Directory. With MFA set to on, users are asked to provide a one-time code that they receive via email, in addition to their password. If you're using enterprise sign in with SAML 2.0 or social login, you can enable MFA through that identity provider.
+Advanced password policies: With the advanced password policy feature enabled, you can enforce more secure passwords for Cloud Directory. You can configure a set of rules that use passwords must conform to such as the number of times a user can attempt to sign in before they are locked out or the number of times that a password can't be repeated.
+
+Advanced security features have an additional pricing component. For more information about how pricing is calculated, see the pricing section of [the catalog](https://cloud.ibm.com/catalog/services/app-id).
+
+Check out the [{{site.data.keyword.appid_short_notm}} documentation](/docs/services/appid/index.html), and get started today!
 
 ### Introducing {{site.data.keyword.backup_notm}}
 New as of 20 December 2018
