@@ -130,6 +130,16 @@ Each copy or any portion of these sample programs or any derivative work must in
   Portions of this code are derived from IBM Corp. Sample Programs.
   © Copyright IBM Corp. 2015.
 
+SANCTIONS & EMBARGOES
+
+The United States prohibits most commercial transactions and other dealings with a handful of countries for foreign policy and national security reasons.  These prohibitions – formally known as trade and economic sanctions or comprehensive embargoes – currently target Iran, Cuba, North Korea, and Syria. 
+
+IBM Cloud implements network-wide blocking of communications to IP addresses which originate from countries subject to those trade and economic sanctions. This policy affects all IBM Cloud data center locations and environments, and blocks access by IP addresses registered to countries subject to U.S. trade and economic sanctions.
+
+To identify IP addresses associated with U.S. embargoed countries, IBM Cloud references the Geo IP2 Database maintained by [MaxMind ![External link icon](../../icons/launch-glyph.svg)](http://www.maxmind.com){: new_window}). IBM Cloud updates its IP address country mapping on a quarterly basis.
+
+Note: This restriction does not apply to content that is not prohibited under U.S. sanctions and embargoes. Please email exemptions@softlayer.com if you believe your content is not prohibited under U.S. trade and economic sanctions. 
+
 ## Trademarks
 {: #trademarks}
 
