@@ -2,9 +2,9 @@
 
 copyright:
 
-  years: 2018
+  years: 2018, 2019
 
-lastupdated: "2018-11-28"
+lastupdated: "2019-01-02"
 
 ---
 
@@ -32,19 +32,19 @@ Cree una cuenta de pago según uso o una cuenta de suscripción para obtener acc
 {: #steps}
  
 1. [Instale y configure](/docs/home/tools) la interfaz de línea de mandatos (CLI) de {{site.data.keyword.Bluemix_notm}}. 
-2. Para empezar a codificar:
+2. Para empezar a codificar, siga los pasos siguientes:
     * Vaya al icono de Menú ![icono Menú](../icons/icon_hamburger.svg), widget **> Panel de control > Apps** y pulse **Crear una app** para crear una app utilizando un kit de inicio vacío o trayendo su propio código.
     * Utilice un [kit de inicio](/docs/apps/tutorials/tutorial_starter-kit.html) para crear una app a partir de una app personalizada preconfigurada. 
     * [Empiece por el lenguaje de programación](/docs/home/build). 
 3. Utilice los [documentos de API](https://{DomainName}/apidocs) para conocer los puntos finales disponibles y ver ejemplos.
-4. Utilice el icono de Menú ![icono Menú](../icons/icon_hamburger.svg) **> Lista de recursos** para ver todo lo que ha creado en una pantalla o el icono de Menú ![icono Menú](../icons/icon_hamburger.svg) **> Panel de control** para obtener un resumen breve de su entorno de {{site.data.keyword.Bluemix_notm}}.
+4. Utilice el icono de Menú ![icono Menú](../icons/icon_hamburger.svg) **> Lista de recursos** para ver todas las apps y todos los recursos de su cuenta en una pantalla o el icono de Menú ![icono Menú](../icons/icon_hamburger.svg) **> Panel de control** para obtener un resumen breve de su entorno de {{site.data.keyword.Bluemix_notm}}.
 
 ## Pasos siguientes
 {: #nextsteps}
 
 * Explore las ofertas en el [catálogo](https://{DomainName}/catalog){: new_window} ![Icono de enlace externo](../icons/launch-glyph.svg) que puede utilizar para crear o mejorar la app.
 * Si está interesado en un servicio o implementación específicos, consulte las [guías de aprendizaje de la solución](/docs/tutorials/index.html#tutorials) disponibles para que pueda empezar a trabajar.
-* Agilice el proceso descargando [patrones de código](https://developer.ibm.com/patterns/){: new_window} listos para ser utilizados ![Icono de enlace externo](../icons/launch-glyph.svg "Icono de enlace externo") para soluciones específicas.
+* Agilice el proceso descargando [patrones de código](https://developer.ibm.com/patterns/){: new_window} listos para ser utilizados ![Icono de enlace externo](../icons/launch-glyph.svg "Icono de enlace externo") para soluciones específicas. Para obtener más información, consulte [Creación de una app web básica con un patrón de código](/docs/apps/tutorials/tutorial_code-pattern.html).
 
 
 

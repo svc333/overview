@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017, 2018
-lastupdated: "2018-11-30"
+  years: 2017, 2019
+lastupdated: "2019-01-07"
 
 ---
 
@@ -83,7 +83,7 @@ para cada uno de los estándares.
 |{{site.data.keyword.dashdbshort}}			|S	|S	|	|S	|
 |{{site.data.keyword.dataworks_short}}				|	|	|	|S	 		|
 |{{site.data.keyword.contdelivery_short}}					|S	|S	|	|			|
-|{{site.data.keyword.containerlong}}			|S		|S	|	|			|
+|{{site.data.keyword.containerlong}}			|S		|S	|	|		S	|
 |{{site.data.keyword.dwl_short}}				|	|	|	|S	 		|
 |{{site.data.keyword.mql}}				|S	|S	|S	|	 		|
 |{{site.data.keyword.SecureGateway}}			|S	|S |	|	 		|

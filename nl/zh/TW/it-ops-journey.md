@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2018
-lastupdated: "2018-11-30"
+  years: 2018, 2019
+lastupdated: "2019-01-04"
 
 
 ---
@@ -44,7 +44,7 @@ lastupdated: "2018-11-30"
 
 使用 PaaS 模型時，您的提供者負責直到作業系統的所有系統，也負責所有基礎架構管理，包括 OS 修補程式、硬體修復及網路設定。您可以建置及維護應用程式，您或提供者則可以安裝中介軟體，包括資料庫或其他類型。這個模型是用來開發和測試軟體。如需相關資訊，請參閱 [A practical guide to platform as a service: What is PaaS ![外部鏈結圖示](../icons/launch-glyph.svg "外部鏈結圖示")](https://www.ibm.com/blogs/cloud-computing/2016/08/10/practical-guide-paas/){: new_window}。
 
-使用 SaaS 模型時，您的提供者會維護直到實際應用程式的所有系統。應用程式能感知雲端，一般使用者則可以透過不同的端點（視軟體提供者而定）來使用軟體。雲端提供者負責進行所有基礎架構和應用程式管理，包括軟體更新、硬體修復及網路設定。此模型通常用於隨收隨付制的軟體授權模型。如需相關資訊，請參閱 [SaaS applications for business and IT ](https://www.ibm.com/cloud/saas){: new_window}![外部鏈結圖示](../icons/launch-glyph.svg "外部鏈結圖示")。
+使用 SaaS 模型時，您的提供者會維護直到實際應用程式的所有系統。應用程式能感知雲端，使用者則可以透過不同的端點（視軟體提供者而定）來使用軟體。雲端提供者負責進行所有基礎架構和應用程式管理，包括軟體更新、硬體修復及網路設定。此模型通常用於隨收隨付制的軟體授權模型。如需相關資訊，請參閱 [SaaS applications for business and IT ](https://www.ibm.com/cloud/saas){: new_window}![外部鏈結圖示](../icons/launch-glyph.svg "外部鏈結圖示")。
 
 ### 雲端類型
 {: #cloud-types}
@@ -58,7 +58,7 @@ lastupdated: "2018-11-30"
 ## 規劃基礎架構
 {: #planning}
 
-您要在實際佈建之前規劃基礎架構，以確保其大小適合您的工作負載。{{site.data.keyword.cloud_notm}} 有數個工具及網站，可協助您設計基礎架構及調整基礎架構的大小。 
+您要在佈建之前規劃基礎架構，以確保其大小適合您的工作負載。{{site.data.keyword.cloud_notm}} 有數個工具及網站，可協助您設計基礎架構及調整基礎架構的大小。 
 
 ### 基礎架構的架構
 
@@ -105,7 +105,7 @@ lastupdated: "2018-11-30"
 
 {{site.data.keyword.baremetal_short}} 和 {{site.data.keyword.BluVirtServers_short}} 佈建時具有預設儲存空間。{{site.data.keyword.baremetal_short}} 至少具有 1 TB SATA 磁碟空間，而 {{site.data.keyword.BluVirtServers_short}} 最少具有 25 GB SAN 儲存空間。{{site.data.keyword.cloud_notm}} SAP 認證的 {{site.data.keyword.baremetal_short}} 例外。如需這些伺服器可用之預設儲存空間的相關資訊，請參閱 [{{site.data.keyword.cloud_notm}} SAP 認證的基礎架構](/docs/bare-metal/bare-metal-sap-applications.html#ibm-cloud-sap-certified-infrastructure)。
 
-您可以根據需要來購買其他儲存空間。如需運算選項的摘要，請參閱下表。
+您可以根據需要來購買額外的儲存空間。如需運算選項的摘要，請參閱下表。
 
 | 選項 |說明|
 |--------|---------------|
@@ -130,7 +130,7 @@ lastupdated: "2018-11-30"
 | [廣域 IP 位址](/docs/infrastructure/subnets/about-global-ip.html) |提供彈性，讓您在伺服器之間移轉工作負載，甚至是跨越不同地理位置的資料中心移轉。|
 | [負載平衡](/docs/infrastructure/local-load-balancer/about.html) |在資料中心內的多部伺服器之間平均分散處理及通訊，讓單一裝置不會承擔整個負載。|
 | [Virtual Router Appliance](/docs/infrastructure/virtual-router-appliance/about.html) |透過全特性的企業路由器，利用防火牆、資料流量整理、以原則為基礎的遞送、VPN 和眾多其他特性，選擇性地遞送專用和公用網路資料流量。|
-| [IPSec VPN](/docs/infrastructure/iaas-vpn/set-up-ipsec-vpn.html) |這一套通訊協定設計用來鑑別及加密兩個位置之間的所有 IP 資料流量，並使用提供網站對網站加密網路的通道模式。|
+| [IPSec VPN](/docs/infrastructure/iaas-vpn/set-up-ipsec-vpn.html) |這一套通訊協定的設計，是使用提供網站對網站加密網路的通道模式，來鑑別及加密兩個位置之間的所有 IP 資料流量。|
 | {{site.data.keyword.cloud_notm}} Direct Link | 運用 Cloud Exchange 提供者來提供與 {{site.data.keyword.cloud_notm}} 基礎架構位置的連線。|
 {: caption="表 3. 網路選項" caption-side="top"}
 

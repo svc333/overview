@@ -2,9 +2,9 @@
 
 copyright:
 
-  years: 2018
+  years: 2018, 2019
 
-lastupdated: "2018-11-28"
+lastupdated: "2019-01-02"
 
 ---
 
@@ -32,19 +32,19 @@ lastupdated: "2018-11-28"
 {: #steps}
  
 1. [安裝及設定](/docs/home/tools) {{site.data.keyword.Bluemix_notm}} 指令行介面 (CLI)。 
-2. 若要開始撰寫程式碼，請執行下列動作：
+2. 若要開始撰寫程式碼，請完成下列步驟：
     * 移至「功能表」圖示 ![「功能表」圖示](../icons/icon_hamburger.svg) **> 儀表板 > 應用程式**小組件，然後按一下**建立應用程式**，以使用空白入門範本套件建立一個應用程式，或是自帶程式碼。
     * 使用[入門範本套件](/docs/apps/tutorials/tutorial_starter-kit.html)，從預先配置的自訂應用程式建立應用程式。 
     * [從程式設計語言開始](/docs/home/build)。 
-3. 請使用 [API 文件](https://{DomainName}/apidocs)來瞭解可用的端點並檢視範例。
-4. 請利用「功能表」圖示 ![「功能表」圖示](../icons/icon_hamburger.svg) **> 資源清單**，來查看您在一個畫面上建立的所有項目，或是使用「功能表」圖示 ![「功能表」圖示](../icons/icon_hamburger.svg) **> 儀表板**，來取得 {{site.data.keyword.Bluemix_notm}} 環境的摘要一覽。
+3. 使用 [API 文件](https://{DomainName}/apidocs)來瞭解可用的端點並檢視範例。
+4. 使用「功能表」圖示 ![「功能表」圖示](../icons/icon_hamburger.svg) **> 資源清單**，在一個畫面上查看帳戶的所有應用程式及資源，或使用「功能表」圖示 ![「功能表」圖示](../icons/icon_hamburger.svg) **> 儀表板**，來取得 {{site.data.keyword.Bluemix_notm}} 環境的摘要一覽。
 
 ## 後續步驟
 {: #nextsteps}
 
 * 瀏覽[型錄](https://{DomainName}/catalog){: new_window} ![外部鏈結圖示](../icons/launch-glyph.svg) 中您可以用來建置或加強應用程式的供應項目。
 * 如果您對特定的服務或實作感興趣，請參閱可用的[解決方案指導教學](/docs/tutorials/index.html#tutorials)，讓您開始進行。
-* 針對特定解決方案下載現成可用的[程式碼型樣](https://developer.ibm.com/patterns/){: new_window} ![外部鏈結圖示](../icons/launch-glyph.svg "外部鏈結圖示")，以快速啟動您的處理程序。
+* 針對特定解決方案下載現成可用的[程式碼型樣](https://developer.ibm.com/patterns/){: new_window} ![外部鏈結圖示](../icons/launch-glyph.svg "外部鏈結圖示")，以快速啟動您的處理程序。如需相關資訊，請參閱[使用程式碼型樣來建立應用程式](/docs/apps/tutorials/tutorial_code-pattern.html)。
 
 
 

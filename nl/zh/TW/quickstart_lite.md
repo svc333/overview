@@ -18,7 +18,7 @@ lastupdated: "2018-11-14"
 # 免費試用 {{site.data.keyword.Bluemix_notm}}
 {: #quickstart_lite}
 
-要試用一下 {{site.data.keyword.Bluemix}} 嗎？「精簡」帳戶真的很適合用來瞭解雲端中的運作、使用 Watson 等等。它也很適合使用 {{site.data.keyword.Bluemix_notm}} 提供的許多元件來建置概念證明 (POC)。本快速入門手冊旨在協助您使用我們的「精簡」帳戶來開始進行。  
+要試用一下 {{site.data.keyword.Bluemix}} 嗎？「精簡」帳戶很適合用來瞭解雲端中的運作、使用 Watson 等等。它也很適合使用 {{site.data.keyword.Bluemix_notm}} 提供的許多元件來建置概念證明 (POC)。本快速入門手冊旨在協助您使用我們的「精簡」帳戶來開始進行。  
 {:shortdesc}  
 
 ## 開始之前

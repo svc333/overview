@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017, 2018
-lastupdated: "2018-11-30"
+  years: 2017, 2019
+lastupdated: "2019-01-07"
 
 ---
 
@@ -15,8 +15,7 @@ Projetada com práticas seguras de engenharia, a plataforma do {{site.data.keywo
 
 O {{site.data.keyword.cloud_notm}} garante disponibilidade de segurança ao seguir as políticas de segurança que são orientadas por melhores práticas na IBM para sistemas, rede e engenharia segura. Essas políticas incluem práticas, como varredura do código-fonte, varredura dinâmica, modelagem de ameaça e teste de penetração. O {{site.data.keyword.cloud_notm}} segue o processo IBM Product Security Incident Response Team (PSIRT) para gerenciamento de incidentes de segurança. Veja o site [IBM Security Vulnerability Management (PSIRT) ![Ícone de link externo](../icons/launch-glyph.svg "Ícone de link externo")](https://www.ibm.com/security/secure-engineering/process.html){: new_window} para obter detalhes.
 
-O {{site.data.keyword.cloud_notm}} Public e Dedicated usam serviços de nuvem de infraestrutura como serviço (IaaS) clássicos e aproveitarem ao máximo sua arquitetura de segurança. O
-IaaS clássico fornece múltiplas camadas de sobreposição de proteção para os aplicativos e dados. Para o {{site.data.keyword.cloud_notm}} Local, você tem a segurança física e fornece a infraestrutura hospedando o {{site.data.keyword.cloud_notm}} Local em seu próprio data center atrás de um firewall da empresa. Além disso, o {{site.data.keyword.cloud_notm}} inclui recursos de segurança na camada de plataforma como serviço (PaaS) em diferentes categorias: plataforma, dados e aplicativo. Para obter maiores detalhes de segurança sobre seu ambiente e apps no {{site.data.keyword.Bluemix_notm}}, consulte [Protegendo aplicativos e ambientes na nuvem![Ícone de link externo](../icons/launch-glyph.svg "Ícone de link externo")](https://www.ibm.com/cloud/garage/architectures/securityArchitecture){: new_window}.
+O {{site.data.keyword.cloud_notm}} Public e Dedicated usam serviços de nuvem de infraestrutura como serviço (IaaS) clássicos e aproveitarem ao máximo sua arquitetura de segurança. O IaaS clássico fornece múltiplas camadas de sobreposição de proteção para os aplicativos e dados. Para o {{site.data.keyword.cloud_notm}} Local, você tem a segurança física e fornece a infraestrutura hospedando o {{site.data.keyword.cloud_notm}} Local em seu próprio data center atrás de um firewall da empresa. Além disso, o {{site.data.keyword.cloud_notm}} inclui recursos de segurança na camada de plataforma como serviço (PaaS) em diferentes categorias: plataforma, dados e aplicativo. Para obter maiores detalhes de segurança sobre seu ambiente e apps no {{site.data.keyword.Bluemix_notm}}, consulte [Protegendo aplicativos e ambientes na nuvem![Ícone de link externo](../icons/launch-glyph.svg "Ícone de link externo")](https://www.ibm.com/cloud/garage/architectures/securityArchitecture){: new_window}.
 
 ## Conformidade do {{site.data.keyword.Bluemix_notm}}
 {: #compliance}
@@ -82,7 +81,7 @@ A tabela a seguir exibe quais serviços do {{site.data.keyword.Bluemix_notm}} s�
 |{{site.data.keyword.dashdbshort}}			|S	|S	|	|S	|
 |{{site.data.keyword.dataworks_short}}				|	|	|	|S	 		|
 |{{site.data.keyword.contdelivery_short}}					|S	|S	|	|			|
-|{{site.data.keyword.containerlong}}			|S		|S	|	|			|
+|{{site.data.keyword.containerlong}}			|S		|S	|	|		S	|
 |{{site.data.keyword.dwl_short}}				|	|	|	|S	 		|
 |{{site.data.keyword.mql}}				|S	|S	|S	|	 		|
 |{{site.data.keyword.SecureGateway}}			|S	|S |	|	 		|

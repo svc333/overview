@@ -2,8 +2,8 @@
 
 
 copyright:
-  years: 2016, 2018
-lastupdated: "2018-11-15"
+  years: 2016, 2019
+lastupdated: "2019-01-02"
 
 
 ---
@@ -11,7 +11,7 @@ lastupdated: "2018-11-15"
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
 
-# Términos del glosario de {{site.data.keyword.cloud_notm}} 
+# Términos del glosario de {{site.data.keyword.cloud_notm}}
 {: #glossary}
 
 Este glosario contiene términos y definiciones correspondientes a {{site.data.keyword.cloud_notm}}.
@@ -23,7 +23,7 @@ En este glosario se utilizan las siguientes referencias cruzadas:
 término preferido o desde una abreviatura a la forma completa.
 - *Véase también* le remite a un término relacionado u opuesto.
 
-<!--If you do not want letter links at the top of your 
+<!--If you do not want letter links at the top of your
 glossary, delete the text between these comment tags.
 [A](#glossa)
 [B](#glossb)
@@ -656,7 +656,7 @@ La conexión de una subred a Internet, con todas las instancias de servidor virt
 
 Entrada que está visible para todas las personas del catálogo de IBM Cloud. Cualquier proveedor puede crear recursos públicos (proveedores de IBM o de terceros). Véase también [recurso privado](#x9439035).
 
-### enviar
+### enviar por push
 {: #x2035465}
 
 Enviar información desde un servidor a un cliente. Cuando un usuario envía contenido, es el servidor el que inicia la transacción, no una solicitud del cliente.
@@ -691,7 +691,7 @@ o un conjunto de códigos postales de la región.
 ### registro
 {: #x2064940}
 
-Repositorio público o privado que contiene imágenes utilizadas para crear contenedores. Véase también [contenedor](#x2010901) e [imagen](#x2024928).
+Un servicio de almacenamiento y distribución de imágenes de contenedor público o privado. Véase también [contenedor](#x2010901) e [imagen](#x2024928).
 
 ### Representational State Transfer (REST)
 {: #x3220976}
@@ -804,7 +804,7 @@ Véase [inicio de sesión
 ### organizar
 {: #x2067189}
 
-Desplegar una aplicación, servicio o instancia en una ubicación predefinida para ejecutarlo o probarlo antes de desplegarlo en un entorno de producción. Véase también [etapa](#x2104544).
+Desplegar una aplicación, servicio o instancia en una ubicación predefinida para ejecutarlo o probarlo antes de desplegarlo en un entorno de producción. Véase también [despliegue](#x2104544).
 
 ### stanza
 {: #x2094743}

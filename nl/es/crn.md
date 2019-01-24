@@ -2,9 +2,9 @@
 
 copyright:
 
-  years: 2017, 2018
+  years: 2017, 2019
 
-lastupdated: "2018-11-05"
+lastupdated: "2019-01-04"
 
 ---
 
@@ -128,7 +128,7 @@ El valor del segmento `scope` debe tener el formato `{scopePrefix}`/`{id}`. El `
 
 El segmento `service-instance` identifica la instancia de servicio de forma exclusiva. El formato del segmento `service-instance` varía en función del servicio. Cada servicio debe documentar el formato de su `service_instance` como parte de sus metadatos de servicio. Algunos servicios no tienen instancias puesto que la instancia es global y en ese caso el campo `service-instance` estará en blanco.
 
-El `service-instance` debe ser alfanumérico, en minúsculas, sin espacios o caracteres especiales que no sean '-' y '/'.
+El `service-instance` debe ser alfanumérico, en minúsculas, sin espacios ni caracteres especiales que no sean '-' y '/'.
 
 Como ejemplo, una herramienta DevOps para realizar el seguimiento y planificar elementos de trabajo puede tener un ID de instancia `GUID` simple ("1234-5678-9012-3456"), donde el componente de política de un servicio de grupo de autoscale puede utilizar un convenio de denominación jerárquica y tener un segmento `service-id` de:
 
@@ -147,7 +147,7 @@ El valor de los segmentos `resource-type` y `resource` varía en función del se
 
 Como ejemplo, una imagen en el contenedor de recepción del cliente en un servicio Object Storage puede tener un `resource-type` de `object` y un `resource_ value` de `CustomerReceipts/clientdinner.png`.
 
-El `resource-type` debe ser alfanumérico, en minúsculas, sin espacios o caracteres especiales que no sean '-' y '/'. Un servicio puede decidir que el `resource-type` sea opcional, en cuyo caso se dejará en blanco.
+El `resource-type` debe ser alfanumérico, en minúsculas, sin espacios ni caracteres especiales que no sean '-' y '/'. Un servicio puede decidir que el `resource-type` sea opcional, en cuyo caso se dejará en blanco.
 
 
 ## Ejemplos de CRN

@@ -2,9 +2,9 @@
 
 copyright:
 
-  years: 2018
+  years: 2018, 2019
 
-lastupdated: "2018-11-14"
+lastupdated: "2019-01-02"
 
 ---
 
@@ -32,7 +32,7 @@ lastupdated: "2018-11-14"
 6. 使用成本預估器，以瞭解您的環境可能需要多少成本。按一下主控台功能表列中的「成本預估器」圖示 ![「預估器」圖示](../icons/Estimator.svg)。 
 7. 使用成本預估器，以瞭解您的基礎架構可能需要多少成本。 
   
-  a. 一開始，先從[型錄](https://console.cloud.ibm.com/catalog){: new_window} ![外部鏈結圖示](../icons/launch-glyph.svg) 中選取供應項目。 
+  a. 一開始，先從[型錄](https://cloud.ibm.com/catalog){: new_window} ![外部鏈結圖示](../icons/launch-glyph.svg) 中選取供應項目。 
   
   b. 輸入配置詳細資料、選取定價方案，然後按一下**新增至預估**。
 

@@ -2,9 +2,9 @@
 
 copyright:
 
-  years: 2017, 2018
+  years: 2017, 2019
 
-lastupdated: "2018-11-05"
+lastupdated: "2019-01-04"
 
 ---
 
@@ -130,10 +130,9 @@ O valor do segmento `scope` deve ser formatado como `{scopePrefix}`/`{id}`. O `s
 
 O segmento `service-instance` identifica a instância de serviço com exclusividade. O formato do segmento `service-instance` varia por serviço. Cada serviço deve documentar o formato de seu `service_instance` como parte de seus metadados de serviço. Alguns serviços não têm instâncias porque a instância é global e, neste caso, o campo `service-instance` estará em branco.
 
-O `service-instance` deve ser alfanumérico, em letras minúsculas, sem espaços ou caracteres
-especiais diferentes de '-' e '/'.
+A `service-instance` deve ser alfanumérica, em minúsculas, sem espaços ou caracteres especiais diferentes de '-' e '/'.
 
-Como um exemplo, uma ferramenta DevOps para rastrear e planejar itens de trabalho pode ter um ID de instância `GUID` simples ("1234-5678-9012-3456"), em que o componente de política de um serviço de grupo de ajuste automático de escala pode usar uma convenção de nomenclatura hierárquica e ter um segmento `service-id` de:
+Como exemplo, uma ferramenta do DevOps para rastrear e planejar itens de trabalho pode ter um ID de instância `GUID` simples ("1234-5678-9012-3456") em que o componente de política de um serviço de grupo de escala automática pode usar uma convenção de nomenclatura hierárquica e ter um segmento `service-id` de:
 
 >`c7a27f55-d35e-4153-b044-8ca9155fc467/my-test-asg1/my-scaleout-policy`
 

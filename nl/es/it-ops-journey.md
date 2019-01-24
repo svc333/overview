@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2018
-lastupdated: "2018-11-30"
+  years: 2018, 2019
+lastupdated: "2019-01-04"
 
 
 ---
@@ -17,7 +17,7 @@ lastupdated: "2018-11-30"
 # Explorar el trayecto del administrador de operaciones de TI en {{site.data.keyword.cloud_notm}}
 {: #it-ops}
 
-A medida que muchas organizaciones se trasladan a un entorno en la nube, ya sea local o alojado en centros de datos, el rol del administrador de operaciones de TI se vuelve a definir. El ámbito y la complejidad de este cambio aumentan significativamente en función del tipo de entorno en el que su organización busca realizar el despliegue. 
+A medida que muchas organizaciones se trasladan a un entorno en la nube, ya sea local o alojado en centros de datos, el rol del administrador de operaciones de TI se vuelve a definir. El ámbito y la complejidad de este cambio aumentan significativamente en función del tipo de entorno en el que su organización desee desplegar.
 {: .shortdesc}
 
 Antes de trasladarse a la nube, trabajó con un entorno seguro propiamente con sistemas conectados a la LAN privada o a intranet. Ahora se espera que realice las tareas siguientes en un entorno de nube:
@@ -58,7 +58,7 @@ Una nube híbrida incluye recursos que combinan los aspectos de las nubes públi
 ## Planificación de la infraestructura
 {: #planning}
 
-Deseará planificar la infraestructura antes de realizar un suministro en la misma para asegurarse de que el tamaño es el adecuado para su carga de trabajo. {{site.data.keyword.cloud_notm}} dispone de varias herramientas y sitios para ayudarle a diseñar y dimensionar la infraestructura. 
+Desea planificar la infraestructura antes de suministrarla para asegurarse de que el tamaño es el adecuado para su carga de trabajo. {{site.data.keyword.cloud_notm}} dispone de varias herramientas y sitios para ayudarle a diseñar y dimensionar la infraestructura. 
 
 ### Arquitectura de la infraestructura
 
@@ -66,7 +66,7 @@ Empiece con la [arquitectura de la infraestructura ![Icono de enlace externo](..
 
 ### {{site.data.keyword.cloud_notm}} Design Decision Tool
 
-[{{site.data.keyword.cloud_notm}} Design Decision Tool ![Icono de enlace externo](../icons/launch-glyph.svg "Icono de enlace externo")](https://github.com/ibm-cloud-architecture/infrastructure-design-decision-tool/){: new_window} le ayuda a comparar alternativas al diseñar y crear la solución personalizada. Cada componente de infraestructura cuenta con descripciones, consideraciones y advertencias, y comparaciones paralelas. También encontrará un ejemplo sobre cómo utilizar la herramienta.
+[{{site.data.keyword.cloud_notm}} Design Decision Tool ![Icono de enlace externo](../icons/launch-glyph.svg "Icono de enlace externo")](https://github.com/ibm-cloud-architecture/infrastructure-design-decision-tool/){: new_window} le ayuda a comparar alternativas al diseñar y crear la solución personalizada. Cada componente de infraestructura cuenta con descripciones de características, consideraciones y advertencias, y comparaciones paralelas. También encontrará un ejemplo sobre cómo utilizar la herramienta.
 
 ### {{site.data.keyword.cloud_notm}} Stencils
 
@@ -74,7 +74,7 @@ Empiece con la [arquitectura de la infraestructura ![Icono de enlace externo](..
 
 ### Opciones de servidor nativo
 
-Utilice la [herramienta de búsqueda {{site.data.keyword.baremetal_short}} de {{site.data.keyword.cloud_notm}} ![Icono de enlace externo](../icons/launch-glyph.svg "Icono de enlace externo")](https://www.ibm.com/cloud-computing/bluemix/bare-metal-search){: new_window} para cambiar el tamaño y estimar las opciones de servidor nativo, incluidos los servidores que se han certificado para ofrecer soporte a las cargas de trabajo de SAP HANA y SAP NetWeaver.
+Utilice la [herramienta de búsqueda {{site.data.keyword.baremetal_short}} de {{site.data.keyword.cloud_notm}} ![Icono de enlace externo](../icons/launch-glyph.svg "Icono de enlace externo")](https://www.ibm.com/cloud-computing/bluemix/bare-metal-search){: new_window} para cambiar el tamaño y estimar las opciones de servidor nativo, incluidos los servidores que están certificados para ofrecer soporte a las cargas de trabajo de SAP HANA y SAP NetWeaver.
 
 ### Conformidad y servicios de {{site.data.keyword.cloud_notm}}
 
@@ -103,15 +103,15 @@ El servidor es la base de la infraestructura. Dispone de varias opciones en func
 ### Almacenamiento
 {: #storage}
 
-{{site.data.keyword.baremetal_short}} y {{site.data.keyword.BluVirtServers_short}} se suministran con un almacenamiento predeterminado. {{site.data.keyword.baremetal_short}} tiene un mínimo de 1 TB SATA de espacio de disco y {{site.data.keyword.BluVirtServers_short}} tiene un mínimo de 25 GB SAN de almacenamiento. La excepción son las {{site.data.keyword.baremetal_short}} certificadas por SAP de {{site.data.keyword.cloud_notm}}. Para obtener más información sobre el almacenamiento predeterminado disponible con estos servidores, consulte [Infraestructura de {{site.data.keyword.cloud_notm}} certificada por SAP](/docs/bare-metal/bare-metal-sap-applications.html#ibm-cloud-sap-certified-infrastructure).
+{{site.data.keyword.baremetal_short}} y {{site.data.keyword.BluVirtServers_short}} se suministran con un almacenamiento predeterminado. {{site.data.keyword.baremetal_short}} tiene un mínimo de 1 TB SATA de espacio de disco y {{site.data.keyword.BluVirtServers_short}} tiene un mínimo de 25 GB SAN de almacenamiento. La excepción es el {{site.data.keyword.baremetal_short}} certificado por SAP de {{site.data.keyword.cloud_notm}}. Para obtener más información sobre el almacenamiento predeterminado disponible con estos servidores, consulte [Infraestructura de {{site.data.keyword.cloud_notm}} certificada por SAP](/docs/bare-metal/bare-metal-sap-applications.html#ibm-cloud-sap-certified-infrastructure).
 
-Puede adquirir almacenamiento adicional en función de sus necesidades. Consulte la tabla siguiente para obtener un resumen de las opciones de cálculo.
+Puede adquirir más almacenamiento en función de sus necesidades. Consulte la tabla siguiente para obtener un resumen de las opciones de cálculo.
 
 | Opción | Descripción |
 |--------|---------------|
 | [{{site.data.keyword.blockstorageshort}}](/docs//infrastructure/BlockStorage/index.html) | Almacenamiento iSCSI persistente y de alto rendimiento que se suministra y se gestiona de forma independiente de las instancias de cálculo. Los LUN basados en iSCSI están conectados a dispositivos autorizados a través de conexiones de E/S de varias vías de acceso (MPIO) redundantes. |
 | [{{site.data.keyword.filestorage_short}}](/docs/infrastructure/FileStorage/index.html) | Almacenamiento de archivos basado en NFS persistente, rápido y flexible conectado a la red. En este entorno de almacenamiento adjunto de red (NAS), tiene un control total sobre la función y el rendimiento de las comparticiones de archivos. Las unidades compartidas de almacenamiento de archivos se pueden conectar a un máximo de 64 dispositivos autorizados a través de conexiones TCP/IP direccionadas para la capacidad de recuperación. |
-| [{{site.data.keyword.cos_full_notm}}](/docs/services/cloud-object-storage/about-cos.html) | La información almacenada con IBM Cloud Object Storage se cifra y dispersa en varias ubicaciones geográficas y se accede a la misma mediante HTTP utilizando una API REST. Este servicio hace uso de las tecnologías de almacenamiento distribuido proporcionadas por el sistema de IBM Cloud Object Storage (anteriormente conocido como Cleversafe). |
+| [{{site.data.keyword.cos_full_notm}}](/docs/services/cloud-object-storage/about-cos.html) |La información almacenada con IBM Cloud Object Storage se cifra y dispersa en varias ubicaciones geográficas y se accede a la misma mediante HTTP utilizando una API REST. Este servicio hace uso de las tecnologías de almacenamiento distribuido que proporciona el sistema de IBM Cloud Object Storage (anteriormente conocido como Cleversafe). |
 | [Migración de datos en masa de {{site.data.keyword.cloud_notm}}](/docs/infrastructure/mass-data-migration/index.html) | Descargar grandes cantidades de datos del centro de datos local al grupo Cloud Object Storage. |
 | [EVault](/docs/infrastructure/Backup/index.html) | Un sistema de copia de seguridad basado en agentes automatizado que se gestiona mediante el programa de utilidad de gestión basado en el navegador EVault WebCC solo para servidores virtuales. Datos de copia de seguridad entre servidores en uno o varios centros de datos de la red de IBM Cloud. |
 {: caption="Tabla 2. Opciones de almacenamiento" caption-side="top"}
@@ -125,7 +125,7 @@ Consulte la tabla siguiente para obtener un resumen de las opciones de red.
 
 | Opción | Descripción | 
 |--------|---------------|
-| [Content Delivery Network](/docs/infrastructure/CDN/about.html) | Se utiliza para un conjunto de soluciones de industria, incluidos medios de comunicación, entretenimiento, software, juegos, banca y comercio electrónico para satisfacer las necesidades de sus negocios. |
+| [Content Delivery Network](/docs/infrastructure/CDN/about.html) | Se utiliza para diversas soluciones de la industria, incluidos medios de comunicación, entretenimiento, software, juegos, banca y comercio electrónico para satisfacer las necesidades de sus negocios. |
 | [Domain Name Service](/docs/cli/reference/ibmcloud/cli_dns.html) | Proporciona una ubicación central para visualizar y gestionar los dominios mediante la interfaz de gestión DNS básica y también le proporciona la opción de gestionar un DNS inverso o secundario en la misma ubicación de forma gratuita. |
 | [Direcciones IP globales](/docs/infrastructure/subnets/about-global-ip.html) | Ofrecer flexibilidad y permitirle desplazar cargas de trabajo entre servidores, incluso mediante centros de datos geográficamente dispares. |
 | [Equilibrio de carga](/docs/infrastructure/local-load-balancer/about.html) | Distribuye el procesamiento y las comunicaciones uniformemente mediante varios servidores en un centro de datos para que un dispositivo individual no lleve toda la carga. |

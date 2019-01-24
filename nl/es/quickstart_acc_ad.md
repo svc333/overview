@@ -2,9 +2,9 @@
 
 copyright:
 
-  years: 2018
+  years: 2018, 2019
 
-lastupdated: "2018-11-14"
+lastupdated: "2019-01-02"
 
 ---
 
@@ -32,7 +32,7 @@ Esta guía de inicio rápido está pensada para ayudar a los administradores de 
 6. Utilice el estimador de costes para obtener una idea de cuánto puede costar su entorno. Pulse en el icono Estimador de costes ![icono Estimador](../icons/Estimator.svg) en la barra de menús de la consola. 
 7. Utilice el estimador de costes para obtener una idea de cuánto puede costar su infraestructura. 
   
-  a. Empiece por seleccionar una oferta desde el [catálogo](https://console.cloud.ibm.com/catalog){: new_window} ![Icono de enlace externo](../icons/launch-glyph.svg). 
+  a. Empiece por seleccionar una oferta desde el [catálogo](https://cloud.ibm.com/catalog){: new_window} ![Icono de enlace externo](../icons/launch-glyph.svg). 
   
   b. Especifique los detalles de configuración, seleccione su plan de precios y pulse **Añadir a estimación**.
 

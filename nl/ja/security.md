@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017, 2018
-lastupdated: "2018-11-30"
+  years: 2017, 2019
+lastupdated: "2019-01-07"
 
 ---
 
@@ -15,7 +15,7 @@ lastupdated: "2018-11-30"
 
 {{site.data.keyword.cloud_notm}} は、システム、ネットワーキング、およびセキュア・エンジニアリングに関する IBM のベスト・プラクティスに基づいたセキュリティー・ポリシーに準拠することで、セキュリティーが確保されている状態にします。 これらのポリシーには、ソース・コード・スキャン、動的スキャン、脅威のモデル化、侵入テストなどのプラクティスが含まれます。 {{site.data.keyword.cloud_notm}} は、セキュリティー・インシデントの管理について、IBM Product Security Incident Response Team (PSIRT) プロセスに従います。 詳しくは、[IBM Security Vulnerability Management (PSIRT) ![外部リンク・アイコン](../icons/launch-glyph.svg "外部リンク・アイコン")](https://www.ibm.com/security/secure-engineering/process.html){: new_window} のサイトを参照してください。
 
-{{site.data.keyword.cloud_notm}} Public および Dedicated は、従来の Infrastructure as a Service (IaaS) クラウド・サービスを使用し、そのセキュリティー・アーキテクチャーを最大限に活用します。従来の IaaS は、ご使用のアプリケーションとデータを重層的に保護します。{{site.data.keyword.cloud_notm}} Local の場合、企業ファイアウォールの背後にあるお客様自身のデータ・センターに {{site.data.keyword.cloud_notm}} Local をホストすることで、お客様が物理的セキュリティーを所有し、インフラストラクチャーを提供します。 さらに、{{site.data.keyword.cloud_notm}} は、Platform as a Service 層で各種カテゴリー (プラットフォーム、データ、およびアプリケーション) のセキュリティー機能を追加します。 {{site.data.keyword.Bluemix_notm}}　での環境およびアプリのセキュリティー詳細については、[Securing applications and environments on cloud ![外部リンク・アイコン](../icons/launch-glyph.svg "外部リンク・アイコン")](https://www.ibm.com/cloud/garage/architectures/securityArchitecture){: new_window} を参照してください。
+{{site.data.keyword.cloud_notm}} Public および Dedicated は、従来の Infrastructure as a Service (IaaS) クラウド・サービスを使用し、そのセキュリティー・アーキテクチャーを最大限に活用します。 従来の IaaS は、ご使用のアプリケーションとデータを重層的に保護します。 {{site.data.keyword.cloud_notm}} Local の場合、企業ファイアウォールの背後にあるお客様自身のデータ・センターに {{site.data.keyword.cloud_notm}} Local をホストすることで、お客様が物理的セキュリティーを所有し、インフラストラクチャーを提供します。 さらに、{{site.data.keyword.cloud_notm}} は、Platform as a Service 層で各種カテゴリー (プラットフォーム、データ、およびアプリケーション) のセキュリティー機能を追加します。 {{site.data.keyword.Bluemix_notm}}　での環境およびアプリのセキュリティー詳細については、[Securing applications and environments on cloud ![外部リンク・アイコン](../icons/launch-glyph.svg "外部リンク・アイコン")](https://www.ibm.com/cloud/garage/architectures/securityArchitecture){: new_window} を参照してください。
 
 ## {{site.data.keyword.Bluemix_notm}} のコンプライアンス
 {: #compliance}
@@ -23,7 +23,7 @@ lastupdated: "2018-11-30"
 {{site.data.keyword.Bluemix}} は、信頼できる安全なクラウド・プラットフォームを提供します。 {{site.data.keyword.Bluemix_notm}} のコンプライアンスは、ISO 27001 および ISO 27002 などの業界最高のセキュリティー規格を基盤としたプラットフォームおよびサービスの結果として作成されたものです。
 {:shortdesc}
 
-![EU のデータ保護モデル契約条項](images/icon_eumc.png)  **EU モデル契約条項**を組み込んだ取り決めは、EU または欧州経済地域 (EEA) から第三国に転送される個人データを保護します。 EU モデル契約条項は、EU または EEA にデータ・エクスポーターとして位置するクライアントと、第三国にデータ・インポーターとして位置する IBM データ・プロセッサーとの間で署名されました。 [IBM Data Processing Addendum (EU 標準契約条項を含む) ![外部リンク・アイコン](../icons/launch-glyph.svg "外部リンク・アイコン")](http://www-01.ibm.com/common/ssi/cgi-bin/ssialias?subtype=ST&infotype=SA&htmlfid=KUJ12408USEN&attachment=KUJ12408USEN.PDF){: new_window} には、データ・エクスポーターとデータ・インポーターの権利と義務、およびデータ・サブジェクトの権利が記載されています。IBM Data Processing Addendum は、第三国で処理された個人データに対して EU または EEA で提供される保護と同様の保護を提供します。
+![EU のデータ保護モデル契約条項](images/icon_eumc.png)  **EU モデル契約条項**を組み込んだ取り決めは、EU または欧州経済地域 (EEA) から第三国に転送される個人データを保護します。 EU モデル契約条項は、EU または EEA にデータ・エクスポーターとして位置するクライアントと、第三国にデータ・インポーターとして位置する IBM データ・プロセッサーとの間で署名されました。 [IBM Data Processing Addendum (EU 標準契約条項を含む) ![外部リンク・アイコン](../icons/launch-glyph.svg "外部リンク・アイコン")](http://www-01.ibm.com/common/ssi/cgi-bin/ssialias?subtype=ST&infotype=SA&htmlfid=KUJ12408USEN&attachment=KUJ12408USEN.PDF){: new_window} には、データ・エクスポーターとデータ・インポーターの権利と義務、およびデータ・サブジェクトの権利が記載されています。 IBM Data Processing Addendum は、第三国で処理された個人データに対して EU または EEA で提供される保護と同様の保護を提供します。
 
 
 ![金融情報システム](images/FISC.gif)  日本国内の銀行業界および関連する金融業界の場合、コンピューター・システムは、金融情報システムセンター (FISC) の安全対策基準に基づいた安全対策手順を実施する必要があります。 FISC 安全対策基準は、金融庁 (FSA)、日本銀行 (BOJ)、および FISC によって実施されています。
@@ -82,7 +82,7 @@ lastupdated: "2018-11-30"
 |{{site.data.keyword.dashdbshort}}			|Y	|Y	|	|Y	|
 |{{site.data.keyword.dataworks_short}}				|	|	|	|Y	 		|
 |{{site.data.keyword.contdelivery_short}}					|Y	|Y	|	|			|
-|{{site.data.keyword.containerlong}}			|Y		|Y	|	|			|
+|{{site.data.keyword.containerlong}}			|Y		|Y	|	|		Y	|
 |{{site.data.keyword.dwl_short}}				|	|	|	|Y	 		|
 |{{site.data.keyword.mql}}				|Y	|Y	|Y	|	 		|
 |{{site.data.keyword.SecureGateway}}			|Y	|Y |	|	 		|
