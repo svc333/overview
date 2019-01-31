@@ -2,9 +2,9 @@
 
 copyright:
 
-  years: 2015, 2018
+  years: 2015, 2019
 
-lastupdated: "2018-12-20"
+lastupdated: "2019-01-22"
 
 ---
 
@@ -427,6 +427,38 @@ obter mais informações.
 ## Cálculo
 {: #compute_category}
 
+### Recursos do IBM Cloud SAP-Certified Infrastructure
+Novo a partir de: 22 de janeiro de 2019
+
+Agora, novos recursos estão disponíveis com a oferta {{site.data.keyword.cloud_notm}} SAP-Certified
+Infrastructure para SAP HANA e SAP NetWeaver.
+
+#### Armazenamento de múltiplos nós
+Armazenamento de múltiplos nós do SAP HANA para cargas de trabalho de processamento analítico on-line (OLAP), como SAP
+Business Warehouse (SAP BW) e SAP BW/4HANA. A solução {{site.data.keyword.cloud_notm}} para multinó do SAP HANA consiste em até 15 + 1 nós (15 nós do trabalhador, mais um de espera) para até 30 TB de memória usada para um sistema. Para começar, consulte [Configurando
+a infraestrutura do {{site.data.keyword.cloud_notm}} para suportar os múltiplos nós do SAP HANA](/docs/infrastructure/sap-hana/hana-multi-node.html#multi-node-storage)
+
+
+#### Alta disponibilidade
+As soluções de alta disponibilidade (HA) são suportadas para SAP HANA e SAP NetWeaver. A solução é baseada na versão do
+S.O. suportada e é restrita às licenças de S.O. solicitadas que vêm com a sua implementação ou licenças de terceiros,
+como a "traga sua própria licença" (BYOL). Para iniciar, clique [aqui](/docs/infrastructure/sap-hana/hana-ha.html#ha) para SAP HANA e
+[aqui](/docs/infrastructure/sap-netweaver/sap-ha.html#ha) para SAP NetWeaver.
+  
+#### SAP Content Server
+O SAP Content Server é um componente independente para o armazenamento de grandes quantidades de documentos eletrônicos
+em qualquer formato e com qualquer conteúdo. Para usar o SAP Content Server, os aplicativos SAP devem suportar seu uso. Para iniciar, consulte [SAP
+Content Server](/docs/infrastructure/sap-netweaver/sap-content-server.html#content-server).
+
+#### SAP MaxDB
+O SAP MaxDB está disponível para SAP NetWeaver. Para iniciar, consulte [Sobre o {{site.data.keyword.cloud_notm}} SAP-Certified Infrastructure](/docs/infrastructure/sap-netweaver/sap-about.html#about_ibmcloud_for_sap).
+
+#### SAP Business One
+O SAP Business One é o software de planejamento de recursos corporativos (ERP) especialmente projetado para empresas de
+pequeno a médio porte. Ele integra suas principais funções de negócios, que são contabilidade e finanças, compras e
+estoque, vendas e relacionamento com o cliente, além de gerenciamento de projeto e operações, em um único
+aplicativo. Para obter mais informações, consulte [Introdução](/docs/infrastructure/sap-b1/b1-index.html#getting-started).
+
 ### Recursos do servidor virtual
 Novo a partir de: 16 de novembro de 2018
 
@@ -503,6 +535,25 @@ O buildpack do Liberty v3.9 fornece uma nova versão de runtime mensal do Libert
 
 ## Serviços
 {: #services_category}
+
+### Novos recursos disponíveis no {{site.data.keyword.appid_short_notm}}
+Novo a partir de: 22 de dezembro de 2018
+
+O serviço {{site.data.keyword.appid_short_notm}} introduziu novos recursos avançados que reforçam a segurança
+de suas autenticações e aplicativos.
+
+O {{site.data.keyword.appid_short_notm}} ajuda você a incluir diferentes tipos de autenticação do usuário em
+seus aplicativos móveis e da web. É possível incluir a autenticação com algumas linhas de código e esquecer o
+gerenciamento da infraestrutura para escalar com a sua base do usuário. Verifique os aprimoramentos a
+seguir e, em seguida, experimente o serviço.
+
+Autenticação de diversos fatores: agora é possível usar a MFA baseada em e-mail para o Cloud Directory. Com a MFA configurada como ativada, os usuários são solicitados a fornecer um código único que eles recebem via e-mail, além da senha. Se você estiver usando a conexão corporativa com o SAML 2.0 ou o login social, poderá ativar a MFA por meio desse provedor de identidade.
+Políticas de senha avançadas: com o recurso de política de senha avançada ativado, é possível impor senhas mais seguras
+para o Cloud Directory. É possível configurar um conjunto de regras que usam senhas para que estejam em conformidade com o número de vezes que um usuário pode tentar se conectar antes de ser bloqueado ou o número de vezes que uma senha não pode ser repetida.
+
+Os recursos de segurança avançados têm um componente de precificação adicional. Para obter mais informações sobre como a precificação é calculada, consulte a seção de precificação do [catálogo](https://cloud.ibm.com/catalog/services/app-id).
+
+Verifique a documentação do [{{site.data.keyword.appid_short_notm}}](/docs/services/appid/index.html) e comece ainda hoje.
 
 ### Introduzindo o {{site.data.keyword.backup_notm}}
 Novo a partir de 20 de dezembro de 2018

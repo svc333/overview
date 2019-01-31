@@ -2,9 +2,9 @@
 
 copyright:
 
-  years: 2015, 2018
+  years: 2015, 2019
 
-lastupdated: "2018-12-20"
+lastupdated: "2019-01-22"
 
 ---
 
@@ -14,7 +14,7 @@ lastupdated: "2018-12-20"
 # Novedades en {{site.data.keyword.Bluemix_notm}}
 {: #whatsnew}
 
-Consulte información actualizada sobre las nuevas características y servicios disponibles en {{site.data.keyword.Bluemix}} para sacar el máximo provecho de {{site.data.keyword.Bluemix_notm}}. Las actualizaciones están organizadas en las siguientes categorías: [plataforma de {{site.data.keyword.Bluemix_notm}}](index.html#platform_category), [{{site.data.keyword.Bluemix_local_notm}} y {{site.data.keyword.Bluemix_dedicated_notm}}](index.html#dedicatedandlocal), [Compute](index.html#compute_category), y [Servicios](index.html#services_category).
+Consulte información actualizada sobre las nuevas características y servicios disponibles en {{site.data.keyword.Bluemix}} para sacar el máximo provecho de {{site.data.keyword.Bluemix_notm}}. Las actualizaciones están organizadas en las siguientes categorías: [Plataforma {{site.data.keyword.Bluemix_notm}}](index.html#platform_category), [{{site.data.keyword.Bluemix_local_notm}} y {{site.data.keyword.Bluemix_dedicated_notm}}](index.html#dedicatedandlocal), [Cálculo](index.html#compute_category), y [Servicios](index.html#services_category).
 {:shortdesc}
 
 ## Plataforma {{site.data.keyword.Bluemix_notm}}
@@ -58,7 +58,7 @@ Con nuestra última actualización, ahora podrá ver todos los servicios de infr
 * Ahora que puede ver todos los recursos en un mismo lugar, hemos añadido una búsqueda global para que pueda encontrar rápidamente los recursos que ha creado y esperar que aparezcan en la página Lista de recursos. 
 * También puede buscar resultados de catálogo, para poder encontrar rápidamente recursos y añadirlos a su cuenta.  
 
-Consulte el apartado sobre [Gestionar todos sus recursos en la nube en la plataforma mejorada de {{site.data.keyword.Bluemix_notm}}](https://www.ibm.com/blogs/bluemix/2018/11/manage-all-your-cloud-resources-on-the-enhanced-ibm-cloud-platform/){: new_window} ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo") para obtener más información. 
+Consulte el apartado sobre [Gestionar todos sus recursos en la nube en la plataforma mejorada de {{site.data.keyword.Bluemix_notm}}](https://www.ibm.com/blogs/bluemix/2018/11/manage-all-your-cloud-resources-on-the-enhanced-ibm-cloud-platform/){: new_window} ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo") para obtener más información.
 
 ### Información de perfil de usuario, facturación y cuenta para servicios de plataforma e infraestructura
 Novedad desde: 30 de noviembre de 2018
@@ -70,7 +70,7 @@ La información de cuenta, facturación y perfil se ha simplificado. Puede ver l
 * El área de información de cuenta contiene información sobre la empresa u organización, los valores de cuenta y el acceso rápido para trabajar con grupos de recursos y organizaciones de Cloud Foundry. Incluso puede encontrar prácticas recomendadas para ayudarle a empezar a trabajar rápidamente.
 * El área de uso y facturación de su cuenta le ayuda a comprender la factura, a realizar pagos, a supervisar suscripciones, a obtener presupuestos, a realizar un seguimiento de los pedidos y a establecer notificaciones de gastos.
 
-Consulte el tema sobre [Combinación de todos los elementos: gestión única de cuenta y de facturación](https://www.ibm.com/blogs/bluemix/2018/11/ibm-cloud-account-management/){: new_window} ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo") para obtener más información. 
+Consulte el tema sobre [Combinación de todos los elementos: gestión única de cuenta y de facturación](https://www.ibm.com/blogs/bluemix/2018/11/ibm-cloud-account-management/){: new_window} ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo") para obtener más información.
 
 ### Organizar los recursos con etiquetas
 Novedad desde: 30 de noviembre de 2018
@@ -104,7 +104,7 @@ Por ahora no se están modificando los ID programáticos, de modo que esto no af
 ### Asignación de acceso de gestión de cuenta a otros
 Novedad desde: 30 de octubre de 2018
 
-Con {{site.data.keyword.cloud_notm}} Identity and Access Management (IAM), puede delegar tareas comunes que haya completado como administrador de la cuenta a otro usuario de la cuenta. Mediante la creación de una política de acceso en uno o en todos los servicios de gestión de cuenta disponibles, puede delegar fácilmente responsabilidades, como invitar y eliminar usuarios, gestionar grupos de accesos, gestionar ID de servicios, mantener servicios de catálogos privados e incluso supervisar la facturación y realizar un seguimiento del uso. Hay cuatro servicios individuales de gestión de cuentas y una opción para todos los servicios que puede utilizar para configurar políticas de acceso.
+Con {{site.data.keyword.cloud_notm}} Identity and Access Management (IAM), puede delegar tareas comunes que haya completado como administrador de la cuenta a otro usuario de la cuenta. Mediante la creación de una política de acceso en uno o en todos los servicios de gestión de cuenta disponibles, puede delegar fácilmente responsabilidades, como invitar y eliminar usuarios, gestionar grupos de accesos, gestionar ID de servicios, mantener servicios de catálogos privados e incluso supervisar la facturación y realizar un seguimiento del uso. Hay cuatro servicios individuales de gestión de cuentas y una opción para todos los servicios que puede utilizar para configurar políticas de acceso:
 
 * Gestión de usuarios para invitar y eliminar usuarios
 * Grupos de acceso IAM para crear, editar, suprimir, actualizar y asignar acceso 
@@ -237,7 +237,7 @@ Con las últimas actualizaciones y mejoras, los propietarios o los administrador
  * Gestionar el acceso preciso de los usuarios a los servicios de Kubernetes y otros servicios a medida que adopten las nuevas características de control de acceso
  * Asignar políticas de servicio y roles de Cloud Foundry a usuarios dentro de sus organizaciones
 
-Además, los usuarios de la plataforma de {{site.data.keyword.Bluemix_notm}} pueden crear, suprimir y listar claves de API asociadas con sus ID de usuario. Y los usuarios de la plataforma pueden utilizar dichas claves de API para autenticarse al utilizar API o CLI.
+Además, los usuarios de la plataforma {{site.data.keyword.Bluemix_notm}} pueden crear, suprimir y listar claves de API asociadas con sus ID de usuario. Y los usuarios de la plataforma pueden utilizar dichas claves de API para autenticarse al utilizar API o CLI.
 
 Por último, hemos mejorado nuestra capacidad de gestión de usuarios unificada para garantizar que en una cuenta IaaS-PaaS enlazada, los usuarios se gestionen de forma unificada sin necesidad de añadir usuarios por separado en el Portal de clientes de SoftLayer o en la consola de {{site.data.keyword.Bluemix_notm}}.
 
@@ -363,6 +363,27 @@ Con las últimas actualizaciones y mejoras de abril, puede utilizar las siguient
 ## Compute
 {: #compute_category}
 
+### Características de la infraestructura certificada por SAP de IBM Cloud
+Novedad desde: 22 de enero de 2019
+
+Dispone de nuevas características con la oferta de infraestructura certificada por SAP de {{site.data.keyword.cloud_notm}} tanto para SAP HANA como para SAP NetWeaver.
+
+#### Almacenamiento multinodo
+El almacenamiento multinodo de SAP HANA para cargas de trabajo de proceso analítico en línea (OLAP), como SAP Business Warehouse (SAP BW) y SAP BW/4HANA. La solución {{site.data.keyword.cloud_notm}} para el sistema SAP HANA de varios nodos consta de hasta 15+1 nodos (15 nodos trabajadores más uno en espera) para un máximo de 30 TB de memoria utilizada para un sistema. Para empezar, consulte [Configuración de la infraestructura de {{site.data.keyword.cloud_notm}} para que de soporte a SAP HANA multinodo](/docs/infrastructure/sap-hana/hana-multi-node.html#multi-node-storage)
+
+
+#### Alta disponibilidad
+Las soluciones de alta disponibilidad (HA) reciben soporte tanto para SAP HANA como para SAP NetWeaver. La solución se basa en la versión soportada del sistema operativo, y se limita a las licencias del sistema operativo solicitadas que vienen con el despliegue, o a licencias de terceros, como en el caso de que traiga su propia licencia (BYOL). Para empezar, pulse [aquí](/docs/infrastructure/sap-hana/hana-ha.html#ha) para SAP HANA y [aquí](/docs/infrastructure/sap-netweaver/sap-ha.html#ha) para SAP NetWeaver.
+  
+#### SAP Content Server
+SAP Content Server es un componente autónomo para almacenar grandes cantidades de documentos electrónicos en cualquier formato y con cualquier contenido. Para poder utilizar SAP Content Server, las aplicaciones SAP deben dar soporte a su uso. Para empezar, consulte [SAP Content Server](/docs/infrastructure/sap-netweaver/sap-content-server.html#content-server).
+
+#### SAP MaxDB
+SAP MaxDB está disponible para SAP NetWeaver. Para empezar, consulte [Acerca de la infraestructura de {{site.data.keyword.cloud_notm}} certificada por SAP](/docs/infrastructure/sap-netweaver/sap-about.html#about_ibmcloud_for_sap).
+
+#### SAP Business One
+SAP Business One es un software de planificación de recursos de la empresa (ERP) especialmente diseñado para empresas pequeñas y medianas. Integra las funciones principales de la empresa (contabilidad y finanzas, compras e inventario, ventas y relaciones con el cliente y operaciones y gestión de proyectos) en una sola aplicación. Para obtener más información, consulte la [Guía de inicio](/docs/infrastructure/sap-b1/b1-index.html#getting-started).
+
 ### Características del servidor virtual
 Novedad desde: 16 de noviembre de 2018
 
@@ -437,6 +458,20 @@ El paquete de compilación de Liberty v3.9 proporciona una nueva versión de tie
 
 ## Servicios
 {: #services_category}
+
+### Nuevas características disponibles en {{site.data.keyword.appid_short_notm}}
+Novedad desde: 22 de diciembre de 2018
+
+El servicio {{site.data.keyword.appid_short_notm}} ha incorporado características avanzadas y ha reforzado la seguridad de las apps y de las autenticaciones.
+
+{{site.data.keyword.appid_short_notm}} le ayuda a añadir distintos tipos de autenticación de usuarios a sus apps móviles y web. Puede añadir autenticación con unas pocas líneas de código y olvidarse de la gestión de la infraestructura para escalar la base de usuarios.  Consulte las siguientes mejoras y pruebe el servicio usted mismo.
+
+Autenticación de multifactores: ahora puede utilizar MFA basado en correo electrónico para Cloud Directory. Con MFA activado, se solicita a los usuarios que proporcionen un código de un solo uso que reciben por correo electrónico, además de su contraseña. Si utiliza el inicio de sesión de empresa con SAML 2.0 o el inicio de sesión social, puede habilitar MFA a través de dicho proveedor de identidad.
+Políticas avanzadas de contraseñas: con la característica de política avanzada de contraseñas activada, puede imponer contraseñas más seguras para Cloud Directory. Puede configurar un conjunto de reglas que utilizan contraseñas que deben cumplir con determinadas políticas, como el número de veces que un usuario puede intentar iniciar una sesión antes de que se bloquee o el número de veces que no se puede repetir una contraseña.
+
+Las características avanzadas de seguridad tienen un componente de precio adicional. Para obtener más información sobre cómo se calcula el precio, consulte la sección sobre precios del [catálogo](https://cloud.ibm.com/catalog/services/app-id).
+
+Consulte la [documentación de {{site.data.keyword.appid_short_notm}}](/docs/services/appid/index.html) y comience a utilizar esta característica hoy mismo.
 
 ### Introducción a {{site.data.keyword.backup_notm}}
 Novedad desde: 20 de diciembre de 2018
@@ -583,7 +618,7 @@ Novedad desde: 31 de enero de 2018
 
 A partir de hoy el servicio de gestión de claves de cifrado de {{site.data.keyword.keymanagementserviceshort}} está disponible en la región de Sídney. Sídney es la tercera región después de EE.UU. sur (Dallas) y Londres en ofrecer estado de disponibilidad general (GA) para los usuarios de {{site.data.keyword.keymanagementserviceshort}}.
 
-{{site.data.keyword.keymanagementserviceshort}} es un servicio de gestión de claves de cifrado que ofrece una solución sencilla y económica para la gestión de las claves que se utilizan para cifrar los datos que están almacenados en {{site.data.keyword.Bluemix_notm}}. {{site.data.keyword.keymanagementserviceshort}} gestiona todo el ciclo vital de las claves, desde la creación de la clave hasta el uso de la aplicación, el archivado de claves y la destrucción de claves, a la vez que impone una separación de tareas entre la gestión de datos y la gestión de claves. 
+{{site.data.keyword.keymanagementserviceshort}} es un servicio de gestión de claves de cifrado que ofrece una solución sencilla y económica para la gestión de las claves que se utilizan para cifrar los datos que están almacenados en {{site.data.keyword.Bluemix_notm}}. {{site.data.keyword.keymanagementserviceshort}} gestiona todo el ciclo vital de las claves, desde la creación de la clave hasta el uso de la aplicación, el archivado de claves y la destrucción de claves, a la vez que impone una separación de tareas entre la gestión de datos y la gestión de claves.
 
 {{site.data.keyword.keymanagementserviceshort}} da soporte a BYOK (Bring-Your-Own-Key – cifrado gestionado por el cliente) con servicios de datos de IBM aplicables. BYOK permite a los usuarios importar claves de cifrado de raíz de confianza maestras creadas internamente para una mejor gestión de la seguridad en sus datos en reposo (data-at-rest) guardados en {{site.data.keyword.Bluemix_notm}}.
 
@@ -733,7 +768,7 @@ Para obtener más información sobre el servicio {{site.data.keyword.monitoringl
 ### IBM Cloud Log Analysis ahora está disponible en la región EE.UU. sur
 Novedad desde: 31 de julio de 2017
 
-El servicio {{site.data.keyword.loganalysisfull}} proporciona los servicios de recopilación y de búsqueda de registros para la plataforma de {{site.data.keyword.Bluemix_notm}}, recopilando automáticamente los datos de servicios de {{site.data.keyword.Bluemix_notm}} y de aplicaciones desde los servicios de selección de {{site.data.keyword.Bluemix_notm}}. Utilice el servicio {{site.data.keyword.loganalysisshort}} para:
+El servicio {{site.data.keyword.loganalysisfull}} proporciona los servicios de recopilación y de búsqueda de registros para la plataforma {{site.data.keyword.Bluemix_notm}}, recopilando automáticamente los datos de servicios de {{site.data.keyword.Bluemix_notm}} y de aplicaciones desde los servicios de selección de {{site.data.keyword.Bluemix_notm}}. Utilice el servicio {{site.data.keyword.loganalysisshort}} para:
 
 * Conservar registros tanto tiempo como desee.  
 

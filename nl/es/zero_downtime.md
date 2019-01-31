@@ -23,7 +23,7 @@ lastupdated: "2018-11-28"
 Su estrategia global es importante. Puede seleccionar un centro de datos o ubicación específicos para desplegar los datos en la parte correcta del mundo para sus clientes. 
 {:shortdesc}
 
-Los servicios de plataforma de {{site.data.keyword.Bluemix}} son autogestionados. Lo que significa, que las ubicaciones en las que despliega la app pueden dispersar cargas de trabajar entre los centros de datos. Y puede garantizar que se ha establecido un diseño de migración tras error, lo que significa que su app siempre está funcionando para sus clientes. Para los recursos de infraestructura, puede seleccionar centros de datos individuales en los que se despliegan los recursos. 
+Los servicios de la plataforma {{site.data.keyword.Bluemix}} son autogestionados. Lo que significa, que las ubicaciones en las que despliega la app pueden dispersar cargas de trabajar entre los centros de datos. Y puede garantizar que se ha establecido un diseño de migración tras error, lo que significa que su app siempre está funcionando para sus clientes. Para los recursos de infraestructura, puede seleccionar centros de datos individuales en los que se despliegan los recursos. 
 
 Todos los recursos de {{site.data.keyword.Bluemix_notm}} están alojados en ubicaciones de centros de datos de todo el mundo. La alta disponibilidad y la recuperación tras desastre no son universales en todos los servicios, por lo que el tipo de alta disponibilidad y de recuperación tras desastre disponibles dependen del servicio que utilice.  
 
@@ -70,14 +70,13 @@ ibmcloud api https://api.eu-gb.bluemix.net
 
 Cada ubicación tienen asignado un prefijo exclusivo. {{site.data.keyword.cloud_notm}} proporciona las siguientes ubicaciones y prefijos.
 
-| **Ubicación** | **Punto final de API** |
-|-----------------|-------------------|
-| Dallas | api.ng.bluemix.net |
-| Sídney | api.au-syd.bluemix.net |
-| Frankfurt | api.eu-de.bluemix.net |
-| Londres | api.eu-gb.bluemix.net |
+| **Ubicación**  | **Punto final de API**        |
+|---------------|-------------------------|
+| Dallas        | api.ng.bluemix.net      |
+| Sídney        | api.au-syd.bluemix.net  |
+| Frankfurt     | api.eu-de.bluemix.net   |
+| Londres        | api.eu-gb.bluemix.net   |
 | Washington DC | api.us-east.bluemix.net |
-| Tokio | api.jp-tok.bluemix.net |
 {: caption="Tabla 1. Lista de ubicaciones de {{site.data.keyword.cloud_notm}}" caption-side="top"}
 
 Si despliega recursos de la infraestructura, tendrá más opciones para elegir dónde están ubicados los datos. Puede seleccionar una ubicación o puede seleccionar en una lista de centros de datos de {{site.data.keyword.Bluemix_notm}}. 
@@ -95,72 +94,72 @@ Un centro de datos es una ubicación física que aloja los recursos de alimentac
 ### América del Norte
 {: #na}
 
-| Nombre del centro de datos | Código |
-|----------|---------|
-|Dallas 01|dal01|
-|Dallas 05|dal05|
-|Dallas 06|dal06|
-|Dallas 07|dal07|
-|Dallas 09|dal09|
-|Dallas 10|dal10|
-|Dallas 12|dal12|
-|Dallas 13|dal13|
-|Washington DC 01|wdc01|
-|Washington DC 04|wdc04|
-|Washington DC 06|wdc06|
-|Washington DC 07|wdc07|
-|San José 01|sjc01|
-|San José 03|sjc03|
-|San José 04|sjc04|
-|Seattle 01|sea01|
-|Houston 01|hou01|
-|Montreal 01|mon01|
-|Toronto 01|tor01|
-|México 01|mex01|
+| Nombre del centro de datos | Código  |
+|------------------|-------|
+| Dallas 01        | dal01 |
+| Dallas 05        | dal05 |
+| Dallas 06        | dal06 |
+| Dallas 07        | dal07 |
+| Dallas 09        | dal09 |
+| Dallas 10        | dal10 |
+| Dallas 12        | dal12 |
+| Dallas 13        | dal13 |
+| Washington DC 01 | wdc01 |
+| Washington DC 04 | wdc04 |
+| Washington DC 06 | wdc06 |
+| Washington DC 07 | wdc07 |
+| San José 01      | sjc01 |
+| San José 03      | sjc03 |
+| San José 04      | sjc04 |
+| Seattle 01       | sea01 |
+| Houston 01       | hou01 |
+| Montreal 01      | mon01 |
+| Toronto 01       | tor01 |
+| México 01        | mex01 |
 {: caption="Tabla 2. Centros de datos en América del Norte" caption-side="top"}
 
 ### América del Sur
 {: #sa}
 
-| Nombre del centro de datos | Código |
-|----------|---------|
-|Sao Paulo 01|sao01|
+| Nombre del centro de datos | Código    |
+|------------------|---------|
+| Sao Paulo 01     | sao01   |
 {: caption="Tabla 3. Centros de datos en América del Sur" caption-side="top"}
 
 ### Europa
 {: #eu}
 
-| Nombre del centro de datos | Código |
-|----------|---------|
-|Londres 02|lon02|
-|Londres 04|lon04|
-|Londres 05|lon05|
-|Londres 06|lon06|
-|Frankfurt 02|fra02|
-|Frankfurt 04|fra04|
-|Frankfurt 05|fra05|
-|Milán 01|mil01|
-|Amsterdam 01|ams01|
-|Amsterdam 03|ams03|
-|París 01|par01|
-|Oslo 01|osl01|
+| Nombre del centro de datos | Código  |
+|------------------|-------|
+| Londres 02        | lon02 |
+| Londres 04        | lon04 |
+| Londres 05        | lon05 |
+| Londres 06        | lon06 |
+| Frankfurt 02     | fra02 |
+| Frankfurt 04     | fra04 |
+| Frankfurt 05     | fra05 |
+| Milán 01         | mil01 |
+| Amsterdam 01     | ams01 |
+| Amsterdam 03     | ams03 |
+| París 01         | par01 |
+| Oslo 01          | osl01 |
 {: caption="Tabla 4. Centros de datos en Europa" caption-side="top"}
 
 ### Asia Pacífico
 {: #ap}
 
-| Nombre del centro de datos | Código |
-|----------|---------|
-|Tokio 01|tok02|
-|Tokio 04|tok04|
-|Tokio 05|tok05|
-|Seúl 01|seo01|
-|Hong Kong 02|hkg02|
-|Singapur 01|sng01|
-|Sídney 01|syd01|
-|Sídney 04|syd04|
-|Sídney 05|syd05|
-|Melbourne 01|mel01|
+| Nombre del centro de datos | Código  |
+|------------------|-------|
+| Tokio 01         | tok02 | 
+| Tokio 04         | tok04 |
+| Tokio 05         | tok05 |
+| Seúl 01         | seo01 |
+| Hong Kong 02     | hkg02 |
+| Singapur 01     | sng01 |
+| Sídney 01        | syd01 |
+| Sídney 04        | syd04 |
+| Sídney 05        | syd05 |
+| Melbourne 01     | mel01 |
 {: caption="Tabla 5. Centros de datos en Asia Pacífico" caption-side="top"}
 
 
@@ -185,11 +184,11 @@ Es elegible para un crédito en su cuenta si experimenta un tiempo de inactivida
 - Los servicios en la nube del entorno público que se configuran para la alta disponibilidad, tal y como se describe en los detalles del catálogo de cada servicio. 
 - Los servicios en la nube de varios entornos locales o dedicados en centros de datos separados geográficamente. 
 
-|Tipo	|Descripción	|Detalles de soporte|
-|-----|-------------|---------------|
-|Entorno público de alta disponibilidad o Varios entornos locales/dedicados |Otros entornos |Crédito |
-|<99,95% |<99,5% |10% |
-|<99,90% |<99,0% |25% |
+| Tipo	                                                                        | Descripción	       | Detalles de soporte|
+|-------------------------------------------------------------------------------|--------------------|----------------|
+| Entorno público de alta disponibilidad o Varios entornos locales/dedicados | Otros entornos | Crédito         |
+| <99,95%                                                                       |<99,5%              |10%             |
+| <99,90%                                                                       |<99,0%              |25%             |
 {: caption="Tabla 6. Nivel de servicio de disponibilidad mensual" caption-side="top"}
 
 El porcentaje de disponibilidad se calcula como el número total de minutos en un mes contratado menos el número total del tiempo de inactividad en minutos de un mes dividido por el número total de minutos del mes. 
@@ -224,15 +223,15 @@ El tiempo de inactividad no incluye el tiempo del mantenimiento anunciado o plan
 
 Los períodos de tiempo del nivel de servicio excluyen cualquier momento en el que sea necesario volver a cargar el sistema operativo o las aplicaciones o el rendimiento de tiempo pueden degradarse. Tiene derecho a un crédito en función del cargo mensual del servicio que se ve afectado por la sustitución o actualización de hardware si {{site.data.keyword.Bluemix_notm}} no alcanza un período de tiempo del nivel de servicio especificado.
 
-|Tipo	|Descripción	|
-|-----|-------------|
-|Periodo de Tiempo de Nivel de Servicio |Porcentaje de Crédito |
-|≤ 2 horas |Ninguna |
-|> 2 horas |20% |
-|> 6 horas |40% |
-|> 10 horas |60% |
-|> 14 horas |80% |
-|> 18 horas |80% |
+| Tipo	                    | Descripción	   |
+|---------------------------|----------------|
+| Periodo de Tiempo de Nivel de Servicio | Porcentaje de Crédito |
+| ≤ 2 horas                 | Ninguna           |
+| > 2 horas                 | 20%            |
+| > 6 horas                 | 40%            |
+| > 10 horas                | 60%            |
+| > 14 horas                | 80%            |
+| > 18 horas                | 80%            |
 {: caption="Tabla 7. Crédito basada en el cargo mensual del servicio que se ve afectado por la actualización o sustitución de hardware" caption-side="top"}
 
 ### Reclamaciones

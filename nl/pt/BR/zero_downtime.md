@@ -21,7 +21,7 @@ lastupdated: "2018-11-28"
 {: #zero-downtime}
 
 Sua estratégia global é importante. É possível selecionar um data center ou uma localização específica para implementar
-seus dados na parte certa do mundo para os seus clientes.
+seus dados na parte certa do mundo para os seus clientes. 
 {:shortdesc}
 
 Os serviços de plataforma {{site.data.keyword.Bluemix}} são autogerenciados. Isso significa que as
@@ -102,14 +102,13 @@ Ibmcloud api https://api.eu-gb.bluemix.net
 Um prefixo exclusivo é designado para cada localização. O {{site.data.keyword.cloud_notm}} fornece as
 localizações e os prefixos de localização a seguir.
 
-| **Localização** | **Endpoint da API** |
-|-----------------|-------------------|
-| Dallas | api.ng.bluemix.net |
-| Sydney | api.au-syd.bluemix.net |
-| Frankfurt | api.eu-de.bluemix.net |
-| Londres | api.eu-gb.bluemix.net |
+| **Localização**  | **Endpoint da API**        |
+|---------------|-------------------------|
+| Dallas        | api.ng.bluemix.net      |
+| Sydney        | api.au-syd.bluemix.net  |
+| Frankfurt     | api.eu-de.bluemix.net   |
+| Londres        | api.eu-gb.bluemix.net   |
 | Washington DC | api.us-east.bluemix.net |
-| Tóquio | api.jp-tok.bluemix.net |
 {: caption="Tabela 1. {{site.data.keyword.cloud_notm}}  lista de locais" caption-side="top"}
 
 Ao implementar os recursos de infraestrutura, você tem mais opções sobre onde seus dados estão localizados. É
@@ -133,72 +132,72 @@ implementar os recursos da infraestrutura, é possível selecionar em uma lista 
 ### América do Norte
 {: #na}
 
-| Nome do datacenter | Código |
-|----------|---------|
-|Dallas 01|dal01|
-|Dallas 05|dal05|
-|Dallas 06|dal06|
-|Dallas 07|dal07|
-|Dallas 09|dal09|
-|Dallas 10|dal10|
-|Dallas 12|dal12|
-|Dallas 13|dal13|
-|Washington DC 01|wdc01|
-|Washington DC 04|wdc04|
-|Washington DC 06|wdc06|
-|Washington DC 07|wdc07|
-|San Jose 01|sjc01|
-|San Jose 03|sjc03|
-|San Jose 04|sjc04|
-|Seattle 01|sea01|
-|Houston 01|hou01|
-|Montreal 01|mon01|
-|Toronto 01|tor01|
-|México 01|mex01|
+| Nome do datacenter | Código  |
+|------------------|-------|
+| Dallas 01        | dal01 |
+| Dallas 05        | dal05 |
+| Dallas 06        | dal06 |
+| Dallas 07        | dal07 |
+| Dallas 09        | dal09 |
+| Dallas 10        | dal10 |
+| Dallas 12        | dal12 |
+| Dallas 13        | dal13 |
+| Washington DC 01 | wdc01 |
+| Washington DC 04 | wdc04 |
+| Washington DC 06 | wdc06 |
+| Washington DC 07 | wdc07 |
+| San Jose 01      | sjc01 |
+| San Jose 03      | sjc03 |
+| San Jose 04      | sjc04 |
+| Seattle 01       | sea01 |
+| Houston 01       | hou01 |
+| Montreal 01      | mon01 |
+| Toronto 01       | tor01 |
+| México 01        | mex01 |
 {: caption="Tabela 2. Data centers na América do Norte" caption-side="top"}
 
 ### América do Sul
 {: #sa}
 
-| Nome do datacenter | Código |
-|----------|---------|
-|São Paulo 01|sao01|
+| Nome do datacenter | Código    |
+|------------------|---------|
+| São Paulo 01     | sao01   |
 {: caption="Tabela 3. Data centers na América do Sul" caption-side="top"}
 
 ### Europa
 {: #eu}
 
-| Nome do datacenter | Código |
-|----------|---------|
-|Londres 02|lon02|
-|Londres 04|lon04|
-|Londres 05|lon05|
-|Londres 06|lon06|
-|Frankfurt 02|fra02|
-|Frankfurt 04|fra04|
-|Frankfurt 05|fra05|
-|Milão 01|mil01|
-|Amsterdã 01|ams01|
-|Amsterdã 03|ams03|
-|Paris 01|par01|
-|Oslo 01|osl01|
+| Nome do datacenter | Código  |
+|------------------|-------|
+| Londres 02        | lon02 |
+| Londres 04        | lon04 |
+| Londres 05        | lon05 |
+| Londres 06        | lon06 |
+| Frankfurt 02     | fra02 |
+| Frankfurt 04     | fra04 |
+| Frankfurt 05     | fra05 |
+| Milão 01         | mil01 |
+| Amsterdã 01     | ams01 |
+| Amsterdã 03     | ams03 |
+| Paris 01         | par01 |
+| Oslo 01          | osl01 |
 {: caption="Tabela 4. Data centers na Europa" caption-side="top"}
 
 ### Ásia-Pacífico
 {: #ap}
 
-| Nome do datacenter | Código |
-|----------|---------|
-|Tóquio 01|tok02|
-|Tóquio 04|tok04|
-|Tóquio 05|tok05|
-|Seul 01|seo01|
-|Hong Kong 02|hkg02|
-|Cingapura 01|sng01|
-|Sydney 01|syd01|
-|Sydney 04|syd04|
-|Sydney 05|syd05|
-|Melbourne 01|mel01|
+| Nome do datacenter | Código  |
+|------------------|-------|
+| Tóquio 01         | tok02 | 
+| Tóquio 04         | tok04 |
+| Tóquio 05         | tok05 |
+| Seul 01         | seo01 |
+| Hong Kong 02     | hkg02 |
+| Cingapura 01     | sng01 |
+| Sydney 01        | syd01 |
+| Sydney 04        | syd04 |
+| Sydney 05        | syd05 |
+| Melbourne 01     | mel01 |
 {: caption="Tabela 5. Data centers na Ásia-Pacífico" caption-side="top"}
 
 
@@ -230,11 +229,11 @@ O {{site.data.keyword.Bluemix_notm}} fornece um SLA de disponibilidade de 99,95%
 - Serviços de nuvem no ambiente público que são configurados para alta disponibilidade, conforme descrito nos detalhes do catálogo para cada serviço. 
 - Serviços de nuvem em vários ambientes dedicados ou locais em data centers separados geograficamente. 
 
-|Tipo	|Descrição	|Detalhes do suporte|
-|-----|-------------|---------------|
-|Ambientes públicos de alta disponibilidade ou múltiplos ambientes dedicados/locais |Outros ambientes |Crédito |
-|<99,95% |<99,5% |10% |
-|<99,90% |<99,0% |25% |
+| Tipo	                                                                        | Descrição	       | Detalhes do suporte|
+|-------------------------------------------------------------------------------|--------------------|----------------|
+| Ambientes públicos de alta disponibilidade ou múltiplos ambientes dedicados/locais | Outros ambientes | Crédito         |
+| <99,95%                                                                       |<99,5%              |10%             |
+| <99,90%                                                                       |<99,0%              |25%             |
 {: caption="Tabela 6. Nível de serviço de disponibilidade mensal" caption-side="top"}
 
 A porcentagem de disponibilidade é calculada como o número total de minutos em um mês contratado menos o número total de
@@ -253,7 +252,7 @@ inatividade, você tem 99,19% de disponibilidade. Como 99,19% é menor que 99,90
 Os SLAs não incluem tempo de inatividade ou falhas relacionadas às exclusões especificadas, à indisponibilidade da IU do
 {{site.data.keyword.Bluemix_notm}}, ao tempo para recarregar, configurar, ativar ou acessar o conteúdo.
 
-O SLA de tempo de inatividade de disponibilidade não inclui os serviços de infraestrutura do {{site.data.keyword.Bluemix_notm}}.
+O SLA de tempo de inatividade de disponibilidade não inclui os serviços de infraestrutura do {{site.data.keyword.Bluemix_notm}}. 
 {: note}
 
 ### SLAs de serviços de infraestrutura
@@ -286,15 +285,15 @@ operacional ou os aplicativos ou o desempenho de tempo pode ser comprometido. Vo
 no encargo mensal para o serviço que é afetado pela substituição ou upgrade de hardware se o
 {{site.data.keyword.Bluemix_notm}} falhar em atender a um período de tempo de nível de serviço especificado.
 
-|Tipo	|Descrição	|
-|-----|-------------|
-|Período de tempo de nível de serviço |Percentual de crédito |
-|≤ 2 horas |Nenhuma |
-|> 2 horas |20% |
-|> 6 horas |40% |
-|> 10 horas |60% |
-|> 14 horas |80% |
-|> 18 horas |80% |
+| Tipo	                    | Descrição	   |
+|---------------------------|----------------|
+| Período de tempo de nível de serviço | Percentual de crédito |
+| ≤ 2 horas                 | Nenhuma           |
+| > 2 horas                 | 20%            |
+| > 6 horas                 | 40%            |
+| > 10 horas                | 60%            |
+| > 14 horas                | 80%            |
+| > 18 horas                | 80%            |
 {: caption="Tabela 7. Crédito com base no encargo mensal para o serviço que é afetado pela substituição ou upgrade de hardware" caption-side="top"}
 
 ### Solicitações

@@ -814,7 +814,7 @@ Sección de un paquete de software que define una acción específica que se deb
 ### iniciador
 {: #x7470511}
 
-Plantilla que incluye servicios predefinidos y código de aplicación configurado con un determinado paquete de compilación.Un iniciador puede ser código de aplicación que se escribe en un lenguaje de programación específico, o una combinación de código de aplicación y conjunto de servicios. Véase también [tiempo de ejecución](#x2391929).
+Plantilla que incluye servicios predefinidos y código de aplicación configurado con un determinado paquete de compilación. Un iniciador puede ser código de aplicación que se escribe en un lenguaje de programación específico, o una combinación de código de aplicación y conjunto de servicios. Véase también [tiempo de ejecución](#x2391929).
 
 ### subdominio
 {: #x2040080}

@@ -4,8 +4,8 @@
 
 copyright:
 
-  years: 2015, 2018
-lastupdated: "2018-10-04"
+  years: 2015, 2019
+lastupdated: "2019-01-14"
 
 
 ---
@@ -24,7 +24,7 @@ lastupdated: "2018-10-04"
 귀하의 IBM Cloud 계정과 IBM Cloud에서 주문된 서비스는 다음 조건에 의거해서 제공됩니다.
 
   * 다음과 같이 귀하에게 적용되는 기본 계약 Cloud 조건들:
-    * 미화 달러(US Dollar) 신용 카드 청구에 관한 SoftLayer 클라우드 서비스 계약([http://www.softlayer.com/legal](http://www.softlayer.com/legal){: new_window} ![외부 링크 아이콘](../../icons/launch-glyph.svg) 참조)
+    * 미화 달러 신용 카드 청구에 관한 SoftLayer 클라우드 서비스 계약([https://www.ibm.com/support/customer/zz/en/softlayer.html](https://www.ibm.com/support/customer/zz/en/softlayer.html){: new_window} ![외부 링크 아이콘](../../icons/launch-glyph.svg) 참조)
     * 미화 달러 외(non-US Dollar) 신용 카드 청구, 또는 귀하가 IBM 발행 청구서를 선택한 경우에 관한 IBM 클라우드 서비스 계약(현지 국가 버전*)([https://www.ibm.com/terms](https://www.ibm.com/terms){: new_window} ![외부 링크 아이콘](../../icons/launch-glyph.svg) 참조)(귀하의 국가 선택),
     * 귀하가 동의한 IBM Passport Advantage 계약 및 IBM Passport Advantage 고객을 위한 클라우드 오퍼링 이용 약관(TOU)의 일반 조건들([http://www-03.ibm.com/software/sla/sladb.nsf/sla/tou](http://www-03.ibm.com/software/sla/sladb.nsf/sla/tou){: new_window} ![외부 링크 아이콘](../../icons/launch-glyph.svg) 참조) 또는
     * 귀하와 IBM 간의 동등한 클라우드 서비스 기본 계약 조항,
@@ -54,12 +54,12 @@ IBM 온라인 개인정보처리방침은 [https://www.ibm.com/privacy/details/k
 ### 2. 고객이 제공하는 IP 주소
 {: #client_provided_ips}
 
-고객은 특정 기술 제한사항과 소유권 확인을 조건으로, RIR(Regional Internet Registry)이 발행한 고유 IP 주소를 제공할 수 있으나 지원 티켓을 제출하고 고객 소유의 IP prefixes를 지정하는 승인서(Letter of Authority)를 제출하여야 합니다. IBM에 의해 요청이 승인되면 해당 IP 주소들은 BGP(Border Gateway Protocol)를 통해 announce되고 확인된 고객의 서버들로 라우팅됩니다. 해당 IP 주소들의 소유권은 고객이 보유합니다. 고객 요청 시, 또는 서비스가 취소되면 해당 IP 주소의 announce와 라우팅은 중지됩니다. IBM은 모든 업스트림 ISP에서 BGP prefixes를 승인하도록 합리적인 노력을 기울일 것이나 고객 소유 IP가 전세계적으로 채택될 가능성(global reachability)을 보장할 수 없습니다. 
+고객은 특정 기술 제한사항과 소유권 확인을 조건으로, RIR(Regional Internet Registry)이 발행한 고유 IP 주소를 제공할 수 있으나 지원 케이스를 제출하고 고객 소유의 IP prefixes를 지정하는 승인서(Letter of Authority)를 제출하여야 합니다. IBM에 의해 요청이 승인되면 해당 IP 주소들은 BGP(Border Gateway Protocol)를 통해 announce되고 확인된 고객의 서버들로 라우팅됩니다. 해당 IP 주소들의 소유권은 고객이 보유합니다. 고객 요청 시, 또는 서비스가 취소되면 해당 IP 주소의 announce와 라우팅은 중지됩니다. IBM은 모든 업스트림 ISP에서 BGP prefixes를 승인하도록 합리적인 노력을 기울일 것이나 고객 소유 IP가 전세계적으로 채택될 가능성(global reachability)을 보장할 수 없습니다. 
 
 ### 3. 검토/정당성/효율성 가이드라인
 {: #review_justification_efficiency}
 
-IPv4 주소는 희소성이 있는 자원이므로, RIR은 ISP로 하여금 기존에 지정된 주소를 효율적으로 활용하고, 나아가 요청할 주소의 효율적인 이용 계획을 문서화하도록 요구합니다. RIR 정책과 RFC2050을 통해 IP space를 보전하고 낭비적인 사용이나 선점(stockpiling)을 방지합니다. 추가 IP 주소의 지정을 요청하는 경우 IBM은 이들 정책을 준수해야 합니다. 이에 따라, 고객은 IBM 요청 시 본 클라우드 서비스를 지원하기 위해 RIR이 제공하는 IP 주소를 얻는 데 필요한 정보를 IBM에게 제공합니다. 
+IPv4 주소는 희소성이 있는 리소스이므로, RIR은 ISP로 하여금 기존에 지정된 주소를 효율적으로 활용하고, 나아가 요청할 주소의 효율적인 이용 계획을 문서화하도록 요구합니다. RIR 정책과 RFC2050을 통해 IP space를 보전하고 낭비적인 사용이나 선점(stockpiling)을 방지합니다. 추가 IP 주소의 지정을 요청하는 경우 IBM은 이들 정책을 준수해야 합니다. 이에 따라, 고객은 IBM 요청 시 본 클라우드 서비스를 지원하기 위해 RIR이 제공하는 IP 주소를 얻는 데 필요한 정보를 IBM에게 제공합니다. 
 
 고객이 IP 주소를 요청하면 이는 efficient utilization 보장을 위한 IBM 검토 대상이며, IBM의 승인이 보장되지 않습니다. 고객은 검토 과정에서 각 IP 주소의 활용 방안 및 추가 IP 주소가 필요한 이유의 기술적 정당성에 대한 상세사항을 제공해야 합니다. IBM은 네트워크 스캐닝, 서버 구성 검사를 비롯하여 관련 정보를 검증하기 위한 조치를 수행할 수 있습니다. 
 

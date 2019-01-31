@@ -4,8 +4,8 @@
 
 copyright:
 
-  years: 2015, 2018
-lastupdated: "2018-10-04"
+  years: 2015, 2019
+lastupdated: "2019-01-14"
 
 
 ---
@@ -18,13 +18,13 @@ lastupdated: "2018-10-04"
 # Términos y avisos de {{site.data.keyword.Bluemix_notm}}
 {: #terms}
 
-## {{site.data.keyword.Bluemix_notm}} Condiciones
+## Términos de {{site.data.keyword.Bluemix_notm}}
 {: #terms_details}
 
 Su cuenta de IBM Cloud y todos los servicios solicitados para IBM Cloud se proporcionan bajo los términos de:
 
   * Base Agreement Cloud Terms aplicables en su caso, tal como se indica a continuación:
-    * SoftLayer Cloud Service Agreement para la facturación por tarjeta de crédito en dólares norteamericanos, disponible en [http://www.softlayer.com/legal](http://www.softlayer.com/legal){: new_window} ![Icono de enlace externo](../../icons/launch-glyph.svg)
+    * SoftLayer Cloud Service Agreement para la facturación por tarjeta de crédito en dólares americanos, disponible en [https://www.ibm.com/support/customer/zz/en/softlayer.html](https://www.ibm.com/support/customer/zz/en/softlayer.html){: new_window} ![Icono de enlace externo](../../icons/launch-glyph.svg)
     * IBM Cloud Services Agreement (versión en el idioma local*) para la facturación por tarjeta de crédito en dólares norteamericanos, o si selecciona facturar desde IBM, disponible en [https://www.ibm.com/terms](https://www.ibm.com/terms){: new_window} ![Icono de enlace externo](../../icons/launch-glyph.svg) (seleccione su país);
     * IBM Passport Advantage Agreement que aceptó y los General Terms for Cloud Offerings TOU for IBM Passport Advantage Clients, disponibles en [http://www-03.ibm.com/software/sla/sladb.nsf/sla/tou](http://www-03.ibm.com/software/sla/sladb.nsf/sla/tou){: new_window} ![Icono de enlace externo](../../icons/launch-glyph.svg); o
     * Términos de un acuerdo base de servicio en la nube equivalente entre el usuario e IBM;
@@ -36,7 +36,7 @@ Su cuenta de IBM Cloud y todos los servicios solicitados para IBM Cloud se propo
 ### Licencia de la imagen de IBM WebSphere Application Server Liberty Profile
 {: #license_liberty_image}
 
-Dockerfile y los scripts asociados se licencian bajo la Apache License 2.0. IBM JRE e IBM WebSphere Application Server for Developers se licencian bajo el IBM International License Agreement para programas sin garantía. Puede ver estas licencias en la imagen utilizando la variable de entorno LICENSE=view tal como se ha descrito anteriormente o puede verlas en línea para IBM JRE e IBM WebSphere Application Server for Developers. Esta licencia no permite una distribución adicional.
+Dockerfile y los scripts asociados se licencian bajo la Apache License 2.0. IBM JRE e IBM WebSphere® Application Server for Developers se licencian bajo el IBM International License Agreement para programas sin garantía. Puede ver estas licencias en la imagen utilizando la variable de entorno LICENSE=view tal como se ha descrito anteriormente o puede verlas en línea para IBM JRE e IBM WebSphere Application Server for Developers. Esta licencia no permite una distribución adicional.
 
 ## Política de privacidad de {{site.data.keyword.Bluemix_notm}}
 {: #privacy_policy}
@@ -54,7 +54,7 @@ International Business Machines Corporation o sus subsidiarias (IBM) poseen cual
 ### 2. Direcciones IP proporcionadas por el cliente
 {: #client_provided_ips}
 
-Los clientes pueden proporcionar sus propias direcciones IP emitidas por el Registro Regional de Internet (RIR), y estarán sujetas a ciertas limitaciones técnicas y verificación de propiedad, mediante el envío de una incidencia de soporte y proporcionando una carta de autorización para especificar los prefijos de IP propiedad del cliente. Si IBM aprueba una solicitud dichas direcciones IP se anunciarán a través del protocolo BGP (Border Gateway Protocol) en nombre del cliente y se direccionarán a los servidores cliente identificados. El cliente conservará la propiedad de dichas direcciones IP. A solicitud del cliente, o tras la cancelación de los servicios, IBM dejará de anunciar y redireccionar dichas direcciones IP. IBM realiza esfuerzos razonables para garantizar que los prefijos BGP sean aceptados por todos los ISP en sentido ascendente, sin embargo no podemos garantizar la accesibilidad global de las IP propiedad del cliente. 
+Los clientes pueden proporcionar sus propias direcciones IP emitidas por el Registro Regional de Internet (RIR), y estarán sujetas a ciertas limitaciones técnicas y verificación de propiedad, mediante el envío de un caso de soporte y proporcionando una carta de autorización para especificar los prefijos de IP propiedad del cliente. Si IBM aprueba una solicitud dichas direcciones IP se anunciarán a través del protocolo BGP (Border Gateway Protocol) en nombre del cliente y se direccionarán a los servidores cliente identificados. El cliente conservará la propiedad de dichas direcciones IP. A solicitud del cliente, o tras la cancelación de los servicios, IBM dejará de anunciar y redireccionar dichas direcciones IP. IBM realiza esfuerzos razonables para garantizar que los prefijos BGP sean aceptados por todos los ISP en sentido ascendente, sin embargo no podemos garantizar la accesibilidad global de las IP propiedad del cliente. 
 
 ### 3. Revisión / Justificación / Directrices de eficiencia
 {: #review_justification_efficiency}
@@ -147,7 +147,7 @@ Node.js es una marca registrada de Joyent, Inc. y se utiliza con su permiso. Joy
 
 UNIX es una marca registrada de The Open Group en Estados Unidos y en otros países.
 
-Javay todas las marcas registradas y los logotipos basados en Java son marcas registradas de Oracle o de sus filiales.
+Java™ y todas las marcas registradas y los logotipos basados en Java son marcas registradas de Oracle o de sus filiales.
 
 Salesforce es una marca registrada de Salesforce.com, Inc.
 

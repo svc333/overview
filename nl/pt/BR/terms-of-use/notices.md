@@ -4,8 +4,8 @@
 
 copyright:
 
-  years: 2015, 2018
-lastupdated: "2018-10-04"
+  years: 2015, 2019
+lastupdated: "2019-01-14"
 
 
 ---
@@ -24,14 +24,17 @@ lastupdated: "2018-10-04"
 Sua Conta do IBM Cloud e quaisquer serviços pedidos do IBM Cloud são fornecidos sob o termo de:
 
   * Termos de nuvem do acordo base aplicáveis a você, como a seguir:
-    * Contrato de prestação de serviços de nuvem do SoftLayer para faturamento por cartão de crédito em dólar americano, disponível em [http://www.softlayer.com/legal](http://www.softlayer.com/legal){: new_window} ![Ícone de link externo](../../icons/launch-glyph.svg)
+    * Contrato de Prestação de Serviços de nuvem da SoftLayer para faturamento de cartão de crédito em dólar americano disponível
+em
+[https://www.ibm.com/support/customer/zz/en/softlayer.html](https://www.ibm.com/support/customer/zz/en/softlayer.html){: new_window}
+![Ícone de link externo](../../icons/launch-glyph.svg)
     * Contrato de prestação de serviços do IBM Cloud (local país versão*) para faturamento por cartão de crédito que não seja em dólar americano ou se você selecionar o faturamento por meio da IBM, disponível em [https://www.ibm.com/terms](https://www.ibm.com/terms){: new_window} ![Ícone de link externo](../../icons/launch-glyph.svg) (selecione seu país);
     * O Contrato do IBM Passport Advantage que você aceitou e os Termos gerais para o TOU de ofertas de nuvem para clientes do IBM Passport Advantage, disponível em [http://www-03.ibm.com/software/sla/sladb.nsf/sla/tou](http://www-03.ibm.com/software/sla/sladb.nsf/sla/tou){: new_window} ![Ícone de link externo](../../icons/launch-glyph.svg); ou
     * termos do acordo base de serviço de nuvem equivalentes entre você e a IBM;
   * Descrição do serviço para o IBM Cloud disponível em [http://www-03.ibm.com/software/sla/sladb.nsf/sla/bm](http://www-03.ibm.com/software/sla/sladb.nsf/sla/bm){: new_window} ![Ícone de link externo](../../icons/launch-glyph.svg);
   * SDs adicionais aplicáveis para qualquer serviço pedido usando sua Conta do IBM Cloud disponível em [http://www-03.ibm.com/software/sla/sladb.nsf/sla/bm](http://www-03.ibm.com/software/sla/sladb.nsf/sla/bm){: new_window} ![Ícone de link externo](../../icons/launch-glyph.svg); e
   * Planilhas de dados aplicáveis conforme referenciadas em SDs adicionais aplicáveis ou do link "Termos" para um serviço na UI do IBM Cloud disponível em [http://www-03.ibm.com/software/sla/sladb.nsf/sla/csdsp](http://www-03.ibm.com/software/sla/sladb.nsf/sla/csdsp){: new_window} ![Ícone de link externo](../../icons/launch-glyph.svg).
-  * Uma Capacidade reservada é para um prazo fixo, conforme estabelecido em um Pedido, e não pode ser finalizada pelo Cliente antes do término desse prazo. Uma Capacidade reservada pode ser elegível para renovação na conclusão de um prazo por concordância mútua entre o Cliente e a SoftLayer. As Capacidades reservadas que não forem renovadas nem finalizadas antes do término de seus prazos serão convertidas em Serviços de nuvem mensais sujeitos aos termos do Contrato de Prestação de Serviços de Nuvem e da Descrição do Serviço em vigor no momento e aos preços de varejo atuais.
+  * Uma Capacidade reservada é para um prazo fixo, conforme estabelecido em um Pedido, e não pode ser finalizada pelo Cliente antes do término desse prazo. Uma Capacidade reservada pode ser elegível para renovação na conclusão de um prazo por concordância mútua entre o Cliente e a SoftLayer. As Capacidades reservadas que não forem renovadas nem finalizadas antes do término de seus prazos serão convertidas em Serviços de nuvem mensais sujeitos aos termos do Contrato de Prestação de Serviços de Nuvem e da Descrição do Serviço em vigor no momento e à precificação de varejo atual.
 
 ### Licença para a imagem do perfil Liberty do IBM WebSphere Application Server
 {: #license_liberty_image}
@@ -56,9 +59,9 @@ serviço, tempo no qual os endereços IP serão recuperados e podem ser reemitid
 ### 2. Endereços IP fornecidos pelo Cliente
 {: #client_provided_ips}
 
-Os clientes podem fornecer seus próprios endereços IP emitidos pelo Regional Internet Registry (RIR), sujeitos a algumas limitações
-técnicas e verificação de propriedade, enviando um chamado de suporte e fornecendo uma carta de autoridade para especificar prefixos
-IP de propriedade do Cliente. Se a IBM aprovar uma solicitação, esses endereços IP serão anunciados via Border Gateway Protocol
+Os clientes podem fornecer seus próprios endereços IP emitidos pelo Registro Regional da Internet (RIR), sujeitos a
+determinadas limitações técnicas e verificação de propriedade, enviando um caso de suporte e fornecendo uma Carta de
+Autoridade para especificar os prefixos IP de propriedade do cliente. Se a IBM aprovar uma solicitação, esses endereços IP serão anunciados via Border Gateway Protocol
 (BGP) em nome do Cliente e roteados para os servidores identificados do Cliente. O Cliente retém a propriedade desses endereços IP. Mediante a solicitação do Cliente ou após o cancelamento dos serviços, a IBM parará de anunciar e rotear esses endereços IP. A IBM
 fará esforços razoáveis para garantir que os prefixos BGP sejam aceitos por todos os ISPs de envio de dados, porém não
 podemos garantir alcance global para IPs de propriedade do Cliente. 

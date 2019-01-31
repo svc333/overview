@@ -2,9 +2,9 @@
 
 copyright:
 
-  years: 2015, 2018
+  years: 2015, 2019
 
-lastupdated: "2018-12-20"
+lastupdated: "2019-01-22"
 
 ---
 
@@ -51,7 +51,7 @@ lastupdated: "2018-12-20"
 最新情報: 2018 年 11 月 30 日
 {: #dash}
 
-最新の更新により、すべてのプラットフォームおよびインフラストラクチャーのサービスを 1 つの場所から表示できるようになりました。ログインすると、新しいダッシュボードをすぐに確認できます。 カタログからアカウントにリソースを追加すると、リソース・リストを使用してアカウント・リソースの全体を表示できます。 :
+最新の更新により、すべてのプラットフォームおよびインフラストラクチャーのサービスを 1 つの場所から表示できるようになりました。 ログインすると、新しいダッシュボードをすぐに確認できます。 カタログからアカウントにリソースを追加すると、リソース・リストを使用してアカウント・リソースの全体を表示できます。 :
 
 * ダッシュボードが再設計され、リソース、保守、状況、アプリケーション、サポート、使用状況、およびユーザーの要約を表示できるようになりました。
 * リソース・リストでリソースのより詳細な情報を確認できるようになりました。 リソースにタグを付けて編成したり、リソースを選択して詳細ページで変更を加えたりすることができます。
@@ -64,7 +64,7 @@ lastupdated: "2018-12-20"
 最新情報: 2018 年 11 月 30 日
 {: #profile}
 
-アカウント、請求、およびプロファイルの情報が簡素化されました。統合されたコンソールで、すべてのプラットフォームおよびインフラストラクチャーのリソースのアカウント情報を表示できます。 
+アカウント、請求、およびプロファイルの情報が簡素化されました。 統合されたコンソールで、すべてのプラットフォームおよびインフラストラクチャーのリソースのアカウント情報を表示できます。 
 
 * プロファイルと設定の領域には、お客様に関する情報と、すべてのリソース・タイプの E メール通知設定が含まれています。 
 * アカウント情報領域には、会社または組織に関する情報、アカウント設定、およびリソース・グループや Cloud Foundry 組織と連携するためのクイック・アクセスが含まれています。 素早く稼働するのに役立つベスト・プラクティスを見つけることもできます。
@@ -139,7 +139,7 @@ lastupdated: "2018-12-20"
 ### {{site.data.keyword.Bluemix_notm}} CLI リブランディング
 最新情報: 2018 年 5 月 15 日
 
-{{site.data.keyword.Bluemix_notm}} CLI コマンドは `bluemix` および `bx` から **ibmcloud** に変更されました。 ただし、後に削除されるまで、`bluemix` および `bx` の CLI コマンドを引き続き使用できます。現在、短縮名はなく、フルネーム **ibmcloud** のみです。 
+{{site.data.keyword.Bluemix_notm}} CLI コマンドは `bluemix` および `bx` から **ibmcloud** に変更されました。 ただし、後に削除されるまで、`bluemix` および `bx` の CLI コマンドを引き続き使用できます。 現在、短縮名はなく、フルネーム **ibmcloud** のみです。 
 
 ### {{site.data.keyword.Bluemix_notm}} アカウントでの多要素認証
 最新情報: 2018 年 5 月 2 日
@@ -363,6 +363,27 @@ Identity and Access Management (IAM) では、サービス ID を作成する機
 ## コンピュート
 {: #compute_category}
 
+### IBM Cloud SAP 認定インフラストラクチャーのフィーチャー
+最新情報: 2019 年 1 月 22 日
+
+SAP HANA と SAP NetWeaver の両方に対する {{site.data.keyword.cloud_notm}} SAP 認定インフラストラクチャー・オファリングにより、新規フィーチャーが使用可能になりました。
+
+#### マルチノード・ストレージ
+SAP Business Warehouse (SAP BW) や SAP BW/4HANA などのオンライン分析処理 (OLAP) ワークロードのための SAP HANA マルチノード・ストレージ。SAP HANA マルチノードの {{site.data.keyword.cloud_notm}} ソリューションは、最大で 15 + 1 個のノード (15 個のワーカー・ノードのほかに 1 個のスタンバイ) で構成され、1 つのシステムで使用されるメモリーは最大で 30 TB です。最初に、[SAP HANA マルチノードをサポートする {{site.data.keyword.cloud_notm}} インフラストラクチャーの構成](/docs/infrastructure/sap-hana/hana-multi-node.html#multi-node-storage)を参照してください。
+
+
+#### 高可用性 
+高可用性 (HA) ソリューションは、SAP HANA と SAP NetWeaver の両方でサポートされます。このソリューションは、サポートされている OS バージョンに基づいており、デプロイメントに伴う注文された OS ライセンス、または独自ライセンスの使用 (BYOL) などのサード・パーティー・ライセンスに制限されています。最初に、SAP HANA については [ここ](/docs/infrastructure/sap-hana/hana-ha.html#ha) を、SAP NetWeaver については [ここ](/docs/infrastructure/sap-netweaver/sap-ha.html#ha) をクリックしてください。
+  
+#### SAP コンテンツ・サーバー
+SAP コンテンツ・サーバーは、あらゆる形式のあらゆるコンテンツを含む大量の電子文書を保存するためのスタンドアロン・コンポーネントです。SAP コンテンツ・サーバーを使用するには、SAP アプリケーションがその使用をサポートしている必要があります。最初に、[SAP コンテンツ・サーバー](/docs/infrastructure/sap-netweaver/sap-content-server.html#content-server)を参照してください。
+
+#### SAP MaxDB
+SAP MaxDB は SAP NetWeaver で使用できます。最初に、[{{site.data.keyword.cloud_notm}} SAP 認定インフラストラクチャーについて](/docs/infrastructure/sap-netweaver/sap-about.html#about_ibmcloud_for_sap)を参照してください。
+
+#### SAP Business One
+SAP Business One は、中小企業向けに特に設計された Enterprise Resource Planning (ERP) ソフトウェアです。会計と財務、購買と在庫、販売と顧客の関係、プロジェクト管理とオペレーションのコアビジネス機能を 1 つのアプリケーションに統合します。詳しくは、[はじめに (Getting started)](/docs/infrastructure/sap-b1/b1-index.html#getting-started) を参照してください。
+
 ### 仮想サーバーのフィーチャー
 最新情報: 2018 年 11 月 16 日
 
@@ -437,10 +458,24 @@ Liberty ビルドパック v3.9 は、新規の月次の Liberty ランタイム
 ## サービス
 {: #services_category}
 
+### {{site.data.keyword.appid_short_notm}} で使用可能な新規フィーチャー
+最新情報: 2018 年 12 月 22 日
+
+{{site.data.keyword.appid_short_notm}} サービスは、認証とアプリのセキュリティーを強化する新しい拡張機能を導入しました。
+
+{{site.data.keyword.appid_short_notm}} は、さまざまな種類のユーザー認証をモバイルおよび Web アプリに追加するのに役立ちます。数行のコードで認証を追加して、ユーザー・ベースで拡張するためのインフラストラクチャーの管理について気にする必要がなくなります。次の機能拡張を確認して、ご自分でサービスを試してみてください。
+
+多要素認証: Cloud Directory に E メール・ベースの MFA を使用できるようになりました。MFA をオンに設定すると、ユーザーはパスワードに加えて、E メールで受け取った 1 回限りのコードを提供するように求められます。SAML 2.0 またはソーシャル・ログインでエンタープライズ・サインインを使用している場合は、そのID プロバイダーを通じて MFA を有効にできます。
+拡張パスワード・ポリシー: 拡張パスワード・ポリシー・フィーチャーを有効にすると、Cloud Directory のパスワードをより安全に適用できます。パスワードを使用する一連のルールを、ユーザーがサインインの試行を繰り返すとロックアウトされる、その試行回数や、1 つのパスワードを繰り返して使用することができない回数などに準拠する必要があるというように構成できます。
+
+拡張セキュリティー・フィーチャーには、追加の価格設定コンポーネントがあります。価格設定の計算方法の詳細については、[カタログ](https://cloud.ibm.com/catalog/services/app-id)の価格設定のセクションを参照してください。
+
+[{{site.data.keyword.appid_short_notm}} 資料](/docs/services/appid/index.html)を確認して、今日から始めてください。
+
 ### {{site.data.keyword.backup_notm}} の紹介
 最新情報: 2018 年 12 月 20 日
 
-{{site.data.keyword.BluSoftlayer_full}} ストレージ・インフラストラクチャー・チームは、永久無料の 10 GB の層を含む新しい {{site.data.keyword.backup_full}} を発表します。また、すべてのプラグインも無料になりました。その結果として、特定のアプリケーションのユース・ケース (MSSQL、Oracle DB、Exchange、または Bare Metal Restore でさえも) の実装で余分なコストが発生することはありません。新しい {{site.data.keyword.backup_notm}} は、いかなるスケールのバックアップ・ニーズも可能にする最良のソリューションです。詳しくは、[IBM Cloud ブログ ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](https://www.ibm.com/blogs/bluemix/2018/12/introducing-a-new-cloud-backup-service-ibm-cloud-backup/){: new_window} を参照してください。
+{{site.data.keyword.BluSoftlayer_full}} ストレージ・インフラストラクチャー・チームは、永久無料の 10 GB の層を含む新しい {{site.data.keyword.backup_full}} を発表します。 また、すべてのプラグインも無料になりました。 その結果として、特定のアプリケーションのユース・ケース (MSSQL、Oracle DB、Exchange、または Bare Metal Restore でさえも) の実装で余分なコストが発生することはありません。 新しい {{site.data.keyword.backup_notm}} は、いかなるスケールのバックアップ・ニーズも可能にする最良のソリューションです。 詳しくは、[IBM Cloud ブログ ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](https://www.ibm.com/blogs/bluemix/2018/12/introducing-a-new-cloud-backup-service-ibm-cloud-backup/){: new_window} を参照してください。
 
 ### Citrix NetScaler VPX バージョン 12.1
 最新情報: 2018 年 11 月 21 日
@@ -838,7 +873,7 @@ IBM {{site.data.keyword.DB2OnCloud_short}} は、dashDB for Transactions の新�
 
 {{site.data.keyword.sparks}} ユーザーは、{{site.data.keyword.cos_full_notm}} Cross Region サービスで保管されたデータにアクセスし、それに対する分析を実行できるようになりました。 この機能はベータとして提供されます。 {{site.data.keyword.cos_full_notm}} は、分析やその他のアプリケーション用に、スケーラブルかつ柔軟で、シンプルで使いやすく費用効率の高い大容量ストレージを提供します。
 
-Apache Spark は、Stocator テクノロジーに基づいたストレージ・コネクターを通じて {{site.data.keyword.cos_full_notm}} データにアクセスします。このコネクターは、暗黙的に{{site.data.keyword.objectstorageshort}}向けに設計されているため、従来型の{{site.data.keyword.objectstorageshort}}・コネクターよりも高速です。ユーザーが、Apache Spark コードを変更したり再コンパイルしたりする必要はありません。
+Apache Spark は、Stocator テクノロジーに基づいたストレージ・コネクターを通じて {{site.data.keyword.cos_full_notm}} データにアクセスします。このコネクターは、暗黙的に{{site.data.keyword.objectstorageshort}}向けに設計されているため、従来型の{{site.data.keyword.objectstorageshort}}・コネクターよりも高速です。 ユーザーが、Apache Spark コードを変更したり再コンパイルしたりする必要はありません。
 
 [Access and Analyze data in IBM Cross Region Cloud Object Storage](https://www.ibm.com/blogs/bluemix/2017/06/access-analyze-data-ibm-cross-region-cloud-object-storage/){: new_window} ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン") というブログ投稿で、{{site.data.keyword.Bluemix_notm}} および IBM Data Science Experience (DSx) 上での {{site.data.keyword.sparks}} を用いた {{site.data.keyword.cos_full_notm}} データの使用法について説明しています。
 
