@@ -466,7 +466,7 @@ The {{site.data.keyword.appid_short_notm}} service has introduced new advanced f
 {{site.data.keyword.appid_short_notm}} helps you to add different types of user authentication to their mobile and web apps. You can add authentication with a few lines of code and forget about managing infrastructure to scale with your user base.  Check out the following enhancements and then go try the service out for yourself!
 
 Multi-factor authentication: You can now use email-based MFA for Cloud Directory. With MFA set to on, users are asked to provide a one-time code that they receive via email, in addition to their password. If you're using enterprise sign in with SAML 2.0 or social login, you can enable MFA through that identity provider.
-Advanced password policies: With the advanced password policy feature enabled, you can enforce more secure passwords for Cloud Directory. You can configure a set of rules that use passwords must conform to such as the number of times a user can attempt to sign in before they are locked out or the number of times that a password can't be repeated.
+Advanced password policies: With the advanced password policy feature enabled, you can enforce more secure passwords for Cloud Directory. You can configure a set of rules for passwords that limits the number of times a user can attempt to sign in before they are locked out or the number of times that a password can be repeated.
 
 Advanced security features have an additional pricing component. For more information about how pricing is calculated, see the pricing section of [the catalog](https://cloud.ibm.com/catalog/services/app-id).
 
