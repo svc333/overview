@@ -2,9 +2,9 @@
 
 copyright:
 
-  years: 2017, 2018
+  years: 2017, 2019
 
-lastupdated: "2018-11-05"
+lastupdated: "2019-01-04"
 
 ---
 
@@ -110,7 +110,7 @@ Alcune risorse non richiedono una regione (possono essere considerate `global`).
 ## ambito
 {: #scope}
 
-Il segmento `scope` identifica il contenimento o il proprietario della risorsa. Alcune risorse non richiedono un proprietario (possono essere considerate  `global`). In questo caso, il segmento `scope` è vuoto (una stringa vuota).
+Il segmento `scope` identifica il contenimento o il proprietario della risorsa. Alcune risorse non richiedono un proprietario (possono essere considerate `global`). In questo caso, il segmento `scope` è vuoto (una stringa vuota).
 
 Il valore del segmento `scope` deve essere formattato come `{scopePrefix}`/`{id}`. `scopePrefix` rappresenta il formato utilizzato per identificare il proprietario o il contenimento. `id` rappresenta l'identità del proprietario o del contenimento in un formato specifico per `scopePrefix`.
 
@@ -128,9 +128,9 @@ Il valore del segmento `scope` deve essere formattato come `{scopePrefix}`/`{id}
 
 Il segmento `service-instance` identifica l'istanza del servizio in modo univoco. Il formato del segmento `service-instance` varia in base al servizio. Ogni servizio deve documentare il formato del proprio `service_instance` come parte dei metadati di servizio. Alcuni servizi non hanno istanze perché l'istanza è globale e, in questo caso, il campo `service-instance` sarà vuoto.
 
-Il `service-instance` deve essere alfanumerico, in minuscolo, senza spazi o caratteri speciali diversi da '-' e '/'.
+Il valore `service-instance` deve essere alfanumerico, in minuscolo, senza spazi o caratteri speciali diversi da '-' e '/'.
 
-Ad esempio, uno strumento DevOps per tracciare e pianificare gli elementi di lavoro può avere un semplice ID istanza `GUID` ("1234-5678-9012-3456") dove il componente della politica di un servizio del gruppo di scalabilità automatica può utilizzare una convenzione di denominazione gerarchica e avere un segmento `service-id` come:
+Ad esempio, uno strumento DevOps per tracciare e pianificare gli elementi di lavoro può avere un semplice ID istanza `GUID` ("1234-5678-9012-3456") dove il componente della politica di un servizio del gruppo di ridimensionamento automatico può utilizzare una convenzione di denominazione gerarchica e avere un segmento `service-id` come:
 
 >`c7a27f55-d35e-4153-b044-8ca9155fc467/my-test-asg1/my-scaleout-policy`
 
@@ -145,9 +145,9 @@ ibmcloud resource service-instance
 
 Il valore dei segmenti `resource-type` e `resource` varia in base al servizio. È richiesto un servizio per documentare i `resource types` supportati e il formato di `resource` come parte dei metadati di servizio.
 
-Ad esempio, un'immagine nel contenitore di incassi del cliente in un servizio di Archiviazione oggetti può avere un `resource-type` di  `object` e un `resource_ value` di `CustomerReceipts/clientdinner.png`.
+Ad esempio, un'immagine nel contenitore di incassi del cliente in un servizio Object Storage può avere un `resource-type` di `object` e un `resource_ value` di `CustomerReceipts/clientdinner.png`.
 
-Il `resource-type` deve essere alfanumerico, in minuscolo, senza spazi o caratteri speciali diversi da '-'. Un servizio può decidere che il `resource-type` sia facoltativo, nel qual caso verrà lasciato vuoto.
+Il valore `resource-type` deve essere alfanumerico, in minuscolo, senza spazi o caratteri speciali diversi da '-'. Un servizio può decidere che il `resource-type` sia facoltativo, nel qual caso verrà lasciato vuoto.
 
 
 ## Esempi di CRN

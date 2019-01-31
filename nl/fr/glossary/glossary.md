@@ -2,8 +2,8 @@
 
 
 copyright:
-  years: 2016, 2018
-lastupdated: "2018-11-15"
+  years: 2016, 2019
+lastupdated: "2019-01-02"
 
 
 ---
@@ -11,7 +11,7 @@ lastupdated: "2018-11-15"
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
 
-# Termes du glossaire de {{site.data.keyword.cloud_notm}} 
+# Termes du glossaire d'{{site.data.keyword.cloud_notm}} 
 {: #glossary}
 
 Ce glossaire comporte des termes et des définitions pour {{site.data.keyword.cloud_notm}}.
@@ -691,10 +691,6 @@ Alerte signalant une modification ou une mise à jour au niveau d'une icône d'a
 ## O
 {: #glosso}
 
-### organisation
-{: #x7470494}
-
-Voir [organisation](#x2032585).
 
 ### organisation
 {: #x2032585}
@@ -770,7 +766,7 @@ Territoire géographique défini. Une région peut être une zone avec un code p
 ### registre
 {: #x2064940}
 
-Référentiel public ou privé contenant des images utilisées pour créer des conteneurs. Voir aussi [conteneur](#x2010901),
+Stockage d'image de conteneur public ou privé et service de distribution. Voir aussi [conteneur](#x2010901),
 [image](#x2024928).
 
 ### règle
@@ -784,7 +780,6 @@ déclencheur en entrée.
 {: #x3220976}
 
 Style architectural de logiciel pour les systèmes hypermédia répartis, comme le World Wide Web. Ce terme fait également référence à une interface simple qui utilise XML (ou YAML, JSON, texte en clair) sur HTTP sans couche de messagerie supplémentaire, telle que SOAP.
-
 
 ### réseau privé virtuel (VPN)
 {: #x2043188}
@@ -973,7 +968,7 @@ S'applique à un élément qui n'existe pas physiquement mais qui est simulé pa
 
 Voir [machine virtuelle](#x2043165).
 
-### Réseau privé virtuel
+### VPN
 {: #x2484351}
 
 Voir [réseau privé virtuel](#x2043188).

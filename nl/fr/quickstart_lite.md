@@ -18,7 +18,7 @@ lastupdated: "2018-11-14"
 # Découvrez {{site.data.keyword.Bluemix_notm}} gratuitement
 {: #quickstart_lite}
 
-Vous souhaitez découvrir {{site.data.keyword.Bluemix}} ? Un compte Lite constitue la solution idéale pour découvrir l'utilisation du cloud, de Watson, etc. Il est également parfaitement adapté pour la génération de démonstrations de faisabilité avec les nombreux composants disponibles dans {{site.data.keyword.Bluemix_notm}}. Ce guide de démarrage rapide vous permet d'être opérationnel pour utiliser notre compte Lite.  
+Vous souhaitez découvrir {{site.data.keyword.Bluemix}} ? Un compte Lite constitue la solution idéale pour découvrir notamment l'utilisation du cloud et de Watson. Il est également parfaitement adapté pour la génération de démonstrations de faisabilité avec les nombreux composants disponibles dans {{site.data.keyword.Bluemix_notm}}. Ce guide de démarrage rapide vous permet d'être opérationnel pour utiliser notre compte Lite.  
 {:shortdesc}  
 
 ## Avant de commencer

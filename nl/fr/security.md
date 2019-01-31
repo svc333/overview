@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017, 2018
-lastupdated: "2018-11-30"
+  years: 2017, 2019
+lastupdated: "2019-01-07"
 
 ---
 
@@ -81,7 +81,7 @@ Le tableau ci-dessous indique quels sont les services dans {{site.data.keyword.B
 |{{site.data.keyword.dashdbshort}}			|O	|O	|	|O	|
 |{{site.data.keyword.dataworks_short}}				|	|	|	|O	 		|
 |{{site.data.keyword.contdelivery_short}}					|O	|O	|	|			|
-|{{site.data.keyword.containerlong}}			|O		|O	|	|			|
+|{{site.data.keyword.containerlong}}			|O		|O	|	|		O	|
 |{{site.data.keyword.dwl_short}}				|	|	|	|O	 		|
 |{{site.data.keyword.mql}}				|O	|O	|O	|	 		|
 |{{site.data.keyword.SecureGateway}}			|O	|O |	|	 		|

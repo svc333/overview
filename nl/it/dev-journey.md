@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2016, 2017, 2018
-lastupdated: "2018-11-28"
+  years: 2016, 2019
+lastupdated: "2019-01-03"
 
 ---
 {:new_window: target="_blank"}
@@ -20,20 +20,24 @@ Come sviluppatore, decidi il punto di ingresso migliore per il tuo codice. Puoi 
 
 {{site.data.keyword.cloud_notm}} ha una serie di funzionalità per iniziare a creare le applicazioni in pochi minuti. Gli strumenti per gli sviluppatori {{site.data.keyword.cloud_notm}} creano una fondazione ad alte prestazioni di cui hai bisogno per essere operativo. Vengono offerti due strumenti principali per lo sviluppo:
  * Console web {{site.data.keyword.cloud_notm}} (portali sviluppatori)
- * Interfaccia riga di comando (CLI) {{site.data.keyword.cloud_notm}} 
+ * Interfaccia riga di comando (CLI) {{site.data.keyword.cloud_notm}}
 
-All'interno dei portali sviluppatori di {{site.data.keyword.cloud_notm}}, puoi:
+Con {{site.data.keyword.cloud_notm}}, puoi:
 
 * Selezionare i kit starter che sono specifici per il caso di utilizzo e creare delle applicazioni pronte per la produzione in diversi linguaggi di programmazione e modelli architetturali.
+* Utilizzare un [modello di codice IBM Developer ![Icona link esterno](../icons/launch-glyph.svg "Icona link esterno")](https://developer.ibm.com/patterns/){:new_window} per creare rapidamente la tua applicazione e distribuirla a {{site.data.keyword.cloud_notm}}.
 * Visualizzare e gestire le risorse di cui è stato eseguito automaticamente il provisioning dal tuo kit starter o che hai manualmente aggiunto alla tua applicazione.
 * Se disponi di un'applicazione in un repository esistente, puoi utilizzare un kit starter vuoto per creare un record dell'applicazione e collegarlo al tuo repository di origine e a una toolchain DevOps.
 * Con il codice dell'applicazione portatile, puoi eseguire la distribuzione a diversi ambienti cloud.
 * Creare una [toolchain DevOps](../services/ContinuousDelivery/index.html#cd_getting_started) in pochi clic.
-* Utilizzare un'[interfaccia riga di comando](/docs/cli/index.html#overview) per lo sviluppo locale.
+* Utilizzare l'[interfaccia riga di comando](/docs/cli/index.html#overview) per lo sviluppo locale.
+* Sfogliare o cercare nel [catalogo {{site.data.keyword.cloud_notm}} ![Icona link esterno](../icons/launch-glyph.svg "Icona link esterno")](https://{DomainName}/catalog){: new_window} le applicazioni e i servizi che puoi creare e iniziare a utilizzare oggi.
+
+![Panoramica della Developer Experience](images/dev-journey.png "Panoramica della Developer Experience")
 
 Per comprendere meglio come la nostra esperienza può aiutarti a creare rapidamente applicazioni di alta qualità pronte per la produzione, diamo un'occhiata a questi elementi in modo più dettagliato.
 
-## Portali sviluppatori 
+## Portali sviluppatori
 {: #dev-portals}
 
 {{site.data.keyword.cloud_notm}} ha portali per gli sviluppatori in diverse aree di interesse (come Watson, Security o Finance) o un canale digitale (come Mobile o Applicazioni Web). Puoi accedere a questi portali dall'icona **Menu** ![Icona Menu](../icons/icon_hamburger.svg).
@@ -45,17 +49,19 @@ Ogni portale sviluppatori fornisce i kit starter rilevanti per l'area specifica 
 
 Un'applicazione comprende codice, dati, servizi e toolchain. Ad esempio, l'applicazione mobile {{site.data.keyword.cloud_notm}} contiene il codice dispositivo, insieme alla logica di backend, all'archiviazione dei dati e ai servizi di analisi e di sicurezza ed è configurata per la fornitura continua.
 
-![Riutilizzo](images/garage_reuse2.png "L'esperienza di sviluppo ti consente il riutilizzo e di evitare di reinventare")
+![Riutilizzo](images/garage_reuse2.png "Con Developer Experience, puoi riutilizzare ed evitare di reinventare")
 
 Puoi creare e gestire un'applicazione utilizzando qualsiasi portale sviluppatori {{site.data.keyword.cloud_notm}} o {{site.data.keyword.dev_cli_notm}}.
 
 Puoi creare direttamente delle applicazioni vuote semplici o crearne di più complesse utilizzando i nostri kit starter. Se scegli di creare delle applicazioni vuote senza l'aiuto di un kit starter, puoi farlo dal [dashboard {{site.data.keyword.cloud_notm}} ![Icona link esterno](../icons/launch-glyph.svg "Icona link esterno")](https://{DomainName}){: new_window} senza visitare un portale!
 
+Puoi creare un modello di codice per creare rapidamente la tua applicazione e distribuirla a {{site.data.keyword.cloud_notm}}. Dal [sito web di IBM Developer ![Icona link esterno](../icons/launch-glyph.svg "Icona link esterno")](https://developer.ibm.com/patterns/){:new_window}, scegli un modello di codice. Puoi visualizzare il codice in GitHub o creare e compilare un'applicazione su {{site.data.keyword.cloud_notm}}, dove puoi utilizzare una toolchain DevOps per distribuire automaticamente la tua applicazione.
+
 
 ## Kit starter
 {: #starter-kits}
 
-Con i kit starter, vogliamo che la tua esperienza sia di facile utilizzo e personalizzabile. I kit starter generano un'applicazione di produzione di base, nel linguaggio desiderato, pronta per la distribuzione cloud. Ogni kit starter include un linguaggio, un framework e un modello per un caso di utilizzo specifico e per il riutilizzo del codice.
+Con i kit starter, la tua esperienza dovrebbe essere facile da usare e personalizzabile. I kit starter generano un'applicazione di produzione di base, nel linguaggio desiderato, pronta per la distribuzione cloud. Ogni kit starter include un linguaggio, un framework e un modello per un caso di utilizzo specifico e per il riutilizzo del codice.
 
 Se un kit starter richiede delle risorse specifiche, nessun problema. Con le risorse di cui è stato eseguito il provisioning in automatico, {{site.data.keyword.cloud_notm}} crea automaticamente le istanze per quelle risorse quando crei la tua applicazione. Puoi accedere ai kit starter dal portale sviluppatori o dall'interfaccia riga di comando per le istruzioni pertinenti sulla tua area specifica e sul tuo flusso di lavoro!
 
@@ -63,8 +69,8 @@ Se un kit starter richiede delle risorse specifiche, nessun problema. Con le ris
 I kit starter sono pronti per la produzione e si focalizzano sulla dimostrazione di un'implementazione del modello chiave utilizzando un runtime (ad esempio, Node.js e Express). In alcuni casi, i kit starter offrono un'esperienza utente semplice per sottolineare l'integrazione del servizio. In altri casi i kit starter rappresentano un'implementazione personalizzabile di un caso di utilizzo sofisticato.
 
 * Un **frammento** è un paio di righe di codice che viene spesso presentato in una IDE. I frammenti aiutano uno sviluppatore ad integrare una sintassi del linguaggio di programmazione o del supporto con una API definita.
-* Una **dimostrazione** è solitamente di elevata qualità e accuratezza e utilizza una gamma di servizi e punti di integrazione. Spesso richiede del tempo di configurazione e viene utilizzata per dimostrare un problema di business o una funzione della piattaforma. La puoi utilizzare per valutare le fasi di adozione cloud. Alcune volte il suo codice viene incluso nel codice di produzione.
-* Un **esempio** è un piccolo esempio di una funzionalità, funzione, servizio o esperienza dell'utente specifici. Un esempio può essere riutilizzato o incluso in un'applicazione di produzione. Viene generalmente utilizzato per mostrare le funzionalità tecniche e un approccio possibile per risolvere un problema tecnico.
+* Una **dimostrazione** è solitamente di elevata qualità e accuratezza e utilizza una gamma di servizi e punti di integrazione. Spesso richiede del tempo di configurazione e viene utilizzata per dimostrare un problema di business o una funzione della piattaforma. La puoi utilizzare per valutare le fasi di adozione cloud. A volte è il codice che è incluso nel codice di produzione.
+* Un **esempio** è un piccolo esempio di una funzionalità, funzione, servizio o esperienza dell'utente specifici. Puoi riutilizzare un esempio o includerlo in un'applicazione di produzione. In genere viene utilizzato per mostrare capacità tecniche e un possibile approccio alla risoluzione di un problema tecnico.
 * Un **kit starter** è un modello pronto per la produzione che può essere integrato con una serie di servizi per generare un asset pronto per la produzione che può essere distribuito direttamente in una pipeline DevOps e un cluster Kubernetes. Un kit starter contiene i metadati descrittivi fornendo all'utente informazioni sufficienti per sapere cosa fa. Contiene inoltre le istruzioni che indicano a {{site.data.keyword.cloud_notm}} cosa produrre. L'output è subito pronto per la produzione e può essere ripetuto per ulteriori miglioramenti in base alle pratiche consigliate da IBM. Il contenuto del kit starter non è così complesso come una dimostrazione e non è banale come un frammento o un esempio. Sono creati dinamicamente in base ai requisiti dello sviluppatore.
 
 ## Risorse di provisioning automatico
@@ -81,8 +87,8 @@ Puoi anche dare una rapida occhiata al tuo codice dell'applicazione facendo clic
 
 ### Quale codice viene creato?
 
-Quando crei direttamente un'applicazione o tramite l'aiuto di un kit starter, l'applicazione contiene il codice portatile. Il codice portatile contiene il codice di abilitazione cloud per più ambienti cloud. Puoi quindi creare il codice in quattro aree fondamentali:
-* Codice che segue le procedure consigliate di un linguaggio selezionato
+Quando crei direttamente un'applicazione o tramite l'aiuto di un kit starter, l'applicazione contiene il codice portatile. Il codice portatile contiene il codice di abilitazione cloud per più ambienti cloud.Puoi quindi creare il codice in quattro aree fondamentali:
+* Codice che segue le procedure consigliate per un linguaggio specifico
 * Codice che abilita l'esecuzione sul cloud dell'applicazione
 * Codice che viene inizializzato per il collegamento ai servizi cloud
 * Codice specifico per un caso di utilizzo
@@ -94,7 +100,7 @@ La generazione di questi componenti ti consente di risparmiare del tempo prezios
 * **Abilitazione del servizio** è il codice che consente alla tua applicazione di collegarsi e utilizzare i servizi che aggiungi. Gestione delle credenziali, codice di inizializzazione e SDK specifici del servizio sono esempi di elementi di abilitazione del servizio.
 * **Abilitazione cloud** è il codice che consente alla tua applicazione l'esecuzione su {{site.data.keyword.cloud_notm}}. Ad esempio, i grafici Helm che consentono alla tua applicazione l'esecuzione su un cluster Kubernetes {{site.data.keyword.cloud_notm}}.
 
-Quando crei un'applicazione dal kit starter {{site.data.keyword.cloud_notm}}, la tua applicazione viene avviata con un'architettura comprovata che riflette anche le procedure ottimali per il linguaggio che hai selezionato.
+Quando crei un'applicazione da un kit starter {{site.data.keyword.cloud_notm}}, la tua applicazione inizia con un'architettura comprovata che riflette anche le procedure consigliate per il linguaggio che hai selezionato.
 
 Ogni applicazione include un file readme che contiene i dettagli tecnici dell'applicazione e spiega cosa è necessario perché la tua applicazione sia in esecuzione se non lo è immediatamente.
 {: tip}
@@ -133,14 +139,14 @@ Utilizza l'interfaccia riga di comando per codificare, creare ed eseguire la tua
 
 Se stai cercando dove eseguire degli esperimenti con le tue idee migliori e con delle tecnologie emergenti, assicurati di consultare le distribuzioni del [metodo Garage](https://www.ibm.com/cloud/garage/){: new_window} ![Icona link esterno](../icons/launch-glyph.svg "Icona link esterno"). Puoi ottenere delle informazioni su come IBM può aiutarti a sviluppare le applicazioni nella tua organizzazione.
 
-![Panoramica fasi metodo Garage](images/garage_phases_overview2.png "Panoramica fasi metodo Garage")*Panoramica fasi metodo Garage*
+![Panoramica fasi metodo Garage](images/garage_phases_overview2.png "Panoramica fasi metodo Garage") *Panoramica fasi metodo Garage*
 
 {{site.data.keyword.cloud_notm}} ti aiuta a produrre correttamente le applicazioni di produzione al livello aziendale utilizzando il metodo Garage o qualsiasi metodo preferisci. Per capire meglio cosa {{site.data.keyword.cloud_notm}} offre agli sviluppatori, diamo un'occhiata veloce alle competenze necessarie per creare un'applicazione moderna.
 
 ## Competenze dello sviluppatore
 {: #skills}
 
-Gli utenti si aspettano molto di più dalle loro applicazioni rispetto a prima. Vogliono applicazioni per fornire informazioni approfondite da dati in tempo reale e archiviati, che sono sempre disponibili e che soddisfano i loro bisogni individuali più accuratamente. Per soddisfare queste aspettative, le funzionalità per gli sviluppatori in IBM Cloud si allineano a serie di competenze specifiche e consentono al tuo team di utilizzare una piattaforma per produrre, distribuire, eseguire e gestire le applicazioni. Ad esempio, un'applicazione cognitiva sofisticata, può richiedere contributi di sviluppatori digitali, di sviluppatori nativi cloud, di sviluppatori di flussi, di data scientist e di specialisti DevOps.
+Gli utenti si aspettano molto di più dalle loro applicazioni rispetto a prima. Vogliono applicazioni per fornire informazioni approfondite da dati in tempo reale e archiviati, che sono sempre disponibili e che soddisfano i loro bisogni individuali più accuratamente. Per soddisfare queste aspettative, le funzionalità per gli sviluppatori in IBM Cloud si allineano a serie di competenze specifiche e consentono al tuo team di utilizzare una piattaforma per produrre, distribuire, eseguire e gestire le applicazioni.Ad esempio, un'applicazione cognitiva sofisticata, può richiedere contributi di sviluppatori digitali, di sviluppatori nativi cloud, di sviluppatori di flussi, di data scientist e di specialisti DevOps.
 
  ![Tipi di sviluppatore](images/developer_skills.png "Relazioni tra sviluppatori")
 
@@ -150,6 +156,6 @@ Gli utenti si aspettano molto di più dalle loro applicazioni rispetto a prima. 
 * **Data scientist** utilizzano le analisi e il machine learning per produrre modelli predittivi. Questi modelli sono utilizzati nelle metriche di business e forniscono informazioni approfondite agli utenti dell'applicazione.
 * **Specialisti DevOps** sono esperti nella risoluzione dei problemi di distribuzione e della toolchain. Per le applicazioni semplici, gli specialisti dedicati non sono generalmente necessari poiché i membri del team di sviluppo gestiscono DevOps con la squadra. Ma per le applicazioni aziendali complesse, con molte dipendenze, gli specialisti DevOps sono essenziali per mantenere la tua applicazione correttamente in produzione.
 
-Le funzionalità degli sviluppatori integrate in {{site.data.keyword.cloud_notm}} si allineano su queste serie di competenze e consentono al tuo team di utilizzare una piattaforma per produrre, distribuire, eseguire e gestire la tua applicazione. Ad esempio, uno sviluppatore digitale che crea un'applicazione mobile potrebbe utilizzare il {{site.data.keyword.cloud_notm}} [Portale di sviluppo mobile](https://{DomainName}/developer/mobile/dashboard){: new_window} ![Icona link esterno](../icons/launch-glyph.svg "Icona link esterno"), un creatore dell'applicazione cognitiva potrebbe utilizzare il [Dashboard di sviluppo Watson](https://{DomainName}/developer/watson/dashboard){: new_window} ![Icona link esterno](../icons/launch-glyph.svg "Icona link esterno") insieme a [Watson Studio](https://{DomainName}/catalog/services/watson-studio){: new_window} ![Icona link esterno](../icons/launch-glyph.svg "Icona link esterno"), uno sviluppatore dei flussi può utilizzare le [Analisi in tempo reale di IBM](/docs/services/StreamingAnalytics/index.html) e il [Servizio di fornitura continua di {{site.data.keyword.cloud_notm}}](/docs/services/ContinuousDelivery/index.html) semplificando il lavoro di uno specialista DevOps.
+Le funzionalità degli sviluppatori integrate in {{site.data.keyword.cloud_notm}} si allineano su queste serie di competenze e consentono al tuo team di utilizzare una piattaforma per produrre, distribuire, eseguire e gestire la tua applicazione. Ad esempio, uno sviluppatore digitale che crea un'applicazione mobile potrebbe utilizzare il [Portale per sviluppatori mobili](https://{DomainName}/developer/mobile/dashboard){: new_window} ![Icona link esterno](../icons/launch-glyph.svg "Icona link esterno") {{site.data.keyword.cloud_notm}}. Un generatore di applicazioni cognitive potrebbe utilizzare il [Portale per sviluppatori Watson](https://{DomainName}/developer/watson/dashboard){: new_window} ![Icona link esterno](../icons/launch-glyph.svg "Icona link esterno") insieme a [Watson Studio](https://{DomainName}/catalog/services/watson-studio){: new_window} ![Icona link esterno](../icons/launch-glyph.svg "Icona link esterno"). Uno sviluppatore di flussi può utilizzare [IBM Real-Time Analytics](/docs/services/StreamingAnalytics/index.html). Il [servizio {{site.data.keyword.cloud_notm}} Continuous Delivery](/docs/services/ContinuousDelivery/index.html) semplifica il lavoro di uno specialista DevOps.
 
-Pronto per iniziare a creare applicazioni pronte per la produzione e di elevata qualità? [Fai clic qui](/docs/apps/tutorials/tutorial_web.html) per creare un'applicazione su {{site.data.keyword.cloud_notm}} adesso!
+[Pronto per iniziare a creare applicazioni pronte per la produzione e di elevata qualità? ](/docs/apps/tutorials/tutorial_web.html)

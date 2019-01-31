@@ -2,9 +2,9 @@
 
 copyright:
 
-  years: 2018
+  years: 2018, 2019
 
-lastupdated: "2018-11-14"
+lastupdated: "2019-01-02"
 
 ---
 
@@ -17,7 +17,7 @@ lastupdated: "2018-11-14"
 # Configuration de votre compte
 {: #quickstart_acc_ad}
 
-Ce guide de démarrage rapide est conçu pour aider les administrateurs de compte à configurer leur environnement {{site.data.keyword.Bluemix}}.
+Ce guide de démarrage rapide est conçu pour aider les administrateurs de compte à configurer leur environnement {{site.data.keyword.Bluemix}}. 
 {:shortdesc}
 
 1. Créez des groupes de ressources à utiliser pour organiser les ressources créées à partir du catalogue {{site.data.keyword.Bluemix_notm}}. Pour plus d'informations, voir [Meilleures pratiques pour l'organisation des ressources dans un groupe de ressources](/docs/resources/bestpractice_rgs.html#bp_resourcegroups).
@@ -32,7 +32,7 @@ Ce guide de démarrage rapide est conçu pour aider les administrateurs de compt
 6. Utilisez l'estimateur de coût pour évaluer les coûts de votre environnement. Cliquez sur l'icône Estimateur de coût ![Icône Estimateur](../icons/Estimator.svg) dans la barre de menus de la console. 
 7. Utilisez l'estimateur de coût pour évaluer les coûts de votre infrastructure. 
   
-  a. Commencez par sélectionner une offre dans le [catalogue](https://console.cloud.ibm.com/catalog){: new_window} ![Icône de lien externe](../icons/launch-glyph.svg). 
+  a. Commencez par sélectionner une offre dans le [catalogue](https://cloud.ibm.com/catalog){: new_window} ![Icône de lien externe](../icons/launch-glyph.svg). 
   
   b. Entrez les informations de configuration, sélectionnez votre plan de tarification puis cliquez sur **Ajouter à l'estimation**.
 

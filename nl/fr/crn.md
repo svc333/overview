@@ -2,9 +2,9 @@
 
 copyright:
 
-  years: 2017, 2018
+  years: 2017, 2019
 
-lastupdated: "2018-11-05"
+lastupdated: "2019-01-04"
 
 ---
 
@@ -147,7 +147,7 @@ La valeur des segments `resource-type` et `resource` varie en fonction du servic
 
 Par exemple, une image dans le conteneur de réception client d'un service Object Storage peut avoir un segment `resource-type` avec la valeur `object` et un segment `resource_ value` avec la valeur `CustomerReceipts/clientdinner.png`.
 
-`resource-type` doit être composé de caractères alphanumériques minuscules, sans espaces ou caractères spéciaux autres que '-'. Un service peut décider que le segment `resource-type` est facultatif et, auquel cas, le segment sera vide.
+`resource-type` doit être composé de caractères alphanumériques, sans espaces ou caractères spéciaux autres que '-'. Un service peut décider que le segment `resource-type` est facultatif et, auquel cas, le segment sera vide.
 
 
 ## Exemples de nom de ressource de cloud

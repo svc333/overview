@@ -2,8 +2,8 @@
 
 
 copyright:
-  years: 2016, 2018
-lastupdated: "2018-11-15"
+  years: 2016, 2019
+lastupdated: "2019-01-02"
 
 
 ---
@@ -11,7 +11,7 @@ lastupdated: "2018-11-15"
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
 
-# Termini del glossario per {{site.data.keyword.cloud_notm}} 
+# Termini del glossario per {{site.data.keyword.cloud_notm}}
 {: #glossary}
 
 Questo glossario fornisce termini e definizioni per {{site.data.keyword.cloud_notm}}.
@@ -22,7 +22,7 @@ In questo glossario vengono utilizzati i seguenti riferimenti incrociati:
 - *Vedere* rimanda il lettore da un termine non preferenziale a uno preferenziale oppure da un'abbreviazione a una forma estesa del termine.
 - *Vedi anche* ti rimanda a termini correlati o contrari.
 
-<!--If you do not want letter links at the top of your 
+<!--If you do not want letter links at the top of your
 glossary, delete the text between these comment tags.
 [A](#glossa)
 [B](#glossb)
@@ -700,8 +700,7 @@ Un territorio geografico definito. Una regione può essere una specifica area id
 ### registro
 {: #x2064940}
 
-Un repository pubblico o privato che contiene immagini utilizzate per creare
-contenitori. Vedi anche [contenitore](#x2010901), [immagine](#x2024928).
+Un servizio di archiviazione e distribuzione di immagini contenitore pubblico o privato. Vedi anche [contenitore](#x2010901), [immagine](#x2024928).
 
 ### Representational State Transfer (REST)
 {: #x3220976}

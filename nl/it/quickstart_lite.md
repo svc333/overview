@@ -18,7 +18,7 @@ lastupdated: "2018-11-14"
 # Prova {{site.data.keyword.Bluemix_notm}}, gratuitamente
 {: #quickstart_lite}
 
-Vuoi provare {{site.data.keyword.Bluemix}}? Un account Lite è ottimo per imparare a lavorare nel cloud, utilizzando Watson e così via. È anche perfetto per creare delle prove di utilizzo commerciale (POC) con molti dei componenti disponibili in {{site.data.keyword.Bluemix_notm}}. Questa guida introduttiva è concepita per aiutarti ad essere operativo con il nostro account Lite.  
+Vuoi provare {{site.data.keyword.Bluemix}}? Un account Lite è ottimo per imparare a lavorare nel cloud, a utilizzare Watson e così via. È anche perfetto per creare delle prove di utilizzo commerciale (POC) con molti dei componenti disponibili in {{site.data.keyword.Bluemix_notm}}. Questa guida introduttiva è concepita per aiutarti ad essere operativo con il nostro account Lite.  
 {:shortdesc}  
 
 ## Prima di iniziare
@@ -26,7 +26,7 @@ Vuoi provare {{site.data.keyword.Bluemix}}? Un account Lite è ottimo per impara
 
 Vai a [{{site.data.keyword.Bluemix_notm}}](https://{DomainName}) e crea un account Lite. È gratuito e non scade mai.
 
-## Procedura d'avvio rapida 
+## Procedura d'avvio rapida
 {: #steps}
 
 1. Esplora il catalogo delle offerte che includono i [piani del servizio Lite ![Icona link esterno](../icons/launch-glyph.svg "Icona link esterno")](https://{DomainName}/catalog/?search=label:lite){: new_window} gratuiti.

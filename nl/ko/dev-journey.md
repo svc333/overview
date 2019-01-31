@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2016, 2017, 2018
-lastupdated: "2018-11-28"
+  years: 2016, 2019
+lastupdated: "2019-01-03"
 
 ---
 {:new_window: target="_blank"}
@@ -22,14 +22,18 @@ lastupdated: "2018-11-28"
  * {{site.data.keyword.cloud_notm}} 웹 콘솔(개발자 포털)
  * {{site.data.keyword.cloud_notm}}명령행 인터페이스(CLI, command-line interface)
 
-{{site.data.keyword.cloud_notm}} 개발자 포털 내에서 다음을 수행할 수 있습니다.
+{{site.data.keyword.cloud_notm}}를 사용하여 다음을 수행할 수 있습니다. 
 
 * 유스 케이스에 특정한 스타터 킷을 선택하고 다양한 프로그래밍 언어와 아키텍처 패턴으로 프로덕션에 사용할 준비가 된 앱 생성
+* [IBM Developer 코드 패턴 ![외부 링크 아이콘](../icons/launch-glyph.svg "외부 링크 아이콘")](https://developer.ibm.com/patterns/){:new_window}을 사용하여 앱을 신속하게 작성하고 이를 {{site.data.keyword.cloud_notm}}에 배치합니다. 
 * 스타터 킷에서 자동으로 프로비저닝되거나 사용자가 앱에 수동으로 추가한 리소스 확인 및 관리
-* 기존 저장소에 앱이 있는 경우 빈 스타터 킷을 사용하여 앱 레코드를 작성하여 소스 저장소 및 DevOps 도구 체인에 연결할 수 있습니다. 
+* 기존 저장소에 앱이 있는 경우 빈 스타터 킷을 사용하여 앱 레코드를 작성하여 소스 저장소 및 DevOps 도구 체인에 연결할 수 있습니다.
 * 이식 가능한 앱 코드를 사용하여 다양한 클라우드 환경에 배치할 수 있습니다.
 * 몇 번의 클릭으로 [DevOps 도구 체인](../services/ContinuousDelivery/index.html#cd_getting_started) 작성
-* 로컬 개발을 위해 [명령행 인터페이스](/docs/cli/index.html#overview) 사용
+* 로컬 개발에 [명령행 인터페이스](/docs/cli/index.html#overview)를 사용합니다. 
+* 작성 가능한 앱 및 서비스에 대한 [{{site.data.keyword.cloud_notm}} 카탈로그 ![외부 링크 아이콘](../icons/launch-glyph.svg "외부 링크 아이콘")](https://{DomainName}/catalog){: new_window}를 찾아보거나 검색한 후에 당장 사용을 시작합니다. 
+
+![개발자 경험 개요](images/dev-journey.png "개발자 경험 개요")
 
 개발자 경험을 더 잘 이해하면 고품질의 프로덕션 사용 준비된 앱을 빠르게 빌드하는 데 도움이 됩니다. 이러한 요소를 좀 더 자세히 살펴보겠습니다.
 
@@ -45,17 +49,19 @@ lastupdated: "2018-11-28"
 
 앱은 코드, 데이터, 서비스 및 도구 체인으로 구성됩니다. 예를 들어, {{site.data.keyword.cloud_notm}} 모바일 앱은 백엔드 로직, 데이터 스토리지, 분석 및 보안 서비스와 함께 디바이스 코드를 포함하며 Continuous Delivery에 대해 설정됩니다.
 
-![재사용](images/garage_reuse2.png "재사용이 가능하고 재개발을 없앤 개발자 경험")
+![재사용](images/garage_reuse2.png "Developer Experience를 사용하면 재사용이 가능하며 재작성을 피할 수 있음")
 
 {{site.data.keyword.cloud_notm}} 개발자 포털 또는 {{site.data.keyword.dev_cli_notm}}를 사용하여 앱을 작성하고 관리할 수 있습니다.
 
 단순 공백 앱을 직접 작성하거나 IBM의 스타터 킷을 사용하여 더 복잡한 앱을 작성할 수 있습니다. 스타터 킷의 도움 없이 공백 앱을 작성하도록 선택하는 경우 포털을 방문하지 않고 [{{site.data.keyword.cloud_notm}} 대시보드 ![외부 링크 아이콘](../icons/launch-glyph.svg "외부 링크 아이콘")](https://{DomainName}){: new_window}에서 수행할 수 있습니다.
 
+코드 패턴을 사용하여 앱을 신속히 작성하고 이를 {{site.data.keyword.cloud_notm}}에 배치할 수 있습니다. [IBM Developer 웹 사이트 ![외부 링크 아이콘](../icons/launch-glyph.svg "외부 링크 아이콘")](https://developer.ibm.com/patterns/){:new_window}에서 코드 패턴을 선택하십시오. GitHub에서 코드를 보거나 {{site.data.keyword.cloud_notm}}에서 앱 작성 및 빌드를 수행할 수 있으며, 여기서 DevOps 도구 체인을 사용하여 앱을 자동으로 배치할 수 있습니다. 
+
 
 ## 스타터 킷
 {: #starter-kits}
 
-스타터 킷을 통해 사용하기 쉽고 사용자 정의할 수 있는 사용자 경험을 실현하려고 합니다. 스타터 킷은 클라우드 배치 준비가 되어 있는 스켈레톤 프로덕션 앱을 사용자가 선택한 언어로 조립합니다. 각 스타터 킷에는 특정 유스 케이스 및 코드 재사용을 위한 언어, 프레임워크 및 패턴이 포함되어 있습니다.
+스타터 킷에서는 사용자의 경험이 이용하기 쉽고 사용자 정의가 가능해야 합니다. 스타터 킷은 클라우드 배치 준비가 되어 있는 스켈레톤 프로덕션 앱을 사용자가 선택한 언어로 조립합니다. 각 스타터 킷에는 특정 유스 케이스 및 코드 재사용을 위한 언어, 프레임워크 및 패턴이 포함되어 있습니다.
 
 스타터 킷에 특정 리소스가 필요한 경우 문제가 되지 않습니다. 자동 프로비저닝된 리소스를 사용하면 앱을 작성할 때 {{site.data.keyword.cloud_notm}}에서 해당 리소스에 대한 인스턴스를 자동으로 작성합니다. 개발자 포털 또는 명령행 인터페이스에서 스타터 킷에 액세스하여 핵심 분야 및 워크플로우와 관련된 지시사항을 확인할 수 있습니다!
 
@@ -63,8 +69,8 @@ lastupdated: "2018-11-28"
 스타터 킷은 프로덕션에 사용할 준비가 되어 있고 런타임(예: Node.js 및 Express)을 사용하여 키 패턴 구현의 증명에 초점을 맞춥니다. 어떤 경우 스타터 킷은 서비스 통합을 강조하기 위해 단순한 사용자 경험을 제공합니다. 다른 경우에 스타터 킷은 복잡한 유스 케이스의 사용자 정의 가능한 구현을 나타냅니다.
 
 * **스니펫**은 IDE에서 자주 표시되는 몇 행의 코드입니다. 스니펫은 개발자가 프로그래밍 언어 구문을 통합하도록 도와주거나 정의된 API와 통합을 지원합니다.
-* **데모**는 일반적으로 품질 및 정확도가 높고 다양한 서비스 및 통합 지점을 사용합니다. 종종 설정 시간이 필요하며 비즈니스 문제점을 증명하거나 플랫폼 기능을 시연할 때 사용됩니다. 클라우드 채택의 평가 단계에 사용할 수 있습니다. 때때로 데모는 프로덕션 코드에 포함된 코드입니다.
-* **샘플**은 특정 기능, 함수, 서비스 또는 사용자 과정의 작은 예제입니다. 샘플은 프로덕션 애플리케이션에서 재사용되거나 포함될 수 있습니다. 일반적으로 기술적 기능 및 기술 문제점 해결을 위한 가능한 접근 방법을 보여주기 위해 사용됩니다.
+* **데모**는 일반적으로 품질 및 정확도가 높고 다양한 서비스 및 통합 지점을 사용합니다. 종종 설정 시간이 필요하며 비즈니스 문제점을 증명하거나 플랫폼 기능을 시연할 때 사용됩니다. 클라우드 채택의 평가 단계에 사용할 수 있습니다. 종종 이는 프로덕션 코드에 포함된 코드입니다.
+* **샘플**은 특정 기능, 함수, 서비스 또는 사용자 과정의 작은 예제입니다. 샘플을 재사용하거나 이를 프로덕션 애플리케이션에 포함할 수 있습니다. 일반적으로 이를 사용하여 기술적 기능 및 기술적 문제점 해결을 위한 가능한 접근 방법을 표시할 수 있습니다. 
 * **스타터 킷**은 DevOps 파이프라인 및 Kubernetes 클러스터에 직접 배치될 수 있는 프로덕션에 사용할 준비가 된 자산을 생성하기 위해 서비스 세트와 통합될 수 있는 프로덕션에 사용할 준비가 된 패턴입니다. 스타터 킷은 킷이 무엇이고 어떤 일을 하는지 알 수 있도록 충분한 정보를 제공하는 설명 메타데이터를 포함합니다. 또한 무엇을 생성할 것인지 {{site.data.keyword.cloud_notm}}에게 알려주는 지시사항을 포함합니다. 즉시 사용 가능한, 프로덕션 사용 준비된 결과물이 생성되고 IBM 우수 사례를 기반으로 추가 개선을 위해 반복할 수 있습니다. 스타터 킷 컨텐츠는 데모만큼 복잡하지 않고 스니펫이나 샘플처럼 간단하지 않습니다. 개발자의 요구사항에 따라 동적으로 작성됩니다.
 
 ## 자동 프로비저닝된 리소스
@@ -81,8 +87,8 @@ lastupdated: "2018-11-28"
 
 ### 생성된 코드
 
-직접 또는 스타터 킷의 도움으로 앱을 작성하면 앱에 이식 가능한 코드가 포함됩니다. 이식 가능한 코드에는 다중 클라우드 환경을 위한 클라우드 인에이블먼트 코드가 포함되어 있습니다. 네 개의 기본 영역에서 코드를 생성할 수 있습니다.
-* 지정된 언어에 대한 우수 사례를 따르는 코드
+직접 또는 스타터 킷의 도움으로 앱을 작성하면 앱에 이식 가능한 코드가 포함됩니다. 이식 가능한 코드에는 다중 클라우드 환경을 위한 클라우드 인에이블먼트 코드가 포함되어 있습니다.네 개의 기본 영역에서 코드를 생성할 수 있습니다.
+* 특정 언어에 대한 우수 사례를 따르는 코드
 * 앱이 클라우드에서 실행될 수 있도록 하는 코드
 * 클라우드 서비스에 연결하도록 초기화된 코드
 * 유스 케이스에 특정한 코드
@@ -94,7 +100,7 @@ lastupdated: "2018-11-28"
 * **서비스 인에이블먼트**는 앱이 사용자가 추가한 서비스에 연결하고 사용할 수 있게 하는 코드입니다. 인증 정보 관리, 초기화 코드 및 서비스 특정 SDK는 서비스 인에이블먼트 항목의 예입니다.
 * **클라우드 인에이블먼트**는 앱을 {{site.data.keyword.cloud_notm}}에서 실행할 수 있게 하는 코드입니다. 예를 들어 앱을 {{site.data.keyword.cloud_notm}} Kubernetes 클러스터에서 실행할 수 있게 하는 Helm 차트가 있습니다.
 
-{{site.data.keyword.cloud_notm}} 스타터 킷으로부터 앱을 작성하면 선택한 언어에 대한 우수 사례를 반영하는 검증된 아키텍처로 앱을 시작할 수 있습니다.
+{{site.data.keyword.cloud_notm}} 스타터 킷에서 앱을 작성하면 선택한 언어에 대한 우수 사례를 역시 반영하는 검증된 아키텍처로 앱이 시작됩니다. 
 
 각 앱에는 앱의 기술적 세부사항과 앱이 즉시 실행되지 않을 경우 앱을 실행하기 위해 필요한 작업에 대해 설명하는 README 파일이 포함되어 있습니다.
 {: tip}
@@ -133,14 +139,14 @@ DevOps 도구 체인의 핵심 컴포넌트는 GitHub와 같은 코드 버전 �
 
 아이디어와 새로운 기술을 시험할 수 있는 곳을 찾고 있다면 [Garage Method](https://www.ibm.com/cloud/garage/){: new_window} ![외부 링크 아이콘](../icons/launch-glyph.svg "외부 링크 아이콘") 배치를 반드시 확인하십시오. IBM이 어떻게 사용자의 조직에서 앱 개발을 지원할 수 있는지 알아볼 수 있습니다.
 
-![Garage Method 단계 개요](images/garage_phases_overview2.png "Garage Method 단계 개요")*Garage Method 단계 개요*
+![Garage Method 단계 개요](images/garage_phases_overview2.png "Garage Method 단계 개요") *Garage Method 단계 개요*
 
 {{site.data.keyword.cloud_notm}}는 Garage Method 또는 사용자가 선호하는 메소드를 사용하여 성공적인 엔터프라이즈급 프로덕션 앱을 생성하도록 도와줍니다. {{site.data.keyword.cloud_notm}}가 개발자에게 무엇을 제공하는지 더 잘 이해하기 위해서 최신 앱 빌드에 필요한 스킬을 잠깐 살펴보겠습니다.
 
 ## 개발자 스킬
 {: #skills}
 
-사용자는 이전보다 훨씬 더 많은 것을 애플리케이션에 기대합니다. 사용자는 앱이 저장된 데이터 및 실시간 데이터에서 깊이 있는 인사이트를 제공하고, 상시 사용 가능하며 개별적 요구사항에 더 근접하여 충족하기를 원합니다. 이러한 기대를 충족하기 위해 IBM Cloud의 개발자 기능이 특정 스킬 세트에 맞게 조정되고 사용자의 팀이 하나의 플랫폼을 사용하여 앱을 생성, 제공, 실행 및 관리할 수 있도록 합니다. 예를 들어 복잡한 코그너티브 애플리케이션에는 디지털 개발자, 클라우드 네이티브 개발자, 스트림 개발자, 데이터 과학자 및 DevOps 전문가의 기여가 필요할 수 있습니다.
+사용자는 이전보다 훨씬 더 많은 것을 애플리케이션에 기대합니다. 사용자는 앱이 저장된 데이터 및 실시간 데이터에서 깊이 있는 인사이트를 제공하고, 상시 사용 가능하며 개별적 요구사항에 더 근접하여 충족하기를 원합니다. 이러한 기대를 충족하기 위해 IBM Cloud의 개발자 기능이 특정 스킬 세트에 맞게 조정되고 사용자의 팀이 하나의 플랫폼을 사용하여 앱을 생성, 제공, 실행 및 관리할 수 있도록 합니다.예를 들어 복잡한 코그너티브 애플리케이션에는 디지털 개발자, 클라우드 네이티브 개발자, 스트림 개발자, 데이터 과학자 및 DevOps 전문가의 기여가 필요할 수 있습니다.
 
  ![개발자 유형](images/developer_skills.png "개발자 관계")
 
@@ -150,6 +156,7 @@ DevOps 도구 체인의 핵심 컴포넌트는 GitHub와 같은 코드 버전 �
 * **데이터 과학자**는 예측 모델을 생성하기 위해 분석 및 기계 학습을 사용합니다. 이러한 모델은 비즈니스 메트릭에서 사용되고 애플리케이션 사용자에게 심도 있는 인사이트를 제공합니다.
 * **DevOps 전문가**는 배치 및 도구 체인 문제 해결의 전문가입니다. 단순한 앱의 경우 개발 팀 구성원이 소단위로 DevOps를 관리하므로 대부분은 전용 전문가가 필요하지 않습니다. 그러나 많은 종속 항목이 있는 복잡한 엔터프라이즈 애플리케이션의 경우 프로덕션 앱을 원활하게 실행하도록 유지하는 데 DevOps 전문가가 필수입니다.
 
-{{site.data.keyword.cloud_notm}}에 빌드된 개발자 기능은 이러한 스킬 세트에 맞게 조정되어 있으며 사용자의 팀이 하나의 플랫폼을 사용하여 앱을 생성, 제공, 실행, 관리할 수 있게 합니다. 예를 들어, 모바일 앱을 작성하는 디지털 개발자는 {{site.data.keyword.cloud_notm}} [모바일 개발자 포털](https://{DomainName}/developer/mobile/dashboard){: new_window} ![외부 링크 아이콘](../icons/launch-glyph.svg "외부 링크 아이콘")을 사용하고 코그너티브 앱 빌더는 [Watson Studio](https://{DomainName}/catalog/services/watson-studio){: new_window} ![외부 링크 아이콘](../icons/launch-glyph.svg "외부 링크 아이콘")와 함께 [Watson 개발자 포털](https://{DomainName}/developer/watson/dashboard){: new_window} ![외부 링크 아이콘](../icons/launch-glyph.svg "외부 링크 아이콘")을 사용하며 스트림 개발자는 [IBM Real-Time Analytics](/docs/services/StreamingAnalytics/index.html)를 사용할 수 있습니다. 또한 [{{site.data.keyword.cloud_notm}} Continuous Delivery서비스](/docs/services/ContinuousDelivery/index.html)는 DevOps 전문가의 작업을 간소화합니다.
+{{site.data.keyword.cloud_notm}}에 빌드된 개발자 기능은 이러한 스킬 세트에 맞게 조정되어 있으며 사용자의 팀이 하나의 플랫폼을 사용하여 앱을 생성, 제공, 실행, 관리할 수 있게 합니다. 예를 들어, 모바일 앱을 작성하는 디지털 개발자는 {{site.data.keyword.cloud_notm}} [모바일 개발자 포털](https://{DomainName}/developer/mobile/dashboard){: new_window} ![외부 링크 아이콘](../icons/launch-glyph.svg "외부 링크 아이콘")을 사용할 수 있습니다. 
+코그너티브 앱 빌더는 [Watson Studio](https://{DomainName}/catalog/services/watson-studio){: new_window} ![외부 링크 아이콘](../icons/launch-glyph.svg "외부 링크 아이콘")와 함께 [Watson 개발자 포털](https://{DomainName}/developer/watson/dashboard){: new_window} ![외부 링크 아이콘](../icons/launch-glyph.svg "외부 링크 아이콘")을 사용할 수 있습니다. 스트림 개발자는 [IBM Real-Time Analytics](/docs/services/StreamingAnalytics/index.html)를 사용할 수 있습니다. [{{site.data.keyword.cloud_notm}} Continuous Delivery 서비스](/docs/services/ContinuousDelivery/index.html)는 DevOps 전문가의 작업을 단순화합니다. 
 
-프로덕션에 사용할 준비가 된 고품질의 앱 빌드를 시작할 준비가 되셨습니까? [여기를 클릭](/docs/apps/tutorials/tutorial_web.html)하여 지금 {{site.data.keyword.cloud_notm}}에서 앱을 빌드하십시오!
+[프로덕션에 사용할 준비가 된 고품질의 앱 빌드를 시작할 준비가 되셨습니까? ](/docs/apps/tutorials/tutorial_web.html)

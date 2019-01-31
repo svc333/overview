@@ -2,9 +2,9 @@
 
 copyright:
 
-  years: 2018
+  years: 2018, 2019
 
-lastupdated: "2018-11-14"
+lastupdated: "2019-01-02"
 
 ---
 
@@ -17,7 +17,7 @@ lastupdated: "2018-11-14"
 # Configurazione del tuo account
 {: #quickstart_acc_ad}
 
-Questa guida introduttiva è concepita per aiutare gli amministratori dell'account a configurare i propri ambienti {{site.data.keyword.Bluemix}}.
+Questa guida introduttiva è concepita per aiutare gli amministratori dell'account a configurare i propri ambienti {{site.data.keyword.Bluemix}}. 
 {:shortdesc}
 
 1. Crea i gruppi di risorse da utilizzare per organizzare le risorse create dal catalogo {{site.data.keyword.Bluemix_notm}}. Per ulteriori informazioni, consulta [Prassi ottimali per organizzare le risorse nei gruppi di risorse](/docs/resources/bestpractice_rgs.html#bp_resourcegroups).
@@ -30,9 +30,9 @@ Questa guida introduttiva è concepita per aiutare gli amministratori dell'accou
 4. Invita degli utenti nell'account e aggiungili ai gruppi di accesso per assegnare l'accesso necessario per consentire ai tuoi utenti dell'account di iniziare la creazione. Per ulteriori informazioni, vedi l'[Esercitazione introduttiva per IAM](/docs/iam/quickstart.html#getstarted).
 5. Configura le notifiche per gli eventi e i limiti di spesa dell'account. Per ulteriori informazioni, vedi [Impostazione delle preferenze email](/docs/account/email.html) e [Configurazione delle notifiche di spesa](/docs/billing-usage/notifications.html). 
 6. Utilizza lo stimatore dei costi per farti un'idea di quanto potrebbe costare il tuo ambiente. Fai clic sull'icona dello stimatore costi ![icona stimatore costi](../icons/Estimator.svg) nella barra dei menu della console. 
-7. Utilizza lo stimatore dei costi per farti un'idea di quanto potrebbe costare la tua infrastruttura.  
+7. Utilizza lo stimatore dei costi per farti un'idea di quanto potrebbe costare la tua infrastruttura. 
   
-  a. Inizia selezionando un'offerta dal [catalogo](https://console.cloud.ibm.com/catalog){: new_window} ![Icona link esterno](../icons/launch-glyph.svg). 
+  a. Inizia selezionando un'offerta dal [catalogo](https://cloud.ibm.com/catalog){: new_window} ![Icona link esterno](../icons/launch-glyph.svg). 
   
   b. Immetti i dettagli di configurazione, seleziona il tuo piano dei prezzi e fai clic su **Aggiungi alla stima**.
 

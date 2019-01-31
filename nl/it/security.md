@@ -1,14 +1,14 @@
 ---
 
 copyright:
-  years: 2017, 2018
-lastupdated: "2018-11-30"
+  years: 2017, 2019
+lastupdated: "2019-01-07"
 
 ---
 
 {:shortdesc: .shortdesc}
 
-# Come faccio a sapere che i miei dati sono sicuri? 
+# Come faccio a sapere che i miei dati sono sicuri?
 {: #security}
 
 Sviluppata con procedure di progettazione sicura, la piattaforma {{site.data.keyword.cloud_notm}} offre diversi livelli di controlli di sicurezza tra
@@ -21,7 +21,7 @@ incidenti di sicurezza. Per i dettagli, vedi il sito [IBM Security Vulnerability
 
 {{site.data.keyword.cloud_notm}} pubblico e dedicato utilizzano i servizi del cloud IaaS (infrastructure-as-a-service) classico e sfruttano al massimo la sua architettura di sicurezza. Per le tue applicazioni e i tuoi dati, IaaS classico fornisce molteplici livelli di protezione che si sovrappongono tra di loro. Per {{site.data.keyword.cloud_notm}} locale, la sicurezza fisica è di tua competenza e fornisci l'infrastruttura ospitando {{site.data.keyword.cloud_notm}} locale nel tuo data center dietro un firewall aziendale. Inoltre, {{site.data.keyword.cloud_notm}} aggiunge funzionalità di sicurezza a livello di PaaS (Platform as a Service) in diverse categorie: piattaforma, dati e applicazione. Per ulteriori dettagli sulla sicurezza del tuo ambiente e delle applicazioni in {{site.data.keyword.Bluemix_notm}}, vedi [Securing applications and environments on cloud ![Icona link esterno](../icons/launch-glyph.svg "Icona link esterno")](https://www.ibm.com/cloud/garage/architectures/securityArchitecture){: new_window}.
 
-## Conformità {{site.data.keyword.Bluemix_notm}} 
+## Conformità {{site.data.keyword.Bluemix_notm}}
 {: #compliance}
 
 {{site.data.keyword.Bluemix}} fornisce una piattaforma cloud sicura di cui ti puoi fidare. La conformità {{site.data.keyword.Bluemix_notm}} deriva da una piattaforma e da servizi basati sui migliori standard di sicurezza, tra cui ISO 27001 e ISO 27002.
@@ -85,7 +85,7 @@ La seguente tabella mostra quali servizi {{site.data.keyword.Bluemix_notm}} sono
 |{{site.data.keyword.dashdbshort}}			|S	|S	|	|S	|
 |{{site.data.keyword.dataworks_short}}				|	|	|	|S	 		|
 |{{site.data.keyword.contdelivery_short}}					|S	|S	|	|			|
-|{{site.data.keyword.containerlong}}			|S		|S	|	|			|
+|{{site.data.keyword.containerlong}}			|S		|S	|	|		S	|
 |{{site.data.keyword.dwl_short}}				|	|	|	|S	 		|
 |{{site.data.keyword.mql}}				|S	|S	|S	|	 		|
 |{{site.data.keyword.SecureGateway}}			|S	|S |	|	 		|

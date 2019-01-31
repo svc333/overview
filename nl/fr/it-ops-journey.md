@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2018
-lastupdated: "2018-11-30"
+  years: 2018, 2019
+lastupdated: "2019-01-04"
 
 
 ---
@@ -66,7 +66,7 @@ Tout d'abord, accédez à la page présentant l'[architecture d'infrastructure![
 
 ### {{site.data.keyword.cloud_notm}} Design Decision Tool
 
-L'outil [{{site.data.keyword.cloud_notm}} Design Decision Tool ![Icône de lien externe](../icons/launch-glyph.svg "Icône de lien externe")](https://github.com/ibm-cloud-architecture/infrastructure-design-decision-tool/){: new_window} vous permet de comparer les différentes alternatives lors de la conception et de la génération de votre solution personnalisée. Chaque composant d'infrastructure inclut des descriptions, des remarques, des avertissements et des comparaisons en parallèle. Vous trouverez également un exemple présentant comment utiliser l'outil.
+L'outil [{{site.data.keyword.cloud_notm}} Design Decision Tool ![Icône de lien externe](../icons/launch-glyph.svg "Icône de lien externe")](https://github.com/ibm-cloud-architecture/infrastructure-design-decision-tool/){: new_window} vous permet de comparer les différentes alternatives lors de la conception et de la génération de votre solution personnalisée. Chaque composant d'infrastructure inclut des descriptions, des remarques, des avertissements et des comparaisons. Vous trouverez également un exemple présentant comment utiliser l'outil.
 
 ### {{site.data.keyword.cloud_notm}} Stencils
 
@@ -74,7 +74,7 @@ L'outil [{{site.data.keyword.cloud_notm}} Design Decision Tool ![Icône de lien 
 
 ### Options de serveur Bare Metal
 
-Utilisez l'outil [{{site.data.keyword.cloud_notm}} {{site.data.keyword.baremetal_short}} Search Tool ![Icône de lien externe](../icons/launch-glyph.svg "Icône de lien externe")](https://www.ibm.com/cloud-computing/bluemix/bare-metal-search){: new_window} pour évaluer vos options de serveur Bare Metal, incluant les serveurs ayant été certifiés pour la prise en charge des charges de travail SAP HANA et SAP NetWeaver.
+Utilisez l'outil [{{site.data.keyword.cloud_notm}} {{site.data.keyword.baremetal_short}} Search Tool ![Icône de lien externe](../icons/launch-glyph.svg "Icône de lien externe")](https://www.ibm.com/cloud-computing/bluemix/bare-metal-search){: new_window} pour évaluer vos options de serveur Bare Metal, incluant les serveurs certifiés pour la prise en charge des charges de travail SAP HANA et SAP NetWeaver.
 
 ### Services {{site.data.keyword.cloud_notm}} et conformité
 
@@ -103,7 +103,7 @@ Votre serveur constitue la base de votre infrastructure. Vous disposez de diffé
 ### Stockage
 {: #storage}
 
-Les serveurs {{site.data.keyword.baremetal_short}} ainsi que les serveurs {{site.data.keyword.BluVirtServers_short}} sont mis à disposition avec le stockage par défaut. Les serveurs {{site.data.keyword.baremetal_short}} disposent d'au minimum 1 To d'espace disque SATA et les serveurs {{site.data.keyword.BluVirtServers_short}} disposent d'au minimum 25 Go de stockage SAN. Les serveurs {{site.data.keyword.baremetal_short}} certifiés SAP {{site.data.keyword.cloud_notm}} constituent une exception. Pour plus d'informations sur le stockage par défaut disponible avec ces serveurs, voir [{{site.data.keyword.cloud_notm}} SAP-Certified Infrastructure](/docs/bare-metal/bare-metal-sap-applications.html#ibm-cloud-sap-certified-infrastructure).
+Les serveurs {{site.data.keyword.baremetal_short}} ainsi que les serveurs {{site.data.keyword.BluVirtServers_short}} sont mis à disposition avec le stockage par défaut. Les serveurs {{site.data.keyword.baremetal_short}} disposent d'au minimum 1 To d'espace disque SATA et les serveurs {{site.data.keyword.BluVirtServers_short}} disposent d'au minimum 25 Go de stockage SAN. Les serveurs {{site.data.keyword.baremetal_short}} {{site.data.keyword.cloud_notm}} certifiés SAP constituent une exception. Pour plus d'informations sur le stockage par défaut disponible avec ces serveurs, voir [{{site.data.keyword.cloud_notm}} SAP-Certified Infrastructure](/docs/bare-metal/bare-metal-sap-applications.html#ibm-cloud-sap-certified-infrastructure).
 
 Vous pouvez acheter du stockage supplémentaire en fonction de vos besoins. Consultez le tableau suivant pour obtenir un récapitulatif de vos options de calcul.
 
@@ -111,7 +111,7 @@ Vous pouvez acheter du stockage supplémentaire en fonction de vos besoins. Cons
 |--------|---------------|
 | [{{site.data.keyword.blockstorageshort}}](/docs//infrastructure/BlockStorage/index.html) | Stockage iSCSI hautes performances persistant mis à disposition et géré indépendamment des instances de calcul. Les numéros d'unité logique Block Storage basés sur iSCSI sont connectés à des périphériques autorisés via des connexions en E-S multi-accès (MPIO) redondantes. |
 | [{{site.data.keyword.filestorage_short}}](/docs/infrastructure/FileStorage/index.html) | File Storage basé sur NFS, persistant, rapide et connecté au réseau de façon flexible. Cet environnement NAS vous permet d'avoir un contrôle total des fonctions et des performances de vos partages de fichiers. Les partages File Storage peuvent être connectés à 64 périphériques autorisés via des connexions TCP/IP acheminées pour la résilience. |
-| [{{site.data.keyword.cos_full_notm}}](/docs/services/cloud-object-storage/about-cos.html) | Les informations stockées avec IBM Cloud Object Storage sont chiffrées et réparties dans plusieurs emplacements géographiques. Elles sont accessibles via HTTP en utilisant une API REST. Ce service utilise les technologies de stockage distribué fournies par IBM Cloud Object Storage System (auparavant Cleversafe). |
+| [{{site.data.keyword.cos_full_notm}}](/docs/services/cloud-object-storage/about-cos.html) | Les informations stockées avec IBM Cloud Object Storage sont chiffrées et réparties à plusieurs emplacements géographiques. Elles sont accessibles via HTTP en utilisant une API REST. Ce service utilise les technologies de stockage distribué fournies par IBM Cloud Object Storage System (auparavant Cleversafe). |
 | [{{site.data.keyword.cloud_notm}} Mass Data Migration](/docs/infrastructure/mass-data-migration/index.html) | Décharge de grandes quantités de données de votre centre de données sur site dans votre compartiment Cloud Object Storage. |
 | [EVault](/docs/infrastructure/Backup/index.html) | Système de sauvegarde automatique basé sur un agent géré via l'utilitaire de gestion par navigateur EVault WebCC pour les serveurs virtuels uniquement. Sauvegardez les données sur les différents serveurs d'un ou de plusieurs centres de données sur le réseau IBM Cloud. |
 {: caption="Tableau 2. Options de stockage" caption-side="top"}
@@ -130,7 +130,7 @@ Consultez le tableau suivant pour obtenir un récapitulatif de vos options de r�
 | [Adresses IP globales](/docs/infrastructure/subnets/about-global-ip.html) | Offre flexibilité et vous permet de transférer les charges de travail à des serveurs même dans des centres de données se trouvant à différents emplacements géographiques. |
 | [Equilibrage de charge](/docs/infrastructure/local-load-balancer/about.html) | Distribue le traitement et les communications de manière équitable dans plusieurs serveurs d'un centre de données de telle sorte qu'un seul périphérique ne supporte l'intégralité d'une charge. |
 | [Virtual Router Appliance](/docs/infrastructure/virtual-router-appliance/about.html) | Achemine de manière sélective le trafic réseau privé et public via un routeur d'entreprise complet équipé d'un pare-feu, d'une fonction de report de l'envoi de paquets, d'un routage basé sur des règles, d'un réseau VPN et d'un hôte disposant d'autres fonctions. |
-| [VPN IPSec](/docs/infrastructure/iaas-vpn/set-up-ipsec-vpn.html) | Suite de protocoles conçus pour l'authentification et le chiffrement de tout le trafic IP entre deux emplacements, en utilisant un mode de tunnel qui fournit un réseau entre sites chiffré. |
+| [VPN IPSec](/docs/infrastructure/iaas-vpn/set-up-ipsec-vpn.html) | Suite de protocoles conçus pour l'authentification et le chiffrement de tout le trafic IP entre deux emplacements, en utilisant un mode de tunnel qui fournit un réseau entre sites chiffrés. |
 | {{site.data.keyword.cloud_notm}} Direct Link | Optimise un fournisseur Cloud Exchange pour permettre la connectivité aux emplacements de l'infrastructure {{site.data.keyword.cloud_notm}}. |
 {: caption="Tableau 3. Options de réseau" caption-side="top"}
 

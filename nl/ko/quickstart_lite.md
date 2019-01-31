@@ -18,7 +18,7 @@ lastupdated: "2018-11-14"
 # 무료로 {{site.data.keyword.Bluemix_notm}} 사용해 보기
 {: #quickstart_lite}
 
-{{site.data.keyword.Bluemix}}를 사용해 보고 싶으십니까? Lite 계정은 클라우드에서의 작업, Watson 사용 등에 대해 알아볼 때 매우 유용합니다. 또한 {{site.data.keyword.Bluemix_notm}}에서 사용 가능한 여러 컴포넌트를 사용하여 개념 증명(PoC)을 빌드하는 데 적합합니다. 이 빠른 시작 안내서는 Lite 계정을 시작하고 실행하는 데 도움을 주기 위한 것입니다.  
+{{site.data.keyword.Bluemix}}를 사용해 보고 싶으십니까? Lite 계정은 클라우드에서의 작업, Watson 사용 등에 대해 학습하기에 매우 유용합니다. 또한 {{site.data.keyword.Bluemix_notm}}에서 사용 가능한 여러 컴포넌트를 사용하여 개념 증명(PoC)을 빌드하는 데 적합합니다. 이 빠른 시작 안내서는 Lite 계정을 시작하고 실행하는 데 도움을 주기 위한 것입니다.  
 {:shortdesc}  
 
 ## 시작하기 전에

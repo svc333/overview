@@ -2,9 +2,9 @@
 
 copyright:
 
-  years: 2018
+  years: 2018, 2019
 
-lastupdated: "2018-11-14"
+lastupdated: "2019-01-02"
 
 ---
 
@@ -17,7 +17,7 @@ lastupdated: "2018-11-14"
 # 계정 설정
 {: #quickstart_acc_ad}
 
-이 빠른 시작 안내서는 계정 관리자가 {{site.data.keyword.Bluemix}} 환경을 설정하는 데 도움을 주기 위한 것입니다.
+이 빠른 시작 안내서는 계정 관리자가 {{site.data.keyword.Bluemix}} 환경을 설정하는 데 도움을 주기 위한 것입니다. 
 {:shortdesc}
 
 1. {{site.data.keyword.Bluemix_notm}} 카탈로그에서 작성된 리소스를 구성하는 데 사용할 리소스 그룹을 작성하십시오. 자세한 정보는 [리소스 그룹 내의 리소스 구성에 대한 우수 사례](/docs/resources/bestpractice_rgs.html#bp_resourcegroups)를 참조하십시오.
@@ -30,9 +30,9 @@ lastupdated: "2018-11-14"
 4. 사용자를 계정에 초대하고 액세스 그룹에 추가하여 계정 사용자가 빌드할 수 있도록 허용하는 데 필요한 액세스를 지정하십시오. 자세한 정보는 [IAM 시작하기 튜토리얼](/docs/iam/quickstart.html#getstarted)을 참조하십시오.
 5. 이벤트 및 계정 지출 한계에 대한 알림을 설정하십시오. 자세한 정보는 [이메일 환경 설정 지정](/docs/account/email.html) 및 [지출 한계 설정](/docs/billing-usage/notifications.html)을 참조하십시오. 
 6. 비용 추정기를 사용하여 사용자 환경에 소요될 비용을 파악하십시오. 콘솔 메뉴 표시줄에서 비용 추정기 아이콘 ![추정기 아이콘](../icons/Estimator.svg)을 클릭하십시오. 
-7. 비용 추정기를 사용하여 인프라에 소요될 비용을 파악하십시오.  
+7. 비용 추정기를 사용하여 인프라에 소요될 비용을 파악하십시오. 
   
-  a. [카탈로그](https://console.cloud.ibm.com/catalog){: new_window} ![외부 링크 아이콘](../icons/launch-glyph.svg)에서 오퍼링을 선택하여 시작하십시오. 
+  a. [카탈로그](https://cloud.ibm.com/catalog){: new_window} ![외부 링크 아이콘](../icons/launch-glyph.svg)에서 오퍼링을 선택하여 시작하십시오. 
   
   b. 구성 세부사항을 입력하고 가격 플랜을 선택한 후 **추정값에 추가**를 클릭하십시오.
 

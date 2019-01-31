@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017, 2018
-lastupdated: "2018-11-30"
+  years: 2017, 2019
+lastupdated: "2019-01-07"
 
 ---
 
@@ -23,19 +23,19 @@ lastupdated: "2018-11-30"
 {{site.data.keyword.Bluemix}}는 신뢰할 수 있는 보안 클라우드 플랫폼을 제공합니다. {{site.data.keyword.Bluemix_notm}} 준수는 ISO 27001과 ISO 27002 등 업계 최고 보안 표준을 기반으로 빌드된 플랫폼 및 서비스를 사용할 때 보장됩니다.
 {:shortdesc}
 
-**EU(European Union) 모델 조항**을 통합하는 ![EU 데이터 보호 모델 조항](images/icon_eumc.png) 협약은 EU 또는 EEA(European Economic Area)에서 제3의 국가로 전송되는 개인 데이터를 보호합니다. EU 모델 조항은 EU 또는 EEA에 위치한 데이터 반출자 역할의 고객과 제3의 국가에 위치한 데이터 반입자 역할의 IBM 데이터 처리자가 체결합니다. [IBM Data Processing Addendum(EU Standard Contractual Clauses 포함) ![외부 링크 아이콘](../icons/launch-glyph.svg "외부 링크 아이콘")](http://www-01.ibm.com/common/ssi/cgi-bin/ssialias?subtype=ST&infotype=SA&htmlfid=KUJ12408USEN&attachment=KUJ12408USEN.PDF){: new_window}에는 데이터 반출자와 데이터 반입자의 권리와 의무 및 데이터 주체의 권리가 포함되어 있습니다. IBM Data Processing Addendum에서는 제3의 국가에서 처리되는 개인 데이터에 대해 EU 또는 EEA에서 사용 가능한 것과 유사한 보호를 제공합니다. 
+**EU(European Union) 모델 조항**을 통합하는 ![EU 데이터 보호 모델 조항](images/icon_eumc.png) 협약은 EU 또는 EEA(European Economic Area)에서 제3의 국가로 전송되는 개인 데이터를 보호합니다. EU 모델 조항은 EU 또는 EEA에 위치한 데이터 반출자 역할의 고객과 제3의 국가에 위치한 데이터 반입자 역할의 IBM 데이터 처리자가 체결합니다. [IBM Data Processing Addendum(EU Standard Contractual Clauses 포함) ![외부 링크 아이콘](../icons/launch-glyph.svg "외부 링크 아이콘")](http://www-01.ibm.com/common/ssi/cgi-bin/ssialias?subtype=ST&infotype=SA&htmlfid=KUJ12408USEN&attachment=KUJ12408USEN.PDF){: new_window}에는 데이터 반출자와 데이터 반입자의 권리와 의무 및 데이터 주체의 권리가 포함되어 있습니다. IBM Data Processing Addendum에서는 제3의 국가에서 처리되는 개인 데이터에 대해 EU 또는 EEA에서 사용 가능한 것과 유사한 보호를 제공합니다.
 
 
 ![금융 기관 정보 시스템](images/FISC.gif) 일본의 은행 및 관련 금융 기관에 구축된 컴퓨터 시스템에는 FISC(Center for Financial Industry Information Systems) 보안 지침을 기반으로 하는 보안 절차가 마련되어 있어야 합니다. FISC 보안 지침은 일본 금융 기관(FSA), 일본 은행(BOJ) 및 FISC에서 적용됩니다.
  
 
-![ISO 27001/2](images/icon_iso27k1.png)  {{site.data.keyword.Bluemix_notm}}는 최상의 정보 보안 관리 프로세스 방안을 정의하는 **국제 표준화 기구(ISO) 27001 및 27002 표준**에 의거하여 인증되었습니다. ISO 27001은 널리 채택된 글로벌 보안 표준으로, 정보 보안 관리 시스템에 대한 요구사항을 간략하게 정의합니다. 정기적인 위험성 평가를 기반으로 회사 및 고객 정보를 관리하는 체계적인 방식을 제공합니다. 최신 표준인 ISO/IEC 27001:2013은 2013년 9월 25일에 **국제 표준화 기구(ISO) 및 국제 전기 표준 회의(IEC)**가 ISO 및 IEC의 공동 소위원회를 통해 발표했습니다. ISO 27001 표준은 개별 조직의 요구에 따라 정보 보안 관리 시스템(ISMS)의 설정, 구현 및 문서화를 위한 요구사항과 보안 제어 구현을 위한 요구사항을 지정합니다. ISO 27002 표준은 ISO 27001의 각 보안 제어를 상세히 설명합니다. ISO 27000 표준 모음은 서면, 구두 또는 전자식 정보의 신뢰성, 무결성 및 가용성 보호를 목적으로 자산의 가치와 위험을 척도화하는 프로세스를 통합한 것입니다.
+![ISO 27001/2](images/icon_iso27k1.png) {{site.data.keyword.Bluemix_notm}}는 최상의 정보 보안 관리 프로세스 방안을 정의하는 **국제 표준화 기구(ISO) 27001 및 27002 표준**에 의거하여 인증되었습니다. ISO 27001은 널리 채택된 글로벌 보안 표준으로, 정보 보안 관리 시스템에 대한 요구사항을 간략하게 정의합니다. 정기적인 위험성 평가를 기반으로 회사 및 고객 정보를 관리하는 체계적인 방식을 제공합니다. 최신 표준인 ISO/IEC 27001:2013은 2013년 9월 25일에 **국제 표준화 기구(ISO) 및 국제 전기 표준 회의(IEC)**가 ISO 및 IEC의 공동 소위원회를 통해 발표했습니다. ISO 27001 표준은 개별 조직의 요구에 따라 정보 보안 관리 시스템(ISMS)의 설정, 구현 및 문서화를 위한 요구사항과 보안 제어 구현을 위한 요구사항을 지정합니다. ISO 27002 표준은 ISO 27001의 각 보안 제어를 상세히 설명합니다. ISO 27000 표준 모음은 서면, 구두 또는 전자식 정보의 신뢰성, 무결성 및 가용성 보호를 목적으로 자산의 가치와 위험을 척도화하는 프로세스를 통합한 것입니다.
 
 ISO 27001:2013 인증을 획득하려면 회사는 회사 및 고객 정보의 기밀성, 무결성 및 가용성에 영향을 미치는 정보 보안 위험을 관리할 수 있는 체계적이고 지속적인 방식을 보유하고 있음을 입증해야 합니다. 이 표준은 조직의 정보 보안 관리 시스템(ISMS)이 얼마나 효과적으로 작동되고 있는지에 대한 측정 및 평가를 중요시하며 시스템 요구사항 및 기타 요구사항을 기반으로 하는 정보 보안 관련 제어도 포함합니다.
 
 {{site.data.keyword.Bluemix_notm}}는 서드파티 보안 회사에 의한 감사를 거치며 ISO 27001의 모든 요구사항을 충족합니다([Bluemix ISO 27001:2013 등록 인증서 ![외부 링크 아이콘](../icons/launch-glyph.svg "외부 링크 아이콘")](ftp://public.dhe.ibm.com/cloud/bluemix/compliance/Bluemix_ISO27K1_WWCert_2016.pdf){: new_window}).
 
-![PCI DSS](images/icon_pci.png)  **지불 카드 업계(PCI) 데이터 보안 표준(DSS)**은 신용카드 데이터를 보호하도록 설계된 정보 보안 표준입니다. PCI DSS는 사업자, 프로세서, 발급자 및 서비스 제공자를 포함한 지불 카드 처리와 관련된 모든 엔티티에 적용됩니다. 또한 카드 소지자 데이터 또는 중요한 인증 데이터를 저장, 처리 또는 전송하는 모든 기타 엔티티에도 적용됩니다.
+![PCI DSS](images/icon_pci.png) **지불 카드 업계(PCI) 데이터 보안 표준(DSS)**은 신용카드 데이터를 보호하도록 설계된 정보 보안 표준입니다. PCI DSS는 사업자, 프로세서, 발급자 및 서비스 제공자를 포함한 지불 카드 처리와 관련된 모든 엔티티에 적용됩니다. 또한 카드 소지자 데이터 또는 중요한 인증 데이터를 저장, 처리 또는 전송하는 모든 기타 엔티티에도 적용됩니다.
 
 신용카드 데이터를 저장하거나 처리하는 경우 지불 카드 업계(PCI) 규제 준수 및 네트워크 보안은 비즈니스의 첫 번째 고려사항입니다. 지불 카드 업계 보안 표준 위원회는 사업자들이 일관된 표준을 사용하도록 하기 위해 PCI 데이터 보안 표준을 확립했습니다. 이 표준은 카드 소유자의 데이터를 보호하기 위한 우수 사례를 통합한 것으로 서드파티 인증된 서비스 평가자(QSA)의 유효성 검증이 필요합니다. IBM은 독립적인 QSA에서 받은 규제 준수 인증을 제공하여 고객이 PCI 준수 요구사항을 충족할 수 있도록 도와드립니다. SOC 2 보고서 및 ISO 27001 인증과 함께 규제 준수 인증을 사용하여 인프라가 PCI 규제를 충족함을 증명할 수 있습니다.
 
@@ -81,7 +81,7 @@ ISO 27001:2013 인증을 획득하려면 회사는 회사 및 고객 정보의 �
 |{{site.data.keyword.dashdbshort}}			|Y	|Y	|	|Y	|
 |{{site.data.keyword.dataworks_short}}				|	|	|	|Y	 		|
 |{{site.data.keyword.contdelivery_short}}					|Y	|Y	|	|			|
-|{{site.data.keyword.containerlong}}			|Y		|Y	|	|			|
+|{{site.data.keyword.containerlong}}			|Y		|Y	|	|		Y	|
 |{{site.data.keyword.dwl_short}}				|	|	|	|Y	 		|
 |{{site.data.keyword.mql}}				|Y	|Y	|Y	|	 		|
 |{{site.data.keyword.SecureGateway}}			|Y	|Y |	|	 		|

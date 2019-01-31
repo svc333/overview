@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2018
-lastupdated: "2018-11-30"
+  years: 2018, 2019
+lastupdated: "2019-01-04"
 
 
 ---
@@ -17,7 +17,7 @@ lastupdated: "2018-11-30"
 # Esplora il percorso dell'amministratore delle operazioni IT in {{site.data.keyword.cloud_notm}}
 {: #it-ops}
 
-Poiché molte organizzazioni passano a un ambiente cloud, in locale o ospitato nei data center, il ruolo dell'amministratore delle operazioni IT (IT ops admin) sta venendo ridefinito. La portata e la complessità di questa modifica aumentano in modo significativo in base al tipo di ambiente che la tua organizzazione sta cercando di distribuire.
+Poiché molte organizzazioni passano a un ambiente cloud, in locale o ospitato nei data center, il ruolo dell'amministratore delle operazioni IT (IT ops admin) sta venendo ridefinito. L'ambito e la complessità di questa modifica aumentano in modo significativo in base al tipo di ambiente che la tua organizzazione vuole distribuire.
 {: .shortdesc}
 
 Prima del passaggio al cloud, hai lavorato con un ambiente intrinsecamente sicuro con sistemi collegati alla tua intranet o LAN privata. In un ambiente cloud, ti aspetti ora di eseguire le seguenti attività:
@@ -36,7 +36,7 @@ Prima del passaggio al cloud, hai lavorato con un ambiente intrinsecamente sicur
 ### Modelli del servizio cloud
 {: #cloud-svc-models}
 
-Esistono tre tipi di modelli del servizio cloud: IaaS (Infrastructure as a Service), PaaS (Platform as a Service) e SaaS (Software as a Service). La figura 1 illustra chi fa cosa all'interno di ogni modello del servizio. Per ulteriori informazioni, vedi [IaaS, PaaS, and SaaS - IBM Cloud service models](https://www.ibm.com/cloud/learn/iaas-paas-saas){: new_window} ![Icona link esterno](../icons/launch-glyph.svg "Icona link esterno").
+Esistono tre tipi di modelli di servizio cloud: IaaS (Infrastructure as a Service), PaaS (Platform as a Service) e SaaS (Software as a Service). La figura 1 illustra chi fa cosa all'interno di ogni modello del servizio. Per ulteriori informazioni, vedi [IaaS, PaaS, and SaaS - IBM Cloud service models](https://www.ibm.com/cloud/learn/iaas-paas-saas){: new_window} ![Icona link esterno](../icons/launch-glyph.svg "Icona link esterno").
 
 ![Figura 1. Modelli del servizio cloud](images/cloud-svc-models.png "Modelli del servizio cloud")
 
@@ -44,7 +44,7 @@ Con il modello IaaS, il tuo provider è responsabile solo della gestione dell'in
 
 Con il modello PaaS, il tuo provider è responsabile per i sistemi tramite il sistema operativo e per tutta la gestione dell'infrastruttura, che include le patch del sistema operativo, i ripristini dell'hardware e le impostazioni di rete. Tu crei e gestisci l'applicazione e tu o il tuo provider potete installare il middleware, inclusi i database e altri tipi. Questo modello viene utilizzato per sviluppare e verificare il software. Per ulteriori informazioni, consulta [A practical guide to platform as a service: What is PaaS ![Icona link esterno](../icons/launch-glyph.svg "Icona link esterno")](https://www.ibm.com/blogs/cloud-computing/2016/08/10/practical-guide-paas/){: new_window}.
 
-Con il modello SaaS, il tuo provider gestisce i sistemi tramite l'applicazione attuale. L'applicazione è consapevole del cloud e gli utenti finali possono utilizzare diversi endpoint per utilizzare il software a seconda del provider. Il provider cloud è responsabile di tutta la gestione dell'infrastruttura e dell'applicazione, che include gli aggiornamenti del software i ripristini dell'hardware e le impostazioni di rete. Questo modello è spesso utilizzato nei modelli di licenza software a pagamento. Per ulteriori informazioni, vedi [SaaS applications for business and IT](https://www.ibm.com/cloud/saas){: new_window} ![Icona link esterno](../icons/launch-glyph.svg "Icona link esterno").
+Con il modello SaaS, il tuo provider gestisce i sistemi tramite l'applicazione attuale. L'applicazione è compatibile con il cloud e gli utenti possono utilizzare diversi endpoint per utilizzare il software, a seconda del provider. Il provider cloud è responsabile di tutta la gestione dell'infrastruttura e dell'applicazione, che include gli aggiornamenti del software i ripristini dell'hardware e le impostazioni di rete. Questo modello è spesso utilizzato nei modelli di licenza software a pagamento. Per ulteriori informazioni, vedi [SaaS applications for business and IT](https://www.ibm.com/cloud/saas){: new_window} ![Icona link esterno](../icons/launch-glyph.svg "Icona link esterno").
 
 ### Tipi di cloud
 {: #cloud-types}
@@ -58,7 +58,7 @@ Un cloud ibrido include le risorse che combinano gli aspetti dei cloud privato e
 ## Pianificazione della tua infrastruttura
 {: #planning}
 
-Vorrai pianificare la tua infrastruttura prima di eseguirne realmente il provisioning per assicurarti di stabilirne correttamente le dimensioni per il tuo carico di lavoro. {{site.data.keyword.cloud_notm}} ha diversi strumenti e siti per aiutarti nella progettazione e nello stabilire le dimensioni della tua infrastruttura. 
+Vuoi pianificare la tua infrastruttura prima di eseguirne il provisioning per assicurarti di ridimensionarla correttamente per il tuo carico di lavoro. {{site.data.keyword.cloud_notm}} ha diversi strumenti e siti per aiutarti nella progettazione e nello stabilire le dimensioni della tua infrastruttura. 
 
 ### Architettura dell'infrastruttura
 
@@ -66,7 +66,7 @@ Inizia con l'[architettura dell'infrastruttura ![Icona link esterno](../icons/la
 
 ### {{site.data.keyword.cloud_notm}} Design Decision Tool
 
-Il [{{site.data.keyword.cloud_notm}} Design Decision Tool ![Icona link esterno](../icons/launch-glyph.svg "Icona link esterno")](https://github.com/ibm-cloud-architecture/infrastructure-design-decision-tool/){: new_window} ti aiuta a confrontare le alternative quando progetti e crei la tua soluzione personalizzata. Ogni componente dell'infrastruttura presenta descrizioni, considerazioni e avvertimenti e confronti affiancati. Puoi inoltre trovare un esempio su come utilizzare lo strumento.
+Lo strumento [{{site.data.keyword.cloud_notm}} Design Decision Tool ![Icona link esterno](../icons/launch-glyph.svg "Icona link esterno")](https://github.com/ibm-cloud-architecture/infrastructure-design-decision-tool/){: new_window} ti aiuta a confrontare le alternative quando progetti e crei la tua soluzione personalizzata. Ogni componente dell'infrastruttura presenta descrizioni, considerazioni e avvertimenti e dei confronti affiancati. Puoi inoltre trovare un esempio su come utilizzare lo strumento.
 
 ### {{site.data.keyword.cloud_notm}} Stencils
 
@@ -74,11 +74,11 @@ Il [{{site.data.keyword.cloud_notm}} Design Decision Tool ![Icona link esterno](
 
 ### Opzioni server bare metal
 
-Utilizza [{{site.data.keyword.cloud_notm}} {{site.data.keyword.baremetal_short}} Search Tool ![Icona link esterno](../icons/launch-glyph.svg "Icona link esterno")](https://www.ibm.com/cloud-computing/bluemix/bare-metal-search){: new_window} per stabilire le dimensioni ed eseguire una stima delle tue opzioni server bare metal, inclusi i server che sono stati certificati per supportare i carichi di lavoro SAP HANA e SAP NetWeaver.
+Utilizza [{{site.data.keyword.cloud_notm}} {{site.data.keyword.baremetal_short}} Search Tool ![Icona link esterno](../icons/launch-glyph.svg "Icona link esterno")](https://www.ibm.com/cloud-computing/bluemix/bare-metal-search){: new_window} per dimensionare e stimare le tue opzioni di server bare metal, inclusi i server che sono certificati per supportare i carichi di lavoro SAP HANA e SAP NetWeaver.
 
-### Conformità e servizi {{site.data.keyword.cloud_notm}} 
+### Conformità e servizi {{site.data.keyword.cloud_notm}}
 
-Come con qualsiasi architettura, dovresti considerare le risorse {{site.data.keyword.cloud_notm}} che potresti aggiungere alla tua soluzione quando stabilisci le dimensioni della tua infrastruttura. Per ulteriori informazioni, vedi [SaaS applications for business and IT ![Icona link esterno](../icons/launch-glyph.svg "Icona link esterno")](https://www.ibm.com/cloud/saas) {: new_window} e cerca un servizio specifico. Devi anche pensare a tutte le normative che devi prendere in considerazione quando crei la tua architettura. Ad esempio, il tuo carico di lavoro è considerato sensibile o è regolamentato? Per ulteriori informazioni, vedi [Compliance ![Icona link esterno](../icons/launch-glyph.svg "Icona link esterno")](https://www.ibm.com/cloud/compliance){: new_window}.
+Come con qualsiasi architettura, dovresti considerare le risorse {{site.data.keyword.cloud_notm}} che potresti aggiungere alla tua soluzione quando stabilisci le dimensioni della tua infrastruttura. Per ulteriori informazioni, vedi [SaaS applications for business and IT ![Icona link esterno](../icons/launch-glyph.svg "Icona link esterno")](https://www.ibm.com/cloud/saas) {: new_window} e cerca un servizio specifico. Devi anche pensare a tutte le normative che devi considerare quando crei la tua architettura. Ad esempio, il tuo carico di lavoro è considerato sensibile o è regolamentato? Per ulteriori informazioni, vedi [Compliance ![Icona link esterno](../icons/launch-glyph.svg "Icona link esterno")](https://www.ibm.com/cloud/compliance){: new_window}.
 
 ## Creazione della tua infrastruttura
 {: #build}
@@ -103,15 +103,15 @@ Il tuo server è la base della tua infrastruttura. Hai diverse opzioni a seconda
 ### Archiviazione
 {: #storage}
 
-{{site.data.keyword.baremetal_short}} e {{site.data.keyword.BluVirtServers_short}} vengono forniti con l'archiviazione predefinita. I {{site.data.keyword.baremetal_short}} hanno un minimo di 1 TB di spazio su disco SATA e i {{site.data.keyword.BluVirtServers_short}} hanno un minimo di 25 GB di archiviazione SAN. L'eccezione a questo sono i {{site.data.keyword.cloud_notm}} {{site.data.keyword.baremetal_short}} certificati SAP. Per ulteriori informazioni sull'archiviazione predefinita disponibile con questi server, vedi [{{site.data.keyword.cloud_notm}} SAP-Certified Infrastructure](/docs/bare-metal/bare-metal-sap-applications.html#ibm-cloud-sap-certified-infrastructure).
+{{site.data.keyword.baremetal_short}} e {{site.data.keyword.BluVirtServers_short}} vengono forniti con l'archiviazione predefinita. I {{site.data.keyword.baremetal_short}} hanno un minimo di 1 TB di spazio su disco SATA e i {{site.data.keyword.BluVirtServers_short}} hanno un minimo di 25 GB di archiviazione SAN. L'eccezione è rappresentata dai {{site.data.keyword.baremetal_short}} con certificazione SAP {{site.data.keyword.cloud_notm}}. Per ulteriori informazioni sull'archiviazione predefinita disponibile con questi server, vedi [{{site.data.keyword.cloud_notm}} SAP-Certified Infrastructure](/docs/bare-metal/bare-metal-sap-applications.html#ibm-cloud-sap-certified-infrastructure).
 
-Puoi acquistare ulteriore archiviazione in base ai tuoi bisogni. Consulta la seguente tabella per un riepilogo delle tue opzioni di calcolo.
+Puoi acquistare ulteriore archiviazione in base alle tue esigenze. Consulta la seguente tabella per un riepilogo delle tue opzioni di calcolo.
 
 | Opzione | Descrizione |
 |--------|---------------|
 | [{{site.data.keyword.blockstorageshort}}](/docs//infrastructure/BlockStorage/index.html) | Archiviazione iSCSI persistente e a elevate prestazioni di cui viene eseguito il provisioning ed è gestita indipendentemente dalle istanze di calcolo. Le LUN Block Storage basate su iSCSI sono connesse ai dispositivi autorizzati tramite connessioni MPIO (multi-path I/O) ridondanti. |
 | [{{site.data.keyword.filestorage_short}}](/docs/infrastructure/FileStorage/index.html) | File Storage persistente, veloce, collegato alla rete flessibile e basato su NFS. In questo ambiente NAS (network-attached storage), hai un controllo totale sulla funzione e le prestazioni delle tue condivisioni di file. Le condivisioni File Storage possono essere collegate fino a 64 dispositivi autorizzati su connessioni TCP/IP instradate per la resilienza. |
-| [{{site.data.keyword.cos_full_notm}}](/docs/services/cloud-object-storage/about-cos.html) | Le informazioni archiviate con IBM Cloud Object Storage vengono crittografate e diffuse in più ubicazioni geografiche ed è possibile accedervi tramite HTTP utilizzando un'API REST. Questo servizio utilizza le tecnologie di archiviazione distribuita fornite dal sistema IBM Cloud Object Storage (in precedenza Cleversafe). |
+| [{{site.data.keyword.cos_full_notm}}](/docs/services/cloud-object-storage/about-cos.html) | Le informazioni memorizzate con IBM Cloud Object Storage vengono crittografate e diffuse in più ubicazioni geografiche e sono accessibili tramite HTTP utilizzando un'API REST. Questo servizio utilizza le tecnologie di archiviazione distribuita fornite da IBM Cloud Object Storage System (in precedenza Cleversafe). |
 | [{{site.data.keyword.cloud_notm}} Mass Data Migration](/docs/infrastructure/mass-data-migration/index.html) | Offload di grandi quantità di dati dal tuo data center in loco al tuo bucket Cloud Object Storage. |
 | [EVault](/docs/infrastructure/Backup/index.html) | Un sistema di backup basato sull'agent automatizzato che viene gestito tramite il programma di utilità di gestione basato sul browser EVault WebCC solo per i server virtuali. Esegui il backup dei dati tra i server in uno o più data center nella rete IBM Cloud. |
 {: caption="Tabella 2. Opzioni di archiviazione" caption-side="top"}
@@ -125,12 +125,12 @@ Consulta la seguente tabella per un riepilogo delle tue opzioni di rete.
 
 | Opzione | Descrizione | 
 |--------|---------------|
-| [Content Delivery Network](/docs/infrastructure/CDN/about.html) | Utilizzata per diverse soluzioni del settore, inclusi media, intrattenimento, software, giochi, operazioni bancarie e e-commerce, per soddisfare le esigenze delle tue attività commerciali. |
+| [Content Delivery Network](/docs/infrastructure/CDN/about.html) | Utilizzato per varie soluzioni di settore, tra cui media, intrattenimento, software, giochi, servizi bancari ed e-commerce, per soddisfare le esigenze delle tue attività commerciali. |
 | [DNS (Domain Name Service)](/docs/cli/reference/ibmcloud/cli_dns.html) | Fornisce un'ubicazione centrale per visualizzare e gestire i tuoi domini tramite l'interfaccia di gestione DNS di base e ti fornisce anche l'opzione di gestire DNS inversi e secondari nella stessa ubicazione gratuitamente. |
 | [Indirizzi IP globali](/docs/infrastructure/subnets/about-global-ip.html) | Forniscono la flessibilità e ti consentono di spostare i carichi di lavoro tra i server, anche tra data center geograficamente eterogenei. |
 | [Bilanciamento del carico](/docs/infrastructure/local-load-balancer/about.html) | Distribuisce l'elaborazione e le comunicazioni su più server in un data center per evitare che un singolo dispositivo debba sopportare tutto il carico. |
-| [VRA (Virtual Router Appliance)](/docs/infrastructure/virtual-router-appliance/about.html) | Instrada selettivamente il traffico di rete pubblico e privato tramite un router aziendale completo con firewall, modellamento del traffico, instradamento basato sulla politica, VPN e un host di altre funzioni. |
-| [VPN IPSec](/docs/infrastructure/iaas-vpn/set-up-ipsec-vpn.html) | Una suite di protocolli progettata per autenticare e codificare tutto il traffico IP tra due ubicazioni, utilizzando una modalità di tunneling che fornisce una rete codificata site-to-site. |
+| [VRA (Virtual Router Appliance)](/docs/infrastructure/virtual-router-appliance/about.html) | Instrada in modo selettivo il traffico di rete pubblico e privato tramite un router aziendale completo con firewall, modellamento del traffico, instradamento basato su politiche, VPN e un host di altre funzioni. |
+| [VPN IPSec](/docs/infrastructure/iaas-vpn/set-up-ipsec-vpn.html) | Una suite di protocolli progettata per autenticare e crittografare tutto il traffico IP tra due ubicazioni utilizzando una modalità tunnel che fornisce una rete da sito a sito crittografata. |
 | {{site.data.keyword.cloud_notm}} Direct Link | Utilizza un provider Cloud Exchange per fornire la connettività alle ubicazioni dell'infrastruttura {{site.data.keyword.cloud_notm}}. |
 {: caption="Tabella 3. Opzioni di rete" caption-side="top"}
 
@@ -143,7 +143,7 @@ Dopo aver creato la tua infrastruttura e il tuo ambiente, sei pronto per iniziar
 | Attività | Descrizione |
 |--------|---------------|
 | [Monitora gli eventi di sistema](/docs/account/audit_log.html) | Visualizza le azioni che sono state eseguite sulle tue risorse dell'infrastruttura. |
-| [Configura le preferenze email](/docs/account/email.html) |Configura le notifiche email dell'infrastruttura {{site.data.keyword.cloud_notm}} sugli eventi non pianificati, la manutenzione e gli annunci.  |
-| [Comprendi come proteggere i tuoi dati](/docs/overview/security.html) |La piattaforma {{site.data.keyword.cloud_notm}} offre diversi livelli di controlli di sicurezza tra la rete e l'infrastruttura. |
+| [Configura le preferenze email](/docs/account/email.html) | Configura le notifiche email dell'infrastruttura {{site.data.keyword.cloud_notm}} sugli eventi non pianificati, la manutenzione e gli annunci.  |
+| [Comprendi come proteggere i tuoi dati](/docs/overview/security.html) | La piattaforma {{site.data.keyword.cloud_notm}} offre diversi livelli di controlli di sicurezza tra la rete e l'infrastruttura. |
 | [Comprendi come puoi garantire nessun tempo di inattività](/docs/overview/zero_downtime.html) | Tutte le risorse {{site.data.keyword.cloud_notm}} sono ospitate in ubicazioni data center in tutto il mondo. |
 {: caption="Tabella 4. Attività di gestione" caption-side="top"}
