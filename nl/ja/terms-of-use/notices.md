@@ -4,8 +4,8 @@
 
 copyright:
 
-  years: 2015, 2019
-lastupdated: "2019-01-14"
+  years: 2015, 2018
+lastupdated: "2018-10-04"
 
 
 ---
@@ -24,7 +24,7 @@ lastupdated: "2019-01-14"
 IBM Cloud アカウントおよび IBM Cloud から注文されたすべてのサービスは以下のご使用条件に基づいて使用許諾されます。
 
   * 基本ご使用条件のクラウドご利用条件は、以下の通り適用されます。
-    * 米ドル・クレジット・カード請求の場合の SoftLayer クラウド・サービスご使用条件。[https://www.ibm.com/support/customer/zz/en/softlayer.html](https://www.ibm.com/support/customer/zz/en/softlayer.html){: new_window} ![外部リンク・アイコン](../../icons/launch-glyph.svg) を参照
+    * 米ドル・クレジット・カード請求の場合の SoftLayer クラウド・サービスご使用条件、 [http://www.softlayer.com/legal](http://www.softlayer.com/legal){: new_window} ![外部リンク・アイコン](../../icons/launch-glyph.svg) を参照
     * 非米ドル・クレジット・カード請求または IBM からの請求を選択した場合の IBM Cloud サービス契約書 (ローカル国バージョン*)、[https://www.ibm.com/terms](https://www.ibm.com/terms){: new_window} ![外部リンク・アイコン](../../icons/launch-glyph.svg) (国を選択) を参照、
     * 受け入れ済みの IBM パスポート・アドバンテージご使用条件および IBM パスポート・アドバンテージ・クライアント用の Cloud Offerings ご利用条件の共通事項、[http://www-03.ibm.com/software/sla/sladb.nsf/sla/tou](http://www-03.ibm.com/software/sla/sladb.nsf/sla/tou){: new_window} ![外部リンク・アイコン](../../icons/launch-glyph.svg)を参照、または
     * お客様と IBM との間の同等のクラウド・サービス基本ご使用条件、
@@ -54,7 +54,7 @@ IBM およびその子会社は、お客様に割り当てられた IP アドレ
 ### 2. お客様提供の IP アドレス
 {: #client_provided_ips}
 
-お客様が、独自の地域インターネット・レジストリー (RIR) 発行の IP アドレスを提供する場合があります。これは、サポート Case を送信して、お客様所有の IP 接頭部を指定するための授権書を提供することで、特定の技術的な制限と所有権の検証の対象となります。IBM が要求を承認した場合、このような IP アドレスは、お客様の代わりにボーダー・ゲートウェイ・プロトコル (BGP) 経由で通知され、示されているお客様のサーバーに経路指定されます。 お客様は、これらの IP アドレスの所有権を保持します。 お客様の要求時、またはサービスの取り消し時に、IBM はこれらの IP アドレスの通知および経路指定を停止します。 IBM は、BGP 接頭部がすべてのアップストリームの ISP で受け入れられるように合理的な努力を尽くしますが、お客様が所有する IP の全世界にわたる到達性を保証することはできません。 
+お客様が、独自の地域インターネット・レジストリー (RIR) 発行の IP アドレスを提供する場合があります。これは、サポート・チケットを送信して、お客様所有の IP 接頭部を指定するための授権書を提供することで、特定の技術的な制限と所有権の検証の対象となります。 IBM が要求を承認した場合、このような IP アドレスは、お客様の代わりにボーダー・ゲートウェイ・プロトコル (BGP) 経由で通知され、示されているお客様のサーバーに経路指定されます。 お客様は、これらの IP アドレスの所有権を保持します。 お客様の要求時、またはサービスの取り消し時に、IBM はこれらの IP アドレスの通知および経路指定を停止します。 IBM は、BGP 接頭部がすべてのアップストリームの ISP で受け入れられるように合理的な努力を尽くしますが、お客様が所有する IP の全世界にわたる到達性を保証することはできません。 
 
 ### 3. 審査/正当性/効率性のガイドライン
 {: #review_justification_efficiency}
