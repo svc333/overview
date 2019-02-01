@@ -41,7 +41,7 @@ The following list includes the requirements of the disaster recovery plan:
 - For load balancing, a document exists to explain how the computing service stays available. 
 - Where multi-site failover occurs, the disaster recovery plan must explain who does what to cause the failover and ensure restart. 
 - The disaster recovery plan must define how the solution works and what the data loss is. 
-- It must confirm how the Maximum Tolerable Downtime is met and be stored on the Disaster Recovery Plan Rep database.  
+- It must confirm how the Maximum Tolerable Downtime is met and be stored on the Disaster Recovery Plan database.  
 - The disaster recovery plan specifies the security controls for running in Disaster mode, if they are different from what's running in production. 
 
 ### Management of the disaster recovery plan 
