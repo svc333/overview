@@ -20,7 +20,7 @@ lastupdated: "2018-11-28"
 # Comment garantir une disponibilité permanente ?
 {: #zero-downtime}
 
-Votre stratégie globale est importante. Vous pouvez sélectionner un emplacement ou un centre de données spécifique pour le déploiement de vos données dans la zone géographique appropriée à vos clients.
+Votre stratégie globale est importante. Vous pouvez sélectionner un emplacement ou un centre de données spécifique pour le déploiement de vos données dans la zone géographique appropriée à vos clients. 
 {:shortdesc}
 
 Les services de plateforme {{site.data.keyword.Bluemix}} sont auto-gérés. Autrement dit, les emplacements dans lesquels vous déployez votre application peuvent répartir les charges de travail dans plusieurs centres de données. Vous pouvez également mettre en place un système de basculement. Ainsi, votre application est toujours opérationnelle pour vos clients. Pour vos ressources d'infrastructure, vous pouvez sélectionner des centres de données individuels dans lesquels les ressources sont déployées. 
@@ -70,14 +70,13 @@ ibmcloud api https://api.eu-gb.bluemix.net
 
 Un préfixe unique est affecté à chaque emplacement. {{site.data.keyword.cloud_notm}} fournit les emplacements et les préfixes d'emplacement suivants :
 
-| **Emplacement** | **Noeud final d'API** |
-|-----------------|-------------------|
-| Dallas | api.ng.bluemix.net |
-| Sydney | api.au-syd.bluemix.net |
-| Francfort | api.eu-de.bluemix.net |
-| Londres | api.eu-gb.bluemix.net |
+| **Emplacement**  | **Noeud final d'API**        |
+|---------------|-------------------------|
+| Dallas        | api.ng.bluemix.net      |
+| Sydney        | api.au-syd.bluemix.net  |
+| Francfort     | api.eu-de.bluemix.net   |
+| Londres        | api.eu-gb.bluemix.net   |
 | Washington DC | api.us-east.bluemix.net |
-| Tokyo | api.jp-tok.bluemix.net |
 {: caption="Tableau 1. Liste des emplacements {{site.data.keyword.cloud_notm}}" caption-side="top"}
 
 Lorsque vous déployez des ressources d'infrastructure, vous disposez de plus de choix quant à l'emplacement de vos données. Vous pouvez sélectionner un emplacement ou effectuer une sélection dans une liste de centres de données dans {{site.data.keyword.Bluemix_notm}}. 
@@ -95,72 +94,72 @@ Un centre de données est l'emplacement physique qui héberge les ressources d'a
 ### Amérique du Nord
 {: #na}
 
-| Nom du centre de données | Code |
-|----------|---------|
-|Dallas 01|dal01|
-|Dallas 05|dal05|
-|Dallas 06|dal06|
-|Dallas 07|dal07|
-|Dallas 09|dal09|
-|Dallas 10|dal10|
-|Dallas 12|dal12|
-|Dallas 13|dal13|
-|Washington DC 01|wdc01|
-|Washington DC 04|wdc04|
-|Washington DC 06|wdc06|
-|Washington DC 07|wdc07|
-|San José 01|sjc01|
-|San José 03|sjc03|
-|San José 04|sjc04|
-|Seattle 01|sea01|
-|Houston 01|hou01|
-|Montréal 01|mon01|
-|Toronto 01|tor01|
-|Mexico 01|mex01|
+| Nom du centre de données | Code  |
+|------------------|-------|
+| Dallas 01        | dal01 |
+| Dallas 05        | dal05 |
+| Dallas 06        | dal06 |
+| Dallas 07        | dal07 |
+| Dallas 09        | dal09 |
+| Dallas 10        | dal10 |
+| Dallas 12        | dal12 |
+| Dallas 13        | dal13 |
+| Washington DC 01 | wdc01 |
+| Washington DC 04 | wdc04 |
+| Washington DC 06 | wdc06 |
+| Washington DC 07 | wdc07 |
+| San José 01      | sjc01 |
+| San José 03      | sjc03 |
+| San José 04      | sjc04 |
+| Seattle 01       | sea01 |
+| Houston 01       | hou01 |
+| Montréal 01      | mon01 |
+| Toronto 01       | tor01 |
+| Mexico 01        | mex01 |
 {: caption="Tableau 2. Centres de données en Amérique du Nord" caption-side="top"}
 
 ### Amérique du Sud
 {: #sa}
 
-| Nom du centre de données | Code |
-|----------|---------|
-|Sao Paulo 01|sao01|
+| Nom du centre de données | Code    |
+|------------------|---------|
+| Sao Paulo 01     | sao01   |
 {: caption="Tableau 3. Centre de données en Amérique du Sud" caption-side="top"}
 
 ### Europe
 {: #eu}
 
-| Nom du centre de données | Code |
-|----------|---------|
-|Londres 02|lon02|
-|Londres 04|lon04|
-|Londres 05|lon05|
-|Londres 06|lon06|
-|Francfort 02|fra02|
-|Francfort 04|fra04|
-|Francfort 05|fra05|
-|Milan 01|mil01|
-|Amsterdam 01|ams01|
-|Amsterdam 03|ams03|
-|Paris 01|par01|
-|Oslo 01|osl01|
+| Nom du centre de données | Code  |
+|------------------|-------|
+| Londres 02        | lon02 |
+| Londres 04        | lon04 |
+| Londres 05        | lon05 |
+| Londres 06        | lon06 |
+| Francfort 02     | fra02 |
+| Francfort 04     | fra04 |
+| Francfort 05     | fra05 |
+| Milan 01         | mil01 |
+| Amsterdam 01     | ams01 |
+| Amsterdam 03     | ams03 |
+| Paris 01         | par01 |
+| Oslo 01          | osl01 |
 {: caption="Tableau 4. Centres de données en Europe" caption-side="top"}
 
 ### Asie-Pacifique
 {: #ap}
 
-| Nom du centre de données | Code |
-|----------|---------|
-|Tokyo 01|tok02|
-|Tokyo 04|tok04|
-|Tokyo 05|tok05|
-|Séoul 01|seo01|
-|Hong Kong 02|hkg02|
-|Singapour 01|sng01|
-|Sydney 01|syd01|
-|Sydney 04|syd04|
-|Sydney 05|syd05|
-|Melbourne 01|mel01|
+| Nom du centre de données | Code  |
+|------------------|-------|
+| Tokyo 01         | tok02 | 
+| Tokyo 04         | tok04 |
+| Tokyo 05         | tok05 |
+| Séoul 01         | seo01 |
+| Hong Kong 02     | hkg02 |
+| Singapour 01     | sng01 |
+| Sydney 01        | syd01 |
+| Sydney 04        | syd04 |
+| Sydney 05        | syd05 |
+| Melbourne 01     | mel01 |
 {: caption="Tableau 5. Centre de données dans la zone Asie-Pacifique" caption-side="top"}
 
 
@@ -185,11 +184,11 @@ Vous pouvez bénéficier d'un crédit pour votre compte si le temps d'indisponib
 - Les services cloud dans l'environnement public configurés pour la haute disponibilité tels qu'ils sont décrits dans les détails de catalogue pour chaque service. 
 - Les services cloud dans plusieurs environnements locaux ou dédiés se trouvant dans des centres de données à différents emplacements géographiques. 
 
-|Type	|Description	|Informations relatives au support|
-|-----|-------------|---------------|
-|Environnement public à haute disponibilité ou plusieurs environnements locaux/dédiés |Autres environnements |Crédit |
-|<99,95 % |<99,5 % |10 % |
-|<99,90 % |<99,0 % |25 % |
+| Type	                                                                        | Description	       | Informations relatives au support|
+|-------------------------------------------------------------------------------|--------------------|----------------|
+| Environnement public à haute disponibilité ou plusieurs environnements locaux/dédiés | Autres environnements | Crédit         |
+| <99,9 5%                                                                       |<99,5 %              |10 %             |
+| <99,9 0%                                                                       |<99,0 %              |25 %             |
 {: caption="Tableau 6. Niveau de service de disponibilité mensuel" caption-side="top"}
 
 Le pourcentage de disponibilité est calculé de la façon suivante : nombre total de minutes d'un mois contractuel moins le nombre total de minutes d'indisponibilité dans ce mois, divisé par le nombre total de minutes dans ce mois. 
@@ -204,7 +203,7 @@ Par exemple, dans un mois de 31 jours, le nombre total de minutes est égal à 4
 
 Les accords sur les niveaux de service ne mentionnent pas les périodes d'indisponibilité ou les défaillances liées aux exclusions spécifiées, à l'indisponibilité de l'interface graphique {{site.data.keyword.Bluemix_notm}}, ainsi qu'à la durée de rechargement, de configuration, d'activation ou d'accès au contenu.
 
-Les accords sur les niveaux de service concernant le temps d'indisponibilité n'incluent pas les services d'infrastructure {{site.data.keyword.Bluemix_notm}}.
+Les accords sur les niveaux de service concernant le temps d'indisponibilité n'incluent pas les services d'infrastructure {{site.data.keyword.Bluemix_notm}}. 
 {: note}
 
 ### Services d'infrastructure - Accord sur les niveaux de service
@@ -222,17 +221,17 @@ Le temps d'indisponibilité n'inclut pas la période de maintenance annoncée ou
 - Le remplacement de matériel. Ce crédit est défini en fonction de la durée écoulée entre le moment où {{site.data.keyword.Bluemix_notm}} a enregistré la panne matérielle signalée par le client et celui où le remplacement est effectué.
 - Les mises à niveau de matériel planifiées. Ce crédit dépend de la durée d'indisponibilité totale du service bénéficiant de la mise à niveau. 
 
-Les périodes de niveau de service excluent la durée de rechargement du système d'exploitation ou des applications, ainsi que toute période pendant laquelle les performances sont dégradées. Si {{site.data.keyword.Bluemix_notm}} ne parvient pas à garantir une période de niveau de service définie, vous pouvez bénéficier d'un crédit calculé d'après les frais mensuels du service affecté par la mise à niveau ou le remplacement matériel. 
+Les périodes de niveau de service excluent la durée de rechargement du système d'exploitation ou des applications, ainsi que toute période pendant laquelle les performances sont dégradées. Si {{site.data.keyword.Bluemix_notm}} ne parvient pas à garantir une période de niveau de service définie, vous pouvez bénéficier d'un crédit calculé d'après les frais mensuels du service affecté par la mise à niveau ou le remplacement matériel.
 
-|Type	|Description	|
-|-----|-------------|
-|Période de niveau de service |Pourcentage de crédit |
-|≤ 2 heures |Aucun |
-|> 2 heures |20 % |
-|> 6 heures |40 % |
-|> 10 heures |60 % |
-|> 14 heures |80 % |
-|> 18 heures |80 % |
+| Type	                    | Description	   |
+|---------------------------|----------------|
+| Période de niveau de service | Pourcentage de crédit |
+| ≤ 2 heures                 | Aucun           |
+| > 2 heures                 | 20 %            |
+| > 6 heures                 | 40 %            |
+| > 10 heures                | 60 %            |
+| > 14 heures                | 80 %            |
+| > 18 heures                | 80 %            |
 {: caption="Tableau 7. Crédit en fonction des frais mensuels pour le service affecté par la mise à niveau ou le remplacement matériel" caption-side="top"}
 
 ### Réclamations
@@ -240,7 +239,7 @@ Soumettez votre réclamation dans une période de 60 jours suivant la fin du moi
 
 Le crédit correspondra à la compensation applicable la plus élevée d'après la disponibilité totale du service affecté lors d'un mois contractuel et sera calculé en utilisant les frais mensuels de ce service. Les crédits ne peuvent pas excéder 25 % des frais mensuels.
 
-Pour soumettre une réclamation pour le temps d'indisponibilité, contactez le [support {{site.data.keyword.Bluemix_notm}}](https://console.cloud.ibm.com/unifiedsupport/supportcenter){: new_window} ![Icône de lien externe](../icons/launch-glyph.svg "Icône de lien externe").
+Pour soumettre une réclamation de temps d'indisponibilité, contactez le [support {{site.data.keyword.Bluemix_notm}}](https://console.cloud.ibm.com/unifiedsupport/supportcenter){: new_window} ![Icône de lien externe](../icons/launch-glyph.svg "Icône de lien externe").
 
 ### Exclusions
 Aucun crédit n'est accordé lorsque l'accord sur les niveaux de service n'est pas respecté pour les raisons suivantes :

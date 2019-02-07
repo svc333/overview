@@ -4,8 +4,8 @@
 
 copyright:
 
-  years: 2015, 2018
-lastupdated: "2018-10-04"
+  years: 2015, 2019
+lastupdated: "2019-01-14"
 
 
 ---
@@ -24,14 +24,14 @@ lastupdated: "2018-10-04"
 Votre compte IBM Cloud et les services offerts dans le cadre d'IBM Cloud sont fournis dans les conditions fixées par :
 
   * Les dispositions du contrat de base Cloud qui s'appliquent à vous comme suit :
-    * Le contrat relatif au service SoftLayer Cloud pour la facturation des cartes de crédit en dollars américains, disponible à l'adresse [http://www.softlayer.com/legal](http://www.softlayer.com/legal){: new_window} ![Icône de lien externe](../../icons/launch-glyph.svg)
+    * Le contrat relatif au service SoftLayer Cloud pour la facturation des cartes de crédit en dollars américains, disponible à l'adresse [https://www.ibm.com/support/customer/zz/en/softlayer.html](https://www.ibm.com/support/customer/zz/en/softlayer.html){: new_window} ![Icône de lien externe](../../icons/launch-glyph.svg)
     * Le contrat relatif aux services IBM Cloud (version du pays local*) pour la facturation des cartes de crédit autre qu'en dollars américains, ou si vous sélectionnez un mode de facturation à partir d'IBM, disponible à l'adresse [https://www.ibm.com/terms](https://www.ibm.com/terms){: new_window} ![Icône de lien externe](../../icons/launch-glyph.svg) (sélectionnez votre pays) ;
     * Le contrat IBM Passport Advantage que vous avez accepté et les dispositions générales des présentes conditions d'utilisation des offres Cloud pour les clients IBM Passport Advantage, disponibles à l'adresse [http://www-03.ibm.com/software/sla/sladb.nsf/sla/tou](http://www-03.ibm.com/software/sla/sladb.nsf/sla/tou){: new_window} ![Icône de lien externe](../../icons/launch-glyph.svg) ; ou
     * Les dispositions équivalentes du contrat de base relatif au service Cloud entre vous et IBM ;
   * Une description de service pour IBM Cloud disponible à l'adresse [http://www-03.ibm.com/software/sla/sladb.nsf/sla/bm](http://www-03.ibm.com/software/sla/sladb.nsf/sla/bm){: new_window} ![Icône de lien externe](../../icons/launch-glyph.svg) ;
   * Des descriptions de service supplémentaires qui s'appliquent à n'importe quel service commandé à l'aide de votre compte IBM Cloud, disponibles à l'adresse [http://www-03.ibm.com/software/sla/sladb.nsf/sla/bm](http://www-03.ibm.com/software/sla/sladb.nsf/sla/bm){: new_window} ![Icône de lien externe](../../icons/launch-glyph.svg) ; et
   * Des fiches techniques applicables référencées dans des descriptions de service supplémentaires applicables ou disponibles à partir du lien "Terms" pour un service dans l'interface utilisateur IBM Cloud, disponibles à l'adresse [http://www-03.ibm.com/software/sla/sladb.nsf/sla/csdsp](http://www-03.ibm.com/software/sla/sladb.nsf/sla/csdsp){: new_window} ![Icône de lien externe](../../icons/launch-glyph.svg).
-  * Une capacité réservée s'applique à une condition fixe définie dans une commande et ne peut pas être interrompue par le client avant la fin. Une capacité réservée peut être éligible pour un renouvellement à la fin d'une condition par entente mutuelle entre le client et SoftLayer. Les capacités réservées qui ne sont ni renouvelées ni interrompues avant la fin de leurs conditions seront converties en services Cloud mensuels soumis aux dispositions du contrat et à la description des services Cloud en vigueur, ainsi qu'au prix de distribution en vigueur. 
+  * Une capacité réservée s'applique à une condition fixe définie dans une commande et ne peut pas être interrompue par le client avant la fin. Une capacité réservée peut être éligible pour un renouvellement à la fin d'une condition par entente mutuelle entre le client et SoftLayer. Les capacités réservées qui ne sont ni renouvelées ni interrompues avant la fin de leurs conditions seront converties en services Cloud mensuels soumis aux dispositions du contrat et à la description des services Cloud en vigueur, ainsi qu'au prix de distribution en vigueur.
 
 ### Licence pour l'image IBM WebSphere Application Server Liberty Profile
 {: #license_liberty_image}
@@ -54,7 +54,7 @@ International Business Machines Corporation (IBM) ou ses filiales est propriéta
 ### 2. Adresses IP fournies par le client
 {: #client_provided_ips}
 
-Le client peut fournir ses propres adresses IP émises par le registre Internet régional (RIR), soumises à certaines limitations techniques et à la vérification de propriété, en envoyant un ticket de support et en transmettant une lettre d'autorisation afin de spécifier des préfixes IP lui appartenant. Lorsque IBM approuve une demande, ces adresses IP sont annoncées par l'intermédiaire du protocole BGP (Border Gateway Protocol) au nom du client et acheminées vers les serveurs identifiés. Le client reste propriétaire de ces adresses IP. A la demande de ce dernier ou lors de l'annulation des services, IBM cesse d'annoncer et d'acheminer ces adresses. Même si IBM fait son possible pour s'assurer que les préfixes BGP sont acceptés par tous les fournisseurs d'accès, nous ne garantissons pas l'accessibilité globale pour les IP appartenant au client. 
+Le client peut fournir ses propres adresses IP émises par le registre Internet régional (RIR), soumises à certaines limitations techniques et à la vérification de propriété, en soumettant un cas de support et en transmettant une lettre d'autorisation afin de spécifier des préfixes IP lui appartenant. Lorsque IBM approuve une demande, ces adresses IP sont annoncées par l'intermédiaire du protocole BGP (Border Gateway Protocol) au nom du client et acheminées vers les serveurs identifiés. Le client reste propriétaire de ces adresses IP. A la demande de ce dernier ou lors de l'annulation des services, IBM cesse d'annoncer et d'acheminer ces adresses. Même si IBM fait son possible pour s'assurer que les préfixes BGP sont acceptés par tous les fournisseurs d'accès, nous ne garantissons pas l'accessibilité globale pour les IP appartenant au client. 
 
 ### 3. Instructions de révision, de justification et d'efficacité
 {: #review_justification_efficiency}
@@ -143,7 +143,7 @@ Le programme sous licence décrit dans ce document et tous les
 Les données de performances et les exemples client ne sont fournis qu'à des fins d'illustration. Les résultats de performances réels peuvent varier en fonction des configurations spécifiques et des conditions de fonctionnement.
 
 Les informations concernant des produits non IBM ont été obtenues auprès des
-fournisseurs de ces produits, par l'intermédiaire d'annonces publiques ou via d'autres sources disponibles. IBM n'a  pas  testé ces produits et ne peut confirmer l'exactitude de leurs
+fournisseurs de ces produits, par l'intermédiaire d'annonces publiques ou via d'autres sources disponibles. IBM n'a pas testé ces produits et ne peut confirmer l'exactitude de leurs
 performances ni leur compatibilité. Elle ne peut recevoir aucune réclamation concernant des produits
 non IBM. Toute question concernant les performances de produits
 non IBM doit être adressée aux fournisseurs de ces produits.
