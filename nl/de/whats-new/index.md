@@ -2,9 +2,9 @@
 
 copyright:
 
-  years: 2015, 2018
+  years: 2015, 2019
 
-lastupdated: "2018-11-30"
+lastupdated: "2019-01-22"
 
 ---
 
@@ -14,7 +14,7 @@ lastupdated: "2018-11-30"
 # Neuerungen in {{site.data.keyword.Bluemix_notm}}
 {: #whatsnew}
 
-Wenn Sie stets auf dem aktuellen Stand über die neuen Features und Services bleiben, die in {{site.data.keyword.Bluemix}} verfügbar sind, können Sie am meisten von {{site.data.keyword.Bluemix_notm}} profitieren. Die Aktualisierungen sind in die folgenden Kategorien unterteilt: [{{site.data.keyword.Bluemix_notm}}-Plattform](index.html#platform_category), [{{site.data.keyword.Bluemix_local_notm}} und {{site.data.keyword.Bluemix_dedicated_notm}}](index.html#dedicatedandlocal), [Infrastruktur und Ressourcen](index.html#compute_category) sowie [Services](index.html#services_category).
+Wenn Sie hinsichtlich neuer Features und Services, die in {{site.data.keyword.Bluemix}} verfügbar sind, stets auf dem aktuellen Stand bleiben, können Sie am meisten von {{site.data.keyword.Bluemix_notm}} profitieren. Die Aktualisierungen sind in die folgenden Kategorien unterteilt: [{{site.data.keyword.Bluemix_notm}}-Plattform](index.html#platform_category), [{{site.data.keyword.Bluemix_local_notm}} und {{site.data.keyword.Bluemix_dedicated_notm}}](index.html#dedicatedandlocal), [Infrastruktur und Ressourcen](index.html#compute_category) sowie [Services](index.html#services_category).
 {:shortdesc}
 
 ## {{site.data.keyword.Bluemix_notm}}-Plattform
@@ -22,13 +22,12 @@ Wenn Sie stets auf dem aktuellen Stand über die neuen Features und Services ble
 
 
 ### Neues Unterstützungserlebnis für {{site.data.keyword.Bluemix_notm}}
-Datum der Neuerung: 30. November 2018
+Datum der Neuerung: 30. November 2018 
 {: #support}
 
-Mit dem Support Center können Sie alle Probleme in Bezug auf {{site.data.keyword.Bluemix_notm}} lösen. Auf der Zielseite finden Sie häufig gestellte Fragen (FAQs), sodass Sie die Antwort auf Ihre Frage finden können, ohne sich dazu überhaupt mit {{site.data.keyword.Bluemix_notm}} in Verbindung setzen zu müssen. Ihnen steht auch die Option offen, mit einem Live-Supportmitarbeiter zu chatten. Ihre Fälle können jetzt von einem einzigen Ort aus verwaltet werden. Rufen Sie **Support** &gt; **Fälle verwalten** auf, um Fälle zu erstellen, anzuzeigen, oder zu bearbeiten.
+Mit dem Support Center können Sie alle Probleme im Zusammenhang mit {{site.data.keyword.Bluemix_notm}} lösen. Auf der Zielseite finden Sie häufig gestellte Fragen (FAQs), sodass Sie die Antwort auf Ihre Frage finden können, ohne sich dazu überhaupt mit {{site.data.keyword.Bluemix_notm}} in Verbindung setzen zu müssen. Sie können auch mit einem Live-Supportmitarbeiter chatten. Ihre Fälle können jetzt von einem einzigen Ort aus verwaltet werden. Rufen Sie **Support** &gt; **Fälle verwalten** auf, um Fälle zu erstellen, anzuzeigen, oder zu bearbeiten.
 
-Sie können die [Statusseite](https://cloud.ibm.com/status){: new_window} ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link") ebenfalls über das Support Center suchen. Die Seite wurde funktional so erweitert, dass sie alle ungeplanten Vorfälle, geplante Wartungsmaßnahmen, Ankündigungen und Sicherheitsbulletinbenachrichtigungen in Bezug auf bedeutende Ereignisse enthält, die die {{site.data.keyword.Bluemix_notm}}-Plattform, ihr Infrastruktur und die wichtigsten Services betreffen.
-Klicken Sie im Support Center auf **Cloudstatus anzeigen**. Um herauszufinden, wie das neue Erlebnis aussieht, melden Sie sisch an und wechseln Sie zum [Support-Center](https://cloud.ibm.com/unifiedsupport/supportcenter){: new_window} ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link"). 
+Sie können die [Statusseite](https://cloud.ibm.com/status){: new_window} ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link") ebenfalls über das Support Center suchen. Die Seite wurde funktional so erweitert, dass sie alle ungeplanten Vorfälle, geplante Wartungsmaßnahmen, Ankündigungen und Sicherheitsbulletinbenachrichtigungen in Bezug auf bedeutende Ereignisse enthält, die die {{site.data.keyword.Bluemix_notm}}-Plattform, die Infrastruktur und die wichtigsten Services betreffen. Klicken Sie im Support Center auf **Cloudstatus anzeigen**. Um herauszufinden, wie das neue Erlebnis aussieht, melden Sie sich an und wechseln Sie zum [Support-Center](https://cloud.ibm.com/unifiedsupport/supportcenter){: new_window} ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link"). 
 
 ### Einheitliche Anmeldung, API-Schlüssel sowie Benutzer-und Zugriffsverwaltung in {{site.data.keyword.Bluemix_notm}}
 Datum der Neuerung: 30. November 2018
@@ -36,44 +35,48 @@ Datum der Neuerung: 30. November 2018
 
 Mit unseren neuesten Aktualisierungen können Sie die Vorteile einer vereinfachten sicheren Anmeldung nutzen, die allen Benutzern unabhängig von ihrem ID-Typ zur Verfügung ist. Unabhängig davon, ob Sie über eine IBMid oder eine SoftLayer-ID verfügen, können Sie sich von der funktional erweiterten Anmeldeseite schnell bei der {{site.data.keyword.Bluemix_notm}}-Konsole anmelden. Sie können auch sichere API-Aufrufe in {{site.data.keyword.Bluemix_notm}} tätigen und Ihre CLI-Anmeldung durch die Verwendung eines IAM-API-Schlüssels oder eines IAM-Zugriffstokens automatisieren. 
 
-Nachdem Sie sich angemeldet haben, werden Sie feststellen, dass auf Ihrer Benutzerseite in der IAM-Benutzerschnittstelle (UI) jetzt alle Benutzer einschließlich der Benutzer der Plattform und der klassischen Infrastruktur angezeigt werden. Abhängig von Ihrem Zugriff für die Anzeige anderer Benutzer im Konto können Sie Ihre Ansicht rasch nach Kontobenutzern, Benutzern der klassischen Infrastruktur oder Cloud Foundry-Organisation filtern. Mit diesen Filtern können Sie Benutzer auch schnell nach Name, E-Mail-Adresse oder Status suchen.
+Nachdem Sie sich angemeldet haben, werden in der IAM-Benutzerschnittstelle (UI) auf der Seite 'Benutzer' jetzt alle Benutzer einschließlich der Benutzer der Plattform und der klassischen Infrastruktur angezeigt. Abhängig von Ihrem Zugriff für die Anzeige anderer Benutzer im Konto können Sie Ihre Ansicht rasch nach Kontobenutzern, Benutzern der klassischen Infrastruktur oder Cloud Foundry-Organisation filtern. Mit diesen Filtern können Sie Benutzer auch schnell nach Name, E-Mail-Adresse oder Status suchen.
 
+Nachdem sich nun alle Ihre Benutzer in einer einzigen Konsole befinden, können Sie ihren Zugriff auf alle Typen von Ressourcen von demselben Ort aus verwalten. Der Zugriff beginnt beim Benutzer. Beginnen Sie also mit der Auswahl eines Benutzers aus Ihrer Liste. Abhängig von der Art der Ressource, der Sie Zugriff zuweisen wollen, können Sie zwischen IAM-Zugriffsrichtlinien, Cloud Foundry-Zugriff oder klassischen Infrastrukturberechtigungen auswählen. Wenn Sie einfach nur IAM-Zugriffsrichtlinien zuweisen möchten, erstellen Sie eine Zugriffsgruppe, um Ihren Zugriffsverwaltungsprozess zu optimieren, indem Sie alle Benutzer, denen dieselben Richtlinien zugewiesen werden müssen, zu derselben Zugriffsgruppe hinzufügen.
 
-Nachdem sich nun alle Ihre Benutzer in einer einzigen Konsole befinden, können Sie ihren Zugriff auf alle Typen von Ressourcen von demselben Ort aus verwalten. Der Zugriff beginnt beim Benutzer. Beginnen Sie also einfach mit der Auswahl eines Benutzers aus Ihrer Liste. Abhängig von der Art der Ressource, der Sie Zugriff zuweisen wollen, können Sie zwischen IAM-Zugriffsrichtlinien, Cloud Foundry-Zugriff oder klassischen Infrastrukturberechtigungen auswählen. Wenn Sie einfach nur IAM-Zugriffsrichtlinien zuweisen möchten, erstellen Sie eine Zugriffsgruppe, um Ihren Zugriffsverwaltungsprozess zu optimieren, indem Sie alle Benutzer, denen dieselben Richtlinien zugewiesen werden müssen, zu derselben Zugriffsgruppe hinzufügen.
+Weitere Details enthält der Blogbeitrag [Outstanding User Access Improvements Help Deliver a Unified {{site.data.keyword.Bluemix_notm}} Platform](https://www.ibm.com/blogs/bluemix/2018/11/ibm-cloud-access-management){: new_window} ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link"). 
 
-### Gesamte Dokumentation für das Plug-in der {{site.data.keyword.Bluemix_notm}}-CLI an einem Ort suchen
+### Gesamte Dokumentation für das Plug-in der {{site.data.keyword.Bluemix_notm}}-CLI befindet sich jetzt an einem Ort
 Datum der Neuerung: 30. November 2018
 {: #cli}
 
-Sie können jetzt an einem Ort auf die gesamte Dokumentation des Plug-ins für die {{site.data.keyword.Bluemix_notm}}-CLI zugreifen, wodurch es einfacher wird, einen beliebigen CLI-Befehl, den Sie suchn, auf der {{site.data.keyword.Bluemix_notm}}-Plattform zu finden. Lesen Sie hierzu in der [CLI-Dokumentation](/docs/cli/index.html#overview) den Abschnitt 'Referenzen'.
+Sie können jetzt an einem Ort auf die gesamte Dokumentation des Plug-ins für die {{site.data.keyword.Bluemix_notm}}-CLI zugreifen, wodurch es einfacher wird, einen beliebigen CLI-Befehl, den Sie suchen, auf der {{site.data.keyword.Bluemix_notm}}-Plattform zu finden. Lesen Sie hierzu in der [CLI-Dokumentation](/docs/cli/index.html#overview) den Abschnitt 'Referenzen'.
 
 ### Sehen Sie sich das neue Dashboard und die neue Ressourcenliste an
 Datum der Neuerung: 30. November 2018
 {: #dash}
 
-Mit der neuesten Aktualisierung können Sie jetzt alle Ihre Plattform- und Infrastrukturservices von einem zentralen Ort aus anzeigen. Wenn Sie sich anmelden, können Sie das neue Dashboard sofort genauer in Augenschein nehmen. Sobald Sie Ressourcen aus dem Katalog zu Ihrem Konto hinzugefügt haben, können Sie anhand der Ressourcenliste eine vollständige Ansicht der Kontoressourcen abrufen. Im Folgenden werden einige Details im Zusammenhang mit den Änderungen genannt, die Sie feststellen werden:
+Mit der neuesten Aktualisierung können Sie jetzt alle Ihre Plattform- und Infrastrukturservices von einem zentralen Ort aus anzeigen. Wenn Sie sich anmelden, können Sie das neue Dashboard sofort genauer in Augenschein nehmen. Nachdem Sie Ressourcen aus dem Katalog zu Ihrem Konto hinzugefügt haben, können Sie anhand der Ressourcenliste eine vollständige Ansicht der Kontoressourcen abrufen :
 
 * Das Dashboard wurde neu gestaltet, sodass Sie eine Zusammenfassung Ihrer Ressourcen, Ihrer Wartung, des Status, der Apps, des Supports, der Nutzung (Belegung) und der Benutzer anzeigen können.
 * Weitere Details zu Ihren Ressourcen finden Sie in der Ressourcenliste. Sie können Ihre Ressourcen mit Tags kennzeichnen, um sie zu organisieren, oder Sie können sie auswählen, um auf der Detailseite Änderungen vorzunehmen.
 * Da alle Ihre Ressourcen nun an einem Ort angezeigt werden, wurde eine globale Suche hinzugefügt, sodass Sie Ressourcen, die Sie erstellt haben und die auf der Seite 'Ressourcenliste' erwartungsgemäß angezeigt werden müssten, rasch ausfindig machen können. 
 * Sie können auch nach Katalogergebnissen suchen, um rasch Ressourcen zu finden, die Sie zu Ihrem Konto hinzufügen können.  
 
+Weitere Details enthält der Blogbeitrag [Manage All Your Cloud Resources on the Enhanced {{site.data.keyword.Bluemix_notm}} Platform](https://www.ibm.com/blogs/bluemix/2018/11/manage-all-your-cloud-resources-on-the-enhanced-ibm-cloud-platform/){: new_window} ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link").
+
 ### Vereinheitlichte Konto-, Abrechnungs- und Benutzerprofilinformationen für Plattform- und Infrastrukturservices
 Datum der Neuerung: 30. November 2018
 {: #profile}
 
-Ihre Konto-, Abrechnungs- und Profilinformationen wurden vereinfacht. Sie können die Kontoinformationen für alle Ihre Plattform- und Infrastrukturressourcen jetzt in einer vereinheitlichten Konsole anzeigen. 
+Ihre Konto-, Abrechnungs- und Profilinformationen wurden vereinfacht. Sie können die Kontoinformationen für alle Ihre Plattform- und Infrastrukturressourcen nun in einer einheitlichen Konsole anzeigen. 
 
 * Ihr Profil- und Einstellungsbereich enthält Informationen zu Ihnen sowie Ihre Vorgaben für E-Mail-Benachrichtigungen für alle Ressourcentypen. 
 * Ihr Kontoinformationsbereich enthält Informationen zu Ihrem Unternehmen oder Ihrer Organisation, Kontoeinstellungen und Schnellzugriff für das Arbeiten mit Ressourcengruppen und Cloud Foundry-Organisationen. Hier finden Sie sogar Leitfäden für den Schnelleinstieg, die Ihnen dabei helfen sollen, möglichst rasch durchzustarten.
 * Der Abrechnungs- und Nutzungsbereich Ihres Kontos hilft Ihnen, Ihre Rechnung zu verstehen, Zahlungen vorzunehmen, Abonnements zu überwachen, Angebote einzuholen, Bestellungen zu verfolgen und Benachrichtigungen über Ausgaben festzulegen.
 
+Weitere Details enthält der Blogbeitrag [Bringing It All Together: A Single Account and Billing Management Experience](https://www.ibm.com/blogs/bluemix/2018/11/ibm-cloud-account-management/){: new_window} ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link").
 
 ### Organisieren von Ressourcen mit Tags
 Datum der Neuerung: 30. November 2018
 {: #tag}
 
-Es stehen jetzt Tags zur Verfügung, die Sie zu Ihren Ressourcen hinzufügen können, wie z. B. Cloud Object Storage. Diese Tags helfen Ihnen bei der Verwaltung von Ressourcen und vereinfachen die Suche nach denjenigen, die für Sie die höchste Relevanz besitzen. Wenn Sie zum Beispiel über Hunderte von Ressourcen verfügen und zwischen einigen wenigen unterscheiden möchten, die auf dieselbe Weise bezahlt werden, könnten Sie sie mit 'kostenstelle:standort01' kennzeichnen. Wenn ein Team wiederholt an einigen Ressourcen arbeitet, könnten Sie beispielsweise etwas wie 'blaues-team' verwenden. Sie können Ihre Ressourcenliste auch nach Tags filtern, um die benötigten Ressourcen rasch zu organisieren und zu finden. Weitere Informationen finden Sie in [Mit Tags arbeiten](/docs/resources/tagging_resources.html#tag).
+Es stehen jetzt Tags zur Verfügung, die Sie zu Ihren Ressourcen hinzufügen können, wie z. B. Cloud Object Storage. Diese Tags helfen Ihnen bei der Verwaltung von Ressourcen und vereinfachen die Suche nach denjenigen, die für Sie die höchste Relevanz besitzen. Wenn Sie zum Beispiel über Hunderte von Ressourcen verfügen und zwischen einigen wenigen unterscheiden möchten, die auf dieselbe Weise bezahlt werden, könnten Sie sie mit `kostenstelle:standort01` kennzeichnen. Wenn ein Team wiederholt an bestimmten Ressourcen arbeitet, könnten Sie etwas wie `blaues-team` verwenden. Sie können Ihre Ressourcenliste auch nach Tags filtern, um die benötigten Ressourcen rasch zu organisieren und zu finden. Weitere Informationen finden Sie im Abschnitt [Mit Tags arbeiten](/docs/resources/tagging_resources.html#tag) und im Blogbeitrag [Platform Tagging on the Enhanced {{site.data.keyword.Bluemix_notm}} Platform](https://www.ibm.com/blogs/bluemix/2018/11/platform-tagging-on-the-enhanced-ibm-cloud-platform/){: new_window} ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link"). 
 
 ### Genaue monatliche Kosten mit dem Kostenschätzer suchen
 Datum der Neuerung: 30. November 2018
@@ -86,7 +89,7 @@ Datum der Neuerung: 1. November 2018
 
 Im Zuge der weiteren Ausdehnung unserer globalen Verfügbarkeit durch {{site.data.keyword.cloud_notm}} aktualisieren wir unsere Standort-Benennungsstruktur, um eine verständliche, konsistente Hierarchie von Geografien, Regionen und Rechenzentren weltweit zu unterstützen. Wenn Sie mit unseren aktuellen globalen Regionen vertraut sind, werden Sie Namen wie "US South" und "Sydney" wiedererkennen. Wir richten diese Standortnamen an den Namen der Städte aus, in denen die Rechenzentren physisch existieren.
 
-Die programmgesteuerten IDs ändern sich vorerst nicht, sodass es aus API-Perspektive keine Beeinträchtigungen gibt. Nachstehend eine Tabelle, in der die alten und neuen Standortnamen aufgeführt sind. Weitere Informationen und eine umfassende Liste der Rechenzentren und Regionen finden Sie unter [Serviceverfügbarkeit](/docs/resources/services_region.html).
+Die programmgesteuerten IDs ändern sich vorerst nicht, sodass es aus API-Perspektive keine Beeinträchtigungen gibt. Die folgende Tabelle enthält eine Zusammenfassung der bisherigen und der neuen Standortnamen. Weitere Informationen und eine umfassende Liste der Rechenzentren und Regionen finden Sie unter [Serviceverfügbarkeit](/docs/resources/services_region.html).
 
 | Bisheriger angezeigter Standortname | Neuer angezeigter Standortname | Code |
 |----------|---------|---------|
@@ -126,7 +129,7 @@ Sie können dynamische Regeln erstellen, um föderierte Benutzer auf der Basis b
 ### Service-IDs und API-Schlüssel schützen
 Datum der Neuerung: 01 Juni 2018
 
-Damit eine Situation vermieden werden kann, in der die Service-ID oder der API-Schlüssel gelöscht und so ein Ausfall oder eine Unterbrechung verursacht wird, können Sie Service-IDs und API-Schlüssel über die Benutzerschnittstelle oder die Befehlszeilenschnittstelle sperren. Das Sperren einer Service-ID verhindert darüber hinaus, dass Zugriffsrichtlinien geändert, gelöscht oder zugewiesen werden und dass API-Schlüssel, die der Service-ID zugewiesen sind, erstellt oder gelöscht werden. Weitere Informationen finden Sie in [Service-ID sperren](/docs/iam/serviceid.html#locking-a-service-id) und [API-Schlüssel sperren](/docs/iam/userid_keys.html#locking-an-api-key).
+Damit eine Situation vermieden werden kann, in der die Service-ID oder der API-Schlüssel gelöscht und so ein Ausfall oder eine Unterbrechung verursacht wird, können Sie Service-IDs und API-Schlüssel über die Benutzerschnittstelle (UI) oder die Befehlszeilenschnittstelle (CLI) sperren. Das Sperren einer Service-ID verhindert darüber hinaus, dass Zugriffsrichtlinien geändert, gelöscht oder zugewiesen werden und dass API-Schlüssel, die der Service-ID zugewiesen sind, erstellt oder gelöscht werden. Weitere Informationen finden Sie in [Service-ID sperren](/docs/iam/serviceid.html#locking-a-service-id) und [API-Schlüssel sperren](/docs/iam/userid_keys.html#locking-an-api-key).
 
 ### Upgrade für das Lite-Konto auf ein Abonnementkonto durchführen
 Datum der Neuerung: 31. Mai 2018
@@ -136,19 +139,19 @@ Sie können nun direkt über die {{site.data.keyword.Bluemix_notm}}-Konsole ein 
 ### Neuer Markenname in der {{site.data.keyword.Bluemix_notm}}-Befehlszeilenschnittstelle
 Datum der Neuerung: 15. Mai 2018
 
-Die Befehle der {{site.data.keyword.Bluemix_notm}}-Befehlszeilenschnittstelle (CLI) wurden von `bluemix` und `bx` in **ibmcloud** geändert. Sie können die CLI-Befehle `bluemix` und `bx` jedoch weiterhin verwenden, bis sie zu einem späteren Zeitpunkt entfernt werden. Eine Abkürzung des neuen Befehls ist nicht verfügbar, der vollständige Name **ibmcloud** muss verwendet werden. 
+Die Befehle der {{site.data.keyword.Bluemix_notm}}-Befehlszeilenschnittstelle (CLI) wurden von `bluemix` und `bx` in **ibmcloud** geändert. Sie können die CLI-Befehle `bluemix` und `bx` jedoch weiterhin verwenden, bis sie zu einem späteren Zeitpunkt entfernt werden. Eine Abkürzung des neuen Befehls gibt es jetzt nicht. Daher muss der vollständige Name **ibmcloud** verwendet werden. 
 
 ### Mehrfaktorauthentifizierung für Ihr {{site.data.keyword.Bluemix_notm}}-Konto
 Datum der Neuerung: 02. Mai 2018
 
-Die Mehrfaktorauthentifizierung (MFA) fügt eine zusätzliche Sicherheitsebene zu Ihrem Konto hinzu, indem alle Benutzer neben ihrer Standard-IBMid und Ihrem Kennwort während der Anmeldung einen zeitbasierten einmaligen Kenncode eingeben müssen. Dies wird gängigerweise auch als Zwei-Faktor-Authentifizierung (2FA) bezeichnet. Mehrfaktorauthentifizierung wird pro Konto aktiviert und alle Benutzer in dem Konto müssen sich unter Verwendung einer zusätzlichen Sicherheitsmaßnahme anmelden.
+Durch die Mehrfaktorauthentifizierung (MFA) wird eine zusätzliche Sicherheitsebene zu Ihrem Konto hinzugefügt, denn Benutzer müssen bei der Anmeldung neben ihrer Standard-IBMid und ihrem Kennwort zusätzlich einen zeitbasierten einmaligen Kenncode eingeben. Dies wird gängigerweise auch als Zwei-Faktor-Authentifizierung (2FA) bezeichnet. Mehrfaktorauthentifizierung wird pro Konto aktiviert und alle Benutzer in dem Konto müssen sich unter Verwendung der zusätzlichen Sicherheitsmaßnahme anmelden.
 
 Weitere Informationen finden Sie im Blog-Artikel [IBM Cloud Platform nun mit Unterstützung für die Mehrfaktorauthentifizierung](https://www.ibm.com/blogs/bluemix/2018/05/ibm-cloud-platform-now-adds-support-multi-factor-authentication/){: new_window} ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link").
 
 ### Mit Zugriffsgruppen schnellen Zugriff zuweisen
 Datum der Neuerung: 03. April 2018
 
-Wollen Sie in der Lage sein, schnell den Zugriff zuzuweisen, indem Sie die kleinstmögliche Anzahl an Richtlinien verwenden? Das können Sie nun mithilfe von Zugriffsgruppen. Mit Zugriffsgruppen können Sie eine Gruppe von Benutzern und Service-IDs gruppieren und eine einzige Richtlinie zuweisen, die für alle Mitglieder der Gruppe gilt. Durch die Verwendung von Zugriffsgruppen können Sie die Zeit begrenzen, die Sie für die Verwaltung des Zugriffs auf die Benutzer und Service-IDs in Ihrem Konto verwenden. Weitere Details finden Sie im Blog [Neue Funktion: Zugriffsgruppen](https://www.ibm.com/blogs/bluemix/2018/04/access-groups/){: new_window} ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link").
+Wollen Sie in der Lage sein, schnell Zugriff zuzuweisen, indem Sie die kleinstmögliche Anzahl an Richtlinien verwenden? Das ist nun mithilfe von Zugriffsgruppen möglich. Mit Zugriffsgruppen können Sie eine Gruppe von Benutzern und Service-IDs gruppieren und eine einzige Richtlinie zuweisen, die für alle Mitglieder der Gruppe gilt. Durch die Verwendung von Zugriffsgruppen können Sie den Zeitaufwand für die Verwaltung des Zugriffs auf die Benutzer und Service-IDs in Ihrem Konto begrenzen. Weitere Details finden Sie im Blogbeitrag [New feature: Access groups](https://www.ibm.com/blogs/bluemix/2018/04/access-groups/){: new_window} ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link").
 
 ### SoftLayer- und {{site.data.keyword.Bluemix_notm}}-Konto verknüpfen
 Datum der Neuerung: 1. März 2018
@@ -164,7 +167,7 @@ In Washington, D.C. ist jetzt ein neues Rechenzentrum für die Region 'Vereinigt
 ### Unterstützung für Ressourcen in der Europäischen Union
 Datum der Neuerung: 14. Dezember 2017
 
-Falls sich Ihre Services und Rechenzentren in Europa befinden, bietet {{site.data.keyword.Bluemix_notm}} jetzt ein zusätzliches Leistungsspektrum für den Schutz Ihrer Daten in der Europäischen Union. Sie können anfordern, dass der Support für Sie von Kundenunterstützungsteams bereitgestellt wird, die in Europa ansässig sind. Dieser Support ist täglich rund um die Uhr verfügbar. Weitere Informationen finden Sie in den Abschnitten [Option 'Unterstützung in der EU' aktivieren](/docs/billing-usage/eusupported.html#bill_eusupported) und [Unterstützung für Ressourcen in der EU anfordern](/docs/get-support/howtogetsupport.html#eusupported).
+Falls sich Ihre Services und Rechenzentren in Europa befinden, bietet {{site.data.keyword.Bluemix_notm}} jetzt ein spezielles Leistungsspektrum für den Schutz Ihrer Daten in der Europäischen Union. Sie können anfordern, dass der Support für Sie von Kundenunterstützungsteams bereitgestellt wird, die sich in Europa befinden. Dieser Support ist täglich rund um die Uhr verfügbar. Weitere Informationen finden Sie in den Abschnitten [Option 'Unterstützung in der EU' aktivieren](/docs/billing-usage/eusupported.html#bill_eusupported) und [Unterstützung für Ressourcen in der EU anfordern](/docs/get-support/howtogetsupport.html#eusupported).
 
 ### Unterstützung für TLS 1.0 und 1.1 wird eingestellt
 Datum der Neuerung: 28. Dezember 2017
@@ -216,7 +219,7 @@ Weitere Informationen zu den Vorzügen dieser Funktion und zu ihrer Verwendung e
 ### Globaler {{site.data.keyword.Bluemix_notm}}-Katalog
 Datum der Neuerung: 27. Juli 2017
 
-Als Erweiterung der letzten Konsolenaktualisierung für die Verwaltung Ihrer öffentlichen Regionen an einer zentralen Stelle in der Konsole gibt es in {{site.data.keyword.Bluemix_notm}} jetzt einen globalen Katalog, der die Auswahl und Bereitstellung von Elementen im Katalog optimiert. Ungeachtet der Region, die Sie in der Konsole ausgewählt haben, werden jetzt alle Services angezeigt, die in allen öffentlichen Regionen aus Ihrem Katalog verfügbar sind. Sobald Sie eine Kachel im Katalog auswählen, können Sie feststellen, in welchen Regionen der Service verfügbar ist, und auswählen, wo Sie den Service bereitstellen wollen.
+Als Erweiterung der letzten Konsolenaktualisierung für die Verwaltung Ihrer öffentlichen Regionen an einer zentralen Stelle in der Konsole gibt es in {{site.data.keyword.Bluemix_notm}} jetzt einen globalen Katalog, der die Auswahl von Elementen im Katalog und ihre Bereitstellung optimiert. Ungeachtet der Region, die Sie in der Konsole ausgewählt haben, werden jetzt alle Services angezeigt, die in allen öffentlichen Regionen aus Ihrem Katalog verfügbar sind. Sobald Sie eine Kachel im Katalog auswählen, können Sie feststellen, in welchen Regionen der Service verfügbar ist, und auswählen, wo Sie den Service bereitstellen wollen.
 
 Weitere Informationen zu den neuesten Aktualisierungen des Katalogs enthält der Blogbeitrag [A global {{site.data.keyword.Bluemix_notm}} catalog makes building things easier](https://www.ibm.com/blogs/bluemix/2017/07/global-bluemix-catalog-makes-building-things-easier/){: new_window} ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link").
 
@@ -286,11 +289,11 @@ Durch die neuesten Aktualisierungen und Verbesserungen im August können Sie die
 
 #### Aktualisierung der Nutzungsmetriken für {{site.data.keyword.cloudant_short_notm}}-Services
 
-  * Die Berechnung der Nutzungsmetriken für {{site.data.keyword.cloudant_short_notm}} wurde aktualisiert, damit die Gesamtsumme der in allen Knoten in einem {{site.data.keyword.cloudant_short_notm}}-Cluster genutzten und verfügbaren GB wiedergegeben wird. Ein {{site.data.keyword.cloudant_short_notm}}-Cluster enthält normalerweise 3 Knoten und ein Dokument in der Datenbank wird zur Hochverfügbarkeit und Notfallwiederherstellung auf allen Knoten im Cluster repliziert. Durch die im August vorgenommenen Aktualisierungen gibt die Kapazitätsmetrik in der {{site.data.keyword.cloudant_short_notm}}-Skala (verfügbar in der Ansicht _Ressourcennutzung > Services_) den Speicherplatz für alle Knoten im Cluster an. Falls ein einzelner {{site.data.keyword.cloudant_short_notm}}-Cluster beispielsweise 3 Knoten mit einer Kapazität von jeweils 1000 GB enthält, beträgt das Kapazitätslimit 3000 GB. Wurden 1500 GB dieser Kapazität benutzt, hat die {{site.data.keyword.cloudant_short_notm}}-Nutzungsmetrik den Wert 50%.
+  * Die Berechnung der Nutzungsmetriken für {{site.data.keyword.cloudant_short_notm}} wurde aktualisiert, damit die Gesamtzahl der in allen Knoten in einem {{site.data.keyword.cloudant_short_notm}}-Cluster genutzten und verfügbaren GB wiedergegeben wird. Ein {{site.data.keyword.cloudant_short_notm}}-Cluster enthält normalerweise drei Knoten und ein Dokument in der Datenbank wird zur Hochverfügbarkeit und Notfallwiederherstellung auf allen Knoten im Cluster repliziert. Durch die im August vorgenommenen Aktualisierungen gibt die Kapazitätsmetrik in der {{site.data.keyword.cloudant_short_notm}}-Skala (verfügbar in der Ansicht _Ressourcennutzung > Services_) den Speicherplatz für alle Knoten im Cluster an. Falls ein einzelner {{site.data.keyword.cloudant_short_notm}}-Cluster beispielsweise drei Knoten mit einer Kapazität von jeweils 1000 GB GB enthält, beträgt das Kapazitätslimit 3000 GB. Wurden 1500 GB dieser Kapazität ausgeschöpft, zeigt die {{site.data.keyword.cloudant_short_notm}}-Nutzungsmetrik einen Wert von 50 % an.
 
 #### Aktualisierungen bei der Planung von Wartungsaktualisierungen
 
-  * In {{site.data.keyword.Bluemix_dedicated_notm}} können Kunden das Datum und die Uhrzeit der Zeiträume verwalten, in denen ihre dedizierten Umgebungen für die Bereitstellung von Systemaktualisierungen zur Verfügung stehen. Kunden können mit Datumsangaben und Uhrzeiten Verfügbarkeitsfenster definieren, in denen Wartungsaktualisierungen in ihrer dedizierten Umgebung bereitgestellt bzw. nicht bereitgestellt werden können. Bei der Aktualisierung im August wurde die Option _Verfügbare Aktualisierungsfenster_ in _Aktualisierungsfenster_ und _Nicht verfügbare Aktualisierungsfenster_ in _Ausfallfenster_ umbenannt. Neben der Terminologieänderung bietet sich für die Kunden jetzt eine größere Flexibilität und Spanne beim Definieren von Ausfallzeiten, also nicht verfügbaren Zeitpunkten. Nach der Anforderung müssen die Ausfallzeiten durch IBM genehmigt werden; die Dauer bis zur Genehmigung kann hierbei variieren. Wenn die angeforderten Ausfallzeiten genehmigt sind, storniert IBM vorhandene Aktualisierungen, die momentan über das Nichtverfügbarkeitsfenster geplant sind. Darüber hinaus erstellt IBM neue Datensätze für diese Aktualisierungen und plant sie außerhalb der genehmigten Ausfallzeiten ein.
+  * In {{site.data.keyword.Bluemix_dedicated_notm}} können Kunden das Datum und die Uhrzeit der Zeiträume verwalten, in denen ihre dedizierten Umgebungen für die Bereitstellung von Systemaktualisierungen zur Verfügung stehen. Kunden können mit Datumsangaben und Uhrzeiten Verfügbarkeitsfenster definieren, in denen Wartungsaktualisierungen in ihrer dedizierten Umgebung bereitgestellt bzw. nicht bereitgestellt werden können. Bei der Aktualisierung im August wurde die Option _Verfügbare Aktualisierungsfenster_ in _Aktualisierungsfenster_ und _Nicht verfügbare Aktualisierungsfenster_ in _Ausfallfenster_ umbenannt. Neben der Terminologieänderung bietet sich für die Kunden jetzt eine größere Flexibilität und Spanne beim Definieren von Ausfallzeiten, also nicht verfügbaren Zeitpunkten. Nach der Anforderung müssen die Ausfallzeiten seitens IBM genehmigt (bestätigt) werden. Die Dauer bis zur Erteilung der Genehmigung kann dabei variieren. Wenn die angeforderten Ausfallzeiten genehmigt sind, storniert IBM alle vorhandenen Aktualisierungen, die derzeit über den Zeitraum des Nichtverfügbarkeitsfensters geplant sind. Darüber hinaus erstellt IBM neue Datensätze für diese Aktualisierungen und plant sie außerhalb der genehmigten Ausfallzeiten ein.
 
 Weitere Informationen können Sie dem [Video](https://bit.ly/2eCQNvu){: new_window} ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link") entnehmen.
 
@@ -360,6 +363,27 @@ Durch die neuesten Aktualisierungen und Verbesserungen im April können Sie die 
 ## Infrastruktur und Ressourcen
 {: #compute_category}
 
+### Von SAP zertifizierte IBM Cloud-Infrastruktur - Features
+Datum der Neuerung: 22. Januar 2019
+
+Mit dem Angebot der von SAP zertifizierten {{site.data.keyword.cloud_notm}}-Infrastruktur stehen neue Features für sowohl SAP HANA als auch für SAP NetWeaver zur Verfügung.
+
+#### Mehrknotenspeicher
+SAP HANA-Mehrknotenspeicher für OLAP-Workloads (Online Analytical Processing) wie SAP Business Warehouse (SAP BW) und SAP BW/4HANA. Die {{site.data.keyword.cloud_notm}}-Lösung für SAP HANA-Mehrknotenspeicher besteht aus bis zu 15+1 Knoten (15 Workerknoten plus ein Standby-Knoten) für bis zu 30 TB Hauptspeicher für ein einziges System. Lesen Sie zum Einstieg die Informationen zur [Konfiguration der eigenen {{site.data.keyword.cloud_notm}}-Infrastruktur zur Unterstützung von SAP HANA-Mehrknotenspeicher](/docs/infrastructure/sap-hana/hana-multi-node.html#multi-node-storage)
+
+
+#### Hochverfügbarkeit
+Sowohl für SAP HANA als auch für SAP NetWeaver werden HA-Lösungen (HA = High Availability, Hochverfügbarkeit) unterstützt. Die Lösung basiert auf der unterstützten Betriebssystemversion und ist auf die bestellten Betriebssystemlizenzen, die im Lieferumfang Ihrer Bereitstellung enthalten sind, bzw. auf Drittanbieterlizenzen, z. B. eigene Lizenzen (BYOL), beschränkt. Klicken Sie zum Einstieg für SAP HANA [hier](/docs/infrastructure/sap-hana/hana-ha.html#ha) und für SAP NetWeaver [hier](/docs/infrastructure/sap-netweaver/sap-ha.html#ha).
+  
+#### SAP Content Server
+Bei SAP Content Server handelt es sich um eine eigenständige Komponente zur Speicherung großer Mengen an elektronischen Dokumenten in beliebigem Format und mit beliebigem Inhalt. Damit Sie SAP Content Server nutzen können, müssen Ihre SAP-Anwendungen die Verwendung unterstützen. Lesen Sie zum Einstieg die Informationen unter [SAP Content Server](/docs/infrastructure/sap-netweaver/sap-content-server.html#content-server).
+
+#### SAP MaxDB
+SAP MaxDB ist für SAP NetWeaver verfügbar. Lesen Sie zum Einstieg die [Informationen zur von SAP zertifizierten {{site.data.keyword.cloud_notm}}-Infrastruktur](/docs/infrastructure/sap-netweaver/sap-about.html#about_ibmcloud_for_sap).
+
+#### SAP Business One
+Bei SAP Business One handelt es sich um eine Enterprise-Resource-Planning-Software (ERP), die speziell für kleinere bis mittlere Unternehmen entworfen wurde. SAP Business One integriert Ihre Kerngeschäftsfunktionen (Buchhaltung und Finanzen, Einkauf und Lagerbestand, Verkauf und Kundenbeziehungen sowie Projektmanagement und Operationen) in einer einzigen Anwendung. Weitere Informationen finden Sie bei der [Einführung](/docs/infrastructure/sap-b1/b1-index.html#getting-started).
+
 ### Virtual Server-Features
 Datum der Neuerung: 16. November 2018
 
@@ -372,7 +396,7 @@ Wollen Sie nur das bezahlen, was Sie verwenden? Sie können jetzt die Abrechnung
 Das {{site.data.keyword.BluVirtServers_full}}-Angebot für reservierte Instanzen ist jetzt verfügbar. Dieses Angebot ist eine hervorragende Option für alle, die nach garantierten Ressourcen für spätere Bereitstellungen und Kosteneinsparungen suchen. Sie können eine 1- oder 3-jährige Vertragslaufzeit für die reservierte Kapazität wählen. Im Rahmen dieser reservierten Kapazität können Sie eine Gruppe von bis zu 20 Virtual Server-Instanzen einer bestimmten Größe wählen und diese Instanzen bereitstellen, sobald sie benötigt werden. Diese Kapazität wird Ihnen über die Laufzeit Ihres Vertrags im POD und Rechenzentrum Ihrer Wahl garantiert. Weitere Informationen finden Sie im Abschnitt [Reservierte virtuelle Server](/docs/vsi/vsi_about_reserved.html).
 
 #### Images aus {{site.data.keyword.cos_full_notm}}-Serviceinstanz in {{site.data.keyword.cloud_notm}}-Infrastruktur importieren
-Die {{site.data.keyword.cloud_notm}}-Infrastruktur interagiert jetzt mit dem Service {{site.data.keyword.cos_full_notm}}, der in der {{site.data.keyword.cloud_notm}}-Konsole bereitgestellt wird. {{site.data.keyword.cos_full_notm}} verfügt über das Plug-in für Aspera-Hochgeschwindigkeitsübertragung, mit dem die erforderliche Zeit zum Hochladen großer Images erheblich verkürzt wird. Sobald Images in {{site.data.keyword.cos_full_notm}} hochgeladen wurden, können Sie Images aus {{site.data.keyword.cos_full_notm}} in die {{site.data.keyword.cloud_notm}}-Infrastruktur [importieren](/docs/infrastructure/image-templates/import-image.html). Sie können auch Images aus der {{site.data.keyword.cloud_notm}}-Infrastruktur nach {{site.data.keyword.cos_full_notm}} [exportieren](/docs/infrastructure/image-templates/export-image-ibm-cos.html).
+Die {{site.data.keyword.cloud_notm}}-Infrastruktur interagiert jetzt mit dem Service {{site.data.keyword.cos_full_notm}}, der in der {{site.data.keyword.cloud_notm}}-Konsole bereitgestellt wird. {{site.data.keyword.cos_full_notm}} verfügt über das Plug-in für Aspera-Hochgeschwindigkeitsübertragung, mit dem die zum Hochladen großer Images erforderliche Zeit erheblich verkürzt wird. Sobald Images in {{site.data.keyword.cos_full_notm}} hochgeladen wurden, können Sie Images aus {{site.data.keyword.cos_full_notm}} in die {{site.data.keyword.cloud_notm}}-Infrastruktur [importieren](/docs/infrastructure/image-templates/import-image.html). Sie können auch Images aus der {{site.data.keyword.cloud_notm}}-Infrastruktur nach {{site.data.keyword.cos_full_notm}} [exportieren](/docs/infrastructure/image-templates/export-image-ibm-cos.html).
 
 #### Platzierungsgruppen für Virtual Server-Instanzen
 Platzierungsgruppen sind jetzt für {{site.data.keyword.BluVirtServers_full}} verfügbar. Mit Platzierungsgruppen können Sie öffentliche Instanzen für einen Build mit hoher Verfügbarkeit in einem Rechenzentrum verwenden oder eine zusätzliche Fehlertoleranzebene innerhalb einer größeren Bereitstellung einrichten. Weitere Informationen finden Sie im Abschnitt [Platzierungsgruppen](/docs/vsi/vsi_placegroup.html). 
@@ -412,7 +436,7 @@ Datum der Neuerung: 18. April 2018
 ### Neues Liberty Buildpack für Java v3.11
 Datum der Neuerung: 17. Juli 2017
 
-Das Liberty Buildpack v3.11 bietet eine neue monatliche Liberty-Laufzeitversion und weitere Verbesserungen. Die monatliche Liberty-Laufzeitversion wurde auf das Release [2017.7.0.0](https://developer.ibm.com/wasdev/blog/2017/07/07/beta-websphere-liberty-tools-july-2017/) aktualisiert. Die IBM JDK wurde auf die Versionen 8.0.4.7 und 7.1.4.5 aktualisiert. Das Buildpack stellt außerdem aktualisierte Versionen des Dienstprogramms 'App-Management' und des Agenten für die automatische Skalierung bereit. Die Cloudant-Standardbibliothek ist nun offiziell [java-cloudant](https://github.com/cloudant/java-cloudant); die [Ektorp-Bibliothek](https://github.com/helun/Ektorp) ist als Option weiterhin verfügbar (Details über diese Änderung enthält ein [Blogbeitrag](https://www.ibm.com/blogs/bluemix/2017/05/default-library-change-cloudant-auto-wiring-liberty-buildpack/)). Das Verhältnis für die Standard-Heapspeichergröße beträgt nun 50%, wenn Ihre Anwendung weniger als 512 MB Hauptspeicher hatte; lag der Wert über 512 MB, beträgt das Verhältnis weiterhin 75%. Ein neues Staging-Taskprotokoll wird jetzt generiert, das ein Debug von Staging-Fehlern vereinfacht. Zusätzliche Informationen enthält die Dokumentation über die [neuesten Aktualisierungen](https://console.ng.bluemix.net/docs/runtimes/liberty/updates.html).
+Das Liberty Buildpack v3.11 bietet eine neue monatliche Liberty-Laufzeitversion und weitere Verbesserungen. Die monatliche Liberty-Laufzeitversion wurde auf das Release [2017.7.0.0](https://developer.ibm.com/wasdev/blog/2017/07/07/beta-websphere-liberty-tools-july-2017/) aktualisiert. Die IBM JDK wurde auf die Versionen 8.0.4.7 und 7.1.4.5 aktualisiert. Das Buildpack stellt außerdem aktualisierte Versionen des Dienstprogramms 'App-Management' und des Agenten für die automatische Skalierung bereit. Die Cloudant-Standardbibliothek ist nun offiziell [java-cloudant](https://github.com/cloudant/java-cloudant); die [Ektorp-Bibliothek](https://github.com/helun/Ektorp) ist als Option weiterhin verfügbar (Details über diese Änderung enthält ein [Blogbeitrag](https://www.ibm.com/blogs/bluemix/2017/05/default-library-change-cloudant-auto-wiring-liberty-buildpack/)). Das Verhältnis für die Standard-Heapspeichergröße beträgt nun 50 %, wenn Ihre Anwendung weniger als 512 MB Hauptspeicher hatte; lag der Wert über 512 MB, beträgt das Verhältnis weiterhin 75 %. Zusätzliche Informationen enthält die Dokumentation für [Neueste Aktualisierungen](https://console.ng.bluemix.net/docs/runtimes/liberty/updates.html).
 
 ### Neues Liberty Buildpack für Java v3.10
 Datum der Neuerung: 12. Juni 2017
@@ -433,6 +457,25 @@ Das Liberty Buildpack v3.9 bietet eine neue monatliche Liberty-Laufzeitversion u
 
 ## Services
 {: #services_category}
+
+### In {{site.data.keyword.appid_short_notm}} verfügbare neue Features
+Datum der Neuerung: 22. Dezember 2018
+
+Mit dem Service {{site.data.keyword.appid_short_notm}} wurden neue erweiterte Features eingeführt, die die Sicherheit Ihrer Authentifizierungen und Apps verstärken.
+
+{{site.data.keyword.appid_short_notm}} unterstützt Sie beim Hinzufügen unterschiedlicher Typen von Benutzerauthentifizierung zu den entsprechenden mobilen Apps und Web-Apps. Sie können Authentifizierung mittels ein paar Codezeilen hinzufügen und müssen sich dann keine Gedanken über Verwaltung der Infrastruktur hinsichtlich einer Skalierung entsprechend Ihrer Benutzerbasis machen.  Informieren Sie sich über die folgenden Erweiterungen und probieren Sie den Service dann selbst aus!
+
+Mehrfaktorauthentifizierung: Sie können jetzt die E-Mail-basierte MFA für Cloud Directory nutzen. Ist die MFA aktiviert, werden die Benutzer zur Angabe eines Einmalcodes, den Sie per E-Mail erhalten, sowie zur Angabe ihres Kennworts aufgefordert. Wenn Sie eine Unternehmensanmeldung mit SAML 2.0 oder eine Social-Media-Anmeldung verwenden, können Sie die MFA über diesen Identitätsprovider aktivieren.
+Erweiterte Kennwortrichtlinien: Ist das Feature für erweiterte Kennwortrichtlinien aktiviert, können Sie mehr sichere Kennwörter für Cloud Directory erzwingen. Sie können eine Reihe von Regeln konfigurieren, die besagen, dass die Eingabe von Benutzerkennwörtern beispielsweise nur eine bestimmte Anzahl von Malen versucht werden kann, bevor der Benutzer gesperrt wird, oder dass die Verwendung eines Kennworts nur eine bestimmte Anzahl an Malen wiederholt werden kann.
+
+Erweiterte Sicherheitsfeatures bringen eine zusätzliche Preiskomponente mit sich. Weitere Informationen zur Preisberechnung finden Sie im entsprechenden Abschnitt des [Katalogs](https://cloud.ibm.com/catalog/services/app-id).
+
+Lesen Sie die [{{site.data.keyword.appid_short_notm}}-Dokumentation](/docs/services/appid/index.html) und legen Sie gleich los!
+
+### Einführung von {{site.data.keyword.backup_notm}}
+Datum der Neuerung: 20. Dezember 2018
+
+Das Team für {{site.data.keyword.BluSoftlayer_full}}-Speicherinfrastruktur ist stolz darauf, das neue {{site.data.keyword.backup_full}} ankündigen zu können, das ein 10-GB-Tier umfasst, das unbegrenzt kostenlos bleibt. Sämtliche Plug-ins sind jetzt ebenfalls kostenlos. Daher fallen durch Ihre Implementierung bestimmter Anwendungsfälle wie MSSQL, Oracle DB, Exchange oder sogar Bare Metal Restore keine zusätzlichen Kosten an. Das neue {{site.data.keyword.backup_notm}} ist die beste Lösung, um Ihre Backup-Anforderungen in jeder Größenordnung zu bedienen. Weitere Informationen finden Sie im [IBM Cloud Blog ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](https://www.ibm.com/blogs/bluemix/2018/12/introducing-a-new-cloud-backup-service-ibm-cloud-backup/){: new_window}.
 
 ### Citrix NetScaler VPX, Version 12.1
 Datum der Neuerung: 21. November 2018
@@ -493,7 +536,7 @@ Der Service {{site.data.keyword.DRA_short}} ist nun in den Regionen Vereinigte S
 ### {{site.data.keyword.security-advisor_long_notm}} gibt es jetzt in einer Betaversion:
 Datum der Neuerung: 5. September 2018
 
-{{site.data.keyword.security-advisor_short}} wurde mit neuen Funktionen ausgestattet und ist jetzt als Betaservice verfügbar.  {{site.data.keyword.security-advisor_short}} zentralisiert die {{site.data.keyword.Bluemix_notm}}-Sicherheit in einem Dashboard. Neben der Zentralisierung von Informationen fasst der Service über leicht zu navigierende Kacheln auch kritische Sicherheitsinformationen zusammen, um deutlich anzuzeigen, dass ein Sicherheitsproblem erkannt wurde. Wenn Sie auf eine Kachel klicken, wird ein Drilldown ausgeführt, mit dem priorisierte Probleme, das Protokoll und die zu einem Alert führenden Details untersucht werden können. Zum Beheben des Problems führen Sie einfach einen weiteren Drilldown durch, um alle Details sowie die vorgeschlagenen Fixes abzurufen, damit die Bedrohung entfernt werden und sichergestellt werden kann, dass Ihre Umgebung weiterhin sicher ist.
+{{site.data.keyword.security-advisor_short}} wurde mit neuen Funktionen ausgestattet und ist jetzt als Betaservice verfügbar.  {{site.data.keyword.security-advisor_short}} zentralisiert die {{site.data.keyword.Bluemix_notm}}-Sicherheit in einem Dashboard. Neben der Zentralisierung von Informationen fasst der Service über leicht zu navigierende Kacheln auch kritische Sicherheitsinformationen zusammen, um deutlich anzuzeigen, dass ein Sicherheitsproblem erkannt wurde. Wenn Sie auf eine Kachel klicken, wird ein Drilldown ausgeführt, der die Untersuchung priorisierter Probleme, des Protokolls und der zu einem Alert führenden Details ermöglicht. Zum Beheben des Problems führen Sie einfach einen weiteren Drilldown durch, um alle Details sowie die vorgeschlagenen Fixes abzurufen, damit die Bedrohung entfernt und so sichergestellt werden kann, dass Ihre Umgebung weiterhin sicher ist.
 
 {{site.data.keyword.security-advisor_short}} wird schnell die Konsole werden, an die Sie sich wenden, wenn Sie die Sicherheit in Ihrer {{site.data.keyword.Bluemix_notm}}-Umgebung zentralisieren, anzeigen und verwalten möchten.
 
@@ -572,9 +615,9 @@ Die ['Beta - Entry'- und 'Beta - Enhanced'-Pläne](/docs/services/StreamingAnaly
 ### {{site.data.keyword.keymanagementservicelong_notm}} wird um die Region 'Sydney' erweitert
 Datum der Neuerung: 31. Januar 2018
 
-Der {{site.data.keyword.keymanagementserviceshort}}-Verschlüsselungsschlüsselmanagementservice ist ab sofort in der Region 'Sydney' verfügbar. 'Sydney' ist die dritte Region nach 'Vereinigte Staaten (Süden) (Dallas)' und 'London', in der der GA-Status für {{site.data.keyword.keymanagementserviceshort}}-Benutzer bereitgestellt wird.
+Der Management-Service von {{site.data.keyword.keymanagementserviceshort}} für Verschlüsselungsschlüssel ist ab sofort in der Region 'Sydney' verfügbar. 'Sydney' ist die dritte Region nach 'Vereinigte Staaten (Süden) (Dallas)' und 'London', in der der GA-Status für {{site.data.keyword.keymanagementserviceshort}}-Benutzer bereitgestellt wird.
 
-{{site.data.keyword.keymanagementserviceshort}} ist ein Verschlüsselungsschlüsselmanagementservice, der eine einfache und wirtschaftliche Schlüsselmanagementlösung für das Verwalten von Schlüsseln anbietet, die zum Verschlüsseln von in {{site.data.keyword.Bluemix_notm}} gespeicherten Daten verwendet werden. {{site.data.keyword.keymanagementserviceshort}} verwaltet den kompletten Lebenszyklus von Schlüsseln - von der Schlüsselerstellung über die Anwendungsnutzung bis hin zur Schlüsselarchivierung und -vernichtung - und setzt gleichzeitig das Vier-Augen-Prinzip für die Datenverwaltung und Schlüsselverwaltung durch.
+{{site.data.keyword.keymanagementserviceshort}} ist ein Management-Service für Verschlüsselungsschlüssel, der eine einfache und wirtschaftliche Schlüsselmanagementlösung zum Verwalten von Schlüsseln anbietet, die zum Verschlüsseln von in {{site.data.keyword.Bluemix_notm}} gespeicherten Daten verwendet werden. {{site.data.keyword.keymanagementserviceshort}} verwaltet den kompletten Lebenszyklus von Schlüsseln ab der Schlüsselerstellung über die Anwendungsnutzung bis hin zur Schlüsselarchivierung und -vernichtung und setzt gleichzeitig das Vier-Augen-Prinzip für die Datenverwaltung und Schlüsselverwaltung um.
 
 {{site.data.keyword.keymanagementserviceshort}} unterstützt BYOK (Bring-Your-Own-Key – benutzerverwaltete Verschlüsselung) in anwendbaren IBM Datenservices. BYOK ermöglicht Benutzern, Root-of-Trust-Masterverschlüsselungsschlüssel zu importieren, die intern erstellt wurden, um die Sicherheit ihrer in {{site.data.keyword.Bluemix_notm}} gespeicherten ruhenden Daten besser verwalten zu können.
 
@@ -626,7 +669,7 @@ Für iOS 11-Benachrichtigungen gibt es jetzt eine Währungsunterstützung. Auße
 Zusätzliche Details finden Sie in der Dokumentation unter [Rich-Media-Benachrichtigungen](/docs/services/mobilepush/push_step_4_nf_rich.html#interactive-notifications), [Interaktive Benachrichtigungen und Benachrichtigungen im Hintergrund](/docs/services/mobilepush/push_step_4_nf_interactive.html#interactive-notifications) sowie [Erweiterte Push-Benachrichtigungen aktivieren](/docs/services/mobilepush/push_step_4_nf_adv.html#enabling-advanced-push-notifications).
 
 #### Unterstützung von APNS HTTP/2
-Apple hat eine Unterstützung des HTTP-Protokolls für Apple Notifications eingeführt. Der {{site.data.keyword.mobilepushshort}}-Service unterstützt jetzt das HTTP/2-Protokoll. Durch diese Unterstützung können Benachrichtigungen Nutzdaten in einer Größe von 4 KB enthalten; gleichzeitig wird der Durchsatz gesteigert und es gibt eine Funktion für ein Sofortfeedback. Die Unterstützung von Universal Certificate ermöglicht der App Verbindungen sowohl zur Sandbox- als auch zur Produktionsumgebung.
+Apple hat eine Unterstützung des HTTP-Protokolls für Apple Notifications eingeführt. Der {{site.data.keyword.mobilepushshort}}-Service unterstützt jetzt das HTTP/2-Protokoll. Diese Unterstützung ermöglicht, dass Benachrichtigungen Nutzdaten in einer Größe von 4 KB enthalten können, wodurch der Durchsatz gesteigert wird, und stellt eine Funktion für sofortiges Feedback bereit. Die Unterstützung von Universal Certificate ermöglicht der App Verbindungen sowohl zur Sandbox- als auch zur Produktionsumgebung.
 
 #### Neuer Lite-Plan
 Der Lite-Plan für den {{site.data.keyword.mobilepushshort}}-Service ermöglicht das kostenfreie Senden von Benachrichtigungen mit einer Größe von 100 K monatlich. Weitere Informationen enthält der Blogbeitrag [Lite Plan For Push Notifications Service on Bluemix](https://www.ibm.com/blogs/bluemix/2017/06/lite-plan-push-notifications-service-bluemix/){: new_window} ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link").
@@ -642,11 +685,11 @@ In den letzten Monaten wurden Erweiterungen am {{site.data.keyword.mobileanalyti
 {{site.data.keyword.mobileanalytics_short}} ist jetzt ein Omni-Channel-Service und bietet zusätzlich Unterstützung für Web-App-Analysen. Weitere Details finden Sie unter der Adresse [https://github.com/ibm-bluemix-mobile-services/bms-clientsdk-web-analytics/](https://github.com/ibm-bluemix-mobile-services/bms-clientsdk-web-analytics/){: new_window} ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link").
 
 #### Integration mit {{site.data.keyword.mobilefoundation_short}}-Service
-Der {{site.data.keyword.mobilefoundation_short}}-Service nutzt jetzt den {{site.data.keyword.mobileanalytics_short}}-Service zur App-, Benutzer- und Leistungsanalyse. Benutzer können die Option 'In Db2-Data-Warehouse exportieren' nutzen, um eine Adapteranalyse und benutzerdefinierte Diagramme zu erstellen. Zusätzliche Details enthalten die folgenden Blogbeiträge:
+Der {{site.data.keyword.mobilefoundation_short}}-Service nutzt jetzt den {{site.data.keyword.mobileanalytics_short}}-Service zur App-, Benutzer- und Leistungsanalyse. Benutzer können die Option 'In Db2-Data-Warehouse exportieren' nutzen, um eine Adapteranalyse und benutzerdefinierte Diagramme zu erstellen. Weitere Details enthalten die folgenden Blogbeiträge:
 
 * [Mobile Foundation Service integration with Mobile Analytics Service](https://www.ibm.com/blogs/bluemix/2017/08/mobile-foundation-service-integration-mobile-analytics-service-2/){: new_window} ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")
-* [Building custom charts using IBM Bluemix Mobile Analytics service and IBM Mobile Foundation Service](https://mobilefirstplatform.ibmcloud.com/blog/2017/04/26/custom-charts-using-analytics-and-dashdb-analytics-service/){: new_window} ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")
-* [Building charts for Adapter analytics using IBM Bluemix Mobile Analytics service and IBM Mobile Foundation Service](https://mobilefirstplatform.ibmcloud.com/blog/2017/04/26/adapter-analytics-using-analytics-and-dashdb-analytics-service/){: new_window} ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")
+* [Building custom charts by using IBM Bluemix Mobile Analytics service and IBM Mobile Foundation Service](https://mobilefirstplatform.ibmcloud.com/blog/2017/04/26/custom-charts-using-analytics-and-dashdb-analytics-service/){: new_window} ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")
+* [Building charts for Adapter analytics by using IBM Bluemix Mobile Analytics service and IBM Mobile Foundation Service](https://mobilefirstplatform.ibmcloud.com/blog/2017/04/26/adapter-analytics-using-analytics-and-dashdb-analytics-service/){: new_window} ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")
 
 #### {{site.data.keyword.mobilefirst_notm}}-Boilerplate enthält jetzt {{site.data.keyword.mobileanalytics_short}}
 Die Mobile Services-Boilerplate ist eine Vorlage, die eine Reihe von mobilen Services bereitstellt und Benutzern so einen schnellen Einstieg ermöglicht. Der {{site.data.keyword.mobileanalytics_short}}-Service ist jetzt Bestandteil der Boilerplate, die im [Katalog](https://console.bluemix.net/catalog/starters/mobilefirst-services-starter){: new_window} ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link") verfügbar ist.
@@ -732,7 +775,7 @@ Der {{site.data.keyword.loganalysisfull}}-Service umfasst Protokollerfassungs- u
 
 * Sie können Ihre aufbewahrten Protokolle verwalten und Protokolldaten mithilfe der neuen API aus externen Positionen an {{site.data.keyword.IBM_notm}} Cloud senden.
 
-* Sie können das Volumen der Protokolle auswählen, die pro Tag durchsucht werden sollen.  
+* Sie können die Anzahl der Protokolle auswählen, die pro Tag durchsucht werden können.  
 
     Im Rahmen verschiedener verfügbarer Pläne können bis zu 500 MB, 2 GB, 5 GB und 10 GB an Protokollen pro Tag durchsucht werden.
 
@@ -753,9 +796,9 @@ Version 18.x des Brocade-Betriebssystems steht jetzt für Virtual Router Applian
 
 Neue Features von VRA mit Version 18.x werden in den folgenden Abschnitten beschrieben:
 
-* [Vorgehensweise bei der Einrichtung eines IPsec-Tunnels, der mit Zonenfirewalls arbeitet](/docs/infrastructure/virtual-router-appliance/vra-ipsec.html)
-* [VFP-Schnittstelle mit IPsec und Zonenfirewalls konfigurieren](/docs/infrastructure/virtual-router-appliance/vra-vfp.html)
-* [NAT mit präfixbasiertem IPsec verwenden](/docs/infrastructure/virtual-router-appliance/vra-nat.html)
+* [Vorgehensweise bei der Einrichtung eines IPSec-Tunnels, der mit Zonenfirewalls arbeitet](/docs/infrastructure/virtual-router-appliance/vra-ipsec.html)
+* [VFP-Schnittstelle mit IPSec und Zonenfirewalls konfigurieren](/docs/infrastructure/virtual-router-appliance/vra-vfp.html)
+* [NAT mit präfixbasiertem IPSec verwenden](/docs/infrastructure/virtual-router-appliance/vra-nat.html)
 * [Fehler der VFP-Schnittstelle beheben](/docs/infrastructure/virtual-router-appliance/vra-vfp-troubleshooting.html)
 
 Bei einer Migration von Vyatta 5400 wird das Upgrade auf Version 18.x am besten mit der [normalen Prozedur](/docs/infrastructure/virtual-router-appliance/upgrade-os.html) eines erneuten Ladens des Betriebssystems durchgeführt.
@@ -774,7 +817,7 @@ Die folgende Tabelle gibt Aufschluss über den neuen Namen:
 | IBM dashDB for Analytics    | IBM Db2 Warehouse on Cloud | 18. Juli 2017  |
 {: caption="Tabelle 1. Änderung des Servicenamens" caption-side="top"}
 
-Eine kumulative Liste der Aktualisierungen für Db2 Warehouse on Cloud und Db2 on Cloud finden Sie unter [What's New in Db2 Warehouse on Cloud and Db2 on Cloud](http://www.ibm.com/support/docview.wss?uid=swg21961758){: new_window} ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link").
+Eine kumulative Liste der Aktualisierungen für IBM Db2 Warehouse on Cloud und Db2 on Cloud finden Sie unter [What's New in Db2 Warehouse on Cloud and Db2 on Cloud](http://www.ibm.com/support/docview.wss?uid=swg21961758){: new_window} ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link").
 
 ### IBM Cloud Monitoring jetzt in Region 'Vereinigte Staaten (Süden)' verfügbar
 Datum der Neuerung: 17. Juli 2017
@@ -791,7 +834,7 @@ Mit dem {{site.data.keyword.monitoringlong}}-Service können Sie Ihre Datensamml
 
 * Den Serviceplan auswählen, der den jeweiligen Bedürfnissen am besten entspricht. Abhängig von den jeweiligen Nutzungsanforderungen können Sie den Lite-Serviceplan oder den Premium-Serviceplan auswählen. Der Lite-Plan bietet eine Erfassung von Metriken in Intervallen von einer Minute, Aufbewahrung für 15 Tage und ergänzende Alertfunktionalität.  Alternativ dazu können Sie den Premium-Plan auswählen, der die Verarbeitung größerer Volumen, längere Speicherzeiträume für Metriken und Zugriff auf die Service-APIs umfasst. Mit diesen APIs können Sie beispielsweise Metriken an den {{site.data.keyword.monitoringlong}}-Service senden oder von diesem abrufen. {{site.data.keyword.monitoringlong}} bietet die Erfassung von Metriken in Intervallen von einer Minute.  Im Rahmen des Lite-Plans werden die Metriken bei vollständiger Auflösung für 15 Tage gespeichert. Im Rahmen des Premium-Plans werden die Metriken bei vollständiger Auflösung für 45 Tage gespeichert.
 
-Vom traditionellen {{site.data.keyword.monitoringshort}}-Service wurden Metriken in der vom Service definierten Häufigkeit (ab 30 Sekunden) erfasst und mit der Zeit für 1 Stunde zusammengefasst. {{site.data.keyword.monitoringlong}} bietet nun eine vollständige Auflösungserfassung mit 1 Minute.  Beim Lite-Plan werden Metriken 15 Tage lang aufbewahrt.  Beim Premium-Plan beträgt die Aufbewahrungsdauer 45 Tage.
+Vom traditionellen {{site.data.keyword.monitoringshort}}-Service wurden Metriken in der vom Service definierten Häufigkeit (ab 30 Sekunden) erfasst und mit der Zeit für eine Stunde zusammengefasst. {{site.data.keyword.monitoringlong}} bietet nun eine vollständige Auflösungserfassung mit 1 Minute.  Beim Lite-Plan werden Metriken 15 Tage lang aufbewahrt.  Beim Premium-Plan beträgt die Aufbewahrungsdauer 45 Tage.
 
 Weitere Informationen zum {{site.data.keyword.monitoringlong}}-Service finden Sie in der Dokumentation unter [Einführung in Monitoring-Service](/docs/services/cloud-monitoring/index.html#getting-started-with-ibm-cloud-monitoring) oder im Blogbeitrag [IBM Cloud Monitoring – Service Refresh with New Features![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](https://www.ibm.com/blogs/bluemix/2017/07/ibm-cloud-monitoring-service-refresh-new-features/).
 
@@ -823,16 +866,16 @@ Die Betaversion von {{site.data.keyword.uccr_short}} bietet die folgenden Schlü
 ### dashDB for Transactions in {{site.data.keyword.Db2Hosted_notm}} umbenannt
 Datum der Neuerung: 14. Juni 2017
 
-IBM {{site.data.keyword.DB2OnCloud_short}} ist der neue Name für dashDB for Transactions. Im Rahmen dieser Umbenennung wird auch der vormalige selbstverwaltete Service '{{site.data.keyword.DB2OnCloud_short}}' in 'IBM Db2 Hosted' umbenannt. Derzeit werden lediglich die Anzeigenamen aktualisiert; APIs oder Befehlszeilenschnittstellen bleiben somit unverändert.
+IBM {{site.data.keyword.DB2OnCloud_short}} ist der neue Name für dashDB for Transactions. Im Rahmen dieser Umbenennung wird auch der vormalige selbstverwaltete Service '{{site.data.keyword.DB2OnCloud_short}}' in 'IBM Db2 Hosted' umbenannt. Derzeit werden lediglich die Anzeigenamen aktualisiert. APIs oder Befehlszeilenschnittstellen bleiben somit unverändert.
 
-### Aktualisierungen für {{site.data.keyword.sparks}}: Connector für Stocator-S3 enthält Unterstützung für Service 'IBM Cloud Object Storage Cross Region' (Betaversion)
+### Aktualisierungen für {{site.data.keyword.sparks}}: Connector für Stocator-S3 enthält Unterstützung für den Service '{{site.data.keyword.cos_full_notm}} Cross Region' (Betaversion)
 Datum der Neuerung: 5. Juni 2017
 
-{{site.data.keyword.sparks}}-Benutzer können jetzt auf Daten zugreifen, die im Service 'IBM Cloud Object Storage Cross Region' gespeichert sind, und diese Daten analysieren. Diese Funktionalität wird als Betaversion angeboten. IBM Cloud Object Storage bietet einen kosteneffizienten Speicher mit großer Kapazität für Analysen und andere Anwendungen, der skalierbar, flexibel und einfach zu verwenden ist.
+Benutzer von {{site.data.keyword.sparks}} können jetzt auf Daten zugreifen, die im {{site.data.keyword.cos_full_notm}} Cross Region-Service gespeichert sind, und diese Daten analysieren. Diese Funktionalität wird als Betaversion angeboten. {{site.data.keyword.cos_full_notm}} bietet einen kosteneffizienten Speicher mit großer Kapazität für Analysen und andere Anwendungen, der skalierbar, flexibel und einfach zu verwenden ist.
 
-Apache Spark greift auf Daten in IBM Cloud Object Storage über einen Speicherconnector zu, der auf der Stocator-Technologie basiert, implizit für Objektspeicher konzipiert ist und daher schneller als herkömmliche Objektspeicherconnectors arbeitet. Als Benutzer müssen Sie den Apache Spark-Code weder ändern noch erneut kompilieren.
+Apache Spark greift auf Daten in {{site.data.keyword.cos_full_notm}} über einen Speicherconnector zu, der auf der Stocator-Technologie basiert, implizit für {{site.data.keyword.objectstorageshort}} konzipiert ist und daher schneller als herkömmliche {{site.data.keyword.objectstorageshort}}-Connectors arbeitet. Als Benutzer müssen Sie den Apache Spark-Code weder ändern noch erneut kompilieren.
 
-Im Blogbeitrag [Access and Analyze data in IBM Cross Region Cloud Object Storage](https://www.ibm.com/blogs/bluemix/2017/06/access-analyze-data-ibm-cross-region-cloud-object-storage/){: new_window} ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link") ist die Verwendung von Daten in IBM Cloud Object Storage mit {{site.data.keyword.sparks}} unter {{site.data.keyword.Bluemix_notm}} und IBM Data Science Experience (DSx) beschrieben.
+Im Blogbeitrag [Access and Analyze data in IBM Cross Region Cloud Object Storage](https://www.ibm.com/blogs/bluemix/2017/06/access-analyze-data-ibm-cross-region-cloud-object-storage/){: new_window} ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link") ist die Verwendung von {{site.data.keyword.cos_full_notm}}-Daten mit {{site.data.keyword.sparks}} unter {{site.data.keyword.Bluemix_notm}} und IBM Data Science Experience (DSx) beschrieben.
 
 Bei Fragen und Kommentaren können Sie sich unter der Adresse [sparksrv@us.ibm.com](sparksrv@us.ibm.com) mit uns in Verbindung setzen. Ihre Meinung interessiert uns sehr!
 
@@ -864,14 +907,14 @@ Früher mussten Sie eine lokale Version von IBM Streams installieren, um Python-
 
 Mit dem Kontext STREAMING_ANALYTICS_SERVICE können Sie eine Python-Anwendung an den {{site.data.keyword.streaminganalyticsshort}}-Service übergeben. Der {{site.data.keyword.streaminganalyticsshort}}-Service erfordert Python 3.5.
 
-Sie können mithilfe von Jupyter-Notizbüchern Python-Beispielanwendungen in IBM Data Science Experience (DSX) erstellen und diese Anwendungen direkt aus DSX an die {{site.data.keyword.streaminganalyticsshort}}-Instanz übergeben. Probieren Sie die Python-Beispielanwendungen für die Streamverarbeitung in Notizbüchern auf der [Seite der DSX-Community](https://datascience.ibm.com/){: new_window} ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link") aus.
+Sie können mithilfe von Jupyter Notebook-Dokumenten Python-Beispielanwendungen in IBM Data Science Experience (DSX) erstellen und diese Anwendungen direkt aus DSX an die {{site.data.keyword.streaminganalyticsshort}}-Instanz übergeben. Probieren Sie die Python-Beispielanwendungen für die Streamverarbeitung in Notizbüchern auf der [Seite der DSX-Community](https://datascience.ibm.com/){: new_window} ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link") aus.
 
 Weitere Informationen zu den Aktualisierungen für den {{site.data.keyword.streaminganalyticsshort}}-Service enthält der Blogbeitrag [{{site.data.keyword.streaminganalyticsshort}} updates: DSX integration and easier Python development](https://www.ibm.com/blogs/bluemix/2017/05/streaming-analytics-updates-dsx-integration-easier-python-development/){: new_window} ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link").
 
 ### Aktualisierungen für {{site.data.keyword.sparks}}: Apache Spark 2.1 wird jetzt unterstützt
 Datum der Neuerung: 21. April 2017
 
-Für {{site.data.keyword.sparkl}} wird die Unterstützung von Apache Spark 2.1 zur Erstellung von Algorithmen eingeführt, die Einblicke in komplexe Daten ermöglichen. Apache Spark 2.1 hilft erheblich beim strukturierten Streaming durch die hinzugefügte Unterstützung von Ereigniszeitwasserzeichen und von Kafka 10. Schwerpunkt von Apache Spark 2.1 ist auch eine zunehmende Stabilität und Nutzbarkeit in Spark SQL, SparkR und den MLlib-Modulen. Weitere Details über Spark 2.1 finden Sie auf der Seite [Spark Release 2.1.0](http://spark.apache.org/releases/spark-release-2-1-0.html).
+Für {{site.data.keyword.sparkl}} wird die Unterstützung von Apache Spark 2.1 zur Erstellung von Algorithmen eingeführt, die Einblicke in komplexe Daten ermöglichen. Apache Spark 2.1 hilft erheblich beim strukturierten Streaming durch die hinzugefügte Unterstützung von Ereigniszeitwasserzeichen und von Kafka 10. Schwerpunkt von Apache Spark 2.1 ist auch eine Steigerung der Stabilität und Nutzbarkeit in Spark SQL, SparkR und den MLlib-Modulen. Weitere Details über Spark 2.1 finden Sie auf der Seite [Spark Release 2.1.0](http://spark.apache.org/releases/spark-release-2-1-0.html).
 
 Ihre Fragen zu {{site.data.keyword.sparkl}} oder zur neueren Version Apache Spark 2.1 sind uns unter der Adresse  'sparksrv@us.ibm.com' jederzeit willkommen.
 

@@ -4,8 +4,8 @@
 
 copyright:
 
-  years: 2015, 2018
-lastupdated: "2018-10-04"
+  years: 2015, 2019
+lastupdated: "2019-01-14"
 
 
 ---
@@ -15,7 +15,7 @@ lastupdated: "2018-10-04"
 {:screen: .screen}
 {:new_window: target="_blank"}
 
-# {{site.data.keyword.Bluemix_notm}}Nutzungsbedingungen und Bemerkungen
+# {{site.data.keyword.Bluemix_notm}} - Nutzungsbedingungen und Bemerkungen
 {: #terms}
 
 ## {{site.data.keyword.Bluemix_notm}} - Nutzungsbedingungen
@@ -24,7 +24,7 @@ lastupdated: "2018-10-04"
 Ihr IBM Cloud-Konto und alle Services, die von IBM Cloud angefordert werden, werden unter den folgenden Bedingungen bereitgestellt:
 
   * Basisvereinbarungen bezüglich Cloud-Bedingungen:
-    * Vereinbarung für Cloud-Services von SoftLayer bezüglich der Kreditkartenabrechnung in US-Dollar, verfügbar unter [http://www.softlayer.com/legal](http://www.softlayer.com/legal){: new_window} ![Symbol für externen Link](../../icons/launch-glyph.svg)
+    * Vereinbarung für Cloud-Services von SoftLayer bezüglich der Kreditkartenabrechnung in US-Dollar, verfügbar unter [https://www.ibm.com/support/customer/zz/en/softlayer.html](https://www.ibm.com/support/customer/zz/en/softlayer.html){: new_window} ![Symbol für externen Link](../../icons/launch-glyph.svg)
     * IBM Vereinbarung für Cloud-Services (in der Version des jeweiligen Landes*) bezüglich der Kreditkartenabrechnung in einer anderen Währung als US-Dollar oder bei Auswahl der IBM Rechnungsstellung, verfügbar unter [https://www.ibm.com/terms](https://www.ibm.com/terms){: new_window} ![Symbol für externen Link](../../icons/launch-glyph.svg) (wählen Sie Ihr Land aus)
     * Von Ihnen akzeptierter IBM Passport Advantage Vertrag und die allgemeinen Bedingungen zu den Nutzungsbedingungen für Cloud-Angebote für IBM Passport Advantage-Kunden, verfügbar unter [http://www-03.ibm.com/software/sla/sladb.nsf/sla/tou](http://www-03.ibm.com/software/sla/sladb.nsf/sla/tou){: new_window} ![Symbol für externen Link](../../icons/launch-glyph.svg)
     * Äquivalente Bedingungen der Basisvereinbarung für Cloud-Services zwischen Ihnen und IBM
@@ -54,7 +54,7 @@ International Business Machines Corporation oder Tochtergesellschaften von IBM s
 ### 2. Vom Kunden bereitgestellte IP-Adressen
 {: #client_provided_ips}
 
-Kunden können ihre eigenen von RIR (Regional Internet Registry) ausgegebenen IP-Adressen verwenden, die bestimmten technischen Beschränkungen und Verifizierungen der Eigentumsrechte unterliegen, indem Sie ein Support-Ticket übergeben und ein entsprechendes Berechtigungsdokument bereitstellen, um die kundeneigenen IP-Präfixe anzugeben. Falls IBM die Anforderung zur Verwendung dieser IP-Adressen genehmigt, werden diese IP-Adressen über BGP (Border Gateway Protocol) im Namen des Kunden bekanntgegeben und an die angegebenen Client-Server weitergeleitet. Der Kunde behält das Eigentumsrecht an diesen IP-Adressen. Auf Anforderung des Kunden oder bei Beendigung des Services wird IBM die Bekanntgabe und Weiterleitung dieser IP-Adressen einstellen. Während IBM große Anstrengungen unternimmt, zu gewährleisten, dass BGP-Präfixe von allen vorgeschalteten ISPs akzeptiert werden, können wir jedoch nicht die globale Erreichbarkeit von kundeneigenen IPs garantieren. 
+Kunden können ihre eigenen von RIR (Regional Internet Registry) ausgegebenen IP-Adressen verwenden, die bestimmten technischen Beschränkungen und Verifizierungen der Eigentumsrechte unterliegen, indem sie einen Supportfall übergeben und ein entsprechendes Berechtigungsdokument bereitstellen, um die kundeneigenen IP-Präfixe anzugeben. Falls IBM die Anforderung zur Verwendung dieser IP-Adressen genehmigt, werden diese IP-Adressen über BGP (Border Gateway Protocol) im Namen des Kunden bekanntgegeben und an die angegebenen Client-Server weitergeleitet. Der Kunde behält das Eigentumsrecht an diesen IP-Adressen. Auf Anforderung des Kunden oder bei Beendigung des Services wird IBM die Bekanntgabe und Weiterleitung dieser IP-Adressen einstellen. Während IBM große Anstrengungen unternimmt, zu gewährleisten, dass BGP-Präfixe von allen vorgeschalteten ISPs akzeptiert werden, können wir jedoch nicht die globale Erreichbarkeit von kundeneigenen IPs garantieren. 
 
 ### 3. Richtlinien zu Prüfung / Begründung / Effizienz
 {: #review_justification_efficiency}
@@ -68,9 +68,9 @@ Eine erste Überprüfung kann bis zu 2 Arbeitstage in Anspruch nehmen und abhän
 ## Bemerkungen
 {: #notices}
 
-Die vorliegenden Informationen wurden für Produkte und Services entwickelt, die auf dem deutschen Markt angeboten werden. IBM stellt dieses Material möglicherweise auch in anderen Sprachen zur Verfügung. Für den Zugriff auf das Material in einer anderen Sprache könnte eine Kopie des Produkts oder der Produktversion in der jeweiligen Sprache erforderlich sein.
+Die vorliegenden Informationen wurden für Produkte und Services entwickelt, die auf dem deutschen Markt angeboten werden. IBM stellt dieses Material möglicherweise auch in anderen Sprachen zur Verfügung. Für den Zugriff auf das Material in einer anderen Sprache kann eine Kopie des Produkts oder der Produktversion in der jeweiligen Sprache erforderlich sein. 
 
-Möglicherweise bietet IBM die in dieser Dokumentation beschriebenen Produkte, Services oder Funktionen in anderen Ländern nicht an. Informationen über die gegenwärtig im jeweiligen Land verfügbaren Produkte und Services sind beim zuständigen IBM Ansprechpartner erhältlich. Hinweise auf IBM Lizenzprogramme oder andere IBM Produkte bedeuten nicht, dass nur Programme, Produkte oder Services von IBM verwendet werden können. Anstelle der IBM Produkte, Programme oder Services können auch andere, ihnen äquivalente Produkte, Programme oder Services verwendet werden, solange diese keine gewerblichen oder anderen Schutzrechte von IBM verletzen. Die Verantwortung für den Betrieb von Produkten, Programmen und Services anderer Anbieter liegt beim Kunden.
+Möglicherweise bietet IBM die in dieser Dokumentation beschriebenen Produkte, Services oder Funktionen in anderen Ländern nicht an. Informationen über die gegenwärtig im jeweiligen Land verfügbaren Produkte und Services sind beim zuständigen IBM Ansprechpartner erhältlich. Hinweise auf IBM Lizenzprogramme oder andere IBM Produkte bedeuten nicht, dass nur Programme, Produkte oder Services von IBM verwendet werden können. Anstelle der IBM Produkte, Programme oder Services können auch andere, ihnen äquivalente Produkte, Programme oder Services verwendet werden, solange diese keine gewerblichen oder anderen Schutzrechte von IBM verletzen. Die Verantwortung für den Betrieb von Produkten, Programmen und Services anderer Anbieter liegt beim Kunden. 
 
 Für die in diesem Handbuch beschriebenen Erzeugnisse und Verfahren kann es IBM Patente oder Patentanmeldungen geben. Mit der Auslieferung dieses Handbuchs ist keine Lizenzierung dieser Patente verbunden. Lizenzanforderungen sind schriftlich an folgende Adresse zu richten (Anfragen an diese Adresse müssen auf Englisch formuliert werden):
 
@@ -112,17 +112,17 @@ Die erwähnten Leistungsdaten und Clientbeispiele dienen nur zur Veranschaulichu
 
 Alle Informationen zu Produkten anderer Anbieter stammen von den Anbietern der aufgeführten Produkte, deren veröffentlichten Ankündigungen oder anderen allgemein verfügbaren Quellen. IBM hat diese Produkte nicht getestet und kann daher keine Aussagen zu Leistung, Kompatibilität oder anderen Merkmalen machen. Fragen zu den Leistungsmerkmalen von Produkten anderer Anbieter sind an den jeweiligen Anbieter zu richten.
 
-Aussagen über Pläne und Absichten von IBM unterliegen Änderungen oder können zurückgenommen werden und repräsentieren nur die Ziele von IBM.
+Aussagen über Pläne und Absichten von IBM unterliegen Änderungen oder können zurückgenommen werden und repräsentieren nur die Ziele von IBM. 
 
 Alle von IBM angegebenen Preise sind empfohlene Richtpreise und können jederzeit ohne weitere Mitteilung geändert werden. Händlerpreise können u. U. von den hier genannten Preisen abweichen.
 
-Diese Veröffentlichung dient nur zu Planungszwecken. Die in dieser Veröffentlichung enthaltenen Informationen können geändert werden, bevor die beschriebenen Produkte verfügbar sind.
+Diese Veröffentlichung dient nur zu Planungszwecken. Die in dieser Veröffentlichung enthaltenen Informationen können geändert werden, bevor die beschriebenen Produkte verfügbar sind. 
 
-Diese Veröffentlichung enthält Beispiele für Daten und Berichte des alltäglichen Geschäftsablaufs. Sie sollen nur die Funktionen des Lizenzprogramms illustrieren und können Namen von Personen, Firmen, Marken oder Produkten enthalten. Alle diese Namen sind frei erfunden und jede Ähnlichkeit mit tatsächlichen Personen oder Unternehmen ist rein zufällig.
+Diese Veröffentlichung enthält Beispiele für Daten und Berichte des alltäglichen Geschäftsablaufs. Sie sollen nur die Funktionen des Lizenzprogramms illustrieren und können Namen von Personen, Firmen, Marken oder Produkten enthalten. Alle diese Namen sind frei erfunden und jede Ähnlichkeit mit tatsächlichen Personen oder Unternehmen ist rein zufällig. 
 
 COPYRIGHTLIZENZ:
 
-Diese Veröffentlichung enthält Beispielanwendungsprogramme, die in Quellensprache geschrieben sind und Programmiertechniken in verschiedenen Betriebsumgebungen veranschaulichen. Sie dürfen diese Beispielprogramme kostenfrei kopieren, ändern und verteilen, wenn dies zu dem Zweck geschieht, Anwendungsprogramme zu entwickeln, zu verwenden, zu vermarkten oder zu verteilen, die mit der Anwendungsprogrammierschnittstelle für die Betriebsumgebung konform sind, für die diese Beispielprogramme geschrieben werden. Diese Beispiele wurden nicht unter allen denkbaren Bedingungen getestet. Daher kann IBM die Zuverlässigkeit, Wartungsfreundlichkeit oder Funktion dieser Programme weder zusagen noch gewährleisten. Die Beispielprogramme werden ohne Wartung (auf "as-is"-Basis) und ohne jegliche Gewährleistung zur Verfügung gestellt. IBM übernimmt keine Haftung für Schäden, die durch die Verwendung der Beispielprogramme entstehen.
+Diese Veröffentlichung enthält Beispielanwendungsprogramme, die in Quellensprache geschrieben sind und Programmiertechniken in verschiedenen Betriebsumgebungen veranschaulichen. Sie dürfen diese Beispielprogramme kostenfrei kopieren, ändern und verteilen, wenn dies zu dem Zweck geschieht, Anwendungsprogramme zu entwickeln, zu verwenden, zu vermarkten oder zu verteilen, die mit der Anwendungsprogrammierschnittstelle für die Betriebsumgebung konform sind, für die diese Beispielprogramme geschrieben werden. Diese Beispiele wurden nicht unter allen denkbaren Bedingungen getestet. Daher kann IBM die Zuverlässigkeit, Wartungsfreundlichkeit oder Funktion dieser Programme weder zusagen noch gewährleisten. Die Beispielprogramme werden ohne Wartung (auf "as-is"-Basis) und ohne jegliche Gewährleistung zur Verfügung gestellt. IBM übernimmt keine Haftung für Schäden, die durch die Verwendung der Beispielprogramme entstehen. 
 
 Kopien oder Teile der Beispielprogramme bzw. daraus abgeleiteter Code müssen folgenden Copyrightvermerk beinhalten:
 

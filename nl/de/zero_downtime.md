@@ -20,7 +20,7 @@ lastupdated: "2018-11-28"
 # Wie stelle ich null Ausfallzeit sicher?
 {: #zero-downtime}
 
-Ihre globale Strategie ist wichtig. Sie können ein bestimmtes Rechenzentrum oder einen bestimmten Standort auswählen, um Ihren Kunden Ihre Daten im richtigen Teil der Welt bereitzustellen.
+Ihre globale Strategie ist wichtig. Sie können ein bestimmtes Rechenzentrum oder einen bestimmten Standort auswählen, um Ihren Kunden Ihre Daten im richtigen Teil der Welt bereitzustellen. 
 {:shortdesc}
 
 {{site.data.keyword.Bluemix}}-Plattformservices werden selbst verwaltet. Das bedeutet, dass die Standorte, an denen Sie Ihre App implementieren, Workloads über Rechenzentren verteilen können. Sie können außerdem sicherstellen, dass ein Failover-Design vorhanden ist, was bedeutet, dass Ihre App für Ihre Kunden immer betriebsbereit ist. Für Ihre Infrastrukturressourcen können Sie einzelne Rechenzentren auswählen, in denen die Ressourcen bereitgestellt werden. 
@@ -34,17 +34,15 @@ Bei Disaster-Recovery geht es darum, einen katastrophalen Ausfall oder einen Ver
 
 ### Erstellen eines Disaster-Recovery-Plans 
 
-{{site.data.keyword.Bluemix_notm}} entspricht den Anforderungen für die Planung eines Notfalls und bei jeder Anwendung ist ein Plan für Sie zum Wiederherstellen oder zum erneuten Starten vorhanden. Die Wiederherstellung erfolgt durch elektronische Sicherungen in einem Wiederherstellungscenter oder in alternativien Räumlichkeiten für die Datenverarbeitung, die die Datenverarbeitung wiederherstellen. Angesichts eines potenziellen Notfalls enthält der Disaster-Recovery-Plan die System- und Hostinganforderungen für Hardware, Software, Netzwerkkonnektivität sowie externe Sicherungsfunktionen.
-
+{{site.data.keyword.Bluemix_notm}} entspricht den Anforderungen für die Planung eines Notfalls und bei jeder Anwendung ist ein Plan für Sie zum Wiederherstellen oder zum erneuten Starten vorhanden. Die Wiederherstellung erfolgt durch elektronische Sicherungen in einem Wiederherstellungscenter oder in alternativen Räumlichkeiten für die Datenverarbeitung, die die Datenverarbeitung wiederherstellen. Angesichts eines potenziellen Notfalls enthält der Disaster-Recovery-Plan die System- und Hostinganforderungen für Hardware, Software, Netzwerkkonnektivität sowie externe Sicherungsfunktionen.
 
 Die folgende Liste enthält die Anforderungen des Notfallwiederherstellungsplans:
 
 - Für den Lastausgleich ist ein Dokument vorhanden, in dem erläutert wird, wie der Datenverarbeitungsservice verfügbar bleibt. 
 - Für den Fall, dass an mehreren Standorten ein Ausweichbetrieb stattfindet, muss der Disaster-Recovery-Plan erläutern, wer das Failover wodurch verursacht hat, und den Neustart sicherstellen. 
 - Der Disaster-Recovery-Plan muss definieren, wie die Lösung funktioniert und welcher Datenverlust aufgetreten ist. 
-- Er muss darlegen, wie die maximal tolerierbare Ausfallzeit eingehalten und in der Rep-Datenbank des Disaster-Recovery-Plans gespeichert wird.   
--   Der Notfallwiederherstellungsplan gibt die Sicherheitsmaßnahmen für die Ausführung im Notfallmodus an, sofern diese sich jeweils von denen in der Produktion unterscheiden.
- 
+- Er muss darlegen, wie die maximal tolerierbare Ausfallzeit eingehalten und in der Rep-Datenbank des Disaster-Recovery-Plans gespeichert wird.  
+- Der Notfallwiederherstellungsplan gibt die Sicherheitsmaßnahmen für die Ausführung im Notfallmodus an, sofern diese sich jeweils von denen in der Produktion unterscheiden. 
 
 ### Management des Disaster-Recovery-Plans 
 
@@ -72,14 +70,13 @@ ibmcloud api https://api.eu-gb.bluemix.net
 
 Jedem Standort wird ein eindeutiges Präfix zugewiesen. {{site.data.keyword.cloud_notm}} stellt die folgenden Standorte und Standortpräfixe zur Verfügung.
 
-| **Standort** | **API-Endpunkt** |
-|-----------------|-------------------|
-| Dallas | api.ng.bluemix.net |
-| Sydney | api.au-syd.bluemix.net |
-| Frankfurt | api.eu-de.bluemix.net |
-| London | api.eu-gb.bluemix.net |
+| **Standort**  | **API-Endpunkt**        |
+|---------------|-------------------------|
+| Dallas        | api.ng.bluemix.net      |
+| Sydney        | api.au-syd.bluemix.net  |
+| Frankfurt     | api.eu-de.bluemix.net   |
+| London        | api.eu-gb.bluemix.net   |
 | Washington DC | api.us-east.bluemix.net |
-| Tokio | api.jp-tok.bluemix.net |
 {: caption="Tabelle 1. Liste der {{site.data.keyword.cloud_notm}}-Standorte" caption-side="top"}
 
 Wenn Sie Infrastrukturressourcen bereitstellen, stehen Ihnen mehr Optionen zur Verfügung, an denen sich Ihre Daten befinden können. Sie können einen Standort auswählen oder ein Rechenzentrum aus der Liste in {{site.data.keyword.Bluemix_notm}} auswählen. 
@@ -97,72 +94,72 @@ Ein Rechenzentrum ist der physische Standort, an dem die für Services und Apps 
 ### Nordamerika
 {: #na}
 
-| Name des Rechenzentrums | Code |
-|----------|---------|
-|Dallas 01|dal01|
-|Dallas 05|dal05|
-|Dallas 06|dal06|
-|Dallas 07|dal07|
-|Dallas 09|dal09|
-|Dallas 10|dal10|
-|Dallas 12|dal12|
-|Dallas 13|dal13|
-|Washington DC 01|wdc01|
-|Washington DC 04|wdc04|
-|Washington DC 06|wdc06|
-|Washington DC 07|wdc07|
-|San Jose 01|sjc01|
-|San Jose 03|sjc03|
-|San Jose 04|sjc04|
-|Seattle 01|sea01|
-|Houston 01|hou01|
-|Montreal 01|mon01|
-|Toronto 01|tor01|
-|Mexiko 01|mex01|
+| Name des Rechenzentrums | Code  |
+|------------------|-------|
+| Dallas 01        | dal01 |
+| Dallas 05        | dal05 |
+| Dallas 06        | dal06 |
+| Dallas 07        | dal07 |
+| Dallas 09        | dal09 |
+| Dallas 10        | dal10 |
+| Dallas 12        | dal12 |
+| Dallas 13        | dal13 |
+| Washington DC 01 | wdc01 |
+| Washington DC 04 | wdc04 |
+| Washington DC 06 | wdc06 |
+| Washington DC 07 | wdc07 |
+| San Jose 01      | sjc01 |
+| San Jose 03      | sjc03 |
+| San Jose 04      | sjc04 |
+| Seattle 01       | sea01 |
+| Houston 01       | hou01 |
+| Montreal 01      | mon01 |
+| Toronto 01       | tor01 |
+| Mexiko 01        | mex01 |
 {: caption="Tabelle 2. Rechenzentren in Nordamerika" caption-side="top"}
 
 ### Südamerika
 {: #sa}
 
-| Name des Rechenzentrums | Code |
-|----------|---------|
-|Sao Paulo 01|sao01|
+| Name des Rechenzentrums | Code    |
+|------------------|---------|
+| Sao Paulo 01     | sao01   |
 {: caption="Tabelle 3. Rechenzentren in Südamerika" caption-side="top"}
 
 ### Europa
 {: #eu}
 
-| Name des Rechenzentrums | Code |
-|----------|---------|
-|London 02|lon02|
-|London 04|lon04|
-|London 05|lon05|
-|London 06|lon06|
-|Frankfurt 02|fra02|
-|Frankfurt 04|fra04|
-|Frankfurt 05|fra05|
-|Mailand 01|mil01|
-|Amsterdam 01|ams01|
-|Amsterdam 03|ams03|
-|Paris 01|par01|
-|Oslo 01|osl01|
+| Name des Rechenzentrums | Code  |
+|------------------|-------|
+| London 02        | lon02 |
+| London 04        | lon04 |
+| London 05        | lon05 |
+| London 06        | lon06 |
+| Frankfurt 02     | fra02 |
+| Frankfurt 04     | fra04 |
+| Frankfurt 05     | fra05 |
+| Mailand 01         | mil01 |
+| Amsterdam 01     | ams01 |
+| Amsterdam 03     | ams03 |
+| Paris 01         | par01 |
+| Oslo 01          | osl01 |
 {: caption="Tabelle 4. Rechenzentren in Europa" caption-side="top"}
 
 ### Asien/Pazifik
 {: #ap}
 
-| Name des Rechenzentrums | Code |
-|----------|---------|
-|Tokio 01|tok02|
-|Tokio 04|tok04|
-|Tokio 05|tok05|
-|Seoul 01|seo01|
-|Hongkong 02|hkg02|
-|Singapur 01|sng01|
-|Sydney 01|syd01|
-|Sydney 04|syd04|
-|Sydney 05|syd05|
-|Melbourne 01|mel01|
+| Name des Rechenzentrums | Code  |
+|------------------|-------|
+| Tokio 01         | tok02 | 
+| Tokio 04         | tok04 |
+| Tokio 05         | tok05 |
+| Seoul 01         | seo01 |
+| Hongkong 02     | hkg02 |
+| Singapur 01     | sng01 |
+| Sydney 01        | syd01 |
+| Sydney 04        | syd04 |
+| Sydney 05        | syd05 |
+| Melbourne 01     | mel01 |
 {: caption="Tabelle 5. Rechenzentren in Asien/Pazifik" caption-side="top"}
 
 
@@ -187,11 +184,11 @@ Sie haben Anspruch auf eine Gutschrift auf Ihr Konto, wenn Ausfallzeiten auftret
 - Cloud-Services in der öffentlichen Umgebung, die für hohe Verfügbarkeit konfiguriert sind, wie in den Katalogdetails für jeden Service beschrieben. 
 - Cloud-Services in mehreren dedizierten oder lokalen Umgebungen in räumlich getrennten Rechenzentren. 
 
-|Typ	|Beschreibung	|Details der Unterstützung|
-|-----|-------------|---------------|
-| Öffentliche HA-Umgebung oder mehrere dedizierte/lokale Umgebungen | Andere Umgebungen | Gutschrift |
-|<99,95 % |<99,5 % | 10 % |
-|<99,90 % |<99,0 % | 25 % |
+| Typ	                                                                        | Beschreibung	       | Details der Unterstützung|
+|-------------------------------------------------------------------------------|--------------------|----------------|
+| Öffentliche HA-Umgebung oder mehrere dedizierte/lokale Umgebungen | Andere Umgebungen | Gutschrift         |
+| <99,95 %                                                                       |<99,5 %              |10 %             |
+| <99,90 %                                                                       |<99,0 %              |25 %             |
 {: caption="Tabelle 6. Service-Level der monatlichen Verfügbarkeit" caption-side="top"}
 
 Der Prozentsatz der Verfügbarkeit wird berechnet als Gesamtzahl von Minuten in einem Vertragsmonat minus der Gesamtanzahl von Ausfallzeitminuten in diesem Monat, dividiert durch die Gesamtzahl der Minuten in diesem Monat. 
@@ -206,14 +203,14 @@ Ein Monat mit 31 Tagen umfasst beispielsweise insgesamt 44.640 Minuten. Wenn sec
 
 SLAs schließen keine Ausfallzeiten oder Störungen ein, die mit den angegebenen Ausschlüssen, der Nichtverfügbarkeit der {{site.data.keyword.Bluemix_notm}}-Benutzerschnittstelle oder der Zeit zum erneuten Laden, Konfigurieren, Aktivieren oder Zugreifen auf Inhalte zusammenhängt.
 
-Die SLA für Verfügbarkeitsausfallzeit schließt keine {{site.data.keyword.Bluemix_notm}}-Infrastrukturservices ein.
+Die SLA für Verfügbarkeitsausfallzeit schließt keine {{site.data.keyword.Bluemix_notm}}-Infrastrukturservices ein. 
 {: note}
 
 ### SLAs für Infrastrukturservices
 
 Infrastrukturdienste sind Bare-Metal-Server und virtuelle Server, Vernetzungs-, Speicher- und Sicherheitsservices. Um eine vollständige Liste der Infrastrukturservices zu finden, durchsuchen Sie den {{site.data.keyword.Bluemix_notm}}-Katalog unter Verwendung des Tags `iaas`. 
 
-Als Ausfallzeit wird die Gesamtzeit von Minuten bezeichnet, in der ein vom Kunden identifizierter Infrastrukturservice nicht zur Verfügung steht, da der Service wegen einer Serviceunterbrechung aufgrund eines Ausfalls des öffentlichen Netzes, des privaten Netzes, einem Stromausfall bei redundanten Infrastrukturen und HVAC-Betriebsunterbrechnungen unterbrochen worden ist. Die Berechnung der Gesamtausfallzeit in Minuten beginnt, wenn der bestätigte Ausfall, der den Service betrifft, identifiziert wird, und endet mit Zeitpunkt, an dem der Service wieder verfügbar ist. 
+Als Ausfallzeit wird die Gesamtzeit von Minuten bezeichnet, in der ein vom Kunden identifizierter Infrastrukturservice nicht zur Verfügung steht, da der Service wegen einer Serviceunterbrechung aufgrund eines Ausfalls des öffentlichen Netzes, des privaten Netzes, einem Stromausfall bei redundanten Infrastrukturen und HVAC-Betriebsunterbrechungen unterbrochen worden ist. Die Berechnung der Gesamtausfallzeit in Minuten beginnt, wenn der bestätigte Ausfall, der den Service betrifft, identifiziert wird, und endet mit Zeitpunkt, an dem der Service wieder verfügbar ist. 
 
 Ausfallzeiten umfassen keine Zeit für geplante oder angekündigte Wartungsarbeiten. Für jeweils 30 Minuten ununterbrochener Ausfallzeit erhalten Sie eine Gutschrift in Höhe von 5 % der monatlichen Gebühren für die identifizierten Services, die direkt von dem Ausfall betroffen sind. Sie haben keinen Anspruch auf eine Gutschrift, wenn die Ausfallzeit weniger als 30 zusammenhängende Minuten beträgt. Ausfallzeiten für unterschiedliche Ausfalltypen können nicht miteinander kombiniert werden, damit diese Berechnung erfüllt wird.
 
@@ -226,15 +223,15 @@ Ausfallzeiten umfassen keine Zeit für geplante oder angekündigte Wartungsarbei
 
 Service-Level-Zeiträume schließen jede Zeit aus, die zum erneuten Laden des Betriebssystems oder von Anwendungen erforderlich ist, oder die Zeitleistung verschlechtert ist. Sie haben Anspruch auf eine Gutschrift auf der Grundlage der monatlichen Gebühr für den Service, die von dem Hardwareaustausch oder -upgrade betroffen ist, wenn {{site.data.keyword.Bluemix_notm}} einen bestimmten Service-Level-Zeitraum nicht erfüllt.
 
-|Typ	|Beschreibung	|
-|-----|-------------|
-|Service-Level-Zeitraum |Gutschrift in Prozent |
-|≤ 2 Stunden |Keine |
-|> 2 Stunden |20 % |
-|> 6 Stunden |40 % |
-|> 10 Stunden |60 % |
-|> 14 Stunden |80 % |
-|> 18 Stunden |80 % |
+| Typ	                    | Beschreibung	   |
+|---------------------------|----------------|
+| Service-Level-Zeitraum | Gutschrift in Prozent |
+| ≤ 2 Stunden                 | Keine           |
+| > 2 Stunden                 | 20 %            |
+| > 6 Stunden                 | 40 %            |
+| > 10 Stunden                | 60 %            |
+| > 14 Stunden                | 80 %            |
+| > 18 Stunden                | 80 %            |
 {: caption="Tabelle 7. Gutschrift basierend auf der monatlichen Gebühr für den Service, der von dem Hardwareaustausch oder -upgrade betroffen ist" caption-side="top"}
 
 ### Reklamationen
@@ -249,7 +246,7 @@ Es werden keine Gutschriften für die Nichteinhaltung einer SLA aus den folgende
 - Probleme mit Inhalten, Technologie, Designs oder Anweisungen, die von Kunden oder von der Community bereitgestellt wurden
 - Cloud-Services in der Beta-Phase, experimentelle Cloud-Services oder gebührenfreie Cloud-Services
 - Build-Packs, die nicht von IBM stammen
--  Nicht unterstützte Systemkonfigurationen und -plattformen
+- Nicht unterstützte Systemkonfigurationen und -plattformen
 - Ausfälle der kundenseitigen Infrastruktur, einschließlich Netzwerk, Hardware, Ausrüstung oder Stromversorgung
 - Aktionen, Befehle oder Dateiübertragungen der Systemadministration des Kunden
 - Kundenseitige Fehler oder Versäumnisse bei der Bereitstellung von Informationen zu Zugriff, die bzw. der für die Behebung einer Betriebsunterbrechung benötigt wird

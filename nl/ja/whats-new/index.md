@@ -2,9 +2,9 @@
 
 copyright:
 
-  years: 2015, 2018
+  years: 2015, 2019
 
-lastupdated: "2018-11-30"
+lastupdated: "2019-01-22"
 
 ---
 
@@ -25,58 +25,64 @@ lastupdated: "2018-11-30"
 最新情報: 2018 年 11 月 30 日 
 {: #support}
 
-サポート・センターを使用して、{{site.data.keyword.Bluemix_notm}} に関連したすべての問題の解決に取り組むことができます。ランディング・ページには FAQ が用意されており、{{site.data.keyword.Bluemix_notm}} に連絡しなくても質問の答えを見つけることができます。また、ライブ・サポート担当員とチャットするオプションもあります。お客様の Case を単一の場所から管理できるようになりました。**「サポート」** &gt; **「Case の管理」**に移動して、Case を作成、表示、または編集します。
+サポート・センターを使用して、{{site.data.keyword.Bluemix_notm}} に関連したすべての問題の解決に取り組むことができます。 ランディング・ページには FAQ が用意されており、{{site.data.keyword.Bluemix_notm}} に連絡しなくても質問の答えを見つけることができます。 また、ライブ・サポート担当員とチャットすることもできます。 お客様の Case を単一の場所から管理できるようになりました。 **「サポート」** &gt; **「Case の管理」**に移動して、Case を作成、表示、または編集します。
 
-また、サポート・センターから[「状況」ページ ](https://cloud.ibm.com/status){: new_window} ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・リンク")を参照することもできます。このページは、{{site.data.keyword.Bluemix_notm}} のプラットフォーム、インフラストラクチャー、および主要サービスに影響を与える重要なイベントに関する計画外のインシデント、計画保守、告知、およびセキュリティー情報の通知をすべて組み込むように拡張されました。サポート・センターから**「クラウドの状況の表示」**をクリックします。この新しいエクスペリエンスを確認するには、ログインして[サポート・センター](https://cloud.ibm.com/unifiedsupport/supportcenter){: new_window} ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン") にアクセスしてください。 
+また、サポート・センターから[「状況」ページ ](https://cloud.ibm.com/status){: new_window} ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・リンク")を参照することもできます。 このページは、{{site.data.keyword.Bluemix_notm}} のプラットフォーム、インフラストラクチャー、および主要サービスに影響を与える重要なイベントに関する計画外のインシデント、計画保守、告知、およびセキュリティー情報の通知をすべて組み込むように拡張されました。 サポート・センターから**「クラウドの状況の表示」**をクリックします。 この新しいエクスペリエンスを確認するには、ログインして[サポート・センター](https://cloud.ibm.com/unifiedsupport/supportcenter){: new_window} ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン") にアクセスしてください。 
 
 ### {{site.data.keyword.Bluemix_notm}} での統合ログイン、API キー、およびユーザーとアクセスの管理
 最新情報: 2018 年 11 月 30 日
 {: #useraccess}
 
-最新の更新により、ID タイプに関係なくすべてのユーザーが使用できる簡易セキュア・ログインを利用できるようになりました。IBM ID と SoftLayer ID のどちらを使用している場合でも、拡張ログイン・ページから {{site.data.keyword.Bluemix_notm}} コンソールに素早くログインできます。また、{{site.data.keyword.Bluemix_notm}} 全体でセキュアな API 呼び出しを行い、IAM API キーまたは IAM アクセス・トークンを使用して CLI ログインを自動化することもできます。 
+最新の更新により、ID タイプに関係なくすべてのユーザーが使用できる簡易セキュア・ログインを利用できるようになりました。 IBM ID と SoftLayer ID のどちらを使用している場合でも、拡張ログイン・ページから {{site.data.keyword.Bluemix_notm}} コンソールに素早くログインできます。 また、{{site.data.keyword.Bluemix_notm}} 全体でセキュアな API 呼び出しを行い、IAM API キーまたは IAM アクセス・トークンを使用して CLI ログインを自動化することもできます。 
 
-ログインすると、「アクセス (IAM)」UI の「ユーザー」ページに、プラットフォームおよびクラシック・インフラストラクチャーのユーザーを含むすべてのユーザーが表示されるようになります。アカウント内の他のユーザーを表示するためのアクセス権限に応じて、アカウント・ユーザー、クラシック・インフラストラクチャーのユーザー、または Cloud Foundry 組織によってビューを素早くフィルターに掛けることができます。また、フィルターを使用して、名前、E メール、または状況で素早くユーザーを検索することもできます。
+ログインすると、「アクセス (IAM)」UI の「ユーザー」ページに、プラットフォームおよびクラシック・インフラストラクチャーのユーザーを含むすべてのユーザーが表示されます。 アカウント内の他のユーザーを表示するためのアクセス権限に応じて、アカウント・ユーザー、クラシック・インフラストラクチャーのユーザー、または Cloud Foundry 組織によってビューを素早くフィルターに掛けることができます。また、フィルターを使用して、名前、E メール、または状況で素早くユーザーを検索することもできます。
 
-すべてのユーザーが単一のコンソールに表示されるようになったので、同じ場所からすべてのタイプのリソースへのアクセスを管理できます。アクセスはユーザーから開始されるため、最初にリストからユーザーを選択します。次に、アクセス権を割り当てるリソースのタイプに応じて、IAM アクセス・ポリシー、Cloud Foundry アクセス権限、またはクラシック・インフラストラクチャーの許可から選択できます。IAM アクセス・ポリシーを割り当てるだけの場合は、アクセス・グループを作成して、同じポリシーを割り当てる必要があるすべてのユーザーを同じアクセス・グループに追加することで、アクセス管理プロセスの簡素化を試行してください。
+すべてのユーザーが単一のコンソールに表示されるようになったので、同じ場所からすべてのタイプのリソースへのアクセスを管理できます。 アクセスはユーザーから開始されるため、最初にリストからユーザーを選択します。 次に、アクセス権を割り当てるリソースのタイプに応じて、IAM アクセス・ポリシー、Cloud Foundry アクセス権限、またはクラシック・インフラストラクチャーの許可から選択できます。 IAM アクセス・ポリシーを割り当てるだけの場合は、アクセス・グループを作成して、同じポリシーを割り当てる必要があるすべてのユーザーを同じアクセス・グループに追加することで、アクセス管理プロセスの簡素化を試行してください。
+
+詳細情報については、[Outstanding User Access Improvements Help Deliver a Unified {{site.data.keyword.Bluemix_notm}} Platform](https://www.ibm.com/blogs/bluemix/2018/11/ibm-cloud-access-management){: new_window} ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン") を確認してください。 
 
 ### すべての {{site.data.keyword.Bluemix_notm}} CLI プラグイン資料を 1 カ所で見つける
 最新情報: 2018 年 11 月 30 日
 {: #cli}
 
-{{site.data.keyword.Bluemix_notm}} CLI プラグインのすべての資料に 1 カ所でアクセスできるようになり、{{site.data.keyword.Bluemix_notm}} プラットフォームで探している CLI コマンドを見つけやすくなりました。[CLI 資料](/docs/cli/index.html#overview)の『リファレンス』セクションを確認してください。
+{{site.data.keyword.Bluemix_notm}} CLI プラグインのすべての資料に 1 カ所でアクセスできるようになり、{{site.data.keyword.Bluemix_notm}} プラットフォームで探している CLI コマンドを見つけやすくなりました。 [CLI 資料](/docs/cli/index.html#overview)の『リファレンス』セクションを確認してください。
 
 ### 新しいダッシュボードとリソース・リストを確認する
 最新情報: 2018 年 11 月 30 日
 {: #dash}
 
-最新の更新により、すべてのプラットフォームおよびインフラストラクチャーのサービスが同じ場所に表示されるようになりました。ログインすると、新しいダッシュボードをすぐに確認できます。カタログからアカウントにリソースを追加すると、リソース・リストを使用してアカウント・リソースの全体を表示できます。今回の変更に関する詳細の一部を以下に示します。
+最新の更新により、すべてのプラットフォームおよびインフラストラクチャーのサービスを 1 つの場所から表示できるようになりました。 ログインすると、新しいダッシュボードをすぐに確認できます。 カタログからアカウントにリソースを追加すると、リソース・リストを使用してアカウント・リソースの全体を表示できます。 :
 
 * ダッシュボードが再設計され、リソース、保守、状況、アプリケーション、サポート、使用状況、およびユーザーの要約を表示できるようになりました。
-* リソース・リストでリソースのより詳細な情報を確認できるようになりました。リソースにタグを付けて編成したり、リソースを選択して詳細ページで変更を加えたりすることができます。
+* リソース・リストでリソースのより詳細な情報を確認できるようになりました。 リソースにタグを付けて編成したり、リソースを選択して詳細ページで変更を加えたりすることができます。
 * すべてのリソースを 1 つの場所に表示できるようになったので、作成したリソースを素早く見つけてそれらを「リソース・リスト」ページに表示できるように、グローバル検索を追加しました。 
 * カタログ結果を検索して、アカウントに追加するリソースを素早く見つけることもできます。  
+
+詳しくは、[Manage All Your Cloud Resources on the Enhanced {{site.data.keyword.Bluemix_notm}} Platform](https://www.ibm.com/blogs/bluemix/2018/11/manage-all-your-cloud-resources-on-the-enhanced-ibm-cloud-platform/){: new_window} ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン") を参照してください。
 
 ### プラットフォームおよびインフラストラクチャーのサービスの統合アカウント、請求、およびユーザー・プロファイルの情報
 最新情報: 2018 年 11 月 30 日
 {: #profile}
 
-アカウント、請求、およびプロファイルの情報が簡素化されました。統合されたコンソールで、すべてのプラットフォームおよびインフラストラクチャーのリソースのアカウント情報を表示できるようになりました。 
+アカウント、請求、およびプロファイルの情報が簡素化されました。 統合されたコンソールで、すべてのプラットフォームおよびインフラストラクチャーのリソースのアカウント情報を表示できます。 
 
 * プロファイルと設定の領域には、お客様に関する情報と、すべてのリソース・タイプの E メール通知設定が含まれています。 
-* アカウント情報領域には、会社または組織に関する情報、アカウント設定、およびリソース・グループや Cloud Foundry 組織と連携するためのクイック・アクセスが含まれています。素早く稼働するのに役立つベスト・プラクティスを見つけることもできます。
+* アカウント情報領域には、会社または組織に関する情報、アカウント設定、およびリソース・グループや Cloud Foundry 組織と連携するためのクイック・アクセスが含まれています。 素早く稼働するのに役立つベスト・プラクティスを見つけることもできます。
 * アカウントの「請求および使用量」領域は、請求の理解、支払いの実行、サブスクリプションのモニター、見積もりの取得、注文の追跡、および消費量通知の設定に役立ちます。
+
+詳しくは、[Bringing It All Together: A Single Account and Billing Management Experience](https://www.ibm.com/blogs/bluemix/2018/11/ibm-cloud-account-management/){: new_window} ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン") を参照してください。
 
 ### タグによるリソースの編成
 最新情報: 2018 年 11 月 30 日
 {: #tag}
 
-タグをクラウド・オブジェクト・ストレージなどのリソースに追加できるようになりました。これにより、リソースを管理し、最も関連性の高いリソースを見つけることができます。例えば、数百のリソースがあり、同じ方法で支払われるいくつかのリソースを区別する場合は、「costcenter: location01」でタグ付けできます。または、いくつかのリソースに対する作業を繰り返し行っているチームがある場合は、「team-blue」などを使用できます。タグによってリソース・リストをフィルタリングし、必要なリソースを素早く編成して見つけることもできます。詳しくは、『[タグの処理](/docs/resources/tagging_resources.html#tag)』を参照してください。
+タグをクラウド・オブジェクト・ストレージなどのリソースに追加できるようになりました。これにより、リソースを管理し、最も関連性の高いリソースを見つけることができます。 例えば、数百のリソースがあり、同じ方法で支払われるいくつかのリソースを区別する場合は、`costcenter:location01` でタグ付けできます。 または、いくつかのリソースに対する作業を繰り返し行っているチームがある場合は、「team-blue」などを使用できます。 タグによってリソース・リストをフィルタリングし、必要なリソースを素早く編成して見つけることもできます。 詳しくは、『[タグの処理](/docs/resources/tagging_resources.html#tag)』および [Platform Tagging on the Enhanced {{site.data.keyword.Bluemix_notm}} Platform](https://www.ibm.com/blogs/bluemix/2018/11/platform-tagging-on-the-enhanced-ibm-cloud-platform/){: new_window} ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン") を参照してください。 
 
 ### コスト見積もりツールを使用した正確な月次コストの検出
 最新情報: 2018 年 11 月 30 日
 {: #cost-estimator}
 
-購入するサービスを決定して分析するために、コスト見積もりツールを使用できます。これで、コンソールを使用して、必要な各サービスを選択し、使いやすいツールですべてのコストを追加できます。また、予想されるデータ使用量、1 秒当たりのルックアップ数、1 秒当たりの書き込み数、および 1 秒当たりの照会数を入力して、月次支出をより正確に見積もることもできます。選択した各カタログ・サービスでコスト見積もりツールを使用することも、コンソール・メニューの「コスト見積もりツール」アイコン ![「見積もりツール」アイコン](../../icons/Estimator.svg) をクリックして見積もりコストの要約を取得することもできます。詳しくは、[コストの見積もり](/docs/billing-usage/estimating_costs.html#cost)を参照してください。
+購入するサービスを決定して分析するために、コスト見積もりツールを使用できます。 これで、コンソールを使用して、必要な各サービスを選択し、使いやすいツールですべてのコストを追加できます。 また、予想されるデータ使用量、1 秒当たりのルックアップ数、1 秒当たりの書き込み数、および 1 秒当たりの照会数を入力して、月次支出をより正確に見積もることもできます。 選択した各カタログ・サービスでコスト見積もりツールを使用することも、コンソール・メニューの「コスト見積もりツール」アイコン ![「見積もりツール」アイコン](../../icons/Estimator.svg) をクリックして見積もりコストの要約を取得することもできます。 詳しくは、[コストの見積もり](/docs/billing-usage/estimating_costs.html#cost)を参照してください。
 
 ### {{site.data.keyword.cloud_notm}} のグローバル・ロケーション名の更新
 最新情報: 2018 年 11 月 1 日
@@ -118,12 +124,12 @@ lastupdated: "2018-11-30"
 ### フェデレーテッド・ユーザーをアクセス・グループに動的に追加
 最新情報: 2018 年 7 月 12 日
 
-動的ルールを作成して、特定の ID 属性に基づいてフェデレーテッド・ユーザーをアクセス・グループに自動的に追加することができます。 ユーザーがフェデレーテッド ID を使用してログインすると、ID プロバイダーからのデータは、設定されたルールに基づいてユーザーをアクセス・グループに動的にマップします。 詳しくは、『[アクセス・グループの動的ルールの作成 (Creating dyanmic rules for access groups)](/docs/iam/accessgroup_rules.html#creating-dynamic-rules-for-access-groups)』を参照してください。
+動的ルールを作成して、特定の ID 属性に基づいてフェデレーテッド・ユーザーをアクセス・グループに自動的に追加することができます。 ユーザーがフェデレーテッド ID を使用してログインすると、ID プロバイダーからのデータは、設定されたルールに基づいてユーザーをアクセス・グループに動的にマップします。 詳しくは、『[アクセス・グループの動的ルールの作成 (Creating dynamic rules for access groups)](/docs/iam/accessgroup_rules.html#creating-dynamic-rules-for-access-groups)』を参照してください。
 
 ### サービス ID および API キーの保護
 最新情報: 2018 年 6 月 1 日
 
-サービス ID または API キーの削除が原因で停止または破壊が発生する状態を回避できるように、UI または CLI を使用してサービス ID および API キーをロックできるオプションがあります。 サービス ID をロックすることにより、アクセス・ポリシーの変更、削除、割り当てを防止することもでき、さらに、サービス ID と関連付けられた API キーの作成または削除を防止することもできます。 詳しくは、『[サービス ID のロック](/docs/iam/serviceid.html#locking-a-service-id)』および『[API キーのロック](/docs/iam/userid_keys.html#locking-an-api-key)』を参照してください。
+サービス ID または API キーの削除が原因で停止または破壊が発生する状態を回避できるように、UI または CLI を使用してサービス ID および API キーをロックできます。 サービス ID をロックすることにより、アクセス・ポリシーの変更、削除、割り当てを防止することもでき、さらに、サービス ID と関連付けられた API キーの作成または削除を防止することもできます。 詳しくは、『[サービス ID のロック](/docs/iam/serviceid.html#locking-a-service-id)』および『[API キーのロック](/docs/iam/userid_keys.html#locking-an-api-key)』を参照してください。
 
 ### ライト・アカウントからサブスクリプション・アカウントへのアップグレード
 最新情報: 2018 年 5 月 31 日
@@ -133,7 +139,7 @@ lastupdated: "2018-11-30"
 ### {{site.data.keyword.Bluemix_notm}} CLI リブランディング
 最新情報: 2018 年 5 月 15 日
 
-{{site.data.keyword.Bluemix_notm}} CLI コマンドは `bluemix` および `bx` から **ibmcloud** に変更されました。 ただし、後日削除されるまで、`bluemix` および `bx` CLI コマンドを引き続き使用できます。 現時点では短縮名はなく、完全な名前 **ibmcloud** のみです。 
+{{site.data.keyword.Bluemix_notm}} CLI コマンドは `bluemix` および `bx` から **ibmcloud** に変更されました。 ただし、後に削除されるまで、`bluemix` および `bx` の CLI コマンドを引き続き使用できます。 現在、短縮名はなく、フルネーム **ibmcloud** のみです。 
 
 ### {{site.data.keyword.Bluemix_notm}} アカウントでの多要素認証
 最新情報: 2018 年 5 月 2 日
@@ -178,7 +184,7 @@ SoftLayer アカウントを {{site.data.keyword.Bluemix_notm}} アカウント�
 ### {{site.data.keyword.Bluemix_notm}} IAM の更新
 最新情報: 2017 年 11 月 16 日
 
-自分の {{site.data.keyword.Bluemix_notm}} アカウント内に[リソース・グループ](/docs/overview/resource-groups.html#whatis)を導入することで、アクセス権限を割り当てるための新しい方法を利用できるようになりました。 複数のユーザーおよびサービス ID にリソース・グループ内のすべてのサービスへのアクセス権を割り当てることができるため、複数リソースへのアクセス権限を一度に素早く割り当てることができます。 リソース・グループ内の一部のサービスのみへのアクセス権限を割り当てることによって、ユーザーまたはサービス ID ごとにアクセス権限をカスタマイズすることもできます。あるいは単に、サービス・インスタンス・レベルで個別のリソースへのアクセス権限を割り当てることを選択します。
+自分の {{site.data.keyword.Bluemix_notm}} アカウント内に[リソース・グループ](/docs/overview/resource-groups.html#whatis)を導入することで、アクセス権限を割り当てるための新しい方法を利用できるようになりました。 複数のユーザーおよびサービス ID にリソース・グループ内のすべてのサービスへのアクセス権を割り当てることができるため、複数リソースへのアクセス権限を一度に素早く割り当てることができます。 リソース・グループ内の一部のサービスのみへのアクセス権限を割り当てることによって、ユーザーまたはサービス ID ごとにアクセス権限をカスタマイズすることもできます。あるいは、サービス・インスタンス・レベルで個別のリソースへのアクセス権限を割り当てることを選択します。
 
 IAM を使用して活用できる機能について詳しくは、『[Cloud IAM の機能にはどのようなものがありますか?](/docs/iam/index.html#features)』を参照してください。
 
@@ -283,7 +289,7 @@ Identity and Access Management (IAM) では、サービス ID を作成する機
 
 #### {{site.data.keyword.cloudant_short_notm}} サービス使用メトリックに対する更新
 
-  * {{site.data.keyword.cloudant_short_notm}} の使用メトリックの計算が、{{site.data.keyword.cloudant_short_notm}} クラスター内のすべてのノードにわたる使用 GB および使用可能 GB の合計量を反映するように更新されました。 通常、{{site.data.keyword.cloudant_short_notm}} クラスターには 3 つのノードが含まれ、高可用性および災害復旧のためにデータベース内の文書がクラスター内のすべてのノードで複製されます。 8 月の更新では、{{site.data.keyword.cloudant_short_notm}} ダイヤル (_「リソース使用量」>「サービス」_ビューで使用可能) 内の容量メトリックは、クラスター内のすべてのノードにわたるスペースを示します。 例えば、1 つの {{site.data.keyword.cloudant_short_notm}} クラスターが 3 つのノードで構成されていて、それぞれの容量が 1000 GB の場合、容量限度は 3000 GB となります。 その容量のうち 1500 GB が使用されている場合、{{site.data.keyword.cloudant_short_notm}} 使用メトリックは 50% になります。
+  * {{site.data.keyword.cloudant_short_notm}} の使用メトリックの計算が、{{site.data.keyword.cloudant_short_notm}} クラスター内のすべてのノードにわたる使用 GB および使用可能 GB の総数を反映するように更新されました。 通常、{{site.data.keyword.cloudant_short_notm}} クラスターには 3 つのノードが含まれ、高可用性および災害復旧のためにデータベース内の文書がクラスター内のすべてのノードで複製されます。 8 月の更新では、{{site.data.keyword.cloudant_short_notm}} ダイヤル (_「リソース使用量」>「サービス」_ビューで使用可能) 内の容量メトリックは、クラスター内のすべてのノードにわたるスペースを示します。 例えば、1 つの {{site.data.keyword.cloudant_short_notm}} クラスターが 3 つのノードで構成されていて、それぞれの容量が 1000-GB の場合、容量限度は 3000 GB となります。 その容量のうち 1500 GB が使用されている場合、{{site.data.keyword.cloudant_short_notm}} 使用メトリックは 50% になります。
 
 #### 保守更新のスケジューリングに対する更新
 
@@ -357,6 +363,27 @@ Identity and Access Management (IAM) では、サービス ID を作成する機
 ## コンピュート
 {: #compute_category}
 
+### IBM Cloud SAP 認定インフラストラクチャーのフィーチャー
+最新情報: 2019 年 1 月 22 日
+
+SAP HANA と SAP NetWeaver の両方に対する {{site.data.keyword.cloud_notm}} SAP 認定インフラストラクチャー・オファリングにより、新規フィーチャーが使用可能になりました。
+
+#### マルチノード・ストレージ
+SAP Business Warehouse (SAP BW) や SAP BW/4HANA などのオンライン分析処理 (OLAP) ワークロードのための SAP HANA マルチノード・ストレージ。SAP HANA マルチノードの {{site.data.keyword.cloud_notm}} ソリューションは、最大で 15 + 1 個のノード (15 個のワーカー・ノードのほかに 1 個のスタンバイ) で構成され、1 つのシステムで使用されるメモリーは最大で 30 TB です。最初に、[SAP HANA マルチノードをサポートする {{site.data.keyword.cloud_notm}} インフラストラクチャーの構成](/docs/infrastructure/sap-hana/hana-multi-node.html#multi-node-storage)を参照してください。
+
+
+#### 高可用性 
+高可用性 (HA) ソリューションは、SAP HANA と SAP NetWeaver の両方でサポートされます。このソリューションは、サポートされている OS バージョンに基づいており、デプロイメントに伴う注文された OS ライセンス、または独自ライセンスの使用 (BYOL) などのサード・パーティー・ライセンスに制限されています。最初に、SAP HANA については [ここ](/docs/infrastructure/sap-hana/hana-ha.html#ha) を、SAP NetWeaver については [ここ](/docs/infrastructure/sap-netweaver/sap-ha.html#ha) をクリックしてください。
+  
+#### SAP コンテンツ・サーバー
+SAP コンテンツ・サーバーは、あらゆる形式のあらゆるコンテンツを含む大量の電子文書を保存するためのスタンドアロン・コンポーネントです。SAP コンテンツ・サーバーを使用するには、SAP アプリケーションがその使用をサポートしている必要があります。最初に、[SAP コンテンツ・サーバー](/docs/infrastructure/sap-netweaver/sap-content-server.html#content-server)を参照してください。
+
+#### SAP MaxDB
+SAP MaxDB は SAP NetWeaver で使用できます。最初に、[{{site.data.keyword.cloud_notm}} SAP 認定インフラストラクチャーについて](/docs/infrastructure/sap-netweaver/sap-about.html#about_ibmcloud_for_sap)を参照してください。
+
+#### SAP Business One
+SAP Business One は、中小企業向けに特に設計された Enterprise Resource Planning (ERP) ソフトウェアです。会計と財務、購買と在庫、販売と顧客の関係、プロジェクト管理とオペレーションのコアビジネス機能を 1 つのアプリケーションに統合します。詳しくは、[はじめに (Getting started)](/docs/infrastructure/sap-b1/b1-index.html#getting-started) を参照してください。
+
 ### 仮想サーバーのフィーチャー
 最新情報: 2018 年 11 月 16 日
 
@@ -409,7 +436,7 @@ Identity and Access Management (IAM) では、サービス ID を作成する機
 ### 新しい Liberty for Java ビルドパック v3.11
 最新情報: 2017 年 7 月 17 日
 
-Liberty ビルドパック v3.11 は、新規の月次の Liberty ランタイム・バージョンを提供し、その他の改善も含んでいます。 月次の Liberty ランタイム・バージョンは  [2017.7.0.0](https://developer.ibm.com/wasdev/blog/2017/07/07/beta-websphere-liberty-tools-july-2017/) リリースに更新されました。 IBM JDK は 8.0.4.7 バージョンおよび 7.1.4.5 バージョンに更新されました。 このビルドパックは、アプリ管理ユーティリティーおよび Auto-Scaling エージェントの更新されたバージョンも提供します。 デフォルトの Cloudant ライブラリーが公式の  [java-cloudant](https://github.com/cloudant/java-cloudant) になりました。[Ektorp ライブラリー](https://github.com/helun/Ektorp)は、オプションとして引き続き使用可能です。この変更について詳しくは、[ブログ投稿](https://www.ibm.com/blogs/bluemix/2017/05/default-library-change-cloudant-auto-wiring-liberty-buildpack/)を参照してください。 アプリケーションのメモリーが 512 MB 未満の場合、デフォルトのヒープ・サイズ率は 50 % となりました。512 MB よりも多い場合は引き続き 75 % です。新しいステージング・タスク・ログが生成されるようになり、これによりステージング・エラーのデバッグが容易になります。追加情報については、[最新の更新](https://console.ng.bluemix.net/docs/runtimes/liberty/updates.html)の資料を参照してください。
+Liberty ビルドパック v3.11 は、新規の月次の Liberty ランタイム・バージョンを提供し、その他の改善も含んでいます。 月次の Liberty ランタイム・バージョンは  [2017.7.0.0](https://developer.ibm.com/wasdev/blog/2017/07/07/beta-websphere-liberty-tools-july-2017/) リリースに更新されました。 IBM JDK は 8.0.4.7 バージョンおよび 7.1.4.5 バージョンに更新されました。 このビルドパックは、アプリ管理ユーティリティーおよび Auto-Scaling エージェントの更新されたバージョンも提供します。 デフォルトの Cloudant ライブラリーが公式の  [java-cloudant](https://github.com/cloudant/java-cloudant) になりました。[Ektorp ライブラリー](https://github.com/helun/Ektorp)は、オプションとして引き続き使用可能です。この変更について詳しくは、[ブログ投稿](https://www.ibm.com/blogs/bluemix/2017/05/default-library-change-cloudant-auto-wiring-liberty-buildpack/)を参照してください。 アプリケーションのメモリーが 512 MB 未満の場合、デフォルトのヒープ・サイズ率は 50 % となりました。512 MB よりも多い場合は引き続き 75 % です。新しいステージング・タスク・ログが生成されるようになり、これによりステージング・エラーのデバッグが容易になります。 追加情報については、[最新の更新](https://console.ng.bluemix.net/docs/runtimes/liberty/updates.html)の文書を参照してください。
 
 ### 新しい Liberty for Java ビルドパック v3.10
 最新情報: 2017 年 6 月 12 日
@@ -431,12 +458,31 @@ Liberty ビルドパック v3.9 は、新規の月次の Liberty ランタイム
 ## サービス
 {: #services_category}
 
+### {{site.data.keyword.appid_short_notm}} で使用可能な新規フィーチャー
+最新情報: 2018 年 12 月 22 日
+
+{{site.data.keyword.appid_short_notm}} サービスは、認証とアプリのセキュリティーを強化する新しい拡張機能を導入しました。
+
+{{site.data.keyword.appid_short_notm}} は、さまざまな種類のユーザー認証をモバイルおよび Web アプリに追加するのに役立ちます。数行のコードで認証を追加して、ユーザー・ベースで拡張するためのインフラストラクチャーの管理について気にする必要がなくなります。次の機能拡張を確認して、ご自分でサービスを試してみてください。
+
+多要素認証: Cloud Directory に E メール・ベースの MFA を使用できるようになりました。MFA をオンに設定すると、ユーザーはパスワードに加えて、E メールで受け取った 1 回限りのコードを提供するように求められます。SAML 2.0 またはソーシャル・ログインでエンタープライズ・サインインを使用している場合は、そのID プロバイダーを通じて MFA を有効にできます。
+拡張パスワード・ポリシー: 拡張パスワード・ポリシー・フィーチャーを有効にすると、Cloud Directory のパスワードをより安全に適用できます。パスワードを使用する一連のルールを、ユーザーがサインインの試行を繰り返すとロックアウトされる、その試行回数や、1 つのパスワードを繰り返して使用することができない回数などに準拠する必要があるというように構成できます。
+
+拡張セキュリティー・フィーチャーには、追加の価格設定コンポーネントがあります。価格設定の計算方法の詳細については、[カタログ](https://cloud.ibm.com/catalog/services/app-id)の価格設定のセクションを参照してください。
+
+[{{site.data.keyword.appid_short_notm}} 資料](/docs/services/appid/index.html)を確認して、今日から始めてください。
+
+### {{site.data.keyword.backup_notm}} の紹介
+最新情報: 2018 年 12 月 20 日
+
+{{site.data.keyword.BluSoftlayer_full}} ストレージ・インフラストラクチャー・チームは、永久無料の 10 GB の層を含む新しい {{site.data.keyword.backup_full}} を発表します。 また、すべてのプラグインも無料になりました。 その結果として、特定のアプリケーションのユース・ケース (MSSQL、Oracle DB、Exchange、または Bare Metal Restore でさえも) の実装で余分なコストが発生することはありません。 新しい {{site.data.keyword.backup_notm}} は、いかなるスケールのバックアップ・ニーズも可能にする最良のソリューションです。 詳しくは、[IBM Cloud ブログ ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](https://www.ibm.com/blogs/bluemix/2018/12/introducing-a-new-cloud-backup-service-ibm-cloud-backup/){: new_window} を参照してください。
+
 ### Citrix NetScaler VPX バージョン 12.1
 最新情報: 2018 年 11 月 21 日
 {: #vpx121}
 
 #### 複数の IP アドレスを持つ仮想サーバー
-複数の連続しない/連続する VIP IPv4 アドレスと IPv6 アドレスを持つ単一のロード・バランシング仮想サーバーを作成できるようになりました。仮想サーバーにバインドされた各 VIP アドレスは、個別の仮想サーバーとして扱われます。
+複数の連続しない/連続する VIP IPv4 アドレスと IPv6 アドレスを持つ単一のロード・バランシング仮想サーバーを作成できるようになりました。 仮想サーバーにバインドされた各 VIP アドレスは、個別の仮想サーバーとして扱われます。
 
 この機能について詳しくは、Citrix の記事『[Multiple IP virtual servers ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](https://docs.citrix.com/en-us/netscaler/12-1/load-balancing/load-balancing-customizing/multi-ip-virtual-servers.html){: new_window}』を参照してください。
 
@@ -451,7 +497,7 @@ SSL 接続に以下の更新が適用されました。
 12.1 SSL 更新について詳しくは、『[Citrix 12.1 Release Notes ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](https://docs.citrix.com/en-us/netscaler/12-1/downloads/release-notes-12-1-48-13.html){: new_window}』を参照してください。
 
 #### GSLB のサービス・グループ・サポート
-GSLB の IP アドレス・ベースのサービス・グループ、ドメイン名ベースのサービス・グループ、またはドメイン名ベースの自動スケーリング・サービス・グループを構成できるようになりました。また、サービスのグループを 1 つのサービスと同等に簡単に管理したり、サービス・グループを仮想サーバーにバインドしたり、サービスをグループに追加したりすることもできます。
+GSLB の IP アドレス・ベースのサービス・グループ、ドメイン名ベースのサービス・グループ、またはドメイン名ベースの自動スケーリング・サービス・グループを構成できるようになりました。 また、サービスのグループを 1 つのサービスと同等に簡単に管理したり、サービス・グループを仮想サーバーにバインドしたり、サービスをグループに追加したりすることもできます。
 
 GSLB サービス・グループについて詳しくは、Citrix の記事『[Configuring a GSLB service group ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](https://docs.citrix.com/en-us/netscaler/12/global-server-load-balancing/configure/configuring-a-gslb-service-group.html){: new_window}』を参照してください。
 
@@ -639,7 +685,7 @@ Apple は、Apple 通知用に HTTP プロトコルのサポートを導入し�
 {{site.data.keyword.mobileanalytics_short}} は、Web アプリ分析のサポートを追加した Omni チャネル・サービスになりました。 詳細については、[https://github.com/ibm-bluemix-mobile-services/bms-clientsdk-web-analytics/](https://github.com/ibm-bluemix-mobile-services/bms-clientsdk-web-analytics/){: new_window} ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン") で参照できます。
 
 #### {{site.data.keyword.mobilefoundation_short}} サービスとの統合
-{{site.data.keyword.mobilefoundation_short}} サービスは、アプリ、ユーザー、およびパフォーマンスの分析に {{site.data.keyword.mobileanalytics_short}} サービスを活用するようになりました。 ユーザーは、DB2 ウェアハウスへのエクスポート・オプションを利用して、アダプター分析およびカスタム図表を作成できます。 追加の詳細が以下のブログ投稿に記載されています。
+{{site.data.keyword.mobilefoundation_short}} サービスは、アプリ、ユーザー、およびパフォーマンスの分析に {{site.data.keyword.mobileanalytics_short}} サービスを活用するようになりました。 ユーザーは、Db2 ウェアハウスへのエクスポート・オプションを利用して、アダプター分析およびカスタム図表を作成できます。 追加の詳細が以下のブログ投稿に記載されています。
 
 * [Mobile Foundation Service integration with Mobile Analytics Service](https://www.ibm.com/blogs/bluemix/2017/08/mobile-foundation-service-integration-mobile-analytics-service-2/){: new_window} ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")
 * [Building custom charts using IBM Bluemix Mobile Analytics service and IBM Mobile Foundation Service](https://mobilefirstplatform.ibmcloud.com/blog/2017/04/26/custom-charts-using-analytics-and-dashdb-analytics-service/){: new_window} ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")
@@ -729,9 +775,9 @@ Python および Java アプリケーションの場合、ソース・ファイ�
 
 * 新規 API を使用して、保持されたログを管理し、{{site.data.keyword.IBM_notm}} Cloud の外部からログ・データを送信する。
 
-* 1 日当たりに検索可能なログの量を選択する。  
+* 1 日当たりの検索可能ログの数を選択できます。  
 
-    1 日当たり最大 500MB、2GB、5GB、および 10GB のログ検索に使用できるさまざまなプランがあります。
+    1 日当たり最大 500 MB、2 GB、5 GB、および 10 GB のログ検索に使用できるさまざまなプランがあります。
 
 * 再使用可能なダッシュボードを構築し、それらを対話式にする。
 
@@ -750,9 +796,9 @@ Brocade OS のバージョン 18.x が Virtual Router Appliance で使用可能�
 
 18.x VRA の新しいフィーチャーは、以下のトピックで説明されています。
 
-* [ゾーン・ファイアウォールと連動する IPsec トンネルのセットアップ方法 (How to Set up an IPsec Tunnel that Works with Zone Firewalls)](/docs/infrastructure/virtual-router-appliance/vra-ipsec.html)
-* [IPsec およびゾーン・ファイアウォールを使用した VFP インターフェースの構成 (Configuring a VFP interface with IPsec and Zone Firewalls)](/docs/infrastructure/virtual-router-appliance/vra-vfp.html)
-* [接頭部ベースの IPsec での NAT の使用 (Using NAT with prefix based IPsec)](/docs/infrastructure/virtual-router-appliance/vra-nat.html)
+* [ゾーン・ファイアウォールと連動する IPSec トンネルのセットアップ方法 (How to Set up an IPSec Tunnel that Works with Zone Firewalls)](/docs/infrastructure/virtual-router-appliance/vra-ipsec.html)
+* [IPSec およびゾーン・ファイアウォールを使用した VFP インターフェースの構成 (Configuring a VFP interface with IPSec and Zone Firewalls)](/docs/infrastructure/virtual-router-appliance/vra-vfp.html)
+* [接頭部ベースの IPSec での NAT の使用 (Using NAT with prefix-based IPSec)](/docs/infrastructure/virtual-router-appliance/vra-nat.html)
 * [VFP インターフェースのトラブルシューティング (Troubleshooting Your VFP Interface)](/docs/infrastructure/virtual-router-appliance/vra-vfp-troubleshooting.html)
 
 Vyatta 5400 からマイグレーションする場合、18.x にアップグレードする最良の方法は、完全な OS 再ロードの[通常の手順](/docs/infrastructure/virtual-router-appliance/upgrade-os.html)を実行することです。
@@ -771,7 +817,7 @@ Vyatta 5400 と Virtual Router Appliance の間には、機能の単純な 1 対
 | IBM dashDB for Analytics    | IBM Db2 Warehouse on Cloud | 2017 年 7 月 18 日  |
 {: caption="表 1. サービス名の変更" caption-side="top"}
 
-Db2 Warehouse on Cloud および Db2 on Cloud の更新の累積リストについては、 [What's New in Db2 Warehouse on Cloud and Db2 on Cloud](http://www.ibm.com/support/docview.wss?uid=swg21961758){: new_window} ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン") を参照してください。
+IBM Db2 Warehouse on Cloud および Db2 on Cloud の更新の累積リストについては、 [What's New in Db2 Warehouse on Cloud and Db2 on Cloud](http://www.ibm.com/support/docview.wss?uid=swg21961758){: new_window} ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン") を参照してください。
 
 ### IBM Cloud Monitoring が米国南部地域で使用可能になりました
 最新情報: 2017 年 7 月 17 日
@@ -822,14 +868,14 @@ Db2 Warehouse on Cloud および Db2 on Cloud の更新の累積リストにつ�
 
 IBM {{site.data.keyword.DB2OnCloud_short}} は、dashDB for Transactions の新しい名前です。 この名前変更の一環として、以前の自己管理型 IBM {{site.data.keyword.DB2OnCloud_short}} サービスも、名前が IBM Db2 Hosted に変更されました。 現時点では表示名のみが更新されているため、API やコマンド・ライン・インターフェースはすべて変わっていません。
 
-### {{site.data.keyword.sparks}} の更新: Stocator-S3 コネクターに IBM Cloud Object Storage Cross Region サービスのサポートが含まれる (ベータ)
+### {{site.data.keyword.sparks}} の更新: Stocator-S3 コネクターに {{site.data.keyword.cos_full_notm}} Cross Region サービスのサポートが含まれる (ベータ)
 最新情報: 2017 年 6 月 5 日
 
-{{site.data.keyword.sparks}} ユーザーは、IBM Cloud Object Storage Cross Region サービスで保管されたデータにアクセスし、それに対する分析を実行できるようになりました。 この機能はベータとして提供されます。 IBM Cloud Object Storage は、分析やその他のアプリケーション用に、スケーラブルかつ柔軟で、シンプルで使いやすく費用効率の高い大容量ストレージを提供します。
+{{site.data.keyword.sparks}} ユーザーは、{{site.data.keyword.cos_full_notm}} Cross Region サービスで保管されたデータにアクセスし、それに対する分析を実行できるようになりました。 この機能はベータとして提供されます。 {{site.data.keyword.cos_full_notm}} は、分析やその他のアプリケーション用に、スケーラブルかつ柔軟で、シンプルで使いやすく費用効率の高い大容量ストレージを提供します。
 
-Apache Spark は、Stocator テクノロジーに基づいたストレージ・コネクターを通じて IBM Cloud Object Storage データにアクセスします。このコネクターは、暗黙的にオブジェクト・ストレージ向けに設計されているため、従来型のオブジェクト・ストレージ・コネクターよりも高速です。 ユーザーが、Apache Spark コードを変更したり再コンパイルしたりする必要はありません。
+Apache Spark は、Stocator テクノロジーに基づいたストレージ・コネクターを通じて {{site.data.keyword.cos_full_notm}} データにアクセスします。このコネクターは、暗黙的に{{site.data.keyword.objectstorageshort}}向けに設計されているため、従来型の{{site.data.keyword.objectstorageshort}}・コネクターよりも高速です。 ユーザーが、Apache Spark コードを変更したり再コンパイルしたりする必要はありません。
 
-[Access and Analyze data in IBM Cross Region Cloud Object Storage](https://www.ibm.com/blogs/bluemix/2017/06/access-analyze-data-ibm-cross-region-cloud-object-storage/){: new_window} ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン") というブログ投稿で、{{site.data.keyword.Bluemix_notm}} および IBM Data Science Experience (DSx) 上での {{site.data.keyword.sparks}} を用いた IBM Cloud Object Storage データの使用法について説明しています。
+[Access and Analyze data in IBM Cross Region Cloud Object Storage](https://www.ibm.com/blogs/bluemix/2017/06/access-analyze-data-ibm-cross-region-cloud-object-storage/){: new_window} ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン") というブログ投稿で、{{site.data.keyword.Bluemix_notm}} および IBM Data Science Experience (DSx) 上での {{site.data.keyword.sparks}} を用いた {{site.data.keyword.cos_full_notm}} データの使用法について説明しています。
 
 ご質問またはご意見がある場合は、[sparksrv@us.ibm.com](sparksrv@us.ibm.com) にご連絡ください。 ご遠慮なくフィードバックをお寄せください。
 
