@@ -3,7 +3,7 @@
 
 copyright:
   years: 2016, 2019
-lastupdated: "2019-01-02"
+lastupdated: "2019-02-08"
 
 
 ---
@@ -664,7 +664,7 @@ A defined geographic territory. A region could be a specific postal code area, a
 ### registry
 {: #x2064940}
 
-A public or private container image storage and distribution service. See also [container](#x2010901), [image](#x2024928).
+A public or private repository that contains images used to create containers. See also [container](#x2010901), [image](#x2024928).
 
 ### Representational State Transfer (REST)
 {: #x3220976}
