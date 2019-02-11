@@ -2,9 +2,13 @@
 
 copyright:
 
-  years: 2017, 2018
+  years: 2017, 2019
 
-lastupdated: "2018-11-05"
+lastupdated: "2019-01-04"
+
+keywords: crn, cloud resource name
+
+subcollection: overview
 
 ---
 
@@ -128,9 +132,9 @@ Der Wert des Segments `umfang` muss als `{scopePrefix}`/`{id}` formatiert werden
 
 Das Segment `serviceinstanz` gibt die Serviceinstanz eindeutig an. Das Format des Segments `serviceinstanz` ist vom Service abhängig. Jeder Service muss das Format seines Segments `serviceinstanz` als Teil der Servicemetadaten dokumentieren. Manche Services haben keine Instanzen, weil die Instanz global ist. In diesem Fall ist das Feld `serviceinstanz` leer.
 
-Das Segment `serviceinstanz` muss alphanumerisch und kleingeschrieben sein und es darf keine Leerzeichen oder Sonderzeichen (mit Ausnahme von '-' und '/') enthalten.
+Das Segment `serviceinstanz` muss alphanumerisch und kleingeschrieben sein und es darf keine Leer- oder Sonderzeichen (mit Ausnahme von '-' und '/') enthalten.
 
-Beispiel: Ein Tool 'devops' könnte zum Verfolgen und Planen von Arbeitselementen eine einfache `GUID`-Instanz-ID ("1234-5678-9012-3456") haben, in der die Richtlinienkomponente eines Service für die automatische Gruppenskalierung eine hierarchische Namenskonvention verwenden kann und folgendes Segment `service-id` hat:
+Beispiel: Ein DevOps-Tool könnte zum Verfolgen und Planen von Arbeitselementen eine einfache `GUID`-Instanz-ID ("1234-5678-9012-3456") haben, in der die Richtlinienkomponente eines Service für die automatische Gruppenskalierung eine hierarchische Namenskonvention verwenden kann und folgendes Segment `service-id` hat:
 
 >`c7a27f55-d35e-4153-b044-8ca9155fc467/my-test-asg1/my-scaleout-policy`
 
@@ -147,7 +151,7 @@ Der Wert der Segmente `ressourcentyp` und `ressource` hängt vom Service ab. Es 
 
 Beispiel: Ein Image im Container für Kundenbelege in einem Objektspeicherservice kann über einen `ressourcentyp` von `object` und einen `ressourcenwert` von `CustomerReceipts/clientdinner.png` verfügen.
 
-Das Segment `ressourcentyp` muss alphanumerisch und kleingeschrieben sein, es darf keine Leerzeichen oder Sonderzeichen (mit Ausnahme von '-') enthalten. Ein Service kann entscheiden, dass `ressourcentyp` optional ist. In diesem Fall wird der Wert leer gelassen.
+Das Segment `ressourcentyp` muss alphanumerisch und kleingeschrieben sein und es darf keine Leer- oder Sonderzeichen (mit Ausnahme von '-') enthalten. Ein Service kann entscheiden, dass `ressourcentyp` optional ist. In diesem Fall wird der Wert leer gelassen.
 
 
 ## CRN-Beispiele

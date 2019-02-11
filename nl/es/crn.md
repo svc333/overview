@@ -6,6 +6,10 @@ copyright:
 
 lastupdated: "2019-01-04"
 
+keywords: crn, cloud resource name
+
+subcollection: overview
+
 ---
 
 {:shortdesc: .shortdesc}
