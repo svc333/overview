@@ -2,9 +2,9 @@
 
 copyright:
 
-  years: 2015, 2018
+  years: 2015, 2019
 
-lastupdated: "2018-12-20"
+lastupdated: "2019-01-22"
 
 ---
 
@@ -131,10 +131,10 @@ Novità a partire dal 1° giugno 2018
 
 Per evitare situazioni in cui l'ID servizio o la chiave API vengono eliminati causando un'interruzione, puoi bloccare gli ID servizio e le chiavi API utilizzando l'interfaccia utente o la CLI. Il blocco di un ID servizio impedisce inoltre la modifica, l'eliminazione o l'assegnazione di eventuali politiche di accesso e la creazione o l'eliminazione di qualsiasi chiave API associata all'ID servizio. Per ulteriori informazioni, vedi [Blocco di un ID servizio](/docs/iam/serviceid.html#locking-a-service-id) e [Blocco di una chiave API](/docs/iam/userid_keys.html#locking-an-api-key).
 
-### Aggiorna il tuo account Lite a un account Sottoscrizione
+### Esegui l'upgrade del tuo account Lite a un account Sottoscrizione
 Novità a partire dal 31 maggio 2018
 
-Puoi ora aggiornare il tuo account Lite a un account Sottoscrizione direttamente dalla console {{site.data.keyword.Bluemix_notm}}. Con un account Sottoscrizione, puoi utilizzare sia le offerte di piattaforma che di infrastruttura e usufruire dei prezzi scontati effettuando una spesa mensile e un impegno a termine. Puoi anche evitare sorprese con la fatturazione fissa su una pianificazione di pagamento mensile ma con la flessibilità di ordinare più o meno in base alle tue esigenze. Per ulteriori informazioni, vedi [Domande frequenti sull'account Sottoscrizione](/docs/billing-usage/billing-faq.html#subscription-faqs). 
+Puoi ora eseguire l'upgrade del tuo account Lite a un account Sottoscrizione direttamente dalla console {{site.data.keyword.Bluemix_notm}}. Con un account Sottoscrizione, puoi utilizzare sia le offerte di piattaforma che di infrastruttura e usufruire dei prezzi scontati effettuando una spesa mensile e un impegno a termine. Puoi anche evitare sorprese con la fatturazione fissa su una pianificazione di pagamento mensile ma con la flessibilità di ordinare più o meno in base alle tue esigenze. Per ulteriori informazioni, vedi [Domande frequenti sull'account Sottoscrizione](/docs/billing-usage/billing-faq.html#subscription-faqs). 
 
 ### Cambiamento di marchio della CLI {{site.data.keyword.Bluemix_notm}}
 Novità a partire dal 15 maggio 2018
@@ -177,7 +177,7 @@ Il 1° marzo 2018 {{site.data.keyword.Bluemix_notm}} ritirerà il supporto per T
 ### Un nuovo modo di organizzare le risorse all'interno del tuo account
 Novità a partire dal 16 novembre 2017
 
-I gruppi di risorse rappresentano un nuovo modo per creare raggruppamenti personalizzabili delle risorse dell'account e l'accesso al gruppo e le risorse al suo interno vengono gestiti tramite Identity and Access Management (IAM). Tutti iniziano con un gruppo di risorse predefinito. Puoi rinominare questo gruppo di risorse e aggiungervi nuove istanze del servizio mentre le crei dal catalogo.
+I gruppi di risorse rappresentano un nuovo modo per creare raggruppamenti personalizzabili delle risorse dell'account e l'accesso al gruppo e le risorse al suo interno vengono gestiti tramite IAM (Identity and Access Management). Tutti iniziano con un gruppo di risorse predefinito. Puoi rinominare questo gruppo di risorse e aggiungervi nuove istanze del servizio mentre le crei dal catalogo.
 
 Per gli utenti con un account Pagamento a consumo o Sottoscrizione, puoi creare gruppi di risorse aggiuntivi per semplificare la gestione della quota e la visualizzazione dell'utilizzo della fatturazione per un insieme di risorse. Puoi anche raggruppare le risorse per facilitare l'assegnazione dell'accesso degli utenti a più di un servizio alla volta. Per ulteriori informazioni sull'utilizzo dei gruppi di risorse per il tuo account, vedi [Gestione dei gruppi di risorse](/docs/account/resourcegroups.html#rgs).
 
@@ -363,6 +363,27 @@ Con gli ultimi aggiornamenti e miglioramenti di aprile, puoi utilizzare le segue
 ## Calcola
 {: #compute_category}
 
+### Funzioni di IBM Cloud SAP-Certified Infrastructure
+Novità a partire dal 22 gennaio 2019
+
+Delle nuove funzioni sono ora disponibili con l'offerta {{site.data.keyword.cloud_notm}} SAP-Certified Infrastructure sia per SAP HANA sia per SAP NetWeaver.
+
+#### Archiviazione a più nodi
+Archiviazione a più nodi SAP HANA per i carichi di lavoro OLAP (online analytical processing), come SAP BW (Business Warehouse) e SAP BW/4HANA. La soluzione {{site.data.keyword.cloud_notm}} per SAP HANA a più nodi è formato da un massimo di 15+1 nodi (15 nodi di lavoro più 1 di standby) per un massimo di 30 TB di memoria utilizzata per un singolo sistema. Per iniziare, vedi [Configurazione della tua infrastruttura {{site.data.keyword.cloud_notm}} per supportare SAP HANA a più nodi](/docs/infrastructure/sap-hana/hana-multi-node.html#multi-node-storage)
+
+
+#### Alta disponibilità (HA, High Availability)
+Le soluzioni ad alta disponibilità (HA, High Availability) sono supportate sia per SAP HANA sia per SAP NetWeaver. La soluzione è basata sulla versione del sistema operativo supportata ed è limitata alle licenze del sistema operativo ordinate che sono fornite con la tua distribuzione, oppure alle licenze di terze parti, quali BYOL (bring your own license). Per iniziare, fai clic [qui](/docs/infrastructure/sap-hana/hana-ha.html#ha) per SAP HANA e [qui](/docs/infrastructure/sap-netweaver/sap-ha.html#ha) per SAP NetWeaver.
+  
+#### SAP Content Server
+SAP Content Server è un componente autonomo per l'archiviazione di ampie quantità di documenti elettronici in qualsiasi formato e con qualsiasi contenuto. Per utilizzare SAP Content Server, le tue applicazioni SAP ne devono supportare l'utilizzo. Per iniziare, vedi [SAP Content Server](/docs/infrastructure/sap-netweaver/sap-content-server.html#content-server).
+
+#### SAP MaxDB
+SAP MaxDB è disponibile per SAP NetWeaver. Per iniziare, vedi [Informazioni su {{site.data.keyword.cloud_notm}} SAP-Certified Infrastructure](/docs/infrastructure/sap-netweaver/sap-about.html#about_ibmcloud_for_sap).
+
+#### SAP Business One
+SAP Business One è il software ERP (enterprise resource planning) appositamente progettato per piccole e medie imprese. Integra le tue funzioni aziendali principali - contabilità e finanze, acquisti e inventario, vendite e relazioni con i clienti e operazioni e gestione dei progetti - in un'unica applicazione. Per ulteriori informazioni, vedi [Introduzione](/docs/infrastructure/sap-b1/b1-index.html#getting-started).
+
 ### Funzioni del server virtuale
 Novità a partire dal 16 novembre 2018
 
@@ -436,6 +457,20 @@ Il pacchetto di build Liberty v3.9 fornisce una nuova versione di runtime Libert
 
 ## Servizi
 {: #services_category}
+
+### Nuove funzioni disponibili in {{site.data.keyword.appid_short_notm}}
+Novità a partire dal 22 dicembre 2018
+
+Il servizio {{site.data.keyword.appid_short_notm}} ha introdotto nuove funzioni avanzate che rafforzano la sicurezza delle tue autenticazioni e delle tue applicazioni.
+
+{{site.data.keyword.appid_short_notm}} ti aiuta ad aggiungere diversi tipi di autenticazione utente alle tue applicazioni mobili e web. Puoi aggiungere l'autenticazione con poche righe di codice e dimenticarti della gestione dell'infrastruttura per il ridimensionamento con la tua base di utenti. Controlla i seguenti miglioramenti e poi prova il servizio personalmente.
+
+Autenticazione a più fattori. Puoi ora utilizzare l'MFA basata su email per Cloud Directory. Con l'MFA impostata come attivata, agli utenti viene chiesto di fornire un codice monouso che ricevono tramite email, oltre alla loro password. Se stai usando l'accesso aziendale con SAML 2.0 o l'accesso social, puoi abilitare l'MFA tramite tale provider di identità.
+Politiche password avanzate: con la funzione di politica password avanzata abilitata, puoi implementare delle password più sicure per Cloud Directory. Puoi configurare un insieme di regole a cui devono conformarsi le password utilizzate, come ad esempio il numero di volte che un utente può provare ad eseguire l'accesso prima di essere escluso mediante blocco oppure il numero di volte per cui una password può essere ripetuta.
+
+Le funzioni di sicurezza avanzate hanno un componente del prezzo aggiuntivo. Per ulteriori informazioni su come viene calcolato il prezzo, vedi la sezione relativa ai prezzi del [catalogo](https://cloud.ibm.com/catalog/services/app-id).
+
+Controlla la [documentazione di {{site.data.keyword.appid_short_notm}}](/docs/services/appid/index.html), e inizia a lavorare oggi stesso.
 
 ### Introduzione a {{site.data.keyword.backup_notm}}
 Novità a partire dal 20 dicembre 2018
@@ -553,7 +588,7 @@ Questa release beta introduce le seguenti funzioni chiave:
 * Trasferisci le chiamate dal tuo agent vocale, come ad esempio a un agent del contact center o a un'altra destinazione.
 * Raccogli e analizza i dati della chiamata configurando il tuo agent vocale per inoltrare il record dei dettagli della chiamata, la trascrizione e gli eventi attivati di {{site.data.keyword.conversationshort}} a un database {{site.data.keyword.cloudant_short_notm}}.
 * Monitora l'utilizzo del servizio e visualizza i log della chiamata nella nuova pagina _Utilizzo_. Puoi visualizzare velocemente le statistiche per il mese corrente, trovare e filtrare i log della chiamata e visualizzare i messaggi di sistema di ogni singola chiamata.
-* Stabilisci le chiamate protette con la crittografia del supporto utilizzando TLS SIP (URI sips) per la porta 5061 e Secure Real-time Transport Protocol (SRTP).
+* Stabilisci le chiamate protette con la crittografia del supporto utilizzando TLS SIP (URI sips) per la porta 5061 e SRTP (Secure Real-time Transport Protocol).
 * Collegati alle istanze del servizio {{site.data.keyword.speechtotextfull}} e {{site.data.keyword.texttospeechfull}} in altri spazi {{site.data.keyword.cloud_notm}} per aumentare la flessibilità.
 
 Per iniziare, vedi la documentazione [{{site.data.keyword.iva_short}}](/docs/services/voice-agent/getting-started.html).
@@ -752,7 +787,7 @@ Il servizio {{site.data.keyword.loganalysisfull}} fornisce i servizi di raccolta
 
     Per il servizio {{site.data.keyword.loganalysisshort}} con contenitori singoli e a gruppi e i per servizi {{site.data.keyword.IBM_notm}} Cloud Foundry, puoi accedere al servizio dall'interfaccia utente di {{site.data.keyword.Bluemix_notm}}.
 
-Per ulteriori informazioni sul servizio {{site.data.keyword.loganalysisshort}}, vedi [Getting started with {{site.data.keyword.loganalysisfull}}](/docs/services/CloudLogAnalysis/index.html#getting-started-with-ibm-cloud-log-analysis) e [{{site.data.keyword.loganalysisshort}} overview](/docs/services/CloudLogAnalysis/log_analysis_ov.html#log_analysis_ov).
+Per ulteriori informazioni sul servizio {{site.data.keyword.loganalysisshort}}, vedi [Introduzione a {{site.data.keyword.loganalysisfull}}](/docs/services/CloudLogAnalysis/index.html#getting-started-with-ibm-cloud-log-analysis) e [Panoramica di {{site.data.keyword.loganalysisshort}}](/docs/services/CloudLogAnalysis/log_analysis_ov.html#log_analysis_ov).
 
 ### Sistema operativo Brocade versione 18.x per Virtual Router Appliance
 Novità a partire dal 25 luglio 2018
@@ -766,11 +801,11 @@ Le nuove funzioni di VRA 18.x sono discusse nei seguenti argomenti:
 * [Using NAT with prefix-based IPSec](/docs/infrastructure/virtual-router-appliance/vra-nat.html)
 * [Troubleshooting Your VFP Interface](/docs/infrastructure/virtual-router-appliance/vra-vfp-troubleshooting.html)
 
-Se stai eseguendo la migrazione da Vyatta 5400, il modo migliore per eseguire l'aggiornamento a 18.x è la [normale procedura](/docs/infrastructure/virtual-router-appliance/upgrade-os.html) di ricaricamento completo del sistema operativo.
+Se stai eseguendo la migrazione da Vyatta 5400, il modo migliore per eseguire l'upgrade a 18.x è la [normale procedura](/docs/infrastructure/virtual-router-appliance/upgrade-os.html) di ricaricamento completo del sistema operativo.
 
 Poiché non esiste una semplice associazione uno a uno delle funzionalità tra Vyatta 5400 e Virtual Router Appliance, è utile creare una configurazione di base per VRA. Un partner IBM, WanClouds, può aiutarti in questo processo e fornire indicazioni sulla creazione di funzionalità simili a Vyatta 5400 sul tuo VRA.
 
-Per ulteriori informazioni sui problemi comuni riscontrati durante questo processo di aggiornamento, fai riferimento alla nostra [documentazione aggiuntiva](/docs/infrastructure/virtual-router-appliance/migration-issues.html#vyatta-5400-common-migration-issues).
+Per ulteriori informazioni sui problemi comuni riscontrati durante questo processo di upgrade, fai riferimento alla nostra [documentazione aggiuntiva](/docs/infrastructure/virtual-router-appliance/migration-issues.html#vyatta-5400-common-migration-issues).
 
 ### IBM dashDB for Analytics è stato rinominato
 Novità a partire dal 18 luglio 2017
@@ -803,10 +838,10 @@ Il servizio legacy di {{site.data.keyword.monitoringshort}} raccoglieva le metri
 
 Per ulteriori informazioni sul servizio {{site.data.keyword.monitoringlong}}, consulta la [documentazione Getting started with Monitoring](/docs/services/cloud-monitoring/index.html#getting-started-with-ibm-cloud-monitoring) o [IBM Cloud Monitoring – Service Refresh with New Features![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")](https://www.ibm.com/blogs/bluemix/2017/07/ibm-cloud-monitoring-service-refresh-new-features/).
 
-### Aggiornamento di {{site.data.keyword.contdelivery_short}}
+### Upgrade di {{site.data.keyword.contdelivery_short}}
 Novità a partire dall'11 luglio 2017
 
-I vantaggi dell'aggiornamento includono correzioni di bug, miglioramenti delle prestazioni e perfezionamenti dell'esperienza utente. I miglioramenti significativi, se non sono già presenti nel tuo ambiente, includono:
+I vantaggi dell'upgrade includono correzioni di bug, miglioramenti delle prestazioni e perfezionamenti dell'esperienza utente. I miglioramenti significativi, se non sono già presenti nel tuo ambiente, includono:
 <ul>
 <li>Correzioni e miglioramenti all'internazionalizzazione e all'accesso facilitato.</li>
 <li>Controllo dell'accesso alla toolchain, disponibile dalla scheda Gestisci di una toolchain.</li>
@@ -854,7 +889,7 @@ Novità a partire dal 24 maggio 2017
 
 Di seguito sono riportati i nuovi aggiornamenti disponibili per il servizio {{site.data.keyword.mobilepush}} su {{site.data.keyword.Bluemix_notm}}
 
-**Piano Lite**: stiamo introducendo un nuovo piano Lite in aggiunta al piano di base esistente per il servizio {{site.data.keyword.mobilepush}}. Secondo il nuovo piano, gli utenti possono inviare gratuitamente fino a centinaia di migliaia di messaggi digitali al mese. Durante l'aggiornamento dal piano Lite al piano di base, l'utente viene addebitato dopo un milione di messaggi digitali. Il conteggio a un milione di messaggi inizia quando il piano Lite è aggiornato al piano di base.
+**Piano Lite**: stiamo introducendo un nuovo piano Lite in aggiunta al piano di base esistente per il servizio {{site.data.keyword.mobilepush}}. Secondo il nuovo piano, gli utenti possono inviare gratuitamente fino a centinaia di migliaia di messaggi digitali al mese. Durante l'upgrade dal piano Lite al piano di base, l'utente viene addebitato dopo un milione di messaggi digitali. Il conteggio a un milione di messaggi inizia quando viene eseguito l'upgrade del piano Lite al piano di base.
 
 **Monitoraggio**: puoi ora ottenere informazioni sulle notifiche inviate e sui dispositivi registrati nella console del servizio {{site.data.keyword.mobilepush}}. Puoi anche utilizzare l'API REST per la traccia a livello di messaggio. È possibile ottenere dettagli sul recapito, la distribuzione e la ricezione dei messaggi configurando i webhook.  Vedi [Monitoraggio per {{site.data.keyword.mobilepush}}](/docs/services/mobilepush/t_push_monitoring.html#monitor-notifications).
 

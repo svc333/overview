@@ -4,8 +4,8 @@
 
 copyright:
 
-  years: 2015, 2018
-lastupdated: "2018-10-04"
+  years: 2015, 2019
+lastupdated: "2019-01-14"
 
 
 ---
@@ -24,14 +24,14 @@ lastupdated: "2018-10-04"
 Il tuo account IBM Cloud e tutti i servizi ordinati da IBM Cloud sono forniti sotto i termini di:
 
   * I termini dell'accordo di base cloud sono applicabili a te nel seguente modo:
-    * L'accordo del servizio cloud SoftLayer per la fatturazione con carta di credito in dollari US, disponibile all'indirizzo [http://www.softlayer.com/legal](http://www.softlayer.com/legal){: new_window} ![Icona link esterno](../../icons/launch-glyph.svg)
+    * L'accordo del servizio cloud SoftLayer per la fatturazione con carta di credito in dollari US, disponibile all'indirizzo [https://www.ibm.com/support/customer/zz/en/softlayer.html](https://www.ibm.com/support/customer/zz/en/softlayer.html){: new_window} ![Icona link esterno](../../icons/launch-glyph.svg)
     * L'accordo del servizio IBM Cloud (versione paese locale*) per la fatturazione con carta di credito non in dollari US o se selezioni la fatturazione da IBM, disponibile all'indirizzo [https://www.ibm.com/terms](https://www.ibm.com/terms){: new_window} ![Icona link esterno](../../icons/launch-glyph.svg) (seleziona il tuo paese);
     * L'accordo di IBM Passport Advantage che hai accettato e i termini generali dell'offerta cloud TOU per i client IBM Passport Advantage, disponibile all'indirizzo [http://www-03.ibm.com/software/sla/sladb.nsf/sla/tou](http://www-03.ibm.com/software/sla/sladb.nsf/sla/tou){: new_window} ![Icona link esterno](../../icons/launch-glyph.svg); or
     * i termini dell'accordo di base del servizio cloud tra te e IBM
   * Descrizione del servizio IBM Cloud disponibile all'indirizzo [http://www-03.ibm.com/software/sla/sladb.nsf/sla/bm](http://www-03.ibm.com/software/sla/sladb.nsf/sla/bm){: new_window} ![Icona link esterno](../../icons/launch-glyph.svg);
   * Ulteriori SD applicabili per tutti i servizi ordinati utilizzando il tuo account IBM Cloud disponibile all'indirizzo [http://www-03.ibm.com/software/sla/sladb.nsf/sla/bm](http://www-03.ibm.com/software/sla/sladb.nsf/sla/bm){: new_window} ![Icona link esterno](../../icons/launch-glyph.svg); e
   * Le schede dati applicabili come viene fatto riferimento nelle ulteriori SD applicabili o dal link "Terms" di un servizio nella IU IBM Cloud disponibile all'indirizzo [http://www-03.ibm.com/software/sla/sladb.nsf/sla/csdsp](http://www-03.ibm.com/software/sla/sladb.nsf/sla/csdsp){: new_window} ![Icona link esterno](../../icons/launch-glyph.svg).
-  * Una capacità riservata è per un termine fisso come stabilito in un ordine e non può essere terminata dal client prima della fine di tale termine. Una capacità riservata può essere idonea per il rinnovo alla conclusione di un termine di comune accordo tra il client e SoftLayer. Le capacità riservate che non sono né rinnovate né terminate prima della fine dei loro termini si convertiranno in servizi cloud mensili soggetti ai termini dell'attuale accordo sui servizi cloud e della descrizione del servizio e al prezzo al dettaglio in corso.
+  * Una capacità riservata è per un termine fisso come stabilito in un ordine e non può essere terminata dal cliente prima della fine di tale termine. Una capacità riservata può essere idonea per il rinnovo alla conclusione di un termine di comune accordo tra il cliente e SoftLayer. Le capacità riservate che non sono né rinnovate né terminate prima della fine dei loro termini si convertiranno in servizi cloud mensili soggetti ai termini dell'attuale accordo sui servizi cloud e della descrizione del servizio e al prezzo al dettaglio in corso.
 
 ### Licenza per l'immagine di IBM WebSphere Application Server Liberty Profile
 {: #license_liberty_image}
@@ -54,7 +54,7 @@ La International Business Machines Corporation o le sue società controllate (IB
 ### 2. Indirizzi IP forniti dal cliente
 {: #client_provided_ips}
 
-I clienti possono fornire i propri indirizzi IP emessi dal RIR (Internet Region Registry), soggetti a determinate limitazioni tecniche e alla verifica della proprietà, inviando un ticket di supporto e fornendo una lettera di autorizzazione per specificare i prefissi IP di proprietà del cliente. Se IBM approva una richiesta, tali indirizzi IP saranno annunciati tramite il BGP (Border Gateway Protocol) per conto del cliente e indirizzati ai server client identificati. Il cliente conserva la proprietà di tali indirizzi IP. Su richiesta del cliente o all'annullamento dei servizi, IBM cesserà di annunciare e instradare tali indirizzi IP. Sebbene IBM compia sforzi ragionevoli per garantire che i prefissi BGP siano accettati da tutti gli ISP upstream, non possiamo garantire la raggiungibilità globale per gli IP di proprietà del cliente. 
+I clienti possono fornire i propri indirizzi IP emessi dal RIR (Internet Region Registry), soggetti a determinate limitazioni tecniche e alla verifica della proprietà, inviando un caso di supporto e fornendo una lettera di autorizzazione per specificare i prefissi IP di proprietà del cliente. Se IBM approva una richiesta, tali indirizzi IP saranno annunciati tramite il BGP (Border Gateway Protocol) per conto del cliente e indirizzati ai server client identificati. Il cliente conserva la proprietà di tali indirizzi IP. Su richiesta del cliente o all'annullamento dei servizi, IBM cesserà di annunciare e instradare tali indirizzi IP. Sebbene IBM compia sforzi ragionevoli per garantire che i prefissi BGP siano accettati da tutti gli ISP upstream, non possiamo garantire la raggiungibilità globale per gli IP di proprietà del cliente. 
 
 ### 3. Linee guida su revisione / giustificazione / efficienza
 {: #review_justification_efficiency}
@@ -70,7 +70,7 @@ Una revisione iniziale può richiedere fino a 2 giorni lavorativi e, a seconda d
 
 Queste informazioni sono state sviluppate per prodotti e servizi offerti negli Stati Uniti. Questo materiale può essere disponibile da IBM in altre lingue. Tuttavia, per potervi accedere, potrebbe essere richiesto di possedere una copia del prodotto o una versione del prodotto in tale lingua.
 
-IBM può non offrire i prodotti, i servizi o le funzioni presentati in questo documento in altri paesi. Per le informazioni sui prodotti ed i servizi attualmente disponibili nel proprio paese, rivolgersi al rivenditore IBM locale. Qualunque riferimento relativo a prodotti, programmi o servizi IBM non implica che solo quei prodotti, programmi o servizi IBM possano essere utilizzati. In sostituzione a quelli forniti dall'IBM, possono essere utilizzati prodotti, programmi o servizi funzionalmente equivalenti che non comportino la violazione dei diritti di proprietà intellettuale IBM. È comunque responsabilità dell'utente valutare e verificare la possibilità di utilizzare altri prodotti, programmi o servizi non IBM.
+IBM può non offrire i prodotti, i servizi o le funzioni presentati in questo documento in altri paesi. Per le informazioni sui prodotti ed i servizi attualmente disponibili nel proprio paese, rivolgersi al rivenditore IBM locale. Qualunque riferimento relativo a prodotti, programmi o servizi IBM non implica che solo quei prodotti, programmi o servizi IBM possano essere utilizzati. In sostituzione a quelli forniti dall'IBM, possono essere utilizzati prodotti, programmi o servizi funzionalmente equivalenti che non comportino la violazione dei diritti di proprietà intellettuale IBM. È comunque responsabilità dell'utente valutare e verificare la  possibilità di utilizzare altri prodotti, programmi o servizi non IBM.
 
 IBM può avere brevetti o domande di brevetto in corso relativi a quanto trattato nella presente pubblicazione. La fornitura di questa pubblicazione non garantisce la concessione di alcuna licenza su di essi. Chi desiderasse ricevere informazioni relative alle licenze può rivolgersi per iscritto a:
 
@@ -124,7 +124,7 @@ LICENZA SUL DIRITTO D'AUTORE:
 
 Queste informazioni contengono programmi campione di applicazione nella lingua di origine, i quali illustrano le tecniche di programmazione su varie piattaforme operative. È possibile copiare, modificare, e distribuire questi programmi campione in qualsiasi forma senza pagare IBM, a scopo di sviluppo, utilizzazione, commercializzazione o distribuzione di programmi applicativi conformi all'interfaccia di programmazione di applicazioni per la piattaforma operativa, per la quale sono stati scritti i programmi campione. Questi esempi non sono stati testati in maniera approfondita e tenendo conto di tutte le possibili condizioni. IBM, non può quindi garantire né dichiararne implicitamente l'affidabilità, l'utilità o il funzionamento di tali programmi. I programmi di esempio sono forniti "NELLO STATO IN CUI SI TROVANO", senza alcun tipo di garanzia. IBM non intende essere responsabile per alcun danno derivante dall'uso dei programmi di esempio.
 
-Ogni copia o copia parziale dei programmi di esempio o di qualsiasi loro modifica deve includere il seguente avviso relativo alle leggi sul diritto d'autore:
+Ogni copia o copia parziale  dei programmi di esempio o di qualsiasi loro modifica deve includere il seguente avviso relativo alle leggi sul diritto d'autore:
 
   © (nome dell'azienda) (anno).
   Parti di questo codice derivano dai Programmi di Esempio di IBM Corp.
