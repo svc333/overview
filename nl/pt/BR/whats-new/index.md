@@ -549,7 +549,7 @@ seguir e, em seguida, experimente o serviço.
 
 Autenticação de diversos fatores: agora é possível usar a MFA baseada em e-mail para o Cloud Directory. Com a MFA configurada como ativada, os usuários são solicitados a fornecer um código único que eles recebem via e-mail, além da senha. Se você estiver usando a conexão corporativa com o SAML 2.0 ou o login social, poderá ativar a MFA por meio desse provedor de identidade.
 Políticas de senha avançadas: com o recurso de política de senha avançada ativado, é possível impor senhas mais seguras
-para o Cloud Directory. É possível configurar um conjunto de regras que usam senhas para que estejam em conformidade com o número de vezes que um usuário pode tentar se conectar antes de ser bloqueado ou o número de vezes que uma senha não pode ser repetida.
+para o Cloud Directory. É possível configurar um conjunto de regras para senhas que limite o número de tentativas de conexão de um usuário antes de ele ser bloqueado ou o número de repetições de uma senha.
 
 Os recursos de segurança avançados têm um componente de precificação adicional. Para obter mais informações sobre como a precificação é calculada, consulte a seção de precificação do [catálogo](https://cloud.ibm.com/catalog/services/app-id).
 
