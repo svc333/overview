@@ -162,7 +162,7 @@ You can link your SoftLayer account to your {{site.data.keyword.Bluemix_notm}} a
 ### {{site.data.keyword.Bluemix_notm}} Foundry Service US East region is now available
 New as of:  15 December 2017
 
-A new US East data center is now available in Washington, DC. This new region can be reached using the `us-east.bluemix.net` endpoint. For details on the services that are available for purchase in this new region, see [Services by region](/docs/resources/services_region.html#services_region).
+A new US East data center is now available in Washington, DC. This new region can be reached using the `us-east.cloud.ibm.com` endpoint. For details on the services that are available for purchase in this new region, see [Services by region](/docs/resources/services_region.html#services_region).
 
 ### Support for resources in the European Union
 New as of: 14 December 2017
@@ -436,7 +436,7 @@ New as of: 18 April 2018
 ### New Liberty for Java buildpack v3.11
 New as of: 17 July 2017
 
-The Liberty buildpack v3.11 provides new monthly Liberty runtime version and contains other improvements. The monthly Liberty runtime version was updated to the  [2017.7.0.0](https://developer.ibm.com/wasdev/blog/2017/07/07/beta-websphere-liberty-tools-july-2017/) release. The IBM JDK has been updated to the 8.0.4.7 and 7.1.4.5 versions. The buildpack also provides updated versions of the App Management utility and Auto-Scaling agent. The default Cloudant Library is now the official [java-cloudant](https://github.com/cloudant/java-cloudant), the [Ektorp library](https://github.com/helun/Ektorp) is still available as an option, for details on this change see the [blog post](https://www.ibm.com/blogs/bluemix/2017/05/default-library-change-cloudant-auto-wiring-liberty-buildpack/). The default heap size ratio is now 50% when your application has less than 512mb of memory, if it has more than 512mb it will still be 75%. A new staging task log is now generated, which allows for easier debugging of staging errors. For additional information, see the [latest updates](https://console.ng.bluemix.net/docs/runtimes/liberty/updates.html) documentation.
+The Liberty buildpack v3.11 provides new monthly Liberty runtime version and contains other improvements. The monthly Liberty runtime version was updated to the  [2017.7.0.0](https://developer.ibm.com/wasdev/blog/2017/07/07/beta-websphere-liberty-tools-july-2017/) release. The IBM JDK has been updated to the 8.0.4.7 and 7.1.4.5 versions. The buildpack also provides updated versions of the App Management utility and Auto-Scaling agent. The default Cloudant Library is now the official [java-cloudant](https://github.com/cloudant/java-cloudant), the [Ektorp library](https://github.com/helun/Ektorp) is still available as an option, for details on this change see the [blog post](https://www.ibm.com/blogs/bluemix/2017/05/default-library-change-cloudant-auto-wiring-liberty-buildpack/). The default heap size ratio is now 50% when your application has less than 512mb of memory, if it has more than 512mb it will still be 75%. A new staging task log is now generated, which allows for easier debugging of staging errors. For additional information, see the [latest updates](/docs/runtimes/liberty/updates.html) documentation.
 
 ### New Liberty for Java buildpack v3.10
 New as of: 12 June 2017
@@ -552,7 +552,7 @@ To get started, see the [{{site.data.keyword.security-advisor_short}} documentat
 ### Introducing {{site.data.keyword.iva_full_notm}} general availability
 New as of: 26 June 2018
 
-The [{{site.data.keyword.iva_full}}](https://console.bluemix.net/catalog/services/voice-agent-with-watson)![External link icon](../../icons/launch-glyph.svg "External link icon") is now generally available! You can create a cognitive voice agent built on Watson services that customers can call and speak to over the phone. With Watson artificial intelligence at its backbone, your voice agent can communicate in a conversational manner, handling complex interactions and solving customer calls within the voice agent.
+The [{{site.data.keyword.iva_full}}](https://cloud.ibm.com/catalog/services/voice-agent-with-watson)![External link icon](../../icons/launch-glyph.svg "External link icon") is now generally available! You can create a cognitive voice agent built on Watson services that customers can call and speak to over the phone. With Watson artificial intelligence at its backbone, your voice agent can communicate in a conversational manner, handling complex interactions and solving customer calls within the voice agent.
 
 This release introduces the following new features:
 
@@ -571,7 +571,7 @@ New as of: 20 April 2018
 You can access this new container-based infrastructure using the [v2 service plans](/docs/services/StreamingAnalytics/service_plans.html#service_plans). You can choose the {{site.data.keyword.streaminganalyticsshort}} plan that is best suited for the work that you need to do. The v2 service plans include the following enhancements:
  
 * [IBM Streams QSE with Docker](https://www-01.ibm.com/marketing/iwm/iwm/web/preLogin.do?source=swg-ibmistvi)![External link icon](../../icons/launch-glyph.svg "External link icon"): Check out the [Development Guide](https://developer.ibm.com/streamsdev/docs/cloud-beta-devguide/)![External link icon](../../icons/launch-glyph.svg "External link icon") to learn how to use the new Streams QSE with RHEL 7 running in a Docker environment to compile and deploy your applications with the new {{site.data.keyword.streaminganalyticsshort}} v2 plans. 
-* [{{site.data.keyword.streaminganalyticsshort}} v2 REST API](https://console.bluemix.net/apidocs/1939-streaming-analytics-v2#introduction)![External link icon](../../icons/launch-glyph.svg "External link icon")
+* [{{site.data.keyword.streaminganalyticsshort}} v2 REST API](https://cloud.ibm.com/apidocs/1939-streaming-analytics-v2#introduction)![External link icon](../../icons/launch-glyph.svg "External link icon")
 * [New starter and sample applications](https://developer.ibm.com/streamsdev/docs/cloud-beta-samples/) ![External link icon](../../icons/launch-glyph.svg "External link icon")
 * [High-availability enhancements in the {{site.data.keyword.streaminganalyticsshort}} service](/docs/services/StreamingAnalytics/c_ha.html#consistent-regions)
 * [Problem determination features in the {{site.data.keyword.streaminganalyticsshort}} service](https://developer.ibm.com/streamsdev/2018/02/15/streaming-analytics-console-gives-ways-find-fix-errors-beta-plans/)![External link icon](../../icons/launch-glyph.svg "External link icon")
@@ -580,7 +580,7 @@ You can access this new container-based infrastructure using the [v2 service pla
 ### {{site.data.keyword.iva_full_notm}} is now beta!
 New as of: 16 March 2018
 
-With [{{site.data.keyword.iva_full}}](https://console.bluemix.net/catalog/services/voice-agent-with-watson)![External link icon](../../icons/launch-glyph.svg "External link icon"), you can create a cognitive voice agent built on Watson services that customers can call and speak to over the phone. With Watson artificial intelligence at its backbone, your voice agent can communicate in a conversational manner, handling complex interactions and solving customer calls within the voice agent.
+With [{{site.data.keyword.iva_full}}](https://cloud.ibm.com/catalog/services/voice-agent-with-watson)![External link icon](../../icons/launch-glyph.svg "External link icon"), you can create a cognitive voice agent built on Watson services that customers can call and speak to over the phone. With Watson artificial intelligence at its backbone, your voice agent can communicate in a conversational manner, handling complex interactions and solving customer calls within the voice agent.
 
 This beta release introduces the following key features:
 
@@ -603,10 +603,10 @@ Presently, existing custom classifiers can continue to be updated and retrained 
 ### {{site.data.keyword.streaminganalyticsshort}} updates
 New as of: 14 February 2018
 
-The [Beta - Entry and Beta- Enhanced plans](/docs/services/StreamingAnalytics/beta_plans.html#beta_plans) for the console in the [{{site.data.keyword.streaminganalyticsshort}} service](https://console.bluemix.net/catalog/services/streaming-analytics){: new_window} ![External link icon](../../icons/launch-glyph.svg "External link icon") includes several enhancements:
+The [Beta - Entry and Beta- Enhanced plans](/docs/services/StreamingAnalytics/beta_plans.html#beta_plans) for the console in the [{{site.data.keyword.streaminganalyticsshort}} service](https://cloud.ibm.com/catalog/services/streaming-analytics){: new_window} ![External link icon](../../icons/launch-glyph.svg "External link icon") includes several enhancements:
 
 * [New IBM Streams QSE for Docker](https://www-01.ibm.com/marketing/iwm/iwm/web/preLogin.do?source=swg-ibmistvi){: new_window} ![External link icon](../../icons/launch-glyph.svg "External link icon"): Check out the [Beta Development Guide](https://developer.ibm.com/streamsdev/docs/cloud-beta-devguide/){: new_window} ![External link icon](../../icons/launch-glyph.svg "External link icon") to learn how to use the new Streams QSE with RHEL 7 running in a Docker environment to compile and deploy your applications with the new {{site.data.keyword.streaminganalyticsshort}} beta plans.
-* [{{site.data.keyword.streaminganalyticsshort}} v2 REST API](https://console.bluemix.net/apidocs/1939-streaming-analytics-v2#introduction){: new_window} ![External link icon](../../icons/launch-glyph.svg "External link icon")
+* [{{site.data.keyword.streaminganalyticsshort}} v2 REST API](https://cloud.ibm.com/apidocs/1939-streaming-analytics-v2#introduction){: new_window} ![External link icon](../../icons/launch-glyph.svg "External link icon")
 * [New starter and sample applications](https://developer.ibm.com/streamsdev/docs/cloud-beta-samples/)
 * [High-availability enhancements in the {{site.data.keyword.streaminganalyticsshort}} service](/docs/services/StreamingAnalytics/consistentregions.html#consistentregions)
 * [New problem determination features in the beta version of the {{site.data.keyword.streaminganalyticsshort}} service](https://developer.ibm.com/streamsdev/2018/02/15/streaming-analytics-console-gives-ways-find-fix-errors-beta-plans/){: new_window} ![External link icon](../../icons/launch-glyph.svg "External link icon")
@@ -632,7 +632,7 @@ New as of: 30 November 2017
 
 Visually explore connections powered by {{site.data.keyword.discoveryshort}}'s understanding of semantic elements detected in text, such as entities, relationships, concepts, and more.
 
-Begin exploring the world's news with the out-of-the-box {{site.data.keyword.discoveryshort}} News collection. Or, explore your own document collections in {{site.data.keyword.discoveryshort}}. Just log in with your {{site.data.keyword.Bluemix_notm}} credentials. See [Visual insights experimental](https://visual-insights.bluemix.net){: new_window} ![External link icon](../../icons/launch-glyph.svg "External link icon") for more information.
+Begin exploring the world's news with the out-of-the-box {{site.data.keyword.discoveryshort}} News collection. Or, explore your own document collections in {{site.data.keyword.discoveryshort}}. Just log in with your {{site.data.keyword.Bluemix_notm}} credentials. See [Visual insights experimental](https://visual-insights.cloud.ibm.com){: new_window} ![External link icon](../../icons/launch-glyph.svg "External link icon") for more information.
 
 ### New IBM Cloud Managed Database Server Beta service
 New as of: 30 November 2017
@@ -692,7 +692,7 @@ We have made enhancements for {{site.data.keyword.mobileanalytics_short}} servic
 * [Building charts for Adapter analytics by using IBM Bluemix Mobile Analytics service and IBM Mobile Foundation Service](https://mobilefirstplatform.ibmcloud.com/blog/2017/04/26/adapter-analytics-using-analytics-and-dashdb-analytics-service/){: new_window} ![External link icon](../../icons/launch-glyph.svg "External link icon")
 
 #### {{site.data.keyword.mobilefirst_notm}} boilerplate now includes {{site.data.keyword.mobileanalytics_short}}
-Mobile Services Boilerplate is a template that provides a set of mobile services for users to quickly get started. {{site.data.keyword.mobileanalytics_short}} service is now a part of the boiler plate available in the [catalog](https://console.bluemix.net/catalog/starters/mobilefirst-services-starter){: new_window} ![External link icon](../../icons/launch-glyph.svg "External link icon").
+Mobile Services Boilerplate is a template that provides a set of mobile services for users to quickly get started. {{site.data.keyword.mobileanalytics_short}} service is now a part of the boiler plate available in the [catalog](https://cloud.ibm.com/catalog/starters/mobilefirst-services-starter){: new_window} ![External link icon](../../icons/launch-glyph.svg "External link icon").
 
 
 ### Updates for {{site.data.keyword.streaminganalyticsshort}}
