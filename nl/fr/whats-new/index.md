@@ -22,7 +22,7 @@ Restez à jour en utilisant les nouvelles fonctions et les nouveaux services dis
 
 
 ### Nouvelle expérience de support pour {{site.data.keyword.Bluemix_notm}}
-Nouveau à compter du : 30 novembre 2018
+Nouveau à compter du : 30 novembre 2018 
 {: #support}
 
 En collaboration avec le centre de support, vous pouvez essayer de résoudre les problèmes liés à {{site.data.keyword.Bluemix_notm}}. La page d'arrivée inclut des FAQ. Vous pouvez donc trouver les réponses à vos questions sans même contacter {{site.data.keyword.Bluemix_notm}}. Vous avez également la possibilité de discuter en direct avec un représentant de l'équipe de support. Vos cas peuvent désormais être gérés à partir d'un seul emplacement. Accédez à **Support** &gt; **Gérer les cas** pour créer, afficher ou éditer les cas.
@@ -804,7 +804,7 @@ Les nouvelles fonctions du dispositif de routeur virtuel de version 18.x sont ex
 
 Si vous réalisez une migration depuis Vyatta 5400, la meilleure façon d'effectuer une mise à niveau vers la version 18.x est de le faire à travers la [procédure normale](/docs/infrastructure/virtual-router-appliance/upgrade-os.html) du rechargement complet du système d'exploitation.
 
-Dans la mesure où il n'y a pas de mappage simple et individuel des fonctionnalités entre Vyatta 5400 et le dispositif de routeur virtuel, il est utile de créer une configuration de base pour le dispositif de routeur virtuel. WanClouds, un partenaire IBM, peut vous aider dans ce processus et vous guider lors de la création d'une fonctionnalité similaire à celle de Vyatta 5400 sur votre dispositif de routeur virtuel. 
+Dans la mesure où il n'y a pas de mappage simple et individuel des fonctionnalités entre Vyatta 5400 et le dispositif de routeur virtuel, il est utile de créer une configuration de base pour le dispositif de routeur virtuel. WanClouds, un partenaire IBM, peut vous aider dans ce processus et vous guider lors de la création d'une fonctionnalité similaire à celle de Vyatta 5400 sur votre dispositif de routeur virtuel.
 
 Pour en savoir plus sur les problèmes communs rencontrés lors de ce processus de mise à niveau, veuillez vous reporter à votre [documentation additionnelle](/docs/infrastructure/virtual-router-appliance/migration-issues.html#vyatta-5400-common-migration-issues).
 

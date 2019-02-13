@@ -369,20 +369,20 @@ Identity and Access Management (IAM) では、サービス ID を作成する機
 SAP HANA と SAP NetWeaver の両方に対する {{site.data.keyword.cloud_notm}} SAP 認定インフラストラクチャー・オファリングにより、新規フィーチャーが使用可能になりました。
 
 #### マルチノード・ストレージ
-SAP Business Warehouse (SAP BW) や SAP BW/4HANA などのオンライン分析処理 (OLAP) ワークロードのための SAP HANA マルチノード・ストレージ。SAP HANA マルチノードの {{site.data.keyword.cloud_notm}} ソリューションは、最大で 15 + 1 個のノード (15 個のワーカー・ノードのほかに 1 個のスタンバイ) で構成され、1 つのシステムで使用されるメモリーは最大で 30 TB です。最初に、[SAP HANA マルチノードをサポートする {{site.data.keyword.cloud_notm}} インフラストラクチャーの構成](/docs/infrastructure/sap-hana/hana-multi-node.html#multi-node-storage)を参照してください。
+SAP Business Warehouse (SAP BW) や SAP BW/4HANA などのオンライン分析処理 (OLAP) ワークロードのための SAP HANA マルチノード・ストレージ。 SAP HANA マルチノードの {{site.data.keyword.cloud_notm}} ソリューションは、最大で 15 + 1 個のノード (15 個のワーカー・ノードのほかに 1 個のスタンバイ) で構成され、1 つのシステムで使用されるメモリーは最大で 30 TB です。 最初に、[SAP HANA マルチノードをサポートする {{site.data.keyword.cloud_notm}} インフラストラクチャーの構成](/docs/infrastructure/sap-hana/hana-multi-node.html#multi-node-storage)を参照してください。
 
 
-#### 高可用性 
-高可用性 (HA) ソリューションは、SAP HANA と SAP NetWeaver の両方でサポートされます。このソリューションは、サポートされている OS バージョンに基づいており、デプロイメントに伴う注文された OS ライセンス、または独自ライセンスの使用 (BYOL) などのサード・パーティー・ライセンスに制限されています。最初に、SAP HANA については [ここ](/docs/infrastructure/sap-hana/hana-ha.html#ha) を、SAP NetWeaver については [ここ](/docs/infrastructure/sap-netweaver/sap-ha.html#ha) をクリックしてください。
+#### 高可用性
+高可用性 (HA) ソリューションは、SAP HANA と SAP NetWeaver の両方でサポートされます。 このソリューションは、サポートされている OS バージョンに基づいており、デプロイメントに伴う注文された OS ライセンス、または独自ライセンスの使用 (BYOL) などのサード・パーティー・ライセンスに制限されています。 最初に、SAP HANA については [ここ](/docs/infrastructure/sap-hana/hana-ha.html#ha) を、SAP NetWeaver については [ここ](/docs/infrastructure/sap-netweaver/sap-ha.html#ha) をクリックしてください。
   
 #### SAP コンテンツ・サーバー
-SAP コンテンツ・サーバーは、あらゆる形式のあらゆるコンテンツを含む大量の電子文書を保存するためのスタンドアロン・コンポーネントです。SAP コンテンツ・サーバーを使用するには、SAP アプリケーションがその使用をサポートしている必要があります。最初に、[SAP コンテンツ・サーバー](/docs/infrastructure/sap-netweaver/sap-content-server.html#content-server)を参照してください。
+SAP コンテンツ・サーバーは、あらゆる形式のあらゆるコンテンツを含む大量の電子文書を保存するためのスタンドアロン・コンポーネントです。 SAP コンテンツ・サーバーを使用するには、SAP アプリケーションがその使用をサポートしている必要があります。 最初に、[SAP コンテンツ・サーバー](/docs/infrastructure/sap-netweaver/sap-content-server.html#content-server)を参照してください。
 
 #### SAP MaxDB
-SAP MaxDB は SAP NetWeaver で使用できます。最初に、[{{site.data.keyword.cloud_notm}} SAP 認定インフラストラクチャーについて](/docs/infrastructure/sap-netweaver/sap-about.html#about_ibmcloud_for_sap)を参照してください。
+SAP MaxDB は SAP NetWeaver で使用できます。 最初に、[{{site.data.keyword.cloud_notm}} SAP 認定インフラストラクチャーについて](/docs/infrastructure/sap-netweaver/sap-about.html#about_ibmcloud_for_sap)を参照してください。
 
 #### SAP Business One
-SAP Business One は、中小企業向けに特に設計された Enterprise Resource Planning (ERP) ソフトウェアです。会計と財務、購買と在庫、販売と顧客の関係、プロジェクト管理とオペレーションのコアビジネス機能を 1 つのアプリケーションに統合します。詳しくは、[はじめに (Getting started)](/docs/infrastructure/sap-b1/b1-index.html#getting-started) を参照してください。
+SAP Business One は、中小企業向けに特に設計された Enterprise Resource Planning (ERP) ソフトウェアです。 会計と財務、購買と在庫、販売と顧客の関係、プロジェクト管理とオペレーションのコアビジネス機能を 1 つのアプリケーションに統合します。 詳しくは、[はじめに (Getting started)](/docs/infrastructure/sap-b1/b1-index.html#getting-started) を参照してください。
 
 ### 仮想サーバーのフィーチャー
 最新情報: 2018 年 11 月 16 日
@@ -463,12 +463,12 @@ Liberty ビルドパック v3.9 は、新規の月次の Liberty ランタイム
 
 {{site.data.keyword.appid_short_notm}} サービスは、認証とアプリのセキュリティーを強化する新しい拡張機能を導入しました。
 
-{{site.data.keyword.appid_short_notm}} は、さまざまな種類のユーザー認証をモバイルおよび Web アプリに追加するのに役立ちます。数行のコードで認証を追加して、ユーザー・ベースで拡張するためのインフラストラクチャーの管理について気にする必要がなくなります。次の機能拡張を確認して、ご自分でサービスを試してみてください。
+{{site.data.keyword.appid_short_notm}} は、さまざまな種類のユーザー認証をモバイルおよび Web アプリに追加するのに役立ちます。 数行のコードで認証を追加して、ユーザー・ベースで拡張するためのインフラストラクチャーの管理について気にする必要がなくなります。 次の機能拡張を確認して、ご自分でサービスを試してみてください。
 
-多要素認証: Cloud Directory に E メール・ベースの MFA を使用できるようになりました。MFA をオンに設定すると、ユーザーはパスワードに加えて、E メールで受け取った 1 回限りのコードを提供するように求められます。SAML 2.0 またはソーシャル・ログインでエンタープライズ・サインインを使用している場合は、そのID プロバイダーを通じて MFA を有効にできます。
-拡張パスワード・ポリシー: 拡張パスワード・ポリシー・フィーチャーを有効にすると、Cloud Directory のパスワードをより安全に適用できます。パスワードを使用する一連のルールを、ユーザーがサインインの試行を繰り返すとロックアウトされる、その試行回数や、1 つのパスワードを繰り返して使用することができない回数などに準拠する必要があるというように構成できます。
+多要素認証: Cloud Directory に E メール・ベースの MFA を使用できるようになりました。 MFA をオンに設定すると、ユーザーはパスワードに加えて、E メールで受け取った 1 回限りのコードを提供するように求められます。 SAML 2.0 またはソーシャル・ログインでエンタープライズ・サインインを使用している場合は、そのID プロバイダーを通じて MFA を有効にできます。
+拡張パスワード・ポリシー: 拡張パスワード・ポリシー・フィーチャーを有効にすると、Cloud Directory のパスワードをより安全に適用できます。 パスワードの一連のルールを構成して、ユーザーがロックアウトされるまでにサインインを試行できる回数や、パスワードを繰り返し使用できる回数を制限することができます。
 
-拡張セキュリティー・フィーチャーには、追加の価格設定コンポーネントがあります。価格設定の計算方法の詳細については、[カタログ](https://cloud.ibm.com/catalog/services/app-id)の価格設定のセクションを参照してください。
+拡張セキュリティー・フィーチャーには、追加の価格設定コンポーネントがあります。 価格設定の計算方法の詳細については、[カタログ](https://cloud.ibm.com/catalog/services/app-id)の価格設定のセクションを参照してください。
 
 [{{site.data.keyword.appid_short_notm}} 資料](/docs/services/appid/index.html)を確認して、今日から始めてください。
 
