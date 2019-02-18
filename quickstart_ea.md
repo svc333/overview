@@ -4,7 +4,7 @@ copyright:
 
   years: 2018, 2019
 
-lastupdated: "2019-01-02"
+lastupdated: "2019-02-18"
 
 ---
 
@@ -21,11 +21,11 @@ This quick start guide is intended to help enterprise architects understand how 
 {:shortdesc}
 
 ## Before you begin
-{: #prereqs}
+{: #prereqs-ea}
 Create a Pay-As-You-Go or Subscription account to get full access to all offerings in the catalog, including those with free service plans. 
 
 ## Quick start steps
-{: #steps}
+{: #steps-ea}
 
 1. Review what {{site.data.keyword.Bluemix_notm}} has to offer to see how it fits into your company's requirements and roadmap. 
     * For more information to better understand the platform, see [What is the {{site.data.keyword.Bluemix_notm}} platform?].
@@ -37,7 +37,7 @@ Create a Pay-As-You-Go or Subscription account to get full access to all offerin
 3. Explore the offerings in the [catalog](https://cloud.ibm.com/catalog){: new_window} ![External link icon](../icons/launch-glyph.svg) that you can use to build your solution.
 
 ## Next steps
-{: #next-steps}
+{: #next-steps-ea}
 
 Start building an app! We have starter kits and options for you to bring your own code. Go to the Menu icon ![Menu icon](../icons/icon_hamburger.svg) **> Dashboard > Apps** widget, and click **Create an app**.
 
