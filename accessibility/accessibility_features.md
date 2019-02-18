@@ -3,8 +3,8 @@
 
 
 copyright:
-  years: 2018
-lastupdated: "2018-11-30"
+  years: 2018, 2019
+lastupdated: "2019-02-18"
 
 
 ---
@@ -13,11 +13,13 @@ lastupdated: "2018-11-30"
 {:new_window: target="_blank"}
 
 # Accessibility features for {{site.data.keyword.Bluemix_notm}}
+{: #accessibility-platform}
 
 Accessibility features assist users who have a disability, such as restricted mobility or limited vision, to use information technology content successfully.
 {:shortdesc}
 
 ## Accessibility features
+{: #features-platform}
 
 {{site.data.keyword.Bluemix_notm}} includes the following major accessibility features:
 
@@ -30,6 +32,7 @@ The {{site.data.keyword.Bluemix_notm}} online product documentation and the {{si
 
 
 ## Interface information
+{: #interface-info}
  
 Review the following information about the {{site.data.keyword.Bluemix_notm}} user interface:
 
@@ -40,6 +43,7 @@ Review the following information about the {{site.data.keyword.Bluemix_notm}} us
 
 
 ## Related accessibility information
+{: #related-info}
 
 The {{site.data.keyword.Bluemix_notm}} web user interface accessibility compliance status is specifically for the {{site.data.keyword.Bluemix_notm}} product platform. There are sub-sections of the user interface that are owned by third party products or services that host content within the platform, for which the {{site.data.keyword.Bluemix_notm}} compliance record does not maintain or own the accessibility compliance status. This means that if you are accessing any user interface or documentation for a service, you must request the compliance statements for that service. For example, if you are using an interface for IBM Containers, the Administration console for a local or dedicated environment, or an IoT service, you must request [product accessibility information ![External link icon](../../icons/launch-glyph.svg "External link icon")](http://www-03.ibm.com/able/product_accessibility/index.html){: new_window} for that interface or documentation.
 
@@ -52,5 +56,6 @@ TTY service
 (within North America)
 
 ## IBM and accessibility
+{: #accessibility-ibm}
 
 For more information about the commitment that IBM has to accessibility, see [IBM Accessibility ![External link icon](../../icons/launch-glyph.svg "External link icon")](http://www.ibm.com/able){: new_window}.

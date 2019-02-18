@@ -2,8 +2,8 @@
 
 
 copyright:
-  years: 2018
-lastupdated: "2018-09-04"
+  years: 2018, 2019
+lastupdated: "2019-02-18"
 
 ---
 
@@ -22,6 +22,7 @@ We want to hear from you! You can submit feedback for the {{site.data.keyword.Bl
 * Submit an idea for improving the product or a specific service in the {{site.data.keyword.Bluemix_notm}} ideas portal.
 
 ## Submitting a comment with the feedback button
+{: #feedback-button}
 
 When you are reading a page of documentation or completing a task within the console, you can find a feedback button on the edge of the page. Click the **Feedback** button to submit a rave review, a suggestion, or identify an error.
 
@@ -35,6 +36,7 @@ Common ad blockers block Usabilla and hide the **Feedback** button. Disable any 
 {: tip}
 
 ## Providing a content update with a pull request
+{: #feedback-pr}
 
 You can submit suggested changes to any documentation page by using the **Edit in GitHub** link at the top of each page. By following that link and editing the page, you can submit updates in a pull request for the content team to review and merge. 
 
@@ -50,6 +52,7 @@ Complete the following process to submit a pull request to the content team:
 8. Select **Create pull request**. 
 
 ## Opening an issue for the documentation
+{: #feedback-docissue}
 
 You can open an issue for the content team to address from any documentation page. Within your issue, provide the details about the improvement that you'd like to see. For example, you might state the steps on the page didn't match the user interface as you tried to complete the procedure, and you think the content needs to be updated, or you wanted to see additional information on a specific subject in that section.
 

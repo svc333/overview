@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2018
-lastupdated: "2018-11-14"
+  years: 2018, 2019
+lastupdated: "2019-02-18"
 
 
 ---
@@ -14,7 +14,7 @@ lastupdated: "2018-11-14"
 {:tip: .tip}
 
 # Building your infrastructure
-{: #first-steps}
+{: #first-steps-it-ops}
 
 This quick start guide is intended to help IT operations administrators (IT ops admins) explore the infrastructure offerings that are available in {{site.data.keyword.cloud}}, and begin building their environment.
 {: shortdesc}
@@ -23,12 +23,12 @@ See [Exploring the IT ops admin journey](/docs/overview/it-ops-journey.html) in 
 {: tip}
 
 ## Before you begin
-{: #prereqs}
+{: #prereqs-it-ops}
 
 Sign up for a Pay-As-You-Go or Subscription account to get full access to all offerings in the catalog, including those with free service plans. 
 
 ## Quick start steps
-{: #steps}
+{: #steps-it-ops}
 
 1. Leverage our learning materials to understand how {{site.data.keyword.cloud_notm}} works:
     * Learn about what options are available for [hosting your applications](/docs/overview/ibm-cloud-platform.html#choose-compute) in {{site.data.keyword.cloud}}.
@@ -41,7 +41,7 @@ Sign up for a Pay-As-You-Go or Subscription account to get full access to all of
 3. After you plan out your infrastructure, click **Provision** from the order summary to start building your environment. 
 
 ## Next steps
-{: #next-steps}
+{: #next-steps-it-ops}
 
 [Manage your infrastructure](/docs/overview/it-ops-journey.html). Some example management tasks include: 
 

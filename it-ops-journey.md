@@ -2,7 +2,7 @@
 
 copyright:
   years: 2018, 2019
-lastupdated: "2019-01-04"
+lastupdated: "2019-02-18"
 
 
 ---
@@ -92,28 +92,28 @@ Your server is the base of your infrastructure. You have various options dependi
 
 | Option | Description | 
 |--------|---------------|
-| [{{site.data.keyword.baremetal_short}}](/docs/bare-metal/about.html)  | Hourly or monthly, single-tenant servers that are dedicated to you and not shared in any part, including server resources, with other customers. |
-| [{{site.data.keyword.BluVirtServers_short}}](/docs/vsi/vsi_about.html) | Scalable virtual servers that are purchased with dedicated cores and memory allocations. |
-| [{{site.data.keyword.vmwaresolutions_short}}](/docs/services/vmwaresolutions/vmonic/prod_overview.html) | Quickly and seamlessly integrate or migrate on-premises VMware workloads by using scalable, secure, and high-performance infrastructure and the industry-leading VMware hybrid virtualization technology. |
-| [{{site.data.keyword.containerlong_notm}}](/docs/containers/cs_why.html) | Combines Docker containers, the Kubernetes technology, an intuitive user experience, and built-in security and isolation to automate the deployment, operation, scaling, and monitoring of containerized apps in a cluster of compute hosts. |
-| [{{site.data.keyword.cfee_full_notm}}](/docs/cloud-foundry/index.html) | Instantiate multiple, isolated, enterprise-grade Cloud Foundry platforms on demand. |
-| [{{site.data.keyword.openwhisk_short}}](/docs/openwhisk/index.html) | A Functions-as-a-Service (FaaS) programming platform based on Apache OpenWhisk. |
+| [{{site.data.keyword.baremetal_short}}](/docs/bare-metal?topic=bare-metal-getting-started)  | Hourly or monthly, single-tenant servers that are dedicated to you and not shared in any part, including server resources, with other customers. |
+| [{{site.data.keyword.BluVirtServers_short}}](/docs/vsi?topic=virtual-servers-getting-started-with-virtual-servers) | Scalable virtual servers that are purchased with dedicated cores and memory allocations. |
+| [{{site.data.keyword.vmwaresolutions_short}}](/docs/services/vmwaresolutions?topic=vmware-solutions-getting-started-with-ibm-cloud-for-vmware-solutions) | Quickly and seamlessly integrate or migrate on-premises VMware workloads by using scalable, secure, and high-performance infrastructure and the industry-leading VMware hybrid virtualization technology. |
+| [{{site.data.keyword.containerlong_notm}}](/docs/containers?topic=containers-container_index) | Combines Docker containers, the Kubernetes technology, an intuitive user experience, and built-in security and isolation to automate the deployment, operation, scaling, and monitoring of containerized apps in a cluster of compute hosts. |
+| [{{site.data.keyword.cfee_full_notm}}](/docs/cloud-foundry?topic=cloud-foundry-about) | Instantiate multiple, isolated, enterprise-grade Cloud Foundry platforms on demand. |
+| [{{site.data.keyword.openwhisk_short}}](/docs/openwhisk?topic=cloud-functions-index) | A Functions-as-a-Service (FaaS) programming platform based on Apache OpenWhisk. |
 {: caption="Table 1. Compute options" caption-side="top"}
    
 ### Storage
 {: #storage}
 
-{{site.data.keyword.baremetal_short}} and {{site.data.keyword.BluVirtServers_short}} are provisioned with default storage. {{site.data.keyword.baremetal_short}} have a minimum of 1 TB SATA disk space, and {{site.data.keyword.BluVirtServers_short}} have a minimum of 25 GB SAN storage. The exception to this is the {{site.data.keyword.cloud_notm}} SAP-Certified {{site.data.keyword.baremetal_short}}. For more information on the default storage available with these servers, see [{{site.data.keyword.cloud_notm}} SAP-Certified Infrastructure](/docs/bare-metal/bare-metal-sap-applications.html#ibm-cloud-sap-certified-infrastructure).
+{{site.data.keyword.baremetal_short}} and {{site.data.keyword.BluVirtServers_short}} are provisioned with default storage. {{site.data.keyword.baremetal_short}} have a minimum of 1 TB SATA disk space, and {{site.data.keyword.BluVirtServers_short}} have a minimum of 25 GB SAN storage. The exception to this is the {{site.data.keyword.cloud_notm}} SAP-Certified {{site.data.keyword.baremetal_short}}. For more information on the default storage available with these servers, see [{{site.data.keyword.cloud_notm}} SAP-Certified Infrastructure](/docs/bare-metal?topic=bare-metal-ibm-cloud-sap-certified-infrastructure).
 
 You can buy extra storage based on your needs. See the following table for a summary of your compute options.
 
 | Option | Description |
 |--------|---------------|
-| [{{site.data.keyword.blockstorageshort}}](/docs//infrastructure/BlockStorage/index.html) | Persistent, high-performance iSCSI storage that is provisioned and managed independently of compute instances. iSCSI-based Block Storage LUNs are connected to authorized devices through redundant multi-path I/O (MPIO) connections. |
+| [{{site.data.keyword.blockstorageshort}}](/docs/infrastructure/BlockStorage/index.html) | Persistent, high-performance iSCSI storage that is provisioned and managed independently of compute instances. iSCSI-based Block Storage LUNs are connected to authorized devices through redundant multi-path I/O (MPIO) connections. |
 | [{{site.data.keyword.filestorage_short}}](/docs/infrastructure/FileStorage/index.html) | Persistent, fast, and flexible network-attached, NFS-based File Storage. In this network-attached storage (NAS) environment, you have total control over your file shares function and performance. File Storage shares can be connected to up to 64 authorized devices over routed TCP/IP connections for resiliency. |
-| [{{site.data.keyword.cos_full_notm}}](/docs/services/cloud-object-storage/about-cos.html) | Information stored with IBM Cloud Object Storage is encrypted and dispersed across multiple geographic locations, and accessed over HTTP by using a REST API. This service makes use of the distributed storage technologies that are provided by the IBM Cloud Object Storage System (formerly Cleversafe). |
+| [{{site.data.keyword.cos_full_notm}}](/docs/services/cloud-object-storage?topic=cloud-object-storage-getting-started-console-) | Information stored with IBM Cloud Object Storage is encrypted and dispersed across multiple geographic locations, and accessed over HTTP by using a REST API. This service makes use of the distributed storage technologies that are provided by the IBM Cloud Object Storage System (formerly Cleversafe). |
 | [{{site.data.keyword.cloud_notm}} Mass Data Migration](/docs/infrastructure/mass-data-migration/index.html) | Offload large amounts of data from your on-premises data center to your Cloud Object Storage bucket. |
-| [EVault](/docs/infrastructure/Backup/index.html) | An automated agent-based backup system that is managed through the EVault WebCC browser-based management utility for virtual servers only. Back up data between servers in one or more data centers on the IBM Cloud network. |
+| [{{site.data.keyword.backup_full}}](/docs/infrastructure/Backup/index.html) | An automated agent-based backup system that is managed through a browser-based management utility. You can back up data between servers in one or more data centers on the IBM Cloud network. |
 {: caption="Table 2. Storage options" caption-side="top"}
 
 ### Networking

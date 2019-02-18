@@ -2,8 +2,8 @@
 
 
 copyright:
-  years: 2016, 2018
-lastupdated: "2018-12-04"
+  years: 2016, 2019
+lastupdated: "2019-02-18"
 
 ---
 
@@ -11,7 +11,7 @@ lastupdated: "2018-12-04"
 {:new_window: target="_blank"}
 
 # What is the {{site.data.keyword.Bluemix_notm}} platform?
-{: #whatis}
+{: #whatis-platform}
 
 IBM's cloud platform combines platform as a service (PaaS) with infrastructure as a service (IaaS) to provide an integrated experience. The platform scales and supports both small development teams and organizations, and large enterprise businesses. Globally deployed across data centers around the world, the solution you build on {{site.data.keyword.cloud}} spins up fast and performs reliably in a tested and supported environment you can trust.
 {: .shortdesc}
@@ -23,8 +23,6 @@ The {{site.data.keyword.Bluemix_notm}} platform is composed of multiple componen
   * An identity and access management component that securely authenticates users for both platform services and controls access to resources consistently across {{site.data.keyword.Bluemix_notm}}
   * A search and tagging mechanism for filtering and identifying your resources
   * An account and billing management system that provides exact usage for pricing plans and secure credit card fraud protection
-  
-<!-- staging only - A logging service that is powered by LogDNA and a monitoring service that is powered by SysDig for robust logging and monitoring support. A status service that collects and displays planned and unplanned events, maintenance, security, and announcements notifications in the console and as emails -->
 
 ## Choosing your hosting environment
 {: #choose-compute}
@@ -49,25 +47,25 @@ Check out the following table for a summary of your compute options.
 
 | Option | Description | 
 |--------|---------------|
-| [{{site.data.keyword.baremetal_short}}](/docs/bare-metal/about.html)  | Hourly or monthly, single-tenant servers that are dedicated to you and not shared in any part, including server resources, with other customers. |
-| [{{site.data.keyword.BluVirtServers_short}}](/docs/vsi/vsi_about.html) | Scalable virtual servers that are purchased with dedicated cores and memory allocations. |
-| [{{site.data.keyword.vmwaresolutions_short}}](/docs/services/vmwaresolutions/vmonic/prod_overview.html) | Quickly and seamlessly integrate or migrate on-premises VMware workloads by using scalable, secure, and high-performance infrastructure and the industry-leading VMware hybrid virtualization technology. |
-| [{{site.data.keyword.containerlong_notm}}](/docs/containers/cs_why.html) | Combines Docker containers, the Kubernetes technology, an intuitive user experience, and built-in security and isolation to automate the deployment, operation, scaling, and monitoring of containerized apps in a cluster of compute hosts. |
-| [{{site.data.keyword.cfee_full_notm}}](/docs/cloud-foundry/index.html) | Instantiate multiple, isolated, enterprise-grade Cloud Foundry platforms on demand. |
-| [{{site.data.keyword.openwhisk_short}}](/docs/openwhisk/index.html) | A Functions-as-a-Service (FaaS) programming platform based on Apache OpenWhisk. |
+| [{{site.data.keyword.baremetal_short}}](/docs/bare-metal?topic=bare-metal-getting-started)  | Hourly or monthly, single-tenant servers that are dedicated to you and not shared in any part, including server resources, with other customers. |
+| [{{site.data.keyword.BluVirtServers_short}}](/docs/vsi?topic=virtual-servers-getting-started-with-virtual-servers) | Scalable virtual servers that are purchased with dedicated cores and memory allocations. |
+| [{{site.data.keyword.vmwaresolutions_short}}](/docs/services/vmwaresolutions?topic=vmware-solutions-getting-started-with-ibm-cloud-for-vmware-solutions) | Quickly and seamlessly integrate or migrate on-premises VMware workloads by using scalable, secure, and high-performance infrastructure and the industry-leading VMware hybrid virtualization technology. |
+| [{{site.data.keyword.containerlong_notm}}](/docs/containers?topic=containers-container_index) | Combines Docker containers, the Kubernetes technology, an intuitive user experience, and built-in security and isolation to automate the deployment, operation, scaling, and monitoring of containerized apps in a cluster of compute hosts. |
+| [{{site.data.keyword.cfee_full_notm}}](/docs/cloud-foundry?topic=cloud-foundry-about) | Instantiate multiple, isolated, enterprise-grade Cloud Foundry platforms on demand. |
+| [{{site.data.keyword.openwhisk_short}}](/docs/openwhisk?topic=cloud-functions-index) | A Functions-as-a-Service (FaaS) programming platform based on Apache OpenWhisk. |
 {: caption="Table 1. Compute options" caption-side="top"}
 
 ## Building applications
 {: #build-apps}
 
-Whether you have [existing code](/docs/apps/tutorials/tutorial_byoc.html) that you want to modernize and bring to the cloud or you're developing a [brand new application](/docs/apps/tutorials/tutorial_starter-kit.html), your developers can tap into the rapidly growing ecosystem of available services and runtime frameworks in {{site.data.keyword.Bluemix_notm}}.
+Whether you have [existing code](/docs/apps/tutorials?topic=creating-apps-code-repo) that you want to modernize and bring to the cloud or you're developing a [brand new application](/docs/apps/tutorials?topic=creating-apps-tutorial-starterkit), your developers can tap into the rapidly growing ecosystem of available services and runtime frameworks in {{site.data.keyword.Bluemix_notm}}.
 
 [Programming guides](https://cloud.ibm.com/docs/home/build){: new_window} ![External link icon](../icons/launch-glyph.svg "External link icon") are available per language to help you get up and running. You have many options for hosting your apps with {{site.data.keyword.Bluemix_notm}} infrastructure from {{site.data.keyword.baremetal_short}} to running as a serverless function.
 
 ## Connecting services
 {: #connect-services}
 
-With over 190+ services to choose from in the catalog, you can build a tailored solution to fit your needs. You can also easily connect services to apps outside of {{site.data.keyword.Bluemix_notm}} if that fits your use case. You can generate a new set of credentials for cases in which you want to manually connect an external consumer to an {{site.data.keyword.Bluemix_notm}} service. For example, if you are trying to connect an app outside of {{site.data.keyword.Bluemix_notm}} to a Watson service, you generate a new credential that connects them together. It's that easy! For more information, see [Adding a credential](/docs/resources/service_credentials.html#service_credentials).
+With over 190+ services to choose from in the catalog, you can build a tailored solution to fit your needs. You can also easily connect services to apps outside of {{site.data.keyword.Bluemix_notm}} if that fits your use case. You can generate a new set of credentials for cases in which you want to manually connect an external consumer to an {{site.data.keyword.Bluemix_notm}} service. For example, if you are trying to connect an app outside of {{site.data.keyword.Bluemix_notm}} to a Watson service, you generate a new credential that connects them together. It's that easy! For more information, see [Adding a credential](/docs/resources?topic=resources-service_credentials).
 
 ## Setting up your account
 
@@ -77,11 +75,11 @@ If you're just trying out {{site.data.keyword.Bluemix_notm}}, you can go straigh
 * Resource groups for organizing your resources to make assigning access to a set of resources quick and easy.
 * Access policies for your access groups or individual developers who need IAM access policies or Cloud Foundry org and space roles.
 
-For more information, see the [best practices for setting up your account](/docs/account/bp_account.html#account_setup) and [best practices for assigning access](/docs/iam/bp_access.html). Also, if you're ready to dive in, see [account hierarchy](/docs/account/account_overview.html#overview) for more details.
+For more information, see the [best practices for setting up your account](/docs/account?topic=account-account_setup) and [best practices for assigning access](/docs/iam?topic=iam-account_setup). 
 
 ## Pricing and billing
 
-Regardless of your account type, you can explore {{site.data.keyword.Bluemix_notm}} by using Lite plans for the services that provide free quota. When you're choosing a service from the catalog and you select a tile, if there are different types of available plans you can see details about pricing information. If you choose a service plan with a paid plan, you can estimate your costs by using the cost estimator tool. For more information, see [Estimating your costs](/docs/billing-usage/estimating_costs.html#cost).
+Regardless of your account type, you can explore {{site.data.keyword.Bluemix_notm}} by using Lite plans for the services that provide free quota. When you're choosing a service from the catalog and you select a tile, if there are different types of available plans you can see details about pricing information. If you choose a service plan with a paid plan, you can estimate your costs by using the cost estimator tool. For more information, see [Estimating your costs](/docs/billing-usage?topic=billing-usage-cost).
 
 {{site.data.keyword.Bluemix_notm}} billing provides multiple services that ensure the {{site.data.keyword.Bluemix_notm}} platform can securely manage pricing, accounts, usage, and more.
 
@@ -105,16 +103,10 @@ With usage metering, service providers can submit metrics that are collected for
 
 Usage reports return the summary for the account for the specified month. Account billing managers are authorized to access the reports.
 
-<!-- staging only 
-### Order management
-{: #order}
-
-Order management manages the lifecycle of Orders and Line Items. It is responsible for processing Orders and Line Item from different billing systems such as DSW, GAIA, and IMS. It also fuels `whiskey`, which is Operation Dashboard for {{site.data.keyword.Bluemix_notm}} Orders. -->
-
 ## {{site.data.keyword.Bluemix_notm}} catalog
 {: #catalog}
 
-The {{site.data.keyword.Bluemix_notm}} catalog stores the offering definitions (description, features, images, URLs, and so on) of the resources that are available in the {{site.data.keyword.Bluemix_notm}} console. Offerings are managed across geographies as the system of record. The catalog supports command-line interfaces (CLIs) and a RESTful API where users can retrieve information about existing offerings and create, manage, and delete their resources. For more information, see [Managing the catalog](/docs/overview/catalog.html#global-catalog-overview).
+The {{site.data.keyword.Bluemix_notm}} catalog stores the offering definitions (description, features, images, URLs, and so on) of the resources that are available in the {{site.data.keyword.Bluemix_notm}} console. Offerings are managed across geographies as the system of record. The catalog supports command-line interfaces (CLIs) and a RESTful API where users can retrieve information about existing offerings and create, manage, and delete their resources. For more information, see [Managing the catalog](/docs/overview?topic=overview-manage-catalog).
 
 ## Creating resources
 {: #provisioning-layer}
@@ -131,12 +123,12 @@ The resource controller provides common APIs to control the lifecycle of resourc
 ## Managing your resources
 {: #resource-manager}
 
-A collection of resources is managed by [resource groups](/docs/overview/resource-groups.html#whatis). A resource group is associated with your account. All {{site.data.keyword.Bluemix_notm}} resources must be assigned to a resource group. When you create an account, a default resource group is created for you. All {{site.data.keyword.Bluemix_notm}} IAM-enabled resources must be provisioned within a resource group. If you have a Lite account, you can have only one resource group. If you have a Pay-As-You-Go or Subscription account, you can create more than one resource group. If an account is suspended, the corresponding resource group is suspended as well, and all resources within the resource group are suspended. 
+A collection of resources is managed by [resource groups](/docs/overview?topic=overview-whatis-rgs). A resource group is associated with your account. All {{site.data.keyword.Bluemix_notm}} resources must be assigned to a resource group. When you create an account, a default resource group is created for you. All {{site.data.keyword.Bluemix_notm}} IAM-enabled resources must be provisioned within a resource group. If you have a Lite account, you can have only one resource group. If you have a Pay-As-You-Go or Subscription account, you can create more than one resource group. If an account is suspended, the corresponding resource group is suspended as well, and all resources within the resource group are suspended. 
 
 ## Searching and tagging resources
 {: #search-and-tag}
 
-The search service is a global and shared resource properties repository that is integrated within the {{site.data.keyword.Bluemix_notm}} platform. It is used for storing and searching a cloud resource's attributes, and it categorizes and classifies resources. Resources are uniquely identified by a [Cloud Resource Name (CRN)](/docs/overview/crn.html#crn) identifier. The properties of a resource include tags and system properties. Both properties are defined within an {{site.data.keyword.Bluemix_notm}} billing account, and span across many regions.
+The search service is a global and shared resource properties repository that is integrated within the {{site.data.keyword.Bluemix_notm}} platform. It is used for storing and searching a cloud resource's attributes, and it categorizes and classifies resources. Resources are uniquely identified by a [Cloud Resource Name (CRN)](/docs/overview?topic=overview-crn) identifier. The properties of a resource include tags and system properties. Both properties are defined within an {{site.data.keyword.Bluemix_notm}} billing account, and span across many regions.
 
 This service also manages tags that are associated with a resource. You can create, delete, search, attach, or detach tags with the Tagging API. Tags are uniquely identified by a CRN identifier. Tags have a name, which must be unique within a billing account. You can create tags in key:value pairs or label format.
 

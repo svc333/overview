@@ -15,7 +15,7 @@ lastupdated: "2018-11-30"
 {:tip: .tip}
 
 # {{site.data.keyword.Bluemix_notm}} platform service CLIs and APIs
-{: #cli_api}
+{: #platform-svc-cli-api}
 
 The {{site.data.keyword.cloud}} platform is composed of multiple components that work together to provide you with a consistent cloud experience.
 {: shortdesc}

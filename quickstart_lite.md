@@ -2,9 +2,9 @@
 
 copyright:
 
-  years: 2018
+  years: 2018, 2019
 
-lastupdated: "2018-11-14"
+lastupdated: "2019-02-18"
 
 ---
 
@@ -22,12 +22,12 @@ Looking to try out {{site.data.keyword.Bluemix}}? A Lite account is great for le
 {:shortdesc}  
 
 ## Before you begin
-{: #prereqs}
+{: #prereqs-lite}
 
 Go to [{{site.data.keyword.Bluemix_notm}}](https://{DomainName}) and create a Lite account. It's free and never expires.
 
 ## Quick start steps
-{: #steps}
+{: #steps-lite}
 
 1. Explore the catalog for offerings that include free [Lite service plans ![External link icon](../icons/launch-glyph.svg "External link icon")](https://{DomainName}/catalog/?search=label:lite){: new_window}.
   
@@ -39,7 +39,7 @@ Go to [{{site.data.keyword.Bluemix_notm}}](https://{DomainName}) and create a Li
 
 
 ## Next steps
-{: #nextsteps}
+{: #nextsteps-lite}
 
 Discover being a developer in {{site.data.keyword.Bluemix_notm}} at [Explore the developer journey in {{site.data.keyword.Bluemix_notm}}](/docs/overview/dev-journey.html#dev-journey). 
 

@@ -2,9 +2,9 @@
 
 copyright:
 
-  years: 2018
+  years: 2018, 2019
 
-lastupdated: "2018-11-28"
+lastupdated: "2019-02-18"
 
 ---
 
@@ -33,6 +33,7 @@ All {{site.data.keyword.Bluemix_notm}} resources are hosted in data center locat
 Disaster recovery is about surviving a catastrophic failure or loss of availability in a single location. To ensure disaster recovery is in place, it's necessary to deploy several {{site.data.keyword.Bluemix_notm}} environments in multiple locations to avoid single points of failure. These environments can be a combination of Public, Dedicated, or Local platforms.  
 
 ### Disaster recovery plan 
+{: #dr-plan}
 
 {{site.data.keyword.Bluemix_notm}} follows requirements for planning for a disaster, and every application has a plan for you to recover or restart after a disaster event. Recovery is from electronic backups at a recovery center or alternate computing facilities that restore computing. Before any potential disaster, the disaster recovery plan includes the systems and hosting requirements for hardware, software, networking connectivity, and offsite backup capabilities.
 
@@ -45,6 +46,7 @@ The following list includes the requirements of the disaster recovery plan:
 - The disaster recovery plan specifies the security controls for running in Disaster mode, if they are different from what's running in production. 
 
 ### Management of the disaster recovery plan 
+{: #dr-plan-mgmt}
 
 The requirements that {{site.data.keyword.Bluemix}} follows are: 
 
@@ -177,6 +179,7 @@ For more information about dedicated environments, see [IBM Cloud Dedicated](/do
 The complete Service Description for {{site.data.keyword.Bluemix_notm}} is available at [Cloud Services terms](http://www-03.ibm.com/software/sla/sladb.nsf/sla/bm){: new_window} ![External link icon](../icons/launch-glyph.svg "External link icon").
 
 ### Availability downtime SLA 
+{: #avail-downtime}
 
 You're eligible for a credit toward your account if you experience downtime less than the 99.5% availability. Availability downtime is the total minutes you're unable to connect to any of your service instances. Total downtime minutes start when you submit a report for the outage event and end when at least one of the affected instances is available for use.
 
@@ -184,7 +187,7 @@ You're eligible for a credit toward your account if you experience downtime less
 - Cloud services in the public environment that are configured for high availability as described in the catalog details for each service. 
 - Cloud services across several dedicated or local environments in geographically separated data centers. 
 
-| Type	                                                                        | Description	       | Support Details|
+| Type	 | Description	       | Support Details|
 |-------------------------------------------------------------------------------|--------------------|----------------|
 | High Availability Public Environment or Multiple Dedicated/Local Environments | Other Environments | Credit         |
 | <99.95%                                                                       |<99.5%              |10%             |
@@ -207,6 +210,7 @@ The availability downtime SLA doesn't include {{site.data.keyword.Bluemix_notm}}
 {: note}
 
 ### Infrastructure services SLAs
+{: #iaas-slas}
 
 Infrastructure services are bare metal and virtual servers, networking, storage, and security services. To find a complete list of infrastructure services, search the {{site.data.keyword.Bluemix_notm}} catalog with the tag `iaas`. 
 
@@ -215,6 +219,8 @@ Downtime is the total minutes a customer-identified infrastructure service is un
 Downtime doesn't include time for scheduled or announced maintenance. For each 30 continuous minute period of downtime, you receive a credit in the amount of 5% of the monthly charges for the identified services that are directly impacted by the outage. You're not eligible for a credit if the downtime is less than 30 continuous minutes. Downtime for different outage types might not be combined to meet this calculation. 
 
 ### Infrastructure hardware replacement and upgrade SLA
+{: #hw-replaceupgrade-sla}
+
 {{site.data.keyword.Bluemix_notm}} tries to minimize downtime when replacing failed hardware or when performing a scheduled hardware upgrade. 
 
 {{site.data.keyword.Bluemix_notm}} provides credit for: 
@@ -235,6 +241,8 @@ Service level time periods exclude any time that is required to reload the opera
 {: caption="Table 7. Credit based on the monthly charge for the service that is affected by the hardware replacement or upgrade" caption-side="top"}
 
 ### Claims
+{: #claims}
+
 Submit your claim within 60 days of the end of the contracted month that the service level was missed. Provide sufficient information to identify the affected service, error messages, and other information necessary to validate the claim. 
 
 The credit will be the highest applicable compensation based on the cumulative availability of the affected service during a contracted month and calculated using the monthly charges for such affected service. Credits cannot exceed 25% of monthly charge.
@@ -242,6 +250,8 @@ The credit will be the highest applicable compensation based on the cumulative a
 To submit a claim for downtime, contact [{{site.data.keyword.Bluemix_notm}} Support](https://console.cloud.ibm.com/unifiedsupport/supportcenter){: new_window} ![External link icon](../icons/launch-glyph.svg "External link icon").
 
 ### Exclusions
+{: #exclusions}
+
 No credits are given for failure to meet an SLA because of:
 - Problems with Customer or community provided content, technology, designs, or instructions
 - Beta, experimental, or no-charge Cloud services.

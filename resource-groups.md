@@ -2,14 +2,14 @@
 
 copyright:
   years: 2017, 2019
-lastupdated: "2019-01-04"
+lastupdated: "2019-02-18"
 
 ---
 
 {:shortdesc: .shortdesc}
 
 # Organizing resources in resource groups
-{: #whatis}
+{: #whatis-rgs}
 
 A resource group is a way for you to organize your account [resources](/docs/resources/acct_resources.html#resource) in customizable groupings so that you can quickly assign users access to more than one resource at a time. Any account resource that is managed by using {{site.data.keyword.Bluemix}} Identity and Access Management (IAM) access control belongs to a resource group within your account. When you add a resource to your account from the catalog, you can assign the resource to a resource group. The only exception is Kubernetes, which doesn't prompt you for a resource group assignment, but access to the service is controlled by using IAM roles.
 

@@ -4,7 +4,7 @@ copyright:
 
   years: 2017, 2019
 
-lastupdated: "2019-01-04"
+lastupdated: "2019-02-18"
 
 keywords: crn, cloud resource name
 
@@ -21,13 +21,13 @@ subcollection: overview
 # Cloud Resource Names
 {: #crn}
 
-Cloud Resource Names (CRNs) uniquely identify {{site.data.keyword.Bluemix_notm}} resources. A CRN is used to specify a resource in a way that is unambiguous and guaranteed to be globally unique, such as in {{site.data.keyword.Bluemix_notm}} Identity and Access Management (IAM) policies and services listed in the cloud catalog.
+Cloud Resource Names (CRNs) uniquely identify {{site.data.keyword.Bluemix}} resources. A CRN is used to specify a resource in a way that is unambiguous and guaranteed to be globally unique, such as in {{site.data.keyword.Bluemix_notm}} Identity and Access Management (IAM) policies and services listed in the cloud catalog.
 
 A CRN is formed from a concatenation of "segments" that hierarchically identify the resource, its location, and the service it belongs to. The segment delimiter is set to ':' (the colon character). All CRNs begin with the segment identifier 'crn'.
 
 
 ## CRN Format
-{: #format}
+{: #format-crn}
 
 The base canonical format of a CRN is:
 
@@ -35,30 +35,30 @@ The base canonical format of a CRN is:
 
 
 ## version
-{: #version}
+{: #version-crn}
 
 The `version` segment identifies the version of the CRN format. Currently, the only valid version segment value is **v1**.
 
 
 ## cname
-{: #cname}
+{: #cname-crn}
 
 The `cname` segment identifies the cloud instance and is an alphanumeric identifier that uniquely identifies the cloud instance that contains the resource. A `cname` effectively identifies an independent control plane that owns the identified resource. The `cname` must be `bluemix` for {{site.data.keyword.Bluemix_notm}} users.
 
 
 ## ctype
-{: #ctype}
+{: #ctype-crn}
 
 The `ctype` segment identifies the type of cloud instance that is represented by the specified `cname`.
 
->Valid values:
+Valid values:
   - public - All services that are available from the public catalog.
   - dedicated - Only for current {{site.data.keyword.Bluemix_notm}} dedicated environments.
   - local - All services that are deployed locally in your own environment.
 
 
 ## service-name
-{: #service-name}
+{: #service-name-crn}
 
 The `service-name` segment uniquely identifies a capability (service, component, product) being offered by the cloud. The capability can be a user provided service such as with the services that are listed in the {{site.data.keyword.Bluemix_notm}} catalog, or an internal architectural component critical to the {{site.data.keyword.Bluemix_notm}} functionality.
 
@@ -68,17 +68,19 @@ For services that are registered into the {{site.data.keyword.Bluemix_notm}} cat
 
 
 ## location
-{: #location}
+{: #location-crn}
 
 The cloud geography/region/zone/data center that the resource resides in.
 
 The `location` must be one of the following values:
 
 ### Global
+{: #global-crn}
 
  * `global`
 
 ### Geographies
+{: #geos-crn}
 
  * `us`
  * `eu`
@@ -86,6 +88,7 @@ The `location` must be one of the following values:
  * `ap`
 
 ### Regions
+{: #regions-crn}
 
  * `us-south`
  * `us-east`
@@ -93,7 +96,8 @@ The `location` must be one of the following values:
  * `eu-gb`
  * `eu-de`
 
-### Data Centers
+### Data centers
+{: #dc-crn}
 
 
 | | | | | |
@@ -112,7 +116,7 @@ Some resources do not require a region (they can be considered `global`). In thi
 
 
 ## scope
-{: #scope}
+{: #scope-crn}
 
 The `scope` segment identifies the containment or owner of the resource. Some resources do not require an owner (they can be considered `global`). In this case, the `scope` segment is empty (a blank string).
 
@@ -128,7 +132,7 @@ The value of the `scope` segment must be formatted as `{scopePrefix}`/`{id}`. Th
 
 
 ## service-instance
-{: #service-instance}
+{: #service-instance-crn}
 
 The `service-instance` segment identifies the service instance uniquely. The format of the `service-instance` segment varies by service. Each service must document the format of their `service_instance` as part of their service metadata. Some services do not have instances because the instance is global and in this case the `service-instance` field will be blank.
 
@@ -145,7 +149,7 @@ ibmcloud resource service-instance
 {: codeblock}
 
 ## resource-type, resource
-{: #resource-type}
+{: #resource-type-crn}
 
 The value of the `resource-type` and `resource` segments vary by service. A service is required to document their supported `resource types` and the format of the `resource` as part of their service metadata.
 
