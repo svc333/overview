@@ -4,7 +4,7 @@ copyright:
 
   years: 2018, 2019
 
-lastupdated: "2019-01-02"
+lastupdated: "2019-02-18"
 
 ---
 
@@ -24,12 +24,12 @@ See [Exploring the developer journey in {{site.data.keyword.cloud_notm}}](/docs/
 {: tip}
 
 ## Before you begin
-{: #prereqs}
+{: #prereqs-dev}
 
 Create a Pay-As-You-Go or Subscription account to get full access to all offerings in the catalog, including offerings with free service plans. 
 
 ## Quick start steps
-{: #steps}
+{: #steps-dev}
  
 1. [Install and set up](/docs/home/tools) the {{site.data.keyword.Bluemix_notm}} command line interface (CLI). 
 2. To begin coding, complete the following steps:
@@ -40,7 +40,7 @@ Create a Pay-As-You-Go or Subscription account to get full access to all offerin
 4. Use the Menu icon ![Menu icon](../icons/icon_hamburger.svg) **> Resource List** to see all apps and resources for your account on one screen or the Menu icon ![Menu icon](../icons/icon_hamburger.svg) **> Dashboard** to get an at-a-glance summary of your {{site.data.keyword.Bluemix_notm}} environment.
 
 ## Next steps
-{: #nextsteps}
+{: #nextsteps-dev}
 
 * Explore the offerings in the [catalog](https://{DomainName}/catalog){: new_window} ![External link icon](../icons/launch-glyph.svg) that you can use to build or enhance your app.
 * If you're interested in a specific service or implementation, check out the [solution tutorials](/docs/tutorials/index.html#tutorials) that are available to get you up and running.
