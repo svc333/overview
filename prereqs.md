@@ -2,8 +2,8 @@
 
 
 copyright:
-  years: 2016, 2018
-lastupdated: "2018-11-28"
+  years: 2016, 2019
+lastupdated: "2019-02-18"
 
 ---
 
@@ -12,13 +12,13 @@ lastupdated: "2018-11-28"
 {:new_window: target="_blank"}
 
 # Prerequisites
-{: #prereqs}
+{: #prereqs-platform}
 
 The prerequisites for using the {{site.data.keyword.Bluemix_notm}} platform are limited, but we do have a few.
 {:shortdesc}
 
 ## Browsers
-{: #browsers}
+{: #browsers-platform}
 
 The following list specifies the minimum required browser software for {{site.data.keyword.Bluemix_notm}}:
 
@@ -32,6 +32,6 @@ You can report issues about Internet Explorer 11 through our **Feedback** button
 {:note}
 
 ## Command Line Interface (CLI)
-{: #cli}
+{: #cli-platform}
 
 The {{site.data.keyword.Bluemix_notm}} CLI is constantly changing so it is recommended to go to [Installing the stand-alone {{site.data.keyword.Bluemix_notm}} CLI](/docs/cli/reference/ibmcloud/download_cli.html) page, which always points to the latest version for download and install.
