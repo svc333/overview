@@ -4,7 +4,7 @@ copyright:
 
   years: 2018, 2019
 
-lastupdated: "2019-01-02"
+lastupdated: "2019-02-18"
 
 ---
 
@@ -37,7 +37,7 @@ This quick start guide is intended to help account admins set up their {{site.da
   b. Enter the configuration details, select your pricing plan, and click **Add to estimate**.
 
 ## Next steps
-{: #next-steps}
+{: #next-steps-acc-ad}
 
 * Start creating services within the account to enable your organization and developers to build the solutions they need.  
 * Create tags and tag your resources to help organize how you view billing and usage. This makes it easier to identify chargebacks to different organizations. For more information, see [Best practices for tagging resources](/docs/account/bp_account.html#tags). 
