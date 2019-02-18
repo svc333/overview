@@ -2,9 +2,9 @@
 
 copyright:
 
-  years: 2017, 2018
+  years: 2017, 2019
 
-lastupdated: "2018-11-05"
+lastupdated: "2019-02-18"
 
 ---
 
@@ -24,6 +24,7 @@ The way that you manage access in {{site.data.keyword.Bluemix_notm}} depends on 
 If you have a combination of resource types, you manage each type separately. For assigning access to your [classic infrastructure resources](/docs/iam/infrastructureaccess.html#infrapermission), you set permissions within **Manage** > **Access (IAM)** on the Classic infrastructure tab for the user that you want to assign access. For assigning access to [Cloud Foundry resources](/docs/iam/cfaccess.html#cfaccess), you assign users to orgs and set Cloud Foundry org and space access roles within **Manage** > **Access (IAM)** on the Cloud Foundry tab for the user that you want to assign access.
 
 ## Permissions for managing access
+{: #perms-manageaccess}
 
 As an account owner, you can manage access to all resources in your account. You can also delegate the task of managing access to platform resources by assigning a user in your account the administrator role for all services, just the specific service, or the resource group that you want that user to manage.
 
@@ -31,6 +32,7 @@ If you have Cloud Foundry services in your account, you can assign another user 
 
 
 ## Getting started
+{: #cloudaccess-getstarted}
 
 Go to **Manage** &gt; **Access (IAM)**, and then select **Users** to start managing access for users in your account. Select a user from the list to get started. You see only the access management options that you have permission to manage. For example, if you are not the account owner and you are not an organization or space manager, you do not see the option to manage Cloud Foundry access.
 
