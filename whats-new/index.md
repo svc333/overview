@@ -4,7 +4,7 @@ copyright:
 
   years: 2015, 2019
 
-lastupdated: "2019-01-22"
+lastupdated: "2019-02-18"
 
 ---
 
@@ -86,6 +86,7 @@ To help you decide and analyze what services you'd like to purchase, you can use
 
 ### Updated global location names for {{site.data.keyword.cloud_notm}}
 New as of: 1 November 2018
+{: #location-name-updates}
 
 As {{site.data.keyword.cloud_notm}} continues to expand our global availability footprint, we’re updating our location naming structure to better support an understandable, consistent hierarchy of geographies, regions, and data centers around the world. If you’re familiar with our current global regions, you’ll recognize names like US South and Sydney. We’re aligning these location names to the names of the city in which the data centers physically exist.
 
@@ -103,6 +104,7 @@ For now, the programmatic IDs are not changing, so there’s no impact from an A
 
 ### Assign account management access to others
 New as of: 30 October 2018
+{: #acct-mgmt-services}
 
 With {{site.data.keyword.cloud_notm}} Identity and Access Management (IAM), you can delegate common tasks that you complete as an account administrator to another user in your account. By creating an access policy on one or all of the available account management services, you can easily delegate responsibilities such as inviting and removing users, managing access groups, managing service IDs, maintaining private catalog services, and even monitoring billing and tracking usage. There are four individual account management services and an all services option that you can use to set up access policies:
 
@@ -112,37 +114,42 @@ With {{site.data.keyword.cloud_notm}} Identity and Access Management (IAM), you 
 * Global resource catalog for viewing private catalog offerings and updating the metadata and visibility for the offerings
 * All account management services for access to each of the individual account management service options based on the assigned role as well as access to billing and usage tracking.
 
-
 For more information on the tasks that a user can do based on which account management service they have a policy on and which role they are assigned, see [Example platform management roles and actions for account management services](/docs/iam/users_roles.html#platformrolestable2). For more information about this new feature, see the [Introducing More Flexibility and Control for IBM Cloud Account Management Services Access](https://www.ibm.com/blogs/bluemix/2018/11/introducing-more-flexibility-and-control-for-ibm-cloud-account-management-services-access/){: new_window} ![External link icon](../../icons/launch-glyph.svg "External link icon") blog post. 
 
 
 ### Searching for resources
 New as of: 17 July 2018
+{: #forward-slash-key}
 
 You can search for resources from anywhere in the {{site.data.keyword.cloud_notm}} console. Type the name of a resource in the search field in the console menu bar. Press the Forward Slash key (/) to activate the search.
 
 ### Dynamically add federated users to access groups
 New as of: 12 July 2018
+{: #add-fed-users}
 
 You can create dynamic rules to automatically add federated users to access groups based on specific identity attributes. When your users log in with a federated ID, the data from the identity provider dynamically maps your users to an access group based on the rules that you set. For more information, see [Creating dynamic rules for access groups](/docs/iam/accessgroup_rules.html#creating-dynamic-rules-for-access-groups).
 
 ### Protect your service IDs and API keys
 New as of: 1 June 2018
+{: #protect-svcid-apikey}
 
 To avoid a situation where your service ID or API key is deleted causing an outage or disruption, you can lock service IDs and API keys by using the UI or CLI. Locking a service ID also prevents any access policies from being changed, deleted, or assigned as well as any API keys associated with the service ID from being created or deleted. For more information, see [Locking a service ID](/docs/iam/serviceid.html#locking-a-service-id) and [Locking an API key](/docs/iam/userid_keys.html#locking-an-api-key).
 
 ### Upgrade your Lite account to a Subscription account
 New as of: 31 May 2018
+{: #upgrade-lite}
 
 You can now upgrade your Lite account to a Subscription account directly from the {{site.data.keyword.Bluemix_notm}} console. With a Subscription account, you can use both platform and infrastructure offerings, and take advantage of discounted pricing by making a monthly spending and term commitment. You can also avoid surprises with fixed billing on a monthly payment schedule, but with the flexibility to order more or less based on your needs. For more information, see [Subscription account FAQS](/docs/billing-usage/billing-faq.html#subscription-faqs). 
 
 ### {{site.data.keyword.Bluemix_notm}} CLI rebranding
 New as of: 15 May 2018
+{: #cli-rebrand}
 
 The {{site.data.keyword.Bluemix_notm}} CLI commands have changed from `bluemix` and `bx` to **ibmcloud**. However, you can still use the `bluemix` and `bx` CLI commands until they are removed later. There is no short name now, just the full name **ibmcloud**. 
 
 ### Multi-factor authentication for your {{site.data.keyword.Bluemix_notm}} account
 New as of: 02 May 2018
+{: #account-mfa}
 
 Multi-factor authentication (MFA) adds an extra layer of security to your account by requiring all users to provide a time-based one-time passcode in addition to their standard IBMid and password during login. This is also commonly known as two-factor authentication (2FA). MFA is enabled per account, and once it is turned on, all users in the account are required to log in by using the extra security measure.
 
@@ -150,32 +157,38 @@ For more information, see the [IBM Cloud Platform now adds support for Multi-Fac
 
 ### Assign access quickly by using access groups
 New as of: 03 April 2018
+{: #access-groups}
 
 Do you want to be able to assign access quickly by using the least number of policies possible? Now you can with access groups. Access groups enable you to group a set of users and service IDs together and assign a single policy that applies to all members of the group. By using access groups, you can limit the time that you spend managing access to the users and service IDs in your account. Check out the blog post [New feature: Access groups](https://www.ibm.com/blogs/bluemix/2018/04/access-groups/){: new_window} ![External link icon](../../icons/launch-glyph.svg "External link icon") for more details.
 
 ### SoftLayer and {{site.data.keyword.Bluemix_notm}} account linking
 New as of:  01 March 2018
+{: #account-completion}
 
 You can link your SoftLayer account to your {{site.data.keyword.Bluemix_notm}} account to log in to a single location, the {{site.data.keyword.Bluemix_notm}} console, and access both infrastructure as a service (IaaS) and platform as a service (PaaS) resources. If you're new to {{site.data.keyword.Bluemix_notm}}, create and link an account to get a free {{site.data.keyword.Bluemix_notm}} Lite account. Or, if you already have an {{site.data.keyword.Bluemix_notm}} account with PaaS resources, link your accounts to receive a single bill for both your IaaS and PaaS resources. Check out [Steps to Link your IaaS and PaaS Accounts](https://www.ibm.com/blogs/bluemix/2018/03/follow-steps-link-iaas-paas-accounts/){: new_window} ![External link icon](../../icons/launch-glyph.svg "External link icon") to quickly link your accounts.
 
 
 ### {{site.data.keyword.Bluemix_notm}} Foundry Service US East region is now available
 New as of:  15 December 2017
+{: #cf-useast}
 
 A new US East data center is now available in Washington, DC. This new region can be reached using the `us-east.cloud.ibm.com` endpoint. For details on the services that are available for purchase in this new region, see [Services by region](/docs/resources/services_region.html#services_region).
 
 ### Support for resources in the European Union
 New as of: 14 December 2017
+{: #eu-resources}
 
 If your services and data centers are located in Europe, {{site.data.keyword.Bluemix_notm}} now offers extra capabilities to protect your data in the European Union. You can request that support is provided by customer success teams that are located in Europe. This support is available 24 hours a day, 7 days a week. See [Enabling the EU supported option](/docs/billing-usage/eusupported.html#bill_eusupported) and [Requesting support for resources in the European Union](/docs/get-support/howtogetsupport.html#eusupported) for more information.
 
 ### Withdrawal of support for TLS 1.0 and 1.1
 New as of: 28 November 2017
+{: #nosupport-tls}
 
 On 1 March 2018 {{site.data.keyword.Bluemix_notm}} will withdraw support for TLS 1.0 and TLS 1.1 across many of our cloud products and services as part of our commitment to offering a cloud that is secure to the core and in alignment with industry best practices for security and data privacy. To learn more about how this change affects you and what actions you might need to take, see [Withdrawal of support for TLS 1.0 and 1.1](/docs/troubleshoot/appsectls.html).
 
 ### A new way to organize resources within your account
 New as of: 16 November 2017
+{: #usergs}
 
 Resource groups are a new way for you to create customizable groupings of account resources, and access to the group and the resources within it are managed by using Identity and Access Management (IAM). Everyone starts out with a default resource group. You can rename this resource group and add new service instances to it as you create them from the catalog.
 
