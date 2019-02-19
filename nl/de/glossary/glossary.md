@@ -2,8 +2,8 @@
 
 
 copyright:
-  years: 2016, 2018
-lastupdated: "2018-10-16"
+  years: 2016, 2019
+lastupdated: "2019-02-08"
 
 
 ---
@@ -11,7 +11,7 @@ lastupdated: "2018-10-16"
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
 
-# Glossareinträge für {{site.data.keyword.cloud_notm}} 
+# Glossareinträge für {{site.data.keyword.cloud_notm}}
 {: #glossary}
 
 In diesem Glossar werden Begriffe und Definitionen für {{site.data.keyword.cloud_notm}} bereitgestellt.
@@ -22,7 +22,7 @@ Folgende Querverweise werden in diesem Glossar verwendet:
 - *Siehe* verweist Sie von einem wenig verwendeten Begriff zu dem bevorzugten Begriff oder von einer Abkürzung auf die ausgeschriebene Form.
 - *Siehe auch* verweist auf einen verwandten oder gegensätzlichen Begriff.
 
-<!--If you do not want letter links at the top of your 
+<!--If you do not want letter links at the top of your
 glossary, delete the text between these comment tags.
 [A](#glossa)
 [B](#glossb)
@@ -34,6 +34,7 @@ glossary, delete the text between these comment tags.
 [H](#glossh)
 [I](#glossi)
 [J](#glossj)
+[K](#glossk)
 [L](#glossl)
 [M](#glossm)
 [N](#glossn)
@@ -45,6 +46,7 @@ glossary, delete the text between these comment tags.
 [U](#glossu)
 [V](#glossv)
 [W](#glossw)
+[Z](#glossz)
 
 -->
 
@@ -144,6 +146,12 @@ Ein Image, das nicht über ein übergeordnetes Image verfügt. Siehe auch [Image
 {: #x2051424}
 
 Eine Computerschnittstelle mit textbasierter Ein- und Ausgabe.
+
+### Benutzerhierarchie
+{: #userhierarchy}
+
+Eine Benutzerverwaltungsbeziehung für Benutzer der klassischen Infrastruktur, die andere Benutzer zu einem Konto einladen. Diese Benutzer laden dann ihrerseits wieder andere Benutzer zum Konto ein und so weiter. Wenn ein Benutzer der klassischen Infrastruktur einen anderen Benutzer zum Konto einlädt, wird der Benutzer der klassischen Infrastruktur zum übergeordneten Benutzer. Wenn ein dem übergeordneten Benutzer untergeordneter Benutzer andere Benutzer zum Konto einlädt, so werden diese Benutzer zu 'Nachkommen' des ursprünglichen übergeordneten Benutzers, der nun als ihr 'Vorfahre' gilt.
+
 
 ### Berechnung
 {: #x3723424}
@@ -457,6 +465,9 @@ Ein einfaches Datenaustauschformat, das auf der Objekt-Literal-Notation von Java
 Siehe [JavaScript Object Notation](#x3292165).
 
 
+## K
+{: #glossk}
+
 ### Kachel
 {: #x2092493}
 
@@ -566,7 +577,7 @@ Ein Eintrag, der für jeden im IBM Cloud-Katalog sichtbar ist. Öffentliche Ress
 ### Öffentliches Gateway
 {: #x9594389}
 
-Die Verbindung eines Teilnetzes mit allen zugeordneten virtuellen Serverinstanzen zum Internet. Ein öffentliches Gateway verwendet eine Netzadressumsetzung (Network Address Translation, NAT) des Typs 'Viele-zu-eins'. Dies bedeutet, dass mehrere Tausend virtueller Serverinstanzen mit privaten Adressen eine einzelne öffentliche IP-Adresse für die Kommunikation mit dem öffentlichen Internet verwewnden können.
+Die Verbindung eines Teilnetzes mit allen zugeordneten virtuellen Serverinstanzen zum Internet. Ein öffentliches Gateway verwendet eine Netzadressumsetzung (Network Address Translation, NAT) des Typs 'Viele-zu-eins'. Dies bedeutet, dass mehrere Tausend virtueller Serverinstanzen mit privaten Adressen eine einzelne öffentliche IP-Adresse für die Kommunikation mit dem öffentlichen Internet verwenden können.
 
 ### On-Premise
 {: #x6969434}
@@ -655,7 +666,7 @@ Ein definiertes geografisches Gebiet. Bei einer Region kann es sich um einen bes
 ### Registry
 {: #x2064940}
 
-Ein öffentliches oder nicht öffentliches Repository, das Images enthält, die für die Erstellung von Containern verwendet werden. Siehe auch [Container](#x2010901), [Image](#x2024928).
+Ein öffentliches oder privates Repository, das Images enthält, mit denen Container erstellt werden. Siehe auch [Container](#x2010901), [Image](#x2024928).
 
 ### Representational State Transfer (REST)
 {: #x3220976}
@@ -818,7 +829,6 @@ Siehe [Uniform Resource Identifier](#x2116436).
 
 Siehe [Uniform Resource Locator](#x2042491).
 
-
 ## V
 {: #glossv}
 
@@ -898,9 +908,6 @@ Siehe [Webanwendung](#x2116500).
 
 Ein durch den Java EE-Standard definiertes, komprimiertes Dateiformat zum Speichern aller zum Installieren und Ausführen einer Webanwendung erforderlichen Ressourcen in einer einzelnen Datei.
 
-## Z
-{: #glossz}
-
 ### Zeilengruppe
 {: #x2094743}
 
@@ -923,7 +930,7 @@ Eine unabhängige Fehlerdomäne. Bei einer Zone handelt es sich um eine Abstrakt
 ### Zugriffssteuerungsliste
 {: #x2012793}
 
-Eine Liste, von der der eingehende und ausgehende Datenverkehr für ein Teilnetz mithilfe von Regeln ohne Zustandsüberwachung verwaltet wird. Eine Zugriffssteuerungsliste dient zur Gewährleistung der Sicherheit auf Teilnetzebene.
+Eine Liste, von der der eingehende und abgehende Datenverkehr für ein Teilnetz mithilfe von Regeln ohne Zustandsüberwachung verwaltet wird. Eine Zugriffssteuerungsliste dient zur Gewährleistung der Sicherheit auf Teilnetzebene.
 
 ### Zugriffstoken
 {: #x2113001}

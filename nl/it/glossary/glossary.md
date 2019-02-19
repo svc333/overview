@@ -3,7 +3,7 @@
 
 copyright:
   years: 2016, 2019
-lastupdated: "2019-01-02"
+lastupdated: "2019-02-08"
 
 
 ---
@@ -700,7 +700,8 @@ Un territorio geografico definito. Una regione può essere una specifica area id
 ### registro
 {: #x2064940}
 
-Un servizio di archiviazione e distribuzione di immagini contenitore pubblico o privato. Vedi anche [contenitore](#x2010901), [immagine](#x2024928).
+Un repository pubblico o privato che contiene immagini utilizzate per creare
+contenitori. Vedi anche [contenitore](#x2010901), [immagine](#x2024928).
 
 ### Representational State Transfer (REST)
 {: #x3220976}

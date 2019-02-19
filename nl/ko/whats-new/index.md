@@ -162,7 +162,7 @@ lastupdated: "2019-01-22"
 ### {{site.data.keyword.Bluemix_notm}} Foundry Service 미국 동부 지역은 지금 사용 가능
 신규 기준일: 2017년 12월 15일
 
-새로운 미국 동부 데이터 센터가 워싱턴, DC에 있습니다. 이 새 지역은 `us-east.bluemix.net` 엔드포인트를 사용하여 도달할 수 있습니다. 이 새 지역에서 구매할 수 있는 서비스에 대한 자세한 정보는 [지역별 서비스](/docs/resources/services_region.html#services_region)를 참조하십시오.
+새로운 미국 동부 데이터 센터가 워싱턴, DC에 있습니다. 이 새 지역은 `us-east.cloud.ibm.com` 엔드포인트를 사용하여 도달할 수 있습니다. 이 새 지역에서 구매할 수 있는 서비스에 대한 자세한 정보는 [지역별 서비스](/docs/resources/services_region.html#services_region)를 참조하십시오.
 
 ### EU의 리소스에 대한 지원
 신규 기준일: 2017년 12월 14일
@@ -382,7 +382,7 @@ SAP Content Server는 임의 형식을 사용하고 임의 컨텐츠를 포함�
 SAP MaxDB는 SAP NetWeaver에 사용할 수 있습니다. 시작하려면 [{{site.data.keyword.cloud_notm}} SAP 인증 인프라 정보](/docs/infrastructure/sap-netweaver/sap-about.html#about_ibmcloud_for_sap)를 참조하십시오.
 
 #### SAP Business One
-SAP Business One은 중소기업용으로 특별히 디자인된 전사적 자원 관리(ERP) 소프트웨어입니다. 회계와 재무, 구매와 인벤토리, 영업과 고객 관계 및 프로젝트 관리와 운영과 같은 핵심 비즈니스 기능을 하나의 애플리케이션으로 통합합니다. 자세한 정보는 [시작하기](/docs/infrastructure/sap-b1/b1-index.html#getting-started)를 참조하십시오. 
+SAP Business One은 중소기업용으로 특별히 디자인된 전사적 자원 관리(ERP) 소프트웨어입니다. 회계와 재무, 구매와 인벤토리, 영업과 고객 관계 및 프로젝트 관리와 운영과 같은 핵심 비즈니스 기능을 하나의 애플리케이션으로 통합합니다. 자세한 정보는 [시작하기](/docs/infrastructure/sap-b1/b1-index.html#getting-started)를 참조하십시오.
 
 ### 가상 서버 기능
 신규 기준일: 2018년 11월 16일
@@ -436,7 +436,7 @@ SAP Business One은 중소기업용으로 특별히 디자인된 전사적 자�
 ### 새 Liberty for Java 빌드팩 v3.11
 신규 기준일: 2017년 7월 17일
 
-Liberty 빌드팩 v3.11은 새 월별 Liberty 런타임 버전을 제공하고 기타 개선사항을 포함합니다. 월별 Liberty 런타임 버전은 [2017.7.0.0](https://developer.ibm.com/wasdev/blog/2017/07/07/beta-websphere-liberty-tools-july-2017/) 릴리스로 업데이트되었습니다. IBM JDK는 8.0.4.7 및 7.1.4.5 버전으로 업데이트되었습니다. 빌드팩은 App Management 유틸리티 및 Auto-Scaling 에이전트의 업데이트된 버전도 제공합니다. 기본 Cloudant Library는 이제 공식 [java-cloudant](https://github.com/cloudant/java-cloudant)이며, [Ektorp library](https://github.com/helun/Ektorp)는 계속해서 옵션으로 사용 가능합니다. 이 변경사항에 대한 세부사항은 [블로그 게시물](https://www.ibm.com/blogs/bluemix/2017/05/default-library-change-cloudant-auto-wiring-liberty-buildpack/)을 참조하십시오. 애플리케이션의 메모리가 512MB 미만이면 이제 기본 힙 크기 비율은 50%가 되고, 512MB를 초과하면 기본 힙 크기 비율은 75%가 됩니다. 이제 새 스테이징 태스크 로그가 생성되므로 스테이징 오류를 더 쉽게 디버그할 수 있습니다. 추가 정보는 [최신 업데이트](https://console.ng.bluemix.net/docs/runtimes/liberty/updates.html) 문서를 참조하십시오.
+Liberty 빌드팩 v3.11은 새 월별 Liberty 런타임 버전을 제공하고 기타 개선사항을 포함합니다. 월별 Liberty 런타임 버전은 [2017.7.0.0](https://developer.ibm.com/wasdev/blog/2017/07/07/beta-websphere-liberty-tools-july-2017/) 릴리스로 업데이트되었습니다. IBM JDK는 8.0.4.7 및 7.1.4.5 버전으로 업데이트되었습니다. 빌드팩은 App Management 유틸리티 및 Auto-Scaling 에이전트의 업데이트된 버전도 제공합니다. 기본 Cloudant Library는 이제 공식 [java-cloudant](https://github.com/cloudant/java-cloudant)이며, [Ektorp library](https://github.com/helun/Ektorp)는 계속해서 옵션으로 사용 가능합니다. 이 변경사항에 대한 세부사항은 [블로그 게시물](https://www.ibm.com/blogs/bluemix/2017/05/default-library-change-cloudant-auto-wiring-liberty-buildpack/)을 참조하십시오. 애플리케이션의 메모리가 512MB 미만이면 이제 기본 힙 크기 비율은 50%가 되고, 512MB를 초과하면 기본 힙 크기 비율은 75%가 됩니다. 이제 새 스테이징 태스크 로그가 생성되므로 스테이징 오류를 더 쉽게 디버그할 수 있습니다. 추가 정보는 [최신 업데이트](/docs/runtimes/liberty/updates.html) 문서를 참조하십시오.
 
 ### 새 Liberty for Java 빌드팩 v3.10
 신규 기준일: 2017년 6월 12일
@@ -466,7 +466,7 @@ Liberty 빌드팩 v3.9는 새 월별 Liberty 런타임 버전을 제공하고 �
 {{site.data.keyword.appid_short_notm}}를 사용하면 모바일 및 웹 앱에 여러 다른 유형의 사용자 인증을 추가할 수 있습니다. 몇 행의 코드로 인증을 추가하고 사용자층에 따라 스케일링하기 위해 인프라를 관리하지 않아도 됩니다. 다음 개선사항을 확인하고 서비스를 직접 시도해 보십시오!
 
 다중 요소 인증: 이제 Cloud Directory에 이메일 기반 MFA를 사용할 수 있습니다. MFA가 작동으로 설정되어 있으면 사용자는 비밀번호 외에도 이메일을 통해 받은 일회성 코드를 제공하도록 요청을 받습니다. 소셜 로그인 또는 SAML 2.0을 사용하는 엔터프라이즈 로그인을 사용하는 경우 해당 ID 제공자를 통해 MFA를 사용할 수 있습니다.
-고급 비밀번호 정책: 고급 비밀번호 정책 기능을 사용하면 Cloud Directory에 보다 강력한 비밀번호를 적용할 수 있습니다. 비밀번호를 사용하는 규칙 세트가 사용자가 잠기기 전에 시도할 수 있는 로그인 횟수 또는 비밀번호를 반복할 수 없는 횟수와 같은 사항을 준수하도록 구성할 수 있습니다.
+고급 비밀번호 정책: 고급 비밀번호 정책 기능을 사용하면 Cloud Directory에 보다 강력한 비밀번호를 적용할 수 있습니다. 잠기기 전에 사용자가 시도할 수 있는 로그인 횟수 또는 비밀번호가 반복될 수 있는 횟수를 제한하는 비밀번호에 대한 규칙 세트를 구성할 수 있습니다.
 
 고급 보안 기능에는 추가 가격 컴포넌트가 있습니다. 가격 계산 방법에 관한 자세한 정보는 [카탈로그](https://cloud.ibm.com/catalog/services/app-id)의 가격 섹션을 참조하십시오.
 
@@ -552,7 +552,7 @@ Terraform 및 Ansible은 클라우드 솔루션 배치의 시작부터 끝까지
 ### {{site.data.keyword.iva_full_notm}} GA(General Availability) 소개
 신규 기준일: 2018년 6월 26일
 
-[{{site.data.keyword.iva_full}}](https://console.bluemix.net/catalog/services/voice-agent-with-watson)![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")이 이제 GA(Generally Available)되었습니다! 고객이 전화를 통해 호출하고 대화할 수 있는 Watson 서비스에 빌드된 코그너티브 음성 에이전트를 작성할 수 있습니다. 백본에서 Watson 인공 지능을 사용하면 음성 에이전트는 복잡한 상호작용을 처리하고 음성 에이전트 내의 고객 호출을 해결하여 대화식으로 통신할 수 있습니다.
+[{{site.data.keyword.iva_full}}](https://cloud.ibm.com/catalog/services/voice-agent-with-watson)![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")이 이제 GA(Generally Available)되었습니다! 고객이 전화를 통해 호출하고 대화할 수 있는 Watson 서비스에 빌드된 코그너티브 음성 에이전트를 작성할 수 있습니다. 백본에서 Watson 인공 지능을 사용하면 음성 에이전트는 복잡한 상호작용을 처리하고 음성 에이전트 내의 고객 호출을 해결하여 대화식으로 통신할 수 있습니다.
 
 이 릴리스는 다음과 같은 새로운 기능을 제공합니다.
 
@@ -571,7 +571,7 @@ Terraform 및 Ansible은 클라우드 솔루션 배치의 시작부터 끝까지
 [v2 서비스 플랜](/docs/services/StreamingAnalytics/service_plans.html#service_plans)을 사용하여 이 새로운 컨테이너 기반 인프라에 액세스할 수 있습니다. 수행해야 하는 작업에 가장 적합한 {{site.data.keyword.streaminganalyticsshort}} 플랜을 선택할 수 있습니다. v2 서비스 플랜에는 다음 개선사항이 포함되어 있습니다.
  
 * [IBM Streams QSE with Docker](https://www-01.ibm.com/marketing/iwm/iwm/web/preLogin.do?source=swg-ibmistvi)![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘"): [ 개발 안내서](https://developer.ibm.com/streamsdev/docs/cloud-beta-devguide/)![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")를 확인하여 Docker 환경에서 실행되는 새 Streams QSE with RHEL 7을 사용하여 새 {{site.data.keyword.streaminganalyticsshort}} v2 플랜으로 애플리케이션을 컴파일하고 배치하는 방법을 알아보십시오. 
-* [{{site.data.keyword.streaminganalyticsshort}} v2 REST API](https://console.bluemix.net/apidocs/1939-streaming-analytics-v2#introduction)![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")
+* [{{site.data.keyword.streaminganalyticsshort}} v2 REST API](https://cloud.ibm.com/apidocs/1939-streaming-analytics-v2#introduction)![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")
 * [새 스타터 및 샘플 애플리케이션](https://developer.ibm.com/streamsdev/docs/cloud-beta-samples/) ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")
 * [{{site.data.keyword.streaminganalyticsshort}} 서비스의 고가용성 개선사항](/docs/services/StreamingAnalytics/c_ha.html#consistent-regions)
 * [{{site.data.keyword.streaminganalyticsshort}} 서비스의 문제점 판별 기능](https://developer.ibm.com/streamsdev/2018/02/15/streaming-analytics-console-gives-ways-find-fix-errors-beta-plans/)![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")
@@ -580,7 +580,7 @@ Terraform 및 Ansible은 클라우드 솔루션 배치의 시작부터 끝까지
 ### {{site.data.keyword.iva_full_notm}}은 현재 베타입니다!
 신규 기준일: 2018년 3월 16일
 
-[{{site.data.keyword.iva_full}}](https://console.bluemix.net/catalog/services/voice-agent-with-watson)![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")을 사용하여 고객이 호출하고 전화를 통해 대화할 수 있는 Watson 서비스에서 빌드된 코그너티브 음성 에이전트를 작성할 수 있습니다. 백본에서 Watson 인공 지능을 사용하면 음성 에이전트는 복잡한 상호작용을 처리하고 음성 에이전트 내의 고객 호출을 해결하여 대화식으로 통신할 수 있습니다.
+[{{site.data.keyword.iva_full}}](https://cloud.ibm.com/catalog/services/voice-agent-with-watson)![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")을 사용하여 고객이 호출하고 전화를 통해 대화할 수 있는 Watson 서비스에서 빌드된 코그너티브 음성 에이전트를 작성할 수 있습니다. 백본에서 Watson 인공 지능을 사용하면 음성 에이전트는 복잡한 상호작용을 처리하고 음성 에이전트 내의 고객 호출을 해결하여 대화식으로 통신할 수 있습니다.
 
 이 베타 릴리스는 다음과 같은 주요 기능을 제공합니다.
 
@@ -603,10 +603,10 @@ Terraform 및 Ansible은 클라우드 솔루션 배치의 시작부터 끝까지
 ### {{site.data.keyword.streaminganalyticsshort}} 업데이트
 신규 기준일: 2018년 2월 14일
 
- [{{site.data.keyword.streaminganalyticsshort}} 서비스](https://console.bluemix.net/catalog/services/streaming-analytics){: new_window} ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")의 콘솔에 대한 [베타 - 엔트리 및 베타 - 고급 플랜](/docs/services/StreamingAnalytics/beta_plans.html#beta_plans)에는 여러 개선사항이 포함되어 있습니다.
+ [{{site.data.keyword.streaminganalyticsshort}} 서비스](https://cloud.ibm.com/catalog/services/streaming-analytics){: new_window} ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")의 콘솔에 대한 [베타 - 엔트리 및 베타 - 고급 플랜](/docs/services/StreamingAnalytics/beta_plans.html#beta_plans)에는 여러 개선사항이 포함되어 있습니다.
 
 * [새 IBM Streams QSE for Docker](https://www-01.ibm.com/marketing/iwm/iwm/web/preLogin.do?source=swg-ibmistvi){: new_window} ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘"): [베타 개발 안내서](https://developer.ibm.com/streamsdev/docs/cloud-beta-devguide/){: new_window} ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")를 확인하여 Docker 환경에서 실행되는 새 Streams QSE with RHEL 7을 사용하여 새 {{site.data.keyword.streaminganalyticsshort}} 베타 플랜으로 애플리케이션을 컴파일하고 배치하는 방법을 알아보십시오.
-* [{{site.data.keyword.streaminganalyticsshort}} v2 REST API](https://console.bluemix.net/apidocs/1939-streaming-analytics-v2#introduction){: new_window} ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")
+* [{{site.data.keyword.streaminganalyticsshort}} v2 REST API](https://cloud.ibm.com/apidocs/1939-streaming-analytics-v2#introduction){: new_window} ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")
 * [새 스타터 및 샘플 애플리케이션](https://developer.ibm.com/streamsdev/docs/cloud-beta-samples/)
 * [{{site.data.keyword.streaminganalyticsshort}} 서비스에서 고가용성 개선사항](/docs/services/StreamingAnalytics/consistentregions.html#consistentregions)
 * [{{site.data.keyword.streaminganalyticsshort}} 서비스](https://developer.ibm.com/streamsdev/2018/02/15/streaming-analytics-console-gives-ways-find-fix-errors-beta-plans/){: new_window} ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")의 베타 버전에서 새로운 문제점 판별 기능
@@ -632,7 +632,7 @@ Terraform 및 Ansible은 클라우드 솔루션 배치의 시작부터 끝까지
 
 엔티티, 관계, 개념 등과 같이 텍스트에서 발견된 시맨틱 요소의 {{site.data.keyword.discoveryshort}}를 이해하여 구현된 연결을 시각적으로 탐색하십시오.
 
-즉시 {{site.data.keyword.discoveryshort}} News 콜렉션을 사용하여 전세계의 뉴스 탐색을 시작하십시오. 또는 {{site.data.keyword.discoveryshort}}에서 고유한 문서 콜렉션을 탐색하십시오. {{site.data.keyword.Bluemix_notm}} 인증 정보로 로그인하면 됩니다. 자세한 정보는 [Visual insights experimental](https://visual-insights.bluemix.net){: new_window} ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")을 참조하십시오.
+즉시 {{site.data.keyword.discoveryshort}} News 콜렉션을 사용하여 전세계의 뉴스 탐색을 시작하십시오. 또는 {{site.data.keyword.discoveryshort}}에서 고유한 문서 콜렉션을 탐색하십시오. {{site.data.keyword.Bluemix_notm}} 인증 정보로 로그인하면 됩니다. 자세한 정보는 [Visual insights experimental](https://visual-insights.cloud.ibm.com){: new_window} ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")을 참조하십시오.
 
 ### 새 IBM Cloud Managed Database Server Beta 서비스
 신규 기준일: 2017년 11월 30일
@@ -692,7 +692,7 @@ Apple은 Apple 알림을 위한 HTTP 프로토콜 지원을 도입했습니다. 
 * [Building charts for Adapter analytics by using IBM Bluemix Mobile Analytics service and IBM Mobile Foundation Service](https://mobilefirstplatform.ibmcloud.com/blog/2017/04/26/adapter-analytics-using-analytics-and-dashdb-analytics-service/){: new_window} ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")
 
 #### {{site.data.keyword.mobilefirst_notm}} 표준 유형에는 이제 {{site.data.keyword.mobileanalytics_short}}가 포함됨
-모바일 서비스 표준 유형은 사용자가 빨리 시작할 수 있도록 모바일 서비스 세트를 제공하는 템플리트입니다. {{site.data.keyword.mobileanalytics_short}} 서비스는 이제 [카탈로그](https://console.bluemix.net/catalog/starters/mobilefirst-services-starter){: new_window} ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")에서 사용 가능한 표준 유형의 일부입니다.
+모바일 서비스 표준 유형은 사용자가 빨리 시작할 수 있도록 모바일 서비스 세트를 제공하는 템플리트입니다. {{site.data.keyword.mobileanalytics_short}} 서비스는 이제 [카탈로그](https://cloud.ibm.com/catalog/starters/mobilefirst-services-starter){: new_window} ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")에서 사용 가능한 표준 유형의 일부입니다.
 
 
 ### {{site.data.keyword.streaminganalyticsshort}}에 대한 업데이트
