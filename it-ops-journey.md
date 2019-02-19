@@ -78,7 +78,7 @@ Use the [{{site.data.keyword.cloud_notm}} {{site.data.keyword.baremetal_short}} 
 
 ### {{site.data.keyword.cloud_notm}} services and compliance
 
-As with any architecture, you should consider the {{site.data.keyword.cloud_notm}} resources that you might add to your solution as you size your infrastructure. For more information, see [SaaS applications for business and IT ![External link icon](../icons/launch-glyph.svg "External link icon")](https://www.ibm.com/cloud/saas) {: new_window} and search for a specific service. You also need to think about any regulations that you have to consider when you build your architecture. For example, is your workload considered sensitive or is it regulated? For more information, see [Compliance ![External link icon](../icons/launch-glyph.svg "External link icon")](https://www.ibm.com/cloud/compliance){: new_window}.
+As with any architecture, you should consider the {{site.data.keyword.cloud_notm}} resources that you might add to your solution as you size your infrastructure. For more information, see [SaaS applications for business and IT ![External link icon](../icons/launch-glyph.svg "External link icon")](https://www.ibm.com/cloud/saas){: new_window} and search for a specific service. You also need to think about any regulations that you have to consider when you build your architecture. For example, is your workload considered sensitive or is it regulated? For more information, see [Compliance ![External link icon](../icons/launch-glyph.svg "External link icon")](https://www.ibm.com/cloud/compliance){: new_window}.
 
 ## Building your infrastructure
 {: #build}
