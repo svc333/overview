@@ -2,7 +2,7 @@
 
 copyright:
   years: 2016, 2019
-lastupdated: "2019-02-18"
+lastupdated: "2019-02-19"
 
 ---
 {:new_window: target="_blank"}
@@ -30,7 +30,7 @@ With the {{site.data.keyword.cloud_notm}}, you can:
 * If you have an app in an existing repository, you can use a blank starter kit to create an app record and connect it to your source repository and a DevOps toolchain.
 * With portable app code, you can deploy to various cloud environments.
 * Create a [DevOps toolchain](/docs/services/ContinuousDelivery?topic=ContinuousDelivery-cd_getting_started) in a few clicks.
-* Use the [command-line interface (CLI)](/docs/cli/reference/ibmcloud?topic=cloud-cli-overview) for local development.
+* Use the [command-line interface (CLI)](/docs/cli/reference/ibmcloud?topic=cloud-cli-ibmcloud-cli#ibmcloud-cli) for local development.
 * Browse or search the [{{site.data.keyword.cloud_notm}} catalog ![External link icon](../icons/launch-glyph.svg "External link icon")](https://{DomainName}/catalog){: new_window} for apps and services that you can create and start using today.
 
 ![Developer experience overview](images/dev-journey.png "Developer experience overview")
@@ -96,10 +96,10 @@ When you create an app directly or with help from a starter kit, the app contain
 
 Generating these components saves you valuable time and ensures that you’re using best-in-class architecture.
 
-* **Use case logic** provides functions for the core function of a particular use case. Examples might be code for a Watson Conversation chat bot, or code for a mobile visual recognition app.
-* **Language components** are code components and files specific to the programming language you select for your starter kit. For example, node.js programmers need a package.json file for dependency management, and this file is automatically created for you.
-* **Service enablement** is code that enables your app to connect to and use the services you add. Credential management, initialization code, and service-specific SDKs are examples of service enablement items.
-* **Cloud enablement** is code that enables your app to run on {{site.data.keyword.cloud_notm}}. For example, Helm charts that enable your app to run on an {{site.data.keyword.cloud_notm}} Kubernetes cluster.
+* Use case logic provides functions for the core function of a particular use case. Examples might be code for a Watson Conversation chat bot, or code for a mobile visual recognition app.
+* Language components are code components and files specific to the programming language you select for your starter kit. For example, node.js programmers need a package.json file for dependency management, and this file is automatically created for you.
+* Service enablement is code that enables your app to connect to and use the services you add. Credential management, initialization code, and service-specific SDKs are examples of service enablement items.
+* Cloud enablement is code that enables your app to run on {{site.data.keyword.cloud_notm}}. For example, Helm charts that enable your app to run on an {{site.data.keyword.cloud_notm}} Kubernetes cluster.
 
 When you create an app from an {{site.data.keyword.cloud_notm}} starter kit, your app starts with proven architecture that also reflects best practices for the language you selected.
 
@@ -111,7 +111,7 @@ Each app includes a readme file that contains technical details of the app and e
 
 If you have an app in an existing repository, you can use a blank starter kit to create an app record in {{site.data.keyword.cloud_notm}} and connect the app to your source repository and your DevOps toolchain.
 
-You can start from the {{site.data.keyword.cloud_notm}} dashboard or from any blank starter kit. After you name your app and select a resource group, select the [**Bring your own code**](/docs/apps/tutorials?topic=creating-apps-code-repo) starting point, provide the Git repo URL that contains your code, and click **Create**.
+You can start from the {{site.data.keyword.cloud_notm}} dashboard or from any blank starter kit. After you name your app and select a resource group, select the [**Bring your own code**](/docs/apps/tutorials?topic=creating-apps-tutorial-byoc#tutorial-byoc) starting point, provide the Git repo URL that contains your code, and click **Create**.
 
 You can connect your existing DevOps toolchain or create one, and continuously deliver your app to the environment of your choice, such as Kubernetes or Cloud Foundry.
 
@@ -121,7 +121,7 @@ You can connect your existing DevOps toolchain or create one, and continuously d
 
 The DevOps toolchain comprises procedures and tools for accessing, developing, deploying, and operating your app. A DevOps toolchain is set of linked services that automates your DevOps tasks. It’s possible to perform DevOps manually with simple apps, but the need for automation increases quickly as app complexity increases, and toolchain automation is a must-have for continuous delivery.
 
-The core component of a DevOps toolchain is a code version control repository like GitHub. More tools might include backlog tracking, delivery pipeline, IDE, and monitoring service like [{{site.data.keyword.cloud_notm}} {{site.data.keyword.DRA_short}}](/docs/services/DevOpsInsights?topic=DevOpsInsights-getting-started).
+The core component of a DevOps toolchain is a code version control repository like GitHub. More tools might include backlog tracking, delivery pipeline, IDE, and monitoring service like [{{site.data.keyword.cloud_notm}} {{site.data.keyword.DRA_short}}](/docs/services/DevOpsInsights?topic=DevOpsInsights-getting-started#getting-started).
 
 If you create an app by using a starter kit, you can create a new toolchain and deploy your app simply by clicking **Deploy to cloud** on the **App Details** page. A toolchain that has a code repo, issues repo, delivery pipeline, and web IDE is created.
 
@@ -130,17 +130,17 @@ You can then build on this toolchain to accommodate multiple teams and deploy to
 ![Continuous delivery](images/garage_continuous_delivery2.png "Developer experience sets up continuous delivery into your development branch")
 
 
-## Command-line interface
+## CLI
 {: cli}
 
-Use the command-line interface to code, build, and run your app locally. A common pattern is to create your app from a developer portal in the {{site.data.keyword.cloud_notm}} console, use the developer tools to develop locally, and then push the updates to your repo and merge to start your deployment toolchain.
+Use the command-line interface (CLI) to code, build, and run your app locally. A common pattern is to create your app from a developer portal in the {{site.data.keyword.cloud_notm}} console, use the developer tools to develop locally, and then push the updates to your repo and merge to start your deployment toolchain.
 
 ## Garage Method development
 {: #developer_concepts}
 
 If you’re looking for a place where you can experiment with big ideas and emerging technologies, be sure to check out [Garage Method](https://www.ibm.com/cloud/garage/){: new_window} ![External link icon](../icons/launch-glyph.svg "External link icon") deployments. You can learn how IBM can help you develop apps in your organization. 
 
-![Garage Method phases overview](images/garage_phases_overview2.png "Garage Method phases overview") Garage Method phases overview
+![Garage Method phases overview](images/garage_phases_overview2.png "Garage Method phases overview") 
 
 {{site.data.keyword.cloud_notm}} helps you produce successful enterprise-class production apps by using the Garage Method or whatever method you prefer. To better understand what {{site.data.keyword.cloud_notm}} offers to developers, let's take a quick look at the skills that are required to build a modern app.
 
@@ -157,6 +157,6 @@ Users expect more from their applications than ever before. They want apps to de
 * Data scientists use analytics and machine learning to produce predictive models. These models are used in business metrics and provide deep insights to application users.
 * DevOps specialists are experts in resolving deployment and toolchain issues. For simple apps, dedicated specialists are usually not needed as development team members manage DevOps with the squad. But for complex enterprise applications, with many dependencies, DevOps specialists are essential in keeping your production app running smoothly.
 
-The developer capabilities that are built in to {{site.data.keyword.cloud_notm}} align to these skill sets and allow your team to use one platform to produce, deliver, run, and manage your app. For example, a digital developer that creates a mobile app might use the {{site.data.keyword.cloud_notm}} [Mobile developer portal](https://{DomainName}/developer/mobile/dashboard){: new_window} ![External link icon](../icons/launch-glyph.svg "External link icon"). A cognitive app builder might use the [Watson developer portal](https://{DomainName}/developer/watson/dashboard){: new_window} ![External link icon](../icons/launch-glyph.svg "External link icon") along with [Watson Studio](https://{DomainName}/catalog/services/watson-studio){: new_window} ![External link icon](../icons/launch-glyph.svg "External link icon"). A streams developer can use [IBM Real-Time Analytics](/docs/services/StreamingAnalytics?topic=StreamingAnalytics-gettingstarted). The [{{site.data.keyword.cloud_notm}} Continuous Delivery service](/docs/services/ContinuousDelivery?topic=ContinuousDelivery-cd_getting_started) simplifies the job of a DevOps specialist.
+The developer capabilities that are built in to {{site.data.keyword.cloud_notm}} align to these skill sets and allow your team to use one platform to produce, deliver, run, and manage your app. For example, a digital developer that creates a mobile app might use the {{site.data.keyword.cloud_notm}} [Mobile developer portal](https://{DomainName}/developer/mobile/dashboard){: new_window} ![External link icon](../icons/launch-glyph.svg "External link icon"). A cognitive app builder might use the [Watson developer portal](https://{DomainName}/developer/watson/dashboard){: new_window} ![External link icon](../icons/launch-glyph.svg "External link icon") along with [Watson Studio](https://{DomainName}/catalog/services/watson-studio){: new_window} ![External link icon](../icons/launch-glyph.svg "External link icon"). A streams developer can use [IBM Real-Time Analytics](/docs/services/StreamingAnalytics/index.html). The [{{site.data.keyword.cloud_notm}} Continuous Delivery service](/docs/services/ContinuousDelivery?topic=ContinuousDelivery-cd_getting_started) simplifies the job of a DevOps specialist.
 
-[Ready to get started building high-quality, production-ready apps?](/docs/apps/tutorials?topic=creating-apps-create)
+[Ready to get started building high-quality, production-ready apps?](/docs/apps/tutorials?topic=creating-apps-tutorial-getting-started#tutorial-getting-started)
