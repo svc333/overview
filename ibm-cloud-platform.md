@@ -58,7 +58,7 @@ Check out the following table for a summary of your compute options.
 ## Building applications
 {: #build-apps}
 
-Whether you have [existing code](/docs/apps/tutorials?topic=creating-apps-code-repo) that you want to modernize and bring to the cloud or you're developing a [brand new application](/docs/apps/tutorials?topic=creating-apps-tutorial-starterkit), your developers can tap into the rapidly growing ecosystem of available services and runtime frameworks in {{site.data.keyword.Bluemix_notm}}.
+Whether you have [existing code](/docs/apps/tutorials?topic=creating-apps-tutorial-byoc#tutorial-byoc) that you want to modernize and bring to the cloud or you're developing a [brand new application](/docs/apps/tutorials?topic=creating-apps-tutorial-starterkit), your developers can tap into the rapidly growing ecosystem of available services and runtime frameworks in {{site.data.keyword.Bluemix_notm}}.
 
 [Programming guides](https://cloud.ibm.com/docs/home/build){: new_window} ![External link icon](../icons/launch-glyph.svg "External link icon") are available per language to help you get up and running. You have many options for hosting your apps with {{site.data.keyword.Bluemix_notm}} infrastructure from {{site.data.keyword.baremetal_short}} to running as a serverless function.
 
