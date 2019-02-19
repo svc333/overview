@@ -2,8 +2,8 @@
 
 
 copyright:
-  years: 2015, 2018
-lastupdated: "2018-11-28"
+  years: 2015, 2019
+lastupdated: "2019-01-29"
 
 ---
 
@@ -35,12 +35,12 @@ When you log in to {{site.data.keyword.cloud_notm}}, the first page you can view
 
 You can search for resources by name or by tag from anywhere in the {{site.data.keyword.cloud_notm}} console for resources that you expect to find in the resource list. Type the name of a resource or tag in the search field in the console menu bar.
 
-For more information, see [Searching for resources](/docs/resources/searching.html#searching-for-resources). 
+For more information, see [Searching for resources](/docs/resources?topic=resources-searching-for-resources). 
 
 ## Managing resources in the resource list
 {: #dashboardview}
 
-Go to the Menu icon ![Menu icon](../icons/icon_hamburger.svg) &gt; **Resource List** to access your list of account resources. You can use the resource list to view and work with {{site.data.keyword.cloud_notm}} resources and Cloud Foundry service instances. For more information about the different types of resources, see [What is a resource?](/docs/resources/acct_resources.html#resource).
+Go to the Menu icon ![Menu icon](../icons/icon_hamburger.svg) &gt; **Resource List** to access your list of account resources. You can use the resource list to view and work with {{site.data.keyword.cloud_notm}} resources and Cloud Foundry service instances. See [What is a resource?](/docs/resources?topic=resources-resource) for more information about the different types of resources.
 
 ### Viewing resources
 You can view all the resources in your account across all regions from the resource list. To see the items that are important to you, filter your list with the filters for each column header. For example, if you want to view and work with resources in a specific location, expand the **Location** filter, and select a location from the list.
@@ -49,7 +49,7 @@ You can view all the resources in your account across all regions from the resou
 You can work with your resources in various ways from the resource list:
 
   * Each resource is displayed in its own row and an Actions icon ![More Actions icon](../icons/action-menu-icon.svg) is included at the end of the row. Click the Actions icon ![More Actions icon](../icons/action-menu-icon.svg) to start, stop, rename, or delete a resource.
-  * To set up credentials or connections for a resource, click the name of the resource to navigate to the resource details page. Then, select **Service credentials** or **Connections**. For more information, see [Adding a credential](/docs/resources/service_credentials.html) and [Managing connections](/docs/resources/connecting_apps.html#connect_app).
+  * To set up credentials or connections for a resource, click the name of the resource to navigate to the resource details page. Then, select **Service credentials** or **Connections**. For more information, see [Adding a credential](/docs/resources?topic=resources-service_credentials) and [Managing connections](/docs/resources?topic=resources-connect_app).
 
 
 ## Working in the catalog

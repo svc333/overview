@@ -3,7 +3,7 @@
 
 copyright:
   years: 2016, 2019
-lastupdated: "2019-02-18"
+lastupdated: "2019-01-31"
 
 ---
 
@@ -23,6 +23,8 @@ The {{site.data.keyword.Bluemix_notm}} platform is composed of multiple componen
   * An identity and access management component that securely authenticates users for both platform services and controls access to resources consistently across {{site.data.keyword.Bluemix_notm}}
   * A search and tagging mechanism for filtering and identifying your resources
   * An account and billing management system that provides exact usage for pricing plans and secure credit card fraud protection
+  
+<!-- staging only - A logging service that is powered by LogDNA and a monitoring service that is powered by SysDig for robust logging and monitoring support. A status service that collects and displays planned and unplanned events, maintenance, security, and announcements notifications in the console and as emails -->
 
 ## Choosing your hosting environment
 {: #choose-compute}
@@ -68,6 +70,7 @@ Whether you have [existing code](/docs/apps/tutorials?topic=creating-apps-tutori
 With over 190+ services to choose from in the catalog, you can build a tailored solution to fit your needs. You can also easily connect services to apps outside of {{site.data.keyword.Bluemix_notm}} if that fits your use case. You can generate a new set of credentials for cases in which you want to manually connect an external consumer to an {{site.data.keyword.Bluemix_notm}} service. For example, if you are trying to connect an app outside of {{site.data.keyword.Bluemix_notm}} to a Watson service, you generate a new credential that connects them together. It's that easy! For more information, see [Adding a credential](/docs/resources?topic=resources-service_credentials).
 
 ## Setting up your account
+{: #set-up-account}
 
 If you're just trying out {{site.data.keyword.Bluemix_notm}}, you can go straight to the catalog and start checking out the offerings that you'd like to explore and add to your Lite account. However, if you're ready to get started with an environment for a group of developers or entire organization and get apps running in production, consider setting up the basics in your account:
 
@@ -78,13 +81,14 @@ If you're just trying out {{site.data.keyword.Bluemix_notm}}, you can go straigh
 For more information, see the [best practices for setting up your account](/docs/account?topic=account-account_setup) and [best practices for assigning access](/docs/iam?topic=iam-account_setup). 
 
 ## Pricing and billing
+{: #pricing-billing}
 
 Regardless of your account type, you can explore {{site.data.keyword.Bluemix_notm}} by using Lite plans for the services that provide free quota. When you're choosing a service from the catalog and you select a tile, if there are different types of available plans you can see details about pricing information. If you choose a service plan with a paid plan, you can estimate your costs by using the cost estimator tool. For more information, see [Estimating your costs](/docs/billing-usage?topic=billing-usage-cost).
 
 {{site.data.keyword.Bluemix_notm}} billing provides multiple services that ensure the {{site.data.keyword.Bluemix_notm}} platform can securely manage pricing, accounts, usage, and more.
 
 ### Account management
-{: #account}
+{: #account-mgmt}
 
 Account management maintains the billing relationship with the customer. Each account is a billing entity that represents a customer. This service controls account lifecycle, subscription, user relationship, and organization.
 
@@ -102,6 +106,12 @@ With usage metering, service providers can submit metrics that are collected for
 {: #usage}
 
 Usage reports return the summary for the account for the specified month. Account billing managers are authorized to access the reports.
+
+<!-- staging only
+### Order management
+{: #order}
+
+Order management manages the lifecycle of Orders and Line Items. It is responsible for processing Orders and Line Item from different billing systems such as DSW, GAIA, and IMS. It also fuels `whiskey`, which is Operation Dashboard for {{site.data.keyword.Bluemix_notm}} Orders. -->
 
 ## {{site.data.keyword.Bluemix_notm}} catalog
 {: #catalog}
@@ -132,3 +142,24 @@ The search service is a global and shared resource properties repository that is
 
 This service also manages tags that are associated with a resource. You can create, delete, search, attach, or detach tags with the Tagging API. Tags are uniquely identified by a CRN identifier. Tags have a name, which must be unique within a billing account. You can create tags in key:value pairs or label format.
 
+ <!–– Staging only below this comment ––>
+
+## Monitoring and logging for your apps and services
+{: #observe}
+
+{{site.data.keyword.Bluemix_notm}} platform provides integrated logging powered by LogDNA, and integrated monitoring powered by Sysdig.
+
+### LogAnalysis with LogDNA
+{: #LogDNA}
+
+Use IBM Log Analysis with LogDNA to gain insights into your system and application logs.
+
+### Monitoring with SysDig
+{: #SysDig}
+
+TBD
+
+## Status and notifications
+{: #status-service}
+
+{{site.data.keyword.Bluemix_notm}} provides a platform status service that collects and displays planned and unplanned events, maintenance, security, and announcement notifications. You can view the status of your services by region and type, as well as view notifications across the platform. Additionally, you can set email preferences that are associated with critical notifications.

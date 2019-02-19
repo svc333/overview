@@ -2,7 +2,7 @@
 
 copyright:
   years: 2018, 2019
-lastupdated: "2019-02-18"
+lastupdated: "2019-01-29"
 
 
 ---
@@ -119,18 +119,22 @@ You can buy extra storage based on your needs. See the following table for a sum
 ### Networking
 {: #network}
 
-You automatically get connectivity to the {{site.data.keyword.vpn_full}} when your {{site.data.keyword.cloud_notm}} account is set up. By default, your server has a public IP address and a private IP address. If you want your server to be private, you can either turn off the public interface after your server is provisioned or order your server as private. See [Getting started with Virtual Private Networking](/docs/infrastructure/iaas-vpn/getting-started.html) for more information.
+You automatically get connectivity to the {{site.data.keyword.vpn_full}} when your {{site.data.keyword.cloud_notm}} account is set up. By default, your server has a public IP address and a private IP address. If you want your server to be private, you can either turn off the public interface after your server is provisioned or order your server as private. See [Getting started with Virtual Private Networking](/docs/infrastructure/iaas-vpn?topic=VPN-getting-started-with-virtual-private-networking-vpn-) for more information.
+
+<!-- begin staging only -->
+Within the infrastructure layer, you can build a virtual private cloud, which is a virtual network that is tied to your {{site.data.keyword.cloud_notm}} account. A virtual private cloud gives you an entry point that provides cloud security and the ability to dynamically scale your virtual server instances (VSIs). For more information, see [Getting started with IBM Cloud Virtual Private Cloud (VPC) Infrastructure](/docs/vpc/vpc-getting-started-with-ibm-cloud-virtual-private-cloud-infrastructure). 
+<!-- end staging only -->
 
 Check out the following table for a summary of your networking options.
 
 | Option | Description | 
 |--------|---------------|
-| [Content Delivery Network](/docs/infrastructure/CDN/about.html) | Used for various industry solutions, including media, entertainment, software, gaming, banking, and e-commerce, to meet the needs of your businesses. |
-| [Domain Name Service](/docs/cli/reference/ibmcloud/cli_dns.html) | Provides a central location to view and manage your domains through the basic DNS management interface, and also gives you the option to manage reverse and secondary DNS in the same location for free of charge. |
-| [Global IP addresses](/docs/infrastructure/subnets/about-global-ip.html) | Provide flexibility and enable you to shift workloads between servers, even across geographically disparate data centers. |
-| [Load balancing](/docs/infrastructure/local-load-balancer/about.html) | Distributes processing and communications evenly across multiple servers within a data center so that a single device does not carry an entire load. |
-| [Virtual Router Appliance](/docs/infrastructure/virtual-router-appliance/about.html) | Selectively routes private and public network traffic through a full-featured enterprise router with firewall, traffic shaping, policy-based routing, VPN, and a host of other features. |
-| [IPSec VPN](/docs/infrastructure/iaas-vpn/set-up-ipsec-vpn.html) | A suite of protocols designed to authenticate and encrypt all IP traffic between two locations by using a tunnel mode that provides an encrypted site-to-site network. |
+| [Content Delivery Network](/docs/infrastructure/CDN?topic=CDN-getting-started) | Used for various industry solutions, including media, entertainment, software, gaming, banking, and e-commerce, to meet the needs of your businesses. |
+| [Domain Name Service](/docs/cli/reference/ibmcloud?topic=cloud-cli-ibm-dev-tools-for-jetbrains) | Provides a central location to view and manage your domains through the basic DNS management interface, and also gives you the option to manage reverse and secondary DNS in the same location for free of charge. |
+| [Global IP addresses](/docs/infrastructure/subnets?topic=subnets-getting-started-with-subnets-and-ips) | Provide flexibility and enable you to shift workloads between servers, even across geographically disparate data centers. |
+| [Load balancing](/docs/infrastructure/loadbalancer-service?topic=loadbalancer-service-getting-started-with-ibm-cloud-load-balancer) | Distributes processing and communications evenly across multiple servers within a data center so that a single device does not carry an entire load. |
+| [Virtual Router Appliance](/docs/infrastructure/virtual-router-appliance/getting-started.html) | Selectively routes private and public network traffic through a full-featured enterprise router with firewall, traffic shaping, policy-based routing, VPN, and a host of other features. |
+| [IPSec VPN](/docs/infrastructure/iaas-vpn?topic=VPN-set-up-ipsec-vpn) | A suite of protocols designed to authenticate and encrypt all IP traffic between two locations by using a tunnel mode that provides an encrypted site-to-site network. |
 | {{site.data.keyword.cloud_notm}} Direct Link | Leverages a Cloud Exchange provider to deliver connectivity to {{site.data.keyword.cloud_notm}} infrastructure locations. |
 {: caption="Table 3. Networking options" caption-side="top"}
 
@@ -142,8 +146,8 @@ After you build your infrastructure and environment, you're ready to start manag
 
 | Task | Description |
 |--------|---------------|
-| [Monitor system events](/docs/account/audit_log.html) | View the actions that have been performed on your infrastructure resources. |
-| [Set email preferences](/docs/account/email.html) | Set up {{site.data.keyword.cloud_notm}} infrastructure email notifications about unplanned events, maintenance, and announcements.  |
-| [Understand how your data is safe](/docs/overview/security.html) | The {{site.data.keyword.cloud_notm}} platform has layered security controls across network and infrastructure. |
-| [Understand how you can ensure zero downtime](/docs/overview/zero_downtime.html) | All {{site.data.keyword.cloud_notm}} resources are hosted in data center locations around the world. |
+| [Monitor system events](/docs/account?topic=account-audit-log) | View the actions that have been performed on your infrastructure resources. |
+| [Set email preferences](/docs/account?topic=account-email-prefs) | Set up {{site.data.keyword.cloud_notm}} infrastructure email notifications about unplanned events, maintenance, and announcements.  |
+| [Understand how your data is safe](/docs/overview?topic=overview-security) | The {{site.data.keyword.cloud_notm}} platform has layered security controls across network and infrastructure. |
+| [Understand how you can ensure zero downtime](/docs/overview?topic=overview-zero-downtime) | All {{site.data.keyword.cloud_notm}} resources are hosted in data center locations around the world. |
 {: caption="Table 4. Management tasks" caption-side="top"}

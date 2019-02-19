@@ -4,7 +4,7 @@ copyright:
 
   years: 2017, 2019
 
-lastupdated: "2019-02-18"
+lastupdated: "2019-02-12"
 
 keywords: crn, cloud resource name
 
@@ -21,50 +21,50 @@ subcollection: overview
 # Cloud Resource Names
 {: #crn}
 
-Cloud Resource Names (CRNs) uniquely identify {{site.data.keyword.Bluemix}} resources. A CRN is used to specify a resource in a way that is unambiguous and guaranteed to be globally unique, such as in {{site.data.keyword.Bluemix_notm}} Identity and Access Management (IAM) policies and services listed in the cloud catalog.
+Cloud Resource Names (CRNs) uniquely identify {{site.data.keyword.Bluemix_notm}} resources. A CRN is used to specify a resource in a way that is unambiguous and guaranteed to be globally unique, such as in {{site.data.keyword.Bluemix_notm}} Identity and Access Management (IAM) policies and services listed in the cloud catalog.
 
-A CRN is formed from a concatenation of "segments" that hierarchically identify the resource, its location, and the service it belongs to. The segment delimiter is set to ':' (the colon character). All CRNs begin with the segment identifier 'crn'.
+A CRN is formed from a concatenation of "segments" that hierarchically identify the resource, its location, and the service it belongs to. The segment delimiter is set to ':' (the colon character). All CRNs begin with the segment identifier `crn`.
 
 
-## CRN Format
+## CRN format
 {: #format-crn}
 
 The base canonical format of a CRN is:
 
-**crn:[version](#version):[cname](#cname):[ctype](#ctype):[service-name](#service-name):[location](#location):[scope](#scope):[service-instance](#service-instance):[resource-type:resource](#resource-type)**
+`crn:version:cname:ctype:service-name:location:scope:service-instance:resource-type:resource`
 
 
 ## version
 {: #version-crn}
 
-The `version` segment identifies the version of the CRN format. Currently, the only valid version segment value is **v1**.
+The `version` segment identifies the version of the CRN format. Currently, the only valid version segment value is `v1`.
 
 
 ## cname
 {: #cname-crn}
 
-The `cname` segment identifies the cloud instance and is an alphanumeric identifier that uniquely identifies the cloud instance that contains the resource. A `cname` effectively identifies an independent control plane that owns the identified resource. The `cname` must be `bluemix` for {{site.data.keyword.Bluemix_notm}} users.
+The `cname` segment identifies the cloud instance and is an alphanumeric identifier that uniquely identifies the cloud instance that contains the resource. A `cname` effectively identifies an independent control plane that owns the identified resource. The value for the `cname` segment must be `bluemix` for {{site.data.keyword.Bluemix_notm}} users.
 
 
 ## ctype
 {: #ctype-crn}
 
-The `ctype` segment identifies the type of cloud instance that is represented by the specified `cname`.
+The `ctype` segment identifies the type of cloud instance that is represented by the specified `cname` segment.
 
-Valid values:
-  - public - All services that are available from the public catalog.
-  - dedicated - Only for current {{site.data.keyword.Bluemix_notm}} dedicated environments.
-  - local - All services that are deployed locally in your own environment.
+ Valid values:
+  - `public`: All services that are available from the public catalog
+  - `dedicated`: Only for current {{site.data.keyword.Bluemix_notm}} dedicated environments
+  - `local`: All services that are deployed locally in your own environment
 
 
 ## service-name
 {: #service-name-crn}
 
-The `service-name` segment uniquely identifies a capability (service, component, product) being offered by the cloud. The capability can be a user provided service such as with the services that are listed in the {{site.data.keyword.Bluemix_notm}} catalog, or an internal architectural component critical to the {{site.data.keyword.Bluemix_notm}} functionality.
+The `service-name` segment uniquely identifies a capability (service, component, product) being offered by the cloud. The capability can be a user-provided service, such as with the services that are listed in the {{site.data.keyword.Bluemix_notm}} catalog, or an internal architectural component critical to the {{site.data.keyword.Bluemix_notm}} functionality.
 
-The `service-name` indicates the service that the resource belongs to, and {{site.data.keyword.Bluemix_notm}} enforces global uniqueness of service names. The `service-name` must be alphanumeric, lowercase, no spaces or special characters other than '-'.
+The `service-name` segment indicates the service that the resource belongs to, and {{site.data.keyword.Bluemix_notm}} enforces global uniqueness of service names. The `service-name` segment must be alphanumeric, lowercase, and no spaces or special characters other than '-'.
 
-For services that are registered into the {{site.data.keyword.Bluemix_notm}} catalog the `service-name` must correspond to one of the services that are registered to the {{site.data.keyword.Bluemix_notm}} Global Catalog service. It is the `name` property that is returned by the {{site.data.keyword.Bluemix_notm}} Global Catalog service API `GET https://resource-catalog.bluemix.net/api/v1/{id}` for the corresponding resource instance or the `service-name` displayed by the command line interface: `ibmcloud service offerings` in the column `service`.
+For services that are registered into the {{site.data.keyword.Bluemix_notm}} catalog the `service-name` segment must correspond to one of the services that are registered to the {{site.data.keyword.Bluemix_notm}} Global Catalog service. It is the `name` property that is returned by the {{site.data.keyword.Bluemix_notm}} Global Catalog service API `GET https://globalcatalog.cloud.ibm.com/api/v1/{id}` for the corresponding resource instance or the `service-name` value displayed by the command line interface: `ibmcloud service offerings` in the column `service`.
 
 
 ## location
@@ -72,7 +72,7 @@ For services that are registered into the {{site.data.keyword.Bluemix_notm}} cat
 
 The cloud geography/region/zone/data center that the resource resides in.
 
-The `location` must be one of the following values:
+The `location` segment must be one of the following values:
 
 ### Global
 {: #global-crn}
@@ -109,9 +109,9 @@ The `location` must be one of the following values:
 | PAR01  | SJC01  | SJC03  | SAO01  |  SEA01  |
 | SEO01  | SNG01  | SYD01  | TOK02  |  TOR01  |
 | WDC01  | WDC04  | WDC06  | WDC07  |
-{: caption="Table 1. Valid `Data Center` values" caption-side="top"}
+{: caption="Table 1. Valid data center values" caption-side="top"}
 
-Some resources do not require a region (they can be considered `global`). In this case, the `region` segment is set to `global`.
+Some resources do not require a region, as they can be considered `global`. In this case, the `region` segment is set to `global`.
 {: tip}
 
 
@@ -124,17 +124,17 @@ The value of the `scope` segment must be formatted as `{scopePrefix}`/`{id}`. Th
 
 | Scope Type | Scope Prefix | Usage | Example |
 | --- | --- | --- | --- |
-| Account | a/`{account id}` | The account that the resource has been created in. | a/292558 |
-| Organization | o/`{org guid}` | The {{site.data.keyword.Bluemix_notm}} Organization to which the resource has been assigned. | o/4716e2d1-35b7-431f-891a-b552bf0b3c66 |
-| Space | s/`{space guid}` | The {{site.data.keyword.Bluemix_notm}} Space to which the resource has been assigned. | s/48b3cdcd-e804-4398-9032-73065863ad7c |
-{: caption="Table 2. `scope` usage" caption-side="top"}
+| Account | a/`{account id}` | The account that the resource was created in. | `a/292558` |
+| Organization | o/`{org guid}` | The {{site.data.keyword.Bluemix_notm}} Organization to which the resource was assigned. | `o/4716e2d1-35b7-431f-891a-b552bf0b3c66` |
+| Space | s/`{space guid}` | The {{site.data.keyword.Bluemix_notm}} Space to which the resource was assigned. | `s/48b3cdcd-e804-4398-9032-73065863ad7c` |
+{: caption="Table 2. scope usage" caption-side="top"}
 
 
 
 ## service-instance
 {: #service-instance-crn}
 
-The `service-instance` segment identifies the service instance uniquely. The format of the `service-instance` segment varies by service. Each service must document the format of their `service_instance` as part of their service metadata. Some services do not have instances because the instance is global and in this case the `service-instance` field will be blank.
+The `service-instance` segment identifies the service instance uniquely. The format of the `service-instance` segment varies by service. Each service must document the format of their `service_instance` segment as part of their service metadata. Some services do not have instances because the instance is global, and in this case the `service-instance` field is blank.
 
 The `service-instance` must be alphanumeric, lowercase, no spaces, or special characters other than '-' and '/'.
 
@@ -151,14 +151,14 @@ ibmcloud resource service-instance
 ## resource-type, resource
 {: #resource-type-crn}
 
-The value of the `resource-type` and `resource` segments vary by service. A service is required to document their supported `resource types` and the format of the `resource` as part of their service metadata.
+The value of the `resource-type` and `resource` segments vary by service. A service is required to document their supported `resource types` segment and the format of the `resource` segment as part of their service metadata.
 
-As an example, an image in the customer receipts container in an Object Storage service can have a `resource-type` of  `object` and a `resource_ value` of `CustomerReceipts/clientdinner.png`.
+As an example, an image in the customer receipts container in an Object Storage service can have a `resource-type` segment of  `object` and a `resource` value of `CustomerReceipts/clientdinner.png`.
 
-The `resource-type` must be alphanumeric, lowercase, no spaces or special characters other than '-'. A service can decide that the `resource-type` is optional, in which case it would be left blank.
+The `resource-type` segment must be alphanumeric, lowercase, and no spaces or special characters other than '-'. A service can decide that the `resource-type` segment is optional, in which case it is left blank.
 
 
-## CRN Examples
+## CRN examples
 {: #crn_examples}
 
 The following is a list of CRN examples.

@@ -1,10 +1,10 @@
 ---
 
 copyright:
-
   years: 2018, 2019
+lastupdated: "2019-02-07"
 
-lastupdated: "2019-02-18"
+metadata: HA,failover,DR 
 
 ---
 
@@ -58,7 +58,7 @@ The requirements that {{site.data.keyword.Bluemix}} follows are:
 
 You can create apps and service instances in different locations with the same {{site.data.keyword.cloud_notm}} infrastructure for application management and the same usage details view for billing. You can deploy your apps to the location that is nearest to your customers to achieve low application latency. 
 
-To address security issues, you can also select the location in which you want to keep application data. When you build apps in more than one location, if one location becomes unavailable, the apps that are in the other locations continue to run. Your resource allowance is the same for each location that you use. For more information about the platform resources and the locations they're available in, see [Service availability](/docs/resources/services_region.html#services_region).
+To address security issues, you can also select the location in which you want to keep application data. When you build apps in more than one location, if one location becomes unavailable, the apps that are in the other locations continue to run. Your resource allowance is the same for each location that you use. For more information about the platform resources and the locations they're available in, see [Service availability](docs/resources?topic=resources-services_region).
 
 Global load balancing for the {{site.data.keyword.cloud_notm}} console ensures that if the nearest geographical location for you is unavailable, the console displays the information for the next closest location. This way, you can always access the console without taking any action to access the resources you need.
 
@@ -67,18 +67,19 @@ You can view all resources across all locations by default from the resource lis
 You can also use the command-line interface (CLI) to connect to the {{site.data.keyword.cloud_notm}} location that you want to work with by using the `ibmcloud api` command and specify the API endpoint of the location. For example, enter the following command to connect to {{site.data.keyword.cloud_notm}} London:
 
 ```
-ibmcloud api https://api.eu-gb.bluemix.net
+ibmcloud api https://api.eu-gb.cf.cloud.ibm.com
 ```
 
 A unique prefix is assigned to each location. {{site.data.keyword.cloud_notm}} provides the following locations and location prefixes.
 
 | **Location**  | **API endpoint**        |
 |---------------|-------------------------|
-| Dallas        | api.ng.bluemix.net      |
-| Sydney        | api.au-syd.bluemix.net  |
-| Frankfurt     | api.eu-de.bluemix.net   |
-| London        | api.eu-gb.bluemix.net   |
-| Washington DC | api.us-east.bluemix.net |
+| Dallas        | api.us-south.cf.cloud.ibm.com  |
+| Frankfurt     | api.eu-de.cf.cloud.ibm.com  |
+| London        | api.eu-gb.cf.cloud.ibm.com  |
+| Sydney        | api.au-syd.cf.cloud.ibm.com  |
+| Tokyo         | api.jp-tok.cf.cloud.ibm.com  |
+| Washington DC | api.us-east.cf.cloud.ibm.com  |
 {: caption="Table 1. {{site.data.keyword.cloud_notm}} location list" caption-side="top"}
 
 When you deploy infrastructure resources, you have more options about where your data is located. You can select a location, or you can select from a list of the data centers in {{site.data.keyword.Bluemix_notm}}. 
@@ -174,7 +175,7 @@ To submit a claim for downtime, contact [{{site.data.keyword.Bluemix_notm}} Supp
 
 {{site.data.keyword.Bluemix_notm}} provides SLAs for {{site.data.keyword.Bluemix_notm}} services that might make you eligible for credits toward your account. SLAs are your only way to resolve {{site.data.keyword.Bluemix_notm}}'s failure to meet a specified service level. {{site.data.keyword.Bluemix_notm}} provides a 99.5% availability service level for multiple instances of a Platform Service within a single dedicated or local environment.
 
-For more information about dedicated environments, see [IBM Cloud Dedicated](/docs/dedicated/index.html#dedicated), and for local environments, click [Bluemix Local](/docs/local/index.html#local). 
+For more information about dedicated environments, see [IBM Cloud Dedicated](/docs/hybrid?topic=dedicated-dedicated), and for local environments, see [Bluemix Local](/docs/hybrid?topic=local-local). 
 
 The complete Service Description for {{site.data.keyword.Bluemix_notm}} is available at [Cloud Services terms](http://www-03.ibm.com/software/sla/sladb.nsf/sla/bm){: new_window} ![External link icon](../icons/launch-glyph.svg "External link icon").
 
@@ -187,7 +188,7 @@ You're eligible for a credit toward your account if you experience downtime less
 - Cloud services in the public environment that are configured for high availability as described in the catalog details for each service. 
 - Cloud services across several dedicated or local environments in geographically separated data centers. 
 
-| Type	 | Description	       | Support Details|
+| Type	 | Description	 | Support Details|
 |-------------------------------------------------------------------------------|--------------------|----------------|
 | High Availability Public Environment or Multiple Dedicated/Local Environments | Other Environments | Credit         |
 | <99.95%                                                                       |<99.5%              |10%             |
