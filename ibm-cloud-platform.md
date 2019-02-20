@@ -23,8 +23,6 @@ The {{site.data.keyword.Bluemix_notm}} platform is composed of multiple componen
   * An identity and access management component that securely authenticates users for both platform services and controls access to resources consistently across {{site.data.keyword.Bluemix_notm}}
   * A search and tagging mechanism for filtering and identifying your resources
   * An account and billing management system that provides exact usage for pricing plans and secure credit card fraud protection
-  
-<!-- staging only - A logging service that is powered by LogDNA and a monitoring service that is powered by SysDig for robust logging and monitoring support. A status service that collects and displays planned and unplanned events, maintenance, security, and announcements notifications in the console and as emails -->
 
 ## Choosing your hosting environment
 {: #choose-compute}
@@ -41,7 +39,6 @@ You have various options for hosting your apps, giving you as much control over 
   * On high-performance {{site.data.keyword.baremetal_short}} 
 
 {{site.data.keyword.baremetal_short}} are single-tenant, physical servers that are dedicated to a single customer. You control almost everything from the server host to the RAM and storage devices. These servers are used with workloads that require compute power over a sustained time, for example, several months. 
-<!-- Some example workloads include e-commerce, ERP, CRM, SCM, and financial services and regulatory applications.-->
 
 {{site.data.keyword.BluVirtServers_short}} can be deployed as either as public or dedicated instances. With public instances, the resources of the server are shared with other customers, also known as a multi-tenant environment. Private instances dedicate the resources of the physical server to one customer who can have one or more virtual machines on the same server. These servers are ideal for workloads that run for a limited time, for example, a couple of weeks. Some workload examples are development and testing, backup and recovery, and disaster recovery. For more information about server options, see [Bare metal servers vs. virtual servers: Choosing the best option for you](https://www.ibm.com/blogs/bluemix/2018/06/bare-metal-virtual-servers-works/){: new_window} ![External link icon](../icons/launch-glyph.svg "External link icon").
 
@@ -107,12 +104,6 @@ With usage metering, service providers can submit metrics that are collected for
 
 Usage reports return the summary for the account for the specified month. Account billing managers are authorized to access the reports.
 
-<!-- staging only
-### Order management
-{: #order}
-
-Order management manages the lifecycle of Orders and Line Items. It is responsible for processing Orders and Line Item from different billing systems such as DSW, GAIA, and IMS. It also fuels `whiskey`, which is Operation Dashboard for {{site.data.keyword.Bluemix_notm}} Orders. -->
-
 ## {{site.data.keyword.Bluemix_notm}} catalog
 {: #catalog}
 
@@ -141,25 +132,3 @@ A collection of resources is managed by [resource groups](/docs/overview?topic=o
 The search service is a global and shared resource properties repository that is integrated within the {{site.data.keyword.Bluemix_notm}} platform. It is used for storing and searching a cloud resource's attributes, and it categorizes and classifies resources. Resources are uniquely identified by a [Cloud Resource Name (CRN)](/docs/overview?topic=overview-crn) identifier. The properties of a resource include tags and system properties. Both properties are defined within an {{site.data.keyword.Bluemix_notm}} billing account, and span across many regions.
 
 This service also manages tags that are associated with a resource. You can create, delete, search, attach, or detach tags with the Tagging API. Tags are uniquely identified by a CRN identifier. Tags have a name, which must be unique within a billing account. You can create tags in key:value pairs or label format.
-
- <!–– Staging only below this comment ––>
-
-## Monitoring and logging for your apps and services
-{: #observe}
-
-{{site.data.keyword.Bluemix_notm}} platform provides integrated logging powered by LogDNA, and integrated monitoring powered by Sysdig.
-
-### LogAnalysis with LogDNA
-{: #LogDNA}
-
-Use IBM Log Analysis with LogDNA to gain insights into your system and application logs.
-
-### Monitoring with SysDig
-{: #SysDig}
-
-TBD
-
-## Status and notifications
-{: #status-service}
-
-{{site.data.keyword.Bluemix_notm}} provides a platform status service that collects and displays planned and unplanned events, maintenance, security, and announcement notifications. You can view the status of your services by region and type, as well as view notifications across the platform. Additionally, you can set email preferences that are associated with critical notifications.
