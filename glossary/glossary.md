@@ -3,7 +3,7 @@
 
 copyright:
   years: 2016, 2019
-lastupdated: "2019-02-08"
+lastupdated: "2019-02-21"
 
 
 ---
@@ -21,32 +21,6 @@ The following cross-references are used in this glossary:
 
 - *See* refers you from a nonpreferred term to the preferred term or from an abbreviation to the spelled-out form.
 - *See also* refers you to a related or contrasting term.
-
-<!--If you do not want letter links at the top of your
-glossary, delete the text between these comment tags.
-[A](#glossa)
-[B](#glossb)
-[C](#glossc)
-[D](#glossd)
-[E](#glosse)
-[F](#glossf)
-[G](#glossg)
-[H](#glossh)
-[I](#glossi)
-[J](#glossj)
-[L](#glossl)
-[M](#glossm)
-[N](#glossn)
-[O](#glosso)
-[P](#glossp)
-[R](#glossr)
-[S](#glosss)
-[T](#glosst)
-[U](#glossu)
-[V](#glossv)
-[W](#glossw)
-
--->
 
 ## A
 {: #glossa}
@@ -253,6 +227,11 @@ A program that runs unattended to perform continuous or periodic functions, such
 
 A user interface component that provides a comprehensive summary of pertinent information from various sources to the user.
 
+### data center (DC)
+{: #x2439906}
+
+The physical location of the servers that provide cloud services.
+
 ### data store
 {: #x2052849}
 
@@ -363,6 +342,11 @@ See [globally unique identifier](#x2390455).
 
 ## H
 {: #glossh}
+
+### hardware virtual machine mode (HVM)
+{: #x9736811}
+
+Hardware-assisted full virtualization. A virtual machine uses resources from the host computer to operate as a complete hardware environment. The host operating system is unaware of the virtual client.
 
 ### heavy API call
 {: #x7690468}
@@ -582,6 +566,11 @@ The grouping methodology for users in IBM Cloud. Orgs are used to manage quotas.
 
 See [platform as a service](#x2029786).
 
+### paravirtualized mode
+{: #x9736806}
+
+A lightweight virtualization technique. While in paravirtualized mode, a virtual machine does not require virtualization extensions from the host computer, thus allowing virtualization on hardware systems that do not support hardware-assisted virtualization.
+
 ### parent image
 {: #x8439210}
 
@@ -664,7 +653,7 @@ A defined geographic territory. A region could be a specific postal code area, a
 ### registry
 {: #x2064940}
 
-A public or private repository that contains images used to create containers. See also [container](#x2010901), [image](#x2024928).
+A public or private container image storage and distribution service. See also [container](#x2010901), [image](#x2024928).
 
 ### Representational State Transfer (REST)
 {: #x3220976}
