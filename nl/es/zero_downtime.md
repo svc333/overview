@@ -41,7 +41,7 @@ La lista siguiente incluye los requisitos del plan de recuperación ante desastr
 - Para el equilibrio de carga, existe un documento que sirve para explicar cómo permanece disponible el servicio de cálculo. 
 - Cuando se produce una migración tras error multisitio, el plan de recuperación ante desastre debe explicar qué es lo que hace cada cosa para que se haya producido la migración tras error y garantizar el reinicio. 
 - El plan de recuperación ante desastre debe definir cómo funciona la solución y cuál es la pérdida de datos. 
-- Debe confirmar cómo se obtiene el tiempo de inactividad máximo tolerable y almacenarse en la base de datos del plan de recuperación ante desastre.  
+- Debe confirmar cómo se obtiene el tiempo de inactividad máximo tolerable y almacenarse en la base de datos del repositorio del plan de recuperación ante desastre.  
 - El plan de recuperación ante desastre especifica los controles de seguridad para la ejecución en la modalidad de desastre, en caso de que sean distintos de los que se ejecutan en la producción. 
 
 ### Gestión del plan de recuperación ante desastre 

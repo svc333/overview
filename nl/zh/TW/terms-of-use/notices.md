@@ -4,8 +4,8 @@
 
 copyright:
 
-  years: 2015, 2018
-lastupdated: "2018-10-04"
+  years: 2015, 2019
+lastupdated: "2019-01-14"
 
 
 ---
@@ -24,7 +24,7 @@ lastupdated: "2018-10-04"
 您的 IBM Cloud 帳戶與從 IBM Cloud 訂購的任何服務，係依下列條款提供：
 
   * 您適用的基本合約雲端條款如下：
-    * 適用於美元信用卡計費的 SoftLayer 雲端服務合約，可從 [http://www.softlayer.com/legal](http://www.softlayer.com/legal){: new_window} ![外部鏈結圖示](../../icons/launch-glyph.svg) 取得
+    * 適用於美元信用卡計費的 SoftLayer 雲端服務合約，可從 [https://www.ibm.com/support/customer/zz/en/softlayer.html](https://www.ibm.com/support/customer/zz/en/softlayer.html){: new_window} ![外部鏈結圖示](../../icons/launch-glyph.svg) 取得
     * 適用於非美元信用卡計費的 IBM 雲端服務合約（當地國家/地區版本*），或是如果您選取從 IBM 開立發票，則提供於 [https://www.ibm.com/terms](https://www.ibm.com/terms){: new_window} ![外部鏈結圖示](../../icons/launch-glyph.svg)（請選取您的國家/地區）；
     * 您已接受之 IBM Passport Advantage 合約及 IBM Passport Advantage Client 之「雲端產品使用條款」的一般條款，可從 [http://www-03.ibm.com/software/sla/sladb.nsf/sla/tou](http://www-03.ibm.com/software/sla/sladb.nsf/sla/tou){: new_window}![外部鏈結圖示](../../icons/launch-glyph.svg) 取得；或
     * 與 IBM 之間的同等雲端服務基本合約條款；
@@ -54,7 +54,7 @@ International Business Machines Corporation 或其子公司 (IBM) 擁有指派�
 ### 2. 客戶提供的 IP 位址
 {: #client_provided_ips}
 
-「客戶」可透過提交支援問題單並提供「授權書」以指定「客戶」擁有之 IP 字首，提供由「區域網際網路登錄 (RIR)」發出的自有 IP 位址，惟受特定技術限制及所有權之驗證。若 IBM 核准要求，該等 IP 位址將透過「客戶」之「邊界閘道通訊協定 (BGP)」，代替「客戶」公告，並遞送至所識別之「客戶」伺服器。「客戶」保留那些 IP 位址的所有權。於「客戶」要求或取消服務時，IBM 將停止公告及遞送這些 IP 位址。IBM 將盡合理的努力，確保 BGP 字首為所有上游 ISP 所接受，但不保證「客戶」擁有之 IP 的全球可達性。 
+「客戶」可透過提交支援案例並提供「授權書」以指定「客戶」擁有之 IP 字首，提供由「區域網際網路登錄 (RIR)」發出的自有 IP 位址，惟受特定技術限制及所有權之驗證。若 IBM 核准要求，該等 IP 位址將透過「客戶」之「邊界閘道通訊協定 (BGP)」，代替「客戶」公告，並遞送至所識別之「客戶」伺服器。「客戶」保留那些 IP 位址的所有權。於「客戶」要求或取消服務時，IBM 將停止公告及遞送這些 IP 位址。IBM 將盡合理的努力，確保 BGP 字首為所有上游 ISP 所接受，但不保證「客戶」擁有之 IP 的全球可達性。 
 
 ### 3. 審查 / 理由 / 效率準則
 {: #review_justification_efficiency}

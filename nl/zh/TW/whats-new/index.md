@@ -2,9 +2,9 @@
 
 copyright:
 
-  years: 2015, 2018
+  years: 2015, 2019
 
-lastupdated: "2018-12-20"
+lastupdated: "2019-01-22"
 
 ---
 
@@ -37,7 +37,7 @@ lastupdated: "2018-12-20"
 
 登入之後，您可以從 Access (IAM) 使用者介面的「使用者」頁面中看到包括平台及標準基礎架構使用者在內的所有使用者。視您在帳戶中檢視其他使用者的存取權而定，您可以依帳戶使用者、標準基礎架構使用者或 Cloud Foundry 組織快速過濾視圖。您也可以使用過濾器，依名稱、電子郵件或狀態來快速尋找使用者。
 
-既然，您的所有使用者都在單一主控台中，您就可以從相同位置管理所有類型資源的存取權。存取是從使用者開始，因此請從清單中選取一位使用者即可開始。然後，視您要指派存取權的資源類型而定，您可以從 IAM 存取原則、Cloud Foundry 存取或標準基礎架構許可權中進行選擇。如果您只想要指派 IAM 存取原則，請試著建立存取群組來簡化存取管理程序，方法是將所有使用者新增至需要指派相同原則的相同存取群組中。
+既然，您的所有使用者都在單一主控台中，您就可以從相同位置管理所有類型資源的存取權。存取是從使用者開始，因此請從清單選取一位使用者即可開始。然後，視您要指派存取權的資源類型而定，您可以從 IAM 存取原則、Cloud Foundry 存取或標準基礎架構許可權中進行選擇。如果您只想要指派 IAM 存取原則，請試著建立存取群組來簡化存取管理程序，方法是將所有使用者新增至需要指派相同原則的相同存取群組中。
 
 如需詳細資料，請參閱 [Outstanding User Access Improvements Help Deliver a Unified {{site.data.keyword.Bluemix_notm}} Platform](https://www.ibm.com/blogs/bluemix/2018/11/ibm-cloud-access-management){: new_window} ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")。 
 
@@ -345,7 +345,7 @@ Identity and Access Management (IAM) 現在可讓您建立「服務 ID」，您�
  * 「狀態」頁面上的增進功能，包括對影響 {{site.data.keyword.Bluemix_notm}} 平台及運行環境的突發事件進行更精細地診斷。
  * 「安全報告及日誌」頁面的增進功能：
    * 現在會以表格格式顯示報告，以簡化報告的瀏覽及搜尋（包括依報告種類、檔名或建立日期進行排序的能力）。
-   * 加強型過濾（包括同時過濾多個種類）
+   * 加強型進行過濾（包括同時過濾多個種類）
    * 顯示報告內容的全螢幕模式
    * 讓具有「報告寫入」許可權的管理使用者可刪除報告
    * 更快速地顯示報告清單，並透過連續捲動漸進式地依需求載入，產生較佳的整體效能。
@@ -362,6 +362,27 @@ Identity and Access Management (IAM) 現在可讓您建立「服務 ID」，您�
 
 ## 運算
 {: #compute_category}
+
+### IBM Cloud 認證的基礎架構特性
+文件日期：2019 年 1 月 22 日
+
+新特性現在提供於 SAP HANA 及 SAP NetWeaver {{site.data.keyword.cloud_notm}} SAP 認證的基礎架構供應項目。
+
+#### 多節點儲存空間
+適用於線上分析程序 (OLAP) 工作負載（例如 SAP Business Warehouse (SAP BW) 及 SAP BW/4HANA）的 SAP HANA 多節點儲存空間。SAP HANA 多節點的 {{site.data.keyword.cloud_notm}} 解決方案包含多達 15+1 個節點（15 個工作者節點，加上一個待命節點），一個系統可以使用最多 30 TB 的記憶體。若要開始使用，請參閱[配置 {{site.data.keyword.cloud_notm}} 基礎架構以支援 SAP HANA 多節點](/docs/infrastructure/sap-hana/hana-multi-node.html#multi-node-storage)
+
+
+#### 高可用性
+針對 SAP HANA 及 SAP NetWeaver 支援高可用性 (HA) 解決方案。解決方案是以受支援的 OS 版本為基礎，並受限於伴隨部署而來的訂購 OS 授權，或是協力廠商授權，例如自帶授權 (BYOL)。若要開始使用，請按一下[這裡](/docs/infrastructure/sap-hana/hana-ha.html#ha)（適用於 SAP HANA）及[這裡](/docs/infrastructure/sap-netweaver/sap-ha.html#ha)（適用於 SAP NetWeaver）。
+  
+#### SAP Content Server
+SAP Content Server 是獨立式元件，用來儲存大量任何格式且具有任何內容的電子文件。若要使用 SAP Content Server，您的 SAP 應用程式必須支援使用它。若要開始使用，請參閱 [SAP Content Server](/docs/infrastructure/sap-netweaver/sap-content-server.html#content-server)。
+
+#### SAP MaxDB
+SAP MaxDB 適用於 SAP NetWeaver。若要開始使用，請參閱[關於 {{site.data.keyword.cloud_notm}} SAP 認證的基礎架構](/docs/infrastructure/sap-netweaver/sap-about.html#about_ibmcloud_for_sap)。
+
+#### SAP Business One
+SAP Business One 是專為中小型企業設計的企業資源規劃 (ERP) 軟體。它將您的核心商業功能 - 會計與財務、採購與庫存、銷售與客戶關係，以及專案管理與作業 - 合併為一個應用程式。如需相關資訊，請參閱[開始使用](/docs/infrastructure/sap-b1/b1-index.html#getting-started)。
 
 ### 虛擬伺服器特性
 文件日期：2018 年 11 月 16 日
@@ -437,6 +458,20 @@ Liberty 建置套件 3.9 版提供新的每月 Liberty 運行環境版本，並�
 ## 服務
 {: #services_category}
 
+### {{site.data.keyword.appid_short_notm}} 中可用的新特性
+文件日期：2018 年 12 月 22 日
+
+{{site.data.keyword.appid_short_notm}} 服務已引進新的進階特性，這些特性可強化鑑別及應用程式的安全。
+
+{{site.data.keyword.appid_short_notm}} 協助您新增不同類型的使用者鑑別到行動及 Web 應用程式。只需要幾行程式碼，您便可以新增鑑別，且不必管理基礎架構以隨著使用者基礎調整。請參閱下列加強功能，然後自行嘗試服務！
+
+多因子鑑別：您現在可以針對 Cloud Directory 使用電子郵件 MFA。將 MFA 設為開啟之後，使用者會被要求提供透過電子郵件收到的一次性代碼，以及他們的密碼。如果您正在使用企業登入搭配 SAML 2.0 或社交登入，您可以透過該身分提供者啟用 MFA。
+進階高階密碼：啟用進階密碼原則特性時，您可以針對 Cloud Directory 施行更安全的密碼。您可以配置一組使用密碼的規則，必須遵守例如使用者在鎖定之前可嘗試登入的次數，或是密碼多少次以內不得重複使用。
+
+進階安全特性有其他的定價元件。如需定價計算的相關資訊，請參閱[型錄](https://cloud.ibm.com/catalog/services/app-id)的定價小節。
+
+請參閱 [{{site.data.keyword.appid_short_notm}} 文件](/docs/services/appid/index.html)，今天就開始使用！
+
 ### {{site.data.keyword.backup_notm}} 簡介
 文件日期：2018 年 12 月 20 日
 
@@ -449,20 +484,20 @@ Liberty 建置套件 3.9 版提供新的每月 Liberty 運行環境版本，並�
 #### 具有多個 IP 位址的虛擬伺服器
 您現在可以使用多個非連續/連續 VIP IPv4 及 IPv6 位址來建立單一負載平衡虛擬伺服器。連結至虛擬伺服器的每一個 VIP 位址，都被視為個別虛擬伺服器。
 
-如需此特性的相關資訊，請參閱 Citrix 文章[多個 IP 虛擬伺服器 ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](https://docs.citrix.com/en-us/netscaler/12-1/load-balancing/load-balancing-customizing/multi-ip-virtual-servers.html){: new_window}。
+如需此特性的相關資訊，請參閱 Citrix 文章 [Multiple IP virtual servers ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](https://docs.citrix.com/en-us/netscaler/12-1/load-balancing/load-balancing-customizing/multi-ip-virtual-servers.html){: new_window}。
 
 #### SSL
-已針對 SSL 連線套用下列更新項目：
+已針對 SSL 連線套用下列更新：
  
 * 從 DEFAULT_BACKEND 密碼群組中移除低保護性密碼。 
 * 支援 Thales nShield® 外部 HSM 前端系統使用 ECDHE 密碼
 * 支援 SafeNet 網路外部 HSM 前端系統使用 ECDHE 密碼
 * 移除 SSLv2：從 12.1 版開始，NetScaler VPX 應用裝置不支援 SSLv2。
 
-如需有關 12.1 SSL 更新項目的詳細資料，請參閱 [Citrix 12.1 版本注意事項 ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](https://docs.citrix.com/en-us/netscaler/12-1/downloads/release-notes-12-1-48-13.html){: new_window}。
+如需 12.1 SSL 更新的詳細資料，請參閱 [Citrix 12.1 版本注意事項 ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](https://docs.citrix.com/en-us/netscaler/12-1/downloads/release-notes-12-1-48-13.html){: new_window}。
 
 #### GSLB 的服務群組支援
-您現在可以配置 IP 位址型服務群組、網域名稱型服務群組或 GSLB 的網域名稱型自動擴充服務群組。您也可以像單一服務一樣輕鬆地管理一個服務群組，並將服務群組連結至虛擬伺服器，以及將服務新增至群組。
+您現在可以為 GSLB 配置以 IP 位址為基礎的服務群組、以網域名稱為基礎的服務群組，或以網域名稱為基礎的自動調整服務群組。您也可以像單一服務一樣輕鬆地管理一群服務，並將服務群組連結至虛擬伺服器，以及將服務新增至群組。
 
 如需 GSLB 服務群組的相關資訊，請參閱 Citrix 文章[配置 GSLB 服務群組 ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](https://docs.citrix.com/en-us/netscaler/12/global-server-load-balancing/configure/configuring-a-gslb-service-group.html){: new_window}。
 

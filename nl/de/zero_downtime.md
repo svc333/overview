@@ -41,7 +41,7 @@ Die folgende Liste enthält die Anforderungen des Notfallwiederherstellungsplans
 - Für den Lastausgleich ist ein Dokument vorhanden, in dem erläutert wird, wie der Datenverarbeitungsservice verfügbar bleibt. 
 - Für den Fall, dass an mehreren Standorten ein Ausweichbetrieb stattfindet, muss der Disaster-Recovery-Plan erläutern, wer das Failover wodurch verursacht hat, und den Neustart sicherstellen. 
 - Der Disaster-Recovery-Plan muss definieren, wie die Lösung funktioniert und welcher Datenverlust aufgetreten ist. 
-- Er muss darlegen, wie die maximal tolerierbare Ausfallzeit eingehalten und in der Datenbank des Disaster-Recovery-Plans gespeichert wird.  
+- Er muss darlegen, wie die maximal tolerierbare Ausfallzeit eingehalten und in der Rep-Datenbank des Disaster-Recovery-Plans gespeichert wird.  
 - Der Notfallwiederherstellungsplan gibt die Sicherheitsmaßnahmen für die Ausführung im Notfallmodus an, sofern diese sich jeweils von denen in der Produktion unterscheiden. 
 
 ### Management des Disaster-Recovery-Plans 

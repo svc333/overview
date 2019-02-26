@@ -40,9 +40,9 @@ La liste suivante présente les exigences du plan de reprise après incident :
 
 - Pour l'équilibrage de charge, vous disposez d'un document décrivant comment le service de calcul reste disponible. 
 - Lorsqu'un basculement survient sur plusieurs sites, le plan de reprise après incident doit décrire les actions à l'origine du basculement et garantir le redémarrage. 
-- Il doit définir le mode de fonctionnement de la solution et indiquer la perte de données. 
-- Il doit garantir que le temps d'indisponibilité tolérable maximal est respecté. De plus, il doit être stocké dans la base de données de plan de reprise après incident.  
-- Il définit les contrôles de sécurité pour l'exécution en mode Sinistre s'ils sont différents de ceux utilisés lors de l'exécution en mode Production. 
+- Le plan de reprise après incident doit définir le mode de fonctionnement de la solution et indiquer la perte de données. 
+- Il doit garantir que le temps d'indisponibilité tolérable maximal est respecté et être stocké dans la base de données du plan de reprise après incident.  
+- Le plan de reprise après incident définit les contrôles de sécurité pour l'exécution en mode Sinistre s'ils sont différents de ceux utilisés lors de l'exécution en mode Production. 
 
 ### Gestion du plan de reprise après incident 
 

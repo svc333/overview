@@ -53,7 +53,8 @@ A lista a seguir inclui os requisitos do plano de recuperação de desastre:
 - Onde o failover multisite ocorre, o plano de recuperação de desastre deve explicar o que cada um deve fazer
 para causar o failover e assegurar a reinicialização. 
 - O plano de recuperação de desastre deve definir como a solução funciona e qual é a perda de dados. 
-- Ele deve confirmar como o Tempo Máximo de Inatividade Tolerável é atendido e ser armazenado no banco de dados do Plano de Recuperação de Desastres.  
+- Ele deve confirmar como o tempo de inatividade máximo tolerado é atendido e ser armazenado no banco de dados do
+repositório do plano de recuperação de desastre.  
 - O plano de recuperação de desastre especifica os controles de segurança para a execução no modo de desastre, caso eles
 sejam diferentes dos que estão em execução na produção. 
 

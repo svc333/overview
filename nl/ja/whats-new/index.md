@@ -162,7 +162,7 @@ SoftLayer アカウントを {{site.data.keyword.Bluemix_notm}} アカウント�
 ### {{site.data.keyword.Bluemix_notm}} Foundry Service 米国東部地域が使用可能になりました。
 最新情報: 2017 年 12 月 15 日
 
-ワシントン D.C. で新しい米国東部データ・センターが使用可能になりました。 この新規の地域には、`us-east.cloud.ibm.com` エンドポイント使用して到達できます。 この新規の地域で購入可能なサービスについて詳しくは、『[地域別のサービス](/docs/resources/services_region.html#services_region)』を参照してください。
+ワシントン D.C. で新しい米国東部データ・センターが使用可能になりました。 この新規の地域には、`us-east.bluemix.net` エンドポイント使用して到達できます。 この新規の地域で購入可能なサービスについて詳しくは、『[地域別のサービス](/docs/resources/services_region.html#services_region)』を参照してください。
 
 ### EU 内のリソースに関するサポート
 最新情報: 2017 年 12 月 14 日
@@ -369,20 +369,20 @@ Identity and Access Management (IAM) では、サービス ID を作成する機
 SAP HANA と SAP NetWeaver の両方に対する {{site.data.keyword.cloud_notm}} SAP 認定インフラストラクチャー・オファリングにより、新規フィーチャーが使用可能になりました。
 
 #### マルチノード・ストレージ
-SAP Business Warehouse (SAP BW) や SAP BW/4HANA などのオンライン分析処理 (OLAP) ワークロードのための SAP HANA マルチノード・ストレージ。 SAP HANA マルチノードの {{site.data.keyword.cloud_notm}} ソリューションは、最大で 15 + 1 個のノード (15 個のワーカー・ノードのほかに 1 個のスタンバイ) で構成され、1 つのシステムで使用されるメモリーは最大で 30 TB です。 最初に、[SAP HANA マルチノードをサポートする {{site.data.keyword.cloud_notm}} インフラストラクチャーの構成](/docs/infrastructure/sap-hana/hana-multi-node.html#multi-node-storage)を参照してください。
+SAP Business Warehouse (SAP BW) や SAP BW/4HANA などのオンライン分析処理 (OLAP) ワークロードのための SAP HANA マルチノード・ストレージ。SAP HANA マルチノードの {{site.data.keyword.cloud_notm}} ソリューションは、最大で 15 + 1 個のノード (15 個のワーカー・ノードのほかに 1 個のスタンバイ) で構成され、1 つのシステムで使用されるメモリーは最大で 30 TB です。最初に、[SAP HANA マルチノードをサポートする {{site.data.keyword.cloud_notm}} インフラストラクチャーの構成](/docs/infrastructure/sap-hana/hana-multi-node.html#multi-node-storage)を参照してください。
 
 
-#### 高可用性
-高可用性 (HA) ソリューションは、SAP HANA と SAP NetWeaver の両方でサポートされます。 このソリューションは、サポートされている OS バージョンに基づいており、デプロイメントに伴う注文された OS ライセンス、または独自ライセンスの使用 (BYOL) などのサード・パーティー・ライセンスに制限されています。 最初に、SAP HANA については [ここ](/docs/infrastructure/sap-hana/hana-ha.html#ha) を、SAP NetWeaver については [ここ](/docs/infrastructure/sap-netweaver/sap-ha.html#ha) をクリックしてください。
+#### 高可用性 
+高可用性 (HA) ソリューションは、SAP HANA と SAP NetWeaver の両方でサポートされます。このソリューションは、サポートされている OS バージョンに基づいており、デプロイメントに伴う注文された OS ライセンス、または独自ライセンスの使用 (BYOL) などのサード・パーティー・ライセンスに制限されています。最初に、SAP HANA については [ここ](/docs/infrastructure/sap-hana/hana-ha.html#ha) を、SAP NetWeaver については [ここ](/docs/infrastructure/sap-netweaver/sap-ha.html#ha) をクリックしてください。
   
 #### SAP コンテンツ・サーバー
-SAP コンテンツ・サーバーは、あらゆる形式のあらゆるコンテンツを含む大量の電子文書を保存するためのスタンドアロン・コンポーネントです。 SAP コンテンツ・サーバーを使用するには、SAP アプリケーションがその使用をサポートしている必要があります。 最初に、[SAP コンテンツ・サーバー](/docs/infrastructure/sap-netweaver/sap-content-server.html#content-server)を参照してください。
+SAP コンテンツ・サーバーは、あらゆる形式のあらゆるコンテンツを含む大量の電子文書を保存するためのスタンドアロン・コンポーネントです。SAP コンテンツ・サーバーを使用するには、SAP アプリケーションがその使用をサポートしている必要があります。最初に、[SAP コンテンツ・サーバー](/docs/infrastructure/sap-netweaver/sap-content-server.html#content-server)を参照してください。
 
 #### SAP MaxDB
-SAP MaxDB は SAP NetWeaver で使用できます。 最初に、[{{site.data.keyword.cloud_notm}} SAP 認定インフラストラクチャーについて](/docs/infrastructure/sap-netweaver/sap-about.html#about_ibmcloud_for_sap)を参照してください。
+SAP MaxDB は SAP NetWeaver で使用できます。最初に、[{{site.data.keyword.cloud_notm}} SAP 認定インフラストラクチャーについて](/docs/infrastructure/sap-netweaver/sap-about.html#about_ibmcloud_for_sap)を参照してください。
 
 #### SAP Business One
-SAP Business One は、中小企業向けに特に設計された Enterprise Resource Planning (ERP) ソフトウェアです。 会計と財務、購買と在庫、販売と顧客の関係、プロジェクト管理とオペレーションのコアビジネス機能を 1 つのアプリケーションに統合します。 詳しくは、[はじめに (Getting started)](/docs/infrastructure/sap-b1/b1-index.html#getting-started) を参照してください。
+SAP Business One は、中小企業向けに特に設計された Enterprise Resource Planning (ERP) ソフトウェアです。会計と財務、購買と在庫、販売と顧客の関係、プロジェクト管理とオペレーションのコアビジネス機能を 1 つのアプリケーションに統合します。詳しくは、[はじめに (Getting started)](/docs/infrastructure/sap-b1/b1-index.html#getting-started) を参照してください。
 
 ### 仮想サーバーのフィーチャー
 最新情報: 2018 年 11 月 16 日
@@ -436,7 +436,7 @@ SAP Business One は、中小企業向けに特に設計された Enterprise Res
 ### 新しい Liberty for Java ビルドパック v3.11
 最新情報: 2017 年 7 月 17 日
 
-Liberty ビルドパック v3.11 は、新規の月次の Liberty ランタイム・バージョンを提供し、その他の改善も含んでいます。 月次の Liberty ランタイム・バージョンは  [2017.7.0.0](https://developer.ibm.com/wasdev/blog/2017/07/07/beta-websphere-liberty-tools-july-2017/) リリースに更新されました。 IBM JDK は 8.0.4.7 バージョンおよび 7.1.4.5 バージョンに更新されました。 このビルドパックは、アプリ管理ユーティリティーおよび Auto-Scaling エージェントの更新されたバージョンも提供します。 デフォルトの Cloudant ライブラリーが公式の  [java-cloudant](https://github.com/cloudant/java-cloudant) になりました。[Ektorp ライブラリー](https://github.com/helun/Ektorp)は、オプションとして引き続き使用可能です。この変更について詳しくは、[ブログ投稿](https://www.ibm.com/blogs/bluemix/2017/05/default-library-change-cloudant-auto-wiring-liberty-buildpack/)を参照してください。 アプリケーションのメモリーが 512 MB 未満の場合、デフォルトのヒープ・サイズ率は 50 % となりました。512 MB よりも多い場合は引き続き 75 % です。新しいステージング・タスク・ログが生成されるようになり、これによりステージング・エラーのデバッグが容易になります。 追加情報については、[最新の更新](/docs/runtimes/liberty/updates.html)の文書を参照してください。
+Liberty ビルドパック v3.11 は、新規の月次の Liberty ランタイム・バージョンを提供し、その他の改善も含んでいます。 月次の Liberty ランタイム・バージョンは  [2017.7.0.0](https://developer.ibm.com/wasdev/blog/2017/07/07/beta-websphere-liberty-tools-july-2017/) リリースに更新されました。 IBM JDK は 8.0.4.7 バージョンおよび 7.1.4.5 バージョンに更新されました。 このビルドパックは、アプリ管理ユーティリティーおよび Auto-Scaling エージェントの更新されたバージョンも提供します。 デフォルトの Cloudant ライブラリーが公式の  [java-cloudant](https://github.com/cloudant/java-cloudant) になりました。[Ektorp ライブラリー](https://github.com/helun/Ektorp)は、オプションとして引き続き使用可能です。この変更について詳しくは、[ブログ投稿](https://www.ibm.com/blogs/bluemix/2017/05/default-library-change-cloudant-auto-wiring-liberty-buildpack/)を参照してください。 アプリケーションのメモリーが 512 MB 未満の場合、デフォルトのヒープ・サイズ率は 50 % となりました。512 MB よりも多い場合は引き続き 75 % です。新しいステージング・タスク・ログが生成されるようになり、これによりステージング・エラーのデバッグが容易になります。 追加情報については、[最新の更新](https://console.ng.bluemix.net/docs/runtimes/liberty/updates.html)の文書を参照してください。
 
 ### 新しい Liberty for Java ビルドパック v3.10
 最新情報: 2017 年 6 月 12 日
@@ -463,12 +463,12 @@ Liberty ビルドパック v3.9 は、新規の月次の Liberty ランタイム
 
 {{site.data.keyword.appid_short_notm}} サービスは、認証とアプリのセキュリティーを強化する新しい拡張機能を導入しました。
 
-{{site.data.keyword.appid_short_notm}} は、さまざまな種類のユーザー認証をモバイルおよび Web アプリに追加するのに役立ちます。 数行のコードで認証を追加して、ユーザー・ベースで拡張するためのインフラストラクチャーの管理について気にする必要がなくなります。 次の機能拡張を確認して、ご自分でサービスを試してみてください。
+{{site.data.keyword.appid_short_notm}} は、さまざまな種類のユーザー認証をモバイルおよび Web アプリに追加するのに役立ちます。数行のコードで認証を追加して、ユーザー・ベースで拡張するためのインフラストラクチャーの管理について気にする必要がなくなります。次の機能拡張を確認して、ご自分でサービスを試してみてください。
 
-多要素認証: Cloud Directory に E メール・ベースの MFA を使用できるようになりました。 MFA をオンに設定すると、ユーザーはパスワードに加えて、E メールで受け取った 1 回限りのコードを提供するように求められます。 SAML 2.0 またはソーシャル・ログインでエンタープライズ・サインインを使用している場合は、そのID プロバイダーを通じて MFA を有効にできます。
-拡張パスワード・ポリシー: 拡張パスワード・ポリシー・フィーチャーを有効にすると、Cloud Directory のパスワードをより安全に適用できます。 パスワードの一連のルールを構成して、ユーザーがロックアウトされるまでにサインインを試行できる回数や、パスワードを繰り返し使用できる回数を制限することができます。
+多要素認証: Cloud Directory に E メール・ベースの MFA を使用できるようになりました。MFA をオンに設定すると、ユーザーはパスワードに加えて、E メールで受け取った 1 回限りのコードを提供するように求められます。SAML 2.0 またはソーシャル・ログインでエンタープライズ・サインインを使用している場合は、そのID プロバイダーを通じて MFA を有効にできます。
+拡張パスワード・ポリシー: 拡張パスワード・ポリシー・フィーチャーを有効にすると、Cloud Directory のパスワードをより安全に適用できます。パスワードを使用する一連のルールを、ユーザーがサインインの試行を繰り返すとロックアウトされる、その試行回数や、1 つのパスワードを繰り返して使用することができない回数などに準拠する必要があるというように構成できます。
 
-拡張セキュリティー・フィーチャーには、追加の価格設定コンポーネントがあります。 価格設定の計算方法の詳細については、[カタログ](https://cloud.ibm.com/catalog/services/app-id)の価格設定のセクションを参照してください。
+拡張セキュリティー・フィーチャーには、追加の価格設定コンポーネントがあります。価格設定の計算方法の詳細については、[カタログ](https://cloud.ibm.com/catalog/services/app-id)の価格設定のセクションを参照してください。
 
 [{{site.data.keyword.appid_short_notm}} 資料](/docs/services/appid/index.html)を確認して、今日から始めてください。
 
@@ -552,7 +552,7 @@ Terraform および Ansible は、クラウド・ソリューションのデプ�
 ### {{site.data.keyword.iva_full_notm}} 一般出荷可能日の紹介
 最新情報: 2018 年 6 月 26 日
 
-[{{site.data.keyword.iva_full}}](https://cloud.ibm.com/catalog/services/voice-agent-with-watson)![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン") が一般出荷可能になりました。 顧客が電話で通話したり話しかけたりすることができる、Watson サービスをベースとするコグニティブ・ボイス・エージェントを作成できます。 バックボーンに Watson の人工知能があるため、ボイス・エージェントは会話のようにコミュニケーションすることができ、ボイス・エージェント内で複雑な対話を処理したり顧客の通話を解決したりすることができます。
+[{{site.data.keyword.iva_full}}](https://console.bluemix.net/catalog/services/voice-agent-with-watson)![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン") が一般出荷可能になりました。 顧客が電話で通話したり話しかけたりすることができる、Watson サービスをベースとするコグニティブ・ボイス・エージェントを作成できます。 バックボーンに Watson の人工知能があるため、ボイス・エージェントは会話のようにコミュニケーションすることができ、ボイス・エージェント内で複雑な対話を処理したり顧客の通話を解決したりすることができます。
 
 このリリースでは、以下の新機能が導入されています。
 
@@ -571,7 +571,7 @@ Terraform および Ansible は、クラウド・ソリューションのデプ�
 この新しいコンテナー・ベースのインフラストラクチャーには [v2 サービス・プラン](/docs/services/StreamingAnalytics/service_plans.html#service_plans)を使用してアクセスできます。 行う必要のある作業に最も適した {{site.data.keyword.streaminganalyticsshort}} プランを選択できます。 v2 サービス・プランに含まれる機能拡張を以下に示します。
  
 * [IBM Streams QSE with Docker](https://www-01.ibm.com/marketing/iwm/iwm/web/preLogin.do?source=swg-ibmistvi)![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン"): Docker 環境で稼働する新しい Streams QSE (RHEL 7 上) を使用して、新しい {{site.data.keyword.streaminganalyticsshort}} v2 プランでアプリケーションをコンパイルおよびデプロイする方法については、[ Development Guide](https://developer.ibm.com/streamsdev/docs/cloud-beta-devguide/)![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン") を参照してください。 
-* [{{site.data.keyword.streaminganalyticsshort}} v2 REST API](https://cloud.ibm.com/apidocs/1939-streaming-analytics-v2#introduction)![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")
+* [{{site.data.keyword.streaminganalyticsshort}} v2 REST API](https://console.bluemix.net/apidocs/1939-streaming-analytics-v2#introduction)![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")
 * [新しいスターターおよびサンプル・アプリケーション](https://developer.ibm.com/streamsdev/docs/cloud-beta-samples/) ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")
 * [{{site.data.keyword.streaminganalyticsshort}} サービスへのハイ・アベイラビリティー機能拡張](/docs/services/StreamingAnalytics/c_ha.html#consistent-regions)
 * [Problem determination features in the {{site.data.keyword.streaminganalyticsshort}} service](https://developer.ibm.com/streamsdev/2018/02/15/streaming-analytics-console-gives-ways-find-fix-errors-beta-plans/)![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")
@@ -580,7 +580,7 @@ Terraform および Ansible は、クラウド・ソリューションのデプ�
 ### {{site.data.keyword.iva_full_notm}} は、現在ベータになりました。
 最新情報: 2018 年 3 月 16 日
 
-[{{site.data.keyword.iva_full}}](https://cloud.ibm.com/catalog/services/voice-agent-with-watson)![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン") を使用すると、顧客が電話で通話したり話しかけたりすることができる、Watson サービスをベースとするコグニティブ・ボイス・エージェントを作成できます。 バックボーンに Watson の人工知能があるため、ボイス・エージェントは会話のようにコミュニケーションすることができ、ボイス・エージェント内で複雑な対話を処理したり顧客の通話を解決したりすることができます。
+[{{site.data.keyword.iva_full}}](https://console.bluemix.net/catalog/services/voice-agent-with-watson)![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン") を使用すると、顧客が電話で通話したり話しかけたりすることができる、Watson サービスをベースとするコグニティブ・ボイス・エージェントを作成できます。 バックボーンに Watson の人工知能があるため、ボイス・エージェントは会話のようにコミュニケーションすることができ、ボイス・エージェント内で複雑な対話を処理したり顧客の通話を解決したりすることができます。
 
 このベータ版には、以下の主要機能が用意されています。
 
@@ -603,10 +603,10 @@ Terraform および Ansible は、クラウド・ソリューションのデプ�
 ### {{site.data.keyword.streaminganalyticsshort}} の更新
 最新情報: 2018 年 2 月 14 日
 
-[{{site.data.keyword.streaminganalyticsshort}} サービス](https://cloud.ibm.com/catalog/services/streaming-analytics){: new_window}![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")内のコンソールの [ベータ - エントリー・プランおよびベータ - エンハンスト・プラン](/docs/services/StreamingAnalytics/beta_plans.html#beta_plans)には、いくつかの機能拡張が含まれています。
+[{{site.data.keyword.streaminganalyticsshort}} サービス](https://console.bluemix.net/catalog/services/streaming-analytics){: new_window}![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")内のコンソールの [ベータ - エントリー・プランおよびベータ - エンハンスト・プラン](/docs/services/StreamingAnalytics/beta_plans.html#beta_plans)には、いくつかの機能拡張が含まれています。
 
 * [新しい IBM Streams QSE for Docker](https://www-01.ibm.com/marketing/iwm/iwm/web/preLogin.do?source=swg-ibmistvi){: new_window} ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン"): 新しい Streams QSE を、 Docker 環境で稼働する RHEL 7 と共に使用し、新しい {{site.data.keyword.streaminganalyticsshort}} ベータ・プランでアプリケーションをコンパイルおよびデプロイする方法については、『[Beta Development Guide](https://developer.ibm.com/streamsdev/docs/cloud-beta-devguide/){: new_window} ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")』を確認してください。
-* [{{site.data.keyword.streaminganalyticsshort}} v2 REST API](https://cloud.ibm.com/apidocs/1939-streaming-analytics-v2#introduction){: new_window} ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")
+* [{{site.data.keyword.streaminganalyticsshort}} v2 REST API](https://console.bluemix.net/apidocs/1939-streaming-analytics-v2#introduction){: new_window} ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")
 * [新しいスターターおよびサンプル・アプリケーション](https://developer.ibm.com/streamsdev/docs/cloud-beta-samples/)
 * [{{site.data.keyword.streaminganalyticsshort}} サービスへのハイ・アベイラビリティー機能拡張](/docs/services/StreamingAnalytics/consistentregions.html#consistentregions)
 * [New problem determination features in the beta version of the {{site.data.keyword.streaminganalyticsshort}} service](https://developer.ibm.com/streamsdev/2018/02/15/streaming-analytics-console-gives-ways-find-fix-errors-beta-plans/){: new_window} ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")
@@ -632,7 +632,7 @@ Terraform および Ansible は、クラウド・ソリューションのデプ�
 
 エンティティー、関係、概念などの、テキスト内で検出された意味的要素を {{site.data.keyword.discoveryshort}} が理解することにより視覚的に接続を探索します。
 
-すぐに使用可能な {{site.data.keyword.discoveryshort}} News コレクションによって、世界のニュースの探索を開始します。 あるいは、{{site.data.keyword.discoveryshort}} で自分自身の文書コレクションを探索します。 自分の {{site.data.keyword.Bluemix_notm}} 資格情報を使用して単にログインしてください。 詳しくは、[Visual insights experimental](https://visual-insights.cloud.ibm.com){: new_window} ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン") を参照してください。
+すぐに使用可能な {{site.data.keyword.discoveryshort}} News コレクションによって、世界のニュースの探索を開始します。 あるいは、{{site.data.keyword.discoveryshort}} で自分自身の文書コレクションを探索します。 自分の {{site.data.keyword.Bluemix_notm}} 資格情報を使用して単にログインしてください。 詳しくは、[Visual insights experimental](https://visual-insights.bluemix.net){: new_window} ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン") を参照してください。
 
 ### 新しい IBM Cloud Managed Database Server ベータ版サービス
 最新情報: 2017 年 11 月 30 日
@@ -692,7 +692,7 @@ Apple は、Apple 通知用に HTTP プロトコルのサポートを導入し�
 * [Building charts for Adapter analytics using IBM Bluemix Mobile Analytics service and IBM Mobile Foundation Service](https://mobilefirstplatform.ibmcloud.com/blog/2017/04/26/adapter-analytics-using-analytics-and-dashdb-analytics-service/){: new_window} ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")
 
 #### {{site.data.keyword.mobilefirst_notm}} ボイラープレートには、{{site.data.keyword.mobileanalytics_short}} が含まれるようになりました。
-モバイル・サービス・ボイラープレートは、ユーザーが素早く使用を開始できるように一連のモバイル・サービスを提供するテンプレートです。 {{site.data.keyword.mobileanalytics_short}} サービスは、[カタログ](https://cloud.ibm.com/catalog/starters/mobilefirst-services-starter){: new_window} ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン") で提供されているボイラープレートの一部になりました。
+モバイル・サービス・ボイラープレートは、ユーザーが素早く使用を開始できるように一連のモバイル・サービスを提供するテンプレートです。 {{site.data.keyword.mobileanalytics_short}} サービスは、[カタログ](https://console.bluemix.net/catalog/starters/mobilefirst-services-starter){: new_window} ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン") で提供されているボイラープレートの一部になりました。
 
 
 ### {{site.data.keyword.streaminganalyticsshort}} の更新
