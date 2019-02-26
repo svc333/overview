@@ -2,7 +2,7 @@
 {:topicgroup: .topicgroup}
 {:download: .download}
 
-{: .toc subcollection="overview" audience="platform" arm="3816100" href="/docs/overview/ibm-cloud.html" path="overview"}
+{: .toc subcollection="overview" audience="platform" arm="3816100" href="/docs/overview?topic=overview-whatis-platform" path="overview"}
 Introdução ao IBM Cloud
 
     {: .navgroup id="learn"}

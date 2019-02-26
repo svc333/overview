@@ -2,8 +2,8 @@
 
 
 copyright:
-  years: 2015, 2018
-lastupdated: "2018-11-28"
+  years: 2015, 2019
+lastupdated: "2019-01-29"
 
 ---
 
@@ -43,14 +43,14 @@ comunicados e eventos planejados e não planejados.
 
 É possível procurar recursos por nome ou por tag de qualquer lugar no console do {{site.data.keyword.cloud_notm}} para recursos que você espera localizar na lista de recursos. Digite o nome de um recurso ou uma tag no campo de procura na barra de menus do console.
 
-Para obter mais informações, consulte [Procurando recursos](/docs/resources/searching.html#searching-for-resources). 
+Para obter mais informações, consulte [Procurando recursos](/docs/resources?topic=resources-searching-for-resources). 
 
 ## Gerenciando recursos na lista de recursos
 {: #dashboardview}
 
 Acesse o ícone Menu ![Ícone Menu](../icons/icon_hamburger.svg) &gt; **Lista de
 recursos** para acessar a sua lista de recursos da conta. É possível usar a lista de recursos para visualizar
-e trabalhar com os recursos do {{site.data.keyword.cloud_notm}} e as instâncias de serviço do Cloud Foundry. Para obter mais informações sobre os diferentes tipos de recursos, consulte [ O que é um recurso?](/docs/resources/acct_resources.html#resource).
+e trabalhar com os recursos do {{site.data.keyword.cloud_notm}} e as instâncias de serviço do Cloud Foundry. Veja [O que é um recurso?](/docs/resources?topic=resources-resource) para obter mais informações sobre os diferentes tipos de recursos.
 
 ### Visualizando recursos
 É possível visualizar todos os recursos em sua conta em todas as regiões por meio da lista de recursos. Para ver os
@@ -62,7 +62,7 @@ você desejar visualizar e trabalhar com recursos em uma localização específi
 É possível trabalhar com os recursos de várias maneiras por meio da lista de recursos:
 
   * Cada recurso é exibido em sua própria linha e um ícone Ações ![Ícone Mais ações](../icons/action-menu-icon.svg) é incluído no término da linha. Clique no ícone Ações ![Ícone Mais ações](../icons/action-menu-icon.svg) para iniciar, parar, renomear ou excluir um recurso.
-  * Para configurar credenciais ou conexões para um recurso, clique no nome do recurso para navegar para a página de detalhes do recurso. Em seguida, selecione **Credenciais de serviço** ou **Conexões**. Para obter mais informações, consulte [Incluindo uma credencial](/docs/resources/service_credentials.html) e [Gerenciando conexões](/docs/resources/connecting_apps.html#connect_app).
+  * Para configurar credenciais ou conexões para um recurso, clique no nome do recurso para navegar para a página de detalhes do recurso. Em seguida, selecione **Credenciais de serviço** ou **Conexões**. Para obter mais informações, consulte [Incluindo uma credencial](/docs/resources?topic=resources-service_credentials) e [Gerenciando conexões](/docs/resources?topic=resources-connect_app).
 
 
 ## Trabalhando no catálogo

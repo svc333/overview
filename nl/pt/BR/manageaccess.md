@@ -2,9 +2,9 @@
 
 copyright:
 
-  years: 2017, 2018
+  years: 2017, 2019
 
-lastupdated: "2018-11-05"
+lastupdated: "2019-02-18"
 
 ---
 
@@ -31,6 +31,7 @@ configure as funções de acesso de organização e de espaço do Cloud Foundry 
 ** Acessar (IAM)** na guia do Cloud Foundry para o usuário ao qual deseja designar acesso.
 
 ## Permissões para gerenciamento de acesso
+{: #perms-manageaccess}
 
 Como um proprietário da conta, é possível gerenciar o acesso a todos os recursos em sua conta. Também é possível delegar
 a tarefa de gerenciamento de acesso aos recursos da plataforma designando a um usuário em sua conta a função de
@@ -43,6 +44,7 @@ instâncias na organização ou no espaço gerenciado por eles.
 
 
 ## Introdução
+{: #cloudaccess-getstarted}
 
 Acesse **Gerenciar** &gt; **Acessar (IAM)**e, então, selecione
 **Usuários** para começar a gerenciar o acesso para os usuários na sua conta. Selecione um usuário da lista para começar. São exibidas apenas as opções de gerenciamento de acesso para as quais você tem permissão para gerenciar. Por exemplo, se você não for o proprietário da conta e não for um gerenciador de organização ou espaço, não verá a opção para gerenciar o acesso ao Cloud Foundry.

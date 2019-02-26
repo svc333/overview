@@ -2,8 +2,8 @@
 
 
 copyright:
-  years: 2016, 2018
-lastupdated: "2018-11-30"
+  years: 2016, 2019
+lastupdated: "2019-01-31"
 
 ---
 
@@ -11,10 +11,9 @@ lastupdated: "2018-11-30"
 {:new_window: target="_blank"}
 
 # O que é a plataforma {{site.data.keyword.Bluemix_notm}}?
-{: #whatis}
+{: #whatis-platform}
 
-A plataforma em nuvem da IBM combina a plataforma como um serviço (PaaS) com a infraestrutura como um serviço (IaaS) para fornecer uma experiência integrada. 
-A plataforma escala e suporta pequenas equipes de desenvolvimento e organizações e grandes empresas corporativas. Globalmente
+A plataforma em nuvem da IBM combina a plataforma como um serviço (PaaS) com a infraestrutura como um serviço (IaaS) para fornecer uma experiência integrada. A plataforma escala e suporta pequenas equipes de desenvolvimento e organizações e grandes empresas corporativas. Globalmente
 implementada em data centers em todo o mundo, a solução que você constrói no {{site.data.keyword.cloud}} inicia
 rapidamente e é executada de forma confiável em um ambiente testado e suportado no qual é possível confiar.
 {: .shortdesc}
@@ -60,23 +59,20 @@ Consulte a tabela a seguir para obter um resumo das opções de cálculo.
 
 | Opção | Descrição | 
 |--------|---------------|
-| [{{site.data.keyword.baremetal_short}}](/docs/bare-metal/about.html)  | Servidores de locatário único, por hora ou mensais, que são dedicados a você e não compartilhados em nenhuma parte, incluindo os recursos do servidor, com outros clientes. |
-| [{{site.data.keyword.BluVirtServers_short}}](/docs/vsi/vsi_about.html) | Servidores virtuais escaláveis que são comprados com núcleos dedicados e alocações de memória. |
-| [{{site.data.keyword.vmwaresolutions_short}}](/docs/services/vmwaresolutions/vmonic/prod_overview.html) | Integração ou migração rápida e contínua das cargas de trabalho do VMware no local usando infraestrutura escalável,
-segura e de alto desempenho e a tecnologia de virtualização híbrida do VMware líder do mercado. |
-| [{{site.data.keyword.containerlong_notm}}](/docs/containers/cs_why.html) | Combina os contêineres do Docker, a tecnologia do Kubernetes, uma experiência de usuário intuitiva e a segurança e o
-isolamento integrados para automatizar a implementação, a operação, o ajuste de escala e o monitoramento de apps
-armazenados em contêiner em um cluster de hosts de cálculo. |
-| [{{site.data.keyword.cfee_full_notm}}](/docs/cloud-foundry/index.html) | Instanciação de múltiplas plataformas Cloud Foundry isoladas de classificação corporativa sob demanda. |
-| [{{site.data.keyword.openwhisk_short}}](/docs/openwhisk/index.html) | Uma plataforma de programação Functions-as-a-Service (FaaS) baseada no Apache OpenWhisk. |
+| [{{site.data.keyword.baremetal_short}}](/docs/bare-metal?topic=bare-metal-getting-started)  | Servidores de locatário único, por hora ou mensais, que são dedicados a você e não compartilhados em nenhuma parte, incluindo os recursos do servidor, com outros clientes. |
+| [{{site.data.keyword.BluVirtServers_short}}](/docs/vsi?topic=virtual-servers-about-public-virtual-servers#public-virtual-servers) | Servidores virtuais escaláveis que são comprados com núcleos dedicados e alocações de memória. |
+| [{{site.data.keyword.vmwaresolutions_short}}](/docs/services/vmwaresolutions?topic=vmware-solutions-getting-started#getting-started) | Integração ou migração rápida e contínua das cargas de trabalho do VMware no local usando infraestrutura escalável, segura e de alto desempenho e a tecnologia de virtualização híbrida do VMware líder do mercado. |
+| [{{site.data.keyword.containerlong_notm}}](/docs/containers?topic=containers-container_index) | Combina os contêineres do Docker, a tecnologia do Kubernetes, uma experiência de usuário intuitiva e a segurança e o isolamento integrados para automatizar a implementação, a operação, o ajuste de escala e o monitoramento de apps armazenados em contêiner em um cluster de hosts de cálculo. |
+| [{{site.data.keyword.cfee_full_notm}}](/docs/cloud-foundry?topic=cloud-foundry-about) | Instanciação de múltiplas plataformas Cloud Foundry isoladas de classificação corporativa sob demanda. |
+| [{{site.data.keyword.openwhisk_short}}](/docs/openwhisk?topic=cloud-functions-index) | Uma plataforma de programação Functions-as-a-Service (FaaS) baseada no Apache OpenWhisk. |
 {: caption="Tabela 1. Opções de cálculo" caption-side="top"}
 
 ## Construindo aplicativos
 {: #build-apps}
 
-Se você tem [código existente](/docs/apps/tutorials/tutorial_byoc.html) que deseja modernizar e trazer
+Se você tem [código existente](/docs/apps/tutorials?topic=creating-apps-tutorial-byoc#tutorial-byoc) que deseja modernizar e trazer
 para a nuvem ou está desenvolvendo um [aplicativo
-novo](/docs/apps/tutorials/tutorial_starter-kit.html), seus desenvolvedores podem acessar o ecossistema disponível de serviços e estruturas de tempo de execução
+novo](/docs/apps/tutorials?topic=creating-apps-tutorial-starterkit), seus desenvolvedores podem acessar o ecossistema disponível de serviços e estruturas de tempo de execução
 que cresce continuamente no {{site.data.keyword.Bluemix_notm}}.
 
 [Guias de programação](https://cloud.ibm.com/docs/home/build){: new_window}
@@ -92,12 +88,12 @@ Com mais de 190 serviços para escolher no catálogo, é possível construir uma
 às suas necessidades. Também é possível facilmente conectar os serviços aos apps fora do
 {{site.data.keyword.Bluemix_notm}}, caso isso se ajuste ao seu caso de uso. É possível gerar um novo conjunto de credenciais para os casos em que você deseja conectar manualmente um consumidor externo a um serviço do {{site.data.keyword.Bluemix_notm}}. Por
 exemplo, se você está tentando conectar um app fora do {{site.data.keyword.Bluemix_notm}} a um serviço do
-Watson, gere uma nova credencial para conectá-los. É simples assim! Para obter mais informações, consulte [Incluindo uma credencial](/docs/resources/service_credentials.html#service_credentials).
+Watson, gere uma nova credencial para conectá-los. É simples assim! Para obter mais informações, consulte [Incluindo uma credencial](/docs/resources?topic=resources-service_credentials).
 
 ## Configurando sua conta
+{: #set-up-account}
 
-Se você está apenas tentando sair do {{site.data.keyword.Bluemix_notm}}, é possível ir diretamente para o
-catálogo e começar a verificar os serviços que gostaria de explorar e incluir em sua conta para Teste ou Lite. No entanto, se
+Se você estiver apenas experimentando o {{site.data.keyword.Bluemix_notm}}, será possível ir direto ao catálogo e começar a verificar as ofertas que você gostaria de explorar e incluir em sua conta Lite. No entanto, se
 você está pronto para começar com um ambiente para um grupo de desenvolvedores ou uma organização inteira e
 colocar os apps em execução na produção, considere configurar o básico em sua conta:
 
@@ -109,106 +105,70 @@ fácil.
 ou das funções de organização e de espaço do Cloud Foundry.
 
 Para obter mais informações, consulte as [melhores práticas
-para configurar a conta](/docs/account/bp_account.html#account_setup) e [melhores práticas para designar acesso](/docs/iam/bp_access.html). Além
-disso, se você está pronto para entrar de cabeça, confira as peças e as partes da [hierarquia da conta](/docs/account/account_overview.html#overview).
+para configurar a conta](/docs/account?topic=account-account_setup) e [melhores práticas para designar acesso](/docs/iam?topic=iam-account_setup). 
 
 ## Precificação e faturamento
+{: #pricing-billing}
 
 Independentemente de seu tipo de conta, é possível explorar o {{site.data.keyword.Bluemix_notm}} usando os
 planos Lite para os serviços que fornecem cota grátis. Quando você estiver escolhendo um serviço no catálogo e
 selecionar um bloco, se houver diferentes tipos de planos disponíveis, será possível ver detalhes sobre as informações de
 precificação. Se você escolher um plano de serviço com um plano pago, será possível estimar os custos usando a
-ferramenta Estimador de custo. Para obter mais informações, consulte [Estimando os custos](/docs/billing-usage/estimating_costs.html#cost).
+ferramenta Estimador de custo. Para obter mais informações, consulte [Estimando os custos](/docs/billing-usage?topic=billing-usage-cost).
 
 O faturamento do {{site.data.keyword.Bluemix_notm}} fornece múltiplos serviços que asseguram que a
 plataforma {{site.data.keyword.Bluemix_notm}} possa gerenciar com segurança a precificação, as contas, o uso e mais.
 
-### Gerenciamento de conta do {{site.data.keyword.Bluemix_notm}}
-{: #account}
+### Gerenciamento de conta
+{: #account-mgmt}
 
-O gerenciamento de conta mantém o relacionamento de faturamento com o cliente. Cada conta é uma entidade de faturamento que representa um cliente. Esse
-serviço controla o ciclo de vida da conta, a assinatura da conta, o relacionamento com o usuário da conta e a organização da conta.
+O gerenciamento de conta mantém o relacionamento de faturamento com o cliente. Cada conta é uma entidade de faturamento que representa um cliente. Esse serviço controla o ciclo de vida da conta, a assinatura, o relacionamento do usuário e a organização.
 
-### Precificação do {{site.data.keyword.Bluemix_notm}}
+### Venda
 {: #pricing}
 
-O serviço de plataforma de precificação do {{site.data.keyword.Bluemix_notm}} ajuda os usuários a definir,
-gerenciar e recuperar as informações de preço dos recursos no catálogo do {{site.data.keyword.Bluemix_notm}}.
+O serviço de plataforma de precificação ajuda a definir, gerenciar e recuperar informações de precificação para recursos no catálogo do {{site.data.keyword.Bluemix_notm}}.
 
-### Coletor de medição do {{site.data.keyword.Bluemix_notm}}
+### Medição de uso
 {: #metering}
 
-A medição de uso do {{site.data.keyword.Bluemix_notm}} é um serviço de plataforma que permite que os provedores
-de serviços enviem as métricas coletadas para as instâncias de recursos que são fornecidas pelos usuários do
-{{site.data.keyword.Bluemix_notm}}. Os provedores de serviços de terceiro que entregam um serviço de faturamento integrado no {{site.data.keyword.Bluemix_notm}} são necessários para enviar o uso para todas as instâncias de serviço ativas a cada hora. O
-envio é importante porque a incapacidade de relatar o uso pode levar à perda de coleta de renda para a IBM que, por sua
-vez, causa a perda de participação de renda para o provedor de serviços de terceiro.
+Com a medição de uso, os provedores de serviços podem enviar as métricas coletadas para instâncias de recursos provisionadas por usuários do {{site.data.keyword.Bluemix_notm}}. Os provedores de serviços de terceiros que entregam um serviço de faturamento integrado precisam enviar o uso de todas as instâncias de serviço ativo a cada hora. 
 
-## {{site.data.keyword.Bluemix_notm}}  Gerenciamento de Identidade e Acesso (IAM)
-{: #iam}
+### Relatórios de uso
+{: #usage}
 
-O {{site.data.keyword.Bluemix_notm}} Identity and Access Management (IAM) permite que você
-autentique usuários com segurança para os serviços de plataforma e controle o acesso aos recursos de forma
-consistente na plataforma. {{site.data.keyword.Bluemix_notm}} Para obter mais detalhes, consulte [O que é IAM?](/docs/iam/index.html) O
-IAM fornece comandos da CLI e APIs que ajudam a gerenciar os tokens, os grupos de acesso e as políticas.
-
-
-## Criando recursos
-{: #provisioning-layer}
-
-O controlador de recurso é a camada de fornecimento da plataforma {{site.data.keyword.Bluemix_notm}} de próxima geração que gerencia o ciclo de vida de recursos do {{site.data.keyword.Bluemix_notm}} em uma conta do cliente. Os
-recursos são fornecidos globalmente em um escopo de conta. O controlador de recurso suporta o fornecimento síncrono e assíncrono de recursos. A camada de fornecimento é responsável por controlar e rastrear o ciclo de vida de recursos em uma conta do cliente. Os
-recursos são componentes físicos ou lógicos que podem ser fornecidos ou reservados para um aplicativo ou
-instância de serviço. Exemplos de recursos incluem bancos de dados, contas e processadores, memória e limites de armazenamento. Em geral, os
-recursos controlados pela camada de fornecimento destinam-se a associar as métricas de uso e o faturamento, mas esse nem sempre é o
-caso. Em alguns casos, o recurso pode ser associado à camada de fornecimento para assegurar que o ciclo de vida de recurso possa ser gerenciado junto com o ciclo de vida da conta. O controlador de recurso usa o IAM para autenticação e autorização de ações que são tomadas com relação à camada de fornecimento.
-
-### Gerenciamento de ciclo de vida de recurso
-{: #lifecycle}
-
-O controlador de recurso fornece APIs comuns para controlar o ciclo de vida de recursos desde o fornecimento (criação de uma
-instância) até a ligação (criação de credenciais de acesso), a desvinculação (remoção do acesso) e a remoção do
-fornecimento (exclusão de uma instância).
-
-O controlador de recurso fornece APIs para ajudar a gerenciar os seguintes elementos do ciclo de vida do recurso:
-* Fornecimento
-* Atualizando uma instância de recurso
-* Ligação
-* Chaves de recursos
-* Desvinculando
-* Desprovimento
-
-
-## Gerenciando os recursos
-{: #resource-manager}
-
-
-O gerenciador de recursos do {{site.data.keyword.Bluemix_notm}} gerencia a coleção de recursos por
-[grupos de recursos](/docs/overview/resource-groups.html#whatis). Um grupo de recursos pertence a uma conta. Todos
-os recursos do {{site.data.keyword.Bluemix_notm}} devem ser fornecidos dentro de um grupo de recursos. Se uma conta for suspensa, o grupo de recursos correspondente também será suspenso e todos os recursos no grupo de recursos serão suspensos. Quando um usuário cria uma conta, um grupo de recursos padrão é criado na conta. Todos
-os recursos ativados para IAM do {{site.data.keyword.Bluemix_notm}} devem ser fornecidos dentro de um grupo de recursos. Se uma conta for suspensa, o grupo de recursos correspondente também será suspenso e todos os recursos no grupo de recursos serão suspensos. Para a conta padrão, um usuário pode ter somente um grupo de recursos. Para uma conta da assinatura ou pré-paga, um usuário tem permissão para criar mais de um grupo de recursos. 
-
+Os relatórios de uso retornam o resumo da conta do mês especificado. Os gerenciadores de faturamento da conta estão autorizados a acessar os relatórios.
 
 ## Catálogo do {{site.data.keyword.Bluemix_notm}}
 {: #catalog}
 
-O catálogo do {{site.data.keyword.Bluemix_notm}} armazena as definições de oferta (descrição, recursos, imagens, URLs e assim por diante) dos recursos que são exibidos no console do {{site.data.keyword.Bluemix_notm}}. O
-serviço de catálogo gerencia as ofertas pelas geografias como o sistema de registro. O catálogo suporta CLIs e uma API
-de RESTful na qual é possível recuperar informações sobre as ofertas existentes e criar, gerenciar e excluir suas
-ofertas. Inicie com a URL base e use os terminais para recuperar metadados sobre os serviços no catálogo e gerenciar a
-visibilidade do serviço. Dependendo do tipo de objeto, os metadados podem incluir informações sobre precificação, fornecimento, regiões e mais. Para obter mais informações, consulte [Gerenciando a documentação do catálogo](/docs/overview/catalog.html#global-catalog-overview).
+O catálogo do {{site.data.keyword.Bluemix_notm}} armazena as definições de oferta (descrição, recursos, imagens, URLs e assim por diante) dos recursos disponíveis no console do {{site.data.keyword.Bluemix_notm}}. As ofertas são gerenciadas em geografias como o sistema de registro. O catálogo suporta interfaces de linha de comandos (CLIs) e uma API de RESTful na qual os usuários podem recuperar informações sobre ofertas existentes e criar, gerenciar e excluir seus recursos. Para obter mais informações, consulte [Gerenciando o catálogo](/docs/overview?topic=overview-manage-catalog).
+
+## Criando recursos
+{: #provisioning-layer}
+
+O controlador de recurso é a camada de fornecimento da plataforma {{site.data.keyword.Bluemix_notm}} de última geração que gerencia o ciclo de vida de recursos do {{site.data.keyword.Bluemix_notm}} em sua conta. Os
+recursos são fornecidos globalmente em um escopo de conta. O controlador de recurso suporta o fornecimento síncrono e assíncrono de recursos. Exemplos de recursos incluem bancos de dados, contas e processadores, memória e limites de armazenamento. 
+
+Em geral, os
+recursos controlados pela camada de fornecimento destinam-se a associar as métricas de uso e o faturamento, mas esse nem sempre é o
+caso. Em alguns casos, o recurso pode ser associado à camada de fornecimento para assegurar que o ciclo de vida do recurso possa ser gerenciado junto com o ciclo de vida da conta. O controlador de recurso usa o {{site.data.keyword.Bluemix_notm}} Identity and Access Management (IAM) para autenticação e autorização de ações que são executadas na camada de fornecimento.
+
+### Gerenciamento de ciclo de vida de recurso
+{: #lifecycle}
+
+O controlador de recurso fornece APIs comuns para controlar o ciclo de vida de recursos, da criação de uma instância à criação de credenciais de acesso à remoção do acesso à exclusão de uma instância.
+
+## Gerenciando os recursos
+{: #resource-manager}
+
+Uma coleção de recursos é gerenciada por [grupos de recursos](/docs/overview?topic=overview-whatis-rgs). Um grupo de recursos é associado à sua conta. Todos os recursos do {{site.data.keyword.Bluemix_notm}} devem ser designados a um grupo de recursos. Quando você cria uma conta, um grupo de recursos padrão é criado para você. Todos os recursos do {{site.data.keyword.Bluemix_notm}} ativados pelo IAM devem ser provisionados em um grupo de recursos. Se você tiver uma conta Lite, será possível ter apenas um grupo de recursos. Se você tiver uma conta Pré-paga ou de Assinatura, será possível criar mais de um grupo de recursos. Se uma conta for suspensa, o grupo de recursos correspondente também será suspenso e todos os recursos no grupo de recursos serão suspensos. 
 
 ## Procurando e identificando recursos
 {: #search-and-tag}
 
-O serviço de procura é um repositório de propriedades do recurso global e compartilhado que é integrado na plataforma {{site.data.keyword.Bluemix_notm}}. Ele
-é usado para armazenar e procurar os atributos do recurso em nuvem. Ele categoriza e classifica os recursos. Um recurso é controlado e de propriedade dos provedores de recursos na plataforma {{site.data.keyword.Bluemix_notm}}, como o Cloud Foundry, o IBM Containers ou o Resource Controller. Os
-recursos são identificados exclusivamente por um identificador [Cloud Resource
-Name](/docs/overview/crn.html#crn) (CRN). As propriedades de um recurso incluem as tags e as propriedades do sistema. Ambas as propriedades são
+O serviço de procura é um repositório de propriedades do recurso global e compartilhado que é integrado na plataforma {{site.data.keyword.Bluemix_notm}}. Ele é usado para armazenamento e procura de atributos de um recurso de nuvem e categoriza e classifica recursos. Os recursos são identificados exclusivamente por um identificador [Nome do recurso em nuvem (CRN)](/docs/overview?topic=overview-crn). As propriedades de um recurso incluem as tags e as propriedades do sistema. Ambas as propriedades são
 definidas dentro de uma conta de faturamento do {{site.data.keyword.Bluemix_notm}} e abrangem muitas regiões.
 
 Esse serviço também gerencia as tags associadas a um recurso. É possível criar, excluir, procurar, anexar ou
-remover as tags com a API de identificação. A tags são identificadas exclusivamente por um identificador Cloud
-Resource Naming (CRN). As tags têm um nome, que deve ser exclusivo em uma conta de faturamento. É possível criar tags
-no formato do rótulo ou `key:value`.
-
+remover as tags com a API de identificação. As tags são identificadas exclusivamente por um identificador CRN. As tags têm um nome, que deve ser exclusivo em uma conta de faturamento. É possível criar tags em pares de chave:valor ou no formato de rótulo.

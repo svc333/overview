@@ -2,8 +2,8 @@
 
 
 copyright:
-  years: 2018
-lastupdated: "2018-09-04"
+  years: 2018, 2019
+lastupdated: "2019-02-18"
 
 ---
 
@@ -29,6 +29,7 @@ ou uma solicitação para esclarecimento sobre um assunto específico.
 {{site.data.keyword.Bluemix_notm}}.
 
 ## Enviando um comentário com o botão de feedback
+{: #feedback-button}
 
 Ao ler uma página de documentação ou concluir uma tarefa dentro do console, é possível
 localizar um botão de feedback na borda da página. Clique no botão **Feedback** para
@@ -47,6 +48,7 @@ Os bloqueadores de anúncios comuns bloqueiam o Usabilla e ocultam o botão **Fe
 {: tip}
 
 ## Fornecendo uma atualização de conteúdo com uma solicitação pull
+{: #feedback-pr}
 
 É possível enviar mudanças sugeridas para qualquer página da documentação usando o link **Editar
 no GitHub** na parte superior de cada página. Seguindo esse link e editando a página, é possível
@@ -65,6 +67,7 @@ opcional.
 8. Selecione **Criar solicitação pull**. 
 
 ## Abrindo um problema para a documentação
+{: #feedback-docissue}
 
 É possível abrir um problema para que a equipe de conteúdo resolva por meio de qualquer página
 da documentação. Em seu problema, forneça os detalhes sobre a melhoria que você gostaria de ver. Por exemplo,

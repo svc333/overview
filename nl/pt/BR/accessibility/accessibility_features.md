@@ -3,8 +3,8 @@
 
 
 copyright:
-  years: 2018
-lastupdated: "2018-11-30"
+  years: 2018, 2019
+lastupdated: "2019-02-18"
 
 
 ---
@@ -13,11 +13,13 @@ lastupdated: "2018-11-30"
 {:new_window: target="_blank"}
 
 # Recursos de Acessibilidade para o {{site.data.keyword.Bluemix_notm}}
+{: #accessibility-platform}
 
 Os recursos de acessibilidade ajudam usuários com deficiência, tais como mobilidade restrita ou visão limitada, a utilizarem o conteúdo de tecnologia da informação com êxito.
 {:shortdesc}
 
 ## Recursos de Acessibilidade
+{: #features-platform}
 
 {{site.data.keyword.Bluemix_notm}} inclui os principais recursos de acessibilidade a seguir:
 
@@ -30,6 +32,7 @@ A documentação do produto on-line do {{site.data.keyword.Bluemix_notm}} e a es
 
 
 ## Informações sobre a interface
+{: #interface-info}
  
 Revise as informações a seguir sobre a interface com o usuário do {{site.data.keyword.Bluemix_notm}}:
 
@@ -40,6 +43,7 @@ Revise as informações a seguir sobre a interface com o usuário do {{site.data
 
 
 ## Informações Relacionadas à Acessibilidade
+{: #related-info}
 
 O status de conformidade de acessibilidade da interface com o usuário da web do {{site.data.keyword.Bluemix_notm}} é especificamente para a plataforma do produto {{site.data.keyword.Bluemix_notm}}. Há sub-seções da interface com o usuário que são de propriedade de produtos de terceiro ou serviços que hospedam o conteúdo dentro da plataforma, para o qual o registro de conformidade do {{site.data.keyword.Bluemix_notm}} não mantém ou possui o status de conformidade de acessibilidade. Isso significa que se você estiver acessando qualquer interface com o usuário ou a documentação para um serviço, deverá solicitar as instruções de conformidade para esse serviço. Por exemplo, se você está usando uma interface para o IBM Containers, o Console de Administração para um ambiente local ou dedicado ou um serviço do IoT, deve-se solicitar [informações de acessibilidade do produto ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")](http://www-03.ibm.com/able/product_accessibility/index.html){: new_window} para essa interface ou documentação.
 
@@ -52,5 +56,6 @@ Serviço de TTY (teletipo)
 (na América do Norte)
 
 ## IBM e a acessibilidade
+{: #accessibility-ibm}
 
 Para obter mais informações sobre o compromisso que a IBM tem para com a acessibilidade, consulte [Acessibilidade IBM![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")](http://www.ibm.com/able){: new_window}.

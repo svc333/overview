@@ -1,10 +1,10 @@
 ---
 
 copyright:
+  years: 2018, 2019
+lastupdated: "2019-02-07"
 
-  years: 2018
-
-lastupdated: "2018-11-28"
+metadata: HA,failover,DR 
 
 ---
 
@@ -40,6 +40,7 @@ localização. Para assegurar que a recuperação de desastre esteja em vigor, �
 ambientes {{site.data.keyword.Bluemix_notm}} em múltiplas localizações para evitar pontos únicos de falha. Esses ambientes podem ser uma combinação de plataformas Public, Dedicated ou Local.  
 
 ### Plano de recuperação de desastre 
+{: #dr-plan}
 
 O {{site.data.keyword.Bluemix_notm}} segue requisitos para o planejamento de um desastre e cada aplicativo tem
 um plano para recuperação ou reinicialização após um evento de desastre. A recuperação é feita por meio de backups
@@ -53,12 +54,12 @@ A lista a seguir inclui os requisitos do plano de recuperação de desastre:
 - Onde o failover multisite ocorre, o plano de recuperação de desastre deve explicar o que cada um deve fazer
 para causar o failover e assegurar a reinicialização. 
 - O plano de recuperação de desastre deve definir como a solução funciona e qual é a perda de dados. 
-- Ele deve confirmar como o tempo de inatividade máximo tolerado é atendido e ser armazenado no banco de dados do
-repositório do plano de recuperação de desastre.  
+- Ele deve confirmar como o Tempo Máximo de Inatividade Tolerável é atendido e ser armazenado no banco de dados do Plano de Recuperação de Desastres.  
 - O plano de recuperação de desastre especifica os controles de segurança para a execução no modo de desastre, caso eles
 sejam diferentes dos que estão em execução na produção. 
 
 ### Gerenciamento do plano de recuperação de desastre 
+{: #dr-plan-mgmt}
 
 Os requisitos que o {{site.data.keyword.Bluemix}} segue são: 
 
@@ -78,7 +79,7 @@ Para resolver problemas de segurança, também é possível selecionar a localiz
 aplicativo. Ao construir os aplicativos em mais de uma localização, se uma delas se tornar indisponível, os
 aplicativos que estiverem nas outras localizações continuarão a ser executados. A sua permissão de recurso será a mesma
 para cada localização que você usar. Para obter mais informações sobre os recursos da plataforma e as localizações em que estão
-disponíveis, consulte [Disponibilidade de serviço](/docs/resources/services_region.html#services_region).
+disponíveis, consulte [Disponibilidade de serviço](docs/resources?topic=resources-services_region).
 
 O balanceamento de carga global para o console do {{site.data.keyword.cloud_notm}} assegura que, se a localização
 geográfica mais próxima para você estiver indisponível, o console exibirá as informações para a próxima localização mais
@@ -96,7 +97,7 @@ api` e especificar o terminal de API da localização. Por exemplo, insira o com
 {{site.data.keyword.cloud_notm}} Londres:
 
 ```
-Ibmcloud api https://api.eu-gb.bluemix.net
+ibmcloud api https://api.eu-gb.cf.cloud.ibm.com
 ```
 
 Um prefixo exclusivo é designado para cada localização. O {{site.data.keyword.cloud_notm}} fornece as
@@ -104,11 +105,12 @@ localizações e os prefixos de localização a seguir.
 
 | **Localização**  | **Endpoint da API**        |
 |---------------|-------------------------|
-| Dallas        | api.ng.bluemix.net      |
-| Sydney        | api.au-syd.bluemix.net  |
-| Frankfurt     | api.eu-de.bluemix.net   |
-| Londres        | api.eu-gb.bluemix.net   |
-| Washington DC | api.us-east.bluemix.net |
+| Dallas        | api.us-south.cf.cloud.ibm.com  |
+| Frankfurt     | api.eu-de.cf.cloud.ibm.com  |
+| Londres        | api.eu-gb.cf.cloud.ibm.com  |
+| Sydney        | api.au-syd.cf.cloud.ibm.com  |
+| Tóquio         | api.jp-tok.cf.cloud.ibm.com  |
+| Washington DC | api.us-east.cf.cloud.ibm.com  |
 {: caption="Tabela 1. {{site.data.keyword.cloud_notm}}  lista de locais" caption-side="top"}
 
 Ao implementar os recursos de infraestrutura, você tem mais opções sobre onde seus dados estão localizados. É
@@ -212,13 +214,13 @@ O {{site.data.keyword.Bluemix_notm}} fornece SLAs para os serviços do {{site.da
 SLAs são a sua única maneira de resolver a falha do {{site.data.keyword.Bluemix_notm}} para atender um
 nível de serviço especificado. O {{site.data.keyword.Bluemix_notm}} fornece um nível de serviço de disponibilidade 99,5% para múltiplas instâncias de um serviço de plataforma dentro de um ambiente único dedicado ou local.
 
-Para obter mais informações sobre ambientes dedicados, consulte [IBM
-Cloud Dedicated](/docs/dedicated/index.html#dedicated) e para ambientes locais, clique em [Bluemix Local](/docs/local/index.html#local). 
+Para obter mais informações sobre ambientes dedicados, consulte [IBM Cloud Dedicated](/docs/hybrid?topic=dedicated-dedicated) e para ambientes locais, consulte [Bluemix Local](/docs/hybrid?topic=local-local). 
 
 A descrição completa do serviço para o {{site.data.keyword.Bluemix_notm}} está disponível em
 [Termos de serviços em nuvem](http://www-03.ibm.com/software/sla/sladb.nsf/sla/bm){: new_window} ![Ícone de link externo](../icons/launch-glyph.svg "Ícone de link externo").
 
 ### SLA de tempo de inatividade de disponibilidade 
+{: #avail-downtime}
 
 Você será elegível para um crédito em sua conta se você tiver menos tempo de inatividade do que a
 disponibilidade de 99,5%. O tempo de inatividade de disponibilidade é o total de minutos que você não consegue se conectar
@@ -229,7 +231,7 @@ O {{site.data.keyword.Bluemix_notm}} fornece um SLA de disponibilidade de 99,95%
 - Serviços de nuvem no ambiente público que são configurados para alta disponibilidade, conforme descrito nos detalhes do catálogo para cada serviço. 
 - Serviços de nuvem em vários ambientes dedicados ou locais em data centers separados geograficamente. 
 
-| Tipo	                                                                        | Descrição	       | Detalhes do suporte|
+| Tipo	 | Descrição	 | Detalhes do suporte|
 |-------------------------------------------------------------------------------|--------------------|----------------|
 | Ambientes públicos de alta disponibilidade ou múltiplos ambientes dedicados/locais | Outros ambientes | Crédito         |
 | <99,95%                                                                       |<99,5%              |10%             |
@@ -256,6 +258,7 @@ O SLA de tempo de inatividade de disponibilidade não inclui os serviços de inf
 {: note}
 
 ### SLAs de serviços de infraestrutura
+{: #iaas-slas}
 
 Os serviços de infraestrutura são servidores bare metal e virtuais, rede, armazenamento e serviços de
 segurança. Para localizar uma lista completa de serviços de infraestrutura, procure no catálogo do {{site.data.keyword.Bluemix_notm}} com a tag `iaas`. 
@@ -272,6 +275,8 @@ for menor que 30 minutos contínuos. O
 tempo de inatividade para diferentes tipos de indisponibilidade não pode ser combinado para atender a esse cálculo. 
 
 ### Substituição de hardware de infraestrutura e SLA de upgrade
+{: #hw-replaceupgrade-sla}
+
 O {{site.data.keyword.Bluemix_notm}} tenta minimizar o tempo de inatividade substituindo o hardware com falha ou
 executando um upgrade de hardware planejado. 
 
@@ -297,6 +302,8 @@ no encargo mensal para o serviço que é afetado pela substituição ou upgrade 
 {: caption="Tabela 7. Crédito com base no encargo mensal para o serviço que é afetado pela substituição ou upgrade de hardware" caption-side="top"}
 
 ### Solicitações
+{: #claims}
+
 Envie sua solicitação dentro de 60 dias do término do mês contratado em que o nível de serviço foi perdido. Forneça
 informações suficientes para identificar o serviço afetado, mensagens de erro e outras informações necessárias para
 validar a solicitação. 
@@ -307,6 +314,8 @@ um mês contratado e calculado usando os encargos mensais para esse serviço afe
 Para enviar uma solicitação de tempo de inatividade, entre em contato com o [suporte do {{site.data.keyword.Bluemix_notm}}](https://console.cloud.ibm.com/unifiedsupport/supportcenter){: new_window} ![Ícone de link externo](../icons/launch-glyph.svg "Ícone de link externo").
 
 ### Exclusões
+{: #exclusions}
+
 Nenhum crédito é fornecido para falha em atender a um SLA devido a:
 - Problemas com conteúdo, tecnologia, designs ou instruções fornecidos pelo cliente ou pela comunidade
 - Serviços de nuvem betas, experimentais ou gratuitos.
