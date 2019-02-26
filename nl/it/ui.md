@@ -2,8 +2,8 @@
 
 
 copyright:
-  years: 2015, 2018
-lastupdated: "2018-11-28"
+  years: 2015, 2019
+lastupdated: "2019-01-29"
 
 ---
 
@@ -11,7 +11,7 @@ lastupdated: "2018-11-28"
 {:tip: .tip}
 {:new_window: target="_blank"}
 
-# Navigazione nella console {{site.data.keyword.cloud_notm}}  
+# Navigazione nella console {{site.data.keyword.cloud_notm}} 
 {: #ui}
 
 La console {{site.data.keyword.cloud}} è un'interfaccia utente che ti aiuta a gestire tutte le tue risorse {{site.data.keyword.cloud_notm}}. Quando accedi alla [console](https://cloud.ibm.com){: new_window} ![Icona link esterno](../icons/launch-glyph.svg "Icona link esterno"), puoi creare un account gratuito, effettuare l'accesso, accedere alla documentazione, accedere al catalogo, consultare le informazioni sui prezzi, ottenere supporto o controllare lo stato dei componenti {{site.data.keyword.cloud_notm}}. Dopo aver eseguito l'accesso, la barra dei menu contiene un'icona Menu ![icona Menu](../icons/icon_hamburger.svg) e ulteriori link.
@@ -33,14 +33,14 @@ Quando accedi a {{site.data.keyword.cloud_notm}}, la prima pagina che puoi visua
 ## Ricerca delle risorse
 {: #search}
 
-Puoi eseguire le ricerca delle risorse per nome o per tag da qualsiasi parte nella console {{site.data.keyword.cloud_notm}} per le risorse che prevedi di trovare nell'elenco risorse. Immetti il nome di una risorsa o la tag nel campo di ricerca nella barra dei menu della console. 
+Puoi eseguire le ricerca delle risorse per nome o per tag da qualsiasi parte nella console {{site.data.keyword.cloud_notm}} per le risorse che prevedi di trovare nell'elenco risorse. Immetti il nome di una risorsa o la tag nel campo di ricerca nella barra dei menu della console.
 
-Per ulteriori informazioni, vedi [Ricerca delle risorse](/docs/resources/searching.html#searching-for-resources). 
+Per ulteriori informazioni, vedi [Ricerca delle risorse](/docs/resources?topic=resources-searching-for-resources). 
 
 ## Gestione delle risorse nell'elenco risorse
 {: #dashboardview}
 
-Vai all'icona Menu ![icona Menu](../icons/icon_hamburger.svg) &gt; **Elenco risorse** per accedere al tuo elenco di risorse dell'account. Puoi utilizzare l'elenco di risorse per visualizzare e gestire le risorse {{site.data.keyword.cloud_notm}} e le istanze del servizio Cloud Foundry. Per ulteriori informazioni sui diversi tipi di risorse, vedi [Cos'è una risorsa?](/docs/resources/acct_resources.html#resource).
+Vai all'icona Menu ![icona Menu](../icons/icon_hamburger.svg) &gt; **Elenco risorse** per accedere al tuo elenco di risorse dell'account. Puoi utilizzare l'elenco di risorse per visualizzare e gestire le risorse {{site.data.keyword.cloud_notm}} e le istanze del servizio Cloud Foundry. Vedi [Che cos'è una risorsa? ](/docs/resources?topic=resources-resource) per ulteriori informazioni sui diversi tipi di risorse.
 
 ### Visualizzazione delle risorse
 Puoi visualizzare tutte le risorse presenti nel tuo account nell'ambito di tutte le regioni dall'elenco risorse. Per visualizzare gli elementi importanti per te, filtra il tuo elenco con i filtri per ogni intestazione di colonna. Ad esempio, se vuoi visualizzare e gestire le risorse in una specifica ubicazione, espandi il filtro **Ubicazione** e seleziona un'ubicazione dall'elenco.
@@ -49,7 +49,7 @@ Puoi visualizzare tutte le risorse presenti nel tuo account nell'ambito di tutte
 Puoi gestire le tue risorse in vari modi utilizzando l'elenco risorse:
 
   * Ogni risorsa viene visualizzata nella relativa riga e un'icona Azioni ![Icona Altre azioni](../icons/action-menu-icon.svg) è inclusa alla fine della riga. Fai clic sull'icona Azioni ![Icona Altre azioni](../icons/action-menu-icon.svg) per avviare, arrestare, ridenominare o eliminare una risorsa.
-  * Per impostare credenziali o connessioni per una risorsa, fai clic sul nome della risorsa per accedere alla sua pagina dei dettagli. Seleziona quindi **Credenziali del servizio** o **Connessioni**. Per ulteriori informazioni, vedi [Aggiunta di una credenziale](/docs/resources/service_credentials.html) e [Gestione delle connessioni](/docs/resources/connecting_apps.html#connect_app).
+  * Per impostare credenziali o connessioni per una risorsa, fai clic sul nome della risorsa per accedere alla sua pagina dei dettagli. Seleziona quindi **Credenziali del servizio** o **Connessioni**. Per ulteriori informazioni, vedi [Aggiunta di una credenziale](/docs/resources?topic=resources-service_credentials) e [Gestione delle connessioni](/docs/resources?topic=resources-connect_app).
 
 
 ## Lavorare nel catalogo

@@ -2,8 +2,8 @@
 
 
 copyright:
-  years: 2018
-lastupdated: "2018-09-04"
+  years: 2018, 2019
+lastupdated: "2019-02-18"
 
 ---
 
@@ -22,6 +22,7 @@ Non vediamo l'ora di sentirti. Puoi inviare il feedback per il team {{site.data.
 * Invia un'idea per migliorare il prodotto o un servizio specifico nel portale delle idee {{site.data.keyword.Bluemix_notm}}.
 
 ## Invio di un commento con il pulsante di feedback
+{: #feedback-button}
 
 Quando stai leggendo una pagina di documentazione o completando un'attività nella console, puoi trovare un pulsante di feedback sul bordo della pagina. Fai clic sul pulsante **Feedback** per inviare una recensione entusiastica, un suggerimento o per identificare un errore.
 
@@ -35,6 +36,7 @@ I blocchi degli annunci comuni bloccano Usabilla e nascondono il pulsante **Feed
 {: tip}
 
 ## Fornire un aggiornamento del contenuto con una richiesta di importazione
+{: #feedback-pr}
 
 Puoi inviare modifiche consigliate per qualsiasi pagina della documentazione utilizzando il link **Modifica in GitHub** all'inizio di ogni pagina. Seguendo questo link e modificando la pagina, puoi inviare gli aggiornamenti in una richiesta di importazione al team del contenuto da controllare e unire. 
 
@@ -50,6 +52,7 @@ Completa il seguente processo per inviare una richiesta di importazione al team 
 8. Seleziona **Crea richiesta di importazione**. 
 
 ## Aprire un problema della documentazione.
+{: #feedback-docissue}
 
 Puoi aprire un problema da risolvere per il team del contenuto da qualsiasi pagina. All'interno del tuo problema, fornisci i dettagli sul miglioramento che vorresti vedere. Ad esempio, potresti indicare che i passi nella pagina non corrispondono a quelli nell'interfaccia utente perché hai provato a completare la procedura e pensi che il contenuto debba essere aggiornato o vorresti vedere ulteriori informazioni su un oggetto specifico in tale sezione.
 

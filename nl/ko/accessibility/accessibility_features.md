@@ -3,8 +3,8 @@
 
 
 copyright:
-  years: 2018
-lastupdated: "2018-11-30"
+  years: 2018, 2019
+lastupdated: "2019-02-18"
 
 
 ---
@@ -13,11 +13,13 @@ lastupdated: "2018-11-30"
 {:new_window: target="_blank"}
 
 # {{site.data.keyword.Bluemix_notm}}의 접근성 기능
+{: #accessibility-platform}
 
 접근성 기능을 사용하면 거동이 불편하거나 시각 장애가 있는 사용자도 정보 기술 컨텐츠를 정상적으로 사용할 수 있습니다.
 {:shortdesc}
 
 ## 접근성 기능
+{: #features-platform}
 
 {{site.data.keyword.Bluemix_notm}}에는 다음과 같은 주요 접근성 기능이 포함되어 있습니다.
 
@@ -30,6 +32,7 @@ lastupdated: "2018-11-30"
 
 
 ## 인터페이스 정보
+{: #interface-info}
  
 {{site.data.keyword.Bluemix_notm}} 사용자 인터페이스에 대한 다음 정보를 검토하십시오.
 
@@ -40,6 +43,7 @@ lastupdated: "2018-11-30"
 
 
 ## 관련 접근성 정보
+{: #related-info}
 
 {{site.data.keyword.Bluemix_notm}} 웹 사용자 인터페이스 접근성 규제 준수 상태는 특별히 {{site.data.keyword.Bluemix_notm}} 제품 플랫폼을 위한 것입니다. 이 플랫폼에 컨텐츠를 호스팅하는 서드파티 제품 또는 서비스에서 소유한 사용자 인터페이스의 하위 섹션이 있기 때문에, {{site.data.keyword.Bluemix_notm}} 규제 준수 레코드에서 접근성 규제 준수 상태를 유지보수하거나 소유하지 않습니다. 이는 서비스의 사용자 인터페이스나 문서에 액세스하는 경우 해당 서비스에 대한 규제 준수 보고서를 요청해야 함을 의미합니다. 예를 들어, IBM Containers용 인터페이스, 로컬 또는 전용 환경을 위한 관리 콘솔 또는 IoT 서비스를 사용하는 경우, 해당 인터페이스나 문서의 [제품 접근성 정보 ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")](http://www-03.ibm.com/able/product_accessibility/index.html){: new_window}를 요청해야 합니다.
 
@@ -52,5 +56,6 @@ TTY 서비스
 (북미 지역)
 
 ## IBM 및 접근성
+{: #accessibility-ibm}
 
 접근성을 위한 IBM의 노력에 대한 자세한 정보는 [IBM 접근성 ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")](http://www.ibm.com/able){: new_window}을 참조하십시오.

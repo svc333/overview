@@ -2,8 +2,8 @@
 
 
 copyright:
-  years: 2015, 2018
-lastupdated: "2018-11-28"
+  years: 2015, 2019
+lastupdated: "2019-01-29"
 
 ---
 
@@ -35,12 +35,12 @@ lastupdated: "2018-11-28"
 
 {{site.data.keyword.cloud_notm}} 콘솔의 어느 위치에서나 리소스 목록에서 찾으려는 리소스에 대한 이름 또는 태그로 리소스를 검색할 수 있습니다. 콘솔 메뉴 표시줄의 검색 필드에 리소스의 이름 또는 태그를 입력하십시오.
 
-자세한 정보는 [리소스 검색](/docs/resources/searching.html#searching-for-resources)을 참조하십시오. 
+자세한 정보는 [리소스 검색](/docs/resources?topic=resources-searching-for-resources)을 참조하십시오. 
 
 ## 리소스 목록에서 리소스 관리
 {: #dashboardview}
 
-메뉴 아이콘 ![메뉴 아이콘](../icons/icon_hamburger.svg) &gt; **리소스 목록**으로 이동하여 계정 리소스 목록에 액세스하십시오. 리소스 목록을 사용하여 {{site.data.keyword.cloud_notm}} 리소스 및 Cloud Foundry 서비스 인스턴스를 보고 관련 작업을 수행할 수 있습니다. 여러 유형의 리소스에 대한 자세한 정보는 [리소스의 개념](/docs/resources/acct_resources.html#resource)을 참조하십시오.
+메뉴 아이콘 ![메뉴 아이콘](../icons/icon_hamburger.svg) &gt; **리소스 목록**으로 이동하여 계정 리소스 목록에 액세스하십시오. 리소스 목록을 사용하여 {{site.data.keyword.cloud_notm}} 리소스 및 Cloud Foundry 서비스 인스턴스를 보고 관련 작업을 수행할 수 있습니다. 다양한 리소스 유형에 대한 자세한 정보는 [리소스의 개념](/docs/resources?topic=resources-resource)을 참조하십시오. 
 
 ### 리소스 보기
 리소스 목록에서 모든 지역에 있는 계정의 모든 리소스를 볼 수 있습니다. 사용자에게 중요한 항목을 보려면 각 열 헤더에 대한 필터를 사용하여 목록을 필터링하십시오. 예를 들어, 특정 위치에 있는 리소스를 보고 이에 대해 작업하려면 **위치** 필터를 펼친 후 목록에서 위치를 선택하십시오.
@@ -49,7 +49,7 @@ lastupdated: "2018-11-28"
 리소스 목록에서 다양한 방법으로 리소스 관련 작업을 수행할 수 있습니다.
 
   * 각각의 리소스는 고유 행에 표시되며 조치 아이콘 ![추가 조치 아이콘](../icons/action-menu-icon.svg)이 행의 끝에 포함됩니다. 조치 아이콘 ![추가 조치 아이콘](../icons/action-menu-icon.svg)을 클릭하면 리소스를 시작, 중지, 이름 바꾸기 또는 삭제할 수 있습니다.
-  * 리소스에 대한 인증 정보 또는 연결을 설정하려면 리소스의 이름을 클릭하여 리소스 세부사항 페이지로 이동하십시오. 그런 다음 **서비스 인증 정보** 또는 **연결**을 선택하십시오. 자세한 정보는 [인증 정보 추가](/docs/resources/service_credentials.html) 및 [연결 관리](/docs/resources/connecting_apps.html#connect_app)를 참조하십시오.
+  * 리소스에 대한 인증 정보 또는 연결을 설정하려면 리소스의 이름을 클릭하여 리소스 세부사항 페이지로 이동하십시오. 그런 다음 **서비스 인증 정보** 또는 **연결**을 선택하십시오. 자세한 정보는 [인증 정보 추가](/docs/resources?topic=resources-service_credentials) 및 [연결 관리](/docs/resources?topic=resources-connect_app)를 참조하십시오.
 
 
 ## 카탈로그에서 작업

@@ -2,8 +2,8 @@
 
 
 copyright:
-  years: 2016, 2018
-lastupdated: "2018-11-28"
+  years: 2016, 2019
+lastupdated: "2019-01-24"
 
 ---
 
@@ -12,13 +12,13 @@ lastupdated: "2018-11-28"
 {:new_window: target="_blank"}
 
 # 前提条件
-{: #prereqs}
+{: #prereqs-platform}
 
 {{site.data.keyword.Bluemix_notm}} プラットフォームを使用するための前提条件は限られていますが、少しあります。
 {:shortdesc}
 
 ## ブラウザー
-{: #browsers}
+{: #browsers-platform}
 
 以下のリストに、{{site.data.keyword.Bluemix_notm}} に最小限必要なブラウザー・ソフトウェアを指定します。
 
@@ -32,6 +32,6 @@ Extended Support Release](https://www.mozilla.org/firefox/organizations/){: new_
 {:note}
 
 ## コマンド・ライン・インターフェース (CLI)
-{: #cli}
+{: #cli-platform}
 
-{{site.data.keyword.Bluemix_notm}} CLI は絶えず変更されるため、常に[スタンドアロン {{site.data.keyword.Bluemix_notm}} CLI](/docs/cli/reference/ibmcloud/download_cli.html) のインストールのページにアクセスすることをお勧めします。このページには、ダウンロードしてインストールできる最新バージョンが明示されています。
+{{site.data.keyword.Bluemix_notm}} CLI は絶えず変更されるため、常に[スタンドアロン {{site.data.keyword.Bluemix_notm}} CLI](/cli/reference/ibmcloud/cloud-cli-install_use) のインストールのページにアクセスすることをお勧めします。このページには、ダウンロードしてインストールできる最新の CLI バージョンが明示されています。

@@ -3,8 +3,8 @@
 
 
 copyright:
-  years: 2018
-lastupdated: "2018-11-30"
+  years: 2018, 2019
+lastupdated: "2019-02-18"
 
 
 ---
@@ -13,11 +13,13 @@ lastupdated: "2018-11-30"
 {:new_window: target="_blank"}
 
 # Funzioni di accesso facilitato per {{site.data.keyword.Bluemix_notm}}
+{: #accessibility-platform}
 
 Le funzioni di accesso facilitato aiutano un utente con disabilità fisiche, quali una mobilità ridotta o una vista limitata, a utilizzare prodotti software.
 {:shortdesc}
 
 ## Funzioni di accesso facilitato
+{: #features-platform}
 
 {{site.data.keyword.Bluemix_notm}} include le seguenti funzioni principali per l'accesso facilitato:
 
@@ -30,6 +32,7 @@ La documentazione del prodotto online {{site.data.keyword.Bluemix_notm}} e il fr
 
 
 ## Informazioni sull'interfaccia
+{: #interface-info}
  
 Riesamina le seguenti informazioni relative all'interfaccia utente {{site.data.keyword.Bluemix_notm}}:
 
@@ -40,6 +43,7 @@ Riesamina le seguenti informazioni relative all'interfaccia utente {{site.data.k
 
 
 ## Informazioni correlate all'accesso facilitato
+{: #related-info}
 
 Lo stato di conformità di accesso facilitato dell'interfaccia utente Web {{site.data.keyword.Bluemix_notm}} è specifico per la piattaforma del prodotto {{site.data.keyword.Bluemix_notm}}. Esistono delle sezioni secondarie dell'interfaccia utente che appartengono a prodotti o servizi di terze parti che ospitano contenuti all'interno della piattaforma, per cui il record di conformità {{site.data.keyword.Bluemix_notm}} non mantiene o possiede lo stato di conformità dell'accesso facilitato. Ciò significa che se accedi a un'interfaccia utente o documentazione per un servizio, devi richiedere le dichiarazioni di conformità per tale servizio. Ad esempio, se utilizzi un'interfaccia per IBM Containers, la console di gestione per un ambiente locale o dedicato oppure un servizio IoT, devi richiedere le [informazioni sull'accesso facilitato del prodotto ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")](http://www-03.ibm.com/able/product_accessibility/index.html){: new_window} per tale interfaccia o documentazione.
 
@@ -52,5 +56,6 @@ Servizio TTY
 (Nord America)
 
 ## IBM e l'accesso facilitato
+{: #accessibility-ibm}
 
 Per ulteriori informazioni sull'impegno di IBM riguardo all'accesso facilito, vedi [IBM Accessibility ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")](http://www.ibm.com/able){: new_window}.

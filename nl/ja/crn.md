@@ -4,7 +4,7 @@ copyright:
 
   years: 2017, 2019
 
-lastupdated: "2019-01-04"
+lastupdated: "2019-02-12"
 
 keywords: crn, cloud resource name
 
@@ -23,62 +23,65 @@ subcollection: overview
 
 クラウド・リソース名 (CRN: Cloud Resource Name) は、{{site.data.keyword.Bluemix_notm}} リソースを一意的に識別します。 CRN は、あいまいさがなく、グローバルに固有であることが保証されるようにリソースを指定するために、例えば {{site.data.keyword.Bluemix_notm}} Identity and Access Management (IAM) のポリシーや、クラウド・カタログにリストされたサービスにおいて使用されます。
 
-CRN は、リソース、そのロケーション、それが属しているサービスを階層的に識別する「セグメント」を連結したもので形成されます。 セグメントの区切り文字は「:」(コロン文字) に設定されています。 すべての CRN はセグメント識別子「crn」で始まります。
+CRN は、リソース、そのロケーション、それが属しているサービスを階層的に識別する「セグメント」を連結したもので形成されます。 セグメントの区切り文字は「:」(コロン文字) に設定されています。 すべての CRN はセグメント識別子 `crn` で始まります。
 
 
 ## CRN のフォーマット
-{: #format}
+{: #format-crn}
 
 CRN の基本正規フォーマットは、次のとおりです。
 
-**crn:[version](#version):[cname](#cname):[ctype](#ctype):[service-name](#service-name):[location](#location):[scope](#scope):[service-instance](#service-instance):[resource-type:resource](#resource-type)**
+`   crn:version:cname:ctype:service-name:location:scope:service-instance:resource-type:resource
+   `
 
 
 ## version
-{: #version}
+{: #version-crn}
 
-`version` セグメントは、CRN フォーマットのバージョンを識別します。 現在のところ、有効な version セグメント値は **v1** のみです。
+`version` セグメントは、CRN フォーマットのバージョンを識別します。 現在のところ、有効な version セグメント値は `v1` のみです。
 
 
 ## cname
-{: #cname}
+{: #cname-crn}
 
-`cname` セグメントは、クラウド・インスタンスを識別します。これは、リソースを含んでいるクラウド・インスタンスを一意的に識別する、英数字の識別子です。 `cname` は、識別されたリソースを所有する独立コントロール・プレーンを効果的に識別します。 {{site.data.keyword.Bluemix_notm}} ユーザーの場合は、`cname` は `bluemix` でなければなりません。
+`cname` セグメントは、クラウド・インスタンスを識別します。これは、リソースを含んでいるクラウド・インスタンスを一意的に識別する、英数字の識別子です。 `cname` は、識別されたリソースを所有する独立コントロール・プレーンを効果的に識別します。 {{site.data.keyword.Bluemix_notm}} ユーザーの場合は、`cname` セグメントの値は `bluemix` でなければなりません。
 
 
 ## ctype
-{: #ctype}
+{: #ctype-crn}
 
-`ctype` セグメントは、指定された `cname` によって表されるクラウド・インスタンスのタイプを識別します。
+`ctype` セグメントは、指定された `cname` セグメントによって表されるクラウド・インスタンスのタイプを識別します。
 
->有効な値は以下のとおりです。
-  - public - パブリック・カタログから使用可能なすべてのサービス。
-  - dedicated - 現行の {{site.data.keyword.Bluemix_notm}} 専用環境の場合のみ。
-  - local - ユーザー独自の環境にローカルにデプロイされたすべてのサービス。
+ 有効な値は以下のとおりです。
+  - `public`: パブリック・カタログから使用可能なすべてのサービス
+  - `dedicated`: 現行の {{site.data.keyword.Bluemix_notm}} 専用環境の場合のみ
+  - `local`: local - ユーザー独自の環境にローカルにデプロイされたすべてのサービス
 
 
 ## service-name
-{: #service-name}
+{: #service-name-crn}
 
 `service-name` セグメントは、クラウドによって提供される機能 (サービス、コンポーネント、製品) を一意的に識別します。 機能は、{{site.data.keyword.Bluemix_notm}} カタログにリストされているサービスや {{site.data.keyword.Bluemix_notm}} 機能にとって重要な内部アーキテクチャー・コンポーネントなどと共に、ユーザー提供のサービスとすることができます。
 
-`service-name` はリソースが属しているサービスを識別し、{{site.data.keyword.Bluemix_notm}} はサービス名がグローバルに固有であるようにします。 `service-name` には、小文字の英数字を使用しなければならず、スペースも「-」以外の特殊文字も使用できません。
+`service-name` セグメントはリソースが属しているサービスを識別し、{{site.data.keyword.Bluemix_notm}} はサービス名がグローバルに固有であるようにします。 `service-name` セグメントには、小文字の英数字を使用しなければならず、スペースも「-」以外の特殊文字も使用できません。
 
-{{site.data.keyword.Bluemix_notm}} カタログに登録済みのサービスの場合、`service-name` は、{{site.data.keyword.Bluemix_notm}} グローバル・カタログ・サービスに登録されたサービスの 1 つに対応していなければなりません。 それは、対応するリソース・インスタンスに対して {{site.data.keyword.Bluemix_notm}} グローバル・カタログ・サービス API `GET https://resource-catalog.bluemix.net/api/v1/{id}` によって返される `name` プロパティーであるか、または、コマンド・ライン・インターフェース `ibmcloud service offerings` によって列 `service` に表示される `service-name` です。
+{{site.data.keyword.Bluemix_notm}} カタログに登録済みのサービスの場合、`service-name` セグメントは、{{site.data.keyword.Bluemix_notm}} グローバル・カタログ・サービスに登録されたサービスの 1 つに対応していなければなりません。 それは、対応するリソース・インスタンスに対して {{site.data.keyword.Bluemix_notm}} グローバル・カタログ・サービス API `GET https://globalcatalog.cloud.ibm.com/api/v1/{id}` によって返される `name` プロパティーであるか、または、コマンド・ライン・インターフェース `ibmcloud service offerings` によって列 `service` に表示される `service-name` 値です。
 
 
 ## location
-{: #location}
+{: #location-crn}
 
 リソースが存在している、クラウドのジオグラフィー/地域/ゾーン/データ・センター。
 
-`location` は、以下のいずれかの値でなければなりません。
+`location` セグメントは、以下のいずれかの値でなければなりません。
 
 ### グローバル
+{: #global-crn}
 
  * `global`
 
 ### ジオグラフィー
+{: #geos-crn}
 
  * `us`
  * `eu`
@@ -86,6 +89,7 @@ CRN の基本正規フォーマットは、次のとおりです。
  * `ap`
 
 ### 地域
+{: #regions-crn}
 
  * `us-south`
  * `us-east`
@@ -94,6 +98,7 @@ CRN の基本正規フォーマットは、次のとおりです。
  * `eu-de`
 
 ### データ・センター
+{: #dc-crn}
 
 
 | | | | | |
@@ -112,7 +117,7 @@ CRN の基本正規フォーマットは、次のとおりです。
 
 
 ## scope
-{: #scope}
+{: #scope-crn}
 
 `scope` セグメントは、リソースを包含しているもの、またはリソースの所有者を識別します。 所有者を必要としないリソースもあります (そういったリソースは`グローバル`であると判断できます)。 この場合、`scope` セグメントは空 (空ストリング) に設定されます。
 
@@ -120,17 +125,17 @@ CRN の基本正規フォーマットは、次のとおりです。
 
 | スコープ・タイプ | スコープ・プレフィックス | 使用法 | 例 |
 | --- | --- | --- | --- |
-| アカウント | a/`{account id}` | リソースが作成されたアカウント。 | a/292558 |
-| 組織 | o/`{org guid}` | リソースが割り当てられた {{site.data.keyword.Bluemix_notm}} 組織。 | o/4716e2d1-35b7-431f-891a-b552bf0b3c66 |
-| スペース | s/`{space guid}` | リソースが割り当てられた {{site.data.keyword.Bluemix_notm}} スペース。 | s/48b3cdcd-e804-4398-9032-73065863ad7c |
-{: caption="表 2. scope の使用法" caption-side="top"}
+| アカウント | a/`{account id}` | リソースが作成されたアカウント。 | `a/292558` |
+| 組織 | o/`{org guid}` | リソースが割り当てられた {{site.data.keyword.Bluemix_notm}} 組織。 | `o/4716e2d1-35b7-431f-891a-b552bf0b3c66` |
+| スペース | s/`{space guid}` | リソースが割り当てられた {{site.data.keyword.Bluemix_notm}} スペース。 | `s/48b3cdcd-e804-4398-9032-73065863ad7c` |
+{: caption="表 2. スコープの使用法" caption-side="top"}
 
 
 
 ## service-instance
-{: #service-instance}
+{: #service-instance-crn}
 
-`service-instance` セグメントは、サービス・インスタンスを一意的に識別します。 `service-instance` セグメントのフォーマットは、サービスによって異なります。 各サービスは、サービス・メタデータの一部として `service_instance` のフォーマットを文書化する必要があります。 サービスによってはインスタンスがないものがあります。インスタンスがグローバルであるためであり、この場合は `service-instance` フィールドはブランクになります。
+`service-instance` セグメントは、サービス・インスタンスを一意的に識別します。 `service-instance` セグメントのフォーマットは、サービスによって異なります。 各サービスは、サービス・メタデータの一部として `service_instance` セグメントのフォーマットを文書化する必要があります。 サービスによってはインスタンスがないものがあります。インスタンスがグローバルであるためであり、この場合は `service-instance` フィールドはブランクになります。
 
 `service-instance` には、小文字の英数字を使用しなければならず、スペースも「-」と「/」以外の特殊文字も使用できません。
 
@@ -145,13 +150,13 @@ ibmcloud resource service-instance
 {: codeblock}
 
 ## resource-type、resource
-{: #resource-type}
+{: #resource-type-crn}
 
-`resource-type` セグメントおよび `resource` セグメントの値は、サービスによって異なります。 各サービスは、サービス・メタデータの一部として、サポートされる `resource type` と、`resource` のフォーマットを文書化する必要があります。
+`resource-type` セグメントおよび `resource` セグメントの値は、サービスによって異なります。 各サービスは、サービス・メタデータの一部として、サポートされる `resource type` セグメントと、`resource` セグメントのフォーマットを文書化する必要があります。
 
-例えば、Object Storage サービス内のカスタマー領収書コンテナー中のイメージの `resource-type` が `object`、`resource_ value` が `CustomerReceipts/clientdinner.png` であるといった例が考えられます。
+例えば、Object Storage サービス内のカスタマー領収書コンテナー中のイメージの `resource-type` セグメントが `object`、`resource` 値が `CustomerReceipts/clientdinner.png` であるといった例が考えられます。
 
-`resource-type` には、小文字の英数字を使用しなければならず、スペースも「-」以外の特殊文字も使用できません。 サービスは `resource-type` がオプションであると決定することができ、その場合は空白のままになります。
+`resource-type` セグメントには、小文字の英数字を使用しなければならず、スペースも「-」以外の特殊文字も使用できません。 サービスは `resource-type` セグメントがオプションであると決定することができ、その場合は空白のままになります。
 
 
 ## CRN の例

@@ -2,8 +2,8 @@
 
 
 copyright:
-  years: 2016, 2018
-lastupdated: "2018-11-28"
+  years: 2016, 2019
+lastupdated: "2019-01-24"
 
 ---
 
@@ -12,13 +12,13 @@ lastupdated: "2018-11-28"
 {:new_window: target="_blank"}
 
 # 전제조건
-{: #prereqs}
+{: #prereqs-platform}
 
 {{site.data.keyword.Bluemix_notm}} 플랫폼 사용에 대한 전제조건은 제한되어 있으나 일부는 갖추고 있습니다.
 {:shortdesc}
 
 ## 브라우저
-{: #browsers}
+{: #browsers-platform}
 
 다음 목록은 {{site.data.keyword.Bluemix_notm}}에 필요한 최소한의 브라우저 소프트웨어입니다.
 
@@ -31,6 +31,6 @@ lastupdated: "2018-11-28"
 {:note}
 
 ## 명령행 인터페이스(CLI)
-{: #cli}
+{: #cli-platform}
 
-{{site.data.keyword.Bluemix_notm}} CLI가 지속적으로 변경되므로, 항상 다운로드와 설치를 위한 최신 버전을 지시하는 [독립형 {{site.data.keyword.Bluemix_notm}} CLI 설치](/docs/cli/reference/ibmcloud/download_cli.html) 페이지로 이동하도록 권장합니다.
+{{site.data.keyword.Bluemix_notm}} CLI가 지속적으로 변경되므로, 항상 최신 CLI 버전을 제공하는 [독립형 {{site.data.keyword.Bluemix_notm}} CLI 설치](/cli/reference/ibmcloud/cloud-cli-install_use) 페이지로 이동하는 것이 좋습니다. 
