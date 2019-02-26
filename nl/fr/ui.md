@@ -2,8 +2,8 @@
 
 
 copyright:
-  years: 2015, 2018
-lastupdated: "2018-11-28"
+  years: 2015, 2019
+lastupdated: "2019-01-29"
 
 ---
 
@@ -35,12 +35,12 @@ Lorsque vous vous connectez à {{site.data.keyword.cloud_notm}}, la première pa
 
 Vous pouvez rechercher des ressources par nom ou par étiquette à partir de tout emplacement de la console {{site.data.keyword.cloud_notm}} pour les ressources devant se trouver dans la liste de ressources. Entrez le nom d'une ressource ou une étiquette dans la zone de recherche de la barre de menu de la console.
 
-Pour plus d'informations, voir [Recherche de ressources](/docs/resources/searching.html#searching-for-resources). 
+Pour plus d'informations, voir [Recherche de ressources](/docs/resources?topic=resources-searching-for-resources). 
 
 ## Gestion des ressources de la liste de ressources
 {: #dashboardview}
 
-Accédez à l'icône Menu ![Icône Menu](../icons/icon_hamburger.svg) &gt; **Liste de ressources** pour accéder à la liste de vos ressources de compte. Vous pouvez utiliser la liste des ressources pour afficher et utiliser des ressources {{site.data.keyword.cloud_notm}} et des instances de service Cloud Foundry. Pour plus d'informations sur les différents types de ressources, voir [Qu'est-ce qu'une ressource ?](/docs/resources/acct_resources.html#resource).
+Accédez à l'icône Menu ![Icône Menu](../icons/icon_hamburger.svg) &gt; **Liste de ressources** pour accéder à la liste de vos ressources de compte. Vous pouvez utiliser la liste des ressources pour afficher et utiliser des ressources {{site.data.keyword.cloud_notm}} et des instances de service Cloud Foundry. Voir [Qu'est-ce qu'une ressource ?](/docs/resources?topic=resources-resource) pour plus d'informations sur les différents types de ressources.
 
 ### Affichage des ressources
 Dans le tableau de bord, vous pouvez afficher toutes les ressources des régions liées à la liste de ressources. Pour afficher les éléments les plus importants pour vous, triez votre liste avec les filtres pour chaque en-tête de colonne. Par exemple, si vous souhaitez afficher et utiliser les ressources d'un emplacement spécifique, développez le menu **Emplacement** puis sélectionnez-en un dans la liste.
@@ -49,7 +49,7 @@ Dans le tableau de bord, vous pouvez afficher toutes les ressources des régions
 Vous pouvez utiliser vos ressources de différentes manières à partir de la liste de ressources :
 
   * Chaque ressource est affichée sur sa propre ligne avec une icône Actions ![Icône Plus d'actions](../icons/action-menu-icon.svg) en fin de ligne. Cliquez sur l'icône Actions ![Icône Plus d'actions](../icons/action-menu-icon.svg) pour démarrer, arrêter, renommer ou supprimer une ressource.
-  * Pour définir des données d'identification ou des connexions pour une ressource, cliquez sur le nom de la ressource afin d'accéder à la page des détails de la ressource. Sélectionnez ensuite **Données d'identification pour le service** ou **Connexions**. Pour plus d'informations, voir [Ajout de données d'identification](/docs/resources/service_credentials.html) et [Gestion des connexions](/docs/resources/connecting_apps.html#connect_app).
+  * Pour définir des données d'identification ou des connexions pour une ressource, cliquez sur le nom de la ressource afin d'accéder à la page des détails de la ressource. Sélectionnez ensuite **Données d'identification pour le service** ou **Connexions**. Pour plus d'informations, voir [Ajout de données d'identification](/docs/resources?topic=resources-service_credentials) et [Gestion des connexions](/docs/resources?topic=resources-connect_app).
 
 
 ## Utilisation du catalogue

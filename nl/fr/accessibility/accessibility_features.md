@@ -3,8 +3,8 @@
 
 
 copyright:
-  years: 2018
-lastupdated: "2018-11-30"
+  years: 2018, 2019
+lastupdated: "2019-02-18"
 
 
 ---
@@ -13,11 +13,13 @@ lastupdated: "2018-11-30"
 {:new_window: target="_blank"}
 
 # Fonctions d'accessibilité d'{{site.data.keyword.Bluemix_notm}}
+{: #accessibility-platform}
 
 Les fonctions d'accessibilité permettent aux utilisateurs souffrant d'un handicap physique, comme une mobilité réduite ou une déficience visuelle, d'utiliser correctement les contenus informatiques.
 {:shortdesc}
 
 ## Fonctions d'accessibilité
+{: #features-platform}
 
 {{site.data.keyword.Bluemix_notm}} comprend les fonctions d'accessibilité majeures suivantes :
 
@@ -30,6 +32,7 @@ La documentation en ligne du produit {{site.data.keyword.Bluemix_notm}} et l'inf
 
 
 ## Informations sur l'interface
+{: #interface-info}
  
 Passez en revue les informations suivantes relatives à l'interface utilisateur {{site.data.keyword.Bluemix_notm}} :
 
@@ -40,6 +43,7 @@ Passez en revue les informations suivantes relatives à l'interface utilisateur 
 
 
 ## Informations sur l'accessibilité
+{: #related-info}
 
 L'état de conformité pour l'accessibilité de l'interface utilisateur Web {{site.data.keyword.Bluemix_notm}} concerne spécifiquement la plateforme du produit {{site.data.keyword.Bluemix_notm}}. Pour certaines sous-sections de l'interface utilisateur appartenant à des produits ou des services tiers qui hébergent le contenu hôte au sein de la plateforme, l'enregistrement de conformité de {{site.data.keyword.Bluemix_notm}} ne gère pas ou ne possède pas l'état de conformité de l'accessibilité. Cela signifie que si vous accédez à une interface utilisateur ou à de la documentation pour un service, vous devez demander les états de conformité relatifs à celui-ci. Par exemple, si vous utilisez une interface pour IBM Containers, la console d'administration pour un environnement local ou dédié,
 ou un service IoT, vous devez demander les [informations
@@ -56,5 +60,6 @@ Service de téléscripteur
 (Amérique du Nord)
 
 ## IBM et l'accessibilité
+{: #accessibility-ibm}
 
 Pour plus d'informations sur l'engagement d'IBM envers l'accessibilité, voir [IBM Accessibility ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](http://www.ibm.com/able){: new_window}.

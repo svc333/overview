@@ -2,8 +2,8 @@
 
 
 copyright:
-  years: 2018
-lastupdated: "2018-09-04"
+  years: 2018, 2019
+lastupdated: "2019-02-18"
 
 ---
 
@@ -22,6 +22,7 @@ Faites-nous part de vos impressions ! Vous pouvez envoyer vos commentaires à l
 * Soumettez une idée d'amélioration du produit ou d'un service spécifique dans le portail d'idées {{site.data.keyword.Bluemix_notm}}.
 
 ## Soumission d'un commentaire à l'aide du bouton Commentaires
+{: #feedback-button}
 
 Lorsque vous lisez une page de documentation ou exécutez une tâche à l'aide de la console, un bouton Commentaires apparaît sur le bord de la page. Cliquez sur le bouton**Commentaires** pour soumettre une critique élogieuse, une suggestion ou pour identifier une erreur.
 
@@ -35,6 +36,7 @@ Les bloqueurs de publicité les plus répandus bloquent Usabilla et masquent le 
 {: tip}
 
 ## Procédure visant à fournir une mise à jour de contenu via une demande d'extraction
+{: #feedback-pr}
 
 Vous pouvez suggérer des modifications à apporter à n'importe quelle page de documentation en utilisant le lien **Edition dans GitHub** situé en haut de chaque page. En  suivant ce lien et en éditant la page, vous pouvez soumettre des mises à jour dans une demande d'extraction qui sera examinée et fusionnée par l'équipe chargée du contenu. 
 
@@ -50,6 +52,7 @@ Suivez la procédure ci-dessous pour envoyer une demande d'extraction à l'équi
 8. Sélectionnez **Créer une demande d'extraction**. 
 
 ## Ouverture d'un problème pour la documentation
+{: #feedback-docissue}
 
 Vous pouvez envoyer un problème à l'équipe chargée du contenu à partir de n'importe quelle page de documentation. Dans votre problème, décrivez l'amélioration que vous souhaiteriez voir mise en place. Par exemple, vous pouvez indiquer que les étapes décrites sur la page ne correspondaient pas à l'interface utilisateur lorsque vous avez essayé d'effectuer la procédure et vous suggérez que le contenu soit mis à jour, ou vous pouvez indiquer que vous souhaitez voir davantage d'informations sur un sujet spécifique dans cette section.
 

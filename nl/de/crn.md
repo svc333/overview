@@ -4,7 +4,7 @@ copyright:
 
   years: 2017, 2019
 
-lastupdated: "2019-01-04"
+lastupdated: "2019-02-12"
 
 keywords: crn, cloud resource name
 
@@ -23,62 +23,64 @@ subcollection: overview
 
 Mit Cloudressourcennamen (CRNs) können {{site.data.keyword.Bluemix_notm}}-Ressourcen eindeutig identifiziert werden. Ein CRN wird verwendet, um eine Ressource in einer Weise anzugeben, die garantiert global eindeutig ist, z. B. in  {{site.data.keyword.Bluemix_notm}} IAM-Richtlinien und -Services, die im Cloud-Katalog aufgelistet sind (IAM = Identity and Access Management).
 
-Ein CRN wird aus einer Kette von 'Segmenten' gebildet, die die Ressource, ihre Position und den Service, zu dem sie gehört, hierarchisch angeben. Als Segmentbegrenzer ist ':' (Doppelpunkt) festgelegt. Alle CRNs beginnen mit der Segmentkennung 'crn'.
+Ein CRN wird aus einer Kette von 'Segmenten' gebildet, die die Ressource, ihre Position und den Service, zu dem sie gehört, hierarchisch angeben. Als Segmentbegrenzer ist ':' (Doppelpunkt) festgelegt. Alle CRNs beginnen mit der Segmentkennung `crn`.
 
 
 ## CRN-Format
-{: #format}
+{: #format-crn}
 
 Das kanonische Basisformat einer CRN lautet wie folgt:
 
-**crn:[version](#version):[cname](#cname):[ctyp](#ctype):[servicename](#service-name):[position](#location):[umfang](#scope):[serviceinstanz](#service-instance):[ressourcentyp:ressource](#resource-type)**
+`crn:version:cname:ctype:service-name:location:scope:service-instance:resource-type:resource`
 
 
 ## version
-{: #version}
+{: #version-crn}
 
-Das Segment `version` gibt die Version des CRN-Formats an. Derzeit ist die Angabe **v1** der einzige gültige Wert für das Versionssegment.
+Das Segment `version` gibt die Version des CRN-Formats an. Derzeit ist die Angabe `v1` der einzige gültige Wert für das Versionssegment.
 
 
 ## cname
-{: #cname}
+{: #cname-crn}
 
-Das Segment `cname` gibt die Cloudinstanz an und ist eine alphanumerische Kennung, die die Cloudinstanz, die die Ressource enthält, eindeutig identifiziert. Ein Segment `cname` identifiziert eine unabhängige Steuerebene (Control Plane), die Eigner der identifizierten Ressource ist. Das Segment `cname` muss für {{site.data.keyword.Bluemix_notm}}-Benutzer `bluemix` lauten.
-
-
-## ctyp
-{: #ctype}
-
-Das Segment `ctyp` gibt den Typ der Cloudinstanz an, die durch den angegebenen `cname` dargestellt wird.
-
->Gültige Werte:
-  - public - Alle Services, die über den öffentlichen Katalog verfügbar sind.
-  - dedicated - Nur für aktuelle dedizierte {{site.data.keyword.Bluemix_notm}}-Umgebungen.
-  - local - Alle Services, die lokal in Ihrer eigenen Umgebung bereitgestellt sind.
+Das Segment `cname` gibt die Cloudinstanz an und ist eine alphanumerische Kennung, die die Cloudinstanz, die die Ressource enthält, eindeutig identifiziert. Ein Segment `cname` identifiziert eine unabhängige Steuerebene (Control Plane), die Eigner der identifizierten Ressource ist. Das Segment `cname` muss für Benutzer von {{site.data.keyword.Bluemix_notm}} den Wert `bluemix` haben.
 
 
-## servicename
-{: #service-name}
+## ctype
+{: #ctype-crn}
 
-Das Segment `servicename` gibt eindeutig eine Funktion (Service, Komponente, Produkt) an, die von der Cloud angeboten wird. Bei der Funktion kann es sich um einen vom Benutzer bereitgestellten Service handeln (z. B. die Services, die im {{site.data.keyword.Bluemix_notm}}-Katalog aufgelistet sind) oder um eine interne Architekturkomponente, die für die {{site.data.keyword.Bluemix_notm}}-Funktionalität von entscheidender Bedeutung ist.
+Das Segment `ctype` gibt den Typ der Cloudinstanz an, die durch das angegebene Segment `cname` dargestellt wird. 
 
-Das Segment `servicename` gibt den Service an, zu dem die Ressource gehört, und {{site.data.keyword.Bluemix_notm}} erzwingt die globale Eindeutigkeit von Servicenamen. Das Segment `servicename` muss alphanumerisch und kleingeschrieben sein, es darf keine Leerzeichen oder Sonderzeichen (mit Ausnahme von '-') enthalten.
+ Gültige Werte:
+  - `public`: Alle Services, die über den öffentlichen Katalog verfügbar sind.
+  - `dedicated`: Nur für aktuelle dedizierte {{site.data.keyword.Bluemix_notm}}-Umgebungen.
+  - `local`: Alle Services, die lokal in Ihrer eigenen Umgebung bereitgestellt sind.
 
-Bei Services, die im {{site.data.keyword.Bluemix_notm}}-Katalog registriert sind, muss das Segment `servicename` einem der Services entsprechen, die für den {{site.data.keyword.Bluemix_notm}} Global Catalog-Service registriert sind. Es handelt sich um die Eigenschaft `name`, die von der {{site.data.keyword.Bluemix_notm}} Global Catalog-Service-API `GET https://resource-catalog.bluemix.net/api/v1/{` für die entsprechende Ressourceninstanz oder das Segment `servicename` zurückgegeben wurde, das von der Befehlszeilenschnittstelle angezeigt wird: `ibmcloud service offerings` in der Spalte `service`.
+
+## service-name
+{: #service-name-crn}
+
+Das Segment `service-name` gibt eindeutig eine Funktion (Service, Komponente, Produkt) an, die von der Cloud angeboten wird. Bei der Funktion kann es sich um einen vom Benutzer bereitgestellten Service handeln (z. B. die Services, die im {{site.data.keyword.Bluemix_notm}}-Katalog aufgelistet sind) oder um eine interne Architekturkomponente, die für die {{site.data.keyword.Bluemix_notm}}-Funktionalität von entscheidender Bedeutung ist.
+
+Das Segment `service-name` gibt den Service an, zu dem die Ressource gehört, und {{site.data.keyword.Bluemix_notm}} erzwingt die globale Eindeutigkeit von Servicenamen. Das Segment `service-name` muss alphanumerisch und kleingeschrieben sein, es darf keine Leerzeichen oder Sonderzeichen (mit Ausnahme von '-') enthalten. 
+
+Bei Services, die im {{site.data.keyword.Bluemix_notm}}-Katalog registriert sind, muss das Segment `service-name` einem der Services entsprechen, die beim {{site.data.keyword.Bluemix_notm}} Global Catalog-Service registriert sind. Es handelt sich um die Eigenschaft `name`, die von der {{site.data.keyword.Bluemix_notm}} Global Catalog-Service-API `GET https://globalcatalog.cloud.ibm.com/api/v1/{id}` für die entsprechende Ressourceninstanz zurückgegeben wurde oder um den Wert für `service-name`, der von der Befehlszeilenschnittstelle `ibmcloud service offerings` in der Spalte `service` angezeigt wird. 
 
 
-## position
-{: #location}
+## location
+{: #location-crn}
 
 Die Angabe zur Cloudposition (Ländergruppe/Region/Zone/Rechenzentrum), an der sich die Ressource befindet.
 
-Das Segment `position` muss einer der folgenden Werte sein:
+Das Segment `location` muss einen der folgenden Werte haben: 
 
 ### Global
+{: #global-crn}
 
  * `global`
 
 ### Ländergruppen
+{: #geos-crn}
 
  * `us`
  * `eu`
@@ -86,6 +88,7 @@ Das Segment `position` muss einer der folgenden Werte sein:
  * `ap`
 
 ### Regionen
+{: #regions-crn}
 
  * `us-south`
  * `us-east`
@@ -94,6 +97,7 @@ Das Segment `position` muss einer der folgenden Werte sein:
  * `eu-de`
 
 ### Rechenzentren
+{: #dc-crn}
 
 
 | | | | | |
@@ -107,32 +111,32 @@ Das Segment `position` muss einer der folgenden Werte sein:
 | WDC01  | WDC04  | WDC06  | WDC07  |
 {: caption="Tabelle 1. Gültige Werte für das Rechenzentrum" caption-side="top"}
 
-Für einige Ressourcen ist keine Region erforderlich (sie können als `global` betrachtet werden). In diesem Fall wird das Segment `region` auf `global` gesetzt.
+Für manche Ressourcen ist keine Region erforderlich, da sie als `global` betrachtet werden können. In diesem Fall wird das Segment `region` auf `global` gesetzt.
 {: tip}
 
 
-## umfang
-{: #scope}
+## scope (Umfang)
+{: #scope-crn}
 
-Das Segment `umfang` gibt die Abgrenzung oder den Eigner der Ressource an. Für einige Ressourcen ist kein Eigner erforderlich (sie können als `global` betrachtet werden). In diesem Fall ist das Segment `umfang` leer (eine leere Zeichenfolge).
+Das Segment `scope` gibt die Abgrenzung oder den Eigner der Ressource an. Für manche Ressourcen ist kein Eigner erforderlich (sie können als `global` betrachtet werden). In diesem Fall ist das Segment `scope` leer (eine leere Zeichenfolge).
 
-Der Wert des Segments `umfang` muss als `{scopePrefix}`/`{id}` formatiert werden. `scopePrefix` stellt das Format dar, das zur Angabe des Eigners oder der Abgrenzung verwendet wird. `id` stellt die Identität des Eigners oder der Abgrenzung in einem Format dar, das für `scopePrefix` spezifisch ist.
+Der Wert des Segments `scope` muss als `{scopePrefix}`/`{id}` formatiert werden. `scopePrefix` stellt das Format dar, das zur Angabe des Eigners oder der Abgrenzung verwendet wird. `id` stellt die Identität des Eigners oder der Abgrenzung in einem Format dar, das für `scopePrefix` spezifisch ist.
 
 | Umfangstyp | Umfangspräfix | Verwendung | Beispiel |
 | --- | --- | --- | --- |
-| Konto | a/`{account id}` | Das Konto, in dem die Ressource erstellt wurde. | a/292558 |
-| Organisation | o/`{org guid}` | Die {{site.data.keyword.Bluemix_notm}}-Organisation, der die Ressource zugeordnet wurde. | o/4716e2d1-35b7-431f-891a-b552bf0b3c66 |
-| Bereich | s/`{space guid}` | Der {{site.data.keyword.Bluemix_notm}}-Bereich, dem die Ressource zugeordnet wurde. | s/48b3cdcd-e804-4398-9032-73065863ad7c |
-{: caption="Tabelle 2. Verwendung von 'umfang'" caption-side="top"}
+| Konto | a/`{account id}` | Das Konto, in dem die Ressource erstellt wurde. | `a/292558` |
+| Organisation | o/`{org guid}` | Die {{site.data.keyword.Bluemix_notm}}-Organisation, der die Ressource zugeordnet wurde. | `o/4716e2d1-35b7-431f-891a-b552bf0b3c66` |
+| Bereich | s/`{space guid}` | Der {{site.data.keyword.Bluemix_notm}}-Bereich, dem die Ressource zugeordnet wurde. | `s/48b3cdcd-e804-4398-9032-73065863ad7c` |
+{: caption="Tabelle 2. Verwendung von 'scope' " caption-side="top"}
 
 
 
-## serviceinstanz
-{: #service-instance}
+## service-instance
+{: #service-instance-crn}
 
-Das Segment `serviceinstanz` gibt die Serviceinstanz eindeutig an. Das Format des Segments `serviceinstanz` ist vom Service abhängig. Jeder Service muss das Format seines Segments `serviceinstanz` als Teil der Servicemetadaten dokumentieren. Manche Services haben keine Instanzen, weil die Instanz global ist. In diesem Fall ist das Feld `serviceinstanz` leer.
+Das Segment `service-instance` gibt die Serviceinstanz eindeutig an. Das Format des Segments `service-instance` ist vom Service abhängig. Jeder Service muss das Format seines Segments `service-instance` als Teil der Servicemetadaten dokumentieren. Manche Services haben keine Instanzen, weil die Instanz global ist. In diesem Fall ist das Feld `service-instance` leer. 
 
-Das Segment `serviceinstanz` muss alphanumerisch und kleingeschrieben sein und es darf keine Leer- oder Sonderzeichen (mit Ausnahme von '-' und '/') enthalten.
+Das Segment `service-instance` muss alphanumerisch und kleingeschrieben sein und es darf keine Leer- oder Sonderzeichen (mit Ausnahme von '-' und '/') enthalten.
 
 Beispiel: Ein DevOps-Tool könnte zum Verfolgen und Planen von Arbeitselementen eine einfache `GUID`-Instanz-ID ("1234-5678-9012-3456") haben, in der die Richtlinienkomponente eines Service für die automatische Gruppenskalierung eine hierarchische Namenskonvention verwenden kann und folgendes Segment `service-id` hat:
 
@@ -144,14 +148,14 @@ ibmcloud resource service-instance
 ```
 {: codeblock}
 
-## ressourcentyp, ressource
-{: #resource-type}
+## resource-type, resource
+{: #resource-type-crn}
 
-Der Wert der Segmente `ressourcentyp` und `ressource` hängt vom Service ab. Es ist ein Service erforderlich, um die unterstützten Segmente `ressourcentyp` und das Format des Segments `ressource` als Teil der Servicemetadaten zu dokumentieren.
+Der Wert der Segmente `resource-type` und `resource` hängt vom Service ab. Es ist ein Service erforderlich, um die unterstützten Segmente `resource-type` und das Format des Segments `resource` als Teil der Servicemetadaten zu dokumentieren.
 
-Beispiel: Ein Image im Container für Kundenbelege in einem Objektspeicherservice kann über einen `ressourcentyp` von `object` und einen `ressourcenwert` von `CustomerReceipts/clientdinner.png` verfügen.
+Beispiel: Ein Image im Container für Kundenbelege in einem Objektspeicherservice kann über ein Segment `resource-type` namens `object` und den Wert `CustomerReceipts/clientdinner.png` für `resource` verfügen. 
 
-Das Segment `ressourcentyp` muss alphanumerisch und kleingeschrieben sein und es darf keine Leer- oder Sonderzeichen (mit Ausnahme von '-') enthalten. Ein Service kann entscheiden, dass `ressourcentyp` optional ist. In diesem Fall wird der Wert leer gelassen.
+Das Segment `resource-type` muss alphanumerisch und kleingeschrieben sein, es darf keine Leerzeichen oder Sonderzeichen (mit Ausnahme von '-') enthalten. Ein Service kann entscheiden, dass das Segment `resource-type` optional ist. In diesem Fall wird der Wert leer gelassen.
 
 
 ## CRN-Beispiele

@@ -2,8 +2,8 @@
 
 
 copyright:
-  years: 2018
-lastupdated: "2018-09-04"
+  years: 2018, 2019
+lastupdated: "2019-02-18"
 
 ---
 
@@ -11,7 +11,7 @@ lastupdated: "2018-09-04"
 {:tip: .tip}
 {:new_window: target="_blank"}
 
-# Feedback geben
+# Feedback senden
 {: #feedback}
 
 Ihre Meinung interessiert uns! Sie können dem {{site.data.keyword.Bluemix_notm}}-Team Feedback zur Dokumentation oder Konsole geben. Sie haben verschiedene Möglichkeiten, Feedback zu geben:
@@ -22,6 +22,7 @@ Ihre Meinung interessiert uns! Sie können dem {{site.data.keyword.Bluemix_notm}
 * Im {{site.data.keyword.Bluemix_notm}}-Ideenportal können Sie Ideen zur Verbesserung des Produkts oder eines bestimmten Service einreichen.
 
 ## Kommentar über die Feedback-Schaltfläche eingeben
+{: #feedback-button}
 
 Wenn Sie eine Seite der Dokumentation lesen oder eine Aufgabe in der Konsole ausführen, finden Sie am Seitenrand eine Feedback-Schaltfläche. Klicken Sie auf die Schaltfläche **Feedback**, um eine positive Rückmeldung oder einen Vorschlag einzugeben oder einen Fehler aufzudecken.
 
@@ -35,6 +36,7 @@ Gängige Anzeigenblocker blockieren Usabilla und blenden die Schaltfläche für 
 {: tip}
 
 ## Inhaltliche Aktualisierung mit Pull-Anforderung bereitstellen
+{: #feedback-pr}
 
 Sie können über den Link **In GitHub bearbeiten** am Seitenanfang Vorschläge zu Änderungen an der entsprechenden Dokumentationsseite einreichen. Wenn Sie diesem Link folgen und die Seite bearbeiten, können Sie Aktualisierungen in einer Pull-Anforderung übergeben, die vom Inhaltsteam überprüft und zusammengeführt werden sollen. 
 
@@ -50,6 +52,7 @@ Führen Sie folgende Schritte aus, um eine Pull-Anforderung an das Inhaltsteam z
 8. Wählen Sie **Pull-Anforderung erstellen** aus. 
 
 ## Problembericht in der Dokumentation öffnen
+{: #feedback-docissue}
 
 Sie können auf jeder Dokumentationsseite einen Problembericht öffnen, mit dem sich das Inhaltsteam befassen soll. Machen Sie in Ihrem Problembericht Detailangaben zu der Verbesserung, die Sie erwarten. Sie können beispielsweise angeben, dass die Schritte auf der Seite nicht mit der Benutzerschnittstelle übereinstimmten, als Sie versuchten, die Prozedur auszuführen, und dass Sie meinen, der Inhalt müsse aktualisiert werden, oder dass Sie zusätzliche Informationen zu einem bestimmten Thema in diesem Abschnitt erwarten.
 

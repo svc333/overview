@@ -3,8 +3,8 @@
 
 
 copyright:
-  years: 2018
-lastupdated: "2018-11-30"
+  years: 2018, 2019
+lastupdated: "2019-02-18"
 
 
 ---
@@ -13,11 +13,13 @@ lastupdated: "2018-11-30"
 {:new_window: target="_blank"}
 
 # Eingabehilfen für {{site.data.keyword.Bluemix_notm}}
+{: #accessibility-platform}
 
 Eingabehilfen unterstützen Benutzer mit Behinderungen wie beispielsweise eingeschränkter Bewegungsfähigkeit oder eingeschränktem Sehvermögen bei der erfolgreichen Nutzung von Informationstechnologieinhalt.
 {:shortdesc}
 
 ## Eingabehilfefunktionen
+{: #features-platform}
 
 {{site.data.keyword.Bluemix_notm}} enthält die folgenden wichtigen Eingabehilfen:
 
@@ -30,6 +32,7 @@ Die Onlineproduktdokumentation zu {{site.data.keyword.Bluemix_notm}} und das {{s
 
 
 ## Schnittstelleninformationen
+{: #interface-info}
  
 Die folgenden Informationen beziehen sich auf die {{site.data.keyword.Bluemix_notm}}-Benutzerschnittstelle:
 
@@ -40,6 +43,7 @@ Die folgenden Informationen beziehen sich auf die {{site.data.keyword.Bluemix_no
 
 
 ## Zugehörige Informationen zur behindertengerechten Bedienung
+{: #related-info}
 
 Der Status der {{site.data.keyword.Bluemix_notm}}-Webbenutzerschnittstelle im Hinblick auf die Einhaltung der Bestimmungen zur Barrierefreiheit bezieht sich speziell auf die {{site.data.keyword.Bluemix_notm}}-Produktplattform. Es gibt Unterabschnitte der Benutzerschnittstelle, die zu Drittanbieterprodukten oder -services gehören, von denen Inhalt innerhalb der Plattform bereitgehalten wird. Für solche Unterabschnitte wird die Einhaltung der Bestimmungen zur Barrierefreiheit durch das {{site.data.keyword.Bluemix_notm}}-Konformitätsdokument nicht abgedeckt. Dies bedeutet, dass Sie die Konformitätserklärungen für einen Service anfordern müssen, wenn Sie auf die Benutzerschnittstelle oder Dokumentation für einen Service zugreifen. Falls Sie beispielsweise eine Schnittstelle für IBM Containers, die Administrationskonsole für eine lokale oder dedizierte Umgebung oder einen IoT-Service (Internet of Things - Internet der Dinge) verwenden, müssen Sie [Informationen zur behindertengerechten Bedienung des Produkts ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](http://www-03.ibm.com/able/product_accessibility/index.html){: new_window} für diese Schnittstelle oder Dokumentation anfordern.
 
@@ -52,5 +56,6 @@ TTY-Service
 (in Nordamerika)
 
 ## IBM und barrierefreie Bedienung
+{: #accessibility-ibm}
 
 Weitere Informationen zu den Bestrebungen seitens IBM in Bezug auf die barrierefreie Bedienung finden Sie auf der Seite [IBM Accessibility ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](http://www.ibm.com/able){: new_window}.
