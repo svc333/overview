@@ -2,7 +2,7 @@
 
 copyright:
   years: 2018, 2019
-lastupdated: "2019-02-07"
+lastupdated: "2019-02-27"
 
 metadata: HA,failover,DR 
 
@@ -58,7 +58,7 @@ The requirements that {{site.data.keyword.Bluemix}} follows are:
 
 You can create apps and service instances in different locations with the same {{site.data.keyword.cloud_notm}} infrastructure for application management and the same usage details view for billing. You can deploy your apps to the location that is nearest to your customers to achieve low application latency. 
 
-To address security issues, you can also select the location in which you want to keep application data. When you build apps in more than one location, if one location becomes unavailable, the apps that are in the other locations continue to run. Your resource allowance is the same for each location that you use. For more information about the platform resources and the locations they're available in, see [Service availability](docs/resources?topic=resources-services_region).
+To address security issues, you can also select the location in which you want to keep application data. When you build apps in more than one location, if one location becomes unavailable, the apps that are in the other locations continue to run. Your resource allowance is the same for each location that you use. For more information about the platform resources and the locations they're available in, see [Service availability](/docs/resources?topic=resources-services_region).
 
 Global load balancing for the {{site.data.keyword.cloud_notm}} console ensures that if the nearest geographical location for you is unavailable, the console displays the information for the next closest location. This way, you can always access the console without taking any action to access the resources you need.
 
@@ -72,7 +72,7 @@ ibmcloud api https://api.eu-gb.cf.cloud.ibm.com
 
 A unique prefix is assigned to each location. {{site.data.keyword.cloud_notm}} provides the following locations and location prefixes.
 
-| **Location**  | **API endpoint**        |
+| **Location**  | **API Endpoint**        |
 |---------------|-------------------------|
 | Dallas        | api.us-south.cf.cloud.ibm.com  |
 | Frankfurt     | api.eu-de.cf.cloud.ibm.com  |
@@ -97,7 +97,7 @@ A data center is the physical location that hosts the power, cooling, compute, n
 ### North America
 {: #na}
 
-| Data center name | Code  |
+| Data Center | Code  |
 |------------------|-------|
 | Dallas 01        | dal01 |
 | Dallas 05        | dal05 |
@@ -124,7 +124,7 @@ A data center is the physical location that hosts the power, cooling, compute, n
 ### South America
 {: #sa}
 
-| Data center name | Code    |
+| Data Center | Code    |
 |------------------|---------|
 | Sao Paulo 01     | sao01   |
 {: caption="Table 3. Data centers in South America" caption-side="top"}
@@ -132,7 +132,7 @@ A data center is the physical location that hosts the power, cooling, compute, n
 ### Europe
 {: #eu}
 
-| Data center name | Code  |
+| Data Center | Code  |
 |------------------|-------|
 | London 02        | lon02 |
 | London 04        | lon04 |
@@ -151,7 +151,7 @@ A data center is the physical location that hosts the power, cooling, compute, n
 ### Asia Pacific
 {: #ap}
 
-| Data center name | Code  |
+| Data Center | Code  |
 |------------------|-------|
 | Tokyo 01         | tok02 | 
 | Tokyo 04         | tok04 |
@@ -230,9 +230,8 @@ Downtime doesn't include time for scheduled or announced maintenance. For each 3
 
 Service level time periods exclude any time that is required to reload the operating system or applications or the time performance might be degraded. You're eligible for a credit based on the monthly charge for the service that is affected by the hardware replacement or upgrade if {{site.data.keyword.Bluemix_notm}} fails to meet a specified service level time period.
 
-| Type	                    | Description	   |
+| Service Level Time Period  | Credit Percentage |
 |---------------------------|----------------|
-| Service Level Time Period | Credit Percent |
 | ≤ 2 hours                 | None           |
 | > 2 hours                 | 20%            |
 | > 6 hours                 | 40%            |

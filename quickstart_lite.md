@@ -4,7 +4,7 @@ copyright:
 
   years: 2018, 2019
 
-lastupdated: "2019-02-19"
+lastupdated: "2019-02-27"
 
 ---
 
@@ -24,7 +24,7 @@ Looking to try out {{site.data.keyword.Bluemix}}? A Lite account is great for le
 ## Before you begin
 {: #prereqs-lite}
 
-Go to [{DomainName}]({DomainName}) and create a Lite account. It's free and never expires.
+Go to the [{{site.data.keyword.Bluemix_notm}} console](https://{DomainName}) and create a Lite account. It's free and never expires.
 
 ## Quick start steps
 {: #steps-lite}

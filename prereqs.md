@@ -3,7 +3,7 @@
 
 copyright:
   years: 2016, 2019
-lastupdated: "2019-01-24"
+lastupdated: "2019-02-27"
 
 ---
 
@@ -34,4 +34,4 @@ You can report issues about Internet Explorer 11 through our **Feedback** button
 ## Command-line interface (CLI)
 {: #cli-platform}
 
-The {{site.data.keyword.Bluemix_notm}} CLI is constantly changing so it is recommended to go to [Installing the stand-alone {{site.data.keyword.Bluemix_notm}} CLI](/cli/reference/ibmcloud/cloud-cli-install_use) page, which always points to the latest CLI version.
+The {{site.data.keyword.Bluemix_notm}} CLI is constantly changing so it is recommended to go to [Installing the stand-alone {{site.data.keyword.Bluemix_notm}} CLI](/docs/cli/reference/ibmcloud/cloud-cli-install_use) page, which always points to the latest CLI version.

@@ -4,7 +4,7 @@ copyright:
 
   years: 2018, 2019
 
-lastupdated: "2019-02-19"
+lastupdated: "2019-02-27"
 
 ---
 
@@ -22,11 +22,9 @@ The {{site.data.keyword.cloud}} platform is composed of multiple components that
 
 Use the following table to get an at-a-glance view of the command-line interface (CLI) commands and API documents that are associated with each platform component.
 
-<!-- Below is a PRODUCTION table  with only 3 columns -->
-
 | Platform Component | CLI Reference | API Docs |
 | ----- | ----- | ----- |
-| {{site.data.keyword.cloud_notm}} Identity and Access Management (IAM) | [Managing IAM access, API keys, service IDs, and access groups](docs/cli/reference/ibmcloud?topic=cloud-cli-ibmcloud_commands_iam) | [IAM Identity Services API](https://console.cloud.ibm.com/apidocs/iam-identity-token-api){: new_window} ![External link icon](../icons/launch-glyph.svg "External link icon") <br><br>  [IAM Access Groups API](https://console.cloud.ibm.com/apidocs/iam-access-groups){: new_window} ![External link icon](../icons/launch-glyph.svg "External link icon") <br><br> [IAM Policy Management API](https://console.cloud.ibm.com/apidocs/iam-policy-management){: new_window} ![External link icon](../icons/launch-glyph.svg "External link icon") |
+| {{site.data.keyword.cloud_notm}} Identity and Access Management (IAM) | [Managing IAM access, API keys, service IDs, and access groups](/docs/cli/reference/ibmcloud?topic=cloud-cli-ibmcloud_commands_iam) | [IAM Identity Services API](https://console.cloud.ibm.com/apidocs/iam-identity-token-api){: new_window} ![External link icon](../icons/launch-glyph.svg "External link icon") <br><br>  [IAM Access Groups API](https://console.cloud.ibm.com/apidocs/iam-access-groups){: new_window} ![External link icon](../icons/launch-glyph.svg "External link icon") <br><br> [IAM Policy Management API](https://console.cloud.ibm.com/apidocs/iam-policy-management){: new_window} ![External link icon](../icons/launch-glyph.svg "External link icon") |
 | Account management | [Managing accounts, users, and Cloud Foundry orgs](/docs/cli/reference/ibmcloud?topic=cloud-cli-ibmcloud_commands_account) |  Not available |
 | Usage metering | [Viewing usage for accounts, orgs, resource groups, and resources](/docs/cli/reference/ibmcloud?topic=cloud-cli-ibmcloud_billing) |  [{{site.data.keyword.Bluemix_notm}} Usage Metering](https://console.cloud.ibm.com/apidocs/usage-metering){: new_window} ![External link icon](../icons/launch-glyph.svg "External link icon") |
 | Usage reporting |  [Viewing usage for accounts, orgs, resource groups, and resources](/docs/cli/reference/ibmcloud?topic=cloud-cli-ibmcloud_billing) |  [{{site.data.keyword.Bluemix_notm}} Usage Reports](https://console.cloud.ibm.com/apidocs/metering-reporting){: new_window} ![External link icon](../icons/launch-glyph.svg "External link icon") |
