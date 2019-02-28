@@ -2,9 +2,9 @@
 
 copyright:
 
-  years: 2018
+  years: 2018, 2019
 
-lastupdated: "2018-11-14"
+lastupdated: "2019-02-19"
 
 ---
 
@@ -22,12 +22,12 @@ Vous souhaitez découvrir {{site.data.keyword.Bluemix}} ? Un compte Lite constit
 {:shortdesc}  
 
 ## Avant de commencer
-{: #prereqs}
+{: #prereqs-lite}
 
-Accédez à [{{site.data.keyword.Bluemix_notm}}](https://{DomainName}) et créez un compte Lite. Ce dernier est gratuit et n'arrive jamais à expiration.
+Accédez à [{DomainName}]({DomainName}) et créez un compte Lite. Ce dernier est gratuit et n'arrive jamais à expiration.
 
 ## Procédure de démarrage rapide
-{: #steps}
+{: #steps-lite}
 
 1. Dans le catalogue, recherchez les offres qui incluent des [plans de service Lite ![Icône de lien externe](../icons/launch-glyph.svg "Icône de lien externe")](https://{DomainName}/catalog/?search=label:lite){: new_window} gratuits.
   
@@ -35,12 +35,12 @@ Accédez à [{{site.data.keyword.Bluemix_notm}}](https://{DomainName}) et créez
   {:tip}
 
 2. Créez une instance d'une offre qui inclut un plan Lite gratuit.
-3. Consultez nos [tutoriels de solution](/docs/tutorials/index.html) pour obtenir une procédure détaillée sur l'utilisation d'{{site.data.keyword.Bluemix_notm}} afin d'implémenter des modèles courants créés d'après les meilleures pratiques et les technologies éprouvées. 
+3. Consultez nos [tutoriels de solution](/docs/tutorials?topic=solution-tutorials-tutorials) pour obtenir une procédure détaillée sur l'utilisation d'{{site.data.keyword.Bluemix_notm}} afin d'implémenter des modèles courants créés d'après les meilleures pratiques et les technologies éprouvées. 
 
 
 ## Etapes suivantes
-{: #nextsteps}
+{: #nextsteps-lite}
 
-Découvrez la tâche de développeur dans {{site.data.keyword.Bluemix_notm}} en consultant la rubrique [Exploration de la démarche d'un développeur dans {{site.data.keyword.Bluemix_notm}}](/docs/overview/dev-journey.html#dev-journey). 
+Découvrez la tâche de développeur dans {{site.data.keyword.Bluemix_notm}} en consultant la rubrique [Exploration de la démarche d'un développeur dans {{site.data.keyword.Bluemix_notm}}](/docs/overview?topic=overview-dev-journey). 
 
 
