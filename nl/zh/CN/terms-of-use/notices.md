@@ -4,8 +4,8 @@
 
 copyright:
 
-  years: 2015, 2018
-lastupdated: "2018-10-04"
+  years: 2015, 2019
+lastupdated: "2019-01-14"
 
 
 ---
@@ -24,7 +24,7 @@ lastupdated: "2018-10-04"
 您的 IBM Cloud 帐户以及从 IBM Cloud 订购的任何服务根据以下条款提供：
 
   * 适用于您的“基本协议云条款”如下：
-    * 有关美元信用卡帐单的“SoftLayer 云服务协议”：[http://www.softlayer.com/legal](http://www.softlayer.com/legal){: new_window} ![外部链接图标](../../icons/launch-glyph.svg)
+    * 有关美元信用卡帐单的“SoftLayer 云服务协议”：[https://www.ibm.com/support/customer/zz/en/softlayer.html](https://www.ibm.com/support/customer/zz/en/softlayer.html){: new_window} ![外部链接图标](../../icons/launch-glyph.svg)
     * 有关非美元信用卡帐单的“IBM Cloud 服务协议”（本地国家/地区版本*），或者如果您选择由 IBM 开票，请访问：[https://www.ibm.com/terms](https://www.ibm.com/terms){: new_window} ![外部链接图标](../../icons/launch-glyph.svg)（选择您所在国家/地区）；
     * 您接受的“IBM Passport Advantage 协议”以及“IBM Passport Advantage 客户机云产品 TOU 的通用条款”：[http://www-03.ibm.com/software/sla/sladb.nsf/sla/tou](http://www-03.ibm.com/software/sla/sladb.nsf/sla/tou){: new_window} ![外部链接图标](../../icons/launch-glyph.svg)；或者
     * 您与 IBM 之间达成的效力等同的云服务基本协议条款；
@@ -54,7 +54,7 @@ International Business Machines Corporation 或其子公司 (IBM) 拥有分配�
 ### 2. 客户提供的 IP 地址
 {: #client_provided_ips}
 
-客户可以通过提交支持凭单并提供“授权书”来指定客户拥有的 IP 前缀，从而提供自己的区域性因特网注册表 (RIR) 发放的 IP 地址，但须遵循某些技术限制和所有权验证。如果 IBM 批准了请求，那么将代表客户通过边界网关协议 (BGP) 发布这些 IP 地址，并将这些 IP 地址路由到已确定的客户服务器。客户保留对这些 IP 地址的所有权。根据客户要求，或者在服务取消后，IBM 将停止发布和路由这些 IP 地址。IBM 将尽合理努力来确保所有上游 ISP 接受 BGP 前缀，但我们无法保证客户拥有的 IP 的全局可达性。 
+客户可以通过提交支持案例并提供“授权书”来指定客户拥有的 IP 前缀，从而提供自己的区域性因特网注册表 (RIR) 发放的 IP 地址，但须遵循某些技术限制和所有权验证。如果 IBM 批准了请求，那么将代表客户通过边界网关协议 (BGP) 发布这些 IP 地址，并将这些 IP 地址路由到已确定的客户服务器。客户保留对这些 IP 地址的所有权。根据客户要求，或者在服务取消后，IBM 将停止发布和路由这些 IP 地址。IBM 将尽合理努力来确保所有上游 ISP 接受 BGP 前缀，但我们无法保证客户拥有的 IP 的全局可达性。 
 
 ### 3. 审查/理由/效率准则
 {: #review_justification_efficiency}
@@ -130,6 +130,16 @@ IBM 可以按它认为适当的任何方式使用或分发您所提供的任何�
 凡这些样本程序的每份拷贝或其任何部分或任何演绎作品，都必须包括如下版权声明：
 
   ©（贵公司的名称）（年）。此部分代码是根据 IBM 公司的样本程序衍生出来的。Copyright IBM Corp. 2015.
+
+制裁和禁运
+
+出于外交政策和国家安全原因，美国禁止与一小部分国家/地区进行大多数商业交易及其他交易。这类禁令的正式名称为贸易和经济制裁或全面禁运，目前实施的对象是伊朗、古巴、朝鲜和叙利亚。 
+
+IBM Cloud 实施的网络范围的阻止策略，将阻止与源自受到贸易和经济制裁的国家/地区的 IP 地址进行通信。此策略会影响所有 IBM Cloud 数据中心位置和环境，并会阻止在受到美国贸易和经济制裁的国家/地区注册的 IP 地址进行的访问。
+
+为了识别与美国禁运国家/地区关联的 IP 地址，IBM Cloud 引用了由 [MaxMind ![外部链接图标](../../icons/launch-glyph.svg)](http://www.maxmind.com){: new_window} 维护的 Geo IP2 数据库。IBM Cloud 每季度会更新一次其 IP 地址国家/地区映射。
+
+注：此限制不适用于美国制裁和禁运中未禁止的内容。如果您认为自己的内容不在美国贸易和经济制裁范围内，请发送电子邮件至 exemptions@softlayer.com。 
 
 ## 商标
 {: #trademarks}
