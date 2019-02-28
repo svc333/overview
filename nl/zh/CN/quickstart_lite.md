@@ -18,7 +18,7 @@ lastupdated: "2018-11-14"
 # 免费试用 {{site.data.keyword.Bluemix_notm}}
 {: #quickstart_lite}
 
-在考虑试用 {{site.data.keyword.Bluemix}}？轻量帐户对于了解如何在云中工作、使用 Watson 等确实非常有用。同时，也适用于通过 {{site.data.keyword.Bluemix_notm}} 中提供的大量组件来构建概念验证 (POC)。本快速入门指南旨在帮助您快速入门并熟练运用轻量帐户。  
+在考虑试用 {{site.data.keyword.Bluemix}}？轻量帐户对于了解如何在云中工作、使用 Watson 等非常有用。同时，也适用于通过 {{site.data.keyword.Bluemix_notm}} 中提供的大量组件来构建概念验证 (POC)。本快速入门指南旨在帮助您快速入门并熟练运用轻量帐户。  
 {:shortdesc}  
 
 ## 开始之前
@@ -41,6 +41,6 @@ lastupdated: "2018-11-14"
 ## 后续步骤
 {: #nextsteps}
 
-通过[探索 {{site.data.keyword.Bluemix_notm}} 中开发者的旅程](/docs/overview/dev-journey.html#dev-journey)，了解在 {{site.data.keyword.Bluemix_notm}} 中开发者能做些什么。 
+通过[探索 {{site.data.keyword.Bluemix_notm}} 中开发者旅程](/docs/overview/dev-journey.html#dev-journey)，了解在 {{site.data.keyword.Bluemix_notm}} 中开发者能做些什么。 
 
 

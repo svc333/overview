@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2018
-lastupdated: "2018-11-30"
+  years: 2018, 2019
+lastupdated: "2019-01-04"
 
 
 ---
@@ -17,7 +17,7 @@ lastupdated: "2018-11-30"
 # 探索 {{site.data.keyword.cloud_notm}} 中 IT 运营管理员的旅程
 {: #it-ops}
 
-随着许多组织移至云环境（无论是内部部署还是在数据中心托管），IT 运营管理员的角色会进行重新定义。根据组织考虑部署的环境类型，这一角色变化的范围和复杂性会显著增加。
+随着许多组织移至云环境（无论是内部部署还是在数据中心托管），IT 运营管理员的角色会进行重新定义。根据组织想要部署的环境类型，这一角色变化的范围和复杂性会显著增加。
 {: .shortdesc}
 
 在移至云之前，您使用的是本身安全的环境，其中各个系统连接到专用 LAN 或内部网。在云环境中，现在您应该执行以下任务：
@@ -36,7 +36,7 @@ lastupdated: "2018-11-30"
 ### 云服务模型
 {: #cloud-svc-models}
 
-有三种类型的云服务模型：基础架构即服务 (IaaS)、平台即服务 (PaaS) 和软件即服务 (SaaS)。图 1 说明了谁在每种服务模型中执行什么操作。有关更多信息，请参阅 [IaaS, PaaS, and SaaS - IBM Cloud service models](https://www.ibm.com/cloud/learn/iaas-paas-saas){: new_window} ![外部链接图标](../icons/launch-glyph.svg "外部链接图标")。
+存在三种类型的云服务模型：基础架构即服务 (IaaS)、平台即服务 (PaaS) 和软件即服务 (SaaS)。图 1 说明了谁在每种服务模型中执行什么操作。有关更多信息，请参阅 [IaaS, PaaS, and SaaS - IBM Cloud service models](https://www.ibm.com/cloud/learn/iaas-paas-saas){: new_window} ![外部链接图标](../icons/launch-glyph.svg "外部链接图标")。
 
 ![图 1. 云服务模型](images/cloud-svc-models.png "云服务模型")
 
@@ -44,7 +44,7 @@ lastupdated: "2018-11-30"
 
 使用 PaaS 模型时，提供者负责通过操作系统来管理各系统，还负责所有基础架构管理，包括操作系统补丁、硬件维修和网络设置。您负责构建和维护应用程序，并且您或提供者可以安装中间件，包括数据库或其他类型的中间件。此模型用于开发和测试软件。有关更多信息，请参阅 [A practical guide to platform as a service: What is PaaS ![外部链接图标](../icons/launch-glyph.svg "外部链接图标")](https://www.ibm.com/blogs/cloud-computing/2016/08/10/practical-guide-paas/){: new_window}。
 
-使用 SaaS 模型时，提供者通过实际应用程序维护各系统。该应用程序属于云感知应用程序，最终用户可以根据软件提供者的要求使用不同的端点来运行软件。云提供者负责所有基础架构和应用程序管理，包括软件更新、硬件维修和网络设置。此模型通常用于现买现付软件许可模型。有关更多信息，请参阅 [SaaS applications for business and IT](https://www.ibm.com/cloud/saas){: new_window} ![外部链接图标](../icons/launch-glyph.svg "外部链接图标")。
+使用 SaaS 模型时，提供者通过实际应用程序维护各系统。该应用程序属于云感知应用程序，用户可以根据软件提供者的要求使用不同的端点来运行软件。云提供者负责所有基础架构和应用程序管理，包括软件更新、硬件维修和网络设置。此模型通常用于现收现付软件许可模型。有关更多信息，请参阅 [SaaS applications for business and IT](https://www.ibm.com/cloud/saas){: new_window} ![外部链接图标](../icons/launch-glyph.svg "外部链接图标")。
 
 ### 云类型
 {: #cloud-types}
@@ -58,7 +58,7 @@ lastupdated: "2018-11-30"
 ## 规划基础架构
 {: #planning}
 
-在实际供应基础架构之前，您需要先规划基础架构，以确保正确针对工作负载调整基础架构的大小。{{site.data.keyword.cloud_notm}} 有多个工具和站点可帮助您设计基础架构并调整其大小。 
+在供应基础架构之前，您需要先规划基础架构，以确保针对工作负载正确调整基础架构的大小。{{site.data.keyword.cloud_notm}} 有多个工具和站点可帮助您设计基础架构并调整其大小。 
 
 ### 基础架构体系结构
 
@@ -74,7 +74,7 @@ lastupdated: "2018-11-30"
 
 ### 裸机服务器选项
 
-使用 [{{site.data.keyword.cloud_notm}} {{site.data.keyword.baremetal_short}} 搜索工具 ![外部链接图标](../icons/launch-glyph.svg "外部链接图标")](https://www.ibm.com/cloud-computing/bluemix/bare-metal-search){: new_window} 可调整裸机服务器选项的大小并进行估算，包括经过认证，可支持 SAP HANA 和 SAP NetWeaver 工作负载的服务器。
+使用 [{{site.data.keyword.cloud_notm}} {{site.data.keyword.baremetal_short}} 搜索工具 ![外部链接图标](../icons/launch-glyph.svg "外部链接图标")](https://www.ibm.com/cloud-computing/bluemix/bare-metal-search){: new_window} 可调整裸机服务器选项的大小并进行估算，包括经过认证可支持 SAP HANA 和 SAP NetWeaver 工作负载的服务器。
 
 ### {{site.data.keyword.cloud_notm}} 服务与合规性
 
@@ -106,7 +106,7 @@ lastupdated: "2018-11-30"
 
 {{site.data.keyword.baremetal_short}} 和 {{site.data.keyword.BluVirtServers_short}} 供应有缺省存储器。{{site.data.keyword.baremetal_short}} 至少有 1 TB SATA 磁盘空间，{{site.data.keyword.BluVirtServers_short}} 至少有 25 GB SAN 存储器。对此例外的情况是 {{site.data.keyword.cloud_notm}} SAP 认证的 {{site.data.keyword.baremetal_short}}。有关这些服务器可用的缺省存储器的更多信息，请参阅 [{{site.data.keyword.cloud_notm}} SAP 认证的基础架构](/docs/bare-metal/bare-metal-sap-applications.html#ibm-cloud-sap-certified-infrastructure)。
 
-您可以根据需要购买其他存储器。请参阅下表以获取计算选项的摘要。
+您可以根据需要购买额外的存储器。请参阅下表以获取计算选项的摘要。
 
 |选项|描述
 |

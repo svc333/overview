@@ -3,7 +3,7 @@
 
 copyright:
   years: 2016, 2019
-lastupdated: "2019-02-08"
+lastupdated: "2019-01-02"
 
 
 ---
@@ -666,7 +666,7 @@ Ein definiertes geografisches Gebiet. Bei einer Region kann es sich um einen bes
 ### Registry
 {: #x2064940}
 
-Ein öffentliches oder privates Repository, das Images enthält, mit denen Container erstellt werden. Siehe auch [Container](#x2010901), [Image](#x2024928).
+Ein öffentlicher oder privater Service für die Speicherung und Verteilung von Container-Images. Siehe auch [Container](#x2010901), [Image](#x2024928).
 
 ### Representational State Transfer (REST)
 {: #x3220976}

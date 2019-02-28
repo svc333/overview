@@ -4,11 +4,7 @@ copyright:
 
   years: 2017, 2019
 
-lastupdated: "2019-02-12"
-
-keywords: crn, cloud resource name
-
-subcollection: overview
+lastupdated: "2019-01-04"
 
 ---
 
@@ -23,64 +19,62 @@ subcollection: overview
 
 Les noms de ressource de cloud identifient de manière unique des ressources {{site.data.keyword.Bluemix_notm}}. Un nom de ressource de cloud est utilisé pour indiquer une ressource de manière à éviter toute ambiguïté et à garantir qu'elle est globalement unique, par exemple, dans des règles {{site.data.keyword.Bluemix_notm}} Identity and Access Management (IAM) et des services répertoriés dans le catalogue du cloud.
 
-Un nom de ressource de cloud est constitué d'une concaténation de "segments" qui identifient hiérarchiquement la ressource, son emplacement et le service auquel elle appartient. Le caractère deux-points (':') est défini comme délimiteur de segment. Tous les noms de ressource de cloud commencent par l'identificateur de segment `crn`.
+Un nom de ressource de cloud est constitué d'une concaténation de "segments" qui identifient hiérarchiquement la ressource, son emplacement et le service auquel elle appartient. Le caractère deux-points (':') est défini comme délimiteur de segment. Tous les noms de ressource de cloud commencent par l'identificateur de segment 'crn'.
 
 
-## Format CRN (nom de ressource de cloud)
-{: #format-crn}
+## Format d'un nom de ressource de cloud
+{: #format}
 
 Le format canonique de base d'un nom de ressource de cloud est le suivant :
 
-`crn:version:cname:ctype:service-name:location:scope:service-instance:resource-type:resource`
+**crn:[version](#version):[cname](#cname):[ctype](#ctype):[service-name](#service-name):[location](#location):[scope](#scope):[service-instance](#service-instance):[resource-type:resource](#resource-type)**
 
 
 ## version
-{: #version-crn}
+{: #version}
 
-Le segment `version` identifie la version du format de nom de ressource de cloud. Actuellement, la seule valeur de segment de version valide est `v1`.
+Le segment `version` identifie la version du format de nom de ressource de cloud. Actuellement, la seule valeur de segment de version valide est **v1**.
 
 
 ## cname
-{: #cname-crn}
+{: #cname}
 
-Le segment `cname` identifie l'instance cloud et est un identificateur alphanumérique identifiant de manière unique l'instance cloud qui contient la ressource. Un segment `cname` identifie véritablement un plan de contrôle indépendant auquel appartient la ressource identifiée. La valeur du segment `cname` doit être `bluemix` pour les utilisateurs {{site.data.keyword.Bluemix_notm}}.
+Le segment `cname` identifie l'instance cloud et est un identificateur alphanumérique identifiant de manière unique l'instance cloud qui contient la ressource. Un segment `cname` identifie véritablement un plan de contrôle indépendant auquel appartient la ressource identifiée. `cname` doit être `bluemix` pour les utilisateurs {{site.data.keyword.Bluemix_notm}}.
 
 
 ## ctype
-{: #ctype-crn}
+{: #ctype}
 
-Le segment `ctype` identifie le type d'instance de cloud représentée par le segment `cname` spécifié.
+Le segment `ctype` identifie le type d'instance cloud représentée par le segment `cname` spécifié.
 
- Les valeurs valides sont les suivantes :
-  - `public` - Tous les services disponibles du catalogue public
-  - `dedicated` - Uniquement pour les environnements dédiés {{site.data.keyword.Bluemix_notm}}
-  - `local` - Tous les services déployés en local dans votre propre environnement
+>Les valeurs valides sont les suivantes :
+  - public - Tous les services disponibles du catalogue public.
+  - dedicated - Uniquement pour les environnements dédiés {{site.data.keyword.Bluemix_notm}}.
+  - local - Tous les services déployés en local dans votre propre environnement.
 
 
 ## service-name
-{: #service-name-crn}
+{: #service-name}
 
 Le segment `service-name` identifie de manière unique une capacité (service, composant, produit) offerte par le cloud. Cette capacité peut être un service fourni par un utilisateur, tels les services répertoriés dans le catalogue {{site.data.keyword.Bluemix_notm}}, ou un composant d'architecture interne critique pour la fonctionnalité {{site.data.keyword.Bluemix_notm}}.
 
-Le segment `service-name` indique le service auquel appartient la ressource et {{site.data.keyword.Bluemix_notm}} applique l'unicité globale des noms de service. Le segment `service-name` doit être composé de caractères alphanumériques, sans espaces ou caractères spéciaux autres que '-'.
+`service-name` indique le service auquel appartient la ressource et {{site.data.keyword.Bluemix_notm}} applique l'unicité globale des noms de service. `service-name` doit être composé de caractères alphanumériques, sans espaces ou caractères spéciaux autres que '-'.
 
-Pour les services enregistrés dans le catalogue {{site.data.keyword.Bluemix_notm}}, le segment `service-name` doit correspondre à un des services enregistrés dans le service {{site.data.keyword.Bluemix_notm}} Global Catalog. Il s'agit de la propriété `name` renvoyée par l'API du service {{site.data.keyword.Bluemix_notm}} Global Catalog `GET https://globalcatalog.cloud.ibm.com/api/v1/{id}` pour l'instance de ressource correspondante ou de la valeur `service-name` affichée par l'interface de ligne de commande `ibmcloud service offerings` dans la colonne `service`.
+Pour les services enregistrés dans le catalogue {{site.data.keyword.Bluemix_notm}}, l'élément `service-name` doit correspondre à un des services enregistrés dans le service {{site.data.keyword.Bluemix_notm}} Global Catalog. Il s'agit de la propriété `name` renvoyée par l'API `GET https://resource-catalog.bluemix.net/api/v1/{id}` du service {{site.data.keyword.Bluemix_notm}} Global Catalog pour l'instance de ressource correspondante ou l'élément `service-name` affiché par l'interface de ligne de commande : `ibmcloud service offerings` dans la colonne `service`.
 
 
 ## location
-{: #location-crn}
+{: #location}
 
-Secteur géographique/région/zone/centre de données de cloud où réside la ressource.
+La géographie/région/zone/le centre de données de cloud où réside la ressource.
 
-Le segment `location` doit avoir l'une des valeurs suivantes :
+`location` doit avoir l'une des valeurs suivantes :
 
 ### Global
-{: #global-crn}
 
  * `global`
 
 ### Géographies
-{: #geos-crn}
 
  * `us`
  * `eu`
@@ -88,7 +82,6 @@ Le segment `location` doit avoir l'une des valeurs suivantes :
  * `ap`
 
 ### Régions
-{: #regions-crn}
 
  * `us-south`
  * `us-east`
@@ -97,7 +90,6 @@ Le segment `location` doit avoir l'une des valeurs suivantes :
  * `eu-de`
 
 ### Centres de données
-{: #dc-crn}
 
 
 | | | | | |
@@ -109,14 +101,14 @@ Le segment `location` doit avoir l'une des valeurs suivantes :
 | PAR01  | SJC01  | SJC03  | SAO01  |  SEA01  |
 | SEO01  | SNG01  | SYD01  | TOK02  |  TOR01  |
 | WDC01  | WDC04  | WDC06  | WDC07  |
-{: caption="Tableau 1. Valeurs de centre de donnés valides" caption-side="top"}
+{: caption="Tableau 1. Valeurs de centre de données valides" caption-side="top"}
 
-Pour certaines ressources, aucune région n'est requise car elles peuvent être considérées comme étant `globales`. Dans ce cas, le segment `region` a la valeur `global`.
+Certaines ressources ne nécessitent pas de région (elles peuvent être considérées comme étant `globales`). Dans ce cas, le segment `region` est défini sur `global`.
 {: tip}
 
 
 ## scope
-{: #scope-crn}
+{: #scope}
 
 Le segment `scope` identifies la restriction ou le propriétaire de la ressource. Certaines ressources ne nécessitent pas de propriétaire (elles peuvent être considérées comme étant `globales`). Dans ce cas, le segment `scope` est vide (chaîne vide).
 
@@ -124,17 +116,17 @@ La valeur du segment `scope` doit être au format `{scopePrefix}`/`{id}`. `scope
 
 | Type de portée | Préfixe de portée | Syntaxe | Exemple |
 | --- | --- | --- | --- |
-| Compte | a/`{account id}` | Compte dans lequel la ressource a été créée. | `a/292558` |
-| Organisation | o/`{org guid}` | Organisation {{site.data.keyword.Bluemix_notm}} à laquelle la ressource a été affectée. | `o/4716e2d1-35b7-431f-891a-b552bf0b3c66` |
-| Espace | s/`{space guid}` | Espace {{site.data.keyword.Bluemix_notm}} auquel la ressource a été affectée. | `s/48b3cdcd-e804-4398-9032-73065863ad7c` |
-{: caption="Tableau 2. Utilisation de la portée" caption-side="top"}
+| Compte | a/`{account id}` | Compte dans lequel la ressource a été créée. | a/292558 |
+| Organisation | o/`{org guid}` | L'organisation {{site.data.keyword.Bluemix_notm}} à laquelle la ressource a été affectée. | o/4716e2d1-35b7-431f-891a-b552bf0b3c66 |
+| Espace | s/`{space guid}` | Espace {{site.data.keyword.Bluemix_notm}} auquel la ressource a été affectée. | s/48b3cdcd-e804-4398-9032-73065863ad7c |
+{: caption="Tableau 2. `scope` usage" caption-side="top"}
 
 
 
 ## service-instance
-{: #service-instance-crn}
+{: #service-instance}
 
-Le segment `service-instance` identifie l'instance de service de manière unique. Le format du segment `service-instance` varie en fonction du service. Chaque service doit documenter le format de son segment `service_instance` dans le cadre de ses métadonnées de service. Certains services n'ont pas d'instance car l'instance est globale et, dans ce cas, la zone `service-instance` est vide.
+Le segment `service-instance` identifie l'instance de service de manière unique. Le format du segment `service-instance` varie en fonction du service. Chaque service doit documente le format de son segment `service_instance` dans le cadre de ses métadonnées de service. Certains services n'ont pas d'instances car l'instance est globale et, dans ce cas, `service-instance` sera vide.
 
 L'élément `service-instance` doit être composé de caractères alphanumériques minuscules. Il ne doit pas inclure d'espace ou de caractères spécial à l'exception des caractères '-' et '/'.
 
@@ -149,13 +141,13 @@ ibmcloud resource service-instance
 {: codeblock}
 
 ## resource-type, resource
-{: #resource-type-crn}
+{: #resource-type}
 
-La valeur des segments `resource-type` et `resource` varie en fonction du service. Un service doit documenter les segments `resource types` pris en charge et le format du segment `resource` dans le cadre de ses métadonnées de service.
+La valeur des segments `resource-type` et `resource` varie en fonction du service. Un service doit documenter les `types de ressource` pris en charge et le format de `resource` dans le cadre de ses métadonnées de service.
 
-Par exemple, une image dans le conteneur de réception client d'un service Object Storage peut avoir un segment `resource-type` de valeur `object` et un élément `resource` de valeur `CustomerReceipts/clientdinner.png`.
+Par exemple, une image dans le conteneur de réception client d'un service Object Storage peut avoir un segment `resource-type` avec la valeur `object` et un segment `resource_ value` avec la valeur `CustomerReceipts/clientdinner.png`.
 
-Le segment `resource-type` doit être composé de caractères alphanumériques, sans espaces ou caractères spéciaux autres que '-'. Un service peut décider que le segment `resource-type` est facultatif et auquel cas, le segment est laissé vide.
+`resource-type` doit être composé de caractères alphanumériques, sans espaces ou caractères spéciaux autres que '-'. Un service peut décider que le segment `resource-type` est facultatif et, auquel cas, le segment sera vide.
 
 
 ## Exemples de nom de ressource de cloud

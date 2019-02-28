@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017, 2018
-lastupdated: "2018-11-30"
+  years: 2017, 2019
+lastupdated: "2019-01-07"
 
 ---
 
@@ -82,7 +82,7 @@ lastupdated: "2018-11-30"
 |{{site.data.keyword.dashdbshort}}			|是|是|	|是|
 |{{site.data.keyword.dataworks_short}}				|	|	|	|是|
 |{{site.data.keyword.contdelivery_short}}					|是|是|	|			|
-|{{site.data.keyword.containerlong}}			|是|是|	|			|
+|{{site.data.keyword.containerlong}}			|是|是|	|		是|
 |{{site.data.keyword.dwl_short}}				|	|	|	|是|
 |{{site.data.keyword.mql}}				|是|是|是|	 		|
 |{{site.data.keyword.SecureGateway}}			|是|是|	|	 		|

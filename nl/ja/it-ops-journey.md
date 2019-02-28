@@ -2,7 +2,7 @@
 
 copyright:
   years: 2018, 2019
-lastupdated: "2019-01-29"
+lastupdated: "2019-01-04"
 
 
 ---
@@ -58,7 +58,7 @@ SaaS モデルでは、プロバイダーは実際のアプリケーションを
 ## インフラストラクチャーの計画
 {: #planning}
 
-プロビジョンする前にインフラストラクチャーの計画を立てて、ワークロードに合わせて正しくサイズが設定されていることを確認する必要があります。 {{site.data.keyword.cloud_notm}} には、インフラストラクチャーの設計およびサイジングに役立ついくつかのツールとサイトがあります。 
+プロビジョンする前にインフラストラクチャーの計画を立てて、ワークロードに合わせて正しくサイズが設定されていることを確認する必要があります。{{site.data.keyword.cloud_notm}} には、インフラストラクチャーの設計およびサイジングに役立ついくつかのツールとサイトがあります。 
 
 ### インフラストラクチャー・アーキテクチャー
 
@@ -78,7 +78,7 @@ SaaS モデルでは、プロバイダーは実際のアプリケーションを
 
 ### {{site.data.keyword.cloud_notm}} サービスとコンプライアンス
 
-アーキテクチャーと同様に、インフラストラクチャーをサイジングする際、ソリューションに追加する可能性のある {{site.data.keyword.cloud_notm}} リソースを考慮する必要があります。 詳しくは、[SaaS applications for business and IT ![外部リンク・アイコン](../icons/launch-glyph.svg "外部リンク・アイコン")](https://www.ibm.com/cloud/saas){: new_window} を参照して、特定のサービスを検索してください。 アーキテクチャーの構築時に考慮する必要がある規則についても検討してください。 例えば、ワークロードが機密と見なされているか、または規制されているかなどを検討してください。 詳しくは、『[Compliance ![外部リンク・アイコン](../icons/launch-glyph.svg "外部リンク・アイコン")](https://www.ibm.com/cloud/compliance){: new_window}』を参照してください。
+アーキテクチャーと同様に、インフラストラクチャーをサイジングする際、ソリューションに追加する可能性のある {{site.data.keyword.cloud_notm}} リソースを考慮する必要があります。 詳しくは、『[SaaS applications for business and IT ![外部リンク・アイコン](../icons/launch-glyph.svg "外部リンク・アイコン")](https://www.ibm.com/cloud/saas) {: new_window}』を参照して、特定のサービスを検索してください。 アーキテクチャーの構築時に考慮する必要がある規則についても検討してください。 例えば、ワークロードが機密と見なされているか、または規制されているかなどを検討してください。 詳しくは、『[Compliance ![外部リンク・アイコン](../icons/launch-glyph.svg "外部リンク・アイコン")](https://www.ibm.com/cloud/compliance){: new_window}』を参照してください。
 
 ## インフラストラクチャーの構築
 {: #build}
@@ -92,49 +92,45 @@ SaaS モデルでは、プロバイダーは実際のアプリケーションを
 
 | オプション | 説明 | 
 |--------|---------------|
-| [{{site.data.keyword.baremetal_short}}](/docs/bare-metal?topic=bare-metal-getting-started)  | お客様専用で、サーバー・リソースを含むどの部分でも他のお客様と共有されない、時間単位または月単位のシングル・テナント・サーバー。 |
-| [{{site.data.keyword.BluVirtServers_short}}](/docs/vsi?topic=virtual-servers-about-public-virtual-servers#public-virtual-servers) | 専用のコアおよびメモリー割り振りと共に購入される拡張が容易な仮想サーバー。 |
-| [{{site.data.keyword.vmwaresolutions_short}}](/docs/services/vmwaresolutions?topic=vmware-solutions-getting-started#getting-started) | スケーラブルでセキュアでハイパフォーマンスのインフラストラクチャー、および業界最先端の VMware ハイブリッド仮想化テクノロジーを使用して、オンプレミスの VMware ワークロードを迅速かつシームレスに統合またはマイグレーションします。 |
-| [{{site.data.keyword.containerlong_notm}}](/docs/containers?topic=containers-container_index) | Docker コンテナー、Kubernetes テクノロジー、直観的なユーザー・エクスペリエンス、標準装備のセキュリティーと分離機能を結合させることにより、コンピュート・ホストのクラスター内でコンテナー化アプリのデプロイメント、操作、スケーリング、モニタリングを自動化します。 |
-| [{{site.data.keyword.cfee_full_notm}}](/docs/cloud-foundry?topic=cloud-foundry-about) | 複数の分離したエンタープライズ・グレードの Cloud Foundry プラットフォームをオンデマンドでインスタンス化します。 |
-| [{{site.data.keyword.openwhisk_short}}](/docs/openwhisk?topic=cloud-functions-index) | Apache OpenWhisk に基づく Functions-as-a-Service (FaaS) プログラミング・プラットフォーム。 |
+| [{{site.data.keyword.baremetal_short}}](/docs/bare-metal/about.html)  | お客様専用で、サーバー・リソースを含むどの部分でも他のお客様と共有されない、時間単位または月単位のシングル・テナント・サーバー。 |
+| [{{site.data.keyword.BluVirtServers_short}}](/docs/vsi/vsi_about.html) | 専用のコアおよびメモリー割り振りと共に購入される拡張が容易な仮想サーバー。 |
+| [{{site.data.keyword.vmwaresolutions_short}}](/docs/services/vmwaresolutions/vmonic/prod_overview.html) | スケーラブルでセキュアでハイパフォーマンスのインフラストラクチャー、および業界最先端の VMware ハイブリッド仮想化テクノロジーを使用して、オンプレミスの VMware ワークロードを迅速かつシームレスに統合またはマイグレーションします。 |
+| [{{site.data.keyword.containerlong_notm}}](/docs/containers/cs_why.html) | Docker コンテナー、Kubernetes テクノロジー、直観的なユーザー・エクスペリエンス、標準装備のセキュリティーと分離機能を結合させることにより、コンピュート・ホストのクラスター内でコンテナー化アプリのデプロイメント、操作、スケーリング、モニタリングを自動化します。 |
+| [{{site.data.keyword.cfee_full_notm}}](/docs/cloud-foundry/index.html) | 複数の分離したエンタープライズ・グレードの Cloud Foundry プラットフォームをオンデマンドでインスタンス化します。 |
+| [{{site.data.keyword.openwhisk_short}}](/docs/openwhisk/index.html) | Apache OpenWhisk に基づく Functions-as-a-Service (FaaS) プログラミング・プラットフォーム。 |
 {: caption="表 1. 計算オプション" caption-side="top"}
    
 ### ストレージ
 {: #storage}
 
-{{site.data.keyword.baremetal_short}}および{{site.data.keyword.BluVirtServers_short}}は、デフォルトのストレージを使用してプロビジョンされます。 {{site.data.keyword.baremetal_short}}には少なくとも 1 TB の SATA ディスク・スペースがあり、{{site.data.keyword.BluVirtServers_short}}には少なくとも 25 GB の SAN ストレージがあります。 これに対する例外は、{{site.data.keyword.cloud_notm}} SAP 認定の{{site.data.keyword.baremetal_short}}です。 これらのサーバーで使用可能なデフォルト・ストレージについて詳しくは、『[{{site.data.keyword.cloud_notm}} SAP 認定インフラストラクチャー](/docs/bare-metal?topic=bare-metal-ibm-cloud-sap-certified-infrastructure)』を参照してください。
+{{site.data.keyword.baremetal_short}}および{{site.data.keyword.BluVirtServers_short}}は、デフォルトのストレージを使用してプロビジョンされます。 {{site.data.keyword.baremetal_short}}には少なくとも 1 TB の SATA ディスク・スペースがあり、{{site.data.keyword.BluVirtServers_short}}には少なくとも 25 GB の SAN ストレージがあります。 これに対する例外は、{{site.data.keyword.cloud_notm}} SAP 認定の{{site.data.keyword.baremetal_short}}です。 これらのサーバーで使用可能なデフォルト・ストレージについて詳しくは、『[{{site.data.keyword.cloud_notm}} SAP 認定インフラストラクチャー](/docs/bare-metal/bare-metal-sap-applications.html#ibm-cloud-sap-certified-infrastructure)』を参照してください。
 
 必要に応じて追加のストレージを購入できます。 コンピュート・オプションの要約については、以下の表を参照してください。
 
 | オプション | 説明 |
 |--------|---------------|
-| [{{site.data.keyword.blockstorageshort}}](/docs/infrastructure/BlockStorage/index.html) | コンピュート・インスタンスから独立してプロビジョンおよび管理される、永続的で高性能な iSCSI ストレージです。 iSCSI ベースのブロック・ストレージ LUN は、冗長マルチパス入出力 (MPIO) 接続を介して、許可されたデバイスに接続されます。 |
+| [{{site.data.keyword.blockstorageshort}}](/docs//infrastructure/BlockStorage/index.html) | コンピュート・インスタンスから独立してプロビジョンおよび管理される、永続的で高性能な iSCSI ストレージです。 iSCSI ベースのブロック・ストレージ LUN は、冗長マルチパス入出力 (MPIO) 接続を介して、許可されたデバイスに接続されます。 |
 | [{{site.data.keyword.filestorage_short}}](/docs/infrastructure/FileStorage/index.html) | 永続的で高速かつ柔軟なネットワーク接続された NFS ベースのファイル・ストレージ。 この Network Attached Storage (NAS) 環境では、ファイル共有機能とパフォーマンスを完全に制御できます。 ファイル・ストレージ共有は、回復力のために、経路指定された TCP/IP 接続を介して最大 64 台の許可デバイスに接続できます。 |
-| [{{site.data.keyword.cos_full_notm}}](/docs/services/cloud-object-storage?topic=cloud-object-storage-getting-started-console-) | IBM Cloud Object Storage に保管された情報は暗号化され、複数の地理的位置に分散され、REST API を使用して HTTP を介してアクセスされます。 このサービスは、IBM Cloud Object Storage System (以前の Cleversafe) によって提供されている分散ストレージ・テクノロジーを利用します。 |
+| [{{site.data.keyword.cos_full_notm}}](/docs/services/cloud-object-storage/about-cos.html) | IBM Cloud Object Storage に保管された情報は暗号化され、複数の地理的位置に分散され、REST API を使用して HTTP を介してアクセスされます。 このサービスは、IBM Cloud Object Storage System (以前の Cleversafe) によって提供されている分散ストレージ・テクノロジーを利用します。 |
 | [{{site.data.keyword.cloud_notm}} Mass Data Migration](/docs/infrastructure/mass-data-migration/index.html) | オンプレミス・データ・センターからクラウド・オブジェクト・ストレージ・バケットに大量のデータをオフロードします。 |
-| [{{site.data.keyword.backup_full}}](/docs/infrastructure/Backup/index.html) | ブラウザー・ベースの管理ユーティリティーを使用して管理される、エージェント・ベースの自動バックアップ・システム。IBM Cloud ネットワーク上の 1 つ以上のデータ・センター内のサーバー間でデータをバックアップできます。|
+| [EVault](/docs/infrastructure/Backup/index.html) | 仮想サーバー専用の EVault WebCC ブラウザー・ベースの管理ユーティリティーを使用して管理される、エージェント・ベースの自動バックアップ・システム。 IBM Cloud ネットワーク上の 1 つ以上のデータ・センター内のサーバー間でデータをバックアップします。 |
 {: caption="表 2. ストレージ・オプション" caption-side="top"}
 
 ### ネットワーキング
 {: #network}
 
-{{site.data.keyword.cloud_notm}} アカウントがセットアップされると、{{site.data.keyword.vpn_full}} に自動的に接続されます。 サーバーにはデフォルトで、パブリック IP アドレスとプライベート IP アドレスがあります。 サーバーをプライベートにする場合は、サーバーのプロビジョン後にパブリック・インターフェースをオフにするか、サーバーをプライベートとして注文することができます。 詳しくは、[仮想プライベート・ネットワーキング (VPN) の概要](/docs/infrastructure/iaas-vpn?topic=VPN-getting-started-with-virtual-private-networking-vpn-)を参照してください。
-
-<!-- begin staging only -->
-インフラストラクチャー・レイヤー内に仮想プライベート・クラウドを構築できます。仮想プライベート・クラウドとは、{{site.data.keyword.cloud_notm}} アカウントに結合された仮想ネットワークです。仮想プライベート・クラウドにより、クラウドのセキュリティーと、仮想サーバー・インスタンス (VSI) を動的にスケーリングする能力を提供するエントリー・ポイントを取得できます。詳しくは、『[IBM Cloud Virtual Private Cloud (VPC) インフラストラクチャーの概説](/docs/vpc/vpc-getting-started-with-ibm-cloud-virtual-private-cloud-infrastructure)』を参照してください。
-<!-- end staging only -->
+{{site.data.keyword.cloud_notm}} アカウントがセットアップされると、{{site.data.keyword.vpn_full}} に自動的に接続されます。 サーバーにはデフォルトで、パブリック IP アドレスとプライベート IP アドレスがあります。 サーバーをプライベートにする場合は、サーバーのプロビジョン後にパブリック・インターフェースをオフにするか、サーバーをプライベートとして注文することができます。 詳しくは、[仮想プライベート・ネットワーキング (VPN) の概要](/docs/infrastructure/iaas-vpn/getting-started.html)を参照してください。
 
 ネットワーキング・オプションの要約については、以下の表を確認してください。
 
 | オプション | 説明 | 
 |--------|---------------|
-| [コンテンツ・デリバリー・ネットワーク](/docs/infrastructure/CDN?topic=CDN-getting-started) | 企業のニーズを満たすために、メディア、エンターテイメント、ソフトウェア、ゲーム、バンキング、および e-コマースなどのさまざまな業界ソリューションに使用されます。 |
-| [ドメイン・ネーム・サービス](/docs/cli/reference/ibmcloud?topic=cloud-cli-ibm-dev-tools-for-jetbrains) | 基本の DNS 管理インターフェースを使用してドメインを表示および管理するための中心的な場所を提供し、さらに、同じ場所でリバース DNS およびセカンダリー DNS を管理するオプションを無料で提供します。 |
-| [グローバル IP アドレス](/docs/infrastructure/subnets?topic=subnets-getting-started-with-subnets-and-ips) | 柔軟性を提供し、地理的に異なるデータ・センター間であっても、サーバー間でワークロードをシフトできるようにします。 |
-| [ロード・バランシング](/docs/infrastructure/loadbalancer-service?topic=loadbalancer-service-getting-started-with-ibm-cloud-load-balancer) | 1 つのデバイスに全負荷がかからないように、データ・センター内の複数のサーバーに処理と通信を均等に分散します。 |
-| [仮想ルーター・アプライアンス](/docs/infrastructure/virtual-router-appliance/getting-started.html) | ファイアウォール、トラフィック・シェーピング、ポリシー・ベース・ルーティング、VPN、および他のフィーチャーのホストを備えたフル機能のエンタープライズ・ルーターを介して、プライベート・ネットワーク・トラフィックとパブリック・ネットワーク・トラフィックを選択的にルーティングします。 |
-| [IPSec VPN](/docs/infrastructure/iaas-vpn?topic=VPN-set-up-ipsec-vpn) | 暗号化されたサイト間ネットワークを提供するトンネル・モードを使用して、2 つのロケーション間のすべての IP トラフィックを認証して暗号化するように設計された一組のプロトコル。 |
+| [コンテンツ・デリバリー・ネットワーク](/docs/infrastructure/CDN/about.html) | 企業のニーズを満たすために、メディア、エンターテイメント、ソフトウェア、ゲーム、バンキング、および e-コマースなどのさまざまな業界ソリューションに使用されます。 |
+| [ドメイン・ネーム・サービス](/docs/cli/reference/ibmcloud/cli_dns.html) | 基本の DNS 管理インターフェースを使用してドメインを表示および管理するための中心的な場所を提供し、さらに、同じ場所でリバース DNS およびセカンダリー DNS を管理するオプションを無料で提供します。 |
+| [グローバル IP アドレス](/docs/infrastructure/subnets/about-global-ip.html) | 柔軟性を提供し、地理的に異なるデータ・センター間であっても、サーバー間でワークロードをシフトできるようにします。 |
+| [ロード・バランシング](/docs/infrastructure/local-load-balancer/about.html) | 1 つのデバイスに全負荷がかからないように、データ・センター内の複数のサーバーに処理と通信を均等に分散します。 |
+| [仮想ルーター・アプライアンス](/docs/infrastructure/virtual-router-appliance/about.html) | ファイアウォール、トラフィック・シェーピング、ポリシー・ベース・ルーティング、VPN、および他のフィーチャーのホストを備えたフル機能のエンタープライズ・ルーターを介して、プライベート・ネットワーク・トラフィックとパブリック・ネットワーク・トラフィックを選択的にルーティングします。 |
+| [IPSec VPN](/docs/infrastructure/iaas-vpn/set-up-ipsec-vpn.html) | 暗号化されたサイト間ネットワークを提供するトンネル・モードを使用して、2 つのロケーション間のすべての IP トラフィックを認証して暗号化するように設計された一組のプロトコル。 |
 | {{site.data.keyword.cloud_notm}} Direct Link | Cloud Exchange プロバイダーを利用して、{{site.data.keyword.cloud_notm}} インフラストラクチャー・ロケーションへの接続を提供します。 |
 {: caption="表 3. ネットワーキング・オプション" caption-side="top"}
 
@@ -146,8 +142,8 @@ SaaS モデルでは、プロバイダーは実際のアプリケーションを
 
 | タスク | 説明 |
 |--------|---------------|
-| [システム・イベントのモニター](/docs/account?topic=account-audit-log) | インフラストラクチャー・リソースに対して実行されたアクションを表示します。 |
-| [E メール設定の指定](/docs/account?topic=account-email-prefs) | 計画外のイベント、保守、および告知に関する {{site.data.keyword.cloud_notm}} インフラストラクチャーの E メール通知をセットアップします。  |
-| [データの安全性の理解](/docs/overview?topic=overview-security) | {{site.data.keyword.cloud_notm}} プラットフォームは、ネットワークおよびインフラストラクチャー全体にわたって階層化されたセキュリティー管理を備えています。 |
-| [ダウン時間をゼロにする方法の理解](/docs/overview?topic=overview-zero-downtime) | すべての {{site.data.keyword.cloud_notm}} リソースは、世界中のデータ・センターの場所でホストされます。 |
+| [システム・イベントのモニター](/docs/account/audit_log.html) | インフラストラクチャー・リソースに対して実行されたアクションを表示します。 |
+| [E メール設定の指定](/docs/account/email.html) | 計画外のイベント、保守、および告知に関する {{site.data.keyword.cloud_notm}} インフラストラクチャーの E メール通知をセットアップします。  |
+| [データの安全性の理解](/docs/overview/security.html) | {{site.data.keyword.cloud_notm}} プラットフォームは、ネットワークおよびインフラストラクチャー全体にわたって階層化されたセキュリティー管理を備えています。 |
+| [ダウン時間をゼロにする方法の理解](/docs/overview/zero_downtime.html) | すべての {{site.data.keyword.cloud_notm}} リソースは、世界中のデータ・センターの場所でホストされます。 |
 {: caption="表 4. 管理タスク" caption-side="top"}

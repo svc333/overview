@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017, 2018
-lastupdated: "2018-11-30"
+  years: 2017, 2019
+lastupdated: "2019-01-07"
 
 ---
 
@@ -81,7 +81,7 @@ Die folgende Tabelle zeigt, welche Services in {{site.data.keyword.Bluemix_notm}
 |{{site.data.keyword.dashdbshort}}			|J	|J	|	|J	|
 |{{site.data.keyword.dataworks_short}}				|	|	|	|J	 		|
 |{{site.data.keyword.contdelivery_short}}					|J	|J	|	|			|
-|{{site.data.keyword.containerlong}}			|J		|J	|	|			|
+|{{site.data.keyword.containerlong}}			|J		|J	|	|		J	|
 |{{site.data.keyword.dwl_short}}				|	|	|	|J	 		|
 |{{site.data.keyword.mql}}				|J	|J	|J	|	 		|
 |{{site.data.keyword.SecureGateway}}			|J	|J |	|	 		|

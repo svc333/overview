@@ -4,7 +4,7 @@ copyright:
 
   years: 2015, 2018
 
-lastupdated: "2018-11-30"
+lastupdated: "2018-12-20"
 
 ---
 
@@ -14,7 +14,7 @@ lastupdated: "2018-11-30"
 # {{site.data.keyword.Bluemix_notm}} 中的新增内容
 {: #whatsnew}
 
-及时获取 {{site.data.keyword.Bluemix}} 中提供的新功能和服务，以便最充分地利用 {{site.data.keyword.Bluemix_notm}} 体验。我们将更新组织为以下类别：[{{site.data.keyword.Bluemix_notm}} 平台](index.html#platform_category)、[{{site.data.keyword.Bluemix_local_notm}} 和 {{site.data.keyword.Bluemix_dedicated_notm}}](index.html#dedicatedandlocal)、[计算](index.html#compute_category)和[服务](index.html#services_category)。
+及时获取 {{site.data.keyword.Bluemix}} 中可用的新功能和服务，以便最充分地利用 {{site.data.keyword.Bluemix_notm}} 体验。我们将更新组织为以下类别：[{{site.data.keyword.Bluemix_notm}} 平台](index.html#platform_category)、[{{site.data.keyword.Bluemix_local_notm}} 和 {{site.data.keyword.Bluemix_dedicated_notm}}](index.html#dedicatedandlocal)、[计算](index.html#compute_category)和[服务](index.html#services_category)。
 {:shortdesc}
 
 ## {{site.data.keyword.Bluemix_notm}} 平台
@@ -25,7 +25,7 @@ lastupdated: "2018-11-30"
 最新更新日期：2018 年 11 月 30 日
 {: #support}
 
-通过支持中心，您可以设法解决所有与 {{site.data.keyword.Bluemix_notm}} 相关的问题。此登录页面提供有常见问题，因此您可以找到问题的答案，甚至无需联系 {{site.data.keyword.Bluemix_notm}}。您还可以选择与实时支持代表交谈。现在，可以从单个位置管理您的案例。转至**支持** &gt; **管理案例**可创建、查看或编辑案例。
+通过支持中心，您可以设法解决所有与 {{site.data.keyword.Bluemix_notm}} 相关的问题。此登录页面提供有常见问题，因此您可以找到问题的答案，甚至无需联系 {{site.data.keyword.Bluemix_notm}}。您还可以与实时支持代表交谈。现在，可以从单个位置管理您的案例。转至**支持** &gt; **管理案例**可创建、查看或编辑案例。
 
 您还可以在支持中心找到 [Status 页面](https://cloud.ibm.com/status){: new_window} ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")。此页面经过增强，包含与影响 {{site.data.keyword.Bluemix_notm}} 平台、基础架构和主要服务的关键事件相关的所有计划外事件、计划维护、声明和安全公告通知。在支持中心，单击**查看云状态**。要查看新体验，请登录并转至[支持中心](https://cloud.ibm.com/unifiedsupport/supportcenter){: new_window} ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")。 
 
@@ -35,9 +35,11 @@ lastupdated: "2018-11-30"
 
 通过最新更新，您可以利用所有用户都可用的简化安全登录，而不管您的标识是什么类型。无论您拥有的是 IBM 标识还是 SoftLayer 标识，都可以从增强的登录页面快速登录到 {{site.data.keyword.Bluemix_notm}} 控制台。您还可以在 {{site.data.keyword.Bluemix_notm}} 中进行安全 API 调用，并使用 IAM API 密钥或 IAM 访问令牌自动执行 CLI 登录。 
 
-登录后，您会发现现在可以在“访问权 (IAM)”UI 中的“用户”页面中查看所有用户，包括平台和经典基础架构用户。根据您用于查看帐户中其他用户的访问权，可以按帐户用户、经典基础架构用户或 Cloud Foundry 组织快速过滤视图。您还可以使用这些过滤器按名称、电子邮件或状态来快速查找用户。
+登录后，您现在可以在“访问权 (IAM)”UI 中的“用户”页面中查看所有用户，包括平台和经典基础架构用户。根据您用于查看帐户中其他用户的访问权，可以按帐户用户、经典基础架构用户或 Cloud Foundry 组织快速过滤视图。您还可以使用这些过滤器按名称、电子邮件或状态来快速查找用户。
 
-既然您的所有用户都在一个控制台中，就可以在同一位置管理他们对所有类型资源的访问权。访问权从用户开始，因此首先需要从列表中选择用户。然后，根据要分配其访问权的资源类型，可以从 IAM 访问策略、Cloud Foundry 访问权或经典基础架构许可权中进行选择。如果您只想分配 IAM 访问策略，请尝试创建访问组，然后将需要分配相同策略的所有用户添加到同一访问组，从而简化访问权管理过程。
+既然您的所有用户都在一个控制台中，就可以在同一位置管理他们对所有类型资源的访问权。访问权从用户开始，因此首先从列表中选择用户。然后，根据要分配其访问权的资源类型，可以从 IAM 访问策略、Cloud Foundry 访问权或经典基础架构许可权中进行选择。如果您只想分配 IAM 访问策略，请尝试创建访问组，然后将需要分配相同策略的所有用户添加到同一访问组，从而简化访问权管理过程。
+
+有关更多详细信息，请查看 [Outstanding User Access Improvements Help Deliver a Unified {{site.data.keyword.Bluemix_notm}} Platform](https://www.ibm.com/blogs/bluemix/2018/11/ibm-cloud-access-management){: new_window} ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")。 
 
 ### 在一个位置查找所有 {{site.data.keyword.Bluemix_notm}} CLI 插件文档
 最新更新日期：2018 年 11 月 30 日
@@ -49,28 +51,32 @@ lastupdated: "2018-11-30"
 最新更新日期：2018 年 11 月 30 日
 {: #dash}
 
-通过最新更新，现在您可以在同一位置查看所有平台和基础架构服务。登录后，您可以立即查看新仪表板。将资源从目录添加到帐户后，可以使用资源列表来获取帐户资源的完整视图。下面是您将看到的有关更改的一些详细信息：
+通过最新更新，现在您可以在一个位置查看所有平台和基础架构服务。登录后，您可以立即查看新仪表板。将资源从目录添加到帐户后，可以使用资源列表来获取帐户资源的完整视图。:
 
 * 仪表板已重新设计，以便您可以查看资源、维护、状态、应用程序、支持、使用情况和用户的摘要。
 * 可以在资源列表中找到有关资源的更多详细信息。您可以标记资源以对其进行组织，或者选择资源以在详细信息页面上对其进行更改。
 * 既然您可以在一个位置查看所有资源，我们添加了全局搜索，以便您可以快速找到已创建并期望显示在“资源列表”页面上的资源。 
 * 还可以搜索目录结果，以便快速找到要添加到帐户的资源。  
 
+有关更多详细信息，请参阅 [Manage All Your Cloud Resources on the Enhanced {{site.data.keyword.Bluemix_notm}} Platform](https://www.ibm.com/blogs/bluemix/2018/11/manage-all-your-cloud-resources-on-the-enhanced-ibm-cloud-platform/){: new_window} ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")。
+
 ### 针对平台和基础架构服务的统一帐户、计费和用户概要文件信息
 最新更新日期：2018 年 11 月 30 日
 {: #profile}
 
-简化了帐户、计费和概要文件信息。现在，您可以在统一控制台中查看所有平台和基础架构资源的帐户信息。 
+现在简化了帐户、计费和概要文件信息。您可以在统一控制台中查看所有平台和基础架构资源的帐户信息。 
 
 * 概要文件和设置区域，包含有关您的信息以及所有资源类型的电子邮件通知首选项。 
 * 帐户信息区域，包含有关您的公司或组织的信息、帐户设置以及使用资源组和 Cloud Foundry 组织的快速访问权。您甚至可以找到最佳实践来帮助您快速入门并熟练运用！
 * 帐户的计费和使用情况区域，可帮助您了解帐单，付款，监视预订，获取报价，跟踪订单以及设置花费通知。
 
+有关更多详细信息，请查看 [Bringing It All Together: A Single Account and Billing Management Experience](https://www.ibm.com/blogs/bluemix/2018/11/ibm-cloud-account-management/){: new_window} ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")。
+
 ### 使用标记来组织资源
 最新更新日期：2018 年 11 月 30 日
 {: #tag}
 
-现在，您可以向资源（如 Cloud Object Storage）添加标记，以帮助管理资源，以及查找与您最相关的资源。例如，如果您有数百个资源，而您希望区分其付费方式相同的两个资源，那么可以使用“costcenter:location01”对其进行标记。或者，如果您有团队在重复使用两个资源，那么可以使用类似“team-blue”的标记。您还可以按标记过滤资源列表，以快速组织和查找所需的资源。有关更多信息，请参阅[使用标记](/docs/resources/tagging_resources.html#tag)。
+现在，您可以向资源（如 Cloud Object Storage）添加标记，以帮助管理资源，以及查找与您最相关的资源。例如，如果您有数百个资源，而您希望区分付费方式相同的两个资源，那么可以使用 `costcenter:location01` 对其进行标记。或者，如果您有团队在重复使用两个资源，那么可以使用类似 `team-blue` 的标记。您还可以按标记过滤资源列表，以快速组织和查找所需的资源。有关更多信息，请参阅[使用标记](/docs/resources/tagging_resources.html#tag)和 [Platform Tagging on the Enhanced {{site.data.keyword.Bluemix_notm}} Platform](https://www.ibm.com/blogs/bluemix/2018/11/platform-tagging-on-the-enhanced-ibm-cloud-platform/){: new_window} ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")。 
 
 ### 利用成本估算工具了解准确的每月成本
 最新更新日期：2018 年 11 月 30 日
@@ -118,12 +124,13 @@ lastupdated: "2018-11-30"
 ### 将联合用户动态添加到访问组
 最新更新日期：2018 年 7 月 12 日
 
-您可以创建动态规则，以根据特定身份属性自动将联合用户添加到访问组。当用户使用联合标识登录时，身份提供者中的数据会根据设置的规则，将用户动态映射到访问组。有关更多信息，请参阅[为访问组创建动态规则](/docs/iam/accessgroup_rules.html#creating-dynamic-rules-for-access-groups)。
+您可以创建动态规则，以根据特定身份属性自动将联合用户添加到访问组。当用户使用联合标识登录时，身份提供者中的数据会根据设置的规则，将用户动态映射到访问组。
+有关更多信息，请参阅[为访问组创建动态规则](/docs/iam/accessgroup_rules.html#creating-dynamic-rules-for-access-groups)。
 
 ### 保护服务标识和 API 密钥
 最新更新日期：2018 年 6 月 1 日
 
-为了避免因删除服务标识或 API 密钥而导致停机或中断的情况，您可以选择使用 UI 或 CLI 锁定服务标识和 API 密钥。锁定服务标识还可以防止变更、删除或分配任何访问策略，以及创建或删除与服务标识相关联的任何 API 密钥。有关更多信息，请参阅[锁定服务标识](/docs/iam/serviceid.html#locking-a-service-id)和[锁定 API 密钥](/docs/iam/userid_keys.html#locking-an-api-key)。
+为了避免因删除服务标识或 API 密钥而导致停机或中断的情况，您可以通过使用 UI 或 CLI 锁定服务标识和 API 密钥。锁定服务标识还可以防止变更、删除或分配任何访问策略，以及创建或删除与服务标识相关联的任何 API 密钥。有关更多信息，请参阅[锁定服务标识](/docs/iam/serviceid.html#locking-a-service-id)和[锁定 API 密钥](/docs/iam/userid_keys.html#locking-an-api-key)。
 
 ### 将轻量帐户升级为预订帐户
 最新更新日期：2018 年 5 月 31 日
@@ -133,20 +140,21 @@ lastupdated: "2018-11-30"
 ### {{site.data.keyword.Bluemix_notm}} CLI 更名
 最新更新日期：2018 年 5 月 15 日
 
-{{site.data.keyword.Bluemix_notm}} CLI 命令已从 `bluemix` 和 `bx` 更改为 **ibmcloud**。但是，您仍然可以使用 `bluemix` 和 `bx` CLI 命令，直到未来某个日期这些命令被除去为止。
-此时没有短名称，只有全名 **ibmcloud**。 
+{{site.data.keyword.Bluemix_notm}} CLI 命令已从 `bluemix` 和 `bx` 更改为 **ibmcloud**。但是，您仍然可以使用 `bluemix` 和 `bx` CLI 命令，直到稍后这些命令被除去为止。
+现在没有短名称，只有全名 **ibmcloud**。 
 
 ### {{site.data.keyword.Bluemix_notm}} 帐户的多因子认证
 最新更新日期：2018 年 5 月 2 日
 
-多因子认证 (MFA) 可为帐户提供额外一层的安全保护，因为它会要求所有用户在登录期间除了提供标准 IBM 标识和密码外，还要提供基于时间的一次性密码。通常，这也称为双因子认证 (2FA)。MFA 是按帐户启用的，一旦启用后，帐户中的所有用户都必须采用这个额外的安全措施进行登录。
+多因子认证 (MFA) 可为帐户提供额外一层的安全保护，因为它会要求所有用户在登录期间除了提供标准 IBM 标识和密码外，还要提供基于时间的一次性密码。通常，这也称为双因子认证 (2FA)。
+MFA 是按帐户启用的，一旦启用后，帐户中的所有用户都必须通过使用这个额外的安全措施进行登录。
 
 有关更多信息，请参阅 [IBM Cloud Platform now adds support for Multi-Factor Authentication ](https://www.ibm.com/blogs/bluemix/2018/05/ibm-cloud-platform-now-adds-support-multi-factor-authentication/){: new_window}![外部链接图标](../../icons/launch-glyph.svg "外部链接图标") 博客帖子。
 
 ### 使用访问组快速分配访问权
 最新更新日期：2018 年 4 月 3 日
 
-您是否希望能够尽可能使用最少量的策略来快速分配访问权？现在，您可以使用访问组。访问组支持将一组用户和服务标识分组到一起，然后分配应用于该组中所有成员的单个策略。通过使用访问组，可以限制管理帐户中用户和服务标识访问权所花费的时间。有关更多详细信息，请查看博客帖子[新功能：访问组](https://www.ibm.com/blogs/bluemix/2018/04/access-groups/){: new_window}
+您是否希望能够尽可能使用最少数量的策略来快速分配访问权？现在，您可以使用访问组。访问组支持将一组用户和服务标识分组到一起，然后分配应用于该组中所有成员的单个策略。通过使用访问组，可以限制管理帐户中用户和服务标识访问权所花费的时间。有关更多详细信息，请查看博客帖子[新功能：访问组](https://www.ibm.com/blogs/bluemix/2018/04/access-groups/){: new_window}
 ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")。
 
 ### SoftLayer 与 {{site.data.keyword.Bluemix_notm}} 帐户链接
@@ -173,14 +181,14 @@ lastupdated: "2018-11-30"
 ### 新增组织帐户中资源的方法
 最新更新日期：2017 年 11 月 16 日
 
-资源组是供您创建可定制帐户资源分组的新方法，并且对组的访问权以及组内的资源均使用 Identity and Access Management (IAM) 进行管理。所有人一开始只有缺省资源组。您可以重命名此资源组，并且可以在目录中创建新服务实例时，向此资源组添加这些服务实例。
+资源组是供您创建可定制帐户资源分组的新方法，并且对组的访问权以及组内的资源均使用 Identity and Access Management (IAM) 进行管理。所有人一开始只有缺省资源组。您可以重命名此资源组，并且可以在目录中创建新服务实例时，向此资源组添加这些实例。
 
-如果您是使用现买现付或预订帐户的用户，那么可以创建其他资源组，以便更轻松地管理配额以及查看一组资源的计费使用情况。您还可以对资源进行分组，从而更轻松地为用户一次性分配对多个服务的访问权。要了解有关使用帐户的资源组的更多信息，请参阅[管理资源组](/docs/account/resourcegroups.html#rgs)。
+如果您是使用现收现付或预订帐户的用户，那么可以创建其他资源组，以便更轻松地管理配额以及查看一组资源的计费使用情况。您还可以对资源进行分组，从而更轻松地为用户一次性分配对多个服务的访问权。要了解有关使用帐户的资源组的更多信息，请参阅[管理资源组](/docs/account/resourcegroups.html#rgs)。
 
 ### {{site.data.keyword.Bluemix_notm}} IAM 更新
 最新更新日期：2017 年 11 月 16 日
 
-在 {{site.data.keyword.Bluemix_notm}} 帐户内引入的[资源组](/docs/overview/resource-groups.html#whatis)为您分配访问权开辟了一条新的道路。可以为用户和服务标识分配对资源组内所有服务的访问权，从而使您可以一次性快速分配对多个资源的访问权。您还可以通过为每个用户或服务标识只分配对资源组内某些服务的访问权来定制访问权，或者仅选择分配对向下一直到服务实例级别的单个资源的访问权。
+在 {{site.data.keyword.Bluemix_notm}} 帐户内引入的[资源组](/docs/overview/resource-groups.html#whatis)为您分配访问权开辟了一条新的道路。可以为用户和服务标识分配对资源组内所有服务的访问权，从而使您可以一次性快速分配对多个资源的访问权。您还可以通过为每个用户或服务标识只分配对资源组内某些服务的访问权来定制访问权，或者选择分配对向下一直到服务实例级别的单个资源的访问权。
 
 有关可以通过 IAM 来利用的功能的更多信息，请参阅 [IAM 提供了哪些功能？](/docs/iam/index.html#features)
 
@@ -215,7 +223,7 @@ Bluemix 现已更名为 IBM Cloud。除了推出新名称外，没有更改其�
 ### {{site.data.keyword.Bluemix_notm}} 全局目录
 最新更新日期：2017 年 7 月 27 日
 
-上一次控制台更新后可在控制台中从单个位置管理公共区域，基于此更新进行扩展，{{site.data.keyword.Bluemix_notm}} 现在拥有全局目录，进一步简化了从目录中选择和部署项的过程。不管您在控制台中选择了哪个区域，现在都可以在目录中查看所有公共区域中可用的所有服务。在目录中选择一个磁贴后，即可以看到在其中该服务可用的区域，然后选择要在其中部署该服务的区域。
+通过扩展上一次控制台更新以在控制台中从单个位置管理公共区域，{{site.data.keyword.Bluemix_notm}} 现在拥有全局目录，进一步简化了从目录中选择和部署项的过程。不管您在控制台中选择了哪个区域，现在都可以在目录中查看所有公共区域中可用的所有服务。在目录中选择一个磁贴后，即可以看到在其中该服务可用的区域，然后选择要在其中部署该服务的区域。
 
 有关目录最新更新的更多信息，请参阅 [A global {{site.data.keyword.Bluemix_notm}} catalog makes building things easier](https://www.ibm.com/blogs/bluemix/2017/07/global-bluemix-catalog-makes-building-things-easier/){: new_window} ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")。
 
@@ -432,6 +440,11 @@ Liberty buildpack V3.9 提供了新的每月 Liberty 运行时版本，并包含
 ## 服务
 {: #services_category}
 
+### {{site.data.keyword.backup_notm}} 简介
+最新更新日期：2018 年 12 月 20 日
+
+{{site.data.keyword.BluSoftlayer_full}} 存储器基础架构团队很自豪地宣布新的 {{site.data.keyword.backup_full}} 包含永久免费的 10-GB 层。此外，所有插件现在均免费。因此，特定应用程序用例（如 MSSQL、Oracle DB、Exchange 甚至 Bare Metal Restore）的实施不产生任何额外费用。新的 {{site.data.keyword.backup_notm}} 是最佳解决方案，能够满足任何规模的备份需求。有关更多信息，请参阅 [IBM Cloud Blog ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](https://www.ibm.com/blogs/bluemix/2018/12/introducing-a-new-cloud-backup-service-ibm-cloud-backup/){: new_window}。
+
 ### Citrix NetScaler VPX V12.1
 最新更新日期：2018 年 11 月 21 日
 {: #vpx121}
@@ -460,7 +473,7 @@ Liberty buildpack V3.9 提供了新的每月 Liberty 运行时版本，并包含
 ### 主要 {{site.data.keyword.conversationshort}} 更新
 最新更新日期：2018 年 11 月 9 日
 
-{{site.data.keyword.conversationshort}} 拥有新外观和新增功能。名为*工作空间*的工件是用于为聊天机器人提供支持的机器学习模型培训数据的容器，现已被*对话技能*所取代。现在，通过为助手添加对话技能，即可更轻松地进行部署。新的助手层会管理用户与您的技能之间的消息编排。您可以向助手添加内置集成，以便轻松地将对话技能发布到常用消息传递通道。{{site.data.keyword.conversationshort}} 文档已移至新位置。有关更多信息，请参阅[产品文档](/docs/services/assistant/index.html)。
+{{site.data.keyword.conversationshort}} 拥有新外观和新增功能。名为*工作空间*的工件是用于为聊天机器人提供支持的机器学习模型训练数据的容器，现已被*对话技能*所取代。现在，通过为助手添加对话技能，即可更轻松地进行部署。新的助手层会管理用户与您的技能之间的消息编排。您可以向助手添加内置集成，以便轻松地将对话技能发布到常用消息传递通道。{{site.data.keyword.conversationshort}} 文档已移至新位置。有关更多信息，请参阅[产品文档](/docs/services/assistant/index.html)。
 
 
 ### 使用 Terraform 和 Ansible 自动部署基础架构和应用程序
@@ -491,7 +504,7 @@ Terraform 和 Ansible 都是开放式源代码软件，可用于自动化云解�
 ### {{site.data.keyword.security-advisor_long_notm}} Beta 版现在可用！
 最新更新日期：2018 年 9 月 5 日
 
-{{site.data.keyword.security-advisor_short}} 中添加了新功能，现在作为 Beta 服务提供。{{site.data.keyword.security-advisor_short}} 将您的 {{site.data.keyword.Bluemix_notm}} 安全性集中到一个仪表板中。除了将信息集中在一起之外，该服务还使用易于导航的磁贴来汇总关键安全信息，以清晰地显示何时检测到安全问题。单击磁贴可以深入查看优先级问题、历史记录以及警报背后的详细信息。要解决问题，请再深入一层查看所有详细信息以及建议的修复方法，从而消除威胁并确保您的环境处于安全状态。
+{{site.data.keyword.security-advisor_short}} 中添加了新功能，现在作为 Beta 服务提供。{{site.data.keyword.security-advisor_short}} 将您的 {{site.data.keyword.Bluemix_notm}} 安全性集中到一个仪表板中。除了将信息集中在一起之外，该服务还使用易于导航的磁贴来汇总关键安全信息，以清晰地显示何时检测到安全问题。单击磁贴可以向下钻取以调查优先级高的问题、历史记录以及警报背后的详细信息。要解决问题，请再次向下钻取以获取所有详细信息以及建议的修复方法，从而消除威胁并确保您的环境保持安全。
 
 {{site.data.keyword.security-advisor_short}} 将帮助您快速访问控制台，使您能够集中查看和管理 {{site.data.keyword.Bluemix_notm}} 环境中的安全性。
 
@@ -572,7 +585,7 @@ Terraform 和 Ansible 都是开放式源代码软件，可用于自动化云解�
 
 自今日起，{{site.data.keyword.keymanagementserviceshort}} 加密密钥管理服务在悉尼区域中可用。悉尼是继美国南部（达拉斯）和伦敦之后，第三个向 {{site.data.keyword.keymanagementserviceshort}} 用户提供 GA 状态的区域。
 
-{{site.data.keyword.keymanagementserviceshort}} 是一种加密密钥管理服务，提供简单且经济的密钥管理解决方案，可管理用于加密 {{site.data.keyword.Bluemix_notm}} 中所存储数据的密钥。{{site.data.keyword.keymanagementserviceshort}} 管理从密钥创建一直到应用程序使用、密钥归档和密钥销毁这整个密钥生命周期，同时还在数据管理与密钥管理之间强制执行职责分离。
+{{site.data.keyword.keymanagementserviceshort}} 是一种加密密钥管理服务，提供简单且经济的密钥管理解决方案，可管理用于加密 {{site.data.keyword.Bluemix_notm}} 中所存储数据的密钥。{{site.data.keyword.keymanagementserviceshort}} 将管理密钥的整个生命周期，从密钥创建一直到应用程序使用、密钥归档和密钥销毁，同时还强制使数据管理与密钥管理的职责相分离。
 
 {{site.data.keyword.keymanagementserviceshort}} 通过适用的 IBM 数据服务支持 BYOK（自带密钥 - 客户管理的加密）。BYOK 允许用户导入在内部创建的主可信根加密密钥，以更好地管理 {{site.data.keyword.Bluemix_notm}} 中保存的静态数据的安全性。
 
@@ -640,11 +653,11 @@ Apple 推出了对 Apple 通知的 HTTP 协议的支持。现在，{{site.data.k
 现在，{{site.data.keyword.mobileanalytics_short}} 是全通道服务，增加了对 Web 应用程序分析的支持。更多详细信息可以在 [https://github.com/ibm-bluemix-mobile-services/bms-clientsdk-web-analytics/](https://github.com/ibm-bluemix-mobile-services/bms-clientsdk-web-analytics/){: new_window} ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标") 处找到。
 
 #### 与 {{site.data.keyword.mobilefoundation_short}} 服务集成
-现在，{{site.data.keyword.mobilefoundation_short}} 服务利用 {{site.data.keyword.mobileanalytics_short}} 服务进行应用程序、用户和性能分析。用户可以利用导出到 Db2 仓库的选项来构建适配器分析和定制图表。您可以在以下博客帖子中找到其他详细信息：
+现在，{{site.data.keyword.mobilefoundation_short}} 服务利用 {{site.data.keyword.mobileanalytics_short}} 服务进行应用程序、用户和性能分析。用户可以利用导出到 Db2 仓库的选项来构建适配器分析和定制图表。您可以在以下博客帖子中找到更多详细信息：
 
 * [Mobile Foundation Service integration with Mobile Analytics Service](https://www.ibm.com/blogs/bluemix/2017/08/mobile-foundation-service-integration-mobile-analytics-service-2/){: new_window} ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")
-* [Building custom charts using IBM Bluemix Mobile Analytics service and IBM Mobile Foundation Service](https://mobilefirstplatform.ibmcloud.com/blog/2017/04/26/custom-charts-using-analytics-and-dashdb-analytics-service/){: new_window} ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")
-* [Building charts for Adapter analytics using IBM Bluemix Mobile Analytics service and IBM Mobile Foundation Service](https://mobilefirstplatform.ibmcloud.com/blog/2017/04/26/adapter-analytics-using-analytics-and-dashdb-analytics-service/){: new_window} ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")
+* [Building custom charts by using IBM Bluemix Mobile Analytics service and IBM Mobile Foundation Service](https://mobilefirstplatform.ibmcloud.com/blog/2017/04/26/custom-charts-using-analytics-and-dashdb-analytics-service/){: new_window} ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")
+* [Building charts for Adapter analytics by using IBM Bluemix Mobile Analytics service and IBM Mobile Foundation Service](https://mobilefirstplatform.ibmcloud.com/blog/2017/04/26/adapter-analytics-using-analytics-and-dashdb-analytics-service/){: new_window} ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")
 
 #### 现在，{{site.data.keyword.mobilefirst_notm}} 样板包含 {{site.data.keyword.mobileanalytics_short}}
 移动服务样板是一种模板，用于提供一组移动服务，供用户快速开始使用。{{site.data.keyword.mobileanalytics_short}} 服务现在是[目录](https://console.bluemix.net/catalog/starters/mobilefirst-services-starter){: new_window} ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标") 中可用样板的一部分。
@@ -730,9 +743,9 @@ IBM App Launch for {{site.data.keyword.Bluemix_notm}} Services 是一个试验�
 
 * 使用新的 API 来管理保留的日志，以及从 {{site.data.keyword.IBM_notm}} Cloud 外部发送日志数据。
 
-* 选择每天可以搜索的日志量。  
+* 选择每天可以搜索的日志数量。  
 
-    提供了不同的套餐，分别可用于每天搜索最多 500MB、2GB、5GB 和 10GB 的日志。
+    提供了不同的套餐，分别可用于每天搜索最多 500 MB、2 GB、5 GB 和 10 GB 的日志。
 
 * 构建可复用的仪表板并将其设置为交互式。
 
@@ -751,8 +764,8 @@ Brocade 操作系统 V18.x 现在可用于 Virtual Router Appliance。除其他�
 
 以下主题讨论了 18.x VRA 的新功能：
 
-* [如何设置适用于区域防火墙的 IPSec 隧道](/docs/infrastructure/virtual-router-appliance/vra-ipsec.html)
-* [使用 IPSec 和区域防火墙配置 VFP 接口](/docs/infrastructure/virtual-router-appliance/vra-vfp.html)
+* [如何设置适用于专区防火墙的 IPSec 隧道](/docs/infrastructure/virtual-router-appliance/vra-ipsec.html)
+* [使用 IPSec 和专区防火墙配置 VFP 接口](/docs/infrastructure/virtual-router-appliance/vra-vfp.html)
 * [将 NAT 与基于前缀的 IPSec 配合使用](/docs/infrastructure/virtual-router-appliance/vra-nat.html)
 * [对 VFP 接口进行故障诊断](/docs/infrastructure/virtual-router-appliance/vra-vfp-troubleshooting.html)
 
@@ -772,7 +785,7 @@ Brocade 操作系统 V18.x 现在可用于 Virtual Router Appliance。除其他�
 |IBM dashDB for Analytics    |IBM Db2 Warehouse on Cloud |2017 年 7 月 18 日|
 {: caption="表 1. 服务名称更改" caption-side="top"}
 
-有关 Db2 Warehouse on Cloud 和 Db2 on Cloud 更新的累积列表，请参阅：[What's New in Db2 Warehouse on Cloud and Db2 on Cloud](http://www.ibm.com/support/docview.wss?uid=swg21961758){: new_window} ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")。
+有关 IBM Db2 Warehouse on Cloud 和 Db2 on Cloud 更新的累积列表，请参阅：[What's New in Db2 Warehouse on Cloud and Db2 on Cloud](http://www.ibm.com/support/docview.wss?uid=swg21961758){: new_window} ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")。
 
 ### 现在，IBM Cloud Monitoring 在美国南部区域可用
 最新更新日期：2017 年 7 月 17 日
@@ -789,7 +802,7 @@ Brocade 操作系统 V18.x 现在可用于 Virtual Router Appliance。除其他�
 
 * 选择适合您需要的服务套餐。您可根据自己的使用量需要，选择轻量服务套餐或高端服务套餐。轻量套餐每分钟收集一次度量值，保留时间为 15 天，并免费发出警报。或者，可以选择高端套餐来启用更多使用量、更长度量值保留时间，并获取对服务 API 的访问权，例如通过 {{site.data.keyword.monitoringlong}} 服务发送或检索度量值。{{site.data.keyword.monitoringlong}} 每分钟收集一次度量值。轻量套餐会将完整分辨率的度量值保留 15 天。高端套餐会将完整分辨率的度量值保留 45 天。
 
-旧 {{site.data.keyword.monitoringshort}} 服务按服务定义的频率收集度量值，一开始的频率为 30 秒，在一段时间后将度量值汇总到 1 小时频率。现在，{{site.data.keyword.monitoringlong}} 提供每分钟执行一次的完整分辨率收集。轻量套餐会将度量值保留 15 天。高端套餐会将度量值保留 45 天。
+旧 {{site.data.keyword.monitoringshort}} 服务按服务定义的频率收集度量值，一开始的频率为 30 秒，在一段时间后将汇总到 1 小时频率。现在，{{site.data.keyword.monitoringlong}} 提供每分钟执行一次的完整分辨率收集。轻量套餐会将度量值保留 15 天。高端套餐会将度量值保留 45 天。
 
 有关 {{site.data.keyword.monitoringlong}} 服务的更多信息，请参阅 [Monitoring 入门文档](/docs/services/cloud-monitoring/index.html#getting-started-with-ibm-cloud-monitoring)或 [IBM Cloud Monitoring - Service Refresh with New Features ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](https://www.ibm.com/blogs/bluemix/2017/07/ibm-cloud-monitoring-service-refresh-new-features/)。
 
@@ -823,14 +836,14 @@ Beta 版本的 {{site.data.keyword.uccr_short}} 提供以下主要功能：
 
 IBM {{site.data.keyword.DB2OnCloud_short}} 是 dashDB for Transactions 的新名称。作为此重命名的一部分，原先自行管理的 IBM {{site.data.keyword.DB2OnCloud_short}} 服务还将重命名为 IBM Db2 Hosted。目前只更新了显示名称，所以任何 API 或命令行界面均保持不变。
 
-### {{site.data.keyword.sparks}} 更新：Stocator-S3 连接器支持 IBM Cloud Object Storage Cross Region 服务 (Beta)
+### {{site.data.keyword.sparks}} 更新：Stocator-S3 连接器支持 {{site.data.keyword.cos_full_notm}} Cross Region 服务 (Beta)
 最新更新日期：2017 年 6 月 5 日
 
-现在，{{site.data.keyword.sparks}} 用户可以访问存储在 IBM Cloud Object Storage Cross Region 服务中的数据并对其进行分析。此功能作为 Beta 版提供。IBM Cloud Object Storage 为分析和其他应用程序提供高容量、经济高效的存储，可扩展、非常灵活且易于使用。
+现在，{{site.data.keyword.sparks}} 用户可以访问存储在 {{site.data.keyword.cos_full_notm}} Cross Region 服务中的数据并对其进行分析。此功能作为 Beta 版提供。{{site.data.keyword.cos_full_notm}} 为分析和其他应用程序提供高容量、经济高效的存储，可扩展、非常灵活且易于使用。
 
-Apache Spark 通过基于 Stocator 技术的存储连接器来访问 IBM Cloud Object Storage 数据，这种存储连接器隐式设计用于对象存储，因此比旧的对象存储连接器速度更快。作为用户，您无需更改或重新编译 Apache Spark 代码。
+Apache Spark 通过基于 Stocator 技术的存储连接器来访问 {{site.data.keyword.cos_full_notm}} 数据，这种存储连接器隐式设计用于 {{site.data.keyword.objectstorageshort}}，因此比旧的 {{site.data.keyword.objectstorageshort}} 连接器速度更快。作为用户，您无需更改或重新编译 Apache Spark 代码。
 
-[Access and Analyze data in IBM Cross Region Cloud Object Storage](https://www.ibm.com/blogs/bluemix/2017/06/access-analyze-data-ibm-cross-region-cloud-object-storage/){: new_window} ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标") 博客帖子描述了在 {{site.data.keyword.Bluemix_notm}} 和 IBM Data Science Experience (DSx) 上将 IBM Cloud Object Storage 数据用于 {{site.data.keyword.sparks}} 的情况。
+[Access and Analyze data in IBM Cross Region Cloud Object Storage](https://www.ibm.com/blogs/bluemix/2017/06/access-analyze-data-ibm-cross-region-cloud-object-storage/){: new_window} ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标") 博客帖子描述了在 {{site.data.keyword.Bluemix_notm}} 和 IBM Data Science Experience (DSx) 上将 {{site.data.keyword.cos_full_notm}} 数据用于 {{site.data.keyword.sparks}} 的情况。
 
 如果您有任何问题或意见，请通过 [sparksrv@us.ibm.com](sparksrv@us.ibm.com) 与我们联系。非常感谢您提供的信息！
 
@@ -862,7 +875,7 @@ Apache Spark 通过基于 Stocator 技术的存储连接器来访问 IBM Cloud O
 
 您可以使用 STREAMING_ANALYTICS_SERVICE 上下文将 Python 应用程序提交给 {{site.data.keyword.streaminganalyticsshort}} 服务。{{site.data.keyword.streaminganalyticsshort}} 服务需要 Python 3.5。
 
-您可以使用 IBM Data Science Experience (DSX) 中的 Jupyter 配置页来创建样本 Python 应用程序，然后将这些应用程序直接从 DSX 提交到 {{site.data.keyword.streaminganalyticsshort}} 实例。请在 [DSX 社区页面](https://datascience.ibm.com/){: new_window} ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标") 上查看配置页中的样本流处理 Python 应用程序。
+您可以使用 IBM Data Science Experience (DSX) 中的 Jupyter Notebooks 来创建样本 Python 应用程序，然后将这些应用程序直接从 DSX 提交到 {{site.data.keyword.streaminganalyticsshort}} 实例。请在 [DSX 社区页面](https://datascience.ibm.com/){: new_window} ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标") 上查看配置页中的样本流处理 Python 应用程序。
 
 有关 {{site.data.keyword.streaminganalyticsshort}} 服务更新的更多信息，请参阅 [{{site.data.keyword.streaminganalyticsshort}} updates: DSX integration and easier Python development](https://www.ibm.com/blogs/bluemix/2017/05/streaming-analytics-updates-dsx-integration-easier-python-development/){: new_window} ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")。
 

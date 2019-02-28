@@ -2,9 +2,9 @@
 
 copyright:
 
-  years: 2018, 2019
+  years: 2018
 
-lastupdated: "2019-02-19"
+lastupdated: "2018-11-14"
 
 ---
 
@@ -22,12 +22,12 @@ lastupdated: "2019-02-19"
 {:shortdesc}  
 
 ## 시작하기 전에
-{: #prereqs-lite}
+{: #prereqs}
 
-[{DomainName}]({DomainName})으로 이동하여 Lite 계정을 작성하십시오. 이 계정은 무료이며 만료되지 않습니다.
+[{{site.data.keyword.Bluemix_notm}}](https://{DomainName})로 이동하여 Lite 계정을 작성하십시오. 이 계정은 무료이며 만료되지 않습니다.
 
 ## 빠른 시작 단계
-{: #steps-lite}
+{: #steps}
 
 1. 카탈로그에서 무료 [Lite 서비스 플랜 ![외부 링크 아이콘](../icons/launch-glyph.svg "외부 링크 아이콘")](https://{DomainName}/catalog/?search=label:lite){: new_window}이 포함된 오퍼링을 탐색하십시오.
   
@@ -35,12 +35,12 @@ lastupdated: "2019-02-19"
   {:tip}
 
 2. 무료 Lite 플랜이 포함된 오퍼링의 인스턴스를 작성하십시오.
-3. {{site.data.keyword.Bluemix_notm}}를 사용하여 우수 사례와 검증된 기술을 기반으로 공통 패턴을 구현하는 데 대한 세부 단계는 [솔루션 튜토리얼](/docs/tutorials?topic=solution-tutorials-tutorials)을 확인하십시오. 
+3. {{site.data.keyword.Bluemix_notm}}를 사용하여 우수 사례와 검증된 기술을 기반으로 공통 패턴을 구현하는 데 대한 세부 단계는 [솔루션 튜토리얼](/docs/tutorials/index.html)을 확인하십시오. 
 
 
 ## 다음 단계
-{: #nextsteps-lite}
+{: #nextsteps}
 
-[{{site.data.keyword.Bluemix_notm}}의 개발자 과정 탐색](/docs/overview?topic=overview-dev-journey)에서 {{site.data.keyword.Bluemix_notm}}의 개발자가 수행하는 작업을 알아보십시오.  
+[{{site.data.keyword.Bluemix_notm}}의 개발자 과정 탐색](/docs/overview/dev-journey.html#dev-journey)에서 {{site.data.keyword.Bluemix_notm}}의 개발자가 되는 과정을 알아보십시오. 
 
 

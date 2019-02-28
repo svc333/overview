@@ -2,9 +2,9 @@
 
 copyright:
 
-  years: 2018
+  years: 2018, 2019
 
-lastupdated: "2018-11-14"
+lastupdated: "2019-01-02"
 
 ---
 
@@ -32,7 +32,7 @@ lastupdated: "2018-11-14"
 6. 使用成本估算工具来了解环境可能需要的成本。单击控制台菜单栏中的“成本估算工具”图标 ![“成本估算工具”图标](../icons/Estimator.svg)。 
 7. 使用成本估算工具来了解基础架构可能需要的成本。 
   
-  a. 首先从[目录](https://console.cloud.ibm.com/catalog){: new_window} ![外部链接图标](../icons/launch-glyph.svg) 中选择产品。 
+  a. 首先从[目录](https://cloud.ibm.com/catalog){: new_window} ![外部链接图标](../icons/launch-glyph.svg) 中选择产品。 
   
   b. 输入配置详细信息，选择价格套餐，然后单击**添加到估算**。
 
