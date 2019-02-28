@@ -3,7 +3,7 @@
 
 copyright:
   years: 2016, 2019
-lastupdated: "2019-01-02"
+lastupdated: "2019-02-08"
 
 
 ---
@@ -691,7 +691,7 @@ o un conjunto de códigos postales de la región.
 ### registro
 {: #x2064940}
 
-Un servicio de almacenamiento y distribución de imágenes de contenedor público o privado. Véase también [contenedor](#x2010901) e [imagen](#x2024928).
+Repositorio público o privado que contiene imágenes utilizadas para crear contenedores. Véase también [contenedor](#x2010901) e [imagen](#x2024928).
 
 ### Representational State Transfer (REST)
 {: #x3220976}

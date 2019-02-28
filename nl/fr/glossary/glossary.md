@@ -3,7 +3,7 @@
 
 copyright:
   years: 2016, 2019
-lastupdated: "2019-01-02"
+lastupdated: "2019-02-08"
 
 
 ---
@@ -766,7 +766,7 @@ Territoire géographique défini. Une région peut être une zone avec un code p
 ### registre
 {: #x2064940}
 
-Stockage d'image de conteneur public ou privé et service de distribution. Voir aussi [conteneur](#x2010901),
+Référentiel public ou privé contenant des images permettant de créer des conteneurs. Voir aussi [conteneur](#x2010901),
 [image](#x2024928).
 
 ### règle

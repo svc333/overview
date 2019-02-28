@@ -222,7 +222,7 @@ Novo a partir de: 1º de março de 2018
 ### A região Leste dos EUA do {{site.data.keyword.Bluemix_notm}} Foundry Service agora está disponível
 Novo a partir de: 15 de dezembro de 2017
 
-Um novo datacenter Leste dos EUA agora está disponível em Washington, DC. Essa nova região pode ser acessada usando o terminal `us-east.bluemix.net`. Para obter detalhes sobre os serviços disponíveis para compra nessa nova região, consulte [Serviços por região](/docs/resources/services_region.html#services_region).
+Um novo datacenter Leste dos EUA agora está disponível em Washington, DC. Essa nova região pode ser atingida usando o terminal `us-east.cloud.ibm.com`. Para obter detalhes sobre os serviços disponíveis para compra nessa nova região, consulte [Serviços por região](/docs/resources/services_region.html#services_region).
 
 ### Suporte para recursos na União Europeia
 Novo a partir de: 14 de dezembro de 2017
@@ -514,7 +514,7 @@ O {{site.data.keyword.containerlong_notm}} agora suporta acesso direto ao Painel
 ### Novo buildpack do Liberty for Java v3.11
 Novo a partir de: 17 de julho de 2017
 
-O buildpack do Liberty v3.11 fornece uma nova versão de runtime mensal do Liberty e contém outras melhorias. A versão de runtime mensal do Liberty foi atualizada para a liberação [2017.7.0.0](https://developer.ibm.com/wasdev/blog/2017/07/07/beta-websphere-liberty-tools-july-2017/). O IBM JDK foi atualizado para as versões 8.0.4.7 e 7.1.4.5. O buildpack também fornece versões atualizadas do utilitário App Management e do agente Auto-scaling. A biblioteca Cloudant padrão é agora a [java-cloudant](https://github.com/cloudant/java-cloudant) padrão, a [biblioteca Ektorp](https://github.com/helun/Ektorp) ainda está disponível como uma opção, para obter detalhes sobre essa mudança, veja a [postagem do blog](https://www.ibm.com/blogs/bluemix/2017/05/default-library-change-cloudant-auto-wiring-liberty-buildpack/). A razão do tamanho de heap padrão é agora 50% quando seu aplicativo tem menos de 512 MB de memória. Se ele tiver mais de 512 MB, ainda será de 75%. Um novo log de tarefa temporária é agora gerado, permitindo uma depuração mais fácil de erros de preparação. Para obter informações adicionais, consulte a documentação de [atualizações mais recentes](https://console.ng.bluemix.net/docs/runtimes/liberty/updates.html).
+O buildpack do Liberty v3.11 fornece uma nova versão de runtime mensal do Liberty e contém outras melhorias. A versão de runtime mensal do Liberty foi atualizada para a liberação [2017.7.0.0](https://developer.ibm.com/wasdev/blog/2017/07/07/beta-websphere-liberty-tools-july-2017/). O IBM JDK foi atualizado para as versões 8.0.4.7 e 7.1.4.5. O buildpack também fornece versões atualizadas do utilitário App Management e do agente Auto-scaling. A biblioteca Cloudant padrão é agora a [java-cloudant](https://github.com/cloudant/java-cloudant) padrão, a [biblioteca Ektorp](https://github.com/helun/Ektorp) ainda está disponível como uma opção, para obter detalhes sobre essa mudança, veja a [postagem do blog](https://www.ibm.com/blogs/bluemix/2017/05/default-library-change-cloudant-auto-wiring-liberty-buildpack/). A razão do tamanho de heap padrão é agora 50% quando seu aplicativo tem menos de 512 MB de memória. Se ele tiver mais de 512 MB, ainda será de 75%. Um novo log de tarefa temporária é agora gerado, permitindo uma depuração mais fácil de erros de preparação. Para obter informações adicionais, consulte a documentação de [atualizações mais recentes](/docs/runtimes/liberty/updates.html).
 
 ### Novo buildpack do Liberty for Java v3.10
 Novo a partir de: 12 de junho de 2017
@@ -549,7 +549,7 @@ seguir e, em seguida, experimente o serviço.
 
 Autenticação de diversos fatores: agora é possível usar a MFA baseada em e-mail para o Cloud Directory. Com a MFA configurada como ativada, os usuários são solicitados a fornecer um código único que eles recebem via e-mail, além da senha. Se você estiver usando a conexão corporativa com o SAML 2.0 ou o login social, poderá ativar a MFA por meio desse provedor de identidade.
 Políticas de senha avançadas: com o recurso de política de senha avançada ativado, é possível impor senhas mais seguras
-para o Cloud Directory. É possível configurar um conjunto de regras que usam senhas para que estejam em conformidade com o número de vezes que um usuário pode tentar se conectar antes de ser bloqueado ou o número de vezes que uma senha não pode ser repetida.
+para o Cloud Directory. É possível configurar um conjunto de regras para senhas que limite o número de tentativas de conexão de um usuário antes de ele ser bloqueado ou o número de repetições de uma senha.
 
 Os recursos de segurança avançados têm um componente de precificação adicional. Para obter mais informações sobre como a precificação é calculada, consulte a seção de precificação do [catálogo](https://cloud.ibm.com/catalog/services/app-id).
 
@@ -647,7 +647,7 @@ Para iniciar, consulte a  [ {{site.data.keyword.security-advisor_short}}  docume
 Novo a partir de: 26 de junho de 2018
 
 O
-[{{site.data.keyword.iva_full}}](https://console.bluemix.net/catalog/services/voice-agent-with-watson)![Ícone de link externo](../../icons/launch-glyph.svg "Íconede link externo") agora está disponível no geral! É possível criar um agente de voz cognitiva
+[{{site.data.keyword.iva_full}}](https://cloud.ibm.com/catalog/services/voice-agent-with-watson)![Ícone de link externo](../../icons/launch-glyph.svg "Íconede link externo") agora está disponível no geral! É possível criar um agente de voz cognitiva
 
 construído em serviços do Watson que os clientes podem chamar e falar por telefone. Com a inteligência artificial do Watson em seu backbone, seu agente de voz pode se comunicar como em uma conversação, manipulando interações complexas e resolvendo chamadas de clientes dentro do agente de voz.
 
@@ -670,7 +670,7 @@ O {{site.data.keyword.streaminganalyticsshort}} agora está em execução em uma
 É possível acessar essa nova infraestrutura baseada em contêiner usando os [planos de serviços v2](/docs/services/StreamingAnalytics/service_plans.html#service_plans). É possível escolher o plano do {{site.data.keyword.streaminganalyticsshort}} que é mais adequado para o trabalho que você precisa executar. Os planos de serviços v2 incluem os aprimoramentos a seguir:
  
 * [IBM Streams QSE com Docker](https://www-01.ibm.com/marketing/iwm/iwm/web/preLogin.do?source=swg-ibmistvi)![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo"): verifique o Guia de desenvolvimento do [ ](https://developer.ibm.com/streamsdev/docs/cloud-beta-devguide/)![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo") para saber como usar o novo Streams QSE com RHEL 7 em execução em um ambiente do Docker para compilar e implementar seus aplicativos com os novos planos v2 do {{site.data.keyword.streaminganalyticsshort}}. 
-* [API de REST do {{site.data.keyword.streaminganalyticsshort}} v2](https://console.bluemix.net/apidocs/1939-streaming-analytics-v2#introduction)![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")
+* [{{site.data.keyword.streaminganalyticsshort}} API de REST v2](https://cloud.ibm.com/apidocs/1939-streaming-analytics-v2#introduction)![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")
 * [Novos aplicativos iniciadores e de amostra](https://developer.ibm.com/streamsdev/docs/cloud-beta-samples/) ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")
 * [Aprimoramentos de alta disponibilidade no serviço {{site.data.keyword.streaminganalyticsshort}}](/docs/services/StreamingAnalytics/c_ha.html#consistent-regions)
 * [Recursos de determinação de problema no serviço {{site.data.keyword.streaminganalyticsshort}}](https://developer.ibm.com/streamsdev/2018/02/15/streaming-analytics-console-gives-ways-find-fix-errors-beta-plans/)![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")
@@ -679,7 +679,7 @@ O {{site.data.keyword.streaminganalyticsshort}} agora está em execução em uma
 ### {{site.data.keyword.iva_full_notm}} é agora beta!
 Novo a partir de: 16 de março de 2018
 
-Com o [{{site.data.keyword.iva_full}}](https://console.bluemix.net/catalog/services/voice-agent-with-watson)![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo"), é possível criar um agente de voz cognitiva construído em serviços do Watson que os clientes podem chamar e falar por telefone. Com a inteligência artificial do Watson em seu backbone, seu agente de voz pode se comunicar como em uma conversação, manipulando interações complexas e resolvendo chamadas de clientes dentro do agente de voz.
+Com o [{{site.data.keyword.iva_full}}](https://cloud.ibm.com/catalog/services/voice-agent-with-watson)![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo"), é possível criar um agente de voz cognitiva construído em serviços do Watson que os clientes podem chamar e falar por telefone. Com a inteligência artificial do Watson em seu backbone, seu agente de voz pode se comunicar como em uma conversação, manipulando interações complexas e resolvendo chamadas de clientes dentro do agente de voz.
 
 Esta liberação beta introduz os recursos-chaves a seguir:
 
@@ -706,10 +706,10 @@ não serão atualizados para esse novo formato de modelo de aprendizado por máq
 ### Atualizações do {{site.data.keyword.streaminganalyticsshort}}
 Novo a partir de: 14 de fevereiro de 2018
 
-Os [Planos Beta - Entry e Beta- Enhanced](/docs/services/StreamingAnalytics/beta_plans.html#beta_plans) para o console no [serviço {{site.data.keyword.streaminganalyticsshort}}](https://console.bluemix.net/catalog/services/streaming-analytics){: new_window} ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo") incluem vários aprimoramentos:
+Os [Planos Beta - de Entrada e Beta - Aprimorados](/docs/services/StreamingAnalytics/beta_plans.html#beta_plans) para o console no serviço do [{{site.data.keyword.streaminganalyticsshort}}](https://cloud.ibm.com/catalog/services/streaming-analytics){: new_window} ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo") incluem vários aprimoramentos:
 
 * [Novo IBM Streams QSE for Docker](https://www-01.ibm.com/marketing/iwm/iwm/web/preLogin.do?source=swg-ibmistvi){: new_window} ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo"): veja o [Guia de desenvolvimento Beta](https://developer.ibm.com/streamsdev/docs/cloud-beta-devguide/){: new_window} ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo") para saber como usar o novo Streams QSE com RHEL 7 em execução em um ambiente do Docker para compilar e implementar seus aplicativos com os novos planos beta do {{site.data.keyword.streaminganalyticsshort}}.
-* [API de REST do {{site.data.keyword.streaminganalyticsshort}} v2](https://console.bluemix.net/apidocs/1939-streaming-analytics-v2#introduction){: new_window} ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")
+* [{{site.data.keyword.streaminganalyticsshort}} API de REST v2](https://cloud.ibm.com/apidocs/1939-streaming-analytics-v2#introduction){: new_window} ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")
 * [Novos aplicativos iniciadores e de amostra](https://developer.ibm.com/streamsdev/docs/cloud-beta-samples/)
 * [Aprimoramentos de alta disponibilidade no serviço {{site.data.keyword.streaminganalyticsshort}}](/docs/services/StreamingAnalytics/consistentregions.html#consistentregions)
 * [Novos recursos de determinação de problema na versão beta do serviço {{site.data.keyword.streaminganalyticsshort}}](https://developer.ibm.com/streamsdev/2018/02/15/streaming-analytics-console-gives-ways-find-fix-errors-beta-plans/){: new_window} ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")
@@ -735,7 +735,7 @@ Novo a partir de: 30 de novembro de 2017
 
 Explore visualmente conexões desenvolvidas com o entendimento do {{site.data.keyword.discoveryshort}} de elementos semânticos detectados no texto, como entidades, relacionamentos, conceitos e mais.
 
-Comece explorando notícias do mundo com a coleção Notícias do {{site.data.keyword.discoveryshort}} pronta para uso. Ou, explore suas próprias coleções de documentos no {{site.data.keyword.discoveryshort}}. Basta efetuar login com suas credenciais do {{site.data.keyword.Bluemix_notm}}. Consulte [Insights visuais experimentais](https://visual-insights.bluemix.net){: new_window} ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo") para obter mais informações.
+Comece explorando notícias do mundo com a coleção Notícias do {{site.data.keyword.discoveryshort}} pronta para uso. Ou, explore suas próprias coleções de documentos no {{site.data.keyword.discoveryshort}}. Basta efetuar login com suas credenciais do {{site.data.keyword.Bluemix_notm}}. Consulte [Insights visuais experimentais](https://visual-insights.cloud.ibm.com){: new_window} ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo") para obter mais informações.
 
 ### Novo serviço do IBM Cloud Managed Database Server Beta
 Novo a partir de: 30 de novembro de 2017
@@ -795,7 +795,7 @@ O serviço {{site.data.keyword.mobilefoundation_short}} agora aproveita o servi�
 * [Construindo gráficos para a analítica do Adaptador usando o serviço IBM Bluemix Mobile Analytics e o IBM Mobile Foundation Service](https://mobilefirstplatform.ibmcloud.com/blog/2017/04/26/adapter-analytics-using-analytics-and-dashdb-analytics-service/){: new_window} ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")
 
 #### O modelo do {{site.data.keyword.mobilefirst_notm}} agora inclui o {{site.data.keyword.mobileanalytics_short}}
-O Mobile Services Boilerplate é um modelo que fornece um conjunto de serviços móveis para que os usuários comecem a usar rapidamente. O serviço do {{site.data.keyword.mobileanalytics_short}} agora faz parte do modelo disponível no [catálogo](https://console.bluemix.net/catalog/starters/mobilefirst-services-starter){: new_window} ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo").
+O Mobile Services Boilerplate é um modelo que fornece um conjunto de serviços móveis para que os usuários comecem a usar rapidamente. O serviço do {{site.data.keyword.mobileanalytics_short}} agora faz parte do modelo disponível no [catálogo](https://cloud.ibm.com/catalog/starters/mobilefirst-services-starter){: new_window} ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo").
 
 
 ### Atualizações para o {{site.data.keyword.streaminganalyticsshort}}

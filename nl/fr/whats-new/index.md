@@ -22,7 +22,7 @@ Restez à jour en utilisant les nouvelles fonctions et les nouveaux services dis
 
 
 ### Nouvelle expérience de support pour {{site.data.keyword.Bluemix_notm}}
-Nouveau à compter du : 30 novembre 2018
+Nouveau à compter du : 30 novembre 2018 
 {: #support}
 
 En collaboration avec le centre de support, vous pouvez essayer de résoudre les problèmes liés à {{site.data.keyword.Bluemix_notm}}. La page d'arrivée inclut des FAQ. Vous pouvez donc trouver les réponses à vos questions sans même contacter {{site.data.keyword.Bluemix_notm}}. Vous avez également la possibilité de discuter en direct avec un représentant de l'équipe de support. Vos cas peuvent désormais être gérés à partir d'un seul emplacement. Accédez à **Support** &gt; **Gérer les cas** pour créer, afficher ou éditer les cas.
@@ -162,7 +162,7 @@ Vous pouvez lier votre compte SoftLayer à votre compte {{site.data.keyword.Blue
 ### {{site.data.keyword.Bluemix_notm}} Foundry Service région Est des Etats-Unis désormais disponible
 Nouveau à compter du : 15 décembre 2017
 
-Un nouveau centre de données pour la région Est des Etats-Unis est désormais disponible à Washington, DC. Cette nouvelle région est accessible via le noeud final `us-east.bluemix.net`. Pour plus de détails sur les services disponibles à l'achat dans cette nouvelle région, voir [Services par région](/docs/resources/services_region.html#services_region).
+Un nouveau centre de données pour la région Est des Etats-Unis est désormais disponible à Washington, DC. Cette nouvelle région est accessible via le noeud final `us-east.cloud.ibm.com`. Pour plus de détails sur les services disponibles à l'achat dans cette nouvelle région, voir [Services par région](/docs/resources/services_region.html#services_region).
 
 ### Support pour des ressources dans l'Union européenne
 Nouveau à compter du : 14 décembre 2017
@@ -436,7 +436,7 @@ Nouveau à compter du : 18 avril 2018
 ### Nouveau pack de construction Liberty for Java version 3.11
 Nouveau à compter du : 17 juillet 2017
 
-Le pack de construction Liberty version 3.11 fournit chaque mois une nouvelle version du contexte d'exécution Liberty et comporte d'autres améliorations. La version mensuelle du contexte d'exécution Liberty a été mise à jour vers l'édition [2017.7.0.0](https://developer.ibm.com/wasdev/blog/2017/07/07/beta-websphere-liberty-tools-july-2017/). Le kit Java Development Kit IBM a été mis à jour vers les versions 8.0.4.7 et 7.1.4.5. Le pack de construction fournit également des versions mises à jour de l'utilitaire App Management et de l'agent Auto-Scaling. La bibliothèque Cloudant par défaut est désormais la bibliothèque officielle [java-cloudant](https://github.com/cloudant/java-cloudant), la [bibliothèque Ektorp](https://github.com/helun/Ektorp) est toujours disponible en option. Pour obtenir des détails sur cette modification, voir l'[article du blogue](https://www.ibm.com/blogs/bluemix/2017/05/default-library-change-cloudant-auto-wiring-liberty-buildpack/). Le rapport de taille de segment de mémoire par défaut est désormais de 50 % lorsque votre application comporte moins de 512 Mo de mémoire, mais reste de 75 % si elle comporte plus de 512 Mo. Un nouveau journal des tâches de préproduction est à présent généré, qui permet un débogage simplifié des erreurs de préproduction. Pour plus d'informations, voir la documentation concernant les [dernières mises à jour](https://console.ng.bluemix.net/docs/runtimes/liberty/updates.html).
+Le pack de construction Liberty version 3.11 fournit chaque mois une nouvelle version du contexte d'exécution Liberty et comporte d'autres améliorations. La version mensuelle du contexte d'exécution Liberty a été mise à jour vers l'édition [2017.7.0.0](https://developer.ibm.com/wasdev/blog/2017/07/07/beta-websphere-liberty-tools-july-2017/). Le kit Java Development Kit IBM a été mis à jour vers les versions 8.0.4.7 et 7.1.4.5. Le pack de construction fournit également des versions mises à jour de l'utilitaire App Management et de l'agent Auto-Scaling. La bibliothèque Cloudant par défaut est désormais la bibliothèque officielle [java-cloudant](https://github.com/cloudant/java-cloudant), la [bibliothèque Ektorp](https://github.com/helun/Ektorp) est toujours disponible en option. Pour obtenir des détails sur cette modification, voir l'[article du blogue](https://www.ibm.com/blogs/bluemix/2017/05/default-library-change-cloudant-auto-wiring-liberty-buildpack/). Le rapport de taille de segment de mémoire par défaut est désormais de 50 % lorsque votre application comporte moins de 512 Mo de mémoire, mais reste de 75 % si elle comporte plus de 512 Mo. Un nouveau journal des tâches de préproduction est à présent généré, qui permet un débogage simplifié des erreurs de préproduction. Pour plus d'informations, voir la documentation concernant les [dernières mises à jour](/docs/runtimes/liberty/updates.html).
 
 ### Nouveau pack de construction Liberty for Java version 3.10
 Nouveau à compter du : 12 juin 2017
@@ -552,7 +552,7 @@ Pour commencer, consultez la documentation [{{site.data.keyword.security-advisor
 ### Présentation d'{{site.data.keyword.iva_full_notm}} (disponibilité générale)
 Nouveau à compter du : 26 juin 2018
 
-[{{site.data.keyword.iva_full}}](https://console.bluemix.net/catalog/services/voice-agent-with-watson)![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe") est désormais disponible. Vous pouvez
+[{{site.data.keyword.iva_full}}](https://cloud.ibm.com/catalog/services/voice-agent-with-watson)![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe") est désormais disponible. Vous pouvez
 créer un agent vocal cognitif construit sur les services Watson que les clients peuvent appeler par téléphone. Avec l'intelligence artificielle Watson au niveau du réseau principal, votre agent vocal est capable de communiquer sur un mode conversationnel, gérant des interactions complexes et résolvant les appels client au sein de l'agent.
 
 Cette version offre les nouvelles fonctions suivantes :
@@ -572,7 +572,7 @@ Nouveau à compter du : 20 avril 2018
 Vous pouvez accéder à cette nouvelle infrastructure reposant sur un conteneur à l'aide des [plans de service v2](/docs/services/StreamingAnalytics/service_plans.html#service_plans). Vous pouvez choisir le plan {{site.data.keyword.streaminganalyticsshort}} qui correspond le mieux à vos activités. Les plans de service v2 offrent les améliorations suivantes :
  
 * [IBM Streams QSE with Docker](https://www-01.ibm.com/marketing/iwm/iwm/web/preLogin.do?source=swg-ibmistvi)![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe") : consultez le document [ Development Guide](https://developer.ibm.com/streamsdev/docs/cloud-beta-devguide/)![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe") pour apprendre à utiliser la nouvelle fonction Streams QSE avec RHEL 7 qui s'exécute dans un environnement Docker afin de compiler et déployer vos applications avec les nouveaux plans {{site.data.keyword.streaminganalyticsshort}} v2. 
-* [API REST {{site.data.keyword.streaminganalyticsshort}} v2](https://console.bluemix.net/apidocs/1939-streaming-analytics-v2#introduction)![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")
+* [{{site.data.keyword.streaminganalyticsshort}}API REST v2](https://cloud.ibm.com/apidocs/1939-streaming-analytics-v2#introduction)![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")
 * [Nouvelles applications de démarrage et nouveaux exemples d'application](https://developer.ibm.com/streamsdev/docs/cloud-beta-samples/) ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")
 * [Améliorations relatives à la haute disponibilité dans le service {{site.data.keyword.streaminganalyticsshort}}](/docs/services/StreamingAnalytics/c_ha.html#consistent-regions)
 * [Fonctions d'identification de problème dans le service {{site.data.keyword.streaminganalyticsshort}} ](https://developer.ibm.com/streamsdev/2018/02/15/streaming-analytics-console-gives-ways-find-fix-errors-beta-plans/)![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")
@@ -581,7 +581,7 @@ Vous pouvez accéder à cette nouvelle infrastructure reposant sur un conteneur 
 ### {{site.data.keyword.iva_full_notm}} est à présent disponible en version bêta !
 Nouveau à compter du : 16 mars 2018
 
-Avec [{{site.data.keyword.iva_full}}](https://console.bluemix.net/catalog/services/voice-agent-with-watson)![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe"), vous pouvez créer un agent vocal cognitif basé sur des services Watson que les clients peuvent appeler par téléphone. Avec l'intelligence artificielle Watson au niveau du réseau principal, votre agent vocal est capable de communiquer sur un mode conversationnel, gérant des interactions complexes et résolvant les appels client au sein de l'agent.
+Avec [{{site.data.keyword.iva_full}}](https://cloud.ibm.com/catalog/services/voice-agent-with-watson)![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe"), vous pouvez créer un agent vocal cognitif basé sur des services Watson que les clients peuvent appeler par téléphone. Avec l'intelligence artificielle Watson au niveau du réseau principal, votre agent vocal est capable de communiquer sur un mode conversationnel, gérant des interactions complexes et résolvant les appels client au sein de l'agent.
 
 Cette version bêta offre les fonctions principales suivantes :
 
@@ -604,10 +604,10 @@ Actuellement, les discriminants personnalisés existants peuvent continuer à ê
 ### Mises à jour de {{site.data.keyword.streaminganalyticsshort}}
 Nouveau à compter du : 14 février 2018
 
-Les améliorations suivantes ont été apportées aux [plans bêta - entrée et bêta - améliorés](/docs/services/StreamingAnalytics/beta_plans.html#beta_plans) pour la console dans le [service {{site.data.keyword.streaminganalyticsshort}} ](https://console.bluemix.net/catalog/services/streaming-analytics){: new_window} ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe") :
+Les améliorations suivantes ont été apportées aux [plans bêta (entrée et bêta) améliorés](/docs/services/StreamingAnalytics/beta_plans.html#beta_plans) pour la console dans le service [{{site.data.keyword.streaminganalyticsshort}}](https://cloud.ibm.com/catalog/services/streaming-analytics){: new_window} ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe") :
 
 * [Nouvelle fonction IBM Streams QSE pour Docker](https://www-01.ibm.com/marketing/iwm/iwm/web/preLogin.do?source=swg-ibmistvi){: new_window} ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe") : consultez le document [Beta Development Guide](https://developer.ibm.com/streamsdev/docs/cloud-beta-devguide/){: new_window} ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe") pour apprendre à utiliser la nouvelle fonction Streams QSE avec RHEL 7 en cours d'exécution dans un environnement Docker afin de compiler et déployer vos applications avec les nouveaux plans bêta {{site.data.keyword.streaminganalyticsshort}}.
-* [API REST {{site.data.keyword.streaminganalyticsshort}} v2](https://console.bluemix.net/apidocs/1939-streaming-analytics-v2#introduction){: new_window} ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")
+* [{{site.data.keyword.streaminganalyticsshort}}API REST v2](https://cloud.ibm.com/apidocs/1939-streaming-analytics-v2#introduction){: new_window} ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")
 * [Nouvelles applications de démarrage et nouveaux exemples d'application](https://developer.ibm.com/streamsdev/docs/cloud-beta-samples/)
 * [Améliorations relatives à la haute disponibilité dans le service {{site.data.keyword.streaminganalyticsshort}}](/docs/services/StreamingAnalytics/consistentregions.html#consistentregions)
 * [Nouvelles fonctions d'identification de problème dans la version bêta du service {{site.data.keyword.streaminganalyticsshort}} ](https://developer.ibm.com/streamsdev/2018/02/15/streaming-analytics-console-gives-ways-find-fix-errors-beta-plans/){: new_window} ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")
@@ -633,7 +633,7 @@ Nouveau à compter du : 30 novembre 2017
 
 Explorez visuellement les connexions optimisées par la maîtrise des éléments sémantiques de {{site.data.keyword.discoveryshort}} dans le texte, comme les entités, les relations, les concepts, etc.
 
-Commencez à explorer les nouvelles du monde grâce à la collection prête à l'emploi {{site.data.keyword.discoveryshort}} News. Ou bien, explorez vos propres collections de documents dans {{site.data.keyword.discoveryshort}}. Il vous suffit de vous connecter avec vos données d'identification {{site.data.keyword.Bluemix_notm}}. Voir [Visual insights experimental](https://visual-insights.bluemix.net){: new_window} ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe") pour plus d'informations.
+Commencez à explorer les nouvelles du monde grâce à la collection prête à l'emploi {{site.data.keyword.discoveryshort}} News. Ou bien, explorez vos propres collections de documents dans {{site.data.keyword.discoveryshort}}. Il vous suffit de vous connecter avec vos données d'identification {{site.data.keyword.Bluemix_notm}}. Voir [Visual insights experimental](https://visual-insights.cloud.ibm.com){: new_window} ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe") pour plus d'informations.
 
 ### Nouveau service IBM Cloud Managed Database Server Beta
 Nouveau à compter du : 30 novembre 2017
@@ -693,7 +693,7 @@ Le service {{site.data.keyword.mobilefoundation_short}} optimise désormais le s
 * [Building charts for Adapter analytics by using IBM Bluemix Mobile Analytics service and IBM Mobile Foundation Service](https://mobilefirstplatform.ibmcloud.com/blog/2017/04/26/adapter-analytics-using-analytics-and-dashdb-analytics-service/){: new_window} ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")
 
 #### Le conteneur boilerplate {{site.data.keyword.mobilefirst_notm}} inclut désormais {{site.data.keyword.mobileanalytics_short}}
-Mobile Services Boilerplate est un modèle qui fournit un ensemble de services mobiles pour une mise en route rapide des utilisateurs. Le service {{site.data.keyword.mobileanalytics_short}} fait désormais partie du conteneur boilerplate disponible dans le [catalogue](https://console.bluemix.net/catalog/starters/mobilefirst-services-starter){: new_window} ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe").
+Mobile Services Boilerplate est un modèle qui fournit un ensemble de services mobiles pour une mise en route rapide des utilisateurs. Le service {{site.data.keyword.mobileanalytics_short}} fait désormais partie du conteneur boilerplate disponible dans le [catalogue](https://cloud.ibm.com/catalog/starters/mobilefirst-services-starter){: new_window} ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe").
 
 
 ### Mises à jour de {{site.data.keyword.streaminganalyticsshort}}
@@ -804,7 +804,7 @@ Les nouvelles fonctions du dispositif de routeur virtuel de version 18.x sont ex
 
 Si vous réalisez une migration depuis Vyatta 5400, la meilleure façon d'effectuer une mise à niveau vers la version 18.x est de le faire à travers la [procédure normale](/docs/infrastructure/virtual-router-appliance/upgrade-os.html) du rechargement complet du système d'exploitation.
 
-Dans la mesure où il n'y a pas de mappage simple et individuel des fonctionnalités entre Vyatta 5400 et le dispositif de routeur virtuel, il est utile de créer une configuration de base pour le dispositif de routeur virtuel. WanClouds, un partenaire IBM, peut vous aider dans ce processus et vous guider lors de la création d'une fonctionnalité similaire à celle de Vyatta 5400 sur votre dispositif de routeur virtuel. 
+Dans la mesure où il n'y a pas de mappage simple et individuel des fonctionnalités entre Vyatta 5400 et le dispositif de routeur virtuel, il est utile de créer une configuration de base pour le dispositif de routeur virtuel. WanClouds, un partenaire IBM, peut vous aider dans ce processus et vous guider lors de la création d'une fonctionnalité similaire à celle de Vyatta 5400 sur votre dispositif de routeur virtuel.
 
 Pour en savoir plus sur les problèmes communs rencontrés lors de ce processus de mise à niveau, veuillez vous reporter à votre [documentation additionnelle](/docs/infrastructure/virtual-router-appliance/migration-issues.html#vyatta-5400-common-migration-issues).
 

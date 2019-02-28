@@ -162,7 +162,7 @@ Ahora es posible enlazar su cuenta de SoftLayer con su cuenta de {{site.data.key
 ### Ya está disponible el servicio {{site.data.keyword.Bluemix_notm}} Foundry de la región EE.UU. este
 Novedad desde: 15 de diciembre de 2017
 
-Ya está disponible un nuevo centro de datos de EE.UU. este en Washington, DC. Se puede llegar a esta nueva región mediante el punto final `us-east.bluemix.net`. Para obtener detalles sobre los servicios disponibles para su adquisición en esta nueva región, consulte [Servicios por región](/docs/resources/services_region.html#services_region).
+Ya está disponible un nuevo centro de datos de EE.UU. este en Washington, DC. Se puede llegar a esta nueva región mediante el punto final `us-east.cloud.ibm.com`. Para obtener detalles sobre los servicios disponibles para su adquisición en esta nueva región, consulte [Servicios por región](/docs/resources/services_region.html#services_region).
 
 ### Soporte para recursos en la Unión Europea
 Novedad desde: 14 de diciembre de 2017
@@ -437,7 +437,7 @@ Novedad desde: 18 de abril de 2018
 Novedad desde: 17 de julio de 2017
 
 El paquete de compilación de Liberty v3.11 proporciona una nueva versión de tiempo de ejecución mensual de Liberty y contiene otras mejoras. La versión de tiempo de ejecución mensual de Liberty se ha actualizado al release [2017.7.0.0](https://developer.ibm.com/wasdev/blog/2017/07/07/beta-websphere-liberty-tools-july-2017/). El JDK de IBM se ha actualizado a las versiones 8.0.4.7 y 7.1.4.5. El paquete de compilación también proporciona versiones actualizadas del programa de utilidad de gestión de App Management y del agente de Auto-Scaling. La biblioteca predeterminada Cloudant es ahora el [java-cloudant](https://github.com/cloudant/java-cloudant) oficial, la [biblioteca Ektorp](https://github.com/helun/Ektorp) aún está disponible como opción; para obtener detalles sobre este cambio, consulte la [publicación de blog](https://www.ibm.com/blogs/bluemix/2017/05/default-library-change-cloudant-auto-wiring-liberty-buildpack/). La proporción de tamaño de almacenamiento dinámico predeterminada ahora es del 50% cuando la aplicación tiene menos de 512 MB de memoria, si tiene más de 512 MB seguirá siendo del 75%. Ahora se genera un nuevo registro de tareas de transferencia, que facilita la depuración de errores de transferencia. Para obtener más información, consulte la documentación sobre
-[últimas actualizaciones](https://console.ng.bluemix.net/docs/runtimes/liberty/updates.html).
+[últimas actualizaciones](/docs/runtimes/liberty/updates.html).
 
 ### Nuevo paquete de compilación de Liberty for Java v3.10
 Novedad desde: 12 de junio de 2017
@@ -467,7 +467,7 @@ El servicio {{site.data.keyword.appid_short_notm}} ha incorporado característic
 {{site.data.keyword.appid_short_notm}} le ayuda a añadir distintos tipos de autenticación de usuarios a sus apps móviles y web. Puede añadir autenticación con unas pocas líneas de código y olvidarse de la gestión de la infraestructura para escalar la base de usuarios.  Consulte las siguientes mejoras y pruebe el servicio usted mismo.
 
 Autenticación de multifactores: ahora puede utilizar MFA basado en correo electrónico para Cloud Directory. Con MFA activado, se solicita a los usuarios que proporcionen un código de un solo uso que reciben por correo electrónico, además de su contraseña. Si utiliza el inicio de sesión de empresa con SAML 2.0 o el inicio de sesión social, puede habilitar MFA a través de dicho proveedor de identidad.
-Políticas avanzadas de contraseñas: con la característica de política avanzada de contraseñas activada, puede imponer contraseñas más seguras para Cloud Directory. Puede configurar un conjunto de reglas que utilizan contraseñas que deben cumplir con determinadas políticas, como el número de veces que un usuario puede intentar iniciar una sesión antes de que se bloquee o el número de veces que no se puede repetir una contraseña.
+Políticas avanzadas de contraseñas: con la característica de política avanzada de contraseñas activada, puede imponer contraseñas más seguras para Cloud Directory. Puede configurar un conjunto de reglas para las contraseñas que limiten el número de veces que un usuario puede intentar iniciar una sesión antes de que se bloquee o el número de veces que se puede repetir una contraseña.
 
 Las características avanzadas de seguridad tienen un componente de precio adicional. Para obtener más información sobre cómo se calcula el precio, consulte la sección sobre precios del [catálogo](https://cloud.ibm.com/catalog/services/app-id).
 
@@ -553,7 +553,7 @@ Para empezar, consulte la documentación de [{{site.data.keyword.security-adviso
 ### Introducción a la disponibilidad general de {{site.data.keyword.iva_full_notm}}
 Novedad desde: 26 de junio de 2018
 
-[{{site.data.keyword.iva_full}}](https://console.bluemix.net/catalog/services/voice-agent-with-watson)![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo") ahora está disponible a nivel general. Puede crear un agente de voz cognitivo que se base en los servicios de Watson. Los clientes podrán hablar y llamar a este agente por teléfono. Con la inteligencia artificial de Watson como eje central, el agente de voz puede comunicarse de forma conversacional, manejando interacciones complejas y resolviendo las llamadas de clientes dentro del agente de voz.
+[{{site.data.keyword.iva_full}}](https://cloud.ibm.com/catalog/services/voice-agent-with-watson)![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo") ahora está disponible a nivel general. Puede crear un agente de voz cognitivo que se base en los servicios de Watson. Los clientes podrán hablar y llamar a este agente por teléfono. Con la inteligencia artificial de Watson como eje central, el agente de voz puede comunicarse de forma conversacional, manejando interacciones complejas y resolviendo las llamadas de clientes dentro del agente de voz.
 
 En este release se presentan las siguientes características nuevas:
 
@@ -572,7 +572,7 @@ Novedad desde: 20 de abril de 2018
 Puede acceder a esta nueva infraestructura basada en contenedores utilizando los [planes de servicio de v2](/docs/services/StreamingAnalytics/service_plans.html#service_plans). Puede elegir el plan de {{site.data.keyword.streaminganalyticsshort}} que se adapta mejor a la labor que debe realizar. Los planes de servicio de v2 incluyen las mejoras siguientes:
  
 * [IBM Streams QSE with Docker](https://www-01.ibm.com/marketing/iwm/iwm/web/preLogin.do?source=swg-ibmistvi)![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo"): Consulte la [Development Guide](https://developer.ibm.com/streamsdev/docs/cloud-beta-devguide/)![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo") para aprender a utilizar las nuevas instancias de Streams QSE con RHEL 7 ejecutándose en un entorno Docker para compilar y desplegar sus aplicaciones con los nuevos planes v2 de {{site.data.keyword.streaminganalyticsshort}}. 
-* [{{site.data.keyword.streaminganalyticsshort}} v2 REST API](https://console.bluemix.net/apidocs/1939-streaming-analytics-v2#introduction)![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")
+* [{{site.data.keyword.streaminganalyticsshort}} v2 REST API](https://cloud.ibm.com/apidocs/1939-streaming-analytics-v2#introduction)![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")
 * [Nuevas aplicaciones de punto de partida y de ejemplo](https://developer.ibm.com/streamsdev/docs/cloud-beta-samples/) ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")
 * [Mejoras de alta disponibilidad en el servicio {{site.data.keyword.streaminganalyticsshort}}](/docs/services/StreamingAnalytics/c_ha.html#consistent-regions)
 * [Características de determinación de problemas del servicio {{site.data.keyword.streaminganalyticsshort}}](https://developer.ibm.com/streamsdev/2018/02/15/streaming-analytics-console-gives-ways-find-fix-errors-beta-plans/)![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")
@@ -581,7 +581,7 @@ Puede acceder a esta nueva infraestructura basada en contenedores utilizando los
 ### {{site.data.keyword.iva_full_notm}} ahora en versión Beta
 Novedad desde: 16 de marzo de 2018
 
-Con [{{site.data.keyword.iva_full}}](https://console.bluemix.net/catalog/services/voice-agent-with-watson)![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo"), puede crear un agente de voz cognitivo que se base en los servicios de Watson. Los clientes podrá hablar y llamar a este agente a través del teléfono. Con la inteligencia artificial de Watson como eje central, el agente de voz puede comunicarse de forma conversacional, manejando interacciones complejas y resolviendo las llamadas de clientes dentro del agente de voz.
+Con [{{site.data.keyword.iva_full}}](https://cloud.ibm.com/catalog/services/voice-agent-with-watson)![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo"), puede crear un agente de voz cognitivo que se base en los servicios de Watson. Los clientes podrá hablar y llamar a este agente a través del teléfono. Con la inteligencia artificial de Watson como eje central, el agente de voz puede comunicarse de forma conversacional, manejando interacciones complejas y resolviendo las llamadas de clientes dentro del agente de voz.
 
 Este release beta introduce las siguientes características clave:
 
@@ -604,10 +604,10 @@ Actualmente, los clasificadores personalizados existentes pueden seguir actualiz
 ### Actualizaciones de {{site.data.keyword.streaminganalyticsshort}}
 Novedad desde: 14 de febrero de 2018
 
-Los [planes Beta-Entry y Beta-Enhanced](/docs/services/StreamingAnalytics/beta_plans.html#beta_plans) para la consola en el [servicio {{site.data.keyword.streaminganalyticsshort}}](https://console.bluemix.net/catalog/services/streaming-analytics){: new_window} ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo") incluyen varias mejoras:
+Los [planes Beta - Básico y Beta - Avanzado](/docs/services/StreamingAnalytics/beta_plans.html#beta_plans) para la consola en el [servicio {{site.data.keyword.streaminganalyticsshort}}](https://cloud.ibm.com/catalog/services/streaming-analytics){: new_window} ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo") incluyen varias mejoras:
 
 * [Nuevo: IBM Streams QSE for Docker](https://www-01.ibm.com/marketing/iwm/iwm/web/preLogin.do?source=swg-ibmistvi){: new_window} ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo"): Consulte la [Beta Development Guide](https://developer.ibm.com/streamsdev/docs/cloud-beta-devguide/){: new_window} ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo") para aprender a utilizar las nuevas instancias de Streams QSE con RHEL 7 ejecutándose en un entorno Docker para compilar y desplegar sus aplicaciones con los nuevos planes beta de {{site.data.keyword.streaminganalyticsshort}}.
-* [{{site.data.keyword.streaminganalyticsshort}} v2 REST API](https://console.bluemix.net/apidocs/1939-streaming-analytics-v2#introduction){: new_window} ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")
+* [{{site.data.keyword.streaminganalyticsshort}} v2 REST API](https://cloud.ibm.com/apidocs/1939-streaming-analytics-v2#introduction){: new_window} ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")
 * [Nuevas aplicaciones de punto de partida y de ejemplo](https://developer.ibm.com/streamsdev/docs/cloud-beta-samples/)
 * [Mejoras de alta disponibilidad en el servicio {{site.data.keyword.streaminganalyticsshort}}](/docs/services/StreamingAnalytics/consistentregions.html#consistentregions)
 * [Nuevas características de determinación de problemas en la versión beta del servicio {{site.data.keyword.streaminganalyticsshort}}](https://developer.ibm.com/streamsdev/2018/02/15/streaming-analytics-console-gives-ways-find-fix-errors-beta-plans/){: new_window} ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")
@@ -633,7 +633,7 @@ Novedad desde: 30 de noviembre de 2017
 
 Explore visualmente conexiones basadas en la comprensión de {{site.data.keyword.discoveryshort}} de elementos semánticos detectados en texto, como entidades, relaciones, conceptos, etc.
 
-Comience a explorar las noticias del mundo con la recopilación de Noticias de {{site.data.keyword.discoveryshort}} predefinida. O bien, explore sus propias colecciones de documentos de {{site.data.keyword.discoveryshort}}. Tan solo inicie sesión con sus credenciales de {{site.data.keyword.Bluemix_notm}}. Consulte [Visual Insights experimental](https://visual-insights.bluemix.net){: new_window} ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo") para obtener más información.
+Comience a explorar las noticias del mundo con la recopilación de Noticias de {{site.data.keyword.discoveryshort}} predefinida. O bien, explore sus propias colecciones de documentos de {{site.data.keyword.discoveryshort}}. Tan solo inicie sesión con sus credenciales de {{site.data.keyword.Bluemix_notm}}. Consulte [Visual Insights experimental](https://visual-insights.cloud.ibm.com){: new_window} ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo") para obtener más información.
 
 ### Nuevo servicio de IBM Cloud Managed Database Server Beta
 Novedad desde: 30 de noviembre de 2017
@@ -693,7 +693,7 @@ El servicio {{site.data.keyword.mobilefoundation_short}} aprovecha ahora el serv
 * [Creación de diagramas para el análisis de Adaptador utilizando los servicios IBM Bluemix Mobile Analytics e IBM Mobile Foundation](https://mobilefirstplatform.ibmcloud.com/blog/2017/04/26/adapter-analytics-using-analytics-and-dashdb-analytics-service/){: new_window} ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")
 
 #### El contenedor modelo de {{site.data.keyword.mobilefirst_notm}} ahora incluye {{site.data.keyword.mobileanalytics_short}}
-Mobile Services Boilerplate es una plantilla que proporciona un conjunto de servicios móviles para que los usuarios empiecen rápidamente. El servicio {{site.data.keyword.mobileanalytics_short}} ahora forma parte del contenedor modelo disponible en el [catálogo](https://console.bluemix.net/catalog/starters/mobilefirst-services-starter){: new_window} ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo").
+Mobile Services Boilerplate es una plantilla que proporciona un conjunto de servicios móviles para que los usuarios empiecen rápidamente. El servicio {{site.data.keyword.mobileanalytics_short}} ahora forma parte del contenedor modelo disponible en el [catálogo](https://cloud.ibm.com/catalog/starters/mobilefirst-services-starter){: new_window} ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo").
 
 
 ### Actualizaciones de {{site.data.keyword.streaminganalyticsshort}}
