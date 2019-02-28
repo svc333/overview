@@ -1,10 +1,10 @@
 ---
 
 copyright:
-  years: 2018, 2019
-lastupdated: "2019-02-07"
 
-metadata: HA,failover,DR 
+  years: 2018
+
+lastupdated: "2018-11-28"
 
 ---
 
@@ -33,7 +33,6 @@ Alle {{site.data.keyword.Bluemix_notm}}-Ressourcen werden per Hosting in Rechenz
 Bei Disaster-Recovery geht es darum, einen katastrophalen Ausfall oder einen Verfügbarkeitsverlust an einem einzelnen Standort zu überstehen. Um sicherzustellen, dass Disaster-Recovery vorhanden ist, ist es notwendig, dass Sie mehrere {{site.data.keyword.Bluemix_notm}}-Umgebungen fan mehreren Standorten bereitstellen, um einzelne Fehlerquellen (Single Points of Failure) zu vermeiden. Bei diesen Umgebungen kann es sich um eine Kombination aus öffentlichen, dedizierten oder lokalen Plattformen handeln.  
 
 ### Erstellen eines Disaster-Recovery-Plans 
-{: #dr-plan}
 
 {{site.data.keyword.Bluemix_notm}} entspricht den Anforderungen für die Planung eines Notfalls und bei jeder Anwendung ist ein Plan für Sie zum Wiederherstellen oder zum erneuten Starten vorhanden. Die Wiederherstellung erfolgt durch elektronische Sicherungen in einem Wiederherstellungscenter oder in alternativen Räumlichkeiten für die Datenverarbeitung, die die Datenverarbeitung wiederherstellen. Angesichts eines potenziellen Notfalls enthält der Disaster-Recovery-Plan die System- und Hostinganforderungen für Hardware, Software, Netzwerkkonnektivität sowie externe Sicherungsfunktionen.
 
@@ -42,11 +41,10 @@ Die folgende Liste enthält die Anforderungen des Notfallwiederherstellungsplans
 - Für den Lastausgleich ist ein Dokument vorhanden, in dem erläutert wird, wie der Datenverarbeitungsservice verfügbar bleibt. 
 - Für den Fall, dass an mehreren Standorten ein Ausweichbetrieb stattfindet, muss der Disaster-Recovery-Plan erläutern, wer das Failover wodurch verursacht hat, und den Neustart sicherstellen. 
 - Der Disaster-Recovery-Plan muss definieren, wie die Lösung funktioniert und welcher Datenverlust aufgetreten ist. 
-- Er muss darlegen, wie die maximal tolerierbare Ausfallzeit eingehalten und in der Datenbank des Disaster-Recovery-Plans gespeichert wird.  
+- Er muss darlegen, wie die maximal tolerierbare Ausfallzeit eingehalten und in der Rep-Datenbank des Disaster-Recovery-Plans gespeichert wird.  
 - Der Notfallwiederherstellungsplan gibt die Sicherheitsmaßnahmen für die Ausführung im Notfallmodus an, sofern diese sich jeweils von denen in der Produktion unterscheiden. 
 
 ### Management des Disaster-Recovery-Plans 
-{: #dr-plan-mgmt}
 
 {{site.data.keyword.Bluemix}} berücksichtigt die folgenden Anforderungen: 
 
@@ -58,7 +56,7 @@ Die folgende Liste enthält die Anforderungen des Notfallwiederherstellungsplans
 
 Sie können Apps und Serviceinstanzen an unterschiedlichen Standorten mit derselben {{site.data.keyword.cloud_notm}}-Infrastruktur für das Anwendungsmanagement und derselben Ansicht mit Nutzungsdetails zur Gebührenabrechnung erstellen. Sie können Ihre Apps an dem Standort bereitstellen, der Ihren Kunden am nächsten ist, um eine möglichst geringe Latenzzeit zu erzielen. 
 
-Zum Beheben von Sicherheitsproblemen können Sie auch den Standort auswählen, an dem die Anwendungsdaten aufbewahrt werden sollen. Wenn Sie Apps an mehreren Standorten erstellen, werden die Apps an den anderen Standorten weiter ausgeführt, falls ein Standort nicht mehr verfügbar ist. Die verfügbaren Ressourcen sind für jeden verwendeten Standort gleich. Weitere Informationen zu den Plattformressourcen und den Standorten, an denen sie verfügbar sind, finden Sie unter [Serviceverfügbarkeit](docs/resources?topic=resources-services_region).
+Zum Beheben von Sicherheitsproblemen können Sie auch den Standort auswählen, an dem die Anwendungsdaten aufbewahrt werden sollen. Wenn Sie Apps an mehreren Standorten erstellen, werden die Apps an den anderen Standorten weiter ausgeführt, falls ein Standort nicht mehr verfügbar ist. Die verfügbaren Ressourcen sind für jeden verwendeten Standort gleich. Weitere Informationen zu den Plattformressourcen und den Standorten, an denen sie verfügbar sind, finden Sie unter [Serviceverfügbarkeit](/docs/resources/services_region.html#services_region).
 
 Der globale Lastausgleich für die {{site.data.keyword.cloud_notm}}-Konsole stellt sicher, dass bei einer Inaktivität Ihres nächsten geografischen Standorts die Konsole die Informationen für den nächstgelegenen Standort anzeigt. Auf diese Weise verfügen Sie stets über Zugriff auf die Konsole, ohne dass Aktionen erforderlich sind, um auf die benötigten Ressourcen zuzugreifen.
 
@@ -67,19 +65,18 @@ Der globale Lastausgleich für die {{site.data.keyword.cloud_notm}}-Konsole stel
 Sie können auch die Befehlszeilenschnittstelle (CLI) verwenden, um eine Verbindung zu dem {{site.data.keyword.cloud_notm}}-Standort herzustellen, mit dem Sie arbeiten möchten, indem Sie den Befehl `ibmcloud api` verwenden und den API-Endpunkt des Standorts angeben. Geben Sie beispielsweise den folgenden Befehl ein, um eine Verbindung zum {{site.data.keyword.cloud_notm}}-Standort London herzustellen:
 
 ```
-ibmcloud api https://api.eu-gb.cf.cloud.ibm.com
+ibmcloud api https://api.eu-gb.bluemix.net
 ```
 
 Jedem Standort wird ein eindeutiges Präfix zugewiesen. {{site.data.keyword.cloud_notm}} stellt die folgenden Standorte und Standortpräfixe zur Verfügung.
 
 | **Standort**  | **API-Endpunkt**        |
 |---------------|-------------------------|
-| Dallas        | api.us-south.cf.cloud.ibm.com  |
-| Frankfurt     | api.eu-de.cf.cloud.ibm.com  |
-| London        | api.eu-gb.cf.cloud.ibm.com  |
-| Sydney        | api.au-syd.cf.cloud.ibm.com  |
-| Tokio         | api.jp-tok.cf.cloud.ibm.com  |
-| Washington DC | api.us-east.cf.cloud.ibm.com  |
+| Dallas        | api.ng.bluemix.net      |
+| Sydney        | api.au-syd.bluemix.net  |
+| Frankfurt     | api.eu-de.bluemix.net   |
+| London        | api.eu-gb.bluemix.net   |
+| Washington DC | api.us-east.bluemix.net |
 {: caption="Tabelle 1. Liste der {{site.data.keyword.cloud_notm}}-Standorte" caption-side="top"}
 
 Wenn Sie Infrastrukturressourcen bereitstellen, stehen Ihnen mehr Optionen zur Verfügung, an denen sich Ihre Daten befinden können. Sie können einen Standort auswählen oder ein Rechenzentrum aus der Liste in {{site.data.keyword.Bluemix_notm}} auswählen. 
@@ -175,12 +172,11 @@ Wenn Sie eine Reklamation wegen Ausfallzeit einreichen wollen, wenden Sie sich a
 
 {{site.data.keyword.Bluemix_notm}} stellt SLAs für {{site.data.keyword.Bluemix_notm}}-Services zur Verfügung, durch die Sie gegebenenfalls zu Gutschriften auf Ihr Konto berechtigt sind. SLAs stellen die einzige Möglichkeit dar, die Nichteinhaltung eines angegebenen Service-Levels durch {{site.data.keyword.Bluemix_notm}} beizulegen. {{site.data.keyword.Bluemix_notm}} stellt ein Service-Level mit einer Verfügbarkeit von 99,5 % für mehrere Instanzen eines Plattformservice in einer einzelnen dedizierten oder lokalen Umgebung bereit.
 
-Weitere Informationen zu dedizierten Umgebungen finden Sie in [IBM Cloud Dedicated](/docs/hybrid?topic=dedicated-dedicated). In [Bluemix Local](/docs/hybrid?topic=local-local) finden Sie weitere Informationen zu lokalen Umgebungen.  
+Weitere Informationen zu dedizierten Umgebungen finden Sie unter [IBM Cloud Dedicated](/docs/dedicated/index.html#dedicated). Klicken Sie auf [Bluemix Local](/docs/local/index.html#local), wenn Sie weitere Informationen zu lokalen Umgebungen wünschen. 
 
 Die vollständige Servicebeschreibung für {{site.data.keyword.Bluemix_notm}} steht unter [Cloud Services-Bedingungen](http://www-03.ibm.com/software/sla/sladb.nsf/sla/bm){: new_window} ![Symbol für externen Link](../icons/launch-glyph.svg "Symbol für externen Link") zur Verfügung.
 
 ### SLA für Verfügbarkeitsausfallzeit
-{: #avail-downtime}
 
 Sie haben Anspruch auf eine Gutschrift auf Ihr Konto, wenn Ausfallzeiten auftreten, bei denen die Verfügbarkeit von 99,5 % unterschritten wird. Die Ausfallzeit der Verfügbarkeit ergibt sich aus der Gesamtzeit in Minuten, in der Sie zu keiner Ihrer Service-Instanzen eine Verbindung herstellen konnten. Die Berechnung der Gesamtausfallzeit beginnt mit der Einreichung eines Berichts zur Meldung des Betriebsunterbrechungsereignisses und endet, wenn mindestens eine der betroffenen Instanzen für die Nutzung verfügbar ist.
 
@@ -188,7 +184,7 @@ Sie haben Anspruch auf eine Gutschrift auf Ihr Konto, wenn Ausfallzeiten auftret
 - Cloud-Services in der öffentlichen Umgebung, die für hohe Verfügbarkeit konfiguriert sind, wie in den Katalogdetails für jeden Service beschrieben. 
 - Cloud-Services in mehreren dedizierten oder lokalen Umgebungen in räumlich getrennten Rechenzentren. 
 
-| Typ	 | Beschreibung	 | Details der Unterstützung|
+| Typ	                                                                        | Beschreibung	       | Details der Unterstützung|
 |-------------------------------------------------------------------------------|--------------------|----------------|
 | Öffentliche HA-Umgebung oder mehrere dedizierte/lokale Umgebungen | Andere Umgebungen | Gutschrift         |
 | <99,95 %                                                                       |<99,5 %              |10 %             |
@@ -211,7 +207,6 @@ Die SLA für Verfügbarkeitsausfallzeit schließt keine {{site.data.keyword.Blue
 {: note}
 
 ### SLAs für Infrastrukturservices
-{: #iaas-slas}
 
 Infrastrukturdienste sind Bare-Metal-Server und virtuelle Server, Vernetzungs-, Speicher- und Sicherheitsservices. Um eine vollständige Liste der Infrastrukturservices zu finden, durchsuchen Sie den {{site.data.keyword.Bluemix_notm}}-Katalog unter Verwendung des Tags `iaas`. 
 
@@ -220,8 +215,6 @@ Als Ausfallzeit wird die Gesamtzeit von Minuten bezeichnet, in der ein vom Kunde
 Ausfallzeiten umfassen keine Zeit für geplante oder angekündigte Wartungsarbeiten. Für jeweils 30 Minuten ununterbrochener Ausfallzeit erhalten Sie eine Gutschrift in Höhe von 5 % der monatlichen Gebühren für die identifizierten Services, die direkt von dem Ausfall betroffen sind. Sie haben keinen Anspruch auf eine Gutschrift, wenn die Ausfallzeit weniger als 30 zusammenhängende Minuten beträgt. Ausfallzeiten für unterschiedliche Ausfalltypen können nicht miteinander kombiniert werden, damit diese Berechnung erfüllt wird.
 
 ### SLA für Ersatz von Hardware der Infrastruktur und für Aktualisierungen
-{: #hw-replaceupgrade-sla}
-
 {{site.data.keyword.Bluemix_notm}} versucht, beim Austausch fehlerhafter Hardware oder bei der Durchführung eines terminierten Hardware-Upgrades die Ausfallzeit zu minimieren. 
 
 {{site.data.keyword.Bluemix_notm}} stellt Gutschriften für die folgenden Fälle bereit: 
@@ -242,8 +235,6 @@ Service-Level-Zeiträume schließen jede Zeit aus, die zum erneuten Laden des Be
 {: caption="Tabelle 7. Gutschrift basierend auf der monatlichen Gebühr für den Service, der von dem Hardwareaustausch oder -upgrade betroffen ist" caption-side="top"}
 
 ### Reklamationen
-{: #claims}
-
 Reichen Sie Ihren Antrag innerhalb von 60 Tagen nach Ablauf des vertraglich vereinbarten Monats ein, in dem das Serviceziel (Service-Level) nicht erreicht wurde. Stellen Sie ausreichend Informationen zur Verfügung, damit der betroffene Service ermittelt werden kann, und geben Sie Fehlermeldungen und andere Informationen an, die notwendig sind, um den Reklamationsanspruch zu überprüfen. 
 
 Die Gutschrift ist die höchste anwendbare Vergütung und basiert auf der kumulativen Verfügbarkeit des betroffenen Service während eines Vertragsmonats. Ihre Berechnung erfolgt anhand der monatlichen Gebühren für den betroffenen Service. Gutschriften dürfen 25 % der monatlichen Gebühren nicht überschreiten.
@@ -251,8 +242,6 @@ Die Gutschrift ist die höchste anwendbare Vergütung und basiert auf der kumula
 Wenn Sie eine Reklamation wegen Ausfallzeit einreichen wollen, wenden Sie sich an [{{site.data.keyword.Bluemix_notm}} Support](https://console.cloud.ibm.com/unifiedsupport/supportcenter){: new_window} ![Symbol für externen Link](../icons/launch-glyph.svg "Symbol für externen Link").
 
 ### Ausschlüsse
-{: #exclusions}
-
 Es werden keine Gutschriften für die Nichteinhaltung einer SLA aus den folgenden Gründen ausgestellt:
 - Probleme mit Inhalten, Technologie, Designs oder Anweisungen, die von Kunden oder von der Community bereitgestellt wurden
 - Cloud-Services in der Beta-Phase, experimentelle Cloud-Services oder gebührenfreie Cloud-Services

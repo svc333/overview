@@ -1,10 +1,10 @@
 ---
 
 copyright:
-  years: 2018, 2019
-lastupdated: "2019-02-07"
 
-metadata: HA,failover,DR 
+  years: 2018
+
+lastupdated: "2018-11-28"
 
 ---
 
@@ -33,7 +33,6 @@ metadata: HA,failover,DR
 재해 복구는 단일 위치에서 치명적인 장애 또는 가용성 손실을 극복하는 것입니다. 재해 복구가 제대로 수행되도록 하려면 단일 장애 지점을 방지하기 위해 여러 {{site.data.keyword.Bluemix_notm}} 환경을 다중 위치에 배치해야 합니다. 이러한 환경은 퍼블릭, 데디케이티드 또는 로컬 플랫폼의 조합일 수 있습니다.  
 
 ### 재해 복구 플랜 
-{: #dr-plan}
 
 {{site.data.keyword.Bluemix_notm}}는 재해 복구를 계획하기 위한 요구사항을 따르며 모든 애플리케이션에는 재배 복구 이벤트 후 복구하거나 다시 시작하는 플랜이 있습니다. 복구는 복구 센터에서 전자 백업으로부터 수행되거나 컴퓨팅을 복원하는 대체 컴퓨팅 기능에서 수행됩니다. 잠재적인 재해가 발생하기 전에 재해 복구 플랜에 하드웨어, 소프트웨어, 네트워킹 연결 및 오프사이트 백업 기능에 대한 시스템 및 호스팅 요구사항이 포함됩니다.
 
@@ -42,11 +41,10 @@ metadata: HA,failover,DR
 - 로드 밸런싱을 위해 컴퓨팅 서비스가 사용 가능한 상태로 유지되는 방법을 설명하는 문서가 있습니다. 
 - 다중 사이트 장애 복구가 발생하는 경우 재해 복구 플랜에 장애 복구를 위해 누가 어떤 작업을 수행하는지가 설명되고 다시 시작되도록 해야 합니다. 
 - 재해 복구 플랜에 솔루션 작동 방법과 데이터 손실의 개념이 정의되어야 합니다. 
-- 이는 최대 허용 중단 시간이 충족되는 방식을 확인하고 재해 복구 플랜 데이터베이스에 저장되어야 합니다.  
+- 최대 허용 중단 시간이 충족된 방식을 확인하고 재해 복구 플랜 담당자 데이터베이스에 저장되어야 합니다.  
 - 재해 복구 플랜에 재해 모드에서 실행하기 위한 보안 제어가 지정되어 있습니다(프로덕션에서 실행 중인 보안 제어와 다른 경우). 
 
 ### 재해 복구 플랜 관리 
-{: #dr-plan-mgmt}
 
 {{site.data.keyword.Bluemix}}에서 따르는 요구사항은 다음과 같습니다. 
 
@@ -58,7 +56,7 @@ metadata: HA,failover,DR
 
 애플리케이션 관리를 위한 동일한 {{site.data.keyword.cloud_notm}} 인프라 및 요금 청구를 위한 동일한 사용량 세부사항을 사용하여 다른 위치에 앱 및 서비스 인스턴스를 작성할 수 있습니다. 애플리케이션 대기 시간을 낮추기 위해 고객과 가장 가까운 위치에 앱을 배치할 수 있습니다. 
 
-보안 문제를 해결하기 위해 애플리케이션 데이터를 보관할 위치를 선택할 수도 있습니다. 앱을 둘 이상의 위치에서 빌드할 경우 이 중 한 위치가 사용 불가능하면 다른 위치에 있는 앱은 계속 실행됩니다. 허용되는 리소스 양은 사용하는 위치마다 동일합니다. 플랫폼 리소스 및 사용 가능한 위치에 대한 자세한 정보는 [서비스 가용성](docs/resources?topic=resources-services_region)을 참조하십시오.
+보안 문제를 해결하기 위해 애플리케이션 데이터를 보관할 위치를 선택할 수도 있습니다. 앱을 둘 이상의 위치에서 빌드할 경우 이 중 한 위치가 사용 불가능하면 다른 위치에 있는 앱은 계속 실행됩니다. 허용되는 리소스 양은 사용하는 위치마다 동일합니다. 플랫폼 리소스 및 사용 가능한 위치에 대한 자세한 정보는 [서비스 가용성](/docs/resources/services_region.html#services_region)을 참조하십시오.
 
 {{site.data.keyword.cloud_notm}} 콘솔의 글로벌 로드 밸런싱은 사용자에게 가장 가까운 지리적 위치가 사용 불가능하게 되면 다음으로 가장 가까운 위치에 대한 정보가 콘솔에 표시됩니다. 이 방식을 사용하면 사용자가 필요한 리소스에 액세스하기 위한 조치를 수행하지 않고 항상 콘솔에 액세스할 수 있습니다.
 
@@ -67,19 +65,18 @@ metadata: HA,failover,DR
 명령행 인터페이스(CLI)에서 `ibmcloud api` 명령을 사용하여 작업할 {{site.data.keyword.cloud_notm}} 위치에 연결하고 위치의 API 엔드포인트를 지정할 수도 있습니다. 예를 들어, 다음 명령을 입력하여 {{site.data.keyword.cloud_notm}} 런던에 연결하십시오.
 
 ```
-ibmcloud api https://api.eu-gb.cf.cloud.ibm.com
+ibmcloud api https://api.eu-gb.bluemix.net
 ```
 
 각 위치에 고유한 접두부가 지정됩니다. {{site.data.keyword.cloud_notm}}는 다음과 같은 위치 및 위치 접두부를 제공합니다.
 
 | **위치**  | **API 엔드포인트**        |
 |---------------|-------------------------|
-| 댈러스        | api.us-south.cf.cloud.ibm.com  |
-| 프랑크푸르트     | api.eu-de.cf.cloud.ibm.com  |
-| 런던        | api.eu-gb.cf.cloud.ibm.com  |
-|시드니        | api.au-syd.cf.cloud.ibm.com  |
-| 도쿄         | api.jp-tok.cf.cloud.ibm.com  |
-| 워싱턴 DC | api.us-east.cf.cloud.ibm.com  |
+| 댈러스        |api.ng.bluemix.net      |
+|시드니        |api.au-syd.bluemix.net  |
+| 프랑크푸르트     |api.eu-de.bluemix.net   |
+| 런던        |api.eu-gb.bluemix.net   |
+| 워싱턴 DC |api.us-east.bluemix.net |
 {: caption="표 1. {{site.data.keyword.cloud_notm}} 위치 목록" caption-side="top"}
 
 인프라 리소스를 배치하는 경우 데이터가 있는 위치에 대한 더 많은 옵션이 있습니다. 위치를 선택하거나 {{site.data.keyword.Bluemix_notm}}에서 데이터 센터 목록으로부터 선택할 수 있습니다. 
@@ -175,12 +172,11 @@ ibmcloud api https://api.eu-gb.cf.cloud.ibm.com
 
 {{site.data.keyword.Bluemix_notm}}는 계정에 대한 크레딧을 받을 수 있도록 하는 {{site.data.keyword.Bluemix_notm}} 서비스에 대한 SLA를 제공합니다. SLA는 지정된 서비스 레벨을 충족하지 못한 {{site.data.keyword.Bluemix_notm}}의 오류를 해결하는 유일한 방법입니다. {{site.data.keyword.Bluemix_notm}}는 단일 데디케이티드 또는 로컬 환경 내에서 플랫폼 서비스의 여러 인스턴스에 대해 99.5% 가용성 서비스 레벨을 제공합니다.
 
-데디케이티드 환경에 대한 자세한 정보는 [IBM Cloud Dedicated](/docs/hybrid?topic=dedicated-dedicated)를 참조하고 로컬 환경에 대해서는 [Bluemix Local](/docs/hybrid?topic=local-local)을 참조하십시오.  
+전용 환경에 대한 자세한 정보는 [IBM Cloud Dedicated](/docs/dedicated/index.html#dedicated)를 참조하고 로컬 환경의 경우 [Bluemix Local](/docs/local/index.html#local)을 클릭하십시오. 
 
 {{site.data.keyword.Bluemix_notm}}에 대한 전체 서비스 설명은 [Cloud Services terms](http://www-03.ibm.com/software/sla/sladb.nsf/sla/bm){: new_window} ![외부 링크 아이콘](../icons/launch-glyph.svg "외부 링크 아이콘")에 있습니다.
 
 ### 가용성 중단 시간 SLA 
-{: #avail-downtime}
 
 99.5% 미만의 가용성으로 작동 중단이 발생하는 경우 계정에 대한 크레딧을 제공받을 수 있습니다. 가용성 중단 시간은 서비스 인스턴스에 연결할 수 없는 총 시간(분)입니다. 총 중단 시간(분)은 사용자가 가동 중단 이벤트에 대한 보고서를 제출할 때 시작되고 영향을 받는 인스턴스 중 하나 이상이 사용 가능하게 될 때 종료됩니다.
 
@@ -188,7 +184,7 @@ ibmcloud api https://api.eu-gb.cf.cloud.ibm.com
 - 각 서비스에 대한 카탈로그 세부사항에 설명된 대로 고가용성을 위해 구성된 퍼블릭 환경의 클라우드 서비스 
 - 지리적으로 분리된 데이터 센터에 있는 여러 데디케이티드 또는 로컬 환경의 클라우드 서비스 
 
-|유형	 |설명	 |지원 세부사항|
+|유형	                                                                        |설명	       |지원 세부사항|
 |-------------------------------------------------------------------------------|--------------------|----------------|
 |고가용성 퍼블릭 환경 또는 다중 데디케이티드/로컬 환경 |기타 환경 |크레딧         |
 | <99.95%                                                                       |<99.5%              |10%             |
@@ -211,7 +207,6 @@ ibmcloud api https://api.eu-gb.cf.cloud.ibm.com
 {: note}
 
 ### 인프라 서비스 SLA
-{: #iaas-slas}
 
 인프라 서비스는 Bare Metal Server, 가상 서버, 네트워킹, 스토리지 및 보안 서비스입니다. 인스라 서비스의 전체 목록을 찾으려면 `iaas` 태그를 사용하여 {{site.data.keyword.Bluemix_notm}} 카탈로그를 검색하십시오. 
 
@@ -220,8 +215,6 @@ ibmcloud api https://api.eu-gb.cf.cloud.ibm.com
 스케줄되거나 공지된 유지보수 시간은 중단 시간에 포함되지 않습니다. 30분 동안의 연속 중간 시간마다 가동 중단에 직접 영향을 받는 식별된 서비스에 대한 월별 요금의 5%에 해당하는 크레딧을 받습니다. 중단 시간이 연속 30분 미만이면 크레딧을 받을 수 있는 자격이 없습니다. 다른 가동 중단 유형의 중단 시간은 이 계산을 충족하기 위해 결합되지 않을 수 있습니다.
 
 ### 인프라 하드웨어 교체 및 업그레이드 SLA
-{: #hw-replaceupgrade-sla}
-
 {{site.data.keyword.Bluemix_notm}}에서는 고장난 하드웨어를 교체하거나 스케줄된 하드웨어 업그레이드를 수행할 때 작동 중단 시간을 최소화하려고 합니다. 
 
 {{site.data.keyword.Bluemix_notm}}에서는 다음에 대한 크레딧을 제공합니다.
@@ -242,8 +235,6 @@ ibmcloud api https://api.eu-gb.cf.cloud.ibm.com
 {: caption="표 7. 하드웨어 교체 또는 업그레이드에 영향을 받는 서비스에 대한 월별 요금을 기준으로 하는 크레딧" caption-side="top"}
 
 ### 청구
-{: #claims}
-
 서비스 레벨이 충족되지 못한 경우 약정 월의 말일로부터 60일 이내에 청구를 제출하십시오. 영향을 받은 서비스, 오류 메시지 및 청구의 유효성을 검증하는 데 필요한 기타 정보를 식별하기에 충분한 정보를 제공하십시오. 
 
 크레딧은 약정 월 동안 영향을 받은 서비스의 누적 가용성을 기준으로 적용 가능한 최대의 보상이며, 영향을 받은 서비스의 월별 요금을 사용하여 계산합니다. 크레딧은 월별 요금의 25%를 초과할 수 없습니다.
@@ -251,8 +242,6 @@ ibmcloud api https://api.eu-gb.cf.cloud.ibm.com
 작동 중단 시간에 대한 청구를 제출하려면 [{{site.data.keyword.Bluemix_notm}} 지원 센터 ](https://console.cloud.ibm.com/unifiedsupport/supportcenter){: new_window} ![외부 링크 아이콘](../icons/launch-glyph.svg "외부 링크 아이콘")에 문의하십시오.
 
 ### 제외사항
-{: #exclusions}
-
 다음과 같은 이유로 SLA를 충족하지 못하면 크레딧이 제공되지 않습니다.
 - 고객 또는 커뮤니티에서 제공한 컨텐츠, 기술, 디자인 또는 지시사항에 대한 문제점
 - 베타, 시범 또는 무료 클라우드 서비스
