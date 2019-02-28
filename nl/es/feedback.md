@@ -2,8 +2,8 @@
 
 
 copyright:
-  years: 2018
-lastupdated: "2018-09-04"
+  years: 2018, 2019
+lastupdated: "2019-02-18"
 
 ---
 
@@ -22,6 +22,7 @@ Queremos conocer su opinión. Puede enviar comentarios al equipo de {{site.data.
 * Enviar una idea para mejorar el producto, o un servicio específico en el portal de ideas de {{site.data.keyword.Bluemix_notm}}.
 
 ## Envío de un comentario con el botón de comentarios
+{: #feedback-button}
 
 Cuando lea una página de la documentación o complete una tarea de la consola, encontrará un botón de comentarios en el borde de la página. Pulse el botón **Comentarios** para enviar críticas positivas, una sugerencia o identificar un error.
 
@@ -35,6 +36,7 @@ Los bloqueos de publicidad comunes bloquean Usabilla y ocultan el botón **Comen
 {: tip}
 
 ## Proporcionar una actualización de contenido con una solicitud de extracción
+{: #feedback-pr}
 
 Puede enviar sugerencias de cambios a cualquier página de documentación utilizando el enlace **Editar en GitHub** en la parte superior de cada página. Si sigue el enlace y edita la página, puede enviar actualizaciones en una solicitud de extracción para que el equipo de contenido la revise y fusione. 
 
@@ -50,6 +52,7 @@ Complete el proceso siguiente para enviar una solicitud de extracción al equipo
 8. Seleccione **Crear solicitud de extracción**. 
 
 ## Apertura de una incidencia para la documentación
+{: #feedback-docissue}
 
 Puede abrir un problema para que el equipo de contenido lo solucione desde cualquier página de documentación. En el problema, proporcione detalles acerca de las mejoras que desea ver. Por ejemplo, puede indicar que los pasos de la página no coincidían con la interfaz de usuario mientras intentaba completar el procedimiento y que considera que el contenido tiene que actualizarse, o que deseaba ver información adicional sobre un tema específico en esa sección.
 

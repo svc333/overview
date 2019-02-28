@@ -2,9 +2,9 @@
 
 copyright:
 
-  years: 2017, 2018
+  years: 2017, 2019
 
-lastupdated: "2018-11-05"
+lastupdated: "2019-02-18"
 
 ---
 
@@ -24,6 +24,7 @@ La forma en que gestiona el acceso en {{site.data.keyword.Bluemix_notm}} depende
 Si tiene una combinación de tipos de recursos, gestiona cada tipo de forma separada. Para asignar el acceso a los [recursos de la infraestructura clásica](/docs/iam/infrastructureaccess.html#infrapermission), establezca los permisos en **Gestionar** > **Acceso (IAM)** en el separador Infraestructura clásica del usuario al que desea asignar el acceso. Para asignar acceso a los [recursos de Cloud Foundry](/docs/iam/cfaccess.html#cfaccess), asigne usuarios a organizaciones y establezca Cloud Foundry y los roles de acceso del espacio en **Gestionar** > **Acceso (IAM)** en el separador de Cloud Foundry del usuario al que desea asignarle el acceso.
 
 ## Permisos para gestionar el acceso
+{: #perms-manageaccess}
 
 Como propietario de una cuenta, puede gestionar el acceso a todos los recursos de su cuenta. También puede delegar la tarea de gestionar el acceso a los recursos de plataforma asignando el rol de administrador a un usuario en su cuenta para todos los servicios, solo un servicio en concreto o el grupo de recursos que desea que gestione el usuario.
 
@@ -31,6 +32,7 @@ Si tiene servicios de Cloud Foundry en su cuenta, puede asignar a otro usuario e
 
 
 ## Guía de inicio
+{: #cloudaccess-getstarted}
 
 Vaya a **Gestionar** &gt; **Acceso (IAM)** y seleccione **Usuarios** para empezar a gestionar el acceso de los usuarios de la cuenta. Seleccione un usuario de la lista para empezar. Solo ve las opciones de gestión de acceso que tiene permisos para gestionar. Por ejemplo, si no es el propietario de la cuenta y no es un gestor de organización o espacio, no ve la opción de gestionar el acceso de Cloud Foundry.
 

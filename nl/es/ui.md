@@ -2,8 +2,8 @@
 
 
 copyright:
-  years: 2015, 2018
-lastupdated: "2018-11-28"
+  years: 2015, 2019
+lastupdated: "2019-01-29"
 
 ---
 
@@ -35,12 +35,12 @@ Cuando inicia sesión en {{site.data.keyword.cloud_notm}}, la primera página qu
 
 Puede buscar recursos por nombre o etiqueta desde cualquier lugar en la consola de {{site.data.keyword.cloud_notm}} para obtener los recursos que espera encontrar en la lista de recursos. Escriba el nombre del recurso o la etiqueta en el campo de búsqueda de la barra de menús de la consola.
 
-Para obtener más información, consulte [Búsqueda de recursos](/docs/resources/searching.html#searching-for-resources). 
+Para obtener más información, consulte [Búsqueda de recursos](/docs/resources?topic=resources-searching-for-resources). 
 
 ## Gestión de recursos en la lista de recursos
 {: #dashboardview}
 
-Vaya al icono Menú ![icono Menú](../icons/icon_hamburger.svg) &gt; **Lista de recursos** para acceder a la lista de recursos de cuenta. Puede utilizar la lista de recursos para ver y trabajar con los recursos de {{site.data.keyword.cloud_notm}} y con las instancias de servicio de Cloud Foundry. Para obtener más información sobre los distintos tipos de recursos, consulte [¿Qué es un recurso?](/docs/resources/acct_resources.html#resource).
+Vaya al icono Menú ![icono Menú](../icons/icon_hamburger.svg) &gt; **Lista de recursos** para acceder a la lista de recursos de cuenta. Puede utilizar la lista de recursos para ver y trabajar con los recursos de {{site.data.keyword.cloud_notm}} y con las instancias de servicio de Cloud Foundry. Consulte [¿Qué es un recurso?](/docs/resources?topic=resources-resource) para obtener más información sobre los diferentes tipos de recurso.
 
 ### Visualización de recursos
 Puede ver todos los recursos de la cuenta en todas las regiones desde la lista de recursos. Para ver los elementos que son importantes para usted, filtre la lista con los filtros correspondientes a cada cabecera de columna. Por ejemplo, si desea visualizar y trabajar con recursos en una ubicación específica, expanda el filtro **Ubicación** y seleccione una ubicación de la lista.
@@ -49,7 +49,7 @@ Puede ver todos los recursos de la cuenta en todas las regiones desde la lista d
 Puede trabajar con los recursos de varias formas desde la lista de recursos:
 
   * Cada recurso se visualiza en su propia fila y se incluye un icono de Acciones ![Icono de Más acciones](../icons/action-menu-icon.svg) al final de la fila. Pulse el icono Acciones ![Icono de Más acciones](../icons/action-menu-icon.svg) para iniciar, detener, renombrar o suprimir un recurso.
-  * Para configurar credenciales o conexiones para un recurso, pulse el nombre del recurso para navegar a la página de detalles del recurso. Luego, pulse **Credenciales de servicio** o **Conexiones**. Para obtener más información, consulte [Adición de una credencial](/docs/resources/service_credentials.html) y [Gestión de conexiones](/docs/resources/connecting_apps.html#connect_app).
+  * Para configurar credenciales o conexiones para un recurso, pulse el nombre del recurso para navegar a la página de detalles del recurso. Luego, pulse **Credenciales de servicio** o **Conexiones**. Para obtener más información, consulte [Adición de una credencial](/docs/resources?topic=resources-service_credentials) y [Gestión de conexiones](/docs/resources?topic=resources-connect_app).
 
 
 ## Cómo trabajar en el catálogo

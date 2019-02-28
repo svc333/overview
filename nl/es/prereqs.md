@@ -2,8 +2,8 @@
 
 
 copyright:
-  years: 2016, 2018
-lastupdated: "2018-11-28"
+  years: 2016, 2019
+lastupdated: "2019-01-24"
 
 ---
 
@@ -12,13 +12,13 @@ lastupdated: "2018-11-28"
 {:new_window: target="_blank"}
 
 # Requisitos previos
-{: #prereqs}
+{: #prereqs-platform}
 
 Los requisitos previos para utilizar la plataforma de {{site.data.keyword.Bluemix_notm}} son limitados, pero tenemos algunos.
 {:shortdesc}
 
 ## Navegadores
-{: #browsers}
+{: #browsers-platform}
 
 La lista siguiente especifica el software de navegador mínimo requerido para {{site.data.keyword.Bluemix_notm}}:
 
@@ -31,7 +31,7 @@ Extended Support Release](https://www.mozilla.org/firefox/organizations/){: new_
 Puede notificar problemas sobre Internet Explorer 11 con el botón **Comentarios**.
 {:note}
 
-## Interfaz de la línea de mandatos (CLI)
-{: #cli}
+## Interfaz de línea de mandatos (CLI)
+{: #cli-platform}
 
-La CLI de {{site.data.keyword.Bluemix_notm}} cambia constantemente, por lo que se recomienda que visite la página [Instalación de la CLI de {{site.data.keyword.Bluemix_notm}} autónoma](/docs/cli/reference/ibmcloud/download_cli.html), que siempre incluye la última versión para descargar e instalar.
+La CLI de {{site.data.keyword.Bluemix_notm}} cambia constantemente, por lo que se recomienda que visite la página [Instalación de la CLI de {{site.data.keyword.Bluemix_notm}} autónoma](/cli/reference/ibmcloud/cloud-cli-install_use), que siempre incluye la última versión de la CLI.

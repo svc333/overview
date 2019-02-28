@@ -3,8 +3,8 @@
 
 
 copyright:
-  years: 2018
-lastupdated: "2018-11-30"
+  years: 2018, 2019
+lastupdated: "2019-02-18"
 
 
 ---
@@ -13,11 +13,13 @@ lastupdated: "2018-11-30"
 {:new_window: target="_blank"}
 
 # Funciones de accesibilidad de {{site.data.keyword.Bluemix_notm}}
+{: #accessibility-platform}
 
 Las funciones de accesibilidad ayudan a aquellos usuarios que tienen una discapacidad, como por ejemplo, movilidad reducida o poca visión a utilizar productos tecnológicos de información de forma satisfactoria.
 {:shortdesc}
 
 ## Funciones de accesibilidad
+{: #features-platform}
 
 {{site.data.keyword.Bluemix_notm}} incluye las siguientes funciones de accesibilidad principales:
 
@@ -30,6 +32,7 @@ La accesibilidad a la documentación del producto en línea de {{site.data.keywo
 
 
 ## Información sobre las interfaces
+{: #interface-info}
  
 Revise la información siguiente sobre la interfaz de usuario de {{site.data.keyword.Bluemix_notm}}:
 
@@ -44,6 +47,7 @@ funcionales de la aplicación.
 
 
 ## Información relacionada con la accesibilidad
+{: #related-info}
 
 El estado de conformidad de accesibilidad de la interfaz de usuario de web de {{site.data.keyword.Bluemix_notm}} es específicamente para la plataforma del producto {{site.data.keyword.Bluemix_notm}}. Hay subsecciones de la interfaz de usuario que son propiedad de productos o servicios de terceros que alojan contenido dentro de la plataforma, para la que el registro de conformidad de {{site.data.keyword.Bluemix_notm}} no mantiene ni es propietario del estado de conformidad de accesibilidad. Esto significa que si accede a cualquier interfaz de usuario o documentación para un servicio, debe solicitar las sentencias de conformidad para dicho servicio. Por ejemplo, si está utilizando una interfaz para IBM Containers, la consola de administración de un entorno local o dedicado, o un servicio IoT, debe solicitar [información de accesibilidad del producto![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](http://www-03.ibm.com/able/product_accessibility/index.html){: new_window} para dicha interfaz o documentación.
 
@@ -56,5 +60,6 @@ Servicio de teletipo
 (en Norteamérica)
 
 ## IBM y la accesibilidad
+{: #accessibility-ibm}
 
 Para obtener más información acerca del compromiso que IBM tiene con la accesibilidad, consulte [Accesibilidad de IBM ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](http://www.ibm.com/able){: new_window}.
