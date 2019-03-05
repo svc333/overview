@@ -2,7 +2,7 @@
 
 copyright:
   years: 2016, 2019
-lastupdated: "2019-01-03"
+lastupdated: "2019-02-19"
 
 ---
 {:new_window: target="_blank"}
@@ -29,8 +29,8 @@ lastupdated: "2019-01-03"
 * 查看及管理從入門範本套件自動佈建的資源，或您手動新增至應用程式的資源。
 * 如果您在現有儲存庫中已有應用程式，則可以使用空白的入門範本套件來建立應用程式記錄，並將它連接至原始碼儲存庫及 DevOps 工具鏈。
 * 使用可攜式應用程式碼，您可以部署至各種雲端環境。
-* 按幾下滑鼠，建立 [DevOps 工具鏈](../services/ContinuousDelivery/index.html#cd_getting_started)。
-* 使用[指令行介面](/docs/cli/index.html#overview)進行本端開發。
+* 按幾下滑鼠，建立 [DevOps 工具鏈](/docs/services/ContinuousDelivery?topic=ContinuousDelivery-cd_getting_started)。
+* 使用[指令行介面 (CLI)](/docs/cli/reference/ibmcloud?topic=cloud-cli-ibmcloud-cli#ibmcloud-cli) 進行本端開發。
 * 瀏覽或搜尋 [{{site.data.keyword.cloud_notm}} 型錄 ![外部鏈結圖示](../icons/launch-glyph.svg "外部鏈結圖示")](https://{DomainName}/catalog){: new_window} 中的應用程式及服務，您可以立即建立並開始使用。
 
 ![開發人員體驗概觀](images/dev-journey.png "開發人員體驗概觀")
@@ -68,10 +68,10 @@ lastupdated: "2019-01-03"
 ### 入門範本套件與範例有什麼不同？
 入門範本套件可正式作業，並聚焦在使用一種運行環境（例如 Node.js 及 Express）來示範重要的型樣實作。在某些情況下，入門範本套件提供簡單的使用者體驗，以突顯服務的整合。在其他情況下，入門範本套件代表了精密使用案例的可自訂實作。
 
-* **Snippet** 是幾行經常呈現在 IDE 中的程式碼。Snippet 可協助開發人員與程式設計語言語法整合，或支援與已定義好的 API 整合。
-* **示範**通常具有高品質及高準確性，並使用某個範圍的服務及整合點。它通常需要設定時間，並用來證明商業問題或示範平台特性。您可以用它來評估雲端採用的各個階段。有時候它是內含在正式作業程式碼中的程式碼。
-* **範例**是特定特性、功能、服務或使用者旅程的小型範例。您可以重複使用範例，或將它包含在正式作業應用程式中。它通常用來顯示技術功能，以及解決技術問題的可能方法。
-* **入門範本套件**是可正式作業的型樣，可以和一組服務整合，以產生可直接部署至 DevOps 管線及 Kubernetes 叢集的可正式作業資產。入門範本套件包含敘述性的 meta 資料，可提供足夠的資訊讓使用者瞭解套件為何及其用途。它也包含告知 {{site.data.keyword.cloud_notm}} 應產生內容的指示。現成的輸出即可正式作業，而且可以根據 IBM 最佳作法反覆地執行，以便做進一步的加強。入門範本套件內容不像示範這麼複雜，也不像 Snippet 或範例那麼簡單。它們是根據開發人員的需求而動態建立。
+* Snippet 是幾行經常呈現在 IDE 中的程式碼。Snippet 可協助開發人員與程式設計語言語法整合，或支援與已定義好的 API 整合。
+* 示範通常具有高品質及高準確性，並使用某個範圍的服務及整合點。它通常需要設定時間，並用來證明商業問題或示範平台特性。您可以用它來評估雲端採用的各個階段。有時候它是內含在正式作業程式碼中的程式碼。
+* 範例是特定特性、功能、服務或使用者旅程的小型範例。您可以重複使用範例，或將它包含在正式作業應用程式中。它通常用來顯示技術功能，以及解決技術問題的可能方法。
+* 入門範本套件是可正式作業的型樣，可以和一組服務整合，以產生可直接部署至 DevOps 管線及 Kubernetes 叢集的可正式作業資產。入門範本套件包含敘述性的 meta 資料，可提供足夠的資訊讓使用者瞭解套件為何及其用途。它也包含告知 {{site.data.keyword.cloud_notm}} 應產生內容的指示。現成的輸出即可正式作業，而且可以根據 IBM 最佳作法反覆地執行，以便做進一步的加強。入門範本套件內容不像示範這麼複雜，也不像 Snippet 或範例那麼簡單。它們是根據開發人員的需求而動態建立。
 
 ## 自動佈建的資源
 {: #auto-provision}
@@ -83,9 +83,10 @@ lastupdated: "2019-01-03"
 
 從入門範本套件建立應用程式，會為您自動建立具有一致格式且不依賴運行環境的程式碼。您可以將程式碼部署至您選擇的環境（例如 Kubernetes 或 Cloud Foundry），而不必進行變更。
 
-您可以在應用程式的**應用程式詳細資料**頁面上，按一下**下載程式碼**，快速查看應用程式碼。您的程式碼會下載為包含完整應用程式碼結構的 `.zip` 檔案。您可以使用 {{site.data.keyword.dev_cli_notm}} 輕鬆地在本端解壓縮檔案並執行程式碼，或將其新增至程式碼管理儲存庫。
+您可以在應用程式的「應用程式詳細資料」頁面上按一下**下載程式碼**，以快速查看應用程式碼。您的程式碼會下載為包含完整應用程式碼結構的 `.zip` 檔案。您可以使用 {{site.data.keyword.dev_cli_notm}} 輕鬆地在本端解壓縮檔案並執行程式碼，或將其新增至程式碼管理儲存庫。
 
 ### 會建立什麼程式碼？
+{: #what-code}
 
 當您直接建立應用程式，或借助入門範本套件建立應用程式時，應用程式會包含可攜式程式碼。可攜式程式碼包含適用於多個雲端環境的雲端啟用程式碼。接著，您便可以產生四個基礎領域的程式碼：
 * 遵循特定語言最佳作法的程式碼
@@ -95,10 +96,10 @@ lastupdated: "2019-01-03"
 
 產生這些元件可為您節省寶貴的時間，並確保您使用同級最佳的架構。
 
-* **使用案例邏輯**會為特定使用案例的核心功能提供適用的功能。範例可能是 Watson Conversation 聊天機器人的程式碼，或行動視覺辨識應用程式的程式碼。
-* **語言元件**是您為入門範本套件選取之程式設計語言特有的程式碼元件及檔案。例如，node.js 程式設計師需要 package.json 檔案以便進行相依關係管理，而這個檔案會自動為您建立。
-* **服務啟用**是讓您的應用程式能連接至並使用所新增服務的程式碼。認證管理、起始設定程式碼及服務特定 SDK，全都是服務啟用項目的範例。
-* **雲端啟用**是讓您的應用程式能在 {{site.data.keyword.cloud_notm}} 上執行的程式碼。例如，可讓您的應用程式在 {{site.data.keyword.cloud_notm}} Kubernetes 叢集上執行的 Helm 圖表。
+* 使用案例邏輯會為特定使用案例的核心功能提供適用的功能。範例可能是 Watson Conversation 聊天機器人的程式碼，或行動視覺辨識應用程式的程式碼。
+* 語言元件是您為入門範本套件選取之程式設計語言特有的程式碼元件及檔案。例如，node.js 程式設計師需要 package.json 檔案以便進行相依關係管理，而這個檔案會自動為您建立。
+* 服務啟用是讓您的應用程式能連接至所新增服務並加以使用的程式碼。認證管理、起始設定程式碼及服務特定 SDK，全都是服務啟用項目的範例。
+* 雲端啟用是讓您的應用程式能在 {{site.data.keyword.cloud_notm}} 上執行的程式碼。例如，可讓您的應用程式在 {{site.data.keyword.cloud_notm}} Kubernetes 叢集上執行的 Helm 圖表。
 
 當您從 {{site.data.keyword.cloud_notm}} 入門範本套件建立應用程式時，您的應用程式會從已經過驗證的架構開始，此架構也會反映所選語言的最佳作法。
 
@@ -110,7 +111,7 @@ lastupdated: "2019-01-03"
 
 如果您在現有儲存庫中已有應用程式，則可以使用空白的入門範本套件在 {{site.data.keyword.cloud_notm}} 中建立應用程式記錄，並將該應用程式連接至原始碼儲存庫及 DevOps 工具鏈。
 
-您可以從 {{site.data.keyword.cloud_notm}} 儀表板或從任何空白入門範本套件開始。在您命名應用程式並選取資源群組之後，請選取[**自帶程式碼**](/docs/apps/tutorials/tutorial_byoc.html)起始點、提供包含程式碼的 Git 儲存庫 URL，然後按一下**建立**。
+您可以從 {{site.data.keyword.cloud_notm}} 儀表板或從任何空白入門範本套件開始。在您命名應用程式並選取資源群組之後，請選取[**自帶程式碼**](/docs/apps/tutorials?topic=creating-apps-tutorial-byoc#tutorial-byoc)起始點、提供包含程式碼的 Git 儲存庫 URL，然後按一下**建立**。
 
 您可以連接現有的 DevOps 工具鏈或建立一個工具鏈，並持續將您的應用程式交付至所選擇的環境，例如 Kubernetes 或 Cloud Foundry。
 
@@ -120,7 +121,7 @@ lastupdated: "2019-01-03"
 
 DevOps 工具鏈包含用於存取、開發、部署及操作應用程式的程序及工具。DevOps 工具鏈是一組已鏈結的服務，可自動執行您的 DevOps 作業。您可以使用簡單的應用程式手動執行 DevOps，但自動化需求會隨著應用程式複雜性增加而快速增加，因此工具鏈自動化成為持續交付的必備項目。
 
-DevOps 工具鏈的核心元件是 GitHub 這類的程式碼版本控制儲存庫。其他工具可能包括待辦事項追蹤、交付管線、IDE 及監視服務（例如 [{{site.data.keyword.cloud_notm}} {{site.data.keyword.DRA_short}}](/docs/services/DevOpsInsights/index.html#gettingstarted)）。
+DevOps 工具鏈的核心元件是 GitHub 這類的程式碼版本控制儲存庫。其他工具可能包括待辦事項追蹤、交付管線、IDE 及監視服務（例如 [{{site.data.keyword.cloud_notm}} {{site.data.keyword.DRA_short}}](/docs/services/DevOpsInsights?topic=DevOpsInsights-getting-started#getting-started)）。
 
 如果您使用入門範本套件來建立應用程式，則可建立新的工具鏈，並且只要在**應用程詳細資料**頁面上按一下**部署至雲端**，即可部署應用程式。會建立具有程式碼儲存庫、問題儲存庫、交付管線及 Web IDE 的工具鏈。
 
@@ -129,17 +130,17 @@ DevOps 工具鏈的核心元件是 GitHub 這類的程式碼版本控制儲存�
 ![持續交付](images/garage_continuous_delivery2.png "開發人員體驗會將持續交付設定進入開發分支")
 
 
-## 指令行介面
+## CLI
 {: cli}
 
-使用指令行介面，在本端撰寫程式碼、建置及執行應用程式。常見的作業模式是從 {{site.data.keyword.cloud_notm}} 主控台的開發人員入口網站建立應用程式、使用開發人員工具在本端開發，然後將更新推送至儲存庫，並合併以啟動部署工具鏈。
+使用指令行介面 (CLI)，在本端撰寫應用程式程式碼、建置及執行應用程式。常見的作業模式是從 {{site.data.keyword.cloud_notm}} 主控台的開發人員入口網站建立應用程式、使用開發人員工具在本端開發，然後將更新推送至儲存庫，並合併以啟動部署工具鏈。
 
 ## Garage Method 開發
 {: #developer_concepts}
 
-如果您要尋找一個可以實驗大型構想和新興技術的地方，請務必參閱 [Garage Method ](https://www.ibm.com/cloud/garage/){: new_window}![外部鏈結圖示](../icons/launch-glyph.svg "外部鏈結圖示") 部署。您可以瞭解 IBM 如何協助您在組織中開發應用程式。
+如果您要尋找一個可以實驗大型構想和新興技術的地方，請務必參閱 [Garage Method](https://www.ibm.com/cloud/garage/){: new_window} ![外部鏈結圖示](../icons/launch-glyph.svg "外部鏈結圖示") 部署。您可以瞭解 IBM 如何協助您在組織中開發應用程式。
 
-![Garage Method 階段概觀](images/garage_phases_overview2.png "Garage Method 階段概觀") *Garage Method 階段概觀*
+![Garage Method 階段概觀](images/garage_phases_overview2.png "Garage Method 階段概觀") 
 
 {{site.data.keyword.cloud_notm}} 可協助您使用 Garage Method 或偏好的任何方法來產生成功的企業級正式作業應用程式。為了更充分瞭解 {{site.data.keyword.cloud_notm}} 為開發人員提供的內容，讓我們很快地看一下建置現代應用程式所需的技能。
 
@@ -150,12 +151,12 @@ DevOps 工具鏈的核心元件是 GitHub 這類的程式碼版本控制儲存�
 
  ![開發人員類型](images/developer_skills.png "開發人員關係")
 
-* **數位開發人員**針對特定數位頻道（例如行動 Web、語音及會談）而編寫。數位開發人員通常著重於使用案例，並且直接符合使用者需求作為綜合性體驗。
-* **雲端原生開發人員**專門建構及交互連接雲端元件。微服務及 Backend for Frontend 的作者便屬於這個種類。
-* **串流開發人員**著重在處理資料串流並從中取得見解。例如，串流開發人員可能會分析送入的文字、語音或視訊串流，並對其起始動作。
-* **資料科學家**使用分析及機器學習來產生預測模型。這些模型用於商業度量值，並為應用程式使用者提供深入見解。
-* **DevOps 專家**是解決部署及工具鏈問題方面的專家。對於簡單的應用程式，通常不需要專門的專家，因為開發團隊成員會與小組一起管理 DevOps。但對於具有許多相依關係的複雜企業應用程式，DevOps 專家對於讓您的正式作業應用程式順暢執行而言就十分重要。
+* 數位開發人員針對特定數位頻道（例如行動 Web、語音及會談）而編寫。數位開發人員通常著重於使用案例，並且直接符合使用者需求作為綜合性體驗。
+* 雲端原生開發人員專門建構及交互連接雲端元件。微服務及 Backend for Frontend 的作者便屬於這個種類。
+* 串流開發人員著重在處理資料串流並從中取得見解。例如，串流開發人員可能會分析送入的文字、語音或視訊串流，並對其起始動作。
+* 資料科學家使用分析及機器學習來產生預測模型。這些模型用於商業度量值，並為應用程式使用者提供深入見解。
+* DevOps 專家是解決部署及工具鏈問題方面的專家。對於簡單的應用程式，通常不需要專門的專家，因為開發團隊成員會與小組一起管理 DevOps。但對於具有許多相依關係的複雜企業應用程式，DevOps 專家對於讓您的正式作業應用程式順暢執行而言就十分重要。
 
-{{site.data.keyword.cloud_notm}} 內建的開發人員功能會以這些技術集為準，並容許您的團隊使用一個平台來產生、提供、執行及管理應用程式。例如，建立行動應用程式的數位開發人員可能使用 {{site.data.keyword.cloud_notm}} [Mobile 開發人員入口網站](https://{DomainName}/developer/mobile/dashboard){: new_window} ![外部鏈結圖示](../icons/launch-glyph.svg "外部鏈結圖示")。認知應用程式建置者可能使用 [Watson 開發人員入口網站](https://{DomainName}/developer/watson/dashboard){: new_window} ![外部鏈結圖示](../icons/launch-glyph.svg "外部鏈結圖示") 以及 [Watson Studio](https://{DomainName}/catalog/services/watson-studio){: new_window} ![外部鏈結圖示](../icons/launch-glyph.svg "外部鏈結圖示")。串流開發人員可以使用 [IBM Real-Time Analytics](/docs/services/StreamingAnalytics/index.html)。[{{site.data.keyword.cloud_notm}} Continuous Delivery 服務](/docs/services/ContinuousDelivery/index.html)簡化了 DevOps 專家的工作。
+{{site.data.keyword.cloud_notm}} 內建的開發人員功能會以這些技術集為準，並容許您的團隊使用一個平台來產生、提供、執行及管理應用程式。例如，建立行動應用程式的數位開發人員可能使用 {{site.data.keyword.cloud_notm}} [Mobile 開發人員入口網站](https://{DomainName}/developer/mobile/dashboard){: new_window} ![外部鏈結圖示](../icons/launch-glyph.svg "外部鏈結圖示")。認知應用程式建置者可能使用 [Watson 開發人員入口網站](https://{DomainName}/developer/watson/dashboard){: new_window} ![外部鏈結圖示](../icons/launch-glyph.svg "外部鏈結圖示") 以及 [Watson Studio](https://{DomainName}/catalog/services/watson-studio){: new_window} ![外部鏈結圖示](../icons/launch-glyph.svg "外部鏈結圖示")。串流開發人員可以使用 [IBM Real-Time Analytics](/docs/services/StreamingAnalytics/index.html)。[{{site.data.keyword.cloud_notm}} Continuous Delivery 服務](/docs/services/ContinuousDelivery?topic=ContinuousDelivery-cd_getting_started)簡化了 DevOps 專家的工作。
 
-[準備好要開始建置高品質、可正式作業的應用程式了嗎？](/docs/apps/tutorials/tutorial_web.html)
+[準備好要開始建置高品質、可正式作業的應用程式了嗎？](/docs/apps/tutorials?topic=creating-apps-tutorial-getting-started#tutorial-getting-started)

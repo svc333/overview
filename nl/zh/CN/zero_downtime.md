@@ -1,10 +1,10 @@
 ---
 
 copyright:
+  years: 2018, 2019
+lastupdated: "2019-02-07"
 
-  years: 2018
-
-lastupdated: "2018-11-28"
+metadata: HA,failover,DR 
 
 ---
 
@@ -33,6 +33,7 @@ lastupdated: "2018-11-28"
 灾难恢复是指如何在一个位置发生灾难性故障或不可用时进行恢复。为确保落实灾难恢复，必须在多个位置部署多个 {{site.data.keyword.Bluemix_notm}} 环境，从而避免单点故障。这些环境可以是 Public、Dedicated 或 Local 平台的组合。  
 
 ### 灾难恢复计划 
+{: #dr-plan}
 
 {{site.data.keyword.Bluemix_notm}} 遵循灾难规划的需求，每个应用程序都有一个计划可供您在发生灾难事件后恢复或重新启动。恢复是通过恢复中心的电子备份或用于恢复计算的备用计算设施来实现的。灾难恢复计划包含在发生任何潜在灾难之前，针对硬件、软件、网络连接和非现场备份功能的系统和托管需求。
 
@@ -41,10 +42,11 @@ lastupdated: "2018-11-28"
 - 对于负载均衡，有一个文档用于说明计算服务如何保持可用。 
 - 如果执行多站点故障转移，那么灾难恢复计划必须说明由谁执行哪些操作来实现故障转移并确保重新启动。 
 - 灾难恢复计划必须定义解决方案如何运作以及定义数据丢失。 
-- 必须确认如何满足“最长可容忍停机时间”并将其存储在灾难恢复计划 Rep 数据库中。  
+- 必须确认如何满足“最长可容忍停机时间”并将其存储在灾难恢复计划数据库中。  
 - 灾难恢复计划指定对在灾难方式下运行（如果运行的内容不同于生产环境中运行的内容）的安全控制措施。 
 
 ### 管理灾难恢复计划 
+{: #dr-plan-mgmt}
 
 {{site.data.keyword.Bluemix}} 遵循的需求包括： 
 
@@ -56,7 +58,7 @@ lastupdated: "2018-11-28"
 
 您可以在不同位置创建应用程序和服务实例，而使用相同的 {{site.data.keyword.cloud_notm}} 基础架构来管理应用程序，以及使用相同的使用情况详细信息视图来进行计费。您可以将应用程序部署至离客户最近的位置，以实现最短应用程序等待时间。 
 
-要解决安全问题，还可选择希望在其中保留应用程序数据的位置。如果在多个位置构建应用程序，那么当一个位置变为不可用时，其他位置的应用程序会继续运行。您的资源限额对于您使用的每个位置都是相同的。有关平台资源及其可用位置的更多信息，请参阅[服务可用性](/docs/resources/services_region.html#services_region)。
+要解决安全问题，还可选择希望在其中保留应用程序数据的位置。如果在多个位置构建应用程序，那么当一个位置变为不可用时，其他位置的应用程序会继续运行。您的资源限额对于您使用的每个位置都是相同的。有关平台资源及其可用位置的更多信息，请参阅[服务可用性](docs/resources?topic=resources-services_region)。
 
 {{site.data.keyword.cloud_notm}} 控制台的全局负载均衡可确保如果您最接近的地理位置不可用，那么控制台将显示下一个最接近位置的信息。这样一来，您无需执行任何操作就可始终访问控制台，从而访问您所需的资源。
 
@@ -65,18 +67,19 @@ lastupdated: "2018-11-28"
 您还可以使用命令行界面 (CLI)，通过 `ibmcloud api` 命令并指定要使用的 {{site.data.keyword.cloud_notm}} 位置的 API 端点来连接到该位置。例如，输入以下命令来连接到 {{site.data.keyword.cloud_notm}} 伦敦：
 
 ```
-ibmcloud api https://api.eu-gb.bluemix.net
+ibmcloud api https://api.eu-gb.cf.cloud.ibm.com
 ```
 
 每个位置都有一个分配的唯一前缀。{{site.data.keyword.cloud_notm}} 提供了以下位置和位置前缀。
 
 | **位置** | **API 端点** |
 |---------------|-------------------------|
-|达拉斯|api.ng.bluemix.net|
-|悉尼|api.au-syd.bluemix.net|
-| 法兰克福|api.eu-de.bluemix.net|
-|伦敦|api.eu-gb.bluemix.net|
-|华盛顿特区|api.us-east.bluemix.net|
+|达拉斯|api.us-south.cf.cloud.ibm.com|
+| 法兰克福|api.eu-de.cf.cloud.ibm.com|
+|伦敦|api.eu-gb.cf.cloud.ibm.com|
+|悉尼|api.au-syd.cf.cloud.ibm.com|
+|东京|api.jp-tok.cf.cloud.ibm.com|
+|华盛顿特区|api.us-east.cf.cloud.ibm.com|
 {: caption="表 1. {{site.data.keyword.cloud_notm}} 位置列表" caption-side="top"}
 
 部署基础架构资源时，您对数据的存储位置拥有更多选择。您可以选择一个位置，也可以从 {{site.data.keyword.Bluemix_notm}} 的数据中心列表中进行选择。 
@@ -172,11 +175,12 @@ ibmcloud api https://api.eu-gb.bluemix.net
 
 {{site.data.keyword.Bluemix_notm}} 为 {{site.data.keyword.Bluemix_notm}} 服务提供了 SLA，因此您可能有资格获得发至您帐户的信用值。SLA 是解决 {{site.data.keyword.Bluemix_notm}} 无法满足指定服务级别的问题的唯一方法。{{site.data.keyword.Bluemix_notm}} 为单个专用或本地环境中的平台服务的多个实例提供 99.5% 的可用性服务级别。
 
-有关专用环境的更多信息，请参阅 [IBM Cloud Dedicated](/docs/dedicated/index.html#dedicated)，对于本地环境，请单击 [Bluemix Local](/docs/local/index.html#local)。 
+有关专用环境的更多信息，请参阅 [IBM Cloud Dedicated](/docs/hybrid?topic=dedicated-dedicated)；有关本地环境的更多信息，请参阅 [Bluemix Local](/docs/hybrid?topic=local-local)。 
 
 {{site.data.keyword.Bluemix_notm}} 的完整服务描述在 [Cloud Services terms](http://www-03.ibm.com/software/sla/sladb.nsf/sla/bm){: new_window} ![外部链接图标](../icons/launch-glyph.svg "外部链接图标") 上提供。
 
 ### 可用性停机时间 SLA
+{: #avail-downtime}
 
 如果停机时间低于 99.5% 的可用性，那么您有资格获得发至您帐户的信用值。可用性停机时间是指无法连接到任何服务实例的总分钟数。总停机时间（分钟）从提交中断事件报告起算，到至少一个受影响的实例可供使用时为止。
 
@@ -207,6 +211,7 @@ SLA 不包含与指定的排除项相关的停机时间或故障时间、{{site.
 {: note}
 
 ### 基础架构服务 SLA
+{: #iaas-slas}
 
 基础架构服务包括裸机和虚拟服务器服务、联网服务、存储服务和安全服务。要查找基础架构服务的完整列表，请使用 `iaas` 标记搜索 {{site.data.keyword.Bluemix_notm}}“目录”。 
 
@@ -215,6 +220,8 @@ SLA 不包含与指定的排除项相关的停机时间或故障时间、{{site.
 停机时间不包括执行安排的维护或通知的维护的时间。对于每个连续的 30 分钟停机时间，您将获取金额为中断直接影响的所确定服务每月费用 5% 的信用值。如果停机时间短于连续的 30 分钟，那么您没有资格获得信用值。可能不会组合不同中断类型的停机时间以满足此计算方式。
 
 ### 基础架构硬件更换和升级 SLA
+{: #hw-replaceupgrade-sla}
+
 {{site.data.keyword.Bluemix_notm}} 在更换发生故障的硬件时或执行安排的硬件升级时，会尽量缩短停机时间。 
 
 {{site.data.keyword.Bluemix_notm}} 针对以下情况提供信用值：
@@ -235,6 +242,8 @@ SLA 不包含与指定的排除项相关的停机时间或故障时间、{{site.
 {: caption="表 7. 信用值根据硬件更换或升级所影响服务的每月费用计算" caption-side="top"}
 
 ### 索赔
+{: #claims}
+
 您应在未满足服务级别的合约月份结束后 60 天内提交索赔。请提供用于确定受影响服务的足够信息、错误消息和验证索赔所需的其他信息。 
 
 信用值是根据合约月份内受影响服务的累积可用性确定的最高适用赔偿，使用此受影响服务的每月费用进行计算。信用值不得超过每月费用的 25%。
@@ -242,6 +251,8 @@ SLA 不包含与指定的排除项相关的停机时间或故障时间、{{site.
 要提交对停机时间的索赔，请联系 [{{site.data.keyword.Bluemix_notm}} 支持人员 ](https://console.cloud.ibm.com/unifiedsupport/supportcenter){: new_window}![外部链接图标](../icons/launch-glyph.svg "外部链接图标")。
 
 ### 排除项
+{: #exclusions}
+
 出于以下原因，不会因无法满足 SLA 而提供信用值：
 - 与客户或社区提供的内容、技术、设计或指示信息相关的问题
 - Beta、试验性或免费云服务

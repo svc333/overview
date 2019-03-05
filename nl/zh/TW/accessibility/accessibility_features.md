@@ -3,8 +3,8 @@
 
 
 copyright:
-  years: 2018
-lastupdated: "2018-11-30"
+  years: 2018, 2019
+lastupdated: "2019-02-18"
 
 
 ---
@@ -13,11 +13,13 @@ lastupdated: "2018-11-30"
 {:new_window: target="_blank"}
 
 # {{site.data.keyword.Bluemix_notm}} 的協助工具特性
+{: #accessibility-platform}
 
 協助工具特性能協助失能的使用者（例如行動受限或視力受限）順利地使用資訊技術內容。
 {:shortdesc}
 
 ## 協助工具特性
+{: #features-platform}
 
 {{site.data.keyword.Bluemix_notm}} 包含下列主要協助工具特性：
 
@@ -30,6 +32,7 @@ lastupdated: "2018-11-30"
 
 
 ## 介面資訊
+{: #interface-info}
  
 請檢閱關於 {{site.data.keyword.Bluemix_notm}} 使用者介面的下列資訊：
 
@@ -40,6 +43,7 @@ lastupdated: "2018-11-30"
 
 
 ## 相關的協助工具資訊
+{: #related-info}
 
 {{site.data.keyword.Bluemix_notm}} Web 使用者介面協助工具遵循狀態是專門針對 {{site.data.keyword.Bluemix_notm}} 產品平台。使用者介面中有些子區段是由協力廠商產品或服務所擁有，其內容在平台內管理，對此 {{site.data.keyword.Bluemix_notm}} 遵循記錄並未維護或擁有協助工具遵循狀態。亦即，如果您存取服務的任何使用者介面或文件，您必須要求該服務的遵循聲明。例如，如果您使用 IBM Containers、本端或專用環境的管理主控台，或 IoT 服務等的介面，您必須要求該介面或文件的[產品協助工具資訊 ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](http://www-03.ibm.com/able/product_accessibility/index.html){: new_window}。
 
@@ -52,5 +56,6 @@ TTY 服務
 （在北美地區內）
 
 ## IBM 與協助工具
+{: #accessibility-ibm}
 
 如需 IBM 對協助工具之承諾的相關資訊，請參閱 [IBM 協助工具 ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](http://www.ibm.com/able){: new_window}。

@@ -3,8 +3,8 @@
 
 
 copyright:
-  years: 2018
-lastupdated: "2018-11-30"
+  years: 2018, 2019
+lastupdated: "2019-02-18"
 
 
 ---
@@ -13,11 +13,13 @@ lastupdated: "2018-11-30"
 {:new_window: target="_blank"}
 
 # {{site.data.keyword.Bluemix_notm}} 的辅助功能
+{: #accessibility-platform}
 
 辅助功能旨在帮助身体有残疾的用户（如行动不便或视力受限）成功使用信息技术内容。
 {:shortdesc}
 
 ## 辅助功能选项功能
+{: #features-platform}
 
 {{site.data.keyword.Bluemix_notm}} 包含以下主要辅助功能选项功能：
 
@@ -30,6 +32,7 @@ lastupdated: "2018-11-30"
 
 
 ## 界面信息
+{: #interface-info}
  
 复查 {{site.data.keyword.Bluemix_notm}} 用户界面的以下信息：
 
@@ -40,6 +43,7 @@ lastupdated: "2018-11-30"
 
 
 ## 辅助功能选项相关信息
+{: #related-info}
 
 {{site.data.keyword.Bluemix_notm}} Web 用户界面辅助功能选项合规性状态专用于 {{site.data.keyword.Bluemix_notm}} 产品平台。在用户界面中存在由第三方产品或服务所有的子部分，这些产品和服务在平台中托管内容，而 {{site.data.keyword.Bluemix_notm}} 合规性记录不会为该平台维护或拥有辅助功能选项合规性状态。这表示如果您访问服务的任何用户界面或文档，您必须为该服务请求合规性声明。例如，如果您使用 IBM Containers 的界面、本地或专用环境的管理控制台或者 IoT 服务，那么您必须为该界面或文档请求[产品辅助功能信息 ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](http://www-03.ibm.com/able/product_accessibility/index.html){: new_window}。
 
@@ -50,5 +54,6 @@ lastupdated: "2018-11-30"
 TTY 服务 800-IBM-3383 (800-426-3383)（在北美地区）
 
 ## IBM 与辅助功能选项
+{: #accessibility-ibm}
 
 有关 IBM 对辅助功能的承诺的更多信息，请参阅 [IBM 辅助功能 ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](http://www.ibm.com/able){: new_window}。

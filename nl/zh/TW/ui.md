@@ -2,8 +2,8 @@
 
 
 copyright:
-  years: 2015, 2018
-lastupdated: "2018-11-28"
+  years: 2015, 2019
+lastupdated: "2019-01-29"
 
 ---
 
@@ -35,21 +35,21 @@ lastupdated: "2018-11-28"
 
 您可以從 {{site.data.keyword.cloud_notm}} 主控台的任何位置依名稱或標籤來搜尋資源，以找到您預期在資源清單中看到的資源。在主控台功能表列的搜尋欄位中，鍵入資源或標籤的名稱。
 
-如需相關資訊，請參閱[搜尋資源](/docs/resources/searching.html#searching-for-resources)。 
+如需相關資訊，請參閱[搜尋資源](/docs/resources?topic=resources-searching-for-resources)。 
 
 ## 管理資源清單中的資源
 {: #dashboardview}
 
-移至「功能表」圖示 ![「功能表」圖示](../icons/icon_hamburger.svg) &gt; **資源清單**，以存取您的帳戶資源清單。您可以使用資源清單來檢視及使用 {{site.data.keyword.cloud_notm}} 資源和 Cloud Foundry 服務實例。如需不同類型資源的相關資訊，請參閱[何謂資源？](/docs/resources/acct_resources.html#resource)。
+移至「功能表」圖示 ![「功能表」圖示](../icons/icon_hamburger.svg) &gt; **資源清單**，以存取您的帳戶資源清單。您可以使用資源清單來檢視及使用 {{site.data.keyword.cloud_notm}} 資源和 Cloud Foundry 服務實例。如需不同類型資源的相關資訊，請參閱[何謂資源？](/docs/resources?topic=resources-resource)。
 
 ### 檢視資源
-您可以從資源清單中檢視帳戶中所有地區的所有資源。若要查看對您很重要的項目，請對每個直欄標頭使用過濾器來過濾您的清單。例如，如果您要檢視及使用特定位置的資源，請展開**位置**過濾器，並從清單中選取某個位置。
+您可以從資源清單中檢視帳戶中所有地區的所有資源。若要查看對您很重要的項目，請對每個直欄標頭使用過濾器來過濾您的清單。例如，如果您要檢視及使用特定位置的資源，請展開**位置**過濾器，並從清單選取某個位置。
 
 ### 使用資源
 您可以用各種方法來使用資源清單中的資源：
 
   * 每一個資源都會獨自顯示一列，並且在該列的尾端會包含「動作」圖示 ![「其他動作」圖示](../icons/action-menu-icon.svg)。按一下「動作」圖示 ![「其他動作」圖示](../icons/action-menu-icon.svg)，以啟動、停止、重新命名或刪除資源。
-  * 若要設定資源的認證或連線，請按一下資源的名稱以導覽至資源詳細資料頁面。然後，選取**服務認證**或**連線**。如需相關資訊，請參閱[新增認證](/docs/resources/service_credentials.html)和[管理連線](/docs/resources/connecting_apps.html#connect_app)。
+  * 若要設定資源的認證或連線，請按一下資源的名稱以導覽至資源詳細資料頁面。然後，選取**服務認證**或**連線**。如需相關資訊，請參閱[新增認證](/docs/resources?topic=resources-service_credentials)和[管理連線](/docs/resources?topic=resources-connect_app)。
 
 
 ## 使用型錄

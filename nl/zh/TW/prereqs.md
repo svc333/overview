@@ -2,8 +2,8 @@
 
 
 copyright:
-  years: 2016, 2018
-lastupdated: "2018-11-28"
+  years: 2016, 2019
+lastupdated: "2019-01-24"
 
 ---
 
@@ -12,13 +12,13 @@ lastupdated: "2018-11-28"
 {:new_window: target="_blank"}
 
 # 必要條件
-{: #prereqs}
+{: #prereqs-platform}
 
 使用 {{site.data.keyword.Bluemix_notm}} 平台的必要條件不多，不過我們確實有一些。
 {:shortdesc}
 
 ## 瀏覽器
-{: #browsers}
+{: #browsers-platform}
 
 下列清單指定 {{site.data.keyword.Bluemix_notm}} 所需的最少瀏覽器軟體：
 
@@ -31,6 +31,6 @@ lastupdated: "2018-11-28"
  {:note}
 
 ## 指令行介面 (CLI)
-{: #cli}
+{: #cli-platform}
 
-{{site.data.keyword.Bluemix_notm}} CLI 不斷變更，因此建議前往[安裝獨立式 {{site.data.keyword.Bluemix_notm}} CLI](/docs/cli/reference/ibmcloud/download_cli.html) 頁面，它一律會指向可供下載及安裝的最新版本。
+{{site.data.keyword.Bluemix_notm}} CLI 不斷變更，因此建議前往[安裝獨立式 {{site.data.keyword.Bluemix_notm}} CLI](/cli/reference/ibmcloud/cloud-cli-install_use) 頁面，它一律會指向最新的 CLI 版本。

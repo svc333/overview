@@ -2,8 +2,8 @@
 
 
 copyright:
-  years: 2015, 2018
-lastupdated: "2018-11-28"
+  years: 2015, 2019
+lastupdated: "2019-01-29"
 
 ---
 
@@ -35,12 +35,12 @@ lastupdated: "2018-11-28"
 
 您可以在 {{site.data.keyword.cloud_notm}} 控制台中的任意位置通过名称或标记搜索资源，以查找期望在资源列表中找到的资源。在控制台菜单栏的搜索字段中输入资源或标记的名称。
 
-有关更多信息，请参阅[搜索资源](/docs/resources/searching.html#searching-for-resources)。 
+有关更多信息，请参阅[搜索资源](/docs/resources?topic=resources-searching-for-resources)。 
 
 ## 管理资源列表中的资源
 {: #dashboardview}
 
-转至“菜单”图标 ![“菜单”图标](../icons/icon_hamburger.svg) &gt; **资源列表**以访问帐户资源的列表。可以使用资源列表来查看和使用 {{site.data.keyword.cloud_notm}} 资源和 Cloud Foundry 服务实例。有关不同类型资源的更多信息，请参阅[什么是资源？](/docs/resources/acct_resources.html#resource)。
+转至“菜单”图标 ![“菜单”图标](../icons/icon_hamburger.svg) &gt; **资源列表**以访问帐户资源的列表。可以使用资源列表来查看和使用 {{site.data.keyword.cloud_notm}} 资源和 Cloud Foundry 服务实例。请参阅[什么是资源？](/docs/resources?topic=resources-resource)以获取有关不同类型资源的更多信息。
 
 ### 查看资源
 可以在资源列表中查看您帐户中所有区域中的所有资源。要查看对您很重要的项，请使用每个列标题的过滤器来过滤列表。例如，如果要查看和使用特定位置中的资源，请展开**位置**过滤器，然后从列表中选择一个位置。
@@ -49,7 +49,7 @@ lastupdated: "2018-11-28"
 可以在资源列表中以多种方式处理资源：
 
   * 每个资源都会单独显示一行，并且在行末包含“操作”图标 ![“更多操作”图标](../icons/action-menu-icon.svg)。单击“操作”图标 ![“更多操作”图标](../icons/action-menu-icon.svg) 可启动、停止、重命名或删除资源。
-  * 要为资源设置凭证或连接，请单击资源的名称以导航至资源详细信息页面。然后，选择**服务凭证**或**连接**。有关更多信息，请参阅[添加凭证](/docs/resources/service_credentials.html)和[管理连接](/docs/resources/connecting_apps.html#connect_app)。
+  * 要为资源设置凭证或连接，请单击资源的名称以导航至资源详细信息页面。然后，选择**服务凭证**或**连接**。有关更多信息，请参阅[添加凭证](/docs/resources?topic=resources-service_credentials)和[管理连接](/docs/resources?topic=resources-connect_app)。
 
 
 ## 在目录中执行操作

@@ -2,8 +2,8 @@
 
 
 copyright:
-  years: 2016, 2018
-lastupdated: "2018-11-28"
+  years: 2016, 2019
+lastupdated: "2019-01-24"
 
 ---
 
@@ -12,13 +12,13 @@ lastupdated: "2018-11-28"
 {:new_window: target="_blank"}
 
 # 先决条件
-{: #prereqs}
+{: #prereqs-platform}
 
 使用 {{site.data.keyword.Bluemix_notm}} 平台的先决条件很有限，但确实有一些先决条件必须满足。
 {:shortdesc}
 
 ## 浏览器
-{: #browsers}
+{: #browsers-platform}
 
 以下列表指定了 {{site.data.keyword.Bluemix_notm}} 的最低必需浏览器软件：
 
@@ -32,6 +32,6 @@ Extended Support Release](https://www.mozilla.org/firefox/organizations/){: new_
 {:note}
 
 ## 命令行界面 (CLI)
-{: #cli}
+{: #cli-platform}
 
-{{site.data.keyword.Bluemix_notm}} CLI 将持续进行更改，因此建议转至[安装独立 {{site.data.keyword.Bluemix_notm}} CLI](/docs/cli/reference/ibmcloud/download_cli.html) 页面，此页面总是指向可供下载和安装的最新版本。
+{{site.data.keyword.Bluemix_notm}} CLI 将持续进行更改，因此建议转至[安装独立 {{site.data.keyword.Bluemix_notm}} CLI](/cli/reference/ibmcloud/cloud-cli-install_use) 页面，此页面总是指向最新 CLI 版本。
