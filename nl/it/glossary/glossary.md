@@ -3,7 +3,7 @@
 
 copyright:
   years: 2016, 2019
-lastupdated: "2019-02-08"
+lastupdated: "2019-02-21"
 
 
 ---
@@ -21,32 +21,6 @@ In questo glossario vengono utilizzati i seguenti riferimenti incrociati:
 
 - *Vedere* rimanda il lettore da un termine non preferenziale a uno preferenziale oppure da un'abbreviazione a una forma estesa del termine.
 - *Vedi anche* ti rimanda a termini correlati o contrari.
-
-<!--If you do not want letter links at the top of your
-glossary, delete the text between these comment tags.
-[A](#glossa)
-[B](#glossb)
-[C](#glossc)
-[D](#glossd)
-[E](#glosse)
-[F](#glossf)
-[G](#glossg)
-[H](#glossh)
-[I](#glossi)
-[J](#glossj)
-[L](#glossl)
-[M](#glossm)
-[N](#glossn)
-[O](#glosso)
-[P](#glossp)
-[R](#glossr)
-[S](#glosss)
-[T](#glosst)
-[U](#glossu)
-[V](#glossv)
-[W](#glossw)
-
--->
 
 ## A
 {: #glossa}
@@ -265,6 +239,11 @@ eseguire funzioni continue o periodiche, come il controllo della rete.
 
 Un componente interfaccia utente che fornisce all'utente un riepilogo comprensivo di informazioni pertinenti da più origini.
 
+### data center (DC)
+{: #x2439906}
+
+L'ubicazione fisica dei server che forniscono i servizi cloud.
+
 ### archivio dati
 {: #x2052849}
 
@@ -382,6 +361,11 @@ Vedi [globally unique identifier](#x2390455).
 ## H
 {: #glossh}
 
+### modalità HVM (hardware virtual machine) 
+{: #x9736811}
+
+Virtualizzazione completamente assistita hardware. Una macchina virtuale utilizza le risorse dal computer host per operare come un ambiente hardware completo. Il sistema operativo host non è a conoscenza del client virtuale.
+
 ### chiamata API heavy
 {: #x7690468}
 
@@ -451,7 +435,7 @@ Un file system e i relativi parametri di esecuzione che vengono utilizzati all'i
 
 L'offerta di un'infrastruttura di computer, comprese le funzionalità server, di collegamento in rete, di data center e di archiviazione, come un servizio in outsourcing.
 
-### instance
+### istanza
 {: #x2002531}
 
 Un'entità formata da risorse riservate per un'applicazione o un servizio specifici.
@@ -617,6 +601,11 @@ gestire le quote. Gli utenti in un'organizzazione condividono le quote di istanz
 
 Vedi [platform as a service](#x2029786).
 
+### modalità paravirtualizzata
+{: #x9736806}
+
+Una tecnica di virtualizzazione leggera. Durante la modalità di paravirtualizzazione, una macchina remota non richiede delle estensioni di virtualizzazione dal computer host, consentendo di conseguenza la virtualizzazione su sistemi hardware che non supportano la virtualizzazione assistita hardware.
+
 ### immagine principale
 {: #x8439210}
 
@@ -700,8 +689,7 @@ Un territorio geografico definito. Una regione può essere una specifica area id
 ### registro
 {: #x2064940}
 
-Un repository pubblico o privato che contiene immagini utilizzate per creare
-contenitori. Vedi anche [contenitore](#x2010901), [immagine](#x2024928).
+Un servizio di archiviazione e distribuzione di immagini contenitore pubblico o privato. Vedi anche [contenitore](#x2010901), [immagine](#x2024928).
 
 ### Representational State Transfer (REST)
 {: #x3220976}

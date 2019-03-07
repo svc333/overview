@@ -4,7 +4,7 @@ copyright:
 
   years: 2017, 2019
 
-lastupdated: "2019-02-12"
+lastupdated: "2019-02-21"
 
 keywords: crn, cloud resource name
 
@@ -95,6 +95,7 @@ Il segmento `location` deve essere uno dei seguenti valori:
  * `au-syd`
  * `eu-gb`
  * `eu-de`
+ * ` jp-tok `
 
 ### Data center
 {: #dc-crn}
@@ -155,7 +156,7 @@ Il valore dei segmenti `resource-type` e `resource` varia in base al servizio. �
 
 Ad esempio, un'immagine nel contenitore delle ricevute dei clienti in un servizio Object Storage può avere un segmento `resource-type` di `object` e un valore `resource` di `CustomerReceipts/clientdinner.png`.
 
-Il segmento `resource-type` deve essere alfanumerico, in minuscolo e senza spazi o caratteri speciali diversi da '-'.Un servizio può decidere che il segmento `resource-type` sia facoltativo, nel qual caso viene lasciato vuoto.
+Il segmento `resource-type` deve essere alfanumerico, in minuscolo e senza spazi o caratteri speciali diversi da '-'. Un servizio può decidere che il segmento `resource-type` sia facoltativo, nel qual caso viene lasciato vuoto.
 
 
 ## Esempi di CRN

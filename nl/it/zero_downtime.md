@@ -2,7 +2,7 @@
 
 copyright:
   years: 2018, 2019
-lastupdated: "2019-02-07"
+lastupdated: "2019-02-27"
 
 metadata: HA,failover,DR 
 
@@ -58,7 +58,7 @@ I requisiti che {{site.data.keyword.Bluemix}} segue sono:
 
 Puoi creare applicazioni e istanze del servizio in ubicazioni differenti con la stessa infrastruttura {{site.data.keyword.cloud_notm}} per la gestione di applicazioni e la stessa vista dei dettagli di utilizzo per la fatturazione. Puoi distribuire le tue applicazioni all'ubicazione più vicina ai tuoi clienti per ottenere una bassa latenza dell'applicazione. 
 
-Per far fronte ai problemi di sicurezza puoi anche selezionare l'ubicazione in cui desideri conservare i dati dell'applicazione. Quando crei applicazioni in più di un'ubicazione, se un'ubicazione non è più disponibile, le applicazioni che si trovano nelle altre ubicazioni continuano a essere eseguite. La disponibilità di risorse è la stessa per ogni ubicazione che usi. Per ulteriori informazioni sulle risorse della piattaforma e sulle ubicazioni in cui sono disponibili, consulta [Disponibilità dei servizi](docs/resources?topic=resources-services_region).
+Per far fronte ai problemi di sicurezza puoi anche selezionare l'ubicazione in cui desideri conservare i dati dell'applicazione. Quando crei applicazioni in più di un'ubicazione, se un'ubicazione non è più disponibile, le applicazioni che si trovano nelle altre ubicazioni continuano a essere eseguite. La disponibilità di risorse è la stessa per ogni ubicazione che usi. Per ulteriori informazioni sulle risorse della piattaforma e sulle ubicazioni in cui sono disponibili, consulta [Disponibilità dei servizi](/docs/resources?topic=resources-services_region).
 
 Il bilanciamento del carico globale per la console {{site.data.keyword.cloud_notm}} garantisce che, se l'ubicazione geografica a te più prossima non è disponibile, la console visualizza le informazioni per la successiva ubicazione più prossima. In questo modo, avrai sempre accesso alla console senza dover eseguire alcuna azione per accedere alle risorse di cui hai bisogno.
 
@@ -97,7 +97,7 @@ Un data center è l'ubicazione fisica che ospita l'alimentazione, il raffreddame
 ### Nord America
 {: #na}
 
-| Nome data center | Codice  |
+| Data Center | Codice  |
 |------------------|-------|
 | Dallas 01        | dal01 |
 | Dallas 05        | dal05 |
@@ -124,7 +124,7 @@ Un data center è l'ubicazione fisica che ospita l'alimentazione, il raffreddame
 ### Sud America
 {: #sa}
 
-| Nome data center | Codice    |
+| Data Center | Codice    |
 |------------------|---------|
 | Sao Paulo 01     | sao01   |
 {: caption="Tabella 3. Data center in Sud America" caption-side="top"}
@@ -132,7 +132,7 @@ Un data center è l'ubicazione fisica che ospita l'alimentazione, il raffreddame
 ### Europa
 {: #eu}
 
-| Nome data center | Codice  |
+| Data Center | Codice  |
 |------------------|-------|
 | London 02        | lon02 |
 | London 04        | lon04 |
@@ -151,7 +151,7 @@ Un data center è l'ubicazione fisica che ospita l'alimentazione, il raffreddame
 ### Asia e Pacifico
 {: #ap}
 
-| Nome data center | Codice  |
+| Data Center | Codice  |
 |------------------|-------|
 | Tokyo 01         | tok02 | 
 | Tokyo 04         | tok04 |
@@ -230,9 +230,8 @@ Il tempo di inattività non include il tempo per la manutenzione pianificata o a
 
 I periodi di tempo al livello di servizio escludono tutto il tempo necessario per ricaricare il sistema operativo o le applicazioni o in cui le prestazioni in tempo potrebbero essere ridotte. Sei idoneo per un credito in base all'addebito mensile per il servizio che è interessato dalla sostituzione o dall'upgrade dell'hardware se {{site.data.keyword.Bluemix_notm}} non riesce a rispettare un periodo di tempo al livello di servizio specificato.
 
-| Tipo	                    | Descrizione	   |
+| Periodo di tempo al livello di servizio  | Percentuale di credito |
 |---------------------------|----------------|
-| Periodo di tempo al livello di servizio | Percentuale di credito |
 | ≤ 2 ore                 | Nessuna           |
 | > 2 ore                 | 20%            |
 | > 6 ore                 | 40%            |

@@ -3,7 +3,7 @@
 
 copyright:
   years: 2016, 2019
-lastupdated: "2019-02-08"
+lastupdated: "2019-02-21"
 
 
 ---
@@ -21,34 +21,6 @@ Folgende Querverweise werden in diesem Glossar verwendet:
 
 - *Siehe* verweist Sie von einem wenig verwendeten Begriff zu dem bevorzugten Begriff oder von einer Abkürzung auf die ausgeschriebene Form.
 - *Siehe auch* verweist auf einen verwandten oder gegensätzlichen Begriff.
-
-<!--If you do not want letter links at the top of your
-glossary, delete the text between these comment tags.
-[A](#glossa)
-[B](#glossb)
-[C](#glossc)
-[D](#glossd)
-[E](#glosse)
-[F](#glossf)
-[G](#glossg)
-[H](#glossh)
-[I](#glossi)
-[J](#glossj)
-[K](#glossk)
-[L](#glossl)
-[M](#glossm)
-[N](#glossn)
-[O](#glosso)
-[P](#glossp)
-[R](#glossr)
-[S](#glosss)
-[T](#glosst)
-[U](#glossu)
-[V](#glossv)
-[W](#glossw)
-[Z](#glossz)
-
--->
 
 ## A
 {: #glossa}
@@ -386,6 +358,11 @@ Eine von HTTP (Hypertext Transfer Protocol) verwendete Aktion. Zu den HTTP-Metho
 
 Siehe [Hypertext Transfer Protocol Secure](#x2237225).
 
+### HVM (Hardware Virtual Machine Mode)
+{: #x9736811}
+
+Hardwaregestützte vollständige Virtualisierung. Eine virtuelle Maschine verwendet Ressourcen des Host-Computers für die Ausführung als vollständige Hardwareumgebung. Das Hostbetriebssystem erkennt den virtuellen Client nicht. 
+
 ### Hybrid Cloud
 {: #x4585327}
 
@@ -464,9 +441,6 @@ Ein einfaches Datenaustauschformat, das auf der Objekt-Literal-Notation von Java
 
 Siehe [JavaScript Object Notation](#x3292165).
 
-
-## K
-{: #glossk}
 
 ### Kachel
 {: #x2092493}
@@ -603,6 +577,11 @@ Die Gruppierungsmethodik für Benutzer in IBM Cloud. Organisationen werden zum V
 
 Siehe [Platform as a Service](#x2029786).
 
+### Paravirtualisierungsmodus
+{: #x9736806}
+
+Eine vereinfachte Virtualisierungsmethode. Im Paravirtualisierungsmodus benötigt eine virtuelle Maschine keine Virtualisierungserweiterungen des Host-Computers, wodurch die Virtualisierung für Hardwaresysteme ermöglicht wird, die keine hardwaregestützte Virtualisierung unterstützen. 
+
 ### Platform as a Service (PaaS)
 {: #x2029786}
 
@@ -652,6 +631,11 @@ Das Senden von Informationen von einem Server an einen Client. Wenn ein Server I
 
 Bezeichnet Daten, die dynamischen Änderungen unterliegen.
 
+### Rechenzentrum (Data Center, DC)
+{: #x2439906}
+
+Der physische Standort der Server, die Cloud-Services bereitstellen. 
+
 ### Regel
 {: #x2037526}
 
@@ -666,7 +650,7 @@ Ein definiertes geografisches Gebiet. Bei einer Region kann es sich um einen bes
 ### Registry
 {: #x2064940}
 
-Ein öffentliches oder privates Repository, das Images enthält, mit denen Container erstellt werden. Siehe auch [Container](#x2010901), [Image](#x2024928).
+Ein öffentlicher oder privater Speicher- und Verteilungsservice für Container-Images. Siehe auch [Container](#x2010901), [Image](#x2024928).
 
 ### Representational State Transfer (REST)
 {: #x3220976}
@@ -907,6 +891,9 @@ Siehe [Webanwendung](#x2116500).
 {: #x2116506}
 
 Ein durch den Java EE-Standard definiertes, komprimiertes Dateiformat zum Speichern aller zum Installieren und Ausführen einer Webanwendung erforderlichen Ressourcen in einer einzelnen Datei.
+
+## Z
+{: #glossz}
 
 ### Zeilengruppe
 {: #x2094743}

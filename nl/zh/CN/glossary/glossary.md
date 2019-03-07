@@ -3,7 +3,7 @@
 
 copyright:
   years: 2016, 2019
-lastupdated: "2019-02-08"
+lastupdated: "2019-02-21"
 
 
 ---
@@ -21,32 +21,6 @@ lastupdated: "2019-02-08"
 
 - *请参阅*从非首选术语指引您查看首选术语或者从缩写指引您查看拼写完整的形式。
 - *另请参阅*指引您查看相关术语或对照术语。
-
-<!--If you do not want letter links at the top of your
-glossary, delete the text between these comment tags.
-[A](#glossa)
-[B](#glossb)
-[C](#glossc)
-[D](#glossd)
-[E](#glosse)
-[F](#glossf)
-[G](#glossg)
-[H](#glossh)
-[I](#glossi)
-[J](#glossj)
-[L](#glossl)
-[M](#glossm)
-[N](#glossn)
-[O](#glosso)
-[P](#glossp)
-[R](#glossr)
-[S](#glosss)
-[T](#glosst)
-[U](#glossu)
-[V](#glossv)
-[W](#glossw)
-
--->
 
 ## A
 {: #glossa}
@@ -253,6 +227,11 @@ IBM Db2 技术的集合，主要用于主读商业智能查询处理。BLU 加�
 
 一种用户界面组件，用于向用户提供各种来源的相关信息的综合摘要。
 
+### 数据中心 (DC)
+{: #x2439906}
+
+提供云服务的服务器的物理位置。
+
 ### 数据存储 (data store)
 {: #x2052849}
 
@@ -363,6 +342,11 @@ Cloud Foundry 中的归档，用于包含应用程序及其运行时和框架依
 
 ## H
 {: #glossh}
+
+### 硬件虚拟机模式 (HVM)
+{: #x9736811}
+
+硬件辅助的完全虚拟化。虚拟机使用主计算机中的资源作为完整的硬件环境运行。主机操作系统不知道此虚拟客户机的存在。
 
 ### 频繁 API 调用 (heavy API call)
 {: #x7690468}
@@ -582,6 +566,11 @@ Java 归档文件。
 
 请参阅[平台即服务 (platform as a service)](#x2029786)。
 
+### 半虚拟化模式
+{: #x9736806}
+
+轻量级虚拟化技术。半虚拟化模式下，虚拟机不会要求从主计算机进行虚拟化扩展，从而允许在不支持硬件辅助的虚拟化的硬件系统上执行虚拟化。
+
 ### 父映像 (parent image)
 {: #x8439210}
 
@@ -664,7 +653,7 @@ Java 归档文件。
 ### 注册表 (registry)
 {: #x2064940}
 
-一种公共或专用存储库，其中包含用于创建容器的映像。另请参阅[容器 (container)](#x2010901) 和[映像 (image)](#x2024928)。
+公共或专用容器映像存储器和分发服务。另请参阅[容器 (container)](#x2010901) 和[映像 (image)](#x2024928)。
 
 ### 具象状态传输 (Representational State Transfer, REST)
 {: #x3220976}

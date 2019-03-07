@@ -45,9 +45,9 @@ lastupdated: "2019-02-18"
 ## 辅助功能选项相关信息
 {: #related-info}
 
-{{site.data.keyword.Bluemix_notm}} Web 用户界面辅助功能选项合规性状态专用于 {{site.data.keyword.Bluemix_notm}} 产品平台。在用户界面中存在由第三方产品或服务所有的子部分，这些产品和服务在平台中托管内容，而 {{site.data.keyword.Bluemix_notm}} 合规性记录不会为该平台维护或拥有辅助功能选项合规性状态。这表示如果您访问服务的任何用户界面或文档，您必须为该服务请求合规性声明。例如，如果您使用 IBM Containers 的界面、本地或专用环境的管理控制台或者 IoT 服务，那么您必须为该界面或文档请求[产品辅助功能信息 ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](http://www-03.ibm.com/able/product_accessibility/index.html){: new_window}。
+{{site.data.keyword.Bluemix_notm}} Web 用户界面辅助功能选项合规性状态专用于 {{site.data.keyword.Bluemix_notm}} 产品平台。在用户界面中存在由第三方产品或服务所有的子部分，这些产品和服务在平台中托管内容，而 {{site.data.keyword.Bluemix_notm}} 合规性记录不会为该平台维护或拥有辅助功能选项合规性状态。这表示如果您访问服务的任何用户界面或文档，您必须为该服务请求合规性声明。例如，如果您使用 IBM Containers 的界面、本地或专用环境的管理控制台或者 IoT 服务，那么您必须为该界面或文档请求[产品辅助功能信息 ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](https://able.ibm.com/request/){: new_window}。
 
-{{site.data.keyword.Bluemix_notm}} 文档辅助功能选项合规性专用于 {{site.data.keyword.Bluemix_notm}} 核心平台信息，不会扩展到任何服务。在主页中，内容分成多个选项卡，其中“所有文档”选项卡是由服务团队单独维护的内容。{{site.data.keyword.Bluemix_notm}} 的可用文档在请求时即提供的 IBM Bluemix Continuous Delivery 产品辅助功能信息中进行管理和报告。要获取任何服务的合规性状态，您必须请求[产品辅助功能信息 ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](http://www-03.ibm.com/able/product_accessibility/index.html){: new_window}。
+{{site.data.keyword.Bluemix_notm}} 文档辅助功能选项合规性专用于 {{site.data.keyword.Bluemix_notm}} 核心平台信息，不会扩展到任何服务。在主页中，内容分成多个选项卡，其中“所有文档”选项卡是由服务团队单独维护的内容。{{site.data.keyword.Bluemix_notm}} 的可用文档在请求时即提供的 IBM Bluemix Continuous Delivery 产品辅助功能信息中进行管理和报告。要获取任何服务的合规性状态，您必须请求[产品辅助功能信息 ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](https://able.ibm.com/request/){: new_window}。
 
 除了标准 IBM 帮助台和支持 Web 站点之外，IBM 还设立了 TTY 电话服务，供耳聋客户或听力困难的客户访问销售和支持服务：
 

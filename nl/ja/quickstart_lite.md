@@ -4,7 +4,7 @@ copyright:
 
   years: 2018, 2019
 
-lastupdated: "2019-02-19"
+lastupdated: "2019-02-27"
 
 ---
 
@@ -24,7 +24,7 @@ lastupdated: "2019-02-19"
 ## 始める前に
 {: #prereqs-lite}
 
-[{DomainName}]({DomainName}) にアクセスし、ライト・アカウントを作成します。 アカウントは無料で、有効期限はありません。
+[{{site.data.keyword.Bluemix_notm}} コンソール](https://{DomainName}) にアクセスし、ライト・アカウントを作成します。アカウントは無料で、有効期限はありません。
 
 ## クイック・スタート・ステップ
 {: #steps-lite}
