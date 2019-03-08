@@ -2,7 +2,7 @@
 
 copyright:
   years: 2018, 2019
-lastupdated: "2019-02-27"
+lastupdated: "2019-03-08"
 
 metadata: HA,failover,DR 
 
@@ -64,30 +64,10 @@ Global load balancing for the {{site.data.keyword.cloud_notm}} console ensures t
 
 You can view all resources across all locations by default from the resource list view in the console. If you want to view and work with resources in a specific location, expand the **LOCATION** menu, and select a location from the list. 
 
-You can also use the command-line interface (CLI) to connect to the {{site.data.keyword.cloud_notm}} location that you want to work with by using the `ibmcloud api` command and specify the API endpoint of the location. For example, enter the following command to connect to {{site.data.keyword.cloud_notm}} London:
-
-```
-ibmcloud api https://api.eu-gb.cf.cloud.ibm.com
-```
-
-A unique prefix is assigned to each location. {{site.data.keyword.cloud_notm}} provides the following locations and location prefixes.
-
-| **Location**  | **API Endpoint**        |
-|---------------|-------------------------|
-| Dallas        | api.us-south.cf.cloud.ibm.com  |
-| Frankfurt     | api.eu-de.cf.cloud.ibm.com  |
-| London        | api.eu-gb.cf.cloud.ibm.com  |
-| Sydney        | api.au-syd.cf.cloud.ibm.com  |
-| Tokyo         | api.jp-tok.cf.cloud.ibm.com  |
-| Washington DC | api.us-east.cf.cloud.ibm.com  |
-{: caption="Table 1. {{site.data.keyword.cloud_notm}} location list" caption-side="top"}
-
-When you deploy infrastructure resources, you have more options about where your data is located. You can select a location, or you can select from a list of the data centers in {{site.data.keyword.Bluemix_notm}}. 
-
 ## Data centers
 {: #data_center}
 
-A data center is the physical location that hosts the power, cooling, compute, network, and storage resources used for services and apps. Data centers don't provide isolation from local failures similar to multi-zones in a location. For more information, see [Global locations for your global business ![External link icon](../icons/launch-glyph.svg "External link icon")](https://www.ibm.com/cloud/data-centers/){: new_window}.
+When you deploy infrastructure resources, you have more options about where your data is located. You can select a location, or you can select from a list of the {{site.data.keyword.Bluemix_notm}} data centers. A *data center* is the physical location that hosts the power, cooling, compute, network, and storage resources used for services and apps. Data centers don't provide isolation from local failures similar to multi-zones in a location. For more information, see [Global locations for your global business ![External link icon](../icons/launch-glyph.svg "External link icon")](https://www.ibm.com/cloud/data-centers/){: new_window}.
 
 {{site.data.keyword.Bluemix_notm}} offers data centers in many locations across the world. When you deploy infrastructure resources, you can select from a list of the data centers in {{site.data.keyword.Bluemix_notm}}. 
 
