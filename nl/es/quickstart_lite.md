@@ -4,7 +4,7 @@ copyright:
 
   years: 2018, 2019
 
-lastupdated: "2019-02-19"
+lastupdated: "2019-02-27"
 
 ---
 
@@ -24,7 +24,7 @@ lastupdated: "2019-02-19"
 ## Antes de empezar
 {: #prereqs-lite}
 
-Vaya a [{DomainName}]({DomainName}) y cree una cuenta Lite. Es gratuita y no caduca.
+Vaya a la [consola de {{site.data.keyword.Bluemix_notm}}](https://{DomainName}) y cree una cuenta Lite. Es gratuita y no caduca.
 
 ## Pasos de inicio rápido
 {: #steps-lite}

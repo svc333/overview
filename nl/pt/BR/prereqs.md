@@ -3,7 +3,7 @@
 
 copyright:
   years: 2016, 2019
-lastupdated: "2019-01-24"
+lastupdated: "2019-02-27"
 
 ---
 
@@ -34,4 +34,4 @@ A lista a seguir especifica o software do navegador mínimo necessário para o {
 ## Interface da linha de comandos (CLI)
 {: #cli-platform}
 
-A CLI do {{site.data.keyword.Bluemix_notm}} está em constante mudança, portanto, recomenda-se acessar a página [Instalando a CLI independente do {{site.data.keyword.Bluemix_notm}}](/cli/reference/ibmcloud/cloud-cli-install_use), que sempre aponta para a versão mais recente da CLI.
+A CLI do {{site.data.keyword.Bluemix_notm}} está em constante mudança, portanto, é recomendável acessar a página [Instalando a CLI independente do {{site.data.keyword.Bluemix_notm}}](/docs/cli/reference/ibmcloud/cloud-cli-install_use), que sempre aponta para a versão mais recente da CLI.

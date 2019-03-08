@@ -4,7 +4,7 @@ copyright:
 
   years: 2017, 2019
 
-lastupdated: "2019-02-12"
+lastupdated: "2019-02-21"
 
 keywords: crn, cloud resource name
 
@@ -95,6 +95,7 @@ Le segment `location` doit avoir l'une des valeurs suivantes :
  * `au-syd`
  * `eu-gb`
  * `eu-de`
+ * ` jp-tok `
 
 ### Centres de données
 {: #dc-crn}

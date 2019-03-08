@@ -4,7 +4,7 @@ copyright:
 
   years: 2018, 2019
 
-lastupdated: "2019-02-19"
+lastupdated: "2019-02-27"
 
 ---
 
@@ -25,7 +25,7 @@ guia de iniciação rápida destina-se a ajudá-lo a começar a usar a nossa con
 ## Antes de começar
 {: #prereqs-lite}
 
-Acesse [{DomainName}]({DomainName}) e crie uma conta Lite. É grátis e nunca expira.
+Acesse o [console do {{site.data.keyword.Bluemix_notm}}](https://{DomainName}) e crie uma conta Lite. É grátis e nunca expira.
 
 ## Etapas da iniciação rápida
 {: #steps-lite}

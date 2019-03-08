@@ -3,7 +3,7 @@
 
 copyright:
   years: 2016, 2019
-lastupdated: "2019-02-08"
+lastupdated: "2019-02-21"
 
 
 ---
@@ -11,7 +11,7 @@ lastupdated: "2019-02-08"
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
 
-# Termes du glossaire d'{{site.data.keyword.cloud_notm}} 
+# Termes du glossaire d'{{site.data.keyword.cloud_notm}}
 {: #glossary}
 
 Ce glossaire comporte des termes et des définitions pour {{site.data.keyword.cloud_notm}}.
@@ -21,32 +21,6 @@ Les références croisées suivantes sont employées dans ce glossaire :
 
 - *Voir* renvoie d'un terme non préféré vers le terme préféré ou d'une abréviation vers sa forme non abrégée.
 - *Voir aussi* renvoie à un terme connexe ou opposé.
-
-<!--If you do not want letter links at the top of your 
-glossary, delete the text between these comment tags.
-[A](#glossa)
-[C](#glossc)
-[D](#glossd)
-[E](#glosse)
-[F](#glossf)
-[G](#glossg)
-[H](#glossh)
-[I](#glossi)
-[J](#glossj)
-[L](#glossl)
-[M](#glossm)
-[N](#glossn)
-[O](#glosso)
-[P](#glossp)
-[R](#glossr)
-[S](#glosss)
-[T](#glosst)
-[U](#glossu)
-[V](#glossv)
-[W](#glossw)
-[Z](#glossz)
-
--->
 
 ## A
 {: #glossa}
@@ -166,6 +140,11 @@ individus qui reçoivent un certificat unique. Voir aussi [certificat intermédi
 {: #x2015942}
 
 Voir [autorité de certification](#x2016383).
+
+### centre de données
+{: #x2439906}
+
+Emplacement physique des serveurs offrant des services cloud.
 
 ### certificat intermédiaire
 {: #x3753781}
@@ -663,6 +642,16 @@ Action utilisée par le protocole HTTP. Les méthodes HTTP comprennent les méth
 
 Action de déployer une application, un service ou une instance à un emplacement prédéfini en vue de l'exécution ou du test avant le déploiement dans un environnement de production. Voir aussi [déploiement](#x2104544).
 
+### mode HVM (Hardware Virtual Machine)
+{: #x9736811}
+
+Virtualisation complète par matériel. Une machine virtuelle utilise les ressources de l'ordinateur hôte pour fonctionner comme un environnement matériel complet. Le système d'exploitation hôte ne détecte pas le client virtuel.
+
+### mode paravirtualisé
+{: #x9736806}
+
+Technique de virtualisation légère. En mode paravirtualisé, une machine virtuelle n'a pas besoin d'extensions de virtualisation de l'ordinateur hôte, autorisant ainsi la virtualisation sur les systèmes matériels ne prenant pas en charge la virtualisation assistée par matériel.
+
 ### modèle
 {: #x2041200}
 
@@ -766,8 +755,7 @@ Territoire géographique défini. Une région peut être une zone avec un code p
 ### registre
 {: #x2064940}
 
-Référentiel public ou privé contenant des images permettant de créer des conteneurs. Voir aussi [conteneur](#x2010901),
-[image](#x2024928).
+Stockage d'image de conteneur public ou privé et service de distribution. Voir aussi [conteneur](#x2010901), [image](#x2024928).
 
 ### règle
 {: #x2037526}
