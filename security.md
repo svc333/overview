@@ -23,28 +23,6 @@ Designed with secure engineering practices, the {{site.data.keyword.cloud}} plat
 
 {{site.data.keyword.Bluemix_notm}} provides a secure cloud platform that you can trust. {{site.data.keyword.Bluemix_notm}} compliance results from a platform and services that are built on best-in-industry security standards, including ISO 27001 and ISO 27002. For more information, see [Compliance on the {{site.data.keyword.cloud_notm}}](https://www.ibm.com/cloud/compliance){: new_window} ![External link icon](../icons/launch-glyph.svg "External link icon").
 
-## Platform and service compliance
-{: #compliancetable}
-
-The following table displays which services in {{site.data.keyword.Bluemix_notm}} are compliant for each of the standards.
-
-|{{site.data.keyword.Bluemix_notm}} components		|FISC		|ISO 27001	|PCI |SOC 2 Type 1		|
-|:----------------------|:---------:|:---------:|:---------:|:---------:|
-|{{site.data.keyword.Bluemix_notm}} platform		|Y			|Y	|Y	|Y	|
-|{{site.data.keyword.openwhisk_short}}    |  |Y | | |
-|{{site.data.keyword.APIM}}			|Y	|Y |Y	|			|
-|{{site.data.keyword.autoscaling}}			|Y	|Y |Y	|			|
-|{{site.data.keyword.bigicloudst}}			|Y |Y |	|Y |
-|{{site.data.keyword.cloudant}}				|Y |Y |	|Y	|
-|{{site.data.keyword.dashdbshort}}			|Y	|Y	|	|Y	|
-|{{site.data.keyword.dataworks_short}}				|	|	|	|Y	 		|
-|{{site.data.keyword.contdelivery_short}}					|Y	|Y	|	|			|
-|{{site.data.keyword.containerlong}}			|Y		|Y	|	|		Y	|
-|{{site.data.keyword.dwl_short}}				|	|	|	|Y	 		|
-|{{site.data.keyword.mql}}				|Y	|Y	|Y	|	 		|
-|{{site.data.keyword.SecureGateway}}			|Y	|Y |	|	 		|
-{: caption="Table 1. Platform and service compliance" caption-side="top"}
-
 ## General Data Protection Regulation (GDPR)
 {: #gdpr}
 
