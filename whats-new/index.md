@@ -24,6 +24,11 @@ Stay up-to-date with the new features that are available in the {{site.data.keyw
 ## {{site.data.keyword.Bluemix_notm}} platform
 {: #platform_category}
 
+### Multifactor authentication for users with federated IDs
+New as of: 12 March 2019
+{: #mfa-federated}
+
+Account owners or users assigned the administrator role for the billing account management service can enable multifcator authentication (MFA) for all users in their account. Federated users who use their corporate or enterprise single sign-on ID can now be required to authenticate by using MFA for logging in to {{site.data.keyword.Bluemix_notm}}. For more information about this feature enhancement and what you need to know about enabling MFA for your account, see [Introducing MFA for IBM Cloud Users with Federated ID](https://www.ibm.com/blogs/bluemix/2019/03/introducing-mfa-for-ibm-cloud-users-with-federated-id/){: new_window} ![External link icon](../../icons/launch-glyph.svg "External link icon").
 
 ### New support experience for {{site.data.keyword.Bluemix_notm}}
 New as of: 30 November 2018 
