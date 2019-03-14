@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2019
-lastupdated: "2019-02-18"
+lastupdated: "2019-03-12"
 
 keywords: catalog, resources display, manage visibility
 
@@ -22,7 +22,7 @@ To create resources from the catalog, see [Working in the catalog](/docs/overvie
 ## Managing visibility
 {: #manage-vis}
 
-Do you want more control over what gets displayed in the catalog? Would you like to hide individual resources for some users, and display them to others? With the proper administrator authority, you can view and set visibility on catalog resources by using the {{site.data.keyword.Bluemix_notm}} [CLI](/docs/cli/reference/ibmcloud?topic=cloud-cli-overview).
+Do you want more control over what gets displayed in the catalog? Would you like to hide individual resources for some users, and display them to others? With the proper administrator authority, you can view and set visibility on catalog resources by using the {{site.data.keyword.Bluemix_notm}} [CLI](/docs/cli?topic=cloud-cli-ibmcloud-cli).
 
 For more information, see the following topics.
 
