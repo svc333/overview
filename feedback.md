@@ -3,7 +3,7 @@
 
 copyright:
   years: 2018, 2019
-lastupdated: "2019-02-18"
+lastupdated: "2019-03-12"
 
 ---
 
@@ -14,12 +14,8 @@ lastupdated: "2019-02-18"
 # Submitting feedback
 {: #feedback}
 
-We want to hear from you! You can submit feedback for the {{site.data.keyword.Bluemix_notm}} team on the documentation or the console. You can use a few different methods to provide feedback:
-
-* Use the **Feedback** button to provide a comment about a specific page of documentation or area of the console user interface that you particularly like or are having trouble with.
-* Use the **Edit in GitHub** link at the top of any documentation page to provide a suggested edit for the content by using the GitHub pull request method.
-* Open an issue in GitHub for documentation to be updated or improved by providing a comment or request for clarification on a specific subject. 
-* Submit an idea for improving the product or a specific service in the {{site.data.keyword.Bluemix_notm}} ideas portal.
+We want to hear from you! You can submit feedback for the {{site.data.keyword.Bluemix_notm}} team on the documentation or the console. You can choose from a few different methods to provide feedback.
+{: shortdesc}
 
 ## Submitting a comment with the feedback button
 {: #feedback-button}
@@ -34,6 +30,11 @@ When you are reading a page of documentation or completing a task within the con
 
 Common ad blockers block Usabilla and hide the **Feedback** button. Disable any ad blockers to use the **Feedback** button to submit your comments.
 {: tip}
+
+## Submitting feedback on a documentation topic
+{: #feedback-topic}
+
+You can submit feedback on a specific documentation topic by using the **Was this page helpful?** buttons that are displayed at the end of each topic. Do you find the information helpful? Click **Yes** and optionally provide a comment. If you don't find it helpful, or you have suggestions for improvements, click **No** and provide more details.  
 
 ## Providing a content update with a pull request
 {: #feedback-pr}
