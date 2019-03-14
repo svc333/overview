@@ -33,7 +33,7 @@ lastupdated: "2019-02-19"
 最新情報: 2018 年 11 月 30 日
 {: #useraccess}
 
-最新の更新により、ID タイプに関係なくすべてのユーザーが使用できる簡易セキュア・ログインを利用できるようになりました。 IBM ID と SoftLayer ID のどちらを使用している場合でも、拡張ログイン・ページから {{site.data.keyword.Bluemix_notm}} コンソールに素早くログインできます。 また、{{site.data.keyword.Bluemix_notm}} 全体でセキュアな API 呼び出しを行い、IAM API キーまたは IAM アクセス・トークンを使用して CLI ログインを自動化することもできます。 
+最新の更新により、ID タイプに関係なくすべてのユーザーが使用できる簡易セキュア・ログインを利用できるようになりました。 IBMid と SoftLayer ID のどちらを使用している場合でも、拡張ログイン・ページから {{site.data.keyword.Bluemix_notm}} コンソールに素早くログインできます。 また、{{site.data.keyword.Bluemix_notm}} 全体でセキュアな API 呼び出しを行い、IAM API キーまたは IAM アクセス・トークンを使用して CLI ログインを自動化することもできます。 
 
 ログインすると、「アクセス (IAM)」UI の「ユーザー」ページに、プラットフォームおよびクラシック・インフラストラクチャーのユーザーを含むすべてのユーザーが表示されます。 アカウント内の他のユーザーを表示するためのアクセス権限に応じて、アカウント・ユーザー、クラシック・インフラストラクチャーのユーザー、または Cloud Foundry 組織によってビューを素早くフィルターに掛けることができます。また、フィルターを使用して、名前、E メール、または状況で素早くユーザーを検索することもできます。
 
@@ -150,7 +150,7 @@ lastupdated: "2019-02-19"
 最新情報: 2018 年 5 月 2 日
 {: #account-mfa}
 
-多要素認証 (MFA) ではアカウントにセキュリティーの層が 1 つ追加されて、すべてのユーザーが、ログイン中に標準 IBM ID およびパスワードに加えて、時間ベースのワンタイム・パスコードも入力することが必要になります。 これは、一般的に 2 要素認証 (2FA) とも呼ばれています。 MFA はアカウント単位で有効にされ、いったんオンにされると、そのアカウント内のすべてのユーザーは、追加セキュリティー手段を使用してログインすることが必要になります。 詳しくは、[IBM Cloud Platform now adds support for Multi-Factor Authentication](https://www.ibm.com/blogs/bluemix/2018/05/ibm-cloud-platform-now-adds-support-multi-factor-authentication/){: new_window} ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン") ブログ投稿を参照してください。
+多要素認証 (MFA) ではアカウントにセキュリティーの層が 1 つ追加されて、すべてのユーザーが、ログイン中に標準 IBMid およびパスワードに加えて、時間ベースのワンタイム・パスコードも入力することが必要になります。 これは、一般的に 2 要素認証 (2FA) とも呼ばれています。 MFA はアカウント単位で有効にされ、いったんオンにされると、そのアカウント内のすべてのユーザーは、追加セキュリティー手段を使用してログインすることが必要になります。 詳しくは、[IBM Cloud Platform now adds support for Multi-Factor Authentication](https://www.ibm.com/blogs/bluemix/2018/05/ibm-cloud-platform-now-adds-support-multi-factor-authentication/){: new_window} ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン") ブログ投稿を参照してください。
 
 ### アクセス・グループを使用した迅速なアクセス権限の割り当て
 最新情報: 2018 年 4 月 3 日
@@ -696,13 +696,6 @@ Terraform および Ansible は、クラウド・ソリューションのデプ�
 
 2017 年 11 月以降、{{site.data.keyword.containershort_notm}} は Kubernetes `1.8.x` をサポートしてきました。 Kubernetes のデフォルト・バージョンが `1.8.6` になったことをご案内します。  近い将来、`1.9.x` のサポートを提供する予定です。
 
-### Watson Discovery Visual Insights
-最新情報: 2017 年 11 月 30 日
-{: #whatsnewvinov17}
-
-エンティティー、関係、概念などの、テキスト内で検出された意味的要素を {{site.data.keyword.discoveryshort}} が理解することにより視覚的に接続を探索します。
-
-すぐに使用可能な {{site.data.keyword.discoveryshort}} News コレクションによって、世界のニュースの探索を開始します。 あるいは、{{site.data.keyword.discoveryshort}} で自分自身の文書コレクションを探索します。 自分の {{site.data.keyword.Bluemix_notm}} 資格情報を使用して単にログインしてください。 詳しくは、[Visual insights experimental](https://visual-insights.cloud.ibm.com){: new_window} ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン") を参照してください。
 
 ### 新しい IBM Cloud Managed Database Server ベータ版サービス
 最新情報: 2017 年 11 月 30 日
