@@ -2,9 +2,11 @@
 
 copyright:
   years: 2018, 2019
-lastupdated: "2019-03-08"
+lastupdated: "2019-03-14"
 
-metadata: HA,failover,DR 
+keywords: HA, failover, DR
+
+subcollection: overview
 
 ---
 

@@ -2,7 +2,11 @@
 
 copyright:
   years: 2017, 2019
-lastupdated: "2019-03-11"
+lastupdated: "2019-03-14"
+
+keywords: security controls, platform security
+
+subcollection: overview
 
 ---
 
@@ -21,7 +25,7 @@ Designed with secure engineering practices, the {{site.data.keyword.cloud}} plat
 ## {{site.data.keyword.Bluemix_notm}} compliance
 {: #compliance}
 
-{{site.data.keyword.Bluemix_notm}} provides a secure cloud platform that you can trust. {{site.data.keyword.Bluemix_notm}} compliance results from a platform and services that are built on best-in-industry security standards, including ISO 27001 and ISO 27002. For more information, see [Compliance on the {{site.data.keyword.cloud_notm}}](https://www.ibm.com/cloud/compliance){: new_window} ![External link icon](../icons/launch-glyph.svg "External link icon").
+{{site.data.keyword.Bluemix_notm}} provides a secure cloud platform that you can trust. {{site.data.keyword.Bluemix_notm}} compliance results from a platform and services that are built on best-in-industry security standards, including GDPR, HIPAA, ISO 9001, ISO 27001/27017/27018, PCI, SOC2, and others. For more information, see [Compliance on the {{site.data.keyword.cloud_notm}}](https://www.ibm.com/cloud/compliance){: new_window} ![External link icon](../icons/launch-glyph.svg "External link icon").
 
 ## General Data Protection Regulation (GDPR)
 {: #gdpr}

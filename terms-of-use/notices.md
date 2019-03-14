@@ -7,6 +7,9 @@ copyright:
   years: 2015, 2019
 lastupdated: "2019-01-14"
 
+keywords: notices, terms of use
+
+subcollection: overview
 
 ---
 
