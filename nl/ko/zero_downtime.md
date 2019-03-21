@@ -72,7 +72,7 @@ ibmcloud api https://api.eu-gb.cf.cloud.ibm.com
 
 각 위치에 고유한 접두부가 지정됩니다. {{site.data.keyword.cloud_notm}}는 다음과 같은 위치 및 위치 접두부를 제공합니다.
 
-| **위치**  | **API 엔드포인트**  |
+| **위치**  | **API 엔드포인트**        |
 |---------------|-------------------------|
 | 댈러스        | api.us-south.cf.cloud.ibm.com  |
 | 프랑크푸르트     | api.eu-de.cf.cloud.ibm.com  |

@@ -696,13 +696,6 @@ Novità a partire dal 19 gennaio 2018
 
 Da novembre 2017, il {{site.data.keyword.containershort_notm}} ha supportato Kubernetes `1.8.x`. Siamo lieti di annunciare che la nostra versione predefinita di Kubernetes è ora `1.8.6`.  Nel prossimo futuro, forniremo supporto per `1.9.x`.
 
-### Watson Discovery Visual Insights
-Novità a partire dal 30 novembre 2017
-{: #whatsnewvinov17}
-
-Esplora visivamente le connessioni basate sulla comprensione di {{site.data.keyword.discoveryshort}} degli elementi semantici rilevati nel testo, come entità, relazioni, concetti e altro ancora.
-
-Inizia ad esplorare le notizie del mondo con la raccolta Novità di {{site.data.keyword.discoveryshort}} pronta all'uso. Oppure, esplora le tue raccolte di documenti in {{site.data.keyword.discoveryshort}}. Accedi semplicemente con le tue credenziali {{site.data.keyword.Bluemix_notm}}. Per ulteriori informazioni, vedi [Visual insights experimental](https://visual-insights.cloud.ibm.com){: new_window} ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno").
 
 ### Nuovo servizio IBM Cloud Managed Database Server Beta
 Novità a partire dal 30 novembre 2017

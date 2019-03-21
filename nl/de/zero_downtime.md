@@ -20,7 +20,7 @@ metadata: HA,failover,DR
 # Wie stelle ich null Ausfallzeit sicher?
 {: #zero-downtime}
 
-Ihre globale Strategie ist wichtig. Sie können ein bestimmtes Rechenzentrum oder einen bestimmten Standort auswählen, um Ihren Kunden Ihre Daten im richtigen Teil der Welt bereitzustellen. 
+Ihre globale Strategie ist wichtig. Sie können ein bestimmtes Rechenzentrum oder einen bestimmten Standort auswählen, um Ihren Kunden Ihre Daten im richtigen Teil der Welt bereitzustellen.
 {:shortdesc}
 
 {{site.data.keyword.Bluemix}}-Plattformservices werden selbst verwaltet. Das bedeutet, dass die Standorte, an denen Sie Ihre App implementieren, Workloads über Rechenzentren verteilen können. Sie können außerdem sicherstellen, dass ein Failover-Design vorhanden ist, was bedeutet, dass Ihre App für Ihre Kunden immer betriebsbereit ist. Für Ihre Infrastrukturressourcen können Sie einzelne Rechenzentren auswählen, in denen die Ressourcen bereitgestellt werden. 

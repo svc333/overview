@@ -45,7 +45,7 @@ lastupdated: "2019-02-19"
 신규 기준일: 2018년 11월 30일
 {: #cli}
 
-이제 한 위치에서 모든 {{site.data.keyword.Bluemix_notm}} CLI 플러그인 문서에 액세스하여 {{site.data.keyword.Bluemix_notm}} 플랫폼에서 검색 중인 CLI 명령을 더 쉽게 찾을 수 있습니다. [CLI 문서](/docs/cli?topic=cloud-cli-ibmcloud-cli)의 참조 절을 확인하십시오. 
+이제 한 위치에서 모든 {{site.data.keyword.Bluemix_notm}} CLI 플러그인 문서에 액세스하여 {{site.data.keyword.Bluemix_notm}} 플랫폼에서 검색 중인 CLI 명령을 더 쉽게 찾을 수 있습니다. [CLI 문서](/docs/cli?topic=cloud-cli-ibmcloud-cli)의 참조 절을 확인하십시오.
 
 ### 새 대시보드 및 리소스 목록 확인
 신규 기준일: 2018년 11월 30일
@@ -239,7 +239,7 @@ IAM(Identity and Access Management)은 이제 서비스 ID를 작성할 수 있�
 신규 기준일: 2017년 5월 23일
 {: #console-may17}
 
-이제 업데이트된 {{site.data.keyword.Bluemix_notm}} 콘솔을 통해 단일 위치에서 퍼블릭 지역을 관리할 수 있습니다. 지역 선택기는 리소스에 대한 간소화된 액세스를 제공하고 기타 개선사항에는 고가용성 및 향상된 성능이 포함됩니다. 자세한 정보는 [New Global Bluemix UI for Higher Availability and More](https://www.ibm.com/blogs/bluemix/2017/05/new-global-bluemix-ui-higher-availability/){: new_window} ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")를 참조하십시오. 
+이제 업데이트된 {{site.data.keyword.Bluemix_notm}} 콘솔을 통해 단일 위치에서 퍼블릭 지역을 관리할 수 있습니다. 지역 선택기는 리소스에 대한 간소화된 액세스를 제공하고 기타 개선사항에는 고가용성 및 향상된 성능이 포함됩니다. 자세한 정보는 [New Global Bluemix UI for Higher Availability and More](https://www.ibm.com/blogs/bluemix/2017/05/new-global-bluemix-ui-higher-availability/){: new_window} ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")를 참조하십시오.
 
 ### ID 및 액세스 관리
 신규 기준일: 2017년 5월 01일
@@ -253,7 +253,7 @@ IAM(Identity and Access Management)은 이제 서비스 ID를 작성할 수 있�
 
 최근에 연결된 IaaS-PaaS 계정에서 SoftLayer 고객 포털 또는 {{site.data.keyword.Bluemix_notm}} 콘솔에 사용자를 개별적으로 추가할 필요 없이 통합 방식으로 사용자를 관리하도록 통합 사용자 관리 기능이 개선되었습니다.
 
-자세한 정보는 [Introducing Identity & Access Management](https://www.ibm.com/blogs/bluemix/2017/05/introducing-identity-access-management/){: new_window} ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘") 블로그 게시물을 확인하십시오. 
+자세한 정보는 [Introducing Identity & Access Management](https://www.ibm.com/blogs/bluemix/2017/05/introducing-identity-access-management/){: new_window} ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘") 블로그 게시물을 확인하십시오.
 
 ### {{site.data.keyword.Bluemix_notm}} 문서의 디자인 변경사항 탐색
 신규 기준일: 2017년 4월 13일
@@ -393,7 +393,7 @@ IAM(Identity and Access Management)은 이제 서비스 ID를 작성할 수 있�
 #### 다중 노드 스토리지
 {: #sapcertmultinodestorage}
 
-OLAP(Online Analytical Processing) 워크로드용 SAP HANA 다중 노드 스토리지(예: SAP BW(SAP Business Warehouse) 및 SAP BW/4HANA)입니다. SAP HANA 다중 노드의 {{site.data.keyword.cloud_notm}} 솔루션은 한 시스템에 사용되는 최대 30TB의 메모리용으로 최대 15+1개의 노드(15개의 작업자 노드와 1개의 대기 노드)로 구성됩니다. 시작하려면 [SAP HANA 다중 노드를 지원하도록 {{site.data.keyword.cloud_notm}} 인프라 구성](/docs/infrastructure/sap-hana?topic=sap-hana-multi-node-storage)을 참조하십시오. 
+OLAP(Online Analytical Processing) 워크로드용 SAP HANA 다중 노드 스토리지(예: SAP BW(SAP Business Warehouse) 및 SAP BW/4HANA)입니다. SAP HANA 다중 노드의 {{site.data.keyword.cloud_notm}} 솔루션은 한 시스템에 사용되는 최대 30TB의 메모리용으로 최대 15+1개의 노드(15개의 작업자 노드와 1개의 대기 노드)로 구성됩니다. 시작하려면 [SAP HANA 다중 노드를 지원하도록 {{site.data.keyword.cloud_notm}} 인프라 구성](/docs/infrastructure/sap-hana?topic=sap-hana-multi-node-storage)을 참조하십시오.
 
 
 #### 고가용성
@@ -409,7 +409,7 @@ SAP Content Server는 임의 형식을 사용하고 임의 컨텐츠를 포함�
 #### SAP MaxDB
 {: #sapmaxdb}
 
-SAP MaxDB는 SAP NetWeaver에 사용할 수 있습니다. 시작하려면 [{{site.data.keyword.cloud_notm}} SAP 인증 인프라 정보](/docs/infrastructure/sap-netweaver?topic=sap-netweaver-about_ibmcloud_for_sap)를 참조하십시오. 
+SAP MaxDB는 SAP NetWeaver에 사용할 수 있습니다. 시작하려면 [{{site.data.keyword.cloud_notm}} SAP 인증 인프라 정보](/docs/infrastructure/sap-netweaver?topic=sap-netweaver-about_ibmcloud_for_sap)를 참조하십시오.
 
 #### SAP Business One
 {: #sapbusinessone}
@@ -457,7 +457,7 @@ SAP Business One은 중소기업용으로 특별히 디자인된 전사적 자�
 
 {{site.data.keyword.containerlong_notm}}는 2017년 5월에 Kubernetes 아키텍처를 발표했습니다. 단일 확장 가능한 컨테이너 그룹의 이전 아키텍처는 이제 [2017년 12월 5일부로 더 이상 완전히 사용되지 않습니다.](https://www.ibm.com/blogs/bluemix/2017/07/deprecation-single-scalable-group-container-service-bluemix-public/){: new_window} ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")  
 
-[{{site.data.keyword.Bluemix_notm}}](/docs/containers?topic=containers-container_index)에서 원시 Kubernetes 환경을 시작하기에 대한 자세한 정보는 문서를 참조하십시오. 질문이 있는 경우에는 이를 Slack 채널([https://ibm-container-service.slack.com/](https://ibm-container-service.slack.com/){: new_window} ![외부 링크 아이콘](../icons/launch-glyph.svg "외부 링크 아이콘"))에 게시할 수 있습니다. 
+[{{site.data.keyword.Bluemix_notm}}](/docs/containers?topic=containers-container_index)에서 원시 Kubernetes 환경을 시작하기에 대한 자세한 정보는 문서를 참조하십시오. 질문이 있는 경우에는 이를 Slack 채널([https://ibm-container-service.slack.com/](https://ibm-container-service.slack.com/){: new_window} ![외부 링크 아이콘](../icons/launch-glyph.svg "외부 링크 아이콘"))에 게시할 수 있습니다.
 
 
 ### {{site.data.keyword.containerlong_notm}}는 이제 고가용성 Kubernetes 마스터와 함께 제공됨
@@ -470,7 +470,7 @@ SAP Business One은 중소기업용으로 특별히 디자인된 전사적 자�
 신규 기준일: 2018년 7월 10일
 {: #kubejuly18}
 
-클러스터 및 앱 가용성을 향상시키고 싶으십니까? 이제 클러스터를 대도시 지역의 여러 구역에서 확장할 수 있습니다. 자세한 정보는 [{{site.data.keyword.containershort_notm}}에서 다중 구역 클러스터 작성](/docs/containers?topic=containers-ha_clusters)을 참조하십시오.  
+클러스터 및 앱 가용성을 향상시키고 싶으십니까? 이제 클러스터를 대도시 지역의 여러 구역에서 확장할 수 있습니다. 자세한 정보는 [{{site.data.keyword.containershort_notm}}에서 다중 구역 클러스터 작성](/docs/containers?topic=containers-ha_clusters)을 참조하십시오. 
 
 ### {{site.data.keyword.containerlong_notm}}에 대한 Kubernetes 대시보드 액세스
 신규 기준일: 2018년 4월 18일
@@ -483,13 +483,13 @@ SAP Business One은 중소기업용으로 특별히 디자인된 전사적 자�
 신규 기준일: 2017년 7월 17일
 {: #libertyjuly17}
 
-Liberty 빌드팩 v3.11은 새 월별 Liberty 런타임 버전을 제공하고 기타 개선사항을 포함합니다. 월별 Liberty 런타임 버전은 [2017.7.0.0](https://developer.ibm.com/wasdev/blog/2017/07/07/beta-websphere-liberty-tools-july-2017/) 릴리스로 업데이트되었습니다. IBM JDK는 8.0.4.7 및 7.1.4.5 버전으로 업데이트되었습니다. 빌드팩은 App Management 유틸리티 및 Auto-Scaling 에이전트의 업데이트된 버전도 제공합니다. 기본 Cloudant Library는 이제 공식 [java-cloudant](https://github.com/cloudant/java-cloudant)이며, [Ektorp library](https://github.com/helun/Ektorp)는 계속해서 옵션으로 사용 가능합니다. 이 변경사항에 대한 세부사항은 [블로그 게시물](https://www.ibm.com/blogs/bluemix/2017/05/default-library-change-cloudant-auto-wiring-liberty-buildpack/)을 참조하십시오. 애플리케이션의 메모리가 512MB 미만이면 이제 기본 힙 크기 비율은 50%가 되고, 512MB를 초과하면 기본 힙 크기 비율은 75%가 됩니다. 이제 새 스테이징 태스크 로그가 생성되므로 스테이징 오류를 더 쉽게 디버그할 수 있습니다. 추가 정보는 [최신 업데이트](/docs/runtimes/liberty?topic=liberty-latest_updates)를 참조하십시오. 
+Liberty 빌드팩 v3.11은 새 월별 Liberty 런타임 버전을 제공하고 기타 개선사항을 포함합니다. 월별 Liberty 런타임 버전은 [2017.7.0.0](https://developer.ibm.com/wasdev/blog/2017/07/07/beta-websphere-liberty-tools-july-2017/) 릴리스로 업데이트되었습니다. IBM JDK는 8.0.4.7 및 7.1.4.5 버전으로 업데이트되었습니다. 빌드팩은 App Management 유틸리티 및 Auto-Scaling 에이전트의 업데이트된 버전도 제공합니다. 기본 Cloudant Library는 이제 공식 [java-cloudant](https://github.com/cloudant/java-cloudant)이며, [Ektorp library](https://github.com/helun/Ektorp)는 계속해서 옵션으로 사용 가능합니다. 이 변경사항에 대한 세부사항은 [블로그 게시물](https://www.ibm.com/blogs/bluemix/2017/05/default-library-change-cloudant-auto-wiring-liberty-buildpack/)을 참조하십시오. 애플리케이션의 메모리가 512MB 미만이면 이제 기본 힙 크기 비율은 50%가 되고, 512MB를 초과하면 기본 힙 크기 비율은 75%가 됩니다. 이제 새 스테이징 태스크 로그가 생성되므로 스테이징 오류를 더 쉽게 디버그할 수 있습니다. 추가 정보는 [최신 업데이트](/docs/runtimes/liberty?topic=liberty-latest_updates)를 참조하십시오.
 
 ### 새 Liberty for Java 빌드팩 v3.10
 신규 기준일: 2017년 6월 12일
 {: #libertyjune17}
 
-Liberty 빌드팩 v3.10은 새 분기별 및 월별 Liberty 런타임 버전을 제공하고 기타 개선사항을 포함합니다. 기본 Liberty 런타임 버전이 17.0.0.2로 업데이트되었습니다. 월별 Liberty 런타임 버전이 [2017.5.0.0](https://developer.ibm.com/wasdev/blog/2017/05/12/beta-websphere-liberty-tools-may-2017/){: new_window} ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘") 릴리스로 업데이트되었습니다. 빌드팩은 App Management 유틸리티 및 Extreme Scale Client의 업데이트된 버전도 제공합니다. 추가 정보는 [최신 업데이트](/docs/runtimes/liberty?topic=liberty-latest_updates)를 참조하십시오. 
+Liberty 빌드팩 v3.10은 새 분기별 및 월별 Liberty 런타임 버전을 제공하고 기타 개선사항을 포함합니다. 기본 Liberty 런타임 버전이 17.0.0.2로 업데이트되었습니다. 월별 Liberty 런타임 버전이 [2017.5.0.0](https://developer.ibm.com/wasdev/blog/2017/05/12/beta-websphere-liberty-tools-may-2017/){: new_window} ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘") 릴리스로 업데이트되었습니다. 빌드팩은 App Management 유틸리티 및 Extreme Scale Client의 업데이트된 버전도 제공합니다. 추가 정보는 [최신 업데이트](/docs/runtimes/liberty?topic=liberty-latest_updates)를 참조하십시오.
 
 ### 새 SDK for Node.js 빌드팩 v3.12
 신규 기준일: 2017년 5월 16일
@@ -503,7 +503,7 @@ SDK for Node.js 빌드팩 v3.12는 IBM SDK for Node.js 버전 0.12.17, 0.12.18, 
 신규 기준일: 2017년 4월 27일
 {: #libertyapril17}
 
-Liberty 빌드팩 v3.9는 새 월별 Liberty 런타임 버전을 제공하고 기타 개선사항을 포함합니다. 기본 Liberty 런타임 버전은 PI77770, PI77605, IFPI77438 및 IFPI79275 iFixes를 포함하도록 업데이트되었습니다. 월별 Liberty 런타임 버전은 [2017.3.0.0](https://developer.ibm.com/wasdev/blog/2017/03/14/beta-websphere-liberty-tools-march-2017/){: new_window} ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘") 릴리스로 업데이트되었습니다. 애플리케이션을 다시 시작하여 힙 메모리를 좀 더 쉽게 변경할 수 있도록 메모리 계산이 스테이징에서 시작 프로세스로 이동되었습니다. 빌드팩은 Auto-Scaling 서비스 에이전트 및 Extreme Scale Client의 업데이트된 버전도 제공합니다. 추가 정보는 [최신 업데이트](/docs/runtimes/liberty?topic=liberty-latest_updates)를 참조하십시오. 
+Liberty 빌드팩 v3.9는 새 월별 Liberty 런타임 버전을 제공하고 기타 개선사항을 포함합니다. 기본 Liberty 런타임 버전은 PI77770, PI77605, IFPI77438 및 IFPI79275 iFixes를 포함하도록 업데이트되었습니다. 월별 Liberty 런타임 버전은 [2017.3.0.0](https://developer.ibm.com/wasdev/blog/2017/03/14/beta-websphere-liberty-tools-march-2017/){: new_window} ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘") 릴리스로 업데이트되었습니다. 애플리케이션을 다시 시작하여 힙 메모리를 좀 더 쉽게 변경할 수 있도록 메모리 계산이 스테이징에서 시작 프로세스로 이동되었습니다. 빌드팩은 Auto-Scaling 서비스 에이전트 및 Extreme Scale Client의 업데이트된 버전도 제공합니다. 추가 정보는 [최신 업데이트](/docs/runtimes/liberty?topic=liberty-latest_updates)를 참조하십시오.
 
 ## 서비스
 {: #services_category}
@@ -517,9 +517,9 @@ Liberty 빌드팩 v3.9는 새 월별 Liberty 런타임 버전을 제공하고 �
 {{site.data.keyword.appid_short_notm}}를 사용하면 모바일 및 웹 앱에 여러 다른 유형의 사용자 인증을 추가할 수 있습니다. 몇 행의 코드로 인증을 추가하고 사용자층에 따라 스케일링하기 위해 인프라를 관리하지 않아도 됩니다. 다음 개선사항을 확인하고 서비스를 직접 시도해 보십시오!
 
 다중 요소 인증: 이제 Cloud Directory에 이메일 기반 MFA를 사용할 수 있습니다. MFA가 작동으로 설정되어 있으면 사용자는 비밀번호 외에도 이메일을 통해 받은 일회성 코드를 제공하도록 요청을 받습니다. 소셜 로그인 또는 SAML 2.0을 사용하는 엔터프라이즈 로그인을 사용하는 경우 해당 ID 제공자를 통해 MFA를 사용할 수 있습니다.
-고급 비밀번호 정책: 고급 비밀번호 정책 기능을 사용하면 Cloud Directory에 보다 강력한 비밀번호를 적용할 수 있습니다. 잠길 때까지 사용자가 시도할 수 있는 로그인 횟수 또는 비밀번호가 반복될 수 있는 횟수와 같이, 사용자 비밀번호가 따라야 하는 규칙 세트를 구성할 수 있습니다. 
+고급 비밀번호 정책: 고급 비밀번호 정책 기능을 사용하면 Cloud Directory에 보다 강력한 비밀번호를 적용할 수 있습니다. 잠길 때까지 사용자가 시도할 수 있는 로그인 횟수 또는 비밀번호가 반복될 수 있는 횟수와 같이, 사용자 비밀번호가 따라야 하는 규칙 세트를 구성할 수 있습니다.
 
-고급 보안 기능에는 추가 가격 컴포넌트가 있습니다. 가격 계산 방법에 대한 자세한 정보는 [카탈로그](https://cloud.ibm.com/catalog/services/app-id){: new_window} ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")의 가격 섹션을 참조하십시오. 
+고급 보안 기능에는 추가 가격 컴포넌트가 있습니다. 가격 계산 방법에 대한 자세한 정보는 [카탈로그](https://cloud.ibm.com/catalog/services/app-id){: new_window} ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")의 가격 섹션을 참조하십시오.
 
 [{{site.data.keyword.appid_short_notm}} 문서](/docs/services/appid?topic=appid-gettingstarted)를 확인하고 오늘 시작하십시오!
 
@@ -580,7 +580,7 @@ Terraform 및 Ansible은 클라우드 솔루션 배치의 시작부터 끝까지
 신규 기준일: 2018년 9월 28일
 {: #whatsnewcloudantsept18}
 
-{{site.data.keyword.cloudant_short_notm}}에 대한 [최신 업데이트](/docs/services/Cloudant/release_info?topic=cloudant-release-notes)의 전체 목록을 보려면 다음 페이지를 방문하십시오. 
+{{site.data.keyword.cloudant_short_notm}}에 대한 [최신 업데이트](/docs/services/Cloudant/release_info?topic=cloudant-release-notes)의 전체 목록을 보려면 다음 페이지를 방문하십시오.
 
 ### {{site.data.keyword.IBM_notm}} {{site.data.keyword.DRA_short}} GA(General Availability) 소개
 신규 기준일: 2018년 9월 20일
@@ -696,13 +696,6 @@ Terraform 및 Ansible은 클라우드 솔루션 배치의 시작부터 끝까지
 
 2017년 11월 이후에 {{site.data.keyword.containershort_notm}}가 Kubernetes `1.8.x`를 지원했습니다. 이제 Kubernetes의 기본 버전인 `1.8.6`을 발표하게 되었습니다.  조만간 `1.9.x`에 대한 지원을 제공할 예정입니다.
 
-### Watson Discovery Visual Insights
-신규 기준일: 2017년 11월 30일
-{: #whatsnewvinov17}
-
-엔티티, 관계, 개념 등과 같이 텍스트에서 발견된 시맨틱 요소의 {{site.data.keyword.discoveryshort}}를 이해하여 구현된 연결을 시각적으로 탐색하십시오.
-
-즉시 {{site.data.keyword.discoveryshort}} News 콜렉션을 사용하여 전세계의 뉴스 탐색을 시작하십시오. 또는 {{site.data.keyword.discoveryshort}}에서 고유한 문서 콜렉션을 탐색하십시오. {{site.data.keyword.Bluemix_notm}} 인증 정보로 로그인하면 됩니다. 자세한 정보는 [Visual insights experimental](https://visual-insights.cloud.ibm.com){: new_window} ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")을 참조하십시오.
 
 ### 새 IBM Cloud Managed Database Server Beta 서비스
 신규 기준일: 2017년 11월 30일
@@ -732,7 +725,7 @@ Terraform 및 Ansible은 클라우드 솔루션 배치의 시작부터 끝까지
 #### 웹 알림
 {: #webnotifications-push}
 
-이제는 Firefox, Chrome, Chrome 앱 및 확장기능과 함께 웹 알림을 위한 Safari 웹 브라우저가 지원됩니다. Web SDK 및 관련 정보는 [{{site.data.keyword.Bluemix_notm}} Push Notifications Web SDK](https://github.com/ibm-bluemix-mobile-services/bms-clientsdk-javascript-webpush/blob/Doc/README.md){: new_window} ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")에서 볼 수 있습니다. 
+이제는 Firefox, Chrome, Chrome 앱 및 확장기능과 함께 웹 알림을 위한 Safari 웹 브라우저가 지원됩니다. Web SDK 및 관련 정보는 [{{site.data.keyword.Bluemix_notm}} Push Notifications Web SDK](https://github.com/ibm-bluemix-mobile-services/bms-clientsdk-javascript-webpush/blob/Doc/README.md){: new_window} ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")에서 볼 수 있습니다.
 
 #### 최신 Android 및 iOS 알림
 {: #mobilenotifications-push}
@@ -752,7 +745,7 @@ Apple은 Apple 알림을 위한 HTTP 프로토콜 지원을 도입했습니다. 
 #### 새 Lite 플랜
 {: #liteplan-push}
 
-{{site.data.keyword.mobilepushshort}} 서비스의 Lite 플랜은 매달 무료로 100K 알림을 전송할 수 있는 기능을 제공합니다. 자세한 정보는 [Lite Plan For Push Notifications Service on {{site.data.keyword.Bluemix_notm}}](https://www.ibm.com/blogs/bluemix/2017/06/lite-plan-push-notifications-service-bluemix/){: new_window} ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘") 블로그 게시물을 참조하십시오. 
+{{site.data.keyword.mobilepushshort}} 서비스의 Lite 플랜은 매달 무료로 100K 알림을 전송할 수 있는 기능을 제공합니다. 자세한 정보는 [Lite Plan For Push Notifications Service on {{site.data.keyword.Bluemix_notm}}](https://www.ibm.com/blogs/bluemix/2017/06/lite-plan-push-notifications-service-bluemix/){: new_window} ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘") 블로그 게시물을 참조하십시오.
 
 
 
@@ -826,7 +819,7 @@ IBM App Launch for {{site.data.keyword.Bluemix_notm}} Services는 고객의 여�
 * 다른 주제에 대해 전문화된 코그너티브 에이전트에 다른 전화번호를 연결하려는 경우 다중 음성 에이전트를 쉽게 작성하고 관리합니다.
 * SOE(Service Orchestration Engine)에 연결하여 서비스 기능을 확장하면 서드파티 API를 사용할 수 있습니다. 예를 들어, SOE는 {{site.data.keyword.conversationshort}} 서비스에서 트리거에 대해 청취한 후 기존 시스템에서 제공된 API를 사용하여 정보를 찾거나 기타 분석을 제공할 수 있습니다.
 
-시작하려면 [{{site.data.keyword.iva_short}}](/docs/services/voice-agent?topic=voice-agent-getting-started-tutorial) 시작하기 문서를 참조하십시오. 
+시작하려면 [{{site.data.keyword.iva_short}}](/docs/services/voice-agent?topic=voice-agent-getting-started-tutorial) 시작하기 문서를 참조하십시오.
 
 
 ### {{site.data.keyword.streaminganalyticsshort}} 서비스 업데이트: 콘솔에 애플리케이션에서 문제점을 정확히 찾을 수 있는 새로운 방법이 포함됨
@@ -855,7 +848,7 @@ Python 및 Java 애플리케이션의 경우 소스 파일 위치는 @spl_note �
 
 레거시 {{site.data.keyword.monitoringshort}} 서비스는 30초부터 시작한 서비스 정의 빈도로 메트릭을 수집하고 시간 경과에 따라 1시간 빈도로 요약합니다. {{site.data.keyword.monitoringlong}}은 이제 1분 간 전체 분석 콜렉션을 제공합니다.  Lite 플랜은 15일 동안 메트릭을 보존합니다.  프리미엄 플랜은 45일 동안 메트릭을 보존합니다.
 
-{{site.data.keyword.monitoringlong}} 서비스에 대한 자세한 정보는 [모니터링 시작하기 문서](/docs/services/cloud-monitoring?topic=cloud-monitoring-getting-started-with-ibm-cloud-monitoring) 또는 [IBM Cloud Monitoring – Service Refresh with New Features ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")](https://www.ibm.com/blogs/bluemix/2017/07/ibm-cloud-monitoring-service-refresh-new-features/)를 참조하십시오. 
+{{site.data.keyword.monitoringlong}} 서비스에 대한 자세한 정보는 [모니터링 시작하기 문서](/docs/services/cloud-monitoring?topic=cloud-monitoring-getting-started-with-ibm-cloud-monitoring) 또는 [IBM Cloud Monitoring – Service Refresh with New Features ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")](https://www.ibm.com/blogs/bluemix/2017/07/ibm-cloud-monitoring-service-refresh-new-features/)를 참조하십시오.
 
 
 ### IBM Cloud Log Analysis는 이제 미국 남부 지역에서 사용 가능함
@@ -882,7 +875,7 @@ Python 및 Java 애플리케이션의 경우 소스 파일 위치는 @spl_note �
 
     단일 및 그룹 컨테이너와 {{site.data.keyword.IBM_notm}} Cloud Foundry를 사용하는 {{site.data.keyword.loganalysisshort}} 서비스의 경우 {{site.data.keyword.Bluemix_notm}} UI에서 서비스에 액세스할 수 있습니다.
 
-{{site.data.keyword.loganalysisshort}} 서비스에 대한 자세한 정보는 [{{site.data.keyword.loganalysisfull}} 시작하기](/docs/services/CloudLogAnalysis?topic=cloudloganalysis-getting-started-with-cla)를 참조하십시오. 
+{{site.data.keyword.loganalysisshort}} 서비스에 대한 자세한 정보는 [{{site.data.keyword.loganalysisfull}} 시작하기](/docs/services/CloudLogAnalysis?topic=cloudloganalysis-getting-started-with-cla)를 참조하십시오.
 
 ### Virtual Router Appliance를 위한 Brocade 운영 체제 버전 18.x
 신규 기준일: 2017년 7월 25일
@@ -934,7 +927,7 @@ DB2 Warehouse on Cloud 및 DB2 on Cloud에 대한 업데이트의 누적 목록�
 
 레거시 {{site.data.keyword.monitoringshort}} 서비스는 30초에서 시작하는 서비스 정의 빈도로 메트릭을 수집했으며 시간 경과에 따라 1시간 빈도로 요약했습니다. {{site.data.keyword.monitoringlong}}은 이제 1분 간 전체 분석 콜렉션을 제공합니다.  Lite 플랜은 15일 동안 메트릭을 보존합니다.  프리미엄 플랜은 45일 동안 메트릭을 보존합니다.
 
-{{site.data.keyword.monitoringlong}} 서비스에 대한 자세한 정보는 [모니터링 시작하기](/docs/services/cloud-monitoring?topic=cloud-monitoring-getting-started-with-ibm-cloud-monitoring) 또는 [IBM Cloud Monitoring – Service Refresh with New Features ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")](https://www.ibm.com/blogs/bluemix/2017/07/ibm-cloud-monitoring-service-refresh-new-features/)를 참조하십시오. 
+{{site.data.keyword.monitoringlong}} 서비스에 대한 자세한 정보는 [모니터링 시작하기](/docs/services/cloud-monitoring?topic=cloud-monitoring-getting-started-with-ibm-cloud-monitoring) 또는 [IBM Cloud Monitoring – Service Refresh with New Features ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")](https://www.ibm.com/blogs/bluemix/2017/07/ibm-cloud-monitoring-service-refresh-new-features/)를 참조하십시오.
 
 ### {{site.data.keyword.contdelivery_short}} 업그레이드
 신규 기준일: 2017년 7월 11일
@@ -995,7 +988,7 @@ Apache Spark는 기본적으로 {{site.data.keyword.objectstorageshort}}용으�
 
 **Lite 플랜**: {{site.data.keyword.mobilepush}} 서비스를 위한 기존 기본 플랜 외에도 새 Lite 플랜을 도입하였습니다. 새 플랜에 따라 사용자는 매달 최대 100,000개의 디지털 메시지를 무료로 전송할 수 있습니다. Lite 플랜에서 기본 플랜으로 업그레이드하는 동안 백만 개의 디지털 메시지 후에 사용자에게 청구됩니다. 백만 개 메시지 계수는 Lite 플랜이 기본 플랜으로 업그레이드될 때 시작합니다.
 
-**모니터링**: 이제 {{site.data.keyword.mobilepush}} Service Console에서 받은 알림 및 등록된 디바이스에 대한 인사이트를 얻을 수 있습니다. 또한 메시지 레벨 추적을 위해 REST API를 사용할 수도 있습니다. 메시지 전송에서 메시지 수신인으로 디스패치하는 메시지까지 구성 웹훅으로 세부사항을 가져올 수 있습니다.  [{{site.data.keyword.mobilepush}} 모니터링](/docs/services/mobilepush?topic=mobile-pushnotification-push_monitoring)을 참조하십시오. 
+**모니터링**: 이제 {{site.data.keyword.mobilepush}} Service Console에서 받은 알림 및 등록된 디바이스에 대한 인사이트를 얻을 수 있습니다. 또한 메시지 레벨 추적을 위해 REST API를 사용할 수도 있습니다. 메시지 전송에서 메시지 수신인으로 디스패치하는 메시지까지 구성 웹훅으로 세부사항을 가져올 수 있습니다.  [{{site.data.keyword.mobilepush}} 모니터링](/docs/services/mobilepush?topic=mobile-pushnotification-push_monitoring)을 참조하십시오.
 
 **웹 알림**: 이제 Safari 웹 브라우저에 알림을 전송할 수 있습니다.
 

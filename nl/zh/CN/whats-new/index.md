@@ -698,13 +698,6 @@ Terraform 和 Ansible 都是开放式源代码软件，可用于自动化云解�
 
 自 2017 年 11 月开始，{{site.data.keyword.containershort_notm}} 支持 Kubernetes `1.8.x`。我们很自豪地宣布，现在 Kubernetes 的缺省版本为 `1.8.6`。在不久的将来，我们将提供对 `1.9.x` 的支持。
 
-### Watson Discovery Visual Insights
-最新更新日期：2017 年 11 月 30 日
-{: #whatsnewvinov17}
-
-直观地浏览基于 {{site.data.keyword.discoveryshort}} 对文本中所检测到语义元素（例如实体、关系、概念等）的理解的连接。
-
-使用现成的 {{site.data.keyword.discoveryshort}} News 集合开始浏览全球新闻。或者在 {{site.data.keyword.discoveryshort}} 中浏览您自己的文档集合。只需使用您的 {{site.data.keyword.Bluemix_notm}} 凭证登录即可。有关更多信息，请参阅 [Visual insights experimental](https://visual-insights.cloud.ibm.com){: new_window} ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")。
 
 ### 新增 IBM Cloud Managed Database Server Beta 服务
 最新更新日期：2017 年 11 月 30 日
