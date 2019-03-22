@@ -167,13 +167,6 @@ New as of: 03 April 2018
 
 Do you want to be able to assign access quickly by using the least number of policies possible? Now you can with access groups. Access groups enable you to group a set of users and service IDs together and assign a single policy that applies to all members of the group. By using access groups, you can limit the time that you spend managing access to the users and service IDs in your account. Check out the blog post [New feature: Access groups](https://www.ibm.com/blogs/bluemix/2018/04/access-groups/){: new_window} ![External link icon](../../icons/launch-glyph.svg "External link icon") for more details.
 
-### SoftLayer and {{site.data.keyword.Bluemix_notm}} account linking
-New as of: 01 March 2018
-{: #account-completion}
-
-You can link your SoftLayer account to your {{site.data.keyword.Bluemix_notm}} account to log in to a single location, the {{site.data.keyword.Bluemix_notm}} console, and access both infrastructure as a service (IaaS) and platform as a service (PaaS) resources. If you're new to {{site.data.keyword.Bluemix_notm}}, create and link an account to get a free {{site.data.keyword.Bluemix_notm}} Lite account. Or, if you already have an {{site.data.keyword.Bluemix_notm}} account with PaaS resources, link your accounts to receive a single bill for both your IaaS and PaaS resources. Check out [Steps to Link your IaaS and PaaS Accounts](https://www.ibm.com/blogs/bluemix/2018/03/follow-steps-link-iaas-paas-accounts/){: new_window} ![External link icon](../../icons/launch-glyph.svg "External link icon") to quickly link your accounts.
-
-
 ### {{site.data.keyword.Bluemix_notm}} Foundry Service US East region is now available
 New as of: 15 December 2017
 {: #cf-useast}
