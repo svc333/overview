@@ -3,7 +3,7 @@
 
 copyright:
   years: 2018, 2019
-lastupdated: "2019-03-14"
+lastupdated: "2019-03-25"
 
 keywords: feedback button, comments, requirements, product improvements
 
@@ -43,11 +43,11 @@ You can submit feedback on a specific documentation topic by using the **Was thi
 ## Providing a content update with a pull request
 {: #feedback-pr}
 
-You can submit suggested changes to any documentation page by using the **Edit in GitHub** link at the top of each page. By following that link and editing the page, you can submit updates in a pull request for the content team to review and merge. 
+You can submit suggested changes to any documentation page by using the **Edit Topic** link at the top of each page. By following that link and editing the page, you can submit updates in a pull request for the content team to review and merge. 
 
 Complete the following process to submit a pull request to the content team:
 
-1. Click **Edit in Github** on the page that you want to update.
+1. Click **Edit Topic** on the page that you want to update.
 2. Click the **Edit this file** icon.
 3. Make the changes to the file in the WYSIWYG editor.
 4. Scroll to the end of the page and enter a brief description about your change. The extended description is optional.
@@ -63,11 +63,9 @@ You can open an issue for the content team to address from any documentation pag
 
 To open an issue from a documentation page, complete the following steps:
 
-1. Click the **Edit in GitHub** link.
-2. Select **Issues**
-3. Click **New issue**.
-4. Enter a title and description for the issue.
-5. Click **Submit new issue**. 
+1. Click the **Open Issue** link.
+2. Enter a title and fill out the template.
+3. Click **Submit new issue**. 
 
 The content team receives the issues that you open and works to address the feedback. You can monitor the issue by saving the link after you click **Submit new issue**. As the issue gets resolved, the content team provides status updates as a comment on the issue.
 
