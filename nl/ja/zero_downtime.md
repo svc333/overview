@@ -2,9 +2,11 @@
 
 copyright:
   years: 2018, 2019
-lastupdated: "2019-02-27"
+lastupdated: "2019-03-14"
 
-metadata: HA,failover,DR 
+keywords: HA, failover, DR
+
+subcollection: overview
 
 ---
 
@@ -64,31 +66,10 @@ metadata: HA,failover,DR
 
 コンソールのリソース・リスト・ビューから、デフォルトですべてのロケーションのすべてのリソースを表示できます。 特定のロケーションのリソースを表示および処理する場合は、**「ロケーション」**メニューを展開し、リストからロケーションを選択します。 
 
-また、`ibmcloud api` コマンドを使用し、ロケーションの API エンドポイントを指定することにより、コマンド・ライン・インターフェース (CLI) を使用して、作業する {{site.data.keyword.cloud_notm}} ロケーションに接続することもできます。 例えば、
-{{site.data.keyword.cloud_notm}} ロンドンに接続するには、次のコマンドを入力します。
-
-```
-ibmcloud api https://api.eu-gb.cf.cloud.ibm.com
-```
-
-各ロケーションに固有の接頭部が割り当てられています。 {{site.data.keyword.cloud_notm}} には、次のロケーションと、ロケーション接頭部が用意されています。
-
-| **ロケーション**  | **API エンドポイント**        |
-|---------------|-------------------------|
-| ダラス        | api.us-south.cf.cloud.ibm.com  |
-| フランクフルト     | api.eu-de.cf.cloud.ibm.com  |
-| ロンドン        | api.eu-gb.cf.cloud.ibm.com  |
-| シドニー        | api.au-syd.cf.cloud.ibm.com  |
-| 東京         | api.jp-tok.cf.cloud.ibm.com  |
-| ワシントン DC | api.us-east.cf.cloud.ibm.com  |
-{: caption="表 1. {{site.data.keyword.cloud_notm}} ロケーション・リスト" caption-side="top"}
-
-インフラストラクチャーをデプロイするときには、データが置かれる場所についてさらに多くのオプションがあります。 ロケーションを選択することも、{{site.data.keyword.Bluemix_notm}} のデータ・センターのリストから選択することもできます。 
-
 ## データ・センター
 {: #data_center}
 
-データ・センターは、サービスおよびアプリに使用される電力、冷却、コンピュート、ネットワーク、およびストレージの各リソースをホストする物理的ロケーションです。 データ・センターは、1 つのロケーション内のマルチゾーンと同様で、ローカル障害からの分離を提供しません。 詳しくは、『[Global locations for your global business ![外部リンク・アイコン](../icons/launch-glyph.svg "外部リンク・アイコン")](https://www.ibm.com/cloud/data-centers/){: new_window}』を参照してください。
+インフラストラクチャーをデプロイするときには、データが置かれる場所についてさらに多くのオプションがあります。 ロケーションを選択することも、{{site.data.keyword.Bluemix_notm}} データ・センターのリストから選択することもできます。 *データ・センター*は、サービスおよびアプリに使用される電力、冷却、計算、ネットワーク、およびストレージの各リソースをホストする物理的ロケーションです。 データ・センターは、1 つのロケーション内のマルチゾーンと同様で、ローカル障害からの分離を提供しません。 詳しくは、『[Global locations for your global business ![外部リンク・アイコン](../icons/launch-glyph.svg "外部リンク・アイコン")](https://www.ibm.com/cloud/data-centers/){: new_window}』を参照してください。
 
 {{site.data.keyword.Bluemix_notm}} は、世界中の多くの場所でデータ・センターを提供しています。 インフラストラクチャー・リソースをデプロイするときに、{{site.data.keyword.Bluemix_notm}} のデータ・センターのリストから選択できます。 
 

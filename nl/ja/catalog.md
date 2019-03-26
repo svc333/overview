@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2019
-lastupdated: "2019-02-18"
+lastupdated: "2019-03-12"
 
 keywords: catalog, resources display, manage visibility
 
@@ -22,7 +22,7 @@ subcollection: overview
 ## 可視性の管理
 {: #manage-vis}
 
-カタログに表示される内容をより細かく管理したいですか? 一部のユーザーには個別リソースを隠し、それと同じリソースを他のユーザーには表示するようにしたいですか? 適切な管理者権限があれば、{{site.data.keyword.Bluemix_notm}} [CLI](/docs/cli/reference/ibmcloud?topic=cloud-cli-overview) を使用してカタログ・リソースの可視性を表示したり、設定したりできます。
+カタログに表示される内容をより細かく管理したいですか? 一部のユーザーには個別リソースを隠し、それと同じリソースを他のユーザーには表示するようにしたいですか? 適切な管理者権限があれば、{{site.data.keyword.Bluemix_notm}} [CLI](/docs/cli?topic=cloud-cli-ibmcloud-cli) を使用してカタログ・リソースの可視性を表示したり、設定したりできます。
 
 詳しくは、以下のトピックを参照してください。
 
