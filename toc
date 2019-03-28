@@ -14,7 +14,7 @@ Getting started with IBM Cloud
 
     {: .topicgroup}
     Related links
-        [Why IBM Cloud?](https://www.ibm.com/cloud-computing/learn-more/why-ibm-cloud/){: new_window}
+        [Why IBM Cloud?](https://www.ibm.com/cloud/why-ibm/){: new_window}
         [Security in the cloud](https://www.ibm.com/cloud/security){: new_window}
     {: .navgroup-end}
 
