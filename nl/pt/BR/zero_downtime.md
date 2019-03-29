@@ -2,9 +2,11 @@
 
 copyright:
   years: 2018, 2019
-lastupdated: "2019-02-27"
+lastupdated: "2019-03-14"
 
-metadata: HA,failover,DR 
+keywords: HA, failover, DR
+
+subcollection: overview
 
 ---
 
@@ -91,36 +93,10 @@ recursos no console. Se você desejar
 visualizar e trabalhar com os recursos em uma localização específica, expanda o menu **LOCALIZAÇÃO** e
 selecione uma localização na lista. 
 
-Também é possível usar a interface da linha de comandos (CLI) para se conectar à localização do
-{{site.data.keyword.cloud_notm}} com a qual você deseja trabalhar usando o comando `ibmcloud
-api` e especificar o terminal de API da localização. Por exemplo, insira o comando a seguir para se conectar ao
-{{site.data.keyword.cloud_notm}} Londres:
-
-```
-ibmcloud api https://api.eu-gb.cf.cloud.ibm.com
-```
-
-Um prefixo exclusivo é designado para cada localização. O {{site.data.keyword.cloud_notm}} fornece as
-localizações e os prefixos de localização a seguir.
-
-| **Localização**  | **Terminal de API**        |
-|---------------|-------------------------|
-| Dallas        | api.us-south.cf.cloud.ibm.com  |
-| Frankfurt     | api.eu-de.cf.cloud.ibm.com  |
-| Londres        | api.eu-gb.cf.cloud.ibm.com  |
-| Sydney        | api.au-syd.cf.cloud.ibm.com  |
-| Tóquio         | api.jp-tok.cf.cloud.ibm.com  |
-| Washington DC | api.us-east.cf.cloud.ibm.com  |
-{: caption="Tabela 1. {{site.data.keyword.cloud_notm}}  lista de locais" caption-side="top"}
-
-Ao implementar os recursos de infraestrutura, você tem mais opções sobre onde seus dados estão localizados. É
-possível selecionar uma localização ou selecionar em uma lista de data centers no {{site.data.keyword.Bluemix_notm}}. 
-
 ## Data centers
 {: #data_center}
 
-Um data center é o local físico usado para hospedar os recursos de energia, resfriamento, cálculo, rede e armazenamento
-para os serviços e os apps. Os data centers não fornecem isolamento de falhas locais como as multizonas em
+Ao implementar os recursos de infraestrutura, você tem mais opções sobre onde seus dados estão localizados. É possível selecionar um local ou selecionar em uma lista dos data centers do {{site.data.keyword.Bluemix_notm}}. Um *data center* é o local físico que hospeda os recursos de energia, de resfriamento, de cálculo, de rede e de armazenamento usados para serviços e apps. Os data centers não fornecem isolamento de falhas locais como as multizonas em
 uma localização. Para obter mais informações, consulte [Localizações
 globais para o seu negócio global ![Ícone de link externo](../icons/launch-glyph.svg "Ícone de link externo")](https://www.ibm.com/cloud/data-centers/){: new_window}.
 

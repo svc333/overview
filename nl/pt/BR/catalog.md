@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2019
-lastupdated: "2019-02-18"
+lastupdated: "2019-03-12"
 
 keywords: catalog, resources display, manage visibility
 
@@ -22,10 +22,9 @@ Para criar recursos do catálogo, veja [Trabalhando no catálogo](/docs/overview
 ## Gerenciando visibilidade
 {: #manage-vis}
 
-Deseja mais controle sobre o que é exibido no catálogo? Gostaria de ocultar recursos individuais para alguns usuários e exibi-los para outros? Com a autoridade de administrador adequada, é possível visualizar e configurar a visibilidade em recursos do catálogo usando a [CLI](/docs/cli/reference/ibmcloud?topic=cloud-cli-overview) do {{site.data.keyword.Bluemix_notm}}.
+Deseja mais controle sobre o que é exibido no catálogo? Gostaria de ocultar recursos individuais para alguns usuários e exibi-los para outros? Com a autoridade de administrador adequada, é possível visualizar e configurar a visibilidade em recursos do catálogo usando a [CLI](/docs/cli?topic=cloud-cli-ibmcloud-cli) do {{site.data.keyword.Bluemix_notm}}.
 
-Para obter mais informações,
-consulte os tópicos a seguir.
+Para obter mais informações, consulte os tópicos a seguir.
 
 * Se você é um administrador para a conta, é possível escolher [ocultar](/docs/account?topic=account-exclude) um recurso público para todos em sua conta.
 * Se você é um administrador para a conta, é possível escolher quem pode ver o recurso [incluindo-o](/docs/account?topic=account-include) em uma lista de inclusão.

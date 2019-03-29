@@ -5,6 +5,10 @@ copyright:
   years: 2015, 2019
 lastupdated: "2019-01-29"
 
+keywords: ui, components, using the console
+
+subcollection: overview
+
 ---
 
 {:shortdesc: .shortdesc}
@@ -40,7 +44,7 @@ Weitere Informationen enthält [Nach Ressourcen suchen](/docs/resources?topic=re
 ## Ressourcen in der Ressourcenliste verwalten
 {: #dashboardview}
 
-Rufen Sie das Menüsymbol ![Menüsymbol](../icons/icon_hamburger.svg) &gt; **Ressourcenliste** auf, um auf Ihre Liste von Kontoressourcen zuzugreifen. Sie können die Ressourcenliste Dashboard verwenden, um {{site.data.keyword.cloud_notm}}-Ressourcen und Cloud Foundry-Serviceinstanzen anzuzeigen und mit ihnen zu arbeiten. In [Was ist eine Ressource?](/docs/resources?topic=resources-resource) finden Sie weitere Informationen zu den verschiedenen Ressourcentypen. 
+Rufen Sie das Menüsymbol ![Menüsymbol](../icons/icon_hamburger.svg) &gt; **Ressourcenliste** auf, um auf Ihre Liste von Kontoressourcen zuzugreifen. Sie können die Ressourcenliste Dashboard verwenden, um {{site.data.keyword.cloud_notm}}-Ressourcen und Cloud Foundry-Serviceinstanzen anzuzeigen und mit ihnen zu arbeiten. In [Was ist eine Ressource?](/docs/resources?topic=resources-resource) finden Sie weitere Informationen zu den verschiedenen Ressourcentypen.
 
 ### Ressourcen anzeigen
 Über die Ressourcenliste können Sie alle Ressourcen Ihres Kontos für alle Regionen anzeigen. Damit die Elemente angezeigt werden, die für Sie wichtig sind, filtern Sie Ihre Liste mit den Filtern für die einzelnen Spaltenüberschriften. Wenn Sie Ressourcen an einem bestimmten Standort anzeigen und mit diesen arbeiten möchten, erweitern Sie den Filter **Standort** und wählen Sie einen Standort aus der Liste aus.

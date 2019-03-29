@@ -3,7 +3,11 @@
 
 copyright:
   years: 2018, 2019
-lastupdated: "2019-02-18"
+lastupdated: "2019-03-14"
+
+keywords: feedback button, comments, requirements, product improvements
+
+subcollection: overview
 
 ---
 
@@ -14,12 +18,8 @@ lastupdated: "2019-02-18"
 # 提交反馈
 {: #feedback}
 
-我们希望听听您的想法！您可以向 {{site.data.keyword.Bluemix_notm}} 团队提交有关文档或控制台的反馈。可以使用几种不同的方法来提供反馈：
-
-* 使用**反馈**按钮来提供有关您特别喜欢或遇到问题的文档中特定页面或控制台用户界面中特定区域的评论。
-* 使用任何文档页面顶部的**在 GitHub 中编辑**链接，通过 GitHub 拉取请求方法，提供对内容的建议编辑。
-* 在 GitHub 中，通过提供评论或请求以阐明特定主题，针对要更新或改进的文档提交问题。 
-* 在 {{site.data.keyword.Bluemix_notm}} 构想门户网站中，提交用于改进产品或特定服务的构想。
+我们希望听听您的想法！您可以向 {{site.data.keyword.Bluemix_notm}} 团队提交有关文档或控制台的反馈。您可以从几种不同的方法中进行选择来提供反馈。
+{: shortdesc}
 
 ## 使用“反馈”按钮提交评论
 {: #feedback-button}
@@ -34,6 +34,11 @@ lastupdated: "2019-02-18"
 
 常见广告拦截器会阻止 Usabilla 并隐藏**反馈**按钮。请禁用任何广告拦截器，以使用**反馈**按钮来提交您的意见。
 {: tip}
+
+## 提交有关文档主题的反馈
+{: #feedback-topic}
+
+您可以使用显示在每个主题末尾的**此页面是否有帮助？**按钮来提交有关特定文档主题的反馈。您觉得这些信息有用吗？单击**是**并视情况提供您的意见。如果您觉得没有帮助，或者您有改进建议，请单击**否**并提供更多详细信息。  
 
 ## 使用拉取请求提供内容更新
 {: #feedback-pr}

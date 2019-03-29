@@ -4,6 +4,10 @@ copyright:
   years: 2016, 2019
 lastupdated: "2019-02-19"
 
+keywords: developer tools, building apps, developer entry point, understanding dev journey, get started coding
+
+subcollection: overview
+
 ---
 {:new_window: target="_blank"}
 {:shortdesc: .shortdesc}
@@ -30,7 +34,7 @@ Mit {{site.data.keyword.cloud_notm}} haben Sie folgende Möglichkeiten:
 * Wenn Sie über eine App in einem vorhandenen Repository verfügen, können Sie ein leeres Starter-Kit verwenden, um einen Appdatensatz zu erstellen, den Sie dann mit Ihrem Quellenrepository und einer DevOps-Toolchain verbinden.
 * Mit portierbarem App-Code können Sie die Bereitstellung in unterschiedlichen Cloudumgebungen durchführen.
 * Sie können in wenigen Klicks eine [DevOps-Toolchain](/docs/services/ContinuousDelivery?topic=ContinuousDelivery-cd_getting_started) erstellen.
-* Verwenden Sie die [Befehlszeilenschnittstelle (CLI)](/docs/cli/reference/ibmcloud?topic=cloud-cli-ibmcloud-cli#ibmcloud-cli) für die lokale Entwicklung. 
+* Verwenden Sie die [Befehlszeilenschnittstelle (CLI)](/docs/cli/reference/ibmcloud?topic=cloud-cli-ibmcloud-cli#ibmcloud-cli) für die lokale Entwicklung.
 * Sie können im [{{site.data.keyword.cloud_notm}}-Katalog ![Symbol für externen Link](../icons/launch-glyph.svg "Symbol für externen Link")](https://{DomainName}/catalog){: new_window} stöbern und ihn nach Apps und Services durchsuchen, die Sie noch am selben Tag erstellen und benutzen können.
 
 ![Übersicht über Developer Experience](images/dev-journey.png "Übersicht über Developer Experience")
@@ -147,7 +151,7 @@ Wenn Sie nach einem Ort suchen, an dem Sie mit großen Ideen und aufstrebenden T
 ## Entwickler-Know-how
 {: #skills}
 
-Benutzer erwarten mehr von ihren Anwendungen als je zuvor. Sie erwarten, dass Apps aussagekräftige Informationen aus gespeicherten und Echtzeitdaten ziehen, immer verfügbar sind und ihre individuellen Bedürfnisse möglichst optimal abbilden. Um diesen Erwartungen gerecht zu werden, sind die Entwicklerfunktionalitäten in IBM Cloud an bestimmten Qualifikationsprofilen ausgerichtet und ermöglichen Ihrem Team die Verwendung einer einzigen Plattform zum Erzeugen, Bereitstellen, Ausführen und Verwalten Ihrer Apps.Eine ausgereifte kognitive Anwendung kann Beiträge von digitalen Entwicklern, Spezialisten für die cloudnative Entwicklung, Streams-Entwicklern, Data-Scientists und DevOps-Spezialisten erforderlich machen. 
+Benutzer erwarten mehr von ihren Anwendungen als je zuvor. Sie erwarten, dass Apps aussagekräftige Informationen aus gespeicherten und Echtzeitdaten ziehen, immer verfügbar sind und ihre individuellen Bedürfnisse möglichst optimal abbilden. Um diesen Erwartungen gerecht zu werden, sind die Entwicklerfunktionalitäten in IBM Cloud an bestimmten Qualifikationsprofilen ausgerichtet und ermöglichen Ihrem Team die Verwendung einer einzigen Plattform zum Erzeugen, Bereitstellen, Ausführen und Verwalten Ihrer Apps.Eine ausgereifte kognitive Anwendung kann Beiträge von digitalen Entwicklern, Spezialisten für die cloudnative Entwicklung, Streams-Entwicklern, Data-Scientists und DevOps-Spezialisten erforderlich machen.
 
  ![Entwicklertypen](images/developer_skills.png "Beziehungen zwischen Entwicklern")
 

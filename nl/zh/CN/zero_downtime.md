@@ -2,9 +2,11 @@
 
 copyright:
   years: 2018, 2019
-lastupdated: "2019-02-27"
+lastupdated: "2019-03-14"
 
-metadata: HA,failover,DR 
+keywords: HA, failover, DR
+
+subcollection: overview
 
 ---
 
@@ -64,30 +66,10 @@ metadata: HA,failover,DR
 
 缺省情况下，可以从控制台中的资源列表视图中查看所有位置中的所有资源。如果要查看和使用特定位置中的资源，请展开**位置**菜单，然后从列表中选择一个位置。 
 
-您还可以使用命令行界面 (CLI)，通过 `ibmcloud api` 命令并指定要使用的 {{site.data.keyword.cloud_notm}} 位置的 API 端点来连接到该位置。例如，输入以下命令来连接到 {{site.data.keyword.cloud_notm}} 伦敦：
-
-```
-ibmcloud api https://api.eu-gb.cf.cloud.ibm.com
-```
-
-每个位置都有一个分配的唯一前缀。{{site.data.keyword.cloud_notm}} 提供了以下位置和位置前缀。
-
-| **位置** | **API 端点** |
-|---------------|-------------------------|
-|达拉斯|api.us-south.cf.cloud.ibm.com|
-| 法兰克福|api.eu-de.cf.cloud.ibm.com|
-|伦敦|api.eu-gb.cf.cloud.ibm.com|
-|悉尼|api.au-syd.cf.cloud.ibm.com|
-|东京|api.jp-tok.cf.cloud.ibm.com|
-|华盛顿特区|api.us-east.cf.cloud.ibm.com|
-{: caption="表 1. {{site.data.keyword.cloud_notm}} 位置列表" caption-side="top"}
-
-部署基础架构资源时，您对数据的存储位置拥有更多选择。您可以选择一个位置，也可以从 {{site.data.keyword.Bluemix_notm}} 的数据中心列表中进行选择。 
-
 ## 数据中心
 {: #data_center}
 
-数据中心是托管用于服务和应用程序的电源、散热、计算、网络和存储资源的物理位置。数据中心不会提供与一个位置中多个专区类似的本地故障隔离。有关更多信息，请参阅 [Global locations for your global business ![外部链接图标](../icons/launch-glyph.svg "外部链接图标")](https://www.ibm.com/cloud/data-centers/){: new_window}。
+部署基础架构资源时，您对数据的存储位置拥有更多选择。您可以选择一个位置，也可以从 {{site.data.keyword.Bluemix_notm}} 数据中心列表中进行选择。*数据中心*是一个物理位置，其中托管了用于服务和应用程序的电源、散热、计算、网络和存储资源。数据中心不会提供与一个位置中多个专区类似的本地故障隔离。有关更多信息，请参阅 [Global locations for your global business ![外部链接图标](../icons/launch-glyph.svg "外部链接图标")](https://www.ibm.com/cloud/data-centers/){: new_window}。
 
 {{site.data.keyword.Bluemix_notm}} 在全球许多位置提供数据中心。部署基础架构资源时，可以从 {{site.data.keyword.Bluemix_notm}} 的数据中心列表中进行选择。 
 

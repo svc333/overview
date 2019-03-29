@@ -7,6 +7,9 @@ copyright:
   years: 2015, 2019
 lastupdated: "2019-01-14"
 
+keywords: notices, terms of use
+
+subcollection: overview
 
 ---
 
@@ -185,7 +188,7 @@ IBM Corp. 2015.
 
 SANÇÕES E EMBARGOS
 
-Os Estados Unidos proíbem a maioria das transações comerciais e outras negociações com alguns países por razões de política externa e segurança nacional. Essas proibições (formalmente conhecidas como sanções comerciais e econômicas ou embargos abrangentes) visam atualmente: Irã, Cuba, Coreia do Norte e Síria. 
+Os Estados Unidos proíbem a maioria das transações comerciais e outras negociações com alguns países por razões de política externa e segurança nacional.  Essas proibições (formalmente conhecidas como sanções comerciais e econômicas ou embargos abrangentes) visam atualmente: Irã, Cuba, Coreia do Norte e Síria. 
 
 O IBM Cloud implementa um bloqueio de comunicações que abrange toda a rede a endereços IP que se originam de países sujeitos a essas sanções comerciais e econômicas. Esta política afeta todos os locais e ambientes de data center do IBM Cloud e bloqueia o acesso pelos endereços IP registrados em países sujeitos a sanções comerciais e econômicas dos EUA.
 

@@ -2,9 +2,11 @@
 
 copyright:
   years: 2018, 2019
-lastupdated: "2019-02-27"
+lastupdated: "2019-03-14"
 
-metadata: HA,failover,DR 
+keywords: HA, failover, DR
+
+subcollection: overview
 
 ---
 
@@ -64,30 +66,10 @@ metadata: HA,failover,DR
 
 依預設，您可以從主控台的資源清單視圖中檢視所有位置的所有資源。如果您要檢視及使用特定位置的資源，請展開**位置**功能表，並從清單選取某個位置。 
 
-您也可以使用指令行介面 (CLI) 來連接至所要使用的 {{site.data.keyword.cloud_notm}} 位置，方法是使用 `ibmcloud api` 指令，並指定該位置的 API 端點。例如，輸入下列指令以連接至倫敦的 {{site.data.keyword.cloud_notm}}：
-
-```
-ibmcloud api https://api.eu-gb.cf.cloud.ibm.com
-```
-
-每個位置會被指派一個唯一的字首。{{site.data.keyword.cloud_notm}} 提供下列位置及位置字首。
-
-| **位置** | **API 端點** |
-|---------------|-------------------------|
-| 達拉斯 | api.us-south.cf.cloud.ibm.com  |
-| 法蘭克福 | api.eu-de.cf.cloud.ibm.com  |
-| 倫敦 | api.eu-gb.cf.cloud.ibm.com  |
-|雪梨 | api.au-syd.cf.cloud.ibm.com  |
-| 東京 | api.jp-tok.cf.cloud.ibm.com  |
-| 華盛頓特區 | api.us-east.cf.cloud.ibm.com  |
-{: caption="表 1. {{site.data.keyword.cloud_notm}} 位置清單" caption-side="top"}
-
-當您部署基礎架構資源時，有更多關於資料所在位置的選項。您可以選取一個位置，或者可以從 {{site.data.keyword.Bluemix_notm}} 的資料中心清單進行選取。 
-
 ## 資料中心
 {: #data_center}
 
-資料中心是管理服務及應用程式所使用之電源、散熱、運算、網路及儲存空間資源的實體位置。資料中心並不像一個位置中的多個區域那樣，提供對本端失敗的隔離。如需相關資訊，請參閱 [Global locations for your global business ![外部鏈結圖示](../icons/launch-glyph.svg "外部鏈結圖示")](https://www.ibm.com/cloud/data-centers/){: new_window}。
+當您部署基礎架構資源時，有更多關於資料所在位置的選項。您可以選取一個位置，或者可以從 {{site.data.keyword.Bluemix_notm}} 的資料中心清單進行選取。*資料中心* 是管理服務及應用程式所使用之電源、散熱、運算、網路及儲存空間資源的實體位置。資料中心並不像一個位置中的多個區域那樣，提供對本端失敗的隔離。如需相關資訊，請參閱 [Global locations for your global business ![外部鏈結圖示](../icons/launch-glyph.svg "外部鏈結圖示")](https://www.ibm.com/cloud/data-centers/){: new_window}。
 
 {{site.data.keyword.Bluemix_notm}} 在全球許多位置提供資料中心。當您部署基礎架構資源時，可以從 {{site.data.keyword.Bluemix_notm}} 的資料中心清單進行選取。 
 

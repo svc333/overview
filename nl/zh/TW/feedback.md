@@ -3,7 +3,11 @@
 
 copyright:
   years: 2018, 2019
-lastupdated: "2019-02-18"
+lastupdated: "2019-03-14"
+
+keywords: feedback button, comments, requirements, product improvements
+
+subcollection: overview
 
 ---
 
@@ -14,12 +18,8 @@ lastupdated: "2019-02-18"
 # 提交意見回饋
 {: #feedback}
 
-我們想聽聽您的經驗！您可以提交關於文件或主控台的意見回饋給 {{site.data.keyword.Bluemix_notm}} 團隊。您可以使用一些不同的方法來提供意見回饋：
-
-* 使用**意見**按鈕，來針對您特別喜歡或有問題的特定文件頁面或主控台使用者介面區域，提供相關評論。
-* 使用任何文件頁面頂端的**在 GitHub 中編輯**鏈結，透過使用 GitHub 取回要求方法，為內容提供建議的編輯。
-* 在 GitHub 中開立問題，透過提供評論或要求特定主題的釐清，以更新或改善文件。 
-* 在 {{site.data.keyword.Bluemix_notm}} 構想入口網站中提交用於改善產品或特定服務的構想。
+我們想聽聽您的經驗！您可以提交關於文件或主控台的意見回饋給 {{site.data.keyword.Bluemix_notm}} 團隊。您可以從一些不同的方法選擇，以提供意見回饋。
+{: shortdesc}
 
 ## 使用意見按鈕提交評論
 {: #feedback-button}
@@ -34,6 +34,11 @@ lastupdated: "2019-02-18"
 
 一般廣告封鎖程式會封鎖 Usabilla，並隱藏**意見**按鈕。請停用任何廣告封鎖程式，以使用**意見**按鈕來提交您的評論。
 {: tip}
+
+## 提交對於文件主題的意見回饋
+{: #feedback-topic}
+
+您可以使用每個主題結尾所顯示的 **Was this page helpful?** 按鈕，提交對於特定文件主題的意見回饋。覺得資訊有用嗎？按一下 **Yes**，並選擇性地提供評論。如果您覺得沒有幫助，或是有改善的建議，請按一下 **No** 並提供更多詳細資料。  
 
 ## 使用取回要求提供內容更新
 {: #feedback-pr}

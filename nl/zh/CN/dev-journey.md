@@ -4,6 +4,10 @@ copyright:
   years: 2016, 2019
 lastupdated: "2019-02-19"
 
+keywords: developer tools, building apps, developer entry point, understanding dev journey, get started coding
+
+subcollection: overview
+
 ---
 {:new_window: target="_blank"}
 {:shortdesc: .shortdesc}
@@ -56,6 +60,7 @@ lastupdated: "2019-02-19"
 您可以直接创建简单的空白应用程序，也可以使用入门模板工具包来创建更复杂的应用程序。如果选择不借助入门模板工具包来创建空白应用程序，那么可以在 [{{site.data.keyword.cloud_notm}} 仪表板 ![外部链接图标](../icons/launch-glyph.svg "外部链接图标")](https://{DomainName}){: new_window} 中执行此操作，而无需访问门户网站！
 
 您可以使用代码模式来快速创建应用程序并将其部署到 {{site.data.keyword.cloud_notm}}。从 [IBM Developer Web 站点 ![外部链接图标](../icons/launch-glyph.svg "外部链接图标")](https://developer.ibm.com/patterns/){:new_window} 中，选择一个代码模式。您可以在 GitHub 中查看代码，也可以在 {{site.data.keyword.cloud_notm}} 中创建并构建应用程序，在其中您可以使用 DevOps 工具链来自动部署应用程序。
+
 
 
 ## 入门模板工具包

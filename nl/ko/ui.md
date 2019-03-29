@@ -5,6 +5,10 @@ copyright:
   years: 2015, 2019
 lastupdated: "2019-01-29"
 
+keywords: ui, components, using the console
+
+subcollection: overview
+
 ---
 
 {:shortdesc: .shortdesc}
@@ -40,7 +44,7 @@ lastupdated: "2019-01-29"
 ## 리소스 목록에서 리소스 관리
 {: #dashboardview}
 
-메뉴 아이콘 ![메뉴 아이콘](../icons/icon_hamburger.svg) &gt; **리소스 목록**으로 이동하여 계정 리소스 목록에 액세스하십시오. 리소스 목록을 사용하여 {{site.data.keyword.cloud_notm}} 리소스 및 Cloud Foundry 서비스 인스턴스를 보고 관련 작업을 수행할 수 있습니다. 다양한 리소스 유형에 대한 자세한 정보는 [리소스의 개념](/docs/resources?topic=resources-resource)을 참조하십시오. 
+메뉴 아이콘 ![메뉴 아이콘](../icons/icon_hamburger.svg) &gt; **리소스 목록**으로 이동하여 계정 리소스 목록에 액세스하십시오. 리소스 목록을 사용하여 {{site.data.keyword.cloud_notm}} 리소스 및 Cloud Foundry 서비스 인스턴스를 보고 관련 작업을 수행할 수 있습니다. 다양한 리소스 유형에 대한 자세한 정보는 [리소스의 개념](/docs/resources?topic=resources-resource)을 참조하십시오.
 
 ### 리소스 보기
 리소스 목록에서 모든 지역에 있는 계정의 모든 리소스를 볼 수 있습니다. 사용자에게 중요한 항목을 보려면 각 열 헤더에 대한 필터를 사용하여 목록을 필터링하십시오. 예를 들어, 특정 위치에 있는 리소스를 보고 이에 대해 작업하려면 **위치** 필터를 펼친 후 목록에서 위치를 선택하십시오.

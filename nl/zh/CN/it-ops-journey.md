@@ -2,7 +2,11 @@
 
 copyright:
   years: 2018, 2019
-lastupdated: "2019-01-29"
+lastupdated: "2019-03-14"
+
+keywords: cloud environment, virtual server, virtual machine, vm, understanding infrastructure, IaaS model
+
+subcollection: overview
 
 
 ---

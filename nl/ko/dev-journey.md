@@ -4,6 +4,10 @@ copyright:
   years: 2016, 2019
 lastupdated: "2019-02-19"
 
+keywords: developer tools, building apps, developer entry point, understanding dev journey, get started coding
+
+subcollection: overview
+
 ---
 {:new_window: target="_blank"}
 {:shortdesc: .shortdesc}
@@ -30,7 +34,7 @@ lastupdated: "2019-02-19"
 * 기존 저장소에 앱이 있는 경우 빈 스타터 킷을 사용하여 앱 레코드를 작성하여 소스 저장소 및 DevOps 도구 체인에 연결할 수 있습니다.
 * 이식 가능한 앱 코드를 사용하여 다양한 클라우드 환경에 배치할 수 있습니다.
 * 몇 번의 클릭으로 [DevOps 도구 체인](/docs/services/ContinuousDelivery?topic=ContinuousDelivery-cd_getting_started) 작성
-* 로컬 개발에 [명령행 인터페이스(CLI)](/docs/cli/reference/ibmcloud?topic=cloud-cli-ibmcloud-cli#ibmcloud-cli)를 사용합니다. 
+* 로컬 개발에 [명령행 인터페이스(CLI)](/docs/cli/reference/ibmcloud?topic=cloud-cli-ibmcloud-cli#ibmcloud-cli)를 사용합니다.
 * 작성 가능한 앱 및 서비스에 대한 [{{site.data.keyword.cloud_notm}} 카탈로그 ![외부 링크 아이콘](../icons/launch-glyph.svg "외부 링크 아이콘")](https://{DomainName}/catalog){: new_window}를 찾아보거나 검색한 후에 당장 사용을 시작합니다.
 
 ![개발자 경험 개요](images/dev-journey.png "개발자 경험 개요")

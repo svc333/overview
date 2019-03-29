@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2019
-lastupdated: "2019-02-18"
+lastupdated: "2019-03-12"
 
 keywords: catalog, resources display, manage visibility
 
@@ -22,7 +22,7 @@ subcollection: overview
 ## 管理可見性
 {: #manage-vis}
 
-您要進一步控制型錄中顯示的內容嗎？您要隱藏某些使用者的個別資源，但向其他使用者顯示它們嗎？具有適當的管理者權限，即可使用 {{site.data.keyword.Bluemix_notm}} [CLI](/docs/cli/reference/ibmcloud?topic=cloud-cli-overview) 來檢視及設定型錄資源的可見性。
+您要進一步控制型錄中顯示的內容嗎？您要隱藏某些使用者的個別資源，但向其他使用者顯示它們嗎？具有適當的管理者權限，即可使用 {{site.data.keyword.Bluemix_notm}} [CLI](/docs/cli?topic=cloud-cli-ibmcloud-cli) 來檢視及設定型錄資源的可見性。
 
 如需相關資訊，請參閱下列主題。
 

@@ -3,7 +3,11 @@
 
 copyright:
   years: 2018, 2019
-lastupdated: "2019-02-18"
+lastupdated: "2019-03-14"
+
+keywords: feedback button, comments, requirements, product improvements
+
+subcollection: overview
 
 ---
 
@@ -15,18 +19,8 @@ lastupdated: "2019-02-18"
 {: #feedback}
 
 Queremos ouvir de você! É possível enviar feedback para a equipe
-do {{site.data.keyword.Bluemix_notm}} na documentação ou no console. É possível usar alguns métodos
-diferentes para fornecer feedback:
-
-* Use o botão **Feedback** para fornecer um comentário sobre uma página
-específica da documentação ou sobre uma área da interface com o usuário do console que você particularmente
-gosta ou com a qual esteja tendo problemas.
-* Use o link **Editar no GitHub** na parte superior de qualquer página
-da documentação para fornecer uma edição sugerida para o conteúdo usando o método de solicitação pull GitHub.
-* Abra um problema no GitHub para a documentação a ser atualizada ou melhorada fornecendo um comentário
-ou uma solicitação para esclarecimento sobre um assunto específico. 
-* Envie uma ideia para melhorar o produto ou um serviço específico no portal de ideias do
-{{site.data.keyword.Bluemix_notm}}.
+do {{site.data.keyword.Bluemix_notm}} na documentação ou no console. É possível escolher entre alguns métodos diferentes para fornecer feedback.
+{: shortdesc}
 
 ## Enviando um comentário com o botão de feedback
 {: #feedback-button}
@@ -46,6 +40,11 @@ resolvendo o feedback que você enviou.
 
 Os bloqueadores de anúncios comuns bloqueiam o Usabilla e ocultam o botão **Feedback**. Desative quaisquer bloqueadores de anúncios para usar o botão **Feedback** para enviar seus comentários.
 {: tip}
+
+## Enviando feedback sobre um tópico de documentação
+{: #feedback-topic}
+
+É possível enviar feedback sobre um tópico de documentação específico usando os botões **Esta página foi útil?** que são exibidos no fim de cada tópico. Você acha as informações úteis? Clique em **Sim** e, opcionalmente, forneça um comentário. Se você não achar útil ou tiver sugestões para melhorias, clique em **Não** e forneça mais detalhes.  
 
 ## Fornecendo uma atualização de conteúdo com uma solicitação pull
 {: #feedback-pr}

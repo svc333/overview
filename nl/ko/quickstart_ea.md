@@ -4,7 +4,11 @@ copyright:
 
   years: 2018, 2019
 
-lastupdated: "2019-02-19"
+lastupdated: "2019-03-14"
+
+keywords: enterprise architect quick start
+
+subcollection: overview
 
 ---
 
@@ -29,7 +33,7 @@ lastupdated: "2019-02-19"
 {: #steps-ea}
 
 1. {{site.data.keyword.Bluemix_notm}}에서 제공해야 하는 항목을 검토하여 회사의 요구사항 및 로드맵과 어떻게 부합하는지 확인하십시오. 
-    * 플랫폼에 대한 자세한 정보는 [{{site.data.keyword.Bluemix_notm}} 플랫폼의 개념](/docs/overview?topic=overview-whatis-platform)을 참조하십시오. 
+    * 플랫폼에 대한 자세한 정보는 [{{site.data.keyword.Bluemix_notm}} 플랫폼의 개념](/docs/overview?topic=overview-whatis-platform)을 참조하십시오.
     * {{site.data.keyword.Bluemix_notm}}에서는 클라우드 네이티브 및 엔터프라이즈 애플리케이션과 데이터에 대한 지속적인 엔드 투 엔드 보안을 제공합니다. 자세한 정보는 [내 데이터가 안전한지 확인하는 방법](/docs/overview?topic=overview-security)을 참조하십시오. 
     * {{site.data.keyword.Bluemix_notm}}의 재해 복구 및 고가용성에 대해 알아보십시오. 자세한 정보는 [작동 중단이 발생하지 않도록 하는 방법](/docs/overview?topic=overview-zero-downtime)을 참조하십시오.
     * {{site.data.keyword.Bluemix_notm}}에 대한 참조 아키텍처를 확인하십시오. 자세한 정보는 [Architecture center](https://www.ibm.com/cloud/garage/architectures){: new_window} ![외부 링크 아이콘](../icons/launch-glyph.svg)의 내용을 참조하십시오. 

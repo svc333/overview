@@ -2,22 +2,25 @@
 
 
 copyright:
-  years: 2014, 2018
-lastupdated: "2017-12-06"
+  years: 2014, 2019
+lastupdated: "2019-03-14"
+
+keywords: translation, national language support
+
+subcollection: overview
 
 ---
 
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
 
-# {{site.data.keyword.cloud_notm}}에 대한 자국어 지원
+# {{site.data.keyword.cloud_notm}}의 자국어 지원 
 {: #language-support}
 
-{{site.data.keyword.cloud}}는 영어 이외의 자국어를 지원합니다. 하지만 {{site.data.keyword.cloud_notm}}를 통해 제공되는 일부 컨텐츠는 변환되지 않습니다.
+{{site.data.keyword.cloud}}에서는 영어가 아닌 자국어를 지원합니다. 그러나 {{site.data.keyword.cloud_notm}}에서 제공하는 컨텐츠가 모두 번역된 것은 아닙니다.
 {:shortdesc}
 
-다음 표에는
-{{site.data.keyword.cloud_notm}}에 대해 지원되는 자국어 및 언어 코드가 나와 있습니다.
+다음 표에는 {{site.data.keyword.cloud_notm}}에 대해 지원되는 자국어와 언어 코드가 나열되어 있습니다.
 
 | 자국어 | 언어 코드 |
 |----------|---------|
@@ -27,7 +30,7 @@ lastupdated: "2017-12-06"
 | 독일어 | de |
 | 일본어 | ja |
 | 한국어 | ko |
-| 이탈리아어 | it |
+| 이태리어 | it |
 | 스페인어 | es |
 | 중국어 | zh_CN |
 | 대만어 | zh_TW |
