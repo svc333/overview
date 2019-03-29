@@ -4,8 +4,12 @@ copyright:
   years: 2018, 2019
 lastupdated: "2019-01-29"
 
+keywords: first steps, understanding IT ops
+
+subcollection: overview
 
 ---
+
 {:new_window: target="_blank"}
 {:shortdesc: .shortdesc}
 {:screen: .screen}

@@ -3,7 +3,11 @@
 
 copyright:
   years: 2016, 2019
-lastupdated: "2019-01-31"
+lastupdated: "2019-03-14"
+
+keywords: console, platform overview, overview
+
+subcollection: overview
 
 ---
 

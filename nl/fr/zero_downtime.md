@@ -2,9 +2,11 @@
 
 copyright:
   years: 2018, 2019
-lastupdated: "2019-02-27"
+lastupdated: "2019-03-14"
 
-metadata: HA,failover,DR 
+keywords: HA, failover, DR
+
+subcollection: overview
 
 ---
 
@@ -64,30 +66,10 @@ L'équilibrage de charge global pour la console {{site.data.keyword.cloud_notm}}
 
 Par défaut, vous pouvez afficher dans la console toutes les ressources de tous les emplacements de la liste de ressources. Si vous souhaitez afficher et utiliser les ressources d'un emplacement spécifique, développez le menu **EMPLACEMENT** puis sélectionnez-en un dans la liste. 
 
-Vous pouvez également utiliser l'interface de ligne de commande (CLI) pour établir une connexion à l'emplacement {{site.data.keyword.cloud_notm}} souhaité en utilisant la commande `ibmcloud api` et en spécifiant le noeud final d'API de l'emplacement. Entrez, par exemple, la commande suivante, pour vous connecter à {{site.data.keyword.cloud_notm}}, Londres :
-
-```
-ibmcloud api https://api.eu-gb.cf.cloud.ibm.com
-```
-
-Un préfixe unique est affecté à chaque emplacement. {{site.data.keyword.cloud_notm}} fournit les emplacements et les préfixes d'emplacement suivants :
-
-| **Emplacement**  | **Noeud final d'API**        |
-|---------------|-------------------------|
-| Dallas        | api.us-south.cf.cloud.ibm.com  |
-| Francfort     | api.eu-de.cf.cloud.ibm.com  |
-| Londres        | api.eu-gb.cf.cloud.ibm.com  |
-| Sydney        | api.au-syd.cf.cloud.ibm.com  |
-| Tokyo         | api.jp-tok.cf.cloud.ibm.com  |
-| Washington DC | api.us-east.cf.cloud.ibm.com  |
-{: caption="Tableau 1. Liste des emplacements {{site.data.keyword.cloud_notm}}" caption-side="top"}
-
-Lorsque vous déployez des ressources d'infrastructure, vous disposez de plus de choix quant à l'emplacement de vos données. Vous pouvez sélectionner un emplacement ou effectuer une sélection dans une liste de centres de données dans {{site.data.keyword.Bluemix_notm}}. 
-
 ## Centres de données
 {: #data_center}
 
-Un centre de données est l'emplacement physique qui héberge les ressources d'alimentation, de refroidissement, de calcul, de réseau et de stockage utilisées pour les services et les applications. Les centres de données n'offrent aucune protection contre les pannes locales comme les emplacements multi-zone. Pour plus d'informations, voir [Global locations for your global business ![Icône de lien externe](../icons/launch-glyph.svg "Icône de lien externe")](https://www.ibm.com/cloud/data-centers/){: new_window}.
+Lorsque vous déployez des ressources d'infrastructure, vous disposez de plus de choix quant à l'emplacement de vos données. Vous pouvez sélectionner un emplacement ou effectuer une sélection dans la liste des centres de données {{site.data.keyword.Bluemix_notm}}. Un *centre de données* est l'emplacement physique qui héberge les ressources d'alimentation, de refroidissement, de calcul, de réseau et de stockage utilisées pour les services et les applications. Les centres de données n'offrent aucune protection contre les pannes locales comme les emplacements multi-zone. Pour plus d'informations, voir [Global locations for your global business ![Icône de lien externe](../icons/launch-glyph.svg "Icône de lien externe")](https://www.ibm.com/cloud/data-centers/){: new_window}.
 
 {{site.data.keyword.Bluemix_notm}} dispose de centres de données dans de nombreux emplacements dans le monde. Lorsque vous déployez des ressources d'infrastructure, vous pouvez effectuer une sélection dans la liste des centres de données dans {{site.data.keyword.Bluemix_notm}}. 
 
