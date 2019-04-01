@@ -3,7 +3,7 @@
 
 copyright:
   years: 2018, 2019
-lastupdated: "2019-03-14"
+lastupdated: "2019-03-25"
 
 keywords: feedback button, comments, requirements, product improvements
 
@@ -43,11 +43,11 @@ Puede enviar comentarios sobre un tema específico de la documentación mediante
 ## Proporcionar una actualización de contenido con una solicitud de extracción
 {: #feedback-pr}
 
-Puede enviar sugerencias de cambios a cualquier página de documentación utilizando el enlace **Editar en GitHub** en la parte superior de cada página. Si sigue el enlace y edita la página, puede enviar actualizaciones en una solicitud de extracción para que el equipo de contenido la revise y fusione. 
+Puede enviar sugerencias de cambios a cualquier página de documentación utilizando el enlace **Editar tema** en la parte superior de cada página. Si sigue el enlace y edita la página, puede enviar actualizaciones en una solicitud de extracción para que el equipo de contenido la revise y fusione. 
 
 Complete el proceso siguiente para enviar una solicitud de extracción al equipo de contenido:
 
-1. Pulse **Editar en Github** en la página que desea actualizar.
+1. Pulse **Editar tema** en la página que desea actualizar.
 2. Pulse el icono **Editar este archivo**.
 3. Realice los cambios al archivo en el editor WYSIWYG.
 4. Desplácese al final de la página y escriba una descripción breve sobre los cambios. La descripción ampliada es opcional.
@@ -63,11 +63,9 @@ Puede abrir un problema para que el equipo de contenido lo solucione desde cualq
 
 Para abrir un problema desde una página de documentación, siga estos pasos:
 
-1. Pulse el enlace **Editar en GitHub**.
-2. Seleccione **Problemas**
-3. Pulse **Nuevo problema**.
-4. Especifique un título y una descripción del problema.
-5. Pulse **Enviar nuevo problema**. 
+1. Pulse el enlace **Abrir problema**.
+2. Especifique un título y rellene la plantilla.
+3. Pulse **Enviar nuevo problema**. 
 
 El equipo de contenido recibe los problemas que envía y trabaja para solucionarlos. Puede supervisar el problema guardando el enlace que obtendrá después de pulsar **Enviar nuevo problema**. A medida que se resuelve el problema, el equipo de contenido proporciona actualizaciones de estado en forma de comentario sobre el problema.
 
