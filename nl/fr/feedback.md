@@ -3,7 +3,7 @@
 
 copyright:
   years: 2018, 2019
-lastupdated: "2019-03-14"
+lastupdated: "2019-03-25"
 
 keywords: feedback button, comments, requirements, product improvements
 
@@ -43,11 +43,11 @@ Vous pouvez soumettre des commentaires concernant une rubrique de documentation 
 ## Procédure visant à fournir une mise à jour de contenu via une demande d'extraction
 {: #feedback-pr}
 
-Vous pouvez suggérer des modifications à apporter à n'importe quelle page de documentation en utilisant le lien **Edition dans GitHub** situé en haut de chaque page. En suivant ce lien et en éditant la page, vous pouvez soumettre des mises à jour dans une demande d'extraction qui sera examinée et fusionnée par l'équipe chargée du contenu. 
+Vous pouvez soumettre des propositions de modification pour les pages de documentation en utilisant le lien **Editer la rubrique** situé en haut de chaque page. En suivant ce lien et en éditant la page, vous pouvez soumettre des mises à jour dans une demande d'extraction qui sera examinée et fusionnée par l'équipe chargée du contenu. 
 
 Suivez la procédure ci-dessous pour envoyer une demande d'extraction à l'équipe chargée du contenu :
 
-1. Cliquez sur **Edition dans Github** sur la page que vous souhaitez mettre à jour.
+1. Cliquez sur **Editer la rubrique** sur la page que vous souhaitez mettre à jour.
 2. Cliquez sur l'icône **Editer ce fichier**.
 3. Modifiez le fichier à l'aide de l'éditeur WYSIWYG.
 4. Faites défiler l'écran jusqu'à la fin de la page et entrez une brève description de vos modifications. La description détaillée est facultative.
@@ -63,11 +63,9 @@ Vous pouvez envoyer un problème à l'équipe chargée du contenu à partir de n
 
 Pour ouvrir un problème à partir d'une page de la documentation, procédez comme suit :
 
-1. Cliquez sur le lien **Edition dans GitHub**.
-2. Sélectionnez **Problèmes**
-3. Cliquez sur **Nouveau problème**.
-4. Entrez un titre et une description pour le problème.
-5. Cliquez sur **Soumettre un nouveau problème**. 
+1. Cliquez sur le lien **Ouvrir un problème**.
+2. Entrez un titre et remplissez le modèle.
+3. Cliquez sur **Soumettre un nouveau problème**. 
 
 L'équipe chargée du contenu reçoit les problèmes que vous ouvrez et traite les commentaires. Vous pouvez surveiller le problème en enregistrant le lien après avoir cliqué sur **Soumettre un nouveau problème**. Au fur et à mesure de la résolution du problème, l'équipe chargée du contenu fournit des mises à jour de statut sous forme d'un commentaire relatif au problème.
 
