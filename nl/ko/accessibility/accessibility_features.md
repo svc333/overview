@@ -4,7 +4,7 @@
 
 copyright:
   years: 2016, 2019
-lastupdated: "2019-01-23"
+lastupdated: "2019-03-27"
 
 keywords: quick keys, accessibility
 
@@ -50,7 +50,7 @@ subcollection: overview
 
 {{site.data.keyword.Bluemix_notm}} 웹 사용자 인터페이스 접근성 규제 준수 상태는 특별히 {{site.data.keyword.Bluemix_notm}} 제품 플랫폼을 위한 것입니다. 이 플랫폼에 컨텐츠를 호스팅하는 서드파티 제품 또는 서비스에서 소유한 사용자 인터페이스의 하위 섹션이 있기 때문에, {{site.data.keyword.Bluemix_notm}} 규제 준수 레코드에서 접근성 규제 준수 상태를 유지보수하거나 소유하지 않습니다. 이는 서비스의 사용자 인터페이스나 문서에 액세스하는 경우 해당 서비스에 대한 규제 준수 보고서를 요청해야 함을 의미합니다. 예를 들어, IBM Containers용 인터페이스, 로컬 또는 전용 환경을 위한 관리 콘솔 또는 IoT 서비스를 사용하는 경우, 해당 인터페이스나 문서의 [제품 접근성 정보 ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")](https://able.ibm.com/request/){: new_window}를 요청해야 합니다.
 
-{{site.data.keyword.Bluemix_notm}} 문서 접근성 규제 준수는 특별히 {{site.data.keyword.Bluemix_notm}} 코어 플랫폼 정보에 적합하고, 이는 서비스로 확장되지 않습니다. 홈 페이지에서 컨텐츠가 탭으로 나뉩니다. 모든 문서 탭은 서비스 팀에서 별도로 유지보수하는 컨텐츠입니다. {{site.data.keyword.Bluemix_notm}}의 사용 가능한 문서는 요청 시 사용할 수 있는 IBM Bluemix Continuous Delivery 제품 접근성 정보에서 관리되고 보고됩니다. 서비스의 규제 준수 상태에 대해 [제품 접근성 정보 ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")](https://able.ibm.com/request/){: new_window}를 요청해야 합니다.
+{{site.data.keyword.Bluemix_notm}} 문서 접근성 규제 준수는 특별히 {{site.data.keyword.Bluemix_notm}} 코어 플랫폼 정보에 적합하고, 이는 서비스로 확장되지 않습니다. 홈 페이지에서 컨텐츠가 탭으로 나뉘며 시작하기 탭 및 빌드 탭의 학습 섹션, 도구 탭의 서비스별 CLI 문서 및 모든 문서 탭은 서비스 팀에서 별도로 유지보수하는 컨텐츠입니다. {{site.data.keyword.Bluemix_notm}}의 사용 가능한 문서는 요청 시 사용할 수 있는 IBM Bluemix Continuous Delivery 제품 접근성 정보에서 관리되고 보고됩니다. 서비스의 규제 준수 상태에 대해 [제품 접근성 정보 ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")](https://able.ibm.com/request/){: new_window}를 요청해야 합니다.
 
 표준 IBM 헬프 데스크 및 지원 웹 사이트 외에도, IBM은 청각 장애가 있는 고객이 판매 및 지원 서비스에 접속할 수 있도록 TTY 전화 서비스를 신설하였습니다.
 

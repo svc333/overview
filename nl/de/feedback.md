@@ -3,7 +3,7 @@
 
 copyright:
   years: 2018, 2019
-lastupdated: "2019-03-14"
+lastupdated: "2019-03-25"
 
 keywords: feedback button, comments, requirements, product improvements
 
@@ -38,16 +38,16 @@ Gängige Anzeigenblocker blockieren Usabilla und blenden die Schaltfläche für 
 ## Feedback zu einem Dokumentationstopic senden
 {: #feedback-topic}
 
-Sie können Feedback zu einem bestimmten Dokumentationstopic senden, indem Sie die Schaltfläche **War diese Seite hilfreich?** verwenden, die am Ende jedes Topics angezeigt wird. Waren die Informationen für Sie von Nutzen? Klicken Sie auf **Ja** und geben Sie optional einen Kommentar ein. Wenn die Informationen nicht von Nutzen waren oder Sie Verbesserungsvorschläge haben, klicken Sie auf **Nein** und geben Sie weitere Details an.   
+Sie können Feedback zu einem bestimmten Dokumentationstopic senden, indem Sie die Schaltfläche **War diese Seite hilfreich?** verwenden, die am Ende jedes Topics angezeigt wird. Waren die Informationen für Sie von Nutzen? Klicken Sie auf **Ja** und geben Sie optional einen Kommentar ein. Wenn die Informationen nicht von Nutzen waren oder Sie Verbesserungsvorschläge haben, klicken Sie auf **Nein** und geben Sie weitere Details an.  
 
 ## Inhaltliche Aktualisierung mit Pull-Anforderung bereitstellen
 {: #feedback-pr}
 
-Sie können über den Link **In GitHub bearbeiten** am Seitenanfang Vorschläge zu Änderungen an der entsprechenden Dokumentationsseite einreichen. Wenn Sie diesem Link folgen und die Seite bearbeiten, können Sie Aktualisierungen in einer Pull-Anforderung übergeben, die vom Inhaltsteam überprüft und zusammengeführt werden sollen. 
+Sie können über den Link **Topic bearbeiten** am Seitenanfang Vorschläge zu Änderungen an der entsprechenden Dokumentationsseite einreichen. Wenn Sie diesem Link folgen und die Seite bearbeiten, können Sie Aktualisierungen in einer Pull-Anforderung übergeben, die vom Inhaltsteam überprüft und zusammengeführt werden sollen. 
 
 Führen Sie folgende Schritte aus, um eine Pull-Anforderung an das Inhaltsteam zu übergeben:
 
-1. Klicken Sie auf der Seite, die Sie aktualisieren wollen, auf **In Github bearbeiten**.
+1. Klicken Sie auf der Seite, die Sie aktualisieren wollen, auf **Topic bearbeiten**.
 2. Klicken Sie auf das Symbol **Diese Datei bearbeiten**.
 3. Nehmen Sie die Änderungen an der Datei im WYSIWYG-Editor vor.
 4. Blättern Sie zum Seitenende und geben Sie eine Kurzbeschreibung Ihrer Änderung ein. Die erweiterte Beschreibung ist optional.
@@ -63,11 +63,9 @@ Sie können auf jeder Dokumentationsseite einen Problembericht öffnen, mit dem 
 
 Führen Sie die folgenden Schritte aus, um auf einer Dokumentationsseite einen Problembericht zu öffnen:
 
-1. Klicken Sie auf den Link **In GitHub bearbeiten**.
-2. Wählen Sie **Problemberichte** aus.
-3. Klicken Sie auf **Neuer Problembericht**.
-4. Geben Sie einen Titel und eine Beschreibung des Problems ein.
-5. Klicken Sie auf **Neuen Problembericht übergeben**. 
+1. Klicken Sie auf den Link **Problem öffnen**.
+2. Geben Sie einen Titel ein und füllen Sie die Vorlage aus. 
+3. Klicken Sie auf **Neuen Problembericht übergeben**. 
 
 Das Inhaltsteam erhält die von Ihnen geöffneten Problemberichte und bearbeitet Ihre Rückmeldung. Sie können das Problem überwachen, indem Sie nach dem Klicken auf **Neuen Problembericht übergeben** den Link speichern. Während der Bearbeitung des Problems stellt das Inhaltsteam Statusaktualisierungen in Form von Kommentaren zu dem Problem bereit.
 

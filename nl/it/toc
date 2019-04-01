@@ -14,7 +14,7 @@ Introduzione a IBM Cloud
 
     {: .topicgroup}
     Link correlati
-        [Perché IBM Cloud?](https://www.ibm.com/cloud-computing/learn-more/why-ibm-cloud/){: new_window}
+        [Perché IBM Cloud?](https://www.ibm.com/cloud/why-ibm/){: new_window}
         [Sicurezza nel cloud](https://www.ibm.com/cloud/security){: new_window}
     {: .navgroup-end}
 
@@ -49,4 +49,5 @@ Introduzione a IBM Cloud
 
     {: .navgroup id="help"}
     feedback.md
+    personalized-assistance.md
     {: .navgroup-end}

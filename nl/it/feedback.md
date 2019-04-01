@@ -3,7 +3,11 @@
 
 copyright:
   years: 2018, 2019
-lastupdated: "2019-02-18"
+lastupdated: "2019-03-25"
+
+keywords: feedback button, comments, requirements, product improvements
+
+subcollection: overview
 
 ---
 
@@ -14,12 +18,8 @@ lastupdated: "2019-02-18"
 # Invio del feedback
 {: #feedback}
 
-Non vediamo l'ora di sentirti. Puoi inviare il feedback per il team {{site.data.keyword.Bluemix_notm}} nella documentazione o nella console. Puoi utilizzare alcuni metodi differenti per fornire il feedback:
-
-* Utilizza il pulsante **Feedback** per fornire un commento su una pagina della documentazione specifica o un'area dell'interfaccia utente della console che ti piace particolarmente o con cui stai avendo dei problemi.
-* Utilizza il link **Modifica in GitHub** all'inizio di ogni pagina della documentazione per fornire una modifica consigliata del contenuto utilizzando il metodo di richiesta di importazione GitHub.
-* Apri un problema in GitHub per la documentazione da aggiornare o migliorate fornendo un commento o una richiesta di chiarimento su un argomento specifico. 
-* Invia un'idea per migliorare il prodotto o un servizio specifico nel portale delle idee {{site.data.keyword.Bluemix_notm}}.
+Non vediamo l'ora di sentirti. Puoi inviare il feedback per il team {{site.data.keyword.Bluemix_notm}} nella documentazione o nella console. Puoi scegliere tra alcuni diversi metodi per fornire il feedback.
+{: shortdesc}
 
 ## Invio di un commento con il pulsante di feedback
 {: #feedback-button}
@@ -35,14 +35,19 @@ Quando stai leggendo una pagina di documentazione o completando un'attività nel
 I blocchi degli annunci comuni bloccano Usabilla e nascondono il pulsante **Feedback**. Disabilita i blocchi degli annunci per utilizzare il pulsante **Feedback** per inviare i tuoi commenti.
 {: tip}
 
+## Invio del feedback su un argomento della documentazione
+{: #feedback-topic}
+
+Puoi inviare il feedback su un argomento della documentazione specifico utilizzando i pulsanti **Questa pagina è stata utile?** visualizzati al termine di ogni argomento. Trovi le informazioni utili? Fai clic su **Sì** e fornisci facoltativamente un commento. Se non le trovi utili o hai dei suggerimenti per dei miglioramenti, fai clic su **No** e fornisci ulteriori dettagli.  
+
 ## Fornire un aggiornamento del contenuto con una richiesta di importazione
 {: #feedback-pr}
 
-Puoi inviare modifiche consigliate per qualsiasi pagina della documentazione utilizzando il link **Modifica in GitHub** all'inizio di ogni pagina. Seguendo questo link e modificando la pagina, puoi inviare gli aggiornamenti in una richiesta di importazione al team del contenuto da controllare e unire. 
+Puoi inviare modifiche consigliate per qualsiasi pagina della documentazione utilizzando il link **Modifica argomento** all'inizio di ogni pagina. Seguendo questo link e modificando la pagina, puoi inviare gli aggiornamenti in una richiesta di importazione al team del contenuto da controllare e unire. 
 
 Completa il seguente processo per inviare una richiesta di importazione al team del contenuto:
 
-1. Fai clic su **Modifica in Github** nella pagina che vuoi aggiornare.
+1. Fai clic su **Modifica argomento** nella pagina che vuoi aggiornare.
 2. Fai clic sull'icona **Modifica questo file**.
 3. Effettua le modifiche al file nell'editor WYSIWYG.
 4. Scorri alla fine della pagina e immetti una breve descrizione sulla modifica. La descrizione estesa è facoltativa.
@@ -58,11 +63,9 @@ Puoi aprire un problema da risolvere per il team del contenuto da qualsiasi pagi
 
 Per aprire un problema da una pagina della documentazione, completa la seguente procedura:
 
-1. Fai clic sul link **Modifica in GitHub**.
-2. Seleziona **Problemi**
-3. Fai clic su **Nuovo problema**.
-4. Immetti un titolo e una descrizione del problema.
-5. Fai clic su **Invia nuovo problema**. 
+1. Fai clic sul link **Apri problema**.
+2. Immetti un titolo e compila il template.
+3. Fai clic su **Invia nuovo problema**. 
 
 Il team del contenuto riceve i problemi che apri e lavora per risolvere il feedback. Puoi monitorare il problema salvando il link dopo che fai clic su **Invia nuovo problema**. Come viene risolto il problema, il team del contenuto fornisce gli aggiornamenti dello stato come commento al problema.
 

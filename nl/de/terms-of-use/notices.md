@@ -136,13 +136,13 @@ Kopien oder Teile der Beispielprogramme bzw. daraus abgeleiteter Code müssen fo
 
 Sanktionen & Embargos
 
-Aus Gründen der Außenpolitik und der nationalen Sicherheit untersagen die Vereinigte Staaten die meisten kommerziellen Transaktionen und andere Geschäftsbeziehungen mit bestimmten Ländern.  Diese Verbote - formell als Handels- und Wirtschaftssanktionen oder umfassende Embargos bezeichnet - gelten aktuell für Iran, Kuba, Nordkorea und Syrien. 
+Aus Gründen der Außenpolitik und der nationalen Sicherheit untersagen die Vereinigten Staaten die meisten kommerziellen Transaktionen und andere Geschäftsbeziehungen mit bestimmten Ländern.  Diese Verbote - formell als Handels- und Wirtschaftssanktionen oder umfassende Embargos bezeichnet - gelten aktuell für Iran, Kuba, Nordkorea und Syrien. 
 
 IBM Cloud implementiert die netzweite Blockierung der Kommunikation mit IP-Adressen, deren Ursprung sich in Ländern befindet, die diesen Handels- und Wirtschaftssanktionen unterliegen. Diese Richtlinie betrifft alle Standorte von IBM Cloud-Rechenzentren und alle IBM Cloud-Umgebungen und bewirkt die Blockierung des Zugriffs über IP-Adressen, die in Ländern registriert sind, die den Handels- und Wirtschaftssanktionen der Vereinigten Staaten unterliegen.
 
 Zur Identifizierung von IP-Adressen, die Ländern zugeordnet werden, die dem Embargo der Vereinigten Staaten unterliegen, referenziert IBM Cloud die Geo IP2-Datenbank, die von [MaxMind ![Symbol für externen Link](../../icons/launch-glyph.svg)](http://www.maxmind.com){: new_window} verwaltet wird. IBM Cloud aktualisiert die Zuordnung der IP-Adressen und Länder vierteljährlich.
 
-Hinweis: Diese Einschränkung gilt nicht für Inhalte, die nicht unter das Verbot im Rahmen der Sanktionen und Embargos der Vereinigten Staaten fallen. Falls Sie über Inhalte verfügen, die Ihrer Ansicht nach nicht unter das Verbot im Rahmen der Handels- und Wirtschaftssanktionen der Vereinigten Staaten fallen, senden Sie eine E-Mail an exemptions@softlayer.com. 
+Hinweis: Diese Einschränkung gilt nicht für Inhalte, die nicht den Sanktionen und Embargos der Vereinigten Staaten unterliegen. Falls Sie über Inhalte verfügen, die Ihrer Ansicht nach nicht den Handels- und Wirtschaftssanktionen der Vereinigten Staaten unterliegen, senden Sie eine E-Mail an exemptions@softlayer.com. 
 
 ## Marken
 {: #trademarks}
