@@ -24,6 +24,12 @@ subcollection: overview
 ## {{site.data.keyword.Bluemix_notm}} 플랫폼
 {: #platform_category}
 
+
+### 연관된 태그가 있는 사용 데이터 내보내기
+신규 기준일: 2019년 4월 4일 
+
+이제 사용자가 최신 태깅 기능을 활용하여 내보내기 사용량 보고서에서 리소스, 사용량 및 비용을 관리할 수 있습니다. 리소스에 태그를 추가할 때 이제 리소스와 연관된 태그를 보는 옵션이 있습니다. **관리**> **청구 및 사용량**> **사용량**> **CSV 내보내기**>  **인스턴스**로 이동하여 사용량 보고서를 다운로드하십시오. 태그 내보내기에 관한 자세한 정보는 [비용 할당을 지원하도록 사용량 데이터에서 태그 내보내기](https://www.ibm.com/blogs/bluemix/2019/04/export-your-tagged-usage-data-within-the-enhanced-ibm-cloud/) 블로그 게시물을 확인하십시오.
+
 ### 연합 ID가 있는 사용자에 대한 다단계 인증
 신규 기준일: 2019년 3월 12일
 {: #mfa-federated}

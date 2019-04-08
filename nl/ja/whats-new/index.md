@@ -18,17 +18,23 @@ subcollection: overview
 # {{site.data.keyword.Bluemix_notm}} の新機能
 {: #whatsnew}
 
-{{site.data.keyword.Bluemix_notm}} の能力を最大限に引き出すために、{{site.data.keyword.Bluemix}} プラットフォームで利用可能な新しいフィーチャーを常に最新の状態に保つようにしてください。{{site.data.keyword.Bluemix_notm}} で使用可能なサービスの更新を探している場合は、ブログの[{{site.data.keyword.Bluemix_notm}} 発表ページ](https://www.ibm.com/cloud/blog/announcements){: new_window} ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン") を確認してください。
+{{site.data.keyword.Bluemix_notm}} の能力を最大限に引き出すために、{{site.data.keyword.Bluemix}} プラットフォームで利用可能な新しいフィーチャーを常に最新の状態に保つようにしてください。 {{site.data.keyword.Bluemix_notm}} で使用可能なサービスの更新を探している場合は、ブログの[{{site.data.keyword.Bluemix_notm}} 発表ページ](https://www.ibm.com/cloud/blog/announcements){: new_window} ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン") を確認してください。
 {:shortdesc}
 
 ## {{site.data.keyword.Bluemix_notm}} プラットフォーム
 {: #platform_category}
 
+
+### 関連付けられたタグを含む使用量データのエクスポート
+最新情報: 2019 年 4 月 4 日 
+
+ユーザーは最新のタグ付け機能を使用して、エクスポートした使用量レポート内のリソース、使用量、およびコストを管理できるようになりました。 リソースにタグを追加した場合、リソースに関連付けられたタグを表示するオプションを利用できるようになりました。 **「管理」**> **「請求および使用量」**> **「使用量」**> **「CSV のエクスポート」**>  **「インスタンス」**に進み、使用量レポートをダウンロードします。 タグのエクスポートについて詳しくは、[Export tags within your usage data to help with cost allocation](https://www.ibm.com/blogs/bluemix/2019/04/export-your-tagged-usage-data-within-the-enhanced-ibm-cloud/) というブログ投稿を確認してください。
+
 ### フェデレーテッド ID を持つユーザーの多要素認証
 最新情報: 2019 年 3 月 12 日
 {: #mfa-federated}
 
-課金アカウント管理サービスの管理者役割を割り当てられたアカウント所有者またはユーザーは、アカウント内のすべてのユーザーに対して多要素認証 (MFA) を有効にすることができます。企業またはエンタープライズのシングル・サインオン ID を使用するフェデレーテッド・ユーザーは、MFA を使用して {{site.data.keyword.Bluemix_notm}} にログインすることによって認証を受けることができるようになりました。このフィーチャーの強化と、アカウントの MFA を有効にするために必要な情報の詳細については、[Introducing MFA for IBM Cloud Users with Federated ID (フェデレーテッド ID を持つ IBM Cloud ユーザーの MFA の概要)](https://www.ibm.com/blogs/bluemix/2019/03/introducing-mfa-for-ibm-cloud-users-with-federated-id/){: new_window} ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン") を参照してください。
+課金アカウント管理サービスの管理者役割を割り当てられたアカウント所有者またはユーザーは、アカウント内のすべてのユーザーに対して多要素認証 (MFA) を有効にすることができます。 企業またはエンタープライズのシングル・サインオン ID を使用するフェデレーテッド・ユーザーは、MFA を使用して {{site.data.keyword.Bluemix_notm}} にログインすることによって認証を受けることができるようになりました。 このフィーチャーの強化と、アカウントの MFA を有効にするために必要な情報の詳細については、[Introducing MFA for IBM Cloud Users with Federated ID (フェデレーテッド ID を持つ IBM Cloud ユーザーの MFA の概要)](https://www.ibm.com/blogs/bluemix/2019/03/introducing-mfa-for-ibm-cloud-users-with-federated-id/){: new_window} ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン") を参照してください。
 
 ### {{site.data.keyword.Bluemix_notm}} の新しいサポート・エクスペリエンス
 最新情報: 2018 年 11 月 30 日 

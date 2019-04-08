@@ -24,6 +24,13 @@ subcollection: overview
 ## {{site.data.keyword.Bluemix_notm}} 平台
 {: #platform_category}
 
+
+### 导出带关联标记的使用情况数据
+最新更新日期：2019 年 4 月 4 日
+ 
+
+现在，用户可以利用最新的标记功能来管理导出的使用情况报告中的资源、使用情况和成本。向资源添加标记时，现在可以选择查看与资源关联的标记。转至**管理** > **计费和使用情况** > **使用情况** > **导出 CSV** >  **实例**，以下载使用情况报告。有关导出标记的更多信息，请查看 [Export tags within your usage data to help with cost allocation](https://www.ibm.com/blogs/bluemix/2019/04/export-your-tagged-usage-data-within-the-enhanced-ibm-cloud/) 博客帖子。
+
 ### 针对使用联合标识的用户的多因子认证
 最新更新日期：2019 年 3 月 12 日
 {: #mfa-federated}
