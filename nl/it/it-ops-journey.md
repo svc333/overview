@@ -2,7 +2,11 @@
 
 copyright:
   years: 2018, 2019
-lastupdated: "2019-01-29"
+lastupdated: "2019-04-02"
+
+keywords: cloud environment, virtual server, virtual machine, vm, understanding infrastructure, IaaS model
+
+subcollection: overview
 
 
 ---
@@ -17,7 +21,7 @@ lastupdated: "2019-01-29"
 # Esplora il percorso dell'amministratore delle operazioni IT in {{site.data.keyword.cloud_notm}}
 {: #it-ops}
 
-Poiché molte organizzazioni passano a un ambiente cloud, in locale o ospitato nei data center, il ruolo dell'amministratore delle operazioni IT (IT ops admin) sta venendo ridefinito. L'ambito e la complessità di questa modifica aumentano in modo significativo in base al tipo di ambiente che la tua organizzazione vuole distribuire.
+Poiché molte organizzazioni passano a un ambiente cloud, in locale o ospitato nei data center, il ruolo dell'amministratore delle operazioni IT (IT ops admin) sta venendo ridefinito. L'ambito e la complessità di questa modifica aumentano in modo significativo in base al tipo di ambiente che la tua organizzazione vuole distribuire. 
 {: .shortdesc}
 
 Prima del passaggio al cloud, hai lavorato con un ambiente intrinsecamente sicuro con sistemi collegati alla tua intranet o LAN privata. In un ambiente cloud, ti aspetti ora di eseguire le seguenti attività:
@@ -119,7 +123,7 @@ Puoi acquistare ulteriore archiviazione in base alle tue esigenze. Consulta la s
 ### Rete
 {: #network}
 
-Ottieni automaticamente la connettività a {{site.data.keyword.vpn_full}} quando viene configurato il tuo account {{site.data.keyword.cloud_notm}}. Per impostazione predefinita, il tuo server ha un indirizzo IP pubblico e uno privato. Se vuoi che il tuo server sia privato, puoi disattivare l'interfaccia pubblica dopo che è stato eseguito provisioning del tuo server oppure ordinare il tuo server come privato. Per ulteriori informazioni, vedi [Introduzione alla VPN (Virtual Private Networking)](/docs/infrastructure/iaas-vpn?topic=VPN-getting-started-with-virtual-private-networking-vpn-).
+Ottieni automaticamente la connettività a {{site.data.keyword.vpn_full}} quando viene configurato il tuo account {{site.data.keyword.cloud_notm}}. Per impostazione predefinita, il tuo server ha un indirizzo IP pubblico e uno privato. Se vuoi che il tuo server sia privato, puoi disattivare l'interfaccia pubblica dopo che è stato eseguito provisioning del tuo server oppure ordinare il tuo server come privato. Per ulteriori informazioni, vedi [Introduzione alla VPN (Virtual Private Networking)](/docs/infrastructure/iaas-vpn?topic=VPN-gettingstarted-with-virtual-private-networking).
 
 <!-- begin staging only -->
 In un livello dell'infrastruttura, puoi creare un cloud privato virtuale, che è una rete virtuale collegata al tuo account {{site.data.keyword.cloud_notm}}. Un cloud privato virtuale ti offre un punto di ingresso che fornisce la sicurezza cloud e la capacità di ridimensionare dinamicamente le tue VSI (virtual server instance). Per ulteriori informazioni, vedi [Getting started with IBM Cloud Virtual Private Cloud (VPC) Infrastructure](/docs/vpc/vpc-getting-started-with-ibm-cloud-virtual-private-cloud-infrastructure). 

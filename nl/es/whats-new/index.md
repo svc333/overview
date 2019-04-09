@@ -24,6 +24,12 @@ Consulte información actualizada sobre las nuevas características disponibles 
 ## Plataforma {{site.data.keyword.Bluemix_notm}}
 {: #platform_category}
 
+
+### Exportación de datos de uso con etiquetas asociadas
+Novedad desde: 4 de abril de 2019 
+
+Los usuarios ahora pueden utilizar nuestras más recientes funciones de etiquetado para gestionar los recursos, el uso y los costes en el informe de uso exportado. Cuando añade una etiqueta a un recurso, ahora tiene la opción de visualizar la etiqueta asociada al recurso. Vaya a **Gestionar**> **Facturación y uso**> **Uso**> **Exportar CSV**>  **Instancias** para descargar su informe de uso. Para obtener más información sobre la exportación de etiquetas, consulte la publicación de blog [Exportación de etiquetas en sus datos de uso para facilitar la asignación de costes](https://www.ibm.com/blogs/bluemix/2019/04/export-your-tagged-usage-data-within-the-enhanced-ibm-cloud/).
+
 ### Autenticación de multifactores para usuarios con ID federados
 Novedad desde: 12 de marzo de 2019
 {: #mfa-federated}

@@ -22,7 +22,7 @@ Para crear recursos del catálogo, consulte [Cómo trabajar en el catálogo](/do
 ## Gestión de visibilidad
 {: #manage-vis}
 
-¿Desea tener más control sobre lo que se muestra en el catálogo? ¿Desea ocultar los recursos individuales a algunos usuarios y mostrarlos a otros? Con la autoridad de administrador adecuada, puede ver y establecer la visibilidad de los recursos del catálogo mediante la {{site.data.keyword.Bluemix_notm}}CLI de [](/docs/cli?topic=cloud-cli-ibmcloud-cli).
+¿Desea tener más control sobre lo que se muestra en el catálogo? ¿Desea ocultar los recursos individuales a algunos usuarios y mostrarlos a otros? Con la autoridad de administrador adecuada, puede ver y establecer la visibilidad de los recursos del catálogo mediante la [CLI de {{site.data.keyword.Bluemix_notm}}](/docs/cli?topic=cloud-cli-ibmcloud-cli).
 
 Para obtener más información, consulte los siguientes temas.
 

@@ -2,7 +2,7 @@
 
 copyright:
   years: 2018, 2019
-lastupdated: "2019-03-14"
+lastupdated: "2019-04-02"
 
 keywords: cloud environment, virtual server, virtual machine, vm, understanding infrastructure, IaaS model
 
@@ -123,7 +123,7 @@ Je nach Ihren Bedürfnissen können Sie zusätzlichen Speicher erwerben. Die fol
 ### Vernetzung
 {: #network}
 
-Wenn Ihr {{site.data.keyword.cloud_notm}}-Konto eingerichtet ist, erhalten Sie automatisch Anbindung an {{site.data.keyword.vpn_full}}. Standardmäßig verfügt Ihr Server über eine öffentliche IP-Adresse und über eine private IP-Adresse. Wenn Sie wünschen, dass Ihr Server privat ist, können Sie nach der Bereitstellung und Einrichtung Ihres Servers die öffentliche Schnittstelle inaktivieren oder aber den Server als privat bestellen. Weitere Informationen enthält [Einführung in die Arbeit mit VPN (Virtual Private Networking)](/docs/infrastructure/iaas-vpn?topic=VPN-getting-started-with-virtual-private-networking-vpn-).
+Wenn Ihr {{site.data.keyword.cloud_notm}}-Konto eingerichtet ist, erhalten Sie automatisch Anbindung an {{site.data.keyword.vpn_full}}. Standardmäßig verfügt Ihr Server über eine öffentliche IP-Adresse und über eine private IP-Adresse. Wenn Sie wünschen, dass Ihr Server privat ist, können Sie nach der Bereitstellung und Einrichtung Ihres Servers die öffentliche Schnittstelle inaktivieren oder aber den Server als privat bestellen. Weitere Informationen enthält [Einführung in die Arbeit mit VPN (Virtual Private Networking)](/docs/infrastructure/iaas-vpn?topic=VPN-gettingstarted-with-virtual-private-networking).
 
 <!-- begin staging only -->
 Innerhalb der Infrastrukturebene können Sie eine virtuelle private Cloud erstellen, d. h. ein virtuelles Netz, das an Ihr {{site.data.keyword.cloud_notm}}-Konto gebunden ist. Eine virtuelle private Cloud bietet Ihnen einen Eingangspunkt, der Cloud-Sicherheit und die Möglichkeit der dynamischen Skalierung Ihrer Virtual Server-Instanzen (VSIs) bietet. Weitere Informationen finden Sie in [Einführung in IBM Cloud Virtual Private Cloud (VPC) Infrastructure](/docs/vpc/vpc-getting-started-with-ibm-cloud-virtual-private-cloud-infrastructure). 
@@ -153,5 +153,5 @@ Nachdem Sie Ihre Infrastruktur und Umgebung erstellt haben, können Sie mit ihre
 | [Systemereignisse überwachen](/docs/account?topic=account-audit-log) | Zeigen Sie die Aktionen an, die für Ihre Infrastrukturressourcen ausgeführt worden sind. |
 | [E-Mail-Vorgaben festlegen](/docs/account?topic=account-email-prefs) | Konfigurieren Sie E-Mail-Benachrichtigungen über ungeplante Ereignisse, Wartungen und Ankündigungen für die {{site.data.keyword.cloud_notm}}-Infrastruktur.  |
 | [Die Sicherheit Ihrer Daten verstehen](/docs/overview?topic=overview-security) | Die {{site.data.keyword.cloud_notm}}-Plattform besitzt geschichtete netz- und infrastrukturweite Sicherheitsmaßnahmen. |
-| [Verstehen, wie Sie null Ausfallzeit sicherstellen können](/docs/overview?topic=overview-zero-downtime) | Alle {{site.data.keyword.cloud_notm}}-Ressourcen werden per Hosting in Rechenzentren auf der ganzen Welt bereitgestellt. |
+| [Sicherstellen, dass keine Ausfallzeiten auftreten](/docs/overview?topic=overview-zero-downtime) | Alle {{site.data.keyword.cloud_notm}}-Ressourcen werden per Hosting in Rechenzentren auf der ganzen Welt bereitgestellt. |
 {: caption="Tabelle 4. Management-Tasks" caption-side="top"}

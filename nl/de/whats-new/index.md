@@ -24,11 +24,17 @@ Wenn Sie hinsichtlich neuer Features, die auf der {{site.data.keyword.Bluemix}}-
 ## {{site.data.keyword.Bluemix_notm}}-Plattform
 {: #platform_category}
 
+
+### Nutzungsdaten mit zugehörigen Tags exportieren
+Datum der Neuerung: 4. April 2019 
+
+Benutzer können jetzt unsere neueste Tagging-Funktionalität verwenden, um Ressourcen, Nutzung und Kosten im exportierten Nutzungsbericht zu verwalten. Wenn Sie einer Ressource ein Tag hinzufügen, können Sie das Tag jetzt anzeigen, das der Ressource zugeordnet wurde. Rufen Sie **Verwalten**> **Abrechnung und Nutzung**> **Nutzung**> **CSV exportieren**>  **Instanzen** auf, um Ihren Nutzungsbericht herunterzuladen. Weitere Informationen zum Exportieren von Tags finden Sie im Blogbeitrag [Export tags within your usage data to help with cost allocation](https://www.ibm.com/blogs/bluemix/2019/04/export-your-tagged-usage-data-within-the-enhanced-ibm-cloud/).
+
 ### Mehrfaktorauthentifizierung für Benutzer mit föderierten IDs
 Datum der Neuerung: 12. März 2019
 {: #mfa-federated}
 
-Kontoeigner oder Benutzer, denen die Administratorrolle für den Abrechnungskontoverwaltungsservice zugewiesen wurde, können die Mehrfaktorauthentifizierung (MFA) für alle Benutzer in ihrem Konto aktivieren. Für föderierte Benutzer, die ihre unternehmensweite Single Sign-on-ID verwenden, kann es nun erforderlich sein, sich bei der Anmeldung bei {{site.data.keyword.Bluemix_notm}} anhand der MFA zu authentifizieren. Weiter Informationen zur funktionalen Erweiterung dieses Features und zur Aktivierung der MFA für Ihr Konto finden Sie in [Einführung der MFA für IBM Cloud-Benutzer mit einer föderierten ID ](https://www.ibm.com/blogs/bluemix/2019/03/introducing-mfa-for-ibm-cloud-users-with-federated-id/){: new_window} ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link"). 
+Kontoeigner oder Benutzer, denen die Administratorrolle für den Abrechnungskontoverwaltungsservice zugewiesen wurde, können die Mehrfaktorauthentifizierung (MFA) für alle Benutzer in ihrem Konto aktivieren. Für föderierte Benutzer, die ihre unternehmensweite Single Sign-on-ID verwenden, kann es nun erforderlich sein, sich bei der Anmeldung bei {{site.data.keyword.Bluemix_notm}} anhand der MFA zu authentifizieren. Weiter Informationen zur funktionalen Erweiterung dieses Features und zur Aktivierung der MFA für Ihr Konto finden Sie in [Einführung der MFA für IBM Cloud-Benutzer mit einer föderierten ID ](https://www.ibm.com/blogs/bluemix/2019/03/introducing-mfa-for-ibm-cloud-users-with-federated-id/){: new_window} ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link").
 
 ### Neues Unterstützungserlebnis für {{site.data.keyword.Bluemix_notm}}
 Datum der Neuerung: 30. November 2018 

@@ -24,6 +24,12 @@ Restez à jour en utilisant les nouvelles fonctions disponibles dans la platefor
 ## Plateforme {{site.data.keyword.Bluemix_notm}}
 {: #platform_category}
 
+
+### Exportation de données d'utilisation avec des étiquettes associées
+Nouveau à compter du : 4 avril 2019 
+
+Les utilisateurs peuvent désormais utiliser nos fonctions d'étiquetage les plus récentes pour gérer les ressources, l'utilisation et les coûts dans le rapport d'utilisation exporté. Lorsque vous ajoutez une étiquette à une ressource, vous pouvez désormais afficher l'étiquette associée à la ressource. Accédez à **Gérer**> **Facturation et utilisation**> **Utilisation**> **Exporter au format CSV**>  **Instances** pour télécharger votre rapport d'utilisation. Pour plus d'informations sur l'exportation d'étiquettes, consultez l'article de blogue [Export tags within your usage data to help with cost allocation](https://www.ibm.com/blogs/bluemix/2019/04/export-your-tagged-usage-data-within-the-enhanced-ibm-cloud/).
+
 ### Authentification multi-facteur pour les utilisateurs avec des ID fédérés
 Nouveau à compter du : 12 mars 2019
 {: #mfa-federated}

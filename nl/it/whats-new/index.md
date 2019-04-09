@@ -24,6 +24,12 @@ Rimani aggiornato con le nuove funzioni disponibili nella piattaforma {{site.dat
 ## Piattaforma {{site.data.keyword.Bluemix_notm}}
 {: #platform_category}
 
+
+### Esporta i dati di utilizzo con le tag associate
+Novità a partire dal 4 aprile 2019 
+
+Gli utenti possono ora utilizzare le nostre funzionalità di inserimento di tag più recenti per gestire le risorse, l'utilizzo e i costi nel report di utilizzo esportato. Quando aggiungi una tag a una risorsa, hai ora l'opzione di visualizzare la tag associata alla risorsa. Vai a **Gestisci**> **Fatturazione e utilizzo**> **Utilizzo**> **Esporta CSV**>  **Istanze** per scaricare il tuo report di utilizzo. Per ulteriori informazioni sull'esportazione delle tag, vedi il post di blog [Export tags within your usage data to help with cost allocation](https://www.ibm.com/blogs/bluemix/2019/04/export-your-tagged-usage-data-within-the-enhanced-ibm-cloud/).
+
 ### Autenticazione multifattore per gli utenti con ID federati
 Novità a partire dal 12 marzo 2019
 {: #mfa-federated}
