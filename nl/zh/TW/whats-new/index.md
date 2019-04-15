@@ -4,7 +4,7 @@ copyright:
 
   years: 2015, 2019
 
-lastupdated: "2019-03-13"
+lastupdated: "2019-04-05"
 
 keywords: release notes, what's new, what is new, cloud updates
 
@@ -29,6 +29,11 @@ subcollection: overview
 文件日期：2019 年 4 月 4 日 
 
 使用者現在可以利用最新的標記功能，在匯出的用量報告中管理資源、用量及成本。當您新增標籤至資源時，現在可以選擇檢視與資源相關聯的標籤。移至**管理**> **計費及用量**> **用量**> **匯出 CSV**> **實例**以下載用量報告。如需匯出標籤的相關資訊，請參閱 [Export tags within your usage data to help with cost allocation](https://www.ibm.com/blogs/bluemix/2019/04/export-your-tagged-usage-data-within-the-enhanced-ibm-cloud/) 部落格文章。
+
+### 用來啟用對資源之公用存取權的存取群組
+文件日期：2019 年 3 月 25 日
+
+現在您可以使用您帳戶中為您提供的新存取群組，啟用對 {{site.data.keyword.cos_full}} 儲存區中物件的公用存取權。這個新的存取群組稱為 `Public access` 群組，依預設，所有使用者和服務 ID 都會新增至其中。您可以更新存取群組的原則，讓所有使用者（甚至是未經鑑別的使用者）能夠存取您在原則中指定的資源。[進一步瞭解公用存取群組](/docs/iam?topic=iam-public#public)。
 
 ### 具有聯合 ID 之使用者的多因子鑑別
 文件日期：2019 年 3 月 12 日

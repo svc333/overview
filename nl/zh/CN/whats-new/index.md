@@ -4,7 +4,7 @@ copyright:
 
   years: 2015, 2019
 
-lastupdated: "2019-03-13"
+lastupdated: "2019-04-05"
 
 keywords: release notes, what's new, what is new, cloud updates
 
@@ -30,6 +30,11 @@ subcollection: overview
  
 
 现在，用户可以利用最新的标记功能来管理导出的使用情况报告中的资源、使用情况和成本。向资源添加标记时，现在可以选择查看与资源关联的标记。转至**管理** > **计费和使用情况** > **使用情况** > **导出 CSV** >  **实例**，以下载使用情况报告。有关导出标记的更多信息，请查看 [Export tags within your usage data to help with cost allocation](https://www.ibm.com/blogs/bluemix/2019/04/export-your-tagged-usage-data-within-the-enhanced-ibm-cloud/) 博客帖子。
+
+### 用于启用对资源的公共访问权的访问组
+最新更新日期：2019 年 3 月 25 日
+
+现在您可以使用帐户中提供的新访问组启用对 {{site.data.keyword.cos_full}} 存储区中对象的公共访问权。这个新的访问组被称为`公共访问权`组，缺省情况下，会为其添加所有用户和服务标识。您可以更新访问组策略以支持所有用户（甚至未经验证的用户）访问策略中指定的资源。[了解有关公共访问权组的更多信息](/docs/iam?topic=iam-public#public)。
 
 ### 针对使用联合标识的用户的多因子认证
 最新更新日期：2019 年 3 月 12 日

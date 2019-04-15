@@ -4,7 +4,7 @@ copyright:
 
   years: 2015, 2019
 
-lastupdated: "2019-03-13"
+lastupdated: "2019-04-05"
 
 keywords: release notes, what's new, what is new, cloud updates
 
@@ -25,10 +25,15 @@ subcollection: overview
 {: #platform_category}
 
 
-### 関連付けられたタグを含む使用量データのエクスポート
+### 関連タグを用いた使用量データのエクスポート
 最新情報: 2019 年 4 月 4 日 
 
-ユーザーは最新のタグ付け機能を使用して、エクスポートした使用量レポート内のリソース、使用量、およびコストを管理できるようになりました。 リソースにタグを追加した場合、リソースに関連付けられたタグを表示するオプションを利用できるようになりました。 **「管理」**> **「請求および使用量」**> **「使用量」**> **「CSV のエクスポート」**>  **「インスタンス」**に進み、使用量レポートをダウンロードします。 タグのエクスポートについて詳しくは、[Export tags within your usage data to help with cost allocation](https://www.ibm.com/blogs/bluemix/2019/04/export-your-tagged-usage-data-within-the-enhanced-ibm-cloud/) というブログ投稿を確認してください。
+ユーザーは最新のタグ付け機能を使用して、エクスポートされた使用量レポートでリソース、使用量、コストを管理できるようになりました。リソースにタグを追加すると、リソースに関連するタグを表示するオプションを使用できます。**「管理」 **> **「請求および使用量」 **> **「使用量」 **> **「CSV のエクスポート」 **> **「インスタンス」**に移動して、使用量レポートをダウンロードします。タグのエクスポートについて詳しくは、ブログ投稿[「使用量データ内のタグをエクスポートしてコストの割り振りに役立てる (Export tags within your usage data to help with cost allocation)」](https://www.ibm.com/blogs/bluemix/2019/04/export-your-tagged-usage-data-within-the-enhanced-ibm-cloud/)を確認してください。
+
+### リソースへのパブリック・アクセスを可能にするアクセス・グループ
+最新情報: 2019 年 3 月 25 日
+
+アカウントに提供されている新しいアクセス・グループを使用することで、{{site.data.keyword.cos_full}} バケット内のオブジェクトへのパブリック・アクセスを有効にできるようになりました。この新しいアクセス・グループは`「パブリック・アクセス」`グループと呼ばれ、デフォルトですべてのユーザー ID とサービス ID がこのグループに追加されています。アクセス・グループのポリシーを更新すれば、ポリシーで指定したリソースへのアクセス権限を、認証されていないユーザーも含めてすべてのユーザーに付与できます。 [『パブリック・アクセス・グループの詳細 (Learn more about the public access group)』](/docs/iam?topic=iam-public#public)を参照してください。
 
 ### フェデレーテッド ID を持つユーザーの多要素認証
 最新情報: 2019 年 3 月 12 日

@@ -4,7 +4,7 @@ copyright:
 
   years: 2015, 2019
 
-lastupdated: "2019-03-13"
+lastupdated: "2019-04-05"
 
 keywords: release notes, what's new, what is new, cloud updates
 
@@ -15,7 +15,7 @@ subcollection: overview
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
 
-# Nouveautés d'{{site.data.keyword.Bluemix_notm}}?
+# Nouveautés d'{{site.data.keyword.Bluemix_notm}}
 {: #whatsnew}
 
 Restez à jour en utilisant les nouvelles fonctions disponibles dans la plateforme {{site.data.keyword.Bluemix}} afin d'optimiser votre expérience {{site.data.keyword.Bluemix_notm}}. Si vous recherchez des mises à jour des services disponibles dans {{site.data.keyword.Bluemix_notm}}, consultez la [page {{site.data.keyword.Bluemix_notm}} Announcements](https://www.ibm.com/cloud/blog/announcements){: new_window} ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe") sur le blogue.
@@ -29,6 +29,11 @@ Restez à jour en utilisant les nouvelles fonctions disponibles dans la platefor
 Nouveau à compter du : 4 avril 2019 
 
 Les utilisateurs peuvent désormais utiliser nos fonctions d'étiquetage les plus récentes pour gérer les ressources, l'utilisation et les coûts dans le rapport d'utilisation exporté. Lorsque vous ajoutez une étiquette à une ressource, vous pouvez désormais afficher l'étiquette associée à la ressource. Accédez à **Gérer**> **Facturation et utilisation**> **Utilisation**> **Exporter au format CSV**>  **Instances** pour télécharger votre rapport d'utilisation. Pour plus d'informations sur l'exportation d'étiquettes, consultez l'article de blogue [Export tags within your usage data to help with cost allocation](https://www.ibm.com/blogs/bluemix/2019/04/export-your-tagged-usage-data-within-the-enhanced-ibm-cloud/).
+
+### Groupe d'accès pour l'activation de l'accès public aux ressources
+Nouveau à compter du : 25 mars 2019
+
+Vous pouvez désormais activer l'accès public aux objets de vos compartiments {{site.data.keyword.cos_full}} en utilisant un nouveau groupe d'accès mis automatiquement à votre disposition dans votre compte. Tous les ID utilisateur et de service sont ajoutés par défaut à ce nouveau groupe d'accès nommé `Accès public`. Vous pouvez mettre à jour les règles du groupe d'accès afin d'autoriser tous les utilisateurs, même ceux qui ne sont pas authentifiés, à accéder à la ressource désignée dans la règle. [En savoir plus sur le groupe d'accès public](/docs/iam?topic=iam-public#public).
 
 ### Authentification multi-facteur pour les utilisateurs avec des ID fédérés
 Nouveau à compter du : 12 mars 2019
@@ -203,7 +208,7 @@ Pour les utilisateurs disposant d'un compte Paiement à la carte ou Abonnement, 
 Nouveau à compter du : 16 novembre 2017
 {: #iam-nov17}
 
-L'introduction de groupes de ressources dans votre compte {{site.data.keyword.Bluemix_notm}} a ouvert la voie à une nouvelle façon d'affecter des accès. Des ID utilisateur et de service peuvent être affectés pour un accès à l'ensemble des services d'un groupe de ressources, permettant ainsi de donner rapidement accès à plusieurs ressource à la fois. Vous pouvez également personnaliser l'accès pour chaque ID utilisateur ou service en affectant l'accès uniquement à certains services d'un groupe de ressources, ou simplement en choisissant d'affecter l'accès à des ressources individuelles au niveau de l'instance de service. Pour plus d'informations sur les fonctions dont vous pouvez bénéficier en utilisant IAM, voir [Quelles fonctions sont fournies par IAM ?](/docs/iam?topic=iam-iamoverview#features)
+L'introduction de groupes de ressources dans votre compte {{site.data.keyword.Bluemix_notm}} a ouvert la voie à une nouvelle façon d'affecter des accès. Des ID utilisateur et de service peuvent être affectés pour un accès à l'ensemble des services d'un groupe de ressources, permettant ainsi de donner rapidement accès à plusieurs ressources à la fois. Vous pouvez également personnaliser l'accès pour chaque ID utilisateur ou service en affectant l'accès uniquement à certains services d'un groupe de ressources, ou simplement en choisissant d'affecter l'accès à des ressources individuelles au niveau de l'instance de service. Pour plus d'informations sur les fonctions dont vous pouvez bénéficier en utilisant IAM, voir [Quelles fonctions sont fournies par IAM ?](/docs/iam?topic=iam-iamoverview#features)
 
 ### Personnalisez votre vue du tableau de bord
 Nouveau à compter du : 16 novembre 2017
@@ -267,6 +272,6 @@ Pour plus d'informations, consultez l'article de blogue [Introducing Identity & 
 Nouveau à compter du : 13 avril 2017
 {: #docnavupdates}
 
-Cette mise à jour de la navigation vous permettra de mieux appréhender la façon dont le contenu est organisé dans l'ensemble des documents, vous permettant de trouver plus efficacement le contenu pertinent. Avec un moindre nombre de couches de contenu imbriquées, il n'est plus nécessaire de creuser pour trouver la documentation dont vous avez besoin pour un usage optimal de {{site.data.keyword.Bluemix_notm}}.
+Cette mise à jour de la navigation vous permettra de mieux appréhender la façon dont le contenu est organisé dans l'ensemble des documents, vous permettant de trouver plus efficacement le contenu pertinent. Avec un moindre nombre de couches de contenu imbriquées, il n'est plus nécessaire de creuser pour trouver la documentation dont vous avez besoin pour un usage optimal d'{{site.data.keyword.Bluemix_notm}}.
 
 
