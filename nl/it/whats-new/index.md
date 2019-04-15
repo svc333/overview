@@ -4,7 +4,7 @@ copyright:
 
   years: 2015, 2019
 
-lastupdated: "2019-03-13"
+lastupdated: "2019-04-05"
 
 keywords: release notes, what's new, what is new, cloud updates
 
@@ -29,6 +29,11 @@ Rimani aggiornato con le nuove funzioni disponibili nella piattaforma {{site.dat
 Novità a partire dal 4 aprile 2019 
 
 Gli utenti possono ora utilizzare le nostre funzionalità di inserimento di tag più recenti per gestire le risorse, l'utilizzo e i costi nel report di utilizzo esportato. Quando aggiungi una tag a una risorsa, hai ora l'opzione di visualizzare la tag associata alla risorsa. Vai a **Gestisci**> **Fatturazione e utilizzo**> **Utilizzo**> **Esporta CSV**>  **Istanze** per scaricare il tuo report di utilizzo. Per ulteriori informazioni sull'esportazione delle tag, vedi il post di blog [Export tags within your usage data to help with cost allocation](https://www.ibm.com/blogs/bluemix/2019/04/export-your-tagged-usage-data-within-the-enhanced-ibm-cloud/).
+
+### Gruppo di accesso per consentire l'accesso pubblico alle risorse
+Novità a partire dal 25 marzo 2019
+
+Ora puoi consentire l'accesso pubblico agli oggetti nei tuoi bucket {{site.data.keyword.cos_full}} utilizzando un nuovo gruppo di accesso fornito per te nel tuo account. Questo nuovo gruppo di accesso è denominato gruppo di `accesso pubblico` e tutti gli utenti e gli ID servizio vengono aggiunti a questo gruppo per impostazione predefinita. Puoi aggiornare le politiche per il gruppo di accesso per consentire a tutti gli utenti, anche a quelli non autenticati, di accedere alle risorse che specifichi nella politica. [Ulteriori informazioni sul gruppo di accesso pubblico](/docs/iam?topic=iam-public#public).
 
 ### Autenticazione multifattore per gli utenti con ID federati
 Novità a partire dal 12 marzo 2019
@@ -241,7 +246,7 @@ Per ulteriori informazioni sui vantaggi di questa funzione e su come iniziare, v
 Novità a partire dal 27 luglio 2017
 {: #gc}
 
-Avvalendosi dell'ultimo aggiornamento della console per gestire le tue regioni pubbliche da un'unica posizione nella console, {{site.data.keyword.Bluemix_notm}} dispone ora di un catalogo globale che rende più semplice il processo di selezione e distribuzione degli elementi che selezioni dal catalogo. A prescindere dalla regione che hai selezionato nella console, puoi ora visualizzare tutti i servizi disponibili in ogni regione pubblica dal catalogo. Una volta selezionato un tile dal catalogo, puoi vedere in quali regioni è disponibile il servizio e selezionare la posizione in cui vuoi distribuirlo. Per ulteriori informazioni sugli ultimi aggiornamenti del catalogo. vedi [A global {{site.data.keyword.Bluemix_notm}} catalog makes building things easier](https://www.ibm.com/blogs/bluemix/2017/07/global-bluemix-catalog-makes-building-things-easier/){: new_window} ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno").
+Avvalendosi dell'ultimo aggiornamento della console per gestire le tue regioni pubbliche da un'unica posizione nella console, {{site.data.keyword.Bluemix_notm}} dispone ora di un catalogo globale che rende più semplice il processo di selezione e distribuzione degli elementi che selezioni dal catalogo. A prescindere dalla regione che hai selezionato nella console, puoi ora visualizzare tutti i servizi disponibili in ogni regione pubblica dal catalogo. Una volta selezionato un tile dal catalogo, puoi vedere in quali regioni è disponibile il servizio e selezionare la posizione in cui vuoi distribuirlo. Per ulteriori informazioni sugli ultimi aggiornamenti del catalogo, vedi [A global {{site.data.keyword.Bluemix_notm}} catalog makes building things easier](https://www.ibm.com/blogs/bluemix/2017/07/global-bluemix-catalog-makes-building-things-easier/){: new_window} ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno").
 
 ### Aggiornamenti della console {{site.data.keyword.Bluemix_notm}}
 Novità a partire dal 23 maggio 2017
