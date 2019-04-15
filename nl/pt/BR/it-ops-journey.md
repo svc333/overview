@@ -2,7 +2,7 @@
 
 copyright:
   years: 2018, 2019
-lastupdated: "2019-04-02"
+lastupdated: "2019-03-14"
 
 keywords: cloud environment, virtual server, virtual machine, vm, understanding infrastructure, IaaS model
 
@@ -142,7 +142,7 @@ E/S de múltiplos caminhos (MPIO). |
 
 Você obterá automaticamente a conectividade com o {{site.data.keyword.vpn_full}} quando a sua conta do {{site.data.keyword.cloud_notm}} estiver configurada. Por
 padrão, o servidor tem um endereço IP público e um privado. Se desejar que o servidor seja privado, será possível desativar a interface pública depois que o servidor for provisionado ou pedir que o servidor seja privado. Consulte
-[Introdução à rede privada virtual](/docs/infrastructure/iaas-vpn?topic=VPN-gettingstarted-with-virtual-private-networking) para obter mais informações.
+[Introdução à rede privada virtual](/docs/infrastructure/iaas-vpn?topic=VPN-getting-started-with-virtual-private-networking-vpn-) para obter mais informações.
 
 <!-- begin staging only -->
 Na camada de infraestrutura, é possível construir uma nuvem particular virtual, que é uma rede virtual ligada à sua conta do {{site.data.keyword.cloud_notm}}. Uma nuvem particular virtual fornece um ponto de entrada que fornece segurança de nuvem e a capacidade de escalar dinamicamente suas instâncias de servidor virtual (VSIs). Para obter mais informações, consulte [Introdução à infraestrutura da Nuvem particular virtual (VPC) do IBM Cloud](/docs/vpc/vpc-getting-started-with-ibm-cloud-virtual-private-cloud-infrastructure). 

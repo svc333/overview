@@ -4,7 +4,7 @@
 
 copyright:
   years: 2016, 2019
-lastupdated: "2019-03-27"
+lastupdated: "2019-01-23"
 
 keywords: quick keys, accessibility
 
@@ -52,7 +52,7 @@ L'état de conformité pour l'accessibilité de l'interface utilisateur Web {{si
 ou un service IoT, vous devez demander les [informations
 relatives à l'accessibilité du produit ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](https://able.ibm.com/request/){: new_window} pour cette interface ou documentation.
 
-L'état de conformité pour l'accessibilité de la documentation {{site.data.keyword.Bluemix_notm}} concerne spécifiquement les informations de la plateforme principale{{site.data.keyword.Bluemix_notm}} et ne s'applique pas aux services. Sur la page d'accueil, le contenu est réparti sur plusieurs onglets. De plus, la section Apprentissage de l'onglet Initiation, l'onglet Génération, les documentations d'interface CLI spécifiques au service et l'onglet Intégralité de la documentation sont gérés par les équipes de maintenance. La documentation disponible pour la plateforme {{site.data.keyword.Bluemix_notm}} est gérée et signalée dans les informations d'accessibilité relatives au produit IBM Bluemix Continuous Delivery disponibles sur demande. Pour
+L'état de conformité pour l'accessibilité de la documentation {{site.data.keyword.Bluemix_notm}} concerne spécifiquement les informations de la plateforme principale{{site.data.keyword.Bluemix_notm}} et ne s'applique pas aux services. Sur la page d'accueil, le contenu est réparti sur différents onglets. Le contenu de l'onglet Intégralité de la documentation est géré par les équipes de maintenance. La documentation disponible pour la plateforme {{site.data.keyword.Bluemix_notm}} est gérée et signalée dans les informations d'accessibilité relatives au produit IBM Bluemix Continuous Delivery disponibles sur demande. Pour
 connaître l'état de conformité d'un service, vous devez demander les [informations
 relatives à l'accessibilité du produit ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](https://able.ibm.com/request/){: new_window}.
 

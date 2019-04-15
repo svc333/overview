@@ -2,7 +2,7 @@
 
 copyright:
   years: 2018, 2019
-lastupdated: "2019-04-02"
+lastupdated: "2019-03-14"
 
 keywords: cloud environment, virtual server, virtual machine, vm, understanding infrastructure, IaaS model
 
@@ -125,7 +125,7 @@ subcollection: overview
 ### 联网
 {: #network}
 
-在设置 {{site.data.keyword.cloud_notm}} 帐户时，会自动建立与 {{site.data.keyword.vpn_full}} 的连接。缺省情况下，服务器有一个公共 IP 地址和一个专用 IP 地址。如果希望服务器为专用服务器，那么可在供应服务器后关闭公共接口，也可以将该服务器作为专用服务器进行订购。有关更多信息，请参阅[虚拟专用网入门](/docs/infrastructure/iaas-vpn?topic=VPN-gettingstarted-with-virtual-private-networking)。
+在设置 {{site.data.keyword.cloud_notm}} 帐户时，会自动建立与 {{site.data.keyword.vpn_full}} 的连接。缺省情况下，服务器有一个公共 IP 地址和一个专用 IP 地址。如果希望服务器为专用服务器，那么可在供应服务器后关闭公共接口，也可以将该服务器作为专用服务器进行订购。有关更多信息，请参阅[虚拟专用网入门](/docs/infrastructure/iaas-vpn?topic=VPN-getting-started-with-virtual-private-networking-vpn-)。
 
 <!-- begin staging only -->
 在基础架构层中，可以构建虚拟私有云，这是绑定到 {{site.data.keyword.cloud_notm}} 帐户的虚拟网络。虚拟私有云可作为入口点，提供云安全性以及动态扩展虚拟服务器实例 (VSI) 的能力。有关更多信息，请参阅 [IBM Cloud Virtual Private Cloud (VPC) 基础架构入门](/docs/vpc/vpc-getting-started-with-ibm-cloud-virtual-private-cloud-infrastructure)。

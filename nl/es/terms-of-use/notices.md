@@ -150,7 +150,7 @@ IBM, el logotipo de IBM, e ibm.com son marcas de International Business Machines
 
 Adobe, el logotipo de Adobe, PostScript y el logotipo de PostScript son marcas registradas o marcas comerciales registradas de Adobe Systems Incorporated en Estados Unidos o en otros países.
 
-El robot de Android se reproduce o modifica a partir de un trabajo creado y compartido por Google que se utiliza de acuerdo con las condiciones descritas en la [Creative Commons 3.0 Attribution License ![Icono de enlace externo](../../icons/launch-glyph.svg)](https://creativecommons.org/licenses/by/3.0/){: new_window}.
+El robot de Android se reproduce o modifica a partir de un trabajo creado y compartido por Google que se utiliza de acuerdo a las condiciones descritas en la [Creative Commons 3.0 Attribution License ![Icono de enlace externo](../../icons/launch-glyph.svg)](https://creativecommons.org/licenses/by/3.0/){: new_window}.
 
 Linux es una marca registrada de Linus Torvalds en los Estados Unidos o en otros países.
 

@@ -2,7 +2,7 @@
 
 copyright:
   years: 2018, 2019
-lastupdated: "2019-04-02"
+lastupdated: "2019-03-14"
 
 keywords: cloud environment, virtual server, virtual machine, vm, understanding infrastructure, IaaS model
 
@@ -123,7 +123,7 @@ SaaS モデルでは、プロバイダーは実際のアプリケーションを
 ### ネットワーキング
 {: #network}
 
-{{site.data.keyword.cloud_notm}} アカウントがセットアップされると、{{site.data.keyword.vpn_full}} に自動的に接続されます。 サーバーにはデフォルトで、パブリック IP アドレスとプライベート IP アドレスがあります。 サーバーをプライベートにする場合は、サーバーのプロビジョン後にパブリック・インターフェースをオフにするか、サーバーをプライベートとして注文することができます。 詳しくは、[仮想プライベート・ネットワーキング (VPN) の概要](/docs/infrastructure/iaas-vpn?topic=VPN-gettingstarted-with-virtual-private-networking)を参照してください。
+{{site.data.keyword.cloud_notm}} アカウントがセットアップされると、{{site.data.keyword.vpn_full}} に自動的に接続されます。 サーバーにはデフォルトで、パブリック IP アドレスとプライベート IP アドレスがあります。 サーバーをプライベートにする場合は、サーバーのプロビジョン後にパブリック・インターフェースをオフにするか、サーバーをプライベートとして注文することができます。 詳しくは、[仮想プライベート・ネットワーキング (VPN) の概要](/docs/infrastructure/iaas-vpn?topic=VPN-getting-started-with-virtual-private-networking-vpn-)を参照してください。
 
 <!-- begin staging only -->
 インフラストラクチャー・レイヤー内に仮想プライベート・クラウドを構築できます。仮想プライベート・クラウドとは、{{site.data.keyword.cloud_notm}} アカウントに結合された仮想ネットワークです。 仮想プライベート・クラウドにより、クラウドのセキュリティーと、仮想サーバー・インスタンス (VSI) を動的にスケーリングする能力を提供するエントリー・ポイントを取得できます。 詳しくは、『[IBM Cloud Virtual Private Cloud (VPC) インフラストラクチャーの概説](/docs/vpc/vpc-getting-started-with-ibm-cloud-virtual-private-cloud-infrastructure)』を参照してください。

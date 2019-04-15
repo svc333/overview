@@ -2,9 +2,11 @@
 
 copyright:
   years: 2018, 2019
-lastupdated: "2019-02-27"
+lastupdated: "2019-03-14"
 
-metadata: HA,failover,DR 
+keywords: HA, failover, DR
+
+subcollection: overview
 
 ---
 
@@ -64,30 +66,10 @@ Il bilanciamento del carico globale per la console {{site.data.keyword.cloud_not
 
 Puoi visualizzare tutte le risorse in tutte le ubicazioni per impostazione predefinita dalla vista elenco risorse nella console. Se vuoi visualizzare e gestire le risorse in una specifica ubicazione, espandi il menu **UBICAZIONE** e seleziona un'ubicazione dall'elenco. 
 
-Puoi inoltre utilizzare l'interfaccia riga di comando (CLI) per connetterti all'ubicazione {{site.data.keyword.cloud_notm}} con cui vuoi lavorare utilizzando il comando `ibmcloud api` e specificando l'endpoint API dell'ubicazione. Ad esempio, immetti il seguente comando per stabilire una connessione all'ubicazione {{site.data.keyword.cloud_notm}} Londra:
-
-```
-ibmcloud api https://api.eu-gb.cf.cloud.ibm.com
-```
-
-A ciascuna ubicazione viene assegnato un prefisso univoco. {{site.data.keyword.cloud_notm}} fornisce le seguenti ubicazioni e i seguenti prefissi di ubicazione.
-
-| **Ubicazione**  | **Endpoint API**        |
-|---------------|-------------------------|
-| Dallas        | api.us-south.cf.cloud.ibm.com  |
-| Francoforte     | api.eu-de.cf.cloud.ibm.com  |
-| Londra        | api.eu-gb.cf.cloud.ibm.com  |
-| Sydney        | api.au-syd.cf.cloud.ibm.com  |
-| Tokyo         | api.jp-tok.cf.cloud.ibm.com  |
-| Washington DC | api.us-east.cf.cloud.ibm.com  |
-{: caption="Tabella 1. Elenco di ubicazioni {{site.data.keyword.cloud_notm}}" caption-side="top"}
-
-Quando distribuisci le risorse dell'infrastruttura, hai maggiori opzioni su dove si trovano i tuoi dati. Puoi effettuare la selezione in un elenco di data center in {{site.data.keyword.Bluemix_notm}}. 
-
 ## Data center
 {: #data_center}
 
-Un data center è l'ubicazione fisica che ospita l'alimentazione, il raffreddamento, il calcolo, la rete e le risorse di archiviazione utilizzati per i servizi e le applicazioni. I data center non forniscono l'isolamento da errori locali in modo simile alle multizone in un'ubicazione. Per ulteriori informazioni, vedi [Global locations for your global business ![Icona link esterno](../icons/launch-glyph.svg "Icona link esterno")](https://www.ibm.com/cloud/data-centers/){: new_window}.
+Quando distribuisci le risorse dell'infrastruttura, hai maggiori opzioni su dove si trovano i tuoi dati. Puoi scegliere un'ubicazione o effettuare una selezione da un elenco di data center {{site.data.keyword.Bluemix_notm}}. Un *data center* è l'ubicazione fisica che ospita l'alimentazione, il raffreddamento, il calcolo, la rete e le risorse di archiviazione utilizzati per i servizi e le applicazioni. I data center non forniscono l'isolamento da errori locali in modo simile alle multizone in un'ubicazione. Per ulteriori informazioni, vedi [Global locations for your global business ![Icona link esterno](../icons/launch-glyph.svg "Icona link esterno")](https://www.ibm.com/cloud/data-centers/){: new_window}.
 
 {{site.data.keyword.Bluemix_notm}} offre data center in molte ubicazioni in tutto il mondo. Quando distribuisci le risorse dell'infrastruttura, puoi effettuare la selezione in un elenco di data center in {{site.data.keyword.Bluemix_notm}}. 
 

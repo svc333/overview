@@ -3,7 +3,7 @@
 
 copyright:
   years: 2018, 2019
-lastupdated: "2019-03-25"
+lastupdated: "2019-03-14"
 
 keywords: feedback button, comments, requirements, product improvements
 
@@ -49,12 +49,13 @@ Os bloqueadores de anúncios comuns bloqueiam o Usabilla e ocultam o botão **Fe
 ## Fornecendo uma atualização de conteúdo com uma solicitação pull
 {: #feedback-pr}
 
-É possível enviar as mudanças sugeridas para qualquer página de documentação usando o link **Editar tópico** na parte superior de cada página. Seguindo esse link e editando a página, é possível
+É possível enviar mudanças sugeridas para qualquer página da documentação usando o link **Editar
+no GitHub** na parte superior de cada página. Seguindo esse link e editando a página, é possível
 enviar atualizações em uma solicitação pull para a equipe de conteúdo para revisão e mesclagem. 
 
 Conclua o processo a seguir para enviar uma solicitação pull para a equipe de conteúdo:
 
-1. Clique em **Editar tópico** na página que você deseja atualizar.
+1. Clique em **Editar no Github** na página que você deseja atualizar.
 2. Clique no ícone **Editar este arquivo**.
 3. Faça as mudanças no arquivo no editor WYSIWYG.
 4. Role até o final da página e insira uma breve descrição sobre sua mudança. A descrição estendida é
@@ -75,9 +76,11 @@ sobre um assunto específico nessa seção.
 
 Para abrir um problema de uma página da documentação, conclua as etapas a seguir:
 
-1. Clique no link **Abrir problema**.
-2. Insira um título e preencha o modelo.
-3. Clique em **Enviar novo problema**. 
+1. Clique no link **Editar no GitHub**.
+2. Selecione **Problemas**
+3. Clique em **Novo problema**.
+4. Insira um título e uma descrição para o problema.
+5. Clique em **Enviar novo problema**. 
 
 A equipe de conteúdo recebe os problemas que você abre e trabalha para resolver o feedback. É possível
 monitorar o problema salvando o link depois que você clica em **Enviar novo problema**. Conforme o problema é resolvido, a equipe de conteúdo fornece atualizações de status como um comentário sobre

@@ -3,7 +3,7 @@
 
 copyright:
   years: 2018, 2019
-lastupdated: "2019-03-25"
+lastupdated: "2019-03-14"
 
 keywords: feedback button, comments, requirements, product improvements
 
@@ -43,11 +43,11 @@ Puoi inviare il feedback su un argomento della documentazione specifico utilizza
 ## Fornire un aggiornamento del contenuto con una richiesta di importazione
 {: #feedback-pr}
 
-Puoi inviare modifiche consigliate per qualsiasi pagina della documentazione utilizzando il link **Modifica argomento** all'inizio di ogni pagina. Seguendo questo link e modificando la pagina, puoi inviare gli aggiornamenti in una richiesta di importazione al team del contenuto da controllare e unire. 
+Puoi inviare modifiche consigliate per qualsiasi pagina della documentazione utilizzando il link **Modifica in GitHub** all'inizio di ogni pagina. Seguendo questo link e modificando la pagina, puoi inviare gli aggiornamenti in una richiesta di importazione al team del contenuto da controllare e unire. 
 
 Completa il seguente processo per inviare una richiesta di importazione al team del contenuto:
 
-1. Fai clic su **Modifica argomento** nella pagina che vuoi aggiornare.
+1. Fai clic su **Modifica in Github** nella pagina che vuoi aggiornare.
 2. Fai clic sull'icona **Modifica questo file**.
 3. Effettua le modifiche al file nell'editor WYSIWYG.
 4. Scorri alla fine della pagina e immetti una breve descrizione sulla modifica. La descrizione estesa è facoltativa.
@@ -63,9 +63,11 @@ Puoi aprire un problema da risolvere per il team del contenuto da qualsiasi pagi
 
 Per aprire un problema da una pagina della documentazione, completa la seguente procedura:
 
-1. Fai clic sul link **Apri problema**.
-2. Immetti un titolo e compila il template.
-3. Fai clic su **Invia nuovo problema**. 
+1. Fai clic sul link **Modifica in GitHub**.
+2. Seleziona **Problemi**
+3. Fai clic su **Nuovo problema**.
+4. Immetti un titolo e una descrizione del problema.
+5. Fai clic su **Invia nuovo problema**. 
 
 Il team del contenuto riceve i problemi che apri e lavora per risolvere il feedback. Puoi monitorare il problema salvando il link dopo che fai clic su **Invia nuovo problema**. Come viene risolto il problema, il team del contenuto fornisce gli aggiornamenti dello stato come commento al problema.
 

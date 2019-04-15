@@ -2,7 +2,7 @@
 
 copyright:
   years: 2018, 2019
-lastupdated: "2019-04-02"
+lastupdated: "2019-03-14"
 
 keywords: cloud environment, virtual server, virtual machine, vm, understanding infrastructure, IaaS model
 
@@ -123,7 +123,7 @@ SaaS 모델에서는 제공자가 실제 애플리케이션을 통해 시스템�
 ### 네트워킹
 {: #network}
 
-{{site.data.keyword.cloud_notm}} 계정이 설정될 때 {{site.data.keyword.vpn_full}}에 자동으로 연결됩니다. 기본적으로 서버에는 공인 IP 주소와 사설 IP 주소가 있습니다. 개인용 서버로 설정하려는 경우 서버가 프로비저닝된 후 공용 인터페이스를 끄거나 서버를 개인용으로 주문할 수 있습니다. 자세한 정보는 [VPN(Virtual Private Network) 시작하기](/docs/infrastructure/iaas-vpn?topic=VPN-gettingstarted-with-virtual-private-networking)를 참조하십시오.
+{{site.data.keyword.cloud_notm}} 계정이 설정될 때 {{site.data.keyword.vpn_full}}에 자동으로 연결됩니다. 기본적으로 서버에는 공인 IP 주소와 사설 IP 주소가 있습니다. 개인용 서버로 설정하려는 경우 서버가 프로비저닝된 후 공용 인터페이스를 끄거나 서버를 개인용으로 주문할 수 있습니다. 자세한 정보는 [VPN(Virtual Private Network) 시작하기](/docs/infrastructure/iaas-vpn?topic=VPN-getting-started-with-virtual-private-networking-vpn-)를 참조하십시오.
 
 <!-- begin staging only -->
 인프라 계층에서는 {{site.data.keyword.cloud_notm}} 계정과 연결된 가상 네트워크인 가상 프라이빗 클라우드를 빌드할 수 있습니다. 가상 프라이빗 클라우드는 가상 서버 인스턴스(VSI)의 동적 스케일링 기능과 클라우드 보안을 제공하는 시작점을 제공합니다. 자세한 정보는 [IBM Cloud Virtual Private Cloud(VPC) 인프라 시작하기](/docs/vpc/vpc-getting-started-with-ibm-cloud-virtual-private-cloud-infrastructure)를 참조하십시오. 

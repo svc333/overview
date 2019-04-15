@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2019
-lastupdated: "2019-02-18"
+lastupdated: "2019-03-12"
 
 keywords: catalog, resources display, manage visibility
 
@@ -22,7 +22,7 @@ Per creare risorse dal catalogo, vedi [Lavorare nel catalogo](/docs/overview?top
 ## Gestione della visibilità
 {: #manage-vis}
 
-Vuoi un maggiore controllo su ciò che viene visualizzato nel catalogo? Vorresti nascondere singole risorse per alcuni utenti e mostrarle ad altri? Con l'autorizzazione di amministratore appropriata, puoi visualizzare e impostare la visibilità sulle risorse del catalogo utilizzando la [CLI](/docs/cli/reference/ibmcloud?topic=cloud-cli-overview) {{site.data.keyword.Bluemix_notm}}.
+Vuoi un maggiore controllo su ciò che viene visualizzato nel catalogo? Vorresti nascondere singole risorse per alcuni utenti e mostrarle ad altri? Con l'autorizzazione di amministratore appropriata, puoi visualizzare e impostare la visibilità sulle risorse del catalogo utilizzando la [CLI](/docs/cli?topic=cloud-cli-ibmcloud-cli) {{site.data.keyword.Bluemix_notm}}.
 
 Per ulteriori informazioni, vedi i seguenti argomenti.
 
