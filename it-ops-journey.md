@@ -2,7 +2,7 @@
 
 copyright:
   years: 2018, 2019
-lastupdated: "2019-04-16"
+lastupdated: "2019-04-18"
 
 keywords: cloud environment, virtual server, virtual machine, vm, understanding infrastructure, IaaS model
 
@@ -115,7 +115,7 @@ You can buy extra storage based on your needs. See the following table for a sum
 |--------|---------------|
 | [{{site.data.keyword.blockstorageshort}}](/docs/infrastructure/BlockStorage/index.html) | Persistent, high-performance iSCSI storage that is provisioned and managed independently of compute instances. iSCSI-based Block Storage LUNs are connected to authorized devices through redundant multi-path I/O (MPIO) connections. |
 | [{{site.data.keyword.filestorage_short}}](/docs/infrastructure/FileStorage/index.html) | Persistent, fast, and flexible network-attached, NFS-based File Storage. In this network-attached storage (NAS) environment, you have total control over your file shares function and performance. File Storage shares can be connected to up to 64 authorized devices over routed TCP/IP connections for resiliency. |
-| [{{site.data.keyword.cos_full_notm}}](/docs/services/cloud-object-storage?topic=cloud-object-storage-about-ibm-cloud-object-storage#about-ibm-cloud-object-storage) | Information stored with IBM Cloud Object Storage is encrypted and dispersed across multiple geographic locations, and accessed over HTTP by using a REST API. This service makes use of the distributed storage technologies that are provided by the IBM Cloud Object Storage System (formerly Cleversafe). |
+| [{{site.data.keyword.cos_full_notm}}](/docs/services/cloud-object-storage?topic=cloud-object-storage-about#about) | Information stored with IBM Cloud Object Storage is encrypted and dispersed across multiple geographic locations, and accessed over HTTP by using a REST API. This service makes use of the distributed storage technologies that are provided by the IBM Cloud Object Storage System (formerly Cleversafe). |
 | [{{site.data.keyword.cloud_notm}} Master Data Management](/docs/services/MDMOnCloud?topic=MDMOnCloud-mdmoc_getting_started#mdmoc_getting_started) | Offload large amounts of data from your on-premises data center to your Cloud Object Storage bucket. |
 | [{{site.data.keyword.backup_full}}](/docs/infrastructure/Backup/index.html) | An automated agent-based backup system that is managed through a browser-based management utility. You can back up data between servers in one or more data centers on the IBM Cloud network. |
 {: caption="Table 2. Storage options" caption-side="top"}
