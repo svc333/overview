@@ -2,13 +2,9 @@
 
 copyright:
 
-  years: 2018, 2019
+  years: 2018
 
-lastupdated: "2019-03-14"
-
-keywords: quick start, get started with IBM Cloud
-
-subcollection: overview
+lastupdated: "2018-11-14"
 
 ---
 
@@ -26,12 +22,12 @@ Sie möchten {{site.data.keyword.Bluemix}} testen? Ein Lite-Konto eignet sich he
 {:shortdesc}  
 
 ## Vorbereitende Schritte
-{: #prereqs-lite}
+{: #prereqs}
 
-Rufen Sie die [{{site.data.keyword.Bluemix_notm}}-Konsole](https://{DomainName}) auf und erstellen Sie ein Lite-Konto. Das Konto ist kostenlos und läuft nicht ab.
+Wechseln Sie zu [{{site.data.keyword.Bluemix_notm}}](https://{DomainName}) und erstellen Sei ein Lite-Konto. Das Konto ist kostenlos und läuft nicht ab.
 
 ## Schritte für den Schnelleinstieg
-{: #steps-lite}
+{: #steps}
 
 1. Durchsuchen Sie den Katalog nach Angeboten, die kostenlose [Lite-Servicepläne ![Symbol für externen Link](../icons/launch-glyph.svg "Symbol für externen Link")](https://{DomainName}/catalog/?search=label:lite){: new_window} enthalten.
   
@@ -39,12 +35,12 @@ Rufen Sie die [{{site.data.keyword.Bluemix_notm}}-Konsole](https://{DomainName})
   {:tip}
 
 2. Erstellen Sie eine Instanz eines Angebots, das einen kostenlosen Lite-Plan enthält.
-3. Die [Lernprogramme für Lösungen](/docs/tutorials?topic=solution-tutorials-tutorials) enthalten detaillierte Schritte zur Verwendung von {{site.data.keyword.Bluemix_notm}} für die Implementierung von allgemeinen Mustern auf der Basis von bewährten Verfahren (Best Practices) und bewährten Technologien. 
+3. Die [Lernprogramme für Lösungen](/docs/tutorials/index.html) enthalten detaillierte Schritte zur Verwendung von {{site.data.keyword.Bluemix_notm}} für die Implementierung von allgemeinen Mustern auf der Basis von bewährten Verfahren (Best Practices) und bewährten Technologien. 
 
 
 ## Nächste Schritte
-{: #nextsteps-lite}
+{: #nextsteps}
 
-Erfahren Sie, was es bedeutet, ein Entwickler in {{site.data.keyword.Bluemix_notm}} zu sein. Lesen Sie dazu [Journey von Entwicklern in {{site.data.keyword.Bluemix_notm}} erkunden](/docs/overview?topic=overview-dev-journey). 
+Erfahren Sie, was es bedeutet, ein Entwickler in {{site.data.keyword.Bluemix_notm}} zu sein. Lesen Sie dazu [Developer Journey in {{site.data.keyword.cloud_notm}} erkunden](/docs/overview/dev-journey.html#dev-journey). 
 
 

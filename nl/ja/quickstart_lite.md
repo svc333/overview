@@ -2,13 +2,9 @@
 
 copyright:
 
-  years: 2018, 2019
+  years: 2018
 
-lastupdated: "2019-03-14"
-
-keywords: quick start, get started with IBM Cloud
-
-subcollection: overview
+lastupdated: "2018-11-14"
 
 ---
 
@@ -26,12 +22,12 @@ subcollection: overview
 {:shortdesc}  
 
 ## 始める前に
-{: #prereqs-lite}
+{: #prereqs}
 
-[{{site.data.keyword.Bluemix_notm}} コンソール](https://{DomainName}) にアクセスし、ライト・アカウントを作成します。 アカウントは無料で、有効期限はありません。
+[{{site.data.keyword.Bluemix_notm}}](https://{DomainName}) にアクセスし、ライト・アカウントを作成します。 アカウントは無料で、有効期限はありません。
 
 ## クイック・スタート・ステップ
-{: #steps-lite}
+{: #steps}
 
 1. 無料の[ライト・サービス・プラン ![外部リンク・アイコン](../icons/launch-glyph.svg "外部リンク・アイコン")](https://{DomainName}/catalog/?search=label:lite){: new_window} を含むオファリングのカタログを検討します。
   
@@ -39,12 +35,12 @@ subcollection: overview
   {:tip}
 
 2. 無料のライト・プランを含むオファリングのインスタンスを作成します。
-3. {{site.data.keyword.Bluemix_notm}} を使用してベスト・プラクティスおよび実証済みのテクノロジーに基づいた共通パターンを実装する方法について詳しくは、『[ソリューションのチュートリアル](/docs/tutorials?topic=solution-tutorials-tutorials)』を確認してください。 
+3. {{site.data.keyword.Bluemix_notm}} を使用してベスト・プラクティスおよび実証済みのテクノロジーに基づいた共通パターンを実装する方法について詳しくは、『[ソリューションのチュートリアル](/docs/tutorials/index.html)』を確認してください。 
 
 
 ## 次のステップ
-{: #nextsteps-lite}
+{: #nextsteps}
 
-[{{site.data.keyword.Bluemix_notm}} の開発者ジャーニーの探索](/docs/overview?topic=overview-dev-journey)で、{{site.data.keyword.Bluemix_notm}} の開発者についての情報をお読みください。 
+『[{{site.data.keyword.Bluemix_notm}} の開発者ジャーニーの探索](/docs/overview/dev-journey.html#dev-journey)』で、{{site.data.keyword.Bluemix_notm}} の開発者についての情報をお読みください。 
 
 

@@ -2,13 +2,9 @@
 
 copyright:
 
-  years: 2018, 2019
+  years: 2018
 
-lastupdated: "2019-03-14"
-
-keywords: quick start, get started with IBM Cloud
-
-subcollection: overview
+lastupdated: "2018-11-14"
 
 ---
 
@@ -26,12 +22,12 @@ subcollection: overview
 {:shortdesc}  
 
 ## 开始之前
-{: #prereqs-lite}
+{: #prereqs}
 
-转至 [{{site.data.keyword.Bluemix_notm}} 控制台](https://{DomainName})，并创建轻量帐户。轻量帐户是免费的，永不过期。
+转至 [{{site.data.keyword.Bluemix_notm}}](https://{DomainName}) 并创建轻量帐户。轻量帐户是免费的，永不过期。
 
 ## 快速入门步骤
-{: #steps-lite}
+{: #steps}
 
 1. 探索包含免费[轻量服务套餐 ![外部链接图标](../icons/launch-glyph.svg "外部链接图标")](https://{DomainName}/catalog/?search=label:lite){: new_window} 的产品的目录。
   
@@ -39,12 +35,12 @@ subcollection: overview
   {:tip}
 
 2. 创建包含免费轻量套餐的产品实例。
-3. 查看[解决方案教程](/docs/tutorials?topic=solution-tutorials-tutorials)，以了解使用 {{site.data.keyword.Bluemix_notm}} 根据最佳实践和经证明的技术实施常用模式的详细步骤。 
+3. 查看[解决方案教程](/docs/tutorials/index.html)，以了解使用 {{site.data.keyword.Bluemix_notm}} 根据最佳实践和经证明的技术实施常用模式的详细步骤。 
 
 
 ## 后续步骤
-{: #nextsteps-lite}
+{: #nextsteps}
 
-通过[探索 {{site.data.keyword.Bluemix_notm}} 中的开发者旅程](/docs/overview?topic=overview-dev-journey)，了解作为 {{site.data.keyword.Bluemix_notm}} 中的开发者能做些什么。 
+通过[探索 {{site.data.keyword.Bluemix_notm}} 中开发者旅程](/docs/overview/dev-journey.html#dev-journey)，了解在 {{site.data.keyword.Bluemix_notm}} 中开发者能做些什么。 
 
 

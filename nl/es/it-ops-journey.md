@@ -2,11 +2,7 @@
 
 copyright:
   years: 2018, 2019
-lastupdated: "2019-04-09"
-
-keywords: cloud environment, virtual server, virtual machine, vm, understanding infrastructure, IaaS model
-
-subcollection: overview
+lastupdated: "2019-01-04"
 
 
 ---
@@ -21,7 +17,7 @@ subcollection: overview
 # Explorar el trayecto del administrador de operaciones de TI en {{site.data.keyword.cloud_notm}}
 {: #it-ops}
 
-A medida que muchas organizaciones se trasladan a un entorno en la nube, ya sea local o alojado en centros de datos, el rol del administrador de operaciones de TI se vuelve a definir. El ámbito y la complejidad de este cambio aumentan significativamente en función del tipo de entorno en el que su organización desee desplegar. 
+A medida que muchas organizaciones se trasladan a un entorno en la nube, ya sea local o alojado en centros de datos, el rol del administrador de operaciones de TI se vuelve a definir. El ámbito y la complejidad de este cambio aumentan significativamente en función del tipo de entorno en el que su organización desee desplegar.
 {: .shortdesc}
 
 Antes de trasladarse a la nube, trabajó con un entorno seguro propiamente con sistemas conectados a la LAN privada o a intranet. Ahora se espera que realice las tareas siguientes en un entorno de nube:
@@ -82,7 +78,7 @@ Utilice la [herramienta de búsqueda {{site.data.keyword.baremetal_short}} de {{
 
 ### Conformidad y servicios de {{site.data.keyword.cloud_notm}}
 
-Al igual que con cualquier arquitectura, debe tener en cuenta los recursos de {{site.data.keyword.cloud_notm}} que puede añadir a su solución a medida que cambia el tamaño de la infraestructura. Para obtener más información, consulte [Aplicaciones SaaS para empresas y TI ![Icono de enlace externo](../icons/launch-glyph.svg "Icono de enlace externo")](https://www.ibm.com/cloud/saas){: new_window} y busque un servicio específico. También debe pensar en cualquier normativa que deba tener en cuenta al crear la arquitectura. Por ejemplo, ¿se considera sensible su carga de trabajo? Para obtener más información, consulte [Conformidad ![Icono de enlace externo](../icons/launch-glyph.svg "Icono de enlace externo")](https://www.ibm.com/cloud/compliance){: new_window}.
+Al igual que con cualquier arquitectura, debe tener en cuenta los recursos de {{site.data.keyword.cloud_notm}} que puede añadir a su solución a medida que cambia el tamaño de la infraestructura. Para obtener más información, consulte [Aplicaciones SaaS para empresas y TI ![Icono de enlace externo](../icons/launch-glyph.svg "Icono de enlace externo")](https://www.ibm.com/cloud/saas) {: new_window} y búsqueda de un servicio específico. También debe pensar en cualquier normativa que deba tener en cuenta al crear la arquitectura. Por ejemplo, ¿se considera sensible su carga de trabajo? Para obtener más información, consulte [Conformidad ![Icono de enlace externo](../icons/launch-glyph.svg "Icono de enlace externo")](https://www.ibm.com/cloud/compliance){: new_window}.
 
 ## Creación de la infraestructura
 {: #build}
@@ -96,50 +92,46 @@ El servidor es la base de la infraestructura. Dispone de varias opciones en func
 
 | Opción | Descripción | 
 |--------|---------------|
-| [{{site.data.keyword.baremetal_short}}](/docs/bare-metal?topic=bare-metal-about-bm#about-bm)  | Servidores de un solo arrendatario mensuales o por hora, dedicados y no compartidos con otros clientes, incluidos los recursos del servidor. |
-| [{{site.data.keyword.BluVirtServers_short}}](/docs/vsi?topic=virtual-servers-about-public-virtual-servers#public-virtual-servers) | Servidores virtuales escalables que se adquieren con núcleos dedicados y asignaciones de memoria. |
-| [{{site.data.keyword.vmwaresolutions_short}}](/docs/services/vmwaresolutions?topic=vmware-solutions-getting-started#getting-started) | Integrar o migrar de forma rápida y transparente las cargas de trabajo de VMware locales utilizando una infraestructura escalable, segura y de alto rendimiento y la tecnología de virtualización híbrida de VMware líder del sector. |
-| [{{site.data.keyword.containerlong_notm}}](/docs/containers?topic=containers-container_index) | Combina contenedores de Docker, la tecnología de Kubernetes, una experiencia de usuario intuitiva y una seguridad y aislamiento integrados para automatizar el despliegue, la operación, el escalado y la supervisión de apps contenerizadas en un clúster de hosts de cálculo. |
-| [{{site.data.keyword.cfee_full_notm}}](/docs/cloud-foundry?topic=cloud-foundry-about) | Crear instancias de varias plataformas de Cloud Foundry aisladas y de nivel empresarial a petición. |
-| [{{site.data.keyword.openwhisk_short}}](/docs/openwhisk?topic=cloud-functions-getting_started#getting_started) | Una plataforma de programación de funciones como servicio (FaaS) basada en Apache OpenWhisk. |
+| [{{site.data.keyword.baremetal_short}}](/docs/bare-metal/about.html)  | Servidores de un solo arrendatario mensuales o por hora, dedicados y no compartidos con otros clientes, incluidos los recursos del servidor. |
+| [{{site.data.keyword.BluVirtServers_short}}](/docs/vsi/vsi_about.html) | Servidores virtuales escalables que se adquieren con núcleos dedicados y asignaciones de memoria. |
+| [{{site.data.keyword.vmwaresolutions_short}}](/docs/services/vmwaresolutions/vmonic/prod_overview.html) | Integrar o migrar de forma rápida y transparente las cargas de trabajo de VMware locales utilizando una infraestructura escalable, segura y de alto rendimiento y la tecnología de virtualización híbrida de VMware líder del sector. |
+| [{{site.data.keyword.containerlong_notm}}](/docs/containers/cs_why.html) | Combina contenedores de Docker, la tecnología de Kubernetes, una experiencia de usuario intuitiva y una seguridad y aislamiento integrados para automatizar el despliegue, la operación, el escalado y la supervisión de apps contenerizadas en un clúster de hosts de cálculo. |
+| [{{site.data.keyword.cfee_full_notm}}](/docs/cloud-foundry/index.html) | Crear instancias de varias plataformas de Cloud Foundry aisladas y de nivel empresarial a petición. |
+| [{{site.data.keyword.openwhisk_short}}](/docs/openwhisk/index.html) | Una plataforma de programación de funciones como servicio (FaaS) basada en Apache OpenWhisk. |
 {: caption="Tabla 1. Opciones de cálculo" caption-side="top"}
    
 ### Almacenamiento
 {: #storage}
 
-{{site.data.keyword.baremetal_short}} y {{site.data.keyword.BluVirtServers_short}} se suministran con un almacenamiento predeterminado. {{site.data.keyword.baremetal_short}} tiene un mínimo de 1 TB SATA de espacio de disco y {{site.data.keyword.BluVirtServers_short}} tiene un mínimo de 25 GB SAN de almacenamiento. La excepción es el {{site.data.keyword.baremetal_short}} certificado por SAP de {{site.data.keyword.cloud_notm}}. Para obtener más información sobre el almacenamiento predeterminado disponible con estos servidores, consulte [Infraestructura de {{site.data.keyword.cloud_notm}} certificada por SAP](/docs/bare-metal?topic=bare-metal-sap-cert-infrastructure#sap-cert-infrastructure).
+{{site.data.keyword.baremetal_short}} y {{site.data.keyword.BluVirtServers_short}} se suministran con un almacenamiento predeterminado. {{site.data.keyword.baremetal_short}} tiene un mínimo de 1 TB SATA de espacio de disco y {{site.data.keyword.BluVirtServers_short}} tiene un mínimo de 25 GB SAN de almacenamiento. La excepción es el {{site.data.keyword.baremetal_short}} certificado por SAP de {{site.data.keyword.cloud_notm}}. Para obtener más información sobre el almacenamiento predeterminado disponible con estos servidores, consulte [Infraestructura de {{site.data.keyword.cloud_notm}} certificada por SAP](/docs/bare-metal/bare-metal-sap-applications.html#ibm-cloud-sap-certified-infrastructure).
 
 Puede adquirir más almacenamiento en función de sus necesidades. Consulte la tabla siguiente para obtener un resumen de las opciones de cálculo.
 
 | Opción | Descripción |
 |--------|---------------|
-| [{{site.data.keyword.blockstorageshort}}](/docs/infrastructure/BlockStorage/index.html) | Almacenamiento iSCSI persistente y de alto rendimiento que se suministra y se gestiona de forma independiente de las instancias de cálculo. Los LUN basados en iSCSI están conectados a dispositivos autorizados a través de conexiones de E/S de varias vías de acceso (MPIO) redundantes. |
+| [{{site.data.keyword.blockstorageshort}}](/docs//infrastructure/BlockStorage/index.html) | Almacenamiento iSCSI persistente y de alto rendimiento que se suministra y se gestiona de forma independiente de las instancias de cálculo. Los LUN basados en iSCSI están conectados a dispositivos autorizados a través de conexiones de E/S de varias vías de acceso (MPIO) redundantes. |
 | [{{site.data.keyword.filestorage_short}}](/docs/infrastructure/FileStorage/index.html) | Almacenamiento de archivos basado en NFS persistente, rápido y flexible conectado a la red. En este entorno de almacenamiento adjunto de red (NAS), tiene un control total sobre la función y el rendimiento de las comparticiones de archivos. Las unidades compartidas de almacenamiento de archivos se pueden conectar a un máximo de 64 dispositivos autorizados a través de conexiones TCP/IP direccionadas para la capacidad de recuperación. |
-| [{{site.data.keyword.cos_full_notm}}](/docs/services/cloud-object-storage?topic=cloud-object-storage-about-ibm-cloud-object-storage#about-ibm-cloud-object-storage) | La información almacenada con IBM Cloud Object Storage se cifra y dispersa en varias ubicaciones geográficas y se accede a la misma mediante HTTP utilizando una API REST. Este servicio hace uso de las tecnologías de almacenamiento distribuido que proporciona el sistema de IBM Cloud Object Storage (anteriormente conocido como Cleversafe). |
-| [Gestión de datos maestros de {{site.data.keyword.cloud_notm}}](/docs/services/MDMOnCloud?topic=MDMOnCloud-mdmoc_getting_started#mdmoc_getting_started) | Descargar grandes cantidades de datos del centro de datos local al grupo Cloud Object Storage. |
-| [{{site.data.keyword.backup_full}}](/docs/infrastructure/Backup/index.html) | Un sistema de copia de seguridad basado en agentes automatizado que se gestiona mediante un programa de utilidad de gestión basado en el navegador. Puede hacer una copia de seguridad de los datos entre servidores en uno o varios centros de datos de la red de IBM Cloud. |
+| [{{site.data.keyword.cos_full_notm}}](/docs/services/cloud-object-storage/about-cos.html) |La información almacenada con IBM Cloud Object Storage se cifra y dispersa en varias ubicaciones geográficas y se accede a la misma mediante HTTP utilizando una API REST. Este servicio hace uso de las tecnologías de almacenamiento distribuido que proporciona el sistema de IBM Cloud Object Storage (anteriormente conocido como Cleversafe). |
+| [Migración de datos en masa de {{site.data.keyword.cloud_notm}}](/docs/infrastructure/mass-data-migration/index.html) | Descargar grandes cantidades de datos del centro de datos local al grupo Cloud Object Storage. |
+| [EVault](/docs/infrastructure/Backup/index.html) | Un sistema de copia de seguridad basado en agentes automatizado que se gestiona mediante el programa de utilidad de gestión basado en el navegador EVault WebCC solo para servidores virtuales. Datos de copia de seguridad entre servidores en uno o varios centros de datos de la red de IBM Cloud. |
 {: caption="Tabla 2. Opciones de almacenamiento" caption-side="top"}
 
 ### Gestión de redes
 {: #network}
 
-Obtendrá conectividad automáticamente a {{site.data.keyword.vpn_full}} cuando la cuenta de {{site.data.keyword.cloud_notm}} se configure. De forma predeterminada, el servidor tiene una dirección IP pública y una dirección IP privada. Si desea que el servidor sea privado, puede desactivar la interfaz pública después de que el servidor se haya suministrado o pedir el servidor como privado. Consulte [Iniciación con la red privada virtual](/docs/infrastructure/iaas-vpn?topic=VPN-gettingstarted-with-virtual-private-networking) para obtener más información.
-
-<!-- begin staging only -->
-Dentro de la capa de infraestructura, puede crear una nube privada virtual, que es una red virtual vinculada a la cuenta de {{site.data.keyword.cloud_notm}}. Una nube privada virtual proporciona un punto de entrada que ofrece seguridad en la nube y la capacidad de escalar las instancias de servidor virtual (VSI) de forma dinámica. Para obtener más información, consulte [Iniciación a la infraestructura de nube privada virtual (VPC) de IBM Cloud](/docs/vpc/vpc-getting-started-with-ibm-cloud-virtual-private-cloud-infrastructure). 
-<!-- end staging only -->
+Obtendrá conectividad automáticamente a {{site.data.keyword.vpn_full}} cuando la cuenta de {{site.data.keyword.cloud_notm}} se configure. De forma predeterminada, el servidor tiene una dirección IP pública y una dirección IP privada. Si desea que el servidor sea privado, puede desactivar la interfaz pública después de que el servidor se haya suministrado o pedir el servidor como privado. Consulte [Iniciación con la red privada virtual](/docs/infrastructure/iaas-vpn/getting-started.html) para obtener más información.
 
 Consulte la tabla siguiente para obtener un resumen de las opciones de red.
 
 | Opción | Descripción | 
 |--------|---------------|
-| [Content Delivery Network](/docs/infrastructure/CDN?topic=CDN-getting-started) | Se utiliza para diversas soluciones de la industria, incluidos medios de comunicación, entretenimiento, software, juegos, banca y comercio electrónico para satisfacer las necesidades de sus negocios. |
-| [Domain Name Service](/docs/cli/reference/ibmcloud?topic=cloud-cli-ibm-dev-tools-for-jetbrains) | Proporciona una ubicación central para visualizar y gestionar los dominios mediante la interfaz de gestión DNS básica y también le proporciona la opción de gestionar un DNS inverso o secundario en la misma ubicación de forma gratuita. |
-| [Direcciones IP globales](/docs/infrastructure/subnets?topic=subnets-about-global-ip-address#about-global-ip-address) | Ofrecer flexibilidad y permitirle desplazar cargas de trabajo entre servidores, incluso mediante centros de datos geográficamente dispares. |
-| [Equilibrio de carga](/docs/infrastructure/loadbalancer-service?topic=loadbalancer-service-getting-started-with-ibm-cloud-load-balancer) | Distribuye el procesamiento y las comunicaciones uniformemente mediante varios servidores en un centro de datos para que un dispositivo individual no lleve toda la carga. |
-| [Virtual Router Appliance](/docs/infrastructure/virtual-router-appliance/getting-started.html) | Direcciona de forma selectiva el tráfico de red privada y pública mediante un direccionador de empresa completo con cortafuegos, gestión del tráfico, direccionamiento basado en políticas, VPN y un host de otras características. |
-| [VPN IPSec](/docs/infrastructure/iaas-vpn?topic=VPN-setup-ipsec-vpn#setup-ipsec-vpn) | Una suite de protocolos diseñada para autenticar y cifrar todo el tráfico de IP entre dos ubicaciones, utilizando una modalidad de túnel que proporciona una red cifrada de sitio a sitio. |
-| [{{site.data.keyword.cloud_notm}} Direct Link](/docs/infrastructure/direct-link?topic=direct-link-get-started-with-ibm-cloud-direct-link#get-started-with-ibm-cloud-direct-link) | Optimiza un proveedor Cloud Exchange para ofrecer conectividad a las ubicaciones de infraestructura de {{site.data.keyword.cloud_notm}}. |
+| [Content Delivery Network](/docs/infrastructure/CDN/about.html) | Se utiliza para diversas soluciones de la industria, incluidos medios de comunicación, entretenimiento, software, juegos, banca y comercio electrónico para satisfacer las necesidades de sus negocios. |
+| [Domain Name Service](/docs/cli/reference/ibmcloud/cli_dns.html) | Proporciona una ubicación central para visualizar y gestionar los dominios mediante la interfaz de gestión DNS básica y también le proporciona la opción de gestionar un DNS inverso o secundario en la misma ubicación de forma gratuita. |
+| [Direcciones IP globales](/docs/infrastructure/subnets/about-global-ip.html) | Ofrecer flexibilidad y permitirle desplazar cargas de trabajo entre servidores, incluso mediante centros de datos geográficamente dispares. |
+| [Equilibrio de carga](/docs/infrastructure/local-load-balancer/about.html) | Distribuye el procesamiento y las comunicaciones uniformemente mediante varios servidores en un centro de datos para que un dispositivo individual no lleve toda la carga. |
+| [Virtual Router Appliance](/docs/infrastructure/virtual-router-appliance/about.html) | Direcciona de forma selectiva el tráfico de red privada y pública mediante un direccionador de empresa completo con cortafuegos, gestión del tráfico, direccionamiento basado en políticas, VPN y un host de otras características. |
+| [VPN IPSec](/docs/infrastructure/iaas-vpn/set-up-ipsec-vpn.html) | Una suite de protocolos diseñada para autenticar y cifrar todo el tráfico de IP entre dos ubicaciones, utilizando una modalidad de túnel que proporciona una red cifrada de sitio a sitio. |
+| Enlace directo de {{site.data.keyword.cloud_notm}} | Optimiza un proveedor Cloud Exchange para ofrecer conectividad a las ubicaciones de infraestructura de {{site.data.keyword.cloud_notm}}. |
 {: caption="Tabla 3. Opciones de red" caption-side="top"}
 
 
@@ -150,8 +142,8 @@ Después de crear la infraestructura y el entorno, estará listo para empezar a 
 
 | Tarea | Descripción |
 |--------|---------------|
-| [Supervisar sucesos del sistema](/docs/account?topic=account-audit-log) | Visualizar las acciones que se han realizado en los recursos de la infraestructura. |
-| [Establecer preferencias de correo electrónico](/docs/account?topic=account-email-prefs) | Configurar notificaciones de correo electrónico de la infraestructura de {{site.data.keyword.cloud_notm}} sobre sucesos no planificados, mantenimiento y anuncios.  |
-| [Comprender cómo están seguros sus datos](/docs/overview?topic=overview-security) | La plataforma {{site.data.keyword.cloud_notm}} dispone de controles de seguridad de varios niveles de la red y de la infraestructura. |
-| [Comprender cómo garantizar un tiempo de inactividad cero](/docs/overview?topic=overview-zero-downtime) | Todos los recursos de {{site.data.keyword.cloud_notm}} están alojados en ubicaciones de centros de datos de todo el mundo. |
+| [Supervisar sucesos del sistema](/docs/account/audit_log.html) | Visualizar las acciones que se han realizado en los recursos de la infraestructura. |
+| [Establecer preferencias de correo electrónico](/docs/account/email.html) | Configurar notificaciones de correo electrónico de la infraestructura de {{site.data.keyword.cloud_notm}} sobre sucesos no planificados, mantenimiento y anuncios.  |
+| [Comprender cómo están seguros sus datos](/docs/overview/security.html) | La plataforma de {{site.data.keyword.cloud_notm}} dispone de controles de seguridad de varios niveles de la red y de la infraestructura. |
+| [Comprender cómo garantizar un tiempo de inactividad cero](/docs/overview/zero_downtime.html) | Todos los recursos de {{site.data.keyword.cloud_notm}} están alojados en ubicaciones de centros de datos de todo el mundo. |
 {: caption="Tabla 4. Gestión de tareas" caption-side="top"}

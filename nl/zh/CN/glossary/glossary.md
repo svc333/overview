@@ -2,12 +2,8 @@
 
 
 copyright:
-  years: 2016, 2019
-lastupdated: "2019-03-14"
-
-keywords: glossary, IBM Cloud glossary
-
-subcollection: overview
+  years: 2016, 2018
+lastupdated: "2018-03-19"
 
 
 ---
@@ -15,7 +11,7 @@ subcollection: overview
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
 
-# {{site.data.keyword.cloud_notm}} 的词汇表术语
+# {{site.data.keyword.cloud_notm}} 的词汇表术语 
 {: #glossary}
 
 本词汇表提供了 {{site.data.keyword.cloud_notm}} 的术语和定义。
@@ -25,6 +21,35 @@ subcollection: overview
 
 - *请参阅*从非首选术语指引您查看首选术语或者从缩写指引您查看拼写完整的形式。
 - *另请参阅*指引您查看相关术语或对照术语。
+
+
+有关其他术语和定义，请参阅 [IBM Terminology Web 站点](http://www-01.ibm.com/software/globalization/terminology/){: new_window}。
+
+<!--If you do not want letter links at the top of your 
+glossary, delete the text between these comment tags.
+[A](#glossa)
+[B](#glossb)
+[C](#glossc)
+[D](#glossd)
+[E](#glosse)
+[F](#glossf)
+[G](#glossg)
+[H](#glossh)
+[I](#glossi)
+[J](#glossj)
+[L](#glossl)
+[M](#glossm)
+[N](#glossn)
+[O](#glosso)
+[P](#glossp)
+[R](#glossr)
+[S](#glosss)
+[T](#glosst)
+[U](#glossu)
+[V](#glossv)
+[W](#glossw)
+
+-->
 
 ## [A]
 {: #glossa1}
@@ -42,11 +67,6 @@ subcollection: overview
 
 ## [B]
 {: #glossb1}
-
-### 半虚拟化模式 (paravirtualized mode)
-{: #x9736806}
-
-轻量级虚拟化技术。半虚拟化模式下，虚拟机不会要求从主计算机进行虚拟化扩展，从而允许在不支持硬件辅助的虚拟化的硬件系统上执行虚拟化。
 
 ### 绑定 (bind)
 {: #x2000361}
@@ -445,11 +465,6 @@ IBM Cloud 组织内的子组。作为组织成员的用户有权访问该组织�
 
 存储数据的位置，例如数据库系统、文件或目录。
 
-### 数据中心 (DC)
-{: #x2439906}
-
-提供云服务的服务器的物理位置。
-
 ### 私有服务 (private service)
 {: #x7690456}
 
@@ -568,11 +583,6 @@ IBM Cloud 组织内的子组。作为组织成员的用户有权访问该组织�
 {: #x2000186}
 
 一种接口。通过该接口，以高级语言编写的应用程序可以使用操作系统或其他程序的特定数据或功能。
-
-### 硬件虚拟机模式 (HVM)
-{: #x9736811}
-
-硬件辅助的完全虚拟化。虚拟机使用主计算机中的资源作为完整的硬件环境运行。主机操作系统不知道此虚拟客户机的存在。
 
 
 ### 映像 (image)

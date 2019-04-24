@@ -2,13 +2,9 @@
 
 copyright:
 
-  years: 2018, 2019
+  years: 2018
 
-lastupdated: "2019-03-14"
-
-keywords: quick start, get started with IBM Cloud
-
-subcollection: overview
+lastupdated: "2018-11-14"
 
 ---
 
@@ -27,12 +23,12 @@ guia de iniciação rápida destina-se a ajudá-lo a começar a usar a nossa con
 {:shortdesc}  
 
 ## Antes de começar
-{: #prereqs-lite}
+{: #prereqs}
 
-Acesse o [console do {{site.data.keyword.Bluemix_notm}}](https://{DomainName}) e crie uma conta Lite. É grátis e nunca expira.
+Acesse o [{{site.data.keyword.Bluemix_notm}}](https://{DomainName}) e crie uma conta Lite. É grátis e nunca expira.
 
 ## Etapas da iniciação rápida
-{: #steps-lite}
+{: #steps}
 
 1. Explore o catálogo para as ofertas que incluem os [planos de
 serviço Lite grátis ![Ícone de link externo](../icons/launch-glyph.svg "Ícone de link externo")](https://{DomainName}/catalog/?search=label:lite){: new_window}.
@@ -41,12 +37,12 @@ serviço Lite grátis ![Ícone de link externo](../icons/launch-glyph.svg "Ícon
   {:tip}
 
 2. Crie uma instância de uma oferta que inclua um plano Lite grátis.
-3. Verifique os nossos [tutoriais da solução](/docs/tutorials?topic=solution-tutorials-tutorials) para obter etapas detalhadas sobre como usar o {{site.data.keyword.Bluemix_notm}} para implementar padrões comuns com base nas melhores práticas e tecnologias comprovadas. 
+3. Verifique os nossos [tutoriais da solução](/docs/tutorials/index.html) para obter etapas detalhadas sobre como usar o {{site.data.keyword.Bluemix_notm}} para implementar padrões comuns com base nas melhores práticas e tecnologias comprovadas. 
 
 
 ## Próximas Etapas
-{: #nextsteps-lite}
+{: #nextsteps}
 
-Descubra-se um desenvolvedor no {{site.data.keyword.Bluemix_notm}} em [Explore a jornada do desenvolvedor no {{site.data.keyword.Bluemix_notm}}](/docs/overview?topic=overview-dev-journey). 
+Descubra-se um desenvolvedor no {{site.data.keyword.Bluemix_notm}} em [Explore a jornada do desenvolvedor no {{site.data.keyword.Bluemix_notm}}](/docs/overview/dev-journey.html#dev-journey). 
 
 

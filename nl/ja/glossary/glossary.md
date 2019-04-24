@@ -3,11 +3,7 @@
 
 copyright:
   years: 2016, 2019
-lastupdated: "2019-03-14"
-
-keywords: glossary, IBM Cloud glossary
-
-subcollection: overview
+lastupdated: "2019-01-02"
 
 
 ---
@@ -25,6 +21,32 @@ subcollection: overview
 
 - *「を参照」*という表記は、非優先用語の場合は優先用語を、省略語の場合は正式な用語を参照するように促すための表記です。
 - *「も参照」*は、関連する用語または対比される用語を示します。
+
+<!--If you do not want letter links at the top of your
+glossary, delete the text between these comment tags.
+[A](#glossa)
+[B](#glossb)
+[C](#glossc)
+[D](#glossd)
+[E](#glosse)
+[F](#glossf)
+[G](#glossg)
+[H](#glossh)
+[I](#glossi)
+[J](#glossj)
+[L](#glossl)
+[M](#glossm)
+[N](#glossn)
+[O](#glosso)
+[P](#glossp)
+[R](#glossr)
+[S](#glosss)
+[T](#glosst)
+[U](#glossu)
+[V](#glossv)
+[W](#glossw)
+
+-->
 
 ## A
 {: #glossa}
@@ -231,11 +253,6 @@ Blue および Green と呼ばれる 2 つのほぼ同一な実稼働環境を�
 
 各種ソースからの関連情報の包括的な概要をユーザーに提供する、ユーザー・インターフェース・コンポーネント。
 
-### データ・センター (DC) (data center (DC))
-{: #x2439906}
-
-クラウド・サービスを提供するサーバーの物理的な場所。
-
 ### データ・ストア (data store)
 {: #x2052849}
 
@@ -297,7 +314,7 @@ Blue および Green と呼ばれる 2 つのほぼ同一な実稼働環境を�
 ### フェデレート (federate)
 {: #x2763229}
 
-複数のエンティティーをマージすること。 例えば、ある企業の登録したドメインが IBMid とフェデレートされる。
+複数のエンティティーをマージすること。 例えば、ある企業の登録したドメインが IBM ID とフェデレートされる。
 
 ### フィード (feed)
 {: #x3129185}
@@ -346,11 +363,6 @@ Blue および Green と呼ばれる 2 つのほぼ同一な実稼働環境を�
 
 ## H
 {: #glossh}
-
-### ハードウェア仮想マシン・モード (HVM) (hardware virtual machine mode (HVM))
-{: #x9736811}
-
-ハードウェアが補助する完全仮想化。 仮想マシンは、完全なハードウェア環境として運用されているホスト・コンピューターのリソースを使用します。 そのホスト・オペレーティング・システムは、仮想クライアントを認識しません。
 
 ### 高負荷 API 呼び出し (heavy API call)
 {: #x7690468}
@@ -570,11 +582,6 @@ IBM Cloud におけるユーザーのグループ化の方法。 組織は、割
 
 [「Platform as a Service」](#x2029786)を参照。
 
-### 準仮想化モード (paravirtualized mode)
-{: #x9736806}
-
-軽量の仮想化技法。 準仮想化モード中、仮想マシンはホスト・コンピューターからの仮想化の拡張を必要としません。つまり、ハードウェア補助の仮想化をサポートしないハードウェア・システムでの仮想化が可能です。
-
 ### 親イメージ (parent image)
 {: #x8439210}
 
@@ -659,7 +666,7 @@ IBM Cloud カタログ内のすべてのユーザーに表示されるエント�
 ### レジストリー (registry)
 {: #x2064940}
 
-パブリックまたはプライベートのコンテナー・イメージのストレージおよび配布サービス。 [「コンテナー (container)」](#x2010901)、[「イメージ (image)」](#x2024928)も参照。
+パブリックまたはプライベートのコンテナー・イメージのストレージおよび配布サービス。[「コンテナー (container)」](#x2010901)、[「イメージ (image)」](#x2024928)も参照。
 
 ### Representational State Transfer (REST)
 {: #x3220976}

@@ -2,11 +2,7 @@
 
 copyright:
   years: 2017, 2019
-lastupdated: "2019-03-14"
-
-keywords: security controls, platform security
-
-subcollection: overview
+lastupdated: "2019-01-07"
 
 ---
 
@@ -15,9 +11,7 @@ subcollection: overview
 # Como eu sei que meus dados estão seguros?
 {: #security}
 
-Projetada com práticas seguras de engenharia, a plataforma do {{site.data.keyword.cloud}} possui controles de segurança em camadas na
-rede e na infraestrutura. O {{site.data.keyword.cloud_notm}} fornece um grupo de serviços de segurança que podem ser usados por desenvolvedores de aplicativos para proteger seus apps móveis e da web. Esses elementos são combinados para fazer do {{site.data.keyword.cloud_notm}} uma plataforma com opções claras para desenvolvimento seguro do aplicativo.
-{:shortdesc}
+Projetada com práticas seguras de engenharia, a plataforma do {{site.data.keyword.cloud_notm}} possui controles de segurança em camadas na rede e na infraestrutura. O {{site.data.keyword.cloud_notm}} fornece um grupo de serviços de segurança que podem ser usados por desenvolvedores de aplicativos para proteger seus apps móveis e da web. Esses elementos são combinados para fazer do {{site.data.keyword.cloud_notm}} uma plataforma com opções claras para desenvolvimento seguro do aplicativo.
 
 O {{site.data.keyword.cloud_notm}} garante disponibilidade de segurança ao seguir as políticas de segurança que são orientadas por melhores práticas na IBM para sistemas, rede e engenharia segura. Essas políticas incluem práticas, como varredura do código-fonte, varredura dinâmica, modelagem de ameaça e teste de penetração. O {{site.data.keyword.cloud_notm}} segue o processo IBM Product Security Incident Response Team (PSIRT) para gerenciamento de incidentes de segurança. Veja o site [IBM Security Vulnerability Management (PSIRT) ![Ícone de link externo](../icons/launch-glyph.svg "Ícone de link externo")](https://www.ibm.com/security/secure-engineering/process.html){: new_window} para obter detalhes.
 
@@ -26,7 +20,72 @@ O {{site.data.keyword.cloud_notm}} Public e Dedicated usam serviços de nuvem de
 ## Conformidade do {{site.data.keyword.Bluemix_notm}}
 {: #compliance}
 
-O {{site.data.keyword.Bluemix_notm}} fornece uma plataforma de nuvem segura que você pode confiar. A conformidade do {{site.data.keyword.Bluemix_notm}} é resultado de uma plataforma e de serviços que são construídos com base nos melhores padrões de segurança da indústria, incluindo o GDPR, o HIPAA, a ISO 9001, a ISO 27001/27017/27018, o PCI, o SOC2 e outros. Para obter mais informações, consulte [Conformidade no {{site.data.keyword.cloud_notm}} ](https://www.ibm.com/cloud/compliance){: new_window}![Ícone de link externo](../icons/launch-glyph.svg "Ícone de link externo").
+O {{site.data.keyword.Bluemix}} fornece uma plataforma de nuvem segura que você pode confiar. A conformidade do {{site.data.keyword.Bluemix_notm}} resulta de uma plataforma e de serviços que são construídos sobre os melhores padrões de segurança do setor, incluindo ISO 27001 e ISO 27002.
+{:shortdesc}
+
+![Cláusula de modelo da União Europeia](images/icon_eumc.png) Os contratos que incorporam as **Cláusulas de modelo da União Europeia (UE)** protegem dados pessoais que são transferidos da União Europeia ou do Espaço Econômico Europeu (EEA) para um país terceiro. A Cláusula de modelo da União Europeia é assinada entre o cliente que está localizado na União Europeia ou no Espaço econômico europeu como o exportador de dados e o processador de dados da IBM que está localizado no país terceiro como o importador de dados. O [Anexo de Processamento de Dados da IBM (com cláusulas contratuais padrão da União Europeia ![Ícone de link externo](../icons/launch-glyph.svg "Ícone de link externo")](http://www-01.ibm.com/common/ssi/cgi-bin/ssialias?subtype=ST&infotype=SA&htmlfid=KUJ12408USEN&attachment=KUJ12408USEN.PDF){: new_window} contém os direitos e as obrigações do exportador e do importador de dados e os direitos dos titulares de dados. O Anexo de Processamento de Dados da IBM fornece proteções semelhantes àquelas disponíveis na União Europeia ou no Espaço Econômico Europeu para dados pessoais processados em um país terceiro.
+
+
+![Sistemas de informações do setor financeiro](images/FISC.gif) Para instituições financeiras e relacionadas a finanças no Japão, os sistemas de computador devem ter procedimentos de segurança locais que sejam baseados nas diretrizes de segurança do Centro para Financial Industry Information Systems (FISC). As diretrizes de segurança do FISC são aplicadas pela Japan Financial Services Agency (FSA), Bank of Japan (BOJ) e FISC.
+ 
+
+O ![ISO 27001/2](images/icon_iso27k1.png)  {{site.data.keyword.Bluemix_notm}} é certificado sob as **normas da Organização internacional para normatização (ISO) 27001 e 27002**, que definem as melhores práticas para processos de gerenciamento de segurança da informação. O ISO 27001 é um padrão de segurança global amplamente adotado que descreve os requisitos para sistemas de gerenciamento de sistema do gerenciamento de segurança da informação. Ele fornece uma abordagem sistemática para gerenciar as informações da empresa e do cliente com base em avaliações de risco periódicas. O padrão mais recente, o ISO/IEC 27001:2013, foi publicado em 25 de setembro de 2013 pela **Organização Internacional de Normalização (ISO) e pela Comissão Eletrotécnica Internacional (IEC)** sob o subcomitê de ISO e IEC em conjunto. A norma ISO 27001 especifica os requisitos para estabelecer, implementar e documentar Information Security Management Systems (ISMS) e os requisitos para implementar controles de segurança, de acordo com as necessidades de organizações individuais. A norma ISO 27002 explica cada controle de segurança de ISO 27001 em detalhes. A família de normas ISO 27000 incorpora um processo de ajuste de escala de risco e avaliação de ativos, com o objetivo de proteger a confidencialidade, a integridade e a disponibilidade das informações nas formas escrita, oral e eletrônica.
+
+Para obter a certificação ISO 27001:2013, uma empresa deve mostrar que tem uma abordagem sistemática e contínua para gerenciar riscos de segurança de informações que afetam a confidencialidade, integridade e disponibilidade de informações da empresa e do cliente. Esse padrão enfatiza a medição e a avaliação do nível de desempenho do Information Security Management System (ISMS) de uma organização e também inclui controles de informações relacionados à segurança que são baseados nos requisitos do sistema e em outros requisitos.
+
+O {{site.data.keyword.Bluemix_notm}} é auditado por uma firma de segurança de terceiro e atende a todos os requisitos do ISO 27001: [Certificado de registro Bluemix ISO 27001:2013 ![Ícone de link externo](../icons/launch-glyph.svg "Ícone de link externo")](ftp://public.dhe.ibm.com/cloud/bluemix/compliance/Bluemix_ISO27K1_WWCert_2016.pdf){: new_window}.
+
+![PCI DSS](images/icon_pci.png) O **Padrão de Segurança de Dados (DSS) do Setor de Cartão de Pagamento (PCI)** é um padrão de segurança de informações que é projetado para proteger os dados de cartão de crédito. O PCI DSS é aplicado a todas as entidades envolvidas no processamento de cartão de pagamento, incluindo comerciantes, processadores, emissores e provedores de serviços. Ele também se aplica a todas as outras entidades que armazenam, processam transmitem dados do dono do cartão ou dados de autenticação confidenciais.
+
+Se você armazenar ou processar dados do cartão de crédito, a conformidade e a segurança de rede do Setor de Cartão de Pagamento (PCI) serão de interesse primário para seu negócio. Para assegurar padrões consistentes para comerciantes, o Conselho de Padrões de Setor de Cartão de Pagamento estabeleceu normas de segurança de dados de PCI. Estas normas incorporam as melhores práticas para proteger os dados do dono do cartão, e muitas vezes necessitam de validação de um terceiro Qualified Service Assessor (QSA). A IBM ajuda os clientes a atenderem suas necessidades de conformidade de PCI, fornecendo um Atestado de Conformidade a partir de um QSA independente. O Atestado de Conformidade pode ser usado juntamente com o relatório SOC 2 e com a certificação ISO 27001 para demonstrar que a infraestrutura atende aos controles de PCI.
+
+O {{site.data.keyword.Bluemix}} conclui uma avaliação anual PCI DSS usando um Qualified Security Assessor (QSA). Para obter informações e assistência na conformidade com o PCI DSS de seu ambiente do {{site.data.keyword.Bluemix_notm}}, entre em contato com vendas em [Entre em contato conosco ![Ícone de link externo](../icons/launch-glyph.svg "Ícone de link externo")](https://cloud.ibm.com/?direct=classic/#/contactUs/cloudOEPaneId=contactUs){: new_window}.
+
+Os relatórios ![SSAE16 SOC1/2/3](images/icon_aicpa.png) **Service Organization Controls (SOC)** definem a avaliação das principais práticas de controle interno que estão relacionados à segurança, disponibilidade, integridade do processamento, confidencialidade e privacidade em uma organização de serviços. Os relatórios que são gerados usando o Guia American Institute of Certified Public Accountants (AICPA) incluem os itens a seguir: 
+  * Supervisão da organização
+  * Programa de gerenciamento de fornecedores
+  * Governança corporativa interna e processos de gerenciamento de riscos
+  * Supervisão regulamentar
+ 
+O {{site.data.keyword.Bluemix_notm}} fornece os relatórios SOC 1, SOC 2 e SOC 3. Para obter mais informações, entre em contato com a equipe de vendas do [{{site.data.keyword.Bluemix_notm}} ![Ícone de link externo](../icons/launch-glyph.svg "Ícone de link externo")](mailto:bmxcert1@us.ibm.com){:new_window}. 
+
+![HIPAA](images/icon_hipaa.png) O Health Insurance Portability and Accountability Act (HIPAA), decretado pelo Congresso dos EUA em 1996, protege a cobertura de seguro de saúde para funcionários após a perda do emprego. O HIPAA é regulamentado e aplicado pelo Departamento de Direitos Civis e pelo Departamento de Saúde e Serviços Humanos dos EUA. O HIPAA inclui regulamentações do ato 1996, bem como requisitos de privacidade do Ato Health Information Technology for Economic and Clinical Health (HITECH) de 2009. O {{site.data.keyword.Bluemix_notm}} atende a todos os requisitos para HIPAA no lado do datacenter ou do provedor de serviços. 
+
+Pode haver problemas decorrentes da mesclagem do {{site.data.keyword.Bluemix_notm}} Public com a infraestrutura clássica. Para obter mais informações ou assistência para conseguir, certificar e manter a conformidade HIPAA para seu ambiente do {{site.data.keyword.Bluemix_notm}}, entre em contato com a equipe de [vendas do {{site.data.keyword.Bluemix_notm}} ![Ícone de link externo](../icons/launch-glyph.svg "Ícone de link externo")](mailto:cloudplatform_compliance@us.ibm.com){:new_window}.
+
+![ISO 27017](images/icon_ISO27017.png) O ISO/IEC 27017:2015 fornece diretrizes para controles de segurança informações aplicáveis ao fornecimento e uso de serviços de nuvem. Além disso, fornece orientação de implementação para os provedores de serviços em nuvem e para os clientes de serviço de nuvem. O ISO 27017 fornece orientação de implementação para controles relevantes que são especificados no ISO/IEC 27002, bem como controles e orientação adicionais que se relacionam especificamente com os serviços de nuvem.
+
+O alinhamento do {{site.data.keyword.Bluemix_notm}} com o ISO 27017:2015 demonstra que a IBM tem um sistema sofisticado de controles específicos de nuvem em vigor. Além disso, mostra um compromisso de ser o melhor em IaaS, internamente e em todo o mundo.
+
+![ISO 27018](images/icon_ISO27018.png) O ISO 27018:2014 estabelece objetivos de controle, controles e diretrizes comumente aceitos para implementar medidas para proteger Informações Pessoalmente Identificáveis (PII). Essas medidas estão em conformidade com os princípios de privacidade no ISO 29100 para o ambiente de computação em nuvem pública.
+
+Em particular, o ISO 27018:2014 especifica diretrizes que são baseadas no ISO 27002. As diretrizes consideram os requisitos regulamentares para proteção de PII, que podem ser aplicáveis no contexto dos ambientes de risco de segurança de informações de um provedor de serviços de nuvem pública.
+
+![Cloud Security Alliance – STAR Registrant](images/icon_CSA.png) O Cloud Security Alliance é uma organização sem fins lucrativos com uma missão de promover o uso de melhores práticas para fornecer garantia de segurança na computação em nuvem. Um dos mecanismos que a Cloud Security Alliance usa em busca de sua missão é o de Segurança, Confiança e Registro de Garantia (STAR). STAR é um registro grátis, acessível publicamente que documenta os controles de segurança fornecidos por várias ofertas de computação em nuvem.
+
+![Padrões CJIS](images/icon_CJIS.png) A Divisão Criminal Justice Information Systems (CJIS) é uma divisão da Agência Federal de Investigação (FBI) do Departamento de Justiça dos Estados Unidos. A Divisão CJIS criou e publicou uma política de segurança (CJISD-ITS-DOC-08140-5.4). Essa política de segurança contém os requisitos mínimos de segurança de informações, diretrizes e acordos que refletem a vontade que as agências de aplicação da lei e de justiça criminal têm de proteger as fontes, transmissão, armazenamento e geração de Criminal Justice Information (CJI).
+
+## Conformidade de plataforma e serviço
+{: #compliancetable}
+
+A tabela a seguir exibe quais serviços do {{site.data.keyword.Bluemix_notm}} são compatíveis com cada uma das normas.
+
+|Componentes do {{site.data.keyword.Bluemix_notm}}		|FISC		|ISO 27001	|PCI |SOC 2 Tipo 1		|
+|:----------------------|:---------:|:---------:|:---------:|:---------:|
+|Plataforma {{site.data.keyword.Bluemix_notm}}		|S			|S	|S	|S	|
+|{{site.data.keyword.openwhisk_short}}    |  |S | | |
+|{{site.data.keyword.APIM}}			|S	|S |S	|			|
+|{{site.data.keyword.autoscaling}}			|S	|S |S	|			|
+|{{site.data.keyword.bigicloudst}}			|S |S |	|S |
+|{{site.data.keyword.cloudant}}				|S |S |	|S	|
+|{{site.data.keyword.dashdbshort}}			|S	|S	|	|S	|
+|{{site.data.keyword.dataworks_short}}				|	|	|	|S	 		|
+|{{site.data.keyword.contdelivery_short}}					|S	|S	|	|			|
+|{{site.data.keyword.containerlong}}			|S		|S	|	|		S	|
+|{{site.data.keyword.dwl_short}}				|	|	|	|S	 		|
+|{{site.data.keyword.mql}}				|S	|S	|S	|	 		|
+|{{site.data.keyword.SecureGateway}}			|S	|S |	|	 		|
+{: caption="Tabela 1. Conformidade de plataforma e serviço" caption-side="top"}
 
 ## General Data Protection Regulation (GDPR)
 {: #gdpr}
