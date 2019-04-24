@@ -31,8 +31,7 @@ Un CRN se forma a partir de una concatenación de "segmentos" que identifican je
 
 El formato canónico base de un CRN es:
 
-`   crn:version:cname:ctype:service-name:location:scope:service-instance:resource-type:resource
-   `
+`crn:version:cname:ctype:service-name:location:scope:service-instance:resource-type:resource`
 
 
 ## version
@@ -96,7 +95,7 @@ El segmento `location` debe ser uno de los siguientes valores:
  * `au-syd`
  * `eu-gb`
  * `eu-de`
- * ` jp-tok `
+ * `jp-tok`
 
 ### Centros de datos
 {: #dc-crn}

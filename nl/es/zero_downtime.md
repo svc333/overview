@@ -27,7 +27,7 @@ Los servicios de la plataforma {{site.data.keyword.Bluemix}} son autogestionados
 
 Todos los recursos de {{site.data.keyword.Bluemix_notm}} están alojados en ubicaciones de centros de datos de todo el mundo. La alta disponibilidad y la recuperación tras desastre no son universales en todos los servicios, por lo que el tipo de alta disponibilidad y de recuperación tras desastre disponibles dependen del servicio que utilice.  
 
-## Recuperación en caso de siniestro
+## Recuperación tras desastre
 {: #disaster-recovery}
 
 La recuperación tras desastre consiste en sobrevivir a un error catastrófico o pérdida de disponibilidad en una sola ubicación. Para garantizar que se establece la recuperación tras desastre, es necesario desplegar varios entornos de {{site.data.keyword.Bluemix_notm}} en varias ubicaciones para evitar puntos únicos de error. Estos entornos pueden ser una combinación de plataformas públicas, dedicadas o locales.  
@@ -37,20 +37,20 @@ La recuperación tras desastre consiste en sobrevivir a un error catastrófico o
 
 {{site.data.keyword.Bluemix_notm}} sigue los requisitos de la planificación para un desastre y cada aplicación tiene un plan para que se recupere o reinicie tras un desastre. La recuperación se realiza a partir de copias de seguridad electrónicas en un centro de recuperación o en servicios de cálculo alternativos que restauran el cálculo. Antes de cualquier posible desastre, el plan de recuperación tras desastre incluye los requisitos de alojamiento y sistemas para las prestaciones de hardware, software, conectividad de red y copia de seguridad externa.
 
-La lista siguiente incluye los requisitos del plan de recuperación ante desastre:
+La lista siguiente incluye los requisitos del plan de recuperación tras desastre:
 
 - Para el equilibrio de carga, existe un documento que sirve para explicar cómo permanece disponible el servicio de cálculo. 
-- Cuando se produce una migración tras error multisitio, el plan de recuperación ante desastre debe explicar qué es lo que hace cada cosa para que se haya producido la migración tras error y garantizar el reinicio. 
-- El plan de recuperación ante desastre debe definir cómo funciona la solución y cuál es la pérdida de datos. 
-- Debe confirmar cómo se obtiene el tiempo de inactividad máximo tolerable y almacenarse en la base de datos del plan de recuperación ante desastre.  
-- El plan de recuperación ante desastre especifica los controles de seguridad para la ejecución en la modalidad de desastre, en caso de que sean distintos de los que se ejecutan en la producción. 
+- Cuando se produce una migración tras error multisitio, el plan de recuperación tras desastre debe explicar qué es lo que hace cada cosa para que se haya producido la migración tras error y garantizar el reinicio. 
+- El plan de recuperación tras desastre debe definir cómo funciona la solución y cuál es la pérdida de datos. 
+- Debe confirmar cómo se obtiene el tiempo de inactividad máximo tolerable y almacenarse en la base de datos del plan de recuperación tras desastre.  
+- El plan de recuperación tras desastre especifica los controles de seguridad para la ejecución en la modalidad de desastre, en caso de que sean distintos de los que se ejecutan en la producción. 
 
-### Gestión del plan de recuperación ante desastre 
+### Gestión del plan de recuperación tras desastre 
 {: #dr-plan-mgmt}
 
 Los requisitos que {{site.data.keyword.Bluemix}} sigue son: 
 
-- El plan de recuperación ante desastre debe actualizarse después de que se produzca cualquier cambio importante en la infraestructura, tras release de aplicación principal y después de que se realice cualquier prueba. 
+- El plan de recuperación tras desastre debe actualizarse después de que se produzca cualquier cambio importante en la infraestructura, tras release de aplicación principal y después de que se realice cualquier prueba. 
 - Debe aprobarse anualmente. 
 
 ## Ubicaciones para el despliegue de recursos 

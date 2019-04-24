@@ -361,7 +361,7 @@ Siehe [Hypertext Transfer Protocol Secure](#x2237225).
 ### HVM (Hardware Virtual Machine Mode)
 {: #x9736811}
 
-Hardwaregestützte vollständige Virtualisierung. Eine virtuelle Maschine verwendet Ressourcen des Host-Computers für die Ausführung als vollständige Hardwareumgebung. Das Hostbetriebssystem erkennt den virtuellen Client nicht. 
+Hardwaregestützte vollständige Virtualisierung. Eine virtuelle Maschine verwendet Ressourcen des Host-Computers für die Ausführung als vollständige Hardwareumgebung. Das Hostbetriebssystem erkennt den virtuellen Client nicht.
 
 ### Hybrid Cloud
 {: #x4585327}
@@ -580,7 +580,7 @@ Siehe [Platform as a Service](#x2029786).
 ### Paravirtualisierungsmodus
 {: #x9736806}
 
-Eine vereinfachte Virtualisierungsmethode. Im Paravirtualisierungsmodus benötigt eine virtuelle Maschine keine Virtualisierungserweiterungen des Host-Computers, wodurch die Virtualisierung für Hardwaresysteme ermöglicht wird, die keine hardwaregestützte Virtualisierung unterstützen. 
+Eine vereinfachte Virtualisierungsmethode. Im Paravirtualisierungsmodus benötigt eine virtuelle Maschine keine Virtualisierungserweiterungen des Host-Computers, wodurch die Virtualisierung für Hardwaresysteme ermöglicht wird, die keine hardwaregestützte Virtualisierung unterstützen.
 
 ### Platform as a Service (PaaS)
 {: #x2029786}
@@ -634,7 +634,7 @@ Bezeichnet Daten, die dynamischen Änderungen unterliegen.
 ### Rechenzentrum (Data Center, DC)
 {: #x2439906}
 
-Der physische Standort der Server, die Cloud-Services bereitstellen. 
+Der physische Standort der Server, die Cloud-Services bereitstellen.
 
 ### Regel
 {: #x2037526}

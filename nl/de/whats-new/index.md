@@ -22,12 +22,12 @@ Wenn Sie hinsichtlich neuer Features und Services, die in {{site.data.keyword.Bl
 
 
 ### Neues Unterstützungserlebnis für {{site.data.keyword.Bluemix_notm}}
-Datum der Neuerung: 30. November 2018 
+Datum der Neuerung: 30. November 2018
 {: #support}
 
 Mit dem Support Center können Sie alle Probleme im Zusammenhang mit {{site.data.keyword.Bluemix_notm}} lösen. Auf der Zielseite finden Sie häufig gestellte Fragen (FAQs), sodass Sie die Antwort auf Ihre Frage finden können, ohne sich dazu überhaupt mit {{site.data.keyword.Bluemix_notm}} in Verbindung setzen zu müssen. Sie können auch mit einem Live-Supportmitarbeiter chatten. Ihre Fälle können jetzt von einem einzigen Ort aus verwaltet werden. Rufen Sie **Support** &gt; **Fälle verwalten** auf, um Fälle zu erstellen, anzuzeigen, oder zu bearbeiten.
 
-Sie können die [Statusseite](https://cloud.ibm.com/status){: new_window} ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link") ebenfalls über das Support Center suchen. Die Seite wurde funktional so erweitert, dass sie alle ungeplanten Vorfälle, geplante Wartungsmaßnahmen, Ankündigungen und Sicherheitsbulletinbenachrichtigungen in Bezug auf bedeutende Ereignisse enthält, die die {{site.data.keyword.Bluemix_notm}}-Plattform, die Infrastruktur und die wichtigsten Services betreffen. Klicken Sie im Support Center auf **Cloudstatus anzeigen**. Um herauszufinden, wie das neue Erlebnis aussieht, melden Sie sich an und wechseln Sie zum [Support-Center](https://cloud.ibm.com/unifiedsupport/supportcenter){: new_window} ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link"). 
+Sie können die [Statusseite](https://cloud.ibm.com/status){: new_window} ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link") ebenfalls über das Support Center suchen. Die Seite wurde funktional so erweitert, dass sie alle ungeplanten Vorfälle, geplante Wartungsmaßnahmen, Ankündigungen und Sicherheitsbulletinbenachrichtigungen in Bezug auf bedeutende Ereignisse enthält, die die {{site.data.keyword.Bluemix_notm}}-Plattform, die Infrastruktur und die wichtigsten Services betreffen. Klicken Sie im Support Center auf **Cloudstatus anzeigen**. Um das neue Erlebnis kennenzulernen, melden Sie sich an und wechseln Sie zum [Support-Center](https://cloud.ibm.com/unifiedsupport/supportcenter){: new_window} ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link"). 
 
 ### Einheitliche Anmeldung, API-Schlüssel sowie Benutzer-und Zugriffsverwaltung in {{site.data.keyword.Bluemix_notm}}
 Datum der Neuerung: 30. November 2018
@@ -696,13 +696,6 @@ Datum der Neuerung: 19. Januar 2018
 
 Seit November 2017 unterstützte {{site.data.keyword.containershort_notm}} Kubernetes `1.8.x`. Wir freuen uns, bekanntgeben zu können, dass die Standardversion von Kubernetes jetzt `1.8.6` lautet.  In naher Zukunft wird die Unterstützung für `1.9.x` bereitgestellt.
 
-### Watson Discovery Visual Insights
-Datum der Neuerung: 30. November 2017
-{: #whatsnewvinov17}
-
-Dank des Verständnisses von {{site.data.keyword.discoveryshort}} für semantische Elemente, die im Text erkannt wurden (z. B. Entitäten, Beziehung, Konzepte u. a.) können Sie Verbindungen grafisch orientiert untersuchen.
-
-Zum Einstieg können Sie die weltweiten Nachrichten in der sofort einsatzfähigen Datensammlung '{{site.data.keyword.discoveryshort}} News' durchsuchen. Sie können aber auch Ihre eigenen Dokumentsammlungen in {{site.data.keyword.discoveryshort}} durchsuchen. Melden Sie sich einfach mit Ihren {{site.data.keyword.Bluemix_notm}}-Berechtigungsnachweisen an. Weitere Informationen finden Sie unter [Visual Insights (experimentell)](https://visual-insights.cloud.ibm.com){: new_window} ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link").
 
 ### Neuer IBM Cloud-Betaservice 'Managed Database Server'
 Datum der Neuerung: 30. November 2017

@@ -330,7 +330,7 @@ Consente di attivare un trigger.
 ### Indirizzo IP mobile
 {: #x6326428}
 
-Un indirizzo IP pubblico e instradabile che utilizza la NAT (network address translation) 1-a-1 in modo che un server possa comunicare con internet pubblico e sottorete privata in un ambiente cloud. Gli indirizzi IP mobili sono associati a un'istanza, ad esempio un'istanza del server virtuale, un programma di bilanciamento del carico oppure un gateway VPN, mediante una vNIC (virtual network interface card).
+Un indirizzo IP pubblico e instradabile che utilizza la NAT (network address translation) 1-a-1 in modo che un server possa comunicare con internet pubblico e sottoreti privata in un ambiente cloud. Gli indirizzi IP mobili sono associati a un'istanza, ad esempio un'istanza del server virtuale, un programma di bilanciamento del carico oppure un gateway VPN, mediante una vNIC (virtual network interface card).
 
 ### framework
 {: #x2023472}
@@ -361,7 +361,7 @@ Vedi [globally unique identifier](#x2390455).
 ## H
 {: #glossh}
 
-### modalità HVM (hardware virtual machine) 
+### modalità HVM (hardware virtual machine)
 {: #x9736811}
 
 Virtualizzazione completamente assistita hardware. Una macchina virtuale utilizza le risorse dal computer host per operare come un ambiente hardware completo. Il sistema operativo host non è a conoscenza del client virtuale.
@@ -824,12 +824,12 @@ specifico linguaggio di programmazione oppure una combinazione di codice applica
 
 Un dominio che rappresenta una parte di un dominio più ampio. Vedi anche [dominio personalizzato](#x5728384), [dominio](#x2021210), [host](#x2002243), [rotta](#x2037338), [Uniform Resource Locator](#x2042491).
 
-### sottorete
+### subnet
 {: #x4282974}
 
 Vedi [rete secondaria](#x2040149).
 
-### rete secondaria (sottorete)
+### rete secondaria (subnet)
 {: #x2040149}
 
 Una rete divisa in sottogruppi indipendenti più piccoli che continuano ad essere interconnessi.
