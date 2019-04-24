@@ -4,7 +4,7 @@ copyright:
 
   years: 2018, 2019
 
-lastupdated: "2019-02-19"
+lastupdated: "2019-02-27"
 
 ---
 
@@ -24,7 +24,7 @@ lastupdated: "2019-02-19"
 ## 开始之前
 {: #prereqs-lite}
 
-转至 [{DomainName}]({DomainName}) 并创建轻量帐户。轻量帐户是免费的，永不过期。
+转至 [{{site.data.keyword.Bluemix_notm}} 控制台](https://{DomainName})，并创建轻量帐户。轻量帐户是免费的，永不过期。
 
 ## 快速入门步骤
 {: #steps-lite}

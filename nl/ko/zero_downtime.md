@@ -2,7 +2,7 @@
 
 copyright:
   years: 2018, 2019
-lastupdated: "2019-02-07"
+lastupdated: "2019-02-27"
 
 metadata: HA,failover,DR 
 
@@ -58,7 +58,7 @@ metadata: HA,failover,DR
 
 애플리케이션 관리를 위한 동일한 {{site.data.keyword.cloud_notm}} 인프라 및 요금 청구를 위한 동일한 사용량 세부사항을 사용하여 다른 위치에 앱 및 서비스 인스턴스를 작성할 수 있습니다. 애플리케이션 대기 시간을 낮추기 위해 고객과 가장 가까운 위치에 앱을 배치할 수 있습니다. 
 
-보안 문제를 해결하기 위해 애플리케이션 데이터를 보관할 위치를 선택할 수도 있습니다. 앱을 둘 이상의 위치에서 빌드할 경우 이 중 한 위치가 사용 불가능하면 다른 위치에 있는 앱은 계속 실행됩니다. 허용되는 리소스 양은 사용하는 위치마다 동일합니다. 플랫폼 리소스 및 사용 가능한 위치에 대한 자세한 정보는 [서비스 가용성](docs/resources?topic=resources-services_region)을 참조하십시오.
+보안 문제를 해결하기 위해 애플리케이션 데이터를 보관할 위치를 선택할 수도 있습니다. 앱을 둘 이상의 위치에서 빌드할 경우 이 중 한 위치가 사용 불가능하면 다른 위치에 있는 앱은 계속 실행됩니다. 허용되는 리소스 양은 사용하는 위치마다 동일합니다. 플랫폼 리소스 및 사용 가능한 위치에 대한 자세한 정보는 [서비스 가용성](/docs/resources?topic=resources-services_region)을 참조하십시오.
 
 {{site.data.keyword.cloud_notm}} 콘솔의 글로벌 로드 밸런싱은 사용자에게 가장 가까운 지리적 위치가 사용 불가능하게 되면 다음으로 가장 가까운 위치에 대한 정보가 콘솔에 표시됩니다. 이 방식을 사용하면 사용자가 필요한 리소스에 액세스하기 위한 조치를 수행하지 않고 항상 콘솔에 액세스할 수 있습니다.
 
@@ -72,7 +72,7 @@ ibmcloud api https://api.eu-gb.cf.cloud.ibm.com
 
 각 위치에 고유한 접두부가 지정됩니다. {{site.data.keyword.cloud_notm}}는 다음과 같은 위치 및 위치 접두부를 제공합니다.
 
-| **위치**  | **API 엔드포인트**        |
+| **위치**  | **API 엔드포인트**  |
 |---------------|-------------------------|
 | 댈러스        | api.us-south.cf.cloud.ibm.com  |
 | 프랑크푸르트     | api.eu-de.cf.cloud.ibm.com  |
@@ -97,7 +97,7 @@ ibmcloud api https://api.eu-gb.cf.cloud.ibm.com
 ### 북아메리카
 {: #na}
 
-| 데이터 센터 이름 | 코드  |
+| 데이터 센터 | 코드  |
 |------------------|-------|
 |댈러스 01        |dal01 |
 |댈러스 05        |dal05 |
@@ -124,7 +124,7 @@ ibmcloud api https://api.eu-gb.cf.cloud.ibm.com
 ### 남아메리카
 {: #sa}
 
-| 데이터 센터 이름 | 코드    |
+| 데이터 센터 | 코드    |
 |------------------|---------|
 |상파울루 01     |sao01   |
 {: caption="표 3. 남아메리카의 데이터 센터" caption-side="top"}
@@ -132,7 +132,7 @@ ibmcloud api https://api.eu-gb.cf.cloud.ibm.com
 ### 유럽
 {: #eu}
 
-| 데이터 센터 이름 | 코드  |
+| 데이터 센터 | 코드  |
 |------------------|-------|
 |런던 02        |lon02 |
 |런던 04        |lon04 |
@@ -151,7 +151,7 @@ ibmcloud api https://api.eu-gb.cf.cloud.ibm.com
 ### 아시아 태평양
 {: #ap}
 
-| 데이터 센터 이름 | 코드  |
+| 데이터 센터 | 코드  |
 |------------------|-------|
 |도쿄 01         |tok02 | 
 |도쿄 04         |tok04 |
@@ -175,7 +175,7 @@ ibmcloud api https://api.eu-gb.cf.cloud.ibm.com
 
 {{site.data.keyword.Bluemix_notm}}는 계정에 대한 크레딧을 받을 수 있도록 하는 {{site.data.keyword.Bluemix_notm}} 서비스에 대한 SLA를 제공합니다. SLA는 지정된 서비스 레벨을 충족하지 못한 {{site.data.keyword.Bluemix_notm}}의 오류를 해결하는 유일한 방법입니다. {{site.data.keyword.Bluemix_notm}}는 단일 데디케이티드 또는 로컬 환경 내에서 플랫폼 서비스의 여러 인스턴스에 대해 99.5% 가용성 서비스 레벨을 제공합니다.
 
-데디케이티드 환경에 대한 자세한 정보는 [IBM Cloud Dedicated](/docs/hybrid?topic=dedicated-dedicated)를 참조하고 로컬 환경에 대해서는 [Bluemix Local](/docs/hybrid?topic=local-local)을 참조하십시오.  
+데디케이티드 환경에 대한 자세한 정보는 [IBM Cloud Dedicated](/docs/hybrid?topic=dedicated-dedicated)를 참조하고 로컬 환경에 대해서는 [Bluemix Local](/docs/hybrid?topic=local-local)을 참조하십시오. 
 
 {{site.data.keyword.Bluemix_notm}}에 대한 전체 서비스 설명은 [Cloud Services terms](http://www-03.ibm.com/software/sla/sladb.nsf/sla/bm){: new_window} ![외부 링크 아이콘](../icons/launch-glyph.svg "외부 링크 아이콘")에 있습니다.
 
@@ -230,9 +230,8 @@ ibmcloud api https://api.eu-gb.cf.cloud.ibm.com
 
 운영 체제 또는 애플리케이션을 다시 로드하는 데 필요한 시간 또는 성능이 저하될 수 있는 시간은 서비스 레벨 시간에서 제외됩니다. {{site.data.keyword.Bluemix_notm}}가 지정된 서비스 레벨 기간을 충족하지 못한 경우 하드웨어 교체 또는 업그레이드에 영향을 받는 서비스에 대한 월별 요금을 기준으로 크레딧을 받을 수 있습니다.
 
-|유형	                    |설명	   |
+|서비스 레벨 기간  | 크레딧 백분율 |
 |---------------------------|----------------|
-|서비스 레벨 기간 |크레딧 비율 |
 |≤ 2시간                 |없음           |
 |> 2시간                 | 20%            |
 |> 6시간                 | 40%            |

@@ -3,7 +3,7 @@
 
 copyright:
   years: 2016, 2019
-lastupdated: "2019-02-08"
+lastupdated: "2019-02-21"
 
 
 ---
@@ -22,32 +22,6 @@ En este glosario se utilizan las siguientes referencias cruzadas:
 - *Véase* le remite desde un término no preferido al
 término preferido o desde una abreviatura a la forma completa.
 - *Véase también* le remite a un término relacionado u opuesto.
-
-<!--If you do not want letter links at the top of your
-glossary, delete the text between these comment tags.
-[A](#glossa)
-[B](#glossb)
-[C](#glossc)
-[D](#glossd)
-[E](#glosse)
-[F](#glossf)
-[G](#glossg)
-[H](#glossh)
-[I](#glossi)
-[J](#glossj)
-[L](#glossl)
-[M](#glossm)
-[N](#glossn)
-[O](#glosso)
-[P](#glossp)
-[R](#glossr)
-[S](#glosss)
-[T](#glosst)
-[U](#glossu)
-[V](#glossv)
-[W](#glossw)
-
--->
 
 ## A
 {: #glossa}
@@ -264,6 +238,11 @@ Un programa que se ejecuta de forma desatendida para efectuar funciones continua
 
 Componente de interfaz de usuario que proporciona al usuario un resumen coherente de la información pertinente que proceden de diversas fuentes.
 
+### Centro de datos (DC)
+{: #x2439906}
+
+La ubicación física de los servidores que proporcionan servicios de cloud.
+
 ### almacén de datos
 {: #x2052849}
 
@@ -377,6 +356,11 @@ Véase [identificador exclusivo global](#x2390455).
 
 ## H
 {: #glossh}
+
+### modalidad de máquina virtual de hardware (HVM)
+{: #x9736811}
+
+Virtualización completa asistida por hardware. Una máquina virtual utiliza recursos del equipo host para funcionar como un entorno de hardware completo. El sistema operativo del host no conoce el cliente virtual.
 
 ### llamada de API pesada
 {: #x7690468}
@@ -604,6 +588,11 @@ Metodología de agrupación de usuarios de IBM Cloud. Las organizaciones se util
 
 Véase [plataforma como servicio](#x2029786).
 
+### modalidad paravirtualizada
+{: #x9736806}
+
+Una técnica de virtualización ligera. En modalidad paravirtualizada, una máquina virtual no requiere extensiones de virtualización del equipo host, lo que permite la virtualización en sistemas de hardware que no admiten la virtualización asistida por hardware.
+
 ### imagen padre
 {: #x8439210}
 
@@ -691,7 +680,7 @@ o un conjunto de códigos postales de la región.
 ### registro
 {: #x2064940}
 
-Repositorio público o privado que contiene imágenes utilizadas para crear contenedores. Véase también [contenedor](#x2010901) e [imagen](#x2024928).
+Servicio de almacenamiento y distribución de imágenes de un contenedor público o privado. Véase también [contenedor](#x2010901) e [imagen](#x2024928).
 
 ### Representational State Transfer (REST)
 {: #x3220976}

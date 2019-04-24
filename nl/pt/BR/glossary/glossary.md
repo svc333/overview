@@ -3,7 +3,7 @@
 
 copyright:
   years: 2016, 2019
-lastupdated: "2019-02-08"
+lastupdated: "2019-02-21"
 
 
 ---
@@ -21,32 +21,6 @@ As referências cruzadas a seguir são usadas nesse glossário:
 
 - *Consulte* o encaminha de um termo não preferencial para um termo preferencial ou de uma abreviação para a sua forma por extenso.
 - *Consulte também* o encaminha para um termo relacionado ou contrastante.
-
-<!--If you do not want letter links at the top of your
-glossary, delete the text between these comment tags.
-[A](#glossa)
-[B](#glossb)
-[C](#glossc)
-[D](#glossd)
-[E](#glosse)
-[F](#glossf)
-[G](#glossg)
-[H](#glossh)
-[I](#glossi)
-[J](#glossj)
-[L](#glossl)
-[M](#glossm)
-[N](#glossn)
-[O](#glosso)
-[P](#glossp)
-[R](#glossr)
-[S](#glosss)
-[T](#glosst)
-[U](#glossu)
-[V](#glossv)
-[W](#glossw)
-
--->
 
 ## A
 {: #glossa}
@@ -267,6 +241,11 @@ para executar funções contínuas ou periódicas, como controle de rede.
 
 Um componente de interface com o usuário que fornece um resumo abrangente de informações pertinentes de várias origens para o usuário.
 
+### data center (DC)
+{: #x2439906}
+
+O local físico dos servidores que fornecem serviços de nuvem.
+
 ### armazenamento de dados
 {: #x2052849}
 
@@ -384,6 +363,11 @@ Consulte [Identificador Exclusivo Global](#x2390455).
 
 ## H
 {: #glossh}
+
+### modo hardware virtual machine (HVM)
+{: #x9736811}
+
+Virtualização integral assistida por hardware. Uma máquina virtual usa recursos do computador host para operar como um ambiente de hardware completo. O sistema operacional do host não tem conhecimento do cliente virtual.
 
 ### chamada pesada de API
 {: #x7690468}
@@ -620,6 +604,11 @@ A metodologia de agrupamento para usuários no IBM Cloud. Organizações são us
 
 Consulte [plataforma como serviço](#x2029786).
 
+### modo paravirtualizado
+{: #x9736806}
+
+Uma técnica de virtualização leve. Enquanto está no modo paravirtualizado, uma máquina virtual não requer extensões de virtualização do computador host, permitindo a virtualização em sistemas de hardware que não suportam virtualização assistida por hardware.
+
 ### imagem pai
 {: #x8439210}
 
@@ -707,7 +696,7 @@ Um território geográfico definido. Uma região poderia ser uma área de códig
 ### registro
 {: #x2064940}
 
-Um repositório público ou privado que contém imagens usadas para criar contêineres. Consulte também [contêiner](#x2010901), [imagem](#x2024928).
+Um serviço de armazenamento e distribuição de imagem de contêiner público ou privado. Consulte também [contêiner](#x2010901), [imagem](#x2024928).
 
 ### Representational State Transfer (REST)
 {: #x3220976}

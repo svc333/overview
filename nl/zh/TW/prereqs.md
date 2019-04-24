@@ -3,7 +3,7 @@
 
 copyright:
   years: 2016, 2019
-lastupdated: "2019-01-24"
+lastupdated: "2019-02-27"
 
 ---
 
@@ -33,4 +33,4 @@ lastupdated: "2019-01-24"
 ## 指令行介面 (CLI)
 {: #cli-platform}
 
-{{site.data.keyword.Bluemix_notm}} CLI 不斷變更，因此建議前往[安裝獨立式 {{site.data.keyword.Bluemix_notm}} CLI](/cli/reference/ibmcloud/cloud-cli-install_use) 頁面，它一律會指向最新的 CLI 版本。
+{{site.data.keyword.Bluemix_notm}} CLI 不斷變更，因此建議前往[安裝獨立式 {{site.data.keyword.Bluemix_notm}} CLI](/docs/cli/reference/ibmcloud/cloud-cli-install_use) 頁面，它一律會指向最新的 CLI 版本。

@@ -4,7 +4,7 @@ copyright:
 
   years: 2018, 2019
 
-lastupdated: "2019-02-19"
+lastupdated: "2019-02-27"
 
 ---
 
@@ -24,7 +24,7 @@ Sie möchten {{site.data.keyword.Bluemix}} testen? Ein Lite-Konto eignet sich he
 ## Vorbereitende Schritte
 {: #prereqs-lite}
 
-Rufen Sie [{DomainName}]({DomainName}) auf und erstellen Sie ein Lite-Konto. Das Konto ist kostenlos und läuft nicht ab.
+Rufen Sie die [{{site.data.keyword.Bluemix_notm}}-Konsole](https://{DomainName}) auf und erstellen Sie ein Lite-Konto. Das Konto ist kostenlos und läuft nicht ab.
 
 ## Schritte für den Schnelleinstieg
 {: #steps-lite}

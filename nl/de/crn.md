@@ -4,7 +4,7 @@ copyright:
 
   years: 2017, 2019
 
-lastupdated: "2019-02-12"
+lastupdated: "2019-02-21"
 
 keywords: crn, cloud resource name
 
@@ -49,7 +49,7 @@ Das Segment `cname` gibt die Cloudinstanz an und ist eine alphanumerische Kennun
 ## ctype
 {: #ctype-crn}
 
-Das Segment `ctype` gibt den Typ der Cloudinstanz an, die durch das angegebene Segment `cname` dargestellt wird. 
+Das Segment `ctype` gibt den Typ der Cloudinstanz an, die durch das angegebene Segment `cname` dargestellt wird.
 
  Gültige Werte:
   - `public`: Alle Services, die über den öffentlichen Katalog verfügbar sind.
@@ -62,9 +62,9 @@ Das Segment `ctype` gibt den Typ der Cloudinstanz an, die durch das angegebene S
 
 Das Segment `service-name` gibt eindeutig eine Funktion (Service, Komponente, Produkt) an, die von der Cloud angeboten wird. Bei der Funktion kann es sich um einen vom Benutzer bereitgestellten Service handeln (z. B. die Services, die im {{site.data.keyword.Bluemix_notm}}-Katalog aufgelistet sind) oder um eine interne Architekturkomponente, die für die {{site.data.keyword.Bluemix_notm}}-Funktionalität von entscheidender Bedeutung ist.
 
-Das Segment `service-name` gibt den Service an, zu dem die Ressource gehört, und {{site.data.keyword.Bluemix_notm}} erzwingt die globale Eindeutigkeit von Servicenamen. Das Segment `service-name` muss alphanumerisch und kleingeschrieben sein, es darf keine Leerzeichen oder Sonderzeichen (mit Ausnahme von '-') enthalten. 
+Das Segment `service-name` gibt den Service an, zu dem die Ressource gehört, und {{site.data.keyword.Bluemix_notm}} erzwingt die globale Eindeutigkeit von Servicenamen. Das Segment `service-name` muss alphanumerisch und kleingeschrieben sein, es darf keine Leerzeichen oder Sonderzeichen (mit Ausnahme von '-') enthalten.
 
-Bei Services, die im {{site.data.keyword.Bluemix_notm}}-Katalog registriert sind, muss das Segment `service-name` einem der Services entsprechen, die beim {{site.data.keyword.Bluemix_notm}} Global Catalog-Service registriert sind. Es handelt sich um die Eigenschaft `name`, die von der {{site.data.keyword.Bluemix_notm}} Global Catalog-Service-API `GET https://globalcatalog.cloud.ibm.com/api/v1/{id}` für die entsprechende Ressourceninstanz zurückgegeben wurde oder um den Wert für `service-name`, der von der Befehlszeilenschnittstelle `ibmcloud service offerings` in der Spalte `service` angezeigt wird. 
+Bei Services, die im {{site.data.keyword.Bluemix_notm}}-Katalog registriert sind, muss das Segment `service-name` einem der Services entsprechen, die beim {{site.data.keyword.Bluemix_notm}} Global Catalog-Service registriert sind. Es handelt sich um die Eigenschaft `name`, die von der {{site.data.keyword.Bluemix_notm}} Global Catalog-Service-API `GET https://globalcatalog.cloud.ibm.com/api/v1/{id}` für die entsprechende Ressourceninstanz zurückgegeben wurde oder um den Wert für `service-name`, der von der Befehlszeilenschnittstelle `ibmcloud service offerings` in der Spalte `service` angezeigt wird.
 
 
 ## location
@@ -72,7 +72,7 @@ Bei Services, die im {{site.data.keyword.Bluemix_notm}}-Katalog registriert sind
 
 Die Angabe zur Cloudposition (Ländergruppe/Region/Zone/Rechenzentrum), an der sich die Ressource befindet.
 
-Das Segment `location` muss einen der folgenden Werte haben: 
+Das Segment `location` muss einen der folgenden Werte haben:
 
 ### Global
 {: #global-crn}
@@ -95,6 +95,7 @@ Das Segment `location` muss einen der folgenden Werte haben:
  * `au-syd`
  * `eu-gb`
  * `eu-de`
+ * ` jp-tok `
 
 ### Rechenzentren
 {: #dc-crn}
@@ -127,14 +128,14 @@ Der Wert des Segments `scope` muss als `{scopePrefix}`/`{id}` formatiert werden.
 | Konto | a/`{account id}` | Das Konto, in dem die Ressource erstellt wurde. | `a/292558` |
 | Organisation | o/`{org guid}` | Die {{site.data.keyword.Bluemix_notm}}-Organisation, der die Ressource zugeordnet wurde. | `o/4716e2d1-35b7-431f-891a-b552bf0b3c66` |
 | Bereich | s/`{space guid}` | Der {{site.data.keyword.Bluemix_notm}}-Bereich, dem die Ressource zugeordnet wurde. | `s/48b3cdcd-e804-4398-9032-73065863ad7c` |
-{: caption="Tabelle 2. Verwendung von 'scope' " caption-side="top"}
+{: caption="Tabelle 2. Verwendung von 'scope'" caption-side="top"}
 
 
 
 ## service-instance
 {: #service-instance-crn}
 
-Das Segment `service-instance` gibt die Serviceinstanz eindeutig an. Das Format des Segments `service-instance` ist vom Service abhängig. Jeder Service muss das Format seines Segments `service-instance` als Teil der Servicemetadaten dokumentieren. Manche Services haben keine Instanzen, weil die Instanz global ist. In diesem Fall ist das Feld `service-instance` leer. 
+Das Segment `service-instance` gibt die Serviceinstanz eindeutig an. Das Format des Segments `service-instance` ist vom Service abhängig. Jeder Service muss das Format seines Segments `service-instance` als Teil der Servicemetadaten dokumentieren. Manche Services haben keine Instanzen, weil die Instanz global ist. In diesem Fall ist das Feld `service-instance` leer.
 
 Das Segment `service-instance` muss alphanumerisch und kleingeschrieben sein und es darf keine Leer- oder Sonderzeichen (mit Ausnahme von '-' und '/') enthalten.
 
@@ -153,7 +154,7 @@ ibmcloud resource service-instance
 
 Der Wert der Segmente `resource-type` und `resource` hängt vom Service ab. Es ist ein Service erforderlich, um die unterstützten Segmente `resource-type` und das Format des Segments `resource` als Teil der Servicemetadaten zu dokumentieren.
 
-Beispiel: Ein Image im Container für Kundenbelege in einem Objektspeicherservice kann über ein Segment `resource-type` namens `object` und den Wert `CustomerReceipts/clientdinner.png` für `resource` verfügen. 
+Beispiel: Ein Image im Container für Kundenbelege in einem Objektspeicherservice kann über ein Segment `resource-type` namens `object` und den Wert `CustomerReceipts/clientdinner.png` für `resource` verfügen.
 
 Das Segment `resource-type` muss alphanumerisch und kleingeschrieben sein, es darf keine Leerzeichen oder Sonderzeichen (mit Ausnahme von '-') enthalten. Ein Service kann entscheiden, dass das Segment `resource-type` optional ist. In diesem Fall wird der Wert leer gelassen.
 

@@ -4,7 +4,7 @@ copyright:
 
   years: 2018, 2019
 
-lastupdated: "2019-02-19"
+lastupdated: "2019-02-27"
 
 ---
 
@@ -22,11 +22,9 @@ lastupdated: "2019-02-19"
 
 다음 표를 사용하여 각 플랫폼 컴포넌트와 연관된 명령행 인터페이스(CLI) 명령 및 API 문서를 한 눈에 볼 수 있습니다.
 
-<!-- Below is a PRODUCTION table  with only 3 columns -->
-
 |플랫폼 컴포넌트 |CLI 참조 |API 문서 |
 | ----- | ----- | ----- |
-|{{site.data.keyword.cloud_notm}} Identity and Access Management(IAM) |[IAM 액세스, API 키, 서비스 ID 및 액세스 그룹 관리](docs/cli/reference/ibmcloud?topic=cloud-cli-ibmcloud_commands_iam) |[IAM Identity Services API](https://console.cloud.ibm.com/apidocs/iam-identity-token-api){: new_window} ![외부 링크 아이콘](../icons/launch-glyph.svg "외부 링크 아이콘") <br><br>  [IAM Access Groups API](https://console.cloud.ibm.com/apidocs/iam-access-groups){: new_window} ![외부 링크 아이콘](../icons/launch-glyph.svg "외부 링크 아이콘") <br><br> [IAM Policy Management API](https://console.cloud.ibm.com/apidocs/iam-policy-management){: new_window} ![외부 링크 아이콘](../icons/launch-glyph.svg "외부 링크 아이콘") |
+|{{site.data.keyword.cloud_notm}} Identity and Access Management(IAM) |[IAM 액세스, API 키, 서비스 ID 및 액세스 그룹 관리](/docs/cli/reference/ibmcloud?topic=cloud-cli-ibmcloud_commands_iam) |[IAM Identity Services API](https://console.cloud.ibm.com/apidocs/iam-identity-token-api){: new_window} ![외부 링크 아이콘](../icons/launch-glyph.svg "외부 링크 아이콘") <br><br>  [IAM Access Groups API](https://console.cloud.ibm.com/apidocs/iam-access-groups){: new_window} ![외부 링크 아이콘](../icons/launch-glyph.svg "외부 링크 아이콘") <br><br> [IAM Policy Management API](https://console.cloud.ibm.com/apidocs/iam-policy-management){: new_window} ![외부 링크 아이콘](../icons/launch-glyph.svg "외부 링크 아이콘") |
 |계정 관리 |[계정, 사용자 및 Cloud Foundry 조직 관리](/docs/cli/reference/ibmcloud?topic=cloud-cli-ibmcloud_commands_account) |사용할 수 없음 |
 |사용량 측정 |[계정, 조직, 리소스 그룹 및 리소스의 사용량 보기](/docs/cli/reference/ibmcloud?topic=cloud-cli-ibmcloud_billing) |[{{site.data.keyword.Bluemix_notm}} Usage Metering](https://console.cloud.ibm.com/apidocs/usage-metering){: new_window} ![외부 링크 아이콘](../icons/launch-glyph.svg "외부 링크 아이콘") |
 |사용량 보고 |[계정, 조직, 리소스 그룹 및 리소스의 사용량 보기](/docs/cli/reference/ibmcloud?topic=cloud-cli-ibmcloud_billing) |[{{site.data.keyword.Bluemix_notm}} Usage Reports](https://console.cloud.ibm.com/apidocs/metering-reporting){: new_window} ![외부 링크 아이콘](../icons/launch-glyph.svg "외부 링크 아이콘") |

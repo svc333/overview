@@ -4,7 +4,7 @@ copyright:
 
   years: 2018, 2019
 
-lastupdated: "2019-02-19"
+lastupdated: "2019-02-27"
 
 ---
 
@@ -24,7 +24,7 @@ Vous souhaitez découvrir {{site.data.keyword.Bluemix}} ? Un compte Lite constit
 ## Avant de commencer
 {: #prereqs-lite}
 
-Accédez à [{DomainName}]({DomainName}) et créez un compte Lite. Ce dernier est gratuit et n'arrive jamais à expiration.
+Accédez à la console [{{site.data.keyword.Bluemix_notm}}](https://{DomainName}) et créez un compte Lite. Ce dernier est gratuit et n'arrive jamais à expiration.
 
 ## Procédure de démarrage rapide
 {: #steps-lite}

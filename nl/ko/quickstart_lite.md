@@ -4,7 +4,7 @@ copyright:
 
   years: 2018, 2019
 
-lastupdated: "2019-02-19"
+lastupdated: "2019-02-27"
 
 ---
 
@@ -24,7 +24,7 @@ lastupdated: "2019-02-19"
 ## 시작하기 전에
 {: #prereqs-lite}
 
-[{DomainName}]({DomainName})으로 이동하여 Lite 계정을 작성하십시오. 이 계정은 무료이며 만료되지 않습니다.
+[{{site.data.keyword.Bluemix_notm}} 콘솔](https://{DomainName})로 이동하여 Lite 계정을 작성하십시오. 이 계정은 무료이며 만료되지 않습니다.
 
 ## 빠른 시작 단계
 {: #steps-lite}
@@ -41,6 +41,6 @@ lastupdated: "2019-02-19"
 ## 다음 단계
 {: #nextsteps-lite}
 
-[{{site.data.keyword.Bluemix_notm}}의 개발자 과정 탐색](/docs/overview?topic=overview-dev-journey)에서 {{site.data.keyword.Bluemix_notm}}의 개발자가 수행하는 작업을 알아보십시오.  
+[{{site.data.keyword.Bluemix_notm}}의 개발자 과정 탐색](/docs/overview?topic=overview-dev-journey)에서 {{site.data.keyword.Bluemix_notm}}의 개발자가 수행하는 작업을 알아보십시오. 
 
 

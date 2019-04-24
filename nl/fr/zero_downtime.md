@@ -2,7 +2,7 @@
 
 copyright:
   years: 2018, 2019
-lastupdated: "2019-02-07"
+lastupdated: "2019-02-27"
 
 metadata: HA,failover,DR 
 
@@ -58,7 +58,7 @@ La liste suivante présente les exigences du plan de reprise après incident :
 
 Vous pouvez créer des instances d'application et de service dans différents emplacements avec la même infrastructure {{site.data.keyword.cloud_notm}} pour la gestion des applications et la même vue détaillée de l'utilisation pour la facturation. Vous pouvez déployer vos applications à l'emplacement le plus proche de vos clients pour réduire les temps d'attente pour vos applications. 
 
-Pour des raisons de sécurité, vous pouvez également sélectionner l'emplacement de conservation des données d'application. Lorsque vous construisez des applications sous un ou plusieurs emplacements et que l'un d'eux devient indisponible, les applications situées aux autres emplacements continuent de fonctionner. Votre franchise de ressources est la même dans tous les emplacements que vous utilisez. Pour plus d'informations sur les ressources de plateforme et les emplacements où elles sont disponibles, voir [Disponibilité des services](docs/resources?topic=resources-services_region).
+Pour des raisons de sécurité, vous pouvez également sélectionner l'emplacement de conservation des données d'application. Lorsque vous construisez des applications sous un ou plusieurs emplacements et que l'un d'eux devient indisponible, les applications situées aux autres emplacements continuent de fonctionner. Votre franchise de ressources est la même dans tous les emplacements que vous utilisez. Pour plus d'informations sur les ressources de plateforme et les emplacements où elles sont disponibles, voir [Disponibilité des services](/docs/resources?topic=resources-services_region).
 
 L'équilibrage de charge global pour la console {{site.data.keyword.cloud_notm}} garantit que si l'emplacement géographique le plus proche n'est pas disponible, la console affiche les informations de l'emplacement le plus proche suivant. De la sorte, vous pouvez toujours accéder à la console sans avoir à effectuer d'action pour obtenir les ressources dont vous avez besoin.
 
@@ -97,7 +97,7 @@ Un centre de données est l'emplacement physique qui héberge les ressources d'a
 ### Amérique du Nord
 {: #na}
 
-| Nom du centre de données | Code  |
+| Centre de données | Code  |
 |------------------|-------|
 | Dallas 01        | dal01 |
 | Dallas 05        | dal05 |
@@ -124,7 +124,7 @@ Un centre de données est l'emplacement physique qui héberge les ressources d'a
 ### Amérique du Sud
 {: #sa}
 
-| Nom du centre de données | Code    |
+| Centre de données | Code    |
 |------------------|---------|
 | Sao Paulo 01     | sao01   |
 {: caption="Tableau 3. Centre de données en Amérique du Sud" caption-side="top"}
@@ -132,7 +132,7 @@ Un centre de données est l'emplacement physique qui héberge les ressources d'a
 ### Europe
 {: #eu}
 
-| Nom du centre de données | Code  |
+| Centre de données | Code  |
 |------------------|-------|
 | Londres 02        | lon02 |
 | Londres 04        | lon04 |
@@ -151,7 +151,7 @@ Un centre de données est l'emplacement physique qui héberge les ressources d'a
 ### Asie-Pacifique
 {: #ap}
 
-| Nom du centre de données | Code  |
+| Centre de données | Code  |
 |------------------|-------|
 | Tokyo 01         | tok02 | 
 | Tokyo 04         | tok04 |
@@ -230,9 +230,8 @@ Le temps d'indisponibilité n'inclut pas la période de maintenance annoncée ou
 
 Les périodes de niveau de service excluent la durée de rechargement du système d'exploitation ou des applications, ainsi que toute période pendant laquelle les performances sont dégradées. Si {{site.data.keyword.Bluemix_notm}} ne parvient pas à garantir une période de niveau de service définie, vous pouvez bénéficier d'un crédit calculé d'après les frais mensuels du service affecté par la mise à niveau ou le remplacement matériel.
 
-| Type	                    | Description	   |
+| Période de niveau de service  | Pourcentage de crédit |
 |---------------------------|----------------|
-| Période de niveau de service | Pourcentage de crédit |
 | ≤ 2 heures                 | Aucun           |
 | > 2 heures                 | 20 %            |
 | > 6 heures                 | 40 %            |

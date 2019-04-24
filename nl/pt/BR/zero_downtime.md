@@ -2,7 +2,7 @@
 
 copyright:
   years: 2018, 2019
-lastupdated: "2019-02-07"
+lastupdated: "2019-02-27"
 
 metadata: HA,failover,DR 
 
@@ -79,7 +79,7 @@ Para resolver problemas de segurança, também é possível selecionar a localiz
 aplicativo. Ao construir os aplicativos em mais de uma localização, se uma delas se tornar indisponível, os
 aplicativos que estiverem nas outras localizações continuarão a ser executados. A sua permissão de recurso será a mesma
 para cada localização que você usar. Para obter mais informações sobre os recursos da plataforma e as localizações em que estão
-disponíveis, consulte [Disponibilidade de serviço](docs/resources?topic=resources-services_region).
+disponíveis, consulte [Disponibilidade de serviço](/docs/resources?topic=resources-services_region).
 
 O balanceamento de carga global para o console do {{site.data.keyword.cloud_notm}} assegura que, se a localização
 geográfica mais próxima para você estiver indisponível, o console exibirá as informações para a próxima localização mais
@@ -103,7 +103,7 @@ ibmcloud api https://api.eu-gb.cf.cloud.ibm.com
 Um prefixo exclusivo é designado para cada localização. O {{site.data.keyword.cloud_notm}} fornece as
 localizações e os prefixos de localização a seguir.
 
-| **Localização**  | **Endpoint da API**        |
+| **Localização**  | **Terminal de API**        |
 |---------------|-------------------------|
 | Dallas        | api.us-south.cf.cloud.ibm.com  |
 | Frankfurt     | api.eu-de.cf.cloud.ibm.com  |
@@ -134,7 +134,7 @@ implementar os recursos da infraestrutura, é possível selecionar em uma lista 
 ### América do Norte
 {: #na}
 
-| Nome do datacenter | Código  |
+| Datacenter | Código  |
 |------------------|-------|
 | Dallas 01        | dal01 |
 | Dallas 05        | dal05 |
@@ -161,7 +161,7 @@ implementar os recursos da infraestrutura, é possível selecionar em uma lista 
 ### América do Sul
 {: #sa}
 
-| Nome do datacenter | Código    |
+| Datacenter | Código    |
 |------------------|---------|
 | São Paulo 01     | sao01   |
 {: caption="Tabela 3. Data centers na América do Sul" caption-side="top"}
@@ -169,7 +169,7 @@ implementar os recursos da infraestrutura, é possível selecionar em uma lista 
 ### Europa
 {: #eu}
 
-| Nome do datacenter | Código  |
+| Datacenter | Código  |
 |------------------|-------|
 | Londres 02        | lon02 |
 | Londres 04        | lon04 |
@@ -188,7 +188,7 @@ implementar os recursos da infraestrutura, é possível selecionar em uma lista 
 ### Ásia-Pacífico
 {: #ap}
 
-| Nome do datacenter | Código  |
+| Datacenter | Código  |
 |------------------|-------|
 | Tóquio 01         | tok02 | 
 | Tóquio 04         | tok04 |
@@ -290,9 +290,8 @@ operacional ou os aplicativos ou o desempenho de tempo pode ser comprometido. Vo
 no encargo mensal para o serviço que é afetado pela substituição ou upgrade de hardware se o
 {{site.data.keyword.Bluemix_notm}} falhar em atender a um período de tempo de nível de serviço especificado.
 
-| Tipo	                    | Descrição	   |
+| Período de tempo de nível de serviço  | Porcentagem de crédito |
 |---------------------------|----------------|
-| Período de tempo de nível de serviço | Percentual de crédito |
 | ≤ 2 horas                 | Nenhuma           |
 | > 2 horas                 | 20%            |
 | > 6 horas                 | 40%            |

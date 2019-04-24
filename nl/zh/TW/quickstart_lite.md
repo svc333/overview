@@ -4,7 +4,7 @@ copyright:
 
   years: 2018, 2019
 
-lastupdated: "2019-02-19"
+lastupdated: "2019-02-27"
 
 ---
 
@@ -24,7 +24,7 @@ lastupdated: "2019-02-19"
 ## 開始之前
 {: #prereqs-lite}
 
-移至 [{DomainName}]({DomainName})，並建立「精簡」帳戶。這是免費帳戶，而且永不到期。
+移至 [{{site.data.keyword.Bluemix_notm}} 主控台](https://{DomainName})，並且建立「精簡」帳戶。這是免費帳戶，而且永不到期。
 
 ## 快速入門步驟
 {: #steps-lite}

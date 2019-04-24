@@ -2,7 +2,7 @@
 
 copyright:
   years: 2018, 2019
-lastupdated: "2019-02-07"
+lastupdated: "2019-02-27"
 
 metadata: HA,failover,DR 
 
@@ -58,7 +58,7 @@ Die folgende Liste enthält die Anforderungen des Notfallwiederherstellungsplans
 
 Sie können Apps und Serviceinstanzen an unterschiedlichen Standorten mit derselben {{site.data.keyword.cloud_notm}}-Infrastruktur für das Anwendungsmanagement und derselben Ansicht mit Nutzungsdetails zur Gebührenabrechnung erstellen. Sie können Ihre Apps an dem Standort bereitstellen, der Ihren Kunden am nächsten ist, um eine möglichst geringe Latenzzeit zu erzielen. 
 
-Zum Beheben von Sicherheitsproblemen können Sie auch den Standort auswählen, an dem die Anwendungsdaten aufbewahrt werden sollen. Wenn Sie Apps an mehreren Standorten erstellen, werden die Apps an den anderen Standorten weiter ausgeführt, falls ein Standort nicht mehr verfügbar ist. Die verfügbaren Ressourcen sind für jeden verwendeten Standort gleich. Weitere Informationen zu den Plattformressourcen und den Standorten, an denen sie verfügbar sind, finden Sie unter [Serviceverfügbarkeit](docs/resources?topic=resources-services_region).
+Zum Beheben von Sicherheitsproblemen können Sie auch den Standort auswählen, an dem die Anwendungsdaten aufbewahrt werden sollen. Wenn Sie Apps an mehreren Standorten erstellen, werden die Apps an den anderen Standorten weiter ausgeführt, falls ein Standort nicht mehr verfügbar ist. Die verfügbaren Ressourcen sind für jeden verwendeten Standort gleich. Weitere Informationen zu den Plattformressourcen und den Standorten, an denen sie verfügbar sind, finden Sie unter [Serviceverfügbarkeit](/docs/resources?topic=resources-services_region).
 
 Der globale Lastausgleich für die {{site.data.keyword.cloud_notm}}-Konsole stellt sicher, dass bei einer Inaktivität Ihres nächsten geografischen Standorts die Konsole die Informationen für den nächstgelegenen Standort anzeigt. Auf diese Weise verfügen Sie stets über Zugriff auf die Konsole, ohne dass Aktionen erforderlich sind, um auf die benötigten Ressourcen zuzugreifen.
 
@@ -97,7 +97,7 @@ Ein Rechenzentrum ist der physische Standort, an dem die für Services und Apps 
 ### Nordamerika
 {: #na}
 
-| Name des Rechenzentrums | Code  |
+| Rechenzentrum | Code  |
 |------------------|-------|
 | Dallas 01        | dal01 |
 | Dallas 05        | dal05 |
@@ -124,7 +124,7 @@ Ein Rechenzentrum ist der physische Standort, an dem die für Services und Apps 
 ### Südamerika
 {: #sa}
 
-| Name des Rechenzentrums | Code    |
+| Rechenzentrum | Code    |
 |------------------|---------|
 | Sao Paulo 01     | sao01   |
 {: caption="Tabelle 3. Rechenzentren in Südamerika" caption-side="top"}
@@ -132,7 +132,7 @@ Ein Rechenzentrum ist der physische Standort, an dem die für Services und Apps 
 ### Europa
 {: #eu}
 
-| Name des Rechenzentrums | Code  |
+| Rechenzentrum | Code  |
 |------------------|-------|
 | London 02        | lon02 |
 | London 04        | lon04 |
@@ -151,7 +151,7 @@ Ein Rechenzentrum ist der physische Standort, an dem die für Services und Apps 
 ### Asien/Pazifik
 {: #ap}
 
-| Name des Rechenzentrums | Code  |
+| Rechenzentrum | Code  |
 |------------------|-------|
 | Tokio 01         | tok02 | 
 | Tokio 04         | tok04 |
@@ -175,7 +175,7 @@ Wenn Sie eine Reklamation wegen Ausfallzeit einreichen wollen, wenden Sie sich a
 
 {{site.data.keyword.Bluemix_notm}} stellt SLAs für {{site.data.keyword.Bluemix_notm}}-Services zur Verfügung, durch die Sie gegebenenfalls zu Gutschriften auf Ihr Konto berechtigt sind. SLAs stellen die einzige Möglichkeit dar, die Nichteinhaltung eines angegebenen Service-Levels durch {{site.data.keyword.Bluemix_notm}} beizulegen. {{site.data.keyword.Bluemix_notm}} stellt ein Service-Level mit einer Verfügbarkeit von 99,5 % für mehrere Instanzen eines Plattformservice in einer einzelnen dedizierten oder lokalen Umgebung bereit.
 
-Weitere Informationen zu dedizierten Umgebungen finden Sie in [IBM Cloud Dedicated](/docs/hybrid?topic=dedicated-dedicated). In [Bluemix Local](/docs/hybrid?topic=local-local) finden Sie weitere Informationen zu lokalen Umgebungen.  
+Weitere Informationen zu dedizierten Umgebungen finden Sie in [IBM Cloud Dedicated](/docs/hybrid?topic=dedicated-dedicated). In [Bluemix Local](/docs/hybrid?topic=local-local) finden Sie weitere Informationen zu lokalen Umgebungen. 
 
 Die vollständige Servicebeschreibung für {{site.data.keyword.Bluemix_notm}} steht unter [Cloud Services-Bedingungen](http://www-03.ibm.com/software/sla/sladb.nsf/sla/bm){: new_window} ![Symbol für externen Link](../icons/launch-glyph.svg "Symbol für externen Link") zur Verfügung.
 
@@ -230,9 +230,8 @@ Ausfallzeiten umfassen keine Zeit für geplante oder angekündigte Wartungsarbei
 
 Service-Level-Zeiträume schließen jede Zeit aus, die zum erneuten Laden des Betriebssystems oder von Anwendungen erforderlich ist, oder die Zeitleistung verschlechtert ist. Sie haben Anspruch auf eine Gutschrift auf der Grundlage der monatlichen Gebühr für den Service, die von dem Hardwareaustausch oder -upgrade betroffen ist, wenn {{site.data.keyword.Bluemix_notm}} einen bestimmten Service-Level-Zeitraum nicht erfüllt.
 
-| Typ	                    | Beschreibung	   |
+| Service-Level-Zeitraum  | Prozentsatz der Gutschrift |
 |---------------------------|----------------|
-| Service-Level-Zeitraum | Gutschrift in Prozent |
 | ≤ 2 Stunden                 | Keine           |
 | > 2 Stunden                 | 20 %            |
 | > 6 Stunden                 | 40 %            |

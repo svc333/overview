@@ -4,7 +4,7 @@ copyright:
 
   years: 2018, 2019
 
-lastupdated: "2019-02-19"
+lastupdated: "2019-02-27"
 
 ---
 
@@ -24,7 +24,7 @@ Vuoi provare {{site.data.keyword.Bluemix}}? Un account Lite è ottimo per impara
 ## Prima di iniziare
 {: #prereqs-lite}
 
-Vai a [{DomainName}]({DomainName}) e crea un account Lite. È gratuito e non scade mai.
+Vai alla [Console {{site.data.keyword.Bluemix_notm}}](https://{DomainName}) e crea un account Lite. È gratuito e non scade mai.
 
 ## Procedura d'avvio rapida
 {: #steps-lite}
