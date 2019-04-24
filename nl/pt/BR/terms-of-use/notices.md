@@ -183,6 +183,16 @@ Cada cópia ou parte desses programas de amostra ou qualquer trabalho derivado d
   © Copyright
 IBM Corp. 2015.
 
+SANÇÕES E EMBARGOS
+
+Os Estados Unidos proíbem a maioria das transações comerciais e outras negociações com alguns países por razões de política externa e segurança nacional. Essas proibições (formalmente conhecidas como sanções comerciais e econômicas ou embargos abrangentes) visam atualmente: Irã, Cuba, Coreia do Norte e Síria. 
+
+O IBM Cloud implementa um bloqueio de comunicações que abrange toda a rede a endereços IP que se originam de países sujeitos a essas sanções comerciais e econômicas. Esta política afeta todos os locais e ambientes de data center do IBM Cloud e bloqueia o acesso pelos endereços IP registrados em países sujeitos a sanções comerciais e econômicas dos EUA.
+
+Para identificar os endereços IP associados aos países embargados pelos EUA, o IBM Cloud referencia o Banco de Dados Geo IP2 mantido por [MaxMind ![Ícone de link externo](../../icons/launch-glyph.svg)](http://www.maxmind.com){: new_window}). O IBM Cloud atualiza seu mapeamento de endereços IP de países trimestralmente.
+
+Nota: essa restrição não se aplica ao conteúdo que não é proibido por sanções e embargos dos EUA. Envie um e-mail para exemptions@softlayer.com se acreditar que seu conteúdo não é proibido pelas sanções comerciais e econômicas dos EUA. 
+
 ## Marcas registradas
 {: #trademarks}
 
