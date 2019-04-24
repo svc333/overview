@@ -4,7 +4,7 @@ copyright:
 
   years: 2015, 2019
 
-lastupdated: "2019-03-13"
+lastupdated: "2019-04-05"
 
 keywords: release notes, what's new, what is new, cloud updates
 
@@ -29,6 +29,11 @@ Fique atualizado com os novos recursos que estão disponíveis na plataforma do 
 Novo a partir de: 4 de abril de 2019 
 
 Os usuários agora podem utilizar nossos recursos de identificação mais recentes para gerenciar recursos, uso e custos no relatório de uso exportado. Quando você inclui uma tag em um recurso, agora você tem a opção de visualizar a tag associada ao recurso. Acesse **Gerenciar**> **Faturamento e uso**> **Uso**> **Exportar CSV**> **Instâncias** para fazer download do relatório de uso. Para obter mais informações sobre tags de exportação, confira a postagem do blog [Exportar tags dentro de seus dados de uso para ajudar com a alocação de custo](https://www.ibm.com/blogs/bluemix/2019/04/export-your-tagged-usage-data-within-the-enhanced-ibm-cloud/).
+
+### Grupo de acesso para ativar o acesso público aos recursos
+Novo a partir de: 25 de março de 2019
+
+Agora é possível ativar o acesso público a objetos em seus depósitos do {{site.data.keyword.cos_full}} usando um novo grupo de acesso fornecido em sua conta. Esse novo grupo de acesso é chamado de grupo de `Acesso público` e todos os usuários e IDs de serviço são incluídos nele por padrão. É possível atualizar as políticas para o grupo de acesso para permitir que todos os usuários, mesmo os usuários não autenticados, acessem o recurso que você especifica na política. [Saiba mais sobre o grupo de acesso público](/docs/iam?topic=iam-public#public).
 
 ### Autenticação de diversos fatores para usuários com identidades federadas
 Novo desde: 12 de março de 2019

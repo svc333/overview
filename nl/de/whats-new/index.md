@@ -4,7 +4,7 @@ copyright:
 
   years: 2015, 2019
 
-lastupdated: "2019-03-13"
+lastupdated: "2019-04-05"
 
 keywords: release notes, what's new, what is new, cloud updates
 
@@ -29,6 +29,11 @@ Wenn Sie hinsichtlich neuer Features, die auf der {{site.data.keyword.Bluemix}}-
 Datum der Neuerung: 4. April 2019 
 
 Benutzer können jetzt unsere neueste Tagging-Funktionalität verwenden, um Ressourcen, Nutzung und Kosten im exportierten Nutzungsbericht zu verwalten. Wenn Sie einer Ressource ein Tag hinzufügen, können Sie das Tag jetzt anzeigen, das der Ressource zugeordnet wurde. Rufen Sie **Verwalten**> **Abrechnung und Nutzung**> **Nutzung**> **CSV exportieren**>  **Instanzen** auf, um Ihren Nutzungsbericht herunterzuladen. Weitere Informationen zum Exportieren von Tags finden Sie im Blogbeitrag [Export tags within your usage data to help with cost allocation](https://www.ibm.com/blogs/bluemix/2019/04/export-your-tagged-usage-data-within-the-enhanced-ibm-cloud/).
+
+### Zugriffsgruppe für die Aktivierung des öffentlichen Zugriffs auf Ressourcen
+Datum der Neuerung: 25. März 2019
+
+Sie können jetzt den öffentlichen Zugriff auf Objekte aktivieren, die sich in Ihren {{site.data.keyword.cos_full}}-Buckets befinden, indem Sie eine neue Zugriffsgruppe verwenden, die in Ihrem Konto für Sie bereitgestellt wird. Diese neue Zugriffsgruppe wird als Gruppe `Öffentlicher Zugriff` bezeichnet und alle Benutzer und Service-IDs werden dieser Gruppe standardmäßig hinzugefügt. Sie können die Richtlinien für die Zugriffsgruppe aktualisieren, um allen – auch nicht authentifizierten – Benutzern den Zugriff auf die Ressource zu ermöglichen, die Sie in der Richtlinie angeben. [Weitere Informationen zur Gruppe 'Öffentlicher Zugriff'](/docs/iam?topic=iam-public#public).
 
 ### Mehrfaktorauthentifizierung für Benutzer mit föderierten IDs
 Datum der Neuerung: 12. März 2019

@@ -2,7 +2,7 @@
 
 copyright:
   years: 2018, 2019
-lastupdated: "2019-04-02"
+lastupdated: "2019-04-09"
 
 keywords: cloud environment, virtual server, virtual machine, vm, understanding infrastructure, IaaS model
 
@@ -96,18 +96,18 @@ SaaS 모델에서는 제공자가 실제 애플리케이션을 통해 시스템�
 
 |옵션 |설명 | 
 |--------|---------------|
-| [{{site.data.keyword.baremetal_short}}](/docs/bare-metal?topic=bare-metal-getting-started)  |사용자 전용이며 서버 리소스를 포함한 모든 파트에서 다른 고객과 공유되지 않는 시간별 또는 월별 싱글 테넌트 서버입니다. |
+| [{{site.data.keyword.baremetal_short}}](/docs/bare-metal?topic=bare-metal-about-bm#about-bm)  |사용자 전용이며 서버 리소스를 포함한 모든 파트에서 다른 고객과 공유되지 않는 시간별 또는 월별 싱글 테넌트 서버입니다. |
 | [{{site.data.keyword.BluVirtServers_short}}](/docs/vsi?topic=virtual-servers-about-public-virtual-servers#public-virtual-servers) |전용 코어와 메모리 할당을 포함하여 구매하는 확장 가능한 서버입니다. |
 | [{{site.data.keyword.vmwaresolutions_short}}](/docs/services/vmwaresolutions?topic=vmware-solutions-getting-started#getting-started) |확장 가능하고 안전한 고성능 인프라 및 업계 최고의 VMware 하이브리드 가상화 기술을 사용하여 온프레미스 VMware 워크로드를 빠르고 원활하게 통합하거나 마이그레이션합니다. |
 | [{{site.data.keyword.containerlong_notm}}](/docs/containers?topic=containers-container_index) |Docker 컨테이너, Kubernetes 기술, 직관적인 사용자 경험, 기본 제공 보안 및 격리를 결합하여 컴퓨팅 호스트의 클러스터에서 컨테이너화된 앱의 배치, 오퍼레이션, 스케일링 및 모니터링을 자동화합니다. |
 | [{{site.data.keyword.cfee_full_notm}}](/docs/cloud-foundry?topic=cloud-foundry-about) |격리된 여러 엔터프라이즈급 Cloud Foundry 플랫폼을 요청 시 인스턴스화합니다. |
-| [{{site.data.keyword.openwhisk_short}}](/docs/openwhisk?topic=cloud-functions-index) |Apache OpenWhisk 기반의 FaaS(Function-as-a-Service) 프로그래밍 플랫폼입니다. |
+| [{{site.data.keyword.openwhisk_short}}](/docs/openwhisk?topic=cloud-functions-getting_started#getting_started) |Apache OpenWhisk 기반의 FaaS(Function-as-a-Service) 프로그래밍 플랫폼입니다. |
 {: caption="표 1. 컴퓨팅 옵션" caption-side="top"}
    
 ### 스토리지
 {: #storage}
 
-{{site.data.keyword.baremetal_short}} 및 {{site.data.keyword.BluVirtServers_short}}는 기본 스토리지로 프로비저닝됩니다. {{site.data.keyword.baremetal_short}}에는 최소 1TB SATA 디스크 공간이 있으며 {{site.data.keyword.BluVirtServers_short}}에는 최소 25GB SAN 스토리지가 있습니다. 이에 대한 예외는 {{site.data.keyword.cloud_notm}} SAP-Certified {{site.data.keyword.baremetal_short}}입니다. 이러한 서버에 사용 가능한 기본 스토리지에 대한 자세한 정보는 [{{site.data.keyword.cloud_notm}} SAP-Certified Infrastructure](/docs/bare-metal?topic=bare-metal-ibm-cloud-sap-certified-infrastructure)를 참조하십시오.
+{{site.data.keyword.baremetal_short}} 및 {{site.data.keyword.BluVirtServers_short}}는 기본 스토리지로 프로비저닝됩니다. {{site.data.keyword.baremetal_short}}에는 최소 1TB SATA 디스크 공간이 있으며 {{site.data.keyword.BluVirtServers_short}}에는 최소 25GB SAN 스토리지가 있습니다. 이에 대한 예외는 {{site.data.keyword.cloud_notm}} SAP-Certified {{site.data.keyword.baremetal_short}}입니다. 이러한 서버에 사용 가능한 기본 스토리지에 대한 자세한 정보는 [{{site.data.keyword.cloud_notm}} SAP-Certified Infrastructure](/docs/bare-metal?topic=bare-metal-sap-cert-infrastructure#sap-cert-infrastructure)를 참조하십시오.
 
 필요에 따라 추가 스토리지를 구매할 수 있습니다. 컴퓨팅 옵션에 대한 요약은 다음 표를 참조하십시오.
 
@@ -115,8 +115,8 @@ SaaS 모델에서는 제공자가 실제 애플리케이션을 통해 시스템�
 |--------|---------------|
 | [{{site.data.keyword.blockstorageshort}}](/docs/infrastructure/BlockStorage/index.html) |컴퓨팅 인스턴스와 독립적으로 프로비저닝되고 관리되는 지속적인 고성능 iSCSI 스토리지입니다. iSCSI 기반 Block Storage LUN은 중복된 다중 경로 I/O(MPIO) 연결을 통해 권한이 부여된 디바이스에 연결됩니다. |
 | [{{site.data.keyword.filestorage_short}}](/docs/infrastructure/FileStorage/index.html) |네트워크에 연결된 NFS 기반의 빠르고 지속적인 유연한 File Storage입니다. 이 NAS(Network-Attached Storage) 환경에서 파일 공유 기능 및 성능을 완전히 통제할 수 있습니다. File Storage 공유는 복원성을 위해 라우트된 TCP/IP 연결을 통해 최대 64개의 권한 부여된 디바이스에 연결될 수 있습니다. |
-| [{{site.data.keyword.cos_full_notm}}](/docs/services/cloud-object-storage?topic=cloud-object-storage-getting-started-console-) |IBM Cloud Object Storage로 저장된 정보는 암호화되어 여러 지리적 위치에 분산되어 있으며 REST API를 사용하여 HTTP를 통해 액세스됩니다. 이 서비스는 IBM Cloud Object Storage System(이전의 Cleversafe)에서 제공하는 분산 스토리지 기술을 활용합니다. |
-| [{{site.data.keyword.cloud_notm}} Mass Data Migration](/docs/infrastructure/mass-data-migration/index.html) |온프레미스 데이터 센터의 대용량 데이터를 Cloud Object Storage 버킷으로 오프로드합니다. |
+| [{{site.data.keyword.cos_full_notm}}](/docs/services/cloud-object-storage?topic=cloud-object-storage-about-ibm-cloud-object-storage#about-ibm-cloud-object-storage) |IBM Cloud Object Storage로 저장된 정보는 암호화되어 여러 지리적 위치에 분산되어 있으며 REST API를 사용하여 HTTP를 통해 액세스됩니다. 이 서비스는 IBM Cloud Object Storage System(이전의 Cleversafe)에서 제공하는 분산 스토리지 기술을 활용합니다. |
+| [{{site.data.keyword.cloud_notm}} Master Data Management](/docs/services/MDMOnCloud?topic=MDMOnCloud-mdmoc_getting_started#mdmoc_getting_started) |온프레미스 데이터 센터의 대용량 데이터를 Cloud Object Storage 버킷으로 오프로드합니다. |
 | [{{site.data.keyword.backup_full}}](/docs/infrastructure/Backup/index.html) |브라우저 기반 관리 유틸리티를 통해 관리되는 자동화된 에이전트 기반 백업 시스템입니다. IBM Cloud 네트워크에 속한 하나 이상의 데이터 센터에 있는 서버 간에 데이터를 백업할 수 있습니다. |
 {: caption="표 2. 스토리지 옵션" caption-side="top"}
 
@@ -135,11 +135,11 @@ SaaS 모델에서는 제공자가 실제 애플리케이션을 통해 시스템�
 |--------|---------------|
 |[Content Delivery Network](/docs/infrastructure/CDN?topic=CDN-getting-started) |비즈니스의 요구사항을 충족하기 위해 미디어, 엔터테인먼트, 소프트웨어, 게임, 뱅킹, e-commerce를 포함한 다양한 업계 솔루션에 사용됩니다. |
 |[Domain Name Service](/docs/cli/reference/ibmcloud?topic=cloud-cli-ibm-dev-tools-for-jetbrains) |기본 DNS 관리 인터페이스를 통해 고객의 도메인을 보고 관리할 수 있는 중앙 위치를 제공하며 동일한 위치에서 무료로 역방향 및 보조 DNS를 관리할 수 있는 옵션도 제공합니다. |
-|[글로벌 IP 주소](/docs/infrastructure/subnets?topic=subnets-getting-started-with-subnets-and-ips) |유연성을 제공하고 지리적으로 서로 다른 데이터 센터에서도 서버 간에 워크로드를 이동할 수 있도록 합니다. |
+|[글로벌 IP 주소](/docs/infrastructure/subnets?topic=subnets-about-global-ip-address#about-global-ip-address) |유연성을 제공하고 지리적으로 서로 다른 데이터 센터에서도 서버 간에 워크로드를 이동할 수 있도록 합니다. |
 |[로드 밸런싱](/docs/infrastructure/loadbalancer-service?topic=loadbalancer-service-getting-started-with-ibm-cloud-load-balancer) |단일 디바이스가 전체 로드를 수행하지 않도록 데이터 센터 내의 여러 서버 간에 처리 및 통신을 균등하게 분산시킵니다. |
 |[가상 라우터 어플라이언스](/docs/infrastructure/virtual-router-appliance/getting-started.html) |방화벽, 트래픽 형성, 정책 기반 라우팅, VPN이 있는 모든 기능을 갖춘 엔터프라이즈 라우터와 기타 기능의 호스트를 통해 사설 및 공용 네트워크 트래픽을 선별적으로 라우팅합니다. |
-|[IPSec VPN](/docs/infrastructure/iaas-vpn?topic=VPN-set-up-ipsec-vpn) |암호화된 사이트 간 네트워크를 제공하는 터널 모드를 사용하여 두 위치 간의 모든 IP 트래픽을 인증하고 암호화하도록 디자인된 프로토콜 스위트입니다. |
-|{{site.data.keyword.cloud_notm}} Direct Link |Cloud Exchange 제공자를 활용하여 {{site.data.keyword.cloud_notm}} 인프라 위치에 연결합니다. |
+|[IPSec VPN](/docs/infrastructure/iaas-vpn?topic=VPN-setup-ipsec-vpn#setup-ipsec-vpn) |암호화된 사이트 간 네트워크를 제공하는 터널 모드를 사용하여 두 위치 간의 모든 IP 트래픽을 인증하고 암호화하도록 디자인된 프로토콜 스위트입니다. |
+| [{{site.data.keyword.cloud_notm}} Direct Link](/docs/infrastructure/direct-link?topic=direct-link-get-started-with-ibm-cloud-direct-link#get-started-with-ibm-cloud-direct-link) |Cloud Exchange 제공자를 활용하여 {{site.data.keyword.cloud_notm}} 인프라 위치에 연결합니다. |
 {: caption="표 3. 네트워킹 옵션" caption-side="top"}
 
 

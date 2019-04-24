@@ -4,7 +4,7 @@ copyright:
 
   years: 2015, 2019
 
-lastupdated: "2019-03-13"
+lastupdated: "2019-04-05"
 
 keywords: release notes, what's new, what is new, cloud updates
 
@@ -29,6 +29,11 @@ Consulte información actualizada sobre las nuevas características disponibles 
 Novedad desde: 4 de abril de 2019 
 
 Los usuarios ahora pueden utilizar nuestras más recientes funciones de etiquetado para gestionar los recursos, el uso y los costes en el informe de uso exportado. Cuando añade una etiqueta a un recurso, ahora tiene la opción de visualizar la etiqueta asociada al recurso. Vaya a **Gestionar**> **Facturación y uso**> **Uso**> **Exportar CSV**>  **Instancias** para descargar su informe de uso. Para obtener más información sobre la exportación de etiquetas, consulte la publicación de blog [Exportación de etiquetas en sus datos de uso para facilitar la asignación de costes](https://www.ibm.com/blogs/bluemix/2019/04/export-your-tagged-usage-data-within-the-enhanced-ibm-cloud/).
+
+### Grupo de acceso para habilitar el acceso público a los recursos
+Novedad desde: 25 de marzo de 2019
+
+Ahora puede habilitar el acceso público a objetos de grupos de {{site.data.keyword.cos_full}} mediante un nuevo grupo de acceso que se suministra automáticamente en su cuenta. Este nuevo grupo de acceso se denomina grupo `Acceso público` y de forma predeterminada se añaden al mismo todos los usuarios e ID de servicio. Puede actualizar las políticas para este grupo de acceso para habilitar el acceso de todos los usuarios, incluso los no autenticados, a los recursos que especifique en la política. [Más información sobre el grupo de acceso público](/docs/iam?topic=iam-public#public).
 
 ### Autenticación de multifactores para usuarios con ID federados
 Novedad desde: 12 de marzo de 2019

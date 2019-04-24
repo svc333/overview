@@ -2,7 +2,7 @@
 
 copyright:
   years: 2018, 2019
-lastupdated: "2019-04-02"
+lastupdated: "2019-04-09"
 
 keywords: cloud environment, virtual server, virtual machine, vm, understanding infrastructure, IaaS model
 
@@ -96,18 +96,18 @@ Ihr Server ist die Basis Ihrer Infrastruktur. Je nach Ihren Anforderungen stehen
 
 | Option | Beschreibung | 
 |--------|---------------|
-| [{{site.data.keyword.baremetal_short}}](/docs/bare-metal?topic=bare-metal-getting-started)  | Stündliche oder monatliche Berechnung von Servern mit einem einzigen Tenant, die Ihnen zugeordnet sind und in keiner Hinsicht (einschließlich Serverressourcen) gemeinsam mit anderen Kunden genutzt werden. |
+| [{{site.data.keyword.baremetal_short}}](/docs/bare-metal?topic=bare-metal-about-bm#about-bm)  | Stündliche oder monatliche Berechnung von Servern mit einem einzigen Tenant, die Ihnen zugeordnet sind und in keiner Hinsicht (einschließlich Serverressourcen) gemeinsam mit anderen Kunden genutzt werden. |
 | [{{site.data.keyword.BluVirtServers_short}}](/docs/vsi?topic=virtual-servers-about-public-virtual-servers#public-virtual-servers) | Skalierbare virtuelle Server, die mit dedizierten Cores und Hauptspeicherzuordnungen gekauft werden. |
 | [{{site.data.keyword.vmwaresolutions_short}}](/docs/services/vmwaresolutions?topic=vmware-solutions-getting-started#getting-started) | Ermöglicht die rasche und nahtlose Integration oder Migration von lokalen VMware-Workloads mithilfe einer skalierbaren, sicheren und leistungsstarken Infrastruktur und der branchenweit führenden Technologie für Hybridvirtualisierung von VMware. |
 | [{{site.data.keyword.containerlong_notm}}](/docs/containers?topic=containers-container_index) | Kombiniert Docker-Container, die Kubernetes-Technologie, ein intuitives Benutzererlebnis sowie integrierte Sicherheit und Isolation, um die Bereitstellung, den Betrieb, die Skalierung und die Überwachung containerisierter Apps in einem Cluster von Rechenhosts zu automatisieren. |
 | [{{site.data.keyword.cfee_full_notm}}](/docs/cloud-foundry?topic=cloud-foundry-about) | Ermöglicht die bedarfsgesteuerte Instanziierung mehrerer isolierter, auf Unternehmen abgestimmter Cloud Foundry-Plattformen. |
-| [{{site.data.keyword.openwhisk_short}}](/docs/openwhisk?topic=cloud-functions-index) | Eine 'Functions-as-a-Service'-Programmierungsplattform (FaaS), die auf Apache OpenWhisk basiert. |
+| [{{site.data.keyword.openwhisk_short}}](/docs/openwhisk?topic=cloud-functions-getting_started#getting_started) | Eine 'Functions-as-a-Service'-Programmierungsplattform (FaaS), die auf Apache OpenWhisk basiert. |
 {: caption="Tabelle 1. Berechnungsoptionen" caption-side="top"}
    
 ### Speicher
 {: #storage}
 
-{{site.data.keyword.baremetal_short}} und {{site.data.keyword.BluVirtServers_short}} werden mit Standardspeicher bereitgestellt. {{site.data.keyword.baremetal_short}} verfügen über mindestens 1 TB SATA-Speicher und {{site.data.keyword.BluVirtServers_short}} über mindestens 25 GB SAN-Speicher. Eine Ausnahme hiervon bilden die von SAP zertifizierten {{site.data.keyword.baremetal_short}} für {{site.data.keyword.cloud_notm}}. Weitere Informationen zu dem mit diesen Servern verfügbaren Standardspeicher enthält [Von SAP zertifizierte {{site.data.keyword.cloud_notm}}-Infrastruktur](/docs/bare-metal?topic=bare-metal-ibm-cloud-sap-certified-infrastructure).
+{{site.data.keyword.baremetal_short}} und {{site.data.keyword.BluVirtServers_short}} werden mit Standardspeicher bereitgestellt. {{site.data.keyword.baremetal_short}} verfügen über mindestens 1 TB SATA-Speicher und {{site.data.keyword.BluVirtServers_short}} über mindestens 25 GB SAN-Speicher. Eine Ausnahme hiervon bilden die von SAP zertifizierten {{site.data.keyword.baremetal_short}} für {{site.data.keyword.cloud_notm}}. Weitere Informationen zu dem mit diesen Servern verfügbaren Standardspeicher finden Sie in [Von SAP zertifizierte {{site.data.keyword.cloud_notm}}-Infrastruktur](/docs/bare-metal?topic=bare-metal-sap-cert-infrastructure#sap-cert-infrastructure).
 
 Je nach Ihren Bedürfnissen können Sie zusätzlichen Speicher erwerben. Die folgende Tabelle enthält eine Zusammenfassung Ihrer Berechnungsoptionen.
 
@@ -115,8 +115,8 @@ Je nach Ihren Bedürfnissen können Sie zusätzlichen Speicher erwerben. Die fol
 |--------|---------------|
 | [{{site.data.keyword.blockstorageshort}}](/docs/infrastructure/BlockStorage/index.html) | Persistenter iSCSI-Speicher mit hoher Leistung, der unabhängig von Recheninstanzen bereitgestellt und verwaltet wird. iSCSI-basierte LUNs sind über redundante MPIO-Verbindungen (MPIO - Multipath I/O) mit autorisierten Geräten verbunden. |
 | [{{site.data.keyword.filestorage_short}}](/docs/infrastructure/FileStorage/index.html) | Persistenter, schneller und flexibler NFS-basierter NAS-Dateispeicher. In dieser NAS-Umgebung (NAS - Network-Attached Storage) verfügen Sie über die vollständige Kontrolle über die Dateifreigabefunktion und die Leistung. Dateispeicherfreigaben können über TCP/IP-Routingverbindungen für bis zu 64 berechtigte Geräte verfügbar gemacht werden, um die Ausfallsicherheit sicherzustellen. |
-| [{{site.data.keyword.cos_full_notm}}](/docs/services/cloud-object-storage?topic=cloud-object-storage-getting-started-console-) | Mit IBM Cloud Object Storage gespeicherte Informationen werden verschlüsselt und über mehrere geografische Standorte verteilt. Der Zugriff erfolgt mithilfe einer REST-API über HTTP. Dieser Service verwendet die verteilten Speichertechnologien, die von IBM Cloud Object Storage System (ehemals Cleversafe) bereitgestellt werden. |
-| Massendatenmigration mit [{{site.data.keyword.cloud_notm}}](/docs/infrastructure/mass-data-migration/index.html) | Lagern Sie große Datenmengen vom Ihrem lokalen Rechenzentrum in den Cloud Object Storage-Bucket aus. |
+| [{{site.data.keyword.cos_full_notm}}](/docs/services/cloud-object-storage?topic=cloud-object-storage-about-ibm-cloud-object-storage#about-ibm-cloud-object-storage) | Mit IBM Cloud Object Storage gespeicherte Informationen werden verschlüsselt und über mehrere geografische Standorte verteilt. Der Zugriff erfolgt mithilfe einer REST-API über HTTP. Dieser Service verwendet die verteilten Speichertechnologien, die von IBM Cloud Object Storage System (ehemals Cleversafe) bereitgestellt werden. |
+| [{{site.data.keyword.cloud_notm}} Master Data Management](/docs/services/MDMOnCloud?topic=MDMOnCloud-mdmoc_getting_started#mdmoc_getting_started) | Lagern Sie große Datenmengen vom Ihrem lokalen Rechenzentrum in den Cloud Object Storage-Bucket aus. |
 | [{{site.data.keyword.backup_full}}](/docs/infrastructure/Backup/index.html) | Ein automatisiertes agentenbasiertes Sicherungssystem, das über ein browserbasierte Verwaltungsdienstprogramm verwaltet wird. Sie können Daten auf Servern in einem oder mehreren Rechenzentren im IBM Cloud-Netz sichern. |
 {: caption="Tabelle 2. Speicheroptionen" caption-side="top"}
 
@@ -135,11 +135,11 @@ Die folgende Tabelle enthält eine Zusammenfassung Ihrer Vernetzungsoptionen.
 |--------|---------------|
 | [Content Delivery Network (CDN)](/docs/infrastructure/CDN?topic=CDN-getting-started) | Wird für unterschiedliche Branchenlösungen einschließlich Medien, Unterhaltung, Software, Gaming, Bankwesen und E-Commerce verwendet, um den Anforderungen Ihres Unternehmens gerecht zu werden. |
 | [Domain Name Service (DNS)](/docs/cli/reference/ibmcloud?topic=cloud-cli-ibm-dev-tools-for-jetbrains) | Bietet einen zentralen Ausgangspunkt zur Anzeige und Verwaltung Ihrer Domänen über die DNS-Basismanagementschnittstelle sowie die Option, Reverse DNS und Secondary DNS über denselben Ausgangspunkt kostenfrei zu verwalten. |
-| [Globale IP-Adressen](/docs/infrastructure/subnets?topic=subnets-getting-started-with-subnets-and-ips) | Bieten Flexibilität und ermöglichen Ihnen die Verlagerung von Workloads zwischen Servern, auch in geografisch getrennten Rechenzentren. |
+| [Globale IP-Adressen](/docs/infrastructure/subnets?topic=subnets-about-global-ip-address#about-global-ip-address) | Bieten Flexibilität und ermöglichen Ihnen die Verlagerung von Workloads zwischen Servern, auch in geografisch getrennten Rechenzentren. |
 | [Lastausgleich](/docs/infrastructure/loadbalancer-service?topic=loadbalancer-service-getting-started-with-ibm-cloud-load-balancer) | Verteilt die Verarbeitung und Kommunikation gleichmäßig auf mehrere Server innerhalb eines Rechenzentrums, sodass nicht die gesamte Arbeitslast auf einem einzelnen Gerät ruht. |
 | [Virtual Router Appliance](/docs/infrastructure/virtual-router-appliance/getting-started.html) | Leitet den privaten und öffentlichen Netzwerkverkehr über einen voll ausgestatteten Unternehmensrouter mit Firewall, Regulierung des Datenverkehrs (Traffic-Shaping), richtlinienbasiertem Routing, VPN und zahlreichen anderen Funktionen selektiv weiter. |
-| [IPSec-VPN](/docs/infrastructure/iaas-vpn?topic=VPN-set-up-ipsec-vpn) | Eine Suite von Protokollen zur Authentifizierung und Verschlüsselung des gesamten IP-Datenverkehrs zwischen zwei Standorten. Dabei wird ein Tunnelmodus verwendet, der ein verschlüsseltes Site-to-Site-Netz bereitstellt. |
-| {{site.data.keyword.cloud_notm}} Direct Link | Nutzt einen Cloud Exchange-Anbieter, um Konnektivität an Standorten der {{site.data.keyword.cloud_notm}}-Infrastruktur bereitzustellen. |
+| [IPSec-VPN](/docs/infrastructure/iaas-vpn?topic=VPN-setup-ipsec-vpn#setup-ipsec-vpn) | Eine Suite von Protokollen zur Authentifizierung und Verschlüsselung des gesamten IP-Datenverkehrs zwischen zwei Standorten. Dabei wird ein Tunnelmodus verwendet, der ein verschlüsseltes Site-to-Site-Netz bereitstellt. |
+| [{{site.data.keyword.cloud_notm}} Direct Link](/docs/infrastructure/direct-link?topic=direct-link-get-started-with-ibm-cloud-direct-link#get-started-with-ibm-cloud-direct-link) | Nutzt einen Cloud Exchange-Anbieter, um Konnektivität an Standorten der {{site.data.keyword.cloud_notm}}-Infrastruktur bereitzustellen. |
 {: caption="Tabelle 3. Vernetzungsoptionen" caption-side="top"}
 
 

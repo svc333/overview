@@ -2,7 +2,7 @@
 
 copyright:
   years: 2018, 2019
-lastupdated: "2019-04-02"
+lastupdated: "2019-04-09"
 
 keywords: cloud environment, virtual server, virtual machine, vm, understanding infrastructure, IaaS model
 
@@ -96,18 +96,18 @@ subcollection: overview
 
 | 選項 |說明| 
 |--------|---------------|
-| [{{site.data.keyword.baremetal_short}}](/docs/bare-metal?topic=bare-metal-getting-started)  |每小時或每月，您專用的單一承租戶伺服器，任何部分都不與其他客戶共用（包括伺服器資源）。|
+| [{{site.data.keyword.baremetal_short}}](/docs/bare-metal?topic=bare-metal-about-bm#about-bm)  |每小時或每月，您專用的單一承租戶伺服器，任何部分都不與其他客戶共用（包括伺服器資源）。|
 | [{{site.data.keyword.BluVirtServers_short}}](/docs/vsi?topic=virtual-servers-about-public-virtual-servers#public-virtual-servers) |購買時搭配專用核心及記憶體配置的可擴充虛擬伺服器。|
 | [{{site.data.keyword.vmwaresolutions_short}}](/docs/services/vmwaresolutions?topic=vmware-solutions-getting-started#getting-started) |使用可擴充、安全且高效能的基礎架構，以及領先業界的 VMware 混合式虛擬化技術，快速而平順地整合或移轉內部部署的 VMware 工作負載。|
 | [{{site.data.keyword.containerlong_notm}}](/docs/containers?topic=containers-container_index) |結合 Docker 容器、Kubernetes 技術、直覺式使用者體驗及內建安全和隔離，在運算主機的叢集裡，自動部署、操作、調整及監視容器化應用程式。|
 | [{{site.data.keyword.cfee_full_notm}}](/docs/cloud-foundry?topic=cloud-foundry-about) |隨需應變，將多個隔離的企業級 Cloud Foundry 平台實例化。|
-| [{{site.data.keyword.openwhisk_short}}](/docs/openwhisk?topic=cloud-functions-index) |以 Apache OpenWhisk 為基礎的「函數即服務 (FaaS)」程式設計平台。|
+| [{{site.data.keyword.openwhisk_short}}](/docs/openwhisk?topic=cloud-functions-getting_started#getting_started) |以 Apache OpenWhisk 為基礎的「函數即服務 (FaaS)」程式設計平台。|
 {: caption="表 1. 運算選項" caption-side="top"}
    
 ### 儲存空間
 {: #storage}
 
-{{site.data.keyword.baremetal_short}} 和 {{site.data.keyword.BluVirtServers_short}} 佈建時具有預設儲存空間。{{site.data.keyword.baremetal_short}} 至少具有 1 TB SATA 磁碟空間，而 {{site.data.keyword.BluVirtServers_short}} 最少具有 25 GB SAN 儲存空間。{{site.data.keyword.cloud_notm}} SAP 認證的 {{site.data.keyword.baremetal_short}} 例外。如需這些伺服器可用之預設儲存空間的相關資訊，請參閱 [{{site.data.keyword.cloud_notm}} SAP 認證的基礎架構](/docs/bare-metal?topic=bare-metal-ibm-cloud-sap-certified-infrastructure)。
+{{site.data.keyword.baremetal_short}} 和 {{site.data.keyword.BluVirtServers_short}} 佈建時具有預設儲存空間。{{site.data.keyword.baremetal_short}} 至少具有 1 TB SATA 磁碟空間，而 {{site.data.keyword.BluVirtServers_short}} 最少具有 25 GB SAN 儲存空間。{{site.data.keyword.cloud_notm}} SAP 認證的 {{site.data.keyword.baremetal_short}} 例外。如需這些伺服器可用之預設儲存空間的相關資訊，請參閱 [{{site.data.keyword.cloud_notm}} SAP 認證的基礎架構](/docs/bare-metal?topic=bare-metal-sap-cert-infrastructure#sap-cert-infrastructure)。
 
 您可以根據需要來購買額外的儲存空間。如需運算選項的摘要，請參閱下表。
 
@@ -115,8 +115,8 @@ subcollection: overview
 |--------|---------------|
 | [{{site.data.keyword.blockstorageshort}}](/docs/infrastructure/BlockStorage/index.html) |獨立於運算實例之外所佈建及管理的持續性、高效能 iSCSI 儲存空間。以 iSCSI 為基礎的 Block Storage LUN 會透過備援多路徑 I/O (MPIO) 連線連接至已授權的裝置。|
 | [{{site.data.keyword.filestorage_short}}](/docs/infrastructure/FileStorage/index.html) |持續性、快速、靈活且透過網路連接的 NFS 型 File Storage。在這個網路連接儲存空間 (NAS) 環境中，您可以完全控制檔案共用功能及效能。File Storage 共用透過遞送的 TCP/IP 連線，最多可連接至 64 部授權裝置，而達到備援性。|
-| [{{site.data.keyword.cos_full_notm}}](/docs/services/cloud-object-storage?topic=cloud-object-storage-getting-started-console-) |透過 IBM Cloud Object Storage 儲存的資訊會加密並分散在多個地理位置，並且使用 REST API 透過 HTTP 進行存取。本服務使用 IBM Cloud Object Storage System（舊稱 Cleversafe）所提供的分散式儲存技術。|
-| [{{site.data.keyword.cloud_notm}} Mass Data Migration](/docs/infrastructure/mass-data-migration/index.html) |將內部部署資料中心的大量資料卸載至 Cloud Object Storage 儲存區。|
+| [{{site.data.keyword.cos_full_notm}}](/docs/services/cloud-object-storage?topic=cloud-object-storage-about-ibm-cloud-object-storage#about-ibm-cloud-object-storage) |透過 IBM Cloud Object Storage 儲存的資訊會加密並分散在多個地理位置，並且使用 REST API 透過 HTTP 進行存取。本服務使用 IBM Cloud Object Storage System（舊稱 Cleversafe）所提供的分散式儲存技術。|
+| [{{site.data.keyword.cloud_notm}} Master Data Management](/docs/services/MDMOnCloud?topic=MDMOnCloud-mdmoc_getting_started#mdmoc_getting_started) |將內部部署資料中心的大量資料卸載至 Cloud Object Storage 儲存區。|
 | [{{site.data.keyword.backup_full}}](/docs/infrastructure/Backup/index.html) |一種自動化代理型備份系統，其透過瀏覽器型管理公用程式進行管理。您可以在 IBM Cloud 網路上一個以上資料中心內的伺服器之間備份資料。|
 {: caption="表 2. 儲存空間選項" caption-side="top"}
 
@@ -135,11 +135,11 @@ subcollection: overview
 |--------|---------------|
 | [Content Delivery Network](/docs/infrastructure/CDN?topic=CDN-getting-started) | 用於各種產業解決方案，包括媒體、娛樂、軟體、遊戲、銀行業及電子商務，以符合您的企業需求。|
 |[Domain Name Service](/docs/cli/reference/ibmcloud?topic=cloud-cli-ibm-dev-tools-for-jetbrains) | 提供集中位置，透過基本 DNS 管理介面來檢視及管理網域，同時也提供您在相同位置管理反向及次要 DNS 的選項（免費）。|
-| [廣域 IP 位址](/docs/infrastructure/subnets?topic=subnets-getting-started-with-subnets-and-ips) |提供彈性，讓您在伺服器之間移轉工作負載，甚至是跨越不同地理位置的資料中心移轉。|
+| [廣域 IP 位址](/docs/infrastructure/subnets?topic=subnets-about-global-ip-address#about-global-ip-address) |提供彈性，讓您在伺服器之間移轉工作負載，甚至是跨越不同地理位置的資料中心移轉。|
 | [負載平衡](/docs/infrastructure/loadbalancer-service?topic=loadbalancer-service-getting-started-with-ibm-cloud-load-balancer) |在資料中心內的多部伺服器之間平均分散處理及通訊，讓單一裝置不會承擔整個負載。|
 | [Virtual Router Appliance](/docs/infrastructure/virtual-router-appliance/getting-started.html) |透過全特性的企業路由器，利用防火牆、資料流量整理、以原則為基礎的遞送、VPN 和眾多其他特性，選擇性地遞送專用和公用網路資料流量。|
-| [IPSec VPN](/docs/infrastructure/iaas-vpn?topic=VPN-set-up-ipsec-vpn) |這一套通訊協定的設計，是使用提供網站對網站加密網路的通道模式，來鑑別及加密兩個位置之間的所有 IP 資料流量。|
-| {{site.data.keyword.cloud_notm}} Direct Link | 運用 Cloud Exchange 提供者來提供與 {{site.data.keyword.cloud_notm}} 基礎架構位置的連線。|
+| [IPSec VPN](/docs/infrastructure/iaas-vpn?topic=VPN-setup-ipsec-vpn#setup-ipsec-vpn) |這一套通訊協定的設計，是使用提供網站對網站加密網路的通道模式，來鑑別及加密兩個位置之間的所有 IP 資料流量。|
+| [{{site.data.keyword.cloud_notm}} Direct Link](/docs/infrastructure/direct-link?topic=direct-link-get-started-with-ibm-cloud-direct-link#get-started-with-ibm-cloud-direct-link) | 運用 Cloud Exchange 提供者來提供與 {{site.data.keyword.cloud_notm}} 基礎架構位置的連線。|
 {: caption="表 3. 網路選項" caption-side="top"}
 
 
