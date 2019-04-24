@@ -2,7 +2,7 @@
 
 copyright:
   years: 2018, 2019
-lastupdated: "2019-03-14"
+lastupdated: "2019-04-02"
 
 keywords: cloud environment, virtual server, virtual machine, vm, understanding infrastructure, IaaS model
 
@@ -123,7 +123,7 @@ subcollection: overview
 ### 網路
 {: #network}
 
-設定 {{site.data.keyword.cloud_notm}} 帳戶時，您會自動與 {{site.data.keyword.vpn_full}} 連線。依預設，您的伺服器具有公用 IP 位址及專用 IP 位址。如果要讓伺服器成為專用伺服器，您可以在佈建伺服器之後關閉公用介面，或將伺服器訂購為專用伺服器。如需相關資訊，請參閱[開始使用 Virtual Private Networking](/docs/infrastructure/iaas-vpn?topic=VPN-getting-started-with-virtual-private-networking-vpn-)。
+設定 {{site.data.keyword.cloud_notm}} 帳戶時，您會自動與 {{site.data.keyword.vpn_full}} 連線。依預設，您的伺服器具有公用 IP 位址及專用 IP 位址。如果要讓伺服器成為專用伺服器，您可以在佈建伺服器之後關閉公用介面，或將伺服器訂購為專用伺服器。如需相關資訊，請參閱[開始使用 Virtual Private Networking](/docs/infrastructure/iaas-vpn?topic=VPN-gettingstarted-with-virtual-private-networking)。
 
 <!-- begin staging only -->
 在基礎架構層內，您可以建置一個虛擬專用雲端，這是關聯於 {{site.data.keyword.cloud_notm}} 帳戶的虛擬網路。虛擬專用雲端為您提供一個進入點，其可提供雲端安全並且能夠動態調整您的虛擬伺服器實例 (VSI)。如需相關資訊，請參閱[開始使用 IBM Cloud 虛擬專用雲端 (VPC) 基礎架構](/docs/vpc/vpc-getting-started-with-ibm-cloud-virtual-private-cloud-infrastructure)。

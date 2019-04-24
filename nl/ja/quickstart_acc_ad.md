@@ -31,7 +31,7 @@ subcollection: overview
   
 2. すべてのサービスが {{site.data.keyword.Bluemix_notm}} Identity and Access Management (IAM) によって管理されるわけではないため、これらのサービスへのアクセス権限を編成および付与するための Cloud Foundry 組織を作成します。 ライト・アカウントでは、1 つの {{site.data.keyword.Bluemix_notm}} ロケーションに 1 つの Cloud Foundry 組織があります。 詳しくは、『[組織およびスペースの追加](/docs/account?topic=account-orgsspacesusers)』を参照してください。 
 3. アクセス・グループを作成し、同じアクセス・レベルが割り当てられている必要があるグループにユーザーおよびサービス ID を編成します。 詳しくは、[アクセス・グループのセットアップ](/docs/iam?topic=iam-groups)を参照してください。
-4. アカウントにユーザーを招待してアクセス・グループに追加し、アカウント・ユーザーが作成を行えるように必要なアクセス権限を割り当てます。 詳しくは、IAM の『[概説チュートリアル](/docs/iam?topic=iam-getstarted)』を参照してください。
+4. アカウントにユーザーを招待してアクセス・グループに追加し、アカウント・ユーザーが作成を行えるように必要なアクセス権限を割り当てます。 詳しくは、IAM の『[入門チュートリアル](/docs/iam?topic=iam-getstarted)』を参照してください。
 5. イベントおよびアカウント消費限度の通知をセットアップします。 詳しくは、『[E メールの設定 (Setting email preferences)](/docs/account?topic=account-email-prefs)』および『[消費量通知の設定](/docs/billing-usage?topic=billing-usage-spending)』を参照してください。 
 6. コスト見積もりプログラムを使用して、ご使用環境のコストを把握します。 コンソールのメニュー・バーで「コスト見積もりツール」アイコン ![「見積もりツール」アイコン](../icons/Estimator.svg) をクリックします。 
 7. コスト見積もりツールを使用して、インフラストラクチャーのコストを把握します。 

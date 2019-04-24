@@ -2,7 +2,7 @@
 
 copyright:
   years: 2018, 2019
-lastupdated: "2019-03-14"
+lastupdated: "2019-04-02"
 
 keywords: cloud environment, virtual server, virtual machine, vm, understanding infrastructure, IaaS model
 
@@ -123,7 +123,7 @@ Puede adquirir más almacenamiento en función de sus necesidades. Consulte la t
 ### Gestión de redes
 {: #network}
 
-Obtendrá conectividad automáticamente a {{site.data.keyword.vpn_full}} cuando la cuenta de {{site.data.keyword.cloud_notm}} se configure. De forma predeterminada, el servidor tiene una dirección IP pública y una dirección IP privada. Si desea que el servidor sea privado, puede desactivar la interfaz pública después de que el servidor se haya suministrado o pedir el servidor como privado. Consulte [Iniciación con la red privada virtual](/docs/infrastructure/iaas-vpn?topic=VPN-getting-started-with-virtual-private-networking-vpn-) para obtener más información.
+Obtendrá conectividad automáticamente a {{site.data.keyword.vpn_full}} cuando la cuenta de {{site.data.keyword.cloud_notm}} se configure. De forma predeterminada, el servidor tiene una dirección IP pública y una dirección IP privada. Si desea que el servidor sea privado, puede desactivar la interfaz pública después de que el servidor se haya suministrado o pedir el servidor como privado. Consulte [Iniciación con la red privada virtual](/docs/infrastructure/iaas-vpn?topic=VPN-gettingstarted-with-virtual-private-networking) para obtener más información.
 
 <!-- begin staging only -->
 Dentro de la capa de infraestructura, puede crear una nube privada virtual, que es una red virtual vinculada a la cuenta de {{site.data.keyword.cloud_notm}}. Una nube privada virtual proporciona un punto de entrada que ofrece seguridad en la nube y la capacidad de escalar las instancias de servidor virtual (VSI) de forma dinámica. Para obtener más información, consulte [Iniciación a la infraestructura de nube privada virtual (VPC) de IBM Cloud](/docs/vpc/vpc-getting-started-with-ibm-cloud-virtual-private-cloud-infrastructure). 
