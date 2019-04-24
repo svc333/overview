@@ -3,7 +3,7 @@
 
 copyright:
   years: 2016, 2019
-lastupdated: "2019-03-14"
+lastupdated: "2019-04-16"
 
 keywords: prereqs, platform prereqs, platform prerequisites
 
@@ -27,14 +27,14 @@ subcollection: overview
 다음 목록은 {{site.data.keyword.Bluemix_notm}}에 필요한 최소한의 브라우저 소프트웨어입니다.
 
  * Chrome: 운영 체제용 최신 버전
- * Firefox: 운영 체제용 최신 정규 및 ESR 버전. 추가 세부사항은 [Mozilla Firefox 확장 지원 릴리스](https://www.mozilla.org/firefox/organizations/){: new_window} ![외부 링크 아이콘](../icons/launch-glyph.svg "외부 링크 아이콘")를 참조하십시오.
+ * Firefox: 운영 체제용 최신 정규 및 ESR 버전. 추가 세부사항은 [Mozilla Firefox 확장 지원 릴리스](https://www.mozilla.org/en-US/firefox/organizations/){: new_window} ![외부 링크 아이콘](../icons/launch-glyph.svg "외부 링크 아이콘")를 참조하십시오. 
  * Edge: Windows용 최신 버전
  * Safari: Mac용 최신 버전
  
 **피드백** 단추를 통해 Internet Explorer 11에 대한 문제를 보고할 수 있습니다.
 {:note}
 
-## 명령행 인터페이스(CLI)
+## 명령행 인터페이스
 {: #cli-platform}
 
-{{site.data.keyword.Bluemix_notm}} CLI가 지속적으로 변경되므로, 항상 최신 CLI 버전을 제공하는 [독립형 {{site.data.keyword.Bluemix_notm}} CLI 설치](/docs/cli/reference/ibmcloud/cloud-cli-install_use) 페이지로 이동하는 것이 좋습니다.
+{{site.data.keyword.Bluemix_notm}} 명령행 인터페이스(CLI)는 지속적으로 변경되므로, 항상 최신 CLI 버전을 제공하는 [독립형 {{site.data.keyword.Bluemix_notm}} CLI 설치](/docs/cli/reference/ibmcloud/cloud-cli-install_use)로 이동하는 것이 좋습니다. 

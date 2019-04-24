@@ -2,7 +2,7 @@
 
 copyright:
   years: 2018, 2019
-lastupdated: "2019-04-09"
+lastupdated: "2019-04-16"
 
 keywords: cloud environment, virtual server, virtual machine, vm, understanding infrastructure, IaaS model
 
@@ -124,10 +124,6 @@ Vous pouvez acheter du stockage supplémentaire en fonction de vos besoins. Cons
 {: #network}
 
 Vous obtenez automatiquement la connectivité à {{site.data.keyword.vpn_full}} lorsque votre compte {{site.data.keyword.cloud_notm}} est configuré. Par défaut, votre serveur a une adresse IP publique et une adresse IP privée. Si vous voulez que votre serveur soit privé, vous pouvez désactiver l'interface publique une fois votre serveur mis à disposition ou commander votre serveur en tant que serveur privé. Pour plus d'informations, voir la rubrique présentant l'[initiation au réseau privé virtuel (VPN)](/docs/infrastructure/iaas-vpn?topic=VPN-gettingstarted-with-virtual-private-networking).
-
-<!-- begin staging only -->
-Dans la couche d'infrastructure, vous pouvez générer un cloud privé virtuel, qui est un réseau virtuel lié à votre compte {{site.data.keyword.cloud_notm}}. Un cloud privé virtuel met à disposition un point d'entrée offrant une sécurité de cloud et la possibilité d'adapter dynamiquement vos instances de serveur virtuel (VSI). Pour plus d'informations, voir [Initiation à l'infrastructure IBM Cloud Virtual Private Cloud](/docs/vpc/vpc-getting-started-with-ibm-cloud-virtual-private-cloud-infrastructure). 
-<!-- end staging only -->
 
 Consultez le tableau suivant pour obtenir un récapitulatif de vos options de réseau.
 
