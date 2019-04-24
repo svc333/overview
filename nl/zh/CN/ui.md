@@ -5,6 +5,10 @@ copyright:
   years: 2015, 2019
 lastupdated: "2019-01-29"
 
+keywords: ui, components, using the console
+
+subcollection: overview
+
 ---
 
 {:shortdesc: .shortdesc}

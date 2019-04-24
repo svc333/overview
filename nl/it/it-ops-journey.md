@@ -2,7 +2,11 @@
 
 copyright:
   years: 2018, 2019
-lastupdated: "2019-01-29"
+lastupdated: "2019-03-14"
+
+keywords: cloud environment, virtual server, virtual machine, vm, understanding infrastructure, IaaS model
+
+subcollection: overview
 
 
 ---
@@ -17,7 +21,7 @@ lastupdated: "2019-01-29"
 # Esplora il percorso dell'amministratore delle operazioni IT in {{site.data.keyword.cloud_notm}}
 {: #it-ops}
 
-Poiché molte organizzazioni passano a un ambiente cloud, in locale o ospitato nei data center, il ruolo dell'amministratore delle operazioni IT (IT ops admin) sta venendo ridefinito. L'ambito e la complessità di questa modifica aumentano in modo significativo in base al tipo di ambiente che la tua organizzazione vuole distribuire.
+Poiché molte organizzazioni passano a un ambiente cloud, in locale o ospitato nei data center, il ruolo dell'amministratore delle operazioni IT (IT ops admin) sta venendo ridefinito. L'ambito e la complessità di questa modifica aumentano in modo significativo in base al tipo di ambiente che la tua organizzazione vuole distribuire. 
 {: .shortdesc}
 
 Prima del passaggio al cloud, hai lavorato con un ambiente intrinsecamente sicuro con sistemi collegati alla tua intranet o LAN privata. In un ambiente cloud, ti aspetti ora di eseguire le seguenti attività:

@@ -6,6 +6,10 @@ copyright:
 
 lastupdated: "2019-02-19"
 
+keywords: account quick start, account set up
+
+subcollection: overview
+
 ---
 
 {:shortdesc: .shortdesc}

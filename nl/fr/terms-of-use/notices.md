@@ -7,6 +7,9 @@ copyright:
   years: 2015, 2019
 lastupdated: "2019-01-14"
 
+keywords: notices, terms of use
+
+subcollection: overview
 
 ---
 
@@ -189,11 +192,11 @@ d'IBM Corp.
 
 SANCTIONS ET EMBARGOS
 
-Pour des raisons de politique internationale et de sécurité nationale, les Etats-Unis interdisent la plupart des transactions commerciales et autres opérations avec certains pays. Ces interdictions, appelées auparavant sanctions commerciales et économiques ou embargos complets, ciblent actuellement l'Iran, Cuba, la Corée du Nord et la Syrie. 
+Pour des raisons de politique internationale et de sécurité nationale, les Etats-Unis interdisent la plupart des transactions commerciales et autres opérations avec certains pays.  Ces interdictions, appelées auparavant sanctions commerciales et économiques ou embargos complets, ciblent actuellement l'Iran, Cuba, la Corée du Nord et la Syrie. 
 
 IBM Cloud effectue un blocage réseau des communications avec les adresses IP provenant des pays soumis à ces sanctions commerciales et économiques. Cette règle affecte tous les sites et les environnements des centres de données IBM Cloud et bloque l'accès des adresses IP enregistrées dans les pays soumis à ces sanctions.
 
-Pour identifier les adresses IP associées à des pays placés sous embargo par les Etats-Unis, IBM Cloud référence la base de données Geo IP2 gérée par [MaxMind ![Icône de lien externe](../../icons/launch-glyph.svg)](http://www.maxmind.com){: new_window} (la liste d’adresses IP par pays est mise à jour tous les trimestres). 
+Pour identifier les adresses IP associées à des pays placés sous embargo par les Etats-Unis, IBM Cloud référence la base de données Geo IP2 gérée par [MaxMind ![Icône de lien externe](../../icons/launch-glyph.svg)](http://www.maxmind.com){: new_window} (la liste d’adresses IP par pays est mise à jour tous les trimestres).
 
 Remarque : Cette restriction ne s'applique pas au contenu qui n'est pas interdit d'après les sanctions et les embargos américains. Si vous pensez que votre contenu n'est pas soumis à ces interdictions, envoyez un courrier électronique à l'adresse exemptions@softlayer.com. 
 

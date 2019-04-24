@@ -2,7 +2,11 @@
 
 copyright:
   years: 2018, 2019
-lastupdated: "2019-01-29"
+lastupdated: "2019-03-14"
+
+keywords: cloud environment, virtual server, virtual machine, vm, understanding infrastructure, IaaS model
+
+subcollection: overview
 
 
 ---
@@ -98,7 +102,7 @@ SaaS モデルでは、プロバイダーは実際のアプリケーションを
 | [{{site.data.keyword.containerlong_notm}}](/docs/containers?topic=containers-container_index) | Docker コンテナー、Kubernetes テクノロジー、直観的なユーザー・エクスペリエンス、標準装備のセキュリティーと分離機能を結合させることにより、コンピュート・ホストのクラスター内でコンテナー化アプリのデプロイメント、操作、スケーリング、モニタリングを自動化します。 |
 | [{{site.data.keyword.cfee_full_notm}}](/docs/cloud-foundry?topic=cloud-foundry-about) | 複数の分離したエンタープライズ・グレードの Cloud Foundry プラットフォームをオンデマンドでインスタンス化します。 |
 | [{{site.data.keyword.openwhisk_short}}](/docs/openwhisk?topic=cloud-functions-index) | Apache OpenWhisk に基づく Functions-as-a-Service (FaaS) プログラミング・プラットフォーム。 |
-{: caption="表 1. 計算オプション" caption-side="top"}
+{: caption="表 1. コンピュート・オプション" caption-side="top"}
    
 ### ストレージ
 {: #storage}
@@ -113,7 +117,7 @@ SaaS モデルでは、プロバイダーは実際のアプリケーションを
 | [{{site.data.keyword.filestorage_short}}](/docs/infrastructure/FileStorage/index.html) | 永続的で高速かつ柔軟なネットワーク接続された NFS ベースのファイル・ストレージ。 この Network Attached Storage (NAS) 環境では、ファイル共有機能とパフォーマンスを完全に制御できます。 ファイル・ストレージ共有は、回復力のために、経路指定された TCP/IP 接続を介して最大 64 台の許可デバイスに接続できます。 |
 | [{{site.data.keyword.cos_full_notm}}](/docs/services/cloud-object-storage?topic=cloud-object-storage-getting-started-console-) | IBM Cloud Object Storage に保管された情報は暗号化され、複数の地理的位置に分散され、REST API を使用して HTTP を介してアクセスされます。 このサービスは、IBM Cloud Object Storage System (以前の Cleversafe) によって提供されている分散ストレージ・テクノロジーを利用します。 |
 | [{{site.data.keyword.cloud_notm}} Mass Data Migration](/docs/infrastructure/mass-data-migration/index.html) | オンプレミス・データ・センターからクラウド・オブジェクト・ストレージ・バケットに大量のデータをオフロードします。 |
-| [{{site.data.keyword.backup_full}}](/docs/infrastructure/Backup/index.html) | ブラウザー・ベースの管理ユーティリティーを使用して管理される、エージェント・ベースの自動バックアップ・システム。IBM Cloud ネットワーク上の 1 つ以上のデータ・センター内のサーバー間でデータをバックアップできます。|
+| [{{site.data.keyword.backup_full}}](/docs/infrastructure/Backup/index.html) | ブラウザー・ベースの管理ユーティリティーを使用して管理される、エージェント・ベースの自動バックアップ・システム。 IBM Cloud ネットワーク上の 1 つ以上のデータ・センター内のサーバー間でデータをバックアップできます。 |
 {: caption="表 2. ストレージ・オプション" caption-side="top"}
 
 ### ネットワーキング
@@ -122,7 +126,7 @@ SaaS モデルでは、プロバイダーは実際のアプリケーションを
 {{site.data.keyword.cloud_notm}} アカウントがセットアップされると、{{site.data.keyword.vpn_full}} に自動的に接続されます。 サーバーにはデフォルトで、パブリック IP アドレスとプライベート IP アドレスがあります。 サーバーをプライベートにする場合は、サーバーのプロビジョン後にパブリック・インターフェースをオフにするか、サーバーをプライベートとして注文することができます。 詳しくは、[仮想プライベート・ネットワーキング (VPN) の概要](/docs/infrastructure/iaas-vpn?topic=VPN-getting-started-with-virtual-private-networking-vpn-)を参照してください。
 
 <!-- begin staging only -->
-インフラストラクチャー・レイヤー内に仮想プライベート・クラウドを構築できます。仮想プライベート・クラウドとは、{{site.data.keyword.cloud_notm}} アカウントに結合された仮想ネットワークです。仮想プライベート・クラウドにより、クラウドのセキュリティーと、仮想サーバー・インスタンス (VSI) を動的にスケーリングする能力を提供するエントリー・ポイントを取得できます。詳しくは、『[IBM Cloud Virtual Private Cloud (VPC) インフラストラクチャーの概説](/docs/vpc/vpc-getting-started-with-ibm-cloud-virtual-private-cloud-infrastructure)』を参照してください。
+インフラストラクチャー・レイヤー内に仮想プライベート・クラウドを構築できます。仮想プライベート・クラウドとは、{{site.data.keyword.cloud_notm}} アカウントに結合された仮想ネットワークです。 仮想プライベート・クラウドにより、クラウドのセキュリティーと、仮想サーバー・インスタンス (VSI) を動的にスケーリングする能力を提供するエントリー・ポイントを取得できます。 詳しくは、『[IBM Cloud Virtual Private Cloud (VPC) インフラストラクチャーの概説](/docs/vpc/vpc-getting-started-with-ibm-cloud-virtual-private-cloud-infrastructure)』を参照してください。
 <!-- end staging only -->
 
 ネットワーキング・オプションの要約については、以下の表を確認してください。

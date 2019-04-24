@@ -4,6 +4,10 @@ copyright:
   years: 2016, 2019
 lastupdated: "2019-02-19"
 
+keywords: developer tools, building apps, developer entry point, understanding dev journey, get started coding
+
+subcollection: overview
+
 ---
 {:new_window: target="_blank"}
 {:shortdesc: .shortdesc}

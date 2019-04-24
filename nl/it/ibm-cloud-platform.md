@@ -3,7 +3,11 @@
 
 copyright:
   years: 2016, 2019
-lastupdated: "2019-01-31"
+lastupdated: "2019-03-14"
+
+keywords: console, platform overview, overview
+
+subcollection: overview
 
 ---
 
@@ -99,7 +103,7 @@ Il servizio della piattaforma dei prezzi ti aiuta a definire, gestire e richiama
 
 Con la misurazione dell'utilizzo, i provider di servizi possono inoltrare metriche che vengono raccolte per le istanze della risorsa di cui viene eseguito il provisioning da utenti {{site.data.keyword.Bluemix_notm}}. I provider di servizi di terze parti che offrono un servizio di fatturazione integrato devono inoltrare l'utilizzo per tutte le istanze del servizio attive ogni ora. 
 
-### Report sull'utilizzo 
+### Report sull'utilizzo
 {: #usage}
 
 I report sull'utilizzo restituiscono il riepilogo per l'account per il mese specificato. I gestori della fatturazione dell'account sono autorizzati ad accedere ai report.

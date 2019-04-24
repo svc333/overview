@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2019
-lastupdated: "2019-02-18"
+lastupdated: "2019-03-12"
 
 keywords: catalog, resources display, manage visibility
 
@@ -15,14 +15,14 @@ subcollection: overview
 # Katalog verwalten
 {: #manage-catalog}
 
-Im {{site.data.keyword.Bluemix}}-Katalog werden Ihre {{site.data.keyword.Bluemix_notm}}-Ressourcen regions- und länderübergreifend angezeigt. Bei den Ressourcen im Katalog kann es sich um Services, Infrastruktur und als Muster geeignete Vorlagen handeln. Über die {{site.data.keyword.Bluemix_notm}}-Befehlszeilenschnittstelle (CLI) können Sie den Katalog durchsuchen, Details zu Katalogressourcen anzeigen und die Anzeige der Katalogressourcen verwalten. 
+Im {{site.data.keyword.Bluemix}}-Katalog werden Ihre {{site.data.keyword.Bluemix_notm}}-Ressourcen regions- und länderübergreifend angezeigt. Bei den Ressourcen im Katalog kann es sich um Services, Infrastruktur und als Muster geeignete Vorlagen handeln. Über die {{site.data.keyword.Bluemix_notm}}-Befehlszeilenschnittstelle (CLI) können Sie den Katalog durchsuchen, Details zu Katalogressourcen anzeigen und die Anzeige der Katalogressourcen verwalten.
 
 Informationen zum Erstellen von Ressourcen über den Katalog finden Sie unter [Im Katalog arbeiten](/docs/overview?topic=overview-ui#catalogcreate).
 
 ## Sichtbarkeit verwalten
 {: #manage-vis}
 
-Möchten Sie differenzierter steuern, was im Katalog angezeigt wird? Sollen bestimmte Ressourcen für einige Benutzer ausgeblendet und für andere Benutzer eingeblendet werden? Mit der entsprechenden Administratorberechtigung können Sie die Sichtbarkeit von Katalogressourcen über die {{site.data.keyword.Bluemix_notm}} [-Befehlszeilenschnittstelle](/docs/cli/reference/ibmcloud?topic=cloud-cli-overview) anzeigen und festlegen.
+Möchten Sie differenzierter steuern, was im Katalog angezeigt wird? Sollen bestimmte Ressourcen für einige Benutzer ausgeblendet und für andere Benutzer eingeblendet werden? Mit der entsprechenden Administratorberechtigung können Sie die Sichtbarkeit von Katalogressourcen über die {{site.data.keyword.Bluemix_notm}} [-Befehlszeilenschnittstelle](/docs/cli?topic=cloud-cli-ibmcloud-cli) anzeigen und festlegen.
 
 Weitere Informationen finden Sie in den folgenden Abschnitten:
 

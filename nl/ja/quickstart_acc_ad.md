@@ -6,6 +6,10 @@ copyright:
 
 lastupdated: "2019-02-19"
 
+keywords: account quick start, account set up
+
+subcollection: overview
+
 ---
 
 {:shortdesc: .shortdesc}
@@ -20,7 +24,7 @@ lastupdated: "2019-02-19"
 このクイック・スタート・ガイドは、アカウント管理者が {{site.data.keyword.Bluemix}} 環境をセットアップするのを支援することを目的としています。 
 {:shortdesc}
 
-1. {{site.data.keyword.Bluemix_notm}} カタログから作成するリソースを編成するためのリソース・グループを作成します。詳しくは、『[リソースをリソース・グループに編成するためのベスト・プラクティス](/docs/resources?topic=resources-bp_resourcegroups)』を参照してください。
+1. {{site.data.keyword.Bluemix_notm}} カタログから作成するリソースを編成するためのリソース・グループを作成します。 詳しくは、『[リソースをリソース・グループに編成するためのベスト・プラクティス](/docs/resources?topic=resources-bp_resourcegroups)』を参照してください。
 
   リソースをリソース・グループに割り当てた後は移動できないため、事前にリソース・グループを作成しておくことが重要です。
   {:tip}
@@ -40,4 +44,4 @@ lastupdated: "2019-02-19"
 {: #next-steps-acc-ad}
 
 * アカウント内でサービスの作成を開始して、組織と開発者が必要なソリューションを作成できるようにします。  
-* タグを作成し、リソースにタグを付けて、請求および使用量の表示方法を編成しやすくします。 それにより、さまざまな組織へのチャージバックを容易に識別することができます。詳しくは、『[リソースにタグ付けするためのベスト・プラクティス](/docs/account?topic=account-account_setup#tags)』を参照してください。 
+* タグを作成し、リソースにタグを付けて、請求および使用量の表示方法を編成しやすくします。 それにより、さまざまな組織へのチャージバックを容易に識別することができます。 詳しくは、『[リソースにタグ付けするためのベスト・プラクティス](/docs/account?topic=account-account_setup#tags)』を参照してください。 

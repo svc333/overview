@@ -2,9 +2,11 @@
 
 copyright:
   years: 2018, 2019
-lastupdated: "2019-02-27"
+lastupdated: "2019-03-14"
 
-metadata: HA,failover,DR 
+keywords: HA, failover, DR
+
+subcollection: overview
 
 ---
 
@@ -64,30 +66,10 @@ metadata: HA,failover,DR
 
 기본적으로 콘솔의 리소스 목록 보기에서 모든 위치의 모든 리소스를 볼 수 있습니다. 특정 위치에서 리소스를 보고 이에 대해 작업하려면 **위치** 메뉴를 펼친 다음 목록에서 위치를 선택하십시오. 
 
-명령행 인터페이스(CLI)에서 `ibmcloud api` 명령을 사용하여 작업할 {{site.data.keyword.cloud_notm}} 위치에 연결하고 위치의 API 엔드포인트를 지정할 수도 있습니다. 예를 들어, 다음 명령을 입력하여 {{site.data.keyword.cloud_notm}} 런던에 연결하십시오.
-
-```
-ibmcloud api https://api.eu-gb.cf.cloud.ibm.com
-```
-
-각 위치에 고유한 접두부가 지정됩니다. {{site.data.keyword.cloud_notm}}는 다음과 같은 위치 및 위치 접두부를 제공합니다.
-
-| **위치**  | **API 엔드포인트**        |
-|---------------|-------------------------|
-| 댈러스        | api.us-south.cf.cloud.ibm.com  |
-| 프랑크푸르트     | api.eu-de.cf.cloud.ibm.com  |
-| 런던        | api.eu-gb.cf.cloud.ibm.com  |
-|시드니        | api.au-syd.cf.cloud.ibm.com  |
-| 도쿄         | api.jp-tok.cf.cloud.ibm.com  |
-| 워싱턴 DC | api.us-east.cf.cloud.ibm.com  |
-{: caption="표 1. {{site.data.keyword.cloud_notm}} 위치 목록" caption-side="top"}
-
-인프라 리소스를 배치하는 경우 데이터가 있는 위치에 대한 더 많은 옵션이 있습니다. 위치를 선택하거나 {{site.data.keyword.Bluemix_notm}}에서 데이터 센터 목록으로부터 선택할 수 있습니다. 
-
 ## 데이터 센터
 {: #data_center}
 
-데이터 센터는 서비스 및 앱에 사용되는 전원, 냉각, 컴퓨팅, 네트워크 및 스토리지 리소스를 호스팅하는 실제 위치입니다. 데이터 센터는 한 위치에서 다중 구역과 유사한 로컬 장애로부터의 격리를 제공하지 않습니다. 자세한 정보는 [Global locations for your global business ![외부 링크 아이콘](../icons/launch-glyph.svg "외부 링크 아이콘")](https://www.ibm.com/cloud/data-centers/){: new_window}를 참조하십시오.
+인프라 리소스를 배치하는 경우 데이터가 있는 위치에 대한 더 많은 옵션이 있습니다. 위치를 선택하거나 {{site.data.keyword.Bluemix_notm}} 데이터 센터의 목록에서 선택할 수 있습니다. *데이터 센터*는 서비스 및 앱에 사용되는 전원, 냉각, 컴퓨팅, 네트워크 및 스토리지 리소스를 호스팅하는 실제 위치입니다. 데이터 센터는 한 위치에서 다중 구역과 유사한 로컬 장애로부터의 격리를 제공하지 않습니다. 자세한 정보는 [Global locations for your global business ![외부 링크 아이콘](../icons/launch-glyph.svg "외부 링크 아이콘")](https://www.ibm.com/cloud/data-centers/){: new_window}를 참조하십시오.
 
 {{site.data.keyword.Bluemix_notm}}에서는 전 세계 많은 위치에서 데이터 센터를 제공합니다. 인프라 리소스를 배치하는 경우 {{site.data.keyword.Bluemix_notm}}의 데이터 센터 목록에서 선택할 수 있습니다. 
 

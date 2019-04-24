@@ -3,9 +3,12 @@
 
 
 copyright:
-  years: 2018, 2019
-lastupdated: "2019-02-18"
+  years: 2016, 2019
+lastupdated: "2019-01-23"
 
+keywords: quick keys, accessibility
+
+subcollection: overview
 
 ---
 

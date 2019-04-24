@@ -2,9 +2,11 @@
 
 copyright:
   years: 2018, 2019
-lastupdated: "2019-02-27"
+lastupdated: "2019-03-14"
 
-metadata: HA,failover,DR 
+keywords: HA, failover, DR
+
+subcollection: overview
 
 ---
 
@@ -20,7 +22,7 @@ metadata: HA,failover,DR
 # Wie stelle ich null Ausfallzeit sicher?
 {: #zero-downtime}
 
-Ihre globale Strategie ist wichtig. Sie können ein bestimmtes Rechenzentrum oder einen bestimmten Standort auswählen, um Ihren Kunden Ihre Daten im richtigen Teil der Welt bereitzustellen.
+Ihre globale Strategie ist wichtig. Sie können ein bestimmtes Rechenzentrum oder einen bestimmten Standort auswählen, um Ihren Kunden Ihre Daten im richtigen Teil der Welt bereitzustellen. 
 {:shortdesc}
 
 {{site.data.keyword.Bluemix}}-Plattformservices werden selbst verwaltet. Das bedeutet, dass die Standorte, an denen Sie Ihre App implementieren, Workloads über Rechenzentren verteilen können. Sie können außerdem sicherstellen, dass ein Failover-Design vorhanden ist, was bedeutet, dass Ihre App für Ihre Kunden immer betriebsbereit ist. Für Ihre Infrastrukturressourcen können Sie einzelne Rechenzentren auswählen, in denen die Ressourcen bereitgestellt werden. 
@@ -64,30 +66,10 @@ Der globale Lastausgleich für die {{site.data.keyword.cloud_notm}}-Konsole stel
 
 Über die Ansicht 'Ressourcenliste' können Sie standardmäßig alle Ressourcen an allen Standorten anzeigen. Wenn Sie Ressourcen an einem bestimmten Standort anzeigen und mit diesen arbeiten möchten, erweitern Sie das Menü **Standort** und wählen Sie einen Standort aus der Liste aus. 
 
-Sie können auch die Befehlszeilenschnittstelle (CLI) verwenden, um eine Verbindung zu dem {{site.data.keyword.cloud_notm}}-Standort herzustellen, mit dem Sie arbeiten möchten, indem Sie den Befehl `ibmcloud api` verwenden und den API-Endpunkt des Standorts angeben. Geben Sie beispielsweise den folgenden Befehl ein, um eine Verbindung zum {{site.data.keyword.cloud_notm}}-Standort London herzustellen:
-
-```
-ibmcloud api https://api.eu-gb.cf.cloud.ibm.com
-```
-
-Jedem Standort wird ein eindeutiges Präfix zugewiesen. {{site.data.keyword.cloud_notm}} stellt die folgenden Standorte und Standortpräfixe zur Verfügung.
-
-| **Standort**  | **API-Endpunkt**        |
-|---------------|-------------------------|
-| Dallas        | api.us-south.cf.cloud.ibm.com  |
-| Frankfurt     | api.eu-de.cf.cloud.ibm.com  |
-| London        | api.eu-gb.cf.cloud.ibm.com  |
-| Sydney        | api.au-syd.cf.cloud.ibm.com  |
-| Tokio         | api.jp-tok.cf.cloud.ibm.com  |
-| Washington DC | api.us-east.cf.cloud.ibm.com  |
-{: caption="Tabelle 1. Liste der {{site.data.keyword.cloud_notm}}-Standorte" caption-side="top"}
-
-Wenn Sie Infrastrukturressourcen bereitstellen, stehen Ihnen mehr Optionen zur Verfügung, an denen sich Ihre Daten befinden können. Sie können einen Standort auswählen oder ein Rechenzentrum aus der Liste in {{site.data.keyword.Bluemix_notm}} auswählen. 
-
 ## Rechenzentren
 {: #data_center}
 
-Ein Rechenzentrum ist der physische Standort, an dem die für Services und Apps verwendeten Ressourcen für Strom, Kühlung, Datenverarbeitung, Vernetzung und Speicher gehostet werden. Rechenzentren bieten keine Isolierung von lokalen Ausfällen, ähnlich wie bei mehreren Zonen an einem Standort. Weitere Informationen finden Sie in [Globale Standorte für Ihr globales Unternehmen ![Symbol für externen Link](../icons/launch-glyph.svg "Symbol für externen Link")](https://www.ibm.com/cloud/data-centers/){: new_window}.
+Wenn Sie Infrastrukturressourcen bereitstellen, stehen Ihnen mehr Optionen zur Verfügung, an denen sich Ihre Daten befinden können. Sie können einen Standort auswählen oder eines der aufgelisteten {{site.data.keyword.Bluemix_notm}}-Rechenzentren. Ein *Rechenzentrum* ist der physische Standort, an dem die für Services und Apps verwendeten Ressourcen für Strom, Kühlung, Datenverarbeitung, Vernetzung und Speicher gehostet werden. Rechenzentren bieten keine Isolierung von lokalen Ausfällen, ähnlich wie bei mehreren Zonen an einem Standort. Weitere Informationen finden Sie in [Globale Standorte für Ihr globales Unternehmen ![Symbol für externen Link](../icons/launch-glyph.svg "Symbol für externen Link")](https://www.ibm.com/cloud/data-centers/){: new_window}.
 
 {{site.data.keyword.Bluemix_notm}} bietet Rechenzentren an vielen Standorten in der ganzen Welt. Wenn Sie Infrastrukturressourcen bereitstellen, können Sie ein Rechenzentrum aus einer Liste in {{site.data.keyword.Bluemix_notm}} auswählen. 
 

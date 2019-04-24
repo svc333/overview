@@ -4,7 +4,11 @@ copyright:
 
   years: 2018, 2019
 
-lastupdated: "2019-02-19"
+lastupdated: "2019-03-14"
+
+keywords: enterprise architect quick start
+
+subcollection: overview
 
 ---
 

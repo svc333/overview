@@ -3,7 +3,11 @@
 
 copyright:
   years: 2016, 2019
-lastupdated: "2019-02-21"
+lastupdated: "2019-03-14"
+
+keywords: glossary, IBM Cloud glossary
+
+subcollection: overview
 
 
 ---
@@ -681,7 +685,7 @@ Relativo ai dati che vengono modificati in modo dinamico.
 
 Una tecnica di distribuzione che determina una fornitura continua abilitando test, sviluppo e distribuzione sincronizzati. Inizialmente, lo sviluppo viene eseguito su un ambiente non attivo (Black) mentre l'ambiente attivo continua a prendere il traffico (Red). Quando viene avviata la distribuzione, entrambi gli ambienti diventano attivi (Red-Red) finché l'instradamento non viene disabilitato sull'ambiente della versione precedente che era attivo prima e quindi rimosso (Black) mentre il nuovo ambiente funge da solo ambiente attivo. Vedi anche [Distribuzione Blue-Green](#x7807335).
 
-### regione
+### region
 {: #x2091391}
 
 Un territorio geografico definito. Una regione può essere una specifica area identificata da un codice postale, una città, uno stato, un gruppo di stati o un gruppo di nazioni. Ogni regione può essere una serie di altre regioni o una serie di codici postali che costituiscono la regione.
