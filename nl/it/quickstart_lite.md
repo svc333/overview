@@ -2,9 +2,9 @@
 
 copyright:
 
-  years: 2018
+  years: 2018, 2019
 
-lastupdated: "2018-11-14"
+lastupdated: "2019-02-19"
 
 ---
 
@@ -22,12 +22,12 @@ Vuoi provare {{site.data.keyword.Bluemix}}? Un account Lite è ottimo per impara
 {:shortdesc}  
 
 ## Prima di iniziare
-{: #prereqs}
+{: #prereqs-lite}
 
-Vai a [{{site.data.keyword.Bluemix_notm}}](https://{DomainName}) e crea un account Lite. È gratuito e non scade mai.
+Vai a [{DomainName}]({DomainName}) e crea un account Lite. È gratuito e non scade mai.
 
 ## Procedura d'avvio rapida
-{: #steps}
+{: #steps-lite}
 
 1. Esplora il catalogo delle offerte che includono i [piani del servizio Lite ![Icona link esterno](../icons/launch-glyph.svg "Icona link esterno")](https://{DomainName}/catalog/?search=label:lite){: new_window} gratuiti.
   
@@ -35,12 +35,12 @@ Vai a [{{site.data.keyword.Bluemix_notm}}](https://{DomainName}) e crea un accou
   {:tip}
 
 2. Crea un'istanza di un'offerta che include un piano Lite gratuito.
-3. Consulta le nostre [esercitazioni della soluzione](/docs/tutorials/index.html) per una procedura dettagliata sull'utilizzo di {{site.data.keyword.Bluemix_notm}} per implementare i modelli comuni basati su procedure consigliate e tecnologie comprovate. 
+3. Consulta le nostre [esercitazioni della soluzione](/docs/tutorials?topic=solution-tutorials-tutorials) per una procedura dettagliata sull'utilizzo di {{site.data.keyword.Bluemix_notm}} per implementare i modelli comuni basati su procedure consigliate e tecnologie comprovate. 
 
 
 ## Passi successivi
-{: #nextsteps}
+{: #nextsteps-lite}
 
-Scopri se sei uno sviluppatore in {{site.data.keyword.Bluemix_notm}} in [Esplora l'esperienza di sviluppo in {{site.data.keyword.Bluemix_notm}}](/docs/overview/dev-journey.html#dev-journey). 
+Scopri se sei uno sviluppatore in {{site.data.keyword.Bluemix_notm}} in [Esplora l'esperienza di sviluppo in {{site.data.keyword.Bluemix_notm}}](/docs/overview?topic=overview-dev-journey). 
 
 

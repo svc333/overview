@@ -4,7 +4,11 @@ copyright:
 
   years: 2017, 2019
 
-lastupdated: "2019-01-04"
+lastupdated: "2019-02-12"
+
+keywords: crn, cloud resource name
+
+subcollection: overview
 
 ---
 
@@ -19,62 +23,65 @@ lastupdated: "2019-01-04"
 
 「雲端資源名稱 (CRN)」可唯一識別 {{site.data.keyword.Bluemix_notm}} 資源。CRN 用來以明確且保證為廣域唯一的方式來指定資源（例如在雲端型錄中所列出的 {{site.data.keyword.Bluemix_notm}} Identity and Access Management (IAM) 原則及服務中）。
 
-CRN 是由階層式識別資源、其位置及其所屬服務的「區段」連結所組成。區段定界字元設為 ':'（冒號字元）。所有 CRN 的開頭都是區段 ID 'crn'。
+CRN 是由階層式識別資源、其位置及其所屬服務的「區段」連結所組成。區段定界字元設為 ':'（冒號字元）。所有 CRN 的開頭都是區段 ID `crn`。
 
 
 ## CRN 格式
-{: #format}
+{: #format-crn}
 
 CRN 的基礎標準格式為：
 
-**crn:[version](#version):[cname](#cname):[ctype](#ctype):[service-name](#service-name):[location](#location):[scope](#scope):[service-instance](#service-instance):[resource-type:resource](#resource-type)**
+`   crn:version:cname:ctype:service-name:location:scope:service-instance:resource-type:resource
+   `
 
 
 ## version
-{: #version}
+{: #version-crn}
 
-`version` 區段識別 CRN 格式的版本。目前，唯一有效的版本區段值是 **v1**。
+`version` 區段識別 CRN 格式的版本。目前，唯一有效的版本區段值是 `v1`。
 
 
 ## cname
-{: #cname}
+{: #cname-crn}
 
-`cname` 區段識別雲端實例，而且是可唯一識別包含資源之雲端實例的英數 ID。`cname` 實際上會識別擁有所識別資源的獨立控制平面。{{site.data.keyword.Bluemix_notm}} 使用者的 `cname` 必須是 `bluemix`。
+`cname` 區段識別雲端實例，而且是可唯一識別包含資源之雲端實例的英數 ID。`cname` 實際上會識別擁有所識別資源的獨立控制平面。{{site.data.keyword.Bluemix_notm}} 使用者的 `cname` 區段值必須是 `bluemix`。
 
 
 ## ctype
-{: #ctype}
+{: #ctype-crn}
 
-`ctype` 區段識別指定 `cname` 所代表的雲端實例類型。
+`ctype` 區段識別指定 `cname` 區段所代表的雲端實例類型。
 
->有效值：
-  - public - 所有可從公用型錄取得的服務。
-  - dedicated - 僅適用於現行 {{site.data.keyword.Bluemix_notm}} 專用環境。
-  - local - 部署在自己環境本端的所有服務。
+ 有效值：
+  - `public`：所有可從公用型錄取得的服務
+  - `dedicated`：僅適用於現行 {{site.data.keyword.Bluemix_notm}} 專用環境
+  - `local`：部署在自己環境本端的所有服務
 
 
 ## service-name
-{: #service-name}
+{: #service-name-crn}
 
 `service-name` 區段可唯一識別雲端所提供的功能（服務、元件、產品）。功能可以是使用者提供的服務（例如 {{site.data.keyword.Bluemix_notm}} 型錄中所列出的服務）或 {{site.data.keyword.Bluemix_notm}} 功能的重要內部架構元件。
 
-`service-name` 指出資源所屬的服務，而 {{site.data.keyword.Bluemix_notm}} 會強制服務名稱的廣域唯一性。`service-name` 必須是英數、小寫、不含空格或 '-' 以外的特殊字元。
+`service-name` 區段指出資源所屬的服務，而 {{site.data.keyword.Bluemix_notm}} 會強制服務名稱的廣域唯一性。`service-name` 區段必須是英數、小寫，且不含空格或 '-' 以外的特殊字元。
 
-對於登錄至 {{site.data.keyword.Bluemix_notm}} 型錄的服務，`service-name` 必須對應至已登錄至「{{site.data.keyword.Bluemix_notm}} 全球型錄」服務的其中一個服務。它是「{{site.data.keyword.Bluemix_notm}} 全球型錄」服務 API `GET https://resource-catalog.bluemix.net/api/v1/{id}` 針對所對應之資源實例而傳回的 `name` 內容，或是指令行介面所顯示的 `service-name`：`service` 直欄中的 `ibmcloud service offerings`。
+對於登錄至 {{site.data.keyword.Bluemix_notm}} 型錄的服務，`service-name` 區段必須對應至已登錄至「{{site.data.keyword.Bluemix_notm}} 全球型錄」服務的其中一個服務。它是「{{site.data.keyword.Bluemix_notm}} 全球型錄」服務 API `GET https://globalcatalog.cloud.ibm.com/api/v1/{id}` 針對所對應之資源實例而傳回的 `name` 內容，或是指令行介面所顯示的 `service-name` 值：`service` 直欄中的 `ibmcloud service offerings`。
 
 
 ## location
-{: #location}
+{: #location-crn}
 
 資源所在的雲端地理位置/地區/區域/資料中心。
 
-`location` 必須是下列其中一個值：
+`location` 區段必須是下列其中一個值：
 
 ### 廣域
+{: #global-crn}
 
  * `global`
 
 ### 地理位置
+{: #geos-crn}
 
  * `us`
  * `eu`
@@ -82,6 +89,7 @@ CRN 的基礎標準格式為：
  * `ap`
 
 ### 地區
+{: #regions-crn}
 
  * `us-south`
  * `us-east`
@@ -90,6 +98,7 @@ CRN 的基礎標準格式為：
  * `eu-de`
 
 ### 資料中心
+{: #dc-crn}
 
 
 | | | | | |
@@ -101,14 +110,14 @@ CRN 的基礎標準格式為：
 |PAR01  |SJC01  |SJC03  |SAO01  |SEA01  |
 |SEO01  |SNG01  |SYD01  |TOK02  |TOR01  |
 |WDC01  |WDC04  |WDC06  |WDC07  |
-{: caption="表 1. 有效的「資料中心」值" caption-side="top"}
+{: caption="表 1. 有效的資料中心值" caption-side="top"}
 
-部分資源不需要地區（它們可視為 `global`）。在此情況下，`region` 區段設為 `global`。
+部分資源不需要地區，因為它們可視為 `global`。在此情況下，`region` 區段設為 `global`。
 {: tip}
 
 
 ## scope
-{: #scope}
+{: #scope-crn}
 
 `scope` 區段識別資源的包含關係或擁有者。部分資源不需要擁有者（它們可視為 `global`）。在此情況下，`scope` 區段是空的（空白字串）。
 
@@ -116,17 +125,17 @@ CRN 的基礎標準格式為：
 
 |範圍類型|範圍字首|用法|範例|
 | --- | --- | --- | --- |
-|帳戶|a/`{account id}` |已用來建立資源的帳戶。|a/292558 |
-|組織|o/`{org guid}` |已獲指派資源的「{{site.data.keyword.Bluemix_notm}} 組織」。|o/4716e2d1-35b7-431f-891a-b552bf0b3c66 |
-|空間|s/`{space guid}` |已獲指派資源的「{{site.data.keyword.Bluemix_notm}} 空間」。|s/48b3cdcd-e804-4398-9032-73065863ad7c |
-{: caption="表 2. `scope` 用法" caption-side="top"}
+|帳戶|a/`{account id}` |用來建立資源的帳戶。| `a/292558` |
+|組織|o/`{org guid}` |獲指派資源的「{{site.data.keyword.Bluemix_notm}} 組織」。| `o/4716e2d1-35b7-431f-891a-b552bf0b3c66` |
+|空間|s/`{space guid}` |獲指派資源的「{{site.data.keyword.Bluemix_notm}} 空間」。| `s/48b3cdcd-e804-4398-9032-73065863ad7c` |
+{: caption="表 2. 範圍用法" caption-side="top"}
 
 
 
 ## service-instance
-{: #service-instance}
+{: #service-instance-crn}
 
-`service-instance` 區段可唯一識別服務實例。`service-instance` 區段的格式會因服務而改變。每一個服務都必須將其 `service_instance` 的格式記載為其服務 meta 資料的一部分。部分服務沒有實例，因為該實例是廣域的，在此情況下，`service-instance` 欄位會空白。
+`service-instance` 區段可唯一識別服務實例。`service-instance` 區段的格式會因服務而改變。每一個服務都必須將其 `service_instance` 區段的格式記載為其服務 meta 資料的一部分。部分服務沒有實例，因為該實例是廣域的，在此情況下，`service-instance` 欄位會是空白。
 
 `service-instance` 必須是英數字元、小寫、不含空格或是 '-' 及 ' /' 以外的特殊字元。
 
@@ -141,13 +150,13 @@ ibmcloud resource service-instance
 {: codeblock}
 
 ## resource-type、resource
-{: #resource-type}
+{: #resource-type-crn}
 
-`resource-type` 及 `resource` 區段的值會因服務而改變。需要有服務，才能將其支援的 `resource types` 以及 `resource` 的格式記載為其服務 meta 資料的一部分。
+`resource-type` 及 `resource` 區段的值會因服務而改變。需要有服務，才能將其支援的 `resource types` 區段以及 `resource` 區段的格式記載為其服務 meta 資料的一部分。
 
-例如，Object Storage 服務中客戶收據容器內的映像檔，其 `resource-type` 可以是 `object`，而 `resource_value` 可以是 `CustomerReceipts/clientdinner.png`。
+例如，Object Storage 服務中客戶收據容器內的映像檔，其 `resource-type` 區段可以是 `object`，而 `resource` 值可以是 `CustomerReceipts/clientdinner.png`。
 
-`resource-type` 必須是英數、小寫、不含空格或 '-' 以外的特殊字元。服務可以決定 `resource-type` 是選用的，在此情況下，它會保留空白。
+`resource-type` 區段必須是英數、小寫，且不含空格或 '-' 以外的特殊字元。服務可以決定 `resource-type` 區段是選用的，在此情況下，它會保留空白。
 
 
 ## CRN 範例

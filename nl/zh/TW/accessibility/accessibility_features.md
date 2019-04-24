@@ -3,12 +3,9 @@
 
 
 copyright:
-  years: 2016, 2019
-lastupdated: "2019-01-23"
+  years: 2018, 2019
+lastupdated: "2019-02-18"
 
-keywords: quick keys, accessibility
-
-subcollection: overview
 
 ---
 
@@ -48,9 +45,9 @@ subcollection: overview
 ## 相關的協助工具資訊
 {: #related-info}
 
-{{site.data.keyword.Bluemix_notm}} Web 使用者介面協助工具遵循狀態是專門針對 {{site.data.keyword.Bluemix_notm}} 產品平台。使用者介面中有些子區段是由協力廠商產品或服務所擁有，其內容在平台內管理，對此 {{site.data.keyword.Bluemix_notm}} 遵循記錄並未維護或擁有協助工具遵循狀態。亦即，如果您存取服務的任何使用者介面或文件，您必須要求該服務的遵循聲明。例如，如果您使用 IBM Containers、本端或專用環境的管理主控台，或 IoT 服務等的介面，您必須要求該介面或文件的[產品協助工具資訊 ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](https://able.ibm.com/request/){: new_window}。
+{{site.data.keyword.Bluemix_notm}} Web 使用者介面協助工具遵循狀態是專門針對 {{site.data.keyword.Bluemix_notm}} 產品平台。使用者介面中有些子區段是由協力廠商產品或服務所擁有，其內容在平台內管理，對此 {{site.data.keyword.Bluemix_notm}} 遵循記錄並未維護或擁有協助工具遵循狀態。亦即，如果您存取服務的任何使用者介面或文件，您必須要求該服務的遵循聲明。例如，如果您使用 IBM Containers、本端或專用環境的管理主控台，或 IoT 服務等的介面，您必須要求該介面或文件的[產品協助工具資訊 ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](http://www-03.ibm.com/able/product_accessibility/index.html){: new_window}。
 
-{{site.data.keyword.Bluemix_notm}} 文件協助工具遵循是專門針對 {{site.data.keyword.Bluemix_notm}} 核心平台資訊，並未延伸至任何服務。從首頁中，內容會分成數個標籤，而所有文件標籤都是由服務團隊個別維護的內容。{{site.data.keyword.Bluemix_notm}} 的可用文件是由 IBM Bluemix Continuous Delivery 產品協助工具資訊來管理及報告，該資訊可在要求時取得。對於任何服務的遵循狀態，您必須要求[產品協助工具資訊 ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](https://able.ibm.com/request/){: new_window}。
+{{site.data.keyword.Bluemix_notm}} 文件協助工具遵循是專門針對 {{site.data.keyword.Bluemix_notm}} 核心平台資訊，並未延伸至任何服務。從首頁中，內容會分成數個標籤，而所有文件標籤都是由服務團隊個別維護的內容。{{site.data.keyword.Bluemix_notm}} 的可用文件是由 IBM Bluemix Continuous Delivery 產品協助工具資訊來管理及報告，該資訊可在要求時取得。對於任何服務的遵循狀態，您必須要求[產品協助工具資訊 ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](http://www-03.ibm.com/able/product_accessibility/index.html){: new_window}。
 
 除了標準 IBM 服務台與支援中心網站，IBM 也建立了 TTY 電話服務，以方便失聰或聽力不佳的客戶存取銷售及支援服務：
 

@@ -4,11 +4,7 @@ copyright:
 
   years: 2018, 2019
 
-lastupdated: "2019-03-14"
-
-keywords: resource groups, platform CLI, platform API
-
-subcollection: overview
+lastupdated: "2019-02-19"
 
 ---
 
@@ -26,11 +22,13 @@ Die {{site.data.keyword.cloud}}-Plattform setzt sich aus mehreren Komponenten zu
 
 Verwenden Sie die folgende Tabelle, um sich eine Übersicht über die Befehle der Befehlszeilenschnittstelle (CLI) und die Dokumente der Anwendungsprogrammierschnittstelle (API) zu verschaffen, die den einzelnen Plattformkomponenten zugeordnet sind.
 
+<!-- Below is a PRODUCTION table  with only 3 columns -->
+
 | Plattformkomponente | CLI-Referenz | API-Dokumente |
 | ----- | ----- | ----- |
-| {{site.data.keyword.cloud_notm}} Identity and Access Management (IAM) | [IAM-Zugriff, API-Schlüssel, Service-IDs und Zugriffsgruppen verwalten](/docs/cli/reference/ibmcloud?topic=cloud-cli-ibmcloud_commands_iam) | [API für IAM-Identitätsservices](https://console.cloud.ibm.com/apidocs/iam-identity-token-api){: new_window} ![Symbol für externen Link](../icons/launch-glyph.svg "Symbol für externen Link") <br><br>  [API für IAM-Zugriffsgruppen](https://console.cloud.ibm.com/apidocs/iam-access-groups){: new_window} ![Symbol für externen Link](../icons/launch-glyph.svg "Symbol für externen Link") <br><br> [API für IAM-Richtlinienmanagement](https://console.cloud.ibm.com/apidocs/iam-policy-management){: new_window} ![Symbol für externen Link](../icons/launch-glyph.svg "Symbol für externen Link") |
+| {{site.data.keyword.cloud_notm}} Identity and Access Management (IAM) | [IAM-Zugriff, API-Schlüssel, Service-IDs und Zugriffsgruppen verwalten](docs/cli/reference/ibmcloud?topic=cloud-cli-ibmcloud_commands_iam) | [API für IAM-Identitätsservices](https://console.cloud.ibm.com/apidocs/iam-identity-token-api){: new_window} ![Symbol für externen Link](../icons/launch-glyph.svg "Symbol für externen Link") <br><br>  [API für IAM-Zugriffsgruppen](https://console.cloud.ibm.com/apidocs/iam-access-groups){: new_window} ![Symbol für externen Link](../icons/launch-glyph.svg "Symbol für externen Link") <br><br> [API für IAM-Richtlinienmanagement](https://console.cloud.ibm.com/apidocs/iam-policy-management){: new_window} ![Symbol für externen Link](../icons/launch-glyph.svg "Symbol für externen Link") |
 | Kontoverwaltung | [Konten, Benutzer und Cloud-Foundry-Organisationen verwalten](/docs/cli/reference/ibmcloud?topic=cloud-cli-ibmcloud_commands_account) |  Nicht verfügbar |
-| Nutzungsmessung | [Nutzungsinformationen für Konten, Organisationen, Ressourcengruppen und Ressourcen anzeigen](/docs/cli/reference/ibmcloud?topic=cloud-cli-ibmcloud_billing) |  [{{site.data.keyword.Bluemix_notm}}-Nutzungsmessung](https://console.cloud.ibm.com/apidocs/usage-metering){: new_window} ![Symbol für externen Link](../icons/launch-glyph.svg "Symbol für externen Link") |
+| Nutzungsmessung | [Nutzungsinformationen für Konten, Organisationen, Ressourcengruppen und Ressourcen anzeigen](/docs/cli/reference/ibmcloud?topic=cloud-cli-ibmcloud_billing) |  [{{site.data.keyword.Bluemix_notm}}-Nutzungsüberwachung](https://console.cloud.ibm.com/apidocs/usage-metering){: new_window} ![Symbol für externen Link](../icons/launch-glyph.svg "Symbol für externen Link") |
 | Nutzungsberichte |  [Nutzungsinformationen für Konten, Organisationen, Ressourcengruppen und Ressourcen anzeigen](/docs/cli/reference/ibmcloud?topic=cloud-cli-ibmcloud_billing) |  [{{site.data.keyword.Bluemix_notm}}-Nutzungsberichte](https://console.cloud.ibm.com/apidocs/metering-reporting){: new_window} ![Symbol für externen Link](../icons/launch-glyph.svg "Symbol für externen Link") |
 | Ressourcencontroller | [Mit Ressourcen und Ressourcengruppen arbeiten](/docs/cli/reference/ibmcloud?topic=cloud-cli-ibmcloud_commands_resource) | [API des {{site.data.keyword.Bluemix_notm}}-Ressourcencontrollers](https://console.cloud.ibm.com/apidocs/resource-controller){: new_window} ![Symbol für externen Link](../icons/launch-glyph.svg "Symbol für externen Link") <br><br> [API von {{site.data.keyword.cloud_notm}} Open Service Broker](https://console.cloud.ibm.com/apidocs/ibm-cloud-osb-api){: new_window} ![Symbol für externen Link](../icons/launch-glyph.svg "Symbol für externen Link") |
 | Ressourcenmanager | [Mit Ressourcen und Ressourcengruppen arbeiten](/docs/cli/reference/ibmcloud?topic=cloud-cli-ibmcloud_commands_resource) | [API des {{site.data.keyword.Bluemix_notm}}-Ressourcenmanagers](https://console.cloud.ibm.com/apidocs/resource-manager){: new_window} ![Symbol für externen Link](../icons/launch-glyph.svg "Symbol für externen Link") |

@@ -3,11 +3,7 @@
 
 copyright:
   years: 2018, 2019
-lastupdated: "2019-03-14"
-
-keywords: feedback button, comments, requirements, product improvements
-
-subcollection: overview
+lastupdated: "2019-02-18"
 
 ---
 
@@ -18,8 +14,12 @@ subcollection: overview
 # Feedback senden
 {: #feedback}
 
-Ihre Meinung interessiert uns! Sie können dem {{site.data.keyword.Bluemix_notm}}-Team Feedback zur Dokumentation oder Konsole geben. Es stehen verschiedene Möglichkeiten, Feedback zu geben, zur Auswahl.
-{: shortdesc}
+Ihre Meinung interessiert uns! Sie können dem {{site.data.keyword.Bluemix_notm}}-Team Feedback zur Dokumentation oder Konsole geben. Sie haben verschiedene Möglichkeiten, Feedback zu geben:
+
+* Über die Schaltfläche **Feedback** können Sie einen Kommentar zu einer bestimmten Seite der Dokumentation oder zu einem Bereich der Konsolenbenutzerschnittstelle eingeben, die bzw. den Sie besondere mögen oder schwer finden.
+* Mit dem Link **In GitHub bearbeiten** können Sie oben auf den einzelnen Dokumentationsseiten mithilfe der Pull-Anforderungsmethode von GitHub einen Bearbeitungsvorschlag eingeben.
+* Öffnen Sie in GitHub einen Problembericht zur Aktualisierung oder Verbesserung der Dokumentation, indem Sie einen Kommentar oder eine Klärungsanfrage zu einem bestimmten Thema eingeben. 
+* Im {{site.data.keyword.Bluemix_notm}}-Ideenportal können Sie Ideen zur Verbesserung des Produkts oder eines bestimmten Service einreichen.
 
 ## Kommentar über die Feedback-Schaltfläche eingeben
 {: #feedback-button}
@@ -34,11 +34,6 @@ Wenn Sie eine Seite der Dokumentation lesen oder eine Aufgabe in der Konsole aus
 
 Gängige Anzeigenblocker blockieren Usabilla und blenden die Schaltfläche für **Feedback** aus. Inaktivieren Sie alle Anzeigenblocker, damit Sie die Schaltfläche für **Feedback** zum Übergeben Ihrer Kommentare verwenden können.
 {: tip}
-
-## Feedback zu einem Dokumentationstopic senden
-{: #feedback-topic}
-
-Sie können Feedback zu einem bestimmten Dokumentationstopic senden, indem Sie die Schaltfläche **War diese Seite hilfreich?** verwenden, die am Ende jedes Topics angezeigt wird. Waren die Informationen für Sie von Nutzen? Klicken Sie auf **Ja** und geben Sie optional einen Kommentar ein. Wenn die Informationen nicht von Nutzen waren oder Sie Verbesserungsvorschläge haben, klicken Sie auf **Nein** und geben Sie weitere Details an.   
 
 ## Inhaltliche Aktualisierung mit Pull-Anforderung bereitstellen
 {: #feedback-pr}

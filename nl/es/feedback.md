@@ -3,11 +3,7 @@
 
 copyright:
   years: 2018, 2019
-lastupdated: "2019-03-14"
-
-keywords: feedback button, comments, requirements, product improvements
-
-subcollection: overview
+lastupdated: "2019-02-18"
 
 ---
 
@@ -18,8 +14,12 @@ subcollection: overview
 # Enviar comentarios
 {: #feedback}
 
-Queremos conocer su opinión. Puede enviar comentarios al equipo de {{site.data.keyword.Bluemix_notm}} en la documentación o en la consola. Puede elegir entre distintos métodos para enviar comentarios.
-{: shortdesc}
+Queremos conocer su opinión. Puede enviar comentarios al equipo de {{site.data.keyword.Bluemix_notm}} en la documentación o en la consola. Puede utilizar distintos métodos para enviar comentarios:
+
+* Utilizar el botón **Comentarios** para crear un comentario sobre una página específica de la documentación o área de la interfaz de usuario de la consola que prefiera o con la que tenga problemas.
+* Utilizar el enlace **Editar en GitHub** en la parte superior de cualquier página de documentación para proporcionar una sugerencia de edición del contenido utilizando el método de solicitud de extracción de GitHub.
+* Abrir una incidencia en GitHub para actualizar o mejorar la documentación proporcionando un comentario o solicitud de aclaración sobre un tema específico. 
+* Enviar una idea para mejorar el producto, o un servicio específico en el portal de ideas de {{site.data.keyword.Bluemix_notm}}.
 
 ## Envío de un comentario con el botón de comentarios
 {: #feedback-button}
@@ -34,11 +34,6 @@ Cuando lea una página de la documentación o complete una tarea de la consola, 
 
 Los bloqueos de publicidad comunes bloquean Usabilla y ocultan el botón **Comentarios**. Inhabilite cualquier bloqueo de publicidad para poder utilizar el botón **Comentarios** y enviar sus comentarios.
 {: tip}
-
-## Envío de comentarios sobre un tema de la documentación
-{: #feedback-topic}
-
-Puede enviar comentarios sobre un tema específico de la documentación mediante los botones **¿Ha resultado útil esta página?** que verá al final de cada tema. ¿Le ha resultado útil la información? Pulse **Sí** y, si lo desea, escriba un comentario. Si no la ha encontrado útil o si tiene sugerencias de mejoras pulse **No** y proporcione más información.  
 
 ## Proporcionar una actualización de contenido con una solicitud de extracción
 {: #feedback-pr}

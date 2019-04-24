@@ -5,10 +5,6 @@ copyright:
   years: 2015, 2019
 lastupdated: "2019-01-29"
 
-keywords: ui, components, using the console
-
-subcollection: overview
-
 ---
 
 {:shortdesc: .shortdesc}
@@ -64,4 +60,4 @@ Para crear un nuevo recurso, pulse **Crear** de la lista de recursos. Se le diri
 Después de pulsar en el mosaico del recurso que desea crear, puede seleccionar la ubicación donde quiere desplegarlo.
 
   * Para los recursos de Cloud Foundry, puede seleccionar una región específica y luego seleccionar la organización o espacio al que asignar la instancia de servicio.
-  * Para los recursos gestionados por {{site.data.keyword.cloud_notm}} Identity and Access Management (IAM), seleccione la ubicación en la que desplegarlos. A continuación, seleccione un grupo de recursos al que asignar la instancia de servicio.
+  * Para los recursos gestionados por {{site.data.keyword.cloud_notm}} IAM, seleccione la ubicación en la que desplegarlos. A continuación, seleccione un grupo de recursos al que asignar la instancia de servicio.

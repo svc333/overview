@@ -2,11 +2,9 @@
 
 copyright:
   years: 2018, 2019
-lastupdated: "2019-03-14"
+lastupdated: "2019-02-07"
 
-keywords: HA, failover, DR
-
-subcollection: overview
+metadata: HA,failover,DR 
 
 ---
 
@@ -60,16 +58,36 @@ I requisiti che {{site.data.keyword.Bluemix}} segue sono:
 
 Puoi creare applicazioni e istanze del servizio in ubicazioni differenti con la stessa infrastruttura {{site.data.keyword.cloud_notm}} per la gestione di applicazioni e la stessa vista dei dettagli di utilizzo per la fatturazione. Puoi distribuire le tue applicazioni all'ubicazione più vicina ai tuoi clienti per ottenere una bassa latenza dell'applicazione. 
 
-Per far fronte ai problemi di sicurezza puoi anche selezionare l'ubicazione in cui desideri conservare i dati dell'applicazione. Quando crei applicazioni in più di un'ubicazione, se un'ubicazione non è più disponibile, le applicazioni che si trovano nelle altre ubicazioni continuano a essere eseguite. La disponibilità di risorse è la stessa per ogni ubicazione che usi. Per ulteriori informazioni sulle risorse della piattaforma e sulle ubicazioni in cui sono disponibili, consulta [Disponibilità dei servizi](/docs/resources?topic=resources-services_region).
+Per far fronte ai problemi di sicurezza puoi anche selezionare l'ubicazione in cui desideri conservare i dati dell'applicazione. Quando crei applicazioni in più di un'ubicazione, se un'ubicazione non è più disponibile, le applicazioni che si trovano nelle altre ubicazioni continuano a essere eseguite. La disponibilità di risorse è la stessa per ogni ubicazione che usi. Per ulteriori informazioni sulle risorse della piattaforma e sulle ubicazioni in cui sono disponibili, consulta [Disponibilità dei servizi](docs/resources?topic=resources-services_region).
 
 Il bilanciamento del carico globale per la console {{site.data.keyword.cloud_notm}} garantisce che, se l'ubicazione geografica a te più prossima non è disponibile, la console visualizza le informazioni per la successiva ubicazione più prossima. In questo modo, avrai sempre accesso alla console senza dover eseguire alcuna azione per accedere alle risorse di cui hai bisogno.
 
 Puoi visualizzare tutte le risorse in tutte le ubicazioni per impostazione predefinita dalla vista elenco risorse nella console. Se vuoi visualizzare e gestire le risorse in una specifica ubicazione, espandi il menu **UBICAZIONE** e seleziona un'ubicazione dall'elenco. 
 
+Puoi inoltre utilizzare l'interfaccia riga di comando (CLI) per connetterti all'ubicazione {{site.data.keyword.cloud_notm}} con cui vuoi lavorare utilizzando il comando `ibmcloud api` e specificando l'endpoint API dell'ubicazione. Ad esempio, immetti il seguente comando per stabilire una connessione all'ubicazione {{site.data.keyword.cloud_notm}} Londra:
+
+```
+ibmcloud api https://api.eu-gb.cf.cloud.ibm.com
+```
+
+A ciascuna ubicazione viene assegnato un prefisso univoco. {{site.data.keyword.cloud_notm}} fornisce le seguenti ubicazioni e i seguenti prefissi di ubicazione.
+
+| **Ubicazione**  | **Endpoint API**        |
+|---------------|-------------------------|
+| Dallas        | api.us-south.cf.cloud.ibm.com  |
+| Francoforte     | api.eu-de.cf.cloud.ibm.com  |
+| Londra        | api.eu-gb.cf.cloud.ibm.com  |
+| Sydney        | api.au-syd.cf.cloud.ibm.com  |
+| Tokyo         | api.jp-tok.cf.cloud.ibm.com  |
+| Washington DC | api.us-east.cf.cloud.ibm.com  |
+{: caption="Tabella 1. Elenco di ubicazioni {{site.data.keyword.cloud_notm}}" caption-side="top"}
+
+Quando distribuisci le risorse dell'infrastruttura, hai maggiori opzioni su dove si trovano i tuoi dati. Puoi effettuare la selezione in un elenco di data center in {{site.data.keyword.Bluemix_notm}}. 
+
 ## Data center
 {: #data_center}
 
-Quando distribuisci le risorse dell'infrastruttura, hai maggiori opzioni su dove si trovano i tuoi dati. Puoi scegliere un'ubicazione o effettuare una selezione da un elenco di data center {{site.data.keyword.Bluemix_notm}}. Un *data center* è l'ubicazione fisica che ospita l'alimentazione, il raffreddamento, il calcolo, la rete e le risorse di archiviazione utilizzati per i servizi e le applicazioni. I data center non forniscono l'isolamento da errori locali in modo simile alle multizone in un'ubicazione. Per ulteriori informazioni, vedi [Global locations for your global business ![Icona link esterno](../icons/launch-glyph.svg "Icona link esterno")](https://www.ibm.com/cloud/data-centers/){: new_window}.
+Un data center è l'ubicazione fisica che ospita l'alimentazione, il raffreddamento, il calcolo, la rete e le risorse di archiviazione utilizzati per i servizi e le applicazioni. I data center non forniscono l'isolamento da errori locali in modo simile alle multizone in un'ubicazione. Per ulteriori informazioni, vedi [Global locations for your global business ![Icona link esterno](../icons/launch-glyph.svg "Icona link esterno")](https://www.ibm.com/cloud/data-centers/){: new_window}.
 
 {{site.data.keyword.Bluemix_notm}} offre data center in molte ubicazioni in tutto il mondo. Quando distribuisci le risorse dell'infrastruttura, puoi effettuare la selezione in un elenco di data center in {{site.data.keyword.Bluemix_notm}}. 
 
@@ -79,7 +97,7 @@ Quando distribuisci le risorse dell'infrastruttura, hai maggiori opzioni su dove
 ### Nord America
 {: #na}
 
-| Data Center | Codice  |
+| Nome data center | Codice  |
 |------------------|-------|
 | Dallas 01        | dal01 |
 | Dallas 05        | dal05 |
@@ -106,7 +124,7 @@ Quando distribuisci le risorse dell'infrastruttura, hai maggiori opzioni su dove
 ### Sud America
 {: #sa}
 
-| Data Center | Codice    |
+| Nome data center | Codice    |
 |------------------|---------|
 | Sao Paulo 01     | sao01   |
 {: caption="Tabella 3. Data center in Sud America" caption-side="top"}
@@ -114,7 +132,7 @@ Quando distribuisci le risorse dell'infrastruttura, hai maggiori opzioni su dove
 ### Europa
 {: #eu}
 
-| Data Center | Codice  |
+| Nome data center | Codice  |
 |------------------|-------|
 | London 02        | lon02 |
 | London 04        | lon04 |
@@ -133,7 +151,7 @@ Quando distribuisci le risorse dell'infrastruttura, hai maggiori opzioni su dove
 ### Asia e Pacifico
 {: #ap}
 
-| Data Center | Codice  |
+| Nome data center | Codice  |
 |------------------|-------|
 | Tokyo 01         | tok02 | 
 | Tokyo 04         | tok04 |
@@ -212,8 +230,9 @@ Il tempo di inattività non include il tempo per la manutenzione pianificata o a
 
 I periodi di tempo al livello di servizio escludono tutto il tempo necessario per ricaricare il sistema operativo o le applicazioni o in cui le prestazioni in tempo potrebbero essere ridotte. Sei idoneo per un credito in base all'addebito mensile per il servizio che è interessato dalla sostituzione o dall'upgrade dell'hardware se {{site.data.keyword.Bluemix_notm}} non riesce a rispettare un periodo di tempo al livello di servizio specificato.
 
-| Periodo di tempo al livello di servizio  | Percentuale di credito |
+| Tipo	                    | Descrizione	   |
 |---------------------------|----------------|
+| Periodo di tempo al livello di servizio | Percentuale di credito |
 | ≤ 2 ore                 | Nessuna           |
 | > 2 ore                 | 20%            |
 | > 6 ore                 | 40%            |

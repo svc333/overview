@@ -2,7 +2,7 @@
 
 copyright:
   years: 2018, 2019
-lastupdated: "2019-01-04"
+lastupdated: "2019-01-29"
 
 
 ---
@@ -78,7 +78,7 @@ lastupdated: "2019-01-04"
 
 ### {{site.data.keyword.cloud_notm}} 服务与合规性
 
-与任何体系结构一样，您应该考虑在调整基础架构大小时，可能会添加到解决方案中的 {{site.data.keyword.cloud_notm}} 资源。有关更多信息，请参阅 [SaaS applications for business and IT ![外部链接图标](../icons/launch-glyph.svg "外部链接图标")](https://www.ibm.com/cloud/saas) {: new_window} 并搜索特定服务。您还需要考虑在构建体系结构时必须顾及的任何法规。例如，工作负载是否被视为敏感工作负载，或者是否受监管？有关更多信息，请参阅 [Compliance ![外部链接图标](../icons/launch-glyph.svg " 外部链接图标")](https://www.ibm.com/cloud/compliance){: new_window}。
+与任何体系结构一样，您应该考虑在调整基础架构大小时，可能会添加到解决方案中的 {{site.data.keyword.cloud_notm}} 资源。有关更多信息，请参阅 [SaaS applications for business and IT ![外部链接图标](../icons/launch-glyph.svg "外部链接图标")](https://www.ibm.com/cloud/saas){: new_window}，并搜索特定服务。您还需要考虑在构建体系结构时必须顾及的任何法规。例如，工作负载是否被视为敏感工作负载，或者是否受监管？有关更多信息，请参阅 [Compliance ![外部链接图标](../icons/launch-glyph.svg " 外部链接图标")](https://www.ibm.com/cloud/compliance){: new_window}。
 
 ## 构建基础架构
 {: #build}
@@ -93,47 +93,51 @@ lastupdated: "2019-01-04"
 |选项|描述
 | 
 |--------|---------------|
-| [{{site.data.keyword.baremetal_short}}](/docs/bare-metal/about.html)  |专供您使用的按小时或按月计费的单租户服务器，任何部分（包括服务器资源）都不会与其他客户共享。|
-| [{{site.data.keyword.BluVirtServers_short}}](/docs/vsi/vsi_about.html) |可扩展的虚拟服务器，随专用核心和内存分配一起购买。|
-| [{{site.data.keyword.vmwaresolutions_short}}](/docs/services/vmwaresolutions/vmonic/prod_overview.html) |使用安全、可扩展的高性能基础架构和行业领先的 VMware 混合虚拟化技术，快速无缝地集成或迁移内部部署 VMware 工作负载。|
-| [{{site.data.keyword.containerlong_notm}}](/docs/containers/cs_why.html) |将 Docker 容器、Kubernetes 技术、直观的用户体验和内置安全性与隔离功能组合在一起，自动对计算主机集群中的容器化应用程序进行部署、操作、扩展和监视。|
-| [{{site.data.keyword.cfee_full_notm}}](/docs/cloud-foundry/index.html) |按需实例化多个隔离的企业级 Cloud Foundry 平台。|
-| [{{site.data.keyword.openwhisk_short}}](/docs/openwhisk/index.html) |基于 Apache OpenWhisk 的函数即服务 (FaaaS) 编程平台。|
+| [{{site.data.keyword.baremetal_short}}](/docs/bare-metal?topic=bare-metal-getting-started)  |专供您使用的按小时或按月计费的单租户服务器，任何部分（包括服务器资源）都不会与其他客户共享。|
+| [{{site.data.keyword.BluVirtServers_short}}](/docs/vsi?topic=virtual-servers-about-public-virtual-servers#public-virtual-servers) |可扩展的虚拟服务器，随专用核心和内存分配一起购买。|
+| [{{site.data.keyword.vmwaresolutions_short}}](/docs/services/vmwaresolutions?topic=vmware-solutions-getting-started#getting-started) |使用安全、可扩展的高性能基础架构和行业领先的 VMware 混合虚拟化技术，快速无缝地集成或迁移内部部署 VMware 工作负载。|
+| [{{site.data.keyword.containerlong_notm}}](/docs/containers?topic=containers-container_index) |将 Docker 容器、Kubernetes 技术、直观的用户体验和内置安全性与隔离功能组合在一起，自动对计算主机集群中的容器化应用程序进行部署、操作、扩展和监视。|
+| [{{site.data.keyword.cfee_full_notm}}](/docs/cloud-foundry?topic=cloud-foundry-about) |按需实例化多个隔离的企业级 Cloud Foundry 平台。|
+| [{{site.data.keyword.openwhisk_short}}](/docs/openwhisk?topic=cloud-functions-index) |基于 Apache OpenWhisk 的函数即服务 (FaaaS) 编程平台。|
 {: caption="表 1. 计算选项" caption-side="top"}
    
 ### 存储
 {: #storage}
 
-{{site.data.keyword.baremetal_short}} 和 {{site.data.keyword.BluVirtServers_short}} 供应有缺省存储器。{{site.data.keyword.baremetal_short}} 至少有 1 TB SATA 磁盘空间，{{site.data.keyword.BluVirtServers_short}} 至少有 25 GB SAN 存储器。对此例外的情况是 {{site.data.keyword.cloud_notm}} SAP 认证的 {{site.data.keyword.baremetal_short}}。有关这些服务器可用的缺省存储器的更多信息，请参阅 [{{site.data.keyword.cloud_notm}} SAP 认证的基础架构](/docs/bare-metal/bare-metal-sap-applications.html#ibm-cloud-sap-certified-infrastructure)。
+{{site.data.keyword.baremetal_short}} 和 {{site.data.keyword.BluVirtServers_short}} 供应有缺省存储器。{{site.data.keyword.baremetal_short}} 至少有 1 TB SATA 磁盘空间，{{site.data.keyword.BluVirtServers_short}} 至少有 25 GB SAN 存储器。对此例外的情况是 {{site.data.keyword.cloud_notm}} SAP 认证的 {{site.data.keyword.baremetal_short}}。有关这些服务器可用的缺省存储器的更多信息，请参阅 [{{site.data.keyword.cloud_notm}} SAP 认证的基础架构](/docs/bare-metal?topic=bare-metal-ibm-cloud-sap-certified-infrastructure)。
 
 您可以根据需要购买额外的存储器。请参阅下表以获取计算选项的摘要。
 
 |选项|描述
 |
 |--------|---------------|
-| [{{site.data.keyword.blockstorageshort}}](/docs//infrastructure/BlockStorage/index.html) |持久的高性能 iSCSI 存储器，可独立于计算实例进行供应和管理。基于 iSCSI 的块存储器 LUN 通过冗余多路径 I/O (MPIO) 连接来连接到授权设备。|
+| [{{site.data.keyword.blockstorageshort}}](/docs/infrastructure/BlockStorage/index.html) |持久的高性能 iSCSI 存储器，可独立于计算实例进行供应和管理。基于 iSCSI 的块存储器 LUN 通过冗余多路径 I/O (MPIO) 连接来连接到授权设备。|
 | [{{site.data.keyword.filestorage_short}}](/docs/infrastructure/FileStorage/index.html) |网络连接的基于 NFS 的文件存储器，具有持久、快速、灵活的特点。在此网络连接存储器 (NAS) 环境中，您对文件共享功能和性能具有完全控制权。文件存储器共享可以通过路由的 TCP/IP 连接与最多 64 个授权设备相连接，以实现弹性。|
-| [{{site.data.keyword.cos_full_notm}}](/docs/services/cloud-object-storage/about-cos.html) |使用 IBM Cloud Object Storage 存储的信息经过加密并分布在多个地理位置中，可利用 REST API 通过 HTTP 进行访问。此服务利用了 IBM Cloud Object Storage 系统（以前称为 Cleversafe）提供的分布式存储技术。|
+| [{{site.data.keyword.cos_full_notm}}](/docs/services/cloud-object-storage?topic=cloud-object-storage-getting-started-console-) |使用 IBM Cloud Object Storage 存储的信息经过加密并分布在多个地理位置中，可利用 REST API 通过 HTTP 进行访问。此服务利用了 IBM Cloud Object Storage 系统（以前称为 Cleversafe）提供的分布式存储技术。|
 |[{{site.data.keyword.cloud_notm}} Mass Data Migration](/docs/infrastructure/mass-data-migration/index.html)|Cloud Object Storage 存储区分担内部部署数据中心的大量数据。|
-|[EVault](/docs/infrastructure/Backup/index.html)|基于代理程序的自动备份系统，通过 EVault WebCC 基于浏览器的管理实用程序（仅适用于虚拟服务器）进行管理。在 IBM Cloud 网络上的一个或多个数据中心内的服务器之间备份数据。|
+| [{{site.data.keyword.backup_full}}](/docs/infrastructure/Backup/index.html) |基于代理程序的自动备份系统，通过基于浏览器的管理实用程序进行管理。可以在 IBM Cloud 网络上的一个或多个数据中心内的服务器之间备份数据。|
 {: caption="表 2. 存储选项" caption-side="top"}
 
 ### 联网
 {: #network}
 
-在设置 {{site.data.keyword.cloud_notm}} 帐户时，会自动建立与 {{site.data.keyword.vpn_full}} 的连接。缺省情况下，服务器有一个公共 IP 地址和一个专用 IP 地址。如果希望服务器为专用服务器，那么可在供应服务器后关闭公共接口，也可以将该服务器作为专用服务器进行订购。有关更多信息，请参阅[虚拟专用网入门](/docs/infrastructure/iaas-vpn/getting-started.html)。
+在设置 {{site.data.keyword.cloud_notm}} 帐户时，会自动建立与 {{site.data.keyword.vpn_full}} 的连接。缺省情况下，服务器有一个公共 IP 地址和一个专用 IP 地址。如果希望服务器为专用服务器，那么可在供应服务器后关闭公共接口，也可以将该服务器作为专用服务器进行订购。有关更多信息，请参阅[虚拟专用网入门](/docs/infrastructure/iaas-vpn?topic=VPN-getting-started-with-virtual-private-networking-vpn-)。
+
+<!-- begin staging only -->
+在基础架构层中，可以构建虚拟私有云，这是绑定到 {{site.data.keyword.cloud_notm}} 帐户的虚拟网络。虚拟私有云可作为入口点，提供云安全性以及动态扩展虚拟服务器实例 (VSI) 的能力。有关更多信息，请参阅 [IBM Cloud Virtual Private Cloud (VPC) 基础架构入门](/docs/vpc/vpc-getting-started-with-ibm-cloud-virtual-private-cloud-infrastructure)。
+<!-- end staging only -->
 
 请查看下表以获取联网选项的摘要。
 
 |选项|描述
 | 
 |--------|---------------|
-|[内容交付网络](/docs/infrastructure/CDN/about.html)|用于各种行业解决方案，包括媒体、娱乐、软件、游戏、银行和电子商务，以满足企业的需求。|
-|[域名服务](/docs/cli/reference/ibmcloud/cli_dns.html)|提供了一个中心位置，可通过基本 DNS 管理界面来查看和管理您自己的域，此外还提供了用于在同一位置中免费管理逆向和辅助 DNS 的选项。|
-|[全局 IP 地址](/docs/infrastructure/subnets/about-global-ip.html)|提供灵活性，并支持在服务器之间移动工作负载，甚至能在地理位置分散的数据中心之间移动工作负载。|
-|[负载均衡](/docs/infrastructure/local-load-balancer/about.html)|在数据中心内的多个服务器之间均匀地分配处理和通信，以便不会有单个设备承载整个负载。|
-|[虚拟路由器设备](/docs/infrastructure/virtual-router-appliance/about.html)|有选择地通过全功能的企业路由器（包含防火墙、流量塑形、基于策略的路由、VPN 及其他许多功能）来路由专用和公用网络流量。|
-|[IPSec VPN](/docs/infrastructure/iaas-vpn/set-up-ipsec-vpn.html)|一套协议，旨在使用提供加密的站点到站点网络的隧道方式，对两个位置之间的所有 IP 流量进行认证和加密。|
+|[内容交付网络](/docs/infrastructure/CDN?topic=CDN-getting-started)|用于各种行业解决方案，包括媒体、娱乐、软件、游戏、银行和电子商务，以满足企业的需求。|
+|[域名服务](/docs/cli/reference/ibmcloud?topic=cloud-cli-ibm-dev-tools-for-jetbrains)|提供了一个中心位置，可通过基本 DNS 管理界面来查看和管理您自己的域，此外还提供了用于在同一位置中免费管理逆向和辅助 DNS 的选项。|
+|[全局 IP 地址](/docs/infrastructure/subnets?topic=subnets-getting-started-with-subnets-and-ips)|提供灵活性，并支持在服务器之间移动工作负载，甚至能在地理位置分散的数据中心之间移动工作负载。|
+|[负载均衡](/docs/infrastructure/loadbalancer-service?topic=loadbalancer-service-getting-started-with-ibm-cloud-load-balancer)|在数据中心内的多个服务器之间均匀地分配处理和通信，以便不会有单个设备承载整个负载。|
+|[虚拟路由器设备](/docs/infrastructure/virtual-router-appliance/getting-started.html)|有选择地通过全功能的企业路由器（包含防火墙、流量塑形、基于策略的路由、VPN 及其他许多功能）来路由专用和公用网络流量。|
+|[IPSec VPN](/docs/infrastructure/iaas-vpn?topic=VPN-set-up-ipsec-vpn)|一套协议，旨在使用提供加密的站点到站点网络的隧道方式，对两个位置之间的所有 IP 流量进行认证和加密。|
 |{{site.data.keyword.cloud_notm}} Direct Link|利用云交换提供者来交付与 {{site.data.keyword.cloud_notm}} 基础架构位置的连接。|
 {: caption="表 3. 联网选项" caption-side="top"}
 
@@ -146,8 +150,8 @@ lastupdated: "2019-01-04"
 |任务|描述
 |
 |--------|---------------|
-|[监视系统事件](/docs/account/audit_log.html)|查看已对基础架构资源执行的操作。|
-|[设置电子邮件首选项](/docs/account/email.html)|设置有关计划外事件、维护和声明的 {{site.data.keyword.cloud_notm}} 基础架构电子邮件通知。|
-|[了解数据安全程度](/docs/overview/security.html)|{{site.data.keyword.cloud_notm}} 平台通过不同的层对整个网络和基础架构进行安全控制。|
-|[了解如何确保零停机时间](/docs/overview/zero_downtime.html)|所有 {{site.data.keyword.cloud_notm}} 资源都在全球范围的各数据中心位置进行托管。|
+|[监视系统事件](/docs/account?topic=account-audit-log)|查看已对基础架构资源执行的操作。|
+|[设置电子邮件首选项](/docs/account?topic=account-email-prefs)|设置有关计划外事件、维护和声明的 {{site.data.keyword.cloud_notm}} 基础架构电子邮件通知。|
+|[了解数据安全程度](/docs/overview?topic=overview-security)|{{site.data.keyword.cloud_notm}} 平台通过不同的层对整个网络和基础架构进行安全控制。|
+|[了解如何确保零停机时间](/docs/overview?topic=overview-zero-downtime)|所有 {{site.data.keyword.cloud_notm}} 资源都在全球范围的各数据中心位置进行托管。|
 {: caption="表 4. 管理任务" caption-side="top"}

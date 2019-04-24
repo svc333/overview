@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2019
-lastupdated: "2019-03-12"
+lastupdated: "2019-02-18"
 
 keywords: catalog, resources display, manage visibility
 
@@ -22,7 +22,7 @@ subcollection: overview
 ## 管理可视性
 {: #manage-vis}
 
-您想对目录中的显示内容进行更多的控制吗？您想让个别资源对一些用户可见，而对另一些用户不可见吗？如果您拥有适当的管理员权限，那么可以使用 {{site.data.keyword.Bluemix_notm}} [CLI](/docs/cli?topic=cloud-cli-ibmcloud-cli) 来查看和设置目录资源的可视性。
+您想对目录中的显示内容进行更多的控制吗？您想让个别资源对一些用户可见，而对另一些用户不可见吗？如果您拥有适当的管理员权限，那么可以使用 {{site.data.keyword.Bluemix_notm}} [CLI](/docs/cli/reference/ibmcloud?topic=cloud-cli-overview) 来查看和设置目录资源的可视性。
 
 有关更多信息，请参阅以下主题。
 

@@ -3,11 +3,7 @@
 
 copyright:
   years: 2018, 2019
-lastupdated: "2019-03-14"
-
-keywords: feedback button, comments, requirements, product improvements
-
-subcollection: overview
+lastupdated: "2019-02-18"
 
 ---
 
@@ -18,8 +14,12 @@ subcollection: overview
 # Invio del feedback
 {: #feedback}
 
-Non vediamo l'ora di sentirti. Puoi inviare il feedback per il team {{site.data.keyword.Bluemix_notm}} nella documentazione o nella console. Puoi scegliere tra alcuni diversi metodi per fornire il feedback.
-{: shortdesc}
+Non vediamo l'ora di sentirti. Puoi inviare il feedback per il team {{site.data.keyword.Bluemix_notm}} nella documentazione o nella console. Puoi utilizzare alcuni metodi differenti per fornire il feedback:
+
+* Utilizza il pulsante **Feedback** per fornire un commento su una pagina della documentazione specifica o un'area dell'interfaccia utente della console che ti piace particolarmente o con cui stai avendo dei problemi.
+* Utilizza il link **Modifica in GitHub** all'inizio di ogni pagina della documentazione per fornire una modifica consigliata del contenuto utilizzando il metodo di richiesta di importazione GitHub.
+* Apri un problema in GitHub per la documentazione da aggiornare o migliorate fornendo un commento o una richiesta di chiarimento su un argomento specifico. 
+* Invia un'idea per migliorare il prodotto o un servizio specifico nel portale delle idee {{site.data.keyword.Bluemix_notm}}.
 
 ## Invio di un commento con il pulsante di feedback
 {: #feedback-button}
@@ -34,11 +34,6 @@ Quando stai leggendo una pagina di documentazione o completando un'attività nel
 
 I blocchi degli annunci comuni bloccano Usabilla e nascondono il pulsante **Feedback**. Disabilita i blocchi degli annunci per utilizzare il pulsante **Feedback** per inviare i tuoi commenti.
 {: tip}
-
-## Invio del feedback su un argomento della documentazione
-{: #feedback-topic}
-
-Puoi inviare il feedback su un argomento della documentazione specifico utilizzando i pulsanti **Questa pagina è stata utile?** visualizzati al termine di ogni argomento. Trovi le informazioni utili? Fai clic su **Sì** e fornisci facoltativamente un commento. Se non le trovi utili o hai dei suggerimenti per dei miglioramenti, fai clic su **No** e fornisci ulteriori dettagli.  
 
 ## Fornire un aggiornamento del contenuto con una richiesta di importazione
 {: #feedback-pr}

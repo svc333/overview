@@ -3,11 +3,7 @@
 
 copyright:
   years: 2018, 2019
-lastupdated: "2019-03-14"
-
-keywords: feedback button, comments, requirements, product improvements
-
-subcollection: overview
+lastupdated: "2019-02-18"
 
 ---
 
@@ -18,8 +14,12 @@ subcollection: overview
 # Envoi de commentaires en retour
 {: #feedback}
 
-Faites-nous part de vos impressions ! Vous pouvez envoyer vos commentaires à l'équipe {{site.data.keyword.Bluemix_notm}} sur la documentation ou la console. Vous pouvez utiliser différentes méthodes pour nous faire part de vos commentaires.
-{: shortdesc}
+Faites-nous part de vos impressions ! Vous pouvez envoyer vos commentaires à l'équipe {{site.data.keyword.Bluemix_notm}} sur la documentation ou la console. Vous pouvez utiliser différentes méthodes pour nous faire part de vos commentaires :
+
+* Utilisez le bouton **Commentaires** pour fournir un commentaire sur une page spécifique de la documentation ou une partie de l'interface utilisateur de console que vous appréciez particulièrement ou avec laquelle vous rencontrez des difficultés.
+* Utilisez le lien **Edition dans GitHub** situé en haut de la page de documentation pour suggérer une édition du contenu à l'aide de la méthode de demande d'extraction GitHub.
+* Ouvrez un problème dans GitHub pour mettre à jour ou améliorer la documentation en indiquant un commentaire ou une demande de clarification concernant un sujet spécifique. 
+* Soumettez une idée d'amélioration du produit ou d'un service spécifique dans le portail d'idées {{site.data.keyword.Bluemix_notm}}.
 
 ## Soumission d'un commentaire à l'aide du bouton Commentaires
 {: #feedback-button}
@@ -35,15 +35,10 @@ Lorsque vous lisez une page de documentation ou exécutez une tâche à l'aide d
 Les bloqueurs de publicité les plus répandus bloquent Usabilla et masquent le bouton **Envoyer un commentaire**. Pour pouvoir envoyer des commentaires, désactivez les bloqueurs de publicité****.
 {: tip}
 
-## Soumission de commentaires concernant une rubrique de documentation
-{: #feedback-topic}
-
-Vous pouvez soumettre des commentaires concernant une rubrique de documentation spécifique en utilisant le bouton **Was this topic helpful?** s'affichant en bas de chaque rubrique. Estimez-vous que ces informations sont utiles ? Cliquez sur **Yes** et indiquez éventuellement un commentaire. Dans le cas contraire ou si vous avez des suggestions permettant d'améliorer le contenu de la rubrique, cliquez sur **No** et entrez des informations supplémentaires.  
-
 ## Procédure visant à fournir une mise à jour de contenu via une demande d'extraction
 {: #feedback-pr}
 
-Vous pouvez suggérer des modifications à apporter à n'importe quelle page de documentation en utilisant le lien **Edition dans GitHub** situé en haut de chaque page. En suivant ce lien et en éditant la page, vous pouvez soumettre des mises à jour dans une demande d'extraction qui sera examinée et fusionnée par l'équipe chargée du contenu. 
+Vous pouvez suggérer des modifications à apporter à n'importe quelle page de documentation en utilisant le lien **Edition dans GitHub** situé en haut de chaque page. En  suivant ce lien et en éditant la page, vous pouvez soumettre des mises à jour dans une demande d'extraction qui sera examinée et fusionnée par l'équipe chargée du contenu. 
 
 Suivez la procédure ci-dessous pour envoyer une demande d'extraction à l'équipe chargée du contenu :
 

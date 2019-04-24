@@ -3,11 +3,7 @@
 
 copyright:
   years: 2016, 2019
-lastupdated: "2019-03-14"
-
-keywords: console, platform overview, overview
-
-subcollection: overview
+lastupdated: "2019-01-31"
 
 ---
 
@@ -101,7 +97,7 @@ Der Plattformservice für die Preisstruktur unterstützt Sie dabei, Preisinforma
 ### Nutzungsmessung
 {: #metering}
 
-Bei der Nutzungsüberwachung können Service-Provider Metriken einreichen, die für Ressourceninstanzen erfasst werden, die von {{site.data.keyword.Bluemix_notm}}-Benutzern bereitgestellt werden. Drittanbieter, die einen integrierten Abrechnungsservice #bereitstellen, sind dazu verpflichtet, die Nutzung für alle aktiven Serviceinstanzen stündlich einzureichen. 
+Bei der Nutzungsüberwachung können Service-Provider Metriken einreichen, die für Ressourceninstanzen erfasst werden, die von {{site.data.keyword.Bluemix_notm}}-Benutzern bereitgestellt werden. Drittanbieter, die einen integrierten Abrechnungsservice #bereitstellen, sind dazu verpflichtet, die Nutzung für alle aktiven Serviceinstanzen stündlich einzureichen.  
 
 ### Nutzungsberichte
 {: #usage}
@@ -118,17 +114,17 @@ Der {{site.data.keyword.Bluemix_notm}}-Katalog dient zur Speicherung der Angebot
 
 Der Ressourcencontroller ist die {{site.data.keyword.Bluemix_notm}}-Plattformbereitstellungsebene der nächsten Generation, die den Lebenszyklus von {{site.data.keyword.Bluemix_notm}}-Ressourcen in Ihrem Konto verwaltet. Ressourcen werden global im Gültigkeitsbereich eines Kontos bereitgestellt. Der Ressourcencontroller unterstützt sowohl die synchrone als auch die asynchrone Bereitstellung von Ressourcen. Beispiele für Ressourcen sind unter anderem Datenbanken und Konten, Prozessoren, Speicher und Speichergrenzwerte. 
 
-Im Allgemeinen dienen Ressourcen, die in der Bereitstellungsebene überwacht werden, der Zuordnung von Nutzungsmetriken und Abrechnungen, dies ist jedoch nicht zwingend erforderlich. In einigen Fällen kann die Ressource der Bereitstellungsebene zugeordnet werden, um sicherzustellen, dass der Lebenszyklus der Ressource zusammen mit dem Lebenszyklus des Kontos verwaltet werden kann. Der Ressourcencontroller verwendet {{site.data.keyword.Bluemix_notm}} Identity and Access Management (IAM) für die Authentifizierung und Autorisierung von Aktionen, die für die Bereitstellungsebene ausgeführt werden.
+Im Allgemeinen dienen Ressourcen, die in der Bereitstellungsebene überwacht werden, der Zuordnung von Nutzungsmetriken und Abrechnungen, dies ist jedoch nicht zwingend erforderlich. In einigen Fällen kann die Ressource der Bereitstellungsebene zugeordnet werden, um sicherzustellen, dass der Lebenszyklus der Ressource zusammen mit dem Lebenszyklus des Kontos verwaltet werden kann. Der Ressourcencontroller verwendet {{site.data.keyword.Bluemix_notm}} Identity and Access Management (IAM) für die Authentifizierung und Autorisierung von Aktionen, die für die Bereitstellungsebene ausgeführt werden. 
 
 ### Verwaltung des Lebenszyklus von Ressourcen
 {: #lifecycle}
 
-Der Ressourcencontroller stellt gemeinsame APIs zur Verfügung, mit dem der Lebenszyklus von Ressourcen ab dem Erstellen einer Instanz über das Erstellen von Zugriffsberechtigungsnachweisen und das Entfernen des Zugriffs bis zum Löschen einer Instanz gesteuert werden kann.
+Der Ressourcencontroller stellt gemeinsame APIs zur Verfügung, mit dem der Lebenszyklus von Ressourcen ab dem Erstellen einer Instanz über das Erstellen von Zugriffsberechtigungsnachweisen und das Entfernen des Zugriffs bis zum Löschen einer Instanz gesteuert werden kann. 
 
 ## Ressourcen verwalten
 {: #resource-manager}
 
-Eine Sammlung von Ressourcen wird von [Ressourcengruppen](/docs/overview?topic=overview-whatis-rgs) verwaltet. Ihrem Konto ist eine Ressourcengruppe zugeordnet. Alle {{site.data.keyword.Bluemix_notm}}-Ressourcen müssen einer Ressourcengruppe zugewiesen sein. Wenn Sie ein Konto erstellen, wird eine Standardressourcengruppe für Sie erstellt. Alle Ressourcen, die für {{site.data.keyword.Bluemix_notm}} IAM aktiviert sind, müssen innerhalb einer Ressourcengruppe bereitgestellt werden. Bei einem Lite-Konto können Sie lediglich eine Ressourcengruppe haben. Wenn Sie über ein Konto mit nutzungsabhängiger Zahlung oder ein Abonnementkonto verfügen, können Sie mehr als nur eine Ressourcengruppe erstellen. Wenn ein Account ausgesetzt wird, so wird die entsprechende Ressourcengruppe ebenfalls ausgesetzt und alle Ressourcen in dieser Ressourcengruppe werden auch ausgesetzt. 
+Eine Sammlung von Ressourcen wird von [Ressourcengruppen](/docs/overview?topic=overview-whatis-rgs) verwaltet. Ihrem Konto ist eine Ressourcengruppe zugeordnet. Alle {{site.data.keyword.Bluemix_notm}}-Ressourcen müssen einer Ressourcengruppe zugewiesen sein. Wenn Sie ein Konto erstellen, wird eine Standardressourcengruppe für Sie erstellt. Alle Ressourcen, die für {{site.data.keyword.Bluemix_notm}} IAM aktiviert sind, müssen innerhalb einer Ressourcengruppe bereitgestellt werden. Bei einem Lite-Konto können Sie lediglich eine Ressourcengruppe haben. Wenn Sie über ein Konto mit nutzungsabhängiger Zahlung oder ein Abonnementkonto verfügen, können Sie mehr als nur eine Ressourcengruppe erstellen.Wenn ein Account ausgesetzt wird, so wird die entsprechende Ressourcengruppe ebenfalls ausgesetzt und alle Ressourcen in dieser Ressourcengruppe werden auch ausgesetzt. 
 
 ## Ressourcen durchsuchen und mit Tags versehen
 {: #search-and-tag}

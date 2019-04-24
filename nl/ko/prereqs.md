@@ -3,11 +3,7 @@
 
 copyright:
   years: 2016, 2019
-lastupdated: "2019-03-14"
-
-keywords: prereqs, platform prereqs, platform prerequisites
-
-subcollection: overview
+lastupdated: "2019-01-24"
 
 ---
 
@@ -37,4 +33,4 @@ subcollection: overview
 ## 명령행 인터페이스(CLI)
 {: #cli-platform}
 
-{{site.data.keyword.Bluemix_notm}} CLI가 지속적으로 변경되므로, 항상 최신 CLI 버전을 제공하는 [독립형 {{site.data.keyword.Bluemix_notm}} CLI 설치](/docs/cli/reference/ibmcloud/cloud-cli-install_use) 페이지로 이동하는 것이 좋습니다.
+{{site.data.keyword.Bluemix_notm}} CLI가 지속적으로 변경되므로, 항상 최신 CLI 버전을 제공하는 [독립형 {{site.data.keyword.Bluemix_notm}} CLI 설치](/cli/reference/ibmcloud/cloud-cli-install_use) 페이지로 이동하는 것이 좋습니다. 

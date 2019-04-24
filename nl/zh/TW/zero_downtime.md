@@ -1,10 +1,10 @@
 ---
 
 copyright:
+  years: 2018, 2019
+lastupdated: "2019-02-07"
 
-  years: 2018
-
-lastupdated: "2018-11-28"
+metadata: HA,failover,DR 
 
 ---
 
@@ -33,6 +33,7 @@ lastupdated: "2018-11-28"
 災難回復是關於如何在單一位置發生災難性失效或失去可用性時維持運作。為了確保災難回復已就緒，必須在多個位置部署數個 {{site.data.keyword.Bluemix_notm}} 環境，以避免單一失敗點。這些環境可以是「公用」、「專用」或「本端」平台的組合。  
 
 ### 災難回復計劃 
+{: #dr-plan}
 
 {{site.data.keyword.Bluemix_notm}} 遵循需求來針對災難進行規劃，每個應用程式都有一個計劃，供您在發生災難事件之後回復或重新啟動。回復是從回復中心或還原運算之替代運算設備的電子備份中進行。在發生任何潛在的災難之前，災難回復計劃包含了對於硬體、軟體、網路連線功能及離站備份功能的系統及管理需求。
 
@@ -45,6 +46,7 @@ lastupdated: "2018-11-28"
 - 災難回復計劃會指定在災難模式下執行時的安全控制措施（如果它們與在正式作業中執行時的安全控制措施不同）。 
 
 ### 災難回復計劃的管理 
+{: #dr-plan-mgmt}
 
 以下是 {{site.data.keyword.Bluemix}} 遵循的需求： 
 
@@ -56,7 +58,7 @@ lastupdated: "2018-11-28"
 
 您可以在不同的位置建立應用程式和服務實例，而使用相同的 {{site.data.keyword.cloud_notm}} 基礎架構進行應用程式管理，以及使用相同的用量詳細資料視圖處理計費。您可以將應用程式部署至最接近客戶的位置，以縮短應用程式的延遲時間。 
 
-為了解決安全問題，您也可以選取想要保留應用程式資料的位置。在多個位置建置應用程式時，如果其中一個位置變成無法使用，則位於其他位置的應用程式會繼續執行。您所用每個位置的資源額度都相同。如需平台資源及其可用位置的相關資訊，請參閱[服務可用性](/docs/resources/services_region.html#services_region)。
+為了解決安全問題，您也可以選取想要保留應用程式資料的位置。在多個位置建置應用程式時，如果其中一個位置變成無法使用，則位於其他位置的應用程式會繼續執行。您所用每個位置的資源額度都相同。如需平台資源及其可用位置的相關資訊，請參閱[服務可用性](docs/resources?topic=resources-services_region)。
 
 {{site.data.keyword.cloud_notm}} 主控台的廣域負載平衡可確保如果離您最近的地理位置無法使用，主控台會顯示下一個最近位置的資訊。如此一來，您隨時都可以存取主控台，而不需要採取任何動作來存取所需的資源。
 
@@ -65,18 +67,19 @@ lastupdated: "2018-11-28"
 您也可以使用指令行介面 (CLI) 來連接至所要使用的 {{site.data.keyword.cloud_notm}} 位置，方法是使用 `ibmcloud api` 指令，並指定該位置的 API 端點。例如，輸入下列指令以連接至倫敦的 {{site.data.keyword.cloud_notm}}：
 
 ```
-ibmcloud api https://api.eu-gb.bluemix.net
+ibmcloud api https://api.eu-gb.cf.cloud.ibm.com
 ```
 
 每個位置會被指派一個唯一的字首。{{site.data.keyword.cloud_notm}} 提供下列位置及位置字首。
 
 | **位置** | **API 端點** |
 |---------------|-------------------------|
-| 達拉斯 |api.ng.bluemix.net|
-|雪梨 | api.au-syd.bluemix.net |
-| 法蘭克福 | api.eu-de.bluemix.net |
-| 倫敦 | api.eu-gb.bluemix.net |
-| 華盛頓特區 | api.us-east.bluemix.net |
+| 達拉斯 | api.us-south.cf.cloud.ibm.com  |
+| 法蘭克福 | api.eu-de.cf.cloud.ibm.com  |
+| 倫敦 | api.eu-gb.cf.cloud.ibm.com  |
+|雪梨 | api.au-syd.cf.cloud.ibm.com  |
+| 東京 | api.jp-tok.cf.cloud.ibm.com  |
+| 華盛頓特區 | api.us-east.cf.cloud.ibm.com  |
 {: caption="表 1. {{site.data.keyword.cloud_notm}} 位置清單" caption-side="top"}
 
 當您部署基礎架構資源時，有更多關於資料所在位置的選項。您可以選取一個位置，或者可以從 {{site.data.keyword.Bluemix_notm}} 的資料中心清單進行選取。 
@@ -172,11 +175,12 @@ ibmcloud api https://api.eu-gb.bluemix.net
 
 {{site.data.keyword.Bluemix_notm}} 提供 {{site.data.keyword.Bluemix_notm}} 服務的 SLA，可能讓您符合在帳戶獲得額度的資格。SLA 是您解決 {{site.data.keyword.Bluemix_notm}} 未能達到指定服務水準的唯一方式。{{site.data.keyword.Bluemix_notm}} 針對單一專用或本端環境內平台服務的多個實例，提供 99.5% 的可用性服務水準。
 
-如需專用環境的相關資訊，請參閱 [IBM Cloud Dedicated](/docs/dedicated/index.html#dedicated)，至於本端環境，請按一下 [Bluemix Local](/docs/local/index.html#local)。 
+如需專用環境的相關資訊，請參閱 [IBM Cloud Dedicated](/docs/hybrid?topic=dedicated-dedicated)，至於本端環境，請參閱 [Bluemix Local](/docs/hybrid?topic=local-local)。 
 
 如需 {{site.data.keyword.Bluemix_notm}} 的完整服務說明，請參閱 [Cloud Services terms](http://www-03.ibm.com/software/sla/sladb.nsf/sla/bm){: new_window} ![外部鏈結圖示](../icons/launch-glyph.svg "外部鏈結圖示")。
 
 ### 可用性運作中斷時間 SLA
+{: #avail-downtime}
 
 如果您遇到不足 99.5% 的可用性運作中斷時間，您就符合在帳戶獲得額度的資格。可用性運作中斷時間是指您無法連接至任何服務實例的總分鐘數。運作中斷時間總分鐘數的計算從您提交中斷事件的報告開始，並在至少有一個受影響實例可供使用時截止。
 
@@ -207,6 +211,7 @@ SLA 不包括與指定排除項目、{{site.data.keyword.Bluemix_notm}} 使用�
 {: note}
 
 ### 基礎架構服務 SLA
+{: #iaas-slas}
 
 基礎架構服務是指裸機伺服器和虛擬伺服器、網路、儲存空間及安全服務。若要尋找基礎架構服務的完整清單，請使用 `iaas` 標籤來搜尋 {{site.data.keyword.Bluemix_notm}} 型錄。 
 
@@ -215,6 +220,8 @@ SLA 不包括與指定排除項目、{{site.data.keyword.Bluemix_notm}} 使用�
 運作中斷時間不包括已排定或已公告維護的時間。針對每連續 30 分鐘的運作中斷時間，您會獲得受中斷直接影響之已識別服務每月費用 5% 的額度。如果運作中斷時間少於連續 30 分鐘，則不符合獲得額度的資格。不同中斷類型的運作中斷時間無法合併進行此計算。
 
 ### 基礎架構硬體更換及升級 SLA
+{: #hw-replaceupgrade-sla}
+
 {{site.data.keyword.Bluemix_notm}} 會在更換故障的硬體或執行排定的硬體升級時，嘗試將運作中斷時間縮到最短。 
 
 {{site.data.keyword.Bluemix_notm}} 針對以下狀況提供額度：
@@ -235,6 +242,8 @@ SLA 不包括與指定排除項目、{{site.data.keyword.Bluemix_notm}} 使用�
 {: caption="表 7. 根據受硬體更換或升級影響之服務每月費用計算的額度" caption-side="top"}
 
 ### 索賠
+{: #claims}
+
 請在未達到服務水準的合約月份結束 60 天內提出索賠。請提供足夠的資訊以識別受影響的服務、錯誤訊息，以及驗證索賠所需的其他資訊。 
 
 此額度是根據受影響服務在合約月份期間內之累計可用性，並使用該等受影響服務之每月費用所計算出的最高適用補償。額度不得超過每月費用的 25%。
@@ -242,6 +251,8 @@ SLA 不包括與指定排除項目、{{site.data.keyword.Bluemix_notm}} 使用�
 若要提交運作中斷時間索賠，請與 [{{site.data.keyword.Bluemix_notm}} 支援中心 ](https://console.cloud.ibm.com/unifiedsupport/supportcenter){: new_window} ![外部鏈結圖示](../icons/launch-glyph.svg "外部鏈結圖示") 聯絡。
 
 ### 排除適用
+{: #exclusions}
+
 因為下列原因而未達到 SLA，將不提供額度：
 - 客戶或社群提供的內容、技術、設計或指示有問題
 - 測試版、實驗性或免費雲端服務

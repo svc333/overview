@@ -3,11 +3,7 @@
 
 copyright:
   years: 2016, 2019
-lastupdated: "2019-03-14"
-
-keywords: prereqs, platform prereqs, platform prerequisites
-
-subcollection: overview
+lastupdated: "2019-01-24"
 
 ---
 
@@ -38,4 +34,4 @@ Probleme mit Internet Explorer 11 können Sie über die Schaltfläche **Feedback
 ## Befehlszeilenschnittstelle (CLI)
 {: #cli-platform}
 
-Da die {{site.data.keyword.Bluemix_notm}}-Befehlszeilenschnittstelle kontinuierlich geändert wird, wird empfohlen, den Download und die Installation über die Seite [Eigenständige {{site.data.keyword.Bluemix_notm}}-Befehlszeilenschnittstelle installieren](/docs/cli/reference/ibmcloud/cloud-cli-install_use) durchzuführen, die stets auf die neueste Version verweist.
+Da die {{site.data.keyword.Bluemix_notm}}-Befehlszeilenschnittstelle kontinuierlich geändert wird, wird empfohlen, den Download und die Installation über die Seite [Eigenständige {{site.data.keyword.Bluemix_notm}}-Befehlszeilenschnittstelle installieren](/cli/reference/ibmcloud/cloud-cli-install_use) durchzuführen, die stets auf die neueste Version verweist. 

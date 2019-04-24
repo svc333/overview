@@ -1,10 +1,10 @@
 ---
 
 copyright:
+  years: 2018, 2019
+lastupdated: "2019-02-07"
 
-  years: 2018
-
-lastupdated: "2018-11-28"
+metadata: HA,failover,DR 
 
 ---
 
@@ -33,6 +33,7 @@ Toutes les ressources {{site.data.keyword.Bluemix_notm}} sont hébergées dans d
 Le processus de reprise après incident est utilisé suite à une grave défaillance ou suite à une perte de disponibilité à un emplacement unique. Pour s'assurer que ce processus est en place, il est nécessaire de déployer plusieurs environnements {{site.data.keyword.Bluemix_notm}} à plusieurs emplacements afin d'éviter des points de défaillance uniques. Ces environnements peuvent être une combinaison de plateformes publiques, dédiées ou locales.  
 
 ### Plan de reprise après incident 
+{: #dr-plan}
 
 {{site.data.keyword.Bluemix_notm}} respecte les exigences de planification en cas de sinistre. Chaque application dispose d'un plan vous permettant d'effectuer la reprise ou le redémarrage après un sinistre. Cette opération s'effectue à partir des sauvegardes électroniques d'un centre de récupération ou d'autres sites permettant la restauration de données informatiques. Avant tout sinistre potentiel, le plan de reprise après incident permet de répondre aux exigences d'hébergement et des systèmes pour les fonctions de sauvegarde hors site, de connectivité réseau, de logiciel et de matériel.
 
@@ -40,11 +41,12 @@ La liste suivante présente les exigences du plan de reprise après incident :
 
 - Pour l'équilibrage de charge, vous disposez d'un document décrivant comment le service de calcul reste disponible. 
 - Lorsqu'un basculement survient sur plusieurs sites, le plan de reprise après incident doit décrire les actions à l'origine du basculement et garantir le redémarrage. 
-- Le plan de reprise après incident doit définir le mode de fonctionnement de la solution et indiquer la perte de données. 
-- Il doit garantir que le temps d'indisponibilité tolérable maximal est respecté et être stocké dans la base de données du plan de reprise après incident.  
-- Le plan de reprise après incident définit les contrôles de sécurité pour l'exécution en mode Sinistre s'ils sont différents de ceux utilisés lors de l'exécution en mode Production. 
+- Il doit définir le mode de fonctionnement de la solution et indiquer la perte de données. 
+- Il doit garantir que le temps d'indisponibilité tolérable maximal est respecté. De plus, il doit être stocké dans la base de données de plan de reprise après incident.  
+- Il définit les contrôles de sécurité pour l'exécution en mode Sinistre s'ils sont différents de ceux utilisés lors de l'exécution en mode Production. 
 
 ### Gestion du plan de reprise après incident 
+{: #dr-plan-mgmt}
 
 {{site.data.keyword.Bluemix}} respecte les exigences suivantes : 
 
@@ -56,7 +58,7 @@ La liste suivante présente les exigences du plan de reprise après incident :
 
 Vous pouvez créer des instances d'application et de service dans différents emplacements avec la même infrastructure {{site.data.keyword.cloud_notm}} pour la gestion des applications et la même vue détaillée de l'utilisation pour la facturation. Vous pouvez déployer vos applications à l'emplacement le plus proche de vos clients pour réduire les temps d'attente pour vos applications. 
 
-Pour des raisons de sécurité, vous pouvez également sélectionner l'emplacement de conservation des données d'application. Lorsque vous construisez des applications sous un ou plusieurs emplacements et que l'un d'eux devient indisponible, les applications situées aux autres emplacements continuent de fonctionner. Votre franchise de ressources est la même dans tous les emplacements que vous utilisez. Pour plus d'informations sur les ressources de plateforme et les emplacements où elles sont disponibles, voir [Disponibilité des services](/docs/resources/services_region.html#services_region).
+Pour des raisons de sécurité, vous pouvez également sélectionner l'emplacement de conservation des données d'application. Lorsque vous construisez des applications sous un ou plusieurs emplacements et que l'un d'eux devient indisponible, les applications situées aux autres emplacements continuent de fonctionner. Votre franchise de ressources est la même dans tous les emplacements que vous utilisez. Pour plus d'informations sur les ressources de plateforme et les emplacements où elles sont disponibles, voir [Disponibilité des services](docs/resources?topic=resources-services_region).
 
 L'équilibrage de charge global pour la console {{site.data.keyword.cloud_notm}} garantit que si l'emplacement géographique le plus proche n'est pas disponible, la console affiche les informations de l'emplacement le plus proche suivant. De la sorte, vous pouvez toujours accéder à la console sans avoir à effectuer d'action pour obtenir les ressources dont vous avez besoin.
 
@@ -65,18 +67,19 @@ Par défaut, vous pouvez afficher dans la console toutes les ressources de tous 
 Vous pouvez également utiliser l'interface de ligne de commande (CLI) pour établir une connexion à l'emplacement {{site.data.keyword.cloud_notm}} souhaité en utilisant la commande `ibmcloud api` et en spécifiant le noeud final d'API de l'emplacement. Entrez, par exemple, la commande suivante, pour vous connecter à {{site.data.keyword.cloud_notm}}, Londres :
 
 ```
-ibmcloud api https://api.eu-gb.bluemix.net
+ibmcloud api https://api.eu-gb.cf.cloud.ibm.com
 ```
 
 Un préfixe unique est affecté à chaque emplacement. {{site.data.keyword.cloud_notm}} fournit les emplacements et les préfixes d'emplacement suivants :
 
 | **Emplacement**  | **Noeud final d'API**        |
 |---------------|-------------------------|
-| Dallas        | api.ng.bluemix.net      |
-| Sydney        | api.au-syd.bluemix.net  |
-| Francfort     | api.eu-de.bluemix.net   |
-| Londres        | api.eu-gb.bluemix.net   |
-| Washington DC | api.us-east.bluemix.net |
+| Dallas        | api.us-south.cf.cloud.ibm.com  |
+| Francfort     | api.eu-de.cf.cloud.ibm.com  |
+| Londres        | api.eu-gb.cf.cloud.ibm.com  |
+| Sydney        | api.au-syd.cf.cloud.ibm.com  |
+| Tokyo         | api.jp-tok.cf.cloud.ibm.com  |
+| Washington DC | api.us-east.cf.cloud.ibm.com  |
 {: caption="Tableau 1. Liste des emplacements {{site.data.keyword.cloud_notm}}" caption-side="top"}
 
 Lorsque vous déployez des ressources d'infrastructure, vous disposez de plus de choix quant à l'emplacement de vos données. Vous pouvez sélectionner un emplacement ou effectuer une sélection dans une liste de centres de données dans {{site.data.keyword.Bluemix_notm}}. 
@@ -172,11 +175,12 @@ Pour soumettre une réclamation de temps d'indisponibilité, contactez le [suppo
 
 {{site.data.keyword.Bluemix_notm}} inclut des accords sur les niveaux de service pour les services {{site.data.keyword.Bluemix_notm}} pouvant vous donner droit à des crédits pour votre compte. Les accords sur les niveaux de service constituent la seule méthode permettant de résoudre l'impossibilité d'{{site.data.keyword.Bluemix_notm}} d'atteindre un niveau de service défini. {{site.data.keyword.Bluemix_notm}} fournit un niveau de service de disponibilité de 99,5 % pour plusieurs instances d'un service de plateforme dans un environnement dédié ou local.
 
-Pour plus d'informations sur les environnements dédiés, voir [IBM Cloud Dedicated](/docs/dedicated/index.html#dedicated) et pour les environnements locaux, cliquez sur [Bluemix Local](/docs/local/index.html#local). 
+Pour plus d'informations sur les environnements dédiés, voir [IBM Cloud Dedicated](/docs/hybrid?topic=dedicated-dedicated) et pour plus d'informations sur les environnements locaux, voir [Bluemix Local](/docs/hybrid?topic=local-local). 
 
 La description de service complète d'{{site.data.keyword.Bluemix_notm}} est disponible sur la page [Cloud Services terms](http://www-03.ibm.com/software/sla/sladb.nsf/sla/bm){: new_window} ![Icône de lien externe](../icons/launch-glyph.svg "Icône de lien externe").
 
 ### Temps d'indisponibilité - Accord sur les niveaux de service
+{: #avail-downtime}
 
 Vous pouvez bénéficier d'un crédit pour votre compte si le temps d'indisponibilité est inférieur à 99,5 % de disponibilité. Le temps d'indisponibilité correspond au nombre total de minutes durant lesquelles vous ne pouvez vous connecter à aucune instance de service. Cette période commence lorsque vous soumettez un rapport d'événement d'indisponibilité et se termine lorsque au moins une des instances affectées est à nouveau disponible pour être utilisée.
 
@@ -184,7 +188,7 @@ Vous pouvez bénéficier d'un crédit pour votre compte si le temps d'indisponib
 - Les services cloud dans l'environnement public configurés pour la haute disponibilité tels qu'ils sont décrits dans les détails de catalogue pour chaque service. 
 - Les services cloud dans plusieurs environnements locaux ou dédiés se trouvant dans des centres de données à différents emplacements géographiques. 
 
-| Type	                                                                        | Description	       | Informations relatives au support|
+| Type	 | Description	 | Informations relatives au support|
 |-------------------------------------------------------------------------------|--------------------|----------------|
 | Environnement public à haute disponibilité ou plusieurs environnements locaux/dédiés | Autres environnements | Crédit         |
 | <99,9 5%                                                                       |<99,5 %              |10 %             |
@@ -207,6 +211,7 @@ Les accords sur les niveaux de service concernant le temps d'indisponibilité n'
 {: note}
 
 ### Services d'infrastructure - Accord sur les niveaux de service
+{: #iaas-slas}
 
 Les serveurs Bare Metal, les serveurs virtuels, les réseaux, le stockage et les services de sécurité constituent des services d'infrastructure. Pour trouver la liste complète des services d'infrastructure, recherchez l'étiquette `iaas` dans le catalogue {{site.data.keyword.Bluemix_notm}}. 
 
@@ -215,6 +220,8 @@ Le temps d'indisponibilité correspond au nombre total de minutes durant lesquel
 Le temps d'indisponibilité n'inclut pas la période de maintenance annoncée ou planifiée. Pour chaque période continue d'indisponibilité de 30 minutes, vous recevez un crédit de 5 % des frais mensuels pour les services identifiés directement affectés par l'indisponibilité. Vous n'êtes pas éligible à un crédit si le temps d'indisponibilité est inférieur à une période continue de 30 minutes. Ce calcul peut ne pas associer les durées d'indisponibilité liées à différents types de panne. 
 
 ### Mise à niveau et remplacement matériel de l'infrastructure - Accords sur les niveaux de service
+{: #hw-replaceupgrade-sla}
+
 {{site.data.keyword.Bluemix_notm}} tente de réduire le temps d'indisponibilité lors du remplacement du matériel défectueux ou lors d'une mise à niveau matérielle planifiée. 
 
 {{site.data.keyword.Bluemix_notm}} fournit un crédit pour : 
@@ -235,6 +242,8 @@ Les périodes de niveau de service excluent la durée de rechargement du systèm
 {: caption="Tableau 7. Crédit en fonction des frais mensuels pour le service affecté par la mise à niveau ou le remplacement matériel" caption-side="top"}
 
 ### Réclamations
+{: #claims}
+
 Soumettez votre réclamation dans une période de 60 jours suivant la fin du mois contractuel au cours duquel le niveau de service n'a pas été atteint. Pour valider la réclamation, indiquez les messages d'erreurs, suffisamment d'informations pour identifier le service concerné ainsi que d'autres détails. 
 
 Le crédit correspondra à la compensation applicable la plus élevée d'après la disponibilité totale du service affecté lors d'un mois contractuel et sera calculé en utilisant les frais mensuels de ce service. Les crédits ne peuvent pas excéder 25 % des frais mensuels.
@@ -242,6 +251,8 @@ Le crédit correspondra à la compensation applicable la plus élevée d'après 
 Pour soumettre une réclamation de temps d'indisponibilité, contactez le [support {{site.data.keyword.Bluemix_notm}}](https://console.cloud.ibm.com/unifiedsupport/supportcenter){: new_window} ![Icône de lien externe](../icons/launch-glyph.svg "Icône de lien externe").
 
 ### Exclusions
+{: #exclusions}
+
 Aucun crédit n'est accordé lorsque l'accord sur les niveaux de service n'est pas respecté pour les raisons suivantes :
 - Problèmes liés à des instructions, des conceptions, des technologies ou du contenu fourni par la communauté ou le client
 - Services Cloud bêta, expérimental ou gratuit
