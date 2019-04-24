@@ -166,7 +166,7 @@ MFA 是按帐户启用的，一旦启用后，帐户中的所有用户都必须�
 ### 现在，{{site.data.keyword.Bluemix_notm}} Foundry 服务在美国东部区域可用
 最新更新日期：2017 年 12 月 15 日
 
-现在，新的美国东部数据中心在华盛顿可用。此新区域可以使用 `us-east.bluemix.net` 端点进行访问。有关在此新区域中可购买的服务的详细信息，请参阅[按区域列出的服务](/docs/resources/services_region.html#services_region)。
+现在，新的美国东部数据中心在华盛顿可用。此新区域可以使用 `us-east.cloud.ibm.com` 端点进行访问。有关在此新区域中可购买的服务的详细信息，请参阅[按区域列出的服务](/docs/resources/services_region.html#services_region)。
 
 ### 支持欧盟中的资源
 最新更新日期：2017 年 12 月 14 日
@@ -439,7 +439,7 @@ SAP MaxDB 可用于 SAP NetWeaver。要开始使用，请参阅[有关 {{site.da
 ### 新增 Liberty for Java buildpack V3.11
 最新更新日期：2017 年 7 月 17 日
 
-Liberty buildpack V3.11 提供了新的每月 Liberty 运行时版本，并包含其他改进。每月 Liberty 运行时版本已更新为 [2017.7.0.0](https://developer.ibm.com/wasdev/blog/2017/07/07/beta-websphere-liberty-tools-july-2017/) 发行版。IBM JDK 已更新为 8.0.4.7 和 7.1.4.5 版本。该 buildpack 还提供了更新版本的应用程序管理实用程序和 Auto-Scaling 代理程序。缺省的 Cloudant Library 现在是正式的 [java-cloudant](https://github.com/cloudant/java-cloudant)，[Ektorp 库](https://github.com/helun/Ektorp)仍是可用选项；有关此更改的详细信息，请参阅[博客帖子](https://www.ibm.com/blogs/bluemix/2017/05/default-library-change-cloudant-auto-wiring-liberty-buildpack/)。应用程序内存小于 512 MB 时，缺省堆大小比率现在是 50%。如果大于 512 MB，那么仍是 75%。现在生成了新的编译打包任务日志，这样就更容易对编译打包错误进行调试。有关其他信息，请参阅[最新更新](https://console.ng.bluemix.net/docs/runtimes/liberty/updates.html)文档。
+Liberty buildpack V3.11 提供了新的每月 Liberty 运行时版本，并包含其他改进。每月 Liberty 运行时版本已更新为 [2017.7.0.0](https://developer.ibm.com/wasdev/blog/2017/07/07/beta-websphere-liberty-tools-july-2017/) 发行版。IBM JDK 已更新为 8.0.4.7 和 7.1.4.5 版本。该 buildpack 还提供了更新版本的应用程序管理实用程序和 Auto-Scaling 代理程序。缺省的 Cloudant Library 现在是正式的 [java-cloudant](https://github.com/cloudant/java-cloudant)，[Ektorp 库](https://github.com/helun/Ektorp)仍是可用选项；有关此更改的详细信息，请参阅[博客帖子](https://www.ibm.com/blogs/bluemix/2017/05/default-library-change-cloudant-auto-wiring-liberty-buildpack/)。应用程序内存小于 512 MB 时，缺省堆大小比率现在是 50%。如果大于 512 MB，那么仍是 75%。现在生成了新的编译打包任务日志，这样就更容易对编译打包错误进行调试。有关其他信息，请参阅[最新更新](/docs/runtimes/liberty/updates.html)文档。
 
 ### 新增 Liberty for Java buildpack V3.10
 最新更新日期：2017 年 6 月 12 日
@@ -468,7 +468,7 @@ Liberty buildpack V3.9 提供了新的每月 Liberty 运行时版本，并包含
 
 {{site.data.keyword.appid_short_notm}} 有助于将不同的用户认证类型添加到其移动和 Web 应用程序中。您可以通过几行代码添加认证，而无须理会如何管理基础架构来扩展用户群。查看以下增强功能，然后亲自体验该服务！
 
-多因子认证：现在针对 Cloud Directory，可以使用基于电子邮件的 MFA。将 MFA 设置为开启后，将要求用户提供通过电子邮件接收的一次性代码以及用户的密码。如果在 SAML 2.0 或社交登录中使用的是企业登录，那么可以通过该身份提供者来启用 MFA。高级密码策略：启用高级密码策略功能后，您可以为 Cloud Directory 强制实施更安全的密码。您可以配置使用密码时必须遵循的一组规则，例如用户在被锁定前可以尝试登录的次数或者密码不能重复的次数。
+多因子认证：现在针对 Cloud Directory，可以使用基于电子邮件的 MFA。将 MFA 设置为开启后，将要求用户提供通过电子邮件接收的一次性代码以及用户的密码。如果在 SAML 2.0 或社交登录中使用的是企业登录，那么可以通过该身份提供者来启用 MFA。高级密码策略：启用高级密码策略功能后，您可以为 Cloud Directory 强制实施更安全的密码。您可以配置一组密码规则来限制用户在被锁定之前可尝试登录的次数，或者限制可重复输入密码的次数。
 
 高级安全性功能有额外的定价构成部分。有关如何计算定价的更所信息，请参阅[目录](https://cloud.ibm.com/catalog/services/app-id)中的定价部分。
 
@@ -554,7 +554,7 @@ Terraform 和 Ansible 都是开放式源代码软件，可用于自动化云解�
 ### 推出 {{site.data.keyword.iva_full_notm}} 一般可用性
 最新更新日期：2018 年 6 月 26 日
 
-现在，[{{site.data.keyword.iva_full}}](https://console.bluemix.net/catalog/services/voice-agent-with-watson) ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标") 已一般可用！您可以创建基于 Watson 服务构建的认知语音代理程序，客户可以通过电话呼叫该代理程序并与之通话。通过将 Watson 人工智能应用于主干，语音代理程序能以对话方式进行通信，并在语音代理程序内处理复杂的交互和处理客户呼叫。
+现在，[{{site.data.keyword.iva_full}}](https://cloud.ibm.com/catalog/services/voice-agent-with-watson) ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标") 已一般可用！您可以创建基于 Watson 服务构建的认知语音代理程序，客户可以通过电话呼叫该代理程序并与之通话。通过将 Watson 人工智能应用于主干，语音代理程序能以对话方式进行通信，并在语音代理程序内处理复杂的交互和处理客户呼叫。
 
 此发行版引入了以下新功能：
 
@@ -573,7 +573,7 @@ Terraform 和 Ansible 都是开放式源代码软件，可用于自动化云解�
 可以使用 [V2 服务套餐](/docs/services/StreamingAnalytics/service_plans.html#service_plans)来访问这个基于容器的新基础架构。您可以选择最适合您的工作需求的 {{site.data.keyword.streaminganalyticsshort}} 套餐。V2 服务套餐包含以下增强功能：
  
 * [IBM Streams QSE with Docker](https://www-01.ibm.com/marketing/iwm/iwm/web/preLogin.do?source=swg-ibmistvi) ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")：查看 [开发指南](https://developer.ibm.com/streamsdev/docs/cloud-beta-devguide/) ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")，了解如何将新的 Streams QSE 与在 Docker 环境中运行的 RHEL 7 配合使用，以使用新的 {{site.data.keyword.streaminganalyticsshort}} V2 套餐来编译和部署应用程序。 
-* [{{site.data.keyword.streaminganalyticsshort}} V2 REST API](https://console.bluemix.net/apidocs/1939-streaming-analytics-v2#introduction)![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")
+* [{{site.data.keyword.streaminganalyticsshort}} V2 REST API](https://cloud.ibm.com/apidocs/1939-streaming-analytics-v2#introduction)![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")
 * [新的入门模板和样本应用程序](https://developer.ibm.com/streamsdev/docs/cloud-beta-samples/) ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")
 * [{{site.data.keyword.streaminganalyticsshort}} 服务中的高可用性增强功能](/docs/services/StreamingAnalytics/c_ha.html#consistent-regions)
 * [{{site.data.keyword.streaminganalyticsshort}} 服务中的问题确定功能](https://developer.ibm.com/streamsdev/2018/02/15/streaming-analytics-console-gives-ways-find-fix-errors-beta-plans/) ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")
@@ -582,7 +582,7 @@ Terraform 和 Ansible 都是开放式源代码软件，可用于自动化云解�
 ### {{site.data.keyword.iva_full_notm}} Beta 现在可用！
 最新更新日期：2018 年 3 月 16 日
 
-通过 [{{site.data.keyword.iva_full}}](https://console.bluemix.net/catalog/services/voice-agent-with-watson) ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")，您可以创建基于 Watson 服务构建的认知语音代理程序，客户可以通过电话呼叫该代理程序并与之通话。通过将 Watson 人工智能应用于主干，语音代理程序能以对话方式进行通信，并在语音代理程序内处理复杂的交互和处理客户呼叫。
+通过 [{{site.data.keyword.iva_full}}](https://cloud.ibm.com/catalog/services/voice-agent-with-watson) ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")，您可以创建基于 Watson 服务构建的认知语音代理程序，客户可以通过电话呼叫该代理程序并与之通话。通过将 Watson 人工智能应用于主干，语音代理程序能以对话方式进行通信，并在语音代理程序内处理复杂的交互和处理客户呼叫。
 
 此 Beta 发行版引入了以下关键功能：
 
@@ -605,10 +605,10 @@ Terraform 和 Ansible 都是开放式源代码软件，可用于自动化云解�
 ### {{site.data.keyword.streaminganalyticsshort}} 更新
 最新更新日期：2018 年 2 月 14 日
 
-[{{site.data.keyword.streaminganalyticsshort}} 服务](https://console.bluemix.net/catalog/services/streaming-analytics){: new_window} ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标") 中的 [Beta-Entry 和 Beta-Enhanced 套餐](/docs/services/StreamingAnalytics/beta_plans.html#beta_plans)包含多项增强功能：
+[{{site.data.keyword.streaminganalyticsshort}} 服务](https://cloud.ibm.com/catalog/services/streaming-analytics){: new_window} ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标") 中的 [Beta-Entry 和 Beta-Enhanced 套餐](/docs/services/StreamingAnalytics/beta_plans.html#beta_plans)包含多项增强功能：
 
 * [新的 IBM Streams QSE for Docker](https://www-01.ibm.com/marketing/iwm/iwm/web/preLogin.do?source=swg-ibmistvi){: new_window} ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")：查看 [Beta 开发指南](https://developer.ibm.com/streamsdev/docs/cloud-beta-devguide/){: new_window} ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")，了解如何将新的 Streams QSE 与在 Docker 环境中运行的 RHEL 7 配合使用，以使用新的 {{site.data.keyword.streaminganalyticsshort}} Beta 套餐来编译和部署应用程序。
-* [{{site.data.keyword.streaminganalyticsshort}} V2 REST API](https://console.bluemix.net/apidocs/1939-streaming-analytics-v2#introduction){: new_window} ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")
+* [{{site.data.keyword.streaminganalyticsshort}} V2 REST API](https://cloud.ibm.com/apidocs/1939-streaming-analytics-v2#introduction){: new_window} ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")
 * [新的入门模板和样本应用程序](https://developer.ibm.com/streamsdev/docs/cloud-beta-samples/)
 * [{{site.data.keyword.streaminganalyticsshort}} 服务中的高可用性增强功能](/docs/services/StreamingAnalytics/consistentregions.html#consistentregions)
 * [{{site.data.keyword.streaminganalyticsshort}} Beta 版服务中新的问题确定功能](https://developer.ibm.com/streamsdev/2018/02/15/streaming-analytics-console-gives-ways-find-fix-errors-beta-plans/){: new_window} ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")
@@ -634,7 +634,7 @@ Terraform 和 Ansible 都是开放式源代码软件，可用于自动化云解�
 
 直观地浏览基于 {{site.data.keyword.discoveryshort}} 对文本中所检测到语义元素（例如实体、关系、概念等）的理解的连接。
 
-使用现成的 {{site.data.keyword.discoveryshort}} News 集合开始浏览全球新闻。或者在 {{site.data.keyword.discoveryshort}} 中浏览您自己的文档集合。只需使用您的 {{site.data.keyword.Bluemix_notm}} 凭证登录即可。有关更多信息，请参阅 [Visual insights experimental](https://visual-insights.bluemix.net){: new_window} ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")。
+使用现成的 {{site.data.keyword.discoveryshort}} News 集合开始浏览全球新闻。或者在 {{site.data.keyword.discoveryshort}} 中浏览您自己的文档集合。只需使用您的 {{site.data.keyword.Bluemix_notm}} 凭证登录即可。有关更多信息，请参阅 [Visual insights experimental](https://visual-insights.cloud.ibm.com){: new_window} ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")。
 
 ### 新增 IBM Cloud Managed Database Server Beta 服务
 最新更新日期：2017 年 11 月 30 日
@@ -694,7 +694,7 @@ Apple 推出了对 Apple 通知的 HTTP 协议的支持。现在，{{site.data.k
 * [Building charts for Adapter analytics by using IBM Bluemix Mobile Analytics service and IBM Mobile Foundation Service](https://mobilefirstplatform.ibmcloud.com/blog/2017/04/26/adapter-analytics-using-analytics-and-dashdb-analytics-service/){: new_window} ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")
 
 #### 现在，{{site.data.keyword.mobilefirst_notm}} 样板包含 {{site.data.keyword.mobileanalytics_short}}
-移动服务样板是一种模板，用于提供一组移动服务，供用户快速开始使用。{{site.data.keyword.mobileanalytics_short}} 服务现在是[目录](https://console.bluemix.net/catalog/starters/mobilefirst-services-starter){: new_window} ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标") 中可用样板的一部分。
+移动服务样板是一种模板，用于提供一组移动服务，供用户快速开始使用。{{site.data.keyword.mobileanalytics_short}} 服务现在是[目录](https://cloud.ibm.com/catalog/starters/mobilefirst-services-starter){: new_window} ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标") 中可用样板的一部分。
 
 
 ### {{site.data.keyword.streaminganalyticsshort}} 更新

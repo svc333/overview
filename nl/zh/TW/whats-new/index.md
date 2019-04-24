@@ -162,7 +162,7 @@ lastupdated: "2019-01-22"
 ### 現已推出 {{site.data.keyword.Bluemix_notm}} Foundry 服務美國東部地區
 文件日期：2017 年 12 月 15 日
 
-華盛頓特區現已推出新的美國東部資料中心。使用 `us-east.bluemix.net` 端點可以到達這個新地區。如需這個新地區中可購買之服務的詳細資料，請參閱[各地區的服務](/docs/resources/services_region.html#services_region)。
+華盛頓特區現已推出新的美國東部資料中心。使用 `us-east.cloud.ibm.com` 端點可以到達這個新地區。如需這個新地區中可購買之服務的詳細資料，請參閱[各地區的服務](/docs/resources/services_region.html#services_region)。
 
 ### 歐盟資源的支援
 文件日期：2017 年 12 月 14 日
@@ -436,7 +436,7 @@ SAP Business One 是專為中小型企業設計的企業資源規劃 (ERP) 軟�
 ### 新的 Liberty for Java 建置套件 3.11 版
 文件日期：2017 年 7 月 17 日
 
-Liberty 建置套件 3.11 版提供新的每月 Liberty 運行環境版本，並且包含其他增進功能。每月 Liberty 運行環境版本已更新成 [2017.7.0.0](https://developer.ibm.com/wasdev/blog/2017/07/07/beta-websphere-liberty-tools-july-2017/) 版本。IBM JDK 已更新成 8.0.4.7 及 7.1.4.5 版本。建置套件也會提供「應用程式管理」公用程式及 Auto-Scaling 代理程式的已更新版本。預設 Cloudant Library 現在是正式 [java-cloudant](https://github.com/cloudant/java-cloudant)，但 [Ektorp 程式庫](https://github.com/helun/Ektorp)仍然是選項，如需這項變更的詳細資料，請參閱[部落格文章](https://www.ibm.com/blogs/bluemix/2017/05/default-library-change-cloudant-auto-wiring-liberty-buildpack/)。應用程式的記憶體小於 512MB 時，預設資料堆大小比例現在是 50%，如果超過 512MB，則仍然是 75%。現在會產生新的編譯打包作業日誌，以容許更輕鬆地除錯編譯打包錯誤。如需相關資訊，請參閱[最新更新](https://console.ng.bluemix.net/docs/runtimes/liberty/updates.html)文件。
+Liberty 建置套件 3.11 版提供新的每月 Liberty 運行環境版本，並且包含其他增進功能。每月 Liberty 運行環境版本已更新成 [2017.7.0.0](https://developer.ibm.com/wasdev/blog/2017/07/07/beta-websphere-liberty-tools-july-2017/) 版本。IBM JDK 已更新成 8.0.4.7 及 7.1.4.5 版本。建置套件也會提供「應用程式管理」公用程式及 Auto-Scaling 代理程式的已更新版本。預設 Cloudant Library 現在是正式 [java-cloudant](https://github.com/cloudant/java-cloudant)，但 [Ektorp 程式庫](https://github.com/helun/Ektorp)仍然是選項，如需這項變更的詳細資料，請參閱[部落格文章](https://www.ibm.com/blogs/bluemix/2017/05/default-library-change-cloudant-auto-wiring-liberty-buildpack/)。應用程式的記憶體小於 512MB 時，預設資料堆大小比例現在是 50%，如果超過 512MB，則仍然是 75%。現在會產生新的編譯打包作業日誌，以容許更輕鬆地除錯編譯打包錯誤。如需相關資訊，請參閱[最新更新](/docs/runtimes/liberty/updates.html)文件。
 
 ### 新的 Liberty for Java 建置套件 3.10 版
 文件日期：2017 年 6 月 12 日
@@ -466,7 +466,7 @@ Liberty 建置套件 3.9 版提供新的每月 Liberty 運行環境版本，並�
 {{site.data.keyword.appid_short_notm}} 協助您新增不同類型的使用者鑑別到行動及 Web 應用程式。只需要幾行程式碼，您便可以新增鑑別，且不必管理基礎架構以隨著使用者基礎調整。請參閱下列加強功能，然後自行嘗試服務！
 
 多因子鑑別：您現在可以針對 Cloud Directory 使用電子郵件 MFA。將 MFA 設為開啟之後，使用者會被要求提供透過電子郵件收到的一次性代碼，以及他們的密碼。如果您正在使用企業登入搭配 SAML 2.0 或社交登入，您可以透過該身分提供者啟用 MFA。
-進階高階密碼：啟用進階密碼原則特性時，您可以針對 Cloud Directory 施行更安全的密碼。您可以配置一組使用密碼的規則，必須遵守例如使用者在鎖定之前可嘗試登入的次數，或是密碼多少次以內不得重複使用。
+進階高階密碼：啟用進階密碼原則特性時，您可以針對 Cloud Directory 施行更安全的密碼。您可以配置一組密碼規則，限制使用者在被鎖定之前可嘗試登入的次數，或是密碼多少次以內不得重複使用。
 
 進階安全特性有其他的定價元件。如需定價計算的相關資訊，請參閱[型錄](https://cloud.ibm.com/catalog/services/app-id)的定價小節。
 
@@ -489,7 +489,7 @@ Liberty 建置套件 3.9 版提供新的每月 Liberty 運行環境版本，並�
 #### SSL
 已針對 SSL 連線套用下列更新：
  
-* 從 DEFAULT_BACKEND 密碼群組中移除低保護性密碼。 
+* 從 DEFAULT_BACKEND 密碼群組移除低保護性密碼。 
 * 支援 Thales nShield® 外部 HSM 前端系統使用 ECDHE 密碼
 * 支援 SafeNet 網路外部 HSM 前端系統使用 ECDHE 密碼
 * 移除 SSLv2：從 12.1 版開始，NetScaler VPX 應用裝置不支援 SSLv2。
@@ -552,7 +552,7 @@ Terraform 及 Ansible 是開放程式碼軟體，您可以用它們來從頭到�
 ### {{site.data.keyword.iva_full_notm}} 通用版簡介
 文件日期：2018 年 6 月 26 日
 
-現在已提供 [{{site.data.keyword.iva_full}}](https://console.bluemix.net/catalog/services/voice-agent-with-watson)![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示") 通用版！您可以建立 Watson 服務所建置且客戶可通話並透過電話交談的認知語音代理程式。以 Watson 人工智慧為骨幹，您的語音代理程式可以透過交談方式進行通訊，處理複雜互動，以及解決語音代理程式內的客戶通話。
+現在已提供 [{{site.data.keyword.iva_full}}](https://cloud.ibm.com/catalog/services/voice-agent-with-watson)![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示") 通用版！您可以建立 Watson 服務所建置且客戶可通話並透過電話交談的認知語音代理程式。以 Watson 人工智慧為骨幹，您的語音代理程式可以透過交談方式進行通訊，處理複雜互動，以及解決語音代理程式內的客戶通話。
 
 此版本引進下列新特性：
 
@@ -571,7 +571,7 @@ Terraform 及 Ansible 是開放程式碼軟體，您可以用它們來從頭到�
 您可以使用[第 2 版服務方案](/docs/services/StreamingAnalytics/service_plans.html#service_plans)，來存取這個新的容器基礎架構。您可以選擇最適合您需要進行之工作的 {{site.data.keyword.streaminganalyticsshort}} 方案。第 2 版服務方案包含下列加強功能：
  
 * [IBM Streams QSE 與 Docker](https://www-01.ibm.com/marketing/iwm/iwm/web/preLogin.do?source=swg-ibmistvi)![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")：查看[開發手冊](https://developer.ibm.com/streamsdev/docs/cloud-beta-devguide/) ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")，以瞭解如何搭配使用新的 Streams QSE 與在 Docker 環境中執行的 RHEL 7，以透過新的 {{site.data.keyword.streaminganalyticsshort}} 第 2 版方案來編譯及部署應用程式。 
-* [{{site.data.keyword.streaminganalyticsshort}} 第 2 版 REST API](https://console.bluemix.net/apidocs/1939-streaming-analytics-v2#introduction)![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")
+* [{{site.data.keyword.streaminganalyticsshort}} 第 2 版 REST API](https://cloud.ibm.com/apidocs/1939-streaming-analytics-v2#introduction)![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")
 * [新的入門範本及範例應用程式](https://developer.ibm.com/streamsdev/docs/cloud-beta-samples/) ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")
 * [{{site.data.keyword.streaminganalyticsshort}} 服務中的高可用性加強功能](/docs/services/StreamingAnalytics/c_ha.html#consistent-regions)
 * [{{site.data.keyword.streaminganalyticsshort}} 服務中的新問題判斷特性](https://developer.ibm.com/streamsdev/2018/02/15/streaming-analytics-console-gives-ways-find-fix-errors-beta-plans/) ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")
@@ -580,7 +580,7 @@ Terraform 及 Ansible 是開放程式碼軟體，您可以用它們來從頭到�
 ### {{site.data.keyword.iva_full_notm}} 現在是測試版！
 文件日期：2018 年 3 月 16 日
 
-使用 [{{site.data.keyword.iva_full}}](https://console.bluemix.net/catalog/services/voice-agent-with-watson)![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")，您可以建立 Watson 服務所建置且客戶可通話並透過電話交談的認知語音代理程式。以 Watson 人工智慧為骨幹，您的語音代理程式可以透過交談方式進行通訊，處理複雜互動，以及解決語音代理程式內的客戶通話。
+使用 [{{site.data.keyword.iva_full}}](https://cloud.ibm.com/catalog/services/voice-agent-with-watson)![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")，您可以建立 Watson 服務所建置且客戶可通話並透過電話交談的認知語音代理程式。以 Watson 人工智慧為骨幹，您的語音代理程式可以透過交談方式進行通訊，處理複雜互動，以及解決語音代理程式內的客戶通話。
 
 此測試版引進下列主要特性：
 
@@ -603,10 +603,10 @@ Terraform 及 Ansible 是開放程式碼軟體，您可以用它們來從頭到�
 ### {{site.data.keyword.streaminganalyticsshort}} 更新項目
 文件日期：2018 年 2 月 14 日
 
-[{{site.data.keyword.streaminganalyticsshort}} 服務](https://console.bluemix.net/catalog/services/streaming-analytics){: new_window} 中主控台的[測試版 - 入門及測試版 - 增強方案](/docs/services/StreamingAnalytics/beta_plans.html#beta_plans) ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示") 包括數個加強功能：
+[{{site.data.keyword.streaminganalyticsshort}} 服務](https://cloud.ibm.com/catalog/services/streaming-analytics){: new_window}中主控台的[測試版 - 入門及測試版 - 增強方案](/docs/services/StreamingAnalytics/beta_plans.html#beta_plans) ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示") 包括數個加強功能：
 
 * [新的 IBM Streams QSE for Docker](https://www-01.ibm.com/marketing/iwm/iwm/web/preLogin.do?source=swg-ibmistvi){: new_window} ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")：查看[測試版開發手冊](https://developer.ibm.com/streamsdev/docs/cloud-beta-devguide/){: new_window} ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")，以瞭解如何搭配使用新的 Streams QSE 與在 Docker 環境中執行的 RHEL 7，以透過新的 {{site.data.keyword.streaminganalyticsshort}} 測試版方案來編譯及部署應用程式。
-* [{{site.data.keyword.streaminganalyticsshort}} 第 2 版 REST API](https://console.bluemix.net/apidocs/1939-streaming-analytics-v2#introduction){: new_window} ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")
+* [{{site.data.keyword.streaminganalyticsshort}} 第 2 版 REST API](https://cloud.ibm.com/apidocs/1939-streaming-analytics-v2#introduction){: new_window} ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")
 * [新的入門範本及範例應用程式](https://developer.ibm.com/streamsdev/docs/cloud-beta-samples/)
 * [{{site.data.keyword.streaminganalyticsshort}} 服務中的高可用性加強功能](/docs/services/StreamingAnalytics/consistentregions.html#consistentregions)
 * [{{site.data.keyword.streaminganalyticsshort}} 服務測試版中的新問題判斷特性](https://developer.ibm.com/streamsdev/2018/02/15/streaming-analytics-console-gives-ways-find-fix-errors-beta-plans/){: new_window} ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")
@@ -632,7 +632,7 @@ Terraform 及 Ansible 是開放程式碼軟體，您可以用它們來從頭到�
 
 以視覺化方式探索採用 {{site.data.keyword.discoveryshort}} 技術的連線對以文字形式偵測到的語意元素的瞭解（例如實體、關係、概念及其他項目）。
 
-開始使用立即可用的 {{site.data.keyword.discoveryshort}} News 集合來探索全球新聞。或者，在 {{site.data.keyword.discoveryshort}} 中探索您自己的文件集合。只要使用您的 {{site.data.keyword.Bluemix_notm}} 認證登入即可。如需相關資訊，請參閱 [Visual Insights 實驗性](https://visual-insights.bluemix.net){: new_window} ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")。
+開始使用立即可用的 {{site.data.keyword.discoveryshort}} News 集合來探索全球新聞。或者，在 {{site.data.keyword.discoveryshort}} 中探索您自己的文件集合。只要使用您的 {{site.data.keyword.Bluemix_notm}} 認證登入即可。如需相關資訊，請參閱 [Visual Insights 實驗性](https://visual-insights.cloud.ibm.com){: new_window} ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")。
 
 ### 新的 IBM Cloud Managed Database Server 測試版服務
 文件日期：2017 年 11 月 30 日
@@ -692,7 +692,7 @@ Apple 已為 Apple Notifications 建立 HTTP 通訊協定支援。{{site.data.ke
 * [Building charts for Adapter analytics by using IBM Bluemix Mobile Analytics service and IBM Mobile Foundation Service](https://mobilefirstplatform.ibmcloud.com/blog/2017/04/26/adapter-analytics-using-analytics-and-dashdb-analytics-service/){: new_window} ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")
 
 #### {{site.data.keyword.mobilefirst_notm}} 樣板現在包括 {{site.data.keyword.mobileanalytics_short}}
-「Mobile Services 樣板」是一種範本，提供一組行動服務，讓使用者快速開始進行。{{site.data.keyword.mobileanalytics_short}} 服務現在是[型錄](https://console.bluemix.net/catalog/starters/mobilefirst-services-starter){: new_window} ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示") 中所提供樣板的一部分。
+「Mobile Services 樣板」是一種範本，提供一組行動服務，讓使用者快速開始進行。{{site.data.keyword.mobileanalytics_short}} 服務現在是[型錄](https://cloud.ibm.com/catalog/starters/mobilefirst-services-starter){: new_window} ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示") 中所提供樣板的一部分。
 
 
 ### {{site.data.keyword.streaminganalyticsshort}} 的更新
@@ -921,7 +921,7 @@ Apache Spark 透過根據 Stocator 技術的儲存空間連接器來存取 {{sit
 ### {{site.data.keyword.macm_short}} 即將淘汰
 文件日期：2017 年 4 月 18 日
 
-自 2017 年 5 月 30 日開始，將從「{{site.data.keyword.Bluemix_notm}} 型錄」中移除 {{site.data.keyword.macm_long}} 服務磚，而且您無法再佈建新的 MACM 實例。不過，將繼續支援現有實例。支援結束日期是 2018 年 3 月 30 日。請在「支援結束日期」之前刪除 {{site.data.keyword.macm_short}} (MACM) 服務實例。我們鼓勵使用者移轉至 IBM Watson Content Hub。Watson Content Hub 可在 IBM Marketplace 取得，並提供使用者免費試用 30 天。IBM Watson Content Hub 透過已新增功能提供與 MACM 類似的功能（例如資產管理、使用 IBM Watson 服務的認知標記，以及包括的內容遞送網路 (CDN)），以確保最佳客戶體驗。IBM 提供服務參與，以將內容從 MACM 移轉至 Watson Content Hub。
+自 2017 年 5 月 30 日開始，將從「{{site.data.keyword.Bluemix_notm}} 型錄」移除 {{site.data.keyword.macm_long}} 服務磚，而且您無法再佈建新的 MACM 實例。不過，將繼續支援現有實例。支援結束日期是 2018 年 3 月 30 日。請在「支援結束日期」之前刪除 {{site.data.keyword.macm_short}} (MACM) 服務實例。我們鼓勵使用者移轉至 IBM Watson Content Hub。Watson Content Hub 可在 IBM Marketplace 取得，並提供使用者免費試用 30 天。IBM Watson Content Hub 透過已新增功能提供與 MACM 類似的功能（例如資產管理、使用 IBM Watson 服務的認知標記，以及包括的內容遞送網路 (CDN)），以確保最佳客戶體驗。IBM 提供服務參與，以將內容從 MACM 移轉至 Watson Content Hub。
 
 
 ### {{site.data.keyword.sparks}} 更新：現在提供 Data Science Experience 記事本支援

@@ -3,7 +3,7 @@
 
 copyright:
   years: 2016, 2019
-lastupdated: "2019-01-02"
+lastupdated: "2019-02-08"
 
 
 ---
@@ -707,7 +707,7 @@ Um território geográfico definido. Uma região poderia ser uma área de códig
 ### registro
 {: #x2064940}
 
-Um serviço de armazenamento e distribuição de imagem de contêiner público ou privado. Consulte também [contêiner](#x2010901), [imagem](#x2024928).
+Um repositório público ou privado que contém imagens usadas para criar contêineres. Consulte também [contêiner](#x2010901), [imagem](#x2024928).
 
 ### Representational State Transfer (REST)
 {: #x3220976}
