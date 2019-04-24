@@ -2,9 +2,9 @@
 
 copyright:
 
-  years: 2015, 2018
+  years: 2015, 2019
 
-lastupdated: "2018-12-20"
+lastupdated: "2019-01-22"
 
 ---
 
@@ -27,8 +27,7 @@ Datum der Neuerung: 30. November 2018
 
 Mit dem Support Center können Sie alle Probleme im Zusammenhang mit {{site.data.keyword.Bluemix_notm}} lösen. Auf der Zielseite finden Sie häufig gestellte Fragen (FAQs), sodass Sie die Antwort auf Ihre Frage finden können, ohne sich dazu überhaupt mit {{site.data.keyword.Bluemix_notm}} in Verbindung setzen zu müssen. Sie können auch mit einem Live-Supportmitarbeiter chatten. Ihre Fälle können jetzt von einem einzigen Ort aus verwaltet werden. Rufen Sie **Support** &gt; **Fälle verwalten** auf, um Fälle zu erstellen, anzuzeigen, oder zu bearbeiten.
 
-Sie können die [Statusseite](https://cloud.ibm.com/status){: new_window} ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link") ebenfalls über das Support Center suchen. Die Seite wurde funktional so erweitert, dass sie alle ungeplanten Vorfälle, geplante Wartungsmaßnahmen, Ankündigungen und Sicherheitsbulletinbenachrichtigungen in Bezug auf bedeutende Ereignisse enthält, die die {{site.data.keyword.Bluemix_notm}}-Plattform, die Infrastruktur und die wichtigsten Services betreffen.
-Klicken Sie im Support Center auf **Cloudstatus anzeigen**. Um herauszufinden, wie das neue Erlebnis aussieht, melden Sie sich an und wechseln Sie zum [Support-Center](https://cloud.ibm.com/unifiedsupport/supportcenter){: new_window} ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link"). 
+Sie können die [Statusseite](https://cloud.ibm.com/status){: new_window} ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link") ebenfalls über das Support Center suchen. Die Seite wurde funktional so erweitert, dass sie alle ungeplanten Vorfälle, geplante Wartungsmaßnahmen, Ankündigungen und Sicherheitsbulletinbenachrichtigungen in Bezug auf bedeutende Ereignisse enthält, die die {{site.data.keyword.Bluemix_notm}}-Plattform, die Infrastruktur und die wichtigsten Services betreffen. Klicken Sie im Support Center auf **Cloudstatus anzeigen**. Um herauszufinden, wie das neue Erlebnis aussieht, melden Sie sich an und wechseln Sie zum [Support-Center](https://cloud.ibm.com/unifiedsupport/supportcenter){: new_window} ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link"). 
 
 ### Einheitliche Anmeldung, API-Schlüssel sowie Benutzer-und Zugriffsverwaltung in {{site.data.keyword.Bluemix_notm}}
 Datum der Neuerung: 30. November 2018
@@ -52,7 +51,7 @@ Sie können jetzt an einem Ort auf die gesamte Dokumentation des Plug-ins für d
 Datum der Neuerung: 30. November 2018
 {: #dash}
 
-Mit der neuesten Aktualisierung können Sie jetzt alle Ihre Plattform- und Infrastrukturservices von einem zentralen Ort aus anzeigen. Wenn Sie sich anmelden, können Sie das neue Dashboard sofort genauer in Augenschein nehmen. Nachdem Sie Ressourcen aus dem Katalog zu Ihrem Konto hinzugefügt haben, können Sie anhand der Ressourcenliste eine vollständige Ansicht der Kontoressourcen abrufen:
+Mit der neuesten Aktualisierung können Sie jetzt alle Ihre Plattform- und Infrastrukturservices von einem zentralen Ort aus anzeigen. Wenn Sie sich anmelden, können Sie das neue Dashboard sofort genauer in Augenschein nehmen. Nachdem Sie Ressourcen aus dem Katalog zu Ihrem Konto hinzugefügt haben, können Sie anhand der Ressourcenliste eine vollständige Ansicht der Kontoressourcen abrufen :
 
 * Das Dashboard wurde neu gestaltet, sodass Sie eine Zusammenfassung Ihrer Ressourcen, Ihrer Wartung, des Status, der Apps, des Supports, der Nutzung (Belegung) und der Benutzer anzeigen können.
 * Weitere Details zu Ihren Ressourcen finden Sie in der Ressourcenliste. Sie können Ihre Ressourcen mit Tags kennzeichnen, um sie zu organisieren, oder Sie können sie auswählen, um auf der Detailseite Änderungen vorzunehmen.
@@ -364,6 +363,27 @@ Durch die neuesten Aktualisierungen und Verbesserungen im April können Sie die 
 ## Infrastruktur und Ressourcen
 {: #compute_category}
 
+### Von SAP zertifizierte IBM Cloud-Infrastruktur - Features
+Datum der Neuerung: 22. Januar 2019
+
+Mit dem Angebot der von SAP zertifizierten {{site.data.keyword.cloud_notm}}-Infrastruktur stehen neue Features für sowohl SAP HANA als auch für SAP NetWeaver zur Verfügung.
+
+#### Mehrknotenspeicher
+SAP HANA-Mehrknotenspeicher für OLAP-Workloads (Online Analytical Processing) wie SAP Business Warehouse (SAP BW) und SAP BW/4HANA. Die {{site.data.keyword.cloud_notm}}-Lösung für SAP HANA-Mehrknotenspeicher besteht aus bis zu 15+1 Knoten (15 Workerknoten plus ein Standby-Knoten) für bis zu 30 TB Hauptspeicher für ein einziges System. Lesen Sie zum Einstieg die Informationen zur [Konfiguration der eigenen {{site.data.keyword.cloud_notm}}-Infrastruktur zur Unterstützung von SAP HANA-Mehrknotenspeicher](/docs/infrastructure/sap-hana/hana-multi-node.html#multi-node-storage)
+
+
+#### Hochverfügbarkeit
+Sowohl für SAP HANA als auch für SAP NetWeaver werden HA-Lösungen (HA = High Availability, Hochverfügbarkeit) unterstützt. Die Lösung basiert auf der unterstützten Betriebssystemversion und ist auf die bestellten Betriebssystemlizenzen, die im Lieferumfang Ihrer Bereitstellung enthalten sind, bzw. auf Drittanbieterlizenzen, z. B. eigene Lizenzen (BYOL), beschränkt. Klicken Sie zum Einstieg für SAP HANA [hier](/docs/infrastructure/sap-hana/hana-ha.html#ha) und für SAP NetWeaver [hier](/docs/infrastructure/sap-netweaver/sap-ha.html#ha).
+  
+#### SAP Content Server
+Bei SAP Content Server handelt es sich um eine eigenständige Komponente zur Speicherung großer Mengen an elektronischen Dokumenten in beliebigem Format und mit beliebigem Inhalt. Damit Sie SAP Content Server nutzen können, müssen Ihre SAP-Anwendungen die Verwendung unterstützen. Lesen Sie zum Einstieg die Informationen unter [SAP Content Server](/docs/infrastructure/sap-netweaver/sap-content-server.html#content-server).
+
+#### SAP MaxDB
+SAP MaxDB ist für SAP NetWeaver verfügbar. Lesen Sie zum Einstieg die [Informationen zur von SAP zertifizierten {{site.data.keyword.cloud_notm}}-Infrastruktur](/docs/infrastructure/sap-netweaver/sap-about.html#about_ibmcloud_for_sap).
+
+#### SAP Business One
+Bei SAP Business One handelt es sich um eine Enterprise-Resource-Planning-Software (ERP), die speziell für kleinere bis mittlere Unternehmen entworfen wurde. SAP Business One integriert Ihre Kerngeschäftsfunktionen (Buchhaltung und Finanzen, Einkauf und Lagerbestand, Verkauf und Kundenbeziehungen sowie Projektmanagement und Operationen) in einer einzigen Anwendung. Weitere Informationen finden Sie bei der [Einführung](/docs/infrastructure/sap-b1/b1-index.html#getting-started).
+
 ### Virtual Server-Features
 Datum der Neuerung: 16. November 2018
 
@@ -437,6 +457,20 @@ Das Liberty Buildpack v3.9 bietet eine neue monatliche Liberty-Laufzeitversion u
 
 ## Services
 {: #services_category}
+
+### In {{site.data.keyword.appid_short_notm}} verfügbare neue Features
+Datum der Neuerung: 22. Dezember 2018
+
+Mit dem Service {{site.data.keyword.appid_short_notm}} wurden neue erweiterte Features eingeführt, die die Sicherheit Ihrer Authentifizierungen und Apps verstärken.
+
+{{site.data.keyword.appid_short_notm}} unterstützt Sie beim Hinzufügen unterschiedlicher Typen von Benutzerauthentifizierung zu den entsprechenden mobilen Apps und Web-Apps. Sie können Authentifizierung mittels ein paar Codezeilen hinzufügen und müssen sich dann keine Gedanken über Verwaltung der Infrastruktur hinsichtlich einer Skalierung entsprechend Ihrer Benutzerbasis machen.  Informieren Sie sich über die folgenden Erweiterungen und probieren Sie den Service dann selbst aus!
+
+Mehrfaktorauthentifizierung: Sie können jetzt die E-Mail-basierte MFA für Cloud Directory nutzen. Ist die MFA aktiviert, werden die Benutzer zur Angabe eines Einmalcodes, den Sie per E-Mail erhalten, sowie zur Angabe ihres Kennworts aufgefordert. Wenn Sie eine Unternehmensanmeldung mit SAML 2.0 oder eine Social-Media-Anmeldung verwenden, können Sie die MFA über diesen Identitätsprovider aktivieren.
+Erweiterte Kennwortrichtlinien: Ist das Feature für erweiterte Kennwortrichtlinien aktiviert, können Sie mehr sichere Kennwörter für Cloud Directory erzwingen. Sie können eine Reihe von Regeln konfigurieren, die besagen, dass die Eingabe von Benutzerkennwörtern beispielsweise nur eine bestimmte Anzahl von Malen versucht werden kann, bevor der Benutzer gesperrt wird, oder dass die Verwendung eines Kennworts nur eine bestimmte Anzahl an Malen wiederholt werden kann.
+
+Erweiterte Sicherheitsfeatures bringen eine zusätzliche Preiskomponente mit sich. Weitere Informationen zur Preisberechnung finden Sie im entsprechenden Abschnitt des [Katalogs](https://cloud.ibm.com/catalog/services/app-id).
+
+Lesen Sie die [{{site.data.keyword.appid_short_notm}}-Dokumentation](/docs/services/appid/index.html) und legen Sie gleich los!
 
 ### Einführung von {{site.data.keyword.backup_notm}}
 Datum der Neuerung: 20. Dezember 2018

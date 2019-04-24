@@ -1,12 +1,10 @@
 ---
 
 copyright:
-  years: 2018, 2019
-lastupdated: "2019-03-14"
 
-keywords: HA, failover, DR
+  years: 2018
 
-subcollection: overview
+lastupdated: "2018-11-28"
 
 ---
 
@@ -29,30 +27,28 @@ Los servicios de la plataforma {{site.data.keyword.Bluemix}} son autogestionados
 
 Todos los recursos de {{site.data.keyword.Bluemix_notm}} están alojados en ubicaciones de centros de datos de todo el mundo. La alta disponibilidad y la recuperación tras desastre no son universales en todos los servicios, por lo que el tipo de alta disponibilidad y de recuperación tras desastre disponibles dependen del servicio que utilice.  
 
-## Recuperación tras desastre
+## Recuperación en caso de siniestro
 {: #disaster-recovery}
 
 La recuperación tras desastre consiste en sobrevivir a un error catastrófico o pérdida de disponibilidad en una sola ubicación. Para garantizar que se establece la recuperación tras desastre, es necesario desplegar varios entornos de {{site.data.keyword.Bluemix_notm}} en varias ubicaciones para evitar puntos únicos de error. Estos entornos pueden ser una combinación de plataformas públicas, dedicadas o locales.  
 
 ### Plan de recuperación tras desastre 
-{: #dr-plan}
 
 {{site.data.keyword.Bluemix_notm}} sigue los requisitos de la planificación para un desastre y cada aplicación tiene un plan para que se recupere o reinicie tras un desastre. La recuperación se realiza a partir de copias de seguridad electrónicas en un centro de recuperación o en servicios de cálculo alternativos que restauran el cálculo. Antes de cualquier posible desastre, el plan de recuperación tras desastre incluye los requisitos de alojamiento y sistemas para las prestaciones de hardware, software, conectividad de red y copia de seguridad externa.
 
-La lista siguiente incluye los requisitos del plan de recuperación tras desastre:
+La lista siguiente incluye los requisitos del plan de recuperación ante desastre:
 
 - Para el equilibrio de carga, existe un documento que sirve para explicar cómo permanece disponible el servicio de cálculo. 
-- Cuando se produce una migración tras error multisitio, el plan de recuperación tras desastre debe explicar qué es lo que hace cada cosa para que se haya producido la migración tras error y garantizar el reinicio. 
-- El plan de recuperación tras desastre debe definir cómo funciona la solución y cuál es la pérdida de datos. 
-- Debe confirmar cómo se obtiene el tiempo de inactividad máximo tolerable y almacenarse en la base de datos del plan de recuperación tras desastre.  
-- El plan de recuperación tras desastre especifica los controles de seguridad para la ejecución en la modalidad de desastre, en caso de que sean distintos de los que se ejecutan en la producción. 
+- Cuando se produce una migración tras error multisitio, el plan de recuperación ante desastre debe explicar qué es lo que hace cada cosa para que se haya producido la migración tras error y garantizar el reinicio. 
+- El plan de recuperación ante desastre debe definir cómo funciona la solución y cuál es la pérdida de datos. 
+- Debe confirmar cómo se obtiene el tiempo de inactividad máximo tolerable y almacenarse en la base de datos del repositorio del plan de recuperación ante desastre.  
+- El plan de recuperación ante desastre especifica los controles de seguridad para la ejecución en la modalidad de desastre, en caso de que sean distintos de los que se ejecutan en la producción. 
 
-### Gestión del plan de recuperación tras desastre 
-{: #dr-plan-mgmt}
+### Gestión del plan de recuperación ante desastre 
 
 Los requisitos que {{site.data.keyword.Bluemix}} sigue son: 
 
-- El plan de recuperación tras desastre debe actualizarse después de que se produzca cualquier cambio importante en la infraestructura, tras release de aplicación principal y después de que se realice cualquier prueba. 
+- El plan de recuperación ante desastre debe actualizarse después de que se produzca cualquier cambio importante en la infraestructura, tras release de aplicación principal y después de que se realice cualquier prueba. 
 - Debe aprobarse anualmente. 
 
 ## Ubicaciones para el despliegue de recursos 
@@ -60,16 +56,35 @@ Los requisitos que {{site.data.keyword.Bluemix}} sigue son:
 
 Puede crear apps e instancias de servicios en distintas ubicaciones con la misma infraestructura de {{site.data.keyword.cloud_notm}} para la gestión de aplicaciones y la misma vista de detalles de uso para la facturación. Tiene la posibilidad de desplegar sus apps en la ubicación más cercana a sus clientes para conseguir una latencia de aplicación baja. 
 
-Para solventar problemas de seguridad, también puede seleccionar la ubicación en la que desea conservar los datos de aplicación. Cuando crea apps en más de una ubicación, si una ubicación deja de estar disponible. las apps que están en las otras ubicaciones seguirán funcionando. Su concesión de recursos es la misma para cada ubicación que utilice. Para obtener más información acerca de los recursos de la plataforma y las ubicaciones en las que están disponibles, consulte [Disponibilidad de servicios](/docs/resources?topic=resources-services_region).
+Para solventar problemas de seguridad, también puede seleccionar la ubicación en la que desea conservar los datos de aplicación. Cuando crea apps en más de una ubicación, si una ubicación deja de estar disponible. las apps que están en las otras ubicaciones seguirán funcionando. Su concesión de recursos es la misma para cada ubicación que utilice. Para obtener más información acerca de los recursos de la plataforma y las ubicaciones en las que están disponibles, consulte [Disponibilidad de servicios](/docs/resources/services_region.html#services_region).
 
 El equilibrio de carga global de la consola de {{site.data.keyword.cloud_notm}} garantiza que si la ubicación geográfica más próxima no está disponible, la consola muestra la información de la siguiente ubicación más próxima. De esta forma, siempre podrá acceder a la consola sin realizar acción alguna para acceder a los recursos que necesita.
 
 Puede ver todos los recursos en todas las ubicaciones de forma predeterminada desde la vista de la lista de recursos de la consola. Si desea ver y trabajar con recursos en una ubicación específica, expanda el menú **UBICACIÓN** y seleccione una ubicación de la lista. 
 
+También puede utilizar la interfaz de línea de mandatos (CLI) para conectarse a la ubicación de {{site.data.keyword.cloud_notm}} con la que desee trabajar utilizando el mandato `ibmcloud api` y especificando el punto final de API de la ubicación. Por ejemplo, escriba el siguiente mandato para conectarse a la región Londres de {{site.data.keyword.cloud_notm}}:
+
+```
+ibmcloud api https://api.eu-gb.bluemix.net
+```
+
+Cada ubicación tienen asignado un prefijo exclusivo. {{site.data.keyword.cloud_notm}} proporciona las siguientes ubicaciones y prefijos.
+
+| **Ubicación**  | **Punto final de API**        |
+|---------------|-------------------------|
+| Dallas        | api.ng.bluemix.net      |
+| Sídney        | api.au-syd.bluemix.net  |
+| Frankfurt     | api.eu-de.bluemix.net   |
+| Londres        | api.eu-gb.bluemix.net   |
+| Washington DC | api.us-east.bluemix.net |
+{: caption="Tabla 1. Lista de ubicaciones de {{site.data.keyword.cloud_notm}}" caption-side="top"}
+
+Si despliega recursos de la infraestructura, tendrá más opciones para elegir dónde están ubicados los datos. Puede seleccionar una ubicación o puede seleccionar en una lista de centros de datos de {{site.data.keyword.Bluemix_notm}}. 
+
 ## Centros de datos
 {: #data_center}
 
-Si despliega recursos de la infraestructura, tendrá más opciones para elegir dónde están ubicados los datos. Puede seleccionar una ubicación o puede seleccionar en la lista de centros de datos de {{site.data.keyword.Bluemix_notm}}. Un *centro de datos* es una ubicación física que aloja los recursos de alimentación, refrigeración, cálculo, red y almacenamiento utilizados en los servicios y apps. Los centros de datos no proporcionan aislamiento de errores locales similares a las varias zonas de una ubicación. Para obtener más información, consulte [Ubicaciones globales para su empresa global ![Icono de enlace externo](../icons/launch-glyph.svg "Icono de enlace externo")](https://www.ibm.com/cloud/data-centers/){: new_window}.
+Un centro de datos es una ubicación física que aloja los recursos de alimentación, refrigeración, cálculo, red y almacenamiento utilizados en los servicios y apps. Los centros de datos no proporcionan aislamiento de errores locales similares a las varias zonas de una ubicación. Para obtener más información, consulte [Ubicaciones globales para su empresa global ![Icono de enlace externo](../icons/launch-glyph.svg "Icono de enlace externo")](https://www.ibm.com/cloud/data-centers/){: new_window}.
 
 {{site.data.keyword.Bluemix_notm}} ofrece centros de datos en diversas ubicaciones de todo el mundo. Cuando despliegue recursos de su infraestructura, puede seleccionar en una lista de los centros de datos de {{site.data.keyword.Bluemix_notm}}. 
 
@@ -79,7 +94,7 @@ Si despliega recursos de la infraestructura, tendrá más opciones para elegir d
 ### América del Norte
 {: #na}
 
-| Centro de datos | Código  |
+| Nombre del centro de datos | Código  |
 |------------------|-------|
 | Dallas 01        | dal01 |
 | Dallas 05        | dal05 |
@@ -106,7 +121,7 @@ Si despliega recursos de la infraestructura, tendrá más opciones para elegir d
 ### América del Sur
 {: #sa}
 
-| Centro de datos | Código    |
+| Nombre del centro de datos | Código    |
 |------------------|---------|
 | Sao Paulo 01     | sao01   |
 {: caption="Tabla 3. Centros de datos en América del Sur" caption-side="top"}
@@ -114,7 +129,7 @@ Si despliega recursos de la infraestructura, tendrá más opciones para elegir d
 ### Europa
 {: #eu}
 
-| Centro de datos | Código  |
+| Nombre del centro de datos | Código  |
 |------------------|-------|
 | Londres 02        | lon02 |
 | Londres 04        | lon04 |
@@ -133,7 +148,7 @@ Si despliega recursos de la infraestructura, tendrá más opciones para elegir d
 ### Asia Pacífico
 {: #ap}
 
-| Centro de datos | Código  |
+| Nombre del centro de datos | Código  |
 |------------------|-------|
 | Tokio 01         | tok02 | 
 | Tokio 04         | tok04 |
@@ -157,12 +172,11 @@ Para enviar una reclamación para el tiempo de inactividad, póngase en contacto
 
 {{site.data.keyword.Bluemix_notm}} proporciona SLA a los servicios de {{site.data.keyword.Bluemix_notm}} que pueden hacer que usted sea elegible para los créditos de su cuenta. Los SLA son la única forma de resolver la incapacidad de {{site.data.keyword.Bluemix_notm}} de cumplir con el nivel de servicio especificado. {{site.data.keyword.Bluemix_notm}} proporciona un nivel de servicio de disponibilidad del 99,5% para varias instancias de un servicio de plataforma en un entorno dedicado o local.
 
-Para obtener más información sobre los entornos dedicados, consulte [IBM Cloud dedicado](/docs/hybrid?topic=dedicated-dedicated) y, para los entornos locales, consulte [Bluemix Local](/docs/hybrid?topic=local-local). 
+Para obtener más información sobre los entornos dedicados, consulte [IBM Cloud dedicado](/docs/dedicated/index.html#dedicated) y para los entornos locales, pulse en [Bluemix Local](/docs/local/index.html#local). 
 
 La descripción completa del servicio de {{site.data.keyword.Bluemix_notm}} está disponible en [Términos de los servicios de Cloud](http://www-03.ibm.com/software/sla/sladb.nsf/sla/bm){: new_window} ![Icono de enlace externo](../icons/launch-glyph.svg "Icono de enlace externo").
 
-### SLA de disponibilidad del tiempo de inactividad 
-{: #avail-downtime}
+### SLA de disponibilidad del tiempo de inactividad
 
 Es elegible para un crédito en su cuenta si experimenta un tiempo de inactividad inferior a la disponibilidad del 99,5%. La disponibilidad del tiempo de inactividad es el tiempo total en minutos durante el que no se puede conectar a ninguna instancia de servicio. El tiempo total de inactividad en minutos empieza cuando envía un informe para un suceso de parada y termina cuando al menos una de las instancias afectadas está disponible y se puede utilizar.
 
@@ -170,7 +184,7 @@ Es elegible para un crédito en su cuenta si experimenta un tiempo de inactivida
 - Los servicios en la nube del entorno público que se configuran para la alta disponibilidad, tal y como se describe en los detalles del catálogo de cada servicio. 
 - Los servicios en la nube de varios entornos locales o dedicados en centros de datos separados geográficamente. 
 
-| Tipo	 | Descripción	 | Detalles de soporte|
+| Tipo	                                                                        | Descripción	       | Detalles de soporte|
 |-------------------------------------------------------------------------------|--------------------|----------------|
 | Entorno público de alta disponibilidad o Varios entornos locales/dedicados | Otros entornos | Crédito         |
 | <99,95%                                                                       |<99,5%              |10%             |
@@ -193,7 +207,6 @@ El SLA de disponibilidad del tiempo de inactividad no incluye los servicios de i
 {: note}
 
 ### SLA de servicios de infraestructura
-{: #iaas-slas}
 
 Los servicios de infraestructura son servicios de servidores virtuales y dedicados, redes, almacenamiento y seguridad. Para ver una lista completa de los servicios de infraestructura, busque en el catálogo de {{site.data.keyword.Bluemix_notm}} con la etiqueta `iaas`. 
 
@@ -202,8 +215,6 @@ El tiempo de inactividad es el total en minutos durante el que un servicio de in
 El tiempo de inactividad no incluye el tiempo del mantenimiento anunciado o planificado. Cada 30 minutos de tiempo de inactividad, recibirá un crédito del 5% de los cargos mensuales para los servicios identificados que se ven afectados directamente por la parada. No es elegible para obtener un crédito si el tiempo de inactividad es inferior a 30 minutos seguidos. No es posible combinar el tiempo de inactividad de distintos tipos de paradas para que alcance el cálculo. 
 
 ### Sustitución de hardware de infraestructura y actualización de SLA
-{: #hw-replaceupgrade-sla}
-
 {{site.data.keyword.Bluemix_notm}} intenta minimizar el tiempo de inactividad al sustituir el hardware con errores o al realizar una actualización de hardware planificada. 
 
 {{site.data.keyword.Bluemix_notm}} proporciona crédito a: 
@@ -212,8 +223,9 @@ El tiempo de inactividad no incluye el tiempo del mantenimiento anunciado o plan
 
 Los períodos de tiempo del nivel de servicio excluyen cualquier momento en el que sea necesario volver a cargar el sistema operativo o las aplicaciones o el rendimiento de tiempo pueden degradarse. Tiene derecho a un crédito en función del cargo mensual del servicio que se ve afectado por la sustitución o actualización de hardware si {{site.data.keyword.Bluemix_notm}} no alcanza un período de tiempo del nivel de servicio especificado.
 
-| Periodo de Tiempo de Nivel de Servicio  | Porcentaje de crédito |
+| Tipo	                    | Descripción	   |
 |---------------------------|----------------|
+| Periodo de Tiempo de Nivel de Servicio | Porcentaje de Crédito |
 | ≤ 2 horas                 | Ninguna           |
 | > 2 horas                 | 20%            |
 | > 6 horas                 | 40%            |
@@ -223,8 +235,6 @@ Los períodos de tiempo del nivel de servicio excluyen cualquier momento en el q
 {: caption="Tabla 7. Crédito basada en el cargo mensual del servicio que se ve afectado por la actualización o sustitución de hardware" caption-side="top"}
 
 ### Reclamaciones
-{: #claims}
-
 Envíe su reclamación durante los 60 días posteriores a la finalización del mes contratado que se perdió el nivel de servicio. Proporcione información suficiente para identificar el servicio afectado, los mensajes de error y otra información necesaria para validar la reclamación. 
 
 El crédito será la compensación aplicable más alta en función de la disponibilidad
@@ -234,8 +244,6 @@ cargos mensuales para estos servicios afectados. Los créditos no puede superar 
 Para enviar una reclamación para el tiempo de inactividad, póngase en contacto con el [Soporte de {{site.data.keyword.Bluemix_notm}}](https://console.cloud.ibm.com/unifiedsupport/supportcenter){: new_window} ![Icono de enlace externo](../icons/launch-glyph.svg "Icono de enlace externo").
 
 ### Exclusiones
-{: #exclusions}
-
 No se otorga ningún crédito por no haber podido cumplir con un SLA debido a:
 - Problemas con el cliente o la comunidad que proporciona contenido, tecnología, diseños o instrucciones
 - Servicios de nube beta, experimentales o sin cargos.

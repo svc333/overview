@@ -20,18 +20,18 @@ Como desarrollador, decide el mejor punto de entrada para su código. Puede eleg
 
 {{site.data.keyword.cloud_notm}} tiene un conjunto de funcionalidades que permiten crear apps en minutos. Las herramientas de desarrollador de {{site.data.keyword.cloud_notm}} crean una base de alto rendimiento necesaria para empezar a trabajar. Se ofrecen dos herramientas principales para el desarrollo:
  * Consola web de {{site.data.keyword.cloud_notm}} (portales del desarrollador)
- * {{site.data.keyword.cloud_notm}}interfaz de línea de mandatos (CLI)
+ * Interfaz de línea de mandatos (CLI) de {{site.data.keyword.cloud_notm}}
 
-Con {{site.data.keyword.cloud_notm}}, puede hacer lo siguiente: 
+Con {{site.data.keyword.cloud_notm}}, puede hacer lo siguiente:
 
 * Seleccionar kits de inicio que específicos de casos de uso y crear apps listas para producción en distintos lenguajes de programación y patrones arquitectónicos.
-* Utilizar un [patrón de código de IBM Developer![Icono de enlace externo](../icons/launch-glyph.svg "Icono de enlace externo")](https://developer.ibm.com/patterns/){:new_window} para crear rápidamente una app y desplegarla en {{site.data.keyword.cloud_notm}}.
+* Utilizar un [patrón de código de IBM Developer ![Icono de enlace externo](../icons/launch-glyph.svg "Icono de enlace externo")](https://developer.ibm.com/patterns/){:new_window} para crear rápidamente una app y desplegarla en {{site.data.keyword.cloud_notm}}.
 * Consulte y gestione los recursos que se suministran automáticamente desde el kit de inicio o los que ha añadido manualmente a su app.
 * Si dispone de una app en un repositorio existente, puede utilizar un kit de inicio vacío para crear un registro de app y conectarlo al repositorio de origen y a una cadena de herramientas de DevOps.
 * Con un código de app portátil, puede desplegarse en varios entornos de nube.
 * Crear una [cadena de herramientas de DevOps](../services/ContinuousDelivery/index.html#cd_getting_started) en pocos clics.
 * Utilizar la [interfaz de línea de mandatos](/docs/cli/index.html#overview) para el desarrollo local.
-* Examinar o buscar en el [catálogo de {{site.data.keyword.cloud_notm}} ![Icono de enlace externo](../icons/launch-glyph.svg "Icono de enlace externo")](https://{DomainName}/catalog){: new_window} apps y servicios que puede crear y comenzar a utilizar hoy mismo. 
+* Examinar o buscar en el [catálogo de {{site.data.keyword.cloud_notm}} ![Icono de enlace externo](../icons/launch-glyph.svg "Icono de enlace externo")](https://{DomainName}/catalog){: new_window} apps y servicios que puede crear y comenzar a utilizar hoy mismo.
 
 ![Visión general de Experiencia del desarrollador](images/dev-journey.png "Visión general de Experiencia del desarrollador")
 
@@ -55,7 +55,7 @@ Puede crear y gestionar una app utilizando cualquier portal de desarrollador de 
 
 Puede crear apps sencillas vacías directamente o crear apps más complejas utilizando nuestros kits de inicio. Si decide crear apps vacías sin la ayuda de un kit de inicio, puede hacerlo desde el [panel de control de {{site.data.keyword.cloud_notm}} ![Icono de enlace externo](../icons/launch-glyph.svg "Icono de enlace externo")](https://{DomainName}){: new_window} sin visitar ningún portal.
 
-Puede utilizar un patrón de código para crear rápidamente una app y desplegarla en {{site.data.keyword.cloud_notm}}. En el [sitio web de IBM Developer ![Icono de enlace externo](../icons/launch-glyph.svg "Icono de enlace externo")](https://developer.ibm.com/patterns/){:new_window}, elija un patrón de código. Puede ver el código en GitHub o crear y compilar una app en {{site.data.keyword.cloud_notm}}, donde puede utilizar una cadena de herramientas de DevOps para desplegar automáticamente la app. 
+Puede utilizar un patrón de código para crear rápidamente una app y desplegarla en {{site.data.keyword.cloud_notm}}. En el [sitio web de IBM Developer ![Icono de enlace externo](../icons/launch-glyph.svg "Icono de enlace externo")](https://developer.ibm.com/patterns/){:new_window}, elija un patrón de código. Puede ver el código en GitHub o crear y compilar una app en {{site.data.keyword.cloud_notm}}, donde puede utilizar una cadena de herramientas de DevOps para desplegar automáticamente la app.
 
 
 ## Kits de inicio
@@ -71,7 +71,7 @@ Los kits de inicio están listos para ser utilizados en producción y se centran
 * Un **fragmento** son unas pocas líneas de código que a menudo se presentan en un IDE. Los fragmentos ayudan a un desarrollador a integrar con una sintaxis de lenguaje de programación o dar soporte a la integración con una API definida.
 * Una **demostración** normalmente ofrece una alta calidad y fidelidad y utiliza distintos servicios y puntos de integración. A menudo precisa de tiempo para configurarla y se utiliza para probar un problema empresarial o para demostrar una característica de una plataforma. Puede utilizarla para evaluar las etapas de la adopción en la nube. A veces, es código que se incluye en el código de producción.
 * Un **ejemplo** es un pequeño ejemplo de una característica, función, servicio o recorrido de usuario específicos. Puede reutilizar un ejemplo o incluirlo en una aplicación de producción. Se suele utilizar para mostrar las posibilidades técnicas y un posible enfoque para resolver un problema técnico.
-* Un **kit de inicio** es un patrón listo para el entorno de producción que se puede integrar con un conjunto de servicios para generar un activo listo para producción y que se puede desplegar directamente en un conducto de DevOps y en un clúster de Kubernetes. Un kit de inicio contiene metadatos descriptivos que proporcionan al usuario suficiente información para saber qué es y que hace el kit. También contiene instrucciones que indican a {{site.data.keyword.cloud_notm}} lo que debe producir. La salida está lista para producción desde un principio. Luego, de forma iterativa, puede añadir más mejoras con base a las prácticas recomendadas de IBM. El contenido del kit de inicio no es tan complejo como una demostración ni tan trivial como un ejemplo o fragmento de código. Se crean de forma dinámica en función de los requisitos del desarrollador. 
+* Un **kit de inicio** es un patrón listo para el entorno de producción que se puede integrar con un conjunto de servicios para generar un activo listo para producción y que se puede desplegar directamente en un conducto de DevOps y en un clúster de Kubernetes. Un kit de inicio contiene metadatos descriptivos que proporcionan al usuario suficiente información para saber qué es y que hace el kit. También contiene instrucciones que indican a {{site.data.keyword.cloud_notm}} lo que debe producir. La salida está lista para producción desde un principio. Luego, de forma iterativa, puede añadir más mejoras con base a las prácticas recomendadas de IBM. El contenido del kit de inicio no es tan complejo como una demostración ni tan trivial como un ejemplo o fragmento de código. Se crean de forma dinámica en función de los requisitos del desarrollador.
 
 ## Recursos de suministro automático
 {: #auto-provision}
@@ -161,4 +161,4 @@ Más que nunca, los usuarios esperan lo mejor de sus aplicaciones. Desean apps q
 
 Las funcionalidades de desarrollador se incorporan en {{site.data.keyword.cloud_notm}} para alinear estos conjuntos de conocimientos y permitir que su equipo utilice una plataforma para producir, entregar, ejecutar y gestionar su app. Por ejemplo, un desarrollador digital que cree una app para móviles puede utilizar el {{site.data.keyword.cloud_notm}} [portal del desarrollador móvil](https://{DomainName}/developer/mobile/dashboard){: new_window} ![Icono de enlace externo](../icons/launch-glyph.svg "Icono de enlace externo"). Un creador de apps cognitivas puede utilizar el [portal del desarrollador de Watson](https://{DomainName}/developer/watson/dashboard){: new_window} ![Icono de enlace externo](../icons/launch-glyph.svg "Icono de enlace externo") junto con [Watson Studio](https://{DomainName}/catalog/services/watson-studio){: new_window} ![Icono de enlace externo](../icons/launch-glyph.svg "Icono de enlace externo"). Un desarrollador de streams puede utilizar [IBM Real-Time Analytics](/docs/services/StreamingAnalytics/index.html). El [servicio {{site.data.keyword.cloud_notm}} Continuous Delivery](/docs/services/ContinuousDelivery/index.html) simplifica el trabajo de un especialista en DevOps.
 
-[¿Listo para empezar a crear apps de alta calidad y listas para producción? ](/docs/apps/tutorials/tutorial_web.html)
+[¿Listo para empezar a crear apps de alta calidad y listas para producción?](/docs/apps/tutorials/tutorial_web.html)

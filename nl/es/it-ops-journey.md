@@ -17,7 +17,7 @@ lastupdated: "2019-01-04"
 # Explorar el trayecto del administrador de operaciones de TI en {{site.data.keyword.cloud_notm}}
 {: #it-ops}
 
-A medida que muchas organizaciones se trasladan a un entorno en la nube, ya sea local o alojado en centros de datos, el rol del administrador de operaciones de TI se vuelve a definir. El ámbito y la complejidad de este cambio aumentan significativamente en función del tipo de entorno en el que su organización desee desplegar.
+A medida que muchas organizaciones se trasladan a un entorno en la nube, ya sea local o alojado en centros de datos, el rol del administrador de operaciones de TI se vuelve a definir. El ámbito y la complejidad de este cambio aumentan significativamente en función del tipo de entorno en el que su organización desee desplegar. 
 {: .shortdesc}
 
 Antes de trasladarse a la nube, trabajó con un entorno seguro propiamente con sistemas conectados a la LAN privada o a intranet. Ahora se espera que realice las tareas siguientes en un entorno de nube:
@@ -111,7 +111,7 @@ Puede adquirir más almacenamiento en función de sus necesidades. Consulte la t
 |--------|---------------|
 | [{{site.data.keyword.blockstorageshort}}](/docs//infrastructure/BlockStorage/index.html) | Almacenamiento iSCSI persistente y de alto rendimiento que se suministra y se gestiona de forma independiente de las instancias de cálculo. Los LUN basados en iSCSI están conectados a dispositivos autorizados a través de conexiones de E/S de varias vías de acceso (MPIO) redundantes. |
 | [{{site.data.keyword.filestorage_short}}](/docs/infrastructure/FileStorage/index.html) | Almacenamiento de archivos basado en NFS persistente, rápido y flexible conectado a la red. En este entorno de almacenamiento adjunto de red (NAS), tiene un control total sobre la función y el rendimiento de las comparticiones de archivos. Las unidades compartidas de almacenamiento de archivos se pueden conectar a un máximo de 64 dispositivos autorizados a través de conexiones TCP/IP direccionadas para la capacidad de recuperación. |
-| [{{site.data.keyword.cos_full_notm}}](/docs/services/cloud-object-storage/about-cos.html) |La información almacenada con IBM Cloud Object Storage se cifra y dispersa en varias ubicaciones geográficas y se accede a la misma mediante HTTP utilizando una API REST. Este servicio hace uso de las tecnologías de almacenamiento distribuido que proporciona el sistema de IBM Cloud Object Storage (anteriormente conocido como Cleversafe). |
+| [{{site.data.keyword.cos_full_notm}}](/docs/services/cloud-object-storage/about-cos.html) | La información almacenada con IBM Cloud Object Storage se cifra y dispersa en varias ubicaciones geográficas y se accede a la misma mediante HTTP utilizando una API REST. Este servicio hace uso de las tecnologías de almacenamiento distribuido que proporciona el sistema de IBM Cloud Object Storage (anteriormente conocido como Cleversafe). |
 | [Migración de datos en masa de {{site.data.keyword.cloud_notm}}](/docs/infrastructure/mass-data-migration/index.html) | Descargar grandes cantidades de datos del centro de datos local al grupo Cloud Object Storage. |
 | [EVault](/docs/infrastructure/Backup/index.html) | Un sistema de copia de seguridad basado en agentes automatizado que se gestiona mediante el programa de utilidad de gestión basado en el navegador EVault WebCC solo para servidores virtuales. Datos de copia de seguridad entre servidores en uno o varios centros de datos de la red de IBM Cloud. |
 {: caption="Tabla 2. Opciones de almacenamiento" caption-side="top"}
@@ -144,6 +144,6 @@ Después de crear la infraestructura y el entorno, estará listo para empezar a 
 |--------|---------------|
 | [Supervisar sucesos del sistema](/docs/account/audit_log.html) | Visualizar las acciones que se han realizado en los recursos de la infraestructura. |
 | [Establecer preferencias de correo electrónico](/docs/account/email.html) | Configurar notificaciones de correo electrónico de la infraestructura de {{site.data.keyword.cloud_notm}} sobre sucesos no planificados, mantenimiento y anuncios.  |
-| [Comprender cómo están seguros sus datos](/docs/overview/security.html) | La plataforma de {{site.data.keyword.cloud_notm}} dispone de controles de seguridad de varios niveles de la red y de la infraestructura. |
+| [Comprender cómo están seguros sus datos](/docs/overview/security.html) | La plataforma {{site.data.keyword.cloud_notm}} dispone de controles de seguridad de varios niveles de la red y de la infraestructura. |
 | [Comprender cómo garantizar un tiempo de inactividad cero](/docs/overview/zero_downtime.html) | Todos los recursos de {{site.data.keyword.cloud_notm}} están alojados en ubicaciones de centros de datos de todo el mundo. |
 {: caption="Tabla 4. Gestión de tareas" caption-side="top"}
