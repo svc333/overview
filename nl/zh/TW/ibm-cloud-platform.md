@@ -50,7 +50,7 @@ IBM 的雲端平台結合了平台即服務 (PaaS) 與基礎架構即服務 (Iaa
 
 | 選項 |說明| 
 |--------|---------------|
-| [{{site.data.keyword.baremetal_short}}](/docs/bare-metal?topic=bare-metal-getting-started)  |每小時或每月，您專用的單一承租戶伺服器，任何部分都不與其他客戶共用（包括伺服器資源）。|
+| [{{site.data.keyword.baremetal_short}}](/docs/bare-metal?topic=bare-metal-bm-getting-started#bm-getting-started)  |每小時或每月，您專用的單一承租戶伺服器，任何部分都不與其他客戶共用（包括伺服器資源）。|
 | [{{site.data.keyword.BluVirtServers_short}}](/docs/vsi?topic=virtual-servers-about-public-virtual-servers#public-virtual-servers) |購買時搭配專用核心及記憶體配置的可擴充虛擬伺服器。|
 | [{{site.data.keyword.vmwaresolutions_short}}](/docs/services/vmwaresolutions?topic=vmware-solutions-getting-started#getting-started) |使用可擴充、安全且高效能的基礎架構，以及領先業界的 VMware 混合式虛擬化技術，快速而平順地整合或移轉內部部署的 VMware 工作負載。|
 | [{{site.data.keyword.containerlong_notm}}](/docs/containers?topic=containers-container_index) |結合 Docker 容器、Kubernetes 技術、直覺式使用者體驗及內建安全和隔離，在運算主機的叢集裡，自動部署、操作、調整及監視容器化應用程式。|

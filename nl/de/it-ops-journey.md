@@ -2,7 +2,7 @@
 
 copyright:
   years: 2018, 2019
-lastupdated: "2019-04-16"
+lastupdated: "2019-04-18"
 
 keywords: cloud environment, virtual server, virtual machine, vm, understanding infrastructure, IaaS model
 
@@ -115,7 +115,7 @@ Je nach Ihren Bedürfnissen können Sie zusätzlichen Speicher erwerben. Die fol
 |--------|---------------|
 | [{{site.data.keyword.blockstorageshort}}](/docs/infrastructure/BlockStorage/index.html) | Persistenter iSCSI-Speicher mit hoher Leistung, der unabhängig von Recheninstanzen bereitgestellt und verwaltet wird. iSCSI-basierte LUNs sind über redundante MPIO-Verbindungen (MPIO - Multipath I/O) mit autorisierten Geräten verbunden. |
 | [{{site.data.keyword.filestorage_short}}](/docs/infrastructure/FileStorage/index.html) | Persistenter, schneller und flexibler NFS-basierter NAS-Dateispeicher. In dieser NAS-Umgebung (NAS - Network-Attached Storage) verfügen Sie über die vollständige Kontrolle über die Dateifreigabefunktion und die Leistung. Dateispeicherfreigaben können über TCP/IP-Routingverbindungen für bis zu 64 berechtigte Geräte verfügbar gemacht werden, um die Ausfallsicherheit sicherzustellen. |
-| [{{site.data.keyword.cos_full_notm}}](/docs/services/cloud-object-storage?topic=cloud-object-storage-about-ibm-cloud-object-storage#about-ibm-cloud-object-storage) | Mit IBM Cloud Object Storage gespeicherte Informationen werden verschlüsselt und über mehrere geografische Standorte verteilt. Der Zugriff erfolgt mithilfe einer REST-API über HTTP. Dieser Service verwendet die verteilten Speichertechnologien, die von IBM Cloud Object Storage System (ehemals Cleversafe) bereitgestellt werden. |
+| [{{site.data.keyword.cos_full_notm}}](/docs/services/cloud-object-storage?topic=cloud-object-storage-about#about) | Mit IBM Cloud Object Storage gespeicherte Informationen werden verschlüsselt und über mehrere geografische Standorte verteilt. Der Zugriff erfolgt mithilfe einer REST-API über HTTP. Dieser Service verwendet die verteilten Speichertechnologien, die von IBM Cloud Object Storage System (ehemals Cleversafe) bereitgestellt werden. |
 | [{{site.data.keyword.cloud_notm}} Master Data Management](/docs/services/MDMOnCloud?topic=MDMOnCloud-mdmoc_getting_started#mdmoc_getting_started) | Lagern Sie große Datenmengen vom Ihrem lokalen Rechenzentrum in den Cloud Object Storage-Bucket aus. |
 | [{{site.data.keyword.backup_full}}](/docs/infrastructure/Backup/index.html) | Ein automatisiertes agentenbasiertes Sicherungssystem, das über ein browserbasierte Verwaltungsdienstprogramm verwaltet wird. Sie können Daten auf Servern in einem oder mehreren Rechenzentren im IBM Cloud-Netz sichern. |
 {: caption="Tabelle 2. Speicheroptionen" caption-side="top"}

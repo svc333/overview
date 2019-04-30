@@ -2,7 +2,7 @@
 
 copyright:
   years: 2018, 2019
-lastupdated: "2019-04-16"
+lastupdated: "2019-04-18"
 
 keywords: cloud environment, virtual server, virtual machine, vm, understanding infrastructure, IaaS model
 
@@ -115,7 +115,7 @@ SaaS 모델에서는 제공자가 실제 애플리케이션을 통해 시스템�
 |--------|---------------|
 | [{{site.data.keyword.blockstorageshort}}](/docs/infrastructure/BlockStorage/index.html) |컴퓨팅 인스턴스와 독립적으로 프로비저닝되고 관리되는 지속적인 고성능 iSCSI 스토리지입니다. iSCSI 기반 Block Storage LUN은 중복된 다중 경로 I/O(MPIO) 연결을 통해 권한이 부여된 디바이스에 연결됩니다. |
 | [{{site.data.keyword.filestorage_short}}](/docs/infrastructure/FileStorage/index.html) |네트워크에 연결된 NFS 기반의 빠르고 지속적인 유연한 File Storage입니다. 이 NAS(Network-Attached Storage) 환경에서 파일 공유 기능 및 성능을 완전히 통제할 수 있습니다. File Storage 공유는 복원성을 위해 라우트된 TCP/IP 연결을 통해 최대 64개의 권한 부여된 디바이스에 연결될 수 있습니다. |
-| [{{site.data.keyword.cos_full_notm}}](/docs/services/cloud-object-storage?topic=cloud-object-storage-about-ibm-cloud-object-storage#about-ibm-cloud-object-storage) |IBM Cloud Object Storage로 저장된 정보는 암호화되어 여러 지리적 위치에 분산되어 있으며 REST API를 사용하여 HTTP를 통해 액세스됩니다. 이 서비스는 IBM Cloud Object Storage System(이전의 Cleversafe)에서 제공하는 분산 스토리지 기술을 활용합니다. |
+| [{{site.data.keyword.cos_full_notm}}](/docs/services/cloud-object-storage?topic=cloud-object-storage-about#about) |IBM Cloud Object Storage로 저장된 정보는 암호화되어 여러 지리적 위치에 분산되어 있으며 REST API를 사용하여 HTTP를 통해 액세스됩니다. 이 서비스는 IBM Cloud Object Storage System(이전의 Cleversafe)에서 제공하는 분산 스토리지 기술을 활용합니다. |
 | [{{site.data.keyword.cloud_notm}} Master Data Management](/docs/services/MDMOnCloud?topic=MDMOnCloud-mdmoc_getting_started#mdmoc_getting_started) |온프레미스 데이터 센터의 대용량 데이터를 Cloud Object Storage 버킷으로 오프로드합니다. |
 | [{{site.data.keyword.backup_full}}](/docs/infrastructure/Backup/index.html) |브라우저 기반 관리 유틸리티를 통해 관리되는 자동화된 에이전트 기반 백업 시스템입니다. IBM Cloud 네트워크에 속한 하나 이상의 데이터 센터에 있는 서버 간에 데이터를 백업할 수 있습니다. |
 {: caption="표 2. 스토리지 옵션" caption-side="top"}

@@ -2,7 +2,7 @@
 
 copyright:
   years: 2018, 2019
-lastupdated: "2019-04-16"
+lastupdated: "2019-04-18"
 
 keywords: cloud environment, virtual server, virtual machine, vm, understanding infrastructure, IaaS model
 
@@ -132,7 +132,7 @@ cálculo. Os LUNs do
 Block Storage baseados em iSCSI são conectados aos dispositivos autorizados por meio de conexões redundantes de
 E/S de múltiplos caminhos (MPIO). |
 | [{{site.data.keyword.filestorage_short}}](/docs/infrastructure/FileStorage/index.html) | File Storage baseado em NFS, conectado à rede, persistente, rápido e flexível. Nesse ambiente de armazenamento conectado à rede (NAS), você tem controle total sobre sua função de compartilhamentos de arquivo e sobre o desempenho. Os compartilhamentos do File Storage podem ser conectados a até 64 dispositivos autorizados por meio de conexões TCP/IP roteadas para resiliência. |
-| [{{site.data.keyword.cos_full_notm}}](/docs/services/cloud-object-storage?topic=cloud-object-storage-about-ibm-cloud-object-storage#about-ibm-cloud-object-storage) | As informações armazenadas com o IBM Cloud Object Storage são criptografadas e dispersas em vários locais geográficos e acessadas por meio de HTTP usando uma API de REST. Esse serviço usa as tecnologias de armazenamento distribuídas que são fornecidas pelo IBM Cloud Object Storage System (anteriormente Cleversafe). |
+| [{{site.data.keyword.cos_full_notm}}](/docs/services/cloud-object-storage?topic=cloud-object-storage-about#about) | As informações armazenadas com o IBM Cloud Object Storage são criptografadas e dispersas em vários locais geográficos e acessadas por meio de HTTP usando uma API de REST. Esse serviço usa as tecnologias de armazenamento distribuídas que são fornecidas pelo IBM Cloud Object Storage System (anteriormente Cleversafe). |
 | [{{site.data.keyword.cloud_notm}} Master Data Management](/docs/services/MDMOnCloud?topic=MDMOnCloud-mdmoc_getting_started#mdmoc_getting_started) | Transfira grandes quantidades de dados do data center no local para o depósito do Cloud Object Storage. |
 | [{{site.data.keyword.backup_full}}](/docs/infrastructure/Backup/index.html) | Um sistema de backup baseado em agente automatizado gerenciado por meio de um utilitário de gerenciamento baseado em navegador. É possível fazer backup de dados entre servidores em um ou mais data centers na rede do IBM Cloud. |
 {: caption="Tabela 2. Opções de armazenamento" caption-side="top"}
@@ -177,5 +177,6 @@ executadas nos recursos da infraestrutura. |
 da infraestrutura {{site.data.keyword.cloud_notm}} sobre eventos não planejados, manutenção e comunicados.  |
 | [Entender como os seus dados estão seguros](/docs/overview?topic=overview-security) | A plataforma
 {{site.data.keyword.cloud_notm}} tem controles de segurança em camadas na rede e na infraestrutura. |
-| [Entender como é possível assegurar tempo de inatividade zero](/docs/overview?topic=overview-zero-downtime) | Todos os recursos do {{site.data.keyword.cloud_notm}} são hospedados em localizações de data center ao redor do mundo. |
+| [Entender como é possível assegurar tempo de inatividade zero](/docs/overview?topic=overview-zero-downtime) | Todos os recursos do {{site.data.keyword.cloud_notm}} são hospedados em localizações de data center ao redor
+do mundo. |
 {: caption="Tabela 4. Tarefas de gerenciamento" caption-side="top"}

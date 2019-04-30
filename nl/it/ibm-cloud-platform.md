@@ -50,7 +50,7 @@ Consulta la seguente tabella per un riepilogo delle tue opzioni di calcolo.
 
 | Opzione | Descrizione | 
 |--------|---------------|
-| [{{site.data.keyword.baremetal_short}}](/docs/bare-metal?topic=bare-metal-getting-started)  | Server a singolo tenant orari o mensili, a te dedicati e di cui nessuna loro parte, comprese le risorse server, è condivisa con altri clienti. |
+| [{{site.data.keyword.baremetal_short}}](/docs/bare-metal?topic=bare-metal-bm-getting-started#bm-getting-started)  | Server a singolo tenant orari o mensili, a te dedicati e di cui nessuna loro parte, comprese le risorse server, è condivisa con altri clienti. |
 | [{{site.data.keyword.BluVirtServers_short}}](/docs/vsi?topic=virtual-servers-about-public-virtual-servers#public-virtual-servers) | Server virtuali scalabili acquistati con allocazioni di memoria e core dedicati. |
 | [{{site.data.keyword.vmwaresolutions_short}}](/docs/services/vmwaresolutions?topic=vmware-solutions-getting-started#getting-started) | Integra o migra velocemente e facilmente i carichi di lavoro VMware in loco utilizzando l'infrastruttura ad elevate prestazioni, sicura e scalabile e la tecnologia di virtualizzazione ibrida VMware leader nel settore. |
 | [{{site.data.keyword.containerlong_notm}}](/docs/containers?topic=containers-container_index) | Combina i contenitori Docker e la tecnologia Kubernetes, un'esperienza utente intuitiva e la sicurezza e l'isolamento integrati per automatizzare la distribuzione, il funzionamento, il ridimensionamento e il monitoraggio di applicazioni caricate nei contenitori in un cluster di host di calcolo. |

@@ -2,7 +2,7 @@
 
 copyright:
   years: 2018, 2019
-lastupdated: "2019-04-16"
+lastupdated: "2019-04-18"
 
 keywords: cloud environment, virtual server, virtual machine, vm, understanding infrastructure, IaaS model
 
@@ -117,7 +117,7 @@ subcollection: overview
 |--------|---------------|
 | [{{site.data.keyword.blockstorageshort}}](/docs/infrastructure/BlockStorage/index.html) |持久的高性能 iSCSI 存储器，可独立于计算实例进行供应和管理。基于 iSCSI 的块存储器 LUN 通过冗余多路径 I/O (MPIO) 连接来连接到授权设备。|
 | [{{site.data.keyword.filestorage_short}}](/docs/infrastructure/FileStorage/index.html) |网络连接的基于 NFS 的文件存储器，具有持久、快速、灵活的特点。在此网络连接存储器 (NAS) 环境中，您对文件共享功能和性能具有完全控制权。文件存储器共享可以通过路由的 TCP/IP 连接与最多 64 个授权设备相连接，以实现弹性。|
-| [{{site.data.keyword.cos_full_notm}}](/docs/services/cloud-object-storage?topic=cloud-object-storage-about-ibm-cloud-object-storage#about-ibm-cloud-object-storage) |使用 IBM Cloud Object Storage 存储的信息经过加密并分布在多个地理位置中，可利用 REST API 通过 HTTP 进行访问。此服务利用了 IBM Cloud Object Storage 系统（以前称为 Cleversafe）提供的分布式存储技术。|
+| [{{site.data.keyword.cos_full_notm}}](/docs/services/cloud-object-storage?topic=cloud-object-storage-about#about) |使用 IBM Cloud Object Storage 存储的信息经过加密并分布在多个地理位置中，可利用 REST API 通过 HTTP 进行访问。此服务利用了 IBM Cloud Object Storage 系统（以前称为 Cleversafe）提供的分布式存储技术。|
 | [{{site.data.keyword.cloud_notm}} Master Data Management](/docs/services/MDMOnCloud?topic=MDMOnCloud-mdmoc_getting_started#mdmoc_getting_started) |Cloud Object Storage 存储区分担内部部署数据中心的大量数据。|
 | [{{site.data.keyword.backup_full}}](/docs/infrastructure/Backup/index.html) |基于代理程序的自动备份系统，通过基于浏览器的管理实用程序进行管理。可以在 IBM Cloud 网络上的一个或多个数据中心内的服务器之间备份数据。|
 {: caption="表 2. 存储选项" caption-side="top"}
