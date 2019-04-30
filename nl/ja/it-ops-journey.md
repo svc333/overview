@@ -2,7 +2,7 @@
 
 copyright:
   years: 2018, 2019
-lastupdated: "2019-04-18"
+lastupdated: "2019-04-16"
 
 keywords: cloud environment, virtual server, virtual machine, vm, understanding infrastructure, IaaS model
 
@@ -115,7 +115,7 @@ SaaS モデルでは、プロバイダーは実際のアプリケーションを
 |--------|---------------|
 | [{{site.data.keyword.blockstorageshort}}](/docs/infrastructure/BlockStorage/index.html) | コンピュート・インスタンスから独立してプロビジョンおよび管理される、永続的で高性能な iSCSI ストレージです。 iSCSI ベースのブロック・ストレージ LUN は、冗長マルチパス入出力 (MPIO) 接続を介して、許可されたデバイスに接続されます。 |
 | [{{site.data.keyword.filestorage_short}}](/docs/infrastructure/FileStorage/index.html) | 永続的で高速かつ柔軟なネットワーク接続された NFS ベースのファイル・ストレージ。 この Network Attached Storage (NAS) 環境では、ファイル共有機能とパフォーマンスを完全に制御できます。 ファイル・ストレージ共有は、回復力のために、経路指定された TCP/IP 接続を介して最大 64 台の許可デバイスに接続できます。 |
-| [{{site.data.keyword.cos_full_notm}}](/docs/services/cloud-object-storage?topic=cloud-object-storage-about#about) | IBM Cloud Object Storage に保管された情報は暗号化され、複数の地理的位置に分散され、REST API を使用して HTTP を介してアクセスされます。 このサービスは、IBM Cloud Object Storage System (以前の Cleversafe) によって提供されている分散ストレージ・テクノロジーを利用します。 |
+| [{{site.data.keyword.cos_full_notm}}](/docs/services/cloud-object-storage?topic=cloud-object-storage-about-ibm-cloud-object-storage#about-ibm-cloud-object-storage) | IBM Cloud Object Storage に保管された情報は暗号化され、複数の地理的位置に分散され、REST API を使用して HTTP を介してアクセスされます。 このサービスは、IBM Cloud Object Storage System (以前の Cleversafe) によって提供されている分散ストレージ・テクノロジーを利用します。 |
 | [{{site.data.keyword.cloud_notm}} マスター・データ管理](/docs/services/MDMOnCloud?topic=MDMOnCloud-mdmoc_getting_started#mdmoc_getting_started) | オンプレミス・データ・センターからクラウド・オブジェクト・ストレージ・バケットに大量のデータをオフロードします。 |
 | [{{site.data.keyword.backup_full}}](/docs/infrastructure/Backup/index.html) | ブラウザー・ベースの管理ユーティリティーを使用して管理される、エージェント・ベースの自動バックアップ・システム。 IBM Cloud ネットワーク上の 1 つ以上のデータ・センター内のサーバー間でデータをバックアップできます。 |
 {: caption="表 2. ストレージ・オプション" caption-side="top"}
