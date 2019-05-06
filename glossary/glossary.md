@@ -3,7 +3,7 @@
 
 copyright:
   years: 2016, 2019
-lastupdated: "2019-03-14"
+lastupdated: "2019-05-06"
 
 keywords: glossary, IBM Cloud glossary
 
@@ -517,6 +517,16 @@ A computing model that connects mobile applications to cloud computing services 
 {: #x4585344}
 
 An infrastructure in which the storage and processing of data for applications is offloaded from a mobile device into the cloud. With mobile cloud computing, applications are not limited to a specific carrier, but are accessed through the Web.
+
+### multi-zone region (MZR)
+{: #x9766831}
+
+A region that consists of two or more zones, which are multiple groups of one or more logically isolated data centers with independent electrical, mechanical, and network infrastructures.
+
+### MZR
+{: #x9766835}
+
+See [multi-zone region](#x9766831).
 
 
 ## N
