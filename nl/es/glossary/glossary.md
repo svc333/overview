@@ -411,17 +411,17 @@ Véase [infraestructura como servicio](#x4585332).
 ### IAM
 {: #x2193801}
 
-Consulte [identidad y gestión de acceso](#x7547040).
+Consulte [gestión de identidad y acceso](#x7547040).
 
 ### IBM Cloud
 {: #x7301758}
 
 Plataforma de estándares abiertos basada en la nube para crear, gestionar y ejecutar apps de todo tipo, como web, móvil, Big Data y dispositivos inteligentes. Las funciones incluyen Java, desarrollo para dispositivos móviles y supervisión de aplicaciones, así como características de partners de ecosistema y código abierto&mdash;todo ello se proporciona como un servicio en la nube.
 
-### identidad y gestión de acceso (IAM)
+### gestión de identidad y acceso (IAM)
 {: #x7547040}
 
-El proceso de control de acceso de usuarios autorizados a datos y aplicaciones, mientras que ayuda a las empresas a cumplir con varios requisitos regulatorios.
+El proceso de control de acceso de usuarios autorizados a datos y aplicaciones, a la vez que ayuda a las empresas a cumplir con varios requisitos regulatorios.
 
 ### imagen
 {: #x2024928}

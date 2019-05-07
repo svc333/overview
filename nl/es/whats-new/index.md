@@ -254,7 +254,7 @@ Novedad desde: 23 de mayo de 2017
 
 Ahora puede gestionar sus regiones públicas desde una sola ubicación mediante la consola actualizada de {{site.data.keyword.Bluemix_notm}}. El selector de regiones ofrece acceso ágil a sus recursos, y entre otras mejoras se incluye una mayor disponibilidad y un rendimiento mejorado. Para obtener más información, consulte [Nueva IU de Bluemix global para mayor disponibilidad y más](https://www.ibm.com/blogs/bluemix/2017/05/new-global-bluemix-ui-higher-availability/){: new_window} ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo").
 
-### Gestión de accesos e identidades
+### Gestión de identidad y acceso
 Novedad desde: 1 de mayo de 2017
 {: #iam-may17}
 

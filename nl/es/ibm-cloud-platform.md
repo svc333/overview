@@ -24,7 +24,7 @@ La plataforma de {{site.data.keyword.Bluemix_notm}} consta de varios componentes
 
   * Un catálogo que consta de cientos de ofertas de {{site.data.keyword.Bluemix_notm}}
   * Una consola robusta que sirve como frontal para crear, ver y gestionar los recursos en la nube
-  * Un componente de gestión de accesos e identidades que autentica usuarios de forma segura en los servicios de plataforma y controla el acceso a recursos de forma coherente en {{site.data.keyword.Bluemix_notm}}
+  * Un componente de gestión de identidad y acceso que autentica usuarios de forma segura en los servicios de plataforma y controla el acceso a recursos de forma coherente en {{site.data.keyword.Bluemix_notm}}
   * Un mecanismo de búsqueda y etiquetado para filtrar e identificar los recursos
   * Un sistema de gestión de cuentas y facturación que proporciona una utilización exacta de los planes de precios y protección de fraude con tarjeta de crédito
 
@@ -128,7 +128,7 @@ El controlador de recursos proporciona API comunes para controlar el ciclo de vi
 ## Gestión de los recursos
 {: #resource-manager}
 
-Los [grupos de recursos](/docs/overview?topic=overview-whatis-rgs) gestionan las colecciones de recursos. Los grupos de recursos se asocian con la cuenta. Todos los recursos de {{site.data.keyword.Bluemix_notm}} se deben asignar a un grupo de recursos. Cuando crea una cuenta, se crea también un grupo de recursos predeterminado. Todos los recursos de {{site.data.keyword.Bluemix_notm}} habilitados para IAM deben suministrarse dentro de un grupo de recursos. Si tiene una cuenta Lite, solo puede tener un grupo de recursos. Si tiene una cuenta de Pago según uso o de Suscripción, puede crear más de un grupo de recursos. Si una cuenta está suspendida, el grupo de recursos correspondiente se suspende y todos los recursos del mismo también se suspenden. 
+Los [grupos de recursos](/docs/overview?topic=overview-whatis-rgs) gestionan las colecciones de recursos. Los grupos de recursos se asocian con la cuenta. Todos los recursos de {{site.data.keyword.Bluemix_notm}} se deben asignar a un grupo de recursos. Cuando crea una cuenta, se crea también un grupo de recursos predeterminado. Todos los recursos habilitados para {{site.data.keyword.Bluemix_notm}} IAM deben suministrarse dentro de un grupo de recursos. Si tiene una cuenta Lite, solo puede tener un grupo de recursos. Si tiene una cuenta de Pago según uso o de Suscripción, puede crear más de un grupo de recursos. Si una cuenta está suspendida, el grupo de recursos correspondiente se suspende y todos los recursos del mismo también se suspenden. 
 
 ## Búsqueda y etiquetado de recursos
 {: #search-and-tag}
