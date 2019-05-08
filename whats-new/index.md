@@ -4,7 +4,7 @@ copyright:
 
   years: 2015, 2019
 
-lastupdated: "2019-04-05"
+lastupdated: "2019-05-07"
 
 keywords: release notes, what's new, what is new, cloud updates
 
@@ -14,12 +14,18 @@ subcollection: overview
 
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
+{:tip: .tip}
 
 # What's new in {{site.data.keyword.Bluemix_notm}}?
 {: #whatsnew}
 
-Stay up-to-date with the new features that are available in the {{site.data.keyword.Bluemix}} platform so that you get the most out of your {{site.data.keyword.Bluemix_notm}} experience. If you're looking for updates for the services available on {{site.data.keyword.Bluemix_notm}}, check out the [{{site.data.keyword.Bluemix_notm}} Announcements page](https://www.ibm.com/cloud/blog/announcements){: new_window} ![External link icon](../../icons/launch-glyph.svg "External link icon") on the blog.
+Stay up-to-date with the new features that are available on the {{site.data.keyword.Bluemix}} platform so that you get the most out of your {{site.data.keyword.Bluemix_notm}} experience. 
 {:shortdesc}
+
+If you're looking for updates for the services that are available on {{site.data.keyword.Bluemix_notm}}, check out the [{{site.data.keyword.Bluemix_notm}} Announcements page](https://www.ibm.com/cloud/blog/announcements){: new_window} ![External link icon](../../icons/launch-glyph.svg "External link icon") on the blog.
+{: tip}
+
+
 
 ## {{site.data.keyword.Bluemix_notm}} platform
 {: #platform_category}
@@ -28,7 +34,7 @@ Stay up-to-date with the new features that are available in the {{site.data.keyw
 ### Export usage data with associated tags
 New as of: 4 April 2019 
 
-Users can now utilize our newest tagging capabilities to manage resources, usage, and costs in the exported usage report. When you add a tag to a resource, you now have the option to view the tag associated with the resource. Go to **Manage**> **Billing and Usage**> **Usage**> **Export CSV**>  **Instances** to download your usage report. For more information on exporting tags, check out the [Export tags within your usage data to help with cost allocation](https://www.ibm.com/blogs/bluemix/2019/04/export-your-tagged-usage-data-within-the-enhanced-ibm-cloud/) blog post.
+You can now utilize our newest tagging capabilities to manage resources, usage, and costs in the exported usage report. When you add a tag to a resource, you have the option to view the tag associated with the resource. Go to **Manage**> **Billing and Usage**> **Usage**> **Export CSV**>  **Instances** to download your usage report. For more information on exporting tags, check out the [Export tags within your usage data to help with cost allocation](https://www.ibm.com/cloud/blog/2019/04/export-your-tagged-usage-data-within-the-enhanced-ibm-cloud/) blog post.
 
 ### Access group for enabling public access to resources
 New as of: 25 March 2019
@@ -40,6 +46,28 @@ New as of: 12 March 2019
 {: #mfa-federated}
 
 Account owners or users assigned the administrator role for the billing account management service can enable multifcator authentication (MFA) for all users in their account. Federated users who use their corporate or enterprise single sign-on ID can now be required to authenticate by using MFA for logging in to {{site.data.keyword.Bluemix_notm}}. For more information about this feature enhancement and what you need to know about enabling MFA for your account, see [Introducing MFA for IBM Cloud Users with Federated ID](https://www.ibm.com/blogs/bluemix/2019/03/introducing-mfa-for-ibm-cloud-users-with-federated-id/){: new_window} ![External link icon](../../icons/launch-glyph.svg "External link icon").
+
+### New appdomain.cloud host name option
+New as of: 31 December 2018
+{: #appdomain}
+
+A new host name option `*.appdomain.cloud` is available on cloud.ibm.com.
+
+Previously, the `mybluemix.net` domain was used for hosting apps in various deployment targets, such as {{site.data.keyword.containerlong_notm}} or Cloud Foundry. Any apps that you have hosted on `mybluemix.net` are not impacted.
+
+The subdomain for Cloud Foundry apps is `cf.appdomain.cloud`. The subdomain for apps that you deploy to {{site.data.keyword.containerlong_notm}} is `containers.appdomain.cloud`.
+
+### New Cloud Foundry API endpoints
+New as of: 30 November 2018
+{: #cf-api-endpoints}
+
+The legacy `api.*.bluemix.net` Cloud Foundry API endpoints are still available for backward compatibility. However, you can update scripts and infrastructure automation to use the following new Cloud Foundry API endpoints for your region:
+
+* api.us-south.cf.cloud.ibm.com (previously api.ng.bluemix.net)
+* api.eu-gb.cf.cloud.ibm.com (previously api.eu-gb.bluemix.net)
+* api.us-east.cf.cloud.ibm.com (previously api.us-east.bluemix.net)
+* api.eu-de.cf.cloud.ibm.com (previously api.eu-de.bluemix.net)
+* api.au-syd.cf.cloud.ibm.com (previously api.au-syd.bluemix.net)
 
 ### New support experience for {{site.data.keyword.Bluemix_notm}}
 New as of: 30 November 2018 
@@ -71,7 +99,7 @@ You can now access all of the {{site.data.keyword.Bluemix_notm}} CLI plug-in doc
 New as of: 30 November 2018
 {: #dash}
 
-With our latest update, you can now view all your platform and infrastructure services from one location. When you log in, you can check out the new dashboard right away. After you have resources added to your account from the catalog, you can use the resource list to get a full view of your account resources. :
+With our latest update, you can now view all your platform and infrastructure services from one location. When you log in, you can check out the new dashboard right away. After you have resources added to your account from the catalog, you can use the resource list to get a full view of your account resources:
 
 * The dashboard has been redesigned so that you can view a summary your resources, maintenance, status, apps, support, usage, and users.
 * You can find more details about your resources in the resource list. You can tag your resources to organize them, or select them to make changes on the details page.
@@ -272,6 +300,6 @@ For more information, check out the [Introducing Identity & Access Management](h
 New as of: 13 April 2017
 {: #docnavupdates}
 
-With this navigation update, we think you'll understand how content is organized throughout our docs better, and will be able to find relevant content more efficiently. With fewer nested layers of content, you won't have to dig around to find the documentation you need to be successful with {{site.data.keyword.Bluemix_notm}}.
+With this navigation update, we think you'll understand how content is better organized throughout our docs, and will be able to find relevant content more efficiently. With fewer nested layers of content, you won't have to dig around to find the documentation you need to be successful with {{site.data.keyword.Bluemix_notm}}.
 
 
