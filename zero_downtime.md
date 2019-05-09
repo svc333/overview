@@ -2,7 +2,7 @@
 
 copyright:
   years: 2018, 2019
-lastupdated: "2019-03-14"
+lastupdated: "2019-05-09"
 
 keywords: HA, failover, DR
 
@@ -64,7 +64,13 @@ To address security issues, you can also select the location in which you want t
 
 Global load balancing for the {{site.data.keyword.cloud_notm}} console ensures that if the nearest geographical location for you is unavailable, the console displays the information for the next closest location. This way, you can always access the console without taking any action to access the resources you need.
 
-You can view all resources across all locations by default from the resource list view in the console. If you want to view and work with resources in a specific location, expand the **LOCATION** menu, and select a location from the list. 
+You can view all resources across all locations by default from the resource list view in the console. If you want to view and work with resources in a specific location, expand the **Location** menu, and select a location from the list. By expanding a specific geography location, you can select options to filter by individual data centers, regions, or zones:
+
+Geography
+   * Metro: A specific city name within the specific geographical area. For example, Dallas is a metro in the geography of North America.
+      * Data center: You can identify data centers within an expanded geography as options that use the geography name plus a number.
+      * Region: You can tell the difference between data centers and regions in the list by the use of numbers for identifying the data centers.
+         * Zone: You can identify zones as they use the region name plus a number and are nested within the region
 
 ## Data centers
 {: #data_center}
