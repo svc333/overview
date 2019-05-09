@@ -70,7 +70,7 @@ Geography
    * Metro: A specific city name within the specific geographical area. For example, Dallas is a metro in the geography of North America.
       * Data center: You can identify data centers within an expanded geography as options that use the geography name plus a number.
       * Region: You can tell the difference between data centers and regions in the list by the use of numbers for identifying the data centers.
-         * Zone: You can identify zones as they use the region name plus a number and are nested within the region
+         * Zone: You can identify zones as they use the region name plus a number and are nested within the region.
 
 ## Data centers
 {: #data_center}
