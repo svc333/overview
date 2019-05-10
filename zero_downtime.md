@@ -107,7 +107,7 @@ When you deploy infrastructure resources, you have more options about where your
 | Montreal 01      | mon01 |
 | Toronto 01       | tor01 |
 | Mexico 01        | mex01 |
-{: caption="Table 2. Data centers in North America" caption-side="top"}
+{: caption="Table 1. Data centers in North America" caption-side="top"}
 
 ### South America
 {: #sa}
@@ -115,7 +115,7 @@ When you deploy infrastructure resources, you have more options about where your
 | Data Center | Code    |
 |------------------|---------|
 | Sao Paulo 01     | sao01   |
-{: caption="Table 3. Data centers in South America" caption-side="top"}
+{: caption="Table 2. Data centers in South America" caption-side="top"}
 
 ### Europe
 {: #eu}
@@ -134,7 +134,7 @@ When you deploy infrastructure resources, you have more options about where your
 | Amsterdam 03     | ams03 |
 | Paris 01         | par01 |
 | Oslo 01          | osl01 |
-{: caption="Table 4. Data centers in Europe" caption-side="top"}
+{: caption="Table 3. Data centers in Europe" caption-side="top"}
 
 ### Asia Pacific
 {: #ap}
@@ -151,7 +151,7 @@ When you deploy infrastructure resources, you have more options about where your
 | Sydney 04        | syd04 |
 | Sydney 05        | syd05 |
 | Melbourne 01     | mel01 |
-{: caption="Table 5. Data centers in Asia Pacific" caption-side="top"}
+{: caption="Table 4. Data centers in Asia Pacific" caption-side="top"}
 
 
 ## Service Level Agreements (SLAs)
@@ -181,7 +181,7 @@ You're eligible for a credit toward your account if you experience downtime less
 | High Availability Public Environment or Multiple Dedicated/Local Environments | Other Environments | Credit         |
 | <99.95%                                                                       |<99.5%              |10%             |
 | <99.90%                                                                       |<99.0%              |25%             |
-{: caption="Table 6. Monthly availability service level" caption-side="top"}
+{: caption="Table 5. Monthly availability service level" caption-side="top"}
 
 Availability percentage is calculated as the total number of minutes in a contracted month minus the total number of downtime minutes in that month divided by the total number of minutes in that month. 
 
@@ -226,7 +226,7 @@ Service level time periods exclude any time that is required to reload the opera
 | > 10 hours                | 60%            |
 | > 14 hours                | 80%            |
 | > 18 hours                | 80%            |
-{: caption="Table 7. Credit based on the monthly charge for the service that is affected by the hardware replacement or upgrade" caption-side="top"}
+{: caption="Table 6. Credit based on the monthly charge for the service that is affected by the hardware replacement or upgrade" caption-side="top"}
 
 ### Claims
 {: #claims}
