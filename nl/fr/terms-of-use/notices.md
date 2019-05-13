@@ -5,7 +5,7 @@
 copyright:
 
   years: 2015, 2019
-lastupdated: "2019-01-14"
+lastupdated: "2019-05-07"
 
 keywords: notices, terms of use
 
@@ -34,6 +34,7 @@ Votre compte IBM Cloud et les services offerts dans le cadre d'IBM Cloud sont fo
   * Une description de service pour IBM Cloud disponible à l'adresse [http://www-03.ibm.com/software/sla/sladb.nsf/sla/bm](http://www-03.ibm.com/software/sla/sladb.nsf/sla/bm){: new_window} ![Icône de lien externe](../../icons/launch-glyph.svg) ;
   * Des descriptions de service supplémentaires qui s'appliquent à n'importe quel service commandé à l'aide de votre compte IBM Cloud, disponibles à l'adresse [http://www-03.ibm.com/software/sla/sladb.nsf/sla/bm](http://www-03.ibm.com/software/sla/sladb.nsf/sla/bm){: new_window} ![Icône de lien externe](../../icons/launch-glyph.svg) ; et
   * Des fiches techniques applicables référencées dans des descriptions de service supplémentaires applicables ou disponibles à partir du lien "Terms" pour un service dans l'interface utilisateur IBM Cloud, disponibles à l'adresse [http://www-03.ibm.com/software/sla/sladb.nsf/sla/csdsp](http://www-03.ibm.com/software/sla/sladb.nsf/sla/csdsp){: new_window} ![Icône de lien externe](../../icons/launch-glyph.svg).
+  * Si vous (ou votre entreprise) êtes une entité couverte, selon la définition faite dans la loi HIPAA (Health Insurance Portability and Accountability Act) et souhaitez commander des services Cloud pouvant traiter des renseignements médicaux protégés (PHI), vous devez d'abord accepter l'annexe IBM Cloud Business Associate Addendum (BAA) disponible sur la page [https://www-03.ibm.com/software/sla/sladb.nsf/sla/baa?OpenDocument](https://www-03.ibm.com/software/sla/sladb.nsf/sla/baa?OpenDocument){: new_window} ![Icône de lien externe](../../icons/launch-glyph.svg). Cette annexe peut être acceptée de manière numérique, comme cela est décrit dans la section [Activation du paramètre de prise en charge HIPAA](/docs/account?topic=account-eu-hipaa-supported#enabling-hipaa).
   * Une capacité réservée s'applique à une condition fixe définie dans une commande et ne peut pas être interrompue par le client avant la fin. Une capacité réservée peut être éligible pour un renouvellement à la fin d'une condition par entente mutuelle entre le client et SoftLayer. Les capacités réservées qui ne sont ni renouvelées ni interrompues avant la fin de leurs conditions seront converties en services Cloud mensuels soumis aux dispositions du contrat et à la description des services Cloud en vigueur, ainsi qu'au prix de distribution en vigueur.
 
 ### Licence pour l'image IBM WebSphere Application Server Liberty Profile
@@ -186,8 +187,7 @@ Toute copie totale ou partielle de ces programmes exemples et des
 oeuvres qui en sont dérivées doit comprendre une notice de copyright, libellée comme suit :
 
   © (nom de votre société) (année).
-  Des segments de code sont dérivés des Programmes exemples
-d'IBM Corp.
+  Des segments de code sont dérivés des Programmes exemples d'IBM Corp.
   © Copyright IBM Corp. 2015.
 
 SANCTIONS ET EMBARGOS

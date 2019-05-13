@@ -3,7 +3,7 @@
 
 copyright:
   years: 2016, 2019
-lastupdated: "2019-03-14"
+lastupdated: "2019-05-06"
 
 keywords: glossary, IBM Cloud glossary
 
@@ -755,6 +755,11 @@ Combinaison du registre IBM Cloud d'une organisation et de son espace de nom. Le
 {: #x2091391}
 
 Territoire géographique défini. Une région peut être une zone avec un code postal spécifique, une petite ville, une grande ville, un état, un groupe d'états ou même un groupe de pays. Chaque région peut elle-même être un ensemble d'autres régions ou un ensemble de codes postaux formant la région.
+
+### région multizone (MZR)
+{: #x9766831}
+
+Région composée d'au moins deux zones, lesquelles constituent plusieurs groupes contenant au moins un centre de données disposant d'infrastructures réseau, mécaniques et électriques indépendantes.
 
 ### registre
 {: #x2064940}

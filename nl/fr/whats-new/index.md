@@ -4,7 +4,7 @@ copyright:
 
   years: 2015, 2019
 
-lastupdated: "2019-04-05"
+lastupdated: "2019-05-07"
 
 keywords: release notes, what's new, what is new, cloud updates
 
@@ -14,12 +14,18 @@ subcollection: overview
 
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
+{:tip: .tip}
 
 # Nouveautés d'{{site.data.keyword.Bluemix_notm}}
 {: #whatsnew}
 
-Restez à jour en utilisant les nouvelles fonctions disponibles dans la plateforme {{site.data.keyword.Bluemix}} afin d'optimiser votre expérience {{site.data.keyword.Bluemix_notm}}. Si vous recherchez des mises à jour des services disponibles dans {{site.data.keyword.Bluemix_notm}}, consultez la [page {{site.data.keyword.Bluemix_notm}} Announcements](https://www.ibm.com/cloud/blog/announcements){: new_window} ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe") sur le blogue.
+Restez à jour en utilisant les nouvelles fonctions disponibles sur la plateforme {{site.data.keyword.Bluemix}} afin d'optimiser votre expérience {{site.data.keyword.Bluemix_notm}}.
 {:shortdesc}
+
+Si vous recherchez des mises à jour des services disponibles dans {{site.data.keyword.Bluemix_notm}}, consultez la [page {{site.data.keyword.Bluemix_notm}} Announcements](https://www.ibm.com/cloud/blog/announcements){: new_window} ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe") sur le blogue.
+{: tip}
+
+
 
 ## Plateforme {{site.data.keyword.Bluemix_notm}}
 {: #platform_category}
@@ -28,7 +34,7 @@ Restez à jour en utilisant les nouvelles fonctions disponibles dans la platefor
 ### Exportation de données d'utilisation avec des étiquettes associées
 Nouveau à compter du : 4 avril 2019 
 
-Les utilisateurs peuvent désormais utiliser nos fonctions d'étiquetage les plus récentes pour gérer les ressources, l'utilisation et les coûts dans le rapport d'utilisation exporté. Lorsque vous ajoutez une étiquette à une ressource, vous pouvez désormais afficher l'étiquette associée à la ressource. Accédez à **Gérer**> **Facturation et utilisation**> **Utilisation**> **Exporter au format CSV**>  **Instances** pour télécharger votre rapport d'utilisation. Pour plus d'informations sur l'exportation d'étiquettes, consultez l'article de blogue [Export tags within your usage data to help with cost allocation](https://www.ibm.com/blogs/bluemix/2019/04/export-your-tagged-usage-data-within-the-enhanced-ibm-cloud/).
+Vous pouvez désormais utiliser nos fonctions d'étiquetage les plus récentes pour gérer les ressources, l'utilisation et les coûts dans le rapport d'utilisation exporté. Lorsque vous ajoutez une étiquette à une ressource, vous pouvez afficher cette étiquette. Accédez à **Gérer**> **Facturation et utilisation**> **Utilisation**> **Exporter au format CSV**>  **Instances** pour télécharger votre rapport d'utilisation. Pour plus d'informations sur l'exportation d'étiquettes, consultez l'article de blogue [Export tags within your usage data to help with cost allocation](https://www.ibm.com/cloud/blog/2019/04/export-your-tagged-usage-data-within-the-enhanced-ibm-cloud/).
 
 ### Groupe d'accès pour l'activation de l'accès public aux ressources
 Nouveau à compter du : 25 mars 2019
@@ -40,6 +46,28 @@ Nouveau à compter du : 12 mars 2019
 {: #mfa-federated}
 
 Les propriétaires de compte ou les utilisateurs ayant le rôle administrateur pour le service de gestion de compte de facturation peuvent activer l'authentification multi-facteur (MFA) pour tous les utilisateurs de leur compte. Il peut désormais être demandé aux utilisateurs fédérés qui utilisent leur ID de connexion professionnel de s'authentifier en utilisant l'authentification multi-facteur pour la connexion à {{site.data.keyword.Bluemix_notm}}. Pour plus d'informations sur l'amélioration de cette fonction et sur l'activation de l'authentification multi-facteur pour votre compte, voir [Introducing MFA for IBM Cloud Users with Federated ID](https://www.ibm.com/blogs/bluemix/2019/03/introducing-mfa-for-ibm-cloud-users-with-federated-id/){: new_window} ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe").
+
+### Nouvelle option de nom d'hôte appdomain.cloud
+Nouveau à compter du : 31 décembre 2018
+{: #appdomain}
+
+Une nouvelle option de nom d'hôte `*.appdomain.cloud` est disponible sur cloud.ibm.com.
+
+Auparavant, le domaine `mybluemix.net` était utilisé pour l'hébergement d'applications dans différentes cibles de déploiement, telles {{site.data.keyword.containerlong_notm}} ou Cloud Foundry. Les applications hébergées sur `mybluemix.net` ne sont pas concernées.
+
+Le sous-domaine des applications Cloud Foundry est `cf.appdomain.cloud`. Le sous-domaine des applications que vous déployez dans {{site.data.keyword.containerlong_notm}} est `containers.appdomain.cloud`.
+
+### Nouveaux noeuds finaux d'API Cloud Foundry
+Nouveau à compter du : 30 novembre 2018
+{: #cf-api-endpoints}
+
+Les noeuds finaux d'API Cloud Foundry `api.*.bluemix.net` existants sont toujours disponibles pour la compatibilité avec les versions antérieures. Toutefois, vous pouvez mettre à jour l'automatisation des scripts et de l'infrastructure afin d'utiliser les nouveaux noeuds finaux d'API Cloud Foundry pour votre région :
+
+* api.us-south.cf.cloud.ibm.com (auparavant api.ng.bluemix.net)
+* api.eu-gb.cf.cloud.ibm.com (auparavant api.eu-gb.bluemix.net)
+* api.us-east.cf.cloud.ibm.com (auparavant api.us-east.bluemix.net)
+* api.eu-de.cf.cloud.ibm.com (auparavant api.eu-de.bluemix.net)
+* api.au-syd.cf.cloud.ibm.com (auparavant api.au-syd.bluemix.net)
 
 ### Nouvelle expérience de support pour {{site.data.keyword.Bluemix_notm}}
 Nouveau à compter du : 30 novembre 2018 
@@ -71,7 +99,7 @@ Vous pouvez désormais accéder à l'ensemble de la documentation du plug-in {{s
 Nouveau à compter du : 30 novembre 2018
 {: #dash}
 
-Avec notre dernière mise à jour, vous pouvez désormais voir tous vos services d'infrastructure et de plateforme au même emplacement. Lorsque vous vous connectez, vous pouvez désormais accéder immédiatement au nouveau tableau de bord. Une fois que des ressources sont ajoutées à votre compte à partir du catalogue, vous pouvez utiliser la liste de ressources pour avoir une vue complète de vos ressources de compte. :
+Avec notre dernière mise à jour, vous pouvez désormais voir tous vos services d'infrastructure et de plateforme au même emplacement. Lorsque vous vous connectez, vous pouvez désormais accéder immédiatement au nouveau tableau de bord. Une fois que des ressources sont ajoutées à votre compte à partir du catalogue, vous pouvez utiliser la liste de ressources pour avoir une vue complète de vos ressources de compte :
 
 * Le tableau de bord a été reconçu afin que vous puissiez voir un récapitulatif de vos ressources, de la maintenance, du statut, des applications, du support, de l'utilisation et des utilisateurs.
 * Des informations supplémentaires sur vos ressources sont disponibles dans la liste de ressources. Vous pouvez étiqueter vos ressources pour les organiser ou les sélectionner pour effectuer des modifications sur la page des détails.
