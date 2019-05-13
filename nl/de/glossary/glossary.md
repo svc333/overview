@@ -3,7 +3,7 @@
 
 copyright:
   years: 2016, 2019
-lastupdated: "2019-03-14"
+lastupdated: "2019-05-06"
 
 keywords: glossary, IBM Cloud glossary
 
@@ -519,6 +519,11 @@ Ein Datenverarbeitungsmodell, das mobile Anwendungen mit Cloud-Computing-Service
 
 Eine Infrastruktur, in der die Speicherung und Verarbeitung von Daten für Anwendungen von einem mobilen Gerät in die Cloud ausgelagert wird. Bei der Datenverarbeitung in der mobilen Cloud werden Anwendungen nicht auf einen bestimmten Netzbetreiber beschränkt, sondern es wird über das Web auf sie zugegriffen.
 
+### MZR
+{: #x9766835}
+
+Siehe [Region mit mehreren Zonen](#x9766831).
+
 
 ## N
 {: #glossn}
@@ -650,6 +655,11 @@ Der physische Standort der Server, die Cloud-Services bereitstellen.
 {: #x2091391}
 
 Ein definiertes geografisches Gebiet. Bei einer Region kann es sich um einen bestimmten Postleitzahlenbereich, einen Ort, ein Bundesland/Kanton, eine Gruppe von Bundesländern/Kantonen oder auch eine Gruppe von Ländern handeln. Eine Region kann auch eine Reihe anderer Regionen oder eine Reihe von Postleitzahlen umfassen, die diese Region bilden.
+
+### Region mit mehreren Zonen (Multi-zone region, MZR)
+{: #x9766831}
+
+Eine Region, die aus zwei oder mehr Zonen besteht, bei denen es sich um mehrere Gruppen mit einem oder mehreren isolierten Rechenzentren mit unabhängigen Elektrik-, Mechanik- und Netzinfrastrukturen handelt.
 
 ### Registry
 {: #x2064940}

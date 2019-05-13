@@ -4,7 +4,7 @@ copyright:
 
   years: 2015, 2019
 
-lastupdated: "2019-04-05"
+lastupdated: "2019-05-07"
 
 keywords: release notes, what's new, what is new, cloud updates
 
@@ -14,12 +14,18 @@ subcollection: overview
 
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
+{:tip: .tip}
 
 # {{site.data.keyword.Bluemix_notm}}의 새로운 기능
 {: #whatsnew}
 
-{{site.data.keyword.Bluemix_notm}} 경험을 최대한 활용할 수 있도록 {{site.data.keyword.Bluemix}} 플랫폼에서 사용 가능한 새 기능을 최신 상태로 유지하십시오. {{site.data.keyword.Bluemix_notm}}에서 사용 가능한 서비스에 대한 업데이트를 찾는 경우, 블로그에서 [{{site.data.keyword.Bluemix_notm}} 공지사항 페이지](https://www.ibm.com/cloud/blog/announcements){: new_window} ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")를 확인하십시오.
+{{site.data.keyword.Bluemix_notm}} 경험을 최대한 활용할 수 있도록 {{site.data.keyword.Bluemix}} 플랫폼에서 사용 가능한 새 기능을 최신 상태로 유지하십시오.
 {:shortdesc}
+
+{{site.data.keyword.Bluemix_notm}}에서 사용 가능한 서비스에 대한 업데이트를 찾는 경우, 블로그에서 [{{site.data.keyword.Bluemix_notm}} 공지사항 페이지](https://www.ibm.com/cloud/blog/announcements){: new_window} ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")를 확인하십시오.
+{: tip}
+
+
 
 ## {{site.data.keyword.Bluemix_notm}} 플랫폼
 {: #platform_category}
@@ -28,18 +34,40 @@ subcollection: overview
 ### 연관된 태그가 있는 사용 데이터 내보내기
 신규 기준일: 2019년 4월 4일 
 
-이제 사용자가 최신 태깅 기능을 활용하여 내보내기 사용량 보고서에서 리소스, 사용량 및 비용을 관리할 수 있습니다. 리소스에 태그를 추가할 때 이제 리소스와 연관된 태그를 보는 옵션이 있습니다. **관리**> **청구 및 사용량**> **사용량**> **CSV 내보내기**>  **인스턴스**로 이동하여 사용량 보고서를 다운로드하십시오. 태그 내보내기에 관한 자세한 정보는 [비용 할당을 지원하도록 사용량 데이터에서 태그 내보내기](https://www.ibm.com/blogs/bluemix/2019/04/export-your-tagged-usage-data-within-the-enhanced-ibm-cloud/) 블로그 게시물을 확인하십시오.
+이제 사용자가 최신 태깅 기능을 활용하여 내보내기 사용량 보고서에서 리소스, 사용량 및 비용을 관리할 수 있습니다. 리소스에 태그를 추가할 때 리소스와 연관된 태그를 보는 옵션이 있습니다. **관리**> **청구 및 사용량**> **사용량**> **CSV 내보내기**>  **인스턴스**로 이동하여 사용량 보고서를 다운로드하십시오. 태그 내보내기에 관한 자세한 정보는 [비용 할당을 지원하도록 사용량 데이터에서 태그 내보내기](https://www.ibm.com/cloud/blog/2019/04/export-your-tagged-usage-data-within-the-enhanced-ibm-cloud/) 블로그 게시물을 확인하십시오.
 
 ### 리소스에 대한 공용 액세스 사용을 위한 액세스 그룹
 신규 기준일: 2019년 3월 25일
 
-계정 내에서 제공되는 새 액세스 그룹을 사용하여 {{site.data.keyword.cos_full}} 버킷 내의 오브젝트에 대한 공용 액세스를 사용할 수 있습니다. 이 새 액세스 그룹을 `공용 액세스` 그룹이라고 하며 기본적으로 모든 사용자 및 서비스 ID가 추가됩니다. 인증되지 않은 사용자를 포함하여 모든 사용자가 정책에서 지정된 리소스에 액세스할 수 있도록 액세스 그룹에 대한 정책을 업데이트할 수 있습니다.[공용 액세스 그룹에 대해 자세히 알아보십시오](/docs/iam?topic=iam-public#public).
+계정 내에서 제공되는 새 액세스 그룹을 사용하여 {{site.data.keyword.cos_full}} 버킷 내의 오브젝트에 대한 공용 액세스를 사용할 수 있습니다. 이 새 액세스 그룹을 `공용 액세스` 그룹이라고 하며 기본적으로 모든 사용자 및 서비스 ID가 추가됩니다. 인증되지 않은 사용자를 포함하여 모든 사용자가 정책에서 지정된 리소스에 액세스할 수 있도록 액세스 그룹에 대한 정책을 업데이트할 수 있습니다. [공용 액세스 그룹에 대해 자세히 알아보십시오](/docs/iam?topic=iam-public#public).
 
 ### 연합 ID가 있는 사용자에 대한 다단계 인증
 신규 기준일: 2019년 3월 12일
 {: #mfa-federated}
 
 계정 소유자 또는 사용자가 지정한 청구 계정 관리 서비스의 관리자 역할은 계정 내의 모든 사용자에 대해 다단계 인증(MFA)을 사용하도록 설정할 수 있습니다. 회사 또는 엔터프라이즈 싱글 사인온 ID를 사용하는 연합 사용자는 {{site.data.keyword.Bluemix_notm}}에 로그인하기 위해 MFA를 사용하여 인증하도록 요청받을 수 있습니다. 이 기능의 개선사항 및 계정에 대해 MFA를 사용하도록 설정하는 방법에 대한 자세한 정보는 [연합 ID가 있는 IBM Cloud 사용자를 위한 MFA 소개](https://www.ibm.com/blogs/bluemix/2019/03/introducing-mfa-for-ibm-cloud-users-with-federated-id/){: new_window} ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")를 참조하십시오.
+
+### 새로운 appdomain.cloud 호스트 이름 옵션
+신규 기준일: 2018년 12월 31일
+{: #appdomain}
+
+새 호스트 이름 옵션 `*.appdomain.cloud`는 cloud.ibm.com에서 사용할 수 있습니다.
+
+이전에는 {{site.data.keyword.containerlong_notm}} 또는 Cloud Foundry와 같은 다양한 배치 대상에서 앱을 호스팅하는 데 `mybluemix.net` 도메인이 사용되었습니다. `mybluemix.net`에서 호스팅한 앱에는 영향을 미치지 않습니다.
+
+Cloud Foundry 앱의 하위 도메인은 `cf.appdomain.cloud`입니다. {{site.data.keyword.containerlong_notm}}에 배치하는 앱의 하위 도메인은 `containers.appdomain.cloud`입니다.
+
+### 새 Cloud Foundry API 엔드포인트
+신규 기준일: 2018년 11월 30일
+{: #cf-api-endpoints}
+
+레거시 `api.*.bluemix.net` Cloud Foundry API 엔드포인트는 역호환성을 위해 여전히 사용할 수 있습니다. 그러나 지역에서 다음과 같은 새로운 Cloud Foundry API 엔드포인트를 사용하도록 스크립트와 인프라 자동화를 업데이트할 수 있습니다.
+
+* api.us-south.cf.cloud.ibm.com(이전의 api.ng.bluemix.net)
+* api.eu-gb.cf.cloud.ibm.com(이전의 api.eu-gb.bluemix.net)
+* api.us-east.cf.cloud.ibm.com(이전의 api.us-east.bluemix.net)
+* api.eu-de.cf.cloud.ibm.com(이전의 api.eu-de.bluemix.net)
+* api.au-syd.cf.cloud.ibm.com(이전의 api.au-syd.bluemix.net)
 
 ### {{site.data.keyword.Bluemix_notm}}에 대한 새로운 지원 경험
 신규 기준일: 2018년 11월 30일 
@@ -71,7 +99,7 @@ subcollection: overview
 신규 기준일: 2018년 11월 30일
 {: #dash}
 
-최신 업데이트를 통해 모든 플랫폼 및 인프라 서비스를 한 위치에서 볼 수 있습니다. 로그인하면 새 대시보드를 즉시 확인할 수 있습니다. 카탈로그에서 계정에 리소스를 추가한 후에는 리소스 목록을 사용하여 계정 리소스의 전체 보기를 가져올 수 있습니다. :
+최신 업데이트를 통해 모든 플랫폼 및 인프라 서비스를 한 위치에서 볼 수 있습니다. 로그인하면 새 대시보드를 즉시 확인할 수 있습니다. 카탈로그에서 계정에 리소스를 추가한 후에는 리소스 목록을 사용하여 계정 리소스의 전체 보기를 가져올 수 있습니다.
 
 * 리소스, 유지보수, 상태, 앱, 지원, 사용량 및 사용자의 요약을 볼 수 있도록 대시보드가 재설계되었습니다.
 * 리소스 목록에서 리소스에 대한 세부사항을 찾을 수 있습니다. 리소스를 구성하기 위해 리소스에 태그를 지정하거나 세부사항 페이지에서 변경할 리소스를 선택할 수 있습니다.

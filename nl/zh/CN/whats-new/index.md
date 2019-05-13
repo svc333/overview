@@ -4,7 +4,7 @@ copyright:
 
   years: 2015, 2019
 
-lastupdated: "2019-04-05"
+lastupdated: "2019-05-07"
 
 keywords: release notes, what's new, what is new, cloud updates
 
@@ -14,12 +14,18 @@ subcollection: overview
 
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
+{:tip: .tip}
 
 # {{site.data.keyword.Bluemix_notm}} 中的新增内容
 {: #whatsnew}
 
-及时获取 {{site.data.keyword.Bluemix}} 平台中可用的新功能，以便最充分地利用 {{site.data.keyword.Bluemix_notm}} 体验。如果要查找 {{site.data.keyword.Bluemix_notm}} 上可用服务的更新，请查看博客上的 [{{site.data.keyword.Bluemix_notm}} Announcements 页面](https://www.ibm.com/cloud/blog/announcements){: new_window} ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")。
+及时获取 {{site.data.keyword.Bluemix}} 平台上可用的新功能，以便最充分地利用 {{site.data.keyword.Bluemix_notm}} 体验。
 {:shortdesc}
+
+如果要查找 {{site.data.keyword.Bluemix_notm}} 上可用服务的更新，请查看博客上的 [{{site.data.keyword.Bluemix_notm}} Announcements 页面](https://www.ibm.com/cloud/blog/announcements){: new_window} ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")。
+{: tip}
+
+
 
 ## {{site.data.keyword.Bluemix_notm}} 平台
 {: #platform_category}
@@ -29,7 +35,7 @@ subcollection: overview
 最新更新日期：2019 年 4 月 4 日
  
 
-现在，用户可以利用最新的标记功能来管理导出的使用情况报告中的资源、使用情况和成本。向资源添加标记时，现在可以选择查看与资源关联的标记。转至**管理** > **计费和使用情况** > **使用情况** > **导出 CSV** >  **实例**，以下载使用情况报告。有关导出标记的更多信息，请查看 [Export tags within your usage data to help with cost allocation](https://www.ibm.com/blogs/bluemix/2019/04/export-your-tagged-usage-data-within-the-enhanced-ibm-cloud/) 博客帖子。
+现在，可以利用最新的标记功能来管理导出的使用情况报告中的资源、使用情况和成本。向资源添加标记时，可以选择查看与资源关联的标记。转至**管理** > **计费和使用情况** > **使用情况** > **导出 CSV** >  **实例**，以下载使用情况报告。有关导出标记的更多信息，请查看 [Export tags within your usage data to help with cost allocation](https://www.ibm.com/cloud/blog/2019/04/export-your-tagged-usage-data-within-the-enhanced-ibm-cloud/) 博客帖子。
 
 ### 用于启用对资源的公共访问权的访问组
 最新更新日期：2019 年 3 月 25 日
@@ -41,6 +47,28 @@ subcollection: overview
 {: #mfa-federated}
 
 分配有对缴费帐户管理服务的管理员角色的帐户所有者或用户，可以为其帐户中的所有用户启用多因子认证 (MFA)。现在，对于使用其公司或企业单点登录标识的联合用户，可以要求他们使用 MFA 进行认证，才能登录到 {{site.data.keyword.Bluemix_notm}}。有关此增强功能的更多信息以及关于为帐户启用 MFA 需要了解的信息，请参阅 [Introducing MFA for IBM Cloud Users with Federated ID](https://www.ibm.com/blogs/bluemix/2019/03/introducing-mfa-for-ibm-cloud-users-with-federated-id/){: new_window} ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")。
+
+### 新的 appdomain.cloud 主机名选项
+最新更新日期：2018 年 12 月 31 日
+{: #appdomain}
+
+在 cloud.ibm.com 上提供了新的主机名选项 `*.appdomain.cloud`。
+
+先前，`mybluemix.net` 域用于在各种部署目标（例如，{{site.data.keyword.containerlong_notm}} 或 Cloud Foundry）中托管应用程序。在 `mybluemix.net` 上托管的任何应用程序都不受影响。
+
+Cloud Foundry 应用程序的子域为 `cf.appdomain.cloud`。部署到 {{site.data.keyword.containerlong_notm}} 的应用程序的子域为 `containers.appdomain.cloud`。
+
+### 新的 Cloud Foundry API 端点
+最新更新日期：2018 年 11 月 30 日
+{: #cf-api-endpoints}
+
+原有 `api.*.bluemix.net` Cloud Foundry API 端点仍可用，以支持向后兼容性。但是，您可以更新脚本和基础架构自动化，以对您所在的区域使用以下新的 Cloud Foundry API 端点：
+
+* api.us-south.cf.cloud.ibm.com（先前为 api.ng.bluemix.net）
+* api.eu-gb.cf.cloud.ibm.com（先前为 api.eu-gb.bluemix.net）
+* api.us-east.cf.cloud.ibm.com（先前为 api.us-east.bluemix.net）
+* api.eu-de.cf.cloud.ibm.com（先前为 api.eu-de.bluemix.net）
+* api.au-syd.cf.cloud.ibm.com（先前为 api.au-syd.bluemix.net）
 
 ### 新的 {{site.data.keyword.Bluemix_notm}} 支持体验
 最新更新日期：2018 年 11 月 30 日
@@ -72,7 +100,7 @@ subcollection: overview
 最新更新日期：2018 年 11 月 30 日
 {: #dash}
 
-通过最新更新，现在您可以在一个位置查看所有平台和基础架构服务。登录后，您可以立即查看新仪表板。将资源从目录添加到帐户后，可以使用资源列表来获取帐户资源的完整视图。:
+通过最新更新，现在您可以在一个位置查看所有平台和基础架构服务。登录后，您可以立即查看新仪表板。将资源从目录添加到帐户后，可以使用资源列表来获取帐户资源的完整视图：
 
 * 仪表板已重新设计，以便您可以查看资源、维护、状态、应用程序、支持、使用情况和用户的摘要。
 * 可以在资源列表中找到有关资源的更多详细信息。您可以标记资源以对其进行组织，或者选择资源以在详细信息页面上对其进行更改。
@@ -277,6 +305,6 @@ Bluemix 现已更名为 IBM Cloud。除了推出新名称外，没有更改其�
 最新更新日期：2017 年 4 月 13 日
 {: #docnavupdates}
 
-借助这次导航更新，我们相信您可以更好地了解整个文档中的内容组织方式，并且能够更高效地查找相关内容。由于内容的嵌套层更少，您不必再四处搜寻来查找成功使用 {{site.data.keyword.Bluemix_notm}} 所需的文档。
+借助这次导航更新，我们相信您可以了解整个文档中更合理的内容组织方式，并且能够更高效地查找相关内容。由于内容的嵌套层更少，您不必再四处搜寻来查找成功使用 {{site.data.keyword.Bluemix_notm}} 所需的文档。
 
 

@@ -4,7 +4,7 @@ copyright:
 
   years: 2015, 2019
 
-lastupdated: "2019-04-05"
+lastupdated: "2019-05-07"
 
 keywords: release notes, what's new, what is new, cloud updates
 
@@ -14,12 +14,17 @@ subcollection: overview
 
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
+{:tip: .tip}
 
 # Neuerungen in {{site.data.keyword.Bluemix_notm}}
 {: #whatsnew}
 
-Wenn Sie hinsichtlich neuer Features, die auf der {{site.data.keyword.Bluemix}}-Plattform verfügbar sind, stets auf dem aktuellen Stand bleiben, können Sie am meisten von {{site.data.keyword.Bluemix_notm}} profitieren. Aktualisierungen für die Services, die in {{site.data.keyword.Bluemix_notm}} verfügbar sind, finden Sie auf der Seite mit [{{site.data.keyword.Bluemix_notm}}-Ankündigungen ](https://www.ibm.com/cloud/blog/announcements){: new_window} ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link") im Blog.
-{:shortdesc}
+Wenn Sie hinsichtlich neuer Features, die auf der {{site.data.keyword.Bluemix}}-Plattform verfügbar sind, stets auf dem aktuellen Stand bleiben, können Sie am meisten von {{site.data.keyword.Bluemix_notm}} profitieren. {:shortdesc}
+
+Aktualisierungen für die Services, die in {{site.data.keyword.Bluemix_notm}} verfügbar sind, finden Sie auf der Seite mit [{{site.data.keyword.Bluemix_notm}}-Ankündigungen ](https://www.ibm.com/cloud/blog/announcements){: new_window} ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link") im Blog.
+{: tip}
+
+
 
 ## {{site.data.keyword.Bluemix_notm}}-Plattform
 {: #platform_category}
@@ -28,7 +33,7 @@ Wenn Sie hinsichtlich neuer Features, die auf der {{site.data.keyword.Bluemix}}-
 ### Nutzungsdaten mit zugehörigen Tags exportieren
 Datum der Neuerung: 4. April 2019 
 
-Benutzer können jetzt unsere neueste Tagging-Funktionalität verwenden, um Ressourcen, Nutzung und Kosten im exportierten Nutzungsbericht zu verwalten. Wenn Sie einer Ressource ein Tag hinzufügen, können Sie das Tag jetzt anzeigen, das der Ressource zugeordnet wurde. Rufen Sie **Verwalten**> **Abrechnung und Nutzung**> **Nutzung**> **CSV exportieren**>  **Instanzen** auf, um Ihren Nutzungsbericht herunterzuladen. Weitere Informationen zum Exportieren von Tags finden Sie im Blogbeitrag [Export tags within your usage data to help with cost allocation](https://www.ibm.com/blogs/bluemix/2019/04/export-your-tagged-usage-data-within-the-enhanced-ibm-cloud/).
+Sie können jetzt unsere neueste Tagging-Funktionalität verwenden, um Ressourcen, Nutzung und Kosten im exportierten Nutzungsbericht zu verwalten. Wenn Sie einer Ressource ein Tag hinzufügen, können Sie das Tag anzeigen, das der Ressource zugeordnet wurde. Rufen Sie **Verwalten**> **Abrechnung und Nutzung**> **Nutzung**> **CSV exportieren**>  **Instanzen** auf, um Ihren Nutzungsbericht herunterzuladen. Weitere Informationen zum Exportieren von Tags finden Sie im Blogbeitrag [Export tags within your usage data to help with cost allocation](https://www.ibm.com/cloud/blog/2019/04/export-your-tagged-usage-data-within-the-enhanced-ibm-cloud/).
 
 ### Zugriffsgruppe für die Aktivierung des öffentlichen Zugriffs auf Ressourcen
 Datum der Neuerung: 25. März 2019
@@ -40,6 +45,28 @@ Datum der Neuerung: 12. März 2019
 {: #mfa-federated}
 
 Kontoeigner oder Benutzer, denen die Administratorrolle für den Abrechnungskontoverwaltungsservice zugewiesen wurde, können die Mehrfaktorauthentifizierung (MFA) für alle Benutzer in ihrem Konto aktivieren. Für föderierte Benutzer, die ihre unternehmensweite Single Sign-on-ID verwenden, kann es nun erforderlich sein, sich bei der Anmeldung bei {{site.data.keyword.Bluemix_notm}} anhand der MFA zu authentifizieren. Weiter Informationen zur funktionalen Erweiterung dieses Features und zur Aktivierung der MFA für Ihr Konto finden Sie in [Einführung der MFA für IBM Cloud-Benutzer mit einer föderierten ID ](https://www.ibm.com/blogs/bluemix/2019/03/introducing-mfa-for-ibm-cloud-users-with-federated-id/){: new_window} ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link").
+
+### Neue Option 'appdomain.cloud' für Hostnamen
+Datum der Neuerung: 31. Dezember 2018
+{: #appdomain}
+
+In 'cloud.ibm.com' ist die neue Option `*.appdomain.cloud` für den Hostnamen verfügbar.
+
+Zuvor wurde die Domäne `mybluemix.net` für das Hosting von Apps in unterschiedlichen Bereitstellungszielen wie beispielsweise {{site.data.keyword.containerlong_notm}} oder Cloud Foundry verwendet. Bereits unter `mybluemix.net` gehostete Apps sind nicht betroffen.
+
+Die Unterdomäne für Cloud Foundry-Apps heißt `cf.appdomain.cloud`. Die Unterdomäne für Apps, die Sie in {{site.data.keyword.containerlong_notm}} bereitstellen, heißt `containers.appdomain.cloud`.
+
+### Neue API-Endpunkte für Cloud Foundry
+Datum der Neuerung: 30. November 2018
+{: #cf-api-endpoints}
+
+Die traditionellen API-Endpunkte `api.*.bluemix.net` für Cloud Foundry sind aus Gründen der Abwärtskompatibilität weiterhin verfügbar. Sie können Scripts und Infrastrukturautomation jedoch aktualisieren, damit die folgenden neuen API-Endpunkte für Cloud Foundry für Ihre Region verwendet werden:
+
+* api.us-south.cf.cloud.ibm.com (zuvor: api.ng.bluemix.net)
+* api.eu-gb.cf.cloud.ibm.com (zuvor: api.eu-gb.bluemix.net)
+* api.us-east.cf.cloud.ibm.com (zuvor: api.us-east.bluemix.net)
+* api.eu-de.cf.cloud.ibm.com (zuvor: api.eu-de.bluemix.net)
+* api.au-syd.cf.cloud.ibm.com (zuvor: api.au-syd.bluemix.net)
 
 ### Neues Unterstützungserlebnis für {{site.data.keyword.Bluemix_notm}}
 Datum der Neuerung: 30. November 2018 
@@ -71,7 +98,7 @@ Sie können jetzt an einem Ort auf die gesamte Dokumentation des Plug-ins für d
 Datum der Neuerung: 30. November 2018
 {: #dash}
 
-Mit der neuesten Aktualisierung können Sie jetzt alle Ihre Plattform- und Infrastrukturservices von einem zentralen Ort aus anzeigen. Wenn Sie sich anmelden, können Sie das neue Dashboard sofort genauer in Augenschein nehmen. Nachdem Sie Ressourcen aus dem Katalog zu Ihrem Konto hinzugefügt haben, können Sie anhand der Ressourcenliste eine vollständige Ansicht der Kontoressourcen abrufen :
+Mit der neuesten Aktualisierung können Sie jetzt alle Ihre Plattform- und Infrastrukturservices von einem zentralen Ort aus anzeigen. Wenn Sie sich anmelden, können Sie das neue Dashboard sofort genauer in Augenschein nehmen. Nachdem Sie Ressourcen aus dem Katalog zu Ihrem Konto hinzugefügt haben, können Sie anhand der Ressourcenliste eine vollständige Ansicht der Kontoressourcen abrufen:
 
 * Das Dashboard wurde neu gestaltet, sodass Sie eine Zusammenfassung Ihrer Ressourcen, Ihrer Wartung, des Status, der Apps, des Supports, der Nutzung (Belegung) und der Benutzer anzeigen können.
 * Weitere Details zu Ihren Ressourcen finden Sie in der Ressourcenliste. Sie können Ihre Ressourcen mit Tags kennzeichnen, um sie zu organisieren, oder Sie können sie auswählen, um auf der Detailseite Änderungen vorzunehmen.

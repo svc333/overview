@@ -4,7 +4,7 @@ copyright:
 
   years: 2015, 2019
 
-lastupdated: "2019-04-05"
+lastupdated: "2019-05-07"
 
 keywords: release notes, what's new, what is new, cloud updates
 
@@ -14,12 +14,18 @@ subcollection: overview
 
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
+{:tip: .tip}
 
 # {{site.data.keyword.Bluemix_notm}} の新機能
 {: #whatsnew}
 
-{{site.data.keyword.Bluemix_notm}} の能力を最大限に引き出すために、{{site.data.keyword.Bluemix}} プラットフォームで利用可能な新しいフィーチャーを常に最新の状態に保つようにしてください。 {{site.data.keyword.Bluemix_notm}} で使用可能なサービスの更新を探している場合は、ブログの[{{site.data.keyword.Bluemix_notm}} 発表ページ](https://www.ibm.com/cloud/blog/announcements){: new_window} ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン") を確認してください。
+{{site.data.keyword.Bluemix_notm}} の能力を最大限に引き出すために、{{site.data.keyword.Bluemix}} プラットフォームで利用可能な新しいフィーチャーを常に最新の状態に保つようにしてください。
 {:shortdesc}
+
+{{site.data.keyword.Bluemix_notm}} で使用可能なサービスの更新を探している場合は、ブログの[{{site.data.keyword.Bluemix_notm}} 発表ページ](https://www.ibm.com/cloud/blog/announcements){: new_window} ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン") を確認してください。
+{: tip}
+
+
 
 ## {{site.data.keyword.Bluemix_notm}} プラットフォーム
 {: #platform_category}
@@ -28,18 +34,40 @@ subcollection: overview
 ### 関連タグを用いた使用量データのエクスポート
 最新情報: 2019 年 4 月 4 日 
 
-ユーザーは最新のタグ付け機能を使用して、エクスポートされた使用量レポートでリソース、使用量、コストを管理できるようになりました。リソースにタグを追加すると、リソースに関連するタグを表示するオプションを使用できます。**「管理」 **> **「請求および使用量」 **> **「使用量」 **> **「CSV のエクスポート」 **> **「インスタンス」**に移動して、使用量レポートをダウンロードします。タグのエクスポートについて詳しくは、ブログ投稿[「使用量データ内のタグをエクスポートしてコストの割り振りに役立てる (Export tags within your usage data to help with cost allocation)」](https://www.ibm.com/blogs/bluemix/2019/04/export-your-tagged-usage-data-within-the-enhanced-ibm-cloud/)を確認してください。
+最新のタグ付け機能を使用して、エクスポートされた使用量レポートでリソース、使用量、コストを管理できるようになりました。リソースにタグを追加する場合、リソースに関連付けられているタグを表示するオプションがあります。**「管理」 **> **「請求および使用量」 **> **「使用量」 **> **「CSV のエクスポート」 **> **「インスタンス」**に移動して、使用量レポートをダウンロードします。 タグのエクスポートについて詳しくは、ブログ投稿[「使用量データ内のタグをエクスポートしてコストの割り振りに役立てる (Export tags within your usage data to help with cost allocation)」](https://www.ibm.com/cloud/blog/2019/04/export-your-tagged-usage-data-within-the-enhanced-ibm-cloud/)を確認してください。
 
 ### リソースへのパブリック・アクセスを可能にするアクセス・グループ
 最新情報: 2019 年 3 月 25 日
 
-アカウントに提供されている新しいアクセス・グループを使用することで、{{site.data.keyword.cos_full}} バケット内のオブジェクトへのパブリック・アクセスを有効にできるようになりました。この新しいアクセス・グループは`「パブリック・アクセス」`グループと呼ばれ、デフォルトですべてのユーザー ID とサービス ID がこのグループに追加されています。アクセス・グループのポリシーを更新すれば、ポリシーで指定したリソースへのアクセス権限を、認証されていないユーザーも含めてすべてのユーザーに付与できます。 [『パブリック・アクセス・グループの詳細 (Learn more about the public access group)』](/docs/iam?topic=iam-public#public)を参照してください。
+アカウントに提供されている新しいアクセス・グループを使用することで、{{site.data.keyword.cos_full}} バケット内のオブジェクトへのパブリック・アクセスを有効にできるようになりました。 この新しいアクセス・グループは`「パブリック・アクセス」`グループと呼ばれ、デフォルトですべてのユーザー ID とサービス ID がこのグループに追加されています。 アクセス・グループのポリシーを更新すれば、ポリシーで指定したリソースへのアクセス権限を、認証されていないユーザーも含めてすべてのユーザーに付与できます。 [『パブリック・アクセス・グループの詳細 (Learn more about the public access group)』](/docs/iam?topic=iam-public#public)を参照してください。
 
 ### フェデレーテッド ID を持つユーザーの多要素認証
 最新情報: 2019 年 3 月 12 日
 {: #mfa-federated}
 
 課金アカウント管理サービスの管理者役割を割り当てられたアカウント所有者またはユーザーは、アカウント内のすべてのユーザーに対して多要素認証 (MFA) を有効にすることができます。 企業またはエンタープライズのシングル・サインオン ID を使用するフェデレーテッド・ユーザーは、MFA を使用して {{site.data.keyword.Bluemix_notm}} にログインすることによって認証を受けることができるようになりました。 このフィーチャーの強化と、アカウントの MFA を有効にするために必要な情報の詳細については、[Introducing MFA for IBM Cloud Users with Federated ID (フェデレーテッド ID を持つ IBM Cloud ユーザーの MFA の概要)](https://www.ibm.com/blogs/bluemix/2019/03/introducing-mfa-for-ibm-cloud-users-with-federated-id/){: new_window} ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン") を参照してください。
+
+### 新しい appdomain.cloud ホスト名オプション
+最新情報: 2018 年 12 月 31 日
+{: #appdomain}
+
+新しいホスト名オプション `*.appdomain.cloud` が cloud.ibm.com で使用可能です。
+
+以前は、`mybluemix.net` ドメインが {{site.data.keyword.containerlong_notm}} や Cloud Foundry などのさまざまなデプロイメント・ターゲットでアプリをホストするために使用されていました。`mybluemix.net` でホストしているアプリは影響を受けません。
+
+Cloud Foundry アプリのサブドメインは `cf.appdomain.cloud` です。{{site.data.keyword.containerlong_notm}} にデプロイするアプリのサブドメインは `containers.appdomain.cloud` です。
+
+### 新しい Cloud Foundry API エンドポイント
+最新情報: 2018 年 11 月 30 日
+{: #cf-api-endpoints}
+
+既存の `api.*.bluemix.net` Cloud Foundry API エンドポイントは、後方互換性のために引き続き使用できます。ただし、使用している地域の以下の新しい Cloud Foundry API エンドポイントを使用するために、スクリプトとインフラストラクチャー自動化を更新できます。
+
+* api.us-south.cf.cloud.ibm.com (以前は api.ng.bluemix.net)
+* api.eu-gb.cf.cloud.ibm.com (以前は api.eu-gb.bluemix.net)
+* api.us-east.cf.cloud.ibm.com (以前は api.us-east.bluemix.net)
+* api.eu-de.cf.cloud.ibm.com (以前は api.eu-de.bluemix.net)
+* api.au-syd.cf.cloud.ibm.com (以前は api.au-syd.bluemix.net)
 
 ### {{site.data.keyword.Bluemix_notm}} の新しいサポート・エクスペリエンス
 最新情報: 2018 年 11 月 30 日 
@@ -71,7 +99,7 @@ subcollection: overview
 最新情報: 2018 年 11 月 30 日
 {: #dash}
 
-最新の更新により、すべてのプラットフォームおよびインフラストラクチャーのサービスを 1 つの場所から表示できるようになりました。 ログインすると、新しいダッシュボードをすぐに確認できます。 カタログからアカウントにリソースを追加すると、リソース・リストを使用してアカウント・リソースの全体を表示できます。 :
+最新の更新により、すべてのプラットフォームおよびインフラストラクチャーのサービスを 1 つの場所から表示できるようになりました。 ログインすると、新しいダッシュボードをすぐに確認できます。 カタログからアカウントにリソースを追加すると、リソース・リストを使用してアカウント・リソースの全体を表示できます。
 
 * ダッシュボードが再設計され、リソース、保守、状況、アプリケーション、サポート、使用状況、およびユーザーの要約を表示できるようになりました。
 * リソース・リストでリソースのより詳細な情報を確認できるようになりました。 リソースにタグを付けて編成したり、リソースを選択して詳細ページで変更を加えたりすることができます。
@@ -86,9 +114,9 @@ subcollection: overview
 
 アカウント、請求、およびプロファイルの情報が簡素化されました。 統合されたコンソールで、すべてのプラットフォームおよびインフラストラクチャーのリソースのアカウント情報を表示できます。 
 
-* プロファイルと設定の領域には、お客様に関する情報と、すべてのリソース・タイプの E メール通知設定が含まれています。 
-* アカウント情報領域には、会社または組織に関する情報、アカウント設定、およびリソース・グループや Cloud Foundry 組織と連携するためのクイック・アクセスが含まれています。 素早く稼働するのに役立つベスト・プラクティスを見つけることもできます。
-* アカウントの「請求および使用量」領域は、請求の理解、支払いの実行、サブスクリプションのモニター、見積もりの取得、注文の追跡、および消費量通知の設定に役立ちます。
+* プロファイルと設定には、お客様に関する情報と、すべてのリソース・タイプの E メール通知設定が含まれています。 
+* アカウント情報には、会社または組織に関する情報、アカウント設定、およびリソース・グループや Cloud Foundry 組織と連携するためのクイック・アクセスが含まれています。素早く利用を開始するのに役立つベスト・プラクティスを見つけることもできます。
+* アカウントの「請求および使用量」では、請求内容の確認、支払いの実行、サブスクリプションのモニター、見積もりの取得、注文の追跡、および消費量通知の設定を実行できます。
 
 詳しくは、[Bringing It All Together: A Single Account and Billing Management Experience](https://www.ibm.com/blogs/bluemix/2018/11/ibm-cloud-account-management/){: new_window} ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン") を参照してください。
 
@@ -272,6 +300,6 @@ Identity and Access Management (IAM) では、サービス ID を作成する機
 最新情報: 2017 年 4 月 13 日
 {: #docnavupdates}
 
-このナビゲーションの更新によって、資料全体でコンテンツがどのように編成されているかが分かりやすくなり、関連コンテンツをより効率的に見つけることができるようになります。 コンテンツのネストされたレイヤーの数が減り、{{site.data.keyword.Bluemix_notm}} を活用するために必要な資料を見つけるために探し回る必要はなくなります。
+このナビゲーションの更新によって、資料全体でコンテンツがどのように編成されているかを理解し、関連コンテンツをより効率的に見つけることができるようになります。コンテンツのネストされたレイヤーの数が減り、{{site.data.keyword.Bluemix_notm}} を活用するために必要な資料を見つけるために探し回る必要はなくなります。
 
 

@@ -5,7 +5,7 @@
 copyright:
 
   years: 2015, 2019
-lastupdated: "2019-01-14"
+lastupdated: "2019-05-07"
 
 keywords: notices, terms of use
 
@@ -34,6 +34,7 @@ Ihr IBM Cloud-Konto und alle Services, die von IBM Cloud angefordert werden, wer
   * Servicebeschreibung für IBM Cloud, verfügbar unter [http://www-03.ibm.com/software/sla/sladb.nsf/sla/bm](http://www-03.ibm.com/software/sla/sladb.nsf/sla/bm){: new_window} ![Symbol für externen Link](../../icons/launch-glyph.svg)
   * Zusätzliche anwendbare Servicebeschreibungen für alle Services, die über Ihr IBM Cloud-Konto angefordert wurden, verfügbar unter [http://www-03.ibm.com/software/sla/sladb.nsf/sla/bm](http://www-03.ibm.com/software/sla/sladb.nsf/sla/bm){: new_window} ![Symbol für externen Link](../../icons/launch-glyph.svg)
   * Anwendbare Datenblätter, auf die in den zusätzlichen anwendbaren Servicebeschreibungen oder über den Link 'Bedingungen' für einen Service in der IBM Cloud-Benutzerschnittstelle verwiesen wird, verfügbar unter [http://www-03.ibm.com/software/sla/sladb.nsf/sla/csdsp](http://www-03.ibm.com/software/sla/sladb.nsf/sla/csdsp){: new_window} ![Symbol für externen Link](../../icons/launch-glyph.svg)
+  * Falls es sich bei Ihnen oder Ihrem Unternehmen gemäß der Definition durch den US-amerikanischen Health Insurance Portability and Accountability Act (HIPAA) um ein Unternehmen im Gesundheitswesen handelt und Sie Cloud-Services bestellen wollen, die möglicherweise geschützte Diagnoseinformationen (protected health information, PHI) verarbeiten, müssen Sie die Bestimmungen im IBM Business Associate Addendum (BAA) akzeptieren, das unter der Adresse [https://www-03.ibm.com/software/sla/sladb.nsf/sla/baa?OpenDocument](https://www-03.ibm.com/software/sla/sladb.nsf/sla/baa?OpenDocument){: new_window} ![Symbol für externen Link](../../icons/launch-glyph.svg) verfügbar ist. Das BAA kann auf digitalem Weg akzeptiert werden; eine entsprechende Beschreibung ist im Abschnitt [Einstellung 'HIPAA-Unterstützung' aktivieren](/docs/account?topic=account-eu-hipaa-supported#enabling-hipaa) zu finden.
   * Eine reservierte Kapazität bezieht sich auf einen festen, in einer Bestellung definierten Zeitraum; sie kann vor dem Ende dieses Zeitraums nicht durch den Kunden beendet werden. Eine reservierte Kapazität kann gegebenenfalls zum Ende der Laufzeit für eine Verlängerung infrage kommen, wenn dies zwischen dem Kunden SoftLayer so vereinbart wird. Reservierte Kapazitäten, die weder verlängert noch vor dem Ende der Laufzeit beendet werden, werden in monatliche Cloud-Services konvertiert und unterliegen den Bedingungen des zu diesem Zeitpunkt aktuellen Cloud Service Agreement und der entsprechenden Servicebeschreibung sowie den zu diesem Zeitpunkt aktuellen Einzelhandelspreisen.
 
 ### Lizenz für das IBM WebSphere Application Server Liberty Profile-Image
@@ -73,9 +74,9 @@ Eine erste Überprüfung kann bis zu 2 Arbeitstage in Anspruch nehmen und abhän
 
 Die vorliegenden Informationen wurden für Produkte und Services entwickelt, die auf dem deutschen Markt angeboten werden. IBM stellt dieses Material möglicherweise auch in anderen Sprachen zur Verfügung. Für den Zugriff auf das Material in einer anderen Sprache kann eine Kopie des Produkts oder der Produktversion in der jeweiligen Sprache erforderlich sein.
 
-Möglicherweise bietet IBM die in dieser Dokumentation beschriebenen Produkte, Services oder Funktionen in anderen Ländern nicht an. Informationen über die gegenwärtig im jeweiligen Land verfügbaren Produkte und Services sind beim zuständigen IBM Ansprechpartner erhältlich. Hinweise auf IBM Lizenzprogramme oder andere IBM Produkte bedeuten nicht, dass nur Programme, Produkte oder Services von IBM verwendet werden können. Anstelle der IBM Produkte, Programme oder Services können auch andere, ihnen äquivalente Produkte, Programme oder Services verwendet werden, solange diese keine gewerblichen oder anderen Schutzrechte von IBM verletzen. Die Verantwortung für den Betrieb von Produkten, Programmen und Services anderer Anbieter liegt beim Kunden. 
+Möglicherweise bietet IBM die in dieser Dokumentation beschriebenen Produkte, Services oder Funktionen in anderen Ländern nicht an. Informationen über die gegenwärtig im jeweiligen Land verfügbaren Produkte und Services sind beim zuständigen IBM Ansprechpartner erhältlich. Hinweise auf IBM Lizenzprogramme oder andere IBM Produkte bedeuten nicht, dass nur Programme, Produkte oder Services von IBM verwendet werden können. Anstelle der IBM Produkte, Programme oder Services können auch andere, ihnen äquivalente Produkte, Programme oder Services verwendet werden, solange diese keine gewerblichen oder anderen Schutzrechte von IBM verletzen. Die Verantwortung für den Betrieb von Produkten, Programmen und Services anderer Anbieter liegt beim Kunden.
 
-Für die in diesem Handbuch beschriebenen Erzeugnisse und Verfahren kann es IBM Patente oder Patentanmeldungen geben. Mit der Auslieferung dieses Handbuchs ist keine Lizenzierung dieser Patente verbunden. Lizenzanforderungen sind schriftlich an folgende Adresse zu richten (Anfragen an diese Adresse müssen auf Englisch formuliert werden): 
+Für die in diesem Handbuch beschriebenen Erzeugnisse und Verfahren kann es IBM Patente oder Patentanmeldungen geben. Mit der Auslieferung dieses Handbuchs ist keine Lizenzierung dieser Patente verbunden. Lizenzanforderungen sind schriftlich an folgende Adresse zu richten (Anfragen an diese Adresse müssen auf Englisch formuliert werden):
 
   *IBM Director of Licensing*
   *IBM Europe, Middle East &amp; Africa*
@@ -83,7 +84,6 @@ Für die in diesem Handbuch beschriebenen Erzeugnisse und Verfahren kann es IBM 
   *2, avenue Gambetta*
   *92066 Paris La Defense*
   *France*
-
 <!-- For license inquiries regarding double-byte character set (DBCS) information, contact the IBM Intellectual Property Department in your country or send inquiries, in writing, to: -->
 
   <!-- *Intellectual Property Licensing* -->
@@ -94,13 +94,13 @@ Für die in diesem Handbuch beschriebenen Erzeugnisse und Verfahren kann es IBM 
 
 <!-- INTERNATIONAL BUSINESS MACHINES CORPORATION PROVIDES THIS PUBLICATION "AS IS" WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF NON-INFRINGEMENT, MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE. Some jurisdictions do not allow disclaimer of express or implied warranties in certain transactions, therefore, this statement may not apply to you. -->
 
-Trotz sorgfältiger Bearbeitung können technische Ungenauigkeiten oder Druckfehler in dieser Veröffentlichung nicht ausgeschlossen werden. Die hier enthaltenen Informationen werden in regelmäßigen Zeitabständen aktualisiert und als Neuausgabe veröffentlicht. IBM kann ohne weitere Mitteilung jederzeit Verbesserungen und/oder Änderungen an den in dieser Veröffentlichung beschriebenen Produkten und/oder Programmen vornehmen. 
+Trotz sorgfältiger Bearbeitung können technische Ungenauigkeiten oder Druckfehler in dieser Veröffentlichung nicht ausgeschlossen werden. Die hier enthaltenen Informationen werden in regelmäßigen Zeitabständen aktualisiert und als Neuausgabe veröffentlicht. IBM kann ohne weitere Mitteilung jederzeit Verbesserungen und/oder Änderungen an den in dieser Veröffentlichung beschriebenen Produkten und/oder Programmen vornehmen.
 
-Verweise in diesen Informationen auf Websites anderer Anbieter werden lediglich als Service für den Kunden bereitgestellt und stellen keinerlei Billigung des Inhalts dieser Websites dar. Das über diese Websites verfügbare Material ist nicht Bestandteil des Materials für dieses IBM Produkt. Die Verwendung dieser Websites geschieht auf eigene Verantwortung. 
+Verweise in diesen Informationen auf Websites anderer Anbieter werden lediglich als Service für den Kunden bereitgestellt und stellen keinerlei Billigung des Inhalts dieser Websites dar. Das über diese Websites verfügbare Material ist nicht Bestandteil des Materials für dieses IBM Produkt. Die Verwendung dieser Websites geschieht auf eigene Verantwortung.
 
-Werden an IBM Informationen eingesandt, können diese beliebig verwendet werden, ohne dass eine Verpflichtung gegenüber dem Einsender entsteht. 
+Werden an IBM Informationen eingesandt, können diese beliebig verwendet werden, ohne dass eine Verpflichtung gegenüber dem Einsender entsteht.
 
-Lizenznehmer des Programms, die Informationen zu diesem Produkt wünschen mit der Zielsetzung: (i) den Austausch von Informationen zwischen unabhängig voneinander erstellten Programmen und anderen Programmen (einschließlich des vorliegenden Programms) sowie (ii) die gemeinsame Nutzung der ausgetauschten Informationen zu ermöglichen, wenden sich an folgende Adresse: 
+Lizenznehmer des Programms, die Informationen zu diesem Produkt wünschen mit der Zielsetzung: (i) den Austausch von Informationen zwischen unabhängig voneinander erstellten Programmen und anderen Programmen (einschließlich des vorliegenden Programms) sowie (ii) die gemeinsame Nutzung der ausgetauschten Informationen zu ermöglichen, wenden sich an folgende Adresse:
 
   *IBM Director of Licensing*
   *IBM Corporation*
@@ -108,27 +108,27 @@ Lizenznehmer des Programms, die Informationen zu diesem Produkt wünschen mit de
   *Armonk, NY 10504-1785*
   *US*
 
-Die Bereitstellung dieser Informationen kann unter Umständen von bestimmten Bedingungen - in einigen Fällen auch von der Zahlung einer Gebühr - abhängig sein. 
+Die Bereitstellung dieser Informationen kann unter Umständen von bestimmten Bedingungen - in einigen Fällen auch von der Zahlung einer Gebühr - abhängig sein.
 
-Die Lieferung des im Dokument aufgeführten Lizenzprogramms sowie des zugehörigen Lizenzmaterials erfolgt auf der Basis der IBM Rahmenvereinbarung bzw. der Allgemeinen Geschäftsbedingungen von IBM, der IBM Internationalen Nutzungsbedingungen für Programmpakete oder einer äquivalenten Vereinbarung. 
+Die Lieferung des im Dokument aufgeführten Lizenzprogramms sowie des zugehörigen Lizenzmaterials erfolgt auf der Basis der IBM Rahmenvereinbarung bzw. der Allgemeinen Geschäftsbedingungen von IBM, der IBM Internationalen Nutzungsbedingungen für Programmpakete oder einer äquivalenten Vereinbarung.
 
-Alle in diesem Dokument enthaltenen Leistungsdaten und Clientbeispiele dienen nur zur Veranschaulichung. Abhängig von bestimmten Konfigurationen und Betriebsbedingungen können tatsächliche Leistungsergebnisse davon abweichen. 
+Alle in diesem Dokument enthaltenen Leistungsdaten und Clientbeispiele dienen nur zur Veranschaulichung. Abhängig von bestimmten Konfigurationen und Betriebsbedingungen können tatsächliche Leistungsergebnisse davon abweichen.
 
-Alle Informationen zu Produkten anderer Anbieter stammen von den Anbietern der aufgeführten Produkte, deren veröffentlichten Ankündigungen oder anderen allgemein verfügbaren Quellen. IBM hat diese Produkte nicht getestet und kann daher keine Aussagen zu Leistung, Kompatibilität oder anderen Merkmalen machen. Fragen zu den Leistungsmerkmalen von Produkten anderer Anbieter sind an den jeweiligen Anbieter zu richten. 
+Alle Informationen zu Produkten anderer Anbieter stammen von den Anbietern der aufgeführten Produkte, deren veröffentlichten Ankündigungen oder anderen allgemein verfügbaren Quellen. IBM hat diese Produkte nicht getestet und kann daher keine Aussagen zu Leistung, Kompatibilität oder anderen Merkmalen machen. Fragen zu den Leistungsmerkmalen von Produkten anderer Anbieter sind an den jeweiligen Anbieter zu richten.
 
-Aussagen über Pläne und Absichten von IBM unterliegen Änderungen oder können zurückgenommen werden und repräsentieren nur die Ziele von IBM. 
+Aussagen über Pläne und Absichten von IBM unterliegen Änderungen oder können zurückgenommen werden und repräsentieren nur die Ziele von IBM.
 
 Alle von IBM angegebenen Preise sind empfohlene Richtpreise und können jederzeit ohne weitere Mitteilung geändert werden. Händlerpreise können u. U. von den hier genannten Preisen abweichen.
 
-Diese Veröffentlichung dient nur zu Planungszwecken. Die in dieser Veröffentlichung enthaltenen Informationen können geändert werden, bevor die beschriebenen Produkte verfügbar sind. 
+Diese Veröffentlichung dient nur zu Planungszwecken. Die in dieser Veröffentlichung enthaltenen Informationen können geändert werden, bevor die beschriebenen Produkte verfügbar sind.
 
-Diese Veröffentlichung enthält Beispiele für Daten und Berichte des alltäglichen Geschäftsablaufs. Sie sollen nur die Funktionen des Lizenzprogramms illustrieren und können Namen von Personen, Firmen, Marken oder Produkten enthalten. Alle diese Namen sind frei erfunden; Ähnlichkeiten mit tatsächlichen Namen und Adressen sind rein zufällig. 
+Diese Veröffentlichung enthält Beispiele für Daten und Berichte des alltäglichen Geschäftsablaufs. Sie sollen nur die Funktionen des Lizenzprogramms illustrieren und können Namen von Personen, Firmen, Marken oder Produkten enthalten. Alle diese Namen sind frei erfunden; Ähnlichkeiten mit tatsächlichen Namen und Adressen sind rein zufällig.
 
 COPYRIGHTLIZENZ:
 
-Diese Veröffentlichung enthält Beispielanwendungsprogramme, die in Quellensprache geschrieben sind und Programmiertechniken in verschiedenen Betriebsumgebungen veranschaulichen. Sie dürfen diese Beispielprogramme kostenlos kopieren, ändern und verteilen, wenn dies zu dem Zweck geschieht, Anwendungsprogramme zu entwickeln, zu verwenden, zu vermarkten oder zu verteilen, die mit der Anwendungsprogrammierschnittstelle für die Betriebsumgebung konform sind, für die diese Beispielprogramme geschrieben werden. Diese Beispiele wurden nicht unter allen denkbaren Bedingungen getestet. Daher kann IBM die Zuverlässigkeit, Wartungsfreundlichkeit oder Funktion dieser Programme weder zusagen noch gewährleisten. Die Beispielprogramme werden ohne Wartung (auf "as-is"-Basis) und ohne jegliche Gewährleistung zur Verfügung gestellt. IBM übernimmt keine Haftung für Schäden, die durch die Verwendung der Beispielprogramme entstehen. 
+Diese Veröffentlichung enthält Beispielanwendungsprogramme, die in Quellensprache geschrieben sind und Programmiertechniken in verschiedenen Betriebsumgebungen veranschaulichen. Sie dürfen diese Beispielprogramme kostenlos kopieren, ändern und verteilen, wenn dies zu dem Zweck geschieht, Anwendungsprogramme zu entwickeln, zu verwenden, zu vermarkten oder zu verteilen, die mit der Anwendungsprogrammierschnittstelle für die Betriebsumgebung konform sind, für die diese Beispielprogramme geschrieben werden. Diese Beispiele wurden nicht unter allen denkbaren Bedingungen getestet. Daher kann IBM die Zuverlässigkeit, Wartungsfreundlichkeit oder Funktion dieser Programme weder zusagen noch gewährleisten. Die Beispielprogramme werden ohne Wartung (auf "as-is"-Basis) und ohne jegliche Gewährleistung zur Verfügung gestellt. IBM übernimmt keine Haftung für Schäden, die durch die Verwendung der Beispielprogramme entstehen.
 
-Kopien oder Teile der Beispielprogramme bzw. daraus abgeleiteter Code müssen folgenden Copyrightvermerk beinhalten: 
+Kopien oder Teile der Beispielprogramme bzw. daraus abgeleiteter Code müssen folgenden Copyrightvermerk beinhalten:
 
   © (Name Ihrer Firma) (Jahr).
   Teile des vorliegenden Codes wurden aus Beispielprogrammen der IBM Corporation abgeleitet.
@@ -136,20 +136,20 @@ Kopien oder Teile der Beispielprogramme bzw. daraus abgeleiteter Code müssen fo
 
 Sanktionen & Embargos
 
-Aus Gründen der Außenpolitik und der nationalen Sicherheit untersagen die Vereinigte Staaten die meisten kommerziellen Transaktionen und andere Geschäftsbeziehungen mit bestimmten Ländern.  Diese Verbote - formell als Handels- und Wirtschaftssanktionen oder umfassende Embargos bezeichnet - gelten aktuell für Iran, Kuba, Nordkorea und Syrien. 
+Aus Gründen der Außenpolitik und der nationalen Sicherheit untersagen die Vereinigten Staaten die meisten kommerziellen Transaktionen und andere Geschäftsbeziehungen mit bestimmten Ländern.  Diese Verbote - formell als Handels- und Wirtschaftssanktionen oder umfassende Embargos bezeichnet - gelten aktuell für Iran, Kuba, Nordkorea und Syrien. 
 
 IBM Cloud implementiert die netzweite Blockierung der Kommunikation mit IP-Adressen, deren Ursprung sich in Ländern befindet, die diesen Handels- und Wirtschaftssanktionen unterliegen. Diese Richtlinie betrifft alle Standorte von IBM Cloud-Rechenzentren und alle IBM Cloud-Umgebungen und bewirkt die Blockierung des Zugriffs über IP-Adressen, die in Ländern registriert sind, die den Handels- und Wirtschaftssanktionen der Vereinigten Staaten unterliegen.
 
 Zur Identifizierung von IP-Adressen, die Ländern zugeordnet werden, die dem Embargo der Vereinigten Staaten unterliegen, referenziert IBM Cloud die Geo IP2-Datenbank, die von [MaxMind ![Symbol für externen Link](../../icons/launch-glyph.svg)](http://www.maxmind.com){: new_window} verwaltet wird. IBM Cloud aktualisiert die Zuordnung der IP-Adressen und Länder vierteljährlich.
 
-Hinweis: Diese Einschränkung gilt nicht für Inhalte, die nicht unter das Verbot im Rahmen der Sanktionen und Embargos der Vereinigten Staaten fallen. Falls Sie über Inhalte verfügen, die Ihrer Ansicht nach nicht unter das Verbot im Rahmen der Handels- und Wirtschaftssanktionen der Vereinigten Staaten fallen, senden Sie eine E-Mail an exemptions@softlayer.com. 
+Hinweis: Diese Einschränkung gilt nicht für Inhalte, die nicht den Sanktionen und Embargos der Vereinigten Staaten unterliegen. Falls Sie über Inhalte verfügen, die Ihrer Ansicht nach nicht den Handels- und Wirtschaftssanktionen der Vereinigten Staaten unterliegen, senden Sie eine E-Mail an exemptions@softlayer.com. 
 
 ## Marken
 {: #trademarks}
 
 IBM, das IBM Logo und ibm.com sind Marken oder eingetragene Marken der IBM Corporation in den USA und/oder anderen Ländern. Weitere Produkt- und Servicenamen können Marken von IBM oder anderen Unternehmen sein. Eine aktuelle Liste der IBM Marken finden Sie auf der Webseite [Copyright and trademark information ![Symbol für externen Link](../../icons/launch-glyph.svg)](https://www.ibm.com/legal/us/en/copytrade.shtml){: new_window}.
 
-Adobe, das Adobe-Logo, PostScript und das PostScript-Logo sind Marken oder eingetragene Marken der Adobe Systems Incorporated in den USA und/oder anderen Ländern. 
+Adobe, das Adobe-Logo, PostScript und das PostScript-Logo sind Marken oder eingetragene Marken der Adobe Systems Incorporated in den USA und/oder anderen Ländern.
 
 Der Android-Roboter ist eine Reproduktion oder Abwandlung eines von Google erstellten und veröffentlichten Werks und wird gemäß den Bedingungen der [Creative Commons 3.0 Attribution License ![Symbol für externen Link](../../icons/launch-glyph.svg)](https://creativecommons.org/licenses/by/3.0/){: new_window} verwendet.
 

@@ -5,7 +5,7 @@
 copyright:
 
   years: 2015, 2019
-lastupdated: "2019-01-14"
+lastupdated: "2019-05-07"
 
 keywords: notices, terms of use
 
@@ -34,6 +34,7 @@ subcollection: overview
   * IBM Cloud 服务描述：[http://www-03.ibm.com/software/sla/sladb.nsf/sla/bm](http://www-03.ibm.com/software/sla/sladb.nsf/sla/bm){: new_window} ![外部链接图标](../../icons/launch-glyph.svg)；
   * 使用 IBM Cloud 帐户订购的任何服务的适用附加服务描述：[http://www-03.ibm.com/software/sla/sladb.nsf/sla/bm](http://www-03.ibm.com/software/sla/sladb.nsf/sla/bm){: new_window} ![外部链接图标](../../icons/launch-glyph.svg)；以及
   * 适用的附加服务描述中引用的适用数据表或通过 IBM Cloud UI 中服务的“条款”链接提供的适用数据表：[http://www-03.ibm.com/software/sla/sladb.nsf/sla/csdsp](http://www-03.ibm.com/software/sla/sladb.nsf/sla/csdsp){: new_window} ![外部链接图标](../../icons/launch-glyph.svg)。
+  * 如果您或您的公司是美国健康保险可移植性和责任法案 (HIPAA) 定义的投保实体，并打算订购可能会处理受保护健康信息 (PHI) 的云服务，那么您必须接受 IBM Business Associate Addendum (BAA)：[https://www-03.ibm.com/software/sla/sladb.nsf/sla/baa?OpenDocument](https://www-03.ibm.com/software/sla/sladb.nsf/sla/baa?OpenDocument){: new_window} ![外部链接图标](../../icons/launch-glyph.svg)。BAA 可以通过数字方式接受，如[启用支持 HIPAA 设置](/docs/account?topic=account-eu-hipaa-supported#enabling-hipaa)中所述。
   * 预留容量具有订单中规定的固定期限，客户不得在该期限结束前终止预留容量。根据客户与 SoftLayer 之间的共同协议，预留容量可能有资格在期限结束时更新。在期限结束之前既未更新也未终止的预留容量将转换为每月云服务，并受制于当时最新的云服务协议和服务描述的条款以及当时最新的零售价格。
 
 ### IBM WebSphere Application Server Liberty Profile 映像许可证

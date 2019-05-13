@@ -5,7 +5,7 @@
 copyright:
 
   years: 2015, 2019
-lastupdated: "2019-01-14"
+lastupdated: "2019-05-07"
 
 keywords: notices, terms of use
 
@@ -34,6 +34,7 @@ IBM Cloud アカウントおよび IBM Cloud から注文されたすべての�
   * IBM Cloud のサービス記述書、[http://www-03.ibm.com/software/sla/sladb.nsf/sla/bm](http://www-03.ibm.com/software/sla/sladb.nsf/sla/bm){: new_window} ![外部リンク・アイコン](../../icons/launch-glyph.svg)を参照、
   * IBM Cloud アカウントを使用して注文したサービスに対して適用される追加のサービス記述書、[http://www-03.ibm.com/software/sla/sladb.nsf/sla/bm](http://www-03.ibm.com/software/sla/sladb.nsf/sla/bm){: new_window} ![外部リンク・アイコン](../../icons/launch-glyph.svg) を参照、および
   * 該当する追加サービス記述書または IBM Cloud UI 内のサービスの「ご利用条件」リンクから参照されている、適用可能なデータ・シート、[http://www-03.ibm.com/software/sla/sladb.nsf/sla/csdsp](http://www-03.ibm.com/software/sla/sladb.nsf/sla/csdsp){: new_window} ![外部リンク・アイコン](../../icons/launch-glyph.svg) を参照。
+  * お客様または会社が、米国における医療保険の積算と責任に関する法律 (HIPAA) によって定義され、保護医療情報 (PHI) を処理する可能性のあるクラウド・サービスを注文する対象となる事業体である場合は、[https://www-03.ibm.com/software/sla/sladb.nsf/sla/baa?OpenDocument](https://www-03.ibm.com/software/sla/sladb.nsf/sla/baa?OpenDocument){: new_window} ![外部リンク・アイコン](../../icons/launch-glyph.svg) にある IBM Business Associate Addendum (BAA) に同意する必要があります。BAA には、[「HIPAA サポートあり」設定の有効化](/docs/account?topic=account-eu-hipaa-supported#enabling-hipaa)の説明に従ってデジタル処理で同意できます。
   * 予約済み容量は、注文に定められた固定期間にわたるものであり、その期間の終了前にお客様が終了することはできません。 予約済み容量は、お客様と SoftLayer との間での相互の合意により、期間の終了時に更新を適用することができます。 期間の終了前に更新も終了もされていない予約済み容量は、現行のクラウド・サービス契約書とサービス記述書の条件、および現行の小売り価格設定に従って、月次クラウド・サービスに変換されます。
 
 ### IBM WebSphere Application Server Liberty Profile イメージのライセンス
