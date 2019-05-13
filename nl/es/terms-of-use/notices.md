@@ -5,7 +5,7 @@
 copyright:
 
   years: 2015, 2019
-lastupdated: "2019-01-14"
+lastupdated: "2019-05-07"
 
 keywords: notices, terms of use
 
@@ -34,6 +34,9 @@ Su cuenta de IBM Cloud y todos los servicios solicitados para IBM Cloud se propo
   * Service Description for IBM Cloud disponible en [http://www-03.ibm.com/software/sla/sladb.nsf/sla/bm](http://www-03.ibm.com/software/sla/sladb.nsf/sla/bm){: new_window} ![Icono de enlace externo](../../icons/launch-glyph.svg);
   * Descripciones de servicios (SD) adicionales aplicables para todos los servicios solicitados con su cuenta de IBM Cloud, disponibles en [http://www-03.ibm.com/software/sla/sladb.nsf/sla/bm](http://www-03.ibm.com/software/sla/sladb.nsf/sla/bm){: new_window} ![Icono de enlace externo](../../icons/launch-glyph.svg); y
   * Hojas de datos aplicables tal como se haga referencia en las descripciones de servicios (SD) adicionales aplicables o por el enlace "Términos" para un servicio en la interfaz de usuario de IBM Cloud disponible en [http://www-03.ibm.com/software/sla/sladb.nsf/sla/csdsp](http://www-03.ibm.com/software/sla/sladb.nsf/sla/csdsp){: new_window} ![Icono de enlace externo](../../icons/launch-glyph.svg).
+  * Si usted o su empresa es una entidad cubierta tal como lo define el HIPAA (US Health Insurance Portability and Accountability Act) y tiene pensado solicitar servicios en la nube que puedan procesar información de salud protegida (PHI), debe aceptar el BAA (Business Associate Addendum) de IBM disponible en
+[https://www-03.ibm.com/software/sla/sladb.nsf/sla/baa?OpenDocument](https://www-03.ibm.com/software/sla/sladb.nsf/sla/baa?OpenDocument){: new_window} ![Icono de enlace externo](../../icons/launch-glyph.svg). El BAA se puede aceptar de manera digital tal como se describe en
+[Habilitación del valor de soporte de HIPAA](/docs/account?topic=account-eu-hipaa-supported#enabling-hipaa).
   * Una Capacidad reservada se aplica durante el plazo fijo establecido en un Pedido, y el Cliente no la puede terminar antes del final de dicho plazo. Una Capacidad reservada puede ser apta para la renovación al finalizar un plazo de acuerdo mutuo entre el Cliente y SoftLayer. Las Capacidades reservadas que no se renueven ni se finalicen antes del fin de sus plazos se convertirán en Servicios en la nube mensuales sujetos a las condiciones del Acuerdo de servicios en la nube y Descripción del servicio que estén en vigor en aquél y con los precios de minorista entonces vigentes.
 
 ### Licencia de la imagen de IBM WebSphere Application Server Liberty Profile

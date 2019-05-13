@@ -4,7 +4,7 @@ copyright:
 
   years: 2015, 2019
 
-lastupdated: "2019-04-05"
+lastupdated: "2019-05-07"
 
 keywords: release notes, what's new, what is new, cloud updates
 
@@ -14,12 +14,18 @@ subcollection: overview
 
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
+{:tip: .tip}
 
 # Novedades en {{site.data.keyword.Bluemix_notm}}
 {: #whatsnew}
 
-Consulte información actualizada sobre las nuevas características disponibles en la plataforma {{site.data.keyword.Bluemix}} para sacar el máximo provecho de {{site.data.keyword.Bluemix_notm}}. Si está buscando actualizaciones de los servicios disponibles en {{site.data.keyword.Bluemix_notm}}, consulte la [página Anuncios de {{site.data.keyword.Bluemix_notm}}](https://www.ibm.com/cloud/blog/announcements){: new_window} ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo") en el blog.
+Consulte información actualizada sobre las nuevas características disponibles en la plataforma {{site.data.keyword.Bluemix}} para sacar el máximo provecho de {{site.data.keyword.Bluemix_notm}}. 
 {:shortdesc}
+
+Si está buscando actualizaciones de los servicios disponibles en {{site.data.keyword.Bluemix_notm}}, consulte la [página Anuncios de {{site.data.keyword.Bluemix_notm}}](https://www.ibm.com/cloud/blog/announcements){: new_window} ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo") en el blog.
+{: tip}
+
+
 
 ## Plataforma {{site.data.keyword.Bluemix_notm}}
 {: #platform_category}
@@ -28,7 +34,7 @@ Consulte información actualizada sobre las nuevas características disponibles 
 ### Exportación de datos de uso con etiquetas asociadas
 Novedad desde: 4 de abril de 2019 
 
-Los usuarios ahora pueden utilizar nuestras más recientes funciones de etiquetado para gestionar los recursos, el uso y los costes en el informe de uso exportado. Cuando añade una etiqueta a un recurso, ahora tiene la opción de visualizar la etiqueta asociada al recurso. Vaya a **Gestionar**> **Facturación y uso**> **Uso**> **Exportar CSV**>  **Instancias** para descargar su informe de uso. Para obtener más información sobre la exportación de etiquetas, consulte la publicación de blog [Exportación de etiquetas en sus datos de uso para facilitar la asignación de costes](https://www.ibm.com/blogs/bluemix/2019/04/export-your-tagged-usage-data-within-the-enhanced-ibm-cloud/).
+Ahora puede utilizar nuestras más recientes funciones de etiquetado para gestionar los recursos, el uso y los costes en el informe de uso exportado. Cuando añade una etiqueta a un recurso, tiene la opción de visualizar la etiqueta asociada al recurso. Vaya a **Gestionar**> **Facturación y uso**> **Uso**> **Exportar CSV**>  **Instancias** para descargar su informe de uso. Para obtener más información sobre la exportación de etiquetas, consulte la publicación de blog [Exportación de etiquetas en sus datos de uso para facilitar la asignación de costes](https://www.ibm.com/cloud/blog/2019/04/export-your-tagged-usage-data-within-the-enhanced-ibm-cloud/).
 
 ### Grupo de acceso para habilitar el acceso público a los recursos
 Novedad desde: 25 de marzo de 2019
@@ -40,6 +46,30 @@ Novedad desde: 12 de marzo de 2019
 {: #mfa-federated}
 
 Los propietarios de la cuenta o los usuarios que tienen asignado el rol de administrador en el servicio de gestión de la cuenta de facturación puede habilitar la autenticación de multifactores (MFA) para todos los usuarios de su cuenta. Es posible que los usuarios federados que utilizan su ID de inicio de sesión único empresarial o corporativo ahora necesiten autenticarse utilizando MFA para iniciar la sesión en {{site.data.keyword.Bluemix_notm}}. Para obtener más información sobre esta mejora funcional y sobre cómo habilitar MFA en su cuenta, consulte [Presentación de MFA para usuarios de IBM Cloud con ID federado](https://www.ibm.com/blogs/bluemix/2019/03/introducing-mfa-for-ibm-cloud-users-with-federated-id/){: new_window} ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo").
+
+### Nueva opción de nombre de host de appdomain.cloud
+Novedad desde: 31 de diciembre de 2018
+{: #appdomain}
+
+Hay una nueva opción de nombre de host `*.appdomain.cloud` disponible en cloud.ibm.com.
+
+Anteriormente, se utilizaba el dominio `mybluemix.net` para alojar apps en diversos destinos de despliegue, como
+{{site.data.keyword.containerlong_notm}} o Cloud Foundry. Las apps que tenga alojadas en `mybluemix.net` no se verán afectadas.
+
+El subdominio para las apps de Cloud Foundry es `cf.appdomain.cloud`. El subdominio para las apps que despliegue en
+{{site.data.keyword.containerlong_notm}} es `containers.appdomain.cloud`.
+
+### Nuevos puntos finales de API de Cloud Foundry
+Novedad desde: 30 de noviembre de 2018
+{: #cf-api-endpoints}
+
+Los puntos finales de API de Cloud Foundry `api.*.bluemix.net` heredados siguen estando disponibles por compatibilidad con versiones anteriores. No obstante, puede actualizar los scripts y la automatización de la infraestructura para utilizar los nuevos puntos finales de API de Cloud Foundry siguientes para su región:
+
+* api.us-south.cf.cloud.ibm.com (anteriormente api.ng.bluemix.net)
+* api.eu-gb.cf.cloud.ibm.com (anteriormente api.eu-gb.bluemix.net)
+* api.us-east.cf.cloud.ibm.com (anteriormente api.us-east.bluemix.net)
+* api.eu-de.cf.cloud.ibm.com (anteriormente api.eu-de.bluemix.net)
+* api.au-syd.cf.cloud.ibm.com (anteriormente api.au-syd.bluemix.net)
 
 ### Nueva experiencia de soporte de {{site.data.keyword.Bluemix_notm}}
 Novedad desde: 30 de noviembre de 2018 
@@ -71,7 +101,7 @@ Ahora puede acceder a toda la documentación del plugin de la CLI de {{site.data
 Novedad desde: 30 de noviembre de 2018
 {: #dash}
 
-Con nuestra última actualización, ahora podrá ver todos los servicios de infraestructura y plataforma desde una ubicación. Cuando inicie sesión, podrá consultar el nuevo panel de control de inmediato. Una vez haya añadido los recursos a su cuenta desde el catálogo, podrá utilizar la lista de recursos para obtener una vista completa de los recursos de la cuenta. :
+Con nuestra última actualización, ahora podrá ver todos los servicios de infraestructura y plataforma desde una ubicación. Cuando inicie sesión, podrá consultar el nuevo panel de control de inmediato. Una vez haya añadido los recursos a su cuenta desde el catálogo, podrá utilizar la lista de recursos para obtener una vista completa de los recursos de la cuenta:
 
 * El panel de control se ha rediseñado para que pueda ver un resumen de los recursos, mantenimiento, estado, apps, soporte, uso y usuarios.
 * Encontrará más detalles sobre sus recursos en la lista de recursos. Puede etiquetar los recursos para organizarlos o seleccionarlos para realizar cambios en la página de detalles.
@@ -129,7 +159,7 @@ Novedad desde: 30 de octubre de 2018
 Con {{site.data.keyword.cloud_notm}} Identity and Access Management (IAM), puede delegar tareas comunes que haya completado como administrador de la cuenta a otro usuario de la cuenta. Mediante la creación de una política de acceso en uno o en todos los servicios de gestión de cuenta disponibles, puede delegar fácilmente responsabilidades, como invitar y eliminar usuarios, gestionar grupos de accesos, gestionar ID de servicios, mantener servicios de catálogos privados e incluso supervisar la facturación y realizar un seguimiento del uso. Hay cuatro servicios individuales de gestión de cuentas y una opción para todos los servicios que puede utilizar para configurar políticas de acceso:
 
 * Gestión de usuarios para invitar y eliminar usuarios
-* Grupos de acceso IAM para crear, editar, suprimir, actualizar y asignar acceso 
+* Grupos de acceso de IAM para crear, editar, suprimir, actualizar y asignar acceso 
 * IAM Identity Service para ver, crear, suprimir y asignar acceso a ID de servicio y claves de API asociadas en la cuenta
 * Catálogo global de recursos para ver ofertas del catálogo privado y actualizar los metadatos y la visibilidad de las ofertas
 * Todos los servicios de gestión de cuentas para acceder a cada una de las opciones de los servicios de gestión de cuentas individuales en función del rol asignado, así como acceso a facturación y seguimiento del uso.

@@ -3,7 +3,7 @@
 
 copyright:
   years: 2016, 2019
-lastupdated: "2019-03-14"
+lastupdated: "2019-05-06"
 
 keywords: glossary, IBM Cloud glossary
 
@@ -537,6 +537,16 @@ Modelo de cálculo que conecta aplicaciones móviles a servicios de computación
 {: #x4585344}
 
 Infraestructura en la que el almacenamiento y el proceso de datos para las aplicaciones se descarga desde un dispositivo móvil en la nube. Con la computación en la nube móvil, las aplicaciones no están limitadas a un operador específico, sino que se accede a las mismas a través de la web.
+
+### región multizona (MZR)
+{: #x9766831}
+
+Una región que consta de dos o más zonas, que son varios grupos de uno o más centros de datos lógicamente aislados con infraestructuras eléctricas, mecánicas y de red independientes.
+
+### MZR
+{: #x9766835}
+
+Consulte [región multizona](#x9766831).
 
 
 ## N

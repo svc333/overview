@@ -4,7 +4,7 @@ copyright:
 
   years: 2015, 2019
 
-lastupdated: "2019-04-05"
+lastupdated: "2019-05-07"
 
 keywords: release notes, what's new, what is new, cloud updates
 
@@ -14,12 +14,18 @@ subcollection: overview
 
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
+{:tip: .tip}
 
 # O que há de novo no {{site.data.keyword.Bluemix_notm}}?
 {: #whatsnew}
 
-Fique atualizado com os novos recursos que estão disponíveis na plataforma do {{site.data.keyword.Bluemix}} para que você aproveite ao máximo sua experiência com o {{site.data.keyword.Bluemix_notm}}. Se você estiver procurando atualizações para os serviços disponíveis no {{site.data.keyword.Bluemix_notm}}, efetue check-out da [{{site.data.keyword.Bluemix_notm}} página de Anúncios](https://www.ibm.com/cloud/blog/announcements){: new_window} ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo") no blog.
+Fique atualizado com os novos recursos que estão disponíveis na plataforma {{site.data.keyword.Bluemix}} para que você obtenha o máximo de sua experiência do {{site.data.keyword.Bluemix_notm}}.
 {:shortdesc}
+
+Se você estiver procurando atualizações para os serviços que estão disponíveis no {{site.data.keyword.Bluemix_notm}}, consulte a [página Comunicados do {{site.data.keyword.Bluemix_notm}}](https://www.ibm.com/cloud/blog/announcements){: new_window} ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo") no blog.
+{: tip}
+
+
 
 ## Plataforma {{site.data.keyword.Bluemix_notm}}
 {: #platform_category}
@@ -28,18 +34,40 @@ Fique atualizado com os novos recursos que estão disponíveis na plataforma do 
 ### Exportar dados de uso com tags associadas
 Novo a partir de: 4 de abril de 2019 
 
-Os usuários agora podem utilizar nossos recursos de identificação mais recentes para gerenciar recursos, uso e custos no relatório de uso exportado. Quando você inclui uma tag em um recurso, agora você tem a opção de visualizar a tag associada ao recurso. Acesse **Gerenciar**> **Faturamento e uso**> **Uso**> **Exportar CSV**> **Instâncias** para fazer download do relatório de uso. Para obter mais informações sobre tags de exportação, confira a postagem do blog [Exportar tags dentro de seus dados de uso para ajudar com a alocação de custo](https://www.ibm.com/blogs/bluemix/2019/04/export-your-tagged-usage-data-within-the-enhanced-ibm-cloud/).
+Agora é possível usar nossos recursos de identificação mais recentes para gerenciar os recursos, o uso e os custos no relatório de uso exportado. Ao incluir uma tag em um recurso, você tem a opção de visualizar a tag associada ao recurso. Acesse **Gerenciar**> **Faturamento e uso**> **Uso**> **Exportar CSV**> **Instâncias** para fazer download do relatório de uso. Para obter mais informações sobre tags de exportação, confira a postagem do blog [Exportar tags dentro de seus dados de uso para ajudar com a alocação de custo](https://www.ibm.com/cloud/blog/2019/04/export-your-tagged-usage-data-within-the-enhanced-ibm-cloud/).
 
 ### Grupo de acesso para ativar o acesso público aos recursos
 Novo a partir de: 25 de março de 2019
 
 Agora é possível ativar o acesso público a objetos em seus depósitos do {{site.data.keyword.cos_full}} usando um novo grupo de acesso fornecido em sua conta. Esse novo grupo de acesso é chamado de grupo de `Acesso público` e todos os usuários e IDs de serviço são incluídos nele por padrão. É possível atualizar as políticas para o grupo de acesso para permitir que todos os usuários, mesmo os usuários não autenticados, acessem o recurso que você especifica na política. [Saiba mais sobre o grupo de acesso público](/docs/iam?topic=iam-public#public).
 
-### Autenticação de diversos fatores para usuários com identidades federadas
+### Autenticação de diversos fatores para usuários com IDs federados
 Novo desde: 12 de março de 2019
 {: #mfa-federated}
 
-Proprietários ou usuários da conta designados à função de administrador para o serviço de gerenciamento de conta de faturamento podem ativar a autenticação de diversos fatores (MFA) para todos os usuários em sua conta. Os usuários federados que usam seu ID de conexão única da empresa ou corporativa agora podem ser necessários para autenticar usando o MFA para efetuar login no {{site.data.keyword.Bluemix_notm}}. Para obter mais informações sobre esse aprimoramento de recurso e o que você precisa saber sobre a ativação da MFA para sua conta, veja [Introduzindo a MFA para usuários do IBM Cloud com identidade federada](https://www.ibm.com/blogs/bluemix/2019/03/introducing-mfa-for-ibm-cloud-users-with-federated-id/){: new_window} ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo").
+Proprietários ou usuários da conta designados à função de administrador para o serviço de gerenciamento de conta de faturamento podem ativar a autenticação de diversos fatores (MFA) para todos os usuários em sua conta. Os usuários federados que usam seu ID de conexão única da empresa ou corporativa agora podem ser necessários para autenticar usando o MFA para efetuar login no {{site.data.keyword.Bluemix_notm}}. Para obter mais informações sobre esse aprimoramento de recurso e o que você precisa saber sobre a ativação da MFA para sua conta, veja [Introduzindo a MFA para usuários do IBM Cloud com ID federado](https://www.ibm.com/blogs/bluemix/2019/03/introducing-mfa-for-ibm-cloud-users-with-federated-id/){: new_window} ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo").
+
+### Nova opção de nome do host appdomain.cloud
+Novo a partir de: 31 de dezembro de 2018
+{: #appdomain}
+
+Uma nova opção de nome do host `*.appdomain.cloud` está disponível em cloud.ibm.com.
+
+Anteriormente, o domínio `mybluemix.net` era usado para hospedar apps em vários destinos de implementação, como o {{site.data.keyword.containerlong_notm}} ou o Cloud Foundry. Qualquer app que você tenha hospedado em `mybluemix.net` não será afetado.
+
+O subdomínio para apps do Cloud Foundry é `cf.appdomain.cloud`. O subdomínio para apps que você implementa no {{site.data.keyword.containerlong_notm}} é `containers.appdomain.cloud`.
+
+### Novos terminais de API do Cloud Foundry
+Novo a partir de: 30 de novembro de 2018
+{: #cf-api-endpoints}
+
+Os terminais anteriores da API `api.*.bluemix.net` do Cloud Foundry ainda estão disponíveis para compatibilidade com versões anteriores. No entanto, é possível atualizar os scripts e a automação de infraestrutura para usar os novos terminais de API do Cloud Foundry a seguir para a sua região:
+
+* api.us-south.cf.cloud.ibm.com (anteriormente api.ng.bluemix.net)
+* api.eu-gb.cf.cloud.ibm.com (anteriormente api.eu-gb.bluemix.net)
+* api.us-east.cf.cloud.ibm.com (anteriormente api.us-east.bluemix.net)
+* api.eu-de.cf.cloud.ibm.com (anteriormente api.eu-de.bluemix.net)
+* api.au-syd.cf.cloud.ibm.com (anteriormente api.au-syd.bluemix.net)
 
 ### Nova experiência de suporte para o {{site.data.keyword.Bluemix_notm}}
 Novo a partir de: 30 de novembro de 2018 
@@ -85,7 +113,7 @@ Novo a partir de: 30 de novembro de 2018
 {: #dash}
 
 Com a nossa atualização mais recente, é possível agora visualizar todos os serviços de plataforma e infraestrutura em um local. Ao
-efetuar login, é possível verificar o novo painel imediatamente. Depois que os recursos são incluídos em sua conta por meio do catálogo, é possível usar a lista de recursos para obter uma visualização completa dos recursos de sua conta. :
+efetuar login, é possível verificar o novo painel imediatamente. Depois da inclusão dos recursos em sua conta por meio do catálogo, é possível usar a lista de recursos para obter uma visualização completa dos recursos da conta:
 
 * O painel foi projetado novamente para que seja possível visualizar um resumo dos recursos, da manutenção, do status, dos apps, do suporte, do uso e dos usuários.
 * É possível localizar mais detalhes sobre os recursos na lista de recursos. É possível identificar seus recursos para organizá-los ou selecioná-los para fazer mudanças na página de detalhes.
@@ -305,7 +333,7 @@ Para obter mais informações sobre os benefícios desse recurso e como começar
 Novo a partir de: 27 de julho de 2017
 {: #gc}
 
-Expandindo a última atualização do console para gerenciar suas regiões públicas em um único local no console, o {{site.data.keyword.Bluemix_notm}} agora tem um catálogo global, tornando o processo de seleção e implementação de itens selecionados no catálogo mais aperfeiçoado. Independentemente da região que você selecionou no console, agora é possível ver todos os serviços que estão disponíveis em todas as regiões públicas de seu catálogo. Depois de selecionar um ladrilho do catálogo, é possível ver em quais regiões o serviço está disponível e selecionar onde você deseja implementá-lo. Para obter mais informações sobre as atualizações mais recentes para o catálogo, consulte [Um catálogo global do {{site.data.keyword.Bluemix_notm}} torna a construção de coisas mais fácil](https://www.ibm.com/blogs/bluemix/2017/07/global-bluemix-catalog-makes-building-things-easier/){: new_window} ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo").
+Expandindo a última atualização do console para gerenciar suas regiões públicas em um único local no console, o {{site.data.keyword.Bluemix_notm}} agora tem um catálogo global, tornando o processo de seleção e implementação de itens selecionados no catálogo mais aperfeiçoado. Independentemente da região que você selecionou no console, agora é possível ver todos os serviços que estão disponíveis em todas as regiões públicas de seu catálogo. Depois de selecionar um tile do catálogo, é possível ver em quais regiões o serviço está disponível e selecionar onde você deseja implementá-lo. Para obter mais informações sobre as atualizações mais recentes para o catálogo, consulte [Um catálogo global do {{site.data.keyword.Bluemix_notm}} torna a construção de coisas mais fácil](https://www.ibm.com/blogs/bluemix/2017/07/global-bluemix-catalog-makes-building-things-easier/){: new_window} ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo").
 
 ### Atualizações do console do {{site.data.keyword.Bluemix_notm}}
 Novo a partir de: 23 de maio de 2017
@@ -331,6 +359,6 @@ Para obter mais informações, verifique a postagem do blog [Introducing Identit
 Novo a partir de: 13 de abril de 2017
 {: #docnavupdates}
 
-Com essa atualização de navegação, achamos que você entenderá melhor como o conteúdo é organizado em todos os nossos docs e será capaz de localizar o conteúdo relevante de forma mais eficiente. Com menos camadas aninhadas de conteúdo, você não precisará procurar muito para encontrar a documentação necessária para ser bem-sucedido no {{site.data.keyword.Bluemix_notm}}.
+Com essa atualização de navegação, achamos que você entenderá como o conteúdo é mais bem organizado em todos os nossos docs e será capaz de localizar o conteúdo relevante de forma mais eficiente. Com menos camadas aninhadas de conteúdo, você não precisará procurar muito para encontrar a documentação necessária para ser bem-sucedido no {{site.data.keyword.Bluemix_notm}}.
 
 

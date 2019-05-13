@@ -3,7 +3,7 @@
 
 copyright:
   years: 2016, 2019
-lastupdated: "2019-03-14"
+lastupdated: "2019-05-06"
 
 keywords: glossary, IBM Cloud glossary
 
@@ -278,6 +278,7 @@ equipes possam entregar código mais rápido para produção e iterar continuame
 mercado.
 
 ### domínio
+específico
 {: #x2021210}
 
 Parte de uma hierarquia de nomenclatura que especifica a rota. Por exemplo, example.com. No IBM Cloud,
@@ -553,6 +554,16 @@ Um modelo de computação que conecta aplicativos móveis a serviços de computa
 
 Uma infraestrutura na qual o armazenamento e o processamento de dados para aplicativos são transferidos de um dispositivo móvel para a nuvem. Com a computação em nuvem para dispositivo móvel, os aplicativos não estão limitados a uma operadora específica, mas são acessados por meio da web.
 
+### região de múltiplas zonas (MZR)
+{: #x9766831}
+
+Uma região que consiste em duas ou mais zonas, que são múltiplos grupos de um ou mais data centers logicamente isolados com infraestruturas elétricas, mecânicas e de rede independentes.
+
+### MZR
+{: #x9766835}
+
+Consulte [região de múltiplas zonas](#x9766831).
+
 
 ## N
 {: #glossn}
@@ -754,7 +765,7 @@ O conjunto de recursos usados para executar o aplicativo. Consulte também [inic
 
 Consulte [software como serviço](#x4585386).
 
-### escalar
+### escala
 {: #x2004442}
 
 Aumentar a capacidade da plataforma (ou do sistema) incluindo mais aplicativos ou instâncias de serviço
@@ -871,7 +882,7 @@ Uma estrutura predefinida de um artefato.
 Pertencente a um produto ou serviço fornecido por uma empresa que não seja
 a IBM.
 
-### ladrilho
+### tile
 {: #x2092493}
 
 Uma representação visual de um aplicativo em execução que fornece status em um painel.

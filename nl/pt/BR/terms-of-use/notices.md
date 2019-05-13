@@ -5,7 +5,7 @@
 copyright:
 
   years: 2015, 2019
-lastupdated: "2019-01-14"
+lastupdated: "2019-05-07"
 
 keywords: notices, terms of use
 
@@ -37,6 +37,7 @@ em
   * Descrição do serviço para o IBM Cloud disponível em [http://www-03.ibm.com/software/sla/sladb.nsf/sla/bm](http://www-03.ibm.com/software/sla/sladb.nsf/sla/bm){: new_window} ![Ícone de link externo](../../icons/launch-glyph.svg);
   * SDs adicionais aplicáveis para qualquer serviço pedido usando sua Conta do IBM Cloud disponível em [http://www-03.ibm.com/software/sla/sladb.nsf/sla/bm](http://www-03.ibm.com/software/sla/sladb.nsf/sla/bm){: new_window} ![Ícone de link externo](../../icons/launch-glyph.svg); e
   * Planilhas de dados aplicáveis conforme referenciadas em SDs adicionais aplicáveis ou do link "Termos" para um serviço na UI do IBM Cloud disponível em [http://www-03.ibm.com/software/sla/sladb.nsf/sla/csdsp](http://www-03.ibm.com/software/sla/sladb.nsf/sla/csdsp){: new_window} ![Ícone de link externo](../../icons/launch-glyph.svg).
+  * Se você ou sua empresa é uma entidade coberta, conforme definido pelo US Health Insurance Portability and Accountability Act (HIPAA) e pretende pedir serviços de nuvem que possam processar informação protegida de saúde (PHI), deve-se aceitar o IBM Business Associate Addendum (BAA) disponível em [https://www-03.ibm.com/software/sla/sladb.nsf/sla/baa?OpenDocument](https://www-03.ibm.com/software/sla/sladb.nsf/sla/baa?OpenDocument){: new_window} ![Ícone de link externo](../../icons/launch-glyph.svg). O BAA pode ser aceito digitalmente conforme descrito em [Ativando a configuração HIPAA suportado](/docs/account?topic=account-eu-hipaa-supported#enabling-hipaa).
   * Uma Capacidade reservada é para um prazo fixo, conforme estabelecido em um Pedido, e não pode ser finalizada pelo Cliente antes do término desse prazo. Uma Capacidade reservada pode ser elegível para renovação na conclusão de um prazo por concordância mútua entre o Cliente e a SoftLayer. As Capacidades reservadas que não forem renovadas nem finalizadas antes do término de seus prazos serão convertidas em Serviços de nuvem mensais sujeitos aos termos do Contrato de Prestação de Serviços de Nuvem e da Descrição do Serviço em vigor no momento e à precificação de varejo atual.
 
 ### Licença para a imagem do perfil Liberty do IBM WebSphere Application Server

@@ -177,6 +177,5 @@ executadas nos recursos da infraestrutura. |
 da infraestrutura {{site.data.keyword.cloud_notm}} sobre eventos não planejados, manutenção e comunicados.  |
 | [Entender como os seus dados estão seguros](/docs/overview?topic=overview-security) | A plataforma
 {{site.data.keyword.cloud_notm}} tem controles de segurança em camadas na rede e na infraestrutura. |
-| [Entender como é possível assegurar tempo de inatividade zero](/docs/overview?topic=overview-zero-downtime) | Todos os recursos do {{site.data.keyword.cloud_notm}} são hospedados em localizações de data center ao redor
-do mundo. |
+| [Entender como é possível assegurar tempo de inatividade zero](/docs/overview?topic=overview-zero-downtime) | Todos os recursos do {{site.data.keyword.cloud_notm}} são hospedados em localizações de data center ao redor do mundo. |
 {: caption="Tabela 4. Tarefas de gerenciamento" caption-side="top"}
