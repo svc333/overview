@@ -4,7 +4,7 @@ copyright:
 
   years: 2015, 2019
 
-lastupdated: "2019-05-07"
+lastupdated: "2019-05-13"
 
 keywords: release notes, what's new, what is new, cloud updates
 
@@ -34,7 +34,7 @@ If you're looking for updates for the services that are available on {{site.data
 ### Export usage data with associated tags
 New as of: 4 April 2019 
 
-You can now utilize our newest tagging capabilities to manage resources, usage, and costs in the exported usage report. When you add a tag to a resource, you have the option to view the tag associated with the resource. Go to **Manage**> **Billing and Usage**> **Usage**> **Export CSV**>  **Instances** to download your usage report. For more information on exporting tags, check out the [Export tags within your usage data to help with cost allocation](https://www.ibm.com/cloud/blog/2019/04/export-your-tagged-usage-data-within-the-enhanced-ibm-cloud/) blog post.
+You can now utilize our newest tagging capabilities to manage resources, usage, and costs in the exported usage report. When you add a tag to a resource, you have the option to view the tag associated with the resource. Go to **Manage**> **Billing and Usage**> **Usage**> **Export CSV**>  **Instances** to download your usage report. For more information on exporting tags, check out the [Export tags within your usage data to help with cost allocation](https://www.ibm.com/cloud/blog/export-your-tagged-usage-data-within-the-enhanced-ibm-cloud){: new_window} ![External link icon](../../icons/launch-glyph.svg "External link icon") blog post.
 
 ### Access group for enabling public access to resources
 New as of: 25 March 2019
