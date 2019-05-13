@@ -3,7 +3,7 @@
 
 copyright:
   years: 2016, 2019
-lastupdated: "2019-03-14"
+lastupdated: "2019-05-13"
 
 keywords: console, platform overview, overview
 
@@ -28,47 +28,7 @@ The {{site.data.keyword.Bluemix_notm}} platform is composed of multiple componen
   * A search and tagging mechanism for filtering and identifying your resources
   * An account and billing management system that provides exact usage for pricing plans and secure credit card fraud protection
 
-## Choosing your hosting environment
-{: #choose-compute}
-
-With {{site.data.keyword.Bluemix_notm}}, you no longer need to make large investments in hardware to test out or run a new app. Instead, we manage it all for you and only charge for what you use. Your cloud server environment is the base of your infrastructure layer. You can choose a single option or a combination for more complex environments. 
-
-You have various options for hosting your apps, giving you as much control over the infrastructure as you want or need. You can run your app in any of the following ways:
-
-  * As a serverless function
-  * As a Cloud Foundry app
-  * As a Docker container on a Kubernetes cluster
-  * As VMware
-  * As a virtual machine
-  * On high-performance {{site.data.keyword.baremetal_short}} 
-
-{{site.data.keyword.baremetal_short}} are single-tenant, physical servers that are dedicated to a single customer. You control almost everything from the server host to the RAM and storage devices. These servers are used with workloads that require compute power over a sustained time, for example, several months. 
-
-{{site.data.keyword.BluVirtServers_short}} can be deployed as either as public or dedicated instances. With public instances, the resources of the server are shared with other customers, also known as a multi-tenant environment. Private instances dedicate the resources of the physical server to one customer who can have one or more virtual machines on the same server. These servers are ideal for workloads that run for a limited time, for example, a couple of weeks. Some workload examples are development and testing, backup and recovery, and disaster recovery. For more information about server options, see [Bare metal servers vs. virtual servers: Choosing the best option for you](https://www.ibm.com/blogs/bluemix/2018/06/bare-metal-virtual-servers-works/){: new_window} ![External link icon](../icons/launch-glyph.svg "External link icon").
-
-Check out the following table for a summary of your compute options.
-
-| Option | Description | 
-|--------|---------------|
-| [{{site.data.keyword.baremetal_short}}](/docs/bare-metal?topic=bare-metal-bm-getting-started#bm-getting-started)  | Hourly or monthly, single-tenant servers that are dedicated to you and not shared in any part, including server resources, with other customers. |
-| [{{site.data.keyword.BluVirtServers_short}}](/docs/vsi?topic=virtual-servers-about-public-virtual-servers#public-virtual-servers) | Scalable virtual servers that are purchased with dedicated cores and memory allocations. |
-| [{{site.data.keyword.vmwaresolutions_short}}](/docs/services/vmwaresolutions?topic=vmware-solutions-getting-started#getting-started) | Quickly and seamlessly integrate or migrate on-premises VMware workloads by using scalable, secure, and high-performance infrastructure and the industry-leading VMware hybrid virtualization technology. |
-| [{{site.data.keyword.containerlong_notm}}](/docs/containers?topic=containers-container_index) | Combines Docker containers, the Kubernetes technology, an intuitive user experience, and built-in security and isolation to automate the deployment, operation, scaling, and monitoring of containerized apps in a cluster of compute hosts. |
-| [{{site.data.keyword.cfee_full_notm}}](/docs/cloud-foundry?topic=cloud-foundry-about) | Instantiate multiple, isolated, enterprise-grade Cloud Foundry platforms on demand. |
-| [{{site.data.keyword.openwhisk_short}}](/docs/openwhisk?topic=cloud-functions-index) | A Functions-as-a-Service (FaaS) programming platform based on Apache OpenWhisk. |
-{: caption="Table 1. Compute options" caption-side="top"}
-
-## Building applications
-{: #build-apps}
-
 Whether you have [existing code](/docs/apps/tutorials?topic=creating-apps-tutorial-byoc#tutorial-byoc) that you want to modernize and bring to the cloud or you're developing a [brand new application](/docs/apps/tutorials?topic=creating-apps-tutorial-starterkit), your developers can tap into the rapidly growing ecosystem of available services and runtime frameworks in {{site.data.keyword.Bluemix_notm}}.
-
-[Programming guides](https://cloud.ibm.com/docs/home/build){: new_window} ![External link icon](../icons/launch-glyph.svg "External link icon") are available per language to help you get up and running. You have many options for hosting your apps with {{site.data.keyword.Bluemix_notm}} infrastructure from {{site.data.keyword.baremetal_short}} to running as a serverless function.
-
-## Connecting services
-{: #connect-services}
-
-With over 190+ services to choose from in the catalog, you can build a tailored solution to fit your needs. You can also easily connect services to apps outside of {{site.data.keyword.Bluemix_notm}} if that fits your use case. You can generate a new set of credentials for cases in which you want to manually connect an external consumer to an {{site.data.keyword.Bluemix_notm}} service. For example, if you are trying to connect an app outside of {{site.data.keyword.Bluemix_notm}} to a Watson service, you generate a new credential that connects them together. It's that easy! For more information, see [Adding a credential](/docs/resources?topic=resources-service_credentials).
 
 ## Setting up your account
 {: #set-up-account}
