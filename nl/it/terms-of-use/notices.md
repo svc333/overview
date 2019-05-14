@@ -5,7 +5,7 @@
 copyright:
 
   years: 2015, 2019
-lastupdated: "2019-01-14"
+lastupdated: "2019-05-07"
 
 keywords: notices, terms of use
 
@@ -34,6 +34,7 @@ Il tuo account IBM Cloud e tutti i servizi ordinati da IBM Cloud sono forniti so
   * Descrizione del servizio IBM Cloud disponibile all'indirizzo [http://www-03.ibm.com/software/sla/sladb.nsf/sla/bm](http://www-03.ibm.com/software/sla/sladb.nsf/sla/bm){: new_window} ![Icona link esterno](../../icons/launch-glyph.svg);
   * Ulteriori SD applicabili per tutti i servizi ordinati utilizzando il tuo account IBM Cloud disponibile all'indirizzo [http://www-03.ibm.com/software/sla/sladb.nsf/sla/bm](http://www-03.ibm.com/software/sla/sladb.nsf/sla/bm){: new_window} ![Icona link esterno](../../icons/launch-glyph.svg); e
   * Le schede dati applicabili come viene fatto riferimento nelle ulteriori SD applicabili o dal link "Terms" di un servizio nella IU IBM Cloud disponibile all'indirizzo [http://www-03.ibm.com/software/sla/sladb.nsf/sla/csdsp](http://www-03.ibm.com/software/sla/sladb.nsf/sla/csdsp){: new_window} ![Icona link esterno](../../icons/launch-glyph.svg).
+  * Se tu o la tua azienda è un'entità disciplinata come definito dall'HIPAA (Health Insurance Portability and Accountability Act) e intendi ordinare dei servizi cloud che potrebbero elaborare delle informazioni sanitarie protette (PHI), devi accettare il BAA (Business Associate Addendum) disponibile all'indirizzo [https://www-03.ibm.com/software/sla/sladb.nsf/sla/baa?OpenDocument](https://www-03.ibm.com/software/sla/sladb.nsf/sla/baa?OpenDocument){: new_window} ![Icona link esterno](../../icons/launch-glyph.svg). Il BAA può essere accettato digitalmente come descritto in [Abilitazione dell'impostazione Supportato HIPAA](/docs/account?topic=account-eu-hipaa-supported#enabling-hipaa).
   * Una capacità riservata è per un termine fisso come stabilito in un ordine e non può essere terminata dal cliente prima della fine di tale termine. Una capacità riservata può essere idonea per il rinnovo alla conclusione di un termine di comune accordo tra il cliente e SoftLayer. Le capacità riservate che non sono né rinnovate né terminate prima della fine dei loro termini si convertiranno in servizi cloud mensili soggetti ai termini dell'attuale accordo sui servizi cloud e della descrizione del servizio e al prezzo al dettaglio in corso.
 
 ### Licenza per l'immagine di IBM WebSphere Application Server Liberty Profile

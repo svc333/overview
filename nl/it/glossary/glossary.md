@@ -3,7 +3,7 @@
 
 copyright:
   years: 2016, 2019
-lastupdated: "2019-03-14"
+lastupdated: "2019-05-06"
 
 keywords: glossary, IBM Cloud glossary
 
@@ -246,7 +246,7 @@ Un componente interfaccia utente che fornisce all'utente un riepilogo comprensiv
 ### data center (DC)
 {: #x2439906}
 
-L'ubicazione fisica dei server che forniscono i servizi cloud.
+L'ubicazione fisica dei server che forniscono i servizi cloud. 
 
 ### archivio dati
 {: #x2052849}
@@ -334,7 +334,7 @@ Consente di attivare un trigger.
 ### Indirizzo IP mobile
 {: #x6326428}
 
-Un indirizzo IP pubblico e instradabile che utilizza la NAT (network address translation) 1-a-1 in modo che un server possa comunicare con internet pubblico e sottoreti privata in un ambiente cloud. Gli indirizzi IP mobili sono associati a un'istanza, ad esempio un'istanza del server virtuale, un programma di bilanciamento del carico oppure un gateway VPN, mediante una vNIC (virtual network interface card).
+Un indirizzo IP pubblico e instradabile che utilizza la NAT (network address translation) 1-a-1 in modo che un server possa comunicare con internet pubblico e sottorete privata in un ambiente cloud. Gli indirizzi IP mobili sono associati a un'istanza, ad esempio un'istanza del server virtuale, un programma di bilanciamento del carico oppure un gateway VPN, mediante una vNIC (virtual network interface card).
 
 ### framework
 {: #x2023472}
@@ -365,10 +365,10 @@ Vedi [globally unique identifier](#x2390455).
 ## H
 {: #glossh}
 
-### modalità HVM (hardware virtual machine)
+### modalità HVM (hardware virtual machine) 
 {: #x9736811}
 
-Virtualizzazione completamente assistita hardware. Una macchina virtuale utilizza le risorse dal computer host per operare come un ambiente hardware completo. Il sistema operativo host non è a conoscenza del client virtuale.
+Virtualizzazione completamente assistita hardware. Una macchina virtuale utilizza le risorse dal computer host per operare come un ambiente hardware completo. Il sistema operativo host non è a conoscenza del client virtuale. 
 
 ### chiamata API heavy
 {: #x7690468}
@@ -439,7 +439,7 @@ Un file system e i relativi parametri di esecuzione che vengono utilizzati all'i
 
 L'offerta di un'infrastruttura di computer, comprese le funzionalità server, di collegamento in rete, di data center e di archiviazione, come un servizio in outsourcing.
 
-### istanza
+### instance
 {: #x2002531}
 
 Un'entità formata da risorse riservate per un'applicazione o un servizio specifici.
@@ -552,6 +552,16 @@ Un modello di elaborazione che connette applicazioni mobili ai servizi di elabor
 
 Un'infrastruttura in cui l'archiviazione e l'elaborazione dei dati per le applicazioni viene scaricata da un dispositivo mobile nel cloud. Con l'elaborazione cloud mobile, le applicazioni non sono limitate a uno specifico vettore e sono invece accessibili tramite il web.
 
+### MZR (multi-zone region)
+{: #x9766831}
+
+Una regione formata da due o più zone, che sono gruppi multipli di uno o più data center isolati in modo logico con infrastrutture elettrica, meccanica e di rete indipendenti.
+
+### MZR
+{: #x9766835}
+
+Vedi [MZR (multi-zone region)](#x9766831).
+
 
 ## N
 {: #glossn}
@@ -605,10 +615,10 @@ gestire le quote. Gli utenti in un'organizzazione condividono le quote di istanz
 
 Vedi [platform as a service](#x2029786).
 
-### modalità paravirtualizzata
+### modalità paravirtualizzata 
 {: #x9736806}
 
-Una tecnica di virtualizzazione leggera. Durante la modalità di paravirtualizzazione, una macchina remota non richiede delle estensioni di virtualizzazione dal computer host, consentendo di conseguenza la virtualizzazione su sistemi hardware che non supportano la virtualizzazione assistita hardware.
+Una tecnica di virtualizzazione leggera. Durante la modalità di paravirtualizzazione, una macchina remota non richiede delle estensioni di virtualizzazione dal computer host, consentendo di conseguenza la virtualizzazione su sistemi hardware che non supportano la virtualizzazione assistita hardware. 
 
 ### immagine principale
 {: #x8439210}
@@ -685,7 +695,7 @@ Relativo ai dati che vengono modificati in modo dinamico.
 
 Una tecnica di distribuzione che determina una fornitura continua abilitando test, sviluppo e distribuzione sincronizzati. Inizialmente, lo sviluppo viene eseguito su un ambiente non attivo (Black) mentre l'ambiente attivo continua a prendere il traffico (Red). Quando viene avviata la distribuzione, entrambi gli ambienti diventano attivi (Red-Red) finché l'instradamento non viene disabilitato sull'ambiente della versione precedente che era attivo prima e quindi rimosso (Black) mentre il nuovo ambiente funge da solo ambiente attivo. Vedi anche [Distribuzione Blue-Green](#x7807335).
 
-### region
+### regione
 {: #x2091391}
 
 Un territorio geografico definito. Una regione può essere una specifica area identificata da un codice postale, una città, uno stato, un gruppo di stati o un gruppo di nazioni. Ogni regione può essere una serie di altre regioni o una serie di codici postali che costituiscono la regione.
@@ -828,12 +838,12 @@ specifico linguaggio di programmazione oppure una combinazione di codice applica
 
 Un dominio che rappresenta una parte di un dominio più ampio. Vedi anche [dominio personalizzato](#x5728384), [dominio](#x2021210), [host](#x2002243), [rotta](#x2037338), [Uniform Resource Locator](#x2042491).
 
-### subnet
+### sottorete
 {: #x4282974}
 
 Vedi [rete secondaria](#x2040149).
 
-### rete secondaria (subnet)
+### rete secondaria (sottorete)
 {: #x2040149}
 
 Una rete divisa in sottogruppi indipendenti più piccoli che continuano ad essere interconnessi.

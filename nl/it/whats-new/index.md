@@ -4,7 +4,7 @@ copyright:
 
   years: 2015, 2019
 
-lastupdated: "2019-04-05"
+lastupdated: "2019-05-07"
 
 keywords: release notes, what's new, what is new, cloud updates
 
@@ -14,12 +14,18 @@ subcollection: overview
 
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
+{:tip: .tip}
 
 # Ci sono novità in {{site.data.keyword.Bluemix_notm}}?
 {: #whatsnew}
 
-Rimani aggiornato con le nuove funzioni disponibili nella piattaforma {{site.data.keyword.Bluemix}} in modo da ottenere il massimo dalla tua esperienza {{site.data.keyword.Bluemix_notm}}. Se stai cercando gli aggiornamenti per i servizi disponibili su {{site.data.keyword.Bluemix_notm}}, consulta la [pagina degli annunci {{site.data.keyword.Bluemix_notm}}](https://www.ibm.com/cloud/blog/announcements){: new_window} ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno") sul blog.
+Rimani aggiornato sulle nuove funzioni disponibili sulla piattaforma {{site.data.keyword.Bluemix}} in modo da poter ottenere il massimo dalla tua esperienza {{site.data.keyword.Bluemix_notm}}.
 {:shortdesc}
+
+Se stai cercando gli aggiornamenti per i servizi disponibili su {{site.data.keyword.Bluemix_notm}}, consulta la [pagina degli annunci {{site.data.keyword.Bluemix_notm}} ](https://www.ibm.com/cloud/blog/announcements){: new_window} ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno") sul blog.
+{: tip}
+
+
 
 ## Piattaforma {{site.data.keyword.Bluemix_notm}}
 {: #platform_category}
@@ -28,7 +34,7 @@ Rimani aggiornato con le nuove funzioni disponibili nella piattaforma {{site.dat
 ### Esporta i dati di utilizzo con le tag associate
 Novità a partire dal 4 aprile 2019 
 
-Gli utenti possono ora utilizzare le nostre funzionalità di inserimento di tag più recenti per gestire le risorse, l'utilizzo e i costi nel report di utilizzo esportato. Quando aggiungi una tag a una risorsa, hai ora l'opzione di visualizzare la tag associata alla risorsa. Vai a **Gestisci**> **Fatturazione e utilizzo**> **Utilizzo**> **Esporta CSV**>  **Istanze** per scaricare il tuo report di utilizzo. Per ulteriori informazioni sull'esportazione delle tag, vedi il post di blog [Export tags within your usage data to help with cost allocation](https://www.ibm.com/blogs/bluemix/2019/04/export-your-tagged-usage-data-within-the-enhanced-ibm-cloud/).
+Puoi ora utilizzare le nostre funzionalità di inserimento di tag più recenti per gestire le risorse, l'utilizzo e i costi nel report di utilizzo esportato. Quando aggiungi una tag a una risorsa, hai l'opzione di visualizzare la tag associata alla risorsa. Vai a **Gestisci**> **Fatturazione e utilizzo**> **Utilizzo**> **Esporta CSV**>  **Istanze** per scaricare il tuo report di utilizzo. Per ulteriori informazioni sull'esportazione delle tag, vedi il post di blog [Export tags within your usage data to help with cost allocation](https://www.ibm.com/cloud/blog/2019/04/export-your-tagged-usage-data-within-the-enhanced-ibm-cloud/).
 
 ### Gruppo di accesso per consentire l'accesso pubblico alle risorse
 Novità a partire dal 25 marzo 2019
@@ -40,6 +46,28 @@ Novità a partire dal 12 marzo 2019
 {: #mfa-federated}
 
 Gli utenti o i proprietari dell'account a cui è assegnato il ruolo di amministratore per il servizio di gestione dell'account di fatturazione possono abilitare l'autenticazione multifattore (MFA) per tutti gli utenti nel loro account. Gli utenti federati che utilizzano i propri ID SSO (single sign-on) aziendale o corporativo è ora possibile che debbano eseguire l'autenticazione utilizzando MFA per l'accesso a {{site.data.keyword.Bluemix_notm}}. Per ulteriori informazioni su questo miglioramento della funzione e cosa devi sapere sull'abilitazione MFA per il tuo account, vedi [Introducing MFA for IBM Cloud Users with Federated ID](https://www.ibm.com/blogs/bluemix/2019/03/introducing-mfa-for-ibm-cloud-users-with-federated-id/){: new_window} ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno").
+
+### Nuova opzione di nome host appdomain.cloud
+Novità a partire dal 31 dicembre 2018
+{: #appdomain}
+
+È disponibile una nuova opzione di nome host `*.appdomain.cloud` su cloud.ibm.com.
+
+In precedenza, il dominio `mybluemix.net` veniva utilizzato per ospitare le applicazioni in varie destinazioni di distribuzione, ad esempio {{site.data.keyword.containerlong_notm}} o Cloud Foundry. Tutte le applicazioni che hai ospitato su `mybluemix.net` non sono interessate.
+
+Il dominio secondario per le applicazioni Cloud Foundry è `cf.appdomain.cloud`. Il dominio secondario per le applicazioni che distribuisci a {{site.data.keyword.containerlong_notm}} è `containers.appdomain.cloud`.
+
+### Nuovi endpoint API Cloud Foundry
+Novità a partire dal 30 novembre 2018
+{: #cf-api-endpoints}
+
+Gli endpoint API Cloud Foundry `api.*.bluemix.net` legacy sono ancora disponibili per la retrocompatibilità. Tuttavia, puoi aggiornare gli script e l'automazione dell'infrastruttura in modo che utilizzino i seguenti nuovi endpoint API Cloud Foundry per la tua regione:
+
+* api.us-south.cf.cloud.ibm.com (in precedenza api.ng.bluemix.net)
+* api.eu-gb.cf.cloud.ibm.com (in precedenza api.eu-gb.bluemix.net)
+* api.us-east.cf.cloud.ibm.com (in precedenza api.us-east.bluemix.net)
+* api.eu-de.cf.cloud.ibm.com (in precedenza api.eu-de.bluemix.net)
+* api.au-syd.cf.cloud.ibm.com (in precedenza api.au-syd.bluemix.net)
 
 ### Nuova esperienza di supporto per {{site.data.keyword.Bluemix_notm}}
 Novità a partire dal 30 novembre 2018 
@@ -71,7 +99,7 @@ Puoi ora accedere a tutta la documentazione sul plugin CLI {{site.data.keyword.B
 Novità a partire dal 30 novembre 2018
 {: #dash}
 
-Con il nostro ultimo aggiornamento, puoi ora visualizzare tutti i servizi della piattaforma e dell'infrastruttura da un'unica posizione. Quando accedi, puoi subito consultare il nuovo dashboard. Dopo aver aggiunto risorse al tuo account dal catalogo, puoi utilizzare l'elenco delle risorse per ottenere una visione completa delle risorse del tuo account. :
+Con il nostro ultimo aggiornamento, puoi ora visualizzare tutti i servizi della piattaforma e dell'infrastruttura da un'unica posizione. Quando accedi, puoi subito consultare il nuovo dashboard. Dopo aver aggiunto delle risorse al tuo account dal catalogo, puoi utilizzare l'elenco di risorse per ottenere una vista completa delle tue risorse dell'account:
 
 * Il dashboard è stato riprogettato in modo da poter visualizzare un riepilogo di risorse, manutenzione, stato, applicazioni, supporto, utilizzo e utenti.
 * Puoi trovare ulteriori dettagli sulle tue risorse nell'elenco di risorse. Puoi contrassegnare con tag le tue risorse per organizzarle o selezionarle per apportare delle modifiche sulla pagina dei dettagli.

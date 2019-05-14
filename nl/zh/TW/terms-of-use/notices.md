@@ -5,7 +5,7 @@
 copyright:
 
   years: 2015, 2019
-lastupdated: "2019-01-14"
+lastupdated: "2019-05-07"
 
 keywords: notices, terms of use
 
@@ -34,6 +34,7 @@ subcollection: overview
   * IBM Cloud 的服務說明，可從 [http://www-03.ibm.com/software/sla/sladb.nsf/sla/bm](http://www-03.ibm.com/software/sla/sladb.nsf/sla/bm){: new_window} ![外部鏈結圖示](../../icons/launch-glyph.svg) 取得；
   * 適用於使用貴客戶 IBM Cloud 帳戶進行訂購之任何服務的其他適用 SDK，可從 [http://www-03.ibm.com/software/sla/sladb.nsf/sla/bm](http://www-03.ibm.com/software/sla/sladb.nsf/sla/bm){: new_window} ![外部鏈結圖示](../../icons/launch-glyph.svg) 取得；以及
   * 其他適用 SD 中參照之適用資料表，或來自 IBM Cloud 使用者介面中之服務「條款」鏈結的適用資料表，可從 [http://www-03.ibm.com/software/sla/sladb.nsf/sla/csdsp](http://www-03.ibm.com/software/sla/sladb.nsf/sla/csdsp){: new_window} ![外部鏈結圖示](../../icons/launch-glyph.svg) 取得。
+  * 如果您或您的公司是「美國醫療保險轉移和責任法 (HIPAA)」所定義的受管轄機構，並打算訂購可能處理受保護健康資訊 (PHI) 的「雲端服務」，則您必須接受「IBM 商業夥伴附錄 (BAA)」，網址為 [https://www-03.ibm.com/software/sla/sladb.nsf/sla/baa?OpenDocument](https://www-03.ibm.com/software/sla/sladb.nsf/sla/baa?OpenDocument){: new_window} ![外部鏈結圖示](../../icons/launch-glyph.svg)。您可以透過數位方式接受 BAA，如[啟用支援 HIPAA 設定](/docs/account?topic=account-eu-hipaa-supported#enabling-hipaa)中所述。
   * 保留容量是針對固定的期間（如訂單中所闡述），且不得由客戶在該期間結束之前終止。保留容量在客戶與 SoftLayer 雙方同意之下，可以在期間結束時符合更新的資格。未更新且未在期間結束之前終止的保留容量，將轉換為每月的「雲端服務」，「雲端服務」應遵循當時最新「雲端服務合約與服務說明」的條款，並按照當時最新的零售定價。
 
 ### IBM WebSphere Application Server Liberty Profile 映像檔授權
