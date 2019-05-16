@@ -51,10 +51,7 @@ After requesting free onboarding assistance, you are contacted by a member of ou
 ### Need to connect with us sooner?
 {: #contact-client-success}
 
-If you need to connect with us sooner, we're available through a live chat or phone. 
-
-* To chat, click the **Contact us** button that is located at the bottom of this page.
-* Or call us toll free at 866-209-7296.
+If you need to connect with us sooner, you can call us toll free at 866-209-7296.
 
 ### Want to get started on your own?
 {: #self-onboard}
