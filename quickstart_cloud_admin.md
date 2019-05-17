@@ -2,7 +2,7 @@
 
 copyright:
   years: 2018, 2019
-lastupdated: "2019-05-13"
+lastupdated: "2019-05-17"
 
 keywords: first steps, understanding IT ops
 
@@ -22,9 +22,6 @@ subcollection: overview
 
 This quick start guide is intended to help IT operations administrators (IT ops admins) explore the infrastructure offerings that are available in {{site.data.keyword.cloud}}, and begin building their environment.
 {: shortdesc}
-
-See [Exploring the IT ops admin journey](/docs/overview?topic=overview-it-ops) in {{site.data.keyword.cloud_notm}}, which provides you with links to various tools for planning, provisioning, and managing your environment.
-{: tip}
 
 ## Before you begin
 {: #prereqs-it-ops}
