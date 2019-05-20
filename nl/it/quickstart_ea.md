@@ -4,7 +4,7 @@ copyright:
 
   years: 2018, 2019
 
-lastupdated: "2019-03-14"
+lastupdated: "2019-05-13"
 
 keywords: enterprise architect quick start
 
@@ -33,12 +33,12 @@ Crea un account Pagamento a consumo o Sottoscrizione per ottenere l'accesso comp
 {: #steps-ea}
 
 1. Controlla cosa {{site.data.keyword.Bluemix_notm}} ha da offrire per vedere come si adatti ai requisiti e alla roadmap della tua azienda. 
-    * Vedi [Cos'è la piattaforma {{site.data.keyword.Bluemix_notm}}?](/docs/overview?topic=overview-whatis-platform) per ulteriori informazioni sulla piattaforma.
+    * Vedi [Cos'è la piattaforma {{site.data.keyword.Bluemix_notm}}?](/docs/overview?topic=overview-whatis-platform) per ulteriori informazioni sulla piattaforma. 
     * {{site.data.keyword.Bluemix_notm}} offre la protezione continua end-to-end per le applicazioni e i dati aziendali e nativi cloud. Consulta [Come faccio a sapere che i miei dati sono sicuri?](/docs/overview?topic=overview-security) per ulteriori informazioni. 
     * Trova ulteriori informazioni relative al ripristino d'emergenza e all'alta disponibilità in {{site.data.keyword.Bluemix_notm}}. Consulta [Come garantisco nessun tempo di inattività?](/docs/overview?topic=overview-zero-downtime) per ulteriori informazioni.
     * Consulta le architetture di riferimento per {{site.data.keyword.Bluemix_notm}}. Per ulteriori informazioni, consulta [Architecture center](https://www.ibm.com/cloud/garage/architectures){: new_window} ![Icona link esterno](../icons/launch-glyph.svg). 
     * Rivedi gli studi dei casi per sapere come delle altre aziende utilizzano {{site.data.keyword.Bluemix_notm}} per raggiungere i loro obiettivi aziendali. Per ulteriori informazioni, consulta [{{site.data.keyword.Bluemix_notm}} case studies](https://www.ibm.com/cloud-computing/bluemix/case-studies){: new_window} ![Icona link esterno](../icons/launch-glyph.svg). 
-2. Informati sulle diverse opzioni per ospitare le tue applicazioni, che ti forniscono maggiore controllo sull'infrastruttura quando vuoi o ne hai bisogno. Per ulteriori informazioni, vedi [Scelta del tuo ambiente host](/docs/overview?topic=overview-whatis-platform#choose-compute).
+2. Informati sulle diverse opzioni per ospitare le tue applicazioni, che ti forniscono maggiore controllo sull'infrastruttura quando vuoi o ne hai bisogno. Per ulteriori informazioni, vedi [Scelta del tuo ambiente host](/docs/apps/tutorials?topic=creating-apps-hosting).
 3. Esplora le offerte nel [catalogo](https://cloud.ibm.com/catalog){: new_window} ![Icona link esterno](../icons/launch-glyph.svg) che puoi utilizzare per creare la tua soluzione.
 
 ## Passi successivi

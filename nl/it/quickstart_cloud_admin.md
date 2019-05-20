@@ -2,7 +2,7 @@
 
 copyright:
   years: 2018, 2019
-lastupdated: "2019-01-29"
+lastupdated: "2019-05-13"
 
 keywords: first steps, understanding IT ops
 
@@ -35,7 +35,7 @@ Registrati per un account Pagamento a consumo o Sottoscrizione per ottenere l'ac
 {: #steps-it-ops}
 
 1. Utilizza i nostri materiali di apprendimento per comprendere come funziona {{site.data.keyword.cloud_notm}}:
-    * Ottieni ulteriori informazioni su quali opzioni sono disponibili per [ospitare le tue applicazioni](/docs/overview?topic=overview-whatis-platform#choose-compute) in {{site.data.keyword.cloud}}.
+    * Ottieni ulteriori informazioni su quali opzioni sono disponibili per [ospitare le tue applicazioni](/docs/apps/tutorials?topic=creating-apps-hosting) in {{site.data.keyword.cloud_notm}}.
     * Consulta il [diagramma dell'architettura](https://www.ibm.com/cloud/garage/architectures/infrastructure){: new_window} ![Icona link esterno](../icons/launch-glyph.svg) per l'infrastruttura {{site.data.keyword.cloud_notm}}. 
 2. Utilizza lo stimatore dei costi per farti un'idea di quanto potrebbe costare la tua infrastruttura:
 

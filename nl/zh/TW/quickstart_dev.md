@@ -4,7 +4,7 @@ copyright:
 
   years: 2018, 2019
 
-lastupdated: "2019-03-14"
+lastupdated: "2019-05-13"
 
 keywords: quick start steps, dev quick start, dev get started
 
@@ -23,9 +23,6 @@ subcollection: overview
 
 身為開發人員，我們希望讓您能夠快速撰寫程式碼。本快速入門手冊旨在協助您在 {{site.data.keyword.Bluemix}} 中進行設定及建置。  
 {: shortdesc}
-
-如需開始建置時的可用功能清單，請參閱[探索 {{site.data.keyword.cloud_notm}} 中的開發人員旅程](/docs/overview?topic=overview-dev-journey)。
-{: tip}
 
 ## 開始之前
 {: #prereqs-dev}

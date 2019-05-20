@@ -3,7 +3,7 @@
 
 copyright:
   years: 2016, 2019
-lastupdated: "2019-03-14"
+lastupdated: "2019-05-13"
 
 keywords: console, platform overview, overview
 
@@ -28,47 +28,7 @@ IBM의 클라우드 플랫폼은 PaaS(Platform as a Service)를 IaaS(Infrastruct
   * 리소스를 필터링하고 식별하기 위한 검색 및 태그 지정 메커니즘
   * 가격 플랜을 위한 정확한 사용량과 안전한 신용카드 사기 방지를 제공하는 계정 및 청구 관리 시스템
 
-## 호스팅 환경 선택
-{: #choose-compute}
-
-{{site.data.keyword.Bluemix_notm}}를 사용하면 더 이상 하드웨어에 막대한 금액을 투자하여 새로운 앱을 테스트하거나 실행할 필요가 없습니다. 대신 IBM에서 모든 것을 관리하며 실제 사용량에 대한 금액만 청구합니다. 클라우드 서버 환경은 인프라 계층의 기반입니다. 단일 옵션을 선택하거나 더 복잡한 환경의 경우 옵션의 조합을 선택할 수 있습니다. 
-
-원하거나 필요한 만큼 인프라에 대한 제어를 제공하여 앱을 호스팅하기 위한 다양한 옵션이 있습니다. 다음 방법 중 하나로 앱을 실행할 수 있습니다.
-
-  * 서버리스 기능으로
-  * Cloud Foundry 앱으로
-  * Kubernetes 클러스터의 Docker 컨테이너로
-  * VMware로
-  * 가상 머신으로
-  * 고성능 {{site.data.keyword.baremetal_short}}로 
-
-{{site.data.keyword.baremetal_short}}는 단일 고객 전용의 싱글 테넌트 실제 서버입니다. 서버 호스트에서 RAM 및 스토리지 디바이스에 이르기까지 거의 모든 것을 제어합니다. 이러한 서버는 지속적인 시간(예: 몇 개월) 동안 컴퓨팅 능력이 필요한 워크로드에 사용됩니다. 
-
-{{site.data.keyword.BluVirtServers_short}}는 공용 또는 전용 인스턴스로 배치될 수 있습니다. 공용 인스턴스를 사용하면 서버의 리소스가 다른 고객과 공유되며, 이를 멀티 테넌트 환경이라고도 합니다. 사설 인스턴스를 사용하면 실제 서버의 리소스가 동일한 서버에 하나 이상의 가상 머신을 보유할 수 있는 한 고객에게 전용으로 제공됩니다. 이러한 서버는 제한된 시간(예: 몇 주) 동안 실행되는 워크로드에 적합합니다. 몇 가지 워크로드 예제로는 개발 및 테스트, 백업 및 복구, 재해 복구가 있습니다. 서버 옵션에 대한 자세한 정보는 [Bare metal servers vs. virtual servers: Choosing the best option for you](https://www.ibm.com/blogs/bluemix/2018/06/bare-metal-virtual-servers-works/){: new_window} ![외부 링크 아이콘](../icons/launch-glyph.svg "외부 링크 아이콘")를 참조하십시오.
-
-컴퓨팅 옵션에 대한 요약은 다음 표를 확인하십시오.
-
-|옵션 |설명 | 
-|--------|---------------|
-| [{{site.data.keyword.baremetal_short}}](/docs/bare-metal?topic=bare-metal-bm-getting-started#bm-getting-started)  |사용자 전용이며 서버 리소스를 포함한 모든 파트에서 다른 고객과 공유되지 않는 시간별 또는 월별 싱글 테넌트 서버입니다. |
-| [{{site.data.keyword.BluVirtServers_short}}](/docs/vsi?topic=virtual-servers-about-public-virtual-servers#public-virtual-servers) |전용 코어와 메모리 할당을 포함하여 구매하는 확장 가능한 서버입니다. |
-| [{{site.data.keyword.vmwaresolutions_short}}](/docs/services/vmwaresolutions?topic=vmware-solutions-getting-started#getting-started) |확장 가능하고 안전한 고성능 인프라 및 업계 최고의 VMware 하이브리드 가상화 기술을 사용하여 온프레미스 VMware 워크로드를 빠르고 원활하게 통합하거나 마이그레이션합니다. |
-| [{{site.data.keyword.containerlong_notm}}](/docs/containers?topic=containers-container_index) |Docker 컨테이너, Kubernetes 기술, 직관적인 사용자 경험, 기본 제공 보안 및 격리를 결합하여 컴퓨팅 호스트의 클러스터에서 컨테이너화된 앱의 배치, 오퍼레이션, 스케일링 및 모니터링을 자동화합니다. |
-| [{{site.data.keyword.cfee_full_notm}}](/docs/cloud-foundry?topic=cloud-foundry-about) |격리된 여러 엔터프라이즈급 Cloud Foundry 플랫폼을 요청 시 인스턴스화합니다. |
-| [{{site.data.keyword.openwhisk_short}}](/docs/openwhisk?topic=cloud-functions-index) |Apache OpenWhisk 기반의 FaaS(Function-as-a-Service) 프로그래밍 플랫폼입니다. |
-{: caption="표 1. 컴퓨팅 옵션" caption-side="top"}
-
-## 애플리케이션 빌드
-{: #build-apps}
-
 현대화하여 클라우드로 가져오려는 [기존 코드](/docs/apps/tutorials?topic=creating-apps-tutorial-byoc#tutorial-byoc)가 있거나 [새로운 애플리케이션](/docs/apps/tutorials?topic=creating-apps-tutorial-starterkit)을 개발 중인지에 관계없이 개발자는 {{site.data.keyword.Bluemix_notm}}에서 사용 가능한 서비스 및 런타임 프레임워크의 빠르게 설정하는 에코시스템을 활용할 수 있습니다.
-
-시작하고 실행하는 데 도움이 되도록 언어별 [프로그래밍 안내서](https://cloud.ibm.com/docs/home/build){: new_window} ![외부 링크 아이콘](../icons/launch-glyph.svg "외부 링크 아이콘")가 제공됩니다. {{site.data.keyword.baremetal_short}}에서 서버리스 기능으로 실행하는 경우에 이르기까지 {{site.data.keyword.Bluemix_notm}} 인프라를 사용하여 앱을 호스팅하는 여러 옵션이 있습니다.
-
-## 서비스 연결
-{: #connect-services}
-
-카탈로그에서 선택할 수 있는 190개 이상의 서비스를 통해 요구사항에 맞게 사용자 조정된 솔루션을 빌드할 수 있습니다. 유스 케이스에 적합한 경우 {{site.data.keyword.Bluemix_notm}} 외부의 앱에 서비스를 쉽게 연결할 수도 있습니다. 외부 이용자를 {{site.data.keyword.Bluemix_notm}} 서비스에 수동으로 연결하려는 경우에는 새 인증 정보 세트를 생성할 수 있습니다. 예를 들어, {{site.data.keyword.Bluemix_notm}} 외부의 앱을 Watson 서비스에 연결하려고 시도하는 경우에는 이를 함께 연결하는 새 인증 정보를 생성합니다. 간단합니다! 자세한 정보는 [인증 정보 추가](/docs/resources?topic=resources-service_credentials)를 참조하십시오.
 
 ## 계정 설정
 {: #set-up-account}
@@ -128,7 +88,7 @@ IBM의 클라우드 플랫폼은 PaaS(Platform as a Service)를 IaaS(Infrastruct
 ## 리소스 관리
 {: #resource-manager}
 
-리소스 집합은 [리소스 그룹](/docs/overview?topic=overview-whatis-rgs)에 의해 관리됩니다. 리소스 그룹은 사용자의 계정과 연관됩니다. 모든 {{site.data.keyword.Bluemix_notm}} 리소스는 리소스 그룹에 지정되어야 합니다. 계정을 작성하면 기본 리소스 그룹이 작성됩니다. 모든 {{site.data.keyword.Bluemix_notm}} IAM 사용 리소스가 리소스 그룹 내에 프로비저닝되어야 합니다. 그러나 Lite 계정을 보유한 경우에는 하나의 리소스 그룹만 보유할 수 있습니다. 종량과금제 또는 구독 계정이 있는 경우에는 둘 이상의 리소스 그룹을 작성할 수 있습니다. 계정이 일시중단되면 해당 리소스 그룹도 일시중단되며 리소스 그룹 내의 모든 리소스가 일시중단됩니다. 
+리소스 집합은 [리소스 그룹](/docs/overview?topic=overview-whatis-rgs)에 의해 관리됩니다. 리소스 그룹은 사용자의 계정과 연관됩니다. 모든 {{site.data.keyword.Bluemix_notm}} 리소스는 리소스 그룹에 지정되어야 합니다. 계정을 생성하면 기본 리소스 그룹이 작성됩니다. 모든 {{site.data.keyword.Bluemix_notm}} IAM 사용 리소스가 리소스 그룹 내에 프로비저닝되어야 합니다. 그러나 Lite 계정을 보유한 경우에는 하나의 리소스 그룹만 보유할 수 있습니다. 종량과금제 또는 구독 계정이 있는 경우에는 둘 이상의 리소스 그룹을 작성할 수 있습니다. 계정이 일시중단되면 해당 리소스 그룹도 일시중단되며 리소스 그룹 내의 모든 리소스가 일시중단됩니다. 
 
 ## 리소스 검색 및 태그 지정
 {: #search-and-tag}

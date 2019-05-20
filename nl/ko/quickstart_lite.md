@@ -4,7 +4,7 @@ copyright:
 
   years: 2018, 2019
 
-lastupdated: "2019-03-14"
+lastupdated: "2019-05-13"
 
 keywords: quick start, get started with IBM Cloud
 
@@ -28,7 +28,7 @@ subcollection: overview
 ## 시작하기 전에
 {: #prereqs-lite}
 
-[{{site.data.keyword.Bluemix_notm}} 콘솔](https://{DomainName})로 이동하여 Lite 계정을 작성하십시오. 이 계정은 무료이며 만료되지 않습니다.
+[{{site.data.keyword.Bluemix_notm}} 콘솔](https://{DomainName})로 이동하여 Lite 계정을 생성하십시오. 이 계정은 무료이며 만료되지 않습니다.
 
 ## 빠른 시작 단계
 {: #steps-lite}
@@ -45,6 +45,6 @@ subcollection: overview
 ## 다음 단계
 {: #nextsteps-lite}
 
-[{{site.data.keyword.Bluemix_notm}}의 개발자 과정 탐색](/docs/overview?topic=overview-dev-journey)에서 {{site.data.keyword.Bluemix_notm}}의 개발자가 수행하는 작업을 알아보십시오. 
+앱 빌드를 시작하십시오. 자세한 정보는 [시작하기 튜토리얼](/docs/apps/tutorials?topic=creating-apps-tutorial-getting-started)을 참조하십시오.  
 
 

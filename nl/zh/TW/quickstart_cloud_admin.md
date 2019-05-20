@@ -2,7 +2,7 @@
 
 copyright:
   years: 2018, 2019
-lastupdated: "2019-01-29"
+lastupdated: "2019-05-13"
 
 keywords: first steps, understanding IT ops
 
@@ -35,7 +35,7 @@ subcollection: overview
 {: #steps-it-ops}
 
 1. 運用我們的學習資料來瞭解 {{site.data.keyword.cloud_notm}} 的運作方式：
-    * 瞭解有哪些選項可用來在 {{site.data.keyword.cloud}} 中[管理您的應用程式](/docs/overview?topic=overview-whatis-platform#choose-compute)。
+    * 瞭解有哪些選項可用來在 {{site.data.keyword.cloud_notm}} 中[管理您的應用程式](/docs/apps/tutorials?topic=creating-apps-hosting)。
     * 請參閱 {{site.data.keyword.cloud_notm}} 基礎架構的[架構圖](https://www.ibm.com/cloud/garage/architectures/infrastructure){: new_window} ![外部鏈結圖示](../icons/launch-glyph.svg)。 
 2. 使用成本預估器，以瞭解您的基礎架構可能需要多少成本：
 

@@ -3,7 +3,7 @@
 
 copyright:
   years: 2016, 2019
-lastupdated: "2019-04-16"
+lastupdated: "2019-05-13"
 
 keywords: prereqs, platform prereqs, platform prerequisites
 
@@ -38,4 +38,4 @@ Puoi segnalare i problemi relativi a Internet Explorer 11 utilizzando il pulsant
 ## Interfaccia riga di comando
 {: #cli-platform}
 
-La CLI (command-line interface) {{site.data.keyword.Bluemix_notm}} cambia costantemente; ti consigliamo pertanto di andare alla pagina [Installazione della CLI {{site.data.keyword.Bluemix_notm}} autonoma](/docs/cli/reference/ibmcloud/cloud-cli-install_use), che punta sempre all'ultima versione della CLI.
+La CLI (command-line interface) {{site.data.keyword.Bluemix_notm}} cambia costantemente; ti consigliamo pertanto di andare alla pagina [Installazione della CLI {{site.data.keyword.Bluemix_notm}} autonoma](/docs/cli/?topic=cloud-cli-ibmcloud-cli), che punta sempre all'ultima versione della CLI.

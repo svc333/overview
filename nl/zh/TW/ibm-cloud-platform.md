@@ -3,7 +3,7 @@
 
 copyright:
   years: 2016, 2019
-lastupdated: "2019-03-14"
+lastupdated: "2019-05-13"
 
 keywords: console, platform overview, overview
 
@@ -28,47 +28,7 @@ IBM 的雲端平台結合了平台即服務 (PaaS) 與基礎架構即服務 (Iaa
   * 用來過濾及識別資源的搜尋和標記機制
   * 帳戶和計費管理系統，其提供定價方案的確切用量，以及安全的信用卡詐騙防護
 
-## 選擇您的管理環境
-{: #choose-compute}
-
-使用 {{site.data.keyword.Bluemix_notm}}，您就不需要再為了測試或執行新的應用程式而進行大量的硬體投資。相反地，我們會為您進行所有管理，但只向您收取所使用部分的費用。您的雲端伺服器環境是基礎架構層的基礎。您可以選擇單一選項，或為更複雜的環境選擇選項的組合。 
-
-有各種選項可用於管理應用程式，讓您可根據意願或需求來控制基礎架構。您可以使用下列任何一種方式執行應用程式：
-
-  * 作為無伺服器函數
-  * 作為 Cloud Foundry 應用程式
-  * 在 Kubernetes 叢集上作為 Docker 容器
-  * 作為 VMware
-  * 作為虛擬機器
-  * 在高效能 {{site.data.keyword.baremetal_short}} 上 
-
-{{site.data.keyword.baremetal_short}} 是單一客戶專用的單一承租戶實體伺服器。您可控制從伺服器主機到 RAM 及儲存裝置的幾乎所有項目。這些伺服器搭配使用的工作負載需要持續一段時間（例如，數個月）的運算能力。 
-
-{{site.data.keyword.BluVirtServers_short}} 可以部署為公用或專用實例。使用公用實例，伺服器的資源會與其他客戶共用，也稱為多方承租戶環境。專用實例是讓實體伺服器的資源供一個客戶專用，該客戶在相同伺服器上可以具有一部以上的虛擬機器。這些伺服器極適合用於執行一段有限時間（例如數週）的工作負載。一些工作負載範例包括：開發及測試、備份及回復，以及災難回復。如需伺服器選項的相關資訊，請參閱 [Bare metal servers vs. virtual servers: Choosing the best option for you ](https://www.ibm.com/blogs/bluemix/2018/06/bare-metal-virtual-servers-works/){: new_window}![外部鏈結圖示](../icons/launch-glyph.svg "外部鏈結圖示")。
-
-請參閱下表，以取得運算選項的摘要。
-
-| 選項 |說明| 
-|--------|---------------|
-| [{{site.data.keyword.baremetal_short}}](/docs/bare-metal?topic=bare-metal-bm-getting-started#bm-getting-started)  |每小時或每月，您專用的單一承租戶伺服器，任何部分都不與其他客戶共用（包括伺服器資源）。|
-| [{{site.data.keyword.BluVirtServers_short}}](/docs/vsi?topic=virtual-servers-about-public-virtual-servers#public-virtual-servers) |購買時搭配專用核心及記憶體配置的可擴充虛擬伺服器。|
-| [{{site.data.keyword.vmwaresolutions_short}}](/docs/services/vmwaresolutions?topic=vmware-solutions-getting-started#getting-started) |使用可擴充、安全且高效能的基礎架構，以及領先業界的 VMware 混合式虛擬化技術，快速而平順地整合或移轉內部部署的 VMware 工作負載。|
-| [{{site.data.keyword.containerlong_notm}}](/docs/containers?topic=containers-container_index) |結合 Docker 容器、Kubernetes 技術、直覺式使用者體驗及內建安全和隔離，在運算主機的叢集裡，自動部署、操作、調整及監視容器化應用程式。|
-| [{{site.data.keyword.cfee_full_notm}}](/docs/cloud-foundry?topic=cloud-foundry-about) |隨需應變，將多個隔離的企業級 Cloud Foundry 平台實例化。|
-| [{{site.data.keyword.openwhisk_short}}](/docs/openwhisk?topic=cloud-functions-index) |以 Apache OpenWhisk 為基礎的「函數即服務 (FaaS)」程式設計平台。|
-{: caption="表 1. 運算選項" caption-side="top"}
-
-## 建置應用程式
-{: #build-apps}
-
 不論您是想要對[現有程式碼](/docs/apps/tutorials?topic=creating-apps-tutorial-byoc#tutorial-byoc)進行革新並帶到雲端中，還是要開發[全新的應用程式](/docs/apps/tutorials?topic=creating-apps-tutorial-starterkit)，您的開發人員都可以利用 {{site.data.keyword.Bluemix_notm}} 中快速成長的可用服務和運行環境架構生態系統。
-
-每種語言都有可用的[程式設計手冊](https://cloud.ibm.com/docs/home/build){: new_window} ![外部鏈結圖示](../icons/launch-glyph.svg "外部鏈結圖示")，用來協助您開始進行。使用 {{site.data.keyword.Bluemix_notm}} 基礎架構時，您有許多選項可管理應用程式，從 {{site.data.keyword.baremetal_short}} 到作為無伺服器函數來執行。
-
-## 連接服務
-{: #connect-services}
-
-型錄中有超過 190 個服務可供選擇，讓您能夠建置自訂的解決方案來符合您的需求。如果符合您的使用案例，您也可以輕鬆地將服務連接至 {{site.data.keyword.Bluemix_notm}} 之外的應用程式。您可以針對要將外部消費者手動連接至 {{site.data.keyword.Bluemix_notm}} 服務的案例，產生一組新的認證。例如，如果您嘗試將 {{site.data.keyword.Bluemix_notm}} 之外的應用程式連接至 Watson 服務，您會產生一個新的認證，用於將它們連接在一起。就是這麼簡單！如需相關資訊，請參閱[新增認證](/docs/resources?topic=resources-service_credentials)。
 
 ## 設定帳戶
 {: #set-up-account}

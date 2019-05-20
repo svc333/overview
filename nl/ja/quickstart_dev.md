@@ -4,7 +4,7 @@ copyright:
 
   years: 2018, 2019
 
-lastupdated: "2019-03-14"
+lastupdated: "2019-05-13"
 
 keywords: quick start steps, dev quick start, dev get started
 
@@ -23,9 +23,6 @@ subcollection: overview
 
 開発者にはすぐにコーディングを開始することが期待されます。 このクイック・スタートは、開発者による {{site.data.keyword.Bluemix}} でのセットアップおよび構築を支援することを目的としています。  
 {: shortdesc}
-
-構築を開始する際に使用可能な機能のリストについては、[{{site.data.keyword.cloud_notm}} の開発者ジャーニーの探索](/docs/overview?topic=overview-dev-journey)を参照してください。
-{: tip}
 
 ## 始める前に
 {: #prereqs-dev}

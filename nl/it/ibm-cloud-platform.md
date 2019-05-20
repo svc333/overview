@@ -3,7 +3,7 @@
 
 copyright:
   years: 2016, 2019
-lastupdated: "2019-03-14"
+lastupdated: "2019-05-13"
 
 keywords: console, platform overview, overview
 
@@ -28,47 +28,7 @@ La piattaforma {{site.data.keyword.Bluemix_notm}} è composta da più componenti
   * Un meccanismo di ricerca e contrassegno con tag per filtrare e identificare le tue risorse
   * Un sistema di gestione dell'account e della fatturazione che fornisce l'utilizzo esatto per i piani dei prezzi e la protezione antifrode della carta di credito
 
-## Scelta del tuo ambiente host
-{: #choose-compute}
-
-Con {{site.data.keyword.Bluemix_notm}}, non devi più affrontare grandi investimenti in hardware per testare o eseguire una nuova applicazione. Saremo invece noi a gestire il tutto e pagherai solo per ciò che usi. Il tuo ambiente server cloud è la base del tuo livello dell'infrastruttura. Puoi scegliere una sola opzione o una combinazione per ambienti più complessi. 
-
-Hai diverse opzioni per ospitare le tue applicazioni, fornendoti maggiore controllo sull'infrastruttura quando vuoi o ne hai bisogno. Puoi eseguire la tua applicazione in uno dei seguenti modi:
-
-  * Come una funzione senza server
-  * Come un'applicazione Cloud Foundry
-  * Come un contenitore Docker su un cluster Kubernetes
-  * Come VMware
-  * Come una macchina virtuale
-  * Su {{site.data.keyword.baremetal_short}} ad elevate prestazioni 
-
-{{site.data.keyword.baremetal_short}} sono server fisici a singolo tenant dedicati a un solo cliente. Controlli quasi tutto dall'host del server alla RAM e ai dispositivi di archiviazione. Questi server sono utilizzati con dei carichi di lavoro che richiedono potenza di calcolo per un lungo periodo, ad esempio, diversi mesi. 
-
-{{site.data.keyword.BluVirtServers_short}} possono essere distribuiti come istanze pubbliche o dedicate. Con le istanze pubbliche, le risorse del server vengono condivise con altri clienti, noti anche come un ambiente a più tenant. Le istanze private dedicano le risorse del server fisico a un cliente che può avere più di una macchina virtuale sullo stesso server. Questi server sono ideali per i carichi di lavoro che sono in esecuzione per un periodo di tempo limitato, ad esempio, un paio di settimane. Alcuni esempi di carico di lavoro sono sviluppo e test, backup e ripristino e ripristino di emergenza. Per ulteriori informazioni sulle opzioni server, consulta [Bare metal servers vs. virtual servers: Choosing the best option for you](https://www.ibm.com/blogs/bluemix/2018/06/bare-metal-virtual-servers-works/){: new_window} ![Icona link esterno](../icons/launch-glyph.svg "Icona link esterno").
-
-Consulta la seguente tabella per un riepilogo delle tue opzioni di calcolo.
-
-| Opzione | Descrizione | 
-|--------|---------------|
-| [{{site.data.keyword.baremetal_short}}](/docs/bare-metal?topic=bare-metal-bm-getting-started#bm-getting-started)  | Server a singolo tenant orari o mensili, a te dedicati e di cui nessuna loro parte, comprese le risorse server, è condivisa con altri clienti. |
-| [{{site.data.keyword.BluVirtServers_short}}](/docs/vsi?topic=virtual-servers-about-public-virtual-servers#public-virtual-servers) | Server virtuali scalabili acquistati con allocazioni di memoria e core dedicati. |
-| [{{site.data.keyword.vmwaresolutions_short}}](/docs/services/vmwaresolutions?topic=vmware-solutions-getting-started#getting-started) | Integra o migra velocemente e facilmente i carichi di lavoro VMware in loco utilizzando l'infrastruttura ad elevate prestazioni, sicura e scalabile e la tecnologia di virtualizzazione ibrida VMware leader nel settore. |
-| [{{site.data.keyword.containerlong_notm}}](/docs/containers?topic=containers-container_index) | Combina i contenitori Docker e la tecnologia Kubernetes, un'esperienza utente intuitiva e la sicurezza e l'isolamento integrati per automatizzare la distribuzione, il funzionamento, il ridimensionamento e il monitoraggio di applicazioni caricate nei contenitori in un cluster di host di calcolo. |
-| [{{site.data.keyword.cfee_full_notm}}](/docs/cloud-foundry?topic=cloud-foundry-about) | Istanzia più piattaforme Cloud Foundry isolate e di livello aziendale su richiesta. |
-| [{{site.data.keyword.openwhisk_short}}](/docs/openwhisk?topic=cloud-functions-index) | Una piattaforma di programmazione FaaS (Functions-as-a-Service) basata su Apache OpenWhisk. |
-{: caption="Tabella 1. Opzioni di calcolo" caption-side="top"}
-
-## Creazione di applicazioni
-{: #build-apps}
-
 Se hai del [codice esistente](/docs/apps/tutorials?topic=creating-apps-tutorial-byoc#tutorial-byoc) che vuoi modernizzare e portare nel cloud o stai sviluppando una [nuova applicazione](/docs/apps/tutorials?topic=creating-apps-tutorial-starterkit), i tuoi sviluppatori possono attingere all'ecosistema in continua espansione di framework di runtime e servizi disponibili in {{site.data.keyword.Bluemix_notm}}.
-
-Le [Guide alla programmazione](https://cloud.ibm.com/docs/home/build){: new_window} ![Icona link esterno](../icons/launch-glyph.svg "Icona link esterno") sono disponibili per linguaggio per aiutarti ad essere operativo. Hai molte opzioni per ospitare le tue applicazioni con l'infrastruttura {{site.data.keyword.Bluemix_notm}} dai {{site.data.keyword.baremetal_short}} da eseguire come una funzione senza server.
-
-## Connessione dei servizi
-{: #connect-services}
-
-Con più di 190 servizi tra cui scegliere nel catalogo, puoi creare una soluzione personalizzata che soddisfi i tuoi bisogni. Puoi connettere facilmente i servizi alle applicazioni all'esterno di {{site.data.keyword.Bluemix_notm}} se si adatta al tuo caso di utilizzo. Puoi generare una nuova serie di credenziali per i casi in cui vuoi collegare manualmente un consumatore esterno a un servizio {{site.data.keyword.Bluemix_notm}}. Ad esempio, se stai tentando di collegare un'applicazione all'esterno di {{site.data.keyword.Bluemix_notm}} a un servizio Watson, genera una nuova credenziale che li collega tra loro. È così facile! Per ulteriori informazioni, vedi [Aggiunta di una credenziale](/docs/resources?topic=resources-service_credentials).
 
 ## Configurazione del tuo account
 {: #set-up-account}

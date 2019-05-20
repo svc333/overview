@@ -4,7 +4,7 @@ copyright:
 
   years: 2015, 2019
 
-lastupdated: "2019-05-07"
+lastupdated: "2019-05-13"
 
 keywords: release notes, what's new, what is new, cloud updates
 
@@ -19,7 +19,7 @@ subcollection: overview
 # {{site.data.keyword.Bluemix_notm}} の新機能
 {: #whatsnew}
 
-{{site.data.keyword.Bluemix_notm}} の能力を最大限に引き出すために、{{site.data.keyword.Bluemix}} プラットフォームで利用可能な新しいフィーチャーを常に最新の状態に保つようにしてください。
+{{site.data.keyword.Bluemix_notm}} の能力を最大限に引き出すために、{{site.data.keyword.Bluemix}} プラットフォームで利用可能な新しいフィーチャーを常に最新の状態に保つようにしてください。 
 {:shortdesc}
 
 {{site.data.keyword.Bluemix_notm}} で使用可能なサービスの更新を探している場合は、ブログの[{{site.data.keyword.Bluemix_notm}} 発表ページ](https://www.ibm.com/cloud/blog/announcements){: new_window} ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン") を確認してください。
@@ -34,7 +34,7 @@ subcollection: overview
 ### 関連タグを用いた使用量データのエクスポート
 最新情報: 2019 年 4 月 4 日 
 
-最新のタグ付け機能を使用して、エクスポートされた使用量レポートでリソース、使用量、コストを管理できるようになりました。リソースにタグを追加する場合、リソースに関連付けられているタグを表示するオプションがあります。**「管理」 **> **「請求および使用量」 **> **「使用量」 **> **「CSV のエクスポート」 **> **「インスタンス」**に移動して、使用量レポートをダウンロードします。 タグのエクスポートについて詳しくは、ブログ投稿[「使用量データ内のタグをエクスポートしてコストの割り振りに役立てる (Export tags within your usage data to help with cost allocation)」](https://www.ibm.com/cloud/blog/2019/04/export-your-tagged-usage-data-within-the-enhanced-ibm-cloud/)を確認してください。
+最新のタグ付け機能を使用して、エクスポートされた使用量レポートでリソース、使用量、コストを管理できるようになりました。 リソースにタグを追加する場合、リソースに関連付けられているタグを表示するオプションがあります。 **「管理」 **> **「請求および使用量」 **> **「使用量」 **> **「CSV のエクスポート」 **> **「インスタンス」**に移動して、使用量レポートをダウンロードします。 タグのエクスポートについて詳しくは、[Export tags within your usage data to help with cost allocation](https://www.ibm.com/cloud/blog/export-your-tagged-usage-data-within-the-enhanced-ibm-cloud){: new_window} ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン") というブログ投稿を確認してください。
 
 ### リソースへのパブリック・アクセスを可能にするアクセス・グループ
 最新情報: 2019 年 3 月 25 日
@@ -45,7 +45,7 @@ subcollection: overview
 最新情報: 2019 年 3 月 12 日
 {: #mfa-federated}
 
-課金アカウント管理サービスの管理者役割を割り当てられたアカウント所有者またはユーザーは、アカウント内のすべてのユーザーに対して多要素認証 (MFA) を有効にすることができます。 企業またはエンタープライズのシングル・サインオン ID を使用するフェデレーテッド・ユーザーは、MFA を使用して {{site.data.keyword.Bluemix_notm}} にログインすることによって認証を受けることができるようになりました。 このフィーチャーの強化と、アカウントの MFA を有効にするために必要な情報の詳細については、[Introducing MFA for IBM Cloud Users with Federated ID (フェデレーテッド ID を持つ IBM Cloud ユーザーの MFA の概要)](https://www.ibm.com/blogs/bluemix/2019/03/introducing-mfa-for-ibm-cloud-users-with-federated-id/){: new_window} ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン") を参照してください。
+課金アカウント管理サービスの管理者役割を割り当てられたアカウント所有者またはユーザーは、アカウント内のすべてのユーザーに対して多要素認証 (MFA) を有効にすることができます。 企業またはエンタープライズのシングル・サインオン ID を使用するフェデレーテッド・ユーザーは、MFA を使用して {{site.data.keyword.Bluemix_notm}} にログインすることによって認証を受けることができるようになりました。 このフィーチャーの強化と、アカウントの MFA を有効にするために必要な情報の詳細については、[Introducing MFA for IBM Cloud Users with Federated ID (フェデレーテッド ID を持つ IBM Cloud ユーザーの MFA の概要)](https://www.ibm.com/cloud/blog/introducing-mfa-for-ibm-cloud-users-with-federated-id){: new_window} ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン") を参照してください。
 
 ### 新しい appdomain.cloud ホスト名オプション
 最新情報: 2018 年 12 月 31 日
@@ -53,15 +53,15 @@ subcollection: overview
 
 新しいホスト名オプション `*.appdomain.cloud` が cloud.ibm.com で使用可能です。
 
-以前は、`mybluemix.net` ドメインが {{site.data.keyword.containerlong_notm}} や Cloud Foundry などのさまざまなデプロイメント・ターゲットでアプリをホストするために使用されていました。`mybluemix.net` でホストしているアプリは影響を受けません。
+以前は、`mybluemix.net` ドメインが {{site.data.keyword.containerlong_notm}} や Cloud Foundry などのさまざまなデプロイメント・ターゲットでアプリをホストするために使用されていました。 `mybluemix.net` でホストしているアプリは影響を受けません。
 
-Cloud Foundry アプリのサブドメインは `cf.appdomain.cloud` です。{{site.data.keyword.containerlong_notm}} にデプロイするアプリのサブドメインは `containers.appdomain.cloud` です。
+Cloud Foundry アプリのサブドメインは `cf.appdomain.cloud` です。 {{site.data.keyword.containerlong_notm}} にデプロイするアプリのサブドメインは `containers.appdomain.cloud` です。
 
 ### 新しい Cloud Foundry API エンドポイント
 最新情報: 2018 年 11 月 30 日
 {: #cf-api-endpoints}
 
-既存の `api.*.bluemix.net` Cloud Foundry API エンドポイントは、後方互換性のために引き続き使用できます。ただし、使用している地域の以下の新しい Cloud Foundry API エンドポイントを使用するために、スクリプトとインフラストラクチャー自動化を更新できます。
+既存の `api.*.bluemix.net` Cloud Foundry API エンドポイントは、後方互換性のために引き続き使用できます。 ただし、使用している地域の以下の新しい Cloud Foundry API エンドポイントを使用するために、スクリプトとインフラストラクチャー自動化を更新できます。
 
 * api.us-south.cf.cloud.ibm.com (以前は api.ng.bluemix.net)
 * api.eu-gb.cf.cloud.ibm.com (以前は api.eu-gb.bluemix.net)
@@ -87,7 +87,7 @@ Cloud Foundry アプリのサブドメインは `cf.appdomain.cloud` です。{{
 
 すべてのユーザーが単一のコンソールに表示されるようになったので、同じ場所からすべてのタイプのリソースへのアクセスを管理できます。 アクセスはユーザーから開始されるため、最初にリストからユーザーを選択します。 次に、アクセス権を割り当てるリソースのタイプに応じて、IAM アクセス・ポリシー、Cloud Foundry アクセス権限、またはクラシック・インフラストラクチャーの許可から選択できます。 IAM アクセス・ポリシーを割り当てるだけの場合は、アクセス・グループを作成して、同じポリシーを割り当てる必要があるすべてのユーザーを同じアクセス・グループに追加することで、アクセス管理プロセスの簡素化を試行してください。
 
-詳細情報については、[Outstanding User Access Improvements Help Deliver a Unified {{site.data.keyword.Bluemix_notm}} Platform](https://www.ibm.com/blogs/bluemix/2018/11/ibm-cloud-access-management){: new_window} ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン") を確認してください。 
+詳細情報については、[Outstanding User Access Improvements Help Deliver a Unified {{site.data.keyword.Bluemix_notm}} Platform](https://www.ibm.com/cloud/blog/announcements/ibm-cloud-access-management){: new_window} ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン") を確認してください。 
 
 ### すべての {{site.data.keyword.Bluemix_notm}} CLI プラグイン資料を 1 カ所で見つける
 最新情報: 2018 年 11 月 30 日
@@ -115,16 +115,16 @@ Cloud Foundry アプリのサブドメインは `cf.appdomain.cloud` です。{{
 アカウント、請求、およびプロファイルの情報が簡素化されました。 統合されたコンソールで、すべてのプラットフォームおよびインフラストラクチャーのリソースのアカウント情報を表示できます。 
 
 * プロファイルと設定には、お客様に関する情報と、すべてのリソース・タイプの E メール通知設定が含まれています。 
-* アカウント情報には、会社または組織に関する情報、アカウント設定、およびリソース・グループや Cloud Foundry 組織と連携するためのクイック・アクセスが含まれています。素早く利用を開始するのに役立つベスト・プラクティスを見つけることもできます。
+* アカウント情報には、会社または組織に関する情報、アカウント設定、およびリソース・グループや Cloud Foundry 組織と連携するためのクイック・アクセスが含まれています。 素早く利用を開始するのに役立つベスト・プラクティスを見つけることもできます。
 * アカウントの「請求および使用量」では、請求内容の確認、支払いの実行、サブスクリプションのモニター、見積もりの取得、注文の追跡、および消費量通知の設定を実行できます。
 
-詳しくは、[Bringing It All Together: A Single Account and Billing Management Experience](https://www.ibm.com/blogs/bluemix/2018/11/ibm-cloud-account-management/){: new_window} ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン") を参照してください。
+詳しくは、[Bringing It All Together: A Single Account and Billing Management Experience](https://www.ibm.com/cloud/blog/announcements/ibm-cloud-account-management){: new_window} ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン") を参照してください。
 
 ### タグによるリソースの編成
 最新情報: 2018 年 11 月 30 日
 {: #tag}
 
-タグをクラウド・オブジェクト・ストレージなどのリソースに追加できるようになりました。これにより、リソースを管理し、最も関連性の高いリソースを見つけることができます。 例えば、数百のリソースがあり、同じ方法で支払われるいくつかのリソースを区別する場合は、`costcenter:location01` でタグ付けできます。 または、いくつかのリソースに対する作業を繰り返し行っているチームがある場合は、「team-blue」などを使用できます。 タグによってリソース・リストをフィルタリングし、必要なリソースを素早く編成して見つけることもできます。 詳しくは、『[タグの処理](/docs/resources?topic=resources-tag)』および [Platform Tagging on the Enhanced {{site.data.keyword.Bluemix_notm}} Platform](https://www.ibm.com/blogs/bluemix/2018/11/platform-tagging-on-the-enhanced-ibm-cloud-platform/){: new_window} ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン") を参照してください。 
+タグをクラウド・オブジェクト・ストレージなどのリソースに追加できるようになりました。これにより、リソースを管理し、最も関連性の高いリソースを見つけることができます。 例えば、数百のリソースがあり、同じ方法で支払われるいくつかのリソースを区別する場合は、`costcenter:location01` でタグ付けできます。 または、いくつかのリソースに対する作業を繰り返し行っているチームがある場合は、「team-blue」などを使用できます。 タグによってリソース・リストをフィルタリングし、必要なリソースを素早く編成して見つけることもできます。 詳しくは、『[タグの処理](/docs/resources?topic=resources-tag)』および [Platform Tagging on the Enhanced {{site.data.keyword.Bluemix_notm}} Platform](https://www.ibm.com/cloud/blog/announcements/platform-tagging-on-the-enhanced-ibm-cloud-platform){: new_window} ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン") を参照してください。 
 
 ### コスト見積もりツールを使用した正確な月次コストの検出
 最新情報: 2018 年 11 月 30 日
@@ -162,7 +162,7 @@ Cloud Foundry アプリのサブドメインは `cf.appdomain.cloud` です。{{
 * プライベート・カタログ・オファリングの表示、およびオファリングのメタデータおよび可視性の更新のためのグローバル・リソース・カタログ
 * 割り当てられた役割に基づいた個別アカウント管理サービス・オプションのそれぞれへのアクセス権限のため、および請求および使用量追跡へのアクセス権限のためのすべてのアカウント管理サービス
 
-どのアカウント管理サービスについてのポリシーを持っているのか、およびどの役割が割り当てられているのかに応じてユーザーが実行できるタスクについて詳しくは、『[プラットフォーム管理の役割とアカウント管理サービスに対するアクションの例](/docs/iam?topic=iam-userroles#platformrolestable2)』を参照してください。 この新機能について詳しくは、[Introducing More Flexibility and Control for IBM Cloud Account Management Services Access](https://www.ibm.com/blogs/bluemix/2018/11/introducing-more-flexibility-and-control-for-ibm-cloud-account-management-services-access/){: new_window} ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン") ブログ投稿を参照してください。 
+どのアカウント管理サービスについてのポリシーを持っているのか、およびどの役割が割り当てられているのかに応じてユーザーが実行できるタスクについて詳しくは、『[プラットフォーム管理の役割とアカウント管理サービスに対するアクションの例](/docs/iam?topic=iam-userroles#platformrolestable2)』を参照してください。 この新機能について詳しくは、[Introducing More Flexibility and Control for IBM Cloud Account Management Services Access](https://www.ibm.com/cloud/blog/announcements/introducing-more-flexibility-and-control-for-ibm-cloud-account-management-services-access){: new_window} ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン") ブログ投稿を参照してください。 
 
 ### リソースの検索
 最新情報: 2018 年 7 月 17 日
@@ -198,13 +198,13 @@ Cloud Foundry アプリのサブドメインは `cf.appdomain.cloud` です。{{
 最新情報: 2018 年 5 月 2 日
 {: #account-mfa}
 
-多要素認証 (MFA) ではアカウントにセキュリティーの層が 1 つ追加されて、すべてのユーザーが、ログイン中に標準 IBMid およびパスワードに加えて、時間ベースのワンタイム・パスコードも入力することが必要になります。 これは、一般的に 2 要素認証 (2FA) とも呼ばれています。 MFA はアカウント単位で有効にされ、いったんオンにされると、そのアカウント内のすべてのユーザーは、追加セキュリティー手段を使用してログインすることが必要になります。 詳しくは、[IBM Cloud Platform now adds support for Multi-Factor Authentication](https://www.ibm.com/blogs/bluemix/2018/05/ibm-cloud-platform-now-adds-support-multi-factor-authentication/){: new_window} ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン") ブログ投稿を参照してください。
+多要素認証 (MFA) ではアカウントにセキュリティーの層が 1 つ追加されて、すべてのユーザーが、ログイン中に標準 IBMid およびパスワードに加えて、時間ベースのワンタイム・パスコードも入力することが必要になります。 これは、一般的に 2 要素認証 (2FA) とも呼ばれています。 MFA はアカウント単位で有効にされ、いったんオンにされると、そのアカウント内のすべてのユーザーは、追加セキュリティー手段を使用してログインすることが必要になります。 詳しくは、[IBM Cloud Platform now adds support for Multi-Factor Authentication](https://www.ibm.com/cloud/blog/ibm-cloud-platform-now-adds-support-multi-factor-authentication){: new_window} ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン") ブログ投稿を参照してください。
 
 ### アクセス・グループを使用した迅速なアクセス権限の割り当て
 最新情報: 2018 年 4 月 3 日
 {: #access-groups}
 
-可能な限り最小限のポリシーを使用してアクセス権限を素早く割り当てたい場合、 アクセス・グループを使用して行うことができるようになりました。 アクセス・グループを使用すると、ユーザーとサービス ID のセットをグループ化して、グループのすべてのメンバーに適用される単一のポリシーを割り当てることができます。 アクセス・グループを使用することで、アカウント内のユーザーとサービス ID へのアクセス権限の管理に費やす時間を抑えることができます。 詳しくは、「[New feature: Access groups](https://www.ibm.com/blogs/bluemix/2018/04/access-groups/){: new_window} ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")」のブログ投稿を確認してください。
+可能な限り最小限のポリシーを使用してアクセス権限を素早く割り当てたい場合、 アクセス・グループを使用して行うことができるようになりました。 アクセス・グループを使用すると、ユーザーとサービス ID のセットをグループ化して、グループのすべてのメンバーに適用される単一のポリシーを割り当てることができます。 アクセス・グループを使用することで、アカウント内のユーザーとサービス ID へのアクセス権限の管理に費やす時間を抑えることができます。 詳しくは、「[New feature: Access groups](https://www.ibm.com/cloud/blog/access-groups){: new_window} ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")」のブログ投稿を確認してください。
 
 ### {{site.data.keyword.Bluemix_notm}} Foundry Service 米国東部地域が使用可能になりました。
 最新情報: 2017 年 12 月 15 日
@@ -254,7 +254,7 @@ Cloud Foundry アプリのサブドメインは `cf.appdomain.cloud` です。{{
 最新情報: 2017 年 10 月 31 日
 {: #meet-ibmcloud}
 
-Bluemix は IBM Cloud になりました。 新しい名前の発表のみで、変更はありません。 これまでのようにアプリとサービスを容易にビルドして実行できます。 詳しくは、[IBM Cloud ブログ](https://www.ibm.com/blogs/bluemix/2017/10/bluemix-is-now-ibm-cloud/){: new_window} ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン") を確認してください。
+Bluemix は IBM Cloud になりました。 新しい名前の発表のみで、変更はありません。 これまでのようにアプリとサービスを容易にビルドして実行できます。 詳しくは、[IBM Cloud ブログ](https://www.ibm.com/cloud/blog/announcements/bluemix-is-now-ibm-cloud){: new_window} ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン") を確認してください。
 
 ### ライト・アカウント
 最新情報: 2017 年 10 月 31 日
@@ -268,13 +268,13 @@ Bluemix は IBM Cloud になりました。 新しい名前の発表のみで、
 
 Identity and Access Management (IAM) では、サービス ID を作成する機能を提供するようになりました。サービス ID は、アプリが {{site.data.keyword.Bluemix_notm}} サービスでの認証に使用できる ID と考えることができます。 個人ユーザーの資格情報を使用する代わりに、関連付けられた API キーとアクセス許可を持つサービス ID を作成できます。API キーとアクセス許可は、その ID によって認証を行う任意のアプリケーションのアクセスのレベルを制御するためにサービス ID に割り当てられたサービス・ポリシーの形式となっています。
 
-この機能のメリットと、使用を開始する方法について詳しくは、[Introducing IBM Cloud IAM Service IDs and API Keys](https://www.ibm.com/blogs/bluemix/2017/10/introducing-ibm-cloud-iam-service-ids-api-keys/){: new_window} ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン") を参照してください。
+この機能のメリットと、使用を開始する方法について詳しくは、[Introducing IBM Cloud IAM Service IDs and API Keys](https://www.ibm.com/cloud/blog/introducing-ibm-cloud-iam-service-ids-api-keys){: new_window} ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン") を参照してください。
 
 ### {{site.data.keyword.Bluemix_notm}} グローバル・カタログ
 最新情報: 2017 年 7 月 27 日
 {: #gc}
 
-{{site.data.keyword.Bluemix_notm}} は、コンソールの前回の更新でコンソール内の単一のロケーションからパブリック地域を管理するように拡張され、カタログから選択するアイテムの選択とデプロイのプロセスをさらに合理化するグローバル・カタログを含むようになりました。 コンソールで選択した地域にかかわらず、すべてのパブリック地域にわたって使用可能なすべてのサービスをカタログから表示できるようになりました。 カタログからタイルを選択すると、サービスを使用可能な地域を確認し、それをデプロイする場所を選択することができます。 カタログに対する最新の更新について詳しくは、[A global {{site.data.keyword.Bluemix_notm}} catalog makes building things easier](https://www.ibm.com/blogs/bluemix/2017/07/global-bluemix-catalog-makes-building-things-easier/){: new_window} ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン") を参照してください。
+{{site.data.keyword.Bluemix_notm}} は、コンソールの前回の更新でコンソール内の単一のロケーションからパブリック地域を管理するように拡張され、カタログから選択するアイテムの選択とデプロイのプロセスをさらに合理化するグローバル・カタログを含むようになりました。 コンソールで選択した地域にかかわらず、すべてのパブリック地域にわたって使用可能なすべてのサービスをカタログから表示できるようになりました。 カタログからタイルを選択すると、サービスを使用可能な地域を確認し、それをデプロイする場所を選択することができます。 カタログに対する最新の更新について詳しくは、[A global {{site.data.keyword.Bluemix_notm}} catalog makes building things easier](https://www.ibm.com/cloud/blog/announcements/global-bluemix-catalog-makes-building-things-easier){: new_window} ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン") を参照してください。
 
 ### {{site.data.keyword.Bluemix_notm}} コンソールの更新
 最新情報: 2017 年 5 月 23 日
@@ -300,6 +300,6 @@ Identity and Access Management (IAM) では、サービス ID を作成する機
 最新情報: 2017 年 4 月 13 日
 {: #docnavupdates}
 
-このナビゲーションの更新によって、資料全体でコンテンツがどのように編成されているかを理解し、関連コンテンツをより効率的に見つけることができるようになります。コンテンツのネストされたレイヤーの数が減り、{{site.data.keyword.Bluemix_notm}} を活用するために必要な資料を見つけるために探し回る必要はなくなります。
+このナビゲーションの更新によって、資料全体でコンテンツがどのように編成されているかを理解し、関連コンテンツをより効率的に見つけることができるようになります。 コンテンツのネストされたレイヤーの数が減り、{{site.data.keyword.Bluemix_notm}} を活用するために必要な資料を見つけるために探し回る必要はなくなります。
 
 

@@ -2,7 +2,7 @@
 
 copyright:
   years: 2018, 2019
-lastupdated: "2019-03-14"
+lastupdated: "2019-05-13"
 
 keywords: HA, failover, DR
 
@@ -64,7 +64,13 @@ Per far fronte ai problemi di sicurezza puoi anche selezionare l'ubicazione in c
 
 Il bilanciamento del carico globale per la console {{site.data.keyword.cloud_notm}} garantisce che, se l'ubicazione geografica a te più prossima non è disponibile, la console visualizza le informazioni per la successiva ubicazione più prossima. In questo modo, avrai sempre accesso alla console senza dover eseguire alcuna azione per accedere alle risorse di cui hai bisogno.
 
-Puoi visualizzare tutte le risorse in tutte le ubicazioni per impostazione predefinita dalla vista elenco risorse nella console. Se vuoi visualizzare e gestire le risorse in una specifica ubicazione, espandi il menu **UBICAZIONE** e seleziona un'ubicazione dall'elenco. 
+Puoi visualizzare tutte le risorse in tutte le ubicazioni per impostazione predefinita dalla vista elenco risorse nella console. Se vuoi visualizzare e gestire le risorse in una specifica ubicazione, espandi il menu **Ubicazione** e seleziona un'ubicazione dall'elenco. Espandendo un'ubicazione geografica specifica, puoi scegliere di filtrare per singolo data center, regione o zona: 
+
+Una *geografia* è un'area geografica o un organo politico più grande che contiene una o più regioni. Alcuni servizi sono supportati a un livello geografico interregionale e gestiscono in modo trasparente lo spostamento e la replica dei dati tra le regioni. Ad esempio, i dati nell'area geografica UE per {{site.data.keyword.cos_full_notm}} possono replicare i dati in più data center all'interno dei paesi UE. 
+   * Un'*area metropolitana* è un nome di città specifico all'interno di una specifica area geografica. Ad esempio, Dallas è un'area metropolitana nell'area geografica Nord America.
+      * Un *data center* è l'ubicazione fisica dei server che forniscono i servizi cloud. Puoi identificare i data center all'interno di un'area geografica espansa come le opzioni che utilizzano il nome dell'area geografica più un numero.
+      * Una *regione* è un territorio geografico definito. Una regione può essere una specifica area identificata da un codice postale, una città, uno stato, un gruppo di stati o un gruppo di nazioni. Puoi vedere la differenza tra i data center e le regioni nell'elenco tramite l'utilizzo di numeri per l'identificazione dei data center.
+         * Una *zona* è un dominio di errore indipendente progettato per aiutarti con una tolleranza all'errore migliorata e una latenza diminuita. Puoi identificare le zone in quanto utilizzano il nome della regione più un numero e sono nidificate nella regione.
 
 ## Data center
 {: #data_center}
@@ -101,7 +107,7 @@ Quando distribuisci le risorse dell'infrastruttura, hai maggiori opzioni su dove
 | Montreal 01      | mon01 |
 | Toronto 01       | tor01 |
 | Mexico 01        | mex01 |
-{: caption="Tabella 2. Data center in Nord America" caption-side="top"}
+{: caption="Tabella 1. Data center in Nord America" caption-side="top"}
 
 ### Sud America
 {: #sa}
@@ -109,7 +115,7 @@ Quando distribuisci le risorse dell'infrastruttura, hai maggiori opzioni su dove
 | Data Center | Codice    |
 |------------------|---------|
 | Sao Paulo 01     | sao01   |
-{: caption="Tabella 3. Data center in Sud America" caption-side="top"}
+{: caption="Tabella 2. Data center in Sud America" caption-side="top"}
 
 ### Europa
 {: #eu}
@@ -128,7 +134,7 @@ Quando distribuisci le risorse dell'infrastruttura, hai maggiori opzioni su dove
 | Amsterdam 03     | ams03 |
 | Paris 01         | par01 |
 | Oslo 01          | osl01 |
-{: caption="Tabella 4. Data center in Europa" caption-side="top"}
+{: caption="Tabella 3. Data center in Europa" caption-side="top"}
 
 ### Asia e Pacifico
 {: #ap}
@@ -145,7 +151,7 @@ Quando distribuisci le risorse dell'infrastruttura, hai maggiori opzioni su dove
 | Sydney 04        | syd04 |
 | Sydney 05        | syd05 |
 | Melbourne 01     | mel01 |
-{: caption="Tabella 5. Data center in Asia e Pacifico" caption-side="top"}
+{: caption="Tabella 4. Data center in Asia e Pacifico" caption-side="top"}
 
 
 ## SLA (Service Level Agreement)
@@ -175,7 +181,7 @@ Sei idoneo per un credito per il tuo account se hai riscontrato del tempo di ina
 | Ambiente pubblico ad alta disponibilità o più ambienti dedicati/locali | Altri ambienti | Credito         |
 | <99,95%                                                                       |<99,5%              |10%             |
 | <99,90%                                                                       |<99,0%              |25%             |
-{: caption="Tabella 6. Livello di servizio di disponibilità mensile" caption-side="top"}
+{: caption="Tabella 5. Livello di servizio di disponibilità mensile" caption-side="top"}
 
 La percentuale di disponibilità viene calcolata come il numero totale di minuti in un mese contrattuale, meno il numero totale di minuti del tempo di inattività in tale mese, diviso il numero totale di minuti in tale mese. 
 
@@ -220,7 +226,7 @@ I periodi di tempo al livello di servizio escludono tutto il tempo necessario pe
 | > 10 ore                | 60%            |
 | > 14 ore                | 80%            |
 | > 18 ore                | 80%            |
-{: caption="Tabella 7. Credito in base all'addebito mensile per il servizio che è interessato dalla sostituzione o dall'upgrade dell'hardware" caption-side="top"}
+{: caption="Tabella 6. Credito in base all'addebito mensile per il servizio che è interessato dalla sostituzione o dall'upgrade dell'hardware." caption-side="top"}
 
 ### Reclami
 {: #claims}

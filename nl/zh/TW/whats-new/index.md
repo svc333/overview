@@ -4,7 +4,7 @@ copyright:
 
   years: 2015, 2019
 
-lastupdated: "2019-05-07"
+lastupdated: "2019-05-13"
 
 keywords: release notes, what's new, what is new, cloud updates
 
@@ -34,7 +34,7 @@ subcollection: overview
 ### 匯出具有相關聯標籤的用量資料
 文件日期：2019 年 4 月 4 日 
 
-您現在可以利用最新的標記功能，在匯出的用量報告中管理資源、用量及成本。當您新增標籤至資源時，可以選擇檢視與資源相關聯的標籤。移至**管理**> **計費及用量**> **用量**> **匯出 CSV**> **實例**以下載用量報告。如需匯出標籤的相關資訊，請參閱 [Export tags within your usage data to help with cost allocation](https://www.ibm.com/cloud/blog/2019/04/export-your-tagged-usage-data-within-the-enhanced-ibm-cloud/) 部落格文章。
+您現在可以利用最新的標記功能，在匯出的用量報告中管理資源、用量及成本。當您新增標籤至資源時，可以選擇檢視與資源相關聯的標籤。移至**管理**> **計費及用量**> **用量**> **匯出 CSV**> **實例**以下載用量報告。如需匯出標籤的相關資訊，請參閱[匯出用量資料內的標籤以協助成本配置](https://www.ibm.com/cloud/blog/export-your-tagged-usage-data-within-the-enhanced-ibm-cloud){: new_window} ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示") 部落格文章。
 
 ### 用來啟用對資源之公用存取權的存取群組
 文件日期：2019 年 3 月 25 日
@@ -45,7 +45,7 @@ subcollection: overview
 文件日期：2019 年 3 月 12 日
 {: #mfa-federated}
 
-帳戶擁有者或被指派計費帳戶管理服務管理者角色的使用者，可以為帳戶中的所有使用者啟用多因子鑑別 (MFA)。使用公司或企業單一登入 ID 的聯合使用者，現在可以被要求使用 MFA 進行鑑別，以便登入 {{site.data.keyword.Bluemix_notm}}。如需此特性加強功能的相關資訊，以及啟用帳戶之 MFA 的必要資訊，請參閱 [Introducing MFA for IBM Cloud Users with Federated ID](https://www.ibm.com/blogs/bluemix/2019/03/introducing-mfa-for-ibm-cloud-users-with-federated-id/){: new_window} ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")。
+帳戶擁有者或被指派計費帳戶管理服務管理者角色的使用者，可以為帳戶中的所有使用者啟用多因子鑑別 (MFA)。使用公司或企業單一登入 ID 的聯合使用者，現在可以被要求使用 MFA 進行鑑別，以便登入 {{site.data.keyword.Bluemix_notm}}。如需此特性加強功能的相關資訊，以及啟用帳戶之 MFA 的必要資訊，請參閱 [Introducing MFA for IBM Cloud Users with Federated ID](https://www.ibm.com/cloud/blog/introducing-mfa-for-ibm-cloud-users-with-federated-id){: new_window} ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")。
 
 ### 新的 appdomain.cloud 主機名稱選項
 文件日期：2018 年 12 月 31 日
@@ -87,7 +87,7 @@ Cloud Foundry 應用程式的子網域為 `cf.appdomain.cloud`。您部署至 {{
 
 既然，您的所有使用者都在單一主控台中，您就可以從相同位置管理所有類型資源的存取權。存取是從使用者開始，因此請從清單選取一位使用者即可開始。然後，視您要指派存取權的資源類型而定，您可以從 IAM 存取原則、Cloud Foundry 存取或標準基礎架構許可權中進行選擇。如果您只想要指派 IAM 存取原則，請試著建立存取群組來簡化存取管理程序，方法是將所有使用者新增至需要指派相同原則的相同存取群組中。
 
-如需詳細資料，請參閱 [Outstanding User Access Improvements Help Deliver a Unified {{site.data.keyword.Bluemix_notm}} Platform](https://www.ibm.com/blogs/bluemix/2018/11/ibm-cloud-access-management){: new_window} ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")。 
+如需詳細資料，請參閱 [Outstanding User Access Improvements Help Deliver a Unified {{site.data.keyword.Bluemix_notm}} Platform](https://www.ibm.com/cloud/blog/announcements/ibm-cloud-access-management){: new_window} ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")。 
 
 ### 在同一位置尋找所有 {{site.data.keyword.Bluemix_notm}} CLI 外掛程式文件
 文件日期：2018 年 11 月 30 日
@@ -118,13 +118,13 @@ Cloud Foundry 應用程式的子網域為 `cf.appdomain.cloud`。您部署至 {{
 * 您的帳戶資訊區域包含您的公司或組織、帳戶設定以及使用資源群組和 Cloud Foundry 組織之快速存取的相關資訊。您甚至可以找到最佳作法來協助您快速開始進行！
 * 您帳戶的計費及用量區域可協助您瞭解帳單、進行付款、監視訂閱、取得報價、追蹤訂單，以及設定消費通知。
 
-如需詳細資料，請參閱 [Bringing It All Together: A Single Account and Billing Management Experience](https://www.ibm.com/blogs/bluemix/2018/11/ibm-cloud-account-management/){: new_window} ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")。
+如需詳細資料，請參閱 [Bringing It All Together: A Single Account and Billing Management Experience](https://www.ibm.com/cloud/blog/announcements/ibm-cloud-account-management){: new_window} ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")。
 
 ### 使用標籤組織資源
 文件日期：2018 年 11 月 30 日
 {: #tag}
 
-現在有標籤可讓您新增至資源，例如 Cloud Object Storage，以協助您管理資源及尋找與您最相關的資源。例如，如果您有數百個資源，您想要區分一些以相同方式付款的資源，您可以使用 `costcenter:location01` 來標記它們。或者，如果您的團隊反覆處理一些資源，您可以使用類似 `team-blue` 的標籤。您也可以依標籤來過濾資源清單，以快速組織及尋找您需要的資源。如需相關資訊，請參閱[使用標籤](/docs/resources?topic=resources-tag)及 [Platform Tagging on the Enhanced {{site.data.keyword.Bluemix_notm}} Platform](https://www.ibm.com/blogs/bluemix/2018/11/platform-tagging-on-the-enhanced-ibm-cloud-platform/){: new_window} ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")。 
+現在有標籤可讓您新增至資源，例如 Cloud Object Storage，以協助您管理資源及尋找與您最相關的資源。例如，如果您有數百個資源，您想要區分一些以相同方式付款的資源，您可以使用 `costcenter:location01` 來標記它們。或者，如果您的團隊反覆處理一些資源，您可以使用類似 `team-blue` 的標籤。您也可以依標籤來過濾資源清單，以快速組織及尋找您需要的資源。如需相關資訊，請參閱[使用標籤](/docs/resources?topic=resources-tag)及 [Platform Tagging on the Enhanced {{site.data.keyword.Bluemix_notm}} Platform](https://www.ibm.com/cloud/blog/announcements/platform-tagging-on-the-enhanced-ibm-cloud-platform){: new_window} ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")。 
 
 ### 使用成本預估器尋找正確的每月成本
 文件日期：2018 年 11 月 30 日
@@ -162,7 +162,7 @@ Cloud Foundry 應用程式的子網域為 `cf.appdomain.cloud`。您部署至 {{
 * 廣域資源型錄：用於檢視專用型錄供應項目，以及更新供應項目的 meta 資料和可見性
 * 所有帳戶管理服務：用於根據指派的角色存取每一個個別的帳戶管理服務選項，以及存取計費和用量追蹤。
 
-如需使用者可以根據其具有原則的帳戶管理服務以及其獲指派的角色而執行之作業的相關資訊，請參閱[帳戶管理服務的平台管理角色及動作範例](/docs/iam?topic=iam-userroles#platformrolestable2)。如需此新特性的相關資訊，請參閱 [Introducing More Flexibility and Control for IBM Cloud Account Management Services Access](https://www.ibm.com/blogs/bluemix/2018/11/introducing-more-flexibility-and-control-for-ibm-cloud-account-management-services-access/){: new_window} ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示") 部落格文章。 
+如需使用者可以根據其具有原則的帳戶管理服務以及其獲指派的角色而執行之作業的相關資訊，請參閱[帳戶管理服務的平台管理角色及動作範例](/docs/iam?topic=iam-userroles#platformrolestable2)。如需此新特性的相關資訊，請參閱 [Introducing More Flexibility and Control for IBM Cloud Account Management Services Access](https://www.ibm.com/cloud/blog/announcements/introducing-more-flexibility-and-control-for-ibm-cloud-account-management-services-access){: new_window} ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示") 部落格文章。 
 
 ### 搜尋資源
 文件日期：2018 年 7 月 17 日
@@ -198,13 +198,13 @@ Cloud Foundry 應用程式的子網域為 `cf.appdomain.cloud`。您部署至 {{
 文件日期：2018 年 5 月 2 日
 {: #account-mfa}
 
-多因子鑑別 (MFA) 會要求所有使用者在登入期間，除了標準 IBM ID 和密碼，還需要提供以時間為基礎的一次性密碼，為您的帳戶新增額外的安全層。這通常也稱為雙因子鑑別 (2FA)。MFA 是根據帳戶而啟用，在開啟之後，帳戶中的所有使用者都需要使用額外的安全措施來登入。如需相關資訊，請參閱 [IBM Cloud Platform now adds support for Multi-Factor Authentication](https://www.ibm.com/blogs/bluemix/2018/05/ibm-cloud-platform-now-adds-support-multi-factor-authentication/){: new_window} ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示") 部落格文章。
+多因子鑑別 (MFA) 會要求所有使用者在登入期間，除了標準 IBM ID 和密碼，還需要提供以時間為基礎的一次性密碼，為您的帳戶新增額外的安全層。這通常也稱為雙因子鑑別 (2FA)。MFA 是根據帳戶而啟用，在開啟之後，帳戶中的所有使用者都需要使用額外的安全措施來登入。如需相關資訊，請參閱 [IBM Cloud Platform now adds support for Multi-Factor Authentication](https://www.ibm.com/cloud/blog/ibm-cloud-platform-now-adds-support-multi-factor-authentication){: new_window} ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示") 部落格文章。
 
 ### 使用存取群組來快速指派存取權
 文件日期：2018 年 4 月 3 日
 {: #access-groups}
 
-您想要儘可能使用最少數目的原則來快速指派存取權嗎？現在，您可以使用存取群組來做到這點。存取群組可讓您將一組使用者和服務 ID 分組在一起，並指派適用於群組所有成員的單一原則。透過使用存取群組，您可以限制花在管理帳戶中使用者和服務 ID 存取權的時間。如需詳細資料，請參閱部落格文章 [New feature: Access groups](https://www.ibm.com/blogs/bluemix/2018/04/access-groups/){: new_window} ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")。
+您想要儘可能使用最少數目的原則來快速指派存取權嗎？現在，您可以使用存取群組來做到這點。存取群組可讓您將一組使用者和服務 ID 分組在一起，並指派適用於群組所有成員的單一原則。透過使用存取群組，您可以限制花在管理帳戶中使用者和服務 ID 存取權的時間。如需詳細資料，請參閱部落格文章 [New feature: Access groups](https://www.ibm.com/cloud/blog/access-groups){: new_window} ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")。
 
 ### 現已推出 {{site.data.keyword.Bluemix_notm}} Foundry 服務美國東部地區
 文件日期：2017 年 12 月 15 日
@@ -254,7 +254,7 @@ Cloud Foundry 應用程式的子網域為 `cf.appdomain.cloud`。您部署至 {{
 文件日期：2017 年 10 月 31 日
 {: #meet-ibmcloud}
 
-Bluemix 現在是 IBM Cloud。除了推出新名稱之外，未變更任何項目。您仍然可以如常輕鬆地建置及執行應用程式及服務。如需詳細資料，請參閱 [IBM Cloud 部落格](https://www.ibm.com/blogs/bluemix/2017/10/bluemix-is-now-ibm-cloud/){: new_window} ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")。
+Bluemix 現在是 IBM Cloud。除了推出新名稱之外，未變更任何項目。您仍然可以如常輕鬆地建置及執行應用程式及服務。如需詳細資料，請參閱 [IBM Cloud 部落格](https://www.ibm.com/cloud/blog/announcements/bluemix-is-now-ibm-cloud){: new_window} ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")。
 
 ### 精簡帳戶
 文件日期：2017 年 10 月 31 日
@@ -268,13 +268,13 @@ Bluemix 現在是 IBM Cloud。除了推出新名稱之外，未變更任何項�
 
 Identity and Access Management (IAM) 現在可讓您建立「服務 ID」，您可以將它視為用於應用程式以向 {{site.data.keyword.Bluemix_notm}} 服務進行鑑別的身分。可以透過指派給「服務 ID」的服務原則形式使用關聯 API 金鑰及存取許可權來建立「服務 ID」，以讓您控制使用該 ID 進行鑑別之任何應用程式的存取層次，而不是使用個別使用者認證。
 
-如需此特性優點以及如何開始使用的相關資訊，請參閱 [IBM Cloud IAM 服務 ID 及 API 金鑰簡介](https://www.ibm.com/blogs/bluemix/2017/10/introducing-ibm-cloud-iam-service-ids-api-keys/){: new_window} ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")。
+如需此特性優點以及如何開始使用的相關資訊，請參閱 [IBM Cloud IAM 服務 ID 及 API 金鑰簡介](https://www.ibm.com/cloud/blog/introducing-ibm-cloud-iam-service-ids-api-keys){: new_window} ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")。
 
 ### {{site.data.keyword.Bluemix_notm}} 全球型錄
 文件日期：2017 年 7 月 27 日
 {: #gc}
 
-擴充前次主控台更新以從主控台的單一位置管理公用地區，{{site.data.keyword.Bluemix_notm}} 現在具有全球型錄，可讓選取及部署從型錄中所選取項目的處理程序成為更簡化的處理程序。不論您在主控台中選取的地區為何，您現在都可以看到可跨型錄中所有公用地區取得的所有服務。從型錄中選取磚之後，即可看到其中可使用的地區及服務，以及選取您要在其中進行部署的位置。如需最新型錄更新的相關資訊，請參閱[廣域 {{site.data.keyword.Bluemix_notm}} 型錄讓建置更為輕鬆](https://www.ibm.com/blogs/bluemix/2017/07/global-bluemix-catalog-makes-building-things-easier/){: new_window} ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")。
+擴充前次主控台更新以從主控台的單一位置管理公用地區，{{site.data.keyword.Bluemix_notm}} 現在具有全球型錄，可讓選取及部署從型錄中所選取項目的處理程序成為更簡化的處理程序。不論您在主控台中選取的地區為何，您現在都可以看到可跨型錄中所有公用地區取得的所有服務。從型錄中選取磚之後，即可看到其中可使用的地區及服務，以及選取您要在其中進行部署的位置。如需最新型錄更新的相關資訊，請參閱[廣域 {{site.data.keyword.Bluemix_notm}} 型錄讓建置更為輕鬆](https://www.ibm.com/cloud/blog/announcements/global-bluemix-catalog-makes-building-things-easier){: new_window} ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")。
 
 ### {{site.data.keyword.Bluemix_notm}} 主控台更新
 文件日期：2017 年 5 月 23 日

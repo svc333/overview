@@ -2,7 +2,7 @@
 
 copyright:
   years: 2018, 2019
-lastupdated: "2019-01-29"
+lastupdated: "2019-05-13"
 
 keywords: first steps, understanding IT ops
 
@@ -35,7 +35,7 @@ subcollection: overview
 {: #steps-it-ops}
 
 1. 학습 자료를 활용하여 {{site.data.keyword.cloud_notm}}의 작동 방법을 이해하십시오.
-    * {{site.data.keyword.cloud}}에서 [애플리케이션을 호스팅](/docs/overview?topic=overview-whatis-platform#choose-compute)하는 데 사용 가능한 옵션에 대해 알아보십시오.
+    * {{site.data.keyword.cloud_notm}}에서 [애플리케이션을 호스팅](/docs/apps/tutorials?topic=creating-apps-hosting)하는 데 사용 가능한 옵션에 대해 알아보십시오.
     * {{site.data.keyword.cloud_notm}} 인프라에 대한 [아키텍처 다이어그램](https://www.ibm.com/cloud/garage/architectures/infrastructure){: new_window} ![외부 링크 아이콘](../icons/launch-glyph.svg)을 확인하십시오. 
 2. 비용 추정기를 사용하여 인프라에 소요될 비용을 파악하십시오.
 

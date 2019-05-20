@@ -4,7 +4,7 @@ copyright:
 
   years: 2018, 2019
 
-lastupdated: "2019-03-14"
+lastupdated: "2019-05-13"
 
 keywords: quick start, get started with IBM Cloud
 
@@ -45,6 +45,6 @@ subcollection: overview
 ## 后续步骤
 {: #nextsteps-lite}
 
-通过[探索 {{site.data.keyword.Bluemix_notm}} 中的开发者旅程](/docs/overview?topic=overview-dev-journey)，了解作为 {{site.data.keyword.Bluemix_notm}} 中的开发者能做些什么。 
+开始构建应用程序。有关更多信息，请参阅[入门教程](/docs/apps/tutorials?topic=creating-apps-tutorial-getting-started)。 
 
 

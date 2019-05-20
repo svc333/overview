@@ -2,7 +2,7 @@
 
 copyright:
   years: 2018, 2019
-lastupdated: "2019-03-14"
+lastupdated: "2019-05-13"
 
 keywords: HA, failover, DR
 
@@ -64,7 +64,13 @@ Pour des raisons de sécurité, vous pouvez également sélectionner l'emplaceme
 
 L'équilibrage de charge global pour la console {{site.data.keyword.cloud_notm}} garantit que si l'emplacement géographique le plus proche n'est pas disponible, la console affiche les informations de l'emplacement le plus proche suivant. De la sorte, vous pouvez toujours accéder à la console sans avoir à effectuer d'action pour obtenir les ressources dont vous avez besoin.
 
-Par défaut, vous pouvez afficher dans la console toutes les ressources de tous les emplacements de la liste de ressources. Si vous souhaitez afficher et utiliser les ressources d'un emplacement spécifique, développez le menu **EMPLACEMENT** puis sélectionnez-en un dans la liste. 
+Par défaut, vous pouvez afficher dans la console toutes les ressources de tous les emplacements de la liste de ressources. Si vous souhaitez afficher et utiliser les ressources d'un emplacement spécifique, développez le menu **Emplacement** puis sélectionnez un emplacement dans la liste. En développant un emplacement géographique spécifique, vous pouvez choisir d'effectuer le filtrage par centre de données ou région individuel ou par zone : 
+
+Une *géographie* est une zone géographique ou un corps politique plus grand qui contient une ou plusieurs régions. Certains services sont pris en charge au niveau géographie entre les régions et gèrent de manière transparente la réplication et les flux des données entre les régions. Par exemple, les données de la géographie UE pour {{site.data.keyword.cos_full_notm}} peut répliquer des données dans plusieurs centres de données au sein des pays de l'Union européenne.  
+   * Une *métropole* est un nom de ville spécifique au sein de la zone géographique donnée. Par exemple, Dallas est une métropole dans la géographie d'Amérique du Nord. 
+      * Un *centre de données* est l'emplacement physique des serveurs qui fournissent des services de cloud. Vous pouvez identifier des centres de données dans une géographie étendue comme des options qui utilisent le nom de géographie plus un nombre. 
+      * Une *région* est un territoire géographique défini. Une région peut être une zone avec un code postal spécifique, une petite ville, une grande ville, un état, un groupe d'états ou même un groupe de pays. Vous pouvez différencier les centres de données des régions dans la liste grâce aux numéros qui sont utilisés pour identifier les centres de données. 
+         * Une *zone* est un domaine avec des points de défaillance indépendant conçu pour fournir de l'assistance grâce à une tolérance aux pannes améliorée et des temps d'attente réduits. Vous pouvez identifier des zones car elles utilisent le nom de région plus un nombre et sont intégrées dans la région. 
 
 ## Centres de données
 {: #data_center}
@@ -101,7 +107,7 @@ Lorsque vous déployez des ressources d'infrastructure, vous disposez de plus de
 | Montréal 01      | mon01 |
 | Toronto 01       | tor01 |
 | Mexico 01        | mex01 |
-{: caption="Tableau 2. Centres de données en Amérique du Nord" caption-side="top"}
+{: caption="Tableau 1. Centres de données en Amérique du Nord" caption-side="top"}
 
 ### Amérique du Sud
 {: #sa}
@@ -109,7 +115,7 @@ Lorsque vous déployez des ressources d'infrastructure, vous disposez de plus de
 | Centre de données | Code    |
 |------------------|---------|
 | Sao Paulo 01     | sao01   |
-{: caption="Tableau 3. Centre de données en Amérique du Sud" caption-side="top"}
+{: caption="Tableau 2. Centre de données en Amérique du Sud" caption-side="top"}
 
 ### Europe
 {: #eu}
@@ -128,7 +134,7 @@ Lorsque vous déployez des ressources d'infrastructure, vous disposez de plus de
 | Amsterdam 03     | ams03 |
 | Paris 01         | par01 |
 | Oslo 01          | osl01 |
-{: caption="Tableau 4. Centres de données en Europe" caption-side="top"}
+{: caption="Tableau 3. Centres de données en Europe" caption-side="top"}
 
 ### Asie-Pacifique
 {: #ap}
@@ -145,7 +151,7 @@ Lorsque vous déployez des ressources d'infrastructure, vous disposez de plus de
 | Sydney 04        | syd04 |
 | Sydney 05        | syd05 |
 | Melbourne 01     | mel01 |
-{: caption="Tableau 5. Centre de données dans la zone Asie-Pacifique" caption-side="top"}
+{: caption="Tableau 4. Centre de données dans la zone Asie-Pacifique" caption-side="top"}
 
 
 ## Accords sur les niveaux de service (SLA)
@@ -175,7 +181,7 @@ Vous pouvez bénéficier d'un crédit pour votre compte si le temps d'indisponib
 | Environnement public à haute disponibilité ou plusieurs environnements locaux/dédiés | Autres environnements | Crédit         |
 | <99,9 5%                                                                       |<99,5 %              |10 %             |
 | <99,9 0%                                                                       |<99,0 %              |25 %             |
-{: caption="Tableau 6. Niveau de service de disponibilité mensuel" caption-side="top"}
+{: caption="Tableau 5. Niveau de service de disponibilité mensuel" caption-side="top"}
 
 Le pourcentage de disponibilité est calculé de la façon suivante : nombre total de minutes d'un mois contractuel moins le nombre total de minutes d'indisponibilité dans ce mois, divisé par le nombre total de minutes dans ce mois. 
 
@@ -220,7 +226,7 @@ Les périodes de niveau de service excluent la durée de rechargement du systèm
 | > 10 heures                | 60 %            |
 | > 14 heures                | 80 %            |
 | > 18 heures                | 80 %            |
-{: caption="Tableau 7. Crédit en fonction des frais mensuels pour le service affecté par la mise à niveau ou le remplacement matériel" caption-side="top"}
+{: caption="Tableau 6. Crédit en fonction des frais mensuels pour le service affecté par la mise à niveau ou le remplacement matériel" caption-side="top"}
 
 ### Réclamations
 {: #claims}

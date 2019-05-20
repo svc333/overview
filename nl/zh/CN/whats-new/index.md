@@ -4,7 +4,7 @@ copyright:
 
   years: 2015, 2019
 
-lastupdated: "2019-05-07"
+lastupdated: "2019-05-13"
 
 keywords: release notes, what's new, what is new, cloud updates
 
@@ -35,7 +35,7 @@ subcollection: overview
 最新更新日期：2019 年 4 月 4 日
  
 
-现在，可以利用最新的标记功能来管理导出的使用情况报告中的资源、使用情况和成本。向资源添加标记时，可以选择查看与资源关联的标记。转至**管理** > **计费和使用情况** > **使用情况** > **导出 CSV** >  **实例**，以下载使用情况报告。有关导出标记的更多信息，请查看 [Export tags within your usage data to help with cost allocation](https://www.ibm.com/cloud/blog/2019/04/export-your-tagged-usage-data-within-the-enhanced-ibm-cloud/) 博客帖子。
+现在，可以利用最新的标记功能来管理导出的使用情况报告中的资源、使用情况和成本。向资源添加标记时，可以选择查看与资源关联的标记。转至**管理** > **计费和使用情况** > **使用情况** > **导出 CSV** >  **实例**，以下载使用情况报告。有关导出标记的更多信息，请查看 [Export tags within your usage data to help with cost allocation](https://www.ibm.com/cloud/blog/export-your-tagged-usage-data-within-the-enhanced-ibm-cloud){: new_window} ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标") 博客帖子。
 
 ### 用于启用对资源的公共访问权的访问组
 最新更新日期：2019 年 3 月 25 日
@@ -46,7 +46,7 @@ subcollection: overview
 最新更新日期：2019 年 3 月 12 日
 {: #mfa-federated}
 
-分配有对缴费帐户管理服务的管理员角色的帐户所有者或用户，可以为其帐户中的所有用户启用多因子认证 (MFA)。现在，对于使用其公司或企业单点登录标识的联合用户，可以要求他们使用 MFA 进行认证，才能登录到 {{site.data.keyword.Bluemix_notm}}。有关此增强功能的更多信息以及关于为帐户启用 MFA 需要了解的信息，请参阅 [Introducing MFA for IBM Cloud Users with Federated ID](https://www.ibm.com/blogs/bluemix/2019/03/introducing-mfa-for-ibm-cloud-users-with-federated-id/){: new_window} ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")。
+分配有对缴费帐户管理服务的管理员角色的帐户所有者或用户，可以为其帐户中的所有用户启用多因子认证 (MFA)。现在，对于使用其公司或企业单点登录标识的联合用户，可以要求他们使用 MFA 进行认证，才能登录到 {{site.data.keyword.Bluemix_notm}}。有关此增强功能的更多信息以及关于为帐户启用 MFA 需要了解的信息，请参阅 [Introducing MFA for IBM Cloud Users with Federated ID](https://www.ibm.com/cloud/blog/introducing-mfa-for-ibm-cloud-users-with-federated-id){: new_window} ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")。
 
 ### 新的 appdomain.cloud 主机名选项
 最新更新日期：2018 年 12 月 31 日
@@ -88,7 +88,7 @@ Cloud Foundry 应用程序的子域为 `cf.appdomain.cloud`。部署到 {{site.d
 
 既然您的所有用户都在一个控制台中，就可以在同一位置管理他们对所有类型资源的访问权。访问权从用户开始，因此首先从列表中选择用户。然后，根据要分配其访问权的资源类型，可以从 IAM 访问策略、Cloud Foundry 访问权或经典基础架构许可权中进行选择。如果您只想分配 IAM 访问策略，请尝试创建访问组，然后将需要分配相同策略的所有用户添加到同一访问组，从而简化访问权管理过程。
 
-有关更多详细信息，请查看 [Outstanding User Access Improvements Help Deliver a Unified {{site.data.keyword.Bluemix_notm}} Platform](https://www.ibm.com/blogs/bluemix/2018/11/ibm-cloud-access-management){: new_window} ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")。 
+有关更多详细信息，请查看 [Outstanding User Access Improvements Help Deliver a Unified {{site.data.keyword.Bluemix_notm}} Platform](https://www.ibm.com/cloud/blog/announcements/ibm-cloud-access-management){: new_window} ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")。 
 
 ### 在一个位置查找所有 {{site.data.keyword.Bluemix_notm}} CLI 插件文档
 最新更新日期：2018 年 11 月 30 日
@@ -119,13 +119,13 @@ Cloud Foundry 应用程序的子域为 `cf.appdomain.cloud`。部署到 {{site.d
 * 帐户信息区域，包含有关您的公司或组织的信息、帐户设置以及使用资源组和 Cloud Foundry 组织的快速访问权。您甚至可以找到最佳实践来帮助您快速入门并熟练运用！
 * 帐户的计费和使用情况区域，可帮助您了解帐单，付款，监视预订，获取报价，跟踪订单以及设置花费通知。
 
-有关更多详细信息，请查看 [Bringing It All Together: A Single Account and Billing Management Experience](https://www.ibm.com/blogs/bluemix/2018/11/ibm-cloud-account-management/){: new_window} ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")。
+有关更多详细信息，请查看 [Bringing It All Together: A Single Account and Billing Management Experience](https://www.ibm.com/cloud/blog/announcements/ibm-cloud-account-management){: new_window} ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")。
 
 ### 使用标记来组织资源
 最新更新日期：2018 年 11 月 30 日
 {: #tag}
 
-现在，您可以向资源（如 Cloud Object Storage）添加标记，以帮助管理资源，以及查找与您最相关的资源。例如，如果您有数百个资源，而您希望区分付费方式相同的两个资源，那么可以使用 `costcenter:location01` 对其进行标记。或者，如果您有团队在重复使用两个资源，那么可以使用类似 `team-blue` 的标记。您还可以按标记过滤资源列表，以快速组织和查找所需的资源。有关更多信息，请参阅[使用标记](/docs/resources?topic=resources-tag)和 [Platform Tagging on the Enhanced {{site.data.keyword.Bluemix_notm}} Platform](https://www.ibm.com/blogs/bluemix/2018/11/platform-tagging-on-the-enhanced-ibm-cloud-platform/){: new_window} ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")。 
+现在，您可以向资源（如 Cloud Object Storage）添加标记，以帮助管理资源，以及查找与您最相关的资源。例如，如果您有数百个资源，而您希望区分付费方式相同的两个资源，那么可以使用 `costcenter:location01` 对其进行标记。或者，如果您有团队在重复使用两个资源，那么可以使用类似 `team-blue` 的标记。您还可以按标记过滤资源列表，以快速组织和查找所需的资源。有关更多信息，请参阅[使用标记](/docs/resources?topic=resources-tag)和 [Platform Tagging on the Enhanced {{site.data.keyword.Bluemix_notm}} Platform](https://www.ibm.com/cloud/blog/announcements/platform-tagging-on-the-enhanced-ibm-cloud-platform){: new_window} ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")。 
 
 ### 利用成本估算工具了解准确的每月成本
 最新更新日期：2018 年 11 月 30 日
@@ -163,7 +163,7 @@ Cloud Foundry 应用程序的子域为 `cf.appdomain.cloud`。部署到 {{site.d
 * 用于查看私有目录产品并更新这些产品的元数据和可视性的全球资源目录
 * 所有帐户管理服务，用于根据分配的角色访问每个帐户管理服务选项，以及访问计费和使用情况跟踪。
 
-有关用户基于对其拥有策略的帐户管理服务和为其分配的角色而可以执行的任务的更多信息，请参阅[帐户管理服务的平台管理角色和操作示例](/docs/iam?topic=iam-userroles#platformrolestable2)。有关这个新功能的更多信息，请参阅 [Introducing More Flexibility and Control for IBM Cloud Account Management Services Access](https://www.ibm.com/blogs/bluemix/2018/11/introducing-more-flexibility-and-control-for-ibm-cloud-account-management-services-access/){: new_window} ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标") 博客帖子。 
+有关用户基于对其拥有策略的帐户管理服务和为其分配的角色而可以执行的任务的更多信息，请参阅[帐户管理服务的平台管理角色和操作示例](/docs/iam?topic=iam-userroles#platformrolestable2)。有关这个新功能的更多信息，请参阅 [Introducing More Flexibility and Control for IBM Cloud Account Management Services Access](https://www.ibm.com/cloud/blog/announcements/introducing-more-flexibility-and-control-for-ibm-cloud-account-management-services-access){: new_window} ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标") 博客帖子。 
 
 ### 搜索资源
 最新更新日期：2018 年 7 月 17 日
@@ -202,13 +202,13 @@ Cloud Foundry 应用程序的子域为 `cf.appdomain.cloud`。部署到 {{site.d
 {: #account-mfa}
 
 多因子认证 (MFA) 可为帐户提供额外一层的安全保护，因为它会要求所有用户在登录期间除了提供标准 IBM 标识和密码外，还要提供基于时间的一次性密码。通常，这也称为双因子认证 (2FA)。
-MFA 是按帐户启用的，一旦启用后，帐户中的所有用户都必须通过使用这个额外的安全措施进行登录。有关更多信息，请参阅 [IBM Cloud Platform now adds support for Multi-Factor Authentication ](https://www.ibm.com/blogs/bluemix/2018/05/ibm-cloud-platform-now-adds-support-multi-factor-authentication/){: new_window}![外部链接图标](../../icons/launch-glyph.svg "外部链接图标") 博客帖子。
+MFA 是按帐户启用的，一旦启用后，帐户中的所有用户都必须通过使用这个额外的安全措施进行登录。有关更多信息，请参阅 [IBM Cloud Platform now adds support for Multi-Factor Authentication ](https://www.ibm.com/cloud/blog/ibm-cloud-platform-now-adds-support-multi-factor-authentication){: new_window}![外部链接图标](../../icons/launch-glyph.svg "外部链接图标") 博客帖子。
 
 ### 使用访问组快速分配访问权
 最新更新日期：2018 年 4 月 3 日
 {: #access-groups}
 
-您是否希望能够尽可能使用最少数量的策略来快速分配访问权？现在，您可以使用访问组。访问组支持将一组用户和服务标识分组到一起，然后分配应用于该组中所有成员的单个策略。通过使用访问组，可以限制管理帐户中用户和服务标识访问权所花费的时间。有关更多详细信息，请查看博客帖子[新功能：访问组](https://www.ibm.com/blogs/bluemix/2018/04/access-groups/){: new_window}
+您是否希望能够尽可能使用最少数量的策略来快速分配访问权？现在，您可以使用访问组。访问组支持将一组用户和服务标识分组到一起，然后分配应用于该组中所有成员的单个策略。通过使用访问组，可以限制管理帐户中用户和服务标识访问权所花费的时间。有关更多详细信息，请查看博客帖子[新功能：访问组](https://www.ibm.com/cloud/blog/access-groups){: new_window}
 ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")。
 
 ### 现在，{{site.data.keyword.Bluemix_notm}} Foundry 服务在美国东部区域可用
@@ -259,7 +259,7 @@ MFA 是按帐户启用的，一旦启用后，帐户中的所有用户都必须�
 最新更新日期：2017 年 10 月 31 日
 {: #meet-ibmcloud}
 
-Bluemix 现已更名为 IBM Cloud。除了推出新名称外，没有更改其他任何内容。您仍可以像平时一样，轻松地构建和运行应用程序和服务。有关更多详细信息，请参阅 [IBM Cloud 博客](https://www.ibm.com/blogs/bluemix/2017/10/bluemix-is-now-ibm-cloud/){: new_window} ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")。
+Bluemix 现已更名为 IBM Cloud。除了推出新名称外，没有更改其他任何内容。您仍可以像平时一样，轻松地构建和运行应用程序和服务。有关更多详细信息，请参阅 [IBM Cloud 博客](https://www.ibm.com/cloud/blog/announcements/bluemix-is-now-ibm-cloud){: new_window} ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")。
 
 ### 轻量帐户
 最新更新日期：2017 年 10 月 31 日
@@ -273,13 +273,13 @@ Bluemix 现已更名为 IBM Cloud。除了推出新名称外，没有更改其�
 
 现在，Identity and Access Management (IAM) 提供了创建服务标识的功能，您可以将其视为可供应用程序用于向 {{site.data.keyword.Bluemix_notm}} 服务进行认证的身份。服务标识可以使用以服务策略形式分配给服务标识的关联 API 密钥和访问许可权（而不使用个人用户凭证）进行创建，以便您可控制使用该标识进行认证的任何应用程序的访问级别。
 
-有关此功能的优点以及如何开始使用的更多信息，请参阅 [Introducing IBM Cloud IAM Service IDs and API Keys](https://www.ibm.com/blogs/bluemix/2017/10/introducing-ibm-cloud-iam-service-ids-api-keys/){: new_window} ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")。
+有关此功能的优点以及如何开始使用的更多信息，请参阅 [Introducing IBM Cloud IAM Service IDs and API Keys](https://www.ibm.com/cloud/blog/introducing-ibm-cloud-iam-service-ids-api-keys){: new_window} ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")。
 
 ### {{site.data.keyword.Bluemix_notm}} 全局目录
 最新更新日期：2017 年 7 月 27 日
 {: #gc}
 
-通过扩展上一次控制台更新以在控制台中从单个位置管理公共区域，{{site.data.keyword.Bluemix_notm}} 现在拥有全局目录，进一步简化了从目录中选择和部署项的过程。不管您在控制台中选择了哪个区域，现在都可以在目录中查看所有公共区域中可用的所有服务。在目录中选择一个磁贴后，即可以看到在其中该服务可用的区域，然后选择要在其中部署该服务的区域。有关目录最新更新的更多信息，请参阅 [A global {{site.data.keyword.Bluemix_notm}} catalog makes building things easier](https://www.ibm.com/blogs/bluemix/2017/07/global-bluemix-catalog-makes-building-things-easier/){: new_window} ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")。
+通过扩展上一次控制台更新以在控制台中从单个位置管理公共区域，{{site.data.keyword.Bluemix_notm}} 现在拥有全局目录，进一步简化了从目录中选择和部署项的过程。不管您在控制台中选择了哪个区域，现在都可以在目录中查看所有公共区域中可用的所有服务。在目录中选择一个磁贴后，即可以看到在其中该服务可用的区域，然后选择要在其中部署该服务的区域。有关目录最新更新的更多信息，请参阅 [A global {{site.data.keyword.Bluemix_notm}} catalog makes building things easier](https://www.ibm.com/cloud/blog/announcements/global-bluemix-catalog-makes-building-things-easier){: new_window} ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")。
 
 ### {{site.data.keyword.Bluemix_notm}} 控制台更新
 最新更新日期：2017 年 5 月 23 日

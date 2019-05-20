@@ -3,7 +3,7 @@
 
 copyright:
   years: 2016, 2019
-lastupdated: "2019-03-14"
+lastupdated: "2019-05-13"
 
 keywords: console, platform overview, overview
 
@@ -28,47 +28,7 @@ IBM のクラウド・プラットフォームは、Platform as a Service (PaaS)
   * リソースをフィルタリングおよび識別するための検索およびタグ付けのメカニズム
   * 価格設定プランおよびセキュア・クレジット・カード詐欺防止のために正確な使用量を提供するアカウントおよび請求管理システム
 
-## ホスティング環境の選択
-{: #choose-compute}
-
-{{site.data.keyword.Bluemix_notm}} を使用すれば、新規のアプリのテストや実行のためにハードウェアに多額の投資を行う必要がなくなります。 代わりに、IBM がすべてを管理し、使用した分だけ課金されるようになります。 クラウド・サーバー環境は、インフラストラクチャー・レイヤーの基本です。 単一のオプションを選択することも、より複雑な環境に対してオプションの組み合わせを選択することもできます。 
-
-アプリをホストするためのさまざまなオプションがあり、必要に応じてインフラストラクチャーを自由に制御できます。 アプリは以下のどの方法でも実行できます。
-
-  * サーバーレス機能として実行
-  * Cloud Foundry アプリとして実行
-  * Kubernetes クラスター上の Docker コンテナーとして実行
-  * VMware として実行
-  * 仮想マシンとして実行
-  * 高性能な{{site.data.keyword.baremetal_short}}上で実行 
-
-{{site.data.keyword.baremetal_short}}は、単一の顧客専用のシングル・テナントの物理サーバーです。 サーバー・ホストから RAM およびストレージ・デバイスまで、ほとんどすべてを制御します。 これらのサーバーは、数カ月などの長期間にわたってコンピュート能力を必要とするワークロードで使用されます。 
-
-{{site.data.keyword.BluVirtServers_short}} は、パブリック・インスタンスまたは専用インスタンスとしてデプロイできます。 パブリック・インスタンスでは、サーバーのリソースは他のお客様と共有されます。これはマルチテナント環境とも呼ばれます。 専用インスタンスでは、物理サーバーのリソースは、同じサーバー上に 1 つ以上の仮想マシンを持つことができる 1 人のお客様専用になります。 これらのサーバーは、数週間など、限られた期間実行されるワークロードに最適です。 ワークロードの例としては、開発とテスト、バックアップとリカバリー、および災害復旧などがあります。 サーバー・オプションについて詳しくは、『[Bare metal servers vs. virtual servers: Choosing the best option for you](https://www.ibm.com/blogs/bluemix/2018/06/bare-metal-virtual-servers-works/){: new_window} ![外部リンク・アイコン](../icons/launch-glyph.svg "外部リンク・アイコン")』を参照してください。
-
-コンピュート・オプションの要約については、以下の表を確認してください。
-
-| オプション | 説明 | 
-|--------|---------------|
-| [{{site.data.keyword.baremetal_short}}](/docs/bare-metal?topic=bare-metal-bm-getting-started#bm-getting-started)  | お客様専用で、サーバー・リソースを含むどの部分でも他のお客様と共有されない、時間単位または月単位のシングル・テナント・サーバー。 |
-| [{{site.data.keyword.BluVirtServers_short}}](/docs/vsi?topic=virtual-servers-about-public-virtual-servers#public-virtual-servers) | 専用のコアおよびメモリー割り振りと共に購入される拡張が容易な仮想サーバー。 |
-| [{{site.data.keyword.vmwaresolutions_short}}](/docs/services/vmwaresolutions?topic=vmware-solutions-getting-started#getting-started) | スケーラブルでセキュアでハイパフォーマンスのインフラストラクチャー、および業界最先端の VMware ハイブリッド仮想化テクノロジーを使用して、オンプレミスの VMware ワークロードを迅速かつシームレスに統合またはマイグレーションします。 |
-| [{{site.data.keyword.containerlong_notm}}](/docs/containers?topic=containers-container_index) | Docker コンテナー、Kubernetes テクノロジー、直観的なユーザー・エクスペリエンス、標準装備のセキュリティーと分離機能を結合させることにより、コンピュート・ホストのクラスター内でコンテナー化アプリのデプロイメント、操作、スケーリング、モニタリングを自動化します。 |
-| [{{site.data.keyword.cfee_full_notm}}](/docs/cloud-foundry?topic=cloud-foundry-about) | 複数の分離したエンタープライズ・グレードの Cloud Foundry プラットフォームをオンデマンドでインスタンス化します。 |
-| [{{site.data.keyword.openwhisk_short}}](/docs/openwhisk?topic=cloud-functions-index) | Apache OpenWhisk に基づく Functions-as-a-Service (FaaS) プログラミング・プラットフォーム。 |
-{: caption="表 1. コンピュート・オプション" caption-side="top"}
-
-## アプリケーションの作成
-{: #build-apps}
-
 最新化してクラウドに取り入れる[既存のコード](/docs/apps/tutorials?topic=creating-apps-tutorial-byoc#tutorial-byoc)があるか、[まったく新しいアプリケーション](/docs/apps/tutorials?topic=creating-apps-tutorial-starterkit)を開発しているかにかかわらず、開発者は、{{site.data.keyword.Bluemix_notm}} で使用可能なサービスおよびランタイム・フレームワークの急速に成長しているエコシステムを活用できます。
-
-稼働に役立つ[プログラミング・ガイド](https://cloud.ibm.com/docs/home/build){: new_window} ![外部リンク・アイコン](../icons/launch-glyph.svg "外部リンク・アイコン") が言語ごとに用意されています。 {{site.data.keyword.baremetal_short}}から、サーバーレス機能としての実行まで、{{site.data.keyword.Bluemix_notm}} インフラストラクチャーを使用してアプリをホストするための多数のオプションがあります。
-
-## サービスの接続
-{: #connect-services}
-
-カタログには、選択できるサービスが 190 個以上あるため、ニーズに合わせて調整されたソリューションを作成できます。 ユース・ケースに適合すれば、{{site.data.keyword.Bluemix_notm}} 外部のアプリにサービスを容易に接続できます。 外部利用者を {{site.data.keyword.Bluemix_notm}} サービスに手動で接続させたい場合、資格情報の新しいセットを生成することができます。 例えば、{{site.data.keyword.Bluemix_notm}} 外部のアプリを Watson サービスに接続しようとすると、それらを相互に接続する新しい資格情報が生成されます。 非常に簡単です。 詳しくは、[資格情報の追加](/docs/resources?topic=resources-service_credentials)を参照してください。
 
 ## アカウントのセットアップ
 {: #set-up-account}

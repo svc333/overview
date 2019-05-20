@@ -4,7 +4,7 @@ copyright:
 
   years: 2018, 2019
 
-lastupdated: "2019-03-14"
+lastupdated: "2019-05-13"
 
 keywords: quick start steps, dev quick start, dev get started
 
@@ -24,9 +24,6 @@ subcollection: overview
 Nous souhaitons que vous, développeur, puissiez effectuer votre codage rapidement. Ce guide de démarrage rapide est conçu pour vous aider à effectuer les opérations de configuration et de génération dans {{site.data.keyword.Bluemix}}.  
 {: shortdesc}
 
-Pour obtenir une liste des fonctions disponibles lorsque vous commencez la génération, voir [Exploration de la démarche d'un développeur dans {{site.data.keyword.cloud_notm}}](/docs/overview?topic=overview-dev-journey).
-{: tip}
-
 ## Avant de commencer
 {: #prereqs-dev}
 
@@ -37,7 +34,7 @@ Créez un compte Paiement à la carte ou Abonnement pour obtenir un accès compl
  
 1. [Installez et configurez ](/docs/home/tools)l'interface de ligne de commande (CLI) {{site.data.keyword.Bluemix_notm}}. 
 2. Pour commencer à effectuer le codage, procédez comme suit :
-    * Accédez à l'icône Menu ![Icône Menu](../icons/icon_hamburger.svg) **> Tableau de bord > Applications** puis cliquez sur **Créer une application** pour effectuer cette action en utilisant un kit de démarrage vide ou votre propre code.
+    * Accédez à l'icône Menu ![Icône Menu](../icons/icon_hamburger.svg) **> Tableau de bord > Applications**, puis cliquez sur **Créer une application** pour effectuer cette action en utilisant un kit de démarrage vide ou votre propre code.
     * Utilisez un [kit de démarrage](/docs/apps/tutorials?topic=creating-apps-tutorial-starterkit) pour créer une application à partir d'une application personnalisée préconfigurée. 
     * [Commencez par le langage de programmation](/docs/home/build). 
 3. Consultez les [documents de l'API](https://{DomainName}/apidocs) pour connaître les noeuds finaux disponibles et afficher les exemples.

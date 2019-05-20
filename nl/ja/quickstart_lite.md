@@ -4,7 +4,7 @@ copyright:
 
   years: 2018, 2019
 
-lastupdated: "2019-03-14"
+lastupdated: "2019-05-13"
 
 keywords: quick start, get started with IBM Cloud
 
@@ -45,6 +45,6 @@ subcollection: overview
 ## 次のステップ
 {: #nextsteps-lite}
 
-[{{site.data.keyword.Bluemix_notm}} の開発者ジャーニーの探索](/docs/overview?topic=overview-dev-journey)で、{{site.data.keyword.Bluemix_notm}} の開発者についての情報をお読みください。 
+アプリの構築を開始します。詳しくは、[入門チュートリアル](/docs/apps/tutorials?topic=creating-apps-tutorial-getting-started)を参照してください。 
 
 

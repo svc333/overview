@@ -4,7 +4,7 @@ copyright:
 
   years: 2015, 2019
 
-lastupdated: "2019-05-07"
+lastupdated: "2019-05-13"
 
 keywords: release notes, what's new, what is new, cloud updates
 
@@ -19,7 +19,7 @@ subcollection: overview
 # {{site.data.keyword.Bluemix_notm}}의 새로운 기능
 {: #whatsnew}
 
-{{site.data.keyword.Bluemix_notm}} 경험을 최대한 활용할 수 있도록 {{site.data.keyword.Bluemix}} 플랫폼에서 사용 가능한 새 기능을 최신 상태로 유지하십시오.
+{{site.data.keyword.Bluemix_notm}} 경험을 최대한 활용할 수 있도록 {{site.data.keyword.Bluemix}} 플랫폼에서 사용 가능한 새 기능을 최신 상태로 유지하십시오. 
 {:shortdesc}
 
 {{site.data.keyword.Bluemix_notm}}에서 사용 가능한 서비스에 대한 업데이트를 찾는 경우, 블로그에서 [{{site.data.keyword.Bluemix_notm}} 공지사항 페이지](https://www.ibm.com/cloud/blog/announcements){: new_window} ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")를 확인하십시오.
@@ -34,7 +34,7 @@ subcollection: overview
 ### 연관된 태그가 있는 사용 데이터 내보내기
 신규 기준일: 2019년 4월 4일 
 
-이제 사용자가 최신 태깅 기능을 활용하여 내보내기 사용량 보고서에서 리소스, 사용량 및 비용을 관리할 수 있습니다. 리소스에 태그를 추가할 때 리소스와 연관된 태그를 보는 옵션이 있습니다. **관리**> **청구 및 사용량**> **사용량**> **CSV 내보내기**>  **인스턴스**로 이동하여 사용량 보고서를 다운로드하십시오. 태그 내보내기에 관한 자세한 정보는 [비용 할당을 지원하도록 사용량 데이터에서 태그 내보내기](https://www.ibm.com/cloud/blog/2019/04/export-your-tagged-usage-data-within-the-enhanced-ibm-cloud/) 블로그 게시물을 확인하십시오.
+이제 사용자가 최신 태깅 기능을 활용하여 내보내기 사용량 보고서에서 리소스, 사용량 및 비용을 관리할 수 있습니다. 리소스에 태그를 추가할 때 리소스와 연관된 태그를 보는 옵션이 있습니다. **관리**> **청구 및 사용량**> **사용량**> **CSV 내보내기**>  **인스턴스**로 이동하여 사용량 보고서를 다운로드하십시오. 태그 내보내기에 대한 자세한 정보는 [비용 할당을 지원하도록 사용량 데이터에서 태그 내보내기](https://www.ibm.com/cloud/blog/export-your-tagged-usage-data-within-the-enhanced-ibm-cloud){: new_window} ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘") 블로그 게시물을 확인하십시오. 
 
 ### 리소스에 대한 공용 액세스 사용을 위한 액세스 그룹
 신규 기준일: 2019년 3월 25일
@@ -45,7 +45,7 @@ subcollection: overview
 신규 기준일: 2019년 3월 12일
 {: #mfa-federated}
 
-계정 소유자 또는 사용자가 지정한 청구 계정 관리 서비스의 관리자 역할은 계정 내의 모든 사용자에 대해 다단계 인증(MFA)을 사용하도록 설정할 수 있습니다. 회사 또는 엔터프라이즈 싱글 사인온 ID를 사용하는 연합 사용자는 {{site.data.keyword.Bluemix_notm}}에 로그인하기 위해 MFA를 사용하여 인증하도록 요청받을 수 있습니다. 이 기능의 개선사항 및 계정에 대해 MFA를 사용하도록 설정하는 방법에 대한 자세한 정보는 [연합 ID가 있는 IBM Cloud 사용자를 위한 MFA 소개](https://www.ibm.com/blogs/bluemix/2019/03/introducing-mfa-for-ibm-cloud-users-with-federated-id/){: new_window} ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")를 참조하십시오.
+계정 소유자 또는 사용자가 지정한 청구 계정 관리 서비스의 관리자 역할은 계정 내의 모든 사용자에 대해 다단계 인증(MFA)을 사용하도록 설정할 수 있습니다. 회사 또는 엔터프라이즈 싱글 사인온 ID를 사용하는 연합 사용자는 {{site.data.keyword.Bluemix_notm}}에 로그인하기 위해 MFA를 사용하여 인증하도록 요청받을 수 있습니다. 이 기능의 개선사항 및 계정에 대해 MFA를 사용하도록 설정하는 방법에 대한 자세한 정보는 [연합 ID가 있는 IBM Cloud 사용자를 위한 MFA 소개](https://www.ibm.com/cloud/blog/introducing-mfa-for-ibm-cloud-users-with-federated-id){: new_window} ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")를 참조하십시오.
 
 ### 새로운 appdomain.cloud 호스트 이름 옵션
 신규 기준일: 2018년 12월 31일
@@ -87,7 +87,7 @@ Cloud Foundry 앱의 하위 도메인은 `cf.appdomain.cloud`입니다. {{site.d
 
 이제 모든 사용자가 단일 콘솔에 있으므로 동일한 위치에서 모든 유형의 리소스에 대한 액세스를 관리할 수 있습니다. 액세스가 사용자로 시작하므로 목록에서 사용자를 선택하여 시작하십시오. 그런 다음, 액세스를 지정할 리소스의 유형에 따라 IAM 액세스 정책, Cloud Foundry 액세스 또는 클래식 인프라 권한 중에서 선택할 수 있습니다. IAM 액세스 정책을 지정하려는 경우 액세스 그룹을 작성하고 동일한 정책이 지정되어야 하는 모든 사용자를 동일한 액세스 그룹에 추가하여 액세스 관리 프로세스를 간소화하십시오.
 
-세부사항은 [Outstanding User Access Improvements Help Deliver a Unified {{site.data.keyword.Bluemix_notm}} Platform](https://www.ibm.com/blogs/bluemix/2018/11/ibm-cloud-access-management){: new_window} ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")를 참조하십시오. 
+세부사항은 [Outstanding User Access Improvements Help Deliver a Unified {{site.data.keyword.Bluemix_notm}} Platform](https://www.ibm.com/cloud/blog/announcements/ibm-cloud-access-management){: new_window} ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")를 참조하십시오. 
 
 ### 한 곳에서 모든 {{site.data.keyword.Bluemix_notm}} CLI 플러그인 문서 찾기
 신규 기준일: 2018년 11월 30일
@@ -118,13 +118,13 @@ Cloud Foundry 앱의 하위 도메인은 `cf.appdomain.cloud`입니다. {{site.d
 * 계정 정보 영역에는 회사 또는 조직에 대한 정보, 계정 설정 및 리소스 그룹과 Cloud Foundry 조직에 대해 작업하기 위한 빠른 액세스가 포함되어 있습니다. 빠르게 시작하고 실행하는 데 도움이 되는 우수 사례를 찾을 수도 있습니다.
 * 계정의 청구 및 사용량 영역은 청구를 이해하고, 결제하고, 구독을 모니터하고, 견적서를 받고, 주문을 추적하고, 지출 알림을 설정하는 데 도움이 됩니다.
 
-세부사항은 [Bringing It All Together: A Single Account and Billing Management Experience](https://www.ibm.com/blogs/bluemix/2018/11/ibm-cloud-account-management/){: new_window} ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")를 참조하십시오.
+세부사항은 [Bringing It All Together: A Single Account and Billing Management Experience](https://www.ibm.com/cloud/blog/announcements/ibm-cloud-account-management){: new_window} ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")를 참조하십시오.
 
 ### 태그를 사용하여 리소스 구성
 신규 기준일: 2018년 11월 30일
 {: #tag}
 
-이제 리소스를 관리하고 가장 관련성이 높은 리소스를 찾는 데 도움이 되도록 Cloud Object Storage와 같은 리소스에 태그를 추가할 수 있습니다. 예를 들어, 수백 개의 리소스가 있으며 동일한 방식으로 결제되는 몇몇 리소스 간의 구별을 원하는 경우에는 이에 `costcenter:location01` 태그를 지정할 수 있습니다. 또는 반복적으로 몇몇 리소스에 대해 작업하는 팀이 있는 경우에는 `team-blue`와 같은 태그를 사용할 수 있습니다. 리소스 목록을 태그별로 필터링하여 필요한 리소스를 빠르게 구성하고 찾을 수도 있습니다. 자세한 정보는 [Working with tags](/docs/resources?topic=resources-tag) 및 [Platform Tagging on the Enhanced {{site.data.keyword.Bluemix_notm}} Platform](https://www.ibm.com/blogs/bluemix/2018/11/platform-tagging-on-the-enhanced-ibm-cloud-platform/){: new_window} ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")를 참조하십시오. 
+이제 리소스를 관리하고 가장 관련성이 높은 리소스를 찾는 데 도움이 되도록 Cloud Object Storage와 같은 리소스에 태그를 추가할 수 있습니다. 예를 들어, 수백 개의 리소스가 있으며 동일한 방식으로 결제되는 몇몇 리소스 간의 구별을 원하는 경우에는 이에 `costcenter:location01` 태그를 지정할 수 있습니다. 또는 반복적으로 몇몇 리소스에 대해 작업하는 팀이 있는 경우에는 `team-blue`와 같은 태그를 사용할 수 있습니다. 리소스 목록을 태그별로 필터링하여 필요한 리소스를 빠르게 구성하고 찾을 수도 있습니다. 자세한 정보는 [Working with tags](/docs/resources?topic=resources-tag) 및 [Platform Tagging on the Enhanced {{site.data.keyword.Bluemix_notm}} Platform](https://www.ibm.com/cloud/blog/announcements/platform-tagging-on-the-enhanced-ibm-cloud-platform){: new_window} ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")를 참조하십시오. 
 
 ### 비용 추정기를 사용하여 정확한 월별 비용 찾기
 신규 기준일: 2018년 11월 30일
@@ -162,7 +162,7 @@ Cloud Foundry 앱의 하위 도메인은 `cf.appdomain.cloud`입니다. {{site.d
 * 사설 카탈로그 오퍼링을 보고 오퍼링에 대한 메타데이터 및 가시성을 업데이트하기 위한 글로벌 리소스 카탈로그
 * 청구 및 사용량 추적에 대한 액세스는 물론, 지정된 역할에 기반하여 각 개별 계정 관리 서비스 옵션에 대한 액세스를 위한 모든 계정 관리 서비스.
 
-지정된 역할 및 관련 정책을 보유하고 있는 관련 계정 관리 서비스에 기반하여 사용자가 수행할 수 있는 태스크에 대한 자세한 정보는 [계정 관리 서비스에 대한 예제 플랫폼 관리 역할 및 조치](/docs/iam?topic=iam-userroles#platformrolestable2)를 참조하십시오. 이 새 기능에 대한 자세한 정보는 [Introducing More Flexibility and Control for IBM Cloud Account Management Services Access](https://www.ibm.com/blogs/bluemix/2018/11/introducing-more-flexibility-and-control-for-ibm-cloud-account-management-services-access/){: new_window} ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘") 블로그 게시물을 참조하십시오. 
+지정된 역할 및 관련 정책을 보유하고 있는 관련 계정 관리 서비스에 기반하여 사용자가 수행할 수 있는 태스크에 대한 자세한 정보는 [계정 관리 서비스에 대한 예제 플랫폼 관리 역할 및 조치](/docs/iam?topic=iam-userroles#platformrolestable2)를 참조하십시오. 이 새 기능에 대한 자세한 정보는 [Introducing More Flexibility and Control for IBM Cloud Account Management Services Access](https://www.ibm.com/cloud/blog/announcements/introducing-more-flexibility-and-control-for-ibm-cloud-account-management-services-access){: new_window} ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘") 블로그 게시물을 참조하십시오. 
 
 ### 리소스 검색
 신규 기준일: 2018년 7월 17일
@@ -198,13 +198,13 @@ Cloud Foundry 앱의 하위 도메인은 `cf.appdomain.cloud`입니다. {{site.d
 신규 기준일: 2018년 5월 02일
 {: #account-mfa}
 
-다단계 인증(MFA)은 로그인 중에 모든 사용자가 표준 IBM ID 및 비밀번호와 함께 시간 기반의 일회성 패스코드를 입력하도록 요구하여 사용자 계정에 대해 보안 계층을 더 추가합니다. 일반적으로 2단계 인증(2FA)이라고도 합니다. MFA는 계정별로 사용 설정되며, 일단 작동되면 계정의 모든 사용자가 추가 보안 방법을 사용하여 로그인해야 합니다. 자세한 정보는 [IBM Cloud Platform now adds support for Multi-Factor Authentication](https://www.ibm.com/blogs/bluemix/2018/05/ibm-cloud-platform-now-adds-support-multi-factor-authentication/){: new_window} ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘") 블로그 게시물을 참조하십시오.
+다단계 인증(MFA)은 로그인 중에 모든 사용자가 표준 IBM ID 및 비밀번호와 함께 시간 기반의 일회성 패스코드를 입력하도록 요구하여 사용자 계정에 대해 보안 계층을 더 추가합니다. 일반적으로 2단계 인증(2FA)이라고도 합니다. MFA는 계정별로 사용 설정되며, 일단 작동되면 계정의 모든 사용자가 추가 보안 방법을 사용하여 로그인해야 합니다. 자세한 정보는 [IBM Cloud Platform now adds support for Multi-Factor Authentication](https://www.ibm.com/cloud/blog/ibm-cloud-platform-now-adds-support-multi-factor-authentication){: new_window} ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘") 블로그 게시물을 참조하십시오.
 
 ### 액세스 그룹을 사용하여 신속하게 액세스 지정
 신규 기준일: 2018년 4월 3일
 {: #access-groups}
 
-가급적 최소 수의 정책을 사용하여 신속하게 액세스를 지정할 수 있기를 원하십니까? 이제 액세스 그룹으로 이를 수행할 수 있습니다. 액세스 그룹을 사용하면 사용자 및 서비스 ID 세트를 그룹화하고 그룹의 모든 구성원에 적용하는 단일 정책을 지정할 수 있습니다. 액세스 그룹을 사용하면 계정의 사용자 및 서비스 ID에 대한 액세스 관리에 사용하는 시간을 제한할 수 있습니다. 세부사항은 블로그 게시물 [새 기능: 액세스 그룹](https://www.ibm.com/blogs/bluemix/2018/04/access-groups/){: new_window} ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")을 확인하십시오.
+가급적 최소 수의 정책을 사용하여 신속하게 액세스를 지정할 수 있기를 원하십니까? 이제 액세스 그룹으로 이를 수행할 수 있습니다. 액세스 그룹을 사용하면 사용자 및 서비스 ID 세트를 그룹화하고 그룹의 모든 구성원에 적용하는 단일 정책을 지정할 수 있습니다. 액세스 그룹을 사용하면 계정의 사용자 및 서비스 ID에 대한 액세스 관리에 사용하는 시간을 제한할 수 있습니다. 세부사항은 블로그 게시물 [새 기능: 액세스 그룹](https://www.ibm.com/cloud/blog/access-groups){: new_window} ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")을 확인하십시오.
 
 ### {{site.data.keyword.Bluemix_notm}} Foundry Service 미국 동부 지역은 지금 사용 가능
 신규 기준일: 2017년 12월 15일
@@ -254,7 +254,7 @@ Cloud Foundry 앱의 하위 도메인은 `cf.appdomain.cloud`입니다. {{site.d
 신규 기준일: 2017년 10월 31일
 {: #meet-ibmcloud}
 
-Bluemix는 이제 IBM Cloud입니다. 새로운 이름 사용 외에는 변경사항이 없습니다. 계속해서 쉽게 앱과 서비스를 빌드하고 실행할 수 있습니다. 추가 세부사항은 [IBM Cloud Blog](https://www.ibm.com/blogs/bluemix/2017/10/bluemix-is-now-ibm-cloud/){: new_window} ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")를 참조하십시오.
+Bluemix는 이제 IBM Cloud입니다. 새로운 이름 사용 외에는 변경사항이 없습니다. 계속해서 쉽게 앱과 서비스를 빌드하고 실행할 수 있습니다. 추가 세부사항은 [IBM Cloud Blog](https://www.ibm.com/cloud/blog/announcements/bluemix-is-now-ibm-cloud){: new_window} ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")를 참조하십시오.
 
 ### Lite 계정
 신규 기준일: 2017년 10월 31일
@@ -268,13 +268,13 @@ Lite 계정은 시간 제한 없이 무료로 서비스를 선택해 볼 수 있
 
 IAM(Identity and Access Management)은 이제 서비스 ID를 작성할 수 있는 기능을 제공하여 {{site.data.keyword.Bluemix_notm}} 서비스로 인증하도록 앱에 사용할 수 있는 ID로 간주할 수 있습니다. 개별 사용자 인증 정보를 사용하는 대신 서비스 ID는 해당 ID를 사용하여 애플리케이션 인증에 대한 액세스 권한의 레벨을 제어할 수 있도록 서비스 ID에 지정되는 서비스 정책의 양식으로 인증된 API 키 및 액세스 권한을 사용하여 작성될 수 있습니다.
 
-이 기능의 장점 및 시작하는 방법에 대한 자세한 정보는 [Introducing IBM Cloud IAM Service IDs and API Keys](https://www.ibm.com/blogs/bluemix/2017/10/introducing-ibm-cloud-iam-service-ids-api-keys/){: new_window} ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")를 참조하십시오.
+이 기능의 장점 및 시작하는 방법에 대한 자세한 정보는 [Introducing IBM Cloud IAM Service IDs and API Keys](https://www.ibm.com/cloud/blog/introducing-ibm-cloud-iam-service-ids-api-keys){: new_window} ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")를 참조하십시오.
 
 ### {{site.data.keyword.Bluemix_notm}} 글로벌 카탈로그
 신규 기준일: 2017년 7월 27일
 {: #gc}
 
-콘솔 내 하나의 위치에서 퍼블릭 지역을 관리하도록 하는 최신 콘솔 업데이트에서 한 걸음 더 나아가, 이제 {{site.data.keyword.Bluemix_notm}}에는 카탈로그에서 항목을 선택하고 배치하는 프로세스를 보다 간소화하는 글로벌 카탈로그가 있습니다. 콘솔에서 선택한 지역에 관계없이 이제 카탈로그의 모든 퍼블릭 지역에서 사용 가능한 모든 서비스를 볼 수 있습니다. 카탈로그에서 파일만 선택하면 서비스를 사용할 수 있는 지역을 볼 수 있고 서비스를 배치할 위치를 선택할 수 있습니다. 카탈로그에 대한 최신 업데이트에 대한 자세한 정보는 [A global {{site.data.keyword.Bluemix_notm}} catalog makes building things easier](https://www.ibm.com/blogs/bluemix/2017/07/global-bluemix-catalog-makes-building-things-easier/){: new_window} ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")를 참조하십시오.
+콘솔 내 하나의 위치에서 퍼블릭 지역을 관리하도록 하는 최신 콘솔 업데이트에서 한 걸음 더 나아가, 이제 {{site.data.keyword.Bluemix_notm}}에는 카탈로그에서 항목을 선택하고 배치하는 프로세스를 보다 간소화하는 글로벌 카탈로그가 있습니다. 콘솔에서 선택한 지역에 관계없이 이제 카탈로그의 모든 퍼블릭 지역에서 사용 가능한 모든 서비스를 볼 수 있습니다. 카탈로그에서 파일만 선택하면 서비스를 사용할 수 있는 지역을 볼 수 있고 서비스를 배치할 위치를 선택할 수 있습니다. 카탈로그에 대한 최신 업데이트에 대한 자세한 정보는 [A global {{site.data.keyword.Bluemix_notm}} catalog makes building things easier](https://www.ibm.com/cloud/blog/announcements/global-bluemix-catalog-makes-building-things-easier){: new_window} ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")를 참조하십시오.
 
 ### {{site.data.keyword.Bluemix_notm}} 콘솔 업데이트
 신규 기준일: 2017년 5월 23일

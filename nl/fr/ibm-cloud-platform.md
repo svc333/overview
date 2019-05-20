@@ -3,7 +3,7 @@
 
 copyright:
   years: 2016, 2019
-lastupdated: "2019-03-14"
+lastupdated: "2019-05-13"
 
 keywords: console, platform overview, overview
 
@@ -28,47 +28,7 @@ La plateforme {{site.data.keyword.Bluemix_notm}} inclut plusieurs composants qui
   * Un mécanisme de recherche et d'étiquetage pour le filtrage et l'identification de vos ressources
   * Un système de gestion de compte et de facturation présentant une utilisation exacte des plans de facturation et une protection contre la fraude aux cartes de crédit
 
-## Choix de votre environnement d'hébergement
-{: #choose-compute}
-
-Avec {{site.data.keyword.Bluemix_notm}}, il n'est plus nécessaire d'effectuer d'investissements importants en termes de matériel pour tester ou exécuter une nouvelle application. A la place, nous gérons tout pour vous et ne vous facturons que ce que vous utilisez. Votre environnement de serveur Cloud constitue la base de votre couche d'infrastructure. Vous pouvez choisir une seule option ou un ensemble d'options pour plusieurs environnements complexes. 
-
-Vous disposez de plusieurs options pour l'hébergement de vos applications, ce qui vous permet d'avoir le niveau de contrôle souhaité ou requis sur l'infrastructure. Vous pouvez exécuter votre application de l'une des façons suivantes :
-
-  * En tant que fonction sans serveur
-  * En tant qu'application Cloud Foundry
-  * En tant que conteneur Docker sur un cluster Kubernetes
-  * En tant que VMware
-  * En tant que machine virtuelle
-  * Sur {{site.data.keyword.baremetal_short}} à hautes performances 
-
-Les serveurs {{site.data.keyword.baremetal_short}} sont des serveurs physiques à service unique dédiés à un seul client. Vous pouvez pratiquement tout contrôler, de l'hôte de serveur à la mémoire RAM et aux périphériques de stockage. Ces serveurs sont utilisés avec des charges de travail demandant une puissance de calcule pendant une longue période (par exemple, plusieurs mois). 
-
-Les serveurs {{site.data.keyword.BluVirtServers_short}} peuvent être déployés comme instances publiques ou dédiées. Avec des instances publiques, les ressources du serveur sont partagées avec d'autres clients (il s'agit alors d'un environnement à service partagé). Les instances privées dédient les ressources du serveur physique à un client qui peut avoir une ou plusieurs machines virtuelles sur le même serveur. Ces serveurs constituent la solution idéale pour les charges de travail s'exécutant pendant une période limitée (plusieurs semaines, par exemple). Le développement et le test, la sauvegarde et la reprise ainsi que la reprise après incident constituent des exemples de charge de travail. Pour plus d'informations sur les options de serveur, voir [Bare metal servers vs. virtual servers: Choosing the best option for you](https://www.ibm.com/blogs/bluemix/2018/06/bare-metal-virtual-servers-works/){: new_window} ![Icône de lien externe](../icons/launch-glyph.svg "Icône de lien externe").
-
-Consultez le tableau suivant pour obtenir un récapitulatif de vos options de calcul.
-
-| Option | Description | 
-|--------|---------------|
-| [{{site.data.keyword.baremetal_short}}](/docs/bare-metal?topic=bare-metal-bm-getting-started#bm-getting-started)  | Serveurs à service exclusif horaires ou mensuels qui vous sont dédiés et qui ne sont pas partagés (notamment les ressources de serveur) avec d'autres clients. |
-| [{{site.data.keyword.BluVirtServers_short}}](/docs/vsi?topic=virtual-servers-about-public-virtual-servers#public-virtual-servers) | Serveurs virtuels évolutifs achetés avec des coeurs dédiés et des allocations de mémoire. |
-| [{{site.data.keyword.vmwaresolutions_short}}](/docs/services/vmwaresolutions?topic=vmware-solutions-getting-started#getting-started) | Intègre ou migre rapidement et en toute transparence des charges de travail VMware locales en utilisant une infrastructure évolutive, sécurisée et à hautes performances ainsi que la technologie de virtualisation hybride VMware de pointe. |
-| [{{site.data.keyword.containerlong_notm}}](/docs/containers?topic=containers-container_index) | Associe les conteneurs Docker, la technologie Kubernetes, une expérience utilisateur intuitive ainsi que l'isolement et la sécurité intégrés permettant d'automatiser le déploiement, le fonctionnement, la mise à l'échelle et la surveillance des applications conteneurisées dans un cluster d'hôtes de calcul. |
-| [{{site.data.keyword.cfee_full_notm}}](/docs/cloud-foundry?topic=cloud-foundry-about) | Instancie à la demande plusieurs plateformes Cloud Foundry d'entreprise isolées. |
-| [{{site.data.keyword.openwhisk_short}}](/docs/openwhisk?topic=cloud-functions-index) | Plateforme de programmation FaaS (Functions-as-a-Service) basée sur Apache OpenWhisk. |
-{: caption="Tableau 1. Options de calcul" caption-side="top"}
-
-## Génération d'applications
-{: #build-apps}
-
 Que vous disposiez d'un [code existant](/docs/apps/tutorials?topic=creating-apps-tutorial-byoc#tutorial-byoc) que vous souhaitez moderniser et placer sur le cloud ou que vous développiez une [toute nouvelle application](/docs/apps/tutorials?topic=creating-apps-tutorial-starterkit), vos développeurs peuvent bénéficier de l'écosystème à croissance rapide des services disponibles et des infrastructures d'exécution d'{{site.data.keyword.Bluemix_notm}}.
-
-Des [guides de programmation](https://cloud.ibm.com/docs/home/build){: new_window} ![Icône de lien externe](../icons/launch-glyph.svg "Icône de lien externe") sont disponibles pour chaque langage. Grâce à eux, vous pouvez commencer à effectuer les tâches souhaitées. Avec l'infrastructure {{site.data.keyword.Bluemix_notm}}, vous disposez de plusieurs options pour l'hébergement de vos applications, qu'il s'agisse de serveurs de type {{site.data.keyword.baremetal_short}} ou d'exécution en tant que fonction sans serveur.
-
-## Connexion de services
-{: #connect-services}
-
-Avec plus de 190 services disponibles dans le catalogue, vous pouvez choisir une solution adaptée à vos besoins. Par ailleurs, vous pouvez facilement connecter des services à des applications en dehors d'{{site.data.keyword.Bluemix_notm}} si cela est adapté à votre situation. Vous pouvez générer un nouveau jeu de données d'identification pour le cas où vous voudriez connecter manuellement un consommateur extérieur à un service {{site.data.keyword.Bluemix_notm}}. Par exemple, si vous tentez de connecter une application se trouvant hors d'{{site.data.keyword.Bluemix_notm}} à un service Watson, vous générez de nouvelles données d'identification qui connectent entre eux ces deux éléments. C'est aussi simple que ça ! Pour plus d'informations, voir [Ajout de données d'identification](/docs/resources?topic=resources-service_credentials).
 
 ## Configuration de votre compte
 {: #set-up-account}

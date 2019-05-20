@@ -4,7 +4,7 @@ copyright:
 
   years: 2018, 2019
 
-lastupdated: "2019-03-14"
+lastupdated: "2019-05-13"
 
 keywords: quick start, get started with IBM Cloud
 
@@ -45,6 +45,6 @@ Accédez à la console [{{site.data.keyword.Bluemix_notm}}](https://{DomainName}
 ## Etapes suivantes
 {: #nextsteps-lite}
 
-Découvrez la tâche de développeur dans {{site.data.keyword.Bluemix_notm}} en consultant la rubrique [Exploration de la démarche d'un développeur dans {{site.data.keyword.Bluemix_notm}}](/docs/overview?topic=overview-dev-journey). 
+Commencez à construire vos applications. Pour plus d'informations, voir le [tutoriel d'initiation](/docs/apps/tutorials?topic=creating-apps-tutorial-getting-started) for more information. 
 
 

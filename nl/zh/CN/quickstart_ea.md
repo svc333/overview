@@ -4,7 +4,7 @@ copyright:
 
   years: 2018, 2019
 
-lastupdated: "2019-03-14"
+lastupdated: "2019-05-13"
 
 keywords: enterprise architect quick start
 
@@ -40,7 +40,7 @@ subcollection: overview
 
     * 查看 {{site.data.keyword.Bluemix_notm}} 的参考体系结构。有关更多信息，请参阅 [Architecture center](https://www.ibm.com/cloud/garage/architectures){: new_window} ![外部链接图标](../icons/launch-glyph.svg)。 
     * 查看案例研究，以了解其他公司是如何使用 {{site.data.keyword.Bluemix_notm}} 来实现其业务目标的。有关更多信息，请参阅 [{{site.data.keyword.Bluemix_notm}} case studies](https://www.ibm.com/cloud-computing/bluemix/case-studies){: new_window} ![外部链接图标](../icons/launch-glyph.svg)。 
-2. 了解用于托管应用程序的多种选项，这使您可以拥有所需的基础架构掌控力。有关更多信息，请参阅[选择托管环境](/docs/overview?topic=overview-whatis-platform#choose-compute)。
+2. 了解用于托管应用程序的多种选项，这使您可以拥有所需的基础架构掌控力。有关更多信息，请参阅[选择托管环境](/docs/apps/tutorials?topic=creating-apps-hosting)。
 3. 探索[目录](https://cloud.ibm.com/catalog){: new_window} ![外部链接图标](../icons/launch-glyph.svg) 中可用于构建解决方案的产品。
 
 ## 后续步骤

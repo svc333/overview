@@ -2,7 +2,7 @@
 
 copyright:
   years: 2018, 2019
-lastupdated: "2019-01-29"
+lastupdated: "2019-05-13"
 
 keywords: first steps, understanding IT ops
 
@@ -35,7 +35,7 @@ subcollection: overview
 {: #steps-it-ops}
 
 1. 以下の学習資料を活用して {{site.data.keyword.cloud_notm}} の機能を理解します。
-    * {{site.data.keyword.cloud}} で[アプリケーションをホスティングする](/docs/overview?topic=overview-whatis-platform#choose-compute)ために使用可能なオプションについて説明します。
+    * {{site.data.keyword.cloud_notm}} で[アプリケーションをホスティングする](/docs/apps/tutorials?topic=creating-apps-hosting)ために使用可能なオプションについて説明します。
     * {{site.data.keyword.cloud_notm}} インフラストラクチャーについては、『[アーキテクチャーのダイアグラム](https://www.ibm.com/cloud/garage/architectures/infrastructure){: new_window} ![外部リンク・アイコン](../icons/launch-glyph.svg)を確認します。 
 2. コスト見積もりツールを使用して、インフラストラクチャーのコストを把握します。
 

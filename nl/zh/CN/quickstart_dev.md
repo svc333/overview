@@ -4,7 +4,7 @@ copyright:
 
   years: 2018, 2019
 
-lastupdated: "2019-03-14"
+lastupdated: "2019-05-13"
 
 keywords: quick start steps, dev quick start, dev get started
 
@@ -23,9 +23,6 @@ subcollection: overview
 
 我们希望开发者能快速开始编码。本快速入门指南旨在帮助您在 {{site.data.keyword.Bluemix}} 中开始进行设置和构建。  
 {: shortdesc}
-
-有关开始构建时可用功能的列表，请参阅[探索 {{site.data.keyword.cloud_notm}} 中的开发者旅程](/docs/overview?topic=overview-dev-journey)。
-{: tip}
 
 ## 开始之前
 {: #prereqs-dev}

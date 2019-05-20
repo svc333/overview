@@ -3,7 +3,7 @@
 
 copyright:
   years: 2016, 2019
-lastupdated: "2019-04-16"
+lastupdated: "2019-05-13"
 
 keywords: prereqs, platform prereqs, platform prerequisites
 
@@ -38,4 +38,4 @@ Extended Support Release](https://www.mozilla.org/en-US/firefox/organizations/){
 ## 命令行界面
 {: #cli-platform}
 
-{{site.data.keyword.Bluemix_notm}} 命令行界面 (CLI) 将持续进行更改，因此建议转至[安装独立 {{site.data.keyword.Bluemix_notm}} CLI](/docs/cli/reference/ibmcloud/cloud-cli-install_use)，此页面总是指向最新 CLI 版本。
+{{site.data.keyword.Bluemix_notm}} 命令行界面 (CLI) 将持续进行更改，因此建议转至[安装独立 {{site.data.keyword.Bluemix_notm}} CLI](/docs/cli/?topic=cloud-cli-ibmcloud-cli)，此页面总是指向最新 CLI 版本。

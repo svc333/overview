@@ -4,7 +4,7 @@ copyright:
 
   years: 2018, 2019
 
-lastupdated: "2019-03-14"
+lastupdated: "2019-05-13"
 
 keywords: enterprise architect quick start
 
@@ -38,7 +38,7 @@ subcollection: overview
     * 瞭解 {{site.data.keyword.Bluemix_notm}} 中的災難回復及高可用性。如需相關資訊，請參閱[如何確保運作零中斷？](/docs/overview?topic=overview-zero-downtime)。
     * 參閱 {{site.data.keyword.Bluemix_notm}} 的參照架構。如需相關資訊，請參閱[架構中心](https://www.ibm.com/cloud/garage/architectures){: new_window} ![外部鏈結圖示](../icons/launch-glyph.svg)。 
     * 檢閱個案研討，以瞭解其他公司如何使用 {{site.data.keyword.Bluemix_notm}} 來達成其商業目標。如需相關資訊，請參閱 [{{site.data.keyword.Bluemix_notm}} 個案研討](https://www.ibm.com/cloud-computing/bluemix/case-studies){: new_window} ![外部鏈結圖示](../icons/launch-glyph.svg)。 
-2. 瞭解管理應用程式的各種選項，讓您可根據意願或需求來控制基礎架構。如需相關資訊，請參閱[選擇您的管理環境](/docs/overview?topic=overview-whatis-platform#choose-compute)。
+2. 瞭解管理應用程式的各種選項，讓您可根據意願或需求來控制基礎架構。如需相關資訊，請參閱[選擇您的管理環境](/docs/apps/tutorials?topic=creating-apps-hosting)。
 3. 探索[型錄](https://cloud.ibm.com/catalog){: new_window} ![外部鏈結圖示](../icons/launch-glyph.svg) 中您可以用來建置解決方案的供應項目。
 
 ## 後續步驟

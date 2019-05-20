@@ -3,7 +3,7 @@
 
 copyright:
   years: 2016, 2019
-lastupdated: "2019-04-16"
+lastupdated: "2019-05-13"
 
 keywords: prereqs, platform prereqs, platform prerequisites
 
@@ -38,4 +38,4 @@ Extended Support Release](https://www.mozilla.org/en-US/firefox/organizations/){
 ## コマンド・ライン・インターフェース
 {: #cli-platform}
 
-{{site.data.keyword.Bluemix_notm}} コマンド・ライン・インターフェース (CLI) は絶えず変更されるため、常に最新の CLI バージョンを指している、[スタンドアロン {{site.data.keyword.Bluemix_notm}} CLI のインストール](/docs/cli/reference/ibmcloud/cloud-cli-install_use)にアクセスすることをお勧めします。
+{{site.data.keyword.Bluemix_notm}} コマンド・ライン・インターフェース (CLI) は絶えず変更されるため、常に最新の CLI バージョンを指している、[スタンドアロン {{site.data.keyword.Bluemix_notm}} CLI のインストール](/docs/cli/?topic=cloud-cli-ibmcloud-cli)にアクセスすることをお勧めします。

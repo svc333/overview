@@ -4,7 +4,7 @@ copyright:
 
   years: 2018, 2019
 
-lastupdated: "2019-03-14"
+lastupdated: "2019-05-13"
 
 keywords: enterprise architect quick start
 
@@ -27,7 +27,7 @@ subcollection: overview
 ## 시작하기 전에
 {: #prereqs-ea}
 
-무료 서비스 플랜의 오퍼링을 포함하여 카탈로그의 모든 오퍼링에 대한 전체 액세스 권한을 얻을 수 있도록 종량과금제 또는 구독 계정을 작성하십시오. 
+무료 서비스 플랜의 오퍼링을 포함하여 카탈로그의 모든 오퍼링에 대한 전체 액세스 권한을 얻을 수 있도록 종량과금제 또는 구독 계정을 생성하십시오. 
 
 ## 빠른 시작 단계
 {: #steps-ea}
@@ -38,7 +38,7 @@ subcollection: overview
     * {{site.data.keyword.Bluemix_notm}}의 재해 복구 및 고가용성에 대해 알아보십시오. 자세한 정보는 [작동 중단이 발생하지 않도록 하는 방법](/docs/overview?topic=overview-zero-downtime)을 참조하십시오.
     * {{site.data.keyword.Bluemix_notm}}에 대한 참조 아키텍처를 확인하십시오. 자세한 정보는 [Architecture center](https://www.ibm.com/cloud/garage/architectures){: new_window} ![외부 링크 아이콘](../icons/launch-glyph.svg)의 내용을 참조하십시오. 
     * 사례 연구를 검토하여 다른 회사에서 {{site.data.keyword.Bluemix_notm}}를 사용하여 비즈니스 목적을 달성하는 방법을 알아보십시오. 자세한 정보는 [{{site.data.keyword.Bluemix_notm}} 사례 연구](https://www.ibm.com/cloud-computing/bluemix/case-studies){: new_window} ![외부 링크 아이콘](../icons/launch-glyph.svg)를 참조하십시오. 
-2. 원하거나 필요한 만큼 인프라에 대한 제어를 제공하여 애플리케이션을 호스팅하기 위한 다양한 옵션에 대해 알아보십시오. 자세한 정보는 [호스팅 환경 선택](/docs/overview?topic=overview-whatis-platform#choose-compute)을 참조하십시오.
+2. 원하거나 필요한 만큼 인프라에 대한 제어를 제공하여 애플리케이션을 호스팅하기 위한 다양한 옵션에 대해 알아보십시오. 자세한 정보는 [호스팅 환경 선택](/docs/apps/tutorials?topic=creating-apps-hosting)을 참조하십시오.
 3. [카탈로그](https://cloud.ibm.com/catalog){: new_window} ![외부 링크 아이콘](../icons/launch-glyph.svg)에서 솔루션을 빌드하는 데 사용할 수 있는 오퍼링을 탐색하십시오.
 
 ## 다음 단계
