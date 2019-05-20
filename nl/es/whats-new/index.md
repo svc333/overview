@@ -4,7 +4,7 @@ copyright:
 
   years: 2015, 2019
 
-lastupdated: "2019-05-07"
+lastupdated: "2019-05-13"
 
 keywords: release notes, what's new, what is new, cloud updates
 
@@ -34,7 +34,7 @@ Si está buscando actualizaciones de los servicios disponibles en {{site.data.ke
 ### Exportación de datos de uso con etiquetas asociadas
 Novedad desde: 4 de abril de 2019 
 
-Ahora puede utilizar nuestras más recientes funciones de etiquetado para gestionar los recursos, el uso y los costes en el informe de uso exportado. Cuando añade una etiqueta a un recurso, tiene la opción de visualizar la etiqueta asociada al recurso. Vaya a **Gestionar**> **Facturación y uso**> **Uso**> **Exportar CSV**>  **Instancias** para descargar su informe de uso. Para obtener más información sobre la exportación de etiquetas, consulte la publicación de blog [Exportación de etiquetas en sus datos de uso para facilitar la asignación de costes](https://www.ibm.com/cloud/blog/2019/04/export-your-tagged-usage-data-within-the-enhanced-ibm-cloud/).
+Ahora puede utilizar nuestras más recientes funciones de etiquetado para gestionar los recursos, el uso y los costes en el informe de uso exportado. Cuando añade una etiqueta a un recurso, tiene la opción de visualizar la etiqueta asociada al recurso. Vaya a **Gestionar**> **Facturación y uso**> **Uso**> **Exportar CSV**>  **Instancias** para descargar su informe de uso. Para obtener más información sobre cómo exportar etiquetas, consulte la publicación del blog sobre [Exportación de etiquetas en sus datos de uso para facilitar la asignación de costes](https://www.ibm.com/cloud/blog/export-your-tagged-usage-data-within-the-enhanced-ibm-cloud){: new_window} ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo").
 
 ### Grupo de acceso para habilitar el acceso público a los recursos
 Novedad desde: 25 de marzo de 2019
@@ -45,7 +45,7 @@ Ahora puede habilitar el acceso público a objetos de grupos de {{site.data.keyw
 Novedad desde: 12 de marzo de 2019
 {: #mfa-federated}
 
-Los propietarios de la cuenta o los usuarios que tienen asignado el rol de administrador en el servicio de gestión de la cuenta de facturación puede habilitar la autenticación de multifactores (MFA) para todos los usuarios de su cuenta. Es posible que los usuarios federados que utilizan su ID de inicio de sesión único empresarial o corporativo ahora necesiten autenticarse utilizando MFA para iniciar la sesión en {{site.data.keyword.Bluemix_notm}}. Para obtener más información sobre esta mejora funcional y sobre cómo habilitar MFA en su cuenta, consulte [Presentación de MFA para usuarios de IBM Cloud con ID federado](https://www.ibm.com/blogs/bluemix/2019/03/introducing-mfa-for-ibm-cloud-users-with-federated-id/){: new_window} ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo").
+Los propietarios de la cuenta o los usuarios que tienen asignado el rol de administrador en el servicio de gestión de la cuenta de facturación puede habilitar la autenticación de multifactores (MFA) para todos los usuarios de su cuenta. Es posible que los usuarios federados que utilizan su ID de inicio de sesión único empresarial o corporativo ahora necesiten autenticarse utilizando MFA para iniciar la sesión en {{site.data.keyword.Bluemix_notm}}. Para obtener más información sobre esta mejora funcional y sobre cómo habilitar MFA en su cuenta, consulte [Presentación de MFA para usuarios de IBM Cloud con ID federado](https://www.ibm.com/cloud/blog/introducing-mfa-for-ibm-cloud-users-with-federated-id){: new_window} ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo").
 
 ### Nueva opción de nombre de host de appdomain.cloud
 Novedad desde: 31 de diciembre de 2018
@@ -89,7 +89,7 @@ Una vez haya iniciado sesión, podrá ver todos los usuarios, incluidos los usua
 
 Ahora que todos los usuarios se encuentran en una sola consola, podrá gestionar el acceso a todos los tipos de recursos desde el mismo lugar. El primer paso para obtener el acceso es el usuario, por lo que lo primero que tiene que hacer es seleccionar un usuario de la lista. A continuación, en función del tipo de recurso al que desee asignarle acceso, puede eligir entre las políticas de acceso de IAM, el acceso de Cloud Foundry o los permisos de infraestructura clásicos. Si solo desea asignar políticas de acceso de IAM, intente crear un grupo de acceso para agilizar el proceso de gestión de accesos añadiendo todos los usuarios al mismo grupo de acceso que necesita que se le asignen las mismas políticas.
 
-Para obtener más información, consulte [Las mejoras en el acceso de usuarios ayuda a ofrecer una plataforma {{site.data.keyword.Bluemix_notm}} unificada](https://www.ibm.com/blogs/bluemix/2018/11/ibm-cloud-access-management){: new_window} ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo"). 
+Para obtener más información, consulte [Las mejoras en el acceso de usuarios ayuda a ofrecer una plataforma {{site.data.keyword.Bluemix_notm}} unificada](https://www.ibm.com/cloud/blog/announcements/ibm-cloud-access-management){: new_window} ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo"). 
 
 ### Busque toda la documentación del plugin de la CLI de {{site.data.keyword.Bluemix_notm}} en el mismo lugar
 Novedad desde: 30 de noviembre de 2018
@@ -120,13 +120,13 @@ La información de cuenta, facturación y perfil se ha simplificado. Puede ver l
 * El área de información de cuenta contiene información sobre la empresa u organización, los valores de cuenta y el acceso rápido para trabajar con grupos de recursos y organizaciones de Cloud Foundry. Incluso puede encontrar prácticas recomendadas para ayudarle a empezar a trabajar rápidamente.
 * El área de uso y facturación de su cuenta le ayuda a comprender la factura, a realizar pagos, a supervisar suscripciones, a obtener presupuestos, a realizar un seguimiento de los pedidos y a establecer notificaciones de gastos.
 
-Consulte el tema sobre [Combinación de todos los elementos: gestión única de cuenta y de facturación](https://www.ibm.com/blogs/bluemix/2018/11/ibm-cloud-account-management/){: new_window} ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo") para obtener más información.
+Consulte el tema sobre [Combinación de todos los elementos: gestión única de cuenta y de facturación](https://www.ibm.com/cloud/blog/announcements/ibm-cloud-account-management){: new_window} ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo") para obtener más información.
 
 ### Organizar los recursos con etiquetas
 Novedad desde: 30 de noviembre de 2018
 {: #tag}
 
-Ahora puede añadir etiquetas a sus recursos como, por ejemplo, Cloud Object Storage, para que le ayuden a gestionar recursos y a buscar los que sean más relevantes para usted. Por ejemplo, si tiene cientos de recursos y desea diferenciar entre un par de ellos que se pagan de la misma manera, puede etiquetarlos como `costcenter:location01`. O, si tiene un equipo que trabaja en un par de recursos de manera constante, puede utilizar una etiqueta como `team-blue`. También puede filtrar la lista de recursos por etiquetas para organizar y encontrar rápidamente los recursos que necesita. Para obtener más información, consulte [Cómo trabajar con etiquetas](/docs/resources?topic=resources-tag) y [Etiquetado de la plataforma en la plataforma mejorada de {{site.data.keyword.Bluemix_notm}}](https://www.ibm.com/blogs/bluemix/2018/11/platform-tagging-on-the-enhanced-ibm-cloud-platform/){: new_window} ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo"). 
+Ahora puede añadir etiquetas a sus recursos como, por ejemplo, Cloud Object Storage, para que le ayuden a gestionar recursos y a buscar los que sean más relevantes para usted. Por ejemplo, si tiene cientos de recursos y desea diferenciar entre un par de ellos que se pagan de la misma manera, puede etiquetarlos como `costcenter:location01`. O, si tiene un equipo que trabaja en un par de recursos de manera constante, puede utilizar una etiqueta como `team-blue`. También puede filtrar la lista de recursos por etiquetas para organizar y encontrar rápidamente los recursos que necesita. Para obtener más información, consulte [Cómo trabajar con etiquetas](/docs/resources?topic=resources-tag) y [Etiquetado de la plataforma en la plataforma mejorada de {{site.data.keyword.Bluemix_notm}}](https://www.ibm.com/cloud/blog/announcements/platform-tagging-on-the-enhanced-ibm-cloud-platform){: new_window} ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo"). 
 
 ### Buscar costes mensuales precisos con el estimador de costes
 Novedad desde: 30 de noviembre de 2018
@@ -164,7 +164,7 @@ Con {{site.data.keyword.cloud_notm}} Identity and Access Management (IAM), puede
 * Catálogo global de recursos para ver ofertas del catálogo privado y actualizar los metadatos y la visibilidad de las ofertas
 * Todos los servicios de gestión de cuentas para acceder a cada una de las opciones de los servicios de gestión de cuentas individuales en función del rol asignado, así como acceso a facturación y seguimiento del uso.
 
-Para obtener más información sobre las tareas que puede realizar un usuario en función del servicio de gestión de cuentas en el que tienen una política y del rol asignado, consulte [Roles y acciones de gestión de plataforma de ejemplo para los servicios de gestión de cuentas](/docs/iam?topic=iam-userroles#platformrolestable2). Para obtener más información sobre esta nueva característica, consulte la publicación del blog sobre [Cómo incorporar más flexibilidad y control para el acceso a los servicios de gestión de cuentas de IBM Cloud](https://www.ibm.com/blogs/bluemix/2018/11/introducing-more-flexibility-and-control-for-ibm-cloud-account-management-services-access/){: new_window} ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo"). 
+Para obtener más información sobre las tareas que puede realizar un usuario en función del servicio de gestión de cuentas en el que tienen una política y del rol asignado, consulte [Roles y acciones de gestión de plataforma de ejemplo para los servicios de gestión de cuentas](/docs/iam?topic=iam-userroles#platformrolestable2). Para obtener más información sobre esta nueva característica, consulte la publicación del blog sobre [Cómo incorporar más flexibilidad y control para el acceso a los servicios de gestión de cuentas de IBM Cloud](https://www.ibm.com/cloud/blog/announcements/introducing-more-flexibility-and-control-for-ibm-cloud-account-management-services-access){: new_window} ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo"). 
 
 ### Búsqueda de recursos
 Novedad desde: 17 de julio de 2018
@@ -200,13 +200,13 @@ Los mandatos de CLI de {{site.data.keyword.Bluemix_notm}} han cambiado de **`blu
 Novedad desde: 2 de mayo de 2018
 {: #account-mfa}
 
-La autenticación de multifactores (MFA) añade una capa de seguridad extra a su cuenta solicitando a todos los usuarios que proporcionen un código de acceso de un solo uso basado en tiempo además del IBMid y la contraseña estándar durante el inicio de sesión. También se conoce como autenticación de dos factores (2FA). La MFA se habilita por cuenta y, una vez activada, se solicita a todos los usuarios de la cuenta que inicien sesión utilizando la medida de seguridad adicional. Para obtener más información, consulte la publicación del blog [IBM Cloud Platform ahora añade soporte a la autenticación de multifactores](https://www.ibm.com/blogs/bluemix/2018/05/ibm-cloud-platform-now-adds-support-multi-factor-authentication/){: new_window} ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo").
+La autenticación de multifactores (MFA) añade una capa de seguridad extra a su cuenta solicitando a todos los usuarios que proporcionen un código de acceso de un solo uso basado en tiempo además del IBMid y la contraseña estándar durante el inicio de sesión. También se conoce como autenticación de dos factores (2FA). La MFA se habilita por cuenta y, una vez activada, se solicita a todos los usuarios de la cuenta que inicien sesión utilizando la medida de seguridad adicional. Para obtener más información, consulte la publicación del blog [IBM Cloud Platform ahora añade soporte a la autenticación de multifactores](https://www.ibm.com/cloud/blog/ibm-cloud-platform-now-adds-support-multi-factor-authentication){: new_window} ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo").
 
 ### Asignar acceso rápidamente mediante grupos de acceso
 Novedad desde: 03 de abril de 2018
 {: #access-groups}
 
-¿Desea poder asignar acceso rápidamente utilizando el menor número posible de políticas? Ahora puede hacerlo gracias a los grupos de acceso. Los grupos de acceso le permiten agrupar un conjunto de usuarios y de ID de servicio y asignar una única política que se aplica a todos los miembros del grupo. Mediante los grupos de acceso puede reducir el tiempo que pasa gestionando el acceso a usuarios e ID de servicio en su cuenta. Para obtener más detalles, consulte la publicación de blog [Nueva característica: Grupos de acceso](https://www.ibm.com/blogs/bluemix/2018/04/access-groups/){: new_window} ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo").
+¿Desea poder asignar acceso rápidamente utilizando el menor número posible de políticas? Ahora puede hacerlo gracias a los grupos de acceso. Los grupos de acceso le permiten agrupar un conjunto de usuarios y de ID de servicio y asignar una única política que se aplica a todos los miembros del grupo. Mediante los grupos de acceso puede reducir el tiempo que pasa gestionando el acceso a usuarios e ID de servicio en su cuenta. Para obtener más detalles, consulte la publicación de blog [Nueva característica: Grupos de acceso](https://www.ibm.com/cloud/blog/access-groups){: new_window} ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo").
 
 ### Ya está disponible el servicio {{site.data.keyword.Bluemix_notm}} Foundry de la región EE.UU. este
 Novedad desde: 15 de diciembre de 2017
@@ -256,7 +256,7 @@ Ahora tenemos el nuevo Centro de soporte, donde puede buscar información, publi
 Novedad desde: 31 de octubre de 2017
 {: #meet-ibmcloud}
 
-Bluemix es ahora IBM Cloud. Aparte de nuestro nuevo nombre, nada cambia. Puede seguir construyendo y ejecutando fácilmente las apps y los servicios como siempre. Consulte el [Blog de IBM Cloud](https://www.ibm.com/blogs/bluemix/2017/10/bluemix-is-now-ibm-cloud/){: new_window} ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo") para obtener más detalles.
+Bluemix es ahora IBM Cloud. Aparte de nuestro nuevo nombre, nada cambia. Puede seguir construyendo y ejecutando fácilmente las apps y los servicios como siempre. Consulte el [Blog de IBM Cloud](https://www.ibm.com/cloud/blog/announcements/bluemix-is-now-ibm-cloud){: new_window} ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo") para obtener más detalles.
 
 ### Cuenta Lite
 Novedad desde: 31 de octubre de 2017
@@ -270,13 +270,13 @@ Novedad desde: 6 de octubre de 2017
 
 Identity and Access Management (IAM) ahora proporciona la capacidad de crear un ID de servicio, que puede pensar que es una identidad que se puede utilizar para las apps para autenticarlas con sus servicios de {{site.data.keyword.Bluemix_notm}}. En lugar de utilizar las credenciales de usuario individual, un ID de servicio puede crearse con una clave de API asociada y los permisos de acceso en forma de una política de servicio que se asigna al ID de servicio para controlar el nivel de acceso para cualquier aplicación que se autentica con ese ID.
 
-Para obtener más información sobre los beneficios de esta característica y cómo empezar, consulte la [Introducción a los ID de servicio y a las claves de API de IAM de IBM Cloud](https://www.ibm.com/blogs/bluemix/2017/10/introducing-ibm-cloud-iam-service-ids-api-keys/){: new_window} ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo").
+Para obtener más información sobre los beneficios de esta característica y cómo empezar, consulte la [Introducción a los ID de servicio y a las claves de API de IAM de IBM Cloud](https://www.ibm.com/cloud/blog/introducing-ibm-cloud-iam-service-ids-api-keys){: new_window} ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo").
 
 ### Catálogo global de {{site.data.keyword.Bluemix_notm}}
 Novedad desde: 27 de julio de 2017
 {: #gc}
 
-Expandiéndose en la última actualización de consola para gestionar sus regiones públicas desde una ubicación única en la consola, {{site.data.keyword.Bluemix_notm}} ahora tiene un catálogo global, que hace que el proceso de selección y de despliegue de elementos que selecciona desde el catálogo sea un proceso más ágil. Independientemente de la región que haya seleccionado en la consola, ahora puede ver todos los servicios que están disponibles en todas las regiones públicas desde el catálogo. Una vez que seleccione un mosaico del catálogo, puede ver en qué regiones está disponible el servicio, y seleccionar dónde desea desplegarlo. Para obtener más información sobre las últimas actualizaciones del catálogo, consulte [Un catálogo global de {{site.data.keyword.Bluemix_notm}} facilita la creación de cosas](https://www.ibm.com/blogs/bluemix/2017/07/global-bluemix-catalog-makes-building-things-easier/){: new_window} ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo").
+Expandiéndose en la última actualización de consola para gestionar sus regiones públicas desde una ubicación única en la consola, {{site.data.keyword.Bluemix_notm}} ahora tiene un catálogo global, que hace que el proceso de selección y de despliegue de elementos que selecciona desde el catálogo sea un proceso más ágil. Independientemente de la región que haya seleccionado en la consola, ahora puede ver todos los servicios que están disponibles en todas las regiones públicas desde el catálogo. Una vez que seleccione un mosaico del catálogo, puede ver en qué regiones está disponible el servicio, y seleccionar dónde desea desplegarlo. Para obtener más información sobre las últimas actualizaciones del catálogo, consulte [Un catálogo global de {{site.data.keyword.Bluemix_notm}} facilita la creación de cosas](https://www.ibm.com/cloud/blog/announcements/global-bluemix-catalog-makes-building-things-easier){: new_window} ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo").
 
 ### Actualizaciones de consola de {{site.data.keyword.Bluemix_notm}}
 Novedad desde: 23 de mayo de 2017

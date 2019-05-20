@@ -4,7 +4,7 @@ copyright:
 
   years: 2018, 2019
 
-lastupdated: "2019-03-14"
+lastupdated: "2019-05-13"
 
 keywords: enterprise architect quick start
 
@@ -35,10 +35,10 @@ Erstellen Sie ein nutzungsabhängiges Konto oder ein Abonnementkonto, um vollen 
 1. Überprüfen Sie, was {{site.data.keyword.Bluemix_notm}} zu bieten hat, um zu sehen, wie es in die Anforderungen und die Roadmap Ihres Unternehmens passt. 
     * Weitere Informationen zur Plattform finden Sie in [Was ist die {{site.data.keyword.Bluemix_notm}}-Plattform?](/docs/overview?topic=overview-whatis-platform).
     * {{site.data.keyword.Bluemix_notm}} bietet unterbrechungsfreie End-to-End-Sicherheit für cloud-native und Unternehmensanwendungen und Daten. Weitere Informationen enthält [Wie weiß ich, dass meine Daten sicher sind?](/docs/overview?topic=overview-security) 
-    * Erfahren Sie mehr zu Disaster-Recovery und Hochverfügbarkeit in {{site.data.keyword.Bluemix_notm}}. Weitere Informationen enthält [Wie stelle ich null Ausfallzeit sicher?](/docs/overview?topic=overview-zero-downtime)
+    * Erfahren Sie mehr zu Disaster-Recovery und Hochverfügbarkeit in {{site.data.keyword.Bluemix_notm}}. Weitere Informationen enthält [Wie kann sichergestellt werden, dass keine Ausfallzeiten auftreten?](/docs/overview?topic=overview-zero-downtime)
     * Prüfen Sie die Referenzarchitekturen für {{site.data.keyword.Bluemix_notm}}. Weitere Informationen enthält das [Architecture Center](https://www.ibm.com/cloud/garage/architectures){: new_window} ![Symbol für externen Link](../icons/launch-glyph.svg). 
     * Beschäftigen Sie sich mit Fallstudien, um zu erfahren, wie andere Unternehmen {{site.data.keyword.Bluemix_notm}} einsetzen, um ihre Geschäftsziele umzusetzen. Weitere Informationen finden Sie in [{{site.data.keyword.Bluemix_notm}}-Fallstudien](https://www.ibm.com/cloud-computing/bluemix/case-studies){: new_window} ![Symbol für externen Link](../icons/launch-glyph.svg). 
-2. Lernen Sie die unterschiedlichen Optionen für das Hosting Ihrer Apps kennen, mit denen Sie genau so viel Kontrolle über die Infrastruktur erhalten, wie Sie wünschen oder wie erforderlich ist. Weitere Informationen enthält [Hosting-Umgebung auswählen](/docs/overview?topic=overview-whatis-platform#choose-compute).
+2. Lernen Sie die unterschiedlichen Optionen für das Hosting Ihrer Apps kennen, mit denen Sie genau so viel Kontrolle über die Infrastruktur erhalten, wie Sie wünschen oder wie erforderlich ist. Weitere Informationen enthält [Hosting-Umgebung auswählen](/docs/apps/tutorials?topic=creating-apps-hosting).
 3. Erkunden Sie die Angebote im [Katalog](https://cloud.ibm.com/catalog){: new_window} ![Symbol für externen Link](../icons/launch-glyph.svg), die Sie zum Erstellen Ihrer Lösung verwenden können.
 
 ## Nächste Schritte

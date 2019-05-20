@@ -2,7 +2,7 @@
 
 copyright:
   years: 2018, 2019
-lastupdated: "2019-01-29"
+lastupdated: "2019-05-13"
 
 keywords: first steps, understanding IT ops
 
@@ -35,7 +35,7 @@ Melden Sie sich für ein nutzungsabhängiges Konto oder für ein Abonnementkonto
 {: #steps-it-ops}
 
 1. Nutzen Sie unsere Lernmaterialien, um zu verstehen, wie {{site.data.keyword.cloud_notm}} funktioniert:
-    * Erfahren Sie, welche Optionen für das [Hosting Ihrer Anwendungen](/docs/overview?topic=overview-whatis-platform#choose-compute) in {{site.data.keyword.cloud}} zur Verfügung stehen.
+    * Erfahren Sie, welche Optionen für das [Hosting Ihrer Anwendungen](/docs/apps/tutorials?topic=creating-apps-hosting) in {{site.data.keyword.cloud_notm}} zur Verfügung stehen.
     * Prüfen Sie das [Architekturdiagramm](https://www.ibm.com/cloud/garage/architectures/infrastructure){: new_window} ![Symbol für externen Link](../icons/launch-glyph.svg), um sich mit der Infrastruktur von {{site.data.keyword.cloud_notm}} vertraut zu machen. 
 2. Nutzen Sie den Kostenschätzer, um sich einen Eindruck davon zu verschaffen, wie viel Ihre Infrastruktur kosten könnte:
 

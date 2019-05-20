@@ -3,7 +3,7 @@
 
 copyright:
   years: 2016, 2019
-lastupdated: "2019-03-14"
+lastupdated: "2019-05-13"
 
 keywords: console, platform overview, overview
 
@@ -28,47 +28,7 @@ La plataforma de {{site.data.keyword.Bluemix_notm}} consta de varios componentes
   * Un mecanismo de búsqueda y etiquetado para filtrar e identificar los recursos
   * Un sistema de gestión de cuentas y facturación que proporciona una utilización exacta de los planes de precios y protección de fraude con tarjeta de crédito
 
-## Elección del entorno de alojamiento
-{: #choose-compute}
-
-Con {{site.data.keyword.Bluemix_notm}}, ya no será necesario hacer grandes inversiones en hardware para probar o ejecutar apps nuevas. En su lugar, nosotros lo gestionamos todos y solo se le cobrará por lo que utilice. El entorno del servicio en la nube es la base de la capa de la infraestructura. Puede elegir una opción única o una combinación de opciones en entornos más complejos. 
-
-Dispone de varias opciones de alojar apps, lo que le proporciona control sobre la infraestructura según sus deseos o necesidades. Puede ejecutar la app de cualquiera de las formas siguientes:
-
-  * Como función sin servidor
-  * Como app de Cloud Foundry
-  * Como contenedor Docker en un clúster de Kubernetes
-  * Como VMware
-  * Como máquina virtual
-  * En {{site.data.keyword.baremetal_short}} de alto rendimiento 
-
-{{site.data.keyword.baremetal_short}} son servidores físicos de un solo arrendatario que están dedicados a un único cliente. El usuario controla casi todo, desde el host de servidor a la RAM y a los dispositivos de almacenamiento. Estos servidores se utilizan con cargas de trabajo que requieren potencia de cálculo durante un tiempo prolongado, por ejemplo, varios meses. 
-
-{{site.data.keyword.BluVirtServers_short}} se puede desplegar como instancias públicas o dedicadas. Con las instancias públicas, los recursos del servidor se comparten con otros clientes; también se conoce como entorno multiarrendatario. Las instancias privadas dedican los recursos del servidor físico a un cliente que puede tener una o varias máquinas virtuales en el mismo servidor. Estos servidores son ideales para las cargas de trabajo que se ejecutan durante un tiempo limitado, por ejemplo, un par de semanas. Otros ejemplos de carga de trabajo son el desarrollo y las pruebas, la copia de seguridad y la recuperación, y la recuperación tras desastre. Para obtener más información sobre las opciones de servidor, consulte [Servidores nativos frente a servidores virtuales: Elegir la mejor opción](https://www.ibm.com/blogs/bluemix/2018/06/bare-metal-virtual-servers-works/){: new_window} ![Icono de enlace externo](../icons/launch-glyph.svg "Icono de enlace externo").
-
-Consulte la tabla siguiente para obtener un resumen de las opciones de cálculo.
-
-| Opción | Descripción | 
-|--------|---------------|
-| [{{site.data.keyword.baremetal_short}}](/docs/bare-metal?topic=bare-metal-bm-getting-started#bm-getting-started)  | Servidores de un solo arrendatario mensuales o por hora, dedicados y no compartidos con otros clientes, incluidos los recursos del servidor. |
-| [{{site.data.keyword.BluVirtServers_short}}](/docs/vsi?topic=virtual-servers-about-public-virtual-servers#public-virtual-servers) | Servidores virtuales escalables que se adquieren con núcleos dedicados y asignaciones de memoria. |
-| [{{site.data.keyword.vmwaresolutions_short}}](/docs/services/vmwaresolutions?topic=vmware-solutions-getting-started#getting-started) | Integrar o migrar de forma rápida y transparente las cargas de trabajo de VMware locales utilizando una infraestructura escalable, segura y de alto rendimiento y la tecnología de virtualización híbrida de VMware líder del sector. |
-| [{{site.data.keyword.containerlong_notm}}](/docs/containers?topic=containers-container_index) | Combina contenedores de Docker, la tecnología de Kubernetes, una experiencia de usuario intuitiva y una seguridad y aislamiento integrados para automatizar el despliegue, la operación, el escalado y la supervisión de apps contenerizadas en un clúster de hosts de cálculo. |
-| [{{site.data.keyword.cfee_full_notm}}](/docs/cloud-foundry?topic=cloud-foundry-about) | Crear instancias de varias plataformas de Cloud Foundry aisladas y de nivel empresarial a petición. |
-| [{{site.data.keyword.openwhisk_short}}](/docs/openwhisk?topic=cloud-functions-index) | Una plataforma de programación de funciones como servicio (FaaS) basada en Apache OpenWhisk. |
-{: caption="Tabla 1. Opciones de cálculo" caption-side="top"}
-
-## Creación de aplicaciones
-{: #build-apps}
-
 En el caso de que disponga de [código existente](/docs/apps/tutorials?topic=creating-apps-tutorial-byoc#tutorial-byoc) que desee modernizar y traer a la nube o de estar desarrollando una [nueva aplicación](/docs/apps/tutorials?topic=creating-apps-tutorial-starterkit), sus desarrolladores pueden tocar en el ecosistema de rápido crecimiento de los servicios e infraestructuras de tiempo de ejecución disponibles en {{site.data.keyword.Bluemix_notm}}.
-
-Las [guías de programación](https://cloud.ibm.com/docs/home/build){: new_window} ![Icono de enlace externo](../icons/launch-glyph.svg "Icono de enlace externo") están disponibles por idioma para ayudarle a empezar a trabajar. Existen muchas formas de alojar apps con la infraestructura de {{site.data.keyword.Bluemix_notm}} desde {{site.data.keyword.baremetal_short}} para que se ejecuten como una función sin servidor.
-
-## Conexión de servicios
-{: #connect-services}
-
-Con más de 190 servicios entre los que elegir en el catálogo, puede crear una solución adaptada que se ajuste a sus necesidades. También puede conectar fácilmente servicios a apps fuera de {{site.data.keyword.Bluemix_notm}} si estos son adecuados para usted. Puede generar un nuevo conjunto de credenciales para casos en los que quiera conectarse manualmente un consumidor externo a un servicio de {{site.data.keyword.Bluemix_notm}}. Por ejemplo, si intenta conectar una app fuera de {{site.data.keyword.Bluemix_notm}} a un servicio de Watson, deberá generar una nueva credencial que los conecte. ¡Eso es todo! Para obtener más información, consulte [Adición de una credencial](/docs/resources?topic=resources-service_credentials).
 
 ## Configuración de la cuenta
 {: #set-up-account}

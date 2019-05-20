@@ -3,7 +3,7 @@
 
 copyright:
   years: 2016, 2019
-lastupdated: "2019-03-14"
+lastupdated: "2019-05-13"
 
 keywords: console, platform overview, overview
 
@@ -28,47 +28,7 @@ Die {{site.data.keyword.Bluemix_notm}}-Plattform setzt sich aus mehreren Kompone
   * Ein Such- und Taggingmechanismus zum Filtern und Identifizieren Ihrer Ressourcen
   * Ein Konto- und Abrechnungsverwaltungssystem, das die genaue Verwendung von Preisstrukturplänen (Preistarifen) zur Verfügung stellt und Schutz vor Kreditkartenbetrug bietet
 
-## Hosting-Umgebung auswählen
-{: #choose-compute}
-
-Mit {{site.data.keyword.Bluemix_notm}} müssen Sie keine hohen Investitionen mehr in Hardware tätigen, um eine neue App zu testen oder zu betreiben. Stattdessen übernehmen wir die gesamte Verwaltung für Sie und berechnen nur das, wovon Sie tatsächlich Gebrauch machen. Ihre Cloud-Server-Umgebung ist die Basis Ihrer Infrastrukturebene. Sie können eine einzelne Option oder aber eine Kombination für komplexere Umgebungen auswählen. 
-
-Für das Hosting Ihrer Apps stehen Ihnen diverse Möglichkeiten offen, wodurch Sie genau so viel Kontrolle über die Infrastruktur erhalten, wie Sie wünschen oder wie erforderlich ist. Sie können Ihre App auf eine der folgenden Arten ausführen:
-
-  * Als serverlose Funktion
-  * Als Cloud Foundry-App
-  * Als Docker-Container in einem Kubernetes-Cluster
-  * Als VMware
-  * Als virtuelle Maschine (VM)
-  * Auf leistungsfähigen {{site.data.keyword.baremetal_short}}-Instanzen 
-
-Bei {{site.data.keyword.baremetal_short}} handelt es sich um physische Server mit einem Tenant, die für einen einzelnen Kunden bestimmt sind. Sie steuern fast alles, angefangen beim Server-Host bis zum Arbeitsspeicher und den Speichergeräten. Diese Server werden mit Workloads verwendet, die Rechenleistungen über einen längeren Zeitraum von beispielsweise mehreren Monaten erfordern. 
-
-{{site.data.keyword.BluVirtServers_short}}-Instanzen können als öffentliche oder als dedizierte Instanzen bereitgestellt werden. Bei öffentlichen Instanzen werden die Ressourcen des Servers gemeinsam mit anderen Kunden geteilt. Daher spricht man in diesem Kontext von einer Multi-Tenant-Umgebung. Bei privaten Instanzen werden die Ressourcen des physischen Servers einem Kunden zugewiesen, der eine oder mehrere virtuelle Maschinen auf demselben Server haben kann. Diese Server sind ideal für Workloads, die für eine begrenzte Zeit, beispielsweise einige Wochen, ausgeführt werden. Einige Beispiele für Workloads sind Entwicklung und Test, Sicherung und Wiederherstellung sowie Notfallwiederherstellung (Disaster Recovery). Weitere Informationen zu den Serveroptionen finden Sie in [Bare-Metal-Server vs. virtuelle Server: Auswahl der besten Option für Sie](https://www.ibm.com/blogs/bluemix/2018/06/bare-metal-virtual-servers-works/){: new_window} ![Symbol für externen Link](../icons/launch-glyph.svg "Symbol für externen Link").
-
-Die folgende Tabelle enthält eine Zusammenfassung Ihrer Berechnungsoptionen.
-
-| Option | Beschreibung | 
-|--------|---------------|
-| [{{site.data.keyword.baremetal_short}}](/docs/bare-metal?topic=bare-metal-bm-getting-started#bm-getting-started)  | Stündliche oder monatliche Berechnung von Servern mit einem einzigen Tenant, die Ihnen zugeordnet sind und in keiner Hinsicht (einschließlich Serverressourcen) gemeinsam mit anderen Kunden genutzt werden. |
-| [{{site.data.keyword.BluVirtServers_short}}](/docs/vsi?topic=virtual-servers-about-public-virtual-servers#public-virtual-servers) | Skalierbare virtuelle Server, die mit dedizierten Cores und Hauptspeicherzuordnungen gekauft werden. |
-| [{{site.data.keyword.vmwaresolutions_short}}](/docs/services/vmwaresolutions?topic=vmware-solutions-getting-started#getting-started) | Ermöglicht die rasche und nahtlose Integration oder Migration von lokalen VMware-Workloads mithilfe einer skalierbaren, sicheren und leistungsstarken Infrastruktur und der branchenweit führenden Technologie für Hybridvirtualisierung von VMware. |
-| [{{site.data.keyword.containerlong_notm}}](/docs/containers?topic=containers-container_index) | Kombiniert Docker-Container, die Kubernetes-Technologie, ein intuitives Benutzererlebnis sowie integrierte Sicherheit und Isolation, um die Bereitstellung, den Betrieb, die Skalierung und die Überwachung containerisierter Apps in einem Cluster von Rechenhosts zu automatisieren. |
-| [{{site.data.keyword.cfee_full_notm}}](/docs/cloud-foundry?topic=cloud-foundry-about) | Ermöglicht die bedarfsgesteuerte Instanziierung mehrerer isolierter, auf Unternehmen abgestimmter Cloud Foundry-Plattformen. |
-| [{{site.data.keyword.openwhisk_short}}](/docs/openwhisk?topic=cloud-functions-index) | Eine 'Functions-as-a-Service'-Programmierungsplattform (FaaS), die auf Apache OpenWhisk basiert. |
-{: caption="Tabelle 1. Berechnungsoptionen" caption-side="top"}
-
-## Anwendungen erstellen
-{: #build-apps}
-
 Unabhängig davon, ob Sie über [vorhandenen Code](/docs/apps/tutorials?topic=creating-apps-tutorial-byoc#tutorial-byoc) verfügen, den Sie modernisieren und in die Cloud integrieren möchten, oder ob Sie eine [völlig neue Anwendung](/docs/apps/tutorials?topic=creating-apps-tutorial-starterkit) entwickeln, können sich Ihre Entwickler können das rasch wachsende Ökosystem verfügbarer Services und Laufzeitframeworks in {{site.data.keyword.Bluemix_notm}} zunutze machen.
-
-Für jede Sprache stehen [Programmierungsanleitungen](https://cloud.ibm.com/docs/home/build){: new_window} ![Symbol für externen Link](../icons/launch-glyph.svg "Symbol für externen Link") zur Verfügung, die Ihnen dabei helfen, Ihr Ziel möglichst rasch umzusetzen. Ihnen stehen zahlreiche Optionen vom Hosting Ihrer Apps mit {{site.data.keyword.Bluemix_notm}}-Infrastruktur von {{site.data.keyword.baremetal_short}} bis zu ihrer Ausführung als serverlose Funktion zur Verfügung.
-
-## Services verbinden
-{: #connect-services}
-
-Mit einem Angebot von über 190 Services, die im Katalog zur Auswahl stehen, können Sie eine individuell angepasste Lösung für Ihre speziellen Anforderungen erstellen. Sie können Services auch problemlos mit Apps außerhalb von {{site.data.keyword.Bluemix_notm}} verbinden, wenn dies zu Ihrem Anwendungsfall passt. Sie können eine neue Gruppe von Berechtigungsnachweisen für die Fälle generieren, in denen Sie einen externen Konsumenten manuell mit einem {{site.data.keyword.Bluemix_notm}}-Service verbinden möchten. Wenn Sie beispielsweise versuchen, eine App außerhalb von {{site.data.keyword.Bluemix_notm}} mit einem Watson-Service zu verbinden, müssen Sie einen neuen Berechtigungsnachweis generieren, mit dem App und Service miteinander verbunden werden. So einfach ist das. Weitere Informationen enthält [Berechtigungsnachweis hinzufügen](/docs/resources?topic=resources-service_credentials).
 
 ## Konto einrichten
 {: #set-up-account}

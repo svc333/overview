@@ -4,7 +4,7 @@ copyright:
 
   years: 2015, 2019
 
-lastupdated: "2019-05-07"
+lastupdated: "2019-05-13"
 
 keywords: release notes, what's new, what is new, cloud updates
 
@@ -19,7 +19,8 @@ subcollection: overview
 # Neuerungen in {{site.data.keyword.Bluemix_notm}}
 {: #whatsnew}
 
-Wenn Sie hinsichtlich neuer Features, die auf der {{site.data.keyword.Bluemix}}-Plattform verfügbar sind, stets auf dem aktuellen Stand bleiben, können Sie am meisten von {{site.data.keyword.Bluemix_notm}} profitieren. {:shortdesc}
+Wenn Sie hinsichtlich neuer Features, die auf der {{site.data.keyword.Bluemix}}-Plattform verfügbar sind, stets auf dem aktuellen Stand bleiben, können Sie am meisten von {{site.data.keyword.Bluemix_notm}} profitieren. 
+{:shortdesc}
 
 Aktualisierungen für die Services, die in {{site.data.keyword.Bluemix_notm}} verfügbar sind, finden Sie auf der Seite mit [{{site.data.keyword.Bluemix_notm}}-Ankündigungen ](https://www.ibm.com/cloud/blog/announcements){: new_window} ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link") im Blog.
 {: tip}
@@ -33,7 +34,7 @@ Aktualisierungen für die Services, die in {{site.data.keyword.Bluemix_notm}} ve
 ### Nutzungsdaten mit zugehörigen Tags exportieren
 Datum der Neuerung: 4. April 2019 
 
-Sie können jetzt unsere neueste Tagging-Funktionalität verwenden, um Ressourcen, Nutzung und Kosten im exportierten Nutzungsbericht zu verwalten. Wenn Sie einer Ressource ein Tag hinzufügen, können Sie das Tag anzeigen, das der Ressource zugeordnet wurde. Rufen Sie **Verwalten**> **Abrechnung und Nutzung**> **Nutzung**> **CSV exportieren**>  **Instanzen** auf, um Ihren Nutzungsbericht herunterzuladen. Weitere Informationen zum Exportieren von Tags finden Sie im Blogbeitrag [Export tags within your usage data to help with cost allocation](https://www.ibm.com/cloud/blog/2019/04/export-your-tagged-usage-data-within-the-enhanced-ibm-cloud/).
+Sie können jetzt unsere neueste Tagging-Funktionalität verwenden, um Ressourcen, Nutzung und Kosten im exportierten Nutzungsbericht zu verwalten. Wenn Sie einer Ressource ein Tag hinzufügen, können Sie das Tag anzeigen, das der Ressource zugeordnet wurde. Rufen Sie **Verwalten**> **Abrechnung und Nutzung**> **Nutzung**> **CSV exportieren**>  **Instanzen** auf, um Ihren Nutzungsbericht herunterzuladen. Weitere Informationen zum Exportieren von Tags finden Sie im Blogbeitrag [Zur Unterstützung der Kostenzuordnung Tags in Nutzungsdaten exportieren](https://www.ibm.com/cloud/blog/export-your-tagged-usage-data-within-the-enhanced-ibm-cloud){: new_window} ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link"). 
 
 ### Zugriffsgruppe für die Aktivierung des öffentlichen Zugriffs auf Ressourcen
 Datum der Neuerung: 25. März 2019
@@ -44,7 +45,7 @@ Sie können jetzt den öffentlichen Zugriff auf Objekte aktivieren, die sich in 
 Datum der Neuerung: 12. März 2019
 {: #mfa-federated}
 
-Kontoeigner oder Benutzer, denen die Administratorrolle für den Abrechnungskontoverwaltungsservice zugewiesen wurde, können die Mehrfaktorauthentifizierung (MFA) für alle Benutzer in ihrem Konto aktivieren. Für föderierte Benutzer, die ihre unternehmensweite Single Sign-on-ID verwenden, kann es nun erforderlich sein, sich bei der Anmeldung bei {{site.data.keyword.Bluemix_notm}} anhand der MFA zu authentifizieren. Weiter Informationen zur funktionalen Erweiterung dieses Features und zur Aktivierung der MFA für Ihr Konto finden Sie in [Einführung der MFA für IBM Cloud-Benutzer mit einer föderierten ID ](https://www.ibm.com/blogs/bluemix/2019/03/introducing-mfa-for-ibm-cloud-users-with-federated-id/){: new_window} ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link").
+Kontoeigner oder Benutzer, denen die Administratorrolle für den Abrechnungskontoverwaltungsservice zugewiesen wurde, können die Mehrfaktorauthentifizierung (MFA) für alle Benutzer in ihrem Konto aktivieren. Für föderierte Benutzer, die ihre unternehmensweite Single Sign-on-ID verwenden, kann es nun erforderlich sein, sich bei der Anmeldung bei {{site.data.keyword.Bluemix_notm}} anhand der MFA zu authentifizieren. Weiter Informationen zur funktionalen Erweiterung dieses Features und zur Aktivierung der MFA für Ihr Konto finden Sie in [Einführung der MFA für IBM Cloud-Benutzer mit einer föderierten ID ](https://www.ibm.com/cloud/blog/introducing-mfa-for-ibm-cloud-users-with-federated-id){: new_window} ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link").
 
 ### Neue Option 'appdomain.cloud' für Hostnamen
 Datum der Neuerung: 31. Dezember 2018
@@ -86,7 +87,7 @@ Nachdem Sie sich angemeldet haben, werden in der IAM-Benutzerschnittstelle (UI) 
 
 Nachdem sich nun alle Ihre Benutzer in einer einzigen Konsole befinden, können Sie ihren Zugriff auf alle Typen von Ressourcen von demselben Ort aus verwalten. Der Zugriff beginnt beim Benutzer. Beginnen Sie also mit der Auswahl eines Benutzers aus Ihrer Liste. Abhängig von der Art der Ressource, der Sie Zugriff zuweisen wollen, können Sie zwischen IAM-Zugriffsrichtlinien, Cloud Foundry-Zugriff oder klassischen Infrastrukturberechtigungen auswählen. Wenn Sie einfach nur IAM-Zugriffsrichtlinien zuweisen möchten, erstellen Sie eine Zugriffsgruppe, um Ihren Zugriffsverwaltungsprozess zu optimieren, indem Sie alle Benutzer, denen dieselben Richtlinien zugewiesen werden müssen, zu derselben Zugriffsgruppe hinzufügen.
 
-Weitere Details enthält der Blogbeitrag [Outstanding User Access Improvements Help Deliver a Unified {{site.data.keyword.Bluemix_notm}} Platform](https://www.ibm.com/blogs/bluemix/2018/11/ibm-cloud-access-management){: new_window} ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link"). 
+Weitere Details enthält der Blogbeitrag [Outstanding User Access Improvements Help Deliver a Unified {{site.data.keyword.Bluemix_notm}} Platform](https://www.ibm.com/cloud/blog/announcements/ibm-cloud-access-management){: new_window} ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link"). 
 
 ### Gesamte Dokumentation für das Plug-in der {{site.data.keyword.Bluemix_notm}}-CLI befindet sich jetzt an einem Ort
 Datum der Neuerung: 30. November 2018
@@ -117,13 +118,13 @@ Ihre Konto-, Abrechnungs- und Profilinformationen wurden vereinfacht. Sie könne
 * Ihr Kontoinformationsbereich enthält Informationen zu Ihrem Unternehmen oder Ihrer Organisation, Kontoeinstellungen und Schnellzugriff für das Arbeiten mit Ressourcengruppen und Cloud Foundry-Organisationen. Hier finden Sie sogar Leitfäden für den Schnelleinstieg, die Ihnen dabei helfen sollen, möglichst rasch durchzustarten.
 * Der Abrechnungs- und Nutzungsbereich Ihres Kontos hilft Ihnen, Ihre Rechnung zu verstehen, Zahlungen vorzunehmen, Abonnements zu überwachen, Angebote einzuholen, Bestellungen zu verfolgen und Benachrichtigungen über Ausgaben festzulegen.
 
-Weitere Details enthält der Blogbeitrag [Bringing It All Together: A Single Account and Billing Management Experience](https://www.ibm.com/blogs/bluemix/2018/11/ibm-cloud-account-management/){: new_window} ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link").
+Weitere Details enthält der Blogbeitrag [Bringing It All Together: A Single Account and Billing Management Experience](https://www.ibm.com/cloud/blog/announcements/ibm-cloud-account-management){: new_window} ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link").
 
 ### Organisieren von Ressourcen mit Tags
 Datum der Neuerung: 30. November 2018
 {: #tag}
 
-Es stehen jetzt Tags zur Verfügung, die Sie zu Ihren Ressourcen hinzufügen können, wie z. B. Cloud Object Storage. Diese Tags helfen Ihnen bei der Verwaltung von Ressourcen und vereinfachen die Suche nach denjenigen, die für Sie die höchste Relevanz besitzen. Wenn Sie zum Beispiel über Hunderte von Ressourcen verfügen und zwischen einigen wenigen unterscheiden möchten, die auf dieselbe Weise bezahlt werden, könnten Sie sie mit `kostenstelle:standort01` kennzeichnen. Wenn ein Team wiederholt an bestimmten Ressourcen arbeitet, könnten Sie etwas wie `blaues-team` verwenden. Sie können Ihre Ressourcenliste auch nach Tags filtern, um die benötigten Ressourcen rasch zu organisieren und zu finden. Weitere Informationen finden Sie im Abschnitt [Mit Tags arbeiten](/docs/resources?topic=resources-tag) und im Blogbeitrag [Platform Tagging on the Enhanced {{site.data.keyword.Bluemix_notm}} Platform](https://www.ibm.com/blogs/bluemix/2018/11/platform-tagging-on-the-enhanced-ibm-cloud-platform/){: new_window} ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link"). 
+Es stehen jetzt Tags zur Verfügung, die Sie zu Ihren Ressourcen hinzufügen können, wie z. B. Cloud Object Storage. Diese Tags helfen Ihnen bei der Verwaltung von Ressourcen und vereinfachen die Suche nach denjenigen, die für Sie die höchste Relevanz besitzen. Wenn Sie zum Beispiel über Hunderte von Ressourcen verfügen und zwischen einigen wenigen unterscheiden möchten, die auf dieselbe Weise bezahlt werden, könnten Sie sie mit `kostenstelle:standort01` kennzeichnen. Wenn ein Team wiederholt an bestimmten Ressourcen arbeitet, könnten Sie etwas wie `blaues-team` verwenden. Sie können Ihre Ressourcenliste auch nach Tags filtern, um die benötigten Ressourcen rasch zu organisieren und zu finden. Weitere Informationen finden Sie im Abschnitt [Mit Tags arbeiten](/docs/resources?topic=resources-tag) und im Blogbeitrag [Platform Tagging on the Enhanced {{site.data.keyword.Bluemix_notm}} Platform](https://www.ibm.com/cloud/blog/announcements/platform-tagging-on-the-enhanced-ibm-cloud-platform){: new_window} ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link"). 
 
 ### Genaue monatliche Kosten mit dem Kostenschätzer suchen
 Datum der Neuerung: 30. November 2018
@@ -161,7 +162,7 @@ Mit {{site.data.keyword.cloud_notm}} Identity and Access Management (IAM) könne
 * Globaler Ressourcenkatalog zum Anzeigen von privaten Katalogangeboten und Aktualisieren der Metadaten und Sichtbarkeit für die Angebote
 * Alle Kontoverwaltungsservices für den Zugriff auf die einzelnen Kontoverwaltungsserviceoptionen, je nach zugewiesener Rolle, sowie Zugriff auf die Abrechnungs- und Nutzungsverfolgung.
 
-Weitere Informationen zu den Tasks, die ein Benutzer ausführen kann, je nachdem, für welchen Kontoverwaltungsservice er eine Richtlinie besitzt und welche Rolle ihm zugewiesen ist, finden Sie im Abschnitt [Beispiele zu Plattformmanagementrollen und Aktionen für Kontoverwaltungsservices](/docs/iam?topic=iam-userroles#platformrolestable2). Weitere Informationen zu diesem neuen Feature finden Sie unter dem Blogbeitrag [Introducing More Flexibility and Control for IBM Cloud Account Management Services Access](https://www.ibm.com/blogs/bluemix/2018/11/introducing-more-flexibility-and-control-for-ibm-cloud-account-management-services-access/){: new_window} ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link"). 
+Weitere Informationen zu den Tasks, die ein Benutzer ausführen kann, je nachdem, für welchen Kontoverwaltungsservice er eine Richtlinie besitzt und welche Rolle ihm zugewiesen ist, finden Sie im Abschnitt [Beispiele zu Plattformmanagementrollen und Aktionen für Kontoverwaltungsservices](/docs/iam?topic=iam-userroles#platformrolestable2). Weitere Informationen zu diesem neuen Feature finden Sie unter dem Blogbeitrag [Introducing More Flexibility and Control for IBM Cloud Account Management Services Access](https://www.ibm.com/cloud/blog/announcements/introducing-more-flexibility-and-control-for-ibm-cloud-account-management-services-access){: new_window} ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link"). 
 
 ### Nach Ressourcen suchen
 Datum der Neuerung: 17. Juli 2018
@@ -197,13 +198,13 @@ Die Befehle der {{site.data.keyword.Bluemix_notm}}-Befehlszeilenschnittstelle (C
 Datum der Neuerung: 02. Mai 2018
 {: #account-mfa}
 
-Durch die Mehrfaktorauthentifizierung (MFA) wird eine zusätzliche Sicherheitsebene zu Ihrem Konto hinzugefügt, denn Benutzer müssen bei der Anmeldung neben ihrer Standard-IBMid und ihrem Kennwort zusätzlich einen zeitbasierten einmaligen Kenncode eingeben. Dies wird gängigerweise auch als Zwei-Faktor-Authentifizierung (2FA) bezeichnet. Mehrfaktorauthentifizierung wird pro Konto aktiviert und alle Benutzer in dem Konto müssen sich unter Verwendung der zusätzlichen Sicherheitsmaßnahme anmelden. Weitere Informationen finden Sie im Blogbeitrag [IBM Cloud Platform now adds support for Multi-Factor Authentication](https://www.ibm.com/blogs/bluemix/2018/05/ibm-cloud-platform-now-adds-support-multi-factor-authentication/){: new_window} ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link").
+Durch die Mehrfaktorauthentifizierung (MFA) wird eine zusätzliche Sicherheitsebene zu Ihrem Konto hinzugefügt, denn Benutzer müssen bei der Anmeldung neben ihrer Standard-IBMid und ihrem Kennwort zusätzlich einen zeitbasierten einmaligen Kenncode eingeben. Dies wird gängigerweise auch als Zwei-Faktor-Authentifizierung (2FA) bezeichnet. Mehrfaktorauthentifizierung wird pro Konto aktiviert und alle Benutzer in dem Konto müssen sich unter Verwendung der zusätzlichen Sicherheitsmaßnahme anmelden. Weitere Informationen finden Sie im Blogbeitrag [IBM Cloud Platform now adds support for Multi-Factor Authentication](https://www.ibm.com/cloud/blog/ibm-cloud-platform-now-adds-support-multi-factor-authentication){: new_window} ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link").
 
 ### Mit Zugriffsgruppen schnellen Zugriff zuweisen
 Datum der Neuerung: 03. April 2018
 {: #access-groups}
 
-Wollen Sie in der Lage sein, schnell Zugriff zuzuweisen, indem Sie die kleinstmögliche Anzahl an Richtlinien verwenden? Das ist nun mithilfe von Zugriffsgruppen möglich. Mit Zugriffsgruppen können Sie eine Gruppe von Benutzern und Service-IDs gruppieren und eine einzige Richtlinie zuweisen, die für alle Mitglieder der Gruppe gilt. Durch die Verwendung von Zugriffsgruppen können Sie den Zeitaufwand für die Verwaltung des Zugriffs auf die Benutzer und Service-IDs in Ihrem Konto begrenzen. Weitere Details finden Sie im Blogbeitrag [New feature: Access groups](https://www.ibm.com/blogs/bluemix/2018/04/access-groups/){: new_window} ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link").
+Wollen Sie in der Lage sein, schnell Zugriff zuzuweisen, indem Sie die kleinstmögliche Anzahl an Richtlinien verwenden? Das ist nun mithilfe von Zugriffsgruppen möglich. Mit Zugriffsgruppen können Sie eine Gruppe von Benutzern und Service-IDs gruppieren und eine einzige Richtlinie zuweisen, die für alle Mitglieder der Gruppe gilt. Durch die Verwendung von Zugriffsgruppen können Sie den Zeitaufwand für die Verwaltung des Zugriffs auf die Benutzer und Service-IDs in Ihrem Konto begrenzen. Weitere Details finden Sie im Blogbeitrag [New feature: Access groups](https://www.ibm.com/cloud/blog/access-groups){: new_window} ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link").
 
 ### {{site.data.keyword.Bluemix_notm}} Foundry-Service jetzt für Region 'Vereinigte Staaten (Osten)' verfügbar
 Datum der Neuerung: 15. Dezember 2017
@@ -253,7 +254,7 @@ Im neuen Support Center können Sie nach Informationen suchen, Fragen an die Ent
 Datum der Neuerung: 31. Oktober 2017
 {: #meet-ibmcloud}
 
-Bluemix heißt jetzt IBM Cloud. Außer dem Namen ändert sich nichts. Sie können Ihre Apps und Services weiterhin wie gewohnt ohne großen Aufwand erstellen und ausführen. Weitere Details finden Sie im [IBM Cloud-Blog](https://www.ibm.com/blogs/bluemix/2017/10/bluemix-is-now-ibm-cloud/){: new_window} ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link").
+Bluemix heißt jetzt IBM Cloud. Außer dem Namen ändert sich nichts. Sie können Ihre Apps und Services weiterhin wie gewohnt ohne großen Aufwand erstellen und ausführen. Weitere Details finden Sie im [IBM Cloud-Blog](https://www.ibm.com/cloud/blog/announcements/bluemix-is-now-ibm-cloud){: new_window} ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link").
 
 ### Lite-Konto
 Datum der Neuerung: 31. Oktober 2017
@@ -267,13 +268,13 @@ Datum der Neuerung: 6. Oktober 2017
 
 Identity and Access Management (IAM) bietet jetzt die Möglichkeit der Erstellung einer Service-ID, die eine Art Identität darstellt, mit der sich Apps bei Ihren {{site.data.keyword.Bluemix_notm}}-Services authentifizieren können. Anstelle der Verwendung von einzelnen Benutzerberechtigungsnachweisen kann eine Service-ID mit einem zugeordneten API-Schlüssel und Zugriffsberechtigungen in Form einer Servicerichtlinie erstellt werden, die der Service-ID zugeordnet wird, damit Sie die Zugriffsebene für jede Anwendung steuern können, die sich mit dieser ID authentifiziert.
 
-Weitere Informationen zu den Vorzügen dieser Funktion und zu ihrer Verwendung enthält der Blogbeitrag [Introducing IBM Cloud IAM Service IDs and API Keys](https://www.ibm.com/blogs/bluemix/2017/10/introducing-ibm-cloud-iam-service-ids-api-keys/){: new_window} ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link").
+Weitere Informationen zu den Vorzügen dieser Funktion und zu ihrer Verwendung enthält der Blogbeitrag [Introducing IBM Cloud IAM Service IDs and API Keys](https://www.ibm.com/cloud/blog/introducing-ibm-cloud-iam-service-ids-api-keys){: new_window} ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link").
 
 ### Globaler {{site.data.keyword.Bluemix_notm}}-Katalog
 Datum der Neuerung: 27. Juli 2017
 {: #gc}
 
-Als Erweiterung der letzten Konsolenaktualisierung für die Verwaltung Ihrer öffentlichen Regionen an einer zentralen Stelle in der Konsole gibt es in {{site.data.keyword.Bluemix_notm}} jetzt einen globalen Katalog, der die Auswahl von Elementen im Katalog und ihre Bereitstellung optimiert. Ungeachtet der Region, die Sie in der Konsole ausgewählt haben, werden jetzt alle Services angezeigt, die in allen öffentlichen Regionen aus Ihrem Katalog verfügbar sind. Sobald Sie eine Kachel im Katalog auswählen, können Sie feststellen, in welchen Regionen der Service verfügbar ist, und auswählen, wo Sie den Service bereitstellen wollen. Weitere Informationen zu den neuesten Aktualisierungen des Katalogs enthält der Blogbeitrag [A global {{site.data.keyword.Bluemix_notm}} catalog makes building things easier](https://www.ibm.com/blogs/bluemix/2017/07/global-bluemix-catalog-makes-building-things-easier/){: new_window} ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link").
+Als Erweiterung der letzten Konsolenaktualisierung für die Verwaltung Ihrer öffentlichen Regionen an einer zentralen Stelle in der Konsole gibt es in {{site.data.keyword.Bluemix_notm}} jetzt einen globalen Katalog, der die Auswahl von Elementen im Katalog und ihre Bereitstellung optimiert. Ungeachtet der Region, die Sie in der Konsole ausgewählt haben, werden jetzt alle Services angezeigt, die in allen öffentlichen Regionen aus Ihrem Katalog verfügbar sind. Sobald Sie eine Kachel im Katalog auswählen, können Sie feststellen, in welchen Regionen der Service verfügbar ist, und auswählen, wo Sie den Service bereitstellen wollen. Weitere Informationen zu den neuesten Aktualisierungen des Katalogs enthält der Blogbeitrag [A global {{site.data.keyword.Bluemix_notm}} catalog makes building things easier](https://www.ibm.com/cloud/blog/announcements/global-bluemix-catalog-makes-building-things-easier){: new_window} ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link").
 
 ### Aktualisierungen der {{site.data.keyword.Bluemix_notm}}-Konsole
 Datum der Neuerung: 23. Mai 2017

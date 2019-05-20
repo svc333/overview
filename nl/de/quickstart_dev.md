@@ -4,7 +4,7 @@ copyright:
 
   years: 2018, 2019
 
-lastupdated: "2019-03-14"
+lastupdated: "2019-05-13"
 
 keywords: quick start steps, dev quick start, dev get started
 
@@ -23,9 +23,6 @@ subcollection: overview
 
 Als Entwickler möchten wir, dass Sie möglichst schnell mit dem Codieren beginnen können. Diese Kurzanleitung soll Ihnen beim Einrichten und Erstellen in {{site.data.keyword.Bluemix}} helfen.  
 {: shortdesc}
-
-Eine Liste der Funktionalität, die verfügbar ist, wenn Sie mit dem Erstellen beginnen, finden Sie in [Entwicklungsprozesse in {{site.data.keyword.cloud_notm}} erkunden](/docs/overview?topic=overview-dev-journey).
-{: tip}
 
 ## Vorbereitende Schritte
 {: #prereqs-dev}

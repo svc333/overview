@@ -2,7 +2,7 @@
 
 copyright:
   years: 2018, 2019
-lastupdated: "2019-03-14"
+lastupdated: "2019-05-13"
 
 keywords: HA, failover, DR
 
@@ -64,7 +64,15 @@ Para solventar problemas de seguridad, también puede seleccionar la ubicación 
 
 El equilibrio de carga global de la consola de {{site.data.keyword.cloud_notm}} garantiza que si la ubicación geográfica más próxima no está disponible, la consola muestra la información de la siguiente ubicación más próxima. De esta forma, siempre podrá acceder a la consola sin realizar acción alguna para acceder a los recursos que necesita.
 
-Puede ver todos los recursos en todas las ubicaciones de forma predeterminada desde la vista de la lista de recursos de la consola. Si desea ver y trabajar con recursos en una ubicación específica, expanda el menú **UBICACIÓN** y seleccione una ubicación de la lista. 
+Puede ver todos los recursos en todas las ubicaciones de forma predeterminada desde la vista de la lista de recursos de la consola. Si desea ver y trabajar con recursos en una ubicación específica, expanda el menú **Ubicación** y seleccione una ubicación de la lista. Si amplía una ubicación geográfica específica, puede filtrar por centros de datos, por regiones o por zonas individuales:
+
+Una *geografía* es un área geográfica o una demarcación política más amplia que contiene una o varias regiones. Algunos servicios reciben soporte a nivel de geografía, por lo que abarcan varias regiones y gestionan de forma transparente la duplicación y el movimiento de datos entre regiones. Por ejemplo, los datos de la geografía de la UE correspondientes a {{site.data.keyword.cos_full_notm}} pueden duplicar datos en varios centros de datos dentro de los países de la UE. 
+   * Un área *metropolitana* es una ciudad específica dentro del área geográfica específica. Por ejemplo, Dallas es un área metropolitana de América del Norte.
+      * Un *centro de datos* es la ubicación física de los servidores que proporcionan servicios de nube. Puede identificar centros de datos dentro de una geografía ampliada como opciones que utilizan el nombre de la geografía más un número.
+      * Una *región* es un territorio geográfico definido. Una región puede ser un área de código
+postal específica, un pueblo, una ciudad, un estado o grupo de estados o
+incluso un grupo de países. Puede ver la diferencia entre centros de datos y regiones en la lista por el uso de números para identificar los centros de datos.
+         * Una *zona* es un dominio de tolerancia a errores independiente diseñado para ayudar a mejorar la tolerancia a errores y a reducir la latencia. Puede identificar las zonas porque utilizan el nombre de la región más un número y están anidadas dentro de la región.
 
 ## Centros de datos
 {: #data_center}
@@ -101,7 +109,7 @@ Si despliega recursos de la infraestructura, tendrá más opciones para elegir d
 | Montreal 01      | mon01 |
 | Toronto 01       | tor01 |
 | México 01        | mex01 |
-{: caption="Tabla 2. Centros de datos en América del Norte" caption-side="top"}
+{: caption="Tabla 1. Centros de datos de América del Norte" caption-side="top"}
 
 ### América del Sur
 {: #sa}
@@ -109,7 +117,7 @@ Si despliega recursos de la infraestructura, tendrá más opciones para elegir d
 | Centro de datos | Código    |
 |------------------|---------|
 | Sao Paulo 01     | sao01   |
-{: caption="Tabla 3. Centros de datos en América del Sur" caption-side="top"}
+{: caption="Tabla 2. Centros de datos de América del Sur" caption-side="top"}
 
 ### Europa
 {: #eu}
@@ -128,7 +136,7 @@ Si despliega recursos de la infraestructura, tendrá más opciones para elegir d
 | Amsterdam 03     | ams03 |
 | París 01         | par01 |
 | Oslo 01          | osl01 |
-{: caption="Tabla 4. Centros de datos en Europa" caption-side="top"}
+{: caption="Tabla 3. Centros de datos de Europa" caption-side="top"}
 
 ### Asia Pacífico
 {: #ap}
@@ -145,7 +153,7 @@ Si despliega recursos de la infraestructura, tendrá más opciones para elegir d
 | Sídney 04        | syd04 |
 | Sídney 05        | syd05 |
 | Melbourne 01     | mel01 |
-{: caption="Tabla 5. Centros de datos en Asia Pacífico" caption-side="top"}
+{: caption="Tabla 4. Centros de datos de Asia Pacífico" caption-side="top"}
 
 
 ## Acuerdos de nivel de servicio (SLA)
@@ -175,7 +183,7 @@ Es elegible para un crédito en su cuenta si experimenta un tiempo de inactivida
 | Entorno público de alta disponibilidad o Varios entornos locales/dedicados | Otros entornos | Crédito         |
 | <99,95%                                                                       |<99,5%              |10%             |
 | <99,90%                                                                       |<99,0%              |25%             |
-{: caption="Tabla 6. Nivel de servicio de disponibilidad mensual" caption-side="top"}
+{: caption="Tabla 5. Nivel de servicio de disponibilidad mensual" caption-side="top"}
 
 El porcentaje de disponibilidad se calcula como el número total de minutos en un mes contratado menos el número total del tiempo de inactividad en minutos de un mes dividido por el número total de minutos del mes. 
 
@@ -220,7 +228,7 @@ Los períodos de tiempo del nivel de servicio excluyen cualquier momento en el q
 | > 10 horas                | 60%            |
 | > 14 horas                | 80%            |
 | > 18 horas                | 80%            |
-{: caption="Tabla 7. Crédito basada en el cargo mensual del servicio que se ve afectado por la actualización o sustitución de hardware" caption-side="top"}
+{: caption="Tabla 6. Crédito basada en el cargo mensual del servicio que se ve afectado por la actualización o sustitución de hardware" caption-side="top"}
 
 ### Reclamaciones
 {: #claims}

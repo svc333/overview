@@ -2,7 +2,7 @@
 
 copyright:
   years: 2018, 2019
-lastupdated: "2019-01-29"
+lastupdated: "2019-05-13"
 
 keywords: first steps, understanding IT ops
 
@@ -35,7 +35,7 @@ Regístrese para obtener una cuenta de pago según uso o una cuenta de suscripci
 {: #steps-it-ops}
 
 1. Aproveche nuestro material de aprendizaje para comprender cómo funciona {{site.data.keyword.cloud_notm}}:
-    * Obtenga más información sobre las opciones disponibles para [alojar aplicaciones](/docs/overview?topic=overview-whatis-platform#choose-compute) en {{site.data.keyword.cloud}}.
+    * Obtenga más información sobre las opciones disponibles para [alojar aplicaciones](/docs/apps/tutorials?topic=creating-apps-hosting) en {{site.data.keyword.cloud_notm}}.
     * Consulte el [diagrama de arquitectura](https://www.ibm.com/cloud/garage/architectures/infrastructure){: new_window} ![Icono de enlace externo](../icons/launch-glyph.svg) para la infraestructura de {{site.data.keyword.cloud_notm}}. 
 2. Utilice el estimador de costes para obtener una idea de cuánto puede costar la infraestructura:
 

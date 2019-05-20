@@ -2,7 +2,7 @@
 
 copyright:
   years: 2018, 2019
-lastupdated: "2019-03-14"
+lastupdated: "2019-05-13"
 
 keywords: HA, failover, DR
 
@@ -19,7 +19,7 @@ subcollection: overview
 {:note: .deprecated}
 
 
-# Wie stelle ich null Ausfallzeit sicher?
+# Wie kann sichergestellt werden, dass keine Ausfallzeiten auftreten?
 {: #zero-downtime}
 
 Ihre globale Strategie ist wichtig. Sie können ein bestimmtes Rechenzentrum oder einen bestimmten Standort auswählen, um Ihren Kunden Ihre Daten im richtigen Teil der Welt bereitzustellen. 
@@ -64,7 +64,13 @@ Zum Beheben von Sicherheitsproblemen können Sie auch den Standort auswählen, a
 
 Der globale Lastausgleich für die {{site.data.keyword.cloud_notm}}-Konsole stellt sicher, dass bei einer Inaktivität Ihres nächsten geografischen Standorts die Konsole die Informationen für den nächstgelegenen Standort anzeigt. Auf diese Weise verfügen Sie stets über Zugriff auf die Konsole, ohne dass Aktionen erforderlich sind, um auf die benötigten Ressourcen zuzugreifen.
 
-Über die Ansicht 'Ressourcenliste' können Sie standardmäßig alle Ressourcen an allen Standorten anzeigen. Wenn Sie Ressourcen an einem bestimmten Standort anzeigen und mit diesen arbeiten möchten, erweitern Sie das Menü **Standort** und wählen Sie einen Standort aus der Liste aus. 
+Über die Ansicht 'Ressourcenliste' können Sie standardmäßig alle Ressourcen an allen Standorten anzeigen. Wenn Sie Ressourcen an einem bestimmten Standort anzeigen und mit diesen arbeiten möchten, erweitern Sie das Menü **Standort** und wählen Sie einen Standort aus der Liste aus. Wenn Sie eine bestimmten geografischen Standort erweitern, haben Sie die Möglichkeit, nach einzelnen Rechenzentren, Regionen oder Zonen zu filtern. 
+
+Eine *Geografie* ist ein geografischer Bereich oder eine größere politische Einheit mit einer oder mehreren Regionen. Einige Services werden auf der Ebene der Geografien unterstützt, arbeiten regionsübergreifend und verwalten die Datenreplikation und die Datenübertragung zwischen den Regionen transparent. So können beispielsweise Daten in der Geografie 'EU' für {{site.data.keyword.cos_full_notm}} in mehreren Rechenzentren in Ländern der Europäischen Union repliziert werden.  
+   * *Metro* ist ein bestimmter Ortsname innerhalb des bestimmten geografischen Bereichs. So ist Dallas z. B. ein Metrobereich in der Geografie Nordamerika. 
+      * Ein *Rechenzentrum* ist der physische Standort der Server, die Cloud-Service bereitstellen. Sie können Rechenzentren innerhalb einer erweiterten Geografie als Optionen identifizieren, deren Bezeichnung aus dem Geografienamen und einer Zahl besteht. 
+      * Eine *Region* ist ein definiertes geografisches Gebiet. Bei einer Region kann es sich um einen bestimmten Postleitzahlenbereich, einen Ort, ein Bundesland/Kanton, eine Gruppe von Bundesländern/Kantonen oder auch eine Gruppe von Ländern handeln. Rechenzentren und Regionen können in der Liste anhand der Zahlen unterschieden werden, die zur Identifizierung der Rechenzentren verwendet werden. 
+         * Eine *Zone* ist ein unabhängige Fehlerdomäne zur Unterstützung einer verbesserten Fehlertoleranz und einer reduzierten Latenz. Sie können Zonen daran erkennen, dass ihre Bezeichnung aus dem Regionsnamen und einer Zahl besteht und das sie innerhalb der Region verschachtelt sind. 
 
 ## Rechenzentren
 {: #data_center}
@@ -101,7 +107,7 @@ Wenn Sie Infrastrukturressourcen bereitstellen, stehen Ihnen mehr Optionen zur V
 | Montreal 01      | mon01 |
 | Toronto 01       | tor01 |
 | Mexiko 01        | mex01 |
-{: caption="Tabelle 2. Rechenzentren in Nordamerika" caption-side="top"}
+{: caption="Tabelle 1. Rechenzentren in Nordamerika" caption-side="top"}
 
 ### Südamerika
 {: #sa}
@@ -109,7 +115,7 @@ Wenn Sie Infrastrukturressourcen bereitstellen, stehen Ihnen mehr Optionen zur V
 | Rechenzentrum | Code    |
 |------------------|---------|
 | Sao Paulo 01     | sao01   |
-{: caption="Tabelle 3. Rechenzentren in Südamerika" caption-side="top"}
+{: caption="Tabelle 2. Rechenzentren in Südamerika" caption-side="top"}
 
 ### Europa
 {: #eu}
@@ -128,7 +134,7 @@ Wenn Sie Infrastrukturressourcen bereitstellen, stehen Ihnen mehr Optionen zur V
 | Amsterdam 03     | ams03 |
 | Paris 01         | par01 |
 | Oslo 01          | osl01 |
-{: caption="Tabelle 4. Rechenzentren in Europa" caption-side="top"}
+{: caption="Tabelle 3. Rechenzentren in Europa" caption-side="top"}
 
 ### Asien/Pazifik
 {: #ap}
@@ -145,7 +151,7 @@ Wenn Sie Infrastrukturressourcen bereitstellen, stehen Ihnen mehr Optionen zur V
 | Sydney 04        | syd04 |
 | Sydney 05        | syd05 |
 | Melbourne 01     | mel01 |
-{: caption="Tabelle 5. Rechenzentren in Asien/Pazifik" caption-side="top"}
+{: caption="Tabelle 4. Rechenzentren in Asien/Pazifik" caption-side="top"}
 
 
 ## Service-Level-Agreements (SLAs)
@@ -175,7 +181,7 @@ Sie haben Anspruch auf eine Gutschrift auf Ihr Konto, wenn Ausfallzeiten auftret
 | Öffentliche HA-Umgebung oder mehrere dedizierte/lokale Umgebungen | Andere Umgebungen | Gutschrift         |
 | <99,95 %                                                                       |<99,5 %              |10 %             |
 | <99,90 %                                                                       |<99,0 %              |25 %             |
-{: caption="Tabelle 6. Service-Level der monatlichen Verfügbarkeit" caption-side="top"}
+{: caption="Tabelle 5. Service-Level der monatlichen Verfügbarkeit" caption-side="top"}
 
 Der Prozentsatz der Verfügbarkeit wird berechnet als Gesamtzahl von Minuten in einem Vertragsmonat minus der Gesamtanzahl von Ausfallzeitminuten in diesem Monat, dividiert durch die Gesamtzahl der Minuten in diesem Monat. 
 
@@ -220,7 +226,7 @@ Service-Level-Zeiträume schließen jede Zeit aus, die zum erneuten Laden des Be
 | > 10 Stunden                | 60 %            |
 | > 14 Stunden                | 80 %            |
 | > 18 Stunden                | 80 %            |
-{: caption="Tabelle 7. Gutschrift basierend auf der monatlichen Gebühr für den Service, der von dem Hardwareaustausch oder -upgrade betroffen ist" caption-side="top"}
+{: caption="Tabelle 6. Gutschrift basierend auf der monatlichen Gebühr für den Service, der von dem Hardwareaustausch oder -upgrade betroffen ist" caption-side="top"}
 
 ### Reklamationen
 {: #claims}
