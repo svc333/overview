@@ -142,7 +142,7 @@ IBM Cloud implements network-wide blocking of communications to IP addresses whi
 
 To identify IP addresses associated with U.S. embargoed countries, IBM Cloud references the Geo IP2 Database maintained by [MaxMind ![External link icon](../../icons/launch-glyph.svg)](http://www.maxmind.com){: new_window}). IBM Cloud updates its IP address country mapping on a quarterly basis.
 
-Note: This restriction does not apply to content that is not prohibited under U.S. sanctions and embargoes. Please email exemptions@softlayer.com if you believe your content is not prohibited under U.S. trade and economic sanctions. 
+Note: This restriction does not apply to content that is not prohibited under U.S. sanctions and embargoes. Please email IBM_Cloud_Embargo_Exemption_Request@wwpdl.vnet.ibm.com if you believe your content is not prohibited under U.S. trade and economic sanctions. 
 
 ## Trademarks
 {: #trademarks}
