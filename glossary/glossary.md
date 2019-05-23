@@ -3,19 +3,18 @@
 
 copyright:
   years: 2016, 2019
-lastupdated: "2019-05-06"
+lastupdated: "2019-05-23"
 
 keywords: glossary, IBM Cloud glossary
 
 subcollection: overview
-
 
 ---
 
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
 
-# Glossary terms for {{site.data.keyword.cloud_notm}}
+# Glossary terms for {{site.data.keyword.cloud_notm}} 
 {: #glossary}
 
 This glossary provides terms and definitions for {{site.data.keyword.cloud_notm}}.
@@ -25,6 +24,32 @@ The following cross-references are used in this glossary:
 
 - *See* refers you from a nonpreferred term to the preferred term or from an abbreviation to the spelled-out form.
 - *See also* refers you to a related or contrasting term.
+
+<!--If you do not want letter links at the top of your 
+glossary, delete the text between these comment tags.
+[A](#glossa)
+[B](#glossb)
+[C](#glossc)
+[D](#glossd)
+[E](#glosse)
+[F](#glossf)
+[G](#glossg)
+[H](#glossh)
+[I](#glossi)
+[J](#glossj)
+[L](#glossl)
+[M](#glossm)
+[N](#glossn)
+[O](#glosso)
+[P](#glossp)
+[R](#glossr)
+[S](#glosss)
+[T](#glosst)
+[U](#glossu)
+[V](#glossv)
+[W](#glossw)
+
+-->
 
 ## A
 {: #glossa}
@@ -102,6 +127,11 @@ A location within a region that IBM Containers runs in.
 
 ## B
 {: #glossb}
+
+### bare metal server
+{: #x6778472}
+
+A dedicated, fully-customizable physical server that can be used for virtualization or web hosting.
 
 ### base image
 {: #x5366487}
@@ -595,6 +625,16 @@ An image that provides a base for another image. For example, Ubuntu Linux is th
 
 The delivery of a computing platform, including applications, optimized middleware, development tools, and Java and Web 2.0 runtime environments, in a cloud-based environment.
 
+### pod
+{: #x8461823}
+
+A group of containers that are running on a Kubernetes cluster. A pod is a runnable unit of work, which can be a either a stand-alone application or a microservice.
+
+### point of presence
+{: #x5458832}
+
+A system that has been identified as a contact point for another subnetwork for the purposes of collecting topology information.
+
 ### private cloud
 {: #x4585362}
 
@@ -667,7 +707,7 @@ A defined geographic territory. A region could be a specific postal code area, a
 ### registry
 {: #x2064940}
 
-A public or private container image storage and distribution service. See also [container](#x2010901), [image](#x2024928).
+A public or private repository that contains images used to create containers. See also [container](#x2010901), [image](#x2024928).
 
 ### Representational State Transfer (REST)
 {: #x3220976}
@@ -728,6 +768,11 @@ In identity management, the set of entities that a policy or an access control i
 {: #x2038004}
 
 A security protocol that provides communication privacy. With SSL, client/server applications can communicate in a way that is designed to prevent eavesdropping, tampering, and message forgery. See also [certificate authority](#x2016383).
+
+### select availability
+{: #x9773835}
+
+A production-ready offering that is available for sale and accessible to select customers.
 
 ### service
 {: #x2038343}
@@ -914,7 +959,6 @@ See [web archive](#x2116506).
 {: #x2406005}
 
 See [web archive](#x2116506).
-
 
 ### web app
 {: #x7636628}
