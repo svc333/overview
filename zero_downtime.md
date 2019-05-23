@@ -2,9 +2,9 @@
 
 copyright:
   years: 2018, 2019
-lastupdated: "2019-05-13"
+lastupdated: "2019-05-23"
 
-keywords: HA, failover, DR
+keywords: HA, failover, DR, high availability, disaster recovery, locations, data centers
 
 subcollection: overview
 
@@ -25,14 +25,14 @@ subcollection: overview
 Your global strategy is important. You can select a specific data center or location to deploy your data in the right part of the world for your customers. 
 {:shortdesc}
 
-{{site.data.keyword.Bluemix}} platform services are self-managed. Meaning, the locations in which you deploy your app can spread workloads across data centers. And you can ensure a failover design is in place, which means your app is always up and running for your customers. For your infrastructure resources, you can select individual data centers in which the resources are deployed. 
+{{site.data.keyword.Bluemix}} platform services are self-managed. Meaning, the locations in which you deploy your app can spread workloads across data centers. And you can ensure that a failover design is in place, which means your app is always up and running for your customers. For your infrastructure resources, you can select individual data centers in which the resources are deployed. 
 
 All {{site.data.keyword.Bluemix_notm}} resources are hosted in data center locations around the world. High availability and disaster recovery aren't universal across all services, so the type of high availability and disaster recovery that's available depends on the service that you're using.  
 
 ## Disaster recovery
 {: #disaster-recovery}
 
-Disaster recovery is about surviving a catastrophic failure or loss of availability in a single location. To ensure disaster recovery is in place, it's necessary to deploy several {{site.data.keyword.Bluemix_notm}} environments in multiple locations to avoid single points of failure. These environments can be a combination of Public, Dedicated, or Local platforms.  
+Disaster recovery is about surviving a catastrophic failure or loss of availability in a single location. To ensure that disaster recovery is in place, it's necessary to deploy several {{site.data.keyword.Bluemix_notm}} environments in multiple locations to avoid single points of failure. These environments can be a combination of Public, Dedicated, or Local platforms.  
 
 ### Disaster recovery plan 
 {: #dr-plan}
@@ -64,23 +64,21 @@ To address security issues, you can also select the location in which you want t
 
 Global load balancing for the {{site.data.keyword.cloud_notm}} console ensures that if the nearest geographical location for you is unavailable, the console displays the information for the next closest location. This way, you can always access the console without taking any action to access the resources you need.
 
-You can view all resources across all locations by default from the resource list view in the console. If you want to view and work with resources in a specific location, expand the **Location** menu, and select a location from the list. By expanding a specific geography location, you can select to filter by individual data centers, regions, or zone:
+You can view all resources across all locations by default from the resource list view in the console. If you want to view and work with resources in a specific location, expand the **Location** menu, and select a location from the list. By expanding a specific geographical location, you can select to filter by individual data centers, regions, or zone.
 
-A *geography* is a geographic area or larger political body that contains one or more regions. Some services are supported at the geography level crossing regions and transparently managing data replication and movement between regions. For example, data in the EU geography for {{site.data.keyword.cos_full_notm}} can replicate data in multiple data centers inside the EU countries. 
-   * A *metro* is a specific city name within the specific geographical area. For example, Dallas is a metro in the geography of North America.
-      * A *data center* is the physical location of the servers that provide cloud services. You can identify data centers within an expanded geography as options that use the geography name plus a number.
-      * A *region* is a defined geographic territory. A region could be a specific postal code area, a town, a city, a state, a group of states, or even a group of countries. You can tell the difference between data centers and regions in the list by the use of numbers for identifying the data centers.
-         * A *zone* is an independent fault domain that is designed to help with improved fault tolerance and decreased latency. You can identify zones as they use the region name plus a number and are nested within the region.
+For example, if you have resources that are deployed in the London 2 (eu-gb-2) zone, you can filter your resource list to display only those resources. A zone is located within a region and a region is organized by its metro location. To filter your list to the London 2 (eu-gb-2) zone, expand the **London** metro option, and then expand the **London (eu-gb)** region option. Within that region, you can select from the list of available zones. If you have a resource deployed in a specific data center, you can identify the data center by the specific metro location and alphanumeric code, for example, London 02 (lon02).
+
+You might also have resources that are located globally. The **Global** option means that only one logical, globally accessible instance of the service, independent of any region or zone, is published to customer applications. These types of resources are accessible from a global endpoint.
 
 ## Data centers
 {: #data_center}
 
-When you deploy infrastructure resources, you have more options about where your data is located. You can select a location, or you can select from a list of the {{site.data.keyword.Bluemix_notm}} data centers. A *data center* is the physical location that hosts the power, cooling, compute, network, and storage resources used for services and apps. Data centers don't provide isolation from local failures similar to multi-zones in a location. For more information, see [Global locations for your global business ![External link icon](../icons/launch-glyph.svg "External link icon")](https://www.ibm.com/cloud/data-centers/){: new_window}.
+When you deploy infrastructure resources, you have more options about where your data is located. You can select a location, or you can select from a list of the {{site.data.keyword.Bluemix_notm}} data centers. A *data center* is the physical location that hosts the power, cooling, compute, network, and storage resources used for services and apps. Data centers don't provide isolation from local failures similar to multi zones in a location. For more information, see [Global locations for your global business ![External link icon](../icons/launch-glyph.svg "External link icon")](https://www.ibm.com/cloud/data-centers/){: new_window}.
 
-{{site.data.keyword.Bluemix_notm}} offers data centers in many locations across the world. When you deploy infrastructure resources, you can select from a list of the data centers in {{site.data.keyword.Bluemix_notm}}. 
+{{site.data.keyword.Bluemix_notm}} offers data centers in many locations across the world. 
 
 
-![Map of datacenters described in the following tables](images/Global-View.svg)
+![Map of data centers described in the following tables](images/Global-View.svg)
 
 ### North America
 {: #na}
@@ -159,7 +157,7 @@ When you deploy infrastructure resources, you have more options about where your
 
 {{site.data.keyword.Bluemix_notm}} provides a 99.5% availability service level for multiple instances of a platform service within a single dedicated or local environment.
 
-To submit a claim for downtime, contact [{{site.data.keyword.Bluemix_notm}} Support](https://console.cloud.ibm.com/unifiedsupport/supportcenter){: new_window} ![External link icon](../icons/launch-glyph.svg "External link icon").
+To submit a claim for downtime, contact [{{site.data.keyword.Bluemix_notm}} Support](https://cloud.ibm.com/unifiedsupport/supportcenter){: new_window} ![External link icon](../icons/launch-glyph.svg "External link icon").
 
 {{site.data.keyword.Bluemix_notm}} provides SLAs for {{site.data.keyword.Bluemix_notm}} services that might make you eligible for credits toward your account. SLAs are your only way to resolve {{site.data.keyword.Bluemix_notm}}'s failure to meet a specified service level. {{site.data.keyword.Bluemix_notm}} provides a 99.5% availability service level for multiple instances of a Platform Service within a single dedicated or local environment.
 
@@ -167,7 +165,7 @@ For more information about dedicated environments, see [IBM Cloud Dedicated](/do
 
 The complete Service Description for {{site.data.keyword.Bluemix_notm}} is available at [Cloud Services terms](http://www-03.ibm.com/software/sla/sladb.nsf/sla/bm){: new_window} ![External link icon](../icons/launch-glyph.svg "External link icon").
 
-### Availability downtime SLA 
+### Availability downtime SLA 
 {: #avail-downtime}
 
 You're eligible for a credit toward your account if you experience downtime less than the 99.5% availability. Availability downtime is the total minutes you're unable to connect to any of your service instances. Total downtime minutes start when you submit a report for the outage event and end when at least one of the affected instances is available for use.
@@ -205,27 +203,27 @@ Infrastructure services are bare metal and virtual servers, networking, storage,
 
 Downtime is the total minutes a customer-identified infrastructure service is unavailable because of service disruption based on Public network, Private network, and Redundant Infrastructure power and HVAC outages. The total downtime minutes calculation begins when the validated outage affecting the service is identified until the time the service is available. 
 
-Downtime doesn't include time for scheduled or announced maintenance. For each 30 continuous minute period of downtime, you receive a credit in the amount of 5% of the monthly charges for the identified services that are directly impacted by the outage. You're not eligible for a credit if the downtime is less than 30 continuous minutes. Downtime for different outage types might not be combined to meet this calculation. 
+Downtime doesn't include time for scheduled or announced maintenance. For each 30 continuous minute period of downtime, you receive a credit in the amount of 5% of the monthly charges for the identified services that are directly impacted by the outage. You're not eligible for a credit if the downtime is less than 30 continuous minutes. Downtime for different outage types might not be combined to meet this calculation. 
 
 ### Infrastructure hardware replacement and upgrade SLA
 {: #hw-replaceupgrade-sla}
 
 {{site.data.keyword.Bluemix_notm}} tries to minimize downtime when replacing failed hardware or when performing a scheduled hardware upgrade. 
 
-{{site.data.keyword.Bluemix_notm}} provides credit for: 
+{{site.data.keyword.Bluemix_notm}} provides credit for: 
 - Hardware replacement based on the time to replace from the time {{site.data.keyword.Bluemix_notm}} verifies that a customer reported hardware failure.
 - Planned hardware upgrades based on the total downtime of the service receiving the upgrade. 
 
 Service level time periods exclude any time that is required to reload the operating system or applications or the time performance might be degraded. You're eligible for a credit based on the monthly charge for the service that is affected by the hardware replacement or upgrade if {{site.data.keyword.Bluemix_notm}} fails to meet a specified service level time period.
 
-| Service Level Time Period  | Credit Percentage |
+| Service Level Time Period | Credit Percentage |
 |---------------------------|----------------|
 | ≤ 2 hours                 | None           |
 | > 2 hours                 | 20%            |
 | > 6 hours                 | 40%            |
 | > 10 hours                | 60%            |
 | > 14 hours                | 80%            |
-| > 18 hours                | 80%            |
+| > 18 hours                | 80%            |
 {: caption="Table 6. Credit based on the monthly charge for the service that is affected by the hardware replacement or upgrade" caption-side="top"}
 
 ### Claims
@@ -235,7 +233,7 @@ Submit your claim within 60 days of the end of the contracted month that the ser
 
 The credit will be the highest applicable compensation based on the cumulative availability of the affected service during a contracted month and calculated using the monthly charges for such affected service. Credits cannot exceed 25% of monthly charge.
 
-To submit a claim for downtime, contact [{{site.data.keyword.Bluemix_notm}} Support](https://console.cloud.ibm.com/unifiedsupport/supportcenter){: new_window} ![External link icon](../icons/launch-glyph.svg "External link icon").
+To submit a claim for downtime, contact [{{site.data.keyword.Bluemix_notm}} Support](https://cloud.ibm.com/unifiedsupport/supportcenter){: new_window} ![External link icon](../icons/launch-glyph.svg "External link icon").
 
 ### Exclusions
 {: #exclusions}
