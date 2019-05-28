@@ -3,7 +3,7 @@
 
 copyright:
   years: 2016, 2019
-lastupdated: "2019-05-23"
+lastupdated: "2019-05-28"
 
 keywords: glossary, IBM Cloud glossary
 
@@ -138,10 +138,10 @@ A dedicated, fully-customizable physical server that can be used for virtualizat
 
 An image that has no parent image. See also [image](#x2024928), [parent image](#x8439210).
 
-### beta service
-{: #x7470455}
+### beta offering
+{: #x9774283}
 
-A service that is not production-ready and is in a trial stage of development. See also [experimental service](#x7470450).
+An offering that IBM makes available solely for evaluation and testing purposes.  There are no warranties, SLAs or support provided and beta offerings are not intended for production use.
 
 ### bind
 {: #x2000361}
@@ -271,6 +271,11 @@ The physical location of the servers that provide cloud services.
 
 A place, such as a database system, file, or directory, where data is stored.
 
+### DC
+{: #x2052913}
+
+See [data center](#x2439906).
+
 ### DEA
 {: #x2019805}
 
@@ -315,11 +320,10 @@ The Cloud Foundry component that is responsible for deploying applications.
 
 The address of an API or service in an environment. An API exposes an endpoint and at the same time invokes the endpoints of other services. See also [route](#x2037338).
 
-### experimental service
-{: #x7470450}
+### experimental offering
+{: #x9774278}
 
-A service that is not ready for production and can be removed from production at any time. See also [beta service](#x7470455).
-
+An offering that IBM makes available solely for evaluation and testing purposes, and might be unstable or not compatible with previous versions. An experimental offering can be discontinued with short notice. There are no warranties, SLAs or support provided, and experimental offerings are not intended for production use.
 
 ## F
 {: #glossf}
@@ -358,10 +362,20 @@ An architecture for an application that provides a standard structure for an app
 ## G
 {: #glossg}
 
+### GA
+{: #x2117930}
+
+See [general availability](#x2117947).
+
 ### GB-hour
 {: #x7470477}
 
 The cumulative amount of memory (in gigabytes) that is running for all application instances for a particular buildpack per hour.
+
+### general availability (GA)
+{: #x2117947}
+
+Date when an offering is widely available for sale and delivery to customers or channels, usually across multiple geographies.
 
 ### globally unique identifier (GUID)
 {: #x2390455}
@@ -548,16 +562,15 @@ A computing model that connects mobile applications to cloud computing services 
 
 An infrastructure in which the storage and processing of data for applications is offloaded from a mobile device into the cloud. With mobile cloud computing, applications are not limited to a specific carrier, but are accessed through the Web.
 
-### multi-zone region (MZR)
-{: #x9766831}
+### multizone region (MZR)
+{: #x9774820}
 
-A region that consists of two or more zones, which are multiple groups of one or more logically isolated data centers with independent electrical, mechanical, and network infrastructures.
+A region that is spread across data centers in multiple zones to increase fault tolerance. See also [zone](#x2070723).
 
 ### MZR
-{: #x9766835}
+{: #x9774831}
 
-See [multi-zone region](#x9766831).
-
+See [multizone region](#x9774820).
 
 ## N
 {: #glossn}
@@ -630,10 +643,15 @@ The delivery of a computing platform, including applications, optimized middlewa
 
 A group of containers that are running on a Kubernetes cluster. A pod is a runnable unit of work, which can be a either a stand-alone application or a microservice.
 
-### point of presence
+### point of presence (PoP)
 {: #x5458832}
 
-A system that has been identified as a contact point for another subnetwork for the purposes of collecting topology information.
+A physical location that stores servers and routers in a network cloud.
+
+### PoP
+{: #x7234683}
+
+See [point of presence](#x5458832).
 
 ### private cloud
 {: #x4585362}
@@ -757,7 +775,7 @@ See [software as a service](#x4585386).
 ### scale
 {: #x2004442}
 
-To increase platform (or system) capacity by adding more application or service instances
+To increase platform (or system) capacity by adding more application or service instances.
 
 ### scope
 {: #x2037763}
@@ -788,6 +806,11 @@ The period of time after an app is started on a mobile device and the quality as
 {: #x2213318}
 
 An authentication process in which a user can access more than one system or application by entering a single user ID and password.
+
+### single-zone region (SZR)
+{: #x9774825}
+
+A region that consists of data centers that are located within one zone, See also [zone](#x2070723).
 
 ### software as a service (SaaS)
 {: #x4585386}
@@ -853,6 +876,11 @@ An information technology (IT) system that incorporates technologies that encour
 {: #x6735061}
 
 An information storage system (such as a database or application) that stores business records and automates standard processes. See also [system of engagement](#x6528306).
+
+### SZR
+{: #x9774829}
+
+See [single-zone region](#x9774825).
 
 
 ## T
@@ -921,15 +949,26 @@ A user management relationship for classic infrastructure users who invite other
 
 Pertaining to not physically existing as such but made by software to appear to do so.
 
+### virtual local area network (VLAN)
+{: #x2438470}
+
+A logical association of switch ports based upon a set of rules or criteria, such as Medium Access Control (MAC) addresses, protocols, network address, or multicast address. This concept permits the LAN to be segmented again without requiring physical rearrangement.
+
 ### virtual machine (VM)
 {: #x2043165}
 
 A software implementation of a machine that executes programs like a real machine. See also [virtual server](#x2455638).
 
-### virtual private network (VPN)
+### virtual private cloud
+{: #x4585403}
+
+A virtual network that is tied to a private user account and isolated from other networks in a public cloud. Only authorized users can access virtual private cloud resources, which include virtual servers, storage, and subnets.
+
+### virtual private network
 {: #x2043188}
 
-An extension of a company intranet over the existing framework of either a public or private network. A VPN ensures that the data that is sent between the two endpoints of its connection remains secure.
+A private connection between two endpoints, even when the data is transferred across a public network. 
+Data can be shared as if a connection to a private network is established. Usually, a VPN is used in combination with security methods, such as authentication and encryption, to provide maximum data security and privacy.
 
 ### virtual server
 {: #x2455638}
@@ -946,6 +985,10 @@ See [virtual machine](#x2043165).
 
 See [virtual private network](#x2043188).
 
+### volume
+{: #x2043272}
+
+A fixed amount of physical or virtual storage on a data storage medium.
 
 ## W
 {: #glossw}
@@ -986,4 +1029,5 @@ A context that contains a collection of artifacts that a user with appropriate p
 ### zone
 {: #x2070723}
 
-An independent fault domain. A zone is an abstraction designed to assist with improved fault tolerance and decreased latency.
+An independent fault domain. A zone is an abstraction designed to assist with improved fault tolerance and decreased latency. See also [multizone region](#x9774820), [single-zone region](#x9774825).
+
