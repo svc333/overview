@@ -28,7 +28,7 @@ Your IBM Cloud Account and any services ordered from the IBM Cloud are provided 
 
   * Base Agreement Cloud Terms applicable to you as follows:
     * SoftLayer Cloud Service Agreement for US Dollar credit card billing, available at [https://www.ibm.com/support/customer/zz/en/softlayer.html](https://www.ibm.com/support/customer/zz/en/softlayer.html){: new_window} ![External link icon](../../icons/launch-glyph.svg)
-    * IBM Cloud Services Agreement (local country version*) for non-US Dollar credit card billing, or if you select invoicing from IBM, available at [https://www.ibm.com/terms](https://www.ibm.com/terms){: new_window} ![External link icon](../../icons/launch-glyph.svg) (select your country);
+    * IBM Cloud Services Agreement (local country version*) for non-US Dollar credit card billing, or if you select invoicing from IBM, available at [https://www.ibm.com/terms](https://www.ibm.com/support/customer/csol/terms/){: new_window} ![External link icon](../../icons/launch-glyph.svg) (select your country);
     * IBM Passport Advantage Agreement you accepted and the General Terms for Cloud Offerings TOU for IBM Passport Advantage Clients, available at [http://www-03.ibm.com/software/sla/sladb.nsf/sla/tou](http://www-03.ibm.com/software/sla/sladb.nsf/sla/tou){: new_window} ![External link icon](../../icons/launch-glyph.svg); or
     * equivalent cloud service base agreement terms between you and IBM;
   * Service Description for IBM Cloud available at [http://www-03.ibm.com/software/sla/sladb.nsf/sla/bm](http://www-03.ibm.com/software/sla/sladb.nsf/sla/bm){: new_window} ![External link icon](../../icons/launch-glyph.svg);
@@ -147,7 +147,7 @@ Note: This restriction does not apply to content that is not prohibited under U.
 ## Trademarks
 {: #trademarks}
 
-IBM, the IBM logo, and ibm.com are trademarks or registered trademarks of International Business Machines Corp., registered in many jurisdictions worldwide. Other product and service names might be trademarks of IBM or other companies. A current list of IBM trademarks is available on the web at [Copyright and trademark information ![External link icon](../../icons/launch-glyph.svg)](https://www.ibm.com/legal/us/en/copytrade.shtml){: new_window}.
+IBM, the IBM logo, and ibm.com are trademarks or registered trademarks of International Business Machines Corp., registered in many jurisdictions worldwide. Other product and service names might be trademarks of IBM or other companies. A current list of IBM trademarks is available on the web at [Copyright and trademark information ![External link icon](../../icons/launch-glyph.svg)](https://www.ibm.com/legal/copytrade){: new_window}.
 
 Adobe, the Adobe logo, PostScript, and the PostScript logo are either registered trademarks or trademarks of Adobe Systems Incorporated in the United States, and/or other countries.
 
