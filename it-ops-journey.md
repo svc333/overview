@@ -2,7 +2,7 @@
 
 copyright:
   years: 2018, 2019
-lastupdated: "2019-05-31"
+lastupdated: "2019-06-03"
 
 keywords: cloud environment, virtual server, virtual machine, vm, understanding infrastructure, IaaS model
 
@@ -97,7 +97,7 @@ Your server is the base of your infrastructure. You have various options dependi
 | Option | Description | 
 |--------|---------------|
 | [{{site.data.keyword.baremetal_short}}](/docs/bare-metal?topic=bare-metal-about-bm#about-bm)  | Hourly or monthly, single-tenant servers that are dedicated to you and not shared in any part, including server resources, with other customers. |
-| [{{site.data.keyword.BluVirtServers_short}}](/docs/vsi?topic=virtual-servers-getting-started-with-virtual-servers) | Scalable virtual servers that are purchased with cores and memory allocations. |
+| [{{site.data.keyword.BluVirtServers_short}}](docs/vsi?topic=virtual-servers-getting-started-tutorial) | Scalable virtual servers that are purchased with cores and memory allocations. |
 | [{{site.data.keyword.vmwaresolutions_short}}](/docs/services/vmwaresolutions?topic=vmware-solutions-getting-started#getting-started) | Quickly and seamlessly integrate or migrate on-premises VMware workloads by using scalable, secure, and high-performance infrastructure and the industry-leading VMware hybrid virtualization technology. |
 | [{{site.data.keyword.containerlong_notm}}](/docs/containers?topic=containers-container_index) | Combines Docker containers, the Kubernetes technology, an intuitive user experience, and built-in security and isolation to automate the deployment, operation, scaling, and monitoring of containerized apps in a cluster of compute hosts. |
 | [{{site.data.keyword.cfee_full_notm}}](/docs/cloud-foundry?topic=cloud-foundry-about) | Instantiate multiple, isolated, enterprise-grade Cloud Foundry platforms on demand. |
@@ -113,17 +113,19 @@ You can buy extra storage based on your needs. See the following table for a sum
 
 | Option | Description |
 |--------|---------------|
-| [{{site.data.keyword.blockstorageshort}}](/docs/infrastructure/BlockStorage/index.html) | Persistent, high-performance iSCSI storage that is provisioned and managed independently of compute instances. iSCSI-based Block Storage LUNs are connected to authorized devices through redundant multi-path I/O (MPIO) connections. |
-| [{{site.data.keyword.filestorage_short}}](/docs/infrastructure/FileStorage/index.html) | Persistent, fast, and flexible network-attached, NFS-based File Storage. In this network-attached storage (NAS) environment, you have total control over your file shares function and performance. File Storage shares can be connected to up to 64 authorized devices over routed TCP/IP connections for resiliency. |
-| [{{site.data.keyword.cos_full_notm}}](/docs/services/cloud-object-storage?topic=cloud-object-storage-about#about) | Information stored with IBM Cloud Object Storage is encrypted and dispersed across multiple geographic locations, and accessed over HTTP by using a REST API. This service makes use of the distributed storage technologies that are provided by the IBM Cloud Object Storage System (formerly Cleversafe). |
+| [{{site.data.keyword.blockstorageshort}}](/docs/infrastructure/BlockStorage?topic=BlockStorage-getting-started) | Persistent, high-performance iSCSI storage that is provisioned and managed independently of compute instances. iSCSI-based Block Storage LUNs are connected to authorized devices through redundant multi-path I/O (MPIO) connections. |
+| [{{site.data.keyword.filestorage_short}}](/docs/infrastructure/FileStorage?topic=FileStorage-getting-started) | Persistent, fast, and flexible network-attached, NFS-based File Storage. In this network-attached storage (NAS) environment, you have total control over your file shares function and performance. File Storage shares can be connected to up to 64 authorized devices over routed TCP/IP connections for resiliency. |
+| [{{site.data.keyword.cos_full_notm}}](/docs/services/cloud-object-storage?topic=cloud-object-storage-getting-started) | Information stored with IBM Cloud Object Storage is encrypted and dispersed across multiple geographic locations, and accessed over HTTP by using a REST API. This service makes use of the distributed storage technologies that are provided by the IBM Cloud Object Storage System (formerly Cleversafe). |
 | [{{site.data.keyword.cloud_notm}} Master Data Management](/docs/services/MDMOnCloud?topic=MDMOnCloud-mdmoc_getting_started#mdmoc_getting_started) | Offload large amounts of data from your on-premises data center to your Cloud Object Storage bucket. |
-| [{{site.data.keyword.backup_full}}](/docs/infrastructure/Backup/index.html) | An automated agent-based backup system that is managed through a browser-based management utility. You can back up data between servers in one or more data centers on the IBM Cloud network. |
+| [{{site.data.keyword.backup_full}}](/docs/infrastructure/Backup?topic=Backup-getting-started) | An automated agent-based backup system that is managed through a browser-based management utility. You can back up data between servers in one or more data centers on the IBM Cloud network. |
 {: caption="Table 2. Storage options" caption-side="top"}
 
 ### Networking
 {: #network}
 
 You automatically get connectivity to the {{site.data.keyword.vpn_full}} when your {{site.data.keyword.cloud_notm}} account is set up. By default, your server has a public IP address and a private IP address. If you want your server to be private, you can either turn off the public interface after your server is provisioned or order your server as private. See [Getting started with Virtual Private Networking](/docs/infrastructure/iaas-vpn?topic=VPN-gettingstarted-with-virtual-private-networking) for more information.
+
+Within the infrastructure layer, you can build a virtual private cloud, which is a virtual network that is tied to your {{site.data.keyword.cloud_notm}} account. A virtual private cloud gives you an entry point that provides cloud security and the ability to dynamically scale your virtual server instances. For more information, see [Getting started with IBM Cloud Virtual Private Cloud (VPC) Infrastructure](/docs/vpc-on-classic?topic=vpc-on-classic-getting-started). 
 
 Check out the following table for a summary of your networking options.
 
@@ -132,8 +134,8 @@ Check out the following table for a summary of your networking options.
 | [Content Delivery Network](/docs/infrastructure/CDN?topic=CDN-getting-started) | Used for various industry solutions, including media, entertainment, software, gaming, banking, and e-commerce, to meet the needs of your businesses. |
 | [Domain Name Service](/docs/cli/reference/ibmcloud?topic=cloud-cli-ibm-dev-tools-for-jetbrains) | Provides a central location to view and manage your domains through the basic DNS management interface, and also gives you the option to manage reverse and secondary DNS in the same location for free of charge. |
 | [Global IP addresses](/docs/infrastructure/subnets?topic=subnets-about-global-ip-address#about-global-ip-address) | Provide flexibility and enable you to shift workloads between servers, even across geographically disparate data centers. |
-| [Load balancing](/docs/infrastructure/loadbalancer-service?topic=loadbalancer-service-getting-started-with-ibm-cloud-load-balancer) | Distributes processing and communications evenly across multiple servers within a data center so that a single device does not carry an entire load. |
-| [Virtual Router Appliance](/docs/infrastructure/virtual-router-appliance/getting-started.html) | Selectively routes private and public network traffic through a full-featured enterprise router with firewall, traffic shaping, policy-based routing, VPN, and a host of other features. |
+| [Load balancing](/docs/infrastructure/loadbalancer-service?topic=loadbalancer-service-getting-started) | Distributes processing and communications evenly across multiple servers within a data center so that a single device does not carry an entire load. |
+| [Virtual Router Appliance](/docs/infrastructure/virtual-router-appliance?topic=virtual-router-appliance-getting-started) | Selectively routes private and public network traffic through a full-featured enterprise router with firewall, traffic shaping, policy-based routing, VPN, and a host of other features. |
 | [IPSec VPN](/docs/infrastructure/iaas-vpn?topic=VPN-setup-ipsec-vpn#setup-ipsec-vpn) | A suite of protocols designed to authenticate and encrypt all IP traffic between two locations by using a tunnel mode that provides an encrypted site-to-site network. |
 | [{{site.data.keyword.cloud_notm}} Direct Link](/docs/infrastructure/direct-link?topic=direct-link-get-started-with-ibm-cloud-direct-link#get-started-with-ibm-cloud-direct-link) | Leverages a Cloud Exchange provider to deliver connectivity to {{site.data.keyword.cloud_notm}} infrastructure locations. |
 {: caption="Table 3. Networking options" caption-side="top"}
