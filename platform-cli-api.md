@@ -4,7 +4,7 @@ copyright:
 
   years: 2018, 2019
 
-lastupdated: "2019-05-13"
+lastupdated: "2019-06-03"
 
 keywords: resource groups, platform CLI, platform API
 
@@ -35,7 +35,7 @@ Use the following table to get an at-a-glance view of the command-line interface
 | Resource controller | [Working with resources and resource groups](/docs/cli/reference/ibmcloud?topic=cloud-cli-ibmcloud_commands_resource) | [{{site.data.keyword.Bluemix_notm}} Resource Controller API](https://console.cloud.ibm.com/apidocs/resource-controller){: new_window} ![External link icon](../icons/launch-glyph.svg "External link icon") <br><br> [{{site.data.keyword.cloud_notm}} Open Service Broker API](https://console.cloud.ibm.com/apidocs/ibm-cloud-osb-api){: new_window} ![External link icon](../icons/launch-glyph.svg "External link icon") |
 | Resource manager | [Working with resources and resource groups](/docs/cli/reference/ibmcloud?topic=cloud-cli-ibmcloud_commands_resource) | [{{site.data.keyword.Bluemix_notm}} Resource Manager API](https://console.cloud.ibm.com/apidocs/resource-manager){: new_window} ![External link icon](../icons/launch-glyph.svg "External link icon") |
 | Catalog | [Searching and managing catalog offerings](/docs/cli/reference/ibmcloud?topic=cloud-cli-ibmcloud_catalog) | [Catalog API](https://console.cloud.ibm.com/apidocs/globalcatalog){: new_window} ![External link icon](../icons/launch-glyph.svg "External link icon") |
-| Search & tagging | [Searching resources](/docs/cli/reference/ibmcloud?topic=cloud-cli-ibmcloud_commands_resource#ibmcloud_resource_search) <br><br>  [Tagging resources](/docs/cli/reference/ibmcloud/cli_resource_group.html#ibmcloud_resource_tags) | |
+| Search & tagging | [Searching resources](/docs/cli/reference/ibmcloud?topic=cloud-cli-ibmcloud_commands_resource#ibmcloud_resource_search) <br><br>  [Tagging resources](/docs/cli/reference/ibmcloud?topic=cloud-cli-ibmcloud_commands_resource#ibmcloud_resource_tags) | |
 {: caption="Table 1. Platform services CLI and API" caption-side="top"}
 
 
