@@ -142,7 +142,7 @@ IBM Cloud에서는 거래 및 경제 제제 대상인 국가들에 있는 IP 주
 
 미국의 제제 대상 국가들과 연관된 IP 주소들을 확인하기 위해, IBM Cloud는 [MaxMind ![외부 링크 아이콘](../../icons/launch-glyph.svg)](http://www.maxmind.com){: new_window}에서 유지보수하는 Geo IP2 데이터베이스를 참조합니다. IBM Cloud는 해당 IP 주소 국가 맵핑을 분기별로 업데이트합니다.
 
-참고: 이 제한사항은 미국 무역 및 경제 제제에 따라 금지되지 않는 컨텐츠에는 적용되지 않습니다. 컨텐츠가 미국 무역 및 경제 제제 대상이 아니라고 생각하는 경우 exemptions@softlayer.com으로 이메일을 보내시기 바랍니다. 
+참고: 이 제한사항은 미국 무역 및 경제 제제에 따라 금지되지 않는 컨텐츠에는 적용되지 않습니다. 컨텐츠가 미국 무역 및 경제 제제 대상이 아니라고 생각하는 경우 IBM_Cloud_Embargo_Exemption_Request@wwpdl.vnet.ibm.com으로 이메일을 보내시기 바랍니다. 
 
 ## 상표
 {: #trademarks}

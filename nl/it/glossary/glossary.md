@@ -3,19 +3,18 @@
 
 copyright:
   years: 2016, 2019
-lastupdated: "2019-05-06"
+lastupdated: "2019-05-28"
 
 keywords: glossary, IBM Cloud glossary
 
 subcollection: overview
-
 
 ---
 
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
 
-# Termini del glossario per {{site.data.keyword.cloud_notm}}
+# Termini del glossario per {{site.data.keyword.cloud_notm}} 
 {: #glossary}
 
 Questo glossario fornisce termini e definizioni per {{site.data.keyword.cloud_notm}}.
@@ -25,6 +24,32 @@ In questo glossario vengono utilizzati i seguenti riferimenti incrociati:
 
 - *Vedere* rimanda il lettore da un termine non preferenziale a uno preferenziale oppure da un'abbreviazione a una forma estesa del termine.
 - *Vedi anche* ti rimanda a termini correlati o contrari.
+
+<!--If you do not want letter links at the top of your 
+glossary, delete the text between these comment tags.
+[A](#glossa)
+[B](#glossb)
+[C](#glossc)
+[D](#glossd)
+[E](#glosse)
+[F](#glossf)
+[G](#glossg)
+[H](#glossh)
+[I](#glossi)
+[J](#glossj)
+[L](#glossl)
+[M](#glossm)
+[N](#glossn)
+[O](#glosso)
+[P](#glossp)
+[R](#glossr)
+[S](#glosss)
+[T](#glosst)
+[U](#glossu)
+[V](#glossv)
+[W](#glossw)
+
+-->
 
 ## A
 {: #glossa}
@@ -104,17 +129,20 @@ Una posizione all'interno di una regione in cui è in esecuzione IBM Containers.
 ## B
 {: #glossb}
 
+### server bare metal
+{: #x6778472}
+
+Un server fisico completamente personalizzabile e dedicato che può essere utilizzato per la virtualizzazione o l'hosting web.
+
 ### immagine di base
 {: #x5366487}
 
 Un'immagine che non ha alcuna immagine principale. Vedi anche [immagine](#x2024928), [immagine principale](#x8439210).
 
-### servizio beta
-{: #x7470455}
+### offerta beta
+{: #x9774283}
 
-Un servizio che non è pronto per la produzione ed è a una
-fase di sviluppo di prova. Vedi anche [servizio
-sperimentale](#x7470450).
+Un'offerta che IBM rende disponibile soltanto per scopi di valutazione e test.  Non ci sono garanzie, SLA o supporto forniti e le offerte beta non sono pensate per l'utilizzo nella produzione.
 
 ### eseguire il bind
 {: #x2000361}
@@ -246,12 +274,17 @@ Un componente interfaccia utente che fornisce all'utente un riepilogo comprensiv
 ### data center (DC)
 {: #x2439906}
 
-L'ubicazione fisica dei server che forniscono i servizi cloud. 
+L'ubicazione fisica dei server che forniscono i servizi cloud.
 
 ### archivio dati
 {: #x2052849}
 
 Un'ubicazione, come un file, una directory o un sistema di database, dove sono memorizzati i dati.
+
+### DC
+{: #x2052913}
+
+Vedi [data center](#x2439906).
 
 ### DEA
 {: #x2019805}
@@ -301,12 +334,10 @@ applicazioni.
 L'indirizzo di una API o di un servizio in un ambiente. Una API presenta
 un endpoint e, al tempo stesso, richiama gli endpoint di altri servizi. Consulta anche [rotta](#x2037338).
 
-### servizio sperimentale
-{: #x7470450}
+### offerta sperimentale
+{: #x9774278}
 
-Un servizio che non è pronto per la produzione e che può essere rimosso dalla produzione in qualsiasi momento. Vedi anche [servizio
-beta](#x7470455).
-
+Un'offerta che IBM rende disponibile soltanto per scopi di valutazione e test che potrebbe non essere stabile o compatibile con le versioni precedenti. Un'offerta sperimentale può essere sospesa con breve preavviso. Non ci sono garanzie, SLA o supporto forniti e le offerte sperimentali non sono pensate per l'utilizzo nella produzione.
 
 ## Ve
 {: #glossf}
@@ -346,10 +377,20 @@ un'applicazione e una funzionalità generale ed estensibile.  Un framework abili
 ## G
 {: #glossg}
 
+### GA
+{: #x2117930}
+
+Vedi [disponibilità generale](#x2117947).
+
 ### GB-ora
 {: #x7470477}
 
 La quantità cumulativa di memoria (in gigabyte) in esecuzione per tutte le istanze dell'applicazione per uno specifico pacchetto di build all'ora.
+
+### disponibilità generale (GA)
+{: #x2117947}
+
+La data in cui l'offerta è ampiamente disponibile per la vendita e la fornitura a clienti o canali, normalmente in più aree geografiche.
 
 ### globally unique identifier (GUID)
 {: #x2390455}
@@ -365,10 +406,10 @@ Vedi [globally unique identifier](#x2390455).
 ## H
 {: #glossh}
 
-### modalità HVM (hardware virtual machine) 
+### modalità HVM (hardware virtual machine)
 {: #x9736811}
 
-Virtualizzazione completamente assistita hardware. Una macchina virtuale utilizza le risorse dal computer host per operare come un ambiente hardware completo. Il sistema operativo host non è a conoscenza del client virtuale. 
+Virtualizzazione completamente assistita hardware. Una macchina virtuale utilizza le risorse dal computer host per operare come un ambiente hardware completo. Il sistema operativo host non è a conoscenza del client virtuale.
 
 ### chiamata API heavy
 {: #x7690468}
@@ -439,7 +480,7 @@ Un file system e i relativi parametri di esecuzione che vengono utilizzati all'i
 
 L'offerta di un'infrastruttura di computer, comprese le funzionalità server, di collegamento in rete, di data center e di archiviazione, come un servizio in outsourcing.
 
-### instance
+### istanza
 {: #x2002531}
 
 Un'entità formata da risorse riservate per un'applicazione o un servizio specifici.
@@ -552,16 +593,15 @@ Un modello di elaborazione che connette applicazioni mobili ai servizi di elabor
 
 Un'infrastruttura in cui l'archiviazione e l'elaborazione dei dati per le applicazioni viene scaricata da un dispositivo mobile nel cloud. Con l'elaborazione cloud mobile, le applicazioni non sono limitate a uno specifico vettore e sono invece accessibili tramite il web.
 
-### MZR (multi-zone region)
-{: #x9766831}
+### MZR (multizone region)
+{: #x9774820}
 
-Una regione formata da due o più zone, che sono gruppi multipli di uno o più data center isolati in modo logico con infrastrutture elettrica, meccanica e di rete indipendenti.
+Una regione suddivisa tra i data center in più zone per aumentare la tolleranza dell'errore. Vedi anche [zona](#x2070723).
 
 ### MZR
-{: #x9766835}
+{: #x9774831}
 
-Vedi [MZR (multi-zone region)](#x9766831).
-
+Vedi [MZR (multizone region)](#x9774820).
 
 ## N
 {: #glossn}
@@ -615,10 +655,10 @@ gestire le quote. Gli utenti in un'organizzazione condividono le quote di istanz
 
 Vedi [platform as a service](#x2029786).
 
-### modalità paravirtualizzata 
+### modalità paravirtualizzata
 {: #x9736806}
 
-Una tecnica di virtualizzazione leggera. Durante la modalità di paravirtualizzazione, una macchina remota non richiede delle estensioni di virtualizzazione dal computer host, consentendo di conseguenza la virtualizzazione su sistemi hardware che non supportano la virtualizzazione assistita hardware. 
+Una tecnica di virtualizzazione leggera. Durante la modalità di paravirtualizzazione, una macchina remota non richiede delle estensioni di virtualizzazione dal computer host, consentendo di conseguenza la virtualizzazione su sistemi hardware che non supportano la virtualizzazione assistita hardware.
 
 ### immagine principale
 {: #x8439210}
@@ -629,6 +669,21 @@ Un'immagine che fornisce una base per un'altra immagine. Ad esempio, Ubuntu Linu
 {: #x2029786}
 
 L'offerta di una piattaforma di elaborazione, comprendente applicazioni, middleware ottimizzato, strumenti di sviluppo e ambienti di runtime Java e Web 2.0, in un ambiente basato sul cloud.
+
+### pod
+{: #x8461823}
+
+Un gruppo di contenitori in esecuzione su un cluster Kubernetes. Un pod è un'unità di lavoro eseguibile, che può essere un'applicazione autonoma o un microservizio.
+
+### PoP (point of presence)  
+{: #x5458832}
+
+Un'ubicazione fisica che archivia i server e i router in un cloud di rete.
+
+### PoP
+{: #x7234683}
+
+Vedi [PoP (point of presence)](#x5458832).
 
 ### cloud privato
 {: #x4585362}
@@ -703,7 +758,8 @@ Un territorio geografico definito. Una regione può essere una specifica area id
 ### registro
 {: #x2064940}
 
-Un servizio di archiviazione e distribuzione di immagini contenitore pubblico o privato. Vedi anche [contenitore](#x2010901), [immagine](#x2024928).
+Un repository pubblico o privato che contiene immagini utilizzate per creare
+contenitori. Vedi anche [contenitore](#x2010901), [immagine](#x2024928).
 
 ### Representational State Transfer (REST)
 {: #x3220976}
@@ -773,6 +829,11 @@ Nella gestione delle identità, la serie di entità che possono essere influenza
 Un protocollo di sicurezza che fornisce la privacy delle comunicazioni. Con SSL,
 le applicazioni client/server possono comunicare in un modo progettato per evitare intrusioni, manomissioni e contraffazioni dei messaggi. Vedi anche [autorità di certificazione](#x2016383).
 
+### seleziona disponibilità
+{: #x9773835}
+
+Un'offerta pronta per la produzione disponibile per la vendita e accessibile per clienti selezionati.
+
 ### servizio
 {: #x2038343}
 
@@ -788,6 +849,11 @@ Il periodo di tempo successivo all'avvio di un'applicazione su un dispositivo mo
 {: #x2213318}
 
 Un processo di autenticazione in cui un utente può accedere a più di un sistema o di un'applicazione, immettendo un unico ID utente e un'unica password.
+
+### SZR (singlezone region) 
+{: #x9774825}
+
+Una regione costituita da data center ubicati all'interno di una zona, vedi anche [zona](#x2070723).
 
 ### software as a service (SaaS)
 {: #x4585386}
@@ -861,6 +927,11 @@ in rete.  Un system of engagement spesso utilizza le tecnologie cloud per estend
 Un sistema di archiviazione delle informazioni (come un database o un'applicazione) che memorizza i record di business e automatizza i processi standard. Vedi
 anche [system of engagement](#x6528306).
 
+### SZR
+{: #x9774829}
+
+Vedi [SZR (singlezone region)](#x9774825).
+
 
 ## Ma
 {: #glosst}
@@ -931,17 +1002,26 @@ Una relazione di gestione utenti per gli utenti dell'infrastruttura classica che
 
 Relativo all'esistenza non fisica in sé, bensì simulata da software.
 
+### VLAN (Virtual Local Area Network) 
+{: #x2438470}
+
+Un'associazione logica di porte di switch basata su una serie di regole o criteri, come indirizzi Medium Access Control (MAC), protocolli, indirizzi di rete o indirizzi multicast. Questo concetto consente di segmentare le LAN senza richiedere modifiche fisiche.
+
 ### macchina virtuale (VM)
 {: #x2043165}
 
 Un'implementazione software di una macchina che esegue programmi come una macchina reale. Vedi anche [server virtuale](#x2455638).
 
-### virtual private network (VPN)
+### Cloud privato virtuale
+{: #x4585403}
+
+Una rete virtuale collegata a un account utente privato e isolata dalle altre reti in un cloud pubblico. Solo gli utenti autorizzati possono accedere alle risorse cloud private virtuali, inclusi server virtuali, archiviazione e sottoreti.
+
+### VPN (Virtual Private Network)
 {: #x2043188}
 
-Un'estensione di una intranet aziendale nel framework esistente
-di una rete pubblica o privata. Una VPN garantisce che i dati inviati tra
-due endpoint della connessione restino protetti.
+Una connessione privata tra due endpoint, anche quando i dati vengono trasferiti tramite una rete pubblica.
+I dati possono essere condivisi se viene stabilita una connessione a una rete privata. Normalmente, una VPN è utilizzata insieme a dei metodi di sicurezza, come ad esempio l'autenticazione e la crittografia, per fornire la massima sicurezza e riservatezza dei dati.
 
 ### server virtuale
 {: #x2455638}
@@ -958,6 +1038,10 @@ Vedi [macchina virtuale](#x2043165).
 
 Vedi [virtual private network](#x2043188).
 
+### volume
+{: #x2043272}
+
+Una quantità fissa di archiviazione fisica o virtuale su un supporto di archiviazione dei dati.
 
 ## Me
 {: #glossw}
@@ -971,7 +1055,6 @@ Vedi [archivio web](#x2116506).
 {: #x2406005}
 
 Vedi [archivio web](#x2116506).
-
 
 ### app web
 {: #x7636628}
@@ -1000,4 +1083,5 @@ Un contesto che contiene una raccolta di risorse utente che possono essere modif
 ### zona
 {: #x2070723}
 
-Un dominio di errore indipendente. Una zona è un'astrazione concepita per aiutare con una tolleranza di errore migliorata e una riduzione della latenza.
+Un dominio di errore indipendente. Una zona è un'astrazione concepita per aiutare con una tolleranza di errore migliorata e una riduzione della latenza. Vedi anche [MZR (multizone region)](#x9774820), [SZR (singlezone region)](#x9774825).
+

@@ -143,7 +143,7 @@ IBM Cloud 实施的网络范围的阻止策略，将阻止与源自受到贸易�
 
 为了识别与美国禁运国家/地区关联的 IP 地址，IBM Cloud 引用了由 [MaxMind ![外部链接图标](../../icons/launch-glyph.svg)](http://www.maxmind.com){: new_window} 维护的 Geo IP2 数据库。IBM Cloud 每季度会更新一次其 IP 地址国家/地区映射。
 
-注：此限制不适用于美国制裁和禁运中未禁止的内容。如果您认为自己的内容不在美国贸易和经济制裁范围内，请发送电子邮件至 exemptions@softlayer.com。 
+注：此限制不适用于美国制裁和禁运中未禁止的内容。如果您认为自己的内容不在美国贸易和经济制裁范围内，请发送电子邮件至 IBM_Cloud_Embargo_Exemption_Request@wwpdl.vnet.ibm.com。 
 
 ## 商标
 {: #trademarks}

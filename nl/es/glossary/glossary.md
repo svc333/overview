@@ -3,19 +3,18 @@
 
 copyright:
   years: 2016, 2019
-lastupdated: "2019-05-06"
+lastupdated: "2019-05-28"
 
 keywords: glossary, IBM Cloud glossary
 
 subcollection: overview
-
 
 ---
 
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
 
-# Términos del glosario de {{site.data.keyword.cloud_notm}}
+# Términos del glosario de {{site.data.keyword.cloud_notm}} 
 {: #glossary}
 
 Este glosario contiene términos y definiciones correspondientes a {{site.data.keyword.cloud_notm}}.
@@ -26,6 +25,32 @@ En este glosario se utilizan las siguientes referencias cruzadas:
 - *Véase* le remite desde un término no preferido al
 término preferido o desde una abreviatura a la forma completa.
 - *Véase también* le remite a un término relacionado u opuesto.
+
+<!--If you do not want letter links at the top of your 
+glossary, delete the text between these comment tags.
+[A](#glossa)
+[B](#glossb)
+[C](#glossc)
+[D](#glossd)
+[E](#glosse)
+[F](#glossf)
+[G](#glossg)
+[H](#glossh)
+[I](#glossi)
+[J](#glossj)
+[L](#glossl)
+[M](#glossm)
+[N](#glossn)
+[O](#glosso)
+[P](#glossp)
+[R](#glossr)
+[S](#glosss)
+[T](#glosst)
+[U](#glossu)
+[V](#glossv)
+[W](#glossw)
+
+-->
 
 ## A
 {: #glossa}
@@ -106,15 +131,20 @@ Ubicación dentro de una región en la que se ejecuta IBM Containers.
 ## B
 {: #glossb}
 
+### servidor nativo
+{: #x6778472}
+
+Un servidor físico dedicado completamente personalizable que se puede utilizar para virtualización o para alojamiento de web.
+
 ### imagen base
 {: #x5366487}
 
 Una imagen que no tiene una imagen padre. Véase también [imagen](#x2024928), [imagen padre](#x8439210).
 
-### servicio beta
-{: #x7470455}
+### oferta beta
+{: #x9774283}
 
-Servicio que no está listo para producción que está en una etapa de prueba de desarrollo. Véase también [servicio experimental](#x7470450).
+Una oferta que IBM pone a disponibilidad de los usuarios solo con fines de evaluación y prueba.  No se ofrece ninguna garantía, SLA ni soporte y las ofertas beta no están pensadas para que se utilicen en entornos de producción.
 
 ### enlazar
 {: #x2000361}
@@ -240,17 +270,22 @@ Un programa que se ejecuta de forma desatendida para efectuar funciones continua
 ### panel de control
 {: #x2363941}
 
-Componente de interfaz de usuario que proporciona al usuario un resumen coherente de la información pertinente que proceden de diversas fuentes.
+Componente de interfaz de usuario que proporciona al usuario un resumen coherente de la información pertinente que procede de diversas fuentes.
 
-### Centro de datos (DC)
+### centro de datos (CD)
 {: #x2439906}
 
-La ubicación física de los servidores que proporcionan servicios de cloud.
+La ubicación física de los servidores que proporcionan servicios de nube.
 
 ### almacén de datos
 {: #x2052849}
 
 Lugar, como el sistema de base de datos, archivo o directorio en el que se almacenan datos.
+
+### CD
+{: #x2052913}
+
+Véase [centro de datos](#x2439906).
 
 ### DEA
 {: #x2019805}
@@ -297,12 +332,10 @@ Componente de Cloud Foundry responsable de desplegar aplicaciones.
 Dirección de una API o servicio en un entorno. Una API expone un punto final
 y al mismo tiempo invoca los puntos finales de otros servicios. Véase también [ruta](#x2037338).
 
-### servicio experimental
-{: #x7470450}
+### oferta experimental
+{: #x9774278}
 
-Servicio que no está preparado para la producción y se puede eliminar de producción en cualquier momento. Véase también
-[servicio beta](#x7470455).
-
+Una oferta que IBM pone a disponibilidad de los usuarios solo con fines de evaluación y prueba y que puede ser inestable o no compatible con versiones anteriores. Una oferta experimental se puede retirar tras un aviso con poco tiempo de antelación. No se ofrece ninguna garantía, SLA ni soporte y las ofertas experimentales no están pensadas para que se utilicen en entornos de producción.
 
 ## F
 {: #glossf}
@@ -342,10 +375,20 @@ Arquitectura para una aplicación que proporciona un estándar estructura para u
 ## G
 {: #glossg}
 
+### GA
+{: #x2117930}
+
+Véase [disponibilidad general](#x2117947).
+
 ### GB por hora
 {: #x7470477}
 
 Cantidad acumulada de memoria (en gigabytes) que se está ejecutando para todas las instancias de una aplicación para un determinado paquete de compilación por hora.
+
+### disponibilidad general (GA)
+{: #x2117947}
+
+Fecha en que una oferta está disponible a nivel general para su venta y distribución a clientes o canales, generalmente en varias geografías.
 
 ### identificador exclusivo global (GUID)
 {: #x2390455}
@@ -411,7 +454,7 @@ Véase [infraestructura como servicio](#x4585332).
 ### IAM
 {: #x2193801}
 
-Consulte [gestión de identidad y acceso](#x7547040).
+Véase [gestión de identidad y acceso](#x7547040).
 
 ### IBM Cloud
 {: #x7301758}
@@ -539,15 +582,14 @@ Modelo de cálculo que conecta aplicaciones móviles a servicios de computación
 Infraestructura en la que el almacenamiento y el proceso de datos para las aplicaciones se descarga desde un dispositivo móvil en la nube. Con la computación en la nube móvil, las aplicaciones no están limitadas a un operador específico, sino que se accede a las mismas a través de la web.
 
 ### región multizona (MZR)
-{: #x9766831}
+{: #x9774820}
 
-Una región que consta de dos o más zonas, que son varios grupos de uno o más centros de datos lógicamente aislados con infraestructuras eléctricas, mecánicas y de red independientes.
+Una región que está distribuida entre centros de datos de diversas zonas para aumentar la tolerancia a errores. Véase también [zona](#x2070723).
 
 ### MZR
-{: #x9766835}
+{: #x9774831}
 
-Consulte [región multizona](#x9766831).
-
+Véase [región multizona](#x9774820).
 
 ## N
 {: #glossn}
@@ -617,6 +659,21 @@ Una imagen que proporciona una base para otra imagen. Por ejemplo, Ubuntu Linux 
 
 Distribución de una plataforma informática, que incluye aplicaciones, middleware optimizado, herramientas de desarrollo y los entornos de tiempo de ejecución Java y Web 2.0 en un entorno basado en la nube.
 
+### pod
+{: #x8461823}
+
+Un grupo de contenedores que se ejecutan en un clúster de Kubernetes. Un pod es una unidad de trabajo ejecutable, que puede ser una aplicación autónoma o un microservicio.
+
+### punto de presencia (PoP)
+{: #x5458832}
+
+Una ubicación física que almacena servidores y direccionadores en una nube de la red.
+
+### PoP
+{: #x7234683}
+
+Véase [punto de presencia](#x5458832).
+
 ### nube privada
 {: #x4585362}
 
@@ -647,7 +704,7 @@ Servicio que solo está visible para los miembros de una organización de IBM Cl
 ### nube pública
 {: #x4585370}
 
-Un entorno de computación en la nube en el que el acceso a los recursos estandarizados, como por ejemplo la infraestructura, el hardware de varios arrendatarios y los servicios, está disponible a los suscriptores en base a pago por uso. Véase también [sin borde](#x8439189), [nube privada](#x4585362).
+Un entorno de computación en la nube en el que el acceso a los recursos estandarizados, como por ejemplo la infraestructura, el hardware de varios arrendatarios y los servicios, está disponible a los suscriptores con base en pago por uso. Véase también [sin borde](#x8439189), [nube privada](#x4585362).
 
 ### pasarela pública
 {: #x9594389}
@@ -694,7 +751,7 @@ o un conjunto de códigos postales de la región.
 ### registro
 {: #x2064940}
 
-Servicio de almacenamiento y distribución de imágenes de un contenedor público o privado. Véase también [contenedor](#x2010901) e [imagen](#x2024928).
+Un repositorio público o privado que contiene imágenes utilizadas para crear contenedores. Véase también [contenedor](#x2010901) e [imagen](#x2024928).
 
 ### Representational State Transfer (REST)
 {: #x3220976}
@@ -762,6 +819,11 @@ las aplicaciones cliente/servidor pueden comunicarse de una forma diseñada
 para impedir las escuchas no deseadas, la manipulación indebida y la
 falsificación. Véase también [entidad emisora de certificados](#x2016383).
 
+### disponibilidad seleccionada
+{: #x9773835}
+
+Oferta lista para producción que está disponible para su venta y a la que pueden acceder determinados clientes.
+
 ### servicio
 {: #x2038343}
 
@@ -776,6 +838,11 @@ Periodo de tiempo que transcurre entre que se inicia una app en un dispositivo m
 {: #x2213318}
 
 Proceso de autenticación por el cual un usuario puede acceder a más de un sistema o aplicación entrando un único ID de usuario y contraseña.
+
+### región de una sola zona (SZR)
+{: #x9774825}
+
+Región que consta de centros de datos situados dentro de una zona. Véase también [zona](#x2070723).
 
 ### software como servicio (SaaS)
 {: #x4585386}
@@ -827,7 +894,7 @@ Un dominio que forma parte de un dominio mayor. Véase también [dominio persona
 ### subred
 {: #x4282974}
 
-Consulte [subred](#x2040149).
+Véase [subred](#x2040149).
 
 ### subred (subred)
 {: #x2040149}
@@ -843,6 +910,11 @@ En tecnología de la información (TI), sistema que incorpora tecnologías que a
 {: #x6735061}
 
 Sistema de almacenamiento de información (como, por ejemplo, una base de datos o una aplicación) que almacena registros empresariales y automatiza los procesos estándares. Véase también [sistema colaborativo](#x6528306).
+
+### SZR
+{: #x9774829}
+
+Véase [región de una sola zona](#x9774825).
 
 
 ## T
@@ -916,17 +988,28 @@ Una relación de gestión para usuarios de infraestructura clásicos que invitan
 
 Relativo a lo que no existe físicamente como tal pero que el software hace que lo parezca.
 
+### red de área local virtual (VLAN)
+{: #x2438470}
+
+Asociación lógica de puertos de conmutador basada en un conjunto de reglas o criterios, como las direcciones MAC (Medium Access Control), los protocolos, una dirección de red o una dirección de multidifusión. Este concepto permite segmentar la LAN
+de nuevo sin necesidad de una reorganización física.
+
 ### máquina virtual (VM)
 {: #x2043165}
 
 Una implementación de software de una máquina que ejecuta programas como
 una máquina real. Véase también [servidor virtual](#x2455638).
 
-### red privada virtual (VPN)
+### red privada virtual
+{: #x4585403}
+
+Red virtual enlazada a una cuenta de usuario privada y aislada de otras redes en la nube pública. Solo los usuarios autorizados pueden acceder a los recursos de la nube privada virtual, que incluyen servidores virtuales, almacenamiento y subredes.
+
+### red privada virtual
 {: #x2043188}
 
-Una ampliación de la intranet de una empresa a través de la infraestructura existente de
-una red pública o privada. Una VPN garantiza que los datos enviados entre dos puntos finales de su conexión continúen siendo seguros.
+Conexión privada entre dos puntos finales, incluso cuando los datos se transfieren a través de una red pública. 
+Los datos se pueden compartir como si se estableciera una conexión con una red privada. Generalmente una VPN se utiliza junto con métodos de seguridad, como autenticación y cifrado, para ofrecer la máxima seguridad y privacidad de los datos.
 
 ### servidor virtual
 {: #x2455638}
@@ -944,6 +1027,10 @@ Véase [máquina virtual](#x2043165).
 Véase
 [red privada virtual](#x2043188).
 
+### volumen
+{: #x2043272}
+
+Cantidad fija de almacenamiento físico o virtual en un soporte de almacenamiento de datos.
 
 ## W
 {: #glossw}
@@ -957,7 +1044,6 @@ Véase [archivo web](#x2116506).
 {: #x2406005}
 
 Véase [archivo web](#x2116506).
-
 
 ### app web
 {: #x7636628}
@@ -987,4 +1073,5 @@ Contexto que contiene un conjunto de artefactos que un usuario con el permiso ad
 ### zona
 {: #x2070723}
 
-Un dominio independiente de tolerancia a errores. Una zona es una abstracción diseñada para aumentar la tolerancia a errores y reducir la latencia.
+Un dominio independiente de tolerancia a errores. Una zona es una abstracción diseñada para aumentar la tolerancia a errores y reducir la latencia. Véase también [región multizona](#x9774820), [región de una sola zona](#x9774825).
+

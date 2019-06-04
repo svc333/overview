@@ -2,9 +2,9 @@
 
 copyright:
   years: 2018, 2019
-lastupdated: "2019-05-13"
+lastupdated: "2019-05-23"
 
-keywords: HA, failover, DR
+keywords: HA, failover, DR, high availability, disaster recovery, locations, data centers
 
 subcollection: overview
 
@@ -64,20 +64,18 @@ subcollection: overview
 
 {{site.data.keyword.cloud_notm}} 主控台的廣域負載平衡可確保如果離您最近的地理位置無法使用，主控台會顯示下一個最近位置的資訊。如此一來，您隨時都可以存取主控台，而不需要採取任何動作來存取所需的資源。
 
-依預設，您可以從主控台的資源清單視圖中檢視所有位置的所有資源。如果您要檢視及使用特定位置的資源，請展開**位置**功能表，並從清單選取某個位置。展開特定地理位置，即可選擇依個別資料中心、地區或區域進行過濾：
+依預設，您可以從主控台的資源清單視圖中檢視所有位置的所有資源。如果您要檢視及使用特定位置的資源，請展開**位置**功能表，並從清單選取某個位置。展開特定地理位置，即可選擇依個別資料中心、地區或區域進行過濾。
 
-*地理位置* 是包含一個以上地區的地理區域或較大政治主體。部分服務支援在跨地區的地理位置層次運作，並且透通地管理地區之間的資料抄寫及移動。例如，歐盟地理位置中 {{site.data.keyword.cos_full_notm}} 的資料可以抄寫歐盟國家/地區內多個資料中心的資料。 
-   * *都會* 是特定地理區域內的特定城市名稱。例如，達拉斯是北美洲地理位置中的都會。
-      * *資料中心* 是提供雲端服務之伺服器的實體位置。您可以將展開的地理位置內的資料中心識別為使用地理位置名稱及號碼的選項。
-      * *地區* 是已定義的地理區域。地區可以是特定的郵遞區號區域、鄉鎮、縣/市、州/省、一組州/省，甚至是一組國家/地區。您可以使用號碼來識別資料中心，辨別清單內資料中心與地區之間的差異。
-         * *區域* 是獨立錯誤網域，其設計是要協助改善容錯及縮短延遲。因為區域使用地區名稱及號碼，並巢狀於地區內，所您可以予以識別。
+比方說，如果您有部署在倫敦 2 (eu-gb-2) 區域的資源，則可以過濾資源清單，只顯示這些資源。區域位於某個地區內，而地區是依其都會位置進行組織。若要將清單過濾到倫敦 2 (eu-gb-2) 區域，請展開**倫敦**都會選項，然後展開**倫敦 (eu-gb)** 地區選項。在該地區內，您可以從可用的區域清單中進行選擇。如果您已在特定資料中心內部署了資源，則可以透過特定的都會位置及英數代碼識別資料中心，例如倫敦 02 (lon02)。
+
+您還可以擁有位於全球的資源。**廣域**選項表示只有一個邏輯上可廣域存取的服務實例（與任何地區或區域無關）發佈到自訂應用程式。可以從廣域端點存取這些類型的資源。
 
 ## 資料中心
 {: #data_center}
 
 當您部署基礎架構資源時，有更多關於資料所在位置的選項。您可以選取一個位置，或者可以從 {{site.data.keyword.Bluemix_notm}} 的資料中心清單進行選取。*資料中心* 是管理服務及應用程式所使用之電源、散熱、運算、網路及儲存空間資源的實體位置。資料中心並不像一個位置中的多個區域那樣，提供對本端失敗的隔離。如需相關資訊，請參閱 [Global locations for your global business ![外部鏈結圖示](../icons/launch-glyph.svg "外部鏈結圖示")](https://www.ibm.com/cloud/data-centers/){: new_window}。
 
-{{site.data.keyword.Bluemix_notm}} 在全球許多位置提供資料中心。當您部署基礎架構資源時，可以從 {{site.data.keyword.Bluemix_notm}} 的資料中心清單進行選取。 
+{{site.data.keyword.Bluemix_notm}} 在全球許多位置提供資料中心。 
 
 
 ![下表說明的資料中心地圖](images/Global-View.svg)
@@ -159,7 +157,7 @@ subcollection: overview
 
 {{site.data.keyword.Bluemix_notm}} 針對單一專用或本端環境內平台服務的多個實例，提供 99.5% 的可用性服務水準。
 
-若要提交運作中斷時間索賠，請與 [{{site.data.keyword.Bluemix_notm}} 支援中心 ](https://console.cloud.ibm.com/unifiedsupport/supportcenter){: new_window} ![外部鏈結圖示](../icons/launch-glyph.svg "外部鏈結圖示") 聯絡。
+若要提交運作中斷時間索賠，請與 [{{site.data.keyword.Bluemix_notm}} 支援中心 ](https://cloud.ibm.com/unifiedsupport/supportcenter){: new_window} ![外部鏈結圖示](../icons/launch-glyph.svg "外部鏈結圖示") 聯絡。
 
 {{site.data.keyword.Bluemix_notm}} 提供 {{site.data.keyword.Bluemix_notm}} 服務的 SLA，可能讓您符合在帳戶獲得額度的資格。SLA 是您解決 {{site.data.keyword.Bluemix_notm}} 未能達到指定服務水準的唯一方式。{{site.data.keyword.Bluemix_notm}} 針對單一專用或本端環境內平台服務的多個實例，提供 99.5% 的可用性服務水準。
 
@@ -167,7 +165,7 @@ subcollection: overview
 
 如需 {{site.data.keyword.Bluemix_notm}} 的完整服務說明，請參閱 [Cloud Services terms](http://www-03.ibm.com/software/sla/sladb.nsf/sla/bm){: new_window} ![外部鏈結圖示](../icons/launch-glyph.svg "外部鏈結圖示")。
 
-### 可用性運作中斷時間 SLA
+### 可用性運作中斷時間 SLA 
 {: #avail-downtime}
 
 如果您遇到不足 99.5% 的可用性運作中斷時間，您就符合在帳戶獲得額度的資格。可用性運作中斷時間是指您無法連接至任何服務實例的總分鐘數。運作中斷時間總分鐘數的計算從您提交中斷事件的報告開始，並在至少有一個受影響實例可供使用時截止。
@@ -205,14 +203,14 @@ SLA 不包括與指定排除項目、{{site.data.keyword.Bluemix_notm}} 使用�
 
 「運作中斷時間」是指因為「公用網路」、「專用網路」及「備援基礎架構」電力和 HVAC（暖通空調）中斷而造成服務中斷，導致客戶認為基礎架構服務無法使用的總分鐘數。運作中斷時間總分鐘數的計算是從識別影響服務的已驗證中斷之時開始，一直到服務可用時截止。 
 
-運作中斷時間不包括已排定或已公告維護的時間。針對每連續 30 分鐘的運作中斷時間，您會獲得受中斷直接影響之已識別服務每月費用 5% 的額度。如果運作中斷時間少於連續 30 分鐘，則不符合獲得額度的資格。不同中斷類型的運作中斷時間無法合併進行此計算。
+運作中斷時間不包括已排定或已公告維護的時間。針對每連續 30 分鐘的運作中斷時間，您會獲得受中斷直接影響之已識別服務每月費用 5% 的額度。如果運作中斷時間少於連續 30 分鐘，則不符合獲得額度的資格。不同中斷類型的運作中斷時間無法合併進行此計算。 
 
 ### 基礎架構硬體更換及升級 SLA
 {: #hw-replaceupgrade-sla}
 
 {{site.data.keyword.Bluemix_notm}} 會在更換故障的硬體或執行排定的硬體升級時，嘗試將運作中斷時間縮到最短。 
 
-{{site.data.keyword.Bluemix_notm}} 針對以下狀況提供額度：
+{{site.data.keyword.Bluemix_notm}} 針對以下狀況提供額度： 
 - 硬體更換，根據從 {{site.data.keyword.Bluemix_notm}} 確認客戶已報告硬體故障的時間算起的更換時間。
 - 計劃性的硬體升級，根據獲得升級之服務的總運作中斷時間。 
 
@@ -225,7 +223,7 @@ SLA 不包括與指定排除項目、{{site.data.keyword.Bluemix_notm}} 使用�
 |> 6 小時 | 40%            |
 |> 10 小時 | 60%            |
 |> 14 小時 | 80%            |
-| > 18 小時| 80%            |
+|> 18 小時 | 80%            |
 {: caption="表 6. 根據受硬體更換或升級影響之服務每月費用計算的額度" caption-side="top"}
 
 ### 索賠
@@ -235,7 +233,7 @@ SLA 不包括與指定排除項目、{{site.data.keyword.Bluemix_notm}} 使用�
 
 此額度是根據受影響服務在合約月份期間內之累計可用性，並使用該等受影響服務之每月費用所計算出的最高適用補償。額度不得超過每月費用的 25%。
 
-若要提交運作中斷時間索賠，請與 [{{site.data.keyword.Bluemix_notm}} 支援中心 ](https://console.cloud.ibm.com/unifiedsupport/supportcenter){: new_window} ![外部鏈結圖示](../icons/launch-glyph.svg "外部鏈結圖示") 聯絡。
+若要提交運作中斷時間索賠，請與 [{{site.data.keyword.Bluemix_notm}} 支援中心 ](https://cloud.ibm.com/unifiedsupport/supportcenter){: new_window} ![外部鏈結圖示](../icons/launch-glyph.svg "外部鏈結圖示") 聯絡。
 
 ### 排除適用
 {: #exclusions}

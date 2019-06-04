@@ -144,7 +144,7 @@ IBM Cloud 針對來自受到該貿易與經濟制裁之國家/地區的 IP 位�
 
 為了識別與美國禁運國家/地區相關聯的 IP 位址，IBM Cloud 會參考由 [MaxMind ![外部鏈結圖示](../../icons/launch-glyph.svg)](http://www.maxmind.com){: new_window} 維護的 Geo IP2 資料庫。IBM Cloud 會每季更新 IP 位址國家/地區對映。
 
-附註：此限制不適用於美國制裁與禁運未禁止的內容。若您相信您的內容不受到美國貿易和經濟制裁禁止，請寄送電子郵件到 exemptions@softlayer.com。 
+附註：此限制不適用於美國制裁與禁運未禁止的內容。若您相信您的內容不受到美國貿易和經濟制裁禁止，請寄送電子郵件到 IBM_Cloud_Embargo_Exemption_Request@wwpdl.vnet.ibm.com。 
 
 ## 商標
 {: #trademarks}

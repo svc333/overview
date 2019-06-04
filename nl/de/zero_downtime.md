@@ -2,9 +2,9 @@
 
 copyright:
   years: 2018, 2019
-lastupdated: "2019-05-13"
+lastupdated: "2019-05-23"
 
-keywords: HA, failover, DR
+keywords: HA, failover, DR, high availability, disaster recovery, locations, data centers
 
 subcollection: overview
 
@@ -66,18 +66,16 @@ Der globale Lastausgleich für die {{site.data.keyword.cloud_notm}}-Konsole stel
 
 Über die Ansicht 'Ressourcenliste' können Sie standardmäßig alle Ressourcen an allen Standorten anzeigen. Wenn Sie Ressourcen an einem bestimmten Standort anzeigen und mit diesen arbeiten möchten, erweitern Sie das Menü **Standort** und wählen Sie einen Standort aus der Liste aus. Wenn Sie eine bestimmten geografischen Standort erweitern, haben Sie die Möglichkeit, nach einzelnen Rechenzentren, Regionen oder Zonen zu filtern. 
 
-Eine *Geografie* ist ein geografischer Bereich oder eine größere politische Einheit mit einer oder mehreren Regionen. Einige Services werden auf der Ebene der Geografien unterstützt, arbeiten regionsübergreifend und verwalten die Datenreplikation und die Datenübertragung zwischen den Regionen transparent. So können beispielsweise Daten in der Geografie 'EU' für {{site.data.keyword.cos_full_notm}} in mehreren Rechenzentren in Ländern der Europäischen Union repliziert werden.  
-   * *Metro* ist ein bestimmter Ortsname innerhalb des bestimmten geografischen Bereichs. So ist Dallas z. B. ein Metrobereich in der Geografie Nordamerika. 
-      * Ein *Rechenzentrum* ist der physische Standort der Server, die Cloud-Service bereitstellen. Sie können Rechenzentren innerhalb einer erweiterten Geografie als Optionen identifizieren, deren Bezeichnung aus dem Geografienamen und einer Zahl besteht. 
-      * Eine *Region* ist ein definiertes geografisches Gebiet. Bei einer Region kann es sich um einen bestimmten Postleitzahlenbereich, einen Ort, ein Bundesland/Kanton, eine Gruppe von Bundesländern/Kantonen oder auch eine Gruppe von Ländern handeln. Rechenzentren und Regionen können in der Liste anhand der Zahlen unterschieden werden, die zur Identifizierung der Rechenzentren verwendet werden. 
-         * Eine *Zone* ist ein unabhängige Fehlerdomäne zur Unterstützung einer verbesserten Fehlertoleranz und einer reduzierten Latenz. Sie können Zonen daran erkennen, dass ihre Bezeichnung aus dem Regionsnamen und einer Zahl besteht und das sie innerhalb der Region verschachtelt sind. 
+Beispiel: Wenn Sie über Ressourcen verfügen, die in der Zone 'London 2' (eu-gb-2) bereitgestellt werden, können Sie die Ressourcenliste so filtern, dass nur diese Ressourcen angezeigt werden. Eine Zone befindet sich innerhalb einer Region und eine Region ist anhand des zugehörigen Metrostandorts organisiert. Zum Filtern der Liste anhand der Zone 'London 2' (eu-gb-2) erweitern Sie die Metro-Option **London** und anschließend die Regionsoption **London (eu-gb)**. Innerhalb dieser Region können Sie eine Zone in der Liste der verfügbaren Zonen auswählen. Wenn Sie über eine Ressource verfügen, die in einem bestimmten Rechenzentrum bereitgestellt wird, können Sie das Rechenzentrum anhand des spezifischen Metrostandorts und des alphanumerischen Codes identifizieren, z. B. London 02 (lon02). 
+
+Sie können auch über Ressourcen verfügen, die global bereitgestellt werden. Die Option **Global** bedeutet, dass nur eine einzelne, logische, global zugängliche Instanz des Service - unabhängig von einer Region oder Zone - für Kundenanwendungen veröffentlicht wird. Zugriff auf diese Ressourcentypen besteht über einen globalen Endpunkt. 
 
 ## Rechenzentren
 {: #data_center}
 
 Wenn Sie Infrastrukturressourcen bereitstellen, stehen Ihnen mehr Optionen zur Verfügung, an denen sich Ihre Daten befinden können. Sie können einen Standort auswählen oder eines der aufgelisteten {{site.data.keyword.Bluemix_notm}}-Rechenzentren. Ein *Rechenzentrum* ist der physische Standort, an dem die für Services und Apps verwendeten Ressourcen für Strom, Kühlung, Datenverarbeitung, Vernetzung und Speicher gehostet werden. Rechenzentren bieten keine Isolierung von lokalen Ausfällen, ähnlich wie bei mehreren Zonen an einem Standort. Weitere Informationen finden Sie in [Globale Standorte für Ihr globales Unternehmen ![Symbol für externen Link](../icons/launch-glyph.svg "Symbol für externen Link")](https://www.ibm.com/cloud/data-centers/){: new_window}.
 
-{{site.data.keyword.Bluemix_notm}} bietet Rechenzentren an vielen Standorten in der ganzen Welt. Wenn Sie Infrastrukturressourcen bereitstellen, können Sie ein Rechenzentrum aus einer Liste in {{site.data.keyword.Bluemix_notm}} auswählen. 
+{{site.data.keyword.Bluemix_notm}} bietet Rechenzentren an vielen Standorten in der ganzen Welt. 
 
 
 ![Karte der Rechenzentren, die in den folgenden Tabellen beschrieben werden](images/Global-View.svg)
@@ -159,7 +157,7 @@ Wenn Sie Infrastrukturressourcen bereitstellen, stehen Ihnen mehr Optionen zur V
 
 {{site.data.keyword.Bluemix_notm}} stellt ein Service-Level mit einer Verfügbarkeit von 99,5 % für mehrere Instanzen eines Plattformservice in einer einzelnen dedizierten oder lokalen Umgebung bereit.
 
-Wenn Sie eine Reklamation wegen Ausfallzeit einreichen wollen, wenden Sie sich an [{{site.data.keyword.Bluemix_notm}} Support](https://console.cloud.ibm.com/unifiedsupport/supportcenter){: new_window} ![Symbol für externen Link](../icons/launch-glyph.svg "Symbol für externen Link").
+Wenn Sie eine Reklamation wegen Ausfallzeit einreichen wollen, wenden Sie sich an [{{site.data.keyword.Bluemix_notm}} Support](https://cloud.ibm.com/unifiedsupport/supportcenter){: new_window} ![Symbol für externen Link](../icons/launch-glyph.svg "Symbol für externen Link").
 
 {{site.data.keyword.Bluemix_notm}} stellt SLAs für {{site.data.keyword.Bluemix_notm}}-Services zur Verfügung, durch die Sie gegebenenfalls zu Gutschriften auf Ihr Konto berechtigt sind. SLAs stellen die einzige Möglichkeit dar, die Nichteinhaltung eines angegebenen Service-Levels durch {{site.data.keyword.Bluemix_notm}} beizulegen. {{site.data.keyword.Bluemix_notm}} stellt ein Service-Level mit einer Verfügbarkeit von 99,5 % für mehrere Instanzen eines Plattformservice in einer einzelnen dedizierten oder lokalen Umgebung bereit.
 
@@ -167,7 +165,7 @@ Weitere Informationen zu dedizierten Umgebungen finden Sie in [IBM Cloud Dedicat
 
 Die vollständige Servicebeschreibung für {{site.data.keyword.Bluemix_notm}} steht unter [Cloud Services-Bedingungen](http://www-03.ibm.com/software/sla/sladb.nsf/sla/bm){: new_window} ![Symbol für externen Link](../icons/launch-glyph.svg "Symbol für externen Link") zur Verfügung.
 
-### SLA für Verfügbarkeitsausfallzeit
+### SLA für Verfügbarkeitsausfallzeit 
 {: #avail-downtime}
 
 Sie haben Anspruch auf eine Gutschrift auf Ihr Konto, wenn Ausfallzeiten auftreten, bei denen die Verfügbarkeit von 99,5 % unterschritten wird. Die Ausfallzeit der Verfügbarkeit ergibt sich aus der Gesamtzeit in Minuten, in der Sie zu keiner Ihrer Service-Instanzen eine Verbindung herstellen konnten. Die Berechnung der Gesamtausfallzeit beginnt mit der Einreichung eines Berichts zur Meldung des Betriebsunterbrechungsereignisses und endet, wenn mindestens eine der betroffenen Instanzen für die Nutzung verfügbar ist.
@@ -205,27 +203,27 @@ Infrastrukturdienste sind Bare-Metal-Server und virtuelle Server, Vernetzungs-, 
 
 Als Ausfallzeit wird die Gesamtzeit von Minuten bezeichnet, in der ein vom Kunden identifizierter Infrastrukturservice nicht zur Verfügung steht, da der Service wegen einer Serviceunterbrechung aufgrund eines Ausfalls des öffentlichen Netzes, des privaten Netzes, einem Stromausfall bei redundanten Infrastrukturen und HVAC-Betriebsunterbrechungen unterbrochen worden ist. Die Berechnung der Gesamtausfallzeit in Minuten beginnt, wenn der bestätigte Ausfall, der den Service betrifft, identifiziert wird, und endet mit Zeitpunkt, an dem der Service wieder verfügbar ist. 
 
-Ausfallzeiten umfassen keine Zeit für geplante oder angekündigte Wartungsarbeiten. Für jeweils 30 Minuten ununterbrochener Ausfallzeit erhalten Sie eine Gutschrift in Höhe von 5 % der monatlichen Gebühren für die identifizierten Services, die direkt von dem Ausfall betroffen sind. Sie haben keinen Anspruch auf eine Gutschrift, wenn die Ausfallzeit weniger als 30 zusammenhängende Minuten beträgt. Ausfallzeiten für unterschiedliche Ausfalltypen können nicht miteinander kombiniert werden, damit diese Berechnung erfüllt wird.
+Ausfallzeiten umfassen keine Zeit für geplante oder angekündigte Wartungsarbeiten. Für jeweils 30 Minuten ununterbrochener Ausfallzeit erhalten Sie eine Gutschrift in Höhe von 5 % der monatlichen Gebühren für die identifizierten Services, die direkt von dem Ausfall betroffen sind. Sie haben keinen Anspruch auf eine Gutschrift, wenn die Ausfallzeit weniger als 30 zusammenhängende Minuten beträgt. Ausfallzeiten für unterschiedliche Ausfalltypen können nicht miteinander kombiniert werden, damit diese Berechnung erfüllt wird. 
 
 ### SLA für Ersatz von Hardware der Infrastruktur und für Aktualisierungen
 {: #hw-replaceupgrade-sla}
 
 {{site.data.keyword.Bluemix_notm}} versucht, beim Austausch fehlerhafter Hardware oder bei der Durchführung eines terminierten Hardware-Upgrades die Ausfallzeit zu minimieren. 
 
-{{site.data.keyword.Bluemix_notm}} stellt Gutschriften für die folgenden Fälle bereit: 
+{{site.data.keyword.Bluemix_notm}} stellt Gutschriften für die folgenden Fälle bereit:  
 - Ersetzen von Hardware, basierend auf der Zeit des Austauschs ab dem Zeitpunkt, zu dem {{site.data.keyword.Bluemix_notm}} bestätigt, dass ein Kunde einen Hardwarefehler gemeldet hat.
 - Geplante Hardware-Upgrades, basierend auf der Gesamtausfallzeit des Service, für den das Upgrade durchgeführt wird. 
 
 Service-Level-Zeiträume schließen jede Zeit aus, die zum erneuten Laden des Betriebssystems oder von Anwendungen erforderlich ist, oder die Zeitleistung verschlechtert ist. Sie haben Anspruch auf eine Gutschrift auf der Grundlage der monatlichen Gebühr für den Service, die von dem Hardwareaustausch oder -upgrade betroffen ist, wenn {{site.data.keyword.Bluemix_notm}} einen bestimmten Service-Level-Zeitraum nicht erfüllt.
 
-| Service-Level-Zeitraum  | Prozentsatz der Gutschrift |
+| Service-Level-Zeitraum | Prozentsatz der Gutschrift |
 |---------------------------|----------------|
 | ≤ 2 Stunden                 | Keine           |
 | > 2 Stunden                 | 20 %            |
 | > 6 Stunden                 | 40 %            |
 | > 10 Stunden                | 60 %            |
 | > 14 Stunden                | 80 %            |
-| > 18 Stunden                | 80 %            |
+| > 18 Stunden                | 80 %            |
 {: caption="Tabelle 6. Gutschrift basierend auf der monatlichen Gebühr für den Service, der von dem Hardwareaustausch oder -upgrade betroffen ist" caption-side="top"}
 
 ### Reklamationen
@@ -235,7 +233,7 @@ Reichen Sie Ihren Antrag innerhalb von 60 Tagen nach Ablauf des vertraglich vere
 
 Die Gutschrift ist die höchste anwendbare Vergütung und basiert auf der kumulativen Verfügbarkeit des betroffenen Service während eines Vertragsmonats. Ihre Berechnung erfolgt anhand der monatlichen Gebühren für den betroffenen Service. Gutschriften dürfen 25 % der monatlichen Gebühren nicht überschreiten.
 
-Wenn Sie eine Reklamation wegen Ausfallzeit einreichen wollen, wenden Sie sich an [{{site.data.keyword.Bluemix_notm}} Support](https://console.cloud.ibm.com/unifiedsupport/supportcenter){: new_window} ![Symbol für externen Link](../icons/launch-glyph.svg "Symbol für externen Link").
+Wenn Sie eine Reklamation wegen Ausfallzeit einreichen wollen, wenden Sie sich an [{{site.data.keyword.Bluemix_notm}} Support](https://cloud.ibm.com/unifiedsupport/supportcenter){: new_window} ![Symbol für externen Link](../icons/launch-glyph.svg "Symbol für externen Link").
 
 ### Ausschlüsse
 {: #exclusions}

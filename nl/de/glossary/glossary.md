@@ -3,19 +3,18 @@
 
 copyright:
   years: 2016, 2019
-lastupdated: "2019-05-06"
+lastupdated: "2019-05-28"
 
 keywords: glossary, IBM Cloud glossary
 
 subcollection: overview
-
 
 ---
 
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
 
-# Glossareinträge für {{site.data.keyword.cloud_notm}}
+# Glossareinträge für {{site.data.keyword.cloud_notm}} 
 {: #glossary}
 
 In diesem Glossar werden Begriffe und Definitionen für {{site.data.keyword.cloud_notm}} bereitgestellt.
@@ -25,6 +24,34 @@ Folgende Querverweise werden in diesem Glossar verwendet:
 
 - *Siehe* verweist Sie von einem wenig verwendeten Begriff zu dem bevorzugten Begriff oder von einer Abkürzung auf die ausgeschriebene Form.
 - *Siehe auch* verweist auf einen verwandten oder gegensätzlichen Begriff.
+
+<!--If you do not want letter links at the top of your 
+glossary, delete the text between these comment tags.
+[A](#glossa)
+[B](#glossb)
+[C](#glossc)
+[D](#glossd)
+[E](#glosse)
+[F](#glossf)
+[G](#glossg)
+[H](#glossh)
+[I](#glossi)
+[J](#glossj)
+[K](#glossk)
+[L](#glossl)
+[M](#glossm)
+[N](#glossn)
+[O](#glosso)
+[P](#glossp)
+[R](#glossr)
+[S](#glosss)
+[T](#glosst)
+[U](#glossu)
+[V](#glossv)
+[W](#glossw)
+[Z](#glossz)
+
+-->
 
 ## A
 {: #glossa}
@@ -38,6 +65,11 @@ Zwei oder mehr Containergruppeninstanzen werden auf demselben Netzwerkknoten aus
 {: #x2012974}
 
 Ein Code-Snippet kann explizit aufgerufen oder als Reaktion auf ein Ereignis ausgeführt werden. Siehe auch [Feed](#x3129185), [aufrufen](#x2057232).
+
+### Allgemeine Verfügbarkeit (General Availability, GA)
+{: #x2117947}
+
+Datum, an dem ein Angebot allgemein zum Verkauf und zur Bereitstellung für Kunden oder Vertriebskanäle, normalerweise in mehreren Geografien, verfügbar ist. 
 
 ### Angepasste Domäne
 {: #x5728384}
@@ -80,6 +112,11 @@ Eine Entität, die von einem Software- oder einen Systementwicklungsprozess verw
 
 Das Aktivieren einer Aktion. Siehe auch [Aktion](#x2012974).
 
+### Ausgewählte Verfügbarkeit
+{: #x9773835}
+
+Ein einsatzbereites Angebot, das für den Verkauf verfügbar ist und auf das ausgewählte Kunden zugreifen können. 
+
 ### Auslösen
 {: #x2239904}
 
@@ -112,6 +149,11 @@ In der IT-Sicherheit die einem Benutzer erteilte Berechtigung für die Kommunika
 
 ## B
 {: #glossb}
+
+### Bare-Metal-Server
+{: #x6778472}
+
+Ein dedizierter, vollständig anpassbarer physischer Server, der für die Virtualisierung oder das Web-Hosting eingesetzt werden kann. 
 
 ### Basisimage
 {: #x5366487}
@@ -149,10 +191,15 @@ Eine Untergruppe innerhalb einer IBM Cloud-Organisation. Benutzer, die Mitgliede
 
 Ein Prozess, durch den die Ausgabe eines Builds abgerufen, die Ausgabe mit Konfigurationseigenschaften paketiert und dieses Paket zum Testen oder Ausführen in einer vordefinierten Position installiert wird. Siehe auch [Staging](#x2067189).
 
-### Betaservice
-{: #x7470455}
+### Bereitstellungspunkt (Point of Presence, PoP)
+{: #x5458832}
 
-Ein Service, der für die Produktionsumgebung noch nicht einsatzfähig ist und sich in einer Versuchsphase der Entwicklung befindet. Siehe auch [Experimenteller Service](#x7470450).
+Ein physischer Standort zum Speichern von Servern und Routern in einer Netz-Cloud. 
+
+### Beta-Angebot
+{: #x9774283}
+
+Ein Angebot, das von IBM ausschließlich zu Evaluierungs- und Testzwecken verfügbar gemacht wird. Es gelten keine Gewährleistungen oder SLAs und es wird keine Unterstützung bereitgestellt. Beta-Angebote sind nicht für den Produktionseinsatz bestimmt. 
 
 ### Binden
 {: #x2000361}
@@ -241,6 +288,11 @@ Ein persistentes Speichersystem in der IBM Cloudumgebung, in dem Benutzer Dateie
 
 Ein Bereich, z. B. ein Datenbanksystem, eine Datei oder ein Verzeichnis, in dem Daten gespeichert werden.
 
+### Datenträger
+{: #x2043272}
+
+Eine feste Menge physischen oder virtuellen Speichers auf einem Datenspeichermedium. 
+
 ### DEA
 {: #x2019805}
 
@@ -290,16 +342,20 @@ Eine geänderte Version des übergeordneten Image. Images bestehen aus Ebenen, w
 
 Eine Clientoperation, bei der nur Daten gelesen werden. Einfache API-Aufrufe beanspruchen weniger Ressourcen als komplexe API-Aufrufe, da sie nur eine einzige Funktion haben. Siehe auch [Komplexer API-Aufruf](#x7690468).
 
+### Einzelzonenregion (Single-Zone Region, SZR)
+{: #x9774825}
+
+Eine Region, die aus Rechenzentren besteht, die sich innerhalb eine einzelnen Zone befinden. Siehe auch [Zone](#x2070723). 
+
 ### Endpunkt
 {: #x2026820}
 
 Die Adresse einer API oder eines Service in einer Umgebung. Eine API macht einen Endpunkt zugänglich und ruft gleichzeitig die Endpunkte anderer Services auf. Siehe auch [Route](#x2037338).
 
-### Experimenteller Service
-{: #x7470450}
+### Experimentelles Angebot
+{: #x9774278}
 
-Ein Service, der nicht produktionsreif ist und jederzeit aus der Produktion entfernt werden kann. Siehe auch [Betaservice](#x7470455).
-
+Ein Angebot, das von IBM ausschließlich zu Evaluierungs- und Testzwecken verfügbar gemacht wird und das möglicherweise instabil oder nicht mit vorherigen Versionen kompatibel ist. Ein experimentelles Angebot kann kurzfristig eingestellt werden. Es gelten keine Gewährleistungen oder SLAs und es wird keine Unterstützung bereitgestellt. Experimentelle Angebote sind nicht für den Produktionseinsatz bestimmt. 
 
 ## F
 {: #glossf}
@@ -322,6 +378,11 @@ Eine Architektur für eine Anwendung, die eine Standardstruktur für eine Anwend
 
 ## G
 {: #glossg}
+
+### GA
+{: #x2117930}
+
+Siehe [Allgemeine Verfügbarkeit (General Availability, GA)](#x2117947). 
 
 ### GB-Stunde
 {: #x7470477}
@@ -446,6 +507,9 @@ Ein einfaches Datenaustauschformat, das auf der Objekt-Literal-Notation von Java
 Siehe [JavaScript Object Notation](#x3292165).
 
 
+## K
+{: #glossk}
+
 ### Kachel
 {: #x2092493}
 
@@ -520,10 +584,9 @@ Ein Datenverarbeitungsmodell, das mobile Anwendungen mit Cloud-Computing-Service
 Eine Infrastruktur, in der die Speicherung und Verarbeitung von Daten für Anwendungen von einem mobilen Gerät in die Cloud ausgelagert wird. Bei der Datenverarbeitung in der mobilen Cloud werden Anwendungen nicht auf einen bestimmten Netzbetreiber beschränkt, sondern es wird über das Web auf sie zugegriffen.
 
 ### MZR
-{: #x9766835}
+{: #x9774831}
 
-Siehe [Region mit mehreren Zonen](#x9766831).
-
+Siehe [Region mit mehreren Zonen](#x9774820).
 
 ## N
 {: #glossn}
@@ -596,6 +659,16 @@ Eine vereinfachte Virtualisierungsmethode. Im Paravirtualisierungsmodus benötig
 
 Die Bereitstellung einer Datenverarbeitungsplattform einschließlich Anwendungen, optimierter Middleware, Entwicklungstools und Java- und Web 2.0-Laufzeitumgebungen in einer cloudbasierten Umgebung.
 
+### Pod
+{: #x8461823}
+
+Eine Gruppe von Containern, die in einem Kubernetes-Cluster ausgeführt werden. Bei einem Pod handelt es sich um eine ausführbare Arbeitseinheit, die aus einer eigenständigen Anwendung oder einem Microservice bestehen kann. 
+
+### PoP
+{: #x7234683}
+
+Siehe [Bereitstellungspunkt (Point of Presence, PoP)](#x5458832). 
+
 ### Private Cloud
 {: #x4585362}
 
@@ -657,14 +730,14 @@ Der physische Standort der Server, die Cloud-Services bereitstellen.
 Ein definiertes geografisches Gebiet. Bei einer Region kann es sich um einen bestimmten Postleitzahlenbereich, einen Ort, ein Bundesland/Kanton, eine Gruppe von Bundesländern/Kantonen oder auch eine Gruppe von Ländern handeln. Eine Region kann auch eine Reihe anderer Regionen oder eine Reihe von Postleitzahlen umfassen, die diese Region bilden.
 
 ### Region mit mehreren Zonen (Multi-zone region, MZR)
-{: #x9766831}
+{: #x9774820}
 
-Eine Region, die aus zwei oder mehr Zonen besteht, bei denen es sich um mehrere Gruppen mit einem oder mehreren isolierten Rechenzentren mit unabhängigen Elektrik-, Mechanik- und Netzinfrastrukturen handelt.
+Eine Region, die auf Rechenzentren im mehreren Zonen verteilt ist, um die Fehlertoleranz zu erhöhen. Siehe auch [Zone](#x2070723). 
 
 ### Registry
 {: #x2064940}
 
-Ein öffentlicher oder privater Speicher- und Verteilungsservice für Container-Images. Siehe auch [Container](#x2010901), [Image](#x2024928).
+Ein öffentliches oder privates Repository, das Images zur Erstellung von Containern enthält. Siehe auch [Container](#x2010901), [Image](#x2024928).
 
 ### Representational State Transfer (REST)
 {: #x3220976}
@@ -695,6 +768,11 @@ Ein Bereitstellungsverfahren, bei dem Continuous Delivery aufgrund synchronisier
 {: #x2037338}
 
 Die verwendete URL, um Anforderungen an eine Anwendung zu senden. Eine Route besteht aus einem optionalen Host (oder einer Unterdomäne) und einer Domäne, die bei der Push-Operation für eine Anwendung angegeben werden.  Beispiel: In der Route 'myapp.example.com' ist 'myapp' der Host und 'example.com' ist die Domäne. Eine Route kann einer oder mehreren Anwendungen zugeordnet sein. Wenn keine angepasste Domäne angegeben ist, arbeitet IBM Cloud mit einer gemeinsamen Standarddomäne in der Route für Ihre Anwendung. Siehe auch [Angepasste Domäne](#x5728384), [Domäne](#x2021210), [Endpunkt](#x2026820), [Host](#x2002243), [Unterdomäne](#x2040080), [Uniform Resource Locator](#x2042491).
+
+### RZ
+{: #x2052913}
+
+Siehe [Rechenzentrum](#x2439906). 
 
 ## S
 {: #glosss}
@@ -768,6 +846,11 @@ Ein IT-System (IT - Informationstechnologie), das Technologien beinhaltet, die d
 {: #x6735061}
 
 Ein Informationsspeichersystem (z. B. eine Datenbank oder eine Anwendung), das Geschäftsberichte speichert und Standardprozesse automatisiert. Siehe auch [System of Engagement](#x6528306).
+
+### SZR
+{: #x9774829}
+
+Siehe [Einzelzonenregion (Single-Zone Region, SZR)](#x9774825). 
 
 
 ## T
@@ -851,15 +934,26 @@ Bezeichnet ein durch Software dargestelltes, jedoch nicht physisches Vorhandense
 
 Eine Softwareimplementierung einer Maschine, die Programme wie eine reale Maschine ausführt. Siehe auch [Virtueller Server](#x2455638).
 
+### Virtuelle private Cloud
+{: #x4585403}
+
+Ein virtuelles Netz, das mit einem privaten Benutzerkonto verbunden und von anderen Netzen in einer öffentlichen Cloud isoliert ist. Nur berechtigte Benutzer können auf die Ressourcen einer virtuellen privaten Cloud zugreifen. Hierzu gehören beispielsweise virtuelle Server, Speicher und Teilnetze. 
+
 ### Virtueller Server
 {: #x2455638}
 
 Ein Server, dessen Ressourcen zum Zweck der Anwendungsunterstützung für die gemeinsame Nutzung mit anderen Servern freigegeben werden. Siehe auch [Virtuelle Maschine](#x2043165).
 
+### Virtuelles LAN (VLAN)
+{: #x2438470}
+
+Ein logischer Verbund von Switch-Ports auf der Basis einer Gruppe von Regeln oder Kriterien, wie z. B. MAC-Adressen (Medium Access Control), Protokollen, Netzadressen oder Mulitcastadressen. Dieses Konzept ermöglicht eine erneute Segmentierung des LANs, ohne dass eine physische Neuzuordnung erforderlich ist. 
+
 ### Virtuelles Privates Netz (Virtual Private Network, VPN)
 {: #x2043188}
 
-Eine Erweiterung eines Intranets über das vorhandene Framework eines öffentlichen oder privaten Netzes. Ein VPN gewährleistet den Schutz der Daten, die zwischen den beiden Endpunkten seiner Verbindung gesendet werden.
+Eine private Verbindung zwischen zwei Endpunkten, auch dann, wenn die Daten über ein öffentliches Netz übertragen werden.
+Daten können wie bei einer Verbindung zu einem privaten Netz gemeinsam genutzt werden. Normalerweise wird ein VPN zusammen mit Sicherheitsverfahren, wie z. B. Authentifizierung und Verschlüsselung, verwendet, um die maximal mögliche Datensicherheit und Vertraulichkeit zu erreichen. 
 
 ### VM
 {: #x2043253}
@@ -876,7 +970,6 @@ Eine vordefinierte Struktur für ein Artefakt.
 
 Siehe [Virtuelles Privates Netz (Virtual Private Network, VPN)](#x2043188).
 
-
 ## W
 {: #glossw}
 
@@ -889,7 +982,6 @@ Siehe [Webarchiv](#x2116506).
 {: #x2406005}
 
 Siehe [Webarchiv](#x2116506).
-
 
 ### Webanwendung (Web-App)
 {: #x2116500}
@@ -905,9 +997,6 @@ Siehe [Webanwendung](#x2116500).
 {: #x2116506}
 
 Ein durch den Java EE-Standard definiertes, komprimiertes Dateiformat zum Speichern aller zum Installieren und Ausführen einer Webanwendung erforderlichen Ressourcen in einer einzelnen Datei.
-
-## Z
-{: #glossz}
 
 ### Zeilengruppe
 {: #x2094743}
@@ -927,7 +1016,8 @@ Eine anerkannte Drittorganisation oder ein anerkanntes Drittunternehmen, das die
 ### Zone
 {: #x2070723}
 
-Eine unabhängige Fehlerdomäne. Bei einer Zone handelt es sich um eine Abstraktion zur Unterstützung einer verbesserten Fehlertoleranz und einer reduzierten Latenz.
+Eine unabhängige Fehlerdomäne. Bei einer Zone handelt es sich um eine Abstraktion zur Unterstützung einer verbesserten Fehlertoleranz und einer reduzierten Latenz. Siehe auch [Region mit mehreren Zonen](#x9774820), [Einzelzonenregion](#x9774825). 
+
 ### Zugriffssteuerungsliste
 {: #x2012793}
 

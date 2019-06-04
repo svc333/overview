@@ -34,7 +34,7 @@ IBM Cloud アカウントおよび IBM Cloud から注文されたすべての�
   * IBM Cloud のサービス記述書、[http://www-03.ibm.com/software/sla/sladb.nsf/sla/bm](http://www-03.ibm.com/software/sla/sladb.nsf/sla/bm){: new_window} ![外部リンク・アイコン](../../icons/launch-glyph.svg)を参照、
   * IBM Cloud アカウントを使用して注文したサービスに対して適用される追加のサービス記述書、[http://www-03.ibm.com/software/sla/sladb.nsf/sla/bm](http://www-03.ibm.com/software/sla/sladb.nsf/sla/bm){: new_window} ![外部リンク・アイコン](../../icons/launch-glyph.svg) を参照、および
   * 該当する追加サービス記述書または IBM Cloud UI 内のサービスの「ご利用条件」リンクから参照されている、適用可能なデータ・シート、[http://www-03.ibm.com/software/sla/sladb.nsf/sla/csdsp](http://www-03.ibm.com/software/sla/sladb.nsf/sla/csdsp){: new_window} ![外部リンク・アイコン](../../icons/launch-glyph.svg) を参照。
-  * お客様または会社が、米国における医療保険の積算と責任に関する法律 (HIPAA) によって定義され、保護医療情報 (PHI) を処理する可能性のあるクラウド・サービスを注文する対象となる事業体である場合は、[https://www-03.ibm.com/software/sla/sladb.nsf/sla/baa?OpenDocument](https://www-03.ibm.com/software/sla/sladb.nsf/sla/baa?OpenDocument){: new_window} ![外部リンク・アイコン](../../icons/launch-glyph.svg) にある IBM Business Associate Addendum (BAA) に同意する必要があります。BAA には、[「HIPAA サポートあり」設定の有効化](/docs/account?topic=account-eu-hipaa-supported#enabling-hipaa)の説明に従ってデジタル処理で同意できます。
+  * お客様または会社が、米国における医療保険の積算と責任に関する法律 (HIPAA) によって定義され、保護医療情報 (PHI) を処理する可能性のあるクラウド・サービスを注文する対象となる事業体である場合は、[https://www-03.ibm.com/software/sla/sladb.nsf/sla/baa?OpenDocument](https://www-03.ibm.com/software/sla/sladb.nsf/sla/baa?OpenDocument){: new_window} ![外部リンク・アイコン](../../icons/launch-glyph.svg) にある IBM Business Associate Addendum (BAA) に同意する必要があります。 BAA には、[「HIPAA サポートあり」設定の有効化](/docs/account?topic=account-eu-hipaa-supported#enabling-hipaa)の説明に従ってデジタル処理で同意できます。
   * 予約済み容量は、注文に定められた固定期間にわたるものであり、その期間の終了前にお客様が終了することはできません。 予約済み容量は、お客様と SoftLayer との間での相互の合意により、期間の終了時に更新を適用することができます。 期間の終了前に更新も終了もされていない予約済み容量は、現行のクラウド・サービス契約書とサービス記述書の条件、および現行の小売り価格設定に従って、月次クラウド・サービスに変換されます。
 
 ### IBM WebSphere Application Server Liberty Profile イメージのライセンス
@@ -146,7 +146,7 @@ IBM Cloud は、これらの貿易および経済制裁の対象となる国か�
 
 米国の禁輸国に関連付けられた IP アドレスを識別するために、IBM Cloud は、[MaxMind ![外部リンク・アイコン](../../icons/launch-glyph.svg)](http://www.maxmind.com){: new_window} によって管理される Geo IP2 Database を参照しています。 IBM Cloud は、IP アドレスの国別マッピングを四半期ごとに更新します。
 
-注: この制限措置は、米国の制裁および禁輸措置のもとで禁止されていないコンテンツには適用されません。 お客様のコンテンツが米国の貿易および経済制裁のもとで禁止されていないと信じる場合は、exemptions@softlayer.com に E メールを送付してください。 
+注: この制限措置は、米国の制裁および禁輸措置のもとで禁止されていないコンテンツには適用されません。 お客様のコンテンツが米国の貿易および経済制裁のもとで禁止されていないと思われる場合は、IBM_Cloud_Embargo_Exemption_Request@wwpdl.vnet.ibm.com に E メールを送付してください。 
 
 ## 商標
 {: #trademarks}

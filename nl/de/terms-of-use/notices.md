@@ -84,6 +84,7 @@ Für die in diesem Handbuch beschriebenen Erzeugnisse und Verfahren kann es IBM 
   *2, avenue Gambetta*
   *92066 Paris La Defense*
   *France*
+
 <!-- For license inquiries regarding double-byte character set (DBCS) information, contact the IBM Intellectual Property Department in your country or send inquiries, in writing, to: -->
 
   <!-- *Intellectual Property Licensing* -->
@@ -142,7 +143,7 @@ IBM Cloud implementiert die netzweite Blockierung der Kommunikation mit IP-Adres
 
 Zur Identifizierung von IP-Adressen, die Ländern zugeordnet werden, die dem Embargo der Vereinigten Staaten unterliegen, referenziert IBM Cloud die Geo IP2-Datenbank, die von [MaxMind ![Symbol für externen Link](../../icons/launch-glyph.svg)](http://www.maxmind.com){: new_window} verwaltet wird. IBM Cloud aktualisiert die Zuordnung der IP-Adressen und Länder vierteljährlich.
 
-Hinweis: Diese Einschränkung gilt nicht für Inhalte, die nicht den Sanktionen und Embargos der Vereinigten Staaten unterliegen. Falls Sie über Inhalte verfügen, die Ihrer Ansicht nach nicht den Handels- und Wirtschaftssanktionen der Vereinigten Staaten unterliegen, senden Sie eine E-Mail an exemptions@softlayer.com. 
+Hinweis: Diese Einschränkung gilt nicht für Inhalte, die nicht den Sanktionen und Embargos der Vereinigten Staaten unterliegen. Falls Sie über Inhalte verfügen, die Ihrer Ansicht nach nicht den Handels- und Wirtschaftssanktionen der Vereinigten Staaten unterliegen, senden Sie eine E-Mail an 'IBM_Cloud_Embargo_Exemption_Request@wwpdl.vnet.ibm.com'.  
 
 ## Marken
 {: #trademarks}
