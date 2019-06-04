@@ -2,7 +2,7 @@
 
 copyright:
   years: 2019
-lastupdated: "2019-05-16"
+lastupdated: "2019-06-04"
 
 keywords: personalized onboarding, onboarding program, Global Client Success
 
@@ -26,7 +26,7 @@ subcollection: overview
 {{site.data.keyword.IBM}} is dedicated to putting the client first for every interaction. To help facilitate this, our Global Client Success team offers personalized assistance through an onboarding program.
 {: shortdesc}
 
-You must have a Pay-As-You-Go or Subscription account to qualify for personalized onboarding.
+You must be logged in to your Pay-As-You-Go or Subscription account to qualify for personalized onboarding.
 {: important}
 
 We're here to help to you get started with any area of {{site.data.keyword.cloud}}, including: 
