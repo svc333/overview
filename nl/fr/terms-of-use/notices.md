@@ -187,7 +187,8 @@ Toute copie totale ou partielle de ces programmes exemples et des
 oeuvres qui en sont dérivées doit comprendre une notice de copyright, libellée comme suit :
 
   © (nom de votre société) (année).
-  Des segments de code sont dérivés des Programmes exemples d'IBM Corp.
+  Des segments de code sont dérivés des Programmes exemples
+d'IBM Corp.
   © Copyright IBM Corp. 2015.
 
 SANCTIONS ET EMBARGOS
@@ -198,7 +199,7 @@ IBM Cloud effectue un blocage réseau des communications avec les adresses IP pr
 
 Pour identifier les adresses IP associées à des pays placés sous embargo par les Etats-Unis, IBM Cloud référence la base de données Geo IP2 gérée par [MaxMind ![Icône de lien externe](../../icons/launch-glyph.svg)](http://www.maxmind.com){: new_window} (la liste d’adresses IP par pays est mise à jour tous les trimestres).
 
-Remarque : Cette restriction ne s'applique pas au contenu qui n'est pas interdit d'après les sanctions et les embargos américains. Si vous pensez que votre contenu n'est pas soumis à ces interdictions, envoyez un courrier électronique à l'adresse exemptions@softlayer.com. 
+Remarque : Cette restriction ne s'applique pas au contenu qui n'est pas interdit d'après les sanctions et les embargos américains. Si vous pensez que votre contenu n'est pas soumis à ces interdictions, envoyez un courrier électronique à l'adresse IBM_Cloud_Embargo_Exemption_Request@wwpdl.vnet.ibm.com.  
 
 ## Marques
 {: #trademarks}

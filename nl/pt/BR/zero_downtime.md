@@ -2,9 +2,9 @@
 
 copyright:
   years: 2018, 2019
-lastupdated: "2019-03-14"
+lastupdated: "2019-05-23"
 
-keywords: HA, failover, DR
+keywords: HA, failover, DR, high availability, disaster recovery, locations, data centers
 
 subcollection: overview
 
@@ -27,8 +27,8 @@ seus dados na parte certa do mundo para os seus clientes.
 {:shortdesc}
 
 Os serviços de plataforma {{site.data.keyword.Bluemix}} são autogerenciados. Isso significa que as
-localizações nas quais você implementa o seu app podem espalhar as cargas de trabalho pelos data centers. E é possível
-assegurar que um design de failover esteja em vigor, o que significa que seu app sempre está funcionando para os seus clientes. Para os seus recursos de infraestrutura, é possível selecionar data centers individuais em que os recursos são implementados. 
+localizações nas quais você implementa o seu app podem espalhar as cargas de trabalho pelos data centers. E
+é possível assegurar-se de que um design de failover esteja em vigor, o que significa que seu app está sempre ativo e em execução para seus clientes. Para os seus recursos de infraestrutura, é possível selecionar data centers individuais em que os recursos são implementados. 
 
 Todos os recursos do {{site.data.keyword.Bluemix_notm}} são hospedados em localizações de data center ao redor
 do mundo. A alta disponibilidade e a recuperação de desastre não são universais em todos os serviços, portanto, o tipo
@@ -39,7 +39,7 @@ de alta disponibilidade e recuperação de desastre disponível dependerá do se
 
 A recuperação de desastre trata-se de sobreviver a uma falha catastrófica ou perda de disponibilidade em uma única
 localização. Para assegurar que a recuperação de desastre esteja em vigor, é necessário implementar vários
-ambientes {{site.data.keyword.Bluemix_notm}} em múltiplas localizações para evitar pontos únicos de falha. Esses ambientes podem ser uma combinação de plataformas Public, Dedicated ou Local.  
+ambientes {{site.data.keyword.Bluemix_notm}} em diversas localizações para evitar pontos únicos de falha. Esses ambientes podem ser uma combinação de plataformas Public, Dedicated ou Local.  
 
 ### Plano de recuperação de desastre 
 {: #dr-plan}
@@ -89,20 +89,24 @@ perto. Dessa maneira, sempre é possível acessar o console sem executar nenhuma
 que precisa.
 
 É possível visualizar todos os recursos em todas as localizações por padrão por meio da visualização da lista de
-recursos no console. Se você desejar
-visualizar e trabalhar com os recursos em uma localização específica, expanda o menu **LOCALIZAÇÃO** e
-selecione uma localização na lista. 
+recursos no console. Se desejar visualizar e trabalhar com recursos em um local específico, expanda o menu **Local** e selecione um local na lista. Ao expandir um local geográfico específico,
+é possível selecionar para filtrar por data centers, regiões ou zonas individuais.
+
+Por exemplo, se você tiver recursos que são implementados na zona de Londres 2 (eu-gb-2), será possível filtrar a sua lista de recursos para exibir somente esses recursos. Uma zona está localizada dentro de uma região e uma região é organizada por sua localização metropolitana. Para filtrar sua lista para a zona de Londres 2 (eu-gb-2), expanda a opção metropolitana **Londres** e, em seguida, expanda
+a opção de região **Londres (eu-gb)**. Dentro dessa região, é possível selecionar na
+lista de zonas disponíveis. Se você tiver um recurso implementado em um data center específico, será
+possível identificar o data center pelo local metropolitano específico e código alfanumérico, por exemplo,
+Londres 02 (lon02).
+
+Você também pode ter recursos que estão localizados globalmente. A opção **Global** significa que somente uma instância lógica e globalmente acessível do serviço, independentemente de qualquer região ou zona, é publicada em aplicativos clientes. Esses tipos de recursos são acessíveis em um terminal global.
 
 ## Data centers
 {: #data_center}
 
-Ao implementar os recursos de infraestrutura, você tem mais opções sobre onde seus dados estão localizados. É possível selecionar um local ou selecionar em uma lista dos data centers do {{site.data.keyword.Bluemix_notm}}. Um *data center* é o local físico que hospeda os recursos de energia, de resfriamento, de cálculo, de rede e de armazenamento usados para serviços e apps. Os data centers não fornecem isolamento de falhas locais como as multizonas em
-uma localização. Para obter mais informações, consulte [Localizações
+Ao implementar os recursos de infraestrutura, você tem mais opções sobre onde seus dados estão localizados. É possível selecionar um local ou selecionar em uma lista dos data centers do {{site.data.keyword.Bluemix_notm}}. Um *data center* é o local físico que hospeda os recursos de energia, de resfriamento, de cálculo, de rede e de armazenamento usados para serviços e apps. Os data centers não fornecem isolamento de falhas locais semelhantes a diversas zonas em um local. Para obter mais informações, consulte [Localizações
 globais para o seu negócio global ![Ícone de link externo](../icons/launch-glyph.svg "Ícone de link externo")](https://www.ibm.com/cloud/data-centers/){: new_window}.
 
-O {{site.data.keyword.Bluemix_notm}} oferece data centers em muitas localizações em todo o mundo. Ao
-implementar os recursos da infraestrutura, é possível selecionar em uma lista de data centers no
-{{site.data.keyword.Bluemix_notm}}. 
+O {{site.data.keyword.Bluemix_notm}} oferece data centers em muitas localizações em todo o mundo. 
 
 
 ![Mapa de data centers descritos nas tabelas a seguir](images/Global-View.svg)
@@ -132,7 +136,7 @@ implementar os recursos da infraestrutura, é possível selecionar em uma lista 
 | Montreal 01      | mon01 |
 | Toronto 01       | tor01 |
 | México 01        | mex01 |
-{: caption="Tabela 2. Data centers na América do Norte" caption-side="top"}
+{: caption="Tabela 1. Data centers na América do Norte" caption-side="top"}
 
 ### América do Sul
 {: #sa}
@@ -140,7 +144,7 @@ implementar os recursos da infraestrutura, é possível selecionar em uma lista 
 | Datacenter | Código    |
 |------------------|---------|
 | São Paulo 01     | sao01   |
-{: caption="Tabela 3. Data centers na América do Sul" caption-side="top"}
+{: caption="Tabela 2. Data centers na América do Sul" caption-side="top"}
 
 ### Europa
 {: #eu}
@@ -159,7 +163,7 @@ implementar os recursos da infraestrutura, é possível selecionar em uma lista 
 | Amsterdã 03     | ams03 |
 | Paris 01         | par01 |
 | Oslo 01          | osl01 |
-{: caption="Tabela 4. Data centers na Europa" caption-side="top"}
+{: caption="Tabela 3. Data centers na Europa" caption-side="top"}
 
 ### Ásia-Pacífico
 {: #ap}
@@ -176,7 +180,7 @@ implementar os recursos da infraestrutura, é possível selecionar em uma lista 
 | Sydney 04        | syd04 |
 | Sydney 05        | syd05 |
 | Melbourne 01     | mel01 |
-{: caption="Tabela 5. Data centers na Ásia-Pacífico" caption-side="top"}
+{: caption="Tabela 4. Data centers na Ásia-Pacífico" caption-side="top"}
 
 
 ## Acordos de Nível de Serviço (SLAs)
@@ -184,7 +188,8 @@ implementar os recursos da infraestrutura, é possível selecionar em uma lista 
 
 O {{site.data.keyword.Bluemix_notm}} fornece um nível de serviço de disponibilidade 99,5% para múltiplas instâncias de um serviço de plataforma dentro de um ambiente único dedicado ou local.
 
-Para enviar uma solicitação de tempo de inatividade, entre em contato com o [suporte do {{site.data.keyword.Bluemix_notm}}](https://console.cloud.ibm.com/unifiedsupport/supportcenter){: new_window} ![Ícone de link externo](../icons/launch-glyph.svg "Ícone de link externo").
+Para enviar uma reclamação de tempo de inatividade, entre em contato com o [Suporte do {{site.data.keyword.Bluemix_notm}}](https://cloud.ibm.com/unifiedsupport/supportcenter){: new_window}![Ícone de link externo](../icons/launch-glyph.svg "Íconede link externo").
+
 
 O {{site.data.keyword.Bluemix_notm}} fornece SLAs para os serviços do {{site.data.keyword.Bluemix_notm}} que podem torná-lo elegível para créditos em sua conta. Os
 SLAs são a sua única maneira de resolver a falha do {{site.data.keyword.Bluemix_notm}} para atender um
@@ -195,7 +200,7 @@ Para obter mais informações sobre ambientes dedicados, consulte [IBM Cloud Ded
 A descrição completa do serviço para o {{site.data.keyword.Bluemix_notm}} está disponível em
 [Termos de serviços em nuvem](http://www-03.ibm.com/software/sla/sladb.nsf/sla/bm){: new_window} ![Ícone de link externo](../icons/launch-glyph.svg "Ícone de link externo").
 
-### SLA de tempo de inatividade de disponibilidade 
+### SLA de tempo de inatividade de disponibilidade  
 {: #avail-downtime}
 
 Você será elegível para um crédito em sua conta se você tiver menos tempo de inatividade do que a
@@ -212,7 +217,7 @@ O {{site.data.keyword.Bluemix_notm}} fornece um SLA de disponibilidade de 99,95%
 | Ambientes públicos de alta disponibilidade ou múltiplos ambientes dedicados/locais | Outros ambientes | Crédito         |
 | <99,95%                                                                       |<99,5%              |10%             |
 | <99,90%                                                                       |<99,0%              |25%             |
-{: caption="Tabela 6. Nível de serviço de disponibilidade mensal" caption-side="top"}
+{: caption="Tabela 5. Nível de serviço de disponibilidade mensal" caption-side="top"}
 
 A porcentagem de disponibilidade é calculada como o número total de minutos em um mês contratado menos o número total de
 minutos de inatividade nesse mês, dividido pelo número total de minutos no mês. 
@@ -248,7 +253,7 @@ O tempo de inatividade não inclui horário para a manutenção planejada ou com
 contínuos de inatividade, você recebe um crédito na quantia de 5% dos encargos mensais para os serviços identificados
 que são diretamente afetados pela indisponibilidade. Você não será elegível para um crédito se o tempo de inatividade
 for menor que 30 minutos contínuos. O
-tempo de inatividade para diferentes tipos de indisponibilidade não pode ser combinado para atender a esse cálculo. 
+tempo de inatividade para diferentes tipos de indisponibilidade não pode ser combinado para atender a esse cálculo.  
 
 ### Substituição de hardware de infraestrutura e SLA de upgrade
 {: #hw-replaceupgrade-sla}
@@ -256,7 +261,7 @@ tempo de inatividade para diferentes tipos de indisponibilidade não pode ser co
 O {{site.data.keyword.Bluemix_notm}} tenta minimizar o tempo de inatividade substituindo o hardware com falha ou
 executando um upgrade de hardware planejado. 
 
-O {{site.data.keyword.Bluemix_notm}} fornece crédito para: 
+O {{site.data.keyword.Bluemix_notm}} fornece crédito para:  
 - Substituição de hardware com base no tempo de substituição a partir do momento em que o
 {{site.data.keyword.Bluemix_notm}} verifica que um cliente relatou uma falha de hardware.
 - Upgrades de hardware planejados com base no tempo de inatividade total do serviço que recebe o upgrade. 
@@ -266,15 +271,15 @@ operacional ou os aplicativos ou o desempenho de tempo pode ser comprometido. Vo
 no encargo mensal para o serviço que é afetado pela substituição ou upgrade de hardware se o
 {{site.data.keyword.Bluemix_notm}} falhar em atender a um período de tempo de nível de serviço especificado.
 
-| Período de tempo de nível de serviço  | Porcentagem de crédito |
+| Período de tempo de nível de serviço | Porcentagem de crédito |
 |---------------------------|----------------|
 | ≤ 2 horas                 | Nenhuma           |
 | > 2 horas                 | 20%            |
 | > 6 horas                 | 40%            |
 | > 10 horas                | 60%            |
 | > 14 horas                | 80%            |
-| > 18 horas                | 80%            |
-{: caption="Tabela 7. Crédito com base no encargo mensal para o serviço que é afetado pela substituição ou upgrade de hardware" caption-side="top"}
+| > 18 horas                | 80%            |
+{: caption="Tabela 6. Crédito baseado no encargo mensal para o serviço afetado pela substituição ou upgrade de hardware" caption-side="top"}
 
 ### Solicitações
 {: #claims}
@@ -286,7 +291,8 @@ validar a solicitação.
 O crédito será a compensação mais alta aplicável com base na disponibilidade acumulativa do serviço afetado durante
 um mês contratado e calculado usando os encargos mensais para esse serviço afetado. Os créditos não podem exceder 25% do encargo mensal.
 
-Para enviar uma solicitação de tempo de inatividade, entre em contato com o [suporte do {{site.data.keyword.Bluemix_notm}}](https://console.cloud.ibm.com/unifiedsupport/supportcenter){: new_window} ![Ícone de link externo](../icons/launch-glyph.svg "Ícone de link externo").
+Para enviar uma reclamação de tempo de inatividade, entre em contato com o [Suporte do {{site.data.keyword.Bluemix_notm}}](https://cloud.ibm.com/unifiedsupport/supportcenter){: new_window}![Ícone de link externo](../icons/launch-glyph.svg "Íconede link externo").
+
 
 ### Exclusões
 {: #exclusions}

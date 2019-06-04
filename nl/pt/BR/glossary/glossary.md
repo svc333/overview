@@ -3,19 +3,18 @@
 
 copyright:
   years: 2016, 2019
-lastupdated: "2019-05-06"
+lastupdated: "2019-05-28"
 
 keywords: glossary, IBM Cloud glossary
 
 subcollection: overview
-
 
 ---
 
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
 
-# Termos do glossário para {{site.data.keyword.cloud_notm}}
+# Termos do glossário para {{site.data.keyword.cloud_notm}} 
 {: #glossary}
 
 Este glossário fornece termos e definições para o {{site.data.keyword.cloud_notm}}.
@@ -25,6 +24,32 @@ As referências cruzadas a seguir são usadas nesse glossário:
 
 - *Consulte* o encaminha de um termo não preferencial para um termo preferencial ou de uma abreviação para a sua forma por extenso.
 - *Consulte também* o encaminha para um termo relacionado ou contrastante.
+
+<!--If you do not want letter links at the top of your 
+glossary, delete the text between these comment tags.
+[A](#glossa)
+[B](#glossb)
+[C](#glossc)
+[D](#glossd)
+[E](#glosse)
+[F](#glossf)
+[G](#glossg)
+[H](#glossh)
+[I](#glossi)
+[J](#glossj)
+[L](#glossl)
+[M](#glossm)
+[N](#glossn)
+[O](#glosso)
+[P](#glossp)
+[R](#glossr)
+[S](#glosss)
+[T](#glosst)
+[U](#glossu)
+[V](#glossv)
+[W](#glossw)
+
+-->
 
 ## A
 {: #glossa}
@@ -107,16 +132,20 @@ Um local dentro de uma região no qual o IBM Containers é executado.
 ## B
 {: #glossb}
 
+### servidor básico???
+{: #x6778472}
+
+Um servidor físico dedicado, totalmente customizável que pode ser usado para virtualização ou hospedagem da web.
+
 ### imagem base
 {: #x5366487}
 
 Uma imagem que não tem imagem pai. Veja também [imagem](#x2024928), [imagem pai](#x8439210).
 
-### serviço beta
-{: #x7470455}
+### oferta beta
+{: #x9774283}
 
-Um serviço que não está pronto para produção e está
-em um estágio de avaliação de desenvolvimento. Consulte também [serviço experimental](#x7470450).
+Uma oferta que a IBM disponibiliza exclusivamente para propósitos de avaliação e teste. Não há garantias, SLAs ou suporte fornecidos e as ofertas beta não são destinadas ao uso de produção.
 
 ### ligar
 {: #x2000361}
@@ -255,6 +284,11 @@ O local físico dos servidores que fornecem serviços de nuvem.
 
 Um local, como um sistema de banco de dados, arquivo ou diretório no qual os dados são armazenados.
 
+### DC
+{: #x2052913}
+
+Veja [data center](#x2439906).
+
 ### DEA
 {: #x2019805}
 
@@ -303,11 +337,11 @@ O componente Cloud Foundry que é responsável por implementar aplicativos.
 
 O endereço de uma API ou um serviço em um ambiente. Uma API expõe um terminal e, ao mesmo tempo, chama os terminais de outros serviços. Consulte também [rota](#x2037338).
 
-### serviço experimental
-{: #x7470450}
+### oferta experimental
+{: #x9774278}
 
-Um serviço que não está pronto para produção e pode ser removido da produção a qualquer momento. Consulte também [serviço beta](#x7470455).
-
+Uma oferta que a IBM disponibiliza somente para propósitos de avaliação e teste que pode ser instável ou não compatível com versões anteriores. Uma oferta experimental pode ser descontinuada
+com aviso com pouca antecedência. Não há garantias, SLAs ou suporte fornecidos e as ofertas experimentais não são destinadas ao uso de produção.
 
 ## sex.
 {: #glossf}
@@ -350,10 +384,20 @@ Uma arquitetura para um aplicativo que fornece uma estrutura padrão para um apl
 ## G
 {: #glossg}
 
+### GA
+{: #x2117930}
+
+Veja [disponibilidade geral](#x2117947).
+
 ### GB por hora
 {: #x7470477}
 
 A quantia acumulativa de memória (em gigabytes) que está sendo executada para todas as instâncias do aplicativo para um buildpack específico por hora.
+
+### disponibilidade geral (GA)
+{: #x2117947}
+
+A data em que uma oferta está amplamente disponível para venda e entrega a clientes ou canais, geralmente em diversas geografias.
 
 ### Identificador Exclusivo Global (GUID)
 {: #x2390455}
@@ -554,16 +598,15 @@ Um modelo de computação que conecta aplicativos móveis a serviços de computa
 
 Uma infraestrutura na qual o armazenamento e o processamento de dados para aplicativos são transferidos de um dispositivo móvel para a nuvem. Com a computação em nuvem para dispositivo móvel, os aplicativos não estão limitados a uma operadora específica, mas são acessados por meio da web.
 
-### região de múltiplas zonas (MZR)
-{: #x9766831}
+### região multizona (MZR)
+{: #x9774820}
 
-Uma região que consiste em duas ou mais zonas, que são múltiplos grupos de um ou mais data centers logicamente isolados com infraestruturas elétricas, mecânicas e de rede independentes.
+Uma região que é distribuída entre os data centers em diversas zonas para aumentar a tolerância a falhas. Veja também [zona](#x2070723).
 
 ### MZR
-{: #x9766835}
+{: #x9774831}
 
-Consulte [região de múltiplas zonas](#x9766831).
-
+Veja [região multizona](#x9774820).
 
 ## N
 {: #glossn}
@@ -633,6 +676,22 @@ Uma imagem que fornece uma base para outra imagem. Por exemplo, Ubuntu Linux é 
 {: #x2029786}
 
 A entrega de uma plataforma de computação, incluindo aplicativos, middleware otimizado, ferramentas de desenvolvimento e ambientes de tempo de execução Java e Web 2.0, em um ambiente baseado em nuvem.
+
+### conjunto
+{: #x8461823}
+
+Um grupo de contêineres que estão em execução em um cluster do Kubernetes. Um pod é uma unidade de
+trabalho executável, que pode ser um aplicativo independente ou um microsserviço.
+
+### ponto de presença (PoP)
+{: #x5458832}
+
+Um local físico que armazena servidores e roteadores em uma nuvem de rede.
+
+### PoP
+{: #x7234683}
+
+Veja [ponto de presença](#x5458832).
 
 ### nuvem particular
 {: #x4585362}
@@ -711,7 +770,7 @@ Um território geográfico definido. Uma região poderia ser uma área de códig
 ### registro
 {: #x2064940}
 
-Um serviço de armazenamento e distribuição de imagem de contêiner público ou privado. Consulte também [contêiner](#x2010901), [imagem](#x2024928).
+Um repositório público ou privado que contém imagens usadas para criar contêineres. Consulte também [contêiner](#x2010901), [imagem](#x2024928).
 
 ### Representational State Transfer (REST)
 {: #x3220976}
@@ -768,7 +827,7 @@ Consulte [software como serviço](#x4585386).
 ### escala
 {: #x2004442}
 
-Aumentar a capacidade da plataforma (ou do sistema) incluindo mais aplicativos ou instâncias de serviço
+Para aumentar a capacidade da plataforma (ou do sistema), incluindo mais instâncias de aplicativo ou de serviço.
 
 ### escopo
 {: #x2037763}
@@ -779,6 +838,11 @@ Em gerenciamento de identidade, o conjunto de entidades que uma política ou um 
 {: #x2038004}
 
 Um protocolo de segurança que fornece privacidade de comunicação. Com SSL, aplicativos do cliente/servidor podem se comunicar da maneira projetada para evitar espionagem, violação e falsificação de mensagem. Consulte também [autoridade de certificação](#x2016383).
+
+### disponibilidade selecionada
+{: #x9773835}
+
+Uma oferta pronta para produção que está disponível para venda e acessível a clientes selecionados.
 
 ### serviço
 {: #x2038343}
@@ -796,6 +860,11 @@ O período de tempo depois que um app é iniciado em um dispositivo móvel e o p
 {: #x2213318}
 
 Um processo de autenticação em que um usuário pode acessar mais de um sistema ou aplicativo, inserindo um único ID de usuário e senha.
+
+### região de zona única (SZR)
+{: #x9774825}
+
+Uma região que consiste em data centers que estão localizados em uma zona. Veja também [zona](#x2070723).
 
 ### software como serviço (SaaS)
 {: #x4585386}
@@ -866,6 +935,11 @@ Um sistema de tecnologia da informação (TI) que incorpora tecnologias que ince
 {: #x6735061}
 
 Um sistema de armazenamento de informações (como um banco de dados ou um aplicativo) que armazena registros de negócios e automatiza processos padrão. Consulte também [sistema de engajamento](#x6528306).
+
+### SZR
+{: #x9774829}
+
+Veja [região de zona única](#x9774825).
 
 
 ## ter.
@@ -939,17 +1013,29 @@ original, que agora é considerado seu antecessor.
 
 Referente à não existência física como tal, mas feita pelo software para parecer que sim.
 
+### rede local virtual (VLAN)
+{: #x2438470}
+
+Uma associação lógica de portas do
+comutador baseada em um conjunto de regras ou critérios, como endereços MAC (Medium Access Control),
+protocolos, endereços de rede, ou endereços multicast. Esse conceito permite que a LAN seja segmentada novamente sem requerer reorganização física.
+
 ### máquina virtual (VM)
 {: #x2043165}
 
 Uma implementação de software de uma máquina que executa programas como uma máquina real. Consulte também [servidor virtual](#x2455638).
 
-### rede privada virtual (VPN)
+### nuvem particular virtual
+{: #x4585403}
+
+Uma rede virtual que é ligada a uma conta de usuário privado e isolada de outras redes em uma nuvem pública. Somente usuários autorizados podem acessar recursos de nuvem particular virtual, que incluem
+servidores virtuais, armazenamento e sub-redes.
+
+### rede privada virtual
 {: #x2043188}
 
-Uma extensão de uma intranet corporativa sobre a estrutura existente de uma rede pública
-ou privada. Uma VPN assegura que os dados que são enviados entre dois terminais de sua conexão
-permaneçam seguros.
+Uma conexão privada entre dois terminais, mesmo quando os dados são transferidos através de uma rede pública.
+Os dados podem ser compartilhados como se uma conexão com uma rede privada fosse estabelecida. Normalmente, uma VPN é usada em combinação com métodos de segurança, tais como autenticação e criptografia, para fornecer segurança e privacidade máxima aos dados.
 
 ### servidor virtual
 {: #x2455638}
@@ -966,6 +1052,11 @@ Veja [máquina virtual](#x2043165).
 
 Veja [rede privada virtual](#x2043188).
 
+### volume
+{: #x2043272}
+
+Uma quantidade fixa de armazenamento físico ou virtual em uma mídia de
+armazenamento de dados.
 
 ## qua.
 {: #glossw}
@@ -979,7 +1070,6 @@ Consulte [archive web](#x2116506).
 {: #x2406005}
 
 Consulte [archive web](#x2116506).
-
 
 ### app da web
 {: #x7636628}
@@ -1007,4 +1097,5 @@ Um contexto que contém uma coleção de artefatos que um usuário com a permiss
 ### zona
 {: #x2070723}
 
-Um domínio de falha independente. Uma zona é uma abstração projetada para ajudar a melhorar a tolerância a falhas e a diminuir a latência.
+Um domínio de falha independente. Uma zona é uma abstração projetada para ajudar a melhorar a tolerância a falhas e a diminuir a latência. Veja também [região multizona](#x9774820), [região de zona única](#x9774825).
+

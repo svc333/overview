@@ -195,7 +195,8 @@ O IBM Cloud implementa um bloqueio de comunicações que abrange toda a rede a e
 
 Para identificar os endereços IP associados aos países embargados pelos EUA, o IBM Cloud referencia o Banco de Dados Geo IP2 mantido por [MaxMind ![Ícone de link externo](../../icons/launch-glyph.svg)](http://www.maxmind.com){: new_window}). O IBM Cloud atualiza seu mapeamento de endereços IP de países trimestralmente.
 
-Nota: essa restrição não se aplica ao conteúdo que não é proibido por sanções e embargos dos EUA. Envie um e-mail para exemptions@softlayer.com se acreditar que seu conteúdo não é proibido pelas sanções comerciais e econômicas dos EUA. 
+Nota: essa restrição não se aplica ao conteúdo que não é proibido por sanções e embargos dos EUA. Envie
+um e-mail para IBM_Cloud_Embargo_Exemption_Request@wwpdl.vnet.ibm.com se você acreditar que o seu conteúdo não é proibido pelas sanções comerciais e econômicas dos EUA. 
 
 ## Marcas registradas
 {: #trademarks}
