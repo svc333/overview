@@ -9,6 +9,7 @@ Getting started with IBM Cloud
     ibm-cloud-platform.md
     ui.md
     it-ops-journey.md
+    compare-infra.md
     whats-new/index.md
 
     {: .topicgroup}
