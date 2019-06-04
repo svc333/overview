@@ -34,7 +34,7 @@ Classic infrastructure and VPC infrastructure are cost neutral, so you can focus
 ## Compute differentiators
 {: #compare-compute}
 
-See the following table for the high-level compute differences between classic and VPC. The various differentiators are listed in the Category column, and the descriptions are listed in the Classic infrastructure and VPC infrastructure columns. 
+See the following table for the differences in compute between classic and VPC. The various differentiators are listed in the Category column, and the descriptions are listed in the Classic infrastructure and VPC infrastructure columns. 
 
 | Category   |  Classic infrastructure   | VPC infrastructure |
 | ---------- | ------------------------- | ------------------ |
@@ -50,7 +50,7 @@ See the following table for the high-level compute differences between classic a
 ## Network differentiators
 {: #compare-network}
 
-See the following table for the high-level networking differences between classic and VPC. The various differentiators are listed in the Category column, and the descriptions are listed in the Classic infrastructure and VPC infrastructure columns. 
+See the following table for the differences in networking between classic and VPC. The various differentiators are listed in the Category column, and the descriptions are listed in the Classic infrastructure and VPC infrastructure columns. 
 
 | Category   |  Classic infrastructure   | VPC infrastructure |
 | ---------- | ------------------------- | ------------------ |
