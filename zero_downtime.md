@@ -2,7 +2,7 @@
 
 copyright:
   years: 2018, 2019
-lastupdated: "2019-05-23"
+lastupdated: "2019-06-04"
 
 keywords: HA, failover, DR, high availability, disaster recovery, locations, data centers
 
@@ -80,8 +80,8 @@ When you deploy infrastructure resources, you have more options about where your
 
 ![Map of data centers described in the following tables](images/Global-View.svg)
 
-### North America
-{: #na}
+
+See the following table for the specific code for each data center. 
 
 | Data Center | Code  |
 |------------------|-------|
@@ -93,63 +93,62 @@ When you deploy infrastructure resources, you have more options about where your
 | Dallas 10        | dal10 |
 | Dallas 12        | dal12 |
 | Dallas 13        | dal13 |
+| Houston 01       | hou01 |
+| Mexico 01        | mex01 |
+| Montreal 01      | mon01 |
+| San Jose 01      | sjc01 |
+| San Jose 03      | sjc03 |
+| San Jose 04      | sjc04 |
+| Sao Paulo 01     | sao01 |
+| Seattle 01       | sea01 |
+| Toronto 01       | tor01 |
 | Washington DC 01 | wdc01 |
 | Washington DC 04 | wdc04 |
 | Washington DC 06 | wdc06 |
 | Washington DC 07 | wdc07 |
-| San Jose 01      | sjc01 |
-| San Jose 03      | sjc03 |
-| San Jose 04      | sjc04 |
-| Seattle 01       | sea01 |
-| Houston 01       | hou01 |
-| Montreal 01      | mon01 |
-| Toronto 01       | tor01 |
-| Mexico 01        | mex01 |
-{: caption="Table 1. Data centers in North America" caption-side="top"}
-
-### South America
-{: #sa}
-
-| Data Center | Code    |
-|------------------|---------|
-| Sao Paulo 01     | sao01   |
-{: caption="Table 2. Data centers in South America" caption-side="top"}
-
-### Europe
-{: #eu}
+{: caption="Table 1. Data centers in North and South America" caption-side="top"}
+{: #americas}
+{: tab-title="Americas"}
+{: tab-group="dcs"}
+{: class="simple-tab-table"}
 
 | Data Center | Code  |
 |------------------|-------|
+| Amsterdam 01     | ams01 |
+| Amsterdam 03     | ams03 |
+| Frankfurt 02     | fra02 |
+| Frankfurt 04     | fra04 |
+| Frankfurt 05     | fra05 |
 | London 02        | lon02 |
 | London 04        | lon04 |
 | London 05        | lon05 |
 | London 06        | lon06 |
-| Frankfurt 02     | fra02 |
-| Frankfurt 04     | fra04 |
-| Frankfurt 05     | fra05 |
 | Milan 01         | mil01 |
-| Amsterdam 01     | ams01 |
-| Amsterdam 03     | ams03 |
-| Paris 01         | par01 |
 | Oslo 01          | osl01 |
-{: caption="Table 3. Data centers in Europe" caption-side="top"}
-
-### Asia Pacific
-{: #ap}
+| Paris 01         | par01 |
+{: caption="Table 2. Data centers in Europe" caption-side="top"}
+{: #europe}
+{: tab-title="Europe"}
+{: tab-group="dcs"}
+{: class="simple-tab-table"}
 
 | Data Center | Code  |
 |------------------|-------|
-| Tokyo 01         | tok02 | 
-| Tokyo 04         | tok04 |
-| Tokyo 05         | tok05 |
-| Seoul 01         | seo01 |
 | Hong Kong 02     | hkg02 |
+| Melbourne 01     | mel01 |
+| Seoul 01         | seo01 |
 | Singapore 01     | sng01 |
 | Sydney 01        | syd01 |
 | Sydney 04        | syd04 |
 | Sydney 05        | syd05 |
-| Melbourne 01     | mel01 |
-{: caption="Table 4. Data centers in Asia Pacific" caption-side="top"}
+| Tokyo 01         | tok02 | 
+| Tokyo 04         | tok04 |
+| Tokyo 05         | tok05 |
+{: caption="Table 3. Data centers in Asia Pacific" caption-side="top"}
+{: #asiapacific}
+{: tab-title="Asia Pacific"}
+{: tab-group="dcs"}
+{: class="simple-tab-table"}
 
 
 ## Service Level Agreements (SLAs)
