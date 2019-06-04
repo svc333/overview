@@ -2,7 +2,7 @@
 
 copyright:
   years: 2018, 2019
-lastupdated: "2019-06-03"
+lastupdated: "2019-06-04"
 
 keywords: cloud environment, virtual server, virtual machine, vm, understanding infrastructure, IaaS model
 
@@ -109,7 +109,7 @@ Your server is the base of your infrastructure. You have various options dependi
 
 {{site.data.keyword.baremetal_short}} and {{site.data.keyword.BluVirtServers_short}} are provisioned with default storage. {{site.data.keyword.baremetal_short}} have a minimum of 1 TB SATA disk space, and {{site.data.keyword.BluVirtServers_short}} have a minimum of 25 GB SAN storage. The exception to this is the {{site.data.keyword.cloud_notm}} SAP-Certified {{site.data.keyword.baremetal_short}}. For more information on the default storage available with these servers, see [{{site.data.keyword.cloud_notm}} SAP-Certified Infrastructure](/docs/bare-metal?topic=bare-metal-sap-cert-infrastructure#sap-cert-infrastructure).
 
-You can buy extra storage based on your needs. See the following table for a summary of your compute options.
+You can buy extra storage based on your needs. See the following table for a summary of your storage options.
 
 | Option | Description |
 |--------|---------------|
