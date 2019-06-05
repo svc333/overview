@@ -4,7 +4,7 @@ copyright:
 
   years: 2017, 2019
 
-lastupdated: "2019-02-21"
+lastupdated: "2019-05-06"
 
 keywords: crn, cloud resource name
 
@@ -100,19 +100,42 @@ The `location` segment must be one of the following values:
 ### Data centers
 {: #dc-crn}
 
+ * `AMS01`
+ * `AMS03`
+ * `CHE01`
+ * `DAL01`
+ * `DAL05`
+ * `DAL06`
+ * `DAL07`
+ * `DAL09`
+ * `DAL10`
+ * `DAL12`
+ * `DAL13`
+ * `FRA02`
+ * `HKG02`
+ * `HOU02`
+ * `LON02`
+ * `MEL01`
+ * `MEX01`
+ * `MIL01`
+ * `MON01`
+ * `OSL01`
+ * `PAR01`
+ * `SJC01`
+ * `SJC03`
+ * `SAO01`
+ * `SEA01`
+ * `SEO01`
+ * `SNG01`
+ * `SYD01`
+ * `TOK02`
+ * `TOR01`
+ * `WDC01`
+ * `WDC04`
+ * `WDC06`
+ * `WDC07`
 
-| | | | | |
-|---|---|---|---|---|
-| AMS01  | AMS03  | CHE01  | DAL01  |  DAL05  |
-| DAL06  | DAL07  | DAL09  | DAL10  |  DAL12  |
-| DAL13  | FRA02  | HKG02  | HOU02  |  LON02  |
-| MEL01  | MEX01  | MIL01  | MON01  |  OSL01  |
-| PAR01  | SJC01  | SJC03  | SAO01  |  SEA01  |
-| SEO01  | SNG01  | SYD01  | TOK02  |  TOR01  |
-| WDC01  | WDC04  | WDC06  | WDC07  |
-{: caption="Table 1. Valid data center values" caption-side="top"}
-
-Some resources do not require a region, as they can be considered `global`. In this case, the `region` segment is set to `global`.
+Some resources do not require a region, as they can be considered global. In this case, the `region` segment is set to `global`.
 {: tip}
 
 
@@ -128,7 +151,7 @@ The value of the `scope` segment must be formatted as `{scopePrefix}`/`{id}`. Th
 | Account | a/`{account id}` | The account that the resource was created in. | `a/292558` |
 | Organization | o/`{org guid}` | The {{site.data.keyword.Bluemix_notm}} Organization to which the resource was assigned. | `o/4716e2d1-35b7-431f-891a-b552bf0b3c66` |
 | Space | s/`{space guid}` | The {{site.data.keyword.Bluemix_notm}} Space to which the resource was assigned. | `s/48b3cdcd-e804-4398-9032-73065863ad7c` |
-{: caption="Table 2. scope usage" caption-side="top"}
+{: caption="Table 1. `scope` usage" caption-side="top"}
 
 
 
@@ -162,7 +185,7 @@ The `resource-type` segment must be alphanumeric, lowercase, and no spaces or sp
 ## CRN examples
 {: #crn_examples}
 
-The following is a list of CRN examples.
+The following table provides a list of CRN examples.
 
 | Example | Value |
 | --- | --- |
@@ -170,4 +193,4 @@ The following is a list of CRN examples.
 | Resource Group | `crn:v1:bluemix:public:resource-controller: global:a/59bcbfa6ea2f006b4ed7094c1a08dcdd:resource-group:59bcbfa6ea2f006b4ed7094c1a08dcdd` |
 | Service Instance | `crn:v1:bluemix:public:cloud-object-storage:global:a/59bcbfa6ea2f006b4ed7094c1a08dcdd:1a0ec336-f391-4091-a6fb-5e084a4c56f4::` |
 | Bucket | `crn:v1:bluemix:public:cloud-object-storage:global:a/59bcbfa6ea2f006b4ed7094c1a08dcdd:1a0ec336-f391-4091-a6fb-5e084a4c56f4:bucket:mybucket` |
-{: caption="Table 3. CRN examples" caption-side="top"}
+{: caption="Table 2. CRN examples" caption-side="top"}
