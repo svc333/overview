@@ -1,7 +1,7 @@
 ---
 copyright:
   years: 2019
-lastupdated: "2019-06-04"
+lastupdated: "2019-06-05"
 
 keywords: understanding infrastructure, vpc, classic infrastructure, cloud environment
 
@@ -34,7 +34,7 @@ Classic infrastructure and VPC infrastructure are cost neutral, so you can focus
 ## Compute differentiators
 {: #compare-compute}
 
-See the following table for the differences in compute between classic and VPC. The various differentiators are listed in the Category column, and the descriptions are listed in the Classic infrastructure and VPC infrastructure columns. 
+See the following table for the compute differences between classic and VPC. 
 
 | Category   |  Classic infrastructure   | VPC infrastructure |
 | ---------- | ------------------------- | ------------------ |
@@ -45,12 +45,15 @@ See the following table for the differences in compute between classic and VPC. 
 | Profiles | All profiles, including the GPU profiles | Balanced, compute, memory profiles with higher RAM and vCPU options |
 | Supported images | Full set of pre-stock images, plus custom images | Limited set of pre-stock images|
 | Platform integration | | IAM and resource group integration for a unified experience |
+{: row-headers}
+{: class="comparison-table"}
 {: caption="Table 1. Compute comparison" caption-side="top"}
+{: summary="This table has row and column headers. The row headers identify possible features. The column headers indentify the differentiators between classic infrastructure and VPC infrastructure. To understand the differences between environments, navigate to the row and find the details for the feature that you're interested in."}
 
 ## Network differentiators
 {: #compare-network}
 
-See the following table for the differences in networking between classic and VPC. The various differentiators are listed in the Category column, and the descriptions are listed in the Classic infrastructure and VPC infrastructure columns. 
+See the following table for the networking differences between classic and VPC.  
 
 | Category   |  Classic infrastructure   | VPC infrastructure |
 | ---------- | ------------------------- | ------------------ |
@@ -63,10 +66,15 @@ See the following table for the differences in networking between classic and VP
 |  Elastic load balancing | Cloud Load Balancer  | Load Balancer for VPC |
 | Global load balancing| Cloud Internet Services, Citrix Netscaler MPX | Cloud Internet Services |
 |Hybrid connectivity | NAT solution to bridge between IBM Cloud and your IT environment | Bring your own private IP address without NAT or IPSec tunnels <br>Note: You can enable your VPC to access classic infrastructure resources. |
+{: row-headers}
+{: class="comparison-table"}
 {: caption="Table 2. Network comparison" caption-side="top"}
+{: summary="This table has row and column headers. The row headers identify possible features. The column headers indentify the differentiators between classic infrastructure and VPC infrastructure. To understand the differences between environments, navigate to the row and find the details for the feature that you're interested in."}
 
 ## Storage differentiators
 {: #compare-storage}
+
+See the following table for the storage differences between classic and VPC.
 
 |  Classic infrastructure   | VPC infrastructure |
 | ------------------------- | ------------------ |
@@ -76,6 +84,8 @@ See the following table for the differences in networking between classic and VP
 ## Security differentiators
 {: #compare-security}
 
+See the following table for the security differences between classic and VPC.
+
 |  Classic infrastructure   | VPC infrastructure |
 | ---------- | ------------------------- |
 |Vyatta, Fortigate, Juniper vSRX, Security Groups for VSIs| Security groups, Network access control lists (ACLs)|
@@ -83,6 +93,8 @@ See the following table for the differences in networking between classic and VP
 
 ## API differentiators
 {: #compare-apis}
+
+See the following table for the API differences between classic and VPC.
 
 |  Classic infrastructure   | VPC infrastructure |
 | ------------------------- | ------------------ |
