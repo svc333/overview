@@ -2,7 +2,7 @@
 
 copyright:
   years: 2018, 2019
-lastupdated: "2019-05-23"
+lastupdated: "2019-06-04"
 
 keywords: HA, failover, DR, high availability, disaster recovery, locations, data centers
 
@@ -64,11 +64,11 @@ Zum Beheben von Sicherheitsproblemen können Sie auch den Standort auswählen, a
 
 Der globale Lastausgleich für die {{site.data.keyword.cloud_notm}}-Konsole stellt sicher, dass bei einer Inaktivität Ihres nächsten geografischen Standorts die Konsole die Informationen für den nächstgelegenen Standort anzeigt. Auf diese Weise verfügen Sie stets über Zugriff auf die Konsole, ohne dass Aktionen erforderlich sind, um auf die benötigten Ressourcen zuzugreifen.
 
-Über die Ansicht 'Ressourcenliste' können Sie standardmäßig alle Ressourcen an allen Standorten anzeigen. Wenn Sie Ressourcen an einem bestimmten Standort anzeigen und mit diesen arbeiten möchten, erweitern Sie das Menü **Standort** und wählen Sie einen Standort aus der Liste aus. Wenn Sie eine bestimmten geografischen Standort erweitern, haben Sie die Möglichkeit, nach einzelnen Rechenzentren, Regionen oder Zonen zu filtern. 
+Über die Ansicht 'Ressourcenliste' können Sie standardmäßig alle Ressourcen an allen Standorten anzeigen. Wenn Sie Ressourcen an einem bestimmten Standort anzeigen und mit diesen arbeiten möchten, erweitern Sie das Menü **Standort** und wählen Sie einen Standort aus der Liste aus. Wenn Sie eine bestimmten geografischen Standort erweitern, haben Sie die Möglichkeit, nach einzelnen Rechenzentren, Regionen oder Zonen zu filtern.
 
-Beispiel: Wenn Sie über Ressourcen verfügen, die in der Zone 'London 2' (eu-gb-2) bereitgestellt werden, können Sie die Ressourcenliste so filtern, dass nur diese Ressourcen angezeigt werden. Eine Zone befindet sich innerhalb einer Region und eine Region ist anhand des zugehörigen Metrostandorts organisiert. Zum Filtern der Liste anhand der Zone 'London 2' (eu-gb-2) erweitern Sie die Metro-Option **London** und anschließend die Regionsoption **London (eu-gb)**. Innerhalb dieser Region können Sie eine Zone in der Liste der verfügbaren Zonen auswählen. Wenn Sie über eine Ressource verfügen, die in einem bestimmten Rechenzentrum bereitgestellt wird, können Sie das Rechenzentrum anhand des spezifischen Metrostandorts und des alphanumerischen Codes identifizieren, z. B. London 02 (lon02). 
+Beispiel: Wenn Sie über Ressourcen verfügen, die in der Zone 'London 2' (eu-gb-2) bereitgestellt werden, können Sie die Ressourcenliste so filtern, dass nur diese Ressourcen angezeigt werden. Eine Zone befindet sich innerhalb einer Region und eine Region ist anhand des zugehörigen Metrostandorts organisiert. Zum Filtern der Liste anhand der Zone 'London 2' (eu-gb-2) erweitern Sie die Metro-Option **London** und anschließend die Regionsoption **London (eu-gb)**. Innerhalb dieser Region können Sie eine Zone in der Liste der verfügbaren Zonen auswählen. Wenn Sie über eine Ressource verfügen, die in einem bestimmten Rechenzentrum bereitgestellt wird, können Sie das Rechenzentrum anhand des spezifischen Metrostandorts und des alphanumerischen Codes identifizieren, z. B. London 02 (lon02).
 
-Sie können auch über Ressourcen verfügen, die global bereitgestellt werden. Die Option **Global** bedeutet, dass nur eine einzelne, logische, global zugängliche Instanz des Service - unabhängig von einer Region oder Zone - für Kundenanwendungen veröffentlicht wird. Zugriff auf diese Ressourcentypen besteht über einen globalen Endpunkt. 
+Sie können auch über Ressourcen verfügen, die global bereitgestellt werden. Die Option **Global** bedeutet, dass nur eine einzelne, logische, global zugängliche Instanz des Service - unabhängig von einer Region oder Zone - für Kundenanwendungen veröffentlicht wird. Zugriff auf diese Ressourcentypen besteht über einen globalen Endpunkt.
 
 ## Rechenzentren
 {: #data_center}
@@ -80,8 +80,8 @@ Wenn Sie Infrastrukturressourcen bereitstellen, stehen Ihnen mehr Optionen zur V
 
 ![Karte der Rechenzentren, die in den folgenden Tabellen beschrieben werden](images/Global-View.svg)
 
-### Nordamerika
-{: #na}
+
+Die folgende Tabelle enthält den spezifischen Code für die einzelnen Rechenzentren.  
 
 | Rechenzentrum | Code  |
 |------------------|-------|
@@ -93,63 +93,62 @@ Wenn Sie Infrastrukturressourcen bereitstellen, stehen Ihnen mehr Optionen zur V
 | Dallas 10        | dal10 |
 | Dallas 12        | dal12 |
 | Dallas 13        | dal13 |
+| Houston 01       | hou01 |
+| Mexiko 01        | mex01 |
+| Montreal 01      | mon01 |
+| San Jose 01      | sjc01 |
+| San Jose 03      | sjc03 |
+| San Jose 04      | sjc04 |
+| Sao Paulo 01     | sao01 |
+| Seattle 01       | sea01 |
+| Toronto 01       | tor01 |
 | Washington DC 01 | wdc01 |
 | Washington DC 04 | wdc04 |
 | Washington DC 06 | wdc06 |
 | Washington DC 07 | wdc07 |
-| San Jose 01      | sjc01 |
-| San Jose 03      | sjc03 |
-| San Jose 04      | sjc04 |
-| Seattle 01       | sea01 |
-| Houston 01       | hou01 |
-| Montreal 01      | mon01 |
-| Toronto 01       | tor01 |
-| Mexiko 01        | mex01 |
-{: caption="Tabelle 1. Rechenzentren in Nordamerika" caption-side="top"}
-
-### Südamerika
-{: #sa}
-
-| Rechenzentrum | Code    |
-|------------------|---------|
-| Sao Paulo 01     | sao01   |
-{: caption="Tabelle 2. Rechenzentren in Südamerika" caption-side="top"}
-
-### Europa
-{: #eu}
+{: caption="Tabelle 1. Rechenzentren in Nord- und Südamerika" caption-side="top"}
+{: #americas}
+{: tab-title="Americas"}
+{: tab-group="dcs"}
+{: class="simple-tab-table"}
 
 | Rechenzentrum | Code  |
 |------------------|-------|
+| Amsterdam 01     | ams01 |
+| Amsterdam 03     | ams03 |
+| Frankfurt 02     | fra02 |
+| Frankfurt 04     | fra04 |
+| Frankfurt 05     | fra05 |
 | London 02        | lon02 |
 | London 04        | lon04 |
 | London 05        | lon05 |
 | London 06        | lon06 |
-| Frankfurt 02     | fra02 |
-| Frankfurt 04     | fra04 |
-| Frankfurt 05     | fra05 |
 | Mailand 01         | mil01 |
-| Amsterdam 01     | ams01 |
-| Amsterdam 03     | ams03 |
-| Paris 01         | par01 |
 | Oslo 01          | osl01 |
-{: caption="Tabelle 3. Rechenzentren in Europa" caption-side="top"}
-
-### Asien/Pazifik
-{: #ap}
+| Paris 01         | par01 |
+{: caption="Tabelle 2. Rechenzentren in Europa" caption-side="top"}
+{: #europe}
+{: tab-title="Europe"}
+{: tab-group="dcs"}
+{: class="simple-tab-table"}
 
 | Rechenzentrum | Code  |
 |------------------|-------|
-| Tokio 01         | tok02 | 
-| Tokio 04         | tok04 |
-| Tokio 05         | tok05 |
-| Seoul 01         | seo01 |
 | Hongkong 02     | hkg02 |
+| Melbourne 01     | mel01 |
+| Seoul 01         | seo01 |
 | Singapur 01     | sng01 |
 | Sydney 01        | syd01 |
 | Sydney 04        | syd04 |
 | Sydney 05        | syd05 |
-| Melbourne 01     | mel01 |
-{: caption="Tabelle 4. Rechenzentren in Asien/Pazifik" caption-side="top"}
+| Tokio 01         | tok02 | 
+| Tokio 04         | tok04 |
+| Tokio 05         | tok05 |
+{: caption="Tabelle 3. Rechenzentren in Afrika" caption-side="top"}
+{: #asiapacific}
+{: tab-title="Asia Pacific"}
+{: tab-group="dcs"}
+{: class="simple-tab-table"}
 
 
 ## Service-Level-Agreements (SLAs)
