@@ -2,7 +2,7 @@
 
 copyright:
   years: 2018, 2019
-lastupdated: "2019-05-23"
+lastupdated: "2019-06-04"
 
 keywords: HA, failover, DR, high availability, disaster recovery, locations, data centers
 
@@ -80,8 +80,8 @@ subcollection: overview
 
 ![下表說明的資料中心地圖](images/Global-View.svg)
 
-### 北美洲
-{: #na}
+
+如需每個資料中心的特定代碼，請參閱下表。 
 
 |資料中心| 代碼 |
 |------------------|-------|
@@ -93,63 +93,62 @@ subcollection: overview
 |達拉斯 10|dal10|
 |達拉斯 12|dal12|
 |達拉斯 13|dal13|
+|休斯頓 01|hou01|
+|墨西哥 01|mex01|
+|蒙特婁 01|mon01|
+|聖荷西 01|sjc01|
+|聖荷西 03|sjc03|
+|聖荷西 04|sjc04|
+|聖保羅 01|sao01|
+|西雅圖 01|sea01|
+|多倫多 01|tor01|
 |華盛頓特區 01|wdc01|
 |華盛頓特區 04|wdc04|
 |華盛頓特區 06|wdc06|
 |華盛頓特區 07|wdc07|
-|聖荷西 01|sjc01|
-|聖荷西 03|sjc03|
-|聖荷西 04|sjc04|
-|西雅圖 01|sea01|
-|休斯頓 01|hou01|
-|蒙特婁 01|mon01|
-|多倫多 01|tor01|
-|墨西哥 01|mex01|
-{: caption="表 1. 北美洲的資料中心" caption-side="top"}
-
-### 南美洲
-{: #sa}
-
-|資料中心| 代碼 |
-|------------------|---------|
-|聖保羅 01|sao01|
-{: caption="表 2. 南美洲的資料中心" caption-side="top"}
-
-### 歐洲
-{: #eu}
+{: caption="表 1. 北美洲及南美洲的資料中心" caption-side="top"}
+{: #americas}
+{: tab-title="Americas"}
+{: tab-group="dcs"}
+{: class="simple-tab-table"}
 
 |資料中心| 代碼 |
 |------------------|-------|
+|阿姆斯特丹 01|ams01|
+|阿姆斯特丹 03|ams03|
+|法蘭克福 02|fra02|
+|法蘭克福 04|fra04|
+|法蘭克福 05|fra05|
 |倫敦 02|lon02|
 |倫敦 04|lon04|
 |倫敦 05|lon05|
 |倫敦 06|lon06|
-|法蘭克福 02|fra02|
-|法蘭克福 04|fra04|
-|法蘭克福 05|fra05|
 |米蘭 01|mil01|
-|阿姆斯特丹 01|ams01|
-|阿姆斯特丹 03|ams03|
-|巴黎 01|par01|
 |奧斯陸 01|osl01|
-{: caption="表 3. 歐洲的資料中心" caption-side="top"}
-
-### 亞太地區
-{: #ap}
+|巴黎 01|par01|
+{: caption="表 2. 歐洲的資料中心" caption-side="top"}
+{: #europe}
+{: tab-title="Europe"}
+{: tab-group="dcs"}
+{: class="simple-tab-table"}
 
 |資料中心| 代碼 |
 |------------------|-------|
-|東京 01|tok02| 
-|東京 04|tok04|
-|東京 05|tok05|
-|首爾 01|seo01|
 |香港 02|hkg02|
+|墨爾本 01|mel01|
+|首爾 01|seo01|
 |新加坡 01|sng01|
 |雪梨 01|syd01|
 |雪梨 04|syd04|
 |雪梨 05|syd05|
-|墨爾本 01|mel01|
-{: caption="表 4. 亞太地區的資料中心" caption-side="top"}
+|東京 01|tok02| 
+|東京 04|tok04|
+|東京 05|tok05|
+{: caption="表 3. 亞太地區的資料中心" caption-side="top"}
+{: #asiapacific}
+{: tab-title="Asia Pacific"}
+{: tab-group="dcs"}
+{: class="simple-tab-table"}
 
 
 ## 服務水準合約 (SLA)

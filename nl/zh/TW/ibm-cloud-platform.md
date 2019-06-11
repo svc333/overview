@@ -3,7 +3,7 @@
 
 copyright:
   years: 2016, 2019
-lastupdated: "2019-05-13"
+lastupdated: "2019-05-31"
 
 keywords: console, platform overview, overview
 
@@ -20,13 +20,15 @@ subcollection: overview
 IBM 的雲端平台結合了平台即服務 (PaaS) 與基礎架構即服務 (IaaS)，以提供整合式的體驗。平台會進行調整，並同時支援小型開發團隊和組織，以及大型企業。您在 {{site.data.keyword.cloud}} 上建置的解決方案在全球各地的資料中心進行全面部署，能在您可信任且經過測試和受支援的環境中快速地啟動及可靠地執行。
 {: .shortdesc}
 
-{{site.data.keyword.Bluemix_notm}} 平台由多個元件共同運作而組成，能提供一致且可靠的雲端體驗。 
+如下圖所述，{{site.data.keyword.Bluemix_notm}} 平台由多個元件共同運作而組成，能提供一致且可靠的雲端體驗。 
 
-  * 由數百個 {{site.data.keyword.Bluemix_notm}} 供應項目組成的型錄
   * 健全的主控台，作為建立、檢視、管理雲端資源的前端系統
   * Identity and Access Management 元件，可安全地鑑別兩個平台服務的使用者，並在 {{site.data.keyword.Bluemix_notm}} 之間一致地控制資源的存取
+  * 由數百個 {{site.data.keyword.Bluemix_notm}} 供應項目組成的型錄
   * 用來過濾及識別資源的搜尋和標記機制
   * 帳戶和計費管理系統，其提供定價方案的確切用量，以及安全的信用卡詐騙防護
+  
+  ![{{site.data.keyword.cloud_notm}} 平台的元件](images/IBM-Cloud-Platform.svg "此圖表顯示 {{site.data.keyword.cloud_notm}} 平台的主要元件")
 
 不論您是想要對[現有程式碼](/docs/apps/tutorials?topic=creating-apps-tutorial-byoc#tutorial-byoc)進行革新並帶到雲端中，還是要開發[全新的應用程式](/docs/apps/tutorials?topic=creating-apps-tutorial-starterkit)，您的開發人員都可以利用 {{site.data.keyword.Bluemix_notm}} 中快速成長的可用服務和運行環境架構生態系統。
 
@@ -96,3 +98,17 @@ IBM 的雲端平台結合了平台即服務 (PaaS) 與基礎架構即服務 (Iaa
 搜尋服務是一個廣域及共用資源內容儲存庫，它已整合在 {{site.data.keyword.Bluemix_notm}} 平台內。它用於儲存及搜尋雲端資源的屬性，並且會對資源進行分類。資源是由[雲端資源名稱 (CRN)](/docs/overview?topic=overview-crn) ID 唯一識別。資源的內容包含標籤和系統內容。這兩種內容都定義在 {{site.data.keyword.Bluemix_notm}} 計費帳戶中，並且跨越多個地區。
 
 此服務還管理與資源相關聯的標籤。您可以利用 Tagging API 來建立、刪除、搜尋、連接或分離標籤。標籤是由 CRN ID 唯一識別。標籤具有名稱，而此名稱在計費帳戶內必須是唯一的。您可以用 key:value 配對或標籤格式來建立標籤。
+
+## 監視資源
+{: #resources_observability}
+
+觀察提供單一位置，可在其中監視與觀察 {{site.data.keyword.Bluemix_notm}} 中的應用程式及服務。 
+
+使用 {{site.data.keyword.la_full}} 服務，您可以將日誌管理功能新增至 {{site.data.keyword.Bluemix_notm}} 架構，而且可以管理系統及應用程式日誌。它提供進階特性來監視和疑難排解、定義警示，以及設計自訂儀表板。{{site.data.keyword.la_full_notm}} 是由與 {{site.data.keyword.IBM_notm}} 合作的 LogDNA 所運作。如需相關資訊，請參閱[開始使用 {{site.data.keyword.la_full_notm}}](/docs/services/Log-Analysis-with-LogDNA?topic=LogDNA-getting-started)。
+
+{{site.data.keyword.mon_full_notm}} 服務可讓您瞭解應用程式、服務及平台效能及性能的作業可見性。它提供完整堆疊遙測，具有進階特性來監視和疑難排解、定義警示，以及設計自訂儀表板。{{site.data.keyword.mon_full_notm}} 是由與 {{site.data.keyword.IBM_notm}} 合作的 Sysdig 所運作。如需相關資訊，請參閱[開始使用具有 Sysdig 服務的 IBM Cloud Monitoring](/docs/services/Monitoring-with-Sysdig?topic=Sysdig-getting-started#getting-started)
+
+## 監視帳戶 
+{: #account_observability}
+
+使用 {{site.data.keyword.at_full}} 服務監視 {{site.data.keyword.Bluemix_notm}} 帳戶活動、調查異常活動及嚴重動作，以及符合法定審核需求。此外，還會提醒您事件發生時的動作。所收集的事件符合 Cloud Auditing Data Federation (CADF) 標準。如需相關資訊，請參閱[開始使用 {{site.data.keyword.at_full_notm}}](/docs/services/Activity-Tracker-with-LogDNA?topic=logdnaat-getting-started)。

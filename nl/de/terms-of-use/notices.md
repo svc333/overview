@@ -28,7 +28,7 @@ Ihr IBM Cloud-Konto und alle Services, die von IBM Cloud angefordert werden, wer
 
   * Basisvereinbarungen bezüglich Cloud-Bedingungen:
     * Vereinbarung für Cloud-Services von SoftLayer bezüglich der Kreditkartenabrechnung in US-Dollar, verfügbar unter [https://www.ibm.com/support/customer/zz/en/softlayer.html](https://www.ibm.com/support/customer/zz/en/softlayer.html){: new_window} ![Symbol für externen Link](../../icons/launch-glyph.svg)
-    * IBM Vereinbarung für Cloud-Services (in der Version des jeweiligen Landes*) bezüglich der Kreditkartenabrechnung in einer anderen Währung als US-Dollar oder bei Auswahl der IBM Rechnungsstellung, verfügbar unter [https://www.ibm.com/terms](https://www.ibm.com/terms){: new_window} ![Symbol für externen Link](../../icons/launch-glyph.svg) (wählen Sie Ihr Land aus)
+    * IBM Vereinbarung für Cloud-Services (in der Version des jeweiligen Landes*) bezüglich der Kreditkartenabrechnung in einer anderen Währung als US-Dollar oder bei Auswahl der IBM Rechnungsstellung, verfügbar unter [https://www.ibm.com/terms](https://www.ibm.com/support/customer/csol/terms/){: new_window} ![Symbol für externen Link](../../icons/launch-glyph.svg) (wählen Sie Ihr Land aus)
     * Von Ihnen akzeptierter IBM Passport Advantage Vertrag und die allgemeinen Bedingungen zu den Nutzungsbedingungen für Cloud-Angebote für IBM Passport Advantage-Kunden, verfügbar unter [http://www-03.ibm.com/software/sla/sladb.nsf/sla/tou](http://www-03.ibm.com/software/sla/sladb.nsf/sla/tou){: new_window} ![Symbol für externen Link](../../icons/launch-glyph.svg)
     * Äquivalente Bedingungen der Basisvereinbarung für Cloud-Services zwischen Ihnen und IBM
   * Servicebeschreibung für IBM Cloud, verfügbar unter [http://www-03.ibm.com/software/sla/sladb.nsf/sla/bm](http://www-03.ibm.com/software/sla/sladb.nsf/sla/bm){: new_window} ![Symbol für externen Link](../../icons/launch-glyph.svg)
@@ -143,12 +143,12 @@ IBM Cloud implementiert die netzweite Blockierung der Kommunikation mit IP-Adres
 
 Zur Identifizierung von IP-Adressen, die Ländern zugeordnet werden, die dem Embargo der Vereinigten Staaten unterliegen, referenziert IBM Cloud die Geo IP2-Datenbank, die von [MaxMind ![Symbol für externen Link](../../icons/launch-glyph.svg)](http://www.maxmind.com){: new_window} verwaltet wird. IBM Cloud aktualisiert die Zuordnung der IP-Adressen und Länder vierteljährlich.
 
-Hinweis: Diese Einschränkung gilt nicht für Inhalte, die nicht den Sanktionen und Embargos der Vereinigten Staaten unterliegen. Falls Sie über Inhalte verfügen, die Ihrer Ansicht nach nicht den Handels- und Wirtschaftssanktionen der Vereinigten Staaten unterliegen, senden Sie eine E-Mail an 'IBM_Cloud_Embargo_Exemption_Request@wwpdl.vnet.ibm.com'.  
+Hinweis: Diese Einschränkung gilt nicht für Inhalte, die nicht den Sanktionen und Embargos der Vereinigten Staaten unterliegen. Falls Sie über Inhalte verfügen, die Ihrer Ansicht nach nicht den Handels- und Wirtschaftssanktionen der Vereinigten Staaten unterliegen, senden Sie eine E-Mail an 'IBM_Cloud_Embargo_Exemption_Request@wwpdl.vnet.ibm.com'. 
 
 ## Marken
 {: #trademarks}
 
-IBM, das IBM Logo und ibm.com sind Marken oder eingetragene Marken der IBM Corporation in den USA und/oder anderen Ländern. Weitere Produkt- und Servicenamen können Marken von IBM oder anderen Unternehmen sein. Eine aktuelle Liste der IBM Marken finden Sie auf der Webseite [Copyright and trademark information ![Symbol für externen Link](../../icons/launch-glyph.svg)](https://www.ibm.com/legal/us/en/copytrade.shtml){: new_window}.
+IBM, das IBM Logo und ibm.com sind Marken oder eingetragene Marken der IBM Corporation in den USA und/oder anderen Ländern. Weitere Produkt- und Servicenamen können Marken von IBM oder anderen Unternehmen sein. Eine aktuelle Liste der IBM Marken finden Sie auf der Webseite [Copyright and trademark information ![Symbol für externen Link](../../icons/launch-glyph.svg)](https://www.ibm.com/legal/copytrade){: new_window}.
 
 Adobe, das Adobe-Logo, PostScript und das PostScript-Logo sind Marken oder eingetragene Marken der Adobe Systems Incorporated in den USA und/oder anderen Ländern.
 

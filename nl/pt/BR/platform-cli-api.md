@@ -4,7 +4,7 @@ copyright:
 
   years: 2018, 2019
 
-lastupdated: "2019-05-13"
+lastupdated: "2019-06-03"
 
 keywords: resource groups, platform CLI, platform API
 
@@ -37,7 +37,7 @@ de API associados a cada componente da plataforma.
 | Controlador de recurso | [Trabalhando com recursos e grupos de recursos](/docs/cli/reference/ibmcloud?topic=cloud-cli-ibmcloud_commands_resource) | [API do {{site.data.keyword.Bluemix_notm}}Resource Controller](https://console.cloud.ibm.com/apidocs/resource-controller){: new_window} ![Ícone de link externo](../icons/launch-glyph.svg "Ícone de link externo") <br><br> [API do {{site.data.keyword.cloud_notm}} Open Service Broker](https://console.cloud.ibm.com/apidocs/ibm-cloud-osb-api){: new_window} ![Ícone de link externo](../icons/launch-glyph.svg "Ícone de link externo") |
 | Gerenciador de recursos | [Trabalhando com recursos e grupos de recursos](/docs/cli/reference/ibmcloud?topic=cloud-cli-ibmcloud_commands_resource) | [API do {{site.data.keyword.Bluemix_notm}} Resource Manager](https://console.cloud.ibm.com/apidocs/resource-manager){: new_window} ![Ícone de link externo](../icons/launch-glyph.svg "Ícone de link externo") |
 | Catálogo | [Procurando e gerenciando ofertas do catálogo](/docs/cli/reference/ibmcloud?topic=cloud-cli-ibmcloud_catalog) | [API do catálogo](https://console.cloud.ibm.com/apidocs/globalcatalog){: new_window} ![Ícone de link externo](../icons/launch-glyph.svg "Ícone de link externo") |
-| Procura e identificação | [Procurando recursos](/docs/cli/reference/ibmcloud?topic=cloud-cli-ibmcloud_commands_resource#ibmcloud_resource_search) <br><br>  [Identificando recursos](/docs/cli/reference/ibmcloud/cli_resource_group.html#ibmcloud_resource_tags) | |
+| Procura e identificação | [Procurando recursos](/docs/cli/reference/ibmcloud?topic=cloud-cli-ibmcloud_commands_resource#ibmcloud_resource_search) <br><br>  [Identificando recursos](/docs/cli/reference/ibmcloud?topic=cloud-cli-ibmcloud_commands_resource#ibmcloud_resource_tags) | |
 {: caption="Tabela 1. CLI e API de serviços de plataforma" caption-side="top"}
 
 
