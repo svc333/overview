@@ -2,7 +2,7 @@
 
 copyright:
   years: 2018, 2019
-lastupdated: "2019-05-23"
+lastupdated: "2019-06-04"
 
 keywords: HA, failover, DR, high availability, disaster recovery, locations, data centers
 
@@ -111,8 +111,8 @@ O {{site.data.keyword.Bluemix_notm}} oferece data centers em muitas localizaçõ
 
 ![Mapa de data centers descritos nas tabelas a seguir](images/Global-View.svg)
 
-### América do Norte
-{: #na}
+
+Consulte a tabela a seguir para ver o código específico de cada data center. 
 
 | Datacenter | Código  |
 |------------------|-------|
@@ -124,63 +124,62 @@ O {{site.data.keyword.Bluemix_notm}} oferece data centers em muitas localizaçõ
 | Dallas 10        | dal10 |
 | Dallas 12        | dal12 |
 | Dallas 13        | dal13 |
+| Houston 01       | hou01 |
+| México 01        | mex01 |
+| Montreal 01      | mon01 |
+| San Jose 01      | sjc01 |
+| San Jose 03      | sjc03 |
+| San Jose 04      | sjc04 |
+| São Paulo 01     | sao01 |
+| Seattle 01       | sea01 |
+| Toronto 01       | tor01 |
 | Washington DC 01 | wdc01 |
 | Washington DC 04 | wdc04 |
 | Washington DC 06 | wdc06 |
 | Washington DC 07 | wdc07 |
-| San Jose 01      | sjc01 |
-| San Jose 03      | sjc03 |
-| San Jose 04      | sjc04 |
-| Seattle 01       | sea01 |
-| Houston 01       | hou01 |
-| Montreal 01      | mon01 |
-| Toronto 01       | tor01 |
-| México 01        | mex01 |
-{: caption="Tabela 1. Data centers na América do Norte" caption-side="top"}
-
-### América do Sul
-{: #sa}
-
-| Datacenter | Código    |
-|------------------|---------|
-| São Paulo 01     | sao01   |
-{: caption="Tabela 2. Data centers na América do Sul" caption-side="top"}
-
-### Europa
-{: #eu}
+{: caption="Tabela 1. Data centers na América do Norte e do Sul" caption-side="top"}
+{: #americas}
+{: tab-title="Americas"}
+{: tab-group="dcs"}
+{: class="simple-tab-table"}
 
 | Datacenter | Código  |
 |------------------|-------|
+| Amsterdã 01     | ams01 |
+| Amsterdã 03     | ams03 |
+| Frankfurt 02     | fra02 |
+| Frankfurt 04     | fra04 |
+| Frankfurt 05     | fra05 |
 | Londres 02        | lon02 |
 | Londres 04        | lon04 |
 | Londres 05        | lon05 |
 | Londres 06        | lon06 |
-| Frankfurt 02     | fra02 |
-| Frankfurt 04     | fra04 |
-| Frankfurt 05     | fra05 |
 | Milão 01         | mil01 |
-| Amsterdã 01     | ams01 |
-| Amsterdã 03     | ams03 |
-| Paris 01         | par01 |
 | Oslo 01          | osl01 |
-{: caption="Tabela 3. Data centers na Europa" caption-side="top"}
-
-### Ásia-Pacífico
-{: #ap}
+| Paris 01         | par01 |
+{: caption="Tabela 2. Data centers na Europa" caption-side="top"}
+{: #europe}
+{: tab-title="Europe"}
+{: tab-group="dcs"}
+{: class="simple-tab-table"}
 
 | Datacenter | Código  |
 |------------------|-------|
-| Tóquio 01         | tok02 | 
-| Tóquio 04         | tok04 |
-| Tóquio 05         | tok05 |
-| Seul 01         | seo01 |
 | Hong Kong 02     | hkg02 |
+| Melbourne 01     | mel01 |
+| Seul 01         | seo01 |
 | Cingapura 01     | sng01 |
 | Sydney 01        | syd01 |
 | Sydney 04        | syd04 |
 | Sydney 05        | syd05 |
-| Melbourne 01     | mel01 |
-{: caption="Tabela 4. Data centers na Ásia-Pacífico" caption-side="top"}
+| Tóquio 01         | tok02 | 
+| Tóquio 04         | tok04 |
+| Tóquio 05         | tok05 |
+{: caption="Tabela 3. Data centers na Ásia-Pacífico" caption-side="top"}
+{: #asiapacific}
+{: tab-title="Asia Pacific"}
+{: tab-group="dcs"}
+{: class="simple-tab-table"}
 
 
 ## Acordos de Nível de Serviço (SLAs)

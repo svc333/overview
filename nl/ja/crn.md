@@ -4,7 +4,7 @@ copyright:
 
   years: 2017, 2019
 
-lastupdated: "2019-02-21"
+lastupdated: "2019-05-06"
 
 keywords: crn, cloud resource name
 
@@ -101,19 +101,42 @@ CRN の基本正規フォーマットは、次のとおりです。
 ### データ・センター
 {: #dc-crn}
 
+ * `AMS01`
+ * `AMS03`
+ * `CHE01`
+ * `DAL01`
+ * `DAL05`
+ * `DAL06`
+ * `DAL07`
+ * `DAL09`
+ * `DAL10`
+ * `DAL12`
+ * `DAL13`
+ * `FRA02`
+ * `HKG02`
+ * `HOU02`
+ * `LON02`
+ * `MEL01`
+ * `MEX01`
+ * `MIL01`
+ * `MON01`
+ * `OSL01`
+ * `PAR01`
+ * `SJC01`
+ * `SJC03`
+ * `SAO01`
+ * `SEA01`
+ * `SEO01`
+ * `SNG01`
+ * `SYD01`
+ * `TOK02`
+ * `TOR01`
+ * `WDC01`
+ * `WDC04`
+ * `WDC06`
+ * `WDC07`
 
-| | | | | |
-|---|---|---|---|---|
-| AMS01  | AMS03  | CHE01  | DAL01  |  DAL05  |
-| DAL06  | DAL07  | DAL09  | DAL10  |  DAL12  |
-| DAL13  | FRA02  | HKG02  | HOU02  |  LON02  |
-| MEL01  | MEX01  | MIL01  | MON01  |  OSL01  |
-| PAR01  | SJC01  | SJC03  | SAO01  |  SEA01  |
-| SEO01  | SNG01  | SYD01  | TOK02  |  TOR01  |
-| WDC01  | WDC04  | WDC06  | WDC07  |
-{: caption="表 1. 有効なデータ・センター値" caption-side="top"}
-
-地域を必要としないリソースもあります (そういったリソースは`グローバル`であると判断できます)。 この場合、`region` セグメントは `global` に設定されます。
+地域を必要としないリソースもあります (そういったリソースはグローバルであると判断できます)。この場合、`region` セグメントは `global` に設定されます。
 {: tip}
 
 
@@ -129,7 +152,7 @@ CRN の基本正規フォーマットは、次のとおりです。
 | アカウント | a/`{account id}` | リソースが作成されたアカウント。 | `a/292558` |
 | 組織 | o/`{org guid}` | リソースが割り当てられた {{site.data.keyword.Bluemix_notm}} 組織。 | `o/4716e2d1-35b7-431f-891a-b552bf0b3c66` |
 | スペース | s/`{space guid}` | リソースが割り当てられた {{site.data.keyword.Bluemix_notm}} スペース。 | `s/48b3cdcd-e804-4398-9032-73065863ad7c` |
-{: caption="表 2. スコープの使用法" caption-side="top"}
+{: caption="表 1. scope の使用法" caption-side="top"}
 
 
 
@@ -163,7 +186,7 @@ ibmcloud resource service-instance
 ## CRN の例
 {: #crn_examples}
 
-以下のリストは CRN の例を示します。
+次の表に、CRN の例を示します。
 
 | 例 | 値 |
 | --- | --- |
@@ -171,4 +194,4 @@ ibmcloud resource service-instance
 | リソース・グループ | `crn:v1:bluemix:public:resource-controller: global:a/59bcbfa6ea2f006b4ed7094c1a08dcdd:resource-group:59bcbfa6ea2f006b4ed7094c1a08dcdd` |
 | サービス・インスタンス | `crn:v1:bluemix:public:cloud-object-storage:global:a/59bcbfa6ea2f006b4ed7094c1a08dcdd:1a0ec336-f391-4091-a6fb-5e084a4c56f4::` |
 | バケット | `crn:v1:bluemix:public:cloud-object-storage:global:a/59bcbfa6ea2f006b4ed7094c1a08dcdd:1a0ec336-f391-4091-a6fb-5e084a4c56f4:bucket:mybucket` |
-{: caption="表 3. CRN の例" caption-side="top"}
+{: caption="表 2. CRN の例" caption-side="top"}

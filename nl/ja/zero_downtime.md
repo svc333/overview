@@ -2,7 +2,7 @@
 
 copyright:
   years: 2018, 2019
-lastupdated: "2019-05-23"
+lastupdated: "2019-06-04"
 
 keywords: HA, failover, DR, high availability, disaster recovery, locations, data centers
 
@@ -75,13 +75,13 @@ subcollection: overview
 
 インフラストラクチャーをデプロイするときには、データが置かれる場所についてさらに多くのオプションがあります。 ロケーションを選択することも、{{site.data.keyword.Bluemix_notm}} データ・センターのリストから選択することもできます。 *データ・センター*は、サービスおよびアプリに使用される電力、冷却、計算、ネットワーク、およびストレージの各リソースをホストする物理的ロケーションです。 データ・センターは、1 つのロケーション内のマルチゾーンと同様に、ローカル障害からの分離を行いません。 詳しくは、『[Global locations for your global business ![外部リンク・アイコン](../icons/launch-glyph.svg "外部リンク・アイコン")](https://www.ibm.com/cloud/data-centers/){: new_window}』を参照してください。
 
-{{site.data.keyword.Bluemix_notm}} は、世界中の多くのロケーションでデータ・センターを提供しています。  
+{{site.data.keyword.Bluemix_notm}} は、世界中の多くのロケーションでデータ・センターを提供しています。 
 
 
 ![以下の表で説明されているデータ・センターのマップ ](images/Global-View.svg)
 
-### 北アメリカ
-{: #na}
+
+以下の表に、各データ・センターの固有のコードを示します。 
 
 | データ・センター | コード  |
 |------------------|-------|
@@ -93,63 +93,62 @@ subcollection: overview
 | ダラス 10        | dal10 |
 | ダラス 12        | dal12 |
 | ダラス 13        | dal13 |
+| ヒューストン 01       | hou01 |
+| メキシコ 01        | mex01 |
+| モントリオール 01      | mon01 |
+| サンノゼ 01      | sjc01 |
+| サンノゼ 03      | sjc03 |
+| サンノゼ 04      | sjc04 |
+| サンパウロ 01     | sao01 |
+| シアトル 01       | sea01 |
+| トロント 01       | tor01 |
 | ワシントン DC 01 | wdc01 |
 | ワシントン DC 04 | wdc04 |
 | ワシントン DC 06 | wdc06 |
 | ワシントン DC 07 | wdc07 |
-| サンノゼ 01      | sjc01 |
-| サンノゼ 03      | sjc03 |
-| サンノゼ 04      | sjc04 |
-| シアトル 01       | sea01 |
-| ヒューストン 01       | hou01 |
-| モントリオール 01      | mon01 |
-| トロント 01       | tor01 |
-| メキシコ 01        | mex01 |
-{: caption="表 1. 北アメリカのデータ・センター" caption-side="top"}
-
-### 南アメリカ
-{: #sa}
-
-| データ・センター | コード    |
-|------------------|---------|
-| サンパウロ 01     | sao01   |
-{: caption="表 2. 南アメリカのデータ・センター" caption-side="top"}
-
-### ヨーロッパ
-{: #eu}
+{: caption="表 1. 北米および南米のデータ・センター" caption-side="top"}
+{: #americas}
+{: tab-title="Americas"}
+{: tab-group="dcs"}
+{: class="simple-tab-table"}
 
 | データ・センター | コード  |
 |------------------|-------|
+| アムステルダム 01     | ams01 |
+| アムステルダム 03     | ams03 |
+| フランクフルト 02     | fra02 |
+| フランクフルト 04     | fra04 |
+| フランクフルト 05     | fra05 |
 | ロンドン 02        | lon02 |
 | ロンドン 04        | lon04 |
 | ロンドン 05        | lon05 |
 | ロンドン 06        | lon06 |
-| フランクフルト 02     | fra02 |
-| フランクフルト 04     | fra04 |
-| フランクフルト 05     | fra05 |
 | ミラノ 01         | mil01 |
-| アムステルダム 01     | ams01 |
-| アムステルダム 03     | ams03 |
-| パリ 01         | par01 |
 | オスロ 01          | osl01 |
-{: caption="表 3. ヨーロッパのデータ・センター" caption-side="top"}
-
-### アジア太平洋
-{: #ap}
+| パリ 01         | par01 |
+{: caption="表 2. ヨーロッパのデータ・センター" caption-side="top"}
+{: #europe}
+{: tab-title="Europe"}
+{: tab-group="dcs"}
+{: class="simple-tab-table"}
 
 | データ・センター | コード  |
 |------------------|-------|
-| 東京 01         | tok02 | 
-| 東京 04         | tok04 |
-| 東京 05         | tok05 |
-| ソウル 01         | seo01 |
 | ホンコン 02     | hkg02 |
+| メルボルン 01     | mel01 |
+| ソウル 01         | seo01 |
 | シンガポール 01     | sng01 |
 | シドニー 01        | syd01 |
 | シドニー 04        | syd04 |
 | シドニー 05        | syd05 |
-| メルボルン 01     | mel01 |
-{: caption="表 4. アジア太平洋のデータ・センター" caption-side="top"}
+| 東京 01         | tok02 | 
+| 東京 04         | tok04 |
+| 東京 05         | tok05 |
+{: caption="表 3. アジア太平洋のデータ・センター" caption-side="top"}
+{: #asiapacific}
+{: tab-title="Asia Pacific"}
+{: tab-group="dcs"}
+{: class="simple-tab-table"}
 
 
 ## サービス・レベル・アグリーメント (SLA)

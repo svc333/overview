@@ -1,0 +1,409 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="750px"
+   height="535px"
+   viewBox="0 0 750 535"
+   version="1.1"
+   id="svg2"
+   inkscape:version="0.48.5 r"
+   sodipodi:docname="IBM-Cloud-Platform.svg">
+  <metadata
+     id="metadata109">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs107" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1680"
+     inkscape:window-height="987"
+     id="namedview105"
+     showgrid="false"
+     inkscape:zoom="1.24768"
+     inkscape:cx="466.89345"
+     inkscape:cy="215.23006"
+     inkscape:window-x="-4"
+     inkscape:window-y="-4"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg2" />
+  <!-- Generator: Sketch 52.2 (67145) - http://www.bohemiancoding.com/sketch -->
+  <title
+     id="title4">IBM-Cloud-Platform</title>
+  <desc
+     id="desc6">Created with Sketch.</desc>
+  <g
+     id="IBM-Cloud-Platform"
+     stroke="none"
+     stroke-width="1"
+     fill="none"
+     fill-rule="evenodd">
+    <polygon
+       id="bottom"
+       fill="#F4F7FB"
+       points="418.281085 408 338 440.209674 418.180479 480.162162 497.272894 440.209674" />
+    <g
+       id="6"
+       transform="translate(338.000000, 352.000000)">
+      <polygon
+         id="Fill-1"
+         fill-opacity="0.65"
+         fill="#D1D6F5"
+         points="80.6060606 0 0.42558181 32.2096739 1.21212121 50.5135135 80.6060606 89 159.698476 48.7094595 159.698476 32.2096739" />
+      <polygon
+         id="Fill-2"
+         fill-opacity="0.65"
+         fill="#242C6C"
+         points="80.6060606 72.1621622 80.6060606 89 159.698476 48.7094595 159.698476 32.2096739" />
+      <polygon
+         id="Fill-3"
+         fill="#628CFF"
+         points="80.7066667 0 0.42558181 32.2096739 80.6060606 72.1621622 159.698476 32.2096739" />
+      <polygon
+         id="polygon14"
+         fill="#628CFF"
+         points="80.7066667 0 0.42558181 32.2096739 80.6060606 72.1621622 159.698476 32.2096739" />
+    </g>
+    <g
+       id="5"
+       transform="translate(338.000000, 295.000000)">
+      <polygon
+         id="polygon17"
+         fill-opacity="0.65"
+         fill="#D1D6F5"
+         points="80.6060606 0 0.42558181 32.2096739 1.21212121 50.5135135 80.6060606 89 159.698476 48.7094595 159.698476 32.2096739" />
+      <polygon
+         id="polygon19"
+         fill-opacity="0.65"
+         fill="#242C6C"
+         points="80.6060606 72.1621622 80.6060606 89 159.698476 48.7094595 159.698476 32.2096739" />
+      <polygon
+         id="polygon21"
+         fill="#628CFF"
+         points="80.7066667 0 0.42558181 32.2096739 80.6060606 72.1621622 159.698476 32.2096739" />
+    </g>
+    <g
+       id="4"
+       transform="translate(338.000000, 239.000000)">
+      <polygon
+         id="polygon24"
+         fill-opacity="0.65"
+         fill="#D1D6F5"
+         points="80.6060606 0 0.42558181 32.2096739 1.21212121 50.5135135 80.6060606 89 159.698476 48.7094595 159.698476 32.2096739" />
+      <polygon
+         id="polygon26"
+         fill-opacity="0.65"
+         fill="#242C6C"
+         points="80.6060606 72.1621622 80.6060606 89 159.698476 48.7094595 159.698476 32.2096739" />
+      <polygon
+         id="polygon28"
+         fill="#628CFF"
+         points="80.7066667 0 0.42558181 32.2096739 80.6060606 72.1621622 159.698476 32.2096739" />
+    </g>
+    <g
+       id="3"
+       transform="translate(338.000000, 183.000000)">
+      <polygon
+         id="polygon31"
+         fill-opacity="0.65"
+         fill="#D1D6F5"
+         points="80.6060606 0 0.42558181 32.2096739 1.21212121 50.5135135 80.6060606 89 159.698476 48.7094595 159.698476 32.2096739" />
+      <polygon
+         id="polygon33"
+         fill-opacity="0.65"
+         fill="#242C6C"
+         points="80.6060606 72.1621622 80.6060606 89 159.698476 48.7094595 159.698476 32.2096739" />
+      <polygon
+         id="polygon35"
+         fill="#628CFF"
+         points="80.7066667 0 0.42558181 32.2096739 80.6060606 72.1621622 159.698476 32.2096739" />
+    </g>
+    <g
+       id="2"
+       transform="translate(338.000000, 126.000000)">
+      <polygon
+         id="polygon38"
+         fill-opacity="0.65"
+         fill="#D1D6F5"
+         points="80.6060606 0 0.42558181 32.2096739 1.21212121 50.5135135 80.6060606 89 159.698476 48.7094595 159.698476 32.2096739" />
+      <polygon
+         id="polygon40"
+         fill-opacity="0.65"
+         fill="#242C6C"
+         points="80.6060606 72.1621622 80.6060606 89 159.698476 48.7094595 159.698476 32.2096739" />
+      <polygon
+         id="polygon42"
+         fill="#628CFF"
+         points="80.7066667 0 0.42558181 32.2096739 80.6060606 72.1621622 159.698476 32.2096739" />
+    </g>
+    <g
+       id="1"
+       transform="translate(338.000000, 70.000000)">
+      <polygon
+         id="polygon45"
+         fill-opacity="0.65"
+         fill="#D1D6F5"
+         points="80.6060606 0 0.42558181 32.2096739 1.21212121 50.5135135 80.6060606 89 159.698476 48.7094595 159.698476 32.2096739" />
+      <polygon
+         id="polygon47"
+         fill-opacity="0.65"
+         fill="#242C6C"
+         points="80.6060606 72.1621622 80.6060606 89 159.698476 48.7094595 159.698476 32.2096739" />
+      <polygon
+         id="polygon49"
+         fill="#628CFF"
+         points="80.7066667 0 0.42558181 32.2096739 80.6060606 72.1621622 159.698476 32.2096739" />
+    </g>
+    <g
+       id="Search"
+       transform="translate(32.000000, 262.000000)">
+      <path
+         d="M162,12.5 L282,12.5"
+         id="Line-2-Copy-3"
+         stroke="#628CFF"
+         stroke-width="4"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-dasharray="9" />
+      <text
+         id="Search-and-Tagging"
+         font-family="IBMPlexSans, IBM Plex Sans"
+         font-size="16"
+         font-weight="normal"
+         line-spacing="24"
+         fill="#152935">
+        <tspan
+           x="0"
+           y="16"
+           id="tspan54"
+           style="-inkscape-font-specification:Source Han Sans JP;font-family:Source Han Sans JP;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal">検索およびタグ付け</tspan>
+      </text>
+    </g>
+    <g
+       id="Billing"
+       transform="translate(131.000000, 406.000000)">
+      <path
+         d="M63,12.5 L183,12.5"
+         id="Line-2-Copy-4"
+         stroke="#628CFF"
+         stroke-width="4"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-dasharray="9" />
+      <text
+         font-size="16"
+         font-weight="normal"
+         line-spacing="24"
+         id="text58"
+         x="-14"
+         style="font-size:16px;font-weight:normal;fill:#152935;font-family:'IBMPlexSans, IBM Plex Sans'">
+        <tspan
+           x="-14"
+           y="16"
+           id="tspan60"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Source Han Sans JP;-inkscape-font-specification:Source Han Sans JP">請求処理</tspan>
+      </text>
+      <text
+         id="Unified-account-mana"
+         font-size="14"
+         font-style="italic"
+         font-weight="normal"
+         line-spacing="24"
+         sodipodi:linespacing="100%"
+         y="34"
+         style="font-size:14px;font-style:italic;font-weight:normal;line-height:100%;fill:#5a6872;font-family:'IBMPlexSans-Italic, IBM Plex Sans'"
+         x="-14">
+        <tspan
+           sodipodi:role="line"
+           id="tspan5440"
+           style="font-style:oblique;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Source Han Sans JP;-inkscape-font-specification:Source Han Sans JP Oblique"
+           x="-14"
+           y="34">一元化されたアカウント管理、</tspan>
+        <tspan
+           sodipodi:role="line"
+           id="tspan5442"
+           style="font-style:oblique;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Source Han Sans JP;-inkscape-font-specification:Source Han Sans JP Oblique"
+           x="-14"
+           y="48">価格設定、計量コレクター、</tspan>
+        <tspan
+           sodipodi:role="line"
+           id="tspan5444"
+           x="-14"
+           y="62"><tspan
+   style="font-style:oblique;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Source Han Sans JP;-inkscape-font-specification:Source Han Sans JP Oblique"
+   id="tspan5446">使用量レポ</tspan>
+ート</tspan>
+      </text>
+    </g>
+    <g
+       id="Provisioning"
+       transform="translate(105.000000, 310.000000)">
+      <path
+         d="M149,12.5 L209,12.5"
+         id="Line-2-Copy-5"
+         stroke="#628CFF"
+         stroke-width="4"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-dasharray="9" />
+      <text
+         id="Provisioning-layer"
+         font-size="16"
+         font-weight="normal"
+         line-spacing="24"
+         x="-74"
+         style="font-size:16px;font-weight:normal;fill:#152935;font-family:'IBMPlexSans, IBM Plex Sans'"
+         y="0">
+        <tspan
+           x="-74"
+           y="16"
+           id="tspan72"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Source Han Sans JP;-inkscape-font-specification:Source Han Sans JP">プロビジョニング・レイヤー</tspan>
+      </text>
+      <text
+         id="Resource-controller"
+         font-size="14"
+         font-style="italic"
+         font-weight="normal"
+         line-spacing="24"
+         sodipodi:linespacing="100%"
+         y="32"
+         style="font-size:14px;font-style:italic;font-weight:normal;line-height:100%;fill:#5a6872;font-family:'IBMPlexSans-Italic, IBM Plex Sans'"
+         x="-76">
+        <tspan
+           sodipodi:role="line"
+           id="tspan5436"
+           x="-76"
+           y="32"
+           style="font-style:oblique;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Source Han Sans JP;-inkscape-font-specification:Source Han Sans JP Oblique">リソース・コントローラー</tspan>
+        <tspan
+           sodipodi:role="line"
+           id="tspan5438"
+           x="-76"
+           y="46"
+           style="font-style:oblique;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Source Han Sans JP;-inkscape-font-specification:Source Han Sans JP Oblique">およびリソース・マネージャー</tspan>
+      </text>
+    </g>
+    <g
+       id="Console"
+       transform="translate(522.000000, 70.000000)">
+      <path
+         d="M0,12.5 L120,12.5"
+         id="path80"
+         stroke="#628CFF"
+         stroke-width="4"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-dasharray="9" />
+      <text
+         font-family="IBMPlexSans, IBM Plex Sans"
+         font-size="16"
+         font-weight="normal"
+         line-spacing="24"
+         fill="#152935"
+         id="text82">
+        <tspan
+           x="136"
+           y="16"
+           id="tspan84"
+           style="-inkscape-font-specification:Source Han Sans JP;font-family:Source Han Sans JP;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal">コンソール</tspan>
+      </text>
+    </g>
+    <g
+       id="Catalog"
+       transform="translate(522.000000, 208.000000)">
+      <path
+         d="M0,12.5 L120,12.5"
+         id="path87"
+         stroke="#628CFF"
+         stroke-width="4"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-dasharray="9" />
+      <text
+         font-family="IBMPlexSans, IBM Plex Sans"
+         font-size="16"
+         font-weight="normal"
+         line-spacing="24"
+         fill="#152935"
+         id="text89">
+        <tspan
+           x="136"
+           y="16"
+           id="tspan91"
+           style="-inkscape-font-specification:Source Han Sans JP;font-family:Source Han Sans JP;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal">カタログ</tspan>
+      </text>
+    </g>
+    <g
+       id="IAM"
+       transform="translate(522.000000, 139.000000)">
+      <path
+         d="M-4.97379915e-14,12.5 L59,12.5"
+         id="path94"
+         stroke="#628CFF"
+         stroke-width="4"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-dasharray="9" />
+      <text
+         id="Identity-and-access"
+         font-size="16"
+         font-weight="normal"
+         line-spacing="24"
+         sodipodi:linespacing="100%"
+         x="72"
+         style="font-size:16px;font-weight:normal;line-height:100%;fill:#152935;font-family:'IBMPlexSans, IBM Plex Sans'"
+         y="18">
+        <tspan
+           sodipodi:role="line"
+           id="tspan5452"
+           x="72"
+           y="18">ID <tspan
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Source Han Sans JP;-inkscape-font-specification:Source Han Sans JP"
+   id="tspan5456">および</tspan>
+</tspan>
+        <tspan
+           sodipodi:role="line"
+           id="tspan5454"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Source Han Sans JP;-inkscape-font-specification:Source Han Sans JP"
+           x="72"
+           y="35.86763">アクセス管理</tspan>
+      </text>
+    </g>
+    <text
+       font-family="IBMPlexSans-Light, IBM Plex Sans"
+       font-size="20"
+       font-weight="300"
+       line-spacing="25"
+       fill="#152935"
+       id="text101">
+      <tspan
+         x="32"
+         y="51"
+         id="tspan103">IBM Cloud <tspan
+   style="-inkscape-font-specification:Source Han Sans JP;font-family:Source Han Sans JP;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal"
+   id="tspan5434">プラットフォーム</tspan>
+</tspan>
+    </text>
+  </g>
+</svg>

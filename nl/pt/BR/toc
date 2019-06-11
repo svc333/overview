@@ -8,8 +8,8 @@ Introdução ao IBM Cloud
     {: .navgroup id="learn"}
     ibm-cloud-platform.md
     ui.md
-    dev-journey.md
     it-ops-journey.md
+    compare-infra.md
     whats-new/index.md
 
     {: .topicgroup}
@@ -49,4 +49,5 @@ Introdução ao IBM Cloud
 
     {: .navgroup id="help"}
     feedback.md
+    personalized-assistance.md
     {: .navgroup-end}

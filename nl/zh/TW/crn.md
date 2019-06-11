@@ -4,7 +4,7 @@ copyright:
 
   years: 2017, 2019
 
-lastupdated: "2019-02-21"
+lastupdated: "2019-05-06"
 
 keywords: crn, cloud resource name
 
@@ -101,19 +101,42 @@ CRN 的基礎標準格式為：
 ### 資料中心
 {: #dc-crn}
 
+ * `AMS01  `
+ * `AMS03  `
+ * `CHE01  `
+ * `DAL01  `
+ * `DAL05  `
+ * `DAL06  `
+ * `DAL07  `
+ * `DAL09  `
+ * `DAL10  `
+ * `DAL12  `
+ * `DAL13  `
+ * `FRA02  `
+ * `HKG02  `
+ * `HOU02  `
+ * `LON02  `
+ * `MEL01  `
+ * `MEX01  `
+ * `MIL01  `
+ * `MON01  `
+ * `OSL01  `
+ * `PAR01  `
+ * `SJC01  `
+ * `SJC03  `
+ * `SAO01  `
+ * `SEA01  `
+ * `SEO01  `
+ * `SNG01  `
+ * `SYD01  `
+ * `TOK02  `
+ * `TOR01  `
+ * `WDC01  `
+ * `WDC04  `
+ * `WDC06  `
+ * `WDC07  `
 
-| | | | | |
-|---|---|---|---|---|
-|AMS01  |AMS03  |CHE01  |DAL01  |DAL05  |
-|DAL06  |DAL07  |DAL09  |DAL10  |DAL12  |
-|DAL13  |FRA02  |HKG02  |HOU02  |LON02  |
-|MEL01  |MEX01  |MIL01  |MON01  |OSL01  |
-|PAR01  |SJC01  |SJC03  |SAO01  |SEA01  |
-|SEO01  |SNG01  |SYD01  |TOK02  |TOR01  |
-|WDC01  |WDC04  |WDC06  |WDC07  |
-{: caption="表 1. 有效的資料中心值" caption-side="top"}
-
-部分資源不需要地區，因為它們可視為 `global`。在此情況下，`region` 區段設為 `global`。
+部分資源不需要地區，因為它們可視為 global。在此情況下，`region` 區段設為 `global`。
 {: tip}
 
 
@@ -129,7 +152,7 @@ CRN 的基礎標準格式為：
 |帳戶|a/`{account id}` |用來建立資源的帳戶。| `a/292558` |
 |組織|o/`{org guid}` |獲指派資源的「{{site.data.keyword.Bluemix_notm}} 組織」。| `o/4716e2d1-35b7-431f-891a-b552bf0b3c66` |
 |空間|s/`{space guid}` |獲指派資源的「{{site.data.keyword.Bluemix_notm}} 空間」。| `s/48b3cdcd-e804-4398-9032-73065863ad7c` |
-{: caption="表 2. 範圍用法" caption-side="top"}
+{: caption="表 1. `scope` 用法" caption-side="top"}
 
 
 
@@ -163,7 +186,7 @@ ibmcloud resource service-instance
 ## CRN 範例
 {: #crn_examples}
 
-以下是 CRN 範例清單。
+下表提供 CRN 範例清單。
 
 |範例|值|
 | --- | --- |
@@ -171,4 +194,4 @@ ibmcloud resource service-instance
 |資源群組|`crn:v1:bluemix:public:resource-controller: global:a/59bcbfa6ea2f006b4ed7094c1a08dcdd:resource-group:59bcbfa6ea2f006b4ed7094c1a08dcdd` |
 |服務實例|`crn:v1:bluemix:public:cloud-object-storage:global:a/59bcbfa6ea2f006b4ed7094c1a08dcdd:1a0ec336-f391-4091-a6fb-5e084a4c56f4::` |
 |儲存區|`crn:v1:bluemix:public:cloud-object-storage:global:a/59bcbfa6ea2f006b4ed7094c1a08dcdd:1a0ec336-f391-4091-a6fb-5e084a4c56f4:bucket:mybucket` |
-{: caption="表 3. CRN 範例" caption-side="top"}
+{: caption="表 2. CRN 範例" caption-side="top"}

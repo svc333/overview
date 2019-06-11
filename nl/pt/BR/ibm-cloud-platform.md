@@ -3,7 +3,7 @@
 
 copyright:
   years: 2016, 2019
-lastupdated: "2019-03-14"
+lastupdated: "2019-05-31"
 
 keywords: console, platform overview, overview
 
@@ -22,77 +22,22 @@ implementada em data centers em todo o mundo, a solução que você constrói no
 rapidamente e é executada de forma confiável em um ambiente testado e suportado no qual é possível confiar.
 {: .shortdesc}
 
-A plataforma {{site.data.keyword.Bluemix_notm}} é composta de múltiplos componentes que funcionam juntos para
-fornecer uma experiência de nuvem consistente e confiável. 
+Como o diagrama a seguir ilustra, a plataforma {{site.data.keyword.Bluemix_notm}} é composta de diversos componentes que trabalham juntos para fornecer uma experiência de nuvem consistente e confiável. 
 
-  * Um catálogo que consiste em centenas de ofertas do {{site.data.keyword.Bluemix_notm}}
   * Um console robusto que funciona como o front-end para criar, visualizar e gerenciar os recursos em nuvem
   * Um componente de gerenciamento de acesso e identidade que autentica os usuários com segurança para ambos os serviços de
 plataforma e controla o acesso aos recursos de forma consistente no {{site.data.keyword.Bluemix_notm}}
+  * Um catálogo que consiste em centenas de ofertas do {{site.data.keyword.Bluemix_notm}}
   * Um mecanismo de procura e identificação para filtragem e identificação dos recursos
   * Um sistema de gerenciamento de conta e faturamento que fornece o uso exato para os planos de precificação e proteção
 segura contra fraude de cartão de crédito
-
-## Escolhendo o ambiente de hospedagem
-{: #choose-compute}
-
-Com o {{site.data.keyword.Bluemix_notm}}, não é mais necessário fazer grandes investimentos em hardware para testar ou executar um novo app. Em vez disso, nós gerenciamos tudo por você e cobramos apenas pelo que você usa. O
-ambiente do servidor em nuvem é a base da camada de infraestrutura. É possível escolher uma única opção ou uma combinação para ambientes mais complexos. 
-
-Há várias opções para hospedar os apps, o que dá a você o máximo controle sobre a infraestrutura conforme você
-deseja ou precisa. É possível executar o app de uma das maneiras a seguir:
-
-  * Como uma função sem servidor
-  * Como um app do Cloud Foundry
-  * Como um contêiner do Docker em um cluster do Kubernetes
-  * Como uma VMware
-  * Como uma máquina virtual
-  * Em {{site.data.keyword.baremetal_short}} de alto desempenho 
-
-{{site.data.keyword.baremetal_short}} são servidores físicos de locatário único dedicados a um único cliente. Você
-controla quase tudo por meio do host do servidor para os dispositivos de RAM e de armazenamento. Esses servidores são
-usados com cargas de trabalho que requerem potência de cálculo por um tempo sustentável, por exemplo, vários
-meses. 
-
-O {{site.data.keyword.BluVirtServers_short}} pode ser implementado como instâncias públicas ou dedicadas. Com
-as instâncias públicas, os recursos do servidor são compartilhados com outros clientes, também conhecidas como um
-ambiente de diversos locatários. As instâncias privadas dedicam os recursos do servidor físico a um cliente que pode ter uma ou mais máquinas virtuais no mesmo servidor. Esses
-servidores são ideais para cargas de trabalho executadas por um tempo limitado, por exemplo, algumas semanas. Alguns exemplos de carga de trabalho são desenvolvimento e teste, backup e recuperação e recuperação de desastre. Para obter mais informações sobre as opções do servidor, consulte [Servidores bare metal versus servidores virtuais: escolhendo a melhor opção para você](https://www.ibm.com/blogs/bluemix/2018/06/bare-metal-virtual-servers-works/){: new_window} ![Ícone de link externo](../icons/launch-glyph.svg "Ícone de link externo").
-
-Consulte a tabela a seguir para obter um resumo das opções de cálculo.
-
-| Opção | Descrição | 
-|--------|---------------|
-| [{{site.data.keyword.baremetal_short}}](/docs/bare-metal?topic=bare-metal-bm-getting-started#bm-getting-started)  | Servidores de locatário único, por hora ou mensais, que são dedicados a você e não compartilhados em nenhuma parte, incluindo os recursos do servidor, com outros clientes. |
-| [{{site.data.keyword.BluVirtServers_short}}](/docs/vsi?topic=virtual-servers-about-public-virtual-servers#public-virtual-servers) | Servidores virtuais escaláveis que são comprados com núcleos dedicados e alocações de memória. |
-| [{{site.data.keyword.vmwaresolutions_short}}](/docs/services/vmwaresolutions?topic=vmware-solutions-getting-started#getting-started) | Integração ou migração rápida e contínua das cargas de trabalho do VMware no local usando infraestrutura escalável, segura e de alto desempenho e a tecnologia de virtualização híbrida do VMware líder do mercado. |
-| [{{site.data.keyword.containerlong_notm}}](/docs/containers?topic=containers-container_index) | Combina os contêineres do Docker, a tecnologia do Kubernetes, uma experiência de usuário intuitiva e a segurança e o isolamento integrados para automatizar a implementação, a operação, o ajuste de escala e o monitoramento de apps armazenados em contêiner em um cluster de hosts de cálculo. |
-| [{{site.data.keyword.cfee_full_notm}}](/docs/cloud-foundry?topic=cloud-foundry-about) | Instanciação de múltiplas plataformas Cloud Foundry isoladas de classificação corporativa sob demanda. |
-| [{{site.data.keyword.openwhisk_short}}](/docs/openwhisk?topic=cloud-functions-index) | Uma plataforma de programação Functions-as-a-Service (FaaS) baseada no Apache OpenWhisk. |
-{: caption="Tabela 1. Opções de cálculo" caption-side="top"}
-
-## Construindo aplicativos
-{: #build-apps}
+  
+  ![Componentes da plataforma {{site.data.keyword.cloud_notm}}](images/IBM-Cloud-Platform.svg "Diagrama que mostra os principais componentes da plataforma {{site.data.keyword.cloud_notm}}")
 
 Se você tem [código existente](/docs/apps/tutorials?topic=creating-apps-tutorial-byoc#tutorial-byoc) que deseja modernizar e trazer
 para a nuvem ou está desenvolvendo um [aplicativo
 novo](/docs/apps/tutorials?topic=creating-apps-tutorial-starterkit), seus desenvolvedores podem acessar o ecossistema disponível de serviços e estruturas de tempo de execução
 que cresce continuamente no {{site.data.keyword.Bluemix_notm}}.
-
-[Guias de programação](https://cloud.ibm.com/docs/home/build){: new_window}
-![Ícone de link externo](../icons/launch-glyph.svg "Ícone de link externo") estão
-disponíveis por linguagem para ajudá-lo a iniciar. Há muitas opções para hospedar os apps com a infraestrutura
-do {{site.data.keyword.Bluemix_notm}} por meio do {{site.data.keyword.baremetal_short}} para executar
-como uma função sem servidor.
-
-## Conectando serviços
-{: #connect-services}
-
-Com mais de 190 serviços para escolher no catálogo, é possível construir uma solução customizada para atender
-às suas necessidades. Também é possível facilmente conectar os serviços aos apps fora do
-{{site.data.keyword.Bluemix_notm}}, caso isso se ajuste ao seu caso de uso. É possível gerar um novo conjunto de credenciais para os casos em que você deseja conectar manualmente um consumidor externo a um serviço do {{site.data.keyword.Bluemix_notm}}. Por
-exemplo, se você está tentando conectar um app fora do {{site.data.keyword.Bluemix_notm}} a um serviço do
-Watson, gere uma nova credencial para conectá-los. É simples assim! Para obter mais informações, consulte [Incluindo uma credencial](/docs/resources?topic=resources-service_credentials).
 
 ## Configurando sua conta
 {: #set-up-account}
@@ -176,3 +121,19 @@ definidas dentro de uma conta de faturamento do {{site.data.keyword.Bluemix_notm
 
 Esse serviço também gerencia as tags associadas a um recurso. É possível criar, excluir, procurar, anexar ou
 remover as tags com a API de identificação. As tags são identificadas exclusivamente por um identificador CRN. As tags têm um nome, que deve ser exclusivo em uma conta de faturamento. É possível criar tags em pares de chave:valor ou no formato de rótulo.
+
+## Monitorando seus recursos
+{: #resources_observability}
+
+A capacidade de observação oferece um único local no qual é possível monitorar e observar seus aplicativos e serviços no {{site.data.keyword.Bluemix_notm}}. 
+
+Com o serviço {{site.data.keyword.la_full}}, é possível incluir recursos de gerenciamento de log em sua arquitetura do {{site.data.keyword.Bluemix_notm}} e gerenciar os logs do sistema e do aplicativo. Ele oferece recursos avançados para monitorar e solucionar problemas, definir alertas e projetar painéis customizados. O {{site.data.keyword.la_full_notm}} é operado por LogDNA em parceria com o {{site.data.keyword.IBM_notm}}. Para obter mais informações, consulte
+[Introdução ao {{site.data.keyword.la_full_notm}}](/docs/services/Log-Analysis-with-LogDNA?topic=LogDNA-getting-started).
+
+O serviço {{site.data.keyword.mon_full_notm}} permite que você obtenha visibilidade operacional sobre o desempenho e o funcionamento de seus aplicativos, serviços e plataformas. Ele oferece uma telemetria de pilha completa, com recursos avançados para monitorar e solucionar problemas, definir alertas e projetar painéis customizados. O {{site.data.keyword.mon_full_notm}} é operado pelo Sysdig em parceria com a {{site.data.keyword.IBM_notm}}. Para obter mais informações, consulte [Introdução ao serviço IBM Cloud Monitoring with Sysdig](/docs/services/Monitoring-with-Sysdig?topic=Sysdig-getting-started#getting-started)
+
+## Monitorando sua conta 
+{: #account_observability}
+
+Use o serviço {{site.data.keyword.at_full}} para monitorar a atividade de sua conta do {{site.data.keyword.Bluemix_notm}}, investigar atividades anormais e ações críticas e obedecer a requisitos de auditoria regulamentar. Além disso, é possível receber alertas sobre as ações conforme elas acontecem. Os eventos que são coletados obedecem ao padrão Cloud Auditing Data Federation (CADF). Para obter mais informações, consulte
+[Introdução ao {{site.data.keyword.at_full_notm}}](/docs/services/Activity-Tracker-with-LogDNA?topic=logdnaat-getting-started).

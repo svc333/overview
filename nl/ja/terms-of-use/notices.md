@@ -28,7 +28,7 @@ IBM Cloud アカウントおよび IBM Cloud から注文されたすべての�
 
   * 基本ご使用条件のクラウドご利用条件は、以下の通り適用されます。
     * 米ドル・クレジット・カード請求の場合の SoftLayer クラウド・サービスご使用条件。[https://www.ibm.com/support/customer/zz/en/softlayer.html](https://www.ibm.com/support/customer/zz/en/softlayer.html){: new_window} ![外部リンク・アイコン](../../icons/launch-glyph.svg) を参照
-    * 非米ドル・クレジット・カード請求または IBM からの請求を選択した場合の IBM Cloud サービス契約書 (ローカル国バージョン*)、[https://www.ibm.com/terms](https://www.ibm.com/terms){: new_window} ![外部リンク・アイコン](../../icons/launch-glyph.svg) (国を選択) を参照、
+    * 非米ドル・クレジット・カード請求または IBM からの請求を選択した場合の IBM Cloud サービス契約書 (ローカル国バージョン*)、[https://www.ibm.com/terms](https://www.ibm.com/support/customer/csol/terms/){: new_window} ![外部リンク・アイコン](../../icons/launch-glyph.svg) (国を選択) を参照、
     * 受け入れ済みの IBM パスポート・アドバンテージご使用条件および IBM パスポート・アドバンテージ・クライアント用の Cloud Offerings ご利用条件の共通事項、[http://www-03.ibm.com/software/sla/sladb.nsf/sla/tou](http://www-03.ibm.com/software/sla/sladb.nsf/sla/tou){: new_window} ![外部リンク・アイコン](../../icons/launch-glyph.svg)を参照、または
     * お客様と IBM との間の同等のクラウド・サービス基本ご使用条件、
   * IBM Cloud のサービス記述書、[http://www-03.ibm.com/software/sla/sladb.nsf/sla/bm](http://www-03.ibm.com/software/sla/sladb.nsf/sla/bm){: new_window} ![外部リンク・アイコン](../../icons/launch-glyph.svg)を参照、
@@ -151,7 +151,7 @@ IBM Cloud は、これらの貿易および経済制裁の対象となる国か�
 ## 商標
 {: #trademarks}
 
-IBM、IBM ロゴおよび ibm.com は、世界の多くの国で登録された International Business Machines Corporation の商標です。 他の製品名およびサービス名等は、それぞれ IBM または各社の商標である場合があります。 現時点での IBM の商標のリストについては、[Copyright and trademark information ![外部リンク・アイコン](../../icons/launch-glyph.svg)](https://www.ibm.com/legal/us/en/copytrade.shtml){: new_window} をご覧ください。
+IBM、IBM ロゴおよび ibm.com は、世界の多くの国で登録された International Business Machines Corporation の商標です。 他の製品名およびサービス名等は、それぞれ IBM または各社の商標である場合があります。 現時点での IBM の商標のリストについては、[Copyright and trademark information ![外部リンク・アイコン](../../icons/launch-glyph.svg)](https://www.ibm.com/legal/copytrade){: new_window} をご覧ください。
 
 Adobe、Adobe ロゴ、PostScript、PostScript ロゴは、Adobe Systems Incorporated の米国およびその他の国における登録商標または商標です。
 
