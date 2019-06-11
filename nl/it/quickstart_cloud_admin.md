@@ -2,7 +2,7 @@
 
 copyright:
   years: 2018, 2019
-lastupdated: "2019-05-13"
+lastupdated: "2019-05-17"
 
 keywords: first steps, understanding IT ops
 
@@ -22,9 +22,6 @@ subcollection: overview
 
 Questa guida introduttiva è concepita per aiutare gli amministratori delle operazioni IT (IT ops admins) ad esplorare le offerte dell'infrastruttura disponibili in {{site.data.keyword.cloud}} ed iniziare a creare i loro ambienti.
 {: shortdesc}
-
-Consulta [Esplorazione del percorso dell'amministratore delle operazioni IT](/docs/overview?topic=overview-it-ops) in {{site.data.keyword.cloud_notm}}, che ti fornisce i link a diversi strumenti per la pianificazione, il provisioning e la gestione del tuo ambiente.
-{: tip}
 
 ## Prima di iniziare
 {: #prereqs-it-ops}

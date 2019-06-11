@@ -2,7 +2,7 @@
 
 copyright:
   years: 2018, 2019
-lastupdated: "2019-05-13"
+lastupdated: "2019-05-17"
 
 keywords: first steps, understanding IT ops
 
@@ -22,9 +22,6 @@ subcollection: overview
 
 이 빠른 시작 안내서는 IT 운영 관리자가 {{site.data.keyword.cloud}}에서 사용 가능한 인프라 오퍼링을 탐색하고 환경 빌드를 시작하는 데 도움을 주기 위한 것입니다.
 {: shortdesc}
-
-환경을 계획, 프로비저닝 및 관리하는 다양한 도구에 대한 링크를 제공하는 {{site.data.keyword.cloud_notm}}의 [IT 운영 관리자 과정 탐색](/docs/overview?topic=overview-it-ops)을 참조하십시오.
-{: tip}
 
 ## 시작하기 전에
 {: #prereqs-it-ops}

@@ -2,7 +2,7 @@
 
 copyright:
   years: 2019
-lastupdated: "2019-06-04"
+lastupdated: "2019-05-16"
 
 keywords: personalized onboarding, onboarding program, Global Client Success
 
@@ -26,7 +26,7 @@ subcollection: overview
 {{site.data.keyword.IBM}} 致力於在每次互動時都將客戶放在最優先。為了有助於這點，我們的全球客戶成功團隊會透過上線計劃來提供個人化的協助。
 {: shortdesc}
 
-您必須登入「隨收隨付制」或「訂閱」帳戶，才符合個人化上線的資格。
+您必須具有「隨收隨付制」或「訂閱」帳戶，才符合個人化上線的資格。
 {: important}
 
 我們很樂意協助您開始著手 {{site.data.keyword.cloud}} 的任何領域，包括： 

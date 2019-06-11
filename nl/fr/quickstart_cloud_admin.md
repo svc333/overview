@@ -2,7 +2,7 @@
 
 copyright:
   years: 2018, 2019
-lastupdated: "2019-05-13"
+lastupdated: "2019-05-17"
 
 keywords: first steps, understanding IT ops
 
@@ -22,9 +22,6 @@ subcollection: overview
 
 Ce guide de démarrage rapide est conçu pour aider les administrateurs informatiques à explorer les offres d'infrastructure disponibles dans {{site.data.keyword.cloud}} et à commencer à générer leur environnement.
 {: shortdesc}
-
-Voir [Exploration du parcours d'administration des opérations informatiques](/docs/overview?topic=overview-it-ops) dans {{site.data.keyword.cloud_notm}}, qui inclut des liens vers différents outils permettant la planification, la mise à disposition et la gestion de votre environnement.
-{: tip}
 
 ## Avant de commencer
 {: #prereqs-it-ops}

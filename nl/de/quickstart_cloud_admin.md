@@ -2,7 +2,7 @@
 
 copyright:
   years: 2018, 2019
-lastupdated: "2019-05-13"
+lastupdated: "2019-05-17"
 
 keywords: first steps, understanding IT ops
 
@@ -22,9 +22,6 @@ subcollection: overview
 
 Diese Kurzanleitung soll IT-Betriebsadministratoren (IT-Administratoren) dabei helfen, die Infrastrukturangebote zu erkunden, die in {{site.data.keyword.cloud}} verfügbar sind, und mit der Erstellung ihrer Umgebung zu beginnen.
 {: shortdesc}
-
-Lesen Sie die [Informationen für Administratoren (Ops)](/docs/overview?topic=overview-it-ops) in {{site.data.keyword.cloud_notm}}, die Links zu verschiedenen Tools für die Planung, Bereitstellung und Verwaltung Ihrer Umgebung enthalten.
-{: tip}
 
 ## Vorbereitende Schritte
 {: #prereqs-it-ops}

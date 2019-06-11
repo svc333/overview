@@ -2,7 +2,7 @@
 
 copyright:
   years: 2018, 2019
-lastupdated: "2019-05-13"
+lastupdated: "2019-05-17"
 
 keywords: first steps, understanding IT ops
 
@@ -22,9 +22,6 @@ subcollection: overview
 
 Esta guía de inicio rápido está pensada para ayudar a los administradores de operaciones de TI a explorar las ofertas de infraestructura disponibles en {{site.data.keyword.cloud}} y empezar a crear su entorno.
 {: shortdesc}
-
-Consulte [Exploración del trayecto de los administradores de operaciones de TI](/docs/overview?topic=overview-it-ops) en {{site.data.keyword.cloud_notm}}, que le proporciona enlaces a diversas herramientas para planificar, suministrar y gestionar el entorno.
-{: tip}
 
 ## Antes de empezar
 {: #prereqs-it-ops}

@@ -2,7 +2,7 @@
 
 copyright:
   years: 2018, 2019
-lastupdated: "2019-05-13"
+lastupdated: "2019-05-17"
 
 keywords: first steps, understanding IT ops
 
@@ -22,9 +22,6 @@ subcollection: overview
 
 本快速入门指南旨在帮助 IT 运营管理员探索 {{site.data.keyword.cloud}} 中提供的基础架构产品，并开始构建自己的环境。
 {: shortdesc}
-
-请参阅，探索 {{site.data.keyword.cloud_notm}} 中 [IT 运营管理员的旅程](/docs/overview?topic=overview-it-ops)，其中提供了用于规划、供应和管理环境的各种工具的链接。
-{: tip}
 
 ## 开始之前
 {: #prereqs-it-ops}

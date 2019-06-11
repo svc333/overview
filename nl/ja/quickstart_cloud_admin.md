@@ -2,7 +2,7 @@
 
 copyright:
   years: 2018, 2019
-lastupdated: "2019-05-13"
+lastupdated: "2019-05-17"
 
 keywords: first steps, understanding IT ops
 
@@ -22,9 +22,6 @@ subcollection: overview
 
 このクイック・スタートは、IT 運用管理者が {{site.data.keyword.cloud}} で使用可能なインフラストラクチャー・オファリングを探索して、環境の構築を開始するのを支援することを目的としています。
 {: shortdesc}
-
-{{site.data.keyword.cloud_notm}} の『[IT 運用管理者の行程の探索](/docs/overview?topic=overview-it-ops)』を参照してください。この資料には、環境の計画、プロビジョニング、および管理のためのさまざまなツールへのリンクが用意されています。
-{: tip}
 
 ## 始める前に
 {: #prereqs-it-ops}

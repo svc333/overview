@@ -2,7 +2,7 @@
 
 copyright:
   years: 2019
-lastupdated: "2019-06-04"
+lastupdated: "2019-05-16"
 
 keywords: personalized onboarding, onboarding program, Global Client Success
 
@@ -26,7 +26,7 @@ subcollection: overview
 {{site.data.keyword.IBM}} は、すべての対話においてお客様を最優先することに専念しています。 これを推進するため、オンボーディング・プログラムを通して、グローバル・クライアント・サクセス・チームによるパーソナライズされた支援が提供されます。
 {: shortdesc}
 
-パーソナライズされたオンボーディングの資格を得るには、従量課金 (PAYG) アカウントまたはサブスクリプション・アカウントにログインしている必要があります。
+パーソナライズされたオンボーディングの資格を得るには、従量課金 (PAYG) アカウントまたはサブスクリプション・アカウントが必要です。
 {: important}
 
 {{site.data.keyword.cloud}} の以下の内容をはじめるときに、支援を得ることができます。 

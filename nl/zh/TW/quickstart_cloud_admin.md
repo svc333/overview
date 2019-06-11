@@ -2,7 +2,7 @@
 
 copyright:
   years: 2018, 2019
-lastupdated: "2019-05-13"
+lastupdated: "2019-05-17"
 
 keywords: first steps, understanding IT ops
 
@@ -22,9 +22,6 @@ subcollection: overview
 
 本快速入門手冊旨在協助 IT 作業管理者 (IT ops admin) 探索 {{site.data.keyword.cloud}} 中可用的基礎架構供應項目，並開始建置其環境。
 {: shortdesc}
-
-請參閱 {{site.data.keyword.cloud_notm}} 中的[探索 IT 作業管理者旅程](/docs/overview?topic=overview-it-ops)，其中提供您各種工具的鏈結，以規劃、佈建及管理您的環境。
-{: tip}
 
 ## 開始之前
 {: #prereqs-it-ops}

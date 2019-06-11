@@ -2,7 +2,7 @@
 
 copyright:
   years: 2019
-lastupdated: "2019-06-04"
+lastupdated: "2019-05-16"
 
 keywords: personalized onboarding, onboarding program, Global Client Success
 
@@ -26,7 +26,7 @@ subcollection: overview
 Die Kunden stehen für {{site.data.keyword.IBM}} bei jeder Interaktion an erster Stelle. Um dies zu ermöglichen, bietet das Global Client Success-Team personalisierte Unterstützung durch ein Onboarding-Programm.
 {: shortdesc}
 
-Sie müssen bei Ihrem Konto mit nutzungsabhängiger Zahlung oder bei Ihrem Abonnementkonto angemeldet sein, um personalisiertes Onboarding zu verwenden.
+Sie müssen über ein Konto mit nutzungsabhängiger Zahlung oder über ein Abonnementkonto verfügen, um personalisiertes Onboarding zu verwenden.
 {: important}
 
 Sie erhalten Unterstützung beim Einstieg in einen beliebigen Bereich von {{site.data.keyword.cloud}}, z. B.: 
@@ -46,12 +46,12 @@ Sie erhalten Unterstützung beim Einstieg in einen beliebigen Bereich von {{site
 </div>
 {: authenticated-content}
 
-Nachdem Sie die kostenfreie Onboarding-Unterstützung angefordert haben, werden Sie innerhalb von zwei oder drei Werktagen von einem Mitglied unseres {{site.data.keyword.IBM_notm}} Global Client Success-Teams kontaktiert. Wir bleiben mit Ihnen in Kontakt, um sicherzustellen, dass Ihre Nutzung der {{site.data.keyword.cloud}}-Plattform erfolgreich verläuft.
+Nachdem Sie die kostenfreie Onboarding-Unterstützung angefordert haben, werden Sie innerhalb von zwei oder drei Werktagen von einem Mitglied unseres {{site.data.keyword.IBM_notm}} Global Client Success-Teams kontaktiert. Wir bleiben mit Ihnen in Kontakt, um sicherzustellen, dass Ihre Nutzung der {{site.data.keyword.cloud}}-Plattform erfolgreich verläuft. 
 
 ### Sie möchten uns früher kontaktieren?
 {: #contact-client-success}
 
-Wenn Sie zu einem früheren Zeitpunkt Kontakt mit uns aufnehmen möchten, können Sie uns unter der US-Telefonnummer 866-209-7296 (in den USA kostenfrei) kontaktieren.
+Wenn Sie zu einem früheren Zeitpunkt Kontakt mit uns aufnehmen möchten, können Sie uns unter der US-Telefonnummer 866-209-7296 (in den USA kostenfrei) kontaktieren. 
 
 ### Sie möchten selbstständig beginnen?
 {: #self-onboard}
