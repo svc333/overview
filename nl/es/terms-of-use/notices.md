@@ -143,7 +143,7 @@ IBM Cloud implementa un bloqueo en toda la red de las comunicaciones con direcci
 
 Para identificar las direcciones IP asociadas con los países bajo embargo por parte de EE.UU., IBM Cloud utiliza la base de datos Geo IP2 mantenida por [MaxMind ![Icono de enlace externo](../../icons/launch-glyph.svg)](http://www.maxmind.com){: new_window}). IBM Cloud actualiza la correlación de países con direcciones IP semestralmente.
 
-Nota: Esta restricción no se aplica a contenido que no esté prohibido bajo las sanciones y embargos de EE.UU. Envíe un mensaje de correo electrónico a IBM_Cloud_Embargo_Exemption_Request@wwpdl.vnet.ibm.com si cree que su contenido no está prohibido bajo las sanciones comerciales y económicas de EE.UU. 
+Nota: Esta restricción no se aplica a contenido que no esté prohibido bajo las sanciones y embargos de EE.UU. Envíe un mensaje de correo electrónico a exemptions@softlayer.com si cree que su contenido no está prohibido bajo las sanciones comerciales y económicas de EE.UU. 
 
 ## Marca registradas
 {: #trademarks}

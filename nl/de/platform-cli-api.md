@@ -4,7 +4,7 @@ copyright:
 
   years: 2018, 2019
 
-lastupdated: "2019-06-03"
+lastupdated: "2019-05-13"
 
 keywords: resource groups, platform CLI, platform API
 
@@ -35,7 +35,7 @@ Verwenden Sie die folgende Tabelle, um sich eine Übersicht über die Befehle de
 | Ressourcencontroller | [Mit Ressourcen und Ressourcengruppen arbeiten](/docs/cli/reference/ibmcloud?topic=cloud-cli-ibmcloud_commands_resource) | [API des {{site.data.keyword.Bluemix_notm}}-Ressourcencontrollers](https://console.cloud.ibm.com/apidocs/resource-controller){: new_window} ![Symbol für externen Link](../icons/launch-glyph.svg "Symbol für externen Link") <br><br> [API von {{site.data.keyword.cloud_notm}} Open Service Broker](https://console.cloud.ibm.com/apidocs/ibm-cloud-osb-api){: new_window} ![Symbol für externen Link](../icons/launch-glyph.svg "Symbol für externen Link") |
 | Ressourcenmanager | [Mit Ressourcen und Ressourcengruppen arbeiten](/docs/cli/reference/ibmcloud?topic=cloud-cli-ibmcloud_commands_resource) | [API des {{site.data.keyword.Bluemix_notm}}-Ressourcenmanagers](https://console.cloud.ibm.com/apidocs/resource-manager){: new_window} ![Symbol für externen Link](../icons/launch-glyph.svg "Symbol für externen Link") |
 | Katalog | [Katalogangebote durchsuchen und verwalten](/docs/cli/reference/ibmcloud?topic=cloud-cli-ibmcloud_catalog) | [Katalog-API](https://console.cloud.ibm.com/apidocs/globalcatalog){: new_window} ![Symbol für externen Link](../icons/launch-glyph.svg "Symbol für externen Link") |
-| Durchsuchen und mit Tags versehen | [Ressourcen durchsuchen](/docs/cli/reference/ibmcloud?topic=cloud-cli-ibmcloud_commands_resource#ibmcloud_resource_search) <br><br>  [Ressourcen mit Tags versehen](/docs/cli/reference/ibmcloud?topic=cloud-cli-ibmcloud_commands_resource#ibmcloud_resource_tags) | |
+| Durchsuchen und mit Tags versehen | [Ressourcen durchsuchen](/docs/cli/reference/ibmcloud?topic=cloud-cli-ibmcloud_commands_resource#ibmcloud_resource_search) <br><br>  [Ressourcen mit Tags versehen](/docs/cli/reference/ibmcloud/cli_resource_group.html#ibmcloud_resource_tags) | |
 {: caption="Tabelle 1. CLI und API für Plattformservices" caption-side="top"}
 
 

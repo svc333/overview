@@ -2,9 +2,9 @@
 
 copyright:
   years: 2018, 2019
-lastupdated: "2019-05-23"
+lastupdated: "2019-05-13"
 
-keywords: HA, failover, DR, high availability, disaster recovery, locations, data centers
+keywords: HA, failover, DR
 
 subcollection: overview
 
@@ -64,18 +64,20 @@ subcollection: overview
 
 {{site.data.keyword.cloud_notm}} 控制台的全局负载均衡可确保如果您最接近的地理位置不可用，那么控制台将显示下一个最接近位置的信息。这样一来，您无需执行任何操作就可始终访问控制台，从而访问您所需的资源。
 
-缺省情况下，可以从控制台中的资源列表视图中查看所有位置中的所有资源。如果要查看和使用特定位置中的资源，请展开**位置**菜单，然后从列表中选择一个位置。通过展开特定地理位置，可以选择按各个数据中心、区域或专区进行过滤。
+缺省情况下，可以从控制台中的资源列表视图中查看所有位置中的所有资源。如果要查看和使用特定位置中的资源，请展开**位置**菜单，然后从列表中选择一个位置。通过展开特定地理位置，可以选择按各个数据中心、区域或专区进行过滤：
 
-例如，如果您在伦敦 2 (eu-gb-2) 专区中部署有资源，那么可以过滤资源列表以仅显示这些资源。专区位于区域内，区域按其大城市位置进行组织。要过滤列表以仅显示伦敦 2 (eu-gb-2) 专区，请展开**伦敦**大城市选项，然后展开**伦敦 (eu-gb)** 区域选项。在该区域中，可以从可用专区列表中进行选择。如果在特定数据中心部署了资源，那么可以通过特定的大城市位置和字母数字代码来确定数据中心，例如伦敦 02 (lon02)。
-
-您还可能拥有全球分布的资源。**全球**选项意味着仅将一个全球可访问的逻辑服务实例（独立于任何区域或专区）发布到客户应用程序。这些类型的资源可以从一个全球端点进行访问。
+*地理位置*是一个地理区域或更大的政治体，其中包含一个或多个区域。一些服务在跨区域并透明地管理区域之间的数据复制和移动的地理位置级别上受支持。例如，{{site.data.keyword.cos_full_notm}} 的欧盟地理位置中的数据可以在欧盟国家或地区内的多个数据中心中复制数据。 
+   * *大都市*是一个特定地理区域中的特定城市名称。例如，达拉斯是北美地理位置的大都市。
+      * *数据中心*是提供云服务的服务器的物理位置。您可以将扩展的地理位置中的数据中心标识为使用地理位置名称加数字的选项。
+      * *区域*是一种定义的地理地域。区域可以是特定的邮政编码区域、城镇、城市、一个或一组省/自治区/直辖市，甚至一组国家或地区。您可以通过使用数字来标识数据中心，从而辨别列表中数据中心和区域之间的差异。
+         * *专区*是一种独立的故障区，旨在帮助提高容错能力并减少等待时间。您可以将专区标识为使用区域名称加数字并嵌套在区域中。
 
 ## 数据中心
 {: #data_center}
 
-部署基础架构资源时，您对数据的存储位置拥有更多选择。您可以选择一个位置，也可以从 {{site.data.keyword.Bluemix_notm}} 数据中心列表中进行选择。*数据中心*是一个物理位置，其中托管了用于服务和应用程序的电源、散热、计算、网络和存储资源。数据中心不会提供与一个位置中多个专区类似的本地故障的隔离。有关更多信息，请参阅 [Global locations for your global business ![外部链接图标](../icons/launch-glyph.svg "外部链接图标")](https://www.ibm.com/cloud/data-centers/){: new_window}。
+部署基础架构资源时，您对数据的存储位置拥有更多选择。您可以选择一个位置，也可以从 {{site.data.keyword.Bluemix_notm}} 数据中心列表中进行选择。*数据中心*是一个物理位置，其中托管了用于服务和应用程序的电源、散热、计算、网络和存储资源。数据中心不会提供与一个位置中多个专区类似的本地故障隔离。有关更多信息，请参阅 [Global locations for your global business ![外部链接图标](../icons/launch-glyph.svg "外部链接图标")](https://www.ibm.com/cloud/data-centers/){: new_window}。
 
-{{site.data.keyword.Bluemix_notm}} 在全球许多位置提供数据中心。 
+{{site.data.keyword.Bluemix_notm}} 在全球许多位置提供数据中心。部署基础架构资源时，可以从 {{site.data.keyword.Bluemix_notm}} 的数据中心列表中进行选择。 
 
 
 ![以下各表中描述的数据中心的地图](images/Global-View.svg)
@@ -157,7 +159,7 @@ subcollection: overview
 
 {{site.data.keyword.Bluemix_notm}} 为单个专用或本地环境中的平台服务的多个实例提供 99.5% 的可用性服务级别。
 
-要提交对停机时间的索赔，请联系 [{{site.data.keyword.Bluemix_notm}} 支持人员 ](https://cloud.ibm.com/unifiedsupport/supportcenter){: new_window}![外部链接图标](../icons/launch-glyph.svg "外部链接图标")。
+要提交对停机时间的索赔，请联系 [{{site.data.keyword.Bluemix_notm}} 支持人员 ](https://console.cloud.ibm.com/unifiedsupport/supportcenter){: new_window}![外部链接图标](../icons/launch-glyph.svg "外部链接图标")。
 
 {{site.data.keyword.Bluemix_notm}} 为 {{site.data.keyword.Bluemix_notm}} 服务提供了 SLA，因此您可能有资格获得发至您帐户的信用值。SLA 是解决 {{site.data.keyword.Bluemix_notm}} 无法满足指定服务级别的问题的唯一方法。{{site.data.keyword.Bluemix_notm}} 为单个专用或本地环境中的平台服务的多个实例提供 99.5% 的可用性服务级别。
 
@@ -165,7 +167,7 @@ subcollection: overview
 
 {{site.data.keyword.Bluemix_notm}} 的完整服务描述在 [Cloud Services terms](http://www-03.ibm.com/software/sla/sladb.nsf/sla/bm){: new_window} ![外部链接图标](../icons/launch-glyph.svg "外部链接图标") 上提供。
 
-### 可用性停机时间 SLA 
+### 可用性停机时间 SLA
 {: #avail-downtime}
 
 如果停机时间低于 99.5% 的可用性，那么您有资格获得发至您帐户的信用值。可用性停机时间是指无法连接到任何服务实例的总分钟数。总停机时间（分钟）从提交中断事件报告起算，到至少一个受影响的实例可供使用时为止。
@@ -203,14 +205,14 @@ SLA 不包含与指定的排除项相关的停机时间或故障时间、{{site.
 
 停机时间是指由于公用网络、专用网络以及冗余基础架构电源和 HVAC 中断造成的服务中断，而导致客户确定的基础架构服务不可用的总分钟数。总停机时间（分钟）从确定影响服务的已验证中断时起算，到服务可用时为止。 
 
-停机时间不包括执行安排的维护或通知的维护的时间。对于每个连续的 30 分钟停机时间，您将获取金额为中断直接影响的所确定服务每月费用 5% 的信用值。如果停机时间短于连续的 30 分钟，那么您没有资格获得信用值。可能不会组合不同中断类型的停机时间以满足此计算方式。 
+停机时间不包括执行安排的维护或通知的维护的时间。对于每个连续的 30 分钟停机时间，您将获取金额为中断直接影响的所确定服务每月费用 5% 的信用值。如果停机时间短于连续的 30 分钟，那么您没有资格获得信用值。可能不会组合不同中断类型的停机时间以满足此计算方式。
 
 ### 基础架构硬件更换和升级 SLA
 {: #hw-replaceupgrade-sla}
 
 {{site.data.keyword.Bluemix_notm}} 在更换发生故障的硬件时或执行安排的硬件升级时，会尽量缩短停机时间。 
 
-{{site.data.keyword.Bluemix_notm}} 针对以下情况提供信用值： 
+{{site.data.keyword.Bluemix_notm}} 针对以下情况提供信用值：
 - 根据从 {{site.data.keyword.Bluemix_notm}} 验证了客户报告的硬件故障时起算的更换时间，为硬件更换提供信用值。
 - 根据接收升级的服务的总停机时间，为计划的硬件升级提供信用值。 
 
@@ -223,7 +225,7 @@ SLA 不包含与指定的排除项相关的停机时间或故障时间、{{site.
 |> 6 小时| 40%            |
 |> 10 小时| 60%            |
 |> 14 小时| 80%            |
-|> 18 小时| 80%            |
+| > 18 小时                | 80%            |
 {: caption="表 6. 信用值根据硬件更换或升级所影响服务的每月费用计算" caption-side="top"}
 
 ### 索赔
@@ -233,7 +235,7 @@ SLA 不包含与指定的排除项相关的停机时间或故障时间、{{site.
 
 信用值是根据合约月份内受影响服务的累积可用性确定的最高适用赔偿，使用此受影响服务的每月费用进行计算。信用值不得超过每月费用的 25%。
 
-要提交对停机时间的索赔，请联系 [{{site.data.keyword.Bluemix_notm}} 支持人员 ](https://cloud.ibm.com/unifiedsupport/supportcenter){: new_window}![外部链接图标](../icons/launch-glyph.svg "外部链接图标")。
+要提交对停机时间的索赔，请联系 [{{site.data.keyword.Bluemix_notm}} 支持人员 ](https://console.cloud.ibm.com/unifiedsupport/supportcenter){: new_window}![外部链接图标](../icons/launch-glyph.svg "外部链接图标")。
 
 ### 排除项
 {: #exclusions}

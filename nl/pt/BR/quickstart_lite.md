@@ -4,7 +4,7 @@ copyright:
 
   years: 2018, 2019
 
-lastupdated: "2019-03-14"
+lastupdated: "2019-05-13"
 
 keywords: quick start, get started with IBM Cloud
 
@@ -47,6 +47,6 @@ serviço Lite grátis ![Ícone de link externo](../icons/launch-glyph.svg "Ícon
 ## Próximas Etapas
 {: #nextsteps-lite}
 
-Descubra-se um desenvolvedor no {{site.data.keyword.Bluemix_notm}} em [Explore a jornada do desenvolvedor no {{site.data.keyword.Bluemix_notm}}](/docs/overview?topic=overview-dev-journey). 
+Inicie a construção de seus apps. Consulte o [Tutorial de introdução](/docs/apps/tutorials?topic=creating-apps-tutorial-getting-started) para obter mais informações. 
 
 

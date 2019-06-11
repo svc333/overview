@@ -4,7 +4,7 @@ copyright:
 
   years: 2018, 2019
 
-lastupdated: "2019-03-14"
+lastupdated: "2019-05-13"
 
 keywords: enterprise architect quick start
 
@@ -41,7 +41,7 @@ Crie uma conta da assinatura ou pré-paga para obter acesso total a todas as ofe
     * Revise os estudos de caso para saber como outras empresas usam o {{site.data.keyword.Bluemix_notm}} para
 atingir suas metas de negócios. Consulte os [estudos de caso do {{site.data.keyword.Bluemix_notm}} ](https://www.ibm.com/cloud-computing/bluemix/case-studies){: new_window} ![Ícone de link externo](../icons/launch-glyph.svg) para obter informações adicionais. 
 2. Conheça as várias opções para hospedar seus aplicativos, fornecendo a você o máximo controle sobre a
-infraestrutura que você deseja ou precisa. Para obter mais informações, consulte [Escolhendo seu ambiente de hospedagem](/docs/overview?topic=overview-whatis-platform#choose-compute).
+infraestrutura que você deseja ou precisa. Para obter mais informações, consulte [Escolhendo seu ambiente de hospedagem](/docs/apps/tutorials?topic=creating-apps-hosting).
 3. Explore as ofertas no [catálogo](https://cloud.ibm.com/catalog){: new_window} ![Ícone de link externo](../icons/launch-glyph.svg) que podem ser usadas para construir sua solução.
 
 ## Próximas Etapas

@@ -4,7 +4,7 @@ copyright:
 
   years: 2018, 2019
 
-lastupdated: "2019-06-03"
+lastupdated: "2019-05-13"
 
 keywords: resource groups, platform CLI, platform API
 
@@ -35,7 +35,7 @@ subcollection: overview
 | リソース・コントローラー | [リソースおよびリソース・グループの処理](/docs/cli/reference/ibmcloud?topic=cloud-cli-ibmcloud_commands_resource) | [{{site.data.keyword.Bluemix_notm}} Resource Controller API](https://console.cloud.ibm.com/apidocs/resource-controller){: new_window} ![外部リンク・アイコン](../icons/launch-glyph.svg "外部リンク・アイコン") <br><br> [{{site.data.keyword.cloud_notm}} Open Service Broker API](https://console.cloud.ibm.com/apidocs/ibm-cloud-osb-api){: new_window} ![外部リンク・アイコン](../icons/launch-glyph.svg "外部リンク・アイコン") |
 | リソース・マネージャー | [リソースおよびリソース・グループの処理](/docs/cli/reference/ibmcloud?topic=cloud-cli-ibmcloud_commands_resource) | [{{site.data.keyword.Bluemix_notm}} Resource Manager API](https://console.cloud.ibm.com/apidocs/resource-manager){: new_window} ![外部リンク・アイコン](../icons/launch-glyph.svg "外部リンク・アイコン") |
 | Catalog | [カタログ・オファリングの検索と管理](/docs/cli/reference/ibmcloud?topic=cloud-cli-ibmcloud_catalog) | [Catalog API](https://console.cloud.ibm.com/apidocs/globalcatalog){: new_window} ![外部リンク・アイコン](../icons/launch-glyph.svg "外部リンク・アイコン") |
-| 検索およびタグ付け | [リソースの検索](/docs/cli/reference/ibmcloud?topic=cloud-cli-ibmcloud_commands_resource#ibmcloud_resource_search) <br><br>  [リソースのタグ付け](/docs/cli/reference/ibmcloud?topic=cloud-cli-ibmcloud_commands_resource#ibmcloud_resource_tags) | |
+| 検索およびタグ付け | [リソースの検索](/docs/cli/reference/ibmcloud?topic=cloud-cli-ibmcloud_commands_resource#ibmcloud_resource_search) <br><br>  [リソースのタグ付け](/docs/cli/reference/ibmcloud/cli_resource_group.html#ibmcloud_resource_tags) | |
 {: caption="表 1.プラットフォーム・サービス CLI および API" caption-side="top"}
 
 

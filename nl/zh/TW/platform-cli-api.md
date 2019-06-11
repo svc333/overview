@@ -4,7 +4,7 @@ copyright:
 
   years: 2018, 2019
 
-lastupdated: "2019-06-03"
+lastupdated: "2019-05-13"
 
 keywords: resource groups, platform CLI, platform API
 
@@ -35,7 +35,7 @@ subcollection: overview
 |資源控制器| [使用資源及資源群組](/docs/cli/reference/ibmcloud?topic=cloud-cli-ibmcloud_commands_resource) |[{{site.data.keyword.Bluemix_notm}} 資源控制器 API](https://console.cloud.ibm.com/apidocs/resource-controller){: new_window} ![外部鏈結圖示](../icons/launch-glyph.svg "外部鏈結圖示") <br><br> [{{site.data.keyword.cloud_notm}} Open Service Broker API](https://console.cloud.ibm.com/apidocs/ibm-cloud-osb-api){: new_window} ![外部鏈結圖示](../icons/launch-glyph.svg "外部鏈結圖示") |
 |資源管理程式| [使用資源及資源群組](/docs/cli/reference/ibmcloud?topic=cloud-cli-ibmcloud_commands_resource) |[{{site.data.keyword.Bluemix_notm}} 資源管理程式 API](https://console.cloud.ibm.com/apidocs/resource-manager){: new_window} ![外部鏈結圖示](../icons/launch-glyph.svg "外部鏈結圖示") |
 |型錄| [搜尋及管理型錄供應項目](/docs/cli/reference/ibmcloud?topic=cloud-cli-ibmcloud_catalog) | [型錄 API](https://console.cloud.ibm.com/apidocs/globalcatalog){: new_window} ![外部鏈結圖示](../icons/launch-glyph.svg "外部鏈結圖示") |
-| 搜尋及標記 | [搜尋資源](/docs/cli/reference/ibmcloud?topic=cloud-cli-ibmcloud_commands_resource#ibmcloud_resource_search) <br><br>  [標記資源](/docs/cli/reference/ibmcloud?topic=cloud-cli-ibmcloud_commands_resource#ibmcloud_resource_tags) | |
+| 搜尋及標記 | [搜尋資源](/docs/cli/reference/ibmcloud?topic=cloud-cli-ibmcloud_commands_resource#ibmcloud_resource_search) <br><br>  [標記資源](/docs/cli/reference/ibmcloud/cli_resource_group.html#ibmcloud_resource_tags) | |
 {: caption="表 1. 平台服務 CLI 和 API" caption-side="top"}
 
 

@@ -9,7 +9,6 @@
     ibm-cloud-platform.md
     ui.md
     it-ops-journey.md
-    compare-infra.md
     whats-new/index.md
 
     {: .topicgroup}
@@ -49,5 +48,4 @@
 
     {: .navgroup id="help"}
     feedback.md
-    personalized-assistance.md
     {: .navgroup-end}

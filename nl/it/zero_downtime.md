@@ -2,9 +2,9 @@
 
 copyright:
   years: 2018, 2019
-lastupdated: "2019-05-23"
+lastupdated: "2019-05-13"
 
-keywords: HA, failover, DR, high availability, disaster recovery, locations, data centers
+keywords: HA, failover, DR
 
 subcollection: overview
 
@@ -64,18 +64,20 @@ Per far fronte ai problemi di sicurezza puoi anche selezionare l'ubicazione in c
 
 Il bilanciamento del carico globale per la console {{site.data.keyword.cloud_notm}} garantisce che, se l'ubicazione geografica a te più prossima non è disponibile, la console visualizza le informazioni per la successiva ubicazione più prossima. In questo modo, avrai sempre accesso alla console senza dover eseguire alcuna azione per accedere alle risorse di cui hai bisogno.
 
-Puoi visualizzare tutte le risorse in tutte le ubicazioni per impostazione predefinita dalla vista elenco risorse nella console. Se vuoi visualizzare e gestire le risorse in una specifica ubicazione, espandi il menu **Ubicazione** e seleziona un'ubicazione dall'elenco. Espandendo un'ubicazione geografica specifica, puoi scegliere di filtrare per singolo data center, regione o zona. 
+Puoi visualizzare tutte le risorse in tutte le ubicazioni per impostazione predefinita dalla vista elenco risorse nella console. Se vuoi visualizzare e gestire le risorse in una specifica ubicazione, espandi il menu **Ubicazione** e seleziona un'ubicazione dall'elenco. Espandendo un'ubicazione geografica specifica, puoi scegliere di filtrare per singolo data center, regione o zona: 
 
-Ad esempio, se hai delle risorse distribuite nella zona Londra 2 (eu-gb-2), puoi filtrare il tuo elenco di risorse in modo che visualizzi solo tali risorse. Una zona è ubicata all'interno di una regione e una regione viene organizzata dalla propria ubicazione metropolitana. Per filtrare il tuo elenco per la zona Londra 2 (eu-gb-2), espandi l'opzione metropolitana **Londra** e poi l'opzione di regione **Londra (eu-gb)**. All'interno di tale regione, puoi effettuare una selezione dell'elenco di zone disponibili. Se hai una risorsa distribuita in un data center specifico, puoi identificare il data center tramite l'ubicazione metropolitana e il codice alfanumerico specifici, ad esempio Londra 02 (lon02).
-
-Potresti anche avere delle risorse ubicate globalmente. L'opzione **Globale** indica che solo un'istanza del servizio globalmente accessibile e logica, indipendente da qualsiasi regione o zona, viene pubblicata nelle applicazioni del cliente. Questi tipi di risorse sono accessibili da un endpoint globale.
+Una *geografia* è un'area geografica o un organo politico più grande che contiene una o più regioni. Alcuni servizi sono supportati a un livello geografico interregionale e gestiscono in modo trasparente lo spostamento e la replica dei dati tra le regioni. Ad esempio, i dati nell'area geografica UE per {{site.data.keyword.cos_full_notm}} possono replicare i dati in più data center all'interno dei paesi UE. 
+   * Un'*area metropolitana* è un nome di città specifico all'interno di una specifica area geografica. Ad esempio, Dallas è un'area metropolitana nell'area geografica Nord America.
+      * Un *data center* è l'ubicazione fisica dei server che forniscono i servizi cloud. Puoi identificare i data center all'interno di un'area geografica espansa come le opzioni che utilizzano il nome dell'area geografica più un numero.
+      * Una *regione* è un territorio geografico definito. Una regione può essere una specifica area identificata da un codice postale, una città, uno stato, un gruppo di stati o un gruppo di nazioni. Puoi vedere la differenza tra i data center e le regioni nell'elenco tramite l'utilizzo di numeri per l'identificazione dei data center.
+         * Una *zona* è un dominio di errore indipendente progettato per aiutarti con una tolleranza all'errore migliorata e una latenza diminuita. Puoi identificare le zone in quanto utilizzano il nome della regione più un numero e sono nidificate nella regione.
 
 ## Data center
 {: #data_center}
 
 Quando distribuisci le risorse dell'infrastruttura, hai maggiori opzioni su dove si trovano i tuoi dati. Puoi scegliere un'ubicazione o effettuare una selezione da un elenco di data center {{site.data.keyword.Bluemix_notm}}. Un *data center* è l'ubicazione fisica che ospita l'alimentazione, il raffreddamento, il calcolo, la rete e le risorse di archiviazione utilizzati per i servizi e le applicazioni. I data center non forniscono l'isolamento da errori locali in modo simile alle multizone in un'ubicazione. Per ulteriori informazioni, vedi [Global locations for your global business ![Icona link esterno](../icons/launch-glyph.svg "Icona link esterno")](https://www.ibm.com/cloud/data-centers/){: new_window}.
 
-{{site.data.keyword.Bluemix_notm}} offre data center in molte ubicazioni in tutto il mondo. 
+{{site.data.keyword.Bluemix_notm}} offre data center in molte ubicazioni in tutto il mondo. Quando distribuisci le risorse dell'infrastruttura, puoi effettuare la selezione in un elenco di data center in {{site.data.keyword.Bluemix_notm}}. 
 
 
 ![Mappa dei data center descritti nelle seguenti tabelle](images/Global-View.svg)
@@ -157,7 +159,7 @@ Quando distribuisci le risorse dell'infrastruttura, hai maggiori opzioni su dove
 
 {{site.data.keyword.Bluemix_notm}} fornisce un livello di servizio di disponibilità del 99.5% per più istanze di un servizio della piattaforma in un solo ambiente locale o dedicato.
 
-Per inviare un reclamo per il tempo di inattività, contatta il [Supporto {{site.data.keyword.Bluemix_notm}}](https://cloud.ibm.com/unifiedsupport/supportcenter){: new_window} ![Icona link esterno](../icons/launch-glyph.svg "Icona link esterno").
+Per inviare un reclamo per il tempo di inattività, contatta il [Supporto {{site.data.keyword.Bluemix_notm}}](https://console.cloud.ibm.com/unifiedsupport/supportcenter){: new_window} ![Icona link esterno](../icons/launch-glyph.svg "Icona link esterno").
 
 {{site.data.keyword.Bluemix_notm}} fornisce gli SLA per i servizi {{site.data.keyword.Bluemix_notm}} che potrebbero renderti idoneo per dei crediti per il tuo account. Gli SLA sono il tuo unico modo per risolvere il malfunzionamento di {{site.data.keyword.Bluemix_notm}} per ottenere un livello di servizio specificato. {{site.data.keyword.Bluemix_notm}} fornisce un livello di servizio di disponibilità del 99.5% per più istanze di un servizio della piattaforma in un solo ambiente locale o dedicato.
 
@@ -165,7 +167,7 @@ Per ulteriori informazioni sugli ambienti dedicati, vedi [IBM Cloud dedicato](/d
 
 La descrizione del servizio completa per {{site.data.keyword.Bluemix_notm}} è disponibile in [Cloud Services terms](http://www-03.ibm.com/software/sla/sladb.nsf/sla/bm){: new_window} ![Icona link esterno](../icons/launch-glyph.svg "Icona link esterno").
 
-### SLA del tempo di inattività della disponibilità  
+### SLA del tempo di inattività della disponibilità 
 {: #avail-downtime}
 
 Sei idoneo per un credito per il tuo account se hai riscontrato del tempo di inattività inferiore al 99.5% della disponibilità. Il tempo di inattività della disponibilità è il totale di minuti in cui non puoi connetterti ad alcuna delle tue istanze del servizio. I minuti del tempo di inattività totali iniziano quando invii un report per l'evento di interruzione e terminano quando almeno una delle istanze interessate è disponibile per l'utilizzo.
@@ -203,27 +205,27 @@ I servizi dell'infrastruttura sono i server bare metal e virtuali, la rete, l'ar
 
 Il tempo di inattività è il totale di minuti in cui un servizio dell'infrastruttura identificato dall'utente non è disponibile a causa di un'interruzione del servizio determinata dalla rete pubblica, dalla rete privata e dalle interruzioni HVAC e dell'alimentazione dell'infrastruttura ridondanti. Il calcolo dei minuti totali del tempo di inattività inizia quando l'interruzione convalidata che interessa il servizio viene identificata e termina quando il servizio torna disponibile. 
 
-Il tempo di inattività non include il tempo per la manutenzione pianificata o annunciata. Per ogni periodo di tempo di inattività di 30 minuti consecutivi, ricevi un credito nella quantità del 5% degli addebiti mensili per i servizi identificati che vengono direttamente interessati dall'interruzione. Non sei idoneo per un credito se il tempo di inattività è inferiore a 30 minuti consecutivi. Il tempo di inattività per diversi tipi di interruzione non può essere combinato per raggiungere questo calcolo. 
+Il tempo di inattività non include il tempo per la manutenzione pianificata o annunciata. Per ogni periodo di tempo di inattività di 30 minuti consecutivi, ricevi un credito nella quantità del 5% degli addebiti mensili per i servizi identificati che vengono direttamente interessati dall'interruzione. Non sei idoneo per un credito se il tempo di inattività è inferiore a 30 minuti consecutivi. Il tempo di inattività per diversi tipi di interruzione non può essere combinato per raggiungere questo calcolo.
 
 ### SLA di upgrade e sostituzione dell'hardware dell'infrastruttura
 {: #hw-replaceupgrade-sla}
 
 {{site.data.keyword.Bluemix_notm}} tenta di ridurre il tempo di inattività quando sostituisce dell'hardware malfunzionante o quando esegue un upgrade dell'hardware pianificato. 
 
-{{site.data.keyword.Bluemix_notm}} fornisce dei crediti per: 
+{{site.data.keyword.Bluemix_notm}} fornisce dei crediti per:
 - La sostituzione dell'hardware in base al tempo di sostituzione dal momento in cui {{site.data.keyword.Bluemix_notm}} verifica che il cliente ha notificato un malfunzionamento dell'hardware.
 - Gli upgrade dell'hardware pianificati in base al tempo di inattività totale del servizio che riceve l'upgrade. 
 
 I periodi di tempo al livello di servizio escludono tutto il tempo necessario per ricaricare il sistema operativo o le applicazioni o in cui le prestazioni in tempo potrebbero essere ridotte. Sei idoneo per un credito in base all'addebito mensile per il servizio che è interessato dalla sostituzione o dall'upgrade dell'hardware se {{site.data.keyword.Bluemix_notm}} non riesce a rispettare un periodo di tempo al livello di servizio specificato.
 
-| Periodo di tempo al livello di servizio | Percentuale di credito |
+| Periodo di tempo al livello di servizio  | Percentuale di credito |
 |---------------------------|----------------|
 | ≤ 2 ore                 | Nessuna           |
 | > 2 ore                 | 20%            |
 | > 6 ore                 | 40%            |
 | > 10 ore                | 60%            |
 | > 14 ore                | 80%            |
-| > 18 ore                | 80%            |
+| > 18 ore                | 80%            |
 {: caption="Tabella 6. Credito in base all'addebito mensile per il servizio che è interessato dalla sostituzione o dall'upgrade dell'hardware." caption-side="top"}
 
 ### Reclami
@@ -233,7 +235,7 @@ Invia il tuo reclamo entro 60 giorni dal termine del mese contrattuale in cui il
 
 Il credito sarà la compensazione applicabile più elevata basata sulla disponibilità cumulativa del servizio interessato durante un mese contrattuale e calcolata utilizzando gli addebiti mensili per tale servizio interessato. I crediti non possono superare il 25% dell'addebito mensile.
 
-Per inviare un reclamo per il tempo di inattività, contatta il [Supporto {{site.data.keyword.Bluemix_notm}}](https://cloud.ibm.com/unifiedsupport/supportcenter){: new_window} ![Icona link esterno](../icons/launch-glyph.svg "Icona link esterno").
+Per inviare un reclamo per il tempo di inattività, contatta il [Supporto {{site.data.keyword.Bluemix_notm}}](https://console.cloud.ibm.com/unifiedsupport/supportcenter){: new_window} ![Icona link esterno](../icons/launch-glyph.svg "Icona link esterno").
 
 ### Esclusioni
 {: #exclusions}

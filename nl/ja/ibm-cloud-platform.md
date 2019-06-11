@@ -3,7 +3,7 @@
 
 copyright:
   years: 2016, 2019
-lastupdated: "2019-05-31"
+lastupdated: "2019-05-13"
 
 keywords: console, platform overview, overview
 
@@ -20,15 +20,13 @@ subcollection: overview
 IBM のクラウド・プラットフォームは、Platform as a Service (PaaS) と Infrastructure as a Service (IaaS) を組み合わせて、統合エクスペリエンスを提供します。 このプラットフォームは、小規模な開発チームと組織、および大規模な企業ビジネスの両方を拡大およびサポートします。 世界中のデータ・センターにグローバルにデプロイされる、{{site.data.keyword.cloud}} で構築するソリューションは、テスト済みでサポートされた、信頼できる環境で、高速かつ確実に稼働します。
 {: .shortdesc}
 
-下の図に示されているように、{{site.data.keyword.Bluemix_notm}} プラットフォームは、連携する複数のコンポーネントで構成されており、一貫性のある信頼できるクラウド・エクスペリエンスを提供します。 
+{{site.data.keyword.Bluemix_notm}} プラットフォームは、連携する複数のコンポーネントで構成されており、一貫性のある信頼できるクラウド・エクスペリエンスを提供します。 
 
+  * 数百の {{site.data.keyword.Bluemix_notm}} オファリングで構成されるカタログ
   * クラウド・リソースの作成、表示、管理のフロントエンドとして機能する堅固なコンソール
   * 両方のプラットフォーム・サービスのユーザーを安全に認証し、{{site.data.keyword.Bluemix_notm}} 全体で一貫してリソースへのアクセスを制御する ID およびアクセス管理コンポーネント
-  * 数百の {{site.data.keyword.Bluemix_notm}} オファリングで構成されるカタログ
   * リソースをフィルタリングおよび識別するための検索およびタグ付けのメカニズム
   * 価格設定プランおよびセキュア・クレジット・カード詐欺防止のために正確な使用量を提供するアカウントおよび請求管理システム
-  
-  ![{{site.data.keyword.cloud_notm}} プラットフォームのコンポーネント](images/IBM-Cloud-Platform.svg "{{site.data.keyword.cloud_notm}} プラットフォームの主要コンポーネントを示す図")
 
 最新化してクラウドに取り入れる[既存のコード](/docs/apps/tutorials?topic=creating-apps-tutorial-byoc#tutorial-byoc)があるか、[まったく新しいアプリケーション](/docs/apps/tutorials?topic=creating-apps-tutorial-starterkit)を開発しているかにかかわらず、開発者は、{{site.data.keyword.Bluemix_notm}} で使用可能なサービスおよびランタイム・フレームワークの急速に成長しているエコシステムを活用できます。
 
@@ -98,17 +96,3 @@ IBM のクラウド・プラットフォームは、Platform as a Service (PaaS)
 検索サービスは、{{site.data.keyword.Bluemix_notm}} プラットフォーム内に統合されるグローバルの共有リソース・プロパティー・リポジトリーです。 これはクラウド・リソースの属性を保管および検索するために使用され、リソースの分類を行います。 リソースは、[クラウド・リソース名 (CRN)](/docs/overview?topic=overview-crn) ID によって一意的に識別されます。 リソースのプロパティーには、タグとシステム・プロパティーが含まれます。 どちらのプロパティーも {{site.data.keyword.Bluemix_notm}} 請求アカウント内で定義され、多くの地域にまたがっています。
 
 このサービスは、リソースに関連付けられたタグも管理します。 タグ付け API を使用して、タグの作成、削除、検索、添付、または切り離しを行うことができます。 タグは、CRN ID によって一意的に識別されます。 タグには名前があります。その名前は、請求アカウント内で固有でなければなりません。 タグは、key:value ペア、またはラベル形式で作成できます。
-
-## リソースのモニタリング
-{: #resources_observability}
-
-プログラム識別情報によって、{{site.data.keyword.Bluemix_notm}} 内のアプリケーションおよびサービスを 1 カ所でモニターおよび監視できます。 
-
-{{site.data.keyword.la_full}} サービスでは、ユーザーの {{site.data.keyword.Bluemix_notm}} アーキテクチャーにログ管理機能を追加でき、システム・ログおよびアプリケーション・ログを管理できます。また、モニター、トラブルシューティング、アラートの定義、カスタム・ダッシュボードの設計を行うための拡張機能もあります。{{site.data.keyword.la_full_notm}} は、{{site.data.keyword.IBM_notm}} とのパートナーシップにより LogDNA で運用されます。詳しくは、『[{{site.data.keyword.la_full_notm}} 概説](/docs/services/Log-Analysis-with-LogDNA?topic=LogDNA-getting-started)』を参照してください。
-
-{{site.data.keyword.mon_full_notm}} サービスにより、アプリケーション、サービス、およびプラットフォームのパフォーマンスと正常性に関して、運用の可視化が可能になります。また、モニター、トラブルシューティング、アラートの定義、カスタム・ダッシュボードの設計のための拡張機能により、フルスタック・テレメトリーが提供されます。{{site.data.keyword.mon_full_notm}} は、{{site.data.keyword.IBM_notm}} との協力関係のもと、Sysdig によって運用されます。詳しくは、『[IBM Cloud Monitoring with Sysdig サービス概説](/docs/services/Monitoring-with-Sysdig?topic=Sysdig-getting-started#getting-started)』を参照してください。
-
-## アカウントのモニタリング 
-{: #account_observability}
-
-{{site.data.keyword.at_full}} サービスを使用すると、ご使用の {{site.data.keyword.Bluemix_notm}} アカウントのアクティビティーをモニターし、異常なアクティビティーや重要なアクションを調査し、規定された監査要件に準拠することができます。さらに、アクションが発生した際にそれに関するアラートを通知させるようにできます。収集されるイベントは、Cloud Auditing Data Federation (CADF) 標準に準拠しています。詳しくは、『[{{site.data.keyword.at_full_notm}} 概説](/docs/services/Activity-Tracker-with-LogDNA?topic=logdnaat-getting-started)』を参照してください。

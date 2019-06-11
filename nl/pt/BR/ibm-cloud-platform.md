@@ -3,7 +3,7 @@
 
 copyright:
   years: 2016, 2019
-lastupdated: "2019-05-31"
+lastupdated: "2019-05-13"
 
 keywords: console, platform overview, overview
 
@@ -22,17 +22,16 @@ implementada em data centers em todo o mundo, a solução que você constrói no
 rapidamente e é executada de forma confiável em um ambiente testado e suportado no qual é possível confiar.
 {: .shortdesc}
 
-Como o diagrama a seguir ilustra, a plataforma {{site.data.keyword.Bluemix_notm}} é composta de diversos componentes que trabalham juntos para fornecer uma experiência de nuvem consistente e confiável. 
+A plataforma {{site.data.keyword.Bluemix_notm}} é composta de múltiplos componentes que funcionam juntos para
+fornecer uma experiência de nuvem consistente e confiável. 
 
+  * Um catálogo que consiste em centenas de ofertas do {{site.data.keyword.Bluemix_notm}}
   * Um console robusto que funciona como o front-end para criar, visualizar e gerenciar os recursos em nuvem
   * Um componente de gerenciamento de acesso e identidade que autentica os usuários com segurança para ambos os serviços de
 plataforma e controla o acesso aos recursos de forma consistente no {{site.data.keyword.Bluemix_notm}}
-  * Um catálogo que consiste em centenas de ofertas do {{site.data.keyword.Bluemix_notm}}
   * Um mecanismo de procura e identificação para filtragem e identificação dos recursos
   * Um sistema de gerenciamento de conta e faturamento que fornece o uso exato para os planos de precificação e proteção
 segura contra fraude de cartão de crédito
-  
-  ![Componentes da plataforma {{site.data.keyword.cloud_notm}}](images/IBM-Cloud-Platform.svg "Diagrama que mostra os principais componentes da plataforma {{site.data.keyword.cloud_notm}}")
 
 Se você tem [código existente](/docs/apps/tutorials?topic=creating-apps-tutorial-byoc#tutorial-byoc) que deseja modernizar e trazer
 para a nuvem ou está desenvolvendo um [aplicativo
@@ -121,19 +120,3 @@ definidas dentro de uma conta de faturamento do {{site.data.keyword.Bluemix_notm
 
 Esse serviço também gerencia as tags associadas a um recurso. É possível criar, excluir, procurar, anexar ou
 remover as tags com a API de identificação. As tags são identificadas exclusivamente por um identificador CRN. As tags têm um nome, que deve ser exclusivo em uma conta de faturamento. É possível criar tags em pares de chave:valor ou no formato de rótulo.
-
-## Monitorando seus recursos
-{: #resources_observability}
-
-A capacidade de observação oferece um único local no qual é possível monitorar e observar seus aplicativos e serviços no {{site.data.keyword.Bluemix_notm}}. 
-
-Com o serviço {{site.data.keyword.la_full}}, é possível incluir recursos de gerenciamento de log em sua arquitetura do {{site.data.keyword.Bluemix_notm}} e gerenciar os logs do sistema e do aplicativo. Ele oferece recursos avançados para monitorar e solucionar problemas, definir alertas e projetar painéis customizados. O {{site.data.keyword.la_full_notm}} é operado por LogDNA em parceria com o {{site.data.keyword.IBM_notm}}. Para obter mais informações, consulte
-[Introdução ao {{site.data.keyword.la_full_notm}}](/docs/services/Log-Analysis-with-LogDNA?topic=LogDNA-getting-started).
-
-O serviço {{site.data.keyword.mon_full_notm}} permite que você obtenha visibilidade operacional sobre o desempenho e o funcionamento de seus aplicativos, serviços e plataformas. Ele oferece uma telemetria de pilha completa, com recursos avançados para monitorar e solucionar problemas, definir alertas e projetar painéis customizados. O {{site.data.keyword.mon_full_notm}} é operado pelo Sysdig em parceria com a {{site.data.keyword.IBM_notm}}. Para obter mais informações, consulte [Introdução ao serviço IBM Cloud Monitoring with Sysdig](/docs/services/Monitoring-with-Sysdig?topic=Sysdig-getting-started#getting-started)
-
-## Monitorando sua conta 
-{: #account_observability}
-
-Use o serviço {{site.data.keyword.at_full}} para monitorar a atividade de sua conta do {{site.data.keyword.Bluemix_notm}}, investigar atividades anormais e ações críticas e obedecer a requisitos de auditoria regulamentar. Além disso, é possível receber alertas sobre as ações conforme elas acontecem. Os eventos que são coletados obedecem ao padrão Cloud Auditing Data Federation (CADF). Para obter mais informações, consulte
-[Introdução ao {{site.data.keyword.at_full_notm}}](/docs/services/Activity-Tracker-with-LogDNA?topic=logdnaat-getting-started).

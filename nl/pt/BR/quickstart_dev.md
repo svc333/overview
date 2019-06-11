@@ -4,7 +4,7 @@ copyright:
 
   years: 2018, 2019
 
-lastupdated: "2019-03-14"
+lastupdated: "2019-05-13"
 
 keywords: quick start steps, dev quick start, dev get started
 
@@ -24,9 +24,6 @@ subcollection: overview
 Como desenvolvedor, queremos que você comece a codificar rapidamente. Esse guia de iniciação rápida destina-se a ajudá-lo a configurar e construir no {{site.data.keyword.Bluemix}}.  
 {: shortdesc}
 
-Consulte [Explorando a jornada do desenvolvedor no {{site.data.keyword.cloud_notm}}](/docs/overview?topic=overview-dev-journey) para obter uma lista de recursos disponíveis à medida que começar a construir.
-{: tip}
-
 ## Antes de começar
 {: #prereqs-dev}
 
@@ -37,7 +34,7 @@ Crie uma conta Pré-paga ou de Assinatura para obter acesso total a todas as ofe
  
 1. [Instale e configure](/docs/home/tools) a interface da linha de comandos (CLI) do {{site.data.keyword.Bluemix_notm}}. 
 2. Para iniciar a codificação, conclua as etapas a seguir:
-    * Acesse o ícone Menu ![Ícone Menu](../icons/icon_hamburger.svg) **> Painel > Widget de apps** e clique em **Criar um app** para criar um usando um kit do iniciador vazio ou trazer o seu próprio código.
+    * Acesse o widget do ícone de Menu ![Ícone de menu](../icons/icon_hamburger.svg) **> Painel > Apps** e clique em **Criar um app** para criar um usando um kit do iniciador vazio ou traga seu próprio código.
     * Use um [kit do iniciador](/docs/apps/tutorials?topic=creating-apps-tutorial-starterkit) para criar um app por meio de um app customizado pré-configurado. 
     * [Inicie pela linguagem de programação](/docs/home/build). 
 3. Use os [Docs da API](https://{DomainName}/apidocs) para entender os terminais disponíveis e visualizar exemplos.

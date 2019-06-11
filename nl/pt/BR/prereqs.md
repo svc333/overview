@@ -3,7 +3,7 @@
 
 copyright:
   years: 2016, 2019
-lastupdated: "2019-04-16"
+lastupdated: "2019-05-13"
 
 keywords: prereqs, platform prereqs, platform prerequisites
 
@@ -38,4 +38,4 @@ Firefox](https://www.mozilla.org/en-US/firefox/organizations/){: new_window}![Í
 ## Interface da linha de comandos
 {: #cli-platform}
 
-A interface da linha de comandos (CLI) do {{site.data.keyword.Bluemix_notm}} está em constante mudança, portanto, é recomendável acessar [Instalando a CLI independente do {{site.data.keyword.Bluemix_notm}}](/docs/cli/reference/ibmcloud/cloud-cli-install_use), que sempre aponta para a versão mais recente da CLI.
+A interface da linha de comandos (CLI) do {{site.data.keyword.Bluemix_notm}} está em constante mudança, portanto, é recomendado acessar [Instalando a CLI do {{site.data.keyword.Bluemix_notm}} independente](/docs/cli/?topic=cloud-cli-ibmcloud-cli), que sempre aponta para a versão da CLI mais recente.
