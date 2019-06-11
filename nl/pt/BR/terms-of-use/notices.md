@@ -31,7 +31,7 @@ Sua Conta do IBM Cloud e quaisquer serviços pedidos do IBM Cloud são fornecido
 em
 [https://www.ibm.com/support/customer/zz/en/softlayer.html](https://www.ibm.com/support/customer/zz/en/softlayer.html){: new_window}
 ![Ícone de link externo](../../icons/launch-glyph.svg)
-    * Contrato de prestação de serviços do IBM Cloud (local país versão*) para faturamento por cartão de crédito que não seja em dólar americano ou se você selecionar o faturamento por meio da IBM, disponível em [https://www.ibm.com/terms](https://www.ibm.com/support/customer/csol/terms/){: new_window} ![Ícone de link externo](../../icons/launch-glyph.svg) (selecione seu país);
+    * Contrato de prestação de serviços do IBM Cloud (local país versão*) para faturamento por cartão de crédito que não seja em dólar americano ou se você selecionar o faturamento por meio da IBM, disponível em [https://www.ibm.com/terms](https://www.ibm.com/terms){: new_window} ![Ícone de link externo](../../icons/launch-glyph.svg) (selecione seu país);
     * O Contrato do IBM Passport Advantage que você aceitou e os Termos gerais para o TOU de ofertas de nuvem para clientes do IBM Passport Advantage, disponível em [http://www-03.ibm.com/software/sla/sladb.nsf/sla/tou](http://www-03.ibm.com/software/sla/sladb.nsf/sla/tou){: new_window} ![Ícone de link externo](../../icons/launch-glyph.svg); ou
     * termos do acordo base de serviço de nuvem equivalentes entre você e a IBM;
   * Descrição do serviço para o IBM Cloud disponível em [http://www-03.ibm.com/software/sla/sladb.nsf/sla/bm](http://www-03.ibm.com/software/sla/sladb.nsf/sla/bm){: new_window} ![Ícone de link externo](../../icons/launch-glyph.svg);
@@ -201,7 +201,7 @@ um e-mail para IBM_Cloud_Embargo_Exemption_Request@wwpdl.vnet.ibm.com se você a
 ## Marcas registradas
 {: #trademarks}
 
-IBM, o logotipo IBM e ibm.com são marcas ou marcas registradas da International Business Machines Corp., registradas em vários países no mundo todo. Outros nomes de produtos e serviços podem ser marcas registradas da IBM ou outras empresas. Uma lista atual de marcas comerciais da IBM está disponível na web em [Copyright and trademark information ![Ícone de link externo](../../icons/launch-glyph.svg)](https://www.ibm.com/legal/copytrade){: new_window}.
+IBM, o logotipo IBM e ibm.com são marcas ou marcas registradas da International Business Machines Corp., registradas em vários países no mundo todo. Outros nomes de produtos e serviços podem ser marcas registradas da IBM ou outras empresas. Uma lista atual de marcas comerciais da IBM está disponível na web em [Copyright and trademark information ![Ícone de link externo](../../icons/launch-glyph.svg)](https://www.ibm.com/legal/us/en/copytrade.shtml){: new_window}.
 
 Adobe, o logotipo Adobe, PostScript e o logotipo PostScript são
 marcas ou marcas registradas do Adobe Systems Incorporated nos Estados

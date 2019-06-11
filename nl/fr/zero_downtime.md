@@ -2,9 +2,9 @@
 
 copyright:
   years: 2018, 2019
-lastupdated: "2019-05-13"
+lastupdated: "2019-05-23"
 
-keywords: HA, failover, DR
+keywords: HA, failover, DR, high availability, disaster recovery, locations, data centers
 
 subcollection: overview
 
@@ -64,20 +64,18 @@ Pour des raisons de sécurité, vous pouvez également sélectionner l'emplaceme
 
 L'équilibrage de charge global pour la console {{site.data.keyword.cloud_notm}} garantit que si l'emplacement géographique le plus proche n'est pas disponible, la console affiche les informations de l'emplacement le plus proche suivant. De la sorte, vous pouvez toujours accéder à la console sans avoir à effectuer d'action pour obtenir les ressources dont vous avez besoin.
 
-Par défaut, vous pouvez afficher dans la console toutes les ressources de tous les emplacements de la liste de ressources. Si vous souhaitez afficher et utiliser les ressources d'un emplacement spécifique, développez le menu **Emplacement** puis sélectionnez un emplacement dans la liste. En développant un emplacement géographique spécifique, vous pouvez choisir d'effectuer le filtrage par centre de données ou région individuel ou par zone : 
+Par défaut, vous pouvez afficher dans la console toutes les ressources de tous les emplacements de la liste de ressources. Si vous souhaitez afficher et utiliser les ressources d'un emplacement spécifique, développez le menu **Emplacement** puis sélectionnez un emplacement dans la liste. En développant un emplacement géographique spécifique, vous pouvez choisir d'effectuer le filtrage par centre de données ou région individuel ou par zone. 
 
-Une *géographie* est une zone géographique ou un corps politique plus grand qui contient une ou plusieurs régions. Certains services sont pris en charge au niveau géographie entre les régions et gèrent de manière transparente la réplication et les flux des données entre les régions. Par exemple, les données de la géographie UE pour {{site.data.keyword.cos_full_notm}} peut répliquer des données dans plusieurs centres de données au sein des pays de l'Union européenne.  
-   * Une *métropole* est un nom de ville spécifique au sein de la zone géographique donnée. Par exemple, Dallas est une métropole dans la géographie d'Amérique du Nord. 
-      * Un *centre de données* est l'emplacement physique des serveurs qui fournissent des services de cloud. Vous pouvez identifier des centres de données dans une géographie étendue comme des options qui utilisent le nom de géographie plus un nombre. 
-      * Une *région* est un territoire géographique défini. Une région peut être une zone avec un code postal spécifique, une petite ville, une grande ville, un état, un groupe d'états ou même un groupe de pays. Vous pouvez différencier les centres de données des régions dans la liste grâce aux numéros qui sont utilisés pour identifier les centres de données. 
-         * Une *zone* est un domaine avec des points de défaillance indépendant conçu pour fournir de l'assistance grâce à une tolérance aux pannes améliorée et des temps d'attente réduits. Vous pouvez identifier des zones car elles utilisent le nom de région plus un nombre et sont intégrées dans la région. 
+Par exemple, si certaines de vos ressources sont déployées dans la zone London 2 (eu-gb-2), vous pouvez filtrer votre liste de ressources afin d'afficher uniquement ces ressources. Une zone se trouve dans une région et une région est organisée par agglomération. Pour filtrer votre liste sur la zone London 2 (eu-gb-2), développez l'option d'agglomération **London**, puis développez l'option de région **London (eu-gb)**. Dans cette région, vous pouvez effectuer une sélection dans la liste de zones disponibles. Si l'une de vos ressources est déployée dans un centre de données spécifique, vous pouvez identifier le centre de données par son agglomération et son code alphanumérique, par exemple, London 02 (lon02).
+
+Vous pouvez également avoir des ressources situées dans le monde entier. L'option **Global** signifie qu'une seule instance du service, logique et accessible dans le monde entier et indépendante de toute région ou zone, est publiée sur les applications client. Ces types de ressources sont accessibles à partir d'un noeud final global.
 
 ## Centres de données
 {: #data_center}
 
 Lorsque vous déployez des ressources d'infrastructure, vous disposez de plus de choix quant à l'emplacement de vos données. Vous pouvez sélectionner un emplacement ou effectuer une sélection dans la liste des centres de données {{site.data.keyword.Bluemix_notm}}. Un *centre de données* est l'emplacement physique qui héberge les ressources d'alimentation, de refroidissement, de calcul, de réseau et de stockage utilisées pour les services et les applications. Les centres de données n'offrent aucune protection contre les pannes locales comme les emplacements multi-zone. Pour plus d'informations, voir [Global locations for your global business ![Icône de lien externe](../icons/launch-glyph.svg "Icône de lien externe")](https://www.ibm.com/cloud/data-centers/){: new_window}.
 
-{{site.data.keyword.Bluemix_notm}} dispose de centres de données dans de nombreux emplacements dans le monde. Lorsque vous déployez des ressources d'infrastructure, vous pouvez effectuer une sélection dans la liste des centres de données dans {{site.data.keyword.Bluemix_notm}}. 
+{{site.data.keyword.Bluemix_notm}} dispose de centres de données dans de nombreux emplacements dans le monde. 
 
 
 ![Carte des centres de données décrits dans les tableaux suivants](images/Global-View.svg)
@@ -159,7 +157,7 @@ Lorsque vous déployez des ressources d'infrastructure, vous disposez de plus de
 
 {{site.data.keyword.Bluemix_notm}} fournit un niveau de service de disponibilité de 99,5 % pour plusieurs instances d'un service de plateforme dans un environnement dédié ou local.
 
-Pour soumettre une réclamation de temps d'indisponibilité, contactez le [support {{site.data.keyword.Bluemix_notm}}](https://console.cloud.ibm.com/unifiedsupport/supportcenter){: new_window} ![Icône de lien externe](../icons/launch-glyph.svg "Icône de lien externe").
+Pour soumettre une réclamation de temps d'indisponibilité, contactez le [support {{site.data.keyword.Bluemix_notm}} ](https://cloud.ibm.com/unifiedsupport/supportcenter){: new_window} ![Icône de lien externe](../icons/launch-glyph.svg "Icône de lien externe").
 
 {{site.data.keyword.Bluemix_notm}} inclut des accords sur les niveaux de service pour les services {{site.data.keyword.Bluemix_notm}} pouvant vous donner droit à des crédits pour votre compte. Les accords sur les niveaux de service constituent la seule méthode permettant de résoudre l'impossibilité d'{{site.data.keyword.Bluemix_notm}} d'atteindre un niveau de service défini. {{site.data.keyword.Bluemix_notm}} fournit un niveau de service de disponibilité de 99,5 % pour plusieurs instances d'un service de plateforme dans un environnement dédié ou local.
 
@@ -167,7 +165,7 @@ Pour plus d'informations sur les environnements dédiés, voir [IBM Cloud Dedica
 
 La description de service complète d'{{site.data.keyword.Bluemix_notm}} est disponible sur la page [Cloud Services terms](http://www-03.ibm.com/software/sla/sladb.nsf/sla/bm){: new_window} ![Icône de lien externe](../icons/launch-glyph.svg "Icône de lien externe").
 
-### Temps d'indisponibilité - Accord sur les niveaux de service
+### Temps d'indisponibilité - Accord sur les niveaux de service 
 {: #avail-downtime}
 
 Vous pouvez bénéficier d'un crédit pour votre compte si le temps d'indisponibilité est inférieur à 99,5 % de disponibilité. Le temps d'indisponibilité correspond au nombre total de minutes durant lesquelles vous ne pouvez vous connecter à aucune instance de service. Cette période commence lorsque vous soumettez un rapport d'événement d'indisponibilité et se termine lorsque au moins une des instances affectées est à nouveau disponible pour être utilisée.
@@ -205,27 +203,27 @@ Les serveurs Bare Metal, les serveurs virtuels, les réseaux, le stockage et les
 
 Le temps d'indisponibilité correspond au nombre total de minutes durant lesquelles un service d'infrastructure identifié par un client est indisponible suite à une interruption de service liée à une panne d'équipements CVC (chauffage, ventilation et climatisation), d'alimentation d'infrastructure redondante, de réseau public et de réseau privé. Le calcul de la durée totale du temps d'indisponibilité commence lorsque l'indisponibilité validée affectant le service est identifiée jusqu'à ce que le service soit disponible. 
 
-Le temps d'indisponibilité n'inclut pas la période de maintenance annoncée ou planifiée. Pour chaque période continue d'indisponibilité de 30 minutes, vous recevez un crédit de 5 % des frais mensuels pour les services identifiés directement affectés par l'indisponibilité. Vous n'êtes pas éligible à un crédit si le temps d'indisponibilité est inférieur à une période continue de 30 minutes. Ce calcul peut ne pas associer les durées d'indisponibilité liées à différents types de panne. 
+Le temps d'indisponibilité n'inclut pas la période de maintenance annoncée ou planifiée. Pour chaque période continue d'indisponibilité de 30 minutes, vous recevez un crédit de 5 % des frais mensuels pour les services identifiés directement affectés par l'indisponibilité. Vous n'êtes pas éligible à un crédit si le temps d'indisponibilité est inférieur à une période continue de 30 minutes. Ce calcul peut ne pas associer les durées d'indisponibilité liées à différents types de panne.  
 
 ### Mise à niveau et remplacement matériel de l'infrastructure - Accords sur les niveaux de service
 {: #hw-replaceupgrade-sla}
 
 {{site.data.keyword.Bluemix_notm}} tente de réduire le temps d'indisponibilité lors du remplacement du matériel défectueux ou lors d'une mise à niveau matérielle planifiée. 
 
-{{site.data.keyword.Bluemix_notm}} fournit un crédit pour : 
+{{site.data.keyword.Bluemix_notm}} fournit un crédit pour :  
 - Le remplacement de matériel. Ce crédit est défini en fonction de la durée écoulée entre le moment où {{site.data.keyword.Bluemix_notm}} a enregistré la panne matérielle signalée par le client et celui où le remplacement est effectué.
 - Les mises à niveau de matériel planifiées. Ce crédit dépend de la durée d'indisponibilité totale du service bénéficiant de la mise à niveau. 
 
 Les périodes de niveau de service excluent la durée de rechargement du système d'exploitation ou des applications, ainsi que toute période pendant laquelle les performances sont dégradées. Si {{site.data.keyword.Bluemix_notm}} ne parvient pas à garantir une période de niveau de service définie, vous pouvez bénéficier d'un crédit calculé d'après les frais mensuels du service affecté par la mise à niveau ou le remplacement matériel.
 
-| Période de niveau de service  | Pourcentage de crédit |
+| Période de niveau de service | Pourcentage de crédit |
 |---------------------------|----------------|
 | ≤ 2 heures                 | Aucun           |
 | > 2 heures                 | 20 %            |
 | > 6 heures                 | 40 %            |
 | > 10 heures                | 60 %            |
 | > 14 heures                | 80 %            |
-| > 18 heures                | 80 %            |
+| > 18 heures               | 80 %            |
 {: caption="Tableau 6. Crédit en fonction des frais mensuels pour le service affecté par la mise à niveau ou le remplacement matériel" caption-side="top"}
 
 ### Réclamations
@@ -235,7 +233,7 @@ Soumettez votre réclamation dans une période de 60 jours suivant la fin du moi
 
 Le crédit correspondra à la compensation applicable la plus élevée d'après la disponibilité totale du service affecté lors d'un mois contractuel et sera calculé en utilisant les frais mensuels de ce service. Les crédits ne peuvent pas excéder 25 % des frais mensuels.
 
-Pour soumettre une réclamation de temps d'indisponibilité, contactez le [support {{site.data.keyword.Bluemix_notm}}](https://console.cloud.ibm.com/unifiedsupport/supportcenter){: new_window} ![Icône de lien externe](../icons/launch-glyph.svg "Icône de lien externe").
+Pour soumettre une réclamation de temps d'indisponibilité, contactez le [support {{site.data.keyword.Bluemix_notm}} ](https://cloud.ibm.com/unifiedsupport/supportcenter){: new_window} ![Icône de lien externe](../icons/launch-glyph.svg "Icône de lien externe").
 
 ### Exclusions
 {: #exclusions}

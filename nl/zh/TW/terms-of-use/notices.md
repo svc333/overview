@@ -28,7 +28,7 @@ subcollection: overview
 
   * 您適用的基本合約雲端條款如下：
     * 適用於美元信用卡計費的 SoftLayer 雲端服務合約，可從 [https://www.ibm.com/support/customer/zz/en/softlayer.html](https://www.ibm.com/support/customer/zz/en/softlayer.html){: new_window} ![外部鏈結圖示](../../icons/launch-glyph.svg) 取得
-    * 適用於非美元信用卡計費的 IBM 雲端服務合約（當地國家/地區版本*），或是如果您選取從 IBM 開立發票，則提供於 [https://www.ibm.com/terms](https://www.ibm.com/support/customer/csol/terms/){: new_window} ![外部鏈結圖示](../../icons/launch-glyph.svg)（請選取您的國家/地區）；
+    * 適用於非美元信用卡計費的 IBM 雲端服務合約（當地國家/地區版本*），或是如果您選取從 IBM 開立發票，則提供於 [https://www.ibm.com/terms](https://www.ibm.com/terms){: new_window} ![外部鏈結圖示](../../icons/launch-glyph.svg)（請選取您的國家/地區）；
     * 您已接受之 IBM Passport Advantage 合約及 IBM Passport Advantage Client 之「雲端產品使用條款」的一般條款，可從 [http://www-03.ibm.com/software/sla/sladb.nsf/sla/tou](http://www-03.ibm.com/software/sla/sladb.nsf/sla/tou){: new_window}![外部鏈結圖示](../../icons/launch-glyph.svg) 取得；或
     * 與 IBM 之間的同等雲端服務基本合約條款；
   * IBM Cloud 的服務說明，可從 [http://www-03.ibm.com/software/sla/sladb.nsf/sla/bm](http://www-03.ibm.com/software/sla/sladb.nsf/sla/bm){: new_window} ![外部鏈結圖示](../../icons/launch-glyph.svg) 取得；
@@ -149,7 +149,7 @@ IBM Cloud 針對來自受到該貿易與經濟制裁之國家/地區的 IP 位�
 ## 商標
 {: #trademarks}
 
-IBM、IBM 標誌及 ibm.com 是 International Business Machines Corp. 已在全球許多國家/地區或司法管轄區註冊的商標或註冊商標。其他產品與服務名稱可能是 IBM 或其他公司的商標。最新的 IBM 商標清單可於 [Copyright and trademark information ![外部鏈結圖示](../../icons/launch-glyph.svg)](https://www.ibm.com/legal/copytrade){: new_window} 網頁上取得。
+IBM、IBM 標誌及 ibm.com 是 International Business Machines Corp. 已在全球許多國家/地區或司法管轄區註冊的商標或註冊商標。其他產品與服務名稱可能是 IBM 或其他公司的商標。最新的 IBM 商標清單可於 [Copyright and trademark information ![外部鏈結圖示](../../icons/launch-glyph.svg)](https://www.ibm.com/legal/us/en/copytrade.shtml){: new_window} 網頁上取得。
 
 Adobe、Adobe 標誌、PostScript 及 PostScript 標誌是 Adobe Systems Incorporated 在美國及（或）其他國家或地區的註冊商標或商標。
 

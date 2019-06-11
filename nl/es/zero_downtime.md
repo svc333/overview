@@ -2,9 +2,9 @@
 
 copyright:
   years: 2018, 2019
-lastupdated: "2019-05-13"
+lastupdated: "2019-05-23"
 
-keywords: HA, failover, DR
+keywords: HA, failover, DR, high availability, disaster recovery, locations, data centers
 
 subcollection: overview
 
@@ -64,25 +64,21 @@ Para solventar problemas de seguridad, también puede seleccionar la ubicación 
 
 El equilibrio de carga global de la consola de {{site.data.keyword.cloud_notm}} garantiza que si la ubicación geográfica más próxima no está disponible, la consola muestra la información de la siguiente ubicación más próxima. De esta forma, siempre podrá acceder a la consola sin realizar acción alguna para acceder a los recursos que necesita.
 
-Puede ver todos los recursos en todas las ubicaciones de forma predeterminada desde la vista de la lista de recursos de la consola. Si desea ver y trabajar con recursos en una ubicación específica, expanda el menú **Ubicación** y seleccione una ubicación de la lista. Si amplía una ubicación geográfica específica, puede filtrar por centros de datos, por regiones o por zonas individuales:
+Puede ver todos los recursos en todas las ubicaciones de forma predeterminada desde la vista de la lista de recursos de la consola. Si desea ver y trabajar con recursos en una ubicación específica, expanda el menú **Ubicación** y seleccione una ubicación de la lista. Si amplía una ubicación geográfica específica, puede filtrar por centros de datos, por regiones o por zonas individuales.
 
-Una *geografía* es un área geográfica o una demarcación política más amplia que contiene una o varias regiones. Algunos servicios reciben soporte a nivel de geografía, por lo que abarcan varias regiones y gestionan de forma transparente la duplicación y el movimiento de datos entre regiones. Por ejemplo, los datos de la geografía de la UE correspondientes a {{site.data.keyword.cos_full_notm}} pueden duplicar datos en varios centros de datos dentro de los países de la UE. 
-   * Un área *metropolitana* es una ciudad específica dentro del área geográfica específica. Por ejemplo, Dallas es un área metropolitana de América del Norte.
-      * Un *centro de datos* es la ubicación física de los servidores que proporcionan servicios de nube. Puede identificar centros de datos dentro de una geografía ampliada como opciones que utilizan el nombre de la geografía más un número.
-      * Una *región* es un territorio geográfico definido. Una región puede ser un área de código
-postal específica, un pueblo, una ciudad, un estado o grupo de estados o
-incluso un grupo de países. Puede ver la diferencia entre centros de datos y regiones en la lista por el uso de números para identificar los centros de datos.
-         * Una *zona* es un dominio de tolerancia a errores independiente diseñado para ayudar a mejorar la tolerancia a errores y a reducir la latencia. Puede identificar las zonas porque utilizan el nombre de la región más un número y están anidadas dentro de la región.
+Por ejemplo, si tiene recursos desplegados en la zona Londres 2 (eu-gb-2), puede filtrar la lista de recursos de modo que solo se muestren dichos recursos. Una zona está dentro de una región, y una región está organizada por ubicación metropolitana. Para filtrar la lista para la zona Londres 2 (eu-gb-2), amplíe la opción metropolitana **Londres** y luego amplíe la opción de región **Londres (eu-gb)**. Dentro de dicha región, puede seleccionar en la lista de zonas disponibles. Si tiene un recurso desplegado en un determinado centro de datos, puede identificar el centro de datos por la ubicación metropolitana específica y por el código alfanumérico, por ejemplo Londres 02 (lon02).
+
+También es posible que tenga recursos ubicados globalmente. La opción **Global** significa que solo una instancia del servicio lógica y accesible a nivel global, independiente de cualquier región o zona, se publica para las aplicaciones de los clientes. Se accede a estos tipos de recursos desde un punto final global.
 
 ## Centros de datos
 {: #data_center}
 
 Si despliega recursos de la infraestructura, tendrá más opciones para elegir dónde están ubicados los datos. Puede seleccionar una ubicación o puede seleccionar en la lista de centros de datos de {{site.data.keyword.Bluemix_notm}}. Un *centro de datos* es una ubicación física que aloja los recursos de alimentación, refrigeración, cálculo, red y almacenamiento utilizados en los servicios y apps. Los centros de datos no proporcionan aislamiento de errores locales similares a las varias zonas de una ubicación. Para obtener más información, consulte [Ubicaciones globales para su empresa global ![Icono de enlace externo](../icons/launch-glyph.svg "Icono de enlace externo")](https://www.ibm.com/cloud/data-centers/){: new_window}.
 
-{{site.data.keyword.Bluemix_notm}} ofrece centros de datos en diversas ubicaciones de todo el mundo. Cuando despliegue recursos de su infraestructura, puede seleccionar en una lista de los centros de datos de {{site.data.keyword.Bluemix_notm}}. 
+{{site.data.keyword.Bluemix_notm}} ofrece centros de datos en diversas ubicaciones de todo el mundo. 
 
 
-![Correlación de los centros de datos descritos en las tablas siguientes](images/Global-View.svg)
+![Mapa de centros de datos descrito en las tablas siguientes](images/Global-View.svg)
 
 ### América del Norte
 {: #na}
@@ -161,7 +157,7 @@ Si despliega recursos de la infraestructura, tendrá más opciones para elegir d
 
 {{site.data.keyword.Bluemix_notm}} proporciona un nivel de servicio de disponibilidad del 99,5% para varias instancias de un servicio de plataforma en un entorno dedicado o local.
 
-Para enviar una reclamación para el tiempo de inactividad, póngase en contacto con el [Soporte de {{site.data.keyword.Bluemix_notm}}](https://console.cloud.ibm.com/unifiedsupport/supportcenter){: new_window} ![Icono de enlace externo](../icons/launch-glyph.svg "Icono de enlace externo").
+Para enviar una reclamación por tiempo de inactividad, póngase en contacto con el [centro de soporte de {{site.data.keyword.Bluemix_notm}}](https://cloud.ibm.com/unifiedsupport/supportcenter){: new_window} ![Icono de enlace externo](../icons/launch-glyph.svg "Icono de enlace externo").
 
 {{site.data.keyword.Bluemix_notm}} proporciona SLA a los servicios de {{site.data.keyword.Bluemix_notm}} que pueden hacer que usted sea elegible para los créditos de su cuenta. Los SLA son la única forma de resolver la incapacidad de {{site.data.keyword.Bluemix_notm}} de cumplir con el nivel de servicio especificado. {{site.data.keyword.Bluemix_notm}} proporciona un nivel de servicio de disponibilidad del 99,5% para varias instancias de un servicio de plataforma en un entorno dedicado o local.
 
@@ -169,7 +165,7 @@ Para obtener más información sobre los entornos dedicados, consulte [IBM Cloud
 
 La descripción completa del servicio de {{site.data.keyword.Bluemix_notm}} está disponible en [Términos de los servicios de Cloud](http://www-03.ibm.com/software/sla/sladb.nsf/sla/bm){: new_window} ![Icono de enlace externo](../icons/launch-glyph.svg "Icono de enlace externo").
 
-### SLA de disponibilidad del tiempo de inactividad 
+### SLA de disponibilidad del tiempo de inactividad  
 {: #avail-downtime}
 
 Es elegible para un crédito en su cuenta si experimenta un tiempo de inactividad inferior a la disponibilidad del 99,5%. La disponibilidad del tiempo de inactividad es el tiempo total en minutos durante el que no se puede conectar a ninguna instancia de servicio. El tiempo total de inactividad en minutos empieza cuando envía un informe para un suceso de parada y termina cuando al menos una de las instancias afectadas está disponible y se puede utilizar.
@@ -207,27 +203,27 @@ Los servicios de infraestructura son servicios de servidores virtuales y dedicad
 
 El tiempo de inactividad es el total en minutos durante el que un servicio de infraestructura identificado por el cliente no está disponible debido a una interrupción del servicio basada en una red pública, una red privada y una potencia de infraestructura redundante y paradas de HVAC. El cálculo del tiempo de inactividad en minutos empieza cuando la parada validada que afecta al servicio se identifica hasta el momento en el que el servicio está disponible. 
 
-El tiempo de inactividad no incluye el tiempo del mantenimiento anunciado o planificado. Cada 30 minutos de tiempo de inactividad, recibirá un crédito del 5% de los cargos mensuales para los servicios identificados que se ven afectados directamente por la parada. No es elegible para obtener un crédito si el tiempo de inactividad es inferior a 30 minutos seguidos. No es posible combinar el tiempo de inactividad de distintos tipos de paradas para que alcance el cálculo. 
+El tiempo de inactividad no incluye el tiempo del mantenimiento anunciado o planificado. Cada 30 minutos de tiempo de inactividad, recibirá un crédito del 5% de los cargos mensuales para los servicios identificados que se ven afectados directamente por la parada. No es elegible para obtener un crédito si el tiempo de inactividad es inferior a 30 minutos seguidos. No es posible combinar el tiempo de inactividad de distintos tipos de paradas para que alcance el cálculo.  
 
 ### Sustitución de hardware de infraestructura y actualización de SLA
 {: #hw-replaceupgrade-sla}
 
 {{site.data.keyword.Bluemix_notm}} intenta minimizar el tiempo de inactividad al sustituir el hardware con errores o al realizar una actualización de hardware planificada. 
 
-{{site.data.keyword.Bluemix_notm}} proporciona crédito a: 
+{{site.data.keyword.Bluemix_notm}} proporciona crédito a:  
 - La sustitución de hardware basada en el tiempo para realizar una sustitución a partir del momento en que {{site.data.keyword.Bluemix_notm}} verifica que un cliente ha informado sobre un error de hardware.
 - Actualizaciones de hardware planificadas en función del tiempo de inactividad del servicio que recibe la actualización. 
 
 Los períodos de tiempo del nivel de servicio excluyen cualquier momento en el que sea necesario volver a cargar el sistema operativo o las aplicaciones o el rendimiento de tiempo pueden degradarse. Tiene derecho a un crédito en función del cargo mensual del servicio que se ve afectado por la sustitución o actualización de hardware si {{site.data.keyword.Bluemix_notm}} no alcanza un período de tiempo del nivel de servicio especificado.
 
-| Periodo de Tiempo de Nivel de Servicio  | Porcentaje de crédito |
+| Periodo de Tiempo de Nivel de Servicio | Porcentaje de crédito |
 |---------------------------|----------------|
 | ≤ 2 horas                 | Ninguna           |
 | > 2 horas                 | 20%            |
 | > 6 horas                 | 40%            |
 | > 10 horas                | 60%            |
 | > 14 horas                | 80%            |
-| > 18 horas                | 80%            |
+| > 18 horas                | 80%            |
 {: caption="Tabla 6. Crédito basada en el cargo mensual del servicio que se ve afectado por la actualización o sustitución de hardware" caption-side="top"}
 
 ### Reclamaciones
@@ -239,7 +235,7 @@ El crédito será la compensación aplicable más alta en función de la disponi
 acumulativa de los servicios afectados durante un mes contratado calculado utilizando los
 cargos mensuales para estos servicios afectados. Los créditos no puede superar el 25% del cargo mensual.
 
-Para enviar una reclamación para el tiempo de inactividad, póngase en contacto con el [Soporte de {{site.data.keyword.Bluemix_notm}}](https://console.cloud.ibm.com/unifiedsupport/supportcenter){: new_window} ![Icono de enlace externo](../icons/launch-glyph.svg "Icono de enlace externo").
+Para enviar una reclamación por tiempo de inactividad, póngase en contacto con el [centro de soporte de {{site.data.keyword.Bluemix_notm}}](https://cloud.ibm.com/unifiedsupport/supportcenter){: new_window} ![Icono de enlace externo](../icons/launch-glyph.svg "Icono de enlace externo").
 
 ### Exclusiones
 {: #exclusions}
