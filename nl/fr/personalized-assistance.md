@@ -2,7 +2,7 @@
 
 copyright:
   years: 2019
-lastupdated: "2019-05-16"
+lastupdated: "2019-06-04"
 
 keywords: personalized onboarding, onboarding program, Global Client Success
 
@@ -26,7 +26,7 @@ subcollection: overview
 {{site.data.keyword.IBM}} considère essentiel de privilégier le client pour chaque interaction. Pour cela, notre équipe Global Client Success vous offre une assistance personnalisée par le biais d'un programme d'intégration.
 {: shortdesc}
 
-Vous devez disposer d'un compte de paiement à la carte ou d'abonnement pour prétendre à une intégration personnalisée.
+Vous devez être connecté à votre compte de paiement à la carte ou d'abonnement pour prétendre à une intégration personnalisée.
 {: important}
 
 Nous sommes là pour vous aider dans tous les domaines liés à {{site.data.keyword.cloud}}, y compris : 

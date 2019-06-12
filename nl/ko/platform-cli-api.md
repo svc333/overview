@@ -4,7 +4,7 @@ copyright:
 
   years: 2018, 2019
 
-lastupdated: "2019-05-13"
+lastupdated: "2019-06-03"
 
 keywords: resource groups, platform CLI, platform API
 
@@ -35,7 +35,7 @@ subcollection: overview
 |리소스 제어기 |[리소스 및 리소스 그룹에 대한 작업](/docs/cli/reference/ibmcloud?topic=cloud-cli-ibmcloud_commands_resource) |[{{site.data.keyword.Bluemix_notm}} Resource Controller API](https://console.cloud.ibm.com/apidocs/resource-controller){: new_window} ![외부 링크 아이콘](../icons/launch-glyph.svg "외부 링크 아이콘") <br><br> [{{site.data.keyword.cloud_notm}} Open Service Broker API](https://console.cloud.ibm.com/apidocs/ibm-cloud-osb-api){: new_window} ![외부 링크 아이콘](../icons/launch-glyph.svg "외부 링크 아이콘") |
 |리소스 관리자 |[리소스 및 리소스 그룹에 대한 작업](/docs/cli/reference/ibmcloud?topic=cloud-cli-ibmcloud_commands_resource) |[{{site.data.keyword.Bluemix_notm}} Resource Manager API](https://console.cloud.ibm.com/apidocs/resource-manager){: new_window} ![외부 링크 아이콘](../icons/launch-glyph.svg "외부 링크 아이콘") |
 |카탈로그 |[카탈로그 오퍼링 검색 및 관리](/docs/cli/reference/ibmcloud?topic=cloud-cli-ibmcloud_catalog) |[Catalog API](https://console.cloud.ibm.com/apidocs/globalcatalog){: new_window} ![외부 링크 아이콘](../icons/launch-glyph.svg "외부 링크 아이콘") |
-|검색 및 태그 지정 |[리소스 검색](/docs/cli/reference/ibmcloud?topic=cloud-cli-ibmcloud_commands_resource#ibmcloud_resource_search) <br><br>  [리소스 태그 지정](/docs/cli/reference/ibmcloud/cli_resource_group.html#ibmcloud_resource_tags) | |
+|검색 및 태그 지정 |[리소스 검색](/docs/cli/reference/ibmcloud?topic=cloud-cli-ibmcloud_commands_resource#ibmcloud_resource_search) <br><br>  [리소스 태그 지정](/docs/cli/reference/ibmcloud?topic=cloud-cli-ibmcloud_commands_resource#ibmcloud_resource_tags) | |
 {: caption="표 1. 플랫폼 서비스 CLI 및 API" caption-side="top"}
 
 

@@ -2,7 +2,7 @@
 
 copyright:
   years: 2018, 2019
-lastupdated: "2019-05-23"
+lastupdated: "2019-06-04"
 
 keywords: HA, failover, DR, high availability, disaster recovery, locations, data centers
 
@@ -64,7 +64,7 @@ Pour des raisons de sécurité, vous pouvez également sélectionner l'emplaceme
 
 L'équilibrage de charge global pour la console {{site.data.keyword.cloud_notm}} garantit que si l'emplacement géographique le plus proche n'est pas disponible, la console affiche les informations de l'emplacement le plus proche suivant. De la sorte, vous pouvez toujours accéder à la console sans avoir à effectuer d'action pour obtenir les ressources dont vous avez besoin.
 
-Par défaut, vous pouvez afficher dans la console toutes les ressources de tous les emplacements de la liste de ressources. Si vous souhaitez afficher et utiliser les ressources d'un emplacement spécifique, développez le menu **Emplacement** puis sélectionnez un emplacement dans la liste. En développant un emplacement géographique spécifique, vous pouvez choisir d'effectuer le filtrage par centre de données ou région individuel ou par zone. 
+Par défaut, vous pouvez afficher dans la console toutes les ressources de tous les emplacements de la liste de ressources. Si vous souhaitez afficher et utiliser les ressources d'un emplacement spécifique, développez le menu **Emplacement** puis sélectionnez un emplacement dans la liste. En développant un emplacement géographique spécifique, vous pouvez choisir d'effectuer le filtrage par centre de données ou région individuel ou par zone.
 
 Par exemple, si certaines de vos ressources sont déployées dans la zone London 2 (eu-gb-2), vous pouvez filtrer votre liste de ressources afin d'afficher uniquement ces ressources. Une zone se trouve dans une région et une région est organisée par agglomération. Pour filtrer votre liste sur la zone London 2 (eu-gb-2), développez l'option d'agglomération **London**, puis développez l'option de région **London (eu-gb)**. Dans cette région, vous pouvez effectuer une sélection dans la liste de zones disponibles. Si l'une de vos ressources est déployée dans un centre de données spécifique, vous pouvez identifier le centre de données par son agglomération et son code alphanumérique, par exemple, London 02 (lon02).
 
@@ -80,8 +80,8 @@ Lorsque vous déployez des ressources d'infrastructure, vous disposez de plus de
 
 ![Carte des centres de données décrits dans les tableaux suivants](images/Global-View.svg)
 
-### Amérique du Nord
-{: #na}
+
+Pour connaître le code spécifique de chaque centre de données, voir le tableau suivant : 
 
 | Centre de données | Code  |
 |------------------|-------|
@@ -93,63 +93,62 @@ Lorsque vous déployez des ressources d'infrastructure, vous disposez de plus de
 | Dallas 10        | dal10 |
 | Dallas 12        | dal12 |
 | Dallas 13        | dal13 |
+| Houston 01       | hou01 |
+| Mexico 01        | mex01 |
+| Montréal 01      | mon01 |
+| San José 01      | sjc01 |
+| San José 03      | sjc03 |
+| San José 04      | sjc04 |
+| Sao Paulo 01     | sao01 |
+| Seattle 01       | sea01 |
+| Toronto 01       | tor01 |
 | Washington DC 01 | wdc01 |
 | Washington DC 04 | wdc04 |
 | Washington DC 06 | wdc06 |
 | Washington DC 07 | wdc07 |
-| San José 01      | sjc01 |
-| San José 03      | sjc03 |
-| San José 04      | sjc04 |
-| Seattle 01       | sea01 |
-| Houston 01       | hou01 |
-| Montréal 01      | mon01 |
-| Toronto 01       | tor01 |
-| Mexico 01        | mex01 |
-{: caption="Tableau 1. Centres de données en Amérique du Nord" caption-side="top"}
-
-### Amérique du Sud
-{: #sa}
-
-| Centre de données | Code    |
-|------------------|---------|
-| Sao Paulo 01     | sao01   |
-{: caption="Tableau 2. Centre de données en Amérique du Sud" caption-side="top"}
-
-### Europe
-{: #eu}
+{: caption="Tableau 1. Centres de données en Amérique du Nord et en Amériques du Sud" caption-side="top"}
+{: #americas}
+{: tab-title="Americas"}
+{: tab-group="dcs"}
+{: class="simple-tab-table"}
 
 | Centre de données | Code  |
 |------------------|-------|
+| Amsterdam 01     | ams01 |
+| Amsterdam 03     | ams03 |
+| Francfort 02     | fra02 |
+| Francfort 04     | fra04 |
+| Francfort 05     | fra05 |
 | Londres 02        | lon02 |
 | Londres 04        | lon04 |
 | Londres 05        | lon05 |
 | Londres 06        | lon06 |
-| Francfort 02     | fra02 |
-| Francfort 04     | fra04 |
-| Francfort 05     | fra05 |
 | Milan 01         | mil01 |
-| Amsterdam 01     | ams01 |
-| Amsterdam 03     | ams03 |
-| Paris 01         | par01 |
 | Oslo 01          | osl01 |
-{: caption="Tableau 3. Centres de données en Europe" caption-side="top"}
-
-### Asie-Pacifique
-{: #ap}
+| Paris 01         | par01 |
+{: caption="Tableau 2. Centres de données en Europe" caption-side="top"}
+{: #europe}
+{: tab-title="Europe"}
+{: tab-group="dcs"}
+{: class="simple-tab-table"}
 
 | Centre de données | Code  |
 |------------------|-------|
-| Tokyo 01         | tok02 | 
-| Tokyo 04         | tok04 |
-| Tokyo 05         | tok05 |
-| Séoul 01         | seo01 |
 | Hong Kong 02     | hkg02 |
+| Melbourne 01     | mel01 |
+| Séoul 01         | seo01 |
 | Singapour 01     | sng01 |
 | Sydney 01        | syd01 |
 | Sydney 04        | syd04 |
 | Sydney 05        | syd05 |
-| Melbourne 01     | mel01 |
-{: caption="Tableau 4. Centre de données dans la zone Asie-Pacifique" caption-side="top"}
+| Tokyo 01         | tok02 | 
+| Tokyo 04         | tok04 |
+| Tokyo 05         | tok05 |
+{: caption="Tableau 3. Centres de données dans la zone Asie-Pacifique" caption-side="top"}
+{: #asiapacific}
+{: tab-title="Asia Pacific"}
+{: tab-group="dcs"}
+{: class="simple-tab-table"}
 
 
 ## Accords sur les niveaux de service (SLA)
@@ -223,7 +222,7 @@ Les périodes de niveau de service excluent la durée de rechargement du systèm
 | > 6 heures                 | 40 %            |
 | > 10 heures                | 60 %            |
 | > 14 heures                | 80 %            |
-| > 18 heures               | 80 %            |
+| > 18 heures                | 80 %            |
 {: caption="Tableau 6. Crédit en fonction des frais mensuels pour le service affecté par la mise à niveau ou le remplacement matériel" caption-side="top"}
 
 ### Réclamations

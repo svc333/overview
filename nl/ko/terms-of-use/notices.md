@@ -28,7 +28,7 @@ subcollection: overview
 
   * 다음과 같이 귀하에게 적용되는 기본 계약 Cloud 조건들:
     * 미화 달러 신용 카드 청구에 관한 SoftLayer 클라우드 서비스 계약([https://www.ibm.com/support/customer/zz/en/softlayer.html](https://www.ibm.com/support/customer/zz/en/softlayer.html){: new_window} ![외부 링크 아이콘](../../icons/launch-glyph.svg) 참조)
-    * 미화 달러 외(non-US Dollar) 신용 카드 청구, 또는 귀하가 IBM 발행 청구서를 선택한 경우에 관한 IBM 클라우드 서비스 계약(현지 국가 버전*)([https://www.ibm.com/terms](https://www.ibm.com/terms){: new_window} ![외부 링크 아이콘](../../icons/launch-glyph.svg) 참조)(귀하의 국가 선택),
+    * 미화 달러 외(non-US Dollar) 신용 카드 청구, 또는 귀하가 IBM 발행 청구서를 선택한 경우에 관한 IBM 클라우드 서비스 계약(현지 국가 버전*)([https://www.ibm.com/terms](https://www.ibm.com/support/customer/csol/terms/){: new_window} ![외부 링크 아이콘](../../icons/launch-glyph.svg) 참조)(귀하의 국가 선택),
     * 귀하가 동의한 IBM Passport Advantage 계약 및 IBM Passport Advantage 고객을 위한 클라우드 오퍼링 이용 약관(TOU)의 일반 조건들([http://www-03.ibm.com/software/sla/sladb.nsf/sla/tou](http://www-03.ibm.com/software/sla/sladb.nsf/sla/tou){: new_window} ![외부 링크 아이콘](../../icons/launch-glyph.svg) 참조) 또는
     * 귀하와 IBM 간의 동등한 클라우드 서비스 기본 계약 조항,
   * IBM Cloud 서비스 명세서([http://www-03.ibm.com/software/sla/sladb.nsf/sla/bm](http://www-03.ibm.com/software/sla/sladb.nsf/sla/bm){: new_window} ![외부 링크 아이콘](../../icons/launch-glyph.svg) 참조),
@@ -147,7 +147,7 @@ IBM Cloud에서는 거래 및 경제 제제 대상인 국가들에 있는 IP 주
 ## 상표
 {: #trademarks}
 
-IBM, IBM 로고 및 ibm.com은 전세계 여러 국가에 등록된 International Business Machines Corp.의 상표 또는 등록상표입니다. 기타 제품 및 서비스 이름은 IBM 또는 타사의 상표입니다. 현재 IBM 상표 목록은 웹 "[저작권 및 상표 정보"(https://www.ibm.com/legal/us/en/copytrade.shtml) ![외부 링크 아이콘](../../icons/launch-glyph.svg)](https://www.ibm.com/legal/us/en/copytrade.shtml){: new_window}에 있습니다.
+IBM, IBM 로고 및 ibm.com은 전세계 여러 국가에 등록된 International Business Machines Corp.의 상표 또는 등록상표입니다. 기타 제품 및 서비스 이름은 IBM 또는 타사의 상표입니다. 현재 IBM 상표 목록은 웹 "[저작권 및 상표 정보"(https://www.ibm.com/legal/us/en/copytrade.shtml) ![외부 링크 아이콘](../../icons/launch-glyph.svg)](https://www.ibm.com/legal/copytrade){: new_window}에 있습니다.
 
 Adobe, Adobe 로고, PostScript 및 PostScript 로고는 미국 및/또는 기타 국가에서 사용되는 Adobe Systems Incorporated의 등록상표 또는 상표입니다.
 

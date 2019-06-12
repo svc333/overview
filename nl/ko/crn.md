@@ -4,7 +4,7 @@ copyright:
 
   years: 2017, 2019
 
-lastupdated: "2019-02-21"
+lastupdated: "2019-05-06"
 
 keywords: crn, cloud resource name
 
@@ -100,23 +100,46 @@ CRN의 기본적인 표준 형식은 다음과 같습니다.
 ### 데이터 센터
 {: #dc-crn}
 
+ * `AMS01  `
+ * `AMS03  `
+ * `CHE01  `
+ * `DAL01  `
+ * `DAL05  `
+ * `DAL06  `
+ * `DAL07  `
+ * `DAL09  `
+ * `DAL10  `
+ * `DAL12  `
+ * `DAL13  `
+ * `FRA02  `
+ * `HKG02  `
+ * `HOU02  `
+ * `LON02  `
+ * `MEL01  `
+ * `MEX01  `
+ * `MIL01  `
+ * `MON01  `
+ * `OSL01  `
+ * `PAR01  `
+ * `SJC01  `
+ * `SJC03  `
+ * `SAO01  `
+ * `SEA01  `
+ * `SEO01  `
+ * `SNG01  `
+ * `SYD01  `
+ * `TOK02  `
+ * `TOR01  `
+ * `WDC01  `
+ * `WDC04  `
+ * `WDC06  `
+ * `WDC07  `
 
-| | | | | |
-|---|---|---|---|---|
-|AMS01  |AMS03  |CHE01  |DAL01  |DAL05  |
-|DAL06  |DAL07  |DAL09  |DAL10  |DAL12  |
-|DAL13  |FRA02  |HKG02  |HOU02  |LON02  |
-|MEL01  |MEX01  |MIL01  |MON01  |OSL01  |
-|PAR01  |SJC01  |SJC03  |SAO01  |SEA01  |
-|SEO01  |SNG01  |SYD01  |TOK02  |TOR01  |
-|WDC01  |WDC04  |WDC06  |WDC07  |
-{: caption="표 1. 유효한 데이터 센터 값" caption-side="top"}
-
-일부 리소스는 `global`로 간주될 수 있으므로 지역을 필요로 하지 않습니다. 이 경우에는 `region` 세그먼트가 `global`로 설정됩니다.
+일부 리소스는 글로벌로 간주될 수 있으므로 지역이 필요하지 않습니다. 이 경우에는 `region` 세그먼트가 `global`로 설정됩니다.
 {: tip}
 
 
-## scope
+## 범위(scope)
 {: #scope-crn}
 
 `scope` 세그먼트는 리소스의 소유자 또는 포함을 식별합니다. 일부 리소스에서는 소유자가 필요하지 않습니다(`global`로 간주될 수 있음). 이 경우에는 `scope` 세그먼트가 비어 있습니다(공백 문자열).
@@ -128,7 +151,7 @@ CRN의 기본적인 표준 형식은 다음과 같습니다.
 |계정 |a/`{account id}` | 리소스가 작성된 계정입니다. | `a/292558` |
 |조직 |o/`{org guid}` | 리소스가 지정된 {{site.data.keyword.Bluemix_notm}} 조직입니다. | `o/4716e2d1-35b7-431f-891a-b552bf0b3c66` |
 |영역 |s/`{space guid}` | 리소스가 지정된 {{site.data.keyword.Bluemix_notm}} 영역입니다. | `s/48b3cdcd-e804-4398-9032-73065863ad7c` |
-{: caption="표 2. 범위 사용" caption-side="top"}
+{: caption="표 1. `범위` 사용" caption-side="top"}
 
 
 
@@ -162,7 +185,7 @@ ibmcloud resource service-instance
 ## CRN 예
 {: #crn_examples}
 
-다음은 CRN 예의 목록입니다.
+다음 표에는 CRN 예 목록이 나열되어 있습니다. 
 
 |예 |값 |
 | --- | --- |
@@ -170,4 +193,4 @@ ibmcloud resource service-instance
 |리소스 그룹 |`crn:v1:bluemix:public:resource-controller: global:a/59bcbfa6ea2f006b4ed7094c1a08dcdd:resource-group:59bcbfa6ea2f006b4ed7094c1a08dcdd` |
 |서비스 인스턴스 |`crn:v1:bluemix:public:cloud-object-storage:global:a/59bcbfa6ea2f006b4ed7094c1a08dcdd:1a0ec336-f391-4091-a6fb-5e084a4c56f4::` |
 |버킷 |`crn:v1:bluemix:public:cloud-object-storage:global:a/59bcbfa6ea2f006b4ed7094c1a08dcdd:1a0ec336-f391-4091-a6fb-5e084a4c56f4:bucket:mybucket` |
-{: caption="표 3. CRN 예" caption-side="top"}
+{: caption="표 2. CRN 예" caption-side="top"}

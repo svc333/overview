@@ -4,7 +4,7 @@ copyright:
 
   years: 2017, 2019
 
-lastupdated: "2019-02-21"
+lastupdated: "2019-05-06"
 
 keywords: crn, cloud resource name
 
@@ -31,8 +31,7 @@ CRN 由分层标识资源、其位置和所属服务的“分段”并置构成�
 
 CRN 的基本规范格式为：
 
-`   crn:version:cname:ctype:service-name:location:scope:service-instance:resource-type:resource
-   `
+`crn:version:cname:ctype:service-name:location:scope:service-instance:resource-type:resource`
 
 
 ## version
@@ -75,7 +74,7 @@ CRN 的基本规范格式为：
 
 `location` 分段必须是以下其中一个值：
 
-### 全局
+### 全球
 {: #global-crn}
 
  * `global`
@@ -101,23 +100,46 @@ CRN 的基本规范格式为：
 ### 数据中心
 {: #dc-crn}
 
+ * `AMS01  `
+ * `AMS03  `
+ * `CHE01  `
+ * `DAL01  `
+ * `DAL05  `
+ * `DAL06  `
+ * `DAL07  `
+ * `DAL09  `
+ * `DAL10  `
+ * `DAL12  `
+ * `DAL13  `
+ * `FRA02  `
+ * `HKG02  `
+ * `HOU02  `
+ * `LON02  `
+ * `MEL01  `
+ * `MEX01  `
+ * `MIL01  `
+ * `MON01  `
+ * `OSL01  `
+ * `PAR01  `
+ * `SJC01  `
+ * `SJC03  `
+ * `SAO01  `
+ * `SEA01  `
+ * `SEO01  `
+ * `SNG01  `
+ * `SYD01  `
+ * `TOK02  `
+ * `TOR01  `
+ * `WDC01  `
+ * `WDC04  `
+ * `WDC06  `
+ * `WDC07  `
 
-| | | | | |
-|---|---|---|---|---|
-|AMS01  |AMS03  |CHE01  |DAL01  |DAL05  |
-|DAL06  |DAL07  |DAL09  |DAL10  |DAL12  |
-|DAL13  |FRA02  |HKG02  |HOU02  |LON02  |
-|MEL01  |MEX01  |MIL01  |MON01  |OSL01  |
-|PAR01  |SJC01  |SJC03  |SAO01  |SEA01  |
-|SEO01  |SNG01  |SYD01  |TOK02  |TOR01  |
-|WDC01  |WDC04  |WDC06  |WDC07  |
-{: caption="表 1. 有效的数据中心值" caption-side="top"}
-
-某些资源不需要区域，因为这些资源可以视为 `global`。在这种情况下，`region` 分段设置为 `global`。
+某些资源不需要区域，因为这些资源可以视为全球资源。在这种情况下，`region` 分段设置为 `global`。
 {: tip}
 
 
-## 作用域
+## 作用域 (scope)
 {: #scope-crn}
 
 `scope` 分段标识资源的包含范围或所有者。某些资源不需要所有者（这些资源可以视为 `global`）。在这种情况下，`scope` 分段为空（空字符串）。
@@ -129,7 +151,7 @@ CRN 的基本规范格式为：
 |帐户|a/`{account id}`|已在其中创建资源的帐户。|`a/292558`|
 |组织|o/`{org guid}`|分配有该资源的 {{site.data.keyword.Bluemix_notm}} 组织。|`o/4716e2d1-35b7-431f-891a-b552bf0b3c66`|
 |空间|s/`{space guid}`|分配有该资源的 {{site.data.keyword.Bluemix_notm}} 空间。|`s/48b3cdcd-e804-4398-9032-73065863ad7c`|
-{: caption="表 2. 作用域用法" caption-side="top"}
+{: caption="表 1. `scope` 用法" caption-side="top"}
 
 
 
@@ -140,7 +162,7 @@ CRN 的基本规范格式为：
 
 `service-instance` 必须为字母数字、小写，并且不得包含空格或除“-”和“/”之外的特殊字符。
 
-例如，用于跟踪和规划工作项的 DevOps 工具可以有简单的 `GUID` 实例标识（“1234-5678-9012-3456”），其中自动扩展组服务的策略组件可以使用分层命名约定，并且其 `service-id` 分段如下：
+例如，用于跟踪和规划工作项的 DevOps 工具可以有简单的 `GUID` 实例标识（“1234-5678-9012-3456”），其中自动缩放组服务的策略组件可以使用分层命名约定，并且其 `service-id` 分段如下：
 
 >`c7a27f55-d35e-4153-b044-8ca9155fc467/my-test-asg1/my-scaleout-policy`
 
@@ -163,7 +185,7 @@ ibmcloud resource service-instance
 ## CRN 示例
 {: #crn_examples}
 
-下面是 CRN 示例的列表。
+下表提供了 CRN 示例的列表。
 
 |示例|值|
 | --- | --- |
@@ -171,4 +193,4 @@ ibmcloud resource service-instance
 |资源组|`crn:v1:bluemix:public:resource-controller: global:a/59bcbfa6ea2f006b4ed7094c1a08dcdd:resource-group:59bcbfa6ea2f006b4ed7094c1a08dcdd` |
 |服务实例|`crn:v1:bluemix:public:cloud-object-storage:global:a/59bcbfa6ea2f006b4ed7094c1a08dcdd:1a0ec336-f391-4091-a6fb-5e084a4c56f4::` |
 |存储区|`crn:v1:bluemix:public:cloud-object-storage:global:a/59bcbfa6ea2f006b4ed7094c1a08dcdd:1a0ec336-f391-4091-a6fb-5e084a4c56f4:bucket:mybucket` |
-{: caption="表 3. CRN 示例" caption-side="top"}
+{: caption="表 2. CRN 示例" caption-side="top"}

@@ -4,7 +4,7 @@ copyright:
 
   years: 2018, 2019
 
-lastupdated: "2019-05-13"
+lastupdated: "2019-06-03"
 
 keywords: resource groups, platform CLI, platform API
 
@@ -35,7 +35,7 @@ Utilisez le tableau suivant pour obtenir une vue d'ensemble des documents d'API 
 | Resource controller | [Utilisation de ressources et de groupes de ressources](/docs/cli/reference/ibmcloud?topic=cloud-cli-ibmcloud_commands_resource) | [{{site.data.keyword.Bluemix_notm}} Resource Controller API](https://console.cloud.ibm.com/apidocs/resource-controller){: new_window} ![Icône de lien externe](../icons/launch-glyph.svg "Icône de lien externe") <br><br> [{{site.data.keyword.cloud_notm}} Open Service Broker API](https://console.cloud.ibm.com/apidocs/ibm-cloud-osb-api){: new_window} ![Icône de lien externe](../icons/launch-glyph.svg "Icône de lien externe") |
 | Resource manager | [Utilisation de ressources et de groupes de ressources](/docs/cli/reference/ibmcloud?topic=cloud-cli-ibmcloud_commands_resource) | [{{site.data.keyword.Bluemix_notm}} Resource Manager API](https://console.cloud.ibm.com/apidocs/resource-manager){: new_window} ![Icône de lien externe](../icons/launch-glyph.svg "Icône de lien externe") |
 | Catalog | [Recherche et gestion des offres de catalogue](/docs/cli/reference/ibmcloud?topic=cloud-cli-ibmcloud_catalog) | [Catalog API](https://console.cloud.ibm.com/apidocs/globalcatalog){: new_window} ![Icône de lien externe](../icons/launch-glyph.svg "Icône de lien externe") |
-| Search & tagging | [Recherche de ressources](/docs/cli/reference/ibmcloud?topic=cloud-cli-ibmcloud_commands_resource#ibmcloud_resource_search) <br><br>  [Etiquetage de ressources](/docs/cli/reference/ibmcloud/cli_resource_group.html#ibmcloud_resource_tags) | |
+| Search & tagging | [Recherche de ressources](/docs/cli/reference/ibmcloud?topic=cloud-cli-ibmcloud_commands_resource#ibmcloud_resource_search) <br><br>  [Etiquetage de ressources](/docs/cli/reference/ibmcloud?topic=cloud-cli-ibmcloud_commands_resource#ibmcloud_resource_tags) | |
 {: caption="Tableau 1. API et interface de ligne de commande des services de plateforme" caption-side="top"}
 
 

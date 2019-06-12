@@ -2,7 +2,7 @@
 
 copyright:
   years: 2018, 2019
-lastupdated: "2019-05-23"
+lastupdated: "2019-06-04"
 
 keywords: HA, failover, DR, high availability, disaster recovery, locations, data centers
 
@@ -80,8 +80,8 @@ subcollection: overview
 
 ![以下各表中描述的数据中心的地图](images/Global-View.svg)
 
-### 北美洲
-{: #na}
+
+有关每个数据中心的特定代码，请参阅下表。 
 
 |数据中心| 代码|
 |------------------|-------|
@@ -93,63 +93,62 @@ subcollection: overview
 |达拉斯 10|dal10|
 |达拉斯 12|dal12|
 |达拉斯 13|dal13|
+|休斯顿 01|hou01|
+|墨西哥 01|mex01|
+|蒙特利尔 01|mon01|
+|圣何塞 01|sjc01|
+|圣何塞 03|sjc03|
+|圣何塞 04|sjc04|
+|圣保罗 01|sao01|
+|西雅图 01|sea01|
+|多伦多 01|tor01|
 |华盛顿特区 01|wdc01|
 |华盛顿特区 04|wdc04|
 |华盛顿特区 06|wdc06|
 |华盛顿特区 07|wdc07|
-|圣何塞 01|sjc01|
-|圣何塞 03|sjc03|
-|圣何塞 04|sjc04|
-|西雅图 01|sea01|
-|休斯顿 01|hou01|
-|蒙特利尔 01|mon01|
-|多伦多 01|tor01|
-|墨西哥 01|mex01|
-{: caption="表 1. 北美的数据中心" caption-side="top"}
-
-### 南美洲
-{: #sa}
-
-|数据中心| 代码|
-|------------------|---------|
-|圣保罗 01|sao01|
-{: caption="表 2. 南美的数据中心" caption-side="top"}
-
-### 欧洲
-{: #eu}
+{: caption="表 1. 北美和南美的数据中心" caption-side="top"}
+{: #americas}
+{: tab-title="Americas"}
+{: tab-group="dcs"}
+{: class="simple-tab-table"}
 
 |数据中心| 代码|
 |------------------|-------|
+|阿姆斯特丹 01|ams01|
+|阿姆斯特丹 03|ams03|
+|法兰克福 02|fra02|
+|法兰克福 04|fra04|
+|法兰克福 05|fra05|
 |伦敦 02|lon02|
 |伦敦 04|lon04|
 |伦敦 05|lon05|
 |伦敦 06|lon06|
-|法兰克福 02|fra02|
-|法兰克福 04|fra04|
-|法兰克福 05|fra05|
 |米兰 01|mil01|
-|阿姆斯特丹 01|ams01|
-|阿姆斯特丹 03|ams03|
-|巴黎 01|par01|
 |奥斯陆 01|osl01|
-{: caption="表 3. 欧洲的数据中心" caption-side="top"}
-
-### 亚太地区 
-{: #ap}
+|巴黎 01|par01|
+{: caption="表 2. 欧洲的数据中心" caption-side="top"}
+{: #europe}
+{: tab-title="Europe"}
+{: tab-group="dcs"}
+{: class="simple-tab-table"}
 
 |数据中心| 代码|
 |------------------|-------|
-|东京 01|tok02| 
-|东京 04|tok04|
-|东京 05|tok05|
-|首尔 01|seo01|
 |香港 02|hkg02|
+|墨尔本 01|mel01|
+|首尔 01|seo01|
 |新加坡 01|sng01|
 |悉尼 01|syd01|
 |悉尼 04|syd04|
 |悉尼 05|syd05|
-|墨尔本 01|mel01|
-{: caption="表 4. 亚太地区的数据中心" caption-side="top"}
+|东京 01|tok02| 
+|东京 04|tok04|
+|东京 05|tok05|
+{: caption="表 3. 亚太地区的数据中心" caption-side="top"}
+{: #asiapacific}
+{: tab-title="Asia Pacific"}
+{: tab-group="dcs"}
+{: class="simple-tab-table"}
 
 
 ## 服务级别协议 (SLA)

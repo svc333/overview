@@ -4,7 +4,7 @@ copyright:
 
   years: 2015, 2019
 
-lastupdated: "2019-05-13"
+lastupdated: "2019-06-03"
 
 keywords: release notes, what's new, what is new, cloud updates
 
@@ -34,7 +34,7 @@ subcollection: overview
 ### 연관된 태그가 있는 사용 데이터 내보내기
 신규 기준일: 2019년 4월 4일 
 
-이제 사용자가 최신 태깅 기능을 활용하여 내보내기 사용량 보고서에서 리소스, 사용량 및 비용을 관리할 수 있습니다. 리소스에 태그를 추가할 때 리소스와 연관된 태그를 보는 옵션이 있습니다. **관리**> **청구 및 사용량**> **사용량**> **CSV 내보내기**>  **인스턴스**로 이동하여 사용량 보고서를 다운로드하십시오. 태그 내보내기에 대한 자세한 정보는 [비용 할당을 지원하도록 사용량 데이터에서 태그 내보내기](https://www.ibm.com/cloud/blog/export-your-tagged-usage-data-within-the-enhanced-ibm-cloud){: new_window} ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘") 블로그 게시물을 확인하십시오. 
+이제 사용자가 최신 태깅 기능을 활용하여 내보내기 사용량 보고서에서 리소스, 사용량 및 비용을 관리할 수 있습니다. 리소스에 태그를 추가할 때 리소스와 연관된 태그를 보는 옵션이 있습니다. **관리**> **청구 및 사용량**> **사용량**> **CSV 내보내기**>  **인스턴스**로 이동하여 사용량 보고서를 다운로드하십시오. 태그 내보내기에 대한 자세한 정보는 [비용 할당을 지원하도록 사용량 데이터에서 태그 내보내기](https://www.ibm.com/cloud/blog/export-your-tagged-usage-data-within-the-enhanced-ibm-cloud){: new_window} ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘") 블로그 게시물을 확인하십시오.
 
 ### 리소스에 대한 공용 액세스 사용을 위한 액세스 그룹
 신규 기준일: 2019년 3월 25일

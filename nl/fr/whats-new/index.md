@@ -4,7 +4,7 @@ copyright:
 
   years: 2015, 2019
 
-lastupdated: "2019-05-13"
+lastupdated: "2019-06-03"
 
 keywords: release notes, what's new, what is new, cloud updates
 
@@ -34,7 +34,7 @@ Si vous recherchez des mises à jour des services disponibles dans {{site.data.k
 ### Exportation de données d'utilisation avec des étiquettes associées
 Nouveau à compter du : 4 avril 2019 
 
-Vous pouvez désormais utiliser nos fonctions d'étiquetage les plus récentes pour gérer les ressources, l'utilisation et les coûts dans le rapport d'utilisation exporté. Lorsque vous ajoutez une étiquette à une ressource, vous pouvez afficher cette étiquette. Accédez à **Gérer**> **Facturation et utilisation**> **Utilisation**> **Exporter au format CSV**>  **Instances** pour télécharger votre rapport d'utilisation. Pour plus d'informations sur l'exportation d'étiquettes, consultez l'article de blogue [Export tags within your usage data to help with cost allocation](https://www.ibm.com/cloud/blog/export-your-tagged-usage-data-within-the-enhanced-ibm-cloud){: new_window} ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe"). 
+Vous pouvez désormais utiliser nos fonctions d'étiquetage les plus récentes pour gérer les ressources, l'utilisation et les coûts dans le rapport d'utilisation exporté. Lorsque vous ajoutez une étiquette à une ressource, vous pouvez afficher cette étiquette. Accédez à **Gérer**> **Facturation et utilisation**> **Utilisation**> **Exporter au format CSV**>  **Instances** pour télécharger votre rapport d'utilisation. Pour plus d'informations sur l'exportation d'étiquettes, consultez l'article de blogue [Export tags within your usage data to help with cost allocation](https://www.ibm.com/cloud/blog/export-your-tagged-usage-data-within-the-enhanced-ibm-cloud){: new_window} ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe").
 
 ### Groupe d'accès pour l'activation de l'accès public aux ressources
 Nouveau à compter du : 25 mars 2019

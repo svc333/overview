@@ -3,7 +3,7 @@
 
 copyright:
   years: 2016, 2019
-lastupdated: "2019-05-13"
+lastupdated: "2019-05-31"
 
 keywords: console, platform overview, overview
 
@@ -20,13 +20,15 @@ subcollection: overview
 IBM의 클라우드 플랫폼은 PaaS(Platform as a Service)를 IaaS(Infrastructure as a Service)와 결합하여 통합 환경을 제공합니다. 이 플랫폼은 소규모 개발 팀 및 조직과 대규모 엔터프라이즈 비즈니스를 모두 스케일링하고 지원합니다. {{site.data.keyword.cloud}}에서 빌드하는 이 솔루션은 전세계의 데이터 센터에 글로벌로 배치되어 신뢰할 수있는 테스트되고 지원되는 환경에서 신속하게 스핀업되고 안정적으로 수행됩니다.
 {: .shortdesc}
 
-{{site.data.keyword.Bluemix_notm}} 플랫폼은 일관되고 신뢰할 수 있는 클라우드 경험을 제공하기 위해 함께 작동하는 여러 컴포넌트로 구성됩니다. 
+다음 다이어그램에 표시된 바와 같이, {{site.data.keyword.Bluemix_notm}} 플랫폼은 일관되고 신뢰할 수 있는 클라우드 경험을 제공하기 위해 함께 작동하는 여러 컴포넌트로 구성됩니다.  
 
-  * 수백 개의 {{site.data.keyword.Bluemix_notm}} 오퍼링으로 구성된 카탈로그
   * 클라우드 리소스 작성, 보기 및 관리를 위한 프론트 엔드 역할을 하는 강력한 콘솔
   * 두 플랫폼 서비스 모두에 대해 사용자를 안전하게 인증하고 {{site.data.keyword.Bluemix_notm}}에서 일관적으로 리소스에 대한 액세스를 제어하는 ID 및 액세스 관리 컴포넌트
+  * 수백 개의 {{site.data.keyword.Bluemix_notm}} 오퍼링으로 구성된 카탈로그
   * 리소스를 필터링하고 식별하기 위한 검색 및 태그 지정 메커니즘
   * 가격 플랜을 위한 정확한 사용량과 안전한 신용카드 사기 방지를 제공하는 계정 및 청구 관리 시스템
+  
+  ![{{site.data.keyword.cloud_notm}} 플랫폼의 컴포넌트](images/IBM-Cloud-Platform.svg "{{site.data.keyword.cloud_notm}} 플랫폼의 주요 컴포넌트 보여주는 다이어그램")
 
 현대화하여 클라우드로 가져오려는 [기존 코드](/docs/apps/tutorials?topic=creating-apps-tutorial-byoc#tutorial-byoc)가 있거나 [새로운 애플리케이션](/docs/apps/tutorials?topic=creating-apps-tutorial-starterkit)을 개발 중인지에 관계없이 개발자는 {{site.data.keyword.Bluemix_notm}}에서 사용 가능한 서비스 및 런타임 프레임워크의 빠르게 설정하는 에코시스템을 활용할 수 있습니다.
 
@@ -96,3 +98,18 @@ IBM의 클라우드 플랫폼은 PaaS(Platform as a Service)를 IaaS(Infrastruct
 검색 서비스는 {{site.data.keyword.Bluemix_notm}} 플랫폼 내에 통합된 글로벌 공유 리소스 특성 저장소입니다. 이는 클라우드 리소스의 속성을 저장하고 검색하는 데 사용되며 리소스를 분류합니다. 리소스는 [클라우드 리소스 이름(CRN)](/docs/overview?topic=overview-crn) ID로 고유하게 식별됩니다. 리소스의 특성에는 태그 및 시스템 특성이 포함됩니다. 두 특성 모두 {{site.data.keyword.Bluemix_notm}} 청구 계정 내에 정의되며 여러 지역에 걸쳐 적용됩니다.
 
 또한 이 서비스는 리소스와 연관된 태그를 관리합니다. 태그 지정 API를 사용하여 태그를 작성, 삭제, 검색, 첨부 또는 분리할 수 있습니다. 태그는 CRN ID로 고유하게 식별됩니다. 태그에는 이름이 있으며, 이름은 청구 계정 내에서 고유해야 합니다. 사용자는 키:값 쌍 또는 레이블 형식으로 태그를 작성할 수 있습니다.
+
+## 리소스 모니터링
+{: #resources_observability}
+
+관찰 가능성은 {{site.data.keyword.Bluemix_notm}}에서 애플리케이션과 서비스를 모니터하고 관찰할 수 있는 하나의 위치를 제공합니다.  
+
+{{site.data.keyword.la_full}} 서비스를 사용할 경우 {{site.data.keyword.Bluemix_notm}} 아키텍처에 로그 관리 기능을 추가하고 시스템 및 애플리케이션 로그를 관리할 수 있습니다. 이 서비스는 모니터 및 문제 해결을 수행하고, 경보를 정의하며, 사용자 정의 대시보드를 디자인하는 고급 기능을 제공합니다. {{site.data.keyword.la_full_notm}}는 {{site.data.keyword.IBM_notm}}과의 파트너십을 통해 LogDNA에 의해 작동합니다. 자세한 정보는 [{{site.data.keyword.la_full_notm}} 시작하기](/docs/services/Log-Analysis-with-LogDNA?topic=LogDNA-getting-started)를 참조하십시오. 
+
+{{site.data.keyword.mon_full_notm}} 서비스를 사용할 경우 애플리케이션, 서비스 및 플랫폼의 성능 및 상태에 대한 작동 가시성을 확인할 수 있습니다. 이 서비스는 모니터 및 문제 해결을 수행하고, 경보를 정의하며, 사용자 정의 대시보드를 디자인하는 고급 기능과 함께 전체 스택 텔레메트리를 제공합니다. {{site.data.keyword.mon_full_notm}}은 {{site.data.keyword.IBM_notm}}과의 파트너십을 통해 Sysdig에 의해 작동합니다. 자세한 정보는
+[IBM Cloud Monitoring with Sysdig 서비스 시작하기](/docs/services/Monitoring-with-Sysdig?topic=Sysdig-getting-started#getting-started)를 참조하십시오. 
+
+## 계정 모니터링 
+{: #account_observability}
+
+{{site.data.keyword.at_full}} 서비스를 사용하여 {{site.data.keyword.Bluemix_notm}} 계정의 활동을 모니터하고, 비정상적인 활동과 중요한 조치를 조사하며, 규정 감사 요구사항을 준수할 수 있습니다. 이외에도 조치가 발생할 경우 이에 대한 경보를 받을 수 있습니다. 수집되는 이벤트는 CADF(Cloud Auditing Data Federation) 표준을 준수합니다. 자세한 정보는 [{{site.data.keyword.at_full_notm}} 시작하기](/docs/services/Activity-Tracker-with-LogDNA?topic=logdnaat-getting-started)를 참조하십시오. 

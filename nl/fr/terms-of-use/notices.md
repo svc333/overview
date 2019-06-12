@@ -28,7 +28,7 @@ Votre compte IBM Cloud et les services offerts dans le cadre d'IBM Cloud sont fo
 
   * Les dispositions du contrat de base Cloud qui s'appliquent à vous comme suit :
     * Le contrat relatif au service SoftLayer Cloud pour la facturation des cartes de crédit en dollars américains, disponible à l'adresse [https://www.ibm.com/support/customer/zz/en/softlayer.html](https://www.ibm.com/support/customer/zz/en/softlayer.html){: new_window} ![Icône de lien externe](../../icons/launch-glyph.svg)
-    * Le contrat relatif aux services IBM Cloud (version du pays local*) pour la facturation des cartes de crédit autre qu'en dollars américains, ou si vous sélectionnez un mode de facturation à partir d'IBM, disponible à l'adresse [https://www.ibm.com/terms](https://www.ibm.com/terms){: new_window} ![Icône de lien externe](../../icons/launch-glyph.svg) (sélectionnez votre pays) ;
+    * Le contrat relatif aux services IBM Cloud (version du pays local*) pour la facturation des cartes de crédit autre qu'en dollars américains, ou si vous sélectionnez un mode de facturation à partir d'IBM, disponible à l'adresse [https://www.ibm.com/terms](https://www.ibm.com/support/customer/csol/terms/){: new_window} ![Icône de lien externe](../../icons/launch-glyph.svg) (sélectionnez votre pays) ;
     * Le contrat IBM Passport Advantage que vous avez accepté et les dispositions générales des présentes conditions d'utilisation des offres Cloud pour les clients IBM Passport Advantage, disponibles à l'adresse [http://www-03.ibm.com/software/sla/sladb.nsf/sla/tou](http://www-03.ibm.com/software/sla/sladb.nsf/sla/tou){: new_window} ![Icône de lien externe](../../icons/launch-glyph.svg) ; ou
     * Les dispositions équivalentes du contrat de base relatif au service Cloud entre vous et IBM ;
   * Une description de service pour IBM Cloud disponible à l'adresse [http://www-03.ibm.com/software/sla/sladb.nsf/sla/bm](http://www-03.ibm.com/software/sla/sladb.nsf/sla/bm){: new_window} ![Icône de lien externe](../../icons/launch-glyph.svg) ;
@@ -199,12 +199,12 @@ IBM Cloud effectue un blocage réseau des communications avec les adresses IP pr
 
 Pour identifier les adresses IP associées à des pays placés sous embargo par les Etats-Unis, IBM Cloud référence la base de données Geo IP2 gérée par [MaxMind ![Icône de lien externe](../../icons/launch-glyph.svg)](http://www.maxmind.com){: new_window} (la liste d’adresses IP par pays est mise à jour tous les trimestres).
 
-Remarque : Cette restriction ne s'applique pas au contenu qui n'est pas interdit d'après les sanctions et les embargos américains. Si vous pensez que votre contenu n'est pas soumis à ces interdictions, envoyez un courrier électronique à l'adresse IBM_Cloud_Embargo_Exemption_Request@wwpdl.vnet.ibm.com.  
+Remarque : Cette restriction ne s'applique pas au contenu qui n'est pas interdit d'après les sanctions et les embargos américains. Si vous pensez que votre contenu n'est pas soumis à ces interdictions, envoyez un courrier électronique à l'adresse IBM_Cloud_Embargo_Exemption_Request@wwpdl.vnet.ibm.com. 
 
 ## Marques
 {: #trademarks}
 
-IBM, le logo IBM et ibm.com sont des marques d'International Business Machines Corp. dans de nombreux pays. Les autres noms de produits et de services peuvent être des marques d'IBM ou appartenir à des tiers. La liste actualisée de toutes les marques d'IBM est disponible sur la page Web [Copyright and trademark information ![Icône de lien externe](../../icons/launch-glyph.svg)](https://www.ibm.com/legal/us/en/copytrade.shtml){: new_window}.
+IBM, le logo IBM et ibm.com sont des marques d'International Business Machines Corp. dans de nombreux pays. Les autres noms de produits et de services peuvent être des marques d'IBM ou appartenir à des tiers. La liste actualisée de toutes les marques d'IBM est disponible sur la page Web [Copyright and trademark information ![Icône de lien externe](../../icons/launch-glyph.svg)](https://www.ibm.com/legal/copytrade){: new_window}.
 
 Adobe, le logo Adobe, PostScript et le logo PostScript sont des marques d'Adobe Systems Incorporated aux Etats-Unis et/ou dans d'autres pays.
 

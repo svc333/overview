@@ -28,7 +28,7 @@ subcollection: overview
 
   * 适用于您的“基本协议云条款”如下：
     * 有关美元信用卡帐单的“SoftLayer 云服务协议”：[https://www.ibm.com/support/customer/zz/en/softlayer.html](https://www.ibm.com/support/customer/zz/en/softlayer.html){: new_window} ![外部链接图标](../../icons/launch-glyph.svg)
-    * 有关非美元信用卡帐单的“IBM Cloud 服务协议”（本地国家/地区版本*），或者如果您选择由 IBM 开票，请访问：[https://www.ibm.com/terms](https://www.ibm.com/terms){: new_window} ![外部链接图标](../../icons/launch-glyph.svg)（选择您所在国家/地区）；
+    * 有关非美元信用卡帐单的“IBM Cloud 服务协议”（本地国家/地区版本*），或者如果您选择由 IBM 开票，请访问：[https://www.ibm.com/terms](https://www.ibm.com/support/customer/csol/terms/){: new_window} ![外部链接图标](../../icons/launch-glyph.svg)（选择您所在国家/地区）；
     * 您接受的“IBM Passport Advantage 协议”以及“IBM Passport Advantage 客户机云产品 TOU 的通用条款”：[http://www-03.ibm.com/software/sla/sladb.nsf/sla/tou](http://www-03.ibm.com/software/sla/sladb.nsf/sla/tou){: new_window} ![外部链接图标](../../icons/launch-glyph.svg)；或者
     * 您与 IBM 之间达成的效力等同的云服务基本协议条款；
   * IBM Cloud 服务描述：[http://www-03.ibm.com/software/sla/sladb.nsf/sla/bm](http://www-03.ibm.com/software/sla/sladb.nsf/sla/bm){: new_window} ![外部链接图标](../../icons/launch-glyph.svg)；
@@ -148,7 +148,7 @@ IBM Cloud 实施的网络范围的阻止策略，将阻止与源自受到贸易�
 ## 商标
 {: #trademarks}
 
-IBM、IBM 徽标和 ibm.com 是 International Business Machines Corp. 在全球许多管辖区域注册的商标或注册商标。其他产品和服务名称可能是 IBM 或其他公司的商标。IBM 商标的当前列表可以从 Web 上的 [Copyright and trademark information ![外部链接图标](../../icons/launch-glyph.svg)](https://www.ibm.com/legal/us/en/copytrade.shtml){: new_window} 处获取。
+IBM、IBM 徽标和 ibm.com 是 International Business Machines Corp. 在全球许多管辖区域注册的商标或注册商标。其他产品和服务名称可能是 IBM 或其他公司的商标。IBM 商标的当前列表可以从 Web 上的 [Copyright and trademark information ![外部链接图标](../../icons/launch-glyph.svg)](https://www.ibm.com/legal/copytrade){: new_window} 处获取。
 
 Adobe、Adobe 徽标、PostScript 和 PostScript 徽标是 Adobe Systems Incorporated 在美国和/或其他国家或地区的注册商标或商标。
 
