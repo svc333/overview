@@ -4,7 +4,7 @@ copyright:
 
   years: 2017, 2019
 
-lastupdated: "2019-02-21"
+lastupdated: "2019-05-06"
 
 keywords: crn, cloud resource name
 
@@ -100,19 +100,42 @@ Il segmento `location` deve essere uno dei seguenti valori:
 ### Data center
 {: #dc-crn}
 
+ * ` AMS01  `
+ * `AMS03`
+ * ` CHE01  `
+ * ` DAL01  `
+ * `  DAL05  `
+ * ` DAL06  `
+ * `DAL07`
+ * `DAL09`
+ * `DAL10`
+ * `DAL12`
+ * `DAL13`
+ * ` FRA02  `
+ * ` HKG02  `
+ * `HOU02`
+ * `LON02`
+ * ` MEL01  `
+ * ` MEX01  `
+ * ` MIL01  `
+ * `MON01`
+ * `  OSL01  `
+ * ` PAR01  `
+ * `SJC01`
+ * `SJC03`
+ * ` SAO01  `
+ * `SEA01`
+ * ` SEO01  `
+ * `SNG01`
+ * `SYD01`
+ * `TOK02`
+ * `TOR01`
+ * `WDC01`
+ * `WDC04`
+ * `WDC06`
+ * `WDC07`
 
-| | | | | |
-|---|---|---|---|---|
-| AMS01  | AMS03  | CHE01  | DAL01  |  DAL05  |
-| DAL06  | DAL07  | DAL09  | DAL10  |  DAL12  |
-| DAL13  | FRA02  | HKG02  | HOU02  |  LON02  |
-| MEL01  | MEX01  | MIL01  | MON01  |  OSL01  |
-| PAR01  | SJC01  | SJC03  | SAO01  |  SEA01  |
-| SEO01  | SNG01  | SYD01  | TOK02  |  TOR01  |
-| WDC01  | WDC04  | WDC06  | WDC07  |
-{: caption="Tabella 1. Valori di data center validi" caption-side="top"}
-
-Alcune risorse non richiedono una regione poiché possono essere considerate `global`. In questo caso, il segmento `region` è impostato su `global`.
+Alcune risorse non richiedono una regione poiché possono essere considerate globali. In questo caso, il segmento `region` è impostato su `global`.
 {: tip}
 
 
@@ -128,7 +151,7 @@ Il valore del segmento `scope` deve essere formattato come `{scopePrefix}`/`{id}
 | Account | a/`{account id}` | L'account in cui è stata creata la risorsa. | `a/292558` |
 | Organizzazione | o/`{org guid}` | L'organizzazione {{site.data.keyword.Bluemix_notm}} a cui è stata assegnata la risorsa. | `o/4716e2d1-35b7-431f-891a-b552bf0b3c66` |
 | Spazio | s/`{space guid}` | Lo spazio {{site.data.keyword.Bluemix_notm}} a cui è stata assegnata la risorsa. | `s/48b3cdcd-e804-4398-9032-73065863ad7c` |
-{: caption="Tabella 2. Utilizzo dell'ambito" caption-side="top"}
+{: caption="Tabella 1. Utilizzo di `scope`" caption-side="top"}
 
 
 
@@ -162,7 +185,7 @@ Il segmento `resource-type` deve essere alfanumerico, in minuscolo e senza spazi
 ## Esempi di CRN
 {: #crn_examples}
 
-Di seguito è riportato un elenco di esempi di CRN.
+La seguente tabella fornisce un elenco di esempi di CRN.
 
 | Esempio | Valore |
 | --- | --- |
@@ -170,4 +193,4 @@ Di seguito è riportato un elenco di esempi di CRN.
 | Gruppo di risorse | `crn:v1:bluemix:public:resource-controller: global:a/59bcbfa6ea2f006b4ed7094c1a08dcdd:resource-group:59bcbfa6ea2f006b4ed7094c1a08dcdd` |
 | Istanza del servizio | `crn:v1:bluemix:public:cloud-object-storage:global:a/59bcbfa6ea2f006b4ed7094c1a08dcdd:1a0ec336-f391-4091-a6fb-5e084a4c56f4::` |
 | Bucket | `crn:v1:bluemix:public:cloud-object-storage:global:a/59bcbfa6ea2f006b4ed7094c1a08dcdd:1a0ec336-f391-4091-a6fb-5e084a4c56f4:bucket:mybucket` |
-{: caption="Tabella 3. Esempi di CRN" caption-side="top"}
+{: caption="Tabella 2. Esempi di CRN" caption-side="top"}

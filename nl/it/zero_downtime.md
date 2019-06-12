@@ -2,7 +2,7 @@
 
 copyright:
   years: 2018, 2019
-lastupdated: "2019-05-23"
+lastupdated: "2019-06-04"
 
 keywords: HA, failover, DR, high availability, disaster recovery, locations, data centers
 
@@ -64,7 +64,7 @@ Per far fronte ai problemi di sicurezza puoi anche selezionare l'ubicazione in c
 
 Il bilanciamento del carico globale per la console {{site.data.keyword.cloud_notm}} garantisce che, se l'ubicazione geografica a te più prossima non è disponibile, la console visualizza le informazioni per la successiva ubicazione più prossima. In questo modo, avrai sempre accesso alla console senza dover eseguire alcuna azione per accedere alle risorse di cui hai bisogno.
 
-Puoi visualizzare tutte le risorse in tutte le ubicazioni per impostazione predefinita dalla vista elenco risorse nella console. Se vuoi visualizzare e gestire le risorse in una specifica ubicazione, espandi il menu **Ubicazione** e seleziona un'ubicazione dall'elenco. Espandendo un'ubicazione geografica specifica, puoi scegliere di filtrare per singolo data center, regione o zona. 
+Puoi visualizzare tutte le risorse in tutte le ubicazioni per impostazione predefinita dalla vista elenco risorse nella console. Se vuoi visualizzare e gestire le risorse in una specifica ubicazione, espandi il menu **Ubicazione** e seleziona un'ubicazione dall'elenco. Espandendo un'ubicazione geografica specifica, puoi scegliere di filtrare per singolo data center, regione o zona.
 
 Ad esempio, se hai delle risorse distribuite nella zona Londra 2 (eu-gb-2), puoi filtrare il tuo elenco di risorse in modo che visualizzi solo tali risorse. Una zona è ubicata all'interno di una regione e una regione viene organizzata dalla propria ubicazione metropolitana. Per filtrare il tuo elenco per la zona Londra 2 (eu-gb-2), espandi l'opzione metropolitana **Londra** e poi l'opzione di regione **Londra (eu-gb)**. All'interno di tale regione, puoi effettuare una selezione dell'elenco di zone disponibili. Se hai una risorsa distribuita in un data center specifico, puoi identificare il data center tramite l'ubicazione metropolitana e il codice alfanumerico specifici, ad esempio Londra 02 (lon02).
 
@@ -80,8 +80,8 @@ Quando distribuisci le risorse dell'infrastruttura, hai maggiori opzioni su dove
 
 ![Mappa dei data center descritti nelle seguenti tabelle](images/Global-View.svg)
 
-### Nord America
-{: #na}
+
+Vedi la seguente tabella per il codice specifico di ogni data center. 
 
 | Data Center | Codice  |
 |------------------|-------|
@@ -93,63 +93,62 @@ Quando distribuisci le risorse dell'infrastruttura, hai maggiori opzioni su dove
 | Dallas 10        | dal10 |
 | Dallas 12        | dal12 |
 | Dallas 13        | dal13 |
+| Houston 01       | hou01 |
+| Mexico 01        | mex01 |
+| Montreal 01      | mon01 |
+| San Jose 01      | sjc01 |
+| San Jose 03      | sjc03 |
+| San Jose 04      | sjc04 |
+| Sao Paulo 01     | sao01 |
+| Seattle 01       | sea01 |
+| Toronto 01       | tor01 |
 | Washington DC 01 | wdc01 |
 | Washington DC 04 | wdc04 |
 | Washington DC 06 | wdc06 |
 | Washington DC 07 | wdc07 |
-| San Jose 01      | sjc01 |
-| San Jose 03      | sjc03 |
-| San Jose 04      | sjc04 |
-| Seattle 01       | sea01 |
-| Houston 01       | hou01 |
-| Montreal 01      | mon01 |
-| Toronto 01       | tor01 |
-| Mexico 01        | mex01 |
-{: caption="Tabella 1. Data center in Nord America" caption-side="top"}
-
-### Sud America
-{: #sa}
-
-| Data Center | Codice    |
-|------------------|---------|
-| Sao Paulo 01     | sao01   |
-{: caption="Tabella 2. Data center in Sud America" caption-side="top"}
-
-### Europa
-{: #eu}
+{: caption="Tabella 1. Data center in Nord e Sud America" caption-side="top"}
+{: #americas}
+{: tab-title="Americas"}
+{: tab-group="dcs"}
+{: class="simple-tab-table"}
 
 | Data Center | Codice  |
 |------------------|-------|
+| Amsterdam 01     | ams01 |
+| Amsterdam 03     | ams03 |
+| Frankfurt 02     | fra02 |
+| Frankfurt 04     | fra04 |
+| Frankfurt 05     | fra05 |
 | London 02        | lon02 |
 | London 04        | lon04 |
 | London 05        | lon05 |
 | London 06        | lon06 |
-| Frankfurt 02     | fra02 |
-| Frankfurt 04     | fra04 |
-| Frankfurt 05     | fra05 |
 | Milan 01         | mil01 |
-| Amsterdam 01     | ams01 |
-| Amsterdam 03     | ams03 |
-| Paris 01         | par01 |
 | Oslo 01          | osl01 |
-{: caption="Tabella 3. Data center in Europa" caption-side="top"}
-
-### Asia e Pacifico
-{: #ap}
+| Paris 01         | par01 |
+{: caption="Tabella 2. Data center in Europa" caption-side="top"}
+{: #europe}
+{: tab-title="Europe"}
+{: tab-group="dcs"}
+{: class="simple-tab-table"}
 
 | Data Center | Codice  |
 |------------------|-------|
-| Tokyo 01         | tok02 | 
-| Tokyo 04         | tok04 |
-| Tokyo 05         | tok05 |
-| Seoul 01         | seo01 |
 | Hong Kong 02     | hkg02 |
+| Melbourne 01     | mel01 |
+| Seoul 01         | seo01 |
 | Singapore 01     | sng01 |
 | Sydney 01        | syd01 |
 | Sydney 04        | syd04 |
 | Sydney 05        | syd05 |
-| Melbourne 01     | mel01 |
-{: caption="Tabella 4. Data center in Asia e Pacifico" caption-side="top"}
+| Tokyo 01         | tok02 | 
+| Tokyo 04         | tok04 |
+| Tokyo 05         | tok05 |
+{: caption="Tabella 3. Data center in Asia e Pacifico" caption-side="top"}
+{: #asiapacific}
+{: tab-title="Asia Pacific"}
+{: tab-group="dcs"}
+{: class="simple-tab-table"}
 
 
 ## SLA (Service Level Agreement)

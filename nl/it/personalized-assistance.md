@@ -2,7 +2,7 @@
 
 copyright:
   years: 2019
-lastupdated: "2019-05-16"
+lastupdated: "2019-06-04"
 
 keywords: personalized onboarding, onboarding program, Global Client Success
 
@@ -26,12 +26,12 @@ subcollection: overview
 {{site.data.keyword.IBM}} è dedicato per l'inserimento del client prima di ogni interazione. Per facilitare l'inserimento, il nostro team Global Client Success offre assistenza personalizzata tramite un programma di onboarding.
 {: shortdesc}
 
-Devi avere un account Pagamento a consumo o Sottoscrizione per qualificarti per l'onboarding personalizzato.
+Devi aver eseguito l'accesso al tuo account Pagamento a consumo o Sottoscrizione per qualificarti per l'onboarding personalizzato.
 {: important}
 
 Siamo qui per aiutarti ad iniziare a lavorare con qualsiasi area di {{site.data.keyword.cloud}}, incluso: 
 * Progettazione di una soluzione 
-* Descrizione della tua fattura 
+* Descrizione della tua fattura
 * Descrizione delle procedure consigliate della piattaforma
 * Assistenza con servizi specifici
 * Pianificazione della resilienza e della continuità dei dati
