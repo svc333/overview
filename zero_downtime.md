@@ -2,7 +2,7 @@
 
 copyright:
   years: 2018, 2019
-lastupdated: "2019-06-17"
+lastupdated: "2019-06-20"
 
 keywords: HA, failover, DR, high availability, disaster recovery, locations, data centers
 
@@ -66,7 +66,7 @@ Global load balancing for the {{site.data.keyword.cloud_notm}} console ensures t
 
 You can view all resources across all locations by default from the resource list view in the console. If you want to view and work with resources in a specific location, expand the **Location** menu, and select a location from the list. By expanding a specific geographical location, you can select to filter by individual data centers, regions, or zone.
 
-![Location hierarchy showing a geography containing a metro which contains data centers and regions with zones](images/Location_hierarchy.svg)
+![Location hierarchy showing a geography containing a metro which contains data centers and regions with zones](images/Location_hierarchy.svg){: caption="Figure 1. Location options hierarchy" caption-side="bottom"}
 
 For example, if you have resources that are deployed in the London 2 (eu-gb-2) zone, you can filter your resource list to display only those resources. A zone is located within a region and a region is organized by its metro location. To filter your list to the London 2 (eu-gb-2) zone, expand the **London** metro option, and then expand the **London (eu-gb)** region option. Within that region, you can select from the list of available zones. If you have a resource deployed in a specific data center, you can identify the data center by the specific metro location and alphanumeric code, for example, London 02 (lon02).
 
@@ -168,7 +168,7 @@ For more information about dedicated environments, see [IBM Cloud Dedicated](/do
 
 The complete Service Description for {{site.data.keyword.Bluemix_notm}} is available at [Cloud Services terms](http://www-03.ibm.com/software/sla/sladb.nsf/sla/bm){: new_window} ![External link icon](../icons/launch-glyph.svg "External link icon").
 
-### Availability downtime SLA 
+### Availability downtime SLA 
 {: #avail-downtime}
 
 You're eligible for a credit toward your account if you experience downtime less than the 99.5% availability. Availability downtime is the total minutes you're unable to connect to any of your service instances. Total downtime minutes start when you submit a report for the outage event and end when at least one of the affected instances is available for use.
@@ -182,7 +182,7 @@ You're eligible for a credit toward your account if you experience downtime less
 | High Availability Public Environment or Multiple Dedicated/Local Environments | Other Environments | Credit         |
 | <99.95%                                                                       |<99.5%              |10%             |
 | <99.90%                                                                       |<99.0%              |25%             |
-{: caption="Table 5. Monthly availability service level" caption-side="top"}
+{: caption="Table 2. Monthly availability service level" caption-side="top"}
 
 Availability percentage is calculated as the total number of minutes in a contracted month minus the total number of downtime minutes in that month divided by the total number of minutes in that month. 
 
@@ -206,14 +206,14 @@ Infrastructure services are bare metal and virtual servers, networking, storage,
 
 Downtime is the total minutes a customer-identified infrastructure service is unavailable because of service disruption based on Public network, Private network, and Redundant Infrastructure power and HVAC outages. The total downtime minutes calculation begins when the validated outage affecting the service is identified until the time the service is available. 
 
-Downtime doesn't include time for scheduled or announced maintenance. For each 30 continuous minute period of downtime, you receive a credit in the amount of 5% of the monthly charges for the identified services that are directly impacted by the outage. You're not eligible for a credit if the downtime is less than 30 continuous minutes. Downtime for different outage types might not be combined to meet this calculation. 
+Downtime doesn't include time for scheduled or announced maintenance. For each 30 continuous minute period of downtime, you receive a credit in the amount of 5% of the monthly charges for the identified services that are directly impacted by the outage. You're not eligible for a credit if the downtime is less than 30 continuous minutes. Downtime for different outage types might not be combined to meet this calculation. 
 
 ### Infrastructure hardware replacement and upgrade SLA
 {: #hw-replaceupgrade-sla}
 
 {{site.data.keyword.Bluemix_notm}} tries to minimize downtime when replacing failed hardware or when performing a scheduled hardware upgrade. 
 
-{{site.data.keyword.Bluemix_notm}} provides credit for: 
+{{site.data.keyword.Bluemix_notm}} provides credit for: 
 - Hardware replacement based on the time to replace from the time {{site.data.keyword.Bluemix_notm}} verifies that a customer reported hardware failure.
 - Planned hardware upgrades based on the total downtime of the service receiving the upgrade. 
 
@@ -226,8 +226,8 @@ Service level time periods exclude any time that is required to reload the opera
 | > 6 hours                 | 40%            |
 | > 10 hours                | 60%            |
 | > 14 hours                | 80%            |
-| > 18 hours                | 80%            |
-{: caption="Table 6. Credit based on the monthly charge for the service that is affected by the hardware replacement or upgrade" caption-side="top"}
+| > 18 hours                | 80%            |
+{: caption="Table 3. Credit based on the monthly charge for the service that is affected by the hardware replacement or upgrade" caption-side="top"}
 
 ### Claims
 {: #claims}
