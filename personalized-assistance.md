@@ -2,7 +2,7 @@
 
 copyright:
   years: 2019
-lastupdated: "2019-06-04"
+lastupdated: "2019-06-20"
 
 keywords: personalized onboarding, onboarding program, Global Client Success
 
@@ -56,6 +56,6 @@ If you need to connect with us sooner, you can call us toll free at 866-209-7296
 ### Want to get started on your own?
 {: #self-onboard}
 
-We have many resources that you can use to learn about {{site.data.keyword.cloud_notm}} on your own, but as a first-time user of the {{site.data.keyword.cloud_notm}} console, the [Getting Started with IBM Cloud demo](https://register.gotowebinar.com/rt/5902701065204820738){: new_window} ![External link icon](../icons/launch-glyph.svg "External link icon") is a good place to start. You can sign up for the next live session or watch a recording of the previous session. 
+We have many resources that you can use to learn about {{site.data.keyword.cloud_notm}} on your own, but as a first-time user of the {{site.data.keyword.cloud_notm}} console, the [Getting Started with IBM Cloud demo](https://register.gotowebinar.com/rt/5902701065204820738){: new_window} ![External link icon](../icons/launch-glyph.svg "External link icon") is a good place to start. You can view videos to help you get started quickly with the {{site.data.keyword.cloud_notm}} platform.  
 
 You can also check out the [IBM Cloud Foundation Skills Series](https://www.youtube.com/playlist?list=PLmesOgYt3nKCfsXqx-A5k1bP7t146U4rz){: new_window} ![External link icon](../icons/launch-glyph.svg "External link icon").
