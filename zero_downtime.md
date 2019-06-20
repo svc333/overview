@@ -80,7 +80,7 @@ When you deploy infrastructure resources, you have more options about where your
 {{site.data.keyword.Bluemix_notm}} offers data centers in many locations across the world. 
 
 
-![Map of data centers described in the following tables](images/Global-View.svg)
+![Map of available data centers](images/Global-View.svg){: caption="Figure 2. Data center locations" caption-side="bottom"}
 
 
 See the following table for the specific code for each data center. 
