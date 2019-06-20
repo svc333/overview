@@ -3,7 +3,7 @@
 
 copyright:
   years: 2016, 2019
-lastupdated: "2019-05-31"
+lastupdated: "2019-06-20"
 
 keywords: console, platform overview, overview
 
@@ -28,7 +28,7 @@ As the following diagram illustrates, the {{site.data.keyword.Bluemix_notm}} pla
   * A search and tagging mechanism for filtering and identifying your resources
   * An account and billing management system that provides exact usage for pricing plans and secure credit card fraud protection
   
-  ![Components of the {{site.data.keyword.cloud_notm}} platform](images/IBM-Cloud-Platform.svg "Diagram showing the major components of the {{site.data.keyword.cloud_notm}} platform")
+![Components of the {{site.data.keyword.cloud_notm}} platform.](images/IBM-Cloud-Platform.svg "Diagram showiing the major components of the {{site.data.keyword.cloud_notm}} platform"){: caption="Figure 1. Components of the {{site.data.keyword.cloud_notm}} platform" caption-side="bottom"}
 
 Whether you have [existing code](/docs/apps/tutorials?topic=creating-apps-tutorial-byoc#tutorial-byoc) that you want to modernize and bring to the cloud or you're developing a [brand new application](/docs/apps/tutorials?topic=creating-apps-tutorial-starterkit), your developers can tap into the rapidly growing ecosystem of available services and runtime frameworks in {{site.data.keyword.Bluemix_notm}}.
 
