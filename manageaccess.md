@@ -4,7 +4,7 @@ copyright:
 
   years: 2017, 2019
 
-lastupdated: "2018-04-02"
+lastupdated: "2019-06-20"
 
 keywords: users level of access, user control, access control, permissions
 
@@ -33,7 +33,7 @@ If you have a combination of resource types, you manage each type separately:
 
 While each type of access is managed separately, all access policies are made up of a subject you want to assign access to, a target for the policy to scope what the subject has access to, and then finally an IAM role, Cloud Foundry role, or classic infrastructure permission to determine the level of access the subject has on the target.
 
-![Access management policies by using IAM, Cloud Foundry, or classic infrastructure permissions](images/access-management.svg "How assigning policies works by starting with a subject, selecting a target, then assigning a role or permission")
+![Access management policies by using IAM, Cloud Foundry, or classic infrastructure permissions.](images/access-management.svg "How assigning policies works by starting with a subject, selecting a target, then assigning a role or permission"){: caption="Figure 1. Access management policies by using IAM, Cloud Foundry, or classic infrastructure permissions" caption-side="bottom"}
 
 For IAM policies, the subject can be an access group, user, or service ID. And, the target can be an account management service, resource group, service in the account, specific service instance, or resource type within a service. Platform and service roles can be selected to scope the level of access for the subject. For Cloud Foundry access, a user is given access to a Cloud Foundry org and space by selecting each and assigning an org role and space role. For classic infrastructure, a user is selected, and then the access can be scoped to a service or device with specific permissions assigned.
 
