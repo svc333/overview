@@ -4,7 +4,7 @@ copyright:
 
   years: 2015, 2019
 
-lastupdated: "2019-06-06"
+lastupdated: "2019-06-03"
 
 keywords: release notes, what's new, what is new, cloud updates
 
@@ -222,7 +222,7 @@ Cloud Foundry 應用程式的子網域為 `cf.appdomain.cloud`。您部署至 {{
 文件日期：2017 年 11 月 28 日
 {: #nosupport-tls}
 
-在 2018 年 3 月 1 日，{{site.data.keyword.Bluemix_notm}} 將撤銷許多雲端產品及服務的 TLS 1.0 及 TLS 1.1 支援，這是我們對於提供徹底安全且符合業界在安全及資料隱私最佳作法之雲端的承諾的一部分。 
+在 2018 年 3 月 1 日，{{site.data.keyword.Bluemix_notm}} 將撤銷許多雲端產品及服務的 TLS 1.0 及 TLS 1.1 支援，這是我們對於提供徹底安全且符合業界在安全及資料隱私最佳作法之雲端的承諾的一部分。若要進一步瞭解這項變更對您的影響，以及您可能需要採取的動作，請參閱[撤銷 TLS 1.0 及 1.1 支援](/docs/get-support?topic=get-support-tlssupportwithdraw)。
 
 ### 組織帳戶內資源的新方式
 文件日期：2017 年 11 月 16 日

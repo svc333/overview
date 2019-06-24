@@ -100,40 +100,40 @@ El segmento `location` debe ser uno de los siguientes valores:
 ### Centros de datos
 {: #dc-crn}
 
- * `AMS01`
- * `AMS03`
- * `CHE01`
- * `DAL01`
- * `DAL05`
- * `DAL06`
- * `DAL07`
- * `DAL09`
- * `DAL10`
- * `DAL12`
- * `DAL13`
- * `FRA02`
- * `HKG02`
- * `HOU02`
- * `LON02`
- * `MEL01`
- * `MEX01`
- * `MIL01`
- * `MON01`
- * `OSL01`
- * `PAR01`
- * `SJC01`
- * `SJC03`
- * `SAO01`
- * `SEA01`
- * `SEO01`
- * `SNG01`
- * `SYD01`
- * `TOK02`
- * `TOR01`
- * `WDC01`
- * `WDC04`
- * `WDC06`
- * `WDC07`
+ * ` AMS01  `
+ * ` AMS03  `
+ * ` CHE01  `
+ * ` DAL01  `
+ * `  DAL05  `
+ * ` DAL06  `
+ * ` DAL07  `
+ * ` DAL09  `
+ * ` DAL10  `
+ * `  DAL12  `
+ * ` DAL13  `
+ * ` FRA02  `
+ * ` HKG02  `
+ * ` HOU02  `
+ * `  LON02  `
+ * ` MEL01  `
+ * ` MEX01  `
+ * ` MIL01  `
+ * ` MON01  `
+ * `  OSL01  `
+ * ` PAR01  `
+ * ` SJC01  `
+ * ` SJC03  `
+ * ` SAO01  `
+ * `  SEA01  `
+ * ` SEO01  `
+ * ` SNG01  `
+ * ` SYD01  `
+ * ` TOK02  `
+ * `  TOR01  `
+ * ` WDC01  `
+ * ` WDC04  `
+ * ` WDC06  `
+ * ` WDC07  `
 
 Algunos recursos no requieren una región, ya que pueden considerarse global. En este caso, el segmento `region` se establece en `global`.
 {: tip}

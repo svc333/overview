@@ -28,7 +28,7 @@ Su cuenta de IBM Cloud y todos los servicios solicitados para IBM Cloud se propo
 
   * Base Agreement Cloud Terms aplicables en su caso, tal como se indica a continuación:
     * SoftLayer Cloud Service Agreement para la facturación por tarjeta de crédito en dólares americanos, disponible en [https://www.ibm.com/support/customer/zz/en/softlayer.html](https://www.ibm.com/support/customer/zz/en/softlayer.html){: new_window} ![Icono de enlace externo](../../icons/launch-glyph.svg)
-    * IBM Cloud Services Agreement (versión en el idioma local*) para la facturación por tarjeta de crédito en dólares norteamericanos, o si selecciona facturar desde IBM, disponible en [https://www.ibm.com/terms](https://www.ibm.com/terms){: new_window} ![Icono de enlace externo](../../icons/launch-glyph.svg) (seleccione su país);
+    * IBM Cloud Services Agreement (versión en el idioma local*) para la facturación por tarjeta de crédito en dólares norteamericanos, o si selecciona facturar desde IBM, disponible en [https://www.ibm.com/terms](https://www.ibm.com/support/customer/csol/terms/){: new_window} ![Icono de enlace externo](../../icons/launch-glyph.svg) (seleccione su país);
     * IBM Passport Advantage Agreement que aceptó y los General Terms for Cloud Offerings TOU for IBM Passport Advantage Clients, disponibles en [http://www-03.ibm.com/software/sla/sladb.nsf/sla/tou](http://www-03.ibm.com/software/sla/sladb.nsf/sla/tou){: new_window} ![Icono de enlace externo](../../icons/launch-glyph.svg); o
     * Términos de un acuerdo base de servicio en la nube equivalente entre el usuario e IBM;
   * Service Description for IBM Cloud disponible en [http://www-03.ibm.com/software/sla/sladb.nsf/sla/bm](http://www-03.ibm.com/software/sla/sladb.nsf/sla/bm){: new_window} ![Icono de enlace externo](../../icons/launch-glyph.svg);
@@ -148,7 +148,7 @@ Nota: Esta restricción no se aplica a contenido que no esté prohibido bajo las
 ## Marca registradas
 {: #trademarks}
 
-IBM, el logotipo de IBM, e ibm.com son marcas de International Business Machines Corp. registradas en muchas jurisdicciones de todo el mundo. Es posible que otros nombres de productos y servicios sean marcas registradas de IBM u otras empresas. Encontrará una lista actualizada de marcas registradas de IBM en la web en [Copyright and trademark information ![Icono de enlace externo](../../icons/launch-glyph.svg)](https://www.ibm.com/legal/us/en/copytrade.shtml){: new_window}.
+IBM, el logotipo de IBM, e ibm.com son marcas de International Business Machines Corp. registradas en muchas jurisdicciones de todo el mundo. Es posible que otros nombres de productos y servicios sean marcas registradas de IBM u otras empresas. Encontrará una lista actualizada de marcas registradas de IBM en la web en [Copyright and trademark information ![Icono de enlace externo](../../icons/launch-glyph.svg)](https://www.ibm.com/legal/copytrade){: new_window}.
 
 Adobe, el logotipo de Adobe, PostScript y el logotipo de PostScript son marcas registradas o marcas comerciales registradas de Adobe Systems Incorporated en Estados Unidos o en otros países.
 

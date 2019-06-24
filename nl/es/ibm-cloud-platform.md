@@ -3,7 +3,7 @@
 
 copyright:
   years: 2016, 2019
-lastupdated: "2019-05-13"
+lastupdated: "2019-05-31"
 
 keywords: console, platform overview, overview
 
@@ -20,13 +20,15 @@ subcollection: overview
 La plataforma en la nube de IBM combina una plataforma como servicio (PaaS) con la infraestructura como servicio (IaaS) para proporcionar una experiencia integrada. La plataforma escala y ofrece soporte a organizaciones y equipos de desarrollo pequeños y también a grandes empresas. Implementada globalmente en centros de datos de todo el mundo, la solución que crea en {{site.data.keyword.cloud}} se activa rápidamente y se desempeña de manera fiable en un entorno probado y soportado en el que pueda confiar.
 {: .shortdesc}
 
-La plataforma de {{site.data.keyword.Bluemix_notm}} consta de varios componentes que trabajan conjuntamente para proporcionar una experiencia en la nube coherente y fiable. 
+Tal como se muestra en el siguiente diagrama, la plataforma {{site.data.keyword.Bluemix_notm}} consta de varios componentes que trabajan conjuntamente para proporcionar una experiencia en la nube coherente y fiable. 
 
-  * Un catálogo que consta de cientos de ofertas de {{site.data.keyword.Bluemix_notm}}
   * Una consola robusta que sirve como frontal para crear, ver y gestionar los recursos en la nube
   * Un componente de gestión de identidad y acceso que autentica usuarios de forma segura en los servicios de plataforma y controla el acceso a recursos de forma coherente en {{site.data.keyword.Bluemix_notm}}
+  * Un catálogo que consta de cientos de ofertas de {{site.data.keyword.Bluemix_notm}}
   * Un mecanismo de búsqueda y etiquetado para filtrar e identificar los recursos
   * Un sistema de gestión de cuentas y facturación que proporciona una utilización exacta de los planes de precios y protección de fraude con tarjeta de crédito
+  
+  ![Componentes de la plataforma {{site.data.keyword.cloud_notm}}](images/IBM-Cloud-Platform.svg "Diagrama que muestra los principales componentes de la plataforma {{site.data.keyword.cloud_notm}}")
 
 En el caso de que disponga de [código existente](/docs/apps/tutorials?topic=creating-apps-tutorial-byoc#tutorial-byoc) que desee modernizar y traer a la nube o de estar desarrollando una [nueva aplicación](/docs/apps/tutorials?topic=creating-apps-tutorial-starterkit), sus desarrolladores pueden tocar en el ecosistema de rápido crecimiento de los servicios e infraestructuras de tiempo de ejecución disponibles en {{site.data.keyword.Bluemix_notm}}.
 
@@ -96,3 +98,17 @@ Los [grupos de recursos](/docs/overview?topic=overview-whatis-rgs) gestionan las
 El servicio de búsqueda es un repositorio de propiedades de recursos compartidos y globales integrado en la plataforma {{site.data.keyword.Bluemix_notm}}. Se utiliza para almacenar y buscar atributos de un recurso de nube, y categoriza y clasifica recursos. Los recursos se identifican de forma exclusiva mediante un identificador de [Nombre de recursos de nube (CRN)](/docs/overview?topic=overview-crn). Las propiedades de un recurso incluyen etiquetas y propiedades del sistema. Ambas propiedades se definen en una cuenta de facturación de {{site.data.keyword.Bluemix_notm}} y abarcan varias regiones.
 
 Este servicio también gestiona las etiquetas que están asociadas a un recurso. Puede crear, suprimir, buscar, adjuntar y desconectar etiquetas con la API de etiquetas. Las etiquetas se identifican de forma exclusiva mediante un CRN. Las etiquetas tienen un nombre, que debe ser exclusivo de una cuenta de facturación. Puede crear etiquetas en pares key:value o en formato de etiqueta.
+
+## Supervisión de los recursos
+{: #resources_observability}
+
+La observabilidad ofrece una única ubicación desde la que puede supervisar y observar sus aplicaciones y servicios en {{site.data.keyword.Bluemix_notm}}. 
+
+Con el servicio {{site.data.keyword.la_full}}, puede añadir prestaciones de gestión de registros a su arquitectura {{site.data.keyword.Bluemix_notm}} y puede gestionar los registros del sistema y de la aplicación. Ofrece funciones avanzadas para supervisar y solucionar problemas, definir alertas y diseñar paneles de control personalizados. {{site.data.keyword.la_full_notm}} recibe soporte de LogDNA junto con {{site.data.keyword.IBM_notm}}. Para obtener más información, consulte [Guía de iniciación a {{site.data.keyword.la_full_notm}}](/docs/services/Log-Analysis-with-LogDNA?topic=LogDNA-getting-started).
+
+El servicio {{site.data.keyword.mon_full_notm}} le ofrece visibilidad operativa sobre el rendimiento y el estado de sus aplicaciones, servicios y plataformas. Ofrece telemetría con funciones avanzadas para supervisar y solucionar problemas, definir alertas y diseñar paneles de control personalizados. {{site.data.keyword.mon_full_notm}} recibe soporte de Sysdig junto con {{site.data.keyword.IBM_notm}}. Para obtener más información, consulte [Iniciación a IBM Cloud Monitoring con el servicio Sysdig](/docs/services/Monitoring-with-Sysdig?topic=Sysdig-getting-started#getting-started).
+
+## Supervisión de la cuenta 
+{: #account_observability}
+
+Utilice el servicio {{site.data.keyword.at_full}} para supervisar la actividad de la cuenta de {{site.data.keyword.Bluemix_notm}}, investigar cualquier actividad anómala y acciones críticas y cumplir con los requisitos de auditoría normativa. Además, puede recibir alertas sobre acciones a medida que se producen. Los eventos que se han recopilado cumplen con la normativa de Cloud Auditing Data Federation (CADF). Para obtener más información, consulte [Guía de iniciación a {{site.data.keyword.at_full_notm}}](/docs/services/Activity-Tracker-with-LogDNA?topic=logdnaat-getting-started).

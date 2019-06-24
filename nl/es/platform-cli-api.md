@@ -4,7 +4,7 @@ copyright:
 
   years: 2018, 2019
 
-lastupdated: "2019-05-13"
+lastupdated: "2019-06-03"
 
 keywords: resource groups, platform CLI, platform API
 
@@ -35,7 +35,7 @@ Utilice la tabla siguiente para obtener una vista rápida de los mandatos de la 
 | Controlador de recursos | [Cómo trabajar con recursos y grupos de recursos](/docs/cli/reference/ibmcloud?topic=cloud-cli-ibmcloud_commands_resource) | [API del controlador de recursos de {{site.data.keyword.Bluemix_notm}}](https://console.cloud.ibm.com/apidocs/resource-controller){: new_window} ![Icono de enlace externo](../icons/launch-glyph.svg "Icono de enlace externo") <br><br> [API de {{site.data.keyword.cloud_notm}} Open Service Broker](https://console.cloud.ibm.com/apidocs/ibm-cloud-osb-api){: new_window} ![Icono de enlace externo](../icons/launch-glyph.svg "Icono de enlace externo") |
 | Gestor de recursos | [Cómo trabajar con recursos y grupos de recursos](/docs/cli/reference/ibmcloud?topic=cloud-cli-ibmcloud_commands_resource) | [API del gestor de recursos de {{site.data.keyword.Bluemix_notm}}](https://console.cloud.ibm.com/apidocs/resource-manager){: new_window} ![Icono de enlace externo](../icons/launch-glyph.svg "Icono de enlace externo") |
 | Catálogo | [Búsqueda y gestión de ofertas del catálogo](/docs/cli/reference/ibmcloud?topic=cloud-cli-ibmcloud_catalog) | [API de catálogo](https://console.cloud.ibm.com/apidocs/globalcatalog){: new_window} ![Icono de enlace externo](../icons/launch-glyph.svg "Icono de enlace externo") |
-| Buscar y etiquetar | [Búsqueda de recursos](/docs/cli/reference/ibmcloud?topic=cloud-cli-ibmcloud_commands_resource#ibmcloud_resource_search) <br><br>  [Etiquetado de recursos](/docs/cli/reference/ibmcloud/cli_resource_group.html#ibmcloud_resource_tags) | |
+| Buscar y etiquetar | [Búsqueda de recursos](/docs/cli/reference/ibmcloud?topic=cloud-cli-ibmcloud_commands_resource#ibmcloud_resource_search) <br><br>  [Etiquetado de recursos](/docs/cli/reference/ibmcloud?topic=cloud-cli-ibmcloud_commands_resource#ibmcloud_resource_tags) | |
 {: caption="Tabla 1. API y CLI de los servicios de plataforma" caption-side="top"}
 
 

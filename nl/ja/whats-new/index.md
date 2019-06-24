@@ -4,7 +4,7 @@ copyright:
 
   years: 2015, 2019
 
-lastupdated: "2019-06-06"
+lastupdated: "2019-06-03"
 
 keywords: release notes, what's new, what is new, cloud updates
 
@@ -222,7 +222,7 @@ Cloud Foundry アプリのサブドメインは `cf.appdomain.cloud` です。 {
 最新情報: 2017 年 11 月 28 日
 {: #nosupport-tls}
 
-{{site.data.keyword.Bluemix_notm}} は、2018 年 3 月 1 日付けで弊社のクラウド製品ならびにサービスの多くで TLS 1.0 および TLS 1.1 のサポートを終了します。これは、徹底してセキュアなクラウドを提供するための IBM の取り組みの一貫であり、セキュリティーおよびデータ・プライバシーに関する業界のベスト・プラクティスと歩調を合わせるためでもあります。  
+{{site.data.keyword.Bluemix_notm}} は、2018 年 3 月 1 日付けで弊社のクラウド製品ならびにサービスの多くで TLS 1.0 および TLS 1.1 のサポートを終了します。これは、徹底してセキュアなクラウドを提供するための IBM の取り組みの一貫であり、セキュリティーおよびデータ・プライバシーに関する業界のベスト・プラクティスと歩調を合わせるためでもあります。 この変更による影響と、必要となる可能性のあるアクションについて詳しくは、『[TLS 1.0 および 1.1 のサポート終了](/docs/get-support?topic=get-support-tlssupportwithdraw)』を参照してください。
 
 ### アカウント内でリソースを編成する新しい方法
 最新情報: 2017 年 11 月 16 日

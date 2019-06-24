@@ -4,7 +4,7 @@ copyright:
 
   years: 2015, 2019
 
-lastupdated: "2019-06-06"
+lastupdated: "2019-06-03"
 
 keywords: release notes, what's new, what is new, cloud updates
 
@@ -222,7 +222,7 @@ Se i tuoi servizi e i tuoi data center si trovano in Europa, {{site.data.keyword
 Novità a partire dal 28 novembre 2017
 {: #nosupport-tls}
 
-Il 1° marzo 2018 {{site.data.keyword.Bluemix_notm}} ritirerà il supporto per TLS 1.0 e TLS 1.1 in molti dei nostri prodotti e servizi cloud come parte del nostro impegno nell'offrire un cloud totalmente sicuro e in linea con le procedure consigliate di settore per la sicurezza e la riservatezza dei dati. 
+Il 1° marzo 2018 {{site.data.keyword.Bluemix_notm}} ritirerà il supporto per TLS 1.0 e TLS 1.1 in molti dei nostri prodotti e servizi cloud come parte del nostro impegno nell'offrire un cloud totalmente sicuro e in linea con le procedure consigliate di settore per la sicurezza e la riservatezza dei dati. Per ulteriori informazioni sugli effetti di questa modifica e sulle azioni che potresti dover svolgere, vedi [Ritiro del supporto per TLS 1.0 e 1.1](/docs/get-support?topic=get-support-tlssupportwithdraw).
 
 ### Un nuovo modo di organizzare le risorse all'interno del tuo account
 Novità a partire dal 16 novembre 2017
@@ -266,7 +266,7 @@ L'account Lite è il nostro nuovo tipo di account che ti dà accesso per provare
 Novità a partire dal 6 ottobre 2017
 {: #app-authfeature}
 
-Identity and Access Management (IAM) offre ora la possibilità di creare un ID servizio, che puoi considerare come un'identità che può essere utilizzata per l'autenticazione delle applicazioni con i tuoi servizi {{site.data.keyword.Bluemix_notm}}. Anziché utilizzare le credenziali dei singoli utenti, è possibile creare un ID servizio con una chiave API associata e le autorizzazioni di accesso sotto forma di una politica di servizio che viene assegnata all'ID servizio per consentirti di controllare il livello di accesso per qualsiasi applicazione che verrà autenticata con quell'ID.
+Identity and Access Management (IAM) offre ora la possibilità di creare un ID servizio, che puoi considerare come un'identità che può essere utilizzata per l'autenticazione delle applicazioni con i tuoi servizi. {{site.data.keyword.Bluemix_notm}}. Anziché utilizzare le credenziali dei singoli utenti, è possibile creare un ID servizio con una chiave API associata e le autorizzazioni di accesso sotto forma di una politica di servizio che viene assegnata all'ID servizio per consentirti di controllare il livello di accesso per qualsiasi applicazione che verrà autenticata con quell'ID.
 
 Per ulteriori informazioni sui vantaggi di questa funzione e su come iniziare, vedi [Introducing IBM Cloud IAM Service IDs and API Keys](https://www.ibm.com/cloud/blog/introducing-ibm-cloud-iam-service-ids-api-keys){: new_window} ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno").
 

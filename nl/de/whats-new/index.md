@@ -4,7 +4,7 @@ copyright:
 
   years: 2015, 2019
 
-lastupdated: "2019-06-06"
+lastupdated: "2019-06-03"
 
 keywords: release notes, what's new, what is new, cloud updates
 
@@ -222,7 +222,7 @@ Falls sich Ihre Services und Rechenzentren in Europa befinden, bietet {{site.dat
 Datum der Neuerung: 28. Dezember 2017
 {: #nosupport-tls}
 
-{{site.data.keyword.Bluemix_notm}} stellt die Unterstützung für TLS 1.0 und TLS 1.1 bei vielen Cloud-Produkten und -Services am 1. März 2018 ein. 
+{{site.data.keyword.Bluemix_notm}} stellt die Unterstützung für TLS 1.0 und TLS 1.1 bei vielen Cloud-Produkten und -Services am 1. März 2018 ein. Weitere Informationen zu den Auswirkungen dieser Änderung und zu den Maßnahmen, die Sie möglicherweise ergreifen müssen, finden Sie unter [Unterstützung für TLS 1.0 und 1.1 wird eingestellt](/docs/get-support?topic=get-support-tlssupportwithdraw).
 
 ### Neue Organisationsmöglichkeit für Ressourcen in Ihrem Konto
 Datum der Neuerung: 16. November 2017

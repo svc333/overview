@@ -2,7 +2,7 @@
 
 copyright:
   years: 2018, 2019
-lastupdated: "2019-06-06"
+lastupdated: "2019-06-04"
 
 keywords: HA, failover, DR, high availability, disaster recovery, locations, data centers
 
@@ -111,7 +111,6 @@ subcollection: overview
 {: tab-title="Americas"}
 {: tab-group="dcs"}
 {: class="simple-tab-table"}
-{: summary="Use the buttons before the table to change the context of the table. The column headers identify the data centers located in the specific greographical area."}
 
 |数据中心| 代码|
 |------------------|-------|
@@ -127,12 +126,11 @@ subcollection: overview
 |米兰 01|mil01|
 |奥斯陆 01|osl01|
 |巴黎 01|par01|
-{: caption="表 1. 欧洲的数据中心" caption-side="top"}
+{: caption="表 2. 欧洲的数据中心" caption-side="top"}
 {: #europe}
 {: tab-title="Europe"}
 {: tab-group="dcs"}
 {: class="simple-tab-table"}
-{: summary="Use the buttons before the table to change the context of the table. The column headers identify the data centers located in the specific greographical area."}
 
 |数据中心| 代码|
 |------------------|-------|
@@ -146,12 +144,11 @@ subcollection: overview
 |东京 01|tok02| 
 |东京 04|tok04|
 |东京 05|tok05|
-{: caption="表 1. 亚太地区的数据中心" caption-side="top"}
+{: caption="表 3. 亚太地区的数据中心" caption-side="top"}
 {: #asiapacific}
 {: tab-title="Asia Pacific"}
 {: tab-group="dcs"}
 {: class="simple-tab-table"}
-{: summary="Use the buttons before the table to change the context of the table. The column headers identify the data centers located in the specific greographical area."}
 
 
 ## 服务级别协议 (SLA)

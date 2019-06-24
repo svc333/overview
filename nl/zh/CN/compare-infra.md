@@ -1,7 +1,7 @@
 ---
 copyright:
   years: 2019
-lastupdated: "2019-06-05"
+lastupdated: "2019-06-04"
 
 keywords: understanding infrastructure, vpc, classic infrastructure, cloud environment
 
@@ -34,7 +34,7 @@ subcollection: overview
 ## 计算差异因素
 {: #compare-compute}
 
-有关经典和 VPC 基础架构之间的计算差异，请参阅下表。 
+有关经典和 VPC 基础架构之间的计算差异，请参阅下表。“类别”列中列出了各种差异因素，相关描述列在“经典基础架构”和“VPC 基础架构”列中。 
 
 |类别|经典基础架构|VPC 基础架构|
 | ---------- | ------------------------- | ------------------ |
@@ -45,15 +45,12 @@ subcollection: overview
 |概要文件|所有概要文件，包括 GPU 概要文件|均衡、计算和内存概要文件，可使用更高 RAM 和 vCPU 选项|
 |支持的映像|完整的预储备映像集，以及定制映像|有限的预储备映像集|
 |平台集成| |IAM 和资源组集成，可实现统一的体验|
-{: row-headers}
-{: class="comparison-table"}
 {: caption="表 1. 计算比较" caption-side="top"}
-{: summary="This table has row and column headers. The row headers identify possible features. The column headers indentify the differentiators between classic infrastructure and VPC infrastructure. To understand the differences between environments, navigate to the row and find the details for the feature that you're interested in."}
 
 ## 网络差异因素
 {: #compare-network}
 
-有关经典和 VPC 基础架构之间的联网差异，请参阅下表。  
+有关经典和 VPC 基础架构之间的联网差异，请参阅下表。“类别”列中列出了各种差异因素，相关描述列在“经典基础架构”和“VPC 基础架构”列中。 
 
 |类别|经典基础架构|VPC 基础架构|
 | ---------- | ------------------------- | ------------------ |
@@ -66,15 +63,10 @@ subcollection: overview
 |弹性负载均衡|Cloud Load Balancer|Load Balancer for VPC|
 |全局负载均衡|Cloud Internet Services 和 Citrix Netscaler MPX|Cloud Internet Services|
 |混合连接|NAT 解决方案，用于桥接 IBM Cloud 和您的 IT 环境|自带专用 IP 地址，无需 NAT 或 IPSec 隧道<br>注：您可以允许 VPC 访问经典基础架构资源。|
-{: row-headers}
-{: class="comparison-table"}
 {: caption="表 2. 网络比较" caption-side="top"}
-{: summary="This table has row and column headers. The row headers identify possible features. The column headers indentify the differentiators between classic infrastructure and VPC infrastructure. To understand the differences between environments, navigate to the row and find the details for the feature that you're interested in."}
 
 ## 存储差异因素
 {: #compare-storage}
-
-有关经典和 VPC 基础架构之间的存储差异，请参阅下表。
 
 |经典基础架构|VPC 基础架构|
 | ------------------------- | ------------------ |
@@ -84,8 +76,6 @@ subcollection: overview
 ## 安全性差异因素
 {: #compare-security}
 
-有关经典和 VPC 基础架构之间的安全性差异，请参阅下表。
-
 |经典基础架构|VPC 基础架构|
 | ---------- | ------------------------- |
 |Vyatta、Fortigate、Juniper vSRX 和用于 VSI 的安全组|安全组和网络访问控制表 (ACL)|
@@ -93,8 +83,6 @@ subcollection: overview
 
 ## API 差异因素
 {: #compare-apis}
-
-有关经典和 VPC 基础架构之间的 API 差异，请参阅下表。
 
 |经典基础架构|VPC 基础架构|
 | ------------------------- | ------------------ |
