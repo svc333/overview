@@ -2,7 +2,7 @@
 
 copyright:
   years: 2019
-lastupdated: "2019-06-20"
+lastupdated: "2019-06-24"
 
 keywords: personalized onboarding, onboarding program, Global Client Success
 
@@ -23,7 +23,7 @@ subcollection: overview
 # Personalized onboarding
 {: #personalized-assistance}
 
-{{site.data.keyword.IBM}} is dedicated to putting the client first for every interaction. To help facilitate this, our Global Client Success team offers personalized assistance through an onboarding program.
+{{site.data.keyword.IBM}} is dedicated to putting the client first for every interaction. To help facilitate this, our Global Client Success team offers free personalized assistance through an onboarding program.
 {: shortdesc}
 
 You must be logged in to your Pay-As-You-Go or Subscription account to qualify for personalized onboarding.
