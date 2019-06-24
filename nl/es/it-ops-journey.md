@@ -2,7 +2,7 @@
 
 copyright:
   years: 2018, 2019
-lastupdated: "2019-04-18"
+lastupdated: "2019-06-04"
 
 keywords: cloud environment, virtual server, virtual machine, vm, understanding infrastructure, IaaS model
 
@@ -97,7 +97,7 @@ El servidor es la base de la infraestructura. Dispone de varias opciones en func
 | Opción | Descripción | 
 |--------|---------------|
 | [{{site.data.keyword.baremetal_short}}](/docs/bare-metal?topic=bare-metal-about-bm#about-bm)  | Servidores de un solo arrendatario mensuales o por hora, dedicados y no compartidos con otros clientes, incluidos los recursos del servidor. |
-| [{{site.data.keyword.BluVirtServers_short}}](/docs/vsi?topic=virtual-servers-about-public-virtual-servers#public-virtual-servers) | Servidores virtuales escalables que se adquieren con núcleos dedicados y asignaciones de memoria. |
+| [{{site.data.keyword.BluVirtServers_short}}](/docs/vsi?topic=virtual-servers-getting-started-tutorial) | Servidores virtuales escalables que se adquieren con núcleos y asignaciones de memoria. |
 | [{{site.data.keyword.vmwaresolutions_short}}](/docs/services/vmwaresolutions?topic=vmware-solutions-getting-started#getting-started) | Integrar o migrar de forma rápida y transparente las cargas de trabajo de VMware locales utilizando una infraestructura escalable, segura y de alto rendimiento y la tecnología de virtualización híbrida de VMware líder del sector. |
 | [{{site.data.keyword.containerlong_notm}}](/docs/containers?topic=containers-container_index) | Combina contenedores de Docker, la tecnología de Kubernetes, una experiencia de usuario intuitiva y una seguridad y aislamiento integrados para automatizar el despliegue, la operación, el escalado y la supervisión de apps contenerizadas en un clúster de hosts de cálculo. |
 | [{{site.data.keyword.cfee_full_notm}}](/docs/cloud-foundry?topic=cloud-foundry-about) | Crear instancias de varias plataformas de Cloud Foundry aisladas y de nivel empresarial a petición. |
@@ -109,21 +109,23 @@ El servidor es la base de la infraestructura. Dispone de varias opciones en func
 
 {{site.data.keyword.baremetal_short}} y {{site.data.keyword.BluVirtServers_short}} se suministran con un almacenamiento predeterminado. {{site.data.keyword.baremetal_short}} tiene un mínimo de 1 TB SATA de espacio de disco y {{site.data.keyword.BluVirtServers_short}} tiene un mínimo de 25 GB SAN de almacenamiento. La excepción es el {{site.data.keyword.baremetal_short}} certificado por SAP de {{site.data.keyword.cloud_notm}}. Para obtener más información sobre el almacenamiento predeterminado disponible con estos servidores, consulte [Infraestructura de {{site.data.keyword.cloud_notm}} certificada por SAP](/docs/bare-metal?topic=bare-metal-sap-cert-infrastructure#sap-cert-infrastructure).
 
-Puede adquirir más almacenamiento en función de sus necesidades. Consulte la tabla siguiente para obtener un resumen de las opciones de cálculo.
+Puede adquirir más almacenamiento en función de sus necesidades. Consulte la tabla siguiente para obtener un resumen de las opciones de almacenamiento.
 
 | Opción | Descripción |
 |--------|---------------|
-| [{{site.data.keyword.blockstorageshort}}](/docs/infrastructure/BlockStorage/index.html) | Almacenamiento iSCSI persistente y de alto rendimiento que se suministra y se gestiona de forma independiente de las instancias de cálculo. Los LUN basados en iSCSI están conectados a dispositivos autorizados a través de conexiones de E/S de varias vías de acceso (MPIO) redundantes. |
-| [{{site.data.keyword.filestorage_short}}](/docs/infrastructure/FileStorage/index.html) | Almacenamiento de archivos basado en NFS persistente, rápido y flexible conectado a la red. En este entorno de almacenamiento adjunto de red (NAS), tiene un control total sobre la función y el rendimiento de las comparticiones de archivos. Las unidades compartidas de almacenamiento de archivos se pueden conectar a un máximo de 64 dispositivos autorizados a través de conexiones TCP/IP direccionadas para la capacidad de recuperación. |
-| [{{site.data.keyword.cos_full_notm}}](/docs/services/cloud-object-storage?topic=cloud-object-storage-about#about) | La información almacenada con IBM Cloud Object Storage se cifra y dispersa en varias ubicaciones geográficas y se accede a la misma mediante HTTP utilizando una API REST. Este servicio hace uso de las tecnologías de almacenamiento distribuido que proporciona el sistema de IBM Cloud Object Storage (anteriormente conocido como Cleversafe). |
+| [{{site.data.keyword.blockstorageshort}}](/docs/infrastructure/BlockStorage?topic=BlockStorage-getting-started) | Almacenamiento iSCSI persistente y de alto rendimiento que se suministra y se gestiona de forma independiente de las instancias de cálculo. Los LUN basados en iSCSI están conectados a dispositivos autorizados a través de conexiones de E/S de varias vías de acceso (MPIO) redundantes. |
+| [{{site.data.keyword.filestorage_short}}](/docs/infrastructure/FileStorage?topic=FileStorage-getting-started) | Almacenamiento de archivos basado en NFS persistente, rápido y flexible conectado a la red. En este entorno de almacenamiento adjunto de red (NAS), tiene un control total sobre la función y el rendimiento de las comparticiones de archivos. Las unidades compartidas de almacenamiento de archivos se pueden conectar a un máximo de 64 dispositivos autorizados a través de conexiones TCP/IP direccionadas para la capacidad de recuperación. |
+| [{{site.data.keyword.cos_full_notm}}](/docs/services/cloud-object-storage?topic=cloud-object-storage-getting-started) | La información almacenada con IBM Cloud Object Storage se cifra y dispersa en varias ubicaciones geográficas y se accede a la misma mediante HTTP utilizando una API REST. Este servicio hace uso de las tecnologías de almacenamiento distribuido que proporciona el sistema de IBM Cloud Object Storage (anteriormente conocido como Cleversafe). |
 | [{{site.data.keyword.cloud_notm}} Master Data Management](/docs/services/MDMOnCloud?topic=MDMOnCloud-mdmoc_getting_started#mdmoc_getting_started) | Descargar grandes cantidades de datos del centro de datos local al grupo Cloud Object Storage. |
-| [{{site.data.keyword.backup_full}}](/docs/infrastructure/Backup/index.html) | Un sistema de copia de seguridad basado en agentes automatizado que se gestiona mediante un programa de utilidad de gestión basado en el navegador. Puede hacer una copia de seguridad de los datos entre servidores en uno o varios centros de datos de la red de IBM Cloud. |
+| [{{site.data.keyword.backup_full}}](/docs/infrastructure/Backup?topic=Backup-getting-started) | Un sistema de copia de seguridad basado en agentes automatizado que se gestiona mediante un programa de utilidad de gestión basado en el navegador. Puede hacer una copia de seguridad de los datos entre servidores en uno o varios centros de datos de la red de IBM Cloud. |
 {: caption="Tabla 2. Opciones de almacenamiento" caption-side="top"}
 
 ### Gestión de redes
 {: #network}
 
 Obtendrá conectividad automáticamente a {{site.data.keyword.vpn_full}} cuando la cuenta de {{site.data.keyword.cloud_notm}} se configure. De forma predeterminada, el servidor tiene una dirección IP pública y una dirección IP privada. Si desea que el servidor sea privado, puede desactivar la interfaz pública después de que el servidor se haya suministrado o pedir el servidor como privado. Consulte [Iniciación a la red privada virtual](/docs/infrastructure/iaas-vpn?topic=VPN-gettingstarted-with-virtual-private-networking) para obtener más información.
+
+En la capa de la infraestructura, puede crear una nube privada virtual, que es una red privada enlazada a su cuenta de {{site.data.keyword.cloud_notm}}. Una nube privada virtual le ofrece un punto de partida que proporciona seguridad en a nube y la posibilidad de escalar de forma dinámica sus instancias de servidor virtual. Para obtener más información, consulte [Iniciación a la infraestructura Virtual Private Cloud (VPC) de IBM Cloud](/docs/vpc-on-classic?topic=vpc-on-classic-getting-started). 
 
 Consulte la tabla siguiente para obtener un resumen de las opciones de red.
 
@@ -132,8 +134,8 @@ Consulte la tabla siguiente para obtener un resumen de las opciones de red.
 | [Content Delivery Network](/docs/infrastructure/CDN?topic=CDN-getting-started) | Se utiliza para diversas soluciones de la industria, incluidos medios de comunicación, entretenimiento, software, juegos, banca y comercio electrónico para satisfacer las necesidades de sus negocios. |
 | [Domain Name Service](/docs/cli/reference/ibmcloud?topic=cloud-cli-ibm-dev-tools-for-jetbrains) | Proporciona una ubicación central para visualizar y gestionar los dominios mediante la interfaz de gestión DNS básica y también le proporciona la opción de gestionar un DNS inverso o secundario en la misma ubicación de forma gratuita. |
 | [Direcciones IP globales](/docs/infrastructure/subnets?topic=subnets-about-global-ip-address#about-global-ip-address) | Ofrecer flexibilidad y permitirle desplazar cargas de trabajo entre servidores, incluso mediante centros de datos geográficamente dispares. |
-| [Equilibrio de carga](/docs/infrastructure/loadbalancer-service?topic=loadbalancer-service-getting-started-with-ibm-cloud-load-balancer) | Distribuye el procesamiento y las comunicaciones uniformemente mediante varios servidores en un centro de datos para que un dispositivo individual no lleve toda la carga. |
-| [Virtual Router Appliance](/docs/infrastructure/virtual-router-appliance/getting-started.html) | Direcciona de forma selectiva el tráfico de red privada y pública mediante un direccionador de empresa completo con cortafuegos, gestión del tráfico, direccionamiento basado en políticas, VPN y un host de otras características. |
+| [Equilibrio de carga](/docs/infrastructure/loadbalancer-service?topic=loadbalancer-service-getting-started) | Distribuye el procesamiento y las comunicaciones uniformemente mediante varios servidores en un centro de datos para que un dispositivo individual no lleve toda la carga. |
+| [Virtual Router Appliance](/docs/infrastructure/virtual-router-appliance?topic=virtual-router-appliance-getting-started) | Direcciona de forma selectiva el tráfico de red privada y pública mediante un direccionador de empresa completo con cortafuegos, gestión del tráfico, direccionamiento basado en políticas, VPN y un host de otras características. |
 | [VPN IPSec](/docs/infrastructure/iaas-vpn?topic=VPN-setup-ipsec-vpn#setup-ipsec-vpn) | Una suite de protocolos diseñada para autenticar y cifrar todo el tráfico de IP entre dos ubicaciones, utilizando una modalidad de túnel que proporciona una red cifrada de sitio a sitio. |
 | [{{site.data.keyword.cloud_notm}} Direct Link](/docs/infrastructure/direct-link?topic=direct-link-get-started-with-ibm-cloud-direct-link#get-started-with-ibm-cloud-direct-link) | Optimiza un proveedor Cloud Exchange para ofrecer conectividad a las ubicaciones de infraestructura de {{site.data.keyword.cloud_notm}}. |
 {: caption="Tabla 3. Opciones de red" caption-side="top"}

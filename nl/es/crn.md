@@ -4,7 +4,7 @@ copyright:
 
   years: 2017, 2019
 
-lastupdated: "2019-02-21"
+lastupdated: "2019-05-06"
 
 keywords: crn, cloud resource name
 
@@ -21,7 +21,7 @@ subcollection: overview
 # Nombres de recursos de nube
 {: #crn}
 
-Los nombres de recursos de nube (CRN) identifican exclusivamente recursos de {{site.data.keyword.Bluemix_notm}}. Un CRN se utiliza para especificar un recurso de forma inequívoca y con garantía de que es globalmente exclusivo, como en las políticas y servicios de Gestión de identidad y acceso de {{site.data.keyword.Bluemix_notm}} (IAM) listadas en el catálogo de nube.
+Los nombres de recursos de nube (CRN) identifican exclusivamente recursos de {{site.data.keyword.Bluemix_notm}}. Un CRN se utiliza para especificar un recurso de forma inequívoca y con garantía de que es globalmente exclusivo, como en las políticas y servicios de {{site.data.keyword.Bluemix_notm}} Identity and Access Management (IAM) listados en el catálogo de nube.
 
 Un CRN se forma a partir de una concatenación de "segmentos" que identifican jerárquicamente el recurso, su ubicación y el servicio al que pertenece. El delimitador de segmento se establece en ':' (el carácter de dos puntos). Todos los CRN empiezan con el identificador de segmento `crn`.
 
@@ -100,23 +100,46 @@ El segmento `location` debe ser uno de los siguientes valores:
 ### Centros de datos
 {: #dc-crn}
 
+ * `AMS01`
+ * `AMS03`
+ * `CHE01`
+ * `DAL01`
+ * `DAL05`
+ * `DAL06`
+ * `DAL07`
+ * `DAL09`
+ * `DAL10`
+ * `DAL12`
+ * `DAL13`
+ * `FRA02`
+ * `HKG02`
+ * `HOU02`
+ * `LON02`
+ * `MEL01`
+ * `MEX01`
+ * `MIL01`
+ * `MON01`
+ * `OSL01`
+ * `PAR01`
+ * `SJC01`
+ * `SJC03`
+ * `SAO01`
+ * `SEA01`
+ * `SEO01`
+ * `SNG01`
+ * `SYD01`
+ * `TOK02`
+ * `TOR01`
+ * `WDC01`
+ * `WDC04`
+ * `WDC06`
+ * `WDC07`
 
-| | | | | |
-|---|---|---|---|---|
-| AMS01  | AMS03  | CHE01  | DAL01  |  DAL05  |
-| DAL06  | DAL07  | DAL09  | DAL10  |  DAL12  |
-| DAL13  | FRA02  | HKG02  | HOU02  |  LON02  |
-| MEL01  | MEX01  | MIL01  | MON01  |  OSL01  |
-| PAR01  | SJC01  | SJC03  | SAO01  |  SEA01  |
-| SEO01  | SNG01  | SYD01  | TOK02  |  TOR01  |
-| WDC01  | WDC04  | WDC06  | WDC07  |
-{: caption="Tabla 1. Valores de centro de datos válidos" caption-side="top"}
-
-Algunos recursos no requieren una región, ya que pueden considerarse `global`. En este caso, el segmento `region` se establece en `global`.
+Algunos recursos no requieren una región, ya que pueden considerarse global. En este caso, el segmento `region` se establece en `global`.
 {: tip}
 
 
-## ámbito
+## scope
 {: #scope-crn}
 
 El segmento `scope` identifica la contención o propietario del recurso. Algunos recursos no requieren un propietario (pueden considerarse `global`). En este caso, el segmento `scope` está vacío (una serie en blanco).
@@ -128,7 +151,7 @@ El valor del segmento `scope` debe tener el formato `{scopePrefix}`/`{id}`. El `
 | Cuenta | a/`{account id}` | La cuenta en la que se ha creado el recurso. | `a/292558` |
 | Organización | o/`{org guid}` | La organización de {{site.data.keyword.Bluemix_notm}} a la que se ha asignado el recurso. | `o/4716e2d1-35b7-431f-891a-b552bf0b3c66` |
 | Espacio | s/`{space guid}` | El espacio de {{site.data.keyword.Bluemix_notm}} al que se ha asignado el recurso. | `s/48b3cdcd-e804-4398-9032-73065863ad7c` |
-{: caption="Tabla 2. ámbito de uso" caption-side="top"}
+{: caption="Tabla 1. Uso de `scope`" caption-side="top"}
 
 
 
@@ -162,7 +185,7 @@ El segmento `resource-type` debe ser alfanumérico, en minúsculas, sin espacios
 ## Ejemplos de CRN
 {: #crn_examples}
 
-Lo siguiente es una lista de ejemplos de CRN.
+La siguiente tabla contiene una lista de ejemplos de CRN.
 
 | Ejemplo | Valor |
 | --- | --- |
@@ -170,4 +193,4 @@ Lo siguiente es una lista de ejemplos de CRN.
 | Grupo de recursos | `crn:v1:bluemix:public:resource-controller: global:a/59bcbfa6ea2f006b4ed7094c1a08dcdd:resource-group:59bcbfa6ea2f006b4ed7094c1a08dcdd` |
 | Instancia de servicio | `crn:v1:bluemix:public:cloud-object-storage:global:a/59bcbfa6ea2f006b4ed7094c1a08dcdd:1a0ec336-f391-4091-a6fb-5e084a4c56f4::` |
 | Grupo | `crn:v1:bluemix:public:cloud-object-storage:global:a/59bcbfa6ea2f006b4ed7094c1a08dcdd:1a0ec336-f391-4091-a6fb-5e084a4c56f4:bucket:mybucket` |
-{: caption="Tabla 3. Ejemplos de CRN" caption-side="top"}
+{: caption="Tabla 2. Ejemplos de CRN" caption-side="top"}

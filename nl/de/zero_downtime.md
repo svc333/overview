@@ -2,7 +2,7 @@
 
 copyright:
   years: 2018, 2019
-lastupdated: "2019-06-04"
+lastupdated: "2019-06-06"
 
 keywords: HA, failover, DR, high availability, disaster recovery, locations, data centers
 
@@ -81,7 +81,7 @@ Wenn Sie Infrastrukturressourcen bereitstellen, stehen Ihnen mehr Optionen zur V
 ![Karte der Rechenzentren, die in den folgenden Tabellen beschrieben werden](images/Global-View.svg)
 
 
-Die folgende Tabelle enthält den spezifischen Code für die einzelnen Rechenzentren.  
+Die folgende Tabelle enthält den spezifischen Code für die einzelnen Rechenzentren. 
 
 | Rechenzentrum | Code  |
 |------------------|-------|
@@ -111,6 +111,7 @@ Die folgende Tabelle enthält den spezifischen Code für die einzelnen Rechenzen
 {: tab-title="Americas"}
 {: tab-group="dcs"}
 {: class="simple-tab-table"}
+{: summary="Use the buttons before the table to change the context of the table. The column headers identify the data centers located in the specific greographical area."}
 
 | Rechenzentrum | Code  |
 |------------------|-------|
@@ -126,11 +127,12 @@ Die folgende Tabelle enthält den spezifischen Code für die einzelnen Rechenzen
 | Mailand 01         | mil01 |
 | Oslo 01          | osl01 |
 | Paris 01         | par01 |
-{: caption="Tabelle 2. Rechenzentren in Europa" caption-side="top"}
+{: caption="Tabelle 1. Rechenzentren in Europa" caption-side="top"}
 {: #europe}
 {: tab-title="Europe"}
 {: tab-group="dcs"}
 {: class="simple-tab-table"}
+{: summary="Use the buttons before the table to change the context of the table. The column headers identify the data centers located in the specific greographical area."}
 
 | Rechenzentrum | Code  |
 |------------------|-------|
@@ -144,11 +146,12 @@ Die folgende Tabelle enthält den spezifischen Code für die einzelnen Rechenzen
 | Tokio 01         | tok02 | 
 | Tokio 04         | tok04 |
 | Tokio 05         | tok05 |
-{: caption="Tabelle 3. Rechenzentren in Afrika" caption-side="top"}
+{: caption="Tabelle 1. Rechenzentren in Asien/Pazifik" caption-side="top"}
 {: #asiapacific}
 {: tab-title="Asia Pacific"}
 {: tab-group="dcs"}
 {: class="simple-tab-table"}
+{: summary="Use the buttons before the table to change the context of the table. The column headers identify the data centers located in the specific greographical area."}
 
 
 ## Service-Level-Agreements (SLAs)

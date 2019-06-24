@@ -2,7 +2,7 @@
 
 copyright:
   years: 2018, 2019
-lastupdated: "2019-05-23"
+lastupdated: "2019-06-06"
 
 keywords: HA, failover, DR, high availability, disaster recovery, locations, data centers
 
@@ -80,8 +80,8 @@ Si despliega recursos de la infraestructura, tendrá más opciones para elegir d
 
 ![Mapa de centros de datos descrito en las tablas siguientes](images/Global-View.svg)
 
-### América del Norte
-{: #na}
+
+Consulte la tabla siguiente para ver el código específico de cada centro de datos. 
 
 | Centro de datos | Código  |
 |------------------|-------|
@@ -93,63 +93,65 @@ Si despliega recursos de la infraestructura, tendrá más opciones para elegir d
 | Dallas 10        | dal10 |
 | Dallas 12        | dal12 |
 | Dallas 13        | dal13 |
+| Houston 01       | hou01 |
+| México 01        | mex01 |
+| Montreal 01      | mon01 |
+| San José 01      | sjc01 |
+| San José 03      | sjc03 |
+| San José 04      | sjc04 |
+| Sao Paulo 01     | sao01 |
+| Seattle 01       | sea01 |
+| Toronto 01       | tor01 |
 | Washington DC 01 | wdc01 |
 | Washington DC 04 | wdc04 |
 | Washington DC 06 | wdc06 |
 | Washington DC 07 | wdc07 |
-| San José 01      | sjc01 |
-| San José 03      | sjc03 |
-| San José 04      | sjc04 |
-| Seattle 01       | sea01 |
-| Houston 01       | hou01 |
-| Montreal 01      | mon01 |
-| Toronto 01       | tor01 |
-| México 01        | mex01 |
-{: caption="Tabla 1. Centros de datos de América del Norte" caption-side="top"}
-
-### América del Sur
-{: #sa}
-
-| Centro de datos | Código    |
-|------------------|---------|
-| Sao Paulo 01     | sao01   |
-{: caption="Tabla 2. Centros de datos de América del Sur" caption-side="top"}
-
-### Europa
-{: #eu}
+{: caption="Tabla 1. Centros de datos de América del Norte y del Sur" caption-side="top"}
+{: #americas}
+{: tab-title="Americas"}
+{: tab-group="dcs"}
+{: class="simple-tab-table"}
+{: summary="Use the buttons before the table to change the context of the table. The column headers identify the data centers located in the specific greographical area."}
 
 | Centro de datos | Código  |
 |------------------|-------|
+| Amsterdam 01     | ams01 |
+| Amsterdam 03     | ams03 |
+| Frankfurt 02     | fra02 |
+| Frankfurt 04     | fra04 |
+| Frankfurt 05     | fra05 |
 | Londres 02        | lon02 |
 | Londres 04        | lon04 |
 | Londres 05        | lon05 |
 | Londres 06        | lon06 |
-| Frankfurt 02     | fra02 |
-| Frankfurt 04     | fra04 |
-| Frankfurt 05     | fra05 |
 | Milán 01         | mil01 |
-| Amsterdam 01     | ams01 |
-| Amsterdam 03     | ams03 |
-| París 01         | par01 |
 | Oslo 01          | osl01 |
-{: caption="Tabla 3. Centros de datos de Europa" caption-side="top"}
-
-### Asia Pacífico
-{: #ap}
+| París 01         | par01 |
+{: caption="Tabla 1. Centros de datos de Europa" caption-side="top"}
+{: #europe}
+{: tab-title="Europe"}
+{: tab-group="dcs"}
+{: class="simple-tab-table"}
+{: summary="Use the buttons before the table to change the context of the table. The column headers identify the data centers located in the specific greographical area."}
 
 | Centro de datos | Código  |
 |------------------|-------|
-| Tokio 01         | tok02 | 
-| Tokio 04         | tok04 |
-| Tokio 05         | tok05 |
-| Seúl 01         | seo01 |
 | Hong Kong 02     | hkg02 |
+| Melbourne 01     | mel01 |
+| Seúl 01         | seo01 |
 | Singapur 01     | sng01 |
 | Sídney 01        | syd01 |
 | Sídney 04        | syd04 |
 | Sídney 05        | syd05 |
-| Melbourne 01     | mel01 |
-{: caption="Tabla 4. Centros de datos de Asia Pacífico" caption-side="top"}
+| Tokio 01         | tok02 | 
+| Tokio 04         | tok04 |
+| Tokio 05         | tok05 |
+{: caption="Tabla 1. Centros de datos de Asia Pacífico" caption-side="top"}
+{: #asiapacific}
+{: tab-title="Asia Pacific"}
+{: tab-group="dcs"}
+{: class="simple-tab-table"}
+{: summary="Use the buttons before the table to change the context of the table. The column headers identify the data centers located in the specific greographical area."}
 
 
 ## Acuerdos de nivel de servicio (SLA)
@@ -203,14 +205,14 @@ Los servicios de infraestructura son servicios de servidores virtuales y dedicad
 
 El tiempo de inactividad es el total en minutos durante el que un servicio de infraestructura identificado por el cliente no está disponible debido a una interrupción del servicio basada en una red pública, una red privada y una potencia de infraestructura redundante y paradas de HVAC. El cálculo del tiempo de inactividad en minutos empieza cuando la parada validada que afecta al servicio se identifica hasta el momento en el que el servicio está disponible. 
 
-El tiempo de inactividad no incluye el tiempo del mantenimiento anunciado o planificado. Cada 30 minutos de tiempo de inactividad, recibirá un crédito del 5% de los cargos mensuales para los servicios identificados que se ven afectados directamente por la parada. No es elegible para obtener un crédito si el tiempo de inactividad es inferior a 30 minutos seguidos. No es posible combinar el tiempo de inactividad de distintos tipos de paradas para que alcance el cálculo.  
+El tiempo de inactividad no incluye el tiempo del mantenimiento anunciado o planificado. Cada 30 minutos de tiempo de inactividad, recibirá un crédito del 5% de los cargos mensuales para los servicios identificados que se ven afectados directamente por la parada. No es elegible para obtener un crédito si el tiempo de inactividad es inferior a 30 minutos seguidos. No es posible combinar el tiempo de inactividad de distintos tipos de paradas para que alcance el cálculo. 
 
 ### Sustitución de hardware de infraestructura y actualización de SLA
 {: #hw-replaceupgrade-sla}
 
 {{site.data.keyword.Bluemix_notm}} intenta minimizar el tiempo de inactividad al sustituir el hardware con errores o al realizar una actualización de hardware planificada. 
 
-{{site.data.keyword.Bluemix_notm}} proporciona crédito a:  
+{{site.data.keyword.Bluemix_notm}} proporciona crédito a: 
 - La sustitución de hardware basada en el tiempo para realizar una sustitución a partir del momento en que {{site.data.keyword.Bluemix_notm}} verifica que un cliente ha informado sobre un error de hardware.
 - Actualizaciones de hardware planificadas en función del tiempo de inactividad del servicio que recibe la actualización. 
 

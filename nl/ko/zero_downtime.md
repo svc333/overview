@@ -2,7 +2,7 @@
 
 copyright:
   years: 2018, 2019
-lastupdated: "2019-06-04"
+lastupdated: "2019-06-06"
 
 keywords: HA, failover, DR, high availability, disaster recovery, locations, data centers
 
@@ -81,7 +81,7 @@ subcollection: overview
 ![다음 표에 설명된 데이터 센터의 맵](images/Global-View.svg)
 
 
-데이터 센터별 특정 코드는 다음 표를 참조하십시오.  
+데이터 센터별 특정 코드는 다음 표를 참조하십시오. 
 
 | 데이터 센터 | 코드  |
 |------------------|-------|
@@ -111,6 +111,7 @@ subcollection: overview
 {: tab-title="Americas"}
 {: tab-group="dcs"}
 {: class="simple-tab-table"}
+{: summary="Use the buttons before the table to change the context of the table. The column headers identify the data centers located in the specific greographical area."}
 
 | 데이터 센터 | 코드  |
 |------------------|-------|
@@ -126,11 +127,12 @@ subcollection: overview
 |밀라노 01         |mil01 |
 |오슬로 01          |osl01 |
 |파리 01         |par01 |
-{: caption="표 2. 유럽의 데이터 센터" caption-side="top"}
+{: caption="표 1. 유럽의 데이터 센터" caption-side="top"}
 {: #europe}
 {: tab-title="Europe"}
 {: tab-group="dcs"}
 {: class="simple-tab-table"}
+{: summary="Use the buttons before the table to change the context of the table. The column headers identify the data centers located in the specific greographical area."}
 
 | 데이터 센터 | 코드  |
 |------------------|-------|
@@ -144,11 +146,12 @@ subcollection: overview
 |도쿄 01         |tok02 | 
 |도쿄 04         |tok04 |
 |도쿄 05         |tok05 |
-{: caption="표 3. 아시아 태평양의 데이터 센터" caption-side="top"}
+{: caption="표 1. 아시아 태평양의 데이터 센터" caption-side="top"}
 {: #asiapacific}
 {: tab-title="Asia Pacific"}
 {: tab-group="dcs"}
 {: class="simple-tab-table"}
+{: summary="Use the buttons before the table to change the context of the table. The column headers identify the data centers located in the specific greographical area."}
 
 
 ## SLA(Service Level Agreement)

@@ -4,7 +4,7 @@ copyright:
 
   years: 2015, 2019
 
-lastupdated: "2019-06-03"
+lastupdated: "2019-06-06"
 
 keywords: release notes, what's new, what is new, cloud updates
 
@@ -222,7 +222,7 @@ Cloud Foundry 앱의 하위 도메인은 `cf.appdomain.cloud`입니다. {{site.d
 신규 기준일: 2017년 11월 28일
 {: #nosupport-tls}
 
-2018년 3월 1일부로 {{site.data.keyword.Bluemix_notm}}는 보안 및 데이터 개인정보 보호에 대한 업계의 우수 사례에 따라 철저하게 보안되는 클라우드를 제공하고자 하는 노력의 일부로 여러 클라우드 제품 및 서비스에서 TLS 1.0 및 TLS 1.1에 대한 지원을 중단합니다. 이 변경사항이 적용되는 방법과 수행해야 하는 조치에 대해 자세히 알아보려면 [LS 1.0 및 1.1에 대한 지원 중단](/docs/get-support?topic=get-support-tlssupportwithdraw)을 참조하십시오.
+2018년 3월 1일부로 {{site.data.keyword.Bluemix_notm}}는 보안 및 데이터 개인정보 보호에 대한 업계의 우수 사례에 따라 철저하게 보안되는 클라우드를 제공하고자 하는 노력의 일부로 여러 클라우드 제품 및 서비스에서 TLS 1.0 및 TLS 1.1에 대한 지원을 중단합니다. 
 
 ### 계정에서 리소스를 구성하는 새로운 방법
 신규 기준일: 2017년 11월 16일
