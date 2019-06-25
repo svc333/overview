@@ -4,7 +4,7 @@ copyright:
 
   years: 2015, 2019
 
-lastupdated: "2019-06-03"
+lastupdated: "2019-06-06"
 
 keywords: release notes, what's new, what is new, cloud updates
 
@@ -222,7 +222,7 @@ Si vos services et centres de données se trouvent en Europe, {{site.data.keywor
 Nouveau à compter du : 28 novembre 2017
 {: #nosupport-tls}
 
-Au 1er mars 2018 {{site.data.keyword.Bluemix_notm}} retire la prise en charge de TLS 1.0 et TLS 1.1 sur un grand nombre de nos produits et services cloud dans le cadre de notre engagement à offrir un cloud totalement sécurisé et conforme aux dernières recommandations de sécurité et de confidentialité. Pour en savoir plus sur la façon dont ce changement vous affecte et les actions qu'il peut être nécessaire de prendre, voir [Retrait de la prise en charge de TLS 1.0 et 1.1](/docs/get-support?topic=get-support-tlssupportwithdraw).
+Au 1er mars 2018 {{site.data.keyword.Bluemix_notm}} retire la prise en charge de TLS 1.0 et TLS 1.1 sur un grand nombre de nos produits et services cloud dans le cadre de notre engagement à offrir un cloud totalement sécurisé et conforme aux dernières recommandations de sécurité et de confidentialité. 
 
 ### Une nouvelle façon d'organiser les ressources au sein de votre compte
 Nouveau à compter du : 16 novembre 2017

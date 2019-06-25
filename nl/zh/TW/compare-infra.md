@@ -1,7 +1,7 @@
 ---
 copyright:
   years: 2019
-lastupdated: "2019-06-04"
+lastupdated: "2019-06-05"
 
 keywords: understanding infrastructure, vpc, classic infrastructure, cloud environment
 
@@ -34,7 +34,7 @@ subcollection: overview
 ## 運算差異因子
 {: #compare-compute}
 
-如需標準與 VPC 之間的運算差異，請參閱下表。各種差異因子列在「種類」直欄中，而說明列在「標準基礎架構」及「VPC 基礎架構」直欄中。 
+如需標準與 VPC 之間的運算差異，請參閱下表。 
 
 | 種類   |  標準基礎架構   | VPC 基礎架構 |
 | ---------- | ------------------------- | ------------------ |
@@ -45,12 +45,15 @@ subcollection: overview
 | 設定檔 | 所有設定檔，包括 GPU 設定檔 | 具有較高 RAM 及 vCPU 選項的平衡、運算、記憶體設定檔 |
 | 支援的映像檔 | 一組完整的預先庫存映像檔，再加上自訂映像檔 | 一組有限的預先庫存映像檔|
 | 平台整合 | | IAM 與資源群組整合以獲得統一體驗 |
+{: row-headers}
+{: class="comparison-table"}
 {: caption="表 1. 運算比較" caption-side="top"}
+{: summary="This table has row and column headers. The row headers identify possible features. The column headers indentify the differentiators between classic infrastructure and VPC infrastructure. To understand the differences between environments, navigate to the row and find the details for the feature that you're interested in."}
 
 ## 網路差異因子
 {: #compare-network}
 
-如需標準與 VPC 之間的網路差異，請參閱下表。各種差異因子列在「種類」直欄中，而說明列在「標準基礎架構」及「VPC 基礎架構」直欄中。 
+如需標準與 VPC 之間的網路差異，請參閱下表。  
 
 | 種類   |  標準基礎架構   | VPC 基礎架構 |
 | ---------- | ------------------------- | ------------------ |
@@ -63,10 +66,15 @@ subcollection: overview
 | 彈性負載平衡 | Cloud Load Balancer  | Load Balancer for VPC |
 | 廣域負載平衡 | Cloud Internet Services、Citrix Netscaler MPX | Cloud Internet Services |
 | 混合式連線功能 | 要在 IBM Cloud 與 IT 環境之間橋接的 NAT 解決方案 | 沒有 NAT 或 IPSec 通道的自帶專用 IP 位址 <br>附註：您可以啟用 VPC 來存取標準基礎架構資源。|
+{: row-headers}
+{: class="comparison-table"}
 {: caption="表 2. 網路比較" caption-side="top"}
+{: summary="This table has row and column headers. The row headers identify possible features. The column headers indentify the differentiators between classic infrastructure and VPC infrastructure. To understand the differences between environments, navigate to the row and find the details for the feature that you're interested in."}
 
 ## 儲存空間差異因子
 {: #compare-storage}
+
+如需標準與 VPC 之間的儲存空間差異，請參閱下表。
 
 |  標準基礎架構   | VPC 基礎架構 |
 | ------------------------- | ------------------ |
@@ -76,6 +84,8 @@ subcollection: overview
 ## 安全差異因子
 {: #compare-security}
 
+如需標準與 VPC 之間的安全差異，請參閱下表。
+
 |  標準基礎架構   | VPC 基礎架構 |
 | ---------- | ------------------------- |
 |Vyatta、Fortigate、Juniper vSRX、Security Group for VSI| 安全群組、網路存取控制清單 (ACL)|
@@ -83,6 +93,8 @@ subcollection: overview
 
 ## API 差異因子
 {: #compare-apis}
+
+如需標準與 VPC 之間的 API 差異，請參閱下表。
 
 |  標準基礎架構   | VPC 基礎架構 |
 | ------------------------- | ------------------ |

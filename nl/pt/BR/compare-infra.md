@@ -1,7 +1,7 @@
 ---
 copyright:
   years: 2019
-lastupdated: "2019-06-04"
+lastupdated: "2019-06-05"
 
 keywords: understanding infrastructure, vpc, classic infrastructure, cloud environment
 
@@ -34,7 +34,7 @@ A infraestrutura clássica e a infraestrutura de VPC têm o mesmo custo, então 
 ## Diferenciadores de cálculo
 {: #compare-compute}
 
-Consulte a tabela a seguir para ver as diferenças de cálculo entre a infraestrutura clássica e a de VPC. Os diversos diferenciadores estão listados na coluna Categoria e as descrições estão listadas nas colunas Infraestrutura clássica e Infraestrutura de VPC. 
+Consulte a tabela a seguir para ver as diferenças de cálculo entre clássico e VPC. 
 
 | Categoria   |  Infraestrutura clássica   | Infraestrutura de VPC |
 | ---------- | ------------------------- | ------------------ |
@@ -43,14 +43,17 @@ Consulte a tabela a seguir para ver as diferenças de cálculo entre a infraestr
 | Venda | Faturamento por hora e mensal, além de recursos de suspensão de faturamento | Por hora, com suspensão de faturamento e com desconto de uso mantido |
 | Famílias de servidor virtual | Público, dedicado, temporário, reservado | Somente pública |
 | Perfis | Todos os perfis, incluindo os perfis da GPU | Perfis de memória, balanceados e de cálculo com opções superiores de RAM e vCPU |
-| Imagens suportadas | Conjunto completo de bancos de imagens prévios, além de imagens customizadas | Conjunto limitado de bancos de imagens prévios |
+| Imagens suportadas | Conjunto completo de bancos de imagens prévios, além de imagens customizadas | Conjunto limitado de bancos de imagens prévios|
 | Integração da Plataforma | | Integração do grupo de recursos e do IAM para uma experiência unificada |
+{: row-headers}
+{: class="comparison-table"}
 {: caption="Tabela 1. Comparação de cálculo" caption-side="top"}
+{: summary="This table has row and column headers. The row headers identify possible features. The column headers indentify the differentiators between classic infrastructure and VPC infrastructure. To understand the differences between environments, navigate to the row and find the details for the feature that you're interested in."}
 
 ## Diferenciadores de rede
 {: #compare-network}
 
-Consulte a tabela a seguir para ver as diferenças de rede entre a infraestrutura clássica e a de VPC. Os diversos diferenciadores estão listados na coluna Categoria e as descrições estão listadas nas colunas Infraestrutura clássica e Infraestrutura de VPC. 
+Consulte a tabela a seguir para ver as diferenças de rede entre clássico e VPC.  
 
 | Categoria   |  Infraestrutura clássica   | Infraestrutura de VPC |
 | ---------- | ------------------------- | ------------------ |
@@ -60,13 +63,18 @@ Consulte a tabela a seguir para ver as diferenças de rede entre a infraestrutur
 | Roteamento de gateway | Use um dispositivo de rede virtual ou físico (Virtual Router Appliance, Vyatta, Juniper vSRX, Fortinet FSA) | O roteamento do tráfego é manipulado por serviços de IP flutuante e por um gateway público |
 | NAT (Network Address Translation) | Use um dispositivo de rede virtual ou físico (Virtual Router Appliance, Vyatta, Juniper vSRX, Fortinet FSA) | Suportado pela funcionalidade Bring-your-own-IP (BYOIP)  |
 | Rede privada virtual (VPN) do IPsec | Use um dispositivo de rede virtual ou físico (Virtual Router Appliance, Vyatta, Juniper vSRX, Fortinet FSA) | Suportado com a oferta de VPN como um serviço |
-|  Balanceamento de carga elástico | Cloud Load Balancer  | Balanceador de carga para VPC |
+|  Balanceamento de carga elástico | Cloud Load Balancer  | Load Balancer for VPC |
 | Balanceamento de carga global| Cloud Internet Services, Citrix Netscaler MPX | Serviços de Internet na nuvem |
 |Conectividade híbrida | Solução NAT para fazer a ligação entre o IBM Cloud e seu ambiente de TI | Traga seu próprio endereço IP privado sem túneis NAT ou IPSec <br>Nota: é possível permitir que sua VPC acesse os recursos da infraestrutura clássica.|
+{: row-headers}
+{: class="comparison-table"}
 {: caption="Tabela 2. Comparação de rede" caption-side="top"}
+{: summary="This table has row and column headers. The row headers identify possible features. The column headers indentify the differentiators between classic infrastructure and VPC infrastructure. To understand the differences between environments, navigate to the row and find the details for the feature that you're interested in."}
 
 ## Diferenciadores de armazenamento
 {: #compare-storage}
+
+Consulte a tabela a seguir para ver as diferenças de armazenamento entre clássico e VPC.
 
 |  Infraestrutura clássica   | Infraestrutura de VPC |
 | ------------------------- | ------------------ |
@@ -76,6 +84,8 @@ Consulte a tabela a seguir para ver as diferenças de rede entre a infraestrutur
 ## Diferenciadores de segurança
 {: #compare-security}
 
+Consulte a tabela a seguir para ver as diferenças de segurança entre clássico e VPC.
+
 |  Infraestrutura clássica   | Infraestrutura de VPC |
 | ---------- | ------------------------- |
 |Vyatta, Fortigate, Juniper vSRX, grupos de segurança para VSIs| Grupos de segurança, listas de controle de acesso (ACLs) à rede|
@@ -84,9 +94,11 @@ Consulte a tabela a seguir para ver as diferenças de rede entre a infraestrutur
 ## Diferenciadores de API
 {: #compare-apis}
 
+Consulte a tabela a seguir para ver as diferenças de API entre clássico e VPC.
+
 |  Infraestrutura clássica   | Infraestrutura de VPC |
 | ------------------------- | ------------------ |
-|{{site.data.keyword.slapi_short}} (SLAPI) existente| Nova API baseada em REST e de fácil uso por desenvolvedores |
+|{{site.data.keyword.slapi_short}} (SLAPI) existente| Nova API baseada em REST e de fácil uso por desenvolvedores|
 {: caption="Tabela 5. Comparação de API" caption-side="top"}
 
 ## Próximas Etapas

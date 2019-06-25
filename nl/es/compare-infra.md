@@ -1,7 +1,7 @@
 ---
 copyright:
   years: 2019
-lastupdated: "2019-06-04"
+lastupdated: "2019-06-05"
 
 keywords: understanding infrastructure, vpc, classic infrastructure, cloud environment
 
@@ -34,7 +34,7 @@ La infraestructura clásica y la infraestructura VPC no tienen diferencias en cu
 ## Diferenciadores de cálculo
 {: #compare-compute}
 
-Consulte la tabla siguiente para ver las diferencias en cuanto a cálculo entre la infraestructura clásica y VPC. Los distintos diferenciadores se muestran en la columna Categoría y las descripciones ese muestran en las columnas Infraestructura clásica e Infraestructura VPC. 
+Consulte la tabla siguiente para ver las diferencias en cuanto a cálculo entre la infraestructura clásica y VPC. 
 
 | Categoría   |  Infraestructura clásica   | Infraestructura VPC |
 | ---------- | ------------------------- | ------------------ |
@@ -45,16 +45,19 @@ Consulte la tabla siguiente para ver las diferencias en cuanto a cálculo entre 
 | Perfiles | Todos los perfiles, incluidos los perfiles GPU | Perfiles equilibradores, de cálculo y de memoria con opciones superiores de RAM y de vCPU |
 | Imágenes admitidas | Conjunto completo de imágenes previas, más imágenes personalizadas | Conjunto limitado de imágenes previas|
 | Integración de plataformas | | Integración de IAM y de grupo de recursos para ofrecer una experiencia unificada |
+{: row-headers}
+{: class="comparison-table"}
 {: caption="Tabla 1. Comparaciones en cuanto a cálculo" caption-side="top"}
+{: summary="This table has row and column headers. The row headers identify possible features. The column headers indentify the differentiators between classic infrastructure and VPC infrastructure. To understand the differences between environments, navigate to the row and find the details for the feature that you're interested in."}
 
 ## Diferenciadores de red
 {: #compare-network}
 
-Consulte la tabla siguiente para ver las diferencias en cuanto a red entre la infraestructura clásica y VPC. Los distintos diferenciadores se muestran en la columna Categoría y las descripciones ese muestran en las columnas Infraestructura clásica e Infraestructura VPC. 
+Consulte la tabla siguiente para ver las diferencias en cuanto a red entre la infraestructura clásica y VPC.  
 
 | Categoría   |  Infraestructura clásica   | Infraestructura VPC |
 | ---------- | ------------------------- | ------------------ |
-| Construcción de ubicación    | Centros de datos y pods <br>(Es posible que se requiera una ampliación de VLAN para conectar dos pods o centros de datos distintos y la adquisición de pasarelas para controlar y direccionar el tráfico)| Modelo regional que sintetiza la infraestructura para que no deba preocuparse por las ubicaciones de los pods.|
+| Construcción de ubicación    | Centros de datos y pods <br>(Es posible que se requiera una ampliación de VLAN para conectar dos pods o centros de datos distintos y la adquisición de pasarelas para controlar y direccionar el tráfico) | Modelo regional que sintetiza la infraestructura para que no deba preocuparse por las ubicaciones de los pods.|
 | Funciones y servicios de red |Dispositivos físicos y virtuales de distintos proveedores | Funciones de red nativas de la nube (VPNs, LBaaS)<br>(Aislamiento de VPC, recursos dedicados de la nube pública, con más opciones para VPNs, LBaaS, varias instancias de vNIC y tamaños mayores de subred) |
 | Direcciones IP | Se admiten direcciones IPv6 | Solo direcciones IPv4 |
 | Direccionamiento de pasarela | Utilice un dispositivo de red virtual o físico (Virtual Router Appliance, Vyatta, Juniper vSRX, Fortinet FSA) | La pasarela pública y los servicios de IP flotante manejar el direccionamiento del tráfico |
@@ -62,19 +65,26 @@ Consulte la tabla siguiente para ver las diferencias en cuanto a red entre la in
 | Red privada virtual IPsec (VPN) | Utilice un dispositivo de red virtual o físico (Virtual Router Appliance, Vyatta, Juniper vSRX, Fortinet FSA) | Recibe soporte con la oferta VPN como servicio |
 |  Equilibrio de carga elástico | Cloud Load Balancer  | Load Balancer for VPC |
 | Equilibrio de carga global| Cloud Internet Services, Citrix Netscaler MPX | Cloud Internet Services |
-|Conectividad híbrida | Solución NAT de puente entre IBM Cloud y su entorno de TI | Traiga su propia dirección IP privada con NAT o túneles IPSec <br>Nota: puede habilitar su VPC para que acceda a los recursos de la infraestructura clásica.|
+|Conectividad híbrida | Solución NAT de puente entre IBM Cloud y su entorno de TI | Traiga su propia dirección IP privada sin NAT o túneles IPSec <br>Nota: puede habilitar su VPC para que acceda a los recursos de la infraestructura clásica. |
+{: row-headers}
+{: class="comparison-table"}
 {: caption="Tabla 2. Comparación entre redes" caption-side="top"}
+{: summary="This table has row and column headers. The row headers identify possible features. The column headers indentify the differentiators between classic infrastructure and VPC infrastructure. To understand the differences between environments, navigate to the row and find the details for the feature that you're interested in."}
 
 ## Diferenciadores de almacenamiento
 {: #compare-storage}
 
+Consulte la tabla siguiente para ver las diferencias en cuanto a almacenamiento entre la infraestructura clásica y VPC.
+
 |  Infraestructura clásica   | Infraestructura VPC |
 | ------------------------- | ------------------ |
-|Potente conjunto de servicios de almacenamiento, ofertas de almacenamiento en bloque (iSCSI) y de almacenamiento de archivos (basado en NFS)| Almacenamiento en bloque como disco de arranque primario (con gestión básica del ciclo de vida) y volúmenes de datos secundarios  <br> Nota: el cifrado de volúmenes está disponible durante el suministro|
+|Potente conjunto de servicios de almacenamiento, ofertas de almacenamiento en bloque (iSCSI) y de almacenamiento de archivos (basado en NFS)| Almacenamiento en bloque como disco de arranque primario (con gestión básica del ciclo de vida) y volúmenes de datos secundarios  <br> Nota: el cifrado de volúmenes está disponible durante el suministro.|
 {: caption="Tabla 3. Comparación entre almacenamientos" caption-side="top"}
 
 ## Diferenciadores de seguridad
 {: #compare-security}
+
+Consulte la tabla siguiente para ver las diferencias en cuanto a seguridad entre la infraestructura clásica y VPC.
 
 |  Infraestructura clásica   | Infraestructura VPC |
 | ---------- | ------------------------- |
@@ -84,9 +94,11 @@ Consulte la tabla siguiente para ver las diferencias en cuanto a red entre la in
 ## Diferenciadores de API
 {: #compare-apis}
 
+Consulte la tabla siguiente para ver las diferencias en cuanto a API entre la infraestructura clásica y VPC.
+
 |  Infraestructura clásica   | Infraestructura VPC |
 | ------------------------- | ------------------ |
-|{{site.data.keyword.slapi_short}} (SLAPI) existente| Nueva API basada en REST pensada para los desarrolladores|
+|{{site.data.keyword.slapi_short}} (SLAPI) existente| Nueva API basada en REST pensada para los desarrolladores |
 {: caption="Tabla 5. Comparación entre API" caption-side="top"}
 
 ## Pasos siguientes

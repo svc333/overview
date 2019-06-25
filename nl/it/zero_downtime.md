@@ -2,7 +2,7 @@
 
 copyright:
   years: 2018, 2019
-lastupdated: "2019-06-04"
+lastupdated: "2019-06-06"
 
 keywords: HA, failover, DR, high availability, disaster recovery, locations, data centers
 
@@ -111,6 +111,7 @@ Vedi la seguente tabella per il codice specifico di ogni data center.
 {: tab-title="Americas"}
 {: tab-group="dcs"}
 {: class="simple-tab-table"}
+{: summary="Use the buttons before the table to change the context of the table. The column headers identify the data centers located in the specific greographical area."}
 
 | Data Center | Codice  |
 |------------------|-------|
@@ -126,11 +127,12 @@ Vedi la seguente tabella per il codice specifico di ogni data center.
 | Milan 01         | mil01 |
 | Oslo 01          | osl01 |
 | Paris 01         | par01 |
-{: caption="Tabella 2. Data center in Europa" caption-side="top"}
+{: caption="Tabella 1. Data center in Europa" caption-side="top"}
 {: #europe}
 {: tab-title="Europe"}
 {: tab-group="dcs"}
 {: class="simple-tab-table"}
+{: summary="Use the buttons before the table to change the context of the table. The column headers identify the data centers located in the specific greographical area."}
 
 | Data Center | Codice  |
 |------------------|-------|
@@ -144,11 +146,12 @@ Vedi la seguente tabella per il codice specifico di ogni data center.
 | Tokyo 01         | tok02 | 
 | Tokyo 04         | tok04 |
 | Tokyo 05         | tok05 |
-{: caption="Tabella 3. Data center in Asia e Pacifico" caption-side="top"}
+{: caption="Tabella 1. Data center in Asia Pacifico" caption-side="top"}
 {: #asiapacific}
 {: tab-title="Asia Pacific"}
 {: tab-group="dcs"}
 {: class="simple-tab-table"}
+{: summary="Use the buttons before the table to change the context of the table. The column headers identify the data centers located in the specific greographical area."}
 
 
 ## SLA (Service Level Agreement)

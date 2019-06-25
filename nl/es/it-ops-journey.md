@@ -125,7 +125,7 @@ Puede adquirir más almacenamiento en función de sus necesidades. Consulte la t
 
 Obtendrá conectividad automáticamente a {{site.data.keyword.vpn_full}} cuando la cuenta de {{site.data.keyword.cloud_notm}} se configure. De forma predeterminada, el servidor tiene una dirección IP pública y una dirección IP privada. Si desea que el servidor sea privado, puede desactivar la interfaz pública después de que el servidor se haya suministrado o pedir el servidor como privado. Consulte [Iniciación a la red privada virtual](/docs/infrastructure/iaas-vpn?topic=VPN-gettingstarted-with-virtual-private-networking) para obtener más información.
 
-En la capa de la infraestructura, puede crear una nube privada virtual, que es una red privada enlazada a su cuenta de {{site.data.keyword.cloud_notm}}. Una nube privada virtual le ofrece un punto de partida que proporciona seguridad en a nube y la posibilidad de escalar de forma dinámica sus instancias de servidor virtual. Para obtener más información, consulte [Iniciación a la infraestructura Virtual Private Cloud (VPC) de IBM Cloud](/docs/vpc-on-classic?topic=vpc-on-classic-getting-started).
+En la capa de la infraestructura, puede crear una nube privada virtual, que es una red privada enlazada a su cuenta de {{site.data.keyword.cloud_notm}}. Una nube privada virtual le ofrece un punto de partida que proporciona seguridad en a nube y la posibilidad de escalar de forma dinámica sus instancias de servidor virtual. Para obtener más información, consulte [Iniciación a la infraestructura Virtual Private Cloud (VPC) de IBM Cloud](/docs/vpc-on-classic?topic=vpc-on-classic-getting-started). 
 
 Consulte la tabla siguiente para obtener un resumen de las opciones de red.
 

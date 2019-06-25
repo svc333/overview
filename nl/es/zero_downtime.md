@@ -2,7 +2,7 @@
 
 copyright:
   years: 2018, 2019
-lastupdated: "2019-06-04"
+lastupdated: "2019-06-06"
 
 keywords: HA, failover, DR, high availability, disaster recovery, locations, data centers
 
@@ -111,6 +111,7 @@ Consulte la tabla siguiente para ver el código específico de cada centro de da
 {: tab-title="Americas"}
 {: tab-group="dcs"}
 {: class="simple-tab-table"}
+{: summary="Use the buttons before the table to change the context of the table. The column headers identify the data centers located in the specific greographical area."}
 
 | Centro de datos | Código  |
 |------------------|-------|
@@ -126,11 +127,12 @@ Consulte la tabla siguiente para ver el código específico de cada centro de da
 | Milán 01         | mil01 |
 | Oslo 01          | osl01 |
 | París 01         | par01 |
-{: caption="Tabla 2. Centros de datos de Europa" caption-side="top"}
+{: caption="Tabla 1. Centros de datos de Europa" caption-side="top"}
 {: #europe}
 {: tab-title="Europe"}
 {: tab-group="dcs"}
 {: class="simple-tab-table"}
+{: summary="Use the buttons before the table to change the context of the table. The column headers identify the data centers located in the specific greographical area."}
 
 | Centro de datos | Código  |
 |------------------|-------|
@@ -144,11 +146,12 @@ Consulte la tabla siguiente para ver el código específico de cada centro de da
 | Tokio 01         | tok02 | 
 | Tokio 04         | tok04 |
 | Tokio 05         | tok05 |
-{: caption="Tabla 3. Centros de datos de Asia Pacífico" caption-side="top"}
+{: caption="Tabla 1. Centros de datos de Asia Pacífico" caption-side="top"}
 {: #asiapacific}
 {: tab-title="Asia Pacific"}
 {: tab-group="dcs"}
 {: class="simple-tab-table"}
+{: summary="Use the buttons before the table to change the context of the table. The column headers identify the data centers located in the specific greographical area."}
 
 
 ## Acuerdos de nivel de servicio (SLA)
@@ -202,14 +205,14 @@ Los servicios de infraestructura son servicios de servidores virtuales y dedicad
 
 El tiempo de inactividad es el total en minutos durante el que un servicio de infraestructura identificado por el cliente no está disponible debido a una interrupción del servicio basada en una red pública, una red privada y una potencia de infraestructura redundante y paradas de HVAC. El cálculo del tiempo de inactividad en minutos empieza cuando la parada validada que afecta al servicio se identifica hasta el momento en el que el servicio está disponible. 
 
-El tiempo de inactividad no incluye el tiempo del mantenimiento anunciado o planificado. Cada 30 minutos de tiempo de inactividad, recibirá un crédito del 5% de los cargos mensuales para los servicios identificados que se ven afectados directamente por la parada. No es elegible para obtener un crédito si el tiempo de inactividad es inferior a 30 minutos seguidos. No es posible combinar el tiempo de inactividad de distintos tipos de paradas para que alcance el cálculo.  
+El tiempo de inactividad no incluye el tiempo del mantenimiento anunciado o planificado. Cada 30 minutos de tiempo de inactividad, recibirá un crédito del 5% de los cargos mensuales para los servicios identificados que se ven afectados directamente por la parada. No es elegible para obtener un crédito si el tiempo de inactividad es inferior a 30 minutos seguidos. No es posible combinar el tiempo de inactividad de distintos tipos de paradas para que alcance el cálculo. 
 
 ### Sustitución de hardware de infraestructura y actualización de SLA
 {: #hw-replaceupgrade-sla}
 
 {{site.data.keyword.Bluemix_notm}} intenta minimizar el tiempo de inactividad al sustituir el hardware con errores o al realizar una actualización de hardware planificada. 
 
-{{site.data.keyword.Bluemix_notm}} proporciona crédito a:  
+{{site.data.keyword.Bluemix_notm}} proporciona crédito a: 
 - La sustitución de hardware basada en el tiempo para realizar una sustitución a partir del momento en que {{site.data.keyword.Bluemix_notm}} verifica que un cliente ha informado sobre un error de hardware.
 - Actualizaciones de hardware planificadas en función del tiempo de inactividad del servicio que recibe la actualización. 
 

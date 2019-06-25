@@ -4,7 +4,7 @@ copyright:
 
   years: 2015, 2019
 
-lastupdated: "2019-06-03"
+lastupdated: "2019-06-06"
 
 keywords: release notes, what's new, what is new, cloud updates
 
@@ -227,7 +227,7 @@ MFA 是按帐户启用的，一旦启用后，帐户中的所有用户都必须�
 最新更新日期：2017 年 11 月 28 日
 {: #nosupport-tls}
 
-2018 年 3 月 1 日，{{site.data.keyword.Bluemix_notm}} 将撤销对许多云产品和服务上 TLS 1.0 和 TLS 1.1 的支持；我们致力于提供高度安全且符合安全和数据隐私业界最佳实践的云，此更改正是这一工作的一部分。要了解有关此更改如何影响您以及您可能需要采取的措施的更多信息，请参阅[撤销对 TLS 1.0 和 1.1 的支持](/docs/get-support?topic=get-support-tlssupportwithdraw)。
+2018 年 3 月 1 日，{{site.data.keyword.Bluemix_notm}} 将撤销对许多云产品和服务上 TLS 1.0 和 TLS 1.1 的支持；我们致力于提供高度安全且符合安全和数据隐私业界最佳实践的云，此更改正是这一工作的一部分。 
 
 ### 新增组织帐户中资源的方法
 最新更新日期：2017 年 11 月 16 日
