@@ -3,7 +3,7 @@
 
 copyright:
   years: 2016, 2019
-lastupdated: "2019-05-28"
+lastupdated: "2019-06-28"
 
 keywords: glossary, IBM Cloud glossary
 
@@ -25,32 +25,6 @@ The following cross-references are used in this glossary:
 - *See* refers you from a nonpreferred term to the preferred term or from an abbreviation to the spelled-out form.
 - *See also* refers you to a related or contrasting term.
 
-<!--If you do not want letter links at the top of your 
-glossary, delete the text between these comment tags.
-[A](#glossa)
-[B](#glossb)
-[C](#glossc)
-[D](#glossd)
-[E](#glosse)
-[F](#glossf)
-[G](#glossg)
-[H](#glossh)
-[I](#glossi)
-[J](#glossj)
-[L](#glossl)
-[M](#glossm)
-[N](#glossn)
-[O](#glosso)
-[P](#glossp)
-[R](#glossr)
-[S](#glosss)
-[T](#glosst)
-[U](#glossu)
-[V](#glossv)
-[W](#glossw)
-
--->
-
 ## A
 {: #glossa}
 
@@ -58,6 +32,16 @@ glossary, delete the text between these comment tags.
 {: #x2012793}
 
 A list that statelessly manages inbound and outbound traffic for a subnet through the use of rules. An access control list helps provide security at the subnet level.
+
+### access group
+{: #x2160811}
+
+A set of users and service IDs organized into a group that is used as the subject of an access policy for assigning all group members the same access.
+
+### access policy
+{: #x2853407}
+
+A method for granting users, service IDs, and access groups access to account resources. An access policy includes a subject, target, and role.
 
 ### access token
 {: #x2113001}
@@ -67,7 +51,8 @@ A value used by the consumer to gain access to the protected resources on behalf
 ### action
 {: #x2012974}
 
-A code snippet that can be explicitly invoked, or run in response to an event. See also [feed](#x3129185), [invoke](#x2057232).
+- A code snippet that can be explicitly invoked, or run in response to an event. See also [feed](#x3129185), [invoke](#x2057232).
+- A task that is performed in the context of a service.
 
 ### affinity
 {: #x2149238}
@@ -122,7 +107,7 @@ See [authorization](#x2014653).
 ### availability zone
 {: #x7018171}
 
-A location within a region that IBM Containers runs in.
+A location within a region that {{site.data.keyword.containerlong}} runs in.
 
 
 ## B
@@ -141,7 +126,7 @@ An image that has no parent image. See also [image](#x2024928), [parent image](#
 ### beta offering
 {: #x9774283}
 
-An offering that IBM makes available solely for evaluation and testing purposes.  There are no warranties, SLAs or support provided and beta offerings are not intended for production use.
+An offering that {{site.data.keyword.IBM_notm}} makes available solely for evaluation and testing purposes.  There are no warranties, SLAs or support provided and beta offerings are not intended for production use.
 
 ### bind
 {: #x2000361}
@@ -299,7 +284,7 @@ A software methodology that integrates application development and IT operations
 ### domain
 {: #x2021210}
 
-Part of a naming hierarchy that specifies the route. For example, example.com. In IBM Cloud, domains are associated with orgs. Domain objects are not directly bound to apps. See also [custom domain](#x5728384), [host](#x2002243), [organization](#x2032585), [route](#x2037338), [subdomain](#x2040080), [Uniform Resource Locator](#x2042491).
+Part of a naming hierarchy that specifies the route. For example, example.com. In {{site.data.keyword.cloud_notm}}, domains are associated with orgs. Domain objects are not directly bound to apps. See also [custom domain](#x5728384), [host](#x2002243), [organization](#x2032585), [route](#x2037338), [subdomain](#x2040080), [Uniform Resource Locator](#x2042491).
 
 ### droplet
 {: #x7470343}
@@ -323,7 +308,7 @@ The address of an API or service in an environment. An API exposes an endpoint a
 ### experimental offering
 {: #x9774278}
 
-An offering that IBM makes available solely for evaluation and testing purposes, and might be unstable or not compatible with previous versions. An experimental offering can be discontinued with short notice. There are no warranties, SLAs or support provided, and experimental offerings are not intended for production use.
+An offering that {{site.data.keyword.IBM_notm}} makes available solely for evaluation and testing purposes, and might be unstable or not compatible with previous versions. An experimental offering can be discontinued with short notice. There are no warranties, SLAs or support provided, and experimental offerings are not intended for production use.
 
 ## F
 {: #glossf}
@@ -341,7 +326,7 @@ A piece of code that configures an external event source to fire trigger events.
 ### file share
 {: #x2022902}
 
-In the IBM cloud environment, a persistent storage system where users store and share files. In IBM Containers, users can mount Docker volumes on file shares.
+In the {{site.data.keyword.cloud_notm}} environment, a persistent storage system where users store and share files. In {{site.data.keyword.containershort_notm}}, users can mount Docker volumes on file shares.
 
 ### fire
 {: #x2239904}
@@ -416,6 +401,11 @@ An action that is used by the Hypertext Transfer Protocol. HTTP methods include 
 
 See [Hypertext Transfer Protocol Secure](#x2237225).
 
+### HVM
+{: #x9736815}
+
+See [hardware virtual machine mode](#x9736811).
+
 ### hybrid cloud
 {: #x4585327}
 
@@ -440,7 +430,7 @@ See [infrastructure as a service](#x4585332).
 
 See [identity and access management](#x7547040).
 
-### IBM Cloud
+### {{site.data.keyword.cloud_notm}}
 {: #x7301758}
 
 An open-standards, cloud-based platform for building, managing, and running apps of all types, such as web, mobile, big data, and smart devices. Capabilities include Java, mobile back-end development, and application monitoring, as well as features from ecosystem partners and open source&mdash;all provided as-a-service in the cloud.
@@ -747,6 +737,11 @@ The environment, and constraints, in which contained resource instances adhere t
 
 See [Representational State Transfer](#x3220976).
 
+### role
+{: #x2065412}
+
+A set of permissions or access rights.
+
 ### route
 {: #x2037338}
 
@@ -825,7 +820,7 @@ See [system of record](#x6735061).
 ### space
 {: #x2039442}
 
-A sub-group within an IBM Cloud org. Users who are members of an org are given access to one or more of its spaces, with permissions associated with a particular role (such as developer, manager, or auditor). Any member of the space can view apps, but only members with the developer role can create apps and add service instances to the space. Apps and service instances are associated with spaces. See also [organization](#x2032585).
+A sub-group within an {{site.data.keyword.cloud_notm}} org. Users who are members of an org are given access to one or more of its spaces, with permissions associated with a particular role (such as developer, manager, or auditor). Any member of the space can view apps, but only members with the developer role can create apps and add service instances to the space. Apps and service instances are associated with spaces. See also [organization](#x2032585).
 
 ### SSL
 {: #x2483907}
@@ -886,6 +881,11 @@ See [single-zone region](#x9774825).
 ## T
 {: #glosst}
 
+### target
+{: #x2262507}
+
+The resource or set of resources to provide a subject access to in an access policy. The set of resources is defined by one or more attributes. For example, a target could be all resources in a resource group, all resources of a certain resource type, or the resource with a certain resource ID.
+
 ### template
 {: #x2041200}
 
@@ -935,11 +935,10 @@ See [Uniform Resource Identifier](#x2116436).
 
 See [Uniform Resource Locator](#x2042491).
 
-### user hierarchy
-{: #userhierarchy}
+### user
+{: #x2069659}
 
-A user management relationship for classic infrastructure users who invite other users to an account. Those users then invite other users to the account and so on. When a classic infrastructure user invites another user to the account, the classic infrastructure user becomes the parent user. When a child user of the parent user invites other users to the account, those users become descendants of the original parent, who is now considered their ancestor.
-
+An IBMid or SoftLayer ID that is used as a person's identity in an account.
 
 ## V
 {: #glossv}
@@ -974,6 +973,11 @@ Data can be shared as if a connection to a private network is established. Usual
 {: #x2455638}
 
 A server that shares its resources with other servers to support applications. See also [virtual machine](#x2043165).
+
+### VLAN
+{: #x2484337}
+
+See [virtual local area network](#x2438470).
 
 ### VM
 {: #x2043253}
