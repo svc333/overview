@@ -2,7 +2,7 @@
 
 copyright:
   years: 2018, 2019
-lastupdated: "2019-06-04"
+lastupdated: "2019-06-20"
 
 keywords: cloud environment, virtual server, virtual machine, vm, understanding infrastructure, IaaS model
 
@@ -42,7 +42,7 @@ Avant de passer au cloud, vous utilisiez un environnement intrinsèquement sécu
 
 Il existe trois types de modèles de service de cloud : infrastructure sous forme de services (Infrastructure as a Service), plateforme sous forme de services (PaaS) et logiciel sous forme de services (SaaS). La figure 1 décrit les actions effectuées dans chaque modèle de service. Pour plus d'informations, voir [IaaS, PaaS, and SaaS - IBM Cloud service models](https://www.ibm.com/cloud/learn/iaas-paas-saas){: new_window} ![Icône de lien externe](../icons/launch-glyph.svg "Icône de lien externe").
 
-![Figure 1. Modèles de service de cloud](images/cloud-svc-models.png "Modèles de service de cloud")
+![Modèles de service de cloud.](images/cloud-svc-models.svg "Diagramme présentant les modèles de service de cloud")
 
 Avec le modèle IaaS, votre fournisseur est chargé de gérer l'infrastructure sous-jacente uniquement et éventuellement d'installer des logiciels, tels que les systèmes d'exploitation, les applications et les bases de données. Vous avez un accès limité à l'infrastructure sous-jacente et vous êtes chargé d'installer vos logiciels. Vous pouvez également demander à votre fournisseur de services de les installer. Vous devez également effectuer toutes les autres tâches de maintenance, qui incluent l'installation des modules de mise à jour, des logiciels anti-virus et des correctifs.
 

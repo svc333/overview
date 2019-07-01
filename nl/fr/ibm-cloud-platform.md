@@ -3,7 +3,7 @@
 
 copyright:
   years: 2016, 2019
-lastupdated: "2019-05-31"
+lastupdated: "2019-06-20"
 
 keywords: console, platform overview, overview
 
@@ -20,7 +20,7 @@ subcollection: overview
 La plateforme de cloud d'IBM associe la plateforme sous forme de service (PaaS) à l'infrastructure sous forme de service (IaaS) afin d'offrir une expérience intégrée. La plateforme s'adapte à la fois à de petites organisations et équipes de développement et à de grandes entreprises et les prend en charge. Globalement déployée dans des centres de données dans le monde entier, la solution générée sur {{site.data.keyword.cloud}} est rapide et s'exécute en toute fiabilité dans un environnement testé et pris en charge digne de confiance.
 {: .shortdesc}
 
-Comme illustré dans le diagramme ci-après, la plateforme {{site.data.keyword.Bluemix_notm}} inclut plusieurs composants qui offrent une expérience cohérente et fiable.  
+Comme illustré dans le diagramme ci-après, la plateforme {{site.data.keyword.Bluemix_notm}} inclut plusieurs composants qui offrent une expérience cohérente et fiable. 
 
   * Une console robuste utilisée comme serveur frontal pour la création, l'affichage et la gestion de vos ressources de cloud
   * Un composant Identity and Access Management (IAM) qui authentifie de manière sécurisée les utilisateurs pour les services de plateforme et contrôle l'accès aux ressources de manière cohérente dans {{site.data.keyword.Bluemix_notm}}
@@ -28,7 +28,7 @@ Comme illustré dans le diagramme ci-après, la plateforme {{site.data.keyword.B
   * Un mécanisme de recherche et d'étiquetage pour le filtrage et l'identification de vos ressources
   * Un système de gestion de compte et de facturation présentant une utilisation exacte des plans de facturation et une protection contre la fraude aux cartes de crédit
   
-  ![Composants de la plateforme {{site.data.keyword.cloud_notm}}](images/IBM-Cloud-Platform.svg "Diagramme illustrant les principaux composants de la plateforme {{site.data.keyword.cloud_notm}}")
+![Composants de la plateforme {{site.data.keyword.cloud_notm}}.](images/IBM-Cloud-Platform.svg "Diagramme présentant les principaux composant de la plateforme {{site.data.keyword.cloud_notm}}")
 
 Que vous disposiez d'un [code existant](/docs/apps/tutorials?topic=creating-apps-tutorial-byoc#tutorial-byoc) que vous souhaitez moderniser et placer sur le cloud ou que vous développiez une [toute nouvelle application](/docs/apps/tutorials?topic=creating-apps-tutorial-starterkit), vos développeurs peuvent bénéficier de l'écosystème à croissance rapide des services disponibles et des infrastructures d'exécution d'{{site.data.keyword.Bluemix_notm}}.
 
@@ -111,5 +111,4 @@ Le service {{site.data.keyword.mon_full_notm}} vous permet de gagner en visibili
 ## Surveillance de votre compte 
 {: #account_observability}
 
-Utilisez le service {{site.data.keyword.at_full}} pour surveiller l'activité de votre compte {{site.data.keyword.Bluemix_notm}}, rechercher des activités anomales et des actions critiques et vous conformer aux exigences en matière de vérification réglementaire. De plus, vous pouvez recevoir des alertes lorsque des actions se produisent. Les événements collectés sont conformes à la norme CADF (Cloud Auditing Data Federation).
-Pour plus d'informations, voir [Initiation à {{site.data.keyword.at_full_notm}}](/docs/services/Activity-Tracker-with-LogDNA?topic=logdnaat-getting-started).
+Utilisez le service {{site.data.keyword.at_full}} pour surveiller l'activité de votre compte {{site.data.keyword.Bluemix_notm}}, rechercher des activités anomales et des actions critiques et vous conformer aux exigences en matière de vérification réglementaire. De plus, vous pouvez recevoir des alertes lorsque des actions se produisent. Les événements collectés sont conformes à la norme CADF (Cloud Auditing Data Federation). Pour plus d'informations, voir [Initiation à {{site.data.keyword.at_full_notm}}](/docs/services/Activity-Tracker-with-LogDNA?topic=logdnaat-getting-started).

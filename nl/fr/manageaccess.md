@@ -4,7 +4,7 @@ copyright:
 
   years: 2017, 2019
 
-lastupdated: "2018-04-02"
+lastupdated: "2019-06-20"
 
 keywords: users level of access, user control, access control, permissions
 
@@ -33,7 +33,7 @@ Si vous avez une combinaison de types de ressource, vous gérez chaque type sép
 
 Alors que chaque type d'accès est géré séparément, toutes les règles d'accès sont constituées d'un objet auquel vous souhaitez affecter l'accès, d'une cible pour la règle permettant de définir les éléments auxquels l'objet a accès et pour finir d'un rôle IAM, d'un rôle Cloud Foundry ou d'un droit d'infrastructure classique permettant de déterminer le niveau d'accès dont dispose l'objet sur la cible.
 
-![Règles de gestion d'accès en utilisant des droits IAM, Cloud Foundry ou d'infrastructure classique](images/access-management.svg "Mode de fonctionnement de l'affectation de règles : en commençant avec un objet, en sélectionnant une cible puis en affectant un rôle ou un droit")
+![Règles de gestion d'accès en utilisant des droits IAM, Cloud Foundry ou d'infrastructure classique.](images/access-management.svg "Fonctionnement de l'affectation de règles en commençant avec un sujet, en sélectionnant une cible puis en affectant un rôle ou des droits")
 
 Pour les règles IAM, l'objet peut être un groupe d'accès, un utilisateur ou un ID de service. De plus, la cible peut être un service de gestion de compte, un groupe de ressources, un service du compte, une instance de service spécifique ou un type de ressource dans un service. Les rôles de plateforme et de service peuvent être sélectionnés pour définir la portée du niveau d'accès pour l'objet. Pour l'accès Cloud Foundry, un utilisateur se voit accorder l'accès à un espace et à une organisation Cloud Foundry via la sélection de chaque élément et l'affectation d'un rôle d'organisation et d'un rôle d'espace. Pour l'infrastructure classique, un utilisateur est sélectionné puis l'accès peut être défini pour un service ou un périphérique avec des droits spécifiques affectés.
 

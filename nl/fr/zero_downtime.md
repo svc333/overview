@@ -2,7 +2,7 @@
 
 copyright:
   years: 2018, 2019
-lastupdated: "2019-06-06"
+lastupdated: "2019-06-20"
 
 keywords: HA, failover, DR, high availability, disaster recovery, locations, data centers
 
@@ -66,6 +66,8 @@ L'équilibrage de charge global pour la console {{site.data.keyword.cloud_notm}}
 
 Par défaut, vous pouvez afficher dans la console toutes les ressources de tous les emplacements de la liste de ressources. Si vous souhaitez afficher et utiliser les ressources d'un emplacement spécifique, développez le menu **Emplacement** puis sélectionnez un emplacement dans la liste. En développant un emplacement géographique spécifique, vous pouvez choisir d'effectuer le filtrage par centre de données ou région individuel ou par zone.
 
+![Hiérarchie d'emplacements présentant une unité géographique contenant une métropole avec des centres de données et des régions avec des zones](images/Location_hierarchy.svg)
+
 Par exemple, si certaines de vos ressources sont déployées dans la zone London 2 (eu-gb-2), vous pouvez filtrer votre liste de ressources afin d'afficher uniquement ces ressources. Une zone se trouve dans une région et une région est organisée par agglomération. Pour filtrer votre liste sur la zone London 2 (eu-gb-2), développez l'option d'agglomération **London**, puis développez l'option de région **London (eu-gb)**. Dans cette région, vous pouvez effectuer une sélection dans la liste de zones disponibles. Si l'une de vos ressources est déployée dans un centre de données spécifique, vous pouvez identifier le centre de données par son agglomération et son code alphanumérique, par exemple, London 02 (lon02).
 
 Vous pouvez également avoir des ressources situées dans le monde entier. L'option **Global** signifie qu'une seule instance du service, logique et accessible dans le monde entier et indépendante de toute région ou zone, est publiée sur les applications client. Ces types de ressources sont accessibles à partir d'un noeud final global.
@@ -78,7 +80,7 @@ Lorsque vous déployez des ressources d'infrastructure, vous disposez de plus de
 {{site.data.keyword.Bluemix_notm}} dispose de centres de données dans de nombreux emplacements dans le monde. 
 
 
-![Carte des centres de données décrits dans les tableaux suivants](images/Global-View.svg)
+![Carte des centres de données disponibles](images/Global-View.svg)
 
 
 Pour connaître le code spécifique de chaque centre de données, voir le tableau suivant : 
@@ -106,7 +108,7 @@ Pour connaître le code spécifique de chaque centre de données, voir le tablea
 | Washington DC 04 | wdc04 |
 | Washington DC 06 | wdc06 |
 | Washington DC 07 | wdc07 |
-{: caption="Tableau 1. Centres de données en Amérique du Nord et en Amériques du Sud" caption-side="top"}
+{: caption="Tableau 1. Centres de données en Amérique du Nord et en Amérique du Sud" caption-side="top"}
 {: #americas}
 {: tab-title="Americas"}
 {: tab-group="dcs"}
@@ -153,7 +155,6 @@ Pour connaître le code spécifique de chaque centre de données, voir le tablea
 {: class="simple-tab-table"}
 {: summary="Use the buttons before the table to change the context of the table. The column headers identify the data centers located in the specific greographical area."}
 
-
 ## Accords sur les niveaux de service (SLA)
 {: #SLAs} 
 
@@ -181,7 +182,7 @@ Vous pouvez bénéficier d'un crédit pour votre compte si le temps d'indisponib
 | Environnement public à haute disponibilité ou plusieurs environnements locaux/dédiés | Autres environnements | Crédit         |
 | <99,9 5%                                                                       |<99,5 %              |10 %             |
 | <99,9 0%                                                                       |<99,0 %              |25 %             |
-{: caption="Tableau 5. Niveau de service de disponibilité mensuel" caption-side="top"}
+{: caption="Tableau 2. Niveau de service de disponibilité mensuel" caption-side="top"}
 
 Le pourcentage de disponibilité est calculé de la façon suivante : nombre total de minutes d'un mois contractuel moins le nombre total de minutes d'indisponibilité dans ce mois, divisé par le nombre total de minutes dans ce mois. 
 
@@ -226,7 +227,7 @@ Les périodes de niveau de service excluent la durée de rechargement du systèm
 | > 10 heures                | 60 %            |
 | > 14 heures                | 80 %            |
 | > 18 heures                | 80 %            |
-{: caption="Tableau 6. Crédit en fonction des frais mensuels pour le service affecté par la mise à niveau ou le remplacement matériel" caption-side="top"}
+{: caption="Tableau 3. Crédit en fonction des frais mensuels pour le service affecté par la mise à niveau ou le remplacement matériel" caption-side="top"}
 
 ### Réclamations
 {: #claims}
