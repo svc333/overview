@@ -2,7 +2,7 @@
 
 copyright:
   years: 2018, 2019
-lastupdated: "2019-06-06"
+lastupdated: "2019-06-20"
 
 keywords: HA, failover, DR, high availability, disaster recovery, locations, data centers
 
@@ -66,6 +66,8 @@ El equilibrio de carga global de la consola de {{site.data.keyword.cloud_notm}} 
 
 Puede ver todos los recursos en todas las ubicaciones de forma predeterminada desde la vista de la lista de recursos de la consola. Si desea ver y trabajar con recursos en una ubicación específica, expanda el menú **Ubicación** y seleccione una ubicación de la lista. Si amplía una ubicación geográfica específica, puede filtrar por centros de datos, por regiones o por zonas individuales.
 
+![Jerarquía de ubicaciones que muestra una geografía que contiene un área metropolitana que contiene centros de datos y regiones con zonas](images/Location_hierarchy.svg)
+
 Por ejemplo, si tiene recursos desplegados en la zona Londres 2 (eu-gb-2), puede filtrar la lista de recursos de modo que solo se muestren dichos recursos. Una zona está dentro de una región, y una región está organizada por ubicación metropolitana. Para filtrar la lista para la zona Londres 2 (eu-gb-2), amplíe la opción metropolitana **Londres** y luego amplíe la opción de región **Londres (eu-gb)**. Dentro de dicha región, puede seleccionar en la lista de zonas disponibles. Si tiene un recurso desplegado en un determinado centro de datos, puede identificar el centro de datos por la ubicación metropolitana específica y por el código alfanumérico, por ejemplo Londres 02 (lon02).
 
 También es posible que tenga recursos ubicados globalmente. La opción **Global** significa que solo una instancia del servicio lógica y accesible a nivel global, independiente de cualquier región o zona, se publica para las aplicaciones de los clientes. Se accede a estos tipos de recursos desde un punto final global.
@@ -78,7 +80,7 @@ Si despliega recursos de la infraestructura, tendrá más opciones para elegir d
 {{site.data.keyword.Bluemix_notm}} ofrece centros de datos en diversas ubicaciones de todo el mundo. 
 
 
-![Mapa de centros de datos descrito en las tablas siguientes](images/Global-View.svg)
+![Mapa de centros de datos disponibles](images/Global-View.svg)
 
 
 Consulte la tabla siguiente para ver el código específico de cada centro de datos. 
@@ -153,7 +155,6 @@ Consulte la tabla siguiente para ver el código específico de cada centro de da
 {: class="simple-tab-table"}
 {: summary="Use the buttons before the table to change the context of the table. The column headers identify the data centers located in the specific greographical area."}
 
-
 ## Acuerdos de nivel de servicio (SLA)
 {: #SLAs} 
 
@@ -181,7 +182,7 @@ Es elegible para un crédito en su cuenta si experimenta un tiempo de inactivida
 | Entorno público de alta disponibilidad o Varios entornos locales/dedicados | Otros entornos | Crédito         |
 | <99,95%                                                                       |<99,5%              |10%             |
 | <99,90%                                                                       |<99,0%              |25%             |
-{: caption="Tabla 5. Nivel de servicio de disponibilidad mensual" caption-side="top"}
+{: caption="Tabla 2. Nivel de servicio de disponibilidad mensual" caption-side="top"}
 
 El porcentaje de disponibilidad se calcula como el número total de minutos en un mes contratado menos el número total del tiempo de inactividad en minutos de un mes dividido por el número total de minutos del mes. 
 
@@ -226,7 +227,7 @@ Los períodos de tiempo del nivel de servicio excluyen cualquier momento en el q
 | > 10 horas                | 60%            |
 | > 14 horas                | 80%            |
 | > 18 horas                | 80%            |
-{: caption="Tabla 6. Crédito basada en el cargo mensual del servicio que se ve afectado por la actualización o sustitución de hardware" caption-side="top"}
+{: caption="Tabla 3. Crédito basada en el cargo mensual del servicio que se ve afectado por la actualización o sustitución de hardware" caption-side="top"}
 
 ### Reclamaciones
 {: #claims}

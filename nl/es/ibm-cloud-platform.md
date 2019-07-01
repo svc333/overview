@@ -3,7 +3,7 @@
 
 copyright:
   years: 2016, 2019
-lastupdated: "2019-05-31"
+lastupdated: "2019-06-20"
 
 keywords: console, platform overview, overview
 
@@ -28,7 +28,8 @@ Tal como se muestra en el siguiente diagrama, la plataforma {{site.data.keyword.
   * Un mecanismo de búsqueda y etiquetado para filtrar e identificar los recursos
   * Un sistema de gestión de cuentas y facturación que proporciona una utilización exacta de los planes de precios y protección de fraude con tarjeta de crédito
   
-  ![Componentes de la plataforma {{site.data.keyword.cloud_notm}}](images/IBM-Cloud-Platform.svg "Diagrama que muestra los principales componentes de la plataforma {{site.data.keyword.cloud_notm}}")
+![Componentes de la plataforma {{site.data.keyword.cloud_notm}}.](images/IBM-Cloud-Platform.svg "Diagrama que muestra los componentes principales de la plataforma{{site.data.keyword.cloud_notm}}")
+
 
 En el caso de que disponga de [código existente](/docs/apps/tutorials?topic=creating-apps-tutorial-byoc#tutorial-byoc) que desee modernizar y traer a la nube o de estar desarrollando una [nueva aplicación](/docs/apps/tutorials?topic=creating-apps-tutorial-starterkit), sus desarrolladores pueden tocar en el ecosistema de rápido crecimiento de los servicios e infraestructuras de tiempo de ejecución disponibles en {{site.data.keyword.Bluemix_notm}}.
 

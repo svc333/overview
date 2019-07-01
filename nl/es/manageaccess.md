@@ -4,7 +4,7 @@ copyright:
 
   years: 2017, 2019
 
-lastupdated: "2018-04-02"
+lastupdated: "2019-06-20"
 
 keywords: users level of access, user control, access control, permissions
 
@@ -33,7 +33,7 @@ Si tiene una combinación de tipos de recursos, gestiona cada tipo de forma sepa
 
 Mientras que cada tipo de acceso se gestiona por separado, todas las políticas de acceso se componen de un sujeto al cual desea asignarle acceso, un destino para que la política delimite el ámbito al cual tiene acceso el sujeto y, finalmente, un rol de IAM, un rol de Cloud Foundry o un permiso de infraestructura clásica para determinar el nivel de acceso que el sujeto tiene en el destino.
 
-![Acceda a las políticas de gestión utilizando permisos de IAM, de Cloud Foundry o de infraestructura clásica](images/access-management.svg "Cómo funciona la asignación de políticas empezando con un sujeto, seleccionando un destino, asignando después un rol o un permiso")
+![Políticas de gestión de acceso utilizando permisos de IAM, de Cloud Foundry o de la infraestructura clásica.](images/access-management.svg "Cómo funciona la asignación de políticas, comenzando por un asunto, seleccionando un destino y asignando luego un rol o permiso")
 
 Para las políticas de IAM, el sujeto puede ser un grupo de acceso, un usuario o un ID de servicio. Y, el destino puede ser un servicio de gestión de cuentas, un grupo de recursos, un servicio en la cuenta, una instancia de servicio específica o un tipo de recurso dentro de un servicio. Los roles de plataforma y servicio se pueden seleccionar para delimitar el nivel de acceso del sujeto. Para el acceso de Cloud Foundry, a un usuario se le otorga acceso a una organización y espacio de Cloud Foundry seleccionando cada uno y asignando un rol de organización y un rol de espacio. Para la infraestructura clásica, se selecciona un usuario y, a continuación, se puede delimitar el acceso a un servicio o dispositivo con los permisos específicos asignados.
 
