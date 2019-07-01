@@ -2,7 +2,7 @@
 
 copyright:
   years: 2018, 2019
-lastupdated: "2019-06-04"
+lastupdated: "2019-06-20"
 
 keywords: cloud environment, virtual server, virtual machine, vm, understanding infrastructure, IaaS model
 
@@ -44,8 +44,7 @@ a sua jornada.
 
 Existem três tipos de modelos de serviço de nuvem: Infraestrutura como Serviço (IaaS), Plataforma como Serviço (PaaS) e Software como Serviço (SaaS). A Figura 1 explica quem faz o que em cada modelo de serviço. Para obter mais informações, consulte [IaaS, PaaS e SaaS - Modelos de serviço do IBM Cloud](https://www.ibm.com/cloud/learn/iaas-paas-saas){: new_window} ![Ícone de link externo](../icons/launch-glyph.svg "Ícone de link externo").
 
-![Figura 1. Modelos de serviço denuvem](images/cloud-svc-models.png "Modelos de serviço de nuvem")
-
+![Modelos de serviço de nuvem.](images/cloud-svc-models.svg "Diagrama que mostra os modelos de serviço de nuvem")
 
 Com o modelo IaaS, o provedor é responsável apenas por manter a infraestrutura subjacente e, opcionalmente,
 instalar softwares, como sistemas operacionais, aplicativos e bancos de dados. Você tem acesso limitado à infraestrutura

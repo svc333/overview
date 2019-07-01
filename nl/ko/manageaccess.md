@@ -4,7 +4,7 @@ copyright:
 
   years: 2017, 2019
 
-lastupdated: "2018-04-02"
+lastupdated: "2019-06-20"
 
 keywords: users level of access, user control, access control, permissions
 
@@ -33,7 +33,7 @@ subcollection: overview
 
 각 액세스 유형은 개별적으로 관리하지만 모든 액세스 정책은 액세스 권한을 지정할 주체, 주체가 액세스할 수 있는 범위에 대한 정책의 대상 및 대상에 대한 주체의 액세스 레벨을 결정하는 IAM 역할, Cloud Foundry 역할 또는 클래식 인프라 권한으로 구성됩니다.
 
-![IAM, Cloud Foundry 또는 클래식 인프라 권한을 사용하는 액세스 관리 정책](images/access-management.svg "주체를 시작하고 대상을 선택한 다음 역할 또는 권한을 지정하여 정책 지정이 작동하는 방식")
+![IAM, Cloud Foundry 또는 클래식 인프라 권한을 사용하는 액세스 관리 정책](images/access-management.svg "주제부터 시작하여 대상을 선택한 다음 역할 또는 권한을 지정하여 정책 작업을 지정하는 방법"){: caption="Figure 1. Access management policies by using IAM, Cloud Foundry, or classic infrastructure permissions" caption-side="bottom"}
 
 IAM 정책의 경우 주체는 액세스 그룹, 사용자 또는 서비스 ID일 수 있습니다. 또한 대상은 계정 관리 서비스, 리소스 그룹, 계정의 서비스, 특정 서비스 인스턴스 또는 서비스의 리소스 유형일 수 있습니다. 주체의 액세스 레벨 범위를 지정하기 위해 플랫폼과 서비스 역할을 선택할 수 있습니다. Cloud Foundry 액세스의 경우 각 사용자를 선택하고 조직 역할과 영역 역할을 지정하여 사용자에게 Cloud Foundry 조직과 영역에 대한 액세스 권한을 부여합니다. 클래식 인프라의 경우 사용자를 선택한 다음 특정 권한이 지정된 서비스나 디바이스로 액세스의 범위를 지정할 수 있습니다.
 

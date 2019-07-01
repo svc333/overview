@@ -2,7 +2,7 @@
 
 copyright:
   years: 2018, 2019
-lastupdated: "2019-06-06"
+lastupdated: "2019-06-20"
 
 keywords: HA, failover, DR, high availability, disaster recovery, locations, data centers
 
@@ -66,6 +66,8 @@ subcollection: overview
 
 缺省情况下，可以从控制台中的资源列表视图中查看所有位置中的所有资源。如果要查看和使用特定位置中的资源，请展开**位置**菜单，然后从列表中选择一个位置。通过展开特定地理位置，可以选择按各个数据中心、区域或专区进行过滤。
 
+![位置层次结构，其中显示的地理位置包含一个大城市，该大城市包含数据中心和带有专区的区域](images/Location_hierarchy.svg)
+
 例如，如果您在伦敦 2 (eu-gb-2) 专区中部署有资源，那么可以过滤资源列表以仅显示这些资源。专区位于区域内，区域按其大城市位置进行组织。要过滤列表以仅显示伦敦 2 (eu-gb-2) 专区，请展开**伦敦**大城市选项，然后展开**伦敦 (eu-gb)** 区域选项。在该区域中，可以从可用专区列表中进行选择。如果在特定数据中心部署了资源，那么可以通过特定的大城市位置和字母数字代码来确定数据中心，例如伦敦 02 (lon02)。
 
 您还可能拥有全球分布的资源。**全球**选项意味着仅将一个全球可访问的逻辑服务实例（独立于任何区域或专区）发布到客户应用程序。这些类型的资源可以从一个全球端点进行访问。
@@ -78,7 +80,7 @@ subcollection: overview
 {{site.data.keyword.Bluemix_notm}} 在全球许多位置提供数据中心。 
 
 
-![以下各表中描述的数据中心的地图](images/Global-View.svg)
+![可用数据中心的地图](images/Global-View.svg)
 
 
 有关每个数据中心的特定代码，请参阅下表。 
@@ -153,7 +155,6 @@ subcollection: overview
 {: class="simple-tab-table"}
 {: summary="Use the buttons before the table to change the context of the table. The column headers identify the data centers located in the specific greographical area."}
 
-
 ## 服务级别协议 (SLA)
 {: #SLAs} 
 
@@ -181,7 +182,7 @@ subcollection: overview
 |高可用性公共环境或多个专用/本地环境|其他环境|信用值|
 | <99.95%                                                                       |<99.5%              |10%             |
 | <99.90%                                                                       |<99.0%              |25%             |
-{: caption="表 5. 每月可用性服务级别" caption-side="top"}
+{: caption="表 2. 每月可用性服务级别" caption-side="top"}
 
 可用性百分比的计算方法为：合约月份内的总分钟数减去该月内停机时间的总分钟数，再除以该月内的总分钟数。 
 
@@ -226,7 +227,7 @@ SLA 不包含与指定的排除项相关的停机时间或故障时间、{{site.
 |> 10 小时| 60%            |
 |> 14 小时| 80%            |
 |> 18 小时| 80%            |
-{: caption="表 6. 信用值根据硬件更换或升级所影响服务的每月费用计算" caption-side="top"}
+{: caption="表 3. 基于硬件更换或升级所影响服务的每月费用的信用值" caption-side="top"}
 
 ### 索赔
 {: #claims}

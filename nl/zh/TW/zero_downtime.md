@@ -2,7 +2,7 @@
 
 copyright:
   years: 2018, 2019
-lastupdated: "2019-06-06"
+lastupdated: "2019-06-20"
 
 keywords: HA, failover, DR, high availability, disaster recovery, locations, data centers
 
@@ -66,6 +66,8 @@ subcollection: overview
 
 依預設，您可以從主控台的資源清單視圖中檢視所有位置的所有資源。如果您要檢視及使用特定位置的資源，請展開**位置**功能表，並從清單選取某個位置。展開特定地理位置，即可選擇依個別資料中心、地區或區域進行過濾。
 
+![位置階層，其中顯示的地理位置包含一個都會區，都會區中包含資料中心和具有區域的地區](images/Location_hierarchy.svg){: caption="圖 1. 位置選項階層" caption-side="bottom"}
+
 比方說，如果您有部署在倫敦 2 (eu-gb-2) 區域的資源，則可以過濾資源清單，只顯示這些資源。區域位於某個地區內，而地區是依其都會位置進行組織。若要將清單過濾到倫敦 2 (eu-gb-2) 區域，請展開**倫敦**都會選項，然後展開**倫敦 (eu-gb)** 地區選項。在該地區內，您可以從可用的區域清單中進行選擇。如果您已在特定資料中心內部署了資源，則可以透過特定的都會位置及英數代碼識別資料中心，例如倫敦 02 (lon02)。
 
 您還可以擁有位於全球的資源。**廣域**選項表示只有一個邏輯上可廣域存取的服務實例（與任何地區或區域無關）發佈到自訂應用程式。可以從廣域端點存取這些類型的資源。
@@ -78,7 +80,7 @@ subcollection: overview
 {{site.data.keyword.Bluemix_notm}} 在全球許多位置提供資料中心。 
 
 
-![下表說明的資料中心地圖](images/Global-View.svg)
+![可用資料中心的地圖](images/Global-View.svg){: caption="圖 2. 資料中心位置" caption-side="bottom"}
 
 
 如需每個資料中心的特定代碼，請參閱下表。 
@@ -153,7 +155,6 @@ subcollection: overview
 {: class="simple-tab-table"}
 {: summary="Use the buttons before the table to change the context of the table. The column headers identify the data centers located in the specific greographical area."}
 
-
 ## 服務水準合約 (SLA)
 {: #SLAs} 
 
@@ -181,7 +182,7 @@ subcollection: overview
 |高可用性公用環境或多個專用/本端環境 |其他環境 |額度|
 | <99.95%                                                                       |<99.5%              |10%             |
 | <99.90%                                                                       |<99.0%              |25%             |
-{: caption="表 5. 每月可用性服務水準" caption-side="top"}
+{: caption="表 2. 按月可用性服務等級" caption-side="top"}
 
 可用性百分比的計算方式，是將合約月份中的總分鐘數，減去該月份運作中斷時間總分鐘數，然後除以該月份總分鐘數。 
 
@@ -226,7 +227,7 @@ SLA 不包括與指定排除項目、{{site.data.keyword.Bluemix_notm}} 使用�
 |> 10 小時 | 60%            |
 |> 14 小時 | 80%            |
 |> 18 小時 | 80%            |
-{: caption="表 6. 根據受硬體更換或升級影響之服務每月費用計算的額度" caption-side="top"}
+{: caption="表 3. 根據受硬體更換或升級影響之服務每月收費的額度" caption-side="top"}
 
 ### 索賠
 {: #claims}

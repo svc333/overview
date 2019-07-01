@@ -2,7 +2,7 @@
 
 copyright:
   years: 2018, 2019
-lastupdated: "2019-06-06"
+lastupdated: "2019-06-20"
 
 keywords: HA, failover, DR, high availability, disaster recovery, locations, data centers
 
@@ -92,6 +92,8 @@ que precisa.
 recursos no console. Se desejar visualizar e trabalhar com recursos em um local específico, expanda o menu **Local** e selecione um local na lista. Ao expandir um local geográfico específico,
 é possível selecionar para filtrar por data centers, regiões ou zonas individuais.
 
+![Hierarquia de locais que mostra uma geografia que contém um metro que contém data centers e regiões com zonas](images/Location_hierarchy.svg)
+
 Por exemplo, se você tiver recursos que são implementados na zona de Londres 2 (eu-gb-2), será possível filtrar a sua lista de recursos para exibir somente esses recursos. Uma zona está localizada dentro de uma região e uma região é organizada por sua localização metropolitana. Para filtrar sua lista para a zona de Londres 2 (eu-gb-2), expanda a opção metropolitana **Londres** e, em seguida, expanda
 a opção de região **Londres (eu-gb)**. Dentro dessa região, é possível selecionar na
 lista de zonas disponíveis. Se você tiver um recurso implementado em um data center específico, será
@@ -109,7 +111,7 @@ globais para o seu negócio global ![Ícone de link externo](../icons/launch-gly
 O {{site.data.keyword.Bluemix_notm}} oferece data centers em muitas localizações em todo o mundo. 
 
 
-![Mapa de data centers descritos nas tabelas a seguir](images/Global-View.svg)
+![Mapa dos data centers disponíveis](images/Global-View.svg)
 
 
 Consulte a tabela a seguir para ver o código específico de cada data center. 
@@ -184,7 +186,6 @@ Consulte a tabela a seguir para ver o código específico de cada data center.
 {: class="simple-tab-table"}
 {: summary="Use the buttons before the table to change the context of the table. The column headers identify the data centers located in the specific greographical area."}
 
-
 ## Acordos de Nível de Serviço (SLAs)
 {: #SLAs} 
 
@@ -219,7 +220,7 @@ O {{site.data.keyword.Bluemix_notm}} fornece um SLA de disponibilidade de 99,95%
 | Ambientes públicos de alta disponibilidade ou múltiplos ambientes dedicados/locais | Outros ambientes | Crédito         |
 | <99,95%                                                                       |<99,5%              |10%             |
 | <99,90%                                                                       |<99,0%              |25%             |
-{: caption="Tabela 5. Nível de serviço de disponibilidade mensal" caption-side="top"}
+{: caption="Tabela 2. Nível de serviço de disponibilidade mensal" caption-side="top"}
 
 A porcentagem de disponibilidade é calculada como o número total de minutos em um mês contratado menos o número total de
 minutos de inatividade nesse mês, dividido pelo número total de minutos no mês. 
@@ -281,7 +282,7 @@ no encargo mensal para o serviço que é afetado pela substituição ou upgrade 
 | > 10 horas                | 60%            |
 | > 14 horas                | 80%            |
 | > 18 horas                | 80%            |
-{: caption="Tabela 6. Crédito baseado no encargo mensal para o serviço afetado pela substituição ou upgrade de hardware" caption-side="top"}
+{: caption="Tabela 3. Crédito baseado no encargo mensal para o serviço que é afetado pela substituição ou upgrade do hardware" caption-side="top"}
 
 ### Solicitações
 {: #claims}

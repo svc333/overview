@@ -2,7 +2,7 @@
 
 copyright:
   years: 2018, 2019
-lastupdated: "2019-06-04"
+lastupdated: "2019-06-20"
 
 keywords: cloud environment, virtual server, virtual machine, vm, understanding infrastructure, IaaS model
 
@@ -42,7 +42,7 @@ subcollection: overview
 
 雲端服務模型有三種類型：「基礎架構即服務 (IaaS)」、「平台即服務 (PaaS)」及「軟體即服務 (SaaS)」。圖 1 說明誰在每一個服務模型中執行了哪些動作。如需相關資訊，請參閱 [IaaS, PaaS, and SaaS - IBM Cloud service models ](https://www.ibm.com/cloud/learn/iaas-paas-saas){: new_window}![外部鏈結圖示](../icons/launch-glyph.svg "外部鏈結圖示")。
 
-![圖 1. 雲端服務模型](images/cloud-svc-models.png "雲端服務模型")
+![雲端服務模型。](images/cloud-svc-models.svg "顯示雲端服務模型的圖"){: caption="圖 1. 雲端服務模型" caption-side="bottom"}
 
 使用 IaaS 模型時，您的提供者僅負責維護基礎架構，並選擇性地安裝軟體，例如作業系統、應用程式及資料庫。您對於深層的基礎架構具有有限存取權，並負責安裝軟體，或是讓服務提供者進行安裝。您也負責其他所有維護，包括服務套件、病毒軟體及修補程式。
 

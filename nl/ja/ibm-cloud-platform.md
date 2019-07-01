@@ -3,7 +3,7 @@
 
 copyright:
   years: 2016, 2019
-lastupdated: "2019-05-31"
+lastupdated: "2019-06-20"
 
 keywords: console, platform overview, overview
 
@@ -28,7 +28,7 @@ IBM のクラウド・プラットフォームは、Platform as a Service (PaaS)
   * リソースをフィルタリングおよび識別するための検索およびタグ付けのメカニズム
   * 価格設定プランおよびセキュア・クレジット・カード詐欺防止のために正確な使用量を提供するアカウントおよび請求管理システム
   
-  ![{{site.data.keyword.cloud_notm}} プラットフォームのコンポーネント](images/IBM-Cloud-Platform.svg "{{site.data.keyword.cloud_notm}} プラットフォームの主要コンポーネントを示す図")
+![{{site.data.keyword.cloud_notm}} プラットフォームのコンポーネント。](images/IBM-Cloud-Platform.svg "{{site.data.keyword.cloud_notm}} プラットフォームの主なコンポーネントを示す図")
 
 最新化してクラウドに取り入れる[既存のコード](/docs/apps/tutorials?topic=creating-apps-tutorial-byoc#tutorial-byoc)があるか、[まったく新しいアプリケーション](/docs/apps/tutorials?topic=creating-apps-tutorial-starterkit)を開発しているかにかかわらず、開発者は、{{site.data.keyword.Bluemix_notm}} で使用可能なサービスおよびランタイム・フレームワークの急速に成長しているエコシステムを活用できます。
 
@@ -104,11 +104,11 @@ IBM のクラウド・プラットフォームは、Platform as a Service (PaaS)
 
 プログラム識別情報によって、{{site.data.keyword.Bluemix_notm}} 内のアプリケーションおよびサービスを 1 カ所でモニターおよび監視できます。 
 
-{{site.data.keyword.la_full}} サービスでは、ユーザーの {{site.data.keyword.Bluemix_notm}} アーキテクチャーにログ管理機能を追加でき、システム・ログおよびアプリケーション・ログを管理できます。また、モニター、トラブルシューティング、アラートの定義、カスタム・ダッシュボードの設計を行うための拡張機能もあります。{{site.data.keyword.la_full_notm}} は、{{site.data.keyword.IBM_notm}} とのパートナーシップにより LogDNA で運用されます。詳しくは、『[{{site.data.keyword.la_full_notm}} 概説](/docs/services/Log-Analysis-with-LogDNA?topic=LogDNA-getting-started)』を参照してください。
+{{site.data.keyword.la_full}} サービスでは、ユーザーの {{site.data.keyword.Bluemix_notm}} アーキテクチャーにログ管理機能を追加でき、システム・ログおよびアプリケーション・ログを管理できます。 また、モニター、トラブルシューティング、アラートの定義、カスタム・ダッシュボードの設計を行うための拡張機能もあります。 {{site.data.keyword.la_full_notm}} は、{{site.data.keyword.IBM_notm}} とのパートナーシップにより LogDNA で運用されます。 詳しくは、『[{{site.data.keyword.la_full_notm}} 概説](/docs/services/Log-Analysis-with-LogDNA?topic=LogDNA-getting-started)』を参照してください。
 
-{{site.data.keyword.mon_full_notm}} サービスにより、アプリケーション、サービス、およびプラットフォームのパフォーマンスと正常性に関して、運用の可視化が可能になります。また、モニター、トラブルシューティング、アラートの定義、カスタム・ダッシュボードの設計のための拡張機能により、フルスタック・テレメトリーが提供されます。{{site.data.keyword.mon_full_notm}} は、{{site.data.keyword.IBM_notm}} との協力関係のもと、Sysdig によって運用されます。詳しくは、『[IBM Cloud Monitoring with Sysdig サービス概説](/docs/services/Monitoring-with-Sysdig?topic=Sysdig-getting-started#getting-started)』を参照してください。
+{{site.data.keyword.mon_full_notm}} サービスにより、アプリケーション、サービス、およびプラットフォームのパフォーマンスと正常性に関して、運用の可視化が可能になります。 また、モニター、トラブルシューティング、アラートの定義、カスタム・ダッシュボードの設計のための拡張機能により、フルスタック・テレメトリーが提供されます。 {{site.data.keyword.mon_full_notm}} は、{{site.data.keyword.IBM_notm}} との協力関係のもと、Sysdig によって運用されます。 詳しくは、『[IBM Cloud Monitoring with Sysdig サービス概説](/docs/services/Monitoring-with-Sysdig?topic=Sysdig-getting-started#getting-started)』を参照してください。
 
 ## アカウントのモニタリング 
 {: #account_observability}
 
-{{site.data.keyword.at_full}} サービスを使用すると、ご使用の {{site.data.keyword.Bluemix_notm}} アカウントのアクティビティーをモニターし、異常なアクティビティーや重要なアクションを調査し、規定された監査要件に準拠することができます。さらに、アクションが発生した際にそれに関するアラートを通知させるようにできます。収集されるイベントは、Cloud Auditing Data Federation (CADF) 標準に準拠しています。詳しくは、『[{{site.data.keyword.at_full_notm}} 概説](/docs/services/Activity-Tracker-with-LogDNA?topic=logdnaat-getting-started)』を参照してください。
+{{site.data.keyword.at_full}} サービスを使用すると、ご使用の {{site.data.keyword.Bluemix_notm}} アカウントのアクティビティーをモニターし、異常なアクティビティーや重要なアクションを調査し、規定された監査要件に準拠することができます。 さらに、アクションが発生した際にそれに関するアラートを通知させるようにできます。 収集されるイベントは、Cloud Auditing Data Federation (CADF) 標準に準拠しています。 詳しくは、『[{{site.data.keyword.at_full_notm}} 概説](/docs/services/Activity-Tracker-with-LogDNA?topic=logdnaat-getting-started)』を参照してください。

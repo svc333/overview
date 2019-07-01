@@ -3,7 +3,7 @@
 
 copyright:
   years: 2016, 2019
-lastupdated: "2019-05-31"
+lastupdated: "2019-06-20"
 
 keywords: console, platform overview, overview
 
@@ -28,7 +28,7 @@ IBM 的雲端平台結合了平台即服務 (PaaS) 與基礎架構即服務 (Iaa
   * 用來過濾及識別資源的搜尋和標記機制
   * 帳戶和計費管理系統，其提供定價方案的確切用量，以及安全的信用卡詐騙防護
   
-  ![{{site.data.keyword.cloud_notm}} 平台的元件](images/IBM-Cloud-Platform.svg "此圖表顯示 {{site.data.keyword.cloud_notm}} 平台的主要元件")
+![{{site.data.keyword.cloud_notm}} 平台的元件。](images/IBM-Cloud-Platform.svg "顯示 {{site.data.keyword.cloud_notm}} 平台主要元件的圖"){: caption="圖 1. {{site.data.keyword.cloud_notm}} 平台的元件" caption-side="bottom"}
 
 不論您是想要對[現有程式碼](/docs/apps/tutorials?topic=creating-apps-tutorial-byoc#tutorial-byoc)進行革新並帶到雲端中，還是要開發[全新的應用程式](/docs/apps/tutorials?topic=creating-apps-tutorial-starterkit)，您的開發人員都可以利用 {{site.data.keyword.Bluemix_notm}} 中快速成長的可用服務和運行環境架構生態系統。
 

@@ -4,7 +4,7 @@ copyright:
 
   years: 2017, 2019
 
-lastupdated: "2018-04-02"
+lastupdated: "2019-06-20"
 
 keywords: users level of access, user control, access control, permissions
 
@@ -33,7 +33,7 @@ subcollection: overview
 
 虽然每种类型的访问权是分别进行管理的，但所有访问策略均由主体（您希望分配有对主体的访问权）、策略的目标（用于限定主体有权访问的内容的作用域）以及 IAM 角色、Cloud Foundry 角色或经典基础架构许可权（用于确定主体对目标的访问级别）所组成。
 
-![使用 IAM、Cloud Foundry 或经典基础架构许可权的访问管理策略](images/access-management.svg "如何通过首先选择主体，随后选择目标，再分配角色或许可权来分配策略")
+![使用 IAM、Cloud Foundry 或经典基础架构许可权来访问管理策略。](images/access-management.svg "如何通过首先使用主题，选择目标，然后分配角色或许可权来分配策略")
 
 对于 IAM 策略，主体可以是访问组、用户或服务标识。目标可以是帐户管理服务、资源组、帐户中的服务、特定服务实例或服务内的资源类型。可以选择平台和服务角色来限定主体访问级别的作用域。对于 Cloud Foundry 访问权，通过选择每个用户并分配组织角色和空间角色，授予用户对 Cloud Foundry 组织和空间的访问权。对于经典基础架构，选择用户，然后通过分配特定许可权，可以将访问权的作用域限定为某个服务或设备。
 

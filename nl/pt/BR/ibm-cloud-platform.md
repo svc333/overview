@@ -3,7 +3,7 @@
 
 copyright:
   years: 2016, 2019
-lastupdated: "2019-05-31"
+lastupdated: "2019-06-20"
 
 keywords: console, platform overview, overview
 
@@ -32,7 +32,7 @@ plataforma e controla o acesso aos recursos de forma consistente no {{site.data.
   * Um sistema de gerenciamento de conta e faturamento que fornece o uso exato para os planos de precificação e proteção
 segura contra fraude de cartão de crédito
   
-  ![Componentes da plataforma {{site.data.keyword.cloud_notm}}](images/IBM-Cloud-Platform.svg "Diagrama que mostra os principais componentes da plataforma {{site.data.keyword.cloud_notm}}")
+![Componentes da plataforma {{site.data.keyword.cloud_notm}}.](images/IBM-Cloud-Platform.svg "Diagrama que mostra os principais componentes da plataforma {{site.data.keyword.cloud_notm}}")
 
 Se você tem [código existente](/docs/apps/tutorials?topic=creating-apps-tutorial-byoc#tutorial-byoc) que deseja modernizar e trazer
 para a nuvem ou está desenvolvendo um [aplicativo

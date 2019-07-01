@@ -2,7 +2,7 @@
 
 copyright:
   years: 2019
-lastupdated: "2019-06-04"
+lastupdated: "2019-06-20"
 
 keywords: personalized onboarding, onboarding program, Global Client Success
 
@@ -56,6 +56,6 @@ subcollection: overview
 ### 想要自己开始吗？
 {: #self-onboard}
 
-我们有许多资源可供您自己了解 {{site.data.keyword.cloud_notm}}，但如果您是第一次使用 {{site.data.keyword.cloud_notm}} 控制台，那么最好先查看 [IBM Cloud 入门演示](https://register.gotowebinar.com/rt/5902701065204820738){: new_window} ![外部链接图标](../icons/launch-glyph.svg "外部链接图标")。您可以注册来获取下一个实时会话或观看已录制好的上一个会话。 
+我们有许多资源可供您自己了解 {{site.data.keyword.cloud_notm}}，但如果您是第一次使用 {{site.data.keyword.cloud_notm}} 控制台，那么最好先查看 [IBM Cloud 入门演示](https://register.gotowebinar.com/rt/5902701065204820738){: new_window} ![外部链接图标](../icons/launch-glyph.svg "外部链接图标")。可以查看视频以帮助您在 {{site.data.keyword.cloud_notm}} 平台中快速入门。  
 
 此外，还可以查看 [IBM Cloud Foundation 技能系列](https://www.youtube.com/playlist?list=PLmesOgYt3nKCfsXqx-A5k1bP7t146U4rz){: new_window} ![外部链接图标](../icons/launch-glyph.svg "外部链接图标")。

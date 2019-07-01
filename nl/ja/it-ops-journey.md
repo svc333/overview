@@ -2,7 +2,7 @@
 
 copyright:
   years: 2018, 2019
-lastupdated: "2019-06-04"
+lastupdated: "2019-06-20"
 
 keywords: cloud environment, virtual server, virtual machine, vm, understanding infrastructure, IaaS model
 
@@ -42,7 +42,7 @@ subcollection: overview
 
 クラウド・サービス・モデルには、Infrastructure as a Service (IaaS)、Platform as a Service (PaaS)、Software as a Service (SaaS) の 3 つのタイプがあります。 図 1 では、各サービス・モデル内で誰が何を行うかを説明します。 詳しくは、『[IaaS, PaaS, and SaaS - IBM Cloud service models](https://www.ibm.com/cloud/learn/iaas-paas-saas){: new_window} ![外部リンク・アイコン](../icons/launch-glyph.svg "外部リンク・アイコン")』を参照してください。
 
-![図 1. クラウド・サービス・モデル](images/cloud-svc-models.png "クラウド・サービス・モデル")
+![クラウド・サービス・モデル。](images/cloud-svc-models.svg "クラウド・サービス・モデルを示す図")
 
 IaaS モデルでは、プロバイダーは、基盤となるインフラストラクチャーの保守のみを担当し、オプションで、オペレーティング・システム、アプリケーション、およびデータベースなどソフトウェアのインストールも担当します。 IT 運用管理者は、基盤のインフラストラクチャーに制限付きでアクセスできます。そして、ソフトウェアのインストールを担当するか、またはサービス・プロバイダーにソフトウェアのインストールを依頼します。 また、サービス・パック、ウィルス・ソフトウェア、およびパッチなどの他のすべての保守も IT 運用管理者が担当します。
 
@@ -97,7 +97,7 @@ SaaS モデルでは、プロバイダーは実際のアプリケーションを
 | オプション | 説明 | 
 |--------|---------------|
 | [{{site.data.keyword.baremetal_short}}](/docs/bare-metal?topic=bare-metal-about-bm#about-bm)  | お客様専用で、サーバー・リソースを含むどの部分でも他のお客様と共有されない、時間単位または月単位のシングル・テナント・サーバー。 |
-| [{{site.data.keyword.BluVirtServers_short}}](/docs/vsi?topic=virtual-servers-getting-started-tutorial) | コアおよびメモリーの割り振りと共に購入される拡張が容易な仮想サーバー。|
+| [{{site.data.keyword.BluVirtServers_short}}](/docs/vsi?topic=virtual-servers-getting-started-tutorial) | コアおよびメモリーの割り振りと共に購入される拡張が容易な仮想サーバー。 |
 | [{{site.data.keyword.vmwaresolutions_short}}](/docs/services/vmwaresolutions?topic=vmware-solutions-getting-started#getting-started) | スケーラブルでセキュアでハイパフォーマンスのインフラストラクチャー、および業界最先端の VMware ハイブリッド仮想化テクノロジーを使用して、オンプレミスの VMware ワークロードを迅速かつシームレスに統合またはマイグレーションします。 |
 | [{{site.data.keyword.containerlong_notm}}](/docs/containers?topic=containers-container_index) | Docker コンテナー、Kubernetes テクノロジー、直観的なユーザー・エクスペリエンス、標準装備のセキュリティーと分離機能を結合させることにより、コンピュート・ホストのクラスター内でコンテナー化アプリのデプロイメント、操作、スケーリング、モニタリングを自動化します。 |
 | [{{site.data.keyword.cfee_full_notm}}](/docs/cloud-foundry?topic=cloud-foundry-about) | 複数の分離したエンタープライズ・グレードの Cloud Foundry プラットフォームをオンデマンドでインスタンス化します。 |
@@ -125,7 +125,7 @@ SaaS モデルでは、プロバイダーは実際のアプリケーションを
 
 {{site.data.keyword.cloud_notm}} アカウントがセットアップされると、{{site.data.keyword.vpn_full}} に自動的に接続されます。 サーバーにはデフォルトで、パブリック IP アドレスとプライベート IP アドレスがあります。 サーバーをプライベートにする場合は、サーバーのプロビジョン後にパブリック・インターフェースをオフにするか、サーバーをプライベートとして注文することができます。 詳しくは、[仮想プライベート・ネットワーキング (VPN) の概要](/docs/infrastructure/iaas-vpn?topic=VPN-gettingstarted-with-virtual-private-networking)を参照してください。
 
-インフラストラクチャー・レイヤー内に、{{site.data.keyword.cloud_notm}} アカウントと結び付けられた仮想ネットワークである仮想プライベート・クラウドを構築できます。仮想プライベート・クラウドを、クラウドのセキュリティーを確保することと仮想サーバー・インスタンスを動的にスケーリングすることを可能にするエントリー・ポイントとして利用できます。詳しくは、『[IBM Cloud Virtual Private Cloud (VPC) インフラストラクチャー概説](/docs/vpc-on-classic?topic=vpc-on-classic-getting-started)』を参照してください。
+インフラストラクチャー・レイヤー内に、{{site.data.keyword.cloud_notm}} アカウントと結び付けられた仮想ネットワークである仮想プライベート・クラウドを構築できます。 仮想プライベート・クラウドを、クラウドのセキュリティーを確保することと仮想サーバー・インスタンスを動的にスケーリングすることを可能にするエントリー・ポイントとして利用できます。 詳しくは、『[IBM Cloud Virtual Private Cloud (VPC) インフラストラクチャー概説](/docs/vpc-on-classic?topic=vpc-on-classic-getting-started)』を参照してください。
 
 ネットワーキング・オプションの要約については、以下の表を確認してください。
 

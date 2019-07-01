@@ -2,7 +2,7 @@
 
 copyright:
   years: 2018, 2019
-lastupdated: "2019-06-04"
+lastupdated: "2019-06-20"
 
 keywords: cloud environment, virtual server, virtual machine, vm, understanding infrastructure, IaaS model
 
@@ -42,7 +42,7 @@ subcollection: overview
 
 IaaS(Infrastructure as a Service), PaaS(Platform as a Service) 및 SaaS(Software as a Service)의 세 가지 클라우드 서비스 모델 유형이 존재합니다. 그림 1에는 각 서비스 모델 내에서 수행되는 작업과 주체가 설명되어 있습니다. 자세한 정보는 [IaaS, PaaS, and SaaS - IBM Cloud service models](https://www.ibm.com/cloud/learn/iaas-paas-saas){: new_window} ![외부 링크 아이콘](../icons/launch-glyph.svg "외부 링크 아이콘")를 참조하십시오.
 
-![그림 1. 클라우드 서비스 모델](images/cloud-svc-models.png "클라우드 서비스 모델")
+![클라우드 서비스 모델](images/cloud-svc-models.svg "클라우드 서비스 모델을 표시하는 다이어그램"){: caption="Figure 1. Cloud service models" caption-side="bottom"}
 
 IaaS 모델에서는 제공자가 기본 인프라만 유지보수하고 선택적으로 운영 체제, 애플리케이션 및 데이터베이스와 같은 소프트웨어의 설치를 담당합니다. 기본 인프라에 대한 액세스가 제한되며 소프트웨어 설치를 담당하거나 서비스 제공자가 설치하도록 합니다. 또한 서비스 팩, 바이러스 소프트웨어 및 패치를 포함한 다른 모든 유지보수에 대한 책임이 있습니다.
 
@@ -109,7 +109,7 @@ SaaS 모델에서는 제공자가 실제 애플리케이션을 통해 시스템�
 
 {{site.data.keyword.baremetal_short}} 및 {{site.data.keyword.BluVirtServers_short}}는 기본 스토리지로 프로비저닝됩니다. {{site.data.keyword.baremetal_short}}에는 최소 1TB SATA 디스크 공간이 있으며 {{site.data.keyword.BluVirtServers_short}}에는 최소 25GB SAN 스토리지가 있습니다. 이에 대한 예외는 {{site.data.keyword.cloud_notm}} SAP-Certified {{site.data.keyword.baremetal_short}}입니다. 이러한 서버에 사용 가능한 기본 스토리지에 대한 자세한 정보는 [{{site.data.keyword.cloud_notm}} SAP-Certified Infrastructure](/docs/bare-metal?topic=bare-metal-sap-cert-infrastructure#sap-cert-infrastructure)를 참조하십시오.
 
-필요에 따라 추가 스토리지를 구매할 수 있습니다. 스토리지 옵션에 대한 요약은 다음 표를 참조하십시오. 
+필요에 따라 추가 스토리지를 구매할 수 있습니다. 스토리지 옵션에 대한 요약은 다음 표를 참조하십시오.
 
 |옵션 |설명 |
 |--------|---------------|

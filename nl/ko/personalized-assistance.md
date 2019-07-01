@@ -2,7 +2,7 @@
 
 copyright:
   years: 2019
-lastupdated: "2019-06-04"
+lastupdated: "2019-06-20"
 
 keywords: personalized onboarding, onboarding program, Global Client Success
 
@@ -56,6 +56,6 @@ subcollection: overview
 ### 자체적으로 시작하려는 경우
 {: #self-onboard}
 
-자체적으로 {{site.data.keyword.cloud_notm}}에 대해 학습할 때 사용할 수 있는 다양한 리소스가 있지만 {{site.data.keyword.cloud_notm}} 콘솔을 처음 사용하는 경우에는 [IBM Cloud 시작하기 데모](https://register.gotowebinar.com/rt/5902701065204820738){: new_window} ![외부 링크 아이콘](../icons/launch-glyph.svg "외부 링크 아이콘")가 좋은 시작점이 될 수 있습니다. 다음 번 라이브 세션을 등록하거나 이전 세션의 레코딩을 시청할 수 있습니다. 
+자체적으로 {{site.data.keyword.cloud_notm}}에 대해 학습할 때 사용할 수 있는 다양한 리소스가 있지만 {{site.data.keyword.cloud_notm}} 콘솔을 처음 사용하는 경우에는 [IBM Cloud 시작하기 데모](https://register.gotowebinar.com/rt/5902701065204820738){: new_window} ![외부 링크 아이콘](../icons/launch-glyph.svg "외부 링크 아이콘")가 좋은 시작점이 될 수 있습니다. 동영상을 시청하는 것이 {{site.data.keyword.cloud_notm}} 플랫폼을 빠르게 시작하는 데 도움이 됩니다.  
 
 또한 [IBM Cloud Foundation 스킬 시리즈](https://www.youtube.com/playlist?list=PLmesOgYt3nKCfsXqx-A5k1bP7t146U4rz){: new_window} ![외부 링크 아이콘](../icons/launch-glyph.svg "외부 링크 아이콘")도 확인할 수 있습니다.

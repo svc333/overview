@@ -2,7 +2,7 @@
 
 copyright:
   years: 2019
-lastupdated: "2019-06-04"
+lastupdated: "2019-06-20"
 
 keywords: personalized onboarding, onboarding program, Global Client Success
 
@@ -56,6 +56,6 @@ Se você precisar se conectar conosco mais cedo, será possível chamar-nos grat
 ### Quer começar por conta própria?
 {: #self-onboard}
 
-Temos muitos recursos que você pode usar para aprender sobre o {{site.data.keyword.cloud_notm}} por conta própria, mas, como alguém que está usando o console do {{site.data.keyword.cloud_notm}} pela primeira vez, a [demo de Introdução ao IBM Cloud](https://register.gotowebinar.com/rt/5902701065204820738){: new_window}![Ícone de link externo](../icons/launch-glyph.svg "Ícone de link externo") é um bom local para começar. É possível se inscrever para a próxima sessão em tempo real ou assistir a uma gravação da sessão anterior. 
+Temos muitos recursos que você pode usar para aprender sobre o {{site.data.keyword.cloud_notm}} por conta própria, mas, como alguém que está usando o console do {{site.data.keyword.cloud_notm}} pela primeira vez, a [demo de Introdução ao IBM Cloud](https://register.gotowebinar.com/rt/5902701065204820738){: new_window}![Ícone de link externo](../icons/launch-glyph.svg "Ícone de link externo") é um bom local para começar. É possível visualizar vídeos para ajudar a iniciar rapidamente na plataforma {{site.data.keyword.cloud_notm}}.  
 
 Também é possível conferir [IBM Cloud Foundation Skills Series](https://www.youtube.com/playlist?list=PLmesOgYt3nKCfsXqx-A5k1bP7t146U4rz){: new_window}![Ícone de link externo](../icons/launch-glyph.svg "Ícone de link externo").

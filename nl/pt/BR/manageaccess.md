@@ -4,7 +4,7 @@ copyright:
 
   years: 2017, 2019
 
-lastupdated: "2018-04-02"
+lastupdated: "2019-06-20"
 
 keywords: users level of access, user control, access control, permissions
 
@@ -28,7 +28,7 @@ recursos de infraestrutura clássica e do Cloud Foundry não são gerenciados us
 
 Se você tem uma combinação de tipos de recursos, gerencie cada tipo separadamente:
 
-* Para os recursos do IAM, acesse **Gerenciar** &gt; **Acessar (IAM)** e, em seguida, selecione **Usuários**, **Grupos de acesso**ou **IDs de serviço** para iniciar.
+* Para os recursos do IAM, acesse **Gerenciar** &gt; **Acesso (IAM)** e, em seguida, selecione **Usuários**, **Grupos de acesso** ou **IDs de serviço** para iniciar.
 * Para designar acesso aos
 [recursos da infraestrutura clássica](/docs/iam?topic=iam-infrapermission), configure
 as permissões em **Gerenciar** > **Acessar (IAM)** na guia Infraestrutura clássica
@@ -37,9 +37,9 @@ para o usuário ao qual deseja designar acesso.
 
 Embora cada tipo de acesso seja gerenciado separadamente, todas as políticas de acesso são compostas por um sujeito ao qual você deseja designar acesso, um destino para a política, a fim de se definir o escopo de acesso do usuário, e por fim uma função do IAM, a função do Cloud Foundry ou a permissão de infraestrutura clássica para determinar o nível de acesso que o sujeito tem no destino.
 
-![Políticas de gerenciamento de acesso usando o IAM, o Cloud Foundry ou as permissões de infraestrutura clássica](images/access-management.svg "Como a designação de políticas funciona: começando com um sujeito, selecionando um destino, em seguida, designando uma função ou uma permissão")
+![Políticas de gerenciamento de acesso usando o IAM, o Cloud Foundry ou a infraestrutura clássica.](images/access-management.svg "Como funciona a designação de políticas iniciando com um assunto, selecionando um destino, em seguida, designando uma função ou permissão")
 
-Para as políticas do IAM, o sujeito pode ser um grupo de acesso, um usuário ou um ID de serviço. E o destino pode ser um serviço de gerenciamento de conta, um grupo de recursos, um serviço na conta, uma instância de serviço específica ou um tipo de recurso em um serviço. As funções de plataforma e de serviço podem ser selecionadas para definir o escopo do nível de acesso do sujeito. Para acesso ao Cloud Foundry, um usuário tem acesso a uma organização e um espaço do Cloud Foundry selecionando cada um e designando uma função de organização e uma função de espaço. Para a infraestrutura clássica, um usuário é selecionado e, em seguida, o acesso pode ter o escopo definido para um serviço ou dispositivo com permissões específicas designadas.
+Para as políticas do IAM, o sujeito pode ser um grupo de acesso, um usuário ou um ID de serviço. E o destino pode ser um serviço de gerenciamento de conta, um grupo de recursos, um serviço na conta, uma instância de serviço específica ou um tipo de recurso em um serviço. As funções de plataforma e de serviço podem ser selecionadas para definir o escopo do nível de acesso do sujeito. Para acesso ao Cloud Foundry, um usuário tem acesso a uma organização e a um espaço do Cloud Foundry selecionando cada um e designando uma função de organização e uma função de espaço. Para a infraestrutura clássica, um usuário é selecionado e, em seguida, o acesso pode ter o escopo definido para um serviço ou dispositivo com permissões específicas designadas.
 
 ## Permissões para gerenciamento de acesso
 {: #perms-manageaccess}

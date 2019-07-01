@@ -2,7 +2,7 @@
 
 copyright:
   years: 2018, 2019
-lastupdated: "2019-06-06"
+lastupdated: "2019-06-20"
 
 keywords: HA, failover, DR, high availability, disaster recovery, locations, data centers
 
@@ -66,6 +66,8 @@ subcollection: overview
 
 기본적으로 콘솔의 리소스 목록 보기에서 모든 위치의 모든 리소스를 볼 수 있습니다. 특정 위치의 리소스를 보고 이에 대해 작업하려면 **위치** 메뉴를 펼친 다음 목록에서 위치를 선택하십시오. 특정 지역을 펼쳐 개별 데이터 센터, 지역 또는 구역을 기준으로 필터링하도록 선택할 수 있습니다.
 
+![지역이 있는 데이터 센터 및 구역을 포함하는 지하철 관련 지리적 위치를 표시하는 위치 계층 구조](images/Location_hierarchy.svg){: caption="Figure 1. Location options hierarchy" caption-side="bottom"}
+
 예를 들어, 런던 2(eu-gb-2) 구역에 배치된 리소스가 있는 경우에는 이러한 리소스만 표시하도록 리소스 목록을 필터링할 수 있습니다. 특정 구역은 특정 지역에 있으며 특정 지역은 해당 메트로 위치로 구성됩니다. 런던 2(eu-gb-2) 구역만 나열하도록 목록을 필터링하려면 **런던** 메트로 옵션을 펼친 후 **런던(eu-gb)** 지역 옵션을 펼치십시오. 해당 지역에서 사용 가능한 구역의 목록 중 원하는 항목을 선택할 수 있습니다. 특정 데이터 센터에 배치된 리소스가 있는 경우에는 특정 메트로 위치 및 영숫자 코드(예: 런던 02(lon02))로 해당 데이터 센터를 식별할 수 있습니다.
 
 전 세계에 위치한 리소스를 보유할 수도 있습니다. **글로벌** 옵션은 지역 또는 구역과 무관한, 전 세계에서 액세스할 수 있는 하나의 논리 서비스 인스턴스만 고객 애플리케이션에 공개됨을 의미합니다. 이러한 리소스 유형은 글로벌 엔드포인트에서 액세스할 수 있습니다.
@@ -78,7 +80,7 @@ subcollection: overview
 {{site.data.keyword.Bluemix_notm}}에서는 전 세계 많은 위치에서 데이터 센터를 제공합니다. 
 
 
-![다음 표에 설명된 데이터 센터의 맵](images/Global-View.svg)
+![사용 가능한 데이터 센터 지도](images/Global-View.svg){: caption="Figure 2. Data center locations" caption-side="bottom"}
 
 
 데이터 센터별 특정 코드는 다음 표를 참조하십시오. 
@@ -153,7 +155,6 @@ subcollection: overview
 {: class="simple-tab-table"}
 {: summary="Use the buttons before the table to change the context of the table. The column headers identify the data centers located in the specific greographical area."}
 
-
 ## SLA(Service Level Agreement)
 {: #SLAs} 
 
@@ -181,7 +182,7 @@ subcollection: overview
 |고가용성 퍼블릭 환경 또는 다중 데디케이티드/로컬 환경 |기타 환경 |크레딧         |
 | <99.95%                                                                       |<99.5%              |10%             |
 | <99.90%                                                                       |<99.0%              |25%             |
-{: caption="표 5. 월별 가용성 서비스 레벨" caption-side="top"}
+{: caption="표 2. 월별 가용성 서비스 레벨" caption-side="top"}
 
 가용률은 약정된 월의 총 시간(분)에서 해당 월의 총 중단 시간(분)을 차감한 후 이를 해당 월의 총 시간(분)으로 나누어 계산합니다. 
 
@@ -226,7 +227,7 @@ subcollection: overview
 |> 10시간                | 60%            |
 |> 14시간                | 80%            |
 |> 18시간                | 80%            |
-{: caption="표 6. 하드웨어 교체 또는 업그레이드에 영향을 받는 서비스에 대한 월별 요금을 기준으로 하는 크레딧" caption-side="top"}
+{: caption="표 3. 하드웨어 교체 또는 업그레이드에 영향을 받는 서비스에 대한 월별 요금을 기준으로 하는 크레딧" caption-side="top"}
 
 ### 청구
 {: #claims}

@@ -4,7 +4,7 @@ copyright:
 
   years: 2017, 2019
 
-lastupdated: "2018-04-02"
+lastupdated: "2019-06-20"
 
 keywords: users level of access, user control, access control, permissions
 
@@ -33,7 +33,7 @@ subcollection: overview
 
 雖然每種存取類型個別管理，但所有存取原則都包含您想要指派存取權的主體、供原則界定主體可存取之範圍的目標，以及最後的 IAM 角色、Cloud Foundry 角色或標準基礎架構許可權（決定主體對目標所具有的存取層次）。
 
-![使用 IAM、Cloud Foundry 或標準基礎架構許可權的存取管理原則](images/access-management.svg "指派原則的運作情形，從主體開始、選取目標，然後指派角色或許可權")
+![使用 IAM、Cloud Foundry 或標準基礎架構許可權的存取管理原則。](images/access-management.svg "如何透過從主體開始、選取目標，然後指派角色或許可權來指派原則"){: caption="圖 1. 使用 IAM、Cloud Foundry 或標準基礎架構許可權的存取管理原則" caption-side="bottom"}
 
 對於 IAM 原則，主體可以是存取群組、使用者或服務 ID。此外，目標可以是帳戶管理服務、資源群組、帳戶中的服務、特定服務實例或服務內的資源類型。可以選取平台及服務角色，以設定主體的存取層次範圍。對於 Cloud Foundry 存取權，使用者會藉由選取每一個角色並指派組織角色和空間角色，而獲得 Cloud Foundry 組織及空間的存取權。對於標準基礎架構，選取使用者時，存取權可以設定範圍至服務或裝置，並指派特定的許可權。
 
