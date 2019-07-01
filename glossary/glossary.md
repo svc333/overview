@@ -3,7 +3,7 @@
 
 copyright:
   years: 2016, 2019
-lastupdated: "2019-06-28"
+lastupdated: "2019-07-01"
 
 keywords: glossary, IBM Cloud glossary
 
@@ -792,6 +792,11 @@ A production-ready offering that is available for sale and accessible to select 
 
 A cloud extension that provides ready-for-use functionality, such as database, messaging, and web software for running code, or application management or monitoring capabilities. Services usually do not require installation or maintenance and can be combined to create applications.
 
+### service ID
+{: #x9148163}
+
+An identity that authenticates a service or an application to a cloud environment and other services. A service ID can be assigned access policies and used to enable an application that is deployed to a cloud environment access to cloud services.
+
 ### session
 {: #x2004539}
 
@@ -851,6 +856,11 @@ A template that includes predefined services and application code that is config
 {: #x2040080}
 
 A domain that makes up a part of a larger domain. See also [custom domain](#x5728384), [domain](#x2021210), [host](#x2002243), [route](#x2037338), [Uniform Resource Locator](#x2042491).
+
+### subject
+{: #x2380043}
+
+The user, service ID, or access group that is granted access by an access policy.
 
 ### subnet
 {: #x4282974}
