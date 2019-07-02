@@ -3,7 +3,7 @@
 
 copyright:
   years: 2016, 2019
-lastupdated: "2019-07-01"
+lastupdated: "2019-07-02"
 
 keywords: glossary, IBM Cloud glossary
 
@@ -51,28 +51,28 @@ A value used by the consumer to gain access to the protected resources on behalf
 ### action
 {: #x2012974}
 
-- A code snippet that can be explicitly invoked, or run in response to an event. See also [feed](#x3129185), [invoke](#x2057232).
+- A code snippet that can be explicitly invoked, or run in response to an event. See also [feed](/docs/overview?topic=overview-glossary#x3129185), [invoke](/docs/overview?topic=overview-glossary#x2057232).
 - A task that is performed in the context of a service.
 
 ### affinity
 {: #x2149238}
 
-Two or more container group instances running on the same network node. See also [anti-affinity](#x8888040).
+Two or more container group instances running on the same network node. See also [anti-affinity](/docs/overview?topic=overview-glossary#x8888040).
 
 ### anti-affinity
 {: #x8888040}
 
-Two or more container group instances that run on different network nodes to ensure higher availability for an app. See also [affinity](#x2149238).
+Two or more container group instances that run on different network nodes to ensure higher availability for an app. See also [affinity](/docs/overview?topic=overview-glossary#x2149238).
 
 ### API
 {: #x2008805}
 
-See [application programming interface](#x2000186).
+See [application programming interface](/docs/overview?topic=overview-glossary#x2000186).
 
 ### app
 {: #x4281528}
 
-A web or mobile device application. See also [mobile application](#x4258535), [web application](#x2116500).
+A web or mobile device application. See also [mobile application](/docs/overview?topic=overview-glossary#x4258535), [web application](/docs/overview?topic=overview-glossary#x2116500).
 
 ### application programming interface (API)
 {: #x2000186}
@@ -92,7 +92,7 @@ The process of validating the identity of a user or server.
 ### AuthN
 {: #x7470446}
 
-See [authentication](#x2014567).
+See [authentication](/docs/overview?topic=overview-glossary#x2014567).
 
 ### authorization (AuthZ)
 {: #x2014653}
@@ -102,7 +102,7 @@ In computer security, the right granted to a user to communicate with or make us
 ### AuthZ
 {: #x7470448}
 
-See [authorization](#x2014653).
+See [authorization](/docs/overview?topic=overview-glossary#x2014653).
 
 ### availability zone
 {: #x7018171}
@@ -121,7 +121,7 @@ A dedicated, fully-customizable physical server that can be used for virtualizat
 ### base image
 {: #x5366487}
 
-An image that has no parent image. See also [image](#x2024928), [parent image](#x8439210).
+An image that has no parent image. See also [image](/docs/overview?topic=overview-glossary#x2024928), [parent image](/docs/overview?topic=overview-glossary#x8439210).
 
 ### beta offering
 {: #x9774283}
@@ -141,7 +141,7 @@ A collection of IBM Db2 technologies designed to work primarily with read-mostly
 ### blue-green deployment
 {: #x7807335}
 
-A deployment technique that enables continuous delivery and minimizes downtime by running two nearly identical production environments called Blue and Green. While one of the environments (for example, Blue) is the live production environment, the other (for example, Green) can be used for final testing and deployment. After the application is deployed in Green, Green becomes the production environment and Blue becomes idle. See also [red-black deployment](#x8439181).
+A deployment technique that enables continuous delivery and minimizes downtime by running two nearly identical production environments called Blue and Green. While one of the environments (for example, Blue) is the live production environment, the other (for example, Green) can be used for final testing and deployment. After the application is deployed in Green, Green becomes the production environment and Blue becomes idle. See also [red-black deployment](/docs/overview?topic=overview-glossary#x8439181).
 
 ### boilerplate
 {: #x7233930}
@@ -151,7 +151,7 @@ A template that includes one application and its associated runtime environment 
 ### borderless
 {: #x8439189}
 
-Pertaining to an open, non-proprietary development platform that includes public cloud, dedicated cloud, and local cloud deployment models. See also [dedicated cloud](#x8439199), [local cloud](#x8439194), [public cloud](#x4585370).
+Pertaining to an open, non-proprietary development platform that includes public cloud, dedicated cloud, and local cloud deployment models. See also [dedicated cloud](/docs/overview?topic=overview-glossary#x8439199), [local cloud](/docs/overview?topic=overview-glossary#x8439194), [/docs/overview?topic=overview-glossarypublic cloud](#x4585370).
 
 ### buildpack
 {: #x7233925}
@@ -165,12 +165,12 @@ A collection of scripts that prepare your code to run on IBM Cloud. Buildpacks e
 ### CA
 {: #x2015942}
 
-See [certificate authority](#x2016383).
+See [certificate authority](/docs/overview?topic=overview-glossary#x2016383).
 
 ### certificate authority (CA)
 {: #x2016383}
 
-A trusted third-party organization or company that issues the digital certificates. The certificate authority typically verifies the identity of the individuals who are granted the unique certificate. See also [intermediate certificate](#x3753781), [Secure Sockets Layer](#x2038004), [trusted root](#x2042234).
+A trusted third-party organization or company that issues the digital certificates. The certificate authority typically verifies the identity of the individuals who are granted the unique certificate. See also [intermediate certificate](/docs/overview?topic=overview-glossary#x3753781), [Secure Sockets Layer](/docs/overview?topic=overview-glossary#x2038004), [trusted root](/docs/overview?topic=overview-glossary#x2042234).
 
 ### certificate signing request (CSR)
 {: #x3530521}
@@ -180,12 +180,12 @@ An electronic message that an organization sends to a certificate authority (CA)
 ### CLI
 {: #x2008863}
 
-See [command-line interface](#x2051424).
+See [command-line interface](/docs/overview?topic=overview-glossary#x2051424).
 
 ### client
 {: #x2000644}
 
-A software program or computer that requests services from a server. See also [host](#x2002243).
+A software program or computer that requests services from a server. See also [host](/docs/overview?topic=overview-glossary#x2002243).
 
 ### cloud computing
 {: #x3877850}
@@ -215,7 +215,7 @@ Infrastructure or resources that serve as the basis for building apps in the clo
 ### container
 {: #x2010901}
 
-A system construct that allows users to simultaneously run separate logical operating system instances. Containers use layers of file systems to minimize image sizes and promote reuse. See also [image](#x2024928), [layer](#x2028320), [registry](#x2064940).
+A system construct that allows users to simultaneously run separate logical operating system instances. Containers use layers of file systems to minimize image sizes and promote reuse. See also [image](/docs/overview?topic=overview-glossary#x2024928), [layer](/docs/overview?topic=overview-glossary#x2028320), [registry](/docs/overview?topic=overview-glossary#x2064940).
 
 ### credential
 {: #x2018813}
@@ -225,12 +225,12 @@ Information acquired during authentication that describes a user, group associat
 ### CSR
 {: #x2140147}
 
-See [certificate signing request](#x3530521).
+See [certificate signing request](/docs/overview?topic=overview-glossary#x3530521).
 
 ### custom domain
 {: #x5728384}
 
-The customized portion of the URL selected by the user to direct requests to the application. A custom domain makes up part of the route. A custom domain can be a shared domain, a shared subdomain, or a shared domain and host. See also [domain](#x2021210), [host](#x2002243), [route](#x2037338), [subdomain](#x2040080), [Uniform Resource Locator](#x2042491).
+The customized portion of the URL selected by the user to direct requests to the application. A custom domain makes up part of the route. A custom domain can be a shared domain, a shared subdomain, or a shared domain and host. See also [domain](/docs/overview?topic=overview-glossary#x2021210), [host](/docs/overview?topic=overview-glossary#x2002243), [route](/docs/overview?topic=overview-glossary#x2037338), [subdomain](/docs/overview?topic=overview-glossary#x2040080), [Uniform Resource Locator](/docs/overview?topic=overview-glossary#x2042491).
 
 
 ## D
@@ -259,7 +259,7 @@ A place, such as a database system, file, or directory, where data is stored.
 ### DC
 {: #x2052913}
 
-See [data center](#x2439906).
+See [data center](/docs/overview?topic=overview-glossary#x2439906).
 
 ### DEA
 {: #x2019805}
@@ -269,12 +269,12 @@ See [Droplet Execution Agent](#x7470348).
 ### dedicated cloud
 {: #x8439199}
 
-A private cloud computing environment that provides infrastructure with single-tenant hardware. See also [borderless](#x8439189).
+A private cloud computing environment that provides infrastructure with single-tenant hardware. See also [borderless](/docs/overview?topic=overview-glossary#x8439189).
 
 ### deployment
 {: #x2104544}
 
-A process that retrieves the output of a build, packages the output with configuration properties, and installs the package in a pre-defined location so that it can be tested or run. See also [stage](#x2067189).
+A process that retrieves the output of a build, packages the output with configuration properties, and installs the package in a pre-defined location so that it can be tested or run. See also [stage](/docs/overview?topic=overview-glossary#x2067189).
 
 ### DevOps
 {: #x5784896}
@@ -284,7 +284,7 @@ A software methodology that integrates application development and IT operations
 ### domain
 {: #x2021210}
 
-Part of a naming hierarchy that specifies the route. For example, example.com. In {{site.data.keyword.cloud_notm}}, domains are associated with orgs. Domain objects are not directly bound to apps. See also [custom domain](#x5728384), [host](#x2002243), [organization](#x2032585), [route](#x2037338), [subdomain](#x2040080), [Uniform Resource Locator](#x2042491).
+Part of a naming hierarchy that specifies the route. For example, example.com. In {{site.data.keyword.cloud_notm}}, domains are associated with orgs. Domain objects are not directly bound to apps. See also [custom domain](/docs/overview?topic=overview-glossary#x5728384), [host](/docs/overview?topic=overview-glossary#x2002243), [organization](/docs/overview?topic=overview-glossary#x2032585), [route](/docs/overview?topic=overview-glossary#x2037338), [subdomain](/docs/overview?topic=overview-glossary#x2040080), [Uniform Resource Locator](/docs/overview?topic=overview-glossary#x2042491).
 
 ### droplet
 {: #x7470343}
@@ -303,7 +303,7 @@ The Cloud Foundry component that is responsible for deploying applications.
 ### endpoint
 {: #x2026820}
 
-The address of an API or service in an environment. An API exposes an endpoint and at the same time invokes the endpoints of other services. See also [route](#x2037338).
+The address of an API or service in an environment. An API exposes an endpoint and at the same time invokes the endpoints of other services. See also [route](/docs/overview?topic=overview-glossary#x2037338).
 
 ### experimental offering
 {: #x9774278}
@@ -321,7 +321,7 @@ To merge two or more entities. For example, a company's registered domain could 
 ### feed
 {: #x3129185}
 
-A piece of code that configures an external event source to fire trigger events. See also [action](#x2012974).
+A piece of code that configures an external event source to fire trigger events. See also [action](/docs/overview?topic=overview-glossary#x2012974).
 
 ### file share
 {: #x2022902}
@@ -350,7 +350,7 @@ An architecture for an application that provides a standard structure for an app
 ### GA
 {: #x2117930}
 
-See [general availability](#x2117947).
+See [general availability](/docs/overview?topic=overview-glossary#x2117947).
 
 ### GB-hour
 {: #x7470477}
@@ -370,7 +370,7 @@ An algorithmically determined number that uniquely identifies an entity within a
 ### GUID
 {: #x2390457}
 
-See [globally unique identifier](#x2390455).
+See [globally unique identifier](/docs/overview?topic=overview-glossary#x2390455).
 
 
 ## H
@@ -384,12 +384,12 @@ Hardware-assisted full virtualization. A virtual machine uses resources from the
 ### heavy API call
 {: #x7690468}
 
-A client operation that writes, deletes, or inserts data. Heavy API calls consume more resources than light API calls because they are affecting the data. See also [light API call](#x7690463).
+A client operation that writes, deletes, or inserts data. Heavy API calls consume more resources than light API calls because they are affecting the data. See also [light API call](/docs/overview?topic=overview-glossary#x7690463).
 
 ### host
 {: #x2002243}
 
-A computer that is connected to a network and that provides an access point to that network. The host can be a client, a server, or both a client and server simultaneously. See also [client](#x2000644), [custom domain](#x5728384), [domain](#x2021210), [route](#x2037338), [subdomain](#x2040080), [Uniform Resource Locator](#x2042491).
+A computer that is connected to a network and that provides an access point to that network. The host can be a client, a server, or both a client and server simultaneously. See also [client](/docs/overview?topic=overview-glossary#x2000644), [custom domain](/docs/overview?topic=overview-glossary#x5728384), [domain](/docs/overview?topic=overview-glossary#x2021210), [route](/docs/overview?topic=overview-glossary#x2037338), [subdomain](/docs/overview?topic=overview-glossary#x2040080), [Uniform Resource Locator](/docs/overview?topic=overview-glossary#x2042491).
 
 ### HTTP method
 {: #x2024674}
@@ -399,12 +399,12 @@ An action that is used by the Hypertext Transfer Protocol. HTTP methods include 
 ### HTTPS
 {: #x2193603}
 
-See [Hypertext Transfer Protocol Secure](#x2237225).
+See [Hypertext Transfer Protocol Secure](/docs/overview?topic=overview-glossary#x2237225).
 
 ### HVM
 {: #x9736815}
 
-See [hardware virtual machine mode](#x9736811).
+See [hardware virtual machine mode](/docs/overview?topic=overview-glossary#x9736811).
 
 ### hybrid cloud
 {: #x4585327}
@@ -423,12 +423,12 @@ An Internet protocol that is used by web servers and web browsers to transfer an
 ### IaaS
 {: #x4585337}
 
-See [infrastructure as a service](#x4585332).
+See [infrastructure as a service](/docs/overview?topic=overview-glossary#x4585332).
 
 ### IAM
 {: #x2193801}
 
-See [identity and access management](#x7547040).
+See [identity and access management](/docs/overview?topic=overview-glossary#x7547040).
 
 ### {{site.data.keyword.cloud_notm}}
 {: #x7301758}
@@ -443,7 +443,7 @@ The process of controlling access of authorized users to data and applications, 
 ### image
 {: #x2024928}
 
-A file system and its execution parameters that are used within a container runtime to create a container. The file system consists of a series of layers, combined at runtime, that are created as the image is built by successive updates. The image does not retain state as the container executes. See also [base image](#x5366487), [container](#x2010901), [layer](#x2028320), [namespace](#x2031005), [parent image](#x8439210), [private image repository](#x8439215), [registry](#x2064940).
+A file system and its execution parameters that are used within a container runtime to create a container. The file system consists of a series of layers, combined at runtime, that are created as the image is built by successive updates. The image does not retain state as the container executes. See also [base image](/docs/overview?topic=overview-glossary#x5366487), [container](/docs/overview?topic=overview-glossary#x2010901), [layer](/docs/overview?topic=overview-glossary#x2028320), [namespace](/docs/overview?topic=overview-glossary#x2031005), [parent image](/docs/overview?topic=overview-glossary#x8439210), [private image repository](/docs/overview?topic=overview-glossary#x8439215), [registry](/docs/overview?topic=overview-glossary#x2064940).
 
 ### infrastructure as a service (IaaS)
 {: #x4585332}
@@ -458,7 +458,7 @@ An entity that consists of resources that are reserved for a particular applicat
 ### intermediate certificate
 {: #x3753781}
 
-A subordinate certificate that is issued by the trusted root certificate authority (CA) specifically to issue end-entity server certificates. The result is a certificate chain that begins at the trusted root CA, passes through the intermediate certificate, and ends with the SSL certificate issued to the organization. See also [certificate authority](#x2016383), [trusted root](#x2042234).
+A subordinate certificate that is issued by the trusted root certificate authority (CA) specifically to issue end-entity server certificates. The result is a certificate chain that begins at the trusted root CA, passes through the intermediate certificate, and ends with the SSL certificate issued to the organization. See also [certificate authority](/docs/overview?topic=overview-glossary#x2016383), [trusted root](/docs/overview?topic=overview-glossary#x2042234).
 
 ### Internet of Things (IoT)
 {: #x6714341}
@@ -468,12 +468,12 @@ The global network of endpoints that can capture or generate data. For example, 
 ### invoke
 {: #x2057232}
 
-To activate an action. See also [action](#x2012974).
+To activate an action. See also [action](/docs/overview?topic=overview-glossary#x2012974).
 
 ### IoT
 {: #x6714346}
 
-See [Internet of Things](#x6714341).
+See [Internet of Things](/docs/overview?topic=overview-glossary#x6714341).
 
 
 ## J
@@ -492,7 +492,7 @@ A lightweight data-interchange format that is based on the object-literal notati
 ### JSON
 {: #x4267096}
 
-See [JavaScript Object Notation](#x3292165).
+See [JavaScript Object Notation](/docs/overview?topic=overview-glossary#x3292165).
 
 
 ## L
@@ -501,17 +501,17 @@ See [JavaScript Object Notation](#x3292165).
 ### layer
 {: #x2028320}
 
-A changed version of a parent image. Images consist of layers, where the changed version is layered on top of the parent image to create the new image. See also [container](#x2010901), [image](#x2024928).
+A changed version of a parent image. Images consist of layers, where the changed version is layered on top of the parent image to create the new image. See also [container](/docs/overview?topic=overview-glossary#x2010901), [image](/docs/overview?topic=overview-glossary#x2024928).
 
 ### LDAP
 {: #x2481619}
 
-See [Lightweight Directory Access Protocol](#x2028538).
+See [Lightweight Directory Access Protocol](/docs/overview?topic=overview-glossary#x2028538).
 
 ### light API call
 {: #x7690463}
 
-A client operation that only reads data. Light API calls use fewer resources than heavy API calls because they are performing a single function. See also [heavy API call](#x7690468).
+A client operation that only reads data. Light API calls use fewer resources than heavy API calls because they are performing a single function. See also [heavy API call](/docs/overview?topic=overview-glossary#x7690468).
 
 ### Lightweight Directory Access Protocol (LDAP)
 {: #x2028538}
@@ -521,7 +521,7 @@ An open protocol that uses TCP/IP to provide access to directories that support 
 ### local cloud
 {: #x8439194}
 
-A cloud computing environment within the client's data center. The local cloud is on-premises, providing improved latency and security. See also [borderless](#x8439189).
+A cloud computing environment within the client's data center. The local cloud is on-premises, providing improved latency and security. See also [borderless](/docs/overview?topic=overview-glossary#x8439189).
 
 
 ## M
@@ -530,17 +530,17 @@ A cloud computing environment within the client's data center. The local cloud i
 ### MBaaS
 {: #x7044865}
 
-See [mobile backend as a service](#x7044858).
+See [mobile backend as a service](/docs/overview?topic=overview-glossary#x7044858).
 
 ### mobile app
 {: #x7636517}
 
-See [mobile application](#x4258535).
+See [mobile application](/docs/overview?topic=overview-glossary#x4258535).
 
 ### mobile application (mobile app)
 {: #x4258535}
 
-An application that has been designed for a mobile platform. Similar to web applications, mobile apps provide some function beyond static display of information, for example, allowing the user to filter news in near real-time. See also [app](#x4281528).
+An application that has been designed for a mobile platform. Similar to web applications, mobile apps provide some function beyond static display of information, for example, allowing the user to filter news in near real-time. See also [app](/docs/overview?topic=overview-glossary#x4281528).
 
 ### mobile backend as a service (MBaaS)
 {: #x7044858}
@@ -555,12 +555,12 @@ An infrastructure in which the storage and processing of data for applications i
 ### multizone region (MZR)
 {: #x9774820}
 
-A region that is spread across data centers in multiple zones to increase fault tolerance. See also [zone](#x2070723).
+A region that is spread across data centers in multiple zones to increase fault tolerance. See also [zone](/docs/overview?topic=overview-glossary#x2070723).
 
 ### MZR
 {: #x9774831}
 
-See [multizone region](#x9774820).
+See [multizone region](/docs/overview?topic=overview-glossary#x9774820).
 
 ## N
 {: #glossn}
@@ -568,7 +568,7 @@ See [multizone region](#x9774820).
 ### namespace
 {: #x2031005}
 
-A unique name that identifies your organization's image repository within the IBM Cloud registry. See also [image](#x2024928), [private image repository](#x8439215).
+A unique name that identifies your organization's image repository within the IBM Cloud registry. See also [image](/docs/overview?topic=overview-glossary#x2024928), [private image repository](/docs/overview?topic=overview-glossary#x8439215).
 
 ### network address translation
 {: #x2031199}
@@ -587,7 +587,7 @@ An HTTP-based authorization protocol that gives applications scoped access to a 
 ### on-prem
 {: #x6969434}
 
-See [on-premises](#x4561212).
+See [on-premises](/docs/overview?topic=overview-glossary#x4561212).
 
 ### on-premises (on-prem)
 {: #x4561212}
@@ -597,12 +597,12 @@ Pertaining to software that is installed and run on the local computers of a use
 ### org
 {: #x7470494}
 
-See [organization](#x2032585).
+See [organization](/docs/overview?topic=overview-glossary#x2032585).
 
 ### organization (org)
 {: #x2032585}
 
-The grouping methodology for users in IBM Cloud. Orgs are used to manage quotas. Users in an org share memory and service instance quotas. See also [domain](#x2021210), [space](#x2039442).
+The grouping methodology for users in IBM Cloud. Orgs are used to manage quotas. Users in an org share memory and service instance quotas. See also [domain](/docs/overview?topic=overview-glossary#x2021210), [space](/docs/overview?topic=overview-glossary#x2039442).
 
 
 ## P
@@ -611,7 +611,7 @@ The grouping methodology for users in IBM Cloud. Orgs are used to manage quotas.
 ### PaaS
 {: #x2029790}
 
-See [platform as a service](#x2029786).
+See [platform as a service](/docs/overview?topic=overview-glossary#x2029786).
 
 ### paravirtualized mode
 {: #x9736806}
@@ -621,7 +621,7 @@ A lightweight virtualization technique. While in paravirtualized mode, a virtual
 ### parent image
 {: #x8439210}
 
-An image that provides a base for another image. For example, Ubuntu Linux is the parent image of the IBM Liberty image. See also [base image](#x5366487), [image](#x2024928).
+An image that provides a base for another image. For example, Ubuntu Linux is the parent image of the IBM Liberty image. See also [base image](/docs/overview?topic=overview-glossary#x5366487), [image](/docs/overview?topic=overview-glossary#x2024928).
 
 ### platform as a service (PaaS)
 {: #x2029786}
@@ -641,17 +641,17 @@ A physical location that stores servers and routers in a network cloud.
 ### PoP
 {: #x7234683}
 
-See [point of presence](#x5458832).
+See [point of presence](/docs/overview?topic=overview-glossary#x5458832).
 
 ### private cloud
 {: #x4585362}
 
-A cloud computing environment in which access is limited to members of an enterprise and partner networks. See also [public cloud](#x4585370).
+A cloud computing environment in which access is limited to members of an enterprise and partner networks. See also [public cloud](/docs/overview?topic=overview-glossary#x4585370).
 
 ### private image repository
 {: #x8439215}
 
-The combination of an organization's IBM Cloud registry and its namespace. The private image repository is used when referencing an image in a command. See also [image](#x2024928), [namespace](#x2031005).
+The combination of an organization's IBM Cloud registry and its namespace. The private image repository is used when referencing an image in a command. See also [image](/docs/overview?topic=overview-glossary#x2024928), [namespace](/docs/overview?topic=overview-glossary#x2031005).
 
 ### private key
 {: #x2034701}
@@ -661,7 +661,7 @@ An algorithmic pattern used to encrypt messages that only the corresponding publ
 ### private resource
 {: #x9439035}
 
-An entry that is visible only to account owners and their included accounts. When resources are created, they are private by default. See also [public resource](#x9439040).
+An entry that is visible only to account owners and their included accounts. When resources are created, they are private by default. See also [public resource](/docs/overview?topic=overview-glossary#x9439040).
 
 ### private service
 {: #x7690456}
@@ -671,7 +671,7 @@ A service that is visible only to members of a specified IBM Cloud organization.
 ### public cloud
 {: #x4585370}
 
-A cloud computing environment in which access to standardized resources, such as infrastructure, multi-tenant hardware, and services, is available to subscribers on a pay-per-use basis. See also [borderless](#x8439189), [private cloud](#x4585362).
+A cloud computing environment in which access to standardized resources, such as infrastructure, multi-tenant hardware, and services, is available to subscribers on a pay-per-use basis. See also [borderless](/docs/overview?topic=overview-glossary#x8439189), [private cloud](/docs/overview?topic=overview-glossary#x4585362).
 
 ### public gateway
 {: #x9594389}
@@ -681,7 +681,7 @@ The connection of a subnet, with all virtual server instances attached, to the i
 ### public resource
 {: #x9439040}
 
-An entry that is visible to everyone in the IBM Cloud catalog. Public resources can be built by any provider (IBM or third party providers). See also [private resource](#x9439035).
+An entry that is visible to everyone in the IBM Cloud catalog. Public resources can be built by any provider (IBM or third party providers). See also [private resource](/docs/overview?topic=overview-glossary#x9439035).
 
 ### push
 {: #x2035465}
@@ -705,7 +705,7 @@ Pertaining to data that changes dynamically.
 ### red-black deployment
 {: #x8439181}
 
-A deployment technique that drives continuous delivery by enabling synchronized test, development, and deployment. Initially, development is done on an inactive environment (black) while the active environment continues to take traffic (red). Once deployment starts, both environments go live (red-red) until routing is disabled on the formerly active, previous version environment, then subsequently removed (black) while the new environment serves as the only active environment. See also [blue-green deployment](#x7807335).
+A deployment technique that drives continuous delivery by enabling synchronized test, development, and deployment. Initially, development is done on an inactive environment (black) while the active environment continues to take traffic (red). Once deployment starts, both environments go live (red-red) until routing is disabled on the formerly active, previous version environment, then subsequently removed (black) while the new environment serves as the only active environment. See also [blue-green deployment](/docs/overview?topic=overview-glossary#x7807335).
 
 ### region
 {: #x2091391}
@@ -715,7 +715,7 @@ A defined geographic territory. A region could be a specific postal code area, a
 ### registry
 {: #x2064940}
 
-A public or private repository that contains images used to create containers. See also [container](#x2010901), [image](#x2024928).
+A public or private repository that contains images used to create containers. See also [container](/docs/overview?topic=overview-glossary#x2010901), [image](/docs/overview?topic=overview-glossary#x2024928).
 
 ### Representational State Transfer (REST)
 {: #x3220976}
@@ -735,7 +735,7 @@ The environment, and constraints, in which contained resource instances adhere t
 ### REST
 {: #x3220987}
 
-See [Representational State Transfer](#x3220976).
+See [Representational State Transfer](/docs/overview?topic=overview-glossary#x3220976).
 
 ### role
 {: #x2065412}
@@ -745,7 +745,7 @@ A set of permissions or access rights.
 ### route
 {: #x2037338}
 
-The URL used to direct requests to an application. A route is made up of an optional host (or subdomain) and a domain that are specified when an application is pushed. For example, in the route myapp.example.com, myapp is the host and example.com is the domain. A route can be associated with one or more applications. Unless a custom domain is specified, IBM Cloud uses a default shared domain in the route to your application. See also [custom domain](#x5728384), [domain](#x2021210), [endpoint](#x2026820), [host](#x2002243), [subdomain](#x2040080), [Uniform Resource Locator](#x2042491).
+The URL used to direct requests to an application. A route is made up of an optional host (or subdomain) and a domain that are specified when an application is pushed. For example, in the route myapp.example.com, myapp is the host and example.com is the domain. A route can be associated with one or more applications. Unless a custom domain is specified, IBM Cloud uses a default shared domain in the route to your application. See also [custom domain](/docs/overview?topic=overview-glossary#x5728384), [domain](/docs/overview?topic=overview-glossary#x2021210), [endpoint](/docs/overview?topic=overview-glossary#x2026820), [host](/docs/overview?topic=overview-glossary#x2002243), [subdomain](/docs/overview?topic=overview-glossary#x2040080), [Uniform Resource Locator](/docs/overview?topic=overview-glossary#x2042491).
 
 ### rule
 {: #x2037526}
@@ -756,7 +756,7 @@ The URL used to direct requests to an application. A route is made up of an opti
 ### runtime
 {: #x2391929}
 
-The set of resources used to run the application. See also [starter](#x7470511).
+The set of resources used to run the application. See also [starter](/docs/overview?topic=overview-glossary#x7470511).
 
 
 ## S
@@ -765,7 +765,7 @@ The set of resources used to run the application. See also [starter](#x7470511).
 ### SaaS
 {: #x4585391}
 
-See [software as a service](#x4585386).
+See [software as a service](/docs/overview?topic=overview-glossary#x4585386).
 
 ### scale
 {: #x2004442}
@@ -780,7 +780,7 @@ In identity management, the set of entities that a policy or an access control i
 ### Secure Sockets Layer (SSL)
 {: #x2038004}
 
-A security protocol that provides communication privacy. With SSL, client/server applications can communicate in a way that is designed to prevent eavesdropping, tampering, and message forgery. See also [certificate authority](#x2016383).
+A security protocol that provides communication privacy. With SSL, client/server applications can communicate in a way that is designed to prevent eavesdropping, tampering, and message forgery. See also [certificate authority](/docs/overview?topic=overview-glossary#x2016383).
 
 ### select availability
 {: #x9773835}
@@ -810,7 +810,7 @@ An authentication process in which a user can access more than one system or app
 ### single-zone region (SZR)
 {: #x9774825}
 
-A region that consists of data centers that are located within one zone, See also [zone](#x2070723).
+A region that consists of data centers that are located within one zone, See also [zone](/docs/overview?topic=overview-glossary#x2070723).
 
 ### software as a service (SaaS)
 {: #x4585386}
@@ -820,27 +820,27 @@ A model of software deployment whereby software including business processes, en
 ### SOR
 {: #x2214822}
 
-See [system of record](#x6735061).
+See [system of record](/docs/overview?topic=overview-glossary#x6735061).
 
 ### space
 {: #x2039442}
 
-A sub-group within an {{site.data.keyword.cloud_notm}} org. Users who are members of an org are given access to one or more of its spaces, with permissions associated with a particular role (such as developer, manager, or auditor). Any member of the space can view apps, but only members with the developer role can create apps and add service instances to the space. Apps and service instances are associated with spaces. See also [organization](#x2032585).
+A sub-group within an {{site.data.keyword.cloud_notm}} org. Users who are members of an org are given access to one or more of its spaces, with permissions associated with a particular role (such as developer, manager, or auditor). Any member of the space can view apps, but only members with the developer role can create apps and add service instances to the space. Apps and service instances are associated with spaces. See also [organization](/docs/overview?topic=overview-glossary#x2032585).
 
 ### SSL
 {: #x2483907}
 
-See [Secure Sockets Layer](#x2038004).
+See [Secure Sockets Layer](/docs/overview?topic=overview-glossary#x2038004).
 
 ### SSO
 {: #x3456450}
 
-See [single sign-on](#x2213318).
+See [single sign-on](/docs/overview?topic=overview-glossary#x2213318).
 
 ### stage
 {: #x2067189}
 
-To deploy an application, service, or instance to a pre-defined location  for running or testing before deployment to a production environment. See also [deployment](#x2104544).
+To deploy an application, service, or instance to a pre-defined location  for running or testing before deployment to a production environment. See also [deployment](/docs/overview?topic=overview-glossary#x2104544).
 
 ### stanza
 {: #x2094743}
@@ -850,12 +850,12 @@ A section of a software package that defines either a specific action to be perf
 ### starter
 {: #x7470511}
 
-A template that includes predefined services and application code that is configured with a particular buildpack.  A starter might be application code that is written in a specific programming language, or a combination of application code and a set of services. See also [runtime](#x2391929).
+A template that includes predefined services and application code that is configured with a particular buildpack.  A starter might be application code that is written in a specific programming language, or a combination of application code and a set of services. See also [runtime](/docs/overview?topic=overview-glossary#x2391929).
 
 ### subdomain
 {: #x2040080}
 
-A domain that makes up a part of a larger domain. See also [custom domain](#x5728384), [domain](#x2021210), [host](#x2002243), [route](#x2037338), [Uniform Resource Locator](#x2042491).
+A domain that makes up a part of a larger domain. See also [custom domain](/docs/overview?topic=overview-glossary#x5728384), [domain](/docs/overview?topic=overview-glossary#x2021210), [host](/docs/overview?topic=overview-glossary#x2002243), [route](/docs/overview?topic=overview-glossary#x2037338), [Uniform Resource Locator](/docs/overview?topic=overview-glossary#x2042491).
 
 ### subject
 {: #x2380043}
@@ -865,7 +865,7 @@ The user, service ID, or access group that is granted access by an access policy
 ### subnet
 {: #x4282974}
 
-See [subnetwork](#x2040149).
+See [subnetwork](/docs/overview?topic=overview-glossary#x2040149).
 
 ### subnetwork (subnet)
 {: #x2040149}
@@ -875,17 +875,17 @@ A network that is divided into smaller independent subgroups, which still are in
 ### system of engagement
 {: #x6528306}
 
-An information technology (IT) system that incorporates technologies that encourage user interaction through email, collaboration systems, and networking.  A system of engagement often uses cloud technologies to extend the usefulness of systems of record. See also [system of record](#x6735061).
+An information technology (IT) system that incorporates technologies that encourage user interaction through email, collaboration systems, and networking.  A system of engagement often uses cloud technologies to extend the usefulness of systems of record. See also [system of record](/docs/overview?topic=overview-glossary#x6735061).
 
 ### system of record (SOR)
 {: #x6735061}
 
-An information storage system (such as a database or application) that stores business records and automates standard processes. See also [system of engagement](#x6528306).
+An information storage system (such as a database or application) that stores business records and automates standard processes. See also [system of engagement](/docs/overview?topic=overview-glossary#x6528306).
 
 ### SZR
 {: #x9774829}
 
-See [single-zone region](#x9774825).
+See [single-zone region](/docs/overview?topic=overview-glossary#x9774825).
 
 
 ## T
@@ -919,7 +919,7 @@ A mechanism that initiates actions. Triggers can be explicitly fired by a user o
 ### trusted root
 {: #x2042234}
 
-A certificate signed by a trusted certificate authority (CA). See also [certificate authority](#x2016383), [intermediate certificate](#x3753781).
+A certificate signed by a trusted certificate authority (CA). See also [certificate authority](/docs/overview?topic=overview-glossary#x2016383), [intermediate certificate](/docs/overview?topic=overview-glossary#x3753781).
 
 
 ## U
@@ -933,17 +933,17 @@ A unique address that is used to identify content on the web. The most common fo
 ### Uniform Resource Locator (URL)
 {: #x2042491}
 
-The unique address of an information resource that is accessible in a network such as the Internet. The URL includes the abbreviated name of the protocol used to access the information resource and the information used by the protocol to locate the information resource. See also [custom domain](#x5728384), [domain](#x2021210), [host](#x2002243), [route](#x2037338), [subdomain](#x2040080).
+The unique address of an information resource that is accessible in a network such as the Internet. The URL includes the abbreviated name of the protocol used to access the information resource and the information used by the protocol to locate the information resource. See also [custom domain](/docs/overview?topic=overview-glossary#x5728384), [domain](/docs/overview?topic=overview-glossary#x2021210), [host](/docs/overview?topic=overview-glossary#x2002243), [route](/docs/overview?topic=overview-glossary#x2037338), [subdomain](/docs/overview?topic=overview-glossary#x2040080).
 
 ### URI
 {: #x2116461}
 
-See [Uniform Resource Identifier](#x2116436).
+See [Uniform Resource Identifier](/docs/overview?topic=overview-glossary#x2116436).
 
 ### URL
 {: #x2042718}
 
-See [Uniform Resource Locator](#x2042491).
+See [Uniform Resource Locator](/docs/overview?topic=overview-glossary#x2042491).
 
 ### user
 {: #x2069659}
@@ -966,7 +966,7 @@ A logical association of switch ports based upon a set of rules or criteria, suc
 ### virtual machine (VM)
 {: #x2043165}
 
-A software implementation of a machine that executes programs like a real machine. See also [virtual server](#x2455638).
+A software implementation of a machine that executes programs like a real machine. See also [virtual server](/docs/overview?topic=overview-glossary#x2455638).
 
 ### virtual private cloud
 {: #x4585403}
@@ -982,22 +982,22 @@ Data can be shared as if a connection to a private network is established. Usual
 ### virtual server
 {: #x2455638}
 
-A server that shares its resources with other servers to support applications. See also [virtual machine](#x2043165).
+A server that shares its resources with other servers to support applications. See also [virtual machine](/docs/overview?topic=overview-glossary#x2043165).
 
 ### VLAN
 {: #x2484337}
 
-See [virtual local area network](#x2438470).
+See [virtual local area network](/docs/overview?topic=overview-glossary#x2438470).
 
 ### VM
 {: #x2043253}
 
-See [virtual machine](#x2043165).
+See [virtual machine](/docs/overview?topic=overview-glossary#x2043165).
 
 ### VPN
 {: #x2484351}
 
-See [virtual private network](#x2043188).
+See [virtual private network](/docs/overview?topic=overview-glossary#x2043188).
 
 ### volume
 {: #x2043272}
@@ -1010,22 +1010,22 @@ A fixed amount of physical or virtual storage on a data storage medium.
 ### WAR
 {: #x2844389}
 
-See [web archive](#x2116506).
+See [web archive](/docs/overview?topic=overview-glossary#x2116506).
 
 ### WAR file
 {: #x2406005}
 
-See [web archive](#x2116506).
+See [web archive](/docs/overview?topic=overview-glossary#x2116506).
 
 ### web app
 {: #x7636628}
 
-See [web application](#x2116500).
+See [web application](/docs/overview?topic=overview-glossary#x2116500).
 
 ### web application (web app)
 {: #x2116500}
 
-An application that is accessible by a web browser and that provides some function beyond static display of information, for instance by allowing the user to query a database. Common components of a web application include HTML pages, JSP pages, and servlets. See also [app](#x4281528).
+An application that is accessible by a web browser and that provides some function beyond static display of information, for instance by allowing the user to query a database. Common components of a web application include HTML pages, JSP pages, and servlets. See also [app](/docs/overview?topic=overview-glossary#x4281528).
 
 ### web archive (WAR)
 {: #x2116506}
@@ -1043,5 +1043,5 @@ A context that contains a collection of artifacts that a user with appropriate p
 ### zone
 {: #x2070723}
 
-An independent fault domain. A zone is an abstraction designed to assist with improved fault tolerance and decreased latency. See also [multizone region](#x9774820), [single-zone region](#x9774825).
+An independent fault domain. A zone is an abstraction designed to assist with improved fault tolerance and decreased latency. See also [multizone region](/docs/overview?topic=overview-glossary#x9774820), [single-zone region](/docs/overview?topic=overview-glossary#x9774825).
 
