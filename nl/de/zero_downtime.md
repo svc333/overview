@@ -2,7 +2,7 @@
 
 copyright:
   years: 2018, 2019
-lastupdated: "2019-06-06"
+lastupdated: "2019-06-20"
 
 keywords: HA, failover, DR, high availability, disaster recovery, locations, data centers
 
@@ -66,6 +66,8 @@ Der globale Lastausgleich für die {{site.data.keyword.cloud_notm}}-Konsole stel
 
 Über die Ansicht 'Ressourcenliste' können Sie standardmäßig alle Ressourcen an allen Standorten anzeigen. Wenn Sie Ressourcen an einem bestimmten Standort anzeigen und mit diesen arbeiten möchten, erweitern Sie das Menü **Standort** und wählen Sie einen Standort aus der Liste aus. Wenn Sie eine bestimmten geografischen Standort erweitern, haben Sie die Möglichkeit, nach einzelnen Rechenzentren, Regionen oder Zonen zu filtern.
 
+![Standorthierarchie mit Geografie, die eine Metro enthält, die ihrerseits Rechenzentren und Regionen mit Zonen enthält](images/Location_hierarchy.svg)
+
 Beispiel: Wenn Sie über Ressourcen verfügen, die in der Zone 'London 2' (eu-gb-2) bereitgestellt werden, können Sie die Ressourcenliste so filtern, dass nur diese Ressourcen angezeigt werden. Eine Zone befindet sich innerhalb einer Region und eine Region ist anhand des zugehörigen Metrostandorts organisiert. Zum Filtern der Liste anhand der Zone 'London 2' (eu-gb-2) erweitern Sie die Metro-Option **London** und anschließend die Regionsoption **London (eu-gb)**. Innerhalb dieser Region können Sie eine Zone in der Liste der verfügbaren Zonen auswählen. Wenn Sie über eine Ressource verfügen, die in einem bestimmten Rechenzentrum bereitgestellt wird, können Sie das Rechenzentrum anhand des spezifischen Metrostandorts und des alphanumerischen Codes identifizieren, z. B. London 02 (lon02).
 
 Sie können auch über Ressourcen verfügen, die global bereitgestellt werden. Die Option **Global** bedeutet, dass nur eine einzelne, logische, global zugängliche Instanz des Service - unabhängig von einer Region oder Zone - für Kundenanwendungen veröffentlicht wird. Zugriff auf diese Ressourcentypen besteht über einen globalen Endpunkt.
@@ -78,7 +80,7 @@ Wenn Sie Infrastrukturressourcen bereitstellen, stehen Ihnen mehr Optionen zur V
 {{site.data.keyword.Bluemix_notm}} bietet Rechenzentren an vielen Standorten in der ganzen Welt. 
 
 
-![Karte der Rechenzentren, die in den folgenden Tabellen beschrieben werden](images/Global-View.svg)
+![Karte der verfügbaren Rechenzentren](images/Global-View.svg)
 
 
 Die folgende Tabelle enthält den spezifischen Code für die einzelnen Rechenzentren. 
@@ -153,7 +155,6 @@ Die folgende Tabelle enthält den spezifischen Code für die einzelnen Rechenzen
 {: class="simple-tab-table"}
 {: summary="Use the buttons before the table to change the context of the table. The column headers identify the data centers located in the specific greographical area."}
 
-
 ## Service-Level-Agreements (SLAs)
 {: #SLAs} 
 
@@ -181,7 +182,7 @@ Sie haben Anspruch auf eine Gutschrift auf Ihr Konto, wenn Ausfallzeiten auftret
 | Öffentliche HA-Umgebung oder mehrere dedizierte/lokale Umgebungen | Andere Umgebungen | Gutschrift         |
 | <99,95 %                                                                       |<99,5 %              |10 %             |
 | <99,90 %                                                                       |<99,0 %              |25 %             |
-{: caption="Tabelle 5. Service-Level der monatlichen Verfügbarkeit" caption-side="top"}
+{: caption="Tabelle 2. Service-Level der monatlichen Verfügbarkeit" caption-side="top"}
 
 Der Prozentsatz der Verfügbarkeit wird berechnet als Gesamtzahl von Minuten in einem Vertragsmonat minus der Gesamtanzahl von Ausfallzeitminuten in diesem Monat, dividiert durch die Gesamtzahl der Minuten in diesem Monat. 
 
@@ -226,7 +227,7 @@ Service-Level-Zeiträume schließen jede Zeit aus, die zum erneuten Laden des Be
 | > 10 Stunden                | 60 %            |
 | > 14 Stunden                | 80 %            |
 | > 18 Stunden                | 80 %            |
-{: caption="Tabelle 6. Gutschrift basierend auf der monatlichen Gebühr für den Service, der von dem Hardwareaustausch oder -upgrade betroffen ist" caption-side="top"}
+{: caption="Tabelle 3. Gutschrift basierend auf der monatlichen Gebühr für den Service, der von dem Hardwareaustausch oder -upgrade betroffen ist" caption-side="top"}
 
 ### Reklamationen
 {: #claims}

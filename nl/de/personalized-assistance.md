@@ -2,7 +2,7 @@
 
 copyright:
   years: 2019
-lastupdated: "2019-06-04"
+lastupdated: "2019-06-24"
 
 keywords: personalized onboarding, onboarding program, Global Client Success
 
@@ -23,7 +23,7 @@ subcollection: overview
 # Personalisiertes Onboarding
 {: #personalized-assistance}
 
-Die Kunden stehen für {{site.data.keyword.IBM}} bei jeder Interaktion an erster Stelle. Um dies zu ermöglichen, bietet das Global Client Success-Team personalisierte Unterstützung durch ein Onboarding-Programm.
+Die Kunden stehen für {{site.data.keyword.IBM}} bei jeder Interaktion an erster Stelle. Um dies zu ermöglichen, bietet das Global Client Success-Team kostenlose personalisierte Unterstützung durch ein Onboarding-Programm.
 {: shortdesc}
 
 Sie müssen bei Ihrem Konto mit nutzungsabhängiger Zahlung oder bei Ihrem Abonnementkonto angemeldet sein, um personalisiertes Onboarding zu verwenden.
@@ -56,6 +56,6 @@ Wenn Sie zu einem früheren Zeitpunkt Kontakt mit uns aufnehmen möchten, könne
 ### Sie möchten selbstständig beginnen?
 {: #self-onboard}
 
-Wir stellen Ihnen eine breite Palette von Ressourcen bereit, die Sie nutzen können, um {{site.data.keyword.cloud_notm}} selbstständig kennenzulernen. Wenn Sie die {{site.data.keyword.cloud_notm}}-Konsole zum ersten Mal verwenden, empfehlen wir zum Einstieg jedoch auch die [Demo zur Einführung in IBM Cloud](https://register.gotowebinar.com/rt/5902701065204820738){: new_window} ![Symbol für externen Link](../icons/launch-glyph.svg "Symbol für externen Link"). Sie können sich für die nächste Livesitzung registrieren oder eine Aufzeichnung der vorherigen Sitzung ansehen. 
+Wir stellen Ihnen eine breite Palette von Ressourcen bereit, die Sie nutzen können, um {{site.data.keyword.cloud_notm}} selbstständig kennenzulernen. Wenn Sie die {{site.data.keyword.cloud_notm}}-Konsole zum ersten Mal verwenden, empfehlen wir zum Einstieg jedoch auch die [Demo zur Einführung in IBM Cloud](https://register.gotowebinar.com/rt/5902701065204820738){: new_window} ![Symbol für externen Link](../icons/launch-glyph.svg "Symbol für externen Link"). Sie können sich Videos ansehen, die Ihnen bei einem schnellen Einstieg in die {{site.data.keyword.cloud_notm}}-Plattform helfen.  
 
 Weitere Informationen finden Sie auch in [IBM Cloud Foundation Skills Series](https://www.youtube.com/playlist?list=PLmesOgYt3nKCfsXqx-A5k1bP7t146U4rz){: new_window} ![Symbol für externen Link](../icons/launch-glyph.svg "Symbol für externen Link").

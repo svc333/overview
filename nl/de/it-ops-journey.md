@@ -2,7 +2,7 @@
 
 copyright:
   years: 2018, 2019
-lastupdated: "2019-06-04"
+lastupdated: "2019-06-20"
 
 keywords: cloud environment, virtual server, virtual machine, vm, understanding infrastructure, IaaS model
 
@@ -42,7 +42,7 @@ Vor dem Wechsel zur Cloud haben Sie in einer inhärent sicheren Umgebung mit Sys
 
 Es gibt drei Arten von Cloud-Service-Modellen: 'Infrastructure as a Service' (IaaS), 'Platform as a Service' (PaaS) und 'Software as a Service' (SaaS). Abbildung 1 erläutert, wer in den einzelnen Servicemodellen für was zuständig ist. Weitere Informationen enthält der Abschnitt [IaaS, PaaS und SaaS - Modelle des IBM Cloud-Service](https://www.ibm.com/cloud/learn/iaas-paas-saas){: new_window} ![Symbol für externen Link](../icons/launch-glyph.svg "Symbol für externen Link").
 
-![Abbildung 1. Cloud-Service-Modelle](images/cloud-svc-models.png "Cloud-Service-Modelle")
+![Cloud-Service-Modelle.](images/cloud-svc-models.svg "Diagramm mit Cloud-Service-Modellen")
 
 Beim IaaS-Modell ist Ihr Provider lediglich für die Wartung der zugrunde liegenden Infrastruktur und die optionale Installation von Software wie Betriebssystemen, Anwendungen und Datenbanken verantwortlich. Sie selbst haben eingeschränkt Zugriff auf die zugrunde liegende Infrastruktur und Sie sind für die Installation Ihrer Software oder für ihre Installation durch Ihren Service-Provider zuständig. Außerdem sind Sie für alle anderen Wartungsarbeiten verantwortlich, was Service-Packs, Virensoftware und Patches einschließt.
 
@@ -109,7 +109,7 @@ Ihr Server ist die Basis Ihrer Infrastruktur. Je nach Ihren Anforderungen stehen
 
 {{site.data.keyword.baremetal_short}} und {{site.data.keyword.BluVirtServers_short}} werden mit Standardspeicher bereitgestellt. {{site.data.keyword.baremetal_short}} verfügen über mindestens 1 TB SATA-Speicher und {{site.data.keyword.BluVirtServers_short}} über mindestens 25 GB SAN-Speicher. Eine Ausnahme hiervon bilden die von SAP zertifizierten {{site.data.keyword.baremetal_short}} für {{site.data.keyword.cloud_notm}}. Weitere Informationen zu dem mit diesen Servern verfügbaren Standardspeicher finden Sie in [Von SAP zertifizierte {{site.data.keyword.cloud_notm}}-Infrastruktur](/docs/bare-metal?topic=bare-metal-sap-cert-infrastructure#sap-cert-infrastructure).
 
-Je nach Ihren Bedürfnissen können Sie zusätzlichen Speicher erwerben. Die folgende Tabelle enthält eine Zusammenfassung Ihrer Speicheroptionen. 
+Je nach Ihren Bedürfnissen können Sie zusätzlichen Speicher erwerben. Die folgende Tabelle enthält eine Zusammenfassung Ihrer Speicheroptionen.
 
 | Option | Beschreibung |
 |--------|---------------|

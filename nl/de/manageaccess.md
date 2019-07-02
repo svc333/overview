@@ -4,7 +4,7 @@ copyright:
 
   years: 2017, 2019
 
-lastupdated: "2018-04-02"
+lastupdated: "2019-06-20"
 
 keywords: users level of access, user control, access control, permissions
 
@@ -25,7 +25,7 @@ subcollection: overview
 
 Die Art und Weise, wie der Zugriff in {{site.data.keyword.Bluemix}} verwaltet wird, hängt vom Typ der Ressource ab, für die Sie den Zugriff zuordnen möchten. {{site.data.keyword.Bluemix_notm}} Identity and Access Management (IAM) ist das Zugriffsmanagementsystem, das für die konsistente Verwaltung von Ressourcen verwendet wird, die in einer Ressourcengruppe auf der gesamten {{site.data.keyword.Bluemix_notm}}-Plattform organisiert sind. Klassische Infrastruktur- und Cloud Foundry-Ressourcen werden nicht mit Cloud IAM verwaltet. Diese Ressourcentypen verfügen über eigene Zugriffsmanagementsysteme. 
 
-Wenn Sie eine Kombination verschiedener Ressourcentypen haben, verwalten Sie jeden Typ separat: 
+Wenn Sie eine Kombination verschiedener Ressourcentypen haben, verwalten Sie jeden Typ separat:
 
 * Rufen Sie bei IAM-Ressourcen **Verwalten** &gt; **Zugriff (IAM)** auf. Wählen Sie dann **Benutzer**, **Zugriffsgruppen** oder **Service-IDs** aus, um loszulegen.
 * Sie weisen Zugriff auf Ihre [klassischen Infrastrukturressourcen](/docs/iam?topic=iam-infrapermission) zu, indem Sie in **Verwalten** > **Access (IAM)** auf der Registerkarte für die klassische Infrastruktur entsprechende Berechtigungen festlegen. 
@@ -33,9 +33,9 @@ Wenn Sie eine Kombination verschiedener Ressourcentypen haben, verwalten Sie jed
 
 Während jeder Zugriffstyp separat verwaltet wird, bestehen alle Zugriffsrichtlinien aus einem Subjekt, dem Sie Zugriff zuweisen möchten, einem Ziel für die Richtlinie, auf den sich der Zugriff des Subjekts erstreckt, und schließlich einer IAM-Rolle, die Cloud Foundry-Rolle oder eine Berechtigung für die klassische Infrastruktur, um die Zugriffsebene des Subjekts auf das Ziel zu bestimmen.
 
-![Zugriffsmanagementrichtlinien mit IAM, Cloud Foundry oder Berechtigungen für die klassische Infrastruktur](images/access-management.svg "Beim Zuweisen von Richtlinien beginnen Sie mit einem Subjekt, wählen Sie ein Ziel aus und weisen dann eine Rolle oder Berechtigung zu")
+![Zugriffsmanagementrichtlinien unter Verwendung von IAM-, Cloud Foundry- oder klassischen Infrastrukturberechtigungen.](images/access-management.svg "Vorgehensweise zur Richtlinienzuweisung durch Starten mit einem Subjekt, Auswahl eines Ziels und anschließender Zuweisung einer Rolle oder Berechtigung")
 
-Das Subjekt einer IAM-Richtlinie kann eine Benutzergruppe, Benutzer- oder Service-ID sein. Das Ziel kann ein Kontoverwaltungsservice, eine Ressourcengruppe, ein Service im Konto, eine bestimmte Serviceinstanz oder ein Ressourcentyp innerhalb eines Services sein. Plattform- und Servicerollen können ausgewählt werden, um die Zugriffsebene für das Subjekt festzulegen. Für den Cloud Foundry-Zugriff erhält ein Benutzer Zugriff auf eine Cloud Foundry-Organisation und einen Bereich, indem jede ausgewählt und eine "org"- und "space"-Rolle zugewiesen wird. Bei der klassischen Infrastruktur wird ein Benutzer ausgewählt, und der Zugriff kann auf einen Service oder auf ein Gerät mit bestimmten zugewiesenen Berechtigungen beschränkt werden. 
+Das Subjekt einer IAM-Richtlinie kann eine Benutzergruppe, Benutzer- oder Service-ID sein. Das Ziel kann ein Kontoverwaltungsservice, eine Ressourcengruppe, ein Service im Konto, eine bestimmte Serviceinstanz oder ein Ressourcentyp innerhalb eines Services sein. Plattform- und Servicerollen können ausgewählt werden, um die Zugriffsebene für das Subjekt festzulegen. Für den Cloud Foundry-Zugriff erhält ein Benutzer Zugriff auf eine Cloud Foundry-Organisation und einen Bereich, indem jede ausgewählt und eine "org"- und "space"-Rolle zugewiesen wird. Bei der klassischen Infrastruktur wird ein Benutzer ausgewählt, und der Zugriff kann auf einen Service oder auf ein Gerät mit bestimmten zugewiesenen Berechtigungen beschränkt werden.
 
 ## Berechtigungen für die Verwaltung des Zugriffs
 {: #perms-manageaccess}

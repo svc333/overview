@@ -3,7 +3,7 @@
 
 copyright:
   years: 2016, 2019
-lastupdated: "2019-05-31"
+lastupdated: "2019-06-20"
 
 keywords: console, platform overview, overview
 
@@ -20,7 +20,7 @@ subcollection: overview
 Die Cloud-Plattform von IBM stellt durch die Kombination von 'Platform as a Service' (PaaS) mit 'Infrastructure as a Service' (IaaS) eine integrierte Erfahrung bereit. Die Plattform passt sich an die Dimensionierung an und unterstützt sowohl kleine Entwicklungsteams und Organisationen als auch große Unternehmen. Mit der globalen Bereitstellung in Rechenzentren auf der ganzen Welt gewinnt die von Ihnen auf {{site.data.keyword.cloud}} aufgebaute Lösung rasch an Dynamik und funktioniert zuverlässig in einer getesteten und unterstützten Umgebung, der Sie vertrauen können.
 {: .shortdesc}
 
-Wie das folgende Diagramm veranschaulicht, besteht die {{site.data.keyword.Bluemix_notm}}-Plattform aus mehreren Komponenten, durch deren Interaktion eine konsistente und zuverlässige Cloudschnittstelle bereitgestellt wird.  
+Wie das folgende Diagramm veranschaulicht, besteht die {{site.data.keyword.Bluemix_notm}}-Plattform aus mehreren Komponenten, durch deren Interaktion eine konsistente und zuverlässige Cloudschnittstelle bereitgestellt wird. 
 
   * Eine robuste Konsole, die als Front-End für das Erstellen, Anzeigen und Verwalten Ihrer Cloud-Ressourcen dient
   * Eine Komponente für Identitäts- und Zugriffsmanagement, die Benutzer für beide Plattformservices sicher authentifiziert und den Zugriff auf Ressourcen in der Gesamtheit von {{site.data.keyword.Bluemix_notm}} einheitlich steuert
@@ -28,7 +28,7 @@ Wie das folgende Diagramm veranschaulicht, besteht die {{site.data.keyword.Bluem
   * Ein Such- und Taggingmechanismus zum Filtern und Identifizieren Ihrer Ressourcen
   * Ein Konto- und Abrechnungsverwaltungssystem, das die genaue Verwendung von Preisstrukturplänen (Preistarifen) zur Verfügung stellt und Schutz vor Kreditkartenbetrug bietet
   
-  ![Komponenten der {{site.data.keyword.cloud_notm}}-Plattform](images/IBM-Cloud-Platform.svg "Diagramm mit den Hauptkomponenten der {{site.data.keyword.cloud_notm}}-Plattform")
+![Komponenten der {{site.data.keyword.cloud_notm}}-Plattform.](images/IBM-Cloud-Platform.svg "Diagramm mit den Hauptkomponenten der {{site.data.keyword.cloud_notm}}-Plattform")
 
 Unabhängig davon, ob Sie über [vorhandenen Code](/docs/apps/tutorials?topic=creating-apps-tutorial-byoc#tutorial-byoc) verfügen, den Sie modernisieren und in die Cloud integrieren möchten, oder ob Sie eine [völlig neue Anwendung](/docs/apps/tutorials?topic=creating-apps-tutorial-starterkit) entwickeln, können sich Ihre Entwickler können das rasch wachsende Ökosystem verfügbarer Services und Laufzeitframeworks in {{site.data.keyword.Bluemix_notm}} zunutze machen.
 
@@ -102,13 +102,13 @@ Dieser Service verwaltet auch Tags, die einer Ressource zugeordnet sind. Tags k�
 ## Ressourcen überwachen
 {: #resources_observability}
 
-Die Beobachtbarkeit ermöglicht es, Anwendungen und Services in {{site.data.keyword.Bluemix_notm}} von einer zentralen Position aus zu überwachen und zu beobachten.  
+Die Beobachtbarkeit ermöglicht es, Anwendungen und Services in {{site.data.keyword.Bluemix_notm}} von einer zentralen Position aus zu überwachen und zu beobachten. 
 
-Mit dem {{site.data.keyword.la_full}}-Service können Sie Protokollverwaltungsfunktionen zur {{site.data.keyword.Bluemix_notm}}-Architektur hinzufügen und System- und Anwendungsprotokolle verwalten. Es stehen erweiterte Features für die Überwachung und Fehlerbehebung, die Definition von Alerts und das Entwerfen von angepassten Dashboards zur Verfügung. {{site.data.keyword.la_full_notm}} wird von LogDNA in einer Partnerschaft mit {{site.data.keyword.IBM_notm}} ausgeführt. Weitere Informationen finden Sie in [Einführung in {{site.data.keyword.la_full_notm}}](/docs/services/Log-Analysis-with-LogDNA?topic=LogDNA-getting-started). 
+Mit dem {{site.data.keyword.la_full}}-Service können Sie Protokollverwaltungsfunktionen zur {{site.data.keyword.Bluemix_notm}}-Architektur hinzufügen und System- und Anwendungsprotokolle verwalten. Es stehen erweiterte Features für die Überwachung und Fehlerbehebung, die Definition von Alerts und das Entwerfen von angepassten Dashboards zur Verfügung. {{site.data.keyword.la_full_notm}} wird von LogDNA in einer Partnerschaft mit {{site.data.keyword.IBM_notm}} ausgeführt. Weitere Informationen finden Sie in [Einführung in {{site.data.keyword.la_full_notm}}](/docs/services/Log-Analysis-with-LogDNA?topic=LogDNA-getting-started).
 
-Der {{site.data.keyword.mon_full_notm}}-Service ermöglicht operationale Einblicke in die Leistung und den Allgemeinzustand von Anwendungen, Services und Plattformen. Er bietet eine umfassende Telemetrie mit erweiterten Features zur Übewachung und Fehlerbehebung, zur Definition von Alerts und zum Entwerfen angepasster Dashboards. {{site.data.keyword.mon_full_notm}} wird von Sysdig in einer Partnerschaft mit {{site.data.keyword.IBM_notm}} ausgeführt. Weitere Informationen finden Sie in [Einführung in den IBM Cloud Monitoring with Sysdig-Service](/docs/services/Monitoring-with-Sysdig?topic=Sysdig-getting-started#getting-started). 
+Der {{site.data.keyword.mon_full_notm}}-Service ermöglicht operationale Einblicke in die Leistung und den Allgemeinzustand von Anwendungen, Services und Plattformen. Er bietet eine umfassende Telemetrie mit erweiterten Features zur Übewachung und Fehlerbehebung, zur Definition von Alerts und zum Entwerfen angepasster Dashboards. {{site.data.keyword.mon_full_notm}} wird von Sysdig in einer Partnerschaft mit {{site.data.keyword.IBM_notm}} ausgeführt. Weitere Informationen finden Sie in [Einführung in den IBM Cloud Monitoring with Sysdig-Service](/docs/services/Monitoring-with-Sysdig?topic=Sysdig-getting-started#getting-started).
 
 ## Konto überwachen 
 {: #account_observability}
 
-Verwenden Sie den {{site.data.keyword.at_full}}-Service, um die Aktivitäten im {{site.data.keyword.Bluemix_notm}}-Konto zu überwachen, abnormale Aktivitäten und kritische Aktionen zu untersuchen und die Einhaltung gesetzlicher Auditvorschriften sicherzustellen. Darüber hinaus können Sie festlegen, dass Sie Alerts erhalten, falls bestimmte Aktionen stattfinden. Die Erfassung von Ereignissen entspricht dem CADF-Standard (Cloud Auditing Data Federation). Weitere Informationen finden Sie in [Einführung in {{site.data.keyword.at_full_notm}}](/docs/services/Activity-Tracker-with-LogDNA?topic=logdnaat-getting-started). 
+Verwenden Sie den {{site.data.keyword.at_full}}-Service, um die Aktivitäten im {{site.data.keyword.Bluemix_notm}}-Konto zu überwachen, abnormale Aktivitäten und kritische Aktionen zu untersuchen und die Einhaltung gesetzlicher Auditvorschriften sicherzustellen. Darüber hinaus können Sie festlegen, dass Sie Alerts erhalten, falls bestimmte Aktionen stattfinden. Die Erfassung von Ereignissen entspricht dem CADF-Standard (Cloud Auditing Data Federation). Weitere Informationen finden Sie in [Einführung in {{site.data.keyword.at_full_notm}}](/docs/services/Activity-Tracker-with-LogDNA?topic=logdnaat-getting-started).
