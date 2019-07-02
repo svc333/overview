@@ -4,7 +4,7 @@ copyright:
 
   years: 2015, 2019
 
-lastupdated: "2019-06-06"
+lastupdated: "2019-07-02"
 
 keywords: release notes, what's new, what is new, cloud updates
 
@@ -106,7 +106,7 @@ With our latest update, you can now view all your platform and infrastructure se
 * Now that you can see all of your resources in one place, we've added a global search so that you can quickly find resources that you created and expect to appear on the Resource list page. 
 * You can also search for catalog results, so you can quickly find resources to add to your account.  
 
-See [Manage All Your Cloud Resources on the Enhanced {{site.data.keyword.Bluemix_notm}} Platform](https://www.ibm.com/blogs/bluemix/2018/11/manage-all-your-cloud-resources-on-the-enhanced-ibm-cloud-platform/){: new_window} ![External link icon](../../icons/launch-glyph.svg "External link icon") for more details.
+See [Manage All Your Cloud Resources on the Enhanced {{site.data.keyword.Bluemix_notm}} Platform](https://www.ibm.com/blogs/cloud-archive/2018/11/manage-all-your-cloud-resources-on-the-enhanced-ibm-cloud-platform/){: new_window} ![External link icon](../../icons/launch-glyph.svg "External link icon") for more details.
 
 ### Unified account, billing, and user profile information for platform and infrastructure services
 New as of: 30 November 2018
