@@ -30,6 +30,18 @@ If you're looking for updates for the services that are available on {{site.data
 ## {{site.data.keyword.Bluemix_notm}} platform
 {: #platform_category}
 
+### Managing SoftLayer SAML federation on {{site.data.keyword.cloud_notm}}
+{: #saml-federation}
+New as of: 02 July 2019
+
+Former SoftLayer users who set up a SAML identity provider for logging in with federated IDs can now manage their configuration data in the {{site.data.keyword.cloud_notm}} console in Access (IAM) on the Identity providers page. This type of federation is deprecated, so new identity providers can't be set up at this time, but you can continue to update your identity provider data or choose to delete this federation in favor of switching to [federating with IBMid](/docs/account?topic=account-signup#signup-federated).
+
+### Custom dashboard
+{: #custom}
+New as of: 14 June 2019 
+
+You can now control what's displayed on your dashboard. Customzing your dashboard includes the ability to add, remove, and rearrange the order of widgets. For more information, see [Customizing your dashboard](/docs/overview?topic=overview-custom-dashboard).
+
 
 ### Export usage data with associated tags
 New as of: 4 April 2019 
