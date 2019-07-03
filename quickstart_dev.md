@@ -4,7 +4,7 @@ copyright:
 
   years: 2018, 2019
 
-lastupdated: "2019-05-13"
+lastupdated: "2019-07-03"
 
 keywords: quick start steps, dev quick start, dev get started
 
@@ -32,7 +32,7 @@ Create a Pay-As-You-Go or Subscription account to get full access to all offerin
 ## Quick start steps
 {: #steps-dev}
  
-1. [Install and set up](/docs/home/tools) the {{site.data.keyword.Bluemix_notm}} command line interface (CLI). 
+1. [Install and set up](/docs/home/tools) the {{site.data.keyword.Bluemix_notm}} command-line interface (CLI). 
 2. To begin coding, complete the following steps:
     * Go to the Menu icon ![Menu icon](../icons/icon_hamburger.svg) **> Dashboard > Apps** widget, and click **Create an app** to create one by using an empty starter kit or bring your own code.
     * Use a [starter kit](/docs/apps/tutorials?topic=creating-apps-tutorial-starterkit) to create an app from a pre-configured custom app. 
