@@ -2,7 +2,7 @@
 
 copyright:
   years: 2019
-lastupdated: "2019-06-20"
+lastupdated: "2019-06-24"
 
 keywords: personalized onboarding, onboarding program, Global Client Success
 
@@ -23,7 +23,7 @@ subcollection: overview
 # Incorporación personalizada
 {: #personalized-assistance}
 
-{{site.data.keyword.IBM}} piensa en primer lugar en el cliente para cualquiera de sus interacciones. En este sentido, nuestro equipo Global Client Success ofrece ayuda personalizada mediante un programa de incorporación.
+{{site.data.keyword.IBM}} piensa en primer lugar en el cliente para cualquiera de sus interacciones. En este sentido, nuestro equipo Global Client Success ofrece ayuda personalizada gratuita mediante un programa de incorporación.
 {: shortdesc}
 
 Debe haber iniciado una sesión en una cuenta de Pago según uso o de Suscripción para optar a una incorporación personalizada.

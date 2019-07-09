@@ -58,7 +58,7 @@ Consulte la tabla siguiente para ver las diferencias en cuanto a red entre la in
 | Categoría   |  Infraestructura clásica   | Infraestructura VPC |
 | ---------- | ------------------------- | ------------------ |
 | Construcción de ubicación    | Centros de datos y pods <br>(Es posible que se requiera una ampliación de VLAN para conectar dos pods o centros de datos distintos y la adquisición de pasarelas para controlar y direccionar el tráfico) | Modelo regional que sintetiza la infraestructura para que no deba preocuparse por las ubicaciones de los pods.|
-| Funciones y servicios de red |Dispositivos físicos y virtuales de distintos proveedores | Funciones de red nativas de la nube (VPNs, LBaaS)<br>(Aislamiento de VPC, recursos dedicados de la nube pública, con más opciones para VPNs, LBaaS, varias instancias de vNIC y tamaños mayores de subred) |
+| Funciones y servicios de red |Dispositivos físicos y virtuales de distintos proveedores | Funciones de red nativas de la nube (VPN, LBaaS)<br>(Aislamiento de VPC, recursos dedicados de la nube pública, con más opciones para VPN, LBaaS, varias instancias de vNIC y tamaños mayores de subred) |
 | Direcciones IP | Se admiten direcciones IPv6 | Solo direcciones IPv4 |
 | Direccionamiento de pasarela | Utilice un dispositivo de red virtual o físico (Virtual Router Appliance, Vyatta, Juniper vSRX, Fortinet FSA) | La pasarela pública y los servicios de IP flotante manejar el direccionamiento del tráfico |
 | Conversión de direcciones de red (NAT) | Utilice un dispositivo de red virtual o físico (Virtual Router Appliance, Vyatta, Juniper vSRX, Fortinet FSA) | Recibe soporte de la funcionalidad BYOIP (Traer su propia IP)  |
@@ -88,7 +88,7 @@ Consulte la tabla siguiente para ver las diferencias en cuanto a seguridad entre
 
 |  Infraestructura clásica   | Infraestructura VPC |
 | ---------- | ------------------------- |
-|Vyatta, Fortigate, Juniper vSRX, grupos de seguridad para VSIs| Grupos de seguridad, listas de control de acceso (ACL) a la red|
+|Vyatta, Fortigate, Juniper vSRX, grupos de seguridad para VSI| Grupos de seguridad, listas de control de acceso (ACL) a la red|
 {: caption="Tabla 4. Comparación entre seguridad" caption-side="top"}
 
 ## Diferenciadores de API

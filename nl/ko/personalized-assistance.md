@@ -2,7 +2,7 @@
 
 copyright:
   years: 2019
-lastupdated: "2019-06-20"
+lastupdated: "2019-06-24"
 
 keywords: personalized onboarding, onboarding program, Global Client Success
 
@@ -23,7 +23,7 @@ subcollection: overview
 # 개인화된 온보딩
 {: #personalized-assistance}
 
-{{site.data.keyword.IBM}}에서는 모든 상호작용에서 고객을 최우선으로 두고 있습니다. 이를 용이하게 하기 위해 Global Client Success 팀은 온보드 프로그램을 통해 맞춤형 지원을 제공합니다.
+{{site.data.keyword.IBM}}에서는 모든 상호작용에서 고객을 최우선으로 두고 있습니다. 이를 용이하게 하기 위해 Global Client Success 팀은 온보드 프로그램을 통해 무료 맞춤형 지원을 제공합니다.
 {: shortdesc}
 
 개인화된 온보딩 자격을 받으려면 종량과금제 또는 구독 계정에 로그인해야 합니다.

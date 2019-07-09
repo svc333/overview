@@ -977,7 +977,7 @@ Véase [localizador uniforme de recursos](#x2042491).
 ### jerarquía de usuario
 {: #userhierarchy}
 
-Una relación de gestión para usuarios de infraestructura clásicos que invitan a otros usuarios a una cuenta. Después estos usuarios invitan a otros usuarios a la cuenta, etc. Cuando un usuario de infraestructura clásico invita a otro usuario a la cuenta, el usuario de infraestructura clásico se convierte en el usuario padre. Cuando un usuario hijo de un usuario padre invita a otros usuarios a la cuenta, dichos usuarios pasan a ser descendientes del padre original, que ahora se considerará su ancestro.
+Una relación de gestión para usuarios de infraestructura clásica que invitan a otros usuarios a una cuenta. Después estos usuarios invitan a otros usuarios a la cuenta, etc. Cuando un usuario de infraestructura clásica invita a otro usuario a la cuenta, el usuario de infraestructura clásica se convierte en el usuario padre. Cuando un usuario hijo de un usuario padre invita a otros usuarios a la cuenta, dichos usuarios pasan a ser descendientes del padre original, que ahora se considerará su ancestro.
 
 
 ## V

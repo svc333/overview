@@ -2,7 +2,7 @@
 
 copyright:
   years: 2019
-lastupdated: "2019-06-20"
+lastupdated: "2019-06-24"
 
 keywords: personalized onboarding, onboarding program, Global Client Success
 
@@ -23,7 +23,7 @@ subcollection: overview
 # 个性化上线
 {: #personalized-assistance}
 
-{{site.data.keyword.IBM}} 致力于确保每次互动都能以客户优先。为了帮助实现这一目标，我们的 Global Client Success 团队会通过上线计划来提供个性化的帮助。
+{{site.data.keyword.IBM}} 致力于确保每次互动都能以客户优先。为了帮助实现这一目标，我们的 Global Client Success 团队会通过上线计划来提供免费的个性化帮助。
 {: shortdesc}
 
 您必须登录到现收现付或预订帐户，才有资格使用个性化上线。

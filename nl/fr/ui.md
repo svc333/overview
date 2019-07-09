@@ -3,9 +3,9 @@
 
 copyright:
   years: 2015, 2019
-lastupdated: "2019-01-29"
+lastupdated: "2019-06-25"
 
-keywords: ui, components, using the console
+keywords: ui, components, using the console, SoftLayer, classic infrastructure
 
 subcollection: overview
 
@@ -13,6 +13,7 @@ subcollection: overview
 
 {:shortdesc: .shortdesc}
 {:tip: .tip}
+{:note: .note}
 {:new_window: target="_blank"}
 
 # Navigation dans la console {{site.data.keyword.cloud_notm}} 
@@ -25,10 +26,10 @@ La console {{site.data.keyword.cloud}} est une interface utilisateur qui vous ai
 ## Utilisation de la console
 {: #consoleoptions}
 
-Lorsque vous vous connectez à {{site.data.keyword.cloud_notm}}, la première page qui s'affiche est le tableau de bord. Ce dernier inclut des widgets qui présentent le statut de votre compte. Vous pouvez ensuite gérer vos ressources. Accédez à l'icône Menu ![Icône Menu](../icons/icon_hamburger.svg) &gt; **Liste de ressources** pour afficher toutes les ressources existantes de votre compte.
+Lorsque vous vous connectez à {{site.data.keyword.cloud_notm}}, votre tableau de bord affiche des widgets qui présentent le statut de votre compte. Si vous souhaitez ajouter ou retirer des widgets, voir [Personnalisation de votre tableau de bord](/docs/overview?topic=overview-custom-dashboard).
 
   * Utilisez le lien **Catalogue** pour créer de nouvelles ressources.
-  * Utilisez le lien **Documentation** pour accéder à des informations utiles concernant {{site.data.keyword.cloud_notm}}.
+  * Utilisez le lien **Docs** pour accéder à la documentation du produit. 
   * Utilisez le lien **Support** pour accéder au centre de support.  
   * Dans le menu **Gérer**, vous pouvez accéder à vos options de compte, de facturation ainsi qu'à celles concernant Identity and Access Management.
   * Cliquez sur l'icône Estimateur de coût ![Icône Estimateur de coût](../icons/Estimator.svg) pour ouvrir cet estimateur.
@@ -55,7 +56,6 @@ Vous pouvez utiliser vos ressources de différentes manières à partir de la li
   * Chaque ressource est affichée sur sa propre ligne avec une icône Actions ![Icône Plus d'actions](../icons/action-menu-icon.svg) en fin de ligne. Cliquez sur l'icône Actions ![Icône Plus d'actions](../icons/action-menu-icon.svg) pour démarrer, arrêter, renommer ou supprimer une ressource.
   * Pour définir des données d'identification ou des connexions pour une ressource, cliquez sur le nom de la ressource afin d'accéder à la page des détails de la ressource. Sélectionnez ensuite **Données d'identification pour le service** ou **Connexions**. Pour plus d'informations, voir [Ajout de données d'identification](/docs/resources?topic=resources-service_credentials) et [Gestion des connexions](/docs/resources?topic=resources-connect_app).
 
-
 ## Utilisation du catalogue
 {: #catalogcreate}
 
@@ -65,3 +65,93 @@ Après avoir cliqué sur la vignette de la ressource que vous voulez créer, vou
 
   * Pour les ressources Cloud Foundry, vous pouvez sélectionner une région spécifique, puis sélectionner l'organisation et l'espace auxquels l'instance de service doit être affectée.
   * Pour les ressources gérées par {{site.data.keyword.cloud_notm}} Identity and Access Management (IAM), vous sélectionnez un emplacement pour le déploiement. Ensuite, vous sélectionnez un groupe de ressources auquel affecter l'instance de service.
+
+## Passage à l'expérience {{site.data.keyword.cloud_notm}}
+{: #redirect-cloud}
+
+Lors de la migration de SoftLayer vers {{site.data.keyword.cloud_notm}}, familiarisez-vous avec la console {{site.data.keyword.cloud_notm}} que vous pouvez utiliser pour gérer vos ressources de plateforme et d'infrastructure. Le processus de liaison de tous les comptes SoftLayer et {{site.data.keyword.cloud_notm}} est en cours. C'est pourquoi, l'accès au compte peut ne pas encore être disponible. Dès que c'est le cas, vous disposez de la nouvelle expérience. 
+
+L'élément précédemment nommé SoftLayer s'appelle désormais l'infrastructure classique {{site.data.keyword.cloud_notm}}.
+{: note}
+
+### Localisation de vos éléments d'infrastructure
+{: #sl-links}
+
+Cliquez sur l'**icône Menu** ![Icône Menu](../icons/icon_hamburger.svg) > **Infrastructure classique** pour trouver rapidement périphériques, stockage, réseau, sécurité et services. 
+
+![Emplacement des éléments d'une infrastructure classique.](images/iaas-items.png "Localisation des éléments de votre infrastructure")
+
+Vous pouvez également consulter vos périphériques et vos éléments de stockage dans la liste de ressources en cliquant sur l'**icône Menu** ![Icône Menu](../icons/icon_hamburger.svg) > **Resource List**.
+{: tip}
+
+### Gestion des utilisateurs, des accès et des clés d'API
+{: #billing-items}
+
+Vous pouvez gérer les utilisateurs dans votre compte, l'accès à l'infrastructure classique pour vos utilisateurs, ainsi que vos clés d'API, à partir de la section Accès (IAM) de la console.  
+
+* Pour inviter de nouveaux utilisateurs, retirer des utilisateurs, ou encore gérer un les paramètres de connexion d'un utilisateur particulier, les restrictions IP, le mot de passe VPN, et bien d'autres options, accédez à **Gérer** > **Access (IAM)**, puis sélectionnez **Utilisateurs**.
+* Pour commencer à gérer l'accès à l'infrastructure classique d'un utilisateur, accédez à **Gérer** > **Access (IAM)**, puis sélectionnez **Utilisateurs**. Pour plus de détails, voir [Gestion de l'accès à l'infrastructure classique](/docs/iam?topic=iam-mngclassicinfra).
+* Pour créer et gérer des clés d'API {{site.data.keyword.cloud_notm}} ou une clé d'API d'infrastructure classique, accédez à **Gérer** > **Access (IAM)**, puis sélectionnez **Clés d'API**. Pour plus d'informations, voir [Gestion des clés d'API](/docs/iam?topic=iam-manapikey).
+
+![Emplacement pour la gestion des éléments IAM.](images/users-access.png "Gestion des utilisateurs, des accès et des clés d'API")
+
+### Passer une commande
+{: #place-order}
+
+Utilisez le catalogue pour passer une commande. Vous pouvez accéder au catalogue de l'une des façons suivantes :
+
+  * Cliquez sur **Catalogue** dans la barre de menus.
+  * Cliquez sur l'icône **Menu ** ![Icône Menu](../icons/icon_hamburger.svg) > **Liste de ressources**. Cliquez ensuite sur **Créer une ressource**.
+
+![Emplacement pour passer une commande.](images/orders.png "Placer une commande")
+
+### Paiement
+{: #payments}
+
+Vous pouvez effectuer un paiement à partir de la section Facturation et utilisation de la console. Accédez à **Gérer** > **Facturation et utilisation** et sélectionnez **Paiements**. 
+
+![Emplacement pour effectuer un paiement.](images/payments.png "Effectuer un paiement")
+
+### Accès à vos factures
+{: #invoices}
+
+Vous pouvez accéder à vos factures à partir de la section Facturation et utilisation de la console. Accédez à **Gérer** > **Facturation et utilisation** et sélectionnez **Factures**.
+
+![Emplacement pour accéder à vos factures.](images/invoices.png "Accès à vos factures")
+
+### Accès à vos articles en vente
+{: #sales}
+
+Vos devis et mises à niveau de périphérique, vos commandes, vos annulations et vos expéditions se trouvent dans la section Facturation et utilisation de la console. Accédez à **Gérer** > **Facturation et utilisation** et sélectionnez **Ventes**. 
+
+![Emplacement pour accéder à vos articles en vente.](images/sales-items.png "Accès à vos articles en vente")
+
+### Accès à vos cas de support
+{: #support-mng}
+
+Pour accéder à vos cas de support en cours, cliquez sur **Support** > **Gérer les cas**. Vous pouvez également accéder à vos cas archivés en cliquant sur **Afficher les cas archivés**.
+
+![Emplacement pour accéder à vos cas de support.](images/support-cases.png "Accès à vos cas de support")
+
+### Envoi de commentaires en retour
+{: #feedback-profile}
+
+Vous pouvez soumettre une critique élogieuse, une suggestion ou tout autre commentaire. Pour nous contacter, choisissez l'une des méthodes suivantes :
+
+  * Cliquez sur le bouton **Commentaires** se trouvant sur le bord de la page de la console. 
+  * Cliquez sur l'**icône Avatar** ![Icône Avatar](../icons/i-avatar-icon.svg) > **Commentaires**. 
+
+![Emplacement pour envoyer des commentaires en retour.](images/feedback.png "Envoi de commentaires en retour")
+
+### Définition des préférences de courrier
+{: #email-prefsl}
+
+Vous pouvez définir vos préférences de réception des courriers relatifs aux notifications de plateforme et d'infrastructure. Cliquez sur l'**icône d'avatar** ![Icône d'avatar](../icons/i-avatar-icon.svg) > **Profil et paramètres**, puis sélectionnez **Notifications**.
+
+![Emplacement pour définir les préférences de courrier](images/email-prefs.png "Définition des préférences de courrier")
+
+### Sélection de votre point d'accès VPN
+{: #vpn-access}
+
+Vous pouvez vous connecter à la console {{site.data.keyword.cloud_notm}} à l'aide d'un point d'accès VPN. Accédez à [Accès VPN](https://www.ibm.com/cloud-computing/bluemix/vpn-access) et sélectionnez un point d'accès dans les listes.
+
