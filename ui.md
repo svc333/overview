@@ -3,7 +3,7 @@
 
 copyright:
   years: 2015, 2019
-lastupdated: "2019-06-25"
+lastupdated: "2019-07-12"
 
 keywords: ui, components, using the console, SoftLayer, classic infrastructure
 
@@ -81,7 +81,7 @@ Click the **Menu icon** ![Menu icon](../icons/icon_hamburger.svg) > **Classic In
 
 ![Location of classic infrastructure items.](images/iaas-items.png "Locating your infrastructure items"){: caption="Figure 1. Location of classic infrastructure items in the {{site.data.keyword.cloud_notm}} console" caption-side="bottom"}
 
-You can also view your devices and storage items on the resource list by clickiing the **Menu icon** ![Menu icon](../icons/icon_hamburger.svg) > **Resource List**.
+You can also find your infrastructure resources by clicking any of the links that are listed in the Classic infrastructure widget on your dashboard. Go to **Menu icon** ![Menu icon](../icons/icon_hamburger.svg) > **Dashboard**.
 {: tip}
 
 ### Managing users, access, and API keys
@@ -104,6 +104,9 @@ Use the catalog to place an order. You can navigate to the catalog in one of the
   * Click the **Menu icon** ![Menu icon](../icons/icon_hamburger.svg) > **Resource List**. Then, click **Create resource**.
 
 ![Location to place an order.](images/orders.png "Placing an order"){: caption="Figure 3. Placing an order in the {{site.data.keyword.cloud_notm}} console" caption-side="bottom"}
+
+If your account includes any discounts, the price of an offering that's displayed on the offering details page reflects the discounted price of that offering.
+{: tip}
 
 ### Making a payment
 {: #payments}
