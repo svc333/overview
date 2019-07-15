@@ -3,7 +3,7 @@
 
 copyright:
   years: 2016, 2019
-lastupdated: "2019-07-02"
+lastupdated: "2019-07-12"
 
 keywords: glossary, IBM Cloud glossary
 
@@ -17,7 +17,7 @@ subcollection: overview
 # Glossary terms for {{site.data.keyword.cloud_notm}} 
 {: #glossary}
 
-This glossary provides terms and definitions for {{site.data.keyword.cloud_notm}}.
+This glossary provides terms and definitions for {{site.data.keyword.cloud}}.
 {:shortdesc}
 
 The following cross-references are used in this glossary:
@@ -47,6 +47,11 @@ A method for granting users, service IDs, and access groups access to account re
 {: #x2113001}
 
 A value used by the consumer to gain access to the protected resources on behalf of the user, instead of using the user’s service provider credentials.
+
+### account group
+{: #x8622525}
+
+An organizational unit for accounts within an enterprise. An account group can contain accounts or other account groups. See also [enterprise](/docs/overview?topic=overview-glossary#x2026915).
 
 ### action
 {: #x2012974}
@@ -128,6 +133,16 @@ An image that has no parent image. See also [image](/docs/overview?topic=overvie
 
 An offering that {{site.data.keyword.IBM_notm}} makes available solely for evaluation and testing purposes.  There are no warranties, SLAs or support provided and beta offerings are not intended for production use.
 
+### billing option
+{: #x6526863}
+
+The method by which a client is billed for cloud service usage. Examples include paying in advance, such as with subscriptions, and payment in arrears, as in Pay-As-You-Go accounts.
+
+### billing unit
+{: #x9308099}
+
+The highest level billing entity within an enterprise. Each account or account group is linked to a billing unit, which manages all associated contracts, invoices, orders, and payments. A billing unit can contain one or more credit pools. See also [credit pool](/docs/overview?topic=overview-glossary#x9796950), [enterprise](/docs/overview?topic=overview-glossary#x2026915).
+
 ### bind
 {: #x2000361}
 
@@ -151,7 +166,7 @@ A template that includes one application and its associated runtime environment 
 ### borderless
 {: #x8439189}
 
-Pertaining to an open, non-proprietary development platform that includes public cloud, dedicated cloud, and local cloud deployment models. See also [dedicated cloud](/docs/overview?topic=overview-glossary#x8439199), [local cloud](/docs/overview?topic=overview-glossary#x8439194), [/docs/overview?topic=overview-glossarypublic cloud](#x4585370).
+Pertaining to an open, non-proprietary development platform that includes public cloud, dedicated cloud, and local cloud deployment models. See also [dedicated cloud](/docs/overview?topic=overview-glossary#x8439199), [local cloud](/docs/overview?topic=overview-glossary#x8439194), [public cloud](/docs/overview?topic=overview-glossary#x4585370). 
 
 ### buildpack
 {: #x7233925}
@@ -221,6 +236,11 @@ A system construct that allows users to simultaneously run separate logical oper
 {: #x2018813}
 
 Information acquired during authentication that describes a user, group associations, or other security-related identity attributes, and that is used to perform services such as authorization, auditing, or delegation. For example, a user ID and password are credentials that allow access to network and system resources.
+
+### credit pool
+{: #x9796950}
+
+Within an enterprise billing unit, a consolidation of credit from all sources, including subscriptions and promotions, that is shared among accounts. See also [billing unit](/docs/overview?topic=overview-glossary#x9308099).
 
 ### CSR
 {: #x2140147}
@@ -304,6 +324,11 @@ The Cloud Foundry component that is responsible for deploying applications.
 {: #x2026820}
 
 The address of an API or service in an environment. An API exposes an endpoint and at the same time invokes the endpoints of other services. See also [route](/docs/overview?topic=overview-glossary#x2037338).
+
+### enterprise
+{: #x2026915}
+
+A hierarchical structure of accounts with centralized account and billing management in a cloud environment. See also [billing unit](/docs/overview?topic=overview-glossary#x9308099).
 
 ### experimental offering
 {: #x9774278}
@@ -622,6 +647,11 @@ A lightweight virtualization technique. While in paravirtualized mode, a virtual
 {: #x8439210}
 
 An image that provides a base for another image. For example, Ubuntu Linux is the parent image of the IBM Liberty image. See also [base image](/docs/overview?topic=overview-glossary#x5366487), [image](/docs/overview?topic=overview-glossary#x2024928).
+
+### payment method
+{: #x2281605}
+
+The method by which a client pays an invoice, such as credit card, check, or wire transfer.
 
 ### platform as a service (PaaS)
 {: #x2029786}
