@@ -4,7 +4,7 @@ copyright:
 
   years: 2018, 2019
 
-lastupdated: "2019-05-13"
+lastupdated: "2019-07-03"
 
 keywords: quick start steps, dev quick start, dev get started
 
@@ -32,7 +32,7 @@ Créez un compte Paiement à la carte ou Abonnement pour obtenir un accès compl
 ## Procédure de démarrage rapide
 {: #steps-dev}
  
-1. [Installez et configurez ](/docs/home/tools)l'interface de ligne de commande (CLI) {{site.data.keyword.Bluemix_notm}}. 
+1. [Installez et configurez](/docs/home/tools) l'interface de ligne de commande (CLI) d'{{site.data.keyword.Bluemix_notm}}. 
 2. Pour commencer à effectuer le codage, procédez comme suit :
     * Accédez à l'icône Menu ![Icône Menu](../icons/icon_hamburger.svg) **> Tableau de bord > Applications**, puis cliquez sur **Créer une application** pour effectuer cette action en utilisant un kit de démarrage vide ou votre propre code.
     * Utilisez un [kit de démarrage](/docs/apps/tutorials?topic=creating-apps-tutorial-starterkit) pour créer une application à partir d'une application personnalisée préconfigurée. 

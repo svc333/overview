@@ -4,7 +4,7 @@ copyright:
 
   years: 2018, 2019
 
-lastupdated: "2019-05-13"
+lastupdated: "2019-07-03"
 
 keywords: quick start steps, dev quick start, dev get started
 
@@ -18,10 +18,10 @@ subcollection: overview
 {:new_window: target="_blank"}
 {:tip: .tip}
 
-# Codificar 
+# Empezar a escribir código 
 {: #quickstart_developer}
 
-Como desarrolladores, queremos que empiece a codificar lo antes posible. Esta guía de inicio rápido está pensada para ayudarle a configurar y crear en {{site.data.keyword.Bluemix}}.  
+Como desarrollador, queremos que empiece a escribir código lo antes posible. Esta guía de inicio rápido está pensada para ayudarle a configurar y crear en {{site.data.keyword.Bluemix}}.  
 {: shortdesc}
 
 ## Antes de empezar
@@ -33,7 +33,7 @@ Cree una cuenta de pago según uso o una cuenta de suscripción para obtener acc
 {: #steps-dev}
  
 1. [Instale y configure](/docs/home/tools) la interfaz de línea de mandatos (CLI) de {{site.data.keyword.Bluemix_notm}}. 
-2. Para empezar a codificar, siga los pasos siguientes:
+2. Para empezar a escribir código, siga los pasos siguientes:
     * Vaya al icono de Menú ![icono Menú](../icons/icon_hamburger.svg), widget **> Panel de control > Apps** y pulse **Crear una app** para crear una app utilizando un kit de inicio vacío o trayendo su propio código.
     * Utilice un [kit de inicio](/docs/apps/tutorials?topic=creating-apps-tutorial-starterkit) para crear una app a partir de una app personalizada preconfigurada. 
     * [Empiece por el lenguaje de programación](/docs/home/build). 

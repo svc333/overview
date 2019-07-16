@@ -137,7 +137,7 @@ A continuación puede desarrollar en esta cadena de herramientas para acomodarla
 ## CLI
 {: cli}
 
-Utilice la interfaz de línea de mandatos (CLI) para codificar, compilar y ejecutar la app localmente. Un patrón habitual es crear la app desde un portal de desarrollador en la consola {{site.data.keyword.cloud_notm}}, utilizar las herramientas de desarrollador para desarrollar localmente y enviar las actualizaciones al repositorio y fusionarlas para empezar su cadena de herramientas de despliegue.
+Utilice la interfaz de línea de mandatos (CLI) para programar, compilar y ejecutar la app localmente. Un patrón habitual es crear la app desde un portal de desarrollador en la consola {{site.data.keyword.cloud_notm}}, utilizar las herramientas de desarrollador para desarrollar localmente y enviar las actualizaciones al repositorio y fusionarlas para empezar su cadena de herramientas de despliegue.
 
 ## Desarrollo del Garage Method
 {: #developer_concepts}

@@ -2,7 +2,7 @@
 
 copyright:
   years: 2018, 2019
-lastupdated: "2019-06-20"
+lastupdated: "2019-07-02"
 
 keywords: cloud environment, virtual server, virtual machine, vm, understanding infrastructure, IaaS model
 
@@ -42,7 +42,7 @@ Avant de passer au cloud, vous utilisiez un environnement intrinsèquement sécu
 
 Il existe trois types de modèles de service de cloud : infrastructure sous forme de services (Infrastructure as a Service), plateforme sous forme de services (PaaS) et logiciel sous forme de services (SaaS). La figure 1 décrit les actions effectuées dans chaque modèle de service. Pour plus d'informations, voir [IaaS, PaaS, and SaaS - IBM Cloud service models](https://www.ibm.com/cloud/learn/iaas-paas-saas){: new_window} ![Icône de lien externe](../icons/launch-glyph.svg "Icône de lien externe").
 
-![Modèles de service de cloud.](images/cloud-svc-models.svg "Diagramme présentant les modèles de service de cloud")
+![Modèles de service de cloud.](images/cloud-svc-models.png "Diagramme présentant les modèles de service de cloud")
 
 Avec le modèle IaaS, votre fournisseur est chargé de gérer l'infrastructure sous-jacente uniquement et éventuellement d'installer des logiciels, tels que les systèmes d'exploitation, les applications et les bases de données. Vous avez un accès limité à l'infrastructure sous-jacente et vous êtes chargé d'installer vos logiciels. Vous pouvez également demander à votre fournisseur de services de les installer. Vous devez également effectuer toutes les autres tâches de maintenance, qui incluent l'installation des modules de mise à jour, des logiciels anti-virus et des correctifs.
 
@@ -99,7 +99,7 @@ Votre serveur constitue la base de votre infrastructure. Vous disposez de diffé
 | [{{site.data.keyword.baremetal_short}}](/docs/bare-metal?topic=bare-metal-about-bm#about-bm)  | Serveurs à service exclusif horaires ou mensuels qui vous sont dédiés et qui ne sont pas partagés (notamment les ressources de serveur) avec d'autres clients. |
 | [{{site.data.keyword.BluVirtServers_short}}](/docs/vsi?topic=virtual-servers-getting-started-tutorial) | Serveurs virtuels évolutifs achetés avec des coeurs et des allocations de mémoire. |
 | [{{site.data.keyword.vmwaresolutions_short}}](/docs/services/vmwaresolutions?topic=vmware-solutions-getting-started#getting-started) | Intègre ou migre rapidement et en toute transparence des charges de travail VMware locales en utilisant une infrastructure évolutive, sécurisée et à hautes performances ainsi que la technologie de virtualisation hybride VMware de pointe. |
-| [{{site.data.keyword.containerlong_notm}}](/docs/containers?topic=containers-container_index) | Associe les conteneurs Docker, la technologie Kubernetes, une expérience utilisateur intuitive ainsi que l'isolement et la sécurité intégrés permettant d'automatiser le déploiement, le fonctionnement, la mise à l'échelle et la surveillance des applications conteneurisées dans un cluster d'hôtes de calcul. |
+| [{{site.data.keyword.containerlong_notm}}](/docs/containers?topic=containers-getting-started) | Associe les conteneurs Docker, la technologie Kubernetes, une expérience utilisateur intuitive ainsi que l'isolement et la sécurité intégrés permettant d'automatiser le déploiement, le fonctionnement, la mise à l'échelle et la surveillance des applications conteneurisées dans un cluster d'hôtes de calcul. |
 | [{{site.data.keyword.cfee_full_notm}}](/docs/cloud-foundry?topic=cloud-foundry-about) | Instancie à la demande plusieurs plateformes Cloud Foundry d'entreprise isolées. |
 | [{{site.data.keyword.openwhisk_short}}](/docs/openwhisk?topic=cloud-functions-getting_started#getting_started) | Plateforme de programmation FaaS (Functions-as-a-Service) basée sur Apache OpenWhisk. |
 {: caption="Tableau 1. Options de calcul" caption-side="top"}
