@@ -3,7 +3,7 @@
 
 copyright:
   years: 2016, 2019
-lastupdated: "2019-07-12"
+lastupdated: "2019-07-16"
 
 keywords: glossary, IBM Cloud glossary
 
@@ -821,6 +821,11 @@ A production-ready offering that is available for sale and accessible to select 
 {: #x2038343}
 
 A cloud extension that provides ready-for-use functionality, such as database, messaging, and web software for running code, or application management or monitoring capabilities. Services usually do not require installation or maintenance and can be combined to create applications.
+
+### service endpoint
+{: #x2871419}
+
+The physical address of a service which implements one or more interfaces.
 
 ### service ID
 {: #x9148163}
