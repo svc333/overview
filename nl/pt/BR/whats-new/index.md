@@ -4,7 +4,7 @@ copyright:
 
   years: 2015, 2019
 
-lastupdated: "2019-06-06"
+lastupdated: "2019-07-02"
 
 keywords: release notes, what's new, what is new, cloud updates
 
@@ -29,6 +29,29 @@ Se você estiver procurando atualizações para os serviços que estão disponí
 
 ## Plataforma {{site.data.keyword.Bluemix_notm}}
 {: #platform_category}
+
+### Gerenciando a federação do SoftLayer SAML no {{site.data.keyword.cloud_notm}}
+{: #saml-federation}
+Novo a partir de: 02 de julho de 2019
+
+Os antigos usuários do SoftLayer que configuram um provedor de identidade SAML para
+efetuar login com IDs federados agora podem gerenciar seus dados de configuração no
+console do {{site.data.keyword.cloud_notm}} no Access (IAM) na página Provedores
+de identidade. Esse tipo de federação foi descontinuado, portanto, novos provedores de
+identidade não podem ser configurados neste momento, mas é possível continuar a atualizar
+os dados do provedor de identidade ou optar por excluir essa federação em favor de
+alternar para [federando
+com o IBMid](/docs/account?topic=account-signup#signup-federated).
+
+### Painel customizado
+{: #custom}
+Novo a partir de: 14 de junho de 2019 
+
+Agora é possível controlar o que é exibido em seu painel. Customizar seu painel
+inclui a capacidade de incluir, remover e reorganizar a ordem de widgets. Para obter mais
+informações, consulte
+[Customizando seu
+painel](/docs/overview?topic=overview-custom-dashboard).
 
 
 ### Exportar dados de uso com tags associadas
@@ -122,7 +145,7 @@ localizar rapidamente os recursos que você criou e esperar que apareçam na pá
 * Também é possível procurar os resultados do catálogo para que você possa localizar rapidamente os recursos
 para incluir em sua conta.  
 
-Consulte [Gerenciar todos os seus recursos de nuvem na Enhanced {{site.data.keyword.Bluemix_notm}} Platform](https://www.ibm.com/blogs/bluemix/2018/11/manage-all-your-cloud-resources-on-the-enhanced-ibm-cloud-platform/){: new_window} ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo") para obter mais detalhes.
+Consulte [Gerenciar todos os seus recursos de nuvem na Enhanced {{site.data.keyword.Bluemix_notm}} Platform](https://www.ibm.com/blogs/cloud-archive/2018/11/manage-all-your-cloud-resources-on-the-enhanced-ibm-cloud-platform/){: new_window} ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo") para obter mais detalhes.
 
 ### Informações de conta unificada, faturamento e perfil do usuário para os serviços de plataforma e infraestrutura
 Novo a partir de: 30 de novembro de 2018

@@ -2,7 +2,7 @@
 
 copyright:
   years: 2018, 2019
-lastupdated: "2019-06-20"
+lastupdated: "2019-07-02"
 
 keywords: cloud environment, virtual server, virtual machine, vm, understanding infrastructure, IaaS model
 
@@ -44,7 +44,7 @@ a sua jornada.
 
 Existem três tipos de modelos de serviço de nuvem: Infraestrutura como Serviço (IaaS), Plataforma como Serviço (PaaS) e Software como Serviço (SaaS). A Figura 1 explica quem faz o que em cada modelo de serviço. Para obter mais informações, consulte [IaaS, PaaS e SaaS - Modelos de serviço do IBM Cloud](https://www.ibm.com/cloud/learn/iaas-paas-saas){: new_window} ![Ícone de link externo](../icons/launch-glyph.svg "Ícone de link externo").
 
-![Modelos de serviço de nuvem.](images/cloud-svc-models.svg "Diagrama que mostra os modelos de serviço de nuvem")
+![Modelos de serviço de nuvem.](images/cloud-svc-models.png "Diagrama que mostra os modelos de serviço de nuvem")
 
 Com o modelo IaaS, o provedor é responsável apenas por manter a infraestrutura subjacente e, opcionalmente,
 instalar softwares, como sistemas operacionais, aplicativos e bancos de dados. Você tem acesso limitado à infraestrutura
@@ -111,7 +111,7 @@ Seu servidor é a base de sua infraestrutura. Há várias opções dependendo de
 | [{{site.data.keyword.baremetal_short}}](/docs/bare-metal?topic=bare-metal-about-bm#about-bm)  | Servidores de locatário único, por hora ou mensais, que são dedicados a você e não compartilhados em nenhuma parte, incluindo os recursos do servidor, com outros clientes. |
 | [{{site.data.keyword.BluVirtServers_short}}](/docs/vsi?topic=virtual-servers-getting-started-tutorial) | Servidores virtuais escaláveis comprados com alocações de memória e núcleos. |
 | [{{site.data.keyword.vmwaresolutions_short}}](/docs/services/vmwaresolutions?topic=vmware-solutions-getting-started#getting-started) | Integração ou migração rápida e contínua das cargas de trabalho do VMware no local usando infraestrutura escalável, segura e de alto desempenho e a tecnologia de virtualização híbrida do VMware líder do mercado. |
-| [{{site.data.keyword.containerlong_notm}}](/docs/containers?topic=containers-container_index) | Combina os contêineres do Docker, a tecnologia do Kubernetes, uma experiência de usuário intuitiva e a segurança e o isolamento integrados para automatizar a implementação, a operação, o ajuste de escala e o monitoramento de apps armazenados em contêiner em um cluster de hosts de cálculo. |
+| [{{site.data.keyword.containerlong_notm}}](/docs/containers?topic=containers-getting-started) | Combina os contêineres do Docker, a tecnologia do Kubernetes, uma experiência de usuário intuitiva e a segurança e o isolamento integrados para automatizar a implementação, a operação, o ajuste de escala e o monitoramento de apps armazenados em contêiner em um cluster de hosts de cálculo. |
 | [{{site.data.keyword.cfee_full_notm}}](/docs/cloud-foundry?topic=cloud-foundry-about) | Instanciação de múltiplas plataformas Cloud Foundry isoladas de classificação corporativa sob demanda. |
 | [{{site.data.keyword.openwhisk_short}}](/docs/openwhisk?topic=cloud-functions-getting_started#getting_started) | Uma plataforma de programação Functions-as-a-Service (FaaS) baseada no Apache OpenWhisk. |
 {: caption="Tabela 1. Opções de cálculo" caption-side="top"}

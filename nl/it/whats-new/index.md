@@ -4,7 +4,7 @@ copyright:
 
   years: 2015, 2019
 
-lastupdated: "2019-06-06"
+lastupdated: "2019-07-02"
 
 keywords: release notes, what's new, what is new, cloud updates
 
@@ -29,6 +29,18 @@ Se stai cercando gli aggiornamenti per i servizi disponibili su {{site.data.keyw
 
 ## Piattaforma {{site.data.keyword.Bluemix_notm}}
 {: #platform_category}
+
+### Gestione della federazione SAML SoftLayer su {{site.data.keyword.cloud_notm}}
+{: #saml-federation}
+Nuovo a partire dal: 02 luglio 2019
+
+Gli ex utenti SoftLayer che impostano un provider di identità SAML per l'accesso con gli ID federati possono ora gestire i loro dati di configurazione nella console {{site.data.keyword.cloud_notm}} in Accesso (IAM) nella pagina Provider di identità. Questo tipo di federazione è stato dichiarato obsoleto, quindi ora non è possibile impostare dei nuovi provider di identità ma puoi continuare ad aggiornare i tuoi dati di provider di identità o scegliere di eliminare questa federazione in favore del passaggio alla [federazione con l'ID IBM](/docs/account?topic=account-signup#signup-federated).
+
+### Dashboard personalizzato
+{: #custom}
+Novità a partire dal: 14 giugno 2019 
+
+Puoi ora controllare cosa viene visualizzato sul tuo dashboard. La personalizzazione del tuo dashboard include la capacità di aggiungere, rimuovere o ridisporre l'ordine dei widget, Per ulteriori informazioni, vedi [Personalizzazione del tuo dashboard](/docs/overview?topic=overview-custom-dashboard).
 
 
 ### Esporta i dati di utilizzo con le tag associate
@@ -106,7 +118,7 @@ Con il nostro ultimo aggiornamento, puoi ora visualizzare tutti i servizi della 
 * Ora che puoi visualizzare tutte le tue risorse in un solo posto, abbiamo aggiunto una ricerca globale in modo che puoi trovare velocemente le risorse che hai creato e che ti aspetti vengano visualizzate sulla pagina dell'elenco di risorse. 
 * Puoi anche ricercare i risultati del catalogo, per cui puoi trovare velocemente le risorse da aggiungere al tuo account.  
 
-Per ulteriori dettagli, vedi [Manage All Your Cloud Resources on the Enhanced {{site.data.keyword.Bluemix_notm}} Platform](https://www.ibm.com/blogs/bluemix/2018/11/manage-all-your-cloud-resources-on-the-enhanced-ibm-cloud-platform/){: new_window} ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno").
+Per ulteriori dettagli, vedi [Manage All Your Cloud Resources on the Enhanced {{site.data.keyword.Bluemix_notm}} Platform](https://www.ibm.com/blogs/cloud-archive/2018/11/manage-all-your-cloud-resources-on-the-enhanced-ibm-cloud-platform/){: new_window} ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno").
 
 ### Informazioni sull'account unificato, la fatturazione e il profilo utente per i servizi della piattaforma e dell'infrastruttura
 Novità a partire dal 30 novembre 2018
@@ -266,7 +278,7 @@ L'account Lite è il nostro nuovo tipo di account che ti dà accesso per provare
 Novità a partire dal 6 ottobre 2017
 {: #app-authfeature}
 
-Identity and Access Management (IAM) offre ora la possibilità di creare un ID servizio, che puoi considerare come un'identità che può essere utilizzata per l'autenticazione delle applicazioni con i tuoi servizi {{site.data.keyword.Bluemix_notm}}. Anziché utilizzare le credenziali dei singoli utenti, è possibile creare un ID servizio con una chiave API associata e le autorizzazioni di accesso sotto forma di una politica di servizio che viene assegnata all'ID servizio per consentirti di controllare il livello di accesso per qualsiasi applicazione che verrà autenticata con quell'ID.
+Identity and Access Management (IAM) offre ora la possibilità di creare un ID servizio, che puoi considerare come un'identità che può essere utilizzata per l'autenticazione delle applicazioni con i tuoi servizi. {{site.data.keyword.Bluemix_notm}}. Anziché utilizzare le credenziali dei singoli utenti, è possibile creare un ID servizio con una chiave API associata e le autorizzazioni di accesso sotto forma di una politica di servizio che viene assegnata all'ID servizio per consentirti di controllare il livello di accesso per qualsiasi applicazione che verrà autenticata con quell'ID.
 
 Per ulteriori informazioni sui vantaggi di questa funzione e su come iniziare, vedi [Introducing IBM Cloud IAM Service IDs and API Keys](https://www.ibm.com/cloud/blog/introducing-ibm-cloud-iam-service-ids-api-keys){: new_window} ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno").
 
