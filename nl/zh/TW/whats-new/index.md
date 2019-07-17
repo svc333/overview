@@ -4,7 +4,7 @@ copyright:
 
   years: 2015, 2019
 
-lastupdated: "2019-06-06"
+lastupdated: "2019-07-02"
 
 keywords: release notes, what's new, what is new, cloud updates
 
@@ -29,6 +29,19 @@ subcollection: overview
 
 ## {{site.data.keyword.Bluemix_notm}} 平台
 {: #platform_category}
+
+### 在 {{site.data.keyword.cloud_notm}} 上管理 SoftLayer SAML 聯合
+{: #saml-federation}
+文件日期：2019 年 7 月 2 日
+
+設定 SAML 身分提供者以便用聯合 ID 登入的先前 SoftLayer 使用者，現在可以在 {{site.data.keyword.cloud_notm}} 主控台「身分提供者」頁面上的「存取權 (IAM)」，管理他們的配置資料。此類型的聯合已淘汰，因此目前無法設定新的身分提供者，但您可以繼續更新身分提供者資料，或選擇刪除此聯合，以切換成[使用 IBM ID 進行聯合](/docs/account?topic=account-signup#signup-federated)。
+
+### 自訂儀表板
+{: #custom}
+文件日期：2019 年 6 月 14 日
+ 
+
+您現在可以控制顯示在儀表板上的內容。自訂儀表板包括新增、移除及重新排列小組件順序的能力。如需相關資訊，請參閱[自訂儀表板](/docs/overview?topic=overview-custom-dashboard)。
 
 
 ### 匯出具有相關聯標籤的用量資料
@@ -106,7 +119,7 @@ Cloud Foundry 應用程式的子網域為 `cf.appdomain.cloud`。您部署至 {{
 * 現在，您可以在同一位置看到所有資源，我們已新增廣域搜尋，讓您可以快速尋找所建立的資源，並預期它們會出現在「資源」清單頁面上。 
 * 您也可以搜尋型錄結果，以快速尋找要新增至帳戶的資源。  
 
-如需詳細資料，請參閱 [Manage All Your Cloud Resources on the Enhanced {{site.data.keyword.Bluemix_notm}} Platform](https://www.ibm.com/blogs/bluemix/2018/11/manage-all-your-cloud-resources-on-the-enhanced-ibm-cloud-platform/){: new_window} ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")。
+如需詳細資料，請參閱 [Manage All Your Cloud Resources on the Enhanced {{site.data.keyword.Bluemix_notm}} Platform](https://www.ibm.com/blogs/cloud-archive/2018/11/manage-all-your-cloud-resources-on-the-enhanced-ibm-cloud-platform/){: new_window} ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")。
 
 ### 平台與基礎架構服務的統一帳戶、計費和使用者設定檔資訊
 文件日期：2018 年 11 月 30 日

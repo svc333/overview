@@ -4,7 +4,7 @@ copyright:
 
   years: 2015, 2019
 
-lastupdated: "2019-06-06"
+lastupdated: "2019-07-02"
 
 keywords: release notes, what's new, what is new, cloud updates
 
@@ -29,6 +29,18 @@ subcollection: overview
 
 ## {{site.data.keyword.Bluemix_notm}} プラットフォーム
 {: #platform_category}
+
+### {{site.data.keyword.cloud_notm}} での SoftLayer SAML 連携の管理
+{: #saml-federation}
+最新情報: 2019 年 7 月 2 日
+
+フェデレーテッド ID を使用したログインのために SAML ID プロバイダーをセットアップしていた、以前の SoftLayer ユーザーは、構成データを {{site.data.keyword.cloud_notm}} コンソールの「ID プロバイダー」ページの「アクセス (IAM)」で管理できるようになりました。このタイプの連携は非推奨であるため、現時点では ID プロバイダーを新しくセットアップすることはできませんが、ID プロバイダーのデータを更新することは引き続き可能です。あるいは、[IBMid との統合](/docs/account?topic=account-signup#signup-federated)に切り替えることを選択して、この連携を削除することもできます。
+
+### カスタム・ダッシュボード
+{: #custom}
+最新情報: 2019 年 6 月 14 日 
+
+ダッシュボードに表示される内容を制御できるようになりました。ダッシュボードのカスタマイズで、ウィジェットの追加、削除、並べ替えを行うことができます。詳しくは、[ダッシュボードのカスタマイズ](/docs/overview?topic=overview-custom-dashboard)を参照してください。
 
 
 ### 関連タグを用いた使用量データのエクスポート
@@ -106,7 +118,7 @@ Cloud Foundry アプリのサブドメインは `cf.appdomain.cloud` です。 {
 * すべてのリソースを 1 つの場所に表示できるようになったので、作成したリソースを素早く見つけてそれらを「リソース・リスト」ページに表示できるように、グローバル検索を追加しました。 
 * カタログ結果を検索して、アカウントに追加するリソースを素早く見つけることもできます。  
 
-詳しくは、[Manage All Your Cloud Resources on the Enhanced {{site.data.keyword.Bluemix_notm}} Platform](https://www.ibm.com/blogs/bluemix/2018/11/manage-all-your-cloud-resources-on-the-enhanced-ibm-cloud-platform/){: new_window} ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン") を参照してください。
+詳しくは、[Manage All Your Cloud Resources on the Enhanced {{site.data.keyword.Bluemix_notm}} Platform](https://www.ibm.com/blogs/cloud-archive/2018/11/manage-all-your-cloud-resources-on-the-enhanced-ibm-cloud-platform/){: new_window} ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン") を参照してください。
 
 ### プラットフォームおよびインフラストラクチャーのサービスの統合アカウント、請求、およびユーザー・プロファイルの情報
 最新情報: 2018 年 11 月 30 日
@@ -222,7 +234,7 @@ Cloud Foundry アプリのサブドメインは `cf.appdomain.cloud` です。 {
 最新情報: 2017 年 11 月 28 日
 {: #nosupport-tls}
 
-{{site.data.keyword.Bluemix_notm}} は、2018 年 3 月 1 日付けで弊社のクラウド製品ならびにサービスの多くで TLS 1.0 および TLS 1.1 のサポートを終了します。これは、徹底してセキュアなクラウドを提供するための IBM の取り組みの一貫であり、セキュリティーおよびデータ・プライバシーに関する業界のベスト・プラクティスと歩調を合わせるためでもあります。  
+{{site.data.keyword.Bluemix_notm}} は、2018 年 3 月 1 日付けで弊社のクラウド製品ならびにサービスの多くで TLS 1.0 および TLS 1.1 のサポートを終了します。これは、徹底してセキュアなクラウドを提供するための IBM の取り組みの一貫であり、セキュリティーおよびデータ・プライバシーに関する業界のベスト・プラクティスと歩調を合わせるためでもあります。 
 
 ### アカウント内でリソースを編成する新しい方法
 最新情報: 2017 年 11 月 16 日

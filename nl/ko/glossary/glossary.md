@@ -3,7 +3,7 @@
 
 copyright:
   years: 2016, 2019
-lastupdated: "2019-05-28"
+lastupdated: "2019-07-02"
 
 keywords: glossary, IBM Cloud glossary
 
@@ -25,70 +25,34 @@ subcollection: overview
 - *참조하십시오*는 선호하지 않는 용어에서 선호하는 용어까지 또는 약어에서 상세한 설명이 있는 양식까지 포괄합니다.
 - *도 참조하십시오*는 관련되거나 대조적인 용어를 포괄합니다.
 
-<!--If you do not want letter links at the top of your 
-glossary, delete the text between these comment tags.
-[가](#glossD1)
-[나](#glossD2)
-[다](#glossD3)
-[라](#glossD4)
-[마](#glossD5)
-[바](#glossD6)
-[사](#glossD7)
-[아](#glossD8)
-[자](#glossD9)
-[카](#glossD10)
-[타](#glossD11)
-[파](#glossD12)
-[하](#glossD13)
-[A](#glossa)
-[B](#glossb)
-[C](#glossc)
-[D](#glossd)
-[G](#glossg)
-[H](#glossh)
-[I](#glossi)
-[J](#glossj)
-[L](#glossl)
-[M](#glossm)
-[N](#glossn)
-[O](#glosso)
-[P](#glossp)
-[R](#glossr)
-[S](#glosss)
-[U](#glossu)
-[V](#glossv)
-[W](#glossw)
-
--->
-
 ## 가
 {: #glossD1}
 
 ### 가상 근거리 통신망(VLAN, virtual local area network)
 {: #x2438470}
 
-MAC(Medium Access Control) 주소, 프로토콜, 네트워크 주소 또는 멀티캐스트 주소와 같은 규칙 또는 기준 세트를 기반으로 하는 스위치 포트의 논리적 연관입니다. 이 개념은 LAN을 실제로 재배열할 필요 없이 다시 세그먼트화할 수 있게 해 줍니다. 
+MAC(Medium Access Control) 주소, 프로토콜, 네트워크 주소 또는 멀티캐스트 주소와 같은 규칙 또는 기준 세트를 기반으로 하는 스위치 포트의 논리적 연관입니다. 이 개념은 LAN을 실제로 재배열할 필요 없이 다시 세그먼트화할 수 있게 해 줍니다.
 
 ### 가상 머신(VM, virtual machine)
 {: #x2043165}
 
-실제 시스템처럼 프로그램을 실행하는 시스템의 소프트웨어 구현입니다.  [가상 서버(virtual server)](#x2455638)도 참조하십시오.
+실제 시스템처럼 프로그램을 실행하는 시스템의 소프트웨어 구현입니다.  [가상 서버(virtual server)](/docs/overview?topic=overview-glossary#x2455638)도 참조하십시오.
 
 ### 가상 사설망(VPN, virtual private network)
 {: #x2043188}
 
-두 엔드포인트 간의 개인용 연결입니다(데이터가 공용 네트워크를 통해 전송되는 경우 포함).
-데이터는 사설 네트워크와의 연결이 설정된 것처럼 공유할 수 있습니다. 일반적으로 VPN은 최대한의 데이터 보안 및 개인정보 보호를 제공하기 위해 인증 및 암호화와 같은 보안 방법과 함께 사용됩니다. 
+두 엔드포인트 간의 개인용 연결입니다(데이터가 공용 네트워크를 통해 전송되는 경우 포함). 
+데이터는 사설 네트워크와의 연결이 설정된 것처럼 공유할 수 있습니다. 일반적으로 VPN은 최대한의 데이터 보안 및 개인정보 보호를 제공하기 위해 인증 및 암호화와 같은 보안 방법과 함께 사용됩니다.
 
 ### 가상 서버(virtual server)
 {: #x2455638}
 
-애플리케이션을 지원하기 위해 다른 서버와 해당 리소스를 공유하는 서버입니다. [가상 머신(virtual machine)](#x2043165)도 참조하십시오.
+애플리케이션을 지원하기 위해 다른 서버와 해당 리소스를 공유하는 서버입니다. [가상 머신(virtual machine)](/docs/overview?topic=overview-glossary#x2043165)도 참조하십시오.
 
 ### 가상 프라이빗 클라우드(virtual private cloud)
 {: #x4585403}
 
-특정 개인용 사용자 계정에 연결되어 있으며 퍼블릭 클라우드의 다른 네트워크로부터 격리된 가상 네트워크입니다. 권한 부여된 사용자만 가상 서버, 스토리지 및 서브넷과 같은 가상 클라우드 리소스에 액세스할 수 있습니다. 
+특정 개인용 사용자 계정에 연결되어 있으며 퍼블릭 클라우드의 다른 네트워크로부터 격리된 가상 네트워크입니다. 권한 부여된 사용자만 가상 서버, 스토리지 및 서브넷과 같은 가상 클라우드 리소스에 액세스할 수 있습니다.
 
 ### 가상(virtual)
 {: #x2043123}
@@ -98,7 +62,7 @@ MAC(Medium Access Control) 주소, 프로토콜, 네트워크 주소 또는 멀�
 ### 가용성 구역(availability zone)
 {: #x7018171}
 
-IBM Containers가 실행되는 지역 내의 위치입니다.
+{{site.data.keyword.containerlong}}가 실행되는 지역 내의 위치입니다.
 
 
 ### 개인 서비스(private service)
@@ -114,27 +78,27 @@ IBM Containers가 실행되는 지역 내의 위치입니다.
 ### 개인용 리소스(private resource)
 {: #x9439035}
 
-계정 소유자 및 포함된 계정만 볼 수 있는 항목입니다. 리소스는 기본적으로 개인용으로 작성됩니다. [공용 리소스(public resource)](#x9439040)도 참조하십시오.
+계정 소유자 및 포함된 계정만 볼 수 있는 항목입니다. 리소스는 기본적으로 개인용으로 작성됩니다. [공용 리소스(public resource)](/docs/overview?topic=overview-glossary#x9439040)도 참조하십시오.
 
 ### 개인용 이미지 저장소(private image repository)
 {: #x8439215}
 
-조직의 IBM Cloud 레지스트리와 네임스페이스의 조합입니다. 개인용 이미지 저장소는 명령에서 이미지를 참조할 때 사용됩니다. [이미지(image)](#x2024928), [네임스페이스(namespace)](#x2031005)도 참조하십시오.
+조직의 IBM Cloud 레지스트리와 네임스페이스의 조합입니다. 개인용 이미지 저장소는 명령에서 이미지를 참조할 때 사용됩니다. [이미지(image)](/docs/overview?topic=overview-glossary#x2024928), [네임스페이스(namespace)](/docs/overview?topic=overview-glossary#x2031005)도 참조하십시오.
 
 ### 계층(layer)
 {: #x2028320}
 
-상위 이미지의 변경된 버전입니다. 이미지는 계층으로 구성되어 있고, 상위 이미지 위에 변경된 버전이 계층적으로 있어 새 이미지를 생성합니다. [컨테이너(container)](#x2010901), [이미지(image)](#x2024928)도 참조하십시오.
+상위 이미지의 변경된 버전입니다. 이미지는 계층으로 구성되어 있고, 상위 이미지 위에 변경된 버전이 계층적으로 있어 새 이미지를 생성합니다. [컨테이너(container)](/docs/overview?topic=overview-glossary#x2010901), [이미지(image)](/docs/overview?topic=overview-glossary#x2024928)도 참조하십시오.
 
 ### 공용 리소스(public resource)
 {: #x9439040}
 
-IBM Cloud 카탈로그의 모든 사용자가 볼 수 있는 항목입니다. 공용 리소스는 임의 제공자(IBM 또는 서드파티 제공자)가 빌드할 수 있습니다. [개인용 리소스(private resource)](#x9439035)도 참조하십시오.
+IBM Cloud 카탈로그의 모든 사용자가 볼 수 있는 항목입니다. 공용 리소스는 임의 제공자(IBM 또는 서드파티 제공자)가 빌드할 수 있습니다. [개인용 리소스(private resource)](/docs/overview?topic=overview-glossary#x9439035)도 참조하십시오.
 
 ### 구역(zone)
 {: #x2070723}
 
-독립 결함 도메인입니다. 구역은 내결함성을 개선하고 대기 시간을 감소시키는 데 도움이 되도록 디자인된 추상입니다. [다중 구역 지역(MZR, multizone region)](#x9774820), [단일 구역 지역(SZR, single-zone region)](#x9774825)도 참조하십시오. 
+독립 결함 도메인입니다. 구역은 내결함성을 개선하고 대기 시간을 감소시키는 데 도움이 되도록 디자인된 추상입니다. [다중 구역 지역(MZR, multizone region)](/docs/overview?topic=overview-glossary#x9774820), [단일 구역 지역(SZR, single-zone region)](/docs/overview?topic=overview-glossary#x9774825)도 참조하십시오.
 
 ### 권한 부여(AuthZ, authorization)
 {: #x2014653}
@@ -150,7 +114,7 @@ IBM Cloud 카탈로그의 모든 사용자가 볼 수 있는 항목입니다. �
 ### 기본 이미지(base image)
 {: #x5366487}
 
-상위 이미지가 없는 이미지입니다. [이미지(image)](#x2024928), [상위 이미지(parent image)](#x8439210)도 참조하십시오.
+상위 이미지가 없는 이미지입니다. [이미지(image)](/docs/overview?topic=overview-glossary#x2024928), [상위 이미지(parent image)](/docs/overview?topic=overview-glossary#x8439210)도 참조하십시오.
 
 ## 나
 {: #glossD2}
@@ -158,7 +122,7 @@ IBM Cloud 카탈로그의 모든 사용자가 볼 수 있는 항목입니다. �
 ### 네임스페이스(namespace)
 {: #x2031005}
 
-IBM Cloud 레지스트리 내에서 조직의 이미지 저장소를 식별하는 고유 이름입니다. [이미지(image)](#x2024928), [개인용 이미지 저장소(private image repository)](#x8439215)도 참조하십시오.
+IBM Cloud 레지스트리 내에서 조직의 이미지 저장소를 식별하는 고유 이름입니다. [이미지(image)](/docs/overview?topic=overview-glossary#x2024928), [개인용 이미지 저장소(private image repository)](/docs/overview?topic=overview-glossary#x8439215)도 참조하십시오.
 
 ## 다
 {: #glossD3}
@@ -166,12 +130,17 @@ IBM Cloud 레지스트리 내에서 조직의 이미지 저장소를 식별하�
 ### 다중 구역 지역(MZR, multizone region)
 {: #x9774820}
 
-결함 허용 능력을 향상시키기 위해 여러 구역의 데이터 센터 전체로 구성되는 지역입니다. [구역(zone)](#x2070723)도 참조하십시오.
+결함 허용 능력을 향상시키기 위해 여러 구역의 데이터 센터 전체로 구성되는 지역입니다. [구역(zone)](/docs/overview?topic=overview-glossary#x2070723)도 참조하십시오.
 
 ### 단일 구역 지역(SZR, single-zone region)
 {: #x9774825}
 
-하나의 구역에 있는 데이터 센터로 구성된 지역입니다. [구역(zone)](#x2070723)도 참조하십시오. 
+하나의 구역에 있는 데이터 센터로 구성된 지역입니다. [구역(zone)](/docs/overview?topic=overview-glossary#x2070723)도 참조하십시오.
+
+### 대상(target)
+{: #x2262507}
+
+액세스 정책에 주체 액세스를 제공하는 리소스 또는 리소스 세트입니다. 리소스 세트는 하나 이상의 속성으로 정의됩니다. 예를 들어, 대상은 리소스 그룹의 모든 리소스, 특정 리소스 유형의 모든 리소스 또는 특정 리소스 ID의 리소스입니다.
 
 ### 대시보드(dashboard)
 {: #x2363941}
@@ -181,7 +150,7 @@ IBM Cloud 레지스트리 내에서 조직의 이미지 저장소를 식별하�
 ### 데디케이티드 클라우드(dedicated cloud)
 {: #x8439199}
 
-인프라에 싱글 테넌트 하드웨어를 제공하는 프라이빗 클라우드 컴퓨팅 환경입니다. [보더리스(borderless)](#x8439189)도 참조하십시오.
+인프라에 싱글 테넌트 하드웨어를 제공하는 프라이빗 클라우드 컴퓨팅 환경입니다. [보더리스(borderless)](/docs/overview?topic=overview-glossary#x8439189)도 참조하십시오.
 
 ### 데이터 센터(DC, data center)
 {: #x2439906}
@@ -196,7 +165,7 @@ IBM Cloud 레지스트리 내에서 조직의 이미지 저장소를 식별하�
 ### 도메인(domain)
 {: #x2021210}
 
-라우트를 지정하는 이름 지정 계층 구조의 일부입니다 (예: example.com). IBM Cloud에서 도메인은 조직과 연관됩니다. 도메인 오브젝트는 앱에 직접적으로 바인딩되지 않습니다. [사용자 정의 도메인(custom domain)](#x5728384), [호스트(host)](#x2002243), [조직(organization)](#x2032585), [라우트(route)](#x2037338), [하위 도메인(subdomain)](#x2040080), [URL(Uniform Resource Locator)](#x2042491)도 참조하십시오.
+라우트를 지정하는 이름 지정 계층 구조의 일부입니다 (예: example.com). {{site.data.keyword.cloud_notm}}에서 도메인은 조직과 연관됩니다. 도메인 오브젝트는 앱에 직접적으로 바인딩되지 않습니다. [사용자 정의 도메인(custom domain)](/docs/overview?topic=overview-glossary#x5728384), [호스트(host)](/docs/overview?topic=overview-glossary#x2002243), [조직(organization)](/docs/overview?topic=overview-glossary#x2032585), [라우트(route)](/docs/overview?topic=overview-glossary#x2037338), [하위 도메인(subdomain)](/docs/overview?topic=overview-glossary#x2040080), [URL(Uniform Resource Locator)](/docs/overview?topic=overview-glossary#x2042491)도 참조하십시오.
 
 ### 드롭릿(droplet)
 {: #x7470343}
@@ -214,24 +183,22 @@ IBM Cloud 레지스트리 내에서 조직의 이미지 저장소를 식별하�
 ### 라우트(route)
 {: #x2037338}
 
-애플리케이션으로 요청을 전달하는 데 사용되는 URL입니다. 라우트는 애플리케이션을 푸시할 때 지정되는 선택적 호스트(또는 하위 도메인)와 도메인으로 구성됩니다. 예를 들어, myapp.example.com 라우트에서 myapp은 호스트이고 example.com은 도메인입니다. 라우트는 하나 이상의 애플리케이션과 연관될 수 있습니다. 사용자 정의 도메인이 지정되지 않은 경우 IBM Cloud는 애플리케이션의 라우트에 기본 공유 도메인을 사용합니다. [사용자 정의 도메인(custom domain)](#x5728384), [도메인(domain)](#x2021210), [엔드포인트(endpoint)](#x2026820), [호스트(host)](#x2002243), [하위 도메인(subdomain)](#x2040080), [URL(Uniform Resource Locator)](#x2042491)도 참조하십시오.
+애플리케이션으로 요청을 전달하는 데 사용되는 URL입니다. 라우트는 애플리케이션을 푸시할 때 지정되는 선택적 호스트(또는 하위 도메인)와 도메인으로 구성됩니다. 예를 들어, myapp.example.com 라우트에서 myapp은 호스트이고 example.com은 도메인입니다. 라우트는 하나 이상의 애플리케이션과 연관될 수 있습니다. 사용자 정의 도메인이 지정되지 않은 경우 IBM Cloud는 애플리케이션의 라우트에 기본 공유 도메인을 사용합니다. [사용자 정의 도메인(custom domain)](/docs/overview?topic=overview-glossary#x5728384), [도메인(domain)](/docs/overview?topic=overview-glossary#x2021210), [엔드포인트(endpoint)](/docs/overview?topic=overview-glossary#x2026820), [호스트(host)](/docs/overview?topic=overview-glossary#x2002243), [하위 도메인(subdomain)](/docs/overview?topic=overview-glossary#x2040080), [URL(Uniform Resource Locator)](/docs/overview?topic=overview-glossary#x2042491)도 참조하십시오.
 
 ### 런타임(runtime)
 {: #x2391929}
 
-애플리케이션을 실행하는 데 사용되는 리소스 세트입니다. [스타터(starter)](#x7470511)도 참조하십시오.
-
+애플리케이션을 실행하는 데 사용되는 리소스 세트입니다. [스타터(starter)](/docs/overview?topic=overview-glossary#x7470511)도 참조하십시오.
 
 ### 레지스트리(registry)
 {: #x2064940}
 
-컨테이너를 작성하는 데 사용되는 이미지를 포함하는 공용 또는 개인용 저장소입니다. [컨테이너(container)](#x2010901), [이미지(image)](#x2024928)도 참조하십시오.
+컨테이너를 작성하는 데 사용되는 이미지를 포함하는 공용 또는 개인용 저장소입니다. [컨테이너(container)](/docs/overview?topic=overview-glossary#x2010901), [이미지(image)](/docs/overview?topic=overview-glossary#x2024928)도 참조하십시오.
 
 ### 로컬 클라우드(local cloud)
 {: #x8439194}
 
-클라이언트의 데이터 센터 내에 있는 클라우드 컴퓨팅 환경입니다. 로컬 클라우드는 온프레미스이며 대기 시간과 보안이 향상됩니다. [보더리스(borderless)](#x8439189)도 참조하십시오.
-
+클라이언트의 데이터 센터 내에 있는 클라우드 컴퓨팅 환경입니다. 로컬 클라우드는 온프레미스이며 대기 시간과 보안이 향상됩니다. [보더리스(borderless)](/docs/overview?topic=overview-glossary#x8439189)도 참조하십시오.
 
 ### 리소스 그룹(resource group)
 {: #x2161955}
@@ -254,12 +221,12 @@ IBM Cloud 레지스트리 내에서 조직의 이미지 저장소를 식별하�
 ### 모바일 애플리케이션(mobile app, mobile application)
 {: #x4258535}
 
-모바일 플랫폼을 위해 디자인된 애플리케이션입니다. 웹 애플리케이션과 유사하게 모바일 애플리케이션은 정보를 정적으로 표시하는 것 이상의 몇 가지 기능을 제공합니다. 예를 들어, 사용자가 거의 실시간으로 뉴스를 필터링할 수 있습니다. [앱(app)](#x4281528)도 참조하십시오.
+모바일 플랫폼을 위해 디자인된 애플리케이션입니다. 웹 애플리케이션과 유사하게 모바일 애플리케이션은 정보를 정적으로 표시하는 것 이상의 몇 가지 기능을 제공합니다. 예를 들어, 사용자가 거의 실시간으로 뉴스를 필터링할 수 있습니다. [앱(app)](/docs/overview?topic=overview-glossary#x4281528)도 참조하십시오.
 
 ### 모바일 앱(mobile app)
 {: #x7636517}
 
-[모바일 애플리케이션(mobile application)](#x4258535)을 참조하십시오.
+[모바일 애플리케이션(mobile application)](/docs/overview?topic=overview-glossary#x4258535)을 참조하십시오.
 
 ### 모바일 클라우드(mobile cloud)
 {: #x4585344}
@@ -282,7 +249,7 @@ IBM Cloud 레지스트리 내에서 조직의 이미지 저장소를 식별하�
 ### 배치(deployment)
 {: #x2104544}
 
-빌드의 출력을 검색하고, 구성 특성으로 출력을 패키지하며, 테스트 또는 실행이 가능하도록 사전 정의된 위치에 패키지를 설치하는 프로세스입니다. [스테이징(stage)](#x2067189)도 참조하십시오.
+빌드의 출력을 검색하고, 구성 특성으로 출력을 패키지하며, 테스트 또는 실행이 가능하도록 사전 정의된 위치에 패키지를 설치하는 프로세스입니다. [스테이징(stage)](/docs/overview?topic=overview-glossary#x2067189)도 참조하십시오.
 
 ### 범위(scope)
 {: #x2037763}
@@ -292,53 +259,46 @@ ID 관리에서 정책 또는 액세스 제어 항목(ACI)이 영향을 미칠 �
 ### 베타 오퍼링(beta offering)
 {: #x9774283}
 
-IBM에서 평가 및 테스트만을 위해 제공하는 오퍼링입니다. 이 오퍼링에는 보증, SLA 또는 지원이 제공되지 않으며, 이는 프로덕션용이 아닙니다. 
+{{site.data.keyword.IBM_notm}}에서 평가 및 테스트만을 위해 제공하는 오퍼링입니다. 이 오퍼링에는 보증, SLA 또는 지원이 제공되지 않으며, 이는 프로덕션용이 아닙니다.
 
 ### 보더리스(borderless)
 {: #x8439189}
 
-퍼블릭 클라우드, 데디케이티드 클라우드, 로컬 클라우드 배치 방법을 포함하는 비독점 오픈 개발 플랫폼과 관련이 있습니다. [데디케이티드 클라우드(dedicated cloud)](#x8439199), [로컬 클라우드(local cloud)](#x8439194), [퍼블릭 클라우드(public cloud)](#x4585370)도 참조하십시오.
+퍼블릭 클라우드, 데디케이티드 클라우드, 로컬 클라우드 배치 방법을 포함하는 비독점 오픈 개발 플랫폼과 관련이 있습니다. [데디케이티드 클라우드(dedicated cloud)](/docs/overview?topic=overview-glossary#x8439199), [로컬 클라우드(local cloud)](/docs/overview?topic=overview-glossary#x8439194), [/docs/overview?topic=overview-glossarypublic cloud](#x4585370)도 참조하십시오.
 
 ### 볼륨(volume)
 {: #x2043272}
 
-데이터 스토리지 미디어에 있는 실제 또는 가상 스토리지의 고정된 양입니다. 
+데이터 스토리지 미디어에 있는 실제 또는 가상 스토리지의 고정된 양입니다.
 
 ### 비유사성(anti-affinity)
 {: #x8888040}
 
-앱의 고가용성을 보장하기 위해 서로 다른 네트워크 노드에서 실행되는 둘 이상의 컨테이너 그룹 인스턴스입니다. [유사성(affinity)](#x2149238)도 참조하십시오.
+앱의 고가용성을 보장하기 위해 서로 다른 네트워크 노드에서 실행되는 둘 이상의 컨테이너 그룹 인스턴스입니다. [유사성(affinity)](/docs/overview?topic=overview-glossary#x2149238)도 참조하십시오.
 
 ### 빌드팩(buildpack)
 {: #x7233925}
 
 IBM Cloud에서 실행할 코드를 준비하는 스크립트의 콜렉션입니다. 빌드팩은 배치된 애플리케이션을 검사한 다음 종속 애플리케이션을 다운로드하고 구성합니다.
 
-
 ## 사
 {: #glossD7}
-
-### 사용자 계층(user hierarchy)
-{: #userhierarchy}
-
-다른 사용자를 계정에 초대하는 클래식 인프라 사용자에 대한 사용자 관리 관계입니다. 그런 다음 해당 사용자가 다른 사용자를 계정에 초대하는 방식으로 진행됩니다. 클래식 인프라 사용자가 다른 사용자를 계정에 초대하면 클래식 인프라 사용자가 상위 사용자가 됩니다. 상위 사용자의 하위 사용자가 다른 사용자를 계정에 초대하면 해당 사용자가 원래 상위 사용자(이제 최상위 사용자로 간주됨)의 최하위 사용자가 됩니다.
-
 
 ### 사용자 정의 도메인(custom domain)
 {: #x5728384}
 
-사용자가 요청을 애플리케이션으로 전달하기 위해 선택한 URL의 사용자 정의된 부분입니다. 사용자 정의 도메인은 라우트의 일부를 구성합니다. 사용자 정의 도메인은 공유 도메인, 공유 하위 도메인 또는 공유 도메인 및 호스트가 될 수 있습니다. [도메인(domain)](#x2021210), [호스트(host)](#x2002243), [라우트(route)](#x2037338), [하위 도메인(subdomain)](#x2040080), [URL(Uniform Resource Locator)](#x2042491)도 참조하십시오.
+사용자가 요청을 애플리케이션으로 전달하기 위해 선택한 URL의 사용자 정의된 부분입니다. 사용자 정의 도메인은 라우트의 일부를 구성합니다. 사용자 정의 도메인은 공유 도메인, 공유 하위 도메인 또는 공유 도메인 및 호스트가 될 수 있습니다. [도메인(domain)](/docs/overview?topic=overview-glossary#x2021210), [호스트(host)](/docs/overview?topic=overview-glossary#x2002243), [라우트(route)](/docs/overview?topic=overview-glossary#x2037338), [하위 도메인(subdomain)](/docs/overview?topic=overview-glossary#x2040080), [URL(Uniform Resource Locator)](/docs/overview?topic=overview-glossary#x2042491)도 참조하십시오.
 
 
 ### 상위 이미지(parent image)
 {: #x8439210}
 
-다른 이미지의 기반이 되는 이미지입니다. 예를 들어, Ubuntu Linux는 IBM Liberty 이미지의 상위 이미지입니다. [기본 이미지(base image)](#x5366487), [이미지(image)](#x2024928)도 참조하십시오.
+다른 이미지의 기반이 되는 이미지입니다. 예를 들어, Ubuntu Linux는 IBM Liberty 이미지의 상위 이미지입니다. [기본 이미지(base image)](/docs/overview?topic=overview-glossary#x5366487), [이미지(image)](/docs/overview?topic=overview-glossary#x2024928)도 참조하십시오.
 
 ### 상호접속 위치(PoP, point of presence)
 {: #x5458832}
 
-네트워크 클라우드의 서버 및 라우터가 저장되는 실제 위치입니다. 
+네트워크 클라우드의 서버 및 라우터가 저장되는 실제 위치입니다.
 
 ### 서드파티(third-party)
 {: #x2877945}
@@ -353,7 +313,12 @@ IBM이 아닌 다른 회사에서 제공하는 제품 또는 서비스와 관련
 ### 서브넷(subnet)
 {: #x4282974}
 
-[서브네트워크(subnetwork)](#x2040149)를 참조하십시오.
+[서브네트워크(subnetwork)](/docs/overview?topic=overview-glossary#x2040149)를 참조하십시오.
+
+### 서비스 ID(service ID)
+{: #x9148163}
+
+클라우드 환경 및 기타 서비스에 대해 서비스 또는 애플리케이션을 인증하는 ID입니다. 서비스 ID는 액세스 정책에 지정되고 클라우드 서비스에 대한 클라우드 환경 액세스에 배치된 애플리케이션을 사용으로 설정하는 데 사용될 수 있습니다.
 
 ### 서비스(sevice)
 {: #x2038343}
@@ -373,7 +338,7 @@ IBM이 아닌 다른 회사에서 제공하는 제품 또는 서비스와 관련
 ### 스타터(starter)
 {: #x7470511}
 
-특정 빌드팩으로 구성된 미리 정의된 서비스와 애플리케이션 코드를 포함하는 템플리트입니다.스타터는 특정 프로그래밍 언어로 작성된 애플리케이션 코드 또는 애플리케이션 코드와 일련의 서비스의 조합일 수 있습니다. [런타임(runtime)](#x2391929)도 참조하십시오.
+특정 빌드팩으로 구성된 미리 정의된 서비스와 애플리케이션 코드를 포함하는 템플리트입니다.스타터는 특정 프로그래밍 언어로 작성된 애플리케이션 코드 또는 애플리케이션 코드와 일련의 서비스의 조합일 수 있습니다. [런타임(runtime)](/docs/overview?topic=overview-glossary#x2391929)도 참조하십시오.
 
 ### 스탠자(stanza)
 {: #x2094743}
@@ -383,18 +348,17 @@ IBM이 아닌 다른 회사에서 제공하는 제품 또는 서비스와 관련
 ### 스테이징(stage)
 {: #x2067189}
 
-프로덕션 환경에 배치하기 전에 실행 및 테스트 용도로 애플리케이션, 서비스 또는 인스턴스를 사전 정의된 위치에 배치하는 것입니다. [배치(deployment)](#x2104544)도 참조하십시오.
+프로덕션 환경에 배치하기 전에 실행 및 테스트 용도로 애플리케이션, 서비스 또는 인스턴스를 사전 정의된 위치에 배치하는 것입니다. [배치(deployment)](/docs/overview?topic=overview-glossary#x2104544)도 참조하십시오.
 
 ### 시범 오퍼링(experimental offering)
 {: #x9774278}
 
-IBM에서 평가 및 테스트만을 위해 제공하는 오퍼링이며, 불안정하거나 이전 버전과 호환되지 않을 수 있습니다. 시범 오퍼링은 갑자기 제공이 중단될 수 있습니다. 이 오퍼링에는 보증, SLA 또는 지원이 제공되지 않으며, 이는 프로덕션용이 아닙니다. 
+{{site.data.keyword.IBM_notm}}에서 평가 및 테스트만을 위해 제공하는 오퍼링이며, 불안정하거나 이전 버전과 호환되지 않을 수 있습니다. 시범 오퍼링은 갑자기 제공이 중단될 수 있습니다. 이 오퍼링에는 보증, SLA 또는 지원이 제공되지 않으며, 이는 프로덕션용이 아닙니다.
 
 ### 신뢰할 수 있는 루트(trusted root)
 {: #x2042234}
 
-신뢰할 수 있는 인증 기관(CA)에서 서명한 인증서입니다. [인증 기관(certificate authority)](#x2016383), [중간 인증서(intermediate certificate)](#x3753781)도 참조하십시오.
-
+신뢰할 수 있는 인증 기관(CA)에서 서명한 인증서입니다. [인증 기관(certificate authority)](/docs/overview?topic=overview-glossary#x2016383), [중간 인증서(intermediate certificate)](/docs/overview?topic=overview-glossary#x3753781)도 참조하십시오.
 
 ### 실행(fire)
 {: #x2239904}
@@ -414,6 +378,16 @@ IBM에서 평가 및 테스트만을 위해 제공하는 오퍼링이며, 불안
 
 소프트웨어 또는 시스템 개발 프로세스에서 사용되거나 생성된 엔티티입니다. 아티팩트의 예에는 디자인, 요구사항, 소스 파일, 플랜, 스크립트, 시뮬레이션, 모델, 테스트 플랜 및 바이너리 실행 파일 등이 포함됩니다. HTTP 컨텍스트의 경우, 아티팩트에 URI가 있으며 이를 리소스라고 합니다.
 
+### 액세스 그룹(access group)
+{: #x2160811}
+
+모든 그룹 구성원에게 동일한 액세스를 지정하기 위한 액세스 정책의 주체로 사용되는 그룹으로 구성된 사용자 및 서비스 ID 세트입니다.
+
+### 액세스 정책(access policy)
+{: #x2853407}
+
+사용자, 서비스 ID 및 액세스 그룹에 계정 리소스에 대한 액세스 권한을 부여하는 방법입니다. 액세스 정책에는 주체, 대상 및 역할이 포함됩니다.
+
 ### 액세스 제어 목록(access contol list)
 {: #x2012793}
 
@@ -427,12 +401,17 @@ IBM에서 평가 및 테스트만을 위해 제공하는 오퍼링이며, 불안
 ### 앱(app)
 {: #x4281528}
 
-웹 또는 모바일 디바이스 애플리케이션입니다. [모바일 애플리케이션(mobile application)](#x4258535), [웹 애플리케이션(web application)](#x2116500)도 참조하십시오.
+웹 또는 모바일 디바이스 애플리케이션입니다. [모바일 애플리케이션(mobile application)](/docs/overview?topic=overview-glossary#x4258535), [웹 애플리케이션(web application)](/docs/overview?topic=overview-glossary#x2116500)도 참조하십시오.
 
 ### 엔드포인트(endpoint)
 {: #x2026820}
 
-환경에서 API 또는 서비스의 주소입니다. API는 엔드포인트를 노출하고 동시에 다른 서비스의 엔드포인트를 호출합니다. [라우트(route)](#x2037338)도 참조하십시오.
+환경에서 API 또는 서비스의 주소입니다. API는 엔드포인트를 노출하고 동시에 다른 서비스의 엔드포인트를 호출합니다. [라우트(route)](/docs/overview?topic=overview-glossary#x2037338)도 참조하십시오.
+
+### 역할(role)
+{: #x2065412}
+
+권한 또는 액세스 권한 세트입니다.
 
 ### 연합(federate)
 {: #x2763229}
@@ -442,12 +421,12 @@ IBM에서 평가 및 테스트만을 위해 제공하는 오퍼링이며, 불안
 ### 영역(space)
 {: #x2039442}
 
-IBM Cloud 조직 내부에 있는 하위 그룹입니다. 조직의 구성원인 사용자는 특정 역할(예: 개발자, 관리자 또는 감사자)과 연관된 권한으로 하나 이상의 영역에 액세스할 수 있습니다. 영역의 모든 구성원이 앱을 볼 수 있지만 개발자 역할을 가진 구성원만 앱을 작성하고 서비스 인스턴스를 영역에 추가할 수 있습니다. 앱 및 서비스 인스턴스는 영역과 연관됩니다. [조직(organization)](#x2032585)도 참조하십시오.
+{{site.data.keyword.cloud_notm}} 조직 내에 있는 하위 그룹입니다. 조직의 구성원인 사용자는 특정 역할(예: 개발자, 관리자 또는 감사자)과 연관된 권한으로 하나 이상의 영역에 액세스할 수 있습니다. 영역의 모든 구성원이 앱을 볼 수 있지만 개발자 역할을 가진 구성원만 앱을 작성하고 서비스 인스턴스를 영역에 추가할 수 있습니다. 앱 및 서비스 인스턴스는 영역과 연관됩니다. [조직(organization)](/docs/overview?topic=overview-glossary#x2032585)도 참조하십시오.
 
 ### 온프레미스(on-prem)
 {: #x6969434}
 
-[온프레미스(on-premises)](#x4561212)를 참조하십시오.
+[온프레미스(on-premises)](/docs/overview?topic=overview-glossary#x4561212)를 참조하십시오.
 
 ### 온프레미스(on-prem, on-premises)
 {: #x4561212}
@@ -462,12 +441,12 @@ Java EE 표준에 따라 정의된 압축 파일의 형식으로, 웹 애플리�
 ### 웹 애플리케이션(web app, wep application)
 {: #x2116500}
 
-웹 브라우저를 통해 액세스할 수 있으며 정보를 정적으로 표시하는 것 이상의 몇 가지 기능(예: 사용자가 데이터베이스를 조회할 수 있도록 허용 등)을 제공하는 애플리케이션입니다. 웹 애플리케이션의 공통된 컴포넌트로 HTML 페이지, JSP 페이지 및 서블릿이 있습니다. [앱(app)](#x4281528)도 참조하십시오.
+웹 브라우저를 통해 액세스할 수 있으며 정보를 정적으로 표시하는 것 이상의 몇 가지 기능(예: 사용자가 데이터베이스를 조회할 수 있도록 허용 등)을 제공하는 애플리케이션입니다. 웹 애플리케이션의 공통된 컴포넌트로 HTML 페이지, JSP 페이지 및 서블릿이 있습니다. [앱(app)](/docs/overview?topic=overview-glossary#x4281528)도 참조하십시오.
 
 ### 웹 앱(web app)
 {: #x7636628}
 
-[웹 애플리케이션(web application)](#x2116500)을 참조하십시오.
+[웹 애플리케이션(web application)](/docs/overview?topic=overview-glossary#x2116500)을 참조하십시오.
 
 ### 유동 IP 주소(floating IP address)
 {: #x6326428}
@@ -477,12 +456,12 @@ Java EE 표준에 따라 정의된 압축 파일의 형식으로, 웹 애플리�
 ### 유사성(affinity)
 {: #x2149238}
 
-동일한 네트워크 노드에서 실행되는 둘 이상의 컨테이너 그룹 인스턴스입니다. [비유사성(anti-affinity)](#x8888040)도 참조하십시오.
+동일한 네트워크 노드에서 실행되는 둘 이상의 컨테이너 그룹 인스턴스입니다. [비유사성(anti-affinity)](/docs/overview?topic=overview-glossary#x8888040)도 참조하십시오.
 
 ### 이미지(image)
 {: #x2024928}
 
-컨테이너 작성을 위해 컨테이너 런타임 내에서 사용되는 파일 시스템 및 이를 실행하는 매개변수입니다. 파일 시스템은 연속 업데이트로 이미지가 빌드될 때 작성되는 런타임 시에 결합된 일련의 계층으로 구성되어 있습니다. 이미지는 컨테이너 실행 시에 상태를 보유하지 않습니다. [기본 이미지(base image)](#x5366487), [컨테이너(container)](#x2010901), [계층(layer)](#x2028320), [네임스페이스(namespace)](#x2031005), [상위 이미지(parent image)](#x8439210), [개인용 이미지 저장소(private image repository)](#x8439215), [레지스트리(registry)](#x2064940)도 참조하십시오.
+컨테이너 작성을 위해 컨테이너 런타임 내에서 사용되는 파일 시스템 및 이를 실행하는 매개변수입니다. 파일 시스템은 연속 업데이트로 이미지가 빌드될 때 작성되는 런타임 시에 결합된 일련의 계층으로 구성되어 있습니다. 이미지는 컨테이너 실행 시에 상태를 보유하지 않습니다. [기본 이미지(base image)](/docs/overview?topic=overview-glossary#x5366487), [컨테이너(container)](/docs/overview?topic=overview-glossary#x2010901), [계층(layer)](/docs/overview?topic=overview-glossary#x2028320), [네임스페이스(namespace)](/docs/overview?topic=overview-glossary#x2031005), [상위 이미지(parent image)](/docs/overview?topic=overview-glossary#x8439210), [개인용 이미지 저장소(private image repository)](/docs/overview?topic=overview-glossary#x8439215), [레지스트리(registry)](/docs/overview?topic=overview-glossary#x2064940)도 참조하십시오.
 
 ### 인스턴스(instnace)
 {: #x2002531}
@@ -492,7 +471,7 @@ Java EE 표준에 따라 정의된 압축 파일의 형식으로, 웹 애플리�
 ### 인증 기관(CA, certificate authority)
 {: #x2016383}
 
-디지털 인증서를 발급하는 신뢰할 수 있는 서드파티 조직 또는 회사입니다. 인증 기관은 일반적으로 고유한 인증서가 부여되는 개인의 ID를 확인합니다. [중간 인증서(intermediate certificate)](#x3753781), [SSL(Secure Sockets Layer)](#x2038004), [신뢰할 수 있는 루트(trusted root)](#x2042234)도 참조하십시오.
+디지털 인증서를 발급하는 신뢰할 수 있는 서드파티 조직 또는 회사입니다. 인증 기관은 일반적으로 고유한 인증서가 부여되는 개인의 ID를 확인합니다. [중간 인증서(intermediate certificate)](/docs/overview?topic=overview-glossary#x3753781), [SSL(Secure Sockets Layer)](/docs/overview?topic=overview-glossary#x2038004), [신뢰할 수 있는 루트(trusted root)](/docs/overview?topic=overview-glossary#x2042234)도 참조하십시오.
 
 ### 인증 정보(credential)
 {: #x2018813}
@@ -509,39 +488,45 @@ Java EE 표준에 따라 정의된 압축 파일의 형식으로, 웹 애플리�
 
 인증서를 확보하기 위해 조직이 인증 기관(CA)에 전송하는 전자 메시지입니다. 요청에는 공개 키가 포함되어 있고 개인 키로 서명됩니다. CA는 고유 개인 키로 서명된 후 인증서를 리턴합니다.
 
-## 자
-{: #glossD9}
-
 ### 작업공간(workspace)
 {: #x2096037}
 
 적절한 권한이 있는 사용자가 수정할 수 있는 아티팩트의 콜렉션을 포함하는 컨텍스트입니다.
 
+## 자
+{: #glossD9}
+
 ### 조직(org)
 {: #x7470494}
 
-[조직(organization)](#x2032585)을 참조하십시오.
+[조직(organization)](/docs/overview?topic=overview-glossary#x2032585)을 참조하십시오.
 
 ### 조직(org, organization)
 {: #x2032585}
 
-IBM Cloud의 사용자에 대한 그룹화 방법입니다. 조직은 할당량을 관리하는 데 사용됩니다. 한 조직의 사용자는 메모리 및 서비스 인스턴스 할당량을 공유합니다. [도메인(domain)](#x2021210), [영역(space)](#x2039442)도 참조하십시오.
+IBM Cloud의 사용자에 대한 그룹화 방법입니다. 조직은 할당량을 관리하는 데 사용됩니다. 한 조직의 사용자는 메모리 및 서비스 인스턴스 할당량을 공유합니다. [도메인(domain)](/docs/overview?topic=overview-glossary#x2021210), [영역(space)](/docs/overview?topic=overview-glossary#x2039442)도 참조하십시오.
 
 
 ### 조치(action)
 {: #x2012974}
 
-명시적으로 호출되거나 이벤트에 대한 응답으로 실행될 수 있는 코드 스니펫입니다. [피드(feed)](#x3129185), [호출(invoke)](#x2057232)도 참조하십시오.
+- 명시적으로 호출되거나 이벤트에 대한 응답으로 실행될 수 있는 코드 스니펫입니다. [피드(feed)](/docs/overview?topic=overview-glossary#x3129185), [호출(invoke)](/docs/overview?topic=overview-glossary#x2057232)도 참조하십시오.
+- 서비스 컨텍스트에서 수행되는 태스크입니다.
 
 ### 주로 조회용으로 사용됨(read-mostly)
 {: #x7470468}
 
 동적으로 변경하는 데이터와 관련됩니다.
 
+### 주체(subject)
+{: #x2380043}
+
+액세스 정책을 통해 액세스가 부여되는 사용자, 서비스 ID 또는 액세스 그룹입니다.
+
 ### 중간 인증서(intermediate certificate)
 {: #x3753781}
 
-특히 최종 엔티티 서버 인증서를 발행하기 위해 신뢰할 수 있는 루트 인증 기관(CA)에서 발행하는 하위 인증서입니다. 결과적으로 신뢰할 수 있는 루트 CA에서 시작되고, 중간 인증서를 통과하여, 조직에 발행된 SSL 인증서로 끝나는 인증서 체인이 생성됩니다. [인증 기관(certificate authority)](#x2016383), [신뢰할 수 있는 루트(trusted root)](#x2042234)도 참조하십시오.
+특히 최종 엔티티 서버 인증서를 발행하기 위해 신뢰할 수 있는 루트 인증 기관(CA)에서 발행하는 하위 인증서입니다. 결과적으로 신뢰할 수 있는 루트 CA에서 시작되고, 중간 인증서를 통과하여, 조직에 발행된 SSL 인증서로 끝나는 인증서 체인이 생성됩니다. [인증 기관(certificate authority)](/docs/overview?topic=overview-glossary#x2016383), [신뢰할 수 있는 루트(trusted root)](/docs/overview?topic=overview-glossary#x2042234)도 참조하십시오.
 
 ### 지역(region)
 {: #x2091391}
@@ -554,7 +539,7 @@ IBM Cloud의 사용자에 대한 그룹화 방법입니다. 조직은 할당량�
 ### 컨테이너(container)
 {: #x2010901}
 
-별도의 논리적 운영 체제 인스턴스를 동시에 실행할 수 있는 시스템 구성체입니다. 컨테이너는 파일 시스템의 계층을 사용하여 이미지 크기를 최소화하고 재사용을 증진합니다. [이미지(image)](#x2024928), [계층(layer)](#x2028320), [레지스트리(registry)](#x2064940)도 참조하십시오.
+별도의 논리적 운영 체제 인스턴스를 동시에 실행할 수 있는 시스템 구성체입니다. 컨테이너는 파일 시스템의 계층을 사용하여 이미지 크기를 최소화하고 재사용을 증진합니다. [이미지(image)](/docs/overview?topic=overview-glossary#x2024928), [계층(layer)](/docs/overview?topic=overview-glossary#x2028320), [레지스트리(registry)](/docs/overview?topic=overview-glossary#x2064940)도 참조하십시오.
 
 ### 컴포넌트(component)
 {: #x2017871}
@@ -579,7 +564,7 @@ IBM Cloud의 사용자에 대한 그룹화 방법입니다. 조직은 할당량�
 ### 클라이언트(client)
 {: #x2000644}
 
-서버에서 서비스를 요청하는 소프트웨어 프로그램 또는 컴퓨터입니다. [호스트(host)](#x2002243)도 참조하십시오.
+서버에서 서비스를 요청하는 소프트웨어 프로그램 또는 컴퓨터입니다. [호스트(host)](/docs/overview?topic=overview-glossary#x2002243)도 참조하십시오.
 
 ## 타
 {: #glossD11}
@@ -605,12 +590,12 @@ IBM Cloud의 사용자에 대한 그룹화 방법입니다. 조직은 할당량�
 ### 파일 공유(file share)
 {: #x2022902}
 
-IBM Cloud 환경에서 사용자가 파일을 저장하고 공유하는 지속적 스토리지 시스템입니다. IBM Containers에서 사용자는 파일 공유에 Docker 볼륨을 마운트할 수 있습니다.
+{{site.data.keyword.cloud_notm}} 환경에서 사용자가 파일을 저장하고 공유하는 지속적 스토리지 시스템입니다. {{site.data.keyword.containershort_notm}}에서 사용자는 파일 공유에 Docker 볼륨을 마운트할 수 있습니다.
 
 ### 팟(Pod)
 {: #x8461823}
 
-Kubernetes 클러스터에서 실행되는 컨테이너 그룹입니다. 하나의 팟(Pod)은 하나의 실행 가능한 작업 단위(독립형 애플리케이션 또는 마이크로서비스)입니다. 
+Kubernetes 클러스터에서 실행되는 컨테이너 그룹입니다. 하나의 팟(Pod)은 하나의 실행 가능한 작업 단위(독립형 애플리케이션 또는 마이크로서비스)입니다.
 
 ### 퍼블릭 게이트웨이(public gateway)
 {: #x9594389}
@@ -620,7 +605,7 @@ Kubernetes 클러스터에서 실행되는 컨테이너 그룹입니다. 하나�
 ### 퍼블릭 클라우드(public cloud)
 {: #x4585370}
 
-사용량 기준 요금 지불 방식인 종량과금제에 따라 가입자가 인프라, 멀티 테넌트 하드웨어, 서비스 등 표준화된 리소스에 액세스할 수 있는 클라우드 컴퓨팅 환경입니다. [보더리스(borderless)](#x8439189), [프라이빗 클라우드(private cloud)](#x4585362)도 참조하십시오.
+사용량 기준 요금 지불 방식인 종량과금제에 따라 가입자가 인프라, 멀티 테넌트 하드웨어, 서비스 등 표준화된 리소스에 액세스할 수 있는 클라우드 컴퓨팅 환경입니다. [보더리스(borderless)](/docs/overview?topic=overview-glossary#x8439189), [프라이빗 클라우드(private cloud)](/docs/overview?topic=overview-glossary#x4585362)도 참조하십시오.
 
 ### 표준 유형(boilerplate)
 {: #x7233930}
@@ -632,7 +617,6 @@ Kubernetes 클러스터에서 실행되는 컨테이너 그룹입니다. 하나�
 
 모바일 앱 아이콘에 변경 또는 업데이트를 표시하는 경보입니다.
 
-
 ### 푸시(push)
 {: #x2035465}
 
@@ -641,18 +625,17 @@ Kubernetes 클러스터에서 실행되는 컨테이너 그룹입니다. 하나�
 ### 프라이빗 클라우드(private cloud)
 {: #x4585362}
 
-액세스가 엔터프라이즈와 파트너 네트워크의 구성원으로 제한되는 클라우드 컴퓨팅 환경입니다. [퍼블릭 클라우드(public cloud)](#x4585370)도 참조하십시오.
+액세스가 엔터프라이즈와 파트너 네트워크의 구성원으로 제한되는 클라우드 컴퓨팅 환경입니다. [퍼블릭 클라우드(public cloud)](/docs/overview?topic=overview-glossary#x4585370)도 참조하십시오.
 
 ### 프레임워크(framework)
 {: #x2023472}
 
 애플리케이션, 일반, 확장 가능한 기능에 대한 표준 구조를 제공하는 애플리케이션의 아키텍처입니다.  프레임워크를 통해 애플리케이션 개발을 위한 복잡한 기술의 일관성 있는 구현을 사용하고 단순화할 수 있습니다.
 
-
 ### 피드(feed)
 {: #x3129185}
 
-트리거 이벤트를 실행하도록 외부 이벤트 소스를 구성하는 코드 조각입니다. [조치(action)](#x2012974)도 참조하십시오.
+트리거 이벤트를 실행하도록 외부 이벤트 소스를 구성하는 코드 조각입니다. [조치(action)](/docs/overview?topic=overview-glossary#x2012974)도 참조하십시오.
 
 ## 하
 {: #glossD13}
@@ -665,7 +648,7 @@ Kubernetes 클러스터에서 실행되는 컨테이너 그룹입니다. 하나�
 ### 하위 도메인(subdomain)
 {: #x2040080}
 
-더 큰 도메인의 일부를 구성하는 도메인입니다. [사용자 정의 도메인(custom domain)](#x5728384), [도메인(domain)](#x2021210), [호스트(host)](#x2002243), [라우트(route)](#x2037338), [URL(Uniform Resource Locator)](#x2042491)도 참조하십시오.
+더 큰 도메인의 일부를 구성하는 도메인입니다. [사용자 정의 도메인(custom domain)](/docs/overview?topic=overview-glossary#x5728384), [도메인(domain)](/docs/overview?topic=overview-glossary#x2021210), [호스트(host)](/docs/overview?topic=overview-glossary#x2002243), [라우트(route)](/docs/overview?topic=overview-glossary#x2037338), [URL(Uniform Resource Locator)](/docs/overview?topic=overview-glossary#x2042491)도 참조하십시오.
 
 ### 하이브리드 클라우드(hybrid cloud)
 {: #x4585327}
@@ -675,12 +658,12 @@ Kubernetes 클러스터에서 실행되는 컨테이너 그룹입니다. 하나�
 ### 호스트(host)
 {: #x2002243}
 
-네트워크에 연결되고 해당 네트워크에 대한 액세스 지점을 제공하는 컴퓨터입니다. 호스트는 클라이언트, 서버, 또는 동시에 클라이언트이면서 서버 둘 다가 될 수 있습니다. [클라이언트(client)](#x2000644), [사용자 정의 도메인(custom domain)](#x5728384), [도메인(domain)](#x2021210), [라우트(route)](#x2037338), [하위 도메인(subdomain)](#x2040080), [URL(Uniform Resource Locator)](#x2042491)도 참조하십시오.
+네트워크에 연결되고 해당 네트워크에 대한 액세스 지점을 제공하는 컴퓨터입니다. 호스트는 클라이언트, 서버, 또는 동시에 클라이언트이면서 서버 둘 다가 될 수 있습니다. [클라이언트(client)](/docs/overview?topic=overview-glossary#x2000644), [사용자 정의 도메인(custom domain)](/docs/overview?topic=overview-glossary#x5728384), [도메인(domain)](/docs/overview?topic=overview-glossary#x2021210), [라우트(route)](/docs/overview?topic=overview-glossary#x2037338), [하위 도메인(subdomain)](/docs/overview?topic=overview-glossary#x2040080), [URL(Uniform Resource Locator)](/docs/overview?topic=overview-glossary#x2042491)도 참조하십시오.
 
 ### 호출(invoke)
 {: #x2057232}
 
-조치를 활성화합니다. [조치(action)](#x2012974)도 참조하십시오.
+조치를 활성화합니다. [조치(action)](/docs/overview?topic=overview-glossary#x2012974)도 참조하십시오.
 
 ## A
 {: #glossa}
@@ -688,7 +671,7 @@ Kubernetes 클러스터에서 실행되는 컨테이너 그룹입니다. 하나�
 ### API
 {: #x2008805}
 
-[API(Application Programming Interface)](#x2000186)를 참조하십시오.
+[API(Application Programming Interface)](/docs/overview?topic=overview-glossary#x2000186)를 참조하십시오.
 
 ### API(Application Programming Interface)
 {: #x2000186}
@@ -698,12 +681,12 @@ Kubernetes 클러스터에서 실행되는 컨테이너 그룹입니다. 하나�
 ### AuthN
 {: #x7470446}
 
-[인증(authentication)](#x2014567)을 참조하십시오.
+[인증(authentication)](/docs/overview?topic=overview-glossary#x2014567)을 참조하십시오.
 
 ### AuthZ
 {: #x7470448}
 
-[권한 부여(authorization)](#x2014653)를 참조하십시오.
+[권한 부여(authorization)](/docs/overview?topic=overview-glossary#x2014653)를 참조하십시오.
 
 ## B
 {: #glossb}
@@ -711,7 +694,7 @@ Kubernetes 클러스터에서 실행되는 컨테이너 그룹입니다. 하나�
 ### Bare Metal Server
 {: #x6778472}
 
-가상화 또는 웹 호스팅에 사용할 수 있는, 완전 사용자 정의 가능한 전용 실제 서버입니다. 
+가상화 또는 웹 호스팅에 사용할 수 있는, 완전 사용자 정의 가능한 전용 실제 서버입니다.
 
 ### BLU 가속화(BLU Acceleration)
 {: #x7470463}
@@ -721,7 +704,7 @@ Kubernetes 클러스터에서 실행되는 컨테이너 그룹입니다. 하나�
 ### Blue-Green 배치(blue-green deployment)
 {: #x7807335}
 
-지속적 딜리버리를 사용하고 Blue 및 Green이라는 거의 동일한 두 개의 프로덕션 환경을 실행하여 중단시간을 최소화하는 배치 기술입니다. 환경 중 하나(예: Blue)는 라이브 프로덕션 환경이고 다른 하나(예: Green)는 최종 테스트 및 배치에 사용될 수 있습니다. 애플리케이션이 Green에 배치된 후 Green은 프로덕션 환경이 되고 Blue는 유휴 상태가 됩니다. [Red-Black 배치(red-black deployment)](#x8439181)도 참조하십시오.
+지속적 딜리버리를 사용하고 Blue 및 Green이라는 거의 동일한 두 개의 프로덕션 환경을 실행하여 중단시간을 최소화하는 배치 기술입니다. 환경 중 하나(예: Blue)는 라이브 프로덕션 환경이고 다른 하나(예: Green)는 최종 테스트 및 배치에 사용될 수 있습니다. 애플리케이션이 Green에 배치된 후 Green은 프로덕션 환경이 되고 Blue는 유휴 상태가 됩니다. [Red-Black 배치(red-black deployment)](/docs/overview?topic=overview-glossary#x8439181)도 참조하십시오.
 
 ## C
 {: #glossc}
@@ -729,17 +712,17 @@ Kubernetes 클러스터에서 실행되는 컨테이너 그룹입니다. 하나�
 ### CA
 {: #x2015942}
 
-[인증 기관(certificate authority)](#x2016383)을 참조하십시오.
+[인증 기관(certificate authority)](/docs/overview?topic=overview-glossary#x2016383)을 참조하십시오.
 
 ### CLI
 {: #x2008863}
 
-[명령행 인터페이스(command-line interface)](#x2051424)를 참조하십시오.
+[명령행 인터페이스(command-line interface)](/docs/overview?topic=overview-glossary#x2051424)를 참조하십시오.
 
 ### CSR
 {: #x2140147}
 
-[인증서 서명 요청(certificate signing request)](#x3530521)을 참조하십시오.
+[인증서 서명 요청(certificate signing request)](/docs/overview?topic=overview-glossary#x3530521)을 참조하십시오.
 
 ## D
 {: #glossd}
@@ -747,7 +730,7 @@ Kubernetes 클러스터에서 실행되는 컨테이너 그룹입니다. 하나�
 ### DC
 {: #x2052913}
 
-[데이터 센터](#x2439906)를 참조하십시오.
+[데이터 센터(data center)](/docs/overview?topic=overview-glossary#x2439906)를 참조하십시오.
 
 ### DEA
 {: #x2019805}
@@ -771,12 +754,12 @@ Kubernetes 클러스터에서 실행되는 컨테이너 그룹입니다. 하나�
 ### GA
 {: #x2117930}
 
-[GA(General Availability)](#x2117947)를 참조하십시오. 
+[GA(General Availability)](/docs/overview?topic=overview-glossary#x2117947)를 참조하십시오.
 
 ### GA(General Availability)
 {: #x2117947}
 
-특정 오퍼링이 고객 또는 채널(일반적으로 여러 지역의)에 판매 및 제공될 수 있도록 출시된 날짜입니다. 
+특정 오퍼링이 고객 또는 채널(일반적으로 여러 지역의)에 판매 및 제공될 수 있도록 출시된 날짜입니다.
 
 ### GB-시간(GB-hour)
 {: #x7470477}
@@ -786,7 +769,7 @@ Kubernetes 클러스터에서 실행되는 컨테이너 그룹입니다. 하나�
 ### GUID
 {: #x2390457}
 
-[GUID(Globally Unique Identifier)](#x2390455)를 참조하십시오.
+[GUID(Globally Unique Identifier)](/docs/overview?topic=overview-glossary#x2390455)를 참조하십시오.
 
 
 ### GUID(Globally Unique Identifier)
@@ -800,7 +783,7 @@ Kubernetes 클러스터에서 실행되는 컨테이너 그룹입니다. 하나�
 ### Heavy API 호출(heavy API call)
 {: #x7690468}
 
-데이터를 쓰거나 삭제하거나 삽입하는 클라이언트 오퍼레이션입니다. Heavy API 호출은 데이터에 영향을 미치기 때문에 Light API 호출보다 더 많은 리소스를 소모합니다. [Light API 호출(light API call)](#x7690463)도 참조하십시오.
+데이터를 쓰거나 삭제하거나 삽입하는 클라이언트 오퍼레이션입니다. Heavy API 호출은 데이터에 영향을 미치기 때문에 Light API 호출보다 더 많은 리소스를 소모합니다. [Light API 호출(light API call)](/docs/overview?topic=overview-glossary#x7690463)도 참조하십시오.
 
 ### HTTP 메소드(HTTP method)
 {: #x2024674}
@@ -810,7 +793,7 @@ HTTP(Hypertext Transfer Protocol)에 의해 사용되는 조치입니다. HTTP �
 ### HTTPS
 {: #x2193603}
 
-[HTTPS(Hypertext Transfer Protocol Secure)](#x2237225)를 참조하십시오.
+[HTTPS(Hypertext Transfer Protocol Secure)](/docs/overview?topic=overview-glossary#x2237225)를 참조하십시오.
 
 ### HTTPS(Hypertext Transfer Protocol Secure)
 {: #x2237225}
@@ -818,13 +801,18 @@ HTTP(Hypertext Transfer Protocol)에 의해 사용되는 조치입니다. HTTP �
 웹 서버 및 웹 브라우저가 인터넷 전체에 걸쳐 안전하게 하이퍼미디어 문서를 전송 및 표시하는 데 사용되는 인터넷 프로토콜입니다.
 
 
+### HVM
+{: #x9736815}
+
+[하드웨어 가상 머신 모드(hardware virtual machine mode)](/docs/overview?topic=overview-glossary#x9736811)를 참조하십시오.
+
 ## I
 {: #glossi}
 
 ### IaaS
 {: #x4585337}
 
-[IaaS(Infrastructure as a Service)](#x4585332)를 참조하십시오.
+[IaaS(Infrastructure as a Service)](/docs/overview?topic=overview-glossary#x4585332)를 참조하십시오.
 
 ### IaaS(Infrastructure as a Service)
 {: #x4585332}
@@ -834,22 +822,17 @@ HTTP(Hypertext Transfer Protocol)에 의해 사용되는 조치입니다. HTTP �
 ### IAM
 {: #x2193801}
 
-[IAM(Identity and Access Management)](#x7547040)을 참조하십시오.
+[IAM(Identity and Access Management)](/docs/overview?topic=overview-glossary#x7547040)을 참조하십시오.
 
 ### IAM(Identity and Access Management)
 {: #x7547040}
 
 회사가 다양한 규제 요구사항을 준수할 수 있도록 도움을 주면서도 데이터 및 애플리케이션에 대한 권한 부여된 사용자의 액세스를 제어하는 프로세스입니다.
 
-### IBM Cloud
-{: #x7301758}
-
-웹, 모바일, 빅데이터, 스마트 디바이스 같은 모든 유형의 앱을 빌드, 관리 및 실행하기 위한 개방형 표준, 클라우드 기반 플랫폼입니다. 기능에는 Java, 모바일 백엔드 개발 및 애플리케이션 모니터링은 물론 에코시스템 파트너 및 오픈 소스의 기능도 포함됩니다(모두 클라우드의 서비스로 제공됨).
-
 ### IoT
 {: #x6714346}
 
-[IoT(Internet of Things)](#x6714341)를 참조하십시오.
+[IoT(Internet of Things)](/docs/overview?topic=overview-glossary#x6714341)를 참조하십시오.
 
 
 ### IoT(Internet of Things)
@@ -868,7 +851,7 @@ Java 아카이브 파일입니다.
 ### JSON
 {: #x4267096}
 
-[JSON(JavaScript Object Notation)](#x3292165)을 참조하십시오.
+[JSON(JavaScript Object Notation)](/docs/overview?topic=overview-glossary#x3292165)을 참조하십시오.
 
 
 ### JSON(JavaScript Object Notation)
@@ -882,7 +865,7 @@ JavaScript의 오브젝트 리터럴 표기법을 기반으로 하는 경량 데
 ### LDAP
 {: #x2481619}
 
-[LDAP(Lightweight Directory Access Protocol)](#x2028538)을 참조하십시오.
+[LDAP(Lightweight Directory Access Protocol)](/docs/overview?topic=overview-glossary#x2028538)을 참조하십시오.
 
 ### LDAP(Lightweight Directory Access Protocol)
 {: #x2028538}
@@ -892,7 +875,7 @@ X.500 모델을 지원하고 더 복잡한 X.500 DAP(Directory Access Protocol)�
 ### Light API 호출(light API call)
 {: #x7690463}
 
-데이터를 읽기만 하는 클라이언트 오퍼레이션입니다. 단일 함수를 수행하고 있기 때문에 Light API 호출은 Haevy API 호출보다 리소스를 더 적게 사용합니다. [Heavy API 호출(heavy API call)](#x7690468)도 참조하십시오.
+데이터를 읽기만 하는 클라이언트 오퍼레이션입니다. 단일 함수를 수행하고 있기 때문에 Light API 호출은 Haevy API 호출보다 리소스를 더 적게 사용합니다. [Heavy API 호출(heavy API call)](/docs/overview?topic=overview-glossary#x7690468)도 참조하십시오.
 
 ## M
 {: #glossm}
@@ -900,7 +883,7 @@ X.500 모델을 지원하고 더 복잡한 X.500 DAP(Directory Access Protocol)�
 ### MBaaS
 {: #x7044865}
 
-[MBaaS(Mobile Backend as a Service)](#x7044858)를 참조하십시오.
+[MBaaS(Mobile Backend as a Service)](/docs/overview?topic=overview-glossary#x7044858)를 참조하십시오.
 
 ### MBaaS(Mobile Backend as a Service)
 {: #x7044858}
@@ -910,7 +893,7 @@ X.500 모델을 지원하고 더 복잡한 X.500 DAP(Directory Access Protocol)�
 ### MZR
 {: #x9774831}
 
-[다중 구역 지역(MZR, multizone region)](#x9774820)을 참조하십시오.
+[다중 구역 지역(MZR, multizone region)](/docs/overview?topic=overview-glossary#x9774820)을 참조하십시오.
 
 ## N
 {: #glossn}
@@ -935,7 +918,7 @@ X.500 모델을 지원하고 더 복잡한 X.500 DAP(Directory Access Protocol)�
 ### PaaS
 {: #x2029790}
 
-[PaaS(Platform as a Service)](#x2029786)를 참조하십시오.
+[PaaS(Platform as a Service)](/docs/overview?topic=overview-glossary#x2029786)를 참조하십시오.
 
 ### PaaS(Platform as a Service)
 {: #x2029786}
@@ -945,7 +928,7 @@ X.500 모델을 지원하고 더 복잡한 X.500 DAP(Directory Access Protocol)�
 ### PoP
 {: #x7234683}
 
-[상호접속 위치(PoP, point of presence)](#x5458832)를 참조하십시오. 
+[상호접속 위치(PoP, point of presence)](/docs/overview?topic=overview-glossary#x5458832)를 참조하십시오.
 
 ## R
 {: #glossr}
@@ -953,12 +936,12 @@ X.500 모델을 지원하고 더 복잡한 X.500 DAP(Directory Access Protocol)�
 ### Red-Black 배치(red-black deployment)
 {: #x8439181}
 
-동기화된 테스트, 개발 및 배치를 지원하여 지속적 딜리버리를 가능하게 하는 배치 기술입니다. 처음에는 비활성 환경(black)에서 개발하고 활성 환경에 계속 트래픽이 유입됩니다(red). 배치가 시작되면 이전에 활성이던 이전 버전 환경에서 라우팅이 비활성화될 때까지 두 환경이 활성 상태를 유지하다가(red-red) 이후 새 환경이 유일한 활성 환경 역할을 하며 환경이 제거됩니다(black). [Blue-Green 배치(blue-green deployment)](#x7807335)도 참조하십시오.
+동기화된 테스트, 개발 및 배치를 지원하여 지속적 딜리버리를 가능하게 하는 배치 기술입니다. 처음에는 비활성 환경(black)에서 개발하고 활성 환경에 계속 트래픽이 유입됩니다(red). 배치가 시작되면 이전에 활성이던 이전 버전 환경에서 라우팅이 비활성화될 때까지 두 환경이 활성 상태를 유지하다가(red-red) 이후 새 환경이 유일한 활성 환경 역할을 하며 환경이 제거됩니다(black). [Blue-Green 배치(blue-green deployment)](/docs/overview?topic=overview-glossary#x7807335)도 참조하십시오.
 
 ### REST
 {: #x3220987}
 
-[REST(Representational State Transfer)](#x3220976)를 참조하십시오.
+[REST(Representational State Transfer)](/docs/overview?topic=overview-glossary#x3220976)를 참조하십시오.
 
 ### REST(Representational State Transfer)
 {: #x3220976}
@@ -971,12 +954,12 @@ X.500 모델을 지원하고 더 복잡한 X.500 DAP(Directory Access Protocol)�
 ### SA(Select Availability)
 {: #x9773835}
 
-특정 고객만 구매 및 액세스가 가능한 프로덕션 가능 오퍼링입니다. 
+특정 고객만 구매 및 액세스가 가능한 프로덕션 가능 오퍼링입니다.
 
 ### SaaS
 {: #x4585391}
 
-[SaaS(Software as a Service)](#x4585386)를 참조하십시오.
+[SaaS(Software as a Service)](/docs/overview?topic=overview-glossary#x4585386)를 참조하십시오.
 
 ### SaaS(Software as a Service)
 {: #x4585386}
@@ -986,37 +969,37 @@ X.500 모델을 지원하고 더 복잡한 X.500 DAP(Directory Access Protocol)�
 ### SOE(System of Engagement)
 {: #x6528306}
 
-이메일, 협업 시스템 및 네트워킹을 통해 사용자 상호작용을 촉진하는 기술을 통합하는 정보 기술(IT) 시스템입니다.  SOE(System of Engagement)는 종종 클라우드 기술을 사용하여 SOR(System of Record)의 유용성을 확장합니다. [SOR(System of Record)](#x6735061)도 참조하십시오.
+이메일, 협업 시스템 및 네트워킹을 통해 사용자 상호작용을 촉진하는 기술을 통합하는 정보 기술(IT) 시스템입니다.  SOE(System of Engagement)는 종종 클라우드 기술을 사용하여 SOR(System of Record)의 유용성을 확장합니다. [SOR(System of Record)](/docs/overview?topic=overview-glossary#x6735061)도 참조하십시오.
 
 ### SOR
 {: #x2214822}
 
-[SOR(System of Record)](#x6735061)을 참조하십시오.
+[SOR(System of Record)](/docs/overview?topic=overview-glossary#x6735061)을 참조하십시오.
 
 ### SOR(System of Record)
 {: #x6735061}
 
-비즈니스 레코드를 저장하고 표준 프로세스를 자동화하는 정보 저장 시스템(예: 데이터베이스 또는 애플리케이션)입니다. [SOE(System of Engagement)](#x6528306)도 참조하십시오.
+비즈니스 레코드를 저장하고 표준 프로세스를 자동화하는 정보 저장 시스템(예: 데이터베이스 또는 애플리케이션)입니다. [SOE(System of Engagement)](/docs/overview?topic=overview-glossary#x6528306)도 참조하십시오.
 
 ### SSL
 {: #x2483907}
 
-[SSL(Secure Sockets Layer)](#x2038004)을 참조하십시오.
+[SSL(Secure Sockets Layer)](/docs/overview?topic=overview-glossary#x2038004)을 참조하십시오.
 
 ### SSL(Secure Sockets Layer)
 {: #x2038004}
 
-통신 개인정보 보호를 제공하는 보안 프로토콜입니다. SSL을 사용하면 클라이언트/서버 애플리케이션이 도청, 변조 및 메시지 위조를 방지하도록 디자인된 방식으로 통신할 수 있습니다. [인증 기관(certificate authority)](#x2016383)도 참조하십시오.
+통신 개인정보 보호를 제공하는 보안 프로토콜입니다. SSL을 사용하면 클라이언트/서버 애플리케이션이 도청, 변조 및 메시지 위조를 방지하도록 디자인된 방식으로 통신할 수 있습니다. [인증 기관(certificate authority)](/docs/overview?topic=overview-glossary#x2016383)도 참조하십시오.
 
 ### SSO
 {: #x3456450}
 
-[싱글 사인온(single sign-on)](#x2213318)을 참조하십시오.
+[싱글 사인온(single sign-on)](/docs/overview?topic=overview-glossary#x2213318)을 참조하십시오.
 
 ### SZR
 {: #x9774829}
 
-[단일 구역 지역(SZR, single-zone region)](#x9774825)을 참조하십시오. 
+[단일 구역 지역(SZR, single-zone region)](/docs/overview?topic=overview-glossary#x9774825)을 참조하십시오.
 
 
 ## U
@@ -1025,7 +1008,7 @@ X.500 모델을 지원하고 더 복잡한 X.500 DAP(Directory Access Protocol)�
 ### URI
 {: #x2116461}
 
-[URI(Uniform Resource Identifier)](#x2116436)를 참조하십시오.
+[URI(Uniform Resource Identifier)](/docs/overview?topic=overview-glossary#x2116436)를 참조하십시오.
 
 ### URI(Uniform Resource Identifier)
 {: #x2116436}
@@ -1035,25 +1018,35 @@ X.500 모델을 지원하고 더 복잡한 X.500 DAP(Directory Access Protocol)�
 ### URL
 {: #x2042718}
 
-[URL(Uniform Resource Locator)](#x2042491)을 참조하십시오.
+[URL(Uniform Resource Locator)](/docs/overview?topic=overview-glossary#x2042491)을 참조하십시오.
 
 ### URL(Uniform Resource Locator)
 {: #x2042491}
 
-인터넷과 같은 네트워크에서 액세스할 수 있는 정보 리소스의 고유 주소입니다. URL은 정보 리소스를 액세스하는 데 사용되는 프로토콜의 약식 이름 및 프로토콜이 해당 정보 리소스를 찾는 데 사용하는 정보를 포함합니다. [사용자 정의 도메인(custom domain)](#x5728384), [도메인(domain)](#x2021210), [호스트(host)](#x2002243), [라우트(route)](#x2037338), [하위 도메인(subdomain)](#x2040080)도 참조하십시오.
+인터넷과 같은 네트워크에서 액세스할 수 있는 정보 리소스의 고유 주소입니다. URL은 정보 리소스를 액세스하는 데 사용되는 프로토콜의 약식 이름 및 프로토콜이 해당 정보 리소스를 찾는 데 사용하는 정보를 포함합니다. [사용자 정의 도메인(custom domain)](/docs/overview?topic=overview-glossary#x5728384), [도메인(domain)](/docs/overview?topic=overview-glossary#x2021210), [호스트(host)](/docs/overview?topic=overview-glossary#x2002243), [라우트(route)](/docs/overview?topic=overview-glossary#x2037338), [하위 도메인(subdomain)](/docs/overview?topic=overview-glossary#x2040080)도 참조하십시오.
+
+### user
+{: #x2069659}
+
+계정에서 개인의 ID로 사용되는 IBM ID 또는 SoftLayer ID입니다.
 
 ## V
 {: #glossv}
 
+### VLAN
+{: #x2484337}
+
+[VLAN(Virtual Local Area Network)](/docs/overview?topic=overview-glossary#x2438470)을 참조하십시오.
+
 ### VM
 {: #x2043253}
 
-[가상 머신(virtual machine)](#x2043165)을 참조하십시오.
+[가상 머신(virtual machine)](/docs/overview?topic=overview-glossary#x2043165)을 참조하십시오.
 
 ### VPN
 {: #x2484351}
 
-[VPN(Virtual Private Network)](#x2043188)을 참조하십시오.
+[VPN(Virtual Private Network)](/docs/overview?topic=overview-glossary#x2043188)을 참조하십시오.
 
 ## W
 {: #glossw}
@@ -1061,11 +1054,18 @@ X.500 모델을 지원하고 더 복잡한 X.500 DAP(Directory Access Protocol)�
 ### WAR
 {: #x2844389}
 
-[웹 아카이브(web archive)](#x2116506)를 참조하십시오.
+[웹 아카이브(web archive)](/docs/overview?topic=overview-glossary#x2116506)를 참조하십시오.
 
 ### WAR 파일(WAR file)
 {: #x2406005}
 
-[웹 아카이브(web archive)](#x2116506)를 참조하십시오.
+[웹 아카이브(web archive)](/docs/overview?topic=overview-glossary#x2116506)를 참조하십시오.
 
-[Z](#glossa)
+## Z
+{: #glossz}
+
+### {{site.data.keyword.cloud_notm}}
+{: #x7301758}
+
+웹, 모바일, 빅데이터, 스마트 디바이스 같은 모든 유형의 앱을 빌드, 관리 및 실행하기 위한 개방형 표준, 클라우드 기반 플랫폼입니다. 기능에는 Java, 모바일 백엔드 개발 및 애플리케이션 모니터링은 물론 에코시스템 파트너 및 오픈 소스의 기능도 포함됩니다(모두 클라우드의 서비스로 제공됨).
+

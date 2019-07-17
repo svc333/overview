@@ -4,7 +4,7 @@ copyright:
 
   years: 2015, 2019
 
-lastupdated: "2019-06-06"
+lastupdated: "2019-07-02"
 
 keywords: release notes, what's new, what is new, cloud updates
 
@@ -29,6 +29,18 @@ Aktualisierungen für die Services, die in {{site.data.keyword.Bluemix_notm}} ve
 
 ## {{site.data.keyword.Bluemix_notm}}-Plattform
 {: #platform_category}
+
+### SoftLayer-SAML-Föderierung in {{site.data.keyword.cloud_notm}} verwalten
+{: #saml-federation}
+Datum der Neuerung: 02. Juli 2019
+
+Bisherige SoftLayer-Benutzer, die einen SAML-Identitätsprovider für die Anmeldung mit föderierten IDs eingerichtet haben, können ihre Konfigurationsdaten nun über die {{site.data.keyword.cloud_notm}}-Konsole unter der Option 'Zugriff (IAM)' auf der Identitätsproviderseite verwalten. Diese Art der Föderierung wird nicht mehr verwendet, sodass zum gegenwärtigen Zeitpunkt keine neuen Identitätsprovider eingerichtet werden können. Sie können Ihre Identitätsproviderdaten jedoch weiterhin aktualisieren oder diese Föderierung löschen und stattdessen die [Föderierung mit IBMid](/docs/account?topic=account-signup#signup-federated) verwenden. 
+
+### Angepasstes Dashboard
+{: #custom}
+Datum der Neuerung: 14. Juni 2019 
+
+Sie können nun die Anzeige des Dashboards steuern. Die Anpassungsmöglichkeiten für das Dashboard umfassen das Hinzufügen, Entfernen und Neuanordnen von Widgets. Weitere Informationen finden Sie in [Dashboard anpassen](/docs/overview?topic=overview-custom-dashboard).
 
 
 ### Nutzungsdaten mit zugehörigen Tags exportieren
@@ -106,7 +118,7 @@ Mit der neuesten Aktualisierung können Sie jetzt alle Ihre Plattform- und Infra
 * Da alle Ihre Ressourcen nun an einem Ort angezeigt werden, wurde eine globale Suche hinzugefügt, sodass Sie Ressourcen, die Sie erstellt haben und die auf der Seite 'Ressourcenliste' erwartungsgemäß angezeigt werden müssten, rasch ausfindig machen können. 
 * Sie können auch nach Katalogergebnissen suchen, um rasch Ressourcen zu finden, die Sie zu Ihrem Konto hinzufügen können.  
 
-Weitere Details enthält der Blogbeitrag [Manage All Your Cloud Resources on the Enhanced {{site.data.keyword.Bluemix_notm}} Platform](https://www.ibm.com/blogs/bluemix/2018/11/manage-all-your-cloud-resources-on-the-enhanced-ibm-cloud-platform/){: new_window} ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link").
+Weitere Details enthält der Blogbeitrag [Manage All Your Cloud Resources on the Enhanced {{site.data.keyword.Bluemix_notm}} Platform](https://www.ibm.com/blogs/cloud-archive/2018/11/manage-all-your-cloud-resources-on-the-enhanced-ibm-cloud-platform/){: new_window} ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link").
 
 ### Vereinheitlichte Konto-, Abrechnungs- und Benutzerprofilinformationen für Plattform- und Infrastrukturservices
 Datum der Neuerung: 30. November 2018

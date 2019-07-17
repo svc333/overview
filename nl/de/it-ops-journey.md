@@ -2,7 +2,7 @@
 
 copyright:
   years: 2018, 2019
-lastupdated: "2019-06-20"
+lastupdated: "2019-07-02"
 
 keywords: cloud environment, virtual server, virtual machine, vm, understanding infrastructure, IaaS model
 
@@ -42,7 +42,7 @@ Vor dem Wechsel zur Cloud haben Sie in einer inhärent sicheren Umgebung mit Sys
 
 Es gibt drei Arten von Cloud-Service-Modellen: 'Infrastructure as a Service' (IaaS), 'Platform as a Service' (PaaS) und 'Software as a Service' (SaaS). Abbildung 1 erläutert, wer in den einzelnen Servicemodellen für was zuständig ist. Weitere Informationen enthält der Abschnitt [IaaS, PaaS und SaaS - Modelle des IBM Cloud-Service](https://www.ibm.com/cloud/learn/iaas-paas-saas){: new_window} ![Symbol für externen Link](../icons/launch-glyph.svg "Symbol für externen Link").
 
-![Cloud-Service-Modelle.](images/cloud-svc-models.svg "Diagramm mit Cloud-Service-Modellen")
+![Cloud-Service-Modelle.](images/cloud-svc-models.png "Diagramm mit Cloud-Service-Modellen")
 
 Beim IaaS-Modell ist Ihr Provider lediglich für die Wartung der zugrunde liegenden Infrastruktur und die optionale Installation von Software wie Betriebssystemen, Anwendungen und Datenbanken verantwortlich. Sie selbst haben eingeschränkt Zugriff auf die zugrunde liegende Infrastruktur und Sie sind für die Installation Ihrer Software oder für ihre Installation durch Ihren Service-Provider zuständig. Außerdem sind Sie für alle anderen Wartungsarbeiten verantwortlich, was Service-Packs, Virensoftware und Patches einschließt.
 
@@ -99,7 +99,7 @@ Ihr Server ist die Basis Ihrer Infrastruktur. Je nach Ihren Anforderungen stehen
 | [{{site.data.keyword.baremetal_short}}](/docs/bare-metal?topic=bare-metal-about-bm#about-bm)  | Stündliche oder monatliche Berechnung von Servern mit einem einzigen Tenant, die Ihnen zugeordnet sind und in keiner Hinsicht (einschließlich Serverressourcen) gemeinsam mit anderen Kunden genutzt werden. |
 | [{{site.data.keyword.BluVirtServers_short}}](/docs/vsi?topic=virtual-servers-getting-started-tutorial) | Skalierbare virtuelle Server, die mit Cores und Hauptspeicherzuordnungen gekauft werden. |
 | [{{site.data.keyword.vmwaresolutions_short}}](/docs/services/vmwaresolutions?topic=vmware-solutions-getting-started#getting-started) | Ermöglicht die rasche und nahtlose Integration oder Migration von lokalen VMware-Workloads mithilfe einer skalierbaren, sicheren und leistungsstarken Infrastruktur und der branchenweit führenden Technologie für Hybridvirtualisierung von VMware. |
-| [{{site.data.keyword.containerlong_notm}}](/docs/containers?topic=containers-container_index) | Kombiniert Docker-Container, die Kubernetes-Technologie, ein intuitives Benutzererlebnis sowie integrierte Sicherheit und Isolation, um die Bereitstellung, den Betrieb, die Skalierung und die Überwachung containerisierter Apps in einem Cluster von Rechenhosts zu automatisieren. |
+| [{{site.data.keyword.containerlong_notm}}](/docs/containers?topic=containers-getting-started) | Kombiniert Docker-Container, die Kubernetes-Technologie, ein intuitives Benutzererlebnis sowie integrierte Sicherheit und Isolation, um die Bereitstellung, den Betrieb, die Skalierung und die Überwachung containerisierter Apps in einem Cluster von Rechenhosts zu automatisieren. |
 | [{{site.data.keyword.cfee_full_notm}}](/docs/cloud-foundry?topic=cloud-foundry-about) | Ermöglicht die bedarfsgesteuerte Instanziierung mehrerer isolierter, auf Unternehmen abgestimmter Cloud Foundry-Plattformen. |
 | [{{site.data.keyword.openwhisk_short}}](/docs/openwhisk?topic=cloud-functions-getting_started#getting_started) | Eine 'Functions-as-a-Service'-Programmierungsplattform (FaaS), die auf Apache OpenWhisk basiert. |
 {: caption="Tabelle 1. Berechnungsoptionen" caption-side="top"}
@@ -114,7 +114,7 @@ Je nach Ihren Bedürfnissen können Sie zusätzlichen Speicher erwerben. Die fol
 | Option | Beschreibung |
 |--------|---------------|
 | [{{site.data.keyword.blockstorageshort}}](/docs/infrastructure/BlockStorage?topic=BlockStorage-getting-started) | Persistenter iSCSI-Speicher mit hoher Leistung, der unabhängig von Recheninstanzen bereitgestellt und verwaltet wird. iSCSI-basierte LUNs sind über redundante MPIO-Verbindungen (MPIO - Multipath I/O) mit autorisierten Geräten verbunden. |
-| [{{site.data.keyword.filestorage_short}}](/docs/infrastructure/FileStorage?topic=FileStorage-getting-started) | Persistenter, schneller und flexibler NFS-basierter NAS-Dateispeicher. In dieser NAS-Umgebung (NAS - Network-Attached Storage) verfügen Sie über die vollständige Kontrolle über die Dateifreigabefunktion und die Leistung. Dateispeicherfreigaben können über TCP/IP-Routingverbindungen für bis zu 64 berechtigte Geräte verfügbar gemacht werden, um die Ausfallsicherheit sicherzustellen. |
+| [{{site.data.keyword.filestorage_short}}](/docs/infrastructure/FileStorage?topic=FileStorage-getting-started) | Persistenter, schneller und flexibler NFS-basierter NAS-Dateispeicher. In dieser NAS-Umgebung (NAS - Network-Attached Storage) verfügen Sie über die vollständige Kontrolle über die Funktion und Leistung der gemeinsam genutzten Ressourcen. Gemeinsam genutzter Dateispeicher kann über TCP/IP-Routingverbindungen für bis zu 64 berechtigte Geräte verfügbar gemacht werden, um die Ausfallsicherheit sicherzustellen. |
 | [{{site.data.keyword.cos_full_notm}}](/docs/services/cloud-object-storage?topic=cloud-object-storage-getting-started) | Mit IBM Cloud Object Storage gespeicherte Informationen werden verschlüsselt und über mehrere geografische Standorte verteilt. Der Zugriff erfolgt mithilfe einer REST-API über HTTP. Dieser Service verwendet die verteilten Speichertechnologien, die von IBM Cloud Object Storage System (ehemals Cleversafe) bereitgestellt werden. |
 | [{{site.data.keyword.cloud_notm}} Master Data Management](/docs/services/MDMOnCloud?topic=MDMOnCloud-mdmoc_getting_started#mdmoc_getting_started) | Lagern Sie große Datenmengen vom Ihrem lokalen Rechenzentrum in den Cloud Object Storage-Bucket aus. |
 | [{{site.data.keyword.backup_full}}](/docs/infrastructure/Backup?topic=Backup-getting-started) | Ein automatisiertes agentenbasiertes Sicherungssystem, das über ein browserbasierte Verwaltungsdienstprogramm verwaltet wird. Sie können Daten auf Servern in einem oder mehreren Rechenzentren im IBM Cloud-Netz sichern. |

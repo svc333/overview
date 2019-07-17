@@ -2,7 +2,7 @@
 
 copyright:
   years: 2019
-lastupdated: "2019-06-24"
+lastupdated: "2019-07-02"
 
 keywords: personalized onboarding, onboarding program, Global Client Success
 
@@ -46,7 +46,7 @@ subcollection: overview
 </div>
 {: authenticated-content}
 
-무료 온보딩 지원을 요청한 후 {{site.data.keyword.IBM_notm}} Global Client Success 팀원이 영업일 기준으로 2~3일 이내에 귀하에게 연락합니다. IBM은 {{site.data.keyword.cloud}} 플랫폼에서 귀사의 성공을 보장하기 위해 계속해서 관여합니다.
+무료 온보딩 지원을 요청한 후 {{site.data.keyword.IBM_notm}} Global Client Success 팀원이 영업일 기준으로 2~3일 이내에 귀하에게 연락합니다. IBM은 {{site.data.keyword.cloud_notm}} 플랫폼에서 귀사의 성공을 보장하기 위해 계속해서 관여합니다.
 
 ### 더 빨리 연락할 수 있는 방법
 {: #contact-client-success}

@@ -2,7 +2,7 @@
 
 copyright:
   years: 2018, 2019
-lastupdated: "2019-06-20"
+lastupdated: "2019-07-02"
 
 keywords: cloud environment, virtual server, virtual machine, vm, understanding infrastructure, IaaS model
 
@@ -42,7 +42,7 @@ subcollection: overview
 
 クラウド・サービス・モデルには、Infrastructure as a Service (IaaS)、Platform as a Service (PaaS)、Software as a Service (SaaS) の 3 つのタイプがあります。 図 1 では、各サービス・モデル内で誰が何を行うかを説明します。 詳しくは、『[IaaS, PaaS, and SaaS - IBM Cloud service models](https://www.ibm.com/cloud/learn/iaas-paas-saas){: new_window} ![外部リンク・アイコン](../icons/launch-glyph.svg "外部リンク・アイコン")』を参照してください。
 
-![クラウド・サービス・モデル。](images/cloud-svc-models.svg "クラウド・サービス・モデルを示す図")
+![クラウド・サービス・モデル。](images/cloud-svc-models.png "クラウド・サービス・モデルを示す図")
 
 IaaS モデルでは、プロバイダーは、基盤となるインフラストラクチャーの保守のみを担当し、オプションで、オペレーティング・システム、アプリケーション、およびデータベースなどソフトウェアのインストールも担当します。 IT 運用管理者は、基盤のインフラストラクチャーに制限付きでアクセスできます。そして、ソフトウェアのインストールを担当するか、またはサービス・プロバイダーにソフトウェアのインストールを依頼します。 また、サービス・パック、ウィルス・ソフトウェア、およびパッチなどの他のすべての保守も IT 運用管理者が担当します。
 
@@ -99,7 +99,7 @@ SaaS モデルでは、プロバイダーは実際のアプリケーションを
 | [{{site.data.keyword.baremetal_short}}](/docs/bare-metal?topic=bare-metal-about-bm#about-bm)  | お客様専用で、サーバー・リソースを含むどの部分でも他のお客様と共有されない、時間単位または月単位のシングル・テナント・サーバー。 |
 | [{{site.data.keyword.BluVirtServers_short}}](/docs/vsi?topic=virtual-servers-getting-started-tutorial) | コアおよびメモリーの割り振りと共に購入される拡張が容易な仮想サーバー。 |
 | [{{site.data.keyword.vmwaresolutions_short}}](/docs/services/vmwaresolutions?topic=vmware-solutions-getting-started#getting-started) | スケーラブルでセキュアでハイパフォーマンスのインフラストラクチャー、および業界最先端の VMware ハイブリッド仮想化テクノロジーを使用して、オンプレミスの VMware ワークロードを迅速かつシームレスに統合またはマイグレーションします。 |
-| [{{site.data.keyword.containerlong_notm}}](/docs/containers?topic=containers-container_index) | Docker コンテナー、Kubernetes テクノロジー、直観的なユーザー・エクスペリエンス、標準装備のセキュリティーと分離機能を結合させることにより、コンピュート・ホストのクラスター内でコンテナー化アプリのデプロイメント、操作、スケーリング、モニタリングを自動化します。 |
+| [{{site.data.keyword.containerlong_notm}}](/docs/containers?topic=containers-getting-started) | Docker コンテナー、Kubernetes テクノロジー、直観的なユーザー・エクスペリエンス、標準装備のセキュリティーと分離機能を結合させることにより、コンピュート・ホストのクラスター内でコンテナー化アプリのデプロイメント、操作、スケーリング、モニタリングを自動化します。 |
 | [{{site.data.keyword.cfee_full_notm}}](/docs/cloud-foundry?topic=cloud-foundry-about) | 複数の分離したエンタープライズ・グレードの Cloud Foundry プラットフォームをオンデマンドでインスタンス化します。 |
 | [{{site.data.keyword.openwhisk_short}}](/docs/openwhisk?topic=cloud-functions-getting_started#getting_started) | Apache OpenWhisk に基づく Functions-as-a-Service (FaaS) プログラミング・プラットフォーム。 |
 {: caption="表 1. コンピュート・オプション" caption-side="top"}

@@ -3,7 +3,7 @@
 
 copyright:
   years: 2016, 2019
-lastupdated: "2019-05-28"
+lastupdated: "2019-07-02"
 
 keywords: glossary, IBM Cloud glossary
 
@@ -25,32 +25,6 @@ subcollection: overview
 - *「を参照」*という表記は、非優先用語の場合は優先用語を、省略語の場合は正式な用語を参照するように促すための表記です。
 - *「も参照」*は、関連する用語または対比される用語を示します。
 
-<!--If you do not want letter links at the top of your 
-glossary, delete the text between these comment tags.
-[A](#glossa)
-[B](#glossb)
-[C](#glossc)
-[D](#glossd)
-[E](#glosse)
-[F](#glossf)
-[G](#glossg)
-[H](#glossh)
-[I](#glossi)
-[J](#glossj)
-[L](#glossl)
-[M](#glossm)
-[N](#glossn)
-[O](#glosso)
-[P](#glossp)
-[R](#glossr)
-[S](#glosss)
-[T](#glosst)
-[U](#glossu)
-[V](#glossv)
-[W](#glossw)
-
--->
-
 ## A
 {: #glossa}
 
@@ -58,6 +32,16 @@ glossary, delete the text between these comment tags.
 {: #x2012793}
 
 ルールを使用してサブネットのインバウンド・トラフィックおよびアウトバウンド・トラフィックをステートレスに管理するリスト。 アクセス制御リストは、サブネット・レベルでセキュリティーを提供するのに役立ちます。
+
+### アクセス・グループ (access group)
+{: #x2160811}
+
+すべてのグループ・メンバーに同じアクセス権限を割り当てるためにアクセス・ポリシーのサブジェクトとして使用される、グループとして編成されたユーザーおよびサービス ID のセット。
+
+### アクセス・ポリシー (access policy)
+{: #x2853407}
+
+ユーザー、サービス ID、およびアクセス・グループにアカウント・リソースへのアクセス権限を付与する方法。アクセス・ポリシーは、サブジェクト、ターゲット、および役割を含みます。
 
 ### アクセス・トークン (access token)
 {: #x2113001}
@@ -67,27 +51,28 @@ glossary, delete the text between these comment tags.
 ### アクション (action)
 {: #x2012974}
 
-明示的に起動するか、イベントに応じて実行することができる、コード・スニペット。 [「フィード (feed)」](#x3129185)、[「起動 (invoke)」](#x2057232)も参照。
+- 明示的に起動するか、イベントに応じて実行することができる、コード・スニペット。 [「フィード (feed)」](/docs/overview?topic=overview-glossary#x3129185)、[「起動 (invoke)」](/docs/overview?topic=overview-glossary#x2057232)も参照。
+- サービスのコンテキストで実行されるタスク。
 
 ### アフィニティー (affinity)
 {: #x2149238}
 
-同じネットワーク・ノード上で実行されている複数のコンテナー・グループ・インスタンス。 [「アンチアフィニティー (anti-affinity)」](#x8888040)も参照。
+同じネットワーク・ノード上で実行されている複数のコンテナー・グループ・インスタンス。 [「アンチアフィニティー (anti-affinity)」](/docs/overview?topic=overview-glossary#x8888040)も参照。
 
 ### アンチアフィニティー (anti-affinity)
 {: #x8888040}
 
-アプリの高可用性を確保するために別々のネットワーク・ノード上で実行される複数のコンテナー・グループ・インスタンス。 [「アフィニティー (affinity)」](#x2149238)も参照。
+アプリの高可用性を確保するために別々のネットワーク・ノード上で実行される複数のコンテナー・グループ・インスタンス。 [「アフィニティー (affinity)」](/docs/overview?topic=overview-glossary#x2149238)も参照。
 
 ### API
 {: #x2008805}
 
-[「アプリケーション・プログラミング・インターフェース (application programming interface)」](#x2000186)を参照。
+[「アプリケーション・プログラミング・インターフェース (application programming interface)」](/docs/overview?topic=overview-glossary#x2000186)を参照。
 
 ### app
 {: #x4281528}
 
-Web アプリケーションまたはモバイル・デバイス・アプリケーション。 [「モバイル・アプリケーション (mobile application)」](#x4258535)、[「Web アプリケーション (web application)」](#x2116500)も参照。
+Web アプリケーションまたはモバイル・デバイス・アプリケーション。 [「モバイル・アプリケーション (mobile application)」](/docs/overview?topic=overview-glossary#x4258535)、[「Web アプリケーション (web application)」](/docs/overview?topic=overview-glossary#x2116500)も参照。
 
 ### アプリケーション・プログラミング・インターフェース (API) (application programming interface (API))
 {: #x2000186}
@@ -107,7 +92,7 @@ Web アプリケーションまたはモバイル・デバイス・アプリケ�
 ### AuthN
 {: #x7470446}
 
-[「認証 (authentication)」](#x2014567)を参照。
+[「認証 (authentication)」](/docs/overview?topic=overview-glossary#x2014567)を参照。
 
 ### 権限 (AuthZ) (authorization (AuthZ))
 {: #x2014653}
@@ -117,12 +102,12 @@ Web アプリケーションまたはモバイル・デバイス・アプリケ�
 ### AuthZ
 {: #x7470448}
 
-[「権限 (authorization)」](#x2014653)を参照。
+[「権限 (authorization)」](/docs/overview?topic=overview-glossary#x2014653)を参照。
 
 ### アベイラビリティー・ゾーン (availability zone)
 {: #x7018171}
 
-IBM Containers が稼働する地域内の場所。
+{{site.data.keyword.containerlong}} が稼働する地域内の場所。
 
 
 ## B
@@ -136,12 +121,12 @@ IBM Containers が稼働する地域内の場所。
 ### 基本イメージ (base image)
 {: #x5366487}
 
-親イメージを持たないイメージ。 [「イメージ (image)」](#x2024928)、[「親イメージ (parent image)」](#x8439210)も参照。
+親イメージを持たないイメージ。 [「イメージ (image)」](/docs/overview?topic=overview-glossary#x2024928)、[「親イメージ (parent image)」](/docs/overview?topic=overview-glossary#x8439210)も参照。
 
 ### ベータ版 (beta offering)
 {: #x9774283}
 
-IBM が評価およびテストを目的としてのみ提供するオファリング。 いかなる保証、SLA、およびサポートも提供されません。 ベータ版は、実動で使用するためのものではありません。
+{{site.data.keyword.IBM_notm}} が評価およびテストを目的としてのみ提供するオファリング。いかなる保証、SLA、およびサポートも提供されません。 ベータ版は、実動で使用するためのものではありません。
 
 ### バインド (bind)
 {: #x2000361}
@@ -156,7 +141,7 @@ IBM が評価およびテストを目的としてのみ提供するオファリ�
 ### Blue-Green デプロイメント (blue-green deployment)
 {: #x7807335}
 
-Blue および Green と呼ばれる 2 つのほぼ同一な実稼働環境を実行することによって、継続的デリバリーを可能にし、ダウン時間を最小限にするデプロイメント手法。 一方の環境 (例えば Blue) は稼働中の実稼働環境であり、もう一方の環境 (例えば Green) は最終テストおよびデプロイメントに使用できます。 アプリケーションが Green にデプロイされると、Green が実稼働環境になり、Blue はアイドルになります。 [「Red-Black デプロイ (red-black deployment)」](#x8439181)も参照。
+Blue および Green と呼ばれる 2 つのほぼ同一な実稼働環境を実行することによって、継続的デリバリーを可能にし、ダウン時間を最小限にするデプロイメント手法。 一方の環境 (例えば Blue) は稼働中の実稼働環境であり、もう一方の環境 (例えば Green) は最終テストおよびデプロイメントに使用できます。 アプリケーションが Green にデプロイされると、Green が実稼働環境になり、Blue はアイドルになります。 [「Red-Black デプロイ (red-black deployment)」](/docs/overview?topic=overview-glossary#x8439181)も参照。
 
 ### ボイラープレート (boilerplate)
 {: #x7233930}
@@ -166,7 +151,7 @@ Blue および Green と呼ばれる 2 つのほぼ同一な実稼働環境を�
 ### ボーダーレス (borderless)
 {: #x8439189}
 
-パブリック・クラウド、専用クラウド、ローカル・クラウドのデプロイ・モデルを含むオープンな非専有開発プラットフォームに関する用語。 [「専用クラウド (dedicated cloud)」](#x8439199)、[「ローカル・クラウド (local cloud)」](#x8439194)、[「パブリック・クラウド (public cloud)」](#x4585370)も参照。
+パブリック・クラウド、専用クラウド、ローカル・クラウドのデプロイ・モデルを含むオープンな非専有開発プラットフォームに関する用語。 [「専用クラウド (dedicated cloud)」](/docs/overview?topic=overview-glossary#x8439199)、[「ローカル・クラウド (local cloud)」](/docs/overview?topic=overview-glossary#x8439194)、[「パブリック・クラウド (public cloud)」](/docs/overview?topic=overview-glossary#x4585370) も参照。
 
 ### ビルドパック (buildpack)
 {: #x7233925}
@@ -180,12 +165,12 @@ Blue および Green と呼ばれる 2 つのほぼ同一な実稼働環境を�
 ### CA
 {: #x2015942}
 
-[「認証局 (CA) (certificate authority)」](#x2016383)を参照。
+[「認証局 (CA) (certificate authority)」](/docs/overview?topic=overview-glossary#x2016383)を参照。
 
 ### 認証局 (CA) (certificate authority (CA))
 {: #x2016383}
 
-デジタル証明書を発行する、信頼できるサード・パーティーの組織または企業。 一般に、認証局は、固有の証明書を付与された個人の ID を検証します。 [「中間証明書 (intermediate certificate)」](#x3753781)、[「Secure Sockets Layer (SSL)」](#x2038004)、[「トラステッド・ルート (trusted root)」](#x2042234)も参照。
+デジタル証明書を発行する、信頼できるサード・パーティーの組織または企業。 一般に、認証局は、固有の証明書を付与された個人の ID を検証します。 [「中間証明書 (intermediate certificate)」](/docs/overview?topic=overview-glossary#x3753781)、[「Secure Sockets Layer (SSL)」](/docs/overview?topic=overview-glossary#x2038004)、[「トラステッド・ルート (trusted root)」](/docs/overview?topic=overview-glossary#x2042234)も参照。
 
 ### 証明書署名要求 (CSR) (certificate signing request (CSR))
 {: #x3530521}
@@ -195,12 +180,12 @@ Blue および Green と呼ばれる 2 つのほぼ同一な実稼働環境を�
 ### CLI
 {: #x2008863}
 
-[「コマンド・ライン・インターフェース (command-line interface)」](#x2051424)を参照。
+[「コマンド・ライン・インターフェース (command-line interface)」](/docs/overview?topic=overview-glossary#x2051424)を参照。
 
 ### クライアント (client)
 {: #x2000644}
 
-サーバーからのサービスを要求するソフトウェア・プログラムまたはコンピューター。 [「ホスト (host)」](#x2002243)も参照。
+サーバーからのサービスを要求するソフトウェア・プログラムまたはコンピューター。 [「ホスト (host)」](/docs/overview?topic=overview-glossary#x2002243)も参照。
 
 ### クラウド・コンピューティング (cloud computing)
 {: #x3877850}
@@ -230,7 +215,7 @@ Blue および Green と呼ばれる 2 つのほぼ同一な実稼働環境を�
 ### コンテナー (container)
 {: #x2010901}
 
-別個の論理オペレーティング・システム・インスタンスを同時に実行できるシステム構成体。 コンテナーは、ファイル・システムのレイヤーを使用して、イメージ・サイズを最小化し、再利用を促進します。 [「イメージ (image)」](#x2024928)、[「レイヤー (layer)」](#x2028320)、[「レジストリー (registry)」](#x2064940)も参照。
+別個の論理オペレーティング・システム・インスタンスを同時に実行できるシステム構成体。 コンテナーは、ファイル・システムのレイヤーを使用して、イメージ・サイズを最小化し、再利用を促進します。 [「イメージ (image)」](/docs/overview?topic=overview-glossary#x2024928)、[「レイヤー (layer)」](/docs/overview?topic=overview-glossary#x2028320)、[「レジストリー (registry)」](/docs/overview?topic=overview-glossary#x2064940)も参照。
 
 ### 資格情報 (credential)
 {: #x2018813}
@@ -240,12 +225,12 @@ Blue および Green と呼ばれる 2 つのほぼ同一な実稼働環境を�
 ### CSR
 {: #x2140147}
 
-「[証明書署名要求 (certificate signing request)](#x3530521)」を参照。
+「[証明書署名要求 (certificate signing request)](/docs/overview?topic=overview-glossary#x3530521)」を参照。
 
 ### カスタム・ドメイン (custom domain)
 {: #x5728384}
 
-ユーザーが要求をアプリケーションに送信するために選択した URL のカスタマイズされた部分。 カスタム・ドメインは、経路の一部を構成します。 カスタム・ドメインとして、共有ドメイン、共有サブドメイン、または共有ドメインおよびホストを使用できます。 [「ドメイン (domain)」](#x2021210)、[「ホスト (host)」](#x2002243)、[「経路 (route)」](#x2037338)、[「サブドメイン (subdomain)」](#x2040080)、[「Uniform Resource Locator」](#x2042491)も参照。
+ユーザーが要求をアプリケーションに送信するために選択した URL のカスタマイズされた部分。 カスタム・ドメインは、経路の一部を構成します。 カスタム・ドメインとして、共有ドメイン、共有サブドメイン、または共有ドメインおよびホストを使用できます。 [「ドメイン (domain)」](/docs/overview?topic=overview-glossary#x2021210)、[「ホスト (host)」](/docs/overview?topic=overview-glossary#x2002243)、[「経路 (route)」](/docs/overview?topic=overview-glossary#x2037338)、[「サブドメイン (subdomain)」](/docs/overview?topic=overview-glossary#x2040080)、[「Uniform Resource Locator」](/docs/overview?topic=overview-glossary#x2042491)も参照。
 
 
 ## D
@@ -274,7 +259,7 @@ Blue および Green と呼ばれる 2 つのほぼ同一な実稼働環境を�
 ### DC
 {: #x2052913}
 
-[「データ・センター (data center)」](#x2439906)を参照。
+[「データ・センター (data center)」](/docs/overview?topic=overview-glossary#x2439906)を参照。
 
 ### DEA
 {: #x2019805}
@@ -284,12 +269,12 @@ Blue および Green と呼ばれる 2 つのほぼ同一な実稼働環境を�
 ### 専用クラウド (dedicated cloud)
 {: #x8439199}
 
-シングル・テナント・ハードウェアを使用したインフラストラクチャーを提供するプライベート・クラウド・コンピューティング環境。 [「ボーダーレス (borderless)」](#x8439189)も参照。
+シングル・テナント・ハードウェアを使用したインフラストラクチャーを提供するプライベート・クラウド・コンピューティング環境。 [「ボーダーレス (borderless)」](/docs/overview?topic=overview-glossary#x8439189)も参照。
 
 ### デプロイメント (deployment)
 {: #x2104544}
 
-ビルドの出力を取得し、構成プロパティーとともに出力をパッケージし、パッケージを事前定義の場所にインストールしてテストまたは実行できるようにするプロセス。 [「ステージ (stage)」](#x2067189)も参照。
+ビルドの出力を取得し、構成プロパティーとともに出力をパッケージし、パッケージを事前定義の場所にインストールしてテストまたは実行できるようにするプロセス。 [「ステージ (stage)」](/docs/overview?topic=overview-glossary#x2067189)も参照。
 
 ### DevOps
 {: #x5784896}
@@ -299,7 +284,7 @@ Blue および Green と呼ばれる 2 つのほぼ同一な実稼働環境を�
 ### ドメイン (domain)
 {: #x2021210}
 
-経路を指定するネーミング階層の一部。 例えば「example.com」など。 IBM Cloud では、ドメインは組織と関連付けられています。 ドメイン・オブジェクトはアプリと直接にはバインドされません。 [「カスタム・ドメイン (custom domain)」](#x5728384)、[「ホスト (host)」](#x2002243)、[「組織 (organization)」](#x2032585)、[「経路 (route)」](#x2037338)、[「サブドメイン (subdomain)」](#x2040080)、[「Uniform Resource Locator」](#x2042491)も参照。
+経路を指定するネーミング階層の一部。 例えば「example.com」など。 {{site.data.keyword.cloud_notm}} では、ドメインは組織と関連付けられます。ドメイン・オブジェクトはアプリと直接にはバインドされません。 [「カスタム・ドメイン (custom domain)」](/docs/overview?topic=overview-glossary#x5728384)、[「ホスト (host)」](/docs/overview?topic=overview-glossary#x2002243)、[「組織 (organization)」](/docs/overview?topic=overview-glossary#x2032585)、[「経路 (route)」](/docs/overview?topic=overview-glossary#x2037338)、[「サブドメイン (subdomain)」](/docs/overview?topic=overview-glossary#x2040080)、[「Uniform Resource Locator」](/docs/overview?topic=overview-glossary#x2042491)も参照。
 
 ### ドロップレット (droplet)
 {: #x7470343}
@@ -318,12 +303,12 @@ Blue および Green と呼ばれる 2 つのほぼ同一な実稼働環境を�
 ### エンドポイント (endpoint)
 {: #x2026820}
 
-環境内の API またはサービスのアドレス。 API は、エンドポイントを公開し、同時に他のサービスのエンドポイントを呼び出します。 [「ルート (route)」](#x2037338)も参照。
+環境内の API またはサービスのアドレス。 API は、エンドポイントを公開し、同時に他のサービスのエンドポイントを呼び出します。 [「ルート (route)」](/docs/overview?topic=overview-glossary#x2037338)も参照。
 
 ### 試験的なオファリング (experimental offering)
 {: #x9774278}
 
-IBM が評価およびテストを目的としてのみ提供し、不安定であったり、以前のバージョンとの互換性がなかったりする可能性のあるオファリング。 試験的なオファリングは、十分な通知期間を設けずに中止されることがあります。 いかなる保証、SLA、およびサポートも提供されません。 試験的なオファリングは、実動で使用するためのものではありません。
+{{site.data.keyword.IBM_notm}} が評価およびテストを目的としてのみ提供し、不安定であったり、以前のバージョンとの互換性がなかったりする可能性のあるオファリング。試験的なオファリングは、十分な通知期間を設けずに中止されることがあります。 いかなる保証、SLA、およびサポートも提供されません。 試験的なオファリングは、実動で使用するためのものではありません。
 
 ## F
 {: #glossf}
@@ -336,12 +321,12 @@ IBM が評価およびテストを目的としてのみ提供し、不安定で�
 ### フィード (feed)
 {: #x3129185}
 
-外部イベント・ソースを構成してトリガー・イベントを発生させるコード断片。 [「アクション (action)」](#x2012974)も参照。
+外部イベント・ソースを構成してトリガー・イベントを発生させるコード断片。 [「アクション (action)」](/docs/overview?topic=overview-glossary#x2012974)も参照。
 
 ### ファイル共用 (file share)
 {: #x2022902}
 
-ユーザーがファイルを保管して共有する、IBM Cloud 環境内の永続的ストレージ・システム。 IBM Containers では、ユーザーはファイル共有に Docker ボリュームをマウントできる。
+ユーザーがファイルを保管して共有する、{{site.data.keyword.cloud_notm}} 環境内の永続ストレージ・システム。{{site.data.keyword.containershort_notm}} では、ユーザーはファイル共有に Docker ボリュームをマウントできる。
 
 ### 発生 (fire)
 {: #x2239904}
@@ -365,7 +350,7 @@ IBM が評価およびテストを目的としてのみ提供し、不安定で�
 ### GA
 {: #x2117930}
 
-[「一般出荷可能日 (general availability)」](#x2117947)を参照。
+[「一般出荷可能日 (general availability)」](/docs/overview?topic=overview-glossary#x2117947)を参照。
 
 ### GB 時間 (GB-hour)
 {: #x7470477}
@@ -385,7 +370,7 @@ IBM が評価およびテストを目的としてのみ提供し、不安定で�
 ### GUID
 {: #x2390457}
 
-[「グローバル固有 ID (globally unique identifier)」](#x2390455)を参照。
+[「グローバル固有 ID (globally unique identifier)」](/docs/overview?topic=overview-glossary#x2390455)を参照。
 
 
 ## H
@@ -399,12 +384,12 @@ IBM が評価およびテストを目的としてのみ提供し、不安定で�
 ### 高負荷 API 呼び出し (heavy API call)
 {: #x7690468}
 
-データの書き込み、削除、または挿入を行うクライアント・オペレーション。 高負荷 API 呼び出しはデータに作用するため、軽負荷 API 呼び出しより、多くのリソースを消費します。 [「軽負荷 API 呼び出し (light API call)」](#x7690463)も参照。
+データの書き込み、削除、または挿入を行うクライアント・オペレーション。 高負荷 API 呼び出しはデータに作用するため、軽負荷 API 呼び出しより、多くのリソースを消費します。 [「軽負荷 API 呼び出し (light API call)」](/docs/overview?topic=overview-glossary#x7690463)も参照。
 
 ### ホスト (host)
 {: #x2002243}
 
-ネットワークに接続され、そのネットワークへのアクセス・ポイントを提供するコンピューター。 ホストは、クライアントにも、サーバーにも、あるいは同時にクライアントとサーバーの両方にもなることができます。 [「クライアント (client)」](#x2000644)、[「カスタム・ドメイン (custom domain)」](#x5728384)、[「ドメイン (domain)」](#x2021210)、[「経路 (route)」](#x2037338)、[「サブドメイン (subdomain)」](#x2040080)、[「Uniform Resource Locator」](#x2042491)も参照。
+ネットワークに接続され、そのネットワークへのアクセス・ポイントを提供するコンピューター。 ホストは、クライアントにも、サーバーにも、あるいは同時にクライアントとサーバーの両方にもなることができます。 [「クライアント (client)」](/docs/overview?topic=overview-glossary#x2000644)、[「カスタム・ドメイン (custom domain)」](/docs/overview?topic=overview-glossary#x5728384)、[「ドメイン (domain)」](/docs/overview?topic=overview-glossary#x2021210)、[「経路 (route)」](/docs/overview?topic=overview-glossary#x2037338)、[「サブドメイン (subdomain)」](/docs/overview?topic=overview-glossary#x2040080)、[「Uniform Resource Locator」](/docs/overview?topic=overview-glossary#x2042491)も参照。
 
 ### HTTP メソッド (HTTP method)
 {: #x2024674}
@@ -414,7 +399,12 @@ Hypertext Transfer Protocol (HTTP) によって使用されるアクション。
 ### HTTPS
 {: #x2193603}
 
-[「Hypertext Transfer Protocol Secure」](#x2237225)を参照。
+[「Hypertext Transfer Protocol Secure」](/docs/overview?topic=overview-glossary#x2237225)を参照。
+
+### HVM
+{: #x9736815}
+
+[「ハードウェア仮想マシン・モード (hardware virtual machine mode)」](/docs/overview?topic=overview-glossary#x9736811)を参照。
 
 ### ハイブリッド・クラウド (hybrid cloud)
 {: #x4585327}
@@ -433,14 +423,14 @@ Hypertext Transfer Protocol (HTTP) によって使用されるアクション。
 ### IaaS
 {: #x4585337}
 
-[「Infrastructure as a Service」](#x4585332)を参照。
+[「Infrastructure as a Service」](/docs/overview?topic=overview-glossary#x4585332)を参照。
 
 ### IAM
 {: #x2193801}
 
-[ID およびアクセス管理 (identity and access management)](#x7547040)を参照。
+[ID およびアクセス管理 (identity and access management)](/docs/overview?topic=overview-glossary#x7547040)を参照。
 
-### IBM Cloud
+### {{site.data.keyword.cloud_notm}}
 {: #x7301758}
 
 Web、モバイル、ビッグデータ、スマート・デバイスなど、すべてのタイプのアプリをビルド、管理、および実行するための、クラウド・ベースのオープン・スタンダード・プラットフォームです。 提供する機能には、Java、モバイル・バックエンド開発、アプリケーション・モニターに加え、エコシステム・パートナーやオープン・ソースが提供する機能も含まれ、それらすべてがクラウド内の「サービス」として提供されます。
@@ -453,7 +443,7 @@ Web、モバイル、ビッグデータ、スマート・デバイスなど、�
 ### イメージ (image)
 {: #x2024928}
 
-コンテナーを作成するためにコンテナー・ランタイム内で使用されるファイル・システムおよびその実行パラメーター。 ファイル・システムは、継続的な更新によってイメージが構築されるときに作成されて実行時に結合される、一連のレイヤーで構成されます。 コンテナーが実行する際に、イメージの状態は保持されません。 [「基本イメージ (base image)」](#x5366487)、[「コンテナー (container)」](#x2010901)、[「レイヤー (layer)」](#x2028320)、[「名前空間 (namespace)」](#x2031005)、[「親イメージ (parent image)」](#x8439210)、[「プライベート・イメージ・リポジトリー (private image repository)」](#x8439215)、[「レジストリー (registry)」](#x2064940)も参照。
+コンテナーを作成するためにコンテナー・ランタイム内で使用されるファイル・システムおよびその実行パラメーター。 ファイル・システムは、継続的な更新によってイメージが構築されるときに作成されて実行時に結合される、一連のレイヤーで構成されます。 コンテナーが実行する際に、イメージの状態は保持されません。 [「基本イメージ (base image)」](/docs/overview?topic=overview-glossary#x5366487)、[「コンテナー (container)」](/docs/overview?topic=overview-glossary#x2010901)、[「レイヤー (layer)」](/docs/overview?topic=overview-glossary#x2028320)、[「名前空間 (namespace)」](/docs/overview?topic=overview-glossary#x2031005)、[「親イメージ (parent image)」](/docs/overview?topic=overview-glossary#x8439210)、[「プライベート・イメージ・リポジトリー (private image repository)」](/docs/overview?topic=overview-glossary#x8439215)、[「レジストリー (registry)」](/docs/overview?topic=overview-glossary#x2064940)も参照。
 
 ### Infrastructure as a Service (IaaS)
 {: #x4585332}
@@ -468,7 +458,7 @@ Web、モバイル、ビッグデータ、スマート・デバイスなど、�
 ### 中間証明書 (intermediate certificate)
 {: #x3753781}
 
-特にエンド・エンティティー・サーバー証明書を発行する目的で、トラステッド・ルート認証局 (CA) によって発行される、従属証明書。 その結果として、トラステッド・ルート CA から始まり、中間証明書を経て、組織に発行される SSL 証明書に至る、証明書チェーンが形成されます。 [「認証局 (CA) (certificate authority)」](#x2016383)、[「トラステッド・ルート (trusted root)」](#x2042234)も参照。
+特にエンド・エンティティー・サーバー証明書を発行する目的で、トラステッド・ルート認証局 (CA) によって発行される、従属証明書。 その結果として、トラステッド・ルート CA から始まり、中間証明書を経て、組織に発行される SSL 証明書に至る、証明書チェーンが形成されます。 [「認証局 (CA) (certificate authority)」](/docs/overview?topic=overview-glossary#x2016383)、[「トラステッド・ルート (trusted root)」](/docs/overview?topic=overview-glossary#x2042234)も参照。
 
 ### Internet of Things (IoT)
 {: #x6714341}
@@ -478,12 +468,12 @@ Web、モバイル、ビッグデータ、スマート・デバイスなど、�
 ### 起動 (invoke)
 {: #x2057232}
 
-アクションを活動化すること。 [「アクション (action)」](#x2012974)も参照。
+アクションを活動化すること。 [「アクション (action)」](/docs/overview?topic=overview-glossary#x2012974)も参照。
 
 ### IoT
 {: #x6714346}
 
-[「IoT」](#x6714341)を参照。
+[「Internet of Things (IoT)」](/docs/overview?topic=overview-glossary#x6714341)を参照。
 
 
 ## J
@@ -502,7 +492,7 @@ JavaScript のオブジェクト・リテラル記法に基づく単純なデー
 ### JSON
 {: #x4267096}
 
-[「JavaScript Object Notation」](#x3292165)を参照。
+[「JavaScript Object Notation」](/docs/overview?topic=overview-glossary#x3292165)を参照。
 
 
 ## L
@@ -511,17 +501,17 @@ JavaScript のオブジェクト・リテラル記法に基づく単純なデー
 ### レイヤー (layer)
 {: #x2028320}
 
-親イメージの変更バージョン。 イメージはレイヤーで構成され、変更バージョンは、新しいイメージを作成するために親イメージの上にレイヤー化されます。 [「コンテナー (container)」](#x2010901)、[「イメージ (image)」](#x2024928)も参照。
+親イメージの変更バージョン。 イメージはレイヤーで構成され、変更バージョンは、新しいイメージを作成するために親イメージの上にレイヤー化されます。 [「コンテナー (container)」](/docs/overview?topic=overview-glossary#x2010901)、[「イメージ (image)」](/docs/overview?topic=overview-glossary#x2024928)も参照。
 
 ### LDAP
 {: #x2481619}
 
-[「Lightweight Directory Access Protocol」](#x2028538)を参照。
+[「Lightweight Directory Access Protocol」](/docs/overview?topic=overview-glossary#x2028538)を参照。
 
 ### 軽負荷 API 呼び出し (light API call)
 {: #x7690463}
 
-データを読み取るだけのクライアント・オペレーション。 軽負荷 API 呼び出しは、単一の機能を実行するため、高負荷 API 呼び出しより、消費するリソースは少なくなります。 [「高負荷 API 呼び出し (heavy API call)」](#x7690468)も参照。
+データを読み取るだけのクライアント・オペレーション。 軽負荷 API 呼び出しは、単一の機能を実行するため、高負荷 API 呼び出しより、消費するリソースは少なくなります。 [「高負荷 API 呼び出し (heavy API call)」](/docs/overview?topic=overview-glossary#x7690468)も参照。
 
 ### Lightweight Directory Access Protocol (LDAP)
 {: #x2028538}
@@ -531,7 +521,7 @@ TCP/IP を使用して X.500 モデルをサポートするディレクトリー
 ### ローカル・クラウド (local cloud)
 {: #x8439194}
 
-お客様のデータ・センター内にあるクラウド・コンピューティング環境。 ローカル・クラウドはオンプレミスで、待ち時間とセキュリティーが向上します。 [「ボーダーレス (borderless)」](#x8439189)も参照。
+お客様のデータ・センター内にあるクラウド・コンピューティング環境。 ローカル・クラウドはオンプレミスで、待ち時間とセキュリティーが向上します。 [「ボーダーレス (borderless)」](/docs/overview?topic=overview-glossary#x8439189)も参照。
 
 
 ## M
@@ -540,17 +530,17 @@ TCP/IP を使用して X.500 モデルをサポートするディレクトリー
 ### MBaaS
 {: #x7044865}
 
-[「Mobile Backend as a service」](#x7044858)を参照。
+[「Mobile Backend as a service」](/docs/overview?topic=overview-glossary#x7044858)を参照。
 
 ### モバイル・アプリ (mobile app)
 {: #x7636517}
 
-[「モバイル・アプリケーション (mobile application)」](#x4258535)を参照。
+[「モバイル・アプリケーション (mobile application)」](/docs/overview?topic=overview-glossary#x4258535)を参照。
 
 ### モバイル・アプリケーション (モバイル・アプリ) (mobile application (mobile app))
 {: #x4258535}
 
-モバイル・プラットフォーム向けに設計されたアプリケーション。 Web アプリケーションと同様、モバイル・アプリは情報の静的表示以上の機能 (ほぼリアルタイムのニュース・フィルタリングなど) を提供します。 [「アプリ (app)」](#x4281528)も参照。
+モバイル・プラットフォーム向けに設計されたアプリケーション。 Web アプリケーションと同様、モバイル・アプリは情報の静的表示以上の機能 (ほぼリアルタイムのニュース・フィルタリングなど) を提供します。 [「アプリ (app)」](/docs/overview?topic=overview-glossary#x4281528)も参照。
 
 ### Mobile Backend as a service (MBaaS)
 {: #x7044858}
@@ -565,13 +555,12 @@ TCP/IP を使用して X.500 モデルをサポートするディレクトリー
 ### マルチゾーン地域 (MZR) (multizone region (MZR))
 {: #x9774820}
 
-フォールト・トレランスを強化するために複数のゾーンのデータ・センターに分散されている地域。 [「ゾーン (zone)」](#x2070723)も参照。
-
+フォールト・トレランスを強化するために複数のゾーンのデータ・センターに分散されている地域。 [「ゾーン (zone)」](/docs/overview?topic=overview-glossary#x2070723)も参照。
 
 ### MZR
 {: #x9774831}
 
-[「マルチゾーン地域 (multizone region)」](#x9774820)を参照。
+[「マルチゾーン地域 (multizone region)」](/docs/overview?topic=overview-glossary#x9774820)を参照。
 
 ## N
 {: #glossn}
@@ -579,7 +568,7 @@ TCP/IP を使用して X.500 モデルをサポートするディレクトリー
 ### 名前空間 (namespace)
 {: #x2031005}
 
-IBM Cloud レジストリー内で組織のイメージ・リポジトリーを識別する固有の名前。 [「イメージ (image)」](#x2024928)、[「プライベート・イメージ・リポジトリー (private image repository)」](#x8439215)も参照。
+IBM Cloud レジストリー内で組織のイメージ・リポジトリーを識別する固有の名前。 [「イメージ (image)」](/docs/overview?topic=overview-glossary#x2024928)、[「プライベート・イメージ・リポジトリー (private image repository)」](/docs/overview?topic=overview-glossary#x8439215)も参照。
 
 ### ネットワーク・アドレス変換 (network address translation)
 {: #x2031199}
@@ -598,7 +587,7 @@ IBM Cloud レジストリー内で組織のイメージ・リポジトリーを�
 ### on-prem
 {: #x6969434}
 
-[「オンプレミス (on-premises)」](#x4561212)を参照。
+[「オンプレミス (on-premises)」](/docs/overview?topic=overview-glossary#x4561212)を参照。
 
 ### オンプレミス (on-prem) (on-premises (on-prem))
 {: #x4561212}
@@ -608,12 +597,12 @@ IBM Cloud レジストリー内で組織のイメージ・リポジトリーを�
 ### org
 {: #x7470494}
 
-[「組織 (organization)」](#x2032585)を参照。
+[「組織 (organization)」](/docs/overview?topic=overview-glossary#x2032585)を参照。
 
 ### 組織 (org) (organization (org))
 {: #x2032585}
 
-IBM Cloud におけるユーザーのグループ化の方法。 組織は、割り当て量の管理に使用されます。 1 つの組織内のユーザーは、メモリーおよびサービス・インスタンスの割り当て量を共有します。 [「ドメイン (domain)」](#x2021210)、[「スペース (space)」](#x2039442)も参照。
+IBM Cloud におけるユーザーのグループ化の方法。 組織は、割り当て量の管理に使用されます。 1 つの組織内のユーザーは、メモリーおよびサービス・インスタンスの割り当て量を共有します。 [「ドメイン (domain)」](/docs/overview?topic=overview-glossary#x2021210)、[「スペース (space)」](/docs/overview?topic=overview-glossary#x2039442)も参照。
 
 
 ## P
@@ -622,7 +611,7 @@ IBM Cloud におけるユーザーのグループ化の方法。 組織は、割
 ### PaaS
 {: #x2029790}
 
-[「Platform as a Service」](#x2029786)を参照。
+[「Platform as a Service」](/docs/overview?topic=overview-glossary#x2029786)を参照。
 
 ### 準仮想化モード (paravirtualized mode)
 {: #x9736806}
@@ -632,7 +621,7 @@ IBM Cloud におけるユーザーのグループ化の方法。 組織は、割
 ### 親イメージ (parent image)
 {: #x8439210}
 
-別のイメージのベースを提供するイメージ。 例えば、Ubuntu Linux は IBM Liberty イメージの親イメージです。 [「基本イメージ (base image)」](#x5366487)、[「イメージ (image)」](#x2024928)も参照。
+別のイメージのベースを提供するイメージ。 例えば、Ubuntu Linux は IBM Liberty イメージの親イメージです。 [「基本イメージ (base image)」](/docs/overview?topic=overview-glossary#x5366487)、[「イメージ (image)」](/docs/overview?topic=overview-glossary#x2024928)も参照。
 
 ### Platform as a Service (PaaS)
 {: #x2029786}
@@ -642,7 +631,7 @@ IBM Cloud におけるユーザーのグループ化の方法。 組織は、割
 ### ポッド (pod)
 {: #x8461823}
 
-Kubernetes クラスター上で実行されているコンテナーのグループ。ポッドは、スタンドアロン・アプリケーションまたはマイクロサービスのいずれかとして実行可能な作業単位です。
+Kubernetes クラスター上で実行されているコンテナーのグループ。 ポッドは、スタンドアロン・アプリケーションまたはマイクロサービスのいずれかとして実行可能な作業単位です。
 
 ### Point-of-Presence (PoP)
 {: #x5458832}
@@ -652,17 +641,17 @@ Kubernetes クラスター上で実行されているコンテナーのグルー
 ### PoP
 {: #x7234683}
 
-[「Point-of-Presence」](#x5458832)を参照。
+[「Point-of-Presence」](/docs/overview?topic=overview-glossary#x5458832)を参照。
 
 ### プライベート・クラウド (private cloud)
 {: #x4585362}
 
-エンタープライズおよびパートナー・ネットワークのメンバーにアクセスを制限したクラウド・コンピューティング環境。 [「パブリック・クラウド (public cloud)」](#x4585370)も参照。
+エンタープライズおよびパートナー・ネットワークのメンバーにアクセスを制限したクラウド・コンピューティング環境。 [「パブリック・クラウド (public cloud)」](/docs/overview?topic=overview-glossary#x4585370)も参照。
 
 ### プライベート・イメージ・リポジトリー (private image repository)
 {: #x8439215}
 
-組織の IBM Cloud レジストリーとその名前空間の組み合わせ。 プライベート・イメージ・リポジトリーは、コマンドでイメージを参照する際に使用されます。 [「イメージ (image)」](#x2024928)、[「名前空間 (namespace)」](#x2031005)も参照。
+組織の IBM Cloud レジストリーとその名前空間の組み合わせ。 プライベート・イメージ・リポジトリーは、コマンドでイメージを参照する際に使用されます。 [「イメージ (image)」](/docs/overview?topic=overview-glossary#x2024928)、[「名前空間 (namespace)」](/docs/overview?topic=overview-glossary#x2031005)も参照。
 
 ### 秘密鍵 (private key)
 {: #x2034701}
@@ -672,7 +661,7 @@ Kubernetes クラスター上で実行されているコンテナーのグルー
 ### プライベート・リソース (private resource)
 {: #x9439035}
 
-アカウント所有者とそれに含まれているアカウントにのみ表示されるエントリー。 リソースが作成されると、デフォルトでは、プライベートになります。 [「パブリック・リソース (public resource)」](#x9439040)も参照。
+アカウント所有者とそれに含まれているアカウントにのみ表示されるエントリー。 リソースが作成されると、デフォルトでは、プライベートになります。 [「パブリック・リソース (public resource)」](/docs/overview?topic=overview-glossary#x9439040)も参照。
 
 ### プライベート・サービス (private service)
 {: #x7690456}
@@ -682,7 +671,7 @@ Kubernetes クラスター上で実行されているコンテナーのグルー
 ### パブリック・クラウド (public cloud)
 {: #x4585370}
 
-規格化されたリソース (インフラストラクチャー、マルチテナント・ハードウェア、サービスなど) に従量課金制で加入者がアクセスできるクラウド・コンピューティング環境。 [「ボーダーレス (borderless)」](#x8439189)、[「プライベート・クラウド (private cloud)」](#x4585362)も参照。
+規格化されたリソース (インフラストラクチャー、マルチテナント・ハードウェア、サービスなど) に従量課金制で加入者がアクセスできるクラウド・コンピューティング環境。 [「ボーダーレス (borderless)」](/docs/overview?topic=overview-glossary#x8439189)、[「プライベート・クラウド (private cloud)」](/docs/overview?topic=overview-glossary#x4585362)も参照。
 
 ### パブリック・ゲートウェイ (public gateway)
 {: #x9594389}
@@ -692,7 +681,7 @@ Kubernetes クラスター上で実行されているコンテナーのグルー
 ### パブリック・リソース (public resource)
 {: #x9439040}
 
-IBM Cloud カタログ内のすべてのユーザーに表示されるエントリー。 パブリック・リソースは、任意のプロバイダー (IBM またはサード・パーティー・プロバイダー) によってビルドできます。 [「プライベート・リソース (private resource)」](#x9439035)も参照。
+IBM Cloud カタログ内のすべてのユーザーに表示されるエントリー。 パブリック・リソースは、任意のプロバイダー (IBM またはサード・パーティー・プロバイダー) によってビルドできます。 [「プライベート・リソース (private resource)」](/docs/overview?topic=overview-glossary#x9439035)も参照。
 
 ### プッシュ (push)
 {: #x2035465}
@@ -716,7 +705,7 @@ IBM Cloud カタログ内のすべてのユーザーに表示されるエント�
 ### Red-Black デプロイ (red-black deployment)
 {: #x8439181}
 
-同期したテスト、開発、デプロイを可能にすることで、継続的デリバリーを実現するデプロイ手法。 最初、アクティブ環境ではトラフィックを流し (Red)、開発は非アクティブ環境で行われます (Black)。 デプロイが開始したら、以前アクティブであった旧バージョンの環境の経路を使用不可にするまで、両方の環境が稼働します (Red-Red)。その後、旧バージョンの環境は削除され (Black)、新環境だけがアクティブ環境として機能します。 [「Blue-Green デプロイ (blue-green deployment)」](#x7807335)も参照。
+同期したテスト、開発、デプロイを可能にすることで、継続的デリバリーを実現するデプロイ手法。 最初、アクティブ環境ではトラフィックを流し (Red)、開発は非アクティブ環境で行われます (Black)。 デプロイが開始したら、以前アクティブであった旧バージョンの環境の経路を使用不可にするまで、両方の環境が稼働します (Red-Red)。その後、旧バージョンの環境は削除され (Black)、新環境だけがアクティブ環境として機能します。 [「Blue-Green デプロイ (blue-green deployment)」](/docs/overview?topic=overview-glossary#x7807335)も参照。
 
 ### 地域 (region)
 {: #x2091391}
@@ -728,7 +717,7 @@ IBM Cloud カタログ内のすべてのユーザーに表示されるエント�
 ### レジストリー (registry)
 {: #x2064940}
 
-コンテナーの作成に使用されるイメージを含むパブリック・リポジトリーまたはプライベート・リポジトリー。 [「コンテナー (container)」](#x2010901)、[「イメージ (image)」](#x2024928)も参照。
+コンテナーの作成に使用されるイメージを含むパブリック・リポジトリーまたはプライベート・リポジトリー。 [「コンテナー (container)」](/docs/overview?topic=overview-glossary#x2010901)、[「イメージ (image)」](/docs/overview?topic=overview-glossary#x2024928)も参照。
 
 ### Representational State Transfer (REST)
 {: #x3220976}
@@ -748,12 +737,17 @@ IBM Cloud カタログ内のすべてのユーザーに表示されるエント�
 ### REST
 {: #x3220987}
 
-[「Representational State Transfer」](#x3220976)を参照。
+[「Representational State Transfer」](/docs/overview?topic=overview-glossary#x3220976)を参照。
+
+### 役割 (role)
+{: #x2065412}
+
+許可またはアクセス権限のセット。
 
 ### 経路 (route)
 {: #x2037338}
 
-要求をアプリケーションに送信する際に使用する URL。 経路は、アプリケーションがプッシュされる際に指定されたオプションのホスト (またはサブドメイン) およびドメインで構成されています。 例えば、myapp.example.com という経路では、myapp がホストで、example.com がドメインです。 1 つの経路は 1 つ以上のアプリケーションと関連付けることができます。 カスタム・ドメインが指定されない場合、IBM Cloud は、アプリケーションへの経路にデフォルトの共有ドメインを使用します。 [「カスタム・ドメイン (custom domain)」](#x5728384)、[「ドメイン (domain)」](#x2021210)、[「エンドポイント (endpoint)」](#x2026820)、[「ホスト (host)」](#x2002243)、[「サブドメイン (subdomain)」](#x2040080)、[「Uniform Resource Locator」](#x2042491)も参照。
+要求をアプリケーションに送信する際に使用する URL。 経路は、アプリケーションがプッシュされる際に指定されたオプションのホスト (またはサブドメイン) およびドメインで構成されています。 例えば、myapp.example.com という経路では、myapp がホストで、example.com がドメインです。 1 つの経路は 1 つ以上のアプリケーションと関連付けることができます。 カスタム・ドメインが指定されない場合、IBM Cloud は、アプリケーションへの経路にデフォルトの共有ドメインを使用します。 [「カスタム・ドメイン (custom domain)」](/docs/overview?topic=overview-glossary#x5728384)、[「ドメイン (domain)」](/docs/overview?topic=overview-glossary#x2021210)、[「エンドポイント (endpoint)」](/docs/overview?topic=overview-glossary#x2026820)、[「ホスト (host)」](/docs/overview?topic=overview-glossary#x2002243)、[「サブドメイン (subdomain)」](/docs/overview?topic=overview-glossary#x2040080)、[「Uniform Resource Locator」](/docs/overview?topic=overview-glossary#x2042491)も参照。
 
 ### ルール (rule)
 {: #x2037526}
@@ -764,7 +758,7 @@ IBM Cloud カタログ内のすべてのユーザーに表示されるエント�
 ### ランタイム (runtime)
 {: #x2391929}
 
-アプリケーションの実行に使用する一連のリソース。 [「スターター (starter)」](#x7470511)も参照。
+アプリケーションの実行に使用する一連のリソース。 [「スターター (starter)」](/docs/overview?topic=overview-glossary#x7470511)も参照。
 
 
 ## S
@@ -773,7 +767,7 @@ IBM Cloud カタログ内のすべてのユーザーに表示されるエント�
 ### SaaS
 {: #x4585391}
 
-[「Software as a Service」](#x4585386)を参照。
+[「Software as a Service」](/docs/overview?topic=overview-glossary#x4585386)を参照。
 
 ### スケール (scale)
 {: #x2004442}
@@ -788,7 +782,7 @@ IBM Cloud カタログ内のすべてのユーザーに表示されるエント�
 ### Secure Sockets Layer (SSL)
 {: #x2038004}
 
-通信プライバシーを提供するセキュリティー・プロトコル。 SSL を使用することにより、クライアント/サーバー・アプリケーションは、盗聴、不正アクセス、およびメッセージ偽造を防止するように設計された方法で通信できます。 [「認証局 (CA) (certificate authority)」](#x2016383)も参照。
+通信プライバシーを提供するセキュリティー・プロトコル。 SSL を使用することにより、クライアント/サーバー・アプリケーションは、盗聴、不正アクセス、およびメッセージ偽造を防止するように設計された方法で通信できます。 [「認証局 (CA) (certificate authority)」](/docs/overview?topic=overview-glossary#x2016383)も参照。
 
 ### 選択出荷版 (select availability)
 {: #x9773835}
@@ -800,6 +794,11 @@ IBM Cloud カタログ内のすべてのユーザーに表示されるエント�
 
 すぐに使用できる機能 (データベース、メッセージング、およびコード実行のための Web ソフトウェア) や、
 アプリケーション管理機能またはモニター機能を提供するクラウド拡張機能。 通常、サービスはインストールや保守を必要とせず、組み合わせてアプリケーションを作成することもできます。
+
+### サービス ID (service ID)
+{: #x9148163}
+
+クラウド環境およびその他のサービスに対してサービスまたはアプリケーションを認証する ID。サービス ID にアクセス・ポリシーを割り当てて、クラウド環境にデプロイされたアプリケーションがクラウド・サービスにアクセスできるようにするためにサービス ID を使用できます。
 
 ### セッション (session)
 {: #x2004539}
@@ -814,7 +813,7 @@ IBM Cloud カタログ内のすべてのユーザーに表示されるエント�
 ### 単一ゾーン地域 (SZR) (single-zone region (SZR))
 {: #x9774825}
 
-1 つのゾーン内にあるデータ・センターで構成される地域。 [「ゾーン (zone)」](#x2070723)も参照。
+1 つのゾーン内にあるデータ・センターで構成される地域。 [「ゾーン (zone)」](/docs/overview?topic=overview-glossary#x2070723)も参照。
 
 ### Software as a Service (SaaS)
 {: #x4585386}
@@ -824,27 +823,27 @@ IBM Cloud カタログ内のすべてのユーザーに表示されるエント�
 ### SOR
 {: #x2214822}
 
-[「SoR (定型業務処理システム) (system of record (SOR))」](#x6735061)を参照。
+[「SoR (定型業務処理システム) (system of record (SOR))」](/docs/overview?topic=overview-glossary#x6735061)を参照。
 
 ### スペース (space)
 {: #x2039442}
 
-IBM Cloud org 内のサブグループ。組織のメンバーであるユーザーは、特定の役割 (開発者、管理者、または監査員など) に関連付けられた許可により、その 1 つ以上のスペースに対するアクセス権限を付与されます。 スペースのすべてのメンバーがアプリを表示することができますが、アプリを作成したりサービス・インスタンスをスペースに追加できるのは開発者の役割を持つメンバーのみです。 アプリとサービス・インスタンスはスペースと関連付けられています。 [「組織 (organization)」](#x2032585)も参照。
+{{site.data.keyword.cloud_notm}} 組織内のサブグループ。組織のメンバーであるユーザーは、特定の役割 (開発者、管理者、または監査員など) に関連付けられた許可により、組織の 1 つ以上のスペースに対するアクセス権限を付与されます。スペースのすべてのメンバーがアプリを表示することができますが、アプリを作成したりサービス・インスタンスをスペースに追加できるのは開発者の役割を持つメンバーのみです。 アプリとサービス・インスタンスはスペースと関連付けられています。 [「組織 (organization)」](/docs/overview?topic=overview-glossary#x2032585)も参照。
 
 ### SSL
 {: #x2483907}
 
-[「Secure Sockets Layer (SSL)」](#x2038004)を参照。
+[「Secure Sockets Layer (SSL)」](/docs/overview?topic=overview-glossary#x2038004)を参照。
 
 ### SSO
 {: #x3456450}
 
-[「シングル・サインオン (single sign-on)」](#x2213318) を参照。
+[「シングル・サインオン (single sign-on)」](/docs/overview?topic=overview-glossary#x2213318) を参照。
 
 ### ステージ (stage)
 {: #x2067189}
 
-実稼働環境にデプロイする前に実行またはテストするために、アプリケーション、サービス、またはインスタンスを事前定義の場所にデプロイすること。 [「デプロイメント (deployment)」](#x2104544)も参照。
+実稼働環境にデプロイする前に実行またはテストするために、アプリケーション、サービス、またはインスタンスを事前定義の場所にデプロイすること。 [「デプロイメント (deployment)」](/docs/overview?topic=overview-glossary#x2104544)も参照。
 
 ### スタンザ (stanza)
 {: #x2094743}
@@ -854,17 +853,22 @@ IBM Cloud org 内のサブグループ。組織のメンバーであるユーザ
 ### スターター (starter)
 {: #x7470511}
 
-特定のビルドパックで構成された事前定義サービスおよびアプリケーション・コードを含むテンプレート。スターターは、特定のプログラミング言語で書かれたアプリケーション・コードである場合も、アプリケーション・コードと一連のサービスの組み合わせである場合もあります。 [「ランタイム (runtime)」](#x2391929)も参照。
+特定のビルドパックで構成された事前定義サービスおよびアプリケーション・コードを含むテンプレート。スターターは、特定のプログラミング言語で書かれたアプリケーション・コードである場合も、アプリケーション・コードと一連のサービスの組み合わせである場合もあります。 [「ランタイム (runtime)」](/docs/overview?topic=overview-glossary#x2391929)も参照。
 
 ### サブドメイン (subdomain)
 {: #x2040080}
 
-より大きなドメインの一部分を構成するドメイン。 [「カスタム・ドメイン (custom domain)」](#x5728384)、[「ドメイン (domain)」](#x2021210)、[「ホスト (host)」](#x2002243)、[「経路 (route)」](#x2037338)、[「Uniform Resource Locator」](#x2042491)も参照。
+より大きなドメインの一部分を構成するドメイン。 [「カスタム・ドメイン (custom domain)」](/docs/overview?topic=overview-glossary#x5728384)、[「ドメイン (domain)」](/docs/overview?topic=overview-glossary#x2021210)、[「ホスト (host)」](/docs/overview?topic=overview-glossary#x2002243)、[「経路 (route)」](/docs/overview?topic=overview-glossary#x2037338)、[「Uniform Resource Locator」](/docs/overview?topic=overview-glossary#x2042491)も参照。
+
+### サブジェクト (subject)
+{: #x2380043}
+
+アクセス・ポリシーによってアクセス権限が付与される、ユーザー、サービス ID、またはアクセス・グループ。 
 
 ### サブネット (subnet)
 {: #x4282974}
 
-[サブネットワーク (subnetwork)](#x2040149) を参照。
+[サブネットワーク (subnetwork)](/docs/overview?topic=overview-glossary#x2040149) を参照。
 
 ### サブネットワーク (サブネット) (subnetwork (subnet))
 {: #x2040149}
@@ -874,21 +878,26 @@ IBM Cloud org 内のサブグループ。組織のメンバーであるユーザ
 ### SoE (協働のための情報活用システム) (system of engagement)
 {: #x6528306}
 
-E メール、コラボレーション・システム、およびネットワーキングを使用した相互作用をユーザーに推奨するテクノロジーを取り込む情報技術 (IT) システム。  SoE は、しばしばクラウド・テクノロジーを使用して、レコードのシステムの実用性を拡張します。 [「SoR (定型業務処理システム) (system of record (SOR))」](#x6735061)も参照。
+E メール、コラボレーション・システム、およびネットワーキングを使用した相互作用をユーザーに推奨するテクノロジーを取り込む情報技術 (IT) システム。  SoE は、しばしばクラウド・テクノロジーを使用して、レコードのシステムの実用性を拡張します。 [「SoR (定型業務処理システム) (system of record (SOR))」](/docs/overview?topic=overview-glossary#x6735061)も参照。
 
 ### SoR (定型業務処理システム) (system of record (SOR))
 {: #x6735061}
 
-ビジネス・レコードを保管し、標準プロセスを自動化する情報ストレージ・システム (データベースやアプリケーションなど)。 [「SoE (協働のための情報活用システム) (system of engagement)」](#x6528306)も参照。
+ビジネス・レコードを保管し、標準プロセスを自動化する情報ストレージ・システム (データベースやアプリケーションなど)。 [「SoE (協働のための情報活用システム) (system of engagement)」](/docs/overview?topic=overview-glossary#x6528306)も参照。
 
 ### SZR
 {: #x9774829}
 
-[「単一ゾーン地域 (single-zone region)」](#x9774825)を参照。
+[「単一ゾーン地域 (single-zone region)」](/docs/overview?topic=overview-glossary#x9774825)を参照。
 
 
 ## T
 {: #glosst}
+
+### ターゲット (target)
+{: #x2262507}
+
+アクセス・ポリシーでサブジェクトにアクセス権限を提供する対象のリソースまたはリソース・セット。リソース・セットは、1 つ以上の属性によって定義されます。例えば、1 つのリソース・グループ内のすべてのリソース、特定のリソース・タイプのすべてのリソース、または特定のリソース ID を持つリソースをターゲットにすることができます。
 
 ### テンプレート (template)
 {: #x2041200}
@@ -913,7 +922,7 @@ IBM 以外の会社が提供する製品またはサービスに関する用語�
 ### トラステッド・ルート (trusted root)
 {: #x2042234}
 
-信頼できる認証局 (CA) によって署名された証明書。 [3">「認証局 (CA) (certificate authority (CA))」](#x2016383)、[「中間証明書 (intermediate certificate)」](#x3753781)も参照。
+信頼できる認証局 (CA) によって署名された証明書。 [「認証局 (CA) (certificate authority (CA))」](/docs/overview?topic=overview-glossary#x2016383)、[「中間証明書 (intermediate certificate)」](/docs/overview?topic=overview-glossary#x3753781)も参照。
 
 
 ## U
@@ -927,23 +936,22 @@ Web 上のコンテンツの識別に使用される固有のアドレス。 URI
 ### Uniform Resource Locator (URL)
 {: #x2042491}
 
-インターネットなどのネットワークでアクセス可能な情報リソースの固有アドレス。 URL には、情報リソースへのアクセスに使用されるプロトコルの省略名と、情報リソースを位置指定するためにプロトコルが使用する情報が含まれています。 [「カスタム・ドメイン (custom domain)」](#x5728384)、[「ドメイン (domain)」](#x2021210)、[「ホスト (host)」](#x2002243)、[「経路 (route)」](#x2037338)、[「サブドメイン (subdomain)」](#x2040080)も参照。
+インターネットなどのネットワークでアクセス可能な情報リソースの固有アドレス。 URL には、情報リソースへのアクセスに使用されるプロトコルの省略名と、情報リソースを位置指定するためにプロトコルが使用する情報が含まれています。 [「カスタム・ドメイン (custom domain)」](/docs/overview?topic=overview-glossary#x5728384)、[「ドメイン (domain)」](/docs/overview?topic=overview-glossary#x2021210)、[「ホスト (host)」](/docs/overview?topic=overview-glossary#x2002243)、[「経路 (route)」](/docs/overview?topic=overview-glossary#x2037338)、[「サブドメイン (subdomain)」](/docs/overview?topic=overview-glossary#x2040080)も参照。
 
 ### URI
 {: #x2116461}
 
-[「Uniform Resource Identifier」](#x2116436)を参照。
+[「Uniform Resource Identifier」](/docs/overview?topic=overview-glossary#x2116436)を参照。
 
 ### URL
 {: #x2042718}
 
-[「Uniform Resource Locator」](#x2042491)を参照。
+[「Uniform Resource Locator」](/docs/overview?topic=overview-glossary#x2042491)を参照。
 
-### ユーザー階層 (user hierarchy)
-{: #userhierarchy}
+### user
+{: #x2069659}
 
-他のユーザーをアカウントに招待するクラシック・インフラストラクチャー・ユーザーにとってのユーザー管理の関係。 そして、それらのユーザーは他のユーザーをアカウントに招待し、以下同様に続きます。 クラシック・インフラストラクチャー・ユーザーが別のユーザーをアカウントに招待すると、クラシック・インフラストラクチャー・ユーザーは親ユーザーになります。 その親ユーザーの子ユーザーが他のユーザーをアカウントに招待すると、招待されたユーザーは元の親の子孫になり、元の親はそれらのユーザーの祖先と見なされます。
-
+アカウント内で個人の ID として使用される IBMid または SoftLayer ID。
 
 ## V
 {: #glossv}
@@ -961,7 +969,7 @@ Web 上のコンテンツの識別に使用される固有のアドレス。 URI
 ### 仮想マシン (VM) (virtual machine (VM))
 {: #x2043165}
 
-実際のマシンのようにプログラムを実行するマシンのソフトウェア実装。 [「仮想サーバー (virtual server)」](#x2455638)も参照。
+実際のマシンのようにプログラムを実行するマシンのソフトウェア実装。 [「仮想サーバー (virtual server)」](/docs/overview?topic=overview-glossary#x2455638)も参照。
 
 ### 仮想プライベート・クラウド (virtual private cloud)
 {: #x4585403}
@@ -971,23 +979,28 @@ Web 上のコンテンツの識別に使用される固有のアドレス。 URI
 ### 仮想プライベート・ネットワーク (virtual private network)
 {: #x2043188}
 
-データがパブリック・ネットワーク経由で転送される場合であっても、2 つのエンドポイント間のプライベート接続。
+データがパブリック・ネットワーク経由で転送される場合であっても、2 つのエンドポイント間のプライベート接続。 
 プライベート・ネットワークへの接続が確立されたかのようにデータを共有できます。 通常は、最大限のデータ・セキュリティーとプライバシーが得られるように、VPN を認証や暗号化などのセキュリティー方式と組み合わせて使用します。
 
 ### 仮想サーバー (virtual server)
 {: #x2455638}
 
-アプリケーションをサポートするために、他のサーバーとリソースを共用するサーバー。 [「仮想マシン (virtual machine)」](#x2043165)も参照。
+アプリケーションをサポートするために、他のサーバーとリソースを共用するサーバー。 [「仮想マシン (virtual machine)」](/docs/overview?topic=overview-glossary#x2043165)も参照。
+
+### VLAN
+{: #x2484337}
+
+[「仮想ローカル・エリア・ネットワーク (virtual local area network)」](/docs/overview?topic=overview-glossary#x2438470)を参照。
 
 ### VM
 {: #x2043253}
 
-[「仮想マシン (virtual machine)」](#x2043165)を参照。
+[「仮想マシン (virtual machine)」](/docs/overview?topic=overview-glossary#x2043165)を参照。
 
 ### VPN
 {: #x2484351}
 
-[「仮想プライベート・ネットワーク (virtual private network)」](#x2043188) を参照。
+[「仮想プライベート・ネットワーク (virtual private network)」](/docs/overview?topic=overview-glossary#x2043188) を参照。
 
 ### ボリューム (volume)
 {: #x2043272}
@@ -1000,22 +1013,22 @@ Web 上のコンテンツの識別に使用される固有のアドレス。 URI
 ### WAR
 {: #x2844389}
 
-[「Web アーカイブ (Web archive)」](#x2116506)を参照。
+[「Web アーカイブ (Web archive)」](/docs/overview?topic=overview-glossary#x2116506)を参照。
 
 ### WAR ファイル (WAR file)
 {: #x2406005}
 
-[「Web アーカイブ (Web archive)」](#x2116506)を参照。
+[「Web アーカイブ (Web archive)」](/docs/overview?topic=overview-glossary#x2116506)を参照。
 
 ### Web アプリ (web app)
 {: #x7636628}
 
-[「Web アプリケーション」](#x2116500)を参照。
+[「Web アプリケーション」](/docs/overview?topic=overview-glossary#x2116500)を参照。
 
 ### Web アプリケーション (Web アプリ) (web application (web app))
 {: #x2116500}
 
-Web ブラウザーでアクセス可能であり、情報の静的表示以上の機能 (ユーザーによるデータベース照会など) を提供するアプリケーション。 Web アプリケーションの一般的なコンポーネントとしては、HTML ページ、JSP ページ、サーブレットなどがあります。 [「アプリ (app)」](#x4281528)も参照。
+Web ブラウザーでアクセス可能であり、情報の静的表示以上の機能 (ユーザーによるデータベース照会など) を提供するアプリケーション。 Web アプリケーションの一般的なコンポーネントとしては、HTML ページ、JSP ページ、サーブレットなどがあります。 [「アプリ (app)」](/docs/overview?topic=overview-glossary#x4281528)も参照。
 
 ### Web アーカイブ (WAR) (web archive (WAR))
 {: #x2116506}
@@ -1033,5 +1046,5 @@ Web アプリケーションのインストールおよび実行に必要なす�
 ### ゾーン (zone)
 {: #x2070723}
 
-独立した障害ドメイン。 ゾーンは、フォールト・トレランスの向上および待ち時間の短縮を支援するために設計された抽象化です。 [「マルチゾーン地域 (multizone region)」](#x9774820)、[「単一ゾーン地域 (single-zone region)」](#x9774825)も参照。
+独立した障害ドメイン。 ゾーンは、フォールト・トレランスの向上および待ち時間の短縮を支援するために設計された抽象化です。 [「マルチゾーン地域 (multizone region)」](/docs/overview?topic=overview-glossary#x9774820)、[「単一ゾーン地域 (single-zone region)」](/docs/overview?topic=overview-glossary#x9774825)も参照。
 

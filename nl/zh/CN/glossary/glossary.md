@@ -3,7 +3,7 @@
 
 copyright:
   years: 2016, 2019
-lastupdated: "2019-05-28"
+lastupdated: "2019-07-02"
 
 keywords: glossary, IBM Cloud glossary
 
@@ -25,32 +25,6 @@ subcollection: overview
 - *请参阅*从非首选术语指引您查看首选术语或者从缩写指引您查看拼写完整的形式。
 - *另请参阅*指引您查看相关术语或对照术语。
 
-<!--If you do not want letter links at the top of your 
-glossary, delete the text between these comment tags.
-[A](#glossa)
-[B](#glossb)
-[C](#glossc)
-[D](#glossd)
-[E](#glosse)
-[F](#glossf)
-[G](#glossg)
-[H](#glossh)
-[I](#glossi)
-[J](#glossj)
-[L](#glossl)
-[M](#glossm)
-[N](#glossn)
-[O](#glosso)
-[P](#glossp)
-[R](#glossr)
-[S](#glosss)
-[T](#glosst)
-[U](#glossu)
-[V](#glossv)
-[W](#glossw)
-
--->
-
 ## [A]
 {: #glossa1}
 
@@ -63,7 +37,7 @@ glossary, delete the text between these comment tags.
 ### 安全套接字层 (Secure Sockets Layer, SSL)
 {: #x2038004}
 
-用于确保通信保密性的安全协议。使用 SSL，客户机/服务器应用程序能够在防止窃听、篡改和消息伪造的方式下进行通信。另请参阅[认证中心 (certificate authority)](#x2016383)。
+用于确保通信保密性的安全协议。使用 SSL，客户机/服务器应用程序能够在防止窃听、篡改和消息伪造的方式下进行通信。另请参阅[认证中心 (certificate authority)](/docs/overview?topic=overview-glossary#x2016383)。
 
 ## [B]
 {: #glossb1}
@@ -81,31 +55,33 @@ glossary, delete the text between these comment tags.
 ### 本地云 (local cloud)
 {: #x8439194}
 
-客户机数据中心内的一种云计算环境。本地云是内部部署云，可缩短等待时间，提高安全性。另请参阅[无界限 (borderless)](#x8439189)。
+客户机数据中心内的一种云计算环境。本地云是内部部署云，可缩短等待时间，提高安全性。另请参阅[无界限 (borderless)](/docs/overview?topic=overview-glossary#x8439189)。
 
 
 ### 编译打包 (stage)
 {: #x2067189}
 
-将应用程序、服务或实例部署到预定义的位置，以便您可以在将其部署到生产环境之前对其进行运行或测试。另请参阅[部署 (deployment)](#x2104544)。
+将应用程序、服务或实例部署到预定义的位置，以便您可以在将其部署到生产环境之前对其进行运行或测试。另请参阅[部署 (deployment)](/docs/overview?topic=overview-glossary#x2104544)。
 
 ### 部署 (deployment)
 {: #x2104544}
 
-一个过程，用于检索构建输出，使用配置属性打包输出，然后将打好的包安装到预定义的位置，以供测试或运行。另请参阅[编译打包 (stage)](#x2067189)。
+一个过程，用于检索构建输出，使用配置属性打包输出，然后将打好的包安装到预定义的位置，以供测试或运行。另请参阅[编译打包 (stage)](/docs/overview?topic=overview-glossary#x2067189)。
+
 
 ## [C]
 {: #glossc1}
 
-### 操作
+### 操作 (action)
 {: #x2012974}
 
-代码片段可以显式调用，也可以作为对事件的响应来运行。另请参阅[订阅源 (feed)](#x3129185) 和[调用 (invoke)](#x2057232)。
+- 代码片段可以显式调用，也可以作为对事件的响应来运行。另请参阅[订阅源 (feed)](/docs/overview?topic=overview-glossary#x3129185) 和[调用 (invoke)](/docs/overview?topic=overview-glossary#x2057232)。
+- 在服务上下文中执行的任务。
 
 ### 层 (layer)
 {: #x2028320}
 
-父映像的更改版本。映像由层组成，通过更改的版本层叠于父映像之上来创建新映像。另请参阅[容器 (container)](#x2010901) 和[映像 (image)](#x2024928)。
+父映像的更改版本。映像由层组成，通过更改的版本层叠于父映像之上来创建新映像。另请参阅[容器 (container)](/docs/overview?topic=overview-glossary#x2010901) 和[映像 (image)](/docs/overview?topic=overview-glossary#x2024928)。
 
 ### 触发器 (trigger)
 {: #x2005384}
@@ -139,7 +115,7 @@ glossary, delete the text between these comment tags.
 ### 单专区区域 (single-zone region, SZR)
 {: #x9774825}
 
-由位于一个专区中的数据中心组成的区域，另请参阅[专区 (zone)](#x2070723)。
+由位于一个专区中的数据中心组成的区域，另请参阅[专区 (zone)](/docs/overview?topic=overview-glossary#x2070723)。
 
 ### 第三方 (third-party)
 {: #x2877945}
@@ -149,28 +125,28 @@ glossary, delete the text between these comment tags.
 ### 调用 (invoke)
 {: #x2057232}
 
-激活操作。另请参阅[操作 (action)](#x2012974)。
+激活操作。另请参阅[操作 (action)](/docs/overview?topic=overview-glossary#x2012974)。
 
-### 订阅源
+### 订阅源 (feed)
 {: #x3129185}
 
-一段代码，用于配置外部事件源以触发触发器事件。另请参阅[操作 (action)](#x2012974)。
+一段代码，用于配置外部事件源以触发触发器事件。另请参阅[操作 (action)](/docs/overview?topic=overview-glossary#x2012974)。
 
 ### 定制域 (custom domain)
 {: #x5728384}
 
-由用户选择的 URL 的定制部分，用于将请求定向到应用程序。定制域是路径的一部分。定制域可以是共享域、共享子域或共享域和主机。另请参阅[域 (domain)](#x2021210)、[主机 (host)](#x2002243)、[路径 (route)](#x2037338)、[子域 (subdomain)](#x2040080) 和[统一资源定位符 (Uniform Resource Locator)](#x2042491)。
+由用户选择的 URL 的定制部分，用于将请求定向到应用程序。定制域是路径的一部分。定制域可以是共享域、共享子域或共享域和主机。另请参阅[域 (domain)](/docs/overview?topic=overview-glossary#x2021210)、[主机 (host)](/docs/overview?topic=overview-glossary#x2002243)、[路径 (route)](/docs/overview?topic=overview-glossary#x2037338)、[子域 (subdomain)](/docs/overview?topic=overview-glossary#x2040080) 和[统一资源定位符 (Uniform Resource Locator)](/docs/overview?topic=overview-glossary#x2042491)。
 
 
 ### 端点 (endpoint)
 {: #x2026820}
 
-环境中的 API 或服务的地址。API 会公开一个端点并同时调用其他服务的端点。另请参阅[路由 (route)](#x2037338)。
+环境中的 API 或服务的地址。API 会公开一个端点并同时调用其他服务的端点。另请参阅[路由 (route)](/docs/overview?topic=overview-glossary#x2037338)。
 
 ### 多专区区域 (multizone region, MZR)
 {: #x9774820}
 
-跨多个专区中的数据中心分布的区域，可提高容错能力。另请参阅[专区 (zone)](#x2070723)。
+跨多个专区中的数据中心分布的区域，可提高容错能力。另请参阅[专区 (zone)](/docs/overview?topic=overview-glossary#x2070723)。
 
 ## [F]
 {: #glossf1}
@@ -178,7 +154,12 @@ glossary, delete the text between these comment tags.
 ### 反亲缘关系 (anti-affinity)
 {: #x8888040}
 
-在不同网络节点上运行的两个或更多容器组实例，用于确保应用程序的高可用性。另请参阅[亲缘关系 (affinity)](#x2149238)。
+在不同网络节点上运行的两个或更多容器组实例，用于确保应用程序的高可用性。另请参阅[亲缘关系 (affinity)](/docs/overview?topic=overview-glossary#x2149238)。
+
+### 访问策略 (access policy)
+{: #x2853407}
+
+用于向用户、服务标识和访问组授予帐户资源访问权的方法。访问策略包含主体、目标和角色。
 
 ### 访问控制表 (access control list)
 {: #x2012793}
@@ -190,20 +171,31 @@ glossary, delete the text between these comment tags.
 
 使用者使用的值，用于代表用户取得受保护资源的访问权，而不是使用用户的服务提供者凭证。
 
+### 访问组 (access group)
+{: #x2160811}
+
+一组用户和服务标识，它们组织到用作访问策略的主体的组，该访问策略用于为所有组成员分配相同访问权。
+
 ### 浮动 IP 地址 (floating IP address)
 {: #x6326428}
 
 一种可路由的公共 IP 地址，使用一对一网络地址转换 (NAT)，以便服务器可以与云环境中的公用因特网和专用子网通信。浮动 IP 地址通过虚拟网络接口卡 (vNIC) 与实例（例如，虚拟服务器实例、负载均衡器或 VPN 网关）相关联。
 
+### 服务标识 (service ID)
+{: #x9148163}
+
+一种身份，用于向云环境和其他服务认证服务或应用程序。可以为服务标识分配访问策略，并将服务标识用于支持部署到云环境的应用程序访问云服务。
+
 ### 服务 (service)
 {: #x2038343}
 
-一种云扩展，用于提供现成可用的功能（例如数据库、消息传递以及用于运行代码的 Web 软件），或者提供应用程序管理或监视功能。服务通常无需安装或维护，并且可组合在一起来创建应用程序。
+一种云扩展，用于提供现成可用的功能（例如数据库、消息传递以及用于运行代码的 Web 软件），或者提供应用程序管理或监视功能。服务通常不需要安装或维护，并且可组合在一起来创建应用程序。
 
 ### 父映像 (parent image)
 {: #x8439210}
 
-作为其他映像基础的映像。例如，Ubuntu Linux 是 IBM Liberty 映像的父映像。另请参阅[基本映像 (base image)](#x5366487) 和[映像 (image)](#x2024928)。
+作为其他映像基础的映像。例如，Ubuntu Linux 是 IBM Liberty 映像的父映像。另请参阅[基本映像 (base image)](/docs/overview?topic=overview-glossary#x5366487) 和[映像 (image)](/docs/overview?topic=overview-glossary#x2024928)。
+
 
 ## [G]
 {: #glossg1}
@@ -216,12 +208,12 @@ glossary, delete the text between these comment tags.
 ### 公共云 (public cloud)
 {: #x4585370}
 
-一种云计算环境，只有按使用量付费的订户可以访问标准化资源，例如基础架构、多租户硬件和服务。另请参阅[无界限 (borderless)](#x8439189) 和[私有云 (private cloud)](#x4585362)。
+一种云计算环境，只有按使用量付费的订户可以访问标准化资源，例如基础架构、多租户硬件和服务。另请参阅[无界限 (borderless)](/docs/overview?topic=overview-glossary#x8439189) 和[私有云 (private cloud)](/docs/overview?topic=overview-glossary#x4585362)。
 
 ### 公共资源 (public resource)
 {: #x9439040}
 
-对 IBM Cloud 目录中的所有人可视的条目。公共资源可以由任何提供者（IBM 或第三方提供者）构建。另请参阅[专用资源 (private resource)](#x9439035)。
+对 IBM Cloud 目录中的所有人可视的条目。公共资源可以由任何提供者（IBM 或第三方提供者）构建。另请参阅[专用资源 (private resource)](/docs/overview?topic=overview-glossary#x9439035)。
 
 ### 工件 (artifact)
 {: #x2262995}
@@ -245,7 +237,7 @@ glossary, delete the text between these comment tags.
 ### 红黑部署 (red-black deployment)
 {: #x8439181}
 
-一种部署方法，通过启用同步测试、开发和部署来推动持续交付。最初，开发在非活动环境中进行（黑），而活动环境继续处理流量（红）。部署开始后，这两个环境都会变为活动（红红），直到前版环境（前活动环境）上的路由被禁用，并随后在新环境用作唯一活动环境时被除去（黑）为止。另请参阅[蓝绿部署 (blue-green deployment)](#x7807335)。
+一种部署方法，通过启用同步测试、开发和部署来推动持续交付。最初，开发在非活动环境中进行（黑），而活动环境继续处理流量（红）。部署开始后，这两个环境都会变为活动（红红），直到前版环境（前活动环境）上的路由被禁用，并随后在新环境用作唯一活动环境时被除去（黑）为止。另请参阅[蓝绿部署 (blue-green deployment)](/docs/overview?topic=overview-glossary#x7807335)。
 
 ### 会话 (session)
 {: #x2004539}
@@ -257,13 +249,14 @@ glossary, delete the text between these comment tags.
 
 一种云计算环境，由多个公共和私有资源组成。
 
+
 ## [J]
 {: #glossj1}
 
 ### 基本映像 (base image)
 {: #x5366487}
 
-没有父映像的映像。另请参阅[映像 (image)](#x2024928) 和[父映像 (parent image)](#x8439210)。
+没有父映像的映像。另请参阅[映像 (image)](/docs/overview?topic=overview-glossary#x2024928) 和[父映像 (parent image)](/docs/overview?topic=overview-glossary#x8439210)。
 
 ### 基础架构即服务 (infrastructure as a service, IaaS)
 {: #x4585332}
@@ -273,13 +266,17 @@ glossary, delete the text between these comment tags.
 ### 记录系统 (system of record, SOR)
 {: #x6735061}
 
-一种信息存储系统（例如数据库或应用程序），用于存储业务记录和自动执行标准过程。另请参阅[全接触系统 (system of engagement)](#x6528306)。
+一种信息存储系统（例如数据库或应用程序），用于存储业务记录和自动执行标准过程。另请参阅[全接触系统 (system of engagement)](/docs/overview?topic=overview-glossary#x6528306)。
 
-### 计算
+### 计算 (compute)
 {: #x3723424}
 
 用作云中应用程序的构建基础的基础架构或资源。
 
+### 角色 (role)
+{: #x2065412}
+
+一组许可权或访问权。
 
 ### 节 (stanza)
 {: #x2094743}
@@ -296,30 +293,31 @@ glossary, delete the text between these comment tags.
 
 数据存储介质上的固定物理或虚拟存储容量。
 
+
 ## [K]
 {: #glossk1}
 
 ### 可信根 (trusted root)
 {: #x2042234}
 
-由可信认证中心 (CA) 签署的证书。另请参阅[认证中心 (certificate authority)](#x2016383) 和[中间证书 (intermediate certificate)](#x3753781)。
+由可信认证中心 (CA) 签署的证书。另请参阅[认证中心 (certificate authority)](/docs/overview?topic=overview-glossary#x2016383) 和[中间证书 (intermediate certificate)](/docs/overview?topic=overview-glossary#x3753781)。
 
 
 ### 可用性专区 (availability zone)
 {: #x7018171}
 
-区域中运行 IBM Containers 的位置。
+运行 {{site.data.keyword.containerlong}} 的区域中的位置。
 
 
 ### 客户机 (client)
 {: #x2000644}
 
-向服务器请求服务的软件程序或计算机。另请参阅[主机 (host)](#x2002243)。
+向服务器请求服务的软件程序或计算机。另请参阅[主机 (host)](/docs/overview?topic=overview-glossary#x2002243)。
 
 ### 空间 (space)
 {: #x2039442}
 
-IBM Cloud 组织内的子组。作为组织成员的用户有权访问该组织的一个或多个空间，具体的许可权与特定角色（例如开发者、管理者或审计员）相关联。空间的任何成员都可以查看应用程序，但只有角色为开发者的成员才能创建应用程序和向空间添加服务实例。应用程序和服务实例与空间相关联。另请参阅[组织 (organization)](#x2032585)。
+{{site.data.keyword.cloud_notm}} 组织内的子组。作为组织成员的用户有权访问该组织的一个或多个空间，具体的许可权与特定角色（例如开发者、管理者或审计员）相关联。空间的任何成员都可以查看应用程序，但只有角色为开发者的成员才能创建应用程序和向空间添加服务实例。应用程序和服务实例与空间相关联。另请参阅[组织 (organization)](/docs/overview?topic=overview-glossary#x2032585)。
 
 ### 框架 (framework)
 {: #x2023472}
@@ -332,13 +330,14 @@ IBM Cloud 组织内的子组。作为组织成员的用户有权访问该组织�
 
 通过添加更多应用程序或服务实例来提高平台（或系统）容量。
 
+
 ## [L]
 {: #glossl1}
 
 ### 蓝绿部署 (blue-green deployment)
 {: #x7807335}
 
-一种部署方法，该方法通过运行两个几乎完全相同的生产环境（称为蓝色环境和绿色环境）来支持持续交付以及最小化停机时间。其中一个环境（例如，蓝色环境）是实时生产环境，而另一个环境（例如，绿色环境）可用于最终测试和部署。在绿色环境中部署应用程序后，绿色环境会成为生产环境，而蓝色环境会变为空闲。另请参阅[红黑部署 (red-black deployment)](#x8439181)。
+一种部署方法，该方法通过运行两个几乎完全相同的生产环境（称为蓝色环境和绿色环境）来支持持续交付以及最小化停机时间。其中一个环境（例如，蓝色环境）是实时生产环境，而另一个环境（例如，绿色环境）可用于最终测试和部署。在绿色环境中部署应用程序后，绿色环境会成为生产环境，而蓝色环境会变为空闲。另请参阅[红黑部署 (red-black deployment)](/docs/overview?topic=overview-glossary#x8439181)。
 
 ### 联合 (federate)
 {: #x2763229}
@@ -348,12 +347,13 @@ IBM Cloud 组织内的子组。作为组织成员的用户有权访问该组织�
 ### 路径 (route)
 {: #x2037338}
 
-用于将请求定向到应用程序的 URL。路径由推送应用程序时指定的可选主机（或子域）以及域构成。例如，在路径 myapp.example.com 中，myapp 是主机，example.com 是域。路径可以与一个或多个应用程序相关联。除非指定了定制域，否则 IBM Cloud 会使用您应用程序的路径中的缺省共享域。另请参阅[定制域 (custom domain)](#x5728384)、[域 (domain)](#x2021210)、[端点 (endpoint)](#x2026820)、[主机 (host)](#x2002243)、[子域 (subdomain)](#x2040080) 和[统一资源定位符 (Uniform Resource Locator)](#x2042491)。
+用于将请求定向到应用程序的 URL。路径由推送应用程序时指定的可选主机（或子域）以及域构成。例如，在路径 myapp.example.com 中，myapp 是主机，example.com 是域。路径可以与一个或多个应用程序相关联。除非指定了定制域，否则 IBM Cloud 会使用您应用程序的路径中的缺省共享域。另请参阅[定制域 (custom domain)](/docs/overview?topic=overview-glossary#x5728384)、[域 (domain)](/docs/overview?topic=overview-glossary#x2021210)、[端点 (endpoint)](/docs/overview?topic=overview-glossary#x2026820)、[主机 (host)](/docs/overview?topic=overview-glossary#x2002243)、[子域 (subdomain)](/docs/overview?topic=overview-glossary#x2040080) 和[统一资源定位符 (Uniform Resource Locator)](/docs/overview?topic=overview-glossary#x2042491)。
 
 ### 裸机服务器 (bare metal server)
 {: #x6778472}
 
 一种可完全定制的专用物理服务器，可用于虚拟化或 Web 托管。
+
 
 ## [M]
 {: #glossm1}
@@ -361,8 +361,7 @@ IBM Cloud 组织内的子组。作为组织成员的用户有权访问该组织�
 ### 名称空间 (namespace)
 {: #x2031005}
 
-用于在 IBM Cloud 注册表中标识组织映像存储库的唯一名称。另请参阅[映像 (image)](#x2024928) 和[专用映像存储库 (private image repository)](#x8439215)。
-
+用于在 IBM Cloud 注册表中标识组织映像存储库的唯一名称。另请参阅[映像 (image)](/docs/overview?topic=overview-glossary#x2024928) 和[专用映像存储库 (private image repository)](/docs/overview?topic=overview-glossary#x8439215)。
 
 ### 命令行界面 (command-line interface, CLI)
 {: #x2051424}
@@ -374,18 +373,25 @@ IBM Cloud 组织内的子组。作为组织成员的用户有权访问该组织�
 
 一种预定义的工件结构。
 
+### 目标 (target)
+{: #x2262507}
+
+在访问策略中向其提供主体访问权的资源或资源集。资源集由一个或多个属性定义。例如，目标可以是资源组中的所有资源、特定资源类型的所有资源或者具有特定资源标识的资源。
+
+
 ## [N]
 {: #glossn1}
 
 ### 内部部署 (on-prem)
 {: #x6969434}
 
-请参阅[内部部署 (on-premises, on-prem)](#x4561212)。
+请参阅[内部部署 (on-premises)](/docs/overview?topic=overview-glossary#x4561212)。
 
 ### 内部部署 (on-premises, on-prem)
 {: #x4561212}
 
 与用户或组织的本地计算机上安装并运行的软件有关。
+
 
 ## [P]
 {: #glossp1}
@@ -393,7 +399,7 @@ IBM Cloud 组织内的子组。作为组织成员的用户有权访问该组织�
 ### 频繁 API 调用 (heavy API call)
 {: #x7690468}
 
-一种编写、删除或插入数据的客户机操作。频繁 API 调用消耗的资源大于稀少 API 调用，因为它们对数据有影响。另请参阅[稀少 API 调用 (light API call)](#x7690463)。
+一种编写、删除或插入数据的客户机操作。频繁 API 调用消耗的资源大于稀少 API 调用，因为它们对数据有影响。另请参阅[稀少 API 调用 (light API call)](/docs/overview?topic=overview-glossary#x7690463)。
 
 ### 平台即服务 (platform as a service, PaaS)
 {: #x2029786}
@@ -411,7 +417,7 @@ IBM Cloud 组织内的子组。作为组织成员的用户有权访问该组织�
 ### 亲缘关系 (affinity)
 {: #x2149238}
 
-在同一网络节点上运行的两个或更多容器组实例。另请参阅[反亲缘关系 (anti-affinity)](#x8888040)。
+在同一网络节点上运行的两个或更多容器组实例。另请参阅[反亲缘关系 (anti-affinity)](/docs/overview?topic=overview-glossary#x8888040)。
 
 ### 轻量级目录访问协议 (Lightweight Directory Access Protocol, LDAP)
 {: #x2028538}
@@ -426,12 +432,13 @@ IBM Cloud 组织内的子组。作为组织成员的用户有权访问该组织�
 ### 全接触系统 (system of engagement)
 {: #x6528306}
 
-一种信息技术 (IT) 系统，其中包含多种技术，用于鼓励用户通过电子邮件、协作系统和网络进行交互。全接触系统通常使用云技术来扩大记录系统的有用性。另请参阅[记录系统 (system of record)](#x6735061)。
+一种信息技术 (IT) 系统，其中包含多种技术，用于鼓励用户通过电子邮件、协作系统和网络进行交互。全接触系统通常使用云技术来扩大记录系统的有用性。另请参阅[记录系统 (system of record)](/docs/overview?topic=overview-glossary#x6735061)。
 
 ### 全球唯一标识 (globally unique identifier, GUID)
 {: #x2390455}
 
 通过算法确定的数字，用于唯一标识系统内的实体。
+
 
 ## [R]
 {: #glossr1}
@@ -439,7 +446,7 @@ IBM Cloud 组织内的子组。作为组织成员的用户有权访问该组织�
 ### 认证中心 (certificate authority, CA)
 {: #x2016383}
 
-发放数字证书的第三方可信组织或公司。认证中心通常会对被授予唯一证书的个人进行身份验证。另请参阅[中间证书 (intermediate certificate)](#x3753781)、[安全套接字层 (Secure Sockets Layer)](#x2038004) 和[可信根 (trusted root)](#x2042234)。
+发放数字证书的第三方可信组织或公司。认证中心通常会对被授予唯一证书的个人进行身份验证。另请参阅[中间证书 (intermediate certificate)](/docs/overview?topic=overview-glossary#x3753781)、[安全套接字层 (Secure Sockets Layer)](/docs/overview?topic=overview-glossary#x2038004) 和[可信根 (trusted root)](/docs/overview?topic=overview-glossary#x2042234)。
 
 ### 认证 (authentication, AuthN)
 {: #x2014567}
@@ -449,12 +456,12 @@ IBM Cloud 组织内的子组。作为组织成员的用户有权访问该组织�
 ### 容器 (container)
 {: #x2010901}
 
-一种系统构造，允许用户同时运行不同的逻辑操作系统实例。容器使用文件系统层来最大限度地减小映像大小，提高复用率。另请参阅[映像 (image)](#x2024928)、[层 (layer)](#x2028320) 和[注册表 (registry)](#x2064940)。
+一种系统构造，允许用户同时运行不同的逻辑操作系统实例。容器使用文件系统层来最大限度地减小映像大小，提高复用率。另请参阅[映像 (image)](/docs/overview?topic=overview-glossary#x2024928)、[层 (layer)](/docs/overview?topic=overview-glossary#x2028320) 和[注册表 (registry)](/docs/overview?topic=overview-glossary#x2064940)。
 
 ### 入门模板 (starter)
 {: #x7470511}
 
-一种模板，其中包含预定义的服务以及使用特定 buildpack 配置的应用程序代码。入门模板可以是用特定编程语言编写的应用程序代码，也可以是应用程序代码和一组服务的组合。另请参阅[运行时 (runtime)](#x2391929)。
+一种模板，其中包含预定义的服务以及使用特定 buildpack 配置的应用程序代码。入门模板可以是用特定编程语言编写的应用程序代码，也可以是应用程序代码和一组服务的组合。另请参阅[运行时 (runtime)](/docs/overview?topic=overview-glossary#x2391929)。
 
 ### 软件即服务 (software as a service, SaaS)
 {: #x4585386}
@@ -477,8 +484,7 @@ IBM Cloud 组织内的子组。作为组织成员的用户有权访问该组织�
 ### 试验性产品 (experimental offering)
 {: #x9774278}
 
-IBM 提供的一种产品，仅用于评估和测试目的，可能不稳定或与先前版本不兼容。实验性产品可能会临时通知停止使用。对于这种产品，未提供任何保证、SLA 或支持，试验性产品不适合用于生产。
-
+{{site.data.keyword.IBM_notm}} 提供的一种产品，仅用于评估和测试目的，可能不稳定或与先前版本不兼容。实验性产品可能会临时通知停止使用。对于这种产品，未提供任何保证、SLA 或支持，试验性产品不适合用于生产。
 
 ### 守护程序 (daemon)
 {: #x2019215}
@@ -495,7 +501,7 @@ IBM 提供的一种产品，仅用于评估和测试目的，可能不稳定或�
 
 存储数据的位置，例如数据库系统、文件或目录。
 
-### 数据中心 (DC)
+### 数据中心 (data center, DC)
 {: #x2439906}
 
 提供云服务的服务器的物理位置。
@@ -508,7 +514,7 @@ IBM 提供的一种产品，仅用于评估和测试目的，可能不稳定或�
 ### 私有云 (private cloud)
 {: #x4585362}
 
-一种云计算环境，只有企业和合作网络的成员可以对其进行访问。另请参阅[公共云 (public cloud)](#x4585370)。
+一种云计算环境，只有企业和合作网络的成员可以对其进行访问。另请参阅[公共云 (public cloud)](/docs/overview?topic=overview-glossary#x4585370)。
 
 ### 所选可用性 (select availability)
 {: #x9773835}
@@ -526,7 +532,7 @@ IBM 提供的一种产品，仅用于评估和测试目的，可能不稳定或�
 ### 统一资源定位符 (Uniform Resource Locator, URL)
 {: #x2042491}
 
-可在网络（例如因特网）中访问的信息资源的唯一地址。URL 包括用于访问信息资源的协议的缩写名以及协议用于查找信息资源的信息。另请参阅[定制域 (custom domain)](#x5728384)、[域 (domain)](#x2021210)、[主机 (host)](#x2002243)、[路径 (route)](#x2037338) 和[子域 (subdomain)](#x2040080)。
+可在网络（例如因特网）中访问的信息资源的唯一地址。URL 包括用于访问信息资源的协议的缩写名以及协议用于查找信息资源的信息。另请参阅[定制域 (custom domain)](/docs/overview?topic=overview-glossary#x5728384)、[域 (domain)](/docs/overview?topic=overview-glossary#x2021210)、[主机 (host)](/docs/overview?topic=overview-glossary#x2002243)、[路径 (route)](/docs/overview?topic=overview-glossary#x2037338) 和[子域 (subdomain)](/docs/overview?topic=overview-glossary#x2040080)。
 
 ### 推送通知 (push notification)
 {: #x5599582}
@@ -547,15 +553,16 @@ IBM 提供的一种产品，仅用于评估和测试目的，可能不稳定或�
 
 一种寻址方法，用于支持一个 IP 地址通过查找表与其他多个 IP 地址（例如，专用子网上的 IP 地址）进行通信。网络地址转换有两种主要类型：一对一和多对一。
 
+
 ### 文件共享 (file share)
 {: #x2022902}
 
-在 IBM 云环境中，供用户存储和共享文件的持久存储系统。在 IBM Containers 中，用户可以在文件共享上安装 Docker 卷。
+在 {{site.data.keyword.cloud_notm}} 环境中，供用户存储和共享文件的持久存储系统。在 {{site.data.keyword.containershort_notm}} 中，用户可以在文件共享上安装 Docker 卷。
 
 ### 无界限 (borderless)
 {: #x8439189}
 
-与开放式非专有开发平台相关，此类平台包括公共云、专用云和本地云部署模型。另请参阅[专用云 (dedicated cloud)](#x8439199)、[本地云 (local cloud)](#x8439194) 和[公共云 (public cloud)](#x4585370)。
+与开放式非专有开发平台相关，此类平台包括公共云、专用云和本地云部署模型。另请参阅[专用云 (dedicated cloud)](/docs/overview?topic=overview-glossary#x8439199)、[本地云 (local cloud)](/docs/overview?topic=overview-glossary#x8439194) 和[公共云 (public cloud)](/docs/overview?topic=overview-glossary#x4585370)。
 
 ### 物联网 (Internet of Things, IoT)
 {: #x6714341}
@@ -568,17 +575,17 @@ IBM 提供的一种产品，仅用于评估和测试目的，可能不稳定或�
 ### 稀少 API 调用 (light API call)
 {: #x7690463}
 
-一种仅读取数据的客户机操作。稀少 API 调用使用的资源小于频繁 API 调用，因为其执行单个函数。另请参阅[频繁 API 调用 (heavy API call)](#x7690468)。
+一种仅读取数据的客户机操作。稀少 API 调用使用的资源小于频繁 API 调用，因为其执行单个函数。另请参阅[频繁 API 调用 (heavy API call)](/docs/overview?topic=overview-glossary#x7690468)。
 
 ### 虚拟服务器 (virtual server)
 {: #x2455638}
 
-与其他服务器共享其资源以支持应用程序的服务器。另请参阅[虚拟机 (virtual machine)](#x2043165)。
+与其他服务器共享其资源以支持应用程序的服务器。另请参阅[虚拟机 (virtual machine)](/docs/overview?topic=overview-glossary#x2043165)。
 
 ### 虚拟机 (virtual machine, VM)
 {: #x2043165}
 
-机器的一种软件实现方式，可以像真实机器一样执行程序。另请参阅[虚拟服务器 (virtual server)](#x2455638)。
+机器的一种软件实现方式，可以像真实机器一样执行程序。另请参阅[虚拟服务器 (virtual server)](/docs/overview?topic=overview-glossary#x2455638)。
 
 ### 虚拟局域网 (virtual local area network, VLAN)
 {: #x2438470}
@@ -621,50 +628,47 @@ IBM 提供的一种产品，仅用于评估和测试目的，可能不稳定或�
 ### 移动应用程序 (mobile app)
 {: #x7636517}
 
-请参阅[移动应用程序 (mobile application, mobile app)](#x4258535)。
+请参阅[移动应用程序 (mobile application)](/docs/overview?topic=overview-glossary#x4258535)。
 
 ### 移动应用程序 (mobile application, mobile app)
 {: #x4258535}
 
-为移动平台设计的应用程序。与 Web 应用程序类似，移动应用程序不仅提供静态显示信息的功能，而且还提供其他一些功能，例如允许用户以几乎实时的方式过滤新闻。另请参阅[应用程序 (app)](#x4281528)。
+为移动平台设计的应用程序。与 Web 应用程序类似，移动应用程序不仅提供静态显示信息的功能，而且还提供其他一些功能，例如允许用户以几乎实时的方式过滤新闻。另请参阅[应用程序 (app)](/docs/overview?topic=overview-glossary#x4281528)。
 
 ### 移动云 (mobile cloud)
 {: #x4585344}
 
 一种基础架构，其中存储和处理应用程序数据的负载将从移动设备移动到云上。通过移动云计算，就不用再局限于特定的运营商，通过 Web 即可访问应用程序。
 
-
 ### 应用程序编程接口 (application programming interface, API)
 {: #x2000186}
 
 一种接口。通过该接口，以高级语言编写的应用程序可以使用操作系统或其他程序的特定数据或功能。
+
+### 应用程序 (app)
+{: #x4281528}
+
+一种 Web 或移动设备应用程序。另请参阅[移动应用程序 (mobile application)](/docs/overview?topic=overview-glossary#x4258535) 和 [Web 应用程序 (web application)](/docs/overview?topic=overview-glossary#x2116500)。
 
 ### 硬件虚拟机模式 (HVM)
 {: #x9736811}
 
 硬件辅助的完全虚拟化。虚拟机使用主计算机中的资源作为完整的硬件环境运行。主机操作系统不知道此虚拟客户机的存在。
 
-
 ### 映像 (image)
 {: #x2024928}
 
-在容器运行时内用于创建容器的文件系统及其执行参数。文件系统由一系列层组成，这些层在运行时组合起来，并在通过连续更新构建映像时创建。容器执行时，映像不会保留状态。另请参阅[基本映像 (base image)](#x5366487)、[容器 (container)](#x2010901)、[层 (layer)](#x2028320)、[名称空间 (namespace)](#x2031005)、[父映像 (parent image)](#x8439210)、[专用映像存储库 (private image repository)](#x8439215) 和[注册表 (registry)](#x2064940)。
+在容器运行时内用于创建容器的文件系统及其执行参数。文件系统由一系列层组成，这些层在运行时组合起来，并在通过连续更新构建映像时创建。容器执行时，映像不会保留状态。另请参阅[基本映像 (base image)](/docs/overview?topic=overview-glossary#x5366487)、[容器 (container)](/docs/overview?topic=overview-glossary#x2010901)、[层 (layer)](/docs/overview?topic=overview-glossary#x2028320)、[名称空间 (namespace)](/docs/overview?topic=overview-glossary#x2031005)、[父映像 (parent image)](/docs/overview?topic=overview-glossary#x8439210)、[专用映像存储库 (private image repository)](/docs/overview?topic=overview-glossary#x8439215) 和[注册表 (registry)](/docs/overview?topic=overview-glossary#x2064940)。
 
-### 应用程序 (app)
-{: #x4281528}
+### 用户 (user)
+{: #x2069659}
 
-一种 Web 或移动设备应用程序。另请参阅[移动应用程序 (mobile application)](#x4258535) 和 [Web 应用程序 (web application)](#x2116500)。
-
-### 用户层次结构 (user hierarchy)
-{: #userhierarchy}
-
-邀请其他用户加入帐户的经典基础架构用户的用户管理关系。然后，这些用户可邀请其他用户加入帐户，依此类推。经典基础架构用户邀请其他用户加入帐户时，该经典基础架构用户会成为父用户。父用户的子用户邀请其他用户加入帐户时，这些子用户将成为原始父代的后代，现在原始父代被视为其祖代。
-
+用作帐户中个人的身份的 IBM 标识或 SoftLayer 标识。
 
 ### 域 (domain)
 {: #x2021210}
 
-命名层次结构的一部分，用于指定路径。例如，example.com。在 IBM Cloud 中，域与组织相关联。域对象并不直接与应用程序绑定。另请参阅[定制域 (custom domain)](#x5728384)、[主机 (host)](#x2002243)、[组织 (organization)](#x2032585)、[路径 (route)](#x2037338)、[子域 (subdomain)](#x2040080) 和[统一资源定位符 (Uniform Resource Locator)](#x2042491)。
+命名层次结构的一部分，用于指定路径。例如，example.com。在 {{site.data.keyword.cloud_notm}} 中，域与组织相关联。域对象并不直接与应用程序绑定。另请参阅[定制域 (custom domain)](/docs/overview?topic=overview-glossary#x5728384)、[主机 (host)](/docs/overview?topic=overview-glossary#x2002243)、[组织 (organization)](/docs/overview?topic=overview-glossary#x2032585)、[路径 (route)](/docs/overview?topic=overview-glossary#x2037338)、[子域 (subdomain)](/docs/overview?topic=overview-glossary#x2040080) 和[统一资源定位符 (Uniform Resource Locator)](/docs/overview?topic=overview-glossary#x2042491)。
 
 ### 云计算 (cloud computing)
 {: #x3877850}
@@ -679,8 +683,7 @@ IBM 提供的一种产品，仅用于评估和测试目的，可能不稳定或�
 ### 运行时 (runtime)
 {: #x2391929}
 
-用于运行应用程序的资源集。另请参阅[入门模板 (starter)](#x7470511)。
-
+用于运行应用程序的资源集。另请参阅[入门模板 (starter)](/docs/overview?topic=overview-glossary#x7470511)。
 
 ## [Z]
 {: #glossz1}
@@ -693,7 +696,7 @@ IBM 提供的一种产品，仅用于评估和测试目的，可能不稳定或�
 ### 中间证书 (intermediate certificate)
 {: #x3753781}
 
-一种由可信根认证中心 (CA) 发放的下级证书，专门用于发放最终实体服务器证书。结果是一条证书链，以可信根 CA 开始，接着是中间证书，最后以发放给组织的 SSL 证书结束。另请参阅[认证中心 (certificate authority)](#x2016383) 和[可信根 (trusted root)](#x2042234)。
+一种由可信根认证中心 (CA) 发放的下级证书，专门用于发放最终实体服务器证书。结果是一条证书链，以可信根 CA 开始，接着是中间证书，最后以发放给组织的 SSL 证书结束。另请参阅[认证中心 (certificate authority)](/docs/overview?topic=overview-glossary#x2016383) 和[可信根 (trusted root)](/docs/overview?topic=overview-glossary#x2042234)。
 
 ### 主读 (read-mostly)
 {: #x7470468}
@@ -703,18 +706,22 @@ IBM 提供的一种产品，仅用于评估和测试目的，可能不稳定或�
 ### 主机 (host)
 {: #x2002243}
 
-连接到网络并提供对该网络的访问点的计算机。主机可以是客户机或服务器，也可以同时充当客户机和服务器。另请参阅[客户机 (client)](#x2000644)、[定制域 (custom domain)](#x5728384)、[域 (domain)](#x2021210)、[路径 (route)](#x2037338)、[子域 (subdomain)](#x2040080) 和[统一资源定位符 (Uniform Resource Locator)](#x2042491)。
+连接到网络并提供对该网络的访问点的计算机。主机可以是客户机或服务器，也可以同时充当客户机和服务器。另请参阅[客户机 (client)](/docs/overview?topic=overview-glossary#x2000644)、[定制域 (custom domain)](/docs/overview?topic=overview-glossary#x5728384)、[域 (domain)](/docs/overview?topic=overview-glossary#x2021210)、[路径 (route)](/docs/overview?topic=overview-glossary#x2037338)、[子域 (subdomain)](/docs/overview?topic=overview-glossary#x2040080) 和[统一资源定位符 (Uniform Resource Locator)](/docs/overview?topic=overview-glossary#x2042491)。
 
+### 主体 (subject)
+{: #x2380043}
+
+访问策略为其授予访问权的用户、服务标识或访问组。
 
 ### 注册表 (registry)
 {: #x2064940}
 
-一种公共或专用存储库，其中包含用于创建容器的映像。另请参阅[容器 (container)](#x2010901) 和[映像 (image)](#x2024928)。
+一种公共或专用存储库，其中包含用于创建容器的映像。另请参阅[容器 (container)](/docs/overview?topic=overview-glossary#x2010901) 和[映像 (image)](/docs/overview?topic=overview-glossary#x2024928)。
 
 ### 专区 (zone)
 {: #x2070723}
 
-一种独立的故障区。专区是一种抽象，旨在帮助提高容错能力并减少等待时间。另请参阅[多专区区域 (multizone region)](#x9774820) 和[单专区区域 (single-zone region)](#x9774825)。
+一种独立的故障区。专区是一种抽象，旨在帮助提高容错能力并减少等待时间。另请参阅[多专区区域 (multizone region)](/docs/overview?topic=overview-glossary#x9774820) 和[单专区区域 (single-zone region)](/docs/overview?topic=overview-glossary#x9774825)。
 
 ### 专用密钥 (private key)
 {: #x2034701}
@@ -724,17 +731,17 @@ IBM 提供的一种产品，仅用于评估和测试目的，可能不稳定或�
 ### 专用映像存储库 (private image repository)
 {: #x8439215}
 
-组织的 IBM Cloud 注册表及其名称空间的组合。在命令中引用映像时，会使用专用映像存储库。另请参阅[映像 (image)](#x2024928) 和[名称空间 (namespace)](#x2031005)。
+组织的 IBM Cloud 注册表及其名称空间的组合。在命令中引用映像时，会使用专用映像存储库。另请参阅[映像 (image)](/docs/overview?topic=overview-glossary#x2024928) 和[名称空间 (namespace)](/docs/overview?topic=overview-glossary#x2031005)。
 
 ### 专用云 (dedicated cloud)
 {: #x8439199}
 
-一种私有云计算环境，通过单租户硬件提供基础架构。另请参阅[无界限 (borderless)](#x8439189)。
+一种私有云计算环境，通过单租户硬件提供基础架构。另请参阅[无界限 (borderless)](/docs/overview?topic=overview-glossary#x8439189)。
 
 ### 专用资源 (private resource)
 {: #x9439035}
 
-仅供帐户所有者及其包含的帐户查看的条目。创建资源时，缺省情况下这些资源是专用的。另请参阅[公共资源 (public resource)](#x9439040)。
+仅供帐户所有者及其包含的帐户查看的条目。创建资源时，缺省情况下这些资源是专用的。另请参阅[公共资源 (public resource)](/docs/overview?topic=overview-glossary#x9439040)。
 
 ### 资源组 (resource group)
 {: #x2161955}
@@ -749,7 +756,7 @@ IBM 提供的一种产品，仅用于评估和测试目的，可能不稳定或�
 ### 子网 (subnet)
 {: #x4282974}
 
-请参阅[子网 (subnetwork)](#x2040149)。
+请参阅[子网 (subnetwork)](/docs/overview?topic=overview-glossary#x2040149)。
 
 ### 子网 (subnetwork)
 {: #x2040149}
@@ -759,7 +766,7 @@ IBM 提供的一种产品，仅用于评估和测试目的，可能不稳定或�
 ### 子域 (subdomain)
 {: #x2040080}
 
-一种域，用于构成更大的域。另请参阅[定制域 (custom domain)](#x5728384)、[域 (domain)](#x2021210)、[主机 (host)](#x2002243)、[路径 (route)](#x2037338) 和[统一资源定位符 (Uniform Resource Locator)](#x2042491)。
+一种域，用于构成更大的域。另请参阅[定制域 (custom domain)](/docs/overview?topic=overview-glossary#x5728384)、[域 (domain)](/docs/overview?topic=overview-glossary#x2021210)、[主机 (host)](/docs/overview?topic=overview-glossary#x2002243)、[路径 (route)](/docs/overview?topic=overview-glossary#x2037338) 和[统一资源定位符 (Uniform Resource Locator)](/docs/overview?topic=overview-glossary#x2042491)。
 
 ### 组件 (component)
 {: #x2017871}
@@ -769,7 +776,7 @@ IBM 提供的一种产品，仅用于评估和测试目的，可能不稳定或�
 ### 组织 (organization, org)
 {: #x2032585}
 
-在 IBM Cloud 中对用户进行分组的方法。组织用于管理配额。组织中的用户将共享内存和服务实例配额。另请参阅[域 (domain)](#x2021210) 和[空间 (space)](#x2039442)。
+在 IBM Cloud 中对用户进行分组的方法。组织用于管理配额。组织中的用户将共享内存和服务实例配额。另请参阅[域 (domain)](/docs/overview?topic=overview-glossary#x2021210) 和[空间 (space)](/docs/overview?topic=overview-glossary#x2039442)。
 
 
 ### 作用域 (scope)
@@ -783,17 +790,17 @@ IBM 提供的一种产品，仅用于评估和测试目的，可能不稳定或�
 ### API
 {: #x2008805}
 
-请参阅[应用程序编程接口 (application programming interface)](#x2000186)。
+请参阅[应用程序编程接口 (application programming interface)](/docs/overview?topic=overview-glossary#x2000186)。
 
 ### AuthN
 {: #x7470446}
 
-请参阅[认证 (authentication)](#x2014567)。
+请参阅[认证 (authentication)](/docs/overview?topic=overview-glossary#x2014567)。
 
 ### AuthZ
 {: #x7470448}
 
-请参阅[授权 (authorization)](#x2014653)。
+请参阅[授权 (authorization)](/docs/overview?topic=overview-glossary#x2014653)。
 
 ## B
 {: #glossb}
@@ -801,7 +808,7 @@ IBM 提供的一种产品，仅用于评估和测试目的，可能不稳定或�
 ### Beta 产品 (beta offering)
 {: #x9774283}
 
-IBM 提供的一种产品，仅用于评估和测试目的。对于这种产品，未提供任何保证、SLA 或支持，Beta 产品不适合用于生产。
+{{site.data.keyword.IBM_notm}} 提供的一种产品，仅用于评估和测试目的。对于这种产品，未提供任何保证、SLA 或支持，Beta 产品不适合用于生产。
 
 ### BLU 加速 (BLU Acceleration)
 {: #x7470463}
@@ -825,18 +832,17 @@ IBM Db2 技术的集合，主要用于主读商业智能查询处理。BLU 加�
 ### CA
 {: #x2015942}
 
-请参阅[认证中心 (certificate authority)](#x2016383)。
+请参阅[认证中心 (certificate authority)](/docs/overview?topic=overview-glossary#x2016383)。
 
 ### CLI
 {: #x2008863}
 
-请参阅[命令行界面 (command-line interface)](#x2051424)。
-
+请参阅[命令行界面 (command-line interface)](/docs/overview?topic=overview-glossary#x2051424)。
 
 ### CSR
 {: #x2140147}
 
-请参阅[证书签名请求 (certificate signing request)](#x3530521)。
+请参阅[证书签名请求 (certificate signing request)](/docs/overview?topic=overview-glossary#x3530521)。
 
 ## D
 {: #glossd}
@@ -844,7 +850,7 @@ IBM Db2 技术的集合，主要用于主读商业智能查询处理。BLU 加�
 ### DC
 {: #x2052913}
 
-请参阅[数据中心 (data center)](#x2439906)。
+请参阅[数据中心 (data center)](/docs/overview?topic=overview-glossary#x2439906)。
 
 ### DEA
 {: #x2019805}
@@ -866,13 +872,14 @@ Cloud Foundry 中的归档，用于包含应用程序及其运行时和框架依
 
 负责部署应用程序的 Cloud Foundry 组件。
 
+
 ## G
 {: #glossg}
 
 ### GA
 {: #x2117930}
 
-请参阅[一般可用性 (general availability)](#x2117947)。
+请参阅[一般可用性 (general availability)](/docs/overview?topic=overview-glossary#x2117947)。
 
 ### GB-小时 (GB-hour)
 {: #x7470477}
@@ -882,7 +889,7 @@ Cloud Foundry 中的归档，用于包含应用程序及其运行时和框架依
 ### GUID
 {: #x2390457}
 
-请参阅[全球唯一标识 (globally unique identifier)](#x2390455)。
+请参阅[全球唯一标识 (globally unique identifier)](/docs/overview?topic=overview-glossary#x2390455)。
 
 
 ## H
@@ -896,7 +903,12 @@ Cloud Foundry 中的归档，用于包含应用程序及其运行时和框架依
 ### HTTPS
 {: #x2193603}
 
-请参阅[安全超文本传输协议 (Hypertext Transfer Protocol Secure)](#x2237225)。
+请参阅[安全超文本传输协议 (Hypertext Transfer Protocol Secure)](/docs/overview?topic=overview-glossary#x2237225)。
+
+### HVM
+{: #x9736815}
+
+请参阅[硬件虚拟机方式 (hardware virtual machine mode)](/docs/overview?topic=overview-glossary#x9736811)。
 
 ## I
 {: #glossi}
@@ -904,22 +916,23 @@ Cloud Foundry 中的归档，用于包含应用程序及其运行时和框架依
 ### IaaS
 {: #x4585337}
 
-请参阅[基础架构即服务 (infrastructure as a service)](#x4585332)。
+请参阅[基础架构即服务 (infrastructure as a service)](/docs/overview?topic=overview-glossary#x4585332)。
 
 ### IAM
 {: #x2193801}
 
-请参阅[身份和访问权管理 (Identity and Access Management)](#x7547040)。
+请参阅[身份和访问权管理 (Identity and Access Management)](/docs/overview?topic=overview-glossary#x7547040)。
 
-### IBM Cloud
+### {{site.data.keyword.cloud_notm}}
 {: #x7301758}
 
 一种基于云的开放标准平台，用于构建、管理和运行所有类型的应用程序，例如 Web、移动、大数据和智能设备。所具有的功能包括 Java、移动后端开发和应用程序监视，以及来自生态系统合作伙伴和开放式源代码的功能，所有这些在云中均以“即服务”形式提供。
 
+
 ### IoT
 {: #x6714346}
 
-请参阅[物联网 (Internet of Things)](#x6714341)。
+请参阅[物联网 (Internet of Things)](/docs/overview?topic=overview-glossary#x6714341)。
 
 
 ## J
@@ -938,7 +951,7 @@ Java 归档文件。
 ### JSON
 {: #x4267096}
 
-请参阅 [JavaScript 对象表示法 (JavaScript Object Notation)](#x3292165)。
+请参阅 [JavaScript 对象表示法 (JavaScript Object Notation)](/docs/overview?topic=overview-glossary#x3292165)。
 
 
 ## L
@@ -947,7 +960,7 @@ Java 归档文件。
 ### LDAP
 {: #x2481619}
 
-请参阅[轻量级目录访问协议 (Lightweight Directory Access Protocol)](#x2028538)。
+请参阅[轻量级目录访问协议 (Lightweight Directory Access Protocol)](/docs/overview?topic=overview-glossary#x2028538)。
 
 ## M
 {: #glossm}
@@ -955,12 +968,13 @@ Java 归档文件。
 ### MBaaS
 {: #x7044865}
 
-请参阅[移动后端即服务 (mobile backend as a service)](#x7044858)。
+请参阅[移动后端即服务 (mobile backend as a service)](/docs/overview?topic=overview-glossary#x7044858)。
 
 ### MZR
 {: #x9774831}
 
-请参阅[多专区区域 (multizone region)](#x9774820)。
+请参阅[多专区区域 (multizone region)](/docs/overview?topic=overview-glossary#x9774820)。
+
 
 ## O
 {: #glosso}
@@ -973,7 +987,7 @@ Java 归档文件。
 ### org
 {: #x7470494}
 
-请参阅[组织 (organization)](#x2032585)。
+请参阅[组织 (organization)](/docs/overview?topic=overview-glossary#x2032585)。
 
 ## P
 {: #glossp}
@@ -981,7 +995,7 @@ Java 归档文件。
 ### PaaS
 {: #x2029790}
 
-请参阅[平台即服务 (platform as a service)](#x2029786)。
+请参阅[平台即服务 (platform as a service)](/docs/overview?topic=overview-glossary#x2029786)。
 
 ### pod
 {: #x8461823}
@@ -991,7 +1005,7 @@ Java 归档文件。
 ### PoP
 {: #x7234683}
 
-请参阅[存在点 (point of presence)](#x5458832)。
+请参阅[存在点 (point of presence)](/docs/overview?topic=overview-glossary#x5458832)。
 
 ## R
 {: #glossr}
@@ -999,7 +1013,7 @@ Java 归档文件。
 ### REST
 {: #x3220987}
 
-请参阅[具象状态传输 (Representational State Transfer)](#x3220976)。
+请参阅[具象状态传输 (Representational State Transfer)](/docs/overview?topic=overview-glossary#x3220976)。
 
 ## S
 {: #glosss}
@@ -1007,27 +1021,28 @@ Java 归档文件。
 ### SaaS
 {: #x4585391}
 
-请参阅[软件即服务 (software as a service)](#x4585386)。
+请参阅[软件即服务 (software as a service)](/docs/overview?topic=overview-glossary#x4585386)。
 
 ### SOR
 {: #x2214822}
 
-请参阅[记录系统 (system of record)](#x6735061)。
+请参阅[记录系统 (system of record)](/docs/overview?topic=overview-glossary#x6735061)。
 
 ### SSL
 {: #x2483907}
 
-请参阅[安全套接字层 (Secure Sockets Layer)](#x2038004)。
+请参阅[安全套接字层 (Secure Sockets Layer)](/docs/overview?topic=overview-glossary#x2038004)。
 
 ### SSO
 {: #x3456450}
 
-请参阅[单点登录 (single sign-on)](#x2213318)。
+请参阅[单点登录 (single sign-on)](/docs/overview?topic=overview-glossary#x2213318)。
 
 ### SZR
 {: #x9774829}
 
-请参阅[单专区区域 (single-zone region)](#x9774825)。
+请参阅[单专区区域 (single-zone region)](/docs/overview?topic=overview-glossary#x9774825)。
+
 
 ## U
 {: #glossu}
@@ -1035,27 +1050,30 @@ Java 归档文件。
 ### URI
 {: #x2116461}
 
-请参阅[统一资源标识 (Uniform Resource Identifier)](#x2116436)。
+请参阅[统一资源标识 (Uniform Resource Identifier)](/docs/overview?topic=overview-glossary#x2116436)。
 
 ### URL
 {: #x2042718}
 
-请参阅[统一资源定位符 (Uniform Resource Locator)](#x2042491)。
-
+请参阅[统一资源定位符 (Uniform Resource Locator)](/docs/overview?topic=overview-glossary#x2042491)。
 
 ## V
 {: #glossv}
 
+### VLAN
+{: #x2484337}
+
+请参阅[虚拟局域网 (virtual local area network)](/docs/overview?topic=overview-glossary#x2438470)。
+
 ### VM
 {: #x2043253}
 
-请参阅[虚拟机 (virtual machine)](#x2043165)。
+请参阅[虚拟机 (virtual machine)](/docs/overview?topic=overview-glossary#x2043165)。
 
 ### VPN
 {: #x2484351}
 
-请参阅[虚拟专用网 (virtual private network)](#x2043188)。
-
+请参阅[虚拟专用网 (virtual private network)](/docs/overview?topic=overview-glossary#x2043188)。
 
 ## W
 {: #glossw}
@@ -1063,13 +1081,12 @@ Java 归档文件。
 ### WAR
 {: #x2844389}
 
-请参阅 [Web 归档 (web archive, WAR)](#x2116506)。
+请参阅 [Web 归档 (web archive)](/docs/overview?topic=overview-glossary#x2116506)。
 
 ### WAR 文件 (WAR file)
 {: #x2406005}
 
-请参阅 [Web 归档 (web archive, WAR)](#x2116506)。
-
+请参阅 [Web 归档 (web archive)](/docs/overview?topic=overview-glossary#x2116506)。
 
 ### Web 归档 (web archive, WAR)
 {: #x2116506}
@@ -1079,10 +1096,12 @@ Java 归档文件。
 ### Web 应用程序 (web app)
 {: #x7636628}
 
-请参阅 [Web 应用程序 (web application, web app)](#x2116500)。
+请参阅 [Web 应用程序 (web application)](/docs/overview?topic=overview-glossary#x2116500)。
 
 ### Web 应用程序 (web application, web app)
 {: #x2116500}
 
-一种应用程序，可通过 Web 浏览器进行访问，它不但提供静态显示信息的功能，而且还提供其他一些功能，例如允许用户查询数据库。Web 应用程序的通用组件包括 HTML 页面、JSP 页面和 servlet。另请参阅[应用程序 (app)](#x4281528)。
+一种应用程序，可通过 Web 浏览器进行访问，它不但提供静态显示信息的功能，而且还提供其他一些功能，例如允许用户查询数据库。Web 应用程序的通用组件包括 HTML 页面、JSP 页面和 servlet。另请参阅[应用程序 (app)](/docs/overview?topic=overview-glossary#x4281528)。
+
+
 

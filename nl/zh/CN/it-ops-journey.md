@@ -2,7 +2,7 @@
 
 copyright:
   years: 2018, 2019
-lastupdated: "2019-06-20"
+lastupdated: "2019-07-02"
 
 keywords: cloud environment, virtual server, virtual machine, vm, understanding infrastructure, IaaS model
 
@@ -42,7 +42,7 @@ subcollection: overview
 
 存在三种类型的云服务模型：基础架构即服务 (IaaS)、平台即服务 (PaaS) 和软件即服务 (SaaS)。图 1 说明了谁在每种服务模型中执行什么操作。有关更多信息，请参阅 [IaaS, PaaS, and SaaS - IBM Cloud service models](https://www.ibm.com/cloud/learn/iaas-paas-saas){: new_window} ![外部链接图标](../icons/launch-glyph.svg "外部链接图标")。
 
-![云服务模型。](images/cloud-svc-models.svg "显示云服务模型的图")
+![云服务模型。](images/cloud-svc-models.png "显示云服务模型的图")
 
 使用 IaaS 模型时，提供者仅负责维护底层基础架构，并可选择安装软件，例如操作系统、应用程序和数据库。您具有对底层基础架构的有限访问权，并且您要负责安装软件或要求服务供应商安装软件。您还负责其他所有维护，包括 Service Pack、防病毒软件和补丁。
 
@@ -94,13 +94,12 @@ subcollection: overview
 
 服务器是基础架构的基础。根据您的需求，您有多种选项可选择，或者如果环境需要，可以混用使用这些选项。请查看下表以获取计算选项的摘要。
 
-|选项|描述
-| 
+|选项|描述| 
 |--------|---------------|
 | [{{site.data.keyword.baremetal_short}}](/docs/bare-metal?topic=bare-metal-about-bm#about-bm)  |专供您使用的按小时或按月计费的单租户服务器，任何部分（包括服务器资源）都不会与其他客户共享。|
 | [{{site.data.keyword.BluVirtServers_short}}](/docs/vsi?topic=virtual-servers-getting-started-tutorial) |可缩放的虚拟服务器，随核心和内存分配一起购买。|
 | [{{site.data.keyword.vmwaresolutions_short}}](/docs/services/vmwaresolutions?topic=vmware-solutions-getting-started#getting-started) |使用安全、可扩展的高性能基础架构和行业领先的 VMware 混合虚拟化技术，快速无缝地集成或迁移内部部署 VMware 工作负载。|
-| [{{site.data.keyword.containerlong_notm}}](/docs/containers?topic=containers-container_index) |将 Docker 容器、Kubernetes 技术、直观的用户体验和内置安全性与隔离功能组合在一起，自动对计算主机集群中的容器化应用程序进行部署、操作、扩展和监视。|
+| [{{site.data.keyword.containerlong_notm}}](/docs/containers?topic=containers-getting-started) |将 Docker 容器、Kubernetes 技术、直观的用户体验和内置安全性与隔离功能组合在一起，自动对计算主机集群中的容器化应用程序进行部署、操作、扩展和监视。|
 | [{{site.data.keyword.cfee_full_notm}}](/docs/cloud-foundry?topic=cloud-foundry-about) |按需实例化多个隔离的企业级 Cloud Foundry 平台。|
 | [{{site.data.keyword.openwhisk_short}}](/docs/openwhisk?topic=cloud-functions-getting_started#getting_started) |基于 Apache OpenWhisk 的函数即服务 (FaaaS) 编程平台。|
 {: caption="表 1. 计算选项" caption-side="top"}
@@ -112,8 +111,7 @@ subcollection: overview
 
 您可以根据需要购买额外的存储器。请参阅下表以获取存储选项的摘要。
 
-|选项|描述
-|
+|选项|描述|
 |--------|---------------|
 | [{{site.data.keyword.blockstorageshort}}](/docs/infrastructure/BlockStorage?topic=BlockStorage-getting-started) |持久的高性能 iSCSI 存储器，可独立于计算实例进行供应和管理。基于 iSCSI 的块存储器 LUN 通过冗余多路径 I/O (MPIO) 连接来连接到授权设备。|
 | [{{site.data.keyword.filestorage_short}}](/docs/infrastructure/FileStorage?topic=FileStorage-getting-started) |网络连接的基于 NFS 的文件存储器，具有持久、快速、灵活的特点。在此网络连接存储器 (NAS) 环境中，您对文件共享功能和性能具有完全控制权。文件存储器共享可以通过路由的 TCP/IP 连接与最多 64 个授权设备相连接，以实现弹性。|
@@ -131,8 +129,7 @@ subcollection: overview
 
 请查看下表以获取联网选项的摘要。
 
-|选项|描述
-| 
+|选项|描述| 
 |--------|---------------|
 |[内容交付网络](/docs/infrastructure/CDN?topic=CDN-getting-started)|用于各种行业解决方案，包括媒体、娱乐、软件、游戏、银行和电子商务，以满足企业的需求。|
 |[域名服务](/docs/cli/reference/ibmcloud?topic=cloud-cli-ibm-dev-tools-for-jetbrains)|提供了一个中心位置，可通过基本 DNS 管理界面来查看和管理您自己的域，此外还提供了用于在同一位置中免费管理逆向和辅助 DNS 的选项。|
@@ -149,8 +146,7 @@ subcollection: overview
 
 构建基础架构和环境后，就可以开始对其进行管理。
 
-|任务|描述
-|
+|任务|描述|
 |--------|---------------|
 |[监视系统事件](/docs/account?topic=account-audit-log)|查看已对基础架构资源执行的操作。|
 |[设置电子邮件首选项](/docs/account?topic=account-email-prefs)|设置有关计划外事件、维护和声明的 {{site.data.keyword.cloud_notm}} 基础架构电子邮件通知。|

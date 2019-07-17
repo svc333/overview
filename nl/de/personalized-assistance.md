@@ -2,7 +2,7 @@
 
 copyright:
   years: 2019
-lastupdated: "2019-06-24"
+lastupdated: "2019-07-02"
 
 keywords: personalized onboarding, onboarding program, Global Client Success
 
@@ -46,7 +46,7 @@ Sie erhalten Unterstützung beim Einstieg in einen beliebigen Bereich von {{site
 </div>
 {: authenticated-content}
 
-Nachdem Sie die kostenfreie Onboarding-Unterstützung angefordert haben, werden Sie innerhalb von zwei oder drei Werktagen von einem Mitglied unseres {{site.data.keyword.IBM_notm}} Global Client Success-Teams kontaktiert. Wir bleiben mit Ihnen in Kontakt, um sicherzustellen, dass Ihre Nutzung der {{site.data.keyword.cloud}}-Plattform erfolgreich verläuft.
+Nachdem Sie die kostenfreie Onboarding-Unterstützung angefordert haben, werden Sie innerhalb von zwei oder drei Werktagen von einem Mitglied unseres {{site.data.keyword.IBM_notm}} Global Client Success-Teams kontaktiert. Wir bleiben mit Ihnen in Kontakt, um sicherzustellen, dass Ihre Nutzung der {{site.data.keyword.cloud_notm}}-Plattform erfolgreich verläuft.
 
 ### Sie möchten uns früher kontaktieren?
 {: #contact-client-success}

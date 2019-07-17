@@ -2,7 +2,7 @@
 
 copyright:
   years: 2019
-lastupdated: "2019-06-24"
+lastupdated: "2019-07-02"
 
 keywords: personalized onboarding, onboarding program, Global Client Success
 
@@ -46,7 +46,7 @@ subcollection: overview
 </div>
 {: authenticated-content}
 
-在您申请免费上线帮助后，我们的 {{site.data.keyword.IBM_notm}} Global Client Success 成员会在两到三个工作日内与您联系。我们会与您保持联系，以确保您能够在 {{site.data.keyword.cloud}} 平台上获得成功。
+在您申请免费上线帮助后，我们的 {{site.data.keyword.IBM_notm}} Global Client Success 成员会在两到三个工作日内与您联系。我们会与您保持联系，以确保您能够在 {{site.data.keyword.cloud_notm}} 平台上获得成功。
 
 ### 需要尽快与我们联系？
 {: #contact-client-success}

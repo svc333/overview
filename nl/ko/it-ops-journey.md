@@ -2,7 +2,7 @@
 
 copyright:
   years: 2018, 2019
-lastupdated: "2019-06-20"
+lastupdated: "2019-07-02"
 
 keywords: cloud environment, virtual server, virtual machine, vm, understanding infrastructure, IaaS model
 
@@ -42,7 +42,7 @@ subcollection: overview
 
 IaaS(Infrastructure as a Service), PaaS(Platform as a Service) 및 SaaS(Software as a Service)의 세 가지 클라우드 서비스 모델 유형이 존재합니다. 그림 1에는 각 서비스 모델 내에서 수행되는 작업과 주체가 설명되어 있습니다. 자세한 정보는 [IaaS, PaaS, and SaaS - IBM Cloud service models](https://www.ibm.com/cloud/learn/iaas-paas-saas){: new_window} ![외부 링크 아이콘](../icons/launch-glyph.svg "외부 링크 아이콘")를 참조하십시오.
 
-![클라우드 서비스 모델](images/cloud-svc-models.svg "클라우드 서비스 모델을 표시하는 다이어그램"){: caption="Figure 1. Cloud service models" caption-side="bottom"}
+![클라우드 서비스 모델](images/cloud-svc-models.png "클라우드 서비스 모델을 표시하는 다이어그램"){: caption="Figure 1. Cloud service models" caption-side="bottom"}
 
 IaaS 모델에서는 제공자가 기본 인프라만 유지보수하고 선택적으로 운영 체제, 애플리케이션 및 데이터베이스와 같은 소프트웨어의 설치를 담당합니다. 기본 인프라에 대한 액세스가 제한되며 소프트웨어 설치를 담당하거나 서비스 제공자가 설치하도록 합니다. 또한 서비스 팩, 바이러스 소프트웨어 및 패치를 포함한 다른 모든 유지보수에 대한 책임이 있습니다.
 
@@ -99,7 +99,7 @@ SaaS 모델에서는 제공자가 실제 애플리케이션을 통해 시스템�
 | [{{site.data.keyword.baremetal_short}}](/docs/bare-metal?topic=bare-metal-about-bm#about-bm)  |사용자 전용이며 서버 리소스를 포함한 모든 파트에서 다른 고객과 공유되지 않는 시간별 또는 월별 싱글 테넌트 서버입니다. |
 | [{{site.data.keyword.BluVirtServers_short}}](/docs/vsi?topic=virtual-servers-getting-started-tutorial) |코어와 메모리 할당을 포함하여 구매하는 확장 가능한 서버입니다. |
 | [{{site.data.keyword.vmwaresolutions_short}}](/docs/services/vmwaresolutions?topic=vmware-solutions-getting-started#getting-started) |확장 가능하고 안전한 고성능 인프라 및 업계 최고의 VMware 하이브리드 가상화 기술을 사용하여 온프레미스 VMware 워크로드를 빠르고 원활하게 통합하거나 마이그레이션합니다. |
-| [{{site.data.keyword.containerlong_notm}}](/docs/containers?topic=containers-container_index) |Docker 컨테이너, Kubernetes 기술, 직관적인 사용자 경험, 기본 제공 보안 및 격리를 결합하여 컴퓨팅 호스트의 클러스터에서 컨테이너화된 앱의 배치, 오퍼레이션, 스케일링 및 모니터링을 자동화합니다. |
+| [{{site.data.keyword.containerlong_notm}}](/docs/containers?topic=containers-getting-started) |Docker 컨테이너, Kubernetes 기술, 직관적인 사용자 경험, 기본 제공 보안 및 격리를 결합하여 컴퓨팅 호스트의 클러스터에서 컨테이너화된 앱의 배치, 오퍼레이션, 스케일링 및 모니터링을 자동화합니다. |
 | [{{site.data.keyword.cfee_full_notm}}](/docs/cloud-foundry?topic=cloud-foundry-about) |격리된 여러 엔터프라이즈급 Cloud Foundry 플랫폼을 요청 시 인스턴스화합니다. |
 | [{{site.data.keyword.openwhisk_short}}](/docs/openwhisk?topic=cloud-functions-getting_started#getting_started) |Apache OpenWhisk 기반의 FaaS(Function-as-a-Service) 프로그래밍 플랫폼입니다. |
 {: caption="표 1. 컴퓨팅 옵션" caption-side="top"}

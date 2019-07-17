@@ -2,7 +2,7 @@
 
 copyright:
   years: 2019
-lastupdated: "2019-06-24"
+lastupdated: "2019-07-02"
 
 keywords: personalized onboarding, onboarding program, Global Client Success
 
@@ -46,7 +46,7 @@ subcollection: overview
 </div>
 {: authenticated-content}
 
-無料のオンボーディング支援を要請した場合、2 から 3 営業日以内に {{site.data.keyword.IBM_notm}} グローバル・クライアント・サクセス・チームのメンバーから連絡させていただきます。 {{site.data.keyword.cloud}} プラットフォームでの確実な成功に向けて、お客様への支援を継続します。
+無料のオンボーディング支援を要請した場合、2 から 3 営業日以内に {{site.data.keyword.IBM_notm}} グローバル・クライアント・サクセス・チームのメンバーから連絡させていただきます。 {{site.data.keyword.cloud_notm}} プラットフォームでの確実な成功に向けて、お客様への支援を継続します。
 
 ### 早めに連絡する必要がある場合
 {: #contact-client-success}

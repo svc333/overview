@@ -3,7 +3,7 @@
 
 copyright:
   years: 2016, 2019
-lastupdated: "2019-05-28"
+lastupdated: "2019-07-02"
 
 keywords: glossary, IBM Cloud glossary
 
@@ -25,50 +25,24 @@ subcollection: overview
 - *請參閱* 可讓您從非偏好的術語參照到偏好的術語，或從縮寫參照到拼出的格式。
 - *另請參閱* 可讓您參照相關或對照術語。
 
-<!--If you do not want letter links at the top of your 
-glossary, delete the text between these comment tags.
-[A
-[B](#glossb)
-[C](#glossc)
-[D](#glossd)
-[E](#glosse)
-[F](#glossf)
-[G](#glossg)
-[H](#glossh)
-[I](#glossi)
-[J](#glossj)
-[L](#glossl)
-[M](#glossm)
-[N](#glossn)
-[O](#glosso)
-[P](#glossp)
-[R](#glossr)
-[S](#glosss)
-[T](#glosst)
-[U](#glossu)
-[V](#glossv)
-[W](#glossw)
-
--->
-
 ## 二劃
 
 ### 入門範本 (starter)
 {: #x7470511}
 
-一種範本，其中包含預先定義的服務，以及利用特定建置套件進行配置的應用程式碼。入門範本可以是用特定程式設計語言撰寫的應用程式碼，也可以是應用程式碼和一組服務的組合。另請參閱[運行環境 (runtime)](#x2391929)。
+一種範本，其中包含預先定義的服務，以及利用特定建置套件進行配置的應用程式碼。入門範本可以是用特定程式設計語言撰寫的應用程式碼，也可以是應用程式碼和一組服務的組合。另請參閱[運行環境 (runtime)](/docs/overview?topic=overview-glossary#x2391929)。
 
 ## 三劃
 
 ### 子網域 (subdomain)
 {: #x2040080}
 
-構成更大網域一部分的網域。另請參閱[自訂網域 (custom domain)](#x5728384)、[網域 (domain)](#x2021210)、[主機 (host)](#x2002243)、[路徑 (route)](#x2037338)、[統一資源定位器 (Uniform Resource Locator)](#x2042491)。
+構成更大網域一部分的網域。另請參閱[自訂網域 (custom domain)](/docs/overview?topic=overview-glossary#x5728384)、[網域 (domain)](/docs/overview?topic=overview-glossary#x2021210)、[主機 (host)](/docs/overview?topic=overview-glossary#x2002243)、[路徑 (route)](/docs/overview?topic=overview-glossary#x2037338)、[統一資源定位器 (Uniform Resource Locator)](/docs/overview?topic=overview-glossary#x2042491)。
 
 ### 子網路 (subnet)
 {: #x4282974}
 
-請參閱[子網路 (subnetwork, subnet)](#x2040149)。
+請參閱[子網路 (subnetwork, subnet)](/docs/overview?topic=overview-glossary#x2040149)。
 
 ### 子網路 (subnetwork, subnet)
 {: #x2040149}
@@ -85,7 +59,8 @@ glossary, delete the text between these comment tags.
 ### 中繼憑證 (intermediate certificate)
 {: #x3753781}
 
-由授信主要憑證管理中心 (CA) 發出的子層憑證，專門用於發出持卡實體伺服器憑證。結果會形成一條憑證鏈，從授信主要憑證管理中心開始、通過中繼憑證，最後以發給組織的 SSL 憑證結束。另請參閱[憑證管理中心 (certificate authority)](#x2016383)、[授信主要憑證 (trusted root)](#x2042234)。
+由授信主要憑證管理中心 (CA) 發出的子層憑證，專門用於發出持卡實體伺服器憑證。結果會形成一條憑證鏈，從授信主要憑證管理中心開始、通過中繼憑證，最後以發給組織的 SSL 憑證結束。另請參閱[憑證管理中心
+(certificate authority)](/docs/overview?topic=overview-glossary#x2016383)、[授信主要憑證 (trusted root)](/docs/overview?topic=overview-glossary#x2042234)。
 
 ### 元件 (component)
 {: #x2017871}
@@ -95,7 +70,7 @@ glossary, delete the text between these comment tags.
 ### 內部部署 (on-prem)
 {: #x6969434}
 
-請參閱[內部部署 (on-premises, on-prem)](#x4561212)。
+請參閱[內部部署 (on-premises, on-prem)](/docs/overview?topic=overview-glossary#x4561212)。
 
 ### 內部部署 (on-premises, on-prem)
 {: #x4561212}
@@ -105,12 +80,12 @@ glossary, delete the text between these comment tags.
 ### 公用雲端 (public cloud)
 {: #x4585370}
 
-一種雲端運算環境，其中可根據每次使用付款來訂閱標準化資源（例如基礎架構、多方承租戶硬體及服務）的存取權。另請參閱[無界限 (borderless)](#x8439189)、[專用雲端 (private cloud)](#x4585362)。
+一種雲端運算環境，其中可根據每次使用付款來訂閱標準化資源（例如基礎架構、多方承租戶硬體及服務）的存取權。另請參閱[無界限 (borderless)](/docs/overview?topic=overview-glossary#x8439189)、[專用雲端 (private cloud)](/docs/overview?topic=overview-glossary#x4585362)。
 
 ### 公用資源 (public resource)
 {: #x9439040}
 
-IBM Cloud 型錄中每個人都能看到的項目。公用資源可由任何提供者（IBM 或協力廠商提供者）建置。另請參閱[專用資源 (private resource)](#x9439035)。
+IBM Cloud 型錄中每個人都能看到的項目。公用資源可由任何提供者（IBM 或協力廠商提供者）建置。另請參閱[專用資源 (private resource)](/docs/overview?topic=overview-glossary#x9439035)。
 
 ### 公用閘道 (public gateway)
 {: #x9594389}
@@ -120,7 +95,7 @@ IBM Cloud 型錄中每個人都能看到的項目。公用資源可由任何提�
 ### 反親緣性 (anti-affinity)
 {: #x8888040}
 
-在不同網路節點上執行的兩個以上容器群組實例，以確保應用程式具有較高可用性。另請參閱[親緣性 (affinity)](#x2149238)。
+在不同網路節點上執行的兩個以上容器群組實例，以確保應用程式具有較高可用性。另請參閱[親緣性 (affinity)](/docs/overview?topic=overview-glossary#x2149238)。
 
 ## 五劃
 
@@ -132,7 +107,12 @@ IBM Cloud 型錄中每個人都能看到的項目。公用資源可由任何提�
 ### 主機 (host)
 {: #x2002243}
 
-連上網路並為該網路提供存取點的電腦。主機可以是用戶端、伺服器或同時為這兩者。另請參閱[用戶端 (client)](#x2000644)、[自訂網域 (custom domain)](#x5728384)、[網域 (domain)](#x2021210)、[路徑 (route)](#x2037338)、[子網域 (subdomain)](#x2040080)、[統一資源定位器 (Uniform Resource Locator)](#x2042491)。
+連上網路並為該網路提供存取點的電腦。主機可以是用戶端、伺服器或同時為這兩者。另請參閱[用戶端 (client)](/docs/overview?topic=overview-glossary#x2000644)、[自訂網域 (custom domain)](/docs/overview?topic=overview-glossary#x5728384)、[網域 (domain)](/docs/overview?topic=overview-glossary#x2021210)、[路徑 (route)](/docs/overview?topic=overview-glossary#x2037338)、[子網域 (subdomain)](/docs/overview?topic=overview-glossary#x2040080)、[統一資源定位器 (Uniform Resource Locator)](/docs/overview?topic=overview-glossary#x2042491)。
+
+### 主體 (subject)
+{: #x2380043}
+
+存取原則授與其存取權的使用者、服務 ID 或存取群組。
 
 ### 半虛擬化模式 (paravirtualized mode)
 {: #x9736806}
@@ -142,7 +122,7 @@ IBM Cloud 型錄中每個人都能看到的項目。公用資源可由任何提�
 ### 可用性區域 (availability zone)
 {: #x7018171}
 
-地區內 IBM Containers 在其中執行的位置。
+地區內 {{site.data.keyword.containerlong}} 在其中執行的位置。
 
 
 ### 平台即服務 (platform as a service, PaaS)
@@ -153,25 +133,30 @@ IBM Cloud 型錄中每個人都能看到的項目。公用資源可由任何提�
 ### 本端雲端 (local cloud)
 {: #x8439194}
 
-用戶端資料中心內的雲端運算環境。本端雲端是內部部署的，並提供改良的延遲及安全。另請參閱[無界限 (borderless)](#x8439189)。
+用戶端資料中心內的雲端運算環境。本端雲端是內部部署的，並提供改良的延遲及安全。另請參閱[無界限 (borderless)](/docs/overview?topic=overview-glossary#x8439189)。
 
 
 ### 母項映像檔 (parent image)
 {: #x8439210}
 
-提供另一個映像檔基礎的映像檔。例如，Ubuntu Linux 是 IBM Liberty 映像檔的母項映像檔。另請參閱[基礎映像檔 (base image)](#x5366487)、[映像檔 (image)](#x2024928)。
+提供另一個映像檔基礎的映像檔。例如，Ubuntu Linux 是 IBM Liberty 映像檔的母項映像檔。另請參閱[基礎映像檔 (base image)](/docs/overview?topic=overview-glossary#x5366487)、[映像檔 (image)](/docs/overview?topic=overview-glossary#x2024928)。
 
 ### 用戶端 (client)
 {: #x2000644}
 
-向伺服器要求服務的軟體程式或電腦。另請參閱[主機 (host)](#x2002243)。
+向伺服器要求服務的軟體程式或電腦。另請參閱[主機 (host)](/docs/overview?topic=overview-glossary#x2002243)。
+
+### 目標 (target)
+{: #x2262507}
+
+在存取原則中，要提供主體對其之存取權的資源或資源集。資源集由一個以上的屬性定義。例如，目標可以是資源群組中的所有資源、特定資源類型的所有資源，或是具有特定資源 ID 的資源。
 
 ## 六劃
 
 ### 名稱空間 (namespace)
 {: #x2031005}
 
-唯一名稱，可識別 IBM Cloud 登錄內貴組織的映像檔儲存庫。另請參閱[映像檔 (image)](#x2024928)、[專用映像檔儲存庫 (private image repository)](#x8439215)。
+唯一名稱，可識別 IBM Cloud 登錄內貴組織的映像檔儲存庫。另請參閱[映像檔 (image)](/docs/overview?topic=overview-glossary#x2024928)、[專用映像檔儲存庫 (private image repository)](/docs/overview?topic=overview-glossary#x8439215)。
 
 ### 地區 (region)
 {: #x2091391}
@@ -181,7 +166,12 @@ IBM Cloud 型錄中每個人都能看到的項目。公用資源可由任何提�
 ### 多區域地區 (multizone region, MZR)
 {: #x9774820}
 
-分散於多個區域的資料中心以提高容錯的地區。另請參閱[區域 (zone)](#x2070723)。
+分散於多個區域的資料中心以提高容錯的地區。另請參閱[區域 (zone)](/docs/overview?topic=overview-glossary#x2070723)。
+
+### 存取原則 (access policy)
+{: #x2853407}
+
+用於授與使用者、服務 ID 及存取群組對帳戶資源之存取權的方法。存取原則由主體、目標及角色所組成。
 
 ### 存取記號 (access token)
 {: #x2113001}
@@ -193,10 +183,15 @@ IBM Cloud 型錄中每個人都能看到的項目。公用資源可由任何提�
 
 透過使用規則，以無狀態方式管理子網路入埠及出埠資料流量的清單。存取控制清單能協助提供子網路層次的安全。
 
+### 存取群組 (access group)
+{: #x2160811}
+
+一組使用者及服務 ID，組織成為群組，這個群組用來作為存取原則的主體，以便指派相同的存取權給所有群組成員。
+
 ### 自訂網域 (custom domain)
 {: #x5728384}
 
-使用者所選取 URL 中的自訂部分，可以將要求導向到應用程式。自訂網域會構成路徑的一部分。自訂網域可以是共用網域、共用子網域或共用網域與主機。另請參閱[網域 (domain)](#x2021210)、[主機 (host)](#x2002243)、[路徑 (route)](#x2037338)、[子網域 (subdomain)](#x2040080)、[統一資源定位器 (Uniform Resource Locator)](#x2042491)。
+使用者所選取 URL 中的自訂部分，可以將要求導向到應用程式。自訂網域會構成路徑的一部分。自訂網域可以是共用網域、共用子網域或共用網域與主機。另請參閱[網域 (domain)](/docs/overview?topic=overview-glossary#x2021210)、[主機 (host)](/docs/overview?topic=overview-glossary#x2002243)、[路徑 (route)](/docs/overview?topic=overview-glossary#x2037338)、[子網域 (subdomain)](/docs/overview?topic=overview-glossary#x2040080)、[統一資源定位器 (Uniform Resource Locator)](/docs/overview?topic=overview-glossary#x2042491)。
 
 
 ### 行動後端即服務 (mobile backend as a service, MBaaS)
@@ -212,12 +207,12 @@ IBM Cloud 型錄中每個人都能看到的項目。公用資源可由任何提�
 ### 行動應用程式 (mobile app)
 {: #x7636517}
 
-請參閱[行動應用程式 (mobile application)](#x4258535)。
+請參閱[行動應用程式 (mobile application)](/docs/overview?topic=overview-glossary#x4258535)。
 
 ### 行動應用程式 (mobile application, mobile app)
 {: #x4258535}
 
-針對行動平台所設計的應用程式。與 Web 應用程式類似，行動應用程式除了靜態顯示資訊以外，還提供一些功能，例如，讓使用者即時過濾新聞。另請參閱[應用程式 (app)](#x4281528)。
+針對行動平台所設計的應用程式。與 Web 應用程式類似，行動應用程式除了靜態顯示資訊以外，還提供一些功能，例如，讓使用者即時過濾新聞。另請參閱[應用程式 (app)](/docs/overview?topic=overview-glossary#x4281528)。
 
 ## 七劃
 
@@ -226,13 +221,17 @@ IBM Cloud 型錄中每個人都能看到的項目。公用資源可由任何提�
 
 一種用來加密訊息的演算型樣，只有對應的公開金鑰可以解密。另外，私密金鑰也用來將相對應公開金鑰所加密的訊息解密。私密金鑰保存在使用者系統上，受到密碼保護。
 
+### 角色 (role)
+{: #x2065412}
+
+一組許可權或存取權。
+
 ## 八劃
 
-### 使用者階層 (user hierarchy)
-{: #userhierarchy}
+### 使用者 (user)
+{: #x2069659}
 
-將其他使用者邀請加入帳戶的標準基礎架構使用者的使用者管理關係。然後，這些使用者會邀請其他使用者加入帳戶，依此類推。當標準基礎架構使用者邀請另一位使用者加入帳戶時，標準基礎架構使用者會變成母項使用者。當母項使用者的子項使用者邀請其他使用者加入該帳戶時，這些使用者會變成原始母項（現在被視為上代）的後代。
-
+用來作為帳戶中某人身分的 IBM ID 或 SoftLayer ID。
 
 ### 具象狀態傳輸 (Representational State Transfer, REST)
 {: #x3220976}
@@ -247,12 +246,17 @@ IBM Cloud 型錄中每個人都能看到的項目。公用資源可由任何提�
 ### 呼叫 (invoke)
 {: #x2057232}
 
-啟動動作。另請參閱[動作 (action)](#x2012974)。
+啟動動作。另請參閱[動作 (action)](/docs/overview?topic=overview-glossary#x2012974)。
 
 ### 服務 (service)
 {: #x2038343}
 
 一種雲端延伸，用於提供資料庫、傳訊和 Web 軟體等現成功能以執行程式碼、應用程式管理或監視功能。服務通常不需要安裝或維護，並且可以透過結合來建立應用程式。
+
+### 服務 ID (service ID)
+{: #x9148163}
+
+向雲端環境及其他服務鑑別服務或應用程式的身分。服務 ID 可被指派存取原則，並用來讓部署至雲端環境的應用程式能夠存取雲端服務。
 
 ### 物聯網 (Internet of Things, IoT)
 {: #x6714341}
@@ -262,7 +266,7 @@ IBM Cloud 型錄中每個人都能看到的項目。公用資源可由任何提�
 ### 空間 (space)
 {: #x2039442}
 
-IBM Cloud 組織中的子群組。身為組織成員的使用者會被授與一個以上組織空間的存取權，以及與特定角色（例如，開發人員、管理員或審核員）相關聯的權限。空間的任何成員都可以檢視應用程式，但只有具有開發人員角色的成員才能建立應用程式，以及將服務實例新增至該空間。應用程式和服務實例與空間相關聯。另請參閱[組織 (organization)](#x2032585)。
+{{site.data.keyword.cloud_notm}} 組織中的子群組。身為組織成員的使用者會被授與一個以上組織空間的存取權，以及與特定角色（例如，開發人員、管理員或審核員）相關聯的權限。空間的任何成員都可以檢視應用程式，但只有具有開發人員角色的成員才能建立應用程式，以及將服務實例新增至該空間。應用程式和服務實例與空間相關聯。另請參閱[組織 (organization)](/docs/overview?topic=overview-glossary#x2032585)。
 
 ## 九劃
 
@@ -280,7 +284,7 @@ Script 的集合，用於準備好程式碼以便在 IBM Cloud 上執行。建�
 ### 映像檔 (image)
 {: #x2024928}
 
-檔案系統及其執行參數，用來在容器運行環境內建立容器。檔案系統包含一系列的層，這些層在執行時結合，且會在連續更新建置映像檔時建立。映像檔不會在容器執行時保留狀態。另請參閱[基礎映像檔 (base image)](#x5366487)、[容器 (container)](#x2010901)、[層 (layer)](#x2028320)、[名稱空間 (namespace)](#x2031005)、[母項映像檔 (parent image)](#x8439210)、[專用映像檔儲存庫 (private image repository)](#x8439215)、[登錄 (registry)](#x2064940)。
+檔案系統及其執行參數，用來在容器運行環境內建立容器。檔案系統包含一系列的層，這些層在執行時結合，且會在連續更新建置映像檔時建立。映像檔不會在容器執行時保留狀態。另請參閱[基礎映像檔 (base image)](/docs/overview?topic=overview-glossary#x5366487)、[容器 (container)](/docs/overview?topic=overview-glossary#x2010901)、[層 (layer)](/docs/overview?topic=overview-glossary#x2028320)、[名稱空間 (namespace)](/docs/overview?topic=overview-glossary#x2031005)、[母項映像檔 (parent image)](/docs/overview?topic=overview-glossary#x8439210)、[專用映像檔儲存庫 (private image repository)](/docs/overview?topic=overview-glossary#x8439215)、[登錄 (registry)](/docs/overview?topic=overview-glossary#x2064940)。
 
 ### 架構 (framework)
 {: #x2023472}
@@ -296,19 +300,19 @@ Script 的集合，用於準備好程式碼以便在 IBM Cloud 上執行。建�
 ### 紅黑部署 (red-black deployment)
 {: #x8439181}
 
-一種部署技術，透過啟用同步化測試、開發及部署來推動持續交付。一開始，開發是在非作用中環境中進行（黑色），而作用中環境會持續取得資料流量（紅色）。部署啟動之後，在先前作用中舊版環境上停用遞送之前，兩個環境都會變成進行中（紅-紅），隨後予以移除（黑），而新的環境會作為唯一的作用中環境。另請參閱[藍綠部署 (blue-green deployment)](#x7807335)。
+一種部署技術，透過啟用同步化測試、開發及部署來推動持續交付。一開始，開發是在非作用中環境中進行（黑色），而作用中環境會持續取得資料流量（紅色）。部署啟動之後，在先前作用中舊版環境上停用遞送之前，兩個環境都會變成進行中（紅-紅），隨後予以移除（黑），而新的環境會作為唯一的作用中環境。另請參閱[藍綠部署 (blue-green deployment)](/docs/overview?topic=overview-glossary#x7807335)。
 
 ### 重量型 API 呼叫 (heavy API call)
 {: #x7690468}
 
-寫入、刪除或插入資料的用戶端作業。重量型 API 呼叫所耗用的資源高於輕量型 API 呼叫，因為它們會影響資料。另請參閱[輕量型 API 呼叫 (light API call)](#x7690463)。
+寫入、刪除或插入資料的用戶端作業。重量型 API 呼叫所耗用的資源高於輕量型 API 呼叫，因為它們會影響資料。另請參閱[輕量型 API 呼叫 (light API call)](/docs/overview?topic=overview-glossary#x7690463)。
 
 ## 十劃
 
 ### 容器 (container)
 {: #x2010901}
 
-一種系統建構，容許使用者同步執行個別邏輯作業系統實例。容器使用檔案系統各層來最小化映像檔大小，並推動重複使用。另請參閱[映像檔 (image)](#x2024928)、[層 (layer)](#x2028320)、[登錄 (registry)](#x2064940)。
+一種系統建構，容許使用者同步執行個別邏輯作業系統實例。容器使用檔案系統各層來最小化映像檔大小，並推動重複使用。另請參閱[映像檔 (image)](/docs/overview?topic=overview-glossary#x2024928)、[層 (layer)](/docs/overview?topic=overview-glossary#x2028320)、[登錄 (registry)](/docs/overview?topic=overview-glossary#x2064940)。
 
 ### 浮動 IP 位址 (floating IP address)
 {: #x6326428}
@@ -318,29 +322,30 @@ Script 的集合，用於準備好程式碼以便在 IBM Cloud 上執行。建�
 ### 記錄系統 (system of record, SOR)
 {: #x6735061}
 
-一種資訊儲存系統（例如，資料庫或應用程式），用於儲存商業記錄和自動執行標準處理程序。另請參閱[參與系統 (system of engagement)](#x6528306)。
+一種資訊儲存系統（例如，資料庫或應用程式），用於儲存商業記錄和自動執行標準處理程序。另請參閱[參與系統 (system of engagement)](/docs/overview?topic=overview-glossary#x6528306)。
 
 ## 十一劃
 
 ### 動作 (action)
 {: #x2012974}
 
-可以明確地呼叫或因回應事件而執行的程式碼 Snippet。另請參閱[資訊來源 (feed)](#x3129185)、[呼叫 (invoke)](#x2057232)。
+- 可以明確地呼叫或因回應事件而執行的程式碼 Snippet。另請參閱[資訊來源 (feed)](/docs/overview?topic=overview-glossary#x3129185)、[呼叫 (invoke)](/docs/overview?topic=overview-glossary#x2057232)。
+- 在服務的環境定義中執行的作業。
 
 ### 區域 (zone)
 {: #x2070723}
 
-獨立的錯誤網域。區域是一種抽象化，其設計是要藉由改善容錯及縮短延遲而提供協助。另請參閱[多區域地區 (multizone region)](#x9774820)、[單一區域地區 (single-zone region)](#x9774825)。
+獨立的錯誤網域。區域是一種抽象化，其設計是要藉由改善容錯及縮短延遲而提供協助。另請參閱[多區域地區 (multizone region)](/docs/overview?topic=overview-glossary#x9774820)、[單一區域地區 (single-zone region)](/docs/overview?topic=overview-glossary#x9774825)。
 
 ### 參與系統 (system of engagement)
 {: #x6528306}
 
-一種資訊技術 (IT) 系統，其中包含多種技術，用於鼓勵使用者透過電子郵件、協同作業系統和網路進行互動。參與系統通常使用雲端技術來延伸記錄系統的實用性。另請參閱[記錄系統 (system of record)](#x6735061)。
+一種資訊技術 (IT) 系統，其中包含多種技術，用於鼓勵使用者透過電子郵件、協同作業系統和網路進行互動。參與系統通常使用雲端技術來延伸記錄系統的實用性。另請參閱[記錄系統 (system of record)](/docs/overview?topic=overview-glossary#x6735061)。
 
 ### 基礎映像檔 (base image)
 {: #x5366487}
 
-沒有母項映像檔的映像檔。另請參閱[映像檔 (image)](#x2024928)、[母項映像檔 (parent image)](#x8439210)。
+沒有母項映像檔的映像檔。另請參閱[映像檔 (image)](/docs/overview?topic=overview-glossary#x2024928)、[母項映像檔 (parent image)](/docs/overview?topic=overview-glossary#x8439210)。
 
 ### 基礎架構即服務 (infrastructure as a service, IaaS)
 {: #x4585332}
@@ -355,22 +360,22 @@ Script 的集合，用於準備好程式碼以便在 IBM Cloud 上執行。建�
 ### 專用映像檔儲存庫 (private image repository)
 {: #x8439215}
 
-組織的 IBM Cloud 登錄及其名稱空間的組合。在指令中參照映像檔時，會使用專用映像檔儲存庫。另請參閱[映像檔 (image)](#x2024928)、[名稱空間 (namespace)](#x2031005)。
+組織的 IBM Cloud 登錄及其名稱空間的組合。在指令中參照映像檔時，會使用專用映像檔儲存庫。另請參閱[映像檔 (image)](/docs/overview?topic=overview-glossary#x2024928)、[名稱空間 (namespace)](/docs/overview?topic=overview-glossary#x2031005)。
 
 ### 專用雲端 (dedicated cloud)
 {: #x8439199}
 
-一種專用雲端運算環境，提供具有單一承租戶硬體的基礎架構。另請參閱[無界限 (borderless)](#x8439189)。
+一種專用雲端運算環境，提供具有單一承租戶硬體的基礎架構。另請參閱[無界限 (borderless)](/docs/overview?topic=overview-glossary#x8439189)。
 
 ### 專用雲端 (private cloud)
 {: #x4585362}
 
-一種雲端運算環境，僅限由企業與合作夥伴網路的成員進行存取。另請參閱[公用雲端 (public cloud)](#x4585370)。
+一種雲端運算環境，僅限由企業與合作夥伴網路的成員進行存取。另請參閱[公用雲端 (public cloud)](/docs/overview?topic=overview-glossary#x4585370)。
 
 ### 專用資源 (private resource)
 {: #x9439035}
 
-只有帳戶擁有者及其包含帳戶才能看到的項目。建立資源時，它們依預設是專用資源。另請參閱[公用資源 (public resource)](#x9439040)。
+只有帳戶擁有者及其包含帳戶才能看到的項目。建立資源時，它們依預設是專用資源。另請參閱[公用資源 (public resource)](/docs/overview?topic=overview-glossary#x9439040)。
 
 ### 常駐程式 (daemon)
 {: #x2019215}
@@ -391,7 +396,8 @@ Script 的集合，用於準備好程式碼以便在 IBM Cloud 上執行。建�
 ### 授信主要憑證 (trusted root)
 {: #x2042234}
 
-由授信憑證管理中心 (CA) 簽署的憑證。另請參閱[憑證管理中心 (certificate authority)](#x2016383)、[中繼憑證 (intermediate certificate)](#x3753781)。
+由授信憑證管理中心 (CA) 簽署的憑證。另請參閱[憑證管理中心
+(certificate authority)](/docs/overview?topic=overview-glossary#x2016383)、[中繼憑證 (intermediate certificate)](/docs/overview?topic=overview-glossary#x3753781)。
 
 
 ### 授權 (authorization, AuthZ)
@@ -407,7 +413,7 @@ Script 的集合，用於準備好程式碼以便在 IBM Cloud 上執行。建�
 ### 統一資源定址器 (Uniform Resource Locator, URL)
 {: #x2042491}
 
-可在網路（例如，網際網路）上存取之資訊資源的唯一位址。URL 包括用來存取資訊資源的通訊協定縮寫名稱，以及通訊協定用來尋找資訊資源的資訊。另請參閱[自訂網域 (custom domain)](#x5728384)、[網域 (domain)](#x2021210)、[主機 (host)](#x2002243)、[路徑 (route)](#x2037338)、[子網域 (subdomain)](#x2040080)。
+可在網路（例如，網際網路）上存取之資訊資源的唯一位址。URL 包括用來存取資訊資源的通訊協定縮寫名稱，以及通訊協定用來尋找資訊資源的資訊。另請參閱[自訂網域 (custom domain)](/docs/overview?topic=overview-glossary#x5728384)、[網域 (domain)](/docs/overview?topic=overview-glossary#x2021210)、[主機 (host)](/docs/overview?topic=overview-glossary#x2002243)、[路徑 (route)](/docs/overview?topic=overview-glossary#x2037338)、[子網域 (subdomain)](/docs/overview?topic=overview-glossary#x2040080)。
 
 ### 統一資源識別碼 (Uniform Resource Identifier, URI)
 {: #x2116436}
@@ -417,12 +423,12 @@ Script 的集合，用於準備好程式碼以便在 IBM Cloud 上執行。建�
 ### 組織 (org)
 {: #x7470494}
 
-請參閱[組織 (organization, org)](#x2032585)。
+請參閱[組織 (organization, org)](/docs/overview?topic=overview-glossary#x2032585)。
 
 ### 組織 (organization, org)
 {: #x2032585}
 
-這是指 IBM Cloud 中對使用者進行分組的方法。組織可用於管理配額。組織中的使用者會共用記憶體和服務實例配額。另請參閱[網域 (domain)](#x2021210)、[空間 (space)](#x2039442)。
+這是指 IBM Cloud 中對使用者進行分組的方法。組織可用於管理配額。組織中的使用者會共用記憶體和服務實例配額。另請參閱[網域 (domain)](/docs/overview?topic=overview-glossary#x2021210)、[空間 (space)](/docs/overview?topic=overview-glossary#x2039442)。
 
 
 ### 規則 (rule)
@@ -446,17 +452,17 @@ Script 的集合，用於準備好程式碼以便在 IBM Cloud 上執行。建�
 
 使用經過協議的通訊協定，在網路上的軟體元件之間建立連線。在 Web 服務中，當服務要求者在執行時，透過使用服務說明中的連結詳細資料來尋找、聯絡和呼叫服務的方式，呼叫或起始與服務的互動時，就會進行連結作業。
 
+## 十二劃
+
 ### 部署 (deployment)
 {: #x2104544}
 
-一個處理程序，用於擷取建置輸出、包裝輸出（含配置內容），以及在預先定義的位置中安裝套件，以進行測試或執行。另請參閱[編譯打包 (stage)](#x2067189)。
-
-## 十二劃
+一個處理程序，用於擷取建置輸出、包裝輸出（含配置內容），以及在預先定義的位置中安裝套件，以進行測試或執行。另請參閱[編譯打包 (stage)](/docs/overview?topic=overview-glossary#x2067189)。
 
 ### 單一區域地區 (single-zone region, SZR)
 {: #x9774825}
 
-由位於一個區域內的資料中心所組成的地區。另請參閱[區域 (zone)](#x2070723)。
+由位於一個區域內的資料中心所組成的地區。另請參閱[區域 (zone)](/docs/overview?topic=overview-glossary#x2070723)。
 
 ### 單一登入 (single sign-on, SSO)
 {: #x2213318}
@@ -466,17 +472,17 @@ Script 的集合，用於準備好程式碼以便在 IBM Cloud 上執行。建�
 ### 測試版供應項目 (beta offering)
 {: #x9774283}
 
-IBM 提供的供應項目主要用於評估及測試目的。沒有提供任何保證、SLA 或支援，且測試版供應項目不適合供正式作業使用。
+{{site.data.keyword.IBM_notm}} 提供的供應項目主要用於評估及測試目的。沒有提供任何保證、SLA 或支援，且測試版供應項目不適合供正式作業使用。
 
 ### 無界限 (borderless)
 {: #x8439189}
 
-相關的開放式非專屬開發平台，其中包括公用雲端、專用雲端及本端雲端部署模型。另請參閱[專用雲端 (dedicated cloud)](#x8439199)、[本端雲端 (local cloud)](#x8439194)、[公用雲端 (public cloud)](#x4585370)。
+相關的開放式非專屬開發平台，其中包括公用雲端、專用雲端及本端雲端部署模型。另請參閱[專用雲端 (dedicated cloud)](/docs/overview?topic=overview-glossary#x8439199)、[本端雲端 (local cloud)](/docs/overview?topic=overview-glossary#x8439194)、[公用雲端 (public cloud)](/docs/overview?topic=overview-glossary#x4585370)。
 
 ### 登錄 (registry)
 {: #x2064940}
 
-包含用來建立容器之映像檔的公用或專用儲存庫。另請參閱[容器 (container)](#x2010901)、[映像檔 (image)](#x2024928)。
+包含用來建立容器之映像檔的公用或專用儲存庫。另請參閱[容器 (container)](/docs/overview?topic=overview-glossary#x2010901)、[映像檔 (image)](/docs/overview?topic=overview-glossary#x2024928)。
 
 ### 發動 (fire)
 {: #x2239904}
@@ -496,7 +502,7 @@ IBM 提供的供應項目主要用於評估及測試目的。沒有提供任何�
 ### 虛擬伺服器 (virtual server)
 {: #x2455638}
 
-一部與其他伺服器共用資源以支援應用程式的伺服器。另請參閱[虛擬機器 (virtual machine)](#x2043165)。
+一部與其他伺服器共用資源以支援應用程式的伺服器。另請參閱[虛擬機器 (virtual machine)](/docs/overview?topic=overview-glossary#x2043165)。
 
 ### 虛擬區域網路 (virtual local area network, VLAN)
 {: #x2438470}
@@ -516,7 +522,7 @@ IBM 提供的供應項目主要用於評估及測試目的。沒有提供任何�
 ### 虛擬機器 (virtual machine, VM)
 {: #x2043165}
 
-像實體機器一樣執行程式之機器的軟體實作。另請參閱[虛擬伺服器 (virtual server)](#x2455638)。
+像實體機器一樣執行程式之機器的軟體實作。另請參閱[虛擬伺服器 (virtual server)](/docs/overview?topic=overview-glossary#x2455638)。
 
 ### 超文字傳送通訊協定安全 (Hypertext Transfer Protocol Secure, HTTPS)
 {: #x2237225}
@@ -554,7 +560,7 @@ IBM 提供的供應項目主要用於評估及測試目的。沒有提供任何�
 ### 資訊來源 (feed)
 {: #x3129185}
 
-可配置外部事件來源來發動觸發程式事件的程式碼片段。另請參閱[動作 (action)](#x2012974)。
+可配置外部事件來源來發動觸發程式事件的程式碼片段。另請參閱[動作 (action)](/docs/overview?topic=overview-glossary#x2012974)。
 
 ### 資源 (resource)
 {: #x2004267}
@@ -569,12 +575,12 @@ IBM 提供的供應項目主要用於評估及測試目的。沒有提供任何�
 ### 路徑 (route)
 {: #x2037338}
 
-用來將要求導向至應用程式的 URL。路徑包含在推送應用程式時所指定的選用性主機（或子網域）和網域。例如，在路徑 myapp.example.com 中，myapp 是主機，而 example.com 是網域。路徑可與一個以上的應用程式相關聯。除非指定自訂網域，否則 IBM Cloud 會在您的應用程式路徑中使用預設的共用網域。另請參閱[自訂網域 (custom domain)](#x5728384)、[網域 (domain)](#x2021210)、[端點 (endpoint)](#x2026820)、[主機 (host)](#x2002243)、[子網域 (subdomain)](#x2040080)、[統一資源定位器 (Uniform Resource Locator)](#x2042491)。
+用來將要求導向至應用程式的 URL。路徑包含在推送應用程式時所指定的選用性主機（或子網域）和網域。例如，在路徑 myapp.example.com 中，myapp 是主機，而 example.com 是網域。路徑可與一個以上的應用程式相關聯。除非指定自訂網域，否則 IBM Cloud 會在您的應用程式路徑中使用預設的共用網域。另請參閱[自訂網域 (custom domain)](/docs/overview?topic=overview-glossary#x5728384)、[網域 (domain)](/docs/overview?topic=overview-glossary#x2021210)、[端點 (endpoint)](/docs/overview?topic=overview-glossary#x2026820)、[主機 (host)](/docs/overview?topic=overview-glossary#x2002243)、[子網域 (subdomain)](/docs/overview?topic=overview-glossary#x2040080)、[統一資源定位器 (Uniform Resource Locator)](/docs/overview?topic=overview-glossary#x2042491)。
 
 ### 運行環境 (runtime)
 {: #x2391929}
 
-用來執行應用程式的資源集。另請參閱[入門範本 (starter)](#x7470511)。
+用來執行應用程式的資源集。另請參閱[入門範本 (starter)](/docs/overview?topic=overview-glossary#x7470511)。
 
 
 ### 運算 (compute)
@@ -592,7 +598,7 @@ IBM 提供的供應項目主要用於評估及測試目的。沒有提供任何�
 ### 實驗性供應項目 (experimental offering)
 {: #x9774278}
 
-IBM 提供的供應項目主要用於評估及測試目的，它可能不穩定或與先前的版本不相容。實驗性供應項目可能一經通知即停止使用。沒有提供任何保證、SLA 或支援，且實驗性供應項目不適合供正式作業使用。
+{{site.data.keyword.IBM_notm}} 提供的供應項目主要用於評估及測試目的，它可能不穩定或與先前的版本不相容。實驗性供應項目可能一經通知即停止使用。沒有提供任何保證、SLA 或支援，且實驗性供應項目不適合供正式作業使用。
 
 ### 構件 (artifact)
 {: #x2262995}
@@ -607,7 +613,7 @@ IBM 提供的供應項目主要用於評估及測試目的，它可能不穩定�
 ### 端點 (endpoint)
 {: #x2026820}
 
-環境中的 API 或服務的位址。API 會公開端點，同時呼叫其他服務的端點。另請參閱[路徑 (route)](#x2037338)。
+環境中的 API 或服務的位址。API 會公開端點，同時呼叫其他服務的端點。另請參閱[路徑 (route)](/docs/overview?topic=overview-glossary#x2037338)。
 
 ### 精選版 (select availability)
 {: #x9773835}
@@ -623,7 +629,7 @@ IBM 提供的供應項目主要用於評估及測試目的，它可能不穩定�
 ### 網域 (domain)
 {: #x2021210}
 
-命名階層的一部分，用於指定路徑。例如，example.com。在 IBM Cloud 中，網域與組織相關聯。網域物件並不直接連結至應用程式。另請參閱[自訂網域 (custom domain)](#x5728384)、[主機 (host)](#x2002243)、[組織 (organization)](#x2032585)、[路徑 (route)](#x2037338)、[子網域 (subdomain)](#x2040080)、[統一資源定位器 (Uniform Resource Locator)](#x2042491)。
+命名階層的一部分，用於指定路徑。例如，example.com。在 {{site.data.keyword.cloud_notm}} 中，網域與組織相關聯。網域物件並不直接連結至應用程式。另請參閱[自訂網域 (custom domain)](/docs/overview?topic=overview-glossary#x5728384)、[主機 (host)](/docs/overview?topic=overview-glossary#x2002243)、[組織 (organization)](/docs/overview?topic=overview-glossary#x2032585)、[路徑 (route)](/docs/overview?topic=overview-glossary#x2037338)、[子網域 (subdomain)](/docs/overview?topic=overview-glossary#x2040080)、[統一資源定位器 (Uniform Resource Locator)](/docs/overview?topic=overview-glossary#x2042491)。
 
 ### 網路據點 (point of presence, PoP)
 {: #x5458832}
@@ -643,7 +649,7 @@ IBM 提供的供應項目主要用於評估及測試目的，它可能不穩定�
 ### 輕量型 API 呼叫 (light API call)
 {: #x7690463}
 
-只讀取資料的用戶端作業。輕量型 API 呼叫所使用的資源低於重量型 API 呼叫，因為它們執行單一功能。另請參閱[重量型 API 呼叫 (heavy API call)](#x7690468)。
+只讀取資料的用戶端作業。輕量型 API 呼叫所使用的資源低於重量型 API 呼叫，因為它們執行單一功能。另請參閱[重量型 API 呼叫 (heavy API call)](/docs/overview?topic=overview-glossary#x7690468)。
 
 ### 輕量型目錄存取通訊協定 (Lightweight Directory Access Protocol, LDAP)
 {: #x2028538}
@@ -660,7 +666,7 @@ IBM 提供的供應項目主要用於評估及測試目的，它可能不穩定�
 ### 層 (layer)
 {: #x2028320}
 
-母項映像檔的已變更版本。映像檔是由層所組成，其中已變更版本是以母項映像檔為基礎層層堆積，以建立新的映像檔。另請參閱[容器 (container)](#x2010901)、[映像檔 (image)](#x2024928)。
+母項映像檔的已變更版本。映像檔是由層所組成，其中已變更版本是以母項映像檔為基礎層層堆積，以建立新的映像檔。另請參閱[容器 (container)](/docs/overview?topic=overview-glossary#x2010901)、[映像檔 (image)](/docs/overview?topic=overview-glossary#x2024928)。
 
 ### 廣域唯一 ID (globally unique identifier, GUID)
 {: #x2390455}
@@ -685,14 +691,14 @@ IBM 提供的供應項目主要用於評估及測試目的，它可能不穩定�
 ### 編譯打包 (stage)
 {: #x2067189}
 
-在部署至正式作業環境之前，先將應用程式、服務或實例部署至預先定義的位置，以執行或測試。另請參閱[部署 (deployment)](#x2104544)。
+在部署至正式作業環境之前，先將應用程式、服務或實例部署至預先定義的位置，以執行或測試。另請參閱[部署 (deployment)](/docs/overview?topic=overview-glossary#x2104544)。
 
 ## 十六劃
 
 ### 憑證管理中心 (certificate authority, CA)
 {: #x2016383}
 
-受信任的第三方組織或公司，負責發出數位憑證。憑證管理中心通常會驗證被授與唯一憑證之個人的身分。另請參閱[中繼憑證 (intermediate certificate)](#x3753781)、[Secure Sockets Layer](#x2038004)、[授信主要憑證 (trusted root)](#x2042234)。
+受信任的第三方組織或公司，負責發出數位憑證。憑證管理中心通常會驗證被授與唯一憑證之個人的身分。另請參閱[中繼憑證 (intermediate certificate)](/docs/overview?topic=overview-glossary#x3753781)、[Secure Sockets Layer](/docs/overview?topic=overview-glossary#x2038004)、[授信主要憑證 (trusted root)](/docs/overview?topic=overview-glossary#x2042234)。
 
 ### 憑證簽署要求 (certificate signing request, CSR)
 {: #x3530521}
@@ -707,14 +713,14 @@ IBM 提供的供應項目主要用於評估及測試目的，它可能不穩定�
 ### 親緣性 (affinity)
 {: #x2149238}
 
-在相同網路節點上執行的兩個以上容器群組實例。另請參閱[反親緣性 (anti-affinity)](#x8888040)。
+在相同網路節點上執行的兩個以上容器群組實例。另請參閱[反親緣性 (anti-affinity)](/docs/overview?topic=overview-glossary#x8888040)。
 
 ## 十七劃
 
 ### 應用程式 (app)
 {: #x4281528}
 
-一種 Web 或行動裝置應用程式。另請參閱[行動應用程式 (mobile application)](#x4258535)、[Web 應用程式 (web application)](#x2116500)。
+一種 Web 或行動裝置應用程式。另請參閱[行動應用程式 (mobile application)](/docs/overview?topic=overview-glossary#x4258535)、[Web 應用程式 (web application)](/docs/overview?topic=overview-glossary#x2116500)。
 
 ### 應用程式設計介面 (application programming interface, API)
 {: #x2000186}
@@ -724,7 +730,7 @@ IBM 提供的供應項目主要用於評估及測試目的，它可能不穩定�
 ### 檔案共用 (file share)
 {: #x2022902}
 
-在 IBM Cloud 環境中，使用者在其中儲存及共用檔案的持續性儲存空間系統。在 IBM Containers 中，使用者可以在檔案共用上裝載 Docker 磁區。
+在 {{site.data.keyword.cloud_notm}} 環境中，使用者在其中儲存及共用檔案的持續性儲存空間系統。在 {{site.data.keyword.containershort_notm}} 中，使用者可以在檔案共用上裝載 Docker 磁區。
 
 ### 聯合 (federate)
 {: #x2763229}
@@ -741,7 +747,7 @@ IBM 提供的供應項目主要用於評估及測試目的，它可能不穩定�
 ### 藍綠部署 (blue-green deployment)
 {: #x7807335}
 
-促成持續交付且將中斷時間減到最少的部署技術，這是藉由執行兩個幾乎相同的正式作業環境，分別稱為 Blue 和 Green。當其中一個環境（例如，Blue）是活躍的正式作業環境時，另一個環境（例如，Green）可以用來進行最終測試及部署。在 Green 中部署應用程式之後，Green 便成為正式作業環境，而 Blue 則開始閒置。另請參閱[紅黑部署 (red-black deployment)](#x8439181)。
+促成持續交付且將中斷時間減到最少的部署技術，這是藉由執行兩個幾乎相同的正式作業環境，分別稱為 Blue 和 Green。當其中一個環境（例如，Blue）是活躍的正式作業環境時，另一個環境（例如，Green）可以用來進行最終測試及部署。在 Green 中部署應用程式之後，Green 便成為正式作業環境，而 Blue 則開始閒置。另請參閱[紅黑部署 (red-black deployment)](/docs/overview?topic=overview-glossary#x8439181)。
 
 ## 二十劃
 
@@ -763,17 +769,17 @@ IBM 提供的供應項目主要用於評估及測試目的，它可能不穩定�
 ### API
 {: #x2008805}
 
-請參閱[應用程式設計介面 (application programming interface)](#x2000186)。
+請參閱[應用程式設計介面 (application programming interface)](/docs/overview?topic=overview-glossary#x2000186)。
 
 ### AuthN
 {: #x7470446}
 
-請參閱[鑑別 (authentication)](#x2014567)。
+請參閱[鑑別 (authentication)](/docs/overview?topic=overview-glossary#x2014567)。
 
 ### AuthZ
 {: #x7470448}
 
-請參閱[授權 (authorization)](#x2014653)。
+請參閱[授權 (authorization)](/docs/overview?topic=overview-glossary#x2014653)。
 
 ## B
 {: #glossb}
@@ -789,17 +795,17 @@ IBM Db2 技術的集合，其設計主要用於執行主要讀取的商業智慧
 ### CA
 {: #x2015942}
 
-請參閱[憑證管理中心 (certificate authority)](#x2016383)。
+請參閱[憑證管理中心 (certificate authority)](/docs/overview?topic=overview-glossary#x2016383)。
 
 ### CLI
 {: #x2008863}
 
-請參閱[指令行介面 (command-line interface)](#x2051424)。
+請參閱[指令行介面 (command-line interface)](/docs/overview?topic=overview-glossary#x2051424)。
 
 ### CSR
 {: #x2140147}
 
-請參閱[憑證簽署要求 (certificate signing request, CSR)](#x3530521)。
+請參閱[憑證簽署要求 (certificate signing request, CSR)](/docs/overview?topic=overview-glossary#x3530521)。
 
 ## D
 {: #glossd}
@@ -807,7 +813,7 @@ IBM Db2 技術的集合，其設計主要用於執行主要讀取的商業智慧
 ### DC
 {: #x2052913}
 
-請參閱[資料中心 (data center)](#x2439906)。
+請參閱[資料中心 (data center)](/docs/overview?topic=overview-glossary#x2439906)。
 
 ### DEA
 {: #x2019805}
@@ -836,7 +842,7 @@ Cloud Foundry 中的保存檔，其中包含應用程式及其運行環境和架
 ### GA
 {: #x2117930}
 
-請參閱[通用版 (general availability)](#x2117947)。
+請參閱[通用版 (general availability)](/docs/overview?topic=overview-glossary#x2117947)。
 
 ### GB-小時 (GB-hour)
 {: #x7470477}
@@ -846,7 +852,7 @@ Cloud Foundry 中的保存檔，其中包含應用程式及其運行環境和架
 ### GUID
 {: #x2390457}
 
-請參閱[廣域唯一 ID (globally unique identifier)](#x2390455)。
+請參閱[廣域唯一 ID (globally unique identifier)](/docs/overview?topic=overview-glossary#x2390455)。
 
 
 ## H
@@ -860,7 +866,12 @@ Cloud Foundry 中的保存檔，其中包含應用程式及其運行環境和架
 ### HTTPS
 {: #x2193603}
 
-請參閱[超文字傳送通訊協定安全 (Hypertext Transfer Protocol Secure)](#x2237225)。
+請參閱[超文字傳送通訊協定安全 (Hypertext Transfer Protocol Secure)](/docs/overview?topic=overview-glossary#x2237225)。
+
+### HVM
+{: #x9736815}
+
+請參閱[硬體虛擬機器模式 (hardware virtual machine mode)](/docs/overview?topic=overview-glossary#x9736811)。
 
 ## I
 {: #glossi}
@@ -868,17 +879,12 @@ Cloud Foundry 中的保存檔，其中包含應用程式及其運行環境和架
 ### IaaS
 {: #x4585337}
 
-請參閱[基礎架構即服務 (infrastructure as a service)](#x4585332)。
+請參閱[基礎架構即服務 (infrastructure as a service)](/docs/overview?topic=overview-glossary#x4585332)。
 
 ### IAM
 {: #x2193801}
 
-請參閱 [Identity and Access Management](#x7547040)。
-
-### IBM Cloud
-{: #x7301758}
-
-一種以雲端為基礎的開放標準平台，用於建置、管理和執行所有類型的應用程式（例如，Web、行動、海量資料和智慧型裝置）。功能包括 Java、行動後端開發、應用程式監視，以及來自生態系統合作夥伴和開放原始碼的特性；全都提供為雲端中的服務。
+請參閱 [Identity and Access Management](/docs/overview?topic=overview-glossary#x7547040)。
 
 ### Identity and Access Management (IAM)
 {: #x7547040}
@@ -888,7 +894,7 @@ Cloud Foundry 中的保存檔，其中包含應用程式及其運行環境和架
 ### IoT
 {: #x6714346}
 
-請參閱[物聯網 (Internet of Things)](#x6714341)。
+請參閱[物聯網 (Internet of Things)](/docs/overview?topic=overview-glossary#x6714341)。
 
 
 ## J
@@ -907,7 +913,7 @@ Java 保存檔。
 ### JSON
 {: #x4267096}
 
-請參閱 [JavaScript 物件表示法 (JavaScript Object Notation)](#x3292165)。
+請參閱 [JavaScript 物件表示法 (JavaScript Object Notation)](/docs/overview?topic=overview-glossary#x3292165)。
 
 
 ## L
@@ -916,7 +922,7 @@ Java 保存檔。
 ### LDAP
 {: #x2481619}
 
-請參閱[輕量型目錄存取通訊協定 (Lightweight Directory Access Protocol, LDAP)](#x2028538)。
+請參閱[輕量型目錄存取通訊協定 (Lightweight Directory Access Protocol, LDAP)](/docs/overview?topic=overview-glossary#x2028538)。
 
 ## M
 {: #glossm}
@@ -924,12 +930,12 @@ Java 保存檔。
 ### MBaaS
 {: #x7044865}
 
-請參閱[行動後端即服務 (mobile backend as a service)](#x7044858)。
+請參閱[行動後端即服務 (mobile backend as a service)](/docs/overview?topic=overview-glossary#x7044858)。
 
 ### MZR
 {: #x9774831}
 
-請參閱[多區域地區 (multizone region)](#x9774820)。
+請參閱[多區域地區 (multizone region)](/docs/overview?topic=overview-glossary#x9774820)。
 
 ## O
 {: #glosso}
@@ -945,7 +951,7 @@ Java 保存檔。
 ### PaaS
 {: #x2029790}
 
-請參閱[平台即服務 (platform as a service)](#x2029786)。
+請參閱[平台即服務 (platform as a service)](/docs/overview?topic=overview-glossary#x2029786)。
 
 ### Pod
 {: #x8461823}
@@ -955,7 +961,7 @@ Java 保存檔。
 ### PoP
 {: #x7234683}
 
-請參閱[網路據點 (point of presence)](#x5458832)。
+請參閱[網路據點 (point of presence)](/docs/overview?topic=overview-glossary#x5458832)。
 
 ## R
 {: #glossr}
@@ -963,7 +969,7 @@ Java 保存檔。
 ### REST
 {: #x3220987}
 
-請參閱[具象狀態傳輸 (Representational State Transfer, REST)](#x3220976)。
+請參閱[具象狀態傳輸 (Representational State Transfer, REST)](/docs/overview?topic=overview-glossary#x3220976)。
 
 ## S
 {: #glosss}
@@ -971,32 +977,32 @@ Java 保存檔。
 ### SaaS
 {: #x4585391}
 
-請參閱[軟體即服務 (software as a service)](#x4585386)。
+請參閱[軟體即服務 (software as a service)](/docs/overview?topic=overview-glossary#x4585386)。
 
 ### Secure Sockets Layer (SSL)
 {: #x2038004}
 
-提供通訊隱私權的安全通訊協定。主從式應用程式可以透過 SSL，利用專為防止竊聽、竄改及訊息偽造而設計的方法進行通訊。另請參閱[憑證管理中心 (certificate authority)](#x2016383)。
+提供通訊隱私權的安全通訊協定。主從式應用程式可以透過 SSL，利用專為防止竊聽、竄改及訊息偽造而設計的方法進行通訊。另請參閱[憑證管理中心 (certificate authority)](/docs/overview?topic=overview-glossary#x2016383)。
 
 ### SOR
 {: #x2214822}
 
-請參閱[記錄系統 (system of record, SOR)](#x6735061)。
+請參閱[記錄系統 (system of record, SOR)](/docs/overview?topic=overview-glossary#x6735061)。
 
 ### SSL
 {: #x2483907}
 
-請參閱 [Secure Sockets Layer](#x2038004)。
+請參閱 [Secure Sockets Layer](/docs/overview?topic=overview-glossary#x2038004)。
 
 ### SSO
 {: #x3456450}
 
-請參閱[單一登入 (single sign-on, SSO)](#x2213318)。
+請參閱[單一登入 (single sign-on, SSO)](/docs/overview?topic=overview-glossary#x2213318)。
 
 ### SZR
 {: #x9774829}
 
-請參閱[單一區域地區 (single-zone region)](#x9774825)。
+請參閱[單一區域地區 (single-zone region)](/docs/overview?topic=overview-glossary#x9774825)。
 
 
 ## U
@@ -1005,25 +1011,30 @@ Java 保存檔。
 ### URI
 {: #x2116461}
 
-請參閱[統一資源識別碼 (Uniform Resource Identifier)](#x2116436)。
+請參閱[統一資源識別碼 (Uniform Resource Identifier)](/docs/overview?topic=overview-glossary#x2116436)。
 
 ### URL
 {: #x2042718}
 
-請參閱[統一資源定址器 (Uniform Resource Locator)](#x2042491)。
+請參閱[統一資源定址器 (Uniform Resource Locator)](/docs/overview?topic=overview-glossary#x2042491)。
 
 ## V
 {: #glossv}
 
+### VLAN
+{: #x2484337}
+
+請參閱[虛擬區域網路 (virtual local area network)](/docs/overview?topic=overview-glossary#x2438470)。
+
 ### VM
 {: #x2043253}
 
-請參閱[虛擬機器 (virtual machine)](#x2043165)。
+請參閱[虛擬機器 (virtual machine)](/docs/overview?topic=overview-glossary#x2043165)。
 
 ### VPN
 {: #x2484351}
 
-請參閱[虛擬私密網路 (virtual private network)](#x2043188)。
+請參閱[虛擬專用網路 (virtual private network)](/docs/overview?topic=overview-glossary#x2043188)。
 
 ## W
 {: #glossw}
@@ -1031,12 +1042,12 @@ Java 保存檔。
 ### WAR
 {: #x2844389}
 
-請參閱 [Web 保存檔 (web archive)](#x2116506)。
+請參閱 [Web 保存檔 (web archive)](/docs/overview?topic=overview-glossary#x2116506)。
 
 ### WAR 檔 (WAR file)
 {: #x2406005}
 
-請參閱 [Web 保存檔 (web archive)](#x2116506)。
+請參閱 [Web 保存檔 (web archive)](/docs/overview?topic=overview-glossary#x2116506)。
 
 ### Web 保存檔 (web archive, WAR)
 {: #x2116506}
@@ -1046,10 +1057,18 @@ Java 保存檔。
 ### Web 應用程式 (web app)
 {: #x7636628}
 
-請參閱 [Web 應用程式 (web application, web app)](#x2116500)。
+請參閱 [Web 應用程式 (web application, web app)](/docs/overview?topic=overview-glossary#x2116500)。
 
 ### Web 應用程式 (web application, web app)
 {: #x2116500}
 
-可供 Web 瀏覽器存取的應用程式，除了靜態顯示資訊，還提供一些功能，例如可讓使用者查詢資料庫。Web 應用程式的常見元件包括 HTML 頁面、JSP 頁面及 Servlet。另請參閱[應用程式 (app)](#x4281528)。
+可供 Web 瀏覽器存取的應用程式，除了靜態顯示資訊，還提供一些功能，例如可讓使用者查詢資料庫。Web 應用程式的常見元件包括 HTML 頁面、JSP 頁面及 Servlet。另請參閱[應用程式 (app)](/docs/overview?topic=overview-glossary#x4281528)。
+
+## Z
+{: #glossz}
+
+### {{site.data.keyword.cloud_notm}}
+{: #x7301758}
+
+一種以雲端為基礎的開放標準平台，用於建置、管理和執行所有類型的應用程式（例如，Web、行動、海量資料和智慧型裝置）。功能包括 Java、行動後端開發、應用程式監視，以及來自生態系統合作夥伴和開放原始碼的特性；全都提供為雲端中的服務。
 

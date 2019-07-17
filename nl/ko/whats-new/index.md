@@ -4,7 +4,7 @@ copyright:
 
   years: 2015, 2019
 
-lastupdated: "2019-06-06"
+lastupdated: "2019-07-02"
 
 keywords: release notes, what's new, what is new, cloud updates
 
@@ -29,6 +29,18 @@ subcollection: overview
 
 ## {{site.data.keyword.Bluemix_notm}} 플랫폼
 {: #platform_category}
+
+### {{site.data.keyword.cloud_notm}}에서 SoftLayer SAML 연합 관리
+{: #saml-federation}
+신규 기준일: 2019년 7월 2일
+
+연합 ID로 로그인하기 위해 SAML ID 제공자를 설정한 이전 SoftLayer 사용자는 이제 ID 제공자 페이지의 액세스(IAM)에서 {{site.data.keyword.cloud_notm}} 콘솔의 구성 데이터를 관리할 수 있습니다. 이 유형의 연합은 더 이상 사용되지 않으므로 이제 새 ID 제공자를 설정할 수 없지만 계속 ID 제공자 데이터를 업데이트하거나 [IBM ID로 연합](/docs/account?topic=account-signup#signup-federated)으로 전환하기 위해 이 연합을 삭제하도록 선택할 수 있습니다.
+
+### 사용자 정의 대시보드
+{: #custom}
+신규 기준일: 2019년 6월 14일 
+
+이제 대시보드에 표시되는 내용을 제어할 수 있습니다. 대시보드 사용자 정의에는 위젯 순서를 추가하고 제거하고 재배열하는 기능이 포함됩니다. 자세한 정보는 [대시보드 사용자 정의](/docs/overview?topic=overview-custom-dashboard)를 참조하십시오.
 
 
 ### 연관된 태그가 있는 사용 데이터 내보내기
@@ -106,7 +118,7 @@ Cloud Foundry 앱의 하위 도메인은 `cf.appdomain.cloud`입니다. {{site.d
 * 이제 모든 리소스를 한 곳에서 볼 수 있으므로 작성했고 리소스 목록 페이지에 표시될 것으로 예상하는 리소스를 빠르게 찾을 수 있도록 글로벌 검색을 추가했습니다. 
 * 카탈로그 결과도 검색할 수 있으므로 계정에 추가할 리소스를 빠르게 찾을 수 있습니다.  
 
-세부사항은 [Manage All Your Cloud Resources on the Enhanced {{site.data.keyword.Bluemix_notm}} Platform](https://www.ibm.com/blogs/bluemix/2018/11/manage-all-your-cloud-resources-on-the-enhanced-ibm-cloud-platform/){: new_window} ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")을 참조하십시오.
+세부사항은 [Manage All Your Cloud Resources on the Enhanced {{site.data.keyword.Bluemix_notm}} Platform](https://www.ibm.com/blogs/cloud-archive/2018/11/manage-all-your-cloud-resources-on-the-enhanced-ibm-cloud-platform/){: new_window} ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")을 참조하십시오.
 
 ### 플랫폼 및 인프라 서비스에 대한 통합 계정, 청구 및 사용자 프로파일 정보
 신규 기준일: 2018년 11월 30일

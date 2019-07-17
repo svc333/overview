@@ -2,7 +2,7 @@
 
 copyright:
   years: 2019
-lastupdated: "2019-06-24"
+lastupdated: "2019-07-02"
 
 keywords: personalized onboarding, onboarding program, Global Client Success
 
@@ -46,7 +46,7 @@ subcollection: overview
 </div>
 {: authenticated-content}
 
-要求免費的上線協助之後，我們的 {{site.data.keyword.IBM_notm}} 全球客戶成功團隊會有一位成員在二到三個營業日之內與您聯絡。我們會維持與您的密切聯繫，以確保您在 {{site.data.keyword.cloud}} 平台上的成功。
+要求免費的上線協助之後，我們的 {{site.data.keyword.IBM_notm}} 全球客戶成功團隊會有一位成員在二到三個營業日之內與您聯絡。我們會維持與您的密切聯繫，以確保您在 {{site.data.keyword.cloud_notm}} 平台上的成功。
 
 ### 需要更快與我們聯繫？
 {: #contact-client-success}
