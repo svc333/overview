@@ -4,7 +4,7 @@ copyright:
 
   years: 2015, 2019
 
-lastupdated: "2019-07-02"
+lastupdated: "2019-07-18"
 
 keywords: release notes, what's new, what is new, cloud updates
 
@@ -29,6 +29,14 @@ If you're looking for updates for the services that are available on {{site.data
 
 ## {{site.data.keyword.Bluemix_notm}} platform
 {: #platform_category}
+
+### Subscriptions page for tracking subscription credit spending
+{: #subscriptions-page}
+New as of: 18 July 2019
+
+If you have a Subscription account, you can now view all of your subscriptions and analyze your credit spending on the Subscriptions page. You get a high-level view of the total subscription credit in your account and detailed charts that visualize trends such as your credit burndown and monthly spending. You can also view credit from any promotions in your account. For more information, see [Managing subscriptions](/docs/billing-usage?topic=billing-usage-subscriptions).
+
+Additionally, to better reflect their usage, codes that you apply to add subscription credit to your account are now called subscription codes rather than feature codes.
 
 ### Managing SoftLayer SAML federation on {{site.data.keyword.cloud_notm}}
 {: #saml-federation}
