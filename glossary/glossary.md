@@ -3,7 +3,7 @@
 
 copyright:
   years: 2016, 2019
-lastupdated: "2019-07-16"
+lastupdated: "2019-07-25"
 
 keywords: glossary, IBM Cloud glossary
 
