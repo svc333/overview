@@ -4,7 +4,7 @@ copyright:
 
   years: 2015, 2019
 
-lastupdated: "2019-07-18"
+lastupdated: "2019-07-25"
 
 keywords: release notes, what's new, what is new, cloud updates
 
@@ -29,6 +29,17 @@ If you're looking for updates for the services that are available on {{site.data
 
 ## {{site.data.keyword.Bluemix_notm}} platform
 {: #platform_category}
+
+### {{site.data.keyword.Bluemix_notm}} enterprises for centrally managing multiple accounts
+{: #ibm-cloud-enterprises}
+New as of: 25 July 2019
+
+You can now centrally manage billing and usage for multiple accounts by creating an {{site.data.keyword.Bluemix_notm}} enterprise. With an enterprise, you can create a multitiered hierarchy of accounts by organizing related accounts into account groups. Enterprises simplify management of multiple accounts with the following key features:
+   * Consolidated billing means that you can manage billing, invoicing, and payment for all accounts from a single place, the enterprise account. 
+   * Subscription credit is aggregated into a credit pool and shared with all accounts in the enterprise. Not only is tracking your subscriptions easier, but you can get fewer, larger subscriptions for a better discount because the credit is shared. 
+   * Top-down usage reporting gives you a unified view of usage costs from all accounts, organized according to your enterprise hierarchy. 
+
+If you have multiple accounts, at least one of which is a Subscription account, you can create an enterprise. See [What is an enterprise?](/docs/account?topic=account-enterprise) and [Introducing {{site.data.keyword.Bluemix_notm}} Enterprises](http://www.ibm.com/cloud/blog/announcements/Introducing-IBM-Cloud-Enterprises){: new_window} ![External link icon](../../icons/launch-glyph.svg "External link icon") for more information.
 
 ### Subscriptions page for tracking subscription credit spending
 {: #subscriptions-page}

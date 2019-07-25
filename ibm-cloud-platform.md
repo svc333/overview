@@ -3,7 +3,7 @@
 
 copyright:
   years: 2016, 2019
-lastupdated: "2019-06-20"
+lastupdated: "2019-07-25"
 
 keywords: console, platform overview, overview
 
@@ -35,7 +35,7 @@ Whether you have [existing code](/docs/apps/tutorials?topic=creating-apps-tutori
 ## Setting up your account
 {: #set-up-account}
 
-If you're just trying out {{site.data.keyword.Bluemix_notm}}, you can go straight to the catalog and start checking out the offerings that you'd like to explore and add to your Lite account. However, if you're ready to get started with an environment for a group of developers or entire organization and get apps running in production, consider setting up the basics in your account:
+If you're a developer and you're just trying out {{site.data.keyword.Bluemix_notm}}, you can go straight to the catalog and start browsing the offerings that you'd like to explore and add to your Lite account. When you're ready to get started with an environment and get apps running in production, consider setting up the basics in your account:
 
 * User access groups for organizing users and service IDs into one entity to make assigning access a streamlined process.
 * Resource groups for organizing your resources to make assigning access to a set of resources quick and easy.
@@ -43,6 +43,13 @@ If you're just trying out {{site.data.keyword.Bluemix_notm}}, you can go straigh
 
 For more information, see the [best practices for setting up your account](/docs/account?topic=account-account_setup) and [best practices for assigning access](/docs/iam?topic=iam-account_setup). 
 
+As a financial officer for your company, you might be interested in simplifying how you manage billing and usage across multiple teams and departments. With a Subscription account, you can create an {{site.data.keyword.Bluemix_notm}} enterprise, which offers centralized account management, consolidated billing, and top-down usage reporting. An enterprise consists of an enterprise account, account groups, and individual accounts. 
+
+* The enterprise account is the parent account to all other accounts in the enterprise. Billing for the entire enterprise is managed at the enterprise account level.
+* Account groups provide a way to organize related accounts. And, you get a unified view of resource usage costs across all accounts that are included in an account group.
+* Similar to stand-alone accounts, accounts in an enterprise contain resources and resource groups, Cloud Foundry orgs and spaces, and independent access permissions.
+
+For more information, see the [best practices for setting up an enterprise](/docs/account?topic=account-enterprise-best-practices).
 ## Pricing and billing
 {: #pricing-billing}
 
