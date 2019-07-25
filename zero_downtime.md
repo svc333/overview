@@ -2,7 +2,7 @@
 
 copyright:
   years: 2018, 2019
-lastupdated: "2019-07-23"
+lastupdated: "2019-07-25"
 
 keywords: HA, failover, DR, high availability, disaster recovery, locations, data centers
 
@@ -21,28 +21,27 @@ subcollection: overview
 # How do I ensure zero downtime?
 {: #zero-downtime}
 
-Your global strategy is important. You can select a specific data center or location to deploy your data in the right part of the world for your customers. 
+Your global strategy is important. You can select a specific data center or location to deploy your data for your customers. All {{site.data.keyword.Bluemix_notm}} resources are hosted in data center locations around the world. The locations that you deploy your app can spread workloads across data centers, and you can ensure that a failover design is in place to keep your app up and running. For your infrastructure resources, you can select individual data centers to deploy resources.  
 {:shortdesc}
 
-{{site.data.keyword.Bluemix}} platform services are self-managed. Meaning, the locations in which you deploy your app can spread workloads across data centers. And you can ensure that a failover design is in place, which means your app is always up and running for your customers. For your infrastructure resources, you can select individual data centers in which the resources are deployed. 
+High availability and disaster recovery aren't universal across all services, so the type of high availability and disaster recovery that's available depends on the service that you're using.  
 
-All {{site.data.keyword.Bluemix_notm}} resources are hosted in data center locations around the world. High availability and disaster recovery aren't universal across all services, so the type of high availability and disaster recovery that's available depends on the service that you're using.  
 
 ## Disaster recovery
 {: #disaster-recovery}
 
-Disaster recovery is about surviving a catastrophic failure or loss of availability in a single location. To ensure that disaster recovery is in place, it's necessary to deploy several {{site.data.keyword.Bluemix_notm}} environments in multiple locations to avoid single points of failure. These environments can be a combination of Public, Dedicated, or Local platforms.  
+Disaster recovery is about surviving a catastrophic failure or loss of availability in a single location. To ensure that disaster recovery is in place, it's necessary to deploy several {{site.data.keyword.Bluemix_notm}} resources in multiple locations to avoid single points of failure. 
 
 ### Disaster recovery plan 
 {: #dr-plan}
 
-{{site.data.keyword.Bluemix_notm}} follows requirements for planning for a disaster, and every application is planned for you to recover or restart after a disaster event. Recovery is from electronic backups at a recovery center or alternative computing facilities that restore computing. Before any potential disaster, the disaster recovery plan includes the systems and hosting requirements for hardware, software, networking connectivity, and offsite backup capabilities.
+{{site.data.keyword.Bluemix_notm}} follows best practices for disaster recovery. All {{site.data.keyword.Bluemix_notm}} applications automatically recover and restart after any disaster event. Recovery is from electronic backups at a recovery center or alternative computing facilities that restore computing. Before any potential disaster, the disaster recovery plan includes the systems and hosting requirements for hardware, software, networking connectivity, and offsite backup capabilities.
 
-The following list includes the requirements of the disaster recovery plan:
+The following list includes the requirements that {{site.data.keyword.IBM_notm}} adheres to for a disaster recovery plan:
 
-- For load balancing, a document exists to explain how the computing service stays available. 
+- A design document explains how load balancing is used to keep a service highly available.
 - Where multi-site failover occurs, the disaster recovery plan must explain who does what to cause the failover and ensure restart. 
-- The disaster recovery plan must define how the solution works and what the data loss is. 
+- The disaster recovery plan must define how the solution works and include restore point objectives that clearly explain how much data might be lost in the outage, if any. The disaster recovery plan also includes a detailed recovery workflow for restoring services and data if a multi-availability zone failure. 
 - It must confirm how the Maximum Tolerable Downtime is met and be stored on the Disaster Recovery Plan database.  
 - The disaster recovery plan specifies the security controls for running in Disaster mode, if they are different from what's running in production. 
 
@@ -54,14 +53,15 @@ The requirements that {{site.data.keyword.Bluemix}} follows are:
 - The disaster recovery plan must be updated after any major infrastructure change, major application release, and after any test. 
 - It must be approved annually. 
 
+
 ## Locations for resource deployment 
 {: #ov_intro_reg}
 
-You can create apps and service instances in different locations with the same {{site.data.keyword.cloud_notm}} infrastructure for application management and the same usage details view for billing. You can deploy your apps to the location that is nearest to your customers to achieve low application latency. 
+You can create apps and service instances in different locations for the same usage details view for billing. You can deploy your apps to the location that is nearest to your customers to achieve low application latency. 
 
-To address security issues, you can also select the location in which you want to keep application data. When you build apps in more than one location, if one location is unavailable, the apps that are in the other locations continue to run. Your resource allowance is the same for each location that you use. For more information about the platform resources and the locations they're available in, see [Service availability](/docs/resources?topic=resources-services_region).
+To address security issues, you can also select the location in which you want to keep application data. When you build apps in more than one location, if one location is unavailable, the apps that are in the other locations continue to run. For more information about the platform resources and the locations they're available in, see [Service availability](/docs/resources?topic=resources-services_region).
 
-Global load balancing for the {{site.data.keyword.cloud_notm}} console ensures that if the nearest geographical location for you is unavailable, the console displays the information for the next closest location. This way, you can always access the console without taking action to access the resources you need.
+Global load balancing for the {{site.data.keyword.cloud_notm}} console ensures that if the nearest geographical location for you is unavailable, the console displays the information for the next closest location. This means, the {{site.data.keyword.Bluemix_notm}} console is highly available and continues to run even if the customer’s apps or service instances might be unavailable.
 
 You can view all resources across all locations by default from the resource list view in the console. If you want to view and work with resources in a specific location, expand the **Location** menu, and select a location from the list. By expanding a specific geographical location, you can select to filter by individual data centers, regions, or zone.
 
@@ -72,7 +72,7 @@ explanation for diagram
 - These data centers have high bandwidth, low latency redundant links with dual POPs.
 - Zones are to be built less than 2msex fiber distance from one another in a region --->
 
-![Location hierarchy showing a geography containing a metro which contains data centers and regions with zones](images/Location_hierarchy.svg){: caption="Figure 1. Location options hierarchy" caption-side="bottom"}
+![Location hierarchy that shows a geography that contains a metro that contains data centers and regions with zones](images/Location_hierarchy.svg){: caption="Figure 1. Location options hierarchy" caption-side="bottom"}
 
 For example, if you have resources that are deployed in the London 2 (eu-gb-2) zone, you can filter your resource list to display only those resources. A zone is located within a region and a region is organized by its metro location. To filter your list to the London 2 (eu-gb-2) zone, expand the **London** metro option, and then expand the **London (eu-gb)** region option. Within that region, you can select from the list of available zones. If you have a resource that is deployed in a specific data center, you can identify the data center by the specific metro location and alphanumeric code, for example, London 02 (lon02).
 
@@ -81,7 +81,7 @@ You might also have resources that are located globally. The **Global** option m
 ## Data centers
 {: #data_center}
 
-When you deploy infrastructure resources, you have more options about where your data is located. You can select a location, or you can select from a list of the {{site.data.keyword.Bluemix_notm}} data centers. A *data center* is the physical location that hosts the power, cooling, compute, network, and storage resources used for services and apps. Data centers don't provide isolation from local failures similar to multi zones in a location. For more information, see [Global locations for your global business ![External link icon](../icons/launch-glyph.svg "External link icon")](https://www.ibm.com/cloud/data-centers/){: new_window}.
+When you deploy infrastructure resources, you have more options about where your data is located. You can select a location, or you can select from a list of the {{site.data.keyword.Bluemix_notm}} data centers. A *data center* is the physical location that hosts the power, cooling, compute, network, and storage resources used for services and apps. Data centers don't provide isolation from multi zones in a location. For more information, see [Global locations for your global business ![External link icon](../icons/launch-glyph.svg "External link icon")](https://www.ibm.com/cloud/data-centers/){: new_window}.
 
 {{site.data.keyword.Bluemix_notm}} offers data centers in many locations across the world. 
 
@@ -164,7 +164,7 @@ See the following table for the specific code for each data center.
 ## Service Level Agreements (SLAs)
 {: #SLAs} 
 
-{{site.data.keyword.Bluemix_notm}} provides a 99.95% availability service level for multiple instances of a platform service within a single dedicated or local environment.
+{{site.data.keyword.Bluemix_notm}} provides a 99.95% availability service level for multiple instances of a platform service within a public environment.
 
 To submit a claim for downtime, contact [{{site.data.keyword.Bluemix_notm}} Support](https://cloud.ibm.com/unifiedsupport/supportcenter){: new_window} ![External link icon](../icons/launch-glyph.svg "External link icon").
 
@@ -175,22 +175,20 @@ The complete Service Description for {{site.data.keyword.Bluemix_notm}} is avail
 ### Availability downtime SLA 
 {: #avail-downtime}
 
-You're eligible for a credit toward your account if you experience downtime less than the 99.5% availability. Availability downtime is the total minutes you're unable to connect to any of your service instances. Total downtime minutes start when you submit a report for the outage event and end when at least one of the affected instances is available for use.
+You're eligible for a credit toward your account if you experience availability less than the 99.95%. Availability downtime is the total minutes you're unable to connect to any of your service instances. Total downtime minutes start when you can prove a loss of availability with logs or any other records.
 
-{{site.data.keyword.Bluemix_notm}} provides a 99.95% availability SLA for: 
-- Cloud services in the public environment that are configured for high availability as described in the catalog details for each service. 
-- Cloud services across several dedicated or local environments in geographically separated data centers. 
+{{site.data.keyword.Bluemix_notm}} provides a 99.95% availability SLA: 
 
-| Type	 | Description	 | Support Details|
-|-------------------------------------------------------------------------------|--------------------|----------------|
-| High Availability Public Environment or Multiple Dedicated and Local Environments | Other Environments | Credit         |
-| <99.95%                                                                       |<99.5%              |10%             |
-| <99.90%                                                                       |<99.0%              |25%             |
+| Type	                                     | Description	      | Support Details|
+|--------------------------------------------|--------------------|----------------|
+| High availability for a public environment | Other Environments | Credit         |
+| <99.95%                                    |<99.5%              |10%             |
+| <99.90%                                    |<99.0%              |25%             |
 {: caption="Table 2. Monthly availability service level" caption-side="top"}
 
-Availability percentage is calculated as the total number of minutes in a contracted month minus the total number of downtime minutes in that month divided by the total number of minutes in that month. 
+Availability percentage is calculated as the total number of minutes that are in a contracted month, minus the total number of downtime minutes in that month divided by the total number of minutes in that month. 
 
-For example, in a 31-day month, you have 44,640 total number of minutes. If you experience six hours of availability downtime, there's 360 downtime minutes. With only six hours of downtime, you have 99.19% availability. Since 99.19% is less than 99.90%, you're eligible for a 25% credit with a public or local environment.   
+For example, in a 31-day month, you have 44,640 total number of minutes. If you experience six hours of availability downtime, there's 360 downtime minutes. With only six hours of downtime, you have 99.19% availability. Since 99.19% is less than 99.90%, you're eligible for a 25% credit with a public environment.   
 
 ```
 = (44,640 total minutes in month - 360 downtime minutes) / 44,640 total minutes in month
@@ -198,7 +196,7 @@ For example, in a 31-day month, you have 44,640 total number of minutes. If you 
 = 99.19% availability
 ```
 
-SLAs don't include downtime or failures that are related to the specified exclusions, {{site.data.keyword.Bluemix_notm}} UI unavailability, time to reload, configure, enable, or access content.
+SLAs don't include downtime or failures that are related to {{site.data.keyword.Bluemix_notm}} UI unavailability, or the time it takes to reload, configure, enable, or access content.
 
 The availability downtime SLA doesn't include {{site.data.keyword.Bluemix_notm}} infrastructure services. 
 {: note}
@@ -219,7 +217,7 @@ Downtime doesn't include time for scheduled or announced maintenance. For each 3
 
 {{site.data.keyword.Bluemix_notm}} provides credit for: 
 - Hardware replacement based on the time to replace from the time {{site.data.keyword.Bluemix_notm}} verifies that a customer reported hardware failure.
-- Planned hardware upgrades based on the total downtime of the service receiving the upgrade. 
+- Planned hardware upgrades based on the total downtime of the service that receives the upgrade. 
 
 Service level time periods exclude anytime that is required to reload the operating system or applications or the time performance might be degraded. You're eligible for a credit based on the monthly charge for the service that is affected by the hardware replacement or upgrade if {{site.data.keyword.Bluemix_notm}} fails to meet a specified service level time period.
 
