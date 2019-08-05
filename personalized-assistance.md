@@ -4,7 +4,7 @@ copyright:
   years: 2019
 lastupdated: "2019-07-02"
 
-keywords: personalized onboarding, onboarding program, Global Client Success
+keywords: personalized onboarding, onboarding program, Global Client Succes, getting started, how to, get help, new user, first time, personal, dedicated assistance, cloud onboarding, account setup
 
 subcollection: overview
 
