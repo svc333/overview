@@ -4,7 +4,7 @@ copyright:
 
   years: 2015, 2019
 
-lastupdated: "2019-07-02"
+lastupdated: "2019-07-25"
 
 keywords: release notes, what's new, what is new, cloud updates
 
@@ -29,6 +29,25 @@ Si está buscando actualizaciones de los servicios disponibles en {{site.data.ke
 
 ## Plataforma {{site.data.keyword.Bluemix_notm}}
 {: #platform_category}
+
+### Empresas de {{site.data.keyword.Bluemix_notm}} para gestionar de forma centralizada varias cuentas
+{: #ibm-cloud-enterprises}
+Novedad desde: 25 de julio de 2019
+
+Ahora puede gestionar de forma centralizada la facturación y el uso de varias cuentas creando una empresa de {{site.data.keyword.Bluemix_notm}}. Con una empresa, puede crear una jerarquía de cuentas de varios niveles organizando las cuentas relacionadas en grupos de cuentas. Las empresas simplifican la gestión de varias cuentas con las siguientes características clave:
+   * La facturación consolidada significa que puede gestionar la facturación y el pago de todas las cuentas desde un único lugar, la cuenta de empresa. 
+   * El crédito de suscripción se agrega en una agrupación de crédito y se comparte con todas las cuentas de la empresa. No sólo es más fácil realizar un seguimiento de sus suscripciones, sino que puede obtener menos suscripciones y más grandes con un mejor descuento porque el crédito es compartido. 
+   * Los informes de uso de arriba abajo le proporcionan una vista unificada de los costes de uso de todas las cuentas, organizados de acuerdo con la jerarquía de la empresa. 
+
+Si tiene varias cuentas, al menos una de las cuales es una cuenta de Suscripción, puede crear una empresa. Consulte [¿Qué es una empresa?](/docs/account?topic=account-enterprise) e [Introducción a las empresas de {{site.data.keyword.Bluemix_notm}}](http://www.ibm.com/cloud/blog/announcements/Introducing-IBM-Cloud-Enterprises){: new_window} ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo") para obtener más información.
+
+### Página Suscripciones para realizar un seguimiento de los gastos del crédito de suscripción
+{: #subscriptions-page}
+Novedad desde: 18 de julio de 2019
+
+Si tiene una cuenta de suscripción, ahora puede ver todas las suscripciones y analizar el gasto de crédito en la página Suscripciones. Puede obtener una visión general del crédito de suscripción total de su cuenta así como gráficos detallados que visualizan tendencias como, por ejemplo el gráfico de avance de crédito y el gasto mensual de créditos. También puede ver los créditos de cualquier promoción en su cuenta. Para obtener más información, consulte [Gestión de suscripciones](/docs/billing-usage?topic=billing-usage-subscriptions).
+
+Además, para ofrecer un reflejo más preciso del uso, los códigos que se apliquen para añadir crédito de suscripción a su cuenta se denominarán ahora códigos de suscripción en lugar de códigos de característica.
 
 ### Gestión de la federación de SAML de SoftLayer en {{site.data.keyword.cloud_notm}}
 {: #saml-federation}

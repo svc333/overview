@@ -4,7 +4,7 @@ copyright:
 
   years: 2015, 2019
 
-lastupdated: "2019-07-02"
+lastupdated: "2019-07-25"
 
 keywords: release notes, what's new, what is new, cloud updates
 
@@ -30,11 +30,30 @@ Aktualisierungen für die Services, die in {{site.data.keyword.Bluemix_notm}} ve
 ## {{site.data.keyword.Bluemix_notm}}-Plattform
 {: #platform_category}
 
+### {{site.data.keyword.Bluemix_notm}}-Unternehmen für die zentrale Verwaltung mehrerer Konten
+{: #ibm-cloud-enterprises}
+Datum der Neuerung: 25. Juli 2019
+
+Sie können jetzt die Abrechnung und Nutzung für mehrere Konten zentral verwalten, indem Sie ein {{site.data.keyword.Bluemix_notm}}-Unternehmen erstellen. Mit einem Unternehmen können Sie eine Kontenhierarchie mit mehreren Ebenen erstellen, indem Sie zusammengehörige Konten in Kontogruppen zusammenfassen. Unternehmen vereinfachen die Verwaltung mehrerer Konten mit den folgenden Schlüsselfunktionen:
+   * Die konsolidierte Abrechnung bedeutet, dass Sie die Abrechnung, die Rechnungsstellung und die Zahlung für alle Konten von einem zentralen Ort, dem Unternehmenskonto, verwalten können. 
+   * Abonnementguthaben werden in einem Guthabenpool zusammengefasst und mit allen Konten im Unternehmen gemeinsam genutzt. Ihre Abonnements können dadurch nicht nur einfacher verfolgt werden, sondern es ergeben sich auch weniger, aber größere Abonnements, die einen besseren Rabatt erzielen, weil das Guthaben gemeinsam genutzt wird. 
+   * Nutzungsberichte mit ansteigendem Detaillierungsgrad bieten Ihnen eine einheitliche Sicht der Nutzungskosten aller Konten, die gemäß Ihrer Unternehmenshierarchie organisiert sind. 
+
+Wenn Sie über mehrere Konten verfügen, von denen mindestens eines ein Abonnementkonto ist, können Sie ein Unternehmen erstellen. Weitere Informationen finden Sie unter [Was ist ein Unternehmen?](/docs/account?topic=account-enterprise) und [Einführung in {{site.data.keyword.Bluemix_notm}}-Unternehmen](http://www.ibm.com/cloud/blog/announcements/Introducing-IBM-Cloud-Enterprises){: new_window} ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link").
+
+### Abonnementseite für die Verfolgung der Ausgaben im Zusammenhang mit Abonnementguthaben
+{: #subscriptions-page}
+Datum der Neuerung: 18. Juli 2019
+
+Wenn Sie über ein Abonnementkonto verfügen, können Sie nun Ihre gesamten Abonnements auf der Abonnementseite anzeigen und ausgegebenes Guthaben analysieren. Diese Seite enthält eine übergeordnete Ansicht des gesamten Abonnementguthabens in Ihrem Konto und detaillierte Diagramme, die Trends veranschaulichen. Hierzu gehören beispielsweise eine Burndown-Darstellung der Guthaben und monatliche Ausgaben. Darüber hinaus können Sie Guthaben aus Werbeaktionen in Ihrem Konto anzeigen. Weitere Informationen finden Sie in [Abonnements verwalten](/docs/billing-usage?topic=billing-usage-subscriptions).
+
+Damit die entsprechende Verwendung besser erkennbar ist, werden Codes, die Sie zum Hinzufügen von Abonnementguthaben anwenden, nun nicht mehr als Feature-Codes, sondern als Abonnementcodes bezeichnet.
+
 ### SoftLayer-SAML-Föderierung in {{site.data.keyword.cloud_notm}} verwalten
 {: #saml-federation}
 Datum der Neuerung: 02. Juli 2019
 
-Bisherige SoftLayer-Benutzer, die einen SAML-Identitätsprovider für die Anmeldung mit föderierten IDs eingerichtet haben, können ihre Konfigurationsdaten nun über die {{site.data.keyword.cloud_notm}}-Konsole unter der Option 'Zugriff (IAM)' auf der Identitätsproviderseite verwalten. Diese Art der Föderierung wird nicht mehr verwendet, sodass zum gegenwärtigen Zeitpunkt keine neuen Identitätsprovider eingerichtet werden können. Sie können Ihre Identitätsproviderdaten jedoch weiterhin aktualisieren oder diese Föderierung löschen und stattdessen die [Föderierung mit IBMid](/docs/account?topic=account-signup#signup-federated) verwenden. 
+Bisherige SoftLayer-Benutzer, die einen SAML-Identitätsprovider für die Anmeldung mit föderierten IDs eingerichtet haben, können ihre Konfigurationsdaten nun über die {{site.data.keyword.cloud_notm}}-Konsole unter der Option 'Zugriff (IAM)' auf der Identitätsproviderseite verwalten. Diese Art der Föderierung wird nicht mehr verwendet, sodass zum gegenwärtigen Zeitpunkt keine neuen Identitätsprovider eingerichtet werden können. Sie können Ihre Identitätsproviderdaten jedoch weiterhin aktualisieren oder diese Föderierung löschen und stattdessen die [Föderierung mit IBMid](/docs/account?topic=account-signup#signup-federated) verwenden.
 
 ### Angepasstes Dashboard
 {: #custom}
@@ -89,7 +108,7 @@ Mit dem Support Center können Sie alle Probleme im Zusammenhang mit {{site.data
 
 Sie können die [Statusseite](https://cloud.ibm.com/status){: new_window} ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link") ebenfalls über das Support Center suchen. Die Seite wurde funktional so erweitert, dass sie alle ungeplanten Vorfälle, geplante Wartungsmaßnahmen, Ankündigungen und Sicherheitsbulletinbenachrichtigungen in Bezug auf bedeutende Ereignisse enthält, die die {{site.data.keyword.Bluemix_notm}}-Plattform, die Infrastruktur und die wichtigsten Services betreffen. Klicken Sie im Support Center auf **Cloudstatus anzeigen**. Um das neue Erlebnis kennenzulernen, melden Sie sich an und wechseln Sie zum [Support-Center](https://cloud.ibm.com/unifiedsupport/supportcenter){: new_window} ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link"). 
 
-### Einheitliche Anmeldung, API-Schlüssel sowie Benutzer-und Zugriffsverwaltung in {{site.data.keyword.Bluemix_notm}}
+### Einheitliche Anmeldung, API-Schlüssel sowie Benutzer- und Zugriffsverwaltung in {{site.data.keyword.Bluemix_notm}}
 Datum der Neuerung: 30. November 2018
 {: #useraccess}
 

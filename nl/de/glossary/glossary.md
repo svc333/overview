@@ -3,7 +3,7 @@
 
 copyright:
   years: 2016, 2019
-lastupdated: "2019-07-02"
+lastupdated: "2019-07-25"
 
 keywords: glossary, IBM Cloud glossary
 
@@ -17,7 +17,7 @@ subcollection: overview
 # Glossareinträge für {{site.data.keyword.cloud_notm}} 
 {: #glossary}
 
-In diesem Glossar werden Begriffe und Definitionen für {{site.data.keyword.cloud_notm}} bereitgestellt.
+In diesem Glossar werden Begriffe und Definitionen für {{site.data.keyword.cloud}} bereitgestellt.
 {:shortdesc}
 
 Folgende Querverweise werden in diesem Glossar verwendet:
@@ -27,6 +27,16 @@ Folgende Querverweise werden in diesem Glossar verwendet:
 
 ## A
 {: #glossa}
+
+### Abrechnungseinheit
+{: #x9308099}
+
+Die Abrechnungsentität der höchsten Ebene innerhalb eines Unternehmens. Jedes Konto bzw. jede Kontogruppe ist mit einer Abrechnungseinheit verknüpft, über die alle zugehörigen Verträge, Rechnungen, Bestellung und Zahlungen verwaltet werden. Eine Abrechnungseinheit kann einen oder mehrere Guthabenpools enthalten. Siehe auch [Guthabenpool](/docs/overview?topic=overview-glossary#x9796950), [Unternehmen](/docs/overview?topic=overview-glossary#x2026915).
+
+### Abrechnungsoption
+{: #x6526863}
+
+Die Methode, mit der dem Kunden die Nutzung von Cloud-Services in Rechnung gestellt wird. Beispiele: Vorauszahlung, z. B. bei Abonnements; nachschüssige Zahlung, z. B. in Konten mit nutzungsabhängiger Abrechnung.
 
 ### Affinität
 {: #x2149238}
@@ -141,7 +151,7 @@ Eine Computerschnittstelle mit textbasierter Ein- und Ausgabe.
 ### Benutzer
 {: #x2069659}
 
-Eine IBMid oder SoftLayer-ID, die als Identität einer Person in einem Konto verwendet wird. 
+Eine IBMid oder SoftLayer-ID, die als Identität einer Person in einem Konto verwendet wird.
 
 ### Berechnung
 {: #x3723424}
@@ -171,7 +181,7 @@ Ein physischer Standort zum Speichern von Servern und Routern in einer Netz-Clou
 ### Beta-Angebot
 {: #x9774283}
 
-Ein Angebot, das von {{site.data.keyword.IBM_notm}} ausschließlich zu Evaluierungs- und Testzwecken verfügbar gemacht wird. Es gelten keine Gewährleistungen oder SLAs und es wird keine Unterstützung bereitgestellt. Beta-Angebote sind nicht für den Produktionseinsatz bestimmt.
+Ein Angebot, das von {{site.data.keyword.IBM_notm}} ausschließlich zu Evaluierungs- und Testzwecken verfügbar gemacht wird.  Es gelten keine Gewährleistungen oder SLAs und es wird keine Unterstützung bereitgestellt. Beta-Angebote sind nicht für den Produktionseinsatz bestimmt.
 
 ### Binden
 {: #x2000361}
@@ -220,7 +230,7 @@ Ein Softwareprogramm oder Computer, der Services von einem Server anfordert. Sie
 ### Cloud-Computing
 {: #x3877850}
 
-Eine Datenverarbeitungsplattform, auf der Benutzer über ihre verbundenen Geräten von überall her auf Anwendungen oder Rechenressourcen wie z. B. Services zugreifen können. Eine vereinfachte Benutzerschnittstelle und/oder eine Anwendungsprogrammierschnittstelle (API) macht die Infrastruktur, die solche Services unterstützt, für Benutzer transparent.
+Eine Datenverarbeitungsplattform, auf der Benutzer über ihre verbundenen Geräte von überall her auf Anwendungen oder Rechenressourcen wie z. B. Services zugreifen können. Eine vereinfachte Benutzerschnittstelle und/oder eine Anwendungsprogrammierschnittstelle (API) macht die Infrastruktur, die solche Services unterstützt, für Benutzer transparent.
 
 ### Cloudportierbarkeit
 {: #x4585297}
@@ -312,7 +322,7 @@ Eine Clientoperation, bei der nur Daten gelesen werden. Einfache API-Aufrufe bea
 ### Einzelzonenregion (Single-Zone Region, SZR)
 {: #x9774825}
 
-Eine Region, die aus Rechenzentren besteht, die sich innerhalb eine einzelnen Zone befinden. Siehe auch [Zone](/docs/overview?topic=overview-glossary#x2070723).
+Eine Region, die aus Rechenzentren besteht, die sich innerhalb einer einzelnen Zone befinden. Siehe auch [Zone](/docs/overview?topic=overview-glossary#x2070723).
 
 ### Endpunkt
 {: #x2026820}
@@ -369,13 +379,18 @@ Eine algorithmisch bestimmte Nummer, die eine Entität innerhalb eines Systems e
 ### Grenzenlos
 {: #x8439189}
 
-Bezieht sich auf eine offene, nicht proprietäre Entwicklungsplattform, die Bereitstellungsmodelle für öffentliche Clouds, dedizierte Clouds und lokale Clouds umfasst. Siehe auch [dedizierte Cloud](/docs/overview?topic=overview-glossary#x8439199), [lokale Cloud](/docs/overview?topic=overview-glossary#x8439194), [/docs/overview?topic=overview-glossarypublic cloud](#x4585370).
+Bezieht sich auf eine offene, nicht proprietäre Entwicklungsplattform, die Bereitstellungsmodelle für öffentliche Clouds, dedizierte Clouds und lokale Clouds umfasst. Sieh auch [dedizierte Cloud](/docs/overview?topic=overview-glossary#x8439199), [lokale Cloud](/docs/overview?topic=overview-glossary#x8439194), [öffentliche Cloud](/docs/overview?topic=overview-glossary#x4585370). 
 
 ### GUID
 {: #x2390457}
 
 Siehe [Global eindeutige ID](/docs/overview?topic=overview-glossary#x2390455).
 
+
+### Guthabenpool
+{: #x9796950}
+
+Innerhalb einer Unternehmensabrechnungseinheit eine Konsolidierung von Guthaben aller Quellen, einschließlich Abonnements und Werbeaktionen, die von Konten gemeinsam genutzt werden. Siehe auch [Abrechnungseinheit](/docs/overview?topic=overview-glossary#x9308099).
 
 ## H
 {: #glossh}
@@ -493,6 +508,11 @@ Eine Clientoperation, bei der Daten geschrieben, gelöscht oder eingefügt werde
 {: #x2017871}
 
 In der Quellcodeverwaltung ist dies eine Gruppierung von zusammengehörigen Artefakten innerhalb eines Datenstroms oder Repository-Arbeitsbereichs. Eine Komponente kann eine beliebige Anzahl von Ordnern und Dateien enthalten.
+
+### Kontogruppe
+{: #x8622525}
+
+Eine Organisationseinheit für Konten innerhalb eines Unternehmens. Eine Kontogruppe kann Konten oder andere Kontogruppen enthalten. Siehe auch [Unternehmen](/docs/overview?topic=overview-glossary#x2026915).
 
 ## L
 {: #glossl}
@@ -641,7 +661,7 @@ Siehe [Bereitstellungspunkt (Point of Presence, PoP)](/docs/overview?topic=overv
 ### Private Cloud
 {: #x4585362}
 
-Eine Cloud-Computing-Umgebung, in der der Zugriff auf die Mitglieder eines Unternehmens und der Partnernetze beschrankt ist. Siehe auch [Öffentliche Cloud](/docs/overview?topic=overview-glossary#x4585370).
+Eine Cloud-Computing-Umgebung, in der der Zugriff auf die Mitglieder eines Unternehmens und der Partnernetze beschränkt ist. Siehe auch [Öffentliche Cloud](/docs/overview?topic=overview-glossary#x4585370).
 
 ### Private Ressource
 {: #x9439035}
@@ -661,7 +681,7 @@ Ein Service, der nur für Mitglieder einer bestimmten IBM Cloud-Organisation sic
 ### Privates Image-Repository
 {: #x8439215}
 
-Die Kombination aus der IBM Cloud-Registry einer Organisation und ihrem Namensbereich. Ein privates Image-Repository wird verwendet, wenn in einem Befehl auf eine Image verwiesen wird. Siehe auch [Image](/docs/overview?topic=overview-glossary#x2024928) und [Namensbereich](/docs/overview?topic=overview-glossary#x2031005).
+Die Kombination aus der IBM Cloud-Registry einer Organisation und ihrem Namensbereich. Ein privates Image-Repository wird verwendet, wenn in einem Befehl auf ein Image verwiesen wird. Siehe auch [Image](/docs/overview?topic=overview-glossary#x2024928) und [Namensbereich](/docs/overview?topic=overview-glossary#x2031005).
 
 ### Push-Benachrichtigung
 {: #x5599582}
@@ -701,7 +721,7 @@ Ein definiertes geografisches Gebiet. Bei einer Region kann es sich um einen bes
 ### Region mit mehreren Zonen (Multi-zone region, MZR)
 {: #x9774820}
 
-Eine Region, die auf Rechenzentren im mehreren Zonen verteilt ist, um die Fehlertoleranz zu erhöhen. Siehe auch [Zone](/docs/overview?topic=overview-glossary#x2070723).
+Eine Region, die auf Rechenzentren in mehreren Zonen verteilt ist, um die Fehlertoleranz zu erhöhen. Siehe auch [Zone](/docs/overview?topic=overview-glossary#x2070723).
 
 ### Registry
 {: #x2064940}
@@ -731,7 +751,7 @@ Siehe [Representational State Transfer](/docs/overview?topic=overview-glossary#x
 ### Rolle
 {: #x2065412}
 
-Eine Gruppe von Berechtigungen oder Zugriffsrechten. 
+Eine Gruppe von Berechtigungen oder Zugriffsrechten.
 
 ### Rollierende Bereitstellung
 {: #x8439181}
@@ -766,10 +786,15 @@ Ein Sicherheitsprotokoll, das die Vertraulichkeit der Kommunikation gewährleist
 
 Eine Cloud-Erweiterung, die sofort einsetzbare Funktionen wie z. B. Datenbanken, Nachrichtenübermittlung und Web-Software für die Ausführung von Code oder Anwendungsmanagement oder Überwachungsfunktionen bereitstellt. Services erfordern gewöhnlich keine Installation oder Wartung und könnten miteinander kombiniert werden, um Anwendungen zu erstellen.
 
+### Serviceendpunkt
+{: #x2871419}
+
+Die physische Adresse eines Service, über die eine oder mehrere Schnittstellen implementiert werden.
+
 ### Service-ID
 {: #x9148163}
 
-Eine ID, mit der ein Service oder eine Anwendung für eine Cloudumgebung und andere Services authentifiziert wird. Einer Service-ID können Zugriffsrichtlinien zugewiesen werden und sie kann dazu verwendet werden, einer in einer Cloudumgebung bereitgestellten Anwendung den Zugriff auf Cloud-Services zu ermöglichen. 
+Eine ID, mit der ein Service oder eine Anwendung für eine Cloudumgebung und andere Services authentifiziert wird. Einer Service-ID können Zugriffsrichtlinien zugewiesen werden und sie kann dazu verwendet werden, einer in einer Cloudumgebung bereitgestellten Anwendung den Zugriff auf Cloud-Services zu ermöglichen.
 
 ### Single Sign-on (SSO)
 {: #x2213318}
@@ -784,7 +809,7 @@ Eine cloudbasierte Plattform mit offenen Standards für die Erstellung, Verwaltu
 ### Sitzung
 {: #x2004539}
 
-Der Zeitraum, nachdem eine App auf einem mobilen Gerät gestartet und das Qualitätssicherungsprodukt benachrichtigt wurde, dass es mit der Erfassung von Informationen zum Appverhalten sowie von Problemen und Fehlern beginnen kann.
+Der Zeitraum, nachdem eine App auf einem mobilen Gerät gestartet und das Qualitätssicherungsprodukt benachrichtigt wurde, dass es mit der Erfassung von Informationen zum App-Verhalten sowie von Problemen und Fehlern beginnen kann.
 
 ### Skalieren
 {: #x2004442}
@@ -824,7 +849,7 @@ Eine Vorlage, die vordefinierte Services sowie Anwendungscode enthält, der mit 
 ### Subjekt
 {: #x2380043}
 
-Der Benutzer, die Service-ID oder die Zugriffsgruppe, dem bzw. der anhand einer Zugriffsrichtlinie Zugriffsberechtigungen erteilt werden. 
+Der Benutzer, die Service-ID oder die Zugriffsgruppe, dem bzw. der anhand einer Zugriffsrichtlinie Zugriffsberechtigungen erteilt werden.
 
 ### System of Engagement
 {: #x6528306}
@@ -889,6 +914,11 @@ Die eindeutige Adresse einer Informationsressource, die in einem Netz wie dem In
 
 Eine Domäne, die einen Teil einer größeren Domäne darstellt. Siehe auch [Angepasste Domäne](/docs/overview?topic=overview-glossary#x5728384), [Domäne](/docs/overview?topic=overview-glossary#x2021210), [Host](/docs/overview?topic=overview-glossary#x2002243), [Route](/docs/overview?topic=overview-glossary#x2037338), [Uniform Resource Locator](/docs/overview?topic=overview-glossary#x2042491).
 
+### Unternehmen
+{: #x2026915}
+
+Eine hierarchische Struktur von Konten mit einer zentralen Konto- und Abrechnungsverwaltung in einer Cloudumgebung. Siehe auch [Abrechnungseinheit](/docs/overview?topic=overview-glossary#x9308099).
+
 ### URI
 {: #x2116461}
 
@@ -910,7 +940,7 @@ Eine öffentliche, weiterleitbare IP-Adresse, von der eine Eins-zu-eins-Netzadre
 ### Verfügbarkeitszone
 {: #x7018171}
 
-Ein Standort innerhalb einer Region, in der {{site.data.keyword.containerlong}} ausgeführt wird. 
+Ein Standort innerhalb einer Region, in der {{site.data.keyword.containerlong}} ausgeführt wird.
 
 
 ### Virtuell
@@ -995,6 +1025,11 @@ Ein durch den Java EE-Standard definiertes, komprimiertes Dateiformat zum Speich
 ## Z
 {: #glossz}
 
+### Zahlungsmethode
+{: #x2281605}
+
+Die Methode, die ein Kunde zur Bezahlung von Rechnungen verwendet, z. B. Kreditkarte, Scheck oder Banküberweisung.
+
 ### Zeilengruppe
 {: #x2094743}
 
@@ -1013,7 +1048,7 @@ Eine anerkannte Drittorganisation oder ein anerkanntes Drittunternehmen, das die
 ### Ziel
 {: #x2262507}
 
-Die Ressource oder Gruppe von Ressourcen, für die im Rahmen einer Zugriffsrichtlinie einem Subjekt Zugriffsberechtigungen erteilt werden. Die Gruppe der Ressourcen wird durch ein oder mehrere Attribute definiert. Bei einem Ziel kann es sich beispielsweise um alle Ressourcen in einer Ressourcengruppe handeln, um alle Ressourcen eines bestimmten Ressourcentyps oder um eine Ressource mit einer bestimmten Ressourcen-ID. 
+Die Ressource oder Gruppe von Ressourcen, für die im Rahmen einer Zugriffsrichtlinie einem Subjekt Zugriffsberechtigungen erteilt werden. Die Gruppe der Ressourcen wird durch ein oder mehrere Attribute definiert. Bei einem Ziel kann es sich beispielsweise um alle Ressourcen in einer Ressourcengruppe handeln, um alle Ressourcen eines bestimmten Ressourcentyps oder um eine Ressource mit einer bestimmten Ressourcen-ID.
 
 ### Zone
 {: #x2070723}
@@ -1023,12 +1058,12 @@ Eine unabhängige Fehlerdomäne. Bei einer Zone handelt es sich um eine Abstrakt
 ### Zugriffsgruppe
 {: #x2160811}
 
-Eine Gruppe von Benutzern und Service-IDs, die in einer Gruppe zusammengefasst sind, die als Subjekt einer Zugriffsrichtlinie verwendet wird, mit der allen Gruppenmitgliedern dieselbe Zugriffsberechtigung zugewiesen wird. 
+Eine Gruppe von Benutzern und Service-IDs, die in einer Gruppe zusammengefasst sind, die als Subjekt einer Zugriffsrichtlinie verwendet wird, mit der allen Gruppenmitgliedern dieselbe Zugriffsberechtigung zugewiesen wird.
 
 ### Zugriffsrichtlinie
 {: #x2853407}
 
-Eine Methode, mit der Benutzern, Service-IDs und  Zugriffsgruppen Zugriffsberechtigungen für Kontoressourcen erteilt werden. Eine Zugriffsrichtlinie enthält ein Subjekt, ein Ziel und eine Rolle. 
+Eine Methode, mit der Benutzern, Service-IDs und  Zugriffsgruppen Zugriffsberechtigungen für Kontoressourcen erteilt werden. Eine Zugriffsrichtlinie enthält ein Subjekt, ein Ziel und eine Rolle.
 
 ### Zugriffssteuerungsliste
 {: #x2012793}

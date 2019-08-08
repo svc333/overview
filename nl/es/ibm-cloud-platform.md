@@ -3,7 +3,7 @@
 
 copyright:
   years: 2016, 2019
-lastupdated: "2019-06-20"
+lastupdated: "2019-07-25"
 
 keywords: console, platform overview, overview
 
@@ -36,7 +36,7 @@ En el caso de que disponga de [código existente](/docs/apps/tutorials?topic=cre
 ## Configuración de la cuenta
 {: #set-up-account}
 
-Si solo está probando {{site.data.keyword.Bluemix_notm}}, puede ir directamente al catálogo y empezar a consultar las ofertas que le gustaría explorar y añadir a su cuenta Lite. Sin embargo, si está listo para empezar a utilizar un entorno para un grupo de desarrolladores o para toda una organización y obtener apps que se ejecutan en producción, considere configurar los conceptos básicos en su cuenta:
+Si es un desarrollador y sólo está probando {{site.data.keyword.Bluemix_notm}}, puede ir directamente al catálogo y empezar a ver las ofertas que desea explorar y añadir a su cuenta Lite. Cuando esté listo para empezar a utilizar un entorno y obtener apps ejecutándose en producción, considere la posibilidad de configurar los conceptos básicos de su cuenta:
 
 * Grupos de acceso para organizar los usuarios y los ID de servicio en una entidad para simplificar el proceso de asignación de acceso.
 * Grupos de recursos para organizar los recursos y hacer que la asignación de acceso a un grupo de recursos sea rápida y sencilla.
@@ -44,6 +44,13 @@ Si solo está probando {{site.data.keyword.Bluemix_notm}}, puede ir directamente
 
 Para obtener más información, consulte [prácticas recomendadas para la configuración de su cuenta](/docs/account?topic=account-account_setup) y [prácticas recomendadas para la asignación de acceso](/docs/iam?topic=iam-account_setup). 
 
+Como responsable de finanzas de la empresa, podría estar interesado en simplificar la forma en que gestiona la facturación y el uso en varios equipos y departamentos. Con una cuenta de Suscripción, puede crear una empresa de {{site.data.keyword.Bluemix_notm}}, que ofrece gestión de cuentas centralizada, facturación consolidada e informes de uso de arriba abajo. Una empresa consta de una cuenta de empresa, grupos de cuentas y cuentas individuales. 
+
+* La cuenta de empresa es la cuenta padre de todas las demás cuentas de la empresa. La facturación para toda la empresa se gestiona en el nivel de la cuenta de empresa.
+* Los grupos de cuentas ofrecen un modo de organizar cuentas relacionadas. Además, obtiene una vista unificada de los costes de uso de recursos en todas las cuentas que se incluyen en un grupo de cuentas.
+* De forma similar a las cuentas autónomas, las cuentas de una empresa contienen recursos y grupos de recursos, organizaciones y espacios de Cloud Foundry y permisos de acceso independientes.
+
+Para obtener más información, consulte las [Prácticas recomendadas para configurar una empresa](/docs/account?topic=account-enterprise-best-practices).
 ## Precios y facturación
 {: #pricing-billing}
 
@@ -91,7 +98,7 @@ El controlador de recursos proporciona API comunes para controlar el ciclo de vi
 ## Gestión de los recursos
 {: #resource-manager}
 
-Los [grupos de recursos](/docs/overview?topic=overview-whatis-rgs) gestionan las colecciones de recursos. Los grupos de recursos se asocian con la cuenta. Todos los recursos de {{site.data.keyword.Bluemix_notm}} se deben asignar a un grupo de recursos. Cuando crea una cuenta, se crea también un grupo de recursos predeterminado. Todos los recursos habilitados para {{site.data.keyword.Bluemix_notm}} IAM deben suministrarse dentro de un grupo de recursos. Si tiene una cuenta Lite, solo puede tener un grupo de recursos. Si tiene una cuenta de Pago según uso o de Suscripción, puede crear más de un grupo de recursos. Si una cuenta está suspendida, el grupo de recursos correspondiente se suspende y todos los recursos del mismo también se suspenden. 
+Los [grupos de recursos](/docs/overview?topic=overview-whatis-rgs) gestionan las colecciones de recursos. Los grupos de recursos se asocian con la cuenta. Todos los recursos de {{site.data.keyword.Bluemix_notm}} se deben asignar a un grupo de recursos. Cuando crea una cuenta, se crea también un grupo de recursos predeterminado. Todos los recursos de {{site.data.keyword.Bluemix_notm}} habilitados para IAM deben suministrarse dentro de un grupo de recursos. Si tiene una cuenta Lite, solo puede tener un grupo de recursos. Si tiene una cuenta de Pago según uso o de Suscripción, puede crear más de un grupo de recursos. Si una cuenta está suspendida, el grupo de recursos correspondiente se suspende y todos los recursos del mismo también se suspenden. 
 
 ## Búsqueda y etiquetado de recursos
 {: #search-and-tag}
@@ -112,4 +119,4 @@ El servicio {{site.data.keyword.mon_full_notm}} le ofrece visibilidad operativa 
 ## Supervisión de la cuenta 
 {: #account_observability}
 
-Utilice el servicio {{site.data.keyword.at_full}} para supervisar la actividad de la cuenta de {{site.data.keyword.Bluemix_notm}}, investigar cualquier actividad anómala y acciones críticas y cumplir con los requisitos de auditoría normativa. Además, puede recibir alertas sobre acciones a medida que se producen. Los eventos que se han recopilado cumplen con la normativa de Cloud Auditing Data Federation (CADF). Para obtener más información, consulte [Guía de iniciación a {{site.data.keyword.at_full_notm}}](/docs/services/Activity-Tracker-with-LogDNA?topic=logdnaat-getting-started).
+Utilice el servicio {{site.data.keyword.at_full}} para supervisar la actividad de la cuenta de {{site.data.keyword.Bluemix_notm}}, investigar cualquier actividad anómala y acciones críticas y cumplir con los requisitos de auditoría normativa. Además, puede recibir alertas sobre acciones a medida que se producen. Los sucesos que se recopilan cumplen con la normativa de Cloud Auditing Data Federation (CADF). Para obtener más información, consulte [Guía de iniciación a {{site.data.keyword.at_full_notm}}](/docs/services/Activity-Tracker-with-LogDNA?topic=logdnaat-getting-started).

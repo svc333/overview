@@ -3,7 +3,7 @@
 
 copyright:
   years: 2016, 2019
-lastupdated: "2019-06-20"
+lastupdated: "2019-07-25"
 
 keywords: console, platform overview, overview
 
@@ -25,7 +25,7 @@ Wie das folgende Diagramm veranschaulicht, besteht die {{site.data.keyword.Bluem
   * Eine robuste Konsole, die als Front-End für das Erstellen, Anzeigen und Verwalten Ihrer Cloud-Ressourcen dient
   * Eine Komponente für Identitäts- und Zugriffsmanagement, die Benutzer für beide Plattformservices sicher authentifiziert und den Zugriff auf Ressourcen in der Gesamtheit von {{site.data.keyword.Bluemix_notm}} einheitlich steuert
   * Ein Katalog, der Hunderte von {{site.data.keyword.Bluemix_notm}}-Angeboten umfasst
-  * Ein Such- und Taggingmechanismus zum Filtern und Identifizieren Ihrer Ressourcen
+  * Ein Such- und Tagging-Mechanismus zum Filtern und Identifizieren Ihrer Ressourcen
   * Ein Konto- und Abrechnungsverwaltungssystem, das die genaue Verwendung von Preisstrukturplänen (Preistarifen) zur Verfügung stellt und Schutz vor Kreditkartenbetrug bietet
   
 ![Komponenten der {{site.data.keyword.cloud_notm}}-Plattform.](images/IBM-Cloud-Platform.svg "Diagramm mit den Hauptkomponenten der {{site.data.keyword.cloud_notm}}-Plattform")
@@ -35,7 +35,7 @@ Unabhängig davon, ob Sie über [vorhandenen Code](/docs/apps/tutorials?topic=cr
 ## Konto einrichten
 {: #set-up-account}
 
-Wenn Sie {{site.data.keyword.Bluemix_notm}} einfach nur ausprobieren, können Sie direkt den Katalog aufsuchen und sich mit denjenigen Angeboten näher befassen, die Sie erkunden und zu Ihrem Lite-Konto hinzufügen wollen. Wenn Sie jedoch bereit sind, mit einer Umgebung für eine Gruppe von Entwicklern oder für eine ganze Organisation loszulegen und Apps bis zur Reife für ihre Ausführung im Produktionsbetrieb zu bringen, sollten Sie in Ihrem Konto die wichtigsten Basisdaten einrichten:
+Wenn Sie {{site.data.keyword.Bluemix_notm}} einfach nur ausprobieren, können Sie direkt den Katalog aufsuchen und sich mit denjenigen Angeboten näher befassen, die Sie erkunden und zu Ihrem Lite-Konto hinzufügen wollen. Wenn Sie bereit sind, mit einer Umgebung loszulegen und Apps bis zur Reife für ihre Ausführung im Produktionsbetrieb zu bringen, sollten Sie in Ihrem Konto die wichtigsten Basisdaten einrichten:
 
 * Benutzerzugriffsgruppen zum Organisieren von Benutzern und Service-IDs in einer einzigen Entität, damit die Zuweisung des Zugriffs in einem optimierten Prozess erfolgen kann.
 * Ressourcengruppen zum Organisieren Ihrer Ressourcen, um die Zuweisung von Zugriff auf eine Gruppe von Ressourcen möglichst schnell und einfach zu gestalten.
@@ -43,6 +43,13 @@ Wenn Sie {{site.data.keyword.Bluemix_notm}} einfach nur ausprobieren, können Si
 
 Weitere Informationen können Sie unter [Bewährte Verfahren für das Einrichten Ihres Kontos](/docs/account?topic=account-account_setup) und [Bewährte Verfahren für die Zuweisung von Zugriff](/docs/iam?topic=iam-account_setup) nachlesen. 
 
+Als Finanzverantwortlicher in Ihrem Unternehmen sind Sie möglicherweise daran interessiert, die Verwaltung der Abrechnung und Nutzung team- und abteilungsübergreifend zu vereinfachen. Mit einem Abonnementkonto können Sie ein {{site.data.keyword.Bluemix_notm}}-Unternehmen erstellen, das eine zentrale Kontoverwaltung, eine konsolidierte Abrechnung und Nutzungsberichte mit ansteigendem Detaillierungsgrad bietet. Ein Unternehmen setzt sich aus einem Unternehmenskonto, Kontogruppen und einzelnen Konten zusammen. 
+
+* Das Unternehmenskonto ist das allen anderen Konten im Unternehmen übergeordnete Konto. Die Abrechnung für das gesamte Unternehmen erfolgt auf der Ebene des Unternehmenskontos.
+* Kontogruppen bieten die Möglichkeit, zusammengehörige Konten zu organisieren. Und Sie erhalten eine einheitliche Sicht der Ressourcennutzungskosten für alle Konten, die in einer Kontogruppe enthalten sind.
+* Ähnlich wie eigenständige Konten enthalten auch die Konten in einem Unternehmen Ressourcen- und Ressourcengruppen, Cloud Foundry-Organisationen und -Bereiche sowie unabhängige Zugriffsberechtigungen.
+
+Weitere Informationen finden Sie unter [Bewährte Verfahren für die Einrichtung von Unternehmen](/docs/account?topic=account-enterprise-best-practices).
 ## Preisstruktur und Abrechnung
 {: #pricing-billing}
 
@@ -106,7 +113,7 @@ Die Beobachtbarkeit ermöglicht es, Anwendungen und Services in {{site.data.keyw
 
 Mit dem {{site.data.keyword.la_full}}-Service können Sie Protokollverwaltungsfunktionen zur {{site.data.keyword.Bluemix_notm}}-Architektur hinzufügen und System- und Anwendungsprotokolle verwalten. Es stehen erweiterte Features für die Überwachung und Fehlerbehebung, die Definition von Alerts und das Entwerfen von angepassten Dashboards zur Verfügung. {{site.data.keyword.la_full_notm}} wird von LogDNA in einer Partnerschaft mit {{site.data.keyword.IBM_notm}} ausgeführt. Weitere Informationen finden Sie in [Einführung in {{site.data.keyword.la_full_notm}}](/docs/services/Log-Analysis-with-LogDNA?topic=LogDNA-getting-started).
 
-Der {{site.data.keyword.mon_full_notm}}-Service ermöglicht operationale Einblicke in die Leistung und den Allgemeinzustand von Anwendungen, Services und Plattformen. Er bietet eine umfassende Telemetrie mit erweiterten Features zur Übewachung und Fehlerbehebung, zur Definition von Alerts und zum Entwerfen angepasster Dashboards. {{site.data.keyword.mon_full_notm}} wird von Sysdig in einer Partnerschaft mit {{site.data.keyword.IBM_notm}} ausgeführt. Weitere Informationen finden Sie in [Einführung in den IBM Cloud Monitoring with Sysdig-Service](/docs/services/Monitoring-with-Sysdig?topic=Sysdig-getting-started#getting-started).
+Der {{site.data.keyword.mon_full_notm}}-Service ermöglicht operationale Einblicke in die Leistung und den Allgemeinzustand von Anwendungen, Services und Plattformen. Er bietet eine umfassende Telemetrie mit erweiterten Features zur Überwachung und Fehlerbehebung, zur Definition von Alerts und zum Entwerfen angepasster Dashboards. {{site.data.keyword.mon_full_notm}} wird von Sysdig in einer Partnerschaft mit {{site.data.keyword.IBM_notm}} ausgeführt. Weitere Informationen finden Sie in [Einführung in den IBM Cloud Monitoring with Sysdig-Service](/docs/services/Monitoring-with-Sysdig?topic=Sysdig-getting-started#getting-started).
 
 ## Konto überwachen 
 {: #account_observability}

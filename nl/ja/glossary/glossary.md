@@ -3,7 +3,7 @@
 
 copyright:
   years: 2016, 2019
-lastupdated: "2019-07-02"
+lastupdated: "2019-07-25"
 
 keywords: glossary, IBM Cloud glossary
 
@@ -17,7 +17,7 @@ subcollection: overview
 # {{site.data.keyword.cloud_notm}} の用語集 
 {: #glossary}
 
-この用語集は {{site.data.keyword.cloud_notm}} の用語と定義を提供します。
+この用語集は {{site.data.keyword.cloud}} の用語と定義を提供します。
 {:shortdesc}
 
 この用語集では以下の相互参照を使用します。
@@ -41,12 +41,17 @@ subcollection: overview
 ### アクセス・ポリシー (access policy)
 {: #x2853407}
 
-ユーザー、サービス ID、およびアクセス・グループにアカウント・リソースへのアクセス権限を付与する方法。アクセス・ポリシーは、サブジェクト、ターゲット、および役割を含みます。
+ユーザー、サービス ID、およびアクセス・グループにアカウント・リソースへのアクセス権限を付与する方法。 アクセス・ポリシーは、サブジェクト、ターゲット、および役割を含みます。
 
 ### アクセス・トークン (access token)
 {: #x2113001}
 
 コンシューマーが、ユーザーに代わり、ユーザーのサービス・プロバイダー資格情報を使用せずに保護リソースへのアクセス権限を得るために使用する値。
+
+### アカウント・グループ (account group)
+{: #x8622525}
+
+エンタープライズ内のアカウントの組織単位。 アカウント・グループには、アカウントまたは他のアカウント・グループを含めることができます。 [「エンタープライズ (enterprise)」](/docs/overview?topic=overview-glossary#x2026915)も参照。
 
 ### アクション (action)
 {: #x2012974}
@@ -126,7 +131,17 @@ Web アプリケーションまたはモバイル・デバイス・アプリケ�
 ### ベータ版 (beta offering)
 {: #x9774283}
 
-{{site.data.keyword.IBM_notm}} が評価およびテストを目的としてのみ提供するオファリング。いかなる保証、SLA、およびサポートも提供されません。 ベータ版は、実動で使用するためのものではありません。
+{{site.data.keyword.IBM_notm}} が評価およびテストを目的としてのみ提供するオファリング。  いかなる保証、SLA、およびサポートも提供されません。 ベータ版は、実動で使用するためのものではありません。
+
+### 課金オプション (billing option)
+{: #x6526863}
+
+クラウド・サービスの使用に対してお客様に課金される方式。 例えば、サブスクリプションなどの前払いや、従量課金 (PAYG) アカウントにあるような延滞金の支払いなどがあります。
+
+### 請求単位 (billing unit)
+{: #x9308099}
+
+エンタープライズ内の最上位の請求エンティティー。 各アカウントまたはアカウント・グループは、関連するすべての契約、送り状、オーダー、および支払いを管理する請求単位にリンクされます。 請求単位には、1 つ以上のクレジット・プールを含めることができます。 [「クレジット・プール (credit pool)」](/docs/overview?topic=overview-glossary#x9796950)、[「エンタープライズ (enterprise)」](/docs/overview?topic=overview-glossary#x2026915)も参照。
 
 ### バインド (bind)
 {: #x2000361}
@@ -151,7 +166,7 @@ Blue および Green と呼ばれる 2 つのほぼ同一な実稼働環境を�
 ### ボーダーレス (borderless)
 {: #x8439189}
 
-パブリック・クラウド、専用クラウド、ローカル・クラウドのデプロイ・モデルを含むオープンな非専有開発プラットフォームに関する用語。 [「専用クラウド (dedicated cloud)」](/docs/overview?topic=overview-glossary#x8439199)、[「ローカル・クラウド (local cloud)」](/docs/overview?topic=overview-glossary#x8439194)、[「パブリック・クラウド (public cloud)」](/docs/overview?topic=overview-glossary#x4585370) も参照。
+パブリック・クラウド、専用クラウド、ローカル・クラウドのデプロイ・モデルを含むオープンな非専有開発プラットフォームに関する用語。 [「専用クラウド (dedicated cloud)」](/docs/overview?topic=overview-glossary#x8439199)、[「ローカル・クラウド (local cloud)」](/docs/overview?topic=overview-glossary#x8439194)、[「パブリック・クラウド (public cloud)」](/docs/overview?topic=overview-glossary#x4585370)も参照。 
 
 ### ビルドパック (buildpack)
 {: #x7233925}
@@ -222,6 +237,11 @@ Blue および Green と呼ばれる 2 つのほぼ同一な実稼働環境を�
 
 ユーザー、グループ関連付け、またはその他のセキュリティー関連の識別属性を記述する情報。認証中に取得され、許可、監査、委任などのサービスを実行するために使用されます。 例えば、ユーザー ID とパスワードは、ネットワークおよびシステム・リソースへのアクセスを可能にする資格情報です。
 
+### クレジット・プール (credit pool)
+{: #x9796950}
+
+エンタープライズ請求単位内で、アカウント間で共有されるサブスクリプションやプロモーションを含むすべてのソースからのクレジットの統合。 [「請求単位 (billing unit)」](/docs/overview?topic=overview-glossary#x9308099)も参照。
+
 ### CSR
 {: #x2140147}
 
@@ -284,7 +304,7 @@ Blue および Green と呼ばれる 2 つのほぼ同一な実稼働環境を�
 ### ドメイン (domain)
 {: #x2021210}
 
-経路を指定するネーミング階層の一部。 例えば「example.com」など。 {{site.data.keyword.cloud_notm}} では、ドメインは組織と関連付けられます。ドメイン・オブジェクトはアプリと直接にはバインドされません。 [「カスタム・ドメイン (custom domain)」](/docs/overview?topic=overview-glossary#x5728384)、[「ホスト (host)」](/docs/overview?topic=overview-glossary#x2002243)、[「組織 (organization)」](/docs/overview?topic=overview-glossary#x2032585)、[「経路 (route)」](/docs/overview?topic=overview-glossary#x2037338)、[「サブドメイン (subdomain)」](/docs/overview?topic=overview-glossary#x2040080)、[「Uniform Resource Locator」](/docs/overview?topic=overview-glossary#x2042491)も参照。
+経路を指定するネーミング階層の一部。 例えば「example.com」など。 {{site.data.keyword.cloud_notm}} では、ドメインは組織と関連付けられます。 ドメイン・オブジェクトはアプリと直接にはバインドされません。 [「カスタム・ドメイン (custom domain)」](/docs/overview?topic=overview-glossary#x5728384)、[「ホスト (host)」](/docs/overview?topic=overview-glossary#x2002243)、[「組織 (organization)」](/docs/overview?topic=overview-glossary#x2032585)、[「経路 (route)」](/docs/overview?topic=overview-glossary#x2037338)、[「サブドメイン (subdomain)」](/docs/overview?topic=overview-glossary#x2040080)、[「Uniform Resource Locator」](/docs/overview?topic=overview-glossary#x2042491)も参照。
 
 ### ドロップレット (droplet)
 {: #x7470343}
@@ -305,10 +325,15 @@ Blue および Green と呼ばれる 2 つのほぼ同一な実稼働環境を�
 
 環境内の API またはサービスのアドレス。 API は、エンドポイントを公開し、同時に他のサービスのエンドポイントを呼び出します。 [「ルート (route)」](/docs/overview?topic=overview-glossary#x2037338)も参照。
 
+### エンタープライズ (enterprise)
+{: #x2026915}
+
+クラウド環境でのアカウントと課金管理を一元化したアカウントの階層構造。 [「請求単位 (billing unit)」](/docs/overview?topic=overview-glossary#x9308099)も参照。
+
 ### 試験的なオファリング (experimental offering)
 {: #x9774278}
 
-{{site.data.keyword.IBM_notm}} が評価およびテストを目的としてのみ提供し、不安定であったり、以前のバージョンとの互換性がなかったりする可能性のあるオファリング。試験的なオファリングは、十分な通知期間を設けずに中止されることがあります。 いかなる保証、SLA、およびサポートも提供されません。 試験的なオファリングは、実動で使用するためのものではありません。
+{{site.data.keyword.IBM_notm}} が評価およびテストを目的としてのみ提供し、不安定であったり、以前のバージョンとの互換性がなかったりする可能性のあるオファリング。 試験的なオファリングは、十分な通知期間を設けずに中止されることがあります。 いかなる保証、SLA、およびサポートも提供されません。 試験的なオファリングは、実動で使用するためのものではありません。
 
 ## F
 {: #glossf}
@@ -326,7 +351,7 @@ Blue および Green と呼ばれる 2 つのほぼ同一な実稼働環境を�
 ### ファイル共用 (file share)
 {: #x2022902}
 
-ユーザーがファイルを保管して共有する、{{site.data.keyword.cloud_notm}} 環境内の永続ストレージ・システム。{{site.data.keyword.containershort_notm}} では、ユーザーはファイル共有に Docker ボリュームをマウントできる。
+ユーザーがファイルを保管して共有する、{{site.data.keyword.cloud_notm}} 環境内の永続ストレージ・システム。 {{site.data.keyword.containershort_notm}} では、ユーザーはファイル共有に Docker ボリュームをマウントできる。
 
 ### 発生 (fire)
 {: #x2239904}
@@ -623,6 +648,11 @@ IBM Cloud におけるユーザーのグループ化の方法。 組織は、割
 
 別のイメージのベースを提供するイメージ。 例えば、Ubuntu Linux は IBM Liberty イメージの親イメージです。 [「基本イメージ (base image)」](/docs/overview?topic=overview-glossary#x5366487)、[「イメージ (image)」](/docs/overview?topic=overview-glossary#x2024928)も参照。
 
+### 支払方法 (payment method)
+{: #x2281605}
+
+クレジット・カード、小切手、電信送金など、請求書をお客様が支払う方法。
+
 ### Platform as a Service (PaaS)
 {: #x2029786}
 
@@ -795,10 +825,15 @@ IBM Cloud カタログ内のすべてのユーザーに表示されるエント�
 すぐに使用できる機能 (データベース、メッセージング、およびコード実行のための Web ソフトウェア) や、
 アプリケーション管理機能またはモニター機能を提供するクラウド拡張機能。 通常、サービスはインストールや保守を必要とせず、組み合わせてアプリケーションを作成することもできます。
 
+### サービス・エンドポイント (service endpoint)
+{: #x2871419}
+
+1 つ以上のインターフェースを実装するサービスの物理アドレス。
+
 ### サービス ID (service ID)
 {: #x9148163}
 
-クラウド環境およびその他のサービスに対してサービスまたはアプリケーションを認証する ID。サービス ID にアクセス・ポリシーを割り当てて、クラウド環境にデプロイされたアプリケーションがクラウド・サービスにアクセスできるようにするためにサービス ID を使用できます。
+クラウド環境およびその他のサービスに対してサービスまたはアプリケーションを認証する ID。 サービス ID にアクセス・ポリシーを割り当てて、クラウド環境にデプロイされたアプリケーションがクラウド・サービスにアクセスできるようにするためにサービス ID を使用できます。
 
 ### セッション (session)
 {: #x2004539}
@@ -828,7 +863,7 @@ IBM Cloud カタログ内のすべてのユーザーに表示されるエント�
 ### スペース (space)
 {: #x2039442}
 
-{{site.data.keyword.cloud_notm}} 組織内のサブグループ。組織のメンバーであるユーザーは、特定の役割 (開発者、管理者、または監査員など) に関連付けられた許可により、組織の 1 つ以上のスペースに対するアクセス権限を付与されます。スペースのすべてのメンバーがアプリを表示することができますが、アプリを作成したりサービス・インスタンスをスペースに追加できるのは開発者の役割を持つメンバーのみです。 アプリとサービス・インスタンスはスペースと関連付けられています。 [「組織 (organization)」](/docs/overview?topic=overview-glossary#x2032585)も参照。
+{{site.data.keyword.cloud_notm}} 組織内のサブグループ。組織のメンバーであるユーザーは、特定の役割 (開発者、管理者、または監査員など) に関連付けられた許可により、組織の 1 つ以上のスペースに対するアクセス権限を付与されます。 スペースのすべてのメンバーがアプリを表示することができますが、アプリを作成したりサービス・インスタンスをスペースに追加できるのは開発者の役割を持つメンバーのみです。 アプリとサービス・インスタンスはスペースと関連付けられています。 [「組織 (organization)」](/docs/overview?topic=overview-glossary#x2032585)も参照。
 
 ### SSL
 {: #x2483907}
@@ -863,7 +898,7 @@ IBM Cloud カタログ内のすべてのユーザーに表示されるエント�
 ### サブジェクト (subject)
 {: #x2380043}
 
-アクセス・ポリシーによってアクセス権限が付与される、ユーザー、サービス ID、またはアクセス・グループ。 
+アクセス・ポリシーによってアクセス権限が付与される、ユーザー、サービス ID、またはアクセス・グループ。
 
 ### サブネット (subnet)
 {: #x4282974}
@@ -897,7 +932,7 @@ E メール、コラボレーション・システム、およびネットワー
 ### ターゲット (target)
 {: #x2262507}
 
-アクセス・ポリシーでサブジェクトにアクセス権限を提供する対象のリソースまたはリソース・セット。リソース・セットは、1 つ以上の属性によって定義されます。例えば、1 つのリソース・グループ内のすべてのリソース、特定のリソース・タイプのすべてのリソース、または特定のリソース ID を持つリソースをターゲットにすることができます。
+アクセス・ポリシーでサブジェクトにアクセス権限を提供する対象のリソースまたはリソース・セット。 リソース・セットは、1 つ以上の属性によって定義されます。 例えば、1 つのリソース・グループ内のすべてのリソース、特定のリソース・タイプのすべてのリソース、または特定のリソース ID を持つリソースをターゲットにすることができます。
 
 ### テンプレート (template)
 {: #x2041200}

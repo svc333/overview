@@ -3,7 +3,7 @@
 
 copyright:
   years: 2016, 2019
-lastupdated: "2019-07-02"
+lastupdated: "2019-07-25"
 
 keywords: glossary, IBM Cloud glossary
 
@@ -17,7 +17,7 @@ subcollection: overview
 # Términos del glosario de {{site.data.keyword.cloud_notm}} 
 {: #glossary}
 
-Este glosario contiene términos y definiciones correspondientes a {{site.data.keyword.cloud_notm}}.
+Este glosario contiene términos y definiciones correspondientes a {{site.data.keyword.cloud}}.
 {:shortdesc}
 
 En este glosario se utilizan las siguientes referencias cruzadas:
@@ -50,6 +50,11 @@ Método para asignar acceso a los recursos de una cuenta a los usuarios, ID de s
 Valor que utiliza el cliente para obtener acceso a los recursos
 protegidos en nombre del usuario, en lugar de utilizar las credenciales del
 proveedor de servicio del usuario.
+
+### grupo de cuentas
+{: #x8622525}
+
+Unidad organizativa para las cuentas dentro de una empresa. Un grupo de cuentas puede contener cuentas u otros grupos de cuentas. Véase también [empresa](/docs/overview?topic=overview-glossary#x2026915).
 
 ### acción
 {: #x2012974}
@@ -131,6 +136,16 @@ Una imagen que no tiene una imagen padre. Véase también [imagen](/docs/overvie
 
 Oferta que {{site.data.keyword.IBM_notm}} pone a disponibilidad de los usuarios solo con fines de evaluación y prueba.  No se ofrece ninguna garantía, SLA ni soporte y las ofertas beta no están pensadas para que se utilicen en entornos de producción.
 
+### opción de facturación
+{: #x6526863}
+
+Método por el cual se factura a un cliente el uso de un servicio en la nube. Por ejemplo, el pago por adelantado (como en las suscripciones) y el pago a plazo vencido (como en las cuentas de Pago según uso).
+
+### unidad de facturación
+{: #x9308099}
+
+La entidad de facturación de mayor nivel dentro de una empresa. Cada cuenta o grupo de cuentas está enlazada a una unidad de facturación, que gestiona todos los contratos, facturas, pedidos y pagos asociados. Una unidad de facturación puede contener una o más agrupación de créditos. Véase también [agrupación de créditos](/docs/overview?topic=overview-glossary#x9796950), [empresa](/docs/overview?topic=overview-glossary#x2026915).
+
 ### enlazar
 {: #x2000361}
 
@@ -142,7 +157,7 @@ detalles de enlace de la descripción de servicio para localizar, establecer con
 ### BLU Acceleration
 {: #x7470463}
 
-Colección de tecnologías de IBM Db2 diseñadas para trabajar principalmente con proceso de consultas de inteligencia empresarial mayoritariamente de lectura. BLU Acceleration consta de cuatro principales avances en diseño de base de datos: proceso dinámico de columnas en memoria, compresión que se puede accionar, proceso de vectores paralelos y omisión de datos.
+Conjunto de tecnologías de IBM Db2 diseñadas para trabajar principalmente con proceso de consultas de inteligencia empresarial mayoritariamente de lectura. BLU Acceleration consta de cuatro principales avances en diseño de base de datos: proceso dinámico de columnas en memoria, compresión que se puede accionar, proceso de vectores paralelos y omisión de datos.
 
 ### despliegue azul-verde
 {: #x7807335}
@@ -157,12 +172,12 @@ Plantilla que incluye una aplicación y su entorno de tiempo de ejecución y ser
 ### sin borde
 {: #x8439189}
 
-Relativo a una plataforma de desarrollo de no propiedad abierta que incluye modelos de desarrollo de nube pública, nube dedicada y nube local. Véase también [nube dedicada](/docs/overview?topic=overview-glossary#x8439199), [nube local](/docs/overview?topic=overview-glossary#x8439194), [/docs/overview?topic=overview-glossarypublic nube](#x4585370).
+Relativo a una plataforma de desarrollo de no propiedad abierta que incluye modelos de desarrollo de nube pública, nube dedicada y nube local. Véase también [nube dedicada](/docs/overview?topic=overview-glossary#x8439199), [nube local](/docs/overview?topic=overview-glossary#x8439194), [nube pública](/docs/overview?topic=overview-glossary#x4585370). 
 
 ### paquete de compilación
 {: #x7233925}
 
-Colección de scripts que preparan el código para que se ejecute en IBM Cloud. Los paquetes de compilación examinan las aplicaciones desplegadas y descargan y configuran las aplicaciones dependientes.
+Conjunto de scripts que preparan el código para que se ejecute en IBM Cloud. Los paquetes de compilación examinan las aplicaciones desplegadas y descargan y configuran las aplicaciones dependientes.
 
 
 ## C
@@ -232,6 +247,11 @@ Una construcción de sistemas que permite a los usuarios ejecutar simultáneamen
 Información adquirida durante la autenticación que describe un usuario, asociaciones de grupo
 u otros atributos de identidad relacionados con la seguridad y que se utiliza para realizar servicios
 tales como autorización, auditoría o delegación. Por ejemplo, un ID de usuario y una contraseña son credenciales que permiten el acceso a la red y a los recursos del sistema.
+
+### agrupación de créditos
+{: #x9796950}
+
+Dentro de la unidad de facturación de una empresa, consolidación de crédito de todos los orígenes, incluidas las suscripciones y promociones, que se comparte entre las cuentas. Véase también [unidad de facturación](/docs/overview?topic=overview-glossary#x9308099).
 
 ### CSR
 {: #x2140147}
@@ -316,6 +336,11 @@ Componente de Cloud Foundry responsable de desplegar aplicaciones.
 
 Dirección de una API o servicio en un entorno. Una API expone un punto final
 y al mismo tiempo invoca los puntos finales de otros servicios. Véase también [ruta](/docs/overview?topic=overview-glossary#x2037338).
+
+### empresa
+{: #x2026915}
+
+Estructura jerárquica de cuentas con una cuenta centralizada y gestión de facturación en un entorno de nube. Véase también [unidad de facturación](/docs/overview?topic=overview-glossary#x9308099).
 
 ### oferta experimental
 {: #x9774278}
@@ -644,6 +669,11 @@ Una técnica de virtualización ligera. En modalidad paravirtualizada, una máqu
 
 Una imagen que proporciona una base para otra imagen. Por ejemplo, Ubuntu Linux es la imagen padre de la imagen de IBM Liberty. Véase también [imagen base](/docs/overview?topic=overview-glossary#x5366487), [imagen](/docs/overview?topic=overview-glossary#x2024928).
 
+### método de pago
+{: #x2281605}
+
+Método por el cual un cliente paga una factura, como tarjeta de crédito, cheque o transferencia bancaria.
+
 ### plataforma como servicio (PaaS)
 {: #x2029786}
 
@@ -823,6 +853,11 @@ Oferta lista para producción que está disponible para su venta y a la que pued
 {: #x2038343}
 
 Extensión en la nube que ofrece funcionalidad lista para utilizarse, como base de datos, mensajería, software de web para ejecutar código, o gestión de aplicaciones o capacidades de supervisión. Los servicios no suelen requerir instalación ni mantenimiento y se pueden combinar para crear aplicaciones.
+
+### punto final de servicio
+{: #x2871419}
+
+Dirección física de un servicio que implementa una o más interfaces.
 
 ### ID de servicio
 {: #x9148163}

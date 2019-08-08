@@ -4,7 +4,7 @@ copyright:
 
   years: 2015, 2019
 
-lastupdated: "2019-07-02"
+lastupdated: "2019-07-25"
 
 keywords: release notes, what's new, what is new, cloud updates
 
@@ -19,10 +19,10 @@ subcollection: overview
 # {{site.data.keyword.Bluemix_notm}} の新機能
 {: #whatsnew}
 
-{{site.data.keyword.Bluemix_notm}} の能力を最大限に引き出すために、{{site.data.keyword.Bluemix}} プラットフォームで利用可能な新しいフィーチャーを常に最新の状態に保つようにしてください。 
+{{site.data.keyword.Bluemix_notm}} の機能を最大限に活用するために、{{site.data.keyword.Bluemix}} プラットフォームで利用可能な新しいフィーチャーを常に最新の状態に保つようにしてください。
 {:shortdesc}
 
-{{site.data.keyword.Bluemix_notm}} で使用可能なサービスの更新を探している場合は、ブログの[{{site.data.keyword.Bluemix_notm}} 発表ページ](https://www.ibm.com/cloud/blog/announcements){: new_window} ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン") を確認してください。
+{{site.data.keyword.Bluemix_notm}} で使用可能なサービスの更新に関する情報は、ブログの[{{site.data.keyword.Bluemix_notm}} 発表ページ](https://www.ibm.com/cloud/blog/announcements){: new_window} ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン") を確認してください。
 {: tip}
 
 
@@ -30,17 +30,36 @@ subcollection: overview
 ## {{site.data.keyword.Bluemix_notm}} プラットフォーム
 {: #platform_category}
 
+### 複数のアカウントを一元管理するための {{site.data.keyword.Bluemix_notm}} エンタープライズ
+{: #ibm-cloud-enterprises}
+最新情報: 2019 年 7 月 25 日
+
+{{site.data.keyword.Bluemix_notm}} エンタープライズを作成することによって、複数のアカウントの請求処理および使用量を一元管理できるようになりました。エンタープライズでは、関連するアカウントをアカウント・グループに編成することで、多層のアカウント階層を作成できます。エンタープライズは、以下の主要な機能により、複数のアカウントの管理を単純化します。
+   * 統合された請求処理は、すべてのアカウントの請求、請求書処理、および支払いを 1 つの場所 (エンタープライズ・アカウント)から管理できることを意味します。 
+   * サブスクリプション・クレジットは、クレジット・プールに集約され、エンタープライズ内のすべてのアカウントで共有されます。クレジットが共有されるため、サブスクリプションのトラッキングが簡単になるだけでなく、より少ない数でより大きなサブスクリプションを、より良い割引で得ることができます。 
+   * トップダウンの使用量レポートは、エンタープライズ階層に従って編成された、すべてのアカウントの使用コストの統一ビューを提供します。 
+
+複数のアカウントがあり、そのうち少なくとも 1 つがサブスクリプション・アカウントであれば、エンタープライズを作成できます。詳しくは、『[エンタープライズとは](/docs/account?topic=account-enterprise)』および [{{site.data.keyword.Bluemix_notm}} エンタープライズの紹介 ](http://www.ibm.com/cloud/blog/announcements/Introducing-IBM-Cloud-Enterprises){: new_window} ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン") を参照してください。
+
+### サブスクリプション・クレジット消費量をトラッキングするための「サブスクリプション」ページ
+{: #subscriptions-page}
+最新情報: 2019 年 7 月 18 日
+
+サブスクリプション・アカウントを使用している場合、「サブスクリプション」ページでご使用のサブスクリプションをすべて確認して、クレジット消費量を分析できるようになりました。 アカウントのサブスクリプション・クレジット合計の概略と、傾向を可視化する詳しいグラフ (クレジット・バーンダウンや月別消費量など) を確認できます。 さらに、アカウント内のプロモーションのクレジットを表示することもできます。 詳しくは、『[サブスクリプションの管理](/docs/billing-usage?topic=billing-usage-subscriptions)』を参照してください。
+
+また、サブスクリプション・クレジットをアカウントに追加する際に適用するコードは、その使用法を適切に反映するためにフィーチャー・コードではなく、サブスクリプション・コードと呼ばれるようになりました。
+
 ### {{site.data.keyword.cloud_notm}} での SoftLayer SAML 連携の管理
 {: #saml-federation}
 最新情報: 2019 年 7 月 2 日
 
-フェデレーテッド ID を使用したログインのために SAML ID プロバイダーをセットアップしていた、以前の SoftLayer ユーザーは、構成データを {{site.data.keyword.cloud_notm}} コンソールの「ID プロバイダー」ページの「アクセス (IAM)」で管理できるようになりました。このタイプの連携は非推奨であるため、現時点では ID プロバイダーを新しくセットアップすることはできませんが、ID プロバイダーのデータを更新することは引き続き可能です。あるいは、[IBMid との統合](/docs/account?topic=account-signup#signup-federated)に切り替えることを選択して、この連携を削除することもできます。
+フェデレーテッド ID を使用したログインのために SAML ID プロバイダーをセットアップしていた、以前の SoftLayer ユーザーは、構成データを {{site.data.keyword.cloud_notm}} コンソールの「ID プロバイダー」ページの「アクセス (IAM)」で管理できるようになりました。 このタイプの連携は非推奨であるため、現時点では ID プロバイダーを新しくセットアップすることはできませんが、ID プロバイダーのデータを更新することは引き続き可能です。あるいは、[IBMid との統合](/docs/account?topic=account-signup#signup-federated)に切り替えることを選択して、この連携を削除することもできます。
 
 ### カスタム・ダッシュボード
 {: #custom}
 最新情報: 2019 年 6 月 14 日 
 
-ダッシュボードに表示される内容を制御できるようになりました。ダッシュボードのカスタマイズで、ウィジェットの追加、削除、並べ替えを行うことができます。詳しくは、[ダッシュボードのカスタマイズ](/docs/overview?topic=overview-custom-dashboard)を参照してください。
+ダッシュボードに表示される内容を制御できるようになりました。 ダッシュボードのカスタマイズで、ウィジェットの追加、削除、並べ替えを行うことができます。 詳しくは、[ダッシュボードのカスタマイズ](/docs/overview?topic=overview-custom-dashboard)を参照してください。
 
 
 ### 関連タグを用いた使用量データのエクスポート
