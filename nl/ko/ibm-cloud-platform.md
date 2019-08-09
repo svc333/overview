@@ -3,7 +3,7 @@
 
 copyright:
   years: 2016, 2019
-lastupdated: "2019-06-20"
+lastupdated: "2019-07-25"
 
 keywords: console, platform overview, overview
 
@@ -35,7 +35,7 @@ IBM의 클라우드 플랫폼은 PaaS(Platform as a Service)를 IaaS(Infrastruct
 ## 계정 설정
 {: #set-up-account}
 
-{{site.data.keyword.Bluemix_notm}}를 사용해 보는 중이라면 바로 카탈로그로 이동하여 관심이 있는 오퍼링을 살펴보고 Lite 계정에 추가할 수 있습니다. 그러나 개발자 그룹 또는 전체 조직을 위한 환경을 시작하고 프로덕션에서 앱을 실행할 준비가 되어 있는 경우 계정의 기본사항 설정을 고려해 보십시오.
+자신이 {{site.data.keyword.Bluemix_notm}}를 사용해 보고 있는 개발자라면 바로 카탈로그로 이동하여 관심이 있는 오퍼링을 탐색하고 Lite 계정에 추가할 수 있습니다. 앱을 시작하고 프로덕션 환경에서 실행할 준비가 되면, 계정에 다음과 같은 기본 항목을 설정하는 것을 고려하십시오. 
 
 * 사용자와 서비스 ID를 하나의 엔티티로 구성하여 액세스 지정을 간소화된 프로세스로 만들기 위한 사용자 액세스 그룹
 * 리소스 세트에 대한 액세스를 쉽고 빠르게 지정할 수 있도록 리소스를 구성하기 위한 리소스 그룹
@@ -43,6 +43,13 @@ IBM의 클라우드 플랫폼은 PaaS(Platform as a Service)를 IaaS(Infrastruct
 
 자세한 정보는 [계정 설정 우수 사례](/docs/account?topic=account-account_setup) 및 [액세스 지정 우수 사례](/docs/iam?topic=iam-account_setup)를 참조하십시오. 
 
+회사의 재무 담당자는 여러 팀 및 부서의 청구 및 사용량 관리 방법을 간소화하고자 할 수 있습니다. 구독 계정을 사용하면 중앙 집중식 계정 관리, 통합 청구, 하향식 사용량 보고를 제공하는 {{site.data.keyword.Bluemix_notm}} 엔터프라이즈를 작성할 수 있습니다. 엔터프라이즈는 엔터프라이즈 계정, 계정 그룹 및 개별 계정으로 구성됩니다.  
+
+* 엔터프라이즈 계정은 엔터프라이즈에 있는 모든 기타 계정의 상위 계정입니다. 전체 엔터프라이즈에 대한 청구는 엔터프라이즈 계정 레벨에서 관리됩니다. 
+* 계정 그룹은 서로 관련된 계정을 체계화하는 방법을 제공합니다. 또한 계정 그룹에 포함된 모든 계정의 리소스 사용량 비용에 대한 통합된 보기를 볼 수 있습니다. 
+* 독립형 계정과 마찬가지로, 엔터프라이즈의 계정은 리소스 및 리소스 그룹, Cloud Foundry 조직 및 영역, 독립 액세스 권한을 포함합니다. 
+
+자세한 정보는 [엔터프라이즈 설정의 우수 사례](/docs/account?topic=account-enterprise-best-practices)를 참조하십시오. 
 ## 가격 및 청구
 {: #pricing-billing}
 

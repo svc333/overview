@@ -3,7 +3,7 @@
 
 copyright:
   years: 2016, 2019
-lastupdated: "2019-06-20"
+lastupdated: "2019-07-25"
 
 keywords: console, platform overview, overview
 
@@ -35,7 +35,7 @@ Que vous disposiez d'un [code existant](/docs/apps/tutorials?topic=creating-apps
 ## Configuration de votre compte
 {: #set-up-account}
 
-Si vous testez {{site.data.keyword.Bluemix_notm}}, vous pouvez accéder directement au catalogue et commencer à évaluer les services que vous souhaitez explorer et ajouter à votre compte d'essai ou Lite. Toutefois, si vous êtes prêt à utiliser un environnement pour un groupe de développeurs ou l'ensemble d'une organisation et placer vos applications en production, pensez à configurer les éléments fondamentaux de votre compte :
+Si vous êtes développeur et que vous testez {{site.data.keyword.Bluemix_notm}}, vous pouvez accéder directement au catalogue et commencer à parcourir les offres que vous souhaitez explorer et ajouter à votre compte d'essai ou Lite. Si vous êtes prêt à utiliser un environnement et à placer vos applications en production, pensez à configurer les éléments fondamentaux de votre compte :
 
 * Groupes d'accès pour l'organisation des utilisateurs et ID de service dans une entité afin de faire de l'affectation d'accès un processus rationalisé.
 * Groupes de ressources pour l'organisation de vos ressources pour l'affectation rapide et simple de l'accès à un ensemble de ressources.
@@ -43,6 +43,13 @@ Si vous testez {{site.data.keyword.Bluemix_notm}}, vous pouvez accéder directem
 
 Pour plus d'informations, voir les [meilleures pratiques pour la configuration de votre compte](/docs/account?topic=account-account_setup) et les [meilleures pratiques pour l'affectation d'accès](/docs/iam?topic=iam-account_setup). 
 
+En tant que responsable financier de votre entreprise, vous pouvez souhaiter simplifier la gestion de la facturation et de l'utilisation dans les équipes et les services. Avec un compte Abonnement, vous pouvez créer une entreprise {{site.data.keyword.Bluemix_notm}} grâce à laquelle vous pouvez bénéficier de la gestion de compte centralisée, de la facturation consolidée et du rapport d'utilisation descendant. Une entreprise se compose d'un compte d'entreprise, de groupes de comptes et de comptes individuels. 
+
+* Le compte d'entreprise est le compte parent de tous les autres comptes de l'entreprise. La facturation de l'ensemble de l'entreprise est gérée au niveau de ce compte.
+* Les groupes de comptes permettent d'organiser les comptes liés. Vous disposez ainsi d'une vue unifiée des coûts d'utilisation des ressources dans tous les comptes inclus dans un groupe de comptes.
+* Tout comme les comptes autonomes, les comptes d'une entreprise contiennent des ressources et des groupes de ressources, des organisations et des espaces Cloud Foundry et des droits d'accès indépendants.
+
+Pour plus d'informations, voir les [meilleures pratiques en matière de configuration d'une entreprise](/docs/account?topic=account-enterprise-best-practices).
 ## Tarification et facturation
 {: #pricing-billing}
 

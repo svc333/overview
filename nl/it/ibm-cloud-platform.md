@@ -3,7 +3,7 @@
 
 copyright:
   years: 2016, 2019
-lastupdated: "2019-05-31"
+lastupdated: "2019-07-25"
 
 keywords: console, platform overview, overview
 
@@ -28,14 +28,14 @@ Come illustrato dal seguente diagramma, la piattaforma {{site.data.keyword.Bluem
   * Un meccanismo di ricerca e contrassegno con tag per filtrare e identificare le tue risorse
   * Un sistema di gestione dell'account e della fatturazione che fornisce l'utilizzo esatto per i piani dei prezzi e la protezione antifrode della carta di credito
   
-  ![Componenti della piattaforma {{site.data.keyword.cloud_notm}} ](images/IBM-Cloud-Platform.svg "Diagramma che mostra i componenti principali della piattaforma {{site.data.keyword.cloud_notm}} ")
+![Componenti della piattaforma {{site.data.keyword.cloud_notm}}.](images/IBM-Cloud-Platform.svg "Diagramma che mostra i componenti principali della piattaforma {{site.data.keyword.cloud_notm}} ")
 
 Se hai del [codice esistente](/docs/apps/tutorials?topic=creating-apps-tutorial-byoc#tutorial-byoc) che vuoi modernizzare e portare nel cloud o stai sviluppando una [nuova applicazione](/docs/apps/tutorials?topic=creating-apps-tutorial-starterkit), i tuoi sviluppatori possono attingere all'ecosistema in continua espansione di framework di runtime e servizi disponibili in {{site.data.keyword.Bluemix_notm}}.
 
 ## Configurazione del tuo account
 {: #set-up-account}
 
-Se stai solo provando {{site.data.keyword.Bluemix_notm}}, puoi andare direttamente al catalogo e cominciare a consultare le offerte che ti piacerebbe esplorare e aggiungere al tuo account Lite. Tuttavia, se sei pronto per iniziare ad utilizzare un ambiente per un gruppo di sviluppatori o per un'intera organizzazione e hai delle applicazioni in esecuzione nella produzione, prendi in considerazione di configurare le informazioni di base nel tuo account:
+Se sei uno sviluppatore e stai solo provando {{site.data.keyword.Bluemix_notm}}, puoi andare direttamente al catalogo e cominciare a consultare le offerte che ti piacerebbe esplorare e aggiungere al tuo account Lite. Quando sei pronto per iniziare ad utilizzare un ambiente e ad avere delle applicazioni in esecuzione nella produzione, prendi in considerazione di configurare le informazioni di base nel tuo account:
 
 * Gruppi di accesso utenti per l'organizzazione degli utenti e degli ID del servizio in una sola entità per rendere l'assegnazione dell'accesso un processo semplice.
 * Gruppi di risorse per l'organizzazione delle tue risorse per eseguire l'assegnazione dell'accesso a una serie di risorse in modo veloce e semplice.
@@ -43,6 +43,13 @@ Se stai solo provando {{site.data.keyword.Bluemix_notm}}, puoi andare direttamen
 
 Per ulteriori informazioni, consulta le [procedure consigliate per la configurazione del tuo account](/docs/account?topic=account-account_setup) e le [procedure consigliate per l'assegnazione dell'accesso](/docs/iam?topic=iam-account_setup). 
 
+Come direttore finanziario della società, potresti essere interessato nel semplificare come gestisci la fatturazione e l'utilizzo tra più team e dipartimenti. Con un account Sottoscrizione, puoi creare un'azienda {{site.data.keyword.Bluemix_notm}}, che offre una gestione dell'account centralizzata, la fatturazione consolidata e il report dell'utilizzo dall'alto verso il basso. Un'azienda è composta da un account aziendale, dei gruppi di account e dei singoli account. 
+
+* L'account aziendale è l'account principale per tutti gli altri account nell'azienda. La fatturazione per l'intera azienda viene gestita al livello dell'account aziendale.
+* I gruppi di account forniscono un modo per organizzare gli account correlati. Inoltre, ottieni una vista unificata dei costi di utilizzo delle risorse tra tutti gli account inclusi in un gruppo di account.
+* In modo simile agli account autonomi, gli account in un'azienda contengono le risorse e i gruppi di risorse, le organizzazioni e gli spazi Cloud Foundry e le autorizzazioni di accesso indipendenti.
+
+Per ulteriori informazioni, vedi le [procedure consigliate per la configurazione di un'azienda](/docs/account?topic=account-enterprise-best-practices).
 ## Prezzi e fatturazione
 {: #pricing-billing}
 

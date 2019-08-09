@@ -3,7 +3,7 @@
 
 copyright:
   years: 2016, 2019
-lastupdated: "2019-07-02"
+lastupdated: "2019-07-25"
 
 keywords: glossary, IBM Cloud glossary
 
@@ -17,13 +17,14 @@ subcollection: overview
 # {{site.data.keyword.cloud_notm}} 的词汇表术语 
 {: #glossary}
 
-本词汇表提供了 {{site.data.keyword.cloud_notm}} 的术语和定义。
+本词汇表提供了 {{site.data.keyword.cloud}} 的术语和定义。
 {:shortdesc}
 
 本词汇表中使用了以下交叉引用：
 
 - *请参阅*从非首选术语指引您查看首选术语或者从缩写指引您查看拼写完整的形式。
 - *另请参阅*指引您查看相关术语或对照术语。
+
 
 ## [A]
 {: #glossa1}
@@ -67,7 +68,6 @@ subcollection: overview
 {: #x2104544}
 
 一个过程，用于检索构建输出，使用配置属性打包输出，然后将打好的包安装到预定义的位置，以供测试或运行。另请参阅[编译打包 (stage)](/docs/overview?topic=overview-glossary#x2067189)。
-
 
 ## [C]
 {: #glossc1}
@@ -127,7 +127,7 @@ subcollection: overview
 
 激活操作。另请参阅[操作 (action)](/docs/overview?topic=overview-glossary#x2012974)。
 
-### 订阅源 (feed)
+### 订阅源
 {: #x3129185}
 
 一段代码，用于配置外部事件源以触发触发器事件。另请参阅[操作 (action)](/docs/overview?topic=overview-glossary#x2012974)。
@@ -156,7 +156,7 @@ subcollection: overview
 
 在不同网络节点上运行的两个或更多容器组实例，用于确保应用程序的高可用性。另请参阅[亲缘关系 (affinity)](/docs/overview?topic=overview-glossary#x2149238)。
 
-### 访问策略 (access policy)
+### 访问策略
 {: #x2853407}
 
 用于向用户、服务标识和访问组授予帐户资源访问权的方法。访问策略包含主体、目标和角色。
@@ -171,7 +171,7 @@ subcollection: overview
 
 使用者使用的值，用于代表用户取得受保护资源的访问权，而不是使用用户的服务提供者凭证。
 
-### 访问组 (access group)
+### 访问组
 {: #x2160811}
 
 一组用户和服务标识，它们组织到用作访问策略的主体的组，该访问策略用于为所有组成员分配相同访问权。
@@ -186,6 +186,11 @@ subcollection: overview
 
 一种身份，用于向云环境和其他服务认证服务或应用程序。可以为服务标识分配访问策略，并将服务标识用于支持部署到云环境的应用程序访问云服务。
 
+### 服务端点 (service endpoint)
+{: #x2871419}
+
+实现一个或多个接口的服务的物理地址。
+
 ### 服务 (service)
 {: #x2038343}
 
@@ -196,9 +201,15 @@ subcollection: overview
 
 作为其他映像基础的映像。例如，Ubuntu Linux 是 IBM Liberty 映像的父映像。另请参阅[基本映像 (base image)](/docs/overview?topic=overview-glossary#x5366487) 和[映像 (image)](/docs/overview?topic=overview-glossary#x2024928)。
 
+### 付款方式 (payment method)
+{: #x2281605}
+
+客户支付发票的方式，如信用卡、支票或电汇。
+
 
 ## [G]
 {: #glossg1}
+
 
 ### 公共网关 (public gateway)
 {: #x9594389}
@@ -249,7 +260,6 @@ subcollection: overview
 
 一种云计算环境，由多个公共和私有资源组成。
 
-
 ## [J]
 {: #glossj1}
 
@@ -262,6 +272,11 @@ subcollection: overview
 {: #x4585332}
 
 计算机基础架构的交付，包括作为外包服务的服务器功能、联网功能、数据中心功能和存储功能。
+
+### 计费单位 (billing unit)
+{: #x9308099}
+
+企业中最高级别的计费实体。每个帐户或帐户组链接到一个计费单位，后者管理所有关联的合同、发票、订单和付款。一个计费单位可以包含一个或多个信用值池。另请参阅[信用值池 (credit pool)](/docs/overview?topic=overview-glossary#x9796950) 和[企业 (enterprise)](/docs/overview?topic=overview-glossary#x2026915)。
 
 ### 记录系统 (system of record, SOR)
 {: #x6735061}
@@ -293,9 +308,13 @@ subcollection: overview
 
 数据存储介质上的固定物理或虚拟存储容量。
 
-
 ## [K]
 {: #glossk1}
+
+### 开单选项 (billing option)
+{: #x6526863}
+
+针对云服务使用情况对客户计费的方式。示例包括预付（例如对于预订）和后付（如现收现付帐户中）。
 
 ### 可信根 (trusted root)
 {: #x2042234}
@@ -358,6 +377,7 @@ subcollection: overview
 ## [M]
 {: #glossm1}
 
+
 ### 名称空间 (namespace)
 {: #x2031005}
 
@@ -378,7 +398,6 @@ subcollection: overview
 
 在访问策略中向其提供主体访问权的资源或资源集。资源集由一个或多个属性定义。例如，目标可以是资源组中的所有资源、特定资源类型的所有资源或者具有特定资源标识的资源。
 
-
 ## [N]
 {: #glossn1}
 
@@ -391,7 +410,6 @@ subcollection: overview
 {: #x4561212}
 
 与用户或组织的本地计算机上安装并运行的软件有关。
-
 
 ## [P]
 {: #glossp1}
@@ -411,8 +429,15 @@ subcollection: overview
 
 认证期间获取的信息，其中描述用户、组织机构或其他与安全性相关的身份属性，用于执行授权、审计或委派等服务。例如，用户标识和密码就是允许访问网络和系统资源的凭证。
 
+
 ## [Q]
 {: #glossq1}
+
+
+### 企业 (enterprise)
+{: #x2026915}
+
+在云环境中进行集中帐户和计费管理的帐户的分层结构。另请参阅[计费单位 (billing unit)](/docs/overview?topic=overview-glossary#x9308099)。
 
 ### 亲缘关系 (affinity)
 {: #x2149238}
@@ -442,6 +467,7 @@ subcollection: overview
 
 ## [R]
 {: #glossr1}
+
 
 ### 认证中心 (certificate authority, CA)
 {: #x2016383}
@@ -501,7 +527,7 @@ subcollection: overview
 
 存储数据的位置，例如数据库系统、文件或目录。
 
-### 数据中心 (data center, DC)
+### 数据中心 (DC)
 {: #x2439906}
 
 提供云服务的服务器的物理位置。
@@ -562,7 +588,7 @@ subcollection: overview
 ### 无界限 (borderless)
 {: #x8439189}
 
-与开放式非专有开发平台相关，此类平台包括公共云、专用云和本地云部署模型。另请参阅[专用云 (dedicated cloud)](/docs/overview?topic=overview-glossary#x8439199)、[本地云 (local cloud)](/docs/overview?topic=overview-glossary#x8439194) 和[公共云 (public cloud)](/docs/overview?topic=overview-glossary#x4585370)。
+与开放式非专有开发平台相关，此类平台包括公共云、专用云和本地云部署模型。另请参阅[专用云 (dedicated cloud)](/docs/overview?topic=overview-glossary#x8439199)、[本地云 (local cloud)](/docs/overview?topic=overview-glossary#x8439194) 和[公共云 (public cloud)](/docs/overview?topic=overview-glossary#x4585370)。 
 
 ### 物联网 (Internet of Things, IoT)
 {: #x6714341}
@@ -576,6 +602,11 @@ subcollection: overview
 {: #x7690463}
 
 一种仅读取数据的客户机操作。稀少 API 调用使用的资源小于频繁 API 调用，因为其执行单个函数。另请参阅[频繁 API 调用 (heavy API call)](/docs/overview?topic=overview-glossary#x7690468)。
+
+### 信用值池 (credit pool)
+{: #x9796950}
+
+一个企业计费单位中，来自所有源（包括预订和促销）的信用值的整合，在各个帐户之间共享。另请参阅[计费单位 (billing unit)](/docs/overview?topic=overview-glossary#x9308099)。
 
 ### 虚拟服务器 (virtual server)
 {: #x2455638}
@@ -688,6 +719,11 @@ subcollection: overview
 ## [Z]
 {: #glossz1}
 
+### 帐户组 (account group)
+{: #x8622525}
+
+企业中帐户的组织单元。一个帐户组可以包含多个帐户或其他帐户组。另请参阅[企业 (enterprise)](/docs/overview?topic=overview-glossary#x2026915)。
+
 ### 证书签名请求 (certificate signing request, CSR)
 {: #x3530521}
 
@@ -742,6 +778,9 @@ subcollection: overview
 {: #x9439035}
 
 仅供帐户所有者及其包含的帐户查看的条目。创建资源时，缺省情况下这些资源是专用的。另请参阅[公共资源 (public resource)](/docs/overview?topic=overview-glossary#x9439040)。
+
+## [Z]
+{: #glossz1}
 
 ### 资源组 (resource group)
 {: #x2161955}
@@ -1102,6 +1141,5 @@ Java 归档文件。
 {: #x2116500}
 
 一种应用程序，可通过 Web 浏览器进行访问，它不但提供静态显示信息的功能，而且还提供其他一些功能，例如允许用户查询数据库。Web 应用程序的通用组件包括 HTML 页面、JSP 页面和 servlet。另请参阅[应用程序 (app)](/docs/overview?topic=overview-glossary#x4281528)。
-
 
 

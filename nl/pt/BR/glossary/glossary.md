@@ -3,7 +3,7 @@
 
 copyright:
   years: 2016, 2019
-lastupdated: "2019-07-02"
+lastupdated: "2019-07-25"
 
 keywords: glossary, IBM Cloud glossary
 
@@ -17,7 +17,7 @@ subcollection: overview
 # Termos do glossário para {{site.data.keyword.cloud_notm}} 
 {: #glossary}
 
-Este glossário fornece termos e definições para o {{site.data.keyword.cloud_notm}}.
+Este glossário fornece termos e definições para o {{site.data.keyword.cloud}}.
 {:shortdesc}
 
 As referências cruzadas a seguir são usadas nesse glossário:
@@ -51,6 +51,11 @@ recursos da conta. Uma política de acesso inclui um assunto, um destino e uma f
 {: #x2113001}
 
 Um valor usado pelo consumidor para ganhar acesso aos recursos protegidos em nome do usuário, em vez de usar as credenciais do provedor de serviços do usuário.
+
+### grupo de contas
+{: #x8622525}
+
+Uma unidade organizacional para contas em uma empresa. Um grupo de contas pode conter contas ou outros grupos de contas. Consulte também [empresa](/docs/overview?topic=overview-glossary#x2026915).
 
 ### ação
 {: #x2012974}
@@ -136,6 +141,16 @@ Uma imagem que não tem imagem pai. Veja também [imagem](/docs/overview?topic=o
 Uma oferta que o {{site.data.keyword.IBM_notm}} torna disponível somente
 para propósitos de avaliação e teste.  Não há garantias, SLAs ou suporte fornecidos e as ofertas beta não são destinadas ao uso de produção.
 
+### opção de faturamento
+{: #x6526863}
+
+O método pelo qual se faz o faturamento do uso do serviço de nuvem de um cliente. Exemplos incluem pagamento antecipado, como as assinaturas, e pagamento em atraso, como as contas pré-pagas.
+
+### unidade de faturamento
+{: #x9308099}
+
+A entidade de faturamento de nível mais alto em uma empresa. Cada conta ou grupo de contas é vinculado a uma unidade de faturamento que gerencia todos os contratos, faturas, pedidos e pagamentos associados. Uma unidade de faturamento pode conter um ou mais conjuntos de crédito. Consulte também [conjunto de crédito](/docs/overview?topic=overview-glossary#x9796950) e [empresa](/docs/overview?topic=overview-glossary#x2026915).
+
 ### ligar
 {: #x2000361}
 
@@ -161,10 +176,7 @@ Um modelo que inclui um aplicativo e seu ambiente de tempo de execução e
 ### sem fronteiras
 {: #x8439189}
 
-Pertencente a uma plataforma de desenvolvimento aberta sem proprietário que inclui os modelos de implementação de nuvem pública, nuvem dedicada e nuvem local. Consulte também [nuvem
-dedicada](/docs/overview?topic=overview-glossary#x8439199), [nuvem
-local](/docs/overview?topic=overview-glossary#x8439194), [/docs/overview?topic=overview-glossarynuvem
-pública](#x4585370).
+Pertencente a uma plataforma de desenvolvimento aberta sem proprietário que inclui os modelos de implementação de nuvem pública, nuvem dedicada e nuvem local. Veja também [nuvem dedicada](/docs/overview?topic=overview-glossary#x8439199), [nuvem local](/docs/overview?topic=overview-glossary#x8439194), [nuvem pública](/docs/overview?topic=overview-glossary#x4585370). 
 
 ### buildpack
 {: #x7233925}
@@ -239,6 +251,11 @@ Uma construção do sistema que permite aos usuários executar instâncias do si
 {: #x2018813}
 
 Informações adquiridas durante a autenticação, que descrevem um usuário, associações de grupos ou outros atributos de identidade relacionados à segurança, e que são usadas para executar serviços, como autorização, auditoria ou delegação. Por exemplo, um ID de usuário e uma senha são credenciais que permitem o acesso à rede e aos recursos do sistema.
+
+### conjunto de crédito
+{: #x9796950}
+
+Dentro de uma unidade de faturamento corporativo, uma consolidação de crédito de todas as fontes, incluindo assinaturas e promoções, que é compartilhada entre as contas. Consulte também [unidade de faturamento](/docs/overview?topic=overview-glossary#x9308099).
 
 ### Responsável pelo atendimento ao cliente
 {: #x2140147}
@@ -326,6 +343,11 @@ O componente Cloud Foundry que é responsável por implementar aplicativos.
 {: #x2026820}
 
 O endereço de uma API ou um serviço em um ambiente. Uma API expõe um terminal e, ao mesmo tempo, chama os terminais de outros serviços. Consulte também [rota](/docs/overview?topic=overview-glossary#x2037338).
+
+### empreendimento
+{: #x2026915}
+
+Uma estrutura hierárquica de contas com gerenciamento centralizado de conta e de faturamento em um ambiente de nuvem. Consulte também [unidade de faturamento](/docs/overview?topic=overview-glossary#x9308099).
 
 ### oferta experimental
 {: #x9774278}
@@ -670,6 +692,11 @@ Uma técnica de virtualização leve. Enquanto está no modo paravirtualizado, u
 
 Uma imagem que fornece uma base para outra imagem. Por exemplo, Ubuntu Linux é a imagem pai da imagem do IBM Liberty. Veja também [imagem base](/docs/overview?topic=overview-glossary#x5366487), [imagem](/docs/overview?topic=overview-glossary#x2024928).
 
+### método de pagamento
+{: #x2281605}
+
+O método pelo qual um cliente paga uma fatura, como cartão de crédito, cheque ou transferência eletrônica.
+
 ### plataforma como serviço (PaaS)
 {: #x2029786}
 
@@ -736,7 +763,7 @@ Uma entrada que é visível para todos no catálogo do IBM Cloud. Os recursos p�
 construídos por qualquer provedor (provedores IBM ou de terceiros). Consulte também
 [recurso privado](/docs/overview?topic=overview-glossary#x9439035).
 
-### enviar por push
+### push
 {: #x2035465}
 
 Enviar informações de um servidor para um cliente. Quando um servidor envia conteúdo por push, é ele que inicia a transação, não uma solicitação do cliente.
@@ -760,7 +787,7 @@ Referente a dados que são alterados dinamicamente.
 
 Uma técnica de implementação que conduz a entrega contínua, permitindo o teste, desenvolvimento e implementação sincronizados. Inicialmente, o desenvolvimento é feito em um ambiente inativo (preto) enquanto o ambiente ativo continua a tomar tráfego (vermelho). Após o início da implementação, ambos os ambientes ficam ativos (vermelho-vermelho) até que o roteamento seja desativado no ambiente da versão anterior outrora ativo e subsequentemente removido (preto) enquanto o novo ambiente serve como o único ambiente ativo. Veja também [implementação azul-verde](/docs/overview?topic=overview-glossary#x7807335).
 
-### região
+### Região
 {: #x2091391}
 
 Um território geográfico definido. Uma região poderia ser uma área de código de endereçamento postal específico, uma cidade, um estado, um grupo de estados ou até mesmo um grupo de países. Cada região pode ser ela própria um conjunto de outras regiões ou um conjunto de códigos de endereçamento postal que formam a região.
@@ -853,6 +880,11 @@ Uma oferta pronta para produção que está disponível para venda e acessível 
 Uma extensão da nuvem que fornece funcionalidade pronta para uso, tal como
 banco de dados, sistema de mensagens e software da web para execução de código ou gerenciamento de aplicativos
 ou monitoramento de recursos. Os serviços geralmente não requerem instalação ou manutenção e podem ser combinados para criar aplicativos.
+
+### terminal em serviço
+{: #x2871419}
+
+O endereço físico de um serviço que implementa uma ou mais interfaces.
 
 ### ID de serviço
 {: #x9148163}

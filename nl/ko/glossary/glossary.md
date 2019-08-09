@@ -3,7 +3,7 @@
 
 copyright:
   years: 2016, 2019
-lastupdated: "2019-07-02"
+lastupdated: "2019-07-25"
 
 keywords: glossary, IBM Cloud glossary
 
@@ -17,7 +17,7 @@ subcollection: overview
 # {{site.data.keyword.cloud_notm}} 용어집 
 {: #glossary}
 
-이 용어집은 {{site.data.keyword.cloud_notm}}에 대한 용어 및 정의를 제공합니다.
+이 용어집은 {{site.data.keyword.cloud}}에 대한 용어 및 정의를 제공합니다.
 {:shortdesc}
 
 이 용어집에서는 다음과 같은 상호 참조가 사용됩니다.
@@ -64,7 +64,6 @@ MAC(Medium Access Control) 주소, 프로토콜, 네트워크 주소 또는 멀�
 
 {{site.data.keyword.containerlong}}가 실행되는 지역 내의 위치입니다.
 
-
 ### 개인 서비스(private service)
 {: #x7690456}
 
@@ -84,6 +83,16 @@ MAC(Medium Access Control) 주소, 프로토콜, 네트워크 주소 또는 멀�
 {: #x8439215}
 
 조직의 IBM Cloud 레지스트리와 네임스페이스의 조합입니다. 개인용 이미지 저장소는 명령에서 이미지를 참조할 때 사용됩니다. [이미지(image)](/docs/overview?topic=overview-glossary#x2024928), [네임스페이스(namespace)](/docs/overview?topic=overview-glossary#x2031005)도 참조하십시오.
+
+### 결제 방법(payment method)
+{: #x2281605}
+
+클라이언트가 송장을 지불하는 방법(예: 신용카드, 체크카드, 송금)입니다. 
+
+### 계정 그룹(account group)
+{: #x8622525}
+
+엔터프라이즈 내 조직 단위의 계정입니다. 계정 그룹에는 계정 또는 기타 계정 그룹이 포함될 수 있습니다. [엔터프라이즈(enterprise)](/docs/overview?topic=overview-glossary#x2026915)도 참조하십시오.
 
 ### 계층(layer)
 {: #x2028320}
@@ -190,6 +199,7 @@ IBM Cloud 레지스트리 내에서 조직의 이미지 저장소를 식별하�
 
 애플리케이션을 실행하는 데 사용되는 리소스 세트입니다. [스타터(starter)](/docs/overview?topic=overview-glossary#x7470511)도 참조하십시오.
 
+
 ### 레지스트리(registry)
 {: #x2064940}
 
@@ -199,6 +209,7 @@ IBM Cloud 레지스트리 내에서 조직의 이미지 저장소를 식별하�
 {: #x8439194}
 
 클라이언트의 데이터 센터 내에 있는 클라우드 컴퓨팅 환경입니다. 로컬 클라우드는 온프레미스이며 대기 시간과 보안이 향상됩니다. [보더리스(borderless)](/docs/overview?topic=overview-glossary#x8439189)도 참조하십시오.
+
 
 ### 리소스 그룹(resource group)
 {: #x2161955}
@@ -259,17 +270,27 @@ ID 관리에서 정책 또는 액세스 제어 항목(ACI)이 영향을 미칠 �
 ### 베타 오퍼링(beta offering)
 {: #x9774283}
 
-{{site.data.keyword.IBM_notm}}에서 평가 및 테스트만을 위해 제공하는 오퍼링입니다. 이 오퍼링에는 보증, SLA 또는 지원이 제공되지 않으며, 이는 프로덕션용이 아닙니다.
+{{site.data.keyword.IBM_notm}}에서 평가 및 테스트만을 위해 제공하는 오퍼링입니다.  이 오퍼링에는 보증, SLA 또는 지원이 제공되지 않으며, 이는 프로덕션용이 아닙니다.
 
 ### 보더리스(borderless)
 {: #x8439189}
 
-퍼블릭 클라우드, 데디케이티드 클라우드, 로컬 클라우드 배치 방법을 포함하는 비독점 오픈 개발 플랫폼과 관련이 있습니다. [데디케이티드 클라우드(dedicated cloud)](/docs/overview?topic=overview-glossary#x8439199), [로컬 클라우드(local cloud)](/docs/overview?topic=overview-glossary#x8439194), [/docs/overview?topic=overview-glossarypublic cloud](#x4585370)도 참조하십시오.
+퍼블릭 클라우드, 데디케이티드 클라우드, 로컬 클라우드 배치 방법을 포함하는 비독점 오픈 개발 플랫폼과 관련이 있습니다. [데디케이티드 클라우드(dedicated cloud)](/docs/overview?topic=overview-glossary#x8439199), [로컬 클라우드(local cloud)](/docs/overview?topic=overview-glossary#x8439194), [퍼블릭 클라우드(public cloud)](/docs/overview?topic=overview-glossary#x4585370)도 참조하십시오. 
 
 ### 볼륨(volume)
 {: #x2043272}
 
 데이터 스토리지 미디어에 있는 실제 또는 가상 스토리지의 고정된 양입니다.
+
+### 비용 청구 단위
+{: #x9308099}
+
+엔터프라이즈 내 최상위 비용 청구 엔티티입니다. 각 계정 또는 계정 그룹은 비용 청구 단위와 연결됩니다. 연관된 모든 계약, 송장, 주문 및 지불을 관리합니다. 비용 청구 단위에는 하나 이상의 크레딧 풀이 포함될 수 있습니다. [크레딧 풀(credit pool)](/docs/overview?topic=overview-glossary#x9796950), [엔터프라이즈(enterprise)](/docs/overview?topic=overview-glossary#x2026915)도 참조하십시오.
+
+### 비용 청구 옵션(billing option)
+{: #x6526863}
+
+클라이언트에게 클라우드 서비스 사용량의 비용이 청구되는 방법입니다. 예를 들어, 구독을 통한 선불과 종량과금제 계정을 통한 후불입니다. 
 
 ### 비유사성(anti-affinity)
 {: #x8888040}
@@ -319,6 +340,11 @@ IBM이 아닌 다른 회사에서 제공하는 제품 또는 서비스와 관련
 {: #x9148163}
 
 클라우드 환경 및 기타 서비스에 대해 서비스 또는 애플리케이션을 인증하는 ID입니다. 서비스 ID는 액세스 정책에 지정되고 클라우드 서비스에 대한 클라우드 환경 액세스에 배치된 애플리케이션을 사용으로 설정하는 데 사용될 수 있습니다.
+
+### 서비스 엔드포인트(service endpoint)
+{: #x2871419}
+
+하나 이상의 인터페이스를 구현하는 서비스의 실제 주소입니다. 
 
 ### 서비스(sevice)
 {: #x2038343}
@@ -407,6 +433,11 @@ IBM이 아닌 다른 회사에서 제공하는 제품 또는 서비스와 관련
 {: #x2026820}
 
 환경에서 API 또는 서비스의 주소입니다. API는 엔드포인트를 노출하고 동시에 다른 서비스의 엔드포인트를 호출합니다. [라우트(route)](/docs/overview?topic=overview-glossary#x2037338)도 참조하십시오.
+
+### 엔터프라이즈(enterprise)
+{: #x2026915}
+
+클라우드 환경에서 중앙 집중화된 계정 및 비용 청구 관리가 포함된 계정의 계층 구조입니다. [비용 청구 단위(billing unit)](/docs/overview?topic=overview-glossary#x9308099)도 참조하십시오.
 
 ### 역할(role)
 {: #x2065412}
@@ -546,10 +577,15 @@ IBM Cloud의 사용자에 대한 그룹화 방법입니다. 조직은 할당량�
 
 소스 제어 관리에서 스트림 또는 저장소 작업공간 내의 관련 아티팩트의 그룹화입니다. 컴포넌트는 임의의 수의 폴더와 파일을 포함할 수 있습니다.
 
-### 컴퓨팅(compute)
+### 컴퓨팅
 {: #x3723424}
 
 클라우드에서 앱을 빌드하는 기초 역할을 하는 인프라 또는 리소스입니다.
+
+### 크레딧 풀(credit pool)
+{: #x9796950}
+
+엔터프라이즈 비용 청구 단위 내의 모든 소스에서 통합된 크레딧으로, 구독 및 프로모션이 포함되며 계정 간에 공유됩니다. [비용 청구 단위(billing unit)](/docs/overview?topic=overview-glossary#x9308099)도 참조하십시오.
 
 ### 클라우드 이식성(cloud portability)
 {: #x4585297}
@@ -607,7 +643,7 @@ Kubernetes 클러스터에서 실행되는 컨테이너 그룹입니다. 하나�
 
 사용량 기준 요금 지불 방식인 종량과금제에 따라 가입자가 인프라, 멀티 테넌트 하드웨어, 서비스 등 표준화된 리소스에 액세스할 수 있는 클라우드 컴퓨팅 환경입니다. [보더리스(borderless)](/docs/overview?topic=overview-glossary#x8439189), [프라이빗 클라우드(private cloud)](/docs/overview?topic=overview-glossary#x4585362)도 참조하십시오.
 
-### 표준 유형(boilerplate)
+### 표준 유형
 {: #x7233930}
 
 특정 도메인에 대한 미리 정의된 서비스와 하나의 애플리케이션 및 그와 연관된 런타임 환경을 포함하는 템플리트입니다.
@@ -742,7 +778,6 @@ Kubernetes 클러스터에서 실행되는 컨테이너 그룹입니다. 하나�
 
 애플리케이션을 배치할 책임이 있는 Cloud Foundry 컴포넌트입니다.
 
-
 ### DevOps
 {: #x5784896}
 
@@ -799,7 +834,6 @@ HTTP(Hypertext Transfer Protocol)에 의해 사용되는 조치입니다. HTTP �
 {: #x2237225}
 
 웹 서버 및 웹 브라우저가 인터넷 전체에 걸쳐 안전하게 하이퍼미디어 문서를 전송 및 표시하는 데 사용되는 인터넷 프로토콜입니다.
-
 
 ### HVM
 {: #x9736815}
@@ -903,7 +937,6 @@ X.500 모델을 지원하고 더 복잡한 X.500 DAP(Directory Access Protocol)�
 
 하나의 IP 주소가 검색 테이블을 통해 여러 개의 다른 IP 주소(예: 사설 서브넷의 IP 주소)와 통신할 수 있도록 하는 데 사용되는 주소 지정 방법입니다. NAT(Network Address Translation)에는 두 가지 기본 유형인 일대일 및 다대일이 있습니다.
 
-
 ## O
 {: #glosso}
 
@@ -1000,7 +1033,6 @@ X.500 모델을 지원하고 더 복잡한 X.500 DAP(Directory Access Protocol)�
 {: #x9774829}
 
 [단일 구역 지역(SZR, single-zone region)](/docs/overview?topic=overview-glossary#x9774825)을 참조하십시오.
-
 
 ## U
 {: #glossu}

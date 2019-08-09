@@ -3,7 +3,7 @@
 
 copyright:
   years: 2016, 2019
-lastupdated: "2019-07-02"
+lastupdated: "2019-07-25"
 
 keywords: glossary, IBM Cloud glossary
 
@@ -17,7 +17,7 @@ subcollection: overview
 # Termini del glossario per {{site.data.keyword.cloud_notm}} 
 {: #glossary}
 
-Questo glossario fornisce termini e definizioni per {{site.data.keyword.cloud_notm}}.
+Questo glossario fornisce termini e definizioni per {{site.data.keyword.cloud}}.
 {:shortdesc}
 
 In questo glossario vengono utilizzati i seguenti riferimenti incrociati:
@@ -47,6 +47,11 @@ Un metodo per concedere l'accesso alle risorse dell'account a utenti, ID servizi
 {: #x2113001}
 
 Un valore di cui si serve l'utilizzatore per ottenere l'accesso alle risorse protette per conto dell'utente, invece di utilizzare le credenziali del provider di servizi dell'utente.
+
+### gruppo di account
+{: #x8622525}
+
+Un'unità organizzativa per gli account all'interno di un'azienda. Un gruppo di account può contenere degli account o altri gruppi di account. Vedi anche [azienda](/docs/overview?topic=overview-glossary#x2026915).
 
 ### azione
 {: #x2012974}
@@ -129,6 +134,16 @@ Un'immagine che non ha alcuna immagine principale. Vedi anche [immagine](/docs/o
 
 Un'offerta che {{site.data.keyword.IBM_notm}} rende disponibile soltanto per scopi di valutazione e test.  Non ci sono garanzie, SLA o supporto forniti e le offerte beta non sono pensate per l'utilizzo nella produzione.
 
+### opzione di fatturazione
+{: #x6526863}
+
+Il metodo con cui un cliente viene fatturato per l'utilizzo del servizio cloud. Degli esempi possono essere, il pagamento in anticipo, come con le sottoscrizioni e il pagamento successivo, come negli account Pagamento a consumo.
+
+### unità di fatturazione
+{: #x9308099}
+
+L'entità di fatturazione di livello più elevato all'interno di un'azienda. Ogni account o gruppo di account è collegato a un'unità di fatturazione, che gestisce tutti i contratti, le fatture, gli ordini e i pagamenti associati. Un'unità di fatturazione può contenere uno o più pool di crediti. Vedi anche [pool di crediti](/docs/overview?topic=overview-glossary#x9796950), [azienda](/docs/overview?topic=overview-glossary#x2026915).
+
 ### eseguire il bind
 {: #x2000361}
 
@@ -158,7 +173,7 @@ Un template che include un'applicazione e il suo ambiente di runtime associato e
 ### illimitato
 {: #x8439189}
 
-Relativo a una piattaforma di sviluppo aperta e non proprietaria che include modelli di sviluppo cloud pubblico, cloud dedicato e cloud locale. Vedi anche [cloud dedicato](/docs/overview?topic=overview-glossary#x8439199), [cloud locale](/docs/overview?topic=overview-glossary#x8439194), [/docs/overview?topic=overview-glossarycloud pubblico](#x4585370).
+Relativo a una piattaforma di sviluppo aperta e non proprietaria che include modelli di sviluppo cloud pubblico, cloud dedicato e cloud locale. Vedi anche [cloud dedicato](/docs/overview?topic=overview-glossary#x8439199), [cloud locale](/docs/overview?topic=overview-glossary#x8439194), [cloud pubblico](/docs/overview?topic=overview-glossary#x4585370). 
 
 ### pacchetto di build
 {: #x7233925}
@@ -229,6 +244,11 @@ Un costrutto di sistema che consente agli utenti di eseguire simultaneamente ist
 {: #x2018813}
 
 Informazioni acquisite durante l'autenticazione che descrivono un utente, associazioni di gruppi o altri attributi di identità correlati alla sicurezza, e che vengono utilizzate per eseguire servizi quali l'autorizzazione, la verifica o la delega. Ad esempio, un ID utente ed una password sono credenziali che consentono l'accesso alle risorse di rete e di sistema.
+
+### pool di crediti
+{: #x9796950}
+
+All'interno di un'unità di fatturazione aziendale, un consolidamento dei crediti da tutte le origini, incluse sottoscrizioni e promozioni, condivise insieme agli account. Vedi anche [unità di fatturazione](/docs/overview?topic=overview-glossary#x9308099).
 
 ### CSR
 {: #x2140147}
@@ -318,6 +338,11 @@ applicazioni.
 
 L'indirizzo di una API o di un servizio in un ambiente. Una API presenta
 un endpoint e, al tempo stesso, richiama gli endpoint di altri servizi. Consulta anche [rotta](/docs/overview?topic=overview-glossary#x2037338).
+
+### azienda
+{: #x2026915}
+
+Una struttura gerarchica di account con gestione di account e fatturazione centralizzata in un ambiente cloud. Vedi anche [unità di fatturazione](/docs/overview?topic=overview-glossary#x9308099).
 
 ### offerta sperimentale
 {: #x9774278}
@@ -655,6 +680,11 @@ Una tecnica di virtualizzazione leggera. Durante la modalità di paravirtualizza
 
 Un'immagine che fornisce una base per un'altra immagine. Ad esempio, Ubuntu Linux è l'immagine principale dell'immagine IBM Liberty. Vedi anche [immagine di base](/docs/overview?topic=overview-glossary#x5366487), [immagine](/docs/overview?topic=overview-glossary#x2024928).
 
+### metodo di pagamento
+{: #x2281605}
+
+Il metodo con cui un cliente paga una fattura, ad esempio carta di credito, assegno o bonifico.
+
 ### platform as a service (PaaS)
 {: #x2029786}
 
@@ -834,6 +864,11 @@ Un'offerta pronta per la produzione disponibile per la vendita e accessibile per
 
 Un'estensione cloud che fornisce una funzionalità pronta per l'uso, come ad esempio
 software web, di messaggistica e database per l'esecuzione di codice o funzionalità di monitoraggio o gestione delle applicazioni. I servizi di norma non richiedono installazione o manutenzione e possono essere combinati per creare delle applicazioni.
+
+### endpoint servizio
+{: #x2871419}
+
+L'indirizzo fisico di un servizio che implementa una o più interfacce.
 
 ### ID servizio
 {: #x9148163}

@@ -4,7 +4,7 @@ copyright:
 
   years: 2015, 2019
 
-lastupdated: "2019-07-02"
+lastupdated: "2019-07-25"
 
 keywords: release notes, what's new, what is new, cloud updates
 
@@ -29,6 +29,25 @@ Se stai cercando gli aggiornamenti per i servizi disponibili su {{site.data.keyw
 
 ## Piattaforma {{site.data.keyword.Bluemix_notm}}
 {: #platform_category}
+
+### Aziende {{site.data.keyword.Bluemix_notm}} per la gestione centralizzata di più account
+{: #ibm-cloud-enterprises}
+Nuovo a partire dal: 25 luglio 2019
+
+Puoi ora gestire in modo centralizzato la fatturazione e l'utilizzo di più account creando un'azienda {{site.data.keyword.Bluemix_notm}}. Con un'azienda, puoi creare una gerarchia di account a più livelli organizzando gli account correlati in gruppi di account. Le aziende semplificano la gestione di più account con le seguenti funzioni chiave:
+   * La fatturazione consolidata significa che puoi gestire la fatturazione e i pagamenti di tutti gli account da un solo posto, l'account aziendale. 
+   * Il credito di sottoscrizione viene aggregato in un pool di crediti e condiviso con tutti gli account nell'azienda. Non solo tieni traccia delle tue sottoscrizioni più facilmente, ma puoi ottenere alcune sottoscrizioni più grandi per avere sconti migliori perché il credito iniziale viene condiviso. 
+   * Il report dell'utilizzo dall'alto verso il basso ti fornisce una vista unificata dei costi di utilizzo da tutti gli account, organizzati in base alla tua gerarchia aziendale. 
+
+Se hai più account e almeno uno di loro è un account Sottoscrizione, puoi creare un'azienda. Vedi [Cos'è un'azienda?](/docs/account?topic=account-enterprise) e [Introducing {{site.data.keyword.Bluemix_notm}} Enterprises](http://www.ibm.com/cloud/blog/announcements/Introducing-IBM-Cloud-Enterprises){: new_window} ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno") per ulteriori informazioni.
+
+### Pagina Sottoscrizioni per la traccia della spesa del credito di sottoscrizione
+{: #subscriptions-page}
+Nuovo a partire dal: 18 luglio 2019
+
+Se hai un account Sottoscrizione, puoi ora visualizzare tutte le tue sottoscrizioni e analizzare la tua spesa del credito nella pagina Sottoscrizioni. Ottieni una vista di alto livello del credito di sottoscrizione totale nel tuo account e dei grafici dettagliati che visualizzano gli andamenti quali il tuo burn-down del credito e la spesa mensile. Puoi anche visualizzare il credito da qualsiasi promozione nel tuo account. Per ulteriori informazioni, vedi [Gestione delle sottoscrizioni](/docs/billing-usage?topic=billing-usage-subscriptions).
+
+Inoltre, per meglio riflettere il loro utilizzo, i codici che applichi per aggiungere credito di sottoscrizione al tuo account sono ora chiamati codici sottoscrizione invece che codici funzione.
 
 ### Gestione della federazione SAML SoftLayer su {{site.data.keyword.cloud_notm}}
 {: #saml-federation}

@@ -4,7 +4,7 @@ copyright:
 
   years: 2015, 2019
 
-lastupdated: "2019-07-02"
+lastupdated: "2019-07-25"
 
 keywords: release notes, what's new, what is new, cloud updates
 
@@ -29,6 +29,25 @@ subcollection: overview
 
 ## {{site.data.keyword.Bluemix_notm}} 平台
 {: #platform_category}
+
+### 利用 {{site.data.keyword.Bluemix_notm}} 企业集中管理多个帐户
+{: #ibm-cloud-enterprises}
+最新更新日期：2019 年 7 月 25 日
+
+现在，您可以通过创建 {{site.data.keyword.Bluemix_notm}} 企业来集中管理多个帐户的计费和使用情况。通过企业，可以将相关帐户组织成帐户组来创建多层帐户层次结构。企业使用以下关键功能，简化了对多个帐户的管理：
+   * 合并计费意味着可以在单个位置（企业帐户）中管理所有帐户的计费、开票和付款。 
+   * 预订信用值会聚集到信用值池中，供企业中的所有帐户共享。因为信用值是共享的，因此不仅可以更轻松地跟踪预订，而且可以实现数量更少但规模更大的预订，以获得更优惠的折扣。 
+   * 通过自顶向下使用情况报告，可以在统一视图中查看所有帐户的使用成本，成本根据企业层次结构进行组织。 
+
+如果您有多个帐户，其中至少有一个是预订帐户，那么可以创建企业。有关更多信息，请参阅[什么是企业？](/docs/account?topic=account-enterprise)和 [{{site.data.keyword.Bluemix_notm}} 企业简介](http://www.ibm.com/cloud/blog/announcements/Introducing-IBM-Cloud-Enterprises){: new_window} ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")。
+
+### 跟踪预订信用值花费的预订页面
+{: #subscriptions-page}
+最新更新日期：2019 年 7 月 18 日
+
+如果您有预订帐户，那么现在可以在“预订”页面中查看所有预订并分析信用值花费。您可以获得帐户中总预订信用值的高级视图以及直观显示趋势（例如，信用值燃尽和每月花费）的详细图表。还可以查看帐户中来自任何促销的信用值。有关更多信息，请参阅[管理预订](/docs/billing-usage?topic=billing-usage-subscriptions)。
+
+此外，为向帐户添加预订信用值而应用的代码现在称为预订代码而非特征代码，以更好地反映这些代码的使用情况。
 
 ### 在 {{site.data.keyword.cloud_notm}} 上管理 SoftLayer SAML 联合
 {: #saml-federation}

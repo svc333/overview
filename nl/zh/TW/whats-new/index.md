@@ -4,7 +4,7 @@ copyright:
 
   years: 2015, 2019
 
-lastupdated: "2019-07-02"
+lastupdated: "2019-07-25"
 
 keywords: release notes, what's new, what is new, cloud updates
 
@@ -29,6 +29,25 @@ subcollection: overview
 
 ## {{site.data.keyword.Bluemix_notm}} 平台
 {: #platform_category}
+
+### 用於集中管理多個帳戶的 {{site.data.keyword.Bluemix_notm}} 企業
+{: #ibm-cloud-enterprises}
+文件日期：2019 年 7 月 25 日
+
+您現在可以藉由建立 {{site.data.keyword.Bluemix_notm}} 企業，來集中管理多個帳戶的計費及用量。使用企業，您可以藉由將相關帳戶組織成帳戶群組，來建立多層的帳戶階層。企業可簡化多個帳戶的管理，其主要功能如下：
+   * 合併計費表示您可以從單一位置（即企業帳戶）管理所有帳戶的計費、發票及付款。 
+   * 訂閱額度會聚集成額度儲存區，並與企業中的所有帳戶共用。您不僅可以更輕鬆地追縱訂閱，還可用更好的折扣取得較少但更大的訂閱，因為額度是共用的。 
+   * 由上而下的用量報告可讓您根據企業階層來組織所有帳戶的統一使用成本視圖。 
+
+如果您有多個帳戶，其中至少有一個帳戶是「訂閱」帳戶，則您可以建立企業。如需相關資訊，請參閱[何謂企業？](/docs/account?topic=account-enterprise)及[簡介 {{site.data.keyword.Bluemix_notm}} 企業](http://www.ibm.com/cloud/blog/announcements/Introducing-IBM-Cloud-Enterprises){: new_window} ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")。
+
+### 追蹤訂閱額度消費的訂閱頁面
+{: #subscriptions-page}
+最新更新日期：2019 年 7 月 18 日
+
+如果您具有訂閱帳戶，您現在可以在訂閱頁面中檢視所有訂閱並分析額度消費。您可以獲得帳戶中總訂閱額度的高級視圖以及直觀視覺化趨勢（例如，額度未完成進度和按月消費）的詳細圖表。也可以檢視帳戶中來自任何促銷的額度。如需相關資訊，請參閱[管理訂閱](/docs/billing-usage?topic=billing-usage-subscriptions)。
+
+此外，為帳戶新增訂閱額度而套用的代碼現在稱為訂閱碼而非特性碼，以更能反映這些代碼的套用情況。
 
 ### 在 {{site.data.keyword.cloud_notm}} 上管理 SoftLayer SAML 聯合
 {: #saml-federation}
@@ -102,7 +121,7 @@ Cloud Foundry 應用程式的子網域為 `cf.appdomain.cloud`。您部署至 {{
 
 如需詳細資料，請參閱 [Outstanding User Access Improvements Help Deliver a Unified {{site.data.keyword.Bluemix_notm}} Platform](https://www.ibm.com/cloud/blog/announcements/ibm-cloud-access-management){: new_window} ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")。 
 
-### 在同一位置尋找所有 {{site.data.keyword.Bluemix_notm}} CLI 外掛程式文件
+### 在一個位置尋找所有 {{site.data.keyword.Bluemix_notm}} CLI 外掛程式文件
 文件日期：2018 年 11 月 30 日
 {: #cli}
 
@@ -149,7 +168,7 @@ Cloud Foundry 應用程式的子網域為 `cf.appdomain.cloud`。您部署至 {{
 文件日期：2018 年 11 月 1 日
 {: #location-name-updates}
 
-隨著 {{site.data.keyword.cloud_notm}} 持續擴展廣域可用性覆蓋範圍，我們更新了位置命名結構，以更適當地支援世界各地的地理位置、地區及資料中心之可理解的一致性階層。如果您熟悉我們目前的全球地區，您將會認出像美國南部和雪梨這類名稱。我們會使這些位置名稱與資料中心實際所在的城市名稱一致。
+隨著 {{site.data.keyword.cloud_notm}} 持續擴展廣域可用性覆蓋區，我們更新了位置命名結構，以便更可支援世界各地地理位置、地區及資料中心的可理解且一致的階層。如果您熟悉我們目前的全球地區，您將會認出像美國南部和雪梨這類名稱。我們會使這些位置名稱與資料中心實際所在的城市名稱一致。
 
 目前，程式化 ID 不變，因此從 API 角度來看沒有任何影響。下表顯示新舊位置名稱。如需相關資訊及資料中心和地區的完整清單，請參閱[服務可用性](/docs/resources?topic=resources-services_region)。
 

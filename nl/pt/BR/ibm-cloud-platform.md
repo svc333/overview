@@ -3,7 +3,7 @@
 
 copyright:
   years: 2016, 2019
-lastupdated: "2019-06-20"
+lastupdated: "2019-07-25"
 
 keywords: console, platform overview, overview
 
@@ -42,9 +42,7 @@ que cresce continuamente no {{site.data.keyword.Bluemix_notm}}.
 ## Configurando sua conta
 {: #set-up-account}
 
-Se você estiver apenas experimentando o {{site.data.keyword.Bluemix_notm}}, será possível ir direto ao catálogo e começar a verificar as ofertas que você gostaria de explorar e incluir em sua conta Lite. No entanto, se
-você está pronto para começar com um ambiente para um grupo de desenvolvedores ou uma organização inteira e
-colocar os apps em execução na produção, considere configurar o básico em sua conta:
+Se você é um desenvolvedor e está apenas tentando sair do {{site.data.keyword.Bluemix_notm}}, é possível ir diretamente para o catálogo e começar a procurar as ofertas que você gostaria de explorar e incluir em sua conta Lite. Quando você estiver pronto para começar a usar um ambiente e fazer com que os apps sejam executados na produção, considere configurar o básico em sua conta:
 
 * Grupos de acesso de usuário para organizar os usuários e os IDs de serviço em uma entidade para tornar a designação de
 acesso um processo aperfeiçoado.
@@ -56,6 +54,13 @@ ou das funções de organização e de espaço do Cloud Foundry.
 Para obter mais informações, consulte as [melhores práticas
 para configurar a conta](/docs/account?topic=account-account_setup) e [melhores práticas para designar acesso](/docs/iam?topic=iam-account_setup). 
 
+Como um executivo financeiro da sua empresa, talvez você esteja interessado em simplificar como gerenciar o faturamento e o uso em múltiplas equipes e departamentos. Com uma Conta de assinatura, é possível criar uma empresa do {{site.data.keyword.Bluemix_notm}}, que oferece gerenciamento de conta centralizado, faturamento consolidado e relatório de uso descendente. Uma empresa consiste em uma conta corporativa, grupos de contas e contas individuais. 
+
+* A conta corporativa é a conta pai para todas as outras contas na empresa. O faturamento para a empresa inteira é gerenciado no nível de conta corporativa.
+* Os grupos de contas fornecem uma maneira de organizar contas relacionadas. Além disso, você obterá uma visualização unificada dos custos de uso de recursos em todas as contas que estão incluídas em um grupo de contas.
+* Semelhante a contas independentes, as contas em uma empresa contêm recursos e grupos de recursos, organizações e espaços do Cloud Foundry e permissões de acesso independentes.
+
+Para obter mais informações, consulte as [melhores práticas para configurar uma empresa](/docs/account?topic=account-enterprise-best-practices).
 ## Precificação e faturamento
 {: #pricing-billing}
 

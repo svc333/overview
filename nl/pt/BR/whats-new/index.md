@@ -4,7 +4,7 @@ copyright:
 
   years: 2015, 2019
 
-lastupdated: "2019-07-02"
+lastupdated: "2019-07-25"
 
 keywords: release notes, what's new, what is new, cloud updates
 
@@ -29,6 +29,25 @@ Se você estiver procurando atualizações para os serviços que estão disponí
 
 ## Plataforma {{site.data.keyword.Bluemix_notm}}
 {: #platform_category}
+
+### Empresas do {{site.data.keyword.Bluemix_notm}} para gerenciar centralmente múltiplas contas
+{: #ibm-cloud-enterprises}
+Novo a partir de: 25 de julho de 2019
+
+Agora é possível gerenciar centralmente o faturamento e o uso para diversas contas criando uma empresa do {{site.data.keyword.Bluemix_notm}}. Com uma empresa, é possível criar uma hierarquia com multicamadas de contas, organizando contas relacionadas em grupos de contas. As empresas simplificam o gerenciamento de múltiplas contas com os recursos-chave a seguir:
+   * O faturamento consolidado significa que é possível gerenciar faturamento, cobrança e pagamento para todas as contas por meio de um único local, a conta corporativa. 
+   * O crédito de assinatura é agregado em um conjunto de crédito e compartilhado com todas as contas na empresa. Não apenas o rastreamento de suas assinaturas é mais fácil, mas é possível obter menos assinaturas maiores por um desconto melhor porque o crédito é compartilhado. 
+   * O relatório de uso descendente fornece uma visualização unificada de custos de uso de todas as contas, organizadas de acordo com a hierarquia corporativa. 
+
+Se você tem múltiplas contas, das quais pelo menos uma é uma Conta de assinatura, é possível criar uma empresa. Consulte [O que é uma empresa?](/docs/account?topic=account-enterprise) e [Apresentando as empresas do {{site.data.keyword.Bluemix_notm}}](http://www.ibm.com/cloud/blog/announcements/Introducing-IBM-Cloud-Enterprises){: new_window}![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo") para obter mais informações.
+
+### Página Assinaturas para rastrear gasto de crédito de assinatura
+{: #subscriptions-page}
+Novo a partir de: 18 de julho de 2019
+
+Se você tiver uma conta da Assinatura, será possível agora visualizar todas as suas assinaturas e analisar seus gastos de crédito na página Assinaturas. Você obtém uma visualização de alto nível do crédito total de assinatura em sua conta e gráficos detalhados que visualizam tendências, como burndown de crédito e gastos mensais. Também é possível visualizar o crédito de quaisquer promoções em sua conta. Para obter mais informações, consulte [Gerenciando assinaturas](/docs/billing-usage?topic=billing-usage-subscriptions).
+
+Além disso, para refletir melhor seus usos, os códigos que você aplica para incluir crédito de assinatura em sua conta agora são chamados de códigos de assinatura em vez de códigos de recurso.
 
 ### Gerenciando a federação do SoftLayer SAML no {{site.data.keyword.cloud_notm}}
 {: #saml-federation}

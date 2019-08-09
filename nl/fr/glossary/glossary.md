@@ -3,7 +3,7 @@
 
 copyright:
   years: 2016, 2019
-lastupdated: "2019-07-02"
+lastupdated: "2019-07-16"
 
 keywords: glossary, IBM Cloud glossary
 
@@ -17,7 +17,7 @@ subcollection: overview
 # Termes du glossaire d'{{site.data.keyword.cloud_notm}} 
 {: #glossary}
 
-Ce glossaire comporte des termes et des définitions pour {{site.data.keyword.cloud_notm}}.
+Ce glossaire comporte des termes et des définitions pour {{site.data.keyword.cloud}}.
 {:shortdesc}
 
 Les références croisées suivantes sont employées dans ce glossaire :
@@ -85,11 +85,6 @@ Activer une action. Voir aussi [action](/docs/overview?topic=overview-glossary#x
 Application Web ou pour périphérique mobile. Voir aussi [application mobile](/docs/overview?topic=overview-glossary#x4258535), [application Web](/docs/overview?topic=overview-glossary#x2116500).
 
 ### application mobile
-{: #x7636517}
-
-Voir [application mobile](/docs/overview?topic=overview-glossary#x4258535).
-
-### application mobile
 {: #x4258535}
 
 Application conçue pour une plateforme mobile. Tout comme les applications Web, les applis mobiles fournissent une fonctionnalité qui va au-delà de l'affichage statique d'informations, par exemple, en autorisant l'utilisateur à filtrer des nouvelles pratiquement en temps réel. Voir aussi [appli](/docs/overview?topic=overview-glossary#x4281528).
@@ -103,6 +98,11 @@ Voir [application Web](/docs/overview?topic=overview-glossary#x2116500).
 {: #x2116500}
 
 Application à laquelle un navigateur Web peut accéder et qui fournit une fonctionnalité qui va au-delà de l'affichage statique d'informations, par exemple en autorisant l'utilisateur à interroger une base de données. Les composants les plus courants d'une application Web sont les pages HTML, les pages JSP et les servlets. Voir aussi [appli](/docs/overview?topic=overview-glossary#x4281528).
+
+### appli mobile
+{: #x7636517}
+
+Voir [application mobile](/docs/overview?topic=overview-glossary#x4258535).
 
 ### artefact
 {: #x2262995}
@@ -349,6 +349,11 @@ Composant Cloud Foundry permettant le déploiement d'applications.
 ## E
 {: #glosse}
 
+### entreprise
+{: #x2026915}
+
+Structure hiérarchique de comptes avec une gestion centralisée des comptes et de la facturation dans un environnement de cloud. Voir aussi [unité de facturation](/docs/overview?topic=overview-glossary#x9308099).
+
 ### environnement d'exécution
 {: #x2391929}
 
@@ -421,6 +426,11 @@ Dans Cloud Foundry, archive contenant une application, avec ses dépendances d'e
 
 Ensemble d'utilisateurs et d'ID de service organisés sous forme de groupe utilisé comme sujet d'une règle d'accès pour affecter le même accès à tous les membres du groupe.
 
+### groupe de comptes
+{: #x8622525}
+
+Unité organisationnelle pour les comptes au sein d'une entreprise. Un groupe de comptes peut contenir des comptes ou d'autres groupes de comptes. Voir aussi [entreprise](/docs/overview?topic=overview-glossary#x2026915).
+
 ### groupe de ressources
 {: #x2161955}
 
@@ -472,7 +482,7 @@ Voir [Identity and Access Management](/docs/overview?topic=overview-glossary#x75
 ### ID de service
 {: #x9148163}
 
-Identité qui authentifie un service ou une application auprès d'un environnement cloud et d'autres services. Des règles d'accès peuvent être affectées à un ID de service, lequel peut être utilisé pour permettre à une application déployée dans un environnement cloud d'accéder à des services cloud.
+Identité qui authentifie un service ou une application auprès d'un environnement de cloud et d'autres services. Des règles d'accès peuvent être affectées à un ID de service, lequel peut être utilisé pour permettre à une application déployée dans un environnement de cloud d'accéder à des services cloud.
 
 ### identificateur global unique (GUID)
 {: #x2390455}
@@ -601,11 +611,6 @@ Modèle de déploiement selon lequel un logiciel incluant des processus métier,
 ## M
 {: #glossm}
 
-### Machine virtuelle
-{: #x2043253}
-
-Voir [machine virtuelle](/docs/overview?topic=overview-glossary#x2043165).
-
 ### machine virtuelle (VM)
 {: #x2043165}
 
@@ -630,6 +635,11 @@ Action utilisée par le protocole HTTP. Les méthodes HTTP comprennent les méth
 {: #x2067189}
 
 Action de déployer une application, un service ou une instance à un emplacement prédéfini en vue de l'exécution ou du test avant le déploiement dans un environnement de production. Voir aussi [déploiement](/docs/overview?topic=overview-glossary#x2104544).
+
+### mode de règlement
+{: #x2281605}
+
+Moyen utilisé par un client pour payer une facture, par exemple carte de crédit, chèque ou virement bancaire.
 
 ### mode HVM (Hardware Virtual Machine)
 {: #x9736811}
@@ -664,6 +674,11 @@ Voir [région multizone](/docs/overview?topic=overview-glossary#x9774820).
 
 Adresse d'une interface de programme d'application ou d'un service dans un environnement. Une interface de programme d'application expose un noeud final et appelle en même temps les noeuds finaux pour d'autres services. Voir aussi [route](/docs/overview?topic=overview-glossary#x2037338).
 
+### noeud final de service
+{: #x2871419}
+
+Adresse physique d'un service qui implémente une ou plusieurs interfaces.
+
 ### notification push
 {: #x5599582}
 
@@ -676,14 +691,19 @@ Alerte signalant une modification ou une mise à jour au niveau d'une icône d'a
 ### offre bêta
 {: #x9774283}
 
-Offre mise à disposition par {{site.data.keyword.IBM_notm}} uniquement à des fins d'évaluation et de test. Aucune garantie, aucun accord sur les niveaux de licence ou aucune assistance ne sont fournis et les offres bêta ne sont pas destinés à être utilisées dans un environnement de production.
+Offre mise à disposition par {{site.data.keyword.IBM_notm}} uniquement à des fins d'évaluation et de test.  Aucune garantie, aucun accord sur les niveaux de licence ou aucune assistance ne sont fournis et les offres bêta ne sont pas destinés à être utilisées dans un environnement de production.
 
 ### offre expérimentale
 {: #x9774278}
 
 Offre mise à disposition par {{site.data.keyword.IBM_notm}} uniquement à des fins d'évaluation et de test et qui peut être instable ou incompatible avec des versions précédentes. La commercialisation d'une offre expérimentale peut être interrompue sans avis préalable. Aucune garantie, aucun accord sur les niveaux de licence ou aucune assistance ne sont fournis et les offres expérimentales ne sont pas destinés à être utilisées dans un environnement de production.
 
-### organisation
+### option de facturation
+{: #x6526863}
+
+Mode de facturation du client pour l'utilisation des services cloud. Par exemple, paiement anticipé avec des abonnements et paiement à terme échu avec les comptes de type Paiement à la carte.
+
+### org
 {: #x7470494}
 
 Voir [organisation](/docs/overview?topic=overview-glossary#x2032585).
@@ -732,6 +752,11 @@ Groupe de conteneurs qui sont en cours d'exécution sur un cluster Kubernetes. U
 {: #x5458832}
 
 Emplacement physique sur lequel des serveurs et des routeurs sont stockés dans un cloud de réseau.
+
+### pool de crédits
+{: #x9796950}
+
+Au sein d'une unité de facturation, consolidation des crédits en provenance de toutes les sources, notamment les abonnements et les promotions, partagée entre les différents comptes. Voir aussi [unité de facturation](/docs/overview?topic=overview-glossary#x9308099).
 
 ### PoP
 {: #x7234683}
@@ -855,7 +880,7 @@ Voir [logiciel sous forme de services (SaaS)](/docs/overview?topic=overview-glos
 ### sans frontières
 {: #x8439189}
 
-Qui appartient à une plateforme de développement ouverte, non propriétaire, incluant des modèles de déploiement de cloud public, de cloud dédié et de cloud local. Voir aussi [cloud dédié](/docs/overview?topic=overview-glossary#x8439199), [cloud local](/docs/overview?topic=overview-glossary#x8439194), [cloud public](/docs/overview?topic=overview-glossary#x4585370).
+Qui appartient à une plateforme de développement ouverte, non propriétaire, incluant des modèles de déploiement de cloud public, de cloud dédié et de cloud local. Voir aussi [cloud dédié](/docs/overview?topic=overview-glossary#x8439199), [cloud local](/docs/overview?topic=overview-glossary#x8439194), [cloud public](/docs/overview?topic=overview-glossary#x4585370). 
 
 ### section
 {: #x2094743}
@@ -979,6 +1004,11 @@ Qualifie un produit ou un service fourni par une société autre qu'IBM.
 ## U
 {: #glossu}
 
+### unité de facturation
+{: #x9308099}
+
+Entité de facturation de niveau supérieur au sein d'une entreprise. Chaque compte ou groupe de comptes est lié à une unité de facturation, qui gère l'ensemble des contrats, factures, commandes et paiements associés. Une unité de facturation peut contenir un ou plusieurs pools de crédits. Voir aussi [pool de crédits](/docs/overview?topic=overview-glossary#x9796950), [entreprise](/docs/overview?topic=overview-glossary#x2026915).
+
 ### URI
 {: #x2116461}
 
@@ -1011,6 +1041,11 @@ S'applique à un élément qui n'existe pas physiquement mais qui est simulé pa
 {: #x2484337}
 
 Voir [réseau local virtuel](/docs/overview?topic=overview-glossary#x2438470).
+
+### VM
+{: #x2043253}
+
+Voir [machine virtuelle](/docs/overview?topic=overview-glossary#x2043165).
 
 ### volume
 {: #x2043272}

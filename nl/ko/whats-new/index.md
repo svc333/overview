@@ -4,7 +4,7 @@ copyright:
 
   years: 2015, 2019
 
-lastupdated: "2019-07-02"
+lastupdated: "2019-07-25"
 
 keywords: release notes, what's new, what is new, cloud updates
 
@@ -29,6 +29,25 @@ subcollection: overview
 
 ## {{site.data.keyword.Bluemix_notm}} 플랫폼
 {: #platform_category}
+
+### 여러 계정을 중앙 집중식으로 관리하기 위한 {{site.data.keyword.Bluemix_notm}} 엔터프라이즈
+{: #ibm-cloud-enterprises}
+신규 기준일: 2019년 7월 25일
+
+이제 {{site.data.keyword.Bluemix_notm}} 엔터프라이즈를 작성하여 여러 계정의 청구 및 사용량을 중앙 집중식으로 관리할 수 있습니다. 엔터프라이즈를 사용하면 서로 관련된 계정을 계정 그룹으로 구성하여 계정의 다중 계층 구조를 작성할 수 있습니다. 엔터프라이즈는 다음 주요 기능을 사용하여 여러 계정의 관리를 간소화합니다. 
+   * 통합 청구는 하나의 위치(엔터프라이즈 계정)에서 모든 계정의 청구 및 지불을 관리할 수 있게 해 줍니다.  
+   * 구독 크레딧은 크레딧 풀로 통합되어 엔터프라이즈의 모든 계정에서 공유됩니다. 이는 구독을 쉽게 추적할 수 있게 해 줄뿐만 아니라, 크레딧이 공유되므로 더 큰 구독 규모로 더 좋은 할인을 받을 수 있습니다.  
+   * 하향식 사용량 보고는 엔터프라이즈 구조에 따라 체계화된, 모든 계정의 사용량 비용에 대한 통합된 보기를 제공합니다.  
+
+하나 이상의 구독 계정을 비롯한 여러 계정이 있는 경우에는 엔터프라이즈를 작성할 수 있습니다. 자세한 정보는 [엔터프라이즈의 개념](/docs/account?topic=account-enterprise) 및 [Introducing {{site.data.keyword.Bluemix_notm}} Enterprises](http://www.ibm.com/cloud/blog/announcements/Introducing-IBM-Cloud-Enterprises){: new_window} ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")를 참조하십시오. 
+
+### 구독 크레딧 지출을 추적하기 위한 구독 페이지
+{: #subscriptions-page}
+신규 기준일: 2019년 7월 18일
+
+구독 계정이 있는 경우 이제 구독 페이지에서 모든 구독을 확인하고 크레딧 지출을 분석할 수 있습니다. 계정의 총 구독 크레딧에 대한 상위 레벨 보기 및 동향을 시각화하는 자세한 차트(예: 크레딧 번다운 및 월별 지출)를 가져올 수 있습니다. 또한 계정에 있는 임의의 프로모션에서 크레딧을 확인할 수 있습니다. 자세한 정보는 [구독 관리](/docs/billing-usage?topic=billing-usage-subscriptions)를 참조하십시오.
+
+또한 해당 사용량을 더 정확하게 반영하기 위해 이제 구독 크레딧을 추가하기 위해 적용하는 코드가 기능 코드가 아닌 구독 코드로 이름 지정되었습니다.
 
 ### {{site.data.keyword.cloud_notm}}에서 SoftLayer SAML 연합 관리
 {: #saml-federation}

@@ -4,7 +4,7 @@ copyright:
 
   years: 2015, 2019
 
-lastupdated: "2019-07-02"
+lastupdated: "2019-07-25"
 
 keywords: release notes, what's new, what is new, cloud updates
 
@@ -29,6 +29,25 @@ Si vous recherchez des mises à jour des services disponibles dans {{site.data.k
 
 ## Plateforme {{site.data.keyword.Bluemix_notm}}
 {: #platform_category}
+
+### Entreprises {{site.data.keyword.Bluemix_notm}} pour la gestion centrale de plusieurs comptes
+{: #ibm-cloud-enterprises}
+Nouveau à compter du : 25 juillet 2019
+
+Vous pouvez désormais gérer centralement la facturation et l'utilisation pour plusieurs comptes en créant une entreprise {{site.data.keyword.Bluemix_notm}}. Avec une entreprise, vous pouvez créer une hiérarchie de comptes à plusieurs niveaux en organisant les comptes liés dans des groupes de comptes. Les entreprises simplifient la gestion de plusieurs comptes via les fonctions suivantes :
+   * La facturation consolidée qui vous permet de gérer la facturation et le paiement pour tous les comptes à partir d'un seul emplacement, le compte d'entreprise. 
+   * Le crédit d'abonnement est rassemblé dans un pool de crédit et partagé avec tous les comptes de l'entreprise. Non seulement, le suivi de vos abonnements est simplifié mais vous pouvez également avoir moins d'abonnements mais de plus grande taille, ce qui vous permet d'obtenir de meilleures remises car le crédit est partagé. 
+   * La génération de rapport d'utilisation descendant vous offre une vue unifiée des coûts d'utilisation de tous les comptes qui sont organisés en fonction de la structure de l'entreprise. 
+
+Si vous avez plusieurs comptes et qu'au moins un d'entre eux est un compte Abonnement, vous pouvez créer une entreprise. Voir [Qu'est-ce qu'une entreprise ?](/docs/account?topic=account-enterprise) et [Introducing {{site.data.keyword.Bluemix_notm}} Enterprises](http://www.ibm.com/cloud/blog/announcements/Introducing-IBM-Cloud-Enterprises){: new_window} ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe") pour plus d'informations.
+
+### Page Abonnements pour le suivi des dépenses de crédit d'abonnement
+{: #subscriptions-page}
+Nouveau à compter du : 18 juillet 2019
+
+Si vous disposez d'un compte d'abonnement, vous pouvez désormais afficher tous vos abonnements et analyser vos dépenses de crédit sur la page Abonnements. Vous obtenez une vue de haut niveau du crédit d'abonnement total dans votre compte, ainsi que de graphiques détaillés représentant des tendances telles que l'avancement du crédit et les dépenses mensuelles. Vous pouvez également afficher le crédit de toutes les promotions de votre compte. Pour plus d'informations, voir [Gestion des abonnements](/docs/billing-usage?topic=billing-usage-subscriptions).
+
+En outre, afin de mieux refléter leur utilisation, les codes que vous appliquez pour ajouter du crédit d'abonnement à votre compte sont désormais appelés codes d'abonnement plutôt que codes de fonction.
 
 ### Gestion de la fédération SAML SoftLayer sur {{site.data.keyword.cloud_notm}}
 {: #saml-federation}

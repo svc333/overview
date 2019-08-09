@@ -3,7 +3,7 @@
 
 copyright:
   years: 2016, 2019
-lastupdated: "2019-07-02"
+lastupdated: "2019-07-25"
 
 keywords: glossary, IBM Cloud glossary
 
@@ -17,7 +17,7 @@ subcollection: overview
 # {{site.data.keyword.cloud_notm}} 的名詞解釋 
 {: #glossary}
 
-本名詞解釋提供 {{site.data.keyword.cloud_notm}} 的術語和定義。
+本名詞解釋提供 {{site.data.keyword.cloud}} 的術語和定義。
 {:shortdesc}
 
 本名詞解釋使用下列交互參照：
@@ -59,8 +59,7 @@ subcollection: overview
 ### 中繼憑證 (intermediate certificate)
 {: #x3753781}
 
-由授信主要憑證管理中心 (CA) 發出的子層憑證，專門用於發出持卡實體伺服器憑證。結果會形成一條憑證鏈，從授信主要憑證管理中心開始、通過中繼憑證，最後以發給組織的 SSL 憑證結束。另請參閱[憑證管理中心
-(certificate authority)](/docs/overview?topic=overview-glossary#x2016383)、[授信主要憑證 (trusted root)](/docs/overview?topic=overview-glossary#x2042234)。
+由授信主要憑證管理中心 (CA) 發出的子層憑證，專門用於發出持卡實體伺服器憑證。結果會形成一條憑證鏈，從授信主要憑證管理中心開始、通過中繼憑證，最後以發給組織的 SSL 憑證結束。另請參閱[憑證管理中心 (certificate authority)](/docs/overview?topic=overview-glossary#x2016383)、[授信主要憑證 (trusted root)](/docs/overview?topic=overview-glossary#x2042234)。
 
 ### 元件 (component)
 {: #x2017871}
@@ -114,6 +113,11 @@ IBM Cloud 型錄中每個人都能看到的項目。公用資源可由任何提�
 
 存取原則授與其存取權的使用者、服務 ID 或存取群組。
 
+### 付款方法 (payment method)
+{: #x2281605}
+
+客戶支付發票金額的方法，例如信用卡、支票或電匯。
+
 ### 半虛擬化模式 (paravirtualized mode)
 {: #x9736806}
 
@@ -152,6 +156,11 @@ IBM Cloud 型錄中每個人都能看到的項目。公用資源可由任何提�
 在存取原則中，要提供主體對其之存取權的資源或資源集。資源集由一個以上的屬性定義。例如，目標可以是資源群組中的所有資源、特定資源類型的所有資源，或是具有特定資源 ID 的資源。
 
 ## 六劃
+
+### 企業 (enterprise)
+{: #x2026915}
+
+雲端環境中，進行集中化帳戶及計費管理的帳戶階層式結構。另請參閱[計費單位 (billing unit)](/docs/overview?topic=overview-glossary#x9308099)。
 
 ### 名稱空間 (namespace)
 {: #x2031005}
@@ -258,6 +267,11 @@ IBM Cloud 型錄中每個人都能看到的項目。公用資源可由任何提�
 
 向雲端環境及其他服務鑑別服務或應用程式的身分。服務 ID 可被指派存取原則，並用來讓部署至雲端環境的應用程式能夠存取雲端服務。
 
+### 服務端點 (service endpoint)
+{: #x2871419}
+
+實作一個以上介面的服務實體位址。
+
 ### 物聯網 (Internet of Things, IoT)
 {: #x6714341}
 
@@ -301,6 +315,16 @@ Script 的集合，用於準備好程式碼以便在 IBM Cloud 上執行。建�
 {: #x8439181}
 
 一種部署技術，透過啟用同步化測試、開發及部署來推動持續交付。一開始，開發是在非作用中環境中進行（黑色），而作用中環境會持續取得資料流量（紅色）。部署啟動之後，在先前作用中舊版環境上停用遞送之前，兩個環境都會變成進行中（紅-紅），隨後予以移除（黑），而新的環境會作為唯一的作用中環境。另請參閱[藍綠部署 (blue-green deployment)](/docs/overview?topic=overview-glossary#x7807335)。
+
+### 計費單位 (billing unit)
+{: #x9308099}
+
+企業內的最高層次計費實體。每個帳戶或帳戶群組會鏈結至一個計費單位，它會管理所有相關聯的合約、發票、訂單及付款。計費單位可以包含一個以上的額度儲存區。另請參閱[額度儲存區 (credit pool)](/docs/overview?topic=overview-glossary#x9796950)、[企業 (enterprise)](/docs/overview?topic=overview-glossary#x2026915)。
+
+### 計費選項 (billing option)
+{: #x6526863}
+
+向客戶收取雲端服務使用費的方法。範例包括預先付款（例如訂閱）和延後付款（例如隨收隨付制帳戶）。
 
 ### 重量型 API 呼叫 (heavy API call)
 {: #x7690468}
@@ -382,6 +406,11 @@ Script 的集合，用於準備好程式碼以便在 IBM Cloud 上執行。建�
 
 這是會自動執行以執行連續或定期功能（如網路控制）的一種程式。
 
+### 帳戶群組 (account group)
+{: #x8622525}
+
+企業內帳戶的組織單位。帳戶群組可以包含帳戶或其他帳戶群組。另請參閱[企業 (enterprise)](/docs/overview?topic=overview-glossary#x2026915)。
+
 ### 推送 (push)
 {: #x2035465}
 
@@ -396,8 +425,7 @@ Script 的集合，用於準備好程式碼以便在 IBM Cloud 上執行。建�
 ### 授信主要憑證 (trusted root)
 {: #x2042234}
 
-由授信憑證管理中心 (CA) 簽署的憑證。另請參閱[憑證管理中心
-(certificate authority)](/docs/overview?topic=overview-glossary#x2016383)、[中繼憑證 (intermediate certificate)](/docs/overview?topic=overview-glossary#x3753781)。
+由授信憑證管理中心 (CA) 簽署的憑證。另請參閱[憑證管理中心 (certificate authority)](/docs/overview?topic=overview-glossary#x2016383)、[中繼憑證 (intermediate certificate)](/docs/overview?topic=overview-glossary#x3753781)。
 
 
 ### 授權 (authorization, AuthZ)
@@ -457,7 +485,7 @@ Script 的集合，用於準備好程式碼以便在 IBM Cloud 上執行。建�
 ### 部署 (deployment)
 {: #x2104544}
 
-一個處理程序，用於擷取建置輸出、包裝輸出（含配置內容），以及在預先定義的位置中安裝套件，以進行測試或執行。另請參閱[編譯打包 (stage)](/docs/overview?topic=overview-glossary#x2067189)。
+一個處理程序，用於擷取建置輸出、包裝輸出（含配置內容），以及在預先定義的位置中安裝套件，以進行測試或執行。另請參閱[暫置 (stage)](/docs/overview?topic=overview-glossary#x2067189)。
 
 ### 單一區域地區 (single-zone region, SZR)
 {: #x9774825}
@@ -477,7 +505,7 @@ Script 的集合，用於準備好程式碼以便在 IBM Cloud 上執行。建�
 ### 無界限 (borderless)
 {: #x8439189}
 
-相關的開放式非專屬開發平台，其中包括公用雲端、專用雲端及本端雲端部署模型。另請參閱[專用雲端 (dedicated cloud)](/docs/overview?topic=overview-glossary#x8439199)、[本端雲端 (local cloud)](/docs/overview?topic=overview-glossary#x8439194)、[公用雲端 (public cloud)](/docs/overview?topic=overview-glossary#x4585370)。
+相關的開放式非專屬開發平台，其中包括公用雲端、專用雲端及本端雲端部署模型。另請參閱[專用雲端 (dedicated cloud)](/docs/overview?topic=overview-glossary#x8439199)、[本端雲端 (local cloud)](/docs/overview?topic=overview-glossary#x8439194)、[公用雲端 (public cloud)](/docs/overview?topic=overview-glossary#x4585370)。 
 
 ### 登錄 (registry)
 {: #x2064940}
@@ -673,6 +701,11 @@ Script 的集合，用於準備好程式碼以便在 IBM Cloud 上執行。建�
 
 使用演算法決定的號碼，可唯一識別系統內的實體。
 
+### 暫置 (stage)
+{: #x2067189}
+
+在部署至正式作業環境之前，先將應用程式、服務或實例部署至預先定義的位置，以執行或測試。另請參閱[部署 (deployment)](/docs/overview?topic=overview-glossary#x2104544)。
+
 ### 樣板 (boilerplate)
 {: #x7233930}
 
@@ -687,11 +720,6 @@ Script 的集合，用於準備好程式碼以便在 IBM Cloud 上執行。建�
 {: #x2037763}
 
 在身分管理中，這是指原則或存取控制項目 (ACI) 可影響到的實體集。
-
-### 編譯打包 (stage)
-{: #x2067189}
-
-在部署至正式作業環境之前，先將應用程式、服務或實例部署至預先定義的位置，以執行或測試。另請參閱[部署 (deployment)](/docs/overview?topic=overview-glossary#x2104544)。
 
 ## 十六劃
 
@@ -749,14 +777,17 @@ Script 的集合，用於準備好程式碼以便在 IBM Cloud 上執行。建�
 
 促成持續交付且將中斷時間減到最少的部署技術，這是藉由執行兩個幾乎相同的正式作業環境，分別稱為 Blue 和 Green。當其中一個環境（例如，Blue）是活躍的正式作業環境時，另一個環境（例如，Green）可以用來進行最終測試及部署。在 Green 中部署應用程式之後，Green 便成為正式作業環境，而 Blue 則開始閒置。另請參閱[紅黑部署 (red-black deployment)](/docs/overview?topic=overview-glossary#x8439181)。
 
+### 額度儲存區 (credit pool)
+{: #x9796950}
+
+在企業計費單位內，對於來自所有來源且在帳戶之間共用的額度合併，包括訂閱及促銷。另請參閱[計費單位 (billing unit)](/docs/overview?topic=overview-glossary#x9308099)。
+
 ## 二十劃
 
 ### 觸發、觸發程式 (trigger)
 {: #x2005384}
 
 起始動作的機制。使用者可以明確地發動觸發程式，或者由外部事件來源代表使用者發動觸發程式。
-
-## 二十二劃
 
 ### 鑑別 (authentication, AuthN)
 {: #x2014567}
@@ -885,6 +916,11 @@ Cloud Foundry 中的保存檔，其中包含應用程式及其運行環境和架
 {: #x2193801}
 
 請參閱 [Identity and Access Management](/docs/overview?topic=overview-glossary#x7547040)。
+
+### {{site.data.keyword.cloud_notm}}
+{: #x7301758}
+
+一種以雲端為基礎的開放標準平台，用於建置、管理和執行所有類型的應用程式（例如，Web、行動、海量資料和智慧型裝置）。功能包括 Java、行動後端開發、應用程式監視，以及來自生態系統合作夥伴和開放原始碼的特性；全都提供為雲端中的服務。
 
 ### Identity and Access Management (IAM)
 {: #x7547040}
@@ -1063,12 +1099,4 @@ Java 保存檔。
 {: #x2116500}
 
 可供 Web 瀏覽器存取的應用程式，除了靜態顯示資訊，還提供一些功能，例如可讓使用者查詢資料庫。Web 應用程式的常見元件包括 HTML 頁面、JSP 頁面及 Servlet。另請參閱[應用程式 (app)](/docs/overview?topic=overview-glossary#x4281528)。
-
-## Z
-{: #glossz}
-
-### {{site.data.keyword.cloud_notm}}
-{: #x7301758}
-
-一種以雲端為基礎的開放標準平台，用於建置、管理和執行所有類型的應用程式（例如，Web、行動、海量資料和智慧型裝置）。功能包括 Java、行動後端開發、應用程式監視，以及來自生態系統合作夥伴和開放原始碼的特性；全都提供為雲端中的服務。
 
