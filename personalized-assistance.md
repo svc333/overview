@@ -29,15 +29,10 @@ subcollection: overview
 You must be logged in to your Pay-As-You-Go or Subscription account to qualify for personalized onboarding.
 {: important}
 
-We're here to help to you get started with any area of {{site.data.keyword.cloud}}, including: 
-* Designing a solution 
-* Understanding your bill
-* Understanding platform best practices  
-* Assisting with specific services 
-* Planning for data continuity and resiliency
-
 ## What's the process?
 {: #personalized-onboarding-process}
+
+After requesting free onboarding assistance, you are contacted by a member of our {{site.data.keyword.IBM_notm}} Global Client Success team within two to three business days. We remain engaged to ensure your success on the {{site.data.keyword.cloud_notm}} platform. 
 
 <div class="onboarding-ub">
   <div class="ub-widget" style="display: flex;">
@@ -46,7 +41,12 @@ We're here to help to you get started with any area of {{site.data.keyword.cloud
 </div>
 {: authenticated-content}
 
-After requesting free onboarding assistance, you are contacted by a member of our {{site.data.keyword.IBM_notm}} Global Client Success team within two to three business days. We remain engaged to ensure your success on the {{site.data.keyword.cloud_notm}} platform. 
+We're here to help to you get started with any area of {{site.data.keyword.cloud_notm}}, including: 
+* Designing a solution 
+* Understanding your bill
+* Understanding platform best practices  
+* Assisting with specific services 
+* Planning for data continuity and resiliency
 
 ### Need to connect with us sooner?
 {: #contact-client-success}
