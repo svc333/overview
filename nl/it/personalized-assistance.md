@@ -2,9 +2,9 @@
 
 copyright:
   years: 2019
-lastupdated: "2019-07-02"
+lastupdated: "2019-08-05"
 
-keywords: personalized onboarding, onboarding program, Global Client Success
+keywords: personalized onboarding, onboarding program, Global Client Succes, getting started, how to, get help, new user, first time, personal, dedicated assistance, cloud onboarding, account setup
 
 subcollection: overview
 
@@ -56,6 +56,6 @@ Se hai bisogno di contattarci prima, chiamaci gratuitamente al numero 866-209-72
 ### Vuoi iniziare per conto tuo?
 {: #self-onboard}
 
-Abbiamo molte risorse che puoi utilizzare per ottenere ulteriori informazioni su {{site.data.keyword.cloud_notm}} da te stesso, ma come nuovo utente della console {{site.data.keyword.cloud_notm}}, la [demo di Introduzione a IBM Cloud demo](https://register.gotowebinar.com/rt/5902701065204820738){: new_window} ![Icona link esterno](../icons/launch-glyph.svg "Icona link esterno") è un buon punto di partenza. Puoi vedere i video per un'introduzione rapida alla piattaforma {{site.data.keyword.cloud_notm}}.  
+Abbiamo molte risorse che puoi utilizzare per ottenere ulteriori informazioni su {{site.data.keyword.cloud_notm}} da te stesso, ma come nuovo utente della console {{site.data.keyword.cloud_notm}}, la [demo di Introduzione a IBM Cloud demo](https://gotostage.com/channel/onboard){: new_window} ![Icona link esterno](../icons/launch-glyph.svg "Icona link esterno") è un buon punto di partenza. Puoi vedere i video per un'introduzione rapida alla piattaforma {{site.data.keyword.cloud_notm}}. 
 
 Puoi anche consultare [IBM Cloud Foundation Skills Series](https://www.youtube.com/playlist?list=PLmesOgYt3nKCfsXqx-A5k1bP7t146U4rz){: new_window} ![Icona link esterno](../icons/launch-glyph.svg "Icona link esterno").

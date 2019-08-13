@@ -2,9 +2,9 @@
 
 copyright:
   years: 2019
-lastupdated: "2019-07-02"
+lastupdated: "2019-08-05"
 
-keywords: personalized onboarding, onboarding program, Global Client Success
+keywords: personalized onboarding, onboarding program, Global Client Succes, getting started, how to, get help, new user, first time, personal, dedicated assistance, cloud onboarding, account setup
 
 subcollection: overview
 
@@ -56,6 +56,6 @@ subcollection: overview
 ### 想要獨力開始使用？
 {: #self-onboard}
 
-我們有許多資源可供您用來自行瞭解 {{site.data.keyword.cloud_notm}}，但身為初次使用 {{site.data.keyword.cloud_notm}} 主控台的使用者，[Getting Started with IBM Cloud 展示](https://register.gotowebinar.com/rt/5902701065204820738){: new_window} ![外部鏈結圖示](../icons/launch-glyph.svg "外部鏈結圖示") 是個很好的起點。可以檢視視訊以協助您在 {{site.data.keyword.cloud_notm}} 平台中快速開始使用。  
+我們有許多資源可供您用來自行瞭解 {{site.data.keyword.cloud_notm}}，但身為初次使用 {{site.data.keyword.cloud_notm}} 主控台的使用者，[Getting Started with IBM Cloud 展示](https://gotostage.com/channel/onboard){: new_window} ![外部鏈結圖示](../icons/launch-glyph.svg "外部鏈結圖示") 是個很好的起點。可以檢視視訊以協助您在 {{site.data.keyword.cloud_notm}} 平台中快速開始使用。 
 
 您也可以參閱 [IBM Cloud Foundation Skills Series](https://www.youtube.com/playlist?list=PLmesOgYt3nKCfsXqx-A5k1bP7t146U4rz){: new_window} ![外部鏈結圖示](../icons/launch-glyph.svg "外部鏈結圖示")。
