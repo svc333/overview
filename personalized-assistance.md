@@ -2,7 +2,7 @@
 
 copyright:
   years: 2019
-lastupdated: "2019-08-12"
+lastupdated: "2019-08-13"
 
 keywords: personalized onboarding, onboarding program, Global Client Succes, getting started, how to, get help, new user, first time, personal, dedicated assistance, cloud onboarding, account setup
 
@@ -51,7 +51,7 @@ We're here to help to you get started with any area of {{site.data.keyword.cloud
 ### Need to connect with us sooner?
 {: #contact-client-success}
 
-If you need to connect with us sooner, you can call us toll free at 866-209-7296.
+If you need to connect with us sooner, you can email us at globalonboarding@wwpdl.vnet.ibm.com.
 
 ### Want to get started on your own?
 {: #self-onboard}
