@@ -2,9 +2,9 @@
 
 copyright:
   years: 2019
-lastupdated: "2019-07-02"
+lastupdated: "2019-08-05"
 
-keywords: personalized onboarding, onboarding program, Global Client Success
+keywords: personalized onboarding, onboarding program, Global Client Succes, getting started, how to, get help, new user, first time, personal, dedicated assistance, cloud onboarding, account setup
 
 subcollection: overview
 
@@ -56,6 +56,6 @@ subcollection: overview
 ### お客様ご自身で始めたい場合
 {: #self-onboard}
 
-お客様ご自身で {{site.data.keyword.cloud_notm}} の理解を深めるために使用できる多くのリソースが準備されています。 ただし、初めて {{site.data.keyword.cloud_notm}} コンソールを使用するユーザーの場合は、[Getting Started with IBM Cloud demo](https://register.gotowebinar.com/rt/5902701065204820738){: new_window} ![外部リンク・アイコン](../icons/launch-glyph.svg "外部リンク・アイコン") が開始に適したサイトです。 {{site.data.keyword.cloud_notm}} プラットフォームの素早い開始に役立てるために、ビデオを視聴することができます。  
+お客様ご自身で {{site.data.keyword.cloud_notm}} の理解を深めるために使用できる多くのリソースが準備されています。 ただし、初めて {{site.data.keyword.cloud_notm}} コンソールを使用するユーザーの場合は、[Getting Started with IBM Cloud demo](https://gotostage.com/channel/onboard){: new_window} ![外部リンク・アイコン](../icons/launch-glyph.svg "外部リンク・アイコン") が開始に適したサイトです。 {{site.data.keyword.cloud_notm}} プラットフォームの素早い開始に役立てるために、ビデオを視聴することができます。 
 
 [IBM Cloud Foundation Skills Series](https://www.youtube.com/playlist?list=PLmesOgYt3nKCfsXqx-A5k1bP7t146U4rz){: new_window} ![外部リンク・アイコン](../icons/launch-glyph.svg "外部リンク・アイコン") を確認することもできます。
