@@ -51,7 +51,7 @@ We're here to help to you get started with any area of {{site.data.keyword.cloud
 ### Need to connect with us sooner?
 {: #contact-client-success}
 
-If you need to connect with us sooner, you can email us at globalonboarding@wwpdl.vnet.ibm.com.
+If you would like to connect with us sooner after requesting onboarding assistance by clicking **Get started** in the previous section, you can <a href="mailto:globalonboarding@wwpdl.vnet.ibm.com">email us</a>. Make sure you use the **Get started** button to request onboarding assistance before you send your email.
 
 ### Want to get started on your own?
 {: #self-onboard}
