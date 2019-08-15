@@ -2,7 +2,7 @@
 
 copyright:
   years: 2019
-lastupdated: "2019-08-13"
+lastupdated: "2019-08-15"
 
 keywords: personalized onboarding, onboarding program, Global Client Succes, getting started, how to, get help, new user, first time, personal, dedicated assistance, cloud onboarding, account setup
 
@@ -26,7 +26,7 @@ subcollection: overview
 {{site.data.keyword.IBM}} is dedicated to putting the client first for every interaction. To help facilitate this, our Global Client Success team offers free personalized assistance through an onboarding program.
 {: shortdesc}
 
-You must be logged in to your Pay-As-You-Go or Subscription account to qualify for personalized onboarding.
+You must be logged in to your account to qualify for personalized onboarding. After you log in, a **Get started** button is displayed on this page. 
 {: important}
 
 ## What's the process?
