@@ -64,7 +64,7 @@ The `service-name` segment uniquely identifies a capability (service, component,
 
 The `service-name` segment indicates the service that the resource belongs to, and {{site.data.keyword.Bluemix_notm}} enforces global uniqueness of service names. The `service-name` segment must be alphanumeric, lowercase, and no spaces or special characters other than '-'.
 
-For services that are registered into the {{site.data.keyword.Bluemix_notm}} catalog the `service-name` segment must correspond to one of the services that are registered to the {{site.data.keyword.Bluemix_notm}} Global Catalog service. It is the `name` property that is returned by the {{site.data.keyword.Bluemix_notm}} Global Catalog service API `GET https://globalcatalog.cloud.ibm.com/api/v1/{id}` for the corresponding resource instance or the `service-name` value displayed by the command line interface: `ibmcloud service offerings` in the column `service`.
+For services that are registered into the {{site.data.keyword.Bluemix_notm}} catalog the `service-name` segment must correspond to one of the services that are registered to the {{site.data.keyword.Bluemix_notm}} Global Catalog service. It is the `name` property that is returned by the {{site.data.keyword.Bluemix_notm}} Global Catalog service API `GET https://globalcatalog.cloud.ibm.com/api/v1/{id}` for the corresponding resource instance or the `service-name` value that is displayed by the command-line interface (CLI): `ibmcloud service offerings` in the column `service`.
 
 
 ## location
@@ -144,7 +144,7 @@ Some resources do not require a region, as they can be considered global. In thi
 
 The `scope` segment identifies the containment or owner of the resource. Some resources do not require an owner (they can be considered `global`). In this case, the `scope` segment is empty (a blank string).
 
-The value of the `scope` segment must be formatted as `{scopePrefix}`/`{id}`. The `scopePrefix` represents the format used to identify the owner or containment. The `id` represents the identity of the owner or containment in a format that is specific to the `scopePrefix`.
+The value of the `scope` segment must be formatted as `{scopePrefix}`/`{id}`. The `scopePrefix` represents the format that is used to identify the owner or containment. The `id` represents the identity of the owner or containment in a format that is specific to the `scopePrefix`.
 
 | Scope Type | Scope Prefix | Usage | Example |
 | --- | --- | --- | --- |
