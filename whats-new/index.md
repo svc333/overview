@@ -59,13 +59,13 @@ Former SoftLayer users who set up a SAML identity provider for logging in with f
 {: #custom}
 New as of: 14 June 2019 
 
-You can now control what's displayed on your dashboard. Customzing your dashboard includes the ability to add, remove, and rearrange the order of widgets. For more information, see [Customizing your dashboard](/docs/overview?topic=overview-custom-dashboard).
+You can now control what's displayed on your dashboard. Customizing your dashboard includes the ability to add, remove, and rearrange the order of widgets. For more information, see [Customizing your dashboard](/docs/overview?topic=overview-custom-dashboard).
 
 
 ### Export usage data with associated tags
 New as of: 4 April 2019 
 
-You can now utilize our newest tagging capabilities to manage resources, usage, and costs in the exported usage report. When you add a tag to a resource, you have the option to view the tag associated with the resource. Go to **Manage**> **Billing and Usage**> **Usage**> **Export CSV**>  **Instances** to download your usage report. For more information on exporting tags, check out the [Export tags within your usage data to help with cost allocation](https://www.ibm.com/cloud/blog/export-your-tagged-usage-data-within-the-enhanced-ibm-cloud){: new_window} ![External link icon](../../icons/launch-glyph.svg "External link icon") blog post.
+You can now use our newest tagging capabilities to manage resources, usage, and costs in the exported usage report. When you add a tag to a resource, you have the option to view the tag associated with the resource. Go to **Manage**> **Billing and Usage**> **Usage**> **Export CSV**>  **Instances** to download your usage report. For more information about exporting tags, check out the [Export tags within your usage data to help with cost allocation](https://www.ibm.com/cloud/blog/export-your-tagged-usage-data-within-the-enhanced-ibm-cloud){: new_window} ![External link icon](../../icons/launch-glyph.svg "External link icon") blog post.
 
 ### Access group for enabling public access to resources
 New as of: 25 March 2019
@@ -92,7 +92,7 @@ The subdomain for Cloud Foundry apps is `cf.appdomain.cloud`. The subdomain for 
 New as of: 30 November 2018
 {: #cf-api-endpoints}
 
-The legacy `api.*.bluemix.net` Cloud Foundry API endpoints are still available for backward compatibility. However, you can update scripts and infrastructure automation to use the following new Cloud Foundry API endpoints for your region:
+The legacy `api.*.bluemix.net` Cloud Foundry API endpoints are still available for use. However, you can update scripts and infrastructure automation to use the following new Cloud Foundry API endpoints for your region:
 
 * api.us-south.cf.cloud.ibm.com (previously api.ng.bluemix.net)
 * api.eu-gb.cf.cloud.ibm.com (previously api.eu-gb.bluemix.net)
@@ -161,7 +161,7 @@ Tags are now available for you to add to your resources, like Cloud Object Stora
 New as of: 30 November 2018
 {: #cost-estimator}
 
-To help you decide and analyze what services you'd like to purchase, you can use the cost estimator. Now, you can go through the console and select each service you'd like to have, and add all of the costs in an easy to use tool. You can even enter projected data usages, lookups per second, writes per second, and queries per second to get a more accurate estimation of your monthly expendentures. You can use the cost estimator with each catalog service you select, or you can click the cost estimator icon ![Estimator icon](../../icons/Estimator.svg) in the console menu to get a summary of your estimated costs. For more information, see [Estimating your costs](/docs/billing-usage?topic=billing-usage-cost).
+To help you decide and analyze what services you'd like to purchase, you can use the cost estimator. Now, you can go through the console and select each service you'd like to have, and add all of the costs in an easy to use tool. You can even enter projected data usages, lookups per second, writes per second, and queries per second to get a more accurate estimation of your monthly expenditures. You can use the cost estimator with each catalog service you select, or you can click the cost estimator icon ![Estimator icon](../../icons/Estimator.svg) in the console menu to get a summary of your estimated costs. For more information, see [Estimating your costs](/docs/billing-usage?topic=billing-usage-cost).
 
 ### Updated global location names for {{site.data.keyword.cloud_notm}}
 New as of: 1 November 2018
@@ -267,7 +267,7 @@ For users with a Pay-As-You-Go or Subscription account, you can create additiona
 New as of: 16 November 2017
 {: #iam-nov17}
 
-The introduction of resource groups within your {{site.data.keyword.Bluemix_notm}} account has opened up a new way for you to assign access. Users and service IDs can be assigned access to all services within a resource group enabling you to quickly assign access to more than one resource at a time. You can also customize access for each user or service ID by assigning access to just some services within a resource group, or you choose to assign access to individual resources down to the service instance level. For more information about the features that you can take advantage of by using IAM, see [What features does IAM provide?](/docs/iam?topic=iam-iamoverview#features)
+The introduction of resource groups within your {{site.data.keyword.Bluemix_notm}} account has opened up a new way for you to assign access. Users and service IDs can be assigned access to all services within a resource group enabling you to quickly assign access to more than one resource at a time. You can also customize access for each user or service ID by assigning access to just some services within a resource group, or you choose to assign access to individual resources down to the service instance level. See [What features does IAM provide?](/docs/iam?topic=iam-iamoverview#features) for more information about the features that you can take advantage of by using IAM. 
 
 ### Customize your dashboard view
 New as of: 16 November 2017
@@ -305,7 +305,7 @@ For more information about the benefits of this feature and how to get started, 
 New as of: 27 July 2017
 {: #gc}
 
-Expanding on the last console update to manage your public regions from a single location in the console, {{site.data.keyword.Bluemix_notm}} now has a global catalog, making the process of selecting and deploying items that you select from the catalog a more streamlined process. Regardless of the region you have selected in the console, you can now see all services that are available across all public regions from your catalog. Once you select a tile from the catalog, you can see which regions the service is available in, and select where you want to deploy it. For more information about the latest updates to the catalog, see [A global {{site.data.keyword.Bluemix_notm}} catalog makes building things easier](https://www.ibm.com/cloud/blog/announcements/global-bluemix-catalog-makes-building-things-easier){: new_window} ![External link icon](../../icons/launch-glyph.svg "External link icon").
+Expanding on the last console update to manage your public regions from a single location in the console, {{site.data.keyword.Bluemix_notm}} now has a global catalog, making the process of selecting and deploying items that you select from the catalog a more streamlined process. Regardless of the region you have selected in the console, you can now see all services that are available across all public regions from your catalog. Once you select a tile from the catalog, you can see which regions the service is available in, and select where you want to deploy it. See [A global {{site.data.keyword.Bluemix_notm}} catalog makes building things easier](https://www.ibm.com/cloud/blog/announcements/global-bluemix-catalog-makes-building-things-easier){: new_window} ![External link icon](../../icons/launch-glyph.svg "External link icon"). for more information about the latest updates to the catalog.
 
 ### {{site.data.keyword.Bluemix_notm}} console updates
 New as of: 23 May 2017
