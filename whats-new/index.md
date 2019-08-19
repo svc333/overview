@@ -4,9 +4,9 @@ copyright:
 
   years: 2015, 2019
 
-lastupdated: "2019-07-25"
+lastupdated: "2019-08-19"
 
-keywords: release notes, what's new, what is new, cloud updates
+keywords: release notes, what's new, what is new, cloud updates, new features, platform
 
 subcollection: overview
 

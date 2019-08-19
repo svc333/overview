@@ -4,9 +4,9 @@ copyright:
 
   years: 2018, 2019
 
-lastupdated: "2019-05-13"
+lastupdated: "2019-08-19"
 
-keywords: quick start, get started with IBM Cloud
+keywords: quick start, get started with IBM Cloud, quick start guide, Lite account, try out, free
 
 subcollection: overview
 

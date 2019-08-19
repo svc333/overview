@@ -4,9 +4,9 @@ copyright:
 
   years: 2018, 2019
 
-lastupdated: "2019-07-03"
+lastupdated: "2019-08-19"
 
-keywords: quick start steps, dev quick start, dev get started
+keywords: quick start steps, dev quick start, dev get started, developer, quick start guide, get coding
 
 subcollection: overview
 

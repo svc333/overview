@@ -4,9 +4,9 @@ copyright:
 
   years: 2018, 2019
 
-lastupdated: "2019-05-13"
+lastupdated: "2019-08-19"
 
-keywords: enterprise architect quick start
+keywords: enterprise architect quick start, quick start guide, designing, cloud architecture, enterprise architects
 
 subcollection: overview
 

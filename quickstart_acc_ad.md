@@ -4,9 +4,9 @@ copyright:
 
   years: 2018, 2019
 
-lastupdated: "2019-02-19"
+lastupdated: "2019-08-19"
 
-keywords: account quick start, account set up
+keywords: account quick start, account set up, quick start guide, account admins, environment
 
 subcollection: overview
 

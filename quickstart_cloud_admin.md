@@ -2,9 +2,9 @@
 
 copyright:
   years: 2018, 2019
-lastupdated: "2019-05-17"
+lastupdated: "2019-08-19"
 
-keywords: first steps, understanding IT ops
+keywords: first steps, understanding IT ops, infrastructure, quick start guide, IT ops admin, building
 
 subcollection: overview
 

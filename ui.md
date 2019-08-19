@@ -3,9 +3,9 @@
 
 copyright:
   years: 2015, 2019
-lastupdated: "2019-07-12"
+lastupdated: "2019-08-19"
 
-keywords: ui, components, using the console, SoftLayer, classic infrastructure
+keywords: ui, components, using the console, SoftLayer, classic infrastructure, redirect, catalog, pricing information, get support
 
 subcollection: overview
 
