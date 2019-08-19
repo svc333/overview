@@ -2,7 +2,7 @@
 
 copyright:
   years: 2019
-lastupdated: "2019-08-05"
+lastupdated: "2019-08-13"
 
 keywords: personalized onboarding, onboarding program, Global Client Succes, getting started, how to, get help, new user, first time, personal, dedicated assistance, cloud onboarding, account setup
 
@@ -29,15 +29,10 @@ subcollection: overview
 Vous devez être connecté à votre compte de paiement à la carte ou d'abonnement pour prétendre à une intégration personnalisée.
 {: important}
 
-Nous sommes là pour vous aider dans tous les domaines liés à {{site.data.keyword.cloud}}, y compris : 
-* Conception d'une solution 
-* Compréhension de votre facture
-* Compréhension des meilleures pratiques liées à la plateforme  
-* Assistance pour des services spécifiques 
-* Planification de la continuité et de la résilience des données
-
 ## Description du processus
 {: #personalized-onboarding-process}
+
+Une fois que vous avez effectué une demande d'assistance intégrée gratuite, vous êtes contacté par un membre de notre équipe {{site.data.keyword.IBM_notm}} Global Client Success dans un délai de trois jours ouvrables. Nous restons à votre disposition afin de vous garantir une utilisation optimale de la plateforme {{site.data.keyword.cloud_notm}}. 
 
 <div class="onboarding-ub">
   <div class="ub-widget" style="display: flex;">
@@ -46,12 +41,17 @@ Nous sommes là pour vous aider dans tous les domaines liés à {{site.data.keyw
 </div>
 {: authenticated-content}
 
-Une fois que vous avez effectué une demande d'assistance intégrée gratuite, vous êtes contacté par un membre de notre équipe {{site.data.keyword.IBM_notm}} Global Client Success dans un délai de trois jours ouvrables. Nous restons à votre disposition afin de vous garantir une utilisation optimale de la plateforme {{site.data.keyword.cloud_notm}}. 
+Nous sommes là pour vous aider dans tous les domaines liés à {{site.data.keyword.cloud_notm}}, y compris : 
+* Conception d'une solution 
+* Compréhension de votre facture
+* Compréhension des meilleures pratiques liées à la plateforme  
+* Assistance pour des services spécifiques 
+* Planification de la continuité et de la résilience des données
 
 ### Vous souhaitez nous contacter plus rapidement ?
 {: #contact-client-success}
 
-Si vous avez besoin de nous contacter plus rapidement, vous pouvez nous téléphoner au 866-209-7296 (appel gratuit).
+Si vous souhaitez nous contacter plus rapidement après avoir effectué une demande d'assistance intégrée en cliquant sur **Mise en route** dans la section précédente, vous pouvez <a href="mailto:globalonboarding@wwpdl.vnet.ibm.com">nous envoyer un courrier électronique</a>. Veillez à utiliser le bouton **Mise en route** pour effectuer une demande d'assistance intégrée avant d'envoyer votre courrier électronique.
 
 ### Vous souhaitez démarrer tout seul ?
 {: #self-onboard}

@@ -2,7 +2,7 @@
 
 copyright:
   years: 2019
-lastupdated: "2019-08-05"
+lastupdated: "2019-08-13"
 
 keywords: personalized onboarding, onboarding program, Global Client Succes, getting started, how to, get help, new user, first time, personal, dedicated assistance, cloud onboarding, account setup
 
@@ -29,15 +29,10 @@ subcollection: overview
 Devi aver eseguito l'accesso al tuo account Pagamento a consumo o Sottoscrizione per qualificarti per l'onboarding personalizzato.
 {: important}
 
-Siamo qui per aiutarti ad iniziare a lavorare con qualsiasi area di {{site.data.keyword.cloud}}, incluso: 
-* Progettazione di una soluzione 
-* Descrizione della tua fattura
-* Descrizione delle procedure consigliate della piattaforma
-* Assistenza con servizi specifici
-* Pianificazione della resilienza e della continuità dei dati
-
 ## Qual è il processo?
 {: #personalized-onboarding-process}
+
+Dopo aver richiesto l'assistenza di onboarding gratuita, sarai contattato da un membro del nostro team {{site.data.keyword.IBM_notm}} Global Client Success in due o tre giorni lavorativi. Continueremo ad interagire con te per assicurarci il tuo successo sulla piattaforma {{site.data.keyword.cloud_notm}}. 
 
 <div class="onboarding-ub">
   <div class="ub-widget" style="display: flex;">
@@ -46,12 +41,17 @@ Siamo qui per aiutarti ad iniziare a lavorare con qualsiasi area di {{site.data.
 </div>
 {: authenticated-content}
 
-Dopo aver richiesto l'assistenza di onboarding gratuita, sarai contattato da un membro del nostro team {{site.data.keyword.IBM_notm}} Global Client Success in due o tre giorni lavorativi. Continueremo ad interagire con te per assicurarci il tuo successo sulla piattaforma {{site.data.keyword.cloud_notm}}. 
+Siamo qui per aiutarti ad iniziare a lavorare con qualsiasi area di {{site.data.keyword.cloud_notm}}, incluso: 
+* Progettazione di una soluzione 
+* Descrizione della tua fattura
+* Descrizione delle procedure consigliate della piattaforma
+* Assistenza con servizi specifici
+* Pianificazione della resilienza e della continuità dei dati
 
 ### Hai bisogno di contattarci prima?
 {: #contact-client-success}
 
-Se hai bisogno di contattarci prima, chiamaci gratuitamente al numero 866-209-7296.
+Se desideri contattarci subito dopo aver richiesto l'assistenza di onboarding facendo clic su **Inizia subito** nella precedente sezione, puoi <a href="mailto:globalonboarding@wwpdl.vnet.ibm.com">inviarci un'email</a>. Assicurati di utilizzare il pulsante **Inizia subito** per richiedere l'assistenza di onboarding prima di inviare la tua email.
 
 ### Vuoi iniziare per conto tuo?
 {: #self-onboard}

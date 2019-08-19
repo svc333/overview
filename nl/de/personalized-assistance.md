@@ -2,7 +2,7 @@
 
 copyright:
   years: 2019
-lastupdated: "2019-08-05"
+lastupdated: "2019-08-13"
 
 keywords: personalized onboarding, onboarding program, Global Client Succes, getting started, how to, get help, new user, first time, personal, dedicated assistance, cloud onboarding, account setup
 
@@ -29,15 +29,10 @@ Die Kunden stehen für {{site.data.keyword.IBM}} bei jeder Interaktion an erster
 Sie müssen bei Ihrem Konto mit nutzungsabhängiger Zahlung oder bei Ihrem Abonnementkonto angemeldet sein, um personalisiertes Onboarding zu verwenden.
 {: important}
 
-Sie erhalten Unterstützung beim Einstieg in einen beliebigen Bereich von {{site.data.keyword.cloud}}, z. B.: 
-* Entwerfen einer Lösung
-* Informationen zur Abrechnung
-* Informationen zu bewährten Verfahren für die Plattform
-* Hilfe zu bestimmten Services
-* Planung der kontinuierlichen Verfügbarkeit und Ausfallsicherheit Ihrer Daten
-
 ## Wie ist die Vorgehensweise?
 {: #personalized-onboarding-process}
+
+Nachdem Sie die kostenfreie Onboarding-Unterstützung angefordert haben, werden Sie innerhalb von zwei oder drei Werktagen von einem Mitglied unseres {{site.data.keyword.IBM_notm}} Global Client Success-Teams kontaktiert. Wir bleiben mit Ihnen in Kontakt, um sicherzustellen, dass Ihre Nutzung der {{site.data.keyword.cloud_notm}}-Plattform erfolgreich verläuft.
 
 <div class="onboarding-ub">
   <div class="ub-widget" style="display: flex;">
@@ -46,12 +41,17 @@ Sie erhalten Unterstützung beim Einstieg in einen beliebigen Bereich von {{site
 </div>
 {: authenticated-content}
 
-Nachdem Sie die kostenfreie Onboarding-Unterstützung angefordert haben, werden Sie innerhalb von zwei oder drei Werktagen von einem Mitglied unseres {{site.data.keyword.IBM_notm}} Global Client Success-Teams kontaktiert. Wir bleiben mit Ihnen in Kontakt, um sicherzustellen, dass Ihre Nutzung der {{site.data.keyword.cloud_notm}}-Plattform erfolgreich verläuft.
+Sie erhalten Unterstützung beim Einstieg in einen beliebigen Bereich von {{site.data.keyword.cloud_notm}}, z. B.: 
+* Entwerfen einer Lösung
+* Informationen zur Abrechnung
+* Informationen zu bewährten Verfahren für die Plattform
+* Hilfe zu bestimmten Services
+* Planung der kontinuierlichen Verfügbarkeit und Ausfallsicherheit Ihrer Daten
 
 ### Sie möchten uns früher kontaktieren?
 {: #contact-client-success}
 
-Wenn Sie zu einem früheren Zeitpunkt Kontakt mit uns aufnehmen möchten, können Sie uns unter der US-Telefonnummer 866-209-7296 (in den USA kostenfrei) kontaktieren.
+Wenn Sie schneller mit uns Kontakt aufnehmen möchten, nachdem Sie im vorherigen Abschnitt durch Klicken auf **Los geht's** Onboarding-Unterstützung angefordert haben, können Sie uns eine <a href="mailto:globalonboarding@wwpdl.vnet.ibm.com">E-Mail senden</a>. Stellen Sie sicher, dass Sie vor dem Senden der E-Mail mithilfe der Schaltfläche **Los geht's** Onboarding-Unterstützung angefordert haben. 
 
 ### Sie möchten selbstständig beginnen?
 {: #self-onboard}

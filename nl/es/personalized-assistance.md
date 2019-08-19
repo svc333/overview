@@ -2,7 +2,7 @@
 
 copyright:
   years: 2019
-lastupdated: "2019-08-05"
+lastupdated: "2019-08-13"
 
 keywords: personalized onboarding, onboarding program, Global Client Succes, getting started, how to, get help, new user, first time, personal, dedicated assistance, cloud onboarding, account setup
 
@@ -29,15 +29,10 @@ subcollection: overview
 Debe haber iniciado una sesión en una cuenta de Pago según uso o de Suscripción para optar a una incorporación personalizada.
 {: important}
 
-Estamos a su disposición para ayudarle a empezar con cualquier área de {{site.data.keyword.cloud}}, incluyendo: 
-* Diseñar una solución 
-* Comprender su factura
-* Comprender las mejores prácticas de la plataforma  
-* Ayudar con servicios específicos 
-* Planificar la continuidad y la resiliencia de los datos
-
 ## ¿Cuál es el proceso?
 {: #personalized-onboarding-process}
+
+Después de que solicite ayuda gratuita para la incorporación, un miembro de nuestro equipo de {{site.data.keyword.IBM_notm}} Global Client Success se pondrá en contacto con usted en un plazo de tres días laborables. Estaremos en contacto con usted para garantizar el éxito de su plataforma {{site.data.keyword.cloud_notm}}. 
 
 <div class="onboarding-ub">
   <div class="ub-widget" style="display: flex;">
@@ -46,12 +41,17 @@ Estamos a su disposición para ayudarle a empezar con cualquier área de {{site.
 </div>
 {: authenticated-content}
 
-Después de que solicite ayuda gratuita para la incorporación, un miembro de nuestro equipo de {{site.data.keyword.IBM_notm}} Global Client Success se pondrá en contacto con usted en un plazo de tres días laborables. Estaremos en contacto con usted para garantizar el éxito de su plataforma {{site.data.keyword.cloud_notm}}. 
+Estamos a su disposición para ayudarle a empezar con cualquier área de {{site.data.keyword.cloud_notm}}, incluyendo: 
+* Diseñar una solución 
+* Comprender su factura
+* Comprender las mejores prácticas de la plataforma  
+* Ayudar con servicios específicos 
+* Planificar la continuidad y la resiliencia de los datos
 
 ### ¿Necesita ponerse en contacto con nosotros antes?
 {: #contact-client-success}
 
-Si tiene que ponerse en contacto con nosotros antes, puede llamarnos de forma gratuita al 866-209-7296.
+Si desea conectar con nosotros antes tras solicitar asistencia para la incorporación, puede pulsar **Iniciación** en la sección anterior para <a href="mailto:globalonboarding@wwpdl.vnet.ibm.com">enviarnos un correo electrónico</a>. Asegúrese de utilizar el botón **Iniciación** para solicitar ayuda para la incorporación antes de enviar el correo electrónico.
 
 ### ¿Desea comenzar a trabajar por su cuenta?
 {: #self-onboard}

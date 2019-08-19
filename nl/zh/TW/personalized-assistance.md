@@ -2,7 +2,7 @@
 
 copyright:
   years: 2019
-lastupdated: "2019-08-05"
+lastupdated: "2019-08-13"
 
 keywords: personalized onboarding, onboarding program, Global Client Succes, getting started, how to, get help, new user, first time, personal, dedicated assistance, cloud onboarding, account setup
 
@@ -29,15 +29,10 @@ subcollection: overview
 您必須登入「隨收隨付制」或「訂閱」帳戶，才符合個人化上線的資格。
 {: important}
 
-我們很樂意協助您開始著手 {{site.data.keyword.cloud}} 的任何領域，包括： 
-* 設計解決方案
-* 瞭解您的帳單
-* 瞭解平台最佳作法
-* 協助提供特定服務
-* 規劃資料永續與備援
-
 ## 過程為何？
 {: #personalized-onboarding-process}
+
+要求免費的上線協助之後，我們的 {{site.data.keyword.IBM_notm}} 全球客戶成功團隊會有一位成員在二到三個營業日之內與您聯絡。我們會維持與您的密切聯繫，以確保您在 {{site.data.keyword.cloud_notm}} 平台上的成功。
 
 <div class="onboarding-ub">
   <div class="ub-widget" style="display: flex;">
@@ -46,12 +41,17 @@ subcollection: overview
 </div>
 {: authenticated-content}
 
-要求免費的上線協助之後，我們的 {{site.data.keyword.IBM_notm}} 全球客戶成功團隊會有一位成員在二到三個營業日之內與您聯絡。我們會維持與您的密切聯繫，以確保您在 {{site.data.keyword.cloud_notm}} 平台上的成功。
+我們很樂意協助您開始著手 {{site.data.keyword.cloud_notm}} 的任何領域，包括： 
+* 設計解決方案
+* 瞭解您的帳單
+* 瞭解平台最佳作法
+* 協助提供特定服務
+* 規劃資料永續與備援
 
 ### 需要更快與我們聯繫？
 {: #contact-client-success}
 
-如果您需要更快與我們聯繫，可致電免費專線 866-209-7296。
+如果您想要在按一下前一節的**開始使用**要求上線協助之後，更快與我們聯繫，您可以<a href="mailto:globalonboarding@wwpdl.vnet.ibm.com">傳送電子郵件給我們</a>。請務必先使用**開始使用**按鈕要求上線協助之後才傳送電子郵件。
 
 ### 想要獨力開始使用？
 {: #self-onboard}

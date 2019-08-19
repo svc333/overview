@@ -2,7 +2,7 @@
 
 copyright:
   years: 2019
-lastupdated: "2019-08-05"
+lastupdated: "2019-08-13"
 
 keywords: personalized onboarding, onboarding program, Global Client Succes, getting started, how to, get help, new user, first time, personal, dedicated assistance, cloud onboarding, account setup
 
@@ -29,15 +29,10 @@ subcollection: overview
 パーソナライズされたオンボーディングの資格を得るには、従量課金 (PAYG) アカウントまたはサブスクリプション・アカウントにログインしている必要があります。
 {: important}
 
-{{site.data.keyword.cloud}} の以下の内容をはじめるときに、支援を得ることができます。 
-* ソリューションの設計
-* 請求書についての理解
-* プラットフォームのベスト・プラクティスの理解
-* 特定のサービスの支援
-* データの継続性と回復力の計画
-
 ## プロセスの内容
 {: #personalized-onboarding-process}
+
+無料のオンボーディング支援を要請した場合、2 から 3 営業日以内に {{site.data.keyword.IBM_notm}} グローバル・クライアント・サクセス・チームのメンバーから連絡させていただきます。 {{site.data.keyword.cloud_notm}} プラットフォームでの確実な成功に向けて、お客様への支援を継続します。
 
 <div class="onboarding-ub">
   <div class="ub-widget" style="display: flex;">
@@ -46,12 +41,17 @@ subcollection: overview
 </div>
 {: authenticated-content}
 
-無料のオンボーディング支援を要請した場合、2 から 3 営業日以内に {{site.data.keyword.IBM_notm}} グローバル・クライアント・サクセス・チームのメンバーから連絡させていただきます。 {{site.data.keyword.cloud_notm}} プラットフォームでの確実な成功に向けて、お客様への支援を継続します。
+{{site.data.keyword.cloud_notm}} の以下の内容をはじめるときに、支援を得ることができます。 
+* ソリューションの設計
+* 請求書についての理解
+* プラットフォームのベスト・プラクティスの理解
+* 特定のサービスの支援
+* データの継続性と回復力の計画
 
 ### 早めに連絡する必要がある場合
 {: #contact-client-success}
 
-早めに連絡する必要がある場合は、通話料無料の 866-209-7296 をご利用いただけます。
+前のセクションで「**開始**」をクリックしてオンボーディング支援を要請した直後に連絡する必要がある場合は、<a href="mailto:globalonboarding@wwpdl.vnet.ibm.com">E メール</a>を送信できます。必ず、「**開始**」ボタンを使用してオンボーディング支援を要請してから、E メールを送信してください。
 
 ### お客様ご自身で始めたい場合
 {: #self-onboard}

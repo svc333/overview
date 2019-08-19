@@ -2,7 +2,7 @@
 
 copyright:
   years: 2019
-lastupdated: "2019-08-05"
+lastupdated: "2019-08-13"
 
 keywords: personalized onboarding, onboarding program, Global Client Succes, getting started, how to, get help, new user, first time, personal, dedicated assistance, cloud onboarding, account setup
 
@@ -29,15 +29,10 @@ A {{site.data.keyword.IBM}} se dedica a colocar o cliente primeiro em cada inter
 Você deve estar com login efetuado na conta Pré-paga ou de Assinatura para se qualificar para a integração personalizada.
 {: important}
 
-Estamos aqui para ajudar você a começar com qualquer área do {{site.data.keyword.cloud}}, incluindo: 
-* Projetando uma solução 
-* Entendendo sua conta
-* Entendendo as melhores práticas da plataforma  
-* Ajudando com serviços específicos 
-* Planejando a continuidade e a resiliência dos dados
-
 ## Qual é o processo?
 {: #personalized-onboarding-process}
+
+Após solicitar assistência de onboarding grátis, você será contatado por um membro de nossa equipe {{site.data.keyword.IBM_notm}} Global Client Success dentro de dois a três dias úteis. Continuamos empenhados em assegurar o seu sucesso na plataforma {{site.data.keyword.cloud_notm}}. 
 
 <div class="onboarding-ub">
   <div class="ub-widget" style="display: flex;">
@@ -46,12 +41,17 @@ Estamos aqui para ajudar você a começar com qualquer área do {{site.data.keyw
 </div>
 {: authenticated-content}
 
-Após solicitar assistência de onboarding grátis, você será contatado por um membro de nossa equipe {{site.data.keyword.IBM_notm}} Global Client Success dentro de dois a três dias úteis. Continuamos empenhados em assegurar o seu sucesso na plataforma {{site.data.keyword.cloud_notm}}. 
+Estamos aqui para ajudar você a começar com qualquer área do {{site.data.keyword.cloud_notm}}, incluindo: 
+* Projetando uma solução 
+* Entendendo sua conta
+* Entendendo as melhores práticas da plataforma  
+* Ajudando com serviços específicos 
+* Planejando a continuidade e a resiliência dos dados
 
 ### Precisa se conectar a nós mais cedo?
 {: #contact-client-success}
 
-Se você precisar se conectar conosco mais cedo, será possível chamar-nos gratuitamente em 866-209-7296.
+Se desejar entrar em contato conosco logo após solicitar a assistência de integração clicando em **Introdução** na seção anterior, será possível <a href="mailto:globalonboarding@wwpdl.vnet.ibm.com">enviar-nos um e-mail</a>. Certifique-se de usar o botão **Introdução** para solicitar assistência de integração antes de enviar o e-mail.
 
 ### Quer começar por conta própria?
 {: #self-onboard}
