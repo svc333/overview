@@ -4,9 +4,9 @@ copyright:
 
   years: 2017, 2019
 
-lastupdated: "2019-05-06"
+lastupdated: "2019-08-19"
 
-keywords: crn, cloud resource name
+keywords: crn, cloud resource name, resources, cloud catalog
 
 subcollection: overview
 

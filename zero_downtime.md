@@ -2,9 +2,9 @@
 
 copyright:
   years: 2018, 2019
-lastupdated: "2019-07-25"
+lastupdated: "2019-08-19"
 
-keywords: HA, failover, DR, high availability, disaster recovery, locations, data centers
+keywords: HA, failover, DR, high availability, disaster recovery, locations, data centers, zero downtime, resources, workloads, failover, infrastructure resources
 
 subcollection: overview
 

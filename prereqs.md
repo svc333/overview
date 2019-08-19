@@ -3,9 +3,9 @@
 
 copyright:
   years: 2016, 2019
-lastupdated: "2019-05-13"
+lastupdated: "2019-08-19"
 
-keywords: prereqs, platform prereqs, platform prerequisites
+keywords: prereqs, platform prereqs, platform prerequisites, platform
 
 subcollection: overview
 

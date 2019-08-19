@@ -3,9 +3,9 @@
 
 copyright:
   years: 2016, 2019
-lastupdated: "2019-07-25"
+lastupdated: "2019-08-19"
 
-keywords: glossary, IBM Cloud glossary
+keywords: glossary, IBM Cloud glossary, terms, definitions
 
 subcollection: overview
 

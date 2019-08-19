@@ -5,9 +5,9 @@
 copyright:
 
   years: 2015, 2019
-lastupdated: "2019-05-07"
+lastupdated: "2019-08-19"
 
-keywords: notices, terms of use
+keywords: notices, terms of use, IBM Cloud
 
 subcollection: overview
 

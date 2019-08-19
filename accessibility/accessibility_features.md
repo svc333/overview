@@ -4,9 +4,9 @@
 
 copyright:
   years: 2016, 2019
-lastupdated: "2019-03-27"
+lastupdated: "2019-08-19"
 
-keywords: quick keys, accessibility
+keywords: quick keys, accessibility, IBM Cloud, accessibility features
 
 subcollection: overview
 

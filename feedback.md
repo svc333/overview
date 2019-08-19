@@ -3,9 +3,9 @@
 
 copyright:
   years: 2018, 2019
-lastupdated: "2019-03-25"
+lastupdated: "2019-08-19"
 
-keywords: feedback button, comments, requirements, product improvements
+keywords: feedback button, comments, requirements, product improvements, submit feedback, documentation, console, feedback
 
 subcollection: overview
 
