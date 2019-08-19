@@ -53,19 +53,19 @@ Additionally, to better reflect their usage, codes that you apply to add subscri
 {: #saml-federation}
 New as of: 02 July 2019
 
-Former SoftLayer users who set up a SAML identity provider for logging in with federated IDs can now manage their configuration data in the {{site.data.keyword.cloud_notm}} console in Access (IAM) on the Identity providers page. This type of federation is deprecated, so new identity providers can't be set up at this time, but you can continue to update your identity provider data or choose to delete this federation in favor of switching to [federating with IBMid](/docs/account?topic=account-signup#signup-federated).
+Former SoftLayer users who set up a SAML identity provider for logging in with federated IDs can now manage their configuration data in the {{site.data.keyword.cloud_notm}} console in Access (IAM) on the Identity providers page. This type of federation is deprecated, so new identity providers can't be set up currently, but you can continue to update your identity provider data or choose to delete this federation in favor of switching to [federating with IBMid](/docs/account?topic=account-signup#signup-federated).
 
 ### Custom dashboard
 {: #custom}
 New as of: 14 June 2019 
 
-You can now control what's displayed on your dashboard. Customizing your dashboard includes the ability to add, remove, and rearrange the order of widgets. For more information, see [Customizing your dashboard](/docs/overview?topic=overview-custom-dashboard).
+You can now control what's displayed on your dashboard. Customizing your dashboard includes the ability to add, remove, and rearrange widgets. For more information, see [Customizing your dashboard](/docs/overview?topic=overview-custom-dashboard).
 
 
 ### Export usage data with associated tags
 New as of: 4 April 2019 
 
-You can now use our newest tagging capabilities to manage resources, usage, and costs in the exported usage report. When you add a tag to a resource, you have the option to view the tag associated with the resource. Go to **Manage**> **Billing and Usage**> **Usage**> **Export CSV**>  **Instances** to download your usage report. For more information about exporting tags, check out the [Export tags within your usage data to help with cost allocation](https://www.ibm.com/cloud/blog/export-your-tagged-usage-data-within-the-enhanced-ibm-cloud){: new_window} ![External link icon](../../icons/launch-glyph.svg "External link icon") blog post.
+You can now use our newest tagging capabilities to manage resources, usage, and costs in the exported usage report. When you add a tag to a resource, you can view the tag associated with the resource. Go to **Manage**> **Billing and Usage**> **Usage**> **Export CSV**>  **Instances** to download your usage report. For more information about exporting tags, check out the [Export tags within your usage data to help with cost allocation](https://www.ibm.com/cloud/blog/export-your-tagged-usage-data-within-the-enhanced-ibm-cloud){: new_window} ![External link icon](../../icons/launch-glyph.svg "External link icon") blog post.
 
 ### Access group for enabling public access to resources
 New as of: 25 March 2019
@@ -84,7 +84,7 @@ New as of: 31 December 2018
 
 A new host name option `*.appdomain.cloud` is available on cloud.ibm.com.
 
-Previously, the `mybluemix.net` domain was used for hosting apps in various deployment targets, such as {{site.data.keyword.containerlong_notm}} or Cloud Foundry. Any apps that you have hosted on `mybluemix.net` are not impacted.
+Previously, the `mybluemix.net` domain was used for hosting apps in various deployment targets, such as {{site.data.keyword.containerlong_notm}} or Cloud Foundry. Any apps that you are hosted on `mybluemix.net` are not impacted.
 
 The subdomain for Cloud Foundry apps is `cf.appdomain.cloud`. The subdomain for apps that you deploy to {{site.data.keyword.containerlong_notm}} is `containers.appdomain.cloud`.
 
@@ -114,7 +114,7 @@ New as of: 30 November 2018
 
 With our latest updates, you can take advantage of a simplified secure login that is available for all users regardless of your ID type. Whether you have an IBMid or a SoftLayer ID, you can quickly log in to the {{site.data.keyword.Bluemix_notm}} console from our enhanced login page. You can also make secure API calls across {{site.data.keyword.Bluemix_notm}} and automate your CLI login by using an IAM API key or an IAM access token. 
 
-After you log in, you can now see all users including platform and classic infrastructure users from your Users page in the Access (IAM) UI. Depending on your access to view other users in the account, you can filter your view quickly by account users, classic infrastructure users, or Cloud Foundry org. You can also use the filters to find users quickly by name, email, or status.
+After you log in, you can now see all users, including platform and classic infrastructure users, from your Users page in the Access (IAM) UI. Depending on your access to view other users in the account, you can filter your view quickly by account users, classic infrastructure users, or Cloud Foundry org. You can also use the filters to find users quickly by name, email, or status.
 
 Now that all of your users are in a single console, you can manage their access to all types of resources from the same place. Access starts with the user, so start by selecting a user from your list. Then, depending on which type of resource that you want to assign access to, you can choose from IAM access policies, Cloud Foundry access, or classic infrastructure permissions. If you're just looking to assign IAM access policies, try creating an access group to streamline your access management process by adding all users to the same access group that need the same policies assigned.
 
@@ -124,16 +124,16 @@ For more details, check out [Outstanding User Access Improvements Help Deliver a
 New as of: 30 November 2018
 {: #cli}
 
-You can now access all of the {{site.data.keyword.Bluemix_notm}} CLI plug-in documentation in one location making it easier for you to find any CLI command that you are looking for on the {{site.data.keyword.Bluemix_notm}} platform. Check out the References section in the [CLI documentation](/docs/cli?topic=cloud-cli-ibmcloud-cli).
+You can now access all of the {{site.data.keyword.Bluemix_notm}} CLI plug-in documentation in one location, making it easier for you to find any CLI command that you are looking for on the {{site.data.keyword.Bluemix_notm}} platform. Check out the References section in the [CLI documentation](/docs/cli?topic=cloud-cli-ibmcloud-cli).
 
 ### Check out the new dashboard and resource list
 New as of: 30 November 2018
 {: #dash}
 
-With our latest update, you can now view all your platform and infrastructure services from one location. When you log in, you can check out the new dashboard right away. After you have resources added to your account from the catalog, you can use the resource list to get a full view of your account resources:
+With our latest update, you can now view all your platform and infrastructure services from one location. When you log in, you can check out the new dashboard right away. After you add resources to your account from the catalog, you can use the resource list to get a full view of your account resources:
 
-* The dashboard has been redesigned so that you can view a summary your resources, maintenance, status, apps, support, usage, and users.
-* You can find more details about your resources in the resource list. You can tag your resources to organize them, or select them to make changes on the details page.
+* The dashboard is redesigned so that you can view a summary your resources, maintenance, status, apps, support, usage, and users.
+* You can find more details about your resources in the resource list. You can tag your resources to organize them, or select them to update the details page.
 * Now that you can see all of your resources in one place, we've added a global search so that you can quickly find resources that you created and expect to appear on the Resource list page. 
 * You can also search for catalog results, so you can quickly find resources to add to your account.  
 
@@ -235,13 +235,13 @@ Multi-factor authentication (MFA) adds an extra layer of security to your accoun
 New as of: 03 April 2018
 {: #access-groups}
 
-Do you want to be able to assign access quickly by using the least number of policies possible? Now you can with access groups. Access groups enable you to group a set of users and service IDs together and assign a single policy that applies to all members of the group. By using access groups, you can limit the time that you spend managing access to the users and service IDs in your account. Check out the blog post [New feature: Access groups](https://www.ibm.com/cloud/blog/access-groups){: new_window} ![External link icon](../../icons/launch-glyph.svg "External link icon") for more details.
+Do you want to be able to assign access quickly by using the least number of policies possible? Now you can with access groups. Group a set of users and service IDs together and assign a single policy that applies to all members of the group. By using access groups, you can limit the time that you spend managing access to the users and service IDs in your account. Check out the blog post [New feature: Access groups](https://www.ibm.com/cloud/blog/access-groups){: new_window} ![External link icon](../../icons/launch-glyph.svg "External link icon") for more details.
 
 ### {{site.data.keyword.Bluemix_notm}} Foundry Service US East region is now available
 New as of: 15 December 2017
 {: #cf-useast}
 
-A new US East data center is now available in Washington, DC. This new region can be reached using the `us-east.cloud.ibm.com` endpoint. For details on the services that are available for purchase in this new region, see [Services by region](/docs/resources?topic=resources-services_region).
+A new US East data center is now available in Washington, DC. You can reach this new region by using the `us-east.cloud.ibm.com` endpoint. For details on the services that are available for purchase in this new region, see [Services by region](/docs/resources?topic=resources-services_region).
 
 ### Support for resources in the European Union
 New as of: 14 December 2017
@@ -259,15 +259,15 @@ On 1 March 2018 {{site.data.keyword.Bluemix_notm}} will withdraw support for TLS
 New as of: 16 November 2017
 {: #usergs}
 
-Resource groups are a new way for you to create customizable groupings of account resources, and access to the group and the resources within it are managed by using Identity and Access Management (IAM). Everyone starts out with a default resource group. You can rename this resource group and add new service instances to it as you create them from the catalog.
+Resource groups offer a way for you to create customizable groupings of account resources, and access to the group and the resources within it are managed by using Identity and Access Management (IAM). Everyone starts out with a default resource group. You can rename this resource group and add new service instances to it as you create them from the catalog.
 
-For users with a Pay-As-You-Go or Subscription account, you can create additional resource groups to make managing quota and viewing billing usage for a set of resources easier. You can also group resources to make it easier for you to assign users access to more than one service at a time. To learn more about working with resource groups for your account, see [Managing resource groups](/docs/resources?topic=resources-rgs).
+For users with a Pay-As-You-Go or Subscription account, you can create extra resource groups to make managing quota and viewing billing usage for a set of resources easier. You can also group resources to make it easier for you to assign users access to more than one service at a time. To learn more about working with resource groups for your account, see [Managing resource groups](/docs/resources?topic=resources-rgs).
 
 ### Updates for {{site.data.keyword.Bluemix_notm}} IAM
 New as of: 16 November 2017
 {: #iam-nov17}
 
-The introduction of resource groups within your {{site.data.keyword.Bluemix_notm}} account has opened up a new way for you to assign access. Users and service IDs can be assigned access to all services within a resource group enabling you to quickly assign access to more than one resource at a time. You can also customize access for each user or service ID by assigning access to just some services within a resource group, or you choose to assign access to individual resources down to the service instance level. See [What features does IAM provide?](/docs/iam?topic=iam-iamoverview#features) for more information about the features that you can take advantage of by using IAM. 
+The introduction of resource groups within your {{site.data.keyword.Bluemix_notm}} account provides a new way for you to assign access. Users and service IDs can be assigned access to all services within a resource group for you to quickly assign access to more than one resource at a time. You can also customize access for each user or service ID by assigning access to just some services within a resource group, or you choose to assign access to individual resources down to the service instance level. See [What features does IAM provide?](/docs/iam?topic=iam-iamoverview#features) for more information about the features that you can take advantage of by using IAM. 
 
 ### Customize your dashboard view
 New as of: 16 November 2017
@@ -297,7 +297,7 @@ A Lite account is our new account type that gives you access to try select servi
 New as of: 6 October 2017
 {: #app-authfeature}
 
-Identity and Access Management (IAM) now provides the ability to create a Service ID, which you can think of as an identity that can be used for apps to authenticate with your {{site.data.keyword.Bluemix_notm}} services. Instead of using individual user credentials, a Service ID can be created with an associated API key and access permissions in the form of a service policy that is assigned to the Service ID in order for you to control the level of access for any application authenticating with that ID.
+Identity and Access Management (IAM) now supports creating a Service ID, which you can think of as an identity that can be used for apps to authenticate with your {{site.data.keyword.Bluemix_notm}} services. Instead of using individual user credentials, a Service ID can be created with an associated API key and access permissions in the form of a service policy that is assigned to the Service ID in order for you to control the level of access for any application authenticating with that ID.
 
 For more information about the benefits of this feature and how to get started, see the [Introducing IBM Cloud IAM Service IDs and API Keys](https://www.ibm.com/cloud/blog/introducing-ibm-cloud-iam-service-ids-api-keys){: new_window} ![External link icon](../../icons/launch-glyph.svg "External link icon").
 
@@ -305,7 +305,7 @@ For more information about the benefits of this feature and how to get started, 
 New as of: 27 July 2017
 {: #gc}
 
-Expanding on the last console update to manage your public regions from a single location in the console, {{site.data.keyword.Bluemix_notm}} now has a global catalog, making the process of selecting and deploying items that you select from the catalog a more streamlined process. Regardless of the region you have selected in the console, you can now see all services that are available across all public regions from your catalog. Once you select a tile from the catalog, you can see which regions the service is available in, and select where you want to deploy it. See [A global {{site.data.keyword.Bluemix_notm}} catalog makes building things easier](https://www.ibm.com/cloud/blog/announcements/global-bluemix-catalog-makes-building-things-easier){: new_window} ![External link icon](../../icons/launch-glyph.svg "External link icon"). for more information about the latest updates to the catalog.
+Expanding on the last console update to manage your public regions from a single location in the console, {{site.data.keyword.Bluemix_notm}} now has a global catalog, making the process of selecting and deploying items that you select from the catalog a more streamlined process. Regardless of the region that you select in the console, you can now see all services that are available across all public regions from your catalog. Once you select a tile from the catalog, you can see which regions the service is available in, and select where you want to deploy it. See [A global {{site.data.keyword.Bluemix_notm}} catalog makes building things easier](https://www.ibm.com/cloud/blog/announcements/global-bluemix-catalog-makes-building-things-easier){: new_window} ![External link icon](../../icons/launch-glyph.svg "External link icon"). for more information about the latest updates to the catalog.
 
 ### {{site.data.keyword.Bluemix_notm}} console updates
 New as of: 23 May 2017
@@ -323,7 +323,7 @@ With the latest updates and improvements, {{site.data.keyword.Bluemix_notm}} acc
 
 Additionally, {{site.data.keyword.Bluemix_notm}} platform users can create, delete, and list API keys associated with their user IDs. And platform users can use those API keys to authenticate when using APIs or CLIs.
 
-Lastly, we’ve enhanced our unified user management capability to ensure that in a linked IaaS-PaaS account, users are managed in a unified way with no need to add users separately in the SoftLayer Customer Portal or the {{site.data.keyword.Bluemix_notm}} console.
+Lastly, we enhanced our unified user management capability to ensure that in a linked IaaS-PaaS account, users are managed in a unified way with no need to add users separately in the SoftLayer Customer Portal or the {{site.data.keyword.Bluemix_notm}} console.
 
 For more information, check out the [Introducing Identity & Access Management](https://www.ibm.com/blogs/bluemix/2017/05/introducing-identity-access-management/){: new_window} ![External link icon](../../icons/launch-glyph.svg "External link icon") blog post.
 
