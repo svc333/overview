@@ -4,9 +4,9 @@ copyright:
 
   years: 2017, 2019
 
-lastupdated: "2019-06-20"
+lastupdated: "2019-08-19"
 
-keywords: users level of access, user control, access control, permissions
+keywords: users level of access, user control, access control, permissions, manage access, access management, platform management tasks, assign roles
 
 subcollection: overview
 

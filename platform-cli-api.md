@@ -4,9 +4,9 @@ copyright:
 
   years: 2018, 2019
 
-lastupdated: "2019-06-03"
+lastupdated: "2019-08-19"
 
-keywords: resource groups, platform CLI, platform API
+keywords: resource groups, platform CLI, platform API, CLI, API, cloud experience, platform service
 
 subcollection: overview
 

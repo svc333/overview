@@ -4,7 +4,7 @@ copyright:
   years: 2017, 2019
 lastupdated: "2019-08-19"
 
-keywords: catalog, resources display, manage visibility
+keywords: catalog, resources display, manage visibility, resources, services, infrastructure, templates, CLI
 
 subcollection: overview
 

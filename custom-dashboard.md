@@ -2,9 +2,9 @@
 
 copyright:
   years: 2019
-lastupdated: "2019-06-12"
+lastupdated: "2019-08-19"
 
-keywords: dashboard, widgets display, manage visibility, customize
+keywords: dashboard, widgets display, manage visibility, customize, console
 
 subcollection: overview
 

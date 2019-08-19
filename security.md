@@ -2,9 +2,9 @@
 
 copyright:
   years: 2017, 2019
-lastupdated: "2019-03-14"
+lastupdated: "2019-08-19"
 
-keywords: security controls, platform security
+keywords: security controls, platform security, secure, cloud platform, network, infrastructure, mobile, web, apps, application development
 
 subcollection: overview
 
