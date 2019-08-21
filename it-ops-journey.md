@@ -2,7 +2,7 @@
 
 copyright:
   years: 2018, 2019
-lastupdated: "2019-08-19"
+lastupdated: "2019-08-21"
 
 keywords: cloud environment, virtual server, virtual machine, vm, understanding infrastructure, IaaS model, IT ops admin, on-premises, data center
 
@@ -101,7 +101,7 @@ Your server is the base of your infrastructure. You have various options dependi
 | [{{site.data.keyword.vmwaresolutions_short}}](/docs/services/vmwaresolutions?topic=vmware-solutions-getting-started#getting-started) | Quickly and seamlessly integrate or migrate on-premises VMware workloads by using scalable, secure, and high-performance infrastructure and the industry-leading VMware hybrid virtualization technology. |
 | [{{site.data.keyword.containerlong_notm}}](/docs/containers?topic=containers-getting-started) | Combines Docker containers, the Kubernetes technology, an intuitive user experience, and built-in security and isolation to automate the deployment, operation, scaling, and monitoring of containerized apps in a cluster of compute hosts. |
 | [{{site.data.keyword.cfee_full_notm}}](/docs/cloud-foundry?topic=cloud-foundry-about) | Instantiate multiple, isolated, enterprise-grade Cloud Foundry platforms on demand. |
-| [{{site.data.keyword.openwhisk_short}}](/docs/openwhisk?topic=cloud-functions-getting_started#getting_started) | A Functions-as-a-Service (FaaS) programming platform based on Apache OpenWhisk. |
+| [{{site.data.keyword.openwhisk_short}}](/docs/openwhisk?topic=cloud-functions-getting-started) | A Functions-as-a-Service (FaaS) programming platform based on Apache OpenWhisk. |
 {: caption="Table 1. Compute options" caption-side="top"}
    
 ### Storage
