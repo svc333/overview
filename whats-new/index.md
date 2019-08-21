@@ -4,7 +4,7 @@ copyright:
 
   years: 2015, 2019
 
-lastupdated: "2019-08-19"
+lastupdated: "2019-08-21"
 
 keywords: release notes, what's new, what is new, cloud updates, new features, platform
 
@@ -22,10 +22,8 @@ subcollection: overview
 Stay up-to-date with the new features that are available on the {{site.data.keyword.Bluemix}} platform so that you get the most out of your {{site.data.keyword.Bluemix_notm}} experience. 
 {:shortdesc}
 
-If you're looking for updates for the services that are available on {{site.data.keyword.Bluemix_notm}}, check out the [{{site.data.keyword.Bluemix_notm}} Announcements page](https://www.ibm.com/cloud/blog/announcements){: new_window} ![External link icon](../../icons/launch-glyph.svg "External link icon") on the blog.
+If you're looking for updates for the services that are available on {{site.data.keyword.Bluemix_notm}}, check out the [Announcements page](https://www.ibm.com/cloud/blog/announcements){: new_window} ![External link icon](../../icons/launch-glyph.svg "External link icon") on the {{site.data.keyword.Bluemix_notm}} blog.
 {: tip}
-
-
 
 ## {{site.data.keyword.Bluemix_notm}} platform
 {: #platform_category}
@@ -39,7 +37,7 @@ You can now centrally manage billing and usage for multiple accounts by creating
    * Subscription credit is aggregated into a credit pool and shared with all accounts in the enterprise. Not only is tracking your subscriptions easier, but you can get fewer, larger subscriptions for a better discount because the credit is shared. 
    * Top-down usage reporting gives you a unified view of usage costs from all accounts, organized according to your enterprise hierarchy. 
 
-If you have multiple accounts, at least one of which is a Subscription account, you can create an enterprise. See [What is an enterprise?](/docs/account?topic=account-enterprise) and [Introducing {{site.data.keyword.Bluemix_notm}} Enterprises](http://www.ibm.com/cloud/blog/announcements/Introducing-IBM-Cloud-Enterprises){: new_window} ![External link icon](../../icons/launch-glyph.svg "External link icon") for more information.
+If you have multiple accounts, at least one of which is a Subscription account, you can create an enterprise. See [What is an enterprise?](/docs/account?topic=account-enterprise) and [Introducing IBM Cloud Enterprises](http://www.ibm.com/cloud/blog/announcements/Introducing-IBM-Cloud-Enterprises){: new_window} ![External link icon](../../icons/launch-glyph.svg "External link icon") for more information.
 
 ### Subscriptions page for tracking subscription credit spending
 {: #subscriptions-page}
@@ -53,19 +51,18 @@ Additionally, to better reflect their usage, codes that you apply to add subscri
 {: #saml-federation}
 New as of: 02 July 2019
 
-Former SoftLayer users who set up a SAML identity provider for logging in with federated IDs can now manage their configuration data in the {{site.data.keyword.cloud_notm}} console in Access (IAM) on the Identity providers page. This type of federation is deprecated, so new identity providers can't be set up currently, but you can continue to update your identity provider data or choose to delete this federation in favor of switching to [federating with IBMid](/docs/account?topic=account-signup#signup-federated).
+Former SoftLayer users who set up a SAML identity provider for logging in with federated IDs can now manage their configuration data in the {{site.data.keyword.cloud_notm}} console in Access (IAM) on the Identity providers page. This type of federation is deprecated, so new identity providers can't be set up currently. You can continue to update your identity provider data or choose to delete this federation in favor of switching to [federating with IBMid](/docs/account?topic=account-signup#signup-federated).
 
 ### Custom dashboard
 {: #custom}
 New as of: 14 June 2019 
 
-You can now control what's displayed on your dashboard. Customizing your dashboard includes the ability to add, remove, and rearrange widgets. For more information, see [Customizing your dashboard](/docs/overview?topic=overview-custom-dashboard).
-
+You can now control what's displayed on your dashboard. Customzing your dashboard includes the ability to add, remove, and rearrange the widgets. For more information, see [Customizing your dashboard](/docs/overview?topic=overview-custom-dashboard).
 
 ### Export usage data with associated tags
 New as of: 4 April 2019 
 
-You can now use our newest tagging capabilities to manage resources, usage, and costs in the exported usage report. When you add a tag to a resource, you can view the tag associated with the resource. Go to **Manage**> **Billing and Usage**> **Usage**> **Export CSV**>  **Instances** to download your usage report. For more information about exporting tags, check out the [Export tags within your usage data to help with cost allocation](https://www.ibm.com/cloud/blog/export-your-tagged-usage-data-within-the-enhanced-ibm-cloud){: new_window} ![External link icon](../../icons/launch-glyph.svg "External link icon") blog post.
+You can now utilize our newest tagging capabilities to manage resources, usage, and costs in the exported usage report. When you add a tag to a resource, you can view the tag that is associated with the resource. Go to **Manage**> **Billing and Usage**> **Usage**> **Export CSV**>  **Instances** to download your usage report. For more information on exporting tags, check out the [Export tags within your usage data to help with cost allocation](https://www.ibm.com/cloud/blog/export-your-tagged-usage-data-within-the-enhanced-ibm-cloud){: new_window} ![External link icon](../../icons/launch-glyph.svg "External link icon") blog post.
 
 ### Access group for enabling public access to resources
 New as of: 25 March 2019
@@ -84,7 +81,7 @@ New as of: 31 December 2018
 
 A new host name option `*.appdomain.cloud` is available on cloud.ibm.com.
 
-Previously, the `mybluemix.net` domain was used for hosting apps in various deployment targets, such as {{site.data.keyword.containerlong_notm}} or Cloud Foundry. Any apps that you are hosted on `mybluemix.net` are not impacted.
+Previously, the `mybluemix.net` domain was used for hosting apps in various deployment targets, such as {{site.data.keyword.containerlong_notm}} or Cloud Foundry. Any apps that are hosted on `mybluemix.net` are not impacted.
 
 The subdomain for Cloud Foundry apps is `cf.appdomain.cloud`. The subdomain for apps that you deploy to {{site.data.keyword.containerlong_notm}} is `containers.appdomain.cloud`.
 
@@ -92,7 +89,7 @@ The subdomain for Cloud Foundry apps is `cf.appdomain.cloud`. The subdomain for 
 New as of: 30 November 2018
 {: #cf-api-endpoints}
 
-The legacy `api.*.bluemix.net` Cloud Foundry API endpoints are still available for use. However, you can update scripts and infrastructure automation to use the following new Cloud Foundry API endpoints for your region:
+The legacy `api.*.bluemix.net` Cloud Foundry API endpoints are still available for backward compatibility. However, you can update scripts and infrastructure automation to use the following new Cloud Foundry API endpoints for your region:
 
 * api.us-south.cf.cloud.ibm.com (previously api.ng.bluemix.net)
 * api.eu-gb.cf.cloud.ibm.com (previously api.eu-gb.bluemix.net)
@@ -106,7 +103,7 @@ New as of: 30 November 2018
 
 With the Support Center, you can work to resolve all {{site.data.keyword.Bluemix_notm}}-related issues. The landing page provides you FAQs, so you can find the answer to your question without even contacting {{site.data.keyword.Bluemix_notm}}. You can also chat with a live support rep. Your cases can now be managed in from a single location. Go to **Support** &gt; **Manage cases** to create, view, or edit cases.
 
-You can also find the [Status page](https://cloud.ibm.com/status){: new_window} ![External link icon](../../icons/launch-glyph.svg "External link icon") from the Support Center. It has been enhanced to include all unplanned incidents, planned maintenance, announcements, and security bulletin notifications about key events that affect the {{site.data.keyword.Bluemix_notm}} platform, infrastructure, and major services. Click **View cloud status** from the Support Center. To check out the new experience, log in and go to the [Support Center](https://cloud.ibm.com/unifiedsupport/supportcenter){: new_window} ![External link icon](../../icons/launch-glyph.svg "External link icon"). 
+You can also find the [Status page](https://cloud.ibm.com/status){: new_window} ![External link icon](../../icons/launch-glyph.svg "External link icon") from the Support Center. It is enhanced to include all unplanned incidents, planned maintenance, announcements, and security bulletin notifications about key events that affect the {{site.data.keyword.Bluemix_notm}} platform, infrastructure, and major services. Click **View cloud status** from the Support Center. To check out the new experience, log in and go to the [Support Center](https://cloud.ibm.com/unifiedsupport/supportcenter){: new_window} ![External link icon](../../icons/launch-glyph.svg "External link icon"). 
 
 ### Unified login, API keys, and user and access management in {{site.data.keyword.Bluemix_notm}}
 New as of: 30 November 2018
@@ -116,7 +113,7 @@ With our latest updates, you can take advantage of a simplified secure login tha
 
 After you log in, you can now see all users, including platform and classic infrastructure users, from your Users page in the Access (IAM) UI. Depending on your access to view other users in the account, you can filter your view quickly by account users, classic infrastructure users, or Cloud Foundry org. You can also use the filters to find users quickly by name, email, or status.
 
-Now that all of your users are in a single console, you can manage their access to all types of resources from the same place. Access starts with the user, so start by selecting a user from your list. Then, depending on which type of resource that you want to assign access to, you can choose from IAM access policies, Cloud Foundry access, or classic infrastructure permissions. If you're just looking to assign IAM access policies, try creating an access group to streamline your access management process by adding all users to the same access group that need the same policies assigned.
+Now that all of your users are in a single console, you can manage their access to all types of resources from the same place. Access starts with the user, so start by selecting a user from your list. Then, depending on which type of resource that you want to assign access to, you can choose from IAM access policies, Cloud Foundry access, or classic infrastructure permissions. If you want to assign IAM access policies, try creating an access group to streamline your access management process by adding all users to the same access group that need the same policies assigned.
 
 For more details, check out [Outstanding User Access Improvements Help Deliver a Unified {{site.data.keyword.Bluemix_notm}} Platform](https://www.ibm.com/cloud/blog/announcements/ibm-cloud-access-management){: new_window} ![External link icon](../../icons/launch-glyph.svg "External link icon"). 
 
@@ -124,7 +121,7 @@ For more details, check out [Outstanding User Access Improvements Help Deliver a
 New as of: 30 November 2018
 {: #cli}
 
-You can now access all of the {{site.data.keyword.Bluemix_notm}} CLI plug-in documentation in one location, making it easier for you to find any CLI command that you are looking for on the {{site.data.keyword.Bluemix_notm}} platform. Check out the References section in the [CLI documentation](/docs/cli?topic=cloud-cli-ibmcloud-cli).
+You can now access all of the {{site.data.keyword.Bluemix_notm}} CLI plug-in documentation in one location, making it easier for you to find any CLI command that you are looking for. Check out the References section in the [CLI documentation](/docs/cli/reference/ibmcloud?topic=cloud-cli-ibmcloud_cli).
 
 ### Check out the new dashboard and resource list
 New as of: 30 November 2018
@@ -134,10 +131,10 @@ With our latest update, you can now view all your platform and infrastructure se
 
 * The dashboard is redesigned so that you can view a summary your resources, maintenance, status, apps, support, usage, and users.
 * You can find more details about your resources in the resource list. You can tag your resources to organize them, or select them to update the details page.
-* Now that you can see all of your resources in one place, we've added a global search so that you can quickly find resources that you created and expect to appear on the Resource list page. 
+* Now that you can see all of your resources in one place, we added a global search so that you can quickly find resources that you created and expect to find on the resource list page. 
 * You can also search for catalog results, so you can quickly find resources to add to your account.  
 
-See [Manage All Your Cloud Resources on the Enhanced {{site.data.keyword.Bluemix_notm}} Platform](https://www.ibm.com/blogs/cloud-archive/2018/11/manage-all-your-cloud-resources-on-the-enhanced-ibm-cloud-platform/){: new_window} ![External link icon](../../icons/launch-glyph.svg "External link icon") for more details.
+See [Manage All Your Cloud Resources on the Enhanced {{site.data.keyword.Bluemix_notm}} Platform](https://www.ibm.com/blogs/bluemix/2018/11/manage-all-your-cloud-resources-on-the-enhanced-ibm-cloud-platform/){: new_window} ![External link icon](../../icons/launch-glyph.svg "External link icon") for more details.
 
 ### Unified account, billing, and user profile information for platform and infrastructure services
 New as of: 30 November 2018
@@ -161,7 +158,7 @@ Tags are now available for you to add to your resources, like Cloud Object Stora
 New as of: 30 November 2018
 {: #cost-estimator}
 
-To help you decide and analyze what services you'd like to purchase, you can use the cost estimator. Now, you can go through the console and select each service you'd like to have, and add all of the costs in an easy to use tool. You can even enter projected data usages, lookups per second, writes per second, and queries per second to get a more accurate estimation of your monthly expenditures. You can use the cost estimator with each catalog service you select, or you can click the cost estimator icon ![Estimator icon](../../icons/Estimator.svg) in the console menu to get a summary of your estimated costs. For more information, see [Estimating your costs](/docs/billing-usage?topic=billing-usage-cost).
+To help you decide and analyze what services you'd like to purchase, you can use the cost estimator. Now, you can go through the console and select each service you'd like to have, and add all of the costs in an easy to use tool. You can even enter projected data usages, lookups per second, writes per second, and queries per second to get a more accurate estimation of your monthly expendentures. You can use the cost estimator with each catalog service you select, or you can click the cost estimator icon ![Estimator icon](../../icons/Estimator.svg) in the console menu to get a summary of your estimated costs. For more information, see [Estimating your costs](/docs/billing-usage?topic=billing-usage-cost).
 
 ### Updated global location names for {{site.data.keyword.cloud_notm}}
 New as of: 1 November 2018
@@ -223,7 +220,7 @@ You can now upgrade your Lite account to a Subscription account directly from th
 New as of: 15 May 2018
 {: #cli-rebrand}
 
-The {{site.data.keyword.Bluemix_notm}} CLI commands have changed from **`bluemix`** and **`bx`** to **`ibmcloud`**. However, you can still use the **`bluemix`** and **`bx`** CLI commands until they are removed later. There is no short name now, just the full name **`ibmcloud`**. 
+The {{site.data.keyword.Bluemix_notm}} CLI commands changed from **`bluemix`** and **`bx`** to **`ibmcloud`**. However, you can still use the **`bluemix`** and **`bx`** CLI commands until they are removed later. There is no short name now, just the full name **`ibmcloud`**. 
 
 ### Multi-factor authentication for your {{site.data.keyword.Bluemix_notm}} account
 New as of: 02 May 2018
@@ -241,7 +238,7 @@ Do you want to be able to assign access quickly by using the least number of pol
 New as of: 15 December 2017
 {: #cf-useast}
 
-A new US East data center is now available in Washington, DC. You can reach this new region by using the `us-east.cloud.ibm.com` endpoint. For details on the services that are available for purchase in this new region, see [Services by region](/docs/resources?topic=resources-services_region).
+A new US East data center is now available in Washington, DC. You can reach this new region by using the `us-east.cloud.ibm.com` endpoint. For details about the services that are available for purchase in this new region, see [Services by region](/docs/resources?topic=resources-services_region).
 
 ### Support for resources in the European Union
 New as of: 14 December 2017
@@ -253,13 +250,13 @@ If your services and data centers are located in Europe, {{site.data.keyword.Blu
 New as of: 28 November 2017
 {: #nosupport-tls}
 
-On 1 March 2018 {{site.data.keyword.Bluemix_notm}} will withdraw support for TLS 1.0 and TLS 1.1 across many of our cloud products and services as part of our commitment to offering a cloud that is secure to the core and in alignment with industry best practices for security and data privacy. 
+On 1 March 2018 {{site.data.keyword.Bluemix_notm}} will withdraw support for TLS 1.0 and TLS 1.1 across many of our cloud products and services as part of our commitment to offering a cloud that is secure to the core and in alignment with industry best practices for security and data privacy.
 
 ### A new way to organize resources within your account
 New as of: 16 November 2017
 {: #usergs}
 
-Resource groups offer a way for you to create customizable groupings of account resources, and access to the group and the resources within it are managed by using Identity and Access Management (IAM). Everyone starts out with a default resource group. You can rename this resource group and add new service instances to it as you create them from the catalog.
+Resource groups are a new way for you to create customizable groupings of account resources, and access to the group and the resources within it are managed by using Identity and Access Management (IAM). Everyone starts out with a default resource group. You can rename this resource group and add new service instances to it as you create them from the catalog.
 
 For users with a Pay-As-You-Go or Subscription account, you can create extra resource groups to make managing quota and viewing billing usage for a set of resources easier. You can also group resources to make it easier for you to assign users access to more than one service at a time. To learn more about working with resource groups for your account, see [Managing resource groups](/docs/resources?topic=resources-rgs).
 
@@ -267,7 +264,7 @@ For users with a Pay-As-You-Go or Subscription account, you can create extra res
 New as of: 16 November 2017
 {: #iam-nov17}
 
-The introduction of resource groups within your {{site.data.keyword.Bluemix_notm}} account provides a new way for you to assign access. Users and service IDs can be assigned access to all services within a resource group for you to quickly assign access to more than one resource at a time. You can also customize access for each user or service ID by assigning access to just some services within a resource group, or you choose to assign access to individual resources down to the service instance level. See [What features does IAM provide?](/docs/iam?topic=iam-iamoverview#features) for more information about the features that you can take advantage of by using IAM. 
+The introduction of resource groups within your {{site.data.keyword.Bluemix_notm}} account provides a new way for you to assign access. Users and service IDs can be assigned access to all services within a resource group, enabling you to quickly assign access to more than one resource at a time. You can also customize access for each user or service ID by assigning access to just some services within a resource group, or you choose to assign access to individual resources down to the service instance level. For more information about the features that you can take advantage of by using IAM, see [What features does IAM provide?](/docs/iam?topic=iam-iamoverview#features)
 
 ### Customize your dashboard view
 New as of: 16 November 2017
@@ -305,7 +302,7 @@ For more information about the benefits of this feature and how to get started, 
 New as of: 27 July 2017
 {: #gc}
 
-Expanding on the last console update to manage your public regions from a single location in the console, {{site.data.keyword.Bluemix_notm}} now has a global catalog, making the process of selecting and deploying items that you select from the catalog a more streamlined process. Regardless of the region that you select in the console, you can now see all services that are available across all public regions from your catalog. Once you select a tile from the catalog, you can see which regions the service is available in, and select where you want to deploy it. See [A global {{site.data.keyword.Bluemix_notm}} catalog makes building things easier](https://www.ibm.com/cloud/blog/announcements/global-bluemix-catalog-makes-building-things-easier){: new_window} ![External link icon](../../icons/launch-glyph.svg "External link icon"). for more information about the latest updates to the catalog.
+Expanding on the last console update to manage your public regions from a single location in the console, {{site.data.keyword.Bluemix_notm}} now has a global catalog, making the process of selecting and deploying items that you select from the catalog a more streamlined process. Regardless of the region that you select in the console, you can now see all services that are available across all public regions from your catalog. Once you select a tile from the catalog, you can see which regions the service is available in, and select where you want to deploy it. For more information about the latest updates to the catalog, see [A global {{site.data.keyword.Bluemix_notm}} catalog makes building things easier](https://www.ibm.com/cloud/blog/announcements/global-bluemix-catalog-makes-building-things-easier){: new_window} ![External link icon](../../icons/launch-glyph.svg "External link icon").
 
 ### {{site.data.keyword.Bluemix_notm}} console updates
 New as of: 23 May 2017
@@ -332,5 +329,4 @@ New as of: 13 April 2017
 {: #docnavupdates}
 
 With this navigation update, we think you'll understand how content is better organized throughout our docs, and will be able to find relevant content more efficiently. With fewer nested layers of content, you won't have to dig around to find the documentation you need to be successful with {{site.data.keyword.Bluemix_notm}}.
-
 
