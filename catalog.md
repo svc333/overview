@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2019
-lastupdated: "2019-08-19"
+lastupdated: "2019-08-22"
 
 keywords: catalog, resources display, manage visibility, resources, services, infrastructure, templates, CLI
 
@@ -28,4 +28,4 @@ For more information, see the following topics.
 
 * If you're an administrator for the account, you can choose to [hide](/docs/account?topic=account-exclude) a public resource for everyone in your account.
 * If you're an administrator for the account, you can choose who can see your resource by [adding](/docs/account?topic=account-include) them to an include list.
-* You can [change account ownership](/docs/account?topic=account-include#owners) with the command line interface.
+* You can [change account ownership](/docs/account?topic=account-include#owners) with the CLI.
