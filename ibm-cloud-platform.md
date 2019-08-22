@@ -3,7 +3,7 @@
 
 copyright:
   years: 2016, 2019
-lastupdated: "2019-08-19"
+lastupdated: "2019-08-22"
 
 keywords: console, platform overview, overview, data center
 
@@ -35,7 +35,7 @@ Whether you have [existing code](/docs/apps/tutorials?topic=creating-apps-tutori
 ## Setting up your account
 {: #set-up-account}
 
-If you're a developer and you're just trying out {{site.data.keyword.Bluemix_notm}}, you can go straight to the catalog and start browsing the offerings that you'd like to explore and add to your Lite account. When you're ready to get started with an environment and get apps running in production, consider setting up the basics in your account:
+If you're a developer and you're just trying out {{site.data.keyword.Bluemix_notm}}, you can go straight to the catalog and browse the offerings that you'd like to explore and add to your Lite account. When you're ready to get started with an environment and get apps running in production, consider setting up the basics in your account:
 
 * User access groups for organizing users and service IDs into one entity to make assigning access a streamlined process.
 * Resource groups for organizing your resources to make assigning access to a set of resources quick and easy.
