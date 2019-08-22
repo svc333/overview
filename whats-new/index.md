@@ -4,7 +4,7 @@ copyright:
 
   years: 2015, 2019
 
-lastupdated: "2019-08-21"
+lastupdated: "2019-08-22"
 
 keywords: release notes, what's new, what is new, cloud updates, new features, platform
 
@@ -57,7 +57,7 @@ Former SoftLayer users who set up a SAML identity provider for logging in with f
 {: #custom}
 New as of: 14 June 2019 
 
-You can now control what's displayed on your dashboard. Customzing your dashboard includes the ability to add, remove, and rearrange the widgets. For more information, see [Customizing your dashboard](/docs/overview?topic=overview-custom-dashboard).
+You can now control what's displayed on your dashboard. Customizing your dashboard includes the ability to add, remove, and rearrange the widgets. For more information, see [Customizing your dashboard](/docs/overview?topic=overview-custom-dashboard).
 
 ### Export usage data with associated tags
 New as of: 4 April 2019 
@@ -158,7 +158,7 @@ Tags are now available for you to add to your resources, like Cloud Object Stora
 New as of: 30 November 2018
 {: #cost-estimator}
 
-To help you decide and analyze what services you'd like to purchase, you can use the cost estimator. Now, you can go through the console and select each service you'd like to have, and add all of the costs in an easy to use tool. You can even enter projected data usages, lookups per second, writes per second, and queries per second to get a more accurate estimation of your monthly expendentures. You can use the cost estimator with each catalog service you select, or you can click the cost estimator icon ![Estimator icon](../../icons/Estimator.svg) in the console menu to get a summary of your estimated costs. For more information, see [Estimating your costs](/docs/billing-usage?topic=billing-usage-cost).
+To help you decide and analyze what services you'd like to purchase, you can use the cost estimator. Now, you can go through the console and select each service you'd like to have, and add all of the costs in an easy to use tool. You can even enter projected data usages, lookups per second, writes per second, and queries per second to get a more accurate estimation of your monthly expenditures. You can use the cost estimator with each catalog service you select, or you can click the cost estimator icon ![Estimator icon](../../icons/Estimator.svg) in the console menu to get a summary of your estimated costs. For more information, see [Estimating your costs](/docs/billing-usage?topic=billing-usage-cost).
 
 ### Updated global location names for {{site.data.keyword.cloud_notm}}
 New as of: 1 November 2018
