@@ -4,7 +4,7 @@ copyright:
 
   years: 2017, 2019
 
-lastupdated: "2019-08-19"
+lastupdated: "2019-08-22"
 
 keywords: crn, cloud resource name, resources, cloud catalog
 
@@ -162,7 +162,7 @@ The `service-instance` segment identifies the service instance uniquely. The for
 
 The `service-instance` must be alphanumeric, lowercase, no spaces, or special characters other than '-' and '/'.
 
-As an example, a DevOps tool to track and plan work items can have a simple `GUID` instance ID ("1234-5678-9012-3456") where the policy component of an autoscale group service can use a hierarchical naming convention and have a `service-id` segment of:
+For example, a DevOps tool that is used to track and plan work items can have a simple `GUID` instance ID ("1234-5678-9012-3456"), where the policy component of an autoscale group service can use a hierarchical naming convention and have a `service-id` segment of:
 
 >`c7a27f55-d35e-4153-b044-8ca9155fc467/my-test-asg1/my-scaleout-policy`
 
@@ -175,7 +175,7 @@ ibmcloud resource service-instance
 ## resource-type, resource
 {: #resource-type-crn}
 
-The value of the `resource-type` and `resource` segments vary by service. A service is required to document their supported `resource types` segment and the format of the `resource` segment as part of their service metadata.
+The values of the `resource-type` and `resource` segments vary by service. A service is required to document their supported `resource types` segment and the format of the `resource` segment as part of their service metadata.
 
 As an example, an image in the customer receipts container in an Object Storage service can have a `resource-type` segment of  `object` and a `resource` value of `CustomerReceipts/clientdinner.png`.
 
