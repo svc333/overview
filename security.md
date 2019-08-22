@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2019
-lastupdated: "2019-08-19"
+lastupdated: "2019-08-22"
 
 keywords: security controls, platform security, secure, cloud platform, network, infrastructure, mobile, web, apps, application development
 
@@ -15,7 +15,7 @@ subcollection: overview
 # How do I know that my data is safe?
 {: #security}
 
-Designed with secure engineering practices, the {{site.data.keyword.cloud}} platform has layered security controls across network and infrastructure. {{site.data.keyword.cloud_notm}} provides a group of security services that can be used by application developers to secure their mobile and web apps. These elements combine to make {{site.data.keyword.cloud_notm}} a platform with clear choices for secure application development.
+Designed with secure engineering practices, the {{site.data.keyword.cloud}} platform provides layered security controls across network and infrastructure. {{site.data.keyword.cloud_notm}} provides a group of security services that can be used by application developers to secure their mobile and web apps. These elements combine to make {{site.data.keyword.cloud_notm}} a platform with clear choices for secure application development.
 {:shortdesc}
 
 {{site.data.keyword.cloud_notm}} ensures security readiness by adhering to security policies that are driven by best practices in IBM for systems, networking, and secure engineering. These policies include practices such as source code scanning, dynamic scanning, threat modeling, and penetration testing. {{site.data.keyword.cloud_notm}} follows the IBM Product Security Incident Response Team (PSIRT) process for security incident management. See the [IBM Security Vulnerability Management (PSIRT) ![External link icon](../icons/launch-glyph.svg "External link icon")](https://www.ibm.com/security/secure-engineering/process.html){: new_window} site for details.
