@@ -2,7 +2,7 @@
 
 copyright:
   years: 2018, 2019
-lastupdated: "2019-08-21"
+lastupdated: "2019-08-22"
 
 keywords: cloud environment, virtual server, virtual machine, vm, understanding infrastructure, IaaS model, IT ops admin, on-premises, data center
 
@@ -24,7 +24,7 @@ subcollection: overview
 As many organizations move to a cloud environment, either on-premises or hosted in data centers, the IT operations administrator's (IT ops admin) role is being redefined. The scope and complexity of this change increases significantly based on the type of environment that your organization wants to deploy. 
 {: .shortdesc}
 
-Before moving to the cloud, you worked with an inherently secure environment with systems connected to your private LAN or intranet. In a cloud environment, you're now expected to perform the following tasks:
+Before you moved to the cloud, you worked with an inherently secure environment with systems that are connected to your private LAN or intranet. In a cloud environment, you're now expected to perform the following tasks:
  
   * Procure your system components from "somewhere." 
   * Understand network implications and security challenges.
@@ -40,11 +40,11 @@ Before moving to the cloud, you worked with an inherently secure environment wit
 ### Cloud service models
 {: #cloud-svc-models}
 
-Three types of cloud service models exist: Infrastructure as a Service (IaaS), Platform as a Service (PaaS), and Software as a Service (SaaS). Figure 1 explains who does what within each service model. For more information, see [IaaS, PaaS, and SaaS - IBM Cloud service models](https://www.ibm.com/cloud/learn/iaas-paas-saas){: new_window} ![External link icon](../icons/launch-glyph.svg "External link icon").
+Three types of cloud service models exist: Infrastructure as a Service (IaaS), Platform as a Service (PaaS), and Software as a Service (SaaS). Figure 1 explains who does what within each service model. For more information, see [IaaS, PaaS, and SaaS - {{site.data.keyword.cloud_notm}} service models](https://www.ibm.com/cloud/learn/iaas-paas-saas){: new_window} ![External link icon](../icons/launch-glyph.svg "External link icon").
 
 ![Cloud service models.](images/cloud-svc-models.png "Diagram showiing the cloud service models"){: caption="Figure 1. Cloud service models" caption-side="bottom"}
 
-With the IaaS model, your provider is responsible for maintaining the underlying infrastructure only and optionally installing software, such as operating systems, applications, and databases. You have limited access to the underlying infrastructure, and you're responsible for installing your software or have your service provider install it. You're also responsible for all other maintenance, which includes service packs, virus software, and patches.
+With the IaaS model, your provider is responsible for maintaining the underlying infrastructure only and optionally installing software, such as operating systems, applications, and databases. Your access to the underlying infrastructure is limited, and you're responsible for installing your software or have your service provider install it. You're also responsible for all other maintenance, which includes service packs, virus software, and patches.
 
 With the PaaS model, your provider is responsible for the systems through the operating system and for all infrastructure management, which includes OS patches, hardware repairs, and network settings. You build and maintain the application, and you or your provider can install middleware, including databases or other types. This model is used to develop and test software. For more information, see [A practical guide to platform as a service: What is PaaS ![External link icon](../icons/launch-glyph.svg "External link icon")](https://www.ibm.com/blogs/cloud-computing/2016/08/10/practical-guide-paas/){: new_window}.
 
@@ -82,7 +82,7 @@ Use the [{{site.data.keyword.cloud_notm}} {{site.data.keyword.baremetal_short}} 
 
 ### {{site.data.keyword.cloud_notm}} services and compliance
 
-As with any architecture, you should consider the {{site.data.keyword.cloud_notm}} resources that you might add to your solution as you size your infrastructure. For more information, see [SaaS applications for business and IT ![External link icon](../icons/launch-glyph.svg "External link icon")](https://www.ibm.com/cloud/saas){: new_window} and search for a specific service. You also need to think about any regulations that you have to consider when you build your architecture. For example, is your workload considered sensitive or is it regulated? For more information, see [Compliance ![External link icon](../icons/launch-glyph.svg "External link icon")](https://www.ibm.com/cloud/compliance){: new_window}.
+As with any architecture, consider the {{site.data.keyword.cloud_notm}} resources that you might add to your solution as you size your infrastructure. For more information, see [SaaS applications for business and IT ![External link icon](../icons/launch-glyph.svg "External link icon")](https://www.ibm.com/cloud/saas){: new_window} and search for a specific service. You also need to think about any regulations that you have to consider when you build your architecture. For example, is your workload considered sensitive or is it regulated? For more information, see [Compliance ![External link icon](../icons/launch-glyph.svg "External link icon")](https://www.ibm.com/cloud/compliance){: new_window}.
 
 ## Building your infrastructure
 {: #build}
@@ -92,7 +92,7 @@ After you plan and design your infrastructure, you're ready to build it.
 ### Compute
 {: #compute}
 
-Your server is the base of your infrastructure. You have various options depending on your needs, or you can mix it up if that's what your environment requires. Check out the following table for a summary of your compute options.
+Your server is the base of your infrastructure. Depending on your needs, you have various options, or you can mix it up if that's what your environment requires. Check out the following table for a summary of your compute options.
 
 | Option | Description | 
 |--------|---------------|
@@ -107,7 +107,7 @@ Your server is the base of your infrastructure. You have various options dependi
 ### Storage
 {: #storage}
 
-{{site.data.keyword.baremetal_short}} and {{site.data.keyword.BluVirtServers_short}} are provisioned with default storage. {{site.data.keyword.baremetal_short}} have a minimum of 1 TB SATA disk space, and {{site.data.keyword.BluVirtServers_short}} have a minimum of 25 GB SAN storage. The exception to this is the {{site.data.keyword.cloud_notm}} SAP-Certified {{site.data.keyword.baremetal_short}}. For more information on the default storage available with these servers, see [{{site.data.keyword.cloud_notm}} SAP-Certified Infrastructure](/docs/bare-metal?topic=bare-metal-sap-cert-infrastructure#sap-cert-infrastructure).
+{{site.data.keyword.baremetal_short}} and {{site.data.keyword.BluVirtServers_short}} are provisioned with default storage. {{site.data.keyword.baremetal_short}} have a minimum of 1 TB SATA disk space, and {{site.data.keyword.BluVirtServers_short}} have a minimum of 25 GB SAN storage, with the exception of {{site.data.keyword.cloud_notm}} SAP-Certified {{site.data.keyword.baremetal_short}}. For more information on the default storage available with these servers, see [{{site.data.keyword.cloud_notm}} SAP-Certified Infrastructure](/docs/bare-metal?topic=bare-metal-sap-cert-infrastructure#sap-cert-infrastructure).
 
 You can buy extra storage based on your needs. See the following table for a summary of your storage options.
 
@@ -115,9 +115,9 @@ You can buy extra storage based on your needs. See the following table for a sum
 |--------|---------------|
 | [{{site.data.keyword.blockstorageshort}}](/docs/infrastructure/BlockStorage?topic=BlockStorage-getting-started) | Persistent, high-performance iSCSI storage that is provisioned and managed independently of compute instances. iSCSI-based Block Storage LUNs are connected to authorized devices through redundant multi-path I/O (MPIO) connections. |
 | [{{site.data.keyword.filestorage_short}}](/docs/infrastructure/FileStorage?topic=FileStorage-getting-started) | Persistent, fast, and flexible network-attached, NFS-based File Storage. In this network-attached storage (NAS) environment, you have total control over your file shares function and performance. File Storage shares can be connected to up to 64 authorized devices over routed TCP/IP connections for resiliency. |
-| [{{site.data.keyword.cos_full_notm}}](/docs/services/cloud-object-storage?topic=cloud-object-storage-getting-started) | Information stored with IBM Cloud Object Storage is encrypted and dispersed across multiple geographic locations, and accessed over HTTP by using a REST API. This service makes use of the distributed storage technologies that are provided by the IBM Cloud Object Storage System (formerly Cleversafe). |
+| [{{site.data.keyword.cos_full_notm}}](/docs/services/cloud-object-storage?topic=cloud-object-storage-getting-started) | Information that is stored with {{site.data.keyword.cloud_notm}} Object Storage is encrypted and dispersed across multiple geographic locations, and accessed over HTTP by using a REST API. This service uses the distributed storage technologies that are provided by the {{site.data.keyword.cloud_notm}} Object Storage System (formerly Cleversafe). |
 | [{{site.data.keyword.cloud_notm}} Master Data Management](/docs/services/MDMOnCloud?topic=MDMOnCloud-mdmoc_getting_started#mdmoc_getting_started) | Offload large amounts of data from your on-premises data center to your Cloud Object Storage bucket. |
-| [{{site.data.keyword.backup_full}}](/docs/infrastructure/Backup?topic=Backup-getting-started) | An automated agent-based backup system that is managed through a browser-based management utility. You can back up data between servers in one or more data centers on the IBM Cloud network. |
+| [{{site.data.keyword.backup_full}}](/docs/infrastructure/Backup?topic=Backup-getting-started) | An automated agent-based backup system that is managed through a browser-based management utility. You can back up data between servers in one or more data centers on the {{site.data.keyword.cloud_notm}} network. |
 {: caption="Table 2. Storage options" caption-side="top"}
 
 ### Networking
@@ -125,7 +125,7 @@ You can buy extra storage based on your needs. See the following table for a sum
 
 You automatically get connectivity to the {{site.data.keyword.vpn_full}} when your {{site.data.keyword.cloud_notm}} account is set up. By default, your server has a public IP address and a private IP address. If you want your server to be private, you can either turn off the public interface after your server is provisioned or order your server as private. See [Getting started with Virtual Private Networking](/docs/infrastructure/iaas-vpn?topic=VPN-gettingstarted-with-virtual-private-networking) for more information.
 
-Within the infrastructure layer, you can build a virtual private cloud, which is a virtual network that is tied to your {{site.data.keyword.cloud_notm}} account. A virtual private cloud gives you an entry point that provides cloud security and the ability to dynamically scale your virtual server instances. For more information, see [Getting started with IBM Cloud Virtual Private Cloud (VPC) Infrastructure](/docs/vpc-on-classic?topic=vpc-on-classic-getting-started). 
+Within the infrastructure layer, you can build a virtual private cloud, which is a virtual network that is tied to your {{site.data.keyword.cloud_notm}} account. A virtual private cloud gives you an entry point that provides cloud security and the ability to dynamically scale your virtual server instances. For more information, see [Getting started with {{site.data.keyword.vpc_full}}](/docs/vpc-on-classic?topic=vpc-on-classic-getting-started). 
 
 Check out the following table for a summary of your networking options.
 
@@ -133,7 +133,7 @@ Check out the following table for a summary of your networking options.
 |--------|---------------|
 | [Content Delivery Network](/docs/infrastructure/CDN?topic=CDN-getting-started) | Used for various industry solutions, including media, entertainment, software, gaming, banking, and e-commerce, to meet the needs of your businesses. |
 | [Domain Name Service](/docs/cli/reference/ibmcloud?topic=cloud-cli-ibm-dev-tools-for-jetbrains) | Provides a central location to view and manage your domains through the basic DNS management interface, and also gives you the option to manage reverse and secondary DNS in the same location for free of charge. |
-| [Global IP addresses](/docs/infrastructure/subnets?topic=subnets-about-global-ip-address#about-global-ip-address) | Provide flexibility and enable you to shift workloads between servers, even across geographically disparate data centers. |
+| [Global IP addresses](/docs/infrastructure/subnets?topic=subnets-about-global-ip-address#about-global-ip-address) | Provide flexibility to shift workloads between servers, even across geographically disparate data centers. |
 | [Load balancing](/docs/infrastructure/loadbalancer-service?topic=loadbalancer-service-getting-started) | Distributes processing and communications evenly across multiple servers within a data center so that a single device does not carry an entire load. |
 | [Virtual Router Appliance](/docs/infrastructure/virtual-router-appliance?topic=virtual-router-appliance-getting-started) | Selectively routes private and public network traffic through a full-featured enterprise router with firewall, traffic shaping, policy-based routing, VPN, and a host of other features. |
 | [IPSec VPN](/docs/infrastructure/iaas-vpn?topic=VPN-setup-ipsec-vpn#setup-ipsec-vpn) | A suite of protocols designed to authenticate and encrypt all IP traffic between two locations by using a tunnel mode that provides an encrypted site-to-site network. |
@@ -148,8 +148,8 @@ After you build your infrastructure and environment, you're ready to start manag
 
 | Task | Description |
 |--------|---------------|
-| [Monitor system events](/docs/account?topic=account-audit-log) | View the actions that have been performed on your infrastructure resources. |
+| [Monitor system events](/docs/account?topic=account-audit-log) | View the actions that are performed on your infrastructure resources. |
 | [Set email preferences](/docs/account?topic=account-email-prefs) | Set up {{site.data.keyword.cloud_notm}} infrastructure email notifications about unplanned events, maintenance, and announcements.  |
-| [Understand how your data is safe](/docs/overview?topic=overview-security) | The {{site.data.keyword.cloud_notm}} platform has layered security controls across network and infrastructure. |
+| [Understand how your data is safe](/docs/overview?topic=overview-security) | The {{site.data.keyword.cloud_notm}} platform provides layered security controls across network and infrastructure. |
 | [Understand how you can ensure zero downtime](/docs/overview?topic=overview-zero-downtime) | All {{site.data.keyword.cloud_notm}} resources are hosted in data center locations around the world. |
 {: caption="Table 4. Management tasks" caption-side="top"}
