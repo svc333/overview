@@ -3,7 +3,7 @@
 
 copyright:
   years: 2015, 2019
-lastupdated: "2019-08-19"
+lastupdated: "2019-08-22"
 
 keywords: ui, components, using the console, SoftLayer, classic infrastructure, redirect, catalog, pricing information, get support
 
@@ -59,7 +59,7 @@ You can work with your resources in various ways from the resource list:
 ## Working in the catalog
 {: #catalogcreate}
 
-To create a resource, click **Create** from your resource list. You're then directed to the catalog. When you select a tile from the catalog, you can see where the resource is available. Not every resource listed in the catalog is available in every region.
+To create a resource, click **Create** from your resource list. You're then directed to the catalog. When you select a tile from the catalog, you can see where the resource is available. Not every resource that is listed in the catalog is available in every region.
 
 After you click the tile for the resource that you want create, you can select which location you want to deploy in.
 
@@ -105,7 +105,7 @@ Use the catalog to place an order. You can navigate to the catalog in one of the
 
 ![Location to place an order.](images/orders.png "Placing an order"){: caption="Figure 3. Placing an order in the {{site.data.keyword.cloud_notm}} console" caption-side="bottom"}
 
-If your account includes any discounts, the price of an offering that's displayed on the offering details page reflects the discounted price of that offering.
+If your account includes any discounts, the price of an offering that is displayed on the offering details page reflects the discounted price of that offering.
 {: tip}
 
 ### Making a payment
