@@ -2,7 +2,7 @@
 
 copyright:
   years: 2018, 2019
-lastupdated: "2019-08-19"
+lastupdated: "2019-08-22"
 
 keywords: first steps, understanding IT ops, infrastructure, quick start guide, IT ops admin, building
 
@@ -26,7 +26,7 @@ This quick start guide is intended to help IT operations administrators (IT ops 
 ## Before you begin
 {: #prereqs-it-ops}
 
-Sign up for a Pay-As-You-Go or Subscription account to get full access to all offerings in the catalog, including those with free service plans. 
+Sign up for a Pay-As-You-Go or Subscription account to get full access to all offerings in the catalog, including offerings with free service plans. 
 
 ## Quick start steps
 {: #steps-it-ops}
@@ -36,7 +36,7 @@ Sign up for a Pay-As-You-Go or Subscription account to get full access to all of
     * Check out the [architecture diagram](https://www.ibm.com/cloud/garage/architectures/infrastructure){: new_window} ![External link icon](../icons/launch-glyph.svg) for {{site.data.keyword.cloud_notm}} infrastructure. 
 2. Use the cost estimator to get an idea of how much your infrastructure might cost:
 
-    a. Start by selecting an offering from the catalog. Then click **Continue** from the offering details page.
+    a. Start by selecting an offering from the catalog. Then, click **Continue** from the offering details page.
     
     b. Enter the configuration details, select your pricing plan, and click **Add to estimate**. 
 3. After you plan out your infrastructure, click **Provision** from the order summary to start building your environment. 
