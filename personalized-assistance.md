@@ -2,9 +2,9 @@
 
 copyright:
   years: 2019
-lastupdated: "2019-08-15"
+lastupdated: "2019-08-22"
 
-keywords: personalized onboarding, onboarding program, Global Client Succes, getting started, how to, get help, new user, first time, personal, dedicated assistance, cloud onboarding, account setup
+keywords: personalized onboarding, onboarding program, Global Client Success, getting started, how to, get help, new user, first time, personal, dedicated assistance, cloud onboarding, account setup
 
 subcollection: overview
 
@@ -32,7 +32,7 @@ You must be logged in to your account to qualify for personalized onboarding. Af
 ## What's the process?
 {: #personalized-onboarding-process}
 
-After requesting free onboarding assistance, you are contacted by a member of our {{site.data.keyword.IBM_notm}} Global Client Success team within two to three business days. We remain engaged to ensure your success on the {{site.data.keyword.cloud_notm}} platform. 
+After you request free onboarding assistance, you are contacted by a member of our {{site.data.keyword.IBM_notm}} Global Client Success team within 2 to 3 business days. We remain engaged to ensure your success on the {{site.data.keyword.cloud_notm}} platform. 
 
 <div class="onboarding-ub">
   <div class="ub-widget" style="display: flex;">
@@ -51,7 +51,7 @@ We're here to help to you get started with any area of {{site.data.keyword.cloud
 ### Need to connect with us sooner?
 {: #contact-client-success}
 
-If you would like to connect with us sooner after requesting onboarding assistance by clicking **Get started** in the previous section, you can <a href="mailto:globalonboarding@wwpdl.vnet.ibm.com">email us</a>. Make sure you use the **Get started** button to request onboarding assistance before you send your email.
+If you would like to connect with us sooner after you request onboarding assistance by clicking **Get started** in the previous section, you can <a href="mailto:globalonboarding@wwpdl.vnet.ibm.com">email us</a>. Make sure that you use the **Get started** button to request onboarding assistance before you send your email.
 
 ### Want to get started on your own?
 {: #self-onboard}
