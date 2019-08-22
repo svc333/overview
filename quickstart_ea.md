@@ -4,7 +4,7 @@ copyright:
 
   years: 2018, 2019
 
-lastupdated: "2019-08-19"
+lastupdated: "2019-08-22"
 
 keywords: enterprise architect quick start, quick start guide, designing, cloud architecture, enterprise architects
 
@@ -27,7 +27,7 @@ This quick start guide is intended to help enterprise architects understand how 
 ## Before you begin
 {: #prereqs-ea}
 
-Create a Pay-As-You-Go or Subscription account to get full access to all offerings in the catalog, including those with free service plans. 
+Create a Pay-As-You-Go or Subscription account to get full access to all offerings in the catalog, including offerings with free service plans. 
 
 ## Quick start steps
 {: #steps-ea}
