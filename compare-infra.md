@@ -1,7 +1,7 @@
 ---
 copyright:
   years: 2019
-lastupdated: "2019-06-05"
+lastupdated: "2019-08-22"
 
 keywords: understanding infrastructure, vpc, classic infrastructure, cloud environment
 
@@ -25,7 +25,7 @@ Compare the key differences between {{site.data.keyword.cloud}} infrastructure e
 
 If you aren't familiar with the environment types, review the following descriptions.
 
-* Classic infrastructure is our existing IaaS platform. This environment is best for lift and shift workloads, allowing you to move applications quickly and keep the same architecture.
+* Classic infrastructure is our existing IaaS platform. This environment is best for lift and shift workloads so you can move applications quickly and keep the same architecture.
 * VPC infrastructure is our new IaaS platform, based on software-defined networking and ideal for cloud-native applications.
 
 Classic infrastructure and VPC infrastructure are cost neutral, so you can focus on what environment best meets your needs.
@@ -48,7 +48,7 @@ See the following table for the compute differences between classic and VPC.
 {: row-headers}
 {: class="comparison-table"}
 {: caption="Table 1. Compute comparison" caption-side="top"}
-{: summary="This table has row and column headers. The row headers identify possible features. The column headers indentify the differentiators between classic infrastructure and VPC infrastructure. To understand the differences between environments, navigate to the row and find the details for the feature that you're interested in."}
+{: summary="This table has row and column headers. The row headers identify possible features. The column headers identify the differentiators between classic infrastructure and VPC infrastructure. To understand the differences between environments, navigate to the row and find the details for the feature that you're interested in."}
 
 ## Network differentiators
 {: #compare-network}
@@ -57,12 +57,12 @@ See the following table for the networking differences between classic and VPC.
 
 | Category   |  Classic infrastructure   | VPC infrastructure |
 | ---------- | ------------------------- | ------------------ |
-| Location construct    | Data centers and PODs <br>(Might require VLAN spanning to connect two different pods/data centers, and purchasing gateways to control and route traffic) | Regional model that abstracts infrastructure so you don't need to worry about pod locations.|
+| Location construct    | Data centers and PODs <br>(Might require VLAN spanning to connect two different pods or data centers, and purchasing gateways to control and route traffic) | Regional model that abstracts infrastructure so you don't need to worry about pod locations.|
 | Network functions and services |Physical and virtual appliances from multiple vendors | Cloud-native network functions (VPNs, LBaaS)<br>(VPC isolation, dedicated resources carved out of public cloud, with more options for VPNs, LBaaS, multiple vNIC instances, and larger subnet sizes) |
 | IP addresses | IPv6 addresses supported | IPv4 addresses only |
 | Gateway routing | Use a virtual or physical network appliance (Virtual Router Appliance, Vyatta, Juniper vSRX, Fortinet FSA) | Traffic routing is handled by public gateway and floating IP services |
 | Network address translation (NAT) | Use a virtual or physical network appliance (Virtual Router Appliance, Vyatta, Juniper vSRX, Fortinet FSA) | Supported by the Bring-your-own-IP (BYOIP) functionality  |
-| IPsec Virtual private network (VPN) | Use a virtual or physical network appliance (Virtual Router Appliance, Vyatta, Juniper vSRX, Fortinet FSA) | Supported with the VPN-as-a-service offering |
+| IPsec Virtual private network (VPN) | Use a virtual or physical network appliance (Virtual Router Appliance, Vyatta, Juniper vSRX, Fortinet FSA) | Supported by the VPN-as-a-service offering |
 |  Elastic load balancing | Cloud Load Balancer  | Load Balancer for VPC |
 | Global load balancing| Cloud Internet Services, Citrix Netscaler MPX | Cloud Internet Services |
 |Hybrid connectivity | NAT solution to bridge between IBM Cloud and your IT environment | Bring your own private IP address without NAT or IPSec tunnels <br>Note: You can enable your VPC to access classic infrastructure resources. |
@@ -78,7 +78,7 @@ See the following table for the storage differences between classic and VPC.
 
 |  Classic infrastructure   | VPC infrastructure |
 | ------------------------- | ------------------ |
-|Robust set of storage services, block storage (iSCSI) and file storage (NFS-based) offerings| Block storage as primary boot disk (with basic lifecycle management), and secondary data volumes  <br> Note: Volume encryption is available during provisioning.|
+|Robust set of storage services, block storage (iSCSI), and file storage (NFS-based) offerings| Block storage as primary boot disk (with basic lifecycle management), and secondary data volumes  <br> Note: Volume encryption is available during provisioning.|
 {: caption="Table 3. Storage comparison" caption-side="top"}
 
 ## Security differentiators
