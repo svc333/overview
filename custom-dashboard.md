@@ -2,7 +2,7 @@
 
 copyright:
   years: 2019
-lastupdated: "2019-08-21"
+lastupdated: "2019-08-22"
 
 keywords: dashboard, widgets display, manage visibility, customize, console
 
@@ -21,7 +21,7 @@ subcollection: overview
 # Customizing your dashboard
 {: #custom-dashboard}
 
-You can customize your dashboard in the {{site.data.keyword.cloud}} console to ensure that what's displayed is relevant to you.
+You can customize your dashboard in the {{site.data.keyword.cloud}} console to ensure that what is displayed is relevant to you.
 {: .shortdesc}
 
 ## Adding widgets
