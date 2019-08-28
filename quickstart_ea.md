@@ -6,7 +6,7 @@ copyright:
 
 lastupdated: "2019-08-22"
 
-keywords: enterprise architect quick start, quick start guide, designing, cloud architecture, enterprise architects
+keywords: cloud architect quick start, quick start guide, designing, cloud architecture, enterprise architects
 
 subcollection: overview
 
@@ -21,13 +21,13 @@ subcollection: overview
 # Designing your cloud architecture
 {: #quickstart-enterprise}
 
-This quick start guide is intended to help enterprise architects understand how {{site.data.keyword.Bluemix}} can solve their business needs. 
+This quick start guide is intended to help enterprise cloud architects understand how {{site.data.keyword.Bluemix}} can solve their business needs. 
 {:shortdesc}
 
 ## Before you begin
 {: #prereqs-ea}
 
-Create a Pay-As-You-Go or Subscription account to get full access to all offerings in the catalog, including offerings with free service plans. 
+Create a Pay-As-You-Go or Subscription account to get full access to all offerings in the catalog, including offerings with free service plans. If you need multiple accounts for different departments and teams, consider creating an [{{site.data.keyword.Bluemix_notm}} enterprise](/docs/account?topic=account-enterprise) so that you can centrally manage billing and usage for all of the accounts.
 
 ## Quick start steps
 {: #steps-ea}
