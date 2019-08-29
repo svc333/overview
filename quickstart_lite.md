@@ -4,7 +4,7 @@ copyright:
 
   years: 2018, 2019
 
-lastupdated: "2019-08-19"
+lastupdated: "2019-08-29"
 
 keywords: quick start, get started with IBM Cloud, quick start guide, Lite account, try out, free
 
@@ -45,6 +45,6 @@ Go to the [{{site.data.keyword.Bluemix_notm}} console](https://{DomainName}) and
 ## Next steps
 {: #nextsteps-lite}
 
-Start building your apps. See the [Getting started tutorial](/docs/apps/tutorials?topic=creating-apps-tutorial-getting-started) for more information. 
+Start building your apps. See the [Getting started tutorial](/docs/apps?topic=creating-apps-getting-started) for more information. 
 
 
