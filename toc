@@ -37,6 +37,7 @@ Getting started with IBM Cloud
     platform-cli-api.md
     security.md
     zero_downtime.md
+    certifications.md
 
     {: .topicgroup}
     General resources
