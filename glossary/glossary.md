@@ -3,7 +3,7 @@
 
 copyright:
   years: 2016, 2019
-lastupdated: "2019-08-19"
+lastupdated: "2019-09-09"
 
 keywords: glossary, IBM Cloud glossary, terms, definitions
 
@@ -73,6 +73,11 @@ Two or more container group instances that run on different network nodes to ens
 {: #x2008805}
 
 See [application programming interface](/docs/overview?topic=overview-glossary#x2000186).
+
+### API key
+{: #x8051010}
+
+A unique code that is passed to an API to identify the calling application or user. An API key is used to track and control how the API is being used, for example, to prevent malicious use or abuse of the API.
 
 ### app
 {: #x4281528}
