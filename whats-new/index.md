@@ -4,7 +4,7 @@ copyright:
 
   years: 2015, 2019
 
-lastupdated: "2019-08-22"
+lastupdated: "2019-09-12"
 
 keywords: release notes, what's new, what is new, cloud updates, new features, platform
 
@@ -27,6 +27,12 @@ If you're looking for updates for the services that are available on {{site.data
 
 ## {{site.data.keyword.Bluemix_notm}} platform
 {: #platform_category}
+
+### Redirecting SoftLayer to {{site.data.keyword.Bluemix_notm}} 
+{: #sl-redirect}
+New as of: 12 September 2019
+
+SoftLayer account owners who previously didn't have access to the {{site.data.keyword.Bluemix_notm}} platform can now manage their infrastructure, services, and applications from one location: [cloud.ibm.com](https://cloud.ibm.com){: new_window} ![External link icon](../../icons/launch-glyph.svg "External link icon"). For more details, see [Transitioning to the {{site.data.keyword.Bluemix_notm}} experience](/docs/overview?topic=overview-ui#redirect-cloud).
 
 ### {{site.data.keyword.Bluemix_notm}} enterprises for centrally managing multiple accounts
 {: #ibm-cloud-enterprises}
