@@ -3,7 +3,7 @@
 
 copyright:
   years: 2016, 2019
-lastupdated: "2019-09-09"
+lastupdated: "2019-09-16"
 
 keywords: glossary, IBM Cloud glossary, terms, definitions
 
@@ -340,6 +340,11 @@ A hierarchical structure of accounts with centralized account and billing manage
 
 An offering that {{site.data.keyword.IBM_notm}} makes available solely for evaluation and testing purposes, and might be unstable or not compatible with previous versions. An experimental offering can be discontinued with short notice. There are no warranties, SLAs or support provided, and experimental offerings are not intended for production use.
 
+### explainability
+{: #x9758663}
+
+The ability of human users to trace, audit, and understand predictions that are made in applications that use AI systems.
+
 ## F
 {: #glossf}
 
@@ -397,6 +402,11 @@ Date when an offering is widely available for sale and delivery to customers or 
 
 An algorithmically determined number that uniquely identifies an entity within a system.
 
+### gossip
+{: #x9825999}
+
+A method of sharing network information among peers in which each peer forwards messages to a random selection of the current peers in the network.
+
 ### GUID
 {: #x2390457}
 
@@ -405,6 +415,11 @@ See [globally unique identifier](/docs/overview?topic=overview-glossary#x2390455
 
 ## H
 {: #glossh}
+
+### hardware security module (HSM)
+{: #x6704988}
+
+A physical appliance that provides on-demand encryption, key management, and key storage as a managed service.
 
 ### hardware virtual machine mode (HVM)
 {: #x9736811}
@@ -420,6 +435,11 @@ A client operation that writes, deletes, or inserts data. Heavy API calls consum
 {: #x2002243}
 
 A computer that is connected to a network and that provides an access point to that network. The host can be a client, a server, or both a client and server simultaneously. See also [client](/docs/overview?topic=overview-glossary#x2000644), [custom domain](/docs/overview?topic=overview-glossary#x5728384), [domain](/docs/overview?topic=overview-glossary#x2021210), [route](/docs/overview?topic=overview-glossary#x2037338), [subdomain](/docs/overview?topic=overview-glossary#x2040080), [Uniform Resource Locator](/docs/overview?topic=overview-glossary#x2042491).
+
+### HSM
+{: #x2009137}
+
+See [hardware security module](#x6704988).
 
 ### HTTP method
 {: #x2024674}
@@ -440,6 +460,11 @@ See [hardware virtual machine mode](/docs/overview?topic=overview-glossary#x9736
 {: #x4585327}
 
 A cloud computing environment that consists of multiple public and private resources.
+
+### Hyperledger fabric
+{: #x8889858}
+
+The implementation of the Linux Hyperledger project. See also [Linux Hyperledger project](#x8888396).
 
 ### Hypertext Transfer Protocol Secure (HTTPS)
 {: #x2237225}
@@ -548,6 +573,11 @@ A client operation that only reads data. Light API calls use fewer resources tha
 
 An open protocol that uses TCP/IP to provide access to directories that support an X.500 model and that does not incur the resource requirements of the more complex X.500 Directory Access Protocol (DAP). For example, LDAP can be used to locate people, organizations, and other resources in an Internet or intranet directory.
 
+### Linux Hyperledger project
+{: #x8888396}
+
+An open source, collaborative effort to advance blockchain technology by identifying and addressing important features for a cross-industry open standard for distributed ledgers that can transform the way business transactions are conducted globally. Hyperledger serves as the foundation code for the IBM Blockchain products, services, and solutions. See also [Hyperledger fabric](#x8889858).
+
 ### local cloud
 {: #x8439194}
 
@@ -557,10 +587,20 @@ A cloud computing environment within the client's data center. The local cloud i
 ## M
 {: #glossm}
 
+### machine learning model
+{: #x7579194}
+
+A component that identifies entities and entity relationships according to a statistical model that is based on ground truth. The model applies past experience, such as training data, to determine or predict the correct outcome of future experiences based on characteristics of the data. These past experiences are captured in the form of a model by calculating feature scores for each candidate answer or evidence and combining that with known outcomes.
+
 ### MBaaS
 {: #x7044865}
 
 See [mobile backend as a service](/docs/overview?topic=overview-glossary#x7044858).
+
+### member
+{: #x2003073}
+
+A participant that is enrolled in a blockchain network. A member can be as large as a multi-national corporation or as small as an individual.
 
 ### mobile app
 {: #x7636517}
@@ -600,10 +640,20 @@ See [multizone region](/docs/overview?topic=overview-glossary#x9774820).
 
 A unique name that identifies your organization's image repository within the IBM Cloud registry. See also [image](/docs/overview?topic=overview-glossary#x2024928), [private image repository](/docs/overview?topic=overview-glossary#x8439215).
 
+### NAT
+{: #x2245519}
+
+See [network address translation](#x2031199).
+
 ### network address translation
 {: #x2031199}
 
 An addressing method that is used to enable one IP address to communicate with several other IP addresses, such as those on a private subnet, by means of a lookup table. Network address translation has two main types: 1-to-1 and many-to-1.
+
+### node
+{: #x2003286}
+
+A device on a blockchain network that maintains a copy of the blockchain.
 
 
 ## O
@@ -624,6 +674,16 @@ See [on-premises](/docs/overview?topic=overview-glossary#x4561212).
 
 Pertaining to software that is installed and run on the local computers of a user or organization.
 
+### orderer node
+{: #x9826016}
+
+A node that collects transactions from network members, orders the transactions and bundles them into blocks.
+
+### ordering service
+{: #x9826021}
+
+A service that provides a shared communication channel to clients and peers for the broadcast of messages that contain transactions.
+
 ### org
 {: #x7470494}
 
@@ -633,6 +693,11 @@ See [organization](/docs/overview?topic=overview-glossary#x2032585).
 {: #x2032585}
 
 The grouping methodology for users in IBM Cloud. Orgs are used to manage quotas. Users in an org share memory and service instance quotas. See also [domain](/docs/overview?topic=overview-glossary#x2021210), [space](/docs/overview?topic=overview-glossary#x2039442).
+
+### origin server
+{: #x2210603}
+
+A server that processes and responds to incoming requests from clients, and is typically used with a caching server.
 
 
 ## P
@@ -652,6 +717,11 @@ A lightweight virtualization technique. While in paravirtualized mode, a virtual
 {: #x8439210}
 
 An image that provides a base for another image. For example, Ubuntu Linux is the parent image of the IBM Liberty image. See also [base image](/docs/overview?topic=overview-glossary#x5366487), [image](/docs/overview?topic=overview-glossary#x2024928).
+
+### payload logging
+{: #x9758658}
+
+The capture of payload data and deployment output to monitor ongoing health of AI in business applications.
 
 ### payment method
 {: #x2281605}
@@ -842,6 +912,11 @@ An identity that authenticates a service or an application to a cloud environmen
 
 The period of time after an app is started on a mobile device and the quality assurance product is notified to begin collecting app behavior, issues, and problems.
 
+### signCert
+{: #x9826026}
+
+A certificate that any entity, such as an organization or admin, attaches to their proposals or proposal responses. These signCerts are unique to an entity and are checked by the ordering service to make sure they match the signCert on file for that entity.
+
 ### single sign-on (SSO)
 {: #x2213318}
 
@@ -852,10 +927,20 @@ An authentication process in which a user can access more than one system or app
 
 A region that consists of data centers that are located within one zone, See also [zone](/docs/overview?topic=overview-glossary#x2070723).
 
+### smart contract
+{: #x8888420}
+
+A set of business terms that are embedded into a blockchain and executed with transactions. A smart contract can also include a digital representation of a set of business rules and defines conditions under which transfers occur. A smart contract is implemented using chaincode.
+
 ### software as a service (SaaS)
 {: #x4585386}
 
 A model of software deployment whereby software including business processes, enterprise applications, and collaboration tools, are provided as a service to customers through the cloud.
+
+### SOLO
+{: #x9825888}
+
+A consensus plugin implementation for Hyperledger Fabric that results in a single ordering service node in the blockchain network.
 
 ### SOR
 {: #x2214822}
@@ -891,6 +976,11 @@ A section of a software package that defines either a specific action to be perf
 {: #x7470511}
 
 A template that includes predefined services and application code that is configured with a particular buildpack.  A starter might be application code that is written in a specific programming language, or a combination of application code and a set of services. See also [runtime](/docs/overview?topic=overview-glossary#x2391929).
+
+### state database
+{: #x9826031}
+
+A database that stores current state data from a transaction log for efficient access from chaincode.
 
 ### subdomain
 {: #x2040080}
@@ -951,6 +1041,11 @@ Pertaining to a product or service that is provided by a company other than IBM.
 
 A visual representation of a running application that provides status on a dashboard.
 
+### transaction
+{: #x2005321}
+
+The mechanism that participants on the blockchain network use to interact with assets. A transaction either creates new chaincode or invokes an operation in an existing chaincode.
+
 ### trigger
 {: #x2005384}
 
@@ -1008,7 +1103,7 @@ A logical association of switch ports based upon a set of rules or criteria, suc
 
 A software implementation of a machine that executes programs like a real machine. See also [virtual server](/docs/overview?topic=overview-glossary#x2455638).
 
-### virtual private cloud
+### virtual private cloud (VPC)
 {: #x4585403}
 
 A virtual network that is tied to a private user account and isolated from other networks in a public cloud. Only authorized users can access virtual private cloud resources, which include virtual servers, storage, and subnets.
@@ -1034,15 +1129,21 @@ See [virtual local area network](/docs/overview?topic=overview-glossary#x2438470
 
 See [virtual machine](/docs/overview?topic=overview-glossary#x2043165).
 
+### volume
+{: #x2043272}
+
+A fixed amount of physical or virtual storage on a data storage medium.
+
+### VPC
+{: #x2484345}
+
+See [virtual private cloud](#x4585403).
+
 ### VPN
 {: #x2484351}
 
 See [virtual private network](/docs/overview?topic=overview-glossary#x2043188).
 
-### volume
-{: #x2043272}
-
-A fixed amount of physical or virtual storage on a data storage medium.
 
 ## W
 {: #glossw}
