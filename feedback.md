@@ -21,7 +21,7 @@ subcollection: overview
 We want to hear from you! You can submit feedback for the {{site.data.keyword.Bluemix_notm}} team on the documentation or the console. You can choose from a few different methods to provide feedback.
 {: shortdesc}
 
-## Submitting a comment with the feedback button
+## Submitting a comment by using the Feedback button
 {: #feedback-button}
 
 When you are reading a page of documentation or completing a task within the console, you can find a feedback button on the edge of the page. Click the **Feedback** button to submit a rave review, a suggestion, or identify an error.
@@ -35,7 +35,7 @@ When you are reading a page of documentation or completing a task within the con
 Common ad blockers block Usabilla and hide the **Feedback** button. Disable any ad blockers to use the **Feedback** button to submit your comments.
 {: tip}
 
-## Submitting feedback on a documentation topic
+## Submitting feedback on the documentation
 {: #feedback-topic}
 
 You can submit feedback on a specific documentation topic by using the **Was this page helpful?** buttons that are displayed at the end of each topic. Do you find the information helpful? Click **Yes** and optionally provide a comment. If you don't find it helpful, or you have suggestions for improvements, click **No**, and provide more details.  
@@ -51,7 +51,7 @@ Complete the following process to submit a pull request to the content team:
 2. Click the **Edit this file** icon.
 3. Make changes to the file in the WYSIWYG editor.
 4. Scroll to the end of the page and enter a brief description about your change. The extended description is optional.
-5. Select **Propose file change**.
+5. Click **Propose file change**.
 6. Select **Create pull request**.
 7. Review your changes for the pull request.
 8. Select **Create pull request**. 
