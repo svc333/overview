@@ -4,7 +4,7 @@ copyright:
 
   years: 2015, 2019
 
-lastupdated: "2019-09-12"
+lastupdated: "2019-09-23"
 
 keywords: release notes, what's new, what is new, cloud updates, new features, platform
 
@@ -27,6 +27,14 @@ If you're looking for updates for the services that are available on {{site.data
 
 ## {{site.data.keyword.Bluemix_notm}} platform
 {: #platform_category}
+
+### Term-based model for {{site.data.keyword.Bluemix_notm}} support subscriptions
+{: #support-subscriptions}
+New as of: 23 September 2019
+
+New subscriptions for {{site.data.keyword.Bluemix_notm}} support now follow the same term-based model as subscriptions for {{site.data.keyword.Bluemix_notm}} platform services. Rather than credit being valid in monthly increments, credit is now available up front for an entire subscription term, which can be up to one year's worth of credit. You now have more flexibility to use your support credit when you need it, and the chances of incurring monthly overages are reduced. When you buy or renew a support subscription, any existing active support subscriptions are converted to this new flexible model for the remainder of their term. For more information, see [Support subscriptions](/docs/account?topic=account-accounts#support-subscriptions).
+
+You can also now view your support subscriptions in the {{site.data.keyword.Bluemix_notm}} console so you can keep track of your available credit. For more information, see [Viewing your support costs](/docs/billing-usage?topic=billing-usage-support).
 
 ### Redirecting SoftLayer to {{site.data.keyword.Bluemix_notm}} 
 {: #sl-redirect}
