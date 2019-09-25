@@ -2,7 +2,7 @@
 
 copyright:
   years: 2018, 2019
-lastupdated: "2019-08-19"
+lastupdated: "2019-09-25"
 
 keywords: HA, failover, DR, high availability, disaster recovery, locations, data centers, zero downtime, resources, workloads, failover, infrastructure resources
 
@@ -197,18 +197,6 @@ For example, in a 31-day month, you have 44,640 total number of minutes. If you 
 ```
 
 SLAs don't include downtime or failures that are related to {{site.data.keyword.Bluemix_notm}} UI unavailability, or the time it takes to reload, configure, enable, or access content.
-
-The availability downtime SLA doesn't include {{site.data.keyword.Bluemix_notm}} infrastructure services. 
-{: note}
-
-### Infrastructure services SLAs
-{: #iaas-slas}
-
-Infrastructure services are bare metal and virtual servers, networking, storage, and security services. To find a complete list of infrastructure services, filter the {{site.data.keyword.Bluemix_notm}} catalog with `iaas`. 
-
-Downtime is the total minutes a customer-identified infrastructure service is unavailable because of service disruption based on Public network, Private network, and Redundant Infrastructure power and HVAC outages. The total downtime minutes calculation begins when the validated outage that affects the service is identified until the time the service is available. 
-
-Downtime doesn't include time for scheduled or announced maintenance. For each 30 continuous minute period of downtime, you receive a credit in the amount of 5% of the monthly charges for the identified services that are directly impacted by the outage. You're not eligible for a credit if the downtime is less than 30 continuous minutes. Downtime for different outage types might not be combined to meet this calculation. 
 
 ### Infrastructure hardware replacement and upgrade SLA
 {: #hw-replaceupgrade-sla}
