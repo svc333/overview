@@ -3,7 +3,7 @@
 
 copyright:
   years: 2016, 2019
-lastupdated: "2019-09-16"
+lastupdated: "2019-09-30"
 
 keywords: glossary, IBM Cloud glossary, terms, definitions
 
@@ -53,16 +53,52 @@ A value used by the consumer to gain access to the protected resources on behalf
 
 An organizational unit for accounts within an enterprise. An account group can contain accounts or other account groups. See also [enterprise](/docs/overview?topic=overview-glossary#x2026915).
 
+### accuracy
+{: #x3125742}
+
+A measure of the correctness of annotations that are produced by a machine learning model. See also [precision](/docs/overview?topic=overview-glossary#x2003831), [recall](/docs/overview?topic=overview-glossary#x2154357).
+
+### accuracy analysis
+{: #x7881108}
+
+Analyzing machine learning model scores to determine whether changes are needed to improve accuracy.
+
 ### action
 {: #x2012974}
 
 - A code snippet that can be explicitly invoked, or run in response to an event. See also [feed](/docs/overview?topic=overview-glossary#x3129185), [invoke](/docs/overview?topic=overview-glossary#x2057232).
 - A task that is performed in the context of a service.
 
+### adjudication
+{: #x3096333}
+
+An iterative process for resolving annotation conflicts by comparing the annotations added to the same document by different human annotators.
+
 ### affinity
 {: #x2149238}
 
 Two or more container group instances running on the same network node. See also [anti-affinity](/docs/overview?topic=overview-glossary#x8888040).
+
+### analysis engine
+{: #x3461204}
+
+A program that analyzes artifacts, such as documents, and infers information about them, and which implements the UIMA Analysis Engine interface specification. Analysis engines are constructed from building blocks called annotators. An analysis engine can contain a single annotator, which is referred to as a primitive analysis engine, or multiple annotators, which is referred to as an aggregate analysis engine.
+
+### annotation
+{: #x2013712}
+
+Information about a span of text. For example, an annotation might indicate that a span of text represents a company name.
+
+### annotation process manager
+{: #x9825807}
+
+A role that is responsible for managing the full annotation lifecycle activities within a workspace. The project manager that is added to a workspace typically performs the activities of an annotation process manager.
+
+### annotation set
+{: #x9504010}
+
+- In human annotation, a collection of documents that are extracted from the corpus that allow the workload to be shared by multiple human annotators.
+- In machine-based annotation, a collection of documents that can be used as blind data, training data, or test data.
 
 ### anti-affinity
 {: #x8888040}
@@ -79,6 +115,16 @@ See [application programming interface](/docs/overview?topic=overview-glossary#x
 
 A unique code that is passed to an API to identify the calling application or user. An API key is used to track and control how the API is being used, for example, to prevent malicious use or abuse of the API.
 
+### API operation
+{: #x9826953}
+
+A unit of a REST API that can be invoked. An API operation comprises an HTTP verb and a URL path that is subordinate to the context root of the API.
+
+### API resource
+{: #x7103848}
+
+A unit of a REST API that can be invoked. An API resource comprises an HTTP verb and a unique URL path that is subordinate to the context root of the API.
+
 ### app
 {: #x4281528}
 
@@ -93,6 +139,11 @@ An interface that allows an application program that is written in a high-level 
 {: #x2262995}
 
 An entity that is used or produced by a software or systems development process. Examples of artifacts include designs, requirements, source files, plans, scripts, simulations, models, test plans, and binary executable files. In an HTTP context, artifacts have a URI and are called resources.
+
+### assembly
+{: #x2260813}
+
+An application programming interface that provides rich functionality for interacting with an application. The assembly  makes side calls to external services and then transforms and aggregates the response before a response is relayed to the calling application.
 
 ### authentication (AuthN)
 {: #x2014567}
@@ -138,6 +189,11 @@ An image that has no parent image. See also [image](/docs/overview?topic=overvie
 
 An offering that {{site.data.keyword.IBM_notm}} makes available solely for evaluation and testing purposes.  There are no warranties, SLAs or support provided and beta offerings are not intended for production use.
 
+### bias detection
+{: #x9721361}
+
+The process of calculating fairness to metrics to detect when AI models are delivering unfair outcomes based on certain attributes.
+
 ### billing option
 {: #x6526863}
 
@@ -152,6 +208,11 @@ The highest level billing entity within an enterprise. Each account or account g
 {: #x2000361}
 
 To establish a connection between software components on a network using an agreed-to protocol. In web services, the bind operation occurs when the service requester invokes or initiates an interaction with the service at run time using the binding details in the service description to locate, contact, and invoke the service.
+
+### blind data
+{: #x7881128}
+
+A set of documents annotated with the ground truth, such as question and answer pairs, semantic annotation, and passage judgment. Blind data is never released or seen by developers and is used to test the system periodically to evaluate performance on unseen data. See also [testing data](/docs/overview?topic=overview-glossary#x7736833), [training data](/docs/overview?topic=overview-glossary#x2860199).
 
 ### BLU Acceleration
 {: #x7470463}
@@ -176,7 +237,7 @@ Pertaining to an open, non-proprietary development platform that includes public
 ### buildpack
 {: #x7233925}
 
-A collection of scripts that prepare your code to run on IBM Cloud. Buildpacks examine deployed applications, then download and configure any dependent applications.
+A collection of scripts that prepare your code to run on {{site.data.keyword.cloud_notm}}. Buildpacks examine deployed applications, then download and configure any dependent applications.
 
 
 ## C
@@ -197,6 +258,11 @@ A trusted third-party organization or company that issues the digital certificat
 
 An electronic message that an organization sends to a certificate authority (CA) to obtain a certificate. The request includes a public key and is signed with a private key; the CA returns the certificate after signing with its own private key.
 
+### chaincode
+{: #x9829545}
+
+Executable code that is deployed on a blockchain network, where it is executed and validated by chain validators together during the consensus process. Developers can use chaincodes to interact with a network's shared ledger, develop business contracts, asset definitions, and collectively-managed decentralized applications.
+
 ### CLI
 {: #x2008863}
 
@@ -205,7 +271,13 @@ See [command-line interface](/docs/overview?topic=overview-glossary#x2051424).
 ### client
 {: #x2000644}
 
-A software program or computer that requests services from a server. See also [host](/docs/overview?topic=overview-glossary#x2002243).
+- A software program or computer that requests services from a server. See also [host](/docs/overview?topic=overview-glossary#x2002243).
+- An entity that acts on behalf of a user by connecting to a peer to communicate with the blockchain.
+
+### client secret
+{: #x7024948}
+
+A piece of information that is used with an application key to verify the identity of an application. An API can be configured to require that client applications supply their application secret with their application key. The application secret functions effectively as a password known only to the application. The application secret is passed by the client using an HTTP query parameter.
 
 ### cloud computing
 {: #x3877850}
@@ -222,6 +294,11 @@ The ability to move applications and services across public or private cloud com
 
 A computer interface in which the input and output are text based.
 
+### community
+{: #x3103004}
+
+A collection of consumer organizations. It is used as a grouping construct when publishing APIs. Communities are used to restrict the visibility and accessibility of APIs.
+
 ### component
 {: #x2017871}
 
@@ -232,10 +309,40 @@ In source control management, a grouping of related artifacts in a stream or rep
 
 Infrastructure or resources that serve as the basis for building apps in the cloud.
 
+### confusion matrix
+{: #x2916277}
+
+A table that provides a detailed numeric breakdown of annotated document sets. The table is used to compare the annotations that were added by a machine learning model to the annotations in the ground truth. The table reports the number of false positives, false negatives, true positives, and true negatives.
+
+### consensus
+{: #x8888385}
+
+The process of participants in a blockchain agreeing to a transaction and validating it through the peer network. Consensus ensures that shared ledgers are exact copies, and lowers the risk of fraudulent transactions since tampering would have to occur across many places at the exact same time.
+
+### consumer
+{: #x2263174}
+
+A member in a blockchain network that uses the network to invoke transactions against the distributed ledger.
+
 ### container
 {: #x2010901}
 
 A system construct that allows users to simultaneously run separate logical operating system instances. Containers use layers of file systems to minimize image sizes and promote reuse. See also [image](/docs/overview?topic=overview-glossary#x2024928), [layer](/docs/overview?topic=overview-glossary#x2028320), [registry](/docs/overview?topic=overview-glossary#x2064940).
+
+### coreference
+{: #x9440294}
+
+A relationship between two words or phrases in which both refer to the same person or thing and one stands as a linguistic antecedent of the other. For example, there is a coreference between the two pronouns in the phrase "She taught herself" but not in the phrase "She taught her". A coreference links two equivalent entities in the same text.
+
+### coreference chain
+{: #x9504031}
+
+A list of entities that were annotated as coreferences. When a mention is annotated as a coreference, the system creates a coreference chain.  The coreference chain provides a way to view all of the mentions in context and verify that all of the occurrences belong together under the same entity type.
+
+### corpus
+{: #x3954167}
+
+A collection of source documents that are used to train a machine learning model.
 
 ### credential
 {: #x2018813}
@@ -251,6 +358,11 @@ Within an enterprise billing unit, a consolidation of credit from all sources, i
 {: #x2140147}
 
 See [certificate signing request](/docs/overview?topic=overview-glossary#x3530521).
+
+### curate
+{: #x7883684}
+
+To select, collect, preserve, and maintain content relevant to a specific topic. Curation establishes, maintains, and adds value to data; it transforms data into trusted information and knowledge.
 
 ### custom domain
 {: #x5728384}
@@ -289,7 +401,7 @@ See [data center](/docs/overview?topic=overview-glossary#x2439906).
 ### DEA
 {: #x2019805}
 
-See [Droplet Execution Agent](#x7470348).
+See [Droplet Execution Agent](/docs/overview?topic=overview-glossary#x7470348).
 
 ### dedicated cloud
 {: #x8439199}
@@ -305,6 +417,21 @@ A process that retrieves the output of a build, packages the output with configu
 {: #x5784896}
 
 A software methodology that integrates application development and IT operations so that teams can deliver code faster to production and iterate continuously based on market feedback.
+
+### dictionary
+{: #x2001532}
+
+A collection of words that can be used to pre-annotate documents. A new annotation is created for each word in the document text that matches a term in the dictionary. A machine learning model can be configured with one or more independent dictionaries, which are typically domain-specific, such a dictionary for pharmaceuticals and a dictionary for wealth management. See also [lemma](/docs/overview?topic=overview-glossary#x2763345), [surface form](/docs/overview?topic=overview-glossary#x3271760).
+
+### dictionary pre-annotator
+{: #x9825820}
+
+A component that identifies mentions in text that match a specific set of words. By using domain-specific terminology to pre-annotate text, dictionary pre-annotators can accelerate a human annotator's ability to prepare a set of ground truth documents.
+
+### document set
+{: #x9825825}
+
+A collection of documents. Documents that are imported together become a document set. Annotated documents that are grouped together for training purposes are generated as document sets.
 
 ### domain
 {: #x2021210}
@@ -325,6 +452,16 @@ The Cloud Foundry component that is responsible for deploying applications.
 ## E
 {: #glosse}
 
+### endorse
+{: #x2455719}
+
+To validate a chaincode transaction that was made by another member of a blockchain network.
+
+### endorsement policy
+{: #x8911635}
+
+A policy that defines the peer nodes on a channel that must execute transactions that are attached to a specific chaincode application, and the required combination of endorsements. For example, a policy could require that a transaction be endorsed by a minimum number of endorsing peers, a minimum percentage of endorsing peers, or by all endorsing peers that are assigned to a specific chaincode application.
+
 ### endpoint
 {: #x2026820}
 
@@ -334,6 +471,18 @@ The address of an API or service in an environment. An API exposes an endpoint a
 {: #x2026915}
 
 A hierarchical structure of accounts with centralized account and billing management in a cloud environment. See also [billing unit](/docs/overview?topic=overview-glossary#x9308099).
+
+### entity
+{: #x2026945}
+
+- A set of details that are held about a real-world object such as a person, location, or bank account. An entity is a kind of item.
+- A mention that is annotated by an entity type.
+- A person, object, or concept about which information is stored.
+
+### entity type
+{: #x2760649}
+
+The type of entity that a mention represents without consideration for context. For example, the mention IBM might be annotated by the entity type ORGANIZATION. In an entity-relationship model, an entity type is the thing that is being modeled or the thing that a mention refers to, such as the name of a person or place. Different entity types have different sets of attributes such as "surname" or "home town", and are connected through relationships like "lives in". An entity type exists independently and can be uniquely identified.
 
 ### experimental offering
 {: #x9774278}
@@ -347,6 +496,26 @@ The ability of human users to trace, audit, and understand predictions that are 
 
 ## F
 {: #glossf}
+
+### F1 score
+{: #x9825839}
+
+A measure of a test's accuracy that considers both precision and recall to compute the score. The F1 score can be interpreted as a weighted average of the precision and recall values. An F1 score reaches its best value at 1 and worst value at 0.
+
+### false negative
+{: #x2208339}
+
+An answer or annotation that is correct, but was predicted to be incorrect.
+
+### false positive
+{: #x8979862}
+
+An answer or annotation that is incorrect, but was predicted to be correct.
+
+### feature
+{: #x2022596}
+
+A data member or attribute of a type.
 
 ### federate
 {: #x2763229}
@@ -397,6 +566,11 @@ The cumulative amount of memory (in gigabytes) that is running for all applicati
 
 Date when an offering is widely available for sale and delivery to customers or channels, usually across multiple geographies.
 
+### genesis block
+{: #x9076628}
+
+The configuration block that initializes a blockchain network or channel, and also serves as the first block on a chain.
+
 ### globally unique identifier (GUID)
 {: #x2390455}
 
@@ -406,6 +580,16 @@ An algorithmically determined number that uniquely identifies an entity within a
 {: #x9825999}
 
 A method of sharing network information among peers in which each peer forwards messages to a random selection of the current peers in the network.
+
+### Gossip Data Dissemination Protocol
+{: #x9829550}
+
+A protocol for secure, reliable, and scalable communication of information in an network by passing messages among peers.
+
+### ground truth
+{: #x7736823}
+
+The set of vetted data, consisting of annotations added by human annotators, that is used to adapt a machine learning model to a particular domain. Ground truth is used to train machine learning models, measure model performance (precision and recall), and calculate headroom to decide where to focus development efforts for improving performance. Accuracy of ground truth is essential since inaccuracies in the ground truth will correlate to inaccuracies in the components that use it.
 
 ### GUID
 {: #x2390457}
@@ -425,6 +609,16 @@ A physical appliance that provides on-demand encryption, key management, and key
 {: #x9736811}
 
 Hardware-assisted full virtualization. A virtual machine uses resources from the host computer to operate as a complete hardware environment. The host operating system is unaware of the virtual client.
+
+### headroom analysis
+{: #x7881218}
+
+The process of determining how much improvement in accuracy, precision, or recall can be expected by addressing some class of problems that are identified while performing accuracy analysis.
+
+### health check
+{: #x4571658}
+
+A process that monitors system resources and conditions to determine whether the system is running efficiently. The health check can be configured to report potential problems and to display warnings and fail levels before the integrity of the system is compromised.
 
 ### heavy API call
 {: #x7690468}
@@ -450,6 +644,11 @@ An action that is used by the Hypertext Transfer Protocol. HTTP methods include 
 {: #x2193603}
 
 See [Hypertext Transfer Protocol Secure](/docs/overview?topic=overview-glossary#x2237225).
+
+### human annotator
+{: #x9504052}
+
+A subject matter expert who reviews, modifies, and augments the results of pre-annotation by identifying mentions, entity type relationships, and mention coreferences. By examining text in context, a human annotator helps determine ground truth and improve the accuracy of the machine learning model.
 
 ### HVM
 {: #x9736815}
@@ -510,6 +709,11 @@ The delivery of a computer infrastructure, including server functionality, netwo
 
 An entity that consists of resources that are reserved for a particular application or a service.
 
+### inter-annotator agreement
+{: #x9721455}
+
+A measure of how similarly a document in two or more document sets is annotated.
+
 ### intermediate certificate
 {: #x3753781}
 
@@ -549,6 +753,13 @@ A lightweight data-interchange format that is based on the object-literal notati
 
 See [JavaScript Object Notation](/docs/overview?topic=overview-glossary#x3292165).
 
+## K
+{: #glossk}
+
+### knowledge graph
+{: #x7904177}
+
+A model that consolidates typed entities, their relationships, their properties, and hierarchical taxonomies to represent an organization of concepts for a given domain. After the knowledge graph store is loaded with inputs from structured and unstructured data sources, users and applications can access the knowledge graph to explore key elements of knowledge for a specific domain, explore interactions, and discover additional relationships.
 
 ## L
 {: #glossl}
@@ -558,10 +769,20 @@ See [JavaScript Object Notation](/docs/overview?topic=overview-glossary#x3292165
 
 A changed version of a parent image. Images consist of layers, where the changed version is layered on top of the parent image to create the new image. See also [container](/docs/overview?topic=overview-glossary#x2010901), [image](/docs/overview?topic=overview-glossary#x2024928).
 
+### LBaaS
+{: #x8688464}
+
+See [load balancer as a service](/docs/overview?topic=overview-glossary#x9829528).
+
 ### LDAP
 {: #x2481619}
 
 See [Lightweight Directory Access Protocol](/docs/overview?topic=overview-glossary#x2028538).
+
+### lemma
+{: #x2763345}
+
+The normalized or canonical form of a word. Typically, the lemma is the underived and uninflected form of a noun or a verb. For example, the lemma of the terms 'organizing' and 'organized' is 'organize.' See also [dictionary](/docs/overview?topic=overview-glossary#x2001532), [surface form](/docs/overview?topic=overview-glossary#x3271760).
 
 ### light API call
 {: #x7690463}
@@ -576,16 +797,41 @@ An open protocol that uses TCP/IP to provide access to directories that support 
 ### Linux Hyperledger project
 {: #x8888396}
 
-An open source, collaborative effort to advance blockchain technology by identifying and addressing important features for a cross-industry open standard for distributed ledgers that can transform the way business transactions are conducted globally. Hyperledger serves as the foundation code for the IBM Blockchain products, services, and solutions. See also [Hyperledger fabric](#x8889858).
+An open source, collaborative effort to advance blockchain technology by identifying and addressing important features for a cross-industry open standard for distributed ledgers that can transform the way business transactions are conducted globally. Hyperledger serves as the foundation code for the IBM Blockchain products, services, and solutions. See also [Hyperledger fabric](/docs/overview?topic=overview-glossary#x8889858).
+
+### load balancer
+{: #x2788902}
+
+Software or hardware that distributes workload across a set of servers to ensure that servers are not overloaded. The load balancer also directs users to another server if the initial server fails.
+
+### load balancer as a service (LBaaS)
+{: #x9829528}
+
+A service that provides the ability to distribute traffic among instances in a virtual private cloud.
 
 ### local cloud
 {: #x8439194}
 
 A cloud computing environment within the client's data center. The local cloud is on-premises, providing improved latency and security. See also [borderless](/docs/overview?topic=overview-glossary#x8439189).
 
+### LoopBack data source
+{: #x9826958}
+
+A JavaScript object that represents a back-end service such as a database, REST API (to be consumed), or SOAP web service. Data sources are backed by connectors that then communicate directly with the database or other back-end services.
+
+### LoopBack model
+{: #x8940739}
+
+A model that provides a remote (REST) API that clients use to perform operations and interact with backend systems. The model consists of application data, validation rules, data access capabilities, and business logic. Every LoopBack application by default has a set of built-in models: user, application, email, and several models for access control.
+
 
 ## M
 {: #glossm}
+
+### machine learning (ML)
+{: #x8397498}
+
+A method of data analysis that iteratively learns from past data and independently adapts when exposed to new data. The mathematical model at the core of machine learning is built from ground truth inputs. Through training and refinement of example input data, the model can deliver accurate, repeatable results when it analyzes new data.
 
 ### machine learning model
 {: #x7579194}
@@ -601,6 +847,16 @@ See [mobile backend as a service](/docs/overview?topic=overview-glossary#x704485
 {: #x2003073}
 
 A participant that is enrolled in a blockchain network. A member can be as large as a multi-national corporation or as small as an individual.
+
+### mention
+{: #x6834461}
+
+A span of text that is considered relevant ina domain data. For example, in a type system about automotive vehicles, occurrences of terms like "airbag", "Ford Explorer", and "child restraint system" might be relevant mentions.
+
+### ML
+{: #x9766880}
+
+See [machine learning](/docs/overview?topic=overview-glossary#x8397498).
 
 ### mobile app
 {: #x7636517}
@@ -635,20 +891,35 @@ See [multizone region](/docs/overview?topic=overview-glossary#x9774820).
 ## N
 {: #glossn}
 
+### named entity
+{: #x3271173}
+
+A concept in a domain that falls in to a well defined category, such as names of organizations, locations, authors, or diseases.
+
 ### namespace
 {: #x2031005}
 
-A unique name that identifies your organization's image repository within the IBM Cloud registry. See also [image](/docs/overview?topic=overview-glossary#x2024928), [private image repository](/docs/overview?topic=overview-glossary#x8439215).
+A unique name that identifies your organization's image repository within the {{site.data.keyword.cloud_notm}} registry. See also [image](/docs/overview?topic=overview-glossary#x2024928), [private image repository](/docs/overview?topic=overview-glossary#x8439215).
 
 ### NAT
 {: #x2245519}
 
-See [network address translation](#x2031199).
+See [network address translation](/docs/overview?topic=overview-glossary#x2031199).
+
+### natural language processing (NLP)
+{: #x2031058}
+
+A field of artificial intelligence and linguistics that studies the problems inherent in the processing and manipulation of natural language, with an aim to increase the ability of computers to understand human languages.
 
 ### network address translation
 {: #x2031199}
 
 An addressing method that is used to enable one IP address to communicate with several other IP addresses, such as those on a private subnet, by means of a lookup table. Network address translation has two main types: 1-to-1 and many-to-1.
+
+### NLP
+{: #x2482021}
+
+See [natural language processing](/docs/overview?topic=overview-glossary#x2031058).
 
 ### node
 {: #x2003286}
@@ -674,6 +945,11 @@ See [on-premises](/docs/overview?topic=overview-glossary#x4561212).
 
 Pertaining to software that is installed and run on the local computers of a user or organization.
 
+### ontology
+{: #x3069177}
+
+An explicit formal specification of the representation of the objects, concepts, and other entities that can exist in some area of interest and the relationships among them.
+
 ### orderer node
 {: #x9826016}
 
@@ -692,7 +968,8 @@ See [organization](/docs/overview?topic=overview-glossary#x2032585).
 ### organization (org)
 {: #x2032585}
 
-The grouping methodology for users in IBM Cloud. Orgs are used to manage quotas. Users in an org share memory and service instance quotas. See also [domain](/docs/overview?topic=overview-glossary#x2021210), [space](/docs/overview?topic=overview-glossary#x2039442).
+- The entity that owns APIs or applications that use APIs. A provider organization owns APIs and associated plans, and can additionally own applications. A consumer organization owns only applications. An organization has at least one owner. An organization can be a project team, department, or division.
+- A grouping methodology for users in {{site.data.keyword.cloud_notm}}. Orgs are used to manage quotas. Users in an org share memory and service instance quotas. See also [domain](/docs/overview?topic=overview-glossary#x2021210), [space](/docs/overview?topic=overview-glossary#x2039442).
 
 ### origin server
 {: #x2210603}
@@ -718,6 +995,11 @@ A lightweight virtualization technique. While in paravirtualized mode, a virtual
 
 An image that provides a base for another image. For example, Ubuntu Linux is the parent image of the IBM Liberty image. See also [base image](/docs/overview?topic=overview-glossary#x5366487), [image](/docs/overview?topic=overview-glossary#x2024928).
 
+### path
+{: #x2011343}
+
+The route through which users access REST APIs. A path consists of one or more HTTP operations such as GET or POST.
+
 ### payload logging
 {: #x9758658}
 
@@ -727,6 +1009,21 @@ The capture of payload data and deployment output to monitor ongoing health of A
 {: #x2281605}
 
 The method by which a client pays an invoice, such as credit card, check, or wire transfer.
+
+### PEAR
+{: #x3566452}
+
+See [processing engine archive](/docs/overview?topic=overview-glossary#x2959092).
+
+### performance
+{: #x2033492}
+
+The measurement of a Watson system in terms of accuracy, precision, and recall, for example, when answering questions, discovering relationships, or annotating text.
+
+### plan
+{: #x2283517}
+
+The packaging construct by which APIs are made available to consumers. A plan makes available a collection of resources or operations from one or more APIs, and is published to communities of application developers.
 
 ### platform as a service (PaaS)
 {: #x2029786}
@@ -743,6 +1040,11 @@ A group of containers that are running on a Kubernetes cluster. A pod is a runna
 
 A physical location that stores servers and routers in a network cloud.
 
+### policy
+{: #x2011359}
+
+A piece of configuration that controls some aspect of processing in the gateway during the handling of an API invocation. Policies are the building blocks of assembly flows and provide the means to configure capability, such as security, logging, caching, routing of requests to target services, and transformation of data from one format to another. Policies can be configured in the context of an API or in the context of a plan.
+
 ### PoP
 {: #x7234683}
 
@@ -756,7 +1058,7 @@ A cloud computing environment in which access is limited to members of an enterp
 ### private image repository
 {: #x8439215}
 
-The combination of an organization's IBM Cloud registry and its namespace. The private image repository is used when referencing an image in a command. See also [image](/docs/overview?topic=overview-glossary#x2024928), [namespace](/docs/overview?topic=overview-glossary#x2031005).
+The combination of an organization's {{site.data.keyword.cloud_notm}} registry and its namespace. The private image repository is used when referencing an image in a command. See also [image](/docs/overview?topic=overview-glossary#x2024928), [namespace](/docs/overview?topic=overview-glossary#x2031005).
 
 ### private key
 {: #x2034701}
@@ -771,7 +1073,22 @@ An entry that is visible only to account owners and their included accounts. Whe
 ### private service
 {: #x7690456}
 
-A service that is visible only to members of a specified IBM Cloud organization.
+A service that is visible only to members of a specified {{site.data.keyword.cloud_notm}} organization.
+
+### processing engine archive (PEAR)
+{: #x2959092}
+
+A .pear archive file that includes an Unstructured Information Management Architecture (UIMA) analysis engine and all of the resources that are required to use it for custom analysis.
+
+### profile
+{: #x2034950}
+
+A specification of a resource's capacities and capabilities. Different profiles are optimized for different workloads and use cases. A resource's pricing model might depend on its profile.
+
+### proxy
+{: #x2267627}
+
+An application programming interface that forwards requests to a user-defined backend resource and relays responses back to the calling application.
 
 ### public cloud
 {: #x4585370}
@@ -786,7 +1103,12 @@ The connection of a subnet, with all virtual server instances attached, to the i
 ### public resource
 {: #x9439040}
 
-An entry that is visible to everyone in the IBM Cloud catalog. Public resources can be built by any provider (IBM or third party providers). See also [private resource](/docs/overview?topic=overview-glossary#x9439035).
+An entry that is visible to everyone in the {{site.data.keyword.cloud_notm}} catalog. Public resources can be built by any provider (IBM or third party providers). See also [private resource](/docs/overview?topic=overview-glossary#x9439035).
+
+### publish
+{: #x2116130}
+
+The process of moving an application or product from staging so that the plans and APIs included within it are available for application developers to access and use.
 
 ### push
 {: #x2035465}
@@ -807,6 +1129,11 @@ An alert indicating a change or update on a mobile app icon.
 
 Pertaining to data that changes dynamically.
 
+### recall
+{: #x2154357}
+
+A measurement that specifies the percentage of relevant results returned, out of all available relevant results. Recall, which is a measure of sensitivity, is determined by the number of correct positive results divided by the number of positive results that should have been returned. Accuracy is best measured by using both precision and recall. See also [accuracy](/docs/overview?topic=overview-glossary#x3125742), [precision](/docs/overview?topic=overview-glossary#x2003831).
+
 ### red-black deployment
 {: #x8439181}
 
@@ -821,6 +1148,16 @@ A defined geographic territory. A region could be a specific postal code area, a
 {: #x2064940}
 
 A public or private repository that contains images used to create containers. See also [container](/docs/overview?topic=overview-glossary#x2010901), [image](/docs/overview?topic=overview-glossary#x2024928).
+
+### relation
+{: #x2064959}
+
+Typically a verb that reflects how entities are related to one another. For example, "lives in" is a relation between a person and a town. A relation links two different entities in the same sentence.
+
+### relation type
+{: #x3157818}
+
+A binary, unidirectional relationship between two entities. For example, Mary employedBy {{site.data.keyword.IBM_notm}} is a valid relationship; {{site.data.keyword.IBM_notm}} employedBy Mary is not.
 
 ### Representational State Transfer (REST)
 {: #x3220976}
@@ -845,18 +1182,24 @@ See [Representational State Transfer](/docs/overview?topic=overview-glossary#x32
 ### role
 {: #x2065412}
 
-A set of permissions or access rights.
+- A set of permissions or access rights.
+- An attribute that provides a context-sensitive meaning of a mention. For example, in the phrase "I went to {{site.data.keyword.IBM_notm}} today", {{site.data.keyword.IBM_notm}} is the mention, Organization is the entity type, and Facility is the role of the entity type.
 
 ### route
 {: #x2037338}
 
-The URL used to direct requests to an application. A route is made up of an optional host (or subdomain) and a domain that are specified when an application is pushed. For example, in the route myapp.example.com, myapp is the host and example.com is the domain. A route can be associated with one or more applications. Unless a custom domain is specified, IBM Cloud uses a default shared domain in the route to your application. See also [custom domain](/docs/overview?topic=overview-glossary#x5728384), [domain](/docs/overview?topic=overview-glossary#x2021210), [endpoint](/docs/overview?topic=overview-glossary#x2026820), [host](/docs/overview?topic=overview-glossary#x2002243), [subdomain](/docs/overview?topic=overview-glossary#x2040080), [Uniform Resource Locator](/docs/overview?topic=overview-glossary#x2042491).
+The URL used to direct requests to an application. A route is made up of an optional host (or subdomain) and a domain that are specified when an application is pushed. For example, in the route myapp.example.com, myapp is the host and example.com is the domain. A route can be associated with one or more applications. Unless a custom domain is specified, {{site.data.keyword.cloud_notm}} uses a default shared domain in the route to your application. See also [custom domain](/docs/overview?topic=overview-glossary#x5728384), [domain](/docs/overview?topic=overview-glossary#x2021210), [endpoint](/docs/overview?topic=overview-glossary#x2026820), [host](/docs/overview?topic=overview-glossary#x2002243), [subdomain](/docs/overview?topic=overview-glossary#x2040080), [Uniform Resource Locator](/docs/overview?topic=overview-glossary#x2042491).
 
 ### rule
 {: #x2037526}
 
 - A criteria that associates one trigger with one action, with every firing of the trigger causing the corresponding action to be invoked with the trigger event as input.
 - A set of conditional statements that enable computer systems to identify relationships and run automated responses accordingly.
+
+### rule set
+{: #x2065665}
+
+A set of rules that define patterns for annotating text. If a pattern applies, then the actions of the rule are performed on the matched annotations. A rule typically specifies the condition that must match, an optional quantifier, a list of additional constraints that the matched text must fulfill, and the actions to be taken when a match occurs, such as creating a new annotation or modifying an existing annotation.
 
 ### runtime
 {: #x2391929}
@@ -872,6 +1215,11 @@ The set of resources used to run the application. See also [starter](/docs/overv
 
 See [software as a service](/docs/overview?topic=overview-glossary#x4585386).
 
+### sandbox catalog
+{: #x9826969}
+
+A catalog in which approvals for publishing and lifecycle actions are bypassed so that it can be used for testing APIs under development.
+
 ### scale
 {: #x2004442}
 
@@ -882,10 +1230,25 @@ To increase platform (or system) capacity by adding more application or service 
 
 In identity management, the set of entities that a policy or an access control item (ACI) can affect.
 
+### Secure Shell (SSH)
+{: #x3574365}
+
+A network protocol for secure data exchange between two networked devices. The client can use public-key and private-key authentication, or password authentication, to access the remote server.
+
 ### Secure Sockets Layer (SSL)
 {: #x2038004}
 
 A security protocol that provides communication privacy. With SSL, client/server applications can communicate in a way that is designed to prevent eavesdropping, tampering, and message forgery. See also [certificate authority](/docs/overview?topic=overview-glossary#x2016383).
+
+### security definition
+{: #x2135207}
+
+A specification of the settings for a particular aspect of API security; for example, the user registry that authenticates access to the API.
+
+### security group
+{: #x2066040}
+
+A resource that provides rules to filter IP traffic to resources in a virtual private cloud. Rules are stateful, such that packets in response to allowed packets are automatically permitted.
 
 ### select availability
 {: #x9773835}
@@ -896,6 +1259,11 @@ A production-ready offering that is available for sale and accessible to select 
 {: #x2038343}
 
 A cloud extension that provides ready-for-use functionality, such as database, messaging, and web software for running code, or application management or monitoring capabilities. Services usually do not require installation or maintenance and can be combined to create applications.
+
+### service credential
+{: #x8878996}
+
+A set of API endpoint information and enrollIDs or secrets that are used to interact with network resources, such as CAs, orderers, and peers, in a blockchain network.
 
 ### service endpoint
 {: #x2871419}
@@ -916,6 +1284,11 @@ The period of time after an app is started on a mobile device and the quality as
 {: #x9826026}
 
 A certificate that any entity, such as an organization or admin, attaches to their proposals or proposal responses. These signCerts are unique to an entity and are checked by the ordering service to make sure they match the signCert on file for that entity.
+
+### single-page application
+{: #x9829514}
+
+An application that works inside a browser and does not require page reloading during use.
 
 ### single sign-on (SSO)
 {: #x2213318}
@@ -951,6 +1324,11 @@ See [system of record](/docs/overview?topic=overview-glossary#x6735061).
 {: #x2039442}
 
 A sub-group within an {{site.data.keyword.cloud_notm}} org. Users who are members of an org are given access to one or more of its spaces, with permissions associated with a particular role (such as developer, manager, or auditor). Any member of the space can view apps, but only members with the developer role can create apps and add service instances to the space. Apps and service instances are associated with spaces. See also [organization](/docs/overview?topic=overview-glossary#x2032585).
+
+### SSH
+{: #x4318877}
+
+See [Secure Shell](/docs/overview?topic=overview-glossary#x3574365).
 
 ### SSL
 {: #x2483907}
@@ -1002,6 +1380,16 @@ See [subnetwork](/docs/overview?topic=overview-glossary#x2040149).
 
 A network that is divided into smaller independent subgroups, which still are interconnected.
 
+### subtype
+{: #x2040253}
+
+A type that extends or implements another type; the supertype.
+
+### surface form
+{: #x3271760}
+
+The form of a word or multiword unit as it is found in the corpus. For example, some surface forms of the lemma 'organize' are the terms 'organizing' and 'organized'. See also [dictionary](/docs/overview?topic=overview-glossary#x2001532), [lemma](/docs/overview?topic=overview-glossary#x2763345).
+
 ### system of engagement
 {: #x6528306}
 
@@ -1031,15 +1419,30 @@ The resource or set of resources to provide a subject access to in an access pol
 
 A predefined structure for an artifact.
 
+### testing data
+{: #x7736833}
+
+A set of annotated documents that can be used to evaluate system metrics after ingestion and training. See also [blind data](/docs/overview?topic=overview-glossary#x7881128), [training data](/docs/overview?topic=overview-glossary#x2860199).
+
 ### third-party
 {: #x2877945}
 
-Pertaining to a product or service that is provided by a company other than IBM.
+Pertaining to a product or service that is provided by a company other than {{site.data.keyword.IBM_notm}}.
 
 ### tile
 {: #x2092493}
 
 A visual representation of a running application that provides status on a dashboard.
+
+### train
+{: #x6076689}
+
+To set up a Watson instance with components that enable the system to function in a particular domain (for example: corpus content, training data that generates machine learning models, programmatic algorithms, annotators, or other ground truth components) and then making improvements and updates to these components based on accuracy analysis.
+
+### training data
+{: #x2860199}
+
+A set of annotated documents that can be used to train machine learning models. See also [blind data](/docs/overview?topic=overview-glossary#x7881128), [testing data](/docs/overview?topic=overview-glossary#x7736833).
 
 ### transaction
 {: #x2005321}
@@ -1050,6 +1453,16 @@ The mechanism that participants on the blockchain network use to interact with a
 {: #x2005384}
 
 A mechanism that initiates actions. Triggers can be explicitly fired by a user or fired on behalf of a user by an external event source.
+
+### true negative
+{: #x7881314}
+
+An answer or annotation that is actually incorrect and is predicted to be incorrect.
+
+### true positive
+{: #x7881319}
+
+An answer or annotation that is actually correct and is predicted to be correct.
 
 ### trusted root
 {: #x2042234}
@@ -1083,7 +1496,13 @@ See [Uniform Resource Locator](/docs/overview?topic=overview-glossary#x2042491).
 ### user
 {: #x2069659}
 
-An IBMid or SoftLayer ID that is used as a person's identity in an account.
+- An IBMid or SoftLayer ID that is used as a person's identity in an account.
+- A participant in a blockchain network that has indirect access to the ledger through a trust relationship to an existing member.
+
+### user registry
+{: #x2042894}
+
+A collection of user information, such as user IDs and passwords, that is used as the basis for security control by a system such as a web application server.
 
 ## V
 {: #glossv}
