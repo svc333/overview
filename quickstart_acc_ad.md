@@ -4,7 +4,7 @@ copyright:
 
   years: 2018, 2019
 
-lastupdated: "2019-08-19"
+lastupdated: "2019-09-13"
 
 keywords: account quick start, account set up, quick start guide, account admins, environment
 
@@ -18,7 +18,7 @@ subcollection: overview
 {:new_window: target="_blank"}
 {:tip: .tip}
 
-# Setting up your account
+# Set up your account
 {: #quickstart_acc_ad}
 
 This quick start guide is intended to help account admins set up their {{site.data.keyword.Bluemix}} environment. 

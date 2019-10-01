@@ -3,7 +3,7 @@
 
 copyright:
   years: 2016, 2019
-lastupdated: "2019-08-21"
+lastupdated: "2019-09-17"
 
 keywords: prereqs, platform prereqs, platform prerequisites, platform
 
@@ -15,10 +15,10 @@ subcollection: overview
 {:note: .note}
 {:new_window: target="_blank"}
 
-# Prerequisites
+# What are the {{site.data.keyword.Bluemix_notm}} prerequisites?
 {: #prereqs-platform}
 
-The prerequisites for using the {{site.data.keyword.Bluemix_notm}} platform are limited, but we do have a few.
+The prerequisites for using the {{site.data.keyword.Bluemix}} platform are limited, but we do have a few.
 {:shortdesc}
 
 ## Browsers
