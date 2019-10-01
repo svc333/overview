@@ -71,7 +71,7 @@ Former SoftLayer users who set up a SAML identity provider for logging in with f
 {: #custom}
 New as of: 14 June 2019 
 
-You can now control what's displayed on your dashboard. Customizing your dashboard includes the ability to add, remove, and rearrange the widgets. For more information, see [Customizing your dashboard](/docs/overview?topic=overview-custom-dashboard).
+You can now control what's displayed on your dashboard. Customizing your dashboard includes the ability to add, remove, and rearrange the widgets. For more information, see [Customizing your dashboard](/docs/account?topic=account-custom-dashboard).
 
 ### Export usage data with associated tags
 New as of: 4 April 2019 
