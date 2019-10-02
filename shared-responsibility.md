@@ -39,7 +39,7 @@ The responsibility of completing the following types of tasks on various offerin
 
 Infrastructure-as-a-service (IaaS) offerings that are managed by {{site.data.keyword.IBM_notm}} are fully multi-tenant, accessed remotely, hosted on {{site.data.keyword.IBM_notm}} physical infrastructure, created in customer-owned accounts, and have control plane and data plane security that is owned by {{site.data.keyword.IBM_notm}}. Examples of this offerings type are Virtual Servers and Bare Metal Servers with the related block volumes connected to the customer account private subnets.
 
-| Resource | Incident and Operations Management | Change Management | Identity and Access Management | Security and Regulation compliance | Disaster Recovery |
+| Resource | Incident and Operations Management | Change Management | Identity and Access Management | Security and Regulation Compliance | Disaster Recovery |
 | - | - | - | - | - | - |
 | Data | Customer | Customer | Customer | Customer | Customer |
 | Application | Customer | Customer | Customer | Customer | Customer |
@@ -59,7 +59,7 @@ Infrastructure-as-a-service (IaaS) offerings that are managed by {{site.data.key
 
 Offerings that are fully managed by {{site.data.keyword.IBM_notm}} require customer responsibilities only for the data or applications that customers add to the service. They are multi-tenant, accessed remotely, hosted on {{site.data.keyword.IBM_notm}} virtual resources, created in IBM-owned accounts, and have control plane and data plane security that is owned by {{site.data.keyword.IBM_notm}}. Examples of this offering type are {{site.data.keyword.cloud_notm}} databases or {{site.data.keyword.cloudant_short_notm}} database instances.
 
-| Resource | Incident and Operations Management | Change Management | Identity and Access Management | Security and Regulation compliance | Disaster Recovery |
+| Resource | Incident and Operations Management | Change Management | Identity and Access Management | Security and Regulation Compliance | Disaster Recovery |
 | - | - | - | - | - | - |
 | Data | Customer | Customer | Customer | Customer | Customer |
 | Application | Customer | Customer | Customer | Customer | Customer |
@@ -79,7 +79,7 @@ Offerings that are fully managed by {{site.data.keyword.IBM_notm}} require custo
 
 Self-managed offerings are orchestrated by {{site.data.keyword.IBM_notm}}, meaning they are single-tenant and data plane offerings. In addition, they are accessed locally in customer accounts, data plane hosted on virtual resources in the customer's account, control plane security owned by {{site.data.keyword.IBM_notm}}, and data plane security owned by the customer. Examples of this offering type are {{site.data.keyword.containerlong}} clusters and worker nodes created in the customer account.
 
-| Resource | Incident and Operations Management | Change Management | Identity and Access Management | Security and Regulation compliance | Disaster Recovery |
+| Resource | Incident and Operations Management | Change Management | Identity and Access Management | Security and Regulation Compliance | Disaster Recovery |
 | - | - | - | - | - | - |
 | Data | Customer | Customer | Customer | Customer | Customer |
 | Application | Shared | Shared | Customer | Customer | Customer |
@@ -101,7 +101,7 @@ Software packages are deployed by {{site.data.keyword.IBM_notm}} as single tenan
 
 There is a generic software deployment control plane that manages the lifecycle of deployed software package instances. At a minimum, it manages the deployment, upgrade, and delete actions. As the packages become smarter, the generic control plane might also manage the start, stop, migration, scaling, monitoring, backup, and restore tasks.
 
-| Resource | Incident and Operations Management | Change Management | Identity and Access Management | Security and Regulation compliance | Disaster Recovery |
+| Resource | Incident and Operations Management | Change Management | Identity and Access Management | Security and Regulation Compliance | Disaster Recovery |
 | - | - | - | - | - | - |
 | Data | Customer | Customer | Customer | Customer | Customer |
 | Application | Customer | Customer | Customer | Customer | Customer |
