@@ -38,6 +38,7 @@ Getting started with IBM Cloud
     security.md
     zero_downtime.md
     certifications.md
+    shared-responsibility.md
 
     {: .topicgroup}
     General resources
