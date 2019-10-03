@@ -2,9 +2,9 @@
 
 copyright:
   years: 2019
-lastupdated: "2019-08-22"
+lastupdated: "2019-09-13"
 
-keywords: personalized onboarding, onboarding program, Global Client Success, getting started, how to, get help, new user, first time, personal, dedicated assistance, cloud onboarding, account setup
+keywords: personalized onboarding, onboarding program, Global Client Success, getting started, how to, get help, new user, first time, personal, dedicated assistance, cloud onboarding, account setup 
 
 subcollection: overview
 
@@ -19,8 +19,7 @@ subcollection: overview
 {:important: .important}
 {:authenticated-content: .authenticated-content}
 
-
-# Personalized onboarding
+# Getting personalized onboarding assistance
 {: #personalized-assistance}
 
 {{site.data.keyword.IBM}} is dedicated to putting the client first for every interaction. To help facilitate this, our Global Client Success team offers free personalized assistance through an onboarding program.
@@ -32,7 +31,7 @@ You must be logged in to your account to qualify for personalized onboarding. Af
 ## What's the process?
 {: #personalized-onboarding-process}
 
-After you request free onboarding assistance, you are contacted by a member of our {{site.data.keyword.IBM_notm}} Global Client Success team within 2 to 3 business days. We remain engaged to ensure your success on the {{site.data.keyword.cloud_notm}} platform. 
+After you request free onboarding assistance, you are contacted by a member of our {{site.data.keyword.IBM_notm}} Global Client Success team within 2 to 3 business days. We remain engaged to ensure your success on the {{site.data.keyword.cloud}} platform. 
 
 <div class="onboarding-ub">
   <div class="ub-widget" style="display: flex;">

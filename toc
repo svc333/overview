@@ -7,9 +7,9 @@ Getting started with IBM Cloud
 
     {: .navgroup id="learn"}
     ibm-cloud-platform.md
-    ui.md
     it-ops-journey.md
     compare-infra.md
+    personalized-assistance.md
     whats-new/index.md
 
     {: .topicgroup}
@@ -19,6 +19,8 @@ Getting started with IBM Cloud
     {: .navgroup-end}
 
     {: .navgroup id="howto"}
+    ui.md
+
     {: .topicgroup}
     Quick start guides
         quickstart_dev.md
@@ -26,11 +28,8 @@ Getting started with IBM Cloud
         quickstart_ea.md
         quickstart_lite.md
         quickstart_acc_ad.md
-
-    catalog.md
-    manageaccess.md
-    resource-groups.md
-    custom-dashboard.md
+    
+    feedback.md
     {: .navgroup-end}
 
     {: .navgroup id="reference"}
@@ -41,16 +40,14 @@ Getting started with IBM Cloud
     shared-responsibility.md
 
     {: .topicgroup}
+    Legal resources
+        terms-of-use/notices.md
+        slas.md
+    
+    {: .topicgroup}
     General resources
         prereqs.md
-        crn.md
+        accessibility/accessibility_features.md
         nls.md
         glossary/glossary.md
-        accessibility/accessibility_features.md
-        terms-of-use/notices.md
-    {: .navgroup-end}
-
-    {: .navgroup id="help"}
-    feedback.md
-    personalized-assistance.md
     {: .navgroup-end}

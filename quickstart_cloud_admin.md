@@ -2,7 +2,7 @@
 
 copyright:
   years: 2018, 2019
-lastupdated: "2019-08-22"
+lastupdated: "2019-09-13"
 
 keywords: first steps, understanding IT ops, infrastructure, quick start guide, IT ops admin, building
 
@@ -17,7 +17,7 @@ subcollection: overview
 {:pre: .pre}
 {:tip: .tip}
 
-# Building your infrastructure
+# Build your infrastructure
 {: #first-steps-it-ops}
 
 This quick start guide is intended to help IT operations administrators (IT ops admins) explore the infrastructure offerings that are available in {{site.data.keyword.cloud}}, and begin building their environment.

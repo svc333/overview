@@ -4,7 +4,7 @@ copyright:
 
   years: 2018, 2019
 
-lastupdated: "2019-08-22"
+lastupdated: "2019-09-13"
 
 keywords: cloud architect quick start, quick start guide, designing, cloud architecture, enterprise architects
 
@@ -18,7 +18,7 @@ subcollection: overview
 {:new_window: target="_blank"}
 {:tip: .tip}
 
-# Designing your cloud architecture
+# Design your cloud architecture
 {: #quickstart-enterprise}
 
 This quick start guide is intended to help enterprise cloud architects understand how {{site.data.keyword.Bluemix}} can solve their business needs. 
