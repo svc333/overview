@@ -4,7 +4,7 @@ copyright:
 
   years: 2015, 2019
 
-lastupdated: "2019-09-23"
+lastupdated: "2019-10-04"
 
 keywords: release notes, what's new, what is new, cloud updates, new features, platform
 
@@ -27,6 +27,14 @@ If you're looking for updates for the services that are available on {{site.data
 
 ## {{site.data.keyword.Bluemix_notm}} platform
 {: #platform_category}
+
+### Cloud Paks and Schematics templates are now available in the {{site.data.keyword.Bluemix_notm}} catalog
+{: #cloud-paks-terraform}
+New as of: 4 October 2019
+
+With the deployment power of the {{site.data.keyword.Bluemix_notm}} Schematics service, we now deliver bundled solutions through packaged software and deployable automation scripts that empower you to build, manage, and modernize your cloud architectures faster and more securely. The first release of these offerings include IBM Cloud Paks and a handful of useful Terraform-based templates. 
+
+From the [catalog](https://cloud.ibm.com/catalog), filter by the offering type and deployment target to find what you're looking for faster. Select **Cloud Paks** and **Terraform** to check out the new offerings that are available.
 
 ### Term-based model for {{site.data.keyword.Bluemix_notm}} support subscriptions
 {: #support-subscriptions}
