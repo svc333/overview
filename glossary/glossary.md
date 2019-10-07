@@ -3,7 +3,7 @@
 
 copyright:
   years: 2016, 2019
-lastupdated: "2019-09-30"
+lastupdated: "2019-10-07"
 
 keywords: glossary, IBM Cloud glossary, terms, definitions
 
@@ -1298,7 +1298,7 @@ An authentication process in which a user can access more than one system or app
 ### single-zone region (SZR)
 {: #x9774825}
 
-A region that consists of data centers that are located within one zone, See also [zone](/docs/overview?topic=overview-glossary#x2070723).
+A region that consists of data centers that are located within one zone. See also [zone](/docs/overview?topic=overview-glossary#x2070723).
 
 ### smart contract
 {: #x8888420}
