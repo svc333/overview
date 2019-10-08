@@ -2,7 +2,7 @@
 
 copyright:
   years: 2019
-lastupdated: "2019-09-25"
+lastupdated: "2019-10-08"
 
 keywords: service level agreements, SLA, slas
 
@@ -36,7 +36,7 @@ You're eligible for a credit toward your account if you experience availability 
 | Type	                                     | Description	      | Support Details|
 |--------------------------------------------|--------------------|----------------|
 | High availability for a public environment | Other Environments | Credit         |
-| <99.95%                                    |<99.5%              |10%             |
+| <99.99%                                    |<99.5%              |10%             |
 | <99.90%                                    |<99.0%              |25%             |
 {: caption="Table 1. Monthly availability service level" caption-side="top"}
 
