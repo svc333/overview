@@ -4,7 +4,7 @@ copyright:
 
   years: 2015, 2019
 
-lastupdated: "2019-10-04"
+lastupdated: "2019-10-17"
 
 keywords: release notes, what's new, what is new, cloud updates, new features, platform
 
@@ -27,6 +27,12 @@ If you're looking for updates for the services that are available on {{site.data
 
 ## {{site.data.keyword.Bluemix_notm}} platform
 {: #platform_category}
+
+### Mapping actions to IAM roles 
+{: #actions-iam}
+New as of: 15 October 2019
+
+When you invite a user to your account or assign an existing user IAM access, you can review each action that is mapped to a role. Click the **Actions for role** option to view a list of all actions that are mapped to a specific role when you're selecting the roles to assign in an access policy. By reviewing the action to role mappings, you can have confidence that you are always assigning the correct level of access to users in your account. For more information about this new enhancement, see [Invite User Flow and Transparent Actions](https://www.ibm.com/cloud/blog/announcements/invite-user-flow-and-transparent-actions){: external}.
 
 ### Cloud Paks and Schematics templates are now available in the {{site.data.keyword.Bluemix_notm}} catalog
 {: #cloud-paks-terraform}
