@@ -28,6 +28,12 @@ If you're looking for updates for the services that are available on {{site.data
 ## {{site.data.keyword.Bluemix_notm}} platform
 {: #platform_category}
 
+### Apply promo codes to your account and services
+{: #promo-codes}
+New as of: 18 October 2019
+
+{{site.data.keyword.Bluemix_notm}} now has promo codes that you can use to get credit toward your account and services. Promo codes are provided by {{site.data.keyword.Bluemix_notm}} sales on a limited basis to customers with billable accounts. You can apply promo codes from a new Promotions page or from the catalog when you create a resource in the {{site.data.keyword.Bluemix_notm}} console. For more information, see [Applyng promo codes](/docs/billing-usage?topic=billing-usage-applying-promo-codes).
+
 ### Download access reports for specific resources
 {: #access-report}
 New as of: 17 October 2019
