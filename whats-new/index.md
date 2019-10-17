@@ -28,6 +28,12 @@ If you're looking for updates for the services that are available on {{site.data
 ## {{site.data.keyword.Bluemix_notm}} platform
 {: #platform_category}
 
+### Download access reports for specific resources
+{: #access-report}
+New as of: 17 October 2019
+
+Have you ever wanted to get a quick view of all users, service IDs, access groups, and services that have access to a specific resource in your account? Well, now you can download a report that includes details about who can access your resource. From the resource list in your account, you can select the **Export access report** option in the row for an IAM-enabled resource to get the report. For more information about the types of data available in the report and who has access to view the report, see [Exporting an access report](/docs/resources?topic=resources-access-report).
+
 ### Mapping actions to IAM roles 
 {: #actions-iam}
 New as of: 15 October 2019
