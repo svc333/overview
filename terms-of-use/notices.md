@@ -5,7 +5,7 @@
 copyright:
 
   years: 2015, 2019
-lastupdated: "2019-08-19"
+lastupdated: "2019-10-18"
 
 keywords: notices, terms of use, IBM Cloud
 
@@ -36,6 +36,16 @@ Your IBM Cloud Account and any services ordered from the IBM Cloud are provided 
   * Applicable Data Sheets as referenced in applicable Additional SDs or from the "Terms" link for a service in the IBM Cloud UI available at [http://www-03.ibm.com/software/sla/sladb.nsf/sla/csdsp](http://www-03.ibm.com/software/sla/sladb.nsf/sla/csdsp){: new_window} ![External link icon](../../icons/launch-glyph.svg).
   * If you or your company is a covered entity as defined by the US Health Insurance Portability and Accountability Act (HIPAA) and intend to order Cloud Services that might process protected health information (PHI), you must accept the IBM Business Associate Addendum (BAA) available at [https://www-03.ibm.com/software/sla/sladb.nsf/sla/baa?OpenDocument](https://www-03.ibm.com/software/sla/sladb.nsf/sla/baa?OpenDocument){: new_window} ![External link icon](../../icons/launch-glyph.svg). The BAA can be digitally accepted as described in [Enabling the HIPAA Supported setting](/docs/account?topic=account-eu-hipaa-supported#enabling-hipaa).
   * A Reserved Capacity is for a fixed term as set forth in an Order, and cannot be terminated by Client prior to the end of that term. A Reserved Capacity may be eligible for renewal at the conclusion of a term by mutual agreement between Client and SoftLayer. Reserved Capacities that are neither renewed nor terminated prior to the end of their terms will convert into monthly Cloud Services subject to the terms of the then-current Cloud Services Agreement and Service Description and at the then-current retail pricing.
+
+### SoftLayer Legal contact information 
+
+#### Subpoena Contact
+
+Abuse Department <br> SoftLayer <br> 14001 North Dallas Parkway, Suite M100 <br> Dallas, TX 75240 <br> 214.442.0600 Main <br> 214.442.0612 Fax <br> subpoenas@softlayer.com
+
+#### Abuse Contact
+
+Abuse Department <br> SoftLayer <br> 14001 North Dallas Parkway, Suite M100 <br> Dallas, TX 75240 <br> 214.442.0605 Abuse <br> 214.442.0612 Fax <br> abuse@softlayer.com
 
 ### License for the IBM WebSphere Application Server Liberty Profile image
 {: #license_liberty_image}
