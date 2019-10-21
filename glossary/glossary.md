@@ -3,7 +3,7 @@
 
 copyright:
   years: 2016, 2019
-lastupdated: "2019-10-07"
+lastupdated: "2019-10-21"
 
 keywords: glossary, IBM Cloud glossary, terms, definitions
 
@@ -144,6 +144,11 @@ An entity that is used or produced by a software or systems development process.
 {: #x2260813}
 
 An application programming interface that provides rich functionality for interacting with an application. The assembly  makes side calls to external services and then transforms and aggregates the response before a response is relayed to the calling application.
+
+### attribute
+{: #x2000252}
+
+A characteristic or trait of an entity that describes the entity; for example, the telephone number of an employee is one of the employee attributes.
 
 ### authentication (AuthN)
 {: #x2014567}
@@ -288,6 +293,11 @@ A computing platform where users can have access to applications or computing re
 {: #x4585297}
 
 The ability to move applications and services across public or private cloud computing environments, or from different cloud providers.
+
+### cloud provider
+{: #x4585302}
+
+An organization that provides cloud computing resources.
 
 ### command-line interface (CLI)
 {: #x2051424}
@@ -536,6 +546,11 @@ In the {{site.data.keyword.cloud_notm}} environment, a persistent storage system
 {: #x2239904}
 
 To activate a trigger.
+
+### Fleiss Kappa score
+{: #x9825844}
+
+A measure of how consistently the same annotation was applied by multiple human annotators across overlapping documents. The Fleiss Kappa score reaches its best value at 1 and worst value at 0.
 
 ### floating IP address
 {: #x6326428}
@@ -995,6 +1010,11 @@ A lightweight virtualization technique. While in paravirtualized mode, a virtual
 
 An image that provides a base for another image. For example, Ubuntu Linux is the parent image of the IBM Liberty image. See also [base image](/docs/overview?topic=overview-glossary#x5366487), [image](/docs/overview?topic=overview-glossary#x2024928).
 
+### part of speech (POS)
+{: #x3271709}
+
+A grammatical category, such as noun or verb, based on the syntactic function of a lexical item.
+
 ### path
 {: #x2011343}
 
@@ -1049,6 +1069,21 @@ A piece of configuration that controls some aspect of processing in the gateway 
 {: #x7234683}
 
 See [point of presence](/docs/overview?topic=overview-glossary#x5458832).
+
+### POS
+{: #x2034149}
+
+See [part of speech](/docs/overview?topic=overview-glossary#x3271709).
+
+### pre-annotation
+{: #x9825866}
+
+The process of annotating a set of documents prior to human annotation. Documents can be pre-annotated by using a rule-based model, a machine-learning model, IBM Watson™ Natural Language Understanding, or a dictionary. Pre-annotation can help human annotators more quickly prepare a set of ground truth documents.
+
+### precision
+{: #x2003831}
+
+A measurement that specifies the proportion of results that are relevant. Precision, which is a positive predictive value, is determined by the number of correct positive results divided by the number of all positive results. Accuracy is best measured by using both precision and recall. See also [accuracy](/docs/overview?topic=overview-glossary#x3125742), [recall](/docs/overview?topic=overview-glossary#x2154357).
 
 ### private cloud
 {: #x4585362}
@@ -1285,7 +1320,7 @@ The period of time after an app is started on a mobile device and the quality as
 
 A certificate that any entity, such as an organization or admin, attaches to their proposals or proposal responses. These signCerts are unique to an entity and are checked by the ordering service to make sure they match the signCert on file for that entity.
 
-### single-page application
+### single-page application (SPA)
 {: #x9829514}
 
 An application that works inside a browser and does not require page reloading during use.
@@ -1305,6 +1340,11 @@ A region that consists of data centers that are located within one zone. See als
 
 A set of business terms that are embedded into a blockchain and executed with transactions. A smart contract can also include a digital representation of a set of business rules and defines conditions under which transfers occur. A smart contract is implemented using chaincode.
 
+### SoE
+{: #x9858636}
+
+See [system of engagement](/docs/overview?topic=overview-glossary#x6528306).
+
 ### software as a service (SaaS)
 {: #x4585386}
 
@@ -1319,6 +1359,11 @@ A consensus plugin implementation for Hyperledger Fabric that results in a singl
 {: #x2214822}
 
 See [system of record](/docs/overview?topic=overview-glossary#x6735061).
+
+### SPA
+{: #x2151882}
+
+See [single-page application](/docs/overview?topic=overview-glossary#x9829514).
 
 ### space
 {: #x2039442}
@@ -1390,7 +1435,7 @@ A type that extends or implements another type; the supertype.
 
 The form of a word or multiword unit as it is found in the corpus. For example, some surface forms of the lemma 'organize' are the terms 'organizing' and 'organized'. See also [dictionary](/docs/overview?topic=overview-glossary#x2001532), [lemma](/docs/overview?topic=overview-glossary#x2763345).
 
-### system of engagement
+### system of engagement (SoE)
 {: #x6528306}
 
 An information technology (IT) system that incorporates technologies that encourage user interaction through email, collaboration systems, and networking.  A system of engagement often uses cloud technologies to extend the usefulness of systems of record. See also [system of record](/docs/overview?topic=overview-glossary#x6735061).
@@ -1556,12 +1601,17 @@ A fixed amount of physical or virtual storage on a data storage medium.
 ### VPC
 {: #x2484345}
 
-See [virtual private cloud](#x4585403).
+See [virtual private cloud](/docs/overview?topic=overview-glossary#x4585403).
 
 ### VPN
 {: #x2484351}
 
 See [virtual private network](/docs/overview?topic=overview-glossary#x2043188).
+
+### VPN as a service
+{: #x9829539}
+
+A private connection between two endpoints, which remains private and can be encrypted even when the data is transferred across a public network.
 
 
 ## W
