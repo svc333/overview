@@ -3,7 +3,7 @@
 
 copyright:
   years: 2016, 2019
-lastupdated: "2019-10-21"
+lastupdated: "2019-10-29"
 
 keywords: glossary, IBM Cloud glossary, terms, definitions
 
@@ -364,6 +364,11 @@ Information acquired during authentication that describes a user, group associat
 
 Within an enterprise billing unit, a consolidation of credit from all sources, including subscriptions and promotions, that is shared among accounts. See also [billing unit](/docs/overview?topic=overview-glossary#x9308099).
 
+### crypto unit
+{: #x9860404}
+
+A single unit that represents a hardware security module and the corresponding software stack that is dedicated to the hardware security module for cryptography.
+
 ### CSR
 {: #x2140147}
 
@@ -397,6 +402,11 @@ A user interface component that provides a comprehensive summary of pertinent in
 {: #x2439906}
 
 The physical location of the servers that provide cloud services.
+
+### data encryption key
+{: #x4791827}
+
+A cryptographic key used to encrypt data that is stored in an application.
 
 ### data store
 {: #x2052849}
@@ -493,6 +503,11 @@ A hierarchical structure of accounts with centralized account and billing manage
 {: #x2760649}
 
 The type of entity that a mention represents without consideration for context. For example, the mention IBM might be annotated by the entity type ORGANIZATION. In an entity-relationship model, an entity type is the thing that is being modeled or the thing that a mention refers to, such as the name of a person or place. Different entity types have different sets of attributes such as "surname" or "home town", and are connected through relationships like "lives in". An entity type exists independently and can be uniquely identified.
+
+### envelope encryption
+{: #x9860393}
+
+The process of encrypting data with a data encryption key and then encrypting the key with a root key that can be fully managed.
 
 ### experimental offering
 {: #x9774278}
@@ -714,6 +729,11 @@ The process of controlling access of authorized users to data and applications, 
 
 A file system and its execution parameters that are used within a container runtime to create a container. The file system consists of a series of layers, combined at runtime, that are created as the image is built by successive updates. The image does not retain state as the container executes. See also [base image](/docs/overview?topic=overview-glossary#x5366487), [container](/docs/overview?topic=overview-glossary#x2010901), [layer](/docs/overview?topic=overview-glossary#x2028320), [namespace](/docs/overview?topic=overview-glossary#x2031005), [parent image](/docs/overview?topic=overview-glossary#x8439210), [private image repository](/docs/overview?topic=overview-glossary#x8439215), [registry](/docs/overview?topic=overview-glossary#x2064940).
 
+### imprint mode
+{: #x9860399}
+
+A operational mode in which crypto units are assigned to a user.
+
 ### infrastructure as a service (IaaS)
 {: #x4585332}
 
@@ -852,6 +872,11 @@ A method of data analysis that iteratively learns from past data and independent
 {: #x7579194}
 
 A component that identifies entities and entity relationships according to a statistical model that is based on ground truth. The model applies past experience, such as training data, to determine or predict the correct outcome of future experiences based on characteristics of the data. These past experiences are captured in the form of a model by calculating feature scores for each candidate answer or evidence and combining that with known outcomes.
+
+### master key
+{: #x2908413}
+
+An encryption key that is used to protect a crypto unit. The master key provides full control of the hardware security module and ownership of the root of trust that encrypts the chain keys, including the root key and standard key.
 
 ### MBaaS
 {: #x7044865}
@@ -1220,6 +1245,11 @@ See [Representational State Transfer](/docs/overview?topic=overview-glossary#x32
 - A set of permissions or access rights.
 - An attribute that provides a context-sensitive meaning of a mention. For example, in the phrase "I went to {{site.data.keyword.IBM_notm}} today", {{site.data.keyword.IBM_notm}} is the mention, Organization is the entity type, and Facility is the role of the entity type.
 
+### root key
+{: #x6946961}
+
+A symmetric wrapping key that is used for encrypting and decrypting other keys that are stored in a data service.
+
 ### route
 {: #x2037338}
 
@@ -1314,6 +1344,11 @@ An identity that authenticates a service or an application to a cloud environmen
 {: #x2004539}
 
 The period of time after an app is started on a mobile device and the quality assurance product is notified to begin collecting app behavior, issues, and problems.
+
+### signature key
+{: #x8250375}
+
+An encryption key that is used by the crypto unit administrator to sign commands that are issued to the crypto unit.
 
 ### signCert
 {: #x9826026}
