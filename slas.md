@@ -2,7 +2,7 @@
 
 copyright:
   years: 2019
-lastupdated: "2019-10-08"
+lastupdated: "2019-10-30"
 
 keywords: service level agreements, SLA, slas
 
@@ -19,7 +19,7 @@ subcollection: overview
 # Service Level Agreements (SLAs)
 {: #slas} 
 
-{{site.data.keyword.Bluemix}} provides a 99.95% availability service level for multiple instances of a platform service within a public environment.
+{{site.data.keyword.Bluemix}} provides a 99.99% availability service level for multiple instances of a platform service within a public environment.
 {: shortdesc}
 
 {{site.data.keyword.Bluemix_notm}} provides SLAs for {{site.data.keyword.Bluemix_notm}} services that might make you eligible for credits toward your account. SLAs are your only way to resolve {{site.data.keyword.Bluemix_notm}}'s failure to meet a specified service level. 
@@ -31,13 +31,13 @@ The complete Service Description for {{site.data.keyword.Bluemix_notm}} is avail
 
 You're eligible for a credit toward your account if you experience availability less than the 99.95%. Availability downtime is the total minutes you're unable to connect to any of your service instances. Total downtime minutes start when you can prove a loss of availability with logs or any other records.
 
-{{site.data.keyword.Bluemix_notm}} provides a 99.95% availability SLA: 
+{{site.data.keyword.Bluemix_notm}} provides a 99.99% availability SLA: 
 
 | Type	                                     | Description	      | Support Details|
 |--------------------------------------------|--------------------|----------------|
 | High availability for a public environment | Other Environments | Credit         |
-| <99.99%                                    |<99.5%              |10%             |
-| <99.90%                                    |<99.0%              |25%             |
+| <99.99%                                    |<99.9%              |10%             |
+| <99.9%                                    |<99.0%              |25%             |
 {: caption="Table 1. Monthly availability service level" caption-side="top"}
 
 Availability percentage is calculated as the total number of minutes that are in a contracted month, minus the total number of downtime minutes in that month divided by the total number of minutes in that month. 
