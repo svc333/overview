@@ -2,7 +2,7 @@
 
 copyright:
   years: 2019
-lastupdated: "2019-10-30"
+lastupdated: "2019-10-31"
 
 keywords: service level agreements, SLA, slas
 
@@ -29,7 +29,7 @@ The complete Service Description for {{site.data.keyword.Bluemix_notm}} is avail
 ## Availability SLA 
 {: #avail-downtime}
 
-You're eligible for a credit toward your account if you experience availability less than the 99.95%. Availability downtime is the total minutes you're unable to connect to any of your service instances. Total downtime minutes start when you can prove a loss of availability with logs or any other records.
+You're eligible for a credit toward your account if you experience availability less than the 99.99%. Availability downtime is the total minutes you're unable to connect to any of your service instances. Total downtime minutes start when you can prove a loss of availability with logs or any other records.
 
 {{site.data.keyword.Bluemix_notm}} provides a 99.99% availability SLA: 
 
