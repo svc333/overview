@@ -3,7 +3,7 @@
 
 copyright:
   years: 2016, 2019
-lastupdated: "2019-10-29"
+lastupdated: "2019-11-01"
 
 keywords: glossary, IBM Cloud glossary, terms, definitions
 
@@ -447,6 +447,11 @@ A collection of words that can be used to pre-annotate documents. A new annotati
 {: #x9825820}
 
 A component that identifies mentions in text that match a specific set of words. By using domain-specific terminology to pre-annotate text, dictionary pre-annotators can accelerate a human annotator's ability to prepare a set of ground truth documents.
+
+### Dockerfile
+{: #x9860414}
+
+A text file that contains instructions to build a Docker image.
 
 ### document set
 {: #x9825825}
@@ -974,6 +979,11 @@ A device on a blockchain network that maintains a copy of the blockchain.
 {: #x6013335}
 
 An HTTP-based authorization protocol that gives applications scoped access to a protected resource on behalf of the resource owner, by creating an approval interaction between the resource owner, client, and resource server.
+
+### OCI container image
+{: #x9860419}
+
+A container image that is compliant with the OCI Image Format Specification.
 
 ### on-prem
 {: #x6969434}
