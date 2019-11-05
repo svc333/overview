@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2019
-lastupdated: "2019-09-25"
+lastupdated: "2019-11-05"
 
 keywords: ui, components, using the console, SoftLayer, classic infrastructure, redirect, catalog, pricing information, get support
 
@@ -36,7 +36,7 @@ The {{site.data.keyword.cloud}} console is a user interface that helps you manag
 
 Welcome to IBM Cloud, the home of over 190 unique services that are available for you to start customizing and building the solutions that you need for your business today! [Upbeat music]
 
-After logging in, you're ready to start building right away! From your dashboard, pick the journey that best fits your needs [Click Menu icon > Dashboard]. Start creating apps, add users to your account, or if you wanted to learn about some of our common patterns based on best practices and proven technologies, check out the solution tutorials in the Learn widget. Your dashboard is the place to view a high-level overview of your account usage, support cases, apps, and resources with quick links out to each area.
+After logging in, you're ready to start building right away! From your dashboard, pick the journey that best fits your needs [Click Menu icon > Dashboard]. Start creating apps, add users to your account, or if you wanted to learn about some of our common patterns based on best practices and proven technologies, check out the solution tutorials in the Learn widget. Your dashboard is the place to view a high-level overview of your account usage, support cases, apps, and resources with quick links out to each area.
 
 When you're ready to start adding resources to your account, go to the catalog [Click Catalog menu item]. Get started with some powerful services from Watson in the AI category. Check out our databases, IoT, networking, and storage offerings. And explore the variety of compute options from the IBM Cloud Kubernetes Service to bare metal servers to serverless. If you're just here to try us out, filter the catalog to view offerings with Lite plans, which are free to use [Click Filter to expand the options, and select Lite].
 
@@ -46,13 +46,13 @@ For any of the housekeeping items that you need to take care of as the account o
 
 From the same Manage menu, you can access the Billing and usage area of your account too [Click Manage menu option > Billing and usage]. 
 
-Through the Manage > Access (IAM) option [Click Manage menu item > Access (IAM)], you can invite users to your account and manage their access to account resources including IAM-enabled resources, Cloud Foundry resources, and classic infrastructure resources.
+Through the Manage > Access (IAM) option [Click Manage menu item > Access (IAM)], you can invite users to your account and manage their access to account resources including IAM-enabled resources, Cloud Foundry resources, and classic infrastructure resources.
 
-If you run into any questions as you start building apps, working with users, or building your infrastructure, you can visit the Support page [Click Support menu option] where you'll find common FAQs that can help you to resolve your issue quickly without even having to contact IBM Cloud. However, if you do find the need to get in touch with us or open a support case, those options are also available to you.
+If you run into any questions as you start building apps, working with users, or building your infrastructure, you can visit the Support page [Click Support menu option] where you'll find common FAQs that can help you to resolve your issue quickly without even having to contact IBM Cloud. However, if you do find the need to get in touch with us or open a support case, those options are also available to you.
 
-The docs [Click Docs menu items] are also a helpful guide for walking you through common tasks. You can enter any set of keywords in the docs search bar to help you quickly find the information that you're looking for. 
+The docs [Click Docs menu items] are also a helpful guide for walking you through common tasks. You can enter any set of keywords in the docs search bar to help you quickly find the information that you're looking for. 
 
-Now that you know how to navigate through the IBM Cloud console to set up your account, create resources from the catalog, manage them from your resource list, and find help through support and docs, it's time to get coding and building out your infrastructure!  
+Now that you know how to navigate through the IBM Cloud console to set up your account, create resources from the catalog, manage them from your resource list, and find help through support and docs, it's time to get coding and building out your infrastructure!  
 
 
 ## Using the console
@@ -74,7 +74,7 @@ You can search for resources by name or by tag from anywhere in the {{site.data.
 
 For more information, see [Searching for resources](/docs/resources?topic=resources-searching-for-resources). 
 
-## Managing resources in the resource list
+## Managing resources
 {: #dashboardview}
 
 Go to the Menu icon ![Menu icon](../icons/icon_hamburger.svg) &gt; **Resource List** to access your list of account resources. You can use the resource list to view and work with {{site.data.keyword.cloud_notm}} resources and Cloud Foundry service instances. See [What is a resource?](/docs/resources?topic=resources-resource) for more information about the different types of resources.
@@ -87,13 +87,19 @@ You can work with your resources in various ways from the resource list:
 
   * Each resource is displayed in its own row and an Actions icon ![More Actions icon](../icons/action-menu-icon.svg) is included at the end of the row. Click the Actions icon ![More Actions icon](../icons/action-menu-icon.svg) to start, stop, rename, or delete a resource.
   * To set up credentials or connections for a resource, click the name of the resource to navigate to the resource details page. Then, select **Service credentials** or **Connections**. For more information, see [Adding a credential](/docs/resources?topic=resources-service_credentials) and [Managing connections](/docs/resources?topic=resources-connect_app).
+ 
 
 ## Working in the catalog
 {: #catalogcreate}
 
-To create a resource, click **Create** from your resource list. You're then directed to the catalog. When you select a tile from the catalog, you can see where the resource is available. Not every resource that is listed in the catalog is available in every region.
+Click **Catalog** from the console menu bar to explore the available offerings, which are organized in the following categories: 
 
-After you click the tile for the resource that you want create, you can select which location you want to deploy in.
+* From the Services tab, you can explore the {{site.data.keyword.cloud_notm}} services for infrastructure, developer tools, compute, AI, and more for building your apps on the public cloud. The lifecycle and operations of these services are managed by {{site.data.keyword.IBM_notm}}.
+* From the Software tab, you can find Cloud Paks, Bitnami helm charts, and Terraform templates. The preconfigured software solutions help you to build faster, and each offering is installed by using a simplified installation process to help you get started quickly. You manage the deployment and configuration of these offerings on your own compute resources.
+
+You can quickly search for any specific offering by entering keywords, or you can use the categories and filters to explore the different types of offerings. You can filter by category, offering type, deployment target, or the offering provider. For example, if you want to deploy an analytics offering to {{site.data.keyword.openshiftlong}}, you can select the **Analytics** category, and then filter the results by selecting **Red Hat OpenShift** as the deployment target.
+
+After you select the offering that you want create, you can define the deployment location.
 
   * For Cloud Foundry resources, you can select a specific region and then select the org and space for the service instance to be assigned to.
   * For resources managed by {{site.data.keyword.cloud_notm}} Identity and Access Management (IAM), you select a location to deploy in. Then, you select a resource group to assign the service instance to.
@@ -101,7 +107,7 @@ After you click the tile for the resource that you want create, you can select w
 ## Transitioning to the {{site.data.keyword.cloud_notm}} experience
 {: #redirect-cloud}
 
-As part of the migration from SoftLayer to {{site.data.keyword.cloud_notm}}, get familiar with the {{site.data.keyword.cloud_notm}} console, which you use to manage both your platform and infrastructure resources. We're currently in the process of linking all SoftLayer and {{site.data.keyword.cloud_notm}} accounts. Therefore, your account might not have access yet. As soon as it does, you can check out the new experience. 
+As part of the migration from SoftLayer to {{site.data.keyword.cloud_notm}}, get familiar with the {{site.data.keyword.cloud_notm}} console, which you use to manage both your platform and infrastructure resources. We're currently in the process of linking all SoftLayer and {{site.data.keyword.cloud_notm}} accounts. Therefore, your account might not have access yet. As soon as it does, you can check out the new experience.
 
 The formerly named SoftLayer is now called {{site.data.keyword.cloud_notm}} classic infrastructure.
 {: note}
@@ -189,4 +195,3 @@ You can set your preferences to receive emails about platform and infrastructure
 {: #vpn-access}
 
 You can log in to the {{site.data.keyword.cloud_notm}} console by using a VPN access point. Go to [VPN access](https://www.ibm.com/cloud-computing/bluemix/vpn-access), and select an access point from the lists.
-
