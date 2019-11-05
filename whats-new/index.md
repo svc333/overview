@@ -4,7 +4,7 @@ copyright:
 
   years: 2015, 2019
 
-lastupdated: "2019-10-17"
+lastupdated: "2019-11-05"
 
 keywords: release notes, what's new, what is new, cloud updates, new features, platform
 
@@ -27,6 +27,12 @@ If you're looking for updates for the services that are available on {{site.data
 
 ## {{site.data.keyword.Bluemix_notm}} platform
 {: #platform_category}
+
+### Bitnami helm charts now available on {{site.data.keyword.cloud_notm}}
+{: #bitnami}
+New as of: 04 November 2019
+
+{{site.data.keyword.IBM_notm}} and VMware are partnering to provide the [Bitnami Application Catalog](https://bitnami.com/stacks){: external} to {{site.data.keyword.cloud_notm}} customers. The first set of offerings available in the {{site.data.keyword.cloud_notm}} catalog are the Bitnami helm charts, which Bitnami has created and validated to work on the {{site.data.keyword.containerlong_notm}}. Kubernetes developers typically install helm charts manually from the CLI by using the helm command. However, this installation process has been simplified by building an auto-installation feature in the {{site.data.keyword.cloud_notm}} catalog. Check out these offerings today by selecting **Bitnami** from the **Provider** filter.
 
 ### Apply promo codes to your account and services
 {: #promo-codes}
