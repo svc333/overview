@@ -5,7 +5,7 @@
 copyright:
 
   years: 2015, 2019
-lastupdated: "2019-10-18"
+lastupdated: "2019-11-06"
 
 keywords: notices, terms of use, IBM Cloud
 
@@ -32,6 +32,8 @@ Your IBM Cloud Account and any services ordered from the IBM Cloud are provided 
     * IBM Passport Advantage Agreement you accepted and the General Terms for Cloud Offerings TOU for IBM Passport Advantage Clients, available at [http://www-03.ibm.com/software/sla/sladb.nsf/sla/tou](http://www-03.ibm.com/software/sla/sladb.nsf/sla/tou){: new_window} ![External link icon](../../icons/launch-glyph.svg); or
     * equivalent cloud service base agreement terms between you and IBM;
   * Service Description for IBM Cloud available at [http://www-03.ibm.com/software/sla/sladb.nsf/sla/bm](http://www-03.ibm.com/software/sla/sladb.nsf/sla/bm){: new_window} ![External link icon](../../icons/launch-glyph.svg);
+  * Cloud Trial Agreement for Proof of Concept (POC) Accounts available at [http://www-03.ibm.com/software/sla/sladb.nsf/sla/tou](http://www-03.ibm.com/software/sla/sladb.nsf/sla/tou){: new_window} ![External link icon](../../icons/launch-glyph.svg);
+    POC accounts may be provided for assessment of specific services and/or solutions. Use of services beyond the intended scope of POC may be possible, but might be subjected to additional charges.
   * Applicable Additional SDs for any service ordered using your IBM Cloud Account available at [http://www-03.ibm.com/software/sla/sladb.nsf/sla/bm](http://www-03.ibm.com/software/sla/sladb.nsf/sla/bm){: new_window} ![External link icon](../../icons/launch-glyph.svg); and
   * Applicable Data Sheets as referenced in applicable Additional SDs or from the "Terms" link for a service in the IBM Cloud UI available at [http://www-03.ibm.com/software/sla/sladb.nsf/sla/csdsp](http://www-03.ibm.com/software/sla/sladb.nsf/sla/csdsp){: new_window} ![External link icon](../../icons/launch-glyph.svg).
   * If you or your company is a covered entity as defined by the US Health Insurance Portability and Accountability Act (HIPAA) and intend to order Cloud Services that might process protected health information (PHI), you must accept the IBM Business Associate Addendum (BAA) available at [https://www-03.ibm.com/software/sla/sladb.nsf/sla/baa?OpenDocument](https://www-03.ibm.com/software/sla/sladb.nsf/sla/baa?OpenDocument){: new_window} ![External link icon](../../icons/launch-glyph.svg). The BAA can be digitally accepted as described in [Enabling the HIPAA Supported setting](/docs/account?topic=account-eu-hipaa-supported#enabling-hipaa).
