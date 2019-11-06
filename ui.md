@@ -95,7 +95,7 @@ You can work with your resources in various ways from the resource list:
 Click **Catalog** from the console menu bar to explore the available offerings, which are organized in the following categories: 
 
 * From the Services tab, you can explore the {{site.data.keyword.cloud_notm}} services for infrastructure, developer tools, compute, AI, and more for building your apps on the public cloud. The lifecycle and operations of these services are managed by {{site.data.keyword.IBM_notm}}.
-* From the Software tab, you can find Cloud Paks, Bitnami helm charts, and Terraform templates. The preconfigured software solutions help you to build faster, and each offering is installed by using a simplified installation process to help you get started quickly. You manage the deployment and configuration of these offerings on your own compute resources.
+* From the Software tab, you can find Cloud Paks, Bitnami Helm charts, and Terraform templates. The preconfigured software solutions help you to build faster, and each offering is installed by using a simplified installation process to help you get started quickly. You manage the deployment and configuration of these offerings on your own compute resources.
 
 You can quickly search for any specific offering by entering keywords, or you can use the categories and filters to explore the different types of offerings. You can filter by category, offering type, deployment target, or the offering provider. For example, if you want to deploy an analytics offering to {{site.data.keyword.openshiftlong}}, you can select the **Analytics** category, and then filter the results by selecting **Red Hat OpenShift** as the deployment target.
 
