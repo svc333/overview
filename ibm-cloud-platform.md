@@ -3,9 +3,9 @@
 
 copyright:
   years: 2016, 2019
-lastupdated: "2019-10-01"
+lastupdated: "2019-11-11"
 
-keywords: console, platform overview, overview, data center
+keywords: console, platform overview, overview, data center 
 
 subcollection: overview
 
@@ -17,8 +17,14 @@ subcollection: overview
 # What is the {{site.data.keyword.Bluemix_notm}} platform?
 {: #whatis-platform}
 
-IBM's cloud platform combines platform as a service (PaaS) with infrastructure as a service (IaaS) to provide an integrated experience. The platform scales and supports both small development teams and organizations, and large enterprise businesses. Globally deployed across data centers around the world, the solution you build on {{site.data.keyword.cloud}} spins up fast and performs reliably in a tested and supported environment you can trust.
+The {{site.data.keyword.IBM}} cloud platform combines platform as a service (PaaS) with infrastructure as a service (IaaS) to provide an integrated experience. The platform scales and supports both small development teams and organizations, and large enterprise businesses. Globally deployed across data centers around the world, the solution you build on {{site.data.keyword.cloud}} spins up fast and performs reliably in a tested and supported environment you can trust.
 {: .shortdesc}
+
+The platform is built to support your needs whether it's working only in the public cloud or taking advantage of a multicloud deployment model. With our open-source technologies, such as Kubernetes, Red Hat OpenShift, and a full range of compute options, including virtual machines, containers, bare metal, and serverless, you have as much control and flexibility as you need to support workloads in your hybrid environment. You can deploy cloud-native apps while also ensuring workload portability.
+
+Whether you need to migrate apps to the cloud, modernize your existing apps by using cloud services, ensure data resiliency against regional failure, or leverage new paradigms and deployment topologies to innovate and build your cloud-native apps, the platform's open architecture is built to accommodate your use case.
+
+## What's built into the platform?
 
 As the following diagram illustrates, the {{site.data.keyword.Bluemix_notm}} platform is composed of multiple components that work together to provide a consistent and dependable cloud experience. 
 
@@ -50,6 +56,16 @@ As a financial officer for your company, you might be interested in simplifying 
 * Similar to stand-alone accounts, accounts in an enterprise contain resources and resource groups, Cloud Foundry orgs and spaces, and independent access permissions.
 
 For more information, see the [best practices for setting up an enterprise](/docs/account?topic=account-enterprise-best-practices).
+
+## {{site.data.keyword.Bluemix_notm}} catalog
+{: #catalog}
+
+{{site.data.keyword.Bluemix_notm}} provides a full-stack, public cloud platform with a variety of offerings in the catalog, including compute, storage, and networking options, end-to-end developer solutions for app development, testing and deployment, security management services, traditional and open-source databases, and cloud-native services. You can find all of these services on the Services tab in the catalog. The lifecycle and operations of these services are the responsibility of {{site.data.keyword.IBM_notm}}.
+
+The Software tab includes a growing catalog of software offerings, including [Cloud Paks](https://www.youtube.com/watch?v=DzFhhSR8SSs), Terraform-based templates, and [Helm charts](https://www.ibm.com/cloud/blog/announcements/bitnami-application-catalog-now-available-within-ibm-cloud). Even though you're responsible for the lifecycle management, deployment, and configuration of these software offerings on your own compute resources, you can take advantage of a simplified installation process that helps you to get up and running quickly.
+
+The catalog supports command-line interfaces (CLIs) and a RESTful API for users to retrieve information about existing offerings, and create, manage, and delete their resources. For more information, see [Managing the catalog](/docs/account?topic=account-manage-catalog).
+
 ## Pricing and billing
 {: #pricing-billing}
 
@@ -77,11 +93,6 @@ With usage metering, service providers can submit metrics that are collected for
 
 Usage reports return the summary for the account for the specified month. Account billing managers are authorized to access the reports.
 
-## {{site.data.keyword.Bluemix_notm}} catalog
-{: #catalog}
-
-The {{site.data.keyword.Bluemix_notm}} catalog stores the offering definitions (description, features, images, URLs, and so on) of the resources that are available in the {{site.data.keyword.Bluemix_notm}} console. Offerings are managed across geographies as the system of record. The catalog supports command-line interfaces (CLIs) and a RESTful API where users can retrieve information about existing offerings and create, manage, and delete their resources. For more information, see [Working in the catalog](/docs/overview?topic=overview-ui#catalogcreate).
-
 ## Creating resources
 {: #provisioning-layer}
 
@@ -102,7 +113,7 @@ A collection of resources is managed by [resource groups](/docs/resources?topic=
 ## Searching and tagging resources
 {: #search-and-tag}
 
-The search service is a global and shared resource properties repository that is integrated within the {{site.data.keyword.Bluemix_notm}} platform. It is used for storing and searching a cloud resource's attributes, and it categorizes and classifies resources. Resources are uniquely identified by a [Cloud Resource Name (CRN)](/docs/resources?topic=resources-crn) identifier. The properties of a resource include tags and system properties. Both properties are defined within an {{site.data.keyword.Bluemix_notm}} billing account, and span across many regions.
+The search service is a global and shared resource properties repository that is integrated within the {{site.data.keyword.Bluemix_notm}} platform. It is used for storing and searching a cloud resource's attributes, and it categorizes and classifies resources. Resources are uniquely identified by a [Cloud Resource Name (CRN)](/docs/overview?topic=overview-crn) identifier. The properties of a resource include tags and system properties. Both properties are defined within an {{site.data.keyword.Bluemix_notm}} billing account, and span across many regions.
 
 This service also manages tags that are associated with a resource. You can create, delete, search, attach, or detach tags with the Tagging API. Tags are uniquely identified by a CRN identifier. Tags have a name, which must be unique within a billing account. You can create tags in key:value pairs or label format.
 
@@ -119,3 +130,10 @@ The {{site.data.keyword.mon_full_notm}} service, allows you to gain operational 
 {: #account_observability}
 
 Use the {{site.data.keyword.at_full}} service to monitor the activity of your {{site.data.keyword.Bluemix_notm}} account, investigate abnormal activity and critical actions, and comply with regulatory audit requirements. In addition, you can be alerted on actions as they happen. The events that are collected comply with the Cloud Auditing Data Federation (CADF) standard. For more information, see [Getting started with {{site.data.keyword.at_full_notm}}](/docs/services/Activity-Tracker-with-LogDNA?topic=logdnaat-getting-started).
+
+
+
+
+
+
+
