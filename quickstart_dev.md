@@ -4,7 +4,7 @@ copyright:
 
   years: 2018, 2019
 
-lastupdated: "2019-08-19"
+lastupdated: "2019-11-14"
 
 keywords: quick start steps, dev quick start, dev get started, developer, quick start guide, get coding
 
@@ -45,7 +45,7 @@ Create a Pay-As-You-Go or Subscription account to get full access to all offerin
 
 * Explore the offerings in the [catalog](https://{DomainName}/catalog){: new_window} ![External link icon](../icons/launch-glyph.svg) that you can use to build or enhance your app.
 * If you're interested in a specific service or implementation, check out the [solution tutorials](/docs/tutorials?topic=solution-tutorials-tutorials) that are available to get you up and running.
-* Jump-start your process by downloading ready-to-use [code patterns](https://developer.ibm.com/patterns/){: new_window} ![External link icon](../icons/launch-glyph.svg "External link icon") for specific solutions. For more information, see [Creating an app with a code pattern](/docs/apps/tutorials?topic=creating-apps-tutorial-codepattern).
+* Jump-start your process by downloading ready-to-use [code patterns](https://developer.ibm.com/patterns/){: new_window} ![External link icon](../icons/launch-glyph.svg "External link icon") for specific solutions. 
 
 
 

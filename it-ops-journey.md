@@ -2,7 +2,7 @@
 
 copyright:
   years: 2018, 2019
-lastupdated: "2019-09-26"
+lastupdated: "2019-11-14"
 
 keywords: cloud environment, virtual server, virtual machine, vm, understanding infrastructure, IaaS model, IT ops admin, on-premises, data center
 
@@ -145,7 +145,7 @@ You can buy extra storage based on your needs. See the following table for a sum
 ### Networking
 {: #network}
 
-You automatically get connectivity to the {{site.data.keyword.vpn_full}} when your {{site.data.keyword.cloud_notm}} account is set up. By default, your server has a public IP address and a private IP address. If you want your server to be private, you can either turn off the public interface after your server is provisioned or order your server as private. See [Getting started with Virtual Private Networking](/docs/infrastructure/iaas-vpn?topic=VPN-gettingstarted-with-virtual-private-networking) for more information.
+You automatically get connectivity to the {{site.data.keyword.vpn_full}} when your {{site.data.keyword.cloud_notm}} account is set up. By default, your server has a public IP address and a private IP address. If you want your server to be private, you can either turn off the public interface after your server is provisioned or order your server as private. 
 
 Within the infrastructure layer, you can build a virtual private cloud, which is a virtual network that is tied to your {{site.data.keyword.cloud_notm}} account. A virtual private cloud gives you an entry point that provides cloud security and the ability to dynamically scale your virtual server instances. For more information, see [Getting started with {{site.data.keyword.vpc_full}}](/docs/vpc-on-classic?topic=vpc-on-classic-getting-started). 
 
