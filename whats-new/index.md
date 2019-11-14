@@ -354,7 +354,7 @@ Expanding on the last console update to manage your public regions from a single
 New as of: 23 May 2017
 {: #console-may17}
 
-You can now manage your public regions from a single location through the updated {{site.data.keyword.Bluemix_notm}} console. The region selector offers you streamlined access to your resources, and other enhancements include higher availability and improved performance. For more information, check out [New Global Bluemix UI for Higher Availability and More](https://www.ibm.com/blogs/bluemix/2017/05/new-global-bluemix-ui-higher-availability/){: new_window} ![External link icon](../../icons/launch-glyph.svg "External link icon").
+You can now manage your public regions from a single location through the updated {{site.data.keyword.Bluemix_notm}} console. The region selector offers you streamlined access to your resources, and other enhancements include higher availability and improved performance. For more information, check out [New Global Bluemix UI for Higher Availability and More](https://www.ibm.com/blogs/cloud-archive/2017/05/new-global-bluemix-ui-higher-availability/){: new_window} ![External link icon](../../icons/launch-glyph.svg "External link icon").
 
 ### Identity and access management
 New as of: 01 May 2017
@@ -366,9 +366,9 @@ With the latest updates and improvements, {{site.data.keyword.Bluemix_notm}} acc
 
 Additionally, {{site.data.keyword.Bluemix_notm}} platform users can create, delete, and list API keys associated with their user IDs. And platform users can use those API keys to authenticate when using APIs or CLIs.
 
-Lastly, we enhanced our unified user management capability to ensure that in a linked IaaS-PaaS account, users are managed in a unified way with no need to add users separately in the SoftLayer Customer Portal or the {{site.data.keyword.Bluemix_notm}} console.
+Lastly, we enhanced our unified user management capability to ensure that in a linked IaaS-PaaS account, users are managed in a unified way with no need to add users separately in the SoftLayer customer portal or the {{site.data.keyword.Bluemix_notm}} console.
 
-For more information, check out the [Introducing Identity & Access Management](https://www.ibm.com/blogs/bluemix/2017/05/introducing-identity-access-management/){: new_window} ![External link icon](../../icons/launch-glyph.svg "External link icon") blog post.
+For more information, check out the [Introducing Identity & Access Management](https://www.ibm.com/blogs/cloud-archive/2017/05/introducing-identity-access-management/){: new_window} ![External link icon](../../icons/launch-glyph.svg "External link icon") blog post.
 
 ### Navigation design changes for {{site.data.keyword.Bluemix_notm}} docs
 New as of: 13 April 2017
