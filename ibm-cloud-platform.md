@@ -3,7 +3,7 @@
 
 copyright:
   years: 2016, 2019
-lastupdated: "2019-11-11"
+lastupdated: "2019-11-15"
 
 keywords: console, platform overview, overview, data center 
 
@@ -64,7 +64,7 @@ For more information, see the [best practices for setting up an enterprise](/doc
 
 The Software tab includes a growing catalog of software offerings, including [Cloud Paks](https://www.youtube.com/watch?v=DzFhhSR8SSs), Terraform-based templates, and [Helm charts](https://www.ibm.com/cloud/blog/announcements/bitnami-application-catalog-now-available-within-ibm-cloud). Even though you're responsible for the lifecycle management, deployment, and configuration of these software offerings on your own compute resources, you can take advantage of a simplified installation process that helps you to get up and running quickly.
 
-The catalog supports command-line interfaces (CLIs) and a RESTful API for users to retrieve information about existing offerings, and create, manage, and delete their resources. For more information, see [Managing the catalog](/docs/account?topic=account-manage-catalog).
+The catalog supports command-line interfaces (CLIs) and a RESTful API for you to retrieve information about existing offerings, and create, manage, and delete your resources. 
 
 ## Pricing and billing
 {: #pricing-billing}
@@ -113,7 +113,7 @@ A collection of resources is managed by [resource groups](/docs/resources?topic=
 ## Searching and tagging resources
 {: #search-and-tag}
 
-The search service is a global and shared resource properties repository that is integrated within the {{site.data.keyword.Bluemix_notm}} platform. It is used for storing and searching a cloud resource's attributes, and it categorizes and classifies resources. Resources are uniquely identified by a [Cloud Resource Name (CRN)](/docs/overview?topic=overview-crn) identifier. The properties of a resource include tags and system properties. Both properties are defined within an {{site.data.keyword.Bluemix_notm}} billing account, and span across many regions.
+The search service is a global and shared resource properties repository that is integrated within the {{site.data.keyword.Bluemix_notm}} platform. It is used for storing and searching a cloud resource's attributes, and it categorizes and classifies resources. Resources are uniquely identified by a [Cloud Resource Name (CRN)](/docs/resources?topic=resources-crn) identifier. The properties of a resource include tags and system properties. Both properties are defined within an {{site.data.keyword.Bluemix_notm}} billing account, and span across many regions.
 
 This service also manages tags that are associated with a resource. You can create, delete, search, attach, or detach tags with the Tagging API. Tags are uniquely identified by a CRN identifier. Tags have a name, which must be unique within a billing account. You can create tags in key:value pairs or label format.
 
