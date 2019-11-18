@@ -3,7 +3,7 @@
 
 copyright:
   years: 2016, 2019
-lastupdated: "2019-11-01"
+lastupdated: "2019-11-18"
 
 keywords: glossary, IBM Cloud glossary, terms, definitions
 
@@ -47,6 +47,11 @@ A method for granting users, service IDs, and access groups access to account re
 {: #x2113001}
 
 A value used by the consumer to gain access to the protected resources on behalf of the user, instead of using the user’s service provider credentials.
+
+### account
+{: #x2012863}
+
+A unit within the representation of an organizational structure. It can include resources, such as servers, access controls, and configurations. See also [enterprise account](/docs/overview?topic=overview-glossary#x9863395).
 
 ### account group
 {: #x8622525}
@@ -242,7 +247,7 @@ Pertaining to an open, non-proprietary development platform that includes public
 ### buildpack
 {: #x7233925}
 
-A collection of scripts that prepare your code to run on {{site.data.keyword.cloud_notm}}. Buildpacks examine deployed applications, then download and configure any dependent applications.
+A collection of scripts that provide framework and runtime support for apps.
 
 
 ## C
@@ -267,6 +272,11 @@ An electronic message that an organization sends to a certificate authority (CA)
 {: #x9829545}
 
 Executable code that is deployed on a blockchain network, where it is executed and validated by chain validators together during the consensus process. Developers can use chaincodes to interact with a network's shared ledger, develop business contracts, asset definitions, and collectively-managed decentralized applications.
+
+### channel
+{: #x2016483}
+
+A private subset of a larger blockchain network with specific rules and a separate ledger that only channel members can access.
 
 ### CLI
 {: #x2008863}
@@ -496,6 +506,16 @@ The address of an API or service in an environment. An API exposes an endpoint a
 {: #x2026915}
 
 A hierarchical structure of accounts with centralized account and billing management in a cloud environment. See also [billing unit](/docs/overview?topic=overview-glossary#x9308099).
+
+### enterprise account
+{: #x9863395}
+
+A unique account within an enterprise that manages users and access for account organization and enterprise billing. See also [account](/docs/overview?topic=overview-glossary#x2012863).
+
+### entitlement
+{: #x2213075}
+
+In software licensing, the maximum allowed allocation of capacity as determined by a license agreement.
 
 ### entity
 {: #x2026945}
@@ -956,7 +976,7 @@ See [network address translation](/docs/overview?topic=overview-glossary#x203119
 
 A field of artificial intelligence and linguistics that studies the problems inherent in the processing and manipulation of natural language, with an aim to increase the ability of computers to understand human languages.
 
-### network address translation
+### network address translation (NAT)
 {: #x2031199}
 
 An addressing method that is used to enable one IP address to communicate with several other IP addresses, such as those on a private subnet, by means of a lookup table. Network address translation has two main types: 1-to-1 and many-to-1.
@@ -1212,7 +1232,7 @@ A deployment technique that drives continuous delivery by enabling synchronized 
 ### region
 {: #x2091391}
 
-A defined geographic territory. A region could be a specific postal code area, a town, a city, a state, a group of states, or even a group of countries. Each region can itself be a set of other regions or a set of postal codes that form the region.
+A defined geographic territory in which applications, services, and resources are deployed. A region could be a specific postal code area, a town, a city, a state, a group of states, or even a group of countries. Each region can itself be a set of other regions or a set of postal codes that form the region.
 
 ### registry
 {: #x2064940}
@@ -1559,6 +1579,11 @@ An answer or annotation that is actually correct and is predicted to be correct.
 
 A certificate signed by a trusted certificate authority (CA). See also [certificate authority](/docs/overview?topic=overview-glossary#x2016383), [intermediate certificate](/docs/overview?topic=overview-glossary#x3753781).
 
+### type system
+{: #x2959182}
+
+The set of objects that may be discovered by a text analysis engine in a document. The type system defines all possible feature structures in terms of types and features. Any number of different types can be defined in a type system. A type system is domain and application specific.
+
 
 ## U
 {: #glossu}
@@ -1617,7 +1642,7 @@ A software implementation of a machine that executes programs like a real machin
 
 A virtual network that is tied to a private user account and isolated from other networks in a public cloud. Only authorized users can access virtual private cloud resources, which include virtual servers, storage, and subnets.
 
-### virtual private network
+### virtual private network (VPN)
 {: #x2043188}
 
 A private connection between two endpoints, even when the data is transferred across a public network. 
