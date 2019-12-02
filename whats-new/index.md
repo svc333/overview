@@ -4,7 +4,7 @@ copyright:
 
   years: 2015, 2019
 
-lastupdated: "2019-11-05"
+lastupdated: "2019-11-26"
 
 keywords: release notes, what's new, what is new, cloud updates, new features, platform
 
@@ -27,6 +27,12 @@ If you're looking for updates for the services that are available on {{site.data
 
 ## {{site.data.keyword.Bluemix_notm}} platform
 {: #platform_category}
+
+### Delete resource groups
+{: #delete-rgs}
+New as of: 26 November 2019
+
+Besides the default resource group that's automatically created for you when create your {{site.data.keyword.Bluemix_notm}} account, you can now delete any resource group that doesn't contain any resources. For more information, see [Managing resource groups](/docs/resources?topic=resources-rgs).
 
 ### Bitnami Helm charts now available on {{site.data.keyword.cloud_notm}}
 {: #bitnami}
