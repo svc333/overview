@@ -4,7 +4,7 @@ copyright:
 
   years: 2015, 2019
 
-lastupdated: "2019-11-26"
+lastupdated: "2019-12-19"
 
 keywords: release notes, what's new, what is new, cloud updates, new features, platform
 
@@ -27,6 +27,12 @@ If you're looking for updates for the services that are available on {{site.data
 
 ## {{site.data.keyword.Bluemix_notm}} platform
 {: #platform_category}
+
+### Disable public access to resources
+{: #disable-public}
+New as of: 19 December 2019
+
+All users and service IDs are members of the Public Access group by default, which provides unauthenticated access to the resources that the group can access. You can now disable public access at the account level for cases in which you might want to prevent policies that could publicly expose resources from being created. For more information, see [Managing public access to resources](/docs/iam?topic=iam-public). 
 
 ### Delete resource groups
 {: #delete-rgs}
