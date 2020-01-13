@@ -2,9 +2,9 @@
 
 copyright:
 
-  years: 2015, 2019
+  years: 2015, 2020
 
-lastupdated: "2019-12-19"
+lastupdated: "2020-01-09"
 
 keywords: release notes, what's new, what is new, cloud updates, new features, platform
 
@@ -27,6 +27,12 @@ If you're looking for updates for the services that are available on {{site.data
 
 ## {{site.data.keyword.Bluemix_notm}} platform
 {: #platform_category}
+
+### Improved Support Center 
+{: #improved-support}
+New as of: 09 January 2020
+
+The latest enhancement to the support center offers a personalized experience to better resolve any IBM Cloud related issue. Navigate through the landing page to view incidents that are specific to your account along with a list of your open cases. Additionally, our self-help options have expanded, popular FAQs and recommended topics are populated to provide information that is relevant to your account. To check out the new experience, log in and go to the [Support Center](https://cloud.ibm.com/unifiedsupport/supportcenter){: new_window} ![External link icon](../../icons/launch-glyph.svg "External link icon"). 
 
 ### Disable public access to resources
 {: #disable-public}
