@@ -4,7 +4,7 @@ copyright:
 
   years: 2015, 2020
 
-lastupdated: "2020-01-09"
+lastupdated: "2020-01-21"
 
 keywords: release notes, what's new, what is new, cloud updates, new features, platform
 
@@ -27,6 +27,12 @@ If you're looking for updates for the services that are available on {{site.data
 
 ## {{site.data.keyword.Bluemix_notm}} platform
 {: #platform_category}
+
+### {{site.data.keyword.cloud-shell_full}} (Beta) is now available
+{: #cloud-shell-beta}
+New as of: 21 January 2020
+
+We're introducing a new way to access {{site.data.keyword.cloud_notm}} from the command line with no installation needed - {{site.data.keyword.cloud-shell_notm}}! {{site.data.keyword.cloud-shell_notm}} is a cloud-based shell environment that gives you instant command-line access through your web browser. It's preconfigured with the full {{site.data.keyword.cloud_notm}} CLI, all CLI plug-ins, and tons of tools so you have everything that you need to manage apps, resources, and infrastructure. To try out this beta release, see [Getting started with {{site.data.keyword.cloud-shell_notm}}](/docs/cloud-shell?topic=cloud-shell-getting-started).
 
 ### Improved Support Center 
 {: #improved-support}
