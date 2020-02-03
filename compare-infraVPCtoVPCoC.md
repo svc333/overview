@@ -57,10 +57,10 @@ We are always adding new features and support. Over time, there will be fewer co
 |BYOIP (RFC-1918 based)| |
 |Public gateway| |
 |Security groups| |
-|Network access control lists (ACLs)| ACLs are supported for generation 1 resources only.  |
+|Network access control lists (ACLs)|   |
 |VPN| VPN is supported in Beta for generation 2 resources.   |
 |Load balancer| Load balancer is supported in Beta for generation 2 resources.  |
-|Access to classic infrastructure| Access to classic infrastructure is supported for generation 1 resources only. |
+|Access to classic infrastructure|  |
 {: table="table3"}
 {: tab-title="Network"}
 {: tab-group="Features"}
