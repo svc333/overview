@@ -36,7 +36,7 @@ We are always adding new features and support. Over time, there will be fewer co
 
 | Key Features | Current Considerations |
 |-----|-----|
-|Linux instance support| The Red Hat Enterprise Linux image is supported for generation 1 profiles only. |
+|Linux instance support|  |
 |Windows instance support| Windows images are supported for generation 1 profiles only. |
 |Import custom images| |
 |Developer-friendly, REST-based API||
