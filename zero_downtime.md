@@ -57,24 +57,19 @@ The requirements that {{site.data.keyword.Bluemix}} follows are:
 ## Locations for resource deployment 
 {: #ov_intro_reg}
 
-You can create apps and service instances in different locations for the same usage details view for billing. You can deploy your apps to the location that is nearest to your customers to achieve low application latency. 
+You can create apps and service instances in different locations for the same usage details view for billing, and deploy your apps to the location that is nearest to your customers to achieve low application latency. 
 
-To address security issues, you can also select the location in which you want to keep application data. When you build apps in more than one location, if one location is unavailable, the apps that are in the other locations continue to run. For more information about the platform resources and the locations they're available in, see [Service availability](/docs/resources?topic=resources-services_region).
+To address security issues, you choose the location where you want to keep your application data. For more information about platform resources and their available locations, see [Service availability](/docs/resources?topic=resources-services_region).
 
-Global load balancing for the {{site.data.keyword.cloud_notm}} console ensures that if the nearest geographical location for you is unavailable, the console displays the information for the next closest location. This means, the {{site.data.keyword.Bluemix_notm}} console is highly available and continues to run even if the customer’s apps or service instances might be unavailable.
+Global load balancing for the {{site.data.keyword.cloud_notm}} console ensures that if the nearest geographical location for you is unavailable, the console displays the information for the next closest location. The {{site.data.keyword.Bluemix_notm}} console is highly available and continues to run even if your apps or service instances are unavailable. 
 
-You can view all resources across all locations by default from the resource list view in the console. If you want to view and work with resources in a specific location, expand the **Location** filter, and select a location from the list. By expanding a specific geographical location, you can select to filter by individual data centers, regions, or zone.
+You can view all resources and locations from the My resources page view in the console. If you want to view and work with resources in a specific location, expand the **Location** filter, and select a location from the list. By expanding a specific geographical location, you can select to filter by individual data centers, regions, or zones. 
 
-<!-- diagram for availability zones
-explanation for diagram
-- 3 AZ (availability zones) to separate failure domains per MZR (multi-zone region)
-- each AZ is a separate physical data center building
-- These data centers have high bandwidth, low latency redundant links with dual POPs.
-- Zones are to be built less than 2msex fiber distance from one another in a region --->
+As illustrated in the following graphic, a data center is a building that represents an availability zone that is located within a multizone region. A multizone region is organized by its metro location. For example, London can encompass more than one grouping of data centers within a multizone region. The graphic illustrates three availability zones in one multizone region that work together to in the instance that one data center becomes unavailable. Availability zones are connected directly to each or through ow latency links with dual points-of-presence (POP) or access points. 
 
-![Location hierarchy that shows a geography that contains a metro that contains data centers and regions with zones](images/Location_hierarchy.svg){: caption="Figure 1. Location options hierarchy" caption-side="bottom"}
+![A location hierarchy that shows a geography containing data center buildings inside of availability zones that are interconnected with points-of-presence within a metro.](images/Location-Illustration.svg){: caption="Figure 1. Location hiearchy" caption-side="bottom"}
 
-For example, if you have resources that are deployed in the London 2 (eu-gb-2) zone, you can filter your resource list to display only those resources. A zone is located within a region and a region is organized by its metro location. To filter your list to the London 2 (eu-gb-2) zone, expand the **London** metro option, and then expand the **London (eu-gb)** region option. Within that region, you can select from the list of available zones. If you have a resource that is deployed in a specific data center, you can identify the data center by the specific metro location and alphanumeric code, for example, London 02 (lon02).
+For example, if you have resources that are deployed in the London 2 (eu-gb-2) zone, you can filter the My resources page to display only those resources. To filter your list to the London 2 (eu-gb-2) zone, expand the **London** metro option, and then expand the **London (eu-gb)** region option. Within that region, you can select from the list of available zones. If you have a resource that is deployed in a specific data center, you can identify the data center by the specific metro location and alphanumeric code, for example, London 02 (lon02).
 
 You might also have resources that are located globally. The **Global** option means that only one logical, globally accessible instance of the service, independent of any region or zone, is published to customer applications. These types of resources are accessible from a global endpoint.
 
