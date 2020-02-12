@@ -2,9 +2,9 @@
 
 copyright:
 
-  years:2019
+  years: 2020
 
-lastupdated: "2019-10-02"
+lastupdated: "2020-02-12"
 
 keywords: roles and responsibilities, shared responsibilities, IBM responsibility, customer responsibility
 
@@ -32,12 +32,12 @@ The responsibility of completing the following types of tasks on various offerin
 * Security and regulation compliance: Includes tasks such as security controls implementation and compliance certification.
 * Disaster recovery: Includes tasks such as providing dependencies on disaster recovery sites, provision disaster recovery environments, data and configuration backup, replicating data and configuration to the disaster recovery environment, and failover on disaster events.
 
-{{site.data.keyword.cloud_notm}} supports the following types of offerings and the corresponding shared responsibility models.
+{{site.data.keyword.cloud_notm}} supports the following types of offerings and the corresponding shared responsibility models. For more information about each specific service, refer to the documentation for that service.
 
 ## Infrastructure-as-a-service 
 {: #iaas-services-responsibilities}
 
-Infrastructure-as-a-service (IaaS) offerings that are managed by {{site.data.keyword.IBM_notm}} are fully multi-tenant, accessed remotely, hosted on {{site.data.keyword.IBM_notm}} physical infrastructure, created in customer-owned accounts, and have control plane and data plane security that is owned by {{site.data.keyword.IBM_notm}}. Examples of this offerings type are Virtual Servers and Bare Metal Servers with the related block volumes connected to the customer account private subnets.
+Infrastructure-as-a-service (IaaS) offerings that are managed by {{site.data.keyword.IBM_notm}} are fully multi-tenant, accessed remotely, hosted on {{site.data.keyword.IBM_notm}} physical infrastructure, created in customer-owned accounts, and have control plane and data plane security that is owned by {{site.data.keyword.IBM_notm}}. Examples of this offering type are Virtual Servers and Bare Metal Servers with the related block volumes connected to the customer account private subnets. You can find a list of these types of offerings in the {{site.data.keyword.cloud_notm}} catalog on the Services tab, and each offering is in an infrastructure sub-category within the Compute or VPC infrastructure categories.
 
 | Resource | Incident and Operations Management | Change Management | Identity and Access Management | Security and Regulation Compliance | Disaster Recovery |
 | - | - | - | - | - | - |
@@ -57,7 +57,7 @@ Infrastructure-as-a-service (IaaS) offerings that are managed by {{site.data.key
 ## Fully-managed offerings
 {: #fully-managed-responsibilities}
 
-Offerings that are fully managed by {{site.data.keyword.IBM_notm}} require customer responsibilities only for the data or applications that customers add to the service. They are multi-tenant, accessed remotely, hosted on {{site.data.keyword.IBM_notm}} virtual resources, created in IBM-owned accounts, and have control plane and data plane security that is owned by {{site.data.keyword.IBM_notm}}. Examples of this offering type are {{site.data.keyword.cloud_notm}} databases or {{site.data.keyword.cloudant_short_notm}} database instances.
+Offerings that are fully managed by {{site.data.keyword.IBM_notm}} require customer responsibilities only for the data or applications that customers add to the service. They are multi-tenant, accessed remotely, hosted on {{site.data.keyword.IBM_notm}} virtual resources, created in IBM-owned accounts, and have control plane and data plane security that is owned by {{site.data.keyword.IBM_notm}}. Examples of this offering type are {{site.data.keyword.cloud_notm}} databases or {{site.data.keyword.cloudant_short_notm}} database instances. You can find a list of these types of offerings in the {{site.data.keyword.cloud_notm}} catalog on the Services tab. However, any offerings listed in an infrastructure sub-category are infrastructure-as-a-service type offerings. 
 
 | Resource | Incident and Operations Management | Change Management | Identity and Access Management | Security and Regulation Compliance | Disaster Recovery |
 | - | - | - | - | - | - |
@@ -77,7 +77,7 @@ Offerings that are fully managed by {{site.data.keyword.IBM_notm}} require custo
 ## Self-managed offerings
 {: #self-managed-responsibilities}
 
-Self-managed offerings are orchestrated by {{site.data.keyword.IBM_notm}}, meaning they are single-tenant and data plane offerings. In addition, they are accessed locally in customer accounts, data plane hosted on virtual resources in the customer's account, control plane security owned by {{site.data.keyword.IBM_notm}}, and data plane security owned by the customer. Examples of this offering type are {{site.data.keyword.containerlong}} clusters and worker nodes created in the customer account.
+Self-managed offerings are orchestrated by {{site.data.keyword.IBM_notm}}, meaning they are single-tenant and data plane offerings. In addition, they are accessed locally in customer accounts, data plane hosted on virtual resources in the customer's account, control plane security owned by {{site.data.keyword.IBM_notm}}, and data plane security owned by the customer. {{site.data.keyword.cloud_notm}} offerings of this type include {{site.data.keyword.containerlong}} clusters and worker nodes created in the customer account.
 
 | Resource | Incident and Operations Management | Change Management | Identity and Access Management | Security and Regulation Compliance | Disaster Recovery |
 | - | - | - | - | - | - |
@@ -100,6 +100,8 @@ Self-managed offerings are orchestrated by {{site.data.keyword.IBM_notm}}, meani
 Software packages are deployed by {{site.data.keyword.IBM_notm}} as single tenant instances, and they are accessed locally in the customer account. The software instance is hosted on resources in the customer's accounts. The software deployment control plane security is owned by {{site.data.keyword.IBM_notm}}, and the software instance security is owned by the customer.
 
 There is a generic software deployment control plane that manages the lifecycle of deployed software package instances. At a minimum, it manages the deployment, upgrade, and delete actions. As the packages become smarter, the generic control plane might also manage the start, stop, migration, scaling, monitoring, backup, and restore tasks.
+
+You can find a list of software type offerings in the {{site.data.keyword.cloud_notm}} catalog on the Software tab.
 
 | Resource | Incident and Operations Management | Change Management | Identity and Access Management | Security and Regulation Compliance | Disaster Recovery |
 | - | - | - | - | - | - |
