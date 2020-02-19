@@ -2,8 +2,8 @@
 
 
 copyright:
-  years: 2016, 2019
-lastupdated: "2019-11-18"
+  years: 2016, 2020
+lastupdated: "2020-02-19"
 
 keywords: glossary, IBM Cloud glossary, terms, definitions
 
@@ -1290,6 +1290,7 @@ The URL used to direct requests to an application. A route is made up of an opti
 
 - A criteria that associates one trigger with one action, with every firing of the trigger causing the corresponding action to be invoked with the trigger event as input.
 - A set of conditional statements that enable computer systems to identify relationships and run automated responses accordingly.
+- A set of conditional statements that are used to determine whether a build can be promoted. 
 
 ### rule set
 {: #x2065665}
