@@ -2,7 +2,7 @@
 
 copyright:
   years: 2018, 2020
-lastupdated: "2020-02-11"
+lastupdated: "2020-02-24"
 
 keywords: data center, data centers, data center locations, specific data center, individual data centers, load balancing, global load balancing, availability zones, HA, DR, high availability, disaster recovery, disaster recovery plan, disaster event, locations, data centers, zero downtime, resources, workloads, failover, failover design, infrastructure resources, offsite backup capabilities, alternative computing facilities, ibm cloud regions
 
@@ -21,7 +21,7 @@ subcollection: overview
 # How do I ensure zero downtime?
 {: #zero-downtime}
 
-Your global strategy is important. You can select a specific data center or location to deploy your data for your customers. All {{site.data.keyword.Bluemix_notm}} resources are hosted in data center locations around the world. The locations that you deploy your app can spread workloads across data centers, and you can ensure that a failover design is in place to keep your app up and running. For your infrastructure resources, you can select individual data centers to deploy resources.
+Your global strategy is important. You can select a specific data center or location to deploy your data for your customers. All {{site.data.keyword.Bluemix_notm}} resources are hosted in data center locations around the world. The locations that you deploy your app to can spread workloads across data centers, and you can ensure that a failover design is in place to keep your app up and running. For your infrastructure resources, you can select individual data centers to deploy resources.
 {:shortdesc}
 
 High availability and disaster recovery aren't universal across all services, so the type of high availability and disaster recovery that's available depends on the service that you're using.
