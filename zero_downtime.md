@@ -2,7 +2,7 @@
 
 copyright:
   years: 2018, 2020
-lastupdated: "2020-02-24"
+lastupdated: "2020-02-25"
 
 keywords: data center, data centers, data center locations, specific data center, individual data centers, load balancing, global load balancing, availability zones, HA, DR, high availability, disaster recovery, disaster recovery plan, disaster event, locations, data centers, zero downtime, resources, workloads, failover, failover design, infrastructure resources, offsite backup capabilities, alternative computing facilities, ibm cloud regions
 
@@ -63,7 +63,7 @@ To address security issues, you choose the location where you want to keep your 
 
 Global load balancing for the {{site.data.keyword.cloud_notm}} console ensures that if the nearest geographical location for you is unavailable, the console displays the information for the next closest location. The {{site.data.keyword.Bluemix_notm}} console is highly available and continues to run even if your apps or service instances are unavailable. 
 
-You can view all resources and locations from the My resources page view in the console. If you want to view and work with resources in a specific location, expand the **Location** filter, and select a location from the list. By expanding a specific geographical location, you can select to filter by individual data centers, regions, or zones. 
+You can view all resources and locations from your resource list in the console. If you want to view and work with resources in a specific location, expand the **Location** filter, and select a location from the list. By expanding a specific geographical location, you can select to filter by individual data centers, regions, or zones. 
 
 As illustrated in the following graphic, a data center is a building that represents an availability zone that is located within a multizone region. A multizone region is organized by its metro location. For example, London can encompass more than one grouping of data centers within a multizone region. The graphic illustrates three availability zones in one multizone region that work together to in the instance that one data center becomes unavailable. Availability zones are connected directly to each or through ow latency links with dual points-of-presence (POP) or access points. 
 
