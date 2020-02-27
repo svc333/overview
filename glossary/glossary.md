@@ -3,7 +3,7 @@
 
 copyright:
   years: 2016, 2020
-lastupdated: "2020-02-19"
+lastupdated: "2020-02-27"
 
 keywords: glossary, IBM Cloud glossary, terms, definitions
 
@@ -566,6 +566,11 @@ An answer or annotation that is incorrect, but was predicted to be correct.
 {: #x2022596}
 
 A data member or attribute of a type.
+
+### feature code
+{: #x2210744}
+
+A code that is applied to free accounts to unlock extra product resources and capabilities.
 
 ### federate
 {: #x2763229}
@@ -1175,6 +1180,11 @@ A .pear archive file that includes an Unstructured Information Management Archit
 
 A specification of a resource's capacities and capabilities. Different profiles are optimized for different workloads and use cases. A resource's pricing model might depend on its profile.
 
+### promo code
+{: #x8440874}
+
+A code used to apply limited time credits to Pay-As-You-Go and Subscription accounts.
+
 ### proxy
 {: #x2267627}
 
@@ -1490,6 +1500,11 @@ See [subnetwork](/docs/overview?topic=overview-glossary#x2040149).
 {: #x2040149}
 
 A network that is divided into smaller independent subgroups, which still are interconnected.
+
+### subscription code
+{: #x9888956}
+
+A code used to apply credits to an account after a subscription is purchased.
 
 ### subtype
 {: #x2040253}
