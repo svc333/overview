@@ -40,6 +40,7 @@ Getting started with IBM Cloud
     {: .navgroup id="reference"}
     platform-cli-api.md
     security.md
+    locations.md
     zero_downtime.md
     certifications.md
     shared-responsibility.md
