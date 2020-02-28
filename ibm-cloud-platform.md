@@ -2,8 +2,8 @@
 
 
 copyright:
-  years: 2016, 2019
-lastupdated: "2019-11-15"
+  years: 2016, 2020
+lastupdated: "2020-02-28"
 
 keywords: console, platform overview, overview, data center 
 
@@ -62,9 +62,9 @@ For more information, see the [best practices for setting up an enterprise](/doc
 
 {{site.data.keyword.Bluemix_notm}} provides a full-stack, public cloud platform with a variety of offerings in the catalog, including compute, storage, and networking options, end-to-end developer solutions for app development, testing and deployment, security management services, traditional and open-source databases, and cloud-native services. You can find all of these services on the Services tab in the catalog. The lifecycle and operations of these services are the responsibility of {{site.data.keyword.IBM_notm}}.
 
-The Software tab includes a growing catalog of software offerings, including [Cloud Paks](https://www.youtube.com/watch?v=DzFhhSR8SSs), Terraform-based templates, and [Helm charts](https://www.ibm.com/cloud/blog/announcements/bitnami-application-catalog-now-available-within-ibm-cloud). Even though you're responsible for the lifecycle management, deployment, and configuration of these software offerings on your own compute resources, you can take advantage of a simplified installation process that helps you to get up and running quickly.
+The Software tab includes a growing catalog of software offerings, including [Cloud Paks](https://www.youtube.com/watch?v=DzFhhSR8SSs), [starter kits](/docs/apps?topic=creating-apps-starter-kits), Terraform-based templates, and [Helm charts](https://www.ibm.com/cloud/blog/announcements/bitnami-application-catalog-now-available-within-ibm-cloud). Even though you're responsible for the lifecycle management, deployment, and configuration of these software offerings on your own compute resources, you can take advantage of a simplified installation process that helps you to get up and running quickly.
 
-The catalog supports command-line interfaces (CLIs) and a RESTful API for you to retrieve information about existing offerings, and create, manage, and delete your resources. 
+The catalog supports command-line interfaces (CLIs) and a RESTful API for users to retrieve information about existing offerings, and create, manage, and delete their resources. 
 
 ## Pricing and billing
 {: #pricing-billing}
