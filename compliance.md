@@ -4,7 +4,7 @@ copyright:
   years: 2020
 lastupdated: "2020-03-06"
 
-keywords: compliance, environmental information, 
+keywords: compliance, environmental information 
 
 subcollection: overview
 
@@ -26,6 +26,7 @@ subcollection: overview
 
 ## Compliance reports
 {: #reports}
+
 {{site.data.keyword.cloud_notm}} provides compliance reports for some compliance regulations, for example SOC or PCI, to advise clients. The reports include details of the audit experience and can help users assess and address the high, medium, and low risks identified.
 
 If you have an {{site.data.keyword.cloud_notm}} account and want an infrastructure compliance report, go to [https://cloud.ibm.com/classic/security/compliancereport/request](https://cloud.ibm.com/classic/security/compliancereport/request). Fill out the form and you will receive an email with the requested reports attached.
