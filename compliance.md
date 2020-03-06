@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020
-lastupdated: "2020-02-11"
+lastupdated: "2020-03-06"
 
 keywords: compliance, environmental information, 
 
@@ -43,6 +43,7 @@ The GDPR seeks to create a harmonized data protection law framework across the E
 
 ## Environmental information
 {: #environment-info}
+
 {{site.data.keyword.cloud_notm}}, as a user and as a provider, is environmentally conscious and strives to provide power efficiency and recycling in our data centers. As such, the servers put in service within the {{site.data.keyword.cloud_notm}} comply with Commission Regulation (EU) 2019/424 of 15 March 2019 laying down ecodesign requirements for servers and data storage products (EU Lot 9).
 
 For details, see the following data sheets on our physical hardware in the cloud:
