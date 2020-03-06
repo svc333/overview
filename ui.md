@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2020
-lastupdated: "2020-02-03"
+lastupdated: "2020-03-06"
 
 keywords: ui, components, using the console, SoftLayer, classic infrastructure, redirect, catalog, pricing information, get support
 
@@ -85,7 +85,7 @@ You can view all the resources in your account across all locations from the res
 ### Working with resources
 You can work with your resources in various ways from the resource list:
 
-  * Each resource is displayed in its own row and an Actions icon ![More Actions icon](../icons/action-menu-icon.svg) is included at the end of the row. Click the Actions icon ![More Actions icon](../icons/action-menu-icon.svg) to start, stop, rename, or delete a resource.
+  * Each resource is displayed in its own row and an Actions icon ![More Actions icon](../icons/action-icon-vertical.svg) is included at the end of the row. Click the Actions icon ![More Actions icon](../icons/action-icon-vertical.svg) to start, stop, rename, or delete a resource.
   * To set up credentials or connections for a resource, click the name of the resource to navigate to the resource details page. Then, select **Service credentials** or **Connections**. For more information, see [Adding a credential](/docs/resources?topic=resources-service_credentials) and [Managing connections](/docs/resources?topic=resources-connect_app).
  
 
