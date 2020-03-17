@@ -4,9 +4,9 @@ copyright:
 
   years: 2015, 2020
 
-lastupdated: "2020-02-26"
+lastupdated: "2020-03-17"
 
-keywords: release notes, what's new, what is new, cloud updates, new features, platform
+keywords: release notes, what's new in IBM Cloud, what's new for the platform, what is new, cloud updates, new features, platform
 
 subcollection: overview
 
@@ -15,6 +15,7 @@ subcollection: overview
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
 {:tip: .tip}
+{:external: target="_blank" .external}
 
 # What's new in {{site.data.keyword.Bluemix_notm}}?
 {: #whatsnew}
@@ -27,6 +28,11 @@ If you're looking for updates for the services that are available on {{site.data
 
 ## {{site.data.keyword.Bluemix_notm}} platform
 {: #platform_category}
+
+### Customizing how access is assigned by using custom roles
+New as of: 18 March 2020
+
+Until now, you assigned access by using the available platform and service roles that have specific actions that are mapped by individual services. Sometimes, you must assign multiple roles to achieve the required access for your users. With the latest {{site.data.keyword.Bluemix_notm}} Identity and Access Management feature, you can now customize how access is assigned within individual services by creating custom roles. You can choose to organize any number of actions available for a specific service into a new role with a name of your choosing. For more information, see [Creating custom roles](/docs/iam?topic=iam-custom-roles).
 
 ### Updated handling of API keys for removed users
 {: #api-keys-removed-users}
