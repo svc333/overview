@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2018, 2019
-lastupdated: "2019-11-14"
+  years: 2018, 2020
+lastupdated: "2020-03-18"
 
 keywords: cloud environment, virtual server, virtual machine, vm, understanding infrastructure, IaaS model, IT ops admin, on-premises, data center
 
@@ -88,7 +88,7 @@ You want to plan your infrastructure before you provision it to make sure that y
 
 ### Infrastructure architecture
 
-Start with the [infrastructure architecture ![External link icon](../icons/launch-glyph.svg "External link icon")](https://www.ibm.com/cloud/garage/architectures/infrastructure){: new_window} to get a more in-depth overview of the three types of cloud environments. 
+Start with the [infrastructure architecture ![External link icon](../icons/launch-glyph.svg "External link icon")](https://www.ibm.com/cloud/architecture/architectures/public-cloud){: new_window} to get a more in-depth overview of the three types of cloud environments. 
 
 ### {{site.data.keyword.cloud_notm}} Design Decision Tool
 
