@@ -24,7 +24,7 @@ subcollection: overview
 
 In {{site.data.keyword.cloud}}, as is the case for other cloud service providers, the responsibilities for managing the lifecycle of, operating, and securing offerings are shared between {{site.data.keyword.IBM}} and the customer.
 
-The responsibility of completing the following types of tasks on various offerings can be can be exclusive to {{site.data.keyword.IBM_notm}}, the customer, or shared between the two. The tasks for each type of offering are grouped in the following categories:
+The responsibility of completing the following types of tasks on various offerings can be exclusive to {{site.data.keyword.IBM_notm}}, the customer, or shared between the two. The tasks for each type of offering are grouped in the following categories:
 
 * Incident and operations management: Includes tasks such as monitoring, event management, high availability, problem determination, recovery, and full state backup and recovery.
 * Change management: Includes tasks such as deployment, configuration, upgrades, patching, configuration changes, and deletion.
