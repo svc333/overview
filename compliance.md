@@ -19,7 +19,7 @@ subcollection: overview
 {:note: .note}
 {:important: .important}
 
-# {{site.data.keyword.Bluemix_notm}} compliance
+# Understanding {{site.data.keyword.Bluemix_notm}} compliance
 {: #compliance}
 
 {{site.data.keyword.cloud_notm}} provides a secure cloud platform that you can trust. {{site.data.keyword.cloud_notm}} compliance results from a platform and services that are built on best-in-industry security standards, including GDPR, HIPAA, ISO 9001, ISO 27001/27017/27018, PCI, SOC2, and others. For more information, see [Compliance on the {{site.data.keyword.cloud_notm}}](https://www.ibm.com/cloud/compliance){: new_window} ![External link icon](../icons/launch-glyph.svg "External link icon").
