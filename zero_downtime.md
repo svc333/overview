@@ -2,15 +2,17 @@
 
 copyright:
   years: 2018, 2020
-lastupdated: "2020-03-27"
+lastupdated: "2020-03-31"
 
-keywords: load balancing, global load balancing, HA, DR, high availability, disaster recovery, HA for the platform, high availability for platform, disaster recovery plan, disaster event, zero downtime, workloads, failover, failover design,  
+keywords: load balancing, global load balancing, HA, DR, high availability, disaster recovery, HA for the platform, high availability for platform, disaster recovery plan, disaster event, zero downtime, workloads, failover, failover design
 
 subcollection: overview
 
 ---
 
 {:shortdesc: .shortdesc}
+{:tip: .tip}
+{:note: .note}
 
 
 {:codeblock: .codeblock}
@@ -41,10 +43,17 @@ The console is available globally from a single URL, and the platform services, 
 |  Account management  |    [Best practices for setting up your account](/docs/account?topic=account-account_setup) and [Best practices for billing and usage](/docs/billing-usage?topic=billing-usage-best-practices)     |
 {: caption="Table 1. Platform services" caption-side="top"}
 
-## High availability for services
+## High availability for services and infrastructure
 {: #services-ha}
 
-High availability and disaster recovery aren't universal across all services, so the type of high availability and disaster recovery that's available depends on the service that you're using. All {{site.data.keyword.Bluemix}} resources are hosted in data center [locations](/docs/overview?topic=overview-locations) around the world. The locations that you deploy your app to can spread workloads across data centers, and you can ensure that a failover design is in place to keep your app up and running. For your infrastructure resources, you can select individual data centers to deploy resources. For more information about particular high availability and disaster recovery practices specific to each service, refer the documentation for that service.
+High availability and disaster recovery aren't universal across all services, so the type of high availability and disaster recovery that's available depends on the service that you're using. All {{site.data.keyword.Bluemix_notm}} resources are hosted in data center locations around the world. The locations that you deploy your app to can spread workloads across data centers, and you can ensure that a failover design is in place to keep your app up and running. 
+
+As an {{site.data.keyword.IBM_notm}} classic infrastructure (non-VPC) customer, you can order bare metal or virtual server instances (VSI) and can deploy to over 60 data centers that are located around the world in addition to several multi-zone regions with multiple availability zones. Whether the data centers are multi-zone (MZR) or not, all of them maintain multiple power feeds, fiber links, dedicated generators, and battery backup to avoid a single-point-of-failure (SPOF) between zones and regions. While all the data centers have multiple power feeds, several of the more mature sites such as AMS01, DAL05, 06, 08. FRA02. HKG02, MEX01, MIL01, PAR01,SJC01, SNG01, WDC01, and WDC03 have some 1U single socket server chassis that might not accommodate a dual power feed. If you have a 1U single socket server in one of these sites, you might want to consider a 2U chassis with redundant power supplies.
+
+For more information about the specific options for deploying your workloads, see [locations for resource deployment](/docs/overview?topic=overview-locations).
+
+For more information about particular high availability and disaster recovery practices specific to each service or infrastructure option, refer the documentation for that service.
+{: tip}
 
 ## Disaster recovery
 {: #disaster-recovery}
@@ -71,7 +80,6 @@ The requirements that {{site.data.keyword.Bluemix_notm}} follows are:
 
 - The disaster recovery plan must be updated after any major infrastructure change, major application release, and after any test. 
 - It must be approved annually. 
-
 
 
 
