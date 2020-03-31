@@ -201,5 +201,5 @@ See the following table for the specific code for each data center.
 {: class="simple-tab-table"}
 {: summary="Use the buttons before the table to change the context of the table. The column headers identify the data centers located in the specific geographical area."}
 
-The table includes certain data centers that are set to close in 2020, and support for existing workloads is still available until the closing date. For the list of data centers that are closing, see [Withdrawal of support for some data centers](/docs/get-support?topic=get-support-dc-migrate).
+The data centers table includes certain data centers that are set to close in 2020, and support for existing workloads is still available until the closing date. For the list of data centers that are closing, see [Withdrawal of support for some data centers](/docs/get-support?topic=get-support-dc-migrate).
 {: note}
