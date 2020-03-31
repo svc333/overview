@@ -4,7 +4,7 @@ copyright:
 
   years: 2015, 2020
 
-lastupdated: "2020-03-23"
+lastupdated: "2020-03-31"
 
 keywords: release notes, what's new in IBM Cloud, what's new for the platform, what is new, cloud updates, new features, platform
 
@@ -28,6 +28,13 @@ If you're looking for updates for the services that are available on {{site.data
 
 ## {{site.data.keyword.Bluemix_notm}} platform
 {: #platform_category}
+
+### {{site.data.keyword.Bluemix_notm}} CLI Version 1.0.0 is now available
+New as of: 31 March 2020
+
+The 1.0.0 release of the {{site.data.keyword.Bluemix_notm}} CLI includes two new global options to help you more easily automate command-line scripting tasks. The new `--output json` option provides command output in a parsable JSON format, and the `--quiet` option surpresses some extra messages such as progress indicators simplify automated processing. The {{site.data.keyword.Bluemix_notm}} CLI now also includes the {{site.data.keyword.dev_cli_notm}} (`ibmcloud dev`) commands, so you can work with apps, pipelines, toolchains, and more without needing to install a separate plug-in. The Cloud Foundry CLI (`ibmcloud cf`) is no longer bundled but can still be installed separately.
+
+For more information about the {{site.data.keyword.Bluemix_notm}} CLI, see [Getting started with the IBM Cloud CLI and Developer Tools](/docs/cli?topic=cloud-cli-getting-started).
 
 ### Customizing how access is assigned by using custom roles
 New as of: 23 March 2020
