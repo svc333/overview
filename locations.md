@@ -39,6 +39,8 @@ As illustrated in the following graphic, a data center is a physical building th
 
 A [multizone region (MZR)](#x9774820){: term} is comprised of 3 or more zones that are independent from each other to ensure that single failure events affect only a single zone. MZRs provide low latency (< 2 milliseconds latency) and high bandwidth (> 1000 Gbps) connectivity across zones.
 
+The advantage of an MZR is that it provides consistent cloud services across the different zones, better resiliency, availability, higher interconnect speed between data centers for cloud platforms, and infrastructure services such as {{site.data.keyword.cos_full}}, and {{site.data.keyword.Bluemix_notm}} load balancers. These features can be critical to your applications. Deploying the application in an MZR rather than a single zone can increase the availability from 3 9’s to 5 9’s when deployed over three zones.
+
 The following table lists the {{site.data.keyword.cloud_notm}} MZRs and the region, zone, and data center codes for each one.
 
 | Location | Region | Zone | Data Center |
@@ -96,6 +98,8 @@ In addition to selecting a region for your resource, you can select from a list 
 The following graphic illustrates the available {{site.data.keyword.Bluemix_notm}} data centers.
 
 ![Map of available data centers](images/Global-View.svg){: caption="Figure 2. Data center locations" caption-side="bottom"}
+
+Data centers are based on POD architecture where each data center can have more than one POD, depending on on-demand buildout. Each POD consists of racks, servers, networks, and storage, along with backup power generators. Placing the application servers across PODs further improves the availability.
 
 
 See the following table for the specific code for each data center.
@@ -196,3 +200,6 @@ See the following table for the specific code for each data center.
 {: tab-group="dcs"}
 {: class="simple-tab-table"}
 {: summary="Use the buttons before the table to change the context of the table. The column headers identify the data centers located in the specific geographical area."}
+
+The table includes certain data centers that are set to close in 2020, and support for existing workloads is still available until the closing date. For the list of data centers that are closing, see [Withdrawal of support for some data centers](/docs/get-support?topic=get-support-dc-migrate).
+{: note}
