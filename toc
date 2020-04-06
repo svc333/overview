@@ -7,7 +7,6 @@ Getting started with IBM Cloud
 
     {: .navgroup id="learn"}
     ibm-cloud-platform.md
-    [Dashboard](https://www.cloud.ibm.com)
     it-ops-journey.md
 
     {: .topicgroup}
@@ -17,6 +16,7 @@ Getting started with IBM Cloud
 
     personalized-assistance.md
     whats-new/index.md
+    [IBM Cloud dashboard](https://cloud.ibm.com/)
 
     {: .topicgroup}
     Related links
