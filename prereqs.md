@@ -2,8 +2,8 @@
 
 
 copyright:
-  years: 2016, 2019
-lastupdated: "2019-09-17"
+  years: 2016, 2020
+lastupdated: "2019-04-08"
 
 keywords: prereqs, platform prereqs, platform prerequisites, platform
 
@@ -32,9 +32,6 @@ Extended Support Release](https://www.mozilla.org/en-US/firefox/organizations/){
  * Edge: Latest version for Windows
  * Safari: Latest version for Mac
  
-You can report issues about Internet Explorer 11 through our **Feedback** button.
-{:note}
-
 ## Command-line interface
 {: #cli-platform}
 
