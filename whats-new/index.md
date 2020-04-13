@@ -4,7 +4,7 @@ copyright:
 
   years: 2015, 2020
 
-lastupdated: "2020-03-31"
+lastupdated: "2020-04-13"
 
 keywords: release notes, what's new in IBM Cloud, what's new for the platform, what is new, cloud updates, new features, platform
 
@@ -151,7 +151,7 @@ You can now control what's displayed on your dashboard. Customizing your dashboa
 ### Export usage data with associated tags
 New as of: 4 April 2019 
 
-You can now utilize our newest tagging capabilities to manage resources, usage, and costs in the exported usage report. When you add a tag to a resource, you can view the tag that is associated with the resource. Go to **Manage**> **Billing and Usage**> **Usage**> **Export CSV**>  **Instances** to download your usage report. For more information on exporting tags, check out the [Export tags within your usage data to help with cost allocation](https://www.ibm.com/cloud/blog/export-your-tagged-usage-data-within-the-enhanced-ibm-cloud){: new_window} ![External link icon](../../icons/launch-glyph.svg "External link icon") blog post.
+You can now utilize our newest tagging capabilities to manage resources, usage, and costs in the exported usage report. When you add a tag to a resource, you can view the tag that is associated with the resource. In the {{site.data.keyword.cloud_notm}} console, go to **Manage**> **Billing and Usage**> **Usage**> **Export CSV**>  **Instances** to download your usage report. For more information on exporting tags, check out the [Export tags within your usage data to help with cost allocation](https://www.ibm.com/cloud/blog/export-your-tagged-usage-data-within-the-enhanced-ibm-cloud){: new_window} ![External link icon](../../icons/launch-glyph.svg "External link icon") blog post.
 
 ### Access group for enabling public access to resources
 New as of: 25 March 2019
@@ -190,7 +190,7 @@ The legacy `api.*.bluemix.net` Cloud Foundry API endpoints are still available f
 New as of: 30 November 2018 
 {: #support}
 
-With the Support Center, you can work to resolve all {{site.data.keyword.Bluemix_notm}}-related issues. The landing page provides you FAQs, so you can find the answer to your question without even contacting {{site.data.keyword.Bluemix_notm}}. You can also chat with a live support rep. Your cases can now be managed in from a single location. Go to **Support** &gt; **Manage cases** to create, view, or edit cases.
+With the Support Center, you can work to resolve all {{site.data.keyword.Bluemix_notm}}-related issues. The landing page provides you FAQs, so you can find the answer to your question without even contacting {{site.data.keyword.Bluemix_notm}}. You can also chat with a live support rep. Your cases can now be managed in from a single location. In the console, go to **Support** &gt; **Manage cases** to create, view, or edit cases.
 
 You can also find the [Status page](https://cloud.ibm.com/status){: new_window} ![External link icon](../../icons/launch-glyph.svg "External link icon") from the Support Center. It is enhanced to include all unplanned incidents, planned maintenance, announcements, and security bulletin notifications about key events that affect the {{site.data.keyword.Bluemix_notm}} platform, infrastructure, and major services. Click **View cloud status** from the Support Center. To check out the new experience, log in and go to the [Support Center](https://cloud.ibm.com/unifiedsupport/supportcenter){: new_window} ![External link icon](../../icons/launch-glyph.svg "External link icon"). 
 
