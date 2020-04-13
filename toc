@@ -29,11 +29,11 @@ Getting started with IBM Cloud
 
     {: .topicgroup}
     Quick start guides
+        quickstart_acc_ad.md
         quickstart_dev.md
         quickstart_cloud_admin.md
         quickstart_ea.md
         quickstart_lite.md
-        quickstart_acc_ad.md
 
     feedback.md
     {: .navgroup-end}
