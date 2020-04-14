@@ -1,7 +1,7 @@
 ---
 copyright:
   years: 2019, 2020
-lastupdated: "2020-02-28"
+lastupdated: "2020-04-14"
 
 keywords: compute, virtual server, profile, vpc, vpc on classic, infrastructure, cloud environment
 
@@ -58,8 +58,8 @@ We are always adding new features and support. Over time, there will be fewer co
 |Public gateway| |
 |Security groups| |
 |Network access control lists (ACLs)|   |
-|VPN| VPN is supported in Beta for generation 2 resources.   |
-|Load balancer| Load balancer is supported in Beta for generation 2 resources.  |
+|VPN|    |
+|Load balancer|    |
 |Access to classic infrastructure|  |
 {: table="table3"}
 {: tab-title="Network"}
