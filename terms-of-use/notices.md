@@ -4,8 +4,8 @@
 
 copyright:
 
-  years: 2015, 2019
-lastupdated: "2019-11-06"
+  years: 2015, 2020
+lastupdated: "2020-04-14"
 
 keywords: notices, terms of use, IBM Cloud
 
@@ -24,18 +24,18 @@ subcollection: overview
 ## {{site.data.keyword.Bluemix_notm}} Terms
 {: #terms_details}
 
-Your IBM Cloud Account and any services ordered from the IBM Cloud are provided under the term of:
+Your {{site.data.keyword.Bluemix}} Account and any services ordered from {{site.data.keyword.Bluemix_notm}} are provided under the term of:
 
   * Base Agreement Cloud Terms applicable to you as follows:
     * SoftLayer Cloud Service Agreement for US Dollar credit card billing, available at [https://www.ibm.com/support/customer/zz/en/softlayer.html](https://www.ibm.com/support/customer/zz/en/softlayer.html){: new_window} ![External link icon](../../icons/launch-glyph.svg)
-    * IBM Cloud Services Agreement (local country version*) for non-US Dollar credit card billing, or if you select invoicing from IBM, available at [https://www.ibm.com/terms](https://www.ibm.com/support/customer/csol/terms/){: new_window} ![External link icon](../../icons/launch-glyph.svg) (select your country);
+    * {{site.data.keyword.Bluemix_notm}} Services Agreement (local country version*) for non-US Dollar credit card billing, or if you select invoicing from IBM, available at [https://www.ibm.com/terms](https://www.ibm.com/support/customer/csol/terms/){: new_window} ![External link icon](../../icons/launch-glyph.svg) (select your country);
     * IBM Passport Advantage Agreement you accepted and the General Terms for Cloud Offerings TOU for IBM Passport Advantage Clients, available at [http://www-03.ibm.com/software/sla/sladb.nsf/sla/tou](http://www-03.ibm.com/software/sla/sladb.nsf/sla/tou){: new_window} ![External link icon](../../icons/launch-glyph.svg); or
     * equivalent cloud service base agreement terms between you and IBM;
-  * Service Description for IBM Cloud available at [http://www-03.ibm.com/software/sla/sladb.nsf/sla/bm](http://www-03.ibm.com/software/sla/sladb.nsf/sla/bm){: new_window} ![External link icon](../../icons/launch-glyph.svg);
+  * Service Description for {{site.data.keyword.Bluemix_notm}} available at [http://www-03.ibm.com/software/sla/sladb.nsf/sla/bm](http://www-03.ibm.com/software/sla/sladb.nsf/sla/bm){: new_window} ![External link icon](../../icons/launch-glyph.svg);
   * Cloud Trial Agreement for Proof of Concept (POC) Accounts available at [http://www-03.ibm.com/software/sla/sladb.nsf/sla/tou](http://www-03.ibm.com/software/sla/sladb.nsf/sla/tou){: new_window} ![External link icon](../../icons/launch-glyph.svg);
     POC accounts may be provided for assessment of specific services and/or solutions. Use of services beyond the intended scope of POC may be possible, but might be subjected to additional charges.
-  * Applicable Additional SDs for any service ordered using your IBM Cloud Account available at [http://www-03.ibm.com/software/sla/sladb.nsf/sla/bm](http://www-03.ibm.com/software/sla/sladb.nsf/sla/bm){: new_window} ![External link icon](../../icons/launch-glyph.svg); and
-  * Applicable Data Sheets as referenced in applicable Additional SDs or from the "Terms" link for a service in the IBM Cloud UI available at [http://www-03.ibm.com/software/sla/sladb.nsf/sla/csdsp](http://www-03.ibm.com/software/sla/sladb.nsf/sla/csdsp){: new_window} ![External link icon](../../icons/launch-glyph.svg).
+  * Applicable Additional SDs for any service ordered using your {{site.data.keyword.Bluemix_notm}} Account available at [http://www-03.ibm.com/software/sla/sladb.nsf/sla/bm](http://www-03.ibm.com/software/sla/sladb.nsf/sla/bm){: new_window} ![External link icon](../../icons/launch-glyph.svg); and
+  * Applicable Data Sheets as referenced in applicable Additional SDs or from the "Terms" link for a service in the {{site.data.keyword.Bluemix_notm}} UI available at [http://www-03.ibm.com/software/sla/sladb.nsf/sla/bm](http://www-03.ibm.com/software/sla/sladb.nsf/sla/bm){: new_window} ![External link icon](../../icons/launch-glyph.svg).
   * If you or your company is a covered entity as defined by the US Health Insurance Portability and Accountability Act (HIPAA) and intend to order Cloud Services that might process protected health information (PHI), you must accept the IBM Business Associate Addendum (BAA) available at [https://www-03.ibm.com/software/sla/sladb.nsf/sla/baa?OpenDocument](https://www-03.ibm.com/software/sla/sladb.nsf/sla/baa?OpenDocument){: new_window} ![External link icon](../../icons/launch-glyph.svg). The BAA can be digitally accepted as described in [Enabling the HIPAA Supported setting](/docs/account?topic=account-eu-hipaa-supported#enabling-hipaa).
   * A Reserved Capacity is for a fixed term as set forth in an Order, and cannot be terminated by Client prior to the end of that term. A Reserved Capacity may be eligible for renewal at the conclusion of a term by mutual agreement between Client and SoftLayer. Reserved Capacities that are neither renewed nor terminated prior to the end of their terms will convert into monthly Cloud Services subject to the terms of the then-current Cloud Services Agreement and Service Description and at the then-current retail pricing.
 
@@ -150,9 +150,9 @@ SANCTIONS & EMBARGOES
 
 The United States prohibits most commercial transactions and other dealings with a handful of countries for foreign policy and national security reasons.  These prohibitions – formally known as trade and economic sanctions or comprehensive embargoes – currently target Iran, Cuba, North Korea, and Syria. 
 
-IBM Cloud implements network-wide blocking of communications to IP addresses which originate from countries subject to those trade and economic sanctions. This policy affects all IBM Cloud data center locations and environments, and blocks access by IP addresses registered to countries subject to U.S. trade and economic sanctions.
+{{site.data.keyword.Bluemix_notm}} implements network-wide blocking of communications to IP addresses which originate from countries subject to those trade and economic sanctions. This policy affects all {{site.data.keyword.Bluemix_notm}} data center locations and environments, and blocks access by IP addresses registered to countries subject to U.S. trade and economic sanctions.
 
-To identify IP addresses associated with U.S. embargoed countries, IBM Cloud references the Geo IP2 Database maintained by [MaxMind ![External link icon](../../icons/launch-glyph.svg)](http://www.maxmind.com){: new_window}). IBM Cloud updates its IP address country mapping on a quarterly basis.
+To identify IP addresses associated with U.S. embargoed countries, {{site.data.keyword.Bluemix_notm}} references the Geo IP2 Database maintained by [MaxMind ![External link icon](../../icons/launch-glyph.svg)](http://www.maxmind.com){: new_window}). {{site.data.keyword.Bluemix_notm}} updates its IP address country mapping on a quarterly basis.
 
 Note: This restriction does not apply to content that is not prohibited under U.S. sanctions and embargoes. Please email IBM_Cloud_Embargo_Exemption_Request@wwpdl.vnet.ibm.com if you believe your content is not prohibited under U.S. trade and economic sanctions. 
 
