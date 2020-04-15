@@ -3,7 +3,7 @@
 
 copyright:
   years: 2016, 2020
-lastupdated: "2020-02-27"
+lastupdated: "2020-04-15"
 
 keywords: glossary, IBM Cloud glossary, terms, definitions
 
@@ -1298,9 +1298,7 @@ The URL used to direct requests to an application. A route is made up of an opti
 ### rule
 {: #x2037526}
 
-- A criteria that associates one trigger with one action, with every firing of the trigger causing the corresponding action to be invoked with the trigger event as input.
-- A set of conditional statements that enable computer systems to identify relationships and run automated responses accordingly.
-- A set of conditional statements that are used to determine whether a build can be promoted. 
+A set of conditional statements that are used to determine whether a build can be promoted.
 
 ### rule set
 {: #x2065665}
@@ -1330,11 +1328,6 @@ A catalog in which approvals for publishing and lifecycle actions are bypassed s
 {: #x2004442}
 
 To increase platform (or system) capacity by adding more application or service instances.
-
-### scope
-{: #x2037763}
-
-In identity management, the set of entities that a policy or an access control item (ACI) can affect.
 
 ### Secure Shell (SSH)
 {: #x3574365}
