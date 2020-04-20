@@ -4,7 +4,7 @@ copyright:
 
   years: 2015, 2020
 
-lastupdated: "2020-04-13"
+lastupdated: "2020-04-20"
 
 keywords: release notes, what's new in IBM Cloud, what's new for the platform, what is new, cloud updates, new features, platform
 
@@ -28,6 +28,17 @@ If you're looking for updates for the services that are available on {{site.data
 
 ## {{site.data.keyword.Bluemix_notm}} platform
 {: #platform_category}
+
+### New features and multi-region support for {{site.data.keyword.cloud-shell_notm}} (Beta)
+New as of: 18 April 2020
+
+This update to {{site.data.keyword.cloud-shell_notm}} (Beta) includes several new features to help you work from the command line in {{site.data.keyword.Bluemix_notm}}:
+* You can now preview web apps within {{site.data.keyword.cloud-shell_short}}. By running apps on an available port, you can open a preview at a URL that only you can see, similar to a cloud version of `localhost`. 
+* You can now use {{site.data.keyword.cloud-shell_short}} within the Frankfurt region in addition to the existing Dallas region. 
+* Usage timeouts were changed to extend how long you can leave your sessions idle before they're closed. And, there's no longer a time limit on continuous usage.
+* An update to the server image adds the GNU Automake (`automake`) and GNU Compiler Collection (`gcc`, `gcov`, and `gcov-tool`) tools to your sessions. 
+
+For a complete list of changes, see the [{{site.data.keyword.cloud-shell_short}} release notes](/docs/cloud-shell?topic=cloud-shell-release-notes-image).
 
 ### {{site.data.keyword.Bluemix_notm}} CLI Version 1.0.0 is now available
 New as of: 31 March 2020
