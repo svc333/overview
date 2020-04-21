@@ -4,7 +4,7 @@ copyright:
 
   years: 2015, 2020
 
-lastupdated: "2020-04-20"
+lastupdated: "2020-04-21"
 
 keywords: release notes, what's new in IBM Cloud, what's new for the platform, what is new, cloud updates, new features, platform
 
@@ -28,6 +28,14 @@ If you're looking for updates for the services that are available on {{site.data
 
 ## {{site.data.keyword.Bluemix_notm}} platform
 {: #platform_category}
+
+### Unified notifications experience
+{: #unified-notifications-experience}
+New as of: 21 April 2020
+
+Viewing your notifications is now easier than ever with the new unified notifications experience. The notifications page is the centralized place to view and manage all incidents, maintenance, and announcements that might affect your account. In the {{site.data.keyword.Bluemix_notm}} console, click the Notifications icon ![Notifications icon](../../icons/Notification.svg) from the console menu bar to view your notifications.
+
+Additionally, you can find all infrastructure notifications on the new notifications page. To learn more about the new notifications experience, see [Viewing notifications](/docs/get-support?topic=get-support-viewing-notifications).
 
 ### New features and multi-region support for {{site.data.keyword.cloud-shell_notm}} (Beta)
 New as of: 18 April 2020
