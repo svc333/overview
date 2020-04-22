@@ -4,7 +4,7 @@ copyright:
   years: 2019, 2020
 lastupdated: "2020-04-22"
 
-keywords: data center, data centers, data center locations, specific data center, individual data centers, regions, locations, network, ibm cloud regions, multizone regions, MZRs, latency, HA, high availability, endpoints, cloud regions, cloud data centers, multizone, resources, geography, global load balancing, geo, load balancing, availability zones, zones, north america, south america, europe, asia, DC, failover
+keywords: data center, data centers, data center locations, specific data center, individual data centers, regions, locations, network, ibm cloud regions, multizone regions, MZRs, latency, HA, high availability, endpoints, cloud regions, cloud data centers, multizone, resources, geography, global load balancing, geo, load balancing, availability zones, zones, north america, south america, europe, asia, DC, failover, tiers, globally resilient, resilient
 
 subcollection: overview
 
