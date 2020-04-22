@@ -2,7 +2,7 @@
 
 copyright:
   years: 2019, 2020
-lastupdated: "2020-03-24"
+lastupdated: "2020-04-22"
 
 keywords: data center, data centers, data center locations, specific data center, individual data centers, regions, locations, network, ibm cloud regions, multizone regions, MZRs, latency, HA, high availability, endpoints, cloud regions, cloud data centers, multizone, resources, geography, global load balancing, geo, load balancing, availability zones, zones, north america, south america, europe, asia, DC, failover
 
@@ -22,26 +22,16 @@ subcollection: overview
 {{site.data.keyword.cloud}} has a resilient global network of locations consisting of regions, zones, and data centers to host your highly available cloud workload. You can create resources in different locations but with the same billing and usage view, and deploy your apps to the location that is nearest to your customers to achieve low application latency.
 {: shortdesc}
 
-With global load balancing, the {{site.data.keyword.cloud_notm}} console displays information about the next closest location if your nearest geographical location is unavailable. The console is highly available and continues to run even if your resources are unavailable.
-
-You can view all resources and locations from the Resource list page in the console. If you want to view and work with resources in a specific location, expand the **Location** filter, and select a location from the list. By expanding a specific location, you can select to filter by individual data centers, regions, or zones.
-
-For example, if you have resources that are deployed in the London 2 (eu-gb-2) zone, you can set filters to display only those resources in your resource list. Expand the **London** metro option, and the **London (eu-gb)** region option. Within that region, you can select from the list of available zones. If you have a resource that is deployed in a specific data center, you can identify the data center by the specific metro location and alphanumeric code, for example, London 02 (lon02).
-
-You might also want to display your resources that are located globally. The **Global** option means that only one logical, globally accessible instance of the service, independent of any region or zone, is published to customer applications. These types of resources are accessible from a global endpoint.
-
-As illustrated in the following graphic, a data center is a physical building that represents an availability zone that is located within a multizone region (MZR). An MZR is organized by its metro location. For example, London can encompass more than one grouping of data centers within an MZR. The graphic shows three availability zones in one MZR that work together in the instance that one of the data centers becomes unavailable. Availability zones are connected directly to each or through low latency links.
-
-![A location hierarchy that shows a geography that contains data center buildings inside of availability zones that are interconnected with points-of-presence within a metro.](images/Location-Illustration.svg){: caption="Figure 1. Location hiearchy" caption-side="bottom"}
+{{site.data.keyword.cloud_notm}} provides 3 tiers of regions: multizone regions (MZR), single-zone regions( SZR), and data centers. For more details, see the following sections.
 
 ## Multizone regions
 {: #mzr-table}
 
-A [multizone region (MZR)](#x9774820){: term} is comprised of 3 or more zones that are independent from each other to ensure that single failure events affect only a single zone. MZRs provide low latency (< 2 milliseconds latency) and high bandwidth (> 1000 Gbps) connectivity across zones.
+An [MZR](#x9774820){: term} is comprised of 3 or more zones that are independent from each other to ensure that single failure events affect only a single zone. MZRs provide low latency (< 2 milliseconds latency) and high bandwidth (> 1000 Gbps) connectivity across zones. Any [GA](#x2117947){: term} service in an MZR will be available in all MZRs within 90 days. 
 
-The advantage of an MZR is that it provides consistent cloud services across the different zones, better resiliency, availability, higher interconnect speed between data centers for cloud platforms, and infrastructure services such as {{site.data.keyword.cos_full}}, and {{site.data.keyword.Bluemix_notm}} load balancers. These features can be critical to your applications. Deploying the application in an MZR rather than a single zone can increase the availability from 99.9% to 99.99% when deployed over 3 zones.
+The advantage of an MZR is that it provides consistent cloud services across different zones, better resiliency, availability, higher interconnect speed between data centers for your resources. These features can be critical to your applications. Deploying the application in an MZR rather than a SZR can increase the availability from 99.9% to 99.99% when deployed over 3 zones. 
 
-The following table lists the {{site.data.keyword.cloud_notm}} MZRs and the region, zone, and data center codes for each one.
+The following table lists the {{site.data.keyword.cloud_notm}} MZRs and the region, zone, and data center codes for each one. 
 
 | Location | Region | Zone | Data Center |
 |-----------|----------|------|----|
@@ -78,11 +68,10 @@ The following table lists the {{site.data.keyword.cloud_notm}} MZRs and the regi
 {: class="simple-tab-table"}
 {: summary="Use the buttons before the table to change the context of the table. The column headers identify the data centers located in the specific geographical area."}
 
-
 ## Single-zone regions
 {: #szr-table}
 
-The following table lists the [single-zone regions (SZR)](#x9774825){: term} in {{site.data.keyword.cloud_notm}} and the region, zone, and data center codes for each one.
+You can also choose to deploy resources to a SZR, but you can't spread them across zones. The following table lists the [SZRs](#x9774825){: term} in {{site.data.keyword.cloud_notm}} and the region, zone, and data center codes for each one.
 
 | Location      | Region   | Zone | Data Center |
 |-----------|----------|------|----|
@@ -95,12 +84,11 @@ The following table lists the [single-zone regions (SZR)](#x9774825){: term} in 
 
 In addition to selecting a region for your resource, you can select from a list of the {{site.data.keyword.Bluemix_notm}} [data centers](#x2439906){: term}. Data centers host the power, cooling, compute, network, and storage resources used for services and apps. They don't provide isolation from multizones in a location. 
 
+Data centers are based on a POD architecture where each data center can have more than one POD, depending on on-demand buildout. Each POD consists of racks, servers, networks, and storage, along with backup power generators. Placing application servers across PODs further improves the availability.
+
 The following graphic illustrates the available {{site.data.keyword.Bluemix_notm}} data centers.
 
 ![Map of available data centers](images/Global-View.svg){: caption="Figure 2. Data center locations" caption-side="bottom"}
-
-Data centers are based on POD architecture where each data center can have more than one POD, depending on on-demand buildout. Each POD consists of racks, servers, networks, and storage, along with backup power generators. Placing the application servers across PODs further improves the availability.
-
 
 See the following table for the specific code for each data center.
 
@@ -201,5 +189,18 @@ See the following table for the specific code for each data center.
 {: class="simple-tab-table"}
 {: summary="Use the buttons before the table to change the context of the table. The column headers identify the data centers located in the specific geographical area."}
 
-The data centers table includes certain data centers that are set to close in 2020, and support for existing workloads is still available until the closing date. For the list of data centers that are closing, see [Withdrawal of support for some data centers](/docs/get-support?topic=get-support-dc-migrate).
+The table includes certain data centers that are set to close in 2020, and support for existing workloads is still available until the closing date. For the list of data centers that are closing, see [Withdrawal of support for some data centers](/docs/get-support?topic=get-support-dc-migrate).
 {: note}
+
+## Viewing resources by location
+{: #filter-location}
+
+You can view all resources and locations from the Resource list page in the console. If you want to view and work with resources in a specific location, expand the **Location** filter, and select a location from the list. By expanding a specific location, you can select to filter by individual data centers, regions, or zones.
+
+For example, if you have resources that are deployed in the London 2 (eu-gb-2) zone, you can set filters to display only those resources in your resource list. Expand the **London** metro option, and the **London (eu-gb)** region option. Within that region, you can select from the list of available zones. If you have a resource that is deployed in a specific data center, you can identify the data center by the specific metro location and alphanumeric code, for example, London 02 (lon02).
+
+You might also want to display your resources that are located globally. The **Global** option means that only one logical, globally accessible instance of the service, independent of any region or zone, is published to customer applications. These types of resources are accessible from a global endpoint.
+
+As illustrated in the following graphic, a data center is a physical building that represents an availability zone that is located within a multizone region (MZR). An MZR is organized by its metro location. For example, London can encompass more than one grouping of data centers within an MZR. The graphic shows three availability zones in one MZR that work together in the instance that one of the data centers becomes unavailable. Availability zones are connected directly to each or through low latency links.
+
+![A location hierarchy that shows a geography that contains data center buildings inside of availability zones that are interconnected with points-of-presence within a metro.](images/Location-Illustration.svg){: caption="Figure 1. Location hiearchy" caption-side="bottom"}
