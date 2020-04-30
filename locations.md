@@ -2,7 +2,7 @@
 
 copyright:
   years: 2019, 2020
-lastupdated: "2020-04-22"
+lastupdated: "2020-04-30"
 
 keywords: data center, data centers, data center locations, specific data center, individual data centers, regions, locations, network, ibm cloud regions, multizone regions, MZRs, latency, HA, high availability, endpoints, cloud regions, cloud data centers, multizone, resources, geography, global load balancing, geo, load balancing, availability zones, zones, north america, south america, europe, asia, DC, failover, tiers, globally resilient, resilient
 
@@ -35,7 +35,6 @@ The following table lists the {{site.data.keyword.cloud_notm}} MZRs and the regi
 
 | Location | Region | Zone | Data Center |
 |-----------|----------|------|----|
-| Brazil | br-sao | br-sao-1<br>br-sao-2<br>br-sao-3 | SAO01<br>SAO04<br>SAO05 |
 | Dallas | us-south | us-south-1<br>us-south-2<br>us-south-3 | DAL10<br>DAL12<br>DAL13 |
 | Washington DC | us-east | us-east-1<br>us-east-2<br>us-east-3 | WDC04<br>WDC06<br>WDC07 |
 {: caption="Table 1. MZRs in North and South America" caption-side="top"}
@@ -58,7 +57,6 @@ The following table lists the {{site.data.keyword.cloud_notm}} MZRs and the regi
 
 | Location      | Region   | Zone | Data Center |
 |-----------|----------|------|----|
-| Osaka | jp-osa | jp-osa-1<br>jp-osa-2<br>jp-osa-3 | OSA21<br>OSA22<br>OSA23 |
 | Sydney        | au-syd   |au-syd-1<br>au-syd-2<br>au-syd-3 | SYD01<br>SYD04<br>SYD05|
 | Tokyo         | jp-tok   |jp-tok-1<br>jp-tok-2<br>jp-tok-3 | TOK02<br>TOK04<br>TOK05|
 {: caption="Table 1. Multizone regions in Asia Pacific" caption-side="top"}
@@ -109,7 +107,6 @@ See the following table for the specific code for each data center.
 | San Jose 01      | SJC01 |
 | San Jose 03      | SJC03 |
 | San Jose 04      | SJC04 |
-| Sao Paulo 01     | SAO01 |
 | Seattle 01       | SEA01 |
 | Toronto 01       | TOR01 |
 | Washington DC 01 | WDC01 |
@@ -163,10 +160,6 @@ See the following table for the specific code for each data center.
 |Hong Kong 02 | HKG02|
 |Melbourne 01 | MEL01|
 |Melbourne 02 | MEL02|
-|Osaka 01 | OSA01|
-|Osaka 21 | OSA1|
-|Osaka 22 | OSA22|
-|Osaka 23 | OSA23|
 |Perth 01 | PER01|
 |Seoul 01 | SEO01|
 |Seoul 02 | SEO02|
