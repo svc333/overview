@@ -2,7 +2,7 @@
 
 copyright:
   years: 2019, 2020
-lastupdated: "2020-04-30"
+lastupdated: "2020-05-01"
 
 keywords: data center, data centers, data center locations, specific data center, individual data centers, regions, locations, network, ibm cloud regions, multizone regions, MZRs, latency, HA, high availability, endpoints, cloud regions, cloud data centers, multizone, resources, geography, global load balancing, geo, load balancing, availability zones, zones, north america, south america, europe, asia, DC, failover, tiers, globally resilient, resilient
 
@@ -190,7 +190,7 @@ The table includes certain data centers that are set to close in 2020, and suppo
 
 You can view all resources and locations from the Resource list page in the console. If you want to view and work with resources in a specific location, expand the **Location** filter, and select a location from the list. By expanding a specific location, you can select to filter by individual data centers, regions, or zones.
 
-For example, if you have resources that are deployed in the London 2 (eu-gb-2) zone, you can set filters to display only those resources in your resource list. Expand the **London** metro option, and the **London (eu-gb)** region option. Within that region, you can select from the list of available zones. If you have a resource that is deployed in a specific data center, you can identify the data center by the specific metro location and alphanumeric code, for example, London 02 (lon02).
+For example, if you have resources that are deployed in the London 2 (eu-gb-2) zone, you can set filters to display only those resources in your resource list. Expand the **London** metro option, and the **London (eu-gb)** region option. Within that region, you can select from the list of available zones. If you have a resource that is deployed in a specific data center, you can identify the data center by the specific metro location and alphanumeric code, for example, **Dallas** for the metro location and then **Dallas 07 (dal07)** for the data center.
 
 You might also want to display your resources that are located globally. The **Global** option means that only one logical, globally accessible instance of the service, independent of any region or zone, is published to customer applications. These types of resources are accessible from a global endpoint.
 
