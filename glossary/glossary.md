@@ -3,7 +3,7 @@
 
 copyright:
   years: 2016, 2020
-lastupdated: "2020-04-15"
+lastupdated: "2020-05-07"
 
 keywords: glossary, IBM Cloud glossary, terms, definitions
 
@@ -606,6 +606,11 @@ A public, routable IP address that makes use of 1-to-1 network address translati
 {: #x2023472}
 
 An architecture for an application that provides a standard structure for an application, and general, extensible functionality.  A framework enables and simplifies consistent implementation of complex technologies for application development.
+
+### functional identifier
+{: #x5951030}
+
+An ID created through a federated identity provider that represents a program, application, or service that is assigned the minimum level of access required to complete the function for which it is created.
 
 
 ## G
