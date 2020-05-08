@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020
-lastupdated: "2020-04-27"
+lastupdated: "2020-05-08"
 
 keywords: compliance, environmental information 
 
@@ -60,4 +60,5 @@ For details, see the following data sheets on our physical hardware in the cloud
 * [Rack Mount Server SR630_1100W](https://cloud.ibm.com/media/docs/downloads/environment-info-datasheets/SR630_1100W.pdf)
 * [Rack Mount Server SR630_750W](https://cloud.ibm.com/media/docs/downloads/environment-info-datasheets/SR630_750W.pdf)
 * [Rack Mount Server SR650](https://cloud.ibm.com/media/docs/downloads/environment-info-datasheets/SR650.pdf)
+* [Rack Mount Server 2U_H11DSU](https://cloud.ibm.com/media/docs/downloads/environment-info-datasheets/2U_H11DSU.pdf)
 
