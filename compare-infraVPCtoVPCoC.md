@@ -1,7 +1,7 @@
 ---
 copyright:
   years: 2019, 2020
-lastupdated: "2020-04-21"
+lastupdated: "2020-05-20"
 
 keywords: compute, virtual server, profile, vpc, vpc on classic, infrastructure, cloud environment
 
@@ -40,7 +40,7 @@ We are always adding new features and support. Over time, there will be fewer co
 |Windows instance support|   |
 |Import custom images| |
 |Developer-friendly, REST-based API||
-|IBM Kubernetes Service (IKS) requirements| IKS is supported for generation 1 profiles only. |
+|IBM Kubernetes Service (IKS) requirements|  |
 {: table="table2"}
 {: tab-title="Compute"}
 {: tab-group="Features"}
