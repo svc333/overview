@@ -29,6 +29,14 @@ If you're looking for updates for the services that are available on {{site.data
 ## {{site.data.keyword.Bluemix_notm}} platform
 {: #platform_category}
 
+### Connect to an external identity provider for authentication
+{: #external-idp}
+New as of: 21 May 2020
+
+You can now connect your external identity provider to an {{site.data.keyword.appid_full_notm}} instance, and then configure that {{site.data.keyword.appid_short}} to connect directly to {{site.data.keyword.Bluemix_notm}} Identity and Access Management (IAM) to federate authentication for users in your enterprise to your {{site.data.keyword.Bluemix_notm}} account.
+
+By using this new integration between {{site.data.keyword.appid_short}} and {{site.data.keyword.Bluemix_notm}} IAM, you can simplify the log in experience for users in your enterprise and automatically add users to your account through their login, instead of having to invite or federate each user individually with IBMid. For more information, see [Enabling authentication from an external identity provider](/docs/iam?topic=iam-idp-integration).
+
 ### Unified notifications experience
 {: #unified-notifications-experience}
 New as of: 21 April 2020
