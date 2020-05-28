@@ -2,9 +2,9 @@
 
 copyright:
 
-  years: 2018, 2019
+  years: 2018, 2020
 
-lastupdated: "2019-09-13"
+lastupdated: "2020-05-28"
 
 keywords: cloud architect quick start, quick start guide, designing, cloud architecture, enterprise architects
 
@@ -38,8 +38,8 @@ Create a Pay-As-You-Go or Subscription account to get full access to all offerin
     * Learn about disaster recovery and high availability in {{site.data.keyword.Bluemix_notm}}. See [How do I ensure zero downtime?](/docs/overview?topic=overview-zero-downtime) for more information.
     * Check out the reference architectures for {{site.data.keyword.Bluemix_notm}}. See the [Architecture center](https://www.ibm.com/cloud/garage/architectures){: new_window} ![External link icon](../icons/launch-glyph.svg) for more information. 
     * Review case studies to learn how other companies use {{site.data.keyword.Bluemix_notm}} to achieve their business goals. See [{{site.data.keyword.Bluemix_notm}} case studies](https://www.ibm.com/cloud-computing/bluemix/case-studies){: new_window} ![External link icon](../icons/launch-glyph.svg) for more information. 
-2. Learn about the various options for hosting your applications, giving you as much control over the infrastructure as you want or need. For more information, see [Choosing your hosting environment](/docs/apps/tutorials?topic=creating-apps-hosting).
-3. Explore the offerings in the [catalog](https://cloud.ibm.com/catalog){: new_window} ![External link icon](../icons/launch-glyph.svg) that you can use to build your solution.
+2. Learn about the various options for hosting your applications, giving you as much control over the infrastructure as you want or need. For more information, see [Choosing your hosting environment](/docs/apps?topic=apps-hosting).
+3. Explore the products in the [catalog](https://cloud.ibm.com/catalog){: new_window} ![External link icon](../icons/launch-glyph.svg) that you can use to build your solution.
 
 ## Next steps
 {: #next-steps-ea}
