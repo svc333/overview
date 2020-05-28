@@ -2,7 +2,7 @@
 
 copyright:
   years: 2018, 2020
-lastupdated: "2020-03-20"
+lastupdated: "2020-05-28"
 
 keywords: cloud environment, virtual server, virtual machine, vm, understanding infrastructure, IaaS model, IT ops admin, on-premises, data center
 
@@ -120,10 +120,10 @@ Your server is the base of your infrastructure. Depending on your needs, you hav
 |--------|---------------|
 | [{{site.data.keyword.baremetal_short}}](/docs/bare-metal?topic=bare-metal-about-bm#about-bm)  | Hourly or monthly, single-tenant servers that are dedicated to you and not shared in any part, including server resources, with other customers. |
 | [{{site.data.keyword.BluVirtServers_short}}](/docs/vsi?topic=virtual-servers-getting-started-tutorial) | Scalable virtual servers that are purchased with cores and memory allocations. |
-| [{{site.data.keyword.vmwaresolutions_short}}](/docs/services/vmwaresolutions?topic=vmware-solutions-getting-started#getting-started) | Quickly and seamlessly integrate or migrate on-premises VMware workloads by using scalable, secure, and high-performance infrastructure and the industry-leading VMware hybrid virtualization technology. |
+| [{{site.data.keyword.vmwaresolutions_short}}](/docs/vmwaresolutions?topic=vmwaresolutions-getting-started#getting-started) | Quickly and seamlessly integrate or migrate on-premises VMware workloads by using scalable, secure, and high-performance infrastructure and the industry-leading VMware hybrid virtualization technology. |
 | [{{site.data.keyword.containerlong_notm}}](/docs/containers?topic=containers-getting-started) | Combines Docker containers, the Kubernetes technology, an intuitive user experience, and built-in security and isolation to automate the deployment, operation, scaling, and monitoring of containerized apps in a cluster of compute hosts. |
 | [{{site.data.keyword.cfee_full_notm}}](/docs/cloud-foundry?topic=cloud-foundry-what-is-cloud-foundry) | Instantiate multiple, isolated, enterprise-grade Cloud Foundry platforms on demand. |
-| [{{site.data.keyword.openwhisk_short}}](/docs/openwhisk?topic=cloud-functions-getting-started) | A Functions-as-a-Service (FaaS) programming platform based on Apache OpenWhisk. |
+| [{{site.data.keyword.openwhisk_short}}](/docs/openwhisk?topic=openwhisk-getting-started) | A Functions-as-a-Service (FaaS) programming platform based on Apache OpenWhisk. |
 {: caption="Table 1. Compute options" caption-side="top"}
    
 ### Storage
@@ -154,11 +154,11 @@ Check out the following table for a summary of your networking options.
 | Option | Description | 
 |--------|---------------|
 | [Content Delivery Network](/docs/CDN?topic=CDN-getting-started) | Used for various industry solutions, including media, entertainment, software, gaming, banking, and e-commerce, to meet the needs of your businesses. |
-| [Domain Name Service](/docs/cli/reference/ibmcloud?topic=cloud-cli-ibm-dev-tools-for-jetbrains) | Provides a central location to view and manage your domains through the basic DNS management interface, and also gives you the option to manage reverse and secondary DNS in the same location for free of charge. |
+| [Domain Name Service](/docs/cli?topic=cli-ibm-dev-tools-for-jetbrains) | Provides a central location to view and manage your domains through the basic DNS management interface, and also gives you the option to manage reverse and secondary DNS in the same location for free of charge. |
 | [Global IP addresses](/docs/subnets?topic=subnets-about-global-ip-address#about-global-ip-address) | Provide flexibility to shift workloads between servers, even across geographically disparate data centers. |
-| [Load balancing](/docs/infrastructure/loadbalancer-service?topic=loadbalancer-service-getting-started) | Distributes processing and communications evenly across multiple servers within a data center so that a single device does not carry an entire load. |
+| [Load balancing](/docs/loadbalancer-service?topic=loadbalancer-service-getting-started) | Distributes processing and communications evenly across multiple servers within a data center so that a single device does not carry an entire load. |
 | [Virtual Router Appliance](/docs/virtual-router-appliance?topic=virtual-router-appliance-getting-started) | Selectively routes private and public network traffic through a full-featured enterprise router with firewall, traffic shaping, policy-based routing, VPN, and a host of other features. |
-| [IPSec VPN](/docs/iaas-vpn?topic=VPN-setup-ipsec-vpn#setup-ipsec-vpn) | A suite of protocols designed to authenticate and encrypt all IP traffic between two locations by using a tunnel mode that provides an encrypted site-to-site network. |
+| [IPSec VPN](/docs/iaas-vpn?topic=iaas-vpn-setup-ipsec-vpn) | A suite of protocols designed to authenticate and encrypt all IP traffic between two locations by using a tunnel mode that provides an encrypted site-to-site network. |
 | [{{site.data.keyword.cloud_notm}} Direct Link](/docs/direct-link?topic=direct-link-get-started-with-ibm-cloud-direct-link#get-started-with-ibm-cloud-direct-link) | Leverages a Cloud Exchange provider to deliver connectivity to {{site.data.keyword.cloud_notm}} infrastructure locations. |
 {: caption="Table 3. Networking options" caption-side="top"}
 
