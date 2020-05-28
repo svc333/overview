@@ -4,7 +4,7 @@ copyright:
 
   years: 2018, 2020
 
-lastupdated: "2020-03-02"
+lastupdated: "2020-05-28"
 
 keywords: quick start, get started with IBM Cloud, quick start guide, Lite account, try out, free
 
@@ -34,14 +34,14 @@ Go to the [{{site.data.keyword.Bluemix_notm}} console](https://{DomainName}) and
 ## Quick start steps
 {: #steps-lite}
 
-1. Explore the [catalog](https://cloud.ibm.com/catalog){: external} for offerings that include free Lite service plans by selecting the **Lite** pricing plan option.
-2. Create an instance of an offering that includes a free Lite plan.
-3. Check out our [solution tutorials](/docs/tutorials?topic=solution-tutorials-tutorials) for detailed steps about using {{site.data.keyword.Bluemix_notm}} to implement common patterns based on best practices and proven technologies. 
+1. Explore the [catalog](https://cloud.ibm.com/catalog){: external} for products that include free Lite service plans by selecting the **Lite** pricing plan option.
+2. Create an instance of a product that includes a free Lite plan.
+3. Check out our [solution tutorials](/docs/solution-tutorials?topic=solution-tutorials-tutorials) for detailed steps about using {{site.data.keyword.Bluemix_notm}} to implement common patterns based on best practices and proven technologies. 
 
 
 ## Next steps
 {: #nextsteps-lite}
 
-Start building your apps. See the [Getting started tutorial](/docs/apps/tutorials?topic=creating-apps-getting-started) for more information.
+Start building your apps. See the [Getting started tutorial](/docs/apps?topic=apps-getting-started) for more information.
 
 
