@@ -2,7 +2,7 @@
 
 copyright:
   years: 2018, 2020
-lastupdated: "2020-03-20"
+lastupdated: "2020-05-28"
 
 keywords: first steps, understanding IT ops, infrastructure, quick start guide, IT ops admin, building
 
@@ -32,7 +32,7 @@ Sign up for a Pay-As-You-Go or Subscription account to get full access to all of
 {: #steps-it-ops}
 
 1. Leverage our learning materials to understand how {{site.data.keyword.cloud_notm}} works:
-    * Learn about what options are available for [hosting your applications](/docs/apps/tutorials?topic=creating-apps-hosting) in {{site.data.keyword.cloud_notm}}.
+    * Learn about what options are available for [hosting your applications](/docs/apps?topic=apps-hosting) in {{site.data.keyword.cloud_notm}}.
     * Check out the [architecture diagram](https://www.ibm.com/cloud/architecture/architectures){: new_window} ![External link icon](../icons/launch-glyph.svg) for {{site.data.keyword.cloud_notm}} infrastructure. 
 2. Use the cost estimator to get an idea of how much your infrastructure might cost:
 
