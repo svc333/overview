@@ -4,7 +4,7 @@ copyright:
 
   years: 2015, 2020
 
-lastupdated: "2020-04-21"
+lastupdated: "2020-05-28"
 
 keywords: release notes, what's new in IBM Cloud, what's new for the platform, what is new, cloud updates, new features, platform
 
@@ -61,7 +61,7 @@ New as of: 31 March 2020
 
 The 1.0.0 release of the {{site.data.keyword.Bluemix_notm}} CLI includes two new global options to help you more easily automate command-line scripting tasks. The new `--output json` option provides command output in a parsable JSON format, and the `--quiet` option surpresses some extra messages such as progress indicators simplify automated processing. The {{site.data.keyword.Bluemix_notm}} CLI now also includes the {{site.data.keyword.dev_cli_notm}} (`ibmcloud dev`) commands, so you can work with apps, pipelines, toolchains, and more without needing to install a separate plug-in. The Cloud Foundry CLI (`ibmcloud cf`) is no longer bundled but can still be installed separately.
 
-For more information about the {{site.data.keyword.Bluemix_notm}} CLI, see [Getting started with the IBM Cloud CLI and Developer Tools](/docs/cli?topic=cloud-cli-getting-started).
+For more information about the {{site.data.keyword.Bluemix_notm}} CLI, see [Getting started with the IBM Cloud CLI and Developer Tools](/docs/cli?topic=cli-getting-started).
 
 ### Customizing how access is assigned by using custom roles
 New as of: 23 March 2020
@@ -237,7 +237,7 @@ For more details, check out [Outstanding User Access Improvements Help Deliver a
 New as of: 30 November 2018
 {: #cli}
 
-You can now access all of the {{site.data.keyword.Bluemix_notm}} CLI plug-in documentation in one location, making it easier for you to find any CLI command that you are looking for. Check out the References section in the [CLI documentation](/docs/cli/reference/ibmcloud?topic=cloud-cli-ibmcloud_cli).
+You can now access all of the {{site.data.keyword.Bluemix_notm}} CLI plug-in documentation in one location, making it easier for you to find any CLI command that you are looking for. Check out the References section in the [CLI documentation](/docs/cli?topic=cli-ibmcloud_cli).
 
 ### Check out the new dashboard and resource list
 New as of: 30 November 2018
@@ -330,7 +330,7 @@ To avoid a situation where your service ID or API key is deleted causing an outa
 New as of: 31 May 2018
 {: #upgrade-lite}
 
-You can now upgrade your Lite account to a Subscription account directly from the {{site.data.keyword.Bluemix_notm}} console. With a Subscription account, you can use both platform and infrastructure offerings, and take advantage of discounted pricing by making a monthly spending and term commitment. You can also avoid surprises with fixed billing on a monthly payment schedule, but with the flexibility to order more or less based on your needs. For more information, see [FAQS for billing and usage](/docs/billing-usage?topic=billing-usage-billusagefaqs#subs-minimum). 
+You can now upgrade your Lite account to a Subscription account directly from the {{site.data.keyword.Bluemix_notm}} console. With a Subscription account, you can use both platform and infrastructure offerings, and take advantage of discounted pricing by making a monthly spending and term commitment. You can also avoid surprises with fixed billing on a monthly payment schedule, but with the flexibility to order more or less based on your needs. For more information, see [FAQS for billing and usage](/docs/billing-usage?topic=billing-usage-billusagefaqs). 
 
 ### {{site.data.keyword.Bluemix_notm}} CLI rebranding
 New as of: 15 May 2018
