@@ -4,7 +4,7 @@ copyright:
 
   years: 2020
 
-lastupdated: "2020-06-01"
+lastupdated: "2020-06-02"
 
 keywords: roles and responsibilities, shared responsibilities, IBM responsibility, customer responsibility
 
@@ -32,19 +32,20 @@ The responsibility of completing the following types of tasks on various offerin
 * Security and regulation compliance: Includes tasks such as security controls implementation and compliance certification.
 * Disaster recovery: Includes tasks such as providing dependencies on disaster recovery sites, provision disaster recovery environments, data and configuration backup, replicating data and configuration to the disaster recovery environment, and failover on disaster events.
 
+
 When you're reviewing the following sections, the tables list resources for each category and who manages them. The following list describes what constitutes each type of resource in {{site.data.keyword.cloud_notm}}.
 
 <dl>
   <dt>Data</dt>
-  <dd>Customer-owned content that includes all data managed and controlled by the customer, such as information stored into volumes, files, and databases hosted on IBM cloud resources and data processed, stored and logged by the client applications hosted on IBM cloud. It doesn't include client metadata, the information used by IBM to provide services to the customer and support and operate the client account, services, and reosurces that are always considered to be shared responsibility between client and IBM.
+  <dd>Customer-owned content that includes all data managed and controlled by the customer, such as information stored into volumes, files, and databases hosted on IBM cloud resources and data processed, stored and logged by the client applications hosted on IBM cloud. It doesn't include client metadata, the information used by IBM to provide services to the customer and support and operate the client account, services, and resources that are always considered to be shared responsibility between client and IBM.
 </dd>
   <dt>Applications</dt>
-  <dd>Customer-owned software components, such as executables, web applications, middlewares, frameworks, libraries, and any other software packages deployed by the clients that they developed or acquired by third parties and they deploy in {{site.data.keyword.cloud_notm}}.</dd>
+  <dd>Customer-owned software components, such as executables, web applications, middleware, frameworks, libraries, and any other software packages deployed by the clients that they developed or acquired by third parties and they deploy in {{site.data.keyword.cloud_notm}}.</dd>
   <dt>Operating systems</dt>
   <dd>The operating system software and configuration deployed in virtual or bare metal servers, such as Linux, Windows, or similar to the ones provided in [stock images](/docs/vpc-on-classic-vsi?topic=vpc-on-classic-vsi-images)</dd>
 <dt>Virtual and bare metal servers</dt>
   <dd>The virtual or bare metal servers ordered and managed through IBM Cloud services     </dd>  
- <dt>Virtual storages</dt>
+ <dt>Virtual storage</dt>
   <dd>The block, file or Object Storage buckets ordered and managed through {{site.data.keyword.cloud_notm}}.</dd>   
  <dt>Virtual network</dt>
   <dd>Network resources such as VLAN, VPC, subnets, or IPs provided by [classic infrastructure](/docs/vlans?topic=vlans-getting-started) and [VPC](/docs/vpc?topic=vpc-about-networking-for-vpc) services ordered and managed through {{site.data.keyword.cloud_notm}}.</dd>   
@@ -55,10 +56,11 @@ When you're reviewing the following sections, the tables list resources for each
 <dt>Physical storage</dt>
   <dd>The physical storage devices and resources, such as disks and storage devices used to host the virtual block, file or object storage buckets.</dd>   
 <dt>Physical network and devices</dt>
-  <dd>The physical network devices and resources, such as switch, routers, gateways, firewalls, and load balancers used to host the virtual network resources.  </dd> 
+  <dd>The physical network devices and resources, such as switches, routers, gateways, firewalls, and load balancers used to host the virtual network resources.  </dd> 
 <dt>Facilities and data centers</dt>
   <dd>The physical data center buildings with power, cooling, and rooms for all the {{site.data.keyword.cloud_notm}} physical equipment. </dd> 
 </dl>
+
 
 {{site.data.keyword.cloud_notm}} supports the following types of offerings and the corresponding shared responsibility models. For more information about each specific service, refer to the documentation for that service.
 
