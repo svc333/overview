@@ -49,6 +49,7 @@ Getting started with IBM Cloud
 
     {: .topicgroup}
     Legal resources
+        terms-of-use/termsofuse.md
         terms-of-use/notices.md
         slas.md
 
