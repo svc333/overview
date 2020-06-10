@@ -23,7 +23,7 @@ subcollection: overview
 {:note: .note}
 {:term: .term}
 
-# How does IBM Cloud ensure zero downtime?
+# How does IBM Cloud ensure near zero downtime?
 {: #zero-downtime}
 
 Your global strategy is important, and {{site.data.keyword.cloud}} uses global load balancing to ensure a redundant, highly available platform is available for you to host your workloads and applications.
